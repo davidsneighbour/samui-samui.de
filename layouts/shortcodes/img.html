@@ -6,55 +6,22 @@
 	https://gohugo.io/content-management/image-processing/
 */}}
 
-{{/* get file that matches the filename as specified as src="" in shortcode */}}
 {{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
-
-{{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}
-
-{{ $smallw := default "450x" }}
-{{ $mediumw := default "510x" }}
-{{ $largew := default "610x" }}
-{{ $extraw := default "825x" }}
-
-{{/* resize the src image to the given sizes */}}
-
-{{ .Scratch.Set "small" ($src.Resize $smallw) }}
-{{ .Scratch.Set "medium" ($src.Resize $mediumw) }}
-{{ .Scratch.Set "large" ($src.Resize $largew) }}
-{{ .Scratch.Set "extra" ($src.Resize $extraw) }}
-
-{{/* add the processed images to the scratch */}}
-
-{{ $small := .Scratch.Get "small" }}
-{{ $medium := .Scratch.Get "medium" }}
-{{ $large := .Scratch.Get "large" }}
-{{ $extra := .Scratch.Get "extra" }}
-
-{{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
-{{/* set the sizes attribute to (min-width: 35em) 825px, 100vw unless overridden in shortcode */}}
 <figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
-	{{ with .Get "link"}}<a href="{{.}}">{{ end }}
+{{ with .Get "link"}}<a href="{{.}}">{{ end }}
 	<img 
-	  width="825"
-	  {{ with .Get "sizes" }}sizes='{{.}}'{{ else }}sizes="(min-width: 35em) 825px, 100vw"{{ end }}
-	  srcset='
-	  {{ if ge $src.Width "450" }}
-	    {{ with $small.RelPermalink }}, {{.}} 450w{{ end }}
-	  {{ end }}
-	  {{ if ge $src.Width "510" }}
-	    {{ with $medium.RelPermalink }}, {{.}} 510w{{ end }}
-	  {{ end }}
-	  {{ if ge $src.Width "610" }}
-	    {{ with $large.RelPermalink }}, {{.}} 610w {{ end }}
-	  {{ end }}'
-	  {{ if .Get $medium }}
-	    src="{{ $medium.RelPermalink }}" 
-	  {{ else }}
-	    src="{{ $src.RelPermalink }}" 
-	  {{ end }}
-	  {{ with .Get "alt" }}alt='{{.}}'{{ end }}>
+		width="825"	  
+		srcset="{{- range $i, $e := .Site.Params.Imaging.Sizes -}}
+			{{ if $i }}, {{ end }}
+			{{ if ge $src.Width $e }}
+				{{ $small := $src.Resize (print $e "x" )}}
+				{{ with $small.RelPermalink }}{{.}} {{ $e }}w{{ end }}
+			{{ end }}
+		{{- end -}}"
+		src="{{ $src.RelPermalink }}" 	  
+		{{ with .Get "alt" }}alt="{{.}}" {{ end }}>
 	{{ if .Get "link"}}</a>{{ end }}
 	{{ with .Inner }}
-		<figcaption>{{ . }}</figcaption>
-	{{ end }}
+	<figcaption>{{ . }}</figcaption>
+{{ end }}
 </figure>

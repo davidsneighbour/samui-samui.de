@@ -144,6 +144,9 @@ post = [ "HTML", "AMP" ]
   # Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   anchor = "smart"
 
+[params.imaging]
+  sizes = ["825","610","510","450"]
+
 #############################################################
 # Menue points without local page
 #############################################################
