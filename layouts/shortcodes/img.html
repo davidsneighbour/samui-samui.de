@@ -8,18 +8,18 @@
 
 {{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
 <figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
-{{ with .Get "link"}}<a href="{{.}}">{{ end }}
+{{ with .Get "link" }}<a href="{{.}}">{{ end }}
 	<img 
 		width="825"	  
 		srcset="{{- range $i, $e := .Site.Params.Imaging.Sizes -}}
-			{{ if $i }}, {{ end }}
-			{{ if ge $src.Width $e }}
-				{{ $small := $src.Resize (print $e "x" )}}
+			{{- if $i -}}, {{- end -}}
+			{{- if ge $src.Width $e -}}
+				{{ $small := $src.Resize (print $e "x") }}
 				{{ with $small.RelPermalink }}{{.}} {{ $e }}w{{ end }}
-			{{ end }}
+			{{- end -}}
 		{{- end -}}"
 		src="{{ $src.RelPermalink }}" 	  
-		{{ with .Get "alt" }}alt="{{.}}" {{ end }}>
+		{{- with .Get "alt" -}}alt="{{.}}" {{- end -}}>
 	{{ if .Get "link"}}</a>{{ end }}
 	{{ with .Inner }}
 	<figcaption>{{ . }}</figcaption>
