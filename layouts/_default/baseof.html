@@ -13,11 +13,11 @@
     {{ partialCached "header" . }}
     <div id="content" class="container pt-3">
       <div id="contentcolumn" class="row">
-        <div id="maincolumn" class="col-xl-9 col-lg-8 col-md-8 col-sm-12 col">
+        <div id="maincolumn" class="col-xl-8 col-lg-8 col-md-7 col-sm-12 col">
           {{ block "main" . }}{{ end }}
         </div>
         {{ block "sidebar" . }}
-        <div id="sidebar" class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col">
+        <div id="sidebar" class="col-xl-4 col-lg-4 col-md-5 col-sm-12 col">
           {{ partialCached "sidebar/widget-author.html" . }}
           {{ partialCached "sidebar/widget-socialmedia.html" . }}
           {{ partialCached "sidebar/widget-archive.html" . }}
