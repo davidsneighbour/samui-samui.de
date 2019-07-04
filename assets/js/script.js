@@ -2,10 +2,6 @@ jQuery(document).ready(function ($) {
 
   'use strict';
 
-  // a little workaround for single blog posts and archive pages 
-  // that are not automatically shown in active navigation
-  jQuery('body.blog.paged #topnavigation li:nth-child(2), body.single #topnavigation li:nth-child(2), body.archive #topnavigation li:nth-child(2)').addClass('active');
-
   // back to top link
   var offset = 220;
   var duration = 500;
@@ -23,10 +19,6 @@ jQuery(document).ready(function ($) {
       return false;
   });
 
-  // @todo check if we use this and disable
-  //$('[data-toggle="tooltip"]').tooltip();
-
-  // @todo check if we use this and disable
   jQuery('.is-datediff').each(function(item, index){
     var $this = $(this);
     var $date1 = moment($this.data('from'));
@@ -34,7 +26,6 @@ jQuery(document).ready(function ($) {
     $this.text($date2.diff($date1, 'days')+1);
   });
 
-  // @todo check if we use this and disable
   jQuery('.is-datediff-month').each(function(item, index){
     var $this = $(this);
     var $date1 = moment($this.data('from'));

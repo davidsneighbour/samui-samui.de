@@ -20,7 +20,7 @@ JS creation for samui-samui.de
 {{ $js8 := resources.Get "js/search.js" }}
 {{ $js9 := resources.Get "js/script.js" }}
 {{ $js10 := resources.Get "js/cookieconsent.min.js" }}
-{{ $js := slice $js0 $js1 $js2 $js31 $js32 $js4 $js5 $js6 $js7 $js8 $js9 $js10 | resources.Concat "script.js" | resources.Minify | resources.Fingerprint "sha384" }}
+{{ $js := slice $js0 $js31 $js4 $js5 $js6 $js7 $js8 $js9 $js10 | resources.Concat "script.js" | resources.Minify | resources.Fingerprint "sha384" }}
 
 {{ partial "structured-data/organisation" . }}
 {{ partial "structured-data/person" . }}
