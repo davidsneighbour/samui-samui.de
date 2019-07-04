@@ -24,3 +24,7 @@ onload="var script = document.createElement('script');
         document.body.appendChild(script);">
 
 */}}
+
+{{ with partial "footer/js.html" . }}
+<link rel="preload" href="{{ .RelPermalink }}" as="script" crossorigin>
+{{ end }}

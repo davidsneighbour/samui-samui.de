@@ -3,4 +3,7 @@
 {{ partial "head/open_graph.html" . }}
 {{ partial "head/twitter.html" . }}
 {{ partialCached "head/favicon.html" . }}   
-{{ partialCached "head/css.html" . }}
+
+{{ with partialCached "head/css.html" . }}
+    <link rel="stylesheet" href="{{ .Permalink }}" integrity="{{ .Data.Integrity }}">
+{{ end }}

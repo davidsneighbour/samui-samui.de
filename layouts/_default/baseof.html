@@ -17,11 +17,11 @@
           {{ block "main" . }}{{ end }}
         </div>
         {{ block "sidebar" . }}
-        <div id="sidebar" class="col-xl-4 col-lg-4 col-md-5 col-sm-12 col">
-          {{ partialCached "sidebar/widget-author.html" . }}
-          {{ partialCached "sidebar/widget-socialmedia.html" . }}
-          {{ partialCached "sidebar/widget-archive.html" . }}
-        </div>
+          <div id="sidebar" class="col-xl-4 col-lg-4 col-md-5 col-sm-12 col">
+            {{ partialCached "sidebar/widget-author.html" . }}
+            {{ partialCached "sidebar/widget-socialmedia.html" . }}
+            {{ partialCached "sidebar/widget-archive.html" . }}
+          </div>
         {{ end }}
       </div>
     </div>

@@ -5,6 +5,12 @@
   Link: </assets/fonts/panton/panton-black-webfont.woff2>; rel=preload; as=font
   Link: </assets/fonts/panton/panton-blackitalic-webfont.woff2>; rel=preload; as=font
   Link: </assets/fonts/panton/panton-heavy-webfont.woff2>; rel=preload; as=font
+  {{ with partial "footer/js.html" . }}
+  Link: <{{ .RelPermalink }}>; rel=preload; as=script
+  {{ end }}
+  {{ with partialCached "head/css.html" . }}
+  Link: <{{ .RelPermalink }}>; rel=preload; as=style
+  {{ end }}
 
 /*.html
   X-Frame-Options: DENY
