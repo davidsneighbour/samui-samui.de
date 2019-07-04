@@ -195,7 +195,7 @@ post = [ "HTML", "AMP" ]
 
   # content particles
   siteslug = "samui-samui-de"
-  description = "Notizen über mein Leben als Auswanderer auf Koh Samui, Thailand"
+  description = "David's Neighbour's Notizen über sein Leben als Auswanderer auf der Insel Koh Samui in Thailand. Auf Deutsch, und so..."
   copyright = "All rights reserved. Copyright samui-samui.de"
 
   # design elements
