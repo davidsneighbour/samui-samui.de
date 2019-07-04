@@ -1,6 +1,5 @@
 ---
 title: "Schnell und wütend in Thailand"
-author: Patrick Kollitsch
 type: post
 date: 2019-07-02T22:07:09+07:00
 lastmod: 2019-07-02T22:07:09+07:00

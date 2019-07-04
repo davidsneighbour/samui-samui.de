@@ -10,9 +10,19 @@
           Von&nbsp;
           <address class="vcard author post-author">
             <span class="fn"> 
-              <a href="{{ .Site.Author.homepage }}" rel="author external">
-                {{ .Site.Author.name }}
-              </a>
+              {{- with $.Param "author.name" -}}
+                {{- with $.Param "author.homepage" -}}
+                  <a href="{{ $.Param "author.homepage" }}" rel="author external">
+                {{- end -}}
+                  {{ $.Param "author.name" }}
+                {{- with $.Param "author.homepage" -}}
+                  </a>
+                {{- end -}}
+              {{- else -}}
+                <a href="{{ .Site.Author.homepage }}" rel="author external">
+                  {{ .Site.Author.name }}
+                </a>
+              {{- end -}}
             </span>
           </address>
         </div>

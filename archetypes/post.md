@@ -1,7 +1,9 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 description: ""
-author: Patrick Kollitsch
+author: 
+    name: Patrick Kollitsch
+    homepage: https://kollitsch.de
 type: post
 date: {{ .Date }}
 lastmod: {{ .Date }}
