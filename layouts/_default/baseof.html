@@ -10,7 +10,7 @@
     {{ block "schema" . }}{{ end }}
   </head>
   <body id="{{ .Site.Params.Siteslug }}">
-    {{ partialCached "header" . }}
+    {{ partial "header" . }}
     <div id="content" class="container pt-3">
       <div id="contentcolumn" class="row">
         <div id="maincolumn" class="col-xl-8 col-lg-8 col-md-7 col-sm-12 col">
