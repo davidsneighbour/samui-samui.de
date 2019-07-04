@@ -1,7 +1,8 @@
 footer#authorinfo  .container, 
 footer#debugging .container, 
 footer#copyright .container, 
-footer#tagcloud .container {
+footer#tagcloud .container,
+footer#peoplecloud .container {
 
     padding-top: $spacer;
     background-color: theme-color("text");
@@ -27,7 +28,7 @@ footer#tagcloud .container {
     
 }
 
-footer#tagcloud {
+footer.taxonomycloud {
     line-height: 1rem;
     a:hover {
     text-decoration:none;
