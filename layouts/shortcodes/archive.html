@@ -1,4 +1,4 @@
-{{ range (where .Site.RegularPages "Section" "post").GroupByDate "January 2006" "asc" }}
+{{ range (where .Site.RegularPages "Section" "posts").GroupByDate "January 2006" "asc" }}
 
     {{ $.Scratch.Set "current" false }}
 
