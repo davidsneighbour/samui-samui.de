@@ -1,5 +1,6 @@
+<base href="{{ .Site.BaseURL }}">
+<link rel="canonical" href="{{ .Permalink }}">
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}">
-<link rel="publisher" href="https://plus.google.com/b/116934544398526568907/"/>
 {{ range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
 {{ end -}}

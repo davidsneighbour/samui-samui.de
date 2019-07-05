@@ -208,6 +208,11 @@ post = [ "HTML", "AMP" ]
   vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
   params = ["categories", "tags", "leute"]
 
+[params.opensearch]
+  # https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md
+  
+
+
 #############################################################
 # Social Media Setup
 #############################################################

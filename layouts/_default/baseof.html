@@ -3,15 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <base href="{{ .Site.BaseURL }}">
-    <link rel="canonical" href="{{ .Permalink }}">
     <title>{{ block "title" . }}{{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}{{ end }}</title>
     {{ partial "head" . }}
     {{ block "schema" . }}{{ end }}
   </head>
   <body id="{{ .Site.Params.Siteslug }}">
     {{ partial "header" . }}
-    <div id="content" class="container pt-3">
+    <main id="content" class="container pt-3">
       <div id="contentcolumn" class="row">
         <div id="maincolumn" class="col-xl-8 col-lg-8 col-md-7 col-sm-12 col">
           {{ block "main" . }}{{ end }}
@@ -24,7 +22,7 @@
           </div>
         {{ end }}
       </div>
-    </div>
+    </main>
     {{ partial "footer" . }}  
   </body>
 </html>
