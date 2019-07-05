@@ -10,7 +10,13 @@
 <figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
 {{ with .Get "link" }}<a href="{{.}}">{{ end }}
 	<img 
-		width="825"	  
+		width="{{ range first 1 .Site.Params.Imaging.Sizes }}{{ . }}{{ end }}"
+		sizes="{{- range $i, $e := .Site.Params.Imaging.Sizes -}}
+			{{- if $i -}}, {{- end -}}
+			{{- if ge $src.Width $e -}}
+				(min-width: {{ $e }}px) {{ $e }}px
+			{{- end -}}
+		{{- end -}}"
 		srcset="{{- range $i, $e := .Site.Params.Imaging.Sizes -}}
 			{{- if $i -}}, {{- end -}}
 			{{- if ge $src.Width $e -}}
