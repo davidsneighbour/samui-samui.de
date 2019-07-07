@@ -4,34 +4,34 @@
 	</div>
 	<div class="card-body d-flex justify-content-between">
     {{ with .Site.Params.Social.Facebook.Profileslug }}
-		<a href="https://www.facebook.com/{{ . }}">
-      <span class="icon large facebook" aria-hidden="true">
+		<a href="https://www.facebook.com/{{ . }}" class="facebook">
+      <span class="icon large" aria-hidden="true">
         {{ partialCached "icons/facebook-square.svg" . }}
       </span>
     </a>
-		<a href="http://m.me/{{ . }}">
-      <span class="icon large messenger" aria-hidden="true">
+		<a href="http://m.me/{{ . }}" class="messenger">
+      <span class="icon large" aria-hidden="true">
         {{ partialCached "icons/facebook-messenger.svg" . }}
       </span>
     </a>
     {{ end }}
     {{ with .Site.Params.Social.Twitter.Profileid }}
-		<a rel="me" href="https://twitter.com/{{ . }}">
-      <span class="icon large twitter" aria-hidden="true">
+		<a rel="me" href="https://twitter.com/{{ . }}" class="twitter">
+      <span class="icon large" aria-hidden="true">
         {{ partialCached "icons/twitter.svg" . }}
       </span>
     </a>
     {{ end }}
     {{ with .Site.Params.Social.Whatsapp.Profileid }}
-		<a href="https://api.whatsapp.com/send?phone={{ . }}">
-      <span class="icon large whatsapp" aria-hidden="true">
+		<a href="https://api.whatsapp.com/send?phone={{ . }}" class="whatsapp">
+      <span class="icon large" aria-hidden="true">
         {{ partialCached "icons/whatsapp.svg" . }}
       </span>
     </a>
     {{ end }}
     {{ with .Site.Params.Social.Snapchat.Profileid }}
-		<a href="https://www.snapchat.com/add/{{ . }}">
-      <span class="icon large snapchat" aria-hidden="true">
+		<a href="https://www.snapchat.com/add/{{ . }}" class="snapchat">
+      <span class="icon large" aria-hidden="true">
         {{ partialCached "icons/snapchat.svg" . }}
       </span>
     </a>
