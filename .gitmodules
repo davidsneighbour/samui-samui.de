@@ -1,9 +1,0 @@
-[submodule "themes/dnb-hugo-shortcodes"]
-	path = themes/dnb-hugo-shortcodes
-	url = git@github.com:davidsneighbour/dnb-hugo-shortcodes.git
-[submodule "themes/dnb-hugo-garuda"]
-	path = themes/dnb-hugo-garuda
-	url = https://github.com/davidsneighbour/dnb-hugo-garuda.git
-[submodule "themes/hugo-debugprint"]
-	path = themes/hugo-debugprint
-	url = git@github.com:davidsneighbour/hugo-debugprint.git
