@@ -65,3 +65,12 @@ $progress-bg: theme-color("contentbg");
 $progress-bar-color: theme-color("text");
 $progress-bar-bg: theme-color("primary");
 $progress-height: 5px;
+
+// brandcolors
+$brandcolors: (
+    "facebook": #3b5998,
+    "messenger": #0084ff,
+    "twitter": #1da1f2,
+    "whatsapp": #25d366,
+    "snapchat": #fffc00
+);
