@@ -18,7 +18,7 @@
       <ul id="menu-topnavigation" class="nav navbar-nav mr-auto">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-          <li class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) (and (eq $currentPage.Type "posts") (eq .Identifier "archiv" )) }} active{{end}}">
+          <li class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) (and (eq $currentPage.Type "posts") (eq .Identifier "archiv" )) (and (eq $currentPage.Kind "taxonomy") (eq .Identifier "archiv" )) }} active{{end}}">
             <a href="{{.URL}}"{{if eq .Page nil }} target="_blank" rel="noopener noreferrer"{{ end }} class="nav-link">
               <span class="icon larger light" aria-hidden="true">
                 {{ partialCached (print .Pre) .}} 
@@ -31,7 +31,6 @@
     </div>
   </nav>
   <div id="readingprogress" class="progress">
-    <div
-      class="progress-bar" role="progressbar"></div>
+    <div class="progress-bar" role="progressbar" id="progressbar"></div>
   </div>
 </div>
