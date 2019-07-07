@@ -3,7 +3,7 @@
 	url = git@github.com:davidsneighbour/dnb-hugo-shortcodes.git
 [submodule "themes/dnb-hugo-garuda"]
 	path = themes/dnb-hugo-garuda
-	url = git@github.com:davidsneighbour/dnb-hugo-garuda.git
+	url = https://github.com/davidsneighbour/dnb-hugo-garuda.git
 [submodule "themes/hugo-debugprint"]
 	path = themes/hugo-debugprint
 	url = git@github.com:davidsneighbour/hugo-debugprint.git
