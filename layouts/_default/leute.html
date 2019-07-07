@@ -7,7 +7,12 @@
     <span class="icon large" aria-hidden="true">
       {{ partialCached "icons/user-friends.svg" . }}
     </span>&nbsp;
-    <em>{{ .Page.Title }}</em>
+    <em>
+      {{ $name := split .Page.Title " " }}
+      {{ range $name }}
+        {{ . | humanize }}
+      {{ end }}
+    </em>
   </h2>
 
   {{ range .Paginator.Pages }}
