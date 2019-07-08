@@ -2,7 +2,7 @@
   {{ print "<!-- _default/index.html -->" | safeHTML }}
 
   {{ range $elem_index, $value := .Paginator.Pages }}
-  <article class="{{ if eq $elem_index 0 }}first{{ end }}" id="x{{ .File.UniqueID }}">
+  <article class="{{ if eq $elem_index 0 }}first{{ end }}"{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
     {{ .Scratch.Set "firstitem" "" }}
     <header class="title">
       <h2 class="entry-title">
