@@ -11,6 +11,8 @@
   {{ with partialCached "head/css.html" . }}
   Link: <{{ .RelPermalink }}>; rel=preload; as=style
   {{ end }}
+  Feature-Policy "geolocation none;midi none;notifications none;push none;sync-xhr none;microphone none;camera none;magnetometer none;gyroscope none;speaker self;vibrate none;fullscreen self;payment none;";
+
 
 /*
   X-Frame-Options: DENY
