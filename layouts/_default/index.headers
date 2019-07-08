@@ -18,7 +18,7 @@
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: no-referrer
   X-Content-Type-Options: nosniff
-  Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com www.google.com; style-src 'self' 'unsafe-inline'; img-src 'self' www.google-analytics.com; font-src 'self'; object-src 'none'; upgrade-insecure-requests; disown-opener; require-sri-for script style; manifest-src 'self'
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com www.google.com www.gstatic.com; style-src 'self' 'unsafe-inline'; img-src 'self' www.google-analytics.com; font-src 'self'; object-src 'none'; upgrade-insecure-requests; disown-opener; require-sri-for script style; manifest-src 'self'
 
 /*.html
   Accept-Encoding: gzip, deflate, br
