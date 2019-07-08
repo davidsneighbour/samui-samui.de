@@ -7,7 +7,7 @@
 
 {{ define "main" }}
   {{ print "<!-- _default/single.html -->" | safeHTML }}
-  <article id="x{{ .File.UniqueID }}">
+  <article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
   	<header class="title">
       <h2 class="entry-title">
         <a href="{{ .Permalink }}">{{ .Title }}</a>

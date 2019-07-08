@@ -16,7 +16,7 @@
   </h2>
 
   {{ range .Paginator.Pages }}
-  <article id="x{{ .File.UniqueID }}">
+  <article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
     <header class="title">
       <h2 class="entry-title">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
