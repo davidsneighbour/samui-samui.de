@@ -16,4 +16,8 @@ resources:
 
 {{< youtube RwzZBbmXrCk >}}
 
-Hin und wieder macht die TAT (Thailands Tourismus Regierungsorganisation) manche Sachen richtig. Zur Zeit zum Beispiel ver&ouml;ffentlichen sie eine Kurz-Video-Serie namens "Seasons" in der sie unentdeckte Regionen vorstellen. 
+Hin und wieder macht die TAT (Thailands Tourismus Regierungsorganisation) mal manche Sachen richtig. Zur Zeit zum Beispiel ver&ouml;ffentlichen sie zur Zeit eine Kurz-Video-Serie namens "Seasons" in der sie unentdeckte Regionen vorstellen. Die aktuelle Folge handelt von Ko Pha Luai, einer Insel im Angthong National Marine Park hier um die Ecke. Die Insel ist die erste "gr&uuml;ne Insel" Thailands. Das bedeutet, dass sie ihre Energie selbst umweltfreundlich herstellt und auch in vielen anderen Punkten sich unabh&auml;ngig versorgt. 
+
+Das erste und offiziell einzige "Green Island" Thailand's ist bewohnt von 180 Haushalten, die ihre Energie zu 100% per Solarpanel und Windr&auml;dern erstellt und von der Landwirtschaft und dem Fischfang lebt. 
+
+Bleibt zu hoffen, dass die steigende Zahl der "Besucher", welche diese Insel besuchen um von ihren Besuchern zu lernen, nicht das Idyll zerst&ouml;ren.
