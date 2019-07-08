@@ -5,6 +5,7 @@ author: Patrick Kollitsch
 type: post
 date: 2019-07-02T20:40:40+07:00
 lastmod: 2019-07-02T20:40:40+07:00
+url: /2019/07/der-alte-weg/
 tags:
     - politik
     - regierung
