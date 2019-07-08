@@ -12,9 +12,13 @@
   Link: <{{ .RelPermalink }}>; rel=preload; as=style
   {{ end }}
 
-/*.html
+/*
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
+  Referrer-Policy: no-referrer
+  X-Content-Type-Options: nosniff
+
+/*.html
   Accept-Encoding: gzip, deflate, br
 
 /*.manifest
@@ -24,36 +28,30 @@
 
 /script*.js
   Expires: Tue, 31-Dec-2020 23:59:59 GMT+0700
-  X-Content-Type-Options: nosniff
   Content-Type: text/javascript; charset=utf-8
   Cache-Control: public, max-age=31536000, immutable
   Accept-Encoding: gzip, deflate, br
 
 /style*.css
   Expires: Tue, 31-Dec-2020 23:59:59 GMT+0700
-  X-Content-Type-Options: nosniff
   Cache-Control: public, max-age=31536000, immutable
   Accept-Encoding: gzip, deflate, br
 
 /*.jpg
   Expires: Tue, 31-Dec-2020 23:59:59 GMT+0700
-  X-Content-Type-Options: nosniff
   Cache-Control: public, max-age=31536000, immutable
   Accept-Encoding: gzip, deflate, br
 
 /*.png
   Expires: Tue, 31-Dec-2020 23:59:59 GMT+0700
-  X-Content-Type-Options: nosniff
   Cache-Control: public, max-age=31536000, immutable
   Accept-Encoding: gzip, deflate, br
 
 /assets/*
   Expires: Tue, 31-Dec-2020 23:59:59 GMT+0700
-  X-Content-Type-Options: nosniff
   Cache-Control: public, max-age=31536000, immutable
 
 /images/*
   Expires: Tue, 31-Dec-2020 23:59:59 GMT+0700
-  X-Content-Type-Options: nosniff
   Cache-Control: public, max-age=31536000, immutable
 

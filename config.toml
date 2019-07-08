@@ -26,7 +26,7 @@ verboseLog = true
 #############################################################
 # Theme setup
 #############################################################
-theme = ["hugo-debugprint", "dnb-hugo-shortcodes", "dnb-hugo-garuda"]
+theme = ["hugo-debugprint"]
 #assetDir = "themes/dnb-hugo-garuda/assets"
 
 ##################################################################################
@@ -240,8 +240,8 @@ post = [ "HTML" ]
 #############################################################
 [params.staticman]
   enabled = true
-  instance = https://dnb-staticman.herokuapp.com/v3/entry
-  provider = github
-  repo = davidsneighbour/samui-samui.de
-  branch = comments
-  property = comments
+  instance = "https://dnb-staticman.herokuapp.com/v3/entry"
+  provider = "github"
+  repo = "davidsneighbour/samui-samui.de"
+  branch = "comments"
+  property = "comments"
