@@ -25,4 +25,10 @@ jQuery(document).ready(function($) {
     $(document).trigger('scroll');
   });
 
+  //var progressBar = document.getElementById('progressbar');
+  //function updateProgress(newValue) {
+  //  progressBar.value = newValue;
+  //  progressBar.getElementsByTagName('span')[0].textContent = newValue;
+  //}
+
 });

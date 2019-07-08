@@ -8,7 +8,7 @@
 
 {{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
 <figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
-{{ with .Get "link" }}<a href="{{.}}">{{ end }}
+	{{ with .Get "link" }}<a href="{{.}}">{{ end }}
 	<img 
 		width="{{ range first 1 .Site.Params.Imaging.Sizes }}{{ . }}{{ end }}"
 		sizes="{{- range $i, $e := .Site.Params.Imaging.Sizes -}}
@@ -28,6 +28,6 @@
 		{{- with .Get "alt" -}}alt="{{.}}" {{- end -}}>
 	{{ if .Get "link"}}</a>{{ end }}
 	{{ with .Inner }}
-	<figcaption>{{ . }}</figcaption>
-{{ end }}
+		<figcaption>{{ . }}</figcaption>
+	{{ end }}
 </figure>

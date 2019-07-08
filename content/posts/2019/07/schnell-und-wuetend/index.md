@@ -14,7 +14,7 @@ images:
     - schnell-und-wuetend.jpg
 ---
 
-{{< img src="schnell-und-wuetend.jpg" >}}Schnell und w&uuml;tend gut verpackt auf Thailands Stra&szlig;en{{< /img >}}
+{{< img src="schnell-und-wuetend.jpg" >}}Schnell und w&uuml;tend aber gut verpackt auf Thailands Stra&szlig;en{{< /img >}}
 
 Die ber&uuml;hmte Filmserie mit schnell fahrenden Autos und wahnsinnig reellen Stunts "Schnell und W&uuml;tend" (Fast and Furious) dreht zur Zeit in Thailand. Seit gut zwei Wochen mehren sich die Social Media postings mit wohlverpackten Autos und Angaben, wo genau man die "Fast and Furious 9" Drehorte finden kann. 
 
