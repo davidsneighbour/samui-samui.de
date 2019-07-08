@@ -19,10 +19,15 @@ paginatePath = "seite"
 relativeURLs = true                       # makes all relative urls absolute to root... yeah, don't ask. we won't tell...
 rssLimit = 10
 summaryLength = 150                       # the length of text to show in a .Summary
-theme = ["hugo-debugprint"]
 title = "Samui? Samui!"
 verbose = true
 verboseLog = true
+
+#############################################################
+# Theme setup
+#############################################################
+theme = ["hugo-debugprint", "dnb-hugo-shortcodes", "dnb-hugo-garuda"]
+#assetDir = "themes/dnb-hugo-garuda/assets"
 
 ##################################################################################
 # Bugfixes and Troubleshooting
@@ -211,8 +216,6 @@ post = [ "HTML" ]
 [params.opensearch]
   # https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md
   
-
-
 #############################################################
 # Social Media Setup
 #############################################################
@@ -231,3 +234,14 @@ post = [ "HTML" ]
 
 [params.social.whatsapp]
   profileid = "66878979350"
+
+#############################################################
+# Staticman Setup
+#############################################################
+[params.staticman]
+  enabled = true
+  instance = https://dnb-staticman.herokuapp.com/v3/entry
+  provider = github
+  repo = davidsneighbour/samui-samui.de
+  branch = comments
+  property = comments
