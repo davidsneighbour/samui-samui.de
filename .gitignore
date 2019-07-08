@@ -1,5 +1,6 @@
 /node_modules
 /resources
+/content/posts/ideas/
 
 # logfiles
 /log.txt
