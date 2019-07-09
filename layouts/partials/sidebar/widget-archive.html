@@ -6,9 +6,9 @@
 		<div class="card-text grid-container">
 			{{ range (where .Site.Pages "Section" "posts").GroupByDate "2006" "desc" }}
 				{{ range first 1 .Pages }}
-						<a href="/archiv/{{ .Date.Format "2006" }}">
-							{{ .Date.Format "2006" }}
-						</a>
+				<a href="/archiv/{{ .Date.Format "2006" }}">
+					{{ .Date.Format "2006" }}
+				</a>
 				{{ end }}
 			{{ end }}
 		</div>
