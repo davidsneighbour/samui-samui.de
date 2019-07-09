@@ -1,15 +1,15 @@
 /
   Accept-Encoding: gzip, deflate, br
-  Link: </assets/fonts/panton/panton-regular-webfont.woff2>; rel=preload; as=font
-  Link: </assets/fonts/panton/panton-regularitalic-webfont.woff2>; rel=preload; as=font
-  Link: </assets/fonts/panton/panton-black-webfont.woff2>; rel=preload; as=font
-  Link: </assets/fonts/panton/panton-blackitalic-webfont.woff2>; rel=preload; as=font
-  Link: </assets/fonts/panton/panton-heavy-webfont.woff2>; rel=preload; as=font
+  Link: </assets/fonts/panton/panton-regular-webfont.woff2>; rel=preload; as=font; crossorigin; type="font/woff2"
+  Link: </assets/fonts/panton/panton-regularitalic-webfont.woff2>; rel=preload; as=font; crossorigin; type="font/woff2"
+  Link: </assets/fonts/panton/panton-black-webfont.woff2>; rel=preload; as=font; crossorigin; type="font/woff2"
+  Link: </assets/fonts/panton/panton-blackitalic-webfont.woff2>; rel=preload; as=font; crossorigin; type="font/woff2"
+  Link: </assets/fonts/panton/panton-heavy-webfont.woff2>; rel=preload; as=font; crossorigin; type="font/woff2"
   {{ with partial "footer/js.html" . }}
-  Link: <{{ .RelPermalink }}>; rel=preload; as=script
+  Link: <{{ .RelPermalink }}>; rel=preload; as=script; integrity='{{ .Data.Integrity }}'
   {{ end }}
   {{ with partialCached "head/css.html" . }}
-  Link: <{{ .RelPermalink }}>; rel=preload; as=style
+  Link: <{{ .RelPermalink }}>; rel=preload; as=style; integrity='{{ .Data.Integrity }}'
   {{ end }}
   Feature-Policy: geolocation 'none'; midi 'none'; sync-xhr 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'none'; fullscreen 'none'; payment 'none'
 
