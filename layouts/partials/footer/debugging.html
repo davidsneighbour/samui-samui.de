@@ -7,9 +7,7 @@
               {{ partial "debugprint.html" . }}
               {{ partial "debugprint.html" .Params }}
               {{ partial "debugprint.html" .Site }}
-              {{ range .Site.Menus.main }}
-                {{ partial "debugprint.html" . }}
-              {{ end }}
+              {{ partial "debugprint.html" .Site.Menus }}
               {{ partial "debugprint.html" .Resources }}
               {{ partial "debugprint.html" .File }}
           </div>
