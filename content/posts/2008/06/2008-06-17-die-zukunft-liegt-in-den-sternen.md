@@ -13,7 +13,7 @@ Gut. Also Thaksin Shinawatra, der Präsident des Profigolferverbands von Thailan
 
 > Be patient with the headache-inducing situation until July 2
 
-Also Putsch am 2. Juli. Das letzte Mal, <a href="1560">als er einen Putsch vorher gesagt hat</a>, hat ein Wahrsager in Chiang Mai die Sterne im Mai als passend angesehen... Mai.
+Also Putsch am 2. Juli. Das letzte Mal, als er einen Putsch vorher gesagt hat, hat ein Wahrsager in Chiang Mai die Sterne im Mai als passend angesehen... Mai.
 
 Wie schön, dass es nicht mehr strafbar ist, über diesen Mann zu lachen.
 

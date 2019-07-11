@@ -17,7 +17,7 @@ url: /2007/05/geburtstagskind/
   </p>
 </div>
 
-Soosie hat heute ihren ersten Geburtstag. Sie hat eine Menge erlebt und <a href="1140">ist vom schwarzen verr&uuml;ckten Hund gebissen worden</a>. 
+Soosie hat heute ihren ersten Geburtstag. Sie hat eine Menge erlebt und ist vom schwarzen verr&uuml;ckten Hund gebissen worden. 
 
 Sie ist ein bisschen langsamer als Pokki, ein bisschen kleiner als Pokki, gehorcht nicht immer beim ersten Mal, rennt am liebsten weg und ist mit der Spielerziehung noch nicht so weit. Pokki hat zu seinem ersten Geburtstag schon die Eiskrem gebracht, Soosie spielt am liebsten noch mit H&auml;nden, in die sie bei&szlig;t. Daf&uuml;r sieht sie kahlgeschoren s&uuml;&szlig;er aus als Pokki. 
 

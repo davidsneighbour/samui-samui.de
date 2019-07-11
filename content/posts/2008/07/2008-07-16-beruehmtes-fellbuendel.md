@@ -17,6 +17,6 @@ url: /2008/07/beruehmtes-fellbuendel/
   </p>
 </div>
 
-Pokki hat es in und auf die Startseite eines [San Franziskanischen Hunde-Newsletters][1] gebracht... etwas ungünstig ist nur der <a href="1618">Zeitpunkt</a> ;)
+Pokki hat es in und auf die Startseite eines [San Franziskanischen Hunde-Newsletters][1] gebracht... etwas ungünstig ist nur der Zeitpunkt ;)
 
  [1]: http://www.woofreport.com/

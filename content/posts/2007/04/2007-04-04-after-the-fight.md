@@ -23,7 +23,7 @@ Baffallowfaitingg! Buffalowfaitingg! The champ of thee champions (_das haben Sie
 
 50 Meter weit weg schalteten sie wieder das Thaiband auf. Ich war gewarnt.
 
-Die ganze Zeremonie hatten wir ja im vergangenen Jahr schon. Erst h&ouml;rt man freudiges Schreien, dann h&ouml;rt man panisches Schreien, dann h&ouml;rt man h&auml;mmernde Hufen, dann sieht man einen dunklen R&uuml;cken durch den Dschungel galoppieren, dann kommen die jagenden Mopeds, dann die fliehenden Zuschauer. <a href="860">Das</a> <a href="861">l&auml;uft</a> <txp:permlink id="866">jedes</a> <txp:permlink id="876">Mal</a> nach dem gleichen Schema ab.
+Die ganze Zeremonie hatten wir ja im vergangenen Jahr schon. Erst h&ouml;rt man freudiges Schreien, dann h&ouml;rt man panisches Schreien, dann h&ouml;rt man h&auml;mmernde Hufen, dann sieht man einen dunklen R&uuml;cken durch den Dschungel galoppieren, dann kommen die jagenden Mopeds, dann die fliehenden Zuschauer. Das</a> <a href="861">l&auml;uft</a> <txp:permlink id="866">jedes</a> <txp:permlink id="876">Mal nach dem gleichen Schema ab.
 
 Heute nun kam der Protagonist des Kampfes direkt am Haus vorbei, schnaufte kurz die Hunde an, die erregt vor sich hin kl&auml;fften und bahnte sich dann hinter dem Haus einen Weg in den (abgebrannten) Dschungel, nur um 10 Meter weiter wieder heraus zu kommen. Jetzt gerade laufen sie auf der Stra&szlig;e 50 Meter weiter hinter ihm her.
 

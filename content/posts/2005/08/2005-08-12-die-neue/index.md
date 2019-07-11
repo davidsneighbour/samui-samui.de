@@ -15,7 +15,7 @@ Nun gut. Hätte ich eine Digitalkamera, die funktioniert, würde ich ein Foto ge
 
 Ich habe aber keine Kamera (zumindest keine die funktioniert), also müssen wir mal Kopfkino spielen. Darf ich vorstellen? Die Neue. Hütte. Eine lange Treppe führt zu einer etwa 10qm gro?en Veranda. Es schlie?t sich ein kleines _Medienzimmer_ an (derzeit nur mit Kabel-TV, DVD/VCD/MP3-Player werden folgen) ausgerüstet mit zwei Sesseln, einer Couch und einem Glas=Couchtisch. Dahinter geht es in einen Raum (die _Partyhalle_), in dem eine Spüle fest eingemauert ist, sehr gro? und sehr leer. Es hallt ein wenig. Hier könnte man ja ein Arbeitszimmer oder eine Gro?raumküche einrichten. Daran anschlie?end ein Schlafzimmer mit überaus gro?em Bett (die _Spielwiese_) und Air Condition sowie ein Bad (nur Dusche, Platz für einen Whirlpool ist aber noch) --- das _Spa Beddig_.
 
-Sagen wir so. Ich habe ein neues Haus. Gemietet. Es ist ein bisschen gro?. Ein bisschen grö?er als <a href="12">das alte Haus</a>. Ein bisschen sehr gro?. Eigentlich riesengro?. Ich hoffe nicht zu gro? Nagut, jetzt kann der ohnehin schon das ganze Jahr so häufig eintrudelnde Besuch auch bei mir übernachten ;)
+Sagen wir so. Ich habe ein neues Haus. Gemietet. Es ist ein bisschen gro?. Ein bisschen grö?er als das alte Haus. Ein bisschen sehr gro?. Eigentlich riesengro?. Ich hoffe nicht zu gro? Nagut, jetzt kann der ohnehin schon das ganze Jahr so häufig eintrudelnde Besuch auch bei mir übernachten ;)
 
 PS: Die Thai auf der Treppe des Kopfkinos war übrigens nur zur Verschönerung da, weil noch keine Blumentöpfe das Bild verzieren.
 

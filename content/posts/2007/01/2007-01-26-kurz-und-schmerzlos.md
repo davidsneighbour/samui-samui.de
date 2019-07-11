@@ -9,7 +9,7 @@ url: /2007/01/kurz-und-schmerzlos/
 
 
 ---
-Heute wurde das Kriegsrecht in den <a href="1032">41 Provinzen wo es noch nicht oder nur teilweise aufgehoben war</a> wieder aufgehoben. 
+Heute wurde das Kriegsrecht in den 41 Provinzen wo es noch nicht oder nur teilweise aufgehoben war wieder aufgehoben. 
 
 General Sonthi lies das [beinahe beiläufig][1] in seinem Interview mit dem CNN fallen. Ebenso wie den gut gemeinten Tipp an Thaksin, [das Land zu lieben, wo auch immer er sich gerade aufhalte][2].
 

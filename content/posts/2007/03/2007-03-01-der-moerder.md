@@ -13,7 +13,7 @@ dsq_thread_id:
 ---
 Und wieder hat Lt-General Assawin Khwanmuang zugeschlagen und einen Farang-Mord schnell und einfach aufgeklärt. 
 
-[Es wurde ein Mann verhaftet][1], der nach längerem Verhör gestanden hat, <a href="1153">die beiden Russinnen in Pattaya</a> umgebracht zu haben. Er hat bereits eine Polizeiakte mit mehreren ?berfällen. Nun soll es also doch ein Raub gewesen sein.
+[Es wurde ein Mann verhaftet][1], der nach längerem Verhör gestanden hat, die beiden Russinnen in Pattaya umgebracht zu haben. Er hat bereits eine Polizeiakte mit mehreren ?berfällen. Nun soll es also doch ein Raub gewesen sein.
 
 Der ganzen Sache voraus gegangen ist die Einbeziehung eines ""Game-Show-Gewinners":http://www.cdnn.info/news/travel/t070228.html", der anhand der ?berwachungskamerabilder die Marke des Mopeds erkannt hat --- eine Honda Wave (das hätte ich auch gekonnt, jedes zweite Moped hier ist --- eine Honda Wave) und ein [Fahndungsphoto][2] heute Nachmittag.
 

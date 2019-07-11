@@ -11,7 +11,7 @@ url: /2007/08/soi-karaoke/
 ---
 Mein kleiner Feldweg wurde neulich nicht nur in eine Asphaltstra?e verwandelt --- zumindest zu 90% der Länge, bis zur Karaokebar und 20 Meter dahinter, das Ende wurde mit einer neuen Feldwegkreuzung versehen und am Stra?enrand baggern Bagger und Schutttransporter fahren meine Internetkabelhalterbaumstämme einmal in der Woche um. Das allerdings hat seine Vorteile, denn dann bemühen sich nackte männliche Oberkörper, neue Stämme zu suchen um mein Kabel wieder aufzurichten. Das Internetkabel.
 
-Neulich hat sogar die Karaoke-Bar auf meiner Stra?e wieder auf gemacht. Oh, achso, hab ich das nicht erzählt? Die hat drei Wochen nach <a href="1068">meinem letzten Eintrag zum Thema</a> mangels Publikum und Interesse angefangen, Urlaub zu machen. Einmal war sie noch im März offen und seither war (angenehme) Stille. Vorher bekam man von leicht bekleideten Mädchen in strammer Pose auf der Bühne thailändische Liebeslieder gesungen, die vermutlich dem Tonfall und der Stimmung nach zu urteilen alle schlecht aus gingen.
+Neulich hat sogar die Karaoke-Bar auf meiner Stra?e wieder auf gemacht. Oh, achso, hab ich das nicht erzählt? Die hat drei Wochen nach meinem letzten Eintrag zum Thema mangels Publikum und Interesse angefangen, Urlaub zu machen. Einmal war sie noch im März offen und seither war (angenehme) Stille. Vorher bekam man von leicht bekleideten Mädchen in strammer Pose auf der Bühne thailändische Liebeslieder gesungen, die vermutlich dem Tonfall und der Stimmung nach zu urteilen alle schlecht aus gingen.
 
 Wenn man auf den einschlägigen Thaivideokanälen mal eine Testreihe fährt (ansieht), dann treffen drei der folgenden vier Punkte auf jede der erzählten Geschichten zu:
 

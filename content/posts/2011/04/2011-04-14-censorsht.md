@@ -16,4 +16,4 @@ Im thailändischen Fernsehen wird viel zensiert --- Zigaretten, "anstössige" Sz
 
 Das Video macht auf sehr kreative Art und Weise aufmerksam auf die Zweischneidigkeit der Zensur. Unfall- und Mordopfer werden trotzdem ungepixelt in allen Boulevardblättern an jeder zweiten Ecke gezeigt und verkauft.
 
-PS: Ich möchte gar nicht wissen, wie man in Thailand <a href="315">Old Boy</a> zeigen würde.
+PS: Ich möchte gar nicht wissen, wie man in Thailand Old Boy zeigen würde.

@@ -20,7 +20,7 @@ url: /2010/08/wenn-sie-denn-fluegge-werden/
     </a></div> 
     
     <p>
-      Heute, gut 22 Monate nach dem <a href="1666">Ende von Soosies Scheinschwangerschaft</a> hat auch Nikkie eine neue Heimat gefunden. Damit sind alle drei Babies in gute Hände abgegeben.
+      Heute, gut 22 Monate nach dem Ende von Soosies Scheinschwangerschaft hat auch Nikkie eine neue Heimat gefunden. Damit sind alle drei Babies in gute Hände abgegeben.
     </p>
     
     <p>

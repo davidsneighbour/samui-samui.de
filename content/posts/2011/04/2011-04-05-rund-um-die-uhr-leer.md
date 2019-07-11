@@ -13,6 +13,6 @@ Die 7elevens auf der Insel sind auch heute (6 Tage nachdem die Fähren wieder fa
 
 Bier ist auch ausverkauft und nicht mal Wasser in Flaschen gibt es mehr. In den vergangenen Tagen hatte man das Gefühl, dass da sehr selektiv ausgeliefert wurde --- ein 7eleven hatte Brot, ein 7eleven hatte Eier, ein 7eleven hatte Fertigprodukte. 
 
-Wie auch immer --- <a href="1971">ich brauchs ja nicht</a> ;)
+Wie auch immer --- ich brauchs ja nicht ;)
 
 Die Hochwasserstellen auf der Insel sind bis auf ein paar nasse Flecken abgelaufen --- da passt es richtig gut, dass es nach ein paar sonnigen Tagen heute wieder regnet.

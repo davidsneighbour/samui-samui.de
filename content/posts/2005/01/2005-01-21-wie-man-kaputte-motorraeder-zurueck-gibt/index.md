@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-Das vermutlich nicht letzte Kapitel <a href="24">meiner gestrigen Erlebnisse</a> durfte ich eben erleben. Gegen 11 schneite Gilbert (Schillbär), der Franzose mit den vielen Mopeds, herein und präsentierte mir stolz den Schlüssel zu "meinem" Moped. Kostenpunkt 2500 THB im Monat. Das sind 50 Euro, was für ein Moped nicht schlecht ist.
+Das vermutlich nicht letzte Kapitel meiner gestrigen Erlebnisse durfte ich eben erleben. Gegen 11 schneite Gilbert (Schillbär), der Franzose mit den vielen Mopeds, herein und präsentierte mir stolz den Schlüssel zu "meinem" Moped. Kostenpunkt 2500 THB im Monat. Das sind 50 Euro, was für ein Moped nicht schlecht ist.
 
 Jedenfalls war ich plötzlich stolzer Besitzer zweier Mopeds. Mein Urwaldmoped und das "Neue". Ich entschied mich recht spontan, mein Geld zusammen zu kratzen und das "alte" Moped zurückzubringen. Gesagt, getan. Der Mopedverleiher, ein recht stämmiger eher haiwaiianisch aussehender Thai, grinste mir weniger erfreut entgegen, als ich ihm die Story mit dem Laster erzählte, fragte mich, ob ich heil geblieben bin und betrachtete ausgiebigst meine verschiedenen Wunden. Anschlie?end rief er einen anderen Mann herbei (vermutlich der Hausmechaniker), der dann ehrwürdig mit dem Moped eine Runde fuhr und anschlie?end detailliert und merkwürdig wortreich auf Thai erklärte, was alles kaputt sei. Nach ein bisschen Hin- und Her einigten wir uns auf 500" /> (10 kleine Euros) zusätzlich zu den 200 THB pro Tag, ich durfte zahlen, wurde verabschiedet und mitleidig gefragt, ob ich nicht zum IT-Komplex zurückgefahren werden wolle (der IT-Komplex ist etwa 300 Meter entfernt).
 

@@ -21,6 +21,6 @@ Jaja die Belgier!
 
 Vergangenen Donnerstag wurden auf der Insel (Samui? Ja, Samui!) vier Belgier [festgenommen][1], die zur meistgesuchtesten Bande Belgiens geh&ouml;rten. Sie wurden (nat&uuml;rlich) vor den Kameras aller Kan&auml;le vorgef&uuml;hrt und waren Tagesgespr&auml;ch in den einschl&auml;gigen Ladybars.
 
-Als Samui das letzte Mal im Fernsehen war, ging es um <a href="767">unseren kleinen Grundst&uuml;cks-Skandal</a>. Man tut was man kann...
+Als Samui das letzte Mal im Fernsehen war, ging es um unseren kleinen Grundst&uuml;cks-Skandal. Man tut was man kann...
 
  [1]: http://kurl.de/opeyal

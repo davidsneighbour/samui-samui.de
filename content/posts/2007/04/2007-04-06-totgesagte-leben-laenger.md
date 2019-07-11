@@ -13,6 +13,6 @@ url: /2007/04/totgesagte-leben-laenger/
   <a href="http://www.flickr.com/photos/schreibblogade/448491588/"><img src="//farm1.static.flickr.com/214/448491588_2531399e5b.jpg" class="flickr-photo" alt="" /></a></p> 
   
   <p>
-    <a href="1169">Karl</a> is back
+    Karl is back
   </p>
 </div>

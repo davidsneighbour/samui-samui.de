@@ -9,7 +9,7 @@ url: /2005/02/the-shutter/
 
 
 ---
-Gestern habe ich dann endlich <a href="50">meinen Thai-Film</a> angesehen. Nicht zu fassen, es ist ein solider kleiner Horrorthriller. Freundlicherweise war ganz kurz der Titel im Vorspann auf Englisch zu erkennen, so dass ich [diese überaus informative Seite zum Film][1] namens "Shutter" verlinken kann ;)
+Gestern habe ich dann endlich meinen Thai-Film angesehen. Nicht zu fassen, es ist ein solider kleiner Horrorthriller. Freundlicherweise war ganz kurz der Titel im Vorspann auf Englisch zu erkennen, so dass ich [diese überaus informative Seite zum Film][1] namens "Shutter" verlinken kann ;)
 
 In "The Shutter" geht es um einen Fotographen und seine Freundin, die nach einem mit Freunden verzechten Abend vermutlich eine junge Frau überfahren (die Freundin fährt) und dann als jemand dazu kommt schnell vom Unfallort verschwinden. Im Gro?en und Ganzen nichts Besonderes, wenn nicht plötzlich seltsame Erscheinungen auf den Photos des Fotographen erscheinen würden, wenn er nicht plötzlich die Tote selbst ständig sehen würde und wenn er nicht langsam aber sicher durchdrehen würde. So nach und nach kommt einiges aus dem Dunkel der Vergangenheit. 
 

@@ -21,4 +21,4 @@ Weitere Tricks sind lt. eines Bekannten, dass am ?l und dem Benzin gepanscht wur
 
 Normalerweise (wenn der Tank nicht gerade wieder mal komplett trocken ist) ermögliche ich mir immer den Weg zur nächsten Tankstelle in Maenam. Ein bisschen weiter aber sauberer. Auf Dauer rentiert sich das.
 
-Also: Tankstelle in Ban Thai: böse. (Mir fällt gerade ein, dass ich das <a href="1614">schon mal</a> erwähnt habe. Naja, mit dem Alter muss man sich halt regelmässig die Finger verbrennen, damit das im Hirn bleibt.)
+Also: Tankstelle in Ban Thai: böse. (Mir fällt gerade ein, dass ich das schon mal erwähnt habe. Naja, mit dem Alter muss man sich halt regelmässig die Finger verbrennen, damit das im Hirn bleibt.)

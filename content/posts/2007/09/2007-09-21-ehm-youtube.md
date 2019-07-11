@@ -13,7 +13,7 @@ Ich weiss, es wird langsam einseitig hier im Blog, aber: [Es gibt da ein zweitei
 
 Ich und auch kein anderer Thai haben das Video natürlich nicht angesehen. 
 
-Der Geheimdienst hat jedenfalls bei Youtube angefragt, ob man das Video nicht für thailändische Youtube-Nutzer blocken kann. Mal sehen. Vermutlich wird man sich bei Youtube politisch korrekt verhalten und lieber <a href="1368">wieder</a> die ganze Website blocken lassen.
+Der Geheimdienst hat jedenfalls bei Youtube angefragt, ob man das Video nicht für thailändische Youtube-Nutzer blocken kann. Mal sehen. Vermutlich wird man sich bei Youtube politisch korrekt verhalten und lieber wieder die ganze Website blocken lassen.
 
 Interessant finde ich ja, dass die angeblich eingerichtete Lösung der Thais, einzelne Videoclips zu blocken aus einem Anruf des <span class="caps">DSI</span> bei Youtube mit anschlie?ender Abwägung der Reaktion dort besteht. Hightech.
 

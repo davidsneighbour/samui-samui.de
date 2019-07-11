@@ -12,7 +12,7 @@ url: /2007/03/makha-bucha-day-3/
 Gestern war Makha Bucha Day. Neun Monate nach Buddhas Erleuchtung am Vollmondtag des dritten Monats des Mondjahres (da braucht man mehr als zehn Finger um das Datum zu errechnen) begaben sich verschiedene Ereignisse:
 
   * 1250 Anhänger, Buddhas Schüler (Arhantas, erleuchtet und von ihm ordiniert), versammelten sich ohne Absprache um Buddha
-  * Buddha hielt eine Predigt, in der er die Grundlagen des Buddhismuses legte, <a href="1160">Ovadhapatimokha</a> genannt.
+  * Buddha hielt eine Predigt, in der er die Grundlagen des Buddhismuses legte, Ovadhapatimokha genannt.
 
 Damit ist dieser Tag einer der drei wichtigsten buddhistischen Feiertage im Theravada-Buddhismus. 
 

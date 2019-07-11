@@ -13,6 +13,6 @@ Heute abend (21 Uhr Bangkokzeit) wird Thaksin "über eine Webcam" mit ihn unters
 
 In dieser Woche wurde übrigens auch via Laufband auf den Thaikanälen verkündet, dass kein neuer Putsch oder gar ein Gegenputsch ansteht. Ein Gerücht das erst durch diese Nachricht entstand ;)
 
-Dann wurde mal dementiert mal bestätigt, dass er ein Haus in Hong Kong gekauft habe und sich immer noch in ?bernahme-Verhandlungen mit dem Fussballclub Manchester City befindet, <a href="1288">trotz eingefrorener Konten</a>.
+Dann wurde mal dementiert mal bestätigt, dass er ein Haus in Hong Kong gekauft habe und sich immer noch in ?bernahme-Verhandlungen mit dem Fussballclub Manchester City befindet, trotz eingefrorener Konten.
 
  [1]: http://www.nationmultimedia.com/breakingnews/read.php?newsid=30036934

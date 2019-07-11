@@ -17,7 +17,7 @@ url: /2007/08/abendbeleuchtung/
   </p>
 </div>
 
-Was hier aussieht wie die Reaktion der Isaan-Bevölkerung auf das Ergebnis des <a href="1360">Referendums vom Sonntag </a>ist eher Bestandteil meiner Abendunterhaltung. Da wird verbrannt, was die Müllkübel hergeben. 
+Was hier aussieht wie die Reaktion der Isaan-Bevölkerung auf das Ergebnis des Referendums vom Sonntag ist eher Bestandteil meiner Abendunterhaltung. Da wird verbrannt, was die Müllkübel hergeben. 
 
 Am Wochenende wurde die Wiese vorm Haus abgeholzt und heute pünktlich zum Sonnenuntergang wurden die Häufen in Brand gesteckt. War relativ lustig. Relativ, weil der Wind die Schwaden direkt in mein kleines Häuslein geweht hat.
 

@@ -9,4 +9,4 @@ url: /2006/02/makha-bucha-day-2/
 
 
 ---
-Am Montag ist ein buddhistischer Feiertag, der <a href="84">Makha Bucha Day</a>. Vermutlich versuche ich in verschiedenen Wats ein paar Bilder zu schie?en und den Mönchen zu zu hören.
+Am Montag ist ein buddhistischer Feiertag, der Makha Bucha Day. Vermutlich versuche ich in verschiedenen Wats ein paar Bilder zu schie?en und den Mönchen zu zu hören.

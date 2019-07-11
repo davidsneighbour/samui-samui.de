@@ -21,6 +21,6 @@ Bei der Wahl 2006 (um deren Fälschung es heute ging) erhielten sie sogar 62% un
 
 Die Wahlen haben sie auf populistische Weise gewonnen, indem armen Regionen finanzielle Mittel versprochen wurden, viel Gutes für die leider zahlreiche arme Bevölkerung getan wurde und (so meinen manche) Stimmen bezahlt wurden. Geld ist immer noch eine Währung. 
 
-Der kometenhafte Aufstieg der Partei und ihres Führers nahm sein Ende am 19. September vergangenen Jahres. Seit dem Putsch ist jegliche politische Tätigkeit verboten. <a href="1279">Heute nun wurde die Partei vom Verfassungsgericht aufgelöst</a>. Schade eigentlich. Sie hatte einen so symbolischen Namen.
+Der kometenhafte Aufstieg der Partei und ihres Führers nahm sein Ende am 19. September vergangenen Jahres. Seit dem Putsch ist jegliche politische Tätigkeit verboten. Heute nun wurde die Partei vom Verfassungsgericht aufgelöst. Schade eigentlich. Sie hatte einen so symbolischen Namen.
 
  [1]: http://www.thairakthai.or.th/index.asp

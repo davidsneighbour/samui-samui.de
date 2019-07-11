@@ -9,7 +9,7 @@ url: /2005/04/der-visa-run/
 
 
 ---
-Neulich war ich übrigens auf dem Visa-Run (<a href="143">Wir erinnern uns</a>: "Wenn ich Run höre, dann erklingt irgendwo in meinem Hinterkopf immer eine Stelle aus Pink Floyds "The Wall" mit "you better run, run, run, run, run" oder so. Beim Suchen eben fiel mir auf, dass die Stelle aber auch aus meiner eigenen "The Wall"-Version stammen könnte, ich fand sie nämlich nicht.") in Burma, was manche noch als Birma kennen, aber nun bereits wieder Myanmar hei?t.
+Neulich war ich übrigens auf dem Visa-Run (Wir erinnern uns: "Wenn ich Run höre, dann erklingt irgendwo in meinem Hinterkopf immer eine Stelle aus Pink Floyds "The Wall" mit "you better run, run, run, run, run" oder so. Beim Suchen eben fiel mir auf, dass die Stelle aber auch aus meiner eigenen "The Wall"-Version stammen könnte, ich fand sie nämlich nicht.") in Burma, was manche noch als Birma kennen, aber nun bereits wieder Myanmar hei?t.
 
 Ich wurde am frühen Morgen (5 Uhr. Das war schon früh. Wenn man bedenkt, dass ich normalerweise um diese Zeit schon wach bin, ist es eine Laune der Natur, dass ich an diesem Morgen gut noch ein paar Stunden hätte schlafen können) mit dem Kleinbus aufgesammelt, der zu diesem Zeitpunkt bereits einige Lebewesen enthielt. Man fuhr uns nach Ban Nathon zur Fähre, lud uns da ab, schickte uns auf die Fähre und verschwand. Na schön.
 

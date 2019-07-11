@@ -13,7 +13,7 @@ Heute Nachmittag findet in Bangkok ein "Seminar" statt, auf dem &uuml;ber [Zensu
 
 > The seminar will be held at <span class="caps">HOUSE</span> <span class="caps">RCA</span> rama 9 theatre on Monday 23rd, at 4 PM.
 > 
-> Speakers include <a href="1223">Apichatpong Weerasatetakul</a>, Prachya Pinkeaw (director of Ong Bak), Pantham Tongsang (Syndroms's producer), Chalida Uabumrungjit (Thai Film Foundation) and Kraisak Choonhawan.
+> Speakers include Apichatpong Weerasatetakul, Prachya Pinkeaw (director of Ong Bak), Pantham Tongsang (Syndroms's producer), Chalida Uabumrungjit (Thai Film Foundation) and Kraisak Choonhawan.
 > 
 > Moderated by filmmaker Pimpaka Toweera.
 

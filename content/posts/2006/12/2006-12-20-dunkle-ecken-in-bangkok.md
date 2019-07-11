@@ -19,6 +19,6 @@ Eine Radiostation in Bangkok hat eine Liste der gefährlichsten Ecken Bangkoks h
   * **Charansanitwong 37, Bangkok Noi** --- Diebstähle und sexuelle ?bergriffe
   * [und andere][1]
 
-Die Liste hat Vor- und Nachteile. Zum einen wissen wir nun, wohin wir gehen müssen um zu Hause mit "ich wurde im Urlaub vergewaltigt und ermordet"-Berichten auftrumpfen zu können (<a href="600">eigentlich genügt da schon ein einsamer Spaziergang zu Neujahr am Strand von Lamai aus Samui</a>) und wo man Drogen kaufen kann. Au?erdem wissen die News-Teams der relevanten Sender, wo sie Einheiten stationär aufbauen können um das Programm zu bereichern (im Nachtprogramm wird _nichts_ ausgepixelt). Andererseits werden die organisierteren Elemente an eben diesen Stellen nun andere Sois (die Nebenstra?en) beleben.
+Die Liste hat Vor- und Nachteile. Zum einen wissen wir nun, wohin wir gehen müssen um zu Hause mit "ich wurde im Urlaub vergewaltigt und ermordet"-Berichten auftrumpfen zu können (eigentlich genügt da schon ein einsamer Spaziergang zu Neujahr am Strand von Lamai aus Samui) und wo man Drogen kaufen kann. Au?erdem wissen die News-Teams der relevanten Sender, wo sie Einheiten stationär aufbauen können um das Programm zu bereichern (im Nachtprogramm wird _nichts_ ausgepixelt). Andererseits werden die organisierteren Elemente an eben diesen Stellen nun andere Sois (die Nebenstra?en) beleben.
 
  [1]: http://www.nationmultimedia.com/2006/12/20/national/national_30022050.php

@@ -20,7 +20,7 @@ url: /2010/10/der-nationale-tag-der-polizei/
     </a></div> 
     
     <p>
-      Das die Polizei in Thailand etwas übereifrig ist, wenn es darum geht, das Gesicht zu wahren oder gar die Popularität zu verbessern, habe ich schon <a href="1346">das eine oder andere Mal</a> angemerkt.
+      Das die Polizei in Thailand etwas übereifrig ist, wenn es darum geht, das Gesicht zu wahren oder gar die Popularität zu verbessern, habe ich schon das eine oder andere Mal angemerkt.
     </p>
     
     <p>

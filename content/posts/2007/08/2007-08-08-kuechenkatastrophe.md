@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-Heute kam es endlich zur Küchenkatastrophe. Ich wartete darauf schon länger und hatte angenommen, dass bereits <a href="1330">meine Cordon Bleus</a> eine Niederlage würden. Wurden sie aber nicht. Heute nun sowas wie Spirelli Bolognese. Ich erwähne hier "sowas" weil wir während der Zubereitung viermal in den 7-Eleven rannten, um potentielle Zutaten zu kaufen. 
+Heute kam es endlich zur Küchenkatastrophe. Ich wartete darauf schon länger und hatte angenommen, dass bereits meine Cordon Bleus eine Niederlage würden. Wurden sie aber nicht. Heute nun sowas wie Spirelli Bolognese. Ich erwähne hier "sowas" weil wir während der Zubereitung viermal in den 7-Eleven rannten, um potentielle Zutaten zu kaufen. 
 
 Zuerst wurde Gehacktes gekauft, die Nudeln hab ich heute Morgen schon im Tesko gefunden. Nach ein bisschen rumgehacke stellte ich fest, dass entgegen meiner Annahme keine Zwiebeln mehr da waren. Ab in den 7-Eleven. Zwiebeln gibts auf dem Markt vor dem 7-Eleven, in selbigem ein paar Bier.
 

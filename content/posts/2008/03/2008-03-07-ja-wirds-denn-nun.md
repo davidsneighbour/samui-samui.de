@@ -9,7 +9,7 @@ url: /2008/03/ja-wirds-denn-nun/
 
 
 ---
-Seit gut zwei Wochen bekomme ich täglich verschiedene Anfragen von unterschiedlichsten Nationalitäten, ob beim <a href="1497">wilden animalischen Sex</a> neulich denn nun ein Treffer gelandet wurde. 
+Seit gut zwei Wochen bekomme ich täglich verschiedene Anfragen von unterschiedlichsten Nationalitäten, ob beim wilden animalischen Sex neulich denn nun ein Treffer gelandet wurde. 
 
 Ich weiss es nicht.
 

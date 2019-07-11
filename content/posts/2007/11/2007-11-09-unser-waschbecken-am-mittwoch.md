@@ -19,4 +19,4 @@ dsq_thread_id:
   </p>
 </div>
 
-<a href="1409">Siehe auch hier</a>.
+Siehe auch hier.

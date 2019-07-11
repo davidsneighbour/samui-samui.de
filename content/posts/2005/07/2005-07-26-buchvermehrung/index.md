@@ -9,7 +9,7 @@ url: /2005/07/buchvermehrung/
 
 
 ---
-<a href="283">Nun habe ich ja gestern endlich Mister Brysons Nicht-Travel-Doku zu Ende gelesen</a> und war entsprechend buchlos. Also knatterte ich mit meinem kleinen roten Moped nach getaner Arbeit durch die Beach-Street unseres kleinen Küstenortes auf der Suche nach einem Buchladen mit Harry-Potter-Verkauf (ich habe den fünften Band immer noch nicht gelesen --- ja, ich brauche immer etwas länger). Gefunden ward ein Laden schnell --- die Filiale einer Kette aus Bangkok, die gebrauchte Bücher verkauft.
+Nun habe ich ja gestern endlich Mister Brysons Nicht-Travel-Doku zu Ende gelesen und war entsprechend buchlos. Also knatterte ich mit meinem kleinen roten Moped nach getaner Arbeit durch die Beach-Street unseres kleinen Küstenortes auf der Suche nach einem Buchladen mit Harry-Potter-Verkauf (ich habe den fünften Band immer noch nicht gelesen --- ja, ich brauche immer etwas länger). Gefunden ward ein Laden schnell --- die Filiale einer Kette aus Bangkok, die gebrauchte Bücher verkauft.
 
 Ich mag gebrauchte Bücher. Man überlegt beim Umschlagen der klebrigen Seiten immer, was der oder die Leserin wohl gerade gegessen hat beim Lesen. Oder ob sie es im Bett gelesen haben. Oder am Strand. Oder im Flugzeug. Oder ob sie es in der Gegend rumliegen hatten, um einen potentiellen Sexualpartner was vorzugaukeln. Au?erdem sind sie preiswert (die Bücher). Logisch. 
 

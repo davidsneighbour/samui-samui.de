@@ -11,7 +11,7 @@ url: /2007/02/undiplomatischer-ballwechsel/
 ---
 Singapore gegen Thailand war gestern angesagt bei den ASEAN Football Championships und [es kam zum Eklat][1].
 
-Nachdem _Die Singaporer_&trade; <a href="1102">neulich Thaksin von ihrem stellvertretenden Premier empfangen lie?en</a>, wurde nun in der neuntletzten Minute des Spieles beim Stand von 1:1 ein Strafstro? gegen Thailand entschieden, weil Niweat Siriwong einen dieser Singaporer gefault haben soll.
+Nachdem _Die Singaporer_&trade; neulich Thaksin von ihrem stellvertretenden Premier empfangen lie?en, wurde nun in der neuntletzten Minute des Spieles beim Stand von 1:1 ein Strafstro? gegen Thailand entschieden, weil Niweat Siriwong einen dieser Singaporer gefault haben soll.
 
 Die Thais verschwanden aus Protest für 15 Minuten in der Kabine, lie?en sich dann doch noch zum Weiterspielen überreden und verloren (zum ersten Mal seit 30 Jahren) gegen den Stadtstaat mit 2:1. 
 

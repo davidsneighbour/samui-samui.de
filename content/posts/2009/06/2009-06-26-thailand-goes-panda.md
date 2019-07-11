@@ -11,7 +11,7 @@ tags:
   - panda
 
 ---
-Thailand ist ganz verrückt nach dem <a href="1759">Pandababy</a>. Das merkt man an den täglichen Berichten über Gewichtszunahme, Beinwuchs und andere wichtige Lebensdaten des Winzlings. Die Karten zur Namenswahl waren so begehrt, dass sie fast ausverkauft sind (was daran liegen könnte, dass man durch die Namenslotterie eine Million Baht (immerhin rund 21.000 Euro), ein Auto und eine Reise für Zwei irgendwo nach China gewinnen kann).
+Thailand ist ganz verrückt nach dem Pandababy. Das merkt man an den täglichen Berichten über Gewichtszunahme, Beinwuchs und andere wichtige Lebensdaten des Winzlings. Die Karten zur Namenswahl waren so begehrt, dass sie fast ausverkauft sind (was daran liegen könnte, dass man durch die Namenslotterie eine Million Baht (immerhin rund 21.000 Euro), ein Auto und eine Reise für Zwei irgendwo nach China gewinnen kann).
 
 Wie ver-rückt verrückt man nach den Pandas ist, kann man an den folgenden Pandaphotos sehen.
 

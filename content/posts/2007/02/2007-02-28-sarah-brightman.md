@@ -21,6 +21,6 @@ Mit dem Titelsong aus dem "Phantom of the opera" in einem Video das von der Bild
 
 Mein dringender Appell an alle amerikanischen, britischen, französischen, australischen und tschechischen Hitserien: Bitte, macht eure Folgen mindestens 41 Minuten lang. Dann hat Sarah keine Chance mehr, meinen Morgen zu, ehm, bereichern und sich den Thais in Verbindung mit Deutschland einzuprägen. Dann bringt man nämlich kürzere Videos von Thaistars und der Dings... hier Hotelerbin... Paris Hilton... auch nicht intelligent (in der Aussage) oder schön aber kürzer.
 
-Hin und wieder wünscht man sich einen kleinen Putsch herbei. <a href="897">Da gibts wenigsten Trailer mit Inhalten im Fernsehen zu sehen</a>.
+Hin und wieder wünscht man sich einen kleinen Putsch herbei. Da gibts wenigsten Trailer mit Inhalten im Fernsehen zu sehen.
 
 PS: So. Und nun mal Butter bei die Fische --- Wer hat "Time to say Good-Bye" in der CD-Sammlung? Das ist ein prioritäres Ausschlusskriterium hier...

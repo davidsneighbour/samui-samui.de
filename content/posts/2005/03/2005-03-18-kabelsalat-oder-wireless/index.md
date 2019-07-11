@@ -13,7 +13,7 @@ dsq_thread_id:
 ---
 Hmm. So richtig einig werden kann ich mir nicht mit dem Titel für diesen Eintrag. Mal sehen, vielleicht wirds ja noch.
 
-Jedenfalls hat vorhin das werte Dell-Kabel (<a href="111">ich berichtete</a>&trade;) überaus laut Funken geschlagen und dann vollständig seinen Dienst eingestellt. Das wäre nicht sehr schlimm, wenn es ein Standard-Stromkabel wäre. Ist es aber nicht. Es ist ein Dell. Und nun mal die Fakten meiner überaus panischen Bestandsaufnahme:
+Jedenfalls hat vorhin das werte Dell-Kabel (ich berichtete&trade;) überaus laut Funken geschlagen und dann vollständig seinen Dienst eingestellt. Das wäre nicht sehr schlimm, wenn es ein Standard-Stromkabel wäre. Ist es aber nicht. Es ist ein Dell. Und nun mal die Fakten meiner überaus panischen Bestandsaufnahme:
 
   1. Dell hat keine Niederlassungen, sondern nur Webseiten, über die man bestellen kann
   2. Dell Deutschland hat mein Stromkabel für rund 40 Euro (Sonderaktion bis 28.3.)

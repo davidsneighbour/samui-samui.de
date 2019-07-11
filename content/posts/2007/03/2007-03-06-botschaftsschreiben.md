@@ -19,7 +19,7 @@ Soso. Da verlangt man von "uns Deutschen", ja man zwingt uns geradezu, Kindersch
 
 Super. Bestimmt zwingt man uns bald auch noch Mörder, Touristen und Soziologen zu verachten. Ich sage: Raus aus internationalen Vereinen, die sowas von uns fordern. 
 
-Ich gehe nicht davon aus, dass der Kleinbus was mit dem <a href="1153">toten deutschen Pädophilen</a> und einem Gesicht, das man als Nation wahren muss, zu tun hat --- allerdings habe ich das dumpfe Gefühl, dass aus der Deutschen Botschaft in Bangkok nur <a href="1125">solches verschwurbeltes Geschreibe</a> kommt. Ein paar Anregungen:
+Ich gehe nicht davon aus, dass der Kleinbus was mit dem toten deutschen Pädophilen</a> und einem Gesicht, das man als Nation wahren muss, zu tun hat --- allerdings habe ich das dumpfe Gefühl, dass aus der Deutschen Botschaft in Bangkok nur <a href="1125">solches verschwurbeltes Geschreibe kommt. Ein paar Anregungen:
 
 "Deutschland beteiligt sich an internationalen Programmen zur Bekämpfung des Missbrauchs von Kindern und Jugendlichen und deren sexueller Ausbeutung"
 

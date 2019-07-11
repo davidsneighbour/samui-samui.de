@@ -17,7 +17,7 @@ Das nennt sich Demokratie und Meinungsäu?erung hier. Ich bin sehr gespannt, ob 
 
 Heute nun hat man sich entschieden, bis morgen neun Uhr warten zu wollen, bis man eine endgültige Entscheidung fällt, [das Internet abzuschalten][2]. 
 
-Morgen neun Uhr ist glücklicherweise zeitlich nach morgen sieben Uhr drei?ig, so dass <a href="1654">eventuell</a> kein Grund mehr gegeben ist, uns vom weiten Netz abzuschneiden.
+Morgen neun Uhr ist glücklicherweise zeitlich nach morgen sieben Uhr drei?ig, so dass eventuell kein Grund mehr gegeben ist, uns vom weiten Netz abzuschneiden.
 
  [1]: http://www.manager.co.th/Politics/ViewNews.aspx?NewsID=9510000104205
  [2]: http://www.bangkokpost.com/breaking_news/breakingnews.php?id=130353

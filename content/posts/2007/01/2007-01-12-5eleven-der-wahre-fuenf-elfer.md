@@ -31,8 +31,8 @@ Wir (der Farang war immer noch in der Nähe) warteten einfach auf die nächste 5
 
 Der Bus wurde von einer Frau gefahren, die wie ein Mann fuhr. An Haltestellen hielt er (der Bus) grundsätzlich nicht sondern rollte langsam weiter. Wenn ein Farang (wir waren inzwischen zu dritt) aussteigen musste, schrie die Kassiererin "Farang bai" nach vorne ("Der Farang geht!") und wenn der letzte Fu? sich vom Trittbrett abhob ein "Bai". Bei mir war es genauso. Die Thais mussten während der Fahrt abspringen.
 
-Vorher aber konnte ich einige Stationen lang (ungefähr 20 Minuten rasanter Fahrt) die idyllische Morgenruhe Bangkoks genie?en und Schauplätze <a href="1073">jüngerer thailändischer Geschichte</a> vorbei rasen sehen. 
+Vorher aber konnte ich einige Stationen lang (ungefähr 20 Minuten rasanter Fahrt) die idyllische Morgenruhe Bangkoks genie?en und Schauplätze jüngerer thailändischer Geschichte vorbei rasen sehen. 
 
 Aus dem Bus geworfen dachte ich zuerst, an der falschen Haltestelle abgesetzt worden zu sein, weil weit und breit kein Busterminal zu sehen war. Nach ein wenig Suchen aber fand sich dann ziemlich versteckt um zwei Ecken ein Terminal, das genau wie das südliche aussah sowie weniger Busse, mehr Militär und eine Route nach Rayong aufwies. Nach wenigen Minuten sank ich in die flauschigen Sitze eines leeren akklimatisierten Busses und hoffte, gen Rayong zu fahren.
 
-Womit wir (also ich und die regelmä?igen Leser dieser kleinen Publikation) uns an der Stelle befinden, wo es <a href="1073">hier</a> weiter geht. Ich wollte schon immer mal einen Link mit dem Text hier haben.
+Womit wir (also ich und die regelmä?igen Leser dieser kleinen Publikation) uns an der Stelle befinden, wo es hier weiter geht. Ich wollte schon immer mal einen Link mit dem Text hier haben.

@@ -11,7 +11,7 @@ url: /2005/06/helmpflicht/
 ---
 {{< figure src="/wp-content/old-images/131.jpg" >}}
   
-<a href="264">Wie bereits erwähnt</a>, besteht auch in Thailand Helmpflicht. Vergangene Woche kam ich nun in den Genuss einer Polizeikontrolle. Dazu muss man wissen, dass die Polizei in Thailand sich ungeheuer ernst nimmt, in Wahrheit aber fett und faul ist. [In Bangkok müssen sich jetzt übergewichtige Polizeibeamte einem Abnehmkurs unterziehen][1]. 
+Wie bereits erwähnt, besteht auch in Thailand Helmpflicht. Vergangene Woche kam ich nun in den Genuss einer Polizeikontrolle. Dazu muss man wissen, dass die Polizei in Thailand sich ungeheuer ernst nimmt, in Wahrheit aber fett und faul ist. [In Bangkok müssen sich jetzt übergewichtige Polizeibeamte einem Abnehmkurs unterziehen][1]. 
 
 Jedenfalls kam ich gerade aus dem Immigration Office und fuhr so gen Sonnenuntergang vor mich hin, als Yai von hinten mit ihren Händen auf meinen Kopf klopfte und "oy oy" schrie. Sie sagt recht häufig "oy", das ist ihr Standardausruf um Be- und Entgeisterung, Befriedigung, Erstaunen und die Tatsache, dass die Suppe mal wieder zu hei? war zu bekunden. In einigen Metern Entfernung sah der Lenker des Mopeds dann das Unheil aufwallen: Jede Menge Polizei und jede Menge angehaltener Mopeds. 
 

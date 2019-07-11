@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-Gestern war ich beim Friseur. Die Hunde auch, aber das ist <a href="1229">eine andere Geschichte</a>. 
+Gestern war ich beim Friseur. Die Hunde auch, aber das ist eine andere Geschichte. 
 
 Ich habe einen Stamm-Haar-Shop hier um die Ecke, gef&uuml;hrt von einer etwas &auml;lteren (aber nicht zu alten) Thai, die ein wenig Englisch spricht. Dann gibt es noch wechselnde junge meist recht ansehnliche Friseusinnen, welche die Kleinarbeit (f&ouml;hnen, waschen, manik&uuml;ren, massieren usw.) machen. 
 

@@ -17,4 +17,4 @@ url: /2007/12/sonnenuntergang-5/
   </p>
 </div>
 
-Vom gleichen Strand wie <a href="1464">der Fischer</a>.
+Vom gleichen Strand wie der Fischer.

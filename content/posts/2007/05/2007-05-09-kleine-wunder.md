@@ -17,11 +17,11 @@ url: /2007/05/kleine-wunder/
   </p>
 </div>
 
-Kleine Wunder geschehen hin und wieder und so testete ich heute mal, ob <a href="1255">nach drei Tagen</a> in einer luftdichten Küchendose gefüllt mit Reis meine kleinen Techtoys wieder funktionieren. Und siehe da: Die Kamera geht wohl wieder. Die Linse ist etwas schmutzig und hin und wieder bekommt die Elektronik den Focus nicht hin und weigert sich, das Photo zu schiessen.
+Kleine Wunder geschehen hin und wieder und so testete ich heute mal, ob nach drei Tagen in einer luftdichten Küchendose gefüllt mit Reis meine kleinen Techtoys wieder funktionieren. Und siehe da: Die Kamera geht wohl wieder. Die Linse ist etwas schmutzig und hin und wieder bekommt die Elektronik den Focus nicht hin und weigert sich, das Photo zu schiessen.
 
 Das Mobile bleibt tot. Kurzschluss. Sobald die Batterie eingelegt wird, blitzt der Blitz. Dauerhaft. Das ist eine heisse leuchtende Sache. Der Vorteil ist allerdings, dass ich nun endlich eine Notfall-Lampe im Haus habe.
 
-Den <a href="1241">von Ameisen bevölkerten Scanner</a> habe ich übrigens auch wieder zum Funktionieren gebracht. das war aber etwas komplizierter. Das Ding ist ja nur geklebt. Das muss man sich mal vorstellen. Ich weiss gar nicht, warum die paar zusammengesteckten und -geklebten Teile damals soviel gekostet haben...
+Den von Ameisen bevölkerten Scanner habe ich übrigens auch wieder zum Funktionieren gebracht. das war aber etwas komplizierter. Das Ding ist ja nur geklebt. Das muss man sich mal vorstellen. Ich weiss gar nicht, warum die paar zusammengesteckten und -geklebten Teile damals soviel gekostet haben...
 
 Jedenfalls wurde das Teil auseinendergenommen, den Ameisen eine würdige Dschungelbestattung geboten, ein bisschen geputzt und weiter scannt er.
 

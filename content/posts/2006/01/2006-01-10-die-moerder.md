@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-Vorgestern Nacht hat man die Mörder der <a href="600">englischen Studentin</a> gefasst. Wenn ich mir den [Bericht in The Nation online][1] dazu durchlese mache ich mir schon Gedanken darüber, wie niedrig die Hemmschwelle sein kann mit ein bisschen Porno und ein bisschen Sangsom (beides preiswert überall erhältlich). 
+Vorgestern Nacht hat man die Mörder der englischen Studentin gefasst. Wenn ich mir den [Bericht in The Nation online][1] dazu durchlese mache ich mir schon Gedanken darüber, wie niedrig die Hemmschwelle sein kann mit ein bisschen Porno und ein bisschen Sangsom (beides preiswert überall erhältlich). 
 
 Thaksin derweil [verlangt die Todesstrafe][2]. Nicht weil sie gemordet haben sondern weil sie dem Ansehen Thailands geschadet haben.
 

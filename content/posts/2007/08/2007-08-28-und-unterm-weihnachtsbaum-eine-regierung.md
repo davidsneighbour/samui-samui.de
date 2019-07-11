@@ -9,4 +9,4 @@ url: /2007/08/und-unterm-weihnachtsbaum-eine-regierung/
 
 
 ---
-Neuwahlen gibts in Thailand am 23. Dezember. Wir können uns schon mal auf <a href="1359">Schlagzeilensuche</a> machen.
+Neuwahlen gibts in Thailand am 23. Dezember. Wir können uns schon mal auf Schlagzeilensuche machen.

@@ -18,4 +18,4 @@ dsq_thread_id:
   * Erwachsene immer
   * NIE (wirklich nie) HINTER einem Auto fahren. Die fahren an Wasserstellen absichtlich langsamer, so dass man abbremsen muss.
 
-Jedenfalls bin ich nun ziemlich durchweicht. <a href="162">Aber auch von Sünden gereinigt</a>. Jetzt kann ich ja endlich wieder loslegen. Lässt sich freier leben, so ganz ohne Sünden!
+Jedenfalls bin ich nun ziemlich durchweicht. Aber auch von Sünden gereinigt. Jetzt kann ich ja endlich wieder loslegen. Lässt sich freier leben, so ganz ohne Sünden!

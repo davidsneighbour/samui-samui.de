@@ -17,7 +17,7 @@ Der obige Bildmittelpunkt heisst Methinee Kingpayom und war 1992 (also vor 14 Ja
 
 Der Dessousmarkt in Thailand ist übrigens noch sehr jungfräulich und soll gro?es Potential haben. 
 
-Wenn man in Thailand mal Miss Thailand war, dann verläuft der weitere Lebensweg immer in sehr klaren Spuren: Man ist eine Zeit lang Model, dann ist man eine Zeit lang "Botschafter" für irgendwas (die <a href="240">alte Miss World Natalie Glebova</a> spielt Botschafterin einer bekannten Biermarke in Thailand), dann spielt man in Thaisoaps mit. Wenn man Glück hat (dazu später mehr) darf man auch ein paar Kinofilme drehen.
+Wenn man in Thailand mal Miss Thailand war, dann verläuft der weitere Lebensweg immer in sehr klaren Spuren: Man ist eine Zeit lang Model, dann ist man eine Zeit lang "Botschafter" für irgendwas (die alte Miss World Natalie Glebova spielt Botschafterin einer bekannten Biermarke in Thailand), dann spielt man in Thaisoaps mit. Wenn man Glück hat (dazu später mehr) darf man auch ein paar Kinofilme drehen.
 
 Neulich sitzen Fu und ich vor dem Fernseher und eine dieser unerträglichen "Sie liebt ihn nicht, er sie aber doch, dann haben sie einen Unfall und sie liebt ihn, er hat aber inzwischen eine andere und liebt sie nicht mehr, dann kommt der dritte und raubt die Firma eines der Väter aus und am Ende sind alle glücklich und er heiratet sie (warum wei? man nicht)"-Thaisoaps lief auf Channel 3. Plötzlich sagt Fu: "Ah. Beautiful woman. She was Miss Thailand in 1990ies." 
 

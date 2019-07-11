@@ -17,7 +17,7 @@ Sie war Lehrerin für Französisch und französische Literatur und wird den Thai
 
 Im Juni wurde Krebs diagnostiziert und seitdem hat sie das Krankenhaus nicht mehr verlassen. 
 
-Es wird nun eine hunderttägige Trauerperiode geben. <a href="1483">Die Presentation von vergangenem Jahr</a> [wurde upgedated][2].
+Es wird nun eine hunderttägige Trauerperiode geben. Die Presentation von vergangenem Jahr [wurde upgedated][2].
 
  [1]: http://thainews.prd.go.th/newsenglish/previewnews.php?news_id=255101020002
  [2]: http://www.nationmultimedia.com/2008/01/02/headlines/headlines_30060893.php

@@ -9,7 +9,7 @@ url: /2010/06/david-carradines-witwe-klagt/
 
 
 ---
-Vor <a href="1760">ziemlich genau</a> einem Jahr fand man David Carradine, Schauspieler in Serien wie "Kung Fu" und Filmen wie "Kill Bill" im Schrank eines Bangkoker Hotels tot hängend auf. 
+Vor ziemlich genau einem Jahr fand man David Carradine, Schauspieler in Serien wie "Kung Fu" und Filmen wie "Kill Bill" im Schrank eines Bangkoker Hotels tot hängend auf. 
 
 Der Tod wurde später nach mehreren Autopsien als "unbeabsichtigte Erstickung" und nicht als Selbstmord gewertet und war einige Tage lang Thema in verschiedenen Regenbogenpublikationen. Unter anderem hat man in Thailand ein Photo veröffentlicht, auf dem er im Schrank hängend zu sehen ist --- für Thailand eine ziemlich normale Vorgehensweise, denn die Titelseiten der Boulevardblätter sind voll mit detailgetreuen Photos von Unfällen, Morden, Bombenopfern und anderen Toten.
 

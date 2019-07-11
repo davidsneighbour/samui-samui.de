@@ -9,7 +9,7 @@ url: /2007/08/nix-buddha/
 
 
 ---
-<a href="1313"><txp:thumbnail id="237" style="float:left;margin-right:10px;" /></a> Neulich berichtete ich über eine seltsame <a href="1313">Buddhaerscheinung auf einem Berg im Norden Chinas</a>. Nun stellt sich heraus, dass es nicht Buddha sondern nur [ein bisschen Physik][1] war. Auch nett. 
+<txp:thumbnail id="237" style="float:left;margin-right:10px;" /></a> Neulich berichtete ich über eine seltsame <a href="1313">Buddhaerscheinung auf einem Berg im Norden Chinas. Nun stellt sich heraus, dass es nicht Buddha sondern nur [ein bisschen Physik][1] war. Auch nett. 
 
 Das Phänomen nennt sich "Broken spectre" und ist einfach erklärt:
 

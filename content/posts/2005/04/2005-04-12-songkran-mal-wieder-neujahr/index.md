@@ -9,7 +9,7 @@ url: /2005/04/songkran-mal-wieder-neujahr/
 
 
 ---
-Jawollja! Ich persönlich finde ja, dass wir viel zu wenig zu feiern haben hier auf unserer kleinen Insel weshalb es sehr gut ist, dass endlich mal wieder, nach einer <a href="154">langen</a> <a href="84">feiertagslosen</a> Durststrecke, Feiertage angesagt sind.
+Jawollja! Ich persönlich finde ja, dass wir viel zu wenig zu feiern haben hier auf unserer kleinen Insel weshalb es sehr gut ist, dass endlich mal wieder, nach einer langen feiertagslosen Durststrecke, Feiertage angesagt sind.
 
 Wir nennen sie Songkran oder genauer Maha Songkran. Das ist das thailändische Neujahr. Neujahr? Schon wieder? Ja klar. Denn man kann gar nicht genug Neujahr feiern.
 

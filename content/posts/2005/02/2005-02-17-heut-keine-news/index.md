@@ -13,4 +13,4 @@ dsq_thread_id:
 ---
 Moin, heut keine News. Die neuen Rechner sind da. Muss... installieren... Software... und... Wlan... Fotos folgen natürlich ;)
 
-Und ich muss mir einen netten Namen überlegen. Vorschläge willkommen, aber da ich mich täglich dran einloggen muss, werde natürlich ich die finale Wahl treffen. Ein Comiccharakter muss es sein und <a href="41">Drabble ist schon vergeben</a>. (Ich berichtete&trade; ;]=)
+Und ich muss mir einen netten Namen überlegen. Vorschläge willkommen, aber da ich mich täglich dran einloggen muss, werde natürlich ich die finale Wahl treffen. Ein Comiccharakter muss es sein und Drabble ist schon vergeben. (Ich berichtete&trade; ;]=)

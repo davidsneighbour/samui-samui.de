@@ -19,6 +19,6 @@ dsq_thread_id:
   </p>
 </div>
 
-<a href="1255">Fraglicher Wasserfall</a>. Man beachte die rei&szlig;enden Strudel und die nicht enden wollende Tiefe. Mehr [Bilder aus Onkel Nims Magic Garden][1] von vor dem Sturz gibts bei flickr.com. Und morgen fahren wir wieder hin. Lange Nase zeigen und die andere Wasserfallseite ablichten.
+Fraglicher Wasserfall. Man beachte die rei&szlig;enden Strudel und die nicht enden wollende Tiefe. Mehr [Bilder aus Onkel Nims Magic Garden][1] von vor dem Sturz gibts bei flickr.com. Und morgen fahren wir wieder hin. Lange Nase zeigen und die andere Wasserfallseite ablichten.
 
  [1]: http://flickr.com/photos/schreibblogade/tags/magicgarden/ "and Waterfall"

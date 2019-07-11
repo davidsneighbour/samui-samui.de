@@ -27,7 +27,7 @@ Sie begann schreiend eine Palme hoch zu klettern. Die Frau. Nicht Soosie.
 
 Pokki und Soosie standen um die Palme herum und beobachteten sie fasziniert bei ihrem Treiben. Ich war bis auf 2 Meter heran, als vom Nachbarhof der schwarze Hund angeschossen kam.
 
-_Der gro?e schwarze Hund_ ist eine kranke verrückte Töle, die den ganzen Tag entweder bellt oder jault, aber normalerweise an der Leine hängt. Schafft sie (die Töle) es mal, sich los zu rei?en oder loszubei?en, dann rennt sie in der Gegend rum und fällt alle Hunde an, die ihr in den Weg kommen. In der Regel kommt dann innerhalb von Sekunden _der gro?e braune Hund_ an (ja, genau <a href="838">dieser</a>) und nach einer Weile bekämpfen sich dann runde 10 Hunde auf dem Sandplatz.
+_Der gro?e schwarze Hund_ ist eine kranke verrückte Töle, die den ganzen Tag entweder bellt oder jault, aber normalerweise an der Leine hängt. Schafft sie (die Töle) es mal, sich los zu rei?en oder loszubei?en, dann rennt sie in der Gegend rum und fällt alle Hunde an, die ihr in den Weg kommen. In der Regel kommt dann innerhalb von Sekunden _der gro?e braune Hund_ an (ja, genau dieser) und nach einer Weile bekämpfen sich dann runde 10 Hunde auf dem Sandplatz.
 
 Der gro?e braune Hund war aber nicht mehr gesehen worden, seit ich wieder auf der Insel bin. Der Hausherr meint: "He gone away. With the lady. For Sek." --- Man möge das nach Bedarf interpretieren.
 

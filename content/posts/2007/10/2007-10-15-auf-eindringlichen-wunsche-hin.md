@@ -17,4 +17,4 @@ url: /2007/10/auf-eindringlichen-wunsche-hin/
   </p>
 </div>
 
-Für die Locken-Fetischisten gibts den alten Stand in <a href="1401">1000 Tage Samui</a>.
+Für die Locken-Fetischisten gibts den alten Stand in 1000 Tage Samui.

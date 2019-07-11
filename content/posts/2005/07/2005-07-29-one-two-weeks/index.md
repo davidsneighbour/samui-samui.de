@@ -13,4 +13,4 @@ Titelgebender Ausspruch verbunden mit "you will forget me" war eine einige Zeitl
 
 Ist schon kompliziert das Leben.
 
-Wobei, es trifft sich gut. Wir haben Freitag. Wir haben Zahltag. <a href="288">Ich werde heute Nacht in den Sound Pub gehen um Judy bei ihrer Abschiedsperformance zu zu sehen</a> (zuzusehen? zuzu sehen?). Am Wochenende ziehe ich um (muss nur noch ein(e|en) passende(s|n) Haus/Raum/Hütte finden). Und dann ist da noch die Sache mit den Haaren. Kann also nicht schaden, wenn wir den heutigen Tag als **Tag des Vergessens** deklarieren.
+Wobei, es trifft sich gut. Wir haben Freitag. Wir haben Zahltag. Ich werde heute Nacht in den Sound Pub gehen um Judy bei ihrer Abschiedsperformance zu zu sehen (zuzusehen? zuzu sehen?). Am Wochenende ziehe ich um (muss nur noch ein(e|en) passende(s|n) Haus/Raum/Hütte finden). Und dann ist da noch die Sache mit den Haaren. Kann also nicht schaden, wenn wir den heutigen Tag als **Tag des Vergessens** deklarieren.

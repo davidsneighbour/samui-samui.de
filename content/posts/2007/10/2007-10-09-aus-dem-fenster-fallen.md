@@ -9,7 +9,7 @@ url: /2007/10/aus-dem-fenster-fallen/
 
 
 ---
-In Bangkok und anderen Farangansammlungen in Thailand fallen immer mal wieder Menschen von Dächern und aus Fenstern. Die stürzen sich nicht runter, sie werden nicht gesto?en, sie fallen. So wie mein Haus <a href="237">damals</a> nicht ausgeraubt wurde sondern ich meine Sachen "verloren" habe. 
+In Bangkok und anderen Farangansammlungen in Thailand fallen immer mal wieder Menschen von Dächern und aus Fenstern. Die stürzen sich nicht runter, sie werden nicht gesto?en, sie fallen. So wie mein Haus damals nicht ausgeraubt wurde sondern ich meine Sachen "verloren" habe. 
 
 Dummerweise gibt es in Bangkok viele Hochhäuser und so enden solche Fälle meistens tödlich. Wie [dieser aktuelle Fall][1] (ok, genug der Wortspiele).
 

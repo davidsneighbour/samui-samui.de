@@ -9,7 +9,7 @@ url: /2007/10/ein-minister-fuer-die-sicherheit/
 
 
 ---
-General Sonthi Boonyaratkalin, ehemaliger Armeechef und Putschführer des am nächsten zurückliegenden Putsches, hat heute [seinen ersten Arbeitstag][1] als --- <a href="1391">genau</a> --- "Deputy Prime Minister in charge of security". Also so ein kleiner thailändischer Schäuble.
+General Sonthi Boonyaratkalin, ehemaliger Armeechef und Putschführer des am nächsten zurückliegenden Putsches, hat heute [seinen ersten Arbeitstag][1] als --- genau --- "Deputy Prime Minister in charge of security". Also so ein kleiner thailändischer Schäuble.
 
 Vergangene Woche wurden einige Ministerposten neu besetzt: ein kleiner Skandal erschütterte die ?bergangsregierung. Als Minister darf man an Firmen und Organisationen nur einen Anteil von maximal 5% halten. Einige (wie beispielsweise der Zensur- und Youtube-Minister) wussten nicht so genau, wie man diese Regel interpretieren solle und mussten leider gehen. 
 

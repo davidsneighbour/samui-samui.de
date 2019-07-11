@@ -17,7 +17,7 @@ url: /2007/10/na-endlich/
   </p>
 </div>
 
-Das Haus hat seinen Namen "<a href="1375">Haus am Klong</a>" nun endlich auch offiziell verdient. Nach den Regenfällen der vergangenen Tage (von ca. 6 Uhr Morgens bis 13 Uhr Mittags) führt der Graben, ich meine, der Klong vor dem Haus Wasser. Viel Wasser. Je nach Wetterlage ist er voll oder flach aber immerhin ein steter Strom. Nachdem die Fluten auch die ganzen Palmenblätter die von den Gärtnern im Flussbett abgelegt worden sind hinweg gespült haben ist sogar sowas wie ein kleiner Wasserfall entstanden.
+Das Haus hat seinen Namen "Haus am Klong" nun endlich auch offiziell verdient. Nach den Regenfällen der vergangenen Tage (von ca. 6 Uhr Morgens bis 13 Uhr Mittags) führt der Graben, ich meine, der Klong vor dem Haus Wasser. Viel Wasser. Je nach Wetterlage ist er voll oder flach aber immerhin ein steter Strom. Nachdem die Fluten auch die ganzen Palmenblätter die von den Gärtnern im Flussbett abgelegt worden sind hinweg gespült haben ist sogar sowas wie ein kleiner Wasserfall entstanden.
 
 Die Thais der Gegend erfreuen sich am Bangkok-Flair.
 

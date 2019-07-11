@@ -24,7 +24,7 @@ url: /2010/12/there-is-another-new-ride-in-town/
     </p>
     
     <p>
-      Wer sich jetzt wundert und meint, es hätte diesen Eintrag schon einmal gegeben, der irrt sich in den wichtigsten Punkten. Der erwähnte Eintrag ist <a href="1834">hier</a>, die Reifen sind grö?er, die Kilometer weniger und es ist meins --- nicht gemietet.
+      Wer sich jetzt wundert und meint, es hätte diesen Eintrag schon einmal gegeben, der irrt sich in den wichtigsten Punkten. Der erwähnte Eintrag ist hier, die Reifen sind grö?er, die Kilometer weniger und es ist meins --- nicht gemietet.
     </p>
     
     <p>

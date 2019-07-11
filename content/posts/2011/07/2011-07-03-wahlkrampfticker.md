@@ -19,7 +19,7 @@ Und somit endet eine weitere Wahl mit dem Ergebnis, dass Abhisit (amtierender Pr
 
 Und dann war da noch das:
 
-[Sonthi Boonyaratglin][2] ist traurig, dass ihn so wenig Leute gewählt haben. Er meint, das liege daran, dass so viele Leute "die gro?en Parteien" gewählt haben. Könnte stimmen. Andererseits --- warum sollte man jemanden wählen, der <a href="2005">je nach Jahreszeit</a> Versprechungen macht?
+[Sonthi Boonyaratglin][2] ist traurig, dass ihn so wenig Leute gewählt haben. Er meint, das liege daran, dass so viele Leute "die gro?en Parteien" gewählt haben. Könnte stimmen. Andererseits --- warum sollte man jemanden wählen, der je nach Jahreszeit Versprechungen macht?
 
 Chamlong Srimuang, einer der Führer der Gelbhemden, [konnte heute nicht wählen][3], weil er sich nicht ordnungsgemä? umgemeldet hatte. Dumme Sache das. Seine Erklärung war, dass er sich nicht ummelden konnte, weil er so beschäftigt damit war, zu demonstrieren. Und damit sind wir auch schon beim gro?en Problem der Gelbhemden --- sie sind ganz gut beim Demonstrieren, gehen aber nie zur Wahl... weshalb immer die Falschen gewinnen... weshalb die Gelbhemden immer wieder demonstrieren müssen und dem Volke klar machen müssen, dass die Falschen an der Macht sind. Notfalls kann man ja einen Flughafen besetzen.
 

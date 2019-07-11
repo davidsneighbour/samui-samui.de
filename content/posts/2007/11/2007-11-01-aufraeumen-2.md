@@ -13,7 +13,7 @@ In Bangkok wurde heute ein [Brite festgenommen][1], der pornographische Bilder n
 
 Au?erdem gibt es einen [Haftbefehl für einen weiteren kanadischen Pädophilen][2], Orville Frank Mader. 
 
-Die Medienaufmerksamkeit des Falles <a href="1414">Christopher Paul Neil</a> hat sehr positive Auswirkungen auf die Ermittlungstätigkeit der thailändischen Polizei.
+Die Medienaufmerksamkeit des Falles Christopher Paul Neil hat sehr positive Auswirkungen auf die Ermittlungstätigkeit der thailändischen Polizei.
 
  [1]: http://uk.reuters.com/article/domesticNews/idUKBKK9550920071031
  [2]: http://canadianpress.google.com/article/ALeqM5jMIaT4Fg2unIofwSJrkNrGB8WHlA

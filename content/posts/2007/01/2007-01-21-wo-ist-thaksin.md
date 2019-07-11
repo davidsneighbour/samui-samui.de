@@ -15,7 +15,7 @@ Kein Tag vergeht, ohne dass hier im Blog nicht jemand mit dem Suchbegriff "Wo is
 
 Ins neue Jahr rutschte er in New York. Dort feierte er mit seiner Frau, die anschlie&szlig;end nach London flog, wo sie noch heute auf ihn warten w&uuml;dre, wenn sie nicht in Thailand vor dem Korruptionsausschuss Rede und Antwort stehen m&uuml;sste. Er selbst flog nach Hong Kong, wo er bis zum Elften des Monats (relativ ruhig, bis auf ein Fax, er w&auml;re ja sch&ouml;n bl&ouml;d, wenn er in Bangkok Bomben legen w&uuml;rde und man solle doch bittesehr mal die Separatisten im S&uuml;den fragen) verblieb.
 
-In China hat er ein Apartment gekauft und die meiste Zeit der letzten Monate verbracht. [Angeblich haben ihn Mitarbeiter der K&ouml;niglichen Thail&auml;ndischen Botschaft in Peking unterst&uuml;tzt][1] was in der Aufforderung an alle Botschaften bei der <a href="1089">R&uuml;cknahme seines Passes</a> resultierte, ihm keine VIP-Behandlung angedeihen zu lassen. 
+In China hat er ein Apartment gekauft und die meiste Zeit der letzten Monate verbracht. [Angeblich haben ihn Mitarbeiter der K&ouml;niglichen Thail&auml;ndischen Botschaft in Peking unterst&uuml;tzt][1] was in der Aufforderung an alle Botschaften bei der R&uuml;cknahme seines Passes resultierte, ihm keine VIP-Behandlung angedeihen zu lassen. 
 
 _Hier m&uuml;ssen wir der geschichtlichen Vollst&auml;ndigkeit halber kurz anf&uuml;gen, dass in den ersten zwei Wochen des Monats Januar recht wenig &uuml;ber Khun Thaksins Everydaylife zu erfahren war. Eine gewisse S&auml;ttigung der Massen war erreicht, man hatte explosivere Probleme als sich mit dem Treiben eines zwangspensionierten demokratisch gew&auml;hlten Politikers zu besch&auml;ftigen. Das &ouml;ffentliche Interesse wurde allerdings schnell wieder geweckt, als ein weniger wichtiges Mitglied des revolution&auml;ren Komitees, ehm, des, wie hei&szlig;t er doch wieder... des National Security Councils vor die Kameras trat und in etwa sagte, die Medien sollen bitte nicht mehr &uuml;ber Thaksin berichten. Das gab ein wenig Aufregung und fortan wurde man wieder &uuml;ber Thaksins aktuelle Schlipsfarbe informiert. </p> 
 
@@ -39,7 +39,7 @@ Nach erfolgter Mission in Singapore kehrte er am Donnerstag nach Hong Kong zur&u
 
 Donnerstag Nacht [landete er schon in Tokio][5], wo er bis zum kommenden Dienstag bleiben wird. Dort will er einen Vortrage halten und weitere Interviews geben. Die Regierung in Tokio will sich nicht mit ihm treffen um die Beziehungen zu Thailand nicht zu gef&auml;hrden. 
 
-_Wo ist Thaksin? Heute ist er in Tokio, doch wo wird er morgen sein? Wird er nach London zur&uuml;ck kehren um seine Frau wieder zu sehen und endlich einmal einen richtigen Pass zu beantragen? Wird er nach Thailand kommen um in den Warteschlangen an den Toiletten Subvarnabhumis zu stehen? Fliegt er nach Kenia um <a href="779">sein Hotel</a> zu auditieren? </p> 
+_Wo ist Thaksin? Heute ist er in Tokio, doch wo wird er morgen sein? Wird er nach London zur&uuml;ck kehren um seine Frau wieder zu sehen und endlich einmal einen richtigen Pass zu beantragen? Wird er nach Thailand kommen um in den Warteschlangen an den Toiletten Subvarnabhumis zu stehen? Fliegt er nach Kenia um sein Hotel zu auditieren? </p> 
 
 Der Autor dieser unbedeutenden Publikation wei&szlig; es nicht. Was wir aber wissen ist, dass es immer gen&uuml;gend Medien und Kleinstdarsteller geben wird, die uns dar&uuml;ber informieren werden --- jetzt wo es offiziell erlaubt ist.</em>
 

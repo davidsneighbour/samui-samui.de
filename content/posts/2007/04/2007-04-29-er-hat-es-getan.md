@@ -9,7 +9,7 @@ url: /2007/04/er-hat-es-getan/
 
 
 ---
-Thaksin Shinawatra hat am Freitag [&pound;108.000.000][1] f&uuml;r den britischen Fu&szlig;ballclub Manchester City geboten. Davon wurde ja schon vor einer Woche <a href="1240">gemunkelt</a>. Vielleicht bekommt man damit ja ein Dauer-Visum f&uuml;r Gro&szlig;britanien?
+Thaksin Shinawatra hat am Freitag [&pound;108.000.000][1] f&uuml;r den britischen Fu&szlig;ballclub Manchester City geboten. Davon wurde ja schon vor einer Woche gemunkelt. Vielleicht bekommt man damit ja ein Dauer-Visum f&uuml;r Gro&szlig;britanien?
 
 Jedenfalls liefert er sich derzeit einen Bieterwettstreit mit einem Typen namens [Ray Ranson][2].
 

@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-Unser <a href="35">Neuer</a> war bis heute Morgen noch namenlos. Aber wir haben eine Strategie (was wären wir ohne Strategie). Die Kisten werden jetzt nach Comicfiguren benannt. Und nicht nach irgendwelchen döddeligen Everydayfiguren. Nein.
+Unser Neuer war bis heute Morgen noch namenlos. Aber wir haben eine Strategie (was wären wir ohne Strategie). Die Kisten werden jetzt nach Comicfiguren benannt. Und nicht nach irgendwelchen döddeligen Everydayfiguren. Nein.
 
 Und der Neue hei?t Drabble. Wer [Drabble][1] ist? Der hier:
 

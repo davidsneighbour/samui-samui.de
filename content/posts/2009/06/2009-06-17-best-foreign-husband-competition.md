@@ -14,4 +14,4 @@ dsq_thread_id:
 <div class="flickr">
 </div>
 
-Die <a href="1768">andere</a> Seite der Thai-Farang-Beziehungen.
+Die andere Seite der Thai-Farang-Beziehungen.

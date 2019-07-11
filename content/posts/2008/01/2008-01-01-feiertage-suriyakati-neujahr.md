@@ -9,7 +9,7 @@ url: /2008/01/feiertage-suriyakati-neujahr/
 
 
 ---
-Als ich <a href="1487">gestern</a> noch meinte, wir würden das gregorianische Neujahr feiern, habe ich mich einigerma?en geirrt, es ist [Suriyakati][1]-Neujahr. Das ist der buddhistische Kalender der Thais. 
+Als ich gestern noch meinte, wir würden das gregorianische Neujahr feiern, habe ich mich einigerma?en geirrt, es ist [Suriyakati][1]-Neujahr. Das ist der buddhistische Kalender der Thais. 
 
 Jahr 1 begann mit dem Tod [Siddhārtha Gautamas][2] im Jahre 543 vor Christus. Dieses Datum wird häufiger diskutiert, die Thais haben da ihre eigene Meinung, aber nehmen wir mal der Einfachheit halber an, es würde so stimmen. Damit haben wir dieses Jahr das Jahr 2551 BE (Buddhist Era, die buddhistische Zeitrechnung).
 

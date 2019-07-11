@@ -11,7 +11,7 @@ url: /2007/01/krachender-tagesbeginn/
 ---
 [In Bangkoks Norden wurden heute Nacht zwei ?bungsgranaten abgefeuert][1]. Man geht von Chaoten aus, allerdings bietet sich genügend Stoff für Verschwörungstheorien, weil eine Granate in die Mauer der Büros der Daily News und eine in den Parkplatz eines naheliegenden Hotels einschlug. 
 
-In einer Nebennote, unbeachtet, in den News in drei Zeilen abgehandelt: Die Verdächtigen der Bombenanschläge am 1. Januar, <a href="1106">die man vor einiger Zeit festnahm</a>, sind [alle mangels Beweisen wieder freigelassen][2] worden. Nur gegen einen wird wegen unlizensierten Waffenbesitzes ermittelt.
+In einer Nebennote, unbeachtet, in den News in drei Zeilen abgehandelt: Die Verdächtigen der Bombenanschläge am 1. Januar, die man vor einiger Zeit festnahm, sind [alle mangels Beweisen wieder freigelassen][2] worden. Nur gegen einen wird wegen unlizensierten Waffenbesitzes ermittelt.
 
 In einer weiteren Nebennote: [CNS-Chef Sonthi Boonyaratglin will sich mit Polizeichef Kowit Wattana treffen][3], den er für die Ermittlungen zu den Neujahrsbomben in Bangkok verantwortlich macht. Die Verdächtigen wurden festgenommen nachdem Sonthi sagte, dass Kowit verantwortlich ist. 
 

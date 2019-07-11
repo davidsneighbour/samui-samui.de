@@ -19,7 +19,7 @@ dsq_thread_id:
   </p>
 </div>
 
-Von Chuang Chuang, dem armen zum Sex gezwungenen Panda-Männchen des Chiang Maier Zoos habe ich <a href="1104">bereits berichtet</a>. 
+Von Chuang Chuang, dem armen zum Sex gezwungenen Panda-Männchen des Chiang Maier Zoos habe ich bereits berichtet. 
 
 Nun wirds eng für ihn, nun muss er ran. In den vergangenen Monaten wurde das Bärchen auf eine Diät gesetzt. Pandaweibchen werden nur einmal im Jahr für ungefahrt 12 bis 25 Tage lang "hei?", die optimale Zeit für das Zeugen von Nachwuchs ist nur zwei bis sieben Tage lang. Diese Brunftzeit liegt zwischen März und Mai. Das ist schon ein bisschen kompliziert, wenn man so [punktgenau][1] bereit stehen muss. 
 

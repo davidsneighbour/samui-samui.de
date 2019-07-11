@@ -9,7 +9,7 @@ url: /2011/04/tv-blackout/
 
 
 ---
-Alle Thai-Sender sind seit ein paar Stunden wieder nicht zu erreichen. "Wieder" darum, <a href="897">weil das im September 2006 schon so passiert ist</a> --- da wurden dann allerdings stundenlang K&ouml;nigs-Hymnen und -Videos gespielt. Sieht nach Putsch oder einem zerrissenem Kabel aus.
+Alle Thai-Sender sind seit ein paar Stunden wieder nicht zu erreichen. "Wieder" darum, weil das im September 2006 schon so passiert ist --- da wurden dann allerdings stundenlang K&ouml;nigs-Hymnen und -Videos gespielt. Sieht nach Putsch oder einem zerrissenem Kabel aus.
 
 Update: [Es sieht so aus, als ob es technische Probleme bei einem Satelliten-Uplink gibt][1]. Interessant, dass Probleme an einer kleinen Stelle das komplette TV-Programm offline nehmen k&ouml;nnen. Gut zu wissen...
 

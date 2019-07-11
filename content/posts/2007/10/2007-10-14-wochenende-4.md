@@ -15,6 +15,6 @@ Ich gebe zu ich vernachlässige mein kleines Blog schändlich. Wenn ich mal was 
   * "Wer was auf sich hält, hält sich einen Praktikanten". So einen Eintrag wird es mit Sicherheit geben ;)
   * Die Pharmacy ist nicht mehr! (Und, Fabio, auch unsere letzte Kneipe nicht mehr, da verkauft man jetzt Babywindeln!) Habe Freitag Nacht eine intensive Analyse der Chawengener Schwulen-/Ladyboy-/Barlady-Szene gemacht. Erstere beiden überwiegen erstaunlicherweise neuerdings. Nebensaison.
   * Samui? Samui!
-  * Ich bin zu alt für den lange-Haare-Kram. Immer wenn sie lang genug werden um länger zu werden nerven sie so übermä?ig, dass deutsche Worte mit drei Sonderzeichen nicht reichen um es zu beschreiben. Habe ihm (dem Haar) gestern <a href="1409">eine deutliche Warnung</a> erteilt.
+  * Ich bin zu alt für den lange-Haare-Kram. Immer wenn sie lang genug werden um länger zu werden nerven sie so übermä?ig, dass deutsche Worte mit drei Sonderzeichen nicht reichen um es zu beschreiben. Habe ihm (dem Haar) gestern eine deutliche Warnung erteilt.
 
  [1]: http://rollmops.wordpress.com/2007/10/04/maeklong-railway-market-bkk/

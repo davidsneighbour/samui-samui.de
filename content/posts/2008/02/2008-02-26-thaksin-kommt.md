@@ -13,6 +13,6 @@ Gerüchte über die baldige Wiederkehr des amtierenden Präsidenten des Profilgo
 
 Nun aber hat die <span class="caps">PPP</span> (Peoples Power Party, Thaksins Proxy und Regierungspartei) eine Thaksin-Begrü?ungsdemonstration für Donnerstag 9 Uhr im Subvarnabhumi-Flughafen angemeldet. 
 
-Am Wochenende stand in der Bangkok Post auch noch im Kleingedruckten, dass er seinen roten Diplomatenpass <a href="1089">zurück</a> bekommen hat. Der aktuelle Au?enminister ist Thaksins Freund, Sprecher und Anwalt Noppadon Pattama.
+Am Wochenende stand in der Bangkok Post auch noch im Kleingedruckten, dass er seinen roten Diplomatenpass zurück bekommen hat. Der aktuelle Au?enminister ist Thaksins Freund, Sprecher und Anwalt Noppadon Pattama.
 
 Man darf also gespannt sein.

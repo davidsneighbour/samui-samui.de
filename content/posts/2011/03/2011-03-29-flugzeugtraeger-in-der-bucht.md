@@ -9,7 +9,7 @@ url: /2011/03/flugzeugtraeger-in-der-bucht/
 
 
 ---
-Und <a href="1963">auch</a> die Deutsche Botschaft schreibt schon einen Rundbrief wegen des Wetters:
+Und auch die Deutsche Botschaft schreibt schon einen Rundbrief wegen des Wetters:
 
 > Aufgrund anhaltender Stürme und schweren Regenfällen in der südlichen Küstenregion Thailands wurde der Flughafen Koh Samui gestern geschlossen.
   

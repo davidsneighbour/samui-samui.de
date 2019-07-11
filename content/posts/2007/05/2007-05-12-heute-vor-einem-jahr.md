@@ -13,6 +13,6 @@ url: /2007/05/heute-vor-einem-jahr/
 
 War ich dann auch. Nichtsdestotrotz haben "wir" das "Spiel" dann noch 19 Tage lang durchgehalten. 
 
-<a href="733">Verr&uuml;ckt ist eben doch mehr Spa&szlig; als besorgt zu sein</a>.
+Verr&uuml;ckt ist eben doch mehr Spa&szlig; als besorgt zu sein.
 
-PS: <a href="786">Dieser Dialog</a> wird mir auch unvergessen bleiben...
+PS: Dieser Dialog wird mir auch unvergessen bleiben...

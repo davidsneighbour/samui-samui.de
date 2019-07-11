@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-[Youtube][1] ist in Thailand geblockt. Die einen sagen "<a href="1170">mal wieder</a>", die anderen "diesmal wirklich". Grund daf&uuml;r soll ein [den K&ouml;nig beleidigendes Video][2] sein. Die gl&uuml;cklicheren unter den Internetusern Thailands bekommen die [Blockseite des MICT][3] angezeigt, ich bekomme nur Timeouts. Der "Trick" vom letzten Mal mit dem Weglassen von www am Anfang oder dem Aufruf der IPs von Youtube funktioniert dieses Mal nicht.
+[Youtube][1] ist in Thailand geblockt. Die einen sagen "mal wieder", die anderen "diesmal wirklich". Grund daf&uuml;r soll ein [den K&ouml;nig beleidigendes Video][2] sein. Die gl&uuml;cklicheren unter den Internetusern Thailands bekommen die [Blockseite des MICT][3] angezeigt, ich bekomme nur Timeouts. Der "Trick" vom letzten Mal mit dem Weglassen von www am Anfang oder dem Aufruf der IPs von Youtube funktioniert dieses Mal nicht.
 
 Eigentlich schade, denn ich bastel an einer Serie mit Videoclips. Abh&auml;ngig zu sein ist nicht sch&ouml;n.
 

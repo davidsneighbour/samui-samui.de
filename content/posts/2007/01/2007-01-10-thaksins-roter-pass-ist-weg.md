@@ -9,7 +9,7 @@ url: /2007/01/thaksins-roter-pass-ist-weg/
 
 
 ---
-<a href="1019">Man erinnere sich bitte mal</a>: Im November hatte man &uuml;berlegt, wie man es anstellt, dem Thaksin Shinawatra, im September ungn&auml;dig in Abwesenheit hinweg geputschter Ex-Premierminister, seinen Diplomatenpass abzunehmen. Er reiste in der Welt herum, selbst Anfang der Woche hatte man noch erz&auml;hlt, er w&auml;re in Thailand gesehen worden. 
+Man erinnere sich bitte mal: Im November hatte man &uuml;berlegt, wie man es anstellt, dem Thaksin Shinawatra, im September ungn&auml;dig in Abwesenheit hinweg geputschter Ex-Premierminister, seinen Diplomatenpass abzunehmen. Er reiste in der Welt herum, selbst Anfang der Woche hatte man noch erz&auml;hlt, er w&auml;re in Thailand gesehen worden. 
 
 Alle ehemaligen Premierminister vor Thaksin durften ihren diplomatischen Pass behalten, auch wenn sie vom Thron geputscht worden. 
 

@@ -17,6 +17,6 @@ Das Chiang Maianische Pandababy Lin Ping feierte [gestern][1] seinen ersten Gebu
 > 
 > On the table, various fruits were displayed as if they were human food --- like fried chicken drumsticks, steamed fish and stirfried noodles for Lin Ping and mother Lin Hui.
 
-Ist das wirklich erst ein Jahr her, dass der kleine Panda <a href="1778">zu Ablenkungsgründen</a> in den Nachrichten herhalten musste? Die Zeit vergeht doch recht langsam...
+Ist das wirklich erst ein Jahr her, dass der kleine Panda zu Ablenkungsgründen in den Nachrichten herhalten musste? Die Zeit vergeht doch recht langsam...
 
  [1]: http://www.nationmultimedia.com/home/2010/05/28/national/Panda-Lin-Ping-celebrates-first-milestone-30130379.html

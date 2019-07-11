@@ -9,7 +9,7 @@ url: /2007/04/paradorn-und-natalie/
 
 
 ---
-[Natalie Glebova][1] war mal <a href="240">Miss Universum</a> und arbeitet derzeit als <a href="950">Brauereipferd und Appetizer</a> in Thailand. [Paradorn Srichaphan][2] ist ein ehemals ziemlich erfolgreicher Tennis-Spieler, der es schon mal bis auf Platz neun der Weltrangliste gebracht hat und als einer der erfolgreichsten Thais gehandelt wird, derzeit aber eher durch Ausf&auml;lle in fr&uuml;hen Runden gl&auml;nzt.
+[Natalie Glebova][1] war mal Miss Universum</a> und arbeitet derzeit als <a href="950">Brauereipferd und Appetizer in Thailand. [Paradorn Srichaphan][2] ist ein ehemals ziemlich erfolgreicher Tennis-Spieler, der es schon mal bis auf Platz neun der Weltrangliste gebracht hat und als einer der erfolgreichsten Thais gehandelt wird, derzeit aber eher durch Ausf&auml;lle in fr&uuml;hen Runden gl&auml;nzt.
 
 Zeit also f&uuml;r die beiden, das Leben danach zu beginnen und ins Regenbogenpresselicht zu r&uuml;cken. Wie macht man das am Besten? Genau: sie verlobten sich. Am vergangenen Dienstag machten beide monatelangem Rumoren in den Foren und Skandalbl&auml;ttchen ein Ende und verlobten sich medienwirksam in einem Krungtheper Hotel. 
 

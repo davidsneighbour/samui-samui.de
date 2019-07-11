@@ -9,7 +9,7 @@ url: /2007/01/die-lehre-unethischer-regierungen/
 
 
 ---
-General Prem Tinsulanonda, der Vorsitzende des Geheimrats (Privy Council) Seiner Majest&auml;t K&ouml;nig Bhumibol Adulyadejs, spricht erstens nur &ouml;ffentlich, wenn es geh&ouml;rt werden soll und zweitens nur indirekt und in Bildern. <a href="1007">Das habe ich ja schon erz&auml;hlt</a>. Durch seine N&auml;he zum K&ouml;nig geht man im Allgemeinen davon aus, dass was er sagt auch die Meinung des K&ouml;nigs ist. Ein praktisches Instrument.
+General Prem Tinsulanonda, der Vorsitzende des Geheimrats (Privy Council) Seiner Majest&auml;t K&ouml;nig Bhumibol Adulyadejs, spricht erstens nur &ouml;ffentlich, wenn es geh&ouml;rt werden soll und zweitens nur indirekt und in Bildern. Das habe ich ja schon erz&auml;hlt. Durch seine N&auml;he zum K&ouml;nig geht man im Allgemeinen davon aus, dass was er sagt auch die Meinung des K&ouml;nigs ist. Ein praktisches Instrument.
 
 Diese Woche nun hat er eine Rede gehalten, in der er ethische Werte hoch h&auml;lt und &uuml;ber [die Lehren unethischer Regierungen][1] sprach. 
 

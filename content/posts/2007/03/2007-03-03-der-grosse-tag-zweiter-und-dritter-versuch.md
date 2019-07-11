@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-Regelmässige Leser dieser kleinen Publikation werden sich <a href="1156">erinnern</a>, dass ich anstrebe, aus meiner kleinen Hütte mit den Hunden gemeinsam ins Internet zu gehen. Schneller als bisher mit dem 5kB-Mobilemodem. DSL ist eine gute Sache (wir Kenner nennen es hier ADSL2+) und überall verfügbar. Nur nicht in meiner Hütte. 
+Regelmässige Leser dieser kleinen Publikation werden sich erinnern, dass ich anstrebe, aus meiner kleinen Hütte mit den Hunden gemeinsam ins Internet zu gehen. Schneller als bisher mit dem 5kB-Mobilemodem. DSL ist eine gute Sache (wir Kenner nennen es hier ADSL2+) und überall verfügbar. Nur nicht in meiner Hütte. 
 
 Zum Donnerstag nun ward mir das Internet ganz bestimmt verkündet. Und kam nicht. Gestern nun kamen die Kabelleger wieder. Gleich am Morgen fuhren sie auf und rauchten erstmal eine. Dann machte man sich ans Kabellegen. Das dauerte den ganzen Vormittag und kurz vor Nachmittag wickelten sie dann ein dickes schwarzes Kabel um den Baum hinterm Haus, schoben es mir ins Dach hinein und nebem dem UBC-Kabel wieder heraus. Schnipp schnipp. Schraub Schraub. Fertig. 
 

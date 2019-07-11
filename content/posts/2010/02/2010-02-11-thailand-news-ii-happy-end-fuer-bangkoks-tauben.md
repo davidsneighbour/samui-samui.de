@@ -11,11 +11,11 @@ url: /2010/02/thailand-news-ii-happy-end-fuer-bangkoks-tauben/
 ---
 Es gibt Nachrichten, die gibt es nur in Thailand:
 
-**Rettung**: Die Tauben, die <a href="1837">vergangene Woche</a> aus unerklärlichen Gründen noch niemand wollte, haben eine neue Heimat gefunden. [Hurrah][1]. Farmer aus 10 Provinzen wollen die Federviecher nutzbar (hinsichtlich der Eier) einsetzen. 
+**Rettung**: Die Tauben, die vergangene Woche aus unerklärlichen Gründen noch niemand wollte, haben eine neue Heimat gefunden. [Hurrah][1]. Farmer aus 10 Provinzen wollen die Federviecher nutzbar (hinsichtlich der Eier) einsetzen. 
 
 Die Tauben werden gereinigt, für die Farmer werden von der Vereinigung für, ehm, Renn-Tauben (? heh?) Handbücher zur Taubenzüchtung bereitgestellt und es gibt 10 Provinzen, in denen die Leute mehr Taubeneier verzehren können. Wenn die Lehrbücher keine fatalen Fehler enthalten. 
 
-**Rettung II**: Im <a href="1671">ewig währenden Streit</a> um die Grenze rings um Preah Vihear, einem Tempel der mitten auf der Grenze, in Cambodia oder Thailand steht, je nach Geschichtsschreibung des Betrachters, kommt Google Thailand zu Hilfe. In Google Earth ist die Grenze nämlich so gezogen, dass der Tempel auf der Thaiseite steht.
+**Rettung II**: Im ewig währenden Streit um die Grenze rings um Preah Vihear, einem Tempel der mitten auf der Grenze, in Cambodia oder Thailand steht, je nach Geschichtsschreibung des Betrachters, kommt Google Thailand zu Hilfe. In Google Earth ist die Grenze nämlich so gezogen, dass der Tempel auf der Thaiseite steht.
 
 Und da Google immer Recht hat, freuen wir uns (stellvertretend für jeden, der den Tempel irgendwie gewinnbringend verwerten kann) natürlich. Hun Sen, der (sicherlich klinisch diagnostizierbare) Premierminister Cambodias sagt [nun][2], Google sei böse, aber wir alle wissen ja, dass dem nicht so sein kann. Mal abgesehen davon, dass nach Meinung der Thais [noch nicht alles entschieden][3] (sprich verloren) ist.
 

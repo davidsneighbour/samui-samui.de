@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-Titelgebende Zeile mag ausschlaggebend für mein "kleines" Problem heute morgen gewesen sein. Ich dachte schon seit ein paar Tagen, ich sollte mal wieder tanken. Da ich aber nur auf Arbeit und zurück fuhr, verschob ich das immer wieder auf später. Nach der <a href="19">Laundry</a> aber machte mein kleines sü?es Moped plötzlich seltsame Laute. Spotz spotz. Ich dachte mir, es wäre nicht unklug, nun gleich tanken zu fahren. Das Moped dachte es auch und ging an der nächsten Kreuzung aus. 
+Titelgebende Zeile mag ausschlaggebend für mein "kleines" Problem heute morgen gewesen sein. Ich dachte schon seit ein paar Tagen, ich sollte mal wieder tanken. Da ich aber nur auf Arbeit und zurück fuhr, verschob ich das immer wieder auf später. Nach der Laundry aber machte mein kleines sü?es Moped plötzlich seltsame Laute. Spotz spotz. Ich dachte mir, es wäre nicht unklug, nun gleich tanken zu fahren. Das Moped dachte es auch und ging an der nächsten Kreuzung aus. 
 
 Nett. Ich versuchte zu starten, es verweigerte aber beharrlich seine Dienste. Ein kurzer Blick zum Himmel --- wolkenlos, Sonne. Nun gut, es war noch vor Acht, also konnte man annehmen, dass es nicht allzu schwierig werden könnte, das Moped zur Tankstelle zu schieben. Ich machte mich also schiebenderweise auf den Weg, unterwegs manchmal aufgehalten von Thais, die interessiert fragten, was denn kaputt wäre. Beim dritten hatte ich dann die Wortwahl gefunden, die am verständlichsten war: "No gasoline I think, the tank is empty!" Au?er einem mitleidigen Lächeln hatten sie aber nichts zu bieten.
 

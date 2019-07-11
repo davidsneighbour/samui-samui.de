@@ -13,6 +13,6 @@ Nun gut, die wenigsten mag es interessieren, aber als ich heute meinen freitägl
 
 Jedenfalls bin ich nun im Besitz von verschiedenen Horro-DVDs bei denen immer Jason aus Halloween mitspielt. Themenabend. Jawollja.
 
-PS: Ich hab natürlich <a href="185">vergessen, ein ordentliches stromlos arbeitendes Repellent zu kaufen</a>. Muss ich wohl morgen wieder zu Tesko. Und Tsutaya.
+PS: Ich hab natürlich vergessen, ein ordentliches stromlos arbeitendes Repellent zu kaufen. Muss ich wohl morgen wieder zu Tesko. Und Tsutaya.
 
 PPS: Ich habe die Kommas entdeckt. Aber ich glaube, das wird nur ein kurzes Intermezzo geben. Unterbricht den Redefluss irgendwie.

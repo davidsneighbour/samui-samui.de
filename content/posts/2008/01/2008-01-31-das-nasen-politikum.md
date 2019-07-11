@@ -9,7 +9,7 @@ url: /2008/01/das-nasen-politikum/
 
 
 ---
-[<img src="//farm3.static.flickr.com/2362/2226301566_e0dc5d1e53_t.jpg" style="width:100px;height:75px;margin-right:10px;float:left;" alt="elect samak" />][1]<a href="1516">Am Montag brachte es mich noch zum Lachen</a>, am Dienstag war es bereits Streitthema und bis heute haben sich die Wogen nicht geglättet. 
+[<img src="//farm3.static.flickr.com/2362/2226301566_e0dc5d1e53_t.jpg" style="width:100px;height:75px;margin-right:10px;float:left;" alt="elect samak" />][1]Am Montag brachte es mich noch zum Lachen, am Dienstag war es bereits Streitthema und bis heute haben sich die Wogen nicht geglättet. 
 
 Die Nase. Oder besser, das Gebärdensprachen-Zeichen für Samak, unseren neuen demokratisch gewählten Premierminister, bei dem sich die Dolmetscher an die Nase fassen. [Hier bei The Nation Online wird sehr schön aufgeführt][2], wie wir die ganzen Politikernamen übersetzen würden, wenn wir taub und Thai wären. 
 

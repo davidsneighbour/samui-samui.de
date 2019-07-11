@@ -9,11 +9,11 @@ url: /2005/08/pornohuetten/
 
 
 ---
-(<a href="101">Kleine Alien-Reminiszenz am Rande</a>)
+(Kleine Alien-Reminiszenz am Rande)
 
 Warnung: explizite Lyrik. Wirklich.
 
-Meine <a href="293">aktuelle Behausung</a> befindet sich inmitten verschiedener Pornohütten. Es ist ein kleines bisschen lustig. Hier wohnen einerseits Familien mit kleinen Kindern, die bis 23 Uhr rumschreien und die Hunde zum Bellen bringen und andererseits Sextouristen (ST) aus Italien und Deutschland, die dann ab 23 Uhr die Frauen von der Beachstreet verschämt an meiner Veranda vorbeiführen (Insomnia mal wieder. Ich lese immer vor der Hütte bis in den frühen Morgen).
+Meine aktuelle Behausung befindet sich inmitten verschiedener Pornohütten. Es ist ein kleines bisschen lustig. Hier wohnen einerseits Familien mit kleinen Kindern, die bis 23 Uhr rumschreien und die Hunde zum Bellen bringen und andererseits Sextouristen (ST) aus Italien und Deutschland, die dann ab 23 Uhr die Frauen von der Beachstreet verschämt an meiner Veranda vorbeiführen (Insomnia mal wieder. Ich lese immer vor der Hütte bis in den frühen Morgen).
 
 Jedenfalls hatte in den vergangenen Nächten jede Hütte rings um meine Sex. Manchmal laut. Manchmal nur klopfend. Manchmal klatschend. Eigentlich meistens klatschend, wenn Thaifrauen involviert waren. So bekommt der Begriff "knallen", den eine informierte Quelle neulich prägte, eine selbst mir verständliche Bedeutung. Muss eine interkulturelle Sache sein.
 

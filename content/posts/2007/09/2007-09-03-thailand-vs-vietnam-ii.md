@@ -9,6 +9,6 @@ url: /2007/09/thailand-vs-vietnam-ii/
 
 
 ---
-Thailand hat übrigens das <a href="1371">bereits erwähnte</a> Match der Matche [gewonnen][1].
+Thailand hat übrigens das bereits erwähnte Match der Matche [gewonnen][1].
 
  [1]: http://vietnamnews.vnagency.com.vn/showarticle.php?num=01NAT010907

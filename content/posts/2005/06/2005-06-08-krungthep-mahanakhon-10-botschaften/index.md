@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-Hab ich eigentlich schon erwähnt, dass ich neulich in Krungthep war? Hab ich? <a href="242">Ach ja. Stimmt ja</a>. Gut, dann liefere ich schnell noch ein Nachtbild von unserem Stra?enaufenthalt in Surrat Thani nach:
+Hab ich eigentlich schon erwähnt, dass ich neulich in Krungthep war? Hab ich? Ach ja. Stimmt ja. Gut, dann liefere ich schnell noch ein Nachtbild von unserem Stra?enaufenthalt in Surrat Thani nach:
 
 {{< figure src="/wp-content/old-images/116.jpg" >}}
 

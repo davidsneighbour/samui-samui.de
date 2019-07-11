@@ -13,6 +13,6 @@ Heute morgen war es schon auf dem Weg auf Arbeit so hei?, dass es eine Freude is
 
 Ansonsten gibt es viel zu tun, man bastelt so an seinen Projekten.
 
-Hab ich schon gesagt, dass ich <a href="12">mein Thaihaus</a> wiedergefunden habe? Es ist vermietet (nicht an mich), was ich höchst deprimierend finde. Aber neue Möglichkeiten sind in Sicht. Mal sehen. Zur Not bleibe ich noch 2 Wochen in meiner derzeitigen Hütte.
+Hab ich schon gesagt, dass ich mein Thaihaus wiedergefunden habe? Es ist vermietet (nicht an mich), was ich höchst deprimierend finde. Aber neue Möglichkeiten sind in Sicht. Mal sehen. Zur Not bleibe ich noch 2 Wochen in meiner derzeitigen Hütte.
 
 PS: Und als Hohn war der Himmel mit Wolken bedeckt, sobald dieser Eintrag online stand. Nett.

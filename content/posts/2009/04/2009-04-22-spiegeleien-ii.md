@@ -17,6 +17,6 @@ Thaksin im Spiegel: Aus den "über 50 Toten" bei den Songkran-Unruhen wurden zwe
 
 ... den von Nikaragua hat er dann wohl bekommen.
 
-Die Thais, die sich noch für das Au?enbild Thailands in der internationalen Presse interessieren, sind etwas irritiert über die Spiegelberichte <a href="1753">der vergangenen Tage</a>.
+Die Thais, die sich noch für das Au?enbild Thailands in der internationalen Presse interessieren, sind etwas irritiert über die Spiegelberichte der vergangenen Tage.
 
  [1]: http://www.spiegel.de/international/world/0,1518,619943,00.html

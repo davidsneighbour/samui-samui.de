@@ -9,7 +9,7 @@ url: /2007/05/die-wahl-der-kuehe/
 
 
 ---
-<a href="1259">Die heiligen Kühe</a> haben <del>gesprochen</del> [gefressen][1]:
+Die heiligen Kühe haben <del>gesprochen</del> [gefressen][1]:
 
 > The Sacred Cows used in the Royal Ploughing Ceremony Thursday predicted that Thailand's harvests and foods produce as well as water would be abundant.
 > 

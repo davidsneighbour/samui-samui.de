@@ -9,7 +9,7 @@ url: /2009/11/fettnaepfe/
 
 
 ---
-?ber den unter deutschen Expats hei?beliebten Newsletter der Deutschen Botschaft zu Bangkok habe ich <a href="1187">bereits</a> <a href="1163">einige</a> <txp:permlink id="1125">Male</a> berichtet.
+?ber den unter deutschen Expats hei?beliebten Newsletter der Deutschen Botschaft zu Bangkok habe ich bereits</a> <a href="1163">einige</a> <txp:permlink id="1125">Male berichtet.
 
 Heute nun haben sie den Bock abgeschossen. Im Adressfeld "meiner" Newsletteremail habe ich 150 Emailadressen und Namen im Klartext vorgefunden. Sehr professionell.
 

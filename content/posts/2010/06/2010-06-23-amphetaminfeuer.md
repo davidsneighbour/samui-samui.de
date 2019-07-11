@@ -9,7 +9,7 @@ url: /2010/06/amphetaminfeuer/
 
 
 ---
-<a href="1779">Wie jedes Jahr</a> um diese Zeit werden morgen [wieder einmal legal Drogen verbrannt][1]. 5.691kg werden mit einem "speziellen Verfahren" verbrannt, das die Umwelt nicht verschmutzt und vermutlich auch keine unerwünschten Drogenräusche hervor ruft.
+Wie jedes Jahr um diese Zeit werden morgen [wieder einmal legal Drogen verbrannt][1]. 5.691kg werden mit einem "speziellen Verfahren" verbrannt, das die Umwelt nicht verschmutzt und vermutlich auch keine unerwünschten Drogenräusche hervor ruft.
 
 > To be reduced into ashes and smokes include 1.8 million kgs (about 20.21 tablets) of methamphetamine, 213.97kg of heroin, 13.2kg (54,881 tablets) of ecstasy, 1.19kg of cocaine, 129.41kg of opium, 166.32kg of codeine, and 6.51kg of marijuana. 
 

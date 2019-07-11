@@ -20,7 +20,7 @@ url: /2011/04/songkran-yeah/
     </a></div> 
     
     <p>
-      Yeah! Und wieder einmal feiern wir Songkran, das Thailändische Neujahr. Google hat auch dieses Jahr <a href="1744">wieder</a> ein Songkran Doodle und endlich einmal auf den Wasser-Aspekt verzichtet (Songkran ist kein Wasserfest). Zu sehen sind sogenannte Sand-Pagoden (den krampfhaften Versuch von Thaibuchstaben übersehen wir einfach mal).
+      Yeah! Und wieder einmal feiern wir Songkran, das Thailändische Neujahr. Google hat auch dieses Jahr wieder ein Songkran Doodle und endlich einmal auf den Wasser-Aspekt verzichtet (Songkran ist kein Wasserfest). Zu sehen sind sogenannte Sand-Pagoden (den krampfhaften Versuch von Thaibuchstaben übersehen wir einfach mal).
     </p>
     
     <p>

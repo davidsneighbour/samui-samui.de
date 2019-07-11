@@ -9,7 +9,7 @@ url: /2007/08/kommunikationsamputiert/
 
 
 ---
-Seit heute Nacht geht nun auch mein Ersatzmobilfunktelefon (ein gutes altes Siemens SL55, <a href="1255">das eigentliche (ein Nokia 6681) fiel einem Wasserfall zum Opfer</a>) nicht mehr. Oder besser gesagt, nachdem der Handywecker seit 1 Uhr Nachts aller halbe Stunde anfing zu klingeln und ich es ausgeschaltet habe, lässt es sich nicht mehr einschalten, weil der Button zum Bestätigen der <span class="caps">PIN</span> nicht mehr reagiert. 
+Seit heute Nacht geht nun auch mein Ersatzmobilfunktelefon (ein gutes altes Siemens SL55, das eigentliche (ein Nokia 6681) fiel einem Wasserfall zum Opfer) nicht mehr. Oder besser gesagt, nachdem der Handywecker seit 1 Uhr Nachts aller halbe Stunde anfing zu klingeln und ich es ausgeschaltet habe, lässt es sich nicht mehr einschalten, weil der Button zum Bestätigen der <span class="caps">PIN</span> nicht mehr reagiert. 
 
 Ich bin etwas negativ erregt.
 

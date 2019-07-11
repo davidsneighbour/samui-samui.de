@@ -13,4 +13,4 @@ dsq_thread_id:
 ---
 {{< figure src="/wp-content/old-images/27.jpg" >}}
 
-Bei dem, was ich so in meinem kleinen Leben schon alles erlebt habe wundert es mich schon, dass ich noch keine Falten oder andere bleibenden Abnutzungserscheinungen genossen habe. Vermutlich hat mein Rettungsring <a href="24">heute morgen</a> auch seinen Anteil gehabt.
+Bei dem, was ich so in meinem kleinen Leben schon alles erlebt habe wundert es mich schon, dass ich noch keine Falten oder andere bleibenden Abnutzungserscheinungen genossen habe. Vermutlich hat mein Rettungsring heute morgen auch seinen Anteil gehabt.

@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-Gestern waren die Hunde beim Friseur. Ich auch, aber das ist <a href="1230">eine andere Geschichte</a>. 
+Gestern waren die Hunde beim Friseur. Ich auch, aber das ist eine andere Geschichte. 
 
 Samui ist von der Trockenzeit heimgesucht. Hitze, wenig Wind und jede Menge Sonne. Die letzte Woche verbrachten die Hunde gr&ouml;&szlig;tenteils unter der Couch hechelnd und relativ unbewegt. Wenn sie sich mal bewegten, dann nur um rauszulaufen und den n&auml;chst besten Distelbusch zu besuchen. Man muss sich das ungef&auml;hr wie Weizen oder Roggen vorstellen, nur anstelle der K&ouml;rner kleine Disteln. Die verfangen sich dann im Fell, werden versucht durch Bei&szlig;en zum Abfallen bewegt zu werden, was die Sache nat&uuml;rlich verschlimmert. Am Ende kommen auf 10 Minuten Drau&szlig;en rum rennen 1 Stunde Distel-Nothilfe. Von dem ganzen Kleinviehkram der sich im Fell verstecken kann mal ganz zu schweigen.
 
@@ -23,6 +23,6 @@ Die Hunde bellten, die Friseuse kam, fragte "shower?" ich sagte "yes and cut". S
 
 Als n&auml;chstes ging es um die L&auml;nge. Ich wollte auf so zwei bis drei Zentimeter hinaus, damit sie trotzdem noch wuschelig und als Aufrei&szlig;werkzeug funktionsf&auml;hig sind, das wurde aber abgeschmettert. Sie zeigten auf einen kleinen Shih-Tzu mit ganz kurzem braunen Fell. Nach einigem Verhandeln gab ich mich geschlagen, sie fragten noch mal "cut?", ich sagte "cut!", die Hunde wurden abgef&uuml;hrt und ich nach Hause geschickt. 
 
-Das war um neun morgens. Um zw&ouml;f begann ich die beiden zu vermissen. Um drei riefen sie (der Hair-Dog-Shop) an, dass die Hunde fertig sind ("pokki kap soosie finish now" --- das kann missverstanden werden). Im Shop angekommen kamen mir die beiden <a href="1226">in den gestrigen Photos</a> zu sehenden Wesen entgegen gelaufen. Ich habe ziemlich lange gelacht und &uuml;berlegt, ob sie s&uuml;&szlig; oder l&auml;cherlich aussehen. 
+Das war um neun morgens. Um zw&ouml;f begann ich die beiden zu vermissen. Um drei riefen sie (der Hair-Dog-Shop) an, dass die Hunde fertig sind ("pokki kap soosie finish now" --- das kann missverstanden werden). Im Shop angekommen kamen mir die beiden in den gestrigen Photos zu sehenden Wesen entgegen gelaufen. Ich habe ziemlich lange gelacht und &uuml;berlegt, ob sie s&uuml;&szlig; oder l&auml;cherlich aussehen. 
 
 Den beiden scheint es zu gefallen. Sie sind aktiver (die Zeit die ich sonst mit B&uuml;rsten verbrachte verbringe ich nun doppelt mit Spielen) und m&uuml;ssen sich nicht st&auml;ndig befellen lassen. Pokki steht auf nackte Shih-Tzus, denn seit gestern versucht er Soosie st&auml;ndig zu besteigen. Das l&auml;sst mich aber relativ kalt, denn ohne Haare im Blickfeld kann man sehr gut erkennen, dass das nur Trocken&uuml;bungen sind. Er vermutet den Zielpunkt seines Begehrens auf Soosies R&uuml;cken. Hehe. Dummer kleiner kahler Hund.

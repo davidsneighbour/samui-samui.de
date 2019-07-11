@@ -13,11 +13,11 @@ Also [Harry und Ginny][1] (ähm, Spoilerwarnung ;). Soso. Das ist ja interessant
 
 Ich habe es übrigens immer noch nicht geschafft, an den fünften Band heranzukommen. Irgendwie bin ich hier nicht ganz in der Nähe der zivilisierten Welt. Macht nichts. Dafür gibts preiswerten Sex (hab ich mir sagen lassen). Man kann nicht immer alles auf einmal haben.
 
-Den sechsten Band werde ich vermutlich eh nicht lesen müssen, da hoffentlich Sirius Black am Ende des fünften stirbt und damit <a href="135">jeglicher Grund mein Interesse an dieser Märchengeschichte zu erwecken</a> verschwunden ist. (Black muss sterben, niemand spricht mehr von ihm. Vom alten Papst spricht auch niemand mehr. Und wann hat bittesehr jemand das letzte Mal Freddy Mercury erwähnt? Hmm? Na? Siehste!)
+Den sechsten Band werde ich vermutlich eh nicht lesen müssen, da hoffentlich Sirius Black am Ende des fünften stirbt und damit jeglicher Grund mein Interesse an dieser Märchengeschichte zu erwecken verschwunden ist. (Black muss sterben, niemand spricht mehr von ihm. Vom alten Papst spricht auch niemand mehr. Und wann hat bittesehr jemand das letzte Mal Freddy Mercury erwähnt? Hmm? Na? Siehste!)
 
 So. Und jetzt: Vorsicht, ein Kreis schliesst sich. Gedankenkette. mit Blut, Hautfetzen und jeder Menge Ekel.
 
-Black wird ja bekannterma?en in den Potter-Movies von [Garry Oldman][2] gespielt. Und <a href="285">ich lese gerade</a> "Hannibal" von Thomas Harris. Na? Klingelts? Nein? Gut. Garry spielt auch den Mason Verger aus dem Buch, einen perversen von Hannibal Lector zuerst verunstalteten und später (bilde ich mir ein im Film gesehen zu haben) den fleischfressenden Schweinen vorgeworfenen Kinderschänder. 
+Black wird ja bekannterma?en in den Potter-Movies von [Garry Oldman][2] gespielt. Und ich lese gerade "Hannibal" von Thomas Harris. Na? Klingelts? Nein? Gut. Garry spielt auch den Mason Verger aus dem Buch, einen perversen von Hannibal Lector zuerst verunstalteten und später (bilde ich mir ein im Film gesehen zu haben) den fleischfressenden Schweinen vorgeworfenen Kinderschänder. 
 
 Jedenfalls war ich heute Nacht an der Stelle angelangt, wo Verger der Agentin erzählt, wie das so alles war, als Hannibal Lector ihm Acid gespritzt hat und er sich selbst mit einer Spiegelscherbe die Haut in Fetzen vom Gesicht gezogen hat um sie an seine beiden Dobermänner zu verfüttern. War sehr plastisch. Ein Glück, dass ich derzeit nicht allzuviel im Magen habe. 
 

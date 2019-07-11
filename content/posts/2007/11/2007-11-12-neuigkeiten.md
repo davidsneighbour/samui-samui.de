@@ -21,7 +21,7 @@ Oh. Was denn nun?
 
 > "I will no longer enter politics. But if the new government invites me to join as a minister, I may think about it," he said.
 
-Ahso. Und wenn die <span class="caps">PPP</span> gewinnt? <a href="1442">Hmm</a>?
+Ahso. Und wenn die <span class="caps">PPP</span> gewinnt? Hmm?
 
 > Reacting to reports that the People Power party is currently in the lead, Gen Sonthi reiterated that it was "up to the people to decide who wins?.
 

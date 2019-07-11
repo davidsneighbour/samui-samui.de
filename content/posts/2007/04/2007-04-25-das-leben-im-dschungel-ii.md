@@ -21,4 +21,4 @@ Das Leben im Dschungel bringt manchmal weniger nette ?berraschungen mit sich. Wi
 
 Hab ihn kurz in die Sonne gestellt und die Ameisen zum Verlassen aufgefordert. Einige sind schnell verschwunden, der Gro&szlig;teil ist aber erstickt oder verbrannt oder was auch immer. Das ist mir aber inzwischen egal. Ameisen m&uuml;ssen nicht in meinem Haus leben.
 
-<a href="1220">Neulich</a> waren sie noch in der Tripod-Tasche.
+Neulich waren sie noch in der Tripod-Tasche.
