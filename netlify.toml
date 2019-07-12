@@ -1,6 +1,6 @@
 [build]
   publish = "public/"
-  # command = "hugo --gc --minify && node scripts/imagemin.js"
+  # command = "hugo --gc --minify && node scripts/imagemin.js && rm -rf public/posts"
   command = "hugo --gc --minify"
 
 [build.environment]
