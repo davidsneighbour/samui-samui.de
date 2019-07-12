@@ -40,6 +40,12 @@ article {
 
     }
 
+    .is--taglist {
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     .entry-content {
         margin-bottom: $spacer;
     }
@@ -65,6 +71,16 @@ article {
 
     .embed-responsive {
     margin-bottom: 1rem;
+    }
+
+    table {
+        @extend .table;
+        @extend .table-bordered;
+        @extend .table-sm;
+
+        thead {
+            @extend .thead-dark;
+        }
     }
 
 }

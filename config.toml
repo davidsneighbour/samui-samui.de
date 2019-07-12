@@ -17,12 +17,14 @@ logFile = "hugo.log"
 paginate = 5                              # default 5 items per page
 paginatePath = "seite"
 relativeURLs = true                       # makes all relative urls absolute to root... yeah, don't ask. we won't tell...
+refLinksErrorLevel = "WARNING"
+refLinksNotFoundURL = "/404.html"
 rssLimit = 10
 summaryLength = 150                       # the length of text to show in a .Summary
 title = "Samui? Samui!"
 verbose = true
 verboseLog = true
-
+  
 #############################################################
 # Theme setup
 #############################################################
@@ -78,13 +80,14 @@ post = [ "HTML" ]
 
 # see https://gohugo.io/content-management/urls/
 [permalinks]
-  post = "/:year/:month/:title/"
-  page = "/:title/"
+  post = "/:year/:month/:slug/"
   leute = "/:section/:slug/"
+  tags = "/:section/:slug/"
 
 [taxonomies]
   tag = "tags"
   leute = "leute"
+  feiertag = "feiertage"
 
 [mediaTypes]
 [mediaTypes."text/netlify"]
@@ -192,6 +195,7 @@ post = [ "HTML" ]
 [params]
   version = "2019.2.159"
   debug = false
+  mainSections = ["posts"]
 
   # social media setup
   og_image = ""

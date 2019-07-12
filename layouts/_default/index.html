@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ print "<!-- _default/index.html -->" | safeHTML }}
 
-  {{ range $elem_index, $value := .Paginator.Pages }}
+  {{ range $elem_index, $value := where site.RegularPages "Type" "in" site.Params.mainSections }}
   <article class="{{ if eq $elem_index 0 }}first{{ end }}"{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
     {{ .Scratch.Set "firstitem" "" }}
     <header class="title">

@@ -31,20 +31,23 @@ $font-weight-bold:            700;
 $font-weight-bolder:          800;
 $headings-font-weight:        800;
 
+// tables
+$table-border-color: theme-color("bodybg");
+
 // cards
 $card-cap-bg:                       rgba($primary, .3);
 $card-bg:                           darken(theme-color("contentbg"), 3%);
 
 // carousel
-$carousel-control-width:            15% !default;
-$carousel-control-opacity:          .5 !default;
-$carousel-indicator-width:          20px !default;
-$carousel-indicator-height:         9px !default;
-$carousel-indicator-spacer:         3px !default;
-$carousel-indicator-active-bg:      theme-color("primary") !default;
-$carousel-caption-width:            70% !default;
-$carousel-caption-color:            theme-color("primary") !default;
-$carousel-control-icon-width:       20px !default;
+$carousel-control-width:            15%;
+$carousel-control-opacity:          .5;
+$carousel-indicator-width:          20px;
+$carousel-indicator-height:         9px;
+$carousel-indicator-spacer:         3px;
+$carousel-indicator-active-bg:      theme-color("primary");
+$carousel-caption-width:            70%;
+$carousel-caption-color:            theme-color("primary");
+$carousel-control-icon-width:       20px;
 
 // pagination
 $pagination-color: lighten(theme-color("contentbg"), 20%);

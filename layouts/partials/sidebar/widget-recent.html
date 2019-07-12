@@ -2,7 +2,9 @@
     <h3 class="card-header">
         Neueste Eintr&auml;ge
     </h3>
-    {{ $recentPages := where site.RegularPages ".File.UniqueID" "!=" .File.UniqueID }}
+    {{ $pages := where .Site.RegularPages ".File.UniqueID" "!=" "nil" }}
+    {{ $currentPage := . }}
+    {{ $recentPages := $pages | complement (slice $currentPage) }}
     <ul class="list-group list-group-flush">
         {{ range first 5 $recentPages }}
             <li class="list-group-item">

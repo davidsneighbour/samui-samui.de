@@ -10,35 +10,3 @@
 
 # https://www.netlify.com/docs/redirects/
 https://eloquent-morse-196fd2.netlify.com/* https://samui-samui.de/:splat 301!
-
-# forwarding old amp links to normal article (for now, later on to the new amp)
-/amp/* /:splat
-/*/amp /:splat
-/*/feed /:splat
-
-# special redirects for strange old URLs
-/weblog/1487/am-ende-steht-der-anfang/ /2007/12/am-ende-steht-der-anfang/
-
-# forwarding old weblog links to new location
-/weblog/* /:splat
-
-# forwarding old tag links
-/thema/* /tags/:splat
-/tags/*/feed /tags/:splat
-/kategorie/* /
-/archiv/* /archiv/
-
-# unused double content candidates
-/post/* /
-
-/sitemap /archiv/
-/sitemap/ /archiv/
-/service* /
-/suchen* /suche:splat
-/tag/* /tags/:splat
-/page/* /seite/:splat
-/abonnieren* /
-/txp* /
-/instagram* /
-/information* /
-/archive/* /
