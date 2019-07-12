@@ -1,9 +1,5 @@
 ---
 title: Datenschutzerklärung! Yeah!
-author: Patrick Kollitsch
-type: page
-date: 2018-03-27T12:41:17+00:00
-url: /datenschutzerklaerung
 hideMeta: true
 menu:
   main:

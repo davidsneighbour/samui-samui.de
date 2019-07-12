@@ -6,7 +6,8 @@ date: 2006-01-04T02:12:00+00:00
 url: /2006/01/pokkihateinevorliebe/
 dsq_thread_id:
   - "3358405744"
-
+tags:
+- pokki
 
 
 

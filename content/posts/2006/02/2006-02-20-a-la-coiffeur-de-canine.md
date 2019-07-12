@@ -6,6 +6,8 @@ date: 2006-02-19T22:15:00+00:00
 url: /2006/02/a-la-coiffeur-de-canine/
 dsq_thread_id:
   - "2921166924"
+tags:
+- pokki
 
 
 

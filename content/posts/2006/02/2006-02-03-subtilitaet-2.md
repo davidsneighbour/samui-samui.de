@@ -4,6 +4,8 @@ author: Patrick Kollitsch
 type: post
 date: 2006-02-02T20:19:00+00:00
 url: /2006/02/subtilitaet-2/
+tags:
+- pokki
 
 
 

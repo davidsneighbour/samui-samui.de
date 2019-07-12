@@ -1,10 +1,7 @@
 ---
 title: Das Archiv?!?
-date: 2011-11-16
 description: Archiv.
-type: page
 layout: single
-url: /archiv
 hideMeta: true
 menu:
   main:

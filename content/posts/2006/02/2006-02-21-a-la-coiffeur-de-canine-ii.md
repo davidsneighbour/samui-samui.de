@@ -4,6 +4,8 @@ author: Patrick Kollitsch
 type: post
 date: 2006-02-20T19:43:00+00:00
 url: /2006/02/a-la-coiffeur-de-canine-ii/
+tags:
+- pokki
 
 
 

@@ -1,10 +1,6 @@
 ---
 title: Kontakt!?!
-author: Patrick Kollitsch
-type: page
-date: 2012-06-17T11:17:07+00:00
 layout: kontakt
-url: /kontakt
 hideMeta: true
 menu:
   main:
