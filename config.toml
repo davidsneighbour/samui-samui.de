@@ -28,7 +28,7 @@ verboseLog = true
 #############################################################
 # Theme setup
 #############################################################
-theme = ["hugo-debugprint"]
+theme = ["hugo-debugprint", "dnb-hugo-shortcodes"]
 #assetDir = "themes/dnb-hugo-garuda/assets"
 
 ##################################################################################
