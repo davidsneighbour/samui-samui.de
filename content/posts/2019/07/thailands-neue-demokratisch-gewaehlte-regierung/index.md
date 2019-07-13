@@ -15,6 +15,8 @@ resources:
       title: "title"
 ---
 
+{{< img src="thai-cabinet-2019.jpg" >}}Thailands neue, demokratisch gewählte Regierung{{< / img >}}
+
 Seit Mittwoch haben wir eine vom K&ouml;nig abgesegnete Regierung. Mitglieder der Regierung sind **ALLE** Mitglieder der als "National Council of Peace and Order" (NCPO) bekannten Gruppe of Putschisten von 2014 und Mitglieder der Parteien, die Milit&auml;r-General Prayuth Chan-ocha zum nun als "demokratisch gew&auml;hlten" Premierminister Thailands verhalfen. 
 
 Die Regierung setzt sich folgenderma&szlig;en zusammen:
