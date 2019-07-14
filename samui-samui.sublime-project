@@ -5,6 +5,15 @@
 			"path": "."
 		},
 		{
+			"path": "themes/dnb-hugo-garuda"
+		},
+		{
+			"path": "themes/dnb-hugo-shortcodes"
+		},
+		{
+			"path": "themes/hugo-debugprint"
+		},
+		{
 			"path": "/home/patrick/Projects/Me/staticman"
 		}
 	]
