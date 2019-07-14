@@ -194,7 +194,7 @@ post = [ "HTML" ]
 #############################################################
 [params]
   version = "2019.2.159"
-  debug = false
+  debug = true
   mainSections = ["posts"]
 
   # social media setup
@@ -232,6 +232,10 @@ post = [ "HTML" ]
 [params.social.twitter]
   profileid = "davidsneighbour"
   siteid = "samui2"
+  theme ="dark"
+  linkcolor = "#d02d19"
+  dnt = "on"
+  csp = "on"
 
 [params.social.snapchat]
   profileid = "pkollitsch"
