@@ -30,3 +30,5 @@ Vielmehr ist das ein Mittel, um die M&ouml;nche zur Regenzeit in ihren Kl&ouml;s
 Alkohol zu verkaufen oder den Verkauf zu f&ouml;rdern ist &uuml;brigens an beiden Tagen (wie an vielen Buddha-Tagen) unter Strafen bis zu sechs Monaten Gef&uuml;ngnis oder 10.000 THB verboten. 
 
 - {{< languagelink "https://de.wikipedia.org/wiki/Vier_Edle_Wahrheiten" "Die Vier Edlen Wahrheiten auf Wikipedia" "de" >}}
+
+{{< adsense-ad 7489540880 >}}
