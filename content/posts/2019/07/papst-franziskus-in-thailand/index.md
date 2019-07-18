@@ -8,6 +8,8 @@ leute:
     - yingluck shinawatra
 tags:
     - papstbesuch
+    - religion
+    - katholizismus
 ---
 
 {{< img src="franziskus-und-yingluck.jpg" >}}Yingluck und Papst Franziskus, ca. 2013{{< / img >}}
