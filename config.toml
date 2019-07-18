@@ -80,7 +80,7 @@ post = [ "HTML" ]
 
 # see https://gohugo.io/content-management/urls/
 [permalinks]
-  post = "/:year/:month/:slug/"
+  posts = "/:year/:month/:slug/"
   leute = "/:section/:slug/"
   tags = "/:section/:slug/"
 
@@ -194,7 +194,7 @@ post = [ "HTML" ]
 #############################################################
 [params]
   version = "2019.2.159"
-  debug = true
+  debug = false
   mainSections = ["posts"]
 
   # social media setup
