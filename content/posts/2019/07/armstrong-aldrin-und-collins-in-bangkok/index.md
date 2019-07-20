@@ -12,7 +12,7 @@ leute:
 
 {{< youtube vPS8PPDDZgY >}}
 
-Vor 50 Jahren setzte Eagle, das Apollo Mondmodul, am 20. Juli 1969 um 20:17 UTC auf dem Mond auf und Neil Armstrong betrat als erster Mensch knapp 7 Stunden sp&auml;ter um 2.5 UTC Morgens am 21. Juli den Mond. 
+Vor 50 Jahren setzte Eagle, das Apollo Mondmodul, am 20. Juli 1969 um 20:17 UTC auf dem Mond auf und Neil Armstrong betrat als erster Mensch knapp 7 Stunden sp&auml;ter um 2:56 UTC Morgens am 21. Juli den Mond. 
 
 Nachdem sie zur guten alten Erde zur&uuml;ckkehrten, begannen sie eine "Siegesrunde" rund um die Welt. Bangkok war einer der 24 Stops dieser Reise. Seoul und Tokyo die einzigen anderen Stopps in Asien. Im Video oben sehen wir Scenen vom Bangkok-Stop dieser sicherlich historischen Reise vom Thail&auml;ndischen Filmarchiv.
 
