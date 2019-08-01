@@ -28,7 +28,7 @@ verboseLog = true
 #############################################################
 # Theme setup
 #############################################################
-theme = ["hugo-debugprint", "dnb-hugo-shortcodes", "dnb-hugo-garuda"]
+theme = ["hugo-debugprint", "dnb-hugo-netlification", "dnb-hugo-shortcodes", "dnb-hugo-garuda"]
 #assetDir = "themes/dnb-hugo-garuda/assets"
 
 ##################################################################################
@@ -66,16 +66,6 @@ post = [ "HTML" ]
   baseName = "algolia"
   isPlainText = true
   mediaType = "application/json"
-  notAlternative = true
-[outputFormats.REDIR]
-  mediatype = "text/netlify"
-  baseName = "_redirects"
-  isPlainText = true
-  notAlternative = true
-[outputFormats.HEADERS]
-  mediatype = "text/netlify"
-  baseName = "_headers"
-  isPlainText = true
   notAlternative = true
 
 # see https://gohugo.io/content-management/urls/
@@ -225,6 +215,13 @@ adclientid = "pub-9026195124322857"
 
 [params.opensearch]
   # https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md
+
+
+#############################################################
+# Search Setup
+#############################################################
+[params.redirects]
+netlify = "https://eloquent-morse-196fd2.netlify.com/"
   
 #############################################################
 # Social Media Setup
