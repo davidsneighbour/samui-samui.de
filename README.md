@@ -4,6 +4,7 @@
 
 - run `npm install` to install packages
 - run `./scripts/copy-files.sh` to copy used library to the assets folder
+- run `git submodule update --init --recursive` in the root folder
 
 # youtube thumbnail
 
@@ -15,3 +16,4 @@
 - fill in the info from https://www.algolia.com/apps &gt; API keys
 - run `npm install -g atomic-algolia` to install globally 
 - run `npm run algolia` whenever there are updates to the content
+

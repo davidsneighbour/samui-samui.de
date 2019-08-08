@@ -6,7 +6,7 @@ baseURL = "https://samui-samui.de/"       # hostname & path to the root
 defaultContentLanguage = "de"
 disableHugoGeneratorInject = true         # we do that proudly on each page in the footer. visible.
 enableEmoji = true                        # see https://www.webfx.com/tools/emoji-cheat-sheet/
-enableGitInfo = true                      # Enable GitInfo feature
+enableGitInfo = false                     # Enable GitInfo feature
 enableRobotsTXT = true                    # Build robots.txt file
 footnoteAnchorPrefix = "#"
 footnoteReturnLinkContents = "^"
@@ -22,7 +22,7 @@ refLinksNotFoundURL = "/404.html"
 rssLimit = 10
 summaryLength = 150                       # the length of text to show in a .Summary
 title = "Samui? Samui!"
-verbose = true
+verbose = false
 verboseLog = true
   
 #############################################################
