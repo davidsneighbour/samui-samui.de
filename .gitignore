@@ -1,6 +1,7 @@
 /node_modules
 /resources
 /content/posts/ideas/
+/public
 
 # logfiles
 /log.txt
@@ -14,14 +15,6 @@
 # config
 .env
 .semver
-
-
-# Created by https://www.gitignore.io/api/phpstorm
-# Edit at https://www.gitignore.io/?templates=phpstorm
-
-### PhpStorm ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
 .idea/**/workspace.xml
@@ -45,20 +38,6 @@
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
-
-# Gradle and Maven with auto-import
-# When using Gradle or Maven with auto-import, you should exclude module files,
-# since they will be recreated, and may cause churn.  Uncomment if using
-# auto-import.
-# .idea/modules.xml
-# .idea/*.iml
-# .idea/modules
-
-# CMake
-cmake-build-*/
-
-# Mongo Explorer plugin
-.idea/**/mongoSettings.xml
 
 # File-based project format
 *.iws
@@ -90,15 +69,5 @@ fabric.properties
 # JetBrains templates
 **___jb_tmp___
 
-### PhpStorm Patch ###
-# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
-
-# *.iml
-# modules.xml
-# .idea/misc.xml
-# *.ipr
-
 # Sonarlint plugin
 .idea/sonarlint
-
-# End of https://www.gitignore.io/api/phpstorm
