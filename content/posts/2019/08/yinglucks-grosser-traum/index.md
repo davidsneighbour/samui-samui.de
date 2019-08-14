@@ -3,7 +3,7 @@ title: "Yinglucks großer Traum"
 description: ""
 date: 2019-08-11T20:09:52+07:00
 lastmod: 2019-08-11T20:09:52+07:00
-url: /new/url/to/post
+url: /2019/08/yinglucks-grosser-traum
 tags:
     - serbien
 leute:
