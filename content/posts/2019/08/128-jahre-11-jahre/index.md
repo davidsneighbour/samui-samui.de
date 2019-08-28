@@ -1,6 +1,6 @@
 ---
 title: "128 Jahre / 11 Jahre"
-description: "Orn Parnchompoo sagt, er w&auml;re 128 Jahre alt. Auf seiner ID-Karte steht, dass er am 9. April 1891 geboren wurde, zur Regierungszeit von K&ouml;nig Chulalongkorn, dem 5. K&ouml;nig der Chakri-Dynastie. Sein "Geheim"-Tipp f&uuml;r ein langes Leben sind saubere Ern&auml;hrung und ausreichend Bewegung. "
+description: "Orn Parnchompoo sagt, er w&auml;re 128 Jahre alt. Auf seiner ID-Karte steht, dass er am 9. April 1891 geboren wurde, zur Regierungszeit von K&ouml;nig Chulalongkorn, dem 5. K&ouml;nig der Chakri-Dynastie. Sein \"Geheim\"-Tipp f&uuml;r ein langes Leben sind saubere Ern&auml;hrung und ausreichend Bewegung. "
 date: 2019-08-28T21:18:24+07:00
 lastmod: 2019-08-28T21:18:24+07:00
 url: /2019/08/128-jahre-11-jahre/
