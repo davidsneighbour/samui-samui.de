@@ -2,16 +2,12 @@
 title: "Thailands erste Tonfilme II"
 date: 2019-09-11T20:24:16+07:00
 lastmod: 2019-09-11T20:24:16+07:00
-url: /2019/09/thailands-erste-tonfilme
+url: /2019/09/thailands-erste-tonfilme-II
 tags:
     - geschichte
-    - film
-images:
-    - image.jpg
+    - tonfilm
 resources:
-    - src: "file"
-      name: "name"
-      title: "title"
+    - src: "thailands-erste-tonfilme.png"
 ---
 
 {{< youtube s8FIDQ_yB4A >}}
