@@ -62,11 +62,12 @@ page = [ "HTML" ]
 post = [ "HTML" ]
 
 [outputFormats]
+
 [outputFormats.Algolia]
-  baseName = "algolia"
-  isPlainText = true
-  mediaType = "application/json"
-  notAlternative = true
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
 
 # see https://gohugo.io/content-management/urls/
 [permalinks]
@@ -211,11 +212,10 @@ adclientid = "pub-9026195124322857"
 #############################################################
 [params.algolia]
   vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
-  params = ["categories", "tags", "leute"]
+  params = ["categories", "tags"]
 
 [params.opensearch]
   # https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md
-
 
 #############################################################
 # Search Setup
