@@ -150,13 +150,6 @@ notAlternative = true
 # Menue points without local page
 #############################################################
 [[menu.main]]
-  name = "44"
-  weight = 250
-  identifier = "fourtyfour"
-  url = "https://fourtyfour.space"
-  pre = "icons/horse.svg"
-
-[[menu.main]]
   name = "DNB"
   weight = 250
   identifier = "dnb"
