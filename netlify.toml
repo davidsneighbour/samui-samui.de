@@ -7,10 +7,9 @@
   PHP_VERSION="7.2"
 
 [context.production]
-  [context.production.environment]
-  	TZ = "Asia/Bangkok"
-    HUGO_VERSION = "0.75.1"
-    HUGO_ENV = "production"
+  TZ = "Asia/Bangkok"
+  HUGO_VERSION = "0.75.1"
+  HUGO_ENV = "production"
 	HUGO_ENABLEGITINFO = "true"
 
 # https://www.netlify.com/docs/netlify-toml-reference/#post-processing
