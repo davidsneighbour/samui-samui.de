@@ -5,8 +5,8 @@
 	path = themes/dnb-hugo-shortcodes
 	url = https://github.com/davidsneighbour/dnb-hugo-shortcodes.git
 [submodule "themes/dnb-hugo-garuda"]
-    path = themes/dnb-hugo-garuda
-    url = https://github.com/davidsneighbour/dnb-hugo-garuda.git
+  path = themes/dnb-hugo-garuda
+  url = https://github.com/davidsneighbour/dnb-hugo-garuda.git
 [submodule "themes/dnb-hugo-netlification"]
 	path = themes/dnb-hugo-netlification
 	url = https://github.com/davidsneighbour/dnb-hugo-netlification.git
