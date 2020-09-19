@@ -2,7 +2,7 @@
   "name": "samui-samui-de",
   "slug": "samui-samui-de",
   "url": "https://samui-samui.de",
-  "version": "2019.1.159",
+  "version": "2020.0.0",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "description": "Hugo files for samui-samui.de",
   "homepage": "http://samui-samui.de",
@@ -20,7 +20,10 @@
   "scripts": {
     "algolia2": "atomic-algolia",
     "algolia": "hugo --quiet && atomic-algolia && rm -rf public",
-    "lighthouse": "lighthouse https://samui-samui.de --budget-path=budget.json --view"
+    "lighthouse": "lighthouse https://samui-samui.de --budget-path=budget.json --view",
+    "release": "standard-version --release-as patch -a -t \"\"",
+    "release-next": "standard-version --release-as minor -a -t \"\"",
+    "release-major": "standard-version --release-as major -a -t \"\""
   },
   "browserslist": [
     "> 1%",
@@ -44,6 +47,15 @@
     "minimist": "1.2.5",
     "moment": "2.28.0",
     "popper.js": "1.16.1",
-    "postcss-cli": "7.1.2"
+    "postcss-cli": "7.1.2",
+    "standard-version": "^9.0.0"
+  },
+  "standard-version": {
+    "bumpFiles": [
+      {
+        "filename": "package.json",
+        "type": "json"
+      }
+    ]
   }
 }
