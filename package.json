@@ -10,7 +10,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/pkollitsch/samui-samui.de.git"
+    "url": "https://bitbucket.org/davidsneighbour/samui-samui.de.git"
   },
   "config": {
     "commitizen": {
