@@ -37,7 +37,7 @@
     "cz-customizable": "6.2.1",
     "imagemin-cli": "6.0.0",
     "imagemin-mozjpeg": "9.0.0",
-    "imagemin-pngquant": "9.0.0",
+    "imagemin-pngquant": "9.0.1",
     "instantsearch.js": "4.7.0",
     "jquery": "3.5.1",
     "lodash": "4.17.19",
