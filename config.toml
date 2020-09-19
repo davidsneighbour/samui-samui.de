@@ -6,6 +6,8 @@ baseURL = "https://samui-samui.de/"       # hostname & path to the root
 defaultContentLanguage = "de"
 disableHugoGeneratorInject = true         # we do that proudly on each page in the footer. visible.
 enableEmoji = true                        # see https://www.webfx.com/tools/emoji-cheat-sheet/
+# dev: check https://discourse.gohugo.io/t/differing-pages-between-dev-and-production/28270
+#    before enabling this.
 enableGitInfo = false                     # Enable GitInfo feature
 enableRobotsTXT = true                    # Build robots.txt file
 footnoteAnchorPrefix = "#"
@@ -24,7 +26,7 @@ summaryLength = 150                       # the length of text to show in a .Sum
 title = "Samui? Samui!"
 verbose = false
 verboseLog = true
-  
+
 #############################################################
 # Theme setup
 #############################################################
@@ -125,7 +127,7 @@ notAlternative = true
     simple = false
   [privacy.youtube]
     disable = false
-    privacyEnhanced = false  
+    privacyEnhanced = false
 
 #############################################################
 # Imaging setup
@@ -215,7 +217,7 @@ adclientid = "pub-9026195124322857"
 #############################################################
 [params.redirects]
 netlify = "https://eloquent-morse-196fd2.netlify.com/"
-  
+
 #############################################################
 # Social Media Setup
 #############################################################
