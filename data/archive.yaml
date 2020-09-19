@@ -88,3 +88,9 @@
   description: tbd
   buttontext: Zum 2019er Archiv
   container: col-md-4 col-sm-6 col-xs-12
+2020:
+  slug: 2020
+  title: 2020
+  description: tbd
+  buttontext: Zum 2020er Archiv
+  container: col-md-4 col-sm-6 col-xs-12
