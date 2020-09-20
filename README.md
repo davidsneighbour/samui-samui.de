@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e2de71bc-05fc-4900-ad01-89ebdd5774e0/deploy-status)](https://app.netlify.com/sites/eloquent-morse-196fd2/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/49963b4d-bb9f-411f-a9b8-521a5e3a2b42/deploy-status)](https://app.netlify.com/sites/samui-samui-de/deploys)
 
 # installation
 
