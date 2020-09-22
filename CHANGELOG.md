@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2020.1.2](https://bitbucket.org/davidsneighbour/samui-samui.de/compare/2020.1.1...2020.1.2) (2020-09-22)
+
+
+### Bug Fixes
+
+* remove debugging algolia runs script ([0d56e0d](https://bitbucket.org/davidsneighbour/samui-samui.de/commit/0d56e0d04aa37de59db6f9b822a9fd6daa8daee3))
+
 ### [2020.1.1](https://bitbucket.org/pkollitsch/samui-samui.de/compare/2020.1.0...2020.1.1) (2020-09-19)
 
 ## [2020.1.0](https://bitbucket.org/pkollitsch/samui-samui.de/compare/2020.0.0...2020.1.0) (2020-09-19)
