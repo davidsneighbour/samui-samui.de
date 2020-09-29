@@ -1,11 +1,9 @@
 # Changelog
 
-## 2020.1.5
+## 2020.1.6
 
-- [4202ad87d159] chore(release): 2020.1.5 (Tue Sep 29 15:38:32 2020 +0700)
-
-## 2020.1.4
-
+- [b33db88bebfe] chore(release): 2020.1.6 (Tue Sep 29 15:38:51 2020 +0700)
+- [fb571754d811] chore(release): 2020.1.5 (Tue Sep 29 15:38:32 2020 +0700)
 - [e472edc6e467] chore(release): 2020.1.4 (Tue Sep 29 15:38:13 2020 +0700)
 - [ba59bcfa729e] chore(release): 2020.1.4 (Tue Sep 29 14:54:58 2020 +0700)
 - [28071c4ff7f3] chore: fix commitizen configuration (Tue Sep 29 14:51:18 2020 +0700)
