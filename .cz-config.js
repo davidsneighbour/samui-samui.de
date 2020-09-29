@@ -1,58 +1,64 @@
 'use strict';
 
-// @see https://github.com/leonardoanalista/cz-customizable
+// see https://github.com/leonardoanalista/cz-customizable
 
 module.exports = {
 
-  types: [{
-      value: 'content',
-      name: 'content: A new post or other content'
-    },
-    {
-      value: 'feat',
-      name: 'feat: A new feature'
-    },
-    {
-      value: 'fix',
-      name: 'fix: A bug fix'
-    },
-    {
-      value: 'layout',
-      name: 'layout: changes to layout and theme files'
-    },
-    {
-      value: 'codestyle',
-      name: 'style: Changes that do not affect the meaning of the code'
-    },
-    {
-      value: 'perf',
-      name: 'perf: A code change that improves performance'
-    },
-    {
-      value: 'chore',
-      name: 'chore: Changes to the build process, tools, documentation'
-    }
+  types: [
+    { value: 'feat', name: 'feat:     A new feature' },
+    { value: 'fix', name: 'fix:      A bug fix' },
+    { value: 'theme', name: 'theme:    Design and Theme changes' },
+    { value: 'refactor', name: 'refactor: A code change that neither fixes a bug nor adds a feature' },
+    { value: 'test', name: 'test:     Adding missing tests' },
+    { value: 'chore', name: 'chore:    Changes to the build process or documentation generation' },
+    { value: 'wip', name: 'WIP:      Work in progress' }
   ],
 
-  scopes: [],
+  scopes: [
+    { name: 'accounting' },
+    { name: 'agencies' },
+    { name: 'bookings' },
+    { name: 'customers' },
+    { name: 'reporting' },
+    { name: 'tours' },
+    { name: 'users' },
+    { name: 'api' },
+    { name: 'vue' },
+    { name: 'cli' },
+    { name: 'interface' },
+    { name: 'options' },
+    { name: 'notifications' },
+    { name: 'javascript' },
+    { name: 'tracking' }
+  ],
+
   scopeOverrides: {
-    content: [{
-        name: 'new'
-      },
-      {
-        name: 'correction'
-      },
-      {
-        name: 'chore'
-      }
+    theme: [],
+    refactor: [
+      { name: 'codequality' },
+      { name: 'api' },
+      { name: 'interface' },
+      { name: 'javascript' }
+    ],
+    test: [
+      { name: 'unit' },
+      { name: 'nightwatch' },
+      { name: 'browser' },
+      { name: 'api' },
+      { name: 'acceptance' },
+    ],
+    chore: [
+      { name: 'deps' },
+      { name: 'dev-deps' },
+      { name: 'git' },
+      { name: 'ide' },
+      { name: 'qi' }
     ]
   },
 
-  // override the messages, defaults are as follows
   messages: {
-    type: 'Select the type of change that you\'re committing:',
-    scope: '\nDenote the SCOPE of this change (optional):',
-    customScope: 'Denote the SCOPE of this change:',
+    type: 'Select the type of change that you are committing:',
+    scope: 'Denote the SCOPE of this change (optional):',
     subject: 'Write a SHORT, IMPERATIVE tense description of the change:\n',
     body: 'Provide a LONGER description of the change (optional). Use "|" to break new line:\n',
     breaking: 'List any BREAKING CHANGES (optional):\n',
@@ -61,6 +67,16 @@ module.exports = {
   },
 
   allowCustomScopes: true,
-  allowBreakingChanges: ['feat', 'fix']
+  allowBreakingChanges: [
+    'feat',
+    'fix'
+  ],
+
+  appendBranchNameToCommitMessage: true,
+  breakingPrefix: 'BREAKING: ',
+  footerPrefix: 'ISSUES CLOSED: ',
+
+  subjectLimit: 100,
+  breaklineChar: '|'
 
 };
