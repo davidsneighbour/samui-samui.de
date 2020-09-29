@@ -1,8 +1,13 @@
 # Changelog
 
+## 2020.1.13
+
+- [0855321e359c] chore(release): 2020.1.13 (Tue Sep 29 15:51:33 2020 +0700)
+- [a978d7389a87] chore(release): 2020.1.12 (Tue Sep 29 15:51:12 2020 +0700)
+
 ## 2020.1.12
 
-- [24e56a3418a2] chore(release): 2020.1.12 (Tue Sep 29 15:51:01 2020 +0700)
+- [eaaafe78ad1e] chore(release): 2020.1.12 (Tue Sep 29 15:51:01 2020 +0700)
 - [c46b4c157fcb] chore(release): 2020.1.11 (Tue Sep 29 15:47:48 2020 +0700)
 
 ## 2020.1.11
