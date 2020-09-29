@@ -44,7 +44,7 @@
     "release-major": "standard-version --release-as major -a -t \"\" && ./bin/release-hook-postrelease.sh",
     "test": "nightwatch",
     "all-tests": "./vendor/bin/codecept run && npm run nightwatch",
-    "serve":  "hugo server --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose"
+    "serve": "hugo server --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose"
   },
   "devDependencies": {
     "atomic-algolia": "0.3.19",
@@ -56,7 +56,7 @@
     "cz-customizable": "6.3.0",
     "geckodriver": "1.20.0",
     "nightwatch": "1.4.3",
-    "postcss": "8.1.0",
+    "postcss": "8.1.1",
     "postcss-cli": "8.0.0",
     "selenium-server": "3.141.59",
     "standard-version": "9.0.0"
