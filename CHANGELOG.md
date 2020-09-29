@@ -1,8 +1,12 @@
 # Changelog
 
+## 2020.1.5
+
+- [4202ad87d159] chore(release): 2020.1.5 (Tue Sep 29 15:38:32 2020 +0700)
+
 ## 2020.1.4
 
-- [55b1a8b23bf3] chore(release): 2020.1.4 (Tue Sep 29 15:38:12 2020 +0700)
+- [e472edc6e467] chore(release): 2020.1.4 (Tue Sep 29 15:38:13 2020 +0700)
 - [ba59bcfa729e] chore(release): 2020.1.4 (Tue Sep 29 14:54:58 2020 +0700)
 - [28071c4ff7f3] chore: fix commitizen configuration (Tue Sep 29 14:51:18 2020 +0700)
 - [20238c6330d1] chore(deps): update postcss to 8.1.1 (Tue Sep 29 14:49:39 2020 +0700)
