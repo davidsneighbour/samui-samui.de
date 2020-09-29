@@ -1,0 +1,16 @@
+[build]
+  publish = "public"
+  # command = "hugo --gc --minify && node scripts/imagemin.js && rm -rf public/posts"
+  command = "hugo --gc --minify && rm -rf public/posts"
+
+[build.environment]
+  PHP_VERSION="7.4"
+
+# https://www.netlify.com/docs/netlify-toml-reference/#post-processing
+[build.processing]
+  skip_processing = true
+
+[context.production.environment]
+  TZ = "Asia/Bangkok"
+  HUGO_VERSION = "0.75.1"
+  HUGO_ENV = "production"

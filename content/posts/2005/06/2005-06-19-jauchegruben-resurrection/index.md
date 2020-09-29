@@ -1,0 +1,28 @@
+---
+title: Jauchegruben – Resurrection
+author: Patrick Kollitsch
+type: post
+date: 2005-06-19T07:21:00+00:00
+url: /2005/06/jauchegruben-resurrection/
+dsq_thread_id:
+  - "6412166638"
+
+
+
+
+---
+Gemerkt? Plural im Titel! Genau.</span> Nachdem am Montag mal wieder in unserer kleinen Hausreihensiedlung eingebrochen wurde (diesmal traf es den Schotten (das war der, der in 10 Worten mindestens zweimal Fuck verpacken muss) und sie haben sein Schloss rausgehebelt (ist also doch nicht allzu sicher, wenn man die Fenster zu macht) und erkleckliche 600 THB geklaut --- er meinte eine erhebliche Synchronizität mit Diebstählen bei ihm und seinen Freunden und der Anwesenheit des Wandermarktes im jeweiligen Orte erkennen zu können) wurde ich gestern Abend mit einer beleuchteten Häuserreihe begrüsst. Seit Dienstag brannte im Nebenhaus Licht --- witzigerweise macht ein Haus, in dem es keine Geräusche gibt, vor dem kein Moped oder Auto steht auch einen absolut bewohnten Eindruck, wenn ein Licht die ganze Nacht durch brennt. Gestern brannte in allen Häusern Licht. Ich nahm also an, dass schon wieder eingebrochen wurde. Aber diesmal war alles anders.
+
+Als ich mein Moped abstellte, kam aus dem Dunkel unter den Palmen plötzlich eine kleine Figur herausgelaufen und hielt mir eine Pistole an die Nase. Das ist erstmal ganz unlustig, vor allem war das Modell ein überaus gro?es (grö?er als der Kopf des haltenden Thai). Nach einer Schrecksekunde sagte der Thai dann "Ah Patrick, I'm Wit!". Wit ist mein Hausverwalter. Er begann eine überaus lange und detaillierte Geschichte zu erzählen. Demnach wird die Insel derzeit von Räuberbanden heimgesucht, die sonst ihr Unwesen in Pattaya treiben. Am Montag der Schotte und danach irgendwann die Hütte neben mir (da haben sie das Schloss kaputt gekloppt und sind nicht in die Hütte gekommen. Er allerdings kommt nun auch nicht rein). Auf der Insel stehen für 300.000 Leute 300 Polizisten zur Verfügung und die kommen mit dem Verhaften nicht nach (hmm... das macht dann mehr als 1% Räuber, wenn sie nicht nachkommen. Allerdings kann es auch sein, dass "nicht nachkommen" ungefähr 10 Leute sind oder mal wieder ein neuer Godzilla-Film ansteht) und sein Bruder (der Besitzer der Häuser) hat ihn angewiesen, Nachts nun hier zu schlafen und zu wachen und am 21. (welchen Monats sagte er nicht) kommt er und sie sehen sich das Gelände mal an, was man für die Security tun kann ("what we can do for high security"). Ich wäre für Flutlicht und leichtbekleidete Thaifrauen. Jedenfalls waite Wit mich (was er noch nie gemacht hat) überaus häufig und war äu?erst zerknirscht ob der derzeitigen Situation. Sein Rücken war das ganze Gespräch durch ungesund verkrümmt. Irgendwer hatte wahrscheinlich eine Ebene höher sich beschwert. Sein Bruder ist wohl mit dem Polizeichef von Lamai bekannt/verwandt und selbst relativ wichtig. 
+
+Jedenfalls wachte Wit nun mit seiner Knarre und mindestens einer Flasche SangSom (SangSom ist Alkohol. Seltsamer Alkohol. Einmal getrunken. Drei Tage nicht gewusst, ob meine Milz oder meine Leber mehr schmerzt). Ist nicht lustig, wenn ein betrunkener Thai mit der Pistole im Dunkeln herumfuchtelt. Ich hab ihm also mal versucht, klarzumachen, dass ich jetzt immer nachts spät heimkomme und er mich bittesehr nicht vom Moped schie?en soll, das gäbe Kratzer. Das verstand er wohl irgendwie, denn die Pistole verschwand plötzlich aus meinem Gesicht und hinter seinem Hemd (sollte man da nicht irgendeinen Hebel umklappen, damit man sich nicht selbst entmannt?). Mir war immer noch nicht zum Lachen, obwohl die Situation als auch das Aussehen eines 1.65 gro?en Thais mit ner Waffe, die wohl aus irgendeinem Krieg in den letzten Jahrhunderten stammen muss eher meine Humormuskeln anregte.
+
+> Ist das ne Waffe in Ihrer Hose oder freuen Sie sich nur, mich zu sehen? 
+
+Sorry, der musste einfach sein. Wie auch immer, er erzählte mir, er kenne da Jemanden ("an important person" --- yeah, Beziehungen sind schon was Tolles) bei der Polizei in Nathon und die hätten da ein paar Leute festgenommen und Zeug übrig, von dem sie nicht wissen, was sie damit machen sollen. (Ehrlich, ich gebe seinen Satz hier fast 1:1 wieder: "they have stuff left and dont know what to do with it"). Heute nun wolle er mit mir nach Nathon fahren, die wichtige Person treffen und mit mir mal ansehen, was da rumliegen würde. Ein paar Notebooks wären da auch dabei. Muahaha. Muahahahaha. Muuuuuuuuahahahahhaha. Ja.
+
+Nun. Natürlich sind wir heute nicht nach Nathon gefahren --- "Important person don't work on sunday." --- werden das aber diese Woche nachholen. Ich würde mich totlachen, wenn ich was wiederbekommen würde. Daten-, Ladekabel und Kopfhöhrer von meinem MP3-Player hab ich ja noch hier. Würde mich nicht wundern, wenn sie das Teil nicht mal eingeschaltet bekommen haben. Dumme kleine Diebe. Fette kleine Diebe. Stehlen meinen Schatz. 
+
+Ich werde nun also mit Waffen- und SangSom-Gewalt geschützt. Solange ich dabei nicht sterbe, werde ich grinsend mein Los ertragen. (Wenn ich abgeschossen werde und dabei grinsend ertrage, kann es sein, dass ich auch nach meinem Tod seltsam verzerrt grinsen werde.)
+
+Ich begab mich in meine geschützte durch diffuses Licht erhellte Hütte (irgendwie verbrauchen 10 erleuchtete Häuser mehr Strom --- sie teilen aber, weshalb das Badlicht gleich gar nicht anging. (Ist ne Leuchtstoffröhre) Ist eine Reihenschaltung, oder? --- die Diplomstrippenleger unter meinen Lesern (ich wei?, dass es euch gibt) können mir das sicher in den Kommentaren erklären) und rasierte mir den Bart ab.

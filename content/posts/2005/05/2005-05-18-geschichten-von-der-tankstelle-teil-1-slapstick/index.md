@@ -1,0 +1,18 @@
+---
+title: 'Geschichten von der Tankstelle – Teil 1: Slapstick'
+author: Patrick Kollitsch
+type: post
+date: 2005-05-17T22:55:00+00:00
+url: /2005/05/geschichten-von-der-tankstelle-teil-1-slapstick/
+
+
+
+
+---
+Jetzt wo man mir alles oder zumindest 'meine' Tankstelle die sich direkt auf dem Weg zur Arbeit befand und deren Tank-Thais mein 'full please' verstanden genommen hat muss ich mich gezwungenerma??en auf andere Betankungsmöglichkeiten in der Gegend konzentrieren. Und so sieht man dann und wann wenn das 'Bitte betank mich wieder'-Lämpchen am Moped blinkt einen fusseligen Farang durch die Gegend heizen auf der Suche nach Brennstoff für den roten Teufel.
+
+Gerne fahre ich zu einer Tankstelle gleich in Ban Huathanon. Dort bedient eine überaus wohlansehnliche volljährige junge Thai in deren Stammbaum sicherlich irgendwo Charly Chaplin auftaucht. Warum? Nun, ich würde sagen, man kann ihre Handlungen mit lustigen Geräuschen (Boink, Zonng, Wrusch) unterlegen, die Farbe rausnehmen und hat ne Menge zu lachen.
+
+Beispiel 1: Ich fahre an die Tankstelle heran, sie begrüsst mich mit einem leisen Sawadeekah und lässt erstmal einen Stapel Plastikflaschen von der Benzintonne fallen. Die hebt sie auf und wirft nebenbei mit ihrem knackigen ähm, also sie wirft schnell noch ein Schild um. Dann mit leicht peinlichem Gesichtsausdruck (können Thais eigentlich rot werden? Ich glaube nicht) öffnet sie meinen Tank und lässt schnell etwas Benzin ein. Etwas zuviel, es schwappt heraus, sie kreischt, hängt den nennen wir ihn mal 'Tankstutzen' wieder an die Tonne und beginnt panisch mein Moped trocken zu wischen. Anschlie?end wai-t sie mich, sagt Sawadeekah und verschwindet. Aus dem Haus hinter den Tanktonnen ruft eine ältere Frauenstimme, sie kommt wieder rausgeschossen, nun völlig aufgelöst und sagt verschüchtert '80 THB'. Die zahle ich gerne. Es war Unterhaltung pur. Als ich losfuhr, lies sie noch ein paar Plastikflaschen fallen. Danke!
+
+Beispiel 2: Ich fahre heran, sie erkennt mich und ihr Gesichtsausdruck verdeutlicht das, was man hier rot nennen würde. Heute gibt es nur eine Tonne, die Benzin enthält und es ist eine ziemlich alte, an der man kurbeln muss und dann das Benzin durch die Wunder der Gravitation in Verbindung mit den hydraulischen Grundgesetzen durch einen langen Schlauch in den Tank flie?en lässt. Sie sagt 'Sawadeekah, how much?' worauf ich mit meinem fröhlichen 'full please' antworte. Sie sagt 'yes fuel, how much' ich sage &#8216;full' sie grinst und schiebt sich zwischen der leeren und der vollen Tonne durch, kuckt auf den Tank, den Tankdeckel und murmelt &#8216;sii' (4), kuckt in den Tank und murmelt &#8216;saam' (3). Sie verschwindet wieder hinter ihren Tonnen und kurbelt 3 Liter hoch, reicht mir dann den Schlauch und murmelt mir aufmunternd zu &#8216;Hmm!'. Ok, ich denke mir, da Lange muss in das Runde und stecke ihren Schlauch tief in meinen Tank. Sie jauchzt leicht und zieht am Schlauch, so dass nur noch das krumme Ende des Tankstutzens im Tankloch hängt, dann öffnet sie ihre Schleusen und das Benzin flie?t hinein. In meinen Tank. Nun, ich muss am Ende der Prozedur nicht befriedigt ausgesehen haben --- mein Tank war noch nicht &#8216;full' --- denn sie kurbelte grinsend einen weiteren Liter hervor und lies auch diesen sprudelnd in meinen Tank versinken. Naja. Der Tank war immer noch nicht voll, aber ich hatte erstmal genug. Ich zog also den Stutzen heraus, was sie mit einem weiteren Kichern quitierte, lies die letzten Tropfen am Tankrand abrollen und gab ihr ihren Tankstutzen zurück. Sie zockte mich ab und ich fuhr meiner Wege.

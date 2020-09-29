@@ -1,0 +1,15 @@
+################################################################################
+# Github Repo Settings
+# https://probot.github.io/apps/settings/
+# https://developer.github.com/v3/repos/#edit
+# @todo create labels and contributor setups
+################################################################################
+repository:
+  private: false
+  has_issues: true
+  has_wiki: false
+  has_downloads: false
+  default_branch: main
+  allow_squash_merge: true
+  allow_merge_commit: false
+  allow_rebase_merge: false
