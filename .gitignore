@@ -1,10 +1,9 @@
 /resources
-/content/posts/ideas/
-/public
 /package-lock.json
 
 # logfiles
 /log.txt
+hugo.log
 
 # scratch files
 /notes
