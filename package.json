@@ -55,7 +55,7 @@
     "cz-customizable": "6.3.0",
     "geckodriver": "1.20.0",
     "nightwatch": "1.4.3",
-    "postcss": "8.1.0",
+    "postcss": "8.1.1",
     "postcss-cli": "8.0.0",
     "selenium-server": "3.141.59",
     "standard-version": "9.0.0"
