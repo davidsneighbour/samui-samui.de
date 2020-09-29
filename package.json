@@ -62,6 +62,15 @@
     "standard-version": "9.0.0"
   },
   "standard-version": {
+    "scripts": {
+      "prerelease": "./bin/release-hook-prerelease.sh",
+      "postbump": "./bin/release-hook-postbump.sh",
+      "postcommit": "./bin/release-hook-postcommit.sh",
+      "posttag": "./bin/release-hook-posttag.sh"
+    },
+    "skip": {
+      "changelog": true
+    },
     "bumpFiles": [
       {
         "filename": ".version",
@@ -73,5 +82,7 @@
       }
     ]
   },
-  "dependencies": {}
+  "dependencies": {
+    "github-release-notes": "^0.17.3"
+  }
 }
