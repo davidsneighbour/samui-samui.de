@@ -1,8 +1,14 @@
 # Changelog
 
+## 2020.2.2
+
+- [c915aba96eaa] chore(release): 2020.2.2 (Mon Oct 5 23:41:39 2020 +0700)
+- [02485dd13a2e] chore: setup hugo modules (Mon Oct 5 23:41:33 2020 +0700)
+- [a9be8f34c131] chore(release): 2020.2.1 (Mon Oct 5 22:29:11 2020 +0700)
+
 ## 2020.2.1
 
-- [0c2f72429a71] chore(release): 2020.2.1 (Mon Oct 5 22:28:57 2020 +0700)
+- [e6d0cc05e7b6] chore(release): 2020.2.1 (Mon Oct 5 22:28:58 2020 +0700)
 - [7a07491cfb1a] chore(git): fix submodule location for webfonts (Mon Oct 5 22:27:09 2020 +0700)
 - [14511e4a825c] chore: add fonts submodule (Mon Oct 5 22:23:08 2020 +0700)
 - [983d86138f38] initial commit, new build system (Tue Sep 29 15:59:35 2020 +0700)
