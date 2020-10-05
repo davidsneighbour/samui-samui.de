@@ -11,5 +11,5 @@
 	path = themes/dnb-hugo-netlification
 	url = https://github.com/davidsneighbour/dnb-hugo-netlification.git
 [submodule "assets/webfonts"]
-	path = assets/webfonts
+	path = static/assets/webfonts
 	url = git@github.com:davidsneighbour/samui-samui.de-fonts.git
