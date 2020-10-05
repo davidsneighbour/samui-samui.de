@@ -251,3 +251,8 @@ netlify = "https://eloquent-morse-196fd2.netlify.com/"
   repo = "davidsneighbour/samui-samui.de"
   branch = "comments"
   property = "comments"
+
+
+[module]
+[[module.imports]]
+path = "github.com/davidsneighbour/dnb-hugo"
