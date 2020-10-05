@@ -2,7 +2,7 @@
   "name": "samui-samui-de",
   "slug": "samui-samui-de",
   "url": "https://samui-samui.de",
-  "version": "2020.1.15",
+  "version": "2020.2.1",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -44,7 +44,9 @@
     "release-major": "standard-version --release-as major -a -t \"\" && ./bin/release-hook-postrelease.sh",
     "test": "nightwatch",
     "all-tests": "./vendor/bin/codecept run && npm run nightwatch",
-    "serve": "hugo server --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose"
+    "serve": "hugo server --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose",
+    "hugo": "hugo --i18n-warnings --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --enableGitInfo --log true --logFile hugo.log --verbose",
+    "hugo-update": "hugo mod get -u ./... && hugo mod tidy"
   },
   "devDependencies": {
     "atomic-algolia": "0.3.19",
@@ -59,7 +61,8 @@
     "postcss": "8.1.1",
     "postcss-cli": "8.0.0",
     "selenium-server": "3.141.59",
-    "standard-version": "9.0.0"
+    "standard-version": "9.0.0",
+    "github-release-notes": "^0.17.3"
   },
   "standard-version": {
     "scripts": {
@@ -81,8 +84,5 @@
         "type": "json"
       }
     ]
-  },
-  "dependencies": {
-    "github-release-notes": "^0.17.3"
   }
 }
