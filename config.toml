@@ -145,6 +145,9 @@ notAlternative = true
   # Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   anchor = "smart"
 
+[markup.goldmark.renderer]
+  unsafe = false
+
 [params.imaging]
   sizes = ["825","610","510","450"]
 
