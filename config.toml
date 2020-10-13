@@ -152,7 +152,7 @@ notAlternative = true
   anchor = "smart"
 
 [markup.goldmark.renderer]
-  unsafe = false
+  unsafe = true
 
 [params.imaging]
   sizes = ["825","610","510","450"]
