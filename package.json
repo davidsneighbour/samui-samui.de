@@ -2,7 +2,7 @@
   "name": "samui-samui-de",
   "slug": "samui-samui-de",
   "url": "https://samui-samui.de",
-  "version": "2020.1.13",
+  "version": "2020.1.14",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -58,12 +58,6 @@
     "standard-version": "9.0.0"
   },
   "standard-version": {
-    "scripts": {
-      "prerelease": "./bin/release-hook-prerelease.sh",
-      "postbump": "./bin/release-hook-postbump.sh",
-      "postcommit": "./bin/release-hook-postcommit.sh",
-      "posttag": "./bin/release-hook-posttag.sh"
-    },
     "skip": {
       "changelog": true
     },
