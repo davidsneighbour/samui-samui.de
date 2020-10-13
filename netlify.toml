@@ -1,7 +1,7 @@
 [build]
   publish = "public"
   # command = "hugo --gc --minify && node scripts/imagemin.js && rm -rf public/posts"
-  command = "hugo --gc --minify && rm -rf public/posts"
+  command = "./bin/netlify.sh"
 
 [build.environment]
   PHP_VERSION="7.4"
