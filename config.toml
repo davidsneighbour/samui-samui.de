@@ -275,5 +275,15 @@ netlify = "https://eloquent-morse-196fd2.netlify.com/"
 # DNB Hugo Garuda Setup
 #############################################################
 [params.dnb]
-theme_slug = "samui-samui"
-javascript = "local-changes.js"
+  theme_slug = "samui-samui"
+  javascript = "local-changes.js"
+[params.dnb.sidebar]
+  enabled = true
+  items = [ "author", "archive", "recent", "social" ]
+[params.dnb.sidebar.author]
+  content = "authorfooter"
+[params.dnb.sidebar.recent]
+  limit = 5
+[params.dnb.sidebar.social]
+[params.dnb.sidebar.archive]
+
