@@ -47,6 +47,10 @@ extensions = [
   # "hardLineBreak", # newlines result in line breaks
 ]
 
+[languages]
+[languages.de]
+weight = 1
+
 ##################################################################################
 # Output formats and structure
 ##################################################################################

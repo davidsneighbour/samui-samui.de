@@ -2,6 +2,10 @@ github.com/davidsneighbour/dnb-hugo v2020.0.6+incompatible h1:+lUB9gH1jKcqWGYfIO
 github.com/davidsneighbour/dnb-hugo-garuda v0.0.0-20201011072751-dd3698e01b7f h1:nF459FIK+/mp4Vb2jS4PZiThszpb8urqr7tNpTxnPVI=
 github.com/davidsneighbour/dnb-hugo-garuda v0.0.0-20201011072751-dd3698e01b7f/go.mod h1:zLPcT18htJzbeL9nf9xCve10y5L6IAom4gn/hSmqWRU=
 github.com/davidsneighbour/dnb-hugo-garuda v0.0.0-20201013152346-20a3b8a744f3/go.mod h1:zLPcT18htJzbeL9nf9xCve10y5L6IAom4gn/hSmqWRU=
+github.com/davidsneighbour/dnb-hugo-libs v0.0.0-20201014132939-c6e9d9f734e9 h1:kI2YfuelQi04kF0YD3VLCCttuRWlMqY/IwMgXzymkX4=
+github.com/davidsneighbour/dnb-hugo-libs v0.0.0-20201014132939-c6e9d9f734e9/go.mod h1:+ug7vgAmHtbN7h7fbcZMVCKqoKVx21vmibnolylAuYs=
+github.com/davidsneighbour/dnb-hugo-libs/bootstrap4 v0.0.0-20201014132939-c6e9d9f734e9 h1:9rKWb9K5Mv+aG9kqZC95H19HPHbKHB0H0WuNb0E1DXA=
+github.com/davidsneighbour/dnb-hugo-libs/bootstrap4 v0.0.0-20201014132939-c6e9d9f734e9/go.mod h1:ak+/T98Hi7MeW1THUvPUhIYB7ADVpyhPxNLCWo64LZs=
 github.com/davidsneighbour/dnb-hugo/packages/netlification v0.0.0-20201011080712-77504e86f0b1 h1:DDqNFMCkFO4t9mqHuGMwkDneStEUGZwhp9jwAqpN2wQ=
 github.com/davidsneighbour/dnb-hugo/packages/netlification v0.0.0-20201011080712-77504e86f0b1/go.mod h1:+HP3OEPe40Z3qwLDa/nRrt782iM4RSKbRg8uUxPhxV4=
 github.com/davidsneighbour/dnb-hugo/packages/netlification v0.0.0-20201013152246-79b55c3f925c/go.mod h1:+HP3OEPe40Z3qwLDa/nRrt782iM4RSKbRg8uUxPhxV4=
@@ -11,3 +15,4 @@ github.com/davidsneighbour/dnb-hugo/packages/robots v0.0.0-20201013152246-79b55c
 github.com/davidsneighbour/dnb-hugo/packages/shortcodes v0.0.0-20201011080712-77504e86f0b1 h1:v3uWyDnadgEE3OSZnXe2AvCYenc4+RLO1stURBbuj2A=
 github.com/davidsneighbour/dnb-hugo/packages/shortcodes v0.0.0-20201011080712-77504e86f0b1/go.mod h1:Iwlx/MKzL1/FMxMUqqivYOGU7C1oxaezBcZxdCY+KI4=
 github.com/davidsneighbour/dnb-hugo/packages/shortcodes v0.0.0-20201013152246-79b55c3f925c/go.mod h1:Iwlx/MKzL1/FMxMUqqivYOGU7C1oxaezBcZxdCY+KI4=
+github.com/twbs/bootstrap v4.5.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
