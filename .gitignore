@@ -34,7 +34,7 @@ hugo.log
 # vendor/
 
 ### Go Patch ###
-/vendor/
+/vendor/bundle
 /Godeps/
 
 ### Hugo ###
