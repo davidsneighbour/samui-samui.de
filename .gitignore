@@ -1,6 +1,4 @@
-/resources
 /package-lock.json
-go.mod
 
 # logfiles
 /log.txt

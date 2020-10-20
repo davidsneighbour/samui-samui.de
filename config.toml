@@ -189,14 +189,27 @@ notAlternative = true
   pattern = "2006" # “200601” for busier times?
 
 [module]
+
 [[module.imports]]
-path = "github.com/davidsneighbour/dnb-hugo/packages/robots"
+path = "github.com/davidsneighbour/dnb-hugo/robots"
+
 [[module.imports]]
-path = "github.com/davidsneighbour/dnb-hugo/packages/shortcodes"
+path = "github.com/davidsneighbour/dnb-hugo/shortcodes"
+
 [[module.imports]]
-path = "github.com/davidsneighbour/dnb-hugo/packages/netlification"
+path = "github.com/davidsneighbour/dnb-hugo/netlification"
+
+[[module.imports]]
+path = "github.com/davidsneighbour/dnb-hugo/sitemap"
+
 [[module.imports]]
 path = "github.com/davidsneighbour/dnb-hugo-garuda"
+
+[[module.imports]]
+path = "github.com/davidsneighbour/samui-samui.de-fonts"
+[[module.mounts]]
+src = "webfonts"
+target = "assets/webfonts"
 
 #############################################################
 # Site params
@@ -265,17 +278,6 @@ netlify = "https://eloquent-morse-196fd2.netlify.com/"
   profileid = "66878979350"
 
 #############################################################
-# Staticman Setup
-#############################################################
-[params.staticman]
-  enabled = true
-  instance = "https://dnb-staticman.herokuapp.com/v3/entry"
-  provider = "github"
-  repo = "davidsneighbour/samui-samui.de"
-  branch = "comments"
-  property = "comments"
-
-#############################################################
 # DNB Hugo Garuda Setup
 #############################################################
 [params.dnb]
@@ -291,3 +293,17 @@ netlify = "https://eloquent-morse-196fd2.netlify.com/"
 [params.dnb.sidebar.social]
 [params.dnb.sidebar.archive]
 
+[params.dnb.footer.index]
+  enabled = true
+  items = [ "tagcloud", "leutecloud" ]
+[params.dnb.footer.single]
+  enabled = false
+[params.dnb.footer.tagcloud]
+  enabled = true
+  type = "cloud"
+  values = "tags"
+
+[params.dnb.footer.leutecloud]
+  enabled = true
+  type = "cloud"
+  values = "leute"
