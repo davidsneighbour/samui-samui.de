@@ -3,8 +3,8 @@ jQuery(document).ready(function ($) {
   'use strict';
 
   // back to top link
-  let offset = 220;
-  let duration = 500;
+  var offset = 220;
+  var duration = 500;
   jQuery('body').append('<a href="#" id="back-to-top">Zur&uuml;ck nach oben</a>');
   jQuery(window).scroll(function () {
       if (jQuery(this).scrollTop() > offset) {
@@ -24,25 +24,25 @@ jQuery(document).ready(function ($) {
       return false;
   });
 
-  jQuery('.is-datediff').each(function(){
-    let $this = $(this);
-    let $date1 = moment($this.data('from'));
-    let $date2 = moment(new Date());
+  jQuery('.is-datediff').each(function(item, index){
+    var $this = $(this);
+    var $date1 = moment($this.data('from'));
+    var $date2 = moment(new Date());
     $this.text($date2.diff($date1, 'days')+1);
   });
 
-  jQuery('.is-datediff-month').each(function(){
-    let $this = $(this);
-    let $date1 = moment($this.data('from'));
-    let $date2 = moment(new Date());
+  jQuery('.is-datediff-month').each(function(item, index){
+    var $this = $(this);
+    var $date1 = moment($this.data('from'));
+    var $date2 = moment(new Date());
     $this.text(parseInt($date2.diff($date1, 'months')));
   });
 
-  jQuery('.is--datediff').each(function(){
-      let $this = $(this);
-      let $date1 = moment($this.data('date'));
-      let $date2 = moment(new Date());
-      let $type = $this.data('type');
+  jQuery('.is--datediff').each(function(item, index){
+      var $this = $(this);
+      var $date1 = moment($this.data('date'));
+      var $date2 = moment(new Date());
+      var $type = $this.data('type');
       if ($type === 'months'){
           $this.text(parseInt($date2.diff($date1, 'months')));
       } else {
@@ -69,11 +69,11 @@ jQuery(document).ready(function ($) {
 });
 
 // make navbar static on scroll
-let bottom = false;
+var bottom = false;
 jQuery(window).scroll(function () {
     'use strict';
-    let menu = jQuery('#topnavigation');
-    let offset = menu.offset();
+    var menu = jQuery('#topnavigation');
+    var offset = menu.offset();
     if (bottom === false) {
         bottom = offset.top;
     }

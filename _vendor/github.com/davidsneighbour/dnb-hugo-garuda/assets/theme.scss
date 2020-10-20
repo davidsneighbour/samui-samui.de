@@ -3,9 +3,9 @@
 @import 'libs/bootstrap/scss/mixins';
 
 // DNB theme setup
-@import 'sass/settings/colors';
-@import 'sass/settings/settings';
-@import 'sass/settings/fonts';
+@import 'scss/settings/colors';
+@import 'scss/settings/settings';
+@import 'scss/settings/fonts';
 
 // Bootstrap
 @import 'libs/bootstrap/scss/variables';
@@ -45,33 +45,33 @@
 @import 'libs/bootstrap/scss/print';
 
 // Plugins
-@import 'sass/plugins/backtotop';
-@import 'sass/plugins/carousel';
-@import 'sass/plugins/flags';
-@import 'sass/plugins/instantsearch';
-@import 'sass/plugins/sharebuttons';
-@import 'sass/plugins/twitter';
-@import 'sass/plugins/video-youtube';
-@import 'sass/plugins/wordpress';
+@import 'scss/plugins/backtotop';
+@import 'scss/plugins/carousel';
+@import 'scss/plugins/flags';
+@import 'scss/plugins/instantsearch';
+@import 'scss/plugins/sharebuttons';
+@import 'scss/plugins/twitter';
+@import 'scss/plugins/video-youtube';
+@import 'scss/plugins/wordpress';
 
 // Cookie consent
-@import 'sass/plugins/cookieconsent/animation';
-@import 'sass/plugins/cookieconsent/base';
-@import 'sass/plugins/cookieconsent/layout';
-@import 'sass/plugins/cookieconsent/media';
-@import 'sass/plugins/cookieconsent/themes/edgeless';
+@import 'scss/plugins/cookieconsent/animation';
+@import 'scss/plugins/cookieconsent/base';
+@import 'scss/plugins/cookieconsent/layout';
+@import 'scss/plugins/cookieconsent/media';
+@import 'scss/plugins/cookieconsent/themes/edgeless';
 
 // Components
-@import 'sass/components/global';
-@import 'sass/components/articles';
-@import 'sass/components/comments';
-@import 'sass/components/footer';
-@import 'sass/components/footnotes';
-@import 'sass/components/header';
-@import 'sass/components/icons';
-@import 'sass/components/images';
-@import 'sass/components/pagination';
-@import 'sass/components/sidebar';
-@import 'sass/components/tables';
-@import 'sass/components/topnavigation';
-@import 'sass/components/transitions';
+@import 'scss/components/global';
+@import 'scss/components/articles';
+@import 'scss/components/comments';
+@import 'scss/components/footer';
+@import 'scss/components/footnotes';
+@import 'scss/components/header';
+@import 'scss/components/icons';
+@import 'scss/components/images';
+@import 'scss/components/pagination';
+@import 'scss/components/sidebar';
+@import 'scss/components/tables';
+@import 'scss/components/topnavigation';
+@import 'scss/components/transitions';

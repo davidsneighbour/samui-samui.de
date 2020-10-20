@@ -1,4 +1,4 @@
-{{ define "title"}}{{ i18n "header_notes_tagged_with" .Page.Title }}{{ end }}
+{{ define "title"}}Notizen tagged mit {{ .Page.Title }}{{ end }}
 
 {{ define "main" }}
   {{ print "<!-- _default/leute.html -->" | safeHTML }}
@@ -27,5 +27,5 @@
     {{ partial "content/meta-bottom.html" . }}
   </article>
   {{ end }}
-
+  
 {{ end }}
