@@ -58,7 +58,3 @@ package = "netlify-plugin-snyk"
 # https://github.com/erezrokah/netlify-plugin-is-website-vulnerable
 [[plugins]]
 package = "netlify-plugin-is-website-vulnerable"
-
-# https://github.com/chrisdwheatley/netlify-plugin-image-optim
-[[plugins]]
-package = "netlify-plugin-image-optim"
