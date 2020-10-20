@@ -7,7 +7,18 @@
 
 # https://www.netlify.com/docs/netlify-toml-reference/#post-processing
 [build.processing]
-  skip_processing = true
+skip_processing = false
+[build.processing.css]
+bundle = true
+minify = true
+[build.processing.js]
+bundle = true
+minify = true
+[build.processing.html]
+pretty_urls = true
+[build.processing.images]
+compress = true
+
 
 [context.production.environment]
   TZ = "Asia/Bangkok"
@@ -44,16 +55,10 @@ providers = [
 [[plugins]]
 package = "netlify-plugin-snyk"
 
-# If skip_processing = true, all other settings are ignored
-[build.processing]
-skip_processing = false
-[build.processing.css]
-bundle = true
-minify = true
-[build.processing.js]
-bundle = true
-minify = true
-[build.processing.html]
-pretty_urls = true
-[build.processing.images]
-compress = true
+# https://github.com/erezrokah/netlify-plugin-is-website-vulnerable
+[[plugins]]
+package = "netlify-plugin-is-website-vulnerable"
+
+# https://github.com/chrisdwheatley/netlify-plugin-image-optim
+[[plugins]]
+package = "netlify-plugin-image-optim"
