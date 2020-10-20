@@ -205,12 +205,6 @@ path = "github.com/davidsneighbour/dnb-hugo/sitemap"
 [[module.imports]]
 path = "github.com/davidsneighbour/dnb-hugo-garuda"
 
-[[module.imports]]
-path = "github.com/davidsneighbour/samui-samui.de-fonts"
-[[module.mounts]]
-src = "webfonts"
-target = "assets/webfonts"
-
 #############################################################
 # Site params
 #############################################################
