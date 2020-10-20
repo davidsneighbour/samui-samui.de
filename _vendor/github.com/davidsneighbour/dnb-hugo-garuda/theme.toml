@@ -1,0 +1,12 @@
+name = "DNB Hugo Garuda"
+license = "MIT"
+licenselink = "https://github.com/davidsneighbour/dnb-hugo-garuda/blob/master/LICENSE"
+description = "An opinionated and colourful theme for Hugo."
+homepage = "https://github.com/davidsneighbour/dnb-hugo-garuda"
+tags = ["blog"]
+features = ["algolia-search", "customisation"]
+min_version = "0.70.0"
+
+[author]
+name = "Patrick Kollitsch"
+homepage = "David's Neighbour"

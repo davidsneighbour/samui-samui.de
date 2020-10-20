@@ -1,0 +1,18 @@
+# a hacked translation of monthnames to german
+# counting from 0 so first item is empty
+# see /layouts/partials/content/meta.top.html for usage
+months = [
+  "",
+  "Januar",
+  "Februar",
+  "März",
+  "April",
+  "Mai",
+  "Juni",
+  "Juli",
+  "August",
+  "September",
+  "Oktober",
+  "November",
+  "Dezember"
+]
