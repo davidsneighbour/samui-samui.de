@@ -7,7 +7,7 @@
 
 # https://www.netlify.com/docs/netlify-toml-reference/#post-processing
 [build.processing]
-skip_processing = false
+skip_processing = true
 [build.processing.css]
 bundle = true
 minify = true
