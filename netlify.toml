@@ -1,6 +1,5 @@
 [build]
   publish = "public"
-  # command = "hugo --gc --minify && node scripts/imagemin.js && rm -rf public/posts"
   command = "./bin/netlify.sh"
 
 [build.environment]
