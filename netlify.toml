@@ -13,3 +13,14 @@
   TZ = "Asia/Bangkok"
   HUGO_VERSION = "0.76.4"
   HUGO_ENV = "production"
+  NODE_VERSION = "14.14.0"
+  # NODE_ENV = "development/production"
+  NPM_VERSION = "6.14.8"
+  RUBY_VERSION = "2.6.2"
+  PYTHON_VERSION = "3.7"
+  PHP_VERSION = "7.4"
+  GO_VERSION = "1.15"
+  SWIFT_VERSION = "5.2"
+
+[[plugins]]
+package = "netlify-plugin-moar-kittens"
