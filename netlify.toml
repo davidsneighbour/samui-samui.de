@@ -22,5 +22,8 @@
   GO_VERSION = "1.15"
   SWIFT_VERSION = "5.2"
 
+# https://github.com/cdeleeuwe/netlify-plugin-hugo-cache-resources
 [[plugins]]
-package = "netlify-plugin-moar-kittens"
+package = "netlify-plugin-hugo-cache-resources"
+[plugins.inputs]
+debug = true
