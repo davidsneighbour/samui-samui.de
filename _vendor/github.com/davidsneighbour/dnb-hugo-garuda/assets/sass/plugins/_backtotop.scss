@@ -23,4 +23,8 @@
   animation: 2s b;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+
+  &.d-block, &.d-none {
+    transition: opacity 400ms;
+  }
 }

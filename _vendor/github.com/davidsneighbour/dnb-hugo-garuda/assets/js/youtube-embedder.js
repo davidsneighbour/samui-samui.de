@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+ready(function () {
 
   var div, n, v = document.getElementsByClassName("youtube-player");
   for (n = 0; n < v.length; n++) {

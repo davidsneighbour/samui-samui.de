@@ -31,8 +31,8 @@
   "scripts": {
     "algolia": "hugo --quiet && atomic-algolia && rm -rf public",
     "lighthouse": "lighthouse https://samui-samui.de --budget-path=budget.json --view",
-    "css": "node-sass -q --include-path public/javascripts/node_modules --output-style compressed --precision 6 assets/scss/default.scss -o public/theme/assets/css/ ",
-    "css2": "node-sass -q --include-path public/javascripts/node_modules --output-style compressed --precision 6 assets/scss/ -o public/theme/assets/css/ ",
+    "css": "node-sass -q --include-path public/javascripts/node_modules --output-style compressed --precision 6 assets/sass/default.scss -o public/theme/assets/css/ ",
+    "css2": "node-sass -q --include-path public/javascripts/node_modules --output-style compressed --precision 6 assets/sass/ -o public/theme/assets/css/ ",
     "build-changelog": "./bin/create-changelog.sh > CHANGELOG.md",
     "postcss": "postcss public/theme/assets/css/default.css -r",
     "postcss2": "postcss public/theme/assets/css/*.css -r",

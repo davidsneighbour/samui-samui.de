@@ -19,7 +19,6 @@ pretty_urls = true
 [build.processing.images]
 compress = true
 
-
 [context.production.environment]
   TZ = "Asia/Bangkok"
   HUGO_VERSION = "0.76.4"

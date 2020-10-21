@@ -1,3 +1,6 @@
+[header_notes_tagged_with]
+other = "Notizen tagged mit {{ . }}"
+
 [recent_entries_sidebar]
 other = "Neueste Einträge"
 

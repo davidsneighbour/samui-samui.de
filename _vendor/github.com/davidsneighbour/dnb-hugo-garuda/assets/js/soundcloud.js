@@ -1,7 +1,8 @@
 /*global l32n:true*/
-jQuery(document).ready(function($) {
+ready(function () {
 
-	jQuery('.is--soundcloud').each(function(){
+	let elements = document.querySelectorAll('.is--soundcloud');
+	Array.prototype.forEach.call(elements, function (el) {
 
 		var $this = jQuery(this);
 	    var iframe = document.createElement('iframe');
