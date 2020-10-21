@@ -1,0 +1,38 @@
+[recent_entries_sidebar]
+other = "Recent Posts"
+
+[month_long_1 ]
+other = "January"
+
+[month_long_2 ]
+other = "February"
+
+[month_long_3 ]
+other = "March"
+
+[month_long_4 ]
+other = "April"
+
+[month_long_5 ]
+other = "May"
+
+[month_long_6 ]
+other = "June"
+
+[month_long_7 ]
+other = "July"
+
+[month_long_8 ]
+other = "August"
+
+[month_long_9 ]
+other = "September"
+
+[month_long_10]
+other = "October"
+
+[month_long_11]
+other = "November"
+
+[month_long_12]
+other = "December"
