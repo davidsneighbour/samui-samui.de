@@ -4,11 +4,12 @@ cp bin/go.mod.repo go.mod
 
 hugo mod get -u ./...
 hugo mod tidy
-hugo mod vendor
+rm -rf public
+#hugo mod vendor
 
 cp go.mod bin/go.mod.repo
 
-git add _vendor
+#git add _vendor
 git add go.mod
 git add go.sum
 
