@@ -1,5 +1,0 @@
-
-User-agent: *
-
-
-Sitemap: https://samui-samui.de/sitemap.xml
