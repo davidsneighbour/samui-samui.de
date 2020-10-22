@@ -53,7 +53,3 @@ providers = [
 # https://github.com/snyk-labs/netlify-plugin-snyk
 [[plugins]]
 package = "netlify-plugin-snyk"
-
-# https://github.com/erezrokah/netlify-plugin-is-website-vulnerable
-[[plugins]]
-package = "netlify-plugin-is-website-vulnerable"
