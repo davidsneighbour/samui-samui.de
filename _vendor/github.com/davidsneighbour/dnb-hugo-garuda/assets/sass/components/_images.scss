@@ -1,0 +1,14 @@
+/* stylelint-disable at-rule-no-unknown */
+
+.entry-content {
+  figure {
+    img {
+      @extend .img-fluid;
+    }
+
+    figcaption {
+      //font-family: Panton, sans-serif;
+      font-style: italic;
+    }
+  }
+}

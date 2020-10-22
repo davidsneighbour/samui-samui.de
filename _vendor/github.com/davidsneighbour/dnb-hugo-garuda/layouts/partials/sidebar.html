@@ -1,0 +1,11 @@
+{{ if (and (isset ($.Param "dnb.sidebar") "enabled") (eq ($.Param "dnb.sidebar.enabled") true ) (isset ($.Param "dnb.sidebar") "items")) }}
+    <div id="sidebar" class="col-lg-4 col-sm-12 col">
+    {{ range $.Param "dnb.sidebar.items" }}
+        {{ if (eq . "recent") }}
+            {{ partial ( printf "sidebar/widget-%s.html" . ) $.Page }}
+        {{ else }}
+            {{ partialCached ( printf "sidebar/widget-%s.html" . ) $.Page }}
+        {{ end }}
+    {{ end }}
+    </div>
+{{ end }}
