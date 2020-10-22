@@ -1,0 +1,23 @@
+@font-face {
+font-family: 'extra-light/pantonextralight';
+src: url('extra-light/panton-extralight-webfont.eot');
+src: url('extra-light/panton-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+url('extra-light/panton-extralight-webfont.woff2') format('woff2'),
+url('extra-light/panton-extralight-webfont.woff') format('woff'),
+url('extra-light/panton-extralight-webfont.ttf') format('truetype');
+font-weight: 200;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'pantonextralight_italic';
+src: url('extra-light-italic/panton-extralightitalic-webfont.eot');
+src: url('extra-light-italic/panton-extralightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+url('extra-light-italic/panton-extralightitalic-webfont.woff2') format('woff2'),
+url('extra-light-italic/panton-extralightitalic-webfont.woff') format('woff'),
+url('extra-light-italic/panton-extralightitalic-webfont.ttf') format('truetype'),
+url('extra-light-italic/panton-extralightitalic-webfont.svg#pantonextralight_italic') format('svg');
+font-weight: 200;
+font-style: italic;
+font-display: swap;
+}
