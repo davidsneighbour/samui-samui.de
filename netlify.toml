@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "./bin/netlify.sh"
+  command = ""
 
 [build.environment]
   PHP_VERSION="7.4"
