@@ -3,10 +3,8 @@ github.com/davidsneighbour/dnb-hugo-garuda v1.0.2/go.mod h1:k+afrI30i4lBz9opwLrF
 github.com/davidsneighbour/dnb-hugo-libs/bootstrap4 v1.0.0/go.mod h1:ak+/T98Hi7MeW1THUvPUhIYB7ADVpyhPxNLCWo64LZs=
 github.com/davidsneighbour/dnb-hugo/netlification v1.0.3 h1:F8UZdd0nqE5KR2wwEBNwF6DLZ6G90co9ZXA0EbdSyz8=
 github.com/davidsneighbour/dnb-hugo/netlification v1.0.3/go.mod h1:l25A7Y78MbMI44bRNxul1xX8AQzzLJiIprmYcP6soko=
-github.com/davidsneighbour/dnb-hugo/robots v1.0.0/go.mod h1:g57/Gh2K0tvpvhB404Wf9pJKB7o2hwyBLIRJdEjc8Ac=
 github.com/davidsneighbour/dnb-hugo/robots v1.0.1 h1:UGx/6qdfLTtw/2NauQ0GaAiGn/OJHzrJA3RHusbjl/0=
 github.com/davidsneighbour/dnb-hugo/robots v1.0.1/go.mod h1:g57/Gh2K0tvpvhB404Wf9pJKB7o2hwyBLIRJdEjc8Ac=
-github.com/davidsneighbour/dnb-hugo/shortcodes v1.0.0/go.mod h1:odInrnmgliJ522wT0cumyU1YUf0FQvkqK/0Jri1K9ao=
 github.com/davidsneighbour/dnb-hugo/shortcodes v1.0.1 h1:eQTin3cKxZ5Z7cjaE9NiPWqcAFKkjWFtaotNA66N+Gc=
 github.com/davidsneighbour/dnb-hugo/shortcodes v1.0.1/go.mod h1:odInrnmgliJ522wT0cumyU1YUf0FQvkqK/0Jri1K9ao=
 github.com/davidsneighbour/dnb-hugo/sitemap v1.0.1 h1:SbWkkoqfh5ymR++v+yiv/uT1KURljxABktMr1/CGJlc=
