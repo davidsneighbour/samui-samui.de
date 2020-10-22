@@ -2,7 +2,7 @@
 # github.com/davidsneighbour/dnb-hugo/shortcodes v1.0.1
 # github.com/davidsneighbour/dnb-hugo/netlification v1.0.3
 # github.com/davidsneighbour/dnb-hugo/sitemap v1.0.1
-# github.com/davidsneighbour/dnb-hugo-garuda v1.0.1
+# github.com/davidsneighbour/dnb-hugo-garuda v1.0.2
 # github.com/davidsneighbour/dnb-hugo-libs/bootstrap4 v1.0.0
 # github.com/twbs/bootstrap v4.5.3+incompatible
 # github.com/kaushalmodi/hugo-debugprint v0.0.0-20201009173613-d875fcafa822
