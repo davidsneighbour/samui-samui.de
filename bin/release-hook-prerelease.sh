@@ -21,4 +21,4 @@ git add go.sum
 } >> go.mod
 
 hugo --gc
-git add public
+git add -f public
