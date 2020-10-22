@@ -205,6 +205,9 @@ path = "github.com/davidsneighbour/dnb-hugo/sitemap"
 [[module.imports]]
 path = "github.com/davidsneighbour/dnb-hugo-garuda"
 
+[[module.imports]]
+path = "github.com/kaushalmodi/hugo-debugprint"
+
 #############################################################
 # Site params
 #############################################################
