@@ -22,5 +22,5 @@ Wenn sich das Ger&uuml;cht best&auml;tigt, dann wird er der erst zweite Papst se
 
 Dieses Jahr begeht die Vertretung des Vatikans in Thailand ihren 350. Geburtstag. In 1669 wurde die Mission de Siam gegr&uuml;ndet, welche (logischerweise) die Evangelisierung Thailands und naheliegender Gebiete betreiben sollte. Ganz so gut haben sie ihren Job nicht getan, denn nur gut 0.5% der Bev&ouml;lkerung, ca 380.000 Personen, sind katholisch. Es gibt derzeit 12 Di&ouml;zesen mit 436 Gemeinden und 662 Priestern.
 
-- {{< languagelink "https://www.bangkokpost.com/learning/learning-news/369531/pope-francis-accepts-pm-invitation-to-visit-Thailand" "Pope Francis accepts PM's invitation to visit Thailand" "en" >}}
-- {{< languagelink "https://international.la-croix.com/news/pope-set-to-visit-thailand-before-japan/10552" "Pope set to visit Thailand before Japan" "en" >}}
+-   {{< languagelink "https://www.bangkokpost.com/learning/learning-news/369531/pope-francis-accepts-pm-invitation-to-visit-Thailand" "Pope Francis accepts PM's invitation to visit Thailand" "en" >}}
+-   {{< languagelink "https://international.la-croix.com/news/pope-set-to-visit-thailand-before-japan/10552" "Pope set to visit Thailand before Japan" "en" >}}

@@ -6,7 +6,7 @@ date: 2019-06-10T20:04:48+07:00
 tags: [gesundheit, tierwelt]
 ---
 
-{{< img src="chikungunya.jpg" >}}Moskito, aber nicht der mit Chikungunya, denn der hat Zebrastreifen (<a href="https://unsplash.com/photos/sZIjgg4Peu0">Photo von Егор Камелев</a>){{< /img >}}
+{{< img src="chikungunya.jpg" >}}Moskito, aber nicht der mit Chikungunya, denn der hat Zebrastreifen ([Photo von Егор Камелев](https://unsplash.com/photos/sZIjgg4Peu0)){{< /img >}}
 
 Hier in S&uuml;dthailand grasiert zur Zeit eine Krankheit namens "Chikungunya". Von den Symptomen klingt sie sehr wie Dengue Fieber: Man hat Fieber, Kopfschmerzen und Gelenkschmerzen f&uuml;r zwischen 2 bis 12 Tagen nachdem man von einem infiziertem Moskito gebissen wurde. 
 
@@ -24,5 +24,5 @@ In Thailand kann man die Nummer 1422 anrufen um Hilfe zu erhalten (vermutlich nu
 
 Hier auf Samui laufen sie hin und wieder die Strasse auf und ab und spr&uuml;hen Moskito-Spray. Ohne Vorwarnung, aber es ist ja f&uuml;r unsere Gesundheit. Der kleine Asthma-Anfall beim aus Versehen Einatmen des giftigen Rauches ist ignorierbar.
 
-- {{< languagelink "https://mgronline.com/qol/detail/9620000054758" "พยากรณ์โรคสัปดาห์นี้ ระวัง \"ชิคุนกุนยา\" ระบาดเพิ่ม พบป่วยภาคใต้มากสุด" "th" >}}
-- {{< languagelink "https://de.wikipedia.org/wiki/Chikungunyafieber" "Chikungunyafieber auf Wikipedia" "de" >}}
+-   {{< languagelink "https://mgronline.com/qol/detail/9620000054758" "พยากรณ์โรคสัปดาห์นี้ ระวัง \"ชิคุนกุนยา\" ระบาดเพิ่ม พบป่วยภาคใต้มากสุด" "th" >}}
+-   {{< languagelink "https://de.wikipedia.org/wiki/Chikungunyafieber" "Chikungunyafieber auf Wikipedia" "de" >}}

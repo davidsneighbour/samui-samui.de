@@ -30,7 +30,7 @@ Selbst nachdem Prem als Premierminister zur&uuml;ck getreten war, behielt er sei
 
 K&ouml;nig Vajiralongkorn hat nun General Surayud Chulanont als amtierenden Vorsitzenden des K&ouml;niglichen Geheimrats berufen. Wenn der Name vertraut klingt, dann kann das daran liegen, dass Surayud f&uuml;r eine Weile amtierender Premierminister nach dem 2006er Putsch war. Surayud war genauso wie Prayuth und Prem einmal Armee-General und Supreme Commander. Klingt wie der optimale Karriere-Weg in Thailand.
 
-- {{< languagelink "http://www.khaosodenglish.com/news/2019/05/26/prem-tinsulanonda-kings-advisor-and-statesman-dies-at-98/" "Prem Tinsulanonda, King’s Advisor and Statesman, Dies at 98" "en" >}}
-- {{< languagelink "http://www.nationmultimedia.com/detail/politics/30370185" "Surayud named acting Privy Council president" "en" >}}
-- {{< languagelink "https://samui-samui.de/suche/?query=Surayud" "Surayud in der Samui? Samui! Suche" "de" >}}
-- {{< languagelink "http://www.nationmultimedia.com/detail/opinion/30370184" "Prem was no friend of the people" "en" >}}
+-   {{< languagelink "http://www.khaosodenglish.com/news/2019/05/26/prem-tinsulanonda-kings-advisor-and-statesman-dies-at-98/" "Prem Tinsulanonda, King’s Advisor and Statesman, Dies at 98" "en" >}}
+-   {{< languagelink "http://www.nationmultimedia.com/detail/politics/30370185" "Surayud named acting Privy Council president" "en" >}}
+-   {{< languagelink "https://samui-samui.de/suche/?query=Surayud" "Surayud in der Samui? Samui! Suche" "de" >}}
+-   {{< languagelink "http://www.nationmultimedia.com/detail/opinion/30370184" "Prem was no friend of the people" "en" >}}

@@ -20,6 +20,6 @@ Das Video oben zeigt die Kr&ouml;nungszeremonie von K&ouml;nig Prajadhipok, Rama
 
 Interessanterweise f&uuml;hrt diese Terminplanung zu Problemen mit den eigentlich (hehe) am 24. Februar anstehenden "demokratischen" Neuwahlen. Wissanu Krea-ngam, ein Stellvertreter des Premierministers, sagt, dass die Nachwahl-Prozeduren sich mit den Kr&ouml;nungszeremonien &uuml;berschneiden k&ouml;nnten. Man wird sp&auml;ter entscheiden, ob der Wahltermin eventuell "leider" wieder verschoben werden muss.
 
-- {{< languagelink "https://www.bangkokpost.com/news/general/1603750/coronation-day-for-king-set-for-may-4-6" "Coronation day for King set for May 4-6 auf bangkokpost.com" "en" >}}
-- {{< languagelink "http://www.khaosodenglish.com/news/2019/01/01/coronation-dates-set-for-may-palace/" "Coronation dates set for May: palace auf khaosodenglish.com" "en" >}}
-- {{< languagelink "http://www.khaosodenglish.com/politics/2019/01/03/coronation-could-affect-february-elections-wissanu/" "Coronation could affect February elections: Wissanu auf khaosodenglish.com" "en" >}}
+-   {{< languagelink "https://www.bangkokpost.com/news/general/1603750/coronation-day-for-king-set-for-may-4-6" "Coronation day for King set for May 4-6 auf bangkokpost.com" "en" >}}
+-   {{< languagelink "http://www.khaosodenglish.com/news/2019/01/01/coronation-dates-set-for-may-palace/" "Coronation dates set for May: palace auf khaosodenglish.com" "en" >}}
+-   {{< languagelink "http://www.khaosodenglish.com/politics/2019/01/03/coronation-could-affect-february-elections-wissanu/" "Coronation could affect February elections: Wissanu auf khaosodenglish.com" "en" >}}

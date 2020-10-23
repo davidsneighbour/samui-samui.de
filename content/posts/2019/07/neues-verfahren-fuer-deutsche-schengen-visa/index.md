@@ -16,8 +16,8 @@ Zur Zeit befinden sich 26 L&auml;nder im Schengen-Verbund: &Ouml;sterreich, Belg
 
 Kontaktieren (bspw. um einen Termin auszumachen) kann man das Center &uuml;ber: 
 
-- Telephone: [+66 2 118 7017](callto:+6621187017) oder
-- Email: [info.geth@vfshelpline.com](mailto:info.geth@vfshelpline.com)
+-   Telephone: [+66 2 118 7017](callto:+6621187017) oder
+-   Email: [info.geth@vfshelpline.com](mailto:info.geth@vfshelpline.com)
 
 Standort: 315 317, 319 Rama IV Rd, Khwaeng Pathum Wan, Khet Pathum Wan, Krung Thep Maha Nakhon 10330 - [Google Maps](https://www.google.com/maps/place/Chamchuri+Square/@13.7332818,100.5344565,16z/data=!4m5!3m4!1s0x0:0x5f7c86c977474ee2!8m2!3d13.7329903!4d100.530401?hl=de-DE)
 
@@ -25,4 +25,4 @@ Ich pers&ouml;nlich bin kein gro&szlig;er Fan von staatlichen Aufgaben, die an p
 
 In den News in Thailand war VFS.Global neulich, weil sie bevorzugten "Zugang" zu den langen Immigration-Warteschlangen in Subvarnabhumi verkauften. Auch interessant.
 
-- {{< languagelink "https://www.vfsglobal.com/Germany/Thailand/" "3 simple steps for a Schengen Visa to Germany auf der Website von VFS.Global" "en" >}}
+-   {{< languagelink "https://www.vfsglobal.com/Germany/Thailand/" "3 simple steps for a Schengen Visa to Germany auf der Website von VFS.Global" "en" >}}

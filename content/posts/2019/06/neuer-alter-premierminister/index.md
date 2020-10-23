@@ -31,8 +31,8 @@ Heute nun hat General Prayuth’s stellvertretender Sprecher Werachon Sukondhapa
 
 &Uuml;brigens wurde heute auch bekannt, dass die regierende Phalang Pracharath Partei nicht wie vereinbart drei Hauptministerien (Kommerz-, Arbeits und Landwirtschaftsministerium) und den Posten des stellvertretenden Premierministers an ihre Koalitionsparteien abgeben werden. Warum auch, die Stimmen zur Wahl des Premierministers haben sie ja jetzt. 
 
-- {{< languagelink "http://www.khaosodenglish.com/politics/2019/06/06/phalang-pracharath-stakes-claim-on-key-cabinet-posts/" "Phalang Pracharath Stakes Claim on Key Cabinet Posts" "en" >}}
-- {{< languagelink "https://www.theguardian.com/world/2019/jun/05/thailand-military-backed-pm-prayuth-chan-ocha-voted-in-after-junta-creates-loose-coalition" "Thailand's military-backed PM voted in after junta creates loose coalition - The Guardian" "en" >}}
-- {{< languagelink "https://www.bangkokpost.com/news/politics/1690376/pm-prayut-thanks-mps-for-their-votes" "PM Prayut thanks MPs for their votes" "en" >}}
-- {{< languagelink "https://edition.cnn.com/2019/06/06/asia/thailand-prime-minister-prayut-intl/index.html" "Thailand's junta chief elected as country's next prime minister auf CNN" "en" >}}
-- {{< languagelink "https://forsea.co/wp-content/uploads/2019/05/FORSEA-Election-Report-2019.pdf" "FORSEA Election Report (PDF)" "en" >}}
+-   {{< languagelink "http://www.khaosodenglish.com/politics/2019/06/06/phalang-pracharath-stakes-claim-on-key-cabinet-posts/" "Phalang Pracharath Stakes Claim on Key Cabinet Posts" "en" >}}
+-   {{< languagelink "https://www.theguardian.com/world/2019/jun/05/thailand-military-backed-pm-prayuth-chan-ocha-voted-in-after-junta-creates-loose-coalition" "Thailand's military-backed PM voted in after junta creates loose coalition - The Guardian" "en" >}}
+-   {{< languagelink "https://www.bangkokpost.com/news/politics/1690376/pm-prayut-thanks-mps-for-their-votes" "PM Prayut thanks MPs for their votes" "en" >}}
+-   {{< languagelink "https://edition.cnn.com/2019/06/06/asia/thailand-prime-minister-prayut-intl/index.html" "Thailand's junta chief elected as country's next prime minister auf CNN" "en" >}}
+-   {{< languagelink "https://forsea.co/wp-content/uploads/2019/05/FORSEA-Election-Report-2019.pdf" "FORSEA Election Report (PDF)" "en" >}}

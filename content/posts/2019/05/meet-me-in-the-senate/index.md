@@ -27,11 +27,11 @@ Der Senat hat laut Verfassung das Recht, das Parlament zu &uuml;berwachen, die G
 > "Remember this," Prayuth said, pointing his finger at reporters. "Anything that has been endorsed and considered by His Majesty has always already gone under scrutiny. That’s the most important thing."
 
 Laut Prayuth ist es auch gar nicht so falsch, den Senat mit Beamten aus der aktuellen Junta-Regierung zu f&uuml;llen, schlie&szlig;lich w&auml;ren die schon mit bereits aktiven Projekten vertraut und w&uuml;ssten, wie es weiter geht. Auf die Idee, dass der Sinn einer neuen Regierung das Verhindern genau dieser "bereits weiter geplanten Projekte" ist, sollte man wohl besser nicht kommen. 
-
+<!--lint disable write-good-->
 Wenn man ihn dann aber direkt Fragen stellt, sagt er, dass die Wahlkommission den Senat gew&auml;hlt habe. Nicht er. Zitat: "Prayuth, in a fit of anger, quipped: It was the EC!".
 
-- {{< languagelink "http://www.khaosodenglish.com/politics/2019/05/14/junta-unveils-250-unelected-senators/" "Government unveils 250 senators full of generals and junta favourites" "en" >}}
-- {{< languagelink "http://www.khaosodenglish.com/politics/2019/05/16/prayuth-says-new-senators-have-kings-endorsement/" "Prayuth says new senators have King's endorsement" "en" >}}
-- {{< languagelink "http://www.ratchakitcha.soc.go.th/DATA/PDF/2562/E/121/T_0001.PDF" "Offizielle Liste der neuen Senatoren" "th" >}}
+-   {{< languagelink "http://www.khaosodenglish.com/politics/2019/05/14/junta-unveils-250-unelected-senators/" "Government unveils 250 senators full of generals and junta favourites" "en" >}}
+-   {{< languagelink "http://www.khaosodenglish.com/politics/2019/05/16/prayuth-says-new-senators-have-kings-endorsement/" "Prayuth says new senators have King's endorsement" "en" >}}
+-   {{< languagelink "http://www.ratchakitcha.soc.go.th/DATA/PDF/2562/E/121/T_0001.PDF" "Offizielle Liste der neuen Senatoren" "th" >}}
 
 

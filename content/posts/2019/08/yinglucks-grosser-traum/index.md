@@ -18,7 +18,9 @@ Der thail&auml;ndische Pass wurde Yingluck aberkannt, nachdem sie 2017 vor einer
 
 Unter welchen Bedingungen ihr die serbische Staatsb&uuml;rgerschaft verliehen wurde, ist nicht bekannt, aber eine zitierte Verordnung besagt, dass Ausl&auml;nder die serbische Nationalit&auml;t verliehen bekommen k&ouml;nnen, wenn es im Sinne das Landes ist.
 
+<!--lint disable write-good-->
 {{< quote >}}"A foreign citizen can also be granted Serbian citizenship if that is in line with the country's interests."{{< / quote >}}
+<!--lint enable write-good-->
 
 Was genau diese Interessen Serbiens sind wurde nicht bekannt. Zwischen Serbien und Thailand gibt es (nat&uuml;rlich) keine Auslieferungsabkommen.
 

@@ -10,7 +10,7 @@ leute:
 
 ---
 
-{{< img src="thanathorn-juangroongruangkit.jpg" >}}Thanathorn Juangroongruangkit (via <a href="https://www.facebook.com/ThanathornOfficial/photos/fpp.382592748811072/573993423004336/?type=3&theater">Facebook</a>){{< /img >}}
+{{< img src="thanathorn-juangroongruangkit.jpg" >}}Thanathorn Juangroongruangkit (via [Facebook](https://www.facebook.com/ThanathornOfficial/photos/fpp.382592748811072/573993423004336/?type=3&theater)){{< /img >}}
 
 Im Spiegel kann man ein [Interview mit Thanathorn Juangroongruangkit](https://www.spiegel.de/politik/ausland/thailand-eine-million-dollar-fuer-eine-stimme-interview-mit-thanathorn-a-1270159.html) lesen. Wir erfahren dabei beispielsweise, wie die Armeepartei Phalang Pracharat Einfluss auf Mitglieder von Thanathorns Partei nimmt. 
 

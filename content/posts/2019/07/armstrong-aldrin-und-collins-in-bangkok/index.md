@@ -19,5 +19,5 @@ Nachdem sie zur guten alten Erde zur&uuml;ckkehrten, begannen sie eine "Siegesru
 Armstrong, Aldrin und Colling und ihre Frauen trafen Feldmarschall Thanom Kittikachorn (seines Zeichens Milit&auml;rdiktator Thailands zwischen 1963 und 1973) und seine Frau am 28. Oktober 1969 und tauschten Freundlichkeiten und Geschenke aus. 
 
 
-- {{< languagelink "https://de.wikipedia.org/wiki/Apollo_11" "Apollo 11 auf Wikipedia" "de" >}}
-- {{< languagelink "https://www.newspapers.com/image/?clipping_id=27494178&fcfToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVlLXZpZXctaWQiOjgyMTM3Njg4LCJpYXQiOjE1NjM1OTAwOTMsImV4cCI6MTU2MzY3NjQ5M30.atfvNkkccikkglCKvgMBqwLYbgkq2T5H9QR7umc08ds" "Apollo 11 Starts World Tour" "en" >}}
+-   {{< languagelink "https://de.wikipedia.org/wiki/Apollo_11" "Apollo 11 auf Wikipedia" "de" >}}
+-   {{< languagelink "https://www.newspapers.com/image/?clipping_id=27494178&fcfToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVlLXZpZXctaWQiOjgyMTM3Njg4LCJpYXQiOjE1NjM1OTAwOTMsImV4cCI6MTU2MzY3NjQ5M30.atfvNkkccikkglCKvgMBqwLYbgkq2T5H9QR7umc08ds" "Apollo 11 Starts World Tour" "en" >}}
