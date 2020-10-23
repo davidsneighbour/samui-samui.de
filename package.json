@@ -27,6 +27,7 @@
     "serve": "hugo server --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
     "atomic-algolia": "0.3.19",
     "autoprefixer": "^10.0.1",
     "commitizen": "4.2.2",

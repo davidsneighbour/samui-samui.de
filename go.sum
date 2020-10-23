@@ -1,3 +1,4 @@
+github.com/davidsneighbour/dnb-hugo v0.0.0-20201023135903-4f611dde9876 h1:EIKuP0gwDsQi8OTkJ5PAryOoJzF7E2qDQizqL+m/QIk=
 github.com/davidsneighbour/dnb-hugo-garuda v1.0.2 h1:fi9qNktGYg/DwRuyndpf3LnyhjcSYQ7I+0bBSiWIZBQ=
 github.com/davidsneighbour/dnb-hugo-garuda v1.0.2/go.mod h1:k+afrI30i4lBz9opwLrFu2XmLRlGVHrbFihppGgmc0k=
 github.com/davidsneighbour/dnb-hugo-libs/bootstrap4 v1.0.0/go.mod h1:ak+/T98Hi7MeW1THUvPUhIYB7ADVpyhPxNLCWo64LZs=
@@ -9,4 +10,6 @@ github.com/davidsneighbour/dnb-hugo/robots v1.0.1/go.mod h1:g57/Gh2K0tvpvhB404Wf
 github.com/davidsneighbour/dnb-hugo/shortcodes v1.0.0/go.mod h1:odInrnmgliJ522wT0cumyU1YUf0FQvkqK/0Jri1K9ao=
 github.com/davidsneighbour/dnb-hugo/shortcodes v1.0.1 h1:eQTin3cKxZ5Z7cjaE9NiPWqcAFKkjWFtaotNA66N+Gc=
 github.com/davidsneighbour/dnb-hugo/shortcodes v1.0.1/go.mod h1:odInrnmgliJ522wT0cumyU1YUf0FQvkqK/0Jri1K9ao=
+github.com/davidsneighbour/dnb-hugo/sitemap v1.0.1/go.mod h1:9BE+XEnqFwqJLNcGaxoO7Cg3YB+2u60GOWACIDYq880=
+github.com/kaushalmodi/hugo-debugprint v0.0.0-20201009173613-d875fcafa822/go.mod h1:vusrDLlGE+4Uc1b4PgM0dI8lJCEqC1o7NjFr8WIfkaQ=
 github.com/twbs/bootstrap v4.5.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
