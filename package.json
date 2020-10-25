@@ -2,7 +2,7 @@
   "name": "samui-samui-de",
   "slug": "samui-samui-de",
   "url": "https://samui-samui.de",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -24,22 +24,28 @@
     "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "serve": "hugo server --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose"
+    "serve": "hugo server --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose",
+    "commitlint": "commitlint --from=HEAD~1"
   },
   "devDependencies": {
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
     "atomic-algolia": "0.3.19",
-    "autoprefixer": "^10.0.1",
+    "autoprefixer": "10.0.1",
     "commitizen": "4.2.2",
-    "cssnano": "^4.1.10",
+    "cssnano": "4.1.10",
     "cz-conventional-changelog": "3.3.0",
     "cz-customizable": "6.3.0",
     "cz-customizable-ghooks": "2.0.0",
     "github-release-notes": "0.17.3",
-    "netlify-plugin-snyk": "^1.2.0",
-    "pixrem": "^5.0.0",
+    "husky": "4.3.0",
+    "lighthouse": "6.4.1",
+    "netlify-plugin-snyk": "1.2.0",
+    "pixrem": "5.0.0",
+    "playwright": "1.5.1",
     "postcss": "8.1.2",
     "postcss-cli": "8.1.0",
-    "precss": "^4.0.0",
+    "precss": "4.0.0",
     "standard-version": "9.0.0"
   },
   "standard-version": {
@@ -59,5 +65,10 @@
         "type": "json"
       }
     ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
