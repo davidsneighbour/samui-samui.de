@@ -2,17 +2,17 @@
 
 ## Installation
 
-- run `npm install` to install packages
-- run `./scripts/copy-files.sh` to copy used library to the assets folder
-- run `git submodule update --init --recursive` in the root folder
+-   run `npm install` to install packages
+-   run `./scripts/copy-files.sh` to copy used library to the assets folder
+-   run `git submodule update --init --recursive` in the root folder
 
 ## Youtube thumbnail
 
-- run `./scripts/convert youtube VIDEOID` to load video thumbnail into static folder
+-   run `./scripts/convert youtube VIDEOID` to load video thumbnail into static folder
 
 ## Setup and update Algolia search
 
-- copy `.env.sample` to `.env`
-- fill in the info from https://www.algolia.com/apps &gt; API keys
-- run `npm install -g atomic-algolia` to install globally 
-- run `npm run algolia` whenever there are updates to the content
+-   copy `.env.sample` to `.env`
+-   fill in the info from https://www.algolia.com/apps &gt; API keys
+-   run `npm install -g atomic-algolia` to install globally 
+-   run `npm run algolia` whenever there are updates to the content
