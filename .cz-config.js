@@ -7,7 +7,7 @@ module.exports = {
   types: [
     { value: 'feat', name: 'feat:     A new feature' },
     { value: 'fix', name: 'fix:      A bug fix' },
-    { value: 'theme', name: 'theme:    Design and Theme changes' },
+    { value: 'layouts', name: 'layouts:    Design and Theme changes' },
     { value: 'refactor', name: 'refactor: A code change that neither fixes a bug nor adds a feature' },
     { value: 'test', name: 'test:     Adding missing tests' },
     { value: 'chore', name: 'chore:    Changes to the build process or documentation generation' },
@@ -15,21 +15,6 @@ module.exports = {
   ],
 
   scopes: [
-    { name: 'accounting' },
-    { name: 'agencies' },
-    { name: 'bookings' },
-    { name: 'customers' },
-    { name: 'reporting' },
-    { name: 'tours' },
-    { name: 'users' },
-    { name: 'api' },
-    { name: 'vue' },
-    { name: 'cli' },
-    { name: 'interface' },
-    { name: 'options' },
-    { name: 'notifications' },
-    { name: 'javascript' },
-    { name: 'tracking' }
   ],
 
   scopeOverrides: {
@@ -40,15 +25,8 @@ module.exports = {
       { name: 'interface' },
       { name: 'javascript' }
     ],
-    test: [
-      { name: 'unit' },
-      { name: 'nightwatch' },
-      { name: 'browser' },
-      { name: 'api' },
-      { name: 'acceptance' },
-    ],
+    test: [],
     chore: [
-      { name: 'deps' },
       { name: 'dev-deps' },
       { name: 'git' },
       { name: 'ide' },
