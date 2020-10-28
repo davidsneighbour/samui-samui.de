@@ -5,7 +5,7 @@ type: post
 date: 2015-11-17T08:57:27+00:00
 url: /2015/11/das-wahre-leben-in-thailand/
 tags:
-- werbung
+- undjetztmalwerbung
 - TAT
 - ernst gemeint
 ---
