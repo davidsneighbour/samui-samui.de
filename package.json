@@ -2,7 +2,7 @@
   "name": "samui-samui-de",
   "slug": "samui-samui-de",
   "url": "https://samui-samui.de",
-  "version": "1.0.38",
+  "version": "1.0.39",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -40,7 +40,13 @@
     "lighthouse": "6.4.1",
     "netlify-plugin-snyk": "1.2.0",
     "playwright": "1.5.1",
-    "standard-version": "9.0.0"
+    "standard-version": "9.0.0",
+    "autoprefixer": "10.0.1",
+    "cssnano": "4.1.10",
+    "pixrem": "5.0.0",
+    "postcss": "8.1.4",
+    "postcss-cli": "^8.0.0",
+    "precss": "4.0.0"
   },
   "standard-version": {
     "skip": {
