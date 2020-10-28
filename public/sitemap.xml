@@ -3,6 +3,21 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+        <loc>https://samui-samui.de/2020/10/und-jetzt-mal-werbung-ii/</loc>
+        
+        <lastmod>2020-10-28T21:29:59+07:00</lastmod>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
         <loc>https://samui-samui.de/2020/09/uss-grenadier/</loc>
         
         <lastmod>2020-09-18T19:56:20+07:00</lastmod>
@@ -30751,7 +30766,215 @@
     
     
     <url>
+        <loc>https://samui-samui.de/shortcodes/adsense-ad/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/shortcodes/archive/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/shortcodes/archive-navigation-yearly/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/breadcrumbs/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/contact-form/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/date/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
         <loc>https://samui-samui.de/datenschutzerklaerung/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/emojify/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/event/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/figure/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/gallery/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/gallery2/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/gtm-body/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/gtm-head/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/htmlcomment/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/img/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/img2/</loc>
         
         
         <changefreq>weekly</changefreq>
@@ -30777,7 +31000,72 @@
     
     
     <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/languagelink/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/quote/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/search/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/soundcloud/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
         <loc>https://samui-samui.de/suche/</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+        
+        
+        <priority>0.8</priority>
+        
+        
+    </url>
+    
+    
+    <url>
+        <loc>https://samui-samui.de/dnb-hugo-shortcodes/youtube/</loc>
         
         
         <changefreq>weekly</changefreq>

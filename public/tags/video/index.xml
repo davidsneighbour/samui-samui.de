@@ -6,10 +6,23 @@
     
     
     
-    <lastBuildDate>Tue, 21 Jan 2020 17:37:17 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2020 21:29:59 +0700</lastBuildDate>
     
         <atom:link href="https://samui-samui.de/tags/video/index.xml" rel="self" type="application/rss+xml" />
     
+    
+	    <item>
+	      <title>Und jetzt mal Werbung II</title>
+	      <link>https://samui-samui.de/2020/10/und-jetzt-mal-werbung-ii/</link>
+	      <pubDate>Wed, 28 Oct 2020 21:29:59 +0700</pubDate>
+	      
+	      <guid>https://samui-samui.de/2020/10/und-jetzt-mal-werbung-ii/</guid>
+	      <description>Es gibt in Thailand eine bestimmte Werbeform, die sich mir nicht wirklich erklären lässt. Lasst sie uns mal Tränendrüsenwerbung nennen. Meist lernen wir eine Person kennen, die entweder Gutes tut oder &amp;ldquo;einfach ihren Job&amp;rdquo; und dies wiederholt. Und wiederholt. Und Leute, die darauf reagieren. Meist ist der Werbeclip drei oder vier Minuten lang. Am Ende kommt immer Karma in Form von Dankbarkeit oder eben Erfolgen. Dann das Logo und ein Satz des Werbenden.
+Die Werbung wird von Versicherungsfirmen und Banken geschaltet.
+Der Zusammenhang bleibt unerklärt.
+Ich bezweifle, dass die Leute im folgenden Werbeclip eine Lebensversicherung der Thai Life Insurance haben, aber naja. Tränendrüse aktiviert.
+  </description>
+	    </item>
     
 	    <item>
 	      <title>USS Grenadier</title>
@@ -21981,7 +21994,61 @@ Jedenfalls musste ich um mein &amp;ldquo;Anrecht&amp;rdquo; auf Sozialhilfe zu b
 	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 	      
 	      <guid>https://samui-samui.de/archive/2020/</guid>
-	      <description>  Januar 2020   21. Januar 2020 - Und Jetzt Mal Werbung   24. Januar 2020 - Albino Delphine   25. Januar 2020 - Das Jahr Der Ratte    August 2020   1. August 2020 - Kommentieren! Yeah!    September 2020   18. September 2020 - USS Grenadier   </description>
+	      <description>  Januar 2020   21. Januar 2020 - Und Jetzt Mal Werbung   24. Januar 2020 - Albino Delphine   25. Januar 2020 - Das Jahr Der Ratte    August 2020   1. August 2020 - Kommentieren! Yeah!    September 2020   18. September 2020 - USS Grenadier    Oktober 2020   28. Oktober 2020 - Und jetzt mal Werbung II   </description>
+	    </item>
+    
+	    <item>
+	      <title>adsense-ad</title>
+	      <link>https://samui-samui.de/shortcodes/adsense-ad/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/shortcodes/adsense-ad/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>archive</title>
+	      <link>https://samui-samui.de/shortcodes/archive/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/shortcodes/archive/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>archive-navigation-yearly</title>
+	      <link>https://samui-samui.de/shortcodes/archive-navigation-yearly/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/shortcodes/archive-navigation-yearly/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>Breadcrumbs</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/breadcrumbs/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/breadcrumbs/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>Contact Form</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/contact-form/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/contact-form/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>Date</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/date/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/date/</guid>
+	      <description></description>
 	    </item>
     
 	    <item>
@@ -21998,6 +22065,96 @@ Cookies ¶ Wir verwenden auf unserer Seite sog.</description>
 	    </item>
     
 	    <item>
+	      <title>Emojify</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/emojify/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/emojify/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>Event</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/event/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/event/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>Figure</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/figure/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/figure/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>Gallery</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/gallery/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/gallery/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>Gallery2</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/gallery2/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/gallery2/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>Gtm Body</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/gtm-body/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/gtm-body/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>Gtm Head</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/gtm-head/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/gtm-head/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>Htmlcomment</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/htmlcomment/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/htmlcomment/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>Img</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/img/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/img/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>Img2</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/img2/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/img2/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
 	      <title>Kontakt!?!</title>
 	      <link>https://samui-samui.de/kontakt/</link>
 	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -22010,12 +22167,57 @@ Name  Email    Deine Nachricht       </description>
 	    </item>
     
 	    <item>
+	      <title>Languagelink</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/languagelink/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/languagelink/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>Quote</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/quote/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/quote/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>Search</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/search/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/search/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
+	      <title>Soundcloud</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/soundcloud/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/soundcloud/</guid>
+	      <description></description>
+	    </item>
+    
+	    <item>
 	      <title>Suche</title>
 	      <link>https://samui-samui.de/suche/</link>
 	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 	      
 	      <guid>https://samui-samui.de/suche/</guid>
 	      <description>          </description>
+	    </item>
+    
+	    <item>
+	      <title>Youtube</title>
+	      <link>https://samui-samui.de/dnb-hugo-shortcodes/youtube/</link>
+	      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	      
+	      <guid>https://samui-samui.de/dnb-hugo-shortcodes/youtube/</guid>
+	      <description></description>
 	    </item>
     
   </channel>
