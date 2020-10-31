@@ -4,8 +4,8 @@ github.com/davidsneighbour/dnb-hugo-libs/bootstrap5 v1.0.0 h1:/mS6CMb262GCQ80qhq
 github.com/davidsneighbour/dnb-hugo-libs/bootstrap5 v1.0.0/go.mod h1:BHHbkzYgGE1obbSS6AT0PrsH9if30FnacrnVv9tlEVM=
 github.com/davidsneighbour/dnb-hugo/favicon v1.0.2 h1:Ue5a5DYn3CqfTMvtKJ85zYRZAV028rdGfkcIaOoexn4=
 github.com/davidsneighbour/dnb-hugo/favicon v1.0.2/go.mod h1:SRkPMNvm5VIKEgPQpSmpTrfYn6jZbwB+yse9VT1+TtM=
-github.com/davidsneighbour/dnb-hugo/netlification v1.0.6 h1:Tn5mYyyCZJ0YBstjExqJha6qXwfwkUQSDd4U2hZ3m28=
-github.com/davidsneighbour/dnb-hugo/netlification v1.0.6/go.mod h1:l25A7Y78MbMI44bRNxul1xX8AQzzLJiIprmYcP6soko=
+github.com/davidsneighbour/dnb-hugo/netlification v1.0.7 h1:SE6YvuhRKJKemV9AovwWl8lRq/C9cIfrOGBE34EoVBY=
+github.com/davidsneighbour/dnb-hugo/netlification v1.0.7/go.mod h1:l25A7Y78MbMI44bRNxul1xX8AQzzLJiIprmYcP6soko=
 github.com/davidsneighbour/dnb-hugo/renderhooks v1.0.2/go.mod h1:HpaglW8YeevOyztDjSFI0DBj2w+00D5eqxKlM0IFA7E=
 github.com/davidsneighbour/dnb-hugo/robots v1.0.1 h1:UGx/6qdfLTtw/2NauQ0GaAiGn/OJHzrJA3RHusbjl/0=
 github.com/davidsneighbour/dnb-hugo/robots v1.0.1/go.mod h1:g57/Gh2K0tvpvhB404Wf9pJKB7o2hwyBLIRJdEjc8Ac=
