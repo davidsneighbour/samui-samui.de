@@ -1,6 +1,5 @@
-github.com/davidsneighbour/dnb-hugo-garuda v1.1.3 h1:938UBaIPhJ992xaGjDKW901RPuYczInsXZQq7L3/dTM=
-github.com/davidsneighbour/dnb-hugo-garuda v1.1.3/go.mod h1:k+afrI30i4lBz9opwLrFu2XmLRlGVHrbFihppGgmc0k=
-github.com/davidsneighbour/dnb-hugo-libs v0.0.0-20201026114930-21a39c1031c7 h1:0Wirpu/u2bqP+GvGj/pu/pUrFQHK/kyiTdPkuqkyDc8=
+github.com/davidsneighbour/dnb-hugo-garuda v1.1.5 h1:7P2PnVhKc1ETckdmqR+Bv1WwHLUB+3sQJduOLrITeFw=
+github.com/davidsneighbour/dnb-hugo-garuda v1.1.5/go.mod h1:k+afrI30i4lBz9opwLrFu2XmLRlGVHrbFihppGgmc0k=
 github.com/davidsneighbour/dnb-hugo-libs/bootstrap4 v1.0.0/go.mod h1:ak+/T98Hi7MeW1THUvPUhIYB7ADVpyhPxNLCWo64LZs=
 github.com/davidsneighbour/dnb-hugo-libs/bootstrap5 v1.0.0 h1:/mS6CMb262GCQ80qhqiRlQYIVZ1BeGJPzNllU65S4W4=
 github.com/davidsneighbour/dnb-hugo-libs/bootstrap5 v1.0.0/go.mod h1:BHHbkzYgGE1obbSS6AT0PrsH9if30FnacrnVv9tlEVM=
@@ -9,8 +8,10 @@ github.com/davidsneighbour/dnb-hugo/favicon v1.0.2/go.mod h1:SRkPMNvm5VIKEgPQpSm
 github.com/davidsneighbour/dnb-hugo/netlification v1.0.4 h1:zijrUQO3VRciyV3qYAIbXkBLR1fwm4UoS4yB56A0KEg=
 github.com/davidsneighbour/dnb-hugo/netlification v1.0.4/go.mod h1:l25A7Y78MbMI44bRNxul1xX8AQzzLJiIprmYcP6soko=
 github.com/davidsneighbour/dnb-hugo/renderhooks v1.0.2/go.mod h1:HpaglW8YeevOyztDjSFI0DBj2w+00D5eqxKlM0IFA7E=
+github.com/davidsneighbour/dnb-hugo/robots v1.0.0/go.mod h1:g57/Gh2K0tvpvhB404Wf9pJKB7o2hwyBLIRJdEjc8Ac=
 github.com/davidsneighbour/dnb-hugo/robots v1.0.1 h1:UGx/6qdfLTtw/2NauQ0GaAiGn/OJHzrJA3RHusbjl/0=
 github.com/davidsneighbour/dnb-hugo/robots v1.0.1/go.mod h1:g57/Gh2K0tvpvhB404Wf9pJKB7o2hwyBLIRJdEjc8Ac=
+github.com/davidsneighbour/dnb-hugo/shortcodes v1.0.0/go.mod h1:odInrnmgliJ522wT0cumyU1YUf0FQvkqK/0Jri1K9ao=
 github.com/davidsneighbour/dnb-hugo/shortcodes v1.0.1 h1:eQTin3cKxZ5Z7cjaE9NiPWqcAFKkjWFtaotNA66N+Gc=
 github.com/davidsneighbour/dnb-hugo/shortcodes v1.0.1/go.mod h1:odInrnmgliJ522wT0cumyU1YUf0FQvkqK/0Jri1K9ao=
 github.com/davidsneighbour/dnb-hugo/sitemap v1.0.1 h1:SbWkkoqfh5ymR++v+yiv/uT1KURljxABktMr1/CGJlc=
