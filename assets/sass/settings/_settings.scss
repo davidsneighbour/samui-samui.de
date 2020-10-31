@@ -1,0 +1,75 @@
+// add this to theme color functions
+// https://getbootstrap.com/docs/4.0/getting-started/theming/#functions
+$primary: map-get($theme-colors,'primary');
+$enable-caret: true;
+$enable-rounded: false;
+$enable-shadows: false;
+$enable-gradients: false;
+$enable-transitions: true;
+$enable-grid-classes: true;
+$enable-print-styles: true;
+$enable-prefers-reduced-motion-media-query:   true;
+$enable-print-styles:                         true;
+$enable-validation-icons:                     true;
+
+$body-bg: map-get($theme-colors,'bodybg');
+$body-color: map-get($theme-colors,'text');
+$grid-gutter-width: 30px;
+
+// fonts
+$dark: map-get($theme-colors,'text');
+$blockquote-font-size: $font-size-base;
+$link-color: darken($primary, 20%);
+$link-hover-color: darken($link-color, 10%);
+
+// tables
+$table-border-color: map-get($theme-colors,'bodybg');
+
+// cards
+$card-cap-bg:                       rgba($primary, 0.3);
+$card-bg:                           darken(map-get($theme-colors,'contentbg'), 3%);
+
+// carousel
+$carousel-control-width:            15%;
+$carousel-control-opacity:          0.5;
+$carousel-indicator-width:          20px;
+$carousel-indicator-height:         9px;
+$carousel-indicator-spacer:         3px;
+$carousel-indicator-active-bg:      map-get($theme-colors,'primary');
+$carousel-caption-width:            70%;
+$carousel-caption-color:            map-get($theme-colors,'primary');
+$carousel-control-icon-width:       20px;
+
+// pagination
+$pagination-color: lighten(map-get($theme-colors,'contentbg'), 20%);
+$pagination-bg: map-get($theme-colors,'primary');
+$pagination-border-color: rgba(map-get($theme-colors,'text'), 0.2);
+$pagination-hover-color: map-get($theme-colors,'primary');
+$pagination-hover-bg: lighten(map-get($theme-colors,'contentbg'), 20%);
+$pagination-hover-border-color: rgba(map-get($theme-colors,'text'), 0.2);
+$pagination-active-color: lighten(map-get($theme-colors,'contentbg'), 20%);
+$pagination-active-bg: map-get($theme-colors,'primary');
+$pagination-active-border-color: rgba(map-get($theme-colors,'text'), 0.2);
+$pagination-disabled-bg: map-get($theme-colors,'primary');
+$pagination-disabled-border-color: rgba(map-get($theme-colors,'text'), 0.2);
+$pagination-disabled-color: lighten(map-get($theme-colors,'contentbg'), 40%);
+
+// progress bars
+$progress-bg: map-get($theme-colors,'contentbg');
+$progress-bar-color: map-get($theme-colors,'text');
+$progress-bar-bg: map-get($theme-colors,'primary');
+$progress-height: 5px;
+
+// list groups
+$list-group-bg: transparent;
+
+// brandcolors
+$brandcolors: (
+  'facebook':  #3b5998,
+  'messenger': #0084ff,
+  'twitter':   #1da1f2,
+  'whatsapp':  #25d366,
+  'snapchat':  #fffc00
+);
+
+$header_image: 'header-201906.jpg';

@@ -155,9 +155,6 @@ notAlternative = true
   # Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   anchor = "smart"
 
-[markup.goldmark.renderer]
-  unsafe = true
-
 [params.imaging]
   sizes = ["825","610","510","450"]
 
@@ -292,3 +289,6 @@ netlify = "https://eloquent-morse-196fd2.netlify.com/"
   enabled = true
   type = "cloud"
   values = "leute"
+
+[params.dnb.analytics]
+  clarity = "3wfl4b6e0x"
