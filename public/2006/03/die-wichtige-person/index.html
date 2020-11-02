@@ -60,7 +60,6 @@ Ich tippe auf Mitglieder der königlichen Familie oder jemanden aus der Regierun
 <meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml?v=alJyL0x4z6">
 <meta name="theme-color" content="#ffffff">
 
-
 <script type="text/javascript">
   (function(c,l,a,r,i,t,y){
     c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -70,9 +69,7 @@ Ich tippe auf Mitglieder der königlichen Familie oder jemanden aus der Regierun
 </script>
 
 
-
-
-    <link rel="stylesheet" href="https://samui-samui.de/style.min.4fba76f5713b7eb9ced792f7cb985a9959ab98592f9943e606684355a617d4c9e49548952e50a66914854260168aa021ffbe5187be114f7b9492c487f6e58c4f.css" integrity="sha512-T7p29XE7frnO15L3y5hamVmrmFkvmUPmBmhDVaYX1MnklUiVLlCmaRSFQmAWiqAh/75Rh74RT3uUksSH9uWMTw==">
+    <link rel="stylesheet" href="https://samui-samui.de/style.min.ac045a8256bda37c3ddc6192ef9e394864b3db2a1c6be29755ef52a1abdf043746ad02e7110e4b3403dfdde1917d1223bd514f67f1c782241bfe279262970aa8.css" integrity="sha512-rARagla9o3w93GGS7545SGSz2yoca&#43;KXVe9SoavfBDdGrQLnEQ5LNAPf3eGRfRIjvVFPZ/HHgiQb/ieSYpcKqA==">
 
 
     
@@ -514,7 +511,7 @@ Ich tippe auf Mitglieder der königlichen Familie oder jemanden aus der Regierun
 </footer>
 
 
-<script src="../../../script.min.9caded42184aaa7d16c775d6424c66a8999279104d151383fea52e3854a926b1db10879be15e34f3167bf666ba281874.js" integrity="sha384-nK3tQhhKqn0Wx3XWQkxmqJmSeRBNFROD/qUuOFSpJrHbEIeb4V408xZ79ma6KBh0" crossorigin="anonymous" async defer type="text/javascript"></script>
+<script src="../../../script.min.e46d89950d1d00a79d9d9aea37358588718ee757cd4b51ef6c01f5f5bf42bf594b24852bb4df8659fcbdcb6ba7379460.js" integrity="sha384-5G2JlQ0dAKednZrqNzWFiHGO51fNS1HvbAH19b9Cv1lLJIUrtN&#43;GWfy9y2unN5Rg" crossorigin="anonymous" async defer type="text/javascript"></script>
 
 
 <script type="application/javascript">
@@ -524,8 +521,7 @@ function loadGoogleAnalyticsAsync(){
     script.src = 'https://www.google-analytics.com/analytics.js';
     document.body.appendChild(script);
 }
-var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-var doNotTrack = (dnt == "1" || dnt == "yes");
+var doNotTrack = false;
 if (!doNotTrack) {	
 	document.addEventListener('readystatechange', event => {
 	    if (event.target.readyState === "complete") {
@@ -533,17 +529,8 @@ if (!doNotTrack) {
 	    }
 	});
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	if (window.sessionStorage) {
-		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
-		ga('create', 'UA-17376057-1', {
-			'storage': 'none',
-			'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
-		});
-		ga(function(tracker) {
-			sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
-		});
-	}
-	ga('set', 'anonymizeIp', true);
+	ga('create', 'UA-17376057-1', 'auto');
+	
 	ga('send', 'pageview');
 }
 </script>
