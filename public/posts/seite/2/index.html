@@ -219,7 +219,7 @@
 <p>Ich bezweifle, dass die Leute im folgenden Werbeclip eine Lebensversicherung der Thai Life Insurance haben, aber naja. <em>Tränendrüse aktiviert</em>.</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/uaWA2GbcnJU"
+        src="https://www.youtube.com/embed/uaWA2GbcnJU"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
         allowfullscreen
         
@@ -327,7 +327,7 @@
 <p>Auf Youtube kann man Videos von den Tauchgängen sehen.</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/WMcJ-sac_1g"
+        src="https://www.youtube.com/embed/WMcJ-sac_1g"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
         allowfullscreen
         
@@ -616,7 +616,7 @@
   
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/PbHzitKau0I"
+        src="https://www.youtube.com/embed/PbHzitKau0I"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
         allowfullscreen
         
@@ -693,7 +693,7 @@
   
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/aXP3C5Kg-7w"
+        src="https://www.youtube.com/embed/aXP3C5Kg-7w"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
         allowfullscreen
         
@@ -1075,7 +1075,7 @@
   
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/YO2iUExOv1E"
+        src="https://www.youtube.com/embed/YO2iUExOv1E"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
         allowfullscreen
         
@@ -1153,7 +1153,7 @@
   
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/s8FIDQ_yB4A"
+        src="https://www.youtube.com/embed/s8FIDQ_yB4A"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
         allowfullscreen
         
@@ -1232,7 +1232,7 @@
   
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/UFtR03ZG0mM"
+        src="https://www.youtube.com/embed/UFtR03ZG0mM"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
         allowfullscreen
         
@@ -1657,7 +1657,7 @@
   
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/vPS8PPDDZgY"
+        src="https://www.youtube.com/embed/vPS8PPDDZgY"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
         allowfullscreen
         
@@ -2213,7 +2213,7 @@
   
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/RwzZBbmXrCk"
+        src="https://www.youtube.com/embed/RwzZBbmXrCk"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
         allowfullscreen
         
@@ -6494,7 +6494,8 @@ function loadGoogleAnalyticsAsync(){
     script.src = 'https://www.google-analytics.com/analytics.js';
     document.body.appendChild(script);
 }
-var doNotTrack = false;
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
 if (!doNotTrack) {	
 	document.addEventListener('readystatechange', event => {
 	    if (event.target.readyState === "complete") {
@@ -6502,8 +6503,17 @@ if (!doNotTrack) {
 	    }
 	});
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-17376057-1', 'auto');
-	
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-17376057-1', {
+			'storage': 'none',
+			'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+		});
+		ga(function(tracker) {
+			sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+		});
+	}
+	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }
 </script>

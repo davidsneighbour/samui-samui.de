@@ -227,7 +227,7 @@
   <p>Dies ist eine sehr viel bessere Version des Songs. Glaubt mir.</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/_GolwubH4hM"
+        src="https://www.youtube.com/embed/_GolwubH4hM"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
         allowfullscreen
         
@@ -326,7 +326,7 @@ In addition to possessing an exceptionally well-developed sense of smell, the tr
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/h5tsb7G8OAc"
+        src="https://www.youtube.com/embed/h5tsb7G8OAc"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
         allowfullscreen
         
@@ -405,7 +405,7 @@ In addition to possessing an exceptionally well-developed sense of smell, the tr
 <p>Dieses Jahr war der Tag ein wenig aufregender, weil in Hat Yai auf einer Flugschau ein Flugzeug abgestürzt ist.</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/081NOLjBD3k"
+        src="https://www.youtube.com/embed/081NOLjBD3k"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
         allowfullscreen
         
@@ -487,7 +487,7 @@ In addition to possessing an exceptionally well-developed sense of smell, the tr
 <p>Neben-Notiz: Gestern hat ein französisches Paar versucht, einen &ldquo;Selfie&rdquo; neben einem Krokodil aufzunehmen &mdash; die Frau wurde von selbigem gebissen. Mehr habe ich dazu nicht zu sagen. Ausser vielleicht: Tierische Instinkte für touristische Gründe zu missbrauchen wird sich eines Tages (oder spätestens wenn das Krokodil zubeisst) revanchieren.</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/3lOhzMGfnOo"
+        src="https://www.youtube.com/embed/3lOhzMGfnOo"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
         allowfullscreen
         
@@ -564,7 +564,7 @@ In addition to possessing an exceptionally well-developed sense of smell, the tr
   
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/C2uyfYOkTP0"
+        src="https://www.youtube.com/embed/C2uyfYOkTP0"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
         allowfullscreen
         
@@ -895,7 +895,8 @@ function loadGoogleAnalyticsAsync(){
     script.src = 'https://www.google-analytics.com/analytics.js';
     document.body.appendChild(script);
 }
-var doNotTrack = false;
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
 if (!doNotTrack) {	
 	document.addEventListener('readystatechange', event => {
 	    if (event.target.readyState === "complete") {
@@ -903,8 +904,17 @@ if (!doNotTrack) {
 	    }
 	});
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-17376057-1', 'auto');
-	
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-17376057-1', {
+			'storage': 'none',
+			'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+		});
+		ga(function(tracker) {
+			sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+		});
+	}
+	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }
 </script>

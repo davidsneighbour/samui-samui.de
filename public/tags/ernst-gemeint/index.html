@@ -228,7 +228,7 @@
   
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/DJbE_LQbJXc"
+        src="https://www.youtube.com/embed/DJbE_LQbJXc"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
         allowfullscreen
         
@@ -559,7 +559,8 @@ function loadGoogleAnalyticsAsync(){
     script.src = 'https://www.google-analytics.com/analytics.js';
     document.body.appendChild(script);
 }
-var doNotTrack = false;
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
 if (!doNotTrack) {	
 	document.addEventListener('readystatechange', event => {
 	    if (event.target.readyState === "complete") {
@@ -567,8 +568,17 @@ if (!doNotTrack) {
 	    }
 	});
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-17376057-1', 'auto');
-	
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-17376057-1', {
+			'storage': 'none',
+			'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+		});
+		ga(function(tracker) {
+			sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+		});
+	}
+	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }
 </script>
