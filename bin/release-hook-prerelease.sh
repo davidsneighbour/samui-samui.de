@@ -23,5 +23,5 @@ git add go.sum
   echo 'replace github.com/davidsneighbour/dnb-hugo-libs/bootstrap4 => /home/patrick/Projects/Hugo/dnb-hugo-libs/bootstrap4'
 } >> go.mod
 
-hugo --gc
+hugo --gc --minify
 git add -f public

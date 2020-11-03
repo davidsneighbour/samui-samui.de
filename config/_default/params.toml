@@ -1,0 +1,101 @@
+#############################################################
+# Site params
+#############################################################
+version = "2019.2.159"
+debug = false
+mainSections = ["posts"]
+
+# social media setup
+og_image = ""
+og_image_url = ""
+githubName = ""
+
+# content particles
+siteslug = "samui-samui-de"
+description = "David's Neighbour's Notizen über sein Leben als Auswanderer auf der Insel Koh Samui in Thailand. Auf Deutsch, und so..."
+copyright = "All rights reserved. Copyright samui-samui.de"
+
+# design elements
+sitecolor = "#d02d19"
+
+[imaging]
+sizes = ["825","610","510","450"]
+
+#############################################################
+# Google Adsense
+#############################################################
+[google]
+adclientid = "pub-9026195124322857"
+
+#############################################################
+# Search Setup
+#############################################################
+[algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"]
+
+[opensearch]
+# https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md
+
+#############################################################
+# Search Setup
+#############################################################
+[redirects]
+netlify = "https://eloquent-morse-196fd2.netlify.com/"
+
+#############################################################
+# Social Media Setup
+#############################################################
+[social.facebook]
+profileid = "517050641"    # patrick.kollitsch
+pageid = "6967849771"      # samuisamui
+appid = "2047624572136513" # samui-samui.de
+profileslug = "patrick.kollitsch"
+
+[social.twitter]
+profileid = "davidsneighbour"
+siteid = "samui2"
+theme ="dark"
+linkcolor = "#d02d19"
+dnt = "on"
+csp = "on"
+
+[social.snapchat]
+profileid = "pkollitsch"
+
+[social.whatsapp]
+profileid = "66878979350"
+
+#############################################################
+# DNB Hugo Garuda Setup
+#############################################################
+[dnb]
+theme_slug = "samui-samui"
+javascript = "local-changes.js"
+[dnb.sidebar]
+enabled = true
+items = [ "author", "archive", "recent", "social" ]
+[dnb.sidebar.author]
+content = "authorfooter"
+[dnb.sidebar.recent]
+limit = 5
+[dnb.sidebar.social]
+[dnb.sidebar.archive]
+
+[dnb.footer.index]
+enabled = true
+items = [ "tagcloud", "leutecloud" ]
+[dnb.footer.single]
+enabled = false
+[dnb.footer.tagcloud]
+enabled = true
+type = "cloud"
+values = "tags"
+
+[dnb.footer.leutecloud]
+enabled = true
+type = "cloud"
+values = "leute"
+
+[dnb.analytics]
+clarity = "3wfl4b6e0x"
