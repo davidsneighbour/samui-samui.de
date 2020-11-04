@@ -2,7 +2,7 @@
 # https://content-security-policy.com/
 # https://report-uri.com/account/setup/
 # reportOnly = true
-reportUri = "affa541aef76f236be4c918be5f4828c.report-uri.com"
+reportUri = "https://affa541aef76f236be4c918be5f4828c.report-uri.com"
 defaultSrc = [
   "'self'",
   "googleads.g.doubleclick.net"
