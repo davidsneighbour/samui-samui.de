@@ -9,6 +9,7 @@ defaultSrc = [
 ]
 scriptSrc = [
   "'self'",
+  "'unsafe-inline'",
   "*.cloudfront.net",
   "www.clarity.ms",
   "utteranc.es",
@@ -23,7 +24,8 @@ scriptSrc = [
   "identity.netlify.com"
 ]
 styleSrc = [
-  "'self'"
+  "'self'",
+  "'unsafe-inline'"
 ]
 imgSrc = [
   "'self'",
