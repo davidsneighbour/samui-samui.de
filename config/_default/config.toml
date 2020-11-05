@@ -12,7 +12,6 @@ enableGitInfo = false                     # Enable GitInfo feature
 enableRobotsTXT = true                    # Build robots.txt file
 footnoteAnchorPrefix = "#"
 footnoteReturnLinkContents = "^"
-googleAnalytics = "UA-17376057-1"
 languageCode = "de_DE"
 languageName = "Deutsch"
 logFile = "hugo.log"
