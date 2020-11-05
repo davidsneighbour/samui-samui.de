@@ -10,6 +10,7 @@ defaultSrc = [
 scriptSrc = [
   "'self'",
   "'unsafe-inline'",
+  "'unsafe-eval'",
   "*.cloudfront.net",
   "www.clarity.ms",
   "utteranc.es",
