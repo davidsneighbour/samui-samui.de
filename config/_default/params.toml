@@ -18,6 +18,8 @@ copyright = "All rights reserved. Copyright samui-samui.de"
 # design elements
 sitecolor = "#d02d19"
 
+GTM_TAG = "GTM-PT5BTL5"
+
 [imaging]
 sizes = ["825","610","510","450"]
 
