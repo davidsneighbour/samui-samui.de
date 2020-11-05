@@ -21,7 +21,8 @@ scriptSrc = [
   "www.google.com",
   "www.gstatic.com",
   "unpkg.com",
-  "identity.netlify.com"
+  "identity.netlify.com",
+  "www.googletagmanager.com"
 ]
 styleSrc = [
   "'self'",
@@ -36,7 +37,8 @@ imgSrc = [
 connectSrc = [
   "'self'",
   "*.algolia.net",
-  "*.algolianet.com"
+  "*.algolianet.com",
+  "www.clarity.ms",
 ]
 frameSrc = [
   "'self'",
