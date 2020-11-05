@@ -3,7 +3,7 @@ module github.com/davidsneighbour/samui-samui.de
 go 1.15
 
 require (
-	github.com/davidsneighbour/dnb-hugo-garuda v1.1.8 // indirect
+	github.com/davidsneighbour/dnb-hugo-garuda v1.1.10 // indirect
 	github.com/davidsneighbour/dnb-hugo-libs/bootstrap5 v1.0.0 // indirect
 	github.com/davidsneighbour/dnb-hugo/favicon v1.0.2 // indirect
 	github.com/davidsneighbour/dnb-hugo/netlification v1.0.13 // indirect
