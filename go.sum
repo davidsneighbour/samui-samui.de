@@ -1,11 +1,11 @@
-github.com/davidsneighbour/dnb-hugo-garuda v1.1.7 h1:MzXEcexWbU2fiAKgfVhOPY6UOuV3/BAE5g4eO3q9nI4=
-github.com/davidsneighbour/dnb-hugo-garuda v1.1.7/go.mod h1:k+afrI30i4lBz9opwLrFu2XmLRlGVHrbFihppGgmc0k=
+github.com/davidsneighbour/dnb-hugo-garuda v1.1.8 h1:XSANBsOB0ogllzDYmI2L4JSdDNFqnBDFva6neEY07hs=
+github.com/davidsneighbour/dnb-hugo-garuda v1.1.8/go.mod h1:k+afrI30i4lBz9opwLrFu2XmLRlGVHrbFihppGgmc0k=
 github.com/davidsneighbour/dnb-hugo-libs/bootstrap5 v1.0.0 h1:/mS6CMb262GCQ80qhqiRlQYIVZ1BeGJPzNllU65S4W4=
 github.com/davidsneighbour/dnb-hugo-libs/bootstrap5 v1.0.0/go.mod h1:BHHbkzYgGE1obbSS6AT0PrsH9if30FnacrnVv9tlEVM=
 github.com/davidsneighbour/dnb-hugo/favicon v1.0.2 h1:Ue5a5DYn3CqfTMvtKJ85zYRZAV028rdGfkcIaOoexn4=
 github.com/davidsneighbour/dnb-hugo/favicon v1.0.2/go.mod h1:SRkPMNvm5VIKEgPQpSmpTrfYn6jZbwB+yse9VT1+TtM=
-github.com/davidsneighbour/dnb-hugo/netlification v1.0.10 h1:nEe2oxL4DEIcNiGA3e6u8YayAwVtneHPsiI+HZ+vJsY=
-github.com/davidsneighbour/dnb-hugo/netlification v1.0.10/go.mod h1:l25A7Y78MbMI44bRNxul1xX8AQzzLJiIprmYcP6soko=
+github.com/davidsneighbour/dnb-hugo/netlification v1.0.13 h1:fHtRqG3JsCG0rU/yqqh6FYGvLSj3lEayVdr8Lp75iUo=
+github.com/davidsneighbour/dnb-hugo/netlification v1.0.13/go.mod h1:l25A7Y78MbMI44bRNxul1xX8AQzzLJiIprmYcP6soko=
 github.com/davidsneighbour/dnb-hugo/renderhooks v1.0.2/go.mod h1:HpaglW8YeevOyztDjSFI0DBj2w+00D5eqxKlM0IFA7E=
 github.com/davidsneighbour/dnb-hugo/robots v1.0.1 h1:UGx/6qdfLTtw/2NauQ0GaAiGn/OJHzrJA3RHusbjl/0=
 github.com/davidsneighbour/dnb-hugo/robots v1.0.1/go.mod h1:g57/Gh2K0tvpvhB404Wf9pJKB7o2hwyBLIRJdEjc8Ac=
