@@ -98,6 +98,3 @@ values = "tags"
 enabled = true
 type = "cloud"
 values = "leute"
-
-[dnb.analytics]
-clarity = "3wfl4b6e0x"
