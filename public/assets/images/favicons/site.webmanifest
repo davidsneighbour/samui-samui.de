@@ -1,0 +1,9 @@
+{
+  "name": "Samui? Samui!",
+  "short_name": "samuisamui",
+  "theme_color": "#ff7700",
+  "background_color": "#ffffff",
+  "display": "minimal-ui",
+  "scope": "/",
+  "start_url": "https://samui-samui.de"
+}
