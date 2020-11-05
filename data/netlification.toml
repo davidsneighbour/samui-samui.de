@@ -1,7 +1,7 @@
 [csp]
 # https://content-security-policy.com/
 # https://report-uri.com/account/setup/
-reportOnly = true
+#reportOnly = true
 reportUri = "https://samuisamui.report-uri.com/r/d/csp/enforce"
 defaultSrc = [
   "'self'",
