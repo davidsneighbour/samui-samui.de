@@ -27,6 +27,5 @@ Interessant ist, was am Rande auftaucht. Beispielsweise [40 eingefrorene Tiger-B
 
 Kurzum: Bist auf Urlaubsreise und bieten sie dir ein "einzigartiges" Erlebnis mit "echten" wilden Tieren an, dann ist es meistens sehr unangenehm f&uuml;r die Tiere und sp&auml;ter f&uuml;r dich --- wenn du ein Gewissen hast.
 
-[1]: /site/2016/06/indiana-jones-und-der-tempel-der-tiger/Cj7f9WqVAAAiqPj.jpg
 [3]: http://www.spiegel.de/panorama/thailand-40-tote-tigerbabys-in-tempel-gefunden-a-1095235.html
 [4]: https://asiancorrespondent.com/2016/06/thailand-tiger-temple-charged-animal-products/
