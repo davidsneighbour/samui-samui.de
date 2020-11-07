@@ -14,11 +14,11 @@ menu:
     identifier: kontakt
 ---
 
-### Impressum und Datenschutzerkl&auml;rung
+## Impressum und Datenschutzerkl&auml;rung
 
 [Impressum und Datenschutzerkl&auml;rung][1]
 
-### Kontakt via Email
+## Kontakt via Email
 
 Die Emails aus diesem Kontaktformular landen direkt in meiner Mailbox. Im Prinzip beantworte ich jede Email relativ schnell --- wenn es denn interessant genug ist und die angegebene Emailadresse korrekt ist ;)
 

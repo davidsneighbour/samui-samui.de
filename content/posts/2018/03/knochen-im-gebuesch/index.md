@@ -11,7 +11,7 @@ tags:
 - thinglish
 ---
 
-Auf Koh Samui wurden (mal wieder) Knochen in einem der noch nicht bebauten Dschungelteile gefunden, nur 200 Meter neben der der Strasse, die quer ueber die Insel von Maenam nach Lamai fuehrt, unter einem Baum, noch in der Kleidung. Bisher weiss man noch nicht, ob es sich um einen Mann oder eine Frau oder einen Thai oder gar um einen Immigranten aus Myanmar handelt:
+Auf Koh Samui wurden (mal wieder) Knochen in einem der noch nicht bebauten Dschungelteile gefunden, nur 200 Meter neben der Strasse, die quer ueber die Insel von Maenam nach Lamai fuehrt, unter einem Baum, noch in der Kleidung. Bisher weiss man noch nicht, ob es sich um einen Mann oder eine Frau oder einen Thai oder gar um einen Immigranten aus Myanmar handelt:
 
 {{< quote src="http://www.nationmultimedia.com/detail/breakingnews/30341921" source="The Nation" >}}
 There were no identification documents at the scene and police could not tell whether the remains belonged to a man or a woman, or a Thai or migrant worker.
