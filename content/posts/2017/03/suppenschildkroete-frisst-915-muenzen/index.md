@@ -16,4 +16,4 @@ Zunächst glaubten die Veterinäre noch, das Tier leide an einem Tumor. Röntgen
 
 Münzen in Teiche mit Schildkröten zu werfen, bringt nach der Vorstellung vieler Thais Glück und Langlebigkeit. Offenbar hatte die Schildkröte einen großen Teil des ins Wasser geworfenen Geldes zu sich genommen. Daraufhin war ihr Leib angeschwollen, der Panzer eingerissen, die Haut hatte sich entzündet. Das Tier hatte große Schmerzen und litt zu allem Übel auch noch an einer Lungenentzündung.
 
-- {{< languagelink "http://www.spiegel.de/panorama/thailand-suppenschildkroete-frisst-915-muenzen-operation-gelungen-a-1137550.html" "Spiegel.de: Suppenschildkröte frisst 915 Münzen" "de" >}}
+-   {{< languagelink "http://www.spiegel.de/panorama/thailand-suppenschildkroete-frisst-915-muenzen-operation-gelungen-a-1137550.html" "Spiegel.de: Suppenschildkröte frisst 915 Münzen" "de" >}}

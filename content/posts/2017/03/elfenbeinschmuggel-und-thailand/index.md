@@ -22,5 +22,5 @@ Thailand war jahrelang Hauptumschlagplatz fuer solche Lieferungen, mit China als
 
 Mehr Info:
   
-- {{< languagelink "http://www.khaosodenglish.com/news/crimecourtscalamity/crime-crime/2017/03/08/gambian-man-arrested-422-pieces-smuggled-elephant-tusks/" "Khaosod" "en" >}}
-- {{< languagelink "http://englishnews.thaipbs.or.th/customs-seized-17-million-baht-worth-african-ivory/" "Thai PBS" "en" >}}
+-   {{< languagelink "http://www.khaosodenglish.com/news/crimecourtscalamity/crime-crime/2017/03/08/gambian-man-arrested-422-pieces-smuggled-elephant-tusks/" "Khaosod" "en" >}}
+-   {{< languagelink "http://englishnews.thaipbs.or.th/customs-seized-17-million-baht-worth-african-ivory/" "Thai PBS" "en" >}}
