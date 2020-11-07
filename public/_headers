@@ -1,7 +1,7 @@
 
 /
   Accept-Encoding: gzip, deflate, br
-  Permissions-Policy: geolocation=(self), camera=(), fullscreen=*, geolocation(), microphone()
+  Permissions-Policy: geolocation=(self), camera=(), fullscreen=*
 
 /*
   X-Frame-Options: DENY
@@ -19,30 +19,30 @@
   Accept-Encoding: gzip, deflate, br
 
 /*.js
-  Expires: Fri, 05-Nov-2021 21:05:40 GMT+0700
+  Expires: Sun, 07-Nov-2021 17:04:37 GMT+0700
   Content-Type: text/javascript; charset=utf-8
   Cache-Control: public, max-age=31536000, immutable
   Accept-Encoding: gzip, deflate, br
 
 /*.css
-  Expires: Fri, 05-Nov-2021 21:05:40 GMT+0700
+  Expires: Sun, 07-Nov-2021 17:04:37 GMT+0700
   Cache-Control: public, max-age=31536000, immutable
   Accept-Encoding: gzip, deflate, br
 
 /*.jpg
-  Expires: Fri, 05-Nov-2021 21:05:40 GMT+0700
+  Expires: Sun, 07-Nov-2021 17:04:37 GMT+0700
   Cache-Control: public, max-age=31536000, immutable
   Accept-Encoding: gzip, deflate, br
 
 /*.png
-  Expires: Fri, 05-Nov-2021 21:05:40 GMT+0700
+  Expires: Sun, 07-Nov-2021 17:04:37 GMT+0700
   Cache-Control: public, max-age=31536000, immutable
   Accept-Encoding: gzip, deflate, br
 
 /assets/*
-  Expires: Fri, 05-Nov-2021 21:05:40 GMT+0700
+  Expires: Sun, 07-Nov-2021 17:04:37 GMT+0700
   Cache-Control: public, max-age=31536000, immutable
 
 /images/*
-  Expires: Fri, 05-Nov-2021 21:05:40 GMT+0700
+  Expires: Sun, 07-Nov-2021 17:04:37 GMT+0700
   Cache-Control: public, max-age=31536000, immutable
