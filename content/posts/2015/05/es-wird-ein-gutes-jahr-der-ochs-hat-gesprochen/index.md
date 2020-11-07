@@ -21,9 +21,9 @@ Wir halten fest: Der Handel mit dem Ausland wird also nur dann florieren, wenn d
 
 Auch die Kleiderwahl der die Pflügezeremonie durchführenden Personen hat Einfluss auf das kommende Jahr. Allerdings wird die durch astrologische Konstellationen beeinflusst, ist also weniger zufällig gewählt.
 
-Die Ergebnisse der "Royal Ploughing Ceremony" (königliche Plfügezeremonie) in dieser Woche sagen ein regenreiches Jahr --- Phra Kho Fa, Phra Kho Lert, Phra Kho Perm and Phra Kho Poon, so die Namen der Ochsen, fra&szlig;en Gras. 
+Die Ergebnisse der "Royal Ploughing Ceremony" (königliche Plfügezeremonie) in dieser Woche sagen ein regenreiches Jahr --- Phra Kho Fa, Phra Kho Lert, Phra Kho Perm and Phra Kho Poon, so die Namen der Ochsen, fraßen Gras. 
 
-Das Spektakel wird von vielen Bauern beobachtet, die nach der Zeremonie auf das Feld dürfen und die eben gesäten Reiskörner wieder einsammeln. Man sagt, dass nur ein paar dieser königlichen Körner im eigenen Saatgut ausreichen, um eine reiche Ernte für das Jahr zu garantieren. Au&szlig;derdem werden Reis-Samen von den Forschungsfeldern des K&ouml;nigs verteilt --- 2695 St&uuml;ck, um genau zu sein. 
+Das Spektakel wird von vielen Bauern beobachtet, die nach der Zeremonie auf das Feld dürfen und die eben gesäten Reiskörner wieder einsammeln. Man sagt, dass nur ein paar dieser königlichen Körner im eigenen Saatgut ausreichen, um eine reiche Ernte für das Jahr zu garantieren. Außderdem werden Reis-Samen von den Forschungsfeldern des Königs verteilt --- 2695 Stück, um genau zu sein. 
 
 Auf den meisten Reisfeldern im Lande beginnt man auch an diesem Tag (vergangenem Mittwoch) die Aussaat.
 

@@ -17,4 +17,4 @@ url: /2008/06/holiday-outtakes-xi-buchenwald/
   </p>
 </div>
 
-Idyllisch. Tr&uuml;gte.
+Idyllisch. Trügte.

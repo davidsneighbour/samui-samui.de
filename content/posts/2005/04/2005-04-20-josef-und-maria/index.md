@@ -9,7 +9,7 @@ url: /2005/04/josef-und-maria/
 
 
 ---
-<img src="/images/105.jpg" style="height:75px;width:75px;float:left;margin-right:10px;" />(12:34:26) Gunnar: BILD: "Sein Vater (Gendarm) hie&szlig; Joseph. Seine Mutter Maria. Seine Geburt war ein Zeichen."
+<img src="/images/105.jpg" style="height:75px;width:75px;float:left;margin-right:10px;" />(12:34:26) Gunnar: BILD: "Sein Vater (Gendarm) hieß Joseph. Seine Mutter Maria. Seine Geburt war ein Zeichen."
   
 (12:34:34) Patrick: zeichen?
   

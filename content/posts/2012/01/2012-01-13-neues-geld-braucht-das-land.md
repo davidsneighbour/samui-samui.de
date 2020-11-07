@@ -17,13 +17,13 @@ url: /2012/01/neues-geld-braucht-das-land/
   </p>
 </div>
 
-Am 18. Januar 2012 gibt die Thail&auml;ndische Staatsbank (<span class="caps">BOT</span>) eine neue 50Baht-Note heraus. Das Datum ist genau gew&auml;hlt, weil auf der R&uuml;ckseite (auf der Vorderseite ist wie immer K&ouml;nig Bhumibol abgebildet) K&ouml;nig Naresuan dargestellt ist und am 18. Januar "sein" Feiertag ist.
+Am 18. Januar 2012 gibt die Thailändische Staatsbank (<span class="caps">BOT</span>) eine neue 50Baht-Note heraus. Das Datum ist genau gewählt, weil auf der Rückseite (auf der Vorderseite ist wie immer König Bhumibol abgebildet) König Naresuan dargestellt ist und am 18. Januar "sein" Feiertag ist.
 
-Auf die gleiche Art und Weise werden in den n&auml;chsten Jahren vermutlich die anderen neuen Banknoten herausgegeben, eine pro Jahr:
+Auf die gleiche Art und Weise werden in den nächsten Jahren vermutlich die anderen neuen Banknoten herausgegeben, eine pro Jahr:
 
-  * 20 Baht an einem 29. Mai (K&ouml;nig Ramkhamhaeng)
-  * 500 Baht an einem 6. April (K&ouml;nig Rama I)
-  * 1000 Baht an einem 23. Oktober (K&ouml;nig Chulalongkorn) und
-  * 100 Baht an einem 28. Dezember (K&ouml;nig Taksin)
+  * 20 Baht an einem 29. Mai (König Ramkhamhaeng)
+  * 500 Baht an einem 6. April (König Rama I)
+  * 1000 Baht an einem 23. Oktober (König Chulalongkorn) und
+  * 100 Baht an einem 28. Dezember (König Taksin)
 
-Die R&uuml;ckseite soll je nachdem wie man den Geldschein h&auml;lt von rot nach blau scheinen. Bin gespannt wie sich das Geld dann anf&uuml;len wird.
+Die Rückseite soll je nachdem wie man den Geldschein hält von rot nach blau scheinen. Bin gespannt wie sich das Geld dann anfülen wird.

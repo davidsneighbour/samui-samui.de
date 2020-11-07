@@ -9,4 +9,4 @@ url: /2005/10/ja/
 
 
 ---
-Manchmal merke sogar ich (an besonders klaren N&auml;chten), dass der Fall ins Bodenlose damit verbunden ist, niemals aufzuschlagen. Sch&ouml;nen grauen November auch noch.
+Manchmal merke sogar ich (an besonders klaren Nächten), dass der Fall ins Bodenlose damit verbunden ist, niemals aufzuschlagen. Schönen grauen November auch noch.

@@ -17,4 +17,4 @@ url: /2006/06/breakingnewshaseimmondkeinmann/
   </p>
 </div>
 
-Hier ist der Beweis daf&uuml;r, dass sich kein Mann im Mond befindet sondern nur ein ordin&auml;rer kleiner Hase. Sagen die Thais und die haben recht, in Thailand. Was soll der Mann im Mond auch dort anstellen?
+Hier ist der Beweis dafür, dass sich kein Mann im Mond befindet sondern nur ein ordinärer kleiner Hase. Sagen die Thais und die haben recht, in Thailand. Was soll der Mann im Mond auch dort anstellen?

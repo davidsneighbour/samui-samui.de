@@ -17,6 +17,6 @@ Angeblich sollen die Leitungen nur verdünnt worden sein, ich bekomme mit meiner
 
 Warum bittesehr gibt es in Zeiten da man allen möglichen Kram ins All schie?t immer noch Tiefseeleitungen die wenn sie von Monsterkraken zerfressen werden alles lahm legen? Und warum sind die meisten Seiten, die ich nutze in den USA gehostet? Das muss sich ändern! Und warum ist Google so super cool, super gross und super reich, hat aber nur Server in den USA?
 
-Ich sehe schon. Wird Zeit, dass ich wieder eine ordentliche Leitung bekomme.<txp:gho_footnote>Was eine Art Ank&uuml;ndigung ist...</txp:gho_footnote>
+Ich sehe schon. Wird Zeit, dass ich wieder eine ordentliche Leitung bekomme.<txp:gho_footnote>Was eine Art Ankündigung ist...</txp:gho_footnote>
 
  [1]: http://nationmultimedia.com/worldhotnews/read.php?newsid=30022655

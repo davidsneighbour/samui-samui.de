@@ -13,17 +13,17 @@ So. Also.
 
 <txp:gho_motivator />
 
-Eigentlich m&uuml;sste ich ja <txp:gho_permalink id="454">laut Vereinbarung</txp:gho_permalink> diesen Monat nicht bloggen. Mal sehen.
+Eigentlich müsste ich ja <txp:gho_permalink id="454">laut Vereinbarung</txp:gho_permalink> diesen Monat nicht bloggen. Mal sehen.
 
-Es gibt eh nicht viel zu berichten. Seit gestern regnet es wieder. Die Stra&szlig;en, soweit sie von Wasserstr&ouml;men befreit waren, Bophut war die ganze Woche ein See, sind wieder &uuml;berflutet und zwischen Chaweng und Lamai ist ein St&uuml;ck Abhang runtergekommen. 
+Es gibt eh nicht viel zu berichten. Seit gestern regnet es wieder. Die Straßen, soweit sie von Wasserströmen befreit waren, Bophut war die ganze Woche ein See, sind wieder überflutet und zwischen Chaweng und Lamai ist ein Stück Abhang runtergekommen. 
 
 Nichts Neues also.
 
-_ (F&uuml;gen Sie hier ein paar greenpissige S&auml;tze a la Bodenversiegelung, Raubbau an der Natur und Mutter Erde ein.) _
+_ (Fügen Sie hier ein paar greenpissige Sätze a la Bodenversiegelung, Raubbau an der Natur und Mutter Erde ein.) _
 
 Dezember also. Was war da noch? Achja. Kommerzfeiertage. Spendet und seht von Geschenken an mich ab. Danke. 
 
-Spenden wohin? Wie w&auml;re es mit diesen beiden?
+Spenden wohin? Wie wäre es mit diesen beiden?
 
 **[Child's Dream][1]:**
 

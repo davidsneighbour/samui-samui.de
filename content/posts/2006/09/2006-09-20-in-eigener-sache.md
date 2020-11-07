@@ -9,4 +9,4 @@ url: /2006/09/in-eigener-sache/
 
 
 ---
-Wer die Seiten hier im Feedreader liest sollte eventuell mal online vorbei kommen und checken, ob ihm was entgangen ist. Ich glaube ich habe mehr Output produziert als der Feed halten kann. Allerdings habe ich die Feeds jetzt auch erst einmal auf 15 Items hochgeschraubt. Einfach mal checken. Und dabei die sch&ouml;ne Tapete bestaunen ;)
+Wer die Seiten hier im Feedreader liest sollte eventuell mal online vorbei kommen und checken, ob ihm was entgangen ist. Ich glaube ich habe mehr Output produziert als der Feed halten kann. Allerdings habe ich die Feeds jetzt auch erst einmal auf 15 Items hochgeschraubt. Einfach mal checken. Und dabei die schöne Tapete bestaunen ;)

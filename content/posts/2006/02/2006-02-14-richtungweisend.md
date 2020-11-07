@@ -11,4 +11,4 @@ url: /2006/02/richtungweisend/
 ---
 {{< figure src="/wp-content/old-images/205.jpg" >}}
 
-In welche Richtung f&auml;hrt der Bus? (Aus einem Intelligenztest f&uuml;r thail&auml;ndische Erstkl&auml;ssler. Aufl&ouml;sung kommt morgen. Ich habs auch nicht herausgefunden.)
+In welche Richtung fährt der Bus? (Aus einem Intelligenztest für thailändische Erstklässler. Auflösung kommt morgen. Ich habs auch nicht herausgefunden.)

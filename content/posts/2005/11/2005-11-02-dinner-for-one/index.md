@@ -9,4 +9,4 @@ url: /2005/11/dinner-for-one/
 
 
 ---
-Interessenten zum Thema Dinner m&ouml;gen sich den Eintrag "<txp:gho_permalink id="453">Zahltag Klappe 2 --- Remix</txp:gho_permalink>" unter dem Aspekt der Kommunikation erneut lesend zu Gem&uuml;te f&uuml;hren. Ich werde berichten&trade;.
+Interessenten zum Thema Dinner mögen sich den Eintrag "<txp:gho_permalink id="453">Zahltag Klappe 2 --- Remix</txp:gho_permalink>" unter dem Aspekt der Kommunikation erneut lesend zu Gemüte führen. Ich werde berichten&trade;.

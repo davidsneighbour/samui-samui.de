@@ -9,6 +9,6 @@ url: /2006/09/der-koenig-bestaetigt-sonthi-als/
 
 
 ---
-Wow. Das ging aber schnell. [Der K&ouml;nig hat Sonthi als ARC-Pr&auml;sidenten best&auml;tigt][1] und damit indirekt dem Putsch seinen Segen gegeben.
+Wow. Das ging aber schnell. [Der König hat Sonthi als ARC-Präsidenten bestätigt][1] und damit indirekt dem Putsch seinen Segen gegeben.
 
  [1]: http://www.nationmultimedia.com/breakingnews/read.php?newsid=30014202

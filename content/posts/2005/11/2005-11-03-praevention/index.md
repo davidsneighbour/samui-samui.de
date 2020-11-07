@@ -1,5 +1,5 @@
 ---
-title: 'Pr&auml;vention'
+title: 'Prävention'
 author: Patrick Kollitsch
 type: post
 date: 2005-11-02T22:03:19+00:00

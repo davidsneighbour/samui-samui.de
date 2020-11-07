@@ -11,4 +11,4 @@ dsq_thread_id:
 
 
 ---
-Jeder, der mir heute eine 6.4MB gro&szlig;e Email an meine Hauptadresse geschickt hat, m&ouml;ge im n&auml;chsten Leben mit 5Kbit-Handymodemanbindung nicht unter zwei Jahren bestraft werden.
+Jeder, der mir heute eine 6.4MB große Email an meine Hauptadresse geschickt hat, möge im nächsten Leben mit 5Kbit-Handymodemanbindung nicht unter zwei Jahren bestraft werden.

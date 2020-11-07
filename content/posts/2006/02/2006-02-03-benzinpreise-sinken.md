@@ -9,6 +9,6 @@ url: /2006/02/benzinpreise-sinken/
 
 
 ---
-[Hmmm][1]. Gleich mal einen Mopedausflug f&uuml;rs Wochenende planen.
+[Hmmm][1]. Gleich mal einen Mopedausflug fürs Wochenende planen.
 
  [1]: http://asia.news.yahoo.com/060203/4/2f7ow.html

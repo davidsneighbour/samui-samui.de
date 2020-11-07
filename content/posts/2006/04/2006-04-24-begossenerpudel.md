@@ -19,7 +19,7 @@ url: /2006/04/begossenerpudel/
 
 Ehm, beim [genaueren Hinsehen][1] ist es ein Shih Tzu. 
 
-[Pokki hat &uuml;brigens sein eigenes Weblog][2]!
+[Pokki hat übrigens sein eigenes Weblog][2]!
 
  [1]: http://www.flickr.com/photos/schreibblogade/sets/72057594115508963/
  [2]: http://shih-tzu-phrenia.org/

@@ -10,13 +10,13 @@ resources:
   title: "Lunar New Year Hong Kong, Taiwan und China --- &copy; google.com"
 - src: "lunar-new-year-2017-south-korea.jpg"
   name: "google-doodle2"
-  title: "Lunar New Year S&uuml;dkorea --- &copy; google.com"
+  title: "Lunar New Year Südkorea --- &copy; google.com"
 - src: "lunar-new-year-2017-vietnam.jpg"
   name: "google-doodle3"
   title: "Lunar New Year Vietnam --- &copy; google.com"
 - src: "lunar-new-year-2017.jpg"
   name: "google-doodle4"
-  title: "Lunar New Year f&uuml;r alle anderen L&auml;nder --- &copy; google.com"
+  title: "Lunar New Year für alle anderen Länder --- &copy; google.com"
 ---
 
 {{< gallery id="lunarnewyear" command="Resize" options="930x" >}}

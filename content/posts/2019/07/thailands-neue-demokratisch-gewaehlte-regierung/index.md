@@ -17,9 +17,9 @@ resources:
 
 {{< img src="thai-cabinet-2019.jpg" >}}Thailands neue, demokratisch gewählte Regierung{{< / img >}}
 
-Seit Mittwoch haben wir eine vom K&ouml;nig abgesegnete Regierung. Mitglieder der Regierung sind **ALLE** Mitglieder der als "National Council of Peace and Order" (NCPO) bekannten Gruppe of Putschisten von 2014 und Mitglieder der Parteien, die Milit&auml;r-General Prayuth Chan-ocha zum nun als "demokratisch gew&auml;hlten" Premierminister Thailands verhalfen. 
+Seit Mittwoch haben wir eine vom König abgesegnete Regierung. Mitglieder der Regierung sind **ALLE** Mitglieder der als "National Council of Peace and Order" (NCPO) bekannten Gruppe of Putschisten von 2014 und Mitglieder der Parteien, die Militär-General Prayuth Chan-ocha zum nun als "demokratisch gewählten" Premierminister Thailands verhalfen. 
 
-Die Regierung setzt sich folgenderma&szlig;en zusammen:
+Die Regierung setzt sich folgendermaßen zusammen:
 
 -   Premierminister: Prayuth Chan-o-cha (Palang Pracharath Partei, ebenso Verteidigungsminister)
     -   Stellvertreter:
@@ -52,7 +52,7 @@ Die Regierung setzt sich folgenderma&szlig;en zusammen:
     -   Stellvertreter:
         -   Veerasak Wangsupakitkosol (Bhumjaithai Partei)
 -   Premierministers Office: Tewan Liptapanlop (Chart Pattana Partei)
--   Minister f&uuml;r &Ouml;fffentliche Gesundheit: Anutin Charnveerakul (Bhumjaithai Partei)
+-   Minister für Öfffentliche Gesundheit: Anutin Charnveerakul (Bhumjaithai Partei)
     -   Stellvertreter:
         -   Satit Pitutecha (Demokratische Partei)
 -   Finanzminister: Uttama Savanayana (Palang Pracharath Partei)
@@ -64,10 +64,10 @@ Die Regierung setzt sich folgenderma&szlig;en zusammen:
 -   Justizminister: Somsak Thepsutin (Palang Pracharath Partei)
 -   Arbeitsminister: MR Chatumongol Sonakul (Action Coalition for Thailand)
 -   Tourismusminister: Pipat Ratchakitprakan (Bhumjaithai Partei)
--   Minister f&uuml;r Digitalwirtschaft: Buddhipongse Punnakanta (Palang Pracharath Partei)
--   Minister f&uuml;r Hoerere Ausbildung: Suvit Maesincee (Palang Pracharath Partei)
--   Minister f&uuml;r Naturressourcen: Varawut Silpa-archa (Chartthaipattana Partei)
--   Minister f&uuml;r Social Development: Juti Krairiksh (Demokratische Partei)
+-   Minister für Digitalwirtschaft: Buddhipongse Punnakanta (Palang Pracharath Partei)
+-   Minister für Hoerere Ausbildung: Suvit Maesincee (Palang Pracharath Partei)
+-   Minister für Naturressourcen: Varawut Silpa-archa (Chartthaipattana Partei)
+-   Minister für Social Development: Juti Krairiksh (Demokratische Partei)
 -   Industrieminister: Suriya Jungrungreangjij (Palang Pracharath Partei)
 
-Abgesehen von den genannten Parteien gab es noch 13 "Microparteien", die dieser Koalition mit 16 weiteren Stimmen zur Regierungsberechtigung verholfen haben. Leider gab es keine Ministerposten f&uuml;r sie. 
+Abgesehen von den genannten Parteien gab es noch 13 "Microparteien", die dieser Koalition mit 16 weiteren Stimmen zur Regierungsberechtigung verholfen haben. Leider gab es keine Ministerposten für sie. 

@@ -17,4 +17,4 @@ url: /2008/06/holiday-outtakes-viii-holding-the-earth/
   </p>
 </div>
 
-Was die Erde stabil h&auml;lt
+Was die Erde stabil hält

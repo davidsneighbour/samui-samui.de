@@ -9,7 +9,7 @@ url: /2011/02/fruehlingsanfang/
 
 
 ---
-Man mag es kaum glauben, aber die Chinesen orientieren sich nicht nur am Mond, sondern haben parallel dazu noch einen Sonnenkalender laufen --- und nach diesem beginnt heute der Fr&uuml;hling. Das Wetter verh&auml;lt sich entsprechend, noch kein Tropfen ist gefallen seit Sonnenaufgang.
+Man mag es kaum glauben, aber die Chinesen orientieren sich nicht nur am Mond, sondern haben parallel dazu noch einen Sonnenkalender laufen --- und nach diesem beginnt heute der Frühling. Das Wetter verhält sich entsprechend, noch kein Tropfen ist gefallen seit Sonnenaufgang.
 
 In diesem Sinne: [Happy Lichun][1]! ;)
 

@@ -9,9 +9,9 @@ url: /2010/11/samui-ist-notstandsgebiet/
 
 
 ---
-Samui ist gerade mit 15 anderen Bezirken Surat Thanis [zum Notstandsgebiet erkl&auml;rt worden][1]. In Nakhon Si Thammarat, Songkhla, Trang, Satun, Narathiwat und Phatthalung wurde schon eher der Notstand ausgerufen.
+Samui ist gerade mit 15 anderen Bezirken Surat Thanis [zum Notstandsgebiet erklärt worden][1]. In Nakhon Si Thammarat, Songkhla, Trang, Satun, Narathiwat und Phatthalung wurde schon eher der Notstand ausgerufen.
 
-Die F&auml;hren nach Samui haben die Dienste eingestellt (recht schlecht, wenn man gerade auf Visarun ist, hehe) und der Flughafen ist geschlossen. Damit ist die Insel endlich einmal wirklich eine Insel.
+Die Fähren nach Samui haben die Dienste eingestellt (recht schlecht, wenn man gerade auf Visarun ist, hehe) und der Flughafen ist geschlossen. Damit ist die Insel endlich einmal wirklich eine Insel.
 
 Strom haben wir noch/wieder.
 

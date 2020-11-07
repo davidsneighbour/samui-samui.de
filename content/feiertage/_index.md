@@ -5,18 +5,18 @@ layout: single
 hideMeta: true
 ---
 
-Die Thail&auml;nder lieben Feiertage. Eine Besonderheit der Feiertags-"Kultur" hier ist, dass, wenn ein Nationaler Feiertag auf das Wochenende f&auml;llt, dann der darauffolgende Montag frei ist. Man nennt das Substitution-Day \[3\] und es eignet sich vorz&uuml;glich, hin und wieder ein verl&auml;ngertes Wochenende zu produzieren.
+Die Thailänder lieben Feiertage. Eine Besonderheit der Feiertags-"Kultur" hier ist, dass, wenn ein Nationaler Feiertag auf das Wochenende fällt, dann der darauffolgende Montag frei ist. Man nennt das Substitution-Day \[3\] und es eignet sich vorzüglich, hin und wieder ein verlängertes Wochenende zu produzieren.
 
 Nationale Feiertage sind die Feiertage, an denen Banken und Regierungs- und Verwaltungsbehörden geschlossen bleiben. Weiterhin gibt es dann noch Feiertage und Feste, die gefeiert werden, aber nicht zwingend frei sind. 
 
 ## Weitere Notizen:
 
 -   \[1\] Offizieller Feiertag
--   \[2\] Feiertag ohne Schlie&szlig;ungen
--   \[3\] Subsitution Day oder zus&auml;tzlicher freier Tag
+-   \[2\] Feiertag ohne Schließungen
+-   \[3\] Subsitution Day oder zusätzlicher freier Tag
 -   \[4\] Jahreszeitenwechsel
 -   \[5\] Buddha Tag (Vollmond)
--   \[6\] Bankfeiertag (Banken sind geschlossen, eventuell zuk&uuml;nftig nicht mehr)
+-   \[6\] Bankfeiertag (Banken sind geschlossen, eventuell zukünftig nicht mehr)
 
 ## Feiertage in 2019
 
@@ -30,7 +30,7 @@ Nationale Feiertage sind die Feiertage, an denen Banken und Regierungs- und Verw
 | 7. Februar | Donnerstag | Chinesisches Neujahr | \[2\] |
 | 14. Februar | Donnerstag | Valentinstag | \[2\] |
 | 19. Februar | Dienstag | Makha Bucha Tag | \[1\] |
-| 21. M&auml;rz | Donnerstag | Frühlings-Tagundnachtgleiche | \[4\] |
+| 21. März | Donnerstag | Frühlings-Tagundnachtgleiche | \[4\] |
 | 6. April | Samstag | Chakri-Gedenktag | \[1\] |
 | 8. April | Montag | Chakri-Gedenktag | \[1\]\[3\] |
 | 12. April | Freitag | Songkran | \[1\]\[3\] |

@@ -23,7 +23,7 @@ Phuket sei in diesen Tagen nicht so empfehlenswert, hört man.
 
 Was bin ich froh, dass ich seit gut drei Wochen, hust, keuch, mit meiner kleinen Klimaanlagen-Erkältung kämpfe und somit immun gegen die Schweine bin. Esse eh kein Schweinefleisch mehr ;)
 
-PS: Heute sinds [schon 201 F&auml;lle][2].
+PS: Heute sinds [schon 201 Fälle][2].
 
  [1]: http://news.yahoo.com/nphotos/Thailand/ss/events/wl/041209thailand#photoViewer=/090614/ids_photos_wl/r120338569.jpg
  [2]: http://www.nationmultimedia.com/2009/06/15/national/national_30105172.php

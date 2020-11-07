@@ -9,7 +9,7 @@ url: /2006/05/videobeweis/
 
 
 ---
-Im Prozess um den Vorwurf gegen Thai Rak Thai (Thaksins Partei), sie h&auml;tten kleinere Parteien gekauft um gegen sie anzutreten, damit sie nicht die 20% Mindeststimmzahlen erreichen m&uuml;ssen um die Wahl in einigen Provinzen zu gewinnen in denen niemand gegen sie antritt (puh, Schachtels&auml;tze) gibt es einen [Videobeweis][1].
+Im Prozess um den Vorwurf gegen Thai Rak Thai (Thaksins Partei), sie hätten kleinere Parteien gekauft um gegen sie anzutreten, damit sie nicht die 20% Mindeststimmzahlen erreichen müssen um die Wahl in einigen Provinzen zu gewinnen in denen niemand gegen sie antritt (puh, Schachtelsätze) gibt es einen [Videobeweis][1].
 
 Thaksin ist interessanterweise verwundert.
 

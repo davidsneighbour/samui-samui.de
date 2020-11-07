@@ -17,4 +17,4 @@ Hier mal mit Hilfe:
 
 {{< figure src="/wp-content/old-images/199.jpg" >}}
 
-Jetzt macht man sich nat&uuml;rlich so seine Gedanken, wo er hinkuckt.
+Jetzt macht man sich natürlich so seine Gedanken, wo er hinkuckt.

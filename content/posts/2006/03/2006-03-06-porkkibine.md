@@ -17,6 +17,6 @@ url: /2006/03/porkkibine/
   </p>
 </div>
 
-Ein bisschen sieht Pokki neuerdings aus wie ein M&auml;dchen. Naja, wenn man denen im Hairshop sagt, sie sollen nicht den Hintern rasieren packen sie ihm also einen Zopf drauf. Wenn sie nur blau genommen h&auml;tten...
+Ein bisschen sieht Pokki neuerdings aus wie ein Mädchen. Naja, wenn man denen im Hairshop sagt, sie sollen nicht den Hintern rasieren packen sie ihm also einen Zopf drauf. Wenn sie nur blau genommen hätten...
 
-PS: Dies war der letzte ausf&uuml;hrlichere Eintrag zu Pokki --- in diesem Blog.
+PS: Dies war der letzte ausführlichere Eintrag zu Pokki --- in diesem Blog.

@@ -9,6 +9,6 @@ url: /2006/04/wahlen-mal-wieder/
 
 
 ---
-In Thailand wird heute der Senat gew&auml;hlt. (Sehr intelligent diese Wahl _vor_ den Wiederholungswahlen am 23. April zu halten. Dann darf vermutlich in den Provinzen, in denen wiederholt gew&auml;hlt wird auch die Senatswahl wiederholt werden.)
+In Thailand wird heute der Senat gewählt. (Sehr intelligent diese Wahl _vor_ den Wiederholungswahlen am 23. April zu halten. Dann darf vermutlich in den Provinzen, in denen wiederholt gewählt wird auch die Senatswahl wiederholt werden.)
 
 Jedenfalls haben die Banken heute geschlossen. Zwinker.

@@ -15,4 +15,4 @@ resources :
 
 {{< figure name="soosie" command="Resize" options="930x" >}}
 
-Heute habe ich den "about"-Text unten in der Fusszeile dieser Website ge&auml;ndert.
+Heute habe ich den "about"-Text unten in der Fusszeile dieser Website geändert.

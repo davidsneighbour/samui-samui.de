@@ -9,9 +9,9 @@ url: /2011/12/i-don-t-like/
 
 
 ---
-Bis vor kurzem noch in der Kuriosit&auml;tenabteilung der lokalen Presse versteckt: Wenn man (als Thail&auml;nder, oder als Ausl&auml;nder in Thailand) auf Facebook eine Seite "liked", die von den jeweils Regierenden oder gegen ebenjene Arbeitenden nicht gemocht wird, dann [kann man wegen Majest&auml;tsbeleidigung angeklagt werden][1]. Sagt der Chef der staatlichen Zensurbeh&ouml;rde und der muss es ja wissen.
+Bis vor kurzem noch in der Kuriositätenabteilung der lokalen Presse versteckt: Wenn man (als Thailänder, oder als Ausländer in Thailand) auf Facebook eine Seite "liked", die von den jeweils Regierenden oder gegen ebenjene Arbeitenden nicht gemocht wird, dann [kann man wegen Majestätsbeleidigung angeklagt werden][1]. Sagt der Chef der staatlichen Zensurbehörde und der muss es ja wissen.
 
-Laut Gesetz ist es eben verboten, &uuml;ber die eigentliche Beleidigung (oder was daf&uuml;r von den jeweils Klagenden empfunden wird) zu berichten, weil man damit die Majest&auml;tsbeleidigung wiederholt. Was zu den P&uuml;nktchen im "I shall ... by staging coups" [in einem Artikel][2] zu einem Thai, der eine Seite bei Facebook unterhielt, f&uuml;hrt. 
+Laut Gesetz ist es eben verboten, über die eigentliche Beleidigung (oder was dafür von den jeweils Klagenden empfunden wird) zu berichten, weil man damit die Majestätsbeleidigung wiederholt. Was zu den Pünktchen im "I shall ... by staging coups" [in einem Artikel][2] zu einem Thai, der eine Seite bei Facebook unterhielt, führt. 
 
 In einem Land, in dem man wegen beleidigender <span class="caps">SMS</span>ses zu [20 Jahren][3] (4 <span class="caps">SMS</span> a 5 Jahre) verurteilt werden kann, ist das nichts Besonderes mehr...
 

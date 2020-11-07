@@ -8,10 +8,10 @@ tags: [thaistyle, wirtschaft, fruechte, video]
 
 {{< youtube uU0o8kRyj54 >}}
 
-F&uuml;r 1.5 Millionen Thaibaht wurde vergangene Woche eine Durian versteigert (das sind rund 42.500 EUR). Das Objekt der Begierde wurde aufgrund ihrer perfekten Gr&ouml;&szlig;e, Form und Reifheitsgrad gew&auml;hlt.
+Für 1.5 Millionen Thaibaht wurde vergangene Woche eine Durian versteigert (das sind rund 42.500 EUR). Das Objekt der Begierde wurde aufgrund ihrer perfekten Größe, Form und Reifheitsgrad gewählt.
 
-Die Kanyao Durian ist wird nur in Nonthaburi angebaut, eine Region im Norden Bangkoks, und man h&auml;lt sie f&uuml;r die beste Durian Sorte in der Welt, haupts&auml;chlich wegen ihres s&uuml;&szlig;en Geschmacks und ihrer cremigen Textur. Daf&uuml;r kosten einzelne Fr&uuml;chte dann mindestens 20.000 THB. 
+Die Kanyao Durian ist wird nur in Nonthaburi angebaut, eine Region im Norden Bangkoks, und man hält sie für die beste Durian Sorte in der Welt, hauptsächlich wegen ihres süßen Geschmacks und ihrer cremigen Textur. Dafür kosten einzelne Früchte dann mindestens 20.000 THB. 
 
-W&auml;hrend der Auktion wurden 4.5 Millionen Thaibaht f&uuml;r 9 verschiedene Durianfr&uuml;chte eingenommen. Ein kleiner Teil dieser Einnahmen geht an gemeinn&uuml;tzige Organisationen. Der gro&szlig;e Rest an die Farmer. 
+Während der Auktion wurden 4.5 Millionen Thaibaht für 9 verschiedene Durianfrüchte eingenommen. Ein kleiner Teil dieser Einnahmen geht an gemeinnützige Organisationen. Der große Rest an die Farmer. 
 
-"Normale" Durianfr&uuml;chte kosten 120 bis 200 THB pro Kilogramm. 
+"Normale" Durianfrüchte kosten 120 bis 200 THB pro Kilogramm. 

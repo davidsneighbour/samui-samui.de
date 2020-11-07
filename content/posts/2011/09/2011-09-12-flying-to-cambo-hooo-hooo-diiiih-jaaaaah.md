@@ -11,6 +11,6 @@ dsq_thread_id:
 
 
 ---
-Unsere Prime Ministress Yingluck Shinawatra ist in diesen Tagen auf Antrittsbesuchen rund um den s&uuml;dostasiatischen Erdball herum. Vor ein paar Tagen war sie wohl in Brunei, heute landete sie in Indonesien, am Ende der Woche wird sie in Cambodia und Laos erwartet.
+Unsere Prime Ministress Yingluck Shinawatra ist in diesen Tagen auf Antrittsbesuchen rund um den südostasiatischen Erdball herum. Vor ein paar Tagen war sie wohl in Brunei, heute landete sie in Indonesien, am Ende der Woche wird sie in Cambodia und Laos erwartet.
 
-V&ouml;llig unzusammenhangslos: Thaksin Shinawatra, seines Zeichen exilierter Profigolferpr&auml;sident und auch schon mal Premierminister Thailands gewesen wird am Freitag einen Besuch Cambodias starten. Wer da jetzt irgendwas rein interpretiert ist schlichtweg nicht an der, hier, Dings, Reconciliation und so interessiert.
+Völlig unzusammenhangslos: Thaksin Shinawatra, seines Zeichen exilierter Profigolferpräsident und auch schon mal Premierminister Thailands gewesen wird am Freitag einen Besuch Cambodias starten. Wer da jetzt irgendwas rein interpretiert ist schlichtweg nicht an der, hier, Dings, Reconciliation und so interessiert.

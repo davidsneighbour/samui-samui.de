@@ -9,6 +9,6 @@ url: /2007/10/chulalongkorn-day-3/
 
 
 ---
-Aus Mangel an Zeit und Ressourcen (kaputtes Notebookstromkabel, hoffentlich) hier nur ein Hinweis auf [die alten Eintr&auml;ge zum Chulalongkorn Day][1], den frei habende Thais heute feiern.
+Aus Mangel an Zeit und Ressourcen (kaputtes Notebookstromkabel, hoffentlich) hier nur ein Hinweis auf [die alten Einträge zum Chulalongkorn Day][1], den frei habende Thais heute feiern.
 
  [1]: https://samui-samui.de/tag/chulalongkorn/

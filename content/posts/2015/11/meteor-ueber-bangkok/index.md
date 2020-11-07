@@ -12,7 +12,7 @@ tags:
 
 {{< youtube Ls1cfDPDGDI >}}
 
-Dashcams sind eine sehr n&uuml;tzliche Erfindung. So kann man n&auml;mlich in diesem Video das Vergl&uuml;hen eines Meteoriten aus allen m&ouml;glichen Richtungen betrachten. Dieser Feuerball war gestern Abend in Bangkok zu sehen. Das gr&uuml;nliche Licht, das beim Verbrennen in der Atmosph&auml;re ausgestrahlt wurde, deutet auf [Eisen und Nickel im Objekt][1] hin. 
+Dashcams sind eine sehr nützliche Erfindung. So kann man nämlich in diesem Video das Verglühen eines Meteoriten aus allen möglichen Richtungen betrachten. Dieser Feuerball war gestern Abend in Bangkok zu sehen. Das grünliche Licht, das beim Verbrennen in der Atmosphäre ausgestrahlt wurde, deutet auf [Eisen und Nickel im Objekt][1] hin. 
 
 Update: Das zuerst verlinkte Video wurde von YouTube entfernt. Tja... so ist das halt wenn man die Filme anderer zusammenschneidert. Habe jetzt ein anderes Video mit nur einer Richtung eingebaut...
 

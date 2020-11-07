@@ -14,6 +14,6 @@ dsq_thread_id:
 <div class="flickr">
 </div>
 
-Eine halbst&uuml;ndige Dokumentation &uuml;ber den Vater des Filmemachers, der im Alter von 60 Jahren eine 27 j&auml;hrige Thail&auml;nderin heiratet. Lorne Kramer, sein Sohn, reist nach Thailand und versucht zu ergr&uuml;nden, wie genau diese Beziehung funktionieren soll. 
+Eine halbstündige Dokumentation über den Vater des Filmemachers, der im Alter von 60 Jahren eine 27 jährige Thailänderin heiratet. Lorne Kramer, sein Sohn, reist nach Thailand und versucht zu ergründen, wie genau diese Beziehung funktionieren soll. 
 
-Ein meiner Meinung nach perfekter Einblick in die Welt der Farang-Thai-Beziehungen. Mich w&uuml;rde ein zweiter Teil nach einzwei Jahren Ehe interessieren.
+Ein meiner Meinung nach perfekter Einblick in die Welt der Farang-Thai-Beziehungen. Mich würde ein zweiter Teil nach einzwei Jahren Ehe interessieren.

@@ -9,7 +9,7 @@ url: /2006/09/hinter-den-kulissen/
 
 
 ---
-In der [The Nation][1] kann man einen Bericht &uuml;ber die Vorg&auml;nge am Dienstag hinter den Kulissen lesen. Das ist zwar ein subjektiver Bericht ohne jegliche Beweise, klingt aber sehr interessant. Vor allem die Behauptung es w&uuml;rde Gewalt bei der Demonstration erzeugt werden klingt sehr glaubw&uuml;rdig. Es gab solche Vorf&auml;lle schon eher. Es blieb aber immer gewaltlos, weil die <span class="caps">PAD</span> ausdr&uuml;cklich auf Gewalt verzichten wollte.
+In der [The Nation][1] kann man einen Bericht über die Vorgänge am Dienstag hinter den Kulissen lesen. Das ist zwar ein subjektiver Bericht ohne jegliche Beweise, klingt aber sehr interessant. Vor allem die Behauptung es würde Gewalt bei der Demonstration erzeugt werden klingt sehr glaubwürdig. Es gab solche Vorfälle schon eher. Es blieb aber immer gewaltlos, weil die <span class="caps">PAD</span> ausdrücklich auf Gewalt verzichten wollte.
 
 (Thanong Khanthong, der Autor dieses Artikels ist der Editor von The Nation.)
 

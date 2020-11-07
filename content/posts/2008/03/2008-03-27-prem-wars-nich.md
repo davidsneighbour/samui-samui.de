@@ -17,9 +17,9 @@ Na [endlich][1]!
 > 
 > "I am not involved in politics nor anything related to politics," he added. 
 
-Jetzt wissen wir es endlich. 18 Monate nach dem Putsch hat Prem Tinsulandonda gesagt, dass er nicht die treibende Kraft dahinter war. Das glauben wir ihm nat&uuml;rlich. 
+Jetzt wissen wir es endlich. 18 Monate nach dem Putsch hat Prem Tinsulandonda gesagt, dass er nicht die treibende Kraft dahinter war. Das glauben wir ihm natürlich. 
 
-Wie dumm nur dass alle kleinen und gro&szlig;en Namen der politischen B&uuml;hnen Thailands bei ihm ein und aus gegangen sind in den vergangenen Monaten und versucht haben, &uuml;ber R&uuml;ckkehr, Wiederkehr und Zukunft zu verhandeln. Die waren wohl alle umsonst in seinem vom Milit&auml;r auch heute noch gut bewachten kleinen Palast.
+Wie dumm nur dass alle kleinen und großen Namen der politischen Bühnen Thailands bei ihm ein und aus gegangen sind in den vergangenen Monaten und versucht haben, über Rückkehr, Wiederkehr und Zukunft zu verhandeln. Die waren wohl alle umsonst in seinem vom Militär auch heute noch gut bewachten kleinen Palast.
 
 Wer wars denn nun?
 

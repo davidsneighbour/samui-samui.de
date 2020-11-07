@@ -9,9 +9,9 @@ url: /2006/06/wahlbetrug-und-benzin/
 
 
 ---
-Gestern hat die Wahlkommission EC (Election Commission) Thailands einen Untersuchungsbericht ver&ouml;ffentlicht und sagt nun auch, [dass Thai Rak Thai (TRT, Thaksins Partei) kleinere Parteien bestochen hat][1], bei der (inzwischen annullierten) Wahl vom April anzutreten. Das ist ziemlich interessant weil EC daf&uuml;r ber&uuml;chtigt ist in ihrer unabh&auml;ngigen eigenst&auml;ndigen Meinung eher zu TRT zu tendieren und kleinere Parteien eher zu bestrafen als TRT. 
+Gestern hat die Wahlkommission EC (Election Commission) Thailands einen Untersuchungsbericht veröffentlicht und sagt nun auch, [dass Thai Rak Thai (TRT, Thaksins Partei) kleinere Parteien bestochen hat][1], bei der (inzwischen annullierten) Wahl vom April anzutreten. Das ist ziemlich interessant weil EC dafür berüchtigt ist in ihrer unabhängigen eigenständigen Meinung eher zu TRT zu tendieren und kleinere Parteien eher zu bestrafen als TRT. 
 
-Nichtsdestotrotz entscheidet sie weiterhin seltsame Sachen. So sind zum Beispiel gestern [22 Wahlgewinner vom April als Senator eingesetzt][2] worden. Wahlgewinner einer annullierten Wahl. Derweil treten die bisherigen Senatoren und Regierungsmitglieder nahezu t&auml;glich zur&uuml;ck. 
+Nichtsdestotrotz entscheidet sie weiterhin seltsame Sachen. So sind zum Beispiel gestern [22 Wahlgewinner vom April als Senator eingesetzt][2] worden. Wahlgewinner einer annullierten Wahl. Derweil treten die bisherigen Senatoren und Regierungsmitglieder nahezu täglich zurück. 
 
 Freudige Randnotiz: Das Benzin wird heute [0.40 Baht preiswerter][3].
 

@@ -11,6 +11,6 @@ url: /2005/11/morningattheoffice/
 ---
 [<img width="420" src="//static.flickr.com/29/63742563_6d338b2a1a.jpg" alt="Morning at the office" />][1]
 
-Die Scheiben m&uuml;ssten mal wieder geputzt werden...
+Die Scheiben müssten mal wieder geputzt werden...
 
  [1]: http://www.flickr.com/photos/schreibblogade/63742563/ "Morning at the office"

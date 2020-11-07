@@ -9,7 +9,7 @@ url: /2008/01/keine-cia-gefaengnisse-in-thailand/
 
 
 ---
-Es gab niemals <span class="caps">CIA</span>--- ehm Gef&auml;ngnisse in Thailand. [Wirklich][1]. 
+Es gab niemals <span class="caps">CIA</span>--- ehm Gefängnisse in Thailand. [Wirklich][1]. 
 
 > Thaksin Shinawatra, the prime minister at the time of the interrogations, has always denied that there was any <span class="caps">CIA</span> "base" or "prison" in Thailand. Foreign sources have told the Bangkok Post that the denials were technically correct.
 > 

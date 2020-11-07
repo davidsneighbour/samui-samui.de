@@ -9,8 +9,8 @@ url: /2006/10/premierminister-ernannt/
 
 
 ---
-Surayud wurde eben zum Premierminister ernannt und hat auch schon eine Pressekonferenz gehalten, auf der ein Typ von Al Jazeera d&uuml;mmlich auf Englisch fragte, ob er sich denn f&uuml;r einen besseren Pr&auml;sidenten (jupp) als den demokratisch gew&auml;hlten Thaksin h&auml;lt. 
+Surayud wurde eben zum Premierminister ernannt und hat auch schon eine Pressekonferenz gehalten, auf der ein Typ von Al Jazeera dümmlich auf Englisch fragte, ob er sich denn für einen besseren Präsidenten (jupp) als den demokratisch gewählten Thaksin hält. 
 
-Dummerweise habe ich derzeit nicht die Gewalt &uuml;ber mein Notebook, die gute Fu macht einen "Report" (das sind schriftliche Hausarbeiten f&uuml;rs Studium, die sie in der Regel bis auf die letzten paar Tage hinausz&ouml;gert. 
+Dummerweise habe ich derzeit nicht die Gewalt über mein Notebook, die gute Fu macht einen "Report" (das sind schriftliche Hausarbeiten fürs Studium, die sie in der Regel bis auf die letzten paar Tage hinauszögert. 
 
-Ich werde berichten (&uuml;ber den Premierminister, die Erforschung der Zufriedenheit von Hotelg&auml;sten im Inselgewerbe ist erstmal nicht so interessant).
+Ich werde berichten (über den Premierminister, die Erforschung der Zufriedenheit von Hotelgästen im Inselgewerbe ist erstmal nicht so interessant).

@@ -19,7 +19,7 @@ dsq_thread_id:
   </p>
 </div>
 
-Ich werde als Experte der Freizeitgestaltung auf Samui immer wieder gefragt, was man denn gesehen haben muss, um das "echte" Samui besucht zu haben und zuhause Punkte zu sammeln. Daher habe ich mich entschlossen, als Archivar unserer Insel in einer kleinen Serie die Sehensw&uuml;rdigkeiten Samuis zusammen zu tragen.
+Ich werde als Experte der Freizeitgestaltung auf Samui immer wieder gefragt, was man denn gesehen haben muss, um das "echte" Samui besucht zu haben und zuhause Punkte zu sammeln. Daher habe ich mich entschlossen, als Archivar unserer Insel in einer kleinen Serie die Sehenswürdigkeiten Samuis zusammen zu tragen.
 
 Heute: Das 32km-Schild in Nathon. 
 

@@ -9,7 +9,7 @@ url: /2006/10/redesignation/
 
 
 ---
-Ihr wolltet es so. In der [Re(De)Signation][1] werde ich &uuml;ber die Umbauten berichten. Hier auf der Startseite wird man ausser dem verhauenen Design nicht viel merken. Im Feed landen die Eintr&auml;ge aus der [Re(De)Signation][1] auch. Au&szlig;erdem gibts noch einen [eigenen Feed][2] f&uuml;r alle, die kein Interesse am Thaikram haben.
+Ihr wolltet es so. In der [Re(De)Signation][1] werde ich über die Umbauten berichten. Hier auf der Startseite wird man ausser dem verhauenen Design nicht viel merken. Im Feed landen die Einträge aus der [Re(De)Signation][1] auch. Außerdem gibts noch einen [eigenen Feed][2] für alle, die kein Interesse am Thaikram haben.
 
  [1]: /redesignation
  [2]: http://die.schreiBBloga.de/atom/?section=redesignation

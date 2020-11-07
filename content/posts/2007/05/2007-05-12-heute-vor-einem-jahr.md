@@ -13,6 +13,6 @@ url: /2007/05/heute-vor-einem-jahr/
 
 War ich dann auch. Nichtsdestotrotz haben "wir" das "Spiel" dann noch 19 Tage lang durchgehalten. 
 
-Verr&uuml;ckt ist eben doch mehr Spa&szlig; als besorgt zu sein.
+Verrückt ist eben doch mehr Spaß als besorgt zu sein.
 
 PS: Dieser Dialog wird mir auch unvergessen bleiben...

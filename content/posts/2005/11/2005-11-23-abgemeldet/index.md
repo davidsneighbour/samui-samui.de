@@ -9,6 +9,6 @@ url: /2005/11/abgemeldet/
 
 
 ---
-Kohls M&auml;del (Bangkok Post) wurde gestern das Ruder in die Hand gegeben und ich habe eben meine Abmeldung ans Einwohnermeldeamt in L&uuml;beck gefaxt (ein Schelm wer da einen Zusammenhang sieht). Man ist jetzt in Maenam gemeldet. Bin gespannt wie flexibel die sind mit so einem Faxkram. Hab noch schnell ein Anschreiben dazugedichtet und sexuelle Gef&auml;lligkeiten bei bevorzugter Behandlung versprochen. 
+Kohls Mädel (Bangkok Post) wurde gestern das Ruder in die Hand gegeben und ich habe eben meine Abmeldung ans Einwohnermeldeamt in Lübeck gefaxt (ein Schelm wer da einen Zusammenhang sieht). Man ist jetzt in Maenam gemeldet. Bin gespannt wie flexibel die sind mit so einem Faxkram. Hab noch schnell ein Anschreiben dazugedichtet und sexuelle Gefälligkeiten bei bevorzugter Behandlung versprochen. 
 
-So wie ich mein Gl&uuml;ck kenne, kommen jetzt alle meine Gl&auml;ubiger gerannt...
+So wie ich mein Glück kenne, kommen jetzt alle meine Gläubiger gerannt...

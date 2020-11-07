@@ -23,6 +23,6 @@ url: /2006/08/thaksin-auf-der-couch/
 > 
 > Senator Doctor Nirand Pithakwatchara would also be invited to talk about Thaksin's political tactics during the seminar. [via [The Nation][1]]
 
-hehe... heheheh... ich tippe mal auf Psychoanalyse als Wissenschaft, nicht als Therapie ;) Wir werden "Bindung" und "Aversion" h&ouml;ren.
+hehe... heheheh... ich tippe mal auf Psychoanalyse als Wissenschaft, nicht als Therapie ;) Wir werden "Bindung" und "Aversion" hören.
 
  [1]: http://www.nationmultimedia.com/breakingnews/read.php?newsid=30011700

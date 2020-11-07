@@ -17,6 +17,6 @@ url: /2008/06/ich-in-berlin/
   </p>
 </div>
 
-Es ist ganz sch&ouml;n kompliziert, 12.000 Bilder durchzusehen. 11.000 davon sind im Thaistyle gehalten (Erkl&auml;rungsschilder an Museumsobjekten, Thais vor mehr oder weniger wichtigen Geb&auml;uden, Komplettaufnahmen s&auml;chsischer Kleinst&auml;dte a la Google Streetview) und 1.000 eher Graustyle (Wolken und Stelen).
+Es ist ganz schön kompliziert, 12.000 Bilder durchzusehen. 11.000 davon sind im Thaistyle gehalten (Erklärungsschilder an Museumsobjekten, Thais vor mehr oder weniger wichtigen Gebäuden, Komplettaufnahmen sächsischer Kleinstädte a la Google Streetview) und 1.000 eher Graustyle (Wolken und Stelen).
 
 Ich bin aber guter Dinge was die Urlaubsberichterstattung an geht. Glaube ich...

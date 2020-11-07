@@ -13,7 +13,7 @@ dsq_thread_id:
 ---
 [<img width="455" src="//static.flickr.com/35/73021263_357f2105ae.jpg" alt="Me. Now. Shaving-accident again." />][1]
 
-Ich hatte mal ne Kaltwelle da sah ich ungef&auml;hr so &auml;hnlich aus. Nur d&uuml;nner. Und j&uuml;nger. Und nackter ums Kinn herum. Meine Lateinlehrerin hat mich nicht erkannt und dann erstmal nen Lachkrampf gekriegt. Trotzdem ist das Gewelle hier Natur. Quasi tropischer Natur.
+Ich hatte mal ne Kaltwelle da sah ich ungefähr so ähnlich aus. Nur dünner. Und jünger. Und nackter ums Kinn herum. Meine Lateinlehrerin hat mich nicht erkannt und dann erstmal nen Lachkrampf gekriegt. Trotzdem ist das Gewelle hier Natur. Quasi tropischer Natur.
 
 Es findet nicht unbedingt mein Gefallen.
 

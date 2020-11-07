@@ -10,4 +10,4 @@ menu:
     pre: icons/archive.svg
 ---
 
-W&auml;hrend ich auf diesen Seiten ein paar Umbauten vornehme, wird das Archiv leider etwas chaotisch sein. Es wird aber besser. T&auml;glich. Versprochen.
+Während ich auf diesen Seiten ein paar Umbauten vornehme, wird das Archiv leider etwas chaotisch sein. Es wird aber besser. Täglich. Versprochen.

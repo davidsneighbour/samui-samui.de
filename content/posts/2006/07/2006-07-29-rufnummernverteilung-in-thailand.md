@@ -1154,16 +1154,16 @@ Das summiert sich dann etwa so:
   </tr>
 </table>
 
-Wenn man alle 64 Millionen und die paar Farangs die sich hier ein Mobiltelefon zulegen bedienen will muss man tats&auml;chlich ein paar neue (Vorwahl-)Nummern einf&uuml;hren.
+Wenn man alle 64 Millionen und die paar Farangs die sich hier ein Mobiltelefon zulegen bedienen will muss man tatsächlich ein paar neue (Vorwahl-)Nummern einführen.
 
-Im Mobilfunk Thailands sehe ich ein nicht unerhebliches Potential, sowohl in der Entwicklung bestehender Strukturen als auch der Einf&uuml;hrung neuer Dienste. 
+Im Mobilfunk Thailands sehe ich ein nicht unerhebliches Potential, sowohl in der Entwicklung bestehender Strukturen als auch der Einführung neuer Dienste. 
 
-Mobiles Bezahlen (MPay) beispielsweise wurde vergangenes Jahr eingef&uuml;hrt. Wenn man nun im Juli und August sein Guthaben (die meisten Thais haben Guthabenkarten statt eines Festvertrages) via MPay auff&uuml;llt bekommt man 5% zur&uuml;ckerstattet. Das werden die allzeits klammen Teenager sich nicht zweimal sagen lassen. 
+Mobiles Bezahlen (MPay) beispielsweise wurde vergangenes Jahr eingeführt. Wenn man nun im Juli und August sein Guthaben (die meisten Thais haben Guthabenkarten statt eines Festvertrages) via MPay auffüllt bekommt man 5% zurückerstattet. Das werden die allzeits klammen Teenager sich nicht zweimal sagen lassen. 
 
-SMS ist auch weit verbreitet und viele Thais kommunizieren ausschlie&szlig;lich &uuml;ber SMS miteinander. Ich habe bspw. 200 SMS f&uuml;r 150 Baht im Monat (runde 3 Euro) zur Verf&uuml;gung und brauche das Kontingent immer auf. 
+SMS ist auch weit verbreitet und viele Thais kommunizieren ausschließlich über SMS miteinander. Ich habe bspw. 200 SMS für 150 Baht im Monat (runde 3 Euro) zur Verfügung und brauche das Kontingent immer auf. 
 
-Gewinnspiele und Wettbewerbe in der Art von "Deutschland sucht den Superstar" werden hier ausschlie&szlig;lich &uuml;ber SMS entschieden.
+Gewinnspiele und Wettbewerbe in der Art von "Deutschland sucht den Superstar" werden hier ausschließlich über SMS entschieden.
 
-Wie gesagt. Ich hab da einige Ideen mit Mobilfunk im Kopf. Mal sehen was sich da machen l&auml;sst. Man kommt in Thailand einfacher an Entscheidungstr&auml;ger in derartigen Firmen heran und kann auch schon mal eine kleine Aktion platzieren ohne viel investieren zu m&uuml;ssen.
+Wie gesagt. Ich hab da einige Ideen mit Mobilfunk im Kopf. Mal sehen was sich da machen lässt. Man kommt in Thailand einfacher an Entscheidungsträger in derartigen Firmen heran und kann auch schon mal eine kleine Aktion platzieren ohne viel investieren zu müssen.
 
-PS: Orange hei&szlig;t inzwischen True Mobile und betreibt massiv Werbung und Kundenacquisition. Manches davon fragw&uuml;rdig wie die Wahl zum Thaimale 2006, die nur per Orange-Mobilnummer per SMS abgestimmt werden konnte, anderes vermutlich wirksamer wie die Beilage von SIM-Karten mit Guthaben in Teenmagazine und andere Zeitschriften.
+PS: Orange heißt inzwischen True Mobile und betreibt massiv Werbung und Kundenacquisition. Manches davon fragwürdig wie die Wahl zum Thaimale 2006, die nur per Orange-Mobilnummer per SMS abgestimmt werden konnte, anderes vermutlich wirksamer wie die Beilage von SIM-Karten mit Guthaben in Teenmagazine und andere Zeitschriften.

@@ -9,6 +9,6 @@ url: /2005/11/umzugsnachteil/
 
 
 ---
-Ehm, einen ganz ganz gro&szlig;en Nachteil hat der Umzug nach Maenam. Ich fahre morgens (wenn Stau ist 30 Minuten lang sonst) 20 Minuten lang mit der Sonne im Gesicht. Das f&uuml;hrt einerseits zu einer gewissen Br&auml;une, andererseits wird durch das viele Sonnenlicht jeglicher graue Gedanke ausgel&ouml;scht. 
+Ehm, einen ganz ganz großen Nachteil hat der Umzug nach Maenam. Ich fahre morgens (wenn Stau ist 30 Minuten lang sonst) 20 Minuten lang mit der Sonne im Gesicht. Das führt einerseits zu einer gewissen Bräune, andererseits wird durch das viele Sonnenlicht jeglicher graue Gedanke ausgelöscht. 
 
 Diese Insel macht es einem wirklich verdammt schwer sich einer gepflegten Depression hinzugeben.

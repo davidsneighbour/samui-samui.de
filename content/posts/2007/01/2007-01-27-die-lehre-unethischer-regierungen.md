@@ -9,11 +9,11 @@ url: /2007/01/die-lehre-unethischer-regierungen/
 
 
 ---
-General Prem Tinsulanonda, der Vorsitzende des Geheimrats (Privy Council) Seiner Majest&auml;t K&ouml;nig Bhumibol Adulyadejs, spricht erstens nur &ouml;ffentlich, wenn es geh&ouml;rt werden soll und zweitens nur indirekt und in Bildern. Das habe ich ja schon erz&auml;hlt. Durch seine N&auml;he zum K&ouml;nig geht man im Allgemeinen davon aus, dass was er sagt auch die Meinung des K&ouml;nigs ist. Ein praktisches Instrument.
+General Prem Tinsulanonda, der Vorsitzende des Geheimrats (Privy Council) Seiner Majestät König Bhumibol Adulyadejs, spricht erstens nur öffentlich, wenn es gehört werden soll und zweitens nur indirekt und in Bildern. Das habe ich ja schon erzählt. Durch seine Nähe zum König geht man im Allgemeinen davon aus, dass was er sagt auch die Meinung des Königs ist. Ein praktisches Instrument.
 
-Diese Woche nun hat er eine Rede gehalten, in der er ethische Werte hoch h&auml;lt und &uuml;ber [die Lehren unethischer Regierungen][1] sprach. 
+Diese Woche nun hat er eine Rede gehalten, in der er ethische Werte hoch hält und über [die Lehren unethischer Regierungen][1] sprach. 
 
-Die Art und Weise, wie er Thaksin, der mal wieder eine Demokratisierung des Landes gefordert hat, zurecht weist, ohne seinen Namen zu nennen oder ihn &uuml;berhaupt zu erw&auml;hnen ist eine der F&auml;higkeiten, die vielen jungen Thais und den Medien hier heutzutage verloren gegangen ist. Wenn man sich mal mit den &Auml;lteren unterh&auml;lt, bemerkt man schnell eine sehr subtile, indirekt und h&ouml;chst freundlich vorgetragene Art und Weise, Kritik vorzutragen.
+Die Art und Weise, wie er Thaksin, der mal wieder eine Demokratisierung des Landes gefordert hat, zurecht weist, ohne seinen Namen zu nennen oder ihn überhaupt zu erwähnen ist eine der Fähigkeiten, die vielen jungen Thais und den Medien hier heutzutage verloren gegangen ist. Wenn man sich mal mit den Älteren unterhält, bemerkt man schnell eine sehr subtile, indirekt und höchst freundlich vorgetragene Art und Weise, Kritik vorzutragen.
 
 Beispiel: Fu sagt zu mir "I can take care of the dogs if you want to go to take a shower now". Was in etwa bedeutet: "Du stinkst!".
 

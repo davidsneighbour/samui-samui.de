@@ -18,11 +18,11 @@ Jedes Jahr kommt es hier auf der Insel zu Verletzungen und (vergangenes Jahr sog
 
 Das sind Quallen mit sehr langen Tentakeln, die giftige Stoffe absondern, welche recht schnell zum Herzstillstand führen können.
 
-Dieses Jahr nun hat man auf der Insel beschlossen, etwas anderes, als nur die altbekannten roten Flaggen einzusetzen. Die Flaggen nämlich haben wenig Wirkung gezeigt, weil Touristen nun mal im Urlaub ins Wasser gehen müssen und Warnsysteme keine große Bedeutung für sie haben und (wirklich?) die Krankenversicherung sich eh um alle Probleme k&uuml;mmert.
+Dieses Jahr nun hat man auf der Insel beschlossen, etwas anderes, als nur die altbekannten roten Flaggen einzusetzen. Die Flaggen nämlich haben wenig Wirkung gezeigt, weil Touristen nun mal im Urlaub ins Wasser gehen müssen und Warnsysteme keine große Bedeutung für sie haben und (wirklich?) die Krankenversicherung sich eh um alle Probleme kümmert.
 
-Um Touristen und andere Freunde des Wassersports nun vor diesen Quallen zu sch&uuml;tzen, wird man Netze an den Str&auml;nden auslegen. Auf der L&auml;nge von gut 100 Metern und bis in 7 Metern Tiefe sollen f&uuml;r mindestens 4 Monate nun Netze an der K&uuml;ste von Lamai h&auml;ngen, welche die Quallen im Abstand halten sollen. [Aller 2 Wochen will man pr&uuml;fen][1], ob die Netze noch ganz sind. Nun ja... Mal sehen ob das was bringt.
+Um Touristen und andere Freunde des Wassersports nun vor diesen Quallen zu schützen, wird man Netze an den Stränden auslegen. Auf der Länge von gut 100 Metern und bis in 7 Metern Tiefe sollen für mindestens 4 Monate nun Netze an der Küste von Lamai hängen, welche die Quallen im Abstand halten sollen. [Aller 2 Wochen will man prüfen][1], ob die Netze noch ganz sind. Nun ja... Mal sehen ob das was bringt.
 
-[Ein interessantes Video von National Geographic &uuml;ber die Portugiesische Gallere kann man hier betrachten][2]. B&ouml;sartige Viecher!
+[Ein interessantes Video von National Geographic über die Portugiesische Gallere kann man hier betrachten][2]. Bösartige Viecher!
 
 [1]: http://www.nationmultimedia.com/news/breakingnews/30319350
 [2]: http://video.nationalgeographic.com/video/manowar_portuguese

@@ -7,21 +7,21 @@ url: /2019/06/thailands-personal-data-protection-act
 tags: [gesetze, datenschutz, gdpr]
 ---
 
-{{< img src="gaffel" >}}Richter-Rumklopf-Ger&auml;t ([Photo von Bill Oxford](https://unsplash.com/photos/r2ESY7RXB4M)){{< /img >}}
+{{< img src="gaffel" >}}Richter-Rumklopf-Gerät ([Photo von Bill Oxford](https://unsplash.com/photos/r2ESY7RXB4M)){{< /img >}}
 
 Seit 27. Mai 2019 haben wir auch in Thailand eine Art GDPR-Gesetz namens Personal Data Protection Act (PDPA). Firmen haben bis 27. Mai 2020 Zeit um die Regelungen umzusetzen. 
 
-Gesch&uuml;tzt werden soll damit jegliche Information die Individuen eindeutig identifiziert. G&uuml;ltig ist es f&uuml;r alle Unternehmen die entweder innerhalb Thailands oder mit Unternehmen oder Personen in Thailand Gesch&auml;fte betreiben. 
+Geschützt werden soll damit jegliche Information die Individuen eindeutig identifiziert. Gültig ist es für alle Unternehmen die entweder innerhalb Thailands oder mit Unternehmen oder Personen in Thailand Geschäfte betreiben. 
 
 Unternehmen und Organisationen sind gefordert:
 
--   einen legalen Grund zu haben, Informationen zu sammeln (dazu z&auml;hlt meist die Zustimmung der Personen, deren Daten gesammelt werden)
+-   einen legalen Grund zu haben, Informationen zu sammeln (dazu zählt meist die Zustimmung der Personen, deren Daten gesammelt werden)
 -   sensitive Daten respektvoll zu behandeln
--   f&uuml;r die Sicherheit der Datenspeicherung zu sorgen und &uuml;ber Datenschutzverletzungen prompt zu informieren
+-   für die Sicherheit der Datenspeicherung zu sorgen und über Datenschutzverletzungen prompt zu informieren
 -   die Rechte der Personen, deren Daten sie speichern zu befolgen
--   einen Repr&auml;sentaten f&uuml;r Datenschutz lokal in Thailand zu haben
+-   einen Repräsentaten für Datenschutz lokal in Thailand zu haben
 
-Zur Kontrolle und Durchsetzung des neuen Gesetzes wurde ein Personal Data Protection Committee (PDPC) eingerichtet. Verletzungen des PDPA k&ouml;nnen in Strafgeb&uuml;hren, Schadenersatzzahlungen und strafrechtliche Verfolgung resultieren. 
+Zur Kontrolle und Durchsetzung des neuen Gesetzes wurde ein Personal Data Protection Committee (PDPC) eingerichtet. Verletzungen des PDPA können in Strafgebühren, Schadenersatzzahlungen und strafrechtliche Verfolgung resultieren. 
 
 Genauere Regelungen zur PDPA sind noch nicht geschrieben worden. Das passiert in den kommenden Monaten.
 

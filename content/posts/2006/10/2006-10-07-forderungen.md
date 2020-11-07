@@ -9,4 +9,4 @@ url: /2006/10/forderungen/
 
 
 ---
-Wir brauchen mehr P&auml;pste ohne graue Haare!
+Wir brauchen mehr Päpste ohne graue Haare!

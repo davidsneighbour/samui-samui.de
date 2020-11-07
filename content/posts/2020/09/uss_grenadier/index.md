@@ -14,11 +14,11 @@ resources:
 
 {{< figure name="grenadier" command="Resize" options="930x" >}}USS Grenadier (SSH-210) (via [alchetron.com](https://alchetron.com/USS-Grenadier-(SS-210))){{< /figure >}}
 
-150km vor Phuket haben Taucher in den vergangenen Monaten ein amerikanisches U-Boot gefunden, das im zweiten Weltkrieg dort gesunken ist. Die USS Grenadier ist eines von 42 im zweiten Weltkrieg versenkten US-U-Booten. Im April 1943 wurde es nach Bombardierungen durch Japanische Flieger aufgegeben, um dann am n&auml;chsten Morgen durch weitere Bomben versenkt zu werden. Die Soldaten des U-Boots wurden festgenommen und (typisch f&uuml;r die japanische Kriegf&uuml;hrung) durch verschiedene Gefangenenlager gereicht und gefoltert. Von den 76 Soldaten starben vier in dieser Zeit. 
+150km vor Phuket haben Taucher in den vergangenen Monaten ein amerikanisches U-Boot gefunden, das im zweiten Weltkrieg dort gesunken ist. Die USS Grenadier ist eines von 42 im zweiten Weltkrieg versenkten US-U-Booten. Im April 1943 wurde es nach Bombardierungen durch Japanische Flieger aufgegeben, um dann am nächsten Morgen durch weitere Bomben versenkt zu werden. Die Soldaten des U-Boots wurden festgenommen und (typisch für die japanische Kriegführung) durch verschiedene Gefangenenlager gereicht und gefoltert. Von den 76 Soldaten starben vier in dieser Zeit. 
  
-Wie auch immer&hellip; Interessant, wo Amerikaner und Japaner sich so rumgetrieben haben im zweiten Weltkrieg. Thailand hat (nat&uuml;rlich) am zweiten Weltkrieg nicht teilgenommen und war niemals Teil einer der Seiten im Krieg. 
+Wie auch immer&hellip; Interessant, wo Amerikaner und Japaner sich so rumgetrieben haben im zweiten Weltkrieg. Thailand hat (natürlich) am zweiten Weltkrieg nicht teilgenommen und war niemals Teil einer der Seiten im Krieg. 
 
-Auf Youtube kann man Videos von den Tauchg&auml;ngen sehen.
+Auf Youtube kann man Videos von den Tauchgängen sehen.
 
 {{< youtube id="WMcJ-sac_1g" >}}
  

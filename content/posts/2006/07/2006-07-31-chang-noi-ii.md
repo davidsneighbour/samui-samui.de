@@ -17,4 +17,4 @@ url: /2006/07/chang-noi-ii/
   </p>
 </div>
 
-Das ist der Mistk&auml;fer (Nachts auf der Flucht).
+Das ist der Mistkäfer (Nachts auf der Flucht).

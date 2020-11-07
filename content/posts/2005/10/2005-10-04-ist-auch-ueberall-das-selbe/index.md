@@ -1,5 +1,5 @@
 ---
-title: 'Ist auch &uuml;berall das Selbe'
+title: 'Ist auch überall das Selbe'
 author: Patrick Kollitsch
 type: post
 date: 2005-10-04T01:33:07+00:00

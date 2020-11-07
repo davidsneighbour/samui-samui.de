@@ -16,11 +16,11 @@ resources:
 
 {{< figure name="corruption-perceptions-index" command="Resize" options="1110x" >}}Corruption Perceptions Index 2019{{< /figure >}}
 
-Die Organisation Transparency International ver&ouml;ffentlicht seit 25 Jahren den Corruption Perceptions Index. Der Index vergibt 0 (sehr korrupt) bis 100 (nicht korrupt) Punkte f&uuml;r wahrgenommene Korruption im &ouml;ffentlichen Sektor von derzeit 180 L&auml;ndern und bedient sich dabei verschiedener Umfragen und einer Auswertung von Expertenmeinungen. 
+Die Organisation Transparency International veröffentlicht seit 25 Jahren den Corruption Perceptions Index. Der Index vergibt 0 (sehr korrupt) bis 100 (nicht korrupt) Punkte für wahrgenommene Korruption im öffentlichen Sektor von derzeit 180 Ländern und bedient sich dabei verschiedener Umfragen und einer Auswertung von Expertenmeinungen. 
 
-Thailand ist dieses Jahr von Platz 96 auf 99 gefallen. Die Punktzahl 36 liegt deutlich unter den durchschnittlich 43 Punkten im weltweiten Vergleich (44 Punkte ndurchschnittlich in Asia-Pacific-Raum). Zwei Drittel der L&auml;nder liegen unter dem Durchschnitt. Es gibt also nichts, wor&uuml;ber man sich aufregen m&uuml;sste {{<emojify ":see_no_evil:" >}}{{<emojify ":hear_no_evil:" >}}{{<emojify ":speak_no_evil:" >}}
+Thailand ist dieses Jahr von Platz 96 auf 99 gefallen. Die Punktzahl 36 liegt deutlich unter den durchschnittlich 43 Punkten im weltweiten Vergleich (44 Punkte ndurchschnittlich in Asia-Pacific-Raum). Zwei Drittel der Länder liegen unter dem Durchschnitt. Es gibt also nichts, worüber man sich aufregen müsste {{<emojify ":see_no_evil:" >}}{{<emojify ":hear_no_evil:" >}}{{<emojify ":speak_no_evil:" >}}
 
-Manch einer meint, dass die kuriose Aff&auml;re um die teuren Luxusarmbanduhren des stellvertretenden Premierministers Prawit Wongsuwan k&ouml;nnte zum Punktverlust seit letztem Jahr beigetragen haben, was die Regierung vehement verneint, ohne eine Ersatzerkl&auml;rung anzugeben.
+Manch einer meint, dass die kuriose Affäre um die teuren Luxusarmbanduhren des stellvertretenden Premierministers Prawit Wongsuwan könnte zum Punktverlust seit letztem Jahr beigetragen haben, was die Regierung vehement verneint, ohne eine Ersatzerklärung anzugeben.
 <!--lint disable no-html-->
 <table class="table table-sm table-bordered">
 <caption>Thailand's Position im Corruption Perceptions Index in den vergangenen Jahren</caption>

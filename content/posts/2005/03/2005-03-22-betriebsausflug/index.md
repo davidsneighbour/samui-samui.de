@@ -15,7 +15,7 @@ Oder nein, fangen wir anders an:
 
 Es standen ein Arztbesuch mit dem Erhalt einer Gesundheitsbescheinigung und einige Passfotos (um genau zu sein 10 kleine und 3 gro?e) für unsere Work-Permits an. (Was? Wir haben immer noch keine Arbeitsgenehmigung?) Jedenfalls waren ein paar Behördengänge zu tun und wir taten sie. Die Gänge.
 
-Wir sind natürlich nicht mit dem Kremserwagen gefahren und Bier trinken wir nicht. Weder auf Arbeit noch anderswo. Alkohol ist böse. Wir haben uns brav um neun m&ouml;glichst nahe an des Chefs Behausung getroffen (nur nicht zuviel Arbeit f&uuml;r einen alten Mann machen) und fuhren sodann auf unseren knatternden Stra?enkreuzern gen Ban Nathon. Das Schlimmste erwartend.
+Wir sind natürlich nicht mit dem Kremserwagen gefahren und Bier trinken wir nicht. Weder auf Arbeit noch anderswo. Alkohol ist böse. Wir haben uns brav um neun möglichst nahe an des Chefs Behausung getroffen (nur nicht zuviel Arbeit für einen alten Mann machen) und fuhren sodann auf unseren knatternden Stra?enkreuzern gen Ban Nathon. Das Schlimmste erwartend.
 
 Nun, was mag man erwarten bei einem Gesundheitscheck? Einige Metallteile in verschiedenen Körperöffnungen? Hammerschläge aufs Knie? Laufbandlaufen, stundenlang? Radfahren? Ziehense mal das da aus und bückense sich?
 

@@ -9,7 +9,7 @@ url: /2005/10/bombenanschlaege-im-sueden-thailands/
 
 
 ---
-Gestern wurden im S&uuml;den in den Provinzen Pattani und Yala insgesamt [vier Bombenanschl&auml;ge ver&uuml;bt][1]. Es gab dabei nur Sachschaden. [Die Regierung in Bangkok ist derweil missgelaunt][2], weil die Organization of the Islamic Conference (OIC) ein Statement ver&ouml;ffentlicht hat, nach dem der Konflikt im S&uuml;den auf religi&ouml;sen Gr&uuml;nden beruhe. Premierminister Thaksin hatte auch hier wieder einen wohlfomulierten Rat auf der Zunge: [Sie sollen den Koran mal lesen][3].
+Gestern wurden im Süden in den Provinzen Pattani und Yala insgesamt [vier Bombenanschläge verübt][1]. Es gab dabei nur Sachschaden. [Die Regierung in Bangkok ist derweil missgelaunt][2], weil die Organization of the Islamic Conference (OIC) ein Statement veröffentlicht hat, nach dem der Konflikt im Süden auf religiösen Gründen beruhe. Premierminister Thaksin hatte auch hier wieder einen wohlfomulierten Rat auf der Zunge: [Sie sollen den Koran mal lesen][3].
 
  [1]: http://www.bloomberg.com/apps/news?pid=10000080&sid=aUZHL5F5C4Pw
  [2]: http://etna.mcot.net/query.php?nid=3835

@@ -9,7 +9,7 @@ url: /2006/05/thaksin-returns-home-from-hua-hin/
 
 
 ---
-Da mag man meinen die Thais w&auml;ren ironieresistent aber [so kurz und pr&auml;gnant][1] und &auml;hnlich sind die Zeitungen der vergangenen Tage gepflaster:
+Da mag man meinen die Thais wären ironieresistent aber [so kurz und prägnant][1] und ähnlich sind die Zeitungen der vergangenen Tage gepflaster:
 
 > Caretaker Prime Minister Thaksin Shinawatra left the Kraikangwol Palace in Hua Hin at 7 pm Friday and returned home. 
 > 

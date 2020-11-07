@@ -1,5 +1,5 @@
 ---
-title: 'Eine k&ouml;nigliche Bloggerin'
+title: 'Eine königliche Bloggerin'
 author: Patrick Kollitsch
 type: post
 date: 2006-10-02T06:05:28+00:00
@@ -9,7 +9,7 @@ url: /2006/10/eine-koenigliche-bloggerin/
 
 
 ---
-Ziemlich viel Buzz (yeah! Schlagworte! F&uuml;r die &auml;lteren unter meinen Lesern, es handelt sich um ein Wort f&uuml;r "Rumor, Begeisterung") machten die Medien des Landes in den vergangenen Tagen &uuml;ber Ihre K&ouml;nigliche Hoheit Prinzessing Maha Chakri Sirindhorn, die ein Blog f&uuml;hren soll. Leider relativiert sich das alles und aus dem Blog ist ein Eintrag geworden, der zudem noch aus einem einzelnen Absatz besteht. 
+Ziemlich viel Buzz (yeah! Schlagworte! Für die älteren unter meinen Lesern, es handelt sich um ein Wort für "Rumor, Begeisterung") machten die Medien des Landes in den vergangenen Tagen über Ihre Königliche Hoheit Prinzessing Maha Chakri Sirindhorn, die ein Blog führen soll. Leider relativiert sich das alles und aus dem Blog ist ein Eintrag geworden, der zudem noch aus einem einzelnen Absatz besteht. 
 
 Nichtsdestotrotz ist das, was sie zu bloggen hat, relevant:
 
@@ -17,12 +17,12 @@ Nichtsdestotrotz ist das, was sie zu bloggen hat, relevant:
 
 Mehr aus ihrer Feder konnte ich im [Konferenzblog der Future Perfect Konferenz][1] leider nicht finden. 
 
-Prinzessin Princess Maha Chakri Sirindhorn hat &uuml;brigens meinen h&ouml;chsten Respekt unter den K&ouml;nigskindern (sagt man das so?). Sie wird hier "Prinzessin der Technologie" oder einfach nur "meine Prinzessin" (O-Ton Fu) genannt. Man sieht sie immer mit einem Schreibblog, in dem sie eifrig Notizen macht. 
+Prinzessin Princess Maha Chakri Sirindhorn hat übrigens meinen höchsten Respekt unter den Königskindern (sagt man das so?). Sie wird hier "Prinzessin der Technologie" oder einfach nur "meine Prinzessin" (O-Ton Fu) genannt. Man sieht sie immer mit einem Schreibblog, in dem sie eifrig Notizen macht. 
 
-Dass sie ihre Diplome, Doktortitel und andere akademische W&uuml;rden nicht aufgrund ihrer Zugeh&ouml;rigkeit zur k&ouml;niglichen Familie hat, zeigen ihre Positionen in den j&auml;hrlichen Pr&uuml;fungsstatistiken thailandweit von 1967 (ihrer 7. Klasse) und 1972 (ihrer 12. Klasse) --- Nummer 1. 
+Dass sie ihre Diplome, Doktortitel und andere akademische Würden nicht aufgrund ihrer Zugehörigkeit zur königlichen Familie hat, zeigen ihre Positionen in den jährlichen Prüfungsstatistiken thailandweit von 1967 (ihrer 7. Klasse) und 1972 (ihrer 12. Klasse) --- Nummer 1. 
 
-Viele Thais pr&auml;ferieren sie sogar vor dem Kronprinz Maha Vajiralongkorn. 
+Viele Thais präferieren sie sogar vor dem Kronprinz Maha Vajiralongkorn. 
 
-Um zum Thema Blog zur&uuml;ck zu kommen: Ich finde, es w&auml;re wirklich eine Bereicherung, ein Blog von ihr zu lesen. Sie w&uuml;rde eine Menge zu sagen zu haben, zu gesellschaftlichen und Entwicklungs-Themen --- und die Menschen w&uuml;rden sie "lesen".
+Um zum Thema Blog zurück zu kommen: Ich finde, es wäre wirklich eine Bereicherung, ein Blog von ihr zu lesen. Sie würde eine Menge zu sagen zu haben, zu gesellschaftlichen und Entwicklungs-Themen --- und die Menschen würden sie "lesen".
 
  [1]: http://access.britishcouncil.or.th/

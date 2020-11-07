@@ -109,4 +109,4 @@ Kein Gefühl**
   
 Die Ewigkeit wartet
 
-PS: Eigentlich wollte ich ja &uuml;bers Wetter schreiben aber das ist derzeit so uninteressant heiss und alles andere wird bereits per Instant Messaging und Privatmail behandelt. Also hier nur (wieder?) VNV Nation. Ok, auf deutsch hattense wir noch nicht. Die Sprache des Fussballs (glaubt man den Thais).
+PS: Eigentlich wollte ich ja übers Wetter schreiben aber das ist derzeit so uninteressant heiss und alles andere wird bereits per Instant Messaging und Privatmail behandelt. Also hier nur (wieder?) VNV Nation. Ok, auf deutsch hattense wir noch nicht. Die Sprache des Fussballs (glaubt man den Thais).

@@ -13,7 +13,7 @@ dsq_thread_id:
 ---
 Im Isaan (Nordosten von Thailand) gibt es die [weltweit stärkste Anhäufung an Krebsfällen im Gallenbereich][1]. (Ich übersetze mal "epithelial cancer of the bile duct" als zellulärer Krebs im Gallen-Trakt.)
 
-Es sind zwar nur 0,08% bei den M&auml;nnern und 0,04% bei den Frauen betroffen, trotzdem kommt es zu rund 6000 Neuerkrankungen im Jahr.
+Es sind zwar nur 0,08% bei den Männern und 0,04% bei den Frauen betroffen, trotzdem kommt es zu rund 6000 Neuerkrankungen im Jahr.
 
 Als Ursache dafür werden Nahrungsmittel wie leicht angekochter Fisch und "Fermented Fish" angegeben. Fermented Fish ist umgangssprachlich gesagt sauber vergammelter alter Fisch. Schmeckt wie vergammelter Fisch, aber viele Thais mögen das.
 

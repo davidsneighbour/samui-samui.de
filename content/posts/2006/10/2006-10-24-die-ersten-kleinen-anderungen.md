@@ -9,4 +9,4 @@ url: /2006/10/die-ersten-kleinen-anderungen/
 
 
 ---
-Zu den ersten kleinen &Auml;nderungen mag ich gar nicht viel erz&auml;hlen. Das Thema lautet: Hauptsache es sieht erstmal anders aus. Das Layout wird sich noch &auml;ndern, die Farben erst recht. Neu ist ein Plugin das die kommenden 10 Thai-Feiertage in der Seitenleiste anzeigt und eine andere Form der "letzten Kommentare" in selbiger Seitenleiste. Beides werde ich demn&auml;chst mal beleuchten.
+Zu den ersten kleinen Änderungen mag ich gar nicht viel erzählen. Das Thema lautet: Hauptsache es sieht erstmal anders aus. Das Layout wird sich noch ändern, die Farben erst recht. Neu ist ein Plugin das die kommenden 10 Thai-Feiertage in der Seitenleiste anzeigt und eine andere Form der "letzten Kommentare" in selbiger Seitenleiste. Beides werde ich demnächst mal beleuchten.

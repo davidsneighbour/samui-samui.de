@@ -9,15 +9,15 @@ url: /2007/05/thaksin-bekommt-einen-burger-und-verliert-einen-koffer/
 
 
 ---
-Die Bangkok Post hat nat&uuml;rlich in der Thaksinsache den besten Titel:
+Die Bangkok Post hat natürlich in der Thaksinsache den besten Titel:
 
 > [Thaksin gets a Big Mac, loses bag][1]
 
-Im Artikel geht es dann noch weiter mit netten Spr&uuml;chen wie dem hier: 
+Im Artikel geht es dann noch weiter mit netten Sprüchen wie dem hier: 
 
 > It remained unclear whether he was awarded the degree before or after his belongings were stolen.
 
-Eher nebenbei erf&auml;hrt man, dass er mal wieder eine Klage in der Planung hat, diesmal gegen Mitglieder der <span class="caps">ASC</span>, das ist die Anti-Korruptions-Kommission, die ihm vermutlich demn&auml;chst eine Klage an den Hals zimmern wird. 
+Eher nebenbei erfährt man, dass er mal wieder eine Klage in der Planung hat, diesmal gegen Mitglieder der <span class="caps">ASC</span>, das ist die Anti-Korruptions-Kommission, die ihm vermutlich demnächst eine Klage an den Hals zimmern wird. 
 
 So kann man auch mit der Heimat kommunizieren.
 

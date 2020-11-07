@@ -9,4 +9,4 @@ url: /2005/11/die-naechste-welle-kommt-bestimmt/
 
 
 ---
-... heute abend. Wie man am lamaiischen Himmel sehen kann. Auf Statements zu den Themen des Tages darf man also getrost warten. Auf einige l&auml;nger. Auf andere k&uuml;rzer. Auf manche lange.
+... heute abend. Wie man am lamaiischen Himmel sehen kann. Auf Statements zu den Themen des Tages darf man also getrost warten. Auf einige länger. Auf andere kürzer. Auf manche lange.

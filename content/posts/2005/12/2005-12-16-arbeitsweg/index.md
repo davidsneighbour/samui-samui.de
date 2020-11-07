@@ -11,6 +11,6 @@ url: /2005/12/arbeitsweg/
 ---
 [<img width="455" src="//static.flickr.com/36/73990583_dcc4419214.jpg" alt="On the way in the office." />][1]
 
-Hab ich eigentlich schonmal erz&auml;hlt, dass mein Arbeitsweg seit ich ins neue Haus gezogen bin direkt am Meer vorbeif&uuml;hrt? Welcher B&uuml;rojob bietet das schon? ;) Ich kann mir gut vorstellen, dass es Leute gibt, denen das gef&auml;llt.
+Hab ich eigentlich schonmal erzählt, dass mein Arbeitsweg seit ich ins neue Haus gezogen bin direkt am Meer vorbeiführt? Welcher Bürojob bietet das schon? ;) Ich kann mir gut vorstellen, dass es Leute gibt, denen das gefällt.
 
  [1]: http://www.flickr.com/photos/schreibblogade/73990583/ "On the way in the office."

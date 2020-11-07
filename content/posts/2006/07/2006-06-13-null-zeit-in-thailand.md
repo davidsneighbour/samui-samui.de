@@ -9,13 +9,13 @@ url: /2006/06/null-zeit-in-thailand/
 
 
 ---
-Auch mal die anderen erz&auml;hlen lassen: Helene, oder ([nullzeit][1])generator, war im M&auml;rz in Thailand und berichtet in ihrem Blog dar&uuml;ber. Leider haben wir uns trotz nettem Emailkontakts (das ist ja mal wieder ein sch&ouml;ner Genitiv gewesen) nicht getroffen, was eventuell an meiner Beschreibung der Sehensw&uuml;rdigkeiten der Insel gelegen haben k&ouml;nnte ("Ballermann im Golf" --- sehr nett umschrieben von ihr). Macht nichts, die Beschreibungen von Land und Leuten des Isaans sind Belohnung genug. 
+Auch mal die anderen erzählen lassen: Helene, oder ([nullzeit][1])generator, war im März in Thailand und berichtet in ihrem Blog darüber. Leider haben wir uns trotz nettem Emailkontakts (das ist ja mal wieder ein schöner Genitiv gewesen) nicht getroffen, was eventuell an meiner Beschreibung der Sehenswürdigkeiten der Insel gelegen haben könnte ("Ballermann im Golf" --- sehr nett umschrieben von ihr). Macht nichts, die Beschreibungen von Land und Leuten des Isaans sind Belohnung genug. 
 
 [singha-bier und generalstreik?][2]
   
 [thail 1: bangkok bei nacht][3]
   
-[thail 2: erwachen heiterer gef&uuml;hle bei der ankunft auf dem lande][4]
+[thail 2: erwachen heiterer gefühle bei der ankunft auf dem lande][4]
   
 [thail 3: schweineblut][5]
   
@@ -37,7 +37,7 @@ Auch mal die anderen erz&auml;hlen lassen: Helene, oder ([nullzeit][1])generator
   
 [thail 12: stadt der engel][14]
 
-PS: &Uuml;berhaupt melden sich immer ausgesprochen nette Menschen bei mir, die das Blog bei Google entdecken und sich festlesen. Auch wenn es manchmal Wochen dauert, bis ich mich melde ;)
+PS: Überhaupt melden sich immer ausgesprochen nette Menschen bei mir, die das Blog bei Google entdecken und sich festlesen. Auch wenn es manchmal Wochen dauert, bis ich mich melde ;)
 
  [1]: http://avi.antville.org/
  [2]: http://avi.antville.org/stories/1350052/

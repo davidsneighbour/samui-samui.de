@@ -9,4 +9,4 @@ url: /2005/09/der-thaiway-iii/
 
 
 ---
-Zitat des Tages: "You know! This is against the law. So it took long time because she is afraid. But she know my sister." --- Mal so v&ouml;llig aus dem Zusammenhang gerissen. Lustig trotzdem.
+Zitat des Tages: "You know! This is against the law. So it took long time because she is afraid. But she know my sister." --- Mal so völlig aus dem Zusammenhang gerissen. Lustig trotzdem.

@@ -9,7 +9,7 @@ url: /2006/06/oleeeeh-oleh-oleh-oleeeh-runde-2/
 
 
 ---
-Und p&uuml;nktlich zur, ehm, zweiten Runde (?? heh? wie nennt man das bei Fussball&trade;-WMs denn eigentlich) gibts hier die Sender und Termine der n&auml;chsten 8 Spiele f&uuml;r die Fussball&trade;fanatiker in Thailand. Die Zeiten sind ohne Gew&auml;hr, denn es kann durchaus sein, dass der Care takende Premierminister Thaksin mal wieder eine <del>inhaltsleere</del> Rede in der er der Nation f&uuml;r die Feierlichkeiten zum 60ten Thronjubil&auml;um des K&ouml;nigs dankt halten wird (wie gestern abend) und alles ein bisschen verschiebt. Die restlichen Spiele poste ich dann am Montag und trage (fast wie ein kleiner Fan) die Mannschaften dann nach, wenn jemand gewonnen hat.
+Und pünktlich zur, ehm, zweiten Runde (?? heh? wie nennt man das bei Fussball&trade;-WMs denn eigentlich) gibts hier die Sender und Termine der nächsten 8 Spiele für die Fussball&trade;fanatiker in Thailand. Die Zeiten sind ohne Gewähr, denn es kann durchaus sein, dass der Care takende Premierminister Thaksin mal wieder eine <del>inhaltsleere</del> Rede in der er der Nation für die Feierlichkeiten zum 60ten Thronjubiläum des Königs dankt halten wird (wie gestern abend) und alles ein bisschen verschiebt. Die restlichen Spiele poste ich dann am Montag und trage (fast wie ein kleiner Fan) die Mannschaften dann nach, wenn jemand gewonnen hat.
 
 <table summary="Ausstrahlungszeiten der Fussball-WM in Thailand, zweite Runde" cellspacing="0">
   <tr>
@@ -52,7 +52,7 @@ Und p&uuml;nktlich zur, ehm, zweiten Runde (?? heh? wie nennt man das bei Fussba
     </td>
     
     <td>
-      M&uuml;nchen
+      München
     </td>
     
     <td>
@@ -130,7 +130,7 @@ Und p&uuml;nktlich zur, ehm, zweiten Runde (?? heh? wie nennt man das bei Fussba
     </td>
     
     <td>
-      N&uuml;rnberg
+      Nürnberg
     </td>
     
     <td>
@@ -182,7 +182,7 @@ Und p&uuml;nktlich zur, ehm, zweiten Runde (?? heh? wie nennt man das bei Fussba
     </td>
     
     <td>
-      K&ouml;ln
+      Köln
     </td>
     
     <td>
@@ -243,4 +243,4 @@ Und p&uuml;nktlich zur, ehm, zweiten Runde (?? heh? wie nennt man das bei Fussba
   </tr>
 </table>
 
-Ich w&uuml;rde &uuml;brigens gerne Schweden, die Schweiz, Equador oder Ghana im Endspiel sehen. Man darf sich doch aus jeder Gruppe einen Favoriten ausw&auml;hlen, oder?
+Ich würde übrigens gerne Schweden, die Schweiz, Equador oder Ghana im Endspiel sehen. Man darf sich doch aus jeder Gruppe einen Favoriten auswählen, oder?

@@ -9,4 +9,4 @@ url: /2008/02/trockenzeitvorboten/
 
 
 ---
-Die Trockenzeit steht knapp vor der T&uuml;r wenn man beim Betreten des durch die Klimaanlage auf nur 26°C herabgek&uuml;hlten Schlafgemachs zu frieren beginnt.
+Die Trockenzeit steht knapp vor der Tür wenn man beim Betreten des durch die Klimaanlage auf nur 26°C herabgekühlten Schlafgemachs zu frieren beginnt.

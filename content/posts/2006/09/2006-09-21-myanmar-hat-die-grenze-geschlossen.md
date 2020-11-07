@@ -9,8 +9,8 @@ url: /2006/09/myanmar-hat-die-grenze-geschlossen/
 
 
 ---
-Ooops. Und, ehm, falls mir F&auml;kalsprache erlaubt sei, ehm, Shit!!! Ich muss am Wochenende auf einen Visarun. Und Myanmar hat die Grenzen geschlossen. 
+Ooops. Und, ehm, falls mir Fäkalsprache erlaubt sei, ehm, Shit!!! Ich muss am Wochenende auf einen Visarun. Und Myanmar hat die Grenzen geschlossen. 
 
-Das sieht herb nach Malaysia aus. Morgen also ist gro&szlig;er Visainformationstag in der [die schreiBBloga.de][1].
+Das sieht herb nach Malaysia aus. Morgen also ist großer Visainformationstag in der [die schreiBBloga.de][1].
 
  [1]: http://die.schreibbloga.de

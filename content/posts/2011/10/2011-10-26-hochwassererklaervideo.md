@@ -12,6 +12,6 @@ url: /2011/10/hochwassererklaervideo/
 <div class="media movie">
 </div>
 
-Im thail&auml;ndischen Internet macht gerade dieser Film (und bereits eine Fortsetzung) die Runde, in der die ganze Hochwasserlage einfach und verst&auml;ndlich erkl&auml;rt wird --- ohne Panikmache. Ein gutes Beispiel, wie Kommunikation heute erfolgen sollte. W&auml;re ich Prime Ministress, w&uuml;rde ich davon Gebrauch machen...
+Im thailändischen Internet macht gerade dieser Film (und bereits eine Fortsetzung) die Runde, in der die ganze Hochwasserlage einfach und verständlich erklärt wird --- ohne Panikmache. Ein gutes Beispiel, wie Kommunikation heute erfolgen sollte. Wäre ich Prime Ministress, würde ich davon Gebrauch machen...
 
 Thai mit enlischen Untertiteln... Und mit Walen.

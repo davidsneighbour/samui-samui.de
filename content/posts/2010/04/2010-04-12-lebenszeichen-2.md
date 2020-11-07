@@ -20,5 +20,5 @@ url: /2010/04/lebenszeichen-2/
     </a></div> 
     
     <p>
-      Neulich war ich mal wieder in Deutschland. Der gro&szlig;e Tatsachenbericht folgt demn&auml;chst. Bis dahin kann der geneigte Leser <a href="http://www.flickr.com/photos/schreibblogade/sets/72157623712921723/">Photos bei Flickr.com betrachten</a>.
+      Neulich war ich mal wieder in Deutschland. Der große Tatsachenbericht folgt demnächst. Bis dahin kann der geneigte Leser <a href="http://www.flickr.com/photos/schreibblogade/sets/72157623712921723/">Photos bei Flickr.com betrachten</a>.
     </p>

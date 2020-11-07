@@ -9,6 +9,6 @@ url: /2007/04/haha-no-remorse/
 
 
 ---
-Einen langen selbstbezogenen Eintrag schreiben, schnell noch einen Kommentar zu aktuellen s&uuml;dkoreanischen Themen schreiben, das Ganze l&ouml;schen und nichtssagende drei Zeilen schreiben. Posten. Schlafen gehen. 
+Einen langen selbstbezogenen Eintrag schreiben, schnell noch einen Kommentar zu aktuellen südkoreanischen Themen schreiben, das Ganze löschen und nichtssagende drei Zeilen schreiben. Posten. Schlafen gehen. 
 
 Ich brauche dringend wieder ein Blog. Einen Blog. Den Blog. Quasi.

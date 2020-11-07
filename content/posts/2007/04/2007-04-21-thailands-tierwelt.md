@@ -19,4 +19,4 @@ dsq_thread_id:
   </p>
 </div>
 
-Hier vertreten durch die Glubsch&auml;ugige Hundehaus-Schildkr&ouml;te, Cryptodira Testudinoidae Geoemydidae Plastica, die so nur noch in begrenzten Lebensr&auml;umen auf Samui im Dschungeldickicht von Ban Thai zu finden ist.
+Hier vertreten durch die Glubschäugige Hundehaus-Schildkröte, Cryptodira Testudinoidae Geoemydidae Plastica, die so nur noch in begrenzten Lebensräumen auf Samui im Dschungeldickicht von Ban Thai zu finden ist.

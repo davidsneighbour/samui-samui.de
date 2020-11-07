@@ -19,6 +19,6 @@ url: /2007/04/das-leben-im-dschungel-ii/
 
 Das Leben im Dschungel bringt manchmal weniger nette ?berraschungen mit sich. Wie beispielsweise das Ameisennest im Scanner. 
 
-Hab ihn kurz in die Sonne gestellt und die Ameisen zum Verlassen aufgefordert. Einige sind schnell verschwunden, der Gro&szlig;teil ist aber erstickt oder verbrannt oder was auch immer. Das ist mir aber inzwischen egal. Ameisen m&uuml;ssen nicht in meinem Haus leben.
+Hab ihn kurz in die Sonne gestellt und die Ameisen zum Verlassen aufgefordert. Einige sind schnell verschwunden, der Großteil ist aber erstickt oder verbrannt oder was auch immer. Das ist mir aber inzwischen egal. Ameisen müssen nicht in meinem Haus leben.
 
 Neulich waren sie noch in der Tripod-Tasche.

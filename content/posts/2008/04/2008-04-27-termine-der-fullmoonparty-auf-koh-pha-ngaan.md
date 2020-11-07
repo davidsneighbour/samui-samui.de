@@ -18,7 +18,7 @@ url: /2008/04/termine-der-fullmoonparty-auf-koh-pha-ngaan/
   * _Mittwoch, 31. Dezember 2008, Silvester Party_
   * Sonntag, 11. Januar 2009
   * Montag, 9. Februar 2009
-  * Mittwoch, 11. M&auml;rz 2009
+  * Mittwoch, 11. März 2009
   * Donnerstag, 9. April 2009
   * Samstag, 9. Mai 2009
   * Sonntag, 7. Juni 2009

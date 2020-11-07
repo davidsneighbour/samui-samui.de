@@ -17,4 +17,4 @@ url: /2008/01/am-wasserfall/
   </p>
 </div>
 
-Es soll ja Leute geben, die den Wasserfall &uuml;bersehen. Allerdings ist das Wort f&uuml;r Wasserfall und Stromschnelle im Thai anscheinend das Gleiche ;)
+Es soll ja Leute geben, die den Wasserfall übersehen. Allerdings ist das Wort für Wasserfall und Stromschnelle im Thai anscheinend das Gleiche ;)

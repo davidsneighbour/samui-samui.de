@@ -9,6 +9,6 @@ url: /2005/10/hah-hah-hah-hah-hah/
 
 
 ---
-[Moloko][1]. Wollt ich nur mal erw&auml;hnen.
+[Moloko][1]. Wollt ich nur mal erwähnen.
 
  [1]: http://www.moloko.co.uk/

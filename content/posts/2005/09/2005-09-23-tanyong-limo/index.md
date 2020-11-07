@@ -13,6 +13,6 @@ url: /2005/09/tanyong-limo/
 
 [Photos][1] (manche explizit, oben auf "Event" klicken (auch ein bisschen zynisch die Wortwahl))
 
-Mir fehlen die Worte. Manchmal liest man in der Bangkok-Post, dass viele Moslems den S&uuml;den Thailands verlassen und nach Malaysia auswandern. Es gibt immer mehrere Wege, ein Problem zu l&ouml;sen. Diese beiden sind falsch. Wenn es Tote aus religi&ouml;sen Gr&uuml;nden gibt, dann stimmt was mit den Religionen nicht.
+Mir fehlen die Worte. Manchmal liest man in der Bangkok-Post, dass viele Moslems den Süden Thailands verlassen und nach Malaysia auswandern. Es gibt immer mehrere Wege, ein Problem zu lösen. Diese beiden sind falsch. Wenn es Tote aus religiösen Gründen gibt, dann stimmt was mit den Religionen nicht.
 
  [1]: http://editorial.gettyimages.com/source/search/FrameSet.aspx?s=ImagesAdvancedSearchState%7c2%7c0%7c28%7cTanyong+Limo%7c0%7c0%7c0%7cThailand%7c1%7c%7c%7c%7c%7c0%7c0%7c0%7c0%7c0%7c0%7c0%7c%7c0%7c%7c7%7c-1%7c%7c0%7c%7c0%7c0%7c0%7c0%7c0&p=0&tag=7

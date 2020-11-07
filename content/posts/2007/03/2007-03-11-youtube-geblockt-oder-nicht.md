@@ -19,7 +19,7 @@ Zweitens: Ich konnte YouTube die ganze Zeit erreichen und habe jede Menge Nine I
 
 Drittens: Schon die ganze Woche hatte ich Probleme, auf Blogs zuzugreifen, die bei WordPress.com gehostet waren. Subdomains dort waren einfach nicht abrufbar. Die Hauptseite selbst war sichtbar, ohne Stylesheets allerdings.
 
-Ehe wir hier also von Zensur, Blocken und anderem Kram sprechen, stelle ich einfach mal fest, dass die "Techniker" vom "Zwangsproxy" in Bangkok einfach nur Mist gebaut haben. (Alle Anfragen ans Web werden durch zwei IPs in Bangkok geleitet wo bestimmte Seiten geblockt werden k&ouml;nnen).
+Ehe wir hier also von Zensur, Blocken und anderem Kram sprechen, stelle ich einfach mal fest, dass die "Techniker" vom "Zwangsproxy" in Bangkok einfach nur Mist gebaut haben. (Alle Anfragen ans Web werden durch zwei IPs in Bangkok geleitet wo bestimmte Seiten geblockt werden können).
 
 Thaksin-Interviews werden nicht mehr geblockt, sie werden mit Reaktionen torpediert. Ob man nun seinen ehemaligen Finanzminister als Regierungsberater einstellt oder seine Frau der Steuerhinterziehung anklagt. Seine Interviews blockieren will man nicht mehr.
 

@@ -9,7 +9,7 @@ url: /2006/07/nokachi-shikimime/
 
 
 ---
-Zur Zeit macht folgende Mail die thail&auml;ndischen Mailinglisten unsicher:
+Zur Zeit macht folgende Mail die thailändischen Mailinglisten unsicher:
 
 > What is your japanese name?
   
@@ -25,4 +25,4 @@ Zur Zeit macht folgende Mail die thail&auml;ndischen Mailinglisten unsicher:
   
 > W-mei; X-na; Y-fu; Z-zi
 
-Gut. Nokachi Shikimime Memotata Kichiarimiri. Bis zum Nokachi w&uuml;rde ich ja noch mitgehen. Klingt ein bisschen wie ein Pokemon-Charakter.
+Gut. Nokachi Shikimime Memotata Kichiarimiri. Bis zum Nokachi würde ich ja noch mitgehen. Klingt ein bisschen wie ein Pokemon-Charakter.

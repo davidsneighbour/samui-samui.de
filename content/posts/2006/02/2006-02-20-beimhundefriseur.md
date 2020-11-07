@@ -19,4 +19,4 @@ tags:
   </p>
 </div>
 
-Pokki ist &uuml;brigens nicht im Bild auch wenn der Shih-Tzu auf der linken Seite von weitem aussieht wie er. Kommt er n&auml;her, dann sieht man das fehlende wei&szlig;e Auge.
+Pokki ist übrigens nicht im Bild auch wenn der Shih-Tzu auf der linken Seite von weitem aussieht wie er. Kommt er näher, dann sieht man das fehlende weiße Auge.

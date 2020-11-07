@@ -17,7 +17,7 @@ url: /2007/11/regenbogen/
   </p>
 </div>
 
-Ok. Jetzt mal bitte viel Phantasie: Da war ein Regenbogen genau in der Mitte des Bildes. Zwischen den Palmen und B&auml;umen. Ein Viertelkreis-Regenbogen. Direkt auf der Wolke. [Hier][1] sieht man es bestimmt und wenn man es [hier][2] nicht sieht, dann weiss ich auch nicht mehr... Doofe Kamera :(
+Ok. Jetzt mal bitte viel Phantasie: Da war ein Regenbogen genau in der Mitte des Bildes. Zwischen den Palmen und Bäumen. Ein Viertelkreis-Regenbogen. Direkt auf der Wolke. [Hier][1] sieht man es bestimmt und wenn man es [hier][2] nicht sieht, dann weiss ich auch nicht mehr... Doofe Kamera :(
 
  [1]: http://flickr.com/photos/schreibblogade/1830448683/
  [2]: http://flickr.com/photos/schreibblogade/1831295202/

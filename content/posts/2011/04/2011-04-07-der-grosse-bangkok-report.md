@@ -1,5 +1,5 @@
 ---
-title: 'Der gro&szlig;e Bangkok-Report'
+title: 'Der große Bangkok-Report'
 author: Patrick Kollitsch
 type: post
 date: 2011-04-07T11:59:07+00:00

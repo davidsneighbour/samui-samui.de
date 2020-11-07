@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-Darf ich mal was sagen? Ja? Gut. Also: Ich mag Thailand. So ziemlich alles ist einfacher als in Deutschland. Manche Dinge sind schwerer. Allerdings sind _diese_ Dinge von geringer Wichtigkeit. Weshalb im Gro&szlig;en und Ganzen alles einfacher ist. 
+Darf ich mal was sagen? Ja? Gut. Also: Ich mag Thailand. So ziemlich alles ist einfacher als in Deutschland. Manche Dinge sind schwerer. Allerdings sind _diese_ Dinge von geringer Wichtigkeit. Weshalb im Großen und Ganzen alles einfacher ist. 
 
 Und der Rest ergibt sich dann sicherlich auch irgendwann.
 

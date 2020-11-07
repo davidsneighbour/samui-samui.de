@@ -22,5 +22,5 @@ dsq_thread_id:
     </a></div> 
     
     <p>
-      Mein neuer Untermieter. Nachts macht er Krach, Tags&uuml;ber schl&auml;ft er. Ein echter Geek.
+      Mein neuer Untermieter. Nachts macht er Krach, Tagsüber schläft er. Ein echter Geek.
     </p>

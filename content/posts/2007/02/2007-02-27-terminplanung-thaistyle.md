@@ -9,7 +9,7 @@ url: /2007/02/terminplanung-thaistyle/
 
 
 ---
-Ende Dezember 2006 (vergangenes Jahr quasi<txp:gho_footnote>Mit Gr&uuml;&szlig;en</txp:gho_footnote>):
+Ende Dezember 2006 (vergangenes Jahr quasi<txp:gho_footnote>Mit Grüßen</txp:gho_footnote>):
   
 Ich: I need an online-connection in my house next year. Is this possible?
   
@@ -43,13 +43,13 @@ Er: Yes. Yes. End of next week you have...
 
 ...
 
-Ende der n&auml;chsten Woche (also vergangenes Wochenende):
+Ende der nächsten Woche (also vergangenes Wochenende):
   
 Ich: Internet?
   
 Er: Yes. I don't know when. But you have to pay 3900 Baht now. 
   
-(Eine Stunde sp&auml;ter hatte ich einen Router, keine Leitung, im Hause stehen.)
+(Eine Stunde später hatte ich einen Router, keine Leitung, im Hause stehen.)
 
 ...
 
@@ -65,8 +65,8 @@ Heute:
   
 Er: Internet will come Thursday.
   
-(Donnerstag ist meiner Rechnung nach der n&auml;chste Monat.)
+(Donnerstag ist meiner Rechnung nach der nächste Monat.)
 
 ...
 
-H&auml;tte ich ein Geisterhaus, ich w&uuml;rde glatt ein paar R&auml;ucherst&auml;bchen anz&uuml;nden. In 48 Stunden wissen wir mehr.
+Hätte ich ein Geisterhaus, ich würde glatt ein paar Räucherstäbchen anzünden. In 48 Stunden wissen wir mehr.

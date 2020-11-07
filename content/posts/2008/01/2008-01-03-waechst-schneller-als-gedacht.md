@@ -1,5 +1,5 @@
 ---
-title: 'W&auml;chst schneller als gedacht…'
+title: 'Wächst schneller als gedacht…'
 author: Patrick Kollitsch
 type: post
 date: 2008-01-03T03:16:46+00:00

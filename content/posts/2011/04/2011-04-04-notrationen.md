@@ -25,7 +25,7 @@ Und hier eine Liste der Waren, die ein Thai einkauft, wenn ein dicklicher mittel
   * ein Pack Spirelli
   * zwei Glas Mushroom-Nudelso?e
   * eine Flasche ?l
-  * einen gro&szlig;en Pack Scheibenk&auml;se
+  * einen großen Pack Scheibenkäse
   * eine 2l-Flasche Ketchup
 
 und...

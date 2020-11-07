@@ -15,7 +15,7 @@ url: /2005/08/erotische-bilder-machen-blind/
 
 > Researchers have finally found evidence for what good Catholic boys have known all along ??? erotic images make you go blind. The effect is temporary and lasts just a moment, but the research has added to road-safety campaigners??? calls to ban sexy billboard-advertising near busy roads, in the hope of preventing accidents. [via [New Scientist Breaking News][1]
 
-Wer das mal testen will, geht kurz [zum thail&auml;ndischen Onlineauftritt der FHM][2].
+Wer das mal testen will, geht kurz [zum thailändischen Onlineauftritt der FHM][2].
 
 PS: Passend zum Thema: [Pornos verrotten langsamer][3].
 

@@ -1,6 +1,6 @@
 ---
 title: "128 Jahre / 11 Jahre"
-description: "Orn Parnchompoo sagt, er w&auml;re 128 Jahre alt. Auf seiner ID-Karte steht, dass er am 9. April 1891 geboren wurde, zur Regierungszeit von K&ouml;nig Chulalongkorn, dem 5. K&ouml;nig der Chakri-Dynastie. Sein \"Geheim\"-Tipp f&uuml;r ein langes Leben sind saubere Ern&auml;hrung und ausreichend Bewegung. "
+description: "Orn Parnchompoo sagt, er wäre 128 Jahre alt. Auf seiner ID-Karte steht, dass er am 9. April 1891 geboren wurde, zur Regierungszeit von König Chulalongkorn, dem 5. König der Chakri-Dynastie. Sein \"Geheim\"-Tipp für ein langes Leben sind saubere Ernährung und ausreichend Bewegung. "
 date: 2019-08-28T21:18:24+07:00
 lastmod: 2019-08-28T21:18:24+07:00
 url: /2019/08/128-jahre-11-jahre/
@@ -11,15 +11,15 @@ tags:
 
 {{< img src="128-jahre-11-jahre.jpg" >}}Orn Parnchompoo, vermutlich 128 Jahre alt (Quelle: [Khaosod.co.th](https://www.khaosod.co.th/around-thailand/news_2837472)){{< / img >}}
 
-Orn Parnchompoo, der etwas &auml;ltere Herr oben im Photo, sagt, er w&auml;re 128 Jahre alt. Auf seiner ID-Karte steht, dass er am 9. April 1891 geboren wurde, zur Regierungszeit von K&ouml;nig Chulalongkorn, dem 5. K&ouml;nig der Chakri-Dynastie. Sein "Geheim"-Tipp f&uuml;r ein langes Leben sind saubere Ern&auml;hrung und ausreichend Bewegung. 
+Orn Parnchompoo, der etwas ältere Herr oben im Photo, sagt, er wäre 128 Jahre alt. Auf seiner ID-Karte steht, dass er am 9. April 1891 geboren wurde, zur Regierungszeit von König Chulalongkorn, dem 5. König der Chakri-Dynastie. Sein "Geheim"-Tipp für ein langes Leben sind saubere Ernährung und ausreichend Bewegung. 
 
-Ein Grund, warum er nicht "offiziell" der &auml;teste Mann der Welt ist, wird vermutlich das recht lasch gehandhabte Meldewesen der vergangenen Jahrhunderte in Thailand sein. Ich habe eine &uuml;berdurchschnittlich gro&szlig;e Anzahl an Bekannten, die am 1. Januar eines Jahres geboren wurden, weil sie das genaue Datum nicht kannten, als sie eine ID-Karte (Personalausweis) beantragt haben. 
+Ein Grund, warum er nicht "offiziell" der äteste Mann der Welt ist, wird vermutlich das recht lasch gehandhabte Meldewesen der vergangenen Jahrhunderte in Thailand sein. Ich habe eine überdurchschnittlich große Anzahl an Bekannten, die am 1. Januar eines Jahres geboren wurden, weil sie das genaue Datum nicht kannten, als sie eine ID-Karte (Personalausweis) beantragt haben. 
 
-Seine Frau ist &uuml;brigens "nur" 70 Jahre alt. Geheiratet haben sie 1964, als sie 15 und er 73 Jahre alt war. Sie haben 7 Kinder, 11 Enkel und bisher 7 Urenkel. Auch haben sie sich nach eigenen Aussagen in 55 Jahren Ehe nicht ein einziges Mal gestritten. 
+Seine Frau ist übrigens "nur" 70 Jahre alt. Geheiratet haben sie 1964, als sie 15 und er 73 Jahre alt war. Sie haben 7 Kinder, 11 Enkel und bisher 7 Urenkel. Auch haben sie sich nach eigenen Aussagen in 55 Jahren Ehe nicht ein einziges Mal gestritten. 
 
-Wem das junge Alter der Braut jetzt etwas seltsam vorkommt, dem mag gesagt sein, dass es in diesen Gegenden durchaus gebr&auml;uchlich ist, M&auml;dchen mit &auml;teren Herren zu verheiraten. Erst vergangenes Jahr erzeugte ein Fall Aufsehen, in dem ein 11 j&auml;hriges Thaim&auml;dchen als Zweit-Frau an einen 41 Jahre alten Malayen "verkauft" wurde. Geld spielt in diesen F&auml;llen _immer_ eine Rolle. 
+Wem das junge Alter der Braut jetzt etwas seltsam vorkommt, dem mag gesagt sein, dass es in diesen Gegenden durchaus gebräuchlich ist, Mädchen mit äteren Herren zu verheiraten. Erst vergangenes Jahr erzeugte ein Fall Aufsehen, in dem ein 11 jähriges Thaimädchen als Zweit-Frau an einen 41 Jahre alten Malayen "verkauft" wurde. Geld spielt in diesen Fällen _immer_ eine Rolle. 
 
-Muslimische Frauen unter 16 Jahren (kein Gegensatz im Sharia-Gesetz) d&uuml;rfen mit der Zustimmung ihrer Eltern und des Sharia-Gerichts verheiratet werden. Und muslimische M&auml;nner in Malaysia d&uuml;rfen bis zu vier Frauen gleichzeitig haben. 
+Muslimische Frauen unter 16 Jahren (kein Gegensatz im Sharia-Gesetz) dürfen mit der Zustimmung ihrer Eltern und des Sharia-Gerichts verheiratet werden. Und muslimische Männer in Malaysia dürfen bis zu vier Frauen gleichzeitig haben. 
 
 Orn Parnchompoo hofft, 200 Jahre alt zu werden.
 

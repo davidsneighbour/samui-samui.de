@@ -17,13 +17,13 @@ Eben in der Mailbox:
 
 Zeichensetzung hab ich jetzt mal nicht den Gepflogenheiten in diesem Schmierenblatt angepasst.
 
-Ich finde, jeder darf seine Meinung haben. Auf der vom obigen Schreiberling genutzten Seite steht &uuml;brigens folgender Absatz <span class="caps">VOR</span> dem Formular:
+Ich finde, jeder darf seine Meinung haben. Auf der vom obigen Schreiberling genutzten Seite steht übrigens folgender Absatz <span class="caps">VOR</span> dem Formular:
 
 > Schroffe oder beleidigende Nachrichten werden wohlwollend unbeantwortet gelassen und zur späteren kommentierenden Publikation gesammelt.
 
-Was hiermit getan w&auml;re.
+Was hiermit getan wäre.
 
-Nach kurzem Googlen des Herren fand ich folgenden recht beschreibenden Satz, den er &uuml;ber sich selbst niederschrieb:
+Nach kurzem Googlen des Herren fand ich folgenden recht beschreibenden Satz, den er über sich selbst niederschrieb:
 
 > Entspannen,Abschalten und nicht zuviel nachdenken.
 

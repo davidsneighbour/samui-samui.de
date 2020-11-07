@@ -1,5 +1,5 @@
 ---
-title: 'Es bl&uuml;ht im Garten'
+title: 'Es blüht im Garten'
 author: Patrick Kollitsch
 type: post
 date: 2007-04-03T03:20:27+00:00

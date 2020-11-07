@@ -17,6 +17,6 @@ url: /2006/04/dergrossebuddha/
   </p>
 </div>
 
-Dass Big Buddha jetzt ein Lebensrad und ein Schiff im R&uuml;cken hat berichtete ich ja schon h&auml;ufiger. Am Anfang sah es noch so aus, als ob es nur eine tempor&auml;re Einrichtung f&uuml;r Loi Kratong sei, inzwischen ist es eine fest eingerichtete Sache. Da hat wohl jemand zuviel Geld gehabt. Abends blinkt das ganze dann. Ziemlich, ehm, sehenswert.
+Dass Big Buddha jetzt ein Lebensrad und ein Schiff im Rücken hat berichtete ich ja schon häufiger. Am Anfang sah es noch so aus, als ob es nur eine temporäre Einrichtung für Loi Kratong sei, inzwischen ist es eine fest eingerichtete Sache. Da hat wohl jemand zuviel Geld gehabt. Abends blinkt das ganze dann. Ziemlich, ehm, sehenswert.
 
 Jedenfalls gibts noch keine Postkarten mit dem neuen Motiv. Zwinker.

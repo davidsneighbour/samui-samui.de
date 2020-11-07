@@ -11,7 +11,7 @@ url: /2005/10/gespart/
 ---
 [{{< figure src="/wp-content/old-images/172.jpg" >}}][1]
 
-Es ist schon erw&auml;hnenswert, wenn ich dann doch mal Post bekomme. Mich mag ja niemand und so muss ich mir immer Werbepost kommen lassen, damit mir mal jemand schreibt. Und heute nun brachte der Postbote diesen Brief oben (anklicken, um den Absender zu lesen).
+Es ist schon erwähnenswert, wenn ich dann doch mal Post bekomme. Mich mag ja niemand und so muss ich mir immer Werbepost kommen lassen, damit mir mal jemand schreibt. Und heute nun brachte der Postbote diesen Brief oben (anklicken, um den Absender zu lesen).
 
 [Was da wohl drinnen sein mag][2]? 
 
@@ -19,7 +19,7 @@ Der Shopblogger schrieb neulich:
 
 > "Mr. Hostblogger" Manuel Schmitt verteilt seine Manitu-Kugelschreiber also in alle Welt. Warum sollte ich das nicht auch mit meinen Werbegeschenken machen?
 
-Ich hab nat&uuml;rlich angefragt ob "in alle Welt" ein rhetorisches Ungeschick war. War es wohl nicht. Im Anschreiben steht "Viel Spa&szlig; mit den Streichh&ouml;lzern w&uuml;nscht: [www.shopblogger.de][3]" --- Danke. Den werde ich haben. 
+Ich hab natürlich angefragt ob "in alle Welt" ein rhetorisches Ungeschick war. War es wohl nicht. Im Anschreiben steht "Viel Spaß mit den Streichhölzern wünscht: [www.shopblogger.de][3]" --- Danke. Den werde ich haben. 
 
 Ich werde berichten&trade;.
 

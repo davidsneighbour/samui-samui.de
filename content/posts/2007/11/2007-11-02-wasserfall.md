@@ -17,6 +17,6 @@ url: /2007/11/wasserfall/
   </p>
 </div>
 
-Es lebe die Regenzeit. Die sonst eher tr&auml;gen Wasserf&auml;lle der Insel sind tats&auml;chlich mal rei&szlig;end. Am Sonntag hatten wir [ein Picknick][1] am Wasserfall...
+Es lebe die Regenzeit. Die sonst eher trägen Wasserfälle der Insel sind tatsächlich mal reißend. Am Sonntag hatten wir [ein Picknick][1] am Wasserfall...
 
  [1]: http://flickr.com/photos/schreibblogade/1830277067/

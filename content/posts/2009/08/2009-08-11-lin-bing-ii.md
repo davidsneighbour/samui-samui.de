@@ -13,7 +13,7 @@ tags:
   - panda
 
 ---
-Thomas fragt in den Kommentaren des vorherigen Eintrages nach der Bedeutung des Panda-Namens "Lin Bing". Meine Quellen meinen, das sind Namen von Fl&uuml;ssen in Thailand und China. [Ping][1] im Norden Thailands und Kui Lin (vermutlich [Guilin][2]) in China.
+Thomas fragt in den Kommentaren des vorherigen Eintrages nach der Bedeutung des Panda-Namens "Lin Bing". Meine Quellen meinen, das sind Namen von Flüssen in Thailand und China. [Ping][1] im Norden Thailands und Kui Lin (vermutlich [Guilin][2]) in China.
 
 Noch Fragen?
 

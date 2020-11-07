@@ -19,8 +19,8 @@ tags:
   </p>
 </div>
 
-Heute war mein kleiner Hund im Hunde-Hospital. Dort hat der Doc ihn geduscht und geschrubbt und gleich mal gecheckt, was denn nun mit der Haut ist. <txp:gho_permalink id="653">Wie wir bereits angenommen haben</txp:gho_permalink> vertr&auml;gt er kein H&uuml;hnchen. Naja, Shih-Tzus sollen wohl generell H&uuml;hnerfleisch mit Hautproblemen beantworten und Pokki ist dazu noch allergisch dagegen. 
+Heute war mein kleiner Hund im Hunde-Hospital. Dort hat der Doc ihn geduscht und geschrubbt und gleich mal gecheckt, was denn nun mit der Haut ist. <txp:gho_permalink id="653">Wie wir bereits angenommen haben</txp:gho_permalink> verträgt er kein Hühnchen. Naja, Shih-Tzus sollen wohl generell Hühnerfleisch mit Hautproblemen beantworten und Pokki ist dazu noch allergisch dagegen. 
 
-Gut zu wissen. Schade nur, dass so ziemlich alles was er gerne frisst mit H&uuml;hnchen versetzt ist.
+Gut zu wissen. Schade nur, dass so ziemlich alles was er gerne frisst mit Hühnchen versetzt ist.
 
 Wuschelig ist er wieder und er riecht gut. Nicht so pink wie beim letzten Mal. Und ich habe endlich mal wieder ein Schwanzwedeln abbekommen. Nicht so freudig wie der Chef morgens (ich hab ihn ja auch im Krankenhaus alleine gelassen) aber man gibt sich ja mit wenig zufrieden.

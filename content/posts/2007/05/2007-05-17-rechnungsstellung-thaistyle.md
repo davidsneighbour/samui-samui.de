@@ -9,4 +9,4 @@ url: /2007/05/rechnungsstellung-thaistyle/
 
 
 ---
-Habe heute meine erste Online-Rechnung erhalten. Viel Geld f&uuml;r eine wackelige kleine Leitung in meine H&uuml;tte. Beim genaueren Hinsehen stellte ich dann fest, dass die Rechnungs-Thais mir die zwei Wochen, die ich den ganzen Tag in der H&uuml;tte auf die Strippenleger wartete, auch berechnet haben. Das wird noch Spa&szlig; geben. Mit Internet sollte man bei mir keine Scherze treiben.
+Habe heute meine erste Online-Rechnung erhalten. Viel Geld für eine wackelige kleine Leitung in meine Hütte. Beim genaueren Hinsehen stellte ich dann fest, dass die Rechnungs-Thais mir die zwei Wochen, die ich den ganzen Tag in der Hütte auf die Strippenleger wartete, auch berechnet haben. Das wird noch Spaß geben. Mit Internet sollte man bei mir keine Scherze treiben.

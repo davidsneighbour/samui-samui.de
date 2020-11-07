@@ -17,7 +17,7 @@ url: /2007/01/laos-oh-laos/
   </p>
 </div>
 
-Naja. Eigentlich wollte ich ja einen ausf&uuml;hrlichen Eintrag &uuml;ber Leben und Sein in Laos schreiben. Dummerweise bin ich viel zu faul, um die ganzen verteilten Notizen zu einem verst&auml;ndlichen Kauderwelsch zusammen zu fassen. Also habe ich die Bilder jetzt erstmal zu flickr.com geladen, ein kleines Set gepackt und erz&auml;hle vielleicht irgendwann einmal von Kevin, Rahim, Peter, dem alten Mann, dem kleinen M&auml;dchen, Sonnenunterg&auml;ngen, verfallenen Kolonialgeb&auml;uden, Details und Urnen in Tempeln, dem Dinosaurier-Museum und und und...
+Naja. Eigentlich wollte ich ja einen ausführlichen Eintrag über Leben und Sein in Laos schreiben. Dummerweise bin ich viel zu faul, um die ganzen verteilten Notizen zu einem verständlichen Kauderwelsch zusammen zu fassen. Also habe ich die Bilder jetzt erstmal zu flickr.com geladen, ein kleines Set gepackt und erzähle vielleicht irgendwann einmal von Kevin, Rahim, Peter, dem alten Mann, dem kleinen Mädchen, Sonnenuntergängen, verfallenen Kolonialgebäuden, Details und Urnen in Tempeln, dem Dinosaurier-Museum und und und...
 
 [Laos, Savannakhet --- flickr-Set][1]
 

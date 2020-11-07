@@ -17,8 +17,8 @@ url: /2006/09/noch-einen-tag/
   </p>
 </div>
 
-"Neung wuan, then finish" sagte mir eben mein Landlord als wir uns &uuml;ber die t&auml;glich durch den Vorgarten gallopierenden B&uuml;ffel unterhielten. Letzten Mittwoch gab es wohl Verletzte so dass am Donnerstag das Geb&uuml;ffel verboten war. Ab Freitag dann liefen sie aber wieder vorbei am Haus. Ich habe so langsam aber sicher das Gef&uuml;hl, dass es bei diesen B&uuml;ffelk&auml;mpfen darum geht, welcher B&uuml;ffel als erster die Absperrung durchbricht.
+"Neung wuan, then finish" sagte mir eben mein Landlord als wir uns über die täglich durch den Vorgarten gallopierenden Büffel unterhielten. Letzten Mittwoch gab es wohl Verletzte so dass am Donnerstag das Gebüffel verboten war. Ab Freitag dann liefen sie aber wieder vorbei am Haus. Ich habe so langsam aber sicher das Gefühl, dass es bei diesen Büffelkämpfen darum geht, welcher Büffel als erster die Absperrung durchbricht.
 
-F&uuml;r alle, die auf dem Bild wie ich auch nichts erkennen k&ouml;nnen: rechts von der im Weg stehenden Palme sieht man zwei B&uuml;ffelr&uuml;cken durch die Pampa rasen und links von der Palme die Staubspur, die sie hinterlassen. 
+Für alle, die auf dem Bild wie ich auch nichts erkennen können: rechts von der im Weg stehenden Palme sieht man zwei Büffelrücken durch die Pampa rasen und links von der Palme die Staubspur, die sie hinterlassen. 
 
-Irgendwas m&uuml;ssen sie an der Kampfarena ge&auml;ndert haben, denn die Tage nach vergangenem Mittwoch liefen sie nur noch rechts am Haus in der Entfernung wie im Photo vorbei. Allerdings ist 50 Meter weiter auch schon die Ringroad.
+Irgendwas müssen sie an der Kampfarena geändert haben, denn die Tage nach vergangenem Mittwoch liefen sie nur noch rechts am Haus in der Entfernung wie im Photo vorbei. Allerdings ist 50 Meter weiter auch schon die Ringroad.

@@ -9,4 +9,4 @@ url: /2005/11/samstag-morgen/
 
 
 ---
-Ich sp&uuml;re mein Herz schlagen ohne Kaffee getrunken zu haben. Ein unwohles Gef&uuml;hl. Irgendwie.
+Ich spüre mein Herz schlagen ohne Kaffee getrunken zu haben. Ein unwohles Gefühl. Irgendwie.

@@ -13,4 +13,4 @@ dsq_thread_id:
 ---
 {{< figure src="/wp-content/old-images/98.jpg" >}}
 
-Die haben einfach meine Tankstelle abgerissen. Wo die doch so sch&ouml;n auf dem Weg zur Arbeit lag. Nun muss ich nach Chaweng oder runter nach Hua Thanon. Das ist eine kleine Weltreise ;)
+Die haben einfach meine Tankstelle abgerissen. Wo die doch so schön auf dem Weg zur Arbeit lag. Nun muss ich nach Chaweng oder runter nach Hua Thanon. Das ist eine kleine Weltreise ;)

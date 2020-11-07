@@ -9,4 +9,4 @@ url: /2006/08/electricity/
 
 
 ---
-Ich sag mal, mit steigender Zahl der Visar&uuml;nne sinkt die Qualit&auml;t selbiger. Mehr morgen.
+Ich sag mal, mit steigender Zahl der Visarünne sinkt die Qualität selbiger. Mehr morgen.

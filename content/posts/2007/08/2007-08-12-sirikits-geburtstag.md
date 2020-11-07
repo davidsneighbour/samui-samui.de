@@ -17,4 +17,4 @@ url: /2007/08/sirikits-geburtstag/
   </p>
 </div>
 
-Heute hat K&ouml;nigin Sirikit Geburtstag, weshalb seit Tagen wieder ihre Standbilder die Stra&szlig;enr&auml;nder s&auml;umen. Sie wird nun 75 Jahre alt. &Uuml;ber ihre Verdienste habe ich vor zwei Jahren schonmal geschrieben.
+Heute hat Königin Sirikit Geburtstag, weshalb seit Tagen wieder ihre Standbilder die Straßenränder säumen. Sie wird nun 75 Jahre alt. Über ihre Verdienste habe ich vor zwei Jahren schonmal geschrieben.

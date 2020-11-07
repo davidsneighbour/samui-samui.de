@@ -1,5 +1,5 @@
 ---
-title: 'Zukunftsgepl&auml;nkel'
+title: 'Zukunftsgeplänkel'
 author: Patrick Kollitsch
 type: post
 date: 2009-12-21T01:39:46+00:00

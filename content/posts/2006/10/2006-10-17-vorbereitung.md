@@ -9,7 +9,7 @@ url: /2006/10/vorbereitung/
 
 
 ---
-Nahezu der ganze Rest des Landes steht unter Wasser. --- in Samui beginnt die Regenzeit immer etwas sp&auml;ter. Koh Samui District Chief Decha Kangsanant (?าย???า ?ั?ส?ั???) (das ist sowas wie der Inselbürgermeister) hat jedenfalls [verkündet][1], dass die Insel vorbereitet ist. 
+Nahezu der ganze Rest des Landes steht unter Wasser. --- in Samui beginnt die Regenzeit immer etwas später. Koh Samui District Chief Decha Kangsanant (?าย???า ?ั?ส?ั???) (das ist sowas wie der Inselbürgermeister) hat jedenfalls [verkündet][1], dass die Insel vorbereitet ist. 
 
 Nachdem man einige Millionen in die Reinigung und Reparatur der Abwasserkanäle gesteckt hat (in den vergangenen Wochen war Bophut und Lamai eine ständige Seitenstreifenbaustelle) denkt man, dass das Wasser diesmal besser abfliessen dürfte als zum Jahreswechsel vergangenen Jahres. 
 

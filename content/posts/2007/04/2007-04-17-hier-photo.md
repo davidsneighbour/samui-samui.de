@@ -19,6 +19,6 @@ url: /2007/04/hier-photo/
 
 Mangels Interesse an meinem Blog (meinerseits, ja, solche Phasen gibt es) hier ein Photo. Das bin ich. Kuckt mich an. Die Haare sind wieder viel zu lang. Ich gedenke ein kleines Experiment, ehm, anzustellen.
 
-Das sind diese durch parasoziologische Str&auml;nge getr&auml;nkten Reallife-Phasen. Vergeht auch wieder. Kurze S&auml;tze. Viele Punkte. Nur das Gelb des Hauses bleibt.
+Das sind diese durch parasoziologische Stränge getränkten Reallife-Phasen. Vergeht auch wieder. Kurze Sätze. Viele Punkte. Nur das Gelb des Hauses bleibt.
 
-N&auml;chstes Wochenende wird der Entwurf der neuen Verfassung vorgestellt. F&uuml;r Thailand. Dann liest man sich sicher wieder.
+Nächstes Wochenende wird der Entwurf der neuen Verfassung vorgestellt. Für Thailand. Dann liest man sich sicher wieder.

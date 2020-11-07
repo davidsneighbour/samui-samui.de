@@ -13,4 +13,4 @@ Am Wochenende war ich übrigens wieder mal im lokalen Lichtspielhaus und habe mi
 
 Interessant finde ich, dass die Karaokebar, die Bowlingbahn und die Aircondition im Kino genügend Strom hatten, um durch den Ausfall zu kommen. Da werden noch Prioritäten gesetzt. Der Kinobesitzer (oder sagen wir mal lieber Franchisenehmer?) ist ein alter Chinese der dort immer im Foyer rumhockt und nach den Stromausfallfilmen emsig seine Kinosäle nach Wutäu?erungen durchsucht. Eines Tages werde ich mein Popcorn in den vorderen Reihen verteilen und ihm die kahle Kopfhaut zerkratzen. Mit Filmunterbrechungen kann man mich zum Monster machen...
 
-Ich will eine gro&szlig;e Leinwand, Dolbyklang und kuschelige Dunkelheit! Ist das eigentlich zuviel verlangt?
+Ich will eine große Leinwand, Dolbyklang und kuschelige Dunkelheit! Ist das eigentlich zuviel verlangt?

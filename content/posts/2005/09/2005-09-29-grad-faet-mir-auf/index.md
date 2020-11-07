@@ -9,4 +9,4 @@ url: /2005/09/grad-faet-mir-auf/
 
 
 ---
-... dass die Welt **doch** ganz sch&ouml;n Schei&szlig;e ist. Jaja. Hat sie fast geschafft, mich zu blenden. Aber nich mit mir nich. Klar!?
+... dass die Welt **doch** ganz schön Scheiße ist. Jaja. Hat sie fast geschafft, mich zu blenden. Aber nich mit mir nich. Klar!?

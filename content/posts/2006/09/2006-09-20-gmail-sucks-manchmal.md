@@ -9,4 +9,4 @@ url: /2006/09/gmail-sucks-manchmal/
 
 
 ---
-So toll ich Gmail auch finde, dass es _alle_ Mails aus _allen_ meinen Blogs in den Spamordner schickt finde ich sehr aussagekr&auml;ftig. Hei&szlig;t das jetzt, dass meine Server-IP irgendwo blackgelistet ist?
+So toll ich Gmail auch finde, dass es _alle_ Mails aus _allen_ meinen Blogs in den Spamordner schickt finde ich sehr aussagekräftig. Heißt das jetzt, dass meine Server-IP irgendwo blackgelistet ist?

@@ -9,4 +9,4 @@ url: /2005/11/yeah/
 
 
 ---
-Mehr sp&auml;ter.
+Mehr später.

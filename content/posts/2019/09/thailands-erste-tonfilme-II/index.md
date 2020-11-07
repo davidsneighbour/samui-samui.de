@@ -12,10 +12,10 @@ resources:
 
 {{< youtube s8FIDQ_yB4A >}}
 
-Das Thail&auml;ndische Filmarchiv hat vor ein paar Tagen die ersten bekannten Tonfilme aus Thailand der &Ouml;ffentlichkeit vorgestellt. Entdeckt wurden sie in den Archiven der Universit&auml;t von South Carolina in den USA. Aufgenommen wurden sie von Fox Movietone in den 30er Jahren des vergangenen Jahrhunderts. 
+Das Thailändische Filmarchiv hat vor ein paar Tagen die ersten bekannten Tonfilme aus Thailand der Öffentlichkeit vorgestellt. Entdeckt wurden sie in den Archiven der Universität von South Carolina in den USA. Aufgenommen wurden sie von Fox Movietone in den 30er Jahren des vergangenen Jahrhunderts. 
 
 Wir sehen eine kleine Band, die sehr ausdrucksvoll, hehe, Amerikanische Musik spielt. 
 
-Dieses Video wurde am 21. M&auml;rz 1930 gedreht.
+Dieses Video wurde am 21. März 1930 gedreht.
 
 Quelle: University of South Carolina

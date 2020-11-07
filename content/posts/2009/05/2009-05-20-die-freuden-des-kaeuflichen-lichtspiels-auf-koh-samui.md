@@ -29,7 +29,7 @@ Nach weiteren 10 Minuten wurden wir nach draussen geführt und durften uns an de
 
 Als wir dann versuchten, vergangenes Wochenende unsere Gutscheine einzulösen, wusste niemand, was das ist und wie man das im Kassensystem eingeben kann. 
 
-Thema Kultur: Samui hat jetzt nicht nur ein Lichtspielhaus, es hat auch sein [erstes jährliches Filmfestival][1]. Vom 14. bis 16. August diesen Jahres werden an einem noch bekanntzugebenden Ort hier auf der Insel [Filme gezeigt][2], die wohl kein anderes Kino auf der Insel zeigen würde. Ich bin gespannt. Vor allem ob sich das j&auml;hrlich auf die Austragungszeiten bezieht.
+Thema Kultur: Samui hat jetzt nicht nur ein Lichtspielhaus, es hat auch sein [erstes jährliches Filmfestival][1]. Vom 14. bis 16. August diesen Jahres werden an einem noch bekanntzugebenden Ort hier auf der Insel [Filme gezeigt][2], die wohl kein anderes Kino auf der Insel zeigen würde. Ich bin gespannt. Vor allem ob sich das jährlich auf die Austragungszeiten bezieht.
 
  [1]: http://www.samuifilmfestival.com/
  [2]: http://www.samuifilmfestival.com/films.html

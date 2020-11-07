@@ -51,7 +51,7 @@ Im Krankenhaus angekommen sa?en jede Menge Hundebabies in der Warteschlange. Feb
 
 Dummerweise war nur die Assistentin des Tierarztes da. Eine Zeit lang nahm ich an, dass beide eine gleiche Ausbildung genossen haben. Eines Tages aber, als Pokki seinen vom braunen Hund gebrochenen Kiefer behandeln lassen musste, war nur sie da und reagierte ganz panisch als ich die Zahnspange nachrichten lassen wollte. Wir mussten dann eine Stunde auf den "echten" Doktor warten, der das Ganze in 5 Minuten erledigte. Spritzen setzen darf sie aber schon.
 
-Sie untersuchte Soosie auf Wunden und fand ein weiteres kleineres Bissloch unterhalb des Beines. Soosie wurde rasiert (gl&uuml;cklicherweise oder leider nur an den Wunden) und sie begann, mit metallischen Gegenständen in der Wunde herum zu stochern. Mir war dabei nicht sehr wohl. Jedenfalls stellte sie fest, dass da wohl noch einige innere Verletzungen seien. Ich wurde raus geschickt und durfte draussen auf Soosie warten.
+Sie untersuchte Soosie auf Wunden und fand ein weiteres kleineres Bissloch unterhalb des Beines. Soosie wurde rasiert (glücklicherweise oder leider nur an den Wunden) und sie begann, mit metallischen Gegenständen in der Wunde herum zu stochern. Mir war dabei nicht sehr wohl. Jedenfalls stellte sie fest, dass da wohl noch einige innere Verletzungen seien. Ich wurde raus geschickt und durfte draussen auf Soosie warten.
 
 Die Zeit zog sich hin und nach gut drei?ig Minuten standen jede Menge Hunde und eine schwangere Katze in der Warteschlange und bebellten sich gegenseitig. Mir war bei der Dauer auch nicht sehr wohl zumute.
 

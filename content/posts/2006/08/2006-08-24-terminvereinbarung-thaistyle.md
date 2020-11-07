@@ -31,6 +31,6 @@ Khun Dthoh: Ehm, we want to apologize because they cut energy in Lamai and you m
   
 Ich: No, I waited yesterday the whole day...
 
-Gemeint hat er die ganze Zeit "wuan par&uuml;hat" was Donnerstag ist. H&auml;tte er es mal gesagt. Hat er aber nicht. Weil er, wie alle Thais wichtige Dinge sofort versucht auf Englisch zu sagen. Selbst wenn er diese Sprache nicht ann&auml;hernd sprechen kann. Aber es ist wichtig f&uuml;r den Farang, also spricht man _seine_ Sprache.
+Gemeint hat er die ganze Zeit "wuan parühat" was Donnerstag ist. Hätte er es mal gesagt. Hat er aber nicht. Weil er, wie alle Thais wichtige Dinge sofort versucht auf Englisch zu sagen. Selbst wenn er diese Sprache nicht annähernd sprechen kann. Aber es ist wichtig für den Farang, also spricht man _seine_ Sprache.
 
 Wir haben jetzt vereinbart dass er alles erst einmal auf Thai sagt ehe er es mir bequem machen will...

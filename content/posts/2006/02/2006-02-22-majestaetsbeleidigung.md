@@ -1,5 +1,5 @@
 ---
-title: 'Majest&auml;tsbeleidigung'
+title: 'Majestätsbeleidigung'
 author: Patrick Kollitsch
 type: post
 date: 2006-02-21T21:00:43+00:00

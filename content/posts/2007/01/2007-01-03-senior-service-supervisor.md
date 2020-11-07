@@ -17,6 +17,6 @@ url: /2007/01/senior-service-supervisor/
   </p>
 </div>
 
-Ich habe schon einen Benutzer unter einem Exchange-Server eingerichtet, Rechte f&uuml;r einen Ordner vergeben, jede Menge Kram gebackuppt und einen Barcodefont installiert. Alles ein click-and-point-Spiel. F&uuml;r _Den Kunden_&trade; aber sieht es so aus, als ob ich ein Halbgott mit goldenen Notebooktasten bin. 
+Ich habe schon einen Benutzer unter einem Exchange-Server eingerichtet, Rechte für einen Ordner vergeben, jede Menge Kram gebackuppt und einen Barcodefont installiert. Alles ein click-and-point-Spiel. Für _Den Kunden_&trade; aber sieht es so aus, als ob ich ein Halbgott mit goldenen Notebooktasten bin. 
 
 Jaja... Windows...

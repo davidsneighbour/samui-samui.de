@@ -17,4 +17,4 @@ url: /2007/12/nasszellenkur/
   </p>
 </div>
 
-Wenn der Geruch den Knuddelfaktor &uuml;berwiegt, ist mal wieder Zeit, f&uuml;r eine kombinierte Schaum-Seifen-Kur. Pokki hat es &uuml;ber sich ergehen lassen. Relativ gelassen, muss ich sagen. Ich bin da mehr Widerstand gewohnt. Vielleicht war auch er vom Geruch angespornt.
+Wenn der Geruch den Knuddelfaktor überwiegt, ist mal wieder Zeit, für eine kombinierte Schaum-Seifen-Kur. Pokki hat es über sich ergehen lassen. Relativ gelassen, muss ich sagen. Ich bin da mehr Widerstand gewohnt. Vielleicht war auch er vom Geruch angespornt.

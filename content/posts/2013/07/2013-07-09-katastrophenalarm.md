@@ -11,7 +11,7 @@ fb_author_post_id:
 
 
 ---
-Eben im 7eleven --- ein freundliches Hinweisschild h&auml;ngt an allen leeren Regalen:
+Eben im 7eleven --- ein freundliches Hinweisschild hängt an allen leeren Regalen:
 
 > Sorry about product,
   
@@ -21,6 +21,6 @@ Eben im 7eleven --- ein freundliches Hinweisschild h&auml;ngt an allen leeren Re
   
 > because shop not live in disaster
 
-Was freundlich &uuml;bersetzt ungef&auml;hr heisst: "Sorry f&uuml;r dieses Produkt, aber der Shop schlie&szlig;t von 12. bis 30. Juli, weil der Shop nicht in Katastrophen lebt."
+Was freundlich übersetzt ungefähr heisst: "Sorry für dieses Produkt, aber der Shop schließt von 12. bis 30. Juli, weil der Shop nicht in Katastrophen lebt."
 
-Jetzt &uuml;berlege ich schon die ganze Zeit ob das nun eine Unwetter- oder Renovierungs-Warnung ist.
+Jetzt überlege ich schon die ganze Zeit ob das nun eine Unwetter- oder Renovierungs-Warnung ist.

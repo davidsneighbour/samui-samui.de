@@ -9,9 +9,9 @@ url: /2006/05/oleeeeholeholeholeeeh/
 
 
 ---
-Demn&auml;chst scheint man in Deutschland h&auml;ufiger Fussball&trade; zu spielen. Hier in Thailand ist man trotz Nichtteilnahme sehr daran interessiert und &uuml;bertr&auml;gt nat&uuml;rlich alle Spiele live (und in Farbe). Die Zeiten sind nat&uuml;rlich optimal f&uuml;r die Expats hier. Ich kann mir schwer vorstellen, dass in Deutschland 15 Uhr jemand Zeit findet, B&auml;lle getreten zu sehen ;) 
+Demnächst scheint man in Deutschland häufiger Fussball&trade; zu spielen. Hier in Thailand ist man trotz Nichtteilnahme sehr daran interessiert und überträgt natürlich alle Spiele live (und in Farbe). Die Zeiten sind natürlich optimal für die Expats hier. Ich kann mir schwer vorstellen, dass in Deutschland 15 Uhr jemand Zeit findet, Bälle getreten zu sehen ;) 
 
-Jedenfalls hier ist der Fernsehplan f&uuml;r die Fussball&trade;fanatiker in Thailand (und ich hoffe mal, ich habe die L&auml;ndernamen richtig &uuml;bersetzt): 
+Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailand (und ich hoffe mal, ich habe die Ländernamen richtig übersetzt): 
 
 <table summary="Ausstrahlungszeiten der Fussball-WM in Thailand" cellspacing="0">
   <tr>

@@ -1,5 +1,5 @@
 ---
-title: 'Gr&uuml;&szlig;e aus den Tropen'
+title: 'Grüße aus den Tropen'
 author: Patrick Kollitsch
 type: post
 date: 2005-10-22T03:52:27+00:00

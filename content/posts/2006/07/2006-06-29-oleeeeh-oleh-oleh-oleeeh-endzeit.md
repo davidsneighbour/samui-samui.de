@@ -9,7 +9,7 @@ url: /2006/06/oleeeeh-oleh-oleh-oleeeh-endzeit/
 
 
 ---
-Man w&ouml;llte meinen nach einem Monat voll Rumgespiele haben die Leute endlich genug vom beinah idealen Rund. Haben sie aber nicht. Gl&uuml;cklicherweise habe ich gelesen, dass nach dem 9. Juli dann wirklich Schluss sein wird. Gut so. Hier also die Ausstrahlungszeiten f&uuml;r die thail&auml;ndischen Fernsehsender. F&uuml;r drei der Termine stehen die Sender entweder noch nicht fest oder es sind alle f&uuml;nf Sender gleichzeitig online. Das muss ich noch tranlatieren.
+Man wöllte meinen nach einem Monat voll Rumgespiele haben die Leute endlich genug vom beinah idealen Rund. Haben sie aber nicht. Glücklicherweise habe ich gelesen, dass nach dem 9. Juli dann wirklich Schluss sein wird. Gut so. Hier also die Ausstrahlungszeiten für die thailändischen Fernsehsender. Für drei der Termine stehen die Sender entweder noch nicht fest oder es sind alle fünf Sender gleichzeitig online. Das muss ich noch tranlatieren.
 
 <table summary="Ausstrahlungszeiten der Fussball-WM in Thailand, letzte Runde" cellspacing="0">
   <tr>
@@ -182,7 +182,7 @@ Man w&ouml;llte meinen nach einem Monat voll Rumgespiele haben die Leute endlich
     </td>
     
     <td>
-      M&uuml;nchen
+      München
     </td>
     
     <td>

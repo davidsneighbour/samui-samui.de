@@ -9,7 +9,7 @@ url: /2006/03/wahlzettel/
 
 
 ---
-So ganz glaub ich es noch nicht, aber das hier soll der Wahlzettel f&uuml;r Sonntag sein (anklicken f&uuml;rs gro&szlig;e Original). Ich lass mal meine Praktikant(inn)en ermitteln. Viel interessanter finde ich die Frage, was oder wer sich hinter der 502 verbirgt. Ein Wahlf&auml;lschungsskandal? Das w&auml;r ja mal was. Wahlf&auml;lschung aufgedeckt durch ein kleines deutsches Blog...
+So ganz glaub ich es noch nicht, aber das hier soll der Wahlzettel für Sonntag sein (anklicken fürs große Original). Ich lass mal meine Praktikant(inn)en ermitteln. Viel interessanter finde ich die Frage, was oder wer sich hinter der 502 verbirgt. Ein Wahlfälschungsskandal? Das wär ja mal was. Wahlfälschung aufgedeckt durch ein kleines deutsches Blog...
 
 [![Thai Election?][1]][2]
 

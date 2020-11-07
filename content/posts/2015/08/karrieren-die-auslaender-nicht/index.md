@@ -18,14 +18,14 @@ resources:
 
 {{< gallery >}}
 
-Neulich hat das Thail&auml;ndische Arbeitsministerium eine Liste der Jobs, die man als Ausl&auml;nder in Thailand nicht aus&uuml;ben darf, ver&ouml;ffentlicht. Zu dumm nur, dass der Azubi bei seiner Bewerbung bei den Angaben zu den Sprachen die er spricht gelogen hat und anscheinend Google Translate genutzt hat. 
+Neulich hat das Thailändische Arbeitsministerium eine Liste der Jobs, die man als Ausländer in Thailand nicht ausüben darf, veröffentlicht. Zu dumm nur, dass der Azubi bei seiner Bewerbung bei den Angaben zu den Sprachen die er spricht gelogen hat und anscheinend Google Translate genutzt hat. 
 
-Und so gibt es interessante Beschr&auml;nkungen wie bspw:
+Und so gibt es interessante Beschränkungen wie bspw:
 
   * Das Proletariat
   * Den Verkauf jeder Seite
   * Arbeit an goldenen oder silbernen Ottern
-  * T&auml;tigkeiten als Thai-Puppe
+  * Tätigkeiten als Thai-Puppe
   * Jobs als Buddha
   * Dinge die man von Hand rollt
   * und viele mehr

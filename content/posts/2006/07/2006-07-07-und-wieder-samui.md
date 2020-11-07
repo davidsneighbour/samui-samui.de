@@ -9,7 +9,7 @@ url: /2006/07/und-wieder-samui/
 
 
 ---
-Ich hatte "[Samui][1]" ja <txp:gho_permalink id="419">bereits einmal</txp:gho_permalink> erw&auml;hnt. Nichtsdestotrotz darf ich sie nochmal erw&auml;hnen. Erw&auml;hnte ich schonmal, dass ich auf (S&uuml;dost)Asiatinnen stehe? Lecker lecker.
+Ich hatte "[Samui][1]" ja <txp:gho_permalink id="419">bereits einmal</txp:gho_permalink> erwähnt. Nichtsdestotrotz darf ich sie nochmal erwähnen. Erwähnte ich schonmal, dass ich auf (Südost)Asiatinnen stehe? Lecker lecker.
 
 [<img width="420" src="//static.flickr.com/29/51178687_3366a41591.jpg" alt="Samui" />][2]
 

@@ -12,7 +12,7 @@ url: /2006/05/der-tag-der-neun-tempel/
 ---
 Neulich war Songkran, das buddhistische Neujahrsfest. Bis vor einigen Jahren war das identisch mit dem thailändischen kalendarischen Neujahr. Inzwischen ist auch hier der 1. Januar der erste Tag des Jahres. Das hält die Thailänder nicht davon ab auch Songkran zu feiern. Es findet jedes Jahr vom 13. bis zum 15. April statt. Am Tag vor Songkran sollte man sein Haus säubern, damit der "Dreck des alten Jahres" nicht mit ins neue Jahr kommt. 
 
-Eine der vielen Traditionen zu Songkran ist &uuml;brigens der Besuch von neun Tempeln, was wir dann auch gemacht haben. Man bringt den M&ouml;nchen verschiedene Dinge f&uuml;rs t&auml;gliche Leben (das kann ein Eimer voller Lebensmittel sein oder auch nur ein bisschen Medizin) und tut damit Gutes (tham bon) f&uuml;rs n&auml;chste Leben. </div> 
+Eine der vielen Traditionen zu Songkran ist übrigens der Besuch von neun Tempeln, was wir dann auch gemacht haben. Man bringt den Mönchen verschiedene Dinge fürs tägliche Leben (das kann ein Eimer voller Lebensmittel sein oder auch nur ein bisschen Medizin) und tut damit Gutes (tham bon) fürs nächste Leben. </div> 
 
 <div id="map" style="height:550px;width:508px;margin:5px 0;border:1px solid #000;">
 </div>
@@ -33,7 +33,7 @@ Eine der vielen Traditionen zu Songkran ist &uuml;brigens der Besuch von neun Te
       </p>
       
       <p>
-        Das ist der "Wat nebenan". Ich komme nahezu t&auml;glich dran vorbei.<br /> Die Leute aus Ban Maenam feiern hier ihre Feste, gehen w&auml;hlen und<br /> sitzen auch sonst immer hier herum. Die M&ouml;nche allerdings waren nicht sehr nett (m&uuml;ssen sie auch nicht).
+        Das ist der "Wat nebenan". Ich komme nahezu täglich dran vorbei.<br /> Die Leute aus Ban Maenam feiern hier ihre Feste, gehen wählen und<br /> sitzen auch sonst immer hier herum. Die Mönche allerdings waren nicht sehr nett (müssen sie auch nicht).
       </p>
       
       <p>
@@ -47,7 +47,7 @@ Eine der vielen Traditionen zu Songkran ist &uuml;brigens der Besuch von neun Te
       </p>
       
       <p>
-        In diesem Tempel gibt es nur einen einzigen M&ouml;nch. Der allerdings war sehr gespr&auml;chig und hielt eine kleine Predigt. Die ich nicht verstand, aber im Grunde ging es darum, Gutes zu tun (tham bon).
+        In diesem Tempel gibt es nur einen einzigen Mönch. Der allerdings war sehr gesprächig und hielt eine kleine Predigt. Die ich nicht verstand, aber im Grunde ging es darum, Gutes zu tun (tham bon).
       </p>
       
       <p>
@@ -61,7 +61,7 @@ Eine der vielen Traditionen zu Songkran ist &uuml;brigens der Besuch von neun Te
       </p>
       
       <p>
-        Diesen Wat habe ich schon &ouml;fters besucht. Diesmal war er mit vielen Kindern bev&ouml;lkert, die zu Songkran meistens einige Tage als M&ouml;nch leben.
+        Diesen Wat habe ich schon öfters besucht. Diesmal war er mit vielen Kindern bevölkert, die zu Songkran meistens einige Tage als Mönch leben.
       </p>
       
       <p>
@@ -75,7 +75,7 @@ Eine der vielen Traditionen zu Songkran ist &uuml;brigens der Besuch von neun Te
       </p>
       
       <p>
-        Hier nahm ein uralter M&ouml;nch, der im Sitzen schlief und nur noch Haut und Knochen war, unsere Geschenke entgegen. Pokki bekam von ihm<br /> dann Wasser angeboten.
+        Hier nahm ein uralter Mönch, der im Sitzen schlief und nur noch Haut und Knochen war, unsere Geschenke entgegen. Pokki bekam von ihm<br /> dann Wasser angeboten.
       </p>
       
       <p>
@@ -103,7 +103,7 @@ Eine der vielen Traditionen zu Songkran ist &uuml;brigens der Besuch von neun Te
       </p>
       
       <p>
-        Wer auf Samui war und diesen Tempel nicht besucht hat ist bedauernswert. Rings um einen kleinen Wasserfall verbergen sich mitten im Dschungel einige Statuen und ein sehr ruhiger Tempel. Der Headmonk spricht Englisch und hat uns w&auml;hrend er zu Mittag a&szlig; einige thail&auml;ndische Klatschmagazine durchbl&auml;ttern lassen.
+        Wer auf Samui war und diesen Tempel nicht besucht hat ist bedauernswert. Rings um einen kleinen Wasserfall verbergen sich mitten im Dschungel einige Statuen und ein sehr ruhiger Tempel. Der Headmonk spricht Englisch und hat uns während er zu Mittag aß einige thailändische Klatschmagazine durchblättern lassen.
       </p>
       
       <p>
@@ -117,7 +117,7 @@ Eine der vielen Traditionen zu Songkran ist &uuml;brigens der Besuch von neun Te
       </p>
       
       <p>
-        Sehr sch&ouml;ner Tempel. Etwas abgelegen. Es machten sich erste Erm&uuml;dungserscheinungen bemerkbar.
+        Sehr schöner Tempel. Etwas abgelegen. Es machten sich erste Ermüdungserscheinungen bemerkbar.
       </p>
       
       <p>
@@ -131,7 +131,7 @@ Eine der vielen Traditionen zu Songkran ist &uuml;brigens der Besuch von neun Te
       </p>
       
       <p>
-        Die Pagode hat einen kleinen Tempel auf dem Berg. Man muss ihn ein bisschen suchen und sollte einen vollen Motoradtank haben, denn die Stra&szlig;e dahin hat eine solche Steigung, dass das Moped ausgeht, wenn der Tank nur halbvoll ist. Es lohnt aber.
+        Die Pagode hat einen kleinen Tempel auf dem Berg. Man muss ihn ein bisschen suchen und sollte einen vollen Motoradtank haben, denn die Straße dahin hat eine solche Steigung, dass das Moped ausgeht, wenn der Tank nur halbvoll ist. Es lohnt aber.
       </p>
       
       <p>
@@ -145,7 +145,7 @@ Eine der vielen Traditionen zu Songkran ist &uuml;brigens der Besuch von neun Te
       </p>
       
       <p>
-        Der M&ouml;nch in diesem Tempel hat uns eine Stunde lang erz&auml;hlt, dass es nicht nur darum geht, Gutes zu tun. Mehr hab ich nicht verstanden. Au&szlig;erdem hat er mir erkl&auml;rt, dass es auf der Insel 32 Tempel gibt. Ich war immer der Meinung es sind 28 (laut Karte 27)
+        Der Mönch in diesem Tempel hat uns eine Stunde lang erzählt, dass es nicht nur darum geht, Gutes zu tun. Mehr hab ich nicht verstanden. Außerdem hat er mir erklärt, dass es auf der Insel 32 Tempel gibt. Ich war immer der Meinung es sind 28 (laut Karte 27)
       </p>
       
       <p>

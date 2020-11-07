@@ -17,4 +17,4 @@ url: /2008/04/soosies-2-geburtstag/
   </p>
 </div>
 
-Fast h&auml;tte ich das im ganzen Reisevorbereitungsrummel vergessen: Soosie wird heute 2 Jahre alt. Daf&uuml;r gibts heute mindestens eine Doppelration Kekse und jede Menge Geknuddel.
+Fast hätte ich das im ganzen Reisevorbereitungsrummel vergessen: Soosie wird heute 2 Jahre alt. Dafür gibts heute mindestens eine Doppelration Kekse und jede Menge Geknuddel.

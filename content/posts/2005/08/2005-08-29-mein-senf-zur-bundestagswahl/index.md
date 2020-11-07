@@ -29,6 +29,6 @@ Oder sie sind alleinerziehend. Solidarische Modernisierung hei??t: Wir d??rfen b
 
 Deshalb brauchen wir eine gesundheitsf??rdernde Gesamtpolitik, die Gesundheitspolitik mit Bildungs-, Wirtschafts-, Arbeits- und Sozialpolitik verkn??pft. Unser Ziel ist die Sicherstellung einer medizinisch notwendigen Versorgung f??r alle Menschen&#8212;unabh??ngig von der Herkunft und dem Geldbeutel ihrer Eltern die M??glichkeit haben, das Beste aus ihren F??higkeiten zu machen.
 
-[H&auml;h][1]?
+[Häh][1]?
 
  [1]: http://www.phrasinator.de/

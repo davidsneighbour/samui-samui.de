@@ -18,4 +18,4 @@ tags:
   <img src="/wp-content/imagecache/sp8sdZe1hrw-hqdefault.jpg" alt="video preview" /><span class="video-youtube-play-icon" aria-label="Play this video"><i class="icon-play" aria-hidden="true"></i></span>
 </div>
 
-... wir lesen uns im nächsten Jahr wieder (Sp&auml;testens zum n&auml;chsten Jahresendvideo).
+... wir lesen uns im nächsten Jahr wieder (Spätestens zum nächsten Jahresendvideo).

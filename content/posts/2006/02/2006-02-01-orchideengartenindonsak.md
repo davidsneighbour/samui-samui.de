@@ -17,7 +17,7 @@ url: /2006/02/orchideengartenindonsak/
   </p>
 </div>
 
-Eigentlich ist der Orchid Garden nicht in Donsak aber wo ist er dann wenn er irgendwo im Nirgendwo versteckt ist? Wenn man aus Donsak heraus nach Surrat Thani f&auml;hrt (50km gerade aus, geil) findet man auf der rechten Seite ein relativ unscheinbares Schild, folgt einer Strasse und ist da. Ruhe. Keine Touristen. Thai-Food. Blumenkram. Ganz nett. Und wer jede Menge Bilder von Blumen sehen will, sollte sich [die ganze Photoserie vom Orchideengarten][1] ansehen. 
+Eigentlich ist der Orchid Garden nicht in Donsak aber wo ist er dann wenn er irgendwo im Nirgendwo versteckt ist? Wenn man aus Donsak heraus nach Surrat Thani fährt (50km gerade aus, geil) findet man auf der rechten Seite ein relativ unscheinbares Schild, folgt einer Strasse und ist da. Ruhe. Keine Touristen. Thai-Food. Blumenkram. Ganz nett. Und wer jede Menge Bilder von Blumen sehen will, sollte sich [die ganze Photoserie vom Orchideengarten][1] ansehen. 
 
 PS: Tipp an meine Mama. Ankucken.
 

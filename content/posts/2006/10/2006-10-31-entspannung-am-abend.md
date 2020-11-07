@@ -9,7 +9,7 @@ url: /2006/10/entspannung-am-abend/
 
 
 ---
-[Sleepy Hollow][1] auf Thai. Ich bin schon gespannt, wie man Johnny Depps "Because" auf Thai &uuml;bersetzen wird.
+[Sleepy Hollow][1] auf Thai. Ich bin schon gespannt, wie man Johnny Depps "Because" auf Thai übersetzen wird.
 
 > Ichabod Crane: [the decapitated corpse of Masbath has been found] You have moved the body.
   

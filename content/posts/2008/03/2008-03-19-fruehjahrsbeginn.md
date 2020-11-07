@@ -1,5 +1,5 @@
 ---
-title: 'Fr&uuml;hjahrsbeginn'
+title: 'Frühjahrsbeginn'
 author: Patrick Kollitsch
 type: post
 date: 2008-03-19T15:38:52+00:00

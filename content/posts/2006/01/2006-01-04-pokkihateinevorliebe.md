@@ -14,6 +14,6 @@ tags:
 ---
 [<img width="455" src="//static.flickr.com/38/81945842_a58398fa09.jpg" alt="No, not pokki smells." />][1]
 
-... f&uuml;r das Anknabbern von F&uuml;&szlig;en.
+... für das Anknabbern von Füßen.
 
  [1]: http://www.flickr.com/photos/schreibblogade/81945842/ "No, not pokki smells."

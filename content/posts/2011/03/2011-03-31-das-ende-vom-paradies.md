@@ -20,7 +20,7 @@ url: /2011/03/das-ende-vom-paradies/
     </a></div> 
     
     <p>
-      Das kleine <a href="http://samui-paradies-resort.com/">Samui-Paradies-Resort</a> hat Montag Nacht ziemlich viel Wasser abbekommen. Das Restaurant ist jetzt unterh&ouml;hlt und ob der Pool noch steht (dahinter geht es gut zwei Meter in die Tiefe und der Sand, den man <a href="http://www.flickr.com/photos/schreibblogade/5576743774/in/photostream/">hier auf dem Photo links sehen kann</a> geh&ouml;rt eigentlich <em>unter</em> den Pool) werde ich morgen sehen. Ich muss sowieso mal eine Inselrundfahrt machen, wir haben da eine neue Touristenattraktion in den Bergen zwischen Lamai und Chaweng --- da kam ein gro&szlig;er Felsbrocken den Hang herunter und blockiert nun 2/3 der Strasse.
+      Das kleine <a href="http://samui-paradies-resort.com/">Samui-Paradies-Resort</a> hat Montag Nacht ziemlich viel Wasser abbekommen. Das Restaurant ist jetzt unterhöhlt und ob der Pool noch steht (dahinter geht es gut zwei Meter in die Tiefe und der Sand, den man <a href="http://www.flickr.com/photos/schreibblogade/5576743774/in/photostream/">hier auf dem Photo links sehen kann</a> gehört eigentlich <em>unter</em> den Pool) werde ich morgen sehen. Ich muss sowieso mal eine Inselrundfahrt machen, wir haben da eine neue Touristenattraktion in den Bergen zwischen Lamai und Chaweng --- da kam ein großer Felsbrocken den Hang herunter und blockiert nun 2/3 der Strasse.
     </p>
     
     <p>

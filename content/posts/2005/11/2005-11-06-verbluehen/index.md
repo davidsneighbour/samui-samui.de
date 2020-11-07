@@ -9,6 +9,6 @@ url: /2005/11/verbluehen/
 
 
 ---
-Fr&uuml;her habe ich mir &ouml;fters Rosen geschenkt. Ich habe sie nie verbl&uuml;hen lassen. Sobald sie die ersten Erm&uuml;dungserscheinungen aufwiesen, hing ich sie mich dem Kopf nach unten auf und lies sie trocknen. Ich hatte viele Trockenblumen.
+Früher habe ich mir öfters Rosen geschenkt. Ich habe sie nie verblühen lassen. Sobald sie die ersten Ermüdungserscheinungen aufwiesen, hing ich sie mich dem Kopf nach unten auf und lies sie trocknen. Ich hatte viele Trockenblumen.
 
-Heute lasse ich sie verbl&uuml;hen. Man muss sch&ouml;ne Dinge auch vergehen lassen.
+Heute lasse ich sie verblühen. Man muss schöne Dinge auch vergehen lassen.

@@ -52,8 +52,8 @@ resources:
 
 {{< gallery id="queen-suthida" command="Resize" options="930x" >}}
 
-Das B&uuml;ro des K&ouml;niglichen Haushalts hat eine Sammlung von offiziellen Photos von K&ouml;nigin Suthida herausgegeben. Da oben sind sie ;)
+Das Büro des Königlichen Haushalts hat eine Sammlung von offiziellen Photos von Königin Suthida herausgegeben. Da oben sind sie ;)
 
-Die 20 Bilder zeigen Suthida in verschiedenen Uniformen und die breitere &Ouml;ffentlichkeit ist aufgefordert, diese Bilder zu verwenden. 
+Die 20 Bilder zeigen Suthida in verschiedenen Uniformen und die breitere Öffentlichkeit ist aufgefordert, diese Bilder zu verwenden. 
 
-Am 1. Mai wurde Suthida zur K&ouml;niging ernannt und sie wird von nun an genauso (sprich auf der gleichen Ebene) wie der K&ouml;nig verehrt. Ihr Geburtstag am 3. Juni ist nun auch als Feiertag ernannt worden. 
+Am 1. Mai wurde Suthida zur Königing ernannt und sie wird von nun an genauso (sprich auf der gleichen Ebene) wie der König verehrt. Ihr Geburtstag am 3. Juni ist nun auch als Feiertag ernannt worden. 

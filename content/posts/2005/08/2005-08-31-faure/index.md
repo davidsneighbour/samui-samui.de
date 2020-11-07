@@ -9,4 +9,4 @@ url: /2005/08/faure/
 
 
 ---
-Wie konnte ich Faur??'s Requiem nur so lange vergessen? Manchmal haben n&auml;chtliche Ohrtr&auml;ume doch ihren Zweck.
+Wie konnte ich Faur??'s Requiem nur so lange vergessen? Manchmal haben nächtliche Ohrträume doch ihren Zweck.

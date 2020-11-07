@@ -9,4 +9,4 @@ url: /2006/03/kindergarten/
 
 
 ---
-Das hier. Mehr sp&auml;ter. Nur so am Rande.
+Das hier. Mehr später. Nur so am Rande.

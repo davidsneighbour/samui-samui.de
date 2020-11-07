@@ -15,6 +15,6 @@ dsq_thread_id:
   <img src="/wp-content/imagecache/OHviopSflwc-hqdefault.jpg" alt="video preview" /><span class="video-youtube-play-icon" aria-label="Play this video"><i class="icon-play" aria-hidden="true"></i></span>
 </div>
 
-Man kann ja so einiges auf den Stra&szlig;en Thailands erleben, angefangen von Tieren (Ochsen, Hunden, Schlangen) die mehr oder weniger gem&uuml;tlich die Stra&szlig;e entlang reisen, &uuml;ber Rostlauben die mit Seilen zusammen gehalten werden hin zu Mopeds mit 6 oder mehr Passagieren.
+Man kann ja so einiges auf den Straßen Thailands erleben, angefangen von Tieren (Ochsen, Hunden, Schlangen) die mehr oder weniger gemütlich die Straße entlang reisen, über Rostlauben die mit Seilen zusammen gehalten werden hin zu Mopeds mit 6 oder mehr Passagieren.
 
-Enten jedoch sind mir noch nie begegnet. Bin mir nicht sicher wie ich auf die Enten oben im Video reagieren w&uuml;rde...
+Enten jedoch sind mir noch nie begegnet. Bin mir nicht sicher wie ich auf die Enten oben im Video reagieren würde...

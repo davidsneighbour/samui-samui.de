@@ -13,6 +13,6 @@ url: /2008/04/nur-in-thailand/
 
 Nehme an, es ist mal wieder ein Sträfling aus dem Gefängnis auf der anderen Inselseite entschlüpft, denn einen Kilometer vorher gabs schon eine andere Strassensperre. Diese hier war fast direkt vor meiner Tür.
 
-In der Regel werden entlaufene Sträflinge auf der Flucht erschossen und zwar in den Bergen zwischen Bang Por ("hier") und Nathon. Thais halten h&ouml;chst ungern in den Bergen an, weil es da viele Geister geben soll. Inzwischen. Das kann man ganz gut mit seiner Urlaubsbekanntschaft testen, wenn man mal "kurz" den Aussichtspunkt auf der Bergspitze ansehen will. Nicht dass der sehenswert wäre, das Gebäude zerfällt, das Gestrüpp versperrt die Sicht auf Koh Pha Ngaan und die Holzbar nebenan ist stets leer. 
+In der Regel werden entlaufene Sträflinge auf der Flucht erschossen und zwar in den Bergen zwischen Bang Por ("hier") und Nathon. Thais halten höchst ungern in den Bergen an, weil es da viele Geister geben soll. Inzwischen. Das kann man ganz gut mit seiner Urlaubsbekanntschaft testen, wenn man mal "kurz" den Aussichtspunkt auf der Bergspitze ansehen will. Nicht dass der sehenswert wäre, das Gebäude zerfällt, das Gestrüpp versperrt die Sicht auf Koh Pha Ngaan und die Holzbar nebenan ist stets leer. 
 
 Aber verängstigte Thaifrauen sind auch was nettes...

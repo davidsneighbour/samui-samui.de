@@ -14,9 +14,9 @@ menu:
     identifier: kontakt
 ---
 
-## Impressum und Datenschutzerkl&auml;rung
+## Impressum und Datenschutzerklärung
 
-[Impressum und Datenschutzerkl&auml;rung][1]
+[Impressum und Datenschutzerklärung][1]
 
 ## Kontakt via Email
 

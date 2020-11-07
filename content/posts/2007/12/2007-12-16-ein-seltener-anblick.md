@@ -17,4 +17,4 @@ url: /2007/12/ein-seltener-anblick/
   </p>
 </div>
 
-Beide Hunde geb&uuml;rstet und (relativ) sauber. Selten.
+Beide Hunde gebürstet und (relativ) sauber. Selten.

@@ -16,11 +16,11 @@ resources:
 
 {{< figure name="borneo-feuer" command="Resize" options="930x" >}}Feuer auf Borneo aus Satellitensicht{{< /figure >}}
 
-Jedes Jahr um diese Zeit &uuml;berzieht Smog den S&uuml;den Thailands. Das geht jedes Jahr so, weil man in Indonesien den Regenwald durch Brandrodung abholzt (illegal). Dann liest man von Smog und Luftverschmutzung im S&uuml;den, aber hier auf Samui merkte man nur an einigen wenigen Tagen etwas. 
+Jedes Jahr um diese Zeit überzieht Smog den Süden Thailands. Das geht jedes Jahr so, weil man in Indonesien den Regenwald durch Brandrodung abholzt (illegal). Dann liest man von Smog und Luftverschmutzung im Süden, aber hier auf Samui merkte man nur an einigen wenigen Tagen etwas. 
 
-Dieses Jahr erwischt es uns aber recht heftig mit Smog auf der Insel, weil die Br&auml;nde etwas mehr aus der Kontrolle geraten als bisher und so durchleben wir den schlimmsten Smog in 17 Jahren. Sagt man. Das sieht dann so aus dass die Luft vor der T&uuml;r wie in einem deutschen kalten Februar recht undurchsichtig weiss vor sich hin schwabbert. Riecht wie verbranntes Holz, logischerweise.
+Dieses Jahr erwischt es uns aber recht heftig mit Smog auf der Insel, weil die Brände etwas mehr aus der Kontrolle geraten als bisher und so durchleben wir den schlimmsten Smog in 17 Jahren. Sagt man. Das sieht dann so aus dass die Luft vor der Tür wie in einem deutschen kalten Februar recht undurchsichtig weiss vor sich hin schwabbert. Riecht wie verbranntes Holz, logischerweise.
 
-Die Thais hier k&uuml;mmert das recht wenig und mein Nachbar verbrennt jeden Tag weiterhin seinen M&uuml;ll hinterm Haus. Ich bilde mir ein, dass das Atmen schwerer f&auml;llt, abgesehen von der Geruchsbel&auml;stigung und Sichtprobleme.
+Die Thais hier kümmert das recht wenig und mein Nachbar verbrennt jeden Tag weiterhin seinen Müll hinterm Haus. Ich bilde mir ein, dass das Atmen schwerer fällt, abgesehen von der Geruchsbelästigung und Sichtprobleme.
 
 Das Satellitenbild oben stammt von den Inseln Borneo und Sumatra.
 

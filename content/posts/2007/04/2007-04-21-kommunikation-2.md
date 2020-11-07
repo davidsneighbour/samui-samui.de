@@ -15,7 +15,7 @@ Ich: Hi <piep>, how are you?
   
 Sie: Hi Pat. I am fine. Why didn't you take my call? I called you two times...
   
-Ich: _denke, ich k&ouml;nnte jetzt in l&auml;ngere Ausf&uuml;hrungen verfallen und erkl&auml;ren, dass es Anrufer gibt, auf deren cold calls ich mich seelisch erst vorbereiten muss, lasse das aber und verfalle auf die &uuml;bliche Taktik_ Ehm, I was sleeping. 
+Ich: _denke, ich könnte jetzt in längere Ausführungen verfallen und erklären, dass es Anrufer gibt, auf deren cold calls ich mich seelisch erst vorbereiten muss, lasse das aber und verfalle auf die übliche Taktik_ Ehm, I was sleeping. 
   
 Sie: Yeah, I was sleeping too and just woke up to call you. What are you doing?
   

@@ -1,5 +1,5 @@
 ---
-title: 'Demn&auml;chst im Kino: Mae Naak 3D'
+title: 'Demnächst im Kino: Mae Naak 3D'
 author: Patrick Kollitsch
 type: post
 date: 2012-02-29T14:04:36+00:00
@@ -26,4 +26,4 @@ Man sagt, dass man mit der Erwähnung des Namens "Mae Naak" Kindern einen Riesen
 
 Alle Erzählungen sind sich aber darin einig, dass Naak aus tiefer Liebe heraus die Kraft zum "Herumgeistern" zieht und keine Ruhe findet und als Maak sie zurück weist zum Rachegeist wird, der sie am Ende ist. Manchmal ist sie sogar der Held der Geschichte.
 
-Demn&auml;chst kann man sich dann die gef&uuml;hlte hundertste Verfilmung der Geistergeschichte in 3D im Kino ansehen.
+Demnächst kann man sich dann die gefühlte hundertste Verfilmung der Geistergeschichte in 3D im Kino ansehen.

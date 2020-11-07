@@ -11,4 +11,4 @@ url: /2005/11/wahre-geeks/
 ---
 ... updaten die Map ehe sie im Blog was announcen. 
 
-[Update] ... und die Kontaktseite. Aber mehr erz&auml;hl ich heute nicht.
+[Update] ... und die Kontaktseite. Aber mehr erzähl ich heute nicht.

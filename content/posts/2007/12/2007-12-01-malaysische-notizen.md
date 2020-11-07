@@ -17,5 +17,5 @@ Der Islam ist die Staatsreligion in Malaysia. Frauen sollten Kopftücher tragen.
 
 Und zum Schluss noch Dinge, die man so wohl nur in Malaysia erleben kann:
 
-  * buddhistische M&ouml;nche bei Pizzahut essend (vor 12 Uhr)
+  * buddhistische Mönche bei Pizzahut essend (vor 12 Uhr)
   * zwei parallel laufende Lautsprecher nebeneinander. Aus einem schallt ein Imam, aus dem anderen Eminem, Dido musikalisch vergewaltigend. Das klang in der Summe sehr interessant.

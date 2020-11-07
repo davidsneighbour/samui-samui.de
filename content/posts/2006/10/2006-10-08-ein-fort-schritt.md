@@ -19,7 +19,7 @@ Sie: But can I have a address with Jmail?
   
 Ich: Gmail. Yes you can.
   
-Sie: _besch&auml;ftigt sich zwei Stunden mit anderen Themen_
+Sie: _beschäftigt sich zwei Stunden mit anderen Themen_
   
 Ich: What about your emailaddress?
   
@@ -53,11 +53,11 @@ Ich: Ok. Now we need a password.
   
 Sie: fu1234
   
-Ich: _kuck sie ungl&auml;ubig an_
+Ich: _kuck sie ungläubig an_
   
 Sie: Ok. fu12345.
   
-Ich: Ehm. _hier folgt nun ein langer Vortrag &uuml;ber Passw&ouml;rter und Sicherheit und Logik und mein Drei-Passwort-Modell. Am Ende entscheidet sie sich f&uuml;r ein interessantes Passwort mit Zahlen anstelle von Buchstaben (bspw. 0 f&uuml;r o und 1 f&uuml;r i und l). Google meint, es sei ein sehr starkes Passwort. Soso._
+Ich: Ehm. _hier folgt nun ein langer Vortrag über Passwörter und Sicherheit und Logik und mein Drei-Passwort-Modell. Am Ende entscheidet sie sich für ein interessantes Passwort mit Zahlen anstelle von Buchstaben (bspw. 0 für o und 1 für i und l). Google meint, es sei ein sehr starkes Passwort. Soso._
 
 Ich habe mich dann noch schnell im Hintergrund in meinen eigenen Account eingeloggt und ihr eine Chatnachricht geschickt. Das hat sie beeindruckt. Email mit Chat. 
 

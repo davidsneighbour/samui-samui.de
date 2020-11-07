@@ -31,4 +31,4 @@ Und wie man im folgenden Bild von der Welle verwaschen nur noch schemenhaft erke
 
 {{< figure src="/wp-content/old-images/25.jpg" >}}
 
-Jedenfalls sind es 87 Kilometer, wenn man die "Ringstra?e" fährt und alle halbwegs ausgebauten Stra?en dazunimmt, die ein wenig weiter um die Ringstra&szlig;e gehen. Verfährt man sich dann und wann noch ein wenig, kann man viel Spa? haben und einen gut verbrachten Tag erleben.
+Jedenfalls sind es 87 Kilometer, wenn man die "Ringstra?e" fährt und alle halbwegs ausgebauten Stra?en dazunimmt, die ein wenig weiter um die Ringstraße gehen. Verfährt man sich dann und wann noch ein wenig, kann man viel Spa? haben und einen gut verbrachten Tag erleben.

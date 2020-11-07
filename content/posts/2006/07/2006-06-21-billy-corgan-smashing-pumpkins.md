@@ -11,4 +11,4 @@ url: /2006/06/billy-corgan-smashing-pumpkins/
 ---
 Homer Simpson, smiling delightly.
 
-Geht nichts &uuml;ber die Simpsons. Wollt ich nur kurz loswerden. Muss mich wieder um die Hunde k&uuml;mmern. Jetzt.
+Geht nichts über die Simpsons. Wollt ich nur kurz loswerden. Muss mich wieder um die Hunde kümmern. Jetzt.

@@ -9,12 +9,12 @@ url: /2006/09/amnesty-international-verdammt-die-anschlaege-von-hat-yai/
 
 
 ---
-[Amnesty International verdammt die Anschl&auml;ge von Hat Yai][1]. Damit hei&szlig;en sie ja implizit die bisherigen Anschl&auml;ge gut, oder?
+[Amnesty International verdammt die Anschläge von Hat Yai][1]. Damit heißen sie ja implizit die bisherigen Anschläge gut, oder?
 
-Aber mal ehrlich. Diese nennen wir es mal Organisation macht ja auch nur die Klappe auf, wenn gen&uuml;gend Scheinwerfer aufgebaut wurden. Sie haben zum Konflikt im S&uuml;den Thailands schonmal was gesagt: Als ein popul&auml;rer Menschenrechtsanwalt auf ungekl&auml;rte Art und Weise verschwunden ist. Er verteidigte Muslims. Noch heute werden regelm&auml;&szlig;ig Fl&uuml;sse und Kan&auml;le nach ihm durchsucht. Da kritisierten sie auch. Nun also wieder. War zu erwarten.
+Aber mal ehrlich. Diese nennen wir es mal Organisation macht ja auch nur die Klappe auf, wenn genügend Scheinwerfer aufgebaut wurden. Sie haben zum Konflikt im Süden Thailands schonmal was gesagt: Als ein populärer Menschenrechtsanwalt auf ungeklärte Art und Weise verschwunden ist. Er verteidigte Muslims. Noch heute werden regelmäßig Flüsse und Kanäle nach ihm durchsucht. Da kritisierten sie auch. Nun also wieder. War zu erwarten.
 
-<del>und noch so ein gel&ouml;schter politisch korrekter Absatz</del>
+<del>und noch so ein gelöschter politisch korrekter Absatz</del>
 
-Hmmm... Laos? Kambodscha? Malaysia? Die Finnen haben dort letzte Woche ein B&uuml;ro er&ouml;ffnet...
+Hmmm... Laos? Kambodscha? Malaysia? Die Finnen haben dort letzte Woche ein Büro eröffnet...
 
  [1]: http://www.nationmultimedia.com/breakingnews/read.php?newsid=30013863

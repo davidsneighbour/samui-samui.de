@@ -19,8 +19,8 @@ url: /2007/10/belgian-drug-gang-nabbed-at-samui/
 
 Jaja die Belgier!
 
-Vergangenen Donnerstag wurden auf der Insel (Samui? Ja, Samui!) vier Belgier [festgenommen][1], die zur meistgesuchtesten Bande Belgiens geh&ouml;rten. Sie wurden (nat&uuml;rlich) vor den Kameras aller Kan&auml;le vorgef&uuml;hrt und waren Tagesgespr&auml;ch in den einschl&auml;gigen Ladybars.
+Vergangenen Donnerstag wurden auf der Insel (Samui? Ja, Samui!) vier Belgier [festgenommen][1], die zur meistgesuchtesten Bande Belgiens gehörten. Sie wurden (natürlich) vor den Kameras aller Kanäle vorgeführt und waren Tagesgespräch in den einschlägigen Ladybars.
 
-Als Samui das letzte Mal im Fernsehen war, ging es um unseren kleinen Grundst&uuml;cks-Skandal. Man tut was man kann...
+Als Samui das letzte Mal im Fernsehen war, ging es um unseren kleinen Grundstücks-Skandal. Man tut was man kann...
 
  [1]: http://kurl.de/opeyal

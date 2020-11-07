@@ -9,7 +9,7 @@ url: /2005/08/affordable-relationship-counceling-in-samui/
 
 
 ---
-Unter der titelgebenden &Uuml;berschrift findet sich im Community Newspaper (ein Versuch den Glanz meines Lieblingsmagazins auf der Insel auch auf normalem Zeitungspapier einmal monatlich unter die Leute zu bringen) eine sehr ansprechende Anzeige im Classifieds-Bereich, die ich dem geneigten Leser nicht unkommentiert vorenthalten m&ouml;chte:
+Unter der titelgebenden Überschrift findet sich im Community Newspaper (ein Versuch den Glanz meines Lieblingsmagazins auf der Insel auch auf normalem Zeitungspapier einmal monatlich unter die Leute zu bringen) eine sehr ansprechende Anzeige im Classifieds-Bereich, die ich dem geneigten Leser nicht unkommentiert vorenthalten möchte:
 
 > Kuhn Ah is a specialist in mixed cultural relationships.
 
@@ -17,9 +17,9 @@ Ich auch.
 
 > She is trained to help specifically Farang/Thai couples. She can speak fluent in both languages and help you quickly establish a sound understanding so you can benefit and get to where you want to be fast.
 
-Ich wollte schon immer mal jemanden kennen lernen, der Farang spricht. Diese alte nahezu ausgestorbene Sprache h&ouml;rt man ja heutzutage nicht mehr allzuoft auf unseren Stra&szlig;en.
+Ich wollte schon immer mal jemanden kennen lernen, der Farang spricht. Diese alte nahezu ausgestorbene Sprache hört man ja heutzutage nicht mehr allzuoft auf unseren Straßen.
 
-Jedenfalls wei&szlig; ich jetzt wo ich mit der n&auml;chsten Thai hingehe. Und auf diese Benefits, die man mit einer Thai angeblich hat, geh ich mal gar nicht ein.
+Jedenfalls weiß ich jetzt wo ich mit der nächsten Thai hingehe. Und auf diese Benefits, die man mit einer Thai angeblich hat, geh ich mal gar nicht ein.
 
 Was? Oh! Der Text geht ja noch weiter!
 

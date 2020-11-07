@@ -17,6 +17,6 @@ url: /2007/04/das-leben-im-dschungel/
   </p>
 </div>
 
-Das Leben im Dschungel bringt manchmal weniger nette &Uuml;berraschungen mit sich. Wie beispielsweise das Ameisennest in der Tripod-Tasche. Jetzt gibt es viele ersoffene Ameisen, hunderte heimatlose Ameisen und eine vernichtete zuk&uuml;nftige Generation.
+Das Leben im Dschungel bringt manchmal weniger nette Überraschungen mit sich. Wie beispielsweise das Ameisennest in der Tripod-Tasche. Jetzt gibt es viele ersoffene Ameisen, hunderte heimatlose Ameisen und eine vernichtete zukünftige Generation.
 
-Neulich habe ich sie schon aus meiner CD-Sammlung verjagt. Eier zwischen CD-Rohlingen ist entscheidendes Kriterium um selbige (die Rohlinge) unbrauchbar zu machen. Mal sehen, wo sie beim n&auml;chsten Mal landen.
+Neulich habe ich sie schon aus meiner CD-Sammlung verjagt. Eier zwischen CD-Rohlingen ist entscheidendes Kriterium um selbige (die Rohlinge) unbrauchbar zu machen. Mal sehen, wo sie beim nächsten Mal landen.

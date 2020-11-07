@@ -11,7 +11,7 @@ url: /2007/02/werbehoelle/
 ---
 Liebe Werber, besonders diejenigen unter Ihnen (also unter im Sinne einer Schnittmenge, nicht körperlich unter Ihnen, ich mag nicht annehmen, dass es sowas wie eine Reklamecouch unter Ihnen (auch dies Schnittmenge) gibt) die ungewünschte Werbe-Emails versenden (per Email (also elektronisch), sozusagen),
 
-Bitte beachten Sie in Zukunft, dass Sie wenn Sie mir ungewünschte Werbe-Emails schicken (per Email (also elektronisch), sozusagen), die relavante URL ohne Rechtschreibefehler in der Email verewigen. Man könnte sich sonst eine Blö&szlig;e geben. Intellektuell. Also mit Intelligenz. Himel noch einz. 
+Bitte beachten Sie in Zukunft, dass Sie wenn Sie mir ungewünschte Werbe-Emails schicken (per Email (also elektronisch), sozusagen), die relavante URL ohne Rechtschreibefehler in der Email verewigen. Man könnte sich sonst eine Blöße geben. Intellektuell. Also mit Intelligenz. Himel noch einz. 
 
 Grü?e
   

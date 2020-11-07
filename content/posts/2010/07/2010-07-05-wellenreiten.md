@@ -24,5 +24,5 @@ url: /2010/07/wellenreiten/
     </p>
     
     <p>
-      PS: Hab einige Leute heute mit der Drohung verunsichert, die zweite H&auml;lfte auch noch durch zu ziehen. Runterzu geht es immer schneller als raufzu. Aber das nur am Rande...
+      PS: Hab einige Leute heute mit der Drohung verunsichert, die zweite Hälfte auch noch durch zu ziehen. Runterzu geht es immer schneller als raufzu. Aber das nur am Rande...
     </p>

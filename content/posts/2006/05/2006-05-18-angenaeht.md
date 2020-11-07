@@ -1,5 +1,5 @@
 ---
-title: 'Angen&auml;ht'
+title: 'Angenäht'
 author: Patrick Kollitsch
 type: post
 date: 2006-05-17T22:09:48+00:00
@@ -9,7 +9,7 @@ url: /2006/05/angenaeht/
 
 
 ---
-Der "Da Vinci Code" darf nun doch ungeschnitten aufgef&uuml;hrt werden.
+Der "Da Vinci Code" darf nun doch ungeschnitten aufgeführt werden.
 
 > The police-affiliated panel is a completely different body from the one that approved the 10-minute cut the day before. It said explanations must be displayed on screen in Thai --- both before the movie starts and again at the end --- to clarify that the movie was fiction.
 > 

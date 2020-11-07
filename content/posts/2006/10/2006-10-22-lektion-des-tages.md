@@ -17,6 +17,6 @@ url: /2006/10/lektion-des-tages/
   </p>
 </div>
 
-Wenn ich im Wat Napralarn bin, sind die Batterien des Photoapparates grunds&auml;tzlich leer. Das war heute so und jedes Mal, wenn ich da war bisher. Dann muss immer das Wackelhandy herhalten.
+Wenn ich im Wat Napralarn bin, sind die Batterien des Photoapparates grundsätzlich leer. Das war heute so und jedes Mal, wenn ich da war bisher. Dann muss immer das Wackelhandy herhalten.
 
 Morgen geh ich hin _mit_ Ersatzbatterien.

@@ -11,26 +11,26 @@ leute:
 resources:
 - src: "royal-degree.png"
   name: "neuwahlen"
-  title: "K&ouml;nigliches Dekret zur Festlegung der Neuwahlen in Thailand"
+  title: "Königliches Dekret zur Festlegung der Neuwahlen in Thailand"
 ---
 
-{{< figure name="neuwahlen" command="Resize" options="1110x" >}}K&ouml;nigliches Dekret zur Festlegung der Neuwahlen in Thailand{{< /figure >}}
+{{< figure name="neuwahlen" command="Resize" options="1110x" >}}Königliches Dekret zur Festlegung der Neuwahlen in Thailand{{< /figure >}}
 
 Es wird Wahlen in Thailand geben. Soviel ist schon mal klar. 
 
-Das Datum der Neuwahlen in Thailand wurde nach dem Putsch 2014 immer wieder gross versprochen und dann doch verschoben. Erst war es "Ende 2015", dann "nicht vor 2016, dann aber Mitte des Jahres", dann "so um August oder September 2016 herum". Im September 2016 dann versprach General Prayut, dem Volke noch mindestens zwei Jahre mehr zu dienen, wenn es denn w&ouml;llte. Die Reaktionen auf diese Ank&uuml;ndigung wurden wohl als Zustimmung verstanden, denn dann wurde das Datum der Wahl mit "wahrscheinlich nicht vor Anfang 2018" benannt. 
+Das Datum der Neuwahlen in Thailand wurde nach dem Putsch 2014 immer wieder gross versprochen und dann doch verschoben. Erst war es "Ende 2015", dann "nicht vor 2016, dann aber Mitte des Jahres", dann "so um August oder September 2016 herum". Im September 2016 dann versprach General Prayut, dem Volke noch mindestens zwei Jahre mehr zu dienen, wenn es denn wöllte. Die Reaktionen auf diese Ankündigung wurden wohl als Zustimmung verstanden, denn dann wurde das Datum der Wahl mit "wahrscheinlich nicht vor Anfang 2018" benannt. 
 
-In Oktober 2017 versprach Prayut, dass Wahlen "irgendwann im November 2018" gehalten werden. Um diese Zeit herum wurde bekannt, dass er wohl plante, mit einer eigenen politischen Partei bei den Wahlen anzutreten. Man sollte ihn inzwischen auch nicht mehr General nennen, da er jetzt ein Politiker sei. Au&szlig;erdemm sollte man ihn nicht mehr mit Fragen nach Neuwahlen nerven. 
+In Oktober 2017 versprach Prayut, dass Wahlen "irgendwann im November 2018" gehalten werden. Um diese Zeit herum wurde bekannt, dass er wohl plante, mit einer eigenen politischen Partei bei den Wahlen anzutreten. Man sollte ihn inzwischen auch nicht mehr General nennen, da er jetzt ein Politiker sei. Außerdemm sollte man ihn nicht mehr mit Fragen nach Neuwahlen nerven. 
 <!--lint disable write-good-->
-Im Januar 2018 stimmte dann das Parlament ab, die Wahlen um weitere 90 Tage zu verz&ouml;gern - bis "etwa Februar oder M&auml;rz 2019". Nach einer Weile wurde dann vom 24. Februar 2019 als das Datum der Wahlen gesprochen. So blieb es, bis der K&ouml;nig am 1. Januar seine Kr&ouml;nungszeremonie am 4. Mai bekannt gab. Das stie&szlig; mit dem Wahldatum (beziehungsweise den Fristen f&uuml;r Nachbereitungen der Wahlen) zusammen, weshalb auch niemand mehr so richtig glaubte, das es im Februar zu Wahlen kommen wird. 
+Im Januar 2018 stimmte dann das Parlament ab, die Wahlen um weitere 90 Tage zu verzögern - bis "etwa Februar oder März 2019". Nach einer Weile wurde dann vom 24. Februar 2019 als das Datum der Wahlen gesprochen. So blieb es, bis der König am 1. Januar seine Krönungszeremonie am 4. Mai bekannt gab. Das stieß mit dem Wahldatum (beziehungsweise den Fristen für Nachbereitungen der Wahlen) zusammen, weshalb auch niemand mehr so richtig glaubte, das es im Februar zu Wahlen kommen wird. 
 
-Vom Ablauf her h&auml;tte am 3. Januar ein K&ouml;nigliches Dekret von der Regierung herausgegeben werden m&uuml;ssen, welches das Datum der Wahlen festlegt - weil bis zur Wahl dann maximal 45 Tage vergehen d&uuml;rfen. Das passierte nicht, also war klar, dass am 24. Februar wiederum keine Wahlen stattfinden werden. 
+Vom Ablauf her hätte am 3. Januar ein Königliches Dekret von der Regierung herausgegeben werden müssen, welches das Datum der Wahlen festlegt - weil bis zur Wahl dann maximal 45 Tage vergehen dürfen. Das passierte nicht, also war klar, dass am 24. Februar wiederum keine Wahlen stattfinden werden. 
 
-Heute nun wurde das k&ouml;nigliche Dekret endlich ver&ouml;ffentlicht und prompt (nach ein paar Stunden) auch bekannt gegeben, dass am 24. M&auml;rz 2019 Neuwahlen in Thailand stattfinden. 
+Heute nun wurde das königliche Dekret endlich veröffentlicht und prompt (nach ein paar Stunden) auch bekannt gegeben, dass am 24. März 2019 Neuwahlen in Thailand stattfinden. 
 
-Kandidaten das neue Parlament (House of Representatives) k&ouml;nnen sich vom 4. bis 8. Februar bewerben und werden am 15. Februar bekannt gegeben. 
+Kandidaten das neue Parlament (House of Representatives) können sich vom 4. bis 8. Februar bewerben und werden am 15. Februar bekannt gegeben. 
 
-Briefwahlen f&uuml;r W&auml;hler im Ausland finden von 4. bis 16. M&auml;rz statt, am 17. M&auml;rz koennen W&auml;hler die nicht in ihrem Wahlbereich leben ihre Stimme abgeben. 
+Briefwahlen für Wähler im Ausland finden von 4. bis 16. März statt, am 17. März koennen Wähler die nicht in ihrem Wahlbereich leben ihre Stimme abgeben. 
 
 Neuwahlen in Thailand. Definitiv, ganz bestimmt, wahrscheinlich. 
 

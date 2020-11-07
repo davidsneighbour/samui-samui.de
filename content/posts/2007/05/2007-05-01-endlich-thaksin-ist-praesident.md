@@ -9,19 +9,19 @@ url: /2007/05/endlich-thaksin-ist-praesident/
 
 
 ---
-Thaksin Shinawatra, f&uuml;r meine seltener lesenden Leser: der war mal Ministerpr&auml;sident in Thailand, ist endlich wieder Pr&auml;sident. [Der Pr&auml;sident der <span class="caps">PGA</span> Thailand][1]. Das ist die Professionelle Golfervereinigung Thailands. 
+Thaksin Shinawatra, für meine seltener lesenden Leser: der war mal Ministerpräsident in Thailand, ist endlich wieder Präsident. [Der Präsident der <span class="caps">PGA</span> Thailand][1]. Das ist die Professionelle Golfervereinigung Thailands. 
 
-Thaksin sei ein Golfer, der kein Interesse daran h&auml;tte, in die Politik zur&uuml;ck zu kehren. Au&szlig;erdem scheint er ein h&uuml;bsches S&uuml;mmchen gezahlt zu haben.
+Thaksin sei ein Golfer, der kein Interesse daran hätte, in die Politik zurück zu kehren. Außerdem scheint er ein hübsches Sümmchen gezahlt zu haben.
 
 Golf spielen kann er ja.
 
-Sonthi war dar&uuml;ber [erstaunt][2] :
+Sonthi war darüber [erstaunt][2] :
 
 > He said the nomination was caused by some individual groups who have problems with their thinking process and should be admitted for mental consulting.
 
-Au&szlig;erdem scheint Thaksin beim Bieten um Manchester City [ganz gut da zu stehen][3]. 
+Außerdem scheint Thaksin beim Bieten um Manchester City [ganz gut da zu stehen][3]. 
 
-Soso. Ein Leben f&uuml;r den Sport nach dem Leben f&uuml;r, ehm, Thailand.
+Soso. Ein Leben für den Sport nach dem Leben für, ehm, Thailand.
 
  [1]: http://www.radioaustralia.net.au/news/stories/s1911499.htm
  [2]: http://www.bangkokpost.com/breaking_news/breakingnews.php?id=118456

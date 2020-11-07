@@ -9,4 +9,4 @@ tags:
   - moped
 
 ---
-Ich dachte immer, es wäre nahezu unmöglich einen relativ authentischen Eindruck vom Leben zu bekommen, wenn man in einer Touristengegend lebt und arbeitet, weil (speziell in meinem Fall) die Thais immer bemüht sind, "echtes thailändisches Lebensgefühl" zu vermitteln und die Touristen einfach überall sind. Wenn man aber morgens 8 Uhr mit dem Moped durch Lamai brettert, schlafen die Touris noch. Macht Spa&szlig;. Und man sieht jeden Tag was Neues.
+Ich dachte immer, es wäre nahezu unmöglich einen relativ authentischen Eindruck vom Leben zu bekommen, wenn man in einer Touristengegend lebt und arbeitet, weil (speziell in meinem Fall) die Thais immer bemüht sind, "echtes thailändisches Lebensgefühl" zu vermitteln und die Touristen einfach überall sind. Wenn man aber morgens 8 Uhr mit dem Moped durch Lamai brettert, schlafen die Touris noch. Macht Spaß. Und man sieht jeden Tag was Neues.

@@ -17,4 +17,4 @@ url: /2007/06/krieg-auf-der-terasse/
   </p>
 </div>
 
-Sieht schlimmer aus als es ist. Pokki (der fettere im Bild) verliert meistens. Ich vermute aus br&uuml;derlicher Freundlichkeit.
+Sieht schlimmer aus als es ist. Pokki (der fettere im Bild) verliert meistens. Ich vermute aus brüderlicher Freundlichkeit.

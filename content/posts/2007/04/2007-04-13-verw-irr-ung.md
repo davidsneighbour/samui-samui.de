@@ -9,7 +9,7 @@ url: /2007/04/verw-irr-ung/
 
 
 ---
-Ich k&ouml;nnte gut ohne diese ganze Chemie leben. Andererseits... was w&auml;re es (das Leben) ohne die Wendungen? Langweilig? Vieleicht sowohl mit als auch ohne... 
+Ich könnte gut ohne diese ganze Chemie leben. Andererseits... was wäre es (das Leben) ohne die Wendungen? Langweilig? Vieleicht sowohl mit als auch ohne... 
 
 Loftið leikur við lakið sveipar frið
   

@@ -9,6 +9,6 @@ url: /2006/07/video-skype-jetzt-auch-fuer-mac/
 
 
 ---
-Jetzt gibt es Skype auch f&uuml;r Macs (teure stylische Computer f&uuml;r die K&uuml;rzeren) mit [Video-Calling][1]. Endlich k&ouml;nnen auch die Mac-User einander beim L&uuml;gen und Nase reiben zusehen. Sch&ouml;ne bunte Zukunft.
+Jetzt gibt es Skype auch für Macs (teure stylische Computer für die Kürzeren) mit [Video-Calling][1]. Endlich können auch die Mac-User einander beim Lügen und Nase reiben zusehen. Schöne bunte Zukunft.
 
  [1]: http://www.skypejournal.com/blog/archives/2006/07/skype_for_mac_15_beta_releaed.php

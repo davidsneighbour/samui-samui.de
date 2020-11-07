@@ -17,6 +17,6 @@ url: /2011/10/return-of-the-famous-samui-blowjob-dolls/
   </p>
 </div>
 
-[Und noch mehr ber&uuml;hmte Blowjob-Puppen auf flickr.com][1] (inklusive des Originals)
+[Und noch mehr berühmte Blowjob-Puppen auf flickr.com][1] (inklusive des Originals)
 
  [1]: http://www.flickr.com/photos/schreibblogade/6225696569/in/set-72157627851789066/

@@ -17,4 +17,4 @@ url: /2006/07/the-dogfather/
   </p>
 </div>
 
-Man w&uuml;nschte mehr Shih-Tzu-Content.
+Man wünschte mehr Shih-Tzu-Content.

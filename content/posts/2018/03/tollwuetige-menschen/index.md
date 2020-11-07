@@ -23,7 +23,7 @@ In Thailand geht die Tollwut um. Seit Jahresbeginn sind bereits 6 Menschen gesto
 
 According to livestock officials, 14 people died from rabies across 13 provinces in 2017, up from 11 people in 2016.{{< /quote >}}
 
-Die angedachten L&ouml;sungen sind &uuml;brigens Hunde-KZs f&uuml;r infizierte Tiere und Massent&ouml;tungen... man k&ouml;nnte auch einfach nur informieren und vorbeugen... das w&auml;re aber zuviel Arbeit.
+Die angedachten Lösungen sind übrigens Hunde-KZs für infizierte Tiere und Massentötungen... man könnte auch einfach nur informieren und vorbeugen... das wäre aber zuviel Arbeit.
 
 -   {{< languagelink "http://www.khaosodenglish.com/news/bangkok/2018/03/19/6-die-of-rabies-since-start-of-2018-officials/" "6 die of rabies since start of 2018 auf Khaosod.com" "en" >}}
 -   {{< languagelink "https://de.wikipedia.org/wiki/Tollwut" "Tollwut auf Wikipedia" "de" >}}

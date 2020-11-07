@@ -19,4 +19,4 @@ dsq_thread_id:
   </p>
 </div>
 
-Eigentlich nimmt das Wetter im April Anlauf zur Trockenzeit, der Mai ist der Hitzemonat. In Khon Khaen im Norden Thailands hat man bereits den Wassernotstand ausgerufen --- kein Wasser mehr... Auf Samui war der vergangene Wochenanfang der hei&szlig;este dieses Jahres. Dann kam der Regen ;)
+Eigentlich nimmt das Wetter im April Anlauf zur Trockenzeit, der Mai ist der Hitzemonat. In Khon Khaen im Norden Thailands hat man bereits den Wassernotstand ausgerufen --- kein Wasser mehr... Auf Samui war der vergangene Wochenanfang der heißeste dieses Jahres. Dann kam der Regen ;)

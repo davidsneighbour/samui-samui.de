@@ -9,6 +9,6 @@ tags:
 - baeren
 ---
 
-Wie es aussieht, gibt es in Thailand (genauer in Nakhon Ratchasima) sogar B&auml;ren. Man fahre besser schnell durch diesen Wald.
+Wie es aussieht, gibt es in Thailand (genauer in Nakhon Ratchasima) sogar Bären. Man fahre besser schnell durch diesen Wald.
 
 {{< youtube 6xxUm815nbk >}}

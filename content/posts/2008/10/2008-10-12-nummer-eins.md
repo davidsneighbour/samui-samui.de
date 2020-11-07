@@ -17,4 +17,4 @@ url: /2008/10/nummer-eins/
   </p>
 </div>
 
-Boo Neung (wenn man es auf Thai richtig aus spricht heisst es Nummer eins) kam als erstes Hundem&auml;dchen gestern morgen um 7:15 an. Ich bin mir nicht ganz sicher, ob sie planm&auml;&szlig;ig die Erste war, es kommt mir so vor, als ob dem nicht so sei. Sie ist die Kleinste und etwas langsam. Und sie macht Nachts ganz sch&ouml;nen Krach, wenn die Mama nicht in der N&auml;he ist.
+Boo Neung (wenn man es auf Thai richtig aus spricht heisst es Nummer eins) kam als erstes Hundemädchen gestern morgen um 7:15 an. Ich bin mir nicht ganz sicher, ob sie planmäßig die Erste war, es kommt mir so vor, als ob dem nicht so sei. Sie ist die Kleinste und etwas langsam. Und sie macht Nachts ganz schönen Krach, wenn die Mama nicht in der Nähe ist.

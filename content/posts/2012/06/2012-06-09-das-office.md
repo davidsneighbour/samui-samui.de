@@ -19,7 +19,7 @@ url: /2012/06/das-office/
 
 Auf Wunsch einer Einzelnen hier eine Detailansicht meines Urlaubs-Traum-Insel-Freelancer-Offices. 
 
-Links der zweite Monitor f&uuml;rs Notebook (das in der Mitte steht), rechts der Monitor f&uuml;r den kleinen Rechner der ganz links unten steht, vorne das Keyboard, rechts das Zeichenbrett, links die Kopfh&ouml;rer. 
+Links der zweite Monitor fürs Notebook (das in der Mitte steht), rechts der Monitor für den kleinen Rechner der ganz links unten steht, vorne das Keyboard, rechts das Zeichenbrett, links die Kopfhörer. 
 
 Das sieht teurer aus als es ist, das wahre Kapital sitzt meist auf dem Holzstuhl davor.
 

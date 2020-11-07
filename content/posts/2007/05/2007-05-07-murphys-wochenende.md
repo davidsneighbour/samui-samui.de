@@ -29,4 +29,4 @@ Im Augenblick ist das Schicksal eher ruhig. Ich bewege mich nicht viel und versu
 
 PS: Der "Secret Garden" ist natürlich ein ganz nettes Plätzchen, was Seltenheitswert auf Samui hat. Mal sehen, ob ich davon ein paar Bilder hochlade. 
 
-PPS: Das ist schon das zweite Erlebnis in meinem Leben, bei dem ich das nicht unbestimmte Gef&uuml;hl habe, meine &uuml;berz&auml;hligen Pfunde (Kilogramme, um ehrlich zu sein), h&auml;tten Schlimmeres verhindert.
+PPS: Das ist schon das zweite Erlebnis in meinem Leben, bei dem ich das nicht unbestimmte Gefühl habe, meine überzähligen Pfunde (Kilogramme, um ehrlich zu sein), hätten Schlimmeres verhindert.

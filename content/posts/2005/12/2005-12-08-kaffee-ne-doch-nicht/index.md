@@ -9,4 +9,4 @@ url: /2005/12/kaffee-ne-doch-nicht/
 
 
 ---
-Ich vermute, dass der n&auml;chste Wasserkocher in unserem gem&uuml;tlichen Gro&szlig;raumb&uuml;ro einer sein wird, der sich von selbst abschaltet.
+Ich vermute, dass der nächste Wasserkocher in unserem gemütlichen Großraumbüro einer sein wird, der sich von selbst abschaltet.

@@ -9,4 +9,4 @@ url: /2005/11/heute-morgen/
 
 
 ---
-... l&auml;chelte ich. Ganz kurz nur. Aber es war erkennbar. (Irgendwie hat das neue Haus mehr Spiegel als das alte.)
+... lächelte ich. Ganz kurz nur. Aber es war erkennbar. (Irgendwie hat das neue Haus mehr Spiegel als das alte.)

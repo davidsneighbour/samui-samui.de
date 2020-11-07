@@ -21,6 +21,6 @@ Jedenfalls sind die Thais recht gut im Adaptieren fremder Feste und feiern Weihn
 
 Damit kann jeder Tourist, der zu Hause noch gross rumprotzt, er würde dem Weihnachtstress entfliehen, hier unter mit Glitzerfirlefanz geschmückten Palmen Weihnachten begehen, wahlweise mit den Lieben oder Liebenden im Arm.
 
-&Uuml;brigens: Das will ich schon seit langem erzählen – dass die Thais für die Farangs hier Weihnachten feiern führt zu der absurden Situation, dass ich einen schwulen Muslim kenne, der heute abend auf der Ressortweihnachtfeier eines etwas teureren Etablisements christliche Weihnachtslieder singt. Für die Touristen. Mit Weihnachtsmütze auf dem Kopf. Wahre Nächstenliebe. "Schinken bönns, schinken bönns“ und "Schoy to se word, se lord is kamm“.
+Übrigens: Das will ich schon seit langem erzählen – dass die Thais für die Farangs hier Weihnachten feiern führt zu der absurden Situation, dass ich einen schwulen Muslim kenne, der heute abend auf der Ressortweihnachtfeier eines etwas teureren Etablisements christliche Weihnachtslieder singt. Für die Touristen. Mit Weihnachtsmütze auf dem Kopf. Wahre Nächstenliebe. "Schinken bönns, schinken bönns“ und "Schoy to se word, se lord is kamm“.
 
 In diesem Sinne: frohes Fest. Esst nicht zu viel.

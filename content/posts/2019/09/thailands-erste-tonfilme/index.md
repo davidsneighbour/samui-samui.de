@@ -12,10 +12,10 @@ resources:
 
 {{< youtube UFtR03ZG0mM >}}
 
-Das Thail&auml;ndische Filmarchiv hat vor ein paar Tagen die ersten bekannten Tonfilme aus Thailand der &Ouml;ffentlichkeit vorgestellt. Entdeckt wurden sie in den Archiven der Universit&auml;t von South Carolina in den USA. Aufgenommen wurden sie von Fox Movietone in den 30er Jahren des vergangenen Jahrhunderts. 
+Das Thailändische Filmarchiv hat vor ein paar Tagen die ersten bekannten Tonfilme aus Thailand der Öffentlichkeit vorgestellt. Entdeckt wurden sie in den Archiven der Universität von South Carolina in den USA. Aufgenommen wurden sie von Fox Movietone in den 30er Jahren des vergangenen Jahrhunderts. 
 
-Dieses Video zeigt betende M&ouml;nche, badende Kinder, zu westlicher Musik tanzende Matrosen mit Frauen, die recht gelangweilt aussehen und ein P&auml;rchen auf einer Parkbank. 
+Dieses Video zeigt betende Mönche, badende Kinder, zu westlicher Musik tanzende Matrosen mit Frauen, die recht gelangweilt aussehen und ein Pärchen auf einer Parkbank. 
 
-Es wurde am 22. M&auml;rz 1930 gedreht.
+Es wurde am 22. März 1930 gedreht.
 
 Quelle: University of South Carolina

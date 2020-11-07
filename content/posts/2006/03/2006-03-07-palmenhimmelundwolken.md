@@ -17,4 +17,4 @@ url: /2006/03/palmenhimmelundwolken/
   </p>
 </div>
 
-Seht ihr, kein Hundeeintrag (wenngleich das Foto auch auf dem Sandplatz gemacht wurde, auf dem wir immer Gassi gehen wenn Pokki im B&uuml;ro arbeiten muss).
+Seht ihr, kein Hundeeintrag (wenngleich das Foto auch auf dem Sandplatz gemacht wurde, auf dem wir immer Gassi gehen wenn Pokki im Büro arbeiten muss).

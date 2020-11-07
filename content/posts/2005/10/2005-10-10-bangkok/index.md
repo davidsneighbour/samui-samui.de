@@ -9,4 +9,4 @@ url: /2005/10/bangkok/
 
 
 ---
-... wird jedesmal besser. Allerdings auch schmutziger, verautoigter, hei&szlig;er und nerviger. Was die Busfahrten angeht. Werde mal bei Gelegenheit den Zug testen. Mehr sp&auml;ter.
+... wird jedesmal besser. Allerdings auch schmutziger, verautoigter, heißer und nerviger. Was die Busfahrten angeht. Werde mal bei Gelegenheit den Zug testen. Mehr später.

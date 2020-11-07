@@ -17,8 +17,8 @@ url: /2006/09/blitzer-nun-auch-hier/
   </p>
 </div>
 
-Im l&auml;ndlichen Thailand sind vergangenen Monat die ersten station&auml;ren Blitzer aufgetaucht und sorgen f&uuml;r heftigste Diskussionen (gr&ouml;&szlig;tenteils in der Art, dass man verwundert ist, dass so etwas m&ouml;glich ist). In Bangkok d&uuml;rfte es derartiges schon l&auml;nger geben, zumindest 5 Rotlicht-Blitzer haben sie dort bereits. [Weitere werden im kommenden Jahr errichtet][1].
+Im ländlichen Thailand sind vergangenen Monat die ersten stationären Blitzer aufgetaucht und sorgen für heftigste Diskussionen (größtenteils in der Art, dass man verwundert ist, dass so etwas möglich ist). In Bangkok dürfte es derartiges schon länger geben, zumindest 5 Rotlicht-Blitzer haben sie dort bereits. [Weitere werden im kommenden Jahr errichtet][1].
 
-Schwere Zeiten f&uuml;r Verkehrsteilnehmer.
+Schwere Zeiten für Verkehrsteilnehmer.
 
  [1]: http://www.nationmultimedia.com/2006/09/07/national/national_30012981.php

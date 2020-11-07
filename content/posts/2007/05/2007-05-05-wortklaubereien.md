@@ -13,11 +13,11 @@ Heute fragte eine mir bekannte Thaifrau (ja, die):
 
 Sie: Pat! What is the name of you website? Why you say "die" there?
 
-Ich bekam ganz pl&ouml;tzlich erh&ouml;hten Blutdruck. Und dann ging es los: Erst musste ich Blogs erkl&auml;ren (war eine der sanook.com-Thais), dann Schreibblockade, dann Artikel (und nicht englische Verben), dann Wortspiele und dann das ganze Ding zusammen gesetzt. Ihre Reaktion:
+Ich bekam ganz plötzlich erhöhten Blutdruck. Und dann ging es los: Erst musste ich Blogs erklären (war eine der sanook.com-Thais), dann Schreibblockade, dann Artikel (und nicht englische Verben), dann Wortspiele und dann das ganze Ding zusammen gesetzt. Ihre Reaktion:
 
 Sie: Aha. Hmm. That funny heh?
 
-Ich habe ihre dann best&auml;tigt, dass ich das zu einem ganz bestimmten Zeitpunkt lustig fand. Und war ganz froh, nicht auch noch die Sache mit dem .de erkl&auml;ren zu m&uuml;ssen. 
+Ich habe ihre dann bestätigt, dass ich das zu einem ganz bestimmten Zeitpunkt lustig fand. Und war ganz froh, nicht auch noch die Sache mit dem .de erklären zu müssen. 
 
 Dummerweise hatte sie einen wissensdurstigen Tag:
 

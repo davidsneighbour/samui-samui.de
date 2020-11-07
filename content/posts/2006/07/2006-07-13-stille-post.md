@@ -41,7 +41,7 @@ Yours sincerely,
   
 Prime Minister of Thailand
 
-Der Bush hat ihm darauf 10 Tage sp&auml;ter (grins) geantwortet.
+Der Bush hat ihm darauf 10 Tage später (grins) geantwortet.
 
 <span class="caps">THE</span> <span class="caps">WHITE</span> <span class="caps">HOUSE</span>
   
@@ -69,18 +69,18 @@ George W. Bush
 
 Ziemlich nichts sagend und, ehem, diplomatisch. 
 
-Nun geht es nat&uuml;rlich hei&szlig; her in der &Ouml;ffentlichkeit, denn einerseits hat Thaksin wieder ein mal von seinen Gegnern geredet ohne sie zu benennen (zuletzt bei der <txp:gho_permalink id="779">Rede neulich</txp:gho_permalink> in der er sagte "ein Mann mit Charisma au&szlig;erhalb der Konstitution" arbeite im Hintergrund gegen ihn. F&uuml;r diese Behauptung hat er bereits eine Klage wegen Majest&auml;tsbeleidigung am Hals). Andererseits ist das wieder ein Beispiel daf&uuml;r, wie er die Mittel die ihm als Premier zur Verf&uuml;gung stehen nutzt um das Ausland zu desinformieren. 
+Nun geht es natürlich heiß her in der Öffentlichkeit, denn einerseits hat Thaksin wieder ein mal von seinen Gegnern geredet ohne sie zu benennen (zuletzt bei der <txp:gho_permalink id="779">Rede neulich</txp:gho_permalink> in der er sagte "ein Mann mit Charisma außerhalb der Konstitution" arbeite im Hintergrund gegen ihn. Für diese Behauptung hat er bereits eine Klage wegen Majestätsbeleidigung am Hals). Andererseits ist das wieder ein Beispiel dafür, wie er die Mittel die ihm als Premier zur Verfügung stehen nutzt um das Ausland zu desinformieren. 
 
-Die meisten Medien _im_ Lande gehen davon aus, dass im Oktober keine Wahlen stattfinden werden da Thaksin das zu verhindern wei&szlig; (auch in seiner Rede: "Ob die Wahlen &uuml;berhaupt stattfinden steht noch gar nicht fest."). Die PAD<txp:gho_footnote>Peoples Alliance for Democracy</txp:gho_footnote> hat innerhalb von drei Tagen beschlossen, dass sie ihre Demonstrationen gegen Thaksin wieder aufnimmt (Montag), nicht vor Regierungsgeb&auml;uden demonstrieren will, um gewaltsame Unruhen zu verhindern (Dienstag) und lieber doch nicht demonstriert (Mittwoch), weil sie die Situation nicht in den Griff bekommen k&ouml;nnen. 
+Die meisten Medien _im_ Lande gehen davon aus, dass im Oktober keine Wahlen stattfinden werden da Thaksin das zu verhindern weiß (auch in seiner Rede: "Ob die Wahlen überhaupt stattfinden steht noch gar nicht fest."). Die PAD<txp:gho_footnote>Peoples Alliance for Democracy</txp:gho_footnote> hat innerhalb von drei Tagen beschlossen, dass sie ihre Demonstrationen gegen Thaksin wieder aufnimmt (Montag), nicht vor Regierungsgebäuden demonstrieren will, um gewaltsame Unruhen zu verhindern (Dienstag) und lieber doch nicht demonstriert (Mittwoch), weil sie die Situation nicht in den Griff bekommen können. 
 
-Einige thail&auml;ndische Analysten verk&uuml;nden schon, dass es Aufst&auml;nde geben wird (seit 1933 gab es &Auml;nderungen in der Staatspolitik immer im Zusammenhang mit Unruhen und Milit&auml;reingriffen. [Allerdings hat Thaksin alle wichtigen Milit&auml;rposten mit seinen Freunden besetzt][1]. Wie das ausgehen wird, kann man sich also schon denken. 
+Einige thailändische Analysten verkünden schon, dass es Aufstände geben wird (seit 1933 gab es Änderungen in der Staatspolitik immer im Zusammenhang mit Unruhen und Militäreingriffen. [Allerdings hat Thaksin alle wichtigen Militärposten mit seinen Freunden besetzt][1]. Wie das ausgehen wird, kann man sich also schon denken. 
 
-Inzwischen wird Thaksin mit dem Tode bedroht ("meine Gegner haben Geld in einen Topf geworfen um einen ausl&auml;ndischen Killer anzuheuern") und mit massivem Milit&auml;raufgebot bewacht. Das h&auml;lt ihn nicht davon ab, sich vor hunderte von Kameras und Mikrofonen zu stellen und Entscheidungen zu verk&uuml;nden und dass er nicht furchtsam ist. Allerdings hat sein Oberk&ouml;rper an Umfang etwas zugenommen und er l&auml;uft nicht mehr im offenen Hemd herum sondern im komplett geschlossenen Anzug, da scheint dann doch eine schusssichere Weste drunter zu stecken.
+Inzwischen wird Thaksin mit dem Tode bedroht ("meine Gegner haben Geld in einen Topf geworfen um einen ausländischen Killer anzuheuern") und mit massivem Militäraufgebot bewacht. Das hält ihn nicht davon ab, sich vor hunderte von Kameras und Mikrofonen zu stellen und Entscheidungen zu verkünden und dass er nicht furchtsam ist. Allerdings hat sein Oberkörper an Umfang etwas zugenommen und er läuft nicht mehr im offenen Hemd herum sondern im komplett geschlossenen Anzug, da scheint dann doch eine schusssichere Weste drunter zu stecken.
 
-In einer Nebennote: Der Seine Majest&auml;t K&ouml;nig Bhumipol ist diese Woche beim Joggen gest&uuml;rzt und hat sich eine Rippe geprellt und einige Blessuren davon getragen. Nichts Schlimmes sagen die Palastquellen. Die <span class="caps">PAD</span> hat allerdings das als Grund genommen, um erstmal nicht zu demonstrieren, damit er sich nicht aufregen muss, sagen sie.
+In einer Nebennote: Der Seine Majestät König Bhumipol ist diese Woche beim Joggen gestürzt und hat sich eine Rippe geprellt und einige Blessuren davon getragen. Nichts Schlimmes sagen die Palastquellen. Die <span class="caps">PAD</span> hat allerdings das als Grund genommen, um erstmal nicht zu demonstrieren, damit er sich nicht aufregen muss, sagen sie.
 
 Allerdings hat das alles nichts zu sagen. Demonstriert werden soll am Freitag und bis dahin kann es noch dreiviermal vorkommen, dass die Stimmung hochkocht oder jemand irgendwas entscheidet oder doch demonstriert oder nicht wird. Wir werden es sehen.
 
-Das Interessante an der Situation f&uuml;r mich ist, dass man das Ganze immer noch als Demokratie bezeichnet.
+Das Interessante an der Situation für mich ist, dass man das Ganze immer noch als Demokratie bezeichnet.
 
  [1]: http://www.nationmultimedia.com/2006/07/07/headlines/headlines_30008212.php

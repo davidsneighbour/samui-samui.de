@@ -31,7 +31,7 @@ Das war die seltsamste Kommunikation zwischen Thais seit langem.
 
 Jedenfall fuhr der Service von dannen, Fu und ich wir gingen Essen und der Service rief an, wir sollten doch mal die Lampen checken. Also nichts wie nach Hause und Lampen angekuckt: Kein Signal. Er rief wieder an und fragte, wie es aussieht, es ergab sich ein Dialog wie in der IBM-Werbung damals ("Druckt er? Nein. Und jetzt? Druckt nicht. Und Jetzt? War die Lampe.") und plötzlich war das Signal da. Und ging nicht mehr weg.
 
-Seither sitzen wir anbetend vor den Lämpchen und überlegen, was wir nun mit dem ganzen Internet anstellen sollen. Asmodeus ist nun die 192.168.1.42 --- wie es sich geh&ouml;rt f&uuml;r mein kleines Heimnetzwerk.
+Seither sitzen wir anbetend vor den Lämpchen und überlegen, was wir nun mit dem ganzen Internet anstellen sollen. Asmodeus ist nun die 192.168.1.42 --- wie es sich gehört für mein kleines Heimnetzwerk.
 
 <del>Gleich mal kucken, was sich auf den Pornoseiten so alles geändert hat...</del>
 
