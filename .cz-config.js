@@ -11,7 +11,8 @@ module.exports = {
     { value: 'refactor', name: 'refactor: A code change that neither fixes a bug nor adds a feature' },
     { value: 'test', name: 'test:     Adding missing tests' },
     { value: 'chore', name: 'chore:    Changes to the build process or documentation generation' },
-    { value: 'wip', name: 'WIP:      Work in progress' }
+    { value: 'wip', name: 'WIP:      Work in progress' },
+    { value: 'content', name: 'content:  Content changes' }
   ],
 
   scopes: [
