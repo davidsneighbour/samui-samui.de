@@ -20,7 +20,8 @@ git add go.sum
   echo 'replace github.com/davidsneighbour/dnb-hugo/robots => /home/patrick/Projects/Hugo/dnb-hugo/robots'
   echo 'replace github.com/davidsneighbour/dnb-hugo/favicons => /home/patrick/Projects/Hugo/dnb-hugo/favicons'
   echo 'replace github.com/davidsneighbour/dnb-hugo/shortcodes => /home/patrick/Projects/Hugo/dnb-hugo/shortcodes'
-  echo 'replace github.com/davidsneighbour/dnb-hugo-libs/bootstrap4 => /home/patrick/Projects/Hugo/dnb-hugo-libs/bootstrap4'
+  echo 'replace github.com/davidsneighbour/dnb-hugo-libs/bootstrap5 => /home/patrick/Projects/Hugo/dnb-hugo-libs/bootstrap5'
+  echo 'replace github.com/davidsneighbour/dnb-hugo-libs/bootstrap-icons => /home/patrick/Projects/Hugo/dnb-hugo-libs/bootstrap-icons'
 } >> go.mod
 
 hugo --gc --minify
