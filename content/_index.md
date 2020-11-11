@@ -1,5 +1,6 @@
 ---
 title: Willkommen auf Samui? Samui!
+url: /
 menu:
   main:
     name: Startseite
