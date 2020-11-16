@@ -39,7 +39,7 @@
     "husky": "4.3.0",
     "lighthouse": "6.4.1",
     "netlify-plugin-snyk": "1.2.0",
-    "playwright": "1.5.2",
+    "playwright": "1.6.1",
     "standard-version": "9.0.0",
     "autoprefixer": "10.0.1",
     "cssnano": "4.1.10",
