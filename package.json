@@ -2,7 +2,7 @@
   "name": "samui-samui-de",
   "slug": "samui-samui-de",
   "url": "https://samui-samui.de",
-  "version": "1.0.69",
+  "version": "1.1.0",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -35,7 +35,6 @@
     "cz-conventional-changelog": "3.3.0",
     "cz-customizable": "6.3.0",
     "cz-customizable-ghooks": "2.0.0",
-    "github-release-notes": "0.17.3",
     "husky": "4.3.0",
     "lighthouse": "6.4.1",
     "netlify-plugin-snyk": "1.2.0",
