@@ -74,6 +74,8 @@ profileid = "66878979350"
 [dnb]
 theme_slug = "samui-samui"
 javascript = "local-changes.js"
+copy-from = "2006"
+
 [dnb.sidebar]
 enabled = true
 items = [ "author", "archive", "recent", "social" ]
@@ -98,3 +100,16 @@ values = "tags"
 enabled = true
 type = "cloud"
 values = "leute"
+
+[dnb.comments]
+repo = "davidsneighbour/samui-samui.de.comments"
+# src = "https://utteranc.es/client.js"
+# term = "pathname"
+# label = "💬"
+# theme = "github-dark-orange"
+
+[dnb.algolia]
+appId = "166C265UOG"
+apiKey = "7e52bca82b03b3a7eb6bbee9fa7429f3"
+indexName = "samui-samui-de"
+numberLocale = "de"
