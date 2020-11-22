@@ -3366,7 +3366,7 @@ static addPrefetch(kind,url,as){const linkElem=document.createElement('link');li
 document.head.append(linkElem);}
 static warmConnections(){if(LiteYTEmbed.preconnected)return;LiteYTEmbed.addPrefetch('preconnect','https://www.youtube-nocookie.com');LiteYTEmbed.addPrefetch('preconnect','https://www.google.com');LiteYTEmbed.addPrefetch('preconnect','https://googleads.g.doubleclick.net');LiteYTEmbed.addPrefetch('preconnect','https://static.doubleclick.net');LiteYTEmbed.preconnected=true;}
 addIframe(){const params=new URLSearchParams(this.getAttribute('params')||[]);params.append('autoplay','1');const iframeHTML=`
-<iframe width="560" height="315" frameborder="0"
+<iframe class="w-100" frameborder="0"
   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
   src="https://www.youtube-nocookie.com/embed/${this.videoId}?${params.toString()}"
 ></iframe>`;this.insertAdjacentHTML('beforeend',iframeHTML);this.classList.add('lyt-activated');}}
