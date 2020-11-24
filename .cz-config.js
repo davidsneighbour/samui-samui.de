@@ -5,18 +5,17 @@
 module.exports = {
 
   types: [
-    { value: 'feat', name: 'feat:     A new feature' },
-    { value: 'fix', name: 'fix:      A bug fix' },
-    { value: 'layouts', name: 'layouts:    Design and Theme changes' },
-    { value: 'refactor', name: 'refactor: A code change that neither fixes a bug nor adds a feature' },
-    { value: 'test', name: 'test:     Adding missing tests' },
-    { value: 'chore', name: 'chore:    Changes to the build process or documentation generation' },
-    { value: 'wip', name: 'WIP:      Work in progress' },
-    { value: 'content', name: 'content:  Content changes' }
+    { value: 'feat',      name: 'feat:     A new feature' },
+    { value: 'fix',       name: 'fix:      A bug fix' },
+    { value: 'layouts',   name: 'layouts:  Design and Theme changes' },
+    { value: 'refactor',  name: 'refactor: A code change that neither fixes a bug nor adds a feature' },
+    { value: 'test',      name: 'test:     Adding missing tests' },
+    { value: 'chore',     name: 'chore:    Changes to the build process or documentation generation' },
+    { value: 'wip',       name: 'WIP:      Work in progress' },
+    { value: 'content',   name: 'content:  Content changes' }
   ],
 
-  scopes: [
-  ],
+  scopes: [],
 
   scopeOverrides: {
     theme: [],
