@@ -1,7 +1,0 @@
-[[imports]]
-path = "github.com/davidsneighbour/dnb-hugo-garuda"
-disabled = false
-
-[[imports]]
-path = "github.com/davidsneighbour/dnb-hugo-testcontent"
-disabled = false
