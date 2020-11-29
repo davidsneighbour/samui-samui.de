@@ -3,3 +3,7 @@ path = "github.com/davidsneighbour/dnb-hugo/netlification"
 
 [[imports]]
 path = "github.com/davidsneighbour/dnb-hugo-garuda"
+
+[[imports]]
+path = "github.com/davidsneighbour/dnb-hugo/favicon"
+disabled = false
