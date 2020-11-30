@@ -2,8 +2,9 @@ github.com/davidsneighbour/dnb-hugo-garuda v1.4.4 h1:XnoudAWzWJVBCCJoG58HiY0UqQj
 github.com/davidsneighbour/dnb-hugo-garuda v1.4.4/go.mod h1:YOW4104MWW1mOxRKOcWnV5Xrt2OcNA7qPoFh111CW0Q=
 github.com/davidsneighbour/dnb-hugo-libs/bootstrap-icons v1.1.1/go.mod h1:yMHt68sj5RmI/UVbuqVlyjYmgXRrj+BL1bXoCpTrqK8=
 github.com/davidsneighbour/dnb-hugo-libs/bootstrap5 v1.1.0/go.mod h1:WvZDuWq42GYwiVQ4A/rgufRF+UQxYZ0IwuygDTbfruQ=
-github.com/davidsneighbour/dnb-hugo/favicon v1.0.2/go.mod h1:SRkPMNvm5VIKEgPQpSmpTrfYn6jZbwB+yse9VT1+TtM=
-github.com/davidsneighbour/dnb-hugo/functions v1.0.0/go.mod h1:5kOoyR3Rlv17+cLHlHDB6zAW1str9rimVSItLAVkmb0=
+github.com/davidsneighbour/dnb-hugo/favicon v1.0.3 h1:dsu5US58qU5q6vrbaAs8Y5R5MG6ofWDkybWVL7BzsWY=
+github.com/davidsneighbour/dnb-hugo/favicon v1.0.3/go.mod h1:M1Sme5uiBXU7WEcMo9a9erc1MInM6qfgoSzDO7TKvPY=
+github.com/davidsneighbour/dnb-hugo/functions v1.0.1/go.mod h1:5kOoyR3Rlv17+cLHlHDB6zAW1str9rimVSItLAVkmb0=
 github.com/davidsneighbour/dnb-hugo/netlification v1.0.15 h1:vvAxtCqN3C3g4eb9cNNRFwyUPRAXotp/nbK9YLRw8Qc=
 github.com/davidsneighbour/dnb-hugo/netlification v1.0.15/go.mod h1:l25A7Y78MbMI44bRNxul1xX8AQzzLJiIprmYcP6soko=
 github.com/davidsneighbour/dnb-hugo/renderhooks v1.0.2/go.mod h1:HpaglW8YeevOyztDjSFI0DBj2w+00D5eqxKlM0IFA7E=
@@ -13,4 +14,3 @@ github.com/davidsneighbour/dnb-hugo/sitemap v1.0.1/go.mod h1:9BE+XEnqFwqJLNcGaxo
 github.com/kaushalmodi/hugo-debugprint v0.0.0-20201009173613-d875fcafa822/go.mod h1:vusrDLlGE+4Uc1b4PgM0dI8lJCEqC1o7NjFr8WIfkaQ=
 github.com/twbs/bootstrap v5.0.0-alpha3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.0.0/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
-github.com/twbs/icons v1.1.0/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
