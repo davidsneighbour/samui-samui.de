@@ -37,7 +37,7 @@
     "cz-customizable-ghooks": "2.0.0",
     "husky": "4.3.0",
     "lighthouse": "6.4.1",
-    "netlify-plugin-snyk": "1.2.0",
+    "netlify-plugin-snyk": "1.2.1",
     "playwright": "1.6.1",
     "standard-version": "9.0.0",
     "autoprefixer": "10.0.2",
