@@ -19,30 +19,30 @@
   Accept-Encoding: gzip, deflate, br
 
 /*.js
-  Expires: Tue, 30-Nov-2021 19:42:46 GMT+0700
+  Expires: Tue, 30-Nov-2021 19:49:15 GMT+0700
   Content-Type: text/javascript; charset=utf-8
   Cache-Control: public, max-age=31536000, immutable
   Accept-Encoding: gzip, deflate, br
 
 /*.css
-  Expires: Tue, 30-Nov-2021 19:42:46 GMT+0700
+  Expires: Tue, 30-Nov-2021 19:49:15 GMT+0700
   Cache-Control: public, max-age=31536000, immutable
   Accept-Encoding: gzip, deflate, br
 
 /*.jpg
-  Expires: Tue, 30-Nov-2021 19:42:46 GMT+0700
+  Expires: Tue, 30-Nov-2021 19:49:15 GMT+0700
   Cache-Control: public, max-age=31536000, immutable
   Accept-Encoding: gzip, deflate, br
 
 /*.png
-  Expires: Tue, 30-Nov-2021 19:42:46 GMT+0700
+  Expires: Tue, 30-Nov-2021 19:49:15 GMT+0700
   Cache-Control: public, max-age=31536000, immutable
   Accept-Encoding: gzip, deflate, br
 
 /assets/*
-  Expires: Tue, 30-Nov-2021 19:42:46 GMT+0700
+  Expires: Tue, 30-Nov-2021 19:49:15 GMT+0700
   Cache-Control: public, max-age=31536000, immutable
 
 /images/*
-  Expires: Tue, 30-Nov-2021 19:42:46 GMT+0700
+  Expires: Tue, 30-Nov-2021 19:49:15 GMT+0700
   Cache-Control: public, max-age=31536000, immutable
