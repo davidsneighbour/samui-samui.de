@@ -25,13 +25,18 @@
     "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "serve": "hugo server --minify --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose",
-    "commitlint": "commitlint --from=HEAD~1"
+    "commitlint": "commitlint --from=HEAD~1",
+    "favicon-create": "real-favicon generate faviconDescription.json ./resources/_gen/assets/faviconData.json static/images/favicon/",
+    "favicon-update": "real-favicon check-for-update --fail-on-update ./resources/_gen/assets/faviconData.json"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
     "atomic-algolia": "0.3.19",
+    "autoprefixer": "10.0.2",
+    "cli-real-favicon": "0.0.8",
     "commitizen": "4.2.2",
+    "cssnano": "4.1.10",
     "cz-conventional-changelog": "3.3.0",
     "cz-customizable": "6.3.0",
     "cz-customizable-ghooks": "2.0.0",
@@ -40,8 +45,6 @@
     "netlify-plugin-snyk": "1.2.1",
     "playwright": "1.6.2",
     "standard-version": "9.0.0",
-    "autoprefixer": "10.0.4",
-    "cssnano": "4.1.10",
     "pixrem": "5.0.0",
     "postcss": "8.1.10",
     "postcss-cli": "^8.0.0",

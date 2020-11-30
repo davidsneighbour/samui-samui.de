@@ -3,6 +3,7 @@
 declare -a MODULES=(
   'github.com/davidsneighbour/dnb-hugo-garuda'
   'github.com/davidsneighbour/dnb-hugo/favicon'
+  'github.com/davidsneighbour/dnb-hugo/functions'
   'github.com/davidsneighbour/dnb-hugo/netlification'
   'github.com/davidsneighbour/dnb-hugo/renderhooks'
   'github.com/davidsneighbour/dnb-hugo/robots'
@@ -15,6 +16,7 @@ declare -a MODULES=(
 declare -a REPLACE=(
   '/home/patrick/Projects/Hugo/dnb-hugo-garuda'
   '/home/patrick/Projects/Hugo/dnb-hugo/favicon'
+  '/home/patrick/Projects/Hugo/dnb-hugo/functions'
   '/home/patrick/Projects/Hugo/dnb-hugo/netlification'
   '/home/patrick/Projects/Hugo/dnb-hugo/renderhooks'
   '/home/patrick/Projects/Hugo/dnb-hugo/robots'
