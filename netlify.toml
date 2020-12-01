@@ -2,51 +2,11 @@
 publish = "public"
 command = "./bin/netlify.sh"
 
-# https://www.netlify.com/docs/netlify-toml-reference/#post-processing
-[build.processing]
-skip_processing = true
-[build.processing.css]
-bundle = true
-minify = true
-[build.processing.js]
-bundle = true
-minify = true
-[build.processing.html]
-pretty_urls = true
-[build.processing.images]
-compress = true
-
-[context.production.environment]
+[buildgi.environment]
 TZ = "Asia/Bangkok"
 HUGO_VERSION = "0.79.0"
 HUGO_ENV = "production"
 NODE_VERSION = "14.14.0"
-# NODE_ENV = "development/production"
 NODE_ENV = "production"
 NPM_VERSION = "6.14.8"
-# RUBY_VERSION = "2.6.2"
-# PYTHON_VERSION = "3.7"
-# PHP_VERSION = "7.4"
 GO_VERSION = "1.15"
-# SWIFT_VERSION = "5.2"
-
-# https://github.com/cdeleeuwe/netlify-plugin-hugo-cache-resources
-[[plugins]]
-package = "netlify-plugin-hugo-cache-resources"
-[plugins.inputs]
-debug = true
-
-# https://github.com/cdeleeuwe/netlify-plugin-submit-sitemap
-[[plugins]]
-package = "netlify-plugin-submit-sitemap"
-[plugins.inputs]
-sitemapPath = "/sitemap.xml"
-providers = [
-  "google",
-  "bing",
-  "yandex"
-]
-
-# https://github.com/snyk-labs/netlify-plugin-snyk
-[[plugins]]
-package = "netlify-plugin-snyk"
