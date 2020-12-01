@@ -14,3 +14,4 @@ github.com/davidsneighbour/dnb-hugo/sitemap v1.0.1/go.mod h1:9BE+XEnqFwqJLNcGaxo
 github.com/kaushalmodi/hugo-debugprint v0.0.0-20201009173613-d875fcafa822/go.mod h1:vusrDLlGE+4Uc1b4PgM0dI8lJCEqC1o7NjFr8WIfkaQ=
 github.com/twbs/bootstrap v5.0.0-alpha3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.0.0/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
+github.com/twbs/icons v1.1.0/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
