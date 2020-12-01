@@ -28,7 +28,7 @@ RUBY_VERSION = "2.6.2"
 PYTHON_VERSION = "3.7"
 PHP_VERSION = "7.4"
 GO_VERSION = "1.15"
-SWIFT_VERSION = "5.2"
+# SWIFT_VERSION = "5.2"
 
 # https://github.com/cdeleeuwe/netlify-plugin-hugo-cache-resources
 [[plugins]]
