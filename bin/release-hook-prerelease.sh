@@ -34,7 +34,7 @@ done
 
 hugo mod get -u ./...
 hugo mod tidy
-# rm -rf public
+rm -rf public
 
 git add go.mod
 git add go.sum
@@ -43,5 +43,5 @@ for i in "${!MODULES[@]}"; do
   go mod edit -replace ${MODULES[$i]}=${REPLACE[$i]}
 done
 
-# hugo --gc --minify
-# git add -f public
+hugo --gc --minify
+git add -f public
