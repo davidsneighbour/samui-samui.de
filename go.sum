@@ -1,5 +1,5 @@
-github.com/davidsneighbour/dnb-hugo-garuda v1.4.5 h1:fN374pcr+bHD2TBc5EEYzzWsLczLloliBpxvZ8AnaQ0=
-github.com/davidsneighbour/dnb-hugo-garuda v1.4.5/go.mod h1:TNJ5f5IWaCRex9p2PbFhBcYnz3MbheuCCc/EPzMvBM0=
+github.com/davidsneighbour/dnb-hugo-garuda v1.4.7 h1:u+HoMzs31xYn8oMyK+wuH1prURsw6Tx4wc5RQEDfgoI=
+github.com/davidsneighbour/dnb-hugo-garuda v1.4.7/go.mod h1:TNJ5f5IWaCRex9p2PbFhBcYnz3MbheuCCc/EPzMvBM0=
 github.com/davidsneighbour/dnb-hugo-libs/bootstrap-icons v1.2.1/go.mod h1:oGgwUl7dgGSrYVjdD5AyJGCIDanLcFDFFp4WYtYKLQM=
 github.com/davidsneighbour/dnb-hugo-libs/bootstrap5 v1.1.1/go.mod h1:WvZDuWq42GYwiVQ4A/rgufRF+UQxYZ0IwuygDTbfruQ=
 github.com/davidsneighbour/dnb-hugo/favicon v1.0.3 h1:dsu5US58qU5q6vrbaAs8Y5R5MG6ofWDkybWVL7BzsWY=
@@ -7,7 +7,6 @@ github.com/davidsneighbour/dnb-hugo/favicon v1.0.3/go.mod h1:M1Sme5uiBXU7WEcMo9a
 github.com/davidsneighbour/dnb-hugo/functions v1.0.2/go.mod h1:5kOoyR3Rlv17+cLHlHDB6zAW1str9rimVSItLAVkmb0=
 github.com/davidsneighbour/dnb-hugo/netlification v1.0.16 h1://c0Y8fQ2CH8/F6oc9/lNAHV+2WT6U5lNf/cAb4QP+8=
 github.com/davidsneighbour/dnb-hugo/netlification v1.0.16/go.mod h1:l25A7Y78MbMI44bRNxul1xX8AQzzLJiIprmYcP6soko=
-github.com/davidsneighbour/dnb-hugo/renderhooks v1.0.2/go.mod h1:HpaglW8YeevOyztDjSFI0DBj2w+00D5eqxKlM0IFA7E=
 github.com/davidsneighbour/dnb-hugo/robots v1.0.1/go.mod h1:g57/Gh2K0tvpvhB404Wf9pJKB7o2hwyBLIRJdEjc8Ac=
 github.com/davidsneighbour/dnb-hugo/shortcodes v1.0.9/go.mod h1:odInrnmgliJ522wT0cumyU1YUf0FQvkqK/0Jri1K9ao=
 github.com/davidsneighbour/dnb-hugo/sitemap v1.0.1/go.mod h1:9BE+XEnqFwqJLNcGaxoO7Cg3YB+2u60GOWACIDYq880=
