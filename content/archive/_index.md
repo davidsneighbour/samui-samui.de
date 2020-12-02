@@ -2,6 +2,7 @@
 title: Das Archiv?!?
 description: Archiv.
 url: /archiv
+slug: archiv
 menu:
   main:
     name: Archiv
