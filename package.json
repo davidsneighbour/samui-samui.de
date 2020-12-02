@@ -30,9 +30,6 @@
     "favicon-update": "real-favicon check-for-update --fail-on-update ./resources/_gen/assets/faviconData.json"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.8",
-    "@babel/core": "^7.12.9",
-    "@babel/preset-env": "^7.12.7",
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
     "atomic-algolia": "0.3.19",
