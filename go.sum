@@ -1,5 +1,5 @@
-github.com/davidsneighbour/dnb-hugo-garuda v1.4.7 h1:u+HoMzs31xYn8oMyK+wuH1prURsw6Tx4wc5RQEDfgoI=
-github.com/davidsneighbour/dnb-hugo-garuda v1.4.7/go.mod h1:TNJ5f5IWaCRex9p2PbFhBcYnz3MbheuCCc/EPzMvBM0=
+github.com/davidsneighbour/dnb-hugo-garuda v1.4.9 h1:ml7oQhlDQyhA9GfSO/5/JeOu1y4i0PP7gjz661/UQiQ=
+github.com/davidsneighbour/dnb-hugo-garuda v1.4.9/go.mod h1:TNJ5f5IWaCRex9p2PbFhBcYnz3MbheuCCc/EPzMvBM0=
 github.com/davidsneighbour/dnb-hugo-libs/bootstrap-icons v1.2.1/go.mod h1:oGgwUl7dgGSrYVjdD5AyJGCIDanLcFDFFp4WYtYKLQM=
 github.com/davidsneighbour/dnb-hugo-libs/bootstrap5 v1.1.1/go.mod h1:WvZDuWq42GYwiVQ4A/rgufRF+UQxYZ0IwuygDTbfruQ=
 github.com/davidsneighbour/dnb-hugo/favicon v1.0.3 h1:dsu5US58qU5q6vrbaAs8Y5R5MG6ofWDkybWVL7BzsWY=
