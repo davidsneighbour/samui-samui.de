@@ -61,4 +61,3 @@ objectSrc = [
   "'self'"
 ]
 upgradeInsecureRequests = true
-on
