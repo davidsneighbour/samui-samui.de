@@ -1,47 +1,45 @@
 #!/bin/bash
 
 declare -a MODULES=(
-  'github.com/davidsneighbour/dnb-hugo-garuda'
-  'github.com/davidsneighbour/dnb-hugo/favicon'
-  'github.com/davidsneighbour/dnb-hugo/functions'
-  'github.com/davidsneighbour/dnb-hugo/netlification'
-  'github.com/davidsneighbour/dnb-hugo/renderhooks'
-  'github.com/davidsneighbour/dnb-hugo/robots'
-  'github.com/davidsneighbour/dnb-hugo/sitemap'
-  'github.com/davidsneighbour/dnb-hugo/shortcodes'
-  'github.com/davidsneighbour/dnb-hugo-libs/bootstrap5'
-  'github.com/davidsneighbour/dnb-hugo-libs/bootstrap-icons'
-  'github.com/davidsneighbour/dnb-hugo-libs/popper.js'
+  'github.com/dnb-hugo/garuda'
+  'github.com/dnb-hugo/components/favicon'
+  'github.com/dnb-hugo/components/functions'
+  'github.com/dnb-hugo/components/netlification'
+  'github.com/dnb-hugo/components/renderhooks'
+  'github.com/dnb-hugo/components/robots'
+  'github.com/dnb-hugo/components/search-algolia'
+  'github.com/dnb-hugo/components/sitemap'
+  'github.com/dnb-hugo/components/shortcodes'
+  'github.com/dnb-hugo/libraries/bootstrap5'
+  'github.com/dnb-hugo/libraries/bootstrap-icons'
+  'github.com/dnb-hugo/libraries/popper.js'
 )
 declare -a REPLACE=(
-  '/home/patrick/Projects/Hugo/dnb-hugo-garuda'
-  '/home/patrick/Projects/Hugo/dnb-hugo/favicon'
-  '/home/patrick/Projects/Hugo/dnb-hugo/functions'
-  '/home/patrick/Projects/Hugo/dnb-hugo/netlification'
-  '/home/patrick/Projects/Hugo/dnb-hugo/renderhooks'
-  '/home/patrick/Projects/Hugo/dnb-hugo/robots'
-  '/home/patrick/Projects/Hugo/dnb-hugo/sitemap'
-  '/home/patrick/Projects/Hugo/dnb-hugo/shortcodes'
-  '/home/patrick/Projects/Hugo/dnb-hugo-libs/bootstrap5'
-  '/home/patrick/Projects/Hugo/dnb-hugo-libs/bootstrap-icons'
-  '/home/patrick/Projects/Hugo/dnb-hugo-libs/popper.js'
+  '/home/patrick/Projects/dnb-hugo/garuda'
+  '/home/patrick/Projects/dnb-hugo/components/favicon'
+  '/home/patrick/Projects/dnb-hugo/components/functions'
+  '/home/patrick/Projects/dnb-hugo/components/netlification'
+  '/home/patrick/Projects/dnb-hugo/components/renderhooks'
+  '/home/patrick/Projects/dnb-hugo/components/robots'
+  '/home/patrick/Projects/dnb-hugo/components/search-algolia'
+  '/home/patrick/Projects/dnb-hugo/components/sitemap'
+  '/home/patrick/Projects/dnb-hugo/components/shortcodes'
+  '/home/patrick/Projects/dnb-hugo/libraries/bootstrap5'
+  '/home/patrick/Projects/dnb-hugo/libraries/bootstrap-icons'
+  '/home/patrick/Projects/dnb-hugo/libraries/popper.js'
 )
 
 for i in "${MODULES[@]}"
 do
-  go mod edit -dropreplace $i
+  go mod edit -dropreplace "$i"
 done
 
 hugo mod get -u ./...
 hugo mod tidy
-# rm -rf public
 
 git add go.mod
 git add go.sum
 
 for i in "${!MODULES[@]}"; do
-  go mod edit -replace ${MODULES[$i]}=${REPLACE[$i]}
+  go mod edit -replace "${MODULES[$i]}"="${REPLACE[$i]}"
 done
-
-# hugo --gc --minify
-# git add -f public

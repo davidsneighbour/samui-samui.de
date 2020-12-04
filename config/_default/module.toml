@@ -1,9 +1,11 @@
 [[imports]]
-path = "github.com/davidsneighbour/dnb-hugo/netlification"
+path = "github.com/dnb-hugo/components/netlification"
+disabled = false
 
 [[imports]]
-path = "github.com/davidsneighbour/dnb-hugo-garuda"
+path = "github.com/dnb-hugo/garuda"
+disabled = false
 
 [[imports]]
-path = "github.com/davidsneighbour/dnb-hugo/favicon"
+path = "github.com/dnb-hugo/components/favicon"
 disabled = false

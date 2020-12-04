@@ -27,7 +27,8 @@
     "serve": "hugo server --minify --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose",
     "commitlint": "commitlint --from=HEAD~1",
     "favicon-create": "real-favicon generate faviconDescription.json ./resources/_gen/assets/faviconData.json static/images/favicon/",
-    "favicon-update": "real-favicon check-for-update --fail-on-update ./resources/_gen/assets/faviconData.json"
+    "favicon-update": "real-favicon check-for-update --fail-on-update ./resources/_gen/assets/faviconData.json",
+    "lint-md": "remark --ignore-path .gitignore content"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
@@ -48,7 +49,7 @@
     "postcss": "8.1.10",
     "postcss-cli": "^8.0.0",
     "precss": "4.0.0",
-    "remark-preset-lint-dnb": "github:davidsneighbour/remark-preset-lint-dnb",
+    "remark-preset-lint-dnb": "github:dnb-hugo/remark-preset-lint-dnb",
     "standard-version": "9.0.0"
   },
   "standard-version": {
