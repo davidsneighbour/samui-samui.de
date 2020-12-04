@@ -1,3 +1,6 @@
 github.com/dnb-hugo/components v0.0.0-20201204114921-34776afb2ace h1:khr2fUQaPO9EVV2AGA/egu9LnT3JZNBpN9rWgvTrSo0=
 github.com/dnb-hugo/components/netlification v1.0.17 h1:tAFf0Me8XPxLhXF0MgGIauTJRpeVDTy0geq7jmbh/Lw=
 github.com/dnb-hugo/components/netlification v1.0.17/go.mod h1:/iJyqaQDqkx4iUBFMk/8ogo3V8L3tOzwVprsS07+Brc=
+github.com/kaushalmodi/hugo-debugprint v0.0.0-20201009173613-d875fcafa822/go.mod h1:vusrDLlGE+4Uc1b4PgM0dI8lJCEqC1o7NjFr8WIfkaQ=
+github.com/twbs/bootstrap v5.0.0-alpha3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
+github.com/twbs/icons v1.1.0/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
