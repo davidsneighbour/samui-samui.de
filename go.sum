@@ -6,8 +6,8 @@ github.com/dnb-hugo/components/netlification v1.0.21/go.mod h1:/iJyqaQDqkx4iUBFM
 github.com/dnb-hugo/components/robots v1.0.2/go.mod h1:bBjleToKX3GqeJJodfd7+Ue6xU3z5x8Zpm+drSUQmrA=
 github.com/dnb-hugo/components/search-algolia v1.0.4/go.mod h1:3uihM7xM0kICcTc0GG1G1CWN0LT1lI6TRmyKAJ+Msns=
 github.com/dnb-hugo/components/sitemap v1.0.2/go.mod h1:ubgzNoQXdBxRSUC/szjFzv+CDpWqkEtZplhcqxPGDmY=
-github.com/dnb-hugo/garuda v1.4.14 h1:6c1YAPUIno/QdoqLM2AydLtWN09vGuTqbxmEcMIybME=
-github.com/dnb-hugo/garuda v1.4.14/go.mod h1:Dh9U3BGuxe00Gm/NCdRC4g7QWFkDpm73whLvzHwUI+I=
+github.com/dnb-hugo/garuda v1.4.15 h1:O+vqVep/mhrivSPPwS1wmzUdzDOfnQng3261qylzFkY=
+github.com/dnb-hugo/garuda v1.4.15/go.mod h1:Dh9U3BGuxe00Gm/NCdRC4g7QWFkDpm73whLvzHwUI+I=
 github.com/dnb-hugo/libraries/bootstrap-icons v1.2.2/go.mod h1:usqGEypv3X3e5ElgBylmFG7HAUySCFK2xok7zs7GqX0=
 github.com/dnb-hugo/libraries/bootstrap5 v1.1.2/go.mod h1:Zz4wloYMz6YIUiMFeDXAgezpVRHI1bLnOzTi/5bzEpk=
 github.com/kaushalmodi/hugo-debugprint v0.0.0-20201009173613-d875fcafa822/go.mod h1:vusrDLlGE+4Uc1b4PgM0dI8lJCEqC1o7NjFr8WIfkaQ=
