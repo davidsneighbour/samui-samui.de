@@ -1,2 +1,7 @@
 [de]
 weight = 1
+
+
+
+# Notes: quite undocumented for RTL languages
+# languagedirection = rtl
