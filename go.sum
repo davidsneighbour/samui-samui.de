@@ -1,3 +1,6 @@
+github.com/dnb-hugo/blocks v0.0.0-20201209111415-89c9e785b59d h1:TyMoCBWyr7C626TmlP83b4TG8cW7CV8+O86IJQgOEQ4=
+github.com/dnb-hugo/blocks/bootstrap5 v0.0.1 h1:Ljgo79OeEMcLRjSSEYbJc0FQOzPg05oGgU89tkLGoxI=
+github.com/dnb-hugo/blocks/bootstrap5 v0.0.1/go.mod h1:2kqEXaSqas/kKVXeEwagqHYcApBFUHxaMfzGWUtazgA=
 github.com/dnb-hugo/components/favicon v1.0.6 h1:bK9kIUv0DPfZ7srk768i4XZJVq7FmClC5kpLyBbblzc=
 github.com/dnb-hugo/components/favicon v1.0.6/go.mod h1:Dis4edU7dCjXY24gKl7W7WoRAroALmd/yA2pxWjh6/c=
 github.com/dnb-hugo/components/functions v1.0.5/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=

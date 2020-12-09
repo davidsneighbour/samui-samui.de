@@ -1,0 +1,14 @@
+################################################################################
+# Author
+################################################################################
+name = "Patrick Kollitsch"
+homepage = "https://kollitsch.de/"
+
+description = "sitewide/authorfooter/index.md"
+
+[photo]
+url = "/assets/images/patrick.kollitsch.jpg"
+title = "Der Autor in seiner natürlichen Umgebung"
+
+[format]
+layout = "card"

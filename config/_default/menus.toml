@@ -1,0 +1,9 @@
+################################################################################
+# Menue points without local page
+################################################################################
+[[main]]
+name = "DNB"
+weight = 250
+identifier = "dnb"
+url = "https://davids-neighbour.com"
+pre = "icons/user-tie.svg"
