@@ -43,7 +43,7 @@
     "cz-customizable": "6.3.0",
     "cz-customizable-ghooks": "2.0.0",
     "husky": "4.3.5",
-    "lighthouse": "6.4.1",
+    "lighthouse": "6.5.0",
     "netlify-plugin-snyk": "1.2.1",
     "pixrem": "5.0.0",
     "playwright": "1.6.2",
