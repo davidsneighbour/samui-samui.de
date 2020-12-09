@@ -9,3 +9,31 @@ HUGO_ENV = "production"
 NODE_VERSION = "14.14.0"
 NPM_VERSION = "6.14.8"
 GO_VERSION = "1.15"
+
+[[plugins]]
+package = "netlify-plugin-hugo-cache-resources"
+[plugins.inputs]
+debug = true
+
+[[plugins]]
+package = "netlify-plugin-image-optim"
+
+[[plugins]]
+package = "netlify-plugin-inline-critical-css"
+# https://github.com/addyosmani/critical.
+[plugins.inputs]
+minify = true
+extract = false
+[[plugins.inputs.dimensions]]
+width = 414
+height = 896
+[[plugins.inputs.dimensions]]
+width = 1920
+height = 1080
+
+[[plugins]]
+package = "netlify-plugin-no-more-404"
+[plugins.inputs]
+on404 = "warn"
+cacheKey = "v34eFFuF8D"
+debugMode = false
