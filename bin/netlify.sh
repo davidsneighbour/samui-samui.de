@@ -16,5 +16,8 @@ hugo mod get -u ./...
 # compiling the site (see, no --minify)
 hugo --gc
 
+# commit algolia index
+npm run algolia
+
 # removing files that are not required to exist in the global scope
 rm -rf public/posts
