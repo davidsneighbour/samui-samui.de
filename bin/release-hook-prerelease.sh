@@ -1,6 +1,7 @@
 #!/bin/bash
 
 declare -a MODULES=(
+  'github.com/dnb-hugo/debugprint'
   'github.com/dnb-hugo/garuda'
   'github.com/dnb-hugo/components/favicon'
   'github.com/dnb-hugo/components/functions'
@@ -16,6 +17,7 @@ declare -a MODULES=(
   'github.com/dnb-hugo/libraries/popper.js'
 )
 declare -a REPLACE=(
+  '/home/patrick/Projects/dnb-hugo/debugprint'
   '/home/patrick/Projects/dnb-hugo/garuda'
   '/home/patrick/Projects/dnb-hugo/components/favicon'
   '/home/patrick/Projects/dnb-hugo/components/functions'
