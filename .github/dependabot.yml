@@ -4,12 +4,16 @@
 version: 2
 updates:
 
-  # managing dependencies for node/npm
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
-      time: "07:00"
+      time: "21:20"
       timezone: "Asia/Bangkok"
     allow:
       - dependency-type: "production"
