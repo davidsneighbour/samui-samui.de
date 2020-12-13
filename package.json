@@ -53,8 +53,8 @@
     "favicon-create": "real-favicon generate faviconDescription.json ./resources/_gen/assets/faviconData.json static/images/favicon/",
     "favicon-update": "real-favicon check-for-update --fail-on-update ./resources/_gen/assets/faviconData.json",
     "build": "npm run build:webpack && npm run build:hugo",
-    "build:hugo": "hugo -d ../dist -s site -v",
-    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
+    "build:hugo": "hugo",
+    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.production.js"
   },
   "devDependencies": {
     "@babel/core": "7.12.3",
@@ -64,14 +64,10 @@
     "@babel/preset-env": "7.12.10",
     "babel-loader": "8.2.2",
     "cross-env": "5.2.0",
-    "exports-loader": "0.7.0",
-    "imports-loader": "1.2.0",
-    "plugin-error": "1.0.1",
     "uglifyjs-webpack-plugin": "2.2.0",
     "webpack": "4.44.2",
     "webpack-cli": "3.3.12",
-    "webpack-merge": "5.6.1",
-    "whatwg-fetch": "3.5.0"
+    "webpack-merge": "5.6.1"
   },
   "standard-version": {
     "skip": {
