@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@dnb-hugo/commitlint-config-dnb": "github:dnb-hugo/commitlint-config-dnb",
-    "@fullhuman/postcss-purgecss": "3.0.0",
+    "@fullhuman/postcss-purgecss": "3.1.0",
     "atomic-algolia": "0.3.19",
     "autoprefixer": "10.1.0",
     "cli-real-favicon": "0.0.8",
