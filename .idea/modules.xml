@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../asylum/.idea/asylum.iml" filepath="$PROJECT_DIR$/../asylum/.idea/asylum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../blocks/.idea/blocks.iml" filepath="$PROJECT_DIR$/../blocks/.idea/blocks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../components/.idea/components.iml" filepath="$PROJECT_DIR$/../components/.idea/components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../debugprint/.idea/debugprint.iml" filepath="$PROJECT_DIR$/../debugprint/.idea/debugprint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../garuda/.idea/garuda.iml" filepath="$PROJECT_DIR$/../garuda/.idea/garuda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../garuda-template/.idea/garuda-template.iml" filepath="$PROJECT_DIR$/../garuda-template/.idea/garuda-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../libraries/.idea/libraries.iml" filepath="$PROJECT_DIR$/../libraries/.idea/libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/samui-samui.de.iml" filepath="$PROJECT_DIR$/.idea/samui-samui.de.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shortcodes/.idea/shortcodes.iml" filepath="$PROJECT_DIR$/../shortcodes/.idea/shortcodes.iml" />
+    </modules>
+  </component>
+</project>
