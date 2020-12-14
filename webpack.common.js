@@ -3,6 +3,8 @@ const path = require("path");
 
 module.exports = {
 
+  target: ['web', 'es2017'],
+
   entry: {
     main: path.join(__dirname, "assets/js", "theme.js")
   },
