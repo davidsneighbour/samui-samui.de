@@ -19,7 +19,7 @@
     }
   },
   "scripts": {
-    "serve": "run-p serve:**",
+    "serve": "npm run build:webpack && run-p serve:**",
     "serve:hugo": "hugo server --minify --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose",
     "serve:webpack": "webpack --watch --config webpack.development.js",
     "algolia": "hugo --quiet && atomic-algolia && rm -rf public",
@@ -31,7 +31,8 @@
     "favicon-update": "real-favicon check-for-update --fail-on-update ./resources/_gen/assets/faviconData.json",
     "build": "npm run build:webpack && npm run build:hugo",
     "build:hugo": "hugo",
-    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.production.js"
+    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.production.js",
+    "clean:webpack": "rm -rf static/main*.js && rm data/dnb/webpack/config.json"
   },
   "devDependencies": {
     "@dnb-hugo/commitlint-config-dnb": "github:dnb-hugo/commitlint-config-dnb",
