@@ -63,10 +63,7 @@
     "@babel/preset-env": "7.12.10",
     "babel-loader": "8.2.2",
     "cross-env": "5.2.0",
-    "uglifyjs-webpack-plugin": "2.2.0",
-    "webpack": "4.44.2",
-    "webpack-cli": "3.3.12",
-    "webpack-merge": "5.6.1"
+    "uglifyjs-webpack-plugin": "2.2.0"
   },
   "standard-version": {
     "skip": {
@@ -91,5 +88,10 @@
     "extends": [
       "@dnb-hugo/commitlint-config-dnb"
     ]
+  },
+  "dependencies": {
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-merge": "^5.7.0"
   }
 }
