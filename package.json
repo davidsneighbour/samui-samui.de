@@ -32,7 +32,8 @@
     "build": "npm run build:webpack && npm run build:hugo",
     "build:hugo": "hugo",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.production.js",
-    "clean:webpack": "rm -rf static/main*.js && rm data/dnb/webpack/config.json"
+    "clean:webpack": "rm -rf static/main*.js && rm data/dnb/webpack/config.json",
+    "update:packages": "node wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save"
   },
   "devDependencies": {
     "@babel/core": "7.12.10",
