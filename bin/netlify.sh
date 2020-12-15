@@ -17,7 +17,7 @@ hugo mod get -u ./...
 hugo --gc
 
 # commit algolia index
-npm run algolia
+atomic-algolia
 
 # removing files that are not required to exist in the global scope
 rm -rf public/posts
