@@ -37,28 +37,6 @@ module.exports = merge(common, {
     chunkFilename: "[id].[fullhash].css"
   },
 
-  // optimization: {
-  //   minimizer: [
-  //     new UglifyJsPlugin({
-  //       cache: true,
-  //       parallel: true,
-  //       sourceMap: true,
-  //       uglifyOptions: {
-  //         comments: false,
-  //         warnings: false,
-  //         parse: {},
-  //         compress: {},
-  //         mangle: true, // Note `mangle.properties` is `false` by default.
-  //         output: null,
-  //         toplevel: false,
-  //         nameCache: null,
-  //         ie8: false,
-  //         keep_fnames: false,
-  //       },
-  //     })
-  //   ]
-  // },
-
   plugins: [
     new MetaInfoPlugin({ filename: 'data/dnb/webpack/config.json' })
   ]
