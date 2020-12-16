@@ -1,7 +1,7 @@
 github.com/dnb-hugo/blocks/bootstrap5 v0.0.1 h1:Ljgo79OeEMcLRjSSEYbJc0FQOzPg05oGgU89tkLGoxI=
 github.com/dnb-hugo/blocks/bootstrap5 v0.0.1/go.mod h1:2kqEXaSqas/kKVXeEwagqHYcApBFUHxaMfzGWUtazgA=
-github.com/dnb-hugo/components/favicon v1.0.6 h1:bK9kIUv0DPfZ7srk768i4XZJVq7FmClC5kpLyBbblzc=
-github.com/dnb-hugo/components/favicon v1.0.6/go.mod h1:Dis4edU7dCjXY24gKl7W7WoRAroALmd/yA2pxWjh6/c=
+github.com/dnb-hugo/components/favicon v1.0.7 h1:lfN2WC1nw/IXUW3qE+jWMu8DH2i+hY63btgO4VC8YLs=
+github.com/dnb-hugo/components/favicon v1.0.7/go.mod h1:Dis4edU7dCjXY24gKl7W7WoRAroALmd/yA2pxWjh6/c=
 github.com/dnb-hugo/components/functions v1.0.5/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
 github.com/dnb-hugo/components/netlification v1.0.21 h1:mfLgEJRV9g9csivYdXbGrUpzivuAcJxPs72v/C8MiwI=
 github.com/dnb-hugo/components/netlification v1.0.21/go.mod h1:/iJyqaQDqkx4iUBFMk/8ogo3V8L3tOzwVprsS07+Brc=
@@ -9,13 +9,13 @@ github.com/dnb-hugo/components/robots v1.0.3/go.mod h1:bBjleToKX3GqeJJodfd7+Ue6x
 github.com/dnb-hugo/components/search-algolia v1.0.6/go.mod h1:3uihM7xM0kICcTc0GG1G1CWN0LT1lI6TRmyKAJ+Msns=
 github.com/dnb-hugo/components/sitemap v1.0.3/go.mod h1:ubgzNoQXdBxRSUC/szjFzv+CDpWqkEtZplhcqxPGDmY=
 github.com/dnb-hugo/debugprint v0.0.9/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
-github.com/dnb-hugo/garuda v1.4.22 h1:/syciIPxZLKpS5WjooeKSozlv0BdDFfxdhB40GqWmqg=
-github.com/dnb-hugo/garuda v1.4.22/go.mod h1:AKWtmhY8IVOqWGdizboMOYFTIhnWddi2u/2pu2xFyV8=
+github.com/dnb-hugo/garuda v1.4.23 h1:ZJKnxezrVQpTxwizIhBMtd6ksLaKW5NA7W0cUz5QFbY=
+github.com/dnb-hugo/garuda v1.4.23/go.mod h1:ux0t8EMLc9Mjsiwqo6mFk6NzNvSQhANCXxlCxondvBQ=
 github.com/dnb-hugo/libraries/bootstrap-icons v1.3.0 h1:m+BYjWffn2aPsYonqNGtCe0QeBlTM/maL9Yp/bEIiBo=
 github.com/dnb-hugo/libraries/bootstrap-icons v1.3.0/go.mod h1:s2O49TxmELXraw3IZq9zLO+XlORr7eCvwDpQUqJRX7Q=
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.0/go.mod h1:f1PHdrXdCZgkLcbuiTQ9ml8YGxoLw7VWkAapiZoeHtg=
 github.com/dnb-hugo/libraries/popper.js v1.1.2/go.mod h1:I10AsR1CyPWU5cpsSYhpZaeHCfdMownxSDcye/WJvlc=
-github.com/dnb-hugo/shortcodes v1.1.4/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
+github.com/dnb-hugo/shortcodes v1.1.6/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
 github.com/popperjs/popper-core v2.5.4+incompatible h1:lp9wCvksdsCLWFKrQuT6cl/2aKXUDvTxOfUr58Ju06g=
 github.com/popperjs/popper-core v2.5.4+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9ttEFhsPN5sFPapL1QOzxjoDz0o=
 github.com/twbs/bootstrap v5.0.0-beta1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

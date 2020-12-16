@@ -2,7 +2,7 @@
   "name": "samui-samui-de",
   "slug": "samui-samui-de",
   "url": "https://samui-samui.de",
-  "version": "1.1.32",
+  "version": "1.1.33",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -44,6 +44,7 @@
     "@babel/preset-env": "7.12.10",
     "@babel/register": "7.12.10",
     "@dnb-hugo/commitlint-config-dnb": "github:dnb-hugo/commitlint-config-dnb",
+    "@dnb-hugo/standard-version-config-dnb": "github:dnb-hugo/standard-version-config-dnb",
     "@fullhuman/postcss-purgecss": "3.1.0",
     "atomic-algolia": "0.3.19",
     "autoprefixer": "10.1.0",
@@ -71,20 +72,6 @@
     "webpack": "5.10.1",
     "webpack-cli": "4.2.0",
     "webpack-merge": "5.7.0"
-  },
-  "standard-version": {
-    "skip": {
-      "changelog": true
-    },
-    "scripts": {
-      "prerelease": "./bin/release-hook-prerelease.sh"
-    },
-    "bumpFiles": [
-      {
-        "filename": "package.json",
-        "type": "json"
-      }
-    ]
   },
   "husky": {
     "hooks": {
