@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/../shortcodes/.idea/shortcodes.iml" filepath="$PROJECT_DIR$/../shortcodes/.idea/shortcodes.iml" />
       <module fileurl="file://$PROJECT_DIR$/../standard-version-config-dnb/.idea/standard-version-config-dnb.iml" filepath="$PROJECT_DIR$/../standard-version-config-dnb/.idea/standard-version-config-dnb.iml" />
       <module fileurl="file://$PROJECT_DIR$/../stylelint-config-dnb/.idea/stylelint-config-dnb.iml" filepath="$PROJECT_DIR$/../stylelint-config-dnb/.idea/stylelint-config-dnb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../textlint-config-dnb/.idea/textlint-config-dnb.iml" filepath="$PROJECT_DIR$/../textlint-config-dnb/.idea/textlint-config-dnb.iml" />
     </modules>
   </component>
 </project>

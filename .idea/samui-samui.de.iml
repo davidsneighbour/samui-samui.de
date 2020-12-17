@@ -18,5 +18,6 @@
     <orderEntry type="module" module-name="standard-version-config-dnb" />
     <orderEntry type="module" module-name="stylelint-config-dnb" />
     <orderEntry type="module" module-name="repotemplate" />
+    <orderEntry type="module" module-name="textlint-config-dnb" />
   </component>
 </module>
