@@ -12,5 +12,11 @@
     <orderEntry type="module" module-name="libraries" />
     <orderEntry type="module" module-name="shortcodes" />
     <orderEntry type="module" module-name="debugprint" />
+    <orderEntry type="module" module-name="browserslist-config-dnb" />
+    <orderEntry type="module" module-name="commitlint-config-dnb" />
+    <orderEntry type="module" module-name="remark-preset-lint-dnb" />
+    <orderEntry type="module" module-name="standard-version-config-dnb" />
+    <orderEntry type="module" module-name="stylelint-config-dnb" />
+    <orderEntry type="module" module-name="repotemplate" />
   </component>
 </module>

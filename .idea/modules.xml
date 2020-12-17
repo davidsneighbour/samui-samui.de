@@ -4,13 +4,19 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../asylum/.idea/asylum.iml" filepath="$PROJECT_DIR$/../asylum/.idea/asylum.iml" />
       <module fileurl="file://$PROJECT_DIR$/../blocks/.idea/blocks.iml" filepath="$PROJECT_DIR$/../blocks/.idea/blocks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../browserslist-config-dnb/.idea/browserslist-config-dnb.iml" filepath="$PROJECT_DIR$/../browserslist-config-dnb/.idea/browserslist-config-dnb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../commitlint-config-dnb/.idea/commitlint-config-dnb.iml" filepath="$PROJECT_DIR$/../commitlint-config-dnb/.idea/commitlint-config-dnb.iml" />
       <module fileurl="file://$PROJECT_DIR$/../components/.idea/components.iml" filepath="$PROJECT_DIR$/../components/.idea/components.iml" />
       <module fileurl="file://$PROJECT_DIR$/../debugprint/.idea/debugprint.iml" filepath="$PROJECT_DIR$/../debugprint/.idea/debugprint.iml" />
       <module fileurl="file://$PROJECT_DIR$/../garuda/.idea/garuda.iml" filepath="$PROJECT_DIR$/../garuda/.idea/garuda.iml" />
       <module fileurl="file://$PROJECT_DIR$/../garuda-template/.idea/garuda-template.iml" filepath="$PROJECT_DIR$/../garuda-template/.idea/garuda-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/../libraries/.idea/libraries.iml" filepath="$PROJECT_DIR$/../libraries/.idea/libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../remark-preset-lint-dnb/.idea/remark-preset-lint-dnb.iml" filepath="$PROJECT_DIR$/../remark-preset-lint-dnb/.idea/remark-preset-lint-dnb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../repotemplate/.idea/repotemplate.iml" filepath="$PROJECT_DIR$/../repotemplate/.idea/repotemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/samui-samui.de.iml" filepath="$PROJECT_DIR$/.idea/samui-samui.de.iml" />
       <module fileurl="file://$PROJECT_DIR$/../shortcodes/.idea/shortcodes.iml" filepath="$PROJECT_DIR$/../shortcodes/.idea/shortcodes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../standard-version-config-dnb/.idea/standard-version-config-dnb.iml" filepath="$PROJECT_DIR$/../standard-version-config-dnb/.idea/standard-version-config-dnb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stylelint-config-dnb/.idea/stylelint-config-dnb.iml" filepath="$PROJECT_DIR$/../stylelint-config-dnb/.idea/stylelint-config-dnb.iml" />
     </modules>
   </component>
 </project>
