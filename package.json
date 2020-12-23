@@ -72,11 +72,11 @@
     "precss": "4.0.0",
     "remark-preset-lint-dnb": "github:dnb-hugo/remark-preset-lint-dnb",
     "standard-version": "9.0.0",
+    "stylelint": "13.8.0",
     "uglifyjs-webpack-plugin": "2.2.0",
     "webpack": "5.11.0",
     "webpack-cli": "4.2.0",
-    "webpack-merge": "5.7.2",
-    "stylelint": "13.8.0"
+    "webpack-merge": "5.7.2"
   },
   "husky": {
     "hooks": {

@@ -19,5 +19,6 @@
     <orderEntry type="module" module-name="stylelint-config-dnb" />
     <orderEntry type="module" module-name="repotemplate" />
     <orderEntry type="module" module-name="textlint-config-dnb" />
+    <orderEntry type="module" module-name="hugothemes" />
   </component>
 </module>

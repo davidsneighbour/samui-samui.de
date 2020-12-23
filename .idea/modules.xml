@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/../debugprint/.idea/debugprint.iml" filepath="$PROJECT_DIR$/../debugprint/.idea/debugprint.iml" />
       <module fileurl="file://$PROJECT_DIR$/../garuda/.idea/garuda.iml" filepath="$PROJECT_DIR$/../garuda/.idea/garuda.iml" />
       <module fileurl="file://$PROJECT_DIR$/../garuda-template/.idea/garuda-template.iml" filepath="$PROJECT_DIR$/../garuda-template/.idea/garuda-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ThemeFisher/hugothemes/.idea/hugothemes.iml" filepath="$PROJECT_DIR$/../../ThemeFisher/hugothemes/.idea/hugothemes.iml" />
       <module fileurl="file://$PROJECT_DIR$/../libraries/.idea/libraries.iml" filepath="$PROJECT_DIR$/../libraries/.idea/libraries.iml" />
       <module fileurl="file://$PROJECT_DIR$/../remark-preset-lint-dnb/.idea/remark-preset-lint-dnb.iml" filepath="$PROJECT_DIR$/../remark-preset-lint-dnb/.idea/remark-preset-lint-dnb.iml" />
       <module fileurl="file://$PROJECT_DIR$/../repotemplate/.idea/repotemplate.iml" filepath="$PROJECT_DIR$/../repotemplate/.idea/repotemplate.iml" />
