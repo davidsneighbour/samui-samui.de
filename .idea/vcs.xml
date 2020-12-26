@@ -2,20 +2,13 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../ThemeFisher/hugothemes" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../blocks" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../browserslist-config-dnb" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../commitlint-config-dnb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../components" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../debugprint" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../garuda" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../garuda-template" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../libraries" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../remark-preset-lint-dnb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../repotemplate" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../shortcodes" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../standard-version-config-dnb" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../stylelint-config-dnb" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../textlint-config-dnb" vcs="Git" />
   </component>
 </project>
