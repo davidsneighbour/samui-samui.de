@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/../garuda/.idea/garuda.iml" filepath="$PROJECT_DIR$/../garuda/.idea/garuda.iml" />
       <module fileurl="file://$PROJECT_DIR$/../garuda-template/.idea/garuda-template.iml" filepath="$PROJECT_DIR$/../garuda-template/.idea/garuda-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/../libraries/.idea/libraries.iml" filepath="$PROJECT_DIR$/../libraries/.idea/libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../namespace/.idea/namespace.iml" filepath="$PROJECT_DIR$/../namespace/.idea/namespace.iml" />
       <module fileurl="file://$PROJECT_DIR$/../repotemplate/.idea/repotemplate.iml" filepath="$PROJECT_DIR$/../repotemplate/.idea/repotemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/samui-samui.de.iml" filepath="$PROJECT_DIR$/.idea/samui-samui.de.iml" />
       <module fileurl="file://$PROJECT_DIR$/../shortcodes/.idea/shortcodes.iml" filepath="$PROJECT_DIR$/../shortcodes/.idea/shortcodes.iml" />

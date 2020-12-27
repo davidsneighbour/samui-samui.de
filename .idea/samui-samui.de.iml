@@ -15,5 +15,6 @@
     <orderEntry type="module" module-name="shortcodes" />
     <orderEntry type="module" module-name="debugprint" />
     <orderEntry type="module" module-name="repotemplate" />
+    <orderEntry type="module" module-name="namespace" />
   </component>
 </module>

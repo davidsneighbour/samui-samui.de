@@ -8,6 +8,7 @@
     <mapping directory="$PROJECT_DIR$/../garuda" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../garuda-template" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../libraries" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../namespace" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../repotemplate" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../shortcodes" vcs="Git" />
   </component>
