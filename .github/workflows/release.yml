@@ -12,4 +12,4 @@ jobs:
       - name: curl
         uses: wei/curl@master
         with:
-          args: ${{ secrets.NETLIFY_BUILD_HOOK }}
+          args: -X POST ${{ secrets.NETLIFY_BUILD_HOOK }}
