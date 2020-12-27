@@ -1,0 +1,15 @@
+name: Publish Tag-Release
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  curl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: curl
+        uses: wei/curl@master
+        with:
+          args: ${{ secrets.NETLIFY_BUILD_HOOK }}
