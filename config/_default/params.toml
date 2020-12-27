@@ -40,12 +40,6 @@ params = ["categories", "tags"]
 # https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md
 
 #############################################################
-# Search Setup
-#############################################################
-[redirects]
-netlify = "https://eloquent-morse-196fd2.netlify.com/"
-
-#############################################################
 # Social Media Setup
 #############################################################
 [social.facebook]

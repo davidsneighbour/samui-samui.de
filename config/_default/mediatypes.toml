@@ -1,3 +1,7 @@
 ["text/netlify"]
 suffixes = [""]
 delimiter = ""
+
+["application/opensearchdescription+xml"]
+suffixes = ["xml"]
+delimiter = "."

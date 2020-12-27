@@ -59,3 +59,6 @@ objectSrc = [
   "'self'"
 ]
 upgradeInsecureRequests = true
+
+[[redirects]]
+netlify = "https://eloquent-morse-196fd2.netlify.com/"

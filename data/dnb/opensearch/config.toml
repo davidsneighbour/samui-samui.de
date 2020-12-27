@@ -1,0 +1,8 @@
+title = "Samui? Samui!"
+description = "Suche auf Samui? Samui!"
+query_url = "suche/?query={searchTerms}"
+search_form = "suche/"
+output_encoding = "UTF-8"
+input_encoding = "UTF-8"
+enable_autoupdate = true
+hookLink = "https://github.com/dnb-hugo/components/wiki/DNB-Hugo-Components---OpenSearch"

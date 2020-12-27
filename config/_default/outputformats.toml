@@ -15,3 +15,9 @@ mediatype = "text/netlify"
 baseName = "_headers"
 isPlainText = true
 notAlternative = true
+
+[OpenSearch]
+mediatype = "application/opensearchdescription+xml"
+baseName = "opensearch"
+isPlainText = true
+notAlternative = true
