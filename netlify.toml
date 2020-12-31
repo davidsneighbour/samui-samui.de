@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "./bin/netlify.sh"
+#command = "./bin/netlify.sh"
 
 [build.environment]
 TZ = "Asia/Bangkok"

@@ -11,13 +11,13 @@
 # git config --global --add url."git@github.com:".insteadOf "https://github.com/"
 
 # updating modules
-hugo mod get -u ./...
+#hugo mod get -u ./...
 
 # compiling the site (see, no --minify)
-hugo --gc
+#hugo --gc
 
 # commit algolia index
-atomic-algolia
+#atomic-algolia
 
 # removing files that are not required to exist in the global scope
-rm -rf public/posts
+#rm -rf public/posts
