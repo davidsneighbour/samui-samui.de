@@ -61,6 +61,7 @@
     "cz-customizable": "6.3.0",
     "cz-customizable-ghooks": "2.0.0",
     "husky": "4.3.6",
+    "lazysizes": "^5.3.0-beta1",
     "lighthouse": "7.0.0",
     "linkinator": "2.11.2",
     "netlify-plugin-snyk": "1.2.1",
