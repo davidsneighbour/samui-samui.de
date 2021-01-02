@@ -1,3 +1,8 @@
+headers = [
+  "Link: <https://www.google-analytics.com/>; rel=preconnect",
+  "Link: <https://www.google-analytics.com/>; rel=dns-prefetch"
+]
+
 [csp]
 # https://content-security-policy.com/
 # https://report-uri.com/account/setup/
