@@ -46,9 +46,9 @@ hugo mod tidy
 git add go.mod
 git add go.sum
 
-rm -rf public
-hugo
-git add public/ -f
+#rm -rf public
+#hugo
+#git add public/ -f
 
 for i in "${!MODULES[@]}"; do
   go mod edit -replace "${MODULES[$i]}"="${REPLACE[$i]}"
