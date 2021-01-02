@@ -1,11 +1,11 @@
 [[imports]]
+path = "github.com/dnb-hugo/components/favicon"
+disabled = false
+
+[[imports]]
 path = "github.com/dnb-hugo/components/netlification"
 disabled = false
 
 [[imports]]
 path = "github.com/dnb-hugo/garuda"
-disabled = false
-
-[[imports]]
-path = "github.com/dnb-hugo/components/favicon"
 disabled = false
