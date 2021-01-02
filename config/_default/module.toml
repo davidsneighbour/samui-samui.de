@@ -1,6 +1,6 @@
-[[imports]]
-path = "github.com/dnb-hugo/components/favicon"
-disabled = false
+#[[imports]]
+#path = "github.com/dnb-hugo/components/favicon"
+#disabled = false
 
 [[imports]]
 path = "github.com/dnb-hugo/components/netlification"
