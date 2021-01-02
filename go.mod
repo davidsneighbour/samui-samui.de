@@ -3,7 +3,6 @@ module github.com/davidsneighbour/samui-samui.de
 go 1.15
 
 require (
-	github.com/dnb-hugo/components/favicon v1.0.9 // indirect
 	github.com/dnb-hugo/components/netlification v1.1.4 // indirect
 	github.com/dnb-hugo/garuda v1.4.32 // indirect
 	github.com/dnb-hugo/libraries/bootstrap-icons v1.3.0 // indirect
