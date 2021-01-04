@@ -5,6 +5,7 @@
 baseURL = "https://samui-samui.de/"       # hostname & path to the root
 defaultContentLanguage = "de"
 disableHugoGeneratorInject = true         # we do that proudly on each page in the footer. visible.
+disableKinds = []
 enableEmoji = true                        # see https://www.webfx.com/tools/emoji-cheat-sheet/
 # dev: check https://discourse.gohugo.io/t/differing-pages-between-dev-and-production/28270
 #    before enabling this.

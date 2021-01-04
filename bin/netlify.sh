@@ -10,11 +10,14 @@
 # this config line does configure your Netlify session to do that.
 #git config --global --add url."git@github.com:".insteadOf "https://github.com/"
 
+# updating submodules
+git submodule update --init --recursive --depth=1
+
 # updating modules
 hugo mod get -u ./...
 
-# compiling the site (see, no --minify)
-hugo --gc
+# compiling the site
+hugo --gc --minify
 
 # commit algolia index
 #atomic-algolia

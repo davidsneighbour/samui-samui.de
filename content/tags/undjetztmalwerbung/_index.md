@@ -1,4 +1,4 @@
 ---
-title: Und jetzt mal Werbung
+title: undjetztmalwerbung
 slug: und-jetzt-mal-werbung
 ---
