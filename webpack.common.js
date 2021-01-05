@@ -13,6 +13,12 @@ module.exports = {
     path: path.join(__dirname, "static")
   },
 
+  performance: {
+    maxEntrypointSize: 400000,
+    maxAssetSize: 100000,
+    hints: 'warning'
+  },
+
   module: {
     rules: [
       {
