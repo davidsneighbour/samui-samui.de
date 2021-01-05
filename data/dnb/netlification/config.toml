@@ -12,6 +12,7 @@ defaultSrc = [
 ]
 scriptSrc = [
   "'self'",
+  "'unsafe-inline'",
   "*.cloudfront.net",
   "utteranc.es",
   "pagead2.googlesyndication.com",
