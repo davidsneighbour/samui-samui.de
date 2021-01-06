@@ -64,13 +64,15 @@ copy-from = "2006"
 
 [dnb.sidebar]
 enabled = true
-items = [ "author", "archive", "recent", "social" ]
+items = [ "author", "radio", "archive", "recent", "social" ]
 [dnb.sidebar.author]
 content = "authorfooter"
 [dnb.sidebar.recent]
 limit = 5
 [dnb.sidebar.social]
 [dnb.sidebar.archive]
+[dnb.sidebar.radio]
+spotify_playlist = "https://open.spotify.com/embed/playlist/7DEuLS0qC7ajP84kEuWw6H"
 
 [dnb.footer.index]
 enabled = true
