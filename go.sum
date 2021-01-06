@@ -9,9 +9,9 @@ github.com/dnb-hugo/components/robots v1.0.4/go.mod h1:bBjleToKX3GqeJJodfd7+Ue6x
 github.com/dnb-hugo/components/search-algolia v1.0.7/go.mod h1:3uihM7xM0kICcTc0GG1G1CWN0LT1lI6TRmyKAJ+Msns=
 github.com/dnb-hugo/components/sitemap v1.0.4/go.mod h1:ubgzNoQXdBxRSUC/szjFzv+CDpWqkEtZplhcqxPGDmY=
 github.com/dnb-hugo/components/social v0.0.1/go.mod h1:JhfsOeIFw1pQCOrPq7iz/kZh4/b3MIT/CC9R56yE+gs=
-github.com/dnb-hugo/debugprint v1.0.0/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
-github.com/dnb-hugo/garuda v1.4.35 h1:HQV8CvZHO9ANtxxMlCvncIt0odzuAgBtBryVxeqndHA=
-github.com/dnb-hugo/garuda v1.4.35/go.mod h1:1GgDKmk+UPsUUY5jwb72lAlv6Fj99BKDLpL1NvUXS7A=
+github.com/dnb-hugo/debugprint v1.0.1/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
+github.com/dnb-hugo/garuda v1.4.36 h1:sftH9ZXO07kmtkIUgx9YRmhJ9yMGmuufmQN334f8krQ=
+github.com/dnb-hugo/garuda v1.4.36/go.mod h1:FcTkgFe0PE6sqJSBmBzgBhHBZYETOGOmAGqQMzrRtuA=
 github.com/dnb-hugo/libraries/bootstrap-icons v1.3.0/go.mod h1:s2O49TxmELXraw3IZq9zLO+XlORr7eCvwDpQUqJRX7Q=
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.0/go.mod h1:f1PHdrXdCZgkLcbuiTQ9ml8YGxoLw7VWkAapiZoeHtg=
 github.com/dnb-hugo/libraries/popper.js v1.1.2/go.mod h1:I10AsR1CyPWU5cpsSYhpZaeHCfdMownxSDcye/WJvlc=
