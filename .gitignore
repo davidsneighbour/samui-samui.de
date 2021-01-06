@@ -1,6 +1,7 @@
-/static/main*.js
+/assets/main*.js
 /package-lock.json
 hugo.log
+hint-report
 
 /data/dnb/webpack/*
 !/data/dnb/webpack/.keep
