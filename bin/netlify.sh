@@ -13,6 +13,9 @@
 # updating submodules
 git submodule update --init --recursive --depth=1
 
+# create webpack files
+npm run build:webpack
+
 # updating modules
 hugo mod get -u ./...
 

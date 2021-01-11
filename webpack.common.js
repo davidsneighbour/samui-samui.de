@@ -9,7 +9,9 @@ module.exports = {
   },
 
   output: {
-    path: path.join(__dirname, "assets")
+    path: path.join(__dirname, "assets"),
+    filename: "[name].js",
+    chunkFilename: "[id].css"
   },
 
   performance: {
