@@ -27,7 +27,8 @@ scriptSrc = [
   "www.googletagmanager.com"
 ]
 styleSrc = [
-  "'self'"
+  "'self'",
+  "'sha256-LIGYGMlmPiMJ9yubTCG9ZZhCLHSkhDtf75TLl5p0zgg='" # spotify radio widget
 ]
 imgSrc = [
   "'self'",
