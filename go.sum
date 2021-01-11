@@ -1,4 +1,4 @@
-github.com/dnb-hugo/blocks/bootstrap5 v1.0.2/go.mod h1:2kqEXaSqas/kKVXeEwagqHYcApBFUHxaMfzGWUtazgA=
+github.com/dnb-hugo/blocks/bootstrap5 v1.0.3/go.mod h1:2kqEXaSqas/kKVXeEwagqHYcApBFUHxaMfzGWUtazgA=
 github.com/dnb-hugo/components/favicon v1.0.9 h1:x7SHDKhpu/J1QhTO6OGNiA6GhpiDyTwrfqhmqdRJSLI=
 github.com/dnb-hugo/components/favicon v1.0.9/go.mod h1:Dis4edU7dCjXY24gKl7W7WoRAroALmd/yA2pxWjh6/c=
 github.com/dnb-hugo/components/functions v1.0.8/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
@@ -10,12 +10,12 @@ github.com/dnb-hugo/components/search-algolia v1.0.7/go.mod h1:3uihM7xM0kICcTc0G
 github.com/dnb-hugo/components/sitemap v1.0.4/go.mod h1:ubgzNoQXdBxRSUC/szjFzv+CDpWqkEtZplhcqxPGDmY=
 github.com/dnb-hugo/components/social v0.0.1/go.mod h1:JhfsOeIFw1pQCOrPq7iz/kZh4/b3MIT/CC9R56yE+gs=
 github.com/dnb-hugo/debugprint v1.0.1/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
-github.com/dnb-hugo/garuda v1.4.39 h1:N6ntvUiNTNC6m7QNP3WaU7mwZtRg6TTvulEdRqId/V0=
-github.com/dnb-hugo/garuda v1.4.39/go.mod h1:B7qoYhVWUrQ9WUKv/QGVnpOue3/fqnZPoUSI2aJJV7g=
-github.com/dnb-hugo/libraries/bootstrap-icons v1.3.0/go.mod h1:s2O49TxmELXraw3IZq9zLO+XlORr7eCvwDpQUqJRX7Q=
+github.com/dnb-hugo/garuda v1.4.41 h1:0W2k3kdzOaZzOJn1nZo2mJwA3fm9OIWmss+tUCEIxKU=
+github.com/dnb-hugo/garuda v1.4.41/go.mod h1:niBK/FjdZOqVhLznsMJCN7nCAdd9U0s4gUnJ/bX9Oyg=
+github.com/dnb-hugo/libraries/bootstrap-icons v1.3.1/go.mod h1:sgKUgwtMNDl9TEalhSHlD6hKoMIsQq/Eps8rDV1Sd28=
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.0/go.mod h1:f1PHdrXdCZgkLcbuiTQ9ml8YGxoLw7VWkAapiZoeHtg=
 github.com/dnb-hugo/libraries/popper.js v1.1.2/go.mod h1:I10AsR1CyPWU5cpsSYhpZaeHCfdMownxSDcye/WJvlc=
 github.com/dnb-hugo/shortcodes v1.1.9/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
 github.com/popperjs/popper-core v2.5.4+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9ttEFhsPN5sFPapL1QOzxjoDz0o=
 github.com/twbs/bootstrap v5.0.0-beta1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
-github.com/twbs/icons v1.2.1/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
+github.com/twbs/icons v1.3.0/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
