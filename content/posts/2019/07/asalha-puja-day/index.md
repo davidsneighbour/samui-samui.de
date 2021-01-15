@@ -9,7 +9,7 @@ tags:
     - buddhismus
 ---
 
-{{< img src="parileyyaka-forest.jpg" >}}While the Buddha was spending the tenth vassa in the Parileyyaka Forest, an elephant and a monkey ministered to his needs. ([British Library, Or. 14823, f. 30](http://www.bl.uk/manuscripts/Viewer.aspx?ref=or_14823_f030r)  / Public Domain){{< / img >}}
+{{< figure name="parileyyaka-forest.jpg" >}}While the Buddha was spending the tenth vassa in the Parileyyaka Forest, an elephant and a monkey ministered to his needs. ([British Library, Or. 14823, f. 30](http://www.bl.uk/manuscripts/Viewer.aspx?ref=or_14823_f030r)  / Public Domain){{< / figure >}}
 
 Morgen, am 16. July (dem Juli-Vollmond-Tag) begehen Buddhisten den Asalha Puja Tag.
 

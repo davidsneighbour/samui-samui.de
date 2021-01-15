@@ -7,7 +7,7 @@ url: /2019/06/thailands-personal-data-protection-act
 tags: [gesetze, datenschutz, gdpr]
 ---
 
-{{< img src="gaffel" >}}Richter-Rumklopf-Gerät ([Photo von Bill Oxford](https://unsplash.com/photos/r2ESY7RXB4M)){{< /img >}}
+{{< figure name="gaffel" >}}Richter-Rumklopf-Gerät ([Photo von Bill Oxford](https://unsplash.com/photos/r2ESY7RXB4M)){{< /figure >}}
 
 Seit 27. Mai 2019 haben wir auch in Thailand eine Art GDPR-Gesetz namens Personal Data Protection Act (PDPA). Firmen haben bis 27. Mai 2020 Zeit um die Regelungen umzusetzen. 
 

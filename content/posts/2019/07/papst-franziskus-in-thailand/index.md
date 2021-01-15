@@ -12,7 +12,7 @@ tags:
     - katholizismus
 ---
 
-{{< img src="franziskus-und-yingluck.jpg" >}}Yingluck und Papst Franziskus, ca. 2013{{< / img >}}
+{{< figure name="franziskus-und-yingluck.jpg" >}}Yingluck und Papst Franziskus, ca. 2013{{< / figure >}}
 
 Papst Franziskus soll Gerüchten zufolge vor seiner geplanten Reise nach Japan im November auch Thailand einen Besuch abstatten. Er wird Tokyo, Nagasaki and Hiroshima in der Zeit vom 23. bis 26. November 2019 besuchen. 
 

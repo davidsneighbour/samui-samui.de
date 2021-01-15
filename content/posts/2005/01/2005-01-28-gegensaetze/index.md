@@ -13,6 +13,6 @@ dsq_thread_id:
 ---
 Beide Bilder stammen von der gleichen Stra?e und die Ansichten sind auf gleicher Höhe. Im Gebäude des ersten Bildes arbeite ich. In der Hütte des zweiten Bildes esse ich.
 
-{{< figure src="/wp-content/old-images/29.jpg" >}}
+{{< figure src="wp-content/old-images/29.jpg" >}}
   
-{{< figure src="/wp-content/old-images/30.jpg" >}}
+{{< figure src="wp-content/old-images/30.jpg" >}}

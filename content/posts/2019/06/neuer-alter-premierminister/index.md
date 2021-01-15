@@ -11,7 +11,7 @@ leute:
     - abhisit vejjajiva
 ---
 
-{{< img src="general-prayuth.jpg" >}}General Prayuth Chan-Ocha{{< /img >}}
+{{< figure name="general-prayuth.jpg" >}}General Prayuth Chan-Ocha{{< /figure >}}
 
 Thailand hat seit gestern einen neuen "demokratisch" gewählten Premierminister. Es ist der gleiche, der nach dem von ihm selbst durchgeführten Militärputsch 2014 als Premierminister "gedient" hat: General Prayuth Chan-Ocha. Das Militär wird also auch weiterhin an der Macht bleiben. Prayuth’s erste Amtszeit zeichnete sich durch Inhaftieren und Einschüchtern von Kritikern, dem Bann von Protesten, und der Unterdrückung der Meinungsfreiheit aus. 
 

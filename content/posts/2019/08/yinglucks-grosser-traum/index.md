@@ -10,7 +10,7 @@ leute:
     - yingluck shinawatra
 ---
 
-{{< img src="yingluck-shinawatra.jpg" >}}Yingluck Shinawatra in den guten alten Zeiten, als sie noch "definitiv" beschwor, das Land nicht zu verlassen.{{< / img >}}
+{{< figure name="yingluck-shinawatra.jpg" >}}Yingluck Shinawatra in den guten alten Zeiten, als sie noch "definitiv" beschwor, das Land nicht zu verlassen.{{< / figure >}}
 
 Yingluck Shinawatra, ehemalige Premierministerin und wegen Fahrlässigkeit (in Verbindung mit einem Reis-Aufkauf-Systems der damaligen Thai Regierung) zu 5 Jahren Gefängnis verurteilte Landesflüchtlingin, hat die serbische Staatsbürgerschaft verliehen bekommen. Ihr Bruder Thaksin Shinawatra (ebenfalls vor einer Verurteilung geflüchtet) hat seit 2010 bereits die mentenegrische Staatsbürgerschaft, und nun kann die Familie ihrer Sammlung ex-jugoslawischer Nationalitäten die Serbische hinzufügen. 
 

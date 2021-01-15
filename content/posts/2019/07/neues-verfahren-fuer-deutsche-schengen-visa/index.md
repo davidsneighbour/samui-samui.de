@@ -8,7 +8,7 @@ tags:
     - visa
 ---
 
-{{< img src="schengen-visa.jpg" >}}Schengen Visa (antik){{< / img >}}
+{{< figure name="schengen-visa.jpg" >}}Schengen Visa (antik){{< / figure >}}
 
 Ab dem 1. August 2019 werden Schengen-Visa-Anträge (Anträge von Thais und Nicht-Deutschen für ein 90-Tage-Touristenvisum in die Länder des Schengener Verbundes) nicht mehr von der Deutschen Botschaft sondern einem "Partner" namens VFS.Global angenommen. Das Unternehmen nimmt die Anträge entgegen, prüft auf Vollständigkeit, leitet sie an die Botschaft weiter. Dort wird der Antrag dann entweder stattgegeben oder abgelehnt und zurück an VFS.Global gegeben, die dann die Weitergabe übernehmen.
 

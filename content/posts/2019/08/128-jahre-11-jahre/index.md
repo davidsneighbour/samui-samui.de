@@ -9,7 +9,7 @@ tags:
     - thaileben
 ---
 
-{{< img src="128-jahre-11-jahre.jpg" >}}Orn Parnchompoo, vermutlich 128 Jahre alt (Quelle: [Khaosod.co.th](https://www.khaosod.co.th/around-thailand/news_2837472)){{< / img >}}
+{{< figure name="128-jahre-11-jahre.jpg" >}}Orn Parnchompoo, vermutlich 128 Jahre alt (Quelle: [Khaosod.co.th](https://www.khaosod.co.th/around-thailand/news_2837472)){{< / figure >}}
 
 Orn Parnchompoo, der etwas ältere Herr oben im Photo, sagt, er wäre 128 Jahre alt. Auf seiner ID-Karte steht, dass er am 9. April 1891 geboren wurde, zur Regierungszeit von König Chulalongkorn, dem 5. König der Chakri-Dynastie. Sein "Geheim"-Tipp für ein langes Leben sind saubere Ernährung und ausreichend Bewegung. 
 

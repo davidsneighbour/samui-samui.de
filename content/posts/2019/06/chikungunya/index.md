@@ -6,7 +6,7 @@ date: 2019-06-10T20:04:48+07:00
 tags: [gesundheit, tierwelt]
 ---
 
-{{< img src="chikungunya.jpg" >}}Moskito, aber nicht der mit Chikungunya, denn der hat Zebrastreifen ([Photo von Егор Камелев](https://unsplash.com/photos/sZIjgg4Peu0)){{< /img >}}
+{{< figure name="chikungunya.jpg" >}}Moskito, aber nicht der mit Chikungunya, denn der hat Zebrastreifen ([Photo von Егор Камелев](https://unsplash.com/photos/sZIjgg4Peu0)){{< /figure >}}
 
 Hier in Südthailand grasiert zur Zeit eine Krankheit namens "Chikungunya". Von den Symptomen klingt sie sehr wie Dengue Fieber: Man hat Fieber, Kopfschmerzen und Gelenkschmerzen für zwischen 2 bis 12 Tagen nachdem man von einem infiziertem Moskito gebissen wurde. 
 

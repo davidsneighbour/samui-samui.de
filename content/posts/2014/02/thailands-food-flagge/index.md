@@ -6,7 +6,7 @@ dsq_thread_id:
   - "2914974659"
 ---
 
-{{< img src="national-flag-made-food17.jpg" >}}Thailands Food Flagge{{< / img >}}
+{{< figure name="national-flag-made-food17.jpg" >}}Thailands Food Flagge{{< / figure >}}
 
 Das [Syndey International Food Festival][1] wird dieses Jahr unter anderem mit Nationalflaggen beworben, die aus in den jeweiligen Ländern vorhandenen Nahrungsmitteln erstellt wurden --- Food-Flaggen. Darunter auch die Thai-Flagge --- aus süßer Chili-Sauce, Kokosnussraspeln und Krabben.
 

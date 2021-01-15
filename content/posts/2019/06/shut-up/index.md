@@ -8,7 +8,7 @@ url: /2019/06/shut-up
 tags: [samuisamui]
 ---
 
-{{< img src="gelaber.jpg" >}}Vögel sind diskussionsfreudiger als ihr ([Photo von Wynand van Poortvliet](https://unsplash.com/photos/4AmyOdXZAQc)){{< /img >}}
+{{< figure name="gelaber.jpg" >}}Vögel sind diskussionsfreudiger als ihr ([Photo von Wynand van Poortvliet](https://unsplash.com/photos/4AmyOdXZAQc)){{< /figure >}}
 
 Aus eigener Sache: Ich habe die Kommentare hier auf Samui? Samui! abgeschafft. Gründe dafür gibt es genug:
 
