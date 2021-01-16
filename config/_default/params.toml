@@ -64,7 +64,7 @@ copy-from = "2006"
 
 [dnb.sidebar]
 enabled = true
-items = [ "author", "radio", "archive", "recent", "social" ]
+items = [ "author", "archive", "recent", "social" ]
 [dnb.sidebar.author]
 content = "authorfooter"
 [dnb.sidebar.recent]
