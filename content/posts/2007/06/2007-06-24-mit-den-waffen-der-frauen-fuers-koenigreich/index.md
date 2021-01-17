@@ -9,7 +9,7 @@ url: /2007/06/mit-den-waffen-der-frauen-fuers-koenigreich/
 
 
 ---
-{{< figure src="/wp-content/old-images/235" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/235" wraptag="div.jpg" >}}
 
 Das Bild oben sieht auf dem ersten Blick aus wie eine vom Militär organisierte Frauen-Auktion. Man wei? ja nie, was die Führung für die Moral der Truppe tut. Allerdings handelt es sich um ein Novum im Thai-Militär: Ladyboys.
 
@@ -19,7 +19,7 @@ Die Paradeuniformen in Thailand sind übrigens sehr farbenfroh, so dass wohl kei
 
 Und weils so schön ist, hier noch ein neuer Rekrut inmitten seiner zukünftigen Kameraden.
 
-{{< figure src="/wp-content/old-images/234" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/234" wraptag="div.jpg" >}}
 
 PS: Die Bilder sind natürlich nicht von mir sondern schwirren auf den einschlägigen Mailinglisten herum (Thailand ist diesbezüglich noch ein wenig 1997), ich muss nicht zum Militär um Ladyboys zu photographieren.
 

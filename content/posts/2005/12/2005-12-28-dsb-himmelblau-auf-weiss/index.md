@@ -9,6 +9,6 @@ url: /2005/12/dsb-himmelblau-auf-weiss/
 
 
 ---
-{{< figure src="/wp-content/old-images/203.jpg" >}}
+{{< figure src="wp-content/old-images/203.jpg" >}}
   
 Hmm. Mal sehen.

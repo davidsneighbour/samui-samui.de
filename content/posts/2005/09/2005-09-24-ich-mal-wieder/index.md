@@ -11,7 +11,7 @@ url: /2005/09/ich-mal-wieder/
 ---
 Eben bin ich aus Versehen auf den Auslöser meiner kleinen hässlichen Kamera gekommen. Dabei entstand dieses Photo:
 
-{{< figure src="/wp-content/old-images/157.jpg" >}}
+{{< figure src="wp-content/old-images/157.jpg" >}}
 
 Dazu gibt es ja einiges zu sagen. Fangen wir mal an:
 

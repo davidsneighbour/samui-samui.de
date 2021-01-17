@@ -9,4 +9,4 @@ url: /2005/03/musik/
 
 
 ---
-{{< figure src="/wp-content/old-images/71.jpg" >}}
+{{< figure src="wp-content/old-images/71.jpg" >}}

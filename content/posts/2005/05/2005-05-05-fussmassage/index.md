@@ -9,7 +9,7 @@ url: /2005/05/fussmassage/
 
 
 ---
-{{< figure src="/wp-content/old-images/104.jpg" >}}
+{{< figure src="wp-content/old-images/104.jpg" >}}
 
 Hier in Thailand kann man sich auch die Füsse massieren lassen. Neben "normalen" und Thaimassagen gibt es auch ?lmassagen und Massagen von Männern für Männer (ich kann mir gerade mal nichts drunter vorstellen) und andere Unterarten. Und eben Fussmassagen.
 

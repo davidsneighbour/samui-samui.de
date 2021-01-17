@@ -9,4 +9,4 @@ url: /2005/03/friedhof-der-geisterhaeuser/
 
 
 ---
-{{< figure src="/wp-content/old-images/80.jpg" >}}
+{{< figure src="wp-content/old-images/80.jpg" >}}

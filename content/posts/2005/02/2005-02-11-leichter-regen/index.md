@@ -9,4 +9,4 @@ url: /2005/02/leichter-regen/
 
 
 ---
-{{< figure src="/wp-content/old-images/48.jpg" >}}
+{{< figure src="wp-content/old-images/48.jpg" >}}

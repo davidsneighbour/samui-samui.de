@@ -9,7 +9,7 @@ url: /2005/09/regen/
 
 
 ---
-{{< figure src="/wp-content/old-images/154.jpg" >}}
+{{< figure src="wp-content/old-images/154.jpg" >}}
 
 Es regnet. Rein theoretisch eigentlich immer, aber seit ich gestern das Office verlassen habe durchgehend. Nachts sogar so sehr, dass ich im ganzen Haus rumgelaufen bin (was eine Weltreise ist) und nach nassen Stellen gesucht habe. Es gab aber keine. Mein Haus war umgeben von einem Wasserfall rings um das Dach herum. Auch ein schöner Anblick. Jedenfalls regnet es seit einem Monat nahezu jeden Tag (immer, wenn Feierabend ist) und wenn es nicht regnet dann sind wir in Bangkok wo es regnet.
 

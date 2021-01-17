@@ -9,7 +9,7 @@ url: /2009/03/feuer-und-smog/
 
 
 ---
-{{< figure src="/wp-content/old-images/262" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/262" wraptag="div.jpg" >}}
 
 Beim Earth Observatory kann man [sehr deutliche Bilder vom letzten ?berflug des <span class="caps">NASA</span> Sateliten Aqua über Südostasien][1] sehen. Wie jedes Jahr gibt es Unmengen an Wald- und "natürlich herbeigeführten" Bränden im Norden Thailands, in Myanmar und Laos. 
 

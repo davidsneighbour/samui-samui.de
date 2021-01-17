@@ -9,4 +9,4 @@ url: /2005/03/viagra-cialis-und-aloe-vera/
 
 
 ---
-{{< figure src="/wp-content/old-images/75" class="flickr" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/75" class="flickr" wraptag="div.jpg" >}}

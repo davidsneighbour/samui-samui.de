@@ -9,7 +9,7 @@ url: /2009/06/tier-und-andere-krankheiten/
 
 
 ---
-{{< figure src="/wp-content/old-images/265" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/265" wraptag="div.jpg" >}}
 
 Die Grippe von 2009, H1N1 oder Schweinegrippe, wie die durch Paniken mehr Ausgaben verkaufenden Medien die diesjährige Grippewelle gerne nennen, hat Thailand fest im Griff.
 

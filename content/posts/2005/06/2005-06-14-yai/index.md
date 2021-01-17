@@ -11,7 +11,7 @@ url: /2005/06/yai/
 ---
 Das ist Yai. Yai ist 34 Jahre alt, Isaan (als solche Thai), ziemlich klein und weiblich. Man sieht es zwar auf dem Photo, ich wollte es aber nebenbei nochmal bemerken. 
 
-{{< figure src="/wp-content/old-images/122.jpg" >}}
+{{< figure src="wp-content/old-images/122.jpg" >}}
 
 Dass das Photo übrigens so weichgezeichnet ist liegt an meinem überaus alten Photoapparat und der Tatsache, dass das ein furchtbar eiliger Schnellschnappschuss war. Sie hat nämlich die eigenartige Eigenart, beim Bemerken von photographischen Attacken ein Photogesicht aufzusetzen. Nicht so ein einfaches normales, nein, ein richtig seltsames. Gro?e runde Augen und ein Strichmund. Nene. Das war dann nicht sehr optimal für einen ersten Eindruck, weshalb ich in letzter Zeit öfters mal schockartige Schnellschüsse schoss und dabei dieses leicht drogenhaltige Ergebnis erzielte.
 

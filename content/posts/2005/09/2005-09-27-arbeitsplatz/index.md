@@ -9,7 +9,7 @@ url: /2005/09/arbeitsplatz/
 
 
 ---
-{{< figure src="/wp-content/old-images/160.jpg" >}}
+{{< figure src="wp-content/old-images/160.jpg" >}}
 
 Heute haben wir nach langer, ähm, Bestellzeit endlich ein paar Tische bekommen um sowas wie Arbeitsplätze aufzubauen und nicht den ganzen Schreibtisch mit Computer voll stehen zu haben. I am very confident that the boss will also get us the massage-coworker we are requesting as often as we requested the tables. [Der reelle Systemanalytiker gegenüber][1] hat gleich aus allen möglichen Ecken des Büros Kisten mit Kram herangeschafft und messie-mäßig die Liegefläche bepflastert. Ich hab ein wenig Raum geschaffen. Zum Atmen. Für Kram hab ich meinen Rolli. Ausserdem hab ich meinen Arbeitsplatz wieder an einen besseren Beobachtungspunkt gestellt. Man ist ja immer noch Single.
 

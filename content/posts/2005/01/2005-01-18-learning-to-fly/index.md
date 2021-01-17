@@ -21,6 +21,6 @@ Bild 3: Nicht mehr konzentriert arbeitender Patrick schaut verwirrt zum Fenster 
 
 Was war geschehen? Ein Vogel (Art unbekannt) hat das Fenster getroffen. Fliegen ist also doch nicht so einfach wie ich mir das vorgestellt habe.
 
-{{< figure src="/wp-content/old-images/26.jpg" >}}
+{{< figure src="wp-content/old-images/26.jpg" >}}
 
 Allem Anschein nach wollte der Vogel sich selbst treffen. Hat er dann auch, nur dass er selbst eine Spiegelung in der verspiegelten Fensterscheibe war. Kann man ja den tropischen Vögeln auch nicht zumuten sowas.

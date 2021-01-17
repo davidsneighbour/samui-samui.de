@@ -9,7 +9,7 @@ url: /2007/04/zensur-paranoid/
 
 
 ---
-{{< figure src="/wp-content/old-images/229.jpg" >}}
+{{< figure src="wp-content/old-images/229.jpg" >}}
 
 Ein Film, der international geachtet wird (ein Preis aus Hong Kong, Eröffnungsfilm des Internationalen Filmfestivals von Venedig) wird in Thailand nicht in die Kinos kommen. Es ist ein thailändischer Film. Es wird von einem "Board" verlangt, dass 4 Szenen geschnitten werden:
 

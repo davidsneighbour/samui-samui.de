@@ -9,7 +9,7 @@ url: /2007/01/busfahren-in-bangkok/
 
 
 ---
-{{< figure src="/wp-content/old-images/220" style="float:left; margin-right:10px;margin-top:3px;" >}}
+{{< figure src="wp-content/old-images/220" style="float:left; margin-right:10px;margin-top:3px;" >}}
 
 Lustig finde ich übrigens die Bustickets für den Krungtheper Nahverkehr. Das sind so kleine Schnippsel mit einem Nominalwert (bspw. THB 20) die dann ringsherum an aufgedruckten Nummern eingerissen werden um das auf bspw. THB 15 zu relativieren (oder zu addieren?). 
 

@@ -9,4 +9,4 @@ url: /2005/02/markt-ban-hua-thanon/
 
 
 ---
-{{< figure src="/wp-content/old-images/46.jpg" >}}
+{{< figure src="wp-content/old-images/46.jpg" >}}

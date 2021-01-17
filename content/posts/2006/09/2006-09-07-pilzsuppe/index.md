@@ -9,7 +9,7 @@ url: /2006/09/pilzsuppe/
 
 
 ---
-{{< figure src="/wp-content/old-images/213.jpg" >}}
+{{< figure src="wp-content/old-images/213.jpg" >}}
 
 [Tom yum goong][1] wird doch tatsächlich demnächst in den USA unter dem Titel "The protector" anlaufen. Das hätte ich dem Streifen dann doch nicht zugetraut. 
 

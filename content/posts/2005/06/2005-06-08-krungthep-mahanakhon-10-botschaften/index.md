@@ -13,7 +13,7 @@ dsq_thread_id:
 ---
 Hab ich eigentlich schon erwähnt, dass ich neulich in Krungthep war? Hab ich? Ach ja. Stimmt ja. Gut, dann liefere ich schnell noch ein Nachtbild von unserem Stra?enaufenthalt in Surrat Thani nach:
 
-{{< figure src="/wp-content/old-images/116.jpg" >}}
+{{< figure src="wp-content/old-images/116.jpg" >}}
 
 Wie Sie sehen ist es dunkel und Autos fahren in der Gegend rum. Eigentlich stand rechts von mir der Katoey, aber das ist dann doch eher Yai. Egal, weiter im Geschehen.
 
@@ -23,7 +23,7 @@ Der Taxifahrer jedenfalls gab uns viele Tipps für das ?berleben in Bangkok mit 
 
 Es war viertel Sechs und wir hatten noch zweidreiviertel Stunden bis zur ?ffnung der Botschaft abzutöten. Das gelang uns unter anderem durch den Genuss heissen Kaffees aus 7eleven (ist es nicht schön, überall in Thailand ein bisschen Heimat vorzufinden?) und dem Sitzen an Bushaltestellen. Das war überaus interessant. Bangkok scheint morgens zwischen 6 und 8 ein Paradies für Schuluniformfetischisten zu sein. Interessant war auch, dass ich keinen einzigen Farang gesehen habe. Die Thais vermutlich auch nicht, so wie sie mich anstarrten. 
 
-{{< figure src="/wp-content/old-images/117.jpg" >}}
+{{< figure src="wp-content/old-images/117.jpg" >}}
 
 Morgenverkehr im Botschaftsviertel 6:00 Uhr
 

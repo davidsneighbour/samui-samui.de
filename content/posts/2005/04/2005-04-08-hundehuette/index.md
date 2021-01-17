@@ -9,4 +9,4 @@ url: /2005/04/hundehuette/
 
 
 ---
-{{< figure src="/wp-content/old-images/88.jpg" >}}
+{{< figure src="wp-content/old-images/88.jpg" >}}

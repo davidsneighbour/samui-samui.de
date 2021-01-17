@@ -11,13 +11,13 @@ dsq_thread_id:
 
 
 ---
-{{< figure src="/wp-content/old-images/118.jpg" >}}
+{{< figure src="wp-content/old-images/118.jpg" >}}
 
 In Bangkok hat alles seine Ordnung!
 
 Gut. Nachdem ich es geschafft hatte, meine Botschaftsgeschäfte abzuwickeln ohne dabei lächerlich auszusehen ("Wieso haben Sie denn keine bessere Kopie Ihres Reisepasses gemacht?") standen wir um neun Uhr morgens wieder auf der Stra?e vor der Botschaft und berieten, was denn nun zu tun wäre. Beziehungsweise ich versuchte, ein Gespräch diesbezüglich anzugehen. Yai war eher nach einem Parkbankaufenthalt und so schritten wir denn die Stra?e entlang auf der Suche nach selbiger. Gefunden, gesetzt, Leute und Elefanten angekuckt und mich begaffen lassen. 
 
-{{< figure src="/wp-content/old-images/119.jpg" >}}
+{{< figure src="wp-content/old-images/119.jpg" >}}
 
 Elefant mit Rüssel.
 
@@ -29,7 +29,7 @@ Da ich diese Zeilen schreibe, habe ich es überlebt. Das nächste Mal bestimme i
 
 Derartig gestärkt entschieden wir uns für Shopping. Zum Betrachten von Sehenswürdigkeiten gingen unsere Interessen dann wohl doch ein wenig auseinander. Wir bestiegen also wieder frohgemut ein Taxi, heizten im Affentempo quer durch Bangkok und lie?en uns an einem Ort absetzen, wo man nach Aussagen von Yai wirklich gut Einkaufen gehen kann.
 
-{{< figure src="/wp-content/old-images/120.jpg" >}}
+{{< figure src="wp-content/old-images/120.jpg" >}}
 
 Fragt mich nicht, wo ich war --- hier irgendwo um die Ecke.
 
@@ -43,7 +43,7 @@ Es wurde immer wärmer, stickiger, lauter und überlaufener, also entschieden wi
 
 Gegen fünf schlug ich dann vor, gen Busbahnhof zu streben. Zwar fuhr der Bus erst um sieben, aber die verbleibende Zeit kann man ja im Park verbringen. Dachte ich. Interessanterweise begannen just in diesem Augenblick alle Taxifahrer den Weg zum Busbahnhof nicht mehr zu kennen. Das könnte an einem kleinen Verkehrsproblem liegen, das Bangkok zwischen 17 und 19 Uhr häufiger hat. 
 
-{{< figure src="/wp-content/old-images/121.jpg" >}}
+{{< figure src="wp-content/old-images/121.jpg" >}}
 
 Ein kleines Verkehrsproblem.
 

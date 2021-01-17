@@ -9,7 +9,7 @@ url: /2005/06/am-strand/
 
 
 ---
-{{< figure src="/wp-content/old-images/130.jpg" >}}
+{{< figure src="wp-content/old-images/130.jpg" >}}
 
 Dialog zum Bild:
   

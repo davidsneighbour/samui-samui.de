@@ -9,7 +9,7 @@ url: /2007/10/mit-dem-ruecken-an-der-wand/
 
 
 ---
-{{< figure src="/wp-content/old-images/242" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/242" wraptag="div.jpg" >}}
 
 Die Tatsache, dass [der von Interpol gesuchte Pädophile][1] Christopher Paul Neil in Thailand vermutet wird spricht für sich.
 

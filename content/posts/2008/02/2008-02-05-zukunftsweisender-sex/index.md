@@ -10,7 +10,7 @@ url: /2008/02/zukunftsweisender-sex/
 
 ---
 <div class="flickr">
-  {{< figure src="/wp-content/old-images/248.jpg" >}} 
+  {{< figure src="wp-content/old-images/248.jpg" >}} 
   
   <p>
     Ekstatisch umschlungen

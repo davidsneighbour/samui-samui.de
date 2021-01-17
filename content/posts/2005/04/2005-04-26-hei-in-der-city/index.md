@@ -9,4 +9,4 @@ url: /2005/04/hei-in-der-city/
 
 
 ---
-{{< figure src="/wp-content/old-images/101.jpg" >}}
+{{< figure src="wp-content/old-images/101.jpg" >}}

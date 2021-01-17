@@ -9,4 +9,4 @@ url: /2005/02/taling-krap-sonnenuntergang/
 
 
 ---
-{{< figure src="/wp-content/old-images/54.jpg" >}}
+{{< figure src="wp-content/old-images/54.jpg" >}}

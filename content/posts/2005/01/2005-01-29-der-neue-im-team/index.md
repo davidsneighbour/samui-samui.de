@@ -11,6 +11,6 @@ dsq_thread_id:
 
 
 ---
-{{< figure src="/wp-content/old-images/31.jpg" />}}
+{{< figure src="wp-content/old-images/31.jpg" />}}
 
 Das ist er also, der Neue im Team. Noch namenlos aber Thai durch und durch. Als Thai leuchtet man nämlich bunt und so leuchtet der Rechner böse grinsend. Und die Maus leuchtet oben blau und unten rot. Neue Werke werden wir auf ihm produzieren.

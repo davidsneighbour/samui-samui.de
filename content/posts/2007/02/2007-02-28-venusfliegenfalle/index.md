@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-{{< figure src="/wp-content/old-images/223" class="flickr" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/223" class="flickr" wraptag="div.jpg" >}}
 
 Die Herren im Bild oben werden aller zwei Monate lobend in verschiedenen Zeitungen erwähnt. Erst schrieb man, dass sie Vertragsverhandlungen mit Sony aufnehmen wollen, dann schrieb man, dass sie Vertragsverhandlungen aufgenommen haben (mit Sony) und dann hatten sie tatsächlich einen Plattenvertrag (mit Sony) unterschrieben.
 

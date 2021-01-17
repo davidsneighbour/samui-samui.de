@@ -15,7 +15,7 @@ _Ist schon witzig. Da liegt so ein kleiner Eintrag vier Wochen im Entwurfsordner
 
 Man schaut einmal links, man schaut einmal rechts und schon sind <del>4 4einhalb 5 6</del>7 Wochen vergangen. Zeit also zurück und nach vorn zu schauen. Mit ToR+ in den Ohren, meinen Photos in den Augen, den Ventilator auf 3 gedreht und einem grünen Eistee mit Honigschuss im Glas. Fertig? Fertig. Also Los.
 
-{{< figure src="/wp-content/old-images/58.jpg" >}}
+{{< figure src="wp-content/old-images/58.jpg" >}}
 
 ### Am Anfang war Regen
 

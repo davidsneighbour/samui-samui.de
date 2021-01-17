@@ -21,7 +21,7 @@ Am Anfang schuf ein großes [fliegendes Spaghettimonster][1] die Welt, anschlie�
 
 "Die Workpermit ist durch." sprach der (inzwischen graumelierende) Chef eines Morgens. Ich versuchte ein möglichst ausdrucksloses Gesicht abzuliefern. Das gelang mir nur schwer denn tief in mir brodelte ein hysterisches Kreischen. Permit. Permit. Permit. Gestern nun waren wir in Bangkok und holten unsere Workpermits ab. Dies ist meine:
 
-{{< figure src="/wp-content/old-images/150.jpg" >}}
+{{< figure src="wp-content/old-images/150.jpg" >}}
 
 Man beachte bitte, wie es mir immer wieder gelingt, in amtlichen Dokumenten mein zum Schreien lustiges Passfoto unterzubringen. Im neuen Pass (der 10 Jahre gültig sein wird) steckt es auch und sogar Laos hat mir darauf ein Visum gegeben. Jetzt sind die Bilder alle, weshalb ich demnächst mal wieder ein paar schiessen werde. Das wird der Hammer. Ich werde darauf lächeln oder vielleicht sogar die Haare mal kämmen! Ich hab da noch irgendwo ne Bürste.
 
@@ -37,7 +37,7 @@ Nach ausgiebigen Versuchen des Elektroshoppings (ja, auch wir Männer shoppen ge
 
 Und weil es immer Leute gibt, die genau wissen wollen, was ich denn nun so mache für unser eingesessenes altehrwürdiges Unternehmen, das nur legal beschäftigte Farangs einstellt die genau das machen was in ihrer Workpermit steht, der kann sich das nun auf dem folgenden Scan ganz genau durchlesen:
 
-{{< figure src="/wp-content/old-images/151.jpg" >}}
+{{< figure src="wp-content/old-images/151.jpg" >}}
 
 Sollten besonders wohl informierte Kreise sich nun wundern, warum ich plötzlich statt eines Senior Development Engineers die Degradierung zum Systemanalysten ertragen darf --- das weiss allein das Schicksal und das ist uns immer einen Schritt voraus.
 

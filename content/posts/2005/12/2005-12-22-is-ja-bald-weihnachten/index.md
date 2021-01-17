@@ -9,6 +9,6 @@ url: /2005/12/is-ja-bald-weihnachten/
 
 
 ---
-[{{< figure src="/wp-content/old-images/201.jpg" >}}][1]
+[{{< figure src="wp-content/old-images/201.jpg" >}}][1]
 
  [1]: http://www.netzeitung.de/entertainment/people/374040.html

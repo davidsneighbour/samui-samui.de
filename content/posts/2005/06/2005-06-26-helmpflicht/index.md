@@ -9,7 +9,7 @@ url: /2005/06/helmpflicht/
 
 
 ---
-{{< figure src="/wp-content/old-images/131.jpg" >}}
+{{< figure src="wp-content/old-images/131.jpg" >}}
   
 Wie bereits erwähnt, besteht auch in Thailand Helmpflicht. Vergangene Woche kam ich nun in den Genuss einer Polizeikontrolle. Dazu muss man wissen, dass die Polizei in Thailand sich ungeheuer ernst nimmt, in Wahrheit aber fett und faul ist. [In Bangkok müssen sich jetzt übergewichtige Polizeibeamte einem Abnehmkurs unterziehen][1]. 
 

@@ -9,4 +9,4 @@ url: /2005/11/patience/
 
 
 ---
-{{< figure src="/wp-content/old-images/183.jpg" >}}
+{{< figure src="wp-content/old-images/183.jpg" >}}

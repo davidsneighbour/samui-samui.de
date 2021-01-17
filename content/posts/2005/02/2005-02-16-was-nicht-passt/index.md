@@ -11,4 +11,4 @@ dsq_thread_id:
 
 
 ---
-{{< figure src="/wp-content/old-images/53.jpg" >}}
+{{< figure src="wp-content/old-images/53.jpg" >}}

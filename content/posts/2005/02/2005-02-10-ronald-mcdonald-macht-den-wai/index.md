@@ -9,6 +9,6 @@ url: /2005/02/ronald-mcdonald-macht-den-wai/
 
 
 ---
-{{< figure src="/wp-content/old-images/47.jpg" >}}
+{{< figure src="wp-content/old-images/47.jpg" >}}
 
 Den üben wir aber nochmal, ja ?!?

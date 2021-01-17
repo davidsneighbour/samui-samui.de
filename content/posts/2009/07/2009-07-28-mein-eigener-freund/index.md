@@ -10,7 +10,7 @@ url: /2009/07/mein-eigener-freund/
 
 ---
 <div class="flickr">
-  {{< figure src="/wp-content/old-images/272.jpg" >}} 
+  {{< figure src="wp-content/old-images/272.jpg" >}} 
   
   <p>
     Das muss nicht so bleiben.

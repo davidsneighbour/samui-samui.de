@@ -11,6 +11,6 @@ dsq_thread_id:
 
 
 ---
-{{< figure src="/wp-content/old-images/169.jpg" >}}
+{{< figure src="wp-content/old-images/169.jpg" >}}
   
-{{< figure src="/wp-content/old-images/170.jpg" >}}
+{{< figure src="wp-content/old-images/170.jpg" >}}

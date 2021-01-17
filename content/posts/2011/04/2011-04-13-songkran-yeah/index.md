@@ -10,7 +10,7 @@ url: /2011/04/songkran-yeah/
 
 ---
 <div class="media image" style="text-align:center;">
-  <a href="http://google.co.th">{{< figure src="/wp-content/old-images/285.jpg" >}} 
+  <a href="http://google.co.th">{{< figure src="wp-content/old-images/285.jpg" >}} 
   
   <p>
     Songkran-Logo auf Google.com

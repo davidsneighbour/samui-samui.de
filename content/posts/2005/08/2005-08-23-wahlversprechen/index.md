@@ -9,7 +9,7 @@ url: /2005/08/wahlversprechen/
 
 
 ---
-[{{< figure src="/wp-content/old-images/146.jpg" >}}][1]
+[{{< figure src="wp-content/old-images/146.jpg" >}}][1]
 
 Ich hab mit dem Rottweiler viel mehr gemeinsam als ich bisher dachte.
 

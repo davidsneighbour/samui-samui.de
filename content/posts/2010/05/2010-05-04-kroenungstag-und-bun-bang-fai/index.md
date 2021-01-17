@@ -11,7 +11,7 @@ url: /2010/05/kroenungstag-und-bun-bang-fai/
 ---
  
 
-{{< figure src="/wp-content/old-images/277" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/277" wraptag="div.jpg" >}}
 
 Heute ist Krönungstag, der Jahrestag der Krönung König Bhumibol Adulyadejs im Jahre 1950.
 

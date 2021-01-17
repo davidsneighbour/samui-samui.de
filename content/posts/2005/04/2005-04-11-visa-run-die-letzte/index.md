@@ -9,4 +9,4 @@ url: /2005/04/visa-run-die-letzte/
 
 
 ---
-{{< figure src="/wp-content/old-images/93.jpg" >}}
+{{< figure src="wp-content/old-images/93.jpg" >}}

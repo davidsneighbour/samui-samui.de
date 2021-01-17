@@ -10,7 +10,7 @@ url: /2007/12/koerperlos/
 
 ---
 <div class="flickr">
-  {{< figure src="/wp-content/old-images/245.jpg" >}} 
+  {{< figure src="wp-content/old-images/245.jpg" >}} 
   
   <p>
     &copy; REUTERS/Adrees Latif

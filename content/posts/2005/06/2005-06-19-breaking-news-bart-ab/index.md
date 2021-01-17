@@ -11,6 +11,6 @@ dsq_thread_id:
 
 
 ---
-{{< figure src="/wp-content/old-images/125.jpg" >}}
+{{< figure src="wp-content/old-images/125.jpg" >}}
 
 Ich werde mich _nicht_ rechtfertigen und hoffen, dass er schnellstmöglich wieder nachwächst.

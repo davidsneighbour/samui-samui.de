@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-{{< figure src="/wp-content/old-images/216" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/216" wraptag="div.jpg" >}}
 
 Der obige Bildmittelpunkt heisst Methinee Kingpayom und war 1992 (also vor 14 Jahren) einmal Miss Thailand und einige Zeit lang ein Supermodel. [Methinee Kingpayom wird nun jedenfalls ihre eigene Dessouskollektion heraus bringen][1] (weil Kylie Minogue, Elle Macpherson und Elizabeth Hurley das auch machen und Superstars sind).
 

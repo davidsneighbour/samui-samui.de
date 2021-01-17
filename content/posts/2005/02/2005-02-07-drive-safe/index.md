@@ -11,6 +11,6 @@ dsq_thread_id:
 
 
 ---
-{{< figure src="/wp-content/old-images/43.jpg" >}}
+{{< figure src="wp-content/old-images/43.jpg" >}}
 
 Dieser nette Polizist teilt uns warnend mit, dass es uns recht schlecht gehen könnte, wenn wir ohne Helm Moped fahren. Um die Ecke war dann eine ziemlich gro?e Blutlache gleich neben einem Schild, das auf den Linksverkehr hinwies ("remenber to drive left"). Andererseits könnte auch auf dem Schild stehen, dass man immer ein sauberes Handtuch im Reisegepäck haben sollte. So genau wei? ich das nicht.

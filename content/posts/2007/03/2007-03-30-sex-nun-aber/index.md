@@ -12,7 +12,7 @@ dsq_thread_id:
 
 ---
 <div class="flickr">
-  {{< figure src="/wp-content/old-images/225.jpg" >}} 
+  {{< figure src="wp-content/old-images/225.jpg" >}} 
   
   <p>
     Die Bambusstange danach (?)

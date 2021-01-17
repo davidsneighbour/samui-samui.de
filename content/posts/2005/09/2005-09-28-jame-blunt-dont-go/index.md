@@ -9,7 +9,7 @@ url: /2005/09/jame-blunt-dont-go/
 
 
 ---
-{{< figure src="/wp-content/old-images/161.jpg" >}}
+{{< figure src="wp-content/old-images/161.jpg" >}}
 
 And dont forget, i'll be watching you, And the meaning of your motives will come shining through,
 

@@ -9,7 +9,7 @@ url: /2005/05/mutitag/
 
 
 ---
-{{< figure src="/wp-content/old-images/107.jpg" >}}
+{{< figure src="wp-content/old-images/107.jpg" >}}
 
 Und passend zu Bild und Tag [noch ein paar Songs][1].
 

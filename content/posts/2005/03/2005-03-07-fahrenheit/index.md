@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-{{< figure src="/wp-content/old-images/60.jpg" >}}
+{{< figure src="wp-content/old-images/60.jpg" >}}
 
 Nummer 1 der thailändischen Charts ist eine Band namens "Fahrenheit". Zumindest denke ich, dass das der Name ist, denn das Symbol ist ein als Flamme stilisiertes F und Fahrenheit steht als einziges englisches Wort auf der CD. Ansonsten sind die Bandmembers (yeah, Fachenglisch) in Eis eingefroren. Sehr stylisch, schon dafür haben sie den ersten Platz verdient. Man stelle sich eine Mischung aus "Ich wäre gerne eine Korn-Band"-Gehabe mit leichtem weiblichen Gesang vor. Wobei das Korn-Getue nur manchmal durchkommt. Sonst klingts nach Puschelpop. (Nein, kein Schreibfehler. Hab zweimal nachgesehen). Soweit ich mich erinnere, entspricht die Stimme in etwa der einer Freundin einer Freundin, die "früher" in der wohl geilsten regional erfolgreichen Band sang (und die soweit ich mich erinnere die geilste Breakline eines Songs singen konnte.). Wobei sie manchmal auch wie die Sängerin von Mana klingt. Naja.
 

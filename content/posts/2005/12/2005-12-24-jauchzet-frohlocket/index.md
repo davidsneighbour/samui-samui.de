@@ -9,7 +9,7 @@ url: /2005/12/jauchzet-frohlocket/
 
 
 ---
-{{< figure src="/wp-content/old-images/202.jpg" >}}
+{{< figure src="wp-content/old-images/202.jpg" >}}
 
 **Und dann war Weihnachten**
 

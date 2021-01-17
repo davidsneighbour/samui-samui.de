@@ -19,7 +19,7 @@ Die anderen (also die Presse und Leute, die ganz ganz viel Ahnung haben), meinte
 
 Nun ist das Ende nahe und alles Spekulieren ist relativ langweilig, die 10 Tage kann man ja noch warten. 
 
-{{< figure src="/wp-content/old-images/240" style="float:left;margin-right:10px;.jpg" >}}Neuer Armeechef wird übrigens dieser nette Mann hier: General Anupong Paochinda. Mit seiner Ernennung hat niemand gerechnet, denn er war einmal ein Gefolgsmann der "Gegenseite". Er besuchte und absolvierte die selbe Klasse in der Militärschule wie Thaksin Shinawatra, oben erwähnter Golfer, lies ihn dann aber fallen, als er merkte, dass der Putsch bevorstand und unterstützte als Chef der Armee in der Zentralen Region Thailands die Putschenden in Bangkok mit Personal. Er ist weniger politisch ambitioniert als andere Kandidaten und wird daher als stabilisierende Kraft angesehen.
+{{< figure src="wp-content/old-images/240" style="float:left;margin-right:10px;.jpg" >}}Neuer Armeechef wird übrigens dieser nette Mann hier: General Anupong Paochinda. Mit seiner Ernennung hat niemand gerechnet, denn er war einmal ein Gefolgsmann der "Gegenseite". Er besuchte und absolvierte die selbe Klasse in der Militärschule wie Thaksin Shinawatra, oben erwähnter Golfer, lies ihn dann aber fallen, als er merkte, dass der Putsch bevorstand und unterstützte als Chef der Armee in der Zentralen Region Thailands die Putschenden in Bangkok mit Personal. Er ist weniger politisch ambitioniert als andere Kandidaten und wird daher als stabilisierende Kraft angesehen.
 
 General Saprang Kalayanamitr, der Hauptanwärter (in den Augen der Spekulierenden) auf den Posten wurde nur stellvertretender Generalsekretär im Verteidigungsministerium.
 

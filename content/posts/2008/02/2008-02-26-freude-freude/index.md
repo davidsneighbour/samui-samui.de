@@ -9,7 +9,7 @@ url: /2008/02/freude-freude/
 
 
 ---
-{{< figure src="/wp-content/old-images/249" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/249" wraptag="div.jpg" >}}
 
 (Der Text drunter sagt soviel wie "Wenn du Thaksin zu Hause begrü?en willst, dann komm am 28. Februar um 9 Uhr zum Subvarnabhumi-Airport.". Auf der Website von [hithaksin.com][1] gibt es noch kleine Flash-Feuerwerke. Flash ist ein beliebtes Propagandamittel im thailändischen Politikweb.)
 

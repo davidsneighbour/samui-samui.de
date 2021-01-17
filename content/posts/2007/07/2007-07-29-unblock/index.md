@@ -9,6 +9,6 @@ url: /2007/07/unblock/
 
 
 ---
-{{< figure src="/wp-content/old-images/238" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/238" wraptag="div.jpg" >}}
 
 Sagte ich neulich, Youtube.com wäre nicht mehr geblockt? Nun, ehm, das war auch so. Ungefähr 24 Stunden lang.

@@ -19,7 +19,7 @@ Was ich eigentlich erzählen wollte: Ich fahre am Sonntag nach Bangkok. Krungthe
 
 Ich fuhr also heute morgen mal nach Ban Nathon, einerseits auf der Suche nach dem Immigration-Office, das mir angeblich helfen sollte, mein Visum auf die eine oder andere Art und Weise nachgewiesen zu bekommen und andererseits auf der Suche nach Bussen, die nach Bangkok fahren. In den Reisebüros bekommt man das immer völlig überteuert angedreht. 
 
-{{< figure src="/wp-content/old-images/115.jpg" >}}
+{{< figure src="wp-content/old-images/115.jpg" >}}
 
 Das Immigration-Office habe ich nicht gefunden. Interessanterweise wusste auch niemand in Nathon, dass es eines geben solle. Feinfein, steht also noch eine Reise nach Surrat Thani an. Dafür habe ich eine Fahrkarte nach Bangkok gekauft. Eigentlich wollte ich eine 1. Klasse-Aircondition-Fahrkarte, man sagte mir aber lächelnd, dass da kein Platz mehr frei sei und ich doch mit dem 350" /> teureren V.I.P.Bus fahren soll. Nagut. Ich habe mich also über den Tisch ziehen lassen (dicke Farangs die ihren eigenen Dolmetscher mitbringen haben doch immer Geld), meinen Namen auf der V.I.P.Liste eingetragen (gleich unter der Liste für die erste Klasse, in der noch 50% der Plätze frei waren) und lustige Monopoly-Fahrkarten bekommen (siehe Photo). Für gut 850 THB bekommt man je eine 500-, 200-, 20- und 5-Baht-Fahrkarte, einen Food & Beverage Coupon (bin gespannt, was man mir dann andrehen wird --- beim Visarun gabs schlabbriges Weissbrot) und die Karten für die Fähre. 
 

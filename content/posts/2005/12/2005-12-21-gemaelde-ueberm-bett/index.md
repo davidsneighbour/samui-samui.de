@@ -9,7 +9,7 @@ url: /2005/12/gemaelde-ueberm-bett/
 
 
 ---
-{{< figure src="/wp-content/old-images/200.jpg" >}}
+{{< figure src="wp-content/old-images/200.jpg" >}}
 
 Am Wochenende war ich mal kräftig Geld ausgeben und habe bei der Gelegenheit "mein Bild" gefunden. [Ein Dali in rot][1]. Es gibt hier jede Menge Shops in denen man "Gemälde" kaufen kann. Meistens sind das abgemalte Photos ([Mano Dayak aus der GEO][2] mit den großen braunen Augen sieht einem aus jeder Ecke von Chaweng aus an) und Filmzitate. Die Thais haben es mit Robert de Niro und Al Pacino. Und Buddhabilder. Immer die gleichen (es gibt einige contemporäre Zeichner die Buddhabilder zeichnen und dann gibt es jede Menge Kloster in denen die Mönche diese Bilder wieder abzeichnen und vervielfältigen). 
 

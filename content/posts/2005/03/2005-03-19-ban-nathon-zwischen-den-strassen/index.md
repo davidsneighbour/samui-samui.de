@@ -9,4 +9,4 @@ url: /2005/03/ban-nathon-zwischen-den-strassen/
 
 
 ---
-{{< figure src="/wp-content/old-images/68.jpg" >}}
+{{< figure src="wp-content/old-images/68.jpg" >}}

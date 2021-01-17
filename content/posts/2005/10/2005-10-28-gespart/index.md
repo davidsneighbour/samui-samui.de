@@ -9,7 +9,7 @@ url: /2005/10/gespart/
 
 
 ---
-[{{< figure src="/wp-content/old-images/172.jpg" >}}][1]
+[{{< figure src="wp-content/old-images/172.jpg" >}}][1]
 
 Es ist schon erwähnenswert, wenn ich dann doch mal Post bekomme. Mich mag ja niemand und so muss ich mir immer Werbepost kommen lassen, damit mir mal jemand schreibt. Und heute nun brachte der Postbote diesen Brief oben (anklicken, um den Absender zu lesen).
 

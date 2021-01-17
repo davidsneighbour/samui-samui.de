@@ -9,4 +9,4 @@ url: /2005/02/lamai-sonntags/
 
 
 ---
-{{< figure src="/wp-content/old-images/51.jpg" >}}
+{{< figure src="wp-content/old-images/51.jpg" >}}

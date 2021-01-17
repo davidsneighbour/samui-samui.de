@@ -9,7 +9,7 @@ url: /2005/04/wir-lernen-thai/
 
 
 ---
-{{< figure src="/wp-content/old-images/96.jpg" >}}
+{{< figure src="wp-content/old-images/96.jpg" >}}
 
 Auf dem Bild sieht der geneigte Betrachter einen dicken und einen langen Vater sowie einen dicken (Korsett?) und einen langen Sohn. Eigentlich ein Kind. Und einige Trennstriche. 
 

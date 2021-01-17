@@ -9,7 +9,7 @@ url: /2006/11/keanu-reeves-thailands-ist-tot/
 
 
 ---
-{{< figure src="/wp-content/old-images/215" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/215" wraptag="div.jpg" >}}
 
 Vor einer Woche ist [Apichart Puapimon gestorben][1]. Man nennt ihn hier den Keanu Reeves Thailands, weil er die gleiche Frisur hatte, die Keanu Reeves im Film "Speed" getragen hat. 
 

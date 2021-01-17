@@ -12,7 +12,7 @@ leute:
 
 ---
 
-{{< figure name="smile-more" command="Resize" options="1110x" >}}Junta-Führer General Prayuth Chan-Ocha macht vor wie es geht{{< /figure >}}
+{{< figure name="smile-more.jpg" command="Resize" options="1110x" >}}Junta-Führer General Prayuth Chan-Ocha macht vor wie es geht{{< /figure >}}
 
 Am Montag wurde der neue Senat Thailands vorgestellt. Darunter unter anderem der jügere Bruder des Junta-Führers General Prayuth Chan-Ocha und der jüngere Bruder des stellvertretenden Junta-Führers Prawit Wongsuwan. Dazu kommen eine Menge aktueller und ehemaliger Militärs und Polizei-Generäle, ehemalige Minister der Militär-Regierung, die vergangene Woche (erwarteterweise) ihre Ämter niederlegten. Dazu ein paar Kritiker des ehemaligen Premierministers Thaksin Shinawatra. Alle handverlesen von der Junta-Regierung.
 

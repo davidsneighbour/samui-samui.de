@@ -9,4 +9,4 @@ url: /2005/03/neubau/
 
 
 ---
-{{< figure src="/wp-content/old-images/59.jpg" >}}
+{{< figure src="wp-content/old-images/59.jpg" >}}

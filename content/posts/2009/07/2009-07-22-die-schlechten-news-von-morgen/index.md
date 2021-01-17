@@ -9,7 +9,7 @@ url: /2009/07/die-schlechten-news-von-morgen/
 
 
 ---
-{{< figure src="/wp-content/old-images/271" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/271" wraptag="div.jpg" >}}
 
 Das Ganze wird gerade surreal. Seit gut einer Woche wurden keine Zahlen mehr zu den Grippe-Erkrankungen in Thailand veröffentlicht. Heute dann eine Veröffentlichung zu [20 neuen Toten und 6776 Erkrankungen][1]. Dann sprach der Premierminister heute von [tenth of thousands][2] Erkrankten und Nation Multimedia hat gerade einen Artikel veröffentlicht, der wie im Bild oben zu sehen von Morgen stammt und von [440.000 Erkrankten][3] spricht.
 

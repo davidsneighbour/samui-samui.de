@@ -9,4 +9,4 @@ url: /2005/10/white-russian-no-4/
 
 
 ---
-{{< figure src="/wp-content/old-images/177.jpg" >}}
+{{< figure src="wp-content/old-images/177.jpg" >}}

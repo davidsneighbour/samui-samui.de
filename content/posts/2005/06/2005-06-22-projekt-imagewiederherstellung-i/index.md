@@ -11,6 +11,6 @@ dsq_thread_id:
 
 
 ---
-{{< figure src="/wp-content/old-images/127.jpg" >}}
+{{< figure src="wp-content/old-images/127.jpg" >}}
 
 Pressen! Pressen. 3-Tage-Bart. Es geht aufwärts.

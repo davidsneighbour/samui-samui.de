@@ -12,7 +12,7 @@ leute:
 
 ---
 
-{{< figure name="prem-tinsulanond" command="Resize" options="1110x" >}}Gen. Prem Tinsulanonda mit Junta-Führer Prayuth Chan-ocha in Bangkok, 11. April 2019.{{< /figure >}}
+{{< figure name="prem-tinsulanond.jpg" command="Resize" options="1110x" >}}Gen. Prem Tinsulanonda mit Junta-Führer Prayuth Chan-ocha in Bangkok, 11. April 2019.{{< /figure >}}
 
 Prem Tinsulanonda ist tot. Der ehemalige Armee-General, Premierminister, königliche Berater und Vorsitzender des Königlichen Geheimrats verstarb im Alter von 98 Jahren am vergangenen Sonntag. 
 

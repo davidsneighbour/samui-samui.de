@@ -9,7 +9,7 @@ url: /2005/11/kippe-gerne/
 
 
 ---
-{{< figure src="/wp-content/old-images/194.jpg" >}}
+{{< figure src="wp-content/old-images/194.jpg" >}}
 
 Rauchen ist böse. Und Thailand ist das wohl konsequenteste Land in der Bekämpfung der Raucher ;) Seit April dürfen Zigarettenpackungen nicht mehr öffentlich zum Verkauf angeboten werden. In den meisten Läden wurde das so geregelt, dass die Regale mit den Zigarettenschachteln hinter kleinen Klappen versteckt werden. 
 
