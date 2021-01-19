@@ -9,6 +9,26 @@ $body-bg: map-get($theme-colors, 'bodybg');
 $body-color: map-get($theme-colors, 'text');
 $grid-gutter-width: 30px;
 
+$font-size-base: 1rem;
+
+$font-family-sans-serif: 'panton', sans-serif;
+$headings-font-family: 'panton', sans-serif;
+$font-weight-lighter: 400;
+$font-weight-light: 400;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-bolder: 700;
+$headings-font-weight: 900;
+
+$font-family-brandheader: 'panton', sans-serif;
+$font-weight-brandheader: 900;
+$font-size-brandheader-xs: 40px;
+$font-size-brandheader-sm: 68px;
+$font-size-brandheader-md: 92px;
+$font-size-brandheader-lg: 125px;
+$font-size-brandheader-xl: 149px;
+$font-size-brandheader-xxl: 172px;
+
 // fonts
 $dark: map-get($theme-colors, 'text');
 $blockquote-font-size: $font-size-base;
