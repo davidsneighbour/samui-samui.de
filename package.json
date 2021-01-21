@@ -58,7 +58,7 @@
   "scripts": {
     "algolia": "hugo --quiet && atomic-algolia && rm -rf public",
     "build": "npm run build:webpack && npm run build:serviceworker && npm run build:hugo",
-    "build:hugo": "hugo",
+    "build:hugo": "hugo --gc",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.production.js",
     "build:serviceworker": "cross-env NODE_ENV=production webpack --config webpack.serviceworker.js",
     "check": "hint http://localhost:1313",

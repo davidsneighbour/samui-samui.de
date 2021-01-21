@@ -13,14 +13,11 @@
 # updating submodules
 git submodule update --init --recursive --depth=1
 
-# create webpack files
-npm run build:webpack
-
 # updating modules
 hugo mod get -u ./...
 
-# compiling the site
-hugo --gc
+# build site
+npm run build
 
 # commit algolia index
 #atomic-algolia
