@@ -2,6 +2,9 @@
 /package-lock.json
 hugo.log
 hint-report
+static/workbox-*.js
+static/main.js
+static/service-worker.js
 
 /data/dnb/webpack/*
 !/data/dnb/webpack/.keep
