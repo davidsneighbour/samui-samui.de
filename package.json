@@ -57,7 +57,7 @@
   "repository": "davidsneighbour/samui-samui.de",
   "scripts": {
     "algolia": "hugo --quiet && atomic-algolia && rm -rf public",
-    "build": "npm run build:webpack && npm run build:serviceworker && npm run build:hugo",
+    "build": "npm run build:webpack && cp assets/main.js.map static/ && npm run build:serviceworker && npm run build:hugo",
     "build:hugo": "hugo --gc",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.production.js",
     "build:serviceworker": "cross-env NODE_ENV=production webpack --config webpack.serviceworker.js",

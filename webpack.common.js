@@ -20,6 +20,8 @@ module.exports = {
     hints: 'warning'
   },
 
+  devtool: 'eval-cheap-module-source-map',
+
   module: {
     rules: [
       {

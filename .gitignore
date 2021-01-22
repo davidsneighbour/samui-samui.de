@@ -1,4 +1,5 @@
 /assets/main*.js
+/assets/main.js.map
 /package-lock.json
 hugo.log
 hint-report
