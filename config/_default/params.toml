@@ -90,7 +90,7 @@ type = "cloud"
 values = "leute"
 
 [dnb.comments]
-repo = "davidsneighbour/samui-samui.de.comments"
+#repo = "davidsneighbour/samui-samui.de.comments"
 # src = "https://utteranc.es/client.js"
 # term = "pathname"
 # label = "💬"
