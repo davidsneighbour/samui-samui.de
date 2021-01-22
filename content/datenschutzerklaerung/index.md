@@ -17,12 +17,12 @@ Die Nutzung dieser Seiten ist ohne eine Angabe von personenbezogenen Daten mögl
 
 Eigentümer von **_Samui? Samui!_** und verantwortlich für die Inhalte:
 
-David's Neighbour Part., Ltd.
-Patrick Kollitsch
-P.O.Box 135
-Postoffice Maenam
-84330 Koh Samui, Suratthani
-Thailand
+> David's Neighbour Part., Ltd.  
+> Patrick Kollitsch  
+> P.O.Box 135  
+> Postoffice Maenam  
+> 84330 Koh Samui, Suratthani  
+> Thailand  
 
 [Kontakt][1]
 
