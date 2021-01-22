@@ -22,7 +22,7 @@
     "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config",
     "@hint/configuration-development": "8.1.0",
     "atomic-algolia": "0.3.19",
-    "autoprefixer": "10.2.1",
+    "autoprefixer": "10.2.3",
     "babel-loader": "8.2.2",
     "cli-real-favicon": "0.0.8",
     "cross-env": "7.0.3",
