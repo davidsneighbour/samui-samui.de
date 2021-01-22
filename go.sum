@@ -11,12 +11,12 @@ github.com/dnb-hugo/components/search-algolia v1.0.7/go.mod h1:3uihM7xM0kICcTc0G
 github.com/dnb-hugo/components/sitemap v1.0.4/go.mod h1:ubgzNoQXdBxRSUC/szjFzv+CDpWqkEtZplhcqxPGDmY=
 github.com/dnb-hugo/components/social v0.0.1/go.mod h1:JhfsOeIFw1pQCOrPq7iz/kZh4/b3MIT/CC9R56yE+gs=
 github.com/dnb-hugo/debugprint v1.0.5/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
-github.com/dnb-hugo/garuda v1.4.54 h1:gvvw7fkVUUVD2d4PeEV5DMr4my4lW+mWXzZpupnyW1A=
-github.com/dnb-hugo/garuda v1.4.54/go.mod h1:Fn6h4uKQA17V9AQqoC3nLC0SOTFEpUB4ADfqRQnEFr4=
+github.com/dnb-hugo/garuda v1.4.55 h1:/1DJBpwR3YSwNcj+BkzleqgqFkWmRy32lamzHTgp36U=
+github.com/dnb-hugo/garuda v1.4.55/go.mod h1:Z74WjOCZs/NHgllmCyqIFtORRmiE1sL2/4EX9BuyomI=
 github.com/dnb-hugo/libraries/bootstrap-icons v1.3.1/go.mod h1:sgKUgwtMNDl9TEalhSHlD6hKoMIsQq/Eps8rDV1Sd28=
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.0/go.mod h1:f1PHdrXdCZgkLcbuiTQ9ml8YGxoLw7VWkAapiZoeHtg=
 github.com/dnb-hugo/libraries/popper.js v1.1.2/go.mod h1:I10AsR1CyPWU5cpsSYhpZaeHCfdMownxSDcye/WJvlc=
-github.com/dnb-hugo/shortcodes v1.1.11/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
+github.com/dnb-hugo/shortcodes v1.1.12/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
 github.com/popperjs/popper-core v2.5.4+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9ttEFhsPN5sFPapL1QOzxjoDz0o=
 github.com/twbs/bootstrap v5.0.0-beta1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.3.0/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
