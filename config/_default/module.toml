@@ -1,3 +1,10 @@
+################################################################################
+# Module setup
+## [module]
+################################################################################
+# see
+# https://gohugo.io/hugo-modules/configuration/#module-config-imports
+################################################################################
 [[imports]]
 path = "github.com/dnb-hugo/components/favicon"
 disabled = false
