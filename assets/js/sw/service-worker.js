@@ -1,4 +1,4 @@
-console.log('Hello from service-worker.js');
+// console.log('Hello from service-worker.js');
 
 import {
   registerRoute,
