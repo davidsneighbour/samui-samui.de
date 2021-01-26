@@ -20,7 +20,7 @@ resources:
   title: "Lunar New Year für alle anderen Länder --- &copy; google.com"
 ---
 
-{{< gallery2 id="lunarnewyear" command="Resize" options="930x" >}}
+{{< gallery id="lunarnewyear" command="Resize" options="930x" >}}
 
 
 Google Doodle für das Chinesische Neujahr 2020. Das Jahr der Ratte beginnt...
