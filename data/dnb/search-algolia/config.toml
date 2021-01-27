@@ -4,10 +4,11 @@ apiKey = "17fa196ff06eb7eafde5881f1c600d32"
 indexName = "samui-samui-de"
 numberLocale = "de"
 
+[plugins]
+jsTemplates = [
+  "js/algolia-setup.js"
+]
 js = [
   "js/instantsearch.js",
   "js/search-algolia.js"
-]
-jsTemplates = [
-  "js/algolia-setup.js"
 ]
