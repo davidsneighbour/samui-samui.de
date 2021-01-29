@@ -21,3 +21,11 @@ mediatype = "application/opensearchdescription+xml"
 baseName = "opensearch"
 isPlainText = true
 notAlternative = true
+
+[manifest]
+name = "manifest"
+baseName = "manifest"
+mediaType = "text/webmanifest"
+isPlainText = true
+notAlternative = true
+permalinkable = true

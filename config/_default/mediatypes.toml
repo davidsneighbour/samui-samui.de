@@ -5,3 +5,7 @@ delimiter = ""
 ["application/opensearchdescription+xml"]
 suffixes = ["xml"]
 delimiter = "."
+
+["text/webmanifest"]
+suffixes = ["webmanifest"]
+delimiter = "."
