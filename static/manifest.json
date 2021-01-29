@@ -7,11 +7,17 @@
     "app_name": "Samui? Samui!",
     "short_name": "SamuiSamui",
     "icons": [
-        {
-            "src": "/icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
+      {
+        "src": "/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
         {
             "src": "/icon-256x256.png",
             "sizes": "256x256",
