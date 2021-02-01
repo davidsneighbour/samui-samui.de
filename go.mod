@@ -8,5 +8,3 @@ require (
 	github.com/dnb-hugo/garuda v1.4.70 // indirect
 	github.com/dnb-hugo/libraries/popper.js v1.1.2 // indirect
 )
-
-replace github.com/dnb-hugo/libraries/dayjs => /home/patrick/Projects/dnb-hugo/libraries/dayjs

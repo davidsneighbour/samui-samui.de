@@ -17,6 +17,7 @@ github.com/dnb-hugo/garuda v1.4.70 h1:DWXjdxqP9DP+GC9kIx/DmeGLKRpFHQpGklYbNANMsk
 github.com/dnb-hugo/garuda v1.4.70/go.mod h1:IOWeExQPIUGmON9nwJ7+eu7wqqnYq94O05zd93G5dbM=
 github.com/dnb-hugo/libraries/bootstrap-icons v1.3.2/go.mod h1:sgKUgwtMNDl9TEalhSHlD6hKoMIsQq/Eps8rDV1Sd28=
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.1/go.mod h1:UNoflKG5Rk3Fo5fWS5RfCNEi0gex8AsfxXT8gmdmE0k=
+github.com/dnb-hugo/libraries/dayjs v0.0.3/go.mod h1:rpb3QBTz/xqzvU7t9zmGIlqZOStcSL7PMbQ8+ynLQNg=
 github.com/dnb-hugo/libraries/lazysizes v1.0.2/go.mod h1:50HoIQcIj2aLYGR92ReyiKOeWy38/y6/yijecjKLE9I=
 github.com/dnb-hugo/libraries/popper.js v1.1.2/go.mod h1:I10AsR1CyPWU5cpsSYhpZaeHCfdMownxSDcye/WJvlc=
 github.com/dnb-hugo/shortcodes v1.1.16/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
