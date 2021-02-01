@@ -14,11 +14,16 @@ github.com/dnb-hugo/components/social v0.0.1/go.mod h1:JhfsOeIFw1pQCOrPq7iz/kZh4
 github.com/dnb-hugo/debugprint v1.0.7/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
 github.com/dnb-hugo/garuda v1.4.64 h1:1uuLzwxnnDgqTS5odsDSf6aJm1YaQQ5yEBCIE1Q1NW0=
 github.com/dnb-hugo/garuda v1.4.64/go.mod h1:PJXBCerMB9dNYY7M2Vn0rCQ6ofDTlzEkXRP1N/I+W54=
+github.com/dnb-hugo/garuda v1.4.67/go.mod h1:w0/TSeJ3YKcKrxMBiy2WAWo3U56Lr4XQxCO4iaHcA5A=
+github.com/dnb-hugo/libraries v1.0.6 h1:lv2vSCF5ark+oiWeuxXL1FtCLPbofwnvBKXuFGWOWPM=
 github.com/dnb-hugo/libraries/bootstrap-icons v1.3.2/go.mod h1:sgKUgwtMNDl9TEalhSHlD6hKoMIsQq/Eps8rDV1Sd28=
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.1/go.mod h1:UNoflKG5Rk3Fo5fWS5RfCNEi0gex8AsfxXT8gmdmE0k=
 github.com/dnb-hugo/libraries/lazysizes v1.0.2/go.mod h1:50HoIQcIj2aLYGR92ReyiKOeWy38/y6/yijecjKLE9I=
 github.com/dnb-hugo/libraries/popper.js v1.1.2/go.mod h1:I10AsR1CyPWU5cpsSYhpZaeHCfdMownxSDcye/WJvlc=
 github.com/dnb-hugo/shortcodes v1.1.16/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
+github.com/iamkun/dayjs v1.10.4 h1:7Z2SsYmtIO3oHtVwHmGjeqzLLQKG+pU1PYMR3dVcnHQ=
+github.com/iamkun/dayjs v1.10.4/go.mod h1:uH9r5H8xqz4FDkXigkECWrNPl70HjHNau53364yMLzA=
 github.com/popperjs/popper-core v2.5.4+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9ttEFhsPN5sFPapL1QOzxjoDz0o=
+github.com/popperjs/popper-core v2.6.0+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9ttEFhsPN5sFPapL1QOzxjoDz0o=
 github.com/twbs/bootstrap v5.0.0-beta1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.3.0/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=

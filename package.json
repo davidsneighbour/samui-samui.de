@@ -1,7 +1,7 @@
 {
   "name": "samui-samui-de",
   "description": "Website setup for samui-samui.de",
-  "version": "1.1.103",
+  "version": "1.1.104",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -27,6 +27,7 @@
     "cli-real-favicon": "0.0.8",
     "cross-env": "7.0.3",
     "cssnano": "4.1.10",
+    "dayjs": "^1.10.4",
     "hint": "6.1.1",
     "husky": "4.3.8",
     "lazysizes": "5.3.0",
