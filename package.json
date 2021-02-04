@@ -1,7 +1,7 @@
 {
   "name": "samui-samui-de",
   "description": "Website setup for samui-samui.de",
-  "version": "1.1.106",
+  "version": "1.1.107",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -15,7 +15,7 @@
   "devDependencies": {
     "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
     "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
-    "@dnb-hugo/es-config": "github:dnb-hugo/eslint-config",
+    "@dnb-hugo/eslint-config": "github:dnb-hugo/eslint-config",
     "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
     "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
     "@dnb-hugo/stylelint-config": "github:dnb-hugo/stylelint-config",
