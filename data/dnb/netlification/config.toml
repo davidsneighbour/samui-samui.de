@@ -15,6 +15,7 @@ scriptSrc = [
   "'unsafe-inline'",
   "*.cloudfront.net",
   "utteranc.es",
+  "a.dnb9.xyz",
   "pagead2.googlesyndication.com",
   "storage.googleapis.com",
   "googleads.g.doubleclick.net",
