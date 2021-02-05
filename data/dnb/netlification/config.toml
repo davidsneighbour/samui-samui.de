@@ -8,7 +8,8 @@ headers = [
 # https://report-uri.com/account/setup/
 defaultSrc = [
   "'self'",
-  "googleads.g.doubleclick.net"
+  "googleads.g.doubleclick.net",
+  "a.dnb9.xyz"
 ]
 prefetchSrc = [
   "a.dnb9.xyz"
