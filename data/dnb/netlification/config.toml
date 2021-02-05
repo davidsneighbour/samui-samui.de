@@ -10,6 +10,9 @@ defaultSrc = [
   "'self'",
   "googleads.g.doubleclick.net"
 ]
+prefetchSrc = [
+  "a.dnb9.xyz"
+]
 scriptSrc = [
   "'self'",
   "'unsafe-inline'",
@@ -42,7 +45,8 @@ connectSrc = [
   "*.algolia.net",
   "*.algolianet.com",
   "www.clarity.ms",
-  "www.google-analytics.com"
+  "www.google-analytics.com",
+  "a.dnb9.xyz"
 ]
 frameSrc = [
   "'self'",
