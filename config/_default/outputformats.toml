@@ -1,7 +1,7 @@
 [Algolia]
+mediaType = "application/json"
 baseName = "algolia"
 isPlainText = true
-mediaType = "application/json"
 notAlternative = true
 
 [REDIR]
@@ -23,9 +23,7 @@ isPlainText = true
 notAlternative = true
 
 [manifest]
-name = "manifest"
-baseName = "manifest"
 mediaType = "text/webmanifest"
+baseName = "manifest"
 isPlainText = true
 notAlternative = true
-permalinkable = true
