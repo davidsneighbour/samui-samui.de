@@ -1,0 +1,22 @@
+#############################################################
+# Privacy setup
+#############################################################
+[disqus]
+disable = false
+[googleAnalytics]
+disable = true
+[instagram]
+disable = false
+simple = false
+disableInlineCSS = true
+[twitter]
+disable = false
+enableDNT = true
+simple = true
+disableInlineCSS = true
+[vimeo]
+disable = false
+simple = false
+[youtube]
+disable = false
+privacyEnhanced = false
