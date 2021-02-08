@@ -1,8 +1,3 @@
-/assets/main.js.map
-static/workbox-*.js
-static/main.js
-static/service-worker.js
-/assets/main*.js
 /package-lock.json
 hugo.log
 hint-report

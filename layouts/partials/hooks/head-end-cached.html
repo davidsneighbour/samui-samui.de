@@ -38,12 +38,12 @@ video: Video file, as typically used in <video>.
 {{ if ne site.IsServer }}
 <link rel="preconnect" href="https://a.dnb9.xyz/">
 <link rel="prefetch" href="https://a.dnb9.xyz/matomo.js">
-<link rel="preload" href="https://a.dnb9.xyz/matomo.js" as="script" crossorigin>
 <script type="text/javascript">
 var _paq = window._paq = window._paq || [];
 /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
 _paq.push(["setCookieDomain", "*.samui-samui.de"]);
 _paq.push(["setDomains", ["*.samui-samui.de"]]);
+_paq.push(['setSecureCookie', true]);
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 (function() {
