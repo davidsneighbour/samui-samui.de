@@ -5,6 +5,6 @@ go 1.15
 require (
 	github.com/dnb-hugo/components/favicon v1.0.16 // indirect
 	github.com/dnb-hugo/components/netlification v1.1.8 // indirect
-	github.com/dnb-hugo/garuda v1.4.73 // indirect
+	github.com/dnb-hugo/garuda v1.4.74 // indirect
 	github.com/dnb-hugo/libraries/popper.js v1.1.2 // indirect
 )
