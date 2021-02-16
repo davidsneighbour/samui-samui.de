@@ -43,10 +43,7 @@ module.exports = {
     // webpack javascripts
     "uglifyjs-webpack-plugin": "2.2.0",
     "babel-loader": "8.2.2",
-    "lazysizes": "5.3.0",
-
-    // favicon module
-    "cli-real-favicon": "0.0.8",
+    "lazysizes": "5.3.0"
 
   },
 
@@ -80,11 +77,7 @@ module.exports = {
     "clean:webpack": "rm -rf static/main*.js && rm data/dnb/webpack/config.json",
 
     // algolia search
-    "algolia": "hugo --quiet && atomic-algolia && rm -rf public",
-
-    // favicons
-    "favicon-create": "real-favicon generate faviconDescription.json ./resources/_gen/assets/faviconData.json static/images/favicon/",
-    "favicon-update": "real-favicon check-for-update --fail-on-update ./resources/_gen/assets/faviconData.json",
+    "algolia": "hugo --quiet && atomic-algolia && rm -rf public"
 
   },
 
