@@ -6,10 +6,6 @@
 # https://gohugo.io/hugo-modules/configuration/#module-config-imports
 ################################################################################
 [[imports]]
-path = "github.com/dnb-hugo/components/favicon"
-disabled = false
-
-[[imports]]
 path = "github.com/dnb-hugo/components/netlification"
 disabled = false
 
