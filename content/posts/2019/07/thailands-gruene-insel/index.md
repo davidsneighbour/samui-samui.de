@@ -21,5 +21,3 @@ Hin und wieder macht die TAT (Thailands Tourismus Regierungsorganisation) mal ma
 Das erste und offiziell einzige "Green Island" Thailand's ist bewohnt von 180 Haushalten, die ihre Energie zu 100% per Solarpanel und Windrädern erstellt und von der Landwirtschaft und dem Fischfang lebt. 
 
 Bleibt zu hoffen, dass die steigende Zahl der "Besucher", welche diese Insel besuchen um von ihren Bewohnern zu lernen, nicht das Idyll zerstören.
-
-{{< adsense-ad 7489540880 >}}
