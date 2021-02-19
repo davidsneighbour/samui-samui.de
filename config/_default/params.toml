@@ -63,7 +63,7 @@ profileid = "66878979350"
 [dnb]
 theme_slug = "samui-samui"
 javascript = "local-changes.js"
-copy-from = "2006"
+copy-from = "2005"
 
 [dnb.sidebar]
 enabled = true
