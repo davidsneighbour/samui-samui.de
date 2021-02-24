@@ -24,27 +24,29 @@
     "atomic-algolia": "0.3.19",
     "autoprefixer": "10.2.3",
     "babel-loader": "8.2.2",
-    "cli-real-favicon": "0.0.8",
+    "clean-css-cli": "5.2.0",
+    "clean-webpack-plugin": "3.0.0",
+    "cli-real-favicon": "^0.0.6",
+    "cross-env": "7.0.3",
     "cssnano": "4.1.10",
     "dayjs": "^1.10.4",
+    "find-unused-sass-variables": "3.1.0",
     "hint": "6.1.1",
-    "husky": "4.3.8",
     "lazysizes": "5.3.0",
     "lighthouse": "^7.1.0",
+    "nodemon": "2.0.7",
     "npm-check": "5.9.2",
     "npm-run-all": "4.1.5",
     "pixrem": "5.0.0",
     "postcss": "8.2.4",
     "postcss-cli": "8.3.1",
     "precss": "4.0.0",
-    "standard-version": "9.1.0"
+    "rtlcss": "3.1.2",
+    "sass": "1.32.8",
+    "standard-version": "9.1.0",
+    "stylelint": "13.11.0"
   },
   "homepage": "https://samui-samui.de",
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "license": "UNLICENSED",
   "private": true,
   "repository": "davidsneighbour/samui-samui.de",
@@ -56,8 +58,17 @@
     "check2": "hint . ",
     "clean:webpack": "rm -rf static/main*.js && rm data/dnb/webpack/config.json",
     "commitlint": "commitlint --from=HEAD~1",
-    "favicon-create": "real-favicon generate faviconDescription.json ./resources/_gen/assets/faviconData.json static/images/favicon/",
-    "favicon-update": "real-favicon check-for-update --fail-on-update ./resources/_gen/assets/faviconData.json",
+    "css": "npm-run-all css-compile",
+    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css assets/theme/:public/site/themes/wp-nautiness/",
+    "css-fix": "stylelint \"assets/theme/**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --rd --fix",
+    "css-lint": "npm-run-all --continue-on-error --parallel css-lint-*",
+    "css-lint-stylelint": "stylelint \"assets/scss/**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --rd",
+    "css-lint-vars": "find-unused-sass-variables assets/scss/",
+    "css-minify": "npm-run-all --parallel css-minify-*",
+    "css-minify-main": "cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output public/site/themes/wp-nautiness/ --batch --batch-suffix \".min\" \"public/site/themes/wp-nautiness/\" \"!public/site/themes/wp-nautiness/*.min.css\"",
+    "css-prefix": "npm-run-all --parallel css-prefix-*",
+    "css-prefix-main": "postcss --config build/postcss.config.js --replace \"dist/css/*.css\" \"!dist/css/*.min.css\"",
+    "css-stylelint-fix": "stylelint \"assets/scss/**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --rd --fix",
     "lint": "npm run lint:markdown",
     "lint:markdown": "linkinator \"content/**/*.md\" --markdown",
     "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
@@ -67,11 +78,10 @@
     "serve:hugo": "hugo server --minify --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose",
     "update": "npm-check -u -E --specials=babel,bin,commitizen,eslint,husky,webpack",
     "update-check": "npm-check -E --specials=babel,bin,commitizen,eslint,husky,webpack",
-    "update:packages": "node bin/wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save"
+    "update:packages": "node bin/wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save",
+    "watch": "npm-run-all --parallel watch-*",
+    "watch-css-main": "nodemon --watch assets/scss/ --ext scss --exec \"npm-run-all css-compile\""
   },
   "slug": "samui-samui-de",
-  "url": "https://samui-samui.de",
-  "dependencies": {
-    "clean-webpack-plugin": "^3.0.0"
-  }
+  "url": "https://samui-samui.de"
 }
