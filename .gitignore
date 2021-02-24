@@ -1,3 +1,7 @@
+# ignore go.mod so git won't display the redirects as changes all the time
+# adding go.mod without redirects to each `npm run release*` script
+go.mod
+
 /package-lock.json
 hugo.log
 hint-report
