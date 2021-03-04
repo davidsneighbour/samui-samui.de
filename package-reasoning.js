@@ -17,7 +17,6 @@ module.exports = {
     "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config",
 
     // versioning
-    "husky": "4.3.7",
     "standard-version": "9.1.0",
 
     // hint
@@ -54,8 +53,8 @@ module.exports = {
     "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "update-check": "npm-check -E --specials=babel,bin,commitizen,eslint,husky,webpack",
-    "update": "npm-check -u -E --specials=babel,bin,commitizen,eslint,husky,webpack",
+    "update-check": "npm-check -E --specials=babel,bin,commitizen,eslint,webpack",
+    "update": "npm-check -u -E --specials=babel,bin,commitizen,eslint,webpack",
 
     // lint
     "lint": "npm run lint:markdown",
