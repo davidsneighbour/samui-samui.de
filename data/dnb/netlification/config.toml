@@ -57,7 +57,8 @@ frameSrc = [
   "www.youtube.com",
   "www.youtube-nocookie.com",
   "googleads.g.doubleclick.net",
-  "open.spotify.com"
+  "open.spotify.com",
+  "player.vimeo.com"
 ]
 frameAncestors = [
   "'none'"
