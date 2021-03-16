@@ -34,7 +34,7 @@ scriptSrc = [
 styleSrc = [
   "'self'",
   "'sha256-LIGYGMlmPiMJ9yubTCG9ZZhCLHSkhDtf75TLl5p0zgg='", # spotify radio widget
-  "unsafe-inline"
+  "'unsafe-inline'"
 ]
 imgSrc = [
   "'self'",
