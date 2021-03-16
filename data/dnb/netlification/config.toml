@@ -41,7 +41,8 @@ imgSrc = [
   "data: www.google-analytics.com",
   "*.cloudfront.net",
   "i.ytimg.com",
-  "lite-vimeo-embed.now.sh"
+  "lite-vimeo-embed.now.sh",
+  "i.vimeocdn.com"
 ]
 connectSrc = [
   "'self'",
