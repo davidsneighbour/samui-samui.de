@@ -8,7 +8,7 @@ menu:
   main:
     name: Archiv
     weight: 100
-    identifier: archive
+    identifier: archiv
     pre: icons/archive.svg
 ---
 
