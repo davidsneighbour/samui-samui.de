@@ -79,3 +79,8 @@ upgradeInsecureRequests = true
 
 [[redirects]]
 netlify = "https://eloquent-morse-196fd2.netlify.com/"
+
+[[redirects]]
+from = "/archive/*"
+to = "/archiv/:splat"
+status = 301
