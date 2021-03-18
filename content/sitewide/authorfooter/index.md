@@ -1,5 +1,5 @@
 ---
-title: "Der Autor"
+title: "Kennen Sie Patrick Kollitsch?"
 headless: true
 image: "/assets/images/patrick.kollitsch.jpg"
 imagetitle: "Der Autor in seiner natürlichen Umgebung"
