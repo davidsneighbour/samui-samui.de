@@ -1,7 +1,7 @@
 github.com/aFarkas/lazysizes v0.0.0-20210123121749-0e985e8d8c45 h1:xcTaKwjer13AH3hpUopnkQSkMHRwI32aJWOj6sLyq3c=
 github.com/aFarkas/lazysizes v0.0.0-20210123121749-0e985e8d8c45/go.mod h1:xl3heUINAn0oPowV1biDQ2Pyw1w3x66I7KEbWkaxox0=
-github.com/dnb-hugo/blocks/bootstrap5 v1.0.28 h1:dNDl2qzSrreiEw1ihh34IvZvqKyOacbm6xt9w5AWRCo=
-github.com/dnb-hugo/blocks/bootstrap5 v1.0.28/go.mod h1:Gy3rCVAPl4NjueTE/9MHpoXysuJ2Rt4DonORfBx7VI4=
+github.com/dnb-hugo/blocks/bootstrap5 v1.0.29 h1:YX8rz4TE7/G14J2N4Iwp85bwb9K4ThmADdIFBgzqy5E=
+github.com/dnb-hugo/blocks/bootstrap5 v1.0.29/go.mod h1:Gy3rCVAPl4NjueTE/9MHpoXysuJ2Rt4DonORfBx7VI4=
 github.com/dnb-hugo/components/auditor v0.0.0-20210317132716-822ec0c703b6 h1:B/3SMM/r9IFGjwf4z+Jl49ihK1l1gL+ENpt5tbH0Ef8=
 github.com/dnb-hugo/components/auditor v0.0.0-20210317132716-822ec0c703b6/go.mod h1:SzNnVpyO7QeF+EFxSYeHOU3wwJFN9/f60RpnpeulzwY=
 github.com/dnb-hugo/components/functions v1.0.18 h1:tK6co1P7qBrtl5ms59QFaYiD5+uz23/YDfuY95P87/0=
@@ -24,8 +24,8 @@ github.com/dnb-hugo/components/social v0.0.4 h1:dPv9UeKY+fwZ/PBp3eTp/SMoxSF31bTS
 github.com/dnb-hugo/components/social v0.0.4/go.mod h1:JhfsOeIFw1pQCOrPq7iz/kZh4/b3MIT/CC9R56yE+gs=
 github.com/dnb-hugo/debugprint v1.0.7 h1:4vwpai0T7Y9rH5ZPUwvUN0rnBi6Ktk/QWCmNNcn8/nU=
 github.com/dnb-hugo/debugprint v1.0.7/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
-github.com/dnb-hugo/garuda v1.4.83 h1:JfYPAYGTBEJmJSKgzwMV+V4exW7V9VLmwZj0N4pDNwE=
-github.com/dnb-hugo/garuda v1.4.83/go.mod h1:lFvztO4cqfaq1IovxPn+YMNxorysV86+tbobRQjkP30=
+github.com/dnb-hugo/garuda v1.4.84 h1:iZU/SMjuPLSFHokm9jB5/+LAhwjifE0UrK9PJlkSwMk=
+github.com/dnb-hugo/garuda v1.4.84/go.mod h1:/zDCo176WnTUhjU2XuuF8GYP/fLBzlN8sPqZTkvQo6Y=
 github.com/dnb-hugo/libraries/bootstrap-icons v1.4.4 h1:ecezMGGISaaXUv6m2+/tQCpzTy+mDkv5NJzrblCUuB0=
 github.com/dnb-hugo/libraries/bootstrap-icons v1.4.4/go.mod h1:odokzGD0lAkC0fXn2dEi+Md+chnfaXGmf5162XmuH5Q=
 github.com/dnb-hugo/libraries/bootstrap5 v1.3.1 h1:I1DZ2zSU2aGOLkqQJQDuW8J5vZDC8jqPaGJ8xZ8oxmk=
