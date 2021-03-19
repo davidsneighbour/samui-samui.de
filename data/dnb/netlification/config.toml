@@ -53,7 +53,8 @@ connectSrc = [
   "www.clarity.ms",
   "www.google-analytics.com",
   "a.dnb9.xyz",
-  "cdn.welcomments.io"
+  "cdn.welcomments.io",
+  "welcomments.io"
 ]
 frameSrc = [
   "'self'",
