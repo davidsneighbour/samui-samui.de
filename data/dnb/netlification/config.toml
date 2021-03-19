@@ -52,7 +52,8 @@ connectSrc = [
   "*.algolianet.com",
   "www.clarity.ms",
   "www.google-analytics.com",
-  "a.dnb9.xyz"
+  "a.dnb9.xyz",
+  "cdn.welcomments.io"
 ]
 frameSrc = [
   "'self'",
