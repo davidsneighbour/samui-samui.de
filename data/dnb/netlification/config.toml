@@ -43,7 +43,8 @@ imgSrc = [
   "*.cloudfront.net",
   "i.ytimg.com",
   "lite-vimeo-embed.now.sh",
-  "i.vimeocdn.com"
+  "i.vimeocdn.com",
+  "eu.ui-avatars.com"
 ]
 connectSrc = [
   "'self'",
