@@ -3,13 +3,6 @@
 {{ $slug := index (last 1 (split (delimit (split .context.RelPermalink "/") "," "") ",")) 0 }}
 {{ $slug = cond (ne (eq $slug "")) $slug "___root___" }}
 
-{{ if eq $websiteId "YOUR-WEBSITE-ID-HERE" }}
-  <div style="color: #ff0000;">
-    <h1>Website id not configured!</h1>
-    <p>Please replace <code>YOUR-WEBSITE-ID-HERE</code> with the website id from Welcomments console.</p>
-  </div>
-{{ end }}
-
 <div id="welcomments__container" class="welcomments__container">
   {{ $allComments := dict }}
   {{ if isset .context.Site.Data.welcomments $slug }}
@@ -17,9 +10,9 @@
   {{ end }}
 
   {{ if gt $allComments 0 }}
-    <h3 id="welcomments__comment-count-title" class="welcomments__comments-title">{{ len $allComments }} comment{{ if gt $allComments 1 }}s{{ end }}</h3>
+    <h3 id="welcomments__comment-count-title" class="welcomments__comments-title">{{ len $allComments }} Kommentar{{ if gt $allComments 1 }}e{{ end }}</h3>
   {{ else }}
-    <h3 id="welcomments__comment-count-title" class="welcomments__comments-title">No comments yet!</h3>
+    <h3 id="welcomments__comment-count-title" class="welcomments__comments-title">Noch keine Kommentare...</h3>
   {{ end }}
 
   <section id="welcomments__comment-container" class="welcomments__comment-container">
@@ -74,10 +67,10 @@
     // id "welcomments__comment-count-title". It's okay if that element doesn't exist.
     commentCountTitleFactory: function (commentCount) {
       if (commentCount === 0) {
-        return "No comments yet!";
+        return "Noch keine Kommentare...";
       }
 
-      return commentCount === 1 ? "One comment" : `${commentCount} comments`;
+      return commentCount === 1 ? "1 Kommentar" : `${commentCount} Kommentare`;
     },
 
     // Builds comments dynamically when they are not part of the static HTML of the rest of
