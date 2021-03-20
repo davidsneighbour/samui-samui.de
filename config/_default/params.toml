@@ -21,6 +21,9 @@ copyright = "All rights reserved. Copyright samui-samui.de"
 # design elements
 sitecolor = "#d02d19"
 
+# welcomments
+welcommentsId = "9WpVuItctxJepNGEZw9Y"
+
 [imaging]
 sizes = ["825","610","510","450"]
 
