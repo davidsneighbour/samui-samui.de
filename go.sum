@@ -4,6 +4,7 @@ github.com/dnb-hugo/blocks/bootstrap5 v1.0.30 h1:DMFtXy56oZSoIIbVLKDadgVI+VCy9fO
 github.com/dnb-hugo/blocks/bootstrap5 v1.0.30/go.mod h1:Gy3rCVAPl4NjueTE/9MHpoXysuJ2Rt4DonORfBx7VI4=
 github.com/dnb-hugo/components/auditor v0.0.0-20210317132716-822ec0c703b6 h1:B/3SMM/r9IFGjwf4z+Jl49ihK1l1gL+ENpt5tbH0Ef8=
 github.com/dnb-hugo/components/auditor v0.0.0-20210317132716-822ec0c703b6/go.mod h1:SzNnVpyO7QeF+EFxSYeHOU3wwJFN9/f60RpnpeulzwY=
+github.com/dnb-hugo/components/functions v1.0.11/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
 github.com/dnb-hugo/components/functions v1.0.18 h1:tK6co1P7qBrtl5ms59QFaYiD5+uz23/YDfuY95P87/0=
 github.com/dnb-hugo/components/functions v1.0.18/go.mod h1:J/rmaK0OQWABbyxpEMu0HJFAQI2h2Q/0vYf1fdacIcg=
 github.com/dnb-hugo/components/netlification v1.1.8 h1:eARmBWDHS3q0Huesm/VU25U4+JOstfzLlTSiuhJYpw4=
@@ -22,10 +23,14 @@ github.com/dnb-hugo/components/sitemap v1.0.5 h1:U56rIlXI0rLeR4g0BlzzkQ9WSEq53x6
 github.com/dnb-hugo/components/sitemap v1.0.5/go.mod h1:ubgzNoQXdBxRSUC/szjFzv+CDpWqkEtZplhcqxPGDmY=
 github.com/dnb-hugo/components/social v0.0.4 h1:dPv9UeKY+fwZ/PBp3eTp/SMoxSF31bTS9lWyYh6flug=
 github.com/dnb-hugo/components/social v0.0.4/go.mod h1:JhfsOeIFw1pQCOrPq7iz/kZh4/b3MIT/CC9R56yE+gs=
+github.com/dnb-hugo/components/welcomments v0.0.2 h1:KXXTTtBlZVH+8KOCwGJ6C+7aQvGwDpjOgD8n7U9xHpg=
+github.com/dnb-hugo/components/welcomments v0.0.2/go.mod h1:sGczLellS1CTnkisb0Kc9MBagn2VpY4B9MjRSGpu6Ro=
 github.com/dnb-hugo/debugprint v1.0.7 h1:4vwpai0T7Y9rH5ZPUwvUN0rnBi6Ktk/QWCmNNcn8/nU=
 github.com/dnb-hugo/debugprint v1.0.7/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
 github.com/dnb-hugo/garuda v1.4.85 h1:JSdw2lI/mYSJ7o08joBC1zjdUOAv/aE5VhcrGJSVipM=
 github.com/dnb-hugo/garuda v1.4.85/go.mod h1:k6GKsDQQ8lNTABuLryzrE8NzoWoPZFlLf9FR52sKuE4=
+github.com/dnb-hugo/garuda v1.4.86 h1:J/5vMOV0VGxvmUXLi1+hVwGgr6djlirWyPTIlO3XoV4=
+github.com/dnb-hugo/garuda v1.4.86/go.mod h1:CGuNUdAThpsNtQwPXQUCHVRy3GEeztwqH7nVAdF4iWU=
 github.com/dnb-hugo/libraries/bootstrap-icons v1.4.4 h1:ecezMGGISaaXUv6m2+/tQCpzTy+mDkv5NJzrblCUuB0=
 github.com/dnb-hugo/libraries/bootstrap-icons v1.4.4/go.mod h1:odokzGD0lAkC0fXn2dEi+Md+chnfaXGmf5162XmuH5Q=
 github.com/dnb-hugo/libraries/bootstrap5 v1.3.1 h1:I1DZ2zSU2aGOLkqQJQDuW8J5vZDC8jqPaGJ8xZ8oxmk=
