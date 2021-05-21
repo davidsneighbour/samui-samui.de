@@ -41,7 +41,7 @@
     "postcss-cli": "8.3.1",
     "precss": "4.0.0",
     "rtlcss": "3.1.2",
-    "sass": "1.32.13",
+    "sass": "1.33.0",
     "standard-version": "9.3.0",
     "stylelint": "13.13.1"
   },
