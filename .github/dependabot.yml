@@ -4,15 +4,11 @@
 version: 2
 updates:
 
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "daily"
-
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "friday"
       time: "18:00"
       timezone: "Asia/Bangkok"
     assignees:
