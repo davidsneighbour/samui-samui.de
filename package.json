@@ -19,7 +19,7 @@
     "@dnb-hugo/remark-config": "2.0.13",
     "@dnb-hugo/standard-version-config": "2.0.12",
     "@dnb-hugo/stylelint-config": "2.0.26",
-    "@dnb-hugo/textlint-config": "2.0.12",
+    "@dnb-hugo/textlint-config": "2.0.16",
     "@hint/configuration-development": "8.2.1",
     "atomic-algolia": "0.3.19",
     "autoprefixer": "10.2.5",
