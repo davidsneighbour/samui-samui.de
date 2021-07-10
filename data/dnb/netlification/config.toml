@@ -22,7 +22,6 @@ scriptSrc = [
   "a.dnb9.xyz",
   "pagead2.googlesyndication.com",
   "storage.googleapis.com",
-  "cdn.welcomments.io",
   "googleads.g.doubleclick.net",
   "ajax.googleapis.com",
   "www.google-analytics.com",
@@ -34,8 +33,7 @@ scriptSrc = [
 ]
 styleSrc = [
   "'self'",
-  "'unsafe-inline'",
-  "cdn.welcomments.io"
+  "'unsafe-inline'"
 ]
 imgSrc = [
   "'self'",
@@ -52,9 +50,7 @@ connectSrc = [
   "*.algolianet.com",
   "www.clarity.ms",
   "www.google-analytics.com",
-  "a.dnb9.xyz",
-  "cdn.welcomments.io",
-  "welcomments.io"
+  "a.dnb9.xyz"
 ]
 frameSrc = [
   "'self'",

@@ -36,8 +36,6 @@ github.com/dnb-hugo/libraries/dayjs v0.0.4 h1:UkJmYFfW5UBuUlgNkhRYJky7r8/llSTThv
 github.com/dnb-hugo/libraries/dayjs v0.0.4/go.mod h1:rpb3QBTz/xqzvU7t9zmGIlqZOStcSL7PMbQ8+ynLQNg=
 github.com/dnb-hugo/libraries/lazysizes v1.0.3 h1:5aGVSusgeZjtsSdbZgrd3p4v8ESc+OmbSVvbqLBnIMs=
 github.com/dnb-hugo/libraries/lazysizes v1.0.3/go.mod h1:50HoIQcIj2aLYGR92ReyiKOeWy38/y6/yijecjKLE9I=
-github.com/dnb-hugo/libraries/popper.js v1.1.3 h1:6KmSb44HZLTBoxwB598sFhhTNTikVPba3Vs6w9Ze9jA=
-github.com/dnb-hugo/libraries/popper.js v1.1.3/go.mod h1:WMoKFULe6T8jflA0sDWoXeEEgDBGRm/ttx/V7tJCWCw=
 github.com/dnb-hugo/shortcodes v1.3.4 h1:Swgcxc4IfzRTn6HuIubbnGxYyT8qCnN86mvVfq5mNVo=
 github.com/dnb-hugo/shortcodes v1.3.4/go.mod h1:3d4dGummignTNkrBDx4k6EJ4VEpwtQMo3fZ8CsbtsQ0=
 github.com/dnb-hugo/shortcodes/collection v1.3.5 h1:NeBsZHQcl0iLGWvv/HQeGAYzwgbK/iBOkiuGw3Ckdo0=
