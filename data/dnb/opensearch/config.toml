@@ -5,4 +5,4 @@ search_form = "suche/"
 output_encoding = "UTF-8"
 input_encoding = "UTF-8"
 enable_autoupdate = true
-hookLink = "https://github.com/dnb-hugo/components/wiki/DNB-Hugo-Components---OpenSearch"
+hookLink = "https://github.com/dnb-org/components/wiki/DNB-Hugo-Components---OpenSearch"

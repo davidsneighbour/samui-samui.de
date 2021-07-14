@@ -6,9 +6,9 @@
 # https://gohugo.io/hugo-modules/configuration/#module-config-imports
 ################################################################################
 [[imports]]
-path = "github.com/dnb-hugo/components/netlification"
+path = "github.com/dnb-org/components/netlification"
 disabled = false
 
 [[imports]]
-path = "github.com/dnb-hugo/garuda"
+path = "github.com/dnb-org/garuda"
 disabled = false
