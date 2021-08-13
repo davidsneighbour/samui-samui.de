@@ -1,3 +1,15 @@
+$white: #ffffff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000000;
+
 // colors for samui-samui.de
 $theme-colors: (
   'text': #2b2929,
@@ -9,7 +21,7 @@ $theme-colors: (
   //'info': $info,
   //'warning': $warning,
   //'danger': $danger,
-  'light': $light,
+  'light': $gray-100,
   'success': rgb(22, 160, 133),
   'danger': rgb(192, 57, 43),
   //'dark': $dark

@@ -8,7 +8,6 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-      day: "friday"
       time: "18:00"
       timezone: "Asia/Bangkok"
     assignees:
