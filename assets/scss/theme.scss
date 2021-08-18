@@ -1,0 +1,36 @@
+// DNB theme setup
+@import "scss/settings/colors";
+@import "scss/settings/fonts";
+@import "scss/settings/settings";
+@import "scss/settings/local-settings";
+
+@import 'scss/bootstrap-scss';
+
+// Plugins
+@import "scss/plugins/backtotop";
+@import "scss/plugins/carousel";
+@import "scss/plugins/flags";
+@import "scss/plugins/instantsearch";
+@import "scss/plugins/sharebuttons";
+@import "scss/plugins/twitter";
+@import "scss/plugins/wordpress";
+
+// Components
+@import "scss/components/global";
+@import "scss/components/content";
+@import "scss/components/articles";
+@import "scss/components/comments";
+@import "scss/components/footer";
+@import "scss/components/footnotes";
+@import "scss/components/header";
+@import "scss/components/icons";
+@import "scss/components/images";
+@import "scss/components/pagination";
+@import "scss/components/sidebar";
+@import "scss/components/tables";
+@import "scss/components/topnavigation";
+@import "scss/components/transitions";
+@import "scss/components/local-changes";
+
+@import "scss/debugprint";
+@import "scss/plugins/highlight";

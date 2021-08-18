@@ -1,0 +1,18 @@
+/* stylelint-disable at-rule-no-unknown */
+
+caption {
+  padding-top: 0; /** @todo see if this is done via settings */
+}
+
+.debugprint {
+  @extend .table-dark;
+  @extend .table-bordered;
+  @extend .table-sm;
+  @extend .mb-3;
+  @extend .w-100;
+
+  .key {
+    width: 20%;
+    min-width: 100px;
+  }
+}

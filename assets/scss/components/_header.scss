@@ -1,0 +1,90 @@
+/* stylelint-disable at-rule-no-unknown */
+
+#topheader {
+  .h1 {
+
+    margin-bottom: 0;
+    font-family: $font-family-brandheader;
+    font-weight: $font-weight-brandheader;
+    font-size: $font-size-brandheader-xs;
+    line-height: 1;
+    text-align: center;
+    //transition: all 0.8s ease;
+
+    &:hover {
+
+      /* filter: blur(2px) hue-rotate(90deg) contrast(200%) sepia(60%); */
+      //filter: blur(2px) contrast(300%) sepia(40%);
+      //transition: all 0.8s ease;
+    }
+
+    @include media-breakpoint-up(md) {
+      background-position: center;
+    }
+
+    a {
+      line-height: 0.85;
+    }
+
+    @include media-breakpoint-only(sm) {
+      font-size: $font-size-brandheader-sm;
+    }
+
+    @include media-breakpoint-only(md) {
+      font-size: $font-size-brandheader-md;
+    }
+
+    @include media-breakpoint-only(lg) {
+      font-size: $font-size-brandheader-lg;
+    }
+
+    @include media-breakpoint-only(xl) {
+      font-size: $font-size-brandheader-xl;
+    }
+
+    @include media-breakpoint-only(xxl) {
+      font-size: $font-size-brandheader-xxl;
+    }
+
+    .blogname {
+      display: block;
+      background-image: url('/assets/header/' + $header_image);
+      background-position: 0 15%;
+      background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+      background-size: cover;
+    }
+
+    .blogdescription {
+      margin-top: 1rem;
+      display: block;
+      padding: 4px 0;
+      font-size: 2vw;
+      color: map-get($theme-colors, 'contentbg');
+      text-align: center;
+      border-top: 1px solid map-get($theme-colors, 'primary');
+      //border-bottom: 1px solid map-get($theme-colors, 'primary');
+
+      @include media-breakpoint-only(sm) {
+        padding: 2px 0;
+        //font-size: 14px;
+      }
+
+      @include media-breakpoint-only(md) {
+        padding: 2px 0;
+        //font-size: 19px;
+      }
+
+      @include media-breakpoint-up(lg) {
+        padding: 5px 0;
+        //font-size: 26px;
+      }
+
+      @include media-breakpoint-up(xl) {
+        padding: 5px 0;
+        //font-size: 33px;
+      }
+    }
+  }
+}

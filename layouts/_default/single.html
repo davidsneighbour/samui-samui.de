@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
+  	<header class="title">
+      <h1 class="entry-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h1>
+      {{ partial "content/meta-top.html" . }}
+  	</header>
+    {{ partial "content/content.html" . }}
+    {{ if (not (isset .Params "show_comments")) | or (eq .Params.show_comments "true") }}
+      {{ with $.Param "dnb.comments.repo" }}
+        <script
+          src="{{ $.Param "dnb.comments.src" | default "https://utteranc.es/client.js" }}"
+          repo="{{ . }}"
+          issue-term="{{ $.Param "dnb.comments.term" | default "pathname" }}"
+          label="{{ $.Param "dnb.comments.label" | default "💬" }}"
+          theme="{{ $.Param "dnb.comments.theme" | default "github-dark-orange" }}"
+          crossorigin="anonymous"
+          async defer>
+        </script>
+      {{ end }}
+    {{ end }}
+  </article>
+{{ end }}

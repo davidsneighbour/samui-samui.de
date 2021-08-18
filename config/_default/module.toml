@@ -8,7 +8,113 @@
 [[imports]]
 path = "github.com/dnb-org/components/netlification"
 disabled = false
+ignoreConfig = false
+ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/garuda"
-disabled = false
+path = "github.com/dnb-org/libraries/bootstrap5/v2"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/libraries/bootstrap-icons"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/shortcodes/collection"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/shortcodes/youtube"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/debug"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/components/functions"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/components/pwa"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/components/opensearch"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/components/renderhooks"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/components/robots"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/components/search-algolia"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/components/sitemap"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/components/social"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/components/pwa"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/libraries/lazysizes"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/libraries/dayjs"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/components/auditor"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/hooks"
+disable = false
+ignoreConfig = false
+ignoreImports = false

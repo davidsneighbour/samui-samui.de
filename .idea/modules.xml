@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../components/.idea/components.iml" filepath="$PROJECT_DIR$/../components/.idea/components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../debug/.idea/debug.iml" filepath="$PROJECT_DIR$/../debug/.idea/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hooks/.idea/hooks.iml" filepath="$PROJECT_DIR$/../hooks/.idea/hooks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../libraries/.idea/libraries.iml" filepath="$PROJECT_DIR$/../libraries/.idea/libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../namespace/.idea/namespace.iml" filepath="$PROJECT_DIR$/../namespace/.idea/namespace.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/samui-samui.de.iml" filepath="$PROJECT_DIR$/.idea/samui-samui.de.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shortcodes/.idea/shortcodes.iml" filepath="$PROJECT_DIR$/../shortcodes/.idea/shortcodes.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,52 @@
+/* stylelint-disable at-rule-no-unknown */
+
+#sidebar {
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: $primary;
+
+  }
+
+  figure img {
+    border: none;
+    border-radius: 0;
+  }
+
+  #widget-author {
+    img {
+      width:100%;
+      height:auto;
+    }
+  }
+
+  #widget-archive .grid-container {
+    display: grid;
+    align-items: center;
+    line-height: 3;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+  }
+
+  #widget-social {
+    a {
+      @each $name, $color in $brandcolors {
+        &.#{$name} {
+          color: $color;
+
+          &:hover {
+            color: shade-color($color, 10%);
+          }
+        }
+      }
+    }
+  }
+
+  #widget-radio {
+    iframe {
+      width:100%;
+      height:auto;
+      min-height:400px;
+    }
+  }
+}

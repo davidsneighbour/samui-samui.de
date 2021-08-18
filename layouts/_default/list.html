@@ -1,0 +1,16 @@
+{{ define "main" }}
+  {{ range $elem_index, $value := where site.RegularPages "Type" "in" site.Params.mainSections }}
+  <article class="{{ if eq $elem_index 0 }}first{{ end }}"{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
+    {{ .Scratch.Set "firstitem" "" }}
+    <header class="title">
+      <h1 class="entry-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h1>
+      {{ partial "content/meta-top.html" . }}
+    </header>
+    {{ partial "content/content.html" . }}
+    {{ partial "content/meta-bottom.html" . }}
+  </article>
+  {{ end }}
+  {{ partial "pagination/posts.html" . }}
+{{ end }}

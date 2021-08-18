@@ -4,5 +4,11 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="hooks" />
+    <orderEntry type="module" module-name="components" />
+    <orderEntry type="module" module-name="debug" />
+    <orderEntry type="module" module-name="libraries" />
+    <orderEntry type="module" module-name="namespace" />
+    <orderEntry type="module" module-name="shortcodes" />
   </component>
 </module>
