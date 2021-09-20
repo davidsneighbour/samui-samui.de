@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../blocks"
+		},
+		{
+			"path": "../components"
+		},
+		{
+			"path": "../configurations"
+		},
+		{
+			"path": "../debug"
+		},
+		{
+			"path": "../hooks"
+		},
+		{
+			"path": "../libraries"
+		},
+		{
+			"path": "../shortcodes"
+		}
+	],
+	"settings": {}
+}
