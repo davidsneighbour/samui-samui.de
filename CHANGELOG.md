@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.3](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.2...v2021.0.3) (2021-09-20)
+
+
+### Bug Fixes
+
+* add executable rights to build critical css scripts ([ab518c4](https://github.com/davidsneighbour/samui-samui.de/commit/ab518c4afda5d9d9d31e646ef0a8e2d1b24afeb0))
+
 ### [2021.0.2](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.1...v2021.0.2) (2021-09-20)
 
 ### [2021.0.1](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.0...v2021.0.1) (2021-09-20)
