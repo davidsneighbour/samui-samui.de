@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.4](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.3...v2021.0.4) (2021-09-20)
+
+
+### Chore
+
+* update hugo version on netlify ([c01a66b](https://github.com/davidsneighbour/samui-samui.de/commit/c01a66b6f009142e427aa6685a4fe2abc9da8d74))
+* update netlify build command ([542dd83](https://github.com/davidsneighbour/samui-samui.de/commit/542dd836638fac713c10653099de146f81ac5f12))
+
 ### [2021.0.3](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.2...v2021.0.3) (2021-09-20)
 
 
