@@ -17,7 +17,7 @@ git submodule update --init --recursive --depth=1
 hugo mod get -u ./...
 
 # build site
-npm run build
+hugo --gc --minify
 
 # commit algolia index
 #atomic-algolia
