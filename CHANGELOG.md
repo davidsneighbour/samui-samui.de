@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.1](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.0...v2021.0.1) (2021-09-20)
+
+
+### Chore
+
+* **deps-dev:** bump @dnb-org/all from 3.2.17 to 3.2.18 ([#313](https://github.com/davidsneighbour/samui-samui.de/issues/313)) ([1648ea4](https://github.com/davidsneighbour/samui-samui.de/commit/1648ea45be0df4fb0cdc09b81090daceab6ab8a8))
+* **deps-dev:** bump sass from 1.38.0 to 1.38.2 ([#312](https://github.com/davidsneighbour/samui-samui.de/issues/312)) ([bcc18d8](https://github.com/davidsneighbour/samui-samui.de/commit/bcc18d807ca5eb17184e099252357012467845e1))
+* fixing up dev site scripts ([f83b8d7](https://github.com/davidsneighbour/samui-samui.de/commit/f83b8d7f2d5dc66d5c1754d289c58db0d1adbb37))
+* update workspace configuration for vscode ([72eb4ed](https://github.com/davidsneighbour/samui-samui.de/commit/72eb4ed8843b75557bca83f7eceaa4f29122fbb7))
+
 ## [2021.0.0](https://github.com/davidsneighbour/samui-samui.de/compare/v1.1.149...v2021.0.0) (2021-08-18)
 
 

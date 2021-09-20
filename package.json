@@ -1,7 +1,7 @@
 {
   "name": "samui-samui-de",
   "description": "Website and content for samui-samui.de",
-  "version": "2021.0.0",
+  "version": "2021.0.1",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -58,18 +58,15 @@
   },
   "repository": "davidsneighbour/samui-samui.de",
   "scripts": {
-
     "release": "standard-version --release-as patch -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
     "release:major": "standard-version --release-as major -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
     "release:minor": "standard-version --release-as minor -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
-
     "clean": "npm-run-all -p clean:cypress clean:hugo",
     "clean:all": "npm-run-all -p clean:*",
     "clean:cypress": "rimraf tests/cypress/screenshots tests/cypress/videos",
     "clean:hugo": "rimraf hugo.log hugo_stats.json resources",
     "clean:npm": "rimraf node_modules package-lock.json",
     "clean:webpack": "rm -rf static/main*.js && rm data/dnb/webpack/config.json",
-
     "algolia": "hugo --quiet && atomic-algolia && rm -rf public",
     "build": "run-s build:critical && build:hugo",
     "build:critical": "./bin/build-critical-css.sh",
