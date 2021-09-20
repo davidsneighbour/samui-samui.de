@@ -24,13 +24,7 @@ ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/shortcodes/collection"
-disable = false
-ignoreConfig = false
-ignoreImports = false
-
-[[imports]]
-path = "github.com/dnb-org/shortcodes/youtube"
+path = "github.com/dnb-org/shortcodes/all"
 disable = false
 ignoreConfig = false
 ignoreImports = false

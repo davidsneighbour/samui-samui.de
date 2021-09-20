@@ -1,6 +1,6 @@
 {
   "name": "samui-samui-de",
-  "description": "Website setup for samui-samui.de",
+  "description": "Website and content for samui-samui.de",
   "version": "2021.0.0",
   "author": {
     "name": "Patrick Kollitsch",
@@ -15,19 +15,21 @@
       "@dnb-org/commitlint-config"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
   "devDependencies": {
-    "@dnb-org/all": "3.2.18",
-    "@hint/configuration-development": "8.2.2",
+    "@dnb-org/all": "3.2.25",
     "atomic-algolia": "0.3.19",
     "babel-loader": "8.2.2",
     "clean-css-cli": "5.3.3",
-    "clean-webpack-plugin": "3.0.0",
+    "clean-webpack-plugin": "4.0.0",
     "cross-env": "7.0.3",
-    "dayjs": "1.10.6",
+    "dayjs": "1.10.7",
     "find-unused-sass-variables": "3.1.0",
-    "hint": "6.1.4",
     "lazysizes": "5.3.2",
-    "lighthouse": "8.3.0",
     "nodemon": "2.0.12",
     "npm-check": "5.9.2",
     "pixrem": "^5.0.0",
@@ -35,19 +37,46 @@
     "postcss-cli": "8.3.1",
     "precss": "4.0.0",
     "rtlcss": "3.3.0",
-    "sass": "1.38.2"
+    "sass": "1.41.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@dnb-org/eslint-config"
+    ]
   },
   "homepage": "https://samui-samui.de",
   "license": "UNLICENSED",
   "private": true,
+  "remarkConfig": {
+    "plugins": [
+      "@dnb-org/remark-config",
+      [
+        "remark-lint-write-good",
+        false
+      ]
+    ]
+  },
   "repository": "davidsneighbour/samui-samui.de",
   "scripts": {
-    "algolia": "hugo --quiet && atomic-algolia && rm -rf public",
-    "build": "npm run build:hugo",
-    "build:hugo": "hugo --gc",
-    "check": "hint http://localhost:1313",
-    "check2": "hint . ",
+
+    "release": "standard-version --release-as patch -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
+    "release:major": "standard-version --release-as major -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
+    "release:minor": "standard-version --release-as minor -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
+
+    "clean": "npm-run-all -p clean:cypress clean:hugo",
+    "clean:all": "npm-run-all -p clean:*",
+    "clean:cypress": "rimraf tests/cypress/screenshots tests/cypress/videos",
+    "clean:hugo": "rimraf hugo.log hugo_stats.json resources",
+    "clean:npm": "rimraf node_modules package-lock.json",
     "clean:webpack": "rm -rf static/main*.js && rm data/dnb/webpack/config.json",
+
+    "algolia": "hugo --quiet && atomic-algolia && rm -rf public",
+    "build": "run-s build:critical && build:hugo",
+    "build:critical": "./bin/build-critical-css.sh",
+    "build:highlights": "hugo gen chromastyles --style=native > assets/css/utilities/syntax.css",
+    "build:hugo": "hugo --gc --minify",
+    "build:new": "npm run build:webpack && npm run build:hugo",
+    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.production.js",
     "commitlint": "commitlint --from=HEAD~1",
     "css": "npm-run-all css-compile",
     "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css assets/theme/:public/site/themes/wp-nautiness/",
@@ -60,22 +89,33 @@
     "css-prefix": "npm-run-all --parallel css-prefix-*",
     "css-prefix-main": "postcss --config build/postcss.config.js --replace \"dist/css/*.css\" \"!dist/css/*.min.css\"",
     "css-stylelint-fix": "stylelint \"assets/scss/**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --rd --fix",
+    "fixpack": "fixpack",
     "lint": "npm run lint:markdown",
+    "lint:fix": "run-p lint:scss:fix lint:textlint:fix",
     "lint:markdown": "linkinator \"content/**/*.md\" --markdown",
-    "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "lint:remark": "remark",
+    "lint:scss": "stylelint assets/scss/",
+    "lint:scss2": "stylelint",
+    "lint:scss:fix": "stylelint assets/scss/ --fix",
+    "lint:textlint": "textlint",
+    "lint:textlint:fix": "textlint --fix",
     "serve": "run-p serve:**",
     "serve:hugo": "hugo server --minify --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose",
+    "stylelint": "stylelint assets/scss/**/*.scss",
+    "stylelint-config": "stylelint --print-config index.js",
+    "stylelint-fix": "stylelint assets/scss/**/*.scss --fix",
+    "test": "run-p test:server test:cypress",
+    "test:cypress": "cypress open",
+    "test:server": "hugo server --port=8888 --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log -v",
     "update": "npm-check -u -E --specials=babel,bin,commitizen,eslint,webpack",
     "update-check": "npm-check -E --specials=babel,bin,commitizen,eslint,webpack",
     "update:packages": "node bin/wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save",
     "watch": "npm-run-all --parallel watch-*",
-    "watch-css-main": "nodemon --watch assets/scss/ --ext scss --exec \"npm-run-all css-compile\"",
-    "stylelint": "stylelint assets/scss/**/*.scss",
-    "stylelint-fix": "stylelint assets/scss/**/*.scss --fix",
-    "stylelint-config": "stylelint --print-config index.js"
+    "watch-css-main": "nodemon --watch assets/scss/ --ext scss --exec \"npm-run-all css-compile\""
   },
   "slug": "samui-samui-de",
+  "stylelint": {
+    "extends": "@dnb-org/stylelint-config"
+  },
   "url": "https://samui-samui.de"
 }
