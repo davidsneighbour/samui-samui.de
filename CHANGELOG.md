@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.7](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.6...v2021.0.7) (2021-09-21)
+
+
+### Chore
+
+* remove netlify plugins ([7b8ba02](https://github.com/davidsneighbour/samui-samui.de/commit/7b8ba02405ce04009791c479b62635816fdb2240))
+
 ### [2021.0.6](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.5...v2021.0.6) (2021-09-21)
 
 
