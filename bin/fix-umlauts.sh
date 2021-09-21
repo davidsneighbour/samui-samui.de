@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 sed -i 's/&auml;/ä/g' $1
 sed -i 's/&ouml;/ö/g' $1
