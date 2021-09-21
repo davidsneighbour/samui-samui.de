@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.6](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.5...v2021.0.6) (2021-09-21)
+
+
+### Bug Fixes
+
+* remove double hugo-cache plugin declaration ([0380fae](https://github.com/davidsneighbour/samui-samui.de/commit/0380fae8f4209046fe7fa085ade9bca14d000f1d))
+* shebang in binaries ([0f7849e](https://github.com/davidsneighbour/samui-samui.de/commit/0f7849e8155f94b9799cfb4da87f639202604418))
+
 ### [2021.0.5](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.4...v2021.0.5) (2021-09-21)
 
 
