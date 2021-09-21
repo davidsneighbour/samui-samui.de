@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.5](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.4...v2021.0.5) (2021-09-21)
+
+
+### Chore
+
+* add packages and cleanup package.json ([4ccf574](https://github.com/davidsneighbour/samui-samui.de/commit/4ccf5747481d7a2d43bd7680635c1b008e4cfbd7))
+* move hugo server into script ([9bfec00](https://github.com/davidsneighbour/samui-samui.de/commit/9bfec005cd5068326294fd2d14f4be84e1fcd408))
+* remove cruft from package.json ([9300b3a](https://github.com/davidsneighbour/samui-samui.de/commit/9300b3abc5d138217f0238adbb7ade33066b712b))
+
 ### [2021.0.4](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.3...v2021.0.4) (2021-09-20)
 
 
