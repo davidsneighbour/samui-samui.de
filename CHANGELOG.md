@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.13](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.12...v2021.0.13) (2021-09-24)
+
+
+### Chore
+
+* **config:** getting the dev server to run again ([a04b667](https://github.com/davidsneighbour/samui-samui.de/commit/a04b66751c5930a76813133a928338ec2ecca54b))
+
 ### [2021.0.12](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.11...v2021.0.12) (2021-09-24)
 
 ### [2021.0.11](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.10...v2021.0.11) (2021-09-24)
