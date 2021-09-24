@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.10](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.9...v2021.0.10) (2021-09-24)
+
+
+### Chore
+
+* add versioning configuration ([7c9ee73](https://github.com/davidsneighbour/samui-samui.de/commit/7c9ee738732f6641c6afe767caf8d73ce02c5883))
+
 ### [2021.0.9](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.8...v2021.0.9) (2021-09-24)
 
 ### [2021.0.8](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.7...v2021.0.8) (2021-09-22)

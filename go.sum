@@ -1,6 +1,6 @@
 github.com/aFarkas/lazysizes v0.0.0-20210517092641-1523a4ff4579/go.mod h1:xl3heUINAn0oPowV1biDQ2Pyw1w3x66I7KEbWkaxox0=
-github.com/dnb-org/components/auditor v0.0.0-20210920124932-8cf66feffe3c h1:cG+WUd29u8hfM+eUSBfTGEiQxePq3IG4Ij/WK/S3bik=
-github.com/dnb-org/components/auditor v0.0.0-20210920124932-8cf66feffe3c/go.mod h1:lc2H5PPI6ohpx0LaOP1/fMQtE+YDA7xPZqr24OzmRII=
+github.com/dnb-org/components/auditor v0.0.0-20210924121019-6e129d0c27ed h1:lXOlfy1Vt8kfe20XF6svNmIpwj+2Qh3EwEOjAtwuBGA=
+github.com/dnb-org/components/auditor v0.0.0-20210924121019-6e129d0c27ed/go.mod h1:lc2H5PPI6ohpx0LaOP1/fMQtE+YDA7xPZqr24OzmRII=
 github.com/dnb-org/components/functions v1.1.5 h1:gN+9GpDxXIkPg47Z2dQej1EgIQBz4LlWtQA8nlSzc5A=
 github.com/dnb-org/components/functions v1.1.5/go.mod h1:+GMAcQaK260wZ6ioNPbQY/ruWdBxFxj9PPw7o5p7eu0=
 github.com/dnb-org/components/netlification v1.2.0 h1:h2/yoG7C8NwXxSRMYS9i6wfdGawU1CwS3+T1cv1XeeI=
