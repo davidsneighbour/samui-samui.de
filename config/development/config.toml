@@ -2,7 +2,7 @@
 # Site setup
 # see https://gohugo.io/getting-started/configuration/
 ################################################################################
-baseURL = "https://192.168.1.201/"       # hostname & path to the root
+baseURL = "https://localhost/"       # hostname & path to the root
 defaultContentLanguage = "de"
 disableHugoGeneratorInject = true         # we do that proudly on each page in the footer. visible.
 disableKinds = []
