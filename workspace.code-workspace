@@ -19,7 +19,13 @@
 			"path": "../libraries"
 		},
 		{
+			"path": "../namespace"
+		},
+		{
 			"path": "../shortcodes"
+		},
+		{
+			"path": "../templates"
 		}
 	],
 	"settings": {}
