@@ -6,8 +6,6 @@ npm run clean:hugo
 # starting hugo server
 hugo server \
     --gc \
-    #--bind 192.168.1.201 \
-    #--port 1313 \
     --environment development \
     --disableFastRender \
     --i18n-warnings \
@@ -29,3 +27,5 @@ hugo server \
     --meminterval 5s \
     --memstats hugo_memory.log \
     --print-mem
+    #--bind 192.168.1.201 \
+    #--port 1313 \
