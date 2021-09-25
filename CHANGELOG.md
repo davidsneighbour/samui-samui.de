@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.14](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.13...v2021.0.14) (2021-09-25)
+
+
+### Chore
+
+* cleanup binaries ([85c58b9](https://github.com/davidsneighbour/samui-samui.de/commit/85c58b9f5d13e0263d4c32bf2ab4c758a01d2351))
+* **deps:** update dependencies ([c458a6e](https://github.com/davidsneighbour/samui-samui.de/commit/c458a6ee8dd6e8f478aaef6ce8c79867f5043d48))
+
 ### [2021.0.13](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.12...v2021.0.13) (2021-09-24)
 
 
