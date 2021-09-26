@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.16](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.15...v2021.0.16) (2021-09-26)
+
+
+### Chore
+
+* **config:** update netlification to include self for prefetch-src ([e8ef14c](https://github.com/davidsneighbour/samui-samui.de/commit/e8ef14caf2a64efbcf9edeaa01ca3988398940af))
+
 ### [2021.0.15](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.14...v2021.0.15) (2021-09-26)
 
 
