@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.20](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.19...v2021.0.20) (2021-09-26)
+
+
+### Bug Fixes
+
+* **config:** proper vercel address for lite-vimeo-embed ([e94dd73](https://github.com/davidsneighbour/samui-samui.de/commit/e94dd73cd63bf9eebb43ffdd569846994da13f1b))
+
 ### [2021.0.19](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.18...v2021.0.19) (2021-09-26)
 
 
