@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.17](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.16...v2021.0.17) (2021-09-26)
+
+
+### Chore
+
+* **config:** remove dnb9.xyz from netlification config ([0f02b0b](https://github.com/davidsneighbour/samui-samui.de/commit/0f02b0bb5459788ddc161150d1e7ac530ffaec34))
+
 ### [2021.0.16](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.15...v2021.0.16) (2021-09-26)
 
 
