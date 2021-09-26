@@ -3,7 +3,7 @@ module github.com/davidsneighbour/samui-samui.de
 go 1.16
 
 require (
-	github.com/dnb-org/components/auditor v0.0.0-20210924121019-6e129d0c27ed // indirect
+	github.com/dnb-org/components/auditor v0.0.0-20210926115546-bd9866427d11 // indirect
 	github.com/dnb-org/components/functions v1.1.5 // indirect
 	github.com/dnb-org/components/netlification v1.2.0 // indirect
 	github.com/dnb-org/components/opensearch v1.0.12 // indirect

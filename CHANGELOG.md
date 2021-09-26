@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.15](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.14...v2021.0.15) (2021-09-26)
+
+
+### Chore
+
+* remove matomo from installation ([209b58d](https://github.com/davidsneighbour/samui-samui.de/commit/209b58da857805d80175261cb827f570dcac14ee))
+* **scripts:** shell check pre release script ([acb75a1](https://github.com/davidsneighbour/samui-samui.de/commit/acb75a1001c8995812718961bbeb80dd7b615eba))
+* update build scripts ([cdf42a1](https://github.com/davidsneighbour/samui-samui.de/commit/cdf42a1b8604af7a2082eea4a98b7dca23b4eb58))
+
 ### [2021.0.14](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.13...v2021.0.14) (2021-09-25)
 
 
