@@ -18,7 +18,6 @@ scriptSrc = [
   "'unsafe-inline'",
   "*.cloudfront.net",
   "utteranc.es",
-  "a.dnb9.xyz",
   "pagead2.googlesyndication.com",
   "storage.googleapis.com",
   "googleads.g.doubleclick.net",
@@ -39,7 +38,7 @@ imgSrc = [
   "data: www.google-analytics.com",
   "*.cloudfront.net",
   "i.ytimg.com",
-  "lite-vimeo-embed.now.sh",
+  "lite-vimeo-embed.vercel.com",
   "i.vimeocdn.com",
   "eu.ui-avatars.com"
 ]
@@ -47,9 +46,7 @@ connectSrc = [
   "'self'",
   "*.algolia.net",
   "*.algolianet.com",
-  "www.clarity.ms",
-  "www.google-analytics.com",
-  "a.dnb9.xyz"
+  "www.google-analytics.com"
 ]
 frameSrc = [
   "'self'",
@@ -68,9 +65,7 @@ manifestSrc = [
   "'self'"
 ]
 fontSrc = [
-  "'self'",
-  "fonts.googleapis.com",
-  "fonts.gstatic.com"
+  "'self'"
 ]
 objectSrc = [
   "'self'"
