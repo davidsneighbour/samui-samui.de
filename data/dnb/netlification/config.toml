@@ -12,7 +12,8 @@ defaultSrc = [
   "a.dnb9.xyz"
 ]
 prefetchSrc = [
-  "a.dnb9.xyz"
+  "a.dnb9.xyz",
+  "'self'"
 ]
 scriptSrc = [
   "'self'",
