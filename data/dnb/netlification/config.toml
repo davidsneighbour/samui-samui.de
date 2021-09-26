@@ -39,6 +39,7 @@ imgSrc = [
   "*.cloudfront.net",
   "i.ytimg.com",
   "lite-vimeo-embed.vercel.com",
+  "lite-vimeo-embed.now.sh",
   "i.vimeocdn.com",
   "eu.ui-avatars.com"
 ]
