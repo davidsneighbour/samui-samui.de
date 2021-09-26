@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.18](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.17...v2021.0.18) (2021-09-26)
+
+
+### Chore
+
+* **config:** more netlification fixes ([c909f82](https://github.com/davidsneighbour/samui-samui.de/commit/c909f821209668888ce1bfb4faaf883d2d816095))
+
 ### [2021.0.17](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.16...v2021.0.17) (2021-09-26)
 
 
