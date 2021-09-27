@@ -35,6 +35,10 @@ hugo server \
     --log true --logFile hugo.log \
     --verbose \
     --verboseLog \
+    --debug \
+    --meminterval 5s \
+    --memstats hugo_memory.log \
+    --print-mem \
     --bind 192.168.1.201 \
     --port 1313 \
     --baseURL http://192.168.1.201 
