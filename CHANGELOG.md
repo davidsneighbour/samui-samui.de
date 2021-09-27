@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.21](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.20...v2021.0.21) (2021-09-27)
+
+
+### Chore
+
+* remove bootstrap5 module and implement bootstrap directly ([b98f2b8](https://github.com/davidsneighbour/samui-samui.de/commit/b98f2b8e8a98937189719e28bcb8640d54a8464d))
+* update netlify configuration ([56c6cc3](https://github.com/davidsneighbour/samui-samui.de/commit/56c6cc386e573611d3431246997e310a216caf3e))
+
 ### [2021.0.20](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.19...v2021.0.20) (2021-09-26)
 
 
