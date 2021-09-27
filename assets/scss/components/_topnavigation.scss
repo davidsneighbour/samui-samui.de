@@ -7,19 +7,12 @@
   //z-index: $zindex-sticky;
 
   background-color: $gray-800;
-  border-top-left-radius: $border-radius-lg;
-  border-top-right-radius: $border-radius-lg;
 
   ul {
     margin-left: 0.5rem;
   }
 
   &.navbar-fixed-top {
-    nav {
-
-      border-top-left-radius: 0;
-      border-top-right-radius: 0;
-    }
     .navbar-brand {
       @extend .d-inline-block;
     }
