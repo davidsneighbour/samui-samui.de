@@ -7,6 +7,6 @@ js = [
   "js/libs/jquery.js",
   "js/ready.js",
   "js/progress-indicator.js",
-  "libs/bootstrap/js/bootstrap.bundle.js"
+  "../node_modules/bootstrap/dist/js/bootstrap.bundle.js"
 ]
 esBuildParams = []

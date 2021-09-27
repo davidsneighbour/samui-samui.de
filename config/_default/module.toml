@@ -12,12 +12,6 @@ ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/libraries/bootstrap5/v2"
-disable = false
-ignoreConfig = false
-ignoreImports = false
-
-[[imports]]
 path = "github.com/dnb-org/libraries/bootstrap-icons"
 disable = false
 ignoreConfig = false
