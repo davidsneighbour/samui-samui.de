@@ -11,7 +11,7 @@
   "homepage": "https://samui-samui.de",
   "repository": "davidsneighbour/samui-samui.de",
   "devDependencies": {
-    "@dnb-org/all": "3.2.25",
+    "@dnb-org/all": "3.3.0",
     "atomic-algolia": "0.3.19",
     "bootstrap": "5.1.1",
     "lazysizes": "5.3.2",
