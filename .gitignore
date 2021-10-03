@@ -3,6 +3,7 @@ hugo.log
 /bin/replacements
 /assets/jsconfig.json
 hugo_stats.json
+build-image
 
 # Created by https://www.toptal.com/developers/gitignore/api/go,node,hugo,sublimetext,phpstorm+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=go,node,hugo,sublimetext,phpstorm+all
