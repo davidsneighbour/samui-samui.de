@@ -6,25 +6,7 @@
 # https://gohugo.io/hugo-modules/configuration/#module-config-imports
 ################################################################################
 [[imports]]
-path = "github.com/dnb-org/components/netlification"
-disabled = false
-ignoreConfig = false
-ignoreImports = false
-
-[[imports]]
-path = "github.com/dnb-org/libraries/bootstrap-icons"
-disable = false
-ignoreConfig = false
-ignoreImports = false
-
-[[imports]]
-path = "github.com/dnb-org/shortcodes/all"
-disable = false
-ignoreConfig = false
-ignoreImports = false
-
-[[imports]]
-path = "github.com/dnb-org/debug"
+path = "github.com/dnb-org/components/auditor"
 disable = false
 ignoreConfig = false
 ignoreImports = false
@@ -36,8 +18,8 @@ ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/components/pwa"
-disable = false
+path = "github.com/dnb-org/components/netlification"
+disabled = false
 ignoreConfig = false
 ignoreImports = false
 
@@ -48,7 +30,7 @@ ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/components/renderhooks"
+path = "github.com/dnb-org/components/pwa"
 disable = false
 ignoreConfig = false
 ignoreImports = false
@@ -78,13 +60,19 @@ ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/components/pwa"
+path = "github.com/dnb-org/debug"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/libraries/lazysizes"
+path = "github.com/dnb-org/hooks"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/libraries/bootstrap-icons"
 disable = false
 ignoreConfig = false
 ignoreImports = false
@@ -96,13 +84,13 @@ ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/components/auditor"
+path = "github.com/dnb-org/libraries/lazysizes"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/hooks"
+path = "github.com/dnb-org/shortcodes/all"
 disable = false
 ignoreConfig = false
 ignoreImports = false
