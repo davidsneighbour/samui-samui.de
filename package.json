@@ -26,7 +26,7 @@
     "build:critical": "./bin/build-critical-css.sh",
     "build:hugo": "hugo --gc --minify",
     "clean": "run-p clean:*",
-    "clean:hugo": "rimraf hugo.log hugo_stats.json public",
+    "clean:hugo": "rimraf hugo.log hugo_stats.json public resources",
     "clean:npm": "rimraf node_modules package-lock.json",
     "release": "standard-version --release-as patch -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
     "release:major": "standard-version --release-as major -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
