@@ -44,6 +44,7 @@
   {{ partial "func/hook" "container-end" }}
   {{ partial "footer" . }}
   {{ partial "func/hook" "body-end" }}
+  {{- partialCached "ct/ct.html" . -}}
 </body>
 </html>
 {{ partial "func/hook" "teardown" }}
