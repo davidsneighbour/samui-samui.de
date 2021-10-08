@@ -1,6 +1,6 @@
 {
   "name": "samui-samui-de",
-  "version": "2021.0.21",
+  "version": "2021.0.22",
   "license": "UNLICENSED",
   "description": "Website and content for samui-samui.de",
   "author": {
@@ -11,9 +11,13 @@
   "homepage": "https://samui-samui.de",
   "repository": "davidsneighbour/samui-samui.de",
   "devDependencies": {
-    "@dnb-org/all": "3.3.0",
+    "@dnb-org/all": "3.3.2",
+    "@hint/configuration-accessibility": "2.0.11",
+    "@hint/configuration-development": "8.2.2",
+    "@hint/configuration-progressive-web-apps": "7.0.11",
     "atomic-algolia": "0.3.19",
-    "bootstrap": "5.1.1",
+    "bootstrap": "5.1.2",
+    "hint": "6.1.4",
     "lazysizes": "5.3.2",
     "pixrem": "5.0.0",
     "postcss": "8.3.9",
@@ -33,7 +37,8 @@
     "release:minor": "standard-version --release-as minor -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
     "server": "run-p server:hugo",
     "server:hugo": "./bin/hugo-dev-server.sh",
-    "server:hugo:paranoia": "./bin/hugo-dev-server-paranoia.sh"
+    "server:hugo:paranoia": "./bin/hugo-dev-server-paranoia.sh",
+    "webhint": "hint http://192.168.1.201:1313"
   },
   "private": true,
   "browserslist": [

@@ -2,6 +2,39 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.22](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.21...v2021.0.22) (2021-10-08)
+
+
+### Documentation
+
+* move documentation snippets from content to devnotes ([a4bd27d](https://github.com/davidsneighbour/samui-samui.de/commit/a4bd27d2e0286c0163c1e24de333be01e08051d7))
+
+
+### Theme
+
+* add ct to base template ([2a25c85](https://github.com/davidsneighbour/samui-samui.de/commit/2a25c85cf1d92d8f2e871d5c63c0c2ac32455e20))
+* **fix:** remove rounded borders from top navigation ([84e3db9](https://github.com/davidsneighbour/samui-samui.de/commit/84e3db95427d9114db58cf61ddba89e6d7e826e9))
+* show blogtitle in navigation when it's sticky ([a620ac2](https://github.com/davidsneighbour/samui-samui.de/commit/a620ac222dd15c58c39a82a5c18ec3fde2666eb0))
+
+
+### Chore
+
+* add gomodules to dependabot configuration ([88e2ca2](https://github.com/davidsneighbour/samui-samui.de/commit/88e2ca24f6780b3f6afb896c4ee269ba03f6482c))
+* add netlify build test script ([0e1ad49](https://github.com/davidsneighbour/samui-samui.de/commit/0e1ad496447a4bc7d8d52a64b43f743e486cdd04))
+* add quicklinks to workspace ([873e199](https://github.com/davidsneighbour/samui-samui.de/commit/873e199288fabfb5eed1bc3f08580138059f8284))
+* **assets:** move favicons into favicon folder ([a204d12](https://github.com/davidsneighbour/samui-samui.de/commit/a204d12dfe51cb20a0ef42e0ef3d56f31da75451))
+* **assets:** remove rfs vendor assets ([f9cf5a1](https://github.com/davidsneighbour/samui-samui.de/commit/f9cf5a172639699b73ba85bea77b6eb691999565))
+* **config:** add folders to workspace ([8bd2d64](https://github.com/davidsneighbour/samui-samui.de/commit/8bd2d64a7c746aef14d85ae6af634214fcbf22ec))
+* **config:** add hint configuration ([4bdb8f1](https://github.com/davidsneighbour/samui-samui.de/commit/4bdb8f13f535e2d1a9e09109cb10eb5bea07d8d9))
+* **config:** cleanup GoHugo configuration ([005c0a2](https://github.com/davidsneighbour/samui-samui.de/commit/005c0a2b1d324852361c3bdddabd8630b0b78580))
+* **config:** move default archetype into leaf ([811b01f](https://github.com/davidsneighbour/samui-samui.de/commit/811b01fce3951e5d63efc51589de575bd329dc5f))
+* **config:** move tag archetype into leaf bundle ([443e010](https://github.com/davidsneighbour/samui-samui.de/commit/443e010ed6012f5bcc4716a99db4982fd3312d9e))
+* **deps:** update dependencies ([883073b](https://github.com/davidsneighbour/samui-samui.de/commit/883073b43121730bbad433a5d8cad49d57a9686b))
+* **deps:** update dependencies ([a7d2b33](https://github.com/davidsneighbour/samui-samui.de/commit/a7d2b33d79f945c7d66ea799ad89fa2d34f13ede))
+* **ide:** remove intelliJ configuration ([b37067a](https://github.com/davidsneighbour/samui-samui.de/commit/b37067a93acbe8df633b71dc432a3814a22bf0a9))
+* **scripts:** add paranoia script and make normal server script less verbose ([58739ae](https://github.com/davidsneighbour/samui-samui.de/commit/58739ae494e6ec931190da6db6f41118f1d96e88))
+* **scripts:** add resources to hugo cleanup script ([a3e8bd1](https://github.com/davidsneighbour/samui-samui.de/commit/a3e8bd121fbb7872469cdeec7bff804397deb2d5))
+
 ### [2021.0.21](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.20...v2021.0.21) (2021-09-27)
 
 
