@@ -46,4 +46,10 @@
         );
     }
   }
+
+  #topnavigationbrand {
+    color: map-get($theme-colors, 'primary');
+    font-family: $font-family-brandheader;
+    font-weight: $font-weight-brandheader;
+  }
 }
