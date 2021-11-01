@@ -14,7 +14,7 @@
     "@dnb-org/all": "3.3.2",
     "@hint/configuration-accessibility": "2.0.11",
     "@hint/configuration-development": "8.2.2",
-    "@hint/configuration-progressive-web-apps": "7.0.11",
+    "@hint/configuration-progressive-web-apps": "7.0.13",
     "atomic-algolia": "0.3.19",
     "bootstrap": "5.1.2",
     "hint": "6.1.4",
