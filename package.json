@@ -11,7 +11,7 @@
   "homepage": "https://samui-samui.de",
   "repository": "davidsneighbour/samui-samui.de",
   "devDependencies": {
-    "@dnb-org/all": "3.3.2",
+    "@dnb-org/all": "3.4.17",
     "@hint/configuration-accessibility": "2.0.11",
     "@hint/configuration-development": "8.2.2",
     "@hint/configuration-progressive-web-apps": "7.0.11",
