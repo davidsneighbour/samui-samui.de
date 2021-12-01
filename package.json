@@ -20,7 +20,7 @@
     "hint": "6.1.4",
     "lazysizes": "5.3.2",
     "pixrem": "5.0.0",
-    "postcss": "8.3.9",
+    "postcss": "8.4.4",
     "postcss-cli": "9.0.1",
     "precss": "4.0.0"
   },
