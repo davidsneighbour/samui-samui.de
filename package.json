@@ -21,7 +21,7 @@
     "lazysizes": "5.3.2",
     "pixrem": "5.0.0",
     "postcss": "8.3.9",
-    "postcss-cli": "9.0.1",
+    "postcss-cli": "9.1.0",
     "precss": "4.0.0"
   },
   "scripts": {
