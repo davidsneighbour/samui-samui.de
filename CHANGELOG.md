@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2021.0.24](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.23...v2021.0.24) (2022-02-25)
+
+
+### Bug Fixes
+
+* update and fix to work with latest hugo ([7d8d18b](https://github.com/davidsneighbour/samui-samui.de/commit/7d8d18bd431b67cda35b2fe9c8de7b47e44c04c3))
+
+
+### Chore
+
+* **deps:** remove hint dependencies ([3ca9fbd](https://github.com/davidsneighbour/samui-samui.de/commit/3ca9fbda77e7315f61b1ebeb5efa46e11028a59e))
+* **deps:** update dependencies ([a4b993f](https://github.com/davidsneighbour/samui-samui.de/commit/a4b993fd47145c722ca5c5641b5454744827b25d))
+
+
+### Build System
+
+* fix release script setup ([c6ecb26](https://github.com/davidsneighbour/samui-samui.de/commit/c6ecb2649b8a7be75851dedf3e7e223ceb4c336f))
+
 ### [2021.0.23](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.22...v2021.0.23) (2021-10-08)
 
 ### [2021.0.22](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.21...v2021.0.22) (2021-10-08)
