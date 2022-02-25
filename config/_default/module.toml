@@ -6,67 +6,67 @@
 # https://gohugo.io/hugo-modules/configuration/#module-config-imports
 ################################################################################
 [[imports]]
-path = "github.com/dnb-org/components/auditor"
+path = "github.com/dnb-org/dnb-hugo-auditor"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/components/functions"
+path = "github.com/dnb-org/dnb-hugo-functions"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/components/netlification"
+path = "github.com/dnb-org/dnb-hugo-netlification"
 disabled = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/components/opensearch"
+path = "github.com/dnb-org/dnb-hugo-opensearch"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/components/pwa"
+path = "github.com/dnb-org/dnb-hugo-pwa"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/components/robots"
+path = "github.com/dnb-org/dnb-hugo-robots"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/components/search-algolia"
+path = "github.com/dnb-org/dnb-hugo-search-algolia"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/components/sitemap"
+path = "github.com/dnb-org/dnb-hugo-sitemap"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/components/social"
+path = "github.com/dnb-org/dnb-hugo-social"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/debug"
+path = "github.com/dnb-org/dnb-hugo-debug"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/hooks"
+path = "github.com/dnb-org/dnb-hugo-hooks"
 disable = false
 ignoreConfig = false
 ignoreImports = false
@@ -90,7 +90,13 @@ ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/dnb-org/shortcodes/all"
+path = "github.com/dnb-org/dnb-hugo-shortcodes"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/dnb-org/dnb-hugo-youtube"
 disable = false
 ignoreConfig = false
 ignoreImports = false
