@@ -4,17 +4,15 @@
   margin-bottom: $spacer*5;
 
   li {
-    &.active {
-      margin-top: -0.3rem;
-      font-size: 1.6rem;
-      font-weight: 600;
-    }
+    // &.active {
+    //   margin-top: -0.3rem;
+    //   font-size: 1.6rem;
+    //   font-weight: 600;
+    // }
   }
 }
 
 .prevnext {
-  @extend .row;
-
   margin-bottom: 5rem;
 
   a {
@@ -30,4 +28,5 @@
     @extend .text-end;
     @extend .float-end;
   }
+  @extend .row;
 }
