@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2022.0.1](https://github.com/davidsneighbour/samui-samui.de/compare/v2022.0.0...v2022.0.1) (2022-08-21)
+
+
+### Bug Fixes
+
+* proper post release hook script ([51ae5ea](https://github.com/davidsneighbour/samui-samui.de/commit/51ae5ea4978937a9521d17b09951fec2d082cf46))
+
 ## [2022.0.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.24...v2022.0.0) (2022-08-21)
 
 
