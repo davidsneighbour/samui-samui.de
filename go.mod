@@ -6,6 +6,7 @@ require (
 	github.com/davidsneighbour/hugo-auditor v0.1.8 // indirect
 	github.com/davidsneighbour/hugo-debug v1.5.19 // indirect
 	github.com/davidsneighbour/hugo-functions v1.1.2 // indirect
+	github.com/davidsneighbour/hugo-head v1.1.13 // indirect
 	github.com/davidsneighbour/hugo-hooks v1.3.5 // indirect
 	github.com/davidsneighbour/hugo-netlification v1.2.6 // indirect
 	github.com/davidsneighbour/hugo-opensearch v1.0.2 // indirect

@@ -2,7 +2,7 @@
 # Site setup
 # see https://gohugo.io/getting-started/configuration/
 ################################################################################
-baseURL = "https://localhost/"       # hostname & path to the root
+baseURL = "https://192.168.1.201:1313/"       # hostname & path to the root
 defaultContentLanguage = "de"
 disableHugoGeneratorInject = true         # we do that proudly on each page in the footer. visible.
 disableKinds = []
@@ -15,7 +15,6 @@ footnoteAnchorPrefix = "#"
 footnoteReturnLinkContents = "^"
 languageCode = "de_DE"
 languageName = "Deutsch"
-logFile = "hugo.log"
 paginate = 5                              # default 5 items per page
 paginatePath = "seite"
 relativeURLs = true                       # makes all relative urls absolute to root... yeah, don't ask. we won't tell...
@@ -24,8 +23,6 @@ refLinksNotFoundURL = "/404.html"
 rssLimit = 10
 summaryLength = 150                       # the length of text to show in a .Summary
 title = "Samui? Samui!"
-verbose = false
-verboseLog = true
 
 ################################################################################
 # Bugfixes and Troubleshooting
@@ -33,4 +30,4 @@ verboseLog = true
 # workaround for a weird time out error on netlify
 # "Error building site: $FILENAME: timed out initializing value. This is most
 # likely a circular loop in a shortcode"
-timeout = "30000"
+timeout = 100000000000000

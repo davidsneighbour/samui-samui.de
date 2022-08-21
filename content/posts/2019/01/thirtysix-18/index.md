@@ -14,7 +14,7 @@ resources:
 ---
 
 {{< figure name="samui-jan-4" command="Resize" options="1110x" >}}Samui am 4. Januar 2019, ca. 14 Uhr (Quelle: windy.com){{< /figure >}}
-<!--lint disable write-good-->
+
 In den kommenden Tagen darf Koh Samui sich auf einen tropischen Sturm vorbereiten. Der bisher noch unbenannte Sturm (wir nennen ihn Thirtysix-18) bewegt sich direkt auf Samui zu und wird am Freitag Mittag über uns hinweg fegen. So ein tropischer Sturm ist etwas schwächer als ein Orkan und stärker als ein Taifun. Taifune hatten wir schon häufiger. 
 
 Der letzte tropische Sturm, der Thailand erreichte (normalerweise rollen sie immer über Vietnam und die Philippinen) war der tropische Sturm Harriet in 1962. Dieser Sturm traf Thailand recht unvorbereitet und führte zu mehr als 900 Toten. Man kann hoffen, dass die Infrastruktur und der Hausbau seither etwas verbessert wurden. Man rechnet mit Windstärken um die 90km/h. Mal sehen. Ich werde alles sturmfest machen und mich mit Vergnügen auf der Terasse den Winden entgegenwerfen.

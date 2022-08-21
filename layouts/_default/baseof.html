@@ -12,15 +12,7 @@
 <html lang="{{ .Site.Language.Lang }}" class="no-js">
 {{ partial "func/hook" "setup" }}
 <head>
-  <meta charset="{{ site.Data.dnb.blocks.bootstrap5.config.charset | default "utf-8" }}">
-  <meta name="viewport" content="{{ site.Data.dnb.blocks.bootstrap5.config.viewport | default "width=device-width, initial-scale=1, shrink-to-fit=no" }}">
-  <title>{{ block "title" . }}{{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}{{ end }}</title>
-  {{ partial "func/hook" "head-start" }}
-  {{ partial "head" . }}
-  {{ partial "head/social" . }}
-  {{ block "schema" . }}{{ end }}
-  {{ partial "head/opensearch" . }}
-  {{ partial "func/hook" "head-end" }}
+  {{ partial "head.html" . }}
 </head>
 <body id="{{ .Site.Params.Siteslug | default "garuda-garuda" }}">
   {{ partial "func/hook" "body-start" }}

@@ -5,6 +5,8 @@
 # see
 # https://gohugo.io/hugo-modules/configuration/#module-config-imports
 ################################################################################
+replacements = "github.com/davidsneighbour/hugo-social -> ../../hugo-social"
+
 [[imports]]
 path = "github.com/davidsneighbour/hugo-auditor"
 disable = false
@@ -13,6 +15,12 @@ ignoreImports = false
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-functions"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+[[imports]]
+path = "github.com/davidsneighbour/hugo-head"
 disable = false
 ignoreConfig = false
 ignoreImports = false

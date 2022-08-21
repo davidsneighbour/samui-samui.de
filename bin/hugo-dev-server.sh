@@ -17,7 +17,6 @@ npm run clean:hugo
 
 # starting hugo server
 hugo server \
-    --gc \
     --environment development \
     --disableFastRender \
     --printI18nWarnings \
@@ -25,16 +24,14 @@ hugo server \
     --templateMetrics \
     --templateMetricsHints \
     --printPathWarnings \
-    --poll 1s \
     --cleanDestinationDir \
     --renderToDisk \
     --buildDrafts --buildExpired --buildFuture \
     --watch \
-    --enableGitInfo \
     --forceSyncStatic \
     --log true --logFile hugo.log \
     --verbose \
     --verboseLog \
     --bind 192.168.1.201 \
     --port 1313 \
-    --baseURL http://192.168.1.201
+    --baseURL http://192.168.1.201:1313

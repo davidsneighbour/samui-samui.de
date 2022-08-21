@@ -104,3 +104,49 @@ appId = "166C265UOG"
 apiKey = "7e52bca82b03b3a7eb6bbee9fa7429f3"
 indexName = "samui-samui-de"
 numberLocale = "de"
+
+################################################################################
+# hugo-head @see https://github.com/davidsneighbour/hugo-head
+################################################################################
+[dnb.head]
+charset = "utf-8"
+viewport = "width=device-width, initial-scale=1"
+latitude = "9.578492"
+longitude = "99.958311"
+# https://en.wikipedia.org/wiki/ISO_3166
+region = "TH-84"
+placename = "Koh Samui"
+separator = " ↭ "
+disable = []
+notranslate = false     # tell Google not to provide a translation for this document
+# https://webmonetization.org/docs/getting-started
+monetization = ""
+
+[dnb.head.speedoptimisation]
+control = "on" # on/off - off disables all prefetching
+prefetch = [
+  "/assets/webfonts/tomkin/Tomkin/TomkinLight/Tomkin-Light.woff",
+  "/assets/webfonts/tomkin/Tomkin/TomkinSemiLight/Tomkin-SemiLight.woff",
+]
+preconnect = []
+prerender = []
+
+[dnb.head.verification]
+google = ""
+yandex = ""
+bing = ""
+alexa = ""
+pinterest = ""
+norton = ""
+
+[dnb.head.styles]
+method = "postcss"
+
+[dnb.head.styles.options]
+# options for the compilation of CSS
+# see https://gohugo.io/hugo-pipes/scss-sass/#options
+#transpiler = "dartsass"
+outputStyle = "compressed"
+targetPath = "theme.css"
+enableSourceMap = true
+includePaths = ["node_modules/"]

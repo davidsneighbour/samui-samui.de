@@ -10,7 +10,6 @@
   },
   "homepage": "https://samui-samui.de",
   "repository": "davidsneighbour/samui-samui.de",
-  "dependencies": {},
   "devDependencies": {
     "@davidsneighbour/config": "^1.0.19",
     "atomic-algolia": "0.3.19",
@@ -24,8 +23,10 @@
     "build": "run-s build:critical && build:hugo",
     "build:critical": "./bin/build-critical-css.sh",
     "build:hugo": "hugo --gc --minify",
+    "build:styles": "",
     "clean": "run-p clean:*",
-    "clean:hugo": "rimraf hugo.log hugo_stats.json public resources",
+    "clean:hugo": "rimraf hugo.log hugo_stats.json",
+    "clean:hugo2": "rimraf resources public",
     "clean:npm": "rimraf node_modules package-lock.json",
     "release": "standard-version --release-as patch -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
     "release:major": "standard-version --release-as major -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
@@ -71,5 +72,10 @@
   "stylelint": {
     "extends": "@davidsneighbour/config/stylelint"
   },
-  "url": "https://samui-samui.de"
+  "url": "https://samui-samui.de",
+  "dependencies": {
+    "postcss-scss": "^4.0.4",
+    "precss": "^4.0.0",
+    "sass": "^1.54.5"
+  }
 }

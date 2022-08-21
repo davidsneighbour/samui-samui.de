@@ -1,0 +1,98 @@
+@charset 'utf-8';
+
+@import 'settings/colors';
+@import 'settings/fonts';
+
+// Bootstrap - Setup Configuration
+@import 'bootstrap/scss/functions';
+
+@import 'settings/settings';
+@import 'settings/local-settings';
+
+// Prefix for :root CSS variables
+$variable-prefix: bs-;
+$prefix: $variable-prefix;
+
+@import 'bootstrap/scss/variables';
+
+// here overrides of container max widths
+
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/utilities';
+
+// here :root and .dark/.light theme setup
+
+// Bootstrap - Layout and components
+@import 'bootstrap/scss/root';
+@import 'bootstrap/scss/reboot';
+@import 'bootstrap/scss/type';
+@import 'bootstrap/scss/images';
+@import 'bootstrap/scss/containers';
+@import 'bootstrap/scss/grid';
+@import 'bootstrap/scss/tables';
+@import 'bootstrap/scss/forms';
+@import 'bootstrap/scss/buttons';
+@import 'bootstrap/scss/transitions';
+@import 'bootstrap/scss/dropdown';
+// @import 'bootstrap/scss/button-group';
+@import 'bootstrap/scss/nav';
+@import 'bootstrap/scss/navbar';
+@import 'bootstrap/scss/card';
+// @import 'bootstrap/scss/accordion';
+// @import 'bootstrap/scss/breadcrumb';
+@import 'bootstrap/scss/pagination';
+//@import 'bootstrap/scss/badge';
+@import 'bootstrap/scss/alert';
+//@import 'bootstrap/scss/progress';
+@import 'bootstrap/scss/list-group';
+// @import 'bootstrap/scss/close';
+// @import 'bootstrap/scss/toasts';
+// @import 'bootstrap/scss/modal';
+//@import 'bootstrap/scss/tooltip';
+// @import 'bootstrap/scss/popover';
+@import 'bootstrap/scss/carousel';
+// @import 'bootstrap/scss/spinners';
+// @import 'bootstrap/scss/offcanvas';
+// @import 'bootstrap/scss/placeholders';
+
+// Bootstrap - Helpers
+@import 'bootstrap/scss/helpers';
+
+// Bootstrap - Utilities
+@import 'bootstrap/scss/utilities/api';
+
+// here more settings if required
+
+// Plugins
+@import 'plugins/backtotop';
+@import 'plugins/carousel';
+@import 'plugins/flags';
+@import 'plugins/instantsearch';
+@import 'plugins/sharebuttons';
+@import 'plugins/twitter';
+@import 'plugins/wordpress';
+@import 'plugins/youtube';
+
+// Components
+@import 'components/global';
+@import 'components/content';
+@import 'components/articles';
+@import 'components/comments';
+@import 'components/footer';
+@import 'components/footnotes';
+@import 'components/header';
+@import 'components/icons';
+@import 'components/images';
+@import 'components/pagination';
+@import 'components/sidebar';
+@import 'components/tables';
+@import 'components/topnavigation';
+@import 'components/transitions';
+@import 'components/local-changes';
+
+@import 'debugprint';
+@import 'plugins/highlight';
+
+// local overrides for child themes
+@import 'local';
