@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2022.0.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.24...v2022.0.0) (2022-08-21)
+
+
+### Bug Fixes
+
+* proper deploy script and bootstrap 5 setup ([d1db6b6](https://github.com/davidsneighbour/samui-samui.de/commit/d1db6b6e5e4c0ef9d922b6d63194ab4e69de4a83)), closes [#359](https://github.com/davidsneighbour/samui-samui.de/issues/359) [#360](https://github.com/davidsneighbour/samui-samui.de/issues/360)
+* proper server options and fixes to modules ([28ffe59](https://github.com/davidsneighbour/samui-samui.de/commit/28ffe5963ecb987acd8948eb5bcb447c94c25caf))
+
+
+### Chore
+
+* **config:** update dependencies and configurations to 2022 state ([7a9dd01](https://github.com/davidsneighbour/samui-samui.de/commit/7a9dd01ac74f5d76f00bfb83996baf2973b30fd3))
+
 ### [2021.0.24](https://github.com/davidsneighbour/samui-samui.de/compare/v2021.0.23...v2021.0.24) (2022-02-25)
 
 

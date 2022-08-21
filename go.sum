@@ -23,8 +23,6 @@ github.com/davidsneighbour/hugo-shortcodes v1.5.3 h1:v/T8kDlTJER4kriUSnsmOCK64J9
 github.com/davidsneighbour/hugo-shortcodes v1.5.3/go.mod h1:wkCkKIjJqvQ7IwwjKoIHZAMkUM4cqbrllX+HgOZr/50=
 github.com/davidsneighbour/hugo-sitemap v1.0.4 h1:/bb6MOdlP/j34xkRCgs8QffhubOO7QaJrcTy4zhNR2Y=
 github.com/davidsneighbour/hugo-sitemap v1.0.4/go.mod h1:yg6xByEFv+J1UabtBGluLAF4tuekbcgPkwEQbVdIxAY=
-github.com/davidsneighbour/hugo-social v0.1.7 h1:cc3amORwcJGsqPEiS67cINXzl0BhKe7xaoXawTyRXl8=
-github.com/davidsneighbour/hugo-social v0.1.7/go.mod h1:lKZch4v+mMMucyoCZyRquD2Fi+y3n+88AkutYO5T3F0=
 github.com/davidsneighbour/hugo-youtube v1.1.5 h1:bakTLxkVmneoqYpr6Z0355Gzn/5vxr8T0G9nECP6Y6I=
 github.com/davidsneighbour/hugo-youtube v1.1.5/go.mod h1:qR+p/3TJDmApG4sB+ajqV4vvRwWaRr+HZiMwPrRxE7U=
 github.com/davidsneighbour/libraries/dayjs v1.0.8 h1:CLVcEjwe3P1uzKJhCsYVTEdkKmoaic0nxZ3KBXTB4UM=
@@ -36,6 +34,5 @@ github.com/dnb-org/libraries/bootstrap-icons v1.5.4/go.mod h1:OoQyeiiTyfYX+ZkXDY
 github.com/iamkun/dayjs v1.10.6/go.mod h1:uH9r5H8xqz4FDkXigkECWrNPl70HjHNau53364yMLzA=
 github.com/tailwindlabs/heroicons v1.0.6 h1:XquXj196+XH8+EUDC1wXKMCF6F2ziVKncN66bYgL/Eo=
 github.com/tailwindlabs/heroicons v1.0.6/go.mod h1:2SHGOdw86jviBkoeQINcTfkzAAao9dciip4RsMS9xIg=
-github.com/twbs/icons v1.6.1/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
 github.com/twbs/icons v1.9.1 h1:NDdenWKL1Ioe8O5tV0m/pNC/J68kGE3GjH3DPTI1zE0=
 github.com/twbs/icons v1.9.1/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
