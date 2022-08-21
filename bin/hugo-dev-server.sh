@@ -20,11 +20,11 @@ hugo server \
     --gc \
     --environment development \
     --disableFastRender \
-    --i18n-warnings \
+    --printI18nWarnings \
     --navigateToChanged \
     --templateMetrics \
     --templateMetricsHints \
-    --path-warnings \
+    --printPathWarnings \
     --poll 1s \
     --cleanDestinationDir \
     --renderToDisk \
@@ -37,4 +37,4 @@ hugo server \
     --verboseLog \
     --bind 192.168.1.201 \
     --port 1313 \
-    --baseURL http://192.168.1.201 
+    --baseURL http://192.168.1.201
