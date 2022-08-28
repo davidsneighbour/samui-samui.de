@@ -1,6 +1,6 @@
 {
   "name": "samui-samui-de",
-  "version": "2022.0.4",
+  "version": "2022.0.5",
   "license": "UNLICENSED",
   "description": "Website and content for samui-samui.de",
   "author": {
@@ -19,6 +19,7 @@
     "postcss-cli": "10.0.0"
   },
   "scripts": {
+    "deploy": "bin/deploy/live",
     "algolia": "hugo --quiet && atomic-algolia && rm -rf public",
     "build": "run-s build:critical && build:hugo",
     "build:critical": "./bin/build-critical-css.sh",
