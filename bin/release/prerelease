@@ -20,9 +20,9 @@ SCRIPTPATH="$(
 )"
 CURPATH="$(pwd -P)"
 
-typos -- ./content
+#typos -- ./content
 
-"${CURPATH}"/bin/build/component-tags
+#"${CURPATH}"/bin/build/component-tags
 
 if test -f "$SCRIPTPATH"/replacements; then
 	while read -ra __; do

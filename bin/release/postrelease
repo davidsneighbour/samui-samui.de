@@ -35,9 +35,9 @@ if test -f "$FILE"; then
 fi
 
 # retrieve component state
-echo "retrieving component state..."
-./bin/build/components-releases
-echo "done"
+# echo "retrieving component state..."
+# ./bin/build/components-releases
+# echo "done"
 
 # adding data directory for new build information
 git add data/dnb
