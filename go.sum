@@ -5,8 +5,8 @@ github.com/davidsneighbour/hugo-debug v1.5.19 h1:ZuJmOfUT7xKe/H5oFsgVGXvKjrWntli
 github.com/davidsneighbour/hugo-debug v1.5.19/go.mod h1:CmaePQn6TcdiP269YMmB0ShEZI47ySDpeWkBV8T2qcU=
 github.com/davidsneighbour/hugo-functions v1.1.2 h1:k+nqsfeF6/Z6yFZtnS+67utrF7jiTUA2bO3TfNIu4yo=
 github.com/davidsneighbour/hugo-functions v1.1.2/go.mod h1:vcxVzEHYhArEYMR0w+r6h6xwoV6Tkovl/d9fK2n3dQE=
-github.com/davidsneighbour/hugo-head v1.1.13 h1:FwSNX8jaobx1EW6CQlUEoWNeHvN6NZOnvNX2R5kIQS8=
-github.com/davidsneighbour/hugo-head v1.1.13/go.mod h1:1IFHPoWEu0VneqUKQc+aKSWkTu58sht83tYgMSHRIZA=
+github.com/davidsneighbour/hugo-head v1.1.14 h1:1/KtgUC94TpVITwJNMIGIye4m/+GB+9hHEy1NUQEgPk=
+github.com/davidsneighbour/hugo-head v1.1.14/go.mod h1:1IFHPoWEu0VneqUKQc+aKSWkTu58sht83tYgMSHRIZA=
 github.com/davidsneighbour/hugo-hooks v1.3.5 h1:2MWcJlsmUMAWTMyb6nkYYhFOCA+yx6c1uGm6jHaGr6Y=
 github.com/davidsneighbour/hugo-hooks v1.3.5/go.mod h1:AM5v7lsVWD2tQFSzbDClu5Q0lwqxB7P1kpQGMMSaxXY=
 github.com/davidsneighbour/hugo-icons v1.2.5 h1:lopfuuPbqkeo/0batH4pGqP+ilyPI3L4mYuWMhTGBnw=
@@ -23,8 +23,8 @@ github.com/davidsneighbour/hugo-search-algolia v0.1.2 h1:YtQMAqEKeXoGQ8jH8D7I0oE
 github.com/davidsneighbour/hugo-search-algolia v0.1.2/go.mod h1:zsHubhmSijLhO7UFCsAryCBVhsG2gegoxB60jLHpdpE=
 github.com/davidsneighbour/hugo-shortcodes v1.5.3 h1:v/T8kDlTJER4kriUSnsmOCK64J9X/ZWG9Ee0oUxqjKY=
 github.com/davidsneighbour/hugo-shortcodes v1.5.3/go.mod h1:wkCkKIjJqvQ7IwwjKoIHZAMkUM4cqbrllX+HgOZr/50=
-github.com/davidsneighbour/hugo-sitemap v1.0.4 h1:/bb6MOdlP/j34xkRCgs8QffhubOO7QaJrcTy4zhNR2Y=
-github.com/davidsneighbour/hugo-sitemap v1.0.4/go.mod h1:yg6xByEFv+J1UabtBGluLAF4tuekbcgPkwEQbVdIxAY=
+github.com/davidsneighbour/hugo-sitemap v1.1.1 h1:mLnhpxPUfg+2YM7EhEbBL2uO7ftzazefKlULj5+ypdQ=
+github.com/davidsneighbour/hugo-sitemap v1.1.1/go.mod h1:yg6xByEFv+J1UabtBGluLAF4tuekbcgPkwEQbVdIxAY=
 github.com/davidsneighbour/hugo-youtube v1.1.5 h1:bakTLxkVmneoqYpr6Z0355Gzn/5vxr8T0G9nECP6Y6I=
 github.com/davidsneighbour/hugo-youtube v1.1.5/go.mod h1:qR+p/3TJDmApG4sB+ajqV4vvRwWaRr+HZiMwPrRxE7U=
 github.com/davidsneighbour/libraries/dayjs v1.0.8 h1:CLVcEjwe3P1uzKJhCsYVTEdkKmoaic0nxZ3KBXTB4UM=
@@ -34,10 +34,7 @@ github.com/davidsneighbour/libraries/lazysizes v1.1.6/go.mod h1:sk4GOjRvnXjDAv6k
 github.com/dnb-org/libraries/bootstrap-icons v1.5.4 h1:AjIS+/Ora97kri72WRRg0Q6zQTHXM8MICM24xZ8CFlE=
 github.com/dnb-org/libraries/bootstrap-icons v1.5.4/go.mod h1:OoQyeiiTyfYX+ZkXDYnwEeYx2o5m5Gank8N8L5StpcY=
 github.com/iamkun/dayjs v1.10.6/go.mod h1:uH9r5H8xqz4FDkXigkECWrNPl70HjHNau53364yMLzA=
-github.com/tailwindlabs/heroicons v1.0.6 h1:XquXj196+XH8+EUDC1wXKMCF6F2ziVKncN66bYgL/Eo=
-github.com/tailwindlabs/heroicons v1.0.6/go.mod h1:2SHGOdw86jviBkoeQINcTfkzAAao9dciip4RsMS9xIg=
 github.com/tailwindlabs/heroicons v2.0.7+incompatible h1:I48U2j97k8IdNsuY/8iCqursZgFWCiVYPkv6mgW6mzA=
 github.com/tailwindlabs/heroicons v2.0.7+incompatible/go.mod h1:2SHGOdw86jviBkoeQINcTfkzAAao9dciip4RsMS9xIg=
-github.com/twbs/icons v1.6.1/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
 github.com/twbs/icons v1.9.1 h1:NDdenWKL1Ioe8O5tV0m/pNC/J68kGE3GjH3DPTI1zE0=
 github.com/twbs/icons v1.9.1/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
