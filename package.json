@@ -77,6 +77,6 @@
   "dependencies": {
     "postcss-scss": "^4.0.4",
     "precss": "^4.0.0",
-    "sass": "^1.54.5"
+    "sass": "^1.54.8"
   }
 }
