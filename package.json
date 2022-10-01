@@ -15,7 +15,7 @@
     "atomic-algolia": "0.3.19",
     "lazysizes": "5.3.2",
     "pixrem": "5.0.0",
-    "postcss": "8.4.16",
+    "postcss": "8.4.17",
     "postcss-cli": "10.0.0"
   },
   "scripts": {
