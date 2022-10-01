@@ -75,7 +75,7 @@
   },
   "url": "https://samui-samui.de",
   "dependencies": {
-    "postcss-scss": "^4.0.4",
+    "postcss-scss": "^4.0.5",
     "precss": "^4.0.0",
     "sass": "^1.54.5"
   }
