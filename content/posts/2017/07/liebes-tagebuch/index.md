@@ -13,6 +13,6 @@ resources :
   title: "Soosie, 1. Mai 2006 - 18. Juli 2017"
 ---
 
-{{< figure name="soosie" command="Resize" options="930x" >}}
+{{< figure name="soosie" command="Resize" options="930x" />}}
 
 Heute habe ich den "about"-Text unten in der Fusszeile dieser Website geändert.

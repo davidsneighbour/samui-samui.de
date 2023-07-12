@@ -17,7 +17,7 @@ resources:
 
 {{< figure name="strassenkoeter" command="Resize" options="930x" >}}Straßenköter (Symbolphoto, Pokki, ca. 2007) --- [Photo von Patrick Kollitsch](https://samui-samui.de/){{< /figure >}}
 
-In Thailand geht die Tollwut um. Seit Jahresbeginn sind bereits 6 Menschen gestorben. Das ist wieder ein Beispiel dafür, wie in Thailand nur reagiert, anstatt vorgebeugt wird. Über die Anzahl der Hunde und Katzen, die wegen der Tollwut gestorben sind, wird nichts ausgeführt. Erst wenn Menschen sterben und das lang und breit in den Medien und auf Social Media diskutiert wird, dann wird reagiert. 
+In Thailand geht die Tollwut um. Seit Jahresbeginn sind bereits 6 Menschen gestorben. Das ist wieder ein Beispiel dafür, wie in Thailand nur reagiert, anstatt vorgebeugt wird. Über die Anzahl der Hunde und Katzen, die wegen der Tollwut gestorben sind, wird nichts ausgeführt. Erst wenn Menschen sterben und das lang und breit in den Medien und auf Social Media diskutiert wird, dann wird reagiert.
 
 {{< quote src="http://www.khaosodenglish.com/news/bangkok/2018/03/19/6-die-of-rabies-since-start-of-2018-officials/" source="Khaosod" >}}The Ministry of Public Health said six people had died from the disease since January, the most recent of which occured Sunday in Buriram province in northeast Thailand.
 

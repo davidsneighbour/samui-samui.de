@@ -9,7 +9,7 @@ url: /2005/11/wuff/
 
 
 ---
-{{< figure src="wp-content/old-images/198.jpg" >}}
+{{< figure src="wp-content/old-images/198.jpg" />}}
 
 [[via Tagesschau][1]]
 

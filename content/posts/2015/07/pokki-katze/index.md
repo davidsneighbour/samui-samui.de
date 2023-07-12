@@ -15,7 +15,7 @@ resources:
   title: "Pokki, Katze"
 ---
 
-{{< figure name="pokki-cat" command="Resize" options="930x" >}}Pokki, Katze{{< /figure >}}
+{{< figure name="pokki-cat" command="Resize" options="930x" >}}Pokki, Katze{{< /figure>}}
 
 Pokki mag Flickr gerade nicht so sehr.
 

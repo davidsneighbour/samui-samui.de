@@ -9,9 +9,9 @@ url: /2008/06/dreiarmig/
 
 
 ---
-{{< figure src="wp-content/old-images/253" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/253" wraptag="div.jpg" />}}
 
-Auf dem Münchner Filmfestival kann man Ende Juni den Film [Handle Me With Care][1] sehen, ein Film aus thailändischen Gefilden. Es geht um einen dreiarmigen jungen Mann, der, wie sollte es auch anders sein, sich plötzlich verliebt. Kurz bevor er seinen dritten Arm chirurgisch entfernen lassen will. 
+Auf dem Münchner Filmfestival kann man Ende Juni den Film [Handle Me With Care][1] sehen, ein Film aus thailändischen Gefilden. Es geht um einen dreiarmigen jungen Mann, der, wie sollte es auch anders sein, sich plötzlich verliebt. Kurz bevor er seinen dritten Arm chirurgisch entfernen lassen will.
 
 Der Film ist ohne Special Effects gedreht worden, jeder dritte Arm gehört einem zusätzlichen Schauspieler, der gekonnt durch clevere Kamerawinkel arbeiten konnte.
 

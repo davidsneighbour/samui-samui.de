@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-{{< figure src="wp-content/old-images/168.jpg" >}}
+{{< figure src="wp-content/old-images/168.jpg" />}}
 
 So many little things followed me, So many little things that bothered me, But I found my answer, From all the chaos that followed me, I have found my answer, I've told you before don't follow me, Because I am not your answer
 

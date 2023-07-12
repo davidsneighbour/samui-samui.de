@@ -9,7 +9,7 @@ url: /2007/03/ets-phone-home/
 
 
 ---
-{{< figure src="wp-content/old-images/224" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/224" wraptag="div.jpg" />}}
 
 [The Nation][1] sucht nach Bildunterschriften für dieses Photo.
 

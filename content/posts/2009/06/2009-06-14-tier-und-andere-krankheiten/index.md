@@ -9,7 +9,7 @@ url: /2009/06/tier-und-andere-krankheiten/
 
 
 ---
-{{< figure src="wp-content/old-images/265" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/265" wraptag="div.jpg" />}}
 
 Die Grippe von 2009, H1N1 oder Schweinegrippe, wie die durch Paniken mehr Ausgaben verkaufenden Medien die diesjährige Grippewelle gerne nennen, hat Thailand fest im Griff.
 
@@ -17,9 +17,9 @@ Vor ein paar Wochen fand ich es noch ganz seltsam, dass das thailändische Gesun
 
 Seit vergangener Woche steigen die Erkrankungszahlen, seit gestern sind es mehr als 150 --- offiziell, ich will nicht wissen was man uns alles noch verheimlicht hat, solange man konnte. Nun kann man nicht mehr, denn die Hälfte der Taiwanesischen Erkrankungen stammt aus Phuket und einige Fälle in Hongkong haben sich in Thailand angesteckt. Wie interessant. Das alles ist natürlich erst in der letzten Woche passiert.
 
-Thailand hat für Seuchenfälle immer medienwirksam (siehe Photo oben und [Photostrecke bei Yahoo! News][1]) seuchensichere Anzüge mit kleinen Thais drinnen zur Verfügung, die alles mit Desinfektionsmitteln abspritzen was nicht bei drei in der nächsten Ladybar verschwunden ist. 
+Thailand hat für Seuchenfälle immer medienwirksam (siehe Photo oben und [Photostrecke bei Yahoo! News][1]) seuchensichere Anzüge mit kleinen Thais drinnen zur Verfügung, die alles mit Desinfektionsmitteln abspritzen was nicht bei drei in der nächsten Ladybar verschwunden ist.
 
-Phuket sei in diesen Tagen nicht so empfehlenswert, hört man. 
+Phuket sei in diesen Tagen nicht so empfehlenswert, hört man.
 
 Was bin ich froh, dass ich seit gut drei Wochen, hust, keuch, mit meiner kleinen Klimaanlagen-Erkältung kämpfe und somit immun gegen die Schweine bin. Esse eh kein Schweinefleisch mehr ;)
 

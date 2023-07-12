@@ -11,13 +11,13 @@ url: /2005/09/ich-mal-wieder/
 ---
 Eben bin ich aus Versehen auf den Auslöser meiner kleinen hässlichen Kamera gekommen. Dabei entstand dieses Photo:
 
-{{< figure src="wp-content/old-images/157.jpg" >}}
+{{< figure src="wp-content/old-images/157.jpg" />}}
 
 Dazu gibt es ja einiges zu sagen. Fangen wir mal an:
 
 1. Das T-Shirt ist eines von drei Kleidungsstücken, die ich noch aus Deutschland habe. Der Rest ist einheimische Produktion. Ich habe das schon vor längeren festgestellt. Die drei Kleidungsstücke habe ich auch nur noch wegen der dahinterstehenden nostalgischen Gründe.
 
-2. Alle fragen mich immer, ob ich in Lübeck studiert habe. Nein. Hab ich nicht. Man muss nicht bei Nike arbeiten um Nike auf dem T-Shirt stehen zu haben. 
+2. Alle fragen mich immer, ob ich in Lübeck studiert habe. Nein. Hab ich nicht. Man muss nicht bei Nike arbeiten um Nike auf dem T-Shirt stehen zu haben.
 
 3. Falls ihr mal ein Fenster zur Verfügung habt, seht kurz hinaus und dann auf das, was ich sehe, wenn ich aus dem Fenster sehe. (Das im Hintergrund ist das Fenster.)
 

@@ -10,8 +10,8 @@ url: /2009/07/mein-eigener-freund/
 
 ---
 <div class="flickr">
-  {{< figure src="wp-content/old-images/272.jpg" >}} 
-  
+  {{< figure src="wp-content/old-images/272.jpg" />}}
+
   <p>
     Das muss nicht so bleiben.
   </p>
@@ -23,7 +23,7 @@ url: /2009/07/mein-eigener-freund/
 
 **PS:** Da steht Samuiaffinität.
 
-Bei Interesse bitte ich um eine elektronische Mail mit ein paar Worten zur Affinität an 
+Bei Interesse bitte ich um eine elektronische Mail mit ein paar Worten zur Affinität an
 
 <patricksneuestesprojekt@gmail.com>
 

@@ -9,6 +9,6 @@ url: /2005/11/gaffe/
 
 
 ---
-{{< figure src="wp-content/old-images/182.jpg" >}}
+{{< figure src="wp-content/old-images/182.jpg" />}}
 
 Für den _besseren_ Tagesbeginn.

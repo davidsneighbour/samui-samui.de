@@ -8,79 +8,79 @@
 replacements = "github.com/davidsneighbour/hugo-social -> ../../hugo-social"
 
 [[imports]]
-path = "github.com/davidsneighbour/hugo-auditor"
+path = "github.com/davidsneighbour/hugo-modules/modules/auditor"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/davidsneighbour/hugo-functions"
+path = "github.com/davidsneighbour/hugo-modules/modules/functions"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/davidsneighbour/hugo-head"
+path = "github.com/davidsneighbour/hugo-modules/modules/head"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/davidsneighbour/hugo-netlification"
+path = "github.com/davidsneighbour/hugo-modules/modules/netlification"
 disabled = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/davidsneighbour/hugo-opensearch"
+path = "github.com/davidsneighbour/hugo-modules/modules/opensearch"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/davidsneighbour/hugo-pwa"
+path = "github.com/davidsneighbour/hugo-modules/modules/pwa"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/davidsneighbour/hugo-robots"
+path = "github.com/davidsneighbour/hugo-modules/modules/robots"
+disable = false
+ignoreConfig = false
+ignoreImports = false
+
+# [[imports]]
+# path = "github.com/davidsneighbour/hugo-modules/modules/search-algolia"
+# disable = false
+# ignoreConfig = false
+# ignoreImports = false
+
+[[imports]]
+path = "github.com/davidsneighbour/hugo-modules/modules/sitemap"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/davidsneighbour/hugo-search-algolia"
+path = "github.com/davidsneighbour/hugo-modules/modules/social"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/davidsneighbour/hugo-sitemap"
+path = "github.com/davidsneighbour/hugo-modules/modules/debug"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/davidsneighbour/hugo-social"
+path = "github.com/davidsneighbour/hugo-modules/modules/hooks"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/davidsneighbour/hugo-debug"
-disable = false
-ignoreConfig = false
-ignoreImports = false
-
-[[imports]]
-path = "github.com/davidsneighbour/hugo-hooks"
-disable = false
-ignoreConfig = false
-ignoreImports = false
-
-[[imports]]
-path = "github.com/dnb-org/libraries/bootstrap-icons"
+path = "github.com/davidsneighbour/hugo-modules/modules/icons"
 disable = false
 ignoreConfig = false
 ignoreImports = false
@@ -98,13 +98,13 @@ ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/davidsneighbour/hugo-shortcodes"
+path = "github.com/davidsneighbour/hugo-modules/modules/shortcodes"
 disable = false
 ignoreConfig = false
 ignoreImports = false
 
 [[imports]]
-path = "github.com/davidsneighbour/hugo-youtube"
+path = "github.com/davidsneighbour/hugo-modules/modules/youtube"
 disable = false
 ignoreConfig = false
 ignoreImports = false

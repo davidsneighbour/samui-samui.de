@@ -18,15 +18,15 @@ Am Montag wurde der neue Senat Thailands vorgestellt. Darunter unter anderem der
 
 Bisher wurde der Senat gewählt. Mit der neuen Verfassung, von der Putsch-Regierung geschrieben, durfte die aktuelle (Junta-)Regierung die Mitglieder des Senats bestimmen (bzw. vorschlagen, die Rede ist von 400 Namen die vorgeschlagen wurden und 250 bestätigten Senatoren letztendlich).
 
-Die Auswahl fand geheim statt - wegen der _Nationalen Sicherheit_(tm). 
+Die Auswahl fand geheim statt - wegen der _Nationalen Sicherheit_(tm).
 
-Der Senat hat laut Verfassung das Recht, das Parlament zu überwachen, die Gesetze zu bestätigen. Die Senatoren dürfen bequemerweise auch eingreifen, wenn das Parlament sich nicht auf einen Premierminister einigen kann. 
+Der Senat hat laut Verfassung das Recht, das Parlament zu überwachen, die Gesetze zu bestätigen. Die Senatoren dürfen bequemerweise auch eingreifen, wenn das Parlament sich nicht auf einen Premierminister einigen kann.
 
 Übrigens: das Lineup des Senats sollte man lieber nicht kritisieren. Wie General Prayuth so schön die Kritiker der Liste warnt: "Der Senat ist vom König bestätigt worden" und was der König genehmigt ist nun mal Gesetz.
 
 > "Remember this," Prayuth said, pointing his finger at reporters. "Anything that has been endorsed and considered by His Majesty has always already gone under scrutiny. That’s the most important thing."
 
-Laut Prayuth ist es auch gar nicht so falsch, den Senat mit Beamten aus der aktuellen Junta-Regierung zu füllen, schließlich wären die schon mit bereits aktiven Projekten vertraut und wüssten, wie es weiter geht. Auf die Idee, dass der Sinn einer neuen Regierung das Verhindern genau dieser "bereits weiter geplanten Projekte" ist, sollte man wohl besser nicht kommen. 
+Laut Prayuth ist es auch gar nicht so falsch, den Senat mit Beamten aus der aktuellen Junta-Regierung zu füllen, schließlich wären die schon mit bereits aktiven Projekten vertraut und wüssten, wie es weiter geht. Auf die Idee, dass der Sinn einer neuen Regierung das Verhindern genau dieser "bereits weiter geplanten Projekte" ist, sollte man wohl besser nicht kommen.
 <!--lint disable write-good-->
 Wenn man ihn dann aber direkt Fragen stellt, sagt er, dass die Wahlkommission den Senat gewählt habe. Nicht er. Zitat: "Prayuth, in a fit of anger, quipped: It was the EC!".
 

@@ -17,7 +17,7 @@ resources :
 Nicht nachweislich Vogelgrippenkranker Vogel, Symbolbild von [Frida Bredensen](https://unsplash.com/photos/2-A0tz0tw3k)
 {{< /figure >}}
 
-Seit einigen Tagen konnte man in Thai Social Media lesen, dass im Isaan und in Nordthailand verschiedene Fälle der Vogelgrippe aufgetreten sind. Das wurde immer kräftig bestritten - unter Androhung von Strafen sogar. Gestern nun hat es eine offizielle Stellungnahme des "Department for Lifestock Development" (so eine Art Agrarministerium wahrscheinlich) erklärt, dass tatsächlich Fälle bekannt sind. 
+Seit einigen Tagen konnte man in Thai Social Media lesen, dass im Isaan und in Nordthailand verschiedene Fälle der Vogelgrippe aufgetreten sind. Das wurde immer kräftig bestritten - unter Androhung von Strafen sogar. Gestern nun hat es eine offizielle Stellungnahme des "Department for Lifestock Development" (so eine Art Agrarministerium wahrscheinlich) erklärt, dass tatsächlich Fälle bekannt sind.
 
 Man spricht halt nicht darüber um die Geflügelexporte nicht zu belasten. Klar. Das geht soweit, dass verschiedene Abteilungen nicht wussten, dass die Vogelgrippe wieder im Lande war. Man will ja das Gesicht nicht verlieren.
 

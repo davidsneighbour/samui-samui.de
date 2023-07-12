@@ -9,7 +9,7 @@ url: /2005/11/infiltration/
 
 
 ---
-{{< figure src="wp-content/old-images/186.jpg" >}}
+{{< figure src="wp-content/old-images/186.jpg" />}}
 
 Also ich habe ja ein englisches Office auf dem Rechner. Und trotzdem hat es diese Thaizeile irgendwie ins IE-Kontextmenü geschafft. Versteh ich nicht. Trotz Diplom.
 

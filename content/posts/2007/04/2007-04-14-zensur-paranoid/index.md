@@ -9,17 +9,17 @@ url: /2007/04/zensur-paranoid/
 
 
 ---
-{{< figure src="wp-content/old-images/229.jpg" >}}
+{{< figure src="wp-content/old-images/229.jpg" />}}
 
 Ein Film, der international geachtet wird (ein Preis aus Hong Kong, Eröffnungsfilm des Internationalen Filmfestivals von Venedig) wird in Thailand nicht in die Kinos kommen. Es ist ein thailändischer Film. Es wird von einem "Board" verlangt, dass 4 Szenen geschnitten werden:
 
 > The scenes the board found objectionable show a young monk playing a guitar, a group of doctors drinking whisky in a hospital basement, a doctor kissing his girlfriend in a hospital locker room, and two monks playing with a radio-controlled flying saucer.
 
 Der Film: [Saeng Satawat][1] (Syndromes and a Century)
-  
+
 Der Regisseur: [Apichatpong Weerasethakul][2]
 
-_Das_ ist [Zensur][3], die mir Sorgen bereitet. 
+_Das_ ist [Zensur][3], die mir Sorgen bereitet.
 
 PS: [Die Zensurgründe][4].
 

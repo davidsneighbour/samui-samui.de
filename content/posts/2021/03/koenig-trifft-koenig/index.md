@@ -19,6 +19,6 @@ resources:
 
 {{< youtube id="zl0PwLvFM7U" >}}
 
-Im Jahre 1960 traf der König (genau der) den King (genau den). 
+Im Jahre 1960 traf der König (genau der) den King (genau den).
 
 {{< figure name="king-meets-king" >}}Da! König trifft den King.{{< /figure >}}

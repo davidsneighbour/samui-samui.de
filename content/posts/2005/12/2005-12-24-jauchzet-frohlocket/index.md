@@ -9,13 +9,13 @@ url: /2005/12/jauchzet-frohlocket/
 
 
 ---
-{{< figure src="wp-content/old-images/202.jpg" >}}
+{{< figure src="wp-content/old-images/202.jpg" />}}
 
 **Und dann war Weihnachten**
 
 Ich bin ganz zufrieden hier in Thailand zu leben. Weihnachten ist kein "offizieller" Feiertag. Die Thais feiern zwar ein ganz kleines bisschen, aber nur weil sie gerne feiern und daher so ziemlich jedes Fest aus der vermeintlich ersten Welt assimilieren. Und auf der Insel wird ne Menge Kram gemacht für die Touristen. Nichtsdestotrotz gibt es kein Weihnachten hier (der Bankenkalender ist mein und des Gouvernments Zeuge). In den vergangenen Jahren haben wir zu Weihnachten (drumrum, davor und danach und zwischendrin) immer eine Art Deutschlandreise gemacht und alle Familien besucht, gegessen, Freunde besucht, gegessen, Verwandschaft besucht, gegessen und manchmal haben wir auch gegessen. Verschiedene Sachen.
 
-Geschenke waren auch so ein Thema. Ich finde ja grundsätzlich, dass Geschenke zu Anlässen, die von anderen vorgegeben werden (Weihnachten) oder einen ungenauen Abstand an Tagen haben (Jahrestage) reichlich lächerlich. (Mal ganz abgesehen von den regelmäßigen "Du, A. hat gefragt was er/sie/es dir schenken könnte".) Und lasst es euch gesagt sein: (Tremolo an) Seit ich mich von diesem Geschenkekram abgewandt habe und bestimmten Menschen Dinge einfach so ohne Datumszwang schenke und mir selbst nichts mehr schenken lasse geht es mir viel besser (Tremolo aus). 
+Geschenke waren auch so ein Thema. Ich finde ja grundsätzlich, dass Geschenke zu Anlässen, die von anderen vorgegeben werden (Weihnachten) oder einen ungenauen Abstand an Tagen haben (Jahrestage) reichlich lächerlich. (Mal ganz abgesehen von den regelmäßigen "Du, A. hat gefragt was er/sie/es dir schenken könnte".) Und lasst es euch gesagt sein: (Tremolo an) Seit ich mich von diesem Geschenkekram abgewandt habe und bestimmten Menschen Dinge einfach so ohne Datumszwang schenke und mir selbst nichts mehr schenken lasse geht es mir viel besser (Tremolo aus).
 
 Sozialzwang. Sag ich mal. Aber bitte.
 
@@ -23,9 +23,9 @@ Sozialzwang. Sag ich mal. Aber bitte.
 
 **Weihnachten = Musik**
 
-Als ich noch klein war und in die Schule ging (ja, auch ich wurde dem deutschsprachigen Schulsystem hilflos ausgeliefert, jetzt seht ihr mal, was da alles passieren kann) verwandte ich auch eine Menge meiner kostbaren durch zahlreiche imaginäre Freunde unbeeinflussten Zeit auf die Anwesenheit im Tenorsektor des Schulchores meines glorreichen nun nicht mehr existenten Gymnasiums. 
+Als ich noch klein war und in die Schule ging (ja, auch ich wurde dem deutschsprachigen Schulsystem hilflos ausgeliefert, jetzt seht ihr mal, was da alles passieren kann) verwandte ich auch eine Menge meiner kostbaren durch zahlreiche imaginäre Freunde unbeeinflussten Zeit auf die Anwesenheit im Tenorsektor des Schulchores meines glorreichen nun nicht mehr existenten Gymnasiums.
 
-Auf diesem lernte schon in grauer Vorzeit [Robert Schumann][1] und wer jetzt nicht weiss wer das war muss sich leider unromantisch schimpfen lassen. "Zwei Seelen wohnen ach in meiner Brust" hat er mal gesagt und Recht hatte er damit. Er war nämlich [ein bisschen verrückt][2] (bipolar gesehen). Das ist aber absolut nebensächlich (und eigentlich hat er Klaviermusik zusammengetintet) und ich habs nur erwähnt, weil es heutzutage cool ist einer Schule zu entstammen der auch jemand entstammte der (vermeintlich oder reell) wichtiger Natur für historische, soziokulturelle oder politische Ereignisse scheint. 
+Auf diesem lernte schon in grauer Vorzeit [Robert Schumann][1] und wer jetzt nicht weiss wer das war muss sich leider unromantisch schimpfen lassen. "Zwei Seelen wohnen ach in meiner Brust" hat er mal gesagt und Recht hatte er damit. Er war nämlich [ein bisschen verrückt][2] (bipolar gesehen). Das ist aber absolut nebensächlich (und eigentlich hat er Klaviermusik zusammengetintet) und ich habs nur erwähnt, weil es heutzutage cool ist einer Schule zu entstammen der auch jemand entstammte der (vermeintlich oder reell) wichtiger Natur für historische, soziokulturelle oder politische Ereignisse scheint.
 
 Jedenfalls gab der Chor jedes Jahr ein Weihnachtskonzert und ich nahm an sieben ihrer singenderweise teil. Vier in meiner Zeit als aktiver Schüler und drei in den darauf folgenden Jahren als lösungsunfähiges postsuizidales Wrack und devoter Begleiter meiner damaligen... ehm... Dings... na... Freundin. Der Chorleiter war ein bisschen größenwahnsinnig (Wir hatten auch mal die komplette Carmina Burana im Repertoire, aber das war nicht weihnachtlich --- allerdings gibts davon ne CD mit meinem Namen im Booklet. Er ist es immer noch (größenwahnsinnig), aber ich rede hier von der Vergangenheit, für die Gegenwart ist er irrelevant.) und hatte im zweiten Jahr das "Hallelujah" (Händel? Wagner? Schröder?) einstudieren lassen und so sangen wir dann aller zwei Jahre Hallelujah und jedes Jahr "Adeste fideles". Die Adventwochen waren von Intensivproben durchsetzt weil der Chef zu spät mit dem Einstudieren anfing und es nicht verstanden hat, warum man nach zwei Jahren nicht mehr "Hallelujah" singen kann was für die des logischen Denkens geübteren aktiven Schüler offensichtlich war --- die rollierende Besetzung. Damals hatten die Ostgymnasien nur 4 Jahre (9. bis 12. Klasse) und entsprechend viel kehliges Neumaterial hatten wir jedes Jahr.
 

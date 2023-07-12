@@ -9,6 +9,6 @@ url: /2005/02/ficus-ban-hua-thanon/
 
 
 ---
-{{< figure src="wp-content/old-images/45.jpg" >}}
+{{< figure src="wp-content/old-images/45.jpg" />}}
 
 Jetzt weiß ich, warum die Riesenteile bei meinen Eltern Benjamini heißen ;)

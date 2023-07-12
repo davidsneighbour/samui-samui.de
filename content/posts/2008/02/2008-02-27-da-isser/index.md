@@ -9,7 +9,7 @@ url: /2008/02/da-isser/
 
 
 ---
-{{< figure src="wp-content/old-images/250" style="float:left;margin-right:10px;.jpg" >}} beim Verlassen des Airports, dann gings sofort zum Obersten Gerichtshof, wo er sich den Anklagen stellte und bereits wieder gegen Kaution von 8 Millionen Baht frei gelassen wurde.
+{{< figure src="wp-content/old-images/250" style="float:left;margin-right:10px;.jpg" />}} beim Verlassen des Airports, dann gings sofort zum Obersten Gerichtshof, wo er sich den Anklagen stellte und bereits wieder gegen Kaution von 8 Millionen Baht frei gelassen wurde.
 
 In der Nation begleitet man Thaksin heute an diesem für alle Thais besonderen Tag bis ins Bett:
 

@@ -10,8 +10,8 @@ url: /2008/02/zukunftsweisender-sex/
 
 ---
 <div class="flickr">
-  {{< figure src="wp-content/old-images/248.jpg" >}} 
-  
+  {{< figure src="wp-content/old-images/248.jpg" />}}
+
   <p>
     Ekstatisch umschlungen
   </p>
@@ -19,9 +19,9 @@ url: /2008/02/zukunftsweisender-sex/
 
 In einem Land in dem Verdienste länger honoriert werden als Schandtaten erinnert, ist es relativ verständlich, wenn die westlich edukierten Medien die "alten" Mittel nutzen, um Meinung zu bilden. Heute: _Das Waranorakel_.
 
-Kurz gesagt: Wenn Warane in den Tagen einer Regierungsbildung Sex in der Nähe der Volksversammlung haben, dann ist das ein schlechtes Omen für die jeweilige Regierung. 
+Kurz gesagt: Wenn Warane in den Tagen einer Regierungsbildung Sex in der Nähe der Volksversammlung haben, dann ist das ein schlechtes Omen für die jeweilige Regierung.
 
-Gestern nun (die Regierung steht noch nicht, weil man sich über die Ministerposten irgendwie nicht einig werden kann und Thaksin (der sich aus der Politik heraushält) und Samak (unser neuer demokratisch gewählter Premierminister) sich irgendwie nicht mehr so gut verstehen wie bisher) hatten Warane Sex (siehe Photo) in einem Tümpel hinter dem Regierungsgebäude. 
+Gestern nun (die Regierung steht noch nicht, weil man sich über die Ministerposten irgendwie nicht einig werden kann und Thaksin (der sich aus der Politik heraushält) und Samak (unser neuer demokratisch gewählter Premierminister) sich irgendwie nicht mehr so gut verstehen wie bisher) hatten Warane Sex (siehe Photo) in einem Tümpel hinter dem Regierungsgebäude.
 
 [Tagesgespräch][1] in der gedruckten und über die (spärlich verfügbaren) Internetleitungen verbreiteten [Landespresse][2].
 

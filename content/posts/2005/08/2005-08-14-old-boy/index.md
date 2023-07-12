@@ -11,27 +11,27 @@ dsq_thread_id:
 
 
 ---
-{{< figure src="wp-content/old-images/133.jpg" >}}
+{{< figure src="wp-content/old-images/133.jpg" />}}
 
 Nun, es gibt nur wenige Filme, die mich nach jedem Mal Ansehen verwunderter zurücklassen. _Memento_ war es lange Zeit, _Mullholland Drive_ ist es immer noch. _Old Boy_ ist ein solcher.
 
-Ein Mann (Dae-su) wird 15 Jahre in Isolation in einer Art Privatgefängnis gehalten, ohne zu wissen, warum, wo er ist und was um ihn herum geschieht (Hallo Kafka!). Aus dem ständig flimmernden Fernseher erfährt er, dass in der Zeit seine Frau ermordet und er der Tat verdächtigt wird. Er pendelt zwischen Wahnsinn und Ausbruchswillen, der am Ende siegt und beginnt seinen Weg aus dem Gefängnis zu graben. 
+Ein Mann (Dae-su) wird 15 Jahre in Isolation in einer Art Privatgefängnis gehalten, ohne zu wissen, warum, wo er ist und was um ihn herum geschieht (Hallo Kafka!). Aus dem ständig flimmernden Fernseher erfährt er, dass in der Zeit seine Frau ermordet und er der Tat verdächtigt wird. Er pendelt zwischen Wahnsinn und Ausbruchswillen, der am Ende siegt und beginnt seinen Weg aus dem Gefängnis zu graben.
 
-Dann lässt man ihn plötzlich frei, versorgt ihn mit Geld und einem Mobiltelefon. Er bekommt von einem "Unbekannten" Mann den Auftrag, innerhalb von 5 Tagen herauszufinden, warum er in Isolation gehalten wurde. 
+Dann lässt man ihn plötzlich frei, versorgt ihn mit Geld und einem Mobiltelefon. Er bekommt von einem "Unbekannten" Mann den Auftrag, innerhalb von 5 Tagen herauszufinden, warum er in Isolation gehalten wurde.
 
 Er begibt sich auf die Suche.
 
-In den ersten Sekunden des Filmes sieht man Dae-su einen offensichtlich um sein Leben flehenden Mann mit Pudel (hmm, wie sag ichs möglichst diplomatisch?) der über den Rand eines Hochhausdaches hängt nur am Schlips halten. Es entsteht der Eindruck, er erfülle einen Auftrag. Der Eindruck trügt. Wie vieles in diesem Film. Am Ende passen alle Puzzleteile ineinander. Und wiedereinmal war es die Liebe, welche die Dinge ins Rollen brachte. 
+In den ersten Sekunden des Filmes sieht man Dae-su einen offensichtlich um sein Leben flehenden Mann mit Pudel (hmm, wie sag ichs möglichst diplomatisch?) der über den Rand eines Hochhausdaches hängt nur am Schlips halten. Es entsteht der Eindruck, er erfülle einen Auftrag. Der Eindruck trügt. Wie vieles in diesem Film. Am Ende passen alle Puzzleteile ineinander. Und wiedereinmal war es die Liebe, welche die Dinge ins Rollen brachte.
 
 Ohne Liebe gäbe es keinen Hass.
 
-Der Film ist stellenweise sehr brutal aber immer auf so hohem technischen Niveau, dass man darüber weg sehen kann. Rot ist neben Blau und Schwarz ein wichtiges Element der Geschichte. 
+Der Film ist stellenweise sehr brutal aber immer auf so hohem technischen Niveau, dass man darüber weg sehen kann. Rot ist neben Blau und Schwarz ein wichtiges Element der Geschichte.
 
-Die Musik des Filmes ist eine Mischung von Klassik und moderner elektronischer Musik von Cho Young-wuk (übrigens ein Komponist, den man beobachten sollte). Sehr stimmig. Vivaldis 4 Jahreszeiten zu Kampfszenen. 
+Die Musik des Filmes ist eine Mischung von Klassik und moderner elektronischer Musik von Cho Young-wuk (übrigens ein Komponist, den man beobachten sollte). Sehr stimmig. Vivaldis 4 Jahreszeiten zu Kampfszenen.
 
 Wenn ich jemandem 5 Filme empfehlen müsste, die er/sie/es gesehen haben muss, um auch nur ansatzweise ein Gesprächsthema auf einer Ebene zu finden, würde _Oldboy_ in der Liste vorkommen. Ganz gro?es Kino.
 
-{{< figure src="wp-content/old-images/134.jpg" >}}
+{{< figure src="wp-content/old-images/134.jpg" />}}
 
 Ein paar Links:
 

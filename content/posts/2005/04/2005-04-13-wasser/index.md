@@ -9,6 +9,6 @@ url: /2005/04/wasser/
 
 
 ---
-{{< figure src="wp-content/old-images/95.jpg" >}}
+{{< figure src="wp-content/old-images/95.jpg" />}}
 
 Es ist etwas ungünstig derzeit vor die Türe zu gehen.

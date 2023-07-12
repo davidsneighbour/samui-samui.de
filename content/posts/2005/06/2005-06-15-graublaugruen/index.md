@@ -11,7 +11,7 @@ dsq_thread_id:
 
 
 ---
-{{< figure src="wp-content/old-images/124.jpg" >}}
+{{< figure src="wp-content/old-images/124.jpg" />}}
 
 Auf allgemeinen Wunsch ein aktuelles Photo von mir. Immer noch blaugraugrün.
 

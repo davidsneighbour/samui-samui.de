@@ -9,4 +9,4 @@ url: /2005/03/ban-nathon-leben/
 
 
 ---
-{{< figure src="wp-content/old-images/70.jpg" >}}
+{{< figure src="wp-content/old-images/70.jpg" />}}

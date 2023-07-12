@@ -9,4 +9,4 @@ url: /2005/02/dschungel-gleich-hinterm-haus/
 
 
 ---
-{{< figure src="wp-content/old-images/44.jpg" >}}
+{{< figure src="wp-content/old-images/44.jpg" />}}

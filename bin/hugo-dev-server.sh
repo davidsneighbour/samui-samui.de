@@ -17,21 +17,19 @@ npm run clean:hugo
 
 # starting hugo server
 hugo server \
-    --environment development \
-    --disableFastRender \
-    --printI18nWarnings \
-    --navigateToChanged \
-    --templateMetrics \
-    --templateMetricsHints \
-    --printPathWarnings \
-    --cleanDestinationDir \
-    --renderToDisk \
-    --buildDrafts --buildExpired --buildFuture \
-    --watch \
-    --forceSyncStatic \
-    --log true --logFile hugo.log \
-    --verbose \
-    --verboseLog \
-    --bind 192.168.1.201 \
-    --port 1313 \
-    --baseURL http://192.168.1.201:1313
+  --environment development \
+  --disableFastRender \
+  --printI18nWarnings \
+  --navigateToChanged \
+  --templateMetrics \
+  --templateMetricsHints \
+  --printPathWarnings \
+  --cleanDestinationDir \
+  --renderToDisk \
+  --buildDrafts --buildExpired --buildFuture \
+  --watch \
+  --forceSyncStatic \
+  --logLevel debug \
+  --bind 192.168.1.201 \
+  --port 1313 \
+  --baseURL http://192.168.1.201:1313

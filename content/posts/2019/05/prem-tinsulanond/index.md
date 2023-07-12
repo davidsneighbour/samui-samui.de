@@ -14,15 +14,15 @@ leute:
 
 {{< figure name="prem-tinsulanond.jpg" command="Resize" options="1110x" >}}Gen. Prem Tinsulanonda mit Junta-Führer Prayuth Chan-ocha in Bangkok, 11. April 2019.{{< /figure >}}
 
-Prem Tinsulanonda ist tot. Der ehemalige Armee-General, Premierminister, königliche Berater und Vorsitzender des Königlichen Geheimrats verstarb im Alter von 98 Jahren am vergangenen Sonntag. 
+Prem Tinsulanonda ist tot. Der ehemalige Armee-General, Premierminister, königliche Berater und Vorsitzender des Königlichen Geheimrats verstarb im Alter von 98 Jahren am vergangenen Sonntag.
 
-In den meisten Nachrufen wird er als Vaterfigur des Landes bezeichnet. Je nachdem welchem politischen Lager man angehört bezeichnet man ihn als Mann, der Thailand vereinigte oder als Mann, der Regierungen stürzte. Ich kenne ihn als stille Kraft hinter den letzten beiden Putschen in Thailand. 
+In den meisten Nachrufen wird er als Vaterfigur des Landes bezeichnet. Je nachdem welchem politischen Lager man angehört bezeichnet man ihn als Mann, der Thailand vereinigte oder als Mann, der Regierungen stürzte. Ich kenne ihn als stille Kraft hinter den letzten beiden Putschen in Thailand.
 
 {{% quote src="http://www.nationmultimedia.com/detail/opinion/30370184" source="Nation Multimedia" %}}Prem exploited military power to climb the political ladder in the late 1970s, when a golden era of democracy ended with the massacre of students at Thammasat University on October 6, 1976. He was then a member of the coup led by Admiral Sangad Chaloryu that toppled the elected civilian government of the day.{{% /quote %}}
 
-Prem durchlief den für Thailand typischen "Führer-Kreislauf" via verschiedener Positionen im Militär, dann Politik, dann Senat, dann Parlament-Mitglied, dann stellvertretender und schließlig Premierminister in 1980. "Demokratisch" gewählt wurde er nie, hielt sich aber an der Spitze für 8 Jahre bis er dann 1988 zurück trat um Mitglied des Königlichen Geheimrats zu werden. In seiner Zeit als Premierminister löste er das Parlament auf, sobald sich Widerstand bildete. 
+Prem durchlief den für Thailand typischen "Führer-Kreislauf" via verschiedener Positionen im Militär, dann Politik, dann Senat, dann Parlament-Mitglied, dann stellvertretender und schließlig Premierminister in 1980. "Demokratisch" gewählt wurde er nie, hielt sich aber an der Spitze für 8 Jahre bis er dann 1988 zurück trat um Mitglied des Königlichen Geheimrats zu werden. In seiner Zeit als Premierminister löste er das Parlament auf, sobald sich Widerstand bildete.
 
-Im Militär kam man damals auch nur weiter, wenn man "Luk Poo" (Papa's Kind) war. Das führte zu Aufständen innerhalb des Militärs, die aber mithilfe des Palasts niedergeschlagen wurden. 
+Im Militär kam man damals auch nur weiter, wenn man "Luk Poo" (Papa's Kind) war. Das führte zu Aufständen innerhalb des Militärs, die aber mithilfe des Palasts niedergeschlagen wurden.
 
 {{% quote src="http://www.nationmultimedia.com/detail/opinion/30370184" source="Nation Multimedia" %}}Enough, you can resume your democracy{{% /quote %}}
 

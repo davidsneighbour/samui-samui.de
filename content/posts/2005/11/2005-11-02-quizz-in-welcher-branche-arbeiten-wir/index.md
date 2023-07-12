@@ -9,4 +9,4 @@ url: /2005/11/quizz-in-welcher-branche-arbeiten-wir/
 
 
 ---
-{{< figure src="wp-content/old-images/179.jpg" >}}
+{{< figure src="wp-content/old-images/179.jpg" />}}

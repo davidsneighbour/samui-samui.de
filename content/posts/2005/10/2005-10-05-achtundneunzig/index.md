@@ -11,19 +11,19 @@ dsq_thread_id:
 
 
 ---
-{{< figure src="wp-content/old-images/163.jpg" >}}
+{{< figure src="wp-content/old-images/163.jpg" />}}
 
-Nachdem mein Bumbui-Index (die Frau des Englischlehrers) mehrfach meine Bumbui-Reduzierung erwähnte und auch eine größere Bangkoker Tageszeitung diesen Fakt gestern in einem Artikel zur höchsten Inflationsrate in Thailand seit sechs Jahren erwähnte möchte ich mich auch mal dazu äußern. Es ist ohnehin offensichtlich. 
+Nachdem mein Bumbui-Index (die Frau des Englischlehrers) mehrfach meine Bumbui-Reduzierung erwähnte und auch eine größere Bangkoker Tageszeitung diesen Fakt gestern in einem Artikel zur höchsten Inflationsrate in Thailand seit sechs Jahren erwähnte möchte ich mich auch mal dazu äußern. Es ist ohnehin offensichtlich.
 
-Ich bin auf dem niedrigsten Gewicht seit 1997. Titelgebende Zahlenkombination strahlt mich an, wenn ich auf ein Gewichtsermittlungsgerät steige. Nicht dass ich das machen würde. Vor 10 Tagen tat ich es zufälligerweise und stellte fest, dass ich kurz vor meinem Jahresziel Zweistelligkeit stehe. Nun stand. Siehe Titel. 
+Ich bin auf dem niedrigsten Gewicht seit 1997. Titelgebende Zahlenkombination strahlt mich an, wenn ich auf ein Gewichtsermittlungsgerät steige. Nicht dass ich das machen würde. Vor 10 Tagen tat ich es zufälligerweise und stellte fest, dass ich kurz vor meinem Jahresziel Zweistelligkeit stehe. Nun stand. Siehe Titel.
 
-Ist schon schön. Nun merk sogar ich einen gewissen Unterschied zwischen Bildern aus dem Januar und denen von heute. Bei Hochwerten über 120 vor einiger Zeit nette Ergebnisse. 
+Ist schon schön. Nun merk sogar ich einen gewissen Unterschied zwischen Bildern aus dem Januar und denen von heute. Bei Hochwerten über 120 vor einiger Zeit nette Ergebnisse.
 
-Wer jetzt wissen will, wie man schnell abnehmen kann, möge nach Thailand ziehen, Sex mit vielen wechselnden Partnern haben, sich nächtelang auf Parties rumtreiben, den Tag am Strand in der Sonne verbringen und nie wieder essen. Nimmt er mit dieser Taktik nicht ab, kann er immer noch zu mir kommen (wenn er noch in Thailand ist) und mich fragen, wie ichs gemacht habe. 
+Wer jetzt wissen will, wie man schnell abnehmen kann, möge nach Thailand ziehen, Sex mit vielen wechselnden Partnern haben, sich nächtelang auf Parties rumtreiben, den Tag am Strand in der Sonne verbringen und nie wieder essen. Nimmt er mit dieser Taktik nicht ab, kann er immer noch zu mir kommen (wenn er noch in Thailand ist) und mich fragen, wie ichs gemacht habe.
 
 Nichts dass ichs wüsste. Ich glaube allerdings, dass die Eckpunkte nach Thailand ziehen (Essen, Klima, Lebensumstellung) und psychische Komponenten sind. Und Mehkhong. Und Gewicht habe ich dieses Jahr nur dreimal gemessen.
 
-Und jetzt könnt ihr auch zu lachen aufhören wegen des Springseils im Bild. Ich hatte mir ja versprochen, dass ich "mit dem Training" anfange, wenn ich unter 100 komme. Dummerweise bin ich unter 100. Wir können uns also mit der Schaffung eines attraktiven athletischen Körpers beschäftigen. Das Springseil ist dabei eher eine psychologische Stärkung. 
+Und jetzt könnt ihr auch zu lachen aufhören wegen des Springseils im Bild. Ich hatte mir ja versprochen, dass ich "mit dem Training" anfange, wenn ich unter 100 komme. Dummerweise bin ich unter 100. Wir können uns also mit der Schaffung eines attraktiven athletischen Körpers beschäftigen. Das Springseil ist dabei eher eine psychologische Stärkung.
 
 Ich hatte mal einen Sportlehrer, als ich noch klein war. Wir nannten ihn Turnvater Thamm. Er war klein, drahtig und verstand nicht, dass es unsportliche Menschen geben kann. Was mir zu drei Fünfen in Sport verhalf. Eines Tages brach er sich den Arm. Ich war dem Schicksal nie dankbarer als an diesem Tag. Ich glaube an das Schicksal. Wirklich. Die Vertretungslehrerin kuckte mich an, kuckte in das Klassenbuch, wo die drei Fünfen prankten und meinte: "Seilspringen. 60 Stück in einer Minute ist ne Eins. 55 ne Zwei." Ich sprang. Und bekam ne Zwei. Und ne Vier auf dem Jahreszeugnis. Und im folgenden Schuljahr einen neuen Sportlehrer, bei dem auch Dreien möglich waren.
 

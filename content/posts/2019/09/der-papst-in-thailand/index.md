@@ -13,7 +13,7 @@ leute:
 
 {{< figure name="franziskus-und-yingluck.jpg" >}}Yingluck und Papst Franziskus, ca. 2013{{< / figure >}}
 
-Diese Woche wurde aus Rom bestätigt, dass Papst Franziskus plant, vom 20. bis 23. November Thailand besuchen wird. 
+Diese Woche wurde aus Rom bestätigt, dass Papst Franziskus plant, vom 20. bis 23. November Thailand besuchen wird.
 
 Dieses Jahr begeht die Vertretung des Vatikans in Thailand ihren 350. Geburtstag. In 1669 wurde die Mission de Siam gegründet, welche (logischerweise) die Evangelisierung Thailands und naheliegender Gebiete betreiben sollte. Ganz so gut haben sie ihren Job nicht getan, denn nur gut 0.5% der Bevölkerung, ca 380.000 Personen, sind katholisch. Es gibt derzeit 12 Diözesen mit 436 Gemeinden und 662 Priestern.
 

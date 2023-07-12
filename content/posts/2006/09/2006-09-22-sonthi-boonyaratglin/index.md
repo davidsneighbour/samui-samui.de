@@ -9,4 +9,4 @@ url: /2006/09/sonthi-boonyaratglin/
 
 
 ---
-{{< figure src="wp-content/old-images/214" class="flickr" wraptag="div.jpg" >}}
+{{< figure src="wp-content/old-images/214" class="flickr" wraptag="div.jpg" />}}

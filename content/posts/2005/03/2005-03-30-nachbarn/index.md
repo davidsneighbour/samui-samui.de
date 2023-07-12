@@ -9,6 +9,6 @@ url: /2005/03/nachbarn/
 
 
 ---
-{{< figure src="wp-content/old-images/84.jpg" >}}
+{{< figure src="wp-content/old-images/84.jpg" />}}
 
 Ist wie im Zoo, nur dass _ich_ hinter Gittern sitze.

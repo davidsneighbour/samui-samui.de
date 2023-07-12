@@ -11,9 +11,9 @@ url: /2005/03/echte-helden/
 ---
 Echte Helden stecken ihre Hemden und T-Shirts (wenn es denn T-Shirts sein müssen) nicht in die Hose. Soviel nur am Anfang. Aber schauen wir uns doch mal das Cover der Veröffentlichung der Inhaber des fünften Platzes der thailändischen Charts an:
 
-{{< figure src="wp-content/old-images/62.jpg" >}}
+{{< figure src="wp-content/old-images/62.jpg" />}}
 
-Ja. So sehen echte Helden aus. Verwegen in die Gegend blicken (ich nenne das immer das "wie der Typ aus Der Herr der Ringe, der von Orlando Bloom gespielt wurde, an der Kamera vorbei in die Ferne höchst sinnierend und völlig nicht unintelligent blicken" --- Face). Wallendes langes Haar. Freie der Erdanziehungskraft nachgebende Bärte. Sonnenbrillen. ?berdeutliche Posen. Jedenfalls denkt man schon, hier zumindest eine Metal-Band vor sich zu haben. (Sie haben sogar sowohl einen Kopftuch- als auch einen Hutträger, das _muss_ einfach eine supercoole Metalband sein). 
+Ja. So sehen echte Helden aus. Verwegen in die Gegend blicken (ich nenne das immer das "wie der Typ aus Der Herr der Ringe, der von Orlando Bloom gespielt wurde, an der Kamera vorbei in die Ferne höchst sinnierend und völlig nicht unintelligent blicken" --- Face). Wallendes langes Haar. Freie der Erdanziehungskraft nachgebende Bärte. Sonnenbrillen. ?berdeutliche Posen. Jedenfalls denkt man schon, hier zumindest eine Metal-Band vor sich zu haben. (Sie haben sogar sowohl einen Kopftuch- als auch einen Hutträger, das _muss_ einfach eine supercoole Metalband sein).
 
 CD also kaufen und einlegen war nahezu eine Aktion.
 
@@ -21,7 +21,7 @@ Tja.
 
 Hmm.
 
-?hm. 
+?hm.
 
 Wie ich sagte...
 
@@ -35,7 +35,7 @@ Hmm.
 
 Ist das gar eine Jimmy-Hendrix-Revival-Band?
 
-PS: Ach ja. Ich hätte es wissen müssen. Eine Band in der die Mehrzahl der Members (muaaaaaaaahahahahahah, Fachenglisch, Tschammbtschah) die Hemden (Verzeihung T-Shirts) in die Hosen steckt, kann doch nur eine Schwiegersöhneband sein. 
+PS: Ach ja. Ich hätte es wissen müssen. Eine Band in der die Mehrzahl der Members (muaaaaaaaahahahahahah, Fachenglisch, Tschammbtschah) die Hemden (Verzeihung T-Shirts) in die Hosen steckt, kann doch nur eine Schwiegersöhneband sein.
 
 PPS: Leider sind die CDs hier immer zugeschweisst, aber mal ehrlich, 3 Euro für so ein Teil? Für soviel Minuten des Spa?es? Macht doch nichts.
 

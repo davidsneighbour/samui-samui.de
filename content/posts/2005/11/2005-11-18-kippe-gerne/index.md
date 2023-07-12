@@ -9,13 +9,13 @@ url: /2005/11/kippe-gerne/
 
 
 ---
-{{< figure src="wp-content/old-images/194.jpg" >}}
+{{< figure src="wp-content/old-images/194.jpg" />}}
 
-Rauchen ist böse. Und Thailand ist das wohl konsequenteste Land in der Bekämpfung der Raucher ;) Seit April dürfen Zigarettenpackungen nicht mehr öffentlich zum Verkauf angeboten werden. In den meisten Läden wurde das so geregelt, dass die Regale mit den Zigarettenschachteln hinter kleinen Klappen versteckt werden. 
+Rauchen ist böse. Und Thailand ist das wohl konsequenteste Land in der Bekämpfung der Raucher ;) Seit April dürfen Zigarettenpackungen nicht mehr öffentlich zum Verkauf angeboten werden. In den meisten Läden wurde das so geregelt, dass die Regale mit den Zigarettenschachteln hinter kleinen Klappen versteckt werden.
 
-Nur bei 7Eleven nicht, die gehören wohl irgendwie Premierminister Thaksin und wehrten sich vehement gegen die Verordnung. Bis vergangene Woche, wo das Gesundheitsministerium eine Razzia machte, ein paar Leute einkassierte und bestimmte, dass bis nächste Woche auch da die Zigaretten versteckt werden. 
+Nur bei 7Eleven nicht, die gehören wohl irgendwie Premierminister Thaksin und wehrten sich vehement gegen die Verordnung. Bis vergangene Woche, wo das Gesundheitsministerium eine Razzia machte, ein paar Leute einkassierte und bestimmte, dass bis nächste Woche auch da die Zigaretten versteckt werden.
 
-Feine Sache. 
+Feine Sache.
 
 Auf den Schachteln stehen übrigens nicht die in Europa beliebten Schwarzen Sätze sondern gleich unterhaltsame Bilder, was alles so passieren kann, wenn man raucht. Grund genug, eine neue kleine Serie anzufangen: Zigarettenbildchen.
 

@@ -17,13 +17,13 @@ resources:
 
 {{< figure name="Cj7f9WqVAAAiqPj" command="Resize" options="930x" >}} Pickled Tigers from Kanchanaburi, via [Richart Miyer](https://twitter.com/Richart_NOW26/status/738273658137804801) {{< /figure >}}
 
-Eine besonders beliebte Attraktion in Thailand ist der berühmte Tiger-Tempel Luangta Maha Bua in Kanchanaburi. Ich kenne keinen Thailand-Reisenden der nicht gerne einen Selfie mit einem Tiger in seine Social Media Ströme stellt. Dummerweise nur gibt es seit Jahren "Tierschützer", die gegen diesen Tempel und die Praxis demonstrieren. 
+Eine besonders beliebte Attraktion in Thailand ist der berühmte Tiger-Tempel Luangta Maha Bua in Kanchanaburi. Ich kenne keinen Thailand-Reisenden der nicht gerne einen Selfie mit einem Tiger in seine Social Media Ströme stellt. Dummerweise nur gibt es seit Jahren "Tierschützer", die gegen diesen Tempel und die Praxis demonstrieren.
 
 Als Urlauber, nach einem besondern Photo suchend, sollte man sich meiner Meinung nach immer der Tatsache bewusst sein, dass so ein Photo nicht _echt_ sein kann. In jedweder Hinsicht.
 
-Jedenfalls haben nun auch die "Zoobehörden" Thailands nach vielen Jahren reagiert und dem Tempel untersagt, Tiger zu halten. Seit ein paar Tagen werden die Tiere (mehr oder weniger freiwillig und ohne Zwischenfälle) abtransportiert. 
+Jedenfalls haben nun auch die "Zoobehörden" Thailands nach vielen Jahren reagiert und dem Tempel untersagt, Tiger zu halten. Seit ein paar Tagen werden die Tiere (mehr oder weniger freiwillig und ohne Zwischenfälle) abtransportiert.
 
-Interessant ist, was am Rande auftaucht. Beispielsweise [40 eingefrorene Tiger-Babies][3], oder ein Mönch (nicht mit dem europäischen Begriff Mönch zu verwechseln), [der mit Tigerfellen auf der Flucht ertappt wird][4]. 
+Interessant ist, was am Rande auftaucht. Beispielsweise [40 eingefrorene Tiger-Babies][3], oder ein Mönch (nicht mit dem europäischen Begriff Mönch zu verwechseln), [der mit Tigerfellen auf der Flucht ertappt wird][4].
 
 Kurzum: Bist auf Urlaubsreise und bieten sie dir ein "einzigartiges" Erlebnis mit "echten" wilden Tieren an, dann ist es meistens sehr unangenehm für die Tiere und später für dich --- wenn du ein Gewissen hast.
 

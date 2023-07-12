@@ -9,6 +9,6 @@ url: /2005/11/die-dose/
 
 
 ---
-{{< figure src="wp-content/old-images/184.jpg" >}}
-  
-{{< figure src="wp-content/old-images/185.jpg" >}}
+{{< figure src="wp-content/old-images/184.jpg" />}}
+
+{{< figure src="wp-content/old-images/185.jpg" />}}

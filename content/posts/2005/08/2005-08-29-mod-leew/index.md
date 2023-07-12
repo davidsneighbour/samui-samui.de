@@ -9,6 +9,6 @@ url: /2005/08/mod-leew/
 
 
 ---
-{{< figure src="wp-content/old-images/148.jpg" >}}
+{{< figure src="wp-content/old-images/148.jpg" />}}
 
 <txp:gho_permalink id="345">Sonntagmorgen sah es noch so aus</txp:gho_permalink>.

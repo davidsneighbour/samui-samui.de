@@ -17,7 +17,7 @@ resources:
 
 {{< figure name="thai-cabinet-2019.jpg" >}}Thailands neue, demokratisch gewählte Regierung{{< / figure >}}
 
-Seit Mittwoch haben wir eine vom König abgesegnete Regierung. Mitglieder der Regierung sind **ALLE** Mitglieder der als "National Council of Peace and Order" (NCPO) bekannten Gruppe of Putschisten von 2014 und Mitglieder der Parteien, die Militär-General Prayuth Chan-ocha zum nun als "demokratisch gewählten" Premierminister Thailands verhalfen. 
+Seit Mittwoch haben wir eine vom König abgesegnete Regierung. Mitglieder der Regierung sind **ALLE** Mitglieder der als "National Council of Peace and Order" (NCPO) bekannten Gruppe of Putschisten von 2014 und Mitglieder der Parteien, die Militär-General Prayuth Chan-ocha zum nun als "demokratisch gewählten" Premierminister Thailands verhalfen.
 
 Die Regierung setzt sich folgendermaßen zusammen:
 
@@ -70,4 +70,4 @@ Die Regierung setzt sich folgendermaßen zusammen:
 -   Minister für Social Development: Juti Krairiksh (Demokratische Partei)
 -   Industrieminister: Suriya Jungrungreangjij (Palang Pracharath Partei)
 
-Abgesehen von den genannten Parteien gab es noch 13 "Microparteien", die dieser Koalition mit 16 weiteren Stimmen zur Regierungsberechtigung verholfen haben. Leider gab es keine Ministerposten für sie. 
+Abgesehen von den genannten Parteien gab es noch 13 "Microparteien", die dieser Koalition mit 16 weiteren Stimmen zur Regierungsberechtigung verholfen haben. Leider gab es keine Ministerposten für sie.

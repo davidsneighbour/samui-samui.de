@@ -9,4 +9,4 @@ url: /2005/02/taling-krap-strand/
 
 
 ---
-{{< figure src="wp-content/old-images/56.jpg" >}}
+{{< figure src="wp-content/old-images/56.jpg" />}}

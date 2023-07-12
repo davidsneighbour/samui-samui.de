@@ -9,4 +9,4 @@ url: /2005/03/big-buddha/
 
 
 ---
-{{< figure src="wp-content/old-images/67.jpg" >}}
+{{< figure src="wp-content/old-images/67.jpg" />}}

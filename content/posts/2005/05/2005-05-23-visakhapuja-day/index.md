@@ -17,7 +17,7 @@ Wir hatten also den Visakha Bucha Day. Der Autor entschloss sich kurzerhand dazu
 
 Ich fuhr zum gro?en Buddha. Den hatte ich zwar schonmal touristisch besichtigt, aber es war damals totenstill dort und viele der sagen wir mal Elemente des Tempels eher als Ruine anzusehen. Diesmal jedoch schmückten Blumen die Statuen und alles war in farbenfrohe Bänder gehüllt, was mich etwas enttäuschte, denn ich dachte, in Tempeln würde nur dieses Gelborange genutzt. Es sah jedenfall sehr feierlich aus und viele Menschen und Farangs spazierten in der Gegend rum. Beim Erklimmen der Treppen sah man dann auch gleich, dass hier jede Menge Reparaturen durchgeführt wurden und anscheinend auch genügend Geld zusammengekommen ist, um die Glocken rings um die Statue zu reparieren bzw. neue zu kaufen. Man geht einmal um Buddha herum und schlägt mit einer Münze die Glocken an. Das bringt Glück im Leben. Ich werde glücklich sein.
 
-{{< figure src="wp-content/old-images/110.jpg" >}}
+{{< figure src="wp-content/old-images/110.jpg" />}}
 
 Wieder unten angekommen sah ich dann zum ersten Mal in meinem Leben bewusst Lotusblumen. Das ist an und für sich nichts Besonderes, sind sie aber beckenfüllend um einige Buddhastatuen angeordnet (beim letzten Mal war da ein umgekippter Algentümpel zu sehen) bekommen sie einen gewissen Sinn und sehen anders aus. Ich überlegte nur kurz, was denn aus der [Lotusfarbe][1] geworden ist, ob man denn nun die ICEs damit streichen würde --- ein Flashback in alte analytische Zeiten.
 
@@ -27,9 +27,9 @@ Die Entscheidung nach Big Buddha nicht rechts sondern links ins Nichts hinein zu
 
 Nach ein paar Ecken fand ich ein schönes Plätzchen an einem Teich, lies mich nieder und die frittierten Bröckchen in mir verschwinden. Ich wei? zwar nicht, was es war, möchte es aber auch gar nicht wissen, denn es war überaus lecker. Ein paar Stücke sahen so aus wie Flühlingslollen, waren es aber definitiv nicht, denn es war kein Gemüse drinnen sondern irgendwas Schleimiges. Andere wiederum sahen wie frittierte Kartoffelbällchen aus, fühlten sich innen aber wie hartgekochte Eier an (und schmeckten auch so). Alles zusammen schwamm in einer stark scharfen (Pet Pet! You like really? --- Chai, phom chop pet pet! --- Jing jing?) roten So?e deren Hauptbestandteil die Innereien von Peperonis waren.
 
-Während ich so vor mich hin schlemmte stellte ich fest, dass die Leute um mich herum nicht a?en sondern Körner ins Wasser warfen. Was auf den ersten Blick wie eine weitere buddhistische und nicht weiter erklärbare zeremonielle Handlung aussah, entpuppte sich als ein überaus cleveres Konzept der Mönche zur Schaffung monetärer Mittel für den Bau des neuen Tempels. 
+Während ich so vor mich hin schlemmte stellte ich fest, dass die Leute um mich herum nicht a?en sondern Körner ins Wasser warfen. Was auf den ersten Blick wie eine weitere buddhistische und nicht weiter erklärbare zeremonielle Handlung aussah, entpuppte sich als ein überaus cleveres Konzept der Mönche zur Schaffung monetärer Mittel für den Bau des neuen Tempels.
 
-{{< figure src="wp-content/old-images/112.jpg" >}}
+{{< figure src="wp-content/old-images/112.jpg" />}}
 
   * Im Teich schwimmen Fische
   * Die Leute kaufen Körner für 20 THB, füttern damit die Fische und fühlen sich gut
@@ -38,15 +38,15 @@ Während ich so vor mich hin schlemmte stellte ich fest, dass die Leute um mich 
 
 So kommt (in Thairelationen) jede Menge Geld zusammen, denn die Kinder lieben es Körner ins Wasser zu werfen und zu sehen, welches Tohuwabohu die Fische dann anrichten. Wenn man Glück hat, dann sieht man auch ein paar riesige Welse (ich dachte immer, die Biester werden nicht sehr gro?) sich an der Futterjagd beteiligen. Und wenn man es schafft, ein paar Körner einem der wenigen Goldfische zukommen zu lassen, wird man noch glücklicher. Es macht doch alles Sinn.
 
-{{< figure src="wp-content/old-images/111.jpg" >}}
+{{< figure src="wp-content/old-images/111.jpg" />}}
 
 Nachdem ich mich am Tempelaufbau beteiligt hatte, kam ich dann zu Buddhas Fusstapfen. Der Typ hat wahnsinnig gro?e Fü?e (was ihm einige Probleme beim Schuhkauf auf dieser Insel bereiten dürfte, aber das ist ein ganz anderes Thema) und hinterlässt an verschiedenen Stellen im buddhistischen Raum seine Spuren. Man findet in jedem Tempel mindestens eine Spur. Die ist gro? genug, um Geldstücke hineinzulegen und sich etwas zu wünschen. Ich hoffe, dass mein Wunsch im Mittelpunkt des kleinen Fu?zehs gut aufgehoben ist.
 
 Zuletzt sah ich mir dann noch einen Buddha mit 18 Armen an. Wobei ich annehme, dass es ein Buddha ist, wenngleich auch weiblich oder zumindest metrosexuell. ?ber die Bedeutung der Symbole konnte mir niemand Auskunft erteilen, weshalb ich vermutlich demnächst wiederkommen werde und einen der Mönche ausfragen werde. Diesmal ging das nicht, denn die Mönche waren mit Lebenshilfe für junge Paare und dem Anpreisen (in beiderlei Hinsicht) von Buddhafiguren beschäftigt.
 
-{{< figure src="wp-content/old-images/113.jpg" >}}
+{{< figure src="wp-content/old-images/113.jpg" />}}
 
-So. Und was ist der Visakha Bucha Day nun für ein Tag? Einer der wichtigsten Tage im Buddhismus. Auf diesen Tag (der sechste Vollmond des Jahres) fallen Geburt, Erleuchtung und Tod Buddhas. Man geht in den Tempel (hab ich gemacht), hört den Mönchen beim Predigen zu (hab ich gemacht), verrichtet allerlei Dinge, die einen später mal glücklich machen werden (hab ich gemacht) und spendet kräftig (hab ich gemacht). 
+So. Und was ist der Visakha Bucha Day nun für ein Tag? Einer der wichtigsten Tage im Buddhismus. Auf diesen Tag (der sechste Vollmond des Jahres) fallen Geburt, Erleuchtung und Tod Buddhas. Man geht in den Tempel (hab ich gemacht), hört den Mönchen beim Predigen zu (hab ich gemacht), verrichtet allerlei Dinge, die einen später mal glücklich machen werden (hab ich gemacht) und spendet kräftig (hab ich gemacht).
 
 Alles in allem ein überaus gelungener Tag der Annäherung an Lord Buddha mit einem schmackhaften White-Snapper-Ende im Fischrestaurant meines Vertrauens.
 
