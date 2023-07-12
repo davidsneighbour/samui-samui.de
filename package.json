@@ -1,5 +1,5 @@
 {
-  "name": "samui-samui-de",
+  "name": "@davidsneighbour/samui-samui.de",
   "version": "2022.0.6",
   "license": "UNLICENSED",
   "description": "Website and content for samui-samui.de",
@@ -11,11 +11,11 @@
   "homepage": "https://samui-samui.de",
   "repository": "davidsneighbour/samui-samui.de",
   "devDependencies": {
-    "@davidsneighbour/config": "^5.0.1",
+    "@davidsneighbour/configurations": "^5.2.17",
     "atomic-algolia": "0.3.19",
     "lazysizes": "5.3.2",
     "pixrem": "5.0.0",
-    "postcss": "8.4.23",
+    "postcss": "8.4.25",
     "postcss-cli": "10.1.0"
   },
   "scripts": {
@@ -77,6 +77,6 @@
   "dependencies": {
     "postcss-scss": "^4.0.6",
     "precss": "^4.0.0",
-    "sass": "^1.62.1"
+    "sass": "^1.63.6"
   }
 }
