@@ -12,6 +12,7 @@ require (
 	github.com/davidsneighbour/hugo-modules/modules/icons v0.0.0-20230906173400-13c8b5e340bb // indirect
 	github.com/davidsneighbour/hugo-modules/modules/netlification v0.0.0-20230906173400-13c8b5e340bb // indirect
 	github.com/davidsneighbour/hugo-modules/modules/opensearch v0.0.0-20230906173400-13c8b5e340bb // indirect
+	github.com/davidsneighbour/hugo-modules/modules/pictures v1.2023.12 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/pwa v0.0.0-20230906173400-13c8b5e340bb // indirect
 	github.com/davidsneighbour/hugo-modules/modules/robots v1.2023.6 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/shortcodes v0.0.0-20230906173400-13c8b5e340bb // indirect

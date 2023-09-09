@@ -10,7 +10,7 @@
   type="text/javascript"></script>
 {{ end }}
 
-{{ with partialCached "func/getJavascriptByBuild" . $.Lang }}
+{{ with partialCached "func/getJavascriptByBuild.html" . $.Lang }}
 <script
   src="{{.RelPermalink}}" integrity="{{ .Data.Integrity | html }}"
   crossorigin="anonymous" async defer
@@ -18,4 +18,4 @@
 {{ end }}
 
 {{/* service worker integration via dnb-org/components/pwa */}}
-{{ partial "footer/service-worker" . }}
+{{ partial "footer/service-worker.html" . }}

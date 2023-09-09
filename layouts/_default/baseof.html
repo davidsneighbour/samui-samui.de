@@ -10,33 +10,29 @@
   {{ .Scratch.Set "enableTemplateWarnings" false }}
 {{ end }}
 <html lang="{{ .Site.Language.Lang }}" class="no-js">
-{{ partial "func/hook" "setup" }}
+{{ partial "func/hook.html" "setup" }}
 <head>
   {{ partial "head.html" . }}
 </head>
 <body id="{{ .Site.Params.Siteslug | default "garuda-garuda" }}">
-  {{ partial "func/hook" "body-start" }}
-  {{ partial "header" . }}
-  {{ partial "func/hook" "container-start" }}
+  {{ partial "func/hook.html" "body-start" }}
+  {{ partial "header.html" . }}
+  {{ partial "func/hook.html" "container-start" }}
   <main id="content" class="container">
     <div class="row">
       <div id="maincolumn" class="{{ $contentColumnClasses }}">
-        {{ partial "func/hook" "content-start" }}
+        {{ partial "func/hook.html" "content-start" }}
         {{ block "main" . }}{{ end }}
-        {{ partial "func/hook" "content-end" }}
-{{/*        {{ if in (string site.BaseURL) "localhost" }}*/}}
-{{/*          {{ partial "seo.html" . }}*/}}
-{{/*        {{ end }}*/}}
+        {{ partial "func/hook.html" "content-end" }}
       </div>
       {{ if eq (.Scratch.Get "hasSidebar") true }}
-        {{ partial "sidebar" . }}
+        {{ partial "sidebar.html" . }}
       {{ end }}
     </div>
   </main>
-  {{ partial "func/hook" "container-end" }}
-  {{ partial "footer" . }}
-  {{ partial "func/hook" "body-end" }}
-  {{- partialCached "ct/ct.html" . -}}
+  {{ partial "func/hook.html" "container-end" }}
+  {{ partial "footer.html" . }}
+  {{ partial "func/hook.html" "body-end" }}
 </body>
 </html>
-{{ partial "func/hook" "teardown" }}
+{{ partial "func/hook.html" "teardown" }}

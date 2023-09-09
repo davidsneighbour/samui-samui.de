@@ -22,12 +22,12 @@
 {{/*        </script>*/}}
 {{/*    {{ end }}*/}}
 {{/*    {{ end }}*/}}
-  	{{ partial "pagination/single" . }}
+  	{{ partial "pagination/single.html" . }}
     {{ if (not (isset .Params "hide_sharebuttons")) | or (eq .Params.hide_sharebuttons "false") }}
-  	  {{ partial "tools/sharebuttons" . }}
+  	  {{ partial "tools/sharebuttons.html" . }}
     {{ end }}
     {{ if (not (isset .Params "hide_related")) | or (eq .Params.hide_related "false") }}
-  	  {{ partial "tools/related" . }}
+  	  {{ partial "tools/related.html" . }}
     {{ end }}
   </article>
 {{ end }}

@@ -6,9 +6,9 @@
       </button>
       <a class="navbar-brand d-md-none" id="topnavigationbrand" href="{{ site.BaseURL }}">{{ site.Title }}</a>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        {{ partial "header/navigation/main-navigation" . }}
+        {{ partial "header/navigation/main-navigation.html" . }}
       </div>
     </div>
   </nav>
-  {{ partialCached "header/progress" . $.Lang }}
+  {{ partialCached "header/progress.html" . $.Lang }}
 </div>
