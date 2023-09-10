@@ -8,63 +8,63 @@
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/debug"
-disable = false
-ignoreConfig = false
-ignoreImports = false
+
+[[imports]]
+path = "github.com/davidsneighbour/hugo-modules/modules/modder"
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/hooks"
-disable = false
-ignoreConfig = false
-ignoreImports = false
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/functions"
-disable = false
-ignoreConfig = false
-ignoreImports = false
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/auditor"
-disable = false
-ignoreConfig = false
-ignoreImports = false
+
+[[imports]]
+path = "github.com/davidsneighbour/hugo-modules/modules/feeds"
+
+# [[imports]]
+# path = "github.com/davidsneighbour/hugo-modules/modules/giscus"
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/head"
-disable = false
-ignoreConfig = false
-ignoreImports = false
+
+[[imports]]
+path = "github.com/davidsneighbour/hugo-modules/modules/icons"
+
+[[imports]]
+path = "github.com/davidsneighbour/hugo-modules/modules/internals"
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/netlification"
-disabled = false
-ignoreConfig = false
-ignoreImports = false
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/opensearch"
-disable = false
-ignoreConfig = false
-ignoreImports = false
+
+[[imports]]
+path = "github.com/davidsneighbour/hugo-modules/modules/pictures"
+
+[[imports]]
+path = "github.com/davidsneighbour/hugo-modules/modules/publisher"
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/pwa"
-disable = false
-ignoreConfig = false
-ignoreImports = false
+
+[[imports]]
+path = "github.com/davidsneighbour/hugo-modules/modules/renderhooks"
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/robots"
-disable = false
-ignoreConfig = false
-ignoreImports = false
 
-# [[imports]]
-# path = "github.com/davidsneighbour/hugo-modules/modules/search-algolia"
-# disable = false
-# ignoreConfig = false
-# ignoreImports = false
+[[imports]]
+path = "github.com/davidsneighbour/hugo-modules/modules/schema"
+
+[[imports]]
+path = "github.com/davidsneighbour/hugo-modules/modules/security"
+
+[[imports]]
+path = "github.com/davidsneighbour/hugo-modules/modules/seo"
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/sitemap"
@@ -74,12 +74,6 @@ ignoreImports = false
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/social"
-disable = false
-ignoreConfig = false
-ignoreImports = false
-
-[[imports]]
-path = "github.com/davidsneighbour/hugo-modules/modules/icons"
 disable = false
 ignoreConfig = false
 ignoreImports = false
@@ -98,12 +92,6 @@ ignoreImports = false
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/shortcodes"
-disable = false
-ignoreConfig = false
-ignoreImports = false
-
-[[imports]]
-path = "github.com/davidsneighbour/hugo-modules/modules/pictures"
 disable = false
 ignoreConfig = false
 ignoreImports = false

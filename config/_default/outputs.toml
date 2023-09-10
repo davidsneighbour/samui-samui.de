@@ -3,6 +3,5 @@
 ################################################################################
 # see http://gohugo.io/templates/output-formats/
 # see https://gohugo.io/news/http2-server-push-in-hugo/
-home = [ "HTML", "RSS", "Algolia", "REDIR", "HEADERS", "OpenSearch", "manifest" ]
-page = [ "HTML" ]
-post = [ "HTML" ]
+home = ["HTML", "RSS", "REDIR", "HEADERS", "OpenSearch", "manifest"]
+page = ["HTML"]
