@@ -1,6 +1,6 @@
 {
 	"name": "@davidsneighbour/samui-samui.de",
-	"version": "2024.0.0",
+	"version": "2024.0.1",
 	"license": "UNLICENSED",
 	"description": "Website and content for samui-samui.de",
 	"author": {
@@ -20,9 +20,9 @@
 		"clean:hugo": "rimraf hugo.log hugo_stats.json",
 		"clean:hugo2": "rimraf resources public",
 		"clean:npm": "rimraf node_modules package-lock.json",
-		"release": "commit-and-tag-version --release-as major --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
+		"release": "commit-and-tag-version --release-as patch --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
 		"release:major": "commit-and-tag-version --release-as major --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
-		"release:minor": "commit-and-tag-version --release-as major --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
+		"release:minor": "commit-and-tag-version --release-as minor --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
 		"server": "run-p server:hugo",
 		"server:hugo": "./bin/server/run",
 		"server:hugo:paranoia": "./bin/hugo-dev-server-paranoia.sh",
