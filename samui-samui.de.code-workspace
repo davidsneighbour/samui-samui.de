@@ -22,6 +22,12 @@
 			"**/layouts/**.json": "gojson",
 			"**/layouts/**.txt": "gotemplate",
 		},
+		"files.exclude": {
+			"**/.git": true,
+			"**/.DS_Store": true,
+			"**/node_modules": true,
+			"public": true,
+		},
 		"explorer.fileNesting.patterns": {
 			"hugo.log": "hugo_stats.json, .hugo_build.lock"
 		},
