@@ -1,23 +1,19 @@
-import lazySizes from 'libs/lazysizes';
-import dayjs from 'js/dayjs';
+// import lazySizes from './lazysizes';
 
-// https://github.com/aFarkas/lazysizes
-// needs to be called explicitly, because webpack can't see into uncompiled hugo
-lazySizes.init();
+// // https://github.com/aFarkas/lazysizes
+// // needs to be called explicitly, because webpack can't see into uncompiled hugo
+// lazySizes.init();
 
 /*******************************************************************************
  * Datediff shortcode functionality
  ******************************************************************************/
 let elements = document.querySelectorAll(".is--datediff");
 Array.prototype.forEach.call(elements, function (el) {
-	let $date1 = dayjs(el.getAttribute("data-date"));
-	let $date2 = dayjs(new Date());
-	let $type = el.getAttribute("data-type");
-	if ($type === "months") {
-		el.textContent = parseInt($date2.diff($date1, "months"), 10);
-	} else {
-		el.textContent = $date2.diff($date1, "days") + 1;
-	}
+	var date1 = new Date(el.getAttribute("data-date"));
+	var date2 = new Date();
+	var Difference_In_Time = date2.getTime() - date1.getTime();
+	var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
+	el.textContent = Math.floor(Difference_In_Days);
 });
 
 /*******************************************************************************

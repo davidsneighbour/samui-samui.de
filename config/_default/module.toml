@@ -7,6 +7,23 @@
 ################################################################################
 
 [[imports]]
+# see https://github.com/aFarkas/lazysizes for details
+path = "github.com/aFarkas/lazysizes"
+
+[[imports.mounts]]
+source = "lazysizes-umd.js"
+target = "assets/js/lazysizes/index.js"
+
+[[imports.mounts]]
+source = "lazysizes.js"
+target = "assets/js/lazysizes/lazysizes.js"
+
+[[imports.mounts]]
+source = "plugins"
+target = "assets/js/lazysizes/plugins"
+
+
+[[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/debug"
 
 [[imports]]
@@ -78,11 +95,6 @@ disable = false
 ignoreConfig = false
 ignoreImports = false
 
-[[imports]]
-path = "github.com/davidsneighbour/libraries/dayjs"
-disable = false
-ignoreConfig = false
-ignoreImports = false
 
 [[imports]]
 path = "github.com/davidsneighbour/libraries/lazysizes"
