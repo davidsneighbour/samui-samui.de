@@ -1,6 +1,5 @@
 ---
 title: Es ist vollbracht (Teil 1)
-author: Patrick Kollitsch
 type: post
 date: 2008-06-26T23:50:07+00:00
 url: /2008/06/es-ist-vollbracht-teil-1/

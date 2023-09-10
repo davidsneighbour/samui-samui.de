@@ -1,6 +1,5 @@
 ---
 title: Suchbild (Auflösung)
-author: Patrick Kollitsch
 type: post
 date: 2013-02-25T23:13:16+00:00
 url: /2013/02/suchbild-aufloesung/

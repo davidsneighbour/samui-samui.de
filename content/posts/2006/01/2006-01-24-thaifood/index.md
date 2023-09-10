@@ -1,6 +1,5 @@
 ---
 title: 'Thai Food ;]'
-author: Patrick Kollitsch
 type: post
 date: 2006-01-23T21:38:00+00:00
 url: /2006/01/thaifood/

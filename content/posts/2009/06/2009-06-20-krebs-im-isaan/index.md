@@ -1,6 +1,5 @@
 ---
 title: Krebs im Isaan
-author: Patrick Kollitsch
 type: post
 date: 2009-06-20T13:22:42+00:00
 url: /2009/06/krebs-im-isaan/

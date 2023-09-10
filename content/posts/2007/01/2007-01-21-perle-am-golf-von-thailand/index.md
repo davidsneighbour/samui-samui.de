@@ -1,6 +1,5 @@
 ---
 title: Perle am Golf von Thailand
-author: Patrick Kollitsch
 type: post
 date: 2007-01-21T01:25:36+00:00
 url: /2007/01/perle-am-golf-von-thailand/
@@ -9,7 +8,7 @@ url: /2007/01/perle-am-golf-von-thailand/
 
 
 ---
-Hin und wieder wurde ich in den vergangenen Tagen gefragt, warum ich nichts über Rayong, meinen Aufenthaltsort im Januar, schreiben würde. 
+Hin und wieder wurde ich in den vergangenen Tagen gefragt, warum ich nichts über Rayong, meinen Aufenthaltsort im Januar, schreiben würde.
 
 Das liegt unter anderem daran, dass ich in Ban Chang bin und Rayong nur die Provinzhauptstadt. Aber von hier gibt es auch nicht viel zu berichten.
 

@@ -1,6 +1,5 @@
 ---
 title: Noch da
-author: Patrick Kollitsch
 type: post
 date: 2007-10-28T15:52:31+00:00
 url: /2007/10/noch-da/

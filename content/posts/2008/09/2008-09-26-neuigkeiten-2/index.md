@@ -1,6 +1,5 @@
 ---
 title: Neuigkeiten
-author: Patrick Kollitsch
 type: post
 date: 2008-09-25T23:22:35+00:00
 url: /2008/09/neuigkeiten-2/
@@ -10,8 +9,8 @@ url: /2008/09/neuigkeiten-2/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2881405995/" title="wire-less"><img src="//farm4.static.flickr.com/3004/2881405995_8f0dfc72cc.jpg" alt="wire-less" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/2881405995/" title="wire-less"><img src="//farm4.static.flickr.com/3004/2881405995_8f0dfc72cc.jpg" alt="wire-less" /></a></p>
+
   <p>
     wire-less
   </p>

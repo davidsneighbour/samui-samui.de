@@ -1,6 +1,5 @@
 ---
 title: The old one
-author: Patrick Kollitsch
 type: post
 date: 2006-01-15T23:07:00+00:00
 url: /2006/01/theoldone/

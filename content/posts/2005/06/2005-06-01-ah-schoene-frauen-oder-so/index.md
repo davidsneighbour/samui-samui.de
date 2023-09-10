@@ -1,25 +1,21 @@
 ---
 title: Ah schöne Frauen, oder so.
-author: Patrick Kollitsch
 type: post
 date: 2005-06-01T07:17:00+00:00
 url: /2005/06/ah-schoene-frauen-oder-so/
 dsq_thread_id:
   - "2925198565"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Wenn im Pub keine neue Playliste angespielt wird und das Eis in den Gläsern von Alkohol unbenetzt schmilzt, weil alle gebannt dem Flimmern des Fernsehers zugewandt starr und unbeweglich verharren, dann --- ja dann ist mal wieder [Miss-Universe][1]-Wahl. Vorgestern Nacht hat man in Bangkok kräftig gewählt. Leider besteht das Universum nur aus unserem grünblauen an den Polen abgeflachten Planeten, der gekippt seinem Verderben entgegentrudelt. 
+Wenn im Pub keine neue Playliste angespielt wird und das Eis in den Gläsern von Alkohol unbenetzt schmilzt, weil alle gebannt dem Flimmern des Fernsehers zugewandt starr und unbeweglich verharren, dann --- ja dann ist mal wieder [Miss-Universe][1]-Wahl. Vorgestern Nacht hat man in Bangkok kräftig gewählt. Leider besteht das Universum nur aus unserem grünblauen an den Polen abgeflachten Planeten, der gekippt seinem Verderben entgegentrudelt.
 
-Der Spiegel meinte übrigens, [den folgenden Teaser][2] bringen zu müssen: 
+Der Spiegel meinte übrigens, [den folgenden Teaser][2] bringen zu müssen:
 
 > Fünf Monate nach der verheerenden Flutwelle will Thailand der Welt beweisen, dass es aus der Katastrophe gelernt hat. über 80 Kandidatinnen reisten jetzt zur Miss Universe-Wahl an --- und halfen nach Kräften, das Gastgeberland im besten Licht zu zeigen.
 
 Ich hätte ja noch Sextourismus, Wats, Open Source und billige Schönheitsoperationen erwähnt. Mehr Schlagworte gibts zu Thailand nicht.
 
-In der letzten Woche war die "alte" Miss Universe auf der Insel und wurde an jeder halbwegs gefährlichen Kurve mit gro?en über die Stra?en gespannten Bannern begrü?t. Die anderen Möchtegern-Missen besuchten derweil kaputte Strände und waren überaus betroffen. 
+In der letzten Woche war die "alte" Miss Universe auf der Insel und wurde an jeder halbwegs gefährlichen Kurve mit gro?en über die Stra?en gespannten Bannern begrü?t. Die anderen Möchtegern-Missen besuchten derweil kaputte Strände und waren überaus betroffen.
 
 Interessanterweise gab es recht wenig Blondinen. Ich bin ja jetzt in Frauen- und Schönheitsfragen nicht so der Fachmann, aber seit wann sind die denn out? ?berhaupt fand ich keine der Frauen irgendwie ansprechend. Steckt da ein mathematisches Prinzip dahinter? "Geschritten" sind auch die Wenigsten. Es sah meist aus wie Probeaufnahmen für irgendwelche, ähm, Schmuddelfilmchen. Leider ist niemand auf irgendwelche Säume getreten und gestürzt. Es war eine mehr oder weniger langweilige Veranstaltung. Bis eben auf die sabbernden Männer vor der Glotze. Die Farangs kamen immer bei den brünetten ins Schwitzen und die Thais bei den Blondinen. Witzig war einer der Moderatoren, der aufgrund seiner thaiüblichen Statur mehr als einmal zu den Frauen aufschauen musste.
 

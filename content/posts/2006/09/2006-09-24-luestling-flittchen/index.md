@@ -1,6 +1,5 @@
 ---
 title: Lüstling. Flittchen.
-author: Patrick Kollitsch
 type: post
 date: 2006-09-24T10:07:00+00:00
 url: /2006/09/luestling-flittchen/

@@ -1,6 +1,5 @@
 ---
 title: Updates
-author: Patrick Kollitsch
 type: post
 date: 2006-09-20T11:03:00+00:00
 url: /2006/09/updates-2/
@@ -11,9 +10,9 @@ url: /2006/09/updates-2/
 ---
 Die Ereignisse der vergangenen Stunden:
 
-  * Ich war zuerst ein wenig verwundert über die prognostizierten Neuwahlen erst im Oktober nächsten Jahres. Aber eigentlich ist es logisch: Bis dahin muss eine neue Verfassung geschaffen werden auf deren Grundlage gewählt werden kann. 
+  * Ich war zuerst ein wenig verwundert über die prognostizierten Neuwahlen erst im Oktober nächsten Jahres. Aber eigentlich ist es logisch: Bis dahin muss eine neue Verfassung geschaffen werden auf deren Grundlage gewählt werden kann.
   * Es ist mehr Militär in Bangkok aufgelaufen. 10 weitere Panzer und 100 Soldaten aus Phechabun
-  * Surapol Kiartchaiyakorn von Thai Rak Thai wird in Chiang Mai verhaftet. Deputy Police Commissioner-General Pol Col Priewphan Damapong, der Schwager von Thaksin meldet sich freiwillig. Thawee Kraikupti von Thai Rak Thai demonstriert in Bangkok gegen den Putsch und wird abgeführt. Gegen weitere frühere Funktionäre werden Haftbefehle erteilt. Das steht im krassen Widerspruch zu einer Äußerung Sonthis heute morgen, dass die Mitglieder der alten Regierung unbehelligt bleiben. 
+  * Surapol Kiartchaiyakorn von Thai Rak Thai wird in Chiang Mai verhaftet. Deputy Police Commissioner-General Pol Col Priewphan Damapong, der Schwager von Thaksin meldet sich freiwillig. Thawee Kraikupti von Thai Rak Thai demonstriert in Bangkok gegen den Putsch und wird abgeführt. Gegen weitere frühere Funktionäre werden Haftbefehle erteilt. Das steht im krassen Widerspruch zu einer Äußerung Sonthis heute morgen, dass die Mitglieder der alten Regierung unbehelligt bleiben.
   * Die Angaben zu Thaksins Plänen widersprechen sich, klingen aber interessant. Er soll das Exil in London in Erwägung ziehen. Das ist plausibel, weil er seit einiger Zeit dort Landbesitz hat. Dieses Ziel war schon bei früheren Auslandsreisen Gerücht. Manche Berichte sagen, dass seine Besitztümer in Thailand eingefroren sind, andere, dass dem nicht so ist. Gerüchte von gestern sagen, dass die Besitztümer bereits zum Wochenbeginn das Land verlassen haben.
   * Das öffentliche Leben soll morgen normal weiter gehen. Banken, Schulen und öffentliche Einrichtungen werden ihren Betrieb wieder aufnehmen.
   * Die eben gewählte Wahlkommission wurde gemeinsam mit der Verfassung wieder aufgelöst.

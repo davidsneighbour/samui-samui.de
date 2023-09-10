@@ -1,6 +1,5 @@
 ---
 title: Regen
-author: Patrick Kollitsch
 type: post
 date: 2006-01-24T00:05:00+00:00
 url: /2006/01/regen-3/
@@ -17,9 +16,9 @@ Das war nicht ganz so klug wie gedacht, denn zehn Minuten später spührte ich e
 
 Wer jetzt denkt, dass ich zu lasse den Teppichboden unserer aufstrebenden Unternehmung benetzen zu lassen hat sich aber geschnitten. Zu irgendwas müssen doch die ganzen Prozess-Planungs-Vorlesungen "damals" gut gewesen sein. Ich hatte derartiges bereits vermutet und verfolgte ihn mit einem super-saugfähigen Küchentuchpaket das ich ihm beim gedankenversunkenen Stehen emsig unterschob.
 
-So doof hat noch nie ein Hund gekuckt. Aber viel dagegen tun konnte er nicht, denn wenns läuft dann läufts und er ist ein unbewegliches Ziel bis es nicht mehr läuft. Mein Wachhund ist beim Pinkeln ein ungeschütztes Ziel. 
+So doof hat noch nie ein Hund gekuckt. Aber viel dagegen tun konnte er nicht, denn wenns läuft dann läufts und er ist ein unbewegliches Ziel bis es nicht mehr läuft. Mein Wachhund ist beim Pinkeln ein ungeschütztes Ziel.
 
-Jedenfalls die Moral von der Geschichte: Um zwölf gehts in Zukunft raus egal ob er schläft oder nicht und gepinkelt wird im Freien oder in peinlichen Situationen. Da auch ein thailändischer Kleinsthund ein Gesicht zu verlieren hat wird ihm das eine Lektion sein. 
+Jedenfalls die Moral von der Geschichte: Um zwölf gehts in Zukunft raus egal ob er schläft oder nicht und gepinkelt wird im Freien oder in peinlichen Situationen. Da auch ein thailändischer Kleinsthund ein Gesicht zu verlieren hat wird ihm das eine Lektion sein.
 
 Draussen waren wir trotzdem. Denn unmittelbar nach dem "Es läuft aber ich bin ja nur ein kleiner Babyhund"-Blick kam der "Mal kucken wo ich hier eliminieren kann"-Blick. Nun hat er ein nasses Fell (ich auch) und Lust zu spielen (ich nicht). (Hehe... wenn er wüsste, dass wir heute Abend einen Termin beim Tierarzt zum Setzen <txp:gho_permalink id="609">neuerlicher Spritzen</txp:gho_permalink> haben würde er nicht so fröhlich sein.)
 
@@ -29,12 +28,12 @@ Mir schwebt da ein Projekt namens "Eliminat" vor. Mal sehen.
 
 Und schnell noch ein bisschen Gebrauchs-Poesie:
 
-Auf der Wiese umgeben von Palmen 
-  
+Auf der Wiese umgeben von Palmen
+
 setzte ich mein Eliminat
-  
+
 das Moped startete, fing an zu qualmen
-  
+
 zurück gings allsbald zum Kombinat.
 
 (Kombinat ist übrigens das Fachwort von Hunden und -haltern für "Büro".)

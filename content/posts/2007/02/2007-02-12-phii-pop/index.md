@@ -1,6 +1,5 @@
 ---
 title: Phii Pop
-author: Patrick Kollitsch
 type: post
 date: 2007-02-11T21:48:14+00:00
 url: /2007/02/phii-pop/

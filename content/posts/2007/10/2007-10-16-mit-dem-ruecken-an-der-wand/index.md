@@ -1,6 +1,5 @@
 ---
 title: Mit dem Rücken an der Wand
-author: Patrick Kollitsch
 type: post
 date: 2007-10-16T01:48:43+00:00
 url: /2007/10/mit-dem-ruecken-an-der-wand/

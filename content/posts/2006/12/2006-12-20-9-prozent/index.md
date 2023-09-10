@@ -1,6 +1,5 @@
 ---
 title: 9 Prozent
-author: Patrick Kollitsch
 type: post
 date: 2006-12-20T08:47:55+00:00
 url: /2006/12/9-prozent/

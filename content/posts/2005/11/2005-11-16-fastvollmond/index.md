@@ -1,13 +1,9 @@
 ---
 title: Fast Vollmond
-author: Patrick Kollitsch
 type: post
 date: 2005-11-15T19:58:00+00:00
 url: /2005/11/fastvollmond/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 [<img width="420" src="//static.flickr.com/28/63742445_3128663f9b.jpg" alt="Nearly full moon" />][1]
 

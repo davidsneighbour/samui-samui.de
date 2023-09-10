@@ -1,6 +1,5 @@
 ---
 title: Was die Prinzessin sah
-author: Patrick Kollitsch
 type: post
 date: 2006-06-23T21:21:00+00:00
 url: /2006/06/was-die-prinzessin-sah/

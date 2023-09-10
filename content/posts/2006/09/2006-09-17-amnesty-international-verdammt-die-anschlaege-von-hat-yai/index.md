@@ -1,6 +1,5 @@
 ---
 title: Amnesty International verdammt die Anschläge von Hat Yai
-author: Patrick Kollitsch
 type: post
 date: 2006-09-17T09:53:00+00:00
 url: /2006/09/amnesty-international-verdammt-die-anschlaege-von-hat-yai/

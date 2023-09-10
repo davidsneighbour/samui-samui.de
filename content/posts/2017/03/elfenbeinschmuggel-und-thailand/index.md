@@ -1,6 +1,5 @@
 ---
 title: Elfenbeinschmuggel und Thailand
-author: Patrick Kollitsch
 type: post
 date: 2017-03-09T14:30:58+00:00
 url: /2017/03/elfenbeinschmuggel-und-thailand/

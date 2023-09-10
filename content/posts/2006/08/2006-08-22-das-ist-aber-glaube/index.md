@@ -1,6 +1,5 @@
 ---
 title: Das ist aber Glaube
-author: Patrick Kollitsch
 type: post
 date: 2006-08-22T09:35:26+00:00
 url: /2006/08/das-ist-aber-glaube/
@@ -11,7 +10,7 @@ url: /2006/08/das-ist-aber-glaube/
 ---
 Heute druckste Fu den ganzen Abend herum und rückte dann nach einer Weile heraus, mit ihrem Buddha-Anhänger. Von ihrem Bruder geschenkt, gefertigt in einem Wat in Phrae und glücksbringend. "You know that!". Ein von meinem schrägen Humor unantastbares Symbol.
 
-Er wurde mir mit dreifachem "sa buddhasa"-Vers und einigen anderen Pali-Sprüchen umgehängt und ich bekam noch einige Befehle mit auf den Weg. Nicht abnehmen, beim Duschen nach hinten drehen, nichts Unanständiges anstellen. 
+Er wurde mir mit dreifachem "sa buddhasa"-Vers und einigen anderen Pali-Sprüchen umgehängt und ich bekam noch einige Befehle mit auf den Weg. Nicht abnehmen, beim Duschen nach hinten drehen, nichts Unanständiges anstellen.
 
 Mir soll er Aufträge bringen. Was man halt so als Glück bezeichnen könnte.
 

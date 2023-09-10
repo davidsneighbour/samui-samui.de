@@ -1,13 +1,9 @@
 ---
 title: Ich glaube ich werde alt. Jetzt wirklich.
-author: Patrick Kollitsch
 type: post
 date: 2005-11-19T21:53:00+00:00
 url: /2005/11/ich-glaube-ich-werde-alt-jetzt-wirklich/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
   * Seit drei Wochen trinke ich nur noch 1/8 der Mengen an Alkohol (die ich vorher getrunken habe --- das nur aus Verständnisgründen einer ansonsten perfekten Ellipse).
   * Ich schlafe nach einer Flasche Bier ein (dass es sich hierbei um Beer Chang handelt liefert nur Eingeweihten eine allerdings durchaus brüchige Argumentation)

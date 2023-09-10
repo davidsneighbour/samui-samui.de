@@ -1,6 +1,5 @@
 ---
 title: Sonnenuntergangsfinsternis
-author: Patrick Kollitsch
 type: post
 date: 2008-07-30T02:07:06+00:00
 url: /2008/07/sonnenuntergangsfinsternis/

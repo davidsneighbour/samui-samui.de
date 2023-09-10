@@ -1,13 +1,9 @@
 ---
 title: Achtung vor dem Leben
-author: Patrick Kollitsch
 type: post
 date: 2005-12-13T05:49:17+00:00
 url: /2005/12/achtung-vor-dem-leben/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 _Nachfolgenden Text hab ich eben aus dem Zettelkasten gefischt. Eigentlich sollte er Teil eines grösseren Pamphlets über die Entwicklung einer für mich positiven Umgebungsbedingung persönlicher Art werden. Passte aber nicht ganz rein. Also nun einfach so. Im Einzelauswurf._
 
@@ -21,6 +17,6 @@ Im Buddhismus geht es größtenteils darum, mit den Umständen in denen man lebt
 
 Wie auch immer. Ich bin seither immer ein wenig traurig wenn ein Frosch laut "Pflogggtsch" macht und werde das Wörtchen only vermeiden. Mal ganz abgesehen davon, dass ich auf nassen Straßen nur noch Schritt fahre damit ich bremsen kann.
 
-Ich bremse für Frösche. 
+Ich bremse für Frösche.
 
 Und im Tempel war ich deshalb auch schon.

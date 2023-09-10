@@ -1,6 +1,5 @@
 ---
 title: Google und Thailands Verfassung
-author: Patrick Kollitsch
 type: post
 date: 2013-09-24T02:33:39+00:00
 url: /2013/09/google-und-thailands-verfassung/

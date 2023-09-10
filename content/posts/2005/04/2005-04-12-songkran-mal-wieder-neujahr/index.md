@@ -1,13 +1,9 @@
 ---
 title: Songkran – mal wieder Neujahr
-author: Patrick Kollitsch
 type: post
 date: 2005-04-12T05:13:00+00:00
 url: /2005/04/songkran-mal-wieder-neujahr/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Jawollja! Ich persönlich finde ja, dass wir viel zu wenig zu feiern haben hier auf unserer kleinen Insel weshalb es sehr gut ist, dass endlich mal wieder, nach einer langen feiertagslosen Durststrecke, Feiertage angesagt sind.
 
@@ -17,7 +13,7 @@ Das thailändische Neujahr nun ist der Zeitpunkt, an dem die Sonne in das Tierkr
 
 Bereits am Vorabend von Songkran ist Frühjahrsputz angesagt. Man will nicht mit dem Dreck des alten Jahres in das neue Jahr gehen. Also ist auch bei mir heute Abend Besenschwingen angesagt. Und ich werde mal den Abwasch machen ;)
 
-Der erste Tag (Mahasongkran) ist der letzte Tag des alten Jahres. Man geht ins Kloster und opfert den Mönchen Reis (mehr als sonst), Süsskram und andere Sachen. Der Abt und die Buddhafiguren des Klosters werden nachmittags rituell gereinigt, indem man sie mit Wasser (!) übergie?t. Anschlie?end reinigt jeder Jeden. 
+Der erste Tag (Mahasongkran) ist der letzte Tag des alten Jahres. Man geht ins Kloster und opfert den Mönchen Reis (mehr als sonst), Süsskram und andere Sachen. Der Abt und die Buddhafiguren des Klosters werden nachmittags rituell gereinigt, indem man sie mit Wasser (!) übergie?t. Anschlie?end reinigt jeder Jeden.
 
 Der zweite Tag ist Nao oder "Der Tag nach dem Ende des letzten Tages" und der dritte Tag Talueng Sok, der eigentliche Neujahrstag.
 

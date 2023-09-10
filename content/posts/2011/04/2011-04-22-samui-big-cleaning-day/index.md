@@ -1,15 +1,11 @@
 ---
 title: Samui Big Cleaning Day
-author: Patrick Kollitsch
 type: post
 date: 2011-04-22T12:33:11+00:00
 url: /2011/04/samui-big-cleaning-day/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Einzweimal im Jahr wird auf Samui der gro?e Aufräumtag ausgerufen und Hundertschaften von Freiwilligen räumen den Müll vom Strand. [Morgen ist wieder einmal so ein Tag][1]. 
+Einzweimal im Jahr wird auf Samui der gro?e Aufräumtag ausgerufen und Hundertschaften von Freiwilligen räumen den Müll vom Strand. [Morgen ist wieder einmal so ein Tag][1].
 
 Die <span class="caps">TAT</span> (Tourism Authority of Thailand) verkauft das Ganze als Aktion im Zusammenhang mit den Fluten. Nach 4 Wochen ist allerdings der meiste Müll schon wieder neu.
 

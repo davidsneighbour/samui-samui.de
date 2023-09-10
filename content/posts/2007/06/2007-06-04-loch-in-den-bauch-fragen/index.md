@@ -1,6 +1,5 @@
 ---
 title: Loch in den Bauch fragen…
-author: Patrick Kollitsch
 type: post
 date: 2007-06-04T02:03:30+00:00
 url: /2007/06/loch-in-den-bauch-fragen/
@@ -10,8 +9,8 @@ url: /2007/06/loch-in-den-bauch-fragen/
 
 ---
 <div class="flickr">
-  <a href="http://flickr.com/photos/schreibblogade/529489668/"><img src="//farm2.static.flickr.com/1189/529489668_0baaabbbc7.jpg" width="500" height="375" alt="Lord Buddha." /></a></p> 
-  
+  <a href="http://flickr.com/photos/schreibblogade/529489668/"><img src="//farm2.static.flickr.com/1189/529489668_0baaabbbc7.jpg" width="500" height="375" alt="Lord Buddha." /></a></p>
+
   <p>
     Lord Buddha.
   </p>

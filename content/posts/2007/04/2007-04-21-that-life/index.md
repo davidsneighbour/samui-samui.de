@@ -1,6 +1,5 @@
 ---
 title: That life
-author: Patrick Kollitsch
 type: post
 date: 2007-04-21T11:47:26+00:00
 url: /2007/04/that-life/
@@ -10,8 +9,8 @@ url: /2007/04/that-life/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/466997652/"><img src="//farm1.static.flickr.com/194/466997652_56c1ffb5bd.jpg" class="flickr-photo" alt="" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/466997652/"><img src="//farm1.static.flickr.com/194/466997652_56c1ffb5bd.jpg" class="flickr-photo" alt="" /></a></p>
+
   <p>
     Sunset
   </p>

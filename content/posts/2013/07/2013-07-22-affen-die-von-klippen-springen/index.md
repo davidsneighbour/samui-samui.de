@@ -1,6 +1,5 @@
 ---
 title: Affen, die von Klippen springen
-author: Patrick Kollitsch
 type: post
 date: 2013-07-22T06:16:25+00:00
 url: /2013/07/affen-die-von-klippen-springen/

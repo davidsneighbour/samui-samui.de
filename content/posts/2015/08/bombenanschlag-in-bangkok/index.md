@@ -1,6 +1,5 @@
 ---
 title: Bombenanschlag in Bangkok
-author: Patrick Kollitsch
 type: post
 date: 2015-08-17T13:09:36+00:00
 url: /2015/08/bombenanschlag-in-bangkok/

@@ -1,6 +1,5 @@
 ---
 title: Metinee Kingpayoms Dessous
-author: Patrick Kollitsch
 type: post
 date: 2006-12-12T03:53:55+00:00
 url: /2006/12/metinee-kingpayoms-dessous/

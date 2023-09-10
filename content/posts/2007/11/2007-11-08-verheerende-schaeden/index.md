@@ -1,6 +1,5 @@
 ---
 title: Verheerende Schäden
-author: Patrick Kollitsch
 type: post
 date: 2007-11-08T02:45:06+00:00
 url: /2007/11/verheerende-schaeden/
@@ -10,7 +9,7 @@ url: /2007/11/verheerende-schaeden/
 
 ---
 
-  
+
 
 
 > [crisis may end if no more rain: governor][1]

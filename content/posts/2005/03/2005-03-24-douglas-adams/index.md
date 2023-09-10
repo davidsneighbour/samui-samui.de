@@ -1,13 +1,9 @@
 ---
 title: Alien vs. Predator
-author: Patrick Kollitsch
 type: post
 date: 2005-03-23T19:37:00+00:00
 url: /2005/03/douglas-adams/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 {{< figure src="wp-content/old-images/76.jpg" />}}
 

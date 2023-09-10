@@ -1,13 +1,9 @@
 ---
 title: Affordable Relationship Counceling in Samui
-author: Patrick Kollitsch
 type: post
 date: 2005-08-26T02:05:00+00:00
 url: /2005/08/affordable-relationship-counceling-in-samui/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Unter der titelgebenden Überschrift findet sich im Community Newspaper (ein Versuch den Glanz meines Lieblingsmagazins auf der Insel auch auf normalem Zeitungspapier einmal monatlich unter die Leute zu bringen) eine sehr ansprechende Anzeige im Classifieds-Bereich, die ich dem geneigten Leser nicht unkommentiert vorenthalten möchte:
 
@@ -27,6 +23,6 @@ Was? Oh! Der Text geht ja noch weiter!
 
 Yes! Strike! Coupling!
 
-> Call her for more details and your first discounted session for under 1000. 
+> Call her for more details and your first discounted session for under 1000.
 
 Und dann steht da eine Emailadresse. Hmm. Bei GmX.net. kann man da neuerdings auch telefonieren?

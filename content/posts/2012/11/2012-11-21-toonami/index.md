@@ -1,15 +1,11 @@
 ---
 title: Toonami
-author: Patrick Kollitsch
 type: post
 date: 2012-11-21T11:16:48+00:00
 url: /2012/11/toonami/
 fb_author_post_id:
   - "10151139367955642"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Die Pressemitteilung des Tages ist [die von "Toonami"][1], einem Cartoon-Fernsehsender, der am 1. Dezember in Thailand starten soll.
 

@@ -1,15 +1,11 @@
 ---
-title: 'Announcement: Krungthep 4.0'
-author: Patrick Kollitsch
+title: "Announcement: Krungthep 4.0"
 type: post
 date: 2005-09-14T20:59:39+00:00
 url: /2005/09/announcement-krungthep-40/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Werter Kunde! 
+Werter Kunde!
 
 Die **grauhirn.org Senior Developing Systems Analysis Engineering GmbH & Co. KG a.A.** freut sich auf die baldige Verfügbarkeit unseres beliebten Programmpaketes **Krungthep** in der **Version 4** (_Codename Enkelin_) hinweisen zu können.
 

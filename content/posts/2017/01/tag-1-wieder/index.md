@@ -1,6 +1,5 @@
 ---
 title: Tag 1, wieder
-author: Patrick Kollitsch
 type: post
 date: 2017-01-01T09:58:34+00:00
 url: /2017/01/tag-1-wieder/

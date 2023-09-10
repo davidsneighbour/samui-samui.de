@@ -1,15 +1,11 @@
 ---
 title: Der Neue im Team
-author: Patrick Kollitsch
 type: post
 date: 2005-01-29T04:10:35+00:00
 url: /2005/01/der-neue-im-team/
 dsq_thread_id:
   - "6412166567"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 {{< figure src="wp-content/old-images/31.jpg" />}}
 

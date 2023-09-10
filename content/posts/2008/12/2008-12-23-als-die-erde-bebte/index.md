@@ -1,6 +1,5 @@
 ---
 title: Als die Erde bebte
-author: Patrick Kollitsch
 type: post
 date: 2008-12-22T23:22:29+00:00
 url: /2008/12/als-die-erde-bebte/
@@ -10,8 +9,8 @@ url: /2008/12/als-die-erde-bebte/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3130204781/" title="earthquake"><img src="//farm4.static.flickr.com/3117/3130204781_36afb883e9.jpg" alt="earthquake" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/3130204781/" title="earthquake"><img src="//farm4.static.flickr.com/3117/3130204781_36afb883e9.jpg" alt="earthquake" /></a></p>
+
   <p>
     earthquake
   </p>

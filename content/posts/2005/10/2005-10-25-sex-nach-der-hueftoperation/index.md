@@ -1,13 +1,9 @@
 ---
 title: Sex nach der H??ftoperation
-author: Patrick Kollitsch
 type: post
 date: 2005-10-25T07:11:00+00:00
 url: /2005/10/sex-nach-der-hueftoperation/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Nun ja, man ist ja nicht mehr der Jüngste und sorgt sich auch dann und wann um die älteren Mitglieder der Bürogemeinschaft. Da ist es schon gut, zu wissen, [welche Positionen man nach dem Einbau einer künstlichen Hüfte vermeiden sollte][1] und [welche man unbeeinträchtigt weiterhin ausüben kann][2]. Quasi der Kamasutra für die Hüftoperierten. [via [Sex!][3] --- ein Blog, das ich nur lese, um mein Schwedisch zu verbessern]
 

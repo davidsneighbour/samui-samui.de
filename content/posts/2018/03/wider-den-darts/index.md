@@ -1,7 +1,6 @@
 ---
 title: "Wider den Darts"
 description: "Darts sind böse. Sagt der neueste Crackdown der Thai-Regierung."
-author: Patrick Kollitsch
 type: post
 date: 2018-03-13T20:53:07+07:00
 url: /2018/03/wider-den-darts

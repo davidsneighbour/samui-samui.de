@@ -1,6 +1,5 @@
 ---
 title: Dreiarmig
-author: Patrick Kollitsch
 type: post
 date: 2008-06-12T05:33:19+00:00
 url: /2008/06/dreiarmig/

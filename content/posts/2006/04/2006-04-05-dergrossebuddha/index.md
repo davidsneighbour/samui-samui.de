@@ -1,17 +1,13 @@
 ---
 title: Der gro?e Buddha
-author: Patrick Kollitsch
 type: post
 date: 2006-04-04T22:54:00+00:00
 url: /2006/04/dergrossebuddha/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/123545618/" title="Wat Phra Yai (Big Buddha)"><img src="//static.flickr.com/1/123545618_3e45cda7f2.jpg" alt="Wat Phra Yai (Big Buddha)" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/123545618/" title="Wat Phra Yai (Big Buddha)"><img src="//static.flickr.com/1/123545618_3e45cda7f2.jpg" alt="Wat Phra Yai (Big Buddha)" /></a></p>
+
   <p>
     Wat Phra Yai (Big Buddha)
   </p>

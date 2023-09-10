@@ -1,6 +1,5 @@
 ---
 title: In diesem Sinne…
-author: Patrick Kollitsch
 type: post
 date: 2014-12-31T11:30:47+00:00
 url: /2014/12/diesem-sinne-2/

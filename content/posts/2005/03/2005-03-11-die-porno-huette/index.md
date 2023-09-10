@@ -1,17 +1,13 @@
 ---
 title: Die Porno-Hütte
-author: Patrick Kollitsch
 type: post
 date: 2005-03-10T20:12:00+00:00
 url: /2005/03/die-porno-huette/
 dsq_thread_id:
   - "3664821706"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Eigentlich wollte ich ja mein erstes Statement zum Thema Sex und Thailand etwas anders gestalten, aber das hier ist nun echt der Hammer. 
+Eigentlich wollte ich ja mein erstes Statement zum Thema Sex und Thailand etwas anders gestalten, aber das hier ist nun echt der Hammer.
 
 Ich habe ja schon einigen Leuten erzählt, dass neuerdings das Nebenhaus von zwei (Südost)Deutschen bewohnt wird, die sich den einen Schlafraum für Privatunterhaltungen mit ihren eben so schnell vorhandenen ThaiFreundinnen teilen. Zumindest einer von ihnen ist recht laut, thumb und beschränkt in seiner Ausdrucksfäigkeit. (Beispiel: normale Menschen sagen am Telefon: "Ok, ich komm gleich rüber und hol dich ab" er sagt "Ok, dann setz ich mich jetzt auf mein Motobike und dann fahre ich los und brauche 10 Minuten zu dir, dann setzt du dich hinten drauf und ich fahre uns dann wieder hier her. Das braucht dann bestimmt auch so 10 Minuten, dann sind wir aber hier." --- Mal ganz abgesehen davon, dass er, als er dies sagte, sich 10 Meter entfernt hinter 2 Hütten befand und sich anhörte als ob er neben mir stünde.)
 

@@ -1,6 +1,5 @@
 ---
 title: Geburtstagskinder
-author: Patrick Kollitsch
 type: post
 date: 2006-10-02T04:59:49+00:00
 url: /2006/10/geburtstagskinder/

@@ -1,6 +1,5 @@
 ---
 title: Weihnachten
-author: Patrick Kollitsch
 type: post
 date: 2006-10-22T08:32:00+00:00
 url: /2006/10/weihnachten/

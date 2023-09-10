@@ -1,13 +1,9 @@
 ---
 title: Gottes Rottweiler
-author: Patrick Kollitsch
 type: post
 date: 2005-04-20T07:01:00+00:00
 url: /2005/04/gottes-rottweiler/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Gut, dass wir Bayern doch nicht ausgegliedert haben. So. Wir haben also einen Papst. Nicht das wir vorher keinen gehabt hätten, aber die Journalisten, die heute aus Rom schreiben, dürften damals (bei der letzten Konklave) noch in Windeln gewickelt im Krippenspiel mitdargestellt haben. Also ist es ein mediales Ereignis geworden. Man hätte ja fast glauben können bei soviel multimedialer Aufmerksamkeit hätte auch die katholische Kirche einen Neuanfang verdient.
 
@@ -19,9 +15,9 @@ Was bittesehr immer auch die Redakteure der Bildzeitung zur ?berschrift "[Wir si
 
 Im [Spiegel-Interview mit dem Münsteraner Theologen Horst Herrmann][3] sagt dieser so einiges. Unter anderem:
 
-> Er hat ein bestimmtes Weltbild. Er ist sehr versiert in der Philosophie und in der Zeitgeschichte. Er ist der Auffassung, wir lebten in einem Zeitalter der Beliebigkeit, des Relativismus, jeder darf tun, was er will, schrankenloser Individualismus, Rücksichtslosigkeit, Narzissmus, Egoismus sind die Stichworte. Und der Katholizismus, der steht unter Ratzinger für die Kontinuität einer festgefügten, seit 2000 Jahren unveränderten Wahrheit. 
+> Er hat ein bestimmtes Weltbild. Er ist sehr versiert in der Philosophie und in der Zeitgeschichte. Er ist der Auffassung, wir lebten in einem Zeitalter der Beliebigkeit, des Relativismus, jeder darf tun, was er will, schrankenloser Individualismus, Rücksichtslosigkeit, Narzissmus, Egoismus sind die Stichworte. Und der Katholizismus, der steht unter Ratzinger für die Kontinuität einer festgefügten, seit 2000 Jahren unveränderten Wahrheit.
 
-Ratzinger ist ein "Top-Theologe". Ratzinger ist ein Mann, der gegen gleichgeschlechtliche Ehen ist, der Verhütungsmittel verdammt und ?kumene blockiert. Fatal gesagt: Er ist ein Mann, der wenn er könnte die Kirche wieder ins Mittelalter versetzen würde. Diese Wahl war eine Wahl des Rückschritts für die katholische Kirche. 
+Ratzinger ist ein "Top-Theologe". Ratzinger ist ein Mann, der gegen gleichgeschlechtliche Ehen ist, der Verhütungsmittel verdammt und ?kumene blockiert. Fatal gesagt: Er ist ein Mann, der wenn er könnte die Kirche wieder ins Mittelalter versetzen würde. Diese Wahl war eine Wahl des Rückschritts für die katholische Kirche.
 
 Ich hätte nun fast geschrieben, Benedikt IcksPfauIh wäre das schlimmste Ergebnis, das kommen konnte, aber das wäre Kardinal Meisner aus Köln (der Andi Moeller der deutschen Bischofskonferenz) gewesen, der unter anderem dafür gesorgt hat, dass sich die katholische Kirche Deutschlands aus der Schwangerschaftsberatung zurückgezogen hat.
 

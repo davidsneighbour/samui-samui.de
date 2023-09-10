@@ -1,15 +1,11 @@
 ---
 title: Krungthep Mahanakhon 1.0 – Botschaften
-author: Patrick Kollitsch
 type: post
 date: 2005-06-08T07:38:00+00:00
 url: /2005/06/krungthep-mahanakhon-10-botschaften/
 dsq_thread_id:
   - "6412166692"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Hab ich eigentlich schon erwähnt, dass ich neulich in Krungthep war? Hab ich? Ach ja. Stimmt ja. Gut, dann liefere ich schnell noch ein Nachtbild von unserem Stra?enaufenthalt in Surrat Thani nach:
 

@@ -1,6 +1,5 @@
 ---
 title: Blutmond (Thaistyle)
-author: Patrick Kollitsch
 type: post
 date: 2015-10-03T08:58:32+00:00
 url: /2015/10/blutmond-thaistyle/

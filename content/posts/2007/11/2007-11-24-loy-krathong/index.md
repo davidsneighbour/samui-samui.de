@@ -1,6 +1,5 @@
 ---
 title: Loy Krathong
-author: Patrick Kollitsch
 type: post
 date: 2007-11-23T23:06:03+00:00
 url: /2007/11/loy-krathong/
@@ -9,9 +8,9 @@ url: /2007/11/loy-krathong/
 
 
 ---
-Es ist mal wieder Loy Krathong. Im November, zum Vollmond, gehen buddhistische Thais eine Hindugöttin ehren und die schlechten Taten des vergangenen Jahres in einem Bananenblattboot mit vielen Blüten und Kerzen (Krathongs) die Flüsse hinunter schwimmen lassen. 
+Es ist mal wieder Loy Krathong. Im November, zum Vollmond, gehen buddhistische Thais eine Hindugöttin ehren und die schlechten Taten des vergangenen Jahres in einem Bananenblattboot mit vielen Blüten und Kerzen (Krathongs) die Flüsse hinunter schwimmen lassen.
 
-Manche Thais bezeichnen den Tag sogar als Feiertag. Na ich weiss ja nicht. 
+Manche Thais bezeichnen den Tag sogar als Feiertag. Na ich weiss ja nicht.
 
 Die Krathongs bestehen heutzutage grö?tenteils aus Styropor, Plastik und Metallnadeln. Dabei sind moderne Thais sehr umweltbewusst. Gerade neulich wieder unterhielten sich ein paar Leute im Seven Eleven an der Kasse (natürlich vor mir und den Verkehr auf haltend) darüber, dass 25% des Abfalls in Bangkok aus Plastikverpackungen bestehen würde und wie schlecht das wäre. Dann nahmen sie dankend ihre vier Plastiktüten (zwei für die Bierflaschen, damit die nicht durchrei?en, eine für das Eis und eine für die Zigaretten) in Empfang und stiegen in ihre mit laufendem Motor vor dem Shop stehenden Pickups (der Innenraum muss immer schön kühl sein), um um die Ecke nach Hause zu fahren.
 

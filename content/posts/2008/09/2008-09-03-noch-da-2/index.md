@@ -1,6 +1,5 @@
 ---
 title: Noch da
-author: Patrick Kollitsch
 type: post
 date: 2008-09-03T16:16:17+00:00
 url: /2008/09/noch-da-2/
@@ -9,9 +8,9 @@ url: /2008/09/noch-da-2/
 
 
 ---
-Wir sind alle noch da. Samak bleibt (vorerst) Premierminister und das Internet wurde (noch) nicht gekappt. Die Gerüchte um Samaks Rücktritt haben vermutlich für eine ruhige Nacht gesorgt. 
+Wir sind alle noch da. Samak bleibt (vorerst) Premierminister und das Internet wurde (noch) nicht gekappt. Die Gerüchte um Samaks Rücktritt haben vermutlich für eine ruhige Nacht gesorgt.
 
-Samak hat heute Morgen in seiner Ansprache lang und breit erklärt, [dass er nicht zurück treten kann][1], weil das Land ihn braucht. 
+Samak hat heute Morgen in seiner Ansprache lang und breit erklärt, [dass er nicht zurück treten kann][1], weil das Land ihn braucht.
 
 Stattdessen hat man heute vormittag in einer eilends einberufenen Parlamentssitzung beschlossen, [ein Volksreferendum durchzuführen][2], in dem geklärt werden soll, ob die Wahlgesetze geändert werden sollen, das Parlament aufgelöst werden soll und ob Samak Premierminister bleiben soll.
 

@@ -1,16 +1,12 @@
 ---
-title: 'NewsAlert: Shinawatra erh??lt Blumengirlanden von einem Elephanten!!!'
-author: Patrick Kollitsch
+title: "NewsAlert: Shinawatra erh??lt Blumengirlanden von einem Elephanten!!!"
 type: post
 date: 2006-03-14T19:23:00+00:00
 url: /2006/03/newsalert-shinawatra-erhaelt-eine-blumengirlande-von-einem-elephanten/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 
-  
+
 
 
 > Thailand's Prime Minister Thaksin Shinawatra receives garlands of flowers from an elephant in Surin province, about 430 km (267 miles) east of Bangkok March 14, 2006. [via [Reuters][1]]

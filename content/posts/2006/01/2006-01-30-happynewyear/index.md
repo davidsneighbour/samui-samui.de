@@ -1,6 +1,5 @@
 ---
 title: Happy New Year!
-author: Patrick Kollitsch
 type: post
 date: 2006-01-29T20:12:00+00:00
 url: /2006/01/happynewyear/
@@ -10,8 +9,8 @@ url: /2006/01/happynewyear/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/92869519/" title="2006-01-30 152"><img src="//static.flickr.com/19/92869519_cbbad1410e.jpg" alt="Happy New Year!" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/92869519/" title="2006-01-30 152"><img src="//static.flickr.com/19/92869519_cbbad1410e.jpg" alt="Happy New Year!" /></a></p>
+
   <p>
     Happy New Year!
   </p>

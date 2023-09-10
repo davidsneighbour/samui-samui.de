@@ -1,6 +1,5 @@
 ---
 title: Neues von den Hunden
-author: Patrick Kollitsch
 type: post
 date: 2009-02-24T14:02:43+00:00
 url: /2009/02/neues-von-den-hunden/
@@ -12,8 +11,8 @@ dsq_thread_id:
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3295535196/" title="Official"><img src="//farm4.static.flickr.com/3082/3295535196_600da4748a.jpg" alt="Official" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/3295535196/" title="Official"><img src="//farm4.static.flickr.com/3082/3295535196_600da4748a.jpg" alt="Official" /></a></p>
+
   <p>
     Official
   </p>

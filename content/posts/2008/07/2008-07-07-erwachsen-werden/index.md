@@ -1,6 +1,5 @@
 ---
 title: Erwachsen werden
-author: Patrick Kollitsch
 type: post
 date: 2008-07-07T15:35:41+00:00
 url: /2008/07/erwachsen-werden/
@@ -11,7 +10,7 @@ url: /2008/07/erwachsen-werden/
 ---
 Wer nun hoffte, hier einen tiefen einsichtigen Eintrag zu meiner Adoleszenz zu lesen, der sei versichert: Wenn die Hölle zufriert. Beides, Adoleszenz und Eintrag.
 
-Es geht um meine beiden kleinen süssen struppigen stinkenden Lebensgefährten Pokki und Soosie. Die beiden müssen am Tag nur noch zweimal vor die Tür. Das mag seltsam klingen, aber bis vor unseren Urlaub wollten sie wenn möglich aller zwei drei Stunden vors Haus und hatten immer irgendwelche wichtigen Geschäfte zu verrichten. 
+Es geht um meine beiden kleinen süssen struppigen stinkenden Lebensgefährten Pokki und Soosie. Die beiden müssen am Tag nur noch zweimal vor die Tür. Das mag seltsam klingen, aber bis vor unseren Urlaub wollten sie wenn möglich aller zwei drei Stunden vors Haus und hatten immer irgendwelche wichtigen Geschäfte zu verrichten.
 
 Nun also nur noch zweimal und wenn ich ausserhalb der regulären Zeiten auffordernd "los" rufe, ernte ich skeptisch bedauernde Blicke.
 

@@ -1,6 +1,5 @@
 ---
 title: Springfluten
-author: Patrick Kollitsch
 type: post
 date: 2009-09-30T23:19:01+00:00
 url: /2009/10/springfluten/
@@ -9,7 +8,7 @@ url: /2009/10/springfluten/
 
 
 ---
-Diesmal wird man sogar vor Springfluten gewarnt. [Samui, Koh Phangan][1] sowie [18 Provinzen][2] an der Ostküste Thailands müssen mit starkem Regen und Sturm rechnen. 
+Diesmal wird man sogar vor Springfluten gewarnt. [Samui, Koh Phangan][1] sowie [18 Provinzen][2] an der Ostküste Thailands müssen mit starkem Regen und Sturm rechnen.
 
 Springfluten gibts auf Samui immer, wenn es mal stärker regnet, weil die Abwasserleitungen alle mit Müll vollgestopft und passenderweise erst nach der Regenzeit gereinigt werden. Klasse.
 

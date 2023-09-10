@@ -1,6 +1,5 @@
 ---
 title: Regenkunde
-author: Patrick Kollitsch
 type: post
 date: 2008-05-30T23:59:08+00:00
 url: /2008/05/regenkunde/
@@ -10,8 +9,8 @@ url: /2008/05/regenkunde/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2538805624/" title="Weather Report Samui"><img src="//farm3.static.flickr.com/2388/2538805624_c8bdc182fa.jpg" alt="Weather Report Samui" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/2538805624/" title="Weather Report Samui"><img src="//farm3.static.flickr.com/2388/2538805624_c8bdc182fa.jpg" alt="Weather Report Samui" /></a></p>
+
   <p>
     Weather Report Samui
   </p>

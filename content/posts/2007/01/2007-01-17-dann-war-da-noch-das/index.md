@@ -1,6 +1,5 @@
 ---
 title: Dann war da noch das
-author: Patrick Kollitsch
 type: post
 date: 2007-01-16T23:00:18+00:00
 url: /2007/01/dann-war-da-noch-das/

@@ -1,25 +1,21 @@
 ---
 title: Hausbau Thaistyle
-author: Patrick Kollitsch
 type: post
 date: 2006-07-26T03:40:00+00:00
 url: /2006/07/hausbau-thaistyle/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/198669035/" title="Homebuilding Thaistyle"><img src="//static.flickr.com/62/198669035_93751457bb.jpg" alt="Homebuilding Thaistyle" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/198669035/" title="Homebuilding Thaistyle"><img src="//static.flickr.com/62/198669035_93751457bb.jpg" alt="Homebuilding Thaistyle" /></a></p>
+
   <p>
     Homebuilding Thaistyle
   </p>
 </div>
 
-Gerade saß ich im Cafe und genoss eine Latte als beim Hausbau gegenüber der Beton-Truck kam. Ein Kranwagen mit Betonbehälter war schon da, [die Säulen sollten aus dem dritten Stockwerk heraus gegossen werden][1]. 
+Gerade saß ich im Cafe und genoss eine Latte als beim Hausbau gegenüber der Beton-Truck kam. Ein Kranwagen mit Betonbehälter war schon da, [die Säulen sollten aus dem dritten Stockwerk heraus gegossen werden][1].
 
-Der Fahrer (so um die 35 Jahre alt) stieg erstmal aus und schob mein Moped beiseite. Dann wendete er umständlich und fuhr mit Vollgas an die im Photo dargestellte Stelle heran. 
+Der Fahrer (so um die 35 Jahre alt) stieg erstmal aus und schob mein Moped beiseite. Dann wendete er umständlich und fuhr mit Vollgas an die im Photo dargestellte Stelle heran.
 
 Die Bauarbeiter kamen gerannt (einige sprangen erstmal lachend vom Gerüst) und fingen an, ihn einzuweisen. Dann fuhr er mit Vollgas gegen den Holzpfahl in der Mitte des Bildes. Er rollte zurück und man betrachtete sich lachend das angestellte Unheil. Kein Problem war die abschließende Analyse und er bestieg sein Führerhaus wieder um mit Vollgas rückwärts diesmal genauer in die Richtung des Kranbetonbehälters zu fahren. Das gelang ihm auch und er hing mit zwei Rädern auf dem Behälter und in der Luft. Der angehängte Kran schwankte bedenklich.
 

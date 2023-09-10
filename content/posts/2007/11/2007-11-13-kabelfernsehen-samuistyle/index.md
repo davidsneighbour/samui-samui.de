@@ -1,6 +1,5 @@
 ---
 title: Kabelfernsehen Samuistyle
-author: Patrick Kollitsch
 type: post
 date: 2007-11-13T12:57:26+00:00
 url: /2007/11/kabelfernsehen-samuistyle/
@@ -22,7 +21,7 @@ Kabelfernsehen ist Fernsehen aus dem Kabel. Man zahlt 450 Baht im Monat (150 Bah
   * europäische Kanäle, <span class="caps">RAI</span>, das Franzosending und so weiter...
   * eine Unmenge an anderswo zusammen gesammelten Kanälen, manche nützlich, manche, damit man sagen kann "mehr als 40 Programme".
 
-Jetzt könnte man ja meinen, da wäre nichts dran auszusetzen. Ist es auch nicht. Dummerweise nur sind gut 10 der Kanäle live aus dem Internet gestreamt. Das heisst, wenn bei MNet Freitag um 20 Uhr ein superduper Film kommt, dann kommt der um Acht Zentralafrikanischer Zeit. Das dürfte so ungefähr Europazeit sein. 
+Jetzt könnte man ja meinen, da wäre nichts dran auszusetzen. Ist es auch nicht. Dummerweise nur sind gut 10 der Kanäle live aus dem Internet gestreamt. Das heisst, wenn bei MNet Freitag um 20 Uhr ein superduper Film kommt, dann kommt der um Acht Zentralafrikanischer Zeit. Das dürfte so ungefähr Europazeit sein.
 
 Wenn dann ein kleines bisschen Regen kommt oder ein Stromausfall (soll ja hin und wieder vorkommen), dann stürzt der Router bei Samuikabel aus. Man hört ein bassiges Plopp im Fernseher, nach 20 Sekunden fängt sich alles wieder, man sieht, wie das Programm neu startet, den Kanal sucht und dann vermeldet "No Video or Audio", weil die Internetleitung noch down ist. Nach 5 Minuten kann es weiter gehen. Das Ganze passiert in der Stunde ungefähr einmal.
 

@@ -1,6 +1,5 @@
 ---
 title: Na endlich!
-author: Patrick Kollitsch
 type: post
 date: 2007-10-21T01:11:41+00:00
 url: /2007/10/na-endlich/
@@ -10,8 +9,8 @@ url: /2007/10/na-endlich/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/1672950163/" title="Finally!!!"><img src="//farm3.static.flickr.com/2117/1672950163_37b91dcec2.jpg" alt="Finally!!!" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/1672950163/" title="Finally!!!"><img src="//farm3.static.flickr.com/2117/1672950163_37b91dcec2.jpg" alt="Finally!!!" /></a></p>
+
   <p>
     Finally!!!
   </p>

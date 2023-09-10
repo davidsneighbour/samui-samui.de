@@ -1,15 +1,11 @@
 ---
 title: Konstruktive Kritik
-author: Patrick Kollitsch
 type: post
 date: 2011-03-18T20:47:16+00:00
 url: /2011/03/konstruktive-kritik/
 dsq_thread_id:
   - "3191127381"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Eben in der Mailbox:
 
@@ -30,5 +26,5 @@ Nach kurzem Googlen des Herren fand ich folgenden recht beschreibenden Satz, den
 Siehe Logfiles:
 
 3:34:16 Uhr Friedliche Demonstranten in Bangkok
-  
+
 3:34:29 Uhr Kontakt

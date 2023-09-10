@@ -1,15 +1,11 @@
 ---
 title: Samui ist sicher wie eine Jauchegrube
-author: Patrick Kollitsch
 type: post
 date: 2005-05-27T05:09:00+00:00
 url: /2005/05/samui-ist-sicher-wie-eine-jauchegrube/
 dsq_thread_id:
   - "2894603767"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Wenn es nicht so traurig wäre würde ich in einen wahren Schadenfreudenrausch mir selbst gegenüber ausbrechen. Ist aber leider traurig und ungeheuer dumm. Also muss Anderseiner die Schadenfreude empfinden.
 
@@ -31,7 +27,7 @@ Nun bin ich im Besitz von 60 THB, meinen Klamotten und der Erkenntnis, dass es n
 
 Achso. Alles ist nicht verloren. Ich hab dann im Büro meinen Fotoapparat vorgefunden, den ich gestern dort vergessen hatte. Dann und wann ist Alzheimer ganz nützlich. Und meinen Lohn für Mai hab ich auch schon. Nur pack ich den nicht mehr auf die Bank. Und in mein Haus kommen nur noch Buddhastatuen und Tütensuppen.
 
-Ich glaube, ich werde demnächst Krungthep, die Stadt der Engel sehen. Ich weiss nur noch nicht, wie ich wieder an mein Non Immigrant Visa B rankomme. 
+Ich glaube, ich werde demnächst Krungthep, die Stadt der Engel sehen. Ich weiss nur noch nicht, wie ich wieder an mein Non Immigrant Visa B rankomme.
 
 Und überhaupt, das ist ja nicht alles...
 

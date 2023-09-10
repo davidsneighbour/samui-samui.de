@@ -1,6 +1,5 @@
 ---
 title: David Carradine ist tot
-author: Patrick Kollitsch
 type: post
 date: 2009-06-04T00:54:41+00:00
 url: /2009/06/david-carradine-ist-tot/
@@ -9,9 +8,9 @@ url: /2009/06/david-carradine-ist-tot/
 
 
 ---
-[David Carradine ist nach Presseberichten tot][1]. Vermutlich hat er sich selbst umgebracht, zumindest hat man ihn in einem Bangkoker Hotelzimmer hängend gefunden. 
+[David Carradine ist nach Presseberichten tot][1]. Vermutlich hat er sich selbst umgebracht, zumindest hat man ihn in einem Bangkoker Hotelzimmer hängend gefunden.
 
-Die älteren unter meinen Lesern werden ihn als Kwai Chang Caine aus der Serie "Kung Fu" kennen, die jüngeren als Bill aus Kill Bill. 
+Die älteren unter meinen Lesern werden ihn als Kwai Chang Caine aus der Serie "Kung Fu" kennen, die jüngeren als Bill aus Kill Bill.
 
 Ich finde immer wieder berauschend, mit welcher Detailfreude selbst halbwegs seriöse Medien hier in Thailand Todes- und andere Fälle begleiten:
 

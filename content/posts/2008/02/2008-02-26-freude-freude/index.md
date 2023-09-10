@@ -1,6 +1,5 @@
 ---
 title: Freude, Freude!
-author: Patrick Kollitsch
 type: post
 date: 2008-02-26T12:16:45+00:00
 url: /2008/02/freude-freude/

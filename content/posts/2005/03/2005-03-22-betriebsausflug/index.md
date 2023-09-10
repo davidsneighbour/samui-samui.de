@@ -1,13 +1,9 @@
 ---
 title: Betriebsausflug
-author: Patrick Kollitsch
 type: post
 date: 2005-03-22T04:41:00+00:00
 url: /2005/03/betriebsausflug/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Soso. Heute waren wir in Ban Nathon auf Betriebsausflug. Um 10 Uhr kam der Kremserwagen, wir öffneten ein paar Flaschen Bier (in einem reinen Männerunternehmen darf man das) und sangen schmutzige Lieder.
 
@@ -23,11 +19,11 @@ Hmm... Man stelle sich folgendes vor: Wir gehen auf einer Einkaufsstra?e entlang
 
 Ich bin somit im Besitz der [Beglaubigung, dass ich geistig und körperlich gesund bin][1]. Gut, mir könnte ein Kopf unter der Achsel herauswachsen. Aber meinen Beleg habe ich. Sollte jemand Zweifel hegen --- Bitte! Ich hab es schwarz auf wei?! Mit Stempel! Dr. Surasit hat das gesagt und einem Doktor werdet ihr doch wohl glauben?
 
-Jedenfalls unterhielt er uns während des Ausfüllens des Formulares mit lustigen Bemerkungen und Fotos aus verschiedenen Photoalben. Das erste Foto war eine Person sitzend quer vor [Hin Yai][2]. So optimal ausgerichtet, dass es aussah als ob, na? genau... jede Menge Familienphotos. Sein Lehrer (eine wichtige Person in seinem Leben). Manchmal fährt er nach Bangkok um dort seinen Klassen zu zeigen, wie man sicher mit Wunden umgeht. 
+Jedenfalls unterhielt er uns während des Ausfüllens des Formulares mit lustigen Bemerkungen und Fotos aus verschiedenen Photoalben. Das erste Foto war eine Person sitzend quer vor [Hin Yai][2]. So optimal ausgerichtet, dass es aussah als ob, na? genau... jede Menge Familienphotos. Sein Lehrer (eine wichtige Person in seinem Leben). Manchmal fährt er nach Bangkok um dort seinen Klassen zu zeigen, wie man sicher mit Wunden umgeht.
 
-Netter Mann. Dr. Surasit. Jaja. 
+Netter Mann. Dr. Surasit. Jaja.
 
-Dann waren wir im Foto-Shop. Für die Arbeitserlaubnis brauchen wir wie gesagt 13 Fotos. Muss ja jeder Polizist in Thailand wissen, wer hier arbeitet. Jedenfalls _müssen_ die Fotos mit Schlips und Kragen sein. Wobei Kragen in Japan gleichbedeutend mit Jacket ist. Ich habe keins. Aber einen netten Schlips (eigentlich zwei aber der Zweite passt farblich nicht) hab ich mir gekauft. Gebunden. 
+Dann waren wir im Foto-Shop. Für die Arbeitserlaubnis brauchen wir wie gesagt 13 Fotos. Muss ja jeder Polizist in Thailand wissen, wer hier arbeitet. Jedenfalls _müssen_ die Fotos mit Schlips und Kragen sein. Wobei Kragen in Japan gleichbedeutend mit Jacket ist. Ich habe keins. Aber einen netten Schlips (eigentlich zwei aber der Zweite passt farblich nicht) hab ich mir gekauft. Gebunden.
 
 Der Fotograph hatte dann einen wahrlich überquellenden Fundus an Passfotoklamotten, aus dem er uns ein Jacket aufzwang. Jedem das Gleiche. Schnell Fotos geschossen. Krawatte runter und weg damit.
 
@@ -35,7 +31,7 @@ Ich bin nun im Besitz von wunderschönen Passfotos. Nein ehrlich. Die letzten dr
 
 Mal ehrlich, werter Leser: Dem netten Gesicht auf der rechten Seite würden Sie doch ein Zeitschriften-Abo abkaufen, wenn es Ihnen erzählen würde, dass es Frau und Kind in Deutschland hat und hier her nachholen will, oder?
 
-Und ich verstehe nun auch, was die ganzen Thaifrauen immer von mir wollen. 
+Und ich verstehe nun auch, was die ganzen Thaifrauen immer von mir wollen.
 
 Irgendwie muss ich mir einen anderen Spiegel zulegen. Wenn ich früh in den in der Hütte sehe, dann steht da jemand anderes.
 

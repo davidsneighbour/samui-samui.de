@@ -1,6 +1,5 @@
 ---
 title: Termine der Fullmoonparty auf Koh Pha Ngaan
-author: Patrick Kollitsch
 type: post
 date: 2008-04-27T15:09:09+00:00
 url: /2008/04/termine-der-fullmoonparty-auf-koh-pha-ngaan/

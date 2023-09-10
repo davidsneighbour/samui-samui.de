@@ -1,6 +1,5 @@
 ---
 title: Bangkok, der Naturpark
-author: Patrick Kollitsch
 type: post
 date: 2017-01-27T13:53:12+00:00
 url: /2017/01/naturpark-bangkok/
@@ -20,6 +19,6 @@ Google Maps hat heute morgen Bangkok zum Naturpark ernannt. Wenn man ganz weit a
 
 Allerdings: Als man bei den Parkbeamten telephonisch anfragte, ob Bangkok jetzt zum Naturpark gehört, hat dieser tatsächlich nicht gewusst, ob das so sei. Wirklich.
 
-[via [Khaosod][1]]
+\[via [Khaosod][1]]
 
 [1]: http://www.khaosodenglish.com/culture/net/2017/01/27/much-green-google-declares-bangkok-parkland/

@@ -1,13 +1,9 @@
 ---
-title: 'Foto-Roman: Zahltag'
-author: Patrick Kollitsch
+title: "Foto-Roman: Zahltag"
 type: post
 date: 2005-10-31T00:28:00+00:00
 url: /2005/10/foto-roman-zahltag/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Wenn man am Zahltag diesen Batzen Geld...
 

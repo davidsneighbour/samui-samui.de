@@ -1,6 +1,5 @@
 ---
 title: Vogelgrippe
-author: Patrick Kollitsch
 type: post
 date: 2007-03-19T23:33:46+00:00
 url: /2007/03/vogelgrippe-2/

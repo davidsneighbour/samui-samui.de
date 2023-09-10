@@ -1,6 +1,5 @@
 ---
 title: Shihtzuphrenia
-author: Patrick Kollitsch
 type: post
 date: 2006-06-15T08:11:00+00:00
 url: /2006/06/shihtzuphrenia/

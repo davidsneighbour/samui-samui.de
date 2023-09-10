@@ -1,13 +1,9 @@
 ---
 title: Man fliegt wieder
-author: Patrick Kollitsch
 type: post
 date: 2011-03-29T20:52:12+00:00
 url: /2011/03/man-fliegt-wieder/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Bangkok Airways hat den ganzen Tag gearbeitet und doch mehr als nur die zwei angekündigten Flüge durchgeführt:
 
@@ -15,6 +11,6 @@ Bangkok Airways hat den ganzen Tag gearbeitet und doch mehr als nur die zwei ang
 
 (via Facebook)
 
-Ausserdem fliegt seit ein paar Stunden regelmä?ig ein Hubschrauber übers Haus --- entweder suchen sie jemanden oder auch sie fliegen Touristen aus. 
+Ausserdem fliegt seit ein paar Stunden regelmä?ig ein Hubschrauber übers Haus --- entweder suchen sie jemanden oder auch sie fliegen Touristen aus.
 
 Ich überlege, ob ich nachher mal versuche, einen der in der Nähe liegenden 7elevens anzuschwimmen. Die Regale werden zwar leer sein, aber Bier haben sie immer ;)

@@ -1,15 +1,11 @@
 ---
 title: R??ckkehr der Kaltwelle
-author: Patrick Kollitsch
 type: post
 date: 2005-12-12T19:44:00+00:00
 url: /2005/12/rueckkehrderkaltwelle/
 dsq_thread_id:
   - "3204719679"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 [<img width="455" src="//static.flickr.com/35/73021263_357f2105ae.jpg" alt="Me. Now. Shaving-accident again." />][1]
 

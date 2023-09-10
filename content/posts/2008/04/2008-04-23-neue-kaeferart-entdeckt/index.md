@@ -1,6 +1,5 @@
 ---
 title: Neue Käferart entdeckt
-author: Patrick Kollitsch
 type: post
 date: 2008-04-23T04:06:11+00:00
 url: /2008/04/neue-kaeferart-entdeckt/
@@ -10,8 +9,8 @@ url: /2008/04/neue-kaeferart-entdeckt/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2437116396/" title="Ghost"><img src="//farm4.static.flickr.com/3066/2437116396_794b85d710.jpg" alt="Ghost" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/2437116396/" title="Ghost"><img src="//farm4.static.flickr.com/3066/2437116396_794b85d710.jpg" alt="Ghost" /></a></p>
+
   <p>
     Ghost
   </p>

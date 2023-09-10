@@ -1,6 +1,5 @@
 ---
 title: Grü?e aus der (amerikanischen) Realität
-author: Patrick Kollitsch
 type: post
 date: 2006-08-20T22:53:00+00:00
 url: /2006/08/gruesse-aus-der-amerikanischen-realitaet/
@@ -9,7 +8,7 @@ url: /2006/08/gruesse-aus-der-amerikanischen-realitaet/
 
 
 ---
-[Zone Reality][1] ist ein lustiger kleiner britischer Sender der seinen Weg ins thailändische Kabelnetz gefunden hat. Wenn nicht achtziger Jahre 911-Serien kommen dann kann man sehen wie sich Cowboys die Hoden beim Bullriding ruinieren, Drogenhändler verdeckte Ermittler vor versteckter Kamera verkloppen, kleine Idioten in einem Überlaufbecken bei Regen Skateboard fahren und fast ertrinken, Operationen am offenen Herzen fast schief gehen und fanatische Hundebesitzer in Kanalrohren feststecken, weil sie ihren Lieblingen hinterherkraulen und vom Umfang das Rohr bei weitem übertreffen. 
+[Zone Reality][1] ist ein lustiger kleiner britischer Sender der seinen Weg ins thailändische Kabelnetz gefunden hat. Wenn nicht achtziger Jahre 911-Serien kommen dann kann man sehen wie sich Cowboys die Hoden beim Bullriding ruinieren, Drogenhändler verdeckte Ermittler vor versteckter Kamera verkloppen, kleine Idioten in einem Überlaufbecken bei Regen Skateboard fahren und fast ertrinken, Operationen am offenen Herzen fast schief gehen und fanatische Hundebesitzer in Kanalrohren feststecken, weil sie ihren Lieblingen hinterherkraulen und vom Umfang das Rohr bei weitem übertreffen.
 
 Alles in allem also die Sorte "Reality"-Serien die man sich bei RTL2 ankucken kann. Die meisten Serien sind aus den achtziger Jahren und größtenteils aus den <span class="caps">USA</span>. Lustig ist auch die Eigenwerbung: Man hört Hillbilly-Musik und sieht ein paar Warnschilder in der Art "Nicht Schwimmen, bissige Krokodile" und "Bitte Bären nicht füttern". Dann weiße Schrift auf schwarzem Grund (nicht gesprochen): "10 Millionen Amerikaner cannot read. We salute them all." Bester britischer Humor.
 

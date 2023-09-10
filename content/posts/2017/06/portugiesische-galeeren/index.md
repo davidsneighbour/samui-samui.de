@@ -1,6 +1,5 @@
 ---
 title: Portugiesische Galeeren
-author: Patrick Kollitsch
 type: post
 date: 2017-06-28T15:44:53+00:00
 url: /2017/06/portugiesische-galeeren/

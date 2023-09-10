@@ -1,15 +1,11 @@
 ---
 title: Subtilit??t
-author: Patrick Kollitsch
 type: post
 date: 2006-02-02T20:19:00+00:00
 url: /2006/02/subtilitaet-2/
 tags:
-- pokki
-
-
-
-
+  - pokki
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 [![hrmpf!][1]][2]
 

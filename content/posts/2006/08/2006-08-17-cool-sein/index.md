@@ -1,6 +1,5 @@
 ---
 title: Cool sein
-author: Patrick Kollitsch
 type: post
 date: 2006-08-17T12:19:36+00:00
 url: /2006/08/cool-sein/

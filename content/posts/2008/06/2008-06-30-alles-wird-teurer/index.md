@@ -1,6 +1,5 @@
 ---
 title: Alles wird teurer
-author: Patrick Kollitsch
 type: post
 date: 2008-06-30T03:12:50+00:00
 url: /2008/06/alles-wird-teurer/

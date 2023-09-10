@@ -1,15 +1,11 @@
 ---
 title: Old Boy
-author: Patrick Kollitsch
 type: post
 date: 2005-08-13T23:00:00+00:00
 url: /2005/08/old-boy/
 dsq_thread_id:
   - "3087365479"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 {{< figure src="wp-content/old-images/133.jpg" />}}
 

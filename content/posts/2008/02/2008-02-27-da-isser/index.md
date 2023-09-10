@@ -1,6 +1,5 @@
 ---
 title: Da isser!
-author: Patrick Kollitsch
 type: post
 date: 2008-02-27T13:20:38+00:00
 url: /2008/02/da-isser/

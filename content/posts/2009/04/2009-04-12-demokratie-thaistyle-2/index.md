@@ -1,6 +1,5 @@
 ---
 title: Demokratie Thaistyle
-author: Patrick Kollitsch
 type: post
 date: 2009-04-11T21:16:30+00:00
 url: /2009/04/demokratie-thaistyle-2/
@@ -9,7 +8,7 @@ url: /2009/04/demokratie-thaistyle-2/
 
 
 ---
-Nach Pattaya gestern wurde heute [in Bangkok und 5 weiteren Provinzen][1] der Ausnahmezustand ausgerufen. 
+Nach Pattaya gestern wurde heute [in Bangkok und 5 weiteren Provinzen][1] der Ausnahmezustand ausgerufen.
 
 Photos kann man bei Twitpic ([1][2], [2][2]) und [den üblichen Newsquellen][3] ansehen...
 

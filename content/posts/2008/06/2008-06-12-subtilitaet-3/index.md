@@ -1,6 +1,5 @@
 ---
 title: Subtilität
-author: Patrick Kollitsch
 type: post
 date: 2008-06-12T01:11:25+00:00
 url: /2008/06/subtilitaet-3/
@@ -9,7 +8,7 @@ url: /2008/06/subtilitaet-3/
 
 
 ---
-Subtilität ist nach Meinung mancher fehl am Platz in der thailändischen Politik. 
+Subtilität ist nach Meinung mancher fehl am Platz in der thailändischen Politik.
 
 Am Dienstag fand man auf dem Schreibtisch des Richters am obersten Gerichtshof Thailands, der sich mit dem Fall von Thaksin Shinawatra, seines Zeichens Präsident des thailändischen Profigolferverbands und früher auch mal Politiker, zu beschäftigen hat, eine Keksdose.
 

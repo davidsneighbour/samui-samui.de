@@ -1,6 +1,5 @@
 ---
 title: Pilzsuppe
-author: Patrick Kollitsch
 type: post
 date: 2006-09-07T09:17:56+00:00
 url: /2006/09/pilzsuppe/

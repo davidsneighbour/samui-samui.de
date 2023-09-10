@@ -1,6 +1,5 @@
 ---
 title: Thaksins Anwälte im Gefängnis.
-author: Patrick Kollitsch
 type: post
 date: 2008-06-25T01:31:36+00:00
 url: /2008/06/thaksins-anwaelte-im-gefaengnis/
@@ -9,7 +8,7 @@ url: /2008/06/thaksins-anwaelte-im-gefaengnis/
 
 
 ---
-[Wie][1]? 
+[Wie][1]?
 
 > The Supreme Court yesterday sentenced three attorneys for ousted premier Thaksin Shinawatra and his wife Pojaman to six months in prison for attempted bribery.
 

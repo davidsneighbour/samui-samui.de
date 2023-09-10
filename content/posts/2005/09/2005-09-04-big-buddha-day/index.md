@@ -1,13 +1,9 @@
 ---
 title: Big Buddha Day
-author: Patrick Kollitsch
 type: post
 date: 2005-09-03T23:54:00+00:00
 url: /2005/09/big-buddha-day/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Ok. Ich tu jetzt mal so als hätte ich nicht die Digicam im Büro vergessen und das erst gemerkt als ich da war und papp hier ein Foto aus dem März hin. Hat sich eh nicht viel geändert seither, Big Buddha wacht immer noch mit schlaffen Lidern über seine <del>Schafe</del> Kinder.
 

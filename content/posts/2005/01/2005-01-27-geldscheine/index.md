@@ -1,15 +1,11 @@
 ---
 title: Geldscheine
-author: Patrick Kollitsch
 type: post
 date: 2005-01-26T19:36:17+00:00
 url: /2005/01/geldscheine/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Keine Angst, es handelt sich hierbei nicht um mein Lieblingsthema ;) Wie wissen ja nun, dass man hier auf den König Bhumibol Adulyadej nichts kommen lässt. Man darf nicht über ihn lästern. Er ist ein feiner Kerl. 
+Keine Angst, es handelt sich hierbei nicht um mein Lieblingsthema ;) Wie wissen ja nun, dass man hier auf den König Bhumibol Adulyadej nichts kommen lässt. Man darf nicht über ihn lästern. Er ist ein feiner Kerl.
 
 Man sollte aber auch tunlichst vermeiden, mit dem Fu? einen wegflatternden Geldschein festzuhalten, denn mitten auf dem Schein ist der König in verschiedenen Bilder abgebildet. Und weil der Fu? das niedrigste aller Körperteile ist (in beiden Bedeutungen des Wortes) wäre es fatal, den König ins Gesicht zu treten.
 

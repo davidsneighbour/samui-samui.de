@@ -1,17 +1,13 @@
 ---
 title: Wahl. Nachschlag.
-author: Patrick Kollitsch
 type: post
 date: 2006-04-03T19:40:00+00:00
 url: /2006/04/wahl-nachschlag/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Warten auch Sie auf die Ergebnisse? Irgendwie zählt man hier langsamer. Ich habe gehört, der Premierminister will sich die Ergebnisse gestern Abend anhören. Hat er aber wohl nicht, sonst hätte man ja in den Nachrichten was gesehen. Wie auch immer. 
+Warten auch Sie auf die Ergebnisse? Irgendwie zählt man hier langsamer. Ich habe gehört, der Premierminister will sich die Ergebnisse gestern Abend anhören. Hat er aber wohl nicht, sonst hätte man ja in den Nachrichten was gesehen. Wie auch immer.
 
-Sondhi (Thaksins Lieblingsfeind) hat übrigens einige Klagen wegen Majestätsbeleidigung am Halse. Einige munkeln, seine plötzliche Abreise am Samstag nach China hätte damit zu tun, dass er einen Haftbefehl befürchtet. Inzwischen ist er aber wieder da und sagt, er wolle nur Urlaub gemacht haben. 
+Sondhi (Thaksins Lieblingsfeind) hat übrigens einige Klagen wegen Majestätsbeleidigung am Halse. Einige munkeln, seine plötzliche Abreise am Samstag nach China hätte damit zu tun, dass er einen Haftbefehl befürchtet. Inzwischen ist er aber wieder da und sagt, er wolle nur Urlaub gemacht haben.
 
 Interessanterweise liest man normalerweise majestätsbeleidigende Äußerungen nicht. Diesmal jedoch hat eine Zeitung namens Kom Chad Luek diese veröffentlicht (der Chefredakteur wurde bereits ausgewechselt deshalb).
 

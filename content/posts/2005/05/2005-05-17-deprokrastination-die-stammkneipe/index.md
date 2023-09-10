@@ -1,9 +1,9 @@
 ---
 title: Deprokrastination – Die Stammkneipe
-author: Patrick Kollitsch
 type: post
 date: 2005-05-16T20:39:00+00:00
 url: /2005/05/deprokrastination-die-stammkneipe/
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 
 Ich hatte ja bereits erwähnt, dass mein 5-Tages-Plan verschiedene Aktivitäten vorsah. Unter anderem musste ich mal meine sozialen Kontakte ein bisschen mit der hiesigen Bevölkerung zu mergieren. Ich entschied mich also, mir eine Stammkneipe zuzulegen. So eine Stammkneipe zu finden ist keine leichte Aufgabe. Die ?lteren unter meinen Lesern werden sich sicherlich noch an die guten alten Kurzschnitt-Zeiten erinnern, als ich im Herbst 2000 in Lübeck auf der Suche nach einer ebensolchen (Stammkneipe) war und in einer Schwulenbar gelandet bin. Was also muss sie (die Stammkneipe) haben? Gute Musik, manchmal auch live, Bier, einen ex-Rastafari als Barkeeper (möglichst ohne Kuhflecken-Flausch-Lederhose) und jede Menge Stammgäste internationalen Flairs.

@@ -1,6 +1,5 @@
 ---
 title: Gewaltlos
-author: Patrick Kollitsch
 type: post
 date: 2008-09-01T04:12:29+00:00
 url: /2008/09/gewaltlos/

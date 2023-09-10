@@ -1,6 +1,5 @@
 ---
 title: Kategorie Seltsame Hobbies
-author: Patrick Kollitsch
 type: post
 date: 2008-09-10T05:53:47+00:00
 url: /2008/09/kategorie-seltsame-hobbies/

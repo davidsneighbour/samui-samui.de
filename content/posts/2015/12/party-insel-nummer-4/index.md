@@ -1,6 +1,5 @@
 ---
 title: Party-Insel Nummer 4
-author: Patrick Kollitsch
 type: post
 date: 2015-12-28T09:50:49+00:00
 url: /2015/12/party-insel-nummer-4/
@@ -15,7 +14,7 @@ resources:
 
 {{< figure name="partyinsel" command="Resize" options="930x" >}}Party-Insel Nummer 4{{< /figure >}}
 
-Koh Samui hat im begehrten Readers&#8216; Choice Awards 2015 des Condé Nast Traveler Magazins in der Kategorie der 10 Besten Party-Inseln in der Welt einen 4. Platz belegt.
+Koh Samui hat im begehrten Readers‘ Choice Awards 2015 des Condé Nast Traveler Magazins in der Kategorie der 10 Besten Party-Inseln in der Welt einen 4. Platz belegt.
 
 Sie schreiben:
 

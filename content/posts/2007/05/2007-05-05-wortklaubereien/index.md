@@ -1,6 +1,5 @@
 ---
 title: Wortklaubereien
-author: Patrick Kollitsch
 type: post
 date: 2007-05-05T10:27:01+00:00
 url: /2007/05/wortklaubereien/
@@ -17,7 +16,7 @@ Ich bekam ganz plötzlich erhöhten Blutdruck. Und dann ging es los: Erst musste
 
 Sie: Aha. Hmm. That funny heh?
 
-Ich habe ihre dann bestätigt, dass ich das zu einem ganz bestimmten Zeitpunkt lustig fand. Und war ganz froh, nicht auch noch die Sache mit dem .de erklären zu müssen. 
+Ich habe ihre dann bestätigt, dass ich das zu einem ganz bestimmten Zeitpunkt lustig fand. Und war ganz froh, nicht auch noch die Sache mit dem .de erklären zu müssen.
 
 Dummerweise hatte sie einen wissensdurstigen Tag:
 

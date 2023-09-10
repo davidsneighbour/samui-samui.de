@@ -1,6 +1,5 @@
 ---
 title: Warum die Thais so häufig lügen
-author: Patrick Kollitsch
 type: post
 date: 2007-02-09T04:01:14+00:00
 url: /2007/02/warum-die-thais-so-haeufig-luegen/

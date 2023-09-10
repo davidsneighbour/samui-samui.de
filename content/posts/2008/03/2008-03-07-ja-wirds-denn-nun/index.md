@@ -1,6 +1,5 @@
 ---
 title: Ja wirds denn nun?
-author: Patrick Kollitsch
 type: post
 date: 2008-03-07T01:05:51+00:00
 url: /2008/03/ja-wirds-denn-nun/
@@ -9,7 +8,7 @@ url: /2008/03/ja-wirds-denn-nun/
 
 
 ---
-Seit gut zwei Wochen bekomme ich täglich verschiedene Anfragen von unterschiedlichsten Nationalitäten, ob beim wilden animalischen Sex neulich denn nun ein Treffer gelandet wurde. 
+Seit gut zwei Wochen bekomme ich täglich verschiedene Anfragen von unterschiedlichsten Nationalitäten, ob beim wilden animalischen Sex neulich denn nun ein Treffer gelandet wurde.
 
 Ich weiss es nicht.
 

@@ -1,6 +1,5 @@
 ---
 title: Ong Bak auf Pro7
-author: Patrick Kollitsch
 type: post
 date: 2007-07-27T22:51:00+00:00
 url: /2007/07/ong-bak-auf-pro7/
@@ -11,7 +10,7 @@ dsq_thread_id:
 
 
 ---
-Ich habe mir sagen lassen, dass morgen Abend mal wieder Edelsteine über Ferkel geträufelt werden. Auf Pro7 kommt um 22:00 Uhr mitteleuropäischer Sommerzeit (und Nachts 1:45 nochmal) [Ong Bak][1]. 
+Ich habe mir sagen lassen, dass morgen Abend mal wieder Edelsteine über Ferkel geträufelt werden. Auf Pro7 kommt um 22:00 Uhr mitteleuropäischer Sommerzeit (und Nachts 1:45 nochmal) [Ong Bak][1].
 
 Ong Bak war _der_ Thaifilm des Jahres 2003. Die Geschichte ist schnell erzählt: Aus einem Dorf in Thailand wird der Kopf einer Buddhastatue gestohlen und Ting (Tony Jaa) wird nach Bangkok geschickt, um den Kopf zurück zu bringen. Was er auch macht. Mit jeder Menge Action und Rumgekämpfe. Luc Besson (ja, der) meinte mal, Tony Jaa wäre der neue Bruce Lee. Ich würde sagen, Bruce Lee hat die Welt auf Tony Jaa vorbereitet.
 

@@ -1,15 +1,11 @@
 ---
 title: Achtundneunzig
-author: Patrick Kollitsch
 type: post
 date: 2005-10-04T20:35:08+00:00
 url: /2005/10/achtundneunzig/
 dsq_thread_id:
   - "6412166743"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 {{< figure src="wp-content/old-images/163.jpg" />}}
 

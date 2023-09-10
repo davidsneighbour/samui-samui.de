@@ -1,17 +1,13 @@
 ---
 title: Die Guten lassen sich schlecht ausmachen
-author: Patrick Kollitsch
 type: post
 date: 2010-05-18T16:57:50+00:00
 url: /2010/05/die-guten-lassen-sich-schlecht-ausmachen/
-
-
-
-
+lastmod: 2023-09-10T19:14:13+07:00
 ---
-Ein meiner Meinung nach sehr interessantes und halbwegs stimmiges Interview mit Gerhard Will, dem Thailand Experten der Stiftung Wissenschaft und Politik [zur aktuellen Lage in Bangkok][1] kann man bei Spiegel Online lesen. 
+Ein meiner Meinung nach sehr interessantes und halbwegs stimmiges Interview mit Gerhard Will, dem Thailand Experten der Stiftung Wissenschaft und Politik [zur aktuellen Lage in Bangkok][1] kann man bei Spiegel Online lesen.
 
-Man kann vielleicht noch hinzufügen, dass die im Interview angesprochenen "radikale Kräfte" der Rothemden extrem geschwächt wurden, als vor ein paar Tagen General Khattiya Sawasdiphol (unter dem Namen Seh Daeng bekannt) während eines Interviews von einem Scharfschützen angeschossen wurde und gestern seinen Verletzungen erlag. 
+Man kann vielleicht noch hinzufügen, dass die im Interview angesprochenen "radikale Kräfte" der Rothemden extrem geschwächt wurden, als vor ein paar Tagen General Khattiya Sawasdiphol (unter dem Namen Seh Daeng bekannt) während eines Interviews von einem Scharfschützen angeschossen wurde und gestern seinen Verletzungen erlag.
 
 Jetzt gerade geht die Armee mit Panzerfahrzeugen gegen die noch verbliebenen Rothemden vor. Deren Führer sollen bereits geflüchtet sein.
 

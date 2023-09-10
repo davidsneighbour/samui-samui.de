@@ -1,13 +1,9 @@
 ---
 title: Wahlkampfticker
-author: Patrick Kollitsch
 type: post
 date: 2011-05-02T19:48:46+00:00
 url: /2011/05/wahlkampfticker/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Heute findet die letzte Parlamentssitzung vor der Auflösung des selbigen statt --- damit wird der Weg zu "demokratischen" Neuwahlen in Thailand geebnet. Zeit also, kurz einzutauchen in den Wahlkampf Thaistyle in kurzen Schnitten.
 
@@ -19,10 +15,10 @@ Die Pheua Thai Partei (also Thaksin in einer seiner vielen videographierten Ansp
 
 **Das Militär** "zeigt Stärke" in Form von Aufmärschen und Präsentationen im Wochenrhythmus und bekräftigt noch häufiger, dass man keinen Putsch plant.
 
-**Die Wahlkommission** hat verboten, das Königshaus in den Wahlkampf mit einzubeziehen. 
+**Die Wahlkommission** hat verboten, das Königshaus in den Wahlkampf mit einzubeziehen.
 
-Und dann ist da noch das Kampfmittel der Stunde: Anzeigen wegen **Majestätsbeleidigung**. Es gibt da ein Gesetz gegen Lese Majeste (Majestätsbeleidigung), das in den den vergangenen Monaten und Jahren immer häufiger genutzt wurde, um unliebsame Stimmen beiderseites der orangen Linie verstummen zu lassen. 
+Und dann ist da noch das Kampfmittel der Stunde: Anzeigen wegen **Majestätsbeleidigung**. Es gibt da ein Gesetz gegen Lese Majeste (Majestätsbeleidigung), das in den den vergangenen Monaten und Jahren immer häufiger genutzt wurde, um unliebsame Stimmen beiderseites der orangen Linie verstummen zu lassen.
 
-Ob es Politikwissenschaftler sind oder rotbehemdete Demonstranten, niemand ist gefeiht gegen eine Anzeige. Man ermittelt sogar gegen Leute, die mit einem der Rothemden auf der Bühne standen und prüft, inwieweit sie sich durch ihre Körperhaltung der Majestätsbeleidigung schuldig gemacht hätten. 
+Ob es Politikwissenschaftler sind oder rotbehemdete Demonstranten, niemand ist gefeiht gegen eine Anzeige. Man ermittelt sogar gegen Leute, die mit einem der Rothemden auf der Bühne standen und prüft, inwieweit sie sich durch ihre Körperhaltung der Majestätsbeleidigung schuldig gemacht hätten.
 
 Wie auch immer: Irgendwann in dieser Woche wird das Parlament aufgelöst und dann werden in den nächsten 2 Monaten Neuwahlen angesetzt. Dann wird es eine neue Regierung geben, bis die Regierungspartei aufgelöst wird, weil sie ihre Stimmen erkauft hat und eine andere Partei übernimmt, die auch irgendwann aufgelöst wird bis man dann wieder demonstriert und Einigung fordert und über Neuwahlen zu sprechen beginnt.

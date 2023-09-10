@@ -1,13 +1,9 @@
 ---
 title: Männer
-author: Patrick Kollitsch
 type: post
 date: 2006-07-24T12:41:00+00:00
 url: /2006/07/maenner/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 [00:39] GrauMeister: ich kuck jetzt bei wikipedia nach. thomas mann war ein typ der sich selbst umgebracht hat und der sohn von dem mann aus luebeck war.
 

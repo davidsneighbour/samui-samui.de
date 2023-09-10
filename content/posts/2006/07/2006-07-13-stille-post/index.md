@@ -1,24 +1,20 @@
 ---
 title: Stille Post
-author: Patrick Kollitsch
 type: post
 date: 2006-07-12T21:01:00+00:00
 url: /2006/07/stille-post/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-In den News machen derzeit zwei Briefe die Runde. Einmal ein Schreiben vom Care takenden Premierminister Thaksin Shinawatra an Bush und einmal dessen Antwort darauf. 
+In den News machen derzeit zwei Briefe die Runde. Einmal ein Schreiben vom Care takenden Premierminister Thaksin Shinawatra an Bush und einmal dessen Antwort darauf.
 
 **Thaksins Brief an Bush** (Hervorhebungen von mir)
 
 Office of the Prime Minister,
-  
+
 Government House,
-  
+
 Bangkok.
-  
+
 23 June B.E. 2549 (2006)
 
 Dear Mr President,
@@ -36,25 +32,25 @@ During this period, I want to assure you that I will take steps to help got the 
 Finally, Mr President, please accept my enduring confidence that the relationship between Thailand and the United States, based on shared democratic values and vital national interests, will only grow in the months and years ahead.
 
 Yours sincerely,
-  
+
 (Thaksin Shinawatra)
-  
+
 Prime Minister of Thailand
 
 Der Bush hat ihm darauf 10 Tage später (grins) geantwortet.
 
 <span class="caps">THE</span> <span class="caps">WHITE</span> <span class="caps">HOUSE</span>
-  
+
 <span class="caps">WASHINGTON</span>
-  
+
 July 3, 2006
 
 His Excellency
-  
+
 Thaksin Shinawatra
-  
+
 Prime Minister of the Kingdom of Thailand
-  
+
 Bangkok
 
 Mr. Prime Minister
@@ -64,16 +60,16 @@ Thank you for your letter, and your optimism about the road ahead in Thailand. T
 Our two nations' friendship remains strong, and I appreciate your assurance that our good cooperation on issues of vital importance to us both will continue, Free and open political systems can be unpredictable, but the Thai people are resilient and Thai democracy is strong, and I know that your country will emerge from the current situation with a renewed focus on that which makes Thailand great.
 
 Sincerely,
-  
+
 George W. Bush
 
-Ziemlich nichts sagend und, ehem, diplomatisch. 
+Ziemlich nichts sagend und, ehem, diplomatisch.
 
-Nun geht es natürlich heiß her in der Öffentlichkeit, denn einerseits hat Thaksin wieder ein mal von seinen Gegnern geredet ohne sie zu benennen (zuletzt bei der <txp:gho_permalink id="779">Rede neulich</txp:gho_permalink> in der er sagte "ein Mann mit Charisma außerhalb der Konstitution" arbeite im Hintergrund gegen ihn. Für diese Behauptung hat er bereits eine Klage wegen Majestätsbeleidigung am Hals). Andererseits ist das wieder ein Beispiel dafür, wie er die Mittel die ihm als Premier zur Verfügung stehen nutzt um das Ausland zu desinformieren. 
+Nun geht es natürlich heiß her in der Öffentlichkeit, denn einerseits hat Thaksin wieder ein mal von seinen Gegnern geredet ohne sie zu benennen (zuletzt bei der <txp:gho_permalink id="779">Rede neulich</txp:gho_permalink> in der er sagte "ein Mann mit Charisma außerhalb der Konstitution" arbeite im Hintergrund gegen ihn. Für diese Behauptung hat er bereits eine Klage wegen Majestätsbeleidigung am Hals). Andererseits ist das wieder ein Beispiel dafür, wie er die Mittel die ihm als Premier zur Verfügung stehen nutzt um das Ausland zu desinformieren.
 
-Die meisten Medien _im_ Lande gehen davon aus, dass im Oktober keine Wahlen stattfinden werden da Thaksin das zu verhindern weiß (auch in seiner Rede: "Ob die Wahlen überhaupt stattfinden steht noch gar nicht fest."). Die PAD<txp:gho_footnote>Peoples Alliance for Democracy</txp:gho_footnote> hat innerhalb von drei Tagen beschlossen, dass sie ihre Demonstrationen gegen Thaksin wieder aufnimmt (Montag), nicht vor Regierungsgebäuden demonstrieren will, um gewaltsame Unruhen zu verhindern (Dienstag) und lieber doch nicht demonstriert (Mittwoch), weil sie die Situation nicht in den Griff bekommen können. 
+Die meisten Medien _im_ Lande gehen davon aus, dass im Oktober keine Wahlen stattfinden werden da Thaksin das zu verhindern weiß (auch in seiner Rede: "Ob die Wahlen überhaupt stattfinden steht noch gar nicht fest."). Die PAD<txp:gho_footnote>Peoples Alliance for Democracy</txp:gho_footnote> hat innerhalb von drei Tagen beschlossen, dass sie ihre Demonstrationen gegen Thaksin wieder aufnimmt (Montag), nicht vor Regierungsgebäuden demonstrieren will, um gewaltsame Unruhen zu verhindern (Dienstag) und lieber doch nicht demonstriert (Mittwoch), weil sie die Situation nicht in den Griff bekommen können.
 
-Einige thailändische Analysten verkünden schon, dass es Aufstände geben wird (seit 1933 gab es Änderungen in der Staatspolitik immer im Zusammenhang mit Unruhen und Militäreingriffen. [Allerdings hat Thaksin alle wichtigen Militärposten mit seinen Freunden besetzt][1]. Wie das ausgehen wird, kann man sich also schon denken. 
+Einige thailändische Analysten verkünden schon, dass es Aufstände geben wird (seit 1933 gab es Änderungen in der Staatspolitik immer im Zusammenhang mit Unruhen und Militäreingriffen. [Allerdings hat Thaksin alle wichtigen Militärposten mit seinen Freunden besetzt][1]. Wie das ausgehen wird, kann man sich also schon denken.
 
 Inzwischen wird Thaksin mit dem Tode bedroht ("meine Gegner haben Geld in einen Topf geworfen um einen ausländischen Killer anzuheuern") und mit massivem Militäraufgebot bewacht. Das hält ihn nicht davon ab, sich vor hunderte von Kameras und Mikrofonen zu stellen und Entscheidungen zu verkünden und dass er nicht furchtsam ist. Allerdings hat sein Oberkörper an Umfang etwas zugenommen und er läuft nicht mehr im offenen Hemd herum sondern im komplett geschlossenen Anzug, da scheint dann doch eine schusssichere Weste drunter zu stecken.
 

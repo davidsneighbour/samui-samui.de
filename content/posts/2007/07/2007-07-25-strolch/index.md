@@ -1,6 +1,5 @@
 ---
 title: Strolch
-author: Patrick Kollitsch
 type: post
 date: 2007-07-24T21:32:31+00:00
 url: /2007/07/strolch/
@@ -10,8 +9,8 @@ url: /2007/07/strolch/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/893896543/" title="How to make the perfect braid - Part 2"><img src="//farm2.static.flickr.com/1206/893896543_5c2bf68126.jpg" alt="How to make the perfect braid" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/893896543/" title="How to make the perfect braid - Part 2"><img src="//farm2.static.flickr.com/1206/893896543_5c2bf68126.jpg" alt="How to make the perfect braid" /></a></p>
+
   <p>
     How to make the perfect braid --- Part 2
   </p>

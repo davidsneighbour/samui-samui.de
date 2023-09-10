@@ -1,13 +1,9 @@
 ---
 title: Keanu Reeves (der thailändische) ist tot
-author: Patrick Kollitsch
 type: post
 date: 2006-11-23T02:37:50+00:00
 url: /2006/11/keanu-reeves-thailands-ist-tot/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 {{< figure src="wp-content/old-images/215" wraptag="div.jpg" />}}
 

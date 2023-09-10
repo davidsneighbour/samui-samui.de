@@ -1,6 +1,5 @@
 ---
 title: Die schlechten News von morgen
-author: Patrick Kollitsch
 type: post
 date: 2009-07-22T01:11:59+00:00
 url: /2009/07/die-schlechten-news-von-morgen/

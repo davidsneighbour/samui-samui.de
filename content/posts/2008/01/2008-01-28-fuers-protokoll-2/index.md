@@ -1,6 +1,5 @@
 ---
 title: Fürs Protokoll
-author: Patrick Kollitsch
 type: post
 date: 2008-01-28T00:25:27+00:00
 url: /2008/01/fuers-protokoll-2/

@@ -1,6 +1,5 @@
 ---
 title: 'Thai für Jedermann I: Dies und das'
-author: Patrick Kollitsch
 type: post
 date: 2007-06-17T01:41:55+00:00
 url: /2007/06/thai-fuer-jedermann-i-dies-und-das/

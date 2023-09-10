@@ -1,6 +1,5 @@
 ---
 title: 60 Jahr…
-author: Patrick Kollitsch
 type: post
 date: 2006-06-08T01:36:00+00:00
 url: /2006/06/60jahr/

@@ -1,6 +1,5 @@
 ---
 title: Hundeleben.
-author: Patrick Kollitsch
 type: post
 date: 2006-08-31T10:28:00+00:00
 url: /2006/08/hundeleben/

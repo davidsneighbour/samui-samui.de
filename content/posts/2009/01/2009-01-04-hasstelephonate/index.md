@@ -1,6 +1,5 @@
 ---
 title: Hasstelephonate
-author: Patrick Kollitsch
 type: post
 date: 2009-01-03T22:01:15+00:00
 url: /2009/01/hasstelephonate/

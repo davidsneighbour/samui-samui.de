@@ -1,6 +1,5 @@
 ---
 title: ?bergangsverfassung und Premierministerkandidaten
-author: Patrick Kollitsch
 type: post
 date: 2006-09-27T08:15:00+00:00
 url: /2006/09/uebergangsverfassung-und-premierministerkandidaten/
@@ -9,7 +8,7 @@ url: /2006/09/uebergangsverfassung-und-premierministerkandidaten/
 
 
 ---
-Es wurde heute ein [erster Entwurf der Übergangsverfassung][1] vorgelegt. Leider haben alle englischen Quellen keine oder nur zusammenfassende Inhalte (wie der Link der Nation hier). Sobald ich den kompletten Text gefunden habe, versuche ich mich mal als Übersetzer. 
+Es wurde heute ein [erster Entwurf der Übergangsverfassung][1] vorgelegt. Leider haben alle englischen Quellen keine oder nur zusammenfassende Inhalte (wie der Link der Nation hier). Sobald ich den kompletten Text gefunden habe, versuche ich mich mal als Übersetzer.
 
 Außerdem wurde festgelegt, dass der Premierminister der zivilen Übergangsregierung am Sonntag verkündet werden soll. Es gab die ganze vergangene Woche immer mal wieder Gerüchte, wer es denn sein könnte und die folgenden drei Kandidaten waren im Gespräch:
 

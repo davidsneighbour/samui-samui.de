@@ -1,13 +1,9 @@
 ---
 title: Ich. Mal wieder.
-author: Patrick Kollitsch
 type: post
 date: 2005-09-24T01:32:33+00:00
 url: /2005/09/ich-mal-wieder/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Eben bin ich aus Versehen auf den Auslöser meiner kleinen hässlichen Kamera gekommen. Dabei entstand dieses Photo:
 

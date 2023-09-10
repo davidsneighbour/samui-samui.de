@@ -1,15 +1,11 @@
 ---
 title: I did it (again)
-author: Patrick Kollitsch
 type: post
 date: 2005-09-01T20:04:00+00:00
 url: /2005/09/i-did-it/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Yes! I did it. And I have no fear to admit it. Yesterday I bought a dvd-player capable of a lot of formats. 
+Yes! I did it. And I have no fear to admit it. Yesterday I bought a dvd-player capable of a lot of formats.
 
 The package said it can play DVD, DVD-R(W), DVD+R(W), CD, CD-R(W), WMA, MP3, VCD and some other stuff I never heard of before. Nice nice I thought and went home at evening to join a night to remember. The last time I watched a movie in my own armchair was on 25th of may, shortly before some poor guys decided to have me lost my stuff right out of the house.
 

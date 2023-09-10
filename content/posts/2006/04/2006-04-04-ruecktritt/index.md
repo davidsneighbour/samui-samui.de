@@ -1,13 +1,9 @@
 ---
 title: Rücktritt
-author: Patrick Kollitsch
 type: post
 date: 2006-04-04T06:40:00+00:00
 url: /2006/04/ruecktritt/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Ich glaube, Thaksin Shinawatra ist gerade zurückgetreten. So genau ist das nicht zu verstehen gewesen. Mehr später.
 

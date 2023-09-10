@@ -1,6 +1,5 @@
 ---
 title: Harry. Das gro?e Finale
-author: Patrick Kollitsch
 type: post
 date: 2007-07-20T03:24:05+00:00
 url: /2007/07/harry-das-grosse-finale/

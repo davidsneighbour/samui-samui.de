@@ -1,6 +1,5 @@
 ---
 title: Malaysische Notizen
-author: Patrick Kollitsch
 type: post
 date: 2007-11-30T20:04:07+00:00
 url: /2007/12/malaysische-notizen/

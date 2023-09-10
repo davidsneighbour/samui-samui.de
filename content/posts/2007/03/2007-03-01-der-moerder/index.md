@@ -1,6 +1,5 @@
 ---
 title: Der Mörder
-author: Patrick Kollitsch
 type: post
 date: 2007-03-01T09:04:11+00:00
 url: /2007/03/der-moerder/
@@ -11,7 +10,7 @@ dsq_thread_id:
 
 
 ---
-Und wieder hat Lt-General Assawin Khwanmuang zugeschlagen und einen Farang-Mord schnell und einfach aufgeklärt. 
+Und wieder hat Lt-General Assawin Khwanmuang zugeschlagen und einen Farang-Mord schnell und einfach aufgeklärt.
 
 [Es wurde ein Mann verhaftet][1], der nach längerem Verhör gestanden hat, die beiden Russinnen in Pattaya umgebracht zu haben. Er hat bereits eine Polizeiakte mit mehreren ?berfällen. Nun soll es also doch ein Raub gewesen sein.
 

@@ -1,6 +1,5 @@
 ---
 title: Schwerter und Federkiele
-author: Patrick Kollitsch
 type: post
 date: 2014-06-16T13:36:33+00:00
 url: /2014/06/schwerter-und-federkiele/

@@ -1,6 +1,5 @@
 ---
 title: Schlechte Nachrichten
-author: Patrick Kollitsch
 type: post
 date: 2007-09-23T14:04:38+00:00
 url: /2007/09/schlechte-nachrichten/

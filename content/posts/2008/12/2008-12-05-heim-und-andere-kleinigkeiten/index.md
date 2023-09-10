@@ -1,6 +1,5 @@
 ---
 title: Heim und andere Kleinigkeiten
-author: Patrick Kollitsch
 type: post
 date: 2008-12-05T01:04:17+00:00
 url: /2008/12/heim-und-andere-kleinigkeiten/

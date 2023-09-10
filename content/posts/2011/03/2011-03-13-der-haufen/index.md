@@ -1,13 +1,9 @@
 ---
 title: Der Haufen
-author: Patrick Kollitsch
 type: post
 date: 2011-03-12T20:48:13+00:00
 url: /2011/03/der-haufen/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Neulich kamen die Rasenmähermänner und mähten den Rasen vor und um meinem Haus herum. Mein Hausbesitzer kam herbei geeilt und hatte eine Idee --- sie könnten doch mal die Bäume beschneiden. Gesagt getan, sie säbelten hier und da die ?ste ab. Die Reste der ?ste legten sie zu einem Haufen auf der Lichtung im Dschungel über meinem kleinen Khlong vor dem Haus ab. Dann zogen sie von dannen.
 

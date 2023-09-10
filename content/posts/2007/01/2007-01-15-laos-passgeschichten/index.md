@@ -1,6 +1,5 @@
 ---
 title: 'Laos: Passgeschichten'
-author: Patrick Kollitsch
 type: post
 date: 2007-01-14T23:06:31+00:00
 url: /2007/01/laos-passgeschichten/
@@ -9,7 +8,7 @@ url: /2007/01/laos-passgeschichten/
 
 
 ---
-Heute Morgen war ich dann auf dem Konsulat hier in Savannkhet. Das war eine Sache von 20 Minuten. Dummerweise hat Murphy auch hier zugeschlagen, denn ab _heute_ geben sie die erteilten Visa definitiv erst am Folgetag Nachmittags aus. Bisher, so erzählten es die Spatzen<txp:gho_footnote>die etwas kleiner aber dafür fetter sind</txp:gho_footnote> von den Dächern, war es bei entsprechend niedriger Antragszahl bereits am gleichen Tag möglich. Aber wie das so ist mit den Spatzen und den Dächern: jeder kann es hören, weshalb ich auch nicht den Trick für den Süden verrate. 
+Heute Morgen war ich dann auf dem Konsulat hier in Savannkhet. Das war eine Sache von 20 Minuten. Dummerweise hat Murphy auch hier zugeschlagen, denn ab _heute_ geben sie die erteilten Visa definitiv erst am Folgetag Nachmittags aus. Bisher, so erzählten es die Spatzen<txp:gho_footnote>die etwas kleiner aber dafür fetter sind</txp:gho_footnote> von den Dächern, war es bei entsprechend niedriger Antragszahl bereits am gleichen Tag möglich. Aber wie das so ist mit den Spatzen und den Dächern: jeder kann es hören, weshalb ich auch nicht den Trick für den Süden verrate.
 
 Glücklicherweise traf ich auf einen Briten, der einen der Beamten dort genauer kennt und nach einigem Hin und Her haben wir uns vor der Konsulatspforte heute Abend verabredet. Wenn das funktioniert --- ich glaubs erst wenn ich den Pass in der Hand hab --- kann ich eine weitere Telefonnummer in mein kleines Schwarzes Buch eintragen. Damit darf ich morgen früh schon wieder ins Königreich zurück und meine Theorie testen, es gäbe eine direkte Busstrecke von Rayong in den Nordosten.
 

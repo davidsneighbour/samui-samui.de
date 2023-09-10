@@ -1,6 +1,5 @@
 ---
 title: Gegendarstellung
-author: Patrick Kollitsch
 type: post
 date: 2007-06-13T00:30:04+00:00
 url: /2007/06/gegendarstellung/

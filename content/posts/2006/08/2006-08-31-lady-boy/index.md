@@ -1,6 +1,5 @@
 ---
 title: Lady? Boy!
-author: Patrick Kollitsch
 type: post
 date: 2006-08-31T10:03:01+00:00
 url: /2006/08/lady-boy/

@@ -1,13 +1,9 @@
 ---
 title: Ong Bak 3 Teaser
-author: Patrick Kollitsch
 type: post
 date: 2010-01-31T23:13:45+00:00
 url: /2010/02/ong-bak-3-teaser/
-
-
-
-
+lastmod: 2023-09-10T19:14:13+07:00
 ---
 <div class="media video">
   <a href="http://www.youtube.com/watch?v=SJpkkwbrngk" class="video">Ong Bak 3 Teaser</a>

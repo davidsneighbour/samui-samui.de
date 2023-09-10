@@ -1,6 +1,5 @@
 ---
 title: Regen
-author: Patrick Kollitsch
 type: post
 date: 2007-05-02T04:44:25+00:00
 url: /2007/05/regen-6/
@@ -15,7 +14,7 @@ Yeah. Endlich wieder mal Regen. [Eines meiner Lieblingsthemen][1]. Seit 5 Tagen 
 
 Und das Dach ist dicht.
 
-Die Hunde stinken nicht, weil sie nicht wirklich nass werden können mit ihrem kurzen Fell. 
+Die Hunde stinken nicht, weil sie nicht wirklich nass werden können mit ihrem kurzen Fell.
 
 Ich muss nicht durch die Gegend fahren und werde auch nicht nass.
 

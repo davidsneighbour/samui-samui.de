@@ -1,13 +1,9 @@
 ---
 title: Krönungstag und Bun Bang Fai
-author: Patrick Kollitsch
 type: post
 date: 2010-05-04T11:51:18+00:00
 url: /2010/05/kroenungstag-und-bun-bang-fai/
-
-
-
-
+lastmod: 2023-09-10T19:14:13+07:00
 ---
 
 

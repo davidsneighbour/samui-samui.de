@@ -1,13 +1,9 @@
 ---
 title: A short history of nearly everything
-author: Patrick Kollitsch
 type: post
 date: 2005-07-25T21:11:43+00:00
 url: /2005/07/a-short-history-of-nearly-everything/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Nun man kommt ja kurzerdings erheblich häufiger in den Genuss, mal ein Buch zu lesen und so schaffte ich es in den vergangenen Tagen endlich einmal, [Bill Brysons][1] "A short history of nearly everything" fertig zu lesen. Ich habe dafür 6 Monate gebraucht. 5.5 Monate für die ersten 100 Seiten und die letzten Nächte für den Rest.
 

@@ -1,6 +1,5 @@
 ---
 title: In Memoriam
-author: Patrick Kollitsch
 type: post
 date: 2008-09-09T04:50:04+00:00
 url: /2008/09/in-memoriam/

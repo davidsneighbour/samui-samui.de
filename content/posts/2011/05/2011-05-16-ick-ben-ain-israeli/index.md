@@ -1,13 +1,9 @@
 ---
 title: Ick ben ain Israeli
-author: Patrick Kollitsch
 type: post
 date: 2011-05-15T23:54:43+00:00
 url: /2011/05/ick-ben-ain-israeli/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 In Thailand sollte man ja tunlichst vermeiden, über die königliche Familie zu berichten, weil das recht schnell als Lese Majeste (Majestätsbeleidigung) dahingestellt werden kann, wenn die Leute einem an die Wäsche wollen.
 

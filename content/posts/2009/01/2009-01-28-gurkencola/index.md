@@ -1,6 +1,5 @@
 ---
 title: Gurkencola
-author: Patrick Kollitsch
 type: post
 date: 2009-01-28T13:29:51+00:00
 url: /2009/01/gurkencola/

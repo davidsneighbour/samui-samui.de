@@ -1,6 +1,5 @@
 ---
 title: ?bergangs-Premierminister Thailands
-author: Patrick Kollitsch
 type: post
 date: 2006-09-28T22:15:00+00:00
 url: /2006/09/uebergangs-premierminister-thailands/

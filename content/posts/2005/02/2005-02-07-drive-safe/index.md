@@ -1,15 +1,11 @@
 ---
 title: Drive safe!
-author: Patrick Kollitsch
 type: post
 date: 2005-02-07T05:47:00+00:00
 url: /2005/02/drive-safe/
 dsq_thread_id:
   - "6412166580"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 {{< figure src="wp-content/old-images/43.jpg" />}}
 

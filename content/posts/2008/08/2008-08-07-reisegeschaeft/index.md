@@ -1,6 +1,5 @@
 ---
 title: 'Reisegeschäft'
-author: Patrick Kollitsch
 type: post
 date: 2008-08-07T15:15:38+00:00
 url: /2008/08/reisegeschaeft/

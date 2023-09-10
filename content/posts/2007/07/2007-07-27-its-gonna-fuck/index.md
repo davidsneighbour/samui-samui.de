@@ -1,6 +1,5 @@
 ---
 title: It’s gonna fuck!
-author: Patrick Kollitsch
 type: post
 date: 2007-07-27T00:17:56+00:00
 url: /2007/07/its-gonna-fuck/
@@ -10,8 +9,8 @@ url: /2007/07/its-gonna-fuck/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/916006003/" title="Pirated"><img src="//farm2.static.flickr.com/1438/916006003_c546223490.jpg" alt="Pirated" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/916006003/" title="Pirated"><img src="//farm2.static.flickr.com/1438/916006003_c546223490.jpg" alt="Pirated" /></a></p>
+
   <p>
     Pirated
   </p>

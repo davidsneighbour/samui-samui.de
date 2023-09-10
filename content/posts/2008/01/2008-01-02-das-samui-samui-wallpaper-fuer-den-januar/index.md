@@ -1,6 +1,5 @@
 ---
 title: Samui-Samui-Wallpaper für Januar
-author: Patrick Kollitsch
 type: post
 date: 2008-01-01T17:00:55+00:00
 url: /2008/01/das-samui-samui-wallpaper-fuer-den-januar/
@@ -12,14 +11,14 @@ dsq_thread_id:
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2157072563/" title="Samui-Samui-Wallpaper January 2551"><img src="//farm3.static.flickr.com/2361/2157072563_47e275de35.jpg" alt="Samui-Samui-Wallpaper January 2551" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/2157072563/" title="Samui-Samui-Wallpaper January 2551"><img src="//farm3.static.flickr.com/2361/2157072563_47e275de35.jpg" alt="Samui-Samui-Wallpaper January 2551" /></a></p>
+
   <p>
     Samui-Samui-Wallpaper January 2551
   </p>
 </div>
 
-Für die Freunde der wechselnden Bildschirm- oder Desktophintergründe gibt es dieses Jahr jeden Monat ein Bild. Heute ein Sonnenuntergang am Strand von Bang Por. 
+Für die Freunde der wechselnden Bildschirm- oder Desktophintergründe gibt es dieses Jahr jeden Monat ein Bild. Heute ein Sonnenuntergang am Strand von Bang Por.
 
 ### Download
 

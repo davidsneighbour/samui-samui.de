@@ -1,17 +1,13 @@
 ---
 title: Vorteile frühen Arbeitsanfanges
-author: Patrick Kollitsch
 type: post
 date: 2006-03-31T02:51:00+00:00
 url: /2006/03/vorteilefruehenarbeitsanfanges/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/120632482/" title="sunrise at the graveyard"><img src="//static.flickr.com/35/120632482_9c4a707c6d.jpg" alt="sunrise at the graveyard" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/120632482/" title="sunrise at the graveyard"><img src="//static.flickr.com/35/120632482_9c4a707c6d.jpg" alt="sunrise at the graveyard" /></a></p>
+
   <p>
     sunrise at the graveyard
   </p>

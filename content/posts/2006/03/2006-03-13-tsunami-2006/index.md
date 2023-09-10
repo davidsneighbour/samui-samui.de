@@ -1,13 +1,9 @@
 ---
 title: Tsunami 2006
-author: Patrick Kollitsch
 type: post
 date: 2006-03-12T19:17:00+00:00
 url: /2006/03/tsunami-2006/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Es soll mal keiner sagen er käme unerwartet wenn er kommt. Die [Darstellung der Erdbeben der letzten 7 Tage in der Region][1] spricht für sich. In Phuket wird schon [kontrollierte Panik][2] verbreitet.
 

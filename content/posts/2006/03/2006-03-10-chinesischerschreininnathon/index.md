@@ -1,17 +1,13 @@
 ---
 title: Chinesischer Schrein in Nathon
-author: Patrick Kollitsch
 type: post
 date: 2006-03-09T19:16:00+00:00
 url: /2006/03/chinesischerschreininnathon/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/110280107/" title="Chinese Shrine in Nathon"><img src="//static.flickr.com/44/110280107_1046efaa98.jpg" alt="Chinese Shrine in Nathon" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/110280107/" title="Chinese Shrine in Nathon"><img src="//static.flickr.com/44/110280107_1046efaa98.jpg" alt="Chinese Shrine in Nathon" /></a></p>
+
   <p>
     Chinese Shrine in Nathon
   </p>

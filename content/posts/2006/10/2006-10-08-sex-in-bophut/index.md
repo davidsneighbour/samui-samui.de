@@ -1,15 +1,11 @@
 ---
 title: Sex in Bophut
-author: Patrick Kollitsch
 type: post
 date: 2006-10-08T09:45:59+00:00
 url: /2006/10/sex-in-bophut/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Ich habe gerade festgestellt, dass die meisten Suchenden mit einschlägigen Suchbegriffen in der Mitte des _vergangenen Jahres_&trade; landen. Dem muss natürlich entgegengewirkt werden. 
+Ich habe gerade festgestellt, dass die meisten Suchenden mit einschlägigen Suchbegriffen in der Mitte des _vergangenen Jahres_&trade; landen. Dem muss natürlich entgegengewirkt werden.
 
 Und so folgt nun meine persönliche Einschätzung der Lage für alle, die nach "sex bophut ko samui" suchen:
 

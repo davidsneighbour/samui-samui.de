@@ -1,6 +1,5 @@
 ---
 title: Bush kommt
-author: Patrick Kollitsch
 type: post
 date: 2008-08-04T03:45:59+00:00
 url: /2008/08/bush-kommt/

@@ -1,6 +1,5 @@
 ---
 title: Null Zeit in Thailand
-author: Patrick Kollitsch
 type: post
 date: 2006-06-13T03:34:00+00:00
 url: /2006/06/null-zeit-in-thailand/
@@ -9,32 +8,32 @@ url: /2006/06/null-zeit-in-thailand/
 
 
 ---
-Auch mal die anderen erzählen lassen: Helene, oder ([nullzeit][1])generator, war im März in Thailand und berichtet in ihrem Blog darüber. Leider haben wir uns trotz nettem Emailkontakts (das ist ja mal wieder ein schöner Genitiv gewesen) nicht getroffen, was eventuell an meiner Beschreibung der Sehenswürdigkeiten der Insel gelegen haben könnte ("Ballermann im Golf" --- sehr nett umschrieben von ihr). Macht nichts, die Beschreibungen von Land und Leuten des Isaans sind Belohnung genug. 
+Auch mal die anderen erzählen lassen: Helene, oder ([nullzeit][1])generator, war im März in Thailand und berichtet in ihrem Blog darüber. Leider haben wir uns trotz nettem Emailkontakts (das ist ja mal wieder ein schöner Genitiv gewesen) nicht getroffen, was eventuell an meiner Beschreibung der Sehenswürdigkeiten der Insel gelegen haben könnte ("Ballermann im Golf" --- sehr nett umschrieben von ihr). Macht nichts, die Beschreibungen von Land und Leuten des Isaans sind Belohnung genug.
 
 [singha-bier und generalstreik?][2]
-  
+
 [thail 1: bangkok bei nacht][3]
-  
+
 [thail 2: erwachen heiterer gefühle bei der ankunft auf dem lande][4]
-  
+
 [thail 3: schweineblut][5]
-  
+
 [thail 4: my big fat isaan-wedding][6]
-  
+
 [thail 5: essen][7]
-  
+
 [thail 6: volkssport][8]
-  
+
 [thail 7: disco people][9]
-  
+
 [thail 8: pilger][10]
-  
+
 [thail 9: chillen][11]
-  
+
 [thail 10: noch mehr chillen][12]
-  
+
 [thail 11: bangkok traffic][13]
-  
+
 [thail 12: stadt der engel][14]
 
 PS: Überhaupt melden sich immer ausgesprochen nette Menschen bei mir, die das Blog bei Google entdecken und sich festlesen. Auch wenn es manchmal Wochen dauert, bis ich mich melde ;)

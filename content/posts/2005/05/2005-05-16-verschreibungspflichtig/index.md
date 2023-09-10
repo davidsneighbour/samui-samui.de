@@ -1,13 +1,9 @@
 ---
 title: Verschreibungspflichtig?
-author: Patrick Kollitsch
 type: post
 date: 2005-05-15T23:47:00+00:00
 url: /2005/05/verschreibungspflichtig/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Pünktlich mit Beginn meiner freien Tage entschieden sich verschiedene Viren meinen Körper wieder zu besetzen. Wie das so ist mit mir verbrachte ich die letzten 4 Wochen mit gelegentlichen Hustenanfällen und verschob den Gedanken an eine Behandlung nach hinten. So ein bisschen Fieber und ein bisschen Husten fällt ja noch keinen Menschen. Da es aber an vergangene Woche ein kleines bisschen schlechter wurde und jemand in einem hochfiebrigen Augenblick den Begriff Denguefieber fallen lies und ich schon das Genörgel "Siehste, weil du nie zum Arzt gehst" im Hintergrund angestimmt sah entschied ich mich kurzentschlossen und überaus proaktiv eine Pharmazie aufzusuchen.
 

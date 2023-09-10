@@ -1,6 +1,5 @@
 ---
 title: Reisevorbereitungen I
-author: Patrick Kollitsch
 type: post
 date: 2008-05-01T17:12:27+00:00
 url: /2008/05/reisevorbereitungen-i/

@@ -1,15 +1,11 @@
 ---
 title: Learning to drive
-author: Patrick Kollitsch
 type: post
 date: 2005-01-20T02:36:00+00:00
 url: /2005/01/learning-to-drive/
 dsq_thread_id:
   - "6412166373"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 {{< figure src="wp-content/old-images/27.jpg" />}}
 

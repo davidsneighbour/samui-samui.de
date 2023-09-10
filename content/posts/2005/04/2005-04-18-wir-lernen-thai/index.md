@@ -1,13 +1,9 @@
 ---
 title: Wir lernen Thai
-author: Patrick Kollitsch
 type: post
 date: 2005-04-18T06:42:00+00:00
 url: /2005/04/wir-lernen-thai/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 {{< figure src="wp-content/old-images/96.jpg" />}}
 

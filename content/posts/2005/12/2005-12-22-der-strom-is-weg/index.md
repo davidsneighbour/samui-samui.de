@@ -1,13 +1,9 @@
 ---
 title: Der Strom (is weg)
-author: Patrick Kollitsch
 type: post
 date: 2005-12-22T02:56:00+00:00
 url: /2005/12/der-strom-is-weg/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Eigentlich wollte ich einen längeren Eintrag dazu schreiben wie es ist als Nichtraucher im Dunkeln Geräte zum Erzeugen von Licht zu finden aber irgendwie wird das ja langweilig, sich die ganze Zeit zu beschweren. Drum sei nur kurz auf [dieses Schreiben][1] verwiesen und der Hinweis gegeben, dass Kerzenlicht ja doch ganz romantisch ist. Und die Thais haben auch viel mehr Spaß im Dunkeln. Ich glaube nur nicht, dass die in diesen stürmischen Tagen rechtzeitig mit dem Kabellegen fertigwerden.
 

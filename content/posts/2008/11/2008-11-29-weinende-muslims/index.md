@@ -1,6 +1,5 @@
 ---
 title: Weinende Muslims
-author: Patrick Kollitsch
 type: post
 date: 2008-11-28T17:20:15+00:00
 url: /2008/11/weinende-muslims/
@@ -9,7 +8,7 @@ url: /2008/11/weinende-muslims/
 
 
 ---
-[450 Muslims stecken auf dem Weg nach Mecca in Bangkok fest][1]. 
+[450 Muslims stecken auf dem Weg nach Mecca in Bangkok fest][1].
 
 Einmal im Leben müssen Muslims nach Mecca auf [die Hajj Pilgerreise][2]. Nun ist die Rede von weinenden älteren Muslims auf Subvarnabhumi, die nicht viel Hoffnung mehr haben, rechtzeitig nach Mecca zu kommen.
 

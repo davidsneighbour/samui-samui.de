@@ -1,15 +1,11 @@
 ---
 title: Gleich
-author: Patrick Kollitsch
 type: post
 date: 2005-05-02T20:46:00+00:00
 url: /2005/05/gleich/
 dsq_thread_id:
   - "6412166543"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 {{< figure src="wp-content/old-images/102.jpg" />}}
 

@@ -1,6 +1,5 @@
 ---
 title: (Un)?Block
-author: Patrick Kollitsch
 type: post
 date: 2007-07-29T16:12:05+00:00
 url: /2007/07/unblock/

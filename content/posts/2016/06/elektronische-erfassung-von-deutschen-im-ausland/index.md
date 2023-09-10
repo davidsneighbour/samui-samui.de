@@ -1,6 +1,5 @@
 ---
 title: Elektronische Erfassung von Deutschen im Ausland
-author: Patrick Kollitsch
 type: post
 date: 2016-06-12T12:11:28+00:00
 url: /2016/06/elektronische-erfassung-von-deutschen-im-ausland/

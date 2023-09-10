@@ -1,22 +1,18 @@
 ---
 title: 25 Milliarden. Dollar. 226046. Menschen.
-author: Patrick Kollitsch
 type: post
 date: 2005-09-01T06:05:00+00:00
 url: /2005/09/25-milliarden-dollar-226046-menschen/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-[Die zivilisierte Welt bezeichnet also die Hurrican-Katatrophe in den USA als verheerender als die Tsunami-Katastrophe in Südostasien im letzten Dezember][1]. 
+[Die zivilisierte Welt bezeichnet also die Hurrican-Katatrophe in den USA als verheerender als die Tsunami-Katastrophe in Südostasien im letzten Dezember][1].
 
 Stellen wir die Fakten mal zusammen:
 
 **Finanzieller Schaden** (Geld, Cash, Knete, der Kram mit dem man alles nur keine Liebe kaufen kann):
 
 Tsunami: 10 Milliarden Dollar
-  
+
 Hurrican: vermutete 25 Milliarden Dollar
 
 Ähm. Klar. Ich erlaube mir eben, einige andere Zahlen zu präsentieren:
@@ -24,10 +20,10 @@ Hurrican: vermutete 25 Milliarden Dollar
 **Tote** (das sind ehemalige Menschen. Biologische Einheiten die sich von anderen Lebewesen auf unserer abgeplatteten durchs All trudelnden Kugel durch die Fähigkeit zu denken, eigenständig Entscheidungen zu treffen und dem Betrieb von Sex nicht nur aus Fortpflanzungszwecken unterscheiden):
 
 [Tsunami][2]: Mindestens 222.046 Menschen ([wikipedia][3])
-  
+
 Hurrican: einige Tausend
 
-Was kostet schon eine Hütte in irgendeinem Entwicklungsland? 10 Bretter Holz pro Wand wenn überhaupt Wände vorhanden sind), ein bisschen Wellblech, eine Matraze. 
+Was kostet schon eine Hütte in irgendeinem Entwicklungsland? 10 Bretter Holz pro Wand wenn überhaupt Wände vorhanden sind), ein bisschen Wellblech, eine Matraze.
 
 <del>Warum sollte man auch erwarten, dass Dämme um ein regelmässig überflutetes Gebiet in das konsequent hinein gebaut wurde brechen können.</del>
 

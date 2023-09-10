@@ -1,6 +1,5 @@
 ---
 title: Glitters Welttournee
-author: Patrick Kollitsch
 type: post
 date: 2008-08-21T00:13:06+00:00
 url: /2008/08/glitters-welttournee/

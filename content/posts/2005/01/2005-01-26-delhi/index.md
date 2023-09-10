@@ -1,13 +1,9 @@
 ---
 title: Delhi
-author: Patrick Kollitsch
 type: post
 date: 2005-01-25T20:10:00+00:00
 url: /2005/01/delhi/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Was ich schon ziemlich lange erzählen wollte, aber immer wieder verga?: auf dem Herflug, es war rein geographisch frühester Morgen, so gegen 4 Uhr Ortszeit, MEZ wohl gegen 0 Uhr, da flogen wir im Dunkel vor uns hin. Ich wusste, dass wir demnächst dem Morgen entgegen fliegen werden und war schon auf "das Ding mit der Dämmerung" gespannt. Im Fernsehen kam ein überaus dämlicher Film mit der Ex-Freundin von Tom Cruise, die ständig kochte und eigentlich verliebt war, das Flugzeug schnarchte vor sich hin.
 

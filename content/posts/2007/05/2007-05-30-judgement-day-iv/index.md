@@ -1,6 +1,5 @@
 ---
 title: Judgement Day IV
-author: Patrick Kollitsch
 type: post
 date: 2007-05-29T18:04:36+00:00
 url: /2007/05/judgement-day-iv/
@@ -11,7 +10,7 @@ url: /2007/05/judgement-day-iv/
 ---
 Im Fernsehen werden gerade Anklage und Verteidigung für den Fall der Demokraten verlesen. Live auf allen Thai-Kanälen. Nur die Farangsender bringen das übliche Durcheinander.
 
-Gerüchteweise soll Thai Rak Thai (<span class="caps">TRT</span>) aufgelöst und die Demokraten "verschont" werden. Das würde den Nachfolgern von <span class="caps">TRT</span> viel Sympathiepunkte bei der nächsten Wahl einbringen. 
+Gerüchteweise soll Thai Rak Thai (<span class="caps">TRT</span>) aufgelöst und die Demokraten "verschont" werden. Das würde den Nachfolgern von <span class="caps">TRT</span> viel Sympathiepunkte bei der nächsten Wahl einbringen.
 
 Das Ganze Spektakel kann man sich auch [im Livestream][1] ansehen, wenn man ein dickes Kabel hat.
 
@@ -35,13 +34,13 @@ Update 23:10: Im [Blog des Editors von The Nation Online, Tulsathit Taptim, schr
 
 Sehr nett. <span class="caps">TRT</span> musste in manchen Gegenden Gegner bezahlen, dass diese antreten, um die 20% Regel (wenn eine Liste ohne Gegner antritt, muss sie mindestens 20% der Stimmen erhalten) zu umgehen.
 
-Update 23:15: Es hagelt gerade "guiltys" --- <span class="caps">TRT</span> hat die Verfassung gebrochen, Wahlbetrug begangen, kleinere Parteien fürs Antreten bezahlt, die Nation beschädigt, unmoralisch gehandelt, Artikel 66 der Verfassung (ehm, welcher denn, der von 97 oder 06?) verletzt... und so weiter und so fort. Wir warten minütlich auf "is to be dissolved". 
+Update 23:15: Es hagelt gerade "guiltys" --- <span class="caps">TRT</span> hat die Verfassung gebrochen, Wahlbetrug begangen, kleinere Parteien fürs Antreten bezahlt, die Nation beschädigt, unmoralisch gehandelt, Artikel 66 der Verfassung (ehm, welcher denn, der von 97 oder 06?) verletzt... und so weiter und so fort. Wir warten minütlich auf "is to be dissolved".
 
-Update 23:20: Wow. Die haben grade echt gesagt, Thaksin hätte das Parlament vergangenen Frühling aus privaten Gründen (die Steuergeschichte rund um Shin Corp.) aufgelöst und nicht wegen politscher Probleme im Land. Das ist erstaunlicherweise das erste Mal, dass er heute erwähnt wird. Glaube ich. 
+Update 23:20: Wow. Die haben grade echt gesagt, Thaksin hätte das Parlament vergangenen Frühling aus privaten Gründen (die Steuergeschichte rund um Shin Corp.) aufgelöst und nicht wegen politscher Probleme im Land. Das ist erstaunlicherweise das erste Mal, dass er heute erwähnt wird. Glaube ich.
 
 Update 23:25: **<span class="caps">THAI</span> <span class="caps">RAK</span> <span class="caps">THAI</span> <span class="caps">IST</span> AUFGEL?ST WORDEN!!!**
 
-Update 23:35: I think they will have big problems tonight in Bangkok, sagt Neil, mein Thaiteacher. Sieht so aus. 
+Update 23:35: I think they will have big problems tonight in Bangkok, sagt Neil, mein Thaiteacher. Sieht so aus.
 
 Update 23:45: Führende Thai-Rak-Thai-Politiker einschlie?lich des Vorsitzenden des thailändischen Golfverbandes Thaksin Shinatwatra dürfen in den nächsten 5 Jahren keine politischen ?mter ausüben. Thai Rak Thai ist Geschichte. Das Spektakel zu Ende. Wir werden sehen, was die Nacht bringt.
 

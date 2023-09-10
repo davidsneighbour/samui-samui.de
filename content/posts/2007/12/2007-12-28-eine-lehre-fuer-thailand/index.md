@@ -1,6 +1,5 @@
 ---
 title: Eine Lehre für Thailand
-author: Patrick Kollitsch
 type: post
 date: 2007-12-27T18:56:29+00:00
 url: /2007/12/eine-lehre-fuer-thailand/

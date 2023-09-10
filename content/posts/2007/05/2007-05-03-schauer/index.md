@@ -1,6 +1,5 @@
 ---
 title: Schauer
-author: Patrick Kollitsch
 type: post
 date: 2007-05-03T01:49:29+00:00
 url: /2007/05/schauer/
@@ -10,8 +9,8 @@ url: /2007/05/schauer/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/482346853/"><img src="//farm1.static.flickr.com/190/482346853_c1a8cd0c01.jpg" class="flickr-photo" alt="" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/482346853/"><img src="//farm1.static.flickr.com/190/482346853_c1a8cd0c01.jpg" class="flickr-photo" alt="" /></a></p>
+
   <p>
     Some rain
   </p>

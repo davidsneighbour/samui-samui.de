@@ -1,17 +1,13 @@
 ---
 title: Die Neue
-author: Patrick Kollitsch
 type: post
 date: 2005-08-11T22:54:00+00:00
 url: /2005/08/die-neue/
 dsq_thread_id:
   - "6412166475"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Nun gut. Hätte ich eine Digitalkamera, die funktioniert, würde ich ein Foto geschossen haben von einem Haus mit einer sehr gro?en Veranda, einer langen Treppe und einer sü?en Thai auf den Stufen. Darunter hätte ich dann geschrieben: "Die Neue". Das wäre ganz nett. 
+Nun gut. Hätte ich eine Digitalkamera, die funktioniert, würde ich ein Foto geschossen haben von einem Haus mit einer sehr gro?en Veranda, einer langen Treppe und einer sü?en Thai auf den Stufen. Darunter hätte ich dann geschrieben: "Die Neue". Das wäre ganz nett.
 
 Ich habe aber keine Kamera (zumindest keine die funktioniert), also müssen wir mal Kopfkino spielen. Darf ich vorstellen? Die Neue. Hütte. Eine lange Treppe führt zu einer etwa 10qm gro?en Veranda. Es schlie?t sich ein kleines _Medienzimmer_ an (derzeit nur mit Kabel-TV, DVD/VCD/MP3-Player werden folgen) ausgerüstet mit zwei Sesseln, einer Couch und einem Glas=Couchtisch. Dahinter geht es in einen Raum (die _Partyhalle_), in dem eine Spüle fest eingemauert ist, sehr gro? und sehr leer. Es hallt ein wenig. Hier könnte man ja ein Arbeitszimmer oder eine Gro?raumküche einrichten. Daran anschlie?end ein Schlafzimmer mit überaus gro?em Bett (die _Spielwiese_) und Air Condition sowie ein Bad (nur Dusche, Platz für einen Whirlpool ist aber noch) --- das _Spa Beddig_.
 

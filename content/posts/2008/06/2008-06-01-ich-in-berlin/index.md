@@ -1,6 +1,5 @@
 ---
 title: Ich in Berlin
-author: Patrick Kollitsch
 type: post
 date: 2008-06-01T01:10:31+00:00
 url: /2008/06/ich-in-berlin/
@@ -10,8 +9,8 @@ url: /2008/06/ich-in-berlin/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2541023597/" title="Me now."><img src="//farm3.static.flickr.com/2266/2541023597_44ea687351.jpg" alt="Me now." /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/2541023597/" title="Me now."><img src="//farm3.static.flickr.com/2266/2541023597_44ea687351.jpg" alt="Me now." /></a></p>
+
   <p>
     Me now.
   </p>

@@ -1,6 +1,5 @@
 ---
 title: Schnee in Thailand
-author: Patrick Kollitsch
 type: post
 date: 2006-12-25T02:05:04+00:00
 url: /2006/12/schnee-in-thailand/

@@ -1,6 +1,5 @@
 ---
 title: Recherche
-author: Patrick Kollitsch
 type: post
 date: 2006-08-24T10:36:00+00:00
 url: /2006/08/recherche/

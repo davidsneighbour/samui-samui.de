@@ -1,18 +1,15 @@
 ---
 title: Babies in Tüten II
-author: Patrick Kollitsch
 type: post
 date: 2010-12-06T22:30:29+00:00
 url: /2010/12/babies-in-tueten-ii/
 instant_articles_submission_id:
   - "243719759396818"
-
-
 tags:
   - dunkle ecken
   - horror
   - tempel
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Irgendwie habe ich ganz vergessen zu erzählen, wie die Föten-Horror-Vorlage so richtig ausgegangen ist. Man hat am Ende [um die 2.000 Babyleichen][1] aus dem Tempel-Leichenhaus geholt.
 

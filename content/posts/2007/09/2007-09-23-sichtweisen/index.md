@@ -1,6 +1,5 @@
 ---
 title: Sichtweisen
-author: Patrick Kollitsch
 type: post
 date: 2007-09-22T23:59:58+00:00
 url: /2007/09/sichtweisen/

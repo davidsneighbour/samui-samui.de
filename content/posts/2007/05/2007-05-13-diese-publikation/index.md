@@ -1,6 +1,5 @@
 ---
 title: Diese Publikation…
-author: Patrick Kollitsch
 type: post
 date: 2007-05-13T10:11:35+00:00
 url: /2007/05/diese-publikation/

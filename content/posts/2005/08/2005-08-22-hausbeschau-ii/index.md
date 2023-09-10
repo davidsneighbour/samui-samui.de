@@ -1,13 +1,9 @@
 ---
 title: Hausbeschau II
-author: Patrick Kollitsch
 type: post
 date: 2005-08-22T06:48:00+00:00
 url: /2005/08/hausbeschau-ii/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Neues Haus, alte Kamera aber wieder funktionierend. Also neue Hausbeschau. Unsereins bezog ja Mitte des Monats für die letzten Baht die das Singaporegebeutelte Budget hergab <txp:gho_permalink id="310">eine nette kleine Hütte</txp:gho_permalink> im Dschungel von Lamai. Nachfolgend nun eine bebilderte Reise durch mein Reich. Das _\*Haus am Berg\*_
 

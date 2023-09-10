@@ -1,6 +1,5 @@
 ---
 title: Kurz geschnittenes
-author: Patrick Kollitsch
 type: post
 date: 2009-01-26T12:42:23+00:00
 url: /2009/01/kurz-geschnittenes-6/

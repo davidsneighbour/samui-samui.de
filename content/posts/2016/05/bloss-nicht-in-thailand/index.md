@@ -1,6 +1,5 @@
 ---
 title: Bloss nicht in Thailand
-author: Patrick Kollitsch
 type: post
 date: 2016-05-08T06:51:24+00:00
 url: /2016/05/bloss-nicht-in-thailand/

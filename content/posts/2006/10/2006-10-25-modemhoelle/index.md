@@ -1,6 +1,5 @@
 ---
 title: Modemhölle
-author: Patrick Kollitsch
 type: post
 date: 2006-10-25T07:22:18+00:00
 url: /2006/10/modemhoelle/

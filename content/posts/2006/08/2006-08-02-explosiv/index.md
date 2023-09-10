@@ -1,6 +1,5 @@
 ---
 title: Explosiv
-author: Patrick Kollitsch
 type: post
 date: 2006-08-02T00:25:00+00:00
 url: /2006/08/explosiv/
@@ -9,7 +8,7 @@ url: /2006/08/explosiv/
 
 
 ---
-Im Süden gab es heute mal wieder eine koordinierte Bombenattacke. Zwischen 70 und 100 Bomben wurden in den drei südlichen Provinzen gezündet. Dabei wurden zwei bis drei Polizisten getötet. So genau weiss man das noch nicht, weil informatives Chaos herrscht. 
+Im Süden gab es heute mal wieder eine koordinierte Bombenattacke. Zwischen 70 und 100 Bomben wurden in den drei südlichen Provinzen gezündet. Dabei wurden zwei bis drei Polizisten getötet. So genau weiss man das noch nicht, weil informatives Chaos herrscht.
 
 _(Update: Das Chaos lichtet sich und es handelt sich wohl um Teenager mit Brandsätzen (70 bis 100) und **eine** Bombe an einer Eisenbahnstrecke, die drei Polizisten tötete und 6 weitere Personen verletzte. Beide "Aktionen" haben nichts miteinander zu tun, auch wenn die Teenager immer noch als militante Muslims bezeichnet werden.)_
 

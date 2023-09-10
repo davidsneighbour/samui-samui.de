@@ -1,6 +1,5 @@
 ---
 title: Ausgeschlossen!
-author: Patrick Kollitsch
 type: post
 date: 2008-02-14T02:50:31+00:00
 url: /2008/02/ausgeschlossen/
@@ -13,9 +12,9 @@ Heute wurde ein lang gehegter Alptraum wahr: Ich stand vor einer verschlossenen 
 
 Heute kam ich nun Abends heim und nahm voller Vorfreude das Türschloss ab. Die Hunde warten jeden Abend auf mich, um mich dann zu beschlecken, bespringen und auf verschiedene Arten und Weisen gut 10 Minuten lang Hallo zu sagen. Dummerweise habe ich die Tür beim Verschliessen zu schwungvoll zugeworfen und der Sicherungshaken war innen in den Boden gerutscht.
 
-Tür zu. 
+Tür zu.
 
-Ich versorgte mir ein paar Schraubenzieher (dem Inschinör ist nix zu schwör) und hebelte ein bisschen an der Tür herum. Genau genommen eine gute halbe Stunde. Dann gab ich auf. Das Ding ist sicher. Da kommt niemand rein. Die Scharniere sind sicher, die Tür ist nicht aushebelbar, die Sicherungshaken im Boden recht sinnvoll, wenn man niemanden rein kommen lassen will. 
+Ich versorgte mir ein paar Schraubenzieher (dem Inschinör ist nix zu schwör) und hebelte ein bisschen an der Tür herum. Genau genommen eine gute halbe Stunde. Dann gab ich auf. Das Ding ist sicher. Da kommt niemand rein. Die Scharniere sind sicher, die Tür ist nicht aushebelbar, die Sicherungshaken im Boden recht sinnvoll, wenn man niemanden rein kommen lassen will.
 
 Die Hunde fingen inzwischen an, das Ganze nicht mehr lustig zu finden und schnüffelten und leckten meine Schraubenzieherspitzen (hihihi) ab und bellten und jaulten auffordernd.
 

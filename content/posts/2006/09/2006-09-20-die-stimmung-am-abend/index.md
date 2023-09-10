@@ -1,6 +1,5 @@
 ---
 title: Die Stimmung am Abend
-author: Patrick Kollitsch
 type: post
 date: 2006-09-20T11:50:00+00:00
 url: /2006/09/die-stimmung-am-abend/
@@ -17,9 +16,9 @@ Das <span class="caps">ARC</span> hat zwar angewiesen, dass Polizei und Militär
 
 Ansonsten ist es sehr ruhig in meiner Ecke der Insel. Die Karaokebars in Maenam sind stumm. Die drei Ladybars in der Nähe der Ayudhya-Bank, die sich normalerweise gegenseitig mit Techno beschallen sind stumm. Die kleinen Bars der Thais sind stumm.
 
-Hier und da sieht man Thais zusammen sitzen und sich leise unterhalten. Ich finde es lustig, dass es meistens genau 6 Thais sind. Wollen sie das Kriegsrecht austesten? Erlaubt sind nur Menschenansammlungen von 5 Personen. Normalerweise geht es bei solchen Gelegenheiten recht laut her. Die Restaurant sind leer. Die Bediensteten sitzen zusammen und unterhalten sich. 
+Hier und da sieht man Thais zusammen sitzen und sich leise unterhalten. Ich finde es lustig, dass es meistens genau 6 Thais sind. Wollen sie das Kriegsrecht austesten? Erlaubt sind nur Menschenansammlungen von 5 Personen. Normalerweise geht es bei solchen Gelegenheiten recht laut her. Die Restaurant sind leer. Die Bediensteten sitzen zusammen und unterhalten sich.
 
-Alle drehen sich nach mir um, wenn ich vorbei fahre. Ob es am fast nicht mehr existierenden Verkehr liegt oder daran, dass ich mir selbst schon wie ein Spanner vorkomme weiß ich nicht. In den Ladybars sitzen die Ladies und jubeln mir zu. Ob sie feiern oder es eine Einladung sein soll weiß ich nicht. 
+Alle drehen sich nach mir um, wenn ich vorbei fahre. Ob es am fast nicht mehr existierenden Verkehr liegt oder daran, dass ich mir selbst schon wie ein Spanner vorkomme weiß ich nicht. In den Ladybars sitzen die Ladies und jubeln mir zu. Ob sie feiern oder es eine Einladung sein soll weiß ich nicht.
 
 Eine gespenstige Stille ist das. Selbst die Frösche und Zikaden scheinen verstummt zu sein.
 

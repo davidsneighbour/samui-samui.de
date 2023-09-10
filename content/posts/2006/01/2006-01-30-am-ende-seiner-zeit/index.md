@@ -1,6 +1,5 @@
 ---
 title: Am Ende seiner Zeit
-author: Patrick Kollitsch
 type: post
 date: 2006-01-29T21:31:00+00:00
 url: /2006/01/am-ende-seiner-zeit/
@@ -15,7 +14,7 @@ Die inländische Presse hält sich bedeckt, weil der König nun mal heilig ist u
 
 Sein Sohn, Kronprinz Maha Vajiralongkorn (53) wird erstens nicht so lange regieren und es zweitens sehr schwer haben, das Werk seines Vaters (dazu später mehr) fortzuführen. Er ist unter den mir bekannten Thais auch nicht unbedingt hoch angesehen (was unter anderem daran liegen könnte, dass er bereits 2 Ex-Frauen hat und als Mann mit heißem Herzen verschrien ist (hot-tempered, aufbrausend). Maha Chakri Sirindhorn, seine Schwester wäre vielen lieber.
 
-Wir werden es sehen. 
+Wir werden es sehen.
 
 *Diese Aussage ist sicherlich kritikfähig, ich muss mal herausbekommen ob er wirklich so lange regiert hat oder nur so lange inthronisiert ist. Die ersten Jahre seiner Regentschaft hat er in Lausanne (Schweiz) verbracht.
 

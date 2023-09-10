@@ -1,6 +1,5 @@
 ---
 title: Siamesischer Horror
-author: Patrick Kollitsch
 type: post
 date: 2007-03-08T21:35:15+00:00
 url: /2007/03/siamesischer-horror/

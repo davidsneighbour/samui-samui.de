@@ -1,15 +1,11 @@
 ---
 title: Shoppen bei Thaisawadee
-author: Patrick Kollitsch
 type: post
 date: 2012-11-15T14:07:09+00:00
 url: /2012/11/shoppen-bei-thaisawadee/
 fb_author_post_id:
   - "10151132236835642"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Seit einiger Zeit nun schon kann man in der rechten Spalte dieses kleinen Blogs ein Werbebanner von [Thaisawadee.de][1] --- dem Online-Shop für alles Schöne und Nützliche aus Thailand --- sehen und auch klicken. Ich sage das nur, weil fast niemand klickt ;) und ihr somit die ganze schöne Shopping-Welt verpasst.
 

@@ -1,13 +1,9 @@
 ---
-title: 'ölig'
-author: Patrick Kollitsch
+title: ölig
 type: post
 date: 2010-07-30T13:40:02+00:00
 url: /2010/07/oelig/
-
-
-
-
+lastmod: 2023-09-10T19:14:13+07:00
 ---
 Wer was auf sich hält geht heute nach Nathon, unserer kleinen Inselhauptstadt, und demonstriert lautstark (Demokratie funktioniert in Thailand nur laut und bombastisch) gegen die geplante ?lplattform hier im Golf von Thailand.
 

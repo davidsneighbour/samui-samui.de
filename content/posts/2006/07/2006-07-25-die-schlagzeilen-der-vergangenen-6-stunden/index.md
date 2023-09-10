@@ -1,13 +1,9 @@
 ---
 title: Die Schlagzeilen der vergangenen 6 Stunden
-author: Patrick Kollitsch
 type: post
 date: 2006-07-25T09:28:00+00:00
 url: /2006/07/die-schlagzeilen-der-vergangenen-6-stunden/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 (mal nur die von The Nation Online)
 
@@ -21,11 +17,11 @@ url: /2006/07/die-schlagzeilen-der-vergangenen-6-stunden/
   * [Supreme Court wait for Senate speaker's request for starting EC selection][7]
   * [Supreme Court to start EC selection process on Wednesday][8]
 
-Um es kurz und knapp zu machen: Die drei verbliebenen Köpfe der Wahlkommission wurden heute zu vier Jahren Gefängnis verurteilt weil sie das Wahlgesetz gebrochen haben. Unter anderem wurde ihnen vorgeworfen Thai Rak Thai (Thaksins Partei) bevorzugt behandelt zu haben. 
+Um es kurz und knapp zu machen: Die drei verbliebenen Köpfe der Wahlkommission wurden heute zu vier Jahren Gefängnis verurteilt weil sie das Wahlgesetz gebrochen haben. Unter anderem wurde ihnen vorgeworfen Thai Rak Thai (Thaksins Partei) bevorzugt behandelt zu haben.
 
 Vasana Puemlarp, Prinya Nakchadtree und Virachai Naewboonnien waren in den vergangenen Wochen und Monaten stark in der Kritik und haben sich mehrfach geweigert zurück zu treten. Zwei weitere Kommissionäre sind von Auslandsurlauben nicht zurück gekommen. Dass die drei verbliebenen nun 4 Jahre hinter Gitter gehen dürfen ist ein überraschendes Ergebnis. Manch einer dachte, dass es mit einer symbolischen Strafe (schon ein Tag Gefängnis hätte ausgereicht, um die Wahlkommission neu besetzen zu lassen) ausgehen wird.
 
-Damit ist das unrühmliche Kapitel Wiederwahl vom 2. April zwar nicht abgeschlossen, aber die 50% der Thais die gegen Thaksin stimmten sind erstmal zufrieden. 
+Damit ist das unrühmliche Kapitel Wiederwahl vom 2. April zwar nicht abgeschlossen, aber die 50% der Thais die gegen Thaksin stimmten sind erstmal zufrieden.
 
 Das Urteil kann vor dem höchsten Gericht Thailands noch angefochten werden (das machen sie auch), sie werden aber nicht auf Kaution freigelassen, was ein deutliches Zeichen sein dürfte.
 

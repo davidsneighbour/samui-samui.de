@@ -1,6 +1,5 @@
 ---
 title: Jahresrückblick 2009
-author: Patrick Kollitsch
 type: post
 date: 2009-12-30T14:04:29+00:00
 url: /2009/12/jahresrueckblick-2009/

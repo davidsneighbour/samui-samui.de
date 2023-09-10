@@ -1,6 +1,5 @@
 ---
 title: Phii Patrick
-author: Patrick Kollitsch
 type: post
 date: 2007-02-11T22:26:26+00:00
 url: /2007/02/phii-patrick/
@@ -10,8 +9,8 @@ url: /2007/02/phii-patrick/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/387510309/"><img src="//farm1.static.flickr.com/155/387510309_786f73e107.jpg" class="flickr-photo" alt="" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/387510309/"><img src="//farm1.static.flickr.com/155/387510309_786f73e107.jpg" class="flickr-photo" alt="" /></a></p>
+
   <p>
     Phii Patrick
   </p>

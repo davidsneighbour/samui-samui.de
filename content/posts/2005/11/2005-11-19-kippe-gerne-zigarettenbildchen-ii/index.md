@@ -1,13 +1,9 @@
 ---
 title: Kippe? Gerne! (Zigarettenbildchen II)
-author: Patrick Kollitsch
 type: post
 date: 2005-11-18T23:35:35+00:00
 url: /2005/11/kippe-gerne-zigarettenbildchen-ii/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 {{< figure src="wp-content/old-images/192.jpg" />}}
 

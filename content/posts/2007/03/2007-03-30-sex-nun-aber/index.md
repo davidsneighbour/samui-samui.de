@@ -1,6 +1,5 @@
 ---
 title: Sex. Nun aber!
-author: Patrick Kollitsch
 type: post
 date: 2007-03-29T23:38:36+00:00
 url: /2007/03/sex-nun-aber/

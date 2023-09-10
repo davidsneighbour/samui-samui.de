@@ -1,10 +1,13 @@
 ---
-title: "Eine GDPR für Thailand"
-author: Patrick Kollitsch
+title: Eine GDPR für Thailand
 type: post
 date: 2019-06-22T17:31:48+07:00
 url: /2019/06/thailands-personal-data-protection-act
-tags: [gesetze, datenschutz, gdpr]
+tags:
+  - gesetze
+  - datenschutz
+  - gdpr
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 
 {{< figure name="gaffel.jpg" >}}Richter-Rumklopf-Gerät ([Photo von Bill Oxford](https://unsplash.com/photos/r2ESY7RXB4M)){{< /figure >}}

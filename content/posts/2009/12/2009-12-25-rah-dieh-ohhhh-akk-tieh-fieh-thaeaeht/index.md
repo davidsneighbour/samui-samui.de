@@ -1,6 +1,5 @@
 ---
 title: Rah-Dieh-Ohhhh Akk-Tieh-Fieh-Thääht
-author: Patrick Kollitsch
 type: post
 date: 2009-12-25T03:05:58+00:00
 url: /2009/12/rah-dieh-ohhhh-akk-tieh-fieh-thaeaeht/
@@ -9,9 +8,9 @@ url: /2009/12/rah-dieh-ohhhh-akk-tieh-fieh-thaeaeht/
 
 
 ---
-[Iridium 192][1] ist ein nettes kleines radioaktives, ehm, Material (?), das in entsprechender Menge zur Herstellung einer schmutzigen Bombe genutzt werden kann. Ebensolches sollte heute morgen auf dem internationalen Flughafen in Bangkok [ausgetreten sein][2]. 
+[Iridium 192][1] ist ein nettes kleines radioaktives, ehm, Material (?), das in entsprechender Menge zur Herstellung einer schmutzigen Bombe genutzt werden kann. Ebensolches sollte heute morgen auf dem internationalen Flughafen in Bangkok [ausgetreten sein][2].
 
-War es aber nicht, denn man konnte keine Radioaktivität feststellen. Das ist ja nochmal gut gegangen. Da können die Taxifahrer Subvarnabhumis weiter gegen eine Pflichtgebür streiken und die Separatisten im Süden mit sauberen Bomben Lehrer in die Luft jagen und Buddhisten enthaupten. 
+War es aber nicht, denn man konnte keine Radioaktivität feststellen. Das ist ja nochmal gut gegangen. Da können die Taxifahrer Subvarnabhumis weiter gegen eine Pflichtgebür streiken und die Separatisten im Süden mit sauberen Bomben Lehrer in die Luft jagen und Buddhisten enthaupten.
 
 Das Neujahr soll auch sicher sein. Wie schön.
 

@@ -1,6 +1,5 @@
 ---
 title: 2700:1
-author: Patrick Kollitsch
 type: post
 date: 2007-10-19T21:10:00+00:00
 url: /2007/10/27001/

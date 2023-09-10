@@ -1,15 +1,11 @@
 ---
 title: Oh, if I could get some sleep
-author: Patrick Kollitsch
 type: post
 date: 2005-03-07T19:33:00+00:00
 url: /2005/03/oh-if-i-could-get-some-sleep/
 dsq_thread_id:
   - "6412166410"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Insomnia von Faithless war damals, ich glaube so gegen 1996, eine kleine musikalische Revolution. Endlich wurde der Bass wieder für etwas Sinnvolleres als Eurobeat (Ronnymusik) eingesetzt. Die Rettung kam wie häufig von der Insel. Eine neue Phase der Musik hatte gerade begonnen. Ich frage mich manchmal, was aus C&C-Factory (hie?en die Produzenten so?) geworden ist. 10 Minuten-Mixe mit der geradezu manischen Wiederholung einzelner Zeilen in immer bassigeren Variationen. Ja. Was waren wir jung. Wir hatten die ganze Welt in den Händen.
 

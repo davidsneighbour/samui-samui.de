@@ -1,6 +1,5 @@
 ---
 title: Grünlichtviertel
-author: Patrick Kollitsch
 type: post
 date: 2008-03-26T02:21:12+00:00
 url: /2008/03/gruenlichtviertel/
@@ -10,8 +9,8 @@ url: /2008/03/gruenlichtviertel/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2363523255/" title="green light."><img src="//farm3.static.flickr.com/2149/2363523255_1470368a12.jpg" alt="green light." /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/2363523255/" title="green light."><img src="//farm3.static.flickr.com/2149/2363523255_1470368a12.jpg" alt="green light." /></a></p>
+
   <p>
     green light.
   </p>

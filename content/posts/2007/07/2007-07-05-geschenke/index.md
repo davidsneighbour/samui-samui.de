@@ -1,6 +1,5 @@
 ---
 title: Geschenke
-author: Patrick Kollitsch
 type: post
 date: 2007-07-05T02:13:11+00:00
 url: /2007/07/geschenke/

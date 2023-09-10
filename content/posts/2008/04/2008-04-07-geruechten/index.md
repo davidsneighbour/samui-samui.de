@@ -1,6 +1,5 @@
 ---
 title: Gerüchten
-author: Patrick Kollitsch
 type: post
 date: 2008-04-07T14:51:11+00:00
 url: /2008/04/geruechten/

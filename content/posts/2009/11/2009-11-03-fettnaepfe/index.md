@@ -1,6 +1,5 @@
 ---
 title: Fettnäpfe
-author: Patrick Kollitsch
 type: post
 date: 2009-11-02T20:27:27+00:00
 url: /2009/11/fettnaepfe/

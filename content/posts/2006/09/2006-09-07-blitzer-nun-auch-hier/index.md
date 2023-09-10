@@ -1,6 +1,5 @@
 ---
 title: Blitzer. Nun auch hier.
-author: Patrick Kollitsch
 type: post
 date: 2006-09-06T22:45:00+00:00
 url: /2006/09/blitzer-nun-auch-hier/
@@ -10,8 +9,8 @@ url: /2006/09/blitzer-nun-auch-hier/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/236529232/" title="They have speed-traps now."><img src="//static.flickr.com/98/236529232_cce0e7b30c.jpg" alt="They have speed-traps now." /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/236529232/" title="They have speed-traps now."><img src="//static.flickr.com/98/236529232_cce0e7b30c.jpg" alt="They have speed-traps now." /></a></p>
+
   <p>
     They have speed-traps now.
   </p>

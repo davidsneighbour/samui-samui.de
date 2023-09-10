@@ -1,6 +1,5 @@
 ---
 title: Makha Bucha Day
-author: Patrick Kollitsch
 type: post
 date: 2007-03-03T22:24:50+00:00
 url: /2007/03/makha-bucha-day-3/
@@ -14,7 +13,7 @@ Gestern war Makha Bucha Day. Neun Monate nach Buddhas Erleuchtung am Vollmondtag
   * 1250 Anhänger, Buddhas Schüler (Arhantas, erleuchtet und von ihm ordiniert), versammelten sich ohne Absprache um Buddha
   * Buddha hielt eine Predigt, in der er die Grundlagen des Buddhismuses legte, Ovadhapatimokha genannt.
 
-Damit ist dieser Tag einer der drei wichtigsten buddhistischen Feiertage im Theravada-Buddhismus. 
+Damit ist dieser Tag einer der drei wichtigsten buddhistischen Feiertage im Theravada-Buddhismus.
 
 Am Makha Bucha Tag führen Buddhisten vier Verrichtungen durch:
 

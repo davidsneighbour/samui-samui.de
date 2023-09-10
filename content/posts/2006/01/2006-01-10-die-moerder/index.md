@@ -1,6 +1,5 @@
 ---
 title: Die Mörder
-author: Patrick Kollitsch
 type: post
 date: 2006-01-10T03:40:00+00:00
 url: /2006/01/die-moerder/
@@ -11,7 +10,7 @@ dsq_thread_id:
 
 
 ---
-Vorgestern Nacht hat man die Mörder der englischen Studentin gefasst. Wenn ich mir den [Bericht in The Nation online][1] dazu durchlese mache ich mir schon Gedanken darüber, wie niedrig die Hemmschwelle sein kann mit ein bisschen Porno und ein bisschen Sangsom (beides preiswert überall erhältlich). 
+Vorgestern Nacht hat man die Mörder der englischen Studentin gefasst. Wenn ich mir den [Bericht in The Nation online][1] dazu durchlese mache ich mir schon Gedanken darüber, wie niedrig die Hemmschwelle sein kann mit ein bisschen Porno und ein bisschen Sangsom (beides preiswert überall erhältlich).
 
 Thaksin derweil [verlangt die Todesstrafe][2]. Nicht weil sie gemordet haben sondern weil sie dem Ansehen Thailands geschadet haben.
 

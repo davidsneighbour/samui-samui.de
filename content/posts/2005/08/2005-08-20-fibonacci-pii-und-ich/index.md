@@ -1,15 +1,11 @@
 ---
 title: Fibonacci, Pi und Beer Chang
-author: Patrick Kollitsch
 type: post
 date: 2005-08-19T21:17:02+00:00
 url: /2005/08/fibonacci-pii-und-ich/
 dsq_thread_id:
   - "6412166713"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Li und ich sitzen in meiner präferierten Ladybar an der Theke und trinken Beer Chang. Mai schlängelt sich zu den harten Beats aus den Boxen um eine in Reichweite stehende Stange und schwelgt in ekstatisch rhythmischen Zuckungen. Wir unterhalten uns gerade über Leonardo Pisano und seine Vorliebe für die Null die es vor ihm im Abendland nicht gibt und Li ist schockiert, dass ich Nullen für ausgemachten Unfug halte (ich sage das nur, um eine andere Meinung zu haben und das sehr fruchtbare Gespräch im Fluss zu halten). "Aber dann kannst du doch nie mathematisch beschreiben, dass nichts da ist!" sagt sie. Ich murmel "Das hättest du gerne. Erst gibts nichts und dann noch drüber reden wollen. Nene. Nich mit mir!" und lasse beiläufig meinen Blick über ihre nur von wenigen Stofffetzen bedeckten Beine gleiten.
 

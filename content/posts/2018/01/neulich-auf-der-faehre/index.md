@@ -1,7 +1,6 @@
 ---
 title: "Neulich auf der Fähre"
 date: 2018-01-31T20:04:22+07:00
-author: Patrick Kollitsch
 type: post
 url: /2018/01/neulich-auf-der-faehre
 tags:

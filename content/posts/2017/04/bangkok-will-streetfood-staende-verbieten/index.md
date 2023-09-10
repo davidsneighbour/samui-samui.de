@@ -1,6 +1,5 @@
 ---
 title: Bangkok will Streetfood-Stände verbieten
-author: Patrick Kollitsch
 type: post
 date: 2017-04-18T12:20:12+00:00
 url: /2017/04/bangkok-will-streetfood-staende-verbieten/

@@ -1,15 +1,11 @@
 ---
 title: Learning to fly
-author: Patrick Kollitsch
 type: post
 date: 2005-01-17T22:04:18+00:00
 url: /2005/01/learning-to-fly/
 dsq_thread_id:
   - "6412166372"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Stellen wir uns diese Seite als Comic vor:
 

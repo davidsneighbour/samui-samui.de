@@ -1,6 +1,5 @@
 ---
 title: Britney Spears kommt nach Samui
-author: Patrick Kollitsch
 type: post
 date: 2009-06-15T13:57:03+00:00
 url: /2009/06/britney-spears-kommt-nach-samui/
@@ -9,7 +8,7 @@ url: /2009/06/britney-spears-kommt-nach-samui/
 
 
 ---
-[Britney Jean Spears][1] will ein ganzes Ressort hier auf Samui für einen einwöchigen Urlaub mieten. [Sagt man][2]. 
+[Britney Jean Spears][1] will ein ganzes Ressort hier auf Samui für einen einwöchigen Urlaub mieten. [Sagt man][2].
 
 Für fast 300.000 Dollar will sie im Sila Evason (das eigentlich [Six Senses Hideaway][3] hei?t und mit derartiger Vorankündigung kein Hideaway sein wird) den erfolgreichen Abschluss ihrer Europatournee feiern. Gleich mal die Photo-Möglichkeiten ausloten.
 

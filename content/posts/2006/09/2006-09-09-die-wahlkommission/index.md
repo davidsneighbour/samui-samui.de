@@ -1,6 +1,5 @@
 ---
 title: Die Wahlkommission
-author: Patrick Kollitsch
 type: post
 date: 2006-09-08T20:40:00+00:00
 url: /2006/09/die-wahlkommission/

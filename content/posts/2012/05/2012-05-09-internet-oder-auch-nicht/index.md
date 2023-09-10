@@ -1,9 +1,9 @@
 ---
 title: Internet. Oder auch nicht.
-author: Patrick Kollitsch
 type: post
 date: 2012-05-09T02:28:03+00:00
 url: /2012/05/internet-oder-auch-nicht/
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Dies und das zum interessiertem Informations-Update:
 

@@ -1,6 +1,5 @@
 ---
 title: Polarbär
-author: Patrick Kollitsch
 type: post
 date: 2007-03-30T05:34:46+00:00
 url: /2007/03/polarbaer/

@@ -1,6 +1,5 @@
 ---
 title: Kurz Geschnittenes VII
-author: Patrick Kollitsch
 type: post
 date: 2008-03-10T01:55:24+00:00
 url: /2008/03/kurz-geschnittenes-vii/

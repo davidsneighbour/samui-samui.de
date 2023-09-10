@@ -1,6 +1,5 @@
 ---
 title: Thaksin ist wieder Single
-author: Patrick Kollitsch
 type: post
 date: 2008-11-14T18:56:08+00:00
 url: /2008/11/thaksin-ist-wieder-single/
@@ -17,7 +16,7 @@ Seine Frau soll, so sagt man, diesen Weg nicht mit gehen wollen und so wurde die
 
 Ich für meinen Teil wundere mich eigentlich nur, wie einfach sich so eine Ehe in Thailand scheiden lässt, nehme aber mal an, dass beide mit dem Argument, der jeweilige Ehepartner ist ein verurteilter Straftäter auf der Flucht, das Verfahren beschleunigen konnten.
 
-Insider mögen behaupten, Thaksin habe es nicht hin nehmen können, nur zu zwei Jahren Haft verurteilt worden zu sein und nicht wie seine Ex-Frau Pojaman zu drei oder gar mehr Jahren, wie es seiner Position in der Weltgeschichte entspräche. 
+Insider mögen behaupten, Thaksin habe es nicht hin nehmen können, nur zu zwei Jahren Haft verurteilt worden zu sein und nicht wie seine Ex-Frau Pojaman zu drei oder gar mehr Jahren, wie es seiner Position in der Weltgeschichte entspräche.
 
 Thaksin befindet sich nun in Dubai und man munkelt, er plane sich vorerst in der Karibik nieder zu lassen um von dort aus den Kampf <del>gegen</del> für die Gerechtigkeit zu führen.
 

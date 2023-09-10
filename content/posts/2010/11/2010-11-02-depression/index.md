@@ -1,15 +1,11 @@
 ---
 title: Depression
-author: Patrick Kollitsch
 type: post
 date: 2010-11-01T18:43:25+00:00
 url: /2010/11/depression/
 dsq_thread_id:
   - "3491433956"
-
-
-
-
+lastmod: 2023-09-10T19:14:13+07:00
 ---
 Das hat dann auch mich etwas verwundert. Gegen Mitternacht heute war plötzlich der Strom weg und kam erst kurz nach Mittag wieder zurück. Die üblichen Quellen sprechen von einem Samui-weiten Stromausfall --- man rechne mit ein bis zwei Tagen Behebungsdauer. Es waren dann nur 12 Stunden, aber das war wiedermal eine Zeit, in der man daran erinnert wurde, wozu man Strom so braucht. Gestern noch fand ich meinen Gaskocher steinzeitlich --- heute bin ich konvertiert.
 

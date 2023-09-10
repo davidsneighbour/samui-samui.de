@@ -1,6 +1,5 @@
 ---
 title: Der gro?e Tag
-author: Patrick Kollitsch
 type: post
 date: 2007-02-28T22:32:56+00:00
 url: /2007/03/der-grosse-tag/

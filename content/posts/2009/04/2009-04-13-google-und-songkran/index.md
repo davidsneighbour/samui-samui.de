@@ -1,6 +1,5 @@
 ---
 title: Google und Songkran
-author: Patrick Kollitsch
 type: post
 date: 2009-04-12T20:37:02+00:00
 url: /2009/04/google-und-songkran/

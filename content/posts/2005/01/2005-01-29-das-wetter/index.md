@@ -1,13 +1,9 @@
 ---
 title: Das Wetter
-author: Patrick Kollitsch
 type: post
 date: 2005-01-29T05:01:00+00:00
 url: /2005/01/das-wetter/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Seit einiger Zeit suche ich ja schon nach aktuellen Wetterangaben für Ko Samui. Bisher habe ich bei [Weather.com][1] immer die Suche benutzt, sollte man lassen, hat keinen Sinn. ?ber Google dann klappte es: [hier ist also das Wetter bei uns][2] in der 10-Tage-Prognose. Der Wettercode für Ko Samui ist übrigens _THXX0046_.
 

@@ -1,15 +1,11 @@
 ---
 title: Putschgerüchteküche
-author: Patrick Kollitsch
 type: post
 date: 2011-02-02T10:20:13+00:00
 url: /2011/02/putschgeruechtekueche/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
- 
+
 
 Derzeit munkelt man wieder mal öffentlich über einen geplanten Putsch der Armee. In den vergangenen drei Jahren war das mehr oder weniger Unsinn und gezielt gestreute Desinformation, um von anderen Problemen abzulenken, diesmal wird nicht so ganz klar, wer hier welches Ziel verfolgt.
 

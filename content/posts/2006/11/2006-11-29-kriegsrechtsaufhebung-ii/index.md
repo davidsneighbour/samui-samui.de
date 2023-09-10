@@ -1,15 +1,11 @@
 ---
 title: Kriegsrechtsaufhebung II
-author: Patrick Kollitsch
 type: post
 date: 2006-11-29T01:01:05+00:00
 url: /2006/11/kriegsrechtsaufhebung-ii/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Wenn der König das entsprechende Gesetz unterzeichnet, dann wird in den nächsten Tagen in gut 50% der Provinzen Thailands das Kriegsrecht aufgehoben. 
+Wenn der König das entsprechende Gesetz unterzeichnet, dann wird in den nächsten Tagen in gut 50% der Provinzen Thailands das Kriegsrecht aufgehoben.
 
 [In den folgenden Provinzen bleibt das Kriegsrecht aktiv][1]: _Kanchanaburi_, Kamphaengphet, Khonkaen, _Chanthaburi_, Chiang Rai, Chiang Mai, Chaiyaphum, _Trat_, _Tak_, Narathiwat, Nakhon Ratchasima, _Nan_, Buri Ram, _Prachub Khiri Khan_, Pattani, _Payao_, _Phitsanulok_, _Phetchaburi_, _Mae Hong Son_, Maha Sarakham, Yala, Ratchaburi, _Roi Et, Ranong_, Loei, Si Sa Ket, _Satun_, _Songkhla_, _Sa Kaew_, Surin, Nongbualamphu, Udorn Thani, _Uttaradit_, Ubon Ratchathani, Amnatcharoen. (In den kursiven Provinzen bleiben nur einige Bereiche unter Kriegsrecht.)
 

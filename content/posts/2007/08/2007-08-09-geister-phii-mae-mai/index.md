@@ -1,6 +1,5 @@
 ---
 title: 'Geister: Phii Mae Mai'
-author: Patrick Kollitsch
 type: post
 date: 2007-08-08T22:29:44+00:00
 url: /2007/08/geister-phii-mae-mai/

@@ -1,13 +1,9 @@
 ---
 title: The year of non-gouvernment
-author: Patrick Kollitsch
 type: post
 date: 2006-05-17T22:36:07+00:00
 url: /2006/05/the-year-of-non-gouvernment/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 [Netter Kommentar in The Nation][1] über das Leben mit einer nicht regierenden Regierung:
 

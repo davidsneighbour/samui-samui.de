@@ -1,6 +1,5 @@
 ---
 title: FAQ Thailand November 2008
-author: Patrick Kollitsch
 type: post
 date: 2008-11-26T00:47:11+00:00
 url: /2008/11/faq-thailand-november-2008/
@@ -29,11 +28,11 @@ A: <span class="caps">PAD</span>. Das sind 'die Guten'. Die demonstrieren gewalt
 
 **F: Ständeregierung?**
 
-A: Ja. Die wollen eine Regierung, in der 50% oder lieber mehr der 'Volksvertreter' nicht vom Volk gewählt sondern von vereinzelten Berufsständen (Taxifahrer, ?rzte, Journalisten, <span class="caps">PAD</span>-Führer) delegiert werden. 
+A: Ja. Die wollen eine Regierung, in der 50% oder lieber mehr der 'Volksvertreter' nicht vom Volk gewählt sondern von vereinzelten Berufsständen (Taxifahrer, ?rzte, Journalisten, <span class="caps">PAD</span>-Führer) delegiert werden.
 
 **F: Thailand ist also sicher?**
 
-A: Klar. Nur eben nicht unbedingt in Bangkok. Und im Osten an der Grenze zu Cambodia. Und nicht wirklich im Süden. Von den Schiessereien an der Grenze im Osten zu Birma/Burma/Myanmar allerdings hat man schon länger nichts mehr gehört. 
+A: Klar. Nur eben nicht unbedingt in Bangkok. Und im Osten an der Grenze zu Cambodia. Und nicht wirklich im Süden. Von den Schiessereien an der Grenze im Osten zu Birma/Burma/Myanmar allerdings hat man schon länger nichts mehr gehört.
 
 **F: Und wenn dann doch mal was passiert? Handgranate, Bombe oder einfach nur eine Stra?enschlacht?**
 

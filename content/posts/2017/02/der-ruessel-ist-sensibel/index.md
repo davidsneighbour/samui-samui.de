@@ -1,6 +1,5 @@
 ---
 title: Der Rüssel ist sensibel
-author: Patrick Kollitsch
 type: post
 date: 2017-02-12T05:18:59+00:00
 url: /2017/02/der-ruessel-ist-sensibel/

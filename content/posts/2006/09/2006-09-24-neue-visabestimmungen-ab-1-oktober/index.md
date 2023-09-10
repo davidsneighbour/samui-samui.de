@@ -1,6 +1,5 @@
 ---
 title: Neue Visabestimmungen ab 1. Oktober
-author: Patrick Kollitsch
 type: post
 date: 2006-09-24T02:14:00+00:00
 url: /2006/09/neue-visabestimmungen-ab-1-oktober/
@@ -11,11 +10,11 @@ dsq_thread_id:
 
 
 ---
-Thailand hat die Visabestimmungen geändert. Diese Meldung erzeugte ein kleines bisschen Unruhe, auch _ich_ bin gefragt worden, ob mich das irgendwie betrifft. Tut es, dazu am Ende mehr. Zuerst einmal, was sich denn geändert hat und warum (wobei sich die Informationen in der Regel auf die drei deutschsprachigen Länder beziehen). 
+Thailand hat die Visabestimmungen geändert. Diese Meldung erzeugte ein kleines bisschen Unruhe, auch _ich_ bin gefragt worden, ob mich das irgendwie betrifft. Tut es, dazu am Ende mehr. Zuerst einmal, was sich denn geändert hat und warum (wobei sich die Informationen in der Regel auf die drei deutschsprachigen Länder beziehen).
 
 **Welche Visaarten gibt es?**
 
-Es gibt drei Haupt-Visa-Arten, mit denen man in Thailand leben kann. 
+Es gibt drei Haupt-Visa-Arten, mit denen man in Thailand leben kann.
 
 Das "**_visa on arrival_**" (VoA), Einreisevisum, das man automatisch bekommen kann, wenn man in Thailand ankommt. Das Visa hat eine Gültigkeit von 30 Tagen und wird bei Wiedereinreise erneuert. Bis zum 1. Oktober ist es durch Aus- und Wiedereinreise unbegrenzt erneuerbar. Visarun.
 
@@ -47,13 +46,13 @@ Es gibt einige andere Visa, die allerdings sind nur interessant, wenn man mit ei
 
 **Was genau hat sich denn nun geändert?**
 
-Zuerst einmal wurde eines der Non Immigrant IM Visa abgeschafft. Man konnte 3 Millionen Baht investieren (in Fonds, Condominiums usw.) und dafür eine Aufenthaltsgenehmigung erhalten. Dieses Visa wurde vor rund drei Wochen abgeschafft. 
+Zuerst einmal wurde eines der Non Immigrant IM Visa abgeschafft. Man konnte 3 Millionen Baht investieren (in Fonds, Condominiums usw.) und dafür eine Aufenthaltsgenehmigung erhalten. Dieses Visa wurde vor rund drei Wochen abgeschafft.
 
-Vor gut 2 Wochen dann begannen Gerüchte die Runde zu machen, das Touristenvisum sei abgeschafft. Nach ein paar panischen Tagen auf den einschlägigen Webboards kamen die ersten Presseberichte (alle aus dem Ausland), dass ein Angestellter (!!!) der Immigrationsbehörden am Sonntag (!!!) vor zwei Wochen erklärt hätte, die Einreisevisa wären ab 1. Oktober nur noch 3 Mal in Folge erteilbar. Vergangene Woche dann kam auch die offizielle Erklärung. 
+Vor gut 2 Wochen dann begannen Gerüchte die Runde zu machen, das Touristenvisum sei abgeschafft. Nach ein paar panischen Tagen auf den einschlägigen Webboards kamen die ersten Presseberichte (alle aus dem Ausland), dass ein Angestellter (!!!) der Immigrationsbehörden am Sonntag (!!!) vor zwei Wochen erklärt hätte, die Einreisevisa wären ab 1. Oktober nur noch 3 Mal in Folge erteilbar. Vergangene Woche dann kam auch die offizielle Erklärung.
 
 Es wurde folgendes geändert: Ab 1. Oktober wird das VoA nur noch ausgestellt, wenn man in den vergangenen 90 Tagen maximal 2 Einreisestempel im Pass hat. Hat man drei Stempel im Pass, dann bekommt man kein VoA mehr ausgestellt für 90 Tage. Oder um es genau und offiziell auszudrücken:
 
-> 3. According the Article 13 (3) of the Ministerial Regulation which stipulated the criterions, practices and conditions regarding the verification, exception and the changes in the visa requirements B.E. 2545 (2002) dated on 16th August B.E. 2545 (2002), within six months period, the holder of passport or substitutive documents which issued by any country that is approved by the Minister of the Interior, under the approval of the Cabinet, to enter to temporarily stay in Thailand for tourism purpose, shall be permitted to enter Thailand several times. Each permitted time shall not be exceeding 30 days period, and the total period shall not be exceeding 90 days from the first day that the passport holder arrived in Thailand. 
+> 3. According the Article 13 (3) of the Ministerial Regulation which stipulated the criterions, practices and conditions regarding the verification, exception and the changes in the visa requirements B.E. 2545 (2002) dated on 16th August B.E. 2545 (2002), within six months period, the holder of passport or substitutive documents which issued by any country that is approved by the Minister of the Interior, under the approval of the Cabinet, to enter to temporarily stay in Thailand for tourism purpose, shall be permitted to enter Thailand several times. Each permitted time shall not be exceeding 30 days period, and the total period shall not be exceeding 90 days from the first day that the passport holder arrived in Thailand.
 
 Klar? Man kann also von 180 Tagen 90 mit einem VoA in Thailand verbringen. Die Immigrationsbüros haben [diese Bekanntmachungen][1] ausgehängt. Mit dem Touristenvisum haben diese Bestimmungen übrigens _nichts_ zu tun.
 
@@ -65,7 +64,7 @@ Im Fall des Investmentvisas ist es ganz einfach. Es gibt ein anderes Investmentv
 
 Im Falle des VoA ist es schon etwas komplizierter. Wenn man aber die Berichterstattung der letzten Monate überwacht hat, bekommt man eine leichte Ahnung. John Kerr, der selbsternannte amerikanische Kindermörder wurde in Thailand verhaftet und die Medien schrieben, dass er sich hier mit VoA und Visaruns aufhielt. Ein Engländer der seine Frau und seine Kinder umgebracht hat wird in Thailand verhaftet --- [auf einem Visarun][2]. Pädophile aus Australien? Hier mit VoA. Viagradealer aus Deutschland? Hier mit VoA. Schlagzeilen über Thailand in den vergangenen Monate lauteten unter anderem "sanctuary for foreing criminals". Die Änderungen der Visabestimmungen sind ein erster Schritt zur Wahrung des Gesichts. Das ist sehr wichtig in Thailand.
 
-Da man beim VoA nicht in einer Botschaft oder in einem Konsulat ein Visa beantragt, kann auch nicht genauer überprüft werden, wer da das Land mit einem vermutlich gültigen Pass betritt. Erst wenn internationale Haftbefehle ausgestellt werden, wissen die Grenzbeamten, wen sie vor sich haben und können die Einreise verweigern. 
+Da man beim VoA nicht in einer Botschaft oder in einem Konsulat ein Visa beantragt, kann auch nicht genauer überprüft werden, wer da das Land mit einem vermutlich gültigen Pass betritt. Erst wenn internationale Haftbefehle ausgestellt werden, wissen die Grenzbeamten, wen sie vor sich haben und können die Einreise verweigern.
 
 Durch den Putsch wird sich übrigens nichts an den Visaregelungen ändern, denn es geht hier wirklich darum, unerwünschten Subjekten die Einreise zu verweigern.
 
@@ -73,7 +72,7 @@ Durch den Putsch wird sich übrigens nichts an den Visaregelungen ändern, denn 
 
 Ehm, also zugegebenermaßen befinde ich mich derzeit als Tourist im Lande. Allerdings arbeite ich seit Juni auch nicht, was man vor allem an meinem Kontostand (zweistelliger Bahtbereich) sieht. Ich suche immer noch nach einem Job, denn selbständig machen wollte ich mich nach meinen Erfahrungen in Deutschland nicht mehr. Zwar kann man die Möglichkeiten hier nicht mit Deutschland vergleichen und mit 400 Euro im Monat fürstlich leben, man merkt aber gerade an solchen kurzfristigen Anordnungen, dass sich alles ganz schnell ändern kann.
 
-Es gibt zwei Projekte die noch in den Ideenphasen stecken und mich bewegen könnten, hier eine Firma aufzumachen. 
+Es gibt zwei Projekte die noch in den Ideenphasen stecken und mich bewegen könnten, hier eine Firma aufzumachen.
 
 Je nach Zählbeginn der Verordnung (ich habe bereits 4 VoA-Stempel im Pass) werde ich Ende Oktober oder Ende Dezember einen größeren Visarun bspw. nach Singapore machen und mir je nach finanziellen Möglichkeiten entweder ein Touristenvisum mit Doppeleinreise oder ein Jahres Non Immigrant B Visa verschaffen. Mit letzterem kann ich dann eine Arbeitserlaubnis beantragen. Ich werde berichten.
 

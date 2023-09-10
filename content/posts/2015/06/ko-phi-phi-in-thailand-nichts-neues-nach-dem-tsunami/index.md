@@ -1,6 +1,5 @@
 ---
 title: 'Ko Phi Phi in Thailand: Nichts Neues nach dem Tsunami'
-author: Patrick Kollitsch
 type: post
 date: 2015-06-19T12:12:02+00:00
 url: /2015/06/ko-phi-phi-in-thailand-nichts-neues-nach-dem-tsunami/

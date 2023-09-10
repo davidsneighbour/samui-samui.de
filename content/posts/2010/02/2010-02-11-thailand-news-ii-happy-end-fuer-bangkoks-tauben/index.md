@@ -1,25 +1,21 @@
 ---
-title: 'Thailand-News II: Happy End für Bangkoks Tauben'
-author: Patrick Kollitsch
+title: "Thailand-News II: Happy End für Bangkoks Tauben"
 type: post
 date: 2010-02-11T15:08:21+00:00
 url: /2010/02/thailand-news-ii-happy-end-fuer-bangkoks-tauben/
-
-
-
-
+lastmod: 2023-09-10T19:14:13+07:00
 ---
 Es gibt Nachrichten, die gibt es nur in Thailand:
 
-**Rettung**: Die Tauben, die vergangene Woche aus unerklärlichen Gründen noch niemand wollte, haben eine neue Heimat gefunden. [Hurrah][1]. Farmer aus 10 Provinzen wollen die Federviecher nutzbar (hinsichtlich der Eier) einsetzen. 
+**Rettung**: Die Tauben, die vergangene Woche aus unerklärlichen Gründen noch niemand wollte, haben eine neue Heimat gefunden. [Hurrah][1]. Farmer aus 10 Provinzen wollen die Federviecher nutzbar (hinsichtlich der Eier) einsetzen.
 
-Die Tauben werden gereinigt, für die Farmer werden von der Vereinigung für, ehm, Renn-Tauben (? heh?) Handbücher zur Taubenzüchtung bereitgestellt und es gibt 10 Provinzen, in denen die Leute mehr Taubeneier verzehren können. Wenn die Lehrbücher keine fatalen Fehler enthalten. 
+Die Tauben werden gereinigt, für die Farmer werden von der Vereinigung für, ehm, Renn-Tauben (? heh?) Handbücher zur Taubenzüchtung bereitgestellt und es gibt 10 Provinzen, in denen die Leute mehr Taubeneier verzehren können. Wenn die Lehrbücher keine fatalen Fehler enthalten.
 
 **Rettung II**: Im ewig währenden Streit um die Grenze rings um Preah Vihear, einem Tempel der mitten auf der Grenze, in Cambodia oder Thailand steht, je nach Geschichtsschreibung des Betrachters, kommt Google Thailand zu Hilfe. In Google Earth ist die Grenze nämlich so gezogen, dass der Tempel auf der Thaiseite steht.
 
 Und da Google immer Recht hat, freuen wir uns (stellvertretend für jeden, der den Tempel irgendwie gewinnbringend verwerten kann) natürlich. Hun Sen, der (sicherlich klinisch diagnostizierbare) Premierminister Cambodias sagt [nun][2], Google sei böse, aber wir alle wissen ja, dass dem nicht so sein kann. Mal abgesehen davon, dass nach Meinung der Thais [noch nicht alles entschieden][3] (sprich verloren) ist.
 
-**Nachrichten die Nachrichten wären wenn sie Nachrichten sein dürften was sie nicht dürfen weshalb sie keine Nachrichten sind was wiederum eine Nachricht wäre wenn man darüber berichten dürfte**: Am 26. Februar wird über die eingefrorenen Reichtümer von Thailands's zu 50% beliebten Präsidenten (des Thailändischen Profigolferverbandes) entschieden. Man sagt, es wäre nach diesem Datum nicht mehr sein Eigentum. Es werden überall im Lande Soldaten positioniert, die für Ruhe und Ordnung sorgen sollen, die Rothemden krakelen und den "Medien" soll in den nächsten Tagen ein Maulkorb verpasst werden, nach dem über die Entscheidung im Vorfeld nicht mehr berichtet werden darf. 
+**Nachrichten die Nachrichten wären wenn sie Nachrichten sein dürften was sie nicht dürfen weshalb sie keine Nachrichten sind was wiederum eine Nachricht wäre wenn man darüber berichten dürfte**: Am 26. Februar wird über die eingefrorenen Reichtümer von Thailands's zu 50% beliebten Präsidenten (des Thailändischen Profigolferverbandes) entschieden. Man sagt, es wäre nach diesem Datum nicht mehr sein Eigentum. Es werden überall im Lande Soldaten positioniert, die für Ruhe und Ordnung sorgen sollen, die Rothemden krakelen und den "Medien" soll in den nächsten Tagen ein Maulkorb verpasst werden, nach dem über die Entscheidung im Vorfeld nicht mehr berichtet werden darf.
 
 Worüber nun vor dem Maulkorb berichtet wäre.
 

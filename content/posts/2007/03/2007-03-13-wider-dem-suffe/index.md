@@ -1,6 +1,5 @@
 ---
 title: Wider dem Suffe
-author: Patrick Kollitsch
 type: post
 date: 2007-03-13T09:45:38+00:00
 url: /2007/03/wider-dem-suffe/

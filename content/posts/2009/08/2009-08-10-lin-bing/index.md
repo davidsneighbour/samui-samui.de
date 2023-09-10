@@ -1,6 +1,5 @@
 ---
 title: Lin Bing
-author: Patrick Kollitsch
 type: post
 date: 2009-08-09T23:13:22+00:00
 url: /2009/08/lin-bing/

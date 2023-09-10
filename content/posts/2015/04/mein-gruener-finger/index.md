@@ -1,6 +1,5 @@
 ---
-title: Mein grüner Finger
-author: Patrick Kollitsch
+title: "Mein grüner Finger"
 type: post
 date: 2015-04-16T02:43:43+00:00
 url: /2015/04/mein-gruener-finger/

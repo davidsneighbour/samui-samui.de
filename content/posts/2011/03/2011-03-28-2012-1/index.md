@@ -1,17 +1,13 @@
 ---
-title: '2012 +/- 1'
-author: Patrick Kollitsch
+title: 2012 +/- 1
 type: post
 date: 2011-03-28T11:05:10+00:00
 url: /2011/03/2012-1/
 dsq_thread_id:
   - "2918510404"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Es regnet. Das ist nichts Neues, es regnet häufiger mal. Interessanterweise aber ist es März und "normalerweise" haben wir zu dieser Zeit kein Wölkchen am Himmel, 35 Grad im Schatten und wünschen uns nichts sehnlicher als Regen. 
+Es regnet. Das ist nichts Neues, es regnet häufiger mal. Interessanterweise aber ist es März und "normalerweise" haben wir zu dieser Zeit kein Wölkchen am Himmel, 35 Grad im Schatten und wünschen uns nichts sehnlicher als Regen.
 
 Nun also regnet es, seit gut einer Woche durchgehend. Nicht tröpfelnd, nicht pieselnd, nein, richtiger echter Gump'scher Regen. Mein Klong vorm Haus ist randvoll Wasser, die Brücke an der Stra?e verstopft, die Stra?e überflutet. Der kleine Wasserfall, der sich in der vergangenen "regulären" Regenzeit vorm Haus bildete, hat sich zuerst 20 Meter flussaufwärts verlagert und ist dann ganz verschwunden. Bin gespannt, wie der Bach aussieht, wenn das Wasser abgeflossen ist.
 
@@ -19,7 +15,7 @@ Rund ums Haus bilden sich Sturzbäche und tiefe Rinnen. Die Wurzeln der Bäume r
 
 Gestern bin ich (gezwungenerma?en, drei Tage lang ging mein Internet nicht und ein Webworker auf Cold Turkey ist kein schöner Anblick) mal nach Nathon gefahren. Der Hinweg war ein Spaziergang, höchstens mal 10cm Wasser und heftige Windböen.
 
-Rückzu sah es schon etwas anders aus. Die Wolken hingen zum Greifen tief, das Wasser strömte von allen Seiten und die Windböen rissen heftig an meinem kleinen Moped. In den Bergen zwischen Nathon und Bang Por standen die Leute schon mit Schaufeln bereit, weil der Hang bereits wieder am Rutschen war. 
+Rückzu sah es schon etwas anders aus. Die Wolken hingen zum Greifen tief, das Wasser strömte von allen Seiten und die Windböen rissen heftig an meinem kleinen Moped. In den Bergen zwischen Nathon und Bang Por standen die Leute schon mit Schaufeln bereit, weil der Hang bereits wieder am Rutschen war.
 
 Einen Kilometer vor meinem Haus, einer warmen Dusche und mehr oder weniger trockenem Untergrund kam meine Reise dann ins Stocken. Es gibt da so eine Doppelkurve in Bang Por, die schon bei leichtem Regen immer überflutet ist. Diesmal vereinten sich dort drei Flüsse (einer von einer seitlichen Stra?e und zwei von der Ringroad) zu einer heftigen Strömung, die alles mitriss, was sich hinein wagte.
 

@@ -1,6 +1,5 @@
 ---
 title: Suchbild
-author: Patrick Kollitsch
 type: post
 date: 2013-02-25T05:19:49+00:00
 url: /2013/02/suchbild/

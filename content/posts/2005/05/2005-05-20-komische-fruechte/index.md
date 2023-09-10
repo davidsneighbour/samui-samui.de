@@ -1,21 +1,17 @@
 ---
 title: Komische Früchte
-author: Patrick Kollitsch
 type: post
 date: 2005-05-19T23:38:01+00:00
 url: /2005/05/komische-fruechte/
 dsq_thread_id:
   - "2900753269"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Gestern hab ich mir komische Früchte gekauft. Vom äu?eren Aufbau her machten sie eigentlich den Eindruck, dass sie zur Litschi-Gruppe gehören, mit deren Vertretern ich bereits viel Freude hatte. 
+Gestern hab ich mir komische Früchte gekauft. Vom äu?eren Aufbau her machten sie eigentlich den Eindruck, dass sie zur Litschi-Gruppe gehören, mit deren Vertretern ich bereits viel Freude hatte.
 
 (Um es vorneweg zu sagen, ich hab natürlich vergessen, Photos zu schiessen, also schaltet mal eben den Phantasiemodus ein!)
 
-Die Dinger sind ziemlich rot und haben lustige kleine harte Stachel. Sieht aus wie eine genetische Optimierung der Rambutan. Jedenfalls schälte ich mir so ein Ding. Es sah innen aus wie drei Feigen, die aneinander klebten. 
+Die Dinger sind ziemlich rot und haben lustige kleine harte Stachel. Sieht aus wie eine genetische Optimierung der Rambutan. Jedenfalls schälte ich mir so ein Ding. Es sah innen aus wie drei Feigen, die aneinander klebten.
 
 Schnüffel. Würg.
 

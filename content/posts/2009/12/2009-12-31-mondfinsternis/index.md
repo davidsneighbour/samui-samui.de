@@ -1,6 +1,5 @@
 ---
 title: Mondfinsternis
-author: Patrick Kollitsch
 type: post
 date: 2009-12-31T03:37:38+00:00
 url: /2009/12/mondfinsternis/

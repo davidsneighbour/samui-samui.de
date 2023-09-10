@@ -1,6 +1,5 @@
 ---
 title: Kindchenschema
-author: Patrick Kollitsch
 type: post
 date: 2006-01-04T02:18:00+00:00
 url: /2006/01/kindchenschema/

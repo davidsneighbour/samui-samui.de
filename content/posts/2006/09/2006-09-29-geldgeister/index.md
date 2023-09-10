@@ -1,6 +1,5 @@
 ---
 title: Geldgeister
-author: Patrick Kollitsch
 type: post
 date: 2006-09-29T00:24:04+00:00
 url: /2006/09/geldgeister/

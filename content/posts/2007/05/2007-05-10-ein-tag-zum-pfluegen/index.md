@@ -1,6 +1,5 @@
 ---
 title: Ein Tag zum Pflügen
-author: Patrick Kollitsch
 type: post
 date: 2007-05-09T23:19:36+00:00
 url: /2007/05/ein-tag-zum-pfluegen/

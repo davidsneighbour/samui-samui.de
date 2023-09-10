@@ -1,6 +1,5 @@
 ---
 title: Sonnenuntergang bei Ban Taling Ngam
-author: Patrick Kollitsch
 type: post
 date: 2008-01-15T00:24:03+00:00
 url: /2008/01/sonnenuntergang-bei-ban-taling-ngam/
@@ -9,7 +8,7 @@ url: /2008/01/sonnenuntergang-bei-ban-taling-ngam/
 
 
 ---
-Es fragen häufiger mal Leute an, wo es denn nun am romantischsten auf Koh Samui wäre. Einfache Frage. Einfache Antwort. 
+Es fragen häufiger mal Leute an, wo es denn nun am romantischsten auf Koh Samui wäre. Einfache Frage. Einfache Antwort.
 
 Am Strand von Ban Taling Ngam. Da kann es regnen und der Sonnenuntergang bleibt romantisch (man möge besonders stark werten, dass ich der unromantischste Mensch in Bang Por bin).
 

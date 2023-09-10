@@ -1,6 +1,5 @@
 ---
 title: Bauernopfer?
-author: Patrick Kollitsch
 type: post
 date: 2007-02-23T05:00:39+00:00
 url: /2007/02/bauernopfer/
@@ -15,9 +14,9 @@ Mit [Somkid Jatusripitak][1] wurde ein ehemaliger Finanz- und stellvertretender 
 
 > Surayud's naming of Somkid as the chairman of the International Economic Coordination Committee came as a big surprise. In this fresh role, Somkid will become an official spokesman of the Surayud government in charge of propagating the sufficiency theory to the international community. He is also expected to mount road shows to explain the merits of the sufficiency theory to foreign governments, agencies and investors. [[The Nation][3]]
 
-Somkid war zwar nicht unbedingt ein Freund Thaksins und hat einige Regelungen und personelle Entscheidungen getroffen, die Thaksin nicht gefielen, hat aber unter anderem die Liberalisierung des Marktes für Großunternehmen und die populistischen Strategien zur Wählergewinnung von Thai Rak Thai entwickelt. Er wird als Hauptverfechter der [Thaksinomics][4] genannt, Thaksins Strategie, mit der er Thailand zu einem der wirtschaftlich stärksten Ländern in Südostasien machte. Vor dem Stillstand. 
+Somkid war zwar nicht unbedingt ein Freund Thaksins und hat einige Regelungen und personelle Entscheidungen getroffen, die Thaksin nicht gefielen, hat aber unter anderem die Liberalisierung des Marktes für Großunternehmen und die populistischen Strategien zur Wählergewinnung von Thai Rak Thai entwickelt. Er wird als Hauptverfechter der [Thaksinomics][4] genannt, Thaksins Strategie, mit der er Thailand zu einem der wirtschaftlich stärksten Ländern in Südostasien machte. Vor dem Stillstand.
 
-Es war nicht ganz klar, ob das nun nur ein Propaganda-Schritt Surayuds gegen Thaksin war ("Schaut her, selbst seine damaligen Mitstreiter unterstützen uns") oder ob Somkid mit dem Herzen die Sufficiency-Theorie unterstützt, die eigentlich das genaue Gegenteil der Thaksinomics-Theorie ist. 
+Es war nicht ganz klar, ob das nun nur ein Propaganda-Schritt Surayuds gegen Thaksin war ("Schaut her, selbst seine damaligen Mitstreiter unterstützen uns") oder ob Somkid mit dem Herzen die Sufficiency-Theorie unterstützt, die eigentlich das genaue Gegenteil der Thaksinomics-Theorie ist.
 
 Es gab gleich zu Beginn Gerüchte, dass der stellvertretende Premierminister und aktueller Finanzminister Pridiyathorn Devakula sehr gegen Somkids Ernennung war, und gegenüber Surayudh bereits mit seinem Rücktritt gedroht hatte. Als dann auch noch die PAD (Peoples Alliance for Democracy --- die Vereinigung, die schon 2005 angefangen hatte, gegen Thaksin zu demonstrieren und eigentlich [ihre Auflösung][5] bekannt gegeben hatte, nachdem Thaksin seiner Ämter enthoben war) [Somkids Rücktritt forderte][6], konnte Somkid nicht mehr viel machen und ist nun nach ein paar Tagen in seiner neuen Position [zurück getreten][7]. Das Kommitee wurde auch aufgelöst.
 

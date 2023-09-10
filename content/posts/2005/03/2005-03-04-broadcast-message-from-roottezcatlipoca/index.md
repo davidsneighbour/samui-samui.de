@@ -1,13 +1,9 @@
 ---
 title: Broadcast Message from root@tezcatlipoca
-author: Patrick Kollitsch
 type: post
 date: 2005-03-03T20:20:40+00:00
 url: /2005/03/broadcast-message-from-roottezcatlipoca/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 `(somewhere) at 9:17 ...<br />
 Warning power loss detected on UPS tezcatlipoca<br />

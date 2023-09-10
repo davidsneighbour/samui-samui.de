@@ -1,6 +1,5 @@
 ---
 title: Einparkprobleme
-author: Patrick Kollitsch
 type: post
 date: 2016-02-16T08:46:45+00:00
 url: /2016/02/einparkprobleme/

@@ -1,19 +1,15 @@
 ---
 title: Thailänderinnen verstehen
-author: Patrick Kollitsch
 type: post
 date: 2005-06-26T06:54:00+00:00
 url: /2005/06/thailaenderinnen-verstehen/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Muuuuahahahahaha. Eben kam ein Google-Suchender rein, der nach [Thailänderinnen verstehen][1] suchte. Gut. Ich werde mal versuchen, einiges zusammenzustellen:
 
 Man versteht Thailänderinnen besser, wenn
 
-  * man Thai lernt. Das ist die Sprache, die von den meisten Thailänderinnen gesprochen wird. 
+  * man Thai lernt. Das ist die Sprache, die von den meisten Thailänderinnen gesprochen wird.
   * man die Kopfhörer aus den Ohren nimmt. Schallwellen haben die unnütze Eigenschaft, sich gegenseitig zu überlagern.
   * man näher rangeht (siehe letzter Punkt, das hängt wieder mit den Schallwellen zusammen).
 

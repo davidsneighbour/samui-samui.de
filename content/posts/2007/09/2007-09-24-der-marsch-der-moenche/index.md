@@ -1,6 +1,5 @@
 ---
 title: Der Marsch der Mönche
-author: Patrick Kollitsch
 type: post
 date: 2007-09-23T23:18:16+00:00
 url: /2007/09/der-marsch-der-moenche/

@@ -1,15 +1,11 @@
 ---
 title: Der Wai
-author: Patrick Kollitsch
 type: post
 date: 2005-05-25T23:34:00+00:00
 url: /2005/05/der-wai/
 dsq_thread_id:
   - "6412166610"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Man grü?t sich in Thailand mit dem Wai. Dabei hält man die Handflächen aneinander und neigt den Kopf. Je höher die Hände dabei sind und je mehr man den Kopf neigt umso grö?er ist der Respekt, den man seinem Gegenüber zollt. Es gibt vier Arten des Wais:
 

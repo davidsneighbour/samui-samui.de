@@ -1,6 +1,5 @@
 ---
 title: Dunkle Ecken in Bangkok
-author: Patrick Kollitsch
 type: post
 date: 2006-12-20T06:03:16+00:00
 url: /2006/12/dunkle-ecken-in-bangkok/
@@ -13,7 +12,7 @@ dsq_thread_id:
 ---
 Eine Radiostation in Bangkok hat eine Liste der gefährlichsten Ecken Bangkoks heraus gebracht. Darunter sind:
 
-  * **Lat Phrao 21 in Chatuchak** --- Raubüberfälle und Morde. Der Markt in Chatuchak ist regelmässig in den Abend-News mit Bandenüberfällen. Mal sehen wann er aus den einschlägigen Touristenführern fliegt. 
+  * **Lat Phrao 21 in Chatuchak** --- Raubüberfälle und Morde. Der Markt in Chatuchak ist regelmässig in den Abend-News mit Bandenüberfällen. Mal sehen wann er aus den einschlägigen Touristenführern fliegt.
   * **Soi Wat Makok, Rajvithi Road in der Nähe des Victory Monuments** --- Drogen, Raubüberfälle, sexuelle ?bergriffe
   * **Soi Charansanitwong 89 und Soi Vimutayaram, Bang Phlat** --- Drogendealer, -abhängige und Banden
   * **Charansanitwong 37, Bangkok Noi** --- Diebstähle und sexuelle ?bergriffe

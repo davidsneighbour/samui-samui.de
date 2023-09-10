@@ -1,6 +1,5 @@
 ---
 title: So gesehen
-author: Patrick Kollitsch
 type: post
 date: 2016-11-10T13:01:06+00:00
 url: /2016/11/so-gesehen/

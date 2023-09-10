@@ -1,6 +1,5 @@
 ---
 title: Lin Ping geht
-author: Patrick Kollitsch
 type: post
 date: 2013-09-22T09:15:22+00:00
 url: /2013/09/lin-ping-geht/

@@ -1,6 +1,5 @@
 ---
 title: Sieg. Für wen auch immer.
-author: Patrick Kollitsch
 type: post
 date: 2008-12-02T01:04:54+00:00
 url: /2008/12/sieg-fuer-wen-auch-immer/
@@ -9,7 +8,7 @@ url: /2008/12/sieg-fuer-wen-auch-immer/
 
 
 ---
-So. Nun hat man also völlig unerwartet die drei Regierungsparteien ([People Power Party][1], [Matchima Thipataya][2] und [Chart Thai Party][3]) per Verfassungsgericht auflösen lassen. 
+So. Nun hat man also völlig unerwartet die drei Regierungsparteien ([People Power Party][1], [Matchima Thipataya][2] und [Chart Thai Party][3]) per Verfassungsgericht auflösen lassen.
 
 Somchai (der vierte Ex-Premier Thailands in zwei Jahren) sagte nur:
 
@@ -18,8 +17,8 @@ Somchai (der vierte Ex-Premier Thailands in zwei Jahren) sagte nur:
 womit er Recht hatte. Die <span class="caps">PAD</span> war wie immer wortgewaltiger:
 
 > "We have won a victory and achieved our aims," media mogul and <span class="caps">PAD</span> founder Sondhi Limthongkul said, reading a statement to reporters.
-> 
-> "All protests will stop as of December 3 at 10am. We have gained our victory already. If there is something wrong, we will mobilize people and stage another protest," Sondhi told the cheering crowds. 
+>
+> "All protests will stop as of December 3 at 10am. We have gained our victory already. If there is something wrong, we will mobilize people and stage another protest," Sondhi told the cheering crowds.
 
 Ich entsinne mich schwach, nach Samaks Rücktritt Gleiches von Sondhi Limthongkul gehört zu haben. Interessanterweise schlugen sie sogar selbst vor, dass Somchai Premier werden sollte, wenn dafür Samak zurück treten würde. Nun sind beide weg (Samak ist in den <span class="caps">USA</span> um seine Leberkrebserkrankung behandeln zu lassen und Somchai irgendwo in Chiang Mai). Mal sehen wer als Nächster versuchen darf, die <span class="caps">PAD</span> zufrieden zu stellen.
 
@@ -27,7 +26,7 @@ Beim vorhin einfliegenden Flugzeug gab es auf dem Flughafen von Samui vermutlich
 
 Die <span class="caps">PAD</span> [gibt den Kampf auf][7] --- morgen früh um 10.
 
-Und wieder wurde eine Krise nur zwei Tage vor dem Geburtstag des Königs abgewendet. 
+Und wieder wurde eine Krise nur zwei Tage vor dem Geburtstag des Königs abgewendet.
 
 Amazing Thailand.
 

@@ -1,6 +1,5 @@
 ---
 title: Crackdown on the Eight-Story
-author: Patrick Kollitsch
 type: post
 date: 2006-09-11T21:39:00+00:00
 url: /2006/09/crackdown-on-the-eight-story/
@@ -11,7 +10,7 @@ url: /2006/09/crackdown-on-the-eight-story/
 ---
 (Crackdown ist ein Schlagwort das gerne in englischsprachigen thailändischen Medien benutzt wird um Schlagzeilen zu machen, wenn es eigentlich nichts zu sagen gibt. Ich werde das mal häufiger verwenden.)
 
-Ich wurde in den letzten Tagen häufiger zu genaueren Angaben hinsichtlich der neuen Ziffer in den Mobiltelefonnummern gefragt. Das ist derzeit der Spitzenreiter in meinen Referern von den Suchmaschinen. Und wenn die Leute sogar schon per SMS (mit korrekt eingefügter 8) anfragen ist es Zeit, dieses Thema wieder aufzugreifen. 
+Ich wurde in den letzten Tagen häufiger zu genaueren Angaben hinsichtlich der neuen Ziffer in den Mobiltelefonnummern gefragt. Das ist derzeit der Spitzenreiter in meinen Referern von den Suchmaschinen. Und wenn die Leute sogar schon per SMS (mit korrekt eingefügter 8) anfragen ist es Zeit, dieses Thema wieder aufzugreifen.
 
   * <txp:gho_permalink id="743">Warum wieso weshalb?</txp:gho_permalink>
   * <txp:gho_permalink id="823">Nummernspiele</txp:gho_permalink>

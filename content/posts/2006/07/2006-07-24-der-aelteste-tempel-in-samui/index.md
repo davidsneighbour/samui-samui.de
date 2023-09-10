@@ -1,17 +1,13 @@
 ---
 title: Der älteste Tempel in Samui
-author: Patrick Kollitsch
 type: post
 date: 2006-07-24T10:25:00+00:00
 url: /2006/07/der-aelteste-tempel-in-samui/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/197154956/" title="The hidden chinese shrine in Nathon"><img src="//static.flickr.com/62/197154956_498d1462e9.jpg" alt="The hidden chinese shrine in Nathon" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/197154956/" title="The hidden chinese shrine in Nathon"><img src="//static.flickr.com/62/197154956_498d1462e9.jpg" alt="The hidden chinese shrine in Nathon" /></a></p>
+
   <p>
     The hidden chinese shrine in Nathon
   </p>

@@ -1,6 +1,5 @@
 ---
 title: Viagra, Cialis und Weight-Loss-Drugs
-author: Patrick Kollitsch
 type: post
 date: 2006-12-05T03:18:43+00:00
 url: /2006/12/viagra-cialis-und-weight-loss-drugs/

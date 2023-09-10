@@ -1,15 +1,11 @@
 ---
 title: Krungthep Mahanakhon 1.0 – Taxi, Taxi, Shopping, Taxi
-author: Patrick Kollitsch
 type: post
 date: 2005-06-09T06:37:00+00:00
 url: /2005/06/krungthep-mahanakhon-10-und-wo-ist-jetzt-was-zum-ankucken/
 dsq_thread_id:
   - "6412166643"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 {{< figure src="wp-content/old-images/118.jpg" />}}
 

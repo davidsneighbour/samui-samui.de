@@ -1,6 +1,5 @@
 ---
 title: Das dritte Mal dieses Jahr.
-author: Patrick Kollitsch
 type: post
 date: 2006-01-30T20:20:00+00:00
 url: /2006/01/dasdrittemaldiesesjahr/

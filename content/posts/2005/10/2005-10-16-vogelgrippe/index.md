@@ -1,13 +1,9 @@
 ---
 title: Vogelgrippe
-author: Patrick Kollitsch
 type: post
 date: 2005-10-15T21:42:00+00:00
 url: /2005/10/vogelgrippe/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 [In Nakhom Pathom ist ein Truck mit 11.000 Kücken konfisziert worden][1] weil die Kleinen alle Vogelgrippe hatten. So. Toppt das mal mit eurem Toten Huhn in Rumänien, Weicheier.
 

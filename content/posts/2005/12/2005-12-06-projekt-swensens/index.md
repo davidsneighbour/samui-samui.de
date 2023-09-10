@@ -1,17 +1,13 @@
 ---
 title: Projekt Swensens
-author: Patrick Kollitsch
 type: post
 date: 2005-12-05T19:49:49+00:00
 url: /2005/12/projekt-swensens/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Gestern nach dem Dunkeln des Himmels sprach meine Quelle davon, dass wir mal wieder zu Swensens gehen könnten um ein Eis zu uns zu nehmen. Ich war nicht abgeneigt und so setzten wir uns aufs Moped und fuhren los. Es hatte nur den ganzen Samstag und Sonntag und ein bisschen am Montagmorgen geregnet, weshalb wir von einer mehr oder weniger unüberschwemmten Strecke ausgingen. 
+Gestern nach dem Dunkeln des Himmels sprach meine Quelle davon, dass wir mal wieder zu Swensens gehen könnten um ein Eis zu uns zu nehmen. Ich war nicht abgeneigt und so setzten wir uns aufs Moped und fuhren los. Es hatte nur den ganzen Samstag und Sonntag und ein bisschen am Montagmorgen geregnet, weshalb wir von einer mehr oder weniger unüberschwemmten Strecke ausgingen.
 
-Wir entschlossen uns, eine Freundin meiner Quelle einzupacken, um den Sanuk zu steigern. Das scheiterte daran, dass diese Freundin nicht in der vereinbarten Bankbude saß sondern bereits im Feierabend dämmerte. Das ist kein Problem, weil meine Quelle jede Menge Bankbudenbesetzer kennt und so fuhren wir einen dunklen Weg quer durch Bang Rak gen Chaweng, "Bankbooth" und Swensens entgegen. 
+Wir entschlossen uns, eine Freundin meiner Quelle einzupacken, um den Sanuk zu steigern. Das scheiterte daran, dass diese Freundin nicht in der vereinbarten Bankbude saß sondern bereits im Feierabend dämmerte. Das ist kein Problem, weil meine Quelle jede Menge Bankbudenbesetzer kennt und so fuhren wir einen dunklen Weg quer durch Bang Rak gen Chaweng, "Bankbooth" und Swensens entgegen.
 
 Die Straße war an manchen Stellen witterungsbedingt durch bis zu einem Meter tiefe Löcher ersetzt und so gab es jede Menge Übungseinheiten im Motocross. Dann entschied der kleine rote Flitzer, dass es an der Zeit wäre, den Hinterreifen flatulent ins Jenseits zu schicken (das Ding hatte schon immer einen Sinn für große Auftritte) also entschieden wir uns um und fuhren erstmal zu einem Mopedladen am Wegesrand.
 

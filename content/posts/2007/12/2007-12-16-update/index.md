@@ -1,6 +1,5 @@
 ---
 title: Update.
-author: Patrick Kollitsch
 type: post
 date: 2007-12-15T22:09:22+00:00
 url: /2007/12/update/
@@ -10,8 +9,8 @@ url: /2007/12/update/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2114332449/" title="Safe!"><img src="//farm3.static.flickr.com/2032/2114332449_3e3f772140.jpg" alt="Safe!" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/2114332449/" title="Safe!"><img src="//farm3.static.flickr.com/2032/2114332449_3e3f772140.jpg" alt="Safe!" /></a></p>
+
   <p>
     Safe!
   </p>

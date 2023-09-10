@@ -1,15 +1,15 @@
 ---
-title: "Die Krönung"
-author: Patrick Kollitsch
+title: Die Krönung
 type: post
 date: 2019-01-03T20:25:00+07:00
 url: /2019/01/die-kroenung
 tags:
-- chakri-dynastie
-- zeremonien
+  - chakri-dynastie
+  - zeremonien
 leute:
-- koenig-maha-vajiralongkorn
-- koenig-prajadhipok
+  - koenig-maha-vajiralongkorn
+  - koenig-prajadhipok
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 
 {{< youtube 0BouTfg-Yos >}}

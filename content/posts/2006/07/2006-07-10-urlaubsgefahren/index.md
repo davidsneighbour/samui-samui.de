@@ -1,13 +1,9 @@
 ---
 title: Urlaubsgefahren
-author: Patrick Kollitsch
 type: post
 date: 2006-07-09T22:11:32+00:00
 url: /2006/07/urlaubsgefahren/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Thailand steht bei den Briten an der ersten Position wenn es um Un-, Über- und andere ungünstige Fälle geht die im Urlaub auftreten können.
 

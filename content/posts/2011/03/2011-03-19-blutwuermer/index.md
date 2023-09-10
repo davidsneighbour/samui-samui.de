@@ -1,15 +1,11 @@
 ---
 title: Blutwürmer
-author: Patrick Kollitsch
 type: post
 date: 2011-03-18T21:06:14+00:00
 url: /2011/03/blutwuermer/
 dsq_thread_id:
   - "3177806432"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Wenn ich "Blutwürmer" höre, denke ich an Horrorgeschöpfe a la Alien und Dune. Das nur am Rande.
 
@@ -23,6 +19,6 @@ Hat sie aber nicht, weshalb wir dann heute im Krankenhaus waren. Man zog etwas B
 
 Lt. Blutanalyse hat sie keine Blutwürmer, aber fast dreimal soviele wei?e Blutkörperchen im Blut als für einen Hund ihrer Grö?e normal, was auf einen Kampf im Blut gegen irgendeine Infektion hin weist. Nun hab ich eine klitzekleine aber teure Dose Hundefutter zu Hause (irgendwas lässt das Zeug so riechen, dass selbst sehr schwache Hunde sich noch aufraffen, um zu fressen, wurde mir erklärt), die zwar für 24 Stunden reichen soll, aber von meinem Finger nur schief angesehen wird, Antibiotika, die ich nicht vor morgen Abend verfüttern darf, Vitaminpaste und eine traurige kleine Soosie auf der Hundedecke. Irgendwas haben sie ihr heute Morgen schon gespritzt.
 
-Seit einzwei Stunden nun hat Pokki auf einmal höhere Temperaturen. Und morgen hat die Tierklinik zu. 
+Seit einzwei Stunden nun hat Pokki auf einmal höhere Temperaturen. Und morgen hat die Tierklinik zu.
 
 Das Futter habe ich diese Woche komplett ausgetauscht, weil ich am Anfang noch dachte, dass sie nur gegen das Futter demonstrieren --- dabei stehen sie beide auf Marken-Hühnchen-Futter.

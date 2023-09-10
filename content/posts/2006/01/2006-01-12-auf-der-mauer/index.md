@@ -1,6 +1,5 @@
 ---
 title: Auf der Mauer
-author: Patrick Kollitsch
 type: post
 date: 2006-01-11T19:39:15+00:00
 url: /2006/01/auf-der-mauer/

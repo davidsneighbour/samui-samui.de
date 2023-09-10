@@ -1,6 +1,5 @@
 ---
 title: 'Grippecounter: 310'
-author: Patrick Kollitsch
 type: post
 date: 2009-06-15T14:51:29+00:00
 url: /2009/06/grippecounter-310/

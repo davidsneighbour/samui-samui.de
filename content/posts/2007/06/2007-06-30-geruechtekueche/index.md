@@ -1,6 +1,5 @@
 ---
 title: Gerüchteküche
-author: Patrick Kollitsch
 type: post
 date: 2007-06-29T17:39:20+00:00
 url: /2007/06/geruechtekueche/
@@ -9,11 +8,11 @@ url: /2007/06/geruechtekueche/
 
 
 ---
-In der vergangenen Woche ging das Gerücht um, David Beckham (der hin und wieder für verschiedene Unternehmen Fu?ball spielt und eine von den Spice Girls geheiratet hat) würde "demnächst" Urlaub auf Phuket machen. 
+In der vergangenen Woche ging das Gerücht um, David Beckham (der hin und wieder für verschiedene Unternehmen Fu?ball spielt und eine von den Spice Girls geheiratet hat) würde "demnächst" Urlaub auf Phuket machen.
 
 Leute mit Geld und Gelbpressenhintergrund machen auf Phuket nicht einfach Urlaub, sie schauen sich nach einem Haus um. Das zumindest meinen die Offiziellen dort, denn sie lie?en verlautbaren, dass sie ihn natürlich tatkräftig unterstützen wollen bei der Auswahl eines geeigneten Hauses. Vor ein paar Wochen hie? es, Bill Gates wolle eine künstliche Insel vor Phuket bauen. Auch ihn hätte die Stadtverwaltung gerne unterstützt, aber das relativierte sich dann, als es plötzlich irgendein griechischer Millionär war, der das auch noch vor Bali oder sonstwo machen wollte, aber man hatte Phuket mal wieder auferstanden aus den Fluten in der Presse ins Bewusstsein der Weltöffentlichkeit gerückt.
 
-Nun also Beckham. Dummerweise zeigen die Photos, die diese Woche von seinem angeblichen Thailandbesuch auftauchten im Hintergrund eine Insel, die Eingeborene unter dem Namen Ko Pha Ngan kennen. Eine Insel im Golf von Thailand. Auf der anderen Seite Thailands. Ziemlich weit weg von Phuket. Ein Schnappschuss wie man ihn nur an der Nordküste Samuis schie?en könnte. 
+Nun also Beckham. Dummerweise zeigen die Photos, die diese Woche von seinem angeblichen Thailandbesuch auftauchten im Hintergrund eine Insel, die Eingeborene unter dem Namen Ko Pha Ngan kennen. Eine Insel im Golf von Thailand. Auf der anderen Seite Thailands. Ziemlich weit weg von Phuket. Ein Schnappschuss wie man ihn nur an der Nordküste Samuis schie?en könnte.
 
 Hat er nun vor der Phototapete gepost und sich stattdessen eine schöne Woche im heimischen Schlosse gemacht?
 

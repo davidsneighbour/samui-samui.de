@@ -1,6 +1,5 @@
 ---
 title: Billy Corgan, Smashing Pumpkins
-author: Patrick Kollitsch
 type: post
 date: 2006-06-21T12:42:41+00:00
 url: /2006/06/billy-corgan-smashing-pumpkins/

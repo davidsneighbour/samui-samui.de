@@ -1,6 +1,5 @@
 ---
 title: Es regnet
-author: Patrick Kollitsch
 type: post
 date: 2009-03-31T21:50:41+00:00
 url: /2009/04/es-regnet-2/
@@ -10,14 +9,14 @@ url: /2009/04/es-regnet-2/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3403549915/" title="Its raining"><img src="//farm4.static.flickr.com/3439/3403549915_b92190c1b2.jpg" alt="Its raining" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/3403549915/" title="Its raining"><img src="//farm4.static.flickr.com/3439/3403549915_b92190c1b2.jpg" alt="Its raining" /></a></p>
+
   <p>
     Its raining
   </p>
 </div>
 
-So ein Regen ist eine gute Gelegenheit, mal wieder auf der Terasse rumzuwischen. Andererseits ist es nass. Sehr nass. Irgendwie hatte ich den April April immer als Monat im Hinterkopf, in dem wir so langsam auf die heissesten Tage des Jahres im Mai zu gehen und trocken bleiben. 
+So ein Regen ist eine gute Gelegenheit, mal wieder auf der Terasse rumzuwischen. Andererseits ist es nass. Sehr nass. Irgendwie hatte ich den April April immer als Monat im Hinterkopf, in dem wir so langsam auf die heissesten Tage des Jahres im Mai zu gehen und trocken bleiben.
 
 Dann eben nicht.
 
@@ -29,9 +28,9 @@ Und damit meine ich Dich.
 
 Was haben wir also in den an Einträgen armen ersten Monaten des Jahres verpasst?
 
-**Thailändische Farbenlehre**: Manch einer nennt es Politik. Die Roten demonstrieren, die Gelben regieren. Zur Zeit. Manchmal demonstrieren die Gelben auch, dann sind deren Führer aber nicht mehr Gelb sondern "zivil". 
+**Thailändische Farbenlehre**: Manch einer nennt es Politik. Die Roten demonstrieren, die Gelben regieren. Zur Zeit. Manchmal demonstrieren die Gelben auch, dann sind deren Führer aber nicht mehr Gelb sondern "zivil".
 
-Den Flughafen wird wohl niemand der Demonstrierenden jemals wieder blockieren, die Roten haben es versprochen, denn jetzt bekommen die Leute (sowohl Demonstranten als auch Regierende) die Auswirkungen (Arbeitslosigkeit und leere Hotels) zu spüren. 
+Den Flughafen wird wohl niemand der Demonstrierenden jemals wieder blockieren, die Roten haben es versprochen, denn jetzt bekommen die Leute (sowohl Demonstranten als auch Regierende) die Auswirkungen (Arbeitslosigkeit und leere Hotels) zu spüren.
 
 Dumm gelaufen, aber man musste ja mal zeigen, dass man ernsthaft an der, ehm, demokratischen, ehm, Entwicklung des Vaterlandes interessiert ist.
 
@@ -43,7 +42,7 @@ Als man ihn ignorierte und auslachte nannte er dann endlich Namen, die allerding
 
 Vergangene Woche dann rückte er endlich zwangs anhaltender Ignoranz mit der Sprache raus und sagte Prem Tinsulanonda, der Vorsitzende des Geheimrats des Königs, wäre die "mächtig einflussreiche Person die ... ihr wisst schon". Das wiederum wussten alle schon lange, mal ganz abgesehen davon, dass der Geheimrat des Königs sich nicht an Putschen beteiligt auch wenn er sich an Putschen beteiligt.
 
-Jetzt droht er damit, seine Staatsbürgerschaft abzulegen (Antwort des Au?enministers: Sag Bescheid wo ich deinen Pass abholen kann). 
+Jetzt droht er damit, seine Staatsbürgerschaft abzulegen (Antwort des Au?enministers: Sag Bescheid wo ich deinen Pass abholen kann).
 
 Ich bin verdammt gespannt wie diese Soap-Opera weiter geht. Irgendwie wird seit seiner Scheidung die Rolle seiner "besseren Hälfte" nicht befriedigend ausgefüllt. Man munkelt aber, die sei nur aus dramaturgischen Gründen in die Dunkelheit entschwunden.
 
@@ -53,7 +52,7 @@ Wir werden ja sehen.
 
 Es hat kein Internet. Damn it. Beim Einzug sagte der Hausbesitzer "have Wifi". Wifi hat es. Dummerweise nur ist das Netzwerk falsch konfiguriert und er hat keine Ahnung. Ahnung hat "the engineer" der (wie ich inzwischen herausgefunden zu haben glaube) weiblich und seine Geliebte ist. Die verlegen andere Kabel.
 
-Neuerdings sagt mein Wifi beim Einschalten immer, dass meine IP schon vergeben ist. 
+Neuerdings sagt mein Wifi beim Einschalten immer, dass meine IP schon vergeben ist.
 
 Jedenfalls befinde ich mich wieder auf moderater Haussuche --- nur nichts überstürzen. Internet muss da sein (wird diesmal vorher eruiert). Genügend Auslauf, Liegefläche und Strassenferne wird hundeseits benötigt. Und es sollte in einer Thaiumgebung liegen. Ich bin etwas müde von den deutschen Touristen der vergangenen Wochen. Dazu später mal was ;)
 
@@ -69,11 +68,11 @@ Wie auch immer.
 
 Themen hätte ich viele.
 
-Ich habe wieder einmal begonnen, Thai zu lernen. Also nicht das Reden und Verstehen, was viele Farangs hier stolz mit den Bardamen praktizieren sondern das mit Schreiben, Lesen und grundsätzlichen Verstehen. 
+Ich habe wieder einmal begonnen, Thai zu lernen. Also nicht das Reden und Verstehen, was viele Farangs hier stolz mit den Bardamen praktizieren sondern das mit Schreiben, Lesen und grundsätzlichen Verstehen.
 
 Da gibt es so viele schöne kleine Details in dieser Sprache: man nehme nur mal bspw. narak. Das heisst "adorable" (en) oder "süss" (de). Eigentlich heisst es liebenswert. Denn das NA am Anfang des Wortes ist eine Erweiterung, die man an alle Verben setzen kann, um sie mit -able (en) oder -wert (de) zu erweitern. Ich habe das eines schönen Tages plötzlich kapiert (es fällt auf, wenn man ein paar gleich aufgebaute Worte findet und verwende es seither experimentell. Nagin fuer "essbar". Das Wort scheint es nicht zu geben, wird aber trotzdem wegen des Systems verstanden.
 
-Beim Lesen und Schreiben ist es schon komplizierter. Ich kann Thaiworte aus den Zeitungen in Silben trennen (es gibt keine Leer- oder Satzzeichen im Thai) und erkenne die meisten A-Vokale. 
+Beim Lesen und Schreiben ist es schon komplizierter. Ich kann Thaiworte aus den Zeitungen in Silben trennen (es gibt keine Leer- oder Satzzeichen im Thai) und erkenne die meisten A-Vokale.
 
 Ich sollte ein Buch über Thai schreiben.
 
@@ -81,13 +80,13 @@ Egal.
 
 Seit gestern habe ich eine Videokamera (ich soll Camcorder dazu sagen, wurde mir mitgeteilt). Der erste Film ist nicht publikumsfrei, aber ich werde die Hunde mal verfilmen. Das nur am Rande ;)
 
-Das Privatleben ist auch eine Soapopera. Um das hier alles niederzuschreiben müssten die Teilnehmer aber erst einmal vollumfänglich informiert werden. 
+Das Privatleben ist auch eine Soapopera. Um das hier alles niederzuschreiben müssten die Teilnehmer aber erst einmal vollumfänglich informiert werden.
 
 Ich sollte ein Buch über mein Leben schreiben.
 
 Es regnet.
 
-?brigens sagen mir neuerdings immer mehr Leute, ich wäre ausgewandert. Interessant. So habe ich das nie gesehen. Nach 4.25 Jahren im Land des gezwungenen Lächelns kann ich das aber nicht mehr ganz von der Hand weisen. 
+?brigens sagen mir neuerdings immer mehr Leute, ich wäre ausgewandert. Interessant. So habe ich das nie gesehen. Nach 4.25 Jahren im Land des gezwungenen Lächelns kann ich das aber nicht mehr ganz von der Hand weisen.
 
 Ein bisschen leid tut mir ja, dass ich damals noch keine Videokamera hatte. Man haette da so eine schöne Dokumentarreihe draus machen koennen. Mit Vorbereitung, "Zweifel", schnell noch die CDs als MP3 aufs Notebook laden, dann hin, Hitze, Geckos, Einbrüche, Morde, Aufstieg, Fall und dann so ein Open End Ende... Cliffhanger. Wie geht es weiter?
 
@@ -104,8 +103,8 @@ Werter Leser, danke dass Sie bis hier gelesen haben. Ich will ja Ende des Jahres
 Hier noch ein Bild das mich, allerdings vor ein paar Tagen, zeigt. Heute seh ich schon wieder ganz anders aus. Ein alter Bart.
 
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3403549207/" title="Me now"><img src="//farm4.static.flickr.com/3560/3403549207_a673f3c9c5.jpg" alt="Me now" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/3403549207/" title="Me now"><img src="//farm4.static.flickr.com/3560/3403549207_a673f3c9c5.jpg" alt="Me now" /></a></p>
+
   <p>
     Me now
   </p>

@@ -1,6 +1,5 @@
 ---
 title: Allein
-author: Patrick Kollitsch
 type: post
 date: 2007-04-05T11:49:06+00:00
 url: /2007/04/allein/

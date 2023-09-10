@@ -1,6 +1,5 @@
 ---
 title: Canine Neuigkeiten
-author: Patrick Kollitsch
 type: post
 date: 2008-11-28T18:54:51+00:00
 url: /2008/11/canine-neuigkeiten/
@@ -10,8 +9,8 @@ url: /2008/11/canine-neuigkeiten/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3065178735/" title="Fighting for the ball"><img src="//farm4.static.flickr.com/3204/3065178735_caa0a1e8cd.jpg" alt="Fighting for the ball" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/3065178735/" title="Fighting for the ball"><img src="//farm4.static.flickr.com/3204/3065178735_caa0a1e8cd.jpg" alt="Fighting for the ball" /></a></p>
+
   <p>
     Fighting for the ball
   </p>

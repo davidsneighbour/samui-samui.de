@@ -1,15 +1,11 @@
 ---
 title: Kabelsalat – oder – Wireless
-author: Patrick Kollitsch
 type: post
 date: 2005-03-18T06:55:26+00:00
 url: /2005/03/kabelsalat-oder-wireless/
 dsq_thread_id:
   - "6412166404"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Hmm. So richtig einig werden kann ich mir nicht mit dem Titel für diesen Eintrag. Mal sehen, vielleicht wirds ja noch.
 
@@ -25,7 +21,7 @@ Jedenfalls hat vorhin das werte Dell-Kabel (ich berichtete&trade;) überaus laut
 
 Was lernen wir daraus? Nichts. Au?er dass es nun sehr lange dauern kann, bis ich wieder Strom im Notebook habe.
 
-Ich bin noch überaus geschockt. Für mich ist mein kleiner 12-Pfund-Laptop lebenswichtig. Ich schreib meine Einträge darauf. Ich programmiere darauf. Ich kuck Filme darauf. Ich telefoniere damit (der Arbeitsplatzrechner mag das Micro noch nicht). Das ist alles eine Katastrophe. 
+Ich bin noch überaus geschockt. Für mich ist mein kleiner 12-Pfund-Laptop lebenswichtig. Ich schreib meine Einträge darauf. Ich programmiere darauf. Ich kuck Filme darauf. Ich telefoniere damit (der Arbeitsplatzrechner mag das Micro noch nicht). Das ist alles eine Katastrophe.
 
 Klar, ich hab auf Arbeit einen Rechner stehen, aber da will ich nicht unbedingt meine Ergüsse drauf speichern. Au?erdem: Wer will schon gerne von Arbeit aus Privatkram schreiben oder im Büro Filme sehen. Und ist der Vorteil einer tragbaren Kiste nicht, dass man sie überallhin tragen und einschalten kann?
 

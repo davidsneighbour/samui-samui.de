@@ -1,6 +1,5 @@
 ---
 title: Schein und Sein
-author: Patrick Kollitsch
 type: post
 date: 2009-08-28T16:02:58+00:00
 url: /2009/08/schein-und-sein/

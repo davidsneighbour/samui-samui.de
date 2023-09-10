@@ -1,6 +1,5 @@
 ---
 title: Ein spezieller Panda
-author: Patrick Kollitsch
 type: post
 date: 2009-06-18T22:31:59+00:00
 url: /2009/06/ein-spezieller-panda/

@@ -1,6 +1,5 @@
 ---
 title: Skypereien
-author: Patrick Kollitsch
 type: post
 date: 2009-04-20T22:47:40+00:00
 url: /2009/04/skypereien/
@@ -9,7 +8,7 @@ url: /2009/04/skypereien/
 
 
 ---
-Skype ist ja ganz nett. Seit einiger Zeit gibt es sog. "Subscriptions", mit denen man unbegrenzt ins Festnetz eines Landes anrufen kann. Ich spielte für eine Weile mit dem Gedanken, mir so ein Abo für Deutschland zuzulegen, lies das dann aber, weil ich nicht wirklich häufig nach Deutschland anrufe. 
+Skype ist ja ganz nett. Seit einiger Zeit gibt es sog. "Subscriptions", mit denen man unbegrenzt ins Festnetz eines Landes anrufen kann. Ich spielte für eine Weile mit dem Gedanken, mir so ein Abo für Deutschland zuzulegen, lies das dann aber, weil ich nicht wirklich häufig nach Deutschland anrufe.
 
 Nun aber bieten sie (die Skypefritzen) [Subscriptions für Thailand][1] an. Man kann fuer runde 5.95 Euro (bis Ende Mai gibt es wohl noch kräftig Rabatt, ich habe für die kommenden drei Monate nur 11 Euro zahlen müssen) sowohl ins Festnetz Thailands als auch auf die Mobiltelefone telefonieren. Letztere sind weiter verbreitet. Ein "Default-Thai" hat zwei Mobiltelephone und minus eine Festnetznummer.
 

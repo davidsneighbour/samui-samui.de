@@ -1,6 +1,5 @@
 ---
 title: 'Darf ich vorstellen: Pokki'
-author: Patrick Kollitsch
 type: post
 date: 2006-01-03T20:47:00+00:00
 url: /2006/01/darfichvorstellenpokki/
@@ -18,9 +17,9 @@ Darf ich vorstellen: Pokki!
 
 Pokki ist der kleinere der beiden Hunde auf dem Bild und ein [Shih-Tzu][3]. Der größe Plüschhund ist Stulle und wir mussten ihn uns zulegen weil Pokki nach einer Minute in meinem Haus anfing, alles anzuknabbern was knabberswert erschien. Und das war eine Menge. Nun knabbert er bevorzugt an Stulle herum.
 
-Pokki ist angeblich 10 Wochen alt. Ich schätze ihn aber eher auf 4 bis 6 Wochen. Er ist erstaunlich stubenrein. Das äußert sich darin, dass er nachts um drei anfängt Krach zu machen bis ich mit ihm rausgehe und ein paar runden schlafwandle. 
+Pokki ist angeblich 10 Wochen alt. Ich schätze ihn aber eher auf 4 bis 6 Wochen. Er ist erstaunlich stubenrein. Das äußert sich darin, dass er nachts um drei anfängt Krach zu machen bis ich mit ihm rausgehe und ein paar runden schlafwandle.
 
-Ansonsten verbringt Pokki die wenige Zeit zwischen dem Schlafen mit der Erkundung seiner Welt und der unnachgiebigen Forderung nach Aufmerksamkeit. 
+Ansonsten verbringt Pokki die wenige Zeit zwischen dem Schlafen mit der Erkundung seiner Welt und der unnachgiebigen Forderung nach Aufmerksamkeit.
 
 Pokki hat es in den zwei Tagen die er schon mit mir verweilt unter anderem geschafft Thaifrauen die auf dem Moped vorbeifuhren zurückkommen zu lassen und Gespräche anzufangen und einen weit über die 50 gehenden alten Mann (nicht der Chef, der ist zwar auch weit über die 50 aber nicht alt) flach auf dem Boden liegen zu lassen und "guddiguddi" zu sagen.
 

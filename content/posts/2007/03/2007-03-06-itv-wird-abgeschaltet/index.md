@@ -1,6 +1,5 @@
 ---
 title: iTV wird abgeschaltet
-author: Patrick Kollitsch
 type: post
 date: 2007-03-06T07:45:47+00:00
 url: /2007/03/itv-wird-abgeschaltet/

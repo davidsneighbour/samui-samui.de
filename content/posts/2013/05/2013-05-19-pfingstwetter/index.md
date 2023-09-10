@@ -1,6 +1,5 @@
 ---
 title: Pfingstwetter
-author: Patrick Kollitsch
 type: post
 date: 2013-05-19T10:20:47+00:00
 url: /2013/05/pfingstwetter/

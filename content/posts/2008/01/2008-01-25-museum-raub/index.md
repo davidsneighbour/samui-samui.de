@@ -1,6 +1,5 @@
 ---
 title: Museum-Raub
-author: Patrick Kollitsch
 type: post
 date: 2008-01-25T12:47:31+00:00
 url: /2008/01/museum-raub/
@@ -11,9 +10,9 @@ url: /2008/01/museum-raub/
 ---
 Mal andersrum rauben:
 
-[In Südkalifornien wurden einige Museen nach Exponaten aus Ban Chiang durchsucht][1]. 
+[In Südkalifornien wurden einige Museen nach Exponaten aus Ban Chiang durchsucht][1].
 
-[Ban Chiang][2] ist ein kleiner Ort im Norden Thailands, an dem man in Ausgrabungsstellen die ältesten Zeugnisse menschlicher Siedlungen in Asien finden konnte. Je nach Datierungsmethode sind Einzelstücke aus den Ausgrabungen 4000 bis 8000 Jahre alt. 
+[Ban Chiang][2] ist ein kleiner Ort im Norden Thailands, an dem man in Ausgrabungsstellen die ältesten Zeugnisse menschlicher Siedlungen in Asien finden konnte. Je nach Datierungsmethode sind Einzelstücke aus den Ausgrabungen 4000 bis 8000 Jahre alt.
 
 Seit 1992 ist Ban Chiang Weltkulturerbe der <span class="caps">UNESCO</span>.
 

@@ -1,6 +1,5 @@
 ---
 title: Ein Bier vorm Betrunkensein
-author: Patrick Kollitsch
 type: post
 date: 2007-09-09T12:58:57+00:00
 url: /2007/09/ein-bier-vorm-betrunkensein/

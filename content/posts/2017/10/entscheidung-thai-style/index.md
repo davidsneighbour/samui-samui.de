@@ -1,6 +1,5 @@
 ---
 title: Entscheidung Thai-Style
-author: Patrick Kollitsch
 type: post
 date: 2017-10-24T13:36:56+00:00
 url: /2017/10/entscheidung-thai-style/

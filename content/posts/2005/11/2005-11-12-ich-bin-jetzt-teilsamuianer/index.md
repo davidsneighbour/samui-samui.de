@@ -1,15 +1,11 @@
 ---
 title: Ich bin jetzt (Teil)Samuianer
-author: Patrick Kollitsch
 type: post
 date: 2005-11-11T22:48:00+00:00
 url: /2005/11/ich-bin-jetzt-teilsamuianer/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Also mal ganz kurz und knapp: Ich bin jetzt polizeilich mit Wohnort in Thailand, Surrat Thani, Ko Samui, Ban Maenam, 47/15 Moo 4 gemeldet. Das Ganze geht einher mit einem neuerlichen Umzug. 
+Also mal ganz kurz und knapp: Ich bin jetzt polizeilich mit Wohnort in Thailand, Surrat Thani, Ko Samui, Ban Maenam, 47/15 Moo 4 gemeldet. Das Ganze geht einher mit einem neuerlichen Umzug.
 
 Ich habe das letzte Haus ja als superdupertolle Hütte vorgestellt und das war sie auch. Bis zur ersten Nacht. Da hatte der Nachbar Streit mit seiner Thaifrau. Den hatte er dann wenn er nicht gerade Sex mit ihr hatte jede Nacht (5:2-Anteil) gewöhnlich ab 4 Uhr. Der andere Nachbar hat sich dann irgendwann auch von seiner Thaifrau getrennt und der dritte hatte jede Woche ein anderes Dysfunktionssubstitut vor der Türe stehen. Irgendwann haben sich dann alle mal in einer Woche getrennt (entleerte Pistolen, zerschlagene Scheiben, schreiende Familienmitglieder) und eingebrochen wurde auch.
 
@@ -21,9 +17,9 @@ Nach Maenam. Mit Mietvertrag über mindestens 6 Monate.
 
 Maenam ist ein bisschen mehr Thailand als viele andere Inselortschaften. Mehr Thais, weniger Touris, mehr Plastikstuhllokale, mehr schöne (unverbrauchte) Thais, weniger Sex, weniger Lärm, wenn Leute einen ansprechen, dann weil sie vom Farang was wissen und keine nächtlichen Aktivitäten negotieren wollen, Pad Thai Gai der mich vom (Plastik)Stuhl gehauen hat (der Kram bei Buster ist Nudelsalat), mehr Holzhäuser und Wellblechhütten, mehr Wasserbüffel, mehr Palmen, mehr Bäume --- also Nicht-Palmen, Urwald, Natur, Thailand eben.
 
-In meiner Siedlung wohnen nur Thais. Das bietet einerseits eine Sicherheit in Bezug auf unerwünschte nächtliche Gegenstandsverlierenlasser, andererseits sind die Lichter abends um Neun überall aus und man hat einen herrlichen Blick auf die Sterne. Meine Veranda hat eine so breite Brüstung, dass ich darauf vermutlich viele Nächte verbringen werde und gehaltvolle Inhhalte für die schreiBBloga.de schreiben werde (jaja, ich merk schon, dass die Zählung zu meinen Ungunsten auszugehen scheint). Das Haus selber scheint mir entweder kürzlich renoviert oder komplett neu zu sein. 
+In meiner Siedlung wohnen nur Thais. Das bietet einerseits eine Sicherheit in Bezug auf unerwünschte nächtliche Gegenstandsverlierenlasser, andererseits sind die Lichter abends um Neun überall aus und man hat einen herrlichen Blick auf die Sterne. Meine Veranda hat eine so breite Brüstung, dass ich darauf vermutlich viele Nächte verbringen werde und gehaltvolle Inhhalte für die schreiBBloga.de schreiben werde (jaja, ich merk schon, dass die Zählung zu meinen Ungunsten auszugehen scheint). Das Haus selber scheint mir entweder kürzlich renoviert oder komplett neu zu sein.
 
-Ach und das Beste: Ich hab nicht nach dem Haus gefragt sondern ein Thai. Was zu einem Thaipreis führte. Sehr sehr gut. 
+Ach und das Beste: Ich hab nicht nach dem Haus gefragt sondern ein Thai. Was zu einem Thaipreis führte. Sehr sehr gut.
 
 Dieses Haus hat übrigens eine House-Warming-Party verdient. Ich werde berichten&trade;. Aber erstmal einräumen und die Kinoanlage aufbauen.
 

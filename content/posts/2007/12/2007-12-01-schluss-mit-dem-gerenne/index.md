@@ -1,6 +1,5 @@
 ---
 title: Schluss mit dem Gerenne
-author: Patrick Kollitsch
 type: post
 date: 2007-11-30T19:51:29+00:00
 url: /2007/12/schluss-mit-dem-gerenne/

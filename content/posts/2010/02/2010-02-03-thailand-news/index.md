@@ -1,13 +1,9 @@
 ---
 title: Thailand-News
-author: Patrick Kollitsch
 type: post
 date: 2010-02-03T15:21:00+00:00
 url: /2010/02/thailand-news/
-
-
-
-
+lastmod: 2023-09-10T19:14:13+07:00
 ---
 Es gibt Nachrichten, die gibt es nur in Thailand:
 
@@ -19,11 +15,11 @@ Auf die Idee, dass es etwas seltsam ist, in einem Computerladen eine Wunderdroge
 
 Der Doktor, dem das gelang, hat gleich mal eine Pressekonferenz gehalten, denkt aber noch darüber nach, seine Erkenntnisse zu Geld zu machen.
 
-**Wie man sich einer Taubenplage erwehrt**: In Bangkok gibt es Tauben. Viele. Weil in Bangkok zu viele Tauben herum fliegen und die Sehenswürdigkeiten verdrecken plant man nun, [sie einzufangen und in Ratchaburi wieder frei zu lassen][3]. Bangkok wäre wieder etwas sauberer aus der Luft und Ratchaburi... naja... was interessiert uns die Taubenplage dort. 
+**Wie man sich einer Taubenplage erwehrt**: In Bangkok gibt es Tauben. Viele. Weil in Bangkok zu viele Tauben herum fliegen und die Sehenswürdigkeiten verdrecken plant man nun, [sie einzufangen und in Ratchaburi wieder frei zu lassen][3]. Bangkok wäre wieder etwas sauberer aus der Luft und Ratchaburi... naja... was interessiert uns die Taubenplage dort.
 
 Das gleiche hat man schonmal mit Stra?enhunden und Udon Thani vorgehabt. Interessanterweise haben die Empfänger sich da auch schon drüber beschwert, aber Hunde sind ja keine Tauben...
 
-**Wei?e Haut**: Je heller die Haut umso schöner ist man --- zumindest in Asien. Geht man mal die Drogerien und Märkte findet man immer ein zwei Regale voll mit "Whitening"-Produkten. Es gibt nichts, was nicht wei?er machend verkauft werden könnte --- Deosticks, Cremes, Puder et cetera. 
+**Wei?e Haut**: Je heller die Haut umso schöner ist man --- zumindest in Asien. Geht man mal die Drogerien und Märkte findet man immer ein zwei Regale voll mit "Whitening"-Produkten. Es gibt nichts, was nicht wei?er machend verkauft werden könnte --- Deosticks, Cremes, Puder et cetera.
 
 [Einmal im Jahr][4] werden dann die Mittelchen vom Gesundheitsamt verboten und vor den Nebenwirkungen gewarnt. Ein Prozess der Arbeitsplätze schafft und sich selbst ernährt.
 

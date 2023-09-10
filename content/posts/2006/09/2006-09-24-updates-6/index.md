@@ -1,6 +1,5 @@
 ---
 title: Updates
-author: Patrick Kollitsch
 type: post
 date: 2006-09-23T22:27:00+00:00
 url: /2006/09/updates-6/
@@ -11,13 +10,13 @@ url: /2006/09/updates-6/
 ---
 Die Ereignisse der letzten Stunden
 
-  * Man zensiert kräftig in der Gegend herum. Das merkt man aber nur, wenn man verschiedene Thaiforen als RSS-Feed abonniert hat und dann 50% der Einträge verschwinden, ehe man die Seite eine Stunde später aufrufen will. 
+  * Man zensiert kräftig in der Gegend herum. Das merkt man aber nur, wenn man verschiedene Thaiforen als RSS-Feed abonniert hat und dann 50% der Einträge verschwinden, ehe man die Seite eine Stunde später aufrufen will.
   * Die [Überreichung der Ernennungsurkunde des Königs für die Militärregierung][1] hat einen seltsamen Beigeschmack. Bisher habe ich noch keine offiziellen Bilder des Königs gesehen, in denen er auf den Putsch eingeht. Eine Meldung am Dienstag sagte, dass die Militärs Nachts eine Audienz hatten. Am Mittwoch sagte das <span class="caps">CDRM</span>, dass der König hinter ihnen steht, am Freitag überreichte ein Mitglied des <span class="caps">CDRM</span> General Sonthi die Bestätigungsurkunde. Den König selbst sieht man nicht. Die restlichen Mitglieder der Königsfamilie zeigen Business as usual in der abendlichen "Was hat die Königsfamilie heute gemacht"-Sendung.
   * Das [<span class="caps">CDRM</span> verbietet das Abhören von Telephonleitungen][2]. Warum nur?
-  * Nicolas Cage dreht gerade einen Film namens "Bangkok Dangerous" in Bangkok. Die einen Berichte sagen, dass er weiter filmt und der Putsch keinen Einfluss auf die Filmarbeit hat, andere Berichte sagen, dass die Filmcrew heimgeschickt wurde. 
+  * Nicolas Cage dreht gerade einen Film namens "Bangkok Dangerous" in Bangkok. Die einen Berichte sagen, dass er weiter filmt und der Putsch keinen Einfluss auf die Filmarbeit hat, andere Berichte sagen, dass die Filmcrew heimgeschickt wurde.
   * Es werden weiterhin Thaksins "Begünstigte" festgenommen.
   * Der Polizeichef Kowit Wattana (Mitglied des <span class="caps">CDRM</span>) hat [die volle Befehlsgewalt über die Polizeikräfte][3] erhalten, [nachdem diese von Politikern gesäubert wurden][4]. Die National Police Commission (<span class="caps">NPC</span>) wurde bisher von Thaksin geleitet. Ein Gesetz schrieb vor, dass der Premierminister die Kommission führt.
-  * Die putschkritische Seite [19sep.org][5] ist auf Befehl des Informationsministeriums geschlossen worden, allerdings nur für 10 Tage. Wir können also gespannt sein, was man anschließend dort zu lesen bekommt. 
+  * Die putschkritische Seite [19sep.org][5] ist auf Befehl des Informationsministeriums geschlossen worden, allerdings nur für 10 Tage. Wir können also gespannt sein, was man anschließend dort zu lesen bekommt.
   * Der angekündigte Gegenprotest fiel recht leise aus. Manche Quellen sprechen von [10 Demonstranten][6], später von 30, am Ende einigte man sich auf [rund 100][7]. Das Militär hat nicht eingegriffen sondern die Demonstranten gefilmt.
   * [Thaksins Frau, eine seiner Töchter und der Sohn haben Thailand nie verlassen][8]. Das wurde nur als Gerücht gestreut, um ihren derzeitigen Aufenthaltsort zu verschleiern. Damit dürfte sich auch das Gerücht von den ins Ausland transportierten Besitztümern eher falsch sein.
   * Thaksin selbst residiert in einem Haus von Harrods-besitzer Mohamed Al-Fayed ([55 Park Lane, London W1][9]). Die beiden sind Freunde.

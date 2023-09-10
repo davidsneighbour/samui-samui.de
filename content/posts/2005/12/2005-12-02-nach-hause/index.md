@@ -1,15 +1,11 @@
 ---
 title: Nach Hause
-author: Patrick Kollitsch
 type: post
 date: 2005-12-02T04:13:53+00:00
 url: /2005/12/nach-hause/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-[Gegen Sechs][1] solls heute weniger regnen. Tolle Sache. Ich bereite mal Projekt Heimschwimmen vor. Mich hört man dann wieder am Dienstag. Montag ist Feiertag. Und an Feiertagen arbeitet man nicht. Morgen ist Putztag und an Putztagen komm ich nicht. Und am Sonntag ist die Klimaanlage nicht an. 
+[Gegen Sechs][1] solls heute weniger regnen. Tolle Sache. Ich bereite mal Projekt Heimschwimmen vor. Mich hört man dann wieder am Dienstag. Montag ist Feiertag. Und an Feiertagen arbeitet man nicht. Morgen ist Putztag und an Putztagen komm ich nicht. Und am Sonntag ist die Klimaanlage nicht an.
 
 Und an allen drei Tagen hab ich andere Gesprächspartner als meinen Computer.
 

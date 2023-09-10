@@ -1,6 +1,5 @@
 ---
 title: Gedanken zum Sonntag
-author: Patrick Kollitsch
 type: post
 date: 2007-07-14T19:24:18+00:00
 url: /2007/07/gedanken-zum-sonntag/

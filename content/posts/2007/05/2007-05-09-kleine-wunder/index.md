@@ -1,6 +1,5 @@
 ---
 title: Kleine Wunder
-author: Patrick Kollitsch
 type: post
 date: 2007-05-08T23:46:13+00:00
 url: /2007/05/kleine-wunder/
@@ -10,8 +9,8 @@ url: /2007/05/kleine-wunder/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/490810588/"><img src="//farm1.static.flickr.com/205/490810588_bf67cb18ae.jpg" class="flickr-photo" alt="" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/490810588/"><img src="//farm1.static.flickr.com/205/490810588_bf67cb18ae.jpg" class="flickr-photo" alt="" /></a></p>
+
   <p>
     After the water
   </p>

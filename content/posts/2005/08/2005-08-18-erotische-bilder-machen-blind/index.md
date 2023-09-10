@@ -1,16 +1,12 @@
 ---
 title: Erotische Bilder machen blind
-author: Patrick Kollitsch
 type: post
 date: 2005-08-18T00:18:00+00:00
 url: /2005/08/erotische-bilder-machen-blind/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 
-  
+
 
 
 > Researchers have finally found evidence for what good Catholic boys have known all along ??? erotic images make you go blind. The effect is temporary and lasts just a moment, but the research has added to road-safety campaigners??? calls to ban sexy billboard-advertising near busy roads, in the hope of preventing accidents. [via [New Scientist Breaking News][1]

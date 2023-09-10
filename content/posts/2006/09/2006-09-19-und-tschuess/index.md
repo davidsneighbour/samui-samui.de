@@ -1,6 +1,5 @@
 ---
 title: Und Tschü?!
-author: Patrick Kollitsch
 type: post
 date: 2006-09-19T16:10:00+00:00
 url: /2006/09/und-tschuess/

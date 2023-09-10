@@ -1,6 +1,5 @@
 ---
 title: Alone
-author: Patrick Kollitsch
 type: post
 date: 2007-04-05T12:01:58+00:00
 url: /2007/04/alone/

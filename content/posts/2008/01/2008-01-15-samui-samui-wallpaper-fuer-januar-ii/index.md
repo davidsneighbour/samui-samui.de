@@ -1,6 +1,5 @@
 ---
 title: Samui-Samui-Wallpaper für Januar II
-author: Patrick Kollitsch
 type: post
 date: 2008-01-14T23:33:44+00:00
 url: /2008/01/samui-samui-wallpaper-fuer-januar-ii/
@@ -12,14 +11,14 @@ dsq_thread_id:
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2195317638/" title="Samui-Samui-Wallpaper January 2551 II"><img src="//farm3.static.flickr.com/2309/2195317638_4beb0c8757.jpg" alt="Samui-Samui-Wallpaper January 2551 II" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/2195317638/" title="Samui-Samui-Wallpaper January 2551 II"><img src="//farm3.static.flickr.com/2309/2195317638_4beb0c8757.jpg" alt="Samui-Samui-Wallpaper January 2551 II" /></a></p>
+
   <p>
     Samui-Samui-Wallpaper January 2551 II
   </p>
 </div>
 
-Für die Freunde der wechselnden Desktop- und Bildschirmhintergründe gibt es dieses Jahr jeden Monat ein Bild. Oder zwei. So wie diesen Monat. Heute ein Sonnenuntergang am Strand von Ban Taling Ngam. _Dem romantischen Sonnenuntergangsstrand Koh Samuis_. 
+Für die Freunde der wechselnden Desktop- und Bildschirmhintergründe gibt es dieses Jahr jeden Monat ein Bild. Oder zwei. So wie diesen Monat. Heute ein Sonnenuntergang am Strand von Ban Taling Ngam. _Dem romantischen Sonnenuntergangsstrand Koh Samuis_.
 
 Ich nehme natürlich an, dass ihr von Sonnenuntergängen so langsam genervt seid, also werde ich das nächste Mal ein anderes nicht uninteressanteres Motiv finden.
 

@@ -1,15 +1,11 @@
 ---
 title: Dell suckz
-author: Patrick Kollitsch
 type: post
 date: 2005-03-18T01:05:00+00:00
 url: /2005/03/dell-suckz/
 dsq_thread_id:
   - "6412166592"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Naja, als ich meinen kleinen Inspiron 8200 kaufte, war das ein ganz nettes Teil zum Existenz gründen. Inzwischen ist das Gerät aber nur noch der Horror.
 
@@ -19,7 +15,7 @@ Nun gut. Ich weiss jetzt, wo ich rütteln muss, um Strom vom Kabel zu bekommen. 
 
 Nun sind die Leute bei Dell ja nicht dumm. Sie wären es, würden sie Netzteile herstellen, die überall erhältlich sind. Sie sind es nicht, also hat das Netzteil einen netzteiligen Stecker, der an keinem anderen Netzteil zu finden ist. Mit drei Löchern an verschiedenen Stellen. Sehr nervig.
 
-Ich surfte also so vor mich hin und landete willentlich auf der Dell-Seite, um mal zu schauen, was man denn so für ein super-cooles Dell-Netzteil hinblättern darf. 60 Euro (man darf sich diese zwei Worte gerne als geschrieen vorstellen. 
+Ich surfte also so vor mich hin und landete willentlich auf der Dell-Seite, um mal zu schauen, was man denn so für ein super-cooles Dell-Netzteil hinblättern darf. 60 Euro (man darf sich diese zwei Worte gerne als geschrieen vorstellen.
 
 Hey. 60 Euro!!!! Das sind hier zwei Thaifrauen für mindestens zwei Tage. Oder eine für eine Woche.
 

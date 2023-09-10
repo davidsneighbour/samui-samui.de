@@ -1,13 +1,9 @@
 ---
 title: Friedliche Demonstranten in Bangkok
-author: Patrick Kollitsch
 type: post
 date: 2010-05-20T01:53:59+00:00
 url: /2010/05/friedliche-demonstranten-in-bangkok/
-
-
-
-
+lastmod: 2023-09-10T19:14:13+07:00
 ---
 Dieses Video zeigt recht gut, wie goebbelig der "friedliche Widerstand" in Bangkok abgelaufen ist. Die Resultate: [36 abgebrannte Banken, Kaufhäuser und Regierungsgebäude][1].
 

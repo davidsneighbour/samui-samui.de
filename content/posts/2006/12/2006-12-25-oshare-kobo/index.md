@@ -1,6 +1,5 @@
 ---
 title: Oshare Kobo
-author: Patrick Kollitsch
 type: post
 date: 2006-12-24T22:57:08+00:00
 url: /2006/12/oshare-kobo/
@@ -9,9 +8,9 @@ url: /2006/12/oshare-kobo/
 
 
 ---
-"Oshare Kobo" ist der Hammer. Das läuft hier auf UBC als "Fashionable Living" und ist so eine Art MacGyver für japanische Hausfrauen. 
+"Oshare Kobo" ist der Hammer. Das läuft hier auf UBC als "Fashionable Living" und ist so eine Art MacGyver für japanische Hausfrauen.
 
-Heute bspw. konnte man die beiden Moderatorinnen mit einer Frau bestaunen, die Plüschhunde zum hinstellen bastelt. Neulich haben sie mir beigebracht, wie ich meine Nägel lackieren kann, ohne dass die Farbe nach einem Tag an den Rändern ausbröckelt. das hätte ich mal vor zehn Jahren wissen sollen. Das beste bisher war ein Mann der seine Pollunder (anders kann man die Dinger nicht nennen) selbst gestrickt hat. Pink mit Blümchen und so nem Kram. Die Maschen waren dann so weit gestrickt, dass er mit verschiedenfarbigen T-Shirts unter dem Pullover supertolle Farbeffekte erzeugen konnte. 
+Heute bspw. konnte man die beiden Moderatorinnen mit einer Frau bestaunen, die Plüschhunde zum hinstellen bastelt. Neulich haben sie mir beigebracht, wie ich meine Nägel lackieren kann, ohne dass die Farbe nach einem Tag an den Rändern ausbröckelt. das hätte ich mal vor zehn Jahren wissen sollen. Das beste bisher war ein Mann der seine Pollunder (anders kann man die Dinger nicht nennen) selbst gestrickt hat. Pink mit Blümchen und so nem Kram. Die Maschen waren dann so weit gestrickt, dass er mit verschiedenfarbigen T-Shirts unter dem Pullover supertolle Farbeffekte erzeugen konnte.
 
 Gut waren aber auch die Kissen die mit Geschenkband zu kleinen Blumenfeldern wurden. Wenn mir mal gar nichts einfällt verschenke ich Kissen mit Geschenkbandblümchen.
 

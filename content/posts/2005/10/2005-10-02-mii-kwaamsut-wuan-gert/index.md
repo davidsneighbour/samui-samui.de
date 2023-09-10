@@ -1,15 +1,11 @@
 ---
 title: Mii kwaamsut wuan gert!
-author: Patrick Kollitsch
 type: post
 date: 2005-10-01T20:38:00+00:00
 url: /2005/10/mii-kwaamsut-wuan-gert/
 dsq_thread_id:
   - "3552456522"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Gestern war ich auf der Geburtstagsparty der Freundin meines Chefes. So. In Deutschland hätte ich das nie gemacht, auf die Freundinnensgeburtstagsparty meines Chefes zu gehen. Einerseits war ich die längste Zeit mein eigener Chef und andererseits hatten die Chefs keine geburtstagspartybesuchenswerten Freundinnen oder waren selbst geburtstagspartyunwert oder ich hab nicht lang genug für sie gearbeitet um auf eine derartige Veranstaltung zu kommen. Wie auch immer. Ich war da. Der Alkohol floss in Strömen (zumindest habe ich hinterher das Gefühl) und hier ist der Chang-Bericht.
 

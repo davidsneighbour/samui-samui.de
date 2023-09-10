@@ -1,6 +1,5 @@
 ---
 title: Durchschnitt
-author: Patrick Kollitsch
 type: post
 date: 2008-09-03T03:53:39+00:00
 url: /2008/09/durchschnitt/
@@ -15,7 +14,7 @@ Ich auch, also lies ich unseren Azubi mal übersetzen. Im Prinzip geht es darum,
 
 Das nennt sich Demokratie und Meinungsäu?erung hier. Ich bin sehr gespannt, ob und wer im Falle der Abschaltung zur Verantwortung gezogen wird.
 
-Heute nun hat man sich entschieden, bis morgen neun Uhr warten zu wollen, bis man eine endgültige Entscheidung fällt, [das Internet abzuschalten][2]. 
+Heute nun hat man sich entschieden, bis morgen neun Uhr warten zu wollen, bis man eine endgültige Entscheidung fällt, [das Internet abzuschalten][2].
 
 Morgen neun Uhr ist glücklicherweise zeitlich nach morgen sieben Uhr drei?ig, so dass eventuell kein Grund mehr gegeben ist, uns vom weiten Netz abzuschneiden.
 

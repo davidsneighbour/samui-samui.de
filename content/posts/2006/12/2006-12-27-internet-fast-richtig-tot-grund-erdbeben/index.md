@@ -1,6 +1,5 @@
 ---
 title: 'Internet (fast richtig) tot. Grund: Erdbeben'
-author: Patrick Kollitsch
 type: post
 date: 2006-12-27T06:41:22+00:00
 url: /2006/12/internet-fast-richtig-tot-grund-erdbeben/
@@ -11,7 +10,7 @@ dsq_thread_id:
 
 
 ---
-[Tatsächlich][1]. Ich habe das tote Internet wegen eines Erdbebens ja zuerst für einen Witz gehalten. Anscheinend sind aber jede Menge Tiefseekabel zerstört und man kommt nicht oder nur schleichend auf die Server in Taiwan, USA usw. --- das soll rund drei Wochen anhalten. 
+[Tatsächlich][1]. Ich habe das tote Internet wegen eines Erdbebens ja zuerst für einen Witz gehalten. Anscheinend sind aber jede Menge Tiefseekabel zerstört und man kommt nicht oder nur schleichend auf die Server in Taiwan, USA usw. --- das soll rund drei Wochen anhalten.
 
 Angeblich sollen die Leitungen nur verdünnt worden sein, ich bekomme mit meiner Handy-Modem-Leitung allerdings nur Time-Outs.
 

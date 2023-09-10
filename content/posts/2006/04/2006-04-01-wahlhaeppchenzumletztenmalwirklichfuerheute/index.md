@@ -1,15 +1,11 @@
 ---
 title: Wahlhäppchen. Zum letzten Mal. Wirklich. Für heute.
-author: Patrick Kollitsch
 type: post
 date: 2006-04-01T03:12:00+00:00
 url: /2006/04/wahlhaeppchenzumletztenmalwirklichfuerheute/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Ich hatte ja bereits angesprochen, dass in Wahlbezirken wo nur ein Kandidat, in der Regel der von Thai Rak Thai (TRT), mangels Opposition antritt eine bestimmte Anzahl an Stimmen abgegeben werden muss, damit der Kandidat als gewählt angesehen werden darf. Es handelt sich hierbei um 20% aller Wahlberechtigten. In Bangkok bspw. tritt TRT in 20 von 36 Distrikten ohne Gegner an. 
+Ich hatte ja bereits angesprochen, dass in Wahlbezirken wo nur ein Kandidat, in der Regel der von Thai Rak Thai (TRT), mangels Opposition antritt eine bestimmte Anzahl an Stimmen abgegeben werden muss, damit der Kandidat als gewählt angesehen werden darf. Es handelt sich hierbei um 20% aller Wahlberechtigten. In Bangkok bspw. tritt TRT in 20 von 36 Distrikten ohne Gegner an.
 
 Das Peoples Network for Elections in Thailand (P-Net) hat vorausgesagt, dass im Fall des Gewinns von TRT in den 14 südlichen Provinzen mit Aufständen und "Unmutsäußerungen" (ich mag die Formulierung) zu rechnen ist, denen die Polizei im jeweligen Falle nicht gewachsen sein wird. Das nennt sie Worst Case. Best Case nennt sie ein Ergebnis, dass innerhalb von 30 Tagen das Parlament neu gebildet wird und eine neue Regierung ohne Gegendemonstrationen gebildet werden kann. Der wahrscheinlichste Fall aber wird sein, dass sich nichts ändert und die Proteste weitergehen.
 

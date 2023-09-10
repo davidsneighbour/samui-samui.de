@@ -1,6 +1,5 @@
 ---
 title: Liv Tyler
-author: Patrick Kollitsch
 type: post
 date: 2006-08-03T12:15:00+00:00
 url: /2006/08/liv-tyler/

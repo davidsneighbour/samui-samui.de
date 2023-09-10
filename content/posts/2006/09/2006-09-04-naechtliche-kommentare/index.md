@@ -1,6 +1,5 @@
 ---
 title: Nächtliche Kommentare
-author: Patrick Kollitsch
 type: post
 date: 2006-09-03T20:35:00+00:00
 url: /2006/09/naechtliche-kommentare/
@@ -9,21 +8,21 @@ url: /2006/09/naechtliche-kommentare/
 
 
 ---
-Wenn man ein "Weblog" hat und Einträge schreibt, muss man damit leben, dass bei eingeschalter Kommentarfunktion auch Kommentare eingehen. In der die schreiBBloga.de sind das in der Regel Hundeliebhaber, die kommentieren ;) Ich habe durch die Kommentare und [Kontaktformularemails][1] in den vergangenen 20 Monaten viele sehr nette Menschen kennen gelernt. 
+Wenn man ein "Weblog" hat und Einträge schreibt, muss man damit leben, dass bei eingeschalter Kommentarfunktion auch Kommentare eingehen. In der die schreiBBloga.de sind das in der Regel Hundeliebhaber, die kommentieren ;) Ich habe durch die Kommentare und [Kontaktformularemails][1] in den vergangenen 20 Monaten viele sehr nette Menschen kennen gelernt.
 
 Manchmal allerdings gibt es hier Kommentare die tief in die verbale Kloschössel gegriffen sind, spammen oder mich kritisieren. Da gehe ich meistens sehr pragmatisch vor (glaube ich).
 
-Bei Spam wird nur die <span class="caps">URL</span> gelöscht oder der Text so verändert, dass man mir nichts vorwerfen kann. Ansonsten finde ich es eher lustig und bezeichnend für die Stichwort-Qualität hier, wenn mal ein Kommentar von einem Swingerclub eingeht. 
+Bei Spam wird nur die <span class="caps">URL</span> gelöscht oder der Text so verändert, dass man mir nichts vorwerfen kann. Ansonsten finde ich es eher lustig und bezeichnend für die Stichwort-Qualität hier, wenn mal ein Kommentar von einem Swingerclub eingeht.
 
-Dumme und nichtssagende Kommentare lasse ich auch stehen. Wenn die Leute sich blamieren müssen sollen sie das doch auch. Ich glaube ein paar Kommentatoren hier würden den Unfug den sie mal verzapft haben gerne verschwinden lassen. 
+Dumme und nichtssagende Kommentare lasse ich auch stehen. Wenn die Leute sich blamieren müssen sollen sie das doch auch. Ich glaube ein paar Kommentatoren hier würden den Unfug den sie mal verzapft haben gerne verschwinden lassen.
 
-Ich habe in der ganzen Zeit hier (20 Monate) nur drei Kommentare gelöscht. Zweimal wurden Kommentatoren oder ich (bei einem Kommentar konnte ich nicht ganz herausfinden, wer gemeint war) beleidigt und das ist mir zu flach. Einmal kam ein einzelner Satz mit 10 Worten die derart majestätsbeleidigend (ich rede hier von König Bhumibol) waren, dass ich das weder für mich noch für das Internet stehen lassen konnte. Alle drei dieser Kommentare waren anonym, so dass ich den Kommentatoren auch keine Möglichkeit geben konnte, dazu irgendwas Relevantes zu sagen. 
+Ich habe in der ganzen Zeit hier (20 Monate) nur drei Kommentare gelöscht. Zweimal wurden Kommentatoren oder ich (bei einem Kommentar konnte ich nicht ganz herausfinden, wer gemeint war) beleidigt und das ist mir zu flach. Einmal kam ein einzelner Satz mit 10 Worten die derart majestätsbeleidigend (ich rede hier von König Bhumibol) waren, dass ich das weder für mich noch für das Internet stehen lassen konnte. Alle drei dieser Kommentare waren anonym, so dass ich den Kommentatoren auch keine Möglichkeit geben konnte, dazu irgendwas Relevantes zu sagen.
 
-Aber wie gesagt, in der Regel bleibt alles stehen. 
+Aber wie gesagt, in der Regel bleibt alles stehen.
 
-Dann und wann kommt harsche Kritik an mir, meinen Ansichten und meiner Schreibweise, in der Regel meistens zu Einträgen über Thaksin. Ich antworte dann per Privatmail und _immer_ hat sich bisher daraus ein interessanter Dialog ergeben, der dazu führte, dass die Kommentatoren erstens mehr aus meinem Weblog lesen und zweitens ihre Meinung relativierten oder ganz änderten. 
+Dann und wann kommt harsche Kritik an mir, meinen Ansichten und meiner Schreibweise, in der Regel meistens zu Einträgen über Thaksin. Ich antworte dann per Privatmail und _immer_ hat sich bisher daraus ein interessanter Dialog ergeben, der dazu führte, dass die Kommentatoren erstens mehr aus meinem Weblog lesen und zweitens ihre Meinung relativierten oder ganz änderten.
 
-Das Hauptproblem ist wohl, dass viele Leute nach Stichwörtern googlen und dann _einen einzelnen Eintrag_ aus der die schreiBBloga.de geliefert bekommen und diesen einzelnen Eintrag her nehmen, um das ganze Blog zu bewerten. Das kann man dann schon in den Logs sehen. Einmal rein per Google, kommentieren und wieder raus. In den meisten meiner Mails auf solche Kommentare schreibe ich dann, dass mein Blog mitnichten aus allgemeingültigen Einzeleinträgen besteht, die alles zum betreffenden Thema sagen, sondern eher als Puzzle zu sehen ist. 
+Das Hauptproblem ist wohl, dass viele Leute nach Stichwörtern googlen und dann _einen einzelnen Eintrag_ aus der die schreiBBloga.de geliefert bekommen und diesen einzelnen Eintrag her nehmen, um das ganze Blog zu bewerten. Das kann man dann schon in den Logs sehen. Einmal rein per Google, kommentieren und wieder raus. In den meisten meiner Mails auf solche Kommentare schreibe ich dann, dass mein Blog mitnichten aus allgemeingültigen Einzeleinträgen besteht, die alles zum betreffenden Thema sagen, sondern eher als Puzzle zu sehen ist.
 
 Beispiel gefällig?
 

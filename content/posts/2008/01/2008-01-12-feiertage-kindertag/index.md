@@ -1,6 +1,5 @@
 ---
 title: 'Feiertage: Kindertag'
-author: Patrick Kollitsch
 type: post
 date: 2008-01-11T20:59:07+00:00
 url: /2008/01/feiertage-kindertag/
@@ -9,7 +8,7 @@ url: /2008/01/feiertage-kindertag/
 
 
 ---
-Heute feiern wir den Kindertag in Thailand. Dieser Tag findet jedes Jahr am zweiten Samstag im Jahr statt. Was heute ist. 
+Heute feiern wir den Kindertag in Thailand. Dieser Tag findet jedes Jahr am zweiten Samstag im Jahr statt. Was heute ist.
 
 Der thailändische Kindertag ist ein kleines bisschen anders als Kindertage in Europa. [Die öffentlichen Institutionen laden die Kinder zu Parties ein][1], [die Armee lässt sie Panzer bestaunen][2] und [Hochschulen zeigen, was man alles lernen kann][3].
 

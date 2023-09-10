@@ -1,13 +1,9 @@
 ---
 title: Das Samui?! Euro-2012-Orakel.
-author: Patrick Kollitsch
 type: post
 date: 2012-06-22T13:12:50+00:00
 url: /2012/06/das-samui-euro-2012-orakel/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 <div class="media photo image flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/7419652434/" title="Euro2012 Orakel by Patrick Kollitsch, on Flickr"><img src="//farm8.staticflickr.com/7138/7419652434_06789c1793_z.jpg" width="640" height="480" alt="Euro2012 Orakel" /><span>Euro2012 Orakel</span></a>

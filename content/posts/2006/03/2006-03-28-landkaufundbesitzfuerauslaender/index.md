@@ -1,17 +1,13 @@
 ---
 title: Landkauf und -besitz für Ausländer
-author: Patrick Kollitsch
 type: post
 date: 2006-03-27T19:26:00+00:00
 url: /2006/03/landkaufundbesitzfuerauslaender/
 dsq_thread_id:
   - "2920774347"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Ausländer dürfen in Thailand kein Land kaufen (oder um im guten alten Deutsch zu bleiben kein Eigentum an Land halten). Es gibt aber verschiedene Wege, um trotzdem stolz "zu Hause" berichten zu können, dass man auf seiner Farm im Nordenwesten Thailands Reis zieht. 
+Ausländer dürfen in Thailand kein Land kaufen (oder um im guten alten Deutsch zu bleiben kein Eigentum an Land halten). Es gibt aber verschiedene Wege, um trotzdem stolz "zu Hause" berichten zu können, dass man auf seiner Farm im Nordenwesten Thailands Reis zieht.
 
 Ein Weg geht über das Leasen von Land. Man kann das Land für 30 Jahre von einer thailändischen Firma leasen und hat das Recht auf eine Verlängerung des Vertrages nach 30 Jahren. Das ist wie Eigentum, nur wird das Land nach dem unvermeidlichen Ableben des Leasingnehmers nicht vererbt sondern geht zurück an die Propertyfirma.
 
@@ -22,11 +18,11 @@ Die letzte Möglichkeit (im Sinne von am Schluss meiner kleinen Liste ;]) ist di
 Na dann mal frohen Landkauf! Auf Koh Samui sind die Landpreise übrigens astronomisch hoch. Man darf da schon mit einer Million Baht und mehr (um die 20.000 Euro) pro Rai rechnen. Im Isaan habe ich letzten Sommer ein paar Rai für 15.000 Baht angeboten bekommen. Ob man im Isaan leben will ist dann wieder eine andere Entscheidungsfrage.
 
 **Landmaße**
-  
+
 1 rai = 4 ngan (1.600 qm)
-  
+
 1 ngan = 100 wah (400 qm)
-  
+
 1 wah = 4 qm
-  
+
 1 Hektar = ca. 6,25 rai

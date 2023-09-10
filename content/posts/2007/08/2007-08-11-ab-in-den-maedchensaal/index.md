@@ -1,6 +1,5 @@
 ---
 title: Ab in den Mädchensaal
-author: Patrick Kollitsch
 type: post
 date: 2007-08-10T23:23:37+00:00
 url: /2007/08/ab-in-den-maedchensaal/
@@ -9,7 +8,7 @@ url: /2007/08/ab-in-den-maedchensaal/
 
 
 ---
-Die News des Tages: Wenn man als Mann eine Sex-Wechsel-Operation über sich ergehen lässt, [darf man in der Srinakharinwirot-Universität im Mädchensaal übernachten][1]. 
+Die News des Tages: Wenn man als Mann eine Sex-Wechsel-Operation über sich ergehen lässt, [darf man in der Srinakharinwirot-Universität im Mädchensaal übernachten][1].
 
 Allerdings: Nach der Operation verliert das ja auch jeglichen Reiz...
 

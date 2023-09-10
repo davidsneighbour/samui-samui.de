@@ -1,6 +1,5 @@
 ---
 title: Es ist wieder soweit
-author: Patrick Kollitsch
 type: post
 date: 2007-04-04T06:19:50+00:00
 url: /2007/04/after-the-fight/
@@ -10,8 +9,8 @@ url: /2007/04/after-the-fight/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/445956648/"><img src="//farm1.static.flickr.com/148/445956648_a541bd314b.jpg" class="flickr-photo" alt="" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/445956648/"><img src="//farm1.static.flickr.com/148/445956648_a541bd314b.jpg" class="flickr-photo" alt="" /></a></p>
+
   <p>
     After the fight
   </p>

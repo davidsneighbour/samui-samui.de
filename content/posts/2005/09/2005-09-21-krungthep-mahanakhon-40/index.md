@@ -1,17 +1,13 @@
 ---
 title: Krungthep Mahanakhon 4.0
-author: Patrick Kollitsch
 type: post
 date: 2005-09-20T22:14:00+00:00
 url: /2005/09/krungthep-mahanakhon-40/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Jaja. Schon gut. Hier ist er ja.
 
-Bangkok, Krungthep Mahanakhon Bovorn Ratanakosin Mahintharayutthaya Mahadilokpop Noparatratchathani Burirom Udomratchanivet Mahasathan Amornpiman Avatarnsathit Sakkathattiyavisnukarmprasit, Stadt der Engel, gro?e Stadt und Wohnsitz des Smaragdbuddhas, uneinnehmbare Stadt des Gottes Indra, gro?e Hauptstadt der Welt, geschmückt mit neun wertvollen Edelsteinen, reich an gewaltigen kö?niglichen Palästen die dem himmlischen Heim des wiedergeborenen Gottes gleichen, Stadt, die von Indra geschenkt und von Vishnukarm gebaut wurde. Man kann es nicht oft genug sagen, allein schon wegen der Suchmaschinenpositionierung. 
+Bangkok, Krungthep Mahanakhon Bovorn Ratanakosin Mahintharayutthaya Mahadilokpop Noparatratchathani Burirom Udomratchanivet Mahasathan Amornpiman Avatarnsathit Sakkathattiyavisnukarmprasit, Stadt der Engel, gro?e Stadt und Wohnsitz des Smaragdbuddhas, uneinnehmbare Stadt des Gottes Indra, gro?e Hauptstadt der Welt, geschmückt mit neun wertvollen Edelsteinen, reich an gewaltigen kö?niglichen Palästen die dem himmlischen Heim des wiedergeborenen Gottes gleichen, Stadt, die von Indra geschenkt und von Vishnukarm gebaut wurde. Man kann es nicht oft genug sagen, allein schon wegen der Suchmaschinenpositionierung.
 
 Ich war mal wieder da (ja, es geht immer noch um Bangkok). Ich begann meine Reise mit einem "Bai tii Nathon" auf der Insel zum Songtheaw-Fahrer und beendete sie mit einem "Sawadee Krap" zum thai-japanischen Pärchen im Songtheaw zurück auf der Insel. Zwischendurch war ich einige Male gezwungen englische Laute von mir zu geben, meistens aber nur, um das, was ich auf Thai sagte zu verifizieren. Ansonsten versuchte ich mich mit Thai durchzuschlagen. Von Vorteil war, dass ich mir die Hinfahrt vorher schon gekauft habe ;)
 
@@ -33,7 +29,7 @@ Dann war ich noch schnell bei einer grö?eren amerikanischen Fastfoodkette essen
 
 Sonntag dann kaufte ich gleich früh am Morgen mein Rückfahrticket für Montagabend und ging dann Shoppen und Japanisch essen. Sagte ich schon, dass die Thais gerne Japanisch essen? Jedenfalls gibt es in Bang Na (ziemlich weit drau?en) ein Restaurant wo man 90 Minuten lang essen kann, was man essen kann und dafür einen Festpreis zahlt. Könnte sein, dass ich da öfters verkehren werde. Die Japaner sind übrigens ein komisches Volk, die essen Tintenfischbeinchen und so nen Kram. Bester Spruch hier: "Here, try this --- aaah, no no, sorry, Fallang dont eat this, from inside." Nach einem kurzen Besuch auf dem Flughafen und dem Beobachten der Thaiversion im Familienmitgliederverabschieden (Wai, Nicken, Abgang nach rechts) wurde dann ein Besuch von Bang Poo anberaumt.
 
-Bang Poo ist _das_ Naherholungszentrum der Bangkoker Thais. Irgendwo am Meer. Oder so. Da hat man dann einen langen Betonsteg mit Freizeitcenter am Ende ins Meer hinein gebaut wo die Autos in der Mitte zweispurig parken, au?enrum fahren und Parkplätze suchen und die zugehörigen Thais dann am Rand des Stegs stehen und in die braune Suppe starren und versuchen Fische zu sehen. Dann und wann aller paar Jahre kommt mal ein Farang vorbei, der dann der Farangwatch unterzogen wird. Diesmal war ich dort. Ich hab mir derweil Thais angekuckt. 
+Bang Poo ist _das_ Naherholungszentrum der Bangkoker Thais. Irgendwo am Meer. Oder so. Da hat man dann einen langen Betonsteg mit Freizeitcenter am Ende ins Meer hinein gebaut wo die Autos in der Mitte zweispurig parken, au?enrum fahren und Parkplätze suchen und die zugehörigen Thais dann am Rand des Stegs stehen und in die braune Suppe starren und versuchen Fische zu sehen. Dann und wann aller paar Jahre kommt mal ein Farang vorbei, der dann der Farangwatch unterzogen wird. Diesmal war ich dort. Ich hab mir derweil Thais angekuckt.
 
 Anschlie?end wurde ein weiteres Kino in Bang Na der genaueren Qualitätskontrolle unterzogen. "The Grimms Brothers" --- ein überaus guter Film. Eine Mischung aus "Sleepy Hollow" und "Van Helsing" von Terry Gilliams (was ich erst im Nachspann herausfand). Empfehlenswert. Mehr sag ich nicht. DVD-wert. Nicht VCD. Dann eine weitere schnelle Thaiverabschiedung betrachtet aus zweiter Person und ich war wieder im Hotel. REM-Phase unter anderem mit einem sprechenden Vollmond und viel blauer Farbe. Samstag war übrigens Vollmond.
 

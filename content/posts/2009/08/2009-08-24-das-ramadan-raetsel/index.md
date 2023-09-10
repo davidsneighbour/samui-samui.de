@@ -1,6 +1,5 @@
 ---
 title: Das Ramadan-Rätsel
-author: Patrick Kollitsch
 type: post
 date: 2009-08-24T04:08:02+00:00
 url: /2009/08/das-ramadan-raetsel/
@@ -11,7 +10,7 @@ dsq_thread_id:
 
 
 ---
-Der Islam ist eine geheimnisvolle Religion. Vergangene Woche begannen gegen Mittwoch verschiedene muslimische Freunde, mich zu fragen, wann denn dieses Jahr Ramadan beginnt. 
+Der Islam ist eine geheimnisvolle Religion. Vergangene Woche begannen gegen Mittwoch verschiedene muslimische Freunde, mich zu fragen, wann denn dieses Jahr Ramadan beginnt.
 
 Ich??? werde von Muslims gefragt??? wann Ramadan beginnt???
 
@@ -25,9 +24,9 @@ Heute nun sieht man definitiv eine Mondsichel. Wenn man dem [Gebetskalender für
 
 Wobei das Fasten der Muslims wiederum vergangenes Jahr eher zur Gewichtszunahme bei meinen Freunden geführt hat.
 
-Fasten bedeutet hier nämlich, dass man nur essen darf, nachdem Licht und Dunkel sich begrü?ten. Nachts. Dann wird aber nicht mä?ig gegessen sondern so, als ob die Sonne in den nächsten drei Tagen nicht unter gehen wird. Auf der anderen Seite geht es beim Fasten auch eher darum, den Koran zu lesen, zu verstehen und die "Geburt" des Korans zu feiern. 
+Fasten bedeutet hier nämlich, dass man nur essen darf, nachdem Licht und Dunkel sich begrü?ten. Nachts. Dann wird aber nicht mä?ig gegessen sondern so, als ob die Sonne in den nächsten drei Tagen nicht unter gehen wird. Auf der anderen Seite geht es beim Fasten auch eher darum, den Koran zu lesen, zu verstehen und die "Geburt" des Korans zu feiern.
 
-Auch sonst ist man sehr gemä?igt: Der Koran sagt, dass man wenn man krank oder auf Reisen ist nicht fasten muss, wenn man eine gleicherma?en hohe Zahl an Tagen zusätzlich fastet. 
+Auch sonst ist man sehr gemä?igt: Der Koran sagt, dass man wenn man krank oder auf Reisen ist nicht fasten muss, wenn man eine gleicherma?en hohe Zahl an Tagen zusätzlich fastet.
 
 > The month of Ramazan is that in which the Quran was revealed, a guidance to men and clear proofs of the guidance and the distinction; therefore whoever of you is present in the month, he shall fast therein, and whoever is sick or upon a journey, then (he shall fast) a (like) number of other days; Allah desires ease for you, and He does not desire for you difficulty, and (He desires) that you should complete the number and that you should exalt the greatness of Allah for His having guided you and that you may give thanks. (Koran, Sure 2:185)
 

@@ -1,19 +1,15 @@
 ---
 title: Rohr frei!(!!)
-author: Patrick Kollitsch
 type: post
 date: 2010-06-08T01:13:18+00:00
 url: /2010/06/rohr-frei/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Unsereins hat bei der Quartals-Rasur einen recht hohen Haarabgang. Nicht unverständlich daher ist also, dass die Rohre nach gut einem Jahr im neuen alten Haus aufgaben und das Wasser nicht mehr ablief. Ich persönlich habe mir eine Ausrede a la "Das sind die Termiten die da unten im warmen Ablauf ihr Nest errichten" zurecht gelegt. Das half aber nichts, das Wasser blieb in der Gosse. 
+Unsereins hat bei der Quartals-Rasur einen recht hohen Haarabgang. Nicht unverständlich daher ist also, dass die Rohre nach gut einem Jahr im neuen alten Haus aufgaben und das Wasser nicht mehr ablief. Ich persönlich habe mir eine Ausrede a la "Das sind die Termiten die da unten im warmen Ablauf ihr Nest errichten" zurecht gelegt. Das half aber nichts, das Wasser blieb in der Gosse.
 
 Nichtsdestotrotz erstand ich am Wochenende in der Badabteilung des heimischen Tesko Supermarkts ein Paket Rohrfrei. Oder zumindest dachte ich, es wäre Rohrfrei. Was sonst würde genau zwischen blauen WC-Steinen und WC-Enten zu finden sein...
 
-Heute nun öffnete ich mein kleines Päckchen, lies den Inhalt in den Abfluss rieseln und das Unheil nahm seinen Lauf. Zuerst dampfte es warm. Ich zog meinen prüfend über die sechs Löcher gehaltenen Kopf zurück, nicht ohne einen jedes Sauerstoffatom erstickenden Gestank in Nase und Hirn wahrzunehmen. Nach einigen Sekunden kamen auch die Schallwellen des Vorgangs an, es zischte, brodelte und rauchte. 
+Heute nun öffnete ich mein kleines Päckchen, lies den Inhalt in den Abfluss rieseln und das Unheil nahm seinen Lauf. Zuerst dampfte es warm. Ich zog meinen prüfend über die sechs Löcher gehaltenen Kopf zurück, nicht ohne einen jedes Sauerstoffatom erstickenden Gestank in Nase und Hirn wahrzunehmen. Nach einigen Sekunden kamen auch die Schallwellen des Vorgangs an, es zischte, brodelte und rauchte.
 
 Geschwind evakuierte ich die Hunde aus dem Haus (geflüchtet waren sie schon in die hinterste Ecke des Hauses), drehte den Wasserhahn auf, öffnete die Fenster und floh ebenfalls.
 

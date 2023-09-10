@@ -1,13 +1,9 @@
 ---
 title: Die Map kann ein bisschen mehr
-author: Patrick Kollitsch
 type: post
 date: 2005-08-13T01:46:00+00:00
 url: /2005/08/die-map-kann-ein-bisschen-mehr/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Ich hab mal wieder nichts zu tun (und weder eine Senderübersicht meines Fernsehers erstellt noch irgendwo ein Fernsehprogramm gefunden --- sagte ich schon, dass ich jetzt einen Fernseher mit Haus drum habe?) also habe ich mich wieder mit [meiner kleinen Samui-Map][1] beschäftigt. Die API der Google-Maps ist in letzter Zeit ein bisschen aufgebohrt worden und mir scheint, die ganze Anwendung ist ein bisschen schneller. Gut also, um ein bisschen zu schrauben:
 

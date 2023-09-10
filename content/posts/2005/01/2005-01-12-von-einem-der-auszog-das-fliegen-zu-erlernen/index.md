@@ -1,13 +1,11 @@
 ---
 title: Von einem, der auszog das Fliegen zu erlernen.
-author: Patrick Kollitsch
 type: post
 date: 2005-01-12T01:27:00+00:00
 url: /2005/01/von-einem-der-auszog-das-fliegen-zu-erlernen/
 dsq_thread_id:
   - "3105401142"
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Angekommen. Heiß ist es. Nein. Nicht wirklich heiß. So um die 30 Grad sind es wohl, aber die Sonne und die außerordentlich schwere Luft macht einem Nordländer wie mir schon zu schaffen. Meine Schleimhäute fühlen sich doppelt so dick an wie sonst. Was solls. Es gibt viel zu berichten. Fangen wir an. Mit dem Fliegen.
 

@@ -1,13 +1,9 @@
 ---
 title: Weihnachten (Thaistyle)
-author: Patrick Kollitsch
 type: post
 date: 2010-12-25T22:34:57+00:00
 url: /2010/12/weihnachten-thaistyle-2/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 <div class="media image">
   <a href="http://www.daylife.com/photo/05R38743Ide3n">{{< figure src="wp-content/old-images/284.jpg" />}}

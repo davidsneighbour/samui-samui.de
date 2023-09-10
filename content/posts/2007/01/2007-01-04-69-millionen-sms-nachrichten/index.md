@@ -1,6 +1,5 @@
 ---
 title: 69 Millionen SMS-Nachrichten
-author: Patrick Kollitsch
 type: post
 date: 2007-01-04T10:51:37+00:00
 url: /2007/01/69-millionen-sms-nachrichten/

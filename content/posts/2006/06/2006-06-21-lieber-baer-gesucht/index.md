@@ -1,6 +1,5 @@
 ---
 title: Lieber Bär gesucht
-author: Patrick Kollitsch
 type: post
 date: 2006-06-21T00:14:00+00:00
 url: /2006/06/lieber-baer-gesucht/

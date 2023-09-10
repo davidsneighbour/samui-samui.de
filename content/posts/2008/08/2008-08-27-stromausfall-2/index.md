@@ -1,6 +1,5 @@
 ---
 title: Stromausfall
-author: Patrick Kollitsch
 type: post
 date: 2008-08-26T23:01:52+00:00
 url: /2008/08/stromausfall-2/

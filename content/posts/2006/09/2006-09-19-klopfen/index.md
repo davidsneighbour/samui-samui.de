@@ -1,6 +1,5 @@
 ---
 title: Klopfen
-author: Patrick Kollitsch
 type: post
 date: 2006-09-19T13:20:00+00:00
 url: /2006/09/klopfen/
@@ -9,9 +8,9 @@ url: /2006/09/klopfen/
 
 
 ---
-Irgendwas ist im Busch. Die TV-Sender bringen entweder nur noch den König (die Thaisender, Propagandavideos die ich noch nie gesehen habe und alle 8 Sender bringen das gleiche, zeitgleich) oder nichts (alle anderen). Kurz vorher sms-te mir die Quelle noch, morgen passiere "etwas Großes" mit Thaksin. 
+Irgendwas ist im Busch. Die TV-Sender bringen entweder nur noch den König (die Thaisender, Propagandavideos die ich noch nie gesehen habe und alle 8 Sender bringen das gleiche, zeitgleich) oder nichts (alle anderen). Kurz vorher sms-te mir die Quelle noch, morgen passiere "etwas Großes" mit Thaksin.
 
-Ich tippe auf einen Toten oder den lange erwarteten Putsch. 
+Ich tippe auf einen Toten oder den lange erwarteten Putsch.
 
 Update [1:20 morgens]: Eine Frau liest was vor. Thaksin ist entmachtet. Die Armee hat geputscht.
 

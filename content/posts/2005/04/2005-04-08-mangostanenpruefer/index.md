@@ -1,15 +1,11 @@
 ---
 title: Mangostanenprüfer
-author: Patrick Kollitsch
 type: post
 date: 2005-04-08T07:23:00+00:00
 url: /2005/04/mangostanenpruefer/
 dsq_thread_id:
   - "6412166411"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Titelgebende Bezeichnung kann ich mir nun geben, denn ich wei? nun, wie man Mangostanen auf Qualität prüft. Aber fangen wir am Anfang an.
 

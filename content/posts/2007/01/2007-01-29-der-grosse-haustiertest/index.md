@@ -1,6 +1,5 @@
 ---
 title: Der gro?e Haustiertest
-author: Patrick Kollitsch
 type: post
 date: 2007-01-29T11:20:47+00:00
 url: /2007/01/der-grosse-haustiertest/
@@ -10,7 +9,7 @@ url: /2007/01/der-grosse-haustiertest/
 
 ---
 
-  
+
 
 
 > Liebes Tagebuch! Heute hatte ich mal wieder eine Frau auf dem Scho? sitzen. Sie trug ein rotes Kleid und sa? so rum und hin und wieder nahm sie meine Zettel mit den Passwörtern und zerknüllte die oder patschte auf dem Notebook herum. Eine ordentliche Unterhaltung war mit ihr nicht zu führen. Hand-Augen-Koordination war fast nicht vorhanden. Irgendwie hatte ich das anders in Erinnerung. Als dann auch noch ihre Speicheldrüse zur ?berproduktion ansetzte war meine anfängliche Faszination komplett verschwunden...

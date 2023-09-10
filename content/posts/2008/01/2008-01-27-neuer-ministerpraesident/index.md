@@ -1,6 +1,5 @@
 ---
 title: Neuer Ministerpräsident
-author: Patrick Kollitsch
 type: post
 date: 2008-01-27T12:10:45+00:00
 url: /2008/01/neuer-ministerpraesident/

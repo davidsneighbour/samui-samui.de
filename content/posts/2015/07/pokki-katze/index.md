@@ -1,6 +1,5 @@
 ---
 title: Pokki, Katze.
-author: Patrick Kollitsch
 type: post
 date: 2015-07-27T12:46:04+00:00
 url: /2015/07/pokki-katze/

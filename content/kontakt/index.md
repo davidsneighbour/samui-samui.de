@@ -1,5 +1,5 @@
 ---
-title: Kontakt!?!
+title: Kontakt
 layout: kontakt
 hideMeta: true
 menu:
@@ -12,6 +12,7 @@ menu:
     name: Kontakt
     weight: 100
     identifier: kontakt
+lastmod: 2023-09-10T19:00:50+07:00
 ---
 
 ## Impressum und Datenschutzerklärung
@@ -29,4 +30,5 @@ Wenn du mir Dateien schicken willst, [nutze dieses Dropbox-Formular][2].
 {{< contact-form >}}
 
 [1]: /datenschutzerklaerung/
-[2]: https://www.dropbox.com/request/Z9UXcgVtGxdexT1q3Dnr
+
+[2]: https://www.dropbox.com/request/GZxosbX7metiPoiuLvxo

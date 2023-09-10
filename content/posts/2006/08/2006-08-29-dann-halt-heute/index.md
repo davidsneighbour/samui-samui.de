@@ -1,6 +1,5 @@
 ---
 title: Dann halt heute…
-author: Patrick Kollitsch
 type: post
 date: 2006-08-29T05:34:51+00:00
 url: /2006/08/dann-halt-heute/

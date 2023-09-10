@@ -1,27 +1,23 @@
 ---
 title: Dezember
-author: Patrick Kollitsch
 type: post
 date: 2005-11-30T22:30:00+00:00
 url: /2005/12/dezember/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-So. Also. 
+So. Also.
 
 <txp:gho_motivator />
 
 Eigentlich müsste ich ja <txp:gho_permalink id="454">laut Vereinbarung</txp:gho_permalink> diesen Monat nicht bloggen. Mal sehen.
 
-Es gibt eh nicht viel zu berichten. Seit gestern regnet es wieder. Die Straßen, soweit sie von Wasserströmen befreit waren, Bophut war die ganze Woche ein See, sind wieder überflutet und zwischen Chaweng und Lamai ist ein Stück Abhang runtergekommen. 
+Es gibt eh nicht viel zu berichten. Seit gestern regnet es wieder. Die Straßen, soweit sie von Wasserströmen befreit waren, Bophut war die ganze Woche ein See, sind wieder überflutet und zwischen Chaweng und Lamai ist ein Stück Abhang runtergekommen.
 
 Nichts Neues also.
 
 _ (Fügen Sie hier ein paar greenpissige Sätze a la Bodenversiegelung, Raubbau an der Natur und Mutter Erde ein.) _
 
-Dezember also. Was war da noch? Achja. Kommerzfeiertage. Spendet und seht von Geschenken an mich ab. Danke. 
+Dezember also. Was war da noch? Achja. Kommerzfeiertage. Spendet und seht von Geschenken an mich ab. Danke.
 
 Spenden wohin? Wie wäre es mit diesen beiden?
 

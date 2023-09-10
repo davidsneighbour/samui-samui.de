@@ -1,15 +1,11 @@
 ---
 title: Tipps für den Songkrangeschädigten
-author: Patrick Kollitsch
 type: post
 date: 2005-04-12T20:21:00+00:00
 url: /2005/04/tipps-fuer-den-songkran-geschaedigten/
 dsq_thread_id:
   - "6412166538"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
   * Anscheinend haben die Thais auf der Insel einen katholizistischen Ansatz beim Begehen ihrer Feiertage, ich wurde bereits gestern von meinen Sünden gereinigt
   * Man sieht aktuelle Reinigungsstellen bereits vorher, weil dort die Stra?e nass ist. Wenn man also kann, aufs Gas treten und einfach durchrasen. (Was zum Ergebnis hat, dass ich Teile von Lamai heute in Hochgeschwindigkeit absolviert habe)

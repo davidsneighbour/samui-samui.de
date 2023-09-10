@@ -1,6 +1,5 @@
 ---
 title: Noch ein Kabel
-author: Patrick Kollitsch
 type: post
 date: 2008-02-02T14:30:51+00:00
 url: /2008/02/noch-ein-kabel/

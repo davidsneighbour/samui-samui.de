@@ -1,13 +1,9 @@
 ---
 title: Ich habe gewählt
-author: Patrick Kollitsch
 type: post
 date: 2005-02-03T00:41:00+00:00
 url: /2005/02/ich-habe-gewaehlt/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Ich hatte es ja bereits erwähnt, meine Wahlunterlagen sind angekommen. Was??? Wie??? Wo??? Wahlen??? Johah! Wir Schweswig-Holsteiner wählen unser Parliament (oder den Stadtthing, so genau weiss ich das nicht). Irgendwann im Februar. Jedenfalls füllte ich gestern meinen Wahlschein gewissenhaft aus, machte meine zwei Kreuze sauber erkennbar an den richtigen Stellen (wo die sind? ja jedenfalls nicht bei steinewerfenden Spätnazis und tumben Sektierern, im übrigen pflege ich in Hinsicht auf Politik zu tun, was ich tun kann und nicht zu labern, das machen die anderen) und steckte den Brief in den Brief und den Wahlschein dazu und fertig.
 

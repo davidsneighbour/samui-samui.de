@@ -1,6 +1,5 @@
 ---
 title: Bad News
-author: Patrick Kollitsch
 type: post
 date: 2006-09-10T19:30:22+00:00
 url: /2006/09/bad-news/

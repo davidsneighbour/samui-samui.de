@@ -1,6 +1,5 @@
 ---
 title: Geschäftsreise
-author: Patrick Kollitsch
 type: post
 date: 2008-08-06T18:53:21+00:00
 url: /2008/08/geschaeftsreise/

@@ -1,15 +1,11 @@
 ---
 title: ?? la coiffeur de canine II
-author: Patrick Kollitsch
 type: post
 date: 2006-02-20T19:43:00+00:00
 url: /2006/02/a-la-coiffeur-de-canine-ii/
 tags:
-- pokki
-
-
-
-
+  - pokki
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 [Das sind ja gleich drei Dinge auf einmal][1], da muss ich natürlich ausführlicher antworten ;)
 
@@ -17,7 +13,7 @@ tags:
 
 @Ray: Also. Der kleine Stinker hat mit einer Bierdose geduscht und den Geruch auch nach zweimaligem Duschen (im tierfreundlichen Abstand von einigen Tagen) nicht abgelegt. Außerdem hat er einen Eigengeruch der eine uns beiden bekannte Führungspersönlichkeit dazu brachte ihre Füße odeur-technisch zu checken. Auf das Parfümieren hatte ich keinen Einfluss, ich hatte auch nicht angenommen, dass er so pink wieder rauskommt.
 
-Das mit dem Haare schneiden ist so eine Sache. Ich weiss nicht was und wo ich schneiden kann ohne im was Schlechtes zu tun, so dass das schon ganz gut war, mal einen Fachmann ranzulassen und zu sehen, was man ungestraft machen kann. (Ich weiss, Fachmann ist der falsche Begriff.) Bspw. wachsen ihm die Haare zwischen den Zehen und aus dem Ballen heraus, was ihm einen leicht fluffigen Laufstil und mehrere Rutsch- und Schmutzerlebnisse mit dem auf Fliessen stehenden heimischen Futternapf einbrachte. 
+Das mit dem Haare schneiden ist so eine Sache. Ich weiss nicht was und wo ich schneiden kann ohne im was Schlechtes zu tun, so dass das schon ganz gut war, mal einen Fachmann ranzulassen und zu sehen, was man ungestraft machen kann. (Ich weiss, Fachmann ist der falsche Begriff.) Bspw. wachsen ihm die Haare zwischen den Zehen und aus dem Ballen heraus, was ihm einen leicht fluffigen Laufstil und mehrere Rutsch- und Schmutzerlebnisse mit dem auf Fliessen stehenden heimischen Futternapf einbrachte.
 
 Beim Tierarzt sind wir aller zwei Wochen und am Mittwoch das nächste Mal. Beim letzten Mal haben wir bereits seine Haut angesprochen und entschieden, ihm erstmal keine chemische Keule zu spritzen, weil er noch zu klein dazu ist und es erstmal mit Trockenfutter und einer Marke die nicht Cesars oder Pedigree heisst zu versuchen. Wenn (und da es nicht besser ist da) es nicht besser geworden ist, bekommt er morgen neben einer Spritze gegen was auch immer und bunten Pillen gegen Würmer auch noch eine Spritze gegen die Hautprobleme und wird mich vermutlich einen Abend lang hassen (bis ich dann das Futter bringe, das versöhnt _immer_).
 

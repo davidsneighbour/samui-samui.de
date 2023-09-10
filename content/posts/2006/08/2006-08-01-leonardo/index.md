@@ -1,6 +1,5 @@
 ---
 title: Leonardo
-author: Patrick Kollitsch
 type: post
 date: 2006-08-01T10:38:37+00:00
 url: /2006/08/leonardo/

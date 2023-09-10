@@ -1,14 +1,10 @@
 ---
 title: Familienphotos über Kontinente hinweg
-author: Patrick Kollitsch
 type: post
 date: 2012-06-20T13:31:27+00:00
 url: /2012/06/familienphotos-uber-kontinente-hinweg/
 featured_image: /wp-content/uploads/2012/06/Futuristic-Family-Reunion-slide-D3HF-jumbo.jpg
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 <div class="media photo">
   <img src="//samui-samui.dehttps://assets.samui-samui.de/2012/06/Futuristic-Family-Reunion-slide-D3HF-jumbo-640x426.jpg" alt="" title="Futuristic-Family-Reunion-slide-D3HF-jumbo" width="640" height="426" class="alignnone size-medium wp-image-2169" />

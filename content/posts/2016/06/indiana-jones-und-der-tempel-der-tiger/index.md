@@ -1,6 +1,5 @@
 ---
 title: Indiana Jones und der Tempel der Tiger
-author: Patrick Kollitsch
 type: post
 date: 2016-06-02T15:19:56+00:00
 url: /2016/06/indiana-jones-und-der-tempel-der-tiger/

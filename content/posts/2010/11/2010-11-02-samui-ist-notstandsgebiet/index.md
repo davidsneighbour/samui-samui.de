@@ -1,13 +1,9 @@
 ---
 title: Samui ist Notstandsgebiet
-author: Patrick Kollitsch
 type: post
 date: 2010-11-01T20:05:49+00:00
 url: /2010/11/samui-ist-notstandsgebiet/
-
-
-
-
+lastmod: 2023-09-10T19:14:13+07:00
 ---
 Samui ist gerade mit 15 anderen Bezirken Surat Thanis [zum Notstandsgebiet erklärt worden][1]. In Nakhon Si Thammarat, Songkhla, Trang, Satun, Narathiwat und Phatthalung wurde schon eher der Notstand ausgerufen.
 

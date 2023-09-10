@@ -1,6 +1,5 @@
 ---
 title: Man hats im Gebein…
-author: Patrick Kollitsch
 type: post
 date: 2006-12-30T00:53:21+00:00
 url: /2006/12/man-hats-im-gebein/

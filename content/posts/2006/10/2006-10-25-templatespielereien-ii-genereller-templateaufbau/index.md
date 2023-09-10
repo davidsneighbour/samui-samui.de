@@ -1,6 +1,5 @@
 ---
 title: 'Templatespielereien II: Genereller Templateaufbau'
-author: Patrick Kollitsch
 type: post
 date: 2006-10-25T06:42:23+00:00
 url: /2006/10/templatespielereien-ii-genereller-templateaufbau/
@@ -17,7 +16,7 @@ Das nachfolgende Schaubildchen zeigt den generellen Aufbau der Seite.
 
 <img src="/images/redesign/layout.gif"  style="width:285px;margin:0 auto;height:341px;" />
 
-Da wird sich im Vergleich zur Ur-Version nicht viel ändern. Neu ist der Inhaltsbereich am Fuß der Seite. Durch die Einbindung der Bilder von flickr.com bin ich gezwungen, eine fixe Breite für die Inhaltsspalte zu verwenden. Womit die Sache auch schon auf [Nummer 37 aus der Layoutgala][3] festgelegt ist. Das ist wie bei der Auswahl eines Nummern-Girls. 
+Da wird sich im Vergleich zur Ur-Version nicht viel ändern. Neu ist der Inhaltsbereich am Fuß der Seite. Durch die Einbindung der Bilder von flickr.com bin ich gezwungen, eine fixe Breite für die Inhaltsspalte zu verwenden. Womit die Sache auch schon auf [Nummer 37 aus der Layoutgala][3] festgelegt ist. Das ist wie bei der Auswahl eines Nummern-Girls.
 
 Damit sieht das Template folgendermaßen aus:
 

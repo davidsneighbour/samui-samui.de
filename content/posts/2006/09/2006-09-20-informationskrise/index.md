@@ -1,6 +1,5 @@
 ---
 title: Informationskrise
-author: Patrick Kollitsch
 type: post
 date: 2006-09-20T01:05:00+00:00
 url: /2006/09/informationskrise/

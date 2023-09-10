@@ -1,6 +1,5 @@
 ---
 title: Paradorn und Natalie
-author: Patrick Kollitsch
 type: post
 date: 2007-04-29T05:50:41+00:00
 url: /2007/04/paradorn-und-natalie/
@@ -11,7 +10,7 @@ url: /2007/04/paradorn-und-natalie/
 ---
 [Natalie Glebova][1] war mal Miss Universum</a> und arbeitet derzeit als <a href="950">Brauereipferd und Appetizer in Thailand. [Paradorn Srichaphan][2] ist ein ehemals ziemlich erfolgreicher Tennis-Spieler, der es schon mal bis auf Platz neun der Weltrangliste gebracht hat und als einer der erfolgreichsten Thais gehandelt wird, derzeit aber eher durch Ausfälle in frühen Runden glänzt.
 
-Zeit also für die beiden, das Leben danach zu beginnen und ins Regenbogenpresselicht zu rücken. Wie macht man das am Besten? Genau: sie verlobten sich. Am vergangenen Dienstag machten beide monatelangem Rumoren in den Foren und Skandalblättchen ein Ende und verlobten sich medienwirksam in einem Krungtheper Hotel. 
+Zeit also für die beiden, das Leben danach zu beginnen und ins Regenbogenpresselicht zu rücken. Wie macht man das am Besten? Genau: sie verlobten sich. Am vergangenen Dienstag machten beide monatelangem Rumoren in den Foren und Skandalblättchen ein Ende und verlobten sich medienwirksam in einem Krungtheper Hotel.
 
 > Then the couple told the crowd that they became engaged on Songkran night during a dinner in Bali. Paradorn said he got down on his knees when he asked for Natalie's hand. In return, Natalie responded with no hesitation: "Yes, yes, yes, yes!"
 
@@ -19,9 +18,9 @@ Sogar ein wackeliges übersteuertes [Video][3] gibt es von der zeremoniellen [Ve
 
 Neben dem ฿3Mio. teuren Verlobungsring bekam Natalie von ihren zukünftigen Schwiegereltern noch ein Collier und Diamantenohrringe (฿16Mio.), die Paradorn ihr mühselig um und in Hals und Ohren stopfen durfte.
 
-Natalie hat nun auch einen Nickname bekommen (Thais sprechen sich nie mit dem Namen im Ausweis an): "Piang Fah" (engl. "high as the sky"). Die Schwiegertochter aller Thais soll sie werden, so wünscht es sich der Paradorn. 
+Natalie hat nun auch einen Nickname bekommen (Thais sprechen sich nie mit dem Namen im Ausweis an): "Piang Fah" (engl. "high as the sky"). Die Schwiegertochter aller Thais soll sie werden, so wünscht es sich der Paradorn.
 
-Mit Genuss beschreibt The Nation im [Webspecial][5] Paradorns bisherige Liebschaften (oder was man ihm gerne als Liebschaft nachsagt) und bemerkt süffisant, dass Natalie sich nicht allzu sicher sein sollte. Der Sack ist erst zugebunden, wenn sie verheiratet sind (und selbst das hat in Thailand zuweilen nicht viel zu sagen). 
+Mit Genuss beschreibt The Nation im [Webspecial][5] Paradorns bisherige Liebschaften (oder was man ihm gerne als Liebschaft nachsagt) und bemerkt süffisant, dass Natalie sich nicht allzu sicher sein sollte. Der Sack ist erst zugebunden, wenn sie verheiratet sind (und selbst das hat in Thailand zuweilen nicht viel zu sagen).
 
 Die Hochzeit soll im November oder Dezember stattfinden.
 

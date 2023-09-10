@@ -1,15 +1,11 @@
 ---
 title: Babies in Tüten
-author: Patrick Kollitsch
 type: post
 date: 2010-11-15T19:02:06+00:00
 url: /2010/11/babies-in-tueten/
-
-
-
-
+lastmod: 2023-09-10T19:14:13+07:00
 ---
-Eine Geschichte die Drehbuch für einen thailändischen Horrorfilm sein könnte, trug sich heute in Bangkok zu: Dort fand man in einem Tempel [mehr als 50 Säuglingsleichen][1] in ("verschiedenfarbigen") Plastiktüten. 
+Eine Geschichte die Drehbuch für einen thailändischen Horrorfilm sein könnte, trug sich heute in Bangkok zu: Dort fand man in einem Tempel [mehr als 50 Säuglingsleichen][1] in ("verschiedenfarbigen") Plastiktüten.
 
 Bin gespannt, wie sich die Geschichte entwickelt. Normalerweise kommt noch ein Schwarze Magie praktizierender Mönch, eine schwangere tote Krankenschwester und ein Transvestit als Comic Relief hinzu.
 

@@ -1,6 +1,5 @@
 ---
 title: Wo ist Thaksin?
-author: Patrick Kollitsch
 type: post
 date: 2008-12-01T00:48:40+00:00
 url: /2008/12/wo-ist-thaksin-2/

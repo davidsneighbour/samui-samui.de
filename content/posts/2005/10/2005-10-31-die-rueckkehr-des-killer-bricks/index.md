@@ -1,13 +1,9 @@
 ---
 title: Die R??ckkehr des Killer-Bricks
-author: Patrick Kollitsch
 type: post
 date: 2005-10-31T00:39:00+00:00
 url: /2005/10/die-rueckkehr-des-killer-bricks/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 {{< figure src="wp-content/old-images/175.jpg" />}}
 

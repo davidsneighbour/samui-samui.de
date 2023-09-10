@@ -1,6 +1,5 @@
 ---
 title: Bilanz
-author: Patrick Kollitsch
 type: post
 date: 2007-09-02T16:43:50+00:00
 url: /2007/09/bilanz/

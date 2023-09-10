@@ -1,6 +1,5 @@
 ---
 title: Der Tag des schwarzen Hundes
-author: Patrick Kollitsch
 type: post
 date: 2007-02-12T06:53:40+00:00
 url: /2007/02/der-tag-des-schwarzen-hundes/

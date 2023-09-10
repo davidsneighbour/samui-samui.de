@@ -1,6 +1,5 @@
 ---
 title: Investieren?
-author: Patrick Kollitsch
 type: post
 date: 2008-03-25T03:27:33+00:00
 url: /2008/03/investieren/
@@ -13,7 +12,7 @@ Die Frage ob man in Thailand heutzutage investieren sollte oder nicht möchte ic
 
 > ''I am trying to learn about everything that is under my responsibility. As soon as I learned about my appointment, I did a search on the internet to see what the Finance Ministry actually does,'&#8216; she said.
 
-Der Finanzminister selbst, Surapong Suebwonglee, ist ein Doktor. Der Medizin. 
+Der Finanzminister selbst, Surapong Suebwonglee, ist ein Doktor. Der Medizin.
 
 PS: Schnell bei Google [gesucht][2] --- [Die Aufgaben des thailändischen Finanzministeriums][3].
 

@@ -1,19 +1,15 @@
 ---
 title: Sekundenkleber
-author: Patrick Kollitsch
 type: post
 date: 2005-12-08T23:06:05+00:00
 url: /2005/12/sekundenkleber/
 dsq_thread_id:
   - "3585731366"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Ich habe ja ein spezielles Verhältnis zu Klebern im Allgemeinen und Sekundenkleber im Speziellen. Normalerweise verkleistere ich immer meine Klamotten anstatt das klebrige Gut an der zu verklebenden Stelle aufzubringen. Sekundenkleber benutze ich immer nur einmal, weil dann hinterher immer die Düse verstopft ist.
 
-Heute morgen jedenfalls benötigte ich mal wieder Sekundenkleber und hatte mir hierzu eine Tube "chinese Elephant-Brand" versorgt. In Thailand ist es wichtig, dass so etwas immer Brand dahinter stehen hat, damit man weiß, dass man es hier mit einer gewichtigen Marke zu tun hat. Dieser Kleber wurde übrigens mit separater enger Düse und einer langen Nadel geliefert, auf dass die Düse gereinigt werden könne. 
+Heute morgen jedenfalls benötigte ich mal wieder Sekundenkleber und hatte mir hierzu eine Tube "chinese Elephant-Brand" versorgt. In Thailand ist es wichtig, dass so etwas immer Brand dahinter stehen hat, damit man weiß, dass man es hier mit einer gewichtigen Marke zu tun hat. Dieser Kleber wurde übrigens mit separater enger Düse und einer langen Nadel geliefert, auf dass die Düse gereinigt werden könne.
 
 Der Patient war mein Mobilfunktelefon --- ein Siemens SL 55 oder so. Das ist übrigens das letzte Siemens-Telefon, das ich nutzen werde. Ich habe seit ich mobil telefoniere immer auf Siemens geschworen --- angefangen von diesen Briketts damals über weniger brikettige Dinger bis zum Ei. Dieses begann nun seit ich in Thailand bin ein gewissermaßen divenhaftes Verhalten an den Tag zu legen von plötzlichem Ausschalten (vorzugsweise mitten im Senden von SMS oder mitten im Gespräch) über wochenlang nicht funktionierende Tasten (ungünstig wenn man SMSse ohne M,N,O schreiben muss) bis hin zu herausfallenden Tasten in der letzten Woche (eine ungünstige Kombination von Hitze und Feuchtigkeit hat winzige Klebepunkte verdampfen lassen). Das Ding ist halt nicht für die Tropen geschaffen. Mal abgesehen davon, dass Siemens die Mobilsparte verkauft hat und schon dafür nicht mehr in Betracht kommt. Ich hab neulich so ein glitzerndes schwarzes Nokia gesehen mit MP3-Player und Fotoapparat.
 

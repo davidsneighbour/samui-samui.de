@@ -1,17 +1,13 @@
 ---
 title: Regen
-author: Patrick Kollitsch
 type: post
 date: 2006-02-13T23:49:00+00:00
 url: /2006/02/regen-4/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Ich bedauere ja Leute, die auf einsame kleine Inseln schwimmen um ein verlängertes Wochenende zu verleben das dann _so_ verregnet ist wie das Vergangene. 
+Ich bedauere ja Leute, die auf einsame kleine Inseln schwimmen um ein verlängertes Wochenende zu verleben das dann _so_ verregnet ist wie das Vergangene.
 
-Jedenfalls hat die Regensaison 2006 begonnen :] 
+Jedenfalls hat die Regensaison 2006 begonnen :]
 
 Grund genug für den vorbereiteten Farang stumpf in der Gegend herumzustarren und sich fürs nächste Mal mit genügend trink- und lesbarem Geistesgut einzudecken. Der Vorrat von der letzten Lektion war gerade verbraucht (Notiz an mich selbst: Murphy schlägt immer in murphyschen Momenten zu!)
 

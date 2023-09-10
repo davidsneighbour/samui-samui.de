@@ -1,19 +1,15 @@
 ---
 title: Katastrophenblogging
-author: Patrick Kollitsch
 type: post
 date: 2005-11-07T01:11:00+00:00
 url: /2005/11/katastrophenblogging/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Ehm. Vor ner Stunde ging die Tür auf und vier Thais (2 female, 2 male) schneiten herein. Sie stellten sich mit "Steuerbehörde Surrat Thani" vor und verlangten den Boss. 
+Ehm. Vor ner Stunde ging die Tür auf und vier Thais (2 female, 2 male) schneiten herein. Sie stellten sich mit "Steuerbehörde Surrat Thani" vor und verlangten den Boss.
 
 Dazu muss man wissen, dass der Boss addicted to smoking ist und gerade mal wieder Lungenflügel malträtieren war. Dachte ich zumindest. Nach ein bisschen rumtelefonieren stellte sich heraus, dass er Nahrungsmittel aufnahm und wir durften die Leutchen unterhalten. Der Mann, der sich als Chef aufführte stellte ein paar scheinheilige Fragen, die ich freundlich und wahrheitsgemäß beantwortete. Unter anderem, ob wir schon Geld verdienen mit der Firma (keine Ahnung, ich arbeite hier nur, müssen Sie mal den Chef fragen), ob wir Thai verstehen (ja, nit noi, kleines bisschen --- sehr lange Gesichter bei allen Beteiligten), was wir hier eigentlich machen (ehm, we program websites and content for websites --- emsiges Scharren in den Dokumenten).
 
-Dann gingen die Männer und die zwei Frauen saßen eine Weile rum, bis der Boss kam und sich nun mit ihnen beschäftigen darf. Unter anderem wird kräftig Dokumente kopiert und rumgeschäkert. 
+Dann gingen die Männer und die zwei Frauen saßen eine Weile rum, bis der Boss kam und sich nun mit ihnen beschäftigen darf. Unter anderem wird kräftig Dokumente kopiert und rumgeschäkert.
 
 Ich habe mich unter meine Kopfhörer verkrochen und simuliere rege Tätigkeit. Ich arbeite hier nur.
 

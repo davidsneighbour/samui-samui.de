@@ -1,6 +1,5 @@
 ---
 title: Zukunftsweisender Sex
-author: Patrick Kollitsch
 type: post
 date: 2008-02-05T12:55:28+00:00
 url: /2008/02/zukunftsweisender-sex/

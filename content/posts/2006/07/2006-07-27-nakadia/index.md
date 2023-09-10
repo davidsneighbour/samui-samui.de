@@ -1,15 +1,11 @@
 ---
 title: Nakadia
-author: Patrick Kollitsch
 type: post
 date: 2006-07-27T07:49:26+00:00
 url: /2006/07/nakadia/
 dsq_thread_id:
   - "3094415005"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 {{< figure src="wp-content/old-images/212.jpg" />}}
 

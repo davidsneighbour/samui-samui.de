@@ -1,13 +1,9 @@
 ---
 title: Project Seoul
-author: Patrick Kollitsch
 type: post
 date: 2005-09-02T22:06:00+00:00
 url: /2005/09/project-seoul/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Oh, did I tell already that I like photoblogs? It's mainly because my own photos are the worst waste of harddrive space since mankind spotted the possibility to hold moments on pictures.
 

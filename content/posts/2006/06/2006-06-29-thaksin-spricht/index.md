@@ -1,6 +1,5 @@
 ---
 title: Thaksin spricht
-author: Patrick Kollitsch
 type: post
 date: 2006-06-29T03:24:00+00:00
 url: /2006/06/thaksin-spricht/
@@ -19,9 +18,9 @@ Derweil hat Thaksin sich [in Kenia für den Bau eines Hotels beworben][2]. Alter
 
 Wie gesagt. Keiner klatscht. Gespenstische Stille. Gähnen. Thaksin steht vor einem sehr großen DDR-braunen Vorhang an einem Pult mit ein paar Blümchen. Spricht mal selbstüberzeugt und manchmal merkt man, wie er den Faden verliert, unsicher wird. Dann nimmt er seine Brille auf und starrt auf seine Notizen.
 
-Er wirkt ein wenig verloren. 
+Er wirkt ein wenig verloren.
 
-PS: Muaaahahaha, jetzt der Spruch: "Democracy ... blablabla... demo crazy". Der Mann hats wirklich drauf. 
+PS: Muaaahahaha, jetzt der Spruch: "Democracy ... blablabla... demo crazy". Der Mann hats wirklich drauf.
 
 PPS: Jetzt wird er ja doch ein wenig lustig und bringt mitreißende Sprüche. Seine Claqueure lachen.
 

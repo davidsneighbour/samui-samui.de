@@ -1,6 +1,5 @@
 ---
 title: Buchverbot
-author: Patrick Kollitsch
 type: post
 date: 2008-01-27T22:47:42+00:00
 url: /2008/01/buchverbot/

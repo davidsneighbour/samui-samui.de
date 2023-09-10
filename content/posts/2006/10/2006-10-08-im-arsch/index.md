@@ -1,13 +1,9 @@
 ---
 title: Im Arsch
-author: Patrick Kollitsch
 type: post
 date: 2006-10-08T09:12:39+00:00
 url: /2006/10/im-arsch/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 (Ich wollte schon immer mal so eine Überschrift haben. Allerdings genüge ich hier nur meiner Chronistenpflicht (auch den wollte ich schon immer mal bringen) als Investigativjournalist von der Wurzel und verweise auf einen Artikel)
 

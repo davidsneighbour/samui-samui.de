@@ -1,6 +1,5 @@
 ---
 title: Auf ein Neues
-author: Patrick Kollitsch
 type: post
 date: 2009-01-25T12:05:25+00:00
 url: /2009/01/auf-ein-neues-2/

@@ -1,6 +1,5 @@
 ---
 title: Korrektes Reportering
-author: Patrick Kollitsch
 type: post
 date: 2017-06-25T14:15:34+00:00
 url: /2017/06/korrektes-reportering/

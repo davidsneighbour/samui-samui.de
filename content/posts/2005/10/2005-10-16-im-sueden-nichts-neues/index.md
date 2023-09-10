@@ -1,13 +1,9 @@
 ---
-title: 'Im Süden nichts Neues'
-author: Patrick Kollitsch
+title: Im Süden nichts Neues
 type: post
 date: 2005-10-16T01:42:13+00:00
 url: /2005/10/im-sueden-nichts-neues/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Im Süden bringen sich die Leute weiterhin gegenseitig um. Gestern wurde ein Mönch und zwei Jugendliche umgebracht und ein Tempel in Brand gesteckt. Außerdem sind ein Moslem und ein Buddhist erschossen worden. Es vergeht kein Tag ohne [Meldungen dieser Art aus dem Süden][1].
 

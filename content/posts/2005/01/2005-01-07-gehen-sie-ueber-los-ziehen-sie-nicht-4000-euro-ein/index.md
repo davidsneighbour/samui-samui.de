@@ -1,16 +1,16 @@
 ---
 title: Gehen Sie über Los, ziehen Sie nicht 4000 Euro ein …
-author: Patrick Kollitsch
 type: post
 date: 2005-01-07T03:00:00+00:00
 url: /2005/01/gehen-sie-ueber-los-ziehen-sie-nicht-4000-euro-ein/
 tags:
-- wie alles begann
+  - wie alles begann
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 
 So. Morgen ist es also soweit. Das Notebook ist eingepackt, die Geräte auseinandergestöpselt, der Seesack gepackt. Nach Wochen der Planung und des Hin und Her beginnt morgen Mittag mein eigenes kleines Abenteuer.
 
-Aber beginnen wir am Anfang&trade;! Im Sommer war ich (wie so häufig in den letzten Jahren) arbeitslos und Sozialhilfeempfänger. Wenn man selbständig war hat man wenig Chancen auf Arbeitslosengeld oder -hilfe, wenn man sich nicht selbst versichert und das war ich nicht ;) 
+Aber beginnen wir am Anfang&trade;! Im Sommer war ich (wie so häufig in den letzten Jahren) arbeitslos und Sozialhilfeempfänger. Wenn man selbständig war hat man wenig Chancen auf Arbeitslosengeld oder -hilfe, wenn man sich nicht selbst versichert und das war ich nicht ;)
 
 Jedenfalls musste ich um mein "Anrecht" auf Sozialhilfe zu behalten im Monat mindestens 15 Bewerbungen abschicken. Das klingt etwas salopp, ist es aber auch, denn ich habe nie gemerkt, dass die Leute interessiert hätte, wo und als was ich mich bewerben würde. Im August jedenfalls hatte ich nach zwei Ingeneurmonaten (hat doch was Gutes, wenn man sich breit gefächert bewerben kann) mal wieder einen ITler-Monat. Neben einigen Bewerbungen als Projektmanager, ein paar als Webdesigner und eine auf [diese interessante Stellenbeschreibung hin][1].
 

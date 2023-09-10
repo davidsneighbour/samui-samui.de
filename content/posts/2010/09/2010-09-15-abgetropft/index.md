@@ -1,13 +1,9 @@
 ---
 title: Abgetropft
-author: Patrick Kollitsch
 type: post
 date: 2010-09-15T00:50:58+00:00
 url: /2010/09/abgetropft/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Die Tankstelle hier um die Ecke in Ban Thai sollte man (soweit die Ringroad dies zu lässt) weiträumig umfahren. Man wird dort einfach nur abgezockt, wie ich gerade wieder am eigenen Moped erleben durfte.
 
@@ -17,7 +13,7 @@ Trick Nummer 2 (noch verhinderbar): Die Zapfsäule steht nicht auf Null wenn das
 
 Trick Nummer 3: Das Wechselgeld kommt falsch zurück. Am Besten hat man das Benzingeld immer passend dabei.
 
-Weitere Tricks sind lt. eines Bekannten, dass am ?l und dem Benzin gepanscht wurde. Die Tankstelle soll bis dahin bei den Anwohnern recht beliebt gewesen sein. Heute sieht man nur noch hin und wieder ein paar Farangs dort einkehren, die das grundsätzlich 5 bis 10 Baht teurere Benzin tanken und denken, das Gelächter hinter ihren Rücken wäre ein freundliches. 
+Weitere Tricks sind lt. eines Bekannten, dass am ?l und dem Benzin gepanscht wurde. Die Tankstelle soll bis dahin bei den Anwohnern recht beliebt gewesen sein. Heute sieht man nur noch hin und wieder ein paar Farangs dort einkehren, die das grundsätzlich 5 bis 10 Baht teurere Benzin tanken und denken, das Gelächter hinter ihren Rücken wäre ein freundliches.
 
 Normalerweise (wenn der Tank nicht gerade wieder mal komplett trocken ist) ermögliche ich mir immer den Weg zur nächsten Tankstelle in Maenam. Ein bisschen weiter aber sauberer. Auf Dauer rentiert sich das.
 

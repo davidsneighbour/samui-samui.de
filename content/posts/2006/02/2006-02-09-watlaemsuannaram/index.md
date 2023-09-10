@@ -1,15 +1,11 @@
 ---
 title: Wat Laem Suan Naram
-author: Patrick Kollitsch
 type: post
 date: 2006-02-08T21:06:00+00:00
 url: /2006/02/watlaemsuannaram/
 dsq_thread_id:
   - "3348122901"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 [![Wat Laem Suan Naram][1]][2]
 

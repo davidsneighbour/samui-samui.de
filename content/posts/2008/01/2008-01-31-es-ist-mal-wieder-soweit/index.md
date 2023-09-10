@@ -1,6 +1,5 @@
 ---
 title: Es ist mal wieder soweit
-author: Patrick Kollitsch
 type: post
 date: 2008-01-31T01:28:02+00:00
 url: /2008/01/es-ist-mal-wieder-soweit/
@@ -15,9 +14,9 @@ Man mag es kaum glauben aber auch heute im Jahre 2008 sind wir noch sehr abhäng
 
 [Sagt Heise.de][1]
 
-Von Thailand aus werden alle Anfragen nach Deutschland über die Vereinigten S von A geleitet. Ich habe zu den meisten deutschen Webseiten Pingzeiten von 1700ms. Das ist ja fast Brieftaubenniveau. 
+Von Thailand aus werden alle Anfragen nach Deutschland über die Vereinigten S von A geleitet. Ich habe zu den meisten deutschen Webseiten Pingzeiten von 1700ms. Das ist ja fast Brieftaubenniveau.
 
-Das letzte Mal hatten wir das vor gut einem Jahr, als kurz nach Weihnachten 2006 ein Erdbeben die Unterseekabel vor Taiwan zerriss. 
+Das letzte Mal hatten wir das vor gut einem Jahr, als kurz nach Weihnachten 2006 ein Erdbeben die Unterseekabel vor Taiwan zerriss.
 
 Ich sollte zum Bäcker umschulen...
 

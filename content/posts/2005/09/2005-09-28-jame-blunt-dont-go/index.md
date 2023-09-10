@@ -1,13 +1,9 @@
 ---
-title: 'Jame Blunt: Dont go'
-author: Patrick Kollitsch
+title: "Jame Blunt: Dont go"
 type: post
 date: 2005-09-27T20:12:00+00:00
 url: /2005/09/jame-blunt-dont-go/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 {{< figure src="wp-content/old-images/161.jpg" />}}
 

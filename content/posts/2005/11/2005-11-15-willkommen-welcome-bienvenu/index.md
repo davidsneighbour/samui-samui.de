@@ -1,13 +1,9 @@
 ---
 title: Willkommen, welcome, bienvenu…
-author: Patrick Kollitsch
 type: post
 date: 2005-11-15T04:26:00+00:00
 url: /2005/11/willkommen-welcome-bienvenu/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Beim Durchstöbern unveröffentlichter Fragmente in meiner kleinen unterhaltsamen Artikelsammlung fand ich eben einen angefangenen Eintrag zu einem amüsanten Erlebnis neulich. Ich hatte ein, ehem, Date Freitag vorletzter Woche. Quasi ein initiales Date und war mit der "mich begleitenden Thai" im Transvestiten-Cabaret. Das ist auf ihrem Mist gewachsen, nicht auf meinem. Jedenfalls ist das zu lange her, um noch ausführlicher darüber zu berichten, wir werden aber definitiv wieder hin gehen. War nämlich lustig (ihr hat es mehr gefallen als mir, ich habe immer etwas Probleme mit halbumoperierten geschminkten Männern in glitzernden Kostümen deren Penisse in irgendwelche dunklen Zonen weggebunden wurden Zungenküsse auszutauschen).
 

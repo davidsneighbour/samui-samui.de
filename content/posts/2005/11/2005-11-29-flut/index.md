@@ -1,13 +1,9 @@
 ---
 title: Flut.
-author: Patrick Kollitsch
 type: post
 date: 2005-11-28T22:31:36+00:00
 url: /2005/11/flut/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 [Wie es aussieht][1], geht das bis Mitte Dezember so weiter. Aber schön, dass Chaweng unter Wasser stand. So hat die Regierung wenigstens ein bisschen Armee auf die Insel geschickt. Macht sich halt nicht gut, wenn die Touristen Fotos von Hochwasser heimbringen auf denen niemand hilft. In Maenam und Bophut hat sich seit zwei Wochen niemand blicken lassen (da steht das Wasser schon so lange, dass man automatisch weiss, wo man abbremsen muss weil die nächste Schlaglochserie unter Wasser kommt). Aber da leben auch nur grö?tenteils Thais.
 

@@ -1,6 +1,5 @@
 ---
 title: Flugplatznews
-author: Patrick Kollitsch
 type: post
 date: 2008-11-26T21:57:37+00:00
 url: /2008/11/flugplatznews/

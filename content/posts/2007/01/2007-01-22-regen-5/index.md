@@ -1,6 +1,5 @@
 ---
 title: Regen
-author: Patrick Kollitsch
 type: post
 date: 2007-01-22T06:55:04+00:00
 url: /2007/01/regen-5/

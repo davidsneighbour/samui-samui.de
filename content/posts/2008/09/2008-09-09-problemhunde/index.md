@@ -1,6 +1,5 @@
 ---
 title: Problemhunde
-author: Patrick Kollitsch
 type: post
 date: 2008-09-09T05:21:57+00:00
 url: /2008/09/problemhunde/

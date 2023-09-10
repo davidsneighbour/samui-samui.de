@@ -1,13 +1,9 @@
 ---
 title: Arbeitsweg
-author: Patrick Kollitsch
 type: post
 date: 2005-12-15T20:45:00+00:00
 url: /2005/12/arbeitsweg/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 [<img width="455" src="//static.flickr.com/36/73990583_dcc4419214.jpg" alt="On the way in the office." />][1]
 

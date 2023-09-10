@@ -1,13 +1,9 @@
 ---
 title: Tiger kam
-author: Patrick Kollitsch
 type: post
 date: 2010-11-08T13:26:36+00:00
 url: /2010/11/tiger-kam/
-
-
-
-
+lastmod: 2023-09-10T19:14:13+07:00
 ---
 Man kann es wohl nicht besser als [die Boulevardpresse][1] ausdrücken:
 

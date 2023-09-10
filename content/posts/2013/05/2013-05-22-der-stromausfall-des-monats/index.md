@@ -1,6 +1,5 @@
 ---
 title: Der Stromausfall des Monats
-author: Patrick Kollitsch
 type: post
 date: 2013-05-22T06:40:17+00:00
 url: /2013/05/der-stromausfall-des-monats/
@@ -17,7 +16,7 @@ Gestern jedoch ging um 6.53 Uhr auf Samui der Strom aus und kam so schnell nicht
 
 Anscheinend war ganz Südthailand ohne Strom (Phuket, Hat Yai, Samui und 14 südliche Provinzen)
 
-Seit 10 Uhr heute Morgen haben wir wieder Strom und ich geniesse den Luxus von Kaffeemachine, Aircondition, Fernsehen und Computern. 
+Seit 10 Uhr heute Morgen haben wir wieder Strom und ich geniesse den Luxus von Kaffeemachine, Aircondition, Fernsehen und Computern.
 
 Andere Bereiche auf Samui hatten eher wieder Strom und auf dem Festland spricht man von rund 2 Stunden Ausfall. Hat halt so seine Nachteile wenn man in einer unwichtigen Region wohnt wie ich.
 

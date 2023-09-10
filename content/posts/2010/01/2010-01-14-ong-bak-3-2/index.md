@@ -1,13 +1,9 @@
 ---
 title: Ong Bak 3
-author: Patrick Kollitsch
 type: post
 date: 2010-01-13T18:47:14+00:00
 url: /2010/01/ong-bak-3-2/
-
-
-
-
+lastmod: 2023-09-10T19:14:13+07:00
 ---
 Die Welt wartet ja bekanntermassen auf Tony Jaa's Ong Bak 3 (das Sequel zum Prequel von [Ong Bak][1])
 
@@ -17,7 +13,7 @@ Vom Studio bekommt man derzeit [diese Inhaltsbeschreibung][2] zum Film (dass das
 
 Ong Bak 3 sollte erst zu Weihnachten 2009 und dann am 21. Januar in die Kinosäle kommen. Was nun der genaue Termin ist oder wird, steht wohl immer noch nicht fest.
 
-Um die Wartezeit zu überbrücken hier ein Filmschnippsel der eigentlich gar nichts aussagt. 
+Um die Wartezeit zu überbrücken hier ein Filmschnippsel der eigentlich gar nichts aussagt.
 
 <div class="media video">
   <a href="http://www.youtube.com/watch?v=OdCAZ4HreKI" class="video">Ong Bak 3 News</a>

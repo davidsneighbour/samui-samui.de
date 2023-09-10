@@ -1,6 +1,5 @@
 ---
 title: Friedlicher Verstand
-author: Patrick Kollitsch
 type: post
 date: 2007-11-08T02:28:12+00:00
 url: /2007/11/friedlicher-verstand/

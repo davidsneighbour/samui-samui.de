@@ -1,6 +1,5 @@
 ---
 title: Updates
-author: Patrick Kollitsch
 type: post
 date: 2006-09-21T09:48:00+00:00
 url: /2006/09/updates-3/
@@ -17,10 +16,10 @@ Die Ereignisse der letzten Stunden
   * Thaksin nimmt in London "seine verdiente Auszeit" und fordert baldige Neuwahlen.
   * Der ehemalige stellvertretende Premierminister [Surakiart Sathriathai hat sich beim <span class="caps">CDRM</span> bedankt][2] für die Unterstützung bei seiner Kandidatur um den Posten des UNO-Generalsekretärs. Ich finde das immer noch recht seltsam, denn er ist der einzige aus der alten Regierung, der irgendwie unterstützt wird. Der Rest wurde vorerst verhaftet oder ist untergetaucht.
   * [Im Nordwesten hat man rund 300 Community-Radiostationen auf Anweisung des <span class="caps">CDRM</span> geschlossen][3]. Als Begründung hat man angegeben, Thaksin keine Möglichkeit zur Aussendung von Ansprachen zu geben. Die Aktion wurde nicht wohlwollend aufgenommen und es gab Aufrufe zu Pro --- Thaksin --- Demonstrationen kurz vor der Abschaltung.
-  * Die <span class="caps">PAD</span> (The People's Alliance for Democracy, die Organisation, die hinter den regelmäßigen Massendemonstrationen gegen Thaksin stand) ist heute aufgelöst worden, weil sie ihre Ziele (Entmachtung Thaksins) erreicht hat. 
+  * Die <span class="caps">PAD</span> (The People's Alliance for Democracy, die Organisation, die hinter den regelmäßigen Massendemonstrationen gegen Thaksin stand) ist heute aufgelöst worden, weil sie ihre Ziele (Entmachtung Thaksins) erreicht hat.
   * Ein aus New York kommende Flugzeug der Thai-Airways wurde [von Militär durchsucht][4]. Unter anderem saßen an Bord 20 Mitglieder der alten Regierung.
   * Das <span class="caps">CDRM</span> hat [verschiedene][5] [Leute][6] angesprochen, ob sie in der zukünftigen Interims-Regierung (angepeilt ist eine zivile Regierung in zwei Wochen) mit zu arbeiten.
-  * Und nun eine Meldung die vor allem meine weiblichen Leser tief treffen wird: Robbie Williams hat sein Konzert in Bangkok abgesagt. 
+  * Und nun eine Meldung die vor allem meine weiblichen Leser tief treffen wird: Robbie Williams hat sein Konzert in Bangkok abgesagt.
   * Ich durfte einen Gastbeitrag für das Travelblog schreiben: [Zur Lage in Thailand][7] --- das ist größtenteils ein Remix der Meldungen hier. Web 2.0ler mögen das Mashup nennen.
 
  [1]: http://www.nationmultimedia.com/breakingnews/read.php?newsid=30014253

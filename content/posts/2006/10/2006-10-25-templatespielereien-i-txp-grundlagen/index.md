@@ -1,21 +1,17 @@
 ---
-title: 'Templatespielereien I: TXP-Grundlagen'
-author: Patrick Kollitsch
+title: "Templatespielereien I: TXP-Grundlagen"
 type: post
 date: 2006-10-25T01:04:00+00:00
 url: /2006/10/templatespielereien-i-txp-grundlagen/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Textpattern besteht aus Templatesicht aus <span class="marker">vier Komponenten: Sektionen (sections), Seiten (pages), Bausteinen (forms) und den Stylesheets</span>. Ich persönlich bevorzuge es die Stylesheets nicht über <span class="caps">TXP</span> zu verwalten sondern habe sie als Dateien abgelegt. Damit kann der Server zum einen schneller darauf zugreifen (minimal, ich weiß), zum anderen kann ich per Skript bestimmte Pfade anpassen oder mit <span class="caps">PHP</span> und Variablen arbeiten. Das Stylesheetsystem von <span class="caps">TXP</span> parst weder TXP-Tags, noch ist es per Plugins erweiterbar. 
+Textpattern besteht aus Templatesicht aus <span class="marker">vier Komponenten: Sektionen (sections), Seiten (pages), Bausteinen (forms) und den Stylesheets</span>. Ich persönlich bevorzuge es die Stylesheets nicht über <span class="caps">TXP</span> zu verwalten sondern habe sie als Dateien abgelegt. Damit kann der Server zum einen schneller darauf zugreifen (minimal, ich weiß), zum anderen kann ich per Skript bestimmte Pfade anpassen oder mit <span class="caps">PHP</span> und Variablen arbeiten. Das Stylesheetsystem von <span class="caps">TXP</span> parst weder TXP-Tags, noch ist es per Plugins erweiterbar.
 
 **Sektionen**
 
-Sektionen kann man am besten mit Website-Bereichen vergleichen. Ein ein einfaches Blog kann bspw. in <span class="caps">TXP</span> aus den Sektionen weblog, archiv und kontakt bestehen. Jede Sektion kann durch ein eigenes Template (eine Seite) individuell angepasst werden. Ebenso kann separat je Sektion festgelegt werden, ob die Inhalte dieser Sektion in den Feeds verfügbar sein sollen und durchsuchbar sein sollen. 
+Sektionen kann man am besten mit Website-Bereichen vergleichen. Ein ein einfaches Blog kann bspw. in <span class="caps">TXP</span> aus den Sektionen weblog, archiv und kontakt bestehen. Jede Sektion kann durch ein eigenes Template (eine Seite) individuell angepasst werden. Ebenso kann separat je Sektion festgelegt werden, ob die Inhalte dieser Sektion in den Feeds verfügbar sein sollen und durchsuchbar sein sollen.
 
-Man könnte mit dem Sektionsprinzip theoretisch eine eigene Website pro Sektion erstellen. Ich habe mal für eine Unternehmensseite die internationalisierten Versionen per Sektion realisiert. Re(De)Signation ist so eine Sektion, die unabhängig von den anderen Bereichen der [die schreiBBloga.de][1] läuft und ein kleines bisschen anders aussieht. 
+Man könnte mit dem Sektionsprinzip theoretisch eine eigene Website pro Sektion erstellen. Ich habe mal für eine Unternehmensseite die internationalisierten Versionen per Sektion realisiert. Re(De)Signation ist so eine Sektion, die unabhängig von den anderen Bereichen der [die schreiBBloga.de][1] läuft und ein kleines bisschen anders aussieht.
 
 Die Sektionen gehören auch zum Inhaltssystem von Textpattern. Man kann einzelne Artikel jeweils einer Sektion zuordnen. Da jeder Artikel auch noch zwei Kategorien zugewiesen werden kann ergibt sich so die Möglichkeit zu einem zweidimensionalen Systematisierungsprinzip der Inhalte. Das allerdings wäre ein Web1.0-Prinzip. Heutzutage taggt man. Dazu später mehr.
 
@@ -29,7 +25,7 @@ Die Bausteine sind die kleinsten Einheiten des Templatesystems. Unter anderem ka
 
 **Tags**
 
-Die Tags sind die Steinchen, die Textpattern am Laufen halten. Man kann [die systeminternen Tags][3] per Plugin um eigene Tags erweitern. 
+Die Tags sind die Steinchen, die Textpattern am Laufen halten. Man kann [die systeminternen Tags][3] per Plugin um eigene Tags erweitern.
 
 Damit wäre auch schon alles gesagt zu den Möglichkeiten Textpatterns in Bezug auf die Templates. Ich finde das System sehr flexibel und bin noch nie in meinen Bedürfnissen an seine Grenzen gestossen. Aber genug der Basics. Nachher gehts ans Eingemachte: Das Grundlayout.
 

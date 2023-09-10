@@ -1,13 +1,9 @@
 ---
 title: Warmduschen
-author: Patrick Kollitsch
 type: post
 date: 2005-08-17T21:24:00+00:00
 url: /2005/08/warmduschen/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 1 Stunde nachdem ich mein Haus bezahlt hatte rief mich Kiew (man spricht das etwa Kiiiechähooooh, mit leichtem Katzenfauchen beim ch) meine Vermieterin an und meinte, dass ihr gerade eingefallen wäre, dass ich kein Warmwasser im Bad hätte. Nun, das ist kein Problem für mich, weil ich eigentlich nicht warm dusche ;) Jedenfalls einigten wir uns darauf, dass ihr Bruder (Landkeeper unserer kleinen Bergsiedlung) das am Samstag erledigen würde. Diesen Samstag. Also übermorgen.
 

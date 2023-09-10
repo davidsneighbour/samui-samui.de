@@ -1,13 +1,9 @@
 ---
 title: Fernsehtipp
-author: Patrick Kollitsch
 type: post
 date: 2006-03-09T23:43:56+00:00
 url: /2006/03/fernsehtipp/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Eine [nicht näher genannte Quelle in Deutschland][1] hat mir gesteckt, dass in der nächsten SpiegelTV-Sendung (wenn das alles noch so wie "früher" ist dann wird das Sonntag Abend auf RTL sein) ein Bericht über Deutsche die sich in Thailand selbständig gemacht haben gesendet werden wird. Das sollte man sich ruhig mal ankucken, denn die zeigen bestimmt farbige Bilder von Sonne und Palmen.
 

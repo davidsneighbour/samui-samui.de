@@ -1,13 +1,9 @@
 ---
 title: Ratzinger und Martini
-author: Patrick Kollitsch
 type: post
 date: 2005-04-18T02:17:00+00:00
 url: /2005/04/ratzinger-und-martini/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Rudi Ratzinger ist ein Musiker, der als [:wumpscut:][1] überaus interessante elektronische Musik macht. Anscheinend hat er in letzter Zeit eine Menge Material herausgebracht das in meiner Sammlung noch fehlt. Muss ich wohl mal aufstocken.
 
@@ -15,7 +11,7 @@ Martini wiederum ist ein überaus wohlschmeckendes Getränk. Ich entsinne mich a
 
 Ratzinger und Martini.
 
-Jaja. 
+Jaja.
 
 Und am Mittwoch erzähl ich vielleicht mal was über die Papstwahl.
 

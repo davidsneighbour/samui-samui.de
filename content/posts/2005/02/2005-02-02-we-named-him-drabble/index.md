@@ -1,15 +1,11 @@
 ---
 title: We named him Drabble!
-author: Patrick Kollitsch
 type: post
 date: 2005-02-02T05:15:00+00:00
 url: /2005/02/we-named-him-drabble/
 dsq_thread_id:
   - "3704430256"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Unser Neuer war bis heute Morgen noch namenlos. Aber wir haben eine Strategie (was wären wir ohne Strategie). Die Kisten werden jetzt nach Comicfiguren benannt. Und nicht nach irgendwelchen döddeligen Everydayfiguren. Nein.
 

@@ -1,6 +1,5 @@
 ---
 title: Judgement Day II
-author: Patrick Kollitsch
 type: post
 date: 2007-05-29T02:00:28+00:00
 url: /2007/05/judgement-day-ii/
@@ -11,7 +10,7 @@ url: /2007/05/judgement-day-ii/
 ---
 Bangkok Post titelt [Troops 'protecting' TV stations][1] --- die Anführungszeichen geben zu denken. TV-Stationen sind von Militär umstellt. Die Fernsehprogramme senden aber "normales" Abendprogramm (soweit man das normal nennen kann).
 
-13000 Polizisten sind in der Hauptstadt unterwegs. 
+13000 Polizisten sind in der Hauptstadt unterwegs.
 
 Irgendwo habe ich noch gelesen, dass Thai Rak Thai-Anhänger gegen eine eventuelle Auflösung mit 100 Elephanten demonstrieren wollten, aber nicht in die Hauptstadt gelassen wurden. Naja. Elephanten lassen sich eigentlich von nichts auf halten.
 

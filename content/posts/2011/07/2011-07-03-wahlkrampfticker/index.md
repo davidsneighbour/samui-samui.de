@@ -1,21 +1,17 @@
 ---
 title: Wahlkrampfticker
-author: Patrick Kollitsch
 type: post
 date: 2011-07-03T02:47:41+00:00
 url: /2011/07/wahlkrampfticker/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Thailand hat gewählt --- erwartungsgemä?. Wie schön, dass die neue Regierung "reconciliation", also Versöhnung, will --- dumm nur, dass da der Name Shinawatra mit drinnen hängt und die Versöhnung einen Preis hat. 
+Thailand hat gewählt --- erwartungsgemä?. Wie schön, dass die neue Regierung "reconciliation", also Versöhnung, will --- dumm nur, dass da der Name Shinawatra mit drinnen hängt und die Versöhnung einen Preis hat.
 
 Wie auch immer, die Pheua Thai Partei hat (den ersten Statistiken zufolge) "erdrutschartig" gewonnen. Nun gehts also bergauf und die internationalen Medien berichten schon freudig, dass Thailand seinen ersten weiblichen Ministerpräsidenten gewählt hat. Also sozusagen die prime ministress. Das Beste an der ganzen Sache ist, dass er (der neue weibliche Ministerpräsident) genauso hei?t, wie einer der vorhergehenden Ministerpräsidenten (drei, vier oder fünf Ministerpräsidenten zuvor, fünf Jahre zuvor), was die ganze Briefkopfdrucksachenerstellung extrem vereinfacht.
 
-Die Wahlen hatten auch ihr Gutes --- es wurden [36 gesuchte Straftäter festgenommen][1], die versucht haben, ihre Stimme abzugeben. 
+Die Wahlen hatten auch ihr Gutes --- es wurden [36 gesuchte Straftäter festgenommen][1], die versucht haben, ihre Stimme abzugeben.
 
-Und somit endet eine weitere Wahl mit dem Ergebnis, dass Abhisit (amtierender Premierminister von Thailand) wieder nicht demokratisch ins Amt gewählt wurde. Armer Kerl. 
+Und somit endet eine weitere Wahl mit dem Ergebnis, dass Abhisit (amtierender Premierminister von Thailand) wieder nicht demokratisch ins Amt gewählt wurde. Armer Kerl.
 
 Und dann war da noch das:
 

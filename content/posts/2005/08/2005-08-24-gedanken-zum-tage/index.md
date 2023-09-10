@@ -1,13 +1,9 @@
 ---
 title: Gedanken zum Tage
-author: Patrick Kollitsch
 type: post
 date: 2005-08-24T02:37:04+00:00
 url: /2005/08/gedanken-zum-tage/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Nun, zwei Punkte:
 

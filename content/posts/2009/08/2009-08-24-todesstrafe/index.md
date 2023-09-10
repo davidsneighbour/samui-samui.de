@@ -1,6 +1,5 @@
 ---
 title: Todesstrafe
-author: Patrick Kollitsch
 type: post
 date: 2009-08-24T13:48:44+00:00
 url: /2009/08/todesstrafe/

@@ -1,6 +1,5 @@
 ---
 title: Updates
-author: Patrick Kollitsch
 type: post
 date: 2006-10-17T09:36:00+00:00
 url: /2006/10/updates-13/

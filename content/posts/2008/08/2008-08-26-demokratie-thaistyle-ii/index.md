@@ -1,6 +1,5 @@
 ---
 title: Demokratie Thaistyle II
-author: Patrick Kollitsch
 type: post
 date: 2008-08-26T02:09:03+00:00
 url: /2008/08/demokratie-thaistyle-ii/
@@ -17,7 +16,7 @@ Dann brachen Demonstranten in das Regierungsgebäude ein. Friedlich und auf lega
 
 Was genau sich die <span class="caps">PAD</span> mit den Aktionen erhofft hat, ist nicht so ganz klar. Eine Regierung stürzt man auf anderem Wege.
 
-Jedenfalls trat Premierminister Samak am Nachmittag vor die Kameras und meinte, es wäre nun an der Zeit, aufzuhören. Ein Ausnahmezustand wurde nicht verhängt, das Militär hat nicht geputscht, die Polizei hat nicht geputscht und die <span class="caps">PAD</span> mehr Gesicht verloren als sie nach den letzten Aktionen hatte. 
+Jedenfalls trat Premierminister Samak am Nachmittag vor die Kameras und meinte, es wäre nun an der Zeit, aufzuhören. Ein Ausnahmezustand wurde nicht verhängt, das Militär hat nicht geputscht, die Polizei hat nicht geputscht und die <span class="caps">PAD</span> mehr Gesicht verloren als sie nach den letzten Aktionen hatte.
 
 Bis morgen früh sollen die Demonstranten abziehen und die <span class="caps">PAD</span>-Führung [darf sich auf einen Gefängnisaufenthalt vorbereiten][1].
 

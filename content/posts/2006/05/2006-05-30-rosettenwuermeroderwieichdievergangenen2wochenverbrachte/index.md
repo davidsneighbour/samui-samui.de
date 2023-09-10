@@ -1,13 +1,9 @@
 ---
 title: Rosettenwürmer oder wie ich die vergangenen 2,5 Wochen verbrachte
-author: Patrick Kollitsch
 type: post
 date: 2006-05-29T23:58:00+00:00
 url: /2006/05/rosettenwuermeroderwieichdievergangenen2wochenverbrachte/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 **0) Und überhaupt, Sie fragen ja immer**
 

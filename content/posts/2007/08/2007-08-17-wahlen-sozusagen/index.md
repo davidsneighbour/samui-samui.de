@@ -1,6 +1,5 @@
 ---
 title: Wahlen (sozusagen)
-author: Patrick Kollitsch
 type: post
 date: 2007-08-16T22:25:25+00:00
 url: /2007/08/wahlen-sozusagen/
@@ -9,7 +8,7 @@ url: /2007/08/wahlen-sozusagen/
 
 
 ---
-Am Sonntag wird gewählt: In Thailand darf das Volk (erstmals per Referendum) entscheiden, ob der Entwurf einer neuen Verfassung angenommen wird oder nicht. 
+Am Sonntag wird gewählt: In Thailand darf das Volk (erstmals per Referendum) entscheiden, ob der Entwurf einer neuen Verfassung angenommen wird oder nicht.
 
 Wenn die Verfassung angenommen wird, dann gibt es Neuwahlen entweder am letzten Novemberwochenende (um zum Geburtstag des Königs am 5. Dezember ein funktionierendes Land und keine Wahlplakate mehr im Stra?enbild zu haben), am 30. Dezember (weil das die letzte M&oum;glichkeit wäre, das Versprechen der Putschenden, Neuwahlen noch in 2550/2007 zu haben, einzuhalten) oder am 23. Dezember (weil es erstens nicht die letzte Möglichkeit wäre, das Versprechen der Putschenden, Neuwahlen noch in 2550/2007 zu haben, einzuhalten und zweitens gute Headlines in der internationalen Presse geben würde: "Demokratisches Weihnachtsgeschenk für geschenkgebeuteltes Land" oder "Und unterm Weihnachtsbaum eine Regierung" oder so. Vergessen wir mal kurz, dass Weihnachten weder buddhistisch noch thailändisch ist).
 
@@ -25,7 +24,7 @@ Die Nein-Wähler sind grö?tenteils [online][3] [aktiv][4] und haben schöne Gra
   * weil die Verfassung bestimmte Kreise (Thaksin) ausschliesst
   * weil die Verfassung von einem von der Militärregierung eingesetzten Gremium entworfen wurde
 
-Interessanterweise habe ich noch keine inhaltlichen Kommentare der Verfassungsgegner zum Text gesehen. Diese absolute Ablehnung hinsichtlich einer Sache ohne konstruktive Gegenvorschläge ist allerdings nicht neu, das wurde zu den Neuwahlen im vergangenen Jahr genauso gehandhabt, da boykottierten einfach mal alle Thaksin-Gegner die Wahlen. 
+Interessanterweise habe ich noch keine inhaltlichen Kommentare der Verfassungsgegner zum Text gesehen. Diese absolute Ablehnung hinsichtlich einer Sache ohne konstruktive Gegenvorschläge ist allerdings nicht neu, das wurde zu den Neuwahlen im vergangenen Jahr genauso gehandhabt, da boykottierten einfach mal alle Thaksin-Gegner die Wahlen.
 
 Seit einigen Wochen bekommen die thailändischen Haushalte gelbe Heftchen zugestellt, in denen der Verfassungsentwurf im Originaltext steht und teilweise auch erklärt wird. Allerdings, so sagt man, soll der Text recht unverständlich gehalten sein, so dass ihn normale Menschen nicht unbedingt verstehen können. (Hab mir sagen lassen, dass das generell der Fall mit Verfassungen ist, auch in Deutschland. Manchmal verstehen selbst die Politiker die Texte nicht, die drinnen stehen.)
 
@@ -41,9 +40,9 @@ Die Vorhersagen sind gemischt, aber man kann in etwa abschätzen, _wer_ am Sonnt
 
 Und so wird es auch am Sonntag wieder zu einem politischen/gesellschaftlichen Patt kommen, wie zur letzten Wahl. Allerdings: In Thailand ist es relativ egal, wie Patt man spielt, solange das Patt in eine Richtung tendiert. Ein Spiel. Und jeder, der in einem südostasiatischen Land in den nächsten 100 Jahren von Demokratie spricht und dabei das griechische Modell einer Gesellschaft meint, der ist entweder idealistisch verblendet oder hat in den <span class="caps">USA</span> studiert.
 
-Der nächste Putsch kommt bestimmt. Das Referendum und die eventuell darauf folgenden Neuwahlen werden lediglich den Zeitrahmen dahin und die Gewaltbereitschaft beim nächsten Putsch beeinflussen. Thailand hat ein viel grö?eres Problem auf sich zukommen und _das_ wird sich in den kommenden Jahren entfalten und kann dann mehr als nur eine mehr oder weniger stabile Regierung zum Zusammenbruch bringen. 
+Der nächste Putsch kommt bestimmt. Das Referendum und die eventuell darauf folgenden Neuwahlen werden lediglich den Zeitrahmen dahin und die Gewaltbereitschaft beim nächsten Putsch beeinflussen. Thailand hat ein viel grö?eres Problem auf sich zukommen und _das_ wird sich in den kommenden Jahren entfalten und kann dann mehr als nur eine mehr oder weniger stabile Regierung zum Zusammenbruch bringen.
 
-[Den Entwurf der Verfassung kann man bei The Nation nachlesen][6]. Sowohl im Original als auch (für die Farangs, die nach zweieinhalb Jahren in Thailand immer noch nicht Thai lesen gelernt haben) in einer (allerdings inoffiziellen) englischen ?bersetzung. 
+[Den Entwurf der Verfassung kann man bei The Nation nachlesen][6]. Sowohl im Original als auch (für die Farangs, die nach zweieinhalb Jahren in Thailand immer noch nicht Thai lesen gelernt haben) in einer (allerdings inoffiziellen) englischen ?bersetzung.
 
 Damit wäre dann fast schon alles zum Thema gesagt.
 

@@ -1,21 +1,17 @@
 ---
 title: Alle Jahre wieder
-author: Patrick Kollitsch
 type: post
 date: 2012-11-15T13:34:01+00:00
 url: /2012/11/alle-jahre-wieder/
 fb_mentioned_pages:
-  - 'a:0:{}'
+  - a:0:{}
 fb_mentioned_friends:
-  - 'a:0:{}'
+  - a:0:{}
 fb_author_post_id:
   - "10151132211100642"
 fb_status_messages:
-  - 'a:1:{i:0;a:2:{s:7:"message";s:104:"Posted to <a href="http://www.facebook.com/10151132211100642" target="_blank">your Facebook Timeline</a>";s:5:"error";s:0:"";}}'
-
-
-
-
+  - a:1:{i:0;a:2:{s:7:"message";s:104:"Posted to <a href="http://www.facebook.com/10151132211100642" target="_blank">your Facebook Timeline</a>";s:5:"error";s:0:"";}}
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 <div class="media video">
 </div>

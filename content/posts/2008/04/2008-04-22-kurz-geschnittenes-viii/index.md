@@ -1,6 +1,5 @@
 ---
 title: Kurz geschnittenes VIII
-author: Patrick Kollitsch
 type: post
 date: 2008-04-22T01:06:14+00:00
 url: /2008/04/kurz-geschnittenes-viii/

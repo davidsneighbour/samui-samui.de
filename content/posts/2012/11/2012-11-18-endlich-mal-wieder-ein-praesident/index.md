@@ -1,6 +1,5 @@
 ---
 title: Endlich mal wieder ein Präsident…
-author: Patrick Kollitsch
 type: post
 date: 2012-11-18T04:39:24+00:00
 url: /2012/11/endlich-mal-wieder-ein-praesident/
@@ -8,10 +7,7 @@ fb_author_post_id:
   - "10151135473575642"
 dsq_thread_id:
   - "2914960995"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Die Thai-Presse berichtet schon seit Wochen vom bevorstehenden Besuch des amerikanischen Präsidenten Barack Obama. Sicher bestätigt ist er erst seit einer Woche, weil er von seiner Wiederwahl abhing --- was für ein nicht unbedeutende Interesse an den Wahlvorgängen dort sorgte --- schließlich hat man nicht so häufig einen Präsidenten im Land.
 

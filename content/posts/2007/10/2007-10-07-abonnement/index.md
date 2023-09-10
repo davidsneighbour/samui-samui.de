@@ -1,6 +1,5 @@
 ---
 title: Abonnement
-author: Patrick Kollitsch
 type: post
 date: 2007-10-06T19:35:10+00:00
 url: /2007/10/abonnement/
@@ -9,7 +8,7 @@ url: /2007/10/abonnement/
 
 
 ---
-Man kann _Samui Samui!_ im Abonnement lesen. Dazu gibt es viele Möglichkeiten. 
+Man kann _Samui Samui!_ im Abonnement lesen. Dazu gibt es viele Möglichkeiten.
 
 ### Via Feed
 

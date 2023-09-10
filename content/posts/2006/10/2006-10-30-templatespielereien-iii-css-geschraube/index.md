@@ -1,6 +1,5 @@
 ---
 title: 'Templatespielereien III: CSS-Geschraube'
-author: Patrick Kollitsch
 type: post
 date: 2006-10-29T20:27:48+00:00
 url: /2006/10/templatespielereien-iii-css-geschraube/
@@ -17,10 +16,10 @@ Das Bild im Header wird sich regelmäßig ändern (irgendwie muss man den Nichtn
 
 **Schriften**
 
-Die Header haben eine andere Schriftart (Century Gothic ff.) als der Rest des Textes (Verdana ff.). Leider sieht das 'S' im Header fürchterlich aus, vor allem, wenn es mal doppelt auftritt. 
+Die Header haben eine andere Schriftart (Century Gothic ff.) als der Rest des Textes (Verdana ff.). Leider sieht das 'S' im Header fürchterlich aus, vor allem, wenn es mal doppelt auftritt.
 
 **Farben**
 
-Es ist ein graues Set geworden. von #000 bis #777 sind alle Grautöne vorhanden. Einzige Farbe ist Orange (#f60). Das Weiß an manchen Stellen wird vermutlich noch verschwinden. Die Hauptfarbtupfer werden durch das Headerbild entstehen, hoffe ich. 
+Es ist ein graues Set geworden. von #000 bis #777 sind alle Grautöne vorhanden. Einzige Farbe ist Orange (#f60). Das Weiß an manchen Stellen wird vermutlich noch verschwinden. Die Hauptfarbtupfer werden durch das Headerbild entstehen, hoffe ich.
 
 Alles in allem sieht es hier langsam so aus wie auf grauhirn.org. Naja.

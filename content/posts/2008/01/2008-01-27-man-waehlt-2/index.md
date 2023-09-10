@@ -1,6 +1,5 @@
 ---
 title: Man wählt
-author: Patrick Kollitsch
 type: post
 date: 2008-01-27T13:41:59+00:00
 url: /2008/01/man-waehlt-2/

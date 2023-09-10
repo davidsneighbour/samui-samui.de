@@ -1,6 +1,5 @@
 ---
 title: 'Feiertage: Chinesisches Neujahr'
-author: Patrick Kollitsch
 type: post
 date: 2008-02-06T12:30:45+00:00
 url: /2008/02/feiertage-chinesisches-neujahr/

@@ -1,6 +1,5 @@
 ---
 title: Gerüchte richten
-author: Patrick Kollitsch
 type: post
 date: 2009-06-14T12:07:40+00:00
 url: /2009/06/geruechte-richten/

@@ -1,13 +1,9 @@
 ---
 title: Schie??erei im Teeladen
-author: Patrick Kollitsch
 type: post
 date: 2005-09-26T07:36:00+00:00
 url: /2005/09/schiesserei-im-teeladen/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 In der Krisenregion im Süden Thailands gab es erneut eine [Schießerei mit Toten in einem Teeladen][1]. Der Angriff war dem Angriff ähnlich, in dessen Folge in der vergangenen Woche zwei Soldaten der thailändischen Armee in einer Moschee <txp:gho_permalink id="394">gefangen gehalten und zu Tode gefoltert wurden</txp:gho_permalink>.
 

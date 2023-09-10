@@ -1,15 +1,11 @@
 ---
-title: 'Alles * macht der Mai'
-author: Patrick Kollitsch
+title: Alles * macht der Mai
 type: post
 date: 2005-05-02T21:10:00+00:00
 url: /2005/05/alles-macht-der-mai/
 dsq_thread_id:
   - "6412166617"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Wie? Was? Mai? War doch grade noch März? Irgendwie ist der April an mir vorbeigezogen wie ein thailändischer Lastwagen. Wobei, den hätte ich vorbeiziehen gemerkt.
 

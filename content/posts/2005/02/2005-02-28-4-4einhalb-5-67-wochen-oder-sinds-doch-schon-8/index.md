@@ -1,15 +1,11 @@
 ---
 title: 4, 4einhalb, 5, 6, 7 Wochen (oder sinds doch schon 8)
-author: Patrick Kollitsch
 type: post
 date: 2005-02-27T22:09:00+00:00
 url: /2005/02/4-4einhalb-5-67-wochen-oder-sinds-doch-schon-8/
 dsq_thread_id:
   - "3406607309"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 _Ist schon witzig. Da liegt so ein kleiner Eintrag vier Wochen im Entwurfsordner und wächst so langsam zu einem Artikel zusammen und alles nur, weil man immer wieder vergisst, ihn online zu stellen. In den letzten zwei Wochen habe ich an ihm nahezu täglich rumgedoktert. Dann und wann war er obsolet. Dann und wann einfach nur sinnlos. Vieles ist rausgefallen, vieles reingekommen und wieder rausgeflogen. Und trotzdem bin ich nicht zufrieden damit, denn er erklärt nicht im Geringsten die Situation. Aber ich wäre schön blöd, wenn ich mich noch weiter damit abgeben würde. Verschiedene Parteien meiner bescheidenen Existenz haben nach einem Resümee (und jetzt fangt gar nicht erst an, mir zu erklären, wie man das schreibt) gefragt und hier ist es:_
 

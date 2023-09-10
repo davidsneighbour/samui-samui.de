@@ -1,13 +1,9 @@
 ---
 title: Visakhapuja Day
-author: Patrick Kollitsch
 type: post
 date: 2005-05-23T04:37:00+00:00
 url: /2005/05/visakhapuja-day/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 (Die Bezeichnung dieses Tages ist regional verschieden und kann von Visakha Bucha über Vesak Bucha hin zum titelgebenden Visakhapuja variieren.)
 

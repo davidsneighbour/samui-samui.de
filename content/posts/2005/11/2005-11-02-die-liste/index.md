@@ -1,13 +1,9 @@
 ---
 title: Die Liste
-author: Patrick Kollitsch
 type: post
 date: 2005-11-01T20:00:57+00:00
 url: /2005/11/die-liste/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
   * <del>Lafontaine (SPD)</del> (Schmollmodus, entkommen, siehe unten)
   * <del>Möllemann (FDP)</del> (Sonderprämie wegen Originalität)

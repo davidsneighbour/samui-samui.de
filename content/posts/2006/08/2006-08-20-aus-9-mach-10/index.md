@@ -1,6 +1,5 @@
 ---
 title: Aus 9 mach 10
-author: Patrick Kollitsch
 type: post
 date: 2006-08-20T02:18:00+00:00
 url: /2006/08/aus-9-mach-10/
@@ -13,7 +12,7 @@ Dass es in Thailand <txp:gho_permalink id="743">eine acht mehr in den Mobiltelef
 
 Wer nun wie ich um die 300 Kontakte im Telefonbuch stehen hat, sieht sich einer gewissen Aufgabe gegenüber: In allen Nummern eine 8 einfügen.
 
-Da ist es sehr praktisch, wenn man wie ich ein unter Symbian laufendes Telefon hat, denn <span class="caps">DTAC</span> (eine der Telcos Thailands) bietet ein nettes Programm an, welches die Kontakte durchscannt und die Ziffer einfügt. [10 Digits][1] nennt es sich und es passt sogar auf, dass keine Nicht-Thainummern umgewandelt werden. 
+Da ist es sehr praktisch, wenn man wie ich ein unter Symbian laufendes Telefon hat, denn <span class="caps">DTAC</span> (eine der Telcos Thailands) bietet ein nettes Programm an, welches die Kontakte durchscannt und die Ziffer einfügt. [10 Digits][1] nennt es sich und es passt sogar auf, dass keine Nicht-Thainummern umgewandelt werden.
 
 Jetzt kann der September wirklich kommen.
 

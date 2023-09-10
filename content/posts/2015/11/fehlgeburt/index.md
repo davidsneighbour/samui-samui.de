@@ -1,6 +1,5 @@
 ---
 title: Fehlgeburt
-author: Patrick Kollitsch
 type: post
 date: 2015-11-18T14:08:11+00:00
 url: /2015/11/fehlgeburt/
@@ -22,7 +21,8 @@ Jedenfalls gibt es jederzeit in Chiang Mai Panda's, die als chinesische Leihgabe
 
 Lin Hui, aktuelle tierische Leihgabe, wurde im Juni "besamt" und hatte ihren Pflegern bereits Hoffnung auf ein weiteres eigenes Panda-Baby gegeben. Leider wurde nichts draus und so hat sie wieder ein paar Monate Ruhe, bevor man das nächste Erfolgserlebnis anstrebt.
 
-[via [Bangkok Post][2]]
+\[via [Bangkok Post][2]]
 
 [1]: /tags/panda/
+
 [2]: http://www.bangkokpost.com/news/general/768072/panda-lin-hui-has-another-miscarriage

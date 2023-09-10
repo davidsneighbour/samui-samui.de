@@ -1,6 +1,5 @@
 ---
 title: Die internationale buddhistische Flagge
-author: Patrick Kollitsch
 type: post
 date: 2007-07-01T20:29:26+00:00
 url: /2007/07/die-internationale-buddhistische-flagge/

@@ -1,6 +1,5 @@
 ---
 title: Gmail sucks. Manchmal.
-author: Patrick Kollitsch
 type: post
 date: 2006-09-19T22:38:00+00:00
 url: /2006/09/gmail-sucks-manchmal/

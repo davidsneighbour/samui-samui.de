@@ -1,13 +1,9 @@
 ---
 title: Songkran, yeah.
-author: Patrick Kollitsch
 type: post
 date: 2011-04-12T19:30:01+00:00
 url: /2011/04/songkran-yeah/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 <div class="media image" style="text-align:center;">
   <a href="http://google.co.th">{{< figure src="wp-content/old-images/285.jpg" />}}

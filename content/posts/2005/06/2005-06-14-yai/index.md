@@ -1,13 +1,9 @@
 ---
 title: Yai
-author: Patrick Kollitsch
 type: post
 date: 2005-06-14T04:10:00+00:00
 url: /2005/06/yai/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Das ist Yai. Yai ist 34 Jahre alt, Isaan (als solche Thai), ziemlich klein und weiblich. Man sieht es zwar auf dem Photo, ich wollte es aber nebenbei nochmal bemerken.
 

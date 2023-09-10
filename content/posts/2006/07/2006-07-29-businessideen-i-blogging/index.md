@@ -1,13 +1,9 @@
 ---
-title: 'Businessideen I: Blogging'
-author: Patrick Kollitsch
+title: "Businessideen I: Blogging"
 type: post
 date: 2006-07-28T23:33:00+00:00
 url: /2006/07/businessideen-i-blogging/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Jupp. Genau. Ich habe tatsächlich eine Weile überlegt, hier in Thailand ein Blogportal aufzuziehen. Portalsoftware gibt es ja genügend und zu den Entwicklern einiger dieser Softwaren habe ich direkte Kontakte, Übersetzer auch. So hätte man die Übersetzung ins Thai und den ganzen Internationalisierungskram, der bei Thai ein kleines bisschen komplizierter ist als nur bei Russisch oder Umlautdeutsch ganz gut koordiniert über die Bühne bringen können. Es gibt ein paar Serverfarmen in Bangkok, die auch gut angebunden sind (sie versorgen den größten Teil der Region mit Servern).
 
@@ -17,8 +13,8 @@ Die Gründe warum eine solche Idee zum Scheitern verurteilt ist sind mannigfalti
 
 Auf meine Frage ob sie denn ein Blog aufmachen wollen antworten alle, sie haben schon eins bei MSN-Spaces. Kuckt man sich das dann an verliert man alle Hoffnung. Einen hab ich zu Blogger.com konvertiert.
 
-Gleich nach Microsoft kommt Yahoo. Ein paar User wissen, dass Microsoft "böse" ist und wechseln daher. Allerdings wird nicht evaluiert, was am Markt verfügbar ist, sondern gleich zu Yahoo gewechselt. Warum sollte man prüfen, wenn alle es so machen? Diese festgefahrenen Strukturen zu durchbrechen dürfte schwer bis unmöglich sein. Wenn man sich also "den Markt" betrachtet, dann ist ein reines Bloghosting-Projekt zum Scheitern verurteil. 
+Gleich nach Microsoft kommt Yahoo. Ein paar User wissen, dass Microsoft "böse" ist und wechseln daher. Allerdings wird nicht evaluiert, was am Markt verfügbar ist, sondern gleich zu Yahoo gewechselt. Warum sollte man prüfen, wenn alle es so machen? Diese festgefahrenen Strukturen zu durchbrechen dürfte schwer bis unmöglich sein. Wenn man sich also "den Markt" betrachtet, dann ist ein reines Bloghosting-Projekt zum Scheitern verurteil.
 
-Ein anderer Vorbehalt den ich gegen Blogs derzeit habe ist, dass diese "Technologie" ja nun nicht gerade die Spitze der Online-Evolution darstellt. Ich finde man kann den Schritt Blog in Thailand auslassen und gleich zu Multimedia-Sites aufsteigen. Mit Kamera- und onlinefähigen Handy sind die meisten ausgerüstet. 
+Ein anderer Vorbehalt den ich gegen Blogs derzeit habe ist, dass diese "Technologie" ja nun nicht gerade die Spitze der Online-Evolution darstellt. Ich finde man kann den Schritt Blog in Thailand auslassen und gleich zu Multimedia-Sites aufsteigen. Mit Kamera- und onlinefähigen Handy sind die meisten ausgerüstet.
 
 PS: Die Mac-Thais sind genauso. Ich kenne leider nur einen, was die ganze Sache sehr verpauschalisiert, allerdings benutzt auch _der_ nur die mitgelieferten Tools ("Browser? Wo seh ich denn, wie der heißt?").

@@ -1,13 +1,9 @@
 ---
 title: Der unbekannte Feiertag II
-author: Patrick Kollitsch
 type: post
 date: 2005-10-15T06:55:00+00:00
 url: /2005/10/der-unbekannte-feiertag-ii/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Der <txp:gho_permalink id="411">unbekannte Feiertag neulich</txp:gho_permalink> war übrigens der Neumondtag im Oktober, an dem die Krathin Zeremonie begangen wird.
 

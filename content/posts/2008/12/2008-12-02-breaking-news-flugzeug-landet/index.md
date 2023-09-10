@@ -1,6 +1,5 @@
 ---
 title: 'Breaking News: Flugzeug landet ;)'
-author: Patrick Kollitsch
 type: post
 date: 2008-12-01T20:21:54+00:00
 url: /2008/12/breaking-news-flugzeug-landet/

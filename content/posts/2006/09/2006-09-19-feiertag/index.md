@@ -1,6 +1,5 @@
 ---
 title: Feiertag
-author: Patrick Kollitsch
 type: post
 date: 2006-09-19T15:53:00+00:00
 url: /2006/09/feiertag/

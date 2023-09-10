@@ -1,15 +1,11 @@
 ---
 title: Projekt Passeborth
-author: Patrick Kollitsch
 type: post
 date: 2005-06-03T07:16:00+00:00
 url: /2005/06/projekt-passeborth/
 dsq_thread_id:
   - "6412166433"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Regelmä?ige Leser dieser Publikation wissen, dass mir vergangene Woche Pass auf unfreiwillige Art und Weise abhanden gekommen ist. Ich mochte Pass. Er war weinrot, hatte Papier und Plastik in sich und war recht neu. Nicht einmal ein Jahr alt. Nun wird er wahrscheinlich im Reisegepäck irgendeines Betrügers schlummern und darauf warten, dass an irgendeinem Immigrationsschalter der Computer irgendwelche rote Zeichen ausspuckt, wenn das Individuum versucht, sich Zugang zu einem Verfassungen ratifizierenden oder einen nicht ratifizierenden EU-Mitgliedstaat zu erschleichen.
 

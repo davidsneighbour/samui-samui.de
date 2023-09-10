@@ -1,6 +1,5 @@
 ---
 title: Am Strand
-author: Patrick Kollitsch
 type: post
 date: 2008-07-16T20:06:12+00:00
 url: /2008/07/am-strand-2/
@@ -10,8 +9,8 @@ url: /2008/07/am-strand-2/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2675644617/" title="Beach"><img src="//farm4.static.flickr.com/3207/2675644617_39b6aaa0b8.jpg" alt="Beach" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/2675644617/" title="Beach"><img src="//farm4.static.flickr.com/3207/2675644617_39b6aaa0b8.jpg" alt="Beach" /></a></p>
+
   <p>
     Beach
   </p>

@@ -1,6 +1,5 @@
 ---
 title: Kurz Geschnittenes II
-author: Patrick Kollitsch
 type: post
 date: 2007-04-03T07:59:37+00:00
 url: /2007/04/kurz-geschnittenes-2/

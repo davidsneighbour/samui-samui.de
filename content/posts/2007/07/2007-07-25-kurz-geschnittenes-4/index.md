@@ -1,6 +1,5 @@
 ---
 title: Kurz Geschnittenes Sechs
-author: Patrick Kollitsch
 type: post
 date: 2007-07-25T01:35:36+00:00
 url: /2007/07/kurz-geschnittenes-4/

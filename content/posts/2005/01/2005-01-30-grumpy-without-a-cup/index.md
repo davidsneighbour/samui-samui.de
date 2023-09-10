@@ -1,15 +1,11 @@
 ---
 title: Grumpy without a cup
-author: Patrick Kollitsch
 type: post
 date: 2005-01-30T01:07:00+00:00
 url: /2005/01/grumpy-without-a-cup/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Was macht man weit weg von der Heimat (oje, über diese Definition reden wir später einmal), wenn man sich selbst etwas Gutes tun will? Genau. Und wie erreicht man das bei Jemandem wie mir? 
+Was macht man weit weg von der Heimat (oje, über diese Definition reden wir später einmal), wenn man sich selbst etwas Gutes tun will? Genau. Und wie erreicht man das bei Jemandem wie mir?
 
 {{< figure src="wp-content/old-images/32.jpg" />}}
 

@@ -1,13 +1,9 @@
 ---
 title: Mein Senf zur Bundestagswahl
-author: Patrick Kollitsch
 type: post
 date: 2005-08-29T04:17:03+00:00
 url: /2005/08/mein-senf-zur-bundestagswahl/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Die Regelschulzeit bis zum Abitur mu?? in allen Bundesl??ndern auf 12 Jahre verk??rzt werden. Deutschlands Hochschulen ben??tigen Autonomie und eine weitaus bessere Ausstattung ist notwendig: f??r Personalentscheidungen, Organisationsstrukturen und die Budgets f??r Lehre und Forschung, die Umsetzung guter Ideen in wettbewerbsf??hige Produkte umsetzen.
 

@@ -1,6 +1,5 @@
 ---
 title: Morgenspaziergang
-author: Patrick Kollitsch
 type: post
 date: 2006-01-10T20:13:00+00:00
 url: /2006/01/morgenspaziergang/

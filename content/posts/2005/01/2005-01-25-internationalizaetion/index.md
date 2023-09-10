@@ -1,13 +1,12 @@
 ---
 title: Iñtërnâtiônàlizætiøn
-author: Patrick Kollitsch
 type: post
 date: 2005-01-25T01:23:07+00:00
 url: /2005/01/internationalizaetion/
 tags:
   - sprache
   - thai
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Heute Mittag saßen wir (drei Deutsche) mit einem Spanier, der jahrelang in Berlin gelebt hat und einem Engländer, der an unterschiedlichen Orten gelebt hat beim Essen. Der Spanier (Juan, seltsamerweise klingt sein Name wie "Wuann" statt "Chuan") spricht sehr gut (und sehr schnell) Deutsch, der Engländer (James) versteht es gut, spricht aber weniger gut (er meint das, auch wenn ich das nicht finde). Die Unterhaltung wurde in Deutsch und Englisch geführt, Englisch nur, um James zu erklären, was gerade gesagt wurde. Witzig war, dass die beiden sich am Ende dann über die deutsche Sprache unterhalten haben und meinten, dass sie schon recht seltsam sei wegen der vielen Homonyme. Ok, sie verwendeten Homonyme nicht als Wort, aber das traf es dann schon. Beispielsweise kam der Vergleich mit "wie" (like) und "als" (as) auf den Tisch und dass selbst viele Deutsche sagen "Ich bin größer wie er". (Wobei ich jetzt nicht weiß, wo genau Juan _das_ nun wieder her hat ;)
 

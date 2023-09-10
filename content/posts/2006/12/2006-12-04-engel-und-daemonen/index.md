@@ -1,6 +1,5 @@
 ---
 title: Engel und Dämonen
-author: Patrick Kollitsch
 type: post
 date: 2006-12-04T03:51:16+00:00
 url: /2006/12/engel-und-daemonen/

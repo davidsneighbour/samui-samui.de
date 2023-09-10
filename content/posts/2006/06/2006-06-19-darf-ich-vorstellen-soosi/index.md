@@ -1,6 +1,5 @@
 ---
 title: 'Darf ich vorstellen: Soosi'
-author: Patrick Kollitsch
 type: post
 date: 2006-06-18T23:10:00+00:00
 url: /2006/06/darf-ich-vorstellen-soosi/
@@ -10,8 +9,8 @@ url: /2006/06/darf-ich-vorstellen-soosi/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/170175155/" title="Soosi"><img src="//static.flickr.com/46/170175155_98f9f5707e.jpg" alt="Soosi" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/170175155/" title="Soosi"><img src="//static.flickr.com/46/170175155_98f9f5707e.jpg" alt="Soosi" /></a></p>
+
   <p>
     Soosi
   </p>

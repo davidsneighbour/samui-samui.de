@@ -1,6 +1,5 @@
 ---
 title: F??rs Protokoll
-author: Patrick Kollitsch
 type: post
 date: 2006-01-12T22:58:00+00:00
 url: /2006/01/fuers-protokoll/

@@ -1,13 +1,9 @@
 ---
 title: Erdbeben in Myanmar
-author: Patrick Kollitsch
 type: post
 date: 2011-03-24T00:36:05+00:00
 url: /2011/03/erdbeben-in-myanmar/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 In Myanmar nahe der Grenze Nordthailands [bebte eben zweimal die Erde][1]. "Nur" 7.0 auf der Richterskala, trotzdem sollen noch in Bangkok (800km entfernt) die Wolkenkratzer geschwankt haben. Seitdem steht das Telephon bei mir nicht still, weil alle vom "Internetexperten" wissen wollen, was eigentlich los sei.
 

@@ -1,6 +1,5 @@
 ---
 title: Thais lieben Thailand
-author: Patrick Kollitsch
 type: post
 date: 2007-05-30T02:31:19+00:00
 url: /2007/05/thais-lieben-thailand/
@@ -19,7 +18,7 @@ Bei der Wahl 2005 erhielten sie wiederum eine Mehrheit, diesmal 60% der Stimmen 
 
 Bei der Wahl 2006 (um deren Fälschung es heute ging) erhielten sie sogar 62% und 460 Sitze. Die restlichen Sitze blieben unbesetzt, weil die anderen Parteien die Wahl boykottierten.
 
-Die Wahlen haben sie auf populistische Weise gewonnen, indem armen Regionen finanzielle Mittel versprochen wurden, viel Gutes für die leider zahlreiche arme Bevölkerung getan wurde und (so meinen manche) Stimmen bezahlt wurden. Geld ist immer noch eine Währung. 
+Die Wahlen haben sie auf populistische Weise gewonnen, indem armen Regionen finanzielle Mittel versprochen wurden, viel Gutes für die leider zahlreiche arme Bevölkerung getan wurde und (so meinen manche) Stimmen bezahlt wurden. Geld ist immer noch eine Währung.
 
 Der kometenhafte Aufstieg der Partei und ihres Führers nahm sein Ende am 19. September vergangenen Jahres. Seit dem Putsch ist jegliche politische Tätigkeit verboten. Heute nun wurde die Partei vom Verfassungsgericht aufgelöst. Schade eigentlich. Sie hatte einen so symbolischen Namen.
 

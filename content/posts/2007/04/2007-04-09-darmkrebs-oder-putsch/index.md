@@ -1,6 +1,5 @@
 ---
 title: Darmkrebs oder Putsch?
-author: Patrick Kollitsch
 type: post
 date: 2007-04-09T10:32:47+00:00
 url: /2007/04/darmkrebs-oder-putsch/

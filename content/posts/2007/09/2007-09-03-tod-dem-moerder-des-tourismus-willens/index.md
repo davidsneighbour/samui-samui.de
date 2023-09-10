@@ -1,6 +1,5 @@
 ---
 title: Tod dem Mörder. Des Tourismus willens.
-author: Patrick Kollitsch
 type: post
 date: 2007-09-02T23:02:11+00:00
 url: /2007/09/tod-dem-moerder-des-tourismus-willens/
@@ -9,7 +8,7 @@ url: /2007/09/tod-dem-moerder-des-tourismus-willens/
 
 
 ---
-Der Mörder der beiden Russinnen in Pattaya, die definitiv keine Prostituierten waren ist nun [zum Tode verurteilt][1] worden. Weil er dem Tourismus-Image der Nation geschadet hat. 
+Der Mörder der beiden Russinnen in Pattaya, die definitiv keine Prostituierten waren ist nun [zum Tode verurteilt][1] worden. Weil er dem Tourismus-Image der Nation geschadet hat.
 
 > The court said Anuchit's lengthy criminal record showed he had sought to benefit himself through brutal and lawless acts, with no regard for social peace and the country's tourism image.
 

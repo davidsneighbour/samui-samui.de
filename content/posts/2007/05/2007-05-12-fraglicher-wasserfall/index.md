@@ -1,6 +1,5 @@
 ---
 title: Fraglicher Wasserfall
-author: Patrick Kollitsch
 type: post
 date: 2007-05-12T07:44:57+00:00
 url: /2007/05/fraglicher-wasserfall/
@@ -12,8 +11,8 @@ dsq_thread_id:
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/494661031/"><img src="//farm1.static.flickr.com/201/494661031_28c8343e26.jpg" class="flickr-photo" alt="" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/494661031/"><img src="//farm1.static.flickr.com/201/494661031_28c8343e26.jpg" class="flickr-photo" alt="" /></a></p>
+
   <p>
     Uncle Nims Magic Garden, Ko Samui
   </p>

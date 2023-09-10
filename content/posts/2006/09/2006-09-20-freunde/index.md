@@ -1,6 +1,5 @@
 ---
 title: Freunde
-author: Patrick Kollitsch
 type: post
 date: 2006-09-19T23:30:00+00:00
 url: /2006/09/freunde/

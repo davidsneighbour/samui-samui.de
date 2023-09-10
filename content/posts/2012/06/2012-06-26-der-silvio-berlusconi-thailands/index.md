@@ -1,21 +1,17 @@
 ---
 title: Der Silvio Berlusconi Thailands
-author: Patrick Kollitsch
 type: post
 date: 2012-06-26T07:38:23+00:00
 url: /2012/06/der-silvio-berlusconi-thailands/
 fb_mentioned_pages:
-  - 'a:0:{}'
+  - a:0:{}
 fb_mentioned_friends:
-  - 'a:0:{}'
+  - a:0:{}
 fb_author_post_id:
   - "10150900747455642"
 fb_status_messages:
-  - 'a:1:{i:0;a:2:{s:7:"message";s:104:"Posted to <a href="http://www.facebook.com/10150900747455642" target="_blank">your Facebook Timeline</a>";s:5:"error";s:0:"";}}'
-
-
-
-
+  - a:1:{i:0;a:2:{s:7:"message";s:104:"Posted to <a href="http://www.facebook.com/10150900747455642" target="_blank">your Facebook Timeline</a>";s:5:"error";s:0:"";}}
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Ein wunderbares Portrait über Thaksin Shinawatra, das, trotzdem es in English geschrieben ist, schon mit dem Titel das Ganze auf den Punkt bringt:
 

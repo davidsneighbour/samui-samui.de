@@ -1,6 +1,5 @@
 ---
 title: Englischsprachige Newsquellen aus Thailand
-author: Patrick Kollitsch
 type: post
 date: 2006-09-22T03:53:00+00:00
 url: /2006/09/englischsprachige-newsquellen-aus-thailand/
@@ -9,7 +8,7 @@ url: /2006/09/englischsprachige-newsquellen-aus-thailand/
 
 
 ---
-Die folgenden englischsprachigen nationalen Newsseiten kann ich empfehlen, wenn es darum geht, einen halbwegs ausführlichen aktuellen Bericht aus Thailand zu bekommen. Man darf dabei aber nicht vergessen, dass alle Medien aufgefordert sind, putschkritische Berichterstattung zu zensieren. 
+Die folgenden englischsprachigen nationalen Newsseiten kann ich empfehlen, wenn es darum geht, einen halbwegs ausführlichen aktuellen Bericht aus Thailand zu bekommen. Man darf dabei aber nicht vergessen, dass alle Medien aufgefordert sind, putschkritische Berichterstattung zu zensieren.
 
 Unter [ict.go.th][1] soll eine Webseite erreichbar sein, die aktuelle Meldungen des <span class="caps">CDRM</span> bringt und von der Armee direkt geführt wird. Ich habe die Seite bisher nicht aufrufen können. Der Fehler "Server not found" kommt derzeit bei allen zensierten Seiten. Eventuell ist auch einfach nur der Link falsch (warum sollten sie sich selbst zensieren?). Ich bin noch auf der Suche.
 

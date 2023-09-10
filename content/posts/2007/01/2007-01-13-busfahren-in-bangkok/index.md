@@ -1,6 +1,5 @@
 ---
 title: Busfahren in Bangkok
-author: Patrick Kollitsch
 type: post
 date: 2007-01-12T21:20:11+00:00
 url: /2007/01/busfahren-in-bangkok/

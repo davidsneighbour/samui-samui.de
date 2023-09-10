@@ -1,6 +1,5 @@
 ---
 title: Unterschrieben
-author: Patrick Kollitsch
 type: post
 date: 2007-08-24T20:09:36+00:00
 url: /2007/08/unterschrieben/

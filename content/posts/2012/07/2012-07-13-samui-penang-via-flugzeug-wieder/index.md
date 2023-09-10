@@ -1,17 +1,13 @@
 ---
 title: Samui-Penang via Flugzeug. Wieder.
-author: Patrick Kollitsch
 type: post
 date: 2012-07-12T17:09:53+00:00
 url: /2012/07/samui-penang-via-flugzeug-wieder/
 fb_status_messages:
-  - 'a:0:{}'
+  - a:0:{}
 dsq_thread_id:
   - "3505057296"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 <div class="media photo image">
   <img src="https://maps.google.com/maps/api/staticmap?markers=size:tiny|color:red|9.548953,100.062447|5.263234,100.484623&path=color:0xff000080|weight:2|9.54472,100.06227|5.26054,100.49538&size=620x280&sensor=false" />

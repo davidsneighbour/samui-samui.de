@@ -1,15 +1,11 @@
 ---
 title: Thai f??r Sprichwortfetischisten II
-author: Patrick Kollitsch
 type: post
 date: 2005-11-09T03:31:00+00:00
 url: /2005/11/thai-fuer-sprichwortfetischisten-ii/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Neulich (schur, kram, blätter --- ah, <txp:gho_permalink id="469">hier</txp:gho_permalink>) meinte ich einen tollen Thaispruch loswerden zu müssen und wurde mitten im Schreiben, ehm, zu einem, ehm, dringenden und unerwarteten, ehm, Patientenbesuch gerufen. Genau. Patientenbesuch. Das wars. 
+Neulich (schur, kram, blätter --- ah, <txp:gho_permalink id="469">hier</txp:gho_permalink>) meinte ich einen tollen Thaispruch loswerden zu müssen und wurde mitten im Schreiben, ehm, zu einem, ehm, dringenden und unerwarteten, ehm, Patientenbesuch gerufen. Genau. Patientenbesuch. Das wars.
 
 Erklärt habe ich aber noch nicht, warum man immer das Rote kaufen soll und da erste Anfrager schon vor Mangelinformation platzen werde ich des Rätsels Auflösung nun preisgeben.
 

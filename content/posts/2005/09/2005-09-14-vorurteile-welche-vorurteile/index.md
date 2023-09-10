@@ -1,16 +1,12 @@
 ---
 title: Vorurteile? Welche Vorurteile?
-author: Patrick Kollitsch
 type: post
 date: 2005-09-14T03:39:00+00:00
 url: /2005/09/vorurteile-welche-vorurteile/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 
-  
+
 
 
 > (15:30:00) [Name der Redaktion bekannt]: (Ich beziehe meine Vorurteile über Thailand ausschlie?lich aus deinem Blog ;) )

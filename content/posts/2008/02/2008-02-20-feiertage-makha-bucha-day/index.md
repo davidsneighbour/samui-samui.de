@@ -1,6 +1,5 @@
 ---
 title: 'Feiertage: Makha Bucha Day'
-author: Patrick Kollitsch
 type: post
 date: 2008-02-20T11:44:37+00:00
 url: /2008/02/feiertage-makha-bucha-day/

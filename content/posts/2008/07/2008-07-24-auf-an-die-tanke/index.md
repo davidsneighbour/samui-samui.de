@@ -1,6 +1,5 @@
 ---
 title: Auf an die Tanke!
-author: Patrick Kollitsch
 type: post
 date: 2008-07-24T14:31:00+00:00
 url: /2008/07/auf-an-die-tanke/
@@ -15,7 +14,7 @@ Ein bisschen erinnert mich die Preisänderung an (Sonnenalleemusik an) die gute 
 
 Samak, unser immer noch (Wahrsager und politische Analysten sagten im Januar, er wäre es wohl nur 6 Monate) amtierender Ministerpräsident, hat beschlossen, seine Bürger glücklich zu machen und [600 Millionen Baht locker gemacht][2], um jeden verkauften Liter staatlich zu sponsern. Oder, um es politisch korrekt zu sagen: für die nächsten 6 Monate werden die Steuern auf Kraftstoffe um 5 Baht gesenkt.
 
-Er kann das, weil er Premierminister ist und ausserdem im ?lfundus Thailands 6 Milliarden Baht vorhanden sind die man noch verbrennen kann. 
+Er kann das, weil er Premierminister ist und ausserdem im ?lfundus Thailands 6 Milliarden Baht vorhanden sind die man noch verbrennen kann.
 
 In sechs Monaten dann haben alle Thais gelernt, dass man zur Mülltonne an der Stra?e auch zu Fu? gehen kann, sind reicher geworden und werden sich nicht beschweren, wenn sie dann plötzlich über Nacht 15 Baht mehr pro Liter zahlen müssen. Aber dann (wie Wahrsager und Analysten hieb- und stichfest ermittelt haben) wird Samak nicht mehr Ministerpräsident sein. Die Verantwortung wird dann jemand anderes tragen dürfen.
 

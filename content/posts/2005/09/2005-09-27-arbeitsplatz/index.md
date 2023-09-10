@@ -1,13 +1,9 @@
 ---
 title: Arbeitsplatz
-author: Patrick Kollitsch
 type: post
 date: 2005-09-27T05:28:00+00:00
 url: /2005/09/arbeitsplatz/
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 {{< figure src="wp-content/old-images/160.jpg" />}}
 

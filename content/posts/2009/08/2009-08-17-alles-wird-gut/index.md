@@ -1,6 +1,5 @@
 ---
 title: Alles wird gut
-author: Patrick Kollitsch
 type: post
 date: 2009-08-17T01:16:46+00:00
 url: /2009/08/alles-wird-gut/

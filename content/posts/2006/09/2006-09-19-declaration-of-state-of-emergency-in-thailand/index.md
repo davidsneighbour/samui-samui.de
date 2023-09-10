@@ -1,6 +1,5 @@
 ---
 title: Declaration of state of emergency in Thailand
-author: Patrick Kollitsch
 type: post
 date: 2006-09-19T13:37:00+00:00
 url: /2006/09/declaration-of-state-of-emergency-in-thailand/

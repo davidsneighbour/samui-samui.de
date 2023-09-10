@@ -1,6 +1,5 @@
 ---
 title: Zurück
-author: Patrick Kollitsch
 type: post
 date: 2008-05-29T01:57:03+00:00
 url: /2008/05/zurueck-2/
@@ -10,14 +9,14 @@ url: /2008/05/zurueck-2/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2533405695/" title="Back home"><img src="//farm3.static.flickr.com/2273/2533405695_bdf853e038.jpg" alt="Back home" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/2533405695/" title="Back home"><img src="//farm3.static.flickr.com/2273/2533405695_bdf853e038.jpg" alt="Back home" /></a></p>
+
   <p>
     Back home
   </p>
 </div>
 
-Zuhause ist man da, wo man Miete zahlt und das bin ich seit gut einer Woche wieder. Der Urlaub hatte sich zu einer Bildungsreise ausgewachsen und ich musste noch ein paar Tage Erholung einlegen. 
+Zuhause ist man da, wo man Miete zahlt und das bin ich seit gut einer Woche wieder. Der Urlaub hatte sich zu einer Bildungsreise ausgewachsen und ich musste noch ein paar Tage Erholung einlegen.
 
 Ausführliche Urlaubsberichte werden folgen, zuerst wollen 12.000 (ja, keine Null zuviel) Photos gesichtet werden. Keine Sorge, nur 1/12tel davon ist von mir.
 

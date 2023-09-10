@@ -1,6 +1,5 @@
 ---
 title: Thaksin verkauft Manchester City
-author: Patrick Kollitsch
 type: post
 date: 2008-08-05T14:43:28+00:00
 url: /2008/08/thaksin-verkauft-manchester-city/
@@ -15,7 +14,7 @@ Als Grund vermutet man, dass er Geld braucht und Probleme hat, an seine eingefro
 
 > But as he struggles to get 800 million pounds of assets unfrozen in his Thailand while currently facing trial on corruption charges in Bangkok, it appears he is considering cutting his losses at the City of Manchester Stadium.
 
-Ich persönlich denke ja eher, dass es etwas mit dem drohenden Gesichtsverlust zu tun hat, der ihn erwartet, wenn seine ganzen Verfahren mit für ihm negativem Ausgang enden und er per Vertrag gezwungen wäre, seine Anteile zu verkaufen. Die Briten mögen anscheinend keine Vorbestraften als Clubbesitzer. 
+Ich persönlich denke ja eher, dass es etwas mit dem drohenden Gesichtsverlust zu tun hat, der ihn erwartet, wenn seine ganzen Verfahren mit für ihm negativem Ausgang enden und er per Vertrag gezwungen wäre, seine Anteile zu verkaufen. Die Briten mögen anscheinend keine Vorbestraften als Clubbesitzer.
 
 Aber wie auch immer, er will ja gar nicht verkaufen, man hat nur gerade keine anderen Themen bei der Hand:
 

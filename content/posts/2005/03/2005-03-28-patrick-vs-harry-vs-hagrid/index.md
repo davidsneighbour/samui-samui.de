@@ -1,17 +1,13 @@
 ---
 title: Patrick vs. Harry (vs. Hagrid)
-author: Patrick Kollitsch
 type: post
 date: 2005-03-27T23:30:00+00:00
 url: /2005/03/patrick-vs-harry-vs-hagrid/
 dsq_thread_id:
   - "3150465588"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
-Nun gut. Ich gestehe. 
+Nun gut. Ich gestehe.
 
 Damals, als "dieser ganze Harry Potter Boom" losging habe ich sofort erkannt, dass das ein von den Verlagen und den Merchandising-Firmen perfekt eingefädelter Coup war. Nichts als Marketing. Brauchte blo? jemand auf MTV oder Winnie the Pooh zu sagen "Hömm ja, ich les ja auch gerade Harry Potter". Mir war immer klar, dass man da auch einen Film drauss machen muss. Mit Schauspielern und so nem Kram. In Farbe oder mindestens fürs Kino.
 
@@ -41,9 +37,9 @@ Nagut. Ich sah mir also [diesen Film][6] an. Und war, naja, nicht begeistert, ab
 
 Jedenfalls hatte ich diesen Film nun endlich abgehakt. Wäre ja schlimm gewesen, wenn ich ihn nicht gesehen hätte nur weil es eben ein Harry Potter Ding war. Ich hatte dann eine Weile meine Ruhe und sprach weiterhin den erhaben Satz aus, ich würde nie einen Harry Potter lesen und las nie einen Harry Potter. Nagut, ich hab den Film gesehen, aber sehen ist was anders als Lesen, weil bei Lesen sind Buchstaben dabei und Papier. Und auf der Leinwand nicht, die ist aus Leinen.
 
-Dann kam Weihnachten 2004. Zu Weihnachten machen wir (Schnute und ich) immer eine kleine Deutschlandreise mit angehängtem Winterurlaub (am liebsten in Schweden). jedenfalls überredete sie mich, wir könnten auf den langen Autofahrten ja Harry Potter als Hörbuch hören. 
+Dann kam Weihnachten 2004. Zu Weihnachten machen wir (Schnute und ich) immer eine kleine Deutschlandreise mit angehängtem Winterurlaub (am liebsten in Schweden). jedenfalls überredete sie mich, wir könnten auf den langen Autofahrten ja Harry Potter als Hörbuch hören.
 
-Hüstel. Nun gut. _Lesen_ ist das ja nicht wirklich, also würde ich auch nicht gegen meine Prinzipien versto?en. Und naja, Schnute hat nie gro?e Probleme, mich zu irgendwas zu überreden. So kam bspw. die Sache mit unserem Bankraub in Nieder-?lsnitz zustande und die Weltumseglung 2002. Jedenfalls fuhren wir so vor uns hin. Ich fuhr, sie tippte an den Tankstellen die Pausetaste des MP3-Players. 
+Hüstel. Nun gut. _Lesen_ ist das ja nicht wirklich, also würde ich auch nicht gegen meine Prinzipien versto?en. Und naja, Schnute hat nie gro?e Probleme, mich zu irgendwas zu überreden. So kam bspw. die Sache mit unserem Bankraub in Nieder-?lsnitz zustande und die Weltumseglung 2002. Jedenfalls fuhren wir so vor uns hin. Ich fuhr, sie tippte an den Tankstellen die Pausetaste des MP3-Players.
 
 Und wir hörten den dritten Band. Harry und der Gefangene von Askaban. Der Gefangene von Askaban ist übrigens Gary "[Sirius Black][6]" Oldman. Hach ja. Wir fuhren nach Zwickau und Harry wurde ständig ohnmächtig wegen der Dementoren. Wir fuhren nach Bautzen und Harry schlich mit dem Tarnumhang nach Hogs Meat. Wir fuhren nach Zinnowitz und Harry traf Gary. Wir fuhren gen Schweden und hörten das Ende. Ja. Nett.
 
@@ -62,7 +58,7 @@ Heute werde ich übrigens den ersten Harry zurückgeben und Band 2 bis 5 abholen
 PS: Warum ich dies schreibe? Weil am Freitag beim Mittagessen die Mädchen von 5Phase meinten, ich sähe aus wie Hagrid ("not Dumbledore, but the other fat man, the housekeeper"). Was haben wir gelacht. Seh ich nicht. Nicht mal annähernd. Oder?
 
 <img src="/images/82.jpg" style="width:150px;float:left;" />
-  
+
 <img src="/images/78.jpg" style="width:150px" />
 
 (Das rechts bin ich). Robbie Coltrane ist übrigens einer meiner Lieblingsschauspieler. "Gro?artiger Mann! Coltrane! Gro?artiger Mann!". Ein Link in meiner Filmmatrix zu Johnny Depp. Einer zu Gary Oldman. Tja, und einer zu Harry Potter, aber damit kann ich leben.

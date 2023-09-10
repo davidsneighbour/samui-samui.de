@@ -1,6 +1,5 @@
 ---
 title: Schnaps. Elf.
-author: Patrick Kollitsch
 type: post
 date: 2016-01-09T01:00:44+00:00
 url: /2016/01/schnaps-elf/

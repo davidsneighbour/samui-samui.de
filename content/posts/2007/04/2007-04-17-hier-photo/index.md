@@ -1,6 +1,5 @@
 ---
 title: Hier. Photo!
-author: Patrick Kollitsch
 type: post
 date: 2007-04-17T08:01:14+00:00
 url: /2007/04/hier-photo/
@@ -10,8 +9,8 @@ url: /2007/04/hier-photo/
 
 ---
 <div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/462510522/"><img src="//farm1.static.flickr.com/242/462510522_6976374920.jpg" class="flickr-photo" alt="" /></a></p> 
-  
+  <a href="http://www.flickr.com/photos/schreibblogade/462510522/"><img src="//farm1.static.flickr.com/242/462510522_6976374920.jpg" class="flickr-photo" alt="" /></a></p>
+
   <p>
     Me now.
   </p>

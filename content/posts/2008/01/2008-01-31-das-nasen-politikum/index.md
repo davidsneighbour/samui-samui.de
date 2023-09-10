@@ -1,6 +1,5 @@
 ---
 title: Das Nasen-Politikum
-author: Patrick Kollitsch
 type: post
 date: 2008-01-31T13:07:18+00:00
 url: /2008/01/das-nasen-politikum/
@@ -9,9 +8,9 @@ url: /2008/01/das-nasen-politikum/
 
 
 ---
-[<img src="//farm3.static.flickr.com/2362/2226301566_e0dc5d1e53_t.jpg" style="width:100px;height:75px;margin-right:10px;float:left;" alt="elect samak" />][1]Am Montag brachte es mich noch zum Lachen, am Dienstag war es bereits Streitthema und bis heute haben sich die Wogen nicht geglättet. 
+[<img src="//farm3.static.flickr.com/2362/2226301566_e0dc5d1e53_t.jpg" style="width:100px;height:75px;margin-right:10px;float:left;" alt="elect samak" />][1]Am Montag brachte es mich noch zum Lachen, am Dienstag war es bereits Streitthema und bis heute haben sich die Wogen nicht geglättet.
 
-Die Nase. Oder besser, das Gebärdensprachen-Zeichen für Samak, unseren neuen demokratisch gewählten Premierminister, bei dem sich die Dolmetscher an die Nase fassen. [Hier bei The Nation Online wird sehr schön aufgeführt][2], wie wir die ganzen Politikernamen übersetzen würden, wenn wir taub und Thai wären. 
+Die Nase. Oder besser, das Gebärdensprachen-Zeichen für Samak, unseren neuen demokratisch gewählten Premierminister, bei dem sich die Dolmetscher an die Nase fassen. [Hier bei The Nation Online wird sehr schön aufgeführt][2], wie wir die ganzen Politikernamen übersetzen würden, wenn wir taub und Thai wären.
 
 > But Samak is so famous among the deaf, they take the nose as meaning Samak as his most prominent facial feature is his [proboscis][3].
 
@@ -20,10 +19,10 @@ Die Nase. Oder besser, das Gebärdensprachen-Zeichen für Samak, unseren neuen d
 Na gut, wenn Samak oder die <span class="caps">PPP</span> das Gebärdensprachenzeichen ändern wollen, dann müssten sie "nur" [ein Seminar finanzieren][5].
 
 > Wiriya said if the <span class="caps">PPP</span> wanted to change the way deaf people referred to Samak, it would need to pay for a seminar to determine how best to refer to the prime minister with another sign.
-> 
+>
 > "Is it worth holding such a big seminar for just one person?" he said.
-> 
-> Wiriya said sign language for the deaf was constructed naturally and any attempt to interfere would mean a fabricated language. 
+>
+> Wiriya said sign language for the deaf was constructed naturally and any attempt to interfere would mean a fabricated language.
 
 Samak selbst hat sich bisher nicht zur Nasenfrage geäu?ert.
 

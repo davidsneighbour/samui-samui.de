@@ -1,6 +1,5 @@
 ---
 title: Wetterverluste
-author: Patrick Kollitsch
 type: post
 date: 2008-01-03T01:35:26+00:00
 url: /2008/01/wetterverluste/

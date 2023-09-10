@@ -1,6 +1,5 @@
 ---
 title: Stromausfall oder Ein Daywalker braucht kein Licht
-author: Patrick Kollitsch
 type: post
 date: 2006-06-14T07:38:00+00:00
 url: /2006/06/stromausfall-oder-der-daywalker-braucht-kein-licht/

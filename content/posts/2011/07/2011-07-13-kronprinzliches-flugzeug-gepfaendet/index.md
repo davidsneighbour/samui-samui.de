@@ -1,15 +1,11 @@
 ---
 title: Kronprinzliches Flugzeug gepfändet
-author: Patrick Kollitsch
 type: post
 date: 2011-07-13T16:40:00+00:00
 url: /2011/07/kronprinzliches-flugzeug-gepfaendet/
 dsq_thread_id:
   - "3307824074"
-
-
-
-
+lastmod: 2023-09-10T19:14:12+07:00
 ---
 Da zahlt man (Thailand) mal eine klitzekleine Rechnung (31 Millionen Euro) mal nicht, und schon (20 Jahre später) wird das Flugzeug des Kronprinzen Maha Vajiralongkorn gepfändet. [Tststs][1]...
 

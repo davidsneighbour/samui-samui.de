@@ -1,6 +1,5 @@
 ---
 title: Polizeiruf Samui
-author: Patrick Kollitsch
 type: post
 date: 2008-03-31T01:53:36+00:00
 url: /2008/03/polizeiruf-samui/
@@ -9,7 +8,7 @@ url: /2008/03/polizeiruf-samui/
 
 
 ---
-Eben kommt auf dem Kabelkanal mit geklauten thaisynchronisierten Filmen so was wie eine Polizeiselbstbeweihräucherung. Man berichtet was man alles in der vergangenen Woche so gemacht hat. Fast ein kleines Videoblog. 
+Eben kommt auf dem Kabelkanal mit geklauten thaisynchronisierten Filmen so was wie eine Polizeiselbstbeweihräucherung. Man berichtet was man alles in der vergangenen Woche so gemacht hat. Fast ein kleines Videoblog.
 
   * Ein paar Birmesen die wie Thais aussehen und auch sehr gut Thai sprechen konnten (eine Tatsache die dreimal erwähnt wurde und daher sehr wichtig ist) wurden von der Samui Immigration festgenommen und abgeschoben. Ins Mutterland.
   * Zwei einheimische Drogendealer wurden festgenommen und man hat Ihnen 4 Sticks mit je 10 Tabletten einer natürlich verbotenen Substanz und 5 20Baht-Scheine (rund 2 Euro) abgenommen. Dann wurden Sie der Presse vorgeführt und mussten auf ihre 100 Baht zeigen.
