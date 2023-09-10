@@ -78,11 +78,16 @@ $list-group-bg: transparent;
 
 // brandcolors
 $brandcolors: (
-  'facebook': #3b5998,
-  'messenger': #0084ff,
-  'twitter': #1da1f2,
-  'whatsapp': #25d366,
-  'snapchat': #fffc00
+	'facebook': #3b5998,
+	'messenger': #0084ff,
+	'twitter': #1da1f2,
+	'whatsapp': #25d366,
+	'snapchat': #fffc00
 );
 
 $header-image: 'header-201906.jpg';
+
+// forms
+$input-color: map-get($theme-colors, 'bodybg');
+$input-border-color: map-get($theme-colors, 'bodybg');
+$input-bg: map-get($theme-colors, 'contentbg');

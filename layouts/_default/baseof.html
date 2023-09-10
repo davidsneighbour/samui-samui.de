@@ -20,7 +20,7 @@
   {{ partial "func/hook.html" "container-start" }}
   <main id="content" class="container">
     <div class="row">
-      <div id="maincolumn" class="{{ $contentColumnClasses }}">
+      <div id="maincolumn" class="{{ $contentColumnClasses }}" data-pagefind-body>
         {{ partial "func/hook.html" "content-start" }}
         {{ block "main" . }}{{ end }}
         {{ partial "func/hook.html" "content-end" }}

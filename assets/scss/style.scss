@@ -62,11 +62,11 @@
 @import 'bootstrap/scss/utilities/api';
 
 // DNB: mixins
-// @import '02-mixins/gridpile';
-// @import '02-mixins/scrollbars';
-// @import '02-mixins/scrollsnap';
-// @import '02-mixins/shadows';
-// @import '02-mixins/typography';
+@import '02-mixins/gridpile';
+@import '02-mixins/scrollbars';
+@import '02-mixins/scrollsnap';
+@import '02-mixins/shadows';
+@import '02-mixins/typography';
 
 // DNB: Global
 // @import '03-global/global';
@@ -76,7 +76,7 @@
 // @import '03-global/transitions';
 
 // DNB: Components
-// @include dnb-scrollbars();
+@include dnb-scrollbars();
 
 @import '03-components/global';
 @import '03-components/content';
@@ -96,13 +96,10 @@
 @import '03-components/local-changes';
 
 // DNB: prose - article content formatting
-// @include dnb-scrollbars('.prose', 3px);
+@include dnb-scrollbars('.prose', 3px);
 
 .prose {
-	// @import '05-prose/prose';
-	// @import '05-prose/footnotes';
-	// @import '05-prose/components';
-	// @import '05-prose/tables';
+	@import '04-prose/prose';
 }
 
 // DNB: plugins
@@ -124,6 +121,3 @@
 // @import 'plugins';
 @import 'lite-yt-embed';
 @import 'debugprint';
-
-// local overrides for child themes
-@import 'local';
