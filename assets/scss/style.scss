@@ -4,16 +4,19 @@
 @import 'bootstrap/scss/functions';
 
 // DNB: theme settings
-@import 'settings/colors';
-@import 'settings/fonts';
+@import '01-settings/colors';
+@import '01-settings/theme';
+@import '01-settings/fonts';
+@import '01-settings/utilities';
 
 // BS: theme settings
 @import 'bootstrap/scss/variables';
 @import 'bootstrap/scss/variables-dark';
 
 // DNB: map overrides
-@import 'settings/settings';
-@import 'settings/local-settings';
+@import '01-settings/maps';
+@import '01-settings/colormode-light';
+@import '01-settings/colormode-dark';
 
 // BS: other required parts
 @import 'bootstrap/scss/maps';
@@ -48,7 +51,7 @@
 //@import 'bootstrap/scss/modal';
 @import 'bootstrap/scss/tooltip';
 //@import 'bootstrap/scss/popover';
-//@import 'bootstrap/scss/carousel';
+@import 'bootstrap/scss/carousel';
 //@import 'bootstrap/scss/spinners';
 //@import 'bootstrap/scss/offcanvas';
 //@import 'bootstrap/scss/placeholders';
@@ -59,58 +62,63 @@
 // BS: utilities API
 @import 'bootstrap/scss/utilities/api';
 
-// // DNB: mixins
-// @import '02-mixins/gridpile';
-// @import '02-mixins/scrollbars';
-// @import '02-mixins/scrollsnap';
-// @import '02-mixins/shadows';
+// DNB: mixins
+@import '02-mixins/gridpile';
+@import '02-mixins/scrollbars';
+@import '02-mixins/scrollsnap';
+@import '02-mixins/shadows';
+@import '02-mixins/typography';
 
-// // DNB: Global
-// @import '03-global/global';
-// @import '03-global/header';
-// @import '03-global/footer';
-// @import '03-global/responsive';
-// @import '03-global/transitions';
+// DNB: Global
+@import '03-global/global';
+@import '03-global/header';
+@import '03-global/footer';
+@import '03-global/responsive';
+@import '03-global/transitions';
 
-// // DNB: Components
-// @include dnb-scrollbars();
+// DNB: Components
+@include dnb-scrollbars();
 
-// @import '04-components/archive';
-// @import '04-components/backtotop';
-// @import '04-components/utilities';
-// @import '04-components/alerts';
-// @import '04-components/navigation';
-// @import '04-components/articles';
-// @import '04-components/figure';
-// @import '04-components/highlight';
-// @import '04-components/search';
-// @import '04-components/text';
+@import '04-components/archive';
+@import '04-components/backtotop';
+@import '04-components/utilities';
+@import '04-components/alerts';
+@import '04-components/navigation';
+@import '04-components/articles';
+@import '04-components/figure';
+@import '04-components/highlight';
+@import '04-components/search';
+@import '04-components/text';
 // @import '04-components/forms';
 // @import '04-components/widgets';
 // @import '04-components/features';
 // @import '04-components/tabs';
 
 // DNB: prose - article content formatting
-// @include dnb-scrollbars('.prose', 3px);
+@include dnb-scrollbars('.prose', 3px);
 
-// .prose {
-//   @import '05-prose/prose';
-//   @import '05-prose/footnotes';
-//   @import '05-prose/components';
-//   // @import '05-prose/tables';
-// }
+.prose {
+    @import '05-prose/prose';
+    @import '05-prose/footnotes';
+    @import '05-prose/components';
+    // @import '05-prose/tables';
+}
 
 // DNB: plugins
 // @import '06-plugins/debugprint';
 // @import '06-plugins/devaudit';
-// @import '06-plugins/syntax';
-// @import '06-plugins/theme-toggle';
+@import '06-plugins/syntax';
+@import '06-plugins/theme-toggle';
 
 // DNB: hugo-blockify
 // @import 'blockify';
-// @import 'hugo-shortcodes/lite-yt-embed';
+@import 'lite-yt-embed';
 
 // DNB: external plugins (imported from node_modules)
+@import 'animate.css/animate';
+// @import 'auditor';
+// @import 'plugins';
+
 
 // Plugins
 @import 'plugins/backtotop';
@@ -133,6 +141,7 @@
 @import 'components/icons';
 @import 'components/images';
 @import 'components/pagination';
+@import 'components/search';
 @import 'components/sidebar';
 @import 'components/tables';
 @import 'components/topnavigation';
