@@ -4,18 +4,18 @@
 @import 'bootstrap/scss/functions';
 
 // DNB: theme settings
-@import 'settings/colors';
-@import 'settings/settings';
-@import 'settings/fonts';
+@import '01-settings/colors';
+@import '01-settings/settings';
+@import '01-settings/fonts';
 
 // BS: theme settings
 @import 'bootstrap/scss/variables';
 @import 'bootstrap/scss/variables-dark';
 
 // DNB: map overrides
-// @import 'settings/maps';
-// @import 'settings/colormode-light';
-// @import 'settings/colormode-dark';
+// @import '01-settings/maps';
+// @import '01-settings/colormode-light';
+// @import '01-settings/colormode-dark';
 
 // BS: other required parts
 @import 'bootstrap/scss/maps';
@@ -78,22 +78,22 @@
 // DNB: Components
 // @include dnb-scrollbars();
 
-@import 'components/global';
-@import 'components/content';
-@import 'components/articles';
-@import 'components/comments';
-@import 'components/footer';
-@import 'components/footnotes';
-@import 'components/header';
-@import 'components/icons';
-@import 'components/images';
-@import 'components/pagination';
-@import 'components/search';
-@import 'components/sidebar';
-@import 'components/tables';
-@import 'components/topnavigation';
-@import 'components/transitions';
-@import 'components/local-changes';
+@import '03-components/global';
+@import '03-components/content';
+@import '03-components/articles';
+@import '03-components/comments';
+@import '03-components/footer';
+@import '03-components/footnotes';
+@import '03-components/header';
+@import '03-components/icons';
+@import '03-components/images';
+@import '03-components/pagination';
+@import '03-components/search';
+@import '03-components/sidebar';
+@import '03-components/tables';
+@import '03-components/topnavigation';
+@import '03-components/transitions';
+@import '03-components/local-changes';
 
 // DNB: prose - article content formatting
 // @include dnb-scrollbars('.prose', 3px);
@@ -106,25 +106,24 @@
 }
 
 // DNB: plugins
-@import 'plugins/backtotop';
-@import 'plugins/carousel';
-@import 'plugins/flags';
-@import 'plugins/instantsearch';
-@import 'plugins/sharebuttons';
-@import 'plugins/twitter';
-@import 'plugins/wordpress';
-@import 'plugins/youtube';
+@import '05-plugins/backtotop';
+@import '05-plugins/carousel';
+@import '05-plugins/flags';
+@import '05-plugins/instantsearch';
+@import '05-plugins/sharebuttons';
+@import '05-plugins/twitter';
+@import '05-plugins/wordpress';
+@import '05-plugins/youtube';
 
 // DNB: hugo-blockify
 // @import 'blockify';
-@import 'lite-yt-embed';
 
 // DNB: external plugins (imported from node and modules)
 // @import 'animate.css/animate';
 // @import 'auditor';
 // @import 'plugins';
+@import 'lite-yt-embed';
 @import 'debugprint';
-@import 'plugins/highlight';
 
 // local overrides for child themes
 @import 'local';
