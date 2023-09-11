@@ -1,4 +1,5 @@
 <!doctype html>
+{{- partial "init.html" . -}}
 {{ $contentColumnClasses := "col" }}
 {{ .Scratch.Set "hasSidebar" false }}
 {{ if (and (isset ($.Param "dnb.sidebar") "enabled") (eq ($.Param "dnb.sidebar.enabled") true )) }}

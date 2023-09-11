@@ -6,7 +6,7 @@
 # https://gohugo.io/variables/site/#the-siteparams-variable
 ################################################################################
 debug = false
-mainSections = ["posts"]
+mainSections = ["post", "posts"]
 
 # social media setup
 og_image = ""
@@ -22,7 +22,7 @@ copyright = "All rights reserved. Copyright samui-samui.de"
 sitecolor = "#d02d19"
 
 [imaging]
-sizes = ["825","610","510","450"]
+sizes = ["825", "610", "510", "450"]
 
 #############################################################
 # Search Setup
@@ -38,15 +38,15 @@ params = ["categories", "tags"]
 # Social Media Setup
 #############################################################
 [social.facebook]
-profileid = "517050641"    # patrick.kollitsch
-pageid = "6967849771"      # samuisamui
-appid = "2047624572136513" # samui-samui.de
+profileid = "517050641"           # patrick.kollitsch
+pageid = "6967849771"             # samuisamui
+appid = "2047624572136513"        # samui-samui.de
 profileslug = "patrick.kollitsch"
 
 [social.twitter]
 profileid = "davidsneighbour"
 siteid = "samui2"
-theme ="dark"
+theme = "dark"
 linkcolor = "#d02d19"
 dnt = "on"
 csp = "on"
@@ -67,7 +67,7 @@ copy-from = "2005"
 
 [dnb.sidebar]
 enabled = true
-items = [ "author", "archive", "recent", "social" ]
+items = ["author", "archive", "recent", "social"]
 [dnb.sidebar.author]
 content = "authorfooter"
 [dnb.sidebar.recent]
@@ -79,7 +79,7 @@ spotify_playlist = "https://open.spotify.com/embed/playlist/7DEuLS0qC7ajP84kEuWw
 
 [dnb.footer.index]
 enabled = true
-items = [ "tagcloud", "leutecloud" ]
+items = ["tagcloud", "leutecloud"]
 [dnb.footer.single]
 enabled = false
 [dnb.footer.tagcloud]
@@ -125,8 +125,8 @@ monetization = ""
 [dnb.head.speedoptimisation]
 control = "on" # on/off - off disables all prefetching
 prefetch = [
-  "/assets/webfonts/tomkin/Tomkin/TomkinLight/Tomkin-Light.woff",
-  "/assets/webfonts/tomkin/Tomkin/TomkinSemiLight/Tomkin-SemiLight.woff",
+	"/assets/webfonts/tomkin/Tomkin/TomkinLight/Tomkin-Light.woff",
+	"/assets/webfonts/tomkin/Tomkin/TomkinSemiLight/Tomkin-SemiLight.woff",
 ]
 preconnect = []
 prerender = []

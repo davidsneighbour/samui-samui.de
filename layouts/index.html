@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- $paginator := .Scratch.Get "paginator" -}}
+	{{- $paginator := .Scratch.Get "paginator" -}}
   {{ range $paginator.Pages }}
   <article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
     {{ .Scratch.Set "firstitem" "" }}

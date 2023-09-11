@@ -7,3 +7,10 @@ weight = 250
 identifier = "dnb"
 url = "https://davids-neighbour.com"
 pre = "icons/user-tie.svg"
+
+[[main]]
+name = "Startseite"
+weight = 1
+identifier = "posts"
+url = "/"
+pre = "icons/home.svg"
