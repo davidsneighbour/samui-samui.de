@@ -329,3 +329,6 @@ yarn-error.log
 
 # Local Netlify folder
 .netlify
+
+# pagefind setup
+static/search
