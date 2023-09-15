@@ -23,9 +23,9 @@
 		"release": "commit-and-tag-version --release-as patch --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
 		"release:minor": "commit-and-tag-version --release-as minor --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
 		"server": "run-p server:hugo",
-		"server:hugo": "./bin/server/run",
+		"server:hugo": "./bin/hugo/server",
 		"server:hugo:paranoia": "./bin/hugo-dev-server-paranoia.sh",
-		"pagefind": "pagefind",
+		"build:pagefind": "rimraf static/search && pagefind",
 		"webhint": "hint http://192.168.1.201:1313"
 	},
 	"private": true,
@@ -71,7 +71,7 @@
 		"pixrem": "5.0.0",
 		"postcss": "8.4.29",
 		"postcss-cli": "10.1.0",
-		"pagefind": "0.12.0",
+		"pagefind": "1.0.2",
 		"postcss-scss": "4.0.8",
 		"precss": "4.0.0",
 		"sass": "1.67.0"
