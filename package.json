@@ -64,7 +64,6 @@
 	"stylelint": {
 		"extends": "@davidsneighbour/stylelint-config"
 	},
-	"url": "https://samui-samui.de",
 	"dependencies": {
 		"@davidsneighbour/configurations": "5.2.40",
 		"lazysizes": "5.3.2",
