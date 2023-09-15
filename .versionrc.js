@@ -9,6 +9,9 @@ const localStandardVersion = {
 			type: 'json',
 		},
 	],
+	scripts: {
+		prerelease: "./bin/repo/release/prerelease",
+	},
 	skip: {
 		changelog: true
 	}
