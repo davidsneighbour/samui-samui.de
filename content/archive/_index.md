@@ -10,6 +10,5 @@ menu:
     weight: 100
     identifier: archiv
     pre: icons/archive.svg
+lastmod: 2023-09-15T19:24:17+07:00
 ---
-
-Während ich auf diesen Seiten ein paar Umbauten vornehme, wird das Archiv leider etwas chaotisch sein. Es wird aber besser. Täglich. Versprochen.
