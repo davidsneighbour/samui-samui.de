@@ -70,7 +70,7 @@
 		"pixrem": "5.0.0",
 		"postcss": "8.4.29",
 		"postcss-cli": "10.1.0",
-		"pagefind": "1.0.2",
+		"pagefind": "1.0.3",
 		"postcss-scss": "4.0.8",
 		"precss": "4.0.0",
 		"sass": "1.67.0"
