@@ -114,7 +114,6 @@ other = "Weiter lesen…"
 [written_by]
 other = "Von"
 
-
 ################################################################################
 # Shortcodes: Contact Form
 ################################################################################
@@ -140,9 +139,15 @@ other = "Send Message"
 
 [shortcodes.contactform.fieldnames.name]
 other = "Name"
+
 [shortcodes.contactform.fieldnames.email]
 other = "Email"
+
 [shortcodes.contactform.fieldnames.subject]
 other = "Subject"
+
 [shortcodes.contactform.fieldnames.message]
 other = "Message"
+
+[page-n]
+other = " (Page %d)"
