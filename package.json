@@ -68,7 +68,7 @@
 		"@davidsneighbour/configurations": "5.2.41",
 		"lazysizes": "5.3.2",
 		"pixrem": "5.0.0",
-		"postcss": "8.4.29",
+		"postcss": "8.4.30",
 		"postcss-cli": "10.1.0",
 		"pagefind": "1.0.3",
 		"postcss-scss": "4.0.8",
