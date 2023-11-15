@@ -65,7 +65,7 @@
 		"extends": "@davidsneighbour/stylelint-config"
 	},
 	"dependencies": {
-		"@davidsneighbour/configurations": "5.5.16",
+		"@davidsneighbour/configurations": "5.5.17",
 		"lazysizes": "5.3.2",
 		"pixrem": "5.0.0",
 		"postcss": "8.4.31",
