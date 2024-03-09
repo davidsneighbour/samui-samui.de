@@ -12,7 +12,7 @@ menu:
     name: Kontakt
     weight: 100
     identifier: kontakt
-lastmod: 2023-09-10T19:00:50+07:00
+lastmod: 2024-03-09T11:46:04+07:00
 ---
 
 ## Impressum und Datenschutzerklärung
@@ -27,7 +27,7 @@ Schroffe oder beleidigende Nachrichten werden wohlwollend unbeantwortet gelassen
 
 Wenn du mir Dateien schicken willst, [nutze dieses Dropbox-Formular][2].
 
-{{< contact-form >}}
+{{< form id="contactform" >}}
 
 [1]: /datenschutzerklaerung/
 

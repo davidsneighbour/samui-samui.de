@@ -1,17 +1,21 @@
-{{- partial "func/hook.html" ( dict "hook" "init" "context" . ) -}}
-{{- $paginator := dict -}}
+{{- partials.Include "func/hook.html" (collections.Dictionary "hook" "init" "context" . ) -}}
+
+{{- $paginator := collections.Dictionary -}}
 {{- if eq "home" .Kind -}}
 	{{- /* - see
-		https://discourse.gohugo.io/t/possible-first-list-page-showing-9-items-following-showing-10-items/36186/
+	https://discourse.gohugo.io/t/possible-first-list-page-showing-9-items-following-showing-10-items/36186/
 	*/ -}}
 	{{- $p := where site.RegularPages "Type" "in" site.Params.mainSections -}}
+	{{- $p = collections.Slice site.Home | append $p -}}
+	{{- $paginator = $.Paginate $p -}}
+{{- else if eq .Section "components" -}}
+	{{- $p := where site.RegularPages "Section" "eq" "components" -}}
+	{{- $p = where $p "Params.subcollection" "!=" "true" -}}
+	{{- $p = sort $p "Date" "desc" -}}
 	{{- $paginator = $.Paginate $p -}}
 {{- else if eq .Section "archive" -}}
-	{{- $p := where site.RegularPages "Type" "in" site.Params.mainSections -}}
-	{{- $p = sort $p "Date" "desc" -}}
-	{{- $paginator = $.Paginate $p 25 -}}
-{{- else -}}
+{{- else if .IsNode -}}
 	{{- $paginator = $.Paginator -}}
 {{- end -}}
 {{- .Scratch.Set "paginator" $paginator -}}
-{{- partial "func/hook.html" ( dict "hook" "init-end" "context" . ) -}}
+{{- partials.Include "func/hook.html" (collections.Dictionary "hook" "init-end" "context" . ) -}}

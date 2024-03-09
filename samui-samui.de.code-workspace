@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "../configurations"
+		},
+		{
+			"path": "../hugo-bin"
 		}
 	],
 	"settings": {
@@ -44,7 +47,7 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
 		"editor.formatOnSave": true,
 		"editor.codeActionsOnSave": {
-			"source.fixAll.eslint": true
+			"source.fixAll.eslint": "explicit"
 		},
 		"[dotenv]": {
 			"editor.defaultFormatter": "foxundermoon.shell-format"

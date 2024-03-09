@@ -150,3 +150,41 @@ outputStyle = "compressed"
 targetPath = "theme.css"
 enableSourceMap = true
 includePaths = ["node_modules/"]
+
+
+[dnb.forms]
+[dnb.forms.contactform]
+groups = true
+groupstyle = 'grid'
+id = 'contactform'
+labelling = 'i18n'
+
+[dnb.forms.contactform.attributes]
+class = 'mb-6'
+data-netlify = 'true'
+netlify-honeypot = '%random%'
+
+[dnb.forms.contactform.fields]
+[[dnb.forms.contactform.fields.1]]
+label = 'shortcodes.form.name'
+name = 'shortcodes.form.fieldnames.name'
+required = true
+type = 'text'
+[[dnb.forms.contactform.fields.1]]
+html = '<div data-netlify-recaptcha="true"></div>'
+type = 'special'
+[[dnb.forms.contactform.fields.1]]
+name = '%random%'
+type = 'invisible'
+[[dnb.forms.contactform.fields.2]]
+label = 'shortcodes.form.message'
+name = 'shortcodes.form.fieldnames.message'
+required = true
+type = 'textarea'
+[dnb.forms.contactform.fields.2.options]
+rows = 8
+[[dnb.forms.contactform.buttons]]
+class = 'btn btn-primary'
+label = 'shortcodes.form.submit'
+name = 'shortcodes.form.fieldnames.submit'
+type = 'submit'

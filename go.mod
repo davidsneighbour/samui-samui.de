@@ -30,4 +30,5 @@ require (
 	github.com/davidsneighbour/hugo-modules/modules/youtube v0.0.0-20230913123307-4f09d9409c7c // indirect
 	github.com/davidsneighbour/libraries/lazysizes v1.1.6 // indirect
 	github.com/paulirish/lite-youtube-embed v0.2.0 // indirect
+	github.com/zenorocha/clipboard.js v2.0.11+incompatible // indirect
 )
