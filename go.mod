@@ -9,7 +9,6 @@ require (
 	github.com/csswizardry/ct v0.0.0-20230131155739-4e0d88c1a9ff // indirect
 	github.com/davidsneighbour/hugo-modules/modules/auditor v1.2024.1 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/debug v1.2024.13 // indirect
-	github.com/davidsneighbour/hugo-modules/modules/devtools v1.2024.0 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/feeds v1.2024.3 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/functions v1.2024.3 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/head v1.2024.4 // indirect
@@ -33,8 +32,6 @@ require (
 	github.com/davidsneighbour/hugo-modules/modules/youtube v1.2024.1 // indirect
 	github.com/davidsneighbour/libraries/lazysizes v1.1.6 // indirect
 	github.com/paulirish/lite-youtube-embed v0.3.2 // indirect
-	github.com/tabler/tabler-icons v3.0.1+incompatible // indirect
-	github.com/tailwindlabs/heroicons v2.1.1+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 	github.com/zenorocha/clipboard.js v2.0.11+incompatible // indirect
 )
