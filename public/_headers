@@ -1,0 +1,80 @@
+
+/
+  Accept-Encoding: gzip, deflate, br
+  Permissions-Policy: geolocation=(self)
+  Permissions-Policy: camera=()
+  Permissions-Policy: fullscreen=*
+  Permissions-Policy: interest-cohort=()
+
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: no-referrer
+  X-Content-Type-Options: nosniff
+  Content-Security-Policy: default-src 'self';
+
+/*.html
+  Accept-Encoding: gzip, deflate, br
+
+/*.manifest
+  Content-Type: application/manifest+json; charset=utf-8
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Encoding: gzip, deflate, br
+
+/*.js
+  Content-Type: text/javascript; charset=utf-8
+  Expires: Do., 13-März-2025 10:19:17 GMT+0700
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Encoding: gzip, deflate, br
+
+/*.ico
+  Expires: Do., 13-März-2025 10:19:17 GMT+0700
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Encoding: gzip, deflate, br
+
+/*.css
+  Expires: Do., 13-März-2025 10:19:17 GMT+0700
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Encoding: gzip, deflate, br
+
+/*.jpg
+  Expires: Do., 13-März-2025 10:19:17 GMT+0700
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Encoding: gzip, deflate, br
+
+/*.jpeg
+  Expires: Do., 13-März-2025 10:19:17 GMT+0700
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Encoding: gzip, deflate, br
+
+/*.png
+  Expires: Do., 13-März-2025 10:19:17 GMT+0700
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Encoding: gzip, deflate, br
+
+/*.gif
+  Expires: Do., 13-März-2025 10:19:17 GMT+0700
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Encoding: gzip, deflate, br
+
+/*.eot
+  Accept-Encoding: gzip, deflate, br
+
+/*.ttf
+  Accept-Encoding: gzip, deflate, br
+
+/assets/*
+  Expires: Do., 13-März-2025 10:19:17 GMT+0700
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/*
+  Expires: Do., 13-März-2025 10:19:17 GMT+0700
+  Cache-Control: public, max-age=31536000, immutable
+
+# headers created via data configuration from other modules
+# from feeds
+/feed.json
+  Accept-Encoding: gzip, deflate, br
+  Cache-Control: public, max-age=86400, immutable
+  Content-Type: text/javascript; charset=utf-8

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2000.0001"
+   height="2000"
+   viewBox="0 0 529.16669 529.16667"
+   version="1.1"
+   id="svg128"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="favicon.svg"
+   inkscape:export-filename="/home/patrick/Projects/Me/samui-samui.de/assets/logo/favicon.png"
+   inkscape:export-xdpi="44.119999"
+   inkscape:export-ydpi="44.119999">
+  <defs
+     id="defs122" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.175"
+     inkscape:cx="2622.2936"
+     inkscape:cy="1005.9111"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     lock-margins="true"
+     inkscape:showpageshadow="false"
+     units="px"
+     inkscape:window-width="1864"
+     inkscape:window-height="1016"
+     inkscape:window-x="56"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata125">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1023.051,163.67943)">
+    <rect
+       style="fill:#ff4400;fill-opacity:1;stroke-width:0.264583"
+       id="rect134"
+       width="529.16669"
+       height="529.16669"
+       x="-1023.051"
+       y="-163.67943" />
+    <g
+       aria-label="S"
+       id="text132"
+       style="font-style:normal;font-weight:normal;font-size:705.556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583">
+      <path
+         d="m -967.5034,45.16511 c 0,136.87787 115.71119,151.69455 198.26124,162.98344 45.86114,6.35001 82.55006,14.11112 82.55006,41.62781 0,30.33891 -28.22224,40.21669 -76.20005,40.21669 -39.51114,0 -67.02783,-12.70001 -79.02228,-37.39447 -11.2889,-20.46112 -20.46112,-22.57779 -41.62781,-15.52223 l -67.02782,23.98891 c -20.46112,7.76111 -26.10557,17.6389 -18.34446,38.80558 26.10558,73.37782 100.18896,109.36118 205.31681,109.36118 124.88342,0 218.72237,-57.15004 218.72237,-160.86677 0,-133.35009 -106.53896,-153.105661 -187.67791,-164.394558 -50.80003,-6.350004 -92.42784,-12.700008 -92.42784,-43.038918 0,-24.694461 19.05002,-36.6889133 66.32227,-36.6889133 32.45558,0 57.8556,9.8777843 71.96672,36.6889133 10.58334,20.461125 18.34445,23.283349 38.10002,14.816677 l 70.55561,-30.338909 c 21.16668,-8.466673 26.81112,-19.0500132 16.93334,-39.511138 -33.86669,-67.733379 -93.1334,-98.777844 -197.55569,-98.777844 -134.05564,0 -208.84458,64.911154 -208.84458,158.04455 z"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:705.556px;font-family:Panton;-inkscape-font-specification:'Panton Heavy';stroke-width:0.264583"
+         id="path977" />
+    </g>
+  </g>
+</svg>

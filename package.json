@@ -12,7 +12,7 @@
 	"repository": "davidsneighbour/samui-samui.de",
 	"scripts": {
 		"deploy": "bin/deploy/live",
-		"build": "run-s build:critical && build:hugo",
+		"build": "npm run build:critical && npm run build:hugo",
 		"build:critical": "./bin/build-critical-css.sh",
 		"build:hugo": "hugo --gc --minify",
 		"build:styles": "",

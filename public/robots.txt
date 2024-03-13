@@ -1,0 +1,7 @@
+
+
+
+Sitemap: https://samui-samui.de/sitemap.xml
+
+
+# robots.txt is prepared by https://github.com/davidsneighbour/hugo-modules/tree/main/modules/robots#readme
