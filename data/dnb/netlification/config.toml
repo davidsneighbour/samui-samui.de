@@ -1,80 +1,64 @@
 headers = [
-  "Link: <https://www.google-analytics.com/>; rel=preconnect",
-  "Link: <https://www.google-analytics.com/>; rel=dns-prefetch"
+	"Link: <https://www.google-analytics.com/>; rel=preconnect",
+	"Link: <https://www.google-analytics.com/>; rel=dns-prefetch",
 ]
 
 [csp]
 # https://content-security-policy.com/
 # https://report-uri.com/account/setup/
-defaultSrc = [
-  "'self'",
-  "googleads.g.doubleclick.net"
-]
-prefetchSrc = [
-  "'self'"
-]
+defaultSrc = ["'self'", "googleads.g.doubleclick.net"]
+prefetchSrc = ["'self'"]
 scriptSrc = [
-  "'self'",
-  "'unsafe-inline'",
-  "*.cloudfront.net",
-  "utteranc.es",
-  "pagead2.googlesyndication.com",
-  "storage.googleapis.com",
-  "googleads.g.doubleclick.net",
-  "ajax.googleapis.com",
-  "www.google-analytics.com",
-  "www.google.com",
-  "www.gstatic.com",
-  "unpkg.com",
-  "identity.netlify.com",
-  "www.googletagmanager.com"
+	"'self'",
+	"'unsafe-inline'",
+	"*.cloudfront.net",
+	"utteranc.es",
+	"pagead2.googlesyndication.com",
+	"storage.googleapis.com",
+	"googleads.g.doubleclick.net",
+	"ajax.googleapis.com",
+	"www.google-analytics.com",
+	"www.google.com",
+	"www.gstatic.com",
+	"unpkg.com",
+	"identity.netlify.com",
+	"www.googletagmanager.com",
 ]
-styleSrc = [
-  "'self'",
-  "'unsafe-inline'"
-]
+styleSrc = ["'self'", "'unsafe-inline'"]
 imgSrc = [
-  "'self'",
-  "data: www.google-analytics.com",
-  "*.cloudfront.net",
-  "i.ytimg.com",
-  "lite-vimeo-embed.vercel.app",
-  "lite-vimeo-embed.now.sh",
-  "i.vimeocdn.com",
-  "eu.ui-avatars.com"
+	"'self'",
+	"data: www.google-analytics.com",
+	"*.cloudfront.net",
+	"i.ytimg.com",
+	"lite-vimeo-embed.vercel.app",
+	"lite-vimeo-embed.now.sh",
+	"i.vimeocdn.com",
+	"eu.ui-avatars.com",
 ]
 connectSrc = [
-  "'self'",
-  "*.algolia.net",
-  "*.algolianet.com",
-  "www.google-analytics.com"
+	"'self'",
+	"*.algolia.net",
+	"*.algolianet.com",
+	"www.google-analytics.com",
 ]
 frameSrc = [
-  "'self'",
-  "utteranc.es",
-  "www.google.com",
-  "www.youtube.com",
-  "www.youtube-nocookie.com",
-  "googleads.g.doubleclick.net",
-  "open.spotify.com",
-  "player.vimeo.com"
+	"'self'",
+	"utteranc.es",
+	"www.google.com",
+	"www.youtube.com",
+	"www.youtube-nocookie.com",
+	"googleads.g.doubleclick.net",
+	"open.spotify.com",
+	"player.vimeo.com",
 ]
-frameAncestors = [
-  "'none'"
-]
-manifestSrc = [
-  "'self'"
-]
-fontSrc = [
-  "'self'"
-]
-objectSrc = [
-  "'self'"
-]
+frameAncestors = ["'none'"]
+manifestSrc = ["'self'"]
+fontSrc = ["'self'"]
+objectSrc = ["'self'"]
 upgradeInsecureRequests = true
 
-[[redirects]]
-netlify = "https://eloquent-morse-196fd2.netlify.com/"
+# [[redirects]]
+# netlify = "https://eloquent-morse-196fd2.netlify.com/"
 
 [[redirects]]
 from = "/archive/*"
