@@ -4,7 +4,12 @@
 ################################################################################
 # see
 # https://gohugo.io/hugo-modules/configuration/#module-config-imports
+# https://github.com/gobwas/glob
 ################################################################################
+
+[hugoVersion]
+extended = true
+min = '0.127.0'
 
 [[imports]]
 # see https://github.com/aFarkas/lazysizes for details
