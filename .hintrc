@@ -1,7 +1,0 @@
-{
-    "extends": ["web-recommended"],
-    "formatters": [
-        "html",
-        "summary"
-    ]
-}
