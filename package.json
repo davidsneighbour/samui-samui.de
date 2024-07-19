@@ -19,7 +19,7 @@
 		"@davidsneighbour/postcss-config": "2024.3.23",
 		"@davidsneighbour/release-config": "2024.3.23",
 		"@davidsneighbour/remark-config": "2024.3.23",
-		"@davidsneighbour/stylelint-config": "2024.3.23",
+		"@davidsneighbour/stylelint-config": "2024.3.24",
 		"@davidsneighbour/tools": "2024.3.23",
 		"lazysizes": "5.3.2",
 		"pagefind": "1.1.0",
