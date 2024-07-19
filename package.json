@@ -12,7 +12,7 @@
 	},
 	"homepage": "https://samui-samui.de",
 	"dependencies": {
-		"@davidsneighbour/bootstrap-config": "2024.3.23",
+		"@davidsneighbour/bootstrap-config": "2024.3.24",
 		"@davidsneighbour/browserslist-config": "2024.3.23",
 		"@davidsneighbour/commitlint-config": "2024.3.23",
 		"@davidsneighbour/eslint-config": "2024.3.23",
