@@ -17,7 +17,7 @@
 		"@davidsneighbour/commitlint-config": "2024.3.27",
 		"@davidsneighbour/eslint-config": "2024.3.27",
 		"@davidsneighbour/postcss-config": "2024.3.27",
-		"@davidsneighbour/release-config": "2024.3.27",
+		"@davidsneighbour/release-config": "2024.3.32",
 		"@davidsneighbour/remark-config": "2024.3.27",
 		"@davidsneighbour/stylelint-config": "2024.3.27",
 		"@davidsneighbour/tools": "2024.3.27",
