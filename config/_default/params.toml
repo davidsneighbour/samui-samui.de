@@ -24,13 +24,6 @@ sitecolor = "#d02d19"
 [imaging]
 sizes = ["825", "610", "510", "450"]
 
-#############################################################
-# Search Setup
-#############################################################
-[algolia]
-vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
-params = ["categories", "tags"]
-
 [opensearch]
 # https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md
 
@@ -99,12 +92,6 @@ values = "leute"
 # label = "💬"
 # theme = "github-dark-orange"
 
-[dnb.algolia]
-appId = "166C265UOG"
-apiKey = "7e52bca82b03b3a7eb6bbee9fa7429f3"
-indexName = "samui-samui-de"
-numberLocale = "de"
-
 ################################################################################
 # hugo-head @see https://github.com/davidsneighbour/hugo-head
 ################################################################################
@@ -125,8 +112,8 @@ monetization = ""
 [dnb.head.speedoptimisation]
 control = "on" # on/off - off disables all prefetching
 prefetch = [
-	"/assets/webfonts/tomkin/Tomkin/TomkinLight/Tomkin-Light.woff",
-	"/assets/webfonts/tomkin/Tomkin/TomkinSemiLight/Tomkin-SemiLight.woff",
+  "/assets/webfonts/tomkin/Tomkin/TomkinLight/Tomkin-Light.woff",
+  "/assets/webfonts/tomkin/Tomkin/TomkinSemiLight/Tomkin-SemiLight.woff",
 ]
 preconnect = []
 prerender = []

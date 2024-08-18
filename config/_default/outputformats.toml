@@ -1,9 +1,3 @@
-[Algolia]
-mediaType = "application/json"
-baseName = "algolia"
-isPlainText = true
-notAlternative = true
-
 [REDIR]
 mediatype = "text/netlify"
 baseName = "_redirects"
