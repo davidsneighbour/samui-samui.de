@@ -1,7 +1,7 @@
 {
 	"name": "@davidsneighbour/samui-samui.de",
 	"description": "Website and content for samui-samui.de",
-	"version": "1.2023.16",
+	"version": "1.2024.0",
 	"license": "UNLICENSED",
 	"private": true,
 	"repository": "davidsneighbour/samui-samui.de",
@@ -52,8 +52,8 @@
 		}
 	},
 	"engines": {
-		"node": ">=14.14.0",
-		"npm": ">=7.15.1"
+		"node": ">=20.12.0",
+		"npm": ">=10.5.0"
 	},
 	"browserslist": [
 		"extends @davidsneighbour/browserslist-config"

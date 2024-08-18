@@ -17,7 +17,6 @@ require (
 	github.com/davidsneighbour/hugo-modules/modules/headerimage v1.2024.1 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/hooks v1.2024.11 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/icons v1.2024.9 // indirect
-	github.com/davidsneighbour/hugo-modules/modules/internals v1.2024.1 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/modder v1.2024.2 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/netlification v1.2024.7 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/opensearch v1.2024.2 // indirect
@@ -28,12 +27,10 @@ require (
 	github.com/davidsneighbour/hugo-modules/modules/robots v1.2024.4 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/schema v1.2024.0 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/security v1.2024.1 // indirect
-	github.com/davidsneighbour/hugo-modules/modules/seo v1.2024.0 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/shortcodes v1.2024.0 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/sitemap v1.2024.9 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/social v1.2024.1 // indirect
 	github.com/davidsneighbour/hugo-modules/modules/youtube v1.2024.5 // indirect
-	github.com/davidsneighbour/libraries/lazysizes v1.1.6 // indirect
 	github.com/paulirish/lite-youtube-embed v0.3.3 // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 	github.com/zenorocha/clipboard.js v2.0.11+incompatible // indirect
