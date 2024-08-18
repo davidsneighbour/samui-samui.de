@@ -5,7 +5,7 @@
 	{{- /* - see
 	https://discourse.gohugo.io/t/possible-first-list-page-showing-9-items-following-showing-10-items/36186/
 	*/ -}}
-	{{- $p := where site.RegularPages "Type" "in" site.Params.mainSections -}}
+	{{- $p := where site.RegularPages "Type" "in" site.MainSections -}}
 	{{- $p = collections.Slice site.Home | append $p -}}
 	{{- $paginator = $.Paginate $p -}}
 {{- else if eq .Section "components" -}}
