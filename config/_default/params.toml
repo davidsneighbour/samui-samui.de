@@ -175,3 +175,6 @@ class = 'btn btn-primary'
 label = 'shortcodes.form.submit'
 name = 'shortcodes.form.fieldnames.submit'
 type = 'submit'
+
+[dnb.shortcodes.pagefind]
+showImages = false
