@@ -10,7 +10,7 @@
 			"path": "../configurations"
 		},
 		{
-			"path": "../hugo-bin"
+			"path": "../namespace"
 		}
 	],
 	"settings": {
@@ -52,6 +52,7 @@
 		},
 		"[ignore]": {
 			"editor.defaultFormatter": "foxundermoon.shell-format"
-		}
+		},
+		"frontMatter.dashboard.openOnStart": true
 	}
 }
