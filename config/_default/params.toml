@@ -6,7 +6,7 @@
 # https://gohugo.io/variables/site/#the-siteparams-variable
 ################################################################################
 debug = false
-mainSections = ["post", "posts"]
+mainSections = ["posts"]
 
 # social media setup
 og_image = ""
