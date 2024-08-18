@@ -1,38 +1,21 @@
-################################################################################
-# Module setup
-## [module]
-################################################################################
-# see
-# https://gohugo.io/hugo-modules/configuration/#module-config-imports
-# https://github.com/gobwas/glob
-################################################################################
-
 [hugoVersion]
 extended = true
-min = '0.127.0'
+min = "0.122.0"
 
-[[imports]]
-# see https://github.com/aFarkas/lazysizes for details
-path = "github.com/aFarkas/lazysizes"
+[[mounts]]
+source = "assets"
+target = "assets"
 
-[[imports.mounts]]
-source = "lazysizes-umd.js"
-target = "assets/js/lazysizes/index.js"
+[[mounts]]
+source = "package.json"
+target = "assets/versions/samui.json"
 
-[[imports.mounts]]
-source = "lazysizes.js"
-target = "assets/js/lazysizes/lazysizes.js"
-
-[[imports.mounts]]
-source = "plugins"
-target = "assets/js/lazysizes/plugins"
-
+[[mounts]]
+source = "node_modules"
+target = "assets/node_modules"
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/debug"
-
-[[imports]]
-path = "github.com/davidsneighbour/hugo-modules/modules/modder"
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/hooks"
@@ -40,23 +23,32 @@ path = "github.com/davidsneighbour/hugo-modules/modules/hooks"
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/functions"
 
+# [[imports]]
+# path = "github.com/davidsneighbour/hugo-modules/modules/internals"
+
+[[imports]]
+path = "github.com/davidsneighbour/hugo-modules/modules/modder"
+
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/auditor"
+
+# [[imports]]
+# path = "github.com/davidsneighbour/hugo-modules/modules/errors"
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/feeds"
 
-# [[imports]]
-# path = "github.com/davidsneighbour/hugo-modules/modules/giscus"
+[[imports]]
+path = "github.com/davidsneighbour/hugo-modules/modules/giscus"
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/head"
 
 [[imports]]
-path = "github.com/davidsneighbour/hugo-modules/modules/icons"
+path = "github.com/davidsneighbour/hugo-modules/modules/headerimage"
 
 [[imports]]
-path = "github.com/davidsneighbour/hugo-modules/modules/internals"
+path = "github.com/davidsneighbour/hugo-modules/modules/icons"
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/netlification"
@@ -85,36 +77,31 @@ path = "github.com/davidsneighbour/hugo-modules/modules/schema"
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/security"
 
-[[imports]]
-path = "github.com/davidsneighbour/hugo-modules/modules/seo"
-
-[[imports]]
-path = "github.com/davidsneighbour/hugo-modules/modules/sitemap"
-disable = false
-ignoreConfig = false
-ignoreImports = false
-
-[[imports]]
-path = "github.com/davidsneighbour/hugo-modules/modules/social"
-disable = false
-ignoreConfig = false
-ignoreImports = false
-
-
-[[imports]]
-path = "github.com/davidsneighbour/libraries/lazysizes"
-disable = false
-ignoreConfig = false
-ignoreImports = false
+# [[imports]]
+# path = "github.com/davidsneighbour/hugo-modules/modules/seo"
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/shortcodes"
-disable = false
-ignoreConfig = false
-ignoreImports = false
+
+[[imports]]
+path = "github.com/davidsneighbour/hugo-modules/modules/sitemap"
+
+[[imports]]
+path = "github.com/davidsneighbour/hugo-modules/modules/social"
 
 [[imports]]
 path = "github.com/davidsneighbour/hugo-modules/modules/youtube"
+
+[[imports]]
 disable = false
-ignoreConfig = false
-ignoreImports = false
+ignoreConfig = true
+ignoreImports = true
+path = "github.com/csswizardry/ct"
+
+[[imports.mounts]]
+source = 'ct.css'
+target = 'assets/css/libs/ct.css'
+
+[[imports.mounts]]
+source = 'ct.css'
+target = 'static/css/libs/ct.css'
