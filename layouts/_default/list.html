@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ range $elem_index, $value := where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{ range $elem_index, $value := where site.RegularPages "Type" "in" site.MainSections }}
   <article class="{{ if eq $elem_index 0 }}first{{ end }}"{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
     {{ .Scratch.Set "firstitem" "" }}
     <header class="title">
