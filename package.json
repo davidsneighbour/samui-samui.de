@@ -80,5 +80,6 @@
 	"slug": "samui-samui-de",
 	"stylelint": {
 		"extends": "@davidsneighbour/stylelint-config"
-	}
+	},
+	"type": "module"
 }
