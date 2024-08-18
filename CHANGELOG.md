@@ -1,4 +1,6 @@
 Changelog
+## [1.2024.3](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.2...v1.2024.3) (2024-08-18)
+
 ## [1.2024.2](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.1...v1.2024.2) (2024-08-18)
 
 
