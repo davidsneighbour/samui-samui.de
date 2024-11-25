@@ -1,6 +1,5 @@
 ---
 title: Update im Hundekrieg
-type: post
 date: 2006-08-16T23:19:25+00:00
 url: /2006/08/update-im-hundekrieg/
 

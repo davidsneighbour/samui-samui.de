@@ -1,6 +1,5 @@
 ---
 title: Der Feind hinterm Spiegel
-type: post
 date: 2005-03-31T04:41:00+00:00
 url: /2005/03/der-feind-hinterm-spiegel/
 lastmod: 2023-09-10T19:14:12+07:00

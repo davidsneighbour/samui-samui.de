@@ -1,6 +1,5 @@
 ---
 title: Care-Paket
-type: post
 date: 2006-03-15T22:19:00+00:00
 url: /2006/03/carepaket/
 lastmod: 2023-09-10T19:14:12+07:00

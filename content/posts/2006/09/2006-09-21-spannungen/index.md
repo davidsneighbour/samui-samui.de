@@ -1,6 +1,5 @@
 ---
 title: Spannungen
-type: post
 date: 2006-09-21T01:21:00+00:00
 url: /2006/09/spannungen/
 

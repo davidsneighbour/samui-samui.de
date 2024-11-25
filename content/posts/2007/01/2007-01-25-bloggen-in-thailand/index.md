@@ -1,6 +1,5 @@
 ---
 title: Bloggen in Thailand – Na Endlich!
-type: post
 date: 2007-01-24T22:41:01+00:00
 url: /2007/01/bloggen-in-thailand/
 

@@ -1,6 +1,5 @@
 ---
 title: Der Autor in Erdbeerstrickmütze
-type: post
 date: 2011-06-06T02:10:23+00:00
 url: /2011/06/der-autor-in-erdbeerstrickmuetze/
 lastmod: 2023-09-10T19:14:12+07:00

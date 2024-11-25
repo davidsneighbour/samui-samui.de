@@ -1,6 +1,5 @@
 ---
 title: Check
-type: post
 date: 2008-03-18T05:10:25+00:00
 url: /2008/03/check/
 

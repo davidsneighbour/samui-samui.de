@@ -1,6 +1,5 @@
 ---
 title: Weihnachten Thaistyle
-type: post
 date: 2006-12-23T04:07:12+00:00
 url: /2006/12/weihnachten-thaistyle/
 dsq_thread_id:

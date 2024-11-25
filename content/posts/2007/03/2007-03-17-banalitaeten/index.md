@@ -1,6 +1,5 @@
 ---
 title: Banalitäten
-type: post
 date: 2007-03-17T06:08:00+00:00
 url: /2007/03/banalitaeten/
 

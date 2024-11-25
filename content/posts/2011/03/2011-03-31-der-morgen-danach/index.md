@@ -1,6 +1,5 @@
 ---
 title: Der Morgen danach
-type: post
 date: 2011-03-31T12:08:06+00:00
 url: /2011/03/der-morgen-danach/
 lastmod: 2023-09-10T19:14:12+07:00

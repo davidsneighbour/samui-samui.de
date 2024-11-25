@@ -1,6 +1,5 @@
 ---
 title: Gutes Herz, vom Geist befallen
-type: post
 date: 2005-09-05T07:36:00+00:00
 url: /2005/09/gutes-herz-vom-geist-befallen/
 dsq_thread_id:

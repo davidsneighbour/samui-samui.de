@@ -1,6 +1,5 @@
 ---
 title: Hin Da Hin Yai
-type: post
 date: 2005-03-14T19:13:00+00:00
 url: /2005/03/hin-da-hin-yai/
 dsq_thread_id:

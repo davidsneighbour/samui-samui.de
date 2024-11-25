@@ -1,6 +1,5 @@
 ---
 title: 'Wächst schneller als gedacht…'
-type: post
 date: 2008-01-03T03:16:46+00:00
 url: /2008/01/waechst-schneller-als-gedacht/
 

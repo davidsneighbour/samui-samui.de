@@ -1,6 +1,5 @@
 ---
 title: Samui-Samui-Wallpaper für Januar II
-type: post
 date: 2008-01-14T23:33:44+00:00
 url: /2008/01/samui-samui-wallpaper-fuer-januar-ii/
 dsq_thread_id:
@@ -24,13 +23,13 @@ Ich nehme natürlich an, dass ihr von Sonnenuntergängen so langsam genervt seid
 
 ### Download
 
-  * <txp:file\_download\_link id="16">1024&#215;768</txp:file\_download\_link>
-  * <txp:file\_download\_link id="17">1280&#215;1024</txp:file\_download\_link>
-  * <txp:file\_download\_link id="18">1280&#215;800</txp:file\_download\_link>
-  * <txp:file\_download\_link id="19">1440&#215;900</txp:file\_download\_link>
-  * <txp:file\_download\_link id="20">1600&#215;1200</txp:file\_download\_link>
-  * <txp:file\_download\_link id="21">1680&#215;1050</txp:file\_download\_link>
-  * <txp:file\_download\_link id="22">1920&#215;1200</txp:file\_download\_link>
+* <txp:file\_download\_link id="16">1024&#215;768</txp:file\_download\_link>
+* <txp:file\_download\_link id="17">1280&#215;1024</txp:file\_download\_link>
+* <txp:file\_download\_link id="18">1280&#215;800</txp:file\_download\_link>
+* <txp:file\_download\_link id="19">1440&#215;900</txp:file\_download\_link>
+* <txp:file\_download\_link id="20">1600&#215;1200</txp:file\_download\_link>
+* <txp:file\_download\_link id="21">1680&#215;1050</txp:file\_download\_link>
+* <txp:file\_download\_link id="22">1920&#215;1200</txp:file\_download\_link>
 
 ### Lizenz
 

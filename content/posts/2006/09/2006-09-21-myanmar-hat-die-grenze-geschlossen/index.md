@@ -1,6 +1,5 @@
 ---
 title: Myanmar hat die Grenze geschlossen
-type: post
 date: 2006-09-21T11:27:56+00:00
 url: /2006/09/myanmar-hat-die-grenze-geschlossen/
 

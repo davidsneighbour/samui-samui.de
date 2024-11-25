@@ -1,6 +1,5 @@
 ---
 title: "Businessideen I: Blogging"
-type: post
 date: 2006-07-28T23:33:00+00:00
 url: /2006/07/businessideen-i-blogging/
 lastmod: 2023-09-10T19:14:12+07:00

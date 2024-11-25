@@ -1,6 +1,5 @@
 ---
 title: Muggle auf der Insel
-type: post
 date: 2010-07-21T12:23:02+00:00
 url: /2010/07/muggle-auf-der-insel/
 lastmod: 2023-09-10T19:14:13+07:00

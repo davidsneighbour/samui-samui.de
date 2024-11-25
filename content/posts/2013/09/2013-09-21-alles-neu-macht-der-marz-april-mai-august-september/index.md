@@ -1,6 +1,5 @@
 ---
 title: 'Alles neu macht der <del>März, April, Mai, Juli, August,</del> September'
-type: post
 date: 2013-09-21T16:25:29+00:00
 url: /2013/09/alles-neu-macht-der-marz-april-mai-august-september/
 fb_author_post_id:

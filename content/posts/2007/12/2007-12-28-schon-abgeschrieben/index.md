@@ -1,6 +1,5 @@
 ---
 title: Schon abgeschrieben
-type: post
 date: 2007-12-27T23:34:45+00:00
 url: /2007/12/schon-abgeschrieben/
 

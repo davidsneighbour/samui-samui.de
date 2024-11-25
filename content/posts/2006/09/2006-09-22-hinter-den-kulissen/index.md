@@ -1,6 +1,5 @@
 ---
 title: Hinter den Kulissen
-type: post
 date: 2006-09-21T21:26:00+00:00
 url: /2006/09/hinter-den-kulissen/
 

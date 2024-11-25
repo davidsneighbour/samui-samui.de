@@ -1,6 +1,5 @@
 ---
 title: Total neue Neuigkeiten
-type: post
 date: 2006-02-24T01:56:00+00:00
 url: /2006/02/total-neue-neuigkeiten/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: In the laundry Pt. III
-type: post
 date: 2005-01-31T20:00:00+00:00
 url: /2005/02/in-the-laundry-pt-iii/
 dsq_thread_id:
@@ -15,10 +14,10 @@ Sie hatte den Seesack schon wieder mitgewaschen.
 
 Mich beschäftigen nun einige Fragen:
 
-  * Wie oft kann man den Seesack waschen, ohne dass er aus dem Leim geht?
-  * Was hei?t "Der Seesack soll nicht mitgewaschen werden" auf Thai?
-  * Hat es Sinn, den Thais das Prinzip eines Seesacks zu erklären?
-  * Ist mein Englisch wirklich so schlecht?
-  * Soll ich meine Wäsche wirklich in einer Plastiktüte in die Laundry schaffen?
+* Wie oft kann man den Seesack waschen, ohne dass er aus dem Leim geht?
+* Was hei?t "Der Seesack soll nicht mitgewaschen werden" auf Thai?
+* Hat es Sinn, den Thais das Prinzip eines Seesacks zu erklären?
+* Ist mein Englisch wirklich so schlecht?
+* Soll ich meine Wäsche wirklich in einer Plastiktüte in die Laundry schaffen?
 
 Fragen über Fragen. Aber in einer Woche muss ich ja wieder in die Wäscherei. Bis dahin wird sich ein Teil hoffentlich geklärt haben.

@@ -1,6 +1,5 @@
 ---
 title: Schie??erei im Teeladen
-type: post
 date: 2005-09-26T07:36:00+00:00
 url: /2005/09/schiesserei-im-teeladen/
 lastmod: 2023-09-10T19:14:12+07:00

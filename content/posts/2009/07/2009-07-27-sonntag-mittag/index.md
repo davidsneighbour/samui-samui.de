@@ -1,6 +1,5 @@
 ---
 title: Sonntag Mittag.
-type: post
 date: 2009-07-26T23:08:39+00:00
 url: /2009/07/sonntag-mittag/
 

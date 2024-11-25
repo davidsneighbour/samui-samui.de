@@ -1,6 +1,5 @@
 ---
 title: Update.
-type: post
 date: 2007-12-15T22:09:22+00:00
 url: /2007/12/update/
 

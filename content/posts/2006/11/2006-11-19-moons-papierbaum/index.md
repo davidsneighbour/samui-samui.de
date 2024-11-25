@@ -1,6 +1,5 @@
 ---
 title: Moons Papierbaum
-type: post
 date: 2006-11-19T08:46:16+00:00
 url: /2006/11/moons-papierbaum/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Songkran – mal wieder Neujahr
-type: post
 date: 2005-04-12T05:13:00+00:00
 url: /2005/04/songkran-mal-wieder-neujahr/
 lastmod: 2023-09-10T19:14:12+07:00

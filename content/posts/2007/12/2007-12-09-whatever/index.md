@@ -1,6 +1,5 @@
 ---
 title: Whatever
-type: post
 date: 2007-12-08T22:25:50+00:00
 url: /2007/12/whatever/
 

@@ -1,6 +1,5 @@
 ---
 title: Mopedschlüsselpostlaufzeit
-type: post
 date: 2007-01-24T07:44:43+00:00
 url: /2007/01/mopedschluesselpostlaufzeit/
 

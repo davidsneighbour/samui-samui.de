@@ -1,6 +1,5 @@
 ---
 title: Der perfekte (Eis)Tee
-type: post
 date: 2011-04-14T20:37:42+00:00
 url: /2011/04/der-perfekte-eistee/
 dsq_thread_id:

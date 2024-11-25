@@ -1,6 +1,5 @@
 ---
 title: Haar dran, Filz raus
-type: post
 date: 2008-01-05T21:20:24+00:00
 url: /2008/01/haar-dran-filz-raus/
 

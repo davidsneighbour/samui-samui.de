@@ -1,6 +1,5 @@
 ---
 title: Blogfarm N0ll.7ieben
-type: post
 date: 2006-10-04T10:09:00+00:00
 url: /2006/10/blogfarm-n0ll7ieben/
 lastmod: 2023-09-10T19:14:12+07:00

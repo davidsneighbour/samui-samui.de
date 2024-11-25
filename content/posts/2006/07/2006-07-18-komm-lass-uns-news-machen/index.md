@@ -1,6 +1,5 @@
 ---
 title: Komm lass uns News machen
-type: post
 date: 2006-07-18T00:19:23+00:00
 url: /2006/07/komm-lass-uns-news-machen/
 lastmod: 2023-09-10T19:14:12+07:00

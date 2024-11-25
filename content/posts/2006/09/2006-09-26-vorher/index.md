@@ -1,6 +1,5 @@
 ---
 title: Vorher
-type: post
 date: 2006-09-26T04:14:00+00:00
 url: /2006/09/vorher/
 

@@ -1,6 +1,5 @@
 ---
 title: Lin Ping feiert
-type: post
 date: 2010-05-27T17:45:38+00:00
 url: /2010/05/lin-ping-feiert/
 tags:

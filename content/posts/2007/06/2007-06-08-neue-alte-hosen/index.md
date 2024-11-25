@@ -1,6 +1,5 @@
 ---
 title: Neue alte Hosen
-type: post
 date: 2007-06-08T16:26:26+00:00
 url: /2007/06/neue-alte-hosen/
 

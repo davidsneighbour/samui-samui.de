@@ -1,6 +1,5 @@
 ---
 title: Singapore. Set leew.
-type: post
 date: 2005-08-04T06:56:00+00:00
 url: /2005/08/singapore-set-leew/
 lastmod: 2023-09-10T19:14:12+07:00

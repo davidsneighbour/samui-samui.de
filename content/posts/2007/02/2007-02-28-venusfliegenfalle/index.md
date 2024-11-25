@@ -1,6 +1,5 @@
 ---
 title: Venusfliegenfalle
-type: post
 date: 2007-02-27T22:59:23+00:00
 url: /2007/02/venusfliegenfalle/
 dsq_thread_id:

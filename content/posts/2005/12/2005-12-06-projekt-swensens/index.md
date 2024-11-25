@@ -1,6 +1,5 @@
 ---
 title: Projekt Swensens
-type: post
 date: 2005-12-05T19:49:49+00:00
 url: /2005/12/projekt-swensens/
 lastmod: 2023-09-10T19:14:12+07:00
@@ -17,9 +16,9 @@ Bankbude Nummer 2 war ebenfalls leer, also entschieden wir uns, in den Tesko zu 
 
 Für mich gab es eine [thailändische Grammatik der Umgangssprache][1]. Endlich mal eine ordentliche Grammatik die nach Themen sortiert ist, die nützlich sind.
 
-  * Referring to things
-  * Referring to people
-  * Questions
+* Referring to things
+* Referring to people
+* Questions
 
 ... und so weiter. Naja.
 

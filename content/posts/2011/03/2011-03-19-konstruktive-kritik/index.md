@@ -1,6 +1,5 @@
 ---
 title: Konstruktive Kritik
-type: post
 date: 2011-03-18T20:47:16+00:00
 url: /2011/03/konstruktive-kritik/
 dsq_thread_id:

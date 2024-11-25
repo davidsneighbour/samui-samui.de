@@ -1,6 +1,5 @@
 ---
 title: Skype auf Thai
-type: post
 date: 2008-03-08T00:05:10+00:00
 url: /2008/03/skype-auf-thai/
 

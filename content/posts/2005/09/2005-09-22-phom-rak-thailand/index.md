@@ -1,6 +1,5 @@
 ---
 title: Phom Rak Thailand
-type: post
 date: 2005-09-21T20:21:13+00:00
 url: /2005/09/phom-rak-thailand/
 dsq_thread_id:

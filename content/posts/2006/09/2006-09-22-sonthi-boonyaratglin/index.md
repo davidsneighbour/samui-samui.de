@@ -1,6 +1,5 @@
 ---
 title: Sonthi Boonyaratglin
-type: post
 date: 2006-09-21T23:46:22+00:00
 url: /2006/09/sonthi-boonyaratglin/
 

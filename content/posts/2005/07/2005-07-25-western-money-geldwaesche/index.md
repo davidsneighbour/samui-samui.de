@@ -1,6 +1,5 @@
 ---
 title: Western Money Geldwäsche
-type: post
 date: 2005-07-25T06:32:33+00:00
 url: /2005/07/western-money-geldwaesche/
 dsq_thread_id:

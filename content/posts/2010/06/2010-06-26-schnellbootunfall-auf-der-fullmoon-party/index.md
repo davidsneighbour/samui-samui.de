@@ -1,6 +1,5 @@
 ---
 title: Schnellbootunfall auf der Fullmoon-Party
-type: post
 date: 2010-06-26T12:15:47+00:00
 url: /2010/06/schnellbootunfall-auf-der-fullmoon-party/
 dsq_thread_id:

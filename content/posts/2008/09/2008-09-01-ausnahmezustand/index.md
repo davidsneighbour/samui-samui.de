@@ -1,6 +1,5 @@
 ---
 title: Ausnahmezustand
-type: post
 date: 2008-09-01T12:03:02+00:00
 url: /2008/09/ausnahmezustand/
 
@@ -20,8 +19,8 @@ Mit diesem etwas diletantisch ausgeführten Generalstreik haben die Demonstrante
 
 Die <span class="caps">PAD</span> hat durchaus eine Agenda:
 
-  * Samaks Regierung, die sie als Thaksins verlängerten Arm sehen, soll zurück treten
-  * Thaksin soll zurück nach Thailand geholt werden und sich seinen Anklagen stellen
+* Samaks Regierung, die sie als Thaksins verlängerten Arm sehen, soll zurück treten
+* Thaksin soll zurück nach Thailand geholt werden und sich seinen Anklagen stellen
 
 Ich bin der Meinung, letzteres hätte man auch mit normalen rechtlichen Mitteln erreicht. In den vergangenen Wochen sprach man schon von einem Putsch der Judikative, weil überaus viele Politiker verurteilt und Parteien verboten wurden. Samaks Regierung hingegen erhielt (mehr oder weniger) demokratisch die Stimmen der Mehrheit der Wählenden.
 

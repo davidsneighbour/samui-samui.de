@@ -1,6 +1,5 @@
 ---
 title: 2-Monats-Theorie widerlegt (drei ausrufezeichen)
-type: post
 date: 2006-02-01T22:20:41+00:00
 url: /2006/02/2-monats-theorie-widerlegt-drei-ausrufezeichen/
 lastmod: 2023-09-10T19:14:12+07:00

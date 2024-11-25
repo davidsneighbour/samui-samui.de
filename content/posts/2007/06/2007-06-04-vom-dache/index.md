@@ -1,6 +1,5 @@
 ---
 title: Vom Dache…
-type: post
 date: 2007-06-04T02:07:33+00:00
 url: /2007/06/vom-dache/
 

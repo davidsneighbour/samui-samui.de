@@ -1,6 +1,5 @@
 ---
 title: Sturm und Wellengang
-type: post
 date: 2006-12-22T03:02:21+00:00
 url: /2006/12/sturm-und-wellengang/
 dsq_thread_id:

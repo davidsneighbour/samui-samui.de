@@ -1,6 +1,5 @@
 ---
 title: Soi Karaoke
-type: post
 date: 2007-08-23T12:56:43+00:00
 url: /2007/08/soi-karaoke/
 
@@ -14,10 +13,10 @@ Neulich hat sogar die Karaoke-Bar auf meiner Stra?e wieder auf gemacht. Oh, achs
 
 Wenn man auf den einschlägigen Thaivideokanälen mal eine Testreihe fährt (ansieht), dann treffen drei der folgenden vier Punkte auf jede der erzählten Geschichten zu:
 
-  * Es geht um eine Frau und einen Mann, die sich lieben
-  * Einer von beiden geht in die gro?e Stadt um Geld zu verdienen
-  * Die Telefonate bleiben aus
-  * Der jeweils zurück gebliebene gibt auf oder fährt in die gro?e Stadt um den anderen zu treffen und triff ihn auch, mit einem/einer Anderen.
+* Es geht um eine Frau und einen Mann, die sich lieben
+* Einer von beiden geht in die gro?e Stadt um Geld zu verdienen
+* Die Telefonate bleiben aus
+* Der jeweils zurück gebliebene gibt auf oder fährt in die gro?e Stadt um den anderen zu treffen und triff ihn auch, mit einem/einer Anderen.
 
 Liebe ist eine traurige Angelegenheit in Thailand, gesangstechnisch betrachtet.
 

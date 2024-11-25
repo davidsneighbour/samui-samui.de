@@ -1,6 +1,5 @@
 ---
 title: Was für eine Regierung!
-type: post
 date: 2008-12-20T00:41:04+00:00
 url: /2008/12/was-fuer-eine-regierung/
 

@@ -1,6 +1,5 @@
 ---
 title: Wellenreiten
-type: post
 date: 2010-07-05T00:50:14+00:00
 url: /2010/07/wellenreiten/
 lastmod: 2023-09-10T19:14:13+07:00

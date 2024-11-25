@@ -1,6 +1,5 @@
 ---
 title: 'Holiday Outtakes XVI: Bohemian'
-type: post
 date: 2008-06-30T02:58:00+00:00
 url: /2008/06/holiday-outtakes-xvi-bohemian/
 

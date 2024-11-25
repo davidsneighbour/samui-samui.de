@@ -1,6 +1,5 @@
 ---
 title: Neulich am Pool
-type: post
 date: 2012-02-15T11:12:18+00:00
 url: /2012/02/neulich-am-pool/
 lastmod: 2023-09-10T19:14:12+07:00

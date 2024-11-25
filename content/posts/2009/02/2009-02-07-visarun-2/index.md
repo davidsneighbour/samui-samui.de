@@ -1,6 +1,5 @@
 ---
 title: Visarun
-type: post
 date: 2009-02-06T18:56:39+00:00
 url: /2009/02/visarun-2/
 

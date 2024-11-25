@@ -1,6 +1,5 @@
 ---
 title: Kurzfilmfestival Hamburg
-type: post
 date: 2010-06-02T00:25:43+00:00
 url: /2010/06/kurzfilmfestival-hamburg/
 lastmod: 2023-09-10T19:14:12+07:00

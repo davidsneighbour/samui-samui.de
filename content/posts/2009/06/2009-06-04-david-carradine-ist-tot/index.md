@@ -1,6 +1,5 @@
 ---
 title: David Carradine ist tot
-type: post
 date: 2009-06-04T00:54:41+00:00
 url: /2009/06/david-carradine-ist-tot/
 

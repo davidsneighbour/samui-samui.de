@@ -1,6 +1,5 @@
 ---
 title: Der Thaiway III
-type: post
 date: 2005-09-27T21:21:44+00:00
 url: /2005/09/der-thaiway-iii/
 lastmod: 2023-09-10T19:14:12+07:00

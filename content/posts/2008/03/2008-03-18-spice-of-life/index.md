@@ -1,6 +1,5 @@
 ---
 title: Spice of life
-type: post
 date: 2008-03-18T05:13:52+00:00
 url: /2008/03/spice-of-life/
 

@@ -1,6 +1,5 @@
 ---
 title: Die ersten kleinen ?nderungen
-type: post
 date: 2006-10-24T09:39:31+00:00
 url: /2006/10/die-ersten-kleinen-anderungen/
 

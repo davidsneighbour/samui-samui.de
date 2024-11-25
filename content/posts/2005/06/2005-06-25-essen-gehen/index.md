@@ -1,6 +1,5 @@
 ---
 title: Essen gehen
-type: post
 date: 2005-06-25T06:25:00+00:00
 url: /2005/06/essen-gehen/
 lastmod: 2023-09-10T19:14:12+07:00

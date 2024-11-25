@@ -1,6 +1,5 @@
 ---
 title: Gerüchte
-type: post
 date: 2006-09-20T05:45:00+00:00
 url: /2006/09/geruechte/
 

@@ -1,6 +1,5 @@
 ---
 title: Muay-Thai-Tag
-type: post
 date: 2011-05-02T22:37:25+00:00
 url: /2011/05/muay-thai-tag/
 lastmod: 2023-09-10T19:14:12+07:00

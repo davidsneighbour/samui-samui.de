@@ -1,6 +1,5 @@
 ---
 title: Das Jahr der Karotte
-type: post
 date: 2011-02-02T21:17:09+00:00
 url: /2011/02/das-jahr-der-karotte/
 lastmod: 2023-09-10T19:14:12+07:00

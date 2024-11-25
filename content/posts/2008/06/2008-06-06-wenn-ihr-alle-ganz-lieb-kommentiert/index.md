@@ -1,6 +1,5 @@
 ---
 title: Wenn ihr alle ganz lieb kommentiert…
-type: post
 date: 2008-06-06T02:42:18+00:00
 url: /2008/06/wenn-ihr-alle-ganz-lieb-kommentiert/
 

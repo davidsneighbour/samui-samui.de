@@ -1,6 +1,5 @@
 ---
 title: Viel Moos aber nichts los…
-type: post
 date: 2011-09-27T22:50:12+00:00
 url: /2011/09/viel-moos-aber-nichts-los/
 lastmod: 2023-09-10T19:14:12+07:00

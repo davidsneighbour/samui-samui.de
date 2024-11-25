@@ -1,6 +1,5 @@
 ---
 title: Feuer auf Borneo und Smog auf Samui
-type: post
 date: 2015-10-23T12:06:54+00:00
 url: /2015/10/feuer-auf-borneo-und-smog-auf-samui/
 tags:

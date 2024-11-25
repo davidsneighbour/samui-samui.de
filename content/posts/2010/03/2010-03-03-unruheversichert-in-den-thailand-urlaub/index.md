@@ -1,6 +1,5 @@
 ---
 title: Unruheversichert in den Thailand-Urlaub
-type: post
 date: 2010-03-03T03:36:55+00:00
 url: /2010/03/unruheversichert-in-den-thailand-urlaub/
 lastmod: 2023-09-10T19:14:13+07:00

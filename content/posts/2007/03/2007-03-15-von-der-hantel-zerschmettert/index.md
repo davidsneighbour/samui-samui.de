@@ -1,6 +1,5 @@
 ---
 title: Von der Hantel zerschmettert
-type: post
 date: 2007-03-15T12:02:15+00:00
 url: /2007/03/von-der-hantel-zerschmettert/
 

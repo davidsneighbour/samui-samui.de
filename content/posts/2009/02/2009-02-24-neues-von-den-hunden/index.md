@@ -1,6 +1,5 @@
 ---
 title: Neues von den Hunden
-type: post
 date: 2009-02-24T14:02:43+00:00
 url: /2009/02/neues-von-den-hunden/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Aus dem Fenster fallen
-type: post
 date: 2007-10-09T14:52:17+00:00
 url: /2007/10/aus-dem-fenster-fallen/
 

@@ -1,6 +1,5 @@
 ---
 title: Innerbetriebliche Kommunikation
-type: post
 date: 2006-01-10T19:53:00+00:00
 url: /2006/01/innerbetrieblichekommunikation/
 

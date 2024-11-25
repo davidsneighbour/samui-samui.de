@@ -1,6 +1,5 @@
 ---
 title: You romantic man!
-type: post
 date: 2005-11-12T20:29:00+00:00
 url: /2005/11/you-romantic-man/
 lastmod: 2023-09-10T19:14:12+07:00

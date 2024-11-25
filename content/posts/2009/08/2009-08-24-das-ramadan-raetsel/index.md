@@ -1,6 +1,5 @@
 ---
 title: Das Ramadan-Rätsel
-type: post
 date: 2009-08-24T04:08:02+00:00
 url: /2009/08/das-ramadan-raetsel/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: That life
-type: post
 date: 2007-04-21T11:47:26+00:00
 url: /2007/04/that-life/
 

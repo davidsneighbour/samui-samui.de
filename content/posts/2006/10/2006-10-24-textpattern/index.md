@@ -1,6 +1,5 @@
 ---
 title: Textpattern
-type: post
 date: 2006-10-24T11:25:28+00:00
 url: /2006/10/textpattern/
 

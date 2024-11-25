@@ -1,6 +1,5 @@
 ---
 title: Learning to drive
-type: post
 date: 2005-01-20T02:36:00+00:00
 url: /2005/01/learning-to-drive/
 dsq_thread_id:

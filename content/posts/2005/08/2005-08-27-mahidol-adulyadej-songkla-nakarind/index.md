@@ -1,6 +1,5 @@
 ---
 title: Mahidol Adulyadej, Songkla Nakarind
-type: post
 date: 2005-08-27T08:41:13+00:00
 url: /2005/08/mahidol-adulyadej-songkla-nakarind/
 lastmod: 2023-09-10T19:14:12+07:00

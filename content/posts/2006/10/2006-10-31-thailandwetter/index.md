@@ -1,6 +1,5 @@
 ---
 title: Thailandwetter
-type: post
 date: 2006-10-31T05:30:11+00:00
 url: /2006/10/thailandwetter/
 lastmod: 2023-09-10T19:14:12+07:00

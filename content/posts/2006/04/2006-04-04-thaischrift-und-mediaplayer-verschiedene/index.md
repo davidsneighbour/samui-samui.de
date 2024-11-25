@@ -1,6 +1,5 @@
 ---
 title: Thaischrift und Mediaplayer (verschiedene)
-type: post
 date: 2006-04-03T19:50:07+00:00
 url: /2006/04/thaischrift-und-mediaplayer-verschiedene/
 lastmod: 2023-09-10T19:14:12+07:00

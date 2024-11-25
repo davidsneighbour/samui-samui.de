@@ -1,6 +1,5 @@
 ---
 title: Im Arsch
-type: post
 date: 2006-10-08T09:12:39+00:00
 url: /2006/10/im-arsch/
 lastmod: 2023-09-10T19:14:12+07:00

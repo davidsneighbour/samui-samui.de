@@ -1,6 +1,5 @@
 ---
 title: Guten Morgen
-type: post
 date: 2007-09-13T16:13:51+00:00
 url: /2007/09/guten-morgen-2/
 

@@ -1,6 +1,5 @@
 ---
 title: Thaksin kommt
-type: post
 date: 2008-02-26T10:49:18+00:00
 url: /2008/02/thaksin-kommt/
 

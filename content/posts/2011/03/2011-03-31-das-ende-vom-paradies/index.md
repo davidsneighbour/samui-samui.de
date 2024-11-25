@@ -1,6 +1,5 @@
 ---
 title: Das Ende vom Paradies
-type: post
 date: 2011-03-30T21:00:57+00:00
 url: /2011/03/das-ende-vom-paradies/
 lastmod: 2023-09-10T19:14:12+07:00

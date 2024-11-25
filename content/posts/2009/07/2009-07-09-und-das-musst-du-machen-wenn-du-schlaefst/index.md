@@ -1,6 +1,5 @@
 ---
 title: Und das musst du machen wenn du schläfst…
-type: post
 date: 2009-07-09T02:18:26+00:00
 url: /2009/07/und-das-musst-du-machen-wenn-du-schlaefst/
 dsq_thread_id:

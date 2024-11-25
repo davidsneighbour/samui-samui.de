@@ -1,6 +1,5 @@
 ---
 title: Sex nach der H??ftoperation
-type: post
 date: 2005-10-25T07:11:00+00:00
 url: /2005/10/sex-nach-der-hueftoperation/
 lastmod: 2023-09-10T19:14:12+07:00

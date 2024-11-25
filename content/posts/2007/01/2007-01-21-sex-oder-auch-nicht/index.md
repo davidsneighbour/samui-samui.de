@@ -1,6 +1,5 @@
 ---
 title: Sex. Oder auch nicht.
-type: post
 date: 2007-01-21T02:06:23+00:00
 url: /2007/01/sex-oder-auch-nicht/
 dsq_thread_id:

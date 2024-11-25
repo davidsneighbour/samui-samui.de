@@ -1,6 +1,5 @@
 ---
 title: Interessant!
-type: post
 date: 2007-02-09T00:40:04+00:00
 url: /2007/02/interessant/
 

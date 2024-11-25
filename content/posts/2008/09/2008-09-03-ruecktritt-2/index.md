@@ -1,6 +1,5 @@
 ---
 title: Rücktritt?
-type: post
 date: 2008-09-03T00:30:10+00:00
 url: /2008/09/ruecktritt-2/
 

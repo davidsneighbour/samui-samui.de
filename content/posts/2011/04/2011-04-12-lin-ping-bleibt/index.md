@@ -1,6 +1,5 @@
 ---
 title: Lin Ping bleibt
-type: post
 date: 2011-04-12T13:07:49+00:00
 url: /2011/04/lin-ping-bleibt/
 tags:

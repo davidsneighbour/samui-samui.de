@@ -1,6 +1,5 @@
 ---
 title: Es ist wieder soweit
-type: post
 date: 2007-04-04T06:19:50+00:00
 url: /2007/04/after-the-fight/
 

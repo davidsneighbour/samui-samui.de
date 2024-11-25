@@ -1,6 +1,5 @@
 ---
 title: It’s this time of the year again
-type: post
 date: 2007-04-13T07:09:24+00:00
 url: /2007/04/itt-this-time-of-the-year-again/
 

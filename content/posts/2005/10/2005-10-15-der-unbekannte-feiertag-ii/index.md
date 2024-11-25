@@ -1,6 +1,5 @@
 ---
 title: Der unbekannte Feiertag II
-type: post
 date: 2005-10-15T06:55:00+00:00
 url: /2005/10/der-unbekannte-feiertag-ii/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Singapore. Ich glaub, ich komme.
-type: post
 date: 2005-08-01T01:12:00+00:00
 url: /2005/08/singapore-ich-glaub-ich-komme/
 lastmod: 2023-09-10T19:14:12+07:00
@@ -17,8 +16,8 @@ So, und dann war noch die Sache mit dem Gesetz in Singapore. Man sollte bspw. [k
 
 Mehr zu Singapore:
 
-  * [deutschsprachige Touristen-Informationsseite][4]
-  * [Singapore wird 40 im August][5]
+* [deutschsprachige Touristen-Informationsseite][4]
+* [Singapore wird 40 im August][5]
 
 PS: In Singapore ist der [Samui am nächsten gelegene IKEA][6]. Da wollte ich schon lange mal hin. Köttbullar ich komme.
 

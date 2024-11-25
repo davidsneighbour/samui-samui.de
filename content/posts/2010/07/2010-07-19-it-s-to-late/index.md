@@ -1,6 +1,5 @@
 ---
 title: … it’s to late …
-type: post
 date: 2010-07-19T15:38:13+00:00
 url: /2010/07/it-s-to-late/
 lastmod: 2023-09-10T19:14:13+07:00

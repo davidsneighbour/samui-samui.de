@@ -1,6 +1,5 @@
 ---
 title: Ringier
-type: post
 date: 2007-10-16T03:36:04+00:00
 url: /2007/10/ringier/
 

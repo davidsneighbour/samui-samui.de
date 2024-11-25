@@ -1,6 +1,5 @@
 ---
 title: Chulalongkorn Day
-type: post
 date: 2006-10-23T08:29:55+00:00
 url: /2006/10/chulalongkorn-day-2/
 

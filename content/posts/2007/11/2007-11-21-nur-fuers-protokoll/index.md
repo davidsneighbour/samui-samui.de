@@ -1,6 +1,5 @@
 ---
 title: Nur fürs Protokoll
-type: post
 date: 2007-11-21T02:45:49+00:00
 url: /2007/11/nur-fuers-protokoll/
 

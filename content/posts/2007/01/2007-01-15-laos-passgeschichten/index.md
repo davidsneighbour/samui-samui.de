@@ -1,6 +1,5 @@
 ---
 title: 'Laos: Passgeschichten'
-type: post
 date: 2007-01-14T23:06:31+00:00
 url: /2007/01/laos-passgeschichten/
 

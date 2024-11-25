@@ -1,6 +1,5 @@
 ---
 title: Zahltag. Klappe 2.
-type: post
 date: 2005-11-01T01:13:00+00:00
 url: /2005/11/zahltag-klappe-2/
 lastmod: 2023-09-10T19:14:12+07:00

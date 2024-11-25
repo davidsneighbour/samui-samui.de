@@ -1,6 +1,5 @@
 ---
 title: Warum ich die Deutsche Welle nicht mag
-type: post
 date: 2006-07-06T10:32:38+00:00
 url: /2006/07/warum-ich-die-deutsche-welle-nicht-mag/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Gleich
-type: post
 date: 2005-05-02T20:46:00+00:00
 url: /2005/05/gleich/
 dsq_thread_id:

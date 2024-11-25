@@ -1,6 +1,5 @@
 ---
 title: Ich hab mir selbst was geschenkt
-type: post
 date: 2005-12-25T22:09:00+00:00
 url: /2005/12/ichhabmirselbstwasgeschenkt/
 lastmod: 2023-09-10T19:14:12+07:00

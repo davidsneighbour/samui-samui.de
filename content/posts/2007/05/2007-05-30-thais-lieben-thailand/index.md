@@ -1,6 +1,5 @@
 ---
 title: Thais lieben Thailand
-type: post
 date: 2007-05-30T02:31:19+00:00
 url: /2007/05/thais-lieben-thailand/
 

@@ -1,6 +1,5 @@
 ---
 title: Update zum gestrigen Nachtgeschehen
-type: post
 date: 2005-10-18T05:50:56+00:00
 url: /2005/10/update-zum-gestrigen-nachtgeschehen/
 lastmod: 2023-09-10T19:14:12+07:00

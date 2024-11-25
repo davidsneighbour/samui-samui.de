@@ -1,6 +1,5 @@
 ---
 title: Bangkok V.3.0
-type: post
 date: 2005-08-31T06:50:00+00:00
 url: /2005/08/bangkok-v30/
 dsq_thread_id:

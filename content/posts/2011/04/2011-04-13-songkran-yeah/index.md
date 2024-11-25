@@ -1,6 +1,5 @@
 ---
 title: Songkran, yeah.
-type: post
 date: 2011-04-12T19:30:01+00:00
 url: /2011/04/songkran-yeah/
 lastmod: 2023-09-10T19:14:12+07:00

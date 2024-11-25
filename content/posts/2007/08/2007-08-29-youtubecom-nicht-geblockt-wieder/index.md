@@ -1,6 +1,5 @@
 ---
 title: Youtube.com nicht geblockt. Wieder.
-type: post
 date: 2007-08-28T23:57:53+00:00
 url: /2007/08/youtubecom-nicht-geblockt-wieder/
 

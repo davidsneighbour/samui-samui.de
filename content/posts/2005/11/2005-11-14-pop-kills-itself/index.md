@@ -1,6 +1,5 @@
 ---
 title: Pop kills itself with a little help of my friends
-type: post
 date: 2005-11-13T21:01:00+00:00
 url: /2005/11/pop-kills-itself/
 lastmod: 2023-09-10T19:14:12+07:00

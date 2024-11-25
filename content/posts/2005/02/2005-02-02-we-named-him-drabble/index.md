@@ -1,6 +1,5 @@
 ---
 title: We named him Drabble!
-type: post
 date: 2005-02-02T05:15:00+00:00
 url: /2005/02/we-named-him-drabble/
 dsq_thread_id:

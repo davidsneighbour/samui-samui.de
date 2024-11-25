@@ -1,6 +1,5 @@
 ---
 title: Subtilität
-type: post
 date: 2008-06-12T01:11:25+00:00
 url: /2008/06/subtilitaet-3/
 

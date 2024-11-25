@@ -1,6 +1,5 @@
 ---
 title: Hausbeschau II
-type: post
 date: 2005-08-22T06:48:00+00:00
 url: /2005/08/hausbeschau-ii/
 lastmod: 2023-09-10T19:14:12+07:00

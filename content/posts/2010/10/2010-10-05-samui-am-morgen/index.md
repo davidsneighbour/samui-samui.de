@@ -1,6 +1,5 @@
 ---
 title: Samui am Morgen
-type: post
 date: 2010-10-04T17:51:47+00:00
 url: /2010/10/samui-am-morgen/
 lastmod: 2023-09-10T19:14:13+07:00

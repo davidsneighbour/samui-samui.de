@@ -1,6 +1,5 @@
 ---
 title: Experiment Demokratie
-type: post
 date: 2006-10-24T20:29:07+00:00
 url: /2006/10/experiment-demokratie/
 lastmod: 2023-09-10T19:14:12+07:00

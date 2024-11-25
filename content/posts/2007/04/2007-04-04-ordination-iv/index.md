@@ -1,6 +1,5 @@
 ---
 title: Ordination IV
-type: post
 date: 2007-04-04T13:39:10+00:00
 url: /2007/04/ordination-iv/
 

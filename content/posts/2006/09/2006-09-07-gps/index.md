@@ -1,6 +1,5 @@
 ---
 title: GPS!
-type: post
 date: 2006-09-07T09:29:05+00:00
 url: /2006/09/gps/
 

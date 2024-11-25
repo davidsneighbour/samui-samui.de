@@ -1,6 +1,5 @@
 ---
 title: Temperatur. Umstellung.
-type: post
 date: 2005-08-06T22:32:28+00:00
 url: /2005/08/temperatur-umstellung/
 lastmod: 2023-09-10T19:14:12+07:00

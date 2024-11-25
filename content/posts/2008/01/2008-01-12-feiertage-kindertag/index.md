@@ -1,6 +1,5 @@
 ---
 title: 'Feiertage: Kindertag'
-type: post
 date: 2008-01-11T20:59:07+00:00
 url: /2008/01/feiertage-kindertag/
 

@@ -1,6 +1,5 @@
 ---
 title: Mein Arbeitsplatz.
-type: post
 date: 2006-02-27T18:59:18+00:00
 url: /2006/02/meinarbeitsplatz/
 lastmod: 2023-09-10T19:14:12+07:00

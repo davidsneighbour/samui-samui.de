@@ -1,6 +1,5 @@
 ---
 title: Der gro?e Lauf von Malaysia
-type: post
 date: 2007-04-11T00:19:11+00:00
 url: /2007/04/der-grosse-lauf-von-malaysia/
 

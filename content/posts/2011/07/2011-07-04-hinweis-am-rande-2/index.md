@@ -1,6 +1,5 @@
 ---
 title: Hinweis am Rande
-type: post
 date: 2011-07-04T03:15:41+00:00
 url: /2011/07/hinweis-am-rande-2/
 lastmod: 2023-09-10T19:14:12+07:00

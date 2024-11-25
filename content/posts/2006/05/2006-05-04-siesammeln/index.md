@@ -1,6 +1,5 @@
 ---
 title: Sie sammeln
-type: post
 date: 2006-05-04T00:39:00+00:00
 url: /2006/05/siesammeln/
 lastmod: 2023-09-10T19:14:12+07:00

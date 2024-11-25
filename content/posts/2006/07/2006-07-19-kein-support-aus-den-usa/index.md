@@ -1,6 +1,5 @@
 ---
 title: Kein Support aus den USA
-type: post
 date: 2006-07-18T21:27:00+00:00
 url: /2006/07/kein-support-aus-den-usa/
 lastmod: 2023-09-10T19:14:12+07:00

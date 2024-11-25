@@ -1,6 +1,5 @@
 ---
 title: Projekt Imagewiederherstellung I
-type: post
 date: 2005-06-22T02:25:04+00:00
 url: /2005/06/projekt-imagewiederherstellung-i/
 dsq_thread_id:

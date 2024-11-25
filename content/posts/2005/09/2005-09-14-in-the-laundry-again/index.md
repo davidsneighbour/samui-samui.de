@@ -1,6 +1,5 @@
 ---
 title: In the laundry again
-type: post
 date: 2005-09-13T19:56:57+00:00
 url: /2005/09/in-the-laundry-again/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Kein Sex in Thailand
-type: post
 date: 2005-10-24T20:24:00+00:00
 url: /2005/10/kein-sex-in-thailand/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: There is a new ride in town
-type: post
 date: 2010-01-27T23:05:04+00:00
 url: /2010/01/there-is-a-new-ride-in-town/
 lastmod: 2023-09-10T19:14:12+07:00

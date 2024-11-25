@@ -1,6 +1,5 @@
 ---
 title: Kikiat.
-type: post
 date: 2007-04-20T12:14:02+00:00
 url: /2007/04/kikiat/
 

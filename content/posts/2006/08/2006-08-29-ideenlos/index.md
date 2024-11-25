@@ -1,6 +1,5 @@
 ---
 title: Ideenlos
-type: post
 date: 2006-08-29T08:54:00+00:00
 url: /2006/08/ideenlos/
 

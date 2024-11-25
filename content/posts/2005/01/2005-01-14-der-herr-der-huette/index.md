@@ -1,6 +1,5 @@
 ---
 title: Der Herr der Hütte
-type: post
 date: 2005-01-14T00:31:57+00:00
 url: /2005/01/der-herr-der-huette/
 lastmod: 2023-09-10T19:14:12+07:00

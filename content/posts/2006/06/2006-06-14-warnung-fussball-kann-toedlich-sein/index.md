@@ -1,6 +1,5 @@
 ---
 title: 'Warnung: Fussball? kann tödlich sein'
-type: post
 date: 2006-06-14T08:27:56+00:00
 url: /2006/06/warnung-fussball-kann-toedlich-sein/
 

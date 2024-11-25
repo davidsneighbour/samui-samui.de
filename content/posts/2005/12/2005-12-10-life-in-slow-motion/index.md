@@ -1,6 +1,5 @@
 ---
 title: (Life in) Slow Motion.
-type: post
 date: 2005-12-09T19:54:00+00:00
 url: /2005/12/life-in-slow-motion/
 lastmod: 2023-09-10T19:14:12+07:00

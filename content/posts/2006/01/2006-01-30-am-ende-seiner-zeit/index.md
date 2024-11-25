@@ -1,6 +1,5 @@
 ---
 title: Am Ende seiner Zeit
-type: post
 date: 2006-01-29T21:31:00+00:00
 url: /2006/01/am-ende-seiner-zeit/
 

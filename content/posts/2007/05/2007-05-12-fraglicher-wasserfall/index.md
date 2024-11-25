@@ -1,6 +1,5 @@
 ---
 title: Fraglicher Wasserfall
-type: post
 date: 2007-05-12T07:44:57+00:00
 url: /2007/05/fraglicher-wasserfall/
 dsq_thread_id:

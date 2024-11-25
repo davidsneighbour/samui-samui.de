@@ -1,6 +1,5 @@
 ---
 title: Und pl??tzlich war ein Loch in der Wand
-type: post
 date: 2005-08-27T04:21:00+00:00
 url: /2005/08/und-ploetzlich-war-ein-loch-in-der-wand/
 lastmod: 2023-09-10T19:14:12+07:00

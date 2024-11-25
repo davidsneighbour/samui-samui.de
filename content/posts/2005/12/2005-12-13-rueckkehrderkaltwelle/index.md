@@ -1,6 +1,5 @@
 ---
 title: R??ckkehr der Kaltwelle
-type: post
 date: 2005-12-12T19:44:00+00:00
 url: /2005/12/rueckkehrderkaltwelle/
 dsq_thread_id:

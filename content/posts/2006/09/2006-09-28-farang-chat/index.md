@@ -1,6 +1,5 @@
 ---
 title: Farang-Chat
-type: post
 date: 2006-09-28T13:04:20+00:00
 url: /2006/09/farang-chat/
 

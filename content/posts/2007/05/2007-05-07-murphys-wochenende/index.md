@@ -1,6 +1,5 @@
 ---
 title: Murphys Wochenende
-type: post
 date: 2007-05-07T10:35:20+00:00
 url: /2007/05/murphys-wochenende/
 

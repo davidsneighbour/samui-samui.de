@@ -1,6 +1,5 @@
 ---
 title: This and that
-type: post
 date: 2007-05-24T01:48:45+00:00
 url: /2007/05/this-and-that/
 

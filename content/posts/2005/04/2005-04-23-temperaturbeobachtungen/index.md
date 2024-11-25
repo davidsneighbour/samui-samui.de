@@ -1,6 +1,5 @@
 ---
 title: Temperaturbeobachtungen
-type: post
 date: 2005-04-22T23:27:00+00:00
 url: /2005/04/temperaturbeobachtungen/
 lastmod: 2023-09-10T19:14:12+07:00

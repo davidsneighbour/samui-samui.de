@@ -1,6 +1,5 @@
 ---
 title: 'Holiday Outtakes XVIII: Grafitti'
-type: post
 date: 2008-07-02T03:43:25+00:00
 url: /2008/07/holiday-outtakes-xviii-grafitti/
 

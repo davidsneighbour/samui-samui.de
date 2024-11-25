@@ -1,6 +1,5 @@
 ---
 title: Verheerende Schäden
-type: post
 date: 2007-11-08T02:45:06+00:00
 url: /2007/11/verheerende-schaeden/
 

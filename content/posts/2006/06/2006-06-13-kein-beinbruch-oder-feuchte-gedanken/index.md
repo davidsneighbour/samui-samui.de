@@ -1,6 +1,5 @@
 ---
 title: (K)ein Beinbruch – oder feuchte Gedanken
-type: post
 date: 2006-06-13T07:52:00+00:00
 url: /2006/06/kein-beinbruch-oder-feuchte-gedanken/
 dsq_thread_id:

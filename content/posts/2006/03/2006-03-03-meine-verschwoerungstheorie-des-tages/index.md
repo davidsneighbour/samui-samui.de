@@ -1,6 +1,5 @@
 ---
 title: Meine Verschwörungstheorie des Tages
-type: post
 date: 2006-03-02T22:52:03+00:00
 url: /2006/03/meine-verschwoerungstheorie-des-tages/
 lastmod: 2023-09-10T19:14:12+07:00

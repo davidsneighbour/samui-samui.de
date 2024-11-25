@@ -1,6 +1,5 @@
 ---
 title: Das Wetter (hehe)
-type: post
 date: 2006-12-06T23:55:44+00:00
 url: /2006/12/das-wetter-hehe/
 

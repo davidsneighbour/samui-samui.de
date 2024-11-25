@@ -1,6 +1,5 @@
 ---
 title: Mein neuer Nachbar
-type: post
 date: 2012-04-19T00:45:46+00:00
 url: /2012/04/mein-neuer-nachbar/
 dsq_thread_id:

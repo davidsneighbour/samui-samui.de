@@ -1,6 +1,5 @@
 ---
 title: Kronprinzliches Flugzeug gepfändet
-type: post
 date: 2011-07-13T16:40:00+00:00
 url: /2011/07/kronprinzliches-flugzeug-gepfaendet/
 dsq_thread_id:

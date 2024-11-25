@@ -1,6 +1,5 @@
 ---
 title: Merry Merry!
-type: post
 date: 2008-12-25T13:45:34+00:00
 url: /2008/12/merry-merry/
 

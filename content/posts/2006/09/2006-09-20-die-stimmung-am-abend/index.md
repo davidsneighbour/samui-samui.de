@@ -1,6 +1,5 @@
 ---
 title: Die Stimmung am Abend
-type: post
 date: 2006-09-20T11:50:00+00:00
 url: /2006/09/die-stimmung-am-abend/
 

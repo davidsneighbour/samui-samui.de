@@ -1,6 +1,5 @@
 ---
 title: Sauber (5 Minuten lang)
-type: post
 date: 2012-10-26T13:40:39+00:00
 url: /2012/10/sauber-5-minuten-lang/
 fb_author_post_id:

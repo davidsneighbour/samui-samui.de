@@ -1,6 +1,5 @@
 ---
 title: Kalender-Boy
-type: post
 date: 2008-01-11T18:11:28+00:00
 url: /2008/01/kalender-boy/
 

@@ -1,6 +1,5 @@
 ---
 title: Mo(u)rning-light
-type: post
 date: 2006-02-26T23:01:00+00:00
 url: /2006/02/mourninglight/
 lastmod: 2023-09-10T19:14:12+07:00

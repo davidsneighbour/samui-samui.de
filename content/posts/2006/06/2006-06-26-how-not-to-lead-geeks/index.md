@@ -1,6 +1,5 @@
 ---
 title: How not to lead Geeks
-type: post
 date: 2006-06-26T04:45:34+00:00
 url: /2006/06/how-not-to-lead-geeks/
 

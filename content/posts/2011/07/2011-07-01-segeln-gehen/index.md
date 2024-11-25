@@ -1,6 +1,5 @@
 ---
 title: Segeln gehen
-type: post
 date: 2011-07-01T13:56:28+00:00
 url: /2011/07/segeln-gehen/
 lastmod: 2023-09-10T19:14:12+07:00

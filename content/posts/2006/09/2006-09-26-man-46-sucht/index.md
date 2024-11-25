@@ -1,6 +1,5 @@
 ---
 title: Man, 46, sucht…
-type: post
 date: 2006-09-26T10:39:00+00:00
 url: /2006/09/man-46-sucht/
 

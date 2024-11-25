@@ -1,6 +1,5 @@
 ---
 title: Thailands König ist reichster Monarch
-type: post
 date: 2009-06-20T18:34:28+00:00
 url: /2009/06/thailands-koenig-ist-reichster-monarch/
 

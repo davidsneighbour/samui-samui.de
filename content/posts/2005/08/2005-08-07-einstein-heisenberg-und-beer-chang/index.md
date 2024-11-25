@@ -1,6 +1,5 @@
 ---
 title: Einstein, Heisenberg und Beer Chang
-type: post
 date: 2005-08-06T23:17:00+00:00
 url: /2005/08/einstein-heisenberg-und-beer-chang/
 lastmod: 2023-09-10T19:14:12+07:00

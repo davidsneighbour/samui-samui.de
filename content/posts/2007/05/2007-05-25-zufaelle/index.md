@@ -1,6 +1,5 @@
 ---
 title: Zufälle
-type: post
 date: 2007-05-25T02:45:23+00:00
 url: /2007/05/zufaelle/
 

@@ -1,6 +1,5 @@
 ---
 title: Naa Naa Naa Naa Naa – oder Thai lernen
-type: post
 date: 2005-02-12T22:14:26+00:00
 url: /2005/02/naa-naa-naa-naa-naa-oder-thai-lernen/
 lastmod: 2023-09-10T19:14:12+07:00

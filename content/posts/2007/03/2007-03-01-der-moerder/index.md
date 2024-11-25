@@ -1,6 +1,5 @@
 ---
 title: Der Mörder
-type: post
 date: 2007-03-01T09:04:11+00:00
 url: /2007/03/der-moerder/
 dsq_thread_id:
@@ -14,7 +13,7 @@ Und wieder hat Lt-General Assawin Khwanmuang zugeschlagen und einen Farang-Mord 
 
 [Es wurde ein Mann verhaftet][1], der nach längerem Verhör gestanden hat, die beiden Russinnen in Pattaya umgebracht zu haben. Er hat bereits eine Polizeiakte mit mehreren ?berfällen. Nun soll es also doch ein Raub gewesen sein.
 
-Der ganzen Sache voraus gegangen ist die Einbeziehung eines ""Game-Show-Gewinners":http://www.cdnn.info/news/travel/t070228.html", der anhand der ?berwachungskamerabilder die Marke des Mopeds erkannt hat --- eine Honda Wave (das hätte ich auch gekonnt, jedes zweite Moped hier ist --- eine Honda Wave) und ein [Fahndungsphoto][2] heute Nachmittag.
+Der ganzen Sache voraus gegangen ist die Einbeziehung eines ""Game-Show-Gewinners":<http://www.cdnn.info/news/travel/t070228.html>", der anhand der ?berwachungskamerabilder die Marke des Mopeds erkannt hat --- eine Honda Wave (das hätte ich auch gekonnt, jedes zweite Moped hier ist --- eine Honda Wave) und ein [Fahndungsphoto][2] heute Nachmittag.
 
 Da fällt gar nicht weiter ins Gewicht, dass noch heute Morgen ein Raubüberfall kategorisch ausgeschlossen wurde. Weil nichts geraubt wurde.
 

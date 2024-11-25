@@ -1,6 +1,5 @@
 ---
 title: Regenzeit
-type: post
 date: 2010-12-06T22:09:52+00:00
 url: /2010/12/regenzeit-3/
 lastmod: 2023-09-10T19:14:12+07:00

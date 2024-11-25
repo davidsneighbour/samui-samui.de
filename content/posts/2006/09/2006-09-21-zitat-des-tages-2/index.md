@@ -1,6 +1,5 @@
 ---
 title: Zitat des Tages
-type: post
 date: 2006-09-20T20:10:00+00:00
 url: /2006/09/zitat-des-tages-2/
 

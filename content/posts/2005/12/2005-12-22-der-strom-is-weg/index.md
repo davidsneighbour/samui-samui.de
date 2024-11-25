@@ -1,6 +1,5 @@
 ---
 title: Der Strom (is weg)
-type: post
 date: 2005-12-22T02:56:00+00:00
 url: /2005/12/der-strom-is-weg/
 lastmod: 2023-09-10T19:14:12+07:00

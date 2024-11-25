@@ -1,6 +1,5 @@
 ---
 title: Thai sprechen
-type: post
 date: 2005-02-05T05:21:00+00:00
 url: /2005/02/thai-sprechen/
 dsq_thread_id:

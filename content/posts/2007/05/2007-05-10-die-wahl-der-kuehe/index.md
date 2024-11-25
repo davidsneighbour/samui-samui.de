@@ -1,6 +1,5 @@
 ---
 title: Die Wahl der Kühe
-type: post
 date: 2007-05-10T01:43:42+00:00
 url: /2007/05/die-wahl-der-kuehe/
 

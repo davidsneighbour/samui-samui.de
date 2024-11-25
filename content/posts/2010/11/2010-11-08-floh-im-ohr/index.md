@@ -1,6 +1,5 @@
 ---
 title: Floh im Ohr
-type: post
 date: 2010-11-08T14:03:46+00:00
 url: /2010/11/floh-im-ohr/
 dsq_thread_id:

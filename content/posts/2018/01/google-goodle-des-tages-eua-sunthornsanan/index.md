@@ -1,7 +1,6 @@
 ---
 title: "Google Doodle des Tages: Eua Sunthornsanan"
 date: 2018-01-22T22:47:32+07:00
-type: post
 url: /2018/01/google-doodle-des-tages-eua-sunthornsanan/
 tags:
 - google doodle
@@ -25,5 +24,5 @@ Am 18. Januar 1910 geboren begann er früh, die Violine zu spielen. Mit 9 Jahren
 
 Im Laufe seines Lebens komponierte er mehr als 2000 Lieder, von denen viele auch heute noch gespielt werden, schrieb Film-Musiken und führte die Suntaraporn Band, eine der prominentesten thailändischen Big Bands.
 
--   {{< languagelink "https://en.wikipedia.org/wiki/Eua_Sunthornsanan" "Eua Sunthornsanan auf Wikipedia" "en" >}}
--   {{< languagelink "https://www.google.com/doodles/eua-sunthornsanans-108th-birthday" "Google Doodle Seite für Eua Sunthornsanan" "en" >}}
+- {{< languagelink "<https://en.wikipedia.org/wiki/Eua_Sunthornsanan>" "Eua Sunthornsanan auf Wikipedia" "en" >}}
+- {{< languagelink "<https://www.google.com/doodles/eua-sunthornsanans-108th-birthday>" "Google Doodle Seite für Eua Sunthornsanan" "en" >}}

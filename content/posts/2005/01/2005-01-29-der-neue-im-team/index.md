@@ -1,6 +1,5 @@
 ---
 title: Der Neue im Team
-type: post
 date: 2005-01-29T04:10:35+00:00
 url: /2005/01/der-neue-im-team/
 dsq_thread_id:

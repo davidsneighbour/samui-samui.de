@@ -1,6 +1,5 @@
 ---
 title: Ong Bak 3
-type: post
 date: 2010-01-13T18:47:14+00:00
 url: /2010/01/ong-bak-3-2/
 lastmod: 2023-09-10T19:14:13+07:00

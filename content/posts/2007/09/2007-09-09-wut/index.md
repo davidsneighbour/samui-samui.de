@@ -1,6 +1,5 @@
 ---
 title: Wut
-type: post
 date: 2007-09-08T23:25:52+00:00
 url: /2007/09/wut/
 

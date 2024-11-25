@@ -1,6 +1,5 @@
 ---
 title: Samui im Fernsehen
-type: post
 date: 2007-01-11T06:41:14+00:00
 url: /2007/01/samui-im-fernsehen/
 

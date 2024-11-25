@@ -1,6 +1,5 @@
 ---
 title: Ohne Worte
-type: post
 date: 2007-01-05T04:09:11+00:00
 url: /2007/01/ohne-worte/
 

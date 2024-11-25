@@ -1,6 +1,5 @@
 ---
 title: Referenzmarketing
-type: post
 date: 2006-07-27T11:28:00+00:00
 url: /2006/07/referenzmarketing/
 lastmod: 2023-09-10T19:14:12+07:00

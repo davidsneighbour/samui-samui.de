@@ -1,6 +1,5 @@
 ---
 title: Thai-Food des Terrors
-type: post
 date: 2007-10-04T13:04:30+00:00
 url: /2007/10/thai-food-des-terrors/
 

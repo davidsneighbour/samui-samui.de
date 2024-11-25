@@ -1,6 +1,5 @@
 ---
 title: Darf ich vorstellen…
-type: post
 date: 2008-10-11T17:12:26+00:00
 url: /2008/10/darf-ich-vorstellen/
 

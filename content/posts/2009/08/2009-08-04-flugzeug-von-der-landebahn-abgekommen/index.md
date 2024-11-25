@@ -1,6 +1,5 @@
 ---
 title: Flugzeug von der Landebahn abgekommen
-type: post
 date: 2009-08-03T17:55:05+00:00
 url: /2009/08/flugzeug-von-der-landebahn-abgekommen/
 

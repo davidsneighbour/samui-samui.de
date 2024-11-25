@@ -1,7 +1,6 @@
 ---
 title: Der alte Weg
 description: ""
-type: post
 date: 2019-07-02T20:40:40+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 url: /2019/07/der-alte-weg/
@@ -21,5 +20,5 @@ In seiner Erklärung erklärte er nun verschwurbelt, dass er das Problem nicht m
 
 Leider sind Wetten in diesem Land verboten.
 
--   {{< languagelink "http://www.khaosodenglish.com/politics/2019/07/01/prayuth-sorry-for-cabinet-infighting/" "Prayuth Sorry for Cabinet Infighting" "en" >}}
--   {{< languagelink "http://www.khaosodenglish.com/politics/2019/07/02/opposition-alarmed-by-prayuths-coup-threat/" "Opposition Alarmed by Prayuth’s ‘Coup Threat’" "en" >}}
+- {{< languagelink "<http://www.khaosodenglish.com/politics/2019/07/01/prayuth-sorry-for-cabinet-infighting/>" "Prayuth Sorry for Cabinet Infighting" "en" >}}
+- {{< languagelink "<http://www.khaosodenglish.com/politics/2019/07/02/opposition-alarmed-by-prayuths-coup-threat/>" "Opposition Alarmed by Prayuth’s ‘Coup Threat’" "en" >}}

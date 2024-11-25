@@ -1,6 +1,5 @@
 ---
 title: Thailand vs. Vietnam
-type: post
 date: 2007-08-29T22:31:08+00:00
 url: /2007/08/thailand-vs-vietnam/
 

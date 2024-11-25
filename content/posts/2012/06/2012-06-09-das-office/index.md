@@ -1,6 +1,5 @@
 ---
 title: Das Office
-type: post
 date: 2012-06-09T14:07:30+00:00
 url: /2012/06/das-office/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Blablabla Kap
-type: post
 date: 2005-09-24T01:13:14+00:00
 url: /2005/09/blablabla-kap/
 lastmod: 2023-09-10T19:14:12+07:00

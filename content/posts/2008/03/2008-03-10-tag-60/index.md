@@ -1,6 +1,5 @@
 ---
 title: Tag 60
-type: post
 date: 2008-03-10T02:50:21+00:00
 url: /2008/03/tag-60/
 

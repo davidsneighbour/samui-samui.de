@@ -1,6 +1,5 @@
 ---
 title: Kalt
-type: post
 date: 2005-01-24T19:11:53+00:00
 url: /2005/01/kalt/
 lastmod: 2023-09-10T19:14:12+07:00

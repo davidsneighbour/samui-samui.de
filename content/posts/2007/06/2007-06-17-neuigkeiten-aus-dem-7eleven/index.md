@@ -1,6 +1,5 @@
 ---
 title: Neuigkeiten aus dem 7eleven
-type: post
 date: 2007-06-17T14:39:51+00:00
 url: /2007/06/neuigkeiten-aus-dem-7eleven/
 

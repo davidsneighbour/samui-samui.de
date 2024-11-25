@@ -1,6 +1,5 @@
 ---
 title: Wir chillen…
-type: post
 date: 2013-01-15T10:19:44+00:00
 url: /2013/01/wir-chillen/
 fb_mentioned_pages:

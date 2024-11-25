@@ -1,6 +1,5 @@
 ---
 title: One two weeks.
-type: post
 date: 2005-07-28T20:25:29+00:00
 url: /2005/07/one-two-weeks/
 lastmod: 2023-09-10T19:14:12+07:00

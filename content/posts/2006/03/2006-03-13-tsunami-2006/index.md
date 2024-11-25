@@ -1,6 +1,5 @@
 ---
 title: Tsunami 2006
-type: post
 date: 2006-03-12T19:17:00+00:00
 url: /2006/03/tsunami-2006/
 lastmod: 2023-09-10T19:14:12+07:00

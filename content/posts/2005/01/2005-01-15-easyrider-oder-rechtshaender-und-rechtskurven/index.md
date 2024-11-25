@@ -1,6 +1,5 @@
 ---
 title: EasyRider – oder Rechtshänder und Rechtskurven
-type: post
 date: 2005-01-15T00:32:00+00:00
 url: /2005/01/easyrider-oder-rechtshaender-und-rechtskurven/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Zwei Hunde und gefrorene Hühnerschenkel
-type: post
 date: 2011-03-20T20:21:12+00:00
 url: /2011/03/zwei-hunde-und-gefrorene-huehnerschenkel/
 dsq_thread_id:

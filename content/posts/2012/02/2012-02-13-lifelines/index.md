@@ -1,6 +1,5 @@
 ---
 title: Lifelines
-type: post
 date: 2012-02-13T10:06:28+00:00
 url: /2012/02/lifelines/
 lastmod: 2023-09-10T19:14:12+07:00

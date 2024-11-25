@@ -1,6 +1,5 @@
 ---
 title: Bangkok, der Naturpark
-type: post
 date: 2017-01-27T13:53:12+00:00
 url: /2017/01/naturpark-bangkok/
 tags:

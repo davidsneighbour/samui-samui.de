@@ -1,6 +1,5 @@
 ---
 title: Projekt Passeborth
-type: post
 date: 2005-06-03T07:16:00+00:00
 url: /2005/06/projekt-passeborth/
 dsq_thread_id:

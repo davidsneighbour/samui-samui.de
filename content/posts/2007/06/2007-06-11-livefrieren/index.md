@@ -1,6 +1,5 @@
 ---
 title: Livefrieren
-type: post
 date: 2007-06-10T19:05:02+00:00
 url: /2007/06/livefrieren/
 

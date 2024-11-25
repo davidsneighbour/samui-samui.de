@@ -1,6 +1,5 @@
 ---
 title: 'Lesungsanregung: Der Mirus'
-type: post
 date: 2006-08-16T11:59:00+00:00
 url: /2006/08/lesungsanregung-der-mirus/
 

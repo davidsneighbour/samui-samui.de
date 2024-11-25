@@ -1,6 +1,5 @@
 ---
 title: Heut keine News
-type: post
 date: 2005-02-16T20:40:00+00:00
 url: /2005/02/heut-keine-news/
 dsq_thread_id:

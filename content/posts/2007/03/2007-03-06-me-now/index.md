@@ -1,6 +1,5 @@
 ---
 title: Me now.
-type: post
 date: 2007-03-06T12:24:54+00:00
 url: /2007/03/me-now/
 dsq_thread_id:

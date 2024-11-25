@@ -1,6 +1,5 @@
 ---
 title: Des Bosses Tochter
-type: post
 date: 2008-03-18T05:16:04+00:00
 url: /2008/03/des-bosses-tochter/
 

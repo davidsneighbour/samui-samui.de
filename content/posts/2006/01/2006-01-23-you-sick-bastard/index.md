@@ -1,6 +1,5 @@
 ---
 title: You sick bastard!
-type: post
 date: 2006-01-22T21:12:00+00:00
 url: /2006/01/you-sick-bastard/
 

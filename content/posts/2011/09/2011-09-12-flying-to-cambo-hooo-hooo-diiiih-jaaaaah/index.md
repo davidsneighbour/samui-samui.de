@@ -1,6 +1,5 @@
 ---
 title: Flying to Cambo-hooo-hooo-diiiih-jaaaaah…
-type: post
 date: 2011-09-11T20:33:37+00:00
 url: /2011/09/flying-to-cambo-hooo-hooo-diiiih-jaaaaah/
 dsq_thread_id:

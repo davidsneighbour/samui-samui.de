@@ -1,6 +1,5 @@
 ---
 title: Es ist mal wieder soweit
-type: post
 date: 2008-01-31T01:28:02+00:00
 url: /2008/01/es-ist-mal-wieder-soweit/
 

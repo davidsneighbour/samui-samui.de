@@ -1,6 +1,5 @@
 ---
 title: Missing 25 Years After Taking Wrong Bus
-type: post
 date: 2007-02-07T06:42:49+00:00
 url: /2007/02/missing-25-years-after-taking-wrong-bus/
 

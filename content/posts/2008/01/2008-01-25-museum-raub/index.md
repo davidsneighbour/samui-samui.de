@@ -1,6 +1,5 @@
 ---
 title: Museum-Raub
-type: post
 date: 2008-01-25T12:47:31+00:00
 url: /2008/01/museum-raub/
 

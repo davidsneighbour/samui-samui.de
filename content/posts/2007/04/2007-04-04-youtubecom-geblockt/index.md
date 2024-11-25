@@ -1,6 +1,5 @@
 ---
 title: Youtube.com geblockt
-type: post
 date: 2007-04-04T05:21:27+00:00
 url: /2007/04/youtubecom-geblockt/
 dsq_thread_id:

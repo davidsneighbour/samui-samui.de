@@ -1,6 +1,5 @@
 ---
 title: Leben wie im Paradies – Auswanderer auf Koh Samui
-type: post
 date: 2017-01-03T14:21:49+00:00
 url: /2017/01/leben-wie-im-paradies-auswanderer-auf-koh-samui/
 tags:

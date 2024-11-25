@@ -1,6 +1,5 @@
 ---
 title: Fürs Familienalbum
-type: post
 date: 2009-09-26T15:47:17+00:00
 url: /2009/09/fuers-familienalbum/
 

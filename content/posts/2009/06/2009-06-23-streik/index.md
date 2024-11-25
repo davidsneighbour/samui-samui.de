@@ -1,6 +1,5 @@
 ---
 title: Streik
-type: post
 date: 2009-06-22T21:20:01+00:00
 url: /2009/06/streik/
 

@@ -1,6 +1,5 @@
 ---
 title: Verkauft (aber nicht verraten)
-type: post
 date: 2008-08-31T21:56:22+00:00
 url: /2008/09/verkauft-aber-nicht-verraten/
 

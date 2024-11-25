@@ -1,6 +1,5 @@
 ---
 title: Subversive H??resie
-type: post
 date: 2005-09-09T06:32:00+00:00
 url: /2005/09/subversive-haeresie/
 dsq_thread_id:

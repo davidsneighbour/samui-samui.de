@@ -1,6 +1,5 @@
 ---
 title: Wie man kaputte Motorräder zurück gibt
-type: post
 date: 2005-01-21T02:05:00+00:00
 url: /2005/01/wie-man-kaputte-motorraeder-zurueck-gibt/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Gong Xi Fa Chi
-type: post
 date: 2007-02-18T08:16:40+00:00
 url: /2007/02/gong-xi-fa-chi/
 

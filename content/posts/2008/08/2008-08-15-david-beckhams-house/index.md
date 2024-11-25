@@ -1,6 +1,5 @@
 ---
 title: David Beckham’s House
-type: post
 date: 2008-08-15T02:33:05+00:00
 url: /2008/08/david-beckhams-house/
 

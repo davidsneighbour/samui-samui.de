@@ -1,6 +1,5 @@
 ---
 title: Investieren?
-type: post
 date: 2008-03-25T03:27:33+00:00
 url: /2008/03/investieren/
 

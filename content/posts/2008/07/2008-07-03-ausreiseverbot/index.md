@@ -1,6 +1,5 @@
 ---
 title: Ausreiseverbot
-type: post
 date: 2008-07-02T22:47:05+00:00
 url: /2008/07/ausreiseverbot/
 

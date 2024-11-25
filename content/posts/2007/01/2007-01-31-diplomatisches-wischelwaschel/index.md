@@ -1,6 +1,5 @@
 ---
 title: Diplomatisches Wischelwaschel
-type: post
 date: 2007-01-31T09:09:34+00:00
 url: /2007/01/diplomatisches-wischelwaschel/
 

@@ -1,6 +1,5 @@
 ---
 title: May Mii Bumbui
-type: post
 date: 2005-09-07T20:26:00+00:00
 url: /2005/09/may-mii-bumbui/
 dsq_thread_id:

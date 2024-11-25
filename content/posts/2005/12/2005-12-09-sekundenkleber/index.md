@@ -1,6 +1,5 @@
 ---
 title: Sekundenkleber
-type: post
 date: 2005-12-08T23:06:05+00:00
 url: /2005/12/sekundenkleber/
 dsq_thread_id:

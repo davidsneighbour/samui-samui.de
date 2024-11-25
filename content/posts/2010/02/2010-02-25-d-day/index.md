@@ -1,6 +1,5 @@
 ---
 title: D-Day
-type: post
 date: 2010-02-25T12:29:45+00:00
 url: /2010/02/d-day/
 lastmod: 2023-09-10T19:14:13+07:00

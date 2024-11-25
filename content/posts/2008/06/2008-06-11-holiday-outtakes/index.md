@@ -1,6 +1,5 @@
 ---
 title: Holiday Outtakes
-type: post
 date: 2008-06-11T03:38:08+00:00
 url: /2008/06/holiday-outtakes/
 

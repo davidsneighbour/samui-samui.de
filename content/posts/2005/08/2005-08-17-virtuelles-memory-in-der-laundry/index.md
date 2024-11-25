@@ -1,6 +1,5 @@
 ---
 title: Virtuelles Memory in der Laundry
-type: post
 date: 2005-08-16T20:43:00+00:00
 url: /2005/08/virtuelles-memory-in-der-laundry/
 lastmod: 2023-09-10T19:14:12+07:00

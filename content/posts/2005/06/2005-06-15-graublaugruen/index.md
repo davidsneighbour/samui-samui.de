@@ -1,6 +1,5 @@
 ---
 title: Graublaugrün
-type: post
 date: 2005-06-15T06:51:00+00:00
 url: /2005/06/graublaugruen/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Dinner for One
-type: post
 date: 2005-11-01T19:03:23+00:00
 url: /2005/11/dinner-for-one/
 lastmod: 2023-09-10T19:14:12+07:00

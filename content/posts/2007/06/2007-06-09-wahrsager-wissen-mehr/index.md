@@ -1,6 +1,5 @@
 ---
 title: Wahrsager wissen mehr
-type: post
 date: 2007-06-09T00:37:44+00:00
 url: /2007/06/wahrsager-wissen-mehr/
 

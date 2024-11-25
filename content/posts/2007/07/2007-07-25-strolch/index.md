@@ -1,6 +1,5 @@
 ---
 title: Strolch
-type: post
 date: 2007-07-24T21:32:31+00:00
 url: /2007/07/strolch/
 

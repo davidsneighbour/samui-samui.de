@@ -1,6 +1,5 @@
 ---
 title: Raubbau
-type: post
 date: 2006-07-15T23:56:00+00:00
 url: /2006/07/raubbau/
 lastmod: 2023-09-10T19:14:12+07:00
@@ -17,7 +16,7 @@ Nun werden _alle_ Eigentumsverhältnisse auf Samui und Phang Ngan geprüft. Hart
 
 Mehr dazu in den News:
 
-  * <a href="http://www.nationmultimedia.com/2006/07/13/national/national_30008549.php" xml:lang="en-en">Land ownership on Samui being checked</a>
-  * <a href="http://www.bangkokpost.com/News/16Jul2006_news05.php" xml:lang="en-en">DSI to examine Samui land development scam</a>
-  * <a href="http://www.nationmultimedia.com/2006/07/15/national/national_30008778.php" xml:lang="en-en">Findings reveal less than half of land legally bought</a>
-  * <a href="http://www.nationmultimedia.com/2006/07/15/headlines/headlines_30008807.php" xml:lang="en-en">Land ownership on Samui to be probed: Yongyuth</a>
+* <a href="http://www.nationmultimedia.com/2006/07/13/national/national_30008549.php" xml:lang="en-en">Land ownership on Samui being checked</a>
+* <a href="http://www.bangkokpost.com/News/16Jul2006_news05.php" xml:lang="en-en">DSI to examine Samui land development scam</a>
+* <a href="http://www.nationmultimedia.com/2006/07/15/national/national_30008778.php" xml:lang="en-en">Findings reveal less than half of land legally bought</a>
+* <a href="http://www.nationmultimedia.com/2006/07/15/headlines/headlines_30008807.php" xml:lang="en-en">Land ownership on Samui to be probed: Yongyuth</a>

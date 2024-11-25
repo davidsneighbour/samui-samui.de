@@ -1,6 +1,5 @@
 ---
 title: Schwarzes Schaf
-type: post
 date: 2007-02-05T09:52:16+00:00
 url: /2007/02/schwarzes-schaf/
 

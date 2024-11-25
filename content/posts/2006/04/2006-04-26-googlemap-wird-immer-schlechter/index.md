@@ -1,6 +1,5 @@
 ---
 title: Googlemap wird immer schlechter
-type: post
 date: 2006-04-25T23:48:00+00:00
 url: /2006/04/googlemap-wird-immer-schlechter/
 lastmod: 2023-09-10T19:14:12+07:00

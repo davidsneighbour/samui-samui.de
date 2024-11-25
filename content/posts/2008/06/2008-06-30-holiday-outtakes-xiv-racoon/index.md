@@ -1,6 +1,5 @@
 ---
 title: 'Holiday Outtakes XIV: Racoon'
-type: post
 date: 2008-06-30T02:54:30+00:00
 url: /2008/06/holiday-outtakes-xiv-racoon/
 

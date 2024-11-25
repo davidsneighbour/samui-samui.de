@@ -1,6 +1,5 @@
 ---
 title: Willkommen in der Regensaison
-type: post
 date: 2009-05-20T19:25:16+00:00
 url: /2009/05/willkommen-in-der-regensaison/
 

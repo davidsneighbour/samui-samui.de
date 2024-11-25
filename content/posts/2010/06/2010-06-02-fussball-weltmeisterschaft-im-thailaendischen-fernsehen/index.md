@@ -1,6 +1,5 @@
 ---
 title: Fussball-Weltmeisterschaft im thailändischen Fernsehen
-type: post
 date: 2010-06-01T23:32:34+00:00
 url: /2010/06/fussball-weltmeisterschaft-im-thailaendischen-fernsehen/
 lastmod: 2023-09-10T19:14:12+07:00

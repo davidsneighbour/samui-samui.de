@@ -1,6 +1,5 @@
 ---
 title: Kindertag
-type: post
 date: 2012-01-13T13:05:49+00:00
 url: /2012/01/kindertag-2/
 lastmod: 2023-09-10T19:14:12+07:00

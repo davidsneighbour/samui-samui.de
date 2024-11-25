@@ -1,6 +1,5 @@
 ---
 title: Tiefe Schärfe
-type: post
 date: 2006-12-20T06:40:45+00:00
 url: /2006/12/tiefe-schaerfe/
 

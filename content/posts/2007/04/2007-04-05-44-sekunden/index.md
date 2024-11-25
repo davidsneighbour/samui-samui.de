@@ -1,6 +1,5 @@
 ---
 title: 44 Sekunden
-type: post
 date: 2007-04-05T06:20:28+00:00
 url: /2007/04/44-sekunden/
 

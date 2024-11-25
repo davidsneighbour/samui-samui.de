@@ -1,6 +1,5 @@
 ---
 title: 'Ach übrigens…'
-type: post
 date: 2008-12-10T00:46:16+00:00
 url: /2008/12/ach-uebrigens-3/
 

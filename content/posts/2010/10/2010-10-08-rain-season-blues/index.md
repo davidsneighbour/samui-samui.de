@@ -1,6 +1,5 @@
 ---
 title: Rain Season Blues
-type: post
 date: 2010-10-07T23:00:51+00:00
 url: /2010/10/rain-season-blues/
 lastmod: 2023-09-10T19:14:13+07:00

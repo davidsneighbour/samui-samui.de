@@ -1,6 +1,5 @@
 ---
 title: Hundeleben
-type: post
 date: 2007-02-20T05:42:14+00:00
 url: /2007/02/hundeleben-2/
 dsq_thread_id:

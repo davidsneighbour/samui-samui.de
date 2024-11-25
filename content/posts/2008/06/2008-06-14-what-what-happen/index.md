@@ -1,6 +1,5 @@
 ---
 title: What? What happen!
-type: post
 date: 2008-06-13T18:41:01+00:00
 url: /2008/06/what-what-happen/
 

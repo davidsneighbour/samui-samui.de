@@ -1,6 +1,5 @@
 ---
 title: Landkauf und -besitz für Ausländer
-type: post
 date: 2006-03-27T19:26:00+00:00
 url: /2006/03/landkaufundbesitzfuerauslaender/
 dsq_thread_id:

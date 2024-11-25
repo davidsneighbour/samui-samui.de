@@ -1,6 +1,5 @@
 ---
 title: Waffenstillstand
-type: post
 date: 2008-07-16T22:26:01+00:00
 url: /2008/07/waffenstillstand/
 

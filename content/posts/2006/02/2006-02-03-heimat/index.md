@@ -1,6 +1,5 @@
 ---
 title: Heimat
-type: post
 date: 2006-02-03T02:09:42+00:00
 url: /2006/02/heimat/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Wenig lustig
-type: post
 date: 2006-07-06T11:02:56+00:00
 url: /2006/07/wenig-lustig/
 lastmod: 2023-09-10T19:14:12+07:00

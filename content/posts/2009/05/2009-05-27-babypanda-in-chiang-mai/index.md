@@ -1,6 +1,5 @@
 ---
 title: Babypanda in Chiang Mai
-type: post
 date: 2009-05-27T01:48:00+00:00
 url: /2009/05/babypanda-in-chiang-mai/
 

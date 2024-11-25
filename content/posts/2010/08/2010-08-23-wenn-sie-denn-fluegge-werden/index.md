@@ -1,6 +1,5 @@
 ---
 title: Wenn sie denn flügge werden…
-type: post
 date: 2010-08-23T01:51:48+00:00
 url: /2010/08/wenn-sie-denn-fluegge-werden/
 lastmod: 2023-09-10T19:14:12+07:00

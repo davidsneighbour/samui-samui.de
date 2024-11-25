@@ -1,6 +1,5 @@
 ---
 title: Krieg auf der Terasse…
-type: post
 date: 2007-06-07T00:43:15+00:00
 url: /2007/06/krieg-auf-der-terasse/
 

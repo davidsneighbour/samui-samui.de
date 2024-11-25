@@ -1,6 +1,5 @@
 ---
 title: Thailand goes Panda
-type: post
 date: 2009-06-25T20:39:36+00:00
 url: /2009/06/thailand-goes-panda/
 

@@ -1,6 +1,5 @@
 ---
 title: Connectivity
-type: post
 date: 2005-01-24T02:05:00+00:00
 url: /2005/01/connectivity/
 dsq_thread_id:

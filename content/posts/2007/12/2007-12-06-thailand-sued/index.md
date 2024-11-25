@@ -1,6 +1,5 @@
 ---
 title: Thailand, Süd
-type: post
 date: 2007-12-06T00:41:18+00:00
 url: /2007/12/thailand-sued/
 

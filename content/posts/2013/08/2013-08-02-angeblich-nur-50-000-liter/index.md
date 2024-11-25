@@ -1,6 +1,5 @@
 ---
 title: (angeblich nur) 50.000 Liter
-type: post
 date: 2013-08-02T15:15:14+00:00
 url: /2013/08/angeblich-nur-50-000-liter/
 fb_author_post_id:

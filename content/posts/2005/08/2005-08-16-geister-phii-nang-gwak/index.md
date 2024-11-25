@@ -1,6 +1,5 @@
 ---
 title: Phii Nang Kwak
-type: post
 date: 2005-08-15T22:43:00+00:00
 url: /2005/08/geister-phii-nang-gwak/
 lastmod: 2023-09-10T19:14:12+07:00

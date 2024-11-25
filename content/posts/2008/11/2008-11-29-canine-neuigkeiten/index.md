@@ -1,6 +1,5 @@
 ---
 title: Canine Neuigkeiten
-type: post
 date: 2008-11-28T18:54:51+00:00
 url: /2008/11/canine-neuigkeiten/
 

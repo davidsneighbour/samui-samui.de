@@ -1,6 +1,5 @@
 ---
 title: Der Autor in entspannter Pose
-type: post
 date: 2010-06-05T02:09:04+00:00
 url: /2010/06/der-autor-in-entspannter-pose/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Thaksin backs down as the prime minister but will carry on political career
-type: post
 date: 2006-04-04T19:22:50+00:00
 url: /2006/04/thaksin-backs-down-as-the-prime-minister-but-will-carry-on-political-career/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: 5-Minuten-Regen
-type: post
 date: 2006-04-19T02:39:00+00:00
 url: /2006/04/5minutenregen/
 lastmod: 2023-09-10T19:14:12+07:00

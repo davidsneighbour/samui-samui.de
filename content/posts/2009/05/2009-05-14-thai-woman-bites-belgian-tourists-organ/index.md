@@ -1,6 +1,5 @@
 ---
 title: Thai woman bites Belgian tourist’s organ
-type: post
 date: 2009-05-13T23:29:41+00:00
 url: /2009/05/thai-woman-bites-belgian-tourists-organ/
 

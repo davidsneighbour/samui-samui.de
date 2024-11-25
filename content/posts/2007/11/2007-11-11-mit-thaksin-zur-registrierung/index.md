@@ -1,6 +1,5 @@
 ---
 title: Mit Thaksin zur Registrierung
-type: post
 date: 2007-11-11T13:03:47+00:00
 url: /2007/11/mit-thaksin-zur-registrierung/
 

@@ -1,6 +1,5 @@
 ---
 title: Laob
-type: post
 date: 2007-01-16T23:02:39+00:00
 url: /2007/01/laob/
 

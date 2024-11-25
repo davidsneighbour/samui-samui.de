@@ -1,7 +1,6 @@
 ---
 title: "Meet Me in the Senate"
 date: 2019-05-16T20:25:48+07:00
-type: post
 url: /2019/05/meet-me-in-the-senate
 tags:
 - senat
@@ -30,8 +29,6 @@ Laut Prayuth ist es auch gar nicht so falsch, den Senat mit Beamten aus der aktu
 <!--lint disable write-good-->
 Wenn man ihn dann aber direkt Fragen stellt, sagt er, dass die Wahlkommission den Senat gewählt habe. Nicht er. Zitat: "Prayuth, in a fit of anger, quipped: It was the EC!".
 
--   {{< languagelink "http://www.khaosodenglish.com/politics/2019/05/14/junta-unveils-250-unelected-senators/" "Government unveils 250 senators full of generals and junta favourites" "en" >}}
--   {{< languagelink "http://www.khaosodenglish.com/politics/2019/05/16/prayuth-says-new-senators-have-kings-endorsement/" "Prayuth says new senators have King's endorsement" "en" >}}
--   {{< languagelink "http://www.ratchakitcha.soc.go.th/DATA/PDF/2562/E/121/T_0001.PDF" "Offizielle Liste der neuen Senatoren" "th" >}}
-
-
+- {{< languagelink "<http://www.khaosodenglish.com/politics/2019/05/14/junta-unveils-250-unelected-senators/>" "Government unveils 250 senators full of generals and junta favourites" "en" >}}
+- {{< languagelink "<http://www.khaosodenglish.com/politics/2019/05/16/prayuth-says-new-senators-have-kings-endorsement/>" "Prayuth says new senators have King's endorsement" "en" >}}
+- {{< languagelink "<http://www.ratchakitcha.soc.go.th/DATA/PDF/2562/E/121/T_0001.PDF>" "Offizielle Liste der neuen Senatoren" "th" >}}

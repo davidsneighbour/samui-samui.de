@@ -1,6 +1,5 @@
 ---
 title: (Keine) CIA-"Gefängnisse“ in Thailand
-type: post
 date: 2008-01-17T12:14:22+00:00
 url: /2008/01/keine-cia-gefaengnisse-in-thailand/
 

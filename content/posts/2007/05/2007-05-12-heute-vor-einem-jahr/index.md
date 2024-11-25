@@ -1,6 +1,5 @@
 ---
 title: Heute vor einem Jahr…
-type: post
 date: 2007-05-12T11:58:08+00:00
 url: /2007/05/heute-vor-einem-jahr/
 

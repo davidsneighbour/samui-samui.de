@@ -1,6 +1,5 @@
 ---
 title: Spiegeleien II
-type: post
 date: 2009-04-22T01:47:03+00:00
 url: /2009/04/spiegeleien-ii/
 

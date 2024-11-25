@@ -1,6 +1,5 @@
 ---
 title: Streng geheim
-type: post
 date: 2008-12-20T15:36:07+00:00
 url: /2008/12/streng-geheim/
 

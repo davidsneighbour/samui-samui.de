@@ -1,6 +1,5 @@
 ---
 title: Businesstrip
-type: post
 date: 2005-08-29T05:55:00+00:00
 url: /2005/08/businesstrip/
 lastmod: 2023-09-10T19:14:12+07:00

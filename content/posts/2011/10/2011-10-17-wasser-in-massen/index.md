@@ -1,6 +1,5 @@
 ---
 title: Wasser in Massen
-type: post
 date: 2011-10-16T23:58:54+00:00
 url: /2011/10/wasser-in-massen/
 lastmod: 2023-09-10T19:14:12+07:00

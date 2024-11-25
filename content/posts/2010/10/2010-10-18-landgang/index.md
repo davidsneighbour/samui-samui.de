@@ -1,6 +1,5 @@
 ---
 title: Landgang
-type: post
 date: 2010-10-18T00:58:09+00:00
 url: /2010/10/landgang/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Deutschland
-type: post
 date: 2007-03-14T21:43:58+00:00
 url: /2007/03/deutschland/
 
@@ -18,7 +17,7 @@ Telefon: 030-794810
 
 Fax: 030-79481511
 
-EMail: thaiber@mfa.go.th
+EMail: <thaiber@mfa.go.th>
 
 Internet: [Homepage][1]
 

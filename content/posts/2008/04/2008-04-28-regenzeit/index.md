@@ -1,6 +1,5 @@
 ---
 title: Regenzeit?
-type: post
 date: 2008-04-28T14:21:14+00:00
 url: /2008/04/regenzeit/
 dsq_thread_id:

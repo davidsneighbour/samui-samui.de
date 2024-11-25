@@ -1,6 +1,5 @@
 ---
 title: Schmutzige Wäsche
-type: post
 date: 2006-12-29T05:21:07+00:00
 url: /2006/12/schmutzige-waesche/
 

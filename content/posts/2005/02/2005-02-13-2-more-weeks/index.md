@@ -1,6 +1,5 @@
 ---
 title: 2 more weeks
-type: post
 date: 2005-02-13T01:22:17+00:00
 url: /2005/02/2-more-weeks/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: '5eleven: Rüsselaufwärts, einmal durch Bangkok und dann runter'
-type: post
 date: 2007-01-04T10:47:08+00:00
 url: /2007/01/5eleven-ruesselaufwaerts-einmal-durch-bangkok-und-dann-runter/
 

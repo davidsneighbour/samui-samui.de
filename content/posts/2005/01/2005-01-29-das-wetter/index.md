@@ -1,6 +1,5 @@
 ---
 title: Das Wetter
-type: post
 date: 2005-01-29T05:01:00+00:00
 url: /2005/01/das-wetter/
 lastmod: 2023-09-10T19:14:12+07:00

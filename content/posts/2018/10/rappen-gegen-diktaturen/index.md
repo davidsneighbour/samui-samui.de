@@ -1,7 +1,6 @@
 ---
 title: "Rappen gegen Diktaturen"
 description: "Ein Rap-Musik-Video macht die Runden in Thailand's Netzwerken, die Diktatur kritisierend - Prathet Khun Mii (Mein Land). "
-type: post
 date: 2018-10-27T20:25:00+07:00
 url: /2018/10/rappen-gegen-diktaturen
 tags:
@@ -40,5 +39,5 @@ Zum Schluss noch ein Satz den Don Pramudwinai, seines Zeichens Außenminister Th
 
 Tatsächlich erstaunlich.
 
--   {{< languagelink "http://www.nationmultimedia.com/detail/politics/30357255" "Popular anti-dictatorship rap song may break laws, says nation’s top cop (Nation Multimedia)" en >}}
--   {{< languagelink "https://de.wikipedia.org/wiki/Massaker_an_der_Thammasat-Universit%C3%A4t" "Wikipedia über das Massaker an der Thammasat Universität in 1976" de >}}
+- {{< languagelink "<http://www.nationmultimedia.com/detail/politics/30357255>" "Popular anti-dictatorship rap song may break laws, says nation’s top cop (Nation Multimedia)" en >}}
+- {{< languagelink "<https://de.wikipedia.org/wiki/Massaker_an_der_Thammasat-Universit%C3%A4t>" "Wikipedia über das Massaker an der Thammasat Universität in 1976" de >}}

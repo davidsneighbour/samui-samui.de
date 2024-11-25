@@ -1,6 +1,5 @@
 ---
 title: 4, 4einhalb, 5, 6, 7 Wochen (oder sinds doch schon 8)
-type: post
 date: 2005-02-27T22:09:00+00:00
 url: /2005/02/4-4einhalb-5-67-wochen-oder-sinds-doch-schon-8/
 dsq_thread_id:
@@ -21,7 +20,7 @@ Durch den Regen merkte man nicht allzusehr, dass es warm war. Wir stiegen in ein
 
 Die ersten Wochen waren dann Gegend kennenlernen und der Vorbereitung von Arbeitsplätzen gefüllt. Heute sind Büro und die Arbeitplätze fast fertig und es beginnt sich Struktur abzuzeichnen. Ich mag Struktur.
 
-### Wir sind hier in Thailand ...
+### Wir sind hier in Thailand
 
 ... da dauert alles etwas länger. Das hörte ich in den ersten Wochen ständig. Heute wei? ich, dass das nicht so ist. Es dauert nicht länger. Die nicht-Thais erwarten nur, dass alles so läuft und geschieht, wie sie es von "zu Hause" gewohnt sind. Für die Thais dauert es so lange, wie es dauert, um fertig zu werden. Der Kunde ist zwar König, aber als König sollte man wissen, sich zu gedulden. Oder um es in einem thailändischen Sprichwort zu sagen: "Rohen Reis kann man nicht essen." ?berhaupt gibt es viele Sprüche mit Reis und anderem Essen, denn das ist hier die Hauptsache ;)
 

@@ -1,6 +1,5 @@
 ---
 title: Rassenhass
-type: post
 date: 2006-08-16T10:56:00+00:00
 url: /2006/08/rassenhass/
 dsq_thread_id:

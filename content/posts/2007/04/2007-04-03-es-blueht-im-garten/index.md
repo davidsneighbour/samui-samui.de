@@ -1,6 +1,5 @@
 ---
 title: 'Es blüht im Garten'
-type: post
 date: 2007-04-03T03:20:27+00:00
 url: /2007/04/es-blueht-im-garten/
 

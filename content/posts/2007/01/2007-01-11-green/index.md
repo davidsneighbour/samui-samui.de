@@ -1,6 +1,5 @@
 ---
 title: Grün
-type: post
 date: 2007-01-11T05:29:05+00:00
 url: /2007/01/green/
 

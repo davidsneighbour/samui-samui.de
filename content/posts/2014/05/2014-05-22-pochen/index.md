@@ -1,6 +1,5 @@
 ---
 title: Pochen.
-type: post
 date: 2014-05-22T11:41:14+00:00
 url: /2014/05/pochen/
 

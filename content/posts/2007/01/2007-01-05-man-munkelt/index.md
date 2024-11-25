@@ -1,6 +1,5 @@
 ---
 title: Man munkelt
-type: post
 date: 2007-01-04T20:14:12+00:00
 url: /2007/01/man-munkelt/
 

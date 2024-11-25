@@ -1,6 +1,5 @@
 ---
 title: Kurz vor Nachher
-type: post
 date: 2006-09-26T11:06:00+00:00
 url: /2006/09/kurz-vor-nachher/
 

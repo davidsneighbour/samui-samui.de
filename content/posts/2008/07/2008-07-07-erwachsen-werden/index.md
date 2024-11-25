@@ -1,6 +1,5 @@
 ---
 title: Erwachsen werden
-type: post
 date: 2008-07-07T15:35:41+00:00
 url: /2008/07/erwachsen-werden/
 

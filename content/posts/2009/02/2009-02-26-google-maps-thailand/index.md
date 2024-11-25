@@ -1,6 +1,5 @@
 ---
 title: Google Maps Thailand
-type: post
 date: 2009-02-26T01:23:27+00:00
 url: /2009/02/google-maps-thailand/
 

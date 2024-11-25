@@ -1,6 +1,5 @@
 ---
 title: Probleme?
-type: post
 date: 2005-05-06T20:21:00+00:00
 url: /2005/05/probleme/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Flickr, nich wahr
-type: post
 date: 2005-11-11T23:22:00+00:00
 url: /2005/11/flickr-nich-wahr/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Kajalstift
-type: post
 date: 2005-08-17T03:15:00+00:00
 url: /2005/08/kajalstift/
 dsq_thread_id:

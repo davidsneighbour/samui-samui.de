@@ -1,6 +1,5 @@
 ---
 title: R??ckenmassage
-type: post
 date: 2005-09-25T01:08:00+00:00
 url: /2005/09/rueckenmassage/
 lastmod: 2023-09-10T19:14:12+07:00

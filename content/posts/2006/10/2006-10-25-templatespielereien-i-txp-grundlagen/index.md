@@ -1,6 +1,5 @@
 ---
 title: "Templatespielereien I: TXP-Grundlagen"
-type: post
 date: 2006-10-25T01:04:00+00:00
 url: /2006/10/templatespielereien-i-txp-grundlagen/
 lastmod: 2023-09-10T19:14:12+07:00

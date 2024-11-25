@@ -1,6 +1,5 @@
 ---
 title: Sonnenuntergang bei Ban Taling Ngam
-type: post
 date: 2008-01-15T00:28:17+00:00
 url: /2008/01/sonnenuntergang-bei-ban-taling-ngam-2/
 

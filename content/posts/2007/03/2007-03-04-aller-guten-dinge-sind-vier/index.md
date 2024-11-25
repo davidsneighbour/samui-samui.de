@@ -1,6 +1,5 @@
 ---
 title: Aller guten Dinge sind Vier
-type: post
 date: 2007-03-04T07:52:58+00:00
 url: /2007/03/aller-guten-dinge-sind-vier/
 dsq_thread_id:

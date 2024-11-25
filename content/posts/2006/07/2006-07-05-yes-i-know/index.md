@@ -1,6 +1,5 @@
 ---
 title: Yes I know
-type: post
 date: 2006-07-05T13:12:37+00:00
 url: /2006/07/yes-i-know/
 lastmod: 2023-09-10T19:14:12+07:00

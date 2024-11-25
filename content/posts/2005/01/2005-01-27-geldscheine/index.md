@@ -1,6 +1,5 @@
 ---
 title: Geldscheine
-type: post
 date: 2005-01-26T19:36:17+00:00
 url: /2005/01/geldscheine/
 lastmod: 2023-09-10T19:14:12+07:00

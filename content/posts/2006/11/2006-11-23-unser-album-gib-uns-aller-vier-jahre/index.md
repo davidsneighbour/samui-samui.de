@@ -1,6 +1,5 @@
 ---
 title: Unser Album gib uns aller vier Jahre
-type: post
 date: 2006-11-23T08:50:34+00:00
 url: /2006/11/unser-album-gib-uns-aller-vier-jahre/
 lastmod: 2023-09-10T19:14:12+07:00

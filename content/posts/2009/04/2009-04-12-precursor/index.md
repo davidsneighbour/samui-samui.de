@@ -1,6 +1,5 @@
 ---
 title: Precursor?
-type: post
 date: 2009-04-12T00:08:21+00:00
 url: /2009/04/precursor/
 

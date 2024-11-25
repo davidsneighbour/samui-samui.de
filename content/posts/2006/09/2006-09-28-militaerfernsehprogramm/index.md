@@ -1,6 +1,5 @@
 ---
 title: Militärfernsehprogramm
-type: post
 date: 2006-09-28T11:48:00+00:00
 url: /2006/09/militaerfernsehprogramm/
 

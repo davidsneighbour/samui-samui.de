@@ -1,6 +1,5 @@
 ---
 title: ??berholen ohne einzuholen
-type: post
 date: 2006-01-06T21:43:00+00:00
 url: /2006/01/ueberholen-ohne-einzuholen/
 

@@ -1,6 +1,5 @@
 ---
 title: Mangostanenprüfer
-type: post
 date: 2005-04-08T07:23:00+00:00
 url: /2005/04/mangostanenpruefer/
 dsq_thread_id:

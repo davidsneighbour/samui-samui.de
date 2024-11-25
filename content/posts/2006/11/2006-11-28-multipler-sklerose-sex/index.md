@@ -1,6 +1,5 @@
 ---
 title: Multipler Sklerose-Sex
-type: post
 date: 2006-11-27T21:50:31+00:00
 url: /2006/11/multipler-sklerose-sex/
 dsq_thread_id:

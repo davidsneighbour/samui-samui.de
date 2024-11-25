@@ -1,6 +1,5 @@
 ---
 title: Valentinstag Samuistyle
-type: post
 date: 2007-02-15T11:24:23+00:00
 url: /2007/02/valentinstag-samuistyle/
 

@@ -1,6 +1,5 @@
 ---
 title: Gerüchteküche
-type: post
 date: 2007-06-29T17:39:20+00:00
 url: /2007/06/geruechtekueche/
 

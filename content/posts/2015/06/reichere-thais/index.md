@@ -1,6 +1,5 @@
 ---
 title: Reichere Thais
-type: post
 date: 2015-06-10T03:13:17+00:00
 url: /2015/06/reichere-thais/
 tags:

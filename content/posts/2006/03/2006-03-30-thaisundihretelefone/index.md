@@ -1,6 +1,5 @@
 ---
 title: Thais und ihre Telefone
-type: post
 date: 2006-03-29T23:23:00+00:00
 url: /2006/03/thaisundihretelefone/
 lastmod: 2023-09-10T19:14:12+07:00

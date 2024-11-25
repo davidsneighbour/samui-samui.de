@@ -1,6 +1,5 @@
 ---
 title: Wahlen
-type: post
 date: 2006-03-27T00:56:00+00:00
 url: /2006/03/wahlen/
 lastmod: 2023-09-10T19:14:12+07:00
@@ -15,12 +14,12 @@ Im Fernsehen muss man immer aufpassen, welchen Sender man gerade angeschaltet ha
 
 **Besitzverhältnisse bei den Fernsehsendern**
 
-  * Channel 3 --- MCOT (Besitzer), BEC World (Betreiber)
-  * Channel 5 --- Kögliche Armee von Thailand (Besitzer und Betreiber)
-  * Channel 7 --- Kögliche Armee von Thailand (Besitzer), Bangkok Broadcasting & Television Company (BBTV) (Betreiber)
-  * Channel 9 --- MCOT (Besitzer und Betreiber)
-  * Channel 11 --- PR-Department der Regierung (Besitzer und Betreiber)
-  * ITV --- Shin Corporation (Besitzer und Betreiber) (früher Thaksins Firma, jetzt an Investoren aus Singapore verkauft)
+* Channel 3 --- MCOT (Besitzer), BEC World (Betreiber)
+* Channel 5 --- Kögliche Armee von Thailand (Besitzer und Betreiber)
+* Channel 7 --- Kögliche Armee von Thailand (Besitzer), Bangkok Broadcasting & Television Company (BBTV) (Betreiber)
+* Channel 9 --- MCOT (Besitzer und Betreiber)
+* Channel 11 --- PR-Department der Regierung (Besitzer und Betreiber)
+* ITV --- Shin Corporation (Besitzer und Betreiber) (früher Thaksins Firma, jetzt an Investoren aus Singapore verkauft)
 
 MCOT war früher ein staatliches Unternehmen und befindet sich jetzt immernoch zu 77% in Regierungshand.
 

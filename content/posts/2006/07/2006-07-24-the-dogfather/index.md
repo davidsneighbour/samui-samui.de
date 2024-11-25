@@ -1,6 +1,5 @@
 ---
 title: The dogfather
-type: post
 date: 2006-07-24T09:39:00+00:00
 url: /2006/07/the-dogfather/
 lastmod: 2023-09-10T19:14:12+07:00

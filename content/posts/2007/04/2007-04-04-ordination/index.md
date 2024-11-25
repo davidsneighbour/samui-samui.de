@@ -1,6 +1,5 @@
 ---
 title: Ordination
-type: post
 date: 2007-04-04T13:16:56+00:00
 url: /2007/04/ordination/
 

@@ -1,6 +1,5 @@
 ---
 title: Seriously, Frohes Fest!
-type: post
 date: 2009-12-23T13:29:01+00:00
 url: /2009/12/seriously-frohes-fest/
 

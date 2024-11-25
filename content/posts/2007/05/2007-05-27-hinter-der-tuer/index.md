@@ -1,6 +1,5 @@
 ---
 title: Hinter der Tür
-type: post
 date: 2007-05-27T13:25:47+00:00
 url: /2007/05/hinter-der-tuer/
 

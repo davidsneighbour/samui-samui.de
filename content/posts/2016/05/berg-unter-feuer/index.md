@@ -1,6 +1,5 @@
 ---
 title: Berg unter Feuer
-type: post
 date: 2016-05-11T09:36:54+00:00
 url: /2016/05/berg-unter-feuer/
 tags:

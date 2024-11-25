@@ -1,6 +1,5 @@
 ---
 title: Mitteilung des deutschen Botschafters
-type: post
 date: 2014-05-22T13:17:58+00:00
 url: /2014/05/mitteilung-des-deutschen-botschafters/
 

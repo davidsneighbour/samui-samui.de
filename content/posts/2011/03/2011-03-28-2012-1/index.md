@@ -1,6 +1,5 @@
 ---
 title: 2012 +/- 1
-type: post
 date: 2011-03-28T11:05:10+00:00
 url: /2011/03/2012-1/
 dsq_thread_id:

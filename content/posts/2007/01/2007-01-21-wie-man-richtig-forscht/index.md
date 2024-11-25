@@ -1,6 +1,5 @@
 ---
 title: Wie man richtig forscht
-type: post
 date: 2007-01-21T02:29:19+00:00
 url: /2007/01/wie-man-richtig-forscht/
 

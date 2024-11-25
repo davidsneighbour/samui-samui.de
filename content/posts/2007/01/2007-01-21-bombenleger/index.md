@@ -1,6 +1,5 @@
 ---
 title: Bombenleger?
-type: post
 date: 2007-01-21T02:43:20+00:00
 url: /2007/01/bombenleger/
 

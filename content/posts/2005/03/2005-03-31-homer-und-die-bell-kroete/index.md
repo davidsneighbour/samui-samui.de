@@ -1,6 +1,5 @@
 ---
 title: Homer und die Bell-Kröte
-type: post
 date: 2005-03-30T23:57:00+00:00
 url: /2005/03/homer-und-die-bell-kroete/
 lastmod: 2023-09-10T19:14:12+07:00

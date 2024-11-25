@@ -1,6 +1,5 @@
 ---
 title: Kriegsrechtsaufhebung
-type: post
 date: 2006-11-27T04:46:15+00:00
 url: /2006/11/kriegsrechtsaufhebung/
 lastmod: 2023-09-10T19:14:12+07:00

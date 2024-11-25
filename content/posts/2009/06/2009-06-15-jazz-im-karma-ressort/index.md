@@ -1,6 +1,5 @@
 ---
 title: Jazz im Karma Ressort
-type: post
 date: 2009-06-15T14:16:46+00:00
 url: /2009/06/jazz-im-karma-ressort/
 

@@ -1,6 +1,5 @@
 ---
 title: Agathe?
-type: post
 date: 2007-04-04T11:53:48+00:00
 url: /2007/04/agathe/
 

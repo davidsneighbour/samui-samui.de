@@ -1,6 +1,5 @@
 ---
 title: It seems so fitting don’t you think?
-type: post
 date: 2006-06-18T12:41:52+00:00
 url: /2006/06/it-seems-so-fitting-dont-you-think/
 

@@ -1,6 +1,5 @@
 ---
 title: Wasserfall
-type: post
 date: 2007-11-02T05:37:04+00:00
 url: /2007/11/wasserfall/
 

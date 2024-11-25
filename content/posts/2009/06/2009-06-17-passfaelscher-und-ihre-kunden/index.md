@@ -1,6 +1,5 @@
 ---
 title: Passfälscher und ihre Kunden
-type: post
 date: 2009-06-17T12:27:54+00:00
 url: /2009/06/passfaelscher-und-ihre-kunden/
 dsq_thread_id:

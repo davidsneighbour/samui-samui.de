@@ -1,6 +1,5 @@
 ---
 title: Nächtliche Zeremonien
-type: post
 date: 2006-06-10T22:02:00+00:00
 url: /2006/06/naechtliche-zeremonien/
 

@@ -1,6 +1,5 @@
 ---
 title: Ich in Berlin
-type: post
 date: 2008-06-01T01:10:31+00:00
 url: /2008/06/ich-in-berlin/
 

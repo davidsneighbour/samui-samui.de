@@ -1,6 +1,5 @@
 ---
 title: 1.3 Millionen Baht
-type: post
 date: 2006-11-01T05:23:58+00:00
 url: /2006/11/13-millionen-baht/
 lastmod: 2023-09-10T19:14:12+07:00

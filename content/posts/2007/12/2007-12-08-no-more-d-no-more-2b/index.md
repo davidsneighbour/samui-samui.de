@@ -1,6 +1,5 @@
 ---
 title: No more D, no more 2B
-type: post
 date: 2007-12-08T15:41:20+00:00
 url: /2007/12/no-more-d-no-more-2b/
 

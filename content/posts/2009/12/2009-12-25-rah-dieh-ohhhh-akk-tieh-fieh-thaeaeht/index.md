@@ -1,6 +1,5 @@
 ---
 title: Rah-Dieh-Ohhhh Akk-Tieh-Fieh-Thääht
-type: post
 date: 2009-12-25T03:05:58+00:00
 url: /2009/12/rah-dieh-ohhhh-akk-tieh-fieh-thaeaeht/
 

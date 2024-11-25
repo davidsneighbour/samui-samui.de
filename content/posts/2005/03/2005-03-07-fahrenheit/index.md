@@ -1,6 +1,5 @@
 ---
 title: Fahrenheit
-type: post
 date: 2005-03-07T05:36:00+00:00
 url: /2005/03/fahrenheit/
 dsq_thread_id:

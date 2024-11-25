@@ -1,6 +1,5 @@
 ---
 title: Ausgestempelt
-type: post
 date: 2014-07-02T07:10:44+00:00
 url: /2014/07/ausgestempelt/
 dsq_thread_id:

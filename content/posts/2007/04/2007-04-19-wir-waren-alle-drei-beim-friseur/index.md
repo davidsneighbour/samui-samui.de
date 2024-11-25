@@ -1,6 +1,5 @@
 ---
 title: Wir waren (alle drei) beim Friseur
-type: post
 date: 2007-04-19T04:33:16+00:00
 url: /2007/04/wir-waren-alle-drei-beim-friseur/
 

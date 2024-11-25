@@ -1,6 +1,5 @@
 ---
 title: 'Internet (fast) tot. Grund: Erdbeben.'
-type: post
 date: 2006-12-27T01:37:46+00:00
 url: /2006/12/internet-tot-grund-erdbeben/
 

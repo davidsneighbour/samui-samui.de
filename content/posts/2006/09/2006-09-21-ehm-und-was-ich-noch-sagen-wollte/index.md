@@ -1,6 +1,5 @@
 ---
 title: Ehm, und was ich noch sagen wollte…
-type: post
 date: 2006-09-21T10:55:00+00:00
 url: /2006/09/ehm-und-was-ich-noch-sagen-wollte/
 

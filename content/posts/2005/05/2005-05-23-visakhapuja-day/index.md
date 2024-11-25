@@ -1,6 +1,5 @@
 ---
 title: Visakhapuja Day
-type: post
 date: 2005-05-23T04:37:00+00:00
 url: /2005/05/visakhapuja-day/
 lastmod: 2023-09-10T19:14:12+07:00
@@ -27,10 +26,10 @@ Während ich so vor mich hin schlemmte stellte ich fest, dass die Leute um mich 
 
 {{< figure src="wp-content/old-images/112.jpg" />}}
 
-  * Im Teich schwimmen Fische
-  * Die Leute kaufen Körner für 20 THB, füttern damit die Fische und fühlen sich gut
-  * Die Fische gedeihen und die Mönche mössen sich nicht um die Fische kümmern
-  * Die Mönche holen die Fische aus dem Wasser und verkaufen sie
+* Im Teich schwimmen Fische
+* Die Leute kaufen Körner für 20 THB, füttern damit die Fische und fühlen sich gut
+* Die Fische gedeihen und die Mönche mössen sich nicht um die Fische kümmern
+* Die Mönche holen die Fische aus dem Wasser und verkaufen sie
 
 So kommt (in Thairelationen) jede Menge Geld zusammen, denn die Kinder lieben es Körner ins Wasser zu werfen und zu sehen, welches Tohuwabohu die Fische dann anrichten. Wenn man Glück hat, dann sieht man auch ein paar riesige Welse (ich dachte immer, die Biester werden nicht sehr gro?) sich an der Futterjagd beteiligen. Und wenn man es schafft, ein paar Körner einem der wenigen Goldfische zukommen zu lassen, wird man noch glücklicher. Es macht doch alles Sinn.
 

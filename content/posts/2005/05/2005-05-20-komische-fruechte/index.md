@@ -1,6 +1,5 @@
 ---
 title: Komische Früchte
-type: post
 date: 2005-05-19T23:38:01+00:00
 url: /2005/05/komische-fruechte/
 dsq_thread_id:

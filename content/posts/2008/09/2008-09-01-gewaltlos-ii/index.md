@@ -1,6 +1,5 @@
 ---
 title: Gewaltlos II
-type: post
 date: 2008-09-01T04:59:25+00:00
 url: /2008/09/gewaltlos-ii/
 

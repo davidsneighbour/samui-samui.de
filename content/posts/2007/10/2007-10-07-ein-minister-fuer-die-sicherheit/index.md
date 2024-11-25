@@ -1,6 +1,5 @@
 ---
 title: Ein Minister für die Sicherheit
-type: post
 date: 2007-10-07T14:10:52+00:00
 url: /2007/10/ein-minister-fuer-die-sicherheit/
 

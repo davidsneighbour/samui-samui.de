@@ -1,6 +1,5 @@
 ---
 title: Kill the drill
-type: post
 date: 2010-08-03T13:02:43+00:00
 url: /2010/08/kill-the-drill/
 lastmod: 2023-09-10T19:14:12+07:00

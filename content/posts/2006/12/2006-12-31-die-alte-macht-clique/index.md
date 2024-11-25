@@ -1,6 +1,5 @@
 ---
 title: Die Alte-Macht-Clique
-type: post
 date: 2006-12-31T09:06:17+00:00
 url: /2006/12/die-alte-macht-clique/
 

@@ -1,6 +1,5 @@
 ---
 title: Die Neue
-type: post
 date: 2005-08-11T22:54:00+00:00
 url: /2005/08/die-neue/
 dsq_thread_id:

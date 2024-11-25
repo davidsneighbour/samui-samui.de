@@ -1,6 +1,5 @@
 ---
 title: Soosie simuliert
-type: post
 date: 2008-09-30T16:37:19+00:00
 url: /2008/09/soosie-simuliert/
 

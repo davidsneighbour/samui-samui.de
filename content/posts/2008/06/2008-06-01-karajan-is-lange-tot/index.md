@@ -1,6 +1,5 @@
 ---
 title: Karajan is lange tot.
-type: post
 date: 2008-06-01T01:22:21+00:00
 url: /2008/06/karajan-is-lange-tot/
 

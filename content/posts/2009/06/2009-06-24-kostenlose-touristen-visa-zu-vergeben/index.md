@@ -1,6 +1,5 @@
 ---
 title: Kostenlose Touristen Visa zu vergeben
-type: post
 date: 2009-06-23T18:24:35+00:00
 url: /2009/06/kostenlose-touristen-visa-zu-vergeben/
 

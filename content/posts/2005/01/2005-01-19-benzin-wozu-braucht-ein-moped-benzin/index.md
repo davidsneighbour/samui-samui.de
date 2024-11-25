@@ -1,6 +1,5 @@
 ---
 title: Benzin? Wozu braucht ein Moped Benzin?
-type: post
 date: 2005-01-18T19:35:00+00:00
 url: /2005/01/benzin-wozu-braucht-ein-moped-benzin/
 dsq_thread_id:

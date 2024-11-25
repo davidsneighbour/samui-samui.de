@@ -1,6 +1,5 @@
 ---
 title: Das Wetter und die Pandas
-type: post
 date: 2011-04-02T17:51:03+00:00
 url: /2011/04/das-wetter-und-die-pandas/
 tags:

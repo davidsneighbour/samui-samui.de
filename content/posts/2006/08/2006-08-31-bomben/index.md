@@ -1,6 +1,5 @@
 ---
 title: Bomben
-type: post
 date: 2006-08-31T01:07:55+00:00
 url: /2006/08/bomben/
 

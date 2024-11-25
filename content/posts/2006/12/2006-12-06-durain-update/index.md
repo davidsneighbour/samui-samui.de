@@ -1,6 +1,5 @@
 ---
 title: Durain-Update
-type: post
 date: 2006-12-05T21:15:39+00:00
 url: /2006/12/durain-update/
 

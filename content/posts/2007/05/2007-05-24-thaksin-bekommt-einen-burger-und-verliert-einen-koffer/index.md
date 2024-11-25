@@ -1,6 +1,5 @@
 ---
 title: Thaksin bekommt einen Burger und verliert einen Koffer
-type: post
 date: 2007-05-24T12:18:41+00:00
 url: /2007/05/thaksin-bekommt-einen-burger-und-verliert-einen-koffer/
 

@@ -1,6 +1,5 @@
 ---
 title: Gem??lde ??berm Bett
-type: post
 date: 2005-12-20T20:07:00+00:00
 url: /2005/12/gemaelde-ueberm-bett/
 lastmod: 2023-09-10T19:14:12+07:00

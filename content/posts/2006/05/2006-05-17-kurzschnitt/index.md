@@ -1,6 +1,5 @@
 ---
 title: Kurzschnitt
-type: post
 date: 2006-05-16T23:58:00+00:00
 url: /2006/05/kurzschnitt/
 lastmod: 2023-09-10T19:14:12+07:00

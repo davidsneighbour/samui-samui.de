@@ -1,6 +1,5 @@
 ---
 title: Ja wo laufen sie denn?
-type: post
 date: 2006-08-26T08:14:00+00:00
 url: /2006/08/ja-wo-laufen-sie-denn/
 dsq_thread_id:

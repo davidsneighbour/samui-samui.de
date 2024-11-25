@@ -1,6 +1,5 @@
 ---
 title: Hinweis am Rande
-type: post
 date: 2009-10-11T03:20:39+00:00
 url: /2009/10/hinweis-am-rande/
 

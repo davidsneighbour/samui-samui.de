@@ -1,6 +1,5 @@
 ---
 title: Don’t you know
-type: post
 date: 2007-04-20T11:57:41+00:00
 url: /2007/04/dont-you-know/
 

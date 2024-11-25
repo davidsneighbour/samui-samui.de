@@ -1,6 +1,5 @@
 ---
 title: Hier. Photo!
-type: post
 date: 2007-04-17T08:01:14+00:00
 url: /2007/04/hier-photo/
 

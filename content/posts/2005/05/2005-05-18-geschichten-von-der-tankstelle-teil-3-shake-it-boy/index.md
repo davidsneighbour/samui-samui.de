@@ -1,6 +1,5 @@
 ---
 title: "Geschichten von der Tankstelle – Teil 3: Shake it boy!"
-type: post
 date: 2005-05-17T22:57:15+00:00
 url: /2005/05/geschichten-von-der-tankstelle-teil-3-shake-it-boy/
 lastmod: 2023-09-10T19:14:12+07:00

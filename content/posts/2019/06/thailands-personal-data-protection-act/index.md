@@ -1,6 +1,5 @@
 ---
 title: Eine GDPR für Thailand
-type: post
 date: 2019-06-22T17:31:48+07:00
 url: /2019/06/thailands-personal-data-protection-act
 tags:
@@ -18,14 +17,14 @@ Geschützt werden soll damit jegliche Information die Individuen eindeutig ident
 
 Unternehmen und Organisationen sind gefordert:
 
--   einen legalen Grund zu haben, Informationen zu sammeln (dazu zählt meist die Zustimmung der Personen, deren Daten gesammelt werden)
--   sensitive Daten respektvoll zu behandeln
--   für die Sicherheit der Datenspeicherung zu sorgen und über Datenschutzverletzungen prompt zu informieren
--   die Rechte der Personen, deren Daten sie speichern zu befolgen
--   einen Repräsentaten für Datenschutz lokal in Thailand zu haben
+- einen legalen Grund zu haben, Informationen zu sammeln (dazu zählt meist die Zustimmung der Personen, deren Daten gesammelt werden)
+- sensitive Daten respektvoll zu behandeln
+- für die Sicherheit der Datenspeicherung zu sorgen und über Datenschutzverletzungen prompt zu informieren
+- die Rechte der Personen, deren Daten sie speichern zu befolgen
+- einen Repräsentaten für Datenschutz lokal in Thailand zu haben
 
 Zur Kontrolle und Durchsetzung des neuen Gesetzes wurde ein Personal Data Protection Committee (PDPC) eingerichtet. Verletzungen des PDPA können in Strafgebühren, Schadenersatzzahlungen und strafrechtliche Verfolgung resultieren.
 
 Genauere Regelungen zur PDPA sind noch nicht geschrieben worden. Das passiert in den kommenden Monaten.
 
--   {{< languagelink "https://www.lexology.com/library/detail.aspx?g=b0ef7ae3-cad2-44b0-a85f-32ee516f0416" "Thailand Adopts Personal Data Protection Act" "en" >}}
+- {{< languagelink "<https://www.lexology.com/library/detail.aspx?g=b0ef7ae3-cad2-44b0-a85f-32ee516f0416>" "Thailand Adopts Personal Data Protection Act" "en" >}}

@@ -1,6 +1,5 @@
 ---
 title: Direct Market Thailand
-type: post
 date: 2006-08-02T01:53:00+00:00
 url: /2006/08/direct-market-thailand/
 

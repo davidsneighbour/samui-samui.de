@@ -1,6 +1,5 @@
 ---
 title: Elektronische Erfassung von Deutschen im Ausland
-type: post
 date: 2016-06-12T12:11:28+00:00
 url: /2016/06/elektronische-erfassung-von-deutschen-im-ausland/
 tags:
@@ -29,4 +28,4 @@ Ich bin auch (trotz gewerblichem Misstrauens in die Datensicherheit) in der Date
 
 Was die Liste leider nicht liefert, sind Benachrichtigungen, dass man sich für die Briefwahl in Deutschland anmelden kann und sollte. Das muss man immer noch selber machen.
 
--   {{< languagelink "https://elefand.diplo.de/elefandextern/main/registeredperson!form.action" "Elefand - Elektronische Erfassung von Deutschen im Ausland" "de" >}}
+- {{< languagelink "<https://elefand.diplo.de/elefandextern/main/registeredperson!form.action>" "Elefand - Elektronische Erfassung von Deutschen im Ausland" "de" >}}

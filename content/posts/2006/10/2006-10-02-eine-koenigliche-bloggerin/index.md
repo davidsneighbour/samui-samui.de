@@ -1,6 +1,5 @@
 ---
 title: 'Eine königliche Bloggerin'
-type: post
 date: 2006-10-02T06:05:28+00:00
 url: /2006/10/eine-koenigliche-bloggerin/
 

@@ -1,6 +1,5 @@
 ---
 title: I’ll smile to danger
-type: post
 date: 2008-07-19T13:44:14+00:00
 url: /2008/07/ill-smile-to-danger/
 

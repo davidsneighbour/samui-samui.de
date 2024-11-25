@@ -1,6 +1,5 @@
 ---
 title: David Carradines Witwe klagt
-type: post
 date: 2010-06-07T15:04:12+00:00
 url: /2010/06/david-carradines-witwe-klagt/
 lastmod: 2023-09-10T19:14:12+07:00

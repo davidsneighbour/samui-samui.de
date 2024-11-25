@@ -1,6 +1,5 @@
 ---
 title: Im Fr??hjahr bei Hin Da Hin Yai
-type: post
 date: 2005-11-18T04:57:00+00:00
 url: /2005/11/imfruehjahrbeihindahinyai/
 lastmod: 2023-09-10T19:14:12+07:00

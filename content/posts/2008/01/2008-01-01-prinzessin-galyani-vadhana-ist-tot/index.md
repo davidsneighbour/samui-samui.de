@@ -1,6 +1,5 @@
 ---
 title: Prinzessin Galyani Vadhana ist tot
-type: post
 date: 2008-01-01T12:54:18+00:00
 url: /2008/01/prinzessin-galyani-vadhana-ist-tot/
 dsq_thread_id:

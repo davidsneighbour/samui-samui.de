@@ -1,6 +1,5 @@
 ---
 title: Das erste Mal
-type: post
 date: 2005-10-11T05:34:49+00:00
 url: /2005/10/das-erste-mal/
 dsq_thread_id:

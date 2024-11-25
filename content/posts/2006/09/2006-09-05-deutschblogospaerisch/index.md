@@ -1,6 +1,5 @@
 ---
 title: Deutschblogospärisch?
-type: post
 date: 2006-09-05T10:21:00+00:00
 url: /2006/09/deutschblogospaerisch/
 

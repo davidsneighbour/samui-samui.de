@@ -1,6 +1,5 @@
 ---
 title: Schweizer Sicherheitsrisiko
-type: post
 date: 2015-12-13T12:40:20+00:00
 url: /2015/12/schweizer-sicherheitsrisiko/
 tags:

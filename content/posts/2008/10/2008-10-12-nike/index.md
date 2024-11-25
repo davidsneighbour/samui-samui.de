@@ -1,6 +1,5 @@
 ---
 title: Nike
-type: post
 date: 2008-10-11T17:40:31+00:00
 url: /2008/10/nike/
 

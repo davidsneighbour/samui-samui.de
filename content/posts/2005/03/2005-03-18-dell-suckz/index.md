@@ -1,6 +1,5 @@
 ---
 title: Dell suckz
-type: post
 date: 2005-03-18T01:05:00+00:00
 url: /2005/03/dell-suckz/
 dsq_thread_id:

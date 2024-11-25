@@ -1,6 +1,5 @@
 ---
 title: … and a reading book!
-type: post
 date: 2008-01-11T18:09:58+00:00
 url: /2008/01/and-a-reading-book/
 

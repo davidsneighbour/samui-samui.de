@@ -1,6 +1,5 @@
 ---
 title: Liebes Internet-Tagebuch…
-type: post
 date: 2007-02-09T03:12:00+00:00
 url: /2007/02/liebes-internet-tagebuch/
 

@@ -1,6 +1,5 @@
 ---
 title: Metropolenhopping
-type: post
 date: 2011-04-05T18:16:17+00:00
 url: /2011/04/metropolenhopping/
 lastmod: 2023-09-10T19:14:12+07:00

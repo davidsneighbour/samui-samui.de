@@ -1,6 +1,5 @@
 ---
 title: Pfingstwetter
-type: post
 date: 2013-05-19T10:20:47+00:00
 url: /2013/05/pfingstwetter/
 post_to_facebook_timeline:

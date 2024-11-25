@@ -1,6 +1,5 @@
 ---
 title: Panda
-type: post
 date: 2009-07-12T23:48:57+00:00
 url: /2009/07/panda/
 

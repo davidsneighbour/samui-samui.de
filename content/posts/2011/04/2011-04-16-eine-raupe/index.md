@@ -1,6 +1,5 @@
 ---
 title: Eine Raupe
-type: post
 date: 2011-04-15T21:58:59+00:00
 url: /2011/04/eine-raupe/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Murphy im Quadrat
-type: post
 date: 2007-01-08T02:31:47+00:00
 url: /2007/01/murphy-im-quadrat/
 

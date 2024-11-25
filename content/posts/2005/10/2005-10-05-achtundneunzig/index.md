@@ -1,6 +1,5 @@
 ---
 title: Achtundneunzig
-type: post
 date: 2005-10-04T20:35:08+00:00
 url: /2005/10/achtundneunzig/
 dsq_thread_id:

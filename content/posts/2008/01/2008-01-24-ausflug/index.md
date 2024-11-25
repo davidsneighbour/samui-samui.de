@@ -1,6 +1,5 @@
 ---
 title: Ausflug
-type: post
 date: 2008-01-24T13:10:06+00:00
 url: /2008/01/ausflug/
 

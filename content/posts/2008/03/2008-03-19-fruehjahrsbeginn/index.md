@@ -1,6 +1,5 @@
 ---
 title: 'Frühjahrsbeginn'
-type: post
 date: 2008-03-19T15:38:52+00:00
 url: /2008/03/fruehjahrsbeginn/
 

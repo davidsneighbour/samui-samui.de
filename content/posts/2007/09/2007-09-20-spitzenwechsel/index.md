@@ -1,6 +1,5 @@
 ---
 title: Spitzenwechsel
-type: post
 date: 2007-09-19T22:12:49+00:00
 url: /2007/09/spitzenwechsel/
 

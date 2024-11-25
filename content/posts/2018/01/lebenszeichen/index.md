@@ -1,7 +1,6 @@
 ---
 title: "Lebenszeichen"
 date: 2018-01-18T22:47:32+07:00
-type: post
 url: /2018/01/lebenszeichen/
 tags:
 - samuisamui

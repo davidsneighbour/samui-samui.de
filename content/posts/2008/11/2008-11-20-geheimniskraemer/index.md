@@ -1,6 +1,5 @@
 ---
 title: Geheimniskrämer
-type: post
 date: 2008-11-20T01:22:34+00:00
 url: /2008/11/geheimniskraemer/
 

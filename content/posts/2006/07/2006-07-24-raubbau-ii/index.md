@@ -1,6 +1,5 @@
 ---
 title: Raubbau II
-type: post
 date: 2006-07-23T22:38:00+00:00
 url: /2006/07/raubbau-ii/
 lastmod: 2023-09-10T19:14:12+07:00

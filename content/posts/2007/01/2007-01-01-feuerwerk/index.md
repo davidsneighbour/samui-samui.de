@@ -1,6 +1,5 @@
 ---
 title: Feuerwerk
-type: post
 date: 2006-12-31T21:36:07+00:00
 url: /2007/01/feuerwerk/
 

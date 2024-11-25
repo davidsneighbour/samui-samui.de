@@ -1,6 +1,5 @@
 ---
 title: Ordination III
-type: post
 date: 2007-04-04T13:31:47+00:00
 url: /2007/04/ordination-iii/
 

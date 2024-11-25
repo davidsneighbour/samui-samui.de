@@ -1,6 +1,5 @@
 ---
 title: City. Manchester und Publi.
-type: post
 date: 2007-08-05T22:30:14+00:00
 url: /2007/08/city-manchester/
 

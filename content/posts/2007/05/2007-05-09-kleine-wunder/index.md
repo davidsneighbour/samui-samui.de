@@ -1,6 +1,5 @@
 ---
 title: Kleine Wunder
-type: post
 date: 2007-05-08T23:46:13+00:00
 url: /2007/05/kleine-wunder/
 

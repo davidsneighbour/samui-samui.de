@@ -1,6 +1,5 @@
 ---
 title: Back from Krungthep
-type: post
 date: 2005-09-20T02:33:03+00:00
 url: /2005/09/back-from-krungthep/
 dsq_thread_id:

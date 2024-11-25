@@ -1,6 +1,5 @@
 ---
 title: One-Two-Go fliegt nicht mehr
-type: post
 date: 2008-07-20T15:38:55+00:00
 url: /2008/07/one-two-go-fliegt-nicht-mehr/
 

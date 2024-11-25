@@ -1,6 +1,5 @@
 ---
 title: Die Zukunft liegt in den Sternen
-type: post
 date: 2008-06-17T03:30:53+00:00
 url: /2008/06/die-zukunft-liegt-in-den-sternen/
 

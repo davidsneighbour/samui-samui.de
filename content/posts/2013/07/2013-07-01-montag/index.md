@@ -1,6 +1,5 @@
 ---
 title: Montag
-type: post
 date: 2013-07-01T14:50:19+00:00
 url: /2013/07/montag/
 fb_author_post_id:

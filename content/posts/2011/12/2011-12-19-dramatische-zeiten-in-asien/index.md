@@ -1,6 +1,5 @@
 ---
 title: Dramatische Zeiten in Asien
-type: post
 date: 2011-12-19T02:23:05+00:00
 url: /2011/12/dramatische-zeiten-in-asien/
 lastmod: 2023-09-10T19:14:12+07:00

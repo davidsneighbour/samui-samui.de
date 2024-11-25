@@ -1,6 +1,5 @@
 ---
 title: Wo ist Thaksin?
-type: post
 date: 2007-01-20T21:09:49+00:00
 url: /2007/01/wo-ist-thaksin/
 

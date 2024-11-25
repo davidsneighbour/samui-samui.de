@@ -1,6 +1,5 @@
 ---
 title: Die Sache mit dem Bus
-type: post
 date: 2006-02-16T20:14:00+00:00
 url: /2006/02/die-sache-mit-dem-bus/
 lastmod: 2023-09-10T19:14:12+07:00

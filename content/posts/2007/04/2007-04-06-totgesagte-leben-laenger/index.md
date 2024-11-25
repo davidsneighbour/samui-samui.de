@@ -1,6 +1,5 @@
 ---
 title: Totgesagte leben länger
-type: post
 date: 2007-04-06T12:07:27+00:00
 url: /2007/04/totgesagte-leben-laenger/
 

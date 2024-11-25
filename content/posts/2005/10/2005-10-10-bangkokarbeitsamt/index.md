@@ -1,6 +1,5 @@
 ---
 title: Bangkok – Arbeitsamt
-type: post
 date: 2005-10-10T06:47:00+00:00
 url: /2005/10/bangkokarbeitsamt/
 dsq_thread_id:

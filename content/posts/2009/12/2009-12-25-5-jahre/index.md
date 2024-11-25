@@ -1,6 +1,5 @@
 ---
 title: 5 Jahre
-type: post
 date: 2009-12-25T03:31:06+00:00
 url: /2009/12/5-jahre/
 

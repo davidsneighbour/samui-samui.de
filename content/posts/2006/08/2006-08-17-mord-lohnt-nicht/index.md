@@ -1,6 +1,5 @@
 ---
 title: Mord lohnt nicht
-type: post
 date: 2006-08-16T23:05:00+00:00
 url: /2006/08/mord-lohnt-nicht/
 

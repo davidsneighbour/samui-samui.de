@@ -1,6 +1,5 @@
 ---
 title: Botschaftsschreiben
-type: post
 date: 2007-03-06T05:25:50+00:00
 url: /2007/03/botschaftsschreiben/
 

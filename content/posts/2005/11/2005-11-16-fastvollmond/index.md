@@ -1,6 +1,5 @@
 ---
 title: Fast Vollmond
-type: post
 date: 2005-11-15T19:58:00+00:00
 url: /2005/11/fastvollmond/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Es regnet.
-type: post
 date: 2005-10-21T22:39:00+00:00
 url: /2005/10/es-regnet/
 lastmod: 2023-09-10T19:14:12+07:00

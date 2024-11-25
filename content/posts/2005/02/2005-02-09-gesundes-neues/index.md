@@ -1,6 +1,5 @@
 ---
 title: Gesundes Neues!
-type: post
 date: 2005-02-09T05:30:59+00:00
 url: /2005/02/gesundes-neues/
 lastmod: 2023-09-10T19:14:12+07:00

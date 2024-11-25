@@ -1,6 +1,5 @@
 ---
 title: Mai bpen rai Thailand!
-type: post
 date: 2008-12-17T11:00:52+00:00
 url: /2008/12/mai-bpen-rai-thailand/
 dsq_thread_id:

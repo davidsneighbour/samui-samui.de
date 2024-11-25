@@ -1,6 +1,5 @@
 ---
 title: Unser Waschbecken am Sonntag
-type: post
 date: 2007-10-13T20:39:28+00:00
 url: /2007/10/unser-waschbecken-am-sonntag/
 

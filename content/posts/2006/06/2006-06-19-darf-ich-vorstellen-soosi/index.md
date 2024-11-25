@@ -1,6 +1,5 @@
 ---
 title: 'Darf ich vorstellen: Soosi'
-type: post
 date: 2006-06-18T23:10:00+00:00
 url: /2006/06/darf-ich-vorstellen-soosi/
 

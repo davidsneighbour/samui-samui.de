@@ -1,6 +1,5 @@
 ---
 title: Thailändische Farbenlehre
-type: post
 date: 2009-04-11T16:04:36+00:00
 url: /2009/04/thailaendische-farbenlehre/
 

@@ -1,6 +1,5 @@
 ---
 title: Alles * macht der Mai
-type: post
 date: 2005-05-02T21:10:00+00:00
 url: /2005/05/alles-macht-der-mai/
 dsq_thread_id:

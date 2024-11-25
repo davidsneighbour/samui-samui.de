@@ -1,6 +1,5 @@
 ---
 title: Tony Jaa im Kloster
-type: post
 date: 2010-05-28T12:18:18+00:00
 url: /2010/05/tony-jaa-im-kloster/
 lastmod: 2023-09-10T19:14:13+07:00

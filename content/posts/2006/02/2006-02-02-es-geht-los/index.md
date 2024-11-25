@@ -1,6 +1,5 @@
 ---
 title: Es geht los!
-type: post
 date: 2006-02-01T19:46:23+00:00
 url: /2006/02/es-geht-los/
 lastmod: 2023-09-10T19:14:12+07:00

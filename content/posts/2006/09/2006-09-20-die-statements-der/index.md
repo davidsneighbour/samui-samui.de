@@ -1,6 +1,5 @@
 ---
 title: Die Statements der Administrative Reform Group
-type: post
 date: 2006-09-20T00:05:00+00:00
 excerpt: 'Die BBC hat "alle Statements":http://news.bbc.co.uk/2/hi/asia-pacific/5361756.stm der "Administrative Reform Group"... '
 url: /2006/09/die-statements-der/

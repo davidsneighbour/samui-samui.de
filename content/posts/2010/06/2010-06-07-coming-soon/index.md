@@ -1,6 +1,5 @@
 ---
 title: Coming soon…
-type: post
 date: 2010-06-07T01:19:11+00:00
 url: /2010/06/coming-soon/
 lastmod: 2023-09-10T19:14:12+07:00

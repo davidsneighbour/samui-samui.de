@@ -1,6 +1,5 @@
 ---
 title: Das Wetter
-type: post
 date: 2010-12-16T19:21:36+00:00
 url: /2010/12/das-wetter-3/
 lastmod: 2023-09-10T19:14:12+07:00

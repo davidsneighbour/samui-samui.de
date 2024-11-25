@@ -1,6 +1,5 @@
 ---
 title: Youtube.com immer noch ungeblockt
-type: post
 date: 2007-08-29T22:38:24+00:00
 url: /2007/08/youtubecom-immer-noch-nicht-wieder-geblockt/
 

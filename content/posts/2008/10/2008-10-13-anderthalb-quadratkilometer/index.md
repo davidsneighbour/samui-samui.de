@@ -1,6 +1,5 @@
 ---
 title: Anderthalb Quadratkilometer?
-type: post
 date: 2008-10-13T16:23:35+00:00
 url: /2008/10/anderthalb-quadratkilometer/
 dsq_thread_id:
@@ -26,11 +25,11 @@ Im September und Oktober gab es dann häufiger einmal Schiessereien und Truppenb
 
 Gestern nun gab es erneut Verhandlungen zwischen den Aussenministern der beteiligten Länder (was hinsichtlich der häufiger wechselnden Thai-Aussenminister eher kompliziert ist) mit einem guten Ergebnis (nach Meinung der Thais). Die Cambodianer dachten anders und gaben ein 24 Stunden Ultimatum, nach dem die Thais ihre Grenztruppen von ihrem Boden abziehen sollen. Falls sie nicht abziehen, wird man mit Waffengewalt für einen Abzug sorgen.
 
-  * [Der Tempel Preah Vihear bei WikiTravel.org][1] (englisch)
-  * [Preah Vihear bei Wikipedia.org][2] (englisch)
-  * [Ablauf des aktuellen Konflikts][3] (englisch)
-  * [Preah Vihear auf der <span class="caps">UNESCO</span>-Seite][4] (englisch)
-  * [Gerichtsbeschluss des Internationalen Gerichtshofs][5] von Den Haag zu Preah Vihear vom 15. Juni 1962 (englisch)
+* [Der Tempel Preah Vihear bei WikiTravel.org][1] (englisch)
+* [Preah Vihear bei Wikipedia.org][2] (englisch)
+* [Ablauf des aktuellen Konflikts][3] (englisch)
+* [Preah Vihear auf der <span class="caps">UNESCO</span>-Seite][4] (englisch)
+* [Gerichtsbeschluss des Internationalen Gerichtshofs][5] von Den Haag zu Preah Vihear vom 15. Juni 1962 (englisch)
 
  [1]: http://wikitravel.org/en/Preah_Vihear
  [2]: http://en.wikipedia.org/wiki/Preah_Vihear_Temple

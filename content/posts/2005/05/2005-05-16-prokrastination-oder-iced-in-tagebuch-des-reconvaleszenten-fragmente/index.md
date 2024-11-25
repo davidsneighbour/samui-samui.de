@@ -1,6 +1,5 @@
 ---
 title: Prokrastination – oder – Iced in (Tagebuch des Reconvaleszenten). Fragmente.
-type: post
 date: 2005-05-15T22:38:34+00:00
 url: /2005/05/prokrastination-oder-iced-in-tagebuch-des-reconvaleszenten-fragmente/
 lastmod: 2023-09-10T19:14:12+07:00

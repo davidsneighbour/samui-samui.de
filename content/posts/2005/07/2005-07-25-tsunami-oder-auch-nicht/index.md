@@ -1,6 +1,5 @@
 ---
 title: Tsunami. Oder auch nicht.
-type: post
 date: 2005-07-25T00:35:24+00:00
 url: /2005/07/tsunami-oder-auch-nicht/
 lastmod: 2023-09-10T19:14:12+07:00

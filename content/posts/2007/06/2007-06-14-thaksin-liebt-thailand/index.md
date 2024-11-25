@@ -1,6 +1,5 @@
 ---
 title: Thaksin liebt Thailand
-type: post
 date: 2007-06-14T15:35:38+00:00
 url: /2007/06/thaksin-liebt-thailand/
 

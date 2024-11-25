@@ -1,6 +1,5 @@
 ---
 title: Iñtërnâtiônàlizætiøn
-type: post
 date: 2005-01-25T01:23:07+00:00
 url: /2005/01/internationalizaetion/
 tags:

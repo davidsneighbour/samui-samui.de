@@ -1,6 +1,5 @@
 ---
 title: Weihnachten
-type: post
 date: 2007-12-25T02:38:34+00:00
 url: /2007/12/weihnachten-2/
 

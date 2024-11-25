@@ -1,6 +1,5 @@
 ---
 title: Datentransport
-type: post
 date: 2007-12-16T01:34:11+00:00
 url: /2007/12/datentransport/
 

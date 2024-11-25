@@ -1,6 +1,5 @@
 ---
 title: Das Ramadan-Rätsel (2010)
-type: post
 date: 2010-06-29T13:30:57+00:00
 url: /2010/06/das-ramadan-raetsel-2010/
 lastmod: 2023-09-10T19:14:12+07:00

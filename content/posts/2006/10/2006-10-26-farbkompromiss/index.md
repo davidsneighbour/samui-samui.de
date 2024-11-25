@@ -1,6 +1,5 @@
 ---
 title: Farbkompromiss
-type: post
 date: 2006-10-26T09:47:49+00:00
 url: /2006/10/farbkompromiss/
 

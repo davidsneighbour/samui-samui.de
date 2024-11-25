@@ -1,6 +1,5 @@
 ---
 title: Unsere kleine Insel
-type: post
 date: 2005-04-16T01:00:00+00:00
 url: /2005/04/flickr/
 lastmod: 2023-09-10T19:14:12+07:00

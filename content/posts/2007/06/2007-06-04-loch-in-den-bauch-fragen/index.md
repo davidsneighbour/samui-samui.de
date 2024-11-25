@@ -1,6 +1,5 @@
 ---
 title: Loch in den Bauch fragen…
-type: post
 date: 2007-06-04T02:03:30+00:00
 url: /2007/06/loch-in-den-bauch-fragen/
 

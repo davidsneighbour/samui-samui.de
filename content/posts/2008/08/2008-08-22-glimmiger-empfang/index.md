@@ -1,6 +1,5 @@
 ---
 title: Glimmiger Empfang
-type: post
 date: 2008-08-22T01:50:18+00:00
 url: /2008/08/glimmiger-empfang/
 

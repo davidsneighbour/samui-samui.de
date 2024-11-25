@@ -1,6 +1,5 @@
 ---
 title: ?sterreich
-type: post
 date: 2007-03-14T21:43:37+00:00
 url: /2007/03/oesterreich/
 
@@ -16,7 +15,7 @@ Cottagegasse 48
 
 Telefon: 01-47833350
 
-Email: thai.vn@embthai.telecom.at
+Email: <thai.vn@embthai.telecom.at>
 
 **Königlich Thailändisches Konsulat**
 
@@ -28,7 +27,7 @@ Telefon: 0662-8400200
 
 Fax: 0662-8400201
 
-Email: office@thaiconsulate-salzburg.at
+Email: <office@thaiconsulate-salzburg.at>
 
 Internet: [Homepage][1]
 

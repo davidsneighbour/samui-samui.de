@@ -1,6 +1,5 @@
 ---
 title: Golfer auf der Flucht
-type: post
 date: 2007-08-13T19:48:57+00:00
 url: /2007/08/golfer-auf-der-flucht/
 

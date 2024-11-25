@@ -1,6 +1,5 @@
 ---
 title: Undiplomatischer Ballwechsel
-type: post
 date: 2007-01-31T21:04:38+00:00
 url: /2007/02/undiplomatischer-ballwechsel/
 

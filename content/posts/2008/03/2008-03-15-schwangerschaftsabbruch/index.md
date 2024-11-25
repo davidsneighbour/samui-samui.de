@@ -1,6 +1,5 @@
 ---
 title: Schwangerschaftsabbruch
-type: post
 date: 2008-03-15T02:21:45+00:00
 url: /2008/03/schwangerschaftsabbruch/
 

@@ -1,6 +1,5 @@
 ---
 title: Two girls and a cup…
-type: post
 date: 2008-11-10T00:02:32+00:00
 url: /2008/11/two-girls-and-a-cup/
 

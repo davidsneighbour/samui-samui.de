@@ -1,6 +1,5 @@
 ---
 title: Designstudie
-type: post
 date: 2009-04-07T23:31:01+00:00
 url: /2009/04/designstudie/
 

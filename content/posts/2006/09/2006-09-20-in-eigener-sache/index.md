@@ -1,6 +1,5 @@
 ---
 title: In eigener Sache
-type: post
 date: 2006-09-20T10:36:04+00:00
 url: /2006/09/in-eigener-sache/
 

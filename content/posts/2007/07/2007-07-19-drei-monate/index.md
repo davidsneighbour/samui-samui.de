@@ -1,6 +1,5 @@
 ---
 title: Drei Monate
-type: post
 date: 2007-07-19T04:38:32+00:00
 url: /2007/07/drei-monate/
 

@@ -1,6 +1,5 @@
 ---
 title: Hat der Hund gefressen
-type: post
 date: 2012-01-03T15:49:00+00:00
 url: /2012/01/hat-der-hund-gefressen/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Neue Visabestimmungen ab 1. Oktober
-type: post
 date: 2006-09-24T02:14:00+00:00
 url: /2006/09/neue-visabestimmungen-ab-1-oktober/
 dsq_thread_id:
@@ -26,17 +25,17 @@ Das Non Immigrant Visa erhält man in Botschaften und Konsulaten außerhalb Thai
 
 Die folgenden Klassen des Non Immigrant Visa gibt es derzeit:
 
-  * B: Business
-  * D: Diplomaten und Botschaftsangestellte
-  * ED: Lehrer, Professoren
-  * EX: Expertenvisa
-  * F: Offizielle Missionen (den Unterschied zu D kenne ich leider nicht)
-  * IM: Investorenvisa, für Ausländer, die ihre Firma unter dem <span class="caps">BOI</span> eröffnen wollen oder bestimmte Geldmengen ins Land bringen (siehe unten)
-  * M: Massenmedien und Pressevertreter
-  * O: andere Gruppen (bspw. offizielle Einladungen, Ruhestand usw.)
-  * R: Missionare
-  * RS: Forschung und Bildung
-  * S: Teilnahme an Sportevents
+* B: Business
+* D: Diplomaten und Botschaftsangestellte
+* ED: Lehrer, Professoren
+* EX: Expertenvisa
+* F: Offizielle Missionen (den Unterschied zu D kenne ich leider nicht)
+* IM: Investorenvisa, für Ausländer, die ihre Firma unter dem <span class="caps">BOI</span> eröffnen wollen oder bestimmte Geldmengen ins Land bringen (siehe unten)
+* M: Massenmedien und Pressevertreter
+* O: andere Gruppen (bspw. offizielle Einladungen, Ruhestand usw.)
+* R: Missionare
+* RS: Forschung und Bildung
+* S: Teilnahme an Sportevents
 
 Alle Non Immigrant Visa haben in ihrer "Normalausführung" eine Aufenthaltsdauer von 90 Tagen was für einige Dauerresidenten Visaruns aller 3 Monate mit sich bringt, auch wenn sie hier nicht arbeiten und keine Touristen sind. Es gibt die Möglichkeit, die Visa so zu beantragen, dass man anstatt des Visaruns einen Spaziergang ins Immigration Office macht und sich regelmässig meldet. Mein drittes Visum mit der Arbeitsgenehmigung beispielsweise mit dem ich mit bis Juni hier aufgehalten habe war sowas. Das Immigrationoffice von Samui ist an der ersten Kreuzung südlich von Nathon.
 

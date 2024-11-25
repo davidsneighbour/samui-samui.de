@@ -1,6 +1,5 @@
 ---
 title: Is finish!
-type: post
 date: 2008-07-09T04:08:56+00:00
 url: /2008/07/is-finish/
 

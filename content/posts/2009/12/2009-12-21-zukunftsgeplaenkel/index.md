@@ -1,6 +1,5 @@
 ---
 title: 'Zukunftsgeplänkel'
-type: post
 date: 2009-12-21T01:39:46+00:00
 url: /2009/12/zukunftsgeplaenkel/
 dsq_thread_id:

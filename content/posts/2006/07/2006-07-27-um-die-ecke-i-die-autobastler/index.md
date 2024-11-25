@@ -1,6 +1,5 @@
 ---
 title: "Um die Ecke I: Die Autobastler"
-type: post
 date: 2006-07-27T11:19:29+00:00
 url: /2006/07/um-die-ecke-i-die-autobastler/
 lastmod: 2023-09-10T19:14:12+07:00

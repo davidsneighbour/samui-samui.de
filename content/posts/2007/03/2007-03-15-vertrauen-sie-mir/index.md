@@ -1,6 +1,5 @@
 ---
 title: Vertrauen Sie mir.
-type: post
 date: 2007-03-15T12:30:51+00:00
 url: /2007/03/vertrauen-sie-mir/
 dsq_thread_id:

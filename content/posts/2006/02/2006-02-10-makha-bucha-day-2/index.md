@@ -1,6 +1,5 @@
 ---
 title: Makha Bucha Day
-type: post
 date: 2006-02-09T21:25:06+00:00
 url: /2006/02/makha-bucha-day-2/
 lastmod: 2023-09-10T19:14:12+07:00

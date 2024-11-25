@@ -1,6 +1,5 @@
 ---
 title: Krachender Tagesbeginn
-type: post
 date: 2007-01-30T01:17:36+00:00
 url: /2007/01/krachender-tagesbeginn/
 

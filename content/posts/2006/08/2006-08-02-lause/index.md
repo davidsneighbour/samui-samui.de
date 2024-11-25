@@ -1,6 +1,5 @@
 ---
 title: Lause!
-type: post
 date: 2006-08-02T10:57:00+00:00
 url: /2006/08/lause/
 

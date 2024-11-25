@@ -1,6 +1,5 @@
 ---
 title: Krank
-type: post
 date: 2008-06-05T00:31:38+00:00
 url: /2008/06/krank-2/
 

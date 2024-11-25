@@ -1,6 +1,5 @@
 ---
 title: Thaksins roter Pass ist weg.
-type: post
 date: 2007-01-10T06:45:56+00:00
 url: /2007/01/thaksins-roter-pass-ist-weg/
 

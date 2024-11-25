@@ -1,6 +1,5 @@
 ---
 title: Friedhof der Geisterhäuser II
-type: post
 date: 2005-08-20T02:05:00+00:00
 url: /2005/08/friedhofdergeisterhaeuserii/
 lastmod: 2023-09-10T19:14:12+07:00

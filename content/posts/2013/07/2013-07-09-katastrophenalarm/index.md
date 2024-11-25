@@ -1,6 +1,5 @@
 ---
 title: Katastrophenalarm
-type: post
 date: 2013-07-09T11:51:53+00:00
 url: /2013/07/katastrophenalarm/
 fb_author_post_id:

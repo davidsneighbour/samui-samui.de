@@ -1,6 +1,5 @@
 ---
 title: Der Silvio Berlusconi Thailands
-type: post
 date: 2012-06-26T07:38:23+00:00
 url: /2012/06/der-silvio-berlusconi-thailands/
 fb_mentioned_pages:

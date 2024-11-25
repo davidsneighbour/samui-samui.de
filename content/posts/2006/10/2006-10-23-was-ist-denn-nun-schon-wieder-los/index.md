@@ -1,6 +1,5 @@
 ---
 title: Was ist denn nun schon wieder los?
-type: post
 date: 2006-10-23T07:59:39+00:00
 url: /2006/10/was-ist-denn-nun-schon-wieder-los/
 dsq_thread_id:
@@ -16,13 +15,13 @@ Ich will damit vor allem dokumentieren, dass Textpattern sehr flexibel und einfa
 
 Was man erwarten kann:
 
-  * Ein Redesign. Leichter und heller als bisher.
-  * Eine Umstrukturierung. Ich will mehr statische Inhalte anbieten. Informationen die sich nicht verändern und in einem Weblog schnell aus den aktuellen Seiten verschwinden.
-  * Massive subjektive Meinungsmache in Hinsicht auf Webdesign und Programmierung.
+* Ein Redesign. Leichter und heller als bisher.
+* Eine Umstrukturierung. Ich will mehr statische Inhalte anbieten. Informationen die sich nicht verändern und in einem Weblog schnell aus den aktuellen Seiten verschwinden.
+* Massive subjektive Meinungsmache in Hinsicht auf Webdesign und Programmierung.
 
 Was man bereits mal gehört haben sollte:
 
-  * <span class="caps">XHTML</span> 1.1 und <span class="caps">CSS</span>. Ich werde nicht erzählen, worin sich <span class="caps">XHTML</span> von <span class="caps">HTML</span> und <span class="caps">XHTML</span> 1.1 von <span class="caps">XHTML</span> 1.0 unterscheiden. Und noch weniger mag ich Diskussionen über Tabellen-Layouts führen (wenngleich das gleich in einem der ersten Einträge thematisiert werden dürfte).
-  * <span class="caps">PHP</span> --- das aber nur, wenn genauer verstehen will, was ich in den Textpattern-Plugins so produziere.
+* <span class="caps">XHTML</span> 1.1 und <span class="caps">CSS</span>. Ich werde nicht erzählen, worin sich <span class="caps">XHTML</span> von <span class="caps">HTML</span> und <span class="caps">XHTML</span> 1.1 von <span class="caps">XHTML</span> 1.0 unterscheiden. Und noch weniger mag ich Diskussionen über Tabellen-Layouts führen (wenngleich das gleich in einem der ersten Einträge thematisiert werden dürfte).
+* <span class="caps">PHP</span> --- das aber nur, wenn genauer verstehen will, was ich in den Textpattern-Plugins so produziere.
 
 Ich mag Kommentare. Das nur am Rande.

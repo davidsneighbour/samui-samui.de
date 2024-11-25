@@ -1,6 +1,5 @@
 ---
 title: Britney Spears kommt nach Samui
-type: post
 date: 2009-06-15T13:57:03+00:00
 url: /2009/06/britney-spears-kommt-nach-samui/
 

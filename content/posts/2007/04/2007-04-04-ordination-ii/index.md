@@ -1,6 +1,5 @@
 ---
 title: Ordination II
-type: post
 date: 2007-04-04T13:30:44+00:00
 url: /2007/04/ordination-ii/
 

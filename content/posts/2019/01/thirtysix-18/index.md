@@ -1,7 +1,6 @@
 ---
 title: "Thirtysix-18"
 date: 2019-01-01T21:00:00+07:00
-type: post
 url: /2019/01/thirtysix-18/
 tags:
 - wetter
@@ -19,6 +18,6 @@ In den kommenden Tagen darf Koh Samui sich auf einen tropischen Sturm vorbereite
 
 Der letzte tropische Sturm, der Thailand erreichte (normalerweise rollen sie immer über Vietnam und die Philippinen) war der tropische Sturm Harriet in 1962. Dieser Sturm traf Thailand recht unvorbereitet und führte zu mehr als 900 Toten. Man kann hoffen, dass die Infrastruktur und der Hausbau seither etwas verbessert wurden. Man rechnet mit Windstärken um die 90km/h. Mal sehen. Ich werde alles sturmfest machen und mich mit Vergnügen auf der Terasse den Winden entgegenwerfen.
 
--   {{< languagelink "http://www.gdacs.org/report.aspx?eventid=1000539&episodeid=3&eventtype=TC" "Sturmtracker des Global Disaster Alert and Coordination Systems" "en" >}}
--   {{< languagelink "https://www.windy.com/?2019-01-04-06,9.357,100.042,7" "Der Sturmverlauf auf Windy.com" "en" >}}
--   {{< languagelink "https://en.wikipedia.org/wiki/1962_Pacific_typhoon_season#Tropical_Storm_Harriet" "1962's Harriet auf Wikipedia" "en" >}}
+- {{< languagelink "<http://www.gdacs.org/report.aspx?eventid=1000539&episodeid=3&eventtype=TC>" "Sturmtracker des Global Disaster Alert and Coordination Systems" "en" >}}
+- {{< languagelink "<https://www.windy.com/?2019-01-04-06,9.357,100.042,7>" "Der Sturmverlauf auf Windy.com" "en" >}}
+- {{< languagelink "<https://en.wikipedia.org/wiki/1962_Pacific_typhoon_season#Tropical_Storm_Harriet>" "1962's Harriet auf Wikipedia" "en" >}}

@@ -1,6 +1,5 @@
 ---
 title: 'Holiday Outtakes III: Sun over Robert'
-type: post
 date: 2008-06-11T03:46:41+00:00
 url: /2008/06/holiday-outtakes-iii-sun-over-robert/
 

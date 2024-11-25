@@ -1,6 +1,5 @@
 ---
 title: Buddhatag zu Ende
-type: post
 date: 2005-09-25T04:42:00+00:00
 url: /2005/09/buddhatag-zu-ende/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Verw-irr-ung
-type: post
 date: 2007-04-13T12:10:12+00:00
 url: /2007/04/verw-irr-ung/
 

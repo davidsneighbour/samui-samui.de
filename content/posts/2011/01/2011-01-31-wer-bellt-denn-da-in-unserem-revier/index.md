@@ -1,6 +1,5 @@
 ---
 title: Wer bellt denn da in unserem Revier?
-type: post
 date: 2011-01-30T19:04:04+00:00
 url: /2011/01/wer-bellt-denn-da-in-unserem-revier/
 lastmod: 2023-09-10T19:14:12+07:00

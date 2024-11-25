@@ -1,6 +1,5 @@
 ---
 title: Familienphotos über Kontinente hinweg
-type: post
 date: 2012-06-20T13:31:27+00:00
 url: /2012/06/familienphotos-uber-kontinente-hinweg/
 featured_image: /wp-content/uploads/2012/06/Futuristic-Family-Reunion-slide-D3HF-jumbo.jpg

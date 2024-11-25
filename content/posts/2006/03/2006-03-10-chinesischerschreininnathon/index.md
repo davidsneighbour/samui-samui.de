@@ -1,6 +1,5 @@
 ---
 title: Chinesischer Schrein in Nathon
-type: post
 date: 2006-03-09T19:16:00+00:00
 url: /2006/03/chinesischerschreininnathon/
 lastmod: 2023-09-10T19:14:12+07:00

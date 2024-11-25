@@ -1,6 +1,5 @@
 ---
 title: Kommunikation
-type: post
 date: 2007-04-21T05:38:11+00:00
 url: /2007/04/kommunikation-2/
 

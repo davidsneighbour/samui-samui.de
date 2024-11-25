@@ -1,6 +1,5 @@
 ---
 title: Die Tesko-These
-type: post
 date: 2006-09-07T02:53:13+00:00
 url: /2006/09/die-tesko-these/
 

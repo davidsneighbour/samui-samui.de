@@ -1,6 +1,5 @@
 ---
 title: Touristenpolizei
-type: post
 date: 2010-02-07T22:43:55+00:00
 url: /2010/02/touristenpolizei/
 dsq_thread_id:

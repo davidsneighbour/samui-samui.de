@@ -1,6 +1,5 @@
 ---
 title: Samak ist tot
-type: post
 date: 2009-11-23T14:05:23+00:00
 url: /2009/11/samak-ist-tot/
 dsq_thread_id:

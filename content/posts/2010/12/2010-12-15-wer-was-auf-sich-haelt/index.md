@@ -1,6 +1,5 @@
 ---
 title: Wer was auf sich hält…
-type: post
 date: 2010-12-14T21:52:24+00:00
 url: /2010/12/wer-was-auf-sich-haelt/
 lastmod: 2023-09-10T19:14:12+07:00

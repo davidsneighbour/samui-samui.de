@@ -1,6 +1,5 @@
 ---
 title: Unschuldig unschuldig.
-type: post
 date: 2006-08-29T08:42:00+00:00
 url: /2006/08/unschuldig-unschuldig/
 

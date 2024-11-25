@@ -1,6 +1,5 @@
 ---
 title: Oh, if I could get some sleep
-type: post
 date: 2005-03-07T19:33:00+00:00
 url: /2005/03/oh-if-i-could-get-some-sleep/
 dsq_thread_id:

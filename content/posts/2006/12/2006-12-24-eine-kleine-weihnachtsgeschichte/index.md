@@ -1,6 +1,5 @@
 ---
 title: Eine kleine Weihnachtsgeschichte
-type: post
 date: 2006-12-24T10:15:06+00:00
 url: /2006/12/eine-kleine-weihnachtsgeschichte/
 dsq_thread_id:

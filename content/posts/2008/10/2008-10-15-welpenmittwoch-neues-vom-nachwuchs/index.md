@@ -1,6 +1,5 @@
 ---
 title: 'Welpenmittwoch: Neues vom Nachwuchs'
-type: post
 date: 2008-10-14T20:52:33+00:00
 url: /2008/10/welpenmittwoch-neues-vom-nachwuchs/
 

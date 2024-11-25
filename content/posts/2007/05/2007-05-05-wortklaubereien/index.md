@@ -1,6 +1,5 @@
 ---
 title: Wortklaubereien
-type: post
 date: 2007-05-05T10:27:01+00:00
 url: /2007/05/wortklaubereien/
 

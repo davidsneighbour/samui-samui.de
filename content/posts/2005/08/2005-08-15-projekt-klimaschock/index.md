@@ -1,6 +1,5 @@
 ---
 title: Projekt Klimaschock
-type: post
 date: 2005-08-15T00:40:00+00:00
 url: /2005/08/projekt-klimaschock/
 lastmod: 2023-09-10T19:14:12+07:00

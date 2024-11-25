@@ -1,6 +1,5 @@
 ---
 title: Swimming-Pool
-type: post
 date: 2008-09-10T05:37:20+00:00
 url: /2008/09/swimming-pool/
 

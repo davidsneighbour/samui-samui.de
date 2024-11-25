@@ -1,6 +1,5 @@
 ---
 title: Fibonacci, Pi und Beer Chang
-type: post
 date: 2005-08-19T21:17:02+00:00
 url: /2005/08/fibonacci-pii-und-ich/
 dsq_thread_id:

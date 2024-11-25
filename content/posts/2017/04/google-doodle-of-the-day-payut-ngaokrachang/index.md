@@ -1,6 +1,5 @@
 ---
 title: 'Google Doodle of the day: Payut Ngaokrachang'
-type: post
 date: 2017-04-01T03:10:33+00:00
 url: /2017/04/google-doodle-of-the-day-payut-ngaokrachang/
 resources :

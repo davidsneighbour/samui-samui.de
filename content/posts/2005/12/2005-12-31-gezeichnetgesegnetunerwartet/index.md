@@ -1,6 +1,5 @@
 ---
 title: Gezeichnet. Gesegnet. Unerwartet.
-type: post
 date: 2005-12-30T22:08:00+00:00
 url: /2005/12/gezeichnetgesegnetunerwartet/
 lastmod: 2023-09-10T19:14:12+07:00

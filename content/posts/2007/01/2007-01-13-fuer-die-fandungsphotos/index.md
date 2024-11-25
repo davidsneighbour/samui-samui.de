@@ -1,6 +1,5 @@
 ---
 title: Für die Fandungsphotos
-type: post
 date: 2007-01-12T22:04:22+00:00
 url: /2007/01/fuer-die-fandungsphotos/
 

@@ -1,6 +1,5 @@
 ---
 title: 'Grippecounter: 662'
-type: post
 date: 2009-06-20T14:58:21+00:00
 url: /2009/06/grippecounter-662/
 

@@ -1,6 +1,5 @@
 ---
 title: Immigration – The movie
-type: post
 date: 2012-03-27T15:22:25+00:00
 url: /2012/03/immigration-the-movie/
 dsq_thread_id:

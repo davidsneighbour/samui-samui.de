@@ -1,6 +1,5 @@
 ---
 title: Regen
-type: post
 date: 2006-01-24T00:05:00+00:00
 url: /2006/01/regen-3/
 tags:

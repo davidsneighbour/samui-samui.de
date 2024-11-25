@@ -1,11 +1,10 @@
 ---
 title: Schnell und unkompliziert
-type: post
 date: 2005-12-27T01:23:00+00:00
 url: /2005/12/kontaktformular/
 lastmod: 2023-09-10T19:14:12+07:00
 ---
-<txp:zem_contact mailto="schreibblogade@gmail.com">
+<txp:zem_contact mailto="<schreibblogade@gmail.com>">
 
 <txp:zem\_contact\_email label="Emailadresse" break=" " required="1" />
 

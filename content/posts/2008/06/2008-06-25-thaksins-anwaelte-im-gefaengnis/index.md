@@ -1,6 +1,5 @@
 ---
 title: Thaksins Anwälte im Gefängnis.
-type: post
 date: 2008-06-25T01:31:36+00:00
 url: /2008/06/thaksins-anwaelte-im-gefaengnis/
 

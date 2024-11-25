@@ -1,6 +1,5 @@
 ---
 title: Hin Da Hin Yai
-type: post
 date: 2009-01-28T21:53:57+00:00
 url: /2009/01/hin-da-hin-yai-2/
 

@@ -1,6 +1,5 @@
 ---
 title: Der nächste Trend
-type: post
 date: 2012-01-05T20:23:27+00:00
 url: /2012/01/der-naechste-trend/
 lastmod: 2023-09-10T19:14:12+07:00

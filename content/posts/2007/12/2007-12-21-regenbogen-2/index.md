@@ -1,6 +1,5 @@
 ---
 title: Regenbogen
-type: post
 date: 2007-12-20T20:36:27+00:00
 url: /2007/12/regenbogen-2/
 

@@ -1,6 +1,5 @@
 ---
 title: Das Samui?! Euro-2012-Orakel.
-type: post
 date: 2012-06-22T13:12:50+00:00
 url: /2012/06/das-samui-euro-2012-orakel/
 lastmod: 2023-09-10T19:14:12+07:00

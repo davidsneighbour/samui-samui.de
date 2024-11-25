@@ -1,6 +1,5 @@
 ---
 title: Vor dem Regen ist nach dem Regen
-type: post
 date: 2006-08-02T02:04:57+00:00
 url: /2006/08/vor-dem-regen-ist-nach-dem-regen/
 

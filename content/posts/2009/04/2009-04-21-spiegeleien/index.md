@@ -1,6 +1,5 @@
 ---
 title: Spiegeleien
-type: post
 date: 2009-04-20T22:58:11+00:00
 url: /2009/04/spiegeleien/
 

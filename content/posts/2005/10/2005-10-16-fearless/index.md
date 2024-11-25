@@ -1,6 +1,5 @@
 ---
 title: Fearless
-type: post
 date: 2005-10-15T21:08:00+00:00
 url: /2005/10/fearless/
 dsq_thread_id:

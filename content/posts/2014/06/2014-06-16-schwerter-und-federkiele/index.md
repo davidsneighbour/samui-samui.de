@@ -1,6 +1,5 @@
 ---
 title: Schwerter und Federkiele
-type: post
 date: 2014-06-16T13:36:33+00:00
 url: /2014/06/schwerter-und-federkiele/
 dsq_thread_id:

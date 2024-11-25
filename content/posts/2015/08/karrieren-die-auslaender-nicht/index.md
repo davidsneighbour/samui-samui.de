@@ -1,6 +1,5 @@
 ---
 title: Karrieren die Ausländer nicht.
-type: post
 date: 2015-08-12T13:41:08+00:00
 url: /2015/08/karrieren-die-auslaender-nicht/
 tags:
@@ -21,12 +20,12 @@ Neulich hat das Thailändische Arbeitsministerium eine Liste der Jobs, die man a
 
 Und so gibt es interessante Beschränkungen wie bspw:
 
-  * Das Proletariat
-  * Den Verkauf jeder Seite
-  * Arbeit an goldenen oder silbernen Ottern
-  * Tätigkeiten als Thai-Puppe
-  * Jobs als Buddha
-  * Dinge die man von Hand rollt
-  * und viele mehr
+* Das Proletariat
+* Den Verkauf jeder Seite
+* Arbeit an goldenen oder silbernen Ottern
+* Tätigkeiten als Thai-Puppe
+* Jobs als Buddha
+* Dinge die man von Hand rollt
+* und viele mehr
 
 Ausser Onlinemarketing bleibt einem da wirklich nicht viel mehr ;)

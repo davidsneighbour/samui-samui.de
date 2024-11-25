@@ -1,6 +1,5 @@
 ---
 title: Kreuzfahrtstau
-type: post
 date: 2012-02-23T17:37:59+00:00
 url: /2012/02/kreuzfahrtstau/
 lastmod: 2023-09-10T19:14:12+07:00

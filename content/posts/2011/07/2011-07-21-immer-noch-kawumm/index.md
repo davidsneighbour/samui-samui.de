@@ -1,6 +1,5 @@
 ---
 title: (Immer noch) Kawumm
-type: post
 date: 2011-07-21T13:01:52+00:00
 url: /2011/07/immer-noch-kawumm/
 lastmod: 2023-09-10T19:14:12+07:00

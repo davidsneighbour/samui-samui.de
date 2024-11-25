@@ -1,6 +1,5 @@
 ---
 title: Lärmverschmutzung
-type: post
 date: 2006-09-21T10:08:00+00:00
 url: /2006/09/laermverschmutzung/
 

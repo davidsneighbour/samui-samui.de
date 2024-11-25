@@ -1,6 +1,5 @@
 ---
 title: Makha Bucha Day
-type: post
 date: 2005-02-22T20:28:00+00:00
 url: /2005/02/makha-bucha-day/
 lastmod: 2023-09-10T19:14:12+07:00
@@ -11,7 +10,7 @@ Heute vor vielen Jahren, um genauer zu sein, 45 Jahre vor Beginn der buddhistisc
 
 Man sollte am Makha Bucha Day die folgenden Verrichtungen angehen:
 
-  * Tham Bon (in den Tempel gehen und dem Abt bei der Dhamma-Predigt zuhören)
-  * Rub Sil (keinen Alkohol trinken, nichts Unmoralisches tun)
-  * Tuk Bard (Mönchen Essen anbieten) und
-  * Vien Tien (an der abendlichen Kerzenprozession teilnehmen)
+* Tham Bon (in den Tempel gehen und dem Abt bei der Dhamma-Predigt zuhören)
+* Rub Sil (keinen Alkohol trinken, nichts Unmoralisches tun)
+* Tuk Bard (Mönchen Essen anbieten) und
+* Vien Tien (an der abendlichen Kerzenprozession teilnehmen)

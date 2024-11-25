@@ -1,6 +1,5 @@
 ---
 title: Skypereien
-type: post
 date: 2009-04-20T22:47:40+00:00
 url: /2009/04/skypereien/
 

@@ -1,6 +1,5 @@
 ---
 title: Sapazupzip!!!
-type: post
 date: 2007-05-03T12:16:29+00:00
 url: /2007/05/sapazupzip/
 

@@ -1,6 +1,5 @@
 ---
 title: I don’t like
-type: post
 date: 2011-12-01T13:42:03+00:00
 url: /2011/12/i-don-t-like/
 lastmod: 2023-09-10T19:14:12+07:00

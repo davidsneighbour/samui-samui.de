@@ -1,6 +1,5 @@
 ---
 title: Neues vom Hunde
-type: post
 date: 2006-08-20T02:44:00+00:00
 url: /2006/08/neues-vom-hunde/
 

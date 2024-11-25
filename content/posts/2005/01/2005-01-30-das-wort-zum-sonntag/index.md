@@ -1,6 +1,5 @@
 ---
 title: Das Wort zum Sonntag
-type: post
 date: 2005-01-30T01:40:09+00:00
 url: /2005/01/das-wort-zum-sonntag/
 dsq_thread_id:

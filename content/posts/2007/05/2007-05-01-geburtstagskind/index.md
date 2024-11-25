@@ -1,6 +1,5 @@
 ---
 title: Geburtstagskind
-type: post
 date: 2007-05-01T05:40:07+00:00
 url: /2007/05/geburtstagskind/
 

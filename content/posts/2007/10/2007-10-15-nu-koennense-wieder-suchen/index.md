@@ -1,6 +1,5 @@
 ---
 title: Nu könnense wieder suchen!
-type: post
 date: 2007-10-15T11:39:06+00:00
 url: /2007/10/nu-koennense-wieder-suchen/
 

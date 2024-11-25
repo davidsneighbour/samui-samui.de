@@ -1,6 +1,5 @@
 ---
 title: Terrorismuskunde
-type: post
 date: 2008-11-26T00:50:02+00:00
 url: /2008/11/terrorismuskunde/
 

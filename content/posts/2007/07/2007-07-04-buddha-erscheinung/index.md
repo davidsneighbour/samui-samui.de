@@ -1,6 +1,5 @@
 ---
 title: Buddha-Erscheinung
-type: post
 date: 2007-07-04T01:16:34+00:00
 url: /2007/07/buddha-erscheinung/
 

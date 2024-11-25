@@ -1,6 +1,5 @@
 ---
 title: The year of non-gouvernment
-type: post
 date: 2006-05-17T22:36:07+00:00
 url: /2006/05/the-year-of-non-gouvernment/
 lastmod: 2023-09-10T19:14:12+07:00

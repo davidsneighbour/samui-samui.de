@@ -1,6 +1,5 @@
 ---
 title: Diagnostiziert
-type: post
 date: 2006-08-24T08:37:50+00:00
 url: /2006/08/diagnostiziert/
 

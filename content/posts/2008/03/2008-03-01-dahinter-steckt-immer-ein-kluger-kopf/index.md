@@ -1,6 +1,5 @@
 ---
 title: Dahinter steckt immer ein kluger Kopf
-type: post
 date: 2008-03-01T00:29:22+00:00
 url: /2008/03/dahinter-steckt-immer-ein-kluger-kopf/
 

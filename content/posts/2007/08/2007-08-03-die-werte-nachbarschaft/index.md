@@ -1,6 +1,5 @@
 ---
 title: Die werte Nachbarschaft
-type: post
 date: 2007-08-02T20:52:44+00:00
 url: /2007/08/die-werte-nachbarschaft/
 

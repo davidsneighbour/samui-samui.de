@@ -1,6 +1,5 @@
 ---
 title: Würfelquallen
-type: post
 date: 2015-10-08T13:22:56+00:00
 url: /2015/10/wuerfelquallen/
 tags:
@@ -14,9 +13,9 @@ Jetzt reagieren die Hotels auf der Insel und warnen ihre Gäste ausdrücklich vo
 
 Mehr:
 
-*   [nationmultimedia.com][1] (english, mit Bildern)
-*   [Spiegel.de][2]
-*   [Sueddeutsche.de][3]
+* [nationmultimedia.com][1] (english, mit Bildern)
+* [Spiegel.de][2]
+* [Sueddeutsche.de][3]
 
 [1]: http://www.nationmultimedia.com/national/German-tourist-dies-of-jellyfish-sting-30270421.html
 

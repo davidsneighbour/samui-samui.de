@@ -1,6 +1,5 @@
 ---
 title: Kindertag
-type: post
 date: 2010-01-08T14:45:26+00:00
 url: /2010/01/kindertag/
 lastmod: 2023-09-10T19:14:12+07:00

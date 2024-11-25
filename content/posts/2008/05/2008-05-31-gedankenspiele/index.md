@@ -1,6 +1,5 @@
 ---
 title: Gedankenspiele
-type: post
 date: 2008-05-30T23:16:58+00:00
 url: /2008/05/gedankenspiele/
 

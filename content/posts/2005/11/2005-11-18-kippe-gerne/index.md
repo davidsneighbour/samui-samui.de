@@ -1,6 +1,5 @@
 ---
 title: Kippe? Gerne! (Zigarettenbildchen 1)
-type: post
 date: 2005-11-18T03:26:00+00:00
 url: /2005/11/kippe-gerne/
 lastmod: 2023-09-10T19:14:12+07:00

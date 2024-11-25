@@ -1,6 +1,5 @@
 ---
 title: Grünlichtviertel
-type: post
 date: 2008-03-26T02:21:12+00:00
 url: /2008/03/gruenlichtviertel/
 

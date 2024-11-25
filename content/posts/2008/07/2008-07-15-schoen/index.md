@@ -1,6 +1,5 @@
 ---
 title: Schön
-type: post
 date: 2008-07-15T13:12:10+00:00
 url: /2008/07/schoen/
 

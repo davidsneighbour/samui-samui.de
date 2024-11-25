@@ -1,6 +1,5 @@
 ---
 title: Mappologie am Sonntag
-type: post
 date: 2005-08-20T23:28:31+00:00
 url: /2005/08/mappologie-am-sonntag/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Natalia
-type: post
 date: 2006-09-07T09:37:54+00:00
 url: /2006/09/natalia/
 

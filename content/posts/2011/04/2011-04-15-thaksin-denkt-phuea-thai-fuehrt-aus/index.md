@@ -1,6 +1,5 @@
 ---
 title: Thaksin denkt, Phuea Thai führt aus
-type: post
 date: 2011-04-14T20:51:37+00:00
 url: /2011/04/thaksin-denkt-phuea-thai-fuehrt-aus/
 lastmod: 2023-09-10T19:14:12+07:00

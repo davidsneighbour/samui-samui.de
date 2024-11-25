@@ -1,6 +1,5 @@
 ---
 title: Perle(nk| K)auf(t)
-type: post
 date: 2006-04-04T23:19:00+00:00
 url: /2006/04/perlenkkauft/
 lastmod: 2023-09-10T19:14:12+07:00

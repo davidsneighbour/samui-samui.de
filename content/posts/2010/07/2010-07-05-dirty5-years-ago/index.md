@@ -1,6 +1,5 @@
 ---
 title: Dirty5 (years ago)
-type: post
 date: 2010-07-05T01:01:43+00:00
 url: /2010/07/dirty5-years-ago/
 lastmod: 2023-09-10T19:14:13+07:00

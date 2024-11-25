@@ -1,6 +1,5 @@
 ---
 title: 'Holiday Outtakes XII: Tourist'
-type: post
 date: 2008-06-26T23:50:03+00:00
 url: /2008/06/holiday-outtakes-xii-tourist/
 

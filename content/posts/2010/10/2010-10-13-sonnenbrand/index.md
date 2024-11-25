@@ -1,6 +1,5 @@
 ---
 title: Sonnenbrand
-type: post
 date: 2010-10-12T20:54:33+00:00
 url: /2010/10/sonnenbrand/
 lastmod: 2023-09-10T19:14:13+07:00

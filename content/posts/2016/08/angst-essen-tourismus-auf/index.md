@@ -1,6 +1,5 @@
 ---
 title: Angst essen Tourismus auf
-type: post
 date: 2016-08-24T02:33:38+00:00
 url: /2016/08/angst-essen-tourismus-auf/
 tags:
@@ -10,7 +9,7 @@ tags:
 
 Wenn man [die News im Spiegel heute][1] so liest, mag man meinen, dass es eine schlechte Idee ist, Thailand derzeit zu besuchen:
 
-{{< quote src="http://www.spiegel.de/panorama/justiz/thailand-offenbar-ein-toter-und-mehrere-verletzte-bei-bombenanschlag-a-1109163.html" source="Spiegel Online" >}}
+{{< quote src="<http://www.spiegel.de/panorama/justiz/thailand-offenbar-ein-toter-und-mehrere-verletzte-bei-bombenanschlag-a-1109163.html>" source="Spiegel Online" >}}
 Im Süden Thailands sind in der Nähe eines Hotels zwei Autobomben explodiert. Medienberichten zufolge wurde dabei eine Frau getötet, mindestens 29 Menschen sind verletzt.
 {{< /quote >}}
 

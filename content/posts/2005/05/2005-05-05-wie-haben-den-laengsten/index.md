@@ -1,6 +1,5 @@
 ---
 title: Wie haben den Längsten
-type: post
 date: 2005-05-04T21:11:30+00:00
 url: /2005/05/wie-haben-den-laengsten/
 lastmod: 2023-09-10T19:14:12+07:00

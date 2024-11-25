@@ -1,6 +1,5 @@
 ---
 title: Kabelsalat – oder – Wireless
-type: post
 date: 2005-03-18T06:55:26+00:00
 url: /2005/03/kabelsalat-oder-wireless/
 dsq_thread_id:

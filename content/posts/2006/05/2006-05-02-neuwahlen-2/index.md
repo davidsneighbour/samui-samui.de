@@ -1,6 +1,5 @@
 ---
 title: Neuwahlen?
-type: post
 date: 2006-05-01T21:51:50+00:00
 url: /2006/05/neuwahlen-2/
 lastmod: 2023-09-10T19:14:12+07:00

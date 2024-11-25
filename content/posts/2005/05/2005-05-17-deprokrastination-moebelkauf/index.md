@@ -1,6 +1,5 @@
 ---
 title: Deprokrastination – Möbelkauf
-type: post
 date: 2005-05-16T20:33:29+00:00
 url: /2005/05/deprokrastination-moebelkauf/
 lastmod: 2023-09-10T19:14:12+07:00

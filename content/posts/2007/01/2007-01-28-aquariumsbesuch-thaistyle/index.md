@@ -1,6 +1,5 @@
 ---
 title: Aquariumsbesuch – Thaistyle
-type: post
 date: 2007-01-28T09:32:57+00:00
 url: /2007/01/aquariumsbesuch-thaistyle/
 

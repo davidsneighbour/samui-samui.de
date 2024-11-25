@@ -1,6 +1,5 @@
 ---
 title: Krieg den Drogen
-type: post
 date: 2008-02-22T23:16:49+00:00
 url: /2008/02/krieg-den-drogen/
 dsq_thread_id:

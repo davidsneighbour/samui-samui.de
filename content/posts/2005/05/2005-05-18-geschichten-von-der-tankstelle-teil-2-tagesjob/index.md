@@ -1,6 +1,5 @@
 ---
 title: "Geschichten von der Tankstelle – Teil 2: Tagesjob"
-type: post
 date: 2005-05-17T22:56:27+00:00
 url: /2005/05/geschichten-von-der-tankstelle-teil-2-tagesjob/
 lastmod: 2023-09-10T19:14:12+07:00

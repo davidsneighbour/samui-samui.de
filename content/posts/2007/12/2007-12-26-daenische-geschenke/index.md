@@ -1,6 +1,5 @@
 ---
 title: Dänische Geschenke
-type: post
 date: 2007-12-26T01:32:39+00:00
 url: /2007/12/daenische-geschenke/
 

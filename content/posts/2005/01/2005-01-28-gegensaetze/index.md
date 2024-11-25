@@ -1,6 +1,5 @@
 ---
 title: Gegensätze?
-type: post
 date: 2005-01-27T19:56:00+00:00
 url: /2005/01/gegensaetze/
 dsq_thread_id:

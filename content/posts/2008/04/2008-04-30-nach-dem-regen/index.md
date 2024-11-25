@@ -1,6 +1,5 @@
 ---
 title: Nach dem Regen
-type: post
 date: 2008-04-30T00:54:39+00:00
 url: /2008/04/nach-dem-regen/
 

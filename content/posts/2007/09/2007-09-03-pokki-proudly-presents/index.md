@@ -1,6 +1,5 @@
 ---
 title: Pokki proudly presents
-type: post
 date: 2007-09-02T21:38:10+00:00
 url: /2007/09/pokki-proudly-presents/
 

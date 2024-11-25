@@ -1,6 +1,5 @@
 ---
 title: Rund um die Uhr leer
-type: post
 date: 2011-04-05T11:11:49+00:00
 url: /2011/04/rund-um-die-uhr-leer/
 lastmod: 2023-09-10T19:14:12+07:00

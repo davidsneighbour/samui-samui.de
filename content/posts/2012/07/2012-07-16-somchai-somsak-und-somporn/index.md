@@ -1,6 +1,5 @@
 ---
 title: Somchai, Somsak und Somporn
-type: post
 date: 2012-07-16T12:42:30+00:00
 url: /2012/07/somchai-somsak-und-somporn/
 fb_mentioned_pages:
@@ -22,11 +21,11 @@ lastmod: 2023-09-10T19:14:12+07:00
 ---
 Die nach Angaben des thailändischen Innenministeriums [beliebtesten (männlichen) Vornamen in Thailand][1] sind:
 
-  * Somchai (240000 Thais mit diesem Vornamen)
-  * Somsak (230000)
-  * Somporn (210000)
-  * Somboon (170400)
-  * Prasert (170000)
+* Somchai (240000 Thais mit diesem Vornamen)
+* Somsak (230000)
+* Somporn (210000)
+* Somboon (170400)
+* Prasert (170000)
 
 Irgendwie scheint Som ein recht gerne genutzter Namensbestandteil zu sein. Einfach übersetzt bedeutet Som Orange oder säuerlich. Jeder kennt mindestens einen Somporn, Somsak oder Somchai, richtig?
 

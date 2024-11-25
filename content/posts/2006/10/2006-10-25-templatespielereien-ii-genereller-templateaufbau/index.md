@@ -1,6 +1,5 @@
 ---
 title: 'Templatespielereien II: Genereller Templateaufbau'
-type: post
 date: 2006-10-25T06:42:23+00:00
 url: /2006/10/templatespielereien-ii-genereller-templateaufbau/
 

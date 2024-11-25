@@ -1,6 +1,5 @@
 ---
 title: 'Kinder- und Lehrertag'
-type: post
 date: 2017-01-16T13:32:23+00:00
 url: /2017/01/kinder-und-lehrertag/
 tags:

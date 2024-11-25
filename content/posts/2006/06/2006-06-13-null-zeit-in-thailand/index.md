@@ -1,6 +1,5 @@
 ---
 title: Null Zeit in Thailand
-type: post
 date: 2006-06-13T03:34:00+00:00
 url: /2006/06/null-zeit-in-thailand/
 

@@ -1,6 +1,5 @@
 ---
 title: Babies in Tüten
-type: post
 date: 2010-11-15T19:02:06+00:00
 url: /2010/11/babies-in-tueten/
 lastmod: 2023-09-10T19:14:13+07:00

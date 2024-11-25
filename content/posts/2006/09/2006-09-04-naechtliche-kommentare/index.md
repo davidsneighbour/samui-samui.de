@@ -1,6 +1,5 @@
 ---
 title: Nächtliche Kommentare
-type: post
 date: 2006-09-03T20:35:00+00:00
 url: /2006/09/naechtliche-kommentare/
 

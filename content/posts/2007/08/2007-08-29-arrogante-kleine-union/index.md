@@ -1,6 +1,5 @@
 ---
 title: Arrogante kleine Union
-type: post
 date: 2007-08-29T15:13:41+00:00
 url: /2007/08/arrogante-kleine-union/
 

@@ -1,6 +1,5 @@
 ---
 title: Grade im Thaifussball?studio
-type: post
 date: 2006-06-23T08:40:00+00:00
 url: /2006/06/grade-im-thaifussballstudio/
 

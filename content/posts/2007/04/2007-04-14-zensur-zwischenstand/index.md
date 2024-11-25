@@ -1,6 +1,5 @@
 ---
 title: Zensur – Zwischenstand
-type: post
 date: 2007-04-14T00:58:32+00:00
 url: /2007/04/zensur-zwischenstand/
 
@@ -10,9 +9,9 @@ url: /2007/04/zensur-zwischenstand/
 ---
 In kurz:
 
-  * Youtube.com ist immer noch gesperrt
-  * Pantips politisches Forum war für kurze Zeit geblockt (Selbstzensur)
-  * Die Techniker von true (unter anderem Internetanbieter) sind genauso doof wie die bei der Zensurbehörde und zensierten ein paar Stunden lang das halbe Internet.
+* Youtube.com ist immer noch gesperrt
+* Pantips politisches Forum war für kurze Zeit geblockt (Selbstzensur)
+* Die Techniker von true (unter anderem Internetanbieter) sind genauso doof wie die bei der Zensurbehörde und zensierten ein paar Stunden lang das halbe Internet.
 
 Unter Verwendung mehrerer Fachbegriffe:
 

@@ -1,6 +1,5 @@
 ---
 title: Peter Alexanders Tochter auf Samuis Stra?en verstorben
-type: post
 date: 2009-03-10T14:50:01+00:00
 url: /2009/03/peter-alexanders-tochter-auf-samuis-strassen-verstorben/
 

@@ -1,6 +1,5 @@
 ---
 title: Thailand’s Armee hackt nicht
-type: post
 date: 2015-07-21T13:05:24+00:00
 url: /2015/07/thailands-armee-hackt-nicht/
 tags:

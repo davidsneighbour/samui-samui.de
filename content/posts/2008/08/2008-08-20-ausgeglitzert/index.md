@@ -1,6 +1,5 @@
 ---
 title: Ausgeglitzert
-type: post
 date: 2008-08-19T23:59:46+00:00
 url: /2008/08/ausgeglitzert/
 

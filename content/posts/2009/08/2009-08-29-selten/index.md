@@ -1,6 +1,5 @@
 ---
 title: Selten
-type: post
 date: 2009-08-29T02:42:50+00:00
 url: /2009/08/selten/
 

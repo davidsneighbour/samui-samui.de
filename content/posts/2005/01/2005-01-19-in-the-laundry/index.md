@@ -1,6 +1,5 @@
 ---
 title: In the laundry
-type: post
 date: 2005-01-18T19:20:00+00:00
 url: /2005/01/in-the-laundry/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Samstag Morgen
-type: post
 date: 2005-11-04T20:18:28+00:00
 url: /2005/11/samstag-morgen/
 lastmod: 2023-09-10T19:14:12+07:00

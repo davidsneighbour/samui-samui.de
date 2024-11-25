@@ -1,6 +1,5 @@
 ---
 title: Der Autor
-type: post
 date: 2008-09-30T16:24:44+00:00
 url: /2008/09/der-autor-2/
 

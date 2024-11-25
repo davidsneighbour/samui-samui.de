@@ -1,6 +1,5 @@
 ---
 title: Das Ende ist nahe!
-type: post
 date: 2005-12-30T22:46:00+00:00
 url: /2005/12/dasendeistnahe/
 lastmod: 2023-09-10T19:14:12+07:00

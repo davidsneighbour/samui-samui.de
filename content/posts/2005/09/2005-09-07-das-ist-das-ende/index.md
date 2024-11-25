@@ -1,6 +1,5 @@
 ---
 title: Das ist das Ende
-type: post
 date: 2005-09-06T21:19:00+00:00
 url: /2005/09/das-ist-das-ende/
 lastmod: 2023-09-10T19:14:12+07:00

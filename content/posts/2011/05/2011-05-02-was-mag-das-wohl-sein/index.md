@@ -1,6 +1,5 @@
 ---
 title: Was mag das wohl sein?
-type: post
 date: 2011-05-02T00:48:23+00:00
 url: /2011/05/was-mag-das-wohl-sein/
 lastmod: 2023-09-10T19:14:12+07:00

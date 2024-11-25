@@ -1,6 +1,5 @@
 ---
 title: Erleuchtung
-type: post
 date: 2006-07-07T09:33:00+00:00
 url: /2006/07/erleuchtung/
 lastmod: 2023-09-10T19:14:12+07:00

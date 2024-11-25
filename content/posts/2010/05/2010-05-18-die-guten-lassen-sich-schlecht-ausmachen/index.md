@@ -1,6 +1,5 @@
 ---
 title: Die Guten lassen sich schlecht ausmachen
-type: post
 date: 2010-05-18T16:57:50+00:00
 url: /2010/05/die-guten-lassen-sich-schlecht-ausmachen/
 lastmod: 2023-09-10T19:14:13+07:00

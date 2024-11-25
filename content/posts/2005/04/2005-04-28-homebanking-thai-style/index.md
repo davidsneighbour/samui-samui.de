@@ -1,6 +1,5 @@
 ---
 title: Homebanking Thai-Style
-type: post
 date: 2005-04-27T20:34:00+00:00
 url: /2005/04/homebanking-thai-style/
 lastmod: 2023-09-10T19:14:12+07:00

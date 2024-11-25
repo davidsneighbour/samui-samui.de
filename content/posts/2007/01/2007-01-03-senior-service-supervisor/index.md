@@ -1,6 +1,5 @@
 ---
 title: Senior Service Supervisor
-type: post
 date: 2007-01-03T04:06:50+00:00
 url: /2007/01/senior-service-supervisor/
 

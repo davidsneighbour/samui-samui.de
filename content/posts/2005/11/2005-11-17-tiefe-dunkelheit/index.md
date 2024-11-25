@@ -1,6 +1,5 @@
 ---
 title: Tiefe Dunkelheit
-type: post
 date: 2005-11-17T01:33:00+00:00
 url: /2005/11/tiefe-dunkelheit/
 lastmod: 2023-09-10T19:14:12+07:00

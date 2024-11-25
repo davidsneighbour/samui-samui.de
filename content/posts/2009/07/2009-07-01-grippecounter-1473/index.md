@@ -1,6 +1,5 @@
 ---
 title: 'Grippecounter: 1473'
-type: post
 date: 2009-06-30T20:50:04+00:00
 url: /2009/07/grippecounter-1473/
 
@@ -20,10 +19,10 @@ Heute mal eine kleine statistische Auswertung der aktuellen Grippe-Panik-Saison.
 
 Leider sind seit gut einer Woche die ersten Todesfälle in Thailand bekannt:
 
-  * Am 20.06. starb eine 40jährige Frau in einem Privatkrankenhaus. Ihren Tod hat man eine ganze Weile lang geheim gehalten.
-  * Am 23.06.09 starb ein 42jähriger Mann.
-  * Am 29.06.09 starb ein Navy-Kadett.
-  * Heute starben ein 47jähriger Mann (Kettenraucher und Trinker) und ein 15jähriges Mädchen.
+* Am 20.06. starb eine 40jährige Frau in einem Privatkrankenhaus. Ihren Tod hat man eine ganze Weile lang geheim gehalten.
+* Am 23.06.09 starb ein 42jähriger Mann.
+* Am 29.06.09 starb ein Navy-Kadett.
+* Heute starben ein 47jähriger Mann (Kettenraucher und Trinker) und ein 15jähriges Mädchen.
 
 Das Gesundheitsministerium beginnt Kampagnen zu organisieren, um die Bevölkerung zu einem "gesünderen Leben" zu erziehen.
 

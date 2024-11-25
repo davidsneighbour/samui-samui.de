@@ -1,6 +1,5 @@
 ---
 title: Die Wichtige Person
-type: post
 date: 2006-03-27T01:41:00+00:00
 url: /2006/03/die-wichtige-person/
 lastmod: 2023-09-10T19:14:12+07:00

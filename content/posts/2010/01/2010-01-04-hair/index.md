@@ -1,6 +1,5 @@
 ---
 title: Hair
-type: post
 date: 2010-01-04T04:46:48+00:00
 url: /2010/01/hair/
 lastmod: 2023-09-10T19:14:13+07:00

@@ -1,6 +1,5 @@
 ---
 title: Liebes Tagebuch
-type: post
 date: 2017-07-24T13:52:51+00:00
 url: /2017/07/liebes-tagebuch/
 tags:

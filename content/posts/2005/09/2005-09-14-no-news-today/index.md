@@ -1,6 +1,5 @@
 ---
 title: No news today
-type: post
 date: 2005-09-13T20:01:51+00:00
 url: /2005/09/no-news-today/
 lastmod: 2023-09-10T19:14:12+07:00

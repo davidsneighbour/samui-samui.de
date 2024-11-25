@@ -1,6 +1,5 @@
 ---
 title: 'Holiday Outtakes IX: Pflaster (in Prag)'
-type: post
 date: 2008-06-25T03:17:52+00:00
 url: /2008/06/holiday-outtakes-ix-pflaster/
 

@@ -1,6 +1,5 @@
 ---
 title: Traumlos?
-type: post
 date: 2005-01-15T00:28:00+00:00
 url: /2005/01/traumlos/
 dsq_thread_id:

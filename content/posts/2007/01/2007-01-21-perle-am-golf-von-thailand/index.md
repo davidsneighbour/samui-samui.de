@@ -1,6 +1,5 @@
 ---
 title: Perle am Golf von Thailand
-type: post
 date: 2007-01-21T01:25:36+00:00
 url: /2007/01/perle-am-golf-von-thailand/
 

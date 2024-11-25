@@ -1,6 +1,5 @@
 ---
 title: Jintropin
-type: post
 date: 2005-08-11T22:17:00+00:00
 url: /2005/08/jintropin/
 dsq_thread_id:

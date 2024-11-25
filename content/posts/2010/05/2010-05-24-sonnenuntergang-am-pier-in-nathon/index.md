@@ -1,6 +1,5 @@
 ---
 title: Sonnenuntergang am Pier in Nathon
-type: post
 date: 2010-05-24T01:30:25+00:00
 url: /2010/05/sonnenuntergang-am-pier-in-nathon/
 lastmod: 2023-09-10T19:14:13+07:00

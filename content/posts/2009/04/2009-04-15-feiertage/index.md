@@ -1,6 +1,5 @@
 ---
 title: Feiertage
-type: post
 date: 2009-04-15T14:48:23+00:00
 url: /2009/04/feiertage/
 dsq_thread_id:

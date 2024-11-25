@@ -1,6 +1,5 @@
 ---
 title: Tamarinde
-type: post
 date: 2007-06-17T19:42:41+00:00
 url: /2007/06/tamarinde/
 

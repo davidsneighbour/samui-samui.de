@@ -1,6 +1,5 @@
 ---
 title: Zerrissene Familie
-type: post
 date: 2007-01-09T20:31:43+00:00
 url: /2007/01/zerrissene-familie/
 

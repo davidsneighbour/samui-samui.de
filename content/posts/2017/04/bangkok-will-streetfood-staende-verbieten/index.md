@@ -1,6 +1,5 @@
 ---
 title: Bangkok will Streetfood-Stände verbieten
-type: post
 date: 2017-04-18T12:20:12+00:00
 url: /2017/04/bangkok-will-streetfood-staende-verbieten/
 tags:
@@ -9,7 +8,7 @@ tags:
   - thai traditionen
 ---
 
-{{< quote src="http://www.spiegel.de/reise/aktuell/bangkok-will-strassenkuechen-bis-jahresende-verbieten-a-1143643.html" source="spiegel.de" >}}
+{{< quote src="<http://www.spiegel.de/reise/aktuell/bangkok-will-strassenkuechen-bis-jahresende-verbieten-a-1143643.html>" source="spiegel.de" >}}
 
 In vielen Städten der Welt erfahren Straßenküchen immer mehr Wertschätzung. In Singapur erhielten zwei sogenannte Hawker im vergangenen Jahr sogar jeweils einen Michelin-Stern. In Thailands Hauptstadt allerdings werden die Streetfood-Stände von den Straßen verbannt.
 

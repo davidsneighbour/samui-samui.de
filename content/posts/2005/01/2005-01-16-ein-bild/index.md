@@ -1,6 +1,5 @@
 ---
 title: Ein Bild
-type: post
 date: 2005-01-15T23:08:00+00:00
 url: /2005/01/ein-bild/
 featured_image: /wp-content/uploads/2005/01/ein-bild/15.jpg

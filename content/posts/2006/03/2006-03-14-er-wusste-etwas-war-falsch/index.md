@@ -1,6 +1,5 @@
 ---
 title: Er wusste, etwas war falsch …
-type: post
 date: 2006-03-13T18:56:00+00:00
 url: /2006/03/er-wusste-etwas-war-falsch/
 lastmod: 2023-09-10T19:14:12+07:00

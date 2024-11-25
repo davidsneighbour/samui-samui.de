@@ -1,6 +1,5 @@
 ---
 title: 2 Jahre
-type: post
 date: 2007-11-15T01:43:38+00:00
 url: /2007/11/2-jahre/
 

@@ -1,6 +1,5 @@
 ---
 title: Ferkel
-type: post
 date: 2007-02-20T10:58:10+00:00
 url: /2007/02/ferkel/
 

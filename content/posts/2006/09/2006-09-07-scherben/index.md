@@ -1,6 +1,5 @@
 ---
 title: Scherben
-type: post
 date: 2006-09-07T04:37:00+00:00
 url: /2006/09/scherben/
 

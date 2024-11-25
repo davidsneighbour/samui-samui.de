@@ -1,6 +1,5 @@
 ---
 title: Kinoabend
-type: post
 date: 2007-04-07T10:58:47+00:00
 url: /2007/04/kinoabend/
 

@@ -1,6 +1,5 @@
 ---
 title: Bangkok Flood Watch
-type: post
 date: 2012-09-04T09:04:06+00:00
 url: /2012/09/bangkok-flood-watch/
 fb_mentioned_pages:

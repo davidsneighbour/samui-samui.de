@@ -1,6 +1,5 @@
 ---
 title: Rote Karten
-type: post
 date: 2007-12-29T23:32:23+00:00
 url: /2007/12/rote-karten/
 

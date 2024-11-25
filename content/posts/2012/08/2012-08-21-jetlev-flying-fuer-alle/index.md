@@ -1,6 +1,5 @@
 ---
 title: Jetlev-Flying für alle!
-type: post
 date: 2012-08-21T10:18:29+00:00
 url: /2012/08/jetlev-flying-fuer-alle/
 fb_mentioned_pages:

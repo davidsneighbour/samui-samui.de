@@ -1,6 +1,5 @@
 ---
 title: König Reich
-type: post
 date: 2007-09-23T17:43:35+00:00
 url: /2007/09/koenig-reich/
 

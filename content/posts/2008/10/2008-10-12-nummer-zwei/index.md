@@ -1,6 +1,5 @@
 ---
 title: Nummer Zwei
-type: post
 date: 2008-10-11T17:39:51+00:00
 url: /2008/10/nummer-zwei/
 

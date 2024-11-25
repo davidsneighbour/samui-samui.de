@@ -1,6 +1,5 @@
 ---
 title: Judgement Day
-type: post
 date: 2007-05-28T21:41:05+00:00
 url: /2007/05/judgement-day/
 

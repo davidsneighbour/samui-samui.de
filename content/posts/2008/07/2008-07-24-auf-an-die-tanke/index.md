@@ -1,6 +1,5 @@
 ---
 title: Auf an die Tanke!
-type: post
 date: 2008-07-24T14:31:00+00:00
 url: /2008/07/auf-an-die-tanke/
 

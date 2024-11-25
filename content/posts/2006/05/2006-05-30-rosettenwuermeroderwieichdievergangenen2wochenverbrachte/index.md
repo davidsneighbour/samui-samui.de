@@ -1,6 +1,5 @@
 ---
 title: Rosettenwürmer oder wie ich die vergangenen 2,5 Wochen verbrachte
-type: post
 date: 2006-05-29T23:58:00+00:00
 url: /2006/05/rosettenwuermeroderwieichdievergangenen2wochenverbrachte/
 lastmod: 2023-09-10T19:14:12+07:00
@@ -23,9 +22,9 @@ Irgendwie sagen mir alle (Thai)Frauen jetzt immer, was für ein gutes Herz ich h
 
 **PS) Inzwischen**
 
-  * ist der Hund 2200g schwer (nach 8 Wochen leben und fressen, nach 6 Wochen wog er nur 1000g)
-  * als Thai-Labrador identifiziert. Was das Thai dabei zu sagen hat, weiß ich nicht. Eventuell (soll heißen hoffentlich) dass er etwas kleiner bleibt, auch wenn man das nicht unbedingt erwarten kann bei _der_ Gewichtszunahme.
-  * schläft sie draussen, lebt sie draußen. Ich finde es leichter die Veranda täglich zu schrubben anstatt mein Haus nach Häufchen und Pfützchen zu durchsuchen.
-  * hat sie ihren [eigenen Flickr-Tag][1]
+* ist der Hund 2200g schwer (nach 8 Wochen leben und fressen, nach 6 Wochen wog er nur 1000g)
+* als Thai-Labrador identifiziert. Was das Thai dabei zu sagen hat, weiß ich nicht. Eventuell (soll heißen hoffentlich) dass er etwas kleiner bleibt, auch wenn man das nicht unbedingt erwarten kann bei _der_ Gewichtszunahme.
+* schläft sie draussen, lebt sie draußen. Ich finde es leichter die Veranda täglich zu schrubben anstatt mein Haus nach Häufchen und Pfützchen zu durchsuchen.
+* hat sie ihren [eigenen Flickr-Tag][1]
 
  [1]: http://www.flickr.com/photos/schreibblogade/tags/fleur/

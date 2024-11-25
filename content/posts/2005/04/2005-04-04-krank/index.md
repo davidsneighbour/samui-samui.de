@@ -1,6 +1,5 @@
 ---
 title: Krank
-type: post
 date: 2005-04-03T22:19:47+00:00
 url: /2005/04/krank/
 dsq_thread_id:

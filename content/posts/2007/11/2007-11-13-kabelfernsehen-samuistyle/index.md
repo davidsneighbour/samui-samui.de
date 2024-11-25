@@ -1,6 +1,5 @@
 ---
 title: Kabelfernsehen Samuistyle
-type: post
 date: 2007-11-13T12:57:26+00:00
 url: /2007/11/kabelfernsehen-samuistyle/
 dsq_thread_id:
@@ -12,14 +11,14 @@ dsq_thread_id:
 ---
 Kabelfernsehen ist Fernsehen aus dem Kabel. Man zahlt 450 Baht im Monat (150 Baht mehr als für das Grundpaket bei <span class="caps">UBC</span>) und bekommt dafür eine Vielzahl interessanter Kanäle:
 
-  * MNet1: Ein Kanal aus dem südafrikanischen Pendant vom deutschen Bezahlfernsehen premiere (also dem premiere das ich von vor vier Jahren kenne).
-  * MNet Series: Ein typischer Serienkanal, auch aus Südafrika, der in 6 Stundenblöcken den ganzen Tag das gleiche Programm zeigt. Jerry Springer, Ellen, Desperate Housewives, ER, House, Al Bundy, Golden Girls, eine unlustige Comedysendung mit wei?en Afrikanern die mit hollandische Akkzenn (kann gut Afrikaans sein) betont witzig sein wollen, es aber nicht sind, Nip/Tuck, Lost und ein paar andere sonst unverkäufliche Serien.
-  * Zone Reality: Ein Dokukanal über dumme Verbrecher, clevere Verbrecher, Mörder die plötzlich gegen die Todesstrafe sind, Leute, die andere Leute retten, betrügen, töten oder ausbuddeln, Geisterforscher, Hogan knows best und so weiter. Also alles, was man in den dritten und vierten Programmen nicht mehr bringen könnte. Man möge es Reality-TV nennen.
-  * die Standardthaikanäle: Channel 3, 5, 7, 9, 11, Nation-TV (Newskanal von The Nation), TiTV (oder wie Thaksins kleiner Kanal gerade mal wieder hei?t).
-  * ein Comickanal auf dem 60er Jahre Comics in Thaisynchronisation kommen
-  * 10 öffentliche Kanäle, auf denen immer Englisch- und Französischkurse von den Folien der Vortragenden mitgeschnitten werden oder verehrte Mönche predigen.
-  * europäische Kanäle, <span class="caps">RAI</span>, das Franzosending und so weiter...
-  * eine Unmenge an anderswo zusammen gesammelten Kanälen, manche nützlich, manche, damit man sagen kann "mehr als 40 Programme".
+* MNet1: Ein Kanal aus dem südafrikanischen Pendant vom deutschen Bezahlfernsehen premiere (also dem premiere das ich von vor vier Jahren kenne).
+* MNet Series: Ein typischer Serienkanal, auch aus Südafrika, der in 6 Stundenblöcken den ganzen Tag das gleiche Programm zeigt. Jerry Springer, Ellen, Desperate Housewives, ER, House, Al Bundy, Golden Girls, eine unlustige Comedysendung mit wei?en Afrikanern die mit hollandische Akkzenn (kann gut Afrikaans sein) betont witzig sein wollen, es aber nicht sind, Nip/Tuck, Lost und ein paar andere sonst unverkäufliche Serien.
+* Zone Reality: Ein Dokukanal über dumme Verbrecher, clevere Verbrecher, Mörder die plötzlich gegen die Todesstrafe sind, Leute, die andere Leute retten, betrügen, töten oder ausbuddeln, Geisterforscher, Hogan knows best und so weiter. Also alles, was man in den dritten und vierten Programmen nicht mehr bringen könnte. Man möge es Reality-TV nennen.
+* die Standardthaikanäle: Channel 3, 5, 7, 9, 11, Nation-TV (Newskanal von The Nation), TiTV (oder wie Thaksins kleiner Kanal gerade mal wieder hei?t).
+* ein Comickanal auf dem 60er Jahre Comics in Thaisynchronisation kommen
+* 10 öffentliche Kanäle, auf denen immer Englisch- und Französischkurse von den Folien der Vortragenden mitgeschnitten werden oder verehrte Mönche predigen.
+* europäische Kanäle, <span class="caps">RAI</span>, das Franzosending und so weiter...
+* eine Unmenge an anderswo zusammen gesammelten Kanälen, manche nützlich, manche, damit man sagen kann "mehr als 40 Programme".
 
 Jetzt könnte man ja meinen, da wäre nichts dran auszusetzen. Ist es auch nicht. Dummerweise nur sind gut 10 der Kanäle live aus dem Internet gestreamt. Das heisst, wenn bei MNet Freitag um 20 Uhr ein superduper Film kommt, dann kommt der um Acht Zentralafrikanischer Zeit. Das dürfte so ungefähr Europazeit sein.
 

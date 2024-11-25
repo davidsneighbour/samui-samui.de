@@ -1,6 +1,5 @@
 ---
 title: User sind männlich
-type: post
 date: 2006-03-27T02:50:02+00:00
 url: /2006/03/user-sind-maennlich/
 lastmod: 2023-09-10T19:14:12+07:00

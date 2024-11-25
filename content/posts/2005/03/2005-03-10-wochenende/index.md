@@ -1,6 +1,5 @@
 ---
 title: Wochenende?
-type: post
 date: 2005-03-09T20:55:46+00:00
 url: /2005/03/wochenende/
 lastmod: 2023-09-10T19:14:12+07:00

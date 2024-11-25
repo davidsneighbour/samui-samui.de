@@ -1,6 +1,5 @@
 ---
 title: Der Phallus
-type: post
 date: 2006-06-24T06:58:00+00:00
 url: /2006/06/der-phallus/
 dsq_thread_id:

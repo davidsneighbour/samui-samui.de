@@ -1,6 +1,5 @@
 ---
 title: 'Pluto: Und er bleibt doch ein Planet!'
-type: post
 date: 2006-08-25T19:57:23+00:00
 url: /2006/08/pluto-und-er-bleibt-doch-ein-planet/
 

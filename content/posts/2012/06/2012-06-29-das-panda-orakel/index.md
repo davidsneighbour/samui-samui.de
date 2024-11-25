@@ -1,6 +1,5 @@
 ---
 title: Das Panda-Orakel
-type: post
 date: 2012-06-29T09:05:03+00:00
 url: /2012/06/das-panda-orakel/
 fb_mentioned_pages:

@@ -1,6 +1,5 @@
 ---
 title: Ich und meine Blog-Depression
-type: post
 date: 2015-04-09T15:16:50+00:00
 url: /2015/04/ich-und-meine-blog-depression/
 tags:

@@ -1,6 +1,5 @@
 ---
 title: Chang Noi II
-type: post
 date: 2006-07-30T21:41:00+00:00
 url: /2006/07/chang-noi-ii/
 lastmod: 2023-09-10T19:14:12+07:00

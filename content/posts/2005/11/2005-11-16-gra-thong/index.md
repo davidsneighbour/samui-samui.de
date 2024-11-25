@@ -1,6 +1,5 @@
 ---
 title: Gra Thong
-type: post
 date: 2005-11-16T02:56:00+00:00
 url: /2005/11/gra-thong/
 lastmod: 2023-09-10T19:14:12+07:00

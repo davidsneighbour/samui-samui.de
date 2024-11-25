@@ -1,6 +1,5 @@
 ---
 title: Grenzverkehr
-type: post
 date: 2006-12-17T20:16:57+00:00
 url: /2006/12/grenzverkehr/
 

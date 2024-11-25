@@ -1,6 +1,5 @@
 ---
 title: Endgame
-type: post
 date: 2008-08-25T03:47:25+00:00
 url: /2008/08/endgame/
 

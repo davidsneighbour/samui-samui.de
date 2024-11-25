@@ -1,6 +1,5 @@
 ---
 title: Frühlingsanfang
-type: post
 date: 2011-02-03T16:13:26+00:00
 url: /2011/02/fruehlingsanfang/
 lastmod: 2023-09-10T19:14:12+07:00

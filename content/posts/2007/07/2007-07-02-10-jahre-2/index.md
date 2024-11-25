@@ -1,6 +1,5 @@
 ---
 title: 10 Jahre
-type: post
 date: 2007-07-01T21:22:01+00:00
 url: /2007/07/10-jahre-2/
 

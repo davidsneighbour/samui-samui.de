@@ -1,6 +1,5 @@
 ---
 title: Halbe Sachen
-type: post
 date: 2008-12-02T13:50:34+00:00
 url: /2008/12/halbe-sachen/
 

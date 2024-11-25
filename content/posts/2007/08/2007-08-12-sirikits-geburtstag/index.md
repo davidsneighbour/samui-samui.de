@@ -1,6 +1,5 @@
 ---
 title: Sirikits Geburtstag
-type: post
 date: 2007-08-11T17:47:14+00:00
 url: /2007/08/sirikits-geburtstag/
 

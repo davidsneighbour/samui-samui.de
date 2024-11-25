@@ -1,6 +1,5 @@
 ---
 title: Reissuppe
-type: post
 date: 2006-08-16T21:44:00+00:00
 url: /2006/08/reissuppe/
 

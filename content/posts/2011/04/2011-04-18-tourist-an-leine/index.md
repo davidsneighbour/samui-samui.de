@@ -1,6 +1,5 @@
 ---
 title: Tourist an Leine
-type: post
 date: 2011-04-18T02:00:57+00:00
 url: /2011/04/tourist-an-leine/
 lastmod: 2023-09-10T19:14:12+07:00

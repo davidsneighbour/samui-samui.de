@@ -1,6 +1,5 @@
 ---
 title: Es regnet
-type: post
 date: 2009-03-31T21:50:41+00:00
 url: /2009/04/es-regnet-2/
 

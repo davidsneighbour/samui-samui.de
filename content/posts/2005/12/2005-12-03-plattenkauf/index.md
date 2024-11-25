@@ -1,6 +1,5 @@
 ---
 title: Plattenkauf
-type: post
 date: 2005-12-03T03:29:00+00:00
 url: /2005/12/plattenkauf/
 dsq_thread_id:

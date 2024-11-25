@@ -1,6 +1,5 @@
 ---
 title: YouTube geblockt – oder nicht
-type: post
 date: 2007-03-11T04:52:52+00:00
 url: /2007/03/youtube-geblockt-oder-nicht/
 dsq_thread_id:

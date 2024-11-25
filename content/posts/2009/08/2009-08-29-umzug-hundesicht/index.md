@@ -1,6 +1,5 @@
 ---
 title: Umzug (Hundesicht)
-type: post
 date: 2009-08-29T02:07:27+00:00
 url: /2009/08/umzug-hundesicht/
 

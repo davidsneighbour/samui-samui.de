@@ -1,6 +1,5 @@
 ---
 title: Zen
-type: post
 date: 2007-02-03T01:22:34+00:00
 url: /2007/02/zen/
 

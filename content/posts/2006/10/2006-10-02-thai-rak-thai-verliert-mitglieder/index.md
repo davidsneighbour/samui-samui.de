@@ -1,11 +1,10 @@
 ---
 title: Thai Rak Thai verliert Mitglieder
-type: post
 date: 2006-10-02T04:12:00+00:00
 url: /2006/10/thai-rak-thai-verliert-mitglieder/
 lastmod: 2023-09-10T19:14:12+07:00
 ---
-Thai Rak Thai, die Partei Thaksins, verliert seit dem Putsch immer mehr Mitglieder. Heute wurde nun bekannt, dass bereits am 24. September, am Tag 4 des Putsches, Surakiart Sathirathai ""ausgetreten":http://www.nationmultimedia.com/breakingnews/read.php?newsid=30015178" ist.
+Thai Rak Thai, die Partei Thaksins, verliert seit dem Putsch immer mehr Mitglieder. Heute wurde nun bekannt, dass bereits am 24. September, am Tag 4 des Putsches, Surakiart Sathirathai ""ausgetreten":<http://www.nationmultimedia.com/breakingnews/read.php?newsid=30015178>" ist.
 
 Surakiart ist immer noch der offizielle Kandidat Thailands im Kampf um die Position des UNO-Generalsekretärs später in diesem Jahr. Allerdings sinken seine <txp:gho_permalink id="802">schon vor dem Putsch recht geringen Chancen</txp:gho_permalink> seit selbigem <txp:gho_permalink id="950">rapide</txp:gho_permalink>. Ich spekuliere mal, dass man ihn zum Auftritt aufgefordert hat, damit das <span class="caps">CNS</span> ihn bei seiner Kandidatur unterstützt.
 

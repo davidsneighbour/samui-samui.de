@@ -1,6 +1,5 @@
 ---
 title: Desktophintergrund für Juli 2007
-type: post
 date: 2007-06-22T19:19:56+00:00
 url: /2007/06/desktophintergrund-fuer-juli-2007/
 dsq_thread_id:
@@ -22,16 +21,16 @@ Den Anfang macht das Bild oben --- ein Sonnenaufgang am Strand von Bang Por hier
 
 Normale Bildschirme
 
-  * [1024&#215;768][1]
-  * [1280&#215;1024][2]
-  * [1600&#215;1200][3]
+* [1024&#215;768][1]
+* [1280&#215;1024][2]
+* [1600&#215;1200][3]
 
 Exoten (muahaha)
 
-  * [1280&#215;800][4]
-  * [1440&#215;900][5]
-  * [1680&#215;1050][6]
-  * [1920&#215;1200][7]
+* [1280&#215;800][4]
+* [1440&#215;900][5]
+* [1680&#215;1050][6]
+* [1920&#215;1200][7]
 
 ### Lizenz
 

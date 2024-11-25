@@ -1,6 +1,5 @@
 ---
 title: Happy Valentinsday
-type: post
 date: 2008-02-14T03:08:47+00:00
 url: /2008/02/happy-valentinsday/
 

@@ -1,6 +1,5 @@
 ---
 title: FAQ Thailand November 2008
-type: post
 date: 2008-11-26T00:47:11+00:00
 url: /2008/11/faq-thailand-november-2008/
 dsq_thread_id:

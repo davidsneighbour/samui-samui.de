@@ -1,6 +1,5 @@
 ---
 title: "Der Thaiweg: Marketing"
-type: post
 date: 2005-09-01T06:38:00+00:00
 url: /2005/09/der-thaiweg-marketing/
 lastmod: 2023-09-10T19:14:12+07:00

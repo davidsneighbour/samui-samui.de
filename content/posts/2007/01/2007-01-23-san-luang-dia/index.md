@@ -1,6 +1,5 @@
 ---
 title: San Luang Dia
-type: post
 date: 2007-01-23T05:28:41+00:00
 url: /2007/01/san-luang-dia/
 

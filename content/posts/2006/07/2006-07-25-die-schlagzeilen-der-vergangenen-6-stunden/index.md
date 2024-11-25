@@ -1,21 +1,20 @@
 ---
 title: Die Schlagzeilen der vergangenen 6 Stunden
-type: post
 date: 2006-07-25T09:28:00+00:00
 url: /2006/07/die-schlagzeilen-der-vergangenen-6-stunden/
 lastmod: 2023-09-10T19:14:12+07:00
 ---
 (mal nur die von The Nation Online)
 
-  * [Three EC commissioners convicted, get four-year imprisonment][1]
-  * [Council of State says 3 EC members' status no longer valid][2]
-  * [Prinya insists three EC commissioners' status still valid][3]
-  * [Thaksin believes new EC to be appointed in one month][4] (was wäre das Tagesthema ohne Thaksinkommentar?)
-  * [Fight erupts between supporters, opponents of EC][4] (was wäre eine thaksinkritische Entscheidung ohne Gewalt zwischen seinen Fürsprechern und allen anderen?)
-  * [EC commissioners sent to Bangkok Remand Prison][5]
-  * [EC Commissioners arrive at Bangkok Remand Prison][6]
-  * [Supreme Court wait for Senate speaker's request for starting EC selection][7]
-  * [Supreme Court to start EC selection process on Wednesday][8]
+* [Three EC commissioners convicted, get four-year imprisonment][1]
+* [Council of State says 3 EC members' status no longer valid][2]
+* [Prinya insists three EC commissioners' status still valid][3]
+* [Thaksin believes new EC to be appointed in one month][4] (was wäre das Tagesthema ohne Thaksinkommentar?)
+* [Fight erupts between supporters, opponents of EC][4] (was wäre eine thaksinkritische Entscheidung ohne Gewalt zwischen seinen Fürsprechern und allen anderen?)
+* [EC commissioners sent to Bangkok Remand Prison][5]
+* [EC Commissioners arrive at Bangkok Remand Prison][6]
+* [Supreme Court wait for Senate speaker's request for starting EC selection][7]
+* [Supreme Court to start EC selection process on Wednesday][8]
 
 Um es kurz und knapp zu machen: Die drei verbliebenen Köpfe der Wahlkommission wurden heute zu vier Jahren Gefängnis verurteilt weil sie das Wahlgesetz gebrochen haben. Unter anderem wurde ihnen vorgeworfen Thai Rak Thai (Thaksins Partei) bevorzugt behandelt zu haben.
 

@@ -1,6 +1,5 @@
 ---
 title: 'Reden über Zensur'
-type: post
 date: 2007-04-22T22:27:03+00:00
 url: /2007/04/reden-ueber-zensur/
 

@@ -1,6 +1,5 @@
 ---
 title: Besuch
-type: post
 date: 2009-08-01T14:57:30+00:00
 url: /2009/08/besuch/
 

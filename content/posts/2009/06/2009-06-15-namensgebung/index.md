@@ -1,6 +1,5 @@
 ---
 title: Namensgebung
-type: post
 date: 2009-06-14T23:39:44+00:00
 url: /2009/06/namensgebung/
 dsq_thread_id:
@@ -15,8 +14,6 @@ Der kleine Panda in Chiang Mai lebt noch und ist weiblich. Nun dürfen die Thais
 Ich finde ja die Namen zwei und vier etwas sehr symbolisch (heissen wohl Thai-China und Thai-Achse) und stimme daher für Ying Ying... zumal der Vater Chuang Chuang hei?t. Immer schön im Schema bleiben.
 
 Der gewählte Name wird am 12. August (in Thailand Muttertag) bekannt gegeben. An der Wahl beteiligen kann man sich durch Postkarten, die in den nächsten Tagen thailandweit _verkauft_ werden.
-
-
 
 [direkt zum Poll][2]
 

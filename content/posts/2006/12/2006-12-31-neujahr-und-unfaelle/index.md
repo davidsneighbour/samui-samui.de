@@ -1,6 +1,5 @@
 ---
 title: Neujahr und Unfälle
-type: post
 date: 2006-12-31T00:25:48+00:00
 url: /2006/12/neujahr-und-unfaelle/
 

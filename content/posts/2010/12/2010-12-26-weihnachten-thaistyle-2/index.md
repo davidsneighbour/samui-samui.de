@@ -1,6 +1,5 @@
 ---
 title: Weihnachten (Thaistyle)
-type: post
 date: 2010-12-25T22:34:57+00:00
 url: /2010/12/weihnachten-thaistyle-2/
 lastmod: 2023-09-10T19:14:12+07:00

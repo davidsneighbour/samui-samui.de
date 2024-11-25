@@ -1,6 +1,5 @@
 ---
 title: Die Kommentardebatte
-type: post
 date: 2005-11-15T06:37:00+00:00
 url: /2005/11/die-kommentardebatte/
 lastmod: 2023-09-10T19:14:12+07:00

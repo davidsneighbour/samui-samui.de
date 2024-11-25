@@ -1,6 +1,5 @@
 ---
 title: Weihnachtspost
-type: post
 date: 2005-12-20T01:05:00+00:00
 url: /2005/12/weihnachtspost/
 lastmod: 2023-09-10T19:14:12+07:00

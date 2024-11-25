@@ -1,6 +1,5 @@
 ---
 title: Geburtstage
-type: post
 date: 2005-08-18T20:20:11+00:00
 url: /2005/08/geburtstage/
 dsq_thread_id:

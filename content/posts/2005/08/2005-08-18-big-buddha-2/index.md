@@ -1,6 +1,5 @@
 ---
 title: Big Buddha
-type: post
 date: 2005-08-18T05:23:00+00:00
 url: /2005/08/big-buddha-2/
 lastmod: 2023-09-10T19:14:12+07:00

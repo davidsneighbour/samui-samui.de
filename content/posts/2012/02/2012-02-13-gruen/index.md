@@ -1,6 +1,5 @@
 ---
 title: Grün
-type: post
 date: 2012-02-12T19:00:17+00:00
 url: /2012/02/gruen/
 lastmod: 2023-09-10T19:14:12+07:00

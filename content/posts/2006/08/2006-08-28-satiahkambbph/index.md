@@ -1,6 +1,5 @@
 ---
 title: Satiahkambbph
-type: post
 date: 2006-08-28T10:50:00+00:00
 url: /2006/08/satiahkambbph/
 

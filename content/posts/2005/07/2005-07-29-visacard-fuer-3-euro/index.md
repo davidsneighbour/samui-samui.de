@@ -1,6 +1,5 @@
 ---
 title: Visacard für 3 Euro
-type: post
 date: 2005-07-29T01:46:00+00:00
 url: /2005/07/visacard-fuer-3-euro/
 lastmod: 2023-09-10T19:14:12+07:00

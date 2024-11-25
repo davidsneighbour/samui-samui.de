@@ -1,6 +1,5 @@
 ---
 title: 'Holiday Outtakes VII: Angel'
-type: post
 date: 2008-06-25T03:16:07+00:00
 url: /2008/06/holiday-outtakes-vii-angel/
 

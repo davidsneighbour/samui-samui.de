@@ -1,6 +1,5 @@
 ---
 title: Keine Neuigkeiten gibt es nicht
-type: post
 date: 2005-02-24T21:51:24+00:00
 url: /2005/02/keine-neuigkeiten-gibt-es-nicht/
 dsq_thread_id:

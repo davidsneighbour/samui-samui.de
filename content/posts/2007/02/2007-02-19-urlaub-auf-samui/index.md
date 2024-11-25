@@ -1,6 +1,5 @@
 ---
 title: Urlaub auf Samui
-type: post
 date: 2007-02-18T22:17:38+00:00
 url: /2007/02/urlaub-auf-samui/
 

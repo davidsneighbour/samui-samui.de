@@ -1,6 +1,5 @@
 ---
 title: Schneiden – Nachtrag
-type: post
 date: 2011-03-14T22:43:13+00:00
 url: /2011/03/schneiden-nachtrag/
 lastmod: 2023-09-10T19:14:12+07:00

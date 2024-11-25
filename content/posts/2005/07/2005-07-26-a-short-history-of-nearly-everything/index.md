@@ -1,6 +1,5 @@
 ---
 title: A short history of nearly everything
-type: post
 date: 2005-07-25T21:11:43+00:00
 url: /2005/07/a-short-history-of-nearly-everything/
 lastmod: 2023-09-10T19:14:12+07:00

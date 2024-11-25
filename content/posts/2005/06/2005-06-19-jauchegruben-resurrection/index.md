@@ -1,6 +1,5 @@
 ---
 title: Jauchegruben – Resurrection
-type: post
 date: 2005-06-19T07:21:00+00:00
 url: /2005/06/jauchegruben-resurrection/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Depression
-type: post
 date: 2010-11-01T18:43:25+00:00
 url: /2010/11/depression/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Insomnia – The Evil Escapes
-type: post
 date: 2005-08-25T03:48:00+00:00
 url: /2005/08/insomnia-the-evil-escapes/
 lastmod: 2023-09-10T19:14:12+07:00

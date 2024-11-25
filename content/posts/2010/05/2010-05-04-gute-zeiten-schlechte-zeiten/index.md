@@ -1,6 +1,5 @@
 ---
 title: Gute Zeiten, Schlechte Zeiten
-type: post
 date: 2010-05-04T16:30:55+00:00
 url: /2010/05/gute-zeiten-schlechte-zeiten/
 lastmod: 2023-09-10T19:14:13+07:00

@@ -1,6 +1,5 @@
 ---
 title: Neulich in der Kamera…
-type: post
 date: 2010-05-03T01:56:09+00:00
 url: /2010/05/neulich-in-der-kamera/
 lastmod: 2023-09-10T19:14:13+07:00

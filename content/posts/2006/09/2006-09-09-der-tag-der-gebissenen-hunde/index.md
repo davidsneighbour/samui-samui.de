@@ -1,6 +1,5 @@
 ---
 title: Der Tag der gebissenen Hunde
-type: post
 date: 2006-09-09T05:54:08+00:00
 url: /2006/09/der-tag-der-gebissenen-hunde/
 

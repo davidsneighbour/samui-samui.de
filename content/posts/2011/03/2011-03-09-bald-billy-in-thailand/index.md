@@ -1,6 +1,5 @@
 ---
 title: "Bald: Billy in Thailand"
-type: post
 date: 2011-03-09T12:43:07+00:00
 url: /2011/03/bald-billy-in-thailand/
 lastmod: 2023-09-10T19:14:12+07:00

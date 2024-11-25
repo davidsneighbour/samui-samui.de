@@ -1,6 +1,5 @@
 ---
 title: Nikkies erstes Jahr
-type: post
 date: 2009-10-11T03:32:04+00:00
 url: /2009/10/nikkies-erstes-jahr/
 

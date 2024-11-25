@@ -1,6 +1,5 @@
 ---
 title: San Luang Dia
-type: post
 date: 2007-01-25T01:35:14+00:00
 url: /2007/01/san-luang-dia-am-strand-von-ban-chang/
 

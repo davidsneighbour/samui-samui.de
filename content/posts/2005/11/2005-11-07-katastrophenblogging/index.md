@@ -1,6 +1,5 @@
 ---
 title: Katastrophenblogging
-type: post
 date: 2005-11-07T01:11:00+00:00
 url: /2005/11/katastrophenblogging/
 lastmod: 2023-09-10T19:14:12+07:00

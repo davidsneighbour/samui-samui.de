@@ -1,6 +1,5 @@
 ---
 title: An die Leser der Freien Presse
-type: post
 date: 2009-04-19T21:05:23+00:00
 url: /2009/04/an-die-leser-der-freien-presse/
 

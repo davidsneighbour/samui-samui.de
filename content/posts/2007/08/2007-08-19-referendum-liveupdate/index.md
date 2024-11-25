@@ -1,6 +1,5 @@
 ---
 title: 'Referendum: Liveupdate'
-type: post
 date: 2007-08-18T22:36:08+00:00
 url: /2007/08/referendum-liveupdate/
 

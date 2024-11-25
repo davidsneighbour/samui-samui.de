@@ -1,6 +1,5 @@
 ---
 title: Socializing nach Graumeister-Art
-type: post
 date: 2005-09-10T22:00:00+00:00
 url: /2005/09/socializing-nach-graumeister-art/
 lastmod: 2023-09-10T19:14:12+07:00

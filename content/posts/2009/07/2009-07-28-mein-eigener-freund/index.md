@@ -1,6 +1,5 @@
 ---
 title: Mein eigener Freund
-type: post
 date: 2009-07-28T02:07:05+00:00
 url: /2009/07/mein-eigener-freund/
 

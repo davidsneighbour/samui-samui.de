@@ -1,6 +1,5 @@
 ---
 title: Clever
-type: post
 date: 2007-04-19T22:37:09+00:00
 url: /2007/04/clever/
 

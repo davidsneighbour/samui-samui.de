@@ -1,6 +1,5 @@
 ---
 title: The famous Samui-Blowjob-Dolls
-type: post
 date: 2006-01-15T22:57:00+00:00
 url: /2006/01/thefamoussamuiblowjobdolls/
 dsq_thread_id:

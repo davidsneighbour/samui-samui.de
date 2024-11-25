@@ -1,6 +1,5 @@
 ---
 title: All my life.
-type: post
 date: 2009-08-25T02:40:01+00:00
 url: /2009/08/all-my-life/
 

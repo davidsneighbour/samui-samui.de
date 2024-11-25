@@ -1,6 +1,5 @@
 ---
 title: Tsutaya hat die DVD entdeckt
-type: post
 date: 2005-04-22T06:54:38+00:00
 url: /2005/04/tsutaya-hat-die-dvd-entdeckt/
 lastmod: 2023-09-10T19:14:12+07:00

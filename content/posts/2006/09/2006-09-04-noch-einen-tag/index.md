@@ -1,6 +1,5 @@
 ---
 title: Noch einen Tag
-type: post
 date: 2006-09-04T07:09:00+00:00
 url: /2006/09/noch-einen-tag/
 

@@ -1,6 +1,5 @@
 ---
 title: Lunatics
-type: post
 date: 2010-02-27T21:54:15+00:00
 url: /2010/02/lunatics/
 lastmod: 2023-09-10T19:14:13+07:00

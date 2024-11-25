@@ -1,6 +1,5 @@
 ---
 title: Meine 2 Baht
-type: post
 date: 2007-06-15T21:22:56+00:00
 url: /2007/06/meine-2-baht/
 

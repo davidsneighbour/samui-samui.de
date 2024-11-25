@@ -1,6 +1,5 @@
 ---
 title: Morgenwolken
-type: post
 date: 2007-10-15T11:09:09+00:00
 url: /2007/10/morgenwolken/
 

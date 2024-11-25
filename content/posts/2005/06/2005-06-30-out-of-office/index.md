@@ -1,6 +1,5 @@
 ---
 title: Out of office
-type: post
 date: 2005-06-30T06:27:00+00:00
 url: /2005/06/out-of-office/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Nächtlicher Besuch
-type: post
 date: 2011-09-09T14:23:34+00:00
 url: /2011/09/naechtlicher-besuch/
 dsq_thread_id:

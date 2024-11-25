@@ -1,6 +1,5 @@
 ---
 title: La Mam und Bun Ed
-type: post
 date: 2005-10-17T20:48:00+00:00
 url: /2005/10/la-mam-und-bun-ed/
 lastmod: 2023-09-10T19:14:12+07:00

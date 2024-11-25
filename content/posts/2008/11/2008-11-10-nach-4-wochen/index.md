@@ -1,6 +1,5 @@
 ---
 title: Nach 4 Wochen
-type: post
 date: 2008-11-10T00:42:03+00:00
 url: /2008/11/nach-4-wochen/
 

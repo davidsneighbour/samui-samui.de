@@ -1,6 +1,5 @@
 ---
 title: Die Frankensteinkoalition
-type: post
 date: 2008-12-11T23:09:42+00:00
 url: /2008/12/die-frankensteinkoalition/
 

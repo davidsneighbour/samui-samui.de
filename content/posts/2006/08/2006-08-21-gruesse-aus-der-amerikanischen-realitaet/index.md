@@ -1,6 +1,5 @@
 ---
 title: Grü?e aus der (amerikanischen) Realität
-type: post
 date: 2006-08-20T22:53:00+00:00
 url: /2006/08/gruesse-aus-der-amerikanischen-realitaet/
 

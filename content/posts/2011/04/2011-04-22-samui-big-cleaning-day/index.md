@@ -1,6 +1,5 @@
 ---
 title: Samui Big Cleaning Day
-type: post
 date: 2011-04-22T12:33:11+00:00
 url: /2011/04/samui-big-cleaning-day/
 lastmod: 2023-09-10T19:14:12+07:00

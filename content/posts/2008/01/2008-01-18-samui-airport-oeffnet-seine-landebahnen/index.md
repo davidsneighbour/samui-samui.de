@@ -1,6 +1,5 @@
 ---
 title: Samui Airport öffnet seine Landebahnen
-type: post
 date: 2008-01-17T18:41:02+00:00
 url: /2008/01/samui-airport-oeffnet-seine-landebahnen/
 

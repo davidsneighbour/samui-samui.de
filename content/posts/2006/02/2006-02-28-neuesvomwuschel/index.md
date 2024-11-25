@@ -1,6 +1,5 @@
 ---
 title: Neues vom Wuschel
-type: post
 date: 2006-02-28T00:56:00+00:00
 url: /2006/02/neuesvomwuschel/
 tags:

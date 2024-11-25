@@ -1,6 +1,5 @@
 ---
 title: Move on. Move on.
-type: post
 date: 2005-07-30T05:18:00+00:00
 url: /2005/07/move-on-move-on/
 lastmod: 2023-09-10T19:14:12+07:00

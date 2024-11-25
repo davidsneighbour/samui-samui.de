@@ -1,6 +1,5 @@
 ---
 title: Durchschnitt
-type: post
 date: 2008-09-03T03:53:39+00:00
 url: /2008/09/durchschnitt/
 

@@ -1,6 +1,5 @@
 ---
 title: "Schnell und wütend in Thailand"
-type: post
 date: 2019-07-02T22:07:09+07:00
 lastmod: 2019-07-02T22:07:09+07:00
 url: /2019/07/schnell-und-wuetend-in-thailand
@@ -20,5 +19,5 @@ Die berühmte Filmserie mit schnell fahrenden Autos und wahnsinnig reellen Stunt
 
 Ein paar Leute sind 100% davon überzeugt, dass auf Koh Samui gedreht wird. Ich glaube das eher nicht, denn die Straßen hier sind nicht allzugut für derartig tiefgelegte Autos geeignet ;] Seit Montag dreht man in Krabi. Gefilmt werden soll in Krabi, Phuket, Phang Nga und "Suratthani", was hierzulande als Code für Koh Samui verstanden wird. Wir werden sehen...
 <!--lint disable write-good-->
--   {{< languagelink "http://www.khaosodenglish.com/life/2019/07/02/fast-and-furious-9-filming-begins-in-krabi/" "‘Fast and Furious 9’ Filming Begins in Krabi" "en" >}}
--   {{< languagelink "https://www.nationmultimedia.com/detail/around_thailand/30371065" "Fast and Furious to be filmed in Thailand" "en" >}}
+- {{< languagelink "<http://www.khaosodenglish.com/life/2019/07/02/fast-and-furious-9-filming-begins-in-krabi/>" "‘Fast and Furious 9’ Filming Begins in Krabi" "en" >}}
+- {{< languagelink "<https://www.nationmultimedia.com/detail/around_thailand/30371065>" "Fast and Furious to be filmed in Thailand" "en" >}}

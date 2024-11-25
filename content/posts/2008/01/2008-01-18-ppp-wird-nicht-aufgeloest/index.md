@@ -1,6 +1,5 @@
 ---
 title: PPP wird nicht aufgelöst
-type: post
 date: 2008-01-18T01:42:52+00:00
 url: /2008/01/ppp-wird-nicht-aufgeloest/
 

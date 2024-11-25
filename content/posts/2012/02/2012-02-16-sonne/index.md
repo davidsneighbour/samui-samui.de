@@ -1,6 +1,5 @@
 ---
 title: Sonne
-type: post
 date: 2012-02-16T11:13:40+00:00
 url: /2012/02/sonne/
 lastmod: 2023-09-10T19:14:12+07:00

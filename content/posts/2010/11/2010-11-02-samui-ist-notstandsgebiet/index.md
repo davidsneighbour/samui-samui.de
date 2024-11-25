@@ -1,6 +1,5 @@
 ---
 title: Samui ist Notstandsgebiet
-type: post
 date: 2010-11-01T20:05:49+00:00
 url: /2010/11/samui-ist-notstandsgebiet/
 lastmod: 2023-09-10T19:14:13+07:00

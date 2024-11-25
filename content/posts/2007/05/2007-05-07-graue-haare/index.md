@@ -1,6 +1,5 @@
 ---
 title: Graue Haare
-type: post
 date: 2007-05-07T11:36:04+00:00
 url: /2007/05/graue-haare/
 

@@ -1,6 +1,5 @@
 ---
 title: Zum Abschied ein Feuer-Werk
-type: post
 date: 2010-05-18T22:58:06+00:00
 url: /2010/05/zum-abschied-ein-feuer-werk/
 lastmod: 2023-09-10T19:14:13+07:00

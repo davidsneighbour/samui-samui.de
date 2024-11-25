@@ -1,6 +1,5 @@
 ---
 title: Hei?e Tage
-type: post
 date: 2005-02-08T21:22:00+00:00
 url: /2005/02/heisse-tage/
 lastmod: 2023-09-10T19:14:12+07:00

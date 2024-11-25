@@ -1,6 +1,5 @@
 ---
 title: "Demnächst im Kino: Mae Naak 3D"
-type: post
 date: 2012-02-29T14:04:36+00:00
 url: /2012/02/demnaechst-im-kino-mae-naak-3d/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Bomben in Bangkok
-type: post
 date: 2006-12-31T07:15:06+00:00
 url: /2006/12/bomben-in-bangkok/
 

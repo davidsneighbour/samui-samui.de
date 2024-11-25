@@ -1,6 +1,5 @@
 ---
 title: The end is the beginning is the end
-type: post
 date: 2005-05-30T04:43:00+00:00
 url: /2005/05/the-end-is-the-beginning-is-the-end/
 lastmod: 2023-09-10T19:14:12+07:00

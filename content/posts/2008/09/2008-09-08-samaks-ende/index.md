@@ -1,6 +1,5 @@
 ---
 title: Samaks Ende?
-type: post
 date: 2008-09-08T04:06:06+00:00
 url: /2008/09/samaks-ende/
 

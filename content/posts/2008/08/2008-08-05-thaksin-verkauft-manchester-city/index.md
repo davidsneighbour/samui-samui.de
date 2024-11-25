@@ -1,6 +1,5 @@
 ---
 title: Thaksin verkauft Manchester City
-type: post
 date: 2008-08-05T14:43:28+00:00
 url: /2008/08/thaksin-verkauft-manchester-city/
 

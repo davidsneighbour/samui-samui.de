@@ -1,6 +1,5 @@
 ---
 title: Harn Raksajit
-type: post
 date: 2006-12-30T02:58:52+00:00
 url: /2006/12/harn-raksajit/
 

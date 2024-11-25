@@ -1,6 +1,5 @@
 ---
 title: Morgenspaziergang
-type: post
 date: 2006-01-10T20:13:00+00:00
 url: /2006/01/morgenspaziergang/
 tags:
@@ -20,4 +19,4 @@ PS: Im Hintergrund mein Moped. Das ist eine _eigene Geschichte_&trade;. Denn es 
 
 PPS: Es könnte sein, dass das Moped einem meiner Leser bekannt vorkommen könnte. Dem ist so.
 
- [1]: http://www.flickr.com/photos/schreibblogade/85036979/ "Morningwalk at the "Graveyard of the Ghosthouses""
+ [1]: <http://www.flickr.com/photos/schreibblogade/85036979/> "Morningwalk at the "Graveyard of the Ghosthouses""

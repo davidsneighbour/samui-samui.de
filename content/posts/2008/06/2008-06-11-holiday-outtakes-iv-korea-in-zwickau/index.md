@@ -1,6 +1,5 @@
 ---
 title: 'Holiday Outtakes IV: Korea in Zwickau'
-type: post
 date: 2008-06-11T03:47:00+00:00
 url: /2008/06/holiday-outtakes-iv-korea-in-zwickau/
 

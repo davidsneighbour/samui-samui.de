@@ -1,6 +1,5 @@
 ---
 title: In vier Wochen
-type: post
 date: 2010-02-17T18:42:57+00:00
 url: /2010/02/in-vier-wochen/
 lastmod: 2023-09-10T19:14:13+07:00

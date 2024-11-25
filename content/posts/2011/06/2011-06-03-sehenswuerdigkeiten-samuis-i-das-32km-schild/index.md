@@ -1,6 +1,5 @@
 ---
 title: "Sehenswürdigkeiten Samuis I: Das 32km-Schild"
-type: post
 date: 2011-06-02T23:42:59+00:00
 url: /2011/06/sehenswuerdigkeiten-samuis-i-das-32km-schild/
 dsq_thread_id:

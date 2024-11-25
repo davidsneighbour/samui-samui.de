@@ -1,6 +1,5 @@
 ---
 title: Nacht in Ban Thai
-type: post
 date: 2007-05-08T11:23:55+00:00
 url: /2007/05/nacht-in-ban-thai/
 

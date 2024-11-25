@@ -1,6 +1,5 @@
 ---
 title: Prem wars nich!
-type: post
 date: 2008-03-27T04:03:39+00:00
 url: /2008/03/prem-wars-nich/
 

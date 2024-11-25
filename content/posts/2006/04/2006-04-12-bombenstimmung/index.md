@@ -1,6 +1,5 @@
 ---
 title: Bombenstimmung
-type: post
 date: 2006-04-12T00:02:00+00:00
 url: /2006/04/bombenstimmung/
 lastmod: 2023-09-10T19:14:12+07:00

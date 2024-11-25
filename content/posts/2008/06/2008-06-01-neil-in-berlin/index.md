@@ -1,6 +1,5 @@
 ---
 title: Neil in Berlin
-type: post
 date: 2008-06-01T01:06:22+00:00
 url: /2008/06/neil-in-berlin/
 

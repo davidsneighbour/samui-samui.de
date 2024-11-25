@@ -1,6 +1,5 @@
 ---
 title: Demokratie Thaistyle II
-type: post
 date: 2008-08-26T02:09:03+00:00
 url: /2008/08/demokratie-thaistyle-ii/
 

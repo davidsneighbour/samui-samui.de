@@ -1,6 +1,5 @@
 ---
 title: 25 Milliarden. Dollar. 226046. Menschen.
-type: post
 date: 2005-09-01T06:05:00+00:00
 url: /2005/09/25-milliarden-dollar-226046-menschen/
 lastmod: 2023-09-10T19:14:12+07:00

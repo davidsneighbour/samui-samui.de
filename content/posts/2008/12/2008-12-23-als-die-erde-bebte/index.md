@@ -1,6 +1,5 @@
 ---
 title: Als die Erde bebte
-type: post
 date: 2008-12-22T23:22:29+00:00
 url: /2008/12/als-die-erde-bebte/
 

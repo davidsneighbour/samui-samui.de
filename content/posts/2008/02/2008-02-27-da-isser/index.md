@@ -1,6 +1,5 @@
 ---
 title: Da isser!
-type: post
 date: 2008-02-27T13:20:38+00:00
 url: /2008/02/da-isser/
 
@@ -16,4 +15,3 @@ In der Nation begleitet man Thaksin heute an diesem für alle Thais besonderen T
 
 Es regnet übrigens auf unserer kleinen Sonneninsel.
 
- [1]: http://www.nationmultimedia.com/2008/02/28/headlines/headlines_30066726.php

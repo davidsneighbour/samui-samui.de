@@ -1,6 +1,5 @@
 ---
 title: Korrektes Reportering
-type: post
 date: 2017-06-25T14:15:34+00:00
 url: /2017/06/korrektes-reportering/
 tags:
@@ -15,7 +14,7 @@ resources :
 
 {{< figure name="prayuth" command="Resize" options="930x" >}}Prayuth Chanocha spricht zur Presse{{< /figure >}}
 
-{{< quote source="spiegel.de" src="http://www.spiegel.de/politik/ausland/thailand-will-journalisten-konstruktive-fragen-beibringen-a-1153911.html" >}}
+{{< quote source="spiegel.de" src="<http://www.spiegel.de/politik/ausland/thailand-will-journalisten-konstruktive-fragen-beibringen-a-1153911.html>" >}}
 Der thailändische Junta-Chef Prayuth Chan-o-cha ist bislang nicht mit Bemühungen um ein besseres Verhältnis zu den Berichterstattern im Land aufgefallen. Im Gegenteil: Seit seinem Amtsantritt hat er ein äußerst angespanntes Verhältnis zur Presse. Deren Vertreter werden durch die Gefahr einer Anwendung des sogenannten Majestätsbeleidigungsparagrafen zunehmend an der freien Berichterstattung gehindert.
 
 Nun will die Militärregierung nach Informationen der "Bangkok Post" noch weiter in die Berichterstattung im Land eingreifen: Demnach ist für 200 Journalisten aus dem In- und Ausland ein Treffen geplant, bei dem ihnen beigebracht werden soll, wie sie "konstruktive Fragen" stellen und zukünftig das "Verzerren von Fakten" vermeiden könnten.

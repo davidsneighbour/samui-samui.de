@@ -1,6 +1,5 @@
 ---
 title: Siamesische Sechslinge
-type: post
 date: 2012-07-09T10:18:36+00:00
 url: /2012/07/siamesische-sechslinge/
 fb_mentioned_pages:

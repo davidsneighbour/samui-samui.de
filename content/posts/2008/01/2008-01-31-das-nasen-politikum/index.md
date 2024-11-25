@@ -1,6 +1,5 @@
 ---
 title: Das Nasen-Politikum
-type: post
 date: 2008-01-31T13:07:18+00:00
 url: /2008/01/das-nasen-politikum/
 

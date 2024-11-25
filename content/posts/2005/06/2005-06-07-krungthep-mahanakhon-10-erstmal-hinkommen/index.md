@@ -1,6 +1,5 @@
 ---
 title: Krungthep Mahanakhon 1.0 – Erstmal hinkommen
-type: post
 date: 2005-06-07T07:40:00+00:00
 url: /2005/06/krungthep-mahanakhon-10-erstmal-hinkommen/
 lastmod: 2023-09-10T19:14:12+07:00

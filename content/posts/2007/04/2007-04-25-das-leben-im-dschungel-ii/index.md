@@ -1,6 +1,5 @@
 ---
 title: Das Leben im Dschungel II
-type: post
 date: 2007-04-25T02:03:50+00:00
 url: /2007/04/das-leben-im-dschungel-ii/
 

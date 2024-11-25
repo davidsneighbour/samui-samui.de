@@ -1,6 +1,5 @@
 ---
 title: Die Anw??lte haben WLAN
-type: post
 date: 2005-09-22T06:22:02+00:00
 url: /2005/09/die-anwaelte-haben-wlan/
 lastmod: 2023-09-10T19:14:12+07:00

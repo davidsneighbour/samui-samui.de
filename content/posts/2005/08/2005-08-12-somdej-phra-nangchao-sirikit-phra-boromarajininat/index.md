@@ -1,6 +1,5 @@
 ---
 title: Somdej Phra Nangchao Sirikit Phra Boromarajininat feiert
-type: post
 date: 2005-08-12T00:35:00+00:00
 url: /2005/08/somdej-phra-nangchao-sirikit-phra-boromarajininat/
 dsq_thread_id:

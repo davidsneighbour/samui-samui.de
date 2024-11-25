@@ -1,6 +1,5 @@
 ---
 title: An-Alphabetik
-type: post
 date: 2008-07-24T15:04:54+00:00
 url: /2008/07/an-alphabetik/
 

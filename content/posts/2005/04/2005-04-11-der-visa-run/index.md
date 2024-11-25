@@ -1,6 +1,5 @@
 ---
 title: Der Visa-Run
-type: post
 date: 2005-04-11T05:29:00+00:00
 url: /2005/04/der-visa-run/
 lastmod: 2023-09-10T19:14:12+07:00

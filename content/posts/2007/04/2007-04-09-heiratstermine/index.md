@@ -1,6 +1,5 @@
 ---
 title: Heiratstermine
-type: post
 date: 2007-04-09T12:17:46+00:00
 url: /2007/04/heiratstermine/
 

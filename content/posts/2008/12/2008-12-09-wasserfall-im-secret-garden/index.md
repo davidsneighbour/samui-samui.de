@@ -1,6 +1,5 @@
 ---
 title: Wasserfall im Secret Garden
-type: post
 date: 2008-12-08T23:33:45+00:00
 url: /2008/12/wasserfall-im-secret-garden/
 

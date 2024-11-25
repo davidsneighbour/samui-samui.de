@@ -1,6 +1,5 @@
 ---
 title: Vor guten Sätzen
-type: post
 date: 2006-12-31T02:52:03+00:00
 url: /2006/12/vor-guten-saetzen/
 
@@ -20,9 +19,9 @@ Ein dritter Vorsatz war, dieses Jahr keine Liebesbeziehungen zu beenden. Mit ein
 
 Kommen wir zu den Vorsätzen fürs neue Jahr --- die nahezu gleichen wie im alten Jahr:
 
-  * 90 kg und einen Lebenswandel/Ernährungsstil entwickeln, der dieses Gewicht hält.
-  * Sport treiben. Man muss ja irgendwie die ganzen Hautlappen in Muskeln verwandeln.
-  * keine Liebesbeziehung beenden
+* 90 kg und einen Lebenswandel/Ernährungsstil entwickeln, der dieses Gewicht hält.
+* Sport treiben. Man muss ja irgendwie die ganzen Hautlappen in Muskeln verwandeln.
+* keine Liebesbeziehung beenden
 
 Das nächste Neujahr ist im Februar. Dann können wir ja mal wieder checken, wie es steht.
 

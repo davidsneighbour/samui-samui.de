@@ -1,6 +1,5 @@
 ---
 title: 'Breaking News: Hase im Mond, kein Mann'
-type: post
 date: 2006-06-13T01:18:00+00:00
 url: /2006/06/breakingnewshaseimmondkeinmann/
 

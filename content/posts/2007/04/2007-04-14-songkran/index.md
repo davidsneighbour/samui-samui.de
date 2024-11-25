@@ -1,6 +1,5 @@
 ---
 title: Songkran
-type: post
 date: 2007-04-14T08:25:45+00:00
 url: /2007/04/songkran/
 

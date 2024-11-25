@@ -1,6 +1,5 @@
 ---
 title: Server locked II
-type: post
 date: 2006-11-19T06:48:45+00:00
 url: /2006/11/server-locked-ii/
 lastmod: 2023-09-10T19:14:12+07:00

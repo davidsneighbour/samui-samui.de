@@ -1,6 +1,5 @@
 ---
 title: 'FAQ: Gibt es das Weihnachtsfest in Thailand?'
-type: post
 date: 2008-12-23T21:49:36+00:00
 url: /2008/12/faq-gibt-es-das-weihnachtsfest-in-thailand/
 dsq_thread_id:

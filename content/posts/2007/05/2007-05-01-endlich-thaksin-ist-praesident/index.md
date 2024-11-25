@@ -1,6 +1,5 @@
 ---
 title: 'Endlich: Thaksin ist Präsident!'
-type: post
 date: 2007-05-01T05:19:29+00:00
 url: /2007/05/endlich-thaksin-ist-praesident/
 

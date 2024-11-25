@@ -1,6 +1,5 @@
 ---
 title: Wochenende
-type: post
 date: 2007-05-05T11:08:40+00:00
 url: /2007/05/wochenende-3/
 

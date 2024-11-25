@@ -1,6 +1,5 @@
 ---
 title: Thaksins Mannschaft führerlos
-type: post
 date: 2008-06-02T01:03:13+00:00
 url: /2008/06/thaksins-mannschaft-fuehrerlos/
 

@@ -1,6 +1,5 @@
 ---
 title: Going postal
-type: post
 date: 2008-07-23T09:31:02+00:00
 url: /2008/07/going-postal/
 instant_articles_submission_id:

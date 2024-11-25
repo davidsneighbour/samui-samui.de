@@ -1,6 +1,5 @@
 ---
 title: Samui ist sicher wie eine Jauchegrube
-type: post
 date: 2005-05-27T05:09:00+00:00
 url: /2005/05/samui-ist-sicher-wie-eine-jauchegrube/
 dsq_thread_id:

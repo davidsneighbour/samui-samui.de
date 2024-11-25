@@ -1,6 +1,5 @@
 ---
 title: 'Holiday Outtakes VI: Berlin, der Flughafen mit dem T am Anfang'
-type: post
 date: 2008-06-16T04:56:15+00:00
 url: /2008/06/berlin-der-flughafen-mit-dem-t-am-anfang/
 

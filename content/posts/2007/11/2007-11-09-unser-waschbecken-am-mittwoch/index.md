@@ -1,6 +1,5 @@
 ---
 title: Unser Waschbecken am Mittwoch
-type: post
 date: 2007-11-08T20:14:13+00:00
 url: /2007/11/unser-waschbecken-am-mittwoch/
 dsq_thread_id:

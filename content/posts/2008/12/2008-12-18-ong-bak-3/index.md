@@ -1,6 +1,5 @@
 ---
 title: Ong Bak 3.
-type: post
 date: 2008-12-18T00:38:34+00:00
 url: /2008/12/ong-bak-3/
 

@@ -1,6 +1,5 @@
 ---
 title: Wochenend und Sonnenschein
-type: post
 date: 2005-03-04T20:21:00+00:00
 url: /2005/03/wochenend-und-sonnenschein/
 lastmod: 2023-09-10T19:14:12+07:00

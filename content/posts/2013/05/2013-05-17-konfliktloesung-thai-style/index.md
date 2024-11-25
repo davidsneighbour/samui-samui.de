@@ -1,6 +1,5 @@
 ---
 title: Konfliktlösung Thai-Style
-type: post
 date: 2013-05-17T16:29:19+00:00
 url: /2013/05/konfliktloesung-thai-style/
 fb_author_post_id:

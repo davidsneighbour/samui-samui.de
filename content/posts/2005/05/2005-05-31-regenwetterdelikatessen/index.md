@@ -1,6 +1,5 @@
 ---
 title: Regenwetterdelikatessen
-type: post
 date: 2005-05-31T01:46:17+00:00
 url: /2005/05/regenwetterdelikatessen/
 dsq_thread_id:

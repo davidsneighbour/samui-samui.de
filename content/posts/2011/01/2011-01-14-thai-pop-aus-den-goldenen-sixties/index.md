@@ -1,6 +1,5 @@
 ---
 title: Thai Pop aus den goldenen Sixties
-type: post
 date: 2011-01-14T00:33:34+00:00
 url: /2011/01/thai-pop-aus-den-goldenen-sixties/
 lastmod: 2023-09-10T19:14:12+07:00

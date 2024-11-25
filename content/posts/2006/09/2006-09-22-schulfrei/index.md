@@ -1,6 +1,5 @@
 ---
 title: Schulfrei
-type: post
 date: 2006-09-21T23:02:00+00:00
 url: /2006/09/schulfrei/
 

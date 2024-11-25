@@ -1,6 +1,5 @@
 ---
 title: '5eleven: Statusmeldung'
-type: post
 date: 2007-01-01T19:10:44+00:00
 url: /2007/01/5eleven-statusmeldung/
 

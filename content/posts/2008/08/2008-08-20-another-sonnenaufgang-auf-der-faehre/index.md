@@ -1,6 +1,5 @@
 ---
 title: Another Sonnenaufgang auf der Fähre
-type: post
 date: 2008-08-19T19:23:12+00:00
 url: /2008/08/another-sonnenaufgang-auf-der-faehre/
 dsq_thread_id:

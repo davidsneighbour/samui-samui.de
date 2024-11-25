@@ -1,6 +1,5 @@
 ---
 title: "Technokram: Thaibuchstaben f??r euro-XPs"
-type: post
 date: 2005-09-24T22:41:00+00:00
 url: /2005/09/technokram-thaibuchstaben-fuer-euro-xps/
 dsq_thread_id:

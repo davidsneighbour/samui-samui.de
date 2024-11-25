@@ -1,6 +1,5 @@
 ---
 title: Strategie
-type: post
 date: 2006-09-20T20:45:00+00:00
 url: /2006/09/strategie/
 

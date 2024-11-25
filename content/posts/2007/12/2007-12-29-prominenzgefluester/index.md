@@ -1,6 +1,5 @@
 ---
 title: Prominenzgeflüster
-type: post
 date: 2007-12-29T00:36:13+00:00
 url: /2007/12/prominenzgefluester/
 

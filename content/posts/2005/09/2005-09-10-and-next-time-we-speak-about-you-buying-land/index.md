@@ -1,6 +1,5 @@
 ---
 title: And next time we speak about you buying land!
-type: post
 date: 2005-09-09T23:21:00+00:00
 url: /2005/09/and-next-time-we-speak-about-you-buying-land/
 lastmod: 2023-09-10T19:14:12+07:00

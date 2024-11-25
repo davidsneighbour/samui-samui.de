@@ -1,6 +1,5 @@
 ---
 title: Am Ende steht das Ende
-type: post
 date: 2008-01-02T03:26:14+00:00
 url: /2008/01/am-ende-steht-das-ende/
 

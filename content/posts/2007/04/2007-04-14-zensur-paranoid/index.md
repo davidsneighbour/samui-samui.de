@@ -1,6 +1,5 @@
 ---
 title: Zensur – Paranoid?
-type: post
 date: 2007-04-14T11:48:38+00:00
 url: /2007/04/zensur-paranoid/
 

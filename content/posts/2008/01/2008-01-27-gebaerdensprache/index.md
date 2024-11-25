@@ -1,6 +1,5 @@
 ---
 title: Gebärdensprache
-type: post
 date: 2008-01-27T13:48:31+00:00
 url: /2008/01/gebaerdensprache/
 

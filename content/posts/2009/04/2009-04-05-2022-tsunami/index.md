@@ -1,6 +1,5 @@
 ---
 title: 2022 Tsunami
-type: post
 date: 2009-04-05T12:41:32+00:00
 url: /2009/04/2022-tsunami/
 

@@ -1,6 +1,5 @@
 ---
 title: Schweiz
-type: post
 date: 2007-03-14T21:43:48+00:00
 url: /2007/03/schweiz/
 
@@ -18,7 +17,7 @@ Telefon: 031-9703030 / 031-9703034
 
 Fax: 031-970-3035
 
-EMail: thai.bern@thenet.ch
+EMail: <thai.bern@thenet.ch>
 
 **Königlich Thailändisches Generalkonsulat**
 

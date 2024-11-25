@@ -1,6 +1,5 @@
 ---
 title: Höllenschlund
-type: post
 date: 2008-12-08T23:23:53+00:00
 url: /2008/12/hoellenschlund/
 

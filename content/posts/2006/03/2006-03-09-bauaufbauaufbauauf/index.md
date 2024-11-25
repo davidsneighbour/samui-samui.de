@@ -1,6 +1,5 @@
 ---
 title: Bau auf, bau auf, bau auf…
-type: post
 date: 2006-03-09T00:49:15+00:00
 url: /2006/03/bauaufbauaufbauauf/
 lastmod: 2023-09-10T19:14:12+07:00

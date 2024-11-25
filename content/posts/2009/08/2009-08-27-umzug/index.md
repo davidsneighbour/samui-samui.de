@@ -1,6 +1,5 @@
 ---
 title: Umzug
-type: post
 date: 2009-08-26T19:46:29+00:00
 url: /2009/08/umzug/
 

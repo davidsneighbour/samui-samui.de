@@ -1,6 +1,5 @@
 ---
 title: Rasur, die
-type: post
 date: 2009-09-24T05:25:19+00:00
 url: /2009/09/rasur-die/
 

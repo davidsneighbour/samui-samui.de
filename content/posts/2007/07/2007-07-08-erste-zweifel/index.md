@@ -1,6 +1,5 @@
 ---
 title: Erste Zweifel
-type: post
 date: 2007-07-08T13:45:58+00:00
 url: /2007/07/erste-zweifel/
 

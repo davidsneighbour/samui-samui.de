@@ -1,6 +1,5 @@
 ---
 title: Reflection
-type: post
 date: 2007-05-24T23:52:31+00:00
 url: /2007/05/reflection/
 

@@ -1,6 +1,5 @@
 ---
 title: Gong Xi Fa Chai!
-type: post
 date: 2008-02-05T12:51:19+00:00
 url: /2008/02/gong-xi-fa-chai/
 

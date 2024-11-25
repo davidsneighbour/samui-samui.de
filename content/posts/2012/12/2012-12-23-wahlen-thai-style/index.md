@@ -1,6 +1,5 @@
 ---
 title: Wahlen (Thai-Style)
-type: post
 date: 2012-12-23T08:32:05+00:00
 url: /2012/12/wahlen-thai-style/
 fb_author_message:

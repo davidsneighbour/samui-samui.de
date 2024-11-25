@@ -1,6 +1,5 @@
 ---
 title: Meine Office-Aussicht
-type: post
 date: 2007-10-07T21:56:19+00:00
 url: /2007/10/meine-office-aussicht/
 

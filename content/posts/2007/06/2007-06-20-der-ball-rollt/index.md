@@ -1,6 +1,5 @@
 ---
 title: Der Ball rollt
-type: post
 date: 2007-06-20T16:00:27+00:00
 url: /2007/06/der-ball-rollt/
 

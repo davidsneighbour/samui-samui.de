@@ -1,6 +1,5 @@
 ---
 title: Thaksin auf Reisen
-type: post
 date: 2006-11-03T03:17:25+00:00
 url: /2006/11/thaksin-auf-reisen/
 lastmod: 2023-09-10T19:14:12+07:00

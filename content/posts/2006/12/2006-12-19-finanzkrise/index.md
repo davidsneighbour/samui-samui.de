@@ -1,6 +1,5 @@
 ---
 title: Finanzkrise?
-type: post
 date: 2006-12-19T04:37:30+00:00
 url: /2006/12/finanzkrise/
 

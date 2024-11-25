@@ -1,6 +1,5 @@
 ---
 title: Stromausfall
-type: post
 date: 2006-06-13T09:04:00+00:00
 url: /2006/06/stromausfall-4/
 dnb_samuisamui_article_image_size:
@@ -10,7 +9,7 @@ dnb_samuisamui_article_image_size:
 
 
 ---
-	<big>oder Immer wenn es regnet (gesungen wie in diesem Musikal wo es den Milchmann Tervje oder so gibt der immer singt "wenn ich einmal reich bin" oder so)</big>
+ <big>oder Immer wenn es regnet (gesungen wie in diesem Musikal wo es den Milchmann Tervje oder so gibt der immer singt "wenn ich einmal reich bin" oder so)</big>
 
 Es hat schon was Komisches (meine Mama würde jetzt sagen "Ich weiß ja nicht was man daran 'komisch' finden kann") aber irgendwie fällt in Maenam immer der Strom aus, wenn es ein bisschen mehr als normal regnet. Da das Jahr in Thailand aus verschiedenen Regenzeiten besteht regnet es auch häufiger als anderswo. Eventuell haben sie auch ihre Transformatoren und diesen ganzen Kram im Freien stehen. Jedenfalls fällt der Strom immer aus wenn es regnet. Manchmal richtig, manchmal bleibt "ein kleines bisschen". So wie jetzt. Die elektronischen Geräte leuchten alle rot Standby und ein paar Straßenlampen blinken vor sich hin. Der Fernseher macht entweder seltsame Geräusche oder zeigt nur einen quietschenden Punkt in der Mittel.
 

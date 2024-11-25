@@ -1,6 +1,5 @@
 ---
 title: Neue Käferart entdeckt
-type: post
 date: 2008-04-23T04:06:11+00:00
 url: /2008/04/neue-kaeferart-entdeckt/
 

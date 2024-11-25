@@ -1,6 +1,5 @@
 ---
 title: Raus und rein
-type: post
 date: 2009-04-07T23:15:50+00:00
 url: /2009/04/raus-und-rein/
 

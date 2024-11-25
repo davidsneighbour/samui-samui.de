@@ -1,6 +1,5 @@
 ---
 title: Pass los
-type: post
 date: 2009-04-15T22:42:17+00:00
 url: /2009/04/pass-los/
 

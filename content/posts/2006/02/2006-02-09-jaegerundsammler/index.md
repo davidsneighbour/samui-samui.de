@@ -1,6 +1,5 @@
 ---
 title: J??ger und Sammler
-type: post
 date: 2006-02-08T21:01:00+00:00
 url: /2006/02/jaegerundsammler/
 lastmod: 2023-09-10T19:14:12+07:00

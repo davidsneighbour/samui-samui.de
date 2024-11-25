@@ -1,6 +1,5 @@
 ---
 title: Hochwasser-Parking-Lot
-type: post
 date: 2011-10-23T21:46:42+00:00
 url: /2011/10/hochwasser-parking-lot/
 lastmod: 2023-09-10T19:14:12+07:00

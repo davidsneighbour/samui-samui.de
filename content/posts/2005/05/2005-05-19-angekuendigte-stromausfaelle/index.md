@@ -1,6 +1,5 @@
 ---
 title: Angekündigte Stromausfälle
-type: post
 date: 2005-05-19T04:19:43+00:00
 url: /2005/05/angekuendigte-stromausfaelle/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Weitere Gegenputschgerüchte
-type: post
 date: 2006-09-21T11:43:00+00:00
 url: /2006/09/weitere-gegenputschgeruechte/
 

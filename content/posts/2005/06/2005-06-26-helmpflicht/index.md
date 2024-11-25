@@ -1,6 +1,5 @@
 ---
 title: Helmpflicht
-type: post
 date: 2005-06-26T06:44:00+00:00
 url: /2005/06/helmpflicht/
 lastmod: 2023-09-10T19:14:12+07:00
@@ -17,9 +16,9 @@ Ich durfte dann mit meinem Zettelchen in ein Fischrestaurant am Stra?enrand wo z
 
 Gut. Fassen wir zusammen:
 
-  * Es wurde kein Ausweis verlangt. Das nächste Mal nenne ich mich Friedrich Wilhelm Murnau.
-  * Die "Expaten" behaupten immer, eine Polizeikontrolle mit Erkennung der Helmlosigkeit führe eine 600" />-Strafe und 2 Stunden Aufenthalt in der Polizeistation nach sich. Der Autor bemerkt hierzu Folgendes: Eine Polizeikontrolle mit Erkennung der Helmlosigkeit führt keine 600 THB-Strafe und keinen 2 Stunden Aufenthalt in der Polizeistation nach sich.
-  * Die "Expaten" behaupten immer, dass die Polizei entweder Thais oder Farangs aussiebt. Der Autor bemerkt hierzu Folgendes: Die holen immer alle raus, die sie kriegen können.
-  * Es geht das Gerücht um, dass hier länger ansässige Expats überhaupt keine Ahnung von verschiedenen Dingen haben. Der Autor bemerkt hierzu Folgendes: Das ist richtig.
+* Es wurde kein Ausweis verlangt. Das nächste Mal nenne ich mich Friedrich Wilhelm Murnau.
+* Die "Expaten" behaupten immer, eine Polizeikontrolle mit Erkennung der Helmlosigkeit führe eine 600" />-Strafe und 2 Stunden Aufenthalt in der Polizeistation nach sich. Der Autor bemerkt hierzu Folgendes: Eine Polizeikontrolle mit Erkennung der Helmlosigkeit führt keine 600 THB-Strafe und keinen 2 Stunden Aufenthalt in der Polizeistation nach sich.
+* Die "Expaten" behaupten immer, dass die Polizei entweder Thais oder Farangs aussiebt. Der Autor bemerkt hierzu Folgendes: Die holen immer alle raus, die sie kriegen können.
+* Es geht das Gerücht um, dass hier länger ansässige Expats überhaupt keine Ahnung von verschiedenen Dingen haben. Der Autor bemerkt hierzu Folgendes: Das ist richtig.
 
  [1]: http://de.news.yahoo.com/050621/286/4l7h7.html

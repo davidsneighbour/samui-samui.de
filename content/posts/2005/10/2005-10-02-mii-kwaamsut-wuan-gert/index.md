@@ -1,6 +1,5 @@
 ---
 title: Mii kwaamsut wuan gert!
-type: post
 date: 2005-10-01T20:38:00+00:00
 url: /2005/10/mii-kwaamsut-wuan-gert/
 dsq_thread_id:

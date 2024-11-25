@@ -1,6 +1,5 @@
 ---
 title: "Heimvideo: Dogporno"
-type: post
 date: 2011-04-03T18:32:57+00:00
 url: /2011/04/heimvideo-dogporno/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Kurz und schmerzlos
-type: post
 date: 2007-01-26T09:28:06+00:00
 url: /2007/01/kurz-und-schmerzlos/
 

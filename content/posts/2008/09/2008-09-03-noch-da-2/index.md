@@ -1,6 +1,5 @@
 ---
 title: Noch da
-type: post
 date: 2008-09-03T16:16:17+00:00
 url: /2008/09/noch-da-2/
 

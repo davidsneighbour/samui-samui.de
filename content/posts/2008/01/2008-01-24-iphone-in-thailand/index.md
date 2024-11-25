@@ -1,6 +1,5 @@
 ---
 title: iPhone in Thailand
-type: post
 date: 2008-01-24T12:58:15+00:00
 url: /2008/01/iphone-in-thailand/
 

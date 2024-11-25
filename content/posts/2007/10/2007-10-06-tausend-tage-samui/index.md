@@ -1,6 +1,5 @@
 ---
 title: Tausend Tage Samui
-type: post
 date: 2007-10-06T16:40:48+00:00
 url: /2007/10/tausend-tage-samui/
 

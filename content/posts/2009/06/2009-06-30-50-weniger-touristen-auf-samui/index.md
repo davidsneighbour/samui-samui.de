@@ -1,6 +1,5 @@
 ---
 title: '50% weniger Touristen auf Samui'
-type: post
 date: 2009-06-29T21:08:21+00:00
 url: /2009/06/50-weniger-touristen-auf-samui/
 

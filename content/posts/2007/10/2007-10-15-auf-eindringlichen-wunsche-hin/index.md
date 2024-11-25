@@ -1,6 +1,5 @@
 ---
 title: Auf eindringlichen Wunsche hin
-type: post
 date: 2007-10-15T11:21:06+00:00
 url: /2007/10/auf-eindringlichen-wunsche-hin/
 

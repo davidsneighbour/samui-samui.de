@@ -1,6 +1,5 @@
 ---
 title: Neues aus dem Lichtspielgewerbe
-type: post
 date: 2009-06-30T23:51:55+00:00
 url: /2009/07/neues-aus-dem-lichtspielgewerbe/
 

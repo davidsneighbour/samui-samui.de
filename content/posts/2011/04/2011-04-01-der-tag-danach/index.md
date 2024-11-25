@@ -1,6 +1,5 @@
 ---
 title: Der Tag danach
-type: post
 date: 2011-04-01T11:37:11+00:00
 url: /2011/04/der-tag-danach/
 lastmod: 2023-09-10T19:14:12+07:00

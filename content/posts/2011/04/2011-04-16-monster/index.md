@@ -1,6 +1,5 @@
 ---
 title: Monster
-type: post
 date: 2011-04-15T21:31:50+00:00
 url: /2011/04/monster/
 lastmod: 2023-09-10T19:14:12+07:00

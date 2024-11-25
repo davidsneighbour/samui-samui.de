@@ -1,6 +1,5 @@
 ---
 title: Premierminister Abhisit.
-type: post
 date: 2008-12-14T13:01:52+00:00
 url: /2008/12/premierminister-abhisit/
 
@@ -10,7 +9,7 @@ url: /2008/12/premierminister-abhisit/
 ---
 Mit 234 zu 197 Stimmen gewann Abhisit Vejjajiva [eben][1] die Wahl zum 27. Premierminister Thailands. Demokratische Abstimmungen in Thailand sind eine feine Sache.
 
-  * [Premierminister Thailands seit der Revolution 1932][2] (bei Wikipedia)
+* [Premierminister Thailands seit der Revolution 1932][2] (bei Wikipedia)
 
 Nun [demonstrieren die Roten][3]...
 

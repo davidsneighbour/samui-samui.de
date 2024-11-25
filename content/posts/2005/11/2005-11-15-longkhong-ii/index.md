@@ -1,6 +1,5 @@
 ---
 title: LongKhong II
-type: post
 date: 2005-11-15T02:41:00+00:00
 url: /2005/11/longkhong-ii/
 lastmod: 2023-09-10T19:14:12+07:00

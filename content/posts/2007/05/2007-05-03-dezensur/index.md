@@ -1,6 +1,5 @@
 ---
 title: Dezensur?
-type: post
 date: 2007-05-03T02:44:19+00:00
 url: /2007/05/dezensur/
 

@@ -1,6 +1,5 @@
 ---
 title: Oleeeeh oleh oleh oleeeh! Runde 2.
-type: post
 date: 2006-06-24T05:45:48+00:00
 url: /2006/06/oleeeeh-oleh-oleh-oleeeh-runde-2/
 

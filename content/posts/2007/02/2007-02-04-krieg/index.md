@@ -1,6 +1,5 @@
 ---
 title: Krieg
-type: post
 date: 2007-02-04T07:53:24+00:00
 url: /2007/02/krieg/
 

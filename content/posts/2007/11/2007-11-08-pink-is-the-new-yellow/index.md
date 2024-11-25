@@ -1,6 +1,5 @@
 ---
 title: Pink is the new yellow
-type: post
 date: 2007-11-08T02:12:06+00:00
 url: /2007/11/pink-is-the-new-yellow/
 

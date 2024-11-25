@@ -1,6 +1,5 @@
 ---
 title: Paradorn und Natalie
-type: post
 date: 2007-04-29T05:50:41+00:00
 url: /2007/04/paradorn-und-natalie/
 

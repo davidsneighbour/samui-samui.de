@@ -1,6 +1,5 @@
 ---
 title: Canine Blitzdiät
-type: post
 date: 2006-06-21T10:37:00+00:00
 url: /2006/06/canine-blitzdiaet/
 

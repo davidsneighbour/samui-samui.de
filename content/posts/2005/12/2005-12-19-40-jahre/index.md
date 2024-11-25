@@ -1,6 +1,5 @@
 ---
 title: 40 Jahre
-type: post
 date: 2005-12-19T02:35:56+00:00
 url: /2005/12/40-jahre/
 lastmod: 2023-09-10T19:14:12+07:00

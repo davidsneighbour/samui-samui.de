@@ -1,6 +1,5 @@
 ---
 title: Keine Overstay-Gebühren wegen schlechten Wetters
-type: post
 date: 2011-03-29T16:40:56+00:00
 url: /2011/03/keine-overstay-gebuehren-wegen-schlechten-wetters/
 lastmod: 2023-09-10T19:14:12+07:00

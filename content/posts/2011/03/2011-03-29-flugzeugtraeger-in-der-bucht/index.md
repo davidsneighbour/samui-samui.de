@@ -1,6 +1,5 @@
 ---
 title: Flugzeugträger in der Bucht
-type: post
 date: 2011-03-29T16:49:13+00:00
 url: /2011/03/flugzeugtraeger-in-der-bucht/
 lastmod: 2023-09-10T19:14:12+07:00

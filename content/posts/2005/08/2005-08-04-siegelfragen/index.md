@@ -1,6 +1,5 @@
 ---
 title: Siegelfragen
-type: post
 date: 2005-08-03T23:27:52+00:00
 url: /2005/08/siegelfragen/
 dsq_thread_id:

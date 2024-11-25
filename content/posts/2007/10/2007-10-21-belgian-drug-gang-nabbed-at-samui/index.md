@@ -1,6 +1,5 @@
 ---
 title: Die Belgier
-type: post
 date: 2007-10-20T20:43:36+00:00
 url: /2007/10/belgian-drug-gang-nabbed-at-samui/
 

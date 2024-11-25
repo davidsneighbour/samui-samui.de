@@ -1,6 +1,5 @@
 ---
 title: Chakri Day
-type: post
 date: 2005-04-05T05:41:00+00:00
 url: /2005/04/chakri-day/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Neuwahlen! Wirklich!
-type: post
 date: 2006-07-21T11:41:00+00:00
 url: /2006/07/neuwahlen-wirklich/
 lastmod: 2023-09-10T19:14:12+07:00

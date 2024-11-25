@@ -1,6 +1,5 @@
 ---
 title: Laos, Oh Laos…
-type: post
 date: 2007-01-27T04:03:53+00:00
 url: /2007/01/laos-oh-laos/
 

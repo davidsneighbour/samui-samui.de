@@ -1,6 +1,5 @@
 ---
 title: Im Süden nichts Neues
-type: post
 date: 2005-10-16T01:42:13+00:00
 url: /2005/10/im-sueden-nichts-neues/
 lastmod: 2023-09-10T19:14:12+07:00

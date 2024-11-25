@@ -1,6 +1,5 @@
 ---
 title: Ach ??brigens
-type: post
 date: 2005-11-11T23:02:00+00:00
 url: /2005/11/ach-uebrigens2/
 lastmod: 2023-09-10T19:14:12+07:00

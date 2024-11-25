@@ -1,6 +1,5 @@
 ---
 title: 'Internet (fast richtig) tot. Grund: Erdbeben'
-type: post
 date: 2006-12-27T06:41:22+00:00
 url: /2006/12/internet-fast-richtig-tot-grund-erdbeben/
 dsq_thread_id:

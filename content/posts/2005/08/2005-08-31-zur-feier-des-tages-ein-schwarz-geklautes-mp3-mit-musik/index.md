@@ -1,6 +1,5 @@
 ---
 title: Zur Feier des Tages ein schwarz geklautes MP3 mit Musik
-type: post
 date: 2005-08-31T07:40:33+00:00
 url: /2005/08/zur-feier-des-tages-ein-schwarz-geklautes-mp3-mit-musik/
 dsq_thread_id:

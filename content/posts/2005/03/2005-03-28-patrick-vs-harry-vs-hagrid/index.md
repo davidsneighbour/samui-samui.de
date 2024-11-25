@@ -1,6 +1,5 @@
 ---
 title: Patrick vs. Harry (vs. Hagrid)
-type: post
 date: 2005-03-27T23:30:00+00:00
 url: /2005/03/patrick-vs-harry-vs-hagrid/
 dsq_thread_id:

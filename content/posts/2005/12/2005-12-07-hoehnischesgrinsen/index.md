@@ -1,6 +1,5 @@
 ---
 title: H??hnisches Grinsen
-type: post
 date: 2005-12-07T00:14:00+00:00
 url: /2005/12/hoehnischesgrinsen/
 lastmod: 2023-09-10T19:14:12+07:00

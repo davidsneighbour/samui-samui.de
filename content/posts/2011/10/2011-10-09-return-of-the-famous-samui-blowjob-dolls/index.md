@@ -1,6 +1,5 @@
 ---
 title: Return of the famous Samui blowjob dolls
-type: post
 date: 2011-10-08T22:04:42+00:00
 url: /2011/10/return-of-the-famous-samui-blowjob-dolls/
 lastmod: 2023-09-10T19:14:12+07:00

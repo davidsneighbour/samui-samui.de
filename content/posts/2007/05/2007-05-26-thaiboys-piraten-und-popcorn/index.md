@@ -1,6 +1,5 @@
 ---
 title: Thaiboys, Piraten und Popcorn
-type: post
 date: 2007-05-26T11:35:16+00:00
 url: /2007/05/thaiboys-piraten-und-popcorn/
 dsq_thread_id:

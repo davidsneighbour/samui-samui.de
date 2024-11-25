@@ -1,6 +1,5 @@
 ---
 title: Gewichtsklasse
-type: post
 date: 2008-01-15T00:57:10+00:00
 url: /2008/01/gewichtsklasse/
 

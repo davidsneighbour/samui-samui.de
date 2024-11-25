@@ -1,6 +1,5 @@
 ---
 title: Entzug
-type: post
 date: 2007-03-24T06:15:50+00:00
 url: /2007/03/entzug/
 

@@ -1,6 +1,5 @@
 ---
 title: Pattayas Normalität
-type: post
 date: 2007-02-27T21:27:02+00:00
 url: /2007/02/pattayas-normalitaet/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Energie
-type: post
 date: 2007-08-29T18:18:28+00:00
 url: /2007/08/energie/
 

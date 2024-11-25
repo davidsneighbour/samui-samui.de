@@ -1,6 +1,5 @@
 ---
 title: "Manchester City quit Thailand"
-type: post
 date: 2009-03-06T14:15:46+00:00
 url: /2009/03/manchester-city-quit-thailand/
 ---

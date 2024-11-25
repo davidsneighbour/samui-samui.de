@@ -1,6 +1,5 @@
 ---
 title: Offizieller Ong Bak 3 Teaser
-type: post
 date: 2010-03-16T20:53:34+00:00
 url: /2010/03/offizieller-ong-bak-3-teaser/
 lastmod: 2023-09-10T19:14:13+07:00

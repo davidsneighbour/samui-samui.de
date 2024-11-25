@@ -1,6 +1,5 @@
 ---
 title: Lektion des Tages
-type: post
 date: 2006-10-22T07:59:00+00:00
 url: /2006/10/lektion-des-tages/
 lastmod: 2023-09-10T19:14:12+07:00

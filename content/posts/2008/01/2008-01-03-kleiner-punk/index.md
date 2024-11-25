@@ -1,6 +1,5 @@
 ---
 title: Kleiner Punk
-type: post
 date: 2008-01-03T03:14:52+00:00
 url: /2008/01/kleiner-punk/
 

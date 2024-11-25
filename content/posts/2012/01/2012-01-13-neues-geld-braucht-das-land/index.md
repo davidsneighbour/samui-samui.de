@@ -1,6 +1,5 @@
 ---
 title: Neues Geld braucht das Land!
-type: post
 date: 2012-01-12T17:16:45+00:00
 url: /2012/01/neues-geld-braucht-das-land/
 lastmod: 2023-09-10T19:14:12+07:00
@@ -17,9 +16,9 @@ Am 18. Januar 2012 gibt die Thailändische Staatsbank (<span class="caps">BOT</s
 
 Auf die gleiche Art und Weise werden in den nächsten Jahren vermutlich die anderen neuen Banknoten herausgegeben, eine pro Jahr:
 
-  * 20 Baht an einem 29. Mai (König Ramkhamhaeng)
-  * 500 Baht an einem 6. April (König Rama I)
-  * 1000 Baht an einem 23. Oktober (König Chulalongkorn) und
-  * 100 Baht an einem 28. Dezember (König Taksin)
+* 20 Baht an einem 29. Mai (König Ramkhamhaeng)
+* 500 Baht an einem 6. April (König Rama I)
+* 1000 Baht an einem 23. Oktober (König Chulalongkorn) und
+* 100 Baht an einem 28. Dezember (König Taksin)
 
 Die Rückseite soll je nachdem wie man den Geldschein hält von rot nach blau scheinen. Bin gespannt wie sich das Geld dann anfülen wird.

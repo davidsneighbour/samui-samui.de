@@ -1,7 +1,6 @@
 ---
 title: "Die Königin"
 date: 2019-05-17T23:25:48+07:00
-type: post
 url: /2019/05/die-koenigin
 tags:
 - royal family
@@ -54,6 +53,6 @@ resources:
 
 Das Büro des Königlichen Haushalts hat eine Sammlung von offiziellen Photos von Königin Suthida herausgegeben. Da oben sind sie ;)
 
-Die 20 Bilder zeigen Suthida in verschiedenen Uniformen und die breitere Öffentlichkeit ist aufgefordert, diese Bilder zu verwenden. 
+Die 20 Bilder zeigen Suthida in verschiedenen Uniformen und die breitere Öffentlichkeit ist aufgefordert, diese Bilder zu verwenden.
 
-Am 1. Mai wurde Suthida zur Königing ernannt und sie wird von nun an genauso (sprich auf der gleichen Ebene) wie der König verehrt. Ihr Geburtstag am 3. Juni ist nun auch als Feiertag ernannt worden. 
+Am 1. Mai wurde Suthida zur Königing ernannt und sie wird von nun an genauso (sprich auf der gleichen Ebene) wie der König verehrt. Ihr Geburtstag am 3. Juni ist nun auch als Feiertag ernannt worden.

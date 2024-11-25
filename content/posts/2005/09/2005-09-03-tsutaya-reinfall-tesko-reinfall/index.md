@@ -1,6 +1,5 @@
 ---
 title: Tsutaya-Reinfall. Tesko-Reinfall.
-type: post
 date: 2005-09-03T01:20:00+00:00
 url: /2005/09/tsutaya-reinfall-tesko-reinfall/
 lastmod: 2023-09-10T19:14:12+07:00

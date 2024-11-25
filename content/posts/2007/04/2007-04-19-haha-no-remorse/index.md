@@ -1,6 +1,5 @@
 ---
 title: Haha… No remorse!
-type: post
 date: 2007-04-19T11:25:46+00:00
 url: /2007/04/haha-no-remorse/
 

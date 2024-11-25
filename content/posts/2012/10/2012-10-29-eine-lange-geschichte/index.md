@@ -1,6 +1,5 @@
 ---
 title: Eine lange Geschichte…
-type: post
 date: 2012-10-29T13:59:44+00:00
 url: /2012/10/eine-lange-geschichte/
 fb_mentioned_pages:

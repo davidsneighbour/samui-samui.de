@@ -1,6 +1,5 @@
 ---
 title: Katastrophengebiet
-type: post
 date: 2007-11-07T22:31:22+00:00
 url: /2007/11/katastrophengebiet/
 

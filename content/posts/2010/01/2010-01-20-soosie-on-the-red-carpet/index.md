@@ -1,6 +1,5 @@
 ---
 title: Soosie on the red carpet
-type: post
 date: 2010-01-20T03:24:42+00:00
 url: /2010/01/soosie-on-the-red-carpet/
 lastmod: 2023-09-10T19:14:12+07:00

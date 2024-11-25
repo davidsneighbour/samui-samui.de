@@ -1,6 +1,5 @@
 ---
 title: Thaksin Thaksin!
-type: post
 date: 2009-02-02T12:05:38+00:00
 url: /2009/02/thaksin-thaksin/
 

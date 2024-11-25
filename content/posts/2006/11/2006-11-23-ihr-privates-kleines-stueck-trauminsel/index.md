@@ -1,6 +1,5 @@
 ---
 title: Ihr privates kleines Stück Trauminsel
-type: post
 date: 2006-11-23T08:29:22+00:00
 url: /2006/11/ihr-privates-kleines-stueck-trauminsel/
 lastmod: 2023-09-10T19:14:12+07:00

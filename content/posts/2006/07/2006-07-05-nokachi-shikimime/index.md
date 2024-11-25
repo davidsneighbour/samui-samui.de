@@ -1,6 +1,5 @@
 ---
 title: Nokachi Shikimime
-type: post
 date: 2006-07-05T04:02:00+00:00
 url: /2006/07/nokachi-shikimime/
 lastmod: 2023-09-10T19:14:12+07:00

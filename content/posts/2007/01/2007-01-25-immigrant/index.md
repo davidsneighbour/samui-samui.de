@@ -1,6 +1,5 @@
 ---
 title: Immigrant
-type: post
 date: 2007-01-25T01:31:42+00:00
 url: /2007/01/immigrant/
 

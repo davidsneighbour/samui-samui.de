@@ -1,6 +1,5 @@
 ---
 title: Der Putsch – Samui-Style
-type: post
 date: 2006-09-20T05:39:00+00:00
 url: /2006/09/der-putsch-samui-style/
 dsq_thread_id:

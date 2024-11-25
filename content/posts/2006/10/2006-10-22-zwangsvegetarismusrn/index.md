@@ -1,6 +1,5 @@
 ---
 title: Zwangsvegetarismus
-type: post
 date: 2006-10-22T03:41:55+00:00
 url: /2006/10/zwangsvegetarismusrn/
 

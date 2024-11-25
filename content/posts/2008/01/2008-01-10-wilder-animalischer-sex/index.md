@@ -1,6 +1,5 @@
 ---
 title: Wilder animalischer Sex
-type: post
 date: 2008-01-10T00:16:56+00:00
 url: /2008/01/wilder-animalischer-sex/
 dsq_thread_id:

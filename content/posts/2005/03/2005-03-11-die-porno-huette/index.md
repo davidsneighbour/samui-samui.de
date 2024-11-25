@@ -1,6 +1,5 @@
 ---
 title: Die Porno-Hütte
-type: post
 date: 2005-03-10T20:12:00+00:00
 url: /2005/03/die-porno-huette/
 dsq_thread_id:

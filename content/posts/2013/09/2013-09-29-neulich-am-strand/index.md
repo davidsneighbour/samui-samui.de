@@ -1,6 +1,5 @@
 ---
 title: Neulich am Strand
-type: post
 date: 2013-09-29T09:59:38+00:00
 url: /2013/09/neulich-am-strand/
 dsq_thread_id:

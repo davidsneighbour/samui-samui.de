@@ -1,6 +1,5 @@
 ---
 title: Wahlkampfticker
-type: post
 date: 2011-05-02T19:48:46+00:00
 url: /2011/05/wahlkampfticker/
 lastmod: 2023-09-10T19:14:12+07:00

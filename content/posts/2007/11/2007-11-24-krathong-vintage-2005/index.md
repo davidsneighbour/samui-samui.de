@@ -1,6 +1,5 @@
 ---
 title: Krathong (Vintage, 2005)
-type: post
 date: 2007-11-23T23:47:21+00:00
 url: /2007/11/krathong-vintage-2005/
 

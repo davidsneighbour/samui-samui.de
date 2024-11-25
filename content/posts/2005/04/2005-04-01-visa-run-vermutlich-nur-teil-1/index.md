@@ -1,6 +1,5 @@
 ---
 title: Visa-Run – vermutlich nur Teil 1
-type: post
 date: 2005-04-01T02:25:00+00:00
 url: /2005/04/visa-run-vermutlich-nur-teil-1/
 tags:

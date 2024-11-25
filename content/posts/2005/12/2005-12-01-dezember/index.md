@@ -1,6 +1,5 @@
 ---
 title: Dezember
-type: post
 date: 2005-11-30T22:30:00+00:00
 url: /2005/12/dezember/
 lastmod: 2023-09-10T19:14:12+07:00
@@ -15,7 +14,7 @@ Es gibt eh nicht viel zu berichten. Seit gestern regnet es wieder. Die Straßen,
 
 Nichts Neues also.
 
-_ (Fügen Sie hier ein paar greenpissige Sätze a la Bodenversiegelung, Raubbau an der Natur und Mutter Erde ein.) _
+_(Fügen Sie hier ein paar greenpissige Sätze a la Bodenversiegelung, Raubbau an der Natur und Mutter Erde ein.)_
 
 Dezember also. Was war da noch? Achja. Kommerzfeiertage. Spendet und seht von Geschenken an mich ab. Danke.
 
@@ -23,13 +22,13 @@ Spenden wohin? Wie wäre es mit diesen beiden?
 
 **[Child's Dream][1]:**
 
-  * [Was sie machen][2]
-  * [Wie man helfen kann][3]
+* [Was sie machen][2]
+* [Wie man helfen kann][3]
 
 **[School for Life][4]:**
 
-  * [Was sie machen][5]
-  * [Wie man helfen kann][6]
+* [Was sie machen][5]
+* [Wie man helfen kann][6]
 
  [1]: http://www.childsdream.org/
  [2]: http://www.childsdream.org/de/howwehelp.asp

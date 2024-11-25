@@ -1,6 +1,5 @@
 ---
 title: 'Templatespielereien III: CSS-Geschraube'
-type: post
 date: 2006-10-29T20:27:48+00:00
 url: /2006/10/templatespielereien-iii-css-geschraube/
 

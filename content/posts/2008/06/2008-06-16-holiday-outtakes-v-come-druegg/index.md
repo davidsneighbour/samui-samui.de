@@ -1,6 +1,5 @@
 ---
 title: 'Holiday Outtakes V: Come Druegg!'
-type: post
 date: 2008-06-16T04:46:46+00:00
 url: /2008/06/holiday-outtakes-v-come-druegg/
 

@@ -1,6 +1,5 @@
 ---
 title: Sprachwitz
-type: post
 date: 2009-04-13T13:56:22+00:00
 url: /2009/04/sprachwitz/
 

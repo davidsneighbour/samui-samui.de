@@ -1,6 +1,5 @@
 ---
 title: Krankenhausnews
-type: post
 date: 2009-09-22T04:09:02+00:00
 url: /2009/09/krankenhausnews/
 

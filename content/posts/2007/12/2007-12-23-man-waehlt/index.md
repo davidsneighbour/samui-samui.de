@@ -1,6 +1,5 @@
 ---
 title: Man wählt
-type: post
 date: 2007-12-22T19:23:29+00:00
 url: /2007/12/man-waehlt/
 

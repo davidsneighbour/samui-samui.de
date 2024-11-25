@@ -1,6 +1,5 @@
 ---
 title: Judgement Day II
-type: post
 date: 2007-05-29T02:00:28+00:00
 url: /2007/05/judgement-day-ii/
 

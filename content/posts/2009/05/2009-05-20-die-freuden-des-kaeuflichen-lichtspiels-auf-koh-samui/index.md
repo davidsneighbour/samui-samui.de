@@ -1,6 +1,5 @@
 ---
 title: Die Freuden des käuflichen Lichtspiels auf Koh Samui
-type: post
 date: 2009-05-20T01:44:24+00:00
 url: /2009/05/die-freuden-des-kaeuflichen-lichtspiels-auf-koh-samui/
 dsq_thread_id:

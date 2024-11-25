@@ -1,6 +1,5 @@
 ---
 title: Buddhas Hand
-type: post
 date: 2010-01-03T12:23:50+00:00
 url: /2010/01/buddhas-hand/
 dsq_thread_id:

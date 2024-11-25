@@ -1,6 +1,5 @@
 ---
 title: Da ist was im Busch
-type: post
 date: 2008-10-10T11:27:52+00:00
 url: /2008/10/da-ist-was-im-busch/
 

@@ -1,6 +1,5 @@
 ---
 title: Wie man seine Ehefrau auswählt
-type: post
 date: 2006-11-23T09:07:30+00:00
 url: /2006/11/wie-man-seine-ehefrau-auswaehlt/
 lastmod: 2023-09-10T19:14:12+07:00

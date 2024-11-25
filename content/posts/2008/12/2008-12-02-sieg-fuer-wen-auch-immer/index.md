@@ -1,6 +1,5 @@
 ---
 title: Sieg. Für wen auch immer.
-type: post
 date: 2008-12-02T01:04:54+00:00
 url: /2008/12/sieg-fuer-wen-auch-immer/
 

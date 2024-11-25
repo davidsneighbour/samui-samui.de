@@ -1,6 +1,5 @@
 ---
 title: Krungthep Mahanakhon 1.0 – Botschaften
-type: post
 date: 2005-06-08T07:38:00+00:00
 url: /2005/06/krungthep-mahanakhon-10-botschaften/
 dsq_thread_id:

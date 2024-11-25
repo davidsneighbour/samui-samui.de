@@ -1,6 +1,5 @@
 ---
 title: Thailand-News
-type: post
 date: 2010-02-03T15:21:00+00:00
 url: /2010/02/thailand-news/
 lastmod: 2023-09-10T19:14:13+07:00

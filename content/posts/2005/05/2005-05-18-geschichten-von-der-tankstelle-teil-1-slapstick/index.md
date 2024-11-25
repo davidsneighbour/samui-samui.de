@@ -1,6 +1,5 @@
 ---
 title: "Geschichten von der Tankstelle – Teil 1: Slapstick"
-type: post
 date: 2005-05-17T22:55:00+00:00
 url: /2005/05/geschichten-von-der-tankstelle-teil-1-slapstick/
 lastmod: 2023-09-10T19:14:12+07:00

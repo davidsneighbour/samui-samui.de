@@ -1,6 +1,5 @@
 ---
 title: Vogelgrippe
-type: post
 date: 2007-03-19T23:33:46+00:00
 url: /2007/03/vogelgrippe-2/
 dsq_thread_id:

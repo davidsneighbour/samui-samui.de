@@ -1,6 +1,5 @@
 ---
 title: Hüte dich vor dem Zorn der Frau!
-type: post
 date: 2013-10-24T13:28:14+00:00
 url: /2013/10/huete-dich-vor-dem-zorn-der-frau/
 dsq_thread_id:

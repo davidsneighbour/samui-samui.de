@@ -1,6 +1,5 @@
 ---
 title: Lost in Thailand
-type: post
 date: 2012-12-23T11:48:43+00:00
 url: /2012/12/lost-in-thailand/
 fb_author_post_id:

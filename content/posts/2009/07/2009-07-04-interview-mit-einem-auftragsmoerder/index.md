@@ -1,6 +1,5 @@
 ---
 title: Interview mit einem Auftragsmörder
-type: post
 date: 2009-07-04T13:40:18+00:00
 url: /2009/07/interview-mit-einem-auftragsmoerder/
 dsq_thread_id:

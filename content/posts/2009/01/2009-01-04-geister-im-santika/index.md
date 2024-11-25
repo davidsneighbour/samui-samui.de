@@ -1,6 +1,5 @@
 ---
 title: Geister im Santika
-type: post
 date: 2009-01-03T21:34:13+00:00
 url: /2009/01/geister-im-santika/
 

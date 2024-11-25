@@ -1,6 +1,5 @@
 ---
 title: Auf ein Neues.
-type: post
 date: 2006-12-31T11:19:00+00:00
 url: /2006/12/auf-ein-neues/
 

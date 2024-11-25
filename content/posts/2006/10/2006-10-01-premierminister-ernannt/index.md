@@ -1,6 +1,5 @@
 ---
 title: Premierminister ernannt
-type: post
 date: 2006-10-01T05:47:00+00:00
 url: /2006/10/premierminister-ernannt/
 lastmod: 2023-09-10T19:14:12+07:00

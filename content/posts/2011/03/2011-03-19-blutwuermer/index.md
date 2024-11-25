@@ -1,6 +1,5 @@
 ---
 title: Blutwürmer
-type: post
 date: 2011-03-18T21:06:14+00:00
 url: /2011/03/blutwuermer/
 dsq_thread_id:

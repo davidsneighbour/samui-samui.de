@@ -1,6 +1,5 @@
 ---
 title: Ong Bak 3 Trailer
-type: post
 date: 2010-04-20T01:23:07+00:00
 url: /2010/04/ong-bak-3-trailer/
 lastmod: 2023-09-10T19:14:12+07:00

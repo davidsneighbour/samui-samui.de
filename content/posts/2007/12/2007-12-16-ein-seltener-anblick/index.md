@@ -1,6 +1,5 @@
 ---
 title: Ein seltener Anblick
-type: post
 date: 2007-12-15T22:13:07+00:00
 url: /2007/12/ein-seltener-anblick/
 

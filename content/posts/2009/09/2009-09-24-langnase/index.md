@@ -1,6 +1,5 @@
 ---
 title: Langnase
-type: post
 date: 2009-09-24T05:31:48+00:00
 url: /2009/09/langnase/
 

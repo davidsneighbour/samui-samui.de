@@ -1,6 +1,5 @@
 ---
 title: Suchbild mit Elephant
-type: post
 date: 2007-11-02T05:45:14+00:00
 url: /2007/11/suchbild-mit-elephant/
 

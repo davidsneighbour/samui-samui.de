@@ -1,6 +1,5 @@
 ---
 title: Happy Birthday
-type: post
 date: 2009-04-30T19:27:39+00:00
 url: /2009/05/happy-birthday/
 

@@ -1,6 +1,5 @@
 ---
 title: 5 Jahre alt
-type: post
 date: 2010-11-14T02:17:29+00:00
 url: /2010/11/5-jahre-alt/
 dsq_thread_id:

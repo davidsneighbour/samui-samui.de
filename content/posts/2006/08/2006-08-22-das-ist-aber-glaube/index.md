@@ -1,6 +1,5 @@
 ---
 title: Das ist aber Glaube
-type: post
 date: 2006-08-22T09:35:26+00:00
 url: /2006/08/das-ist-aber-glaube/
 

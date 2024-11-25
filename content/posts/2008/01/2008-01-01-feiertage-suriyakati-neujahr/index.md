@@ -1,6 +1,5 @@
 ---
 title: 'Feiertage: Suriyakati-Neujahr'
-type: post
 date: 2008-01-01T00:18:28+00:00
 url: /2008/01/feiertage-suriyakati-neujahr/
 

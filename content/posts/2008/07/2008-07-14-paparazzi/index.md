@@ -1,6 +1,5 @@
 ---
 title: Paparazzi
-type: post
 date: 2008-07-14T04:28:57+00:00
 url: /2008/07/paparazzi/
 

@@ -1,6 +1,5 @@
 ---
 title: Königlicher Besuch in Deutschland
-type: post
 date: 2007-10-05T17:54:51+00:00
 url: /2007/10/koeniglicher-besuch-in-deutschland-2/
 

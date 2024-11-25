@@ -1,6 +1,5 @@
 ---
 title: Canines Update
-type: post
 date: 2006-09-02T21:56:00+00:00
 url: /2006/09/canines-update/
 

@@ -1,6 +1,5 @@
 ---
 title: Der Tag der neun Tempel
-type: post
 date: 2006-05-03T04:21:00+00:00
 excerpt: '<p style="color: #999;font-style: italic;">Songkran ist schon ziemlich lange vorbei und ich habe es immer noch nicht geschafft, diesen Eintrag fertig zu stellen. Also dürft ihr ihn so fragmentarisch lesen, wie er ist. Im Optimalfall gäbe es noch die Links zu Bildern bei Flickr und ein paar weitere Kommentare. Abgesehen davon funktioniert das Anzeigen der Map nur mit nicht-InternetExplorern. Keine Ahnung warum. </p>'
 url: /2006/05/der-tag-der-neun-tempel/
@@ -12,10 +11,6 @@ Eine der vielen Traditionen zu Songkran ist übrigens der Besuch von neun Tempel
 
 <div id="map" style="height:550px;width:508px;margin:5px 0;border:1px solid #000;">
 </div>
-
-
-
-
 
 <div class="text">
   <p>

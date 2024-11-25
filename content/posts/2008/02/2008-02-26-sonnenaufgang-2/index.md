@@ -1,6 +1,5 @@
 ---
 title: Sonnenaufgang
-type: post
 date: 2008-02-26T12:39:24+00:00
 url: /2008/02/sonnenaufgang-2/
 

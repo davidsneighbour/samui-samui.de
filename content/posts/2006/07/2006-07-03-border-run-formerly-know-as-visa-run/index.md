@@ -1,6 +1,5 @@
 ---
 title: Border-Run (formerly know as Visa-Run)
-type: post
 date: 2006-07-03T05:34:00+00:00
 url: /2006/07/border-run-formerly-know-as-visa-run/
 lastmod: 2023-09-10T19:14:12+07:00

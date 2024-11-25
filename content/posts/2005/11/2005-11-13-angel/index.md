@@ -1,6 +1,5 @@
 ---
 title: "Massive Attack: Angel"
-type: post
 date: 2005-11-12T19:57:00+00:00
 url: /2005/11/angel/
 lastmod: 2023-09-10T19:14:12+07:00

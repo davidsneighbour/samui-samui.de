@@ -1,6 +1,5 @@
 ---
 title: Trockenzeit, jaja
-type: post
 date: 2005-04-26T20:07:05+00:00
 url: /2005/04/trockenzeit-jaja/
 lastmod: 2023-09-10T19:14:12+07:00

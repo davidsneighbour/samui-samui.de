@@ -1,6 +1,5 @@
 ---
 title: Nach dem Friseur ist vor dem Friseur
-type: post
 date: 2012-06-17T14:04:15+00:00
 url: /2012/06/nach-dem-friseur-ist-vor-dem-friseur/
 dsq_thread_id:

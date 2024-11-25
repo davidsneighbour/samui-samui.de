@@ -1,6 +1,5 @@
 ---
 title: Songkran – hoffnungslos
-type: post
 date: 2005-04-13T02:43:00+00:00
 url: /2005/04/songkran-hoffnungslos/
 dsq_thread_id:

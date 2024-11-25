@@ -1,6 +1,5 @@
 ---
 title: Handsome man!
-type: post
 date: 2005-12-07T01:16:00+00:00
 url: /2005/12/handsome-man/
 lastmod: 2023-09-10T19:14:12+07:00

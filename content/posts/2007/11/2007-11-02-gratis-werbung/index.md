@@ -1,6 +1,5 @@
 ---
 title: Gratis-Werbung
-type: post
 date: 2007-11-02T03:25:22+00:00
 url: /2007/11/gratis-werbung/
 

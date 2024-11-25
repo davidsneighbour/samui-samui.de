@@ -1,6 +1,5 @@
 ---
 title: Die Ameise
-type: post
 date: 2006-11-23T10:19:08+00:00
 url: /2006/11/die-ameise/
 lastmod: 2023-09-10T19:14:12+07:00

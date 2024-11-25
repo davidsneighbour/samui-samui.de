@@ -1,6 +1,5 @@
 ---
 title: Gratis Touristenvisum
-type: post
 date: 2009-02-28T12:13:07+00:00
 url: /2009/02/gratis-touristenvisum/
 

@@ -1,6 +1,5 @@
 ---
 title: Explosiv
-type: post
 date: 2012-01-24T17:31:43+00:00
 url: /2012/01/explosiv-2/
 lastmod: 2023-09-10T19:14:12+07:00

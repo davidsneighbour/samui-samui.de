@@ -1,6 +1,5 @@
 ---
 title: D-Day II
-type: post
 date: 2010-02-26T00:20:51+00:00
 url: /2010/02/d-day-ii/
 lastmod: 2023-09-10T19:14:13+07:00

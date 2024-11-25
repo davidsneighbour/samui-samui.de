@@ -1,6 +1,5 @@
 ---
 title: Ich mag meine Website (nicht so ganz)
-type: post
 date: 2006-10-22T03:58:00+00:00
 url: /2006/10/ich-mag-meine-website-nicht-so-ganz/
 dsq_thread_id:

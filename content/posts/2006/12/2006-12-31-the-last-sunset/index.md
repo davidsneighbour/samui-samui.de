@@ -1,6 +1,5 @@
 ---
 title: The last sunset
-type: post
 date: 2006-12-31T05:20:42+00:00
 url: /2006/12/the-last-sunset/
 

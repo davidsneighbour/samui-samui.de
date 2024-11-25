@@ -1,6 +1,5 @@
 ---
 title: Tropen (Kapitel 35)
-type: post
 date: 2005-11-06T05:08:46+00:00
 url: /2005/11/tropen-kapitel-35/
 lastmod: 2023-09-10T19:14:12+07:00

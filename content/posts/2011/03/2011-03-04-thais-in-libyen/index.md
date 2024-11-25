@@ -1,6 +1,5 @@
 ---
 title: Thais in Libyen
-type: post
 date: 2011-03-03T21:26:07+00:00
 url: /2011/03/thais-in-libyen/
 lastmod: 2023-09-10T19:14:12+07:00

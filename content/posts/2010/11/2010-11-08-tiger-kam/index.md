@@ -1,6 +1,5 @@
 ---
 title: Tiger kam
-type: post
 date: 2010-11-08T13:26:36+00:00
 url: /2010/11/tiger-kam/
 lastmod: 2023-09-10T19:14:13+07:00

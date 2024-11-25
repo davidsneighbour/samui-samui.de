@@ -1,6 +1,5 @@
 ---
 title: The King has left the building
-type: post
 date: 2006-08-04T02:56:00+00:00
 url: /2006/08/the-king-has-left-the-building/
 

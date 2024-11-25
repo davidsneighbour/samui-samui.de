@@ -1,6 +1,5 @@
 ---
 title: Nummer Eins
-type: post
 date: 2008-10-11T17:39:30+00:00
 url: /2008/10/nummer-eins/
 

@@ -1,6 +1,5 @@
 ---
 title: The next generation
-type: post
 date: 2013-05-19T10:02:36+00:00
 url: /2013/05/the-next-generation/
 fb_author_post_id:

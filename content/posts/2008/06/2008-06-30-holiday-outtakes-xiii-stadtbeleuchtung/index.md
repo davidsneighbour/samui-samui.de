@@ -1,6 +1,5 @@
 ---
 title: 'Holiday Outtakes XIII: Stadtbeleuchtung'
-type: post
 date: 2008-06-29T17:21:15+00:00
 url: /2008/06/holiday-outtakes-xiii-stadtbeleuchtung/
 

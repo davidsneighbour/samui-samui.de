@@ -1,6 +1,5 @@
 ---
 title: "Breaking News: Die Digicam geht wieder"
-type: post
 date: 2005-08-17T04:29:05+00:00
 url: /2005/08/breaking-news-die-digicam-geht-wieder/
 dsq_thread_id:

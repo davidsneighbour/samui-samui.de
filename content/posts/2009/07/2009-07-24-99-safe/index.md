@@ -1,6 +1,5 @@
 ---
 title: '99% safe'
-type: post
 date: 2009-07-23T22:27:54+00:00
 url: /2009/07/99-safe/
 

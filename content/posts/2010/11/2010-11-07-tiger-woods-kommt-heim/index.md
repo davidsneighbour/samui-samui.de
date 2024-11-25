@@ -1,6 +1,5 @@
 ---
 title: Tiger Woods kommt heim
-type: post
 date: 2010-11-07T14:29:54+00:00
 url: /2010/11/tiger-woods-kommt-heim/
 lastmod: 2023-09-10T19:14:13+07:00

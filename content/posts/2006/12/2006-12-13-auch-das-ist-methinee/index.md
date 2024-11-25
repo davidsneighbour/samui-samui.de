@@ -1,6 +1,5 @@
 ---
 title: Auch das ist Methinee
-type: post
 date: 2006-12-12T23:01:00+00:00
 url: /2006/12/auch-das-ist-methinee/
 

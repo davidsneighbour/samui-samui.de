@@ -1,6 +1,5 @@
 ---
 title: Saam
-type: post
 date: 2008-01-10T00:36:51+00:00
 url: /2008/01/saam/
 

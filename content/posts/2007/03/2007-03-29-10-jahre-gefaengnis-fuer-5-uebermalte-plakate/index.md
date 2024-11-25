@@ -1,6 +1,5 @@
 ---
 title: 10 Jahre Gefängnis für 5 übermalte Plakate
-type: post
 date: 2007-03-29T00:24:03+00:00
 url: /2007/03/10-jahre-gefaengnis-fuer-5-uebermalte-plakate/
 dsq_thread_id:

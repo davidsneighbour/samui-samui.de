@@ -1,6 +1,5 @@
 ---
 title: Zurück
-type: post
 date: 2007-02-05T13:17:47+00:00
 url: /2007/02/zurueck/
 dsq_thread_id:

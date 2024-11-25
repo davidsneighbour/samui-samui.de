@@ -1,6 +1,5 @@
 ---
 title: Babies in Tüten II
-type: post
 date: 2010-12-06T22:30:29+00:00
 url: /2010/12/babies-in-tueten-ii/
 instant_articles_submission_id:

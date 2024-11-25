@@ -1,6 +1,5 @@
 ---
 title: Gleichaltriger Nachbar
-type: post
 date: 2008-07-16T03:41:55+00:00
 url: /2008/07/gleichaltriger-nachbar/
 

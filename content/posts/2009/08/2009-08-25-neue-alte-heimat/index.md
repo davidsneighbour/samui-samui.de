@@ -1,6 +1,5 @@
 ---
 title: Neue alte Heimat.
-type: post
 date: 2009-08-25T02:40:58+00:00
 url: /2009/08/neue-alte-heimat/
 

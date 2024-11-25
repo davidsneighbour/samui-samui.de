@@ -1,6 +1,5 @@
 ---
 title: Helmpflicht
-type: post
 date: 2006-09-24T08:27:00+00:00
 url: /2006/09/helmpflicht-2/
 

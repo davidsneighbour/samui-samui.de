@@ -1,6 +1,5 @@
 ---
 title: Das Neue
-type: post
 date: 2006-03-19T22:05:00+00:00
 url: /2006/03/das-neue/
 lastmod: 2023-09-10T19:14:12+07:00

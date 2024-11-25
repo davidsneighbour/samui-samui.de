@@ -1,6 +1,5 @@
 ---
 title: Die Drei
-type: post
 date: 2006-12-28T11:00:37+00:00
 url: /2006/12/die-drei/
 

@@ -1,6 +1,5 @@
 ---
 title: Datentransfermitschnitt
-type: post
 date: 2008-08-22T01:37:46+00:00
 url: /2008/08/datentransfermitschnitt/
 

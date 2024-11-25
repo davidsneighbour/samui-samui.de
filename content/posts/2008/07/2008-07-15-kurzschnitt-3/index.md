@@ -1,6 +1,5 @@
 ---
 title: Kurzschnitt
-type: post
 date: 2008-07-15T14:46:27+00:00
 url: /2008/07/kurzschnitt-3/
 

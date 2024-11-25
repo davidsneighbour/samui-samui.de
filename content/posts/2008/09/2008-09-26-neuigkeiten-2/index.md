@@ -1,6 +1,5 @@
 ---
 title: Neuigkeiten
-type: post
 date: 2008-09-25T23:22:35+00:00
 url: /2008/09/neuigkeiten-2/
 

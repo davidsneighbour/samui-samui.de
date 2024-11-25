@@ -1,6 +1,5 @@
 ---
 title: Wasser marsch
-type: post
 date: 2007-07-14T19:43:07+00:00
 url: /2007/07/wasser-marsch/
 

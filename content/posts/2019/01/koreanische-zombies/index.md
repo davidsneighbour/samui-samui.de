@@ -1,7 +1,6 @@
 ---
 title: "Koreanische Zombies"
 date: 2019-01-27T20:00:00+07:00
-type: post
 url: /2019/01/koreanische-zombies/
 tags:
 - netflix
@@ -10,7 +9,7 @@ tags:
 - kingdom
 ---
 
-Es stellt sich heraus, dass es auch in Korea Zombies gibt... zumindest auf Netflix. Ein Grund mehr, endlich mal ein Abo abzuschliessen. 
+Es stellt sich heraus, dass es auch in Korea Zombies gibt... zumindest auf Netflix. Ein Grund mehr, endlich mal ein Abo abzuschliessen.
 
 Die Art der Serie ist relativ weitverbreitet. Ich musste mir da vor etwas mehr als einem guten Jahrzehnt in einer Seifenoper das Leben einer versklavten Köchin im feudalen Korea ansehen... mit allem Drum und Dran, Affären mit dem jungen Regenten, Eifersucht, und natürlich minutenlange Szenen in denen gekocht wurde. Nun also Zombies. Ich glaube das könnte ich mir glatt ansehen.
 <!--lint disable no-html-->

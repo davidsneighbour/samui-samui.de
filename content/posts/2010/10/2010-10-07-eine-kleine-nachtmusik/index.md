@@ -1,6 +1,5 @@
 ---
 title: Eine kleine Nachtmusik
-type: post
 date: 2010-10-06T17:53:22+00:00
 url: /2010/10/eine-kleine-nachtmusik/
 lastmod: 2023-09-10T19:14:13+07:00

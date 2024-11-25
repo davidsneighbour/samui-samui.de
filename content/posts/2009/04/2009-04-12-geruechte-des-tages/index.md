@@ -1,6 +1,5 @@
 ---
 title: Gerüchte des Tages
-type: post
 date: 2009-04-11T23:29:33+00:00
 url: /2009/04/geruechte-des-tages/
 

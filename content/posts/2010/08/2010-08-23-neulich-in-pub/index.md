@@ -1,6 +1,5 @@
 ---
 title: Neulich in Pub
-type: post
 date: 2010-08-23T01:10:31+00:00
 url: /2010/08/neulich-in-pub/
 lastmod: 2023-09-10T19:14:12+07:00

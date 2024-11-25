@@ -1,6 +1,5 @@
 ---
 title: Das Wetter
-type: post
 date: 2005-12-22T00:46:00+00:00
 url: /2005/12/das-wetter-2/
 lastmod: 2023-09-10T19:14:12+07:00
@@ -16,5 +15,5 @@ Hier bei uns regnet es nur "ein bisschen". Bophut hat sich trotzdem gleich wiede
 Und es wird auch [in den folgenden Tagen][3] so bleiben.
 
  [1]: http://www.tmd.go.th/program/warning_list_eg.php
- [2]: http://www.tmd.go.th/program/tour_show_eg.php?part_tmp=Southern%20(East%20Coast
- [3]: http://www.tmd.go.th/program/minmax_show.php?id_puk=5
+ [2]: <http://www.tmd.go.th/program/tour_show_eg.php?part_tmp=Southern%20(East%20Coast>
+ [3]: <http://www.tmd.go.th/program/minmax_show.php?id_puk=5>

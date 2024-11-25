@@ -1,6 +1,5 @@
 ---
 title: Alle Jahre wieder
-type: post
 date: 2012-11-15T13:34:01+00:00
 url: /2012/11/alle-jahre-wieder/
 fb_mentioned_pages:

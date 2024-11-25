@@ -1,6 +1,5 @@
 ---
 title: Happy New Year
-type: post
 date: 2012-01-01T00:52:32+00:00
 url: /2012/01/happy-new-year/
 lastmod: 2023-09-10T19:14:12+07:00

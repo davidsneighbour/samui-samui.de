@@ -1,6 +1,5 @@
 ---
 title: Nasszellenkur
-type: post
 date: 2007-12-08T21:49:54+00:00
 url: /2007/12/nasszellenkur/
 

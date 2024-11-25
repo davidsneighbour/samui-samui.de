@@ -1,6 +1,5 @@
 ---
 title: Dunstwolke
-type: post
 date: 2007-06-17T14:43:43+00:00
 url: /2007/06/dunstwolke/
 
@@ -18,8 +17,8 @@ Ich bin vielleicht 3 Meter vom Wolkenmittelpunkt vorbeigefahren und habe mich tr
 
 Jedenfalls darf ich mich zweier Tipps für Sextouristen entledigen:
 
-  * Die Thaifrauen haben ein gutes Näslein. Wenn die Palmen im Umkreis die Blätter hängen lassen, war es eindeutig zu viel.
-  * Es ist Nebensaisaon. Da kriegt sogar der letzte Laufbandschrauber noch ein freudiges Isaanmädchen ab. Selbst mich jubeln sie an, wenn ich vor mich hintuckele.
+* Die Thaifrauen haben ein gutes Näslein. Wenn die Palmen im Umkreis die Blätter hängen lassen, war es eindeutig zu viel.
+* Es ist Nebensaisaon. Da kriegt sogar der letzte Laufbandschrauber noch ein freudiges Isaanmädchen ab. Selbst mich jubeln sie an, wenn ich vor mich hintuckele.
 
 Leider fängt auch Maenam langsam an, Soddom und Gonorrhoe (aka. Chaweng and Lamai) den Rang abzulaufen. Das merkt man schon an der Anzahl der Banken, die von einer vor einem Jahr auf vier heute angestiegen ist.
 

@@ -1,6 +1,5 @@
 ---
 title: Vogelgrippe
-type: post
 date: 2005-10-15T21:42:00+00:00
 url: /2005/10/vogelgrippe/
 lastmod: 2023-09-10T19:14:12+07:00

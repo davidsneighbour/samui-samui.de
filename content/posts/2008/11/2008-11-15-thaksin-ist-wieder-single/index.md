@@ -1,6 +1,5 @@
 ---
 title: Thaksin ist wieder Single
-type: post
 date: 2008-11-14T18:56:08+00:00
 url: /2008/11/thaksin-ist-wieder-single/
 

@@ -1,6 +1,5 @@
 ---
 title: Soosie erinnert sich
-type: post
 date: 2009-11-12T12:52:55+00:00
 url: /2009/11/soosie-erinnert-sich/
 

@@ -1,6 +1,5 @@
 ---
 title: New pollution-free tourist destination discovered in southern Thailand
-type: post
 date: 2006-01-23T22:48:27+00:00
 url: /2006/01/new-pollution-free-tourist-destination-discovered-in-southern-thailand/
 

@@ -1,6 +1,5 @@
 ---
 title: Me now. Schnipp.
-type: post
 date: 2005-12-06T02:41:00+00:00
 url: /2005/12/menowschnipp/
 dsq_thread_id:

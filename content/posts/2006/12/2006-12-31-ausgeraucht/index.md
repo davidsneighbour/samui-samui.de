@@ -1,6 +1,5 @@
 ---
 title: Ausgeraucht
-type: post
 date: 2006-12-31T02:05:13+00:00
 url: /2006/12/ausgeraucht/
 

@@ -1,6 +1,5 @@
 ---
 title: Bowling
-type: post
 date: 2012-10-25T16:04:14+00:00
 url: /2012/10/bowling/
 fb_mentioned_pages:

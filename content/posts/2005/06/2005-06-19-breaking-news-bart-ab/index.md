@@ -1,6 +1,5 @@
 ---
 title: "Breaking News: Bart ab"
-type: post
 date: 2005-06-19T06:05:00+00:00
 url: /2005/06/breaking-news-bart-ab/
 dsq_thread_id:

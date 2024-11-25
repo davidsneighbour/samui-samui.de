@@ -1,6 +1,5 @@
 ---
 title: Happy Songkran!
-type: post
 date: 2013-04-13T03:09:55+00:00
 url: /2013/04/happy-songkran/
 fb_author_post_id:

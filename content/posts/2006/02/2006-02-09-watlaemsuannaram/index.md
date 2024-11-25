@@ -1,6 +1,5 @@
 ---
 title: Wat Laem Suan Naram
-type: post
 date: 2006-02-08T21:06:00+00:00
 url: /2006/02/watlaemsuannaram/
 dsq_thread_id:

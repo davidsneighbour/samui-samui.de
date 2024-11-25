@@ -1,6 +1,5 @@
 ---
 title: Offizielle Website der Militärregierung
-type: post
 date: 2006-09-23T21:58:43+00:00
 url: /2006/09/offizielle-website-der-militaerregierung/
 

@@ -1,6 +1,5 @@
 ---
 title: Morgenstund
-type: post
 date: 2006-02-16T18:36:00+00:00
 url: /2006/02/morgenstund/
 lastmod: 2023-09-10T19:14:12+07:00

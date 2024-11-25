@@ -1,6 +1,5 @@
 ---
 title: Gomorrha light
-type: post
 date: 2006-12-30T06:23:15+00:00
 url: /2006/12/gomorrha-light/
 

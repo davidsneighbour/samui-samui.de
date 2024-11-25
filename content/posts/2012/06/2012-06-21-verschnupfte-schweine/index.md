@@ -1,6 +1,5 @@
 ---
 title: Verschnupfte Schweine
-type: post
 date: 2012-06-21T12:25:56+00:00
 url: /2012/06/verschnupfte-schweine/
 lastmod: 2023-09-10T19:14:12+07:00

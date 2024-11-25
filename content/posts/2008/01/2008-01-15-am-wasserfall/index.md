@@ -1,6 +1,5 @@
 ---
 title: Am Wasserfall
-type: post
 date: 2008-01-14T23:54:00+00:00
 url: /2008/01/am-wasserfall/
 

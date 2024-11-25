@@ -1,6 +1,5 @@
 ---
 title: Thaksin returns home from Hua Hin
-type: post
 date: 2006-05-21T23:17:06+00:00
 url: /2006/05/thaksin-returns-home-from-hua-hin/
 lastmod: 2023-09-10T19:14:12+07:00

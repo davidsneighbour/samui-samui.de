@@ -1,6 +1,5 @@
 ---
 title: Der gro?e Tag (zweiter und dritter Versuch)
-type: post
 date: 2007-03-03T07:55:19+00:00
 url: /2007/03/der-grosse-tag-zweiter-und-dritter-versuch/
 dsq_thread_id:

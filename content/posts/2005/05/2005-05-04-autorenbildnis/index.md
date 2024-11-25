@@ -1,6 +1,5 @@
 ---
 title: Autorenbildnis
-type: post
 date: 2005-05-03T20:45:31+00:00
 url: /2005/05/autorenbildnis/
 dsq_thread_id:

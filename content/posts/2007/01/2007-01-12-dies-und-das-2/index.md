@@ -1,6 +1,5 @@
 ---
 title: Dies und das
-type: post
 date: 2007-01-12T08:18:24+00:00
 url: /2007/01/dies-und-das-2/
 

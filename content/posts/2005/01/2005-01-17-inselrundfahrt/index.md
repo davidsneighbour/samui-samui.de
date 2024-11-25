@@ -1,6 +1,5 @@
 ---
 title: Inselrundfahrt
-type: post
 date: 2005-01-16T21:02:00+00:00
 url: /2005/01/inselrundfahrt/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Das Ramadan-Rätsel (2012)
-type: post
 date: 2012-06-22T15:00:18+00:00
 url: /2012/06/das-ramadan-ratsel-2012/
 lastmod: 2023-09-10T19:14:12+07:00

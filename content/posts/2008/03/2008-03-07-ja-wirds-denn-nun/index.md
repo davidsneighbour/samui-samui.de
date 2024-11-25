@@ -1,6 +1,5 @@
 ---
 title: Ja wirds denn nun?
-type: post
 date: 2008-03-07T01:05:51+00:00
 url: /2008/03/ja-wirds-denn-nun/
 

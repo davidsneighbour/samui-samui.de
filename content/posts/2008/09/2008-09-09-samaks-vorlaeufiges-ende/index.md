@@ -1,6 +1,5 @@
 ---
 title: Samaks (vorläufiges) Ende
-type: post
 date: 2008-09-09T03:50:42+00:00
 url: /2008/09/samaks-vorlaeufiges-ende/
 

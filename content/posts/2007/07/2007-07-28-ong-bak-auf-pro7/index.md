@@ -1,6 +1,5 @@
 ---
 title: Ong Bak auf Pro7
-type: post
 date: 2007-07-27T22:51:00+00:00
 url: /2007/07/ong-bak-auf-pro7/
 dsq_thread_id:

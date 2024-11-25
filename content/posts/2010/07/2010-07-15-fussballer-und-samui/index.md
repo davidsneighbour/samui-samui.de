@@ -1,6 +1,5 @@
 ---
 title: Fussballer und Samui
-type: post
 date: 2010-07-15T14:21:47+00:00
 url: /2010/07/fussballer-und-samui/
 lastmod: 2023-09-10T19:14:13+07:00

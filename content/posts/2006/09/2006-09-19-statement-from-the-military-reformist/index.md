@@ -1,6 +1,5 @@
 ---
 title: Statement from the military reformist
-type: post
 date: 2006-09-19T13:44:00+00:00
 url: /2006/09/statement-from-the-military-reformist/
 

@@ -1,6 +1,5 @@
 ---
 title: Meine Socken
-type: post
 date: 2006-01-03T00:57:00+00:00
 url: /2006/01/meinesocken/
 

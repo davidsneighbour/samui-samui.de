@@ -1,6 +1,5 @@
 ---
 title: Die Ruhe nach dem Sturm. Die Ruhe vor dem Sturm.
-type: post
 date: 2006-09-21T10:36:00+00:00
 url: /2006/09/die-ruhe-nach-dem-sturm-die-ruhe-vor-dem-sturm/
 

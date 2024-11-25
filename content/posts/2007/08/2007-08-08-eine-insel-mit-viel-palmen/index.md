@@ -1,6 +1,5 @@
 ---
 title: Eine Insel mit viel Palmen…
-type: post
 date: 2007-08-08T03:56:16+00:00
 url: /2007/08/eine-insel-mit-viel-palmen/
 

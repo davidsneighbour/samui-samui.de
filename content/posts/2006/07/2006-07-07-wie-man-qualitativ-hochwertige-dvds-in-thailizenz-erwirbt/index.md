@@ -1,6 +1,5 @@
 ---
 title: Wie man qualitativ hochwertige DVDs in Thailizenz erwirbt
-type: post
 date: 2006-07-07T05:09:05+00:00
 url: /2006/07/wie-man-qualitativ-hochwertige-dvds-in-thailizenz-erwirbt/
 lastmod: 2023-09-10T19:14:12+07:00

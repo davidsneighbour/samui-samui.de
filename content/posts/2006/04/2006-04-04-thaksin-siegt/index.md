@@ -1,6 +1,5 @@
 ---
 title: Thaksin siegt.
-type: post
 date: 2006-04-03T22:45:00+00:00
 url: /2006/04/thaksin-siegt/
 lastmod: 2023-09-10T19:14:12+07:00

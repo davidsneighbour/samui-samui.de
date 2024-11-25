@@ -1,6 +1,5 @@
 ---
 title: Malaysische Notizen
-type: post
 date: 2007-11-30T20:04:07+00:00
 url: /2007/12/malaysische-notizen/
 
@@ -16,5 +15,5 @@ Der Islam ist die Staatsreligion in Malaysia. Frauen sollten Kopftücher tragen.
 
 Und zum Schluss noch Dinge, die man so wohl nur in Malaysia erleben kann:
 
-  * buddhistische Mönche bei Pizzahut essend (vor 12 Uhr)
-  * zwei parallel laufende Lautsprecher nebeneinander. Aus einem schallt ein Imam, aus dem anderen Eminem, Dido musikalisch vergewaltigend. Das klang in der Summe sehr interessant.
+* buddhistische Mönche bei Pizzahut essend (vor 12 Uhr)
+* zwei parallel laufende Lautsprecher nebeneinander. Aus einem schallt ein Imam, aus dem anderen Eminem, Dido musikalisch vergewaltigend. Das klang in der Summe sehr interessant.

@@ -1,6 +1,5 @@
 ---
 title: Weisheit
-type: post
 date: 2012-02-14T13:10:15+00:00
 url: /2012/02/weisheit-2/
 lastmod: 2023-09-10T19:14:12+07:00

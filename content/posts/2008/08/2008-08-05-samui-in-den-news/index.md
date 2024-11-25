@@ -1,6 +1,5 @@
 ---
 title: Samui in den News
-type: post
 date: 2008-08-05T15:00:50+00:00
 url: /2008/08/samui-in-den-news/
 dsq_thread_id:

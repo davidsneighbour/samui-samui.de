@@ -1,6 +1,5 @@
 ---
 title: Morgen krachts (vielleicht)
-type: post
 date: 2008-06-19T03:11:55+00:00
 url: /2008/06/morgen-krachts-vielleicht/
 

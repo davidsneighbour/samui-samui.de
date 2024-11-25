@@ -1,6 +1,5 @@
 ---
 title: Anti-Putsch-Bewegung
-type: post
 date: 2006-09-22T01:58:36+00:00
 url: /2006/09/anti-putsch-bewegung/
 

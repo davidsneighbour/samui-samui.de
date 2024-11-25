@@ -1,6 +1,5 @@
 ---
 title: Bränne!!! Bränne!!!
-type: post
 date: 2009-06-25T20:54:56+00:00
 url: /2009/06/braenne-braenne/
 

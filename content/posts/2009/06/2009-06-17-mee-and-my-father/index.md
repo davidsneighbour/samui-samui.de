@@ -1,6 +1,5 @@
 ---
 title: Mee and my father
-type: post
 date: 2009-06-17T01:08:28+00:00
 url: /2009/06/mee-and-my-father/
 dsq_thread_id:

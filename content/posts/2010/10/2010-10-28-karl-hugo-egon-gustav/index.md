@@ -1,6 +1,5 @@
 ---
 title: Karl Hugo Egon Gustav
-type: post
 date: 2010-10-28T03:12:23+00:00
 url: /2010/10/karl-hugo-egon-gustav/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Von Bullen und Katzen
-type: post
 date: 2007-08-05T23:14:14+00:00
 url: /2007/08/von-bullen-und-katzen/
 dsq_thread_id:

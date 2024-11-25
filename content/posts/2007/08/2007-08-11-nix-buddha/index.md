@@ -1,6 +1,5 @@
 ---
 title: Nix Buddha.
-type: post
 date: 2007-08-11T12:20:16+00:00
 url: /2007/08/nix-buddha/
 

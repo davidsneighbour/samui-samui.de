@@ -1,6 +1,5 @@
 ---
 title: '5eleven: Der wahre Fünf-Elfer'
-type: post
 date: 2007-01-12T09:34:31+00:00
 url: /2007/01/5eleven-der-wahre-fuenf-elfer/
 

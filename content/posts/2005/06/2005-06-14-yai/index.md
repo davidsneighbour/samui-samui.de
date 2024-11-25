@@ -1,6 +1,5 @@
 ---
 title: Yai
-type: post
 date: 2005-06-14T04:10:00+00:00
 url: /2005/06/yai/
 lastmod: 2023-09-10T19:14:12+07:00

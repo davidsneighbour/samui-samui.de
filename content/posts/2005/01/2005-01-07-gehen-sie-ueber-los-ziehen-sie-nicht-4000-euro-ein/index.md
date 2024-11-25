@@ -1,6 +1,5 @@
 ---
 title: Gehen Sie über Los, ziehen Sie nicht 4000 Euro ein …
-type: post
 date: 2005-01-07T03:00:00+00:00
 url: /2005/01/gehen-sie-ueber-los-ziehen-sie-nicht-4000-euro-ein/
 tags:

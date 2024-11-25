@@ -1,6 +1,5 @@
 ---
 title: Klopfen
-type: post
 date: 2006-09-19T13:20:00+00:00
 url: /2006/09/klopfen/
 

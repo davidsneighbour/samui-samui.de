@@ -1,6 +1,5 @@
 ---
 title: Wetterbericht
-type: post
 date: 2005-12-03T04:09:00+00:00
 url: /2005/12/wetterbericht-2/
 lastmod: 2023-09-10T19:14:12+07:00

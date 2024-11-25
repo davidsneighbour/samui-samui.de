@@ -1,6 +1,5 @@
 ---
 title: Der Nationale Tag der Polizei
-type: post
 date: 2010-10-14T14:04:59+00:00
 url: /2010/10/der-nationale-tag-der-polizei/
 lastmod: 2023-09-10T19:14:13+07:00

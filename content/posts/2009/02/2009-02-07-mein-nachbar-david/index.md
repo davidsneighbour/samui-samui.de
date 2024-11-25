@@ -1,6 +1,5 @@
 ---
 title: Mein Nachbar David
-type: post
 date: 2009-02-06T19:07:51+00:00
 url: /2009/02/mein-nachbar-david/
 

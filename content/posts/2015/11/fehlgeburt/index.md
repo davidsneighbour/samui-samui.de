@@ -1,6 +1,5 @@
 ---
 title: Fehlgeburt
-type: post
 date: 2015-11-18T14:08:11+00:00
 url: /2015/11/fehlgeburt/
 tags:

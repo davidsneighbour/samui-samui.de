@@ -1,6 +1,5 @@
 ---
 title: Ausgeschlossen!
-type: post
 date: 2008-02-14T02:50:31+00:00
 url: /2008/02/ausgeschlossen/
 

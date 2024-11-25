@@ -1,6 +1,5 @@
 ---
 title: Flugzeugabsturz
-type: post
 date: 2007-09-15T21:41:36+00:00
 url: /2007/09/flugzeugabsturz/
 

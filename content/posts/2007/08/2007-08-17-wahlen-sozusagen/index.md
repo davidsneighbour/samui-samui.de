@@ -1,6 +1,5 @@
 ---
 title: Wahlen (sozusagen)
-type: post
 date: 2007-08-16T22:25:25+00:00
 url: /2007/08/wahlen-sozusagen/
 
@@ -18,11 +17,11 @@ Wie immer halten sich die Stimmen in der Waage, was ziemlich einfach ist in Thai
 
 Die Nein-Wähler sind grö?tenteils [online][3] [aktiv][4] und haben schöne Graphiken mit Gewehrmündungen und Schuhen die je nach Bedarf auf Köpfen, der Verfassung oder gesperrten Websiten Thaksins stehen. ?berhaupt haben die Verfassungs-Gegner für demokratisch vorgebildete Farangs wie mich eher fadenscheinige Argumente, warum man mit "Nein" wählen sollte:
 
-  * weil die Verfassung von einer Militärregierung gesponsert wird
-  * weil die Verfassung den Putsch im vergangenen September legitim macht (ehem, legitim ist der Putsch bereits durch das Endorsement des Königs vergangenes Jahr)
-  * weil die Verfassung von einer Militärregierung kommt
-  * weil die Verfassung bestimmte Kreise (Thaksin) ausschliesst
-  * weil die Verfassung von einem von der Militärregierung eingesetzten Gremium entworfen wurde
+* weil die Verfassung von einer Militärregierung gesponsert wird
+* weil die Verfassung den Putsch im vergangenen September legitim macht (ehem, legitim ist der Putsch bereits durch das Endorsement des Königs vergangenes Jahr)
+* weil die Verfassung von einer Militärregierung kommt
+* weil die Verfassung bestimmte Kreise (Thaksin) ausschliesst
+* weil die Verfassung von einem von der Militärregierung eingesetzten Gremium entworfen wurde
 
 Interessanterweise habe ich noch keine inhaltlichen Kommentare der Verfassungsgegner zum Text gesehen. Diese absolute Ablehnung hinsichtlich einer Sache ohne konstruktive Gegenvorschläge ist allerdings nicht neu, das wurde zu den Neuwahlen im vergangenen Jahr genauso gehandhabt, da boykottierten einfach mal alle Thaksin-Gegner die Wahlen.
 
@@ -32,11 +31,11 @@ Um zu wählen, muss man sich übrigens in den Wahlbezirk begeben, in dem man gem
 
 Die Vorhersagen sind gemischt, aber man kann in etwa abschätzen, _wer_ am Sonntag _wie_ stimmen wird:
 
-  * Die Muslims in Thailand [stimmen][5] mit Ja
-  * Die Taxifahrer (hehehe) stimmen mit Ja
-  * Die Unterstützer Thaksins, ehemalige Abgeordnete und die ärmere Bevölkerung aus dem Issan, stimmt mit Nein
-  * Die Akademiker stimmen mit Nein
-  * Viele Leute, die nicht an ihren derzeitigen Aufenthaltsorten gemeldet sind, werden nicht abstimmen gehen.
+* Die Muslims in Thailand [stimmen][5] mit Ja
+* Die Taxifahrer (hehehe) stimmen mit Ja
+* Die Unterstützer Thaksins, ehemalige Abgeordnete und die ärmere Bevölkerung aus dem Issan, stimmt mit Nein
+* Die Akademiker stimmen mit Nein
+* Viele Leute, die nicht an ihren derzeitigen Aufenthaltsorten gemeldet sind, werden nicht abstimmen gehen.
 
 Und so wird es auch am Sonntag wieder zu einem politischen/gesellschaftlichen Patt kommen, wie zur letzten Wahl. Allerdings: In Thailand ist es relativ egal, wie Patt man spielt, solange das Patt in eine Richtung tendiert. Ein Spiel. Und jeder, der in einem südostasiatischen Land in den nächsten 100 Jahren von Demokratie spricht und dabei das griechische Modell einer Gesellschaft meint, der ist entweder idealistisch verblendet oder hat in den <span class="caps">USA</span> studiert.
 

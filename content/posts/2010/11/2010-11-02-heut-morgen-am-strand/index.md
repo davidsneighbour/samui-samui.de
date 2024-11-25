@@ -1,6 +1,5 @@
 ---
 title: Heut morgen am Strand
-type: post
 date: 2010-11-02T01:50:45+00:00
 url: /2010/11/heut-morgen-am-strand/
 lastmod: 2023-09-10T19:14:13+07:00

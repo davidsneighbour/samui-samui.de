@@ -1,6 +1,5 @@
 ---
 title: Blindes Hühnchen findet Korn
-type: post
 date: 2005-07-24T06:41:00+00:00
 url: /2005/07/blindes-huehnchen-findet-korn/
 dsq_thread_id:

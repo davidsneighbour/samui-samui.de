@@ -1,6 +1,5 @@
 ---
 title: Erdbeben in Myanmar
-type: post
 date: 2011-03-24T00:36:05+00:00
 url: /2011/03/erdbeben-in-myanmar/
 lastmod: 2023-09-10T19:14:12+07:00

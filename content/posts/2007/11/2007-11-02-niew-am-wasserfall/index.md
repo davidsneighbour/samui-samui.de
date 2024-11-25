@@ -1,6 +1,5 @@
 ---
 title: Niew am Wasserfall
-type: post
 date: 2007-11-02T06:15:03+00:00
 url: /2007/11/niew-am-wasserfall/
 

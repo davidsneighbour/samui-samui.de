@@ -1,6 +1,5 @@
 ---
 title: Unbezahlbar
-type: post
 date: 2011-09-27T22:45:38+00:00
 url: /2011/09/unbezahlbar/
 lastmod: 2023-09-10T19:14:12+07:00

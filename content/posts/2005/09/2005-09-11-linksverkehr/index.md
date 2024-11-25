@@ -1,6 +1,5 @@
 ---
 title: Linksverkehr
-type: post
 date: 2005-09-11T05:09:00+00:00
 url: /2005/09/linksverkehr/
 dsq_thread_id:

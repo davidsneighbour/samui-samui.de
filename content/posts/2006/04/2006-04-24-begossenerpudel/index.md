@@ -1,6 +1,5 @@
 ---
 title: Begossener Pudel.
-type: post
 date: 2006-04-24T03:30:00+00:00
 url: /2006/04/begossenerpudel/
 lastmod: 2023-09-10T19:14:12+07:00

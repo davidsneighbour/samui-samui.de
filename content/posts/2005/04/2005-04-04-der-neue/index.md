@@ -1,11 +1,10 @@
 ---
 title: Der Neue
-type: post
 date: 2005-04-04T05:57:00+00:00
 url: /2005/04/der-neue/
 lastmod: 2023-09-10T19:14:12+07:00
 ---
-Eben im Spiegel unter dem Titel ""Bischof Tutu hofft auf afrikanischen Papst":http://www.spiegel.de/panorama/0,1518,349554,00.html":
+Eben im Spiegel unter dem Titel ""Bischof Tutu hofft auf afrikanischen Papst":<http://www.spiegel.de/panorama/0,1518,349554,00.html>":
 
 > Offiziell spielt die Herkunft der Kandidaten bei der Papst-Wahl keine Rolle. Es gehe allein um Glaubensstärke und Führungskraft, versichert der Vatikan. Doch nicht nur der afrikanische Bischof Desmond Tutu fragt sich: Wenn die Mehrheit der Katholiken in Entwicklungsländern lebt, warum waren bislang alle Päpste Europäer?
 

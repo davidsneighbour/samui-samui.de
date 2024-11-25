@@ -1,6 +1,5 @@
 ---
 title: Regensaison
-type: post
 date: 2007-10-19T23:15:33+00:00
 url: /2007/10/regensaison-2/
 

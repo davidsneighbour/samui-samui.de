@@ -1,7 +1,6 @@
 ---
 title: "Chinesisches Neujahr"
 date: 2019-02-04T22:44:00+07:00
-type: post
 draft: true
 url: /2019/02/chinesisches-neujahr
 tags:

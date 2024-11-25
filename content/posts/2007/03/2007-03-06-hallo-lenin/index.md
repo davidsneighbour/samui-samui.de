@@ -1,6 +1,5 @@
 ---
 title: Hallo Lenin!
-type: post
 date: 2007-03-06T09:50:18+00:00
 url: /2007/03/hallo-lenin/
 dsq_thread_id:

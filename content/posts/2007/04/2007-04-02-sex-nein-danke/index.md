@@ -1,6 +1,5 @@
 ---
 title: Sex? Nein danke!
-type: post
 date: 2007-04-02T06:06:58+00:00
 url: /2007/04/sex-nein-danke/
 

@@ -1,6 +1,5 @@
 ---
 title: Nice beard! How long? One year?
-type: post
 date: 2005-01-12T05:32:00+00:00
 url: /2005/01/nice-beard-how-long-one-year/
 tags:

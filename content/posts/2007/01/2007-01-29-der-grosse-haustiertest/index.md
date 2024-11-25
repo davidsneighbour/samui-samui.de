@@ -1,6 +1,5 @@
 ---
 title: Der gro?e Haustiertest
-type: post
 date: 2007-01-29T11:20:47+00:00
 url: /2007/01/der-grosse-haustiertest/
 

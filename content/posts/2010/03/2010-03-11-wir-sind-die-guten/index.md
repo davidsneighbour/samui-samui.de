@@ -1,6 +1,5 @@
 ---
 title: Wir sind die Guten!
-type: post
 date: 2010-03-11T15:35:01+00:00
 url: /2010/03/wir-sind-die-guten/
 lastmod: 2023-09-10T19:14:13+07:00

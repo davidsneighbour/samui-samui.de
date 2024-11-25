@@ -1,6 +1,5 @@
 ---
 title: Mord und Totschlag
-type: post
 date: 2006-01-04T22:33:00+00:00
 url: /2006/01/mord-und-totschlag/
 

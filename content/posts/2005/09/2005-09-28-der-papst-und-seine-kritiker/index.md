@@ -1,6 +1,5 @@
 ---
 title: Der Papst und seine Kritiker
-type: post
 date: 2005-09-27T20:28:59+00:00
 url: /2005/09/der-papst-und-seine-kritiker/
 dsq_thread_id:

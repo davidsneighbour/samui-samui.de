@@ -1,6 +1,5 @@
 ---
 title: Schauer
-type: post
 date: 2007-05-03T01:49:29+00:00
 url: /2007/05/schauer/
 

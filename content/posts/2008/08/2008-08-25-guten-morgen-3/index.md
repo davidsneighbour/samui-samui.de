@@ -1,6 +1,5 @@
 ---
 title: Guten Morgen
-type: post
 date: 2008-08-25T10:15:54+00:00
 url: /2008/08/guten-morgen-3/
 

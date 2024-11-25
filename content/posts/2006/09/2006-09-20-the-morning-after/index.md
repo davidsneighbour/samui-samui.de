@@ -1,6 +1,5 @@
 ---
 title: Der Morgen danach – Zum Putsch in Thailand
-type: post
 date: 2006-09-19T20:44:00+00:00
 url: /2006/09/the-morning-after/
 

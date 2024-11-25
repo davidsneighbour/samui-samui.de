@@ -1,6 +1,5 @@
 ---
 title: Samui auf Flickr
-type: post
 date: 2005-10-11T20:04:00+00:00
 url: /2005/10/samuiaufflickr/
 lastmod: 2023-09-10T19:14:12+07:00

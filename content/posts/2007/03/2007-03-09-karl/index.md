@@ -1,6 +1,5 @@
 ---
 title: Karl
-type: post
 date: 2007-03-09T09:49:06+00:00
 url: /2007/03/karl/
 

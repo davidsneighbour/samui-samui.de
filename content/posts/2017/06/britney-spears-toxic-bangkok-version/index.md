@@ -1,6 +1,5 @@
 ---
 title: Britney Spears – Toxic (Bangkok Version)
-type: post
 date: 2017-06-26T05:22:46+00:00
 url: /2017/06/britney-spears-toxic-bangkok-version/
 tags:

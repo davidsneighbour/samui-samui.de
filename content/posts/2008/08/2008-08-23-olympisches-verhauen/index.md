@@ -1,6 +1,5 @@
 ---
 title: Olympisches Verhauen
-type: post
 date: 2008-08-22T21:05:02+00:00
 url: /2008/08/olympisches-verhauen/
 

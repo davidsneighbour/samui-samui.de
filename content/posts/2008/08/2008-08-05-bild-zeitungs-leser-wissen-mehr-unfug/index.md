@@ -1,6 +1,5 @@
 ---
 title: Bild-Zeitungs-Leser wissen mehr Unfug
-type: post
 date: 2008-08-05T14:17:48+00:00
 url: /2008/08/bild-zeitungs-leser-wissen-mehr-unfug/
 

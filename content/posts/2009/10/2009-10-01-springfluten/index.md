@@ -1,6 +1,5 @@
 ---
 title: Springfluten
-type: post
 date: 2009-09-30T23:19:01+00:00
 url: /2009/10/springfluten/
 

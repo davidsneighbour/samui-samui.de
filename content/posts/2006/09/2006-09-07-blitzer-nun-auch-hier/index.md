@@ -1,6 +1,5 @@
 ---
 title: Blitzer. Nun auch hier.
-type: post
 date: 2006-09-06T22:45:00+00:00
 url: /2006/09/blitzer-nun-auch-hier/
 

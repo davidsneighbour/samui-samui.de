@@ -1,6 +1,5 @@
 ---
 title: Die Lehre unethischer Regierungen
-type: post
 date: 2007-01-26T21:11:03+00:00
 url: /2007/01/die-lehre-unethischer-regierungen/
 

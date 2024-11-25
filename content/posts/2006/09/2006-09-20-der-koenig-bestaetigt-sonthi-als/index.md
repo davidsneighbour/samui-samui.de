@@ -1,6 +1,5 @@
 ---
 title: Der König bestätigt Sonthi als ARC-Präsident
-type: post
 date: 2006-09-20T10:28:00+00:00
 url: /2006/09/der-koenig-bestaetigt-sonthi-als/
 

@@ -1,6 +1,5 @@
 ---
 title: Nichts als Regen!
-type: post
 date: 2008-03-07T02:03:01+00:00
 url: /2008/03/nichts-als-regen/
 

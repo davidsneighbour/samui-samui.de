@@ -1,6 +1,5 @@
 ---
 title: Strom!
-type: post
 date: 2008-04-23T03:26:07+00:00
 url: /2008/04/strom/
 

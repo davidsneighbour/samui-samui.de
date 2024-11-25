@@ -1,6 +1,5 @@
 ---
 title: Der älteste Tempel in Samui
-type: post
 date: 2006-07-24T10:25:00+00:00
 url: /2006/07/der-aelteste-tempel-in-samui/
 lastmod: 2023-09-10T19:14:12+07:00

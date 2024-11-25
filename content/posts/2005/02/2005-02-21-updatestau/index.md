@@ -1,6 +1,5 @@
 ---
 title: Updatestau
-type: post
 date: 2005-02-20T23:05:04+00:00
 url: /2005/02/updatestau/
 lastmod: 2023-09-10T19:14:12+07:00

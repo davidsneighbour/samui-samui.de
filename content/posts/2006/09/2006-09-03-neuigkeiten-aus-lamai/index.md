@@ -1,6 +1,5 @@
 ---
 title: Neuigkeiten aus Lamai
-type: post
 date: 2006-09-03T09:30:20+00:00
 url: /2006/09/neuigkeiten-aus-lamai/
 

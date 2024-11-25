@@ -1,6 +1,5 @@
 ---
 title: Pokki beim Tierarzt
-type: post
 date: 2006-01-15T21:48:00+00:00
 url: /2006/01/pokkibeimtierarzt/
 

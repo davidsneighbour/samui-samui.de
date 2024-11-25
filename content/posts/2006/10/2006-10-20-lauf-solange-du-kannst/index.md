@@ -1,6 +1,5 @@
 ---
 title: Lauf! Solange du kannst!
-type: post
 date: 2006-10-20T05:05:53+00:00
 url: /2006/10/lauf-solange-du-kannst/
 lastmod: 2023-09-10T19:14:12+07:00

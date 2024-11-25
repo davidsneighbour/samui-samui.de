@@ -1,6 +1,5 @@
 ---
 title: Bewegt
-type: post
 date: 2006-08-24T09:16:00+00:00
 url: /2006/08/bewegt/
 

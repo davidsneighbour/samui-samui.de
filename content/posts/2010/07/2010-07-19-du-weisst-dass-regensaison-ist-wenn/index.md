@@ -1,6 +1,5 @@
 ---
 title: Du weisst, dass Regensaison ist, wenn…
-type: post
 date: 2010-07-19T02:13:46+00:00
 url: /2010/07/du-weisst-dass-regensaison-ist-wenn/
 lastmod: 2023-09-10T19:14:13+07:00

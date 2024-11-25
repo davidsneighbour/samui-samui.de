@@ -1,6 +1,5 @@
 ---
 title: Thailands eigener Videogamekiller
-type: post
 date: 2008-08-04T03:36:40+00:00
 url: /2008/08/thailands-eigener-videogamekiller/
 

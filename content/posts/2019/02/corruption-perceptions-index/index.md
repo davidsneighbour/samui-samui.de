@@ -1,7 +1,6 @@
 ---
 title: "Corruption Perceptions Index 2018"
 date: 2019-02-03T18:44:00+07:00
-type: post
 url: /2019/02/corruption-perceptions-index
 tags:
 - korruption
@@ -25,24 +24,24 @@ Manch einer meint, dass die kuriose Affäre um die teuren Luxusarmbanduhren des 
 <table class="table table-sm table-bordered">
 <caption>Thailand's Position im Corruption Perceptions Index in den vergangenen Jahren</caption>
 <thead class="thead-dark">
-	<tr>
-		<th class="text-center">Position</th>
-		<th class="text-center">2018</th>
-		<th class="text-center">2017</th>
-		<th class="text-center">2016</th>
-		<th class="text-center">2015</th>
-	</tr>
+ <tr>
+  <th class="text-center">Position</th>
+  <th class="text-center">2018</th>
+  <th class="text-center">2017</th>
+  <th class="text-center">2016</th>
+  <th class="text-center">2015</th>
+ </tr>
 </thead>
 <tbody>
-	<tr>
-		<td class="text-center">99</td>
-		<td class="text-center">36</td>
-		<td class="text-center">37</td>
-		<td class="text-center">35</td>
-		<td class="text-center">38</td>
-	</tr>
+ <tr>
+  <td class="text-center">99</td>
+  <td class="text-center">36</td>
+  <td class="text-center">37</td>
+  <td class="text-center">35</td>
+  <td class="text-center">38</td>
+ </tr>
 </tbody>
 </table>
 
--   {{< languagelink "https://www.transparency.org/cpi2018" "Corruption Perceptions Index 2018" "en" >}}
--   {{< languagelink "https://en.wikipedia.org/wiki/Prawit_Wongsuwan#Corruption_scandal" "Prawit Wongsuwan's Wikipedia Eintrag (mit Liste der geborgten (hehe) Uhren)" "en">}}
+- {{< languagelink "<https://www.transparency.org/cpi2018>" "Corruption Perceptions Index 2018" "en" >}}
+- {{< languagelink "<https://en.wikipedia.org/wiki/Prawit_Wongsuwan#Corruption_scandal>" "Prawit Wongsuwan's Wikipedia Eintrag (mit Liste der geborgten (hehe) Uhren)" "en">}}

@@ -1,6 +1,5 @@
 ---
 title: Wahl. Nachschlag.
-type: post
 date: 2006-04-03T19:40:00+00:00
 url: /2006/04/wahl-nachschlag/
 lastmod: 2023-09-10T19:14:12+07:00

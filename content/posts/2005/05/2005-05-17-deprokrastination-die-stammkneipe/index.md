@@ -1,6 +1,5 @@
 ---
 title: Deprokrastination – Die Stammkneipe
-type: post
 date: 2005-05-16T20:39:00+00:00
 url: /2005/05/deprokrastination-die-stammkneipe/
 lastmod: 2023-09-10T19:14:12+07:00

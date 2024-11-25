@@ -1,6 +1,5 @@
 ---
 title: Die Zukunft (nach Ochsenmeinung)
-type: post
 date: 2011-05-13T16:59:34+00:00
 url: /2011/05/die-zukunft/
 lastmod: 2023-09-10T19:14:12+07:00

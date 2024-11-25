@@ -1,6 +1,5 @@
 ---
 title: Auflösungserscheinungen
-type: post
 date: 2006-06-27T05:04:00+00:00
 url: /2006/06/aufloesungserscheinungen/
 

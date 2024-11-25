@@ -1,6 +1,5 @@
 ---
 title: Die 8 bleibt aktuell
-type: post
 date: 2006-12-31T20:51:00+00:00
 url: /2007/01/die-8-bleibt-aktuell/
 

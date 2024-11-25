@@ -1,6 +1,5 @@
 ---
 title: Schwarzer Dienstag
-type: post
 date: 2006-12-19T07:29:03+00:00
 url: /2006/12/schwarzer-dienstag/
 

@@ -1,6 +1,5 @@
 ---
 title: Samui-Map in der die schreiBBloga.de
-type: post
 date: 2005-07-24T07:58:00+00:00
 url: /2005/07/samui-map-in-der-die-schreibblogade/
 dsq_thread_id:

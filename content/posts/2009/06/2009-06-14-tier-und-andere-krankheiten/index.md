@@ -1,6 +1,5 @@
 ---
 title: 'Tier- und andere Krankheiten'
-type: post
 date: 2009-06-14T11:34:20+00:00
 url: /2009/06/tier-und-andere-krankheiten/
 

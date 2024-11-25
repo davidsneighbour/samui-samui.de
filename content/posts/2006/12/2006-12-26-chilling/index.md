@@ -1,6 +1,5 @@
 ---
 title: Chilling
-type: post
 date: 2006-12-26T05:03:22+00:00
 url: /2006/12/chilling/
 

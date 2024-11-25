@@ -1,6 +1,5 @@
 ---
 title: Harry Potter. Mal wieder.
-type: post
 date: 2005-08-19T06:59:24+00:00
 url: /2005/08/harry-potter-mal-wieder/
 dsq_thread_id:

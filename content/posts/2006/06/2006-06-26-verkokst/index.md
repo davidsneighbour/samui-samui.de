@@ -1,6 +1,5 @@
 ---
 title: Verkokst
-type: post
 date: 2006-06-26T05:05:00+00:00
 url: /2006/06/verkokst/
 

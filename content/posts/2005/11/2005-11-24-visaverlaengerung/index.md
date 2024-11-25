@@ -1,6 +1,5 @@
 ---
 title: Visaverl??ngerung
-type: post
 date: 2005-11-24T05:57:00+00:00
 url: /2005/11/visaverlaengerung/
 lastmod: 2023-09-10T19:14:12+07:00

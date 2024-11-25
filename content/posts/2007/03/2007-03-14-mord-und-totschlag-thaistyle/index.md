@@ -1,6 +1,5 @@
 ---
 title: Mord und Totschlag, Thaistyle
-type: post
 date: 2007-03-13T22:35:12+00:00
 url: /2007/03/mord-und-totschlag-thaistyle/
 

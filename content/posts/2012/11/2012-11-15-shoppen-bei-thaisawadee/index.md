@@ -1,6 +1,5 @@
 ---
 title: Shoppen bei Thaisawadee
-type: post
 date: 2012-11-15T14:07:09+00:00
 url: /2012/11/shoppen-bei-thaisawadee/
 fb_author_post_id:

@@ -1,6 +1,5 @@
 ---
 title: Abendbeleuchtung
-type: post
 date: 2007-08-20T21:41:20+00:00
 url: /2007/08/abendbeleuchtung/
 

@@ -1,6 +1,5 @@
 ---
 title: Die Insel der sterbenden Hunde
-type: post
 date: 2005-02-22T04:05:40+00:00
 url: /2005/02/die-insel-der-sterbenden-hunde/
 lastmod: 2023-09-10T19:14:12+07:00

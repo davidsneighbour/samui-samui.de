@@ -1,6 +1,5 @@
 ---
 title: Der Tag des Teufels
-type: post
 date: 2006-06-07T01:06:00+00:00
 url: /2006/06/dertagdesteufels/
 

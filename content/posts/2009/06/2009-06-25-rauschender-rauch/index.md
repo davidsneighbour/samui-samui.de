@@ -1,6 +1,5 @@
 ---
 title: Rauschender Rauch
-type: post
 date: 2009-06-24T22:56:47+00:00
 url: /2009/06/rauschender-rauch/
 dsq_thread_id:

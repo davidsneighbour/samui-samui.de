@@ -1,6 +1,5 @@
 ---
 title: Demokratie Thaistyle
-type: post
 date: 2009-04-11T21:16:30+00:00
 url: /2009/04/demokratie-thaistyle-2/
 

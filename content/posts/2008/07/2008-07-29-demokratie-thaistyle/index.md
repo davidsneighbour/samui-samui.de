@@ -1,6 +1,5 @@
 ---
 title: Demokratie Thaistyle
-type: post
 date: 2008-07-29T04:15:33+00:00
 url: /2008/07/demokratie-thaistyle/
 
@@ -11,8 +10,6 @@ url: /2008/07/demokratie-thaistyle/
 Das folgende Video zeigt, wie ungefähr 50% der Thais ihr Recht auf Meinungsfreiheit interpretieren.
 
 Vergangene Woche gab es eine Demonstration der <span class="caps">PPP</span> (Peoples Power Party, Regierungspartei) in Udon Thani. Es gab eine Gegendemonstration der <span class="caps">PAD</span> (Peoples Alliance for Democracy, Gegner der Regierung und Dauerdemonstrierer in Bangkok). Dann brach das Chaos los. Am Ende gab es einen Toten und rund 20 Verletzte auf <span class="caps">PAD</span>-Seite. Einer der Parteifunktionäre der <span class="caps">PPP</span> soll "aus Spass" 20.000 Baht (rund 400 Euro) für "<span class="caps">PAD</span>-Blut" geboten haben.
-
-
 
 Teil 2: [Ein paar brennende Textilien][1]
 

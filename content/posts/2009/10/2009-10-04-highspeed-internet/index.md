@@ -1,6 +1,5 @@
 ---
 title: Highspeed Internet
-type: post
 date: 2009-10-03T19:44:31+00:00
 url: /2009/10/highspeed-internet/
 

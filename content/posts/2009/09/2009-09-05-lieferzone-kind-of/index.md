@@ -1,6 +1,5 @@
 ---
 title: Lieferzone, kind of…
-type: post
 date: 2009-09-04T20:22:10+00:00
 url: /2009/09/lieferzone-kind-of/
 

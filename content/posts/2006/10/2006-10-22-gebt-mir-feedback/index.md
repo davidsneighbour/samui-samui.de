@@ -1,6 +1,5 @@
 ---
 title: Gebt mir Feedback
-type: post
 date: 2006-10-22T09:12:00+00:00
 url: /2006/10/gebt-mir-feedback/
 dsq_thread_id:

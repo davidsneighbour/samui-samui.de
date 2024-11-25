@@ -1,6 +1,5 @@
 ---
 title: Wir warten auf Durain
-type: post
 date: 2006-12-04T10:37:24+00:00
 url: /2006/12/wir-warten-auf-durain/
 

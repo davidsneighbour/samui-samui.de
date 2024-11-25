@@ -1,6 +1,5 @@
 ---
 title: Flughafen als eigene Provinz
-type: post
 date: 2005-10-18T02:35:37+00:00
 url: /2005/10/flughafen-als-eigene-provinz/
 lastmod: 2023-09-10T19:14:12+07:00

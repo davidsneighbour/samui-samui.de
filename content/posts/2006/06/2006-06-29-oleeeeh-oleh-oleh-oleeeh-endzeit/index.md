@@ -1,6 +1,5 @@
 ---
 title: Oleeeeh oleh oleh oleeeh! Endzeit.
-type: post
 date: 2006-06-28T22:04:00+00:00
 url: /2006/06/oleeeeh-oleh-oleh-oleeeh-endzeit/
 

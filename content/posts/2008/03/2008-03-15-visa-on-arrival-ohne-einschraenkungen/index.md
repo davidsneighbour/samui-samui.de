@@ -1,6 +1,5 @@
 ---
 title: Visa on Arrival ohne Einschränkungen
-type: post
 date: 2008-03-15T02:45:24+00:00
 url: /2008/03/visa-on-arrival-ohne-einschraenkungen/
 dsq_thread_id:

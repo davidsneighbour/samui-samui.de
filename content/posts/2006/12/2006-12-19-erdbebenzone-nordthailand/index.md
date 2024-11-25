@@ -1,6 +1,5 @@
 ---
 title: Erdbebenzone Nordthailand
-type: post
 date: 2006-12-19T02:48:22+00:00
 url: /2006/12/erdbebenzone-nordthailand/
 

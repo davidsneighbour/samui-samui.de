@@ -1,6 +1,5 @@
 ---
 title: Sie lesen mit
-type: post
 date: 2008-06-06T01:54:30+00:00
 url: /2008/06/sie-lesen-mit/
 

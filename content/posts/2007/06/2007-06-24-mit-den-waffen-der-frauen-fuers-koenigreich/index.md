@@ -1,6 +1,5 @@
 ---
 title: Mit den Waffen der Frauen
-type: post
 date: 2007-06-23T23:10:25+00:00
 url: /2007/06/mit-den-waffen-der-frauen-fuers-koenigreich/
 

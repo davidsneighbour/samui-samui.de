@@ -1,6 +1,5 @@
 ---
 title: Sawadee Pii Mai
-type: post
 date: 2011-01-01T12:25:58+00:00
 url: /2011/01/sawadee-pii-mai/
 lastmod: 2023-09-10T19:14:12+07:00

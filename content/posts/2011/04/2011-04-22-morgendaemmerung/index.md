@@ -1,6 +1,5 @@
 ---
 title: Morgendämmerung
-type: post
 date: 2011-04-22T00:39:47+00:00
 url: /2011/04/morgendaemmerung/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Essen gehen II
-type: post
 date: 2005-06-26T06:10:00+00:00
 url: /2005/06/essen-gehen-ii/
 lastmod: 2023-09-10T19:14:12+07:00

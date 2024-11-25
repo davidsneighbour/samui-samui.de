@@ -1,6 +1,5 @@
 ---
 title: You guys work with apple?
-type: post
 date: 2006-01-23T00:38:57+00:00
 url: /2006/01/you-guys-work-with-apple/
 

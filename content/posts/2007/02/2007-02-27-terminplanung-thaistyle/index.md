@@ -1,6 +1,5 @@
 ---
 title: Terminplanung (Thaistyle)
-type: post
 date: 2007-02-27T09:46:07+00:00
 url: /2007/02/terminplanung-thaistyle/
 

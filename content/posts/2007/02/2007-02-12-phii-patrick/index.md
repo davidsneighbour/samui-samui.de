@@ -1,6 +1,5 @@
 ---
 title: Phii Patrick
-type: post
 date: 2007-02-11T22:26:26+00:00
 url: /2007/02/phii-patrick/
 

@@ -1,6 +1,5 @@
 ---
 title: Bangkok, das Haar sitzt
-type: post
 date: 2005-07-04T23:30:53+00:00
 url: /2005/07/bangkok-das-haar-sitzt/
 dsq_thread_id:

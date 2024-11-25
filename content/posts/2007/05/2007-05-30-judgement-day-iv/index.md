@@ -1,6 +1,5 @@
 ---
 title: Judgement Day IV
-type: post
 date: 2007-05-29T18:04:36+00:00
 url: /2007/05/judgement-day-iv/
 

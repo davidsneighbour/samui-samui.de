@@ -1,6 +1,5 @@
 ---
 title: 'Laos: Savannakhet'
-type: post
 date: 2007-01-13T22:45:52+00:00
 url: /2007/01/laos-savannakhet/
 

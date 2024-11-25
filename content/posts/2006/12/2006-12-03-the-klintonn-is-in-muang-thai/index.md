@@ -1,6 +1,5 @@
 ---
 title: The Klintonn is in Muang Thai
-type: post
 date: 2006-12-02T20:31:16+00:00
 url: /2006/12/the-klintonn-is-in-muang-thai/
 

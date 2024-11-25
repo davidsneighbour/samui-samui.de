@@ -1,6 +1,5 @@
 ---
 title: Bombige Wünschelruten
-type: post
 date: 2010-02-01T23:27:46+00:00
 url: /2010/02/bombige-wuenschelruten/
 lastmod: 2023-09-10T19:14:13+07:00

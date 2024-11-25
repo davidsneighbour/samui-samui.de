@@ -1,6 +1,5 @@
 ---
 title: Delhi
-type: post
 date: 2005-01-25T20:10:00+00:00
 url: /2005/01/delhi/
 lastmod: 2023-09-10T19:14:12+07:00

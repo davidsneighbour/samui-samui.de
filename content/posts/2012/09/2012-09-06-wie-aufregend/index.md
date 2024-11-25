@@ -1,6 +1,5 @@
 ---
 title: Wie aufregend!
-type: post
 date: 2012-09-06T08:56:26+00:00
 url: /2012/09/wie-aufregend/
 fb_mentioned_pages:

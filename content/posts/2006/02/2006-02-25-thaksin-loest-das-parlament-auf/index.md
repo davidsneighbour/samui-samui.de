@@ -1,6 +1,5 @@
 ---
 title: Thaksin l??st das Parlament auf
-type: post
 date: 2006-02-24T20:00:00+00:00
 url: /2006/02/thaksin-loest-das-parlament-auf/
 lastmod: 2023-09-10T19:14:12+07:00

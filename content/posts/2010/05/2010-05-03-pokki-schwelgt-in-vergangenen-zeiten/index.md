@@ -1,6 +1,5 @@
 ---
 title: Pokki schwelgt in vergangenen Zeiten…
-type: post
 date: 2010-05-03T02:19:38+00:00
 url: /2010/05/pokki-schwelgt-in-vergangenen-zeiten/
 lastmod: 2023-09-10T19:14:13+07:00

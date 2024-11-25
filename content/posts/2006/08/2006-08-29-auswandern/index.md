@@ -1,6 +1,5 @@
 ---
 title: Auswandern
-type: post
 date: 2006-08-29T11:56:00+00:00
 url: /2006/08/auswandern/
 

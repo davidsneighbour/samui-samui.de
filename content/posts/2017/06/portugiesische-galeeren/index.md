@@ -1,6 +1,5 @@
 ---
 title: Portugiesische Galeeren
-type: post
 date: 2017-06-28T15:44:53+00:00
 url: /2017/06/portugiesische-galeeren/
 tags:
@@ -9,7 +8,7 @@ tags:
 ---
 Jo, da haben wir mal ein Thema wo ich die deutschen Begriffe nachschlagen musste. Soweit ist es also schon gekommen mit mir ;) Jeh oh jeh!
 
-{{< quote source="de.wikipedia.org" src="https://de.wikipedia.org/wiki/Portugiesische_Galeere" >}}
+{{< quote source="de.wikipedia.org" src="<https://de.wikipedia.org/wiki/Portugiesische_Galeere>" >}}
 Die Portugiesische Galeere (Physalia physalis) ist eine Art aus der Gattung der Seeblasen (Physalia), die zu den Staatsquallen (Siphonophorae) gezählt wird. Im weiteren Sinne werden manchmal auch eng verwandte Arten aus derselben Gattung wie z. B. Physalia utriculus als Portugiesische Galeere bezeichnet. Die am weitesten verbreitete und im engeren Sinne gemeinte Art ist jedoch Physalia physalis.
 {{< /quote >}}
 

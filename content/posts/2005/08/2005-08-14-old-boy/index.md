@@ -1,6 +1,5 @@
 ---
 title: Old Boy
-type: post
 date: 2005-08-13T23:00:00+00:00
 url: /2005/08/old-boy/
 dsq_thread_id:
@@ -31,12 +30,12 @@ Wenn ich jemandem 5 Filme empfehlen müsste, die er/sie/es gesehen haben muss, u
 
 Ein paar Links:
 
-  * [IMDB.com-Profil zum Film][1]
-  * [Profil bei AsianDB.com][2]
-  * [Trailer][3] (die unteren Links funktionieren)
-  * [Moviestills][4]
-  * [der gro?e Preis der Jury beim Festival von Cannes 2004][5] (verdient)
-  * [Kritik auf Contactmusic.com][6]
+* [IMDB.com-Profil zum Film][1]
+* [Profil bei AsianDB.com][2]
+* [Trailer][3] (die unteren Links funktionieren)
+* [Moviestills][4]
+* [der gro?e Preis der Jury beim Festival von Cannes 2004][5] (verdient)
+* [Kritik auf Contactmusic.com][6]
 
 PS: Einer der Gründe warum ich diesen Film so interessant und schwer verständlich finde könnte sein, dass ich ihn nur im südkoreanischen Original sehe. Meine DVD hat noch eine Thai-Spur, aber deren Synchronisationen sind meistens zum Heulen. Au?erdem finde ich, man muss einen Film im Original sehen, um die kleinsten Nuancen in der Aussprache zu erkennen. So merkt man bspw. in diesem Film recht schnell, wer der Anrufer ist, auch wenn es nie explizit erwähnt wird. Weiter Beispiele für solche notwendigen Originaltöne sind _From Hell_ wo man im englischsprachigen Original schnell merkt, dass der Hobbit der Mörder ist (hupp, achso, Spoiler, sorry) oder Filme, deren ganzer Kontext durch idiotische Synchronisationen zerstört wird (alle MontyPython-Filme, Gollum im Herrn der Ringe, mehr Beispiele gefällig?). Wie auch immer. Im Original ists schöner.
 

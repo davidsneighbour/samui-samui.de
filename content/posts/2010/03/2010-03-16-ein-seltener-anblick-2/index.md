@@ -1,6 +1,5 @@
 ---
 title: Ein seltener Anblick
-type: post
 date: 2010-03-15T23:05:45+00:00
 url: /2010/03/ein-seltener-anblick-2/
 lastmod: 2023-09-10T19:14:13+07:00

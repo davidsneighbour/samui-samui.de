@@ -1,6 +1,5 @@
 ---
 title: Mein (gregorianisches) Silvester
-type: post
 date: 2013-01-22T05:20:26+00:00
 url: /2013/01/mein-gregorianisches-silvester/
 fb_author_post_id:

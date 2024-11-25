@@ -1,6 +1,5 @@
 ---
 title: Lawblogger vs. Thai-ATM
-type: post
 date: 2009-06-15T15:08:47+00:00
 url: /2009/06/lawblogger-vs-thai-atm/
 

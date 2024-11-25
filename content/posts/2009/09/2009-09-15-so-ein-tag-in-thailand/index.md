@@ -1,6 +1,5 @@
 ---
 title: So ein Tag in Thailand
-type: post
 date: 2009-09-15T02:04:40+00:00
 url: /2009/09/so-ein-tag-in-thailand/
 

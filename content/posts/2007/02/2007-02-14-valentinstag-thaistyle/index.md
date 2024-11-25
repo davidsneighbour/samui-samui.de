@@ -1,6 +1,5 @@
 ---
 title: Valentinstag Thaistyle
-type: post
 date: 2007-02-14T10:37:58+00:00
 url: /2007/02/valentinstag-thaistyle/
 dsq_thread_id:
@@ -22,8 +21,8 @@ Dieses Jahr nun führte ein Institut in Bangkok eine Umfrage durch, bei der hera
 
 Die Regierung brachte die "10 Gebote der Liebe" heraus, darunter so zeitlose Perlen wie:
 
-  * Liebe nur einen mit ganzem Herzen
-  * Liebe mit Geduld, auf dass du nicht vorzeitig schwanger wirst.
+* Liebe nur einen mit ganzem Herzen
+* Liebe mit Geduld, auf dass du nicht vorzeitig schwanger wirst.
 
 Wahre Liebe hat mit Sex nichts zu tun, sagt die Regierung.
 

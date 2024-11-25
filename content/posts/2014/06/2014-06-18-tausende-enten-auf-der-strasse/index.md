@@ -1,6 +1,5 @@
 ---
 title: Tausende Enten auf der Straße
-type: post
 date: 2014-06-18T04:40:19+00:00
 url: /2014/06/tausende-enten-auf-der-strasse/
 dsq_thread_id:

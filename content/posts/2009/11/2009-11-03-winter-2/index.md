@@ -1,6 +1,5 @@
 ---
 title: Winter
-type: post
 date: 2009-11-03T13:45:54+00:00
 url: /2009/11/winter-2/
 

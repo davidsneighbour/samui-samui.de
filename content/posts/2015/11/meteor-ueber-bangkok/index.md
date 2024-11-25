@@ -1,6 +1,5 @@
 ---
 title: Meteor über Bangkok
-type: post
 date: 2015-11-03T02:26:27+00:00
 url: /2015/11/meteor-ueber-bangkok/
 tags:

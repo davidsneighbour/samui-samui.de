@@ -1,6 +1,5 @@
 ---
 title: Learning to fly
-type: post
 date: 2005-01-17T22:04:18+00:00
 url: /2005/01/learning-to-fly/
 dsq_thread_id:

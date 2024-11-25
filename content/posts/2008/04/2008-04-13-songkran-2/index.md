@@ -1,6 +1,5 @@
 ---
 title: Songkran
-type: post
 date: 2008-04-13T00:05:35+00:00
 url: /2008/04/songkran-2/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Neuwahlen
-type: post
 date: 2011-06-30T18:31:09+00:00
 url: /2011/07/neuwahlen-4/
 lastmod: 2023-09-10T19:14:12+07:00

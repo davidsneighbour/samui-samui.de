@@ -1,6 +1,5 @@
 ---
 title: Wahlbetrug und Benzin
-type: post
 date: 2006-06-23T00:05:03+00:00
 url: /2006/06/wahlbetrug-und-benzin/
 

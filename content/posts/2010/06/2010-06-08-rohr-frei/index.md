@@ -1,6 +1,5 @@
 ---
 title: Rohr frei!(!!)
-type: post
 date: 2010-06-08T01:13:18+00:00
 url: /2010/06/rohr-frei/
 lastmod: 2023-09-10T19:14:12+07:00

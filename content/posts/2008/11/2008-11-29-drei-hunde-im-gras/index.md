@@ -1,6 +1,5 @@
 ---
 title: Drei Hunde im Gras
-type: post
 date: 2008-11-28T18:21:36+00:00
 url: /2008/11/drei-hunde-im-gras/
 

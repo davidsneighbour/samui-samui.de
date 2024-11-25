@@ -1,6 +1,5 @@
 ---
 title: Toonami
-type: post
 date: 2012-11-21T11:16:48+00:00
 url: /2012/11/toonami/
 fb_author_post_id:

@@ -1,6 +1,5 @@
 ---
 title: Batman auf dem Polizeirevier
-type: post
 date: 2015-12-28T01:16:46+00:00
 url: /2015/12/batman-auf-dem-polizeirevier/
 tags:

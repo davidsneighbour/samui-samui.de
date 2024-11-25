@@ -1,6 +1,5 @@
 ---
 title: Sorry an alle Suchenden
-type: post
 date: 2005-11-23T06:06:00+00:00
 url: /2005/11/sorry-an-alle-suchenden/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: 'Holiday Outtakes XI: Buchenwald'
-type: post
 date: 2008-06-26T02:37:24+00:00
 url: /2008/06/holiday-outtakes-xi-buchenwald/
 

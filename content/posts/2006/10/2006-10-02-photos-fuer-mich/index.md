@@ -1,6 +1,5 @@
 ---
 title: Photos für _mich_
-type: post
 date: 2006-10-01T22:49:34+00:00
 url: /2006/10/photos-fuer-mich/
 lastmod: 2023-09-10T19:14:12+07:00

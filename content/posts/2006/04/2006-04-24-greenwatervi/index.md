@@ -1,6 +1,5 @@
 ---
 title: Green Water VI
-type: post
 date: 2006-04-24T02:20:00+00:00
 url: /2006/04/greenwatervi/
 dsq_thread_id:

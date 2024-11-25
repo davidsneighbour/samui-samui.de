@@ -1,6 +1,5 @@
 ---
 title: Zurück ins Königreich
-type: post
 date: 2007-06-12T01:09:34+00:00
 url: /2007/06/zurueck-ins-koenigreich/
 

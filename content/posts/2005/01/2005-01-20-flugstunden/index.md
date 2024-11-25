@@ -1,6 +1,5 @@
 ---
 title: Flugstunden
-type: post
 date: 2005-01-19T23:26:00+00:00
 url: /2005/01/flugstunden/
 dsq_thread_id:

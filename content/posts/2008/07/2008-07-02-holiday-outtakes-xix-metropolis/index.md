@@ -1,6 +1,5 @@
 ---
 title: 'Holiday Outtakes XIX: Metropolis'
-type: post
 date: 2008-07-02T03:44:50+00:00
 url: /2008/07/holiday-outtakes-xix-metropolis/
 

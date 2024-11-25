@@ -1,6 +1,5 @@
 ---
 title: Shift + F5
-type: post
 date: 2010-11-02T12:44:39+00:00
 url: /2010/11/shift-f5/
 lastmod: 2023-09-10T19:14:13+07:00

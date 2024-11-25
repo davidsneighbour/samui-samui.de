@@ -1,6 +1,5 @@
 ---
 title: Happy New Year!
-type: post
 date: 2006-01-29T20:12:00+00:00
 url: /2006/01/happynewyear/
 

@@ -1,6 +1,5 @@
 ---
 title: Cornered
-type: post
 date: 2009-01-28T21:23:48+00:00
 url: /2009/01/cornered/
 

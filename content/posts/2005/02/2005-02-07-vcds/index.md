@@ -1,6 +1,5 @@
 ---
 title: VCDs
-type: post
 date: 2005-02-06T23:01:00+00:00
 url: /2005/02/vcds/
 dsq_thread_id:

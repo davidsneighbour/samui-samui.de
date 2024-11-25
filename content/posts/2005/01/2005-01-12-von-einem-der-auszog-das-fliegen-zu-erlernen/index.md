@@ -1,6 +1,5 @@
 ---
 title: Von einem, der auszog das Fliegen zu erlernen.
-type: post
 date: 2005-01-12T01:27:00+00:00
 url: /2005/01/von-einem-der-auszog-das-fliegen-zu-erlernen/
 dsq_thread_id:

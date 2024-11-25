@@ -1,6 +1,5 @@
 ---
 title: Neuanstrich
-type: post
 date: 2011-01-03T19:05:51+00:00
 url: /2011/01/neuanstrich/
 dsq_thread_id:

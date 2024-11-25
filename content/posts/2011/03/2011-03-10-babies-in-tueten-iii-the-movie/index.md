@@ -1,6 +1,5 @@
 ---
 title: Babies in Tüten III – the movie
-type: post
 date: 2011-03-10T13:49:39+00:00
 url: /2011/03/babies-in-tueten-iii-the-movie/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Urlaub! Unsynchron (a)
-type: post
 date: 2005-07-12T03:26:00+00:00
 url: /2005/07/urlaub-unsynchron-a/
 lastmod: 2023-09-10T19:14:12+07:00

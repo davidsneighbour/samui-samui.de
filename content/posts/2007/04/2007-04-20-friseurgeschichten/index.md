@@ -1,6 +1,5 @@
 ---
 title: Friseurgeschichten
-type: post
 date: 2007-04-19T23:24:28+00:00
 url: /2007/04/friseurgeschichten/
 dsq_thread_id:

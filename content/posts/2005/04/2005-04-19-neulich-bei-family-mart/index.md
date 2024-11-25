@@ -1,6 +1,5 @@
 ---
 title: Neulich bei Family Mart
-type: post
 date: 2005-04-18T23:11:13+00:00
 url: /2005/04/neulich-bei-family-mart/
 lastmod: 2023-09-10T19:14:12+07:00

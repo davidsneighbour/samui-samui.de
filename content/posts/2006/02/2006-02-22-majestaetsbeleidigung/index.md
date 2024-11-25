@@ -1,6 +1,5 @@
 ---
 title: Majestätsbeleidigung
-type: post
 date: 2006-02-21T21:00:43+00:00
 url: /2006/02/majestaetsbeleidigung/
 dsq_thread_id:

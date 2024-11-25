@@ -1,6 +1,5 @@
 ---
 title: The Star 5
-type: post
 date: 2009-03-07T00:03:10+00:00
 url: /2009/03/the-star-5/
 

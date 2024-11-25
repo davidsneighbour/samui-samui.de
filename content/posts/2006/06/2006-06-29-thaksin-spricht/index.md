@@ -1,6 +1,5 @@
 ---
 title: Thaksin spricht
-type: post
 date: 2006-06-29T03:24:00+00:00
 url: /2006/06/thaksin-spricht/
 dsq_thread_id:

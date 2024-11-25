@@ -1,6 +1,5 @@
 ---
 title: Auf in die Welt!
-type: post
 date: 2005-01-08T02:01:00+00:00
 url: /2005/01/auf-in-die-welt/
 tags:

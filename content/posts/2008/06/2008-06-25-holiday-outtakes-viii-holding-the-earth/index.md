@@ -1,6 +1,5 @@
 ---
 title: 'Holiday Outtakes VIII: Holding the earth'
-type: post
 date: 2008-06-25T03:16:42+00:00
 url: /2008/06/holiday-outtakes-viii-holding-the-earth/
 

@@ -1,6 +1,5 @@
 ---
 title: Am Ende steht der Anfang
-type: post
 date: 2007-12-31T00:01:44+00:00
 url: /2007/12/am-ende-steht-der-anfang/
 

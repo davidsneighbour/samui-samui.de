@@ -1,6 +1,5 @@
 ---
 title: Neue Visabestimmungen seit 1. Oktober
-type: post
 date: 2006-10-02T03:30:00+00:00
 url: /2006/10/neue-visabestimmungen-seit-1-oktober/
 

@@ -1,6 +1,5 @@
 ---
 title: Ein Fort-Schritt
-type: post
 date: 2006-10-08T08:32:31+00:00
 url: /2006/10/ein-fort-schritt/
 
@@ -38,11 +37,11 @@ Sie: Ok.
 
 Ich: Ok. What address do you like? You can have everything @gmail.com
 
-Sie: fu@gmail.com!
+Sie: <fu@gmail.com>!
 
 Ich: Ehm. You can have _nearly_ everything. They want at least 6 letters.
 
-Sie: funoi@gmail.com!
+Sie: <funoi@gmail.com>!
 
 Ich: Six. Not five. Six. Thats one more. Hok. Mai haa.
 

@@ -1,6 +1,5 @@
 ---
 title: Tesko. Geht auch alles den Bach runter…
-type: post
 date: 2005-11-20T20:33:00+00:00
 url: /2005/11/tesko-geht-auch-alles-den-bach-runter/
 dsq_thread_id:

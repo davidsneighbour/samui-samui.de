@@ -1,6 +1,5 @@
 ---
 title: TV-Blackout
-type: post
 date: 2011-04-20T21:03:58+00:00
 url: /2011/04/tv-blackout/
 lastmod: 2023-09-10T19:14:12+07:00

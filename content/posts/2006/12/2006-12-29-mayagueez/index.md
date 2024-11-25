@@ -1,6 +1,5 @@
 ---
 title: Mayagüez
-type: post
 date: 2006-12-29T07:17:57+00:00
 url: /2006/12/mayagueez/
 

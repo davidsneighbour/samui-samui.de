@@ -1,6 +1,5 @@
 ---
 title: Blümchen
-type: post
 date: 2007-07-25T01:40:54+00:00
 url: /2007/07/bluemchen-2/
 

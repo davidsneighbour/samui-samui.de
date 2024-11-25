@@ -1,6 +1,5 @@
 ---
 title: Die Wahrheit. Diesmal wirklich. Versprochen.
-type: post
 date: 2007-07-26T23:59:24+00:00
 url: /2007/07/die-wahrheit-diesmal-wirklich-versprochen/
 
@@ -12,7 +11,7 @@ url: /2007/07/die-wahrheit-diesmal-wirklich-versprochen/
 
 Die Bangkok Post titelt dann heute [Govt to launch truethailand.com][2] (wobei Govt eine amtliche Abkürzung für Government (Regierung) zu sein scheint). Man ist sich in der bösen Regierung durchaus der Bedrohung durch truethaksin.com bewusst:
 
-> The government is expected to launch a new website next month to counter that of former prime minister Thaksin Shinawatra. The website might be called www.truethailand.com according to Aran Wonganan, in response to Thaksin's www.truethaksin.com, which officially opened Friday. He said the website would explain the government's position, adding that the state previously did not have a site to counter false information from its opponents.
+> The government is expected to launch a new website next month to counter that of former prime minister Thaksin Shinawatra. The website might be called <www.truethailand.com> according to Aran Wonganan, in response to Thaksin's <www.truethaksin.com>, which officially opened Friday. He said the website would explain the government's position, adding that the state previously did not have a site to counter false information from its opponents.
 
 Dummerweise nur, und das zeigt mal wieder wie überlegt und geplant die thailändische ?bergangsregierung auf jegliche Kritik von au?en reagiert, ist [truethailand.com][3] eine italienische Website über Thailand, die [seit 2001][4] das Netz bereichert. Die werden sich bestimmt über den Besucheranstrom freuen.
 

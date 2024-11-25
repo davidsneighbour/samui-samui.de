@@ -1,6 +1,5 @@
 ---
 title: Wahlbe(ein)tra(e)cht(ig)ungen
-type: post
 date: 2007-12-27T13:02:43+00:00
 url: /2007/12/wahlbeeintraechtigungen/
 

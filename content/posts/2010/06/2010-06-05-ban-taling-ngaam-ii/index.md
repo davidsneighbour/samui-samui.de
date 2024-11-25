@@ -1,6 +1,5 @@
 ---
 title: Ban Taling Ngaam II
-type: post
 date: 2010-06-05T00:53:04+00:00
 url: /2010/06/ban-taling-ngaam-ii/
 lastmod: 2023-09-10T19:14:12+07:00

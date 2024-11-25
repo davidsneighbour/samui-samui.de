@@ -1,6 +1,5 @@
 ---
 title: Finland
-type: post
 date: 2006-09-09T05:15:00+00:00
 url: /2006/09/finland/
 

@@ -1,6 +1,5 @@
 ---
 title: Mein Tag
-type: post
 date: 2006-09-07T09:44:00+00:00
 url: /2006/09/mein-tag/
 

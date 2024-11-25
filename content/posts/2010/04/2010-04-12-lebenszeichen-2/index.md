@@ -1,6 +1,5 @@
 ---
 title: Lebenszeichen
-type: post
 date: 2010-04-11T22:53:55+00:00
 url: /2010/04/lebenszeichen-2/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Doktor Wer?
-type: post
 date: 2008-11-19T23:24:30+00:00
 url: /2008/11/doktor-wer/
 

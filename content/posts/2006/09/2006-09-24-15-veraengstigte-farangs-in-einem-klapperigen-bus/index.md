@@ -1,6 +1,5 @@
 ---
 title: 15 verängstigte Farangs in einem klapperigen Bus
-type: post
 date: 2006-09-23T20:25:00+00:00
 url: /2006/09/15-veraengstigte-farangs-in-einem-klapperigen-bus/
 

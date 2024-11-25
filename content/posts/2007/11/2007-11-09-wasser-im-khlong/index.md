@@ -1,6 +1,5 @@
 ---
 title: Wasser im Khlong
-type: post
 date: 2007-11-08T17:39:26+00:00
 url: /2007/11/wasser-im-khlong/
 

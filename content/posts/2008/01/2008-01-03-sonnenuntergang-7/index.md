@@ -1,6 +1,5 @@
 ---
 title: Sonnenuntergang
-type: post
 date: 2008-01-03T03:08:32+00:00
 url: /2008/01/sonnenuntergang-7/
 

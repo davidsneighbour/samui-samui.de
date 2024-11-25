@@ -1,6 +1,5 @@
 ---
 title: Tanken Twentyfourseven
-type: post
 date: 2006-11-28T21:17:10+00:00
 url: /2006/11/tanken-twentyfourseven/
 lastmod: 2023-09-10T19:14:12+07:00

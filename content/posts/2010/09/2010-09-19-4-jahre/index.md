@@ -1,6 +1,5 @@
 ---
 title: 4 Jahre
-type: post
 date: 2010-09-19T02:10:37+00:00
 url: /2010/09/4-jahre/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Ah schöne Frauen, oder so.
-type: post
 date: 2005-06-01T07:17:00+00:00
 url: /2005/06/ah-schoene-frauen-oder-so/
 dsq_thread_id:

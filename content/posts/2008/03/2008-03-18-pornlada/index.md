@@ -1,6 +1,5 @@
 ---
 title: Pornlada
-type: post
 date: 2008-03-18T05:17:38+00:00
 url: /2008/03/pornlada/
 dsq_thread_id:

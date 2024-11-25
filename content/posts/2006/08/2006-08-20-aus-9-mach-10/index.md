@@ -1,6 +1,5 @@
 ---
 title: Aus 9 mach 10
-type: post
 date: 2006-08-20T02:18:00+00:00
 url: /2006/08/aus-9-mach-10/
 

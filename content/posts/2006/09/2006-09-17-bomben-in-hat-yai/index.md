@@ -1,6 +1,5 @@
 ---
 title: Bomben in Hat Yai
-type: post
 date: 2006-09-17T03:16:43+00:00
 url: /2006/09/bomben-in-hat-yai/
 

@@ -1,6 +1,5 @@
 ---
 title: Loy Krathong
-type: post
 date: 2010-11-21T19:54:54+00:00
 url: /2010/11/loy-krathong-2/
 lastmod: 2023-09-10T19:14:13+07:00

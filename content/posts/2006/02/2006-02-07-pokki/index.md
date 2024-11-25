@@ -1,6 +1,5 @@
 ---
 title: Pokki
-type: post
 date: 2006-02-06T20:17:00+00:00
 url: /2006/02/pokki/
 dsq_thread_id:

@@ -1,6 +1,5 @@
 ---
 title: Wie man einen Liegestuhl richtig verwendet
-type: post
 date: 2011-05-02T20:14:14+00:00
 url: /2011/05/wie-man-einen-liegestuhl-richtig-verwendet/
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,5 @@
 ---
 title: Das ist die Krönung
-type: post
 date: 2007-05-05T10:42:12+00:00
 url: /2007/05/das-ist-die-kroenung/
 
