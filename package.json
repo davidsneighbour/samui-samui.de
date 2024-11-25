@@ -43,8 +43,8 @@
 		"deploy": "bin/deploy/live",
 		"release": "commit-and-tag-version --release-as patch --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/repo/release/postrelease",
 		"release:minor": "commit-and-tag-version --release-as minor --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/repo/release/postrelease",
-		"server": "run-p server:hugo",
-		"server:hugo": "./bin/hugo/server.js"
+    "server": "rm -rf ./public && hugo server trust && hugo config --format json > data/dnb/samuisamui/config.json && hugo server -D -E -F --disableFastRender --logLevel debug --tlsAuto --baseURL https://localhost/",
+    "server2": "rm -rf ./public && hugo server trust && hugo config --format json > data/dnb/samuisamui/config.json && hugo server -D -E -F --disableFastRender --logLevel debug --baseURL http://localhost/ --panicOnWarning"
 	},
 	"config": {
 		"commitizen": {
