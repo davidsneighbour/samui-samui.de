@@ -42,7 +42,6 @@
 		"markdown.extension.syntax.plainTheme": true,
 		"markdown.extension.tableFormatter.delimiterRowNoPadding": true,
 		"markdown.extension.tableFormatter.normalizeIndentation": true,
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
 		"editor.formatOnSave": true,
 		"editor.codeActionsOnSave": {
 			"source.fixAll.eslint": "explicit"
