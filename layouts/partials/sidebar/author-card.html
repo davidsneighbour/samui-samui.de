@@ -1,5 +1,5 @@
-{{ with site.Author }}
-<aside class="card mb-3" id="widget-author">
+{{ with site.Params.Author }}
+<aside class="mb-3 card" id="widget-author">
   <img src="{{ .photo.url }}"
        loading="lazy" style="width:100%;height:auto;" alt="{{ .photo.title | safeHTML }}" width="350" class="card-img-top">
   <div class="card-body">

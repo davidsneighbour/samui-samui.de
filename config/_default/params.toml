@@ -9,17 +9,36 @@ debug = false
 mainSections = ["posts"]
 
 # social media setup
+githubName = ""
 og_image = ""
 og_image_url = ""
-githubName = ""
 
 # content particles
-siteslug = "samui-samui-de"
-description = "David's Neighbour's Notizen über sein Leben als Auswanderer auf der Insel Koh Samui in Thailand. Auf Deutsch, und so..."
 copyright = "All rights reserved. Copyright samui-samui.de"
+description = "David's Neighbour's Notizen über sein Leben als Auswanderer auf der Insel Koh Samui in Thailand. Auf Deutsch, und so..."
+siteslug = "samui-samui-de"
 
 # design elements
 sitecolor = "#d02d19"
+
+[author]
+# @todo add author information here
+################################################################################
+# Author setup
+## [author]
+################################################################################
+homepage = "https://kollitsch.de/"
+name = "Patrick Kollitsch"
+
+content = "sitewide/authorfooter/index.md"
+
+[author.photo]
+name = "patrick-kollitsch.jpg"
+title = "Der Autor in seiner natürlichen Umgebung"
+
+[author.format]
+layout = "card"
+################################################################################
 
 [imaging]
 sizes = ["825", "610", "510", "450"]
