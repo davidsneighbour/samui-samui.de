@@ -50,18 +50,18 @@ sizes = ["825", "610", "510", "450"]
 # Social Media Setup
 #############################################################
 [social.facebook]
-profileid = "517050641"           # patrick.kollitsch
-pageid = "6967849771"             # samuisamui
-appid = "2047624572136513"        # samui-samui.de
-profileslug = "patrick.kollitsch"
+appid = "2047624572136513" # samui-samui.de
+pageid = "6967849771" # samuisamui
+profileid = "517050641" # patrick.kollitsch
+profileslug = "patrick.kollitsch" 
 
 [social.twitter]
+csp = "on"
+dnt = "on"
+linkcolor = "#d02d19"
 profileid = "davidsneighbour"
 siteid = "samui2"
 theme = "dark"
-linkcolor = "#d02d19"
-dnt = "on"
-csp = "on"
 
 [social.snapchat]
 profileid = "pkollitsch"
@@ -73,9 +73,9 @@ profileid = "66878979350"
 # DNB Hugo Garuda Setup
 #############################################################
 [dnb]
-theme_slug = "samui-samui"
-javascript = "local-changes.js"
 copy-from = "2005"
+javascript = "local-changes.js"
+theme_slug = "samui-samui"
 
 [dnb.sidebar]
 enabled = true
@@ -116,34 +116,34 @@ values = "leute"
 ################################################################################
 [dnb.head]
 charset = "utf-8"
-viewport = "width=device-width, initial-scale=1"
 latitude = "9.578492"
 longitude = "99.958311"
+viewport = "width=device-width, initial-scale=1"
 # https://en.wikipedia.org/wiki/ISO_3166
-region = "TH-84"
-placename = "Koh Samui"
-separator = " ↭ "
-disable = []
-notranslate = false     # tell Google not to provide a translation for this document
+disable = [] 
+notranslate = false # tell Google not to provide a translation for this document
+placename = "Koh Samui" 
+region = "TH-84" 
+separator = " ↭ " 
 # https://webmonetization.org/docs/getting-started
 monetization = ""
 
 [dnb.head.speedoptimisation]
 control = "on" # on/off - off disables all prefetching
+preconnect = [] 
 prefetch = [
   "/assets/webfonts/tomkin/Tomkin/TomkinLight/Tomkin-Light.woff",
   "/assets/webfonts/tomkin/Tomkin/TomkinSemiLight/Tomkin-SemiLight.woff",
-]
-preconnect = []
-prerender = []
+] 
+prerender = [] 
 
 [dnb.head.verification]
-google = ""
-yandex = ""
-bing = ""
 alexa = ""
-pinterest = ""
+bing = ""
+google = ""
 norton = ""
+pinterest = ""
+yandex = ""
 
 [dnb.head.styles]
 method = "postcss"
@@ -152,11 +152,10 @@ method = "postcss"
 # options for the compilation of CSS
 # see https://gohugo.io/hugo-pipes/scss-sass/#options
 #transpiler = "dartsass"
-outputStyle = "compressed"
-targetPath = "theme.css"
 enableSourceMap = true
 includePaths = ["node_modules/"]
-
+outputStyle = "compressed"
+targetPath = "theme.css"
 
 [dnb.forms]
 [dnb.forms.contactform]
