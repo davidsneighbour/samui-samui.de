@@ -6,7 +6,7 @@
 # https://gohugo.io/variables/site/#the-siteparams-variable
 ################################################################################
 debug = false
-mainSections = ["posts"]
+mainSections = ["posts", "post", "blog"]
 
 # social media setup
 githubName = ""
@@ -50,10 +50,10 @@ sizes = ["825", "610", "510", "450"]
 # Social Media Setup
 #############################################################
 [social.facebook]
-appid = "2047624572136513" # samui-samui.de
-pageid = "6967849771" # samuisamui
-profileid = "517050641" # patrick.kollitsch
-profileslug = "patrick.kollitsch" 
+appid = "2047624572136513"        # samui-samui.de
+pageid = "6967849771"             # samuisamui
+profileid = "517050641"           # patrick.kollitsch
+profileslug = "patrick.kollitsch"
 
 [social.twitter]
 csp = "on"
@@ -120,22 +120,22 @@ latitude = "9.578492"
 longitude = "99.958311"
 viewport = "width=device-width, initial-scale=1"
 # https://en.wikipedia.org/wiki/ISO_3166
-disable = [] 
-notranslate = false # tell Google not to provide a translation for this document
-placename = "Koh Samui" 
-region = "TH-84" 
-separator = " ↭ " 
+disable = []
+notranslate = false     # tell Google not to provide a translation for this document
+placename = "Koh Samui"
+region = "TH-84"
+separator = " ↭ "
 # https://webmonetization.org/docs/getting-started
 monetization = ""
 
 [dnb.head.speedoptimisation]
 control = "on" # on/off - off disables all prefetching
-preconnect = [] 
+preconnect = []
 prefetch = [
   "/assets/webfonts/tomkin/Tomkin/TomkinLight/Tomkin-Light.woff",
   "/assets/webfonts/tomkin/Tomkin/TomkinSemiLight/Tomkin-SemiLight.woff",
-] 
-prerender = [] 
+]
+prerender = []
 
 [dnb.head.verification]
 alexa = ""
@@ -196,3 +196,8 @@ type = 'submit'
 
 [dnb.shortcodes.pagefind]
 showImages = false
+
+[dnb.hooks]
+[[dnb.hooks.items.kollitsch.head-end]]
+cached = true
+file = "head-end-matomo"
