@@ -32,6 +32,8 @@ github.com/davidsneighbour/hugo-modules/modules/head v1.2024.14 h1:VANccX922XRe5
 github.com/davidsneighbour/hugo-modules/modules/head v1.2024.14/go.mod h1:T5bYxWMLmm4mHpE+aiFLkBhk2eqMC7rAKsJyU2QCV9I=
 github.com/davidsneighbour/hugo-modules/modules/head v1.2024.23 h1:f9s5NIXH3caFT/lhFBtbhy8npBwKWyx3oeWtII+P7SU=
 github.com/davidsneighbour/hugo-modules/modules/head v1.2024.23/go.mod h1:TXCaxEaDOOEPV8oNdeB4hn9O6NXKsERjCGAnZzmM8rg=
+github.com/davidsneighbour/hugo-modules/modules/head v1.2024.24 h1:afXdnZG9OvGfozNbwmIPc2Hzo5xUVG72MkXfw+RNuPo=
+github.com/davidsneighbour/hugo-modules/modules/head v1.2024.24/go.mod h1:0s2vZ37WsVqUkwg3Pe7IVxSYjZbJU6UKECK452KUz4I=
 github.com/davidsneighbour/hugo-modules/modules/headerimage v1.2024.1 h1:Rc5jkYQSvaRuENVTe3Kg+fnUNK4dJmeCOt6FogANEtg=
 github.com/davidsneighbour/hugo-modules/modules/headerimage v1.2024.1/go.mod h1:lMtgHJtUgA8C80GpzAmQZeUQM9obfJRKnN9xGDfaGlA=
 github.com/davidsneighbour/hugo-modules/modules/headerimage v1.2024.5 h1:CmGVwSTNG2y8sdvVz86Koj4ZEwp3CQN6RLHplLsihxQ=
@@ -94,6 +96,8 @@ github.com/davidsneighbour/hugo-modules/modules/shortcodes v1.2024.3 h1:TnExZKb+
 github.com/davidsneighbour/hugo-modules/modules/shortcodes v1.2024.3/go.mod h1:DwYSv5Lnx6UsCN47gLsWUIwhcSm63S65TBDEF2hrp3A=
 github.com/davidsneighbour/hugo-modules/modules/shortcodes v1.2024.8 h1:VhrtVxcRRrjLWbkwMu7q1sUqyWOmHOZZ1spbg28Qp0c=
 github.com/davidsneighbour/hugo-modules/modules/shortcodes v1.2024.8/go.mod h1:DwYSv5Lnx6UsCN47gLsWUIwhcSm63S65TBDEF2hrp3A=
+github.com/davidsneighbour/hugo-modules/modules/shortcodes v1.2024.9 h1:/Vy49yvlK++UDQUKPzD2s2uUI1RRdeqUvNGVEBZLxM8=
+github.com/davidsneighbour/hugo-modules/modules/shortcodes v1.2024.9/go.mod h1:DwYSv5Lnx6UsCN47gLsWUIwhcSm63S65TBDEF2hrp3A=
 github.com/davidsneighbour/hugo-modules/modules/sitemap v1.2024.9 h1:g8TBtNLW5+BTIoysfQeJfuv2vWgz0CvIIayq4KsnRj4=
 github.com/davidsneighbour/hugo-modules/modules/sitemap v1.2024.9/go.mod h1:qpCcVaaPTn1zv4k+eW0iFsiozxlBxcZgaoMRf2yVOWg=
 github.com/davidsneighbour/hugo-modules/modules/sitemap v1.2024.15 h1:gvl1ia6syLyuLjf1s2tpBx7DDfTSSFfTgBHxOyDCD0s=
