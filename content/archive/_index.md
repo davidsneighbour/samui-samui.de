@@ -10,5 +10,5 @@ menu:
     weight: 100
     identifier: archiv
     pre: icons/archive.svg
-lastmod: 2023-09-15T19:24:17+07:00
+lastmod: 2024-12-19T16:58:45+07:00
 ---
