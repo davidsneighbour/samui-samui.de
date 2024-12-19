@@ -1,4 +1,4 @@
 site: public
-output_path: static/search/
+output_path: public/search/
 verbose: true
 logfile: pagefind.log
