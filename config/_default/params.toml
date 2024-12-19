@@ -201,3 +201,70 @@ showImages = false
 [[dnb.hooks.items.kollitsch.head-end]]
 cached = true
 file = "head-end-matomo"
+
+# netlification - @see https://dnbhub.xyz/netlification
+################################################################################
+[dnb.netlification]
+extensions = ["youtube", "cloudflare.insights"]
+mode = "netlify"
+upgradeInsecureRequests = true
+
+[dnb.netlification.csp]
+reportOnly = false
+# reportUri = ""
+
+#require-trusted-types-for = ["'script'"]
+base-uri = ["'self'"]
+child-src = ["'self'"]
+connect-src = [
+  "'self'",
+  'https://analytics.dnbhub.xyz/',
+  "https://api.github.com/",
+  'cloudflareinsights.com',
+]
+default-src = ["'self'"] # @todo move to 'none' after fixing all issues
+font-src = ["'self'", "https://d33wubrfki0l68.cloudfront.net"]
+form-action = ["'self'", "https://formspree.io/f/xoqyzooe"]
+frame-ancestors = ["'self'"]
+frame-src = [
+  "'self'",
+  "https://open.spotify.com/",
+  "https://giscus.app/",
+  "https://www.youtube-nocookie.com",
+]
+img-src = [
+  "'self'",
+  "data:",
+  'https://analytics.dnbhub.xyz/',
+  "https://d33wubrfki0l68.cloudfront.net",
+  "https://lite-vimeo-embed.now.sh",
+  "https://lite-vimeo-embed.vercel.app",
+  "ytimg.googleusercontent.com",
+  "https://i.ytimg.com",
+]
+manifest-src = ["'self'"]
+media-src = ["'self'"]
+object-src = ["'none'"]
+script-src = [
+  "'self'",
+  "'unsafe-eval'",
+  "'unsafe-inline'",
+  "'wasm-unsafe-eval'",
+  "https://d33wubrfki0l68.cloudfront.net",
+  "https://giscus.app/",
+  'https://unpkg.com',
+  "https://identity.netlify.com",
+  "static.cloudflareinsights.com",
+  'https://analytics.dnbhub.xyz/',
+]
+style-src = [
+  "'self'",
+  "'unsafe-inline'",
+  "https://d33wubrfki0l68.cloudfront.net",
+  "https://giscus.app/",
+]
+upgradeInsecureRequests = true
+worker-src = ["'self'"]
+
+[[dnb.netlification.redirects]]
+netlify = "https://samui-samui-de.netlify.app/"
