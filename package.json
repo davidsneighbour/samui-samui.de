@@ -1,7 +1,7 @@
 {
 	"name": "@davidsneighbour/samui-samui.de",
 	"description": "Website and content for samui-samui.de",
-	"version": "1.2024.3",
+	"version": "1.2024.4",
 	"license": "UNLICENSED",
 	"private": true,
 	"repository": "davidsneighbour/samui-samui.de",
@@ -52,17 +52,26 @@
 		"node": ">=20.12.0",
 		"npm": ">=10.5.0"
 	},
-	"browserslist": ["extends @davidsneighbour/browserslist-config"],
+	"browserslist": [
+		"extends @davidsneighbour/browserslist-config"
+	],
 	"commitlint": {
-		"extends": ["@davidsneighbour/commitlint-config"]
+		"extends": [
+			"@davidsneighbour/commitlint-config"
+		]
 	},
 	"eslintConfig": {
-		"extends": ["@davidsneighbour/eslint-config"]
+		"extends": [
+			"@davidsneighbour/eslint-config"
+		]
 	},
 	"remarkConfig": {
 		"plugins": [
 			"@davidsneighbour/remark-config",
-			["remark-lint-write-good", false]
+			[
+				"remark-lint-write-good",
+				false
+			]
 		]
 	},
 	"slug": "samui-samui-de",
