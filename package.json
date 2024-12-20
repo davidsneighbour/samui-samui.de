@@ -35,16 +35,67 @@
     "nanoid": ">=3.3.8"
   },
   "scripts": {
-    "build": "hugo --gc --minify && rimraf public/search && pagefind",
-    "clean": "run-p clean:hugo* && npm run clean:npm",
-    "clean:hugo": "rimraf hugo.log hugo_stats.json",
-    "clean:hugo2": "rimraf resources public",
-    "clean:npm": "rimraf node_modules package-lock.json",
-    "deploy": "bin/deploy/live",
-    "release": "commit-and-tag-version --release-as patch --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/repo/release/postrelease",
-    "release:minor": "commit-and-tag-version --release-as minor --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/repo/release/postrelease",
+    "build": "wireit",
+    "deploy": "wireit",
+    "release": "wireit",
     "server": "rm -rf ./public && hugo server trust && hugo config --format json > data/dnb/samuisamui/config.json && hugo server -D -E -F --disableFastRender --logLevel debug --tlsAuto --baseURL https://localhost/",
     "server2": "rm -rf ./public && hugo server trust && hugo config --format json > data/dnb/samuisamui/config.json && hugo server -D -E -F --disableFastRender --logLevel debug --baseURL http://localhost/ --panicOnWarning"
+  },
+  "wireit": {
+    "build": {
+      "dependencies": [
+        "build:pagefind"
+      ]
+    },
+    "build:hugo": {
+      "command": "hugo --gc --minify",
+      "dependencies": [
+        "clean:hugo"
+      ]
+    },
+    "build:pagefind": {
+      "command": "pagefind",
+      "dependencies": [
+        "build:hugo"
+      ]
+    },
+    "clean": {
+      "dependencies": [
+        "clean:hugo"
+      ]
+    },
+    "clean:hugo": {
+      "command": "rimraf hugo.log hugo_stats.json public"
+    },
+    "deploy": {
+      "command": "netlify deploy --prod --open",
+      "dependencies": [
+        "build"
+      ]
+    },
+    "release": {
+      "command": "./bin/repo/release/postrelease",
+      "dependencies": [
+        "release:tag"
+      ]
+    },
+    "release:tag": {
+      "command": "commit-and-tag-version --release-as patch --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\""
+    },
+    "server": {
+      "command": "hugo server -D -E -F --disableFastRender --logLevel debug --tlsAuto --baseURL https://localhost/",
+      "dependencies": [
+        "clean:hugo",
+        "server:trust",
+        "config:dump"
+      ]
+    },
+    "server:trust": {
+      "command": "hugo server trust"
+    },
+    "config:dump": {
+      "command": "hugo config --format json > data/dnb/samuisamui/config.json"
+    }
   },
   "config": {
     "commitizen": {
