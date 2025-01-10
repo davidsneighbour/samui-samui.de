@@ -1,4 +1,20 @@
 Changelog
+## [1.2024.5](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.4...v1.2024.5) (2025-01-10)
+
+
+### Chore
+
+* **config:** add release.json to ignored files ([a5ff55a](https://github.com/davidsneighbour/samui-samui.de/commit/a5ff55a475ecf93400bc2ef2ffff78bce9daa89a))
+* **config:** fix .nvmrc version ([24828c1](https://github.com/davidsneighbour/samui-samui.de/commit/24828c1f679dd3121f9c03b2a956e30e23cfeddb))
+* **config:** move renovate config ([1862f85](https://github.com/davidsneighbour/samui-samui.de/commit/1862f85162026ce0effa8b30dd8ca779de5d72f4))
+* **config:** update engine versions ([e0e4d1d](https://github.com/davidsneighbour/samui-samui.de/commit/e0e4d1de485992bf1adf35af73028e241a604f6e))
+
+
+### Build System
+
+* **dev-deps:** update nanoid to >=3.3.8 ([fd2503e](https://github.com/davidsneighbour/samui-samui.de/commit/fd2503e0797c494662829989443d4f103231c106))
+* **fix:** update build commands ([f313a97](https://github.com/davidsneighbour/samui-samui.de/commit/f313a97d36e28e12a7bfc009052d5e979d321eb0))
+
 ## [1.2024.4](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.3...v1.2024.4) (2024-12-19)
 
 
