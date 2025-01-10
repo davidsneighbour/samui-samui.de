@@ -1,4 +1,6 @@
 Changelog
+## [1.2024.6](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.5...v1.2024.6) (2025-01-10)
+
 ## [1.2024.5](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.4...v1.2024.5) (2025-01-10)
 
 
