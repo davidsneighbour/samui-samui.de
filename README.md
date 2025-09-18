@@ -1,1 +1,62 @@
-[![Netlify](https://img.shields.io/netlify/49963b4d-bb9f-411f-a9b8-521a5e3a2b42?color=%2300AD9F&logo=netlify&style=for-the-badge)](https://app.netlify.com/sites/samui-samui-de/deploys)[![GitHub issues](https://img.shields.io/github/issues-raw/davidsneighbour/samui-samui.de?logo=github&style=for-the-badge)](https://github.com/davidsneighbour/samui-samui.de/issues) ![LasCHanges](https://img.shields.io/github/last-commit/davidsneighbour/samui-samui.de?color=%23ff7700&logo=github&style=for-the-badge) [![Codacy Badge](https://img.shields.io/codacy/grade/1aa52a19ae5b42efa80f04157a29ae8d?logo=codacy&style=for-the-badge)](https://www.codacy.com/gh/davidsneighbour/samui-samui.de/dashboard) ![License](https://img.shields.io/github/license/davidsneighbour/samui-samui.de?logo=github&style=for-the-badge) ![Follow us on Twitter](https://img.shields.io/twitter/follow/hugonewsletter?color=%231DA1F2&logo=twitter&style=for-the-badge) [![Gitter Chatroom](https://img.shields.io/gitter/room/dnb-org/community?color=%23ed1965&logo=gitter&style=for-the-badge)](https://gitter.im/dnb-org/community) ![Latest Version](https://img.shields.io/github/v/tag/davidsneighbour/samui-samui.de?color=%23ed1965&label=Release&logo=hugo&logoColor=%23ffffff&sort=semver&style=for-the-badge) [![Hugo Version](https://img.shields.io/badge/Hugo-0.88.1-%23ed1965&?style=for-the-badge&logo=hugo&color=ed1965&?cacheSeconds=maxAge)](https://gohugo.io/)
+# Astro Starter Kit: Blog
+
+```sh
+npm create astro@latest -- --template blog
+```
+
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+
+Features:
+
+- ✅ Minimal styling (make it your own!)
+- ✅ 100/100 Lighthouse performance
+- ✅ SEO-friendly with canonical URLs and OpenGraph data
+- ✅ Sitemap support
+- ✅ RSS Feed support
+- ✅ Markdown & MDX support
+
+## 🚀 Project Structure
+
+Inside of your Astro project, you'll see the following folders and files:
+
+```text
+├── public/
+├── src/
+│   ├── components/
+│   ├── content/
+│   ├── layouts/
+│   └── pages/
+├── astro.config.mjs
+├── README.md
+├── package.json
+└── tsconfig.json
+```
+
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+
+The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+
+Any static assets, like images, can be placed in the `public/` directory.
+
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Credit
+
+This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
