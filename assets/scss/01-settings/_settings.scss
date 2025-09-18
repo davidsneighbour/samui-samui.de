@@ -37,6 +37,7 @@ $link-hover-color: tint-color($link-color, 30%);
 
 // tables
 $table-border-color: map-get($theme-colors, 'bodybg');
+$table-bg: transparent;
 
 // cards
 $card-cap-bg: rgba($primary, 0.3);
