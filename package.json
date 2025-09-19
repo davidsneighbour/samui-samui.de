@@ -1,18 +1,40 @@
 {
-  "name": "new",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+  "name": "@davidsneighbour/samui-samui.de",
+  "description": "Website and content for samui-samui.de",
+  "version": "1.2025.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": "davidsneighbour/samui-samui.de",
+  "author": {
+    "name": "Patrick Kollitsch",
+    "email": "patrick@davids-neighbour.com",
+    "web": "https://davids-neighbour.com"
   },
+  "homepage": "https://samui-samui.de",
   "dependencies": {
-    "@astrojs/mdx": "^4.3.5",
-    "@astrojs/rss": "^4.0.12",
-    "@astrojs/sitemap": "^3.6.0",
-    "astro": "^5.13.8",
-    "sharp": "^0.34.4"
-  }
+    "@astrojs/alpinejs": "0.4.9",
+    "@astrojs/mdx": "4.3.5",
+    "@astrojs/netlify": "6.5.10",
+    "@astrojs/rss": "4.0.12",
+    "@astrojs/sitemap": "3.6.0",
+    "@types/alpinejs": "3.13.11",
+    "alpinejs": "3.15.0",
+    "astro": "5.13.8",
+    "sharp": "0.34.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.13",
+    "tailwindcss": "4.1.13"
+  },
+  "scripts": {
+    "astro": "astro",
+    "build": "astro build",
+    "dev": "astro dev",
+    "preview": "astro preview"
+  },
+  "engines": {
+    "node": ">=20.12.0",
+    "npm": ">=10.3.0"
+  },
+  "type": "module"
 }

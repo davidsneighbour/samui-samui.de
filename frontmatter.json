@@ -37,7 +37,7 @@
     "{{< caption \"{mediaUrl}\" \"Description\" >}}"
   ],
   "frontMatter.dashboard.openOnStart": true,
-  "frontMatter.framework.id": "hugo",
+  "frontMatter.framework.id": "astro",
   "frontMatter.global.notifications": [
     "info",
     "warning",
@@ -45,9 +45,9 @@
   ],
   "frontMatter.media.defaultSorting": "FileNameAsc",
   "frontMatter.panel.freeform": true,
-  "frontMatter.preview.host": "http://192.168.1.201:1313",
+  "frontMatter.preview.host": "http://192.168.1.201:4321",
   "frontMatter.preview.pathName": "yyyy/MM",
-  "frontMatter.site.baseURL": "https://kollitsch.dev",
+  "frontMatter.site.baseURL": "https://samui-samui.de/",
   "frontMatter.taxonomy.alignFilename": false,
   "frontMatter.taxonomy.categories": [],
   "frontMatter.taxonomy.commaSeparatedFields": [],
