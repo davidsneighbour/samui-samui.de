@@ -1,0 +1,40 @@
+---
+import '../styles/global.css';
+
+const links = [
+  { href: 'https://samui-samui.de', label: 'Visit samui-samui.de' },
+  { href: 'https://app.netlify.com/sites/samui-samui-de', label: 'Netlify dashboard' },
+];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>samui-samui.de</title>
+  </head>
+  <body class="bg-slate-50 text-slate-900">
+    <main class="mx-auto flex min-h-screen max-w-4xl flex-col items-center justify-center gap-10 px-6 py-20">
+      <header class="text-center">
+        <p class="text-sm uppercase tracking-[0.2em] text-sky-700">Astro + Tailwind on Netlify</p>
+        <h1 class="mt-4 text-4xl font-semibold sm:text-5xl">samui-samui.de</h1>
+        <p class="mt-3 text-lg text-slate-700">
+          Fresh Astro scaffold with Tailwind CSS and Netlify SSR support.
+        </p>
+      </header>
+      <section class="grid w-full gap-4 sm:grid-cols-2">
+        {links.map(({ href, label }) => (
+          <a
+            class="rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+            href={href}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div class="text-sm uppercase tracking-[0.15em] text-slate-500">Link</div>
+            <div class="mt-1 text-lg font-medium text-sky-700">{label}</div>
+          </a>
+        ))}
+      </section>
+    </main>
+  </body>
+</html>
