@@ -7,7 +7,6 @@
 		"christian-kohler.npm-intellisense",
 		"dunstontc.vscode-go-syntax",
 		"dbaeumer.vscode-eslint",
-		"mikestead.dotenv",
 		"editorconfig.editorconfig",
 		"github.vscode-github-actions",
 		"znck.grammarly",
