@@ -1,5 +1,7 @@
 {
 	"recommendations": [
+		"astro-build.astro-vscode",
+		"unifiedjs.vscode-mdx",
 		"naumovs.color-highlight",
 		"github.copilot-labs",
 		"christian-kohler.npm-intellisense",

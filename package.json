@@ -10,8 +10,20 @@
     "email": "davidsneighbourdev+gh@gmail.com",
     "web": "https://davids-neighbour.com"
   },
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {},
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.3.11",
+    "@astrojs/rss": "^4.0.13",
+    "@astrojs/sitemap": "^3.6.0",
+    "@tailwindcss/vite": "4.1.17",
+    "astro": "^5.15.9",
+    "sharp": "^0.34.3",
+    "tailwindcss": "4.1.17"
+  },
   "type": "module"
 }
