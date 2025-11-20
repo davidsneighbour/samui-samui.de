@@ -4,7 +4,7 @@ import BaseHead from "@components/BaseHead.astro";
 import Footer from "@components/Footer.astro";
 import FormattedDate from "@components/FormattedDate.astro";
 import Header from "@components/Header.astro";
-import { PAGE_SIZE } from "../pageSize";
+import setup from "@data/setup.json";
 
 export async function getStaticPaths({
         paginate,
@@ -23,7 +23,7 @@ export async function getStaticPaths({
         );
 
         return Object.entries(postsByYear).flatMap(([year, yearPosts]) =>
-                paginate(yearPosts, { pageSize: PAGE_SIZE, params: { year } }),
+                paginate(yearPosts, { pageSize: setup.postsPerPage, params: { year } }),
         );
 }
 
