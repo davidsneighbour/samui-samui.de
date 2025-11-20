@@ -1,4 +1,0 @@
-site: public
-output_path: public/search/
-verbose: true
-logfile: pagefind.log
