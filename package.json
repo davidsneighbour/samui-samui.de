@@ -2,45 +2,50 @@
   "name": "@davidsneighbour/samui-samui.de",
   "description": "Website and content for samui-samui.de",
   "version": "2025.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": "davidsneighbour/samui-samui.de",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "davidsneighbourdev+gh@gmail.com",
     "web": "https://davids-neighbour.com"
   },
-  "license": "UNLICENSED",
-  "private": true,
-  "repository": "davidsneighbour/samui-samui.de",
-  "type": "module",
   "dependencies": {
+    "@pagefind/default-ui": "1.4.0",
     "@tailwindcss/vite": "4.1.17",
+    "pagefind": "1.4.0",
+    "sirv": "3.0.2",
     "tailwindcss": "4.1.17"
   },
   "devDependencies": {
     "@astrojs/mdx": "4.3.11",
     "@astrojs/rss": "4.0.13",
     "@astrojs/sitemap": "3.6.0",
-    "@astrojs/check": "^0.9.5",
+    "@iconify-json/bi": "1.2.6",
     "astro": "5.15.9",
+    "astro-icon": "1.1.5",
+    "bootstrap-icons": "1.13.1",
     "fixpack": "4.0.0",
     "glob": "13.0.0",
     "sharp": "0.34.5",
-    "typescript": "^5.9.3",
     "wireit": "0.14.12"
   },
   "scripts": {
-    "dev": "astro dev",
-    "preview": "astro preview",
     "astro": "astro",
     "build": "astro check && astro build",
     "check": "astro check",
-    "dev:verbose": "DEBUG_FRONTMATTER=true astro dev --verbose",
-    "upgrade": "npx @astrojs/upgrade",
+    "clean": "wireit",
+    "clean:full": "wireit",
     "compile:fixpack": "wireit",
     "compile:package": "wireit",
     "compile:package:install": "wireit",
     "compile:package:update": "wireit",
-    "clean": "wireit",
-    "clean:full": "wireit"
+    "dev": "astro dev",
+    "dev:verbose": "DEBUG_FRONTMATTER=true astro dev --verbose",
+    "icons:sync": "node src/scripts/create-icon-types.ts",
+    "postinstall:icons": "npm run icons:sync",
+    "preview": "astro preview",
+    "upgrade": "npx @astrojs/upgrade"
   },
   "wireit": {
     "compile:fixpack": {
@@ -81,5 +86,6 @@
         "clean:astro"
       ]
     }
-  }
+  },
+  "type": "module"
 }

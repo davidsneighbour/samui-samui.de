@@ -7,10 +7,10 @@
     "sharp": "0.34.5"
   },
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --verbose",
     "preview": "astro preview",
     "astro": "astro",
-    "build": "astro check && astro build",
+    "build": "astro check && astro build --verbose",
     "check": "astro check",
     "dev:verbose": "DEBUG_FRONTMATTER=true astro dev --verbose",
     "upgrade": "npx @astrojs/upgrade"
