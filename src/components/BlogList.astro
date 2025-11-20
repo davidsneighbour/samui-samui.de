@@ -1,0 +1,152 @@
+---
+import type { CollectionEntry } from "astro:content";
+import FormattedDate from "@components/FormattedDate.astro";
+
+interface Props {
+        posts: CollectionEntry<"cPosts">[];
+        pageNumber: number;
+        totalPages: number;
+        basePath?: string;
+}
+
+const normalizeBasePath = (path = "") => {
+        const trimmed = path.replace(/\/+$/, "");
+        if (!trimmed || trimmed === "/") return "";
+        return trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
+};
+
+const ensureLeadingSlash = (path: string) => (path.startsWith("/") ? path : `/${path}`);
+
+const basePath = normalizeBasePath((Astro.props as Props).basePath);
+const { posts, pageNumber, totalPages } = Astro.props as Props;
+
+const pageHref = (page: number) =>
+        page === 1
+                ? basePath || "/"
+                : `${basePath || ""}/seite/${page}/`;
+
+const previousPage = pageNumber > 1 ? ensureLeadingSlash(pageHref(pageNumber - 1)) : undefined;
+const nextPage =
+        pageNumber < totalPages ? ensureLeadingSlash(pageHref(pageNumber + 1)) : undefined;
+
+const normalizePostUrl = (url: string) => {
+        const trimmed = url.trim();
+        const withLeadingSlash = trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
+        return withLeadingSlash.endsWith("/") ? withLeadingSlash : `${withLeadingSlash}/`;
+};
+
+const getPostUrl = (post: CollectionEntry<"cPosts">) => {
+        const rawUrl = post.data.url ?? post.id;
+        return ensureLeadingSlash(`${basePath}${normalizePostUrl(rawUrl)}`);
+};
+---
+<style>
+        .blog-list {
+                width: 960px;
+        }
+        ul {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 2rem;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+        }
+        ul li {
+                width: calc(50% - 1rem);
+        }
+        ul li * {
+                text-decoration: none;
+                transition: 0.2s ease;
+        }
+        ul li:first-child {
+                width: 100%;
+                margin-bottom: 1rem;
+                text-align: center;
+        }
+        ul li:first-child img {
+                width: 100%;
+        }
+        ul li:first-child .title {
+                font-size: 2.369rem;
+        }
+        ul li img {
+                margin-bottom: 0.5rem;
+                border-radius: 12px;
+        }
+        ul li a {
+                display: block;
+        }
+        .title {
+                margin: 0;
+                color: rgb(var(--black));
+                line-height: 1;
+        }
+        .date {
+                margin: 0;
+                color: rgb(var(--gray));
+        }
+        ul li a:hover h4,
+        ul li a:hover .date {
+                color: rgb(var(--accent));
+        }
+        ul a:hover img {
+                box-shadow: var(--box-shadow);
+        }
+        .pagination {
+                display: flex;
+                gap: 1rem;
+                margin-top: 2rem;
+                font-weight: 600;
+        }
+        .pagination a {
+                color: rgb(var(--accent));
+        }
+        .pagination span {
+                color: rgb(var(--gray));
+        }
+        @media (max-width: 720px) {
+                ul {
+                        gap: 0.5em;
+                }
+                ul li {
+                        width: 100%;
+                        text-align: center;
+                }
+                ul li:first-child {
+                        margin-bottom: 0;
+                }
+                ul li:first-child .title {
+                        font-size: 1.563em;
+                }
+        }
+</style>
+
+<section class="blog-list">
+        <ul>
+                {
+                        posts.map((post) => (
+                                <li>
+                                        <a href={getPostUrl(post)}>
+                                                {post.data.featured_image && (
+                                                        <img src={post.data.featured_image} alt={post.data.title} loading="lazy" />
+                                                )}
+                                                <h4 class="title">{post.data.title}</h4>
+                                                <p class="date">
+                                                        <FormattedDate date={post.data.date} />
+                                                </p>
+                                        </a>
+                                </li>
+                        ))
+                }
+        </ul>
+        {(previousPage || nextPage) && (
+                <div class="pagination">
+                        {previousPage ? <a href={previousPage}>← Neuere Beiträge</a> : <span />}
+                        <span>
+                                Seite {pageNumber} / {totalPages}
+                        </span>
+                        {nextPage ? <a href={nextPage}>Ältere Beiträge →</a> : <span />}
+                </div>
+        )}
+</section>
