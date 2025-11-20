@@ -7,37 +7,29 @@ import Header from "@components/Header.astro";
 import setup from "@data/setup.json";
 
 export async function getStaticPaths() {
-        const posts = (await getCollection("cPosts")).sort(
-                (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
-        );
-        const totalPages = Math.max(
-                1,
-                Math.ceil(posts.length / setup.postsPerPage),
-        );
+  const posts = (await getCollection("cPosts")).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  const totalPages = Math.max(1, Math.ceil(posts.length / setup.postsPerPage));
 
-        return Array.from(
-                { length: Math.max(0, totalPages - 1) },
-                (_, index) => {
-                        const pageNumber = index + 2;
-                        const start = (pageNumber - 1) * setup.postsPerPage;
-                        const end = start + setup.postsPerPage;
+  return Array.from({ length: Math.max(0, totalPages - 1) }, (_, index) => {
+    const pageNumber = index + 2;
+    const start = (pageNumber - 1) * setup.postsPerPage;
+    const end = start + setup.postsPerPage;
 
-                        return {
-                                params: { seite: String(pageNumber) },
-                                props: {
-                                        posts: posts.slice(start, end),
-                                        pageNumber,
-                                        totalPages,
-                                },
-                        };
-                },
-        );
+    return {
+      params: { seite: String(pageNumber) },
+      props: {
+        posts: posts.slice(start, end),
+        pageNumber,
+        totalPages,
+      },
+    };
+  });
 }
 
 interface Props {
-        posts: CollectionEntry<"cPosts">[];
-        pageNumber: number;
-        totalPages: number;
+  posts: CollectionEntry<"cPosts">[];
+  pageNumber: number;
+  totalPages: number;
 }
 
 const { posts, pageNumber, totalPages } = Astro.props as Props;
@@ -45,23 +37,16 @@ const { posts, pageNumber, totalPages } = Astro.props as Props;
 
 <!doctype html>
 <html lang="en">
-        <head>
-                <BaseHead
-                        title={`${setup.title} – Seite ${pageNumber}`}
-                        description={setup.description}
-                />
-        </head>
-        <body>
-                <Header />
-                <main>
-                        <section>
-                                <BlogList
-                                        posts={posts}
-                                        pageNumber={pageNumber}
-                                        totalPages={totalPages}
-                                />
-                        </section>
-                </main>
-                <Footer />
-        </body>
+  <head>
+    <BaseHead title={`${setup.title} – Seite ${pageNumber}`} description={setup.description} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section>
+        <BlogList posts={posts} pageNumber={pageNumber} totalPages={totalPages} />
+      </section>
+    </main>
+    <Footer />
+  </body>
 </html>
