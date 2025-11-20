@@ -286,7 +286,7 @@ async function main(): Promise<void> {
   if (scriptsChanged.length) {
     console.log('• Changed (defined in both, but command differs):');
     for (const c of scriptsChanged) {
-      console.log(`  - ${c.name} in ${c.file}\n      root: ${c.root}\n      file: ${c.found}`);
+      console.log(`  - ${c.name} in ${c.file}\n      root: ${c.root}\n      conf: ${c.found}`);
     }
   } else {
     console.log('• No changed script entries.');

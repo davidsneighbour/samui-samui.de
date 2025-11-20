@@ -1,0 +1,23 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "files": [
+    "src/{*,.*}/**/*.{md,mdx}"
+  ],
+  "ignorePaths": [
+    "node_modules",
+    "dist",
+    "build",
+    ".git"
+  ],
+  "dictionaries": [
+    "samuisamui-en"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "samuisamui-en",
+      "path": "./samuisamui-en.dict.txt",
+      "addWords": true
+    }
+  ]
+}

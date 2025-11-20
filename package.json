@@ -21,10 +21,12 @@
     "@astrojs/mdx": "4.3.11",
     "@astrojs/rss": "4.0.13",
     "@astrojs/sitemap": "3.6.0",
+    "@biomejs/biome": "2.3.6",
     "@iconify-json/bi": "1.2.6",
     "astro": "5.15.9",
     "astro-icon": "1.1.5",
     "bootstrap-icons": "1.13.1",
+    "cspell": "9.3.2",
     "fixpack": "4.0.0",
     "glob": "13.0.0",
     "sharp": "0.34.5",
@@ -32,7 +34,12 @@
   },
   "scripts": {
     "astro": "astro",
-    "build": "astro check && astro build",
+    "biome:check": "biome check",
+    "biome:format": "biome format",
+    "biome:lint": "biome check --fix",
+    "biome:postinstall": "biome migrate --write",
+    "biome:watch": "biome check --watch",
+    "build": "astro check && astro build --verbose",
     "check": "astro check",
     "clean": "wireit",
     "clean:full": "wireit",
@@ -40,9 +47,10 @@
     "compile:package": "wireit",
     "compile:package:install": "wireit",
     "compile:package:update": "wireit",
-    "dev": "astro dev",
+    "dev": "astro dev --verbose",
     "dev:verbose": "DEBUG_FRONTMATTER=true astro dev --verbose",
     "icons:sync": "node src/scripts/create-icon-types.ts",
+    "lint:spell": "cspell 'src/{*,.*}/**/*.{md,mdx}'",
     "postinstall:icons": "npm run icons:sync",
     "preview": "astro preview",
     "upgrade": "npx @astrojs/upgrade"
@@ -86,6 +94,13 @@
         "clean:astro"
       ]
     }
+  },
+  "cspell": {
+    "version": "0.2",
+    "import": [
+      "./src/config/cspell/cspell.en.jsonc",
+      "./src/config/cspell/cspell.de.jsonc"
+    ]
   },
   "type": "module"
 }
