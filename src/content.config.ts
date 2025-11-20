@@ -16,6 +16,7 @@ const posts = defineCollection({
                         tags: z.array(z.string()).optional(),
                         url: z.string().optional(),
                         video: z.string().optional(),
+                        featured_image: z.string().optional(),
                         resources: z
                                 .array(
                                         z.object({
@@ -29,7 +30,7 @@ const posts = defineCollection({
                                 .array(z.union([z.string(), z.number()]))
                                 .optional(),
                 })
-                .strict(),
+                .passthrough(),
 });
 
 const leute = defineCollection({
