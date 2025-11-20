@@ -1,5 +1,5 @@
 ---
-import { type CollectionEntry, getCollection } from "astro:content";
+import { getCollection } from "astro:content";
 import BaseHead from "@components/BaseHead.astro";
 import Footer from "@components/Footer.astro";
 import FormattedDate from "@components/FormattedDate.astro";
@@ -7,33 +7,17 @@ import Header from "@components/Header.astro";
 
 const PAGE_SIZE = 20;
 
-export async function getStaticPaths({
-        paginate,
-}: { paginate: import("astro").PaginateFunction }) {
-        const posts = (await getCollection("cPosts")).sort(
-                (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
-        );
+const posts = (await getCollection("cPosts")).sort(
+        (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
 
-        return paginate(posts, { pageSize: PAGE_SIZE });
-}
-
-const { page } = Astro.props as {
-        page: import("astro").Page<CollectionEntry<"cPosts">> & {
-                params: { page?: string };
-        };
-};
-
-if (page.currentPage === 1) {
-        return Astro.redirect("/archiv/");
-}
-
-const title =
-        page.currentPage === 1 ? "Archiv" : `Archiv – Seite ${page.currentPage}`;
+const pageData = posts.slice(0, PAGE_SIZE);
+const totalPages = Math.ceil(posts.length / PAGE_SIZE);
 ---
 <!doctype html>
 <html lang="de">
         <head>
-                <BaseHead title={title} description="Alle Beiträge im Überblick" />
+                <BaseHead title="Archiv" description="Alle Beiträge im Überblick" />
                 <style>
                         main {
                                 max-width: 960px;
@@ -93,9 +77,9 @@ const title =
         <body>
                 <Header />
                 <main>
-                        <h1>{title}</h1>
+                        <h1>Archiv</h1>
                         <ul class="post-list">
-                                {page.data.map((post) => {
+                                {pageData.map((post) => {
                                         const link = post.data.url ?? `/${post.id}/`;
 
                                         return (
@@ -111,8 +95,10 @@ const title =
                                 })}
                         </ul>
                         <nav class="pagination">
-                                <div>{page.url.prev && <a href={page.url.prev}>Neuere Beiträge</a>}</div>
-                                <div>{page.url.next && <a href={page.url.next}>Ältere Beiträge</a>}</div>
+                                <div />
+                                <div>
+                                        {totalPages > 1 && <a href="/archiv/2/">Ältere Beiträge</a>}
+                                </div>
                         </nav>
                 </main>
                 <Footer />
