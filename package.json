@@ -2,28 +2,82 @@
   "name": "@davidsneighbour/samui-samui.de",
   "description": "Website and content for samui-samui.de",
   "version": "2025.0.0",
-  "license": "UNLICENSED",
-  "private": true,
-  "repository": "davidsneighbour/samui-samui.de",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "davidsneighbourdev+gh@gmail.com",
     "web": "https://davids-neighbour.com"
   },
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": "davidsneighbour/samui-samui.de",
+  "type": "module",
   "dependencies": {
-    "@astrojs/mdx": "^4.3.11",
-    "@astrojs/rss": "^4.0.13",
-    "@astrojs/sitemap": "^3.6.0",
     "@tailwindcss/vite": "4.1.17",
-    "astro": "^5.15.9",
-    "sharp": "^0.34.3",
     "tailwindcss": "4.1.17"
   },
-  "type": "module"
+  "devDependencies": {
+    "@astrojs/mdx": "4.3.11",
+    "@astrojs/rss": "4.0.13",
+    "@astrojs/sitemap": "3.6.0",
+    "astro": "5.15.9",
+    "sharp": "0.34.5",
+    "wireit": "0.14.12",
+    "glob": "13.0.0",
+    "fixpack": "4.0.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "preview": "astro preview",
+    "astro": "astro",
+    "build": "astro check && astro build",
+    "check": "astro check",
+    "dev:verbose": "DEBUG_FRONTMATTER=true astro dev --verbose",
+    "upgrade": "npx @astrojs/upgrade",
+    "compile:fixpack": "wireit",
+    "compile:package": "wireit",
+    "compile:package:install": "wireit",
+    "compile:package:update": "wireit",
+    "clean": "wireit",
+    "clean:full": "wireit"
+  },
+  "wireit": {
+    "compile:fixpack": {
+      "command": "fixpack --config ci/.fixpackrc.json || true && fixpack --config ci/.fixpackrc.json || true"
+    },
+    "compile:package": {
+      "command": "npm run compile:package:install",
+      "dependencies": [
+        "compile:package:run"
+      ],
+      "files": [
+        "./src/packages/**/*.jsonc"
+      ]
+    },
+    "compile:package:install": {
+      "command": "npm install",
+      "dependencies": [
+        "compile:fixpack"
+      ]
+    },
+    "compile:package:run": {
+      "command": "node ./src/packages/generate-package.ts"
+    },
+    "compile:package:update": {
+      "command": "node ./src/packages/update-package.ts"
+    },
+    "clean": {
+      "dependencies": [
+        "clean:astro"
+      ]
+    },
+    "clean:astro": {
+      "command": "rm -rf .astro dist node_modules/.astro"
+    },
+    "clean:full": {
+      "command": "rm -rf node_modules package-lock.json .wireit",
+      "dependencies": [
+        "clean:astro"
+      ]
+    }
+  }
 }

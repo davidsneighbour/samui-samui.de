@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "clean": "wireit",
+    "clean:full": "wireit"
+  },
+  "wireit": {
+    "clean": {
+      "dependencies": [
+        "clean:astro"
+      ]
+    },
+    "clean:astro": {
+      "command": "rm -rf .astro dist node_modules/.astro"
+    },
+    "clean:full": {
+      "command": "rm -rf node_modules package-lock.json .wireit",
+      "dependencies": [
+        "clean:astro"
+      ]
+    }
+  }
+}

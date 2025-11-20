@@ -1,3 +1,7 @@
+.wireit
+src/packages.legacy
+legacy
+
 # Created by https://www.toptal.com/developers/gitignore/api/astro,node,git,react
 # Edit at https://www.toptal.com/developers/gitignore?templates=astro,node,git,react
 
