@@ -3,7 +3,7 @@ import rss from '@astrojs/rss';
 import setup from '@data/setup.json';
 
 export async function GET(context) {
-	const posts = await getCollection('cPosts');
+	const posts = await getCollection('posts');
 	return rss({
 		title: setup.title,
 		description: setup.description,

@@ -3,7 +3,7 @@ import type { CollectionEntry } from "astro:content";
 import FormattedDate from "@components/FormattedDate.astro";
 
 interface Props {
-        posts: CollectionEntry<"cPosts">[];
+        posts: CollectionEntry<"posts">[];
         pageNumber: number;
         totalPages: number;
         basePath?: string;
@@ -35,7 +35,7 @@ const normalizePostUrl = (url: string) => {
         return withLeadingSlash.endsWith("/") ? withLeadingSlash : `${withLeadingSlash}/`;
 };
 
-const getPostUrl = (post: CollectionEntry<"cPosts">) => {
+const getPostUrl = (post: CollectionEntry<"posts">) => {
         const rawUrl = post.data.url ?? post.id;
         return ensureLeadingSlash(`${basePath}${normalizePostUrl(rawUrl)}`);
 };

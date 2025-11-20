@@ -7,7 +7,7 @@ import Header from "@components/Header.astro";
 import setup from "@data/setup.json";
 
 export async function getStaticPaths() {
-  const posts = (await getCollection("cPosts")).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  const posts = (await getCollection("posts")).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
   const totalPages = Math.max(1, Math.ceil(posts.length / setup.postsPerPage));
 
   return Array.from({ length: Math.max(0, totalPages - 1) }, (_, index) => {
@@ -27,7 +27,7 @@ export async function getStaticPaths() {
 }
 
 interface Props {
-  posts: CollectionEntry<"cPosts">[];
+  posts: CollectionEntry<"posts">[];
   pageNumber: number;
   totalPages: number;
 }
@@ -38,7 +38,7 @@ const { posts, pageNumber, totalPages } = Astro.props as Props;
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={`${setup.title} – Seite ${pageNumber}`} description={setup.description} />
+    <BaseHead title={`${setup.title} - Seite ${pageNumber}`} description={setup.description} />
   </head>
   <body>
     <Header />
