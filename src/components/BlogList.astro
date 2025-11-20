@@ -9,20 +9,35 @@ interface Props {
         basePath?: string;
 }
 
-const { posts, pageNumber, totalPages, basePath = "/blog" } = Astro.props as Props;
+const normalizeBasePath = (path = "") => {
+        const trimmed = path.replace(/\/+$/, "");
+        if (!trimmed || trimmed === "/") return "";
+        return trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
+};
 
-const previousPage =
-        pageNumber > 1
-                ? pageNumber === 2
-                        ? `${basePath}/`
-                        : `${basePath}/seite/${pageNumber - 1}/`
-                : undefined;
-const nextPage = pageNumber < totalPages ? `${basePath}/seite/${pageNumber + 1}/` : undefined;
+const ensureLeadingSlash = (path: string) => (path.startsWith("/") ? path : `/${path}`);
+
+const basePath = normalizeBasePath((Astro.props as Props).basePath);
+const { posts, pageNumber, totalPages } = Astro.props as Props;
+
+const pageHref = (page: number) =>
+        page === 1
+                ? basePath || "/"
+                : `${basePath || ""}/seite/${page}/`;
+
+const previousPage = pageNumber > 1 ? ensureLeadingSlash(pageHref(pageNumber - 1)) : undefined;
+const nextPage =
+        pageNumber < totalPages ? ensureLeadingSlash(pageHref(pageNumber + 1)) : undefined;
+
+const normalizePostUrl = (url: string) => {
+        const trimmed = url.trim();
+        const withLeadingSlash = trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
+        return withLeadingSlash.endsWith("/") ? withLeadingSlash : `${withLeadingSlash}/`;
+};
 
 const getPostUrl = (post: CollectionEntry<"cPosts">) => {
-        const rawUrl = post.data.url ?? `/${post.id}/`;
-        const normalizedUrl = rawUrl.startsWith("/") ? rawUrl : `/${rawUrl}`;
-        return `${basePath}${normalizedUrl}`.replace(/\/+$/, "/");
+        const rawUrl = post.data.url ?? post.id;
+        return ensureLeadingSlash(`${basePath}${normalizePostUrl(rawUrl)}`);
 };
 ---
 <style>
