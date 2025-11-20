@@ -3,7 +3,6 @@ title: "Tollwütige Menschen"
 description: ""
 date: 2018-03-19T19:35:43+07:00
 url: /2018/03/tollwuetige-menschen
-slug:
 tags:
 - tollwut
 - gesundheit

@@ -5,8 +5,6 @@ url: /2015/04/mein-gruener-finger/
 tags:
   - blumen
   - orchidee
-tags:
-- orchideen
 resources:
 - src: "2015-04-15-08.28.19.jpg"
   name: "2015-04-15-08.28.19"

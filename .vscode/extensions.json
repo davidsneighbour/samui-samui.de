@@ -26,6 +26,7 @@
     "remisa.shellman",
     "mkhl.shfmt",
     "ms-vscode.vscode-speech",
-    "unifiedjs.vscode-mdx"
+    "unifiedjs.vscode-mdx",
+    "biomejs.biome"
   ]
 }
