@@ -15,7 +15,7 @@
     "@tailwindcss/vite": "4.1.18",
     "pagefind": "1.4.0",
     "sirv": "3.0.2",
-    "tailwindcss": "4.1.18"
+    "tailwindcss": "4.2.1"
   },
   "devDependencies": {
     "@astrojs/mdx": "4.3.13",
