@@ -78,6 +78,11 @@ away from Hugo entirely — pin the version instead of chasing compatibility.
   reconciling these two files against GitHub Issues — use it rather than
   hand-editing `ROADMAP.md`.
 
+- Editor/workspace configuration changes (e.g. `.vscode/settings.json`, including
+  ones VS Code generates automatically such as `explorer.fileNesting.patterns`
+  entries) MUST be committed like any other change rather than left as stray
+  uncommitted diffs — same issue-linkage rule applies.
+
 ## Commands
 
 ```bash
