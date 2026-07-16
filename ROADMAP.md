@@ -89,6 +89,5 @@ tracked in `MIGRATION.status.md`.**
 2. #688 (inventory) can proceed in parallel.
 3. Work through remaining Content Parity issues (#696, #700-#704) once routes
    exist for the collections that need them.
-4. Work through Content Parity issues (#696-#704) once the foundation exists.
-5. Address Cleanup issues (#708, #709) opportunistically — they don't block
+4. Address Cleanup issues (#708, #709) opportunistically — they don't block
    migration progress but are independent, low-risk fixes.
