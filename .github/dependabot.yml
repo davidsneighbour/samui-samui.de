@@ -21,24 +21,6 @@ updates:
     labels:
       - type:dependencies
 
-  - package-ecosystem: gomod
-    directory: /
-    schedule:
-      interval: monthly
-      day: friday
-      time: "22:00"
-      timezone: Asia/Bangkok
-    assignees:
-      - davidsneighbour
-    reviewers:
-      - davidsneighbour
-    target-branch: main
-    open-pull-requests-limit: 999
-    pull-request-branch-name:
-      separator: /
-    labels:
-      - type:dependencies
-
   - package-ecosystem: github-actions
     directory: /
     schedule:
