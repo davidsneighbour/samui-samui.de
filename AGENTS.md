@@ -155,11 +155,13 @@ holds cross-page snippets (e.g. `authorfooter`). `content/feiertage/` (holidays)
 Netlify is the deploy target (`netlify.toml`), but `netlify.toml` currently pins a
 long-stale toolchain (`HUGO_VERSION = "0.101.0"`, `NODE_VERSION = "16.8.0"`) that
 does not match this repo's actual pinned Hugo version (0.140.2), and its build
-`command` (`./bin/netlify.sh`) points at the `bin/` submodule, which is currently an
-orphaned Git submodule reference with no content checked out (`.gitmodules` was
-removed without also removing the submodule's gitlink entry). Anyone acting on the
-Netlify build path SHOULD treat this as broken until reconciled, not as working
-prior art.
+`command` (`./bin/netlify.sh`) points at a `bin/` directory that no longer exists.
+`bin/` was previously an orphaned Git submodule reference (`.gitmodules` had been
+removed without also removing the submodule's gitlink entry) with no content
+checked out, and was removed outright during the `dnbhq` config-package onboarding
+since the release script that used it (`bin/repo/release/postrelease`) was replaced
+by `release-it` (see "Release process" below). Anyone acting on the Netlify build
+path SHOULD treat this as broken until reconciled, not as working prior art.
 
 ### Styling
 

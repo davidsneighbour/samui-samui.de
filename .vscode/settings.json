@@ -18,7 +18,10 @@
   },
   "explorer.fileNesting.patterns": {
     "hugo.log": "hugo_stats.json, .hugo_build.lock",
-    "README.md": "CLAUDE.md, AGENTS.md, SECURITY.md, TODO.md, ROADMAP.md, DEVNOTES.md"
+    "README.md": "CLAUDE.md, AGENTS.md, SECURITY.md, TODO.md, ROADMAP.md, DEVNOTES.md",
+    "MIGRATION.md": "MIGRATION.*.md, PROJECT.md",
+    "package.json": "package-lock.json, biome.json, .release-it.ts, .nvmrc, .npmrc",
+    "astro.config.ts": ".editorconfig, netlify.toml, frontmatter.json"
   },
   "html.format.wrapLineLength": 120,
   "editor.wordWrapColumn": 120,
