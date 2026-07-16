@@ -2,20 +2,19 @@
 
 #topheader {
   .h1 {
-
     margin-bottom: 0;
     font-family: $font-family-brandheader;
     font-weight: $font-weight-brandheader;
     font-size: $font-size-brandheader-xs;
     line-height: 1;
     text-align: center;
-    //transition: all 0.8s ease;
+
+    // transition: all 0.8s ease;
 
     &:hover {
-
       /* filter: blur(2px) hue-rotate(90deg) contrast(200%) sepia(60%); */
-      //filter: blur(2px) contrast(300%) sepia(40%);
-      //transition: all 0.8s ease;
+      // filter: blur(2px) contrast(300%) sepia(40%);
+      // transition: all 0.8s ease;
     }
 
     @include media-breakpoint-up(md) {
@@ -64,26 +63,31 @@
       color: map-get($theme-colors, 'contentbg');
       text-align: center;
       border-top: 1px solid map-get($theme-colors, 'primary');
-      //border-bottom: 1px solid map-get($theme-colors, 'primary');
+
+      // border-bottom: 1px solid map-get($theme-colors, 'primary');
 
       @include media-breakpoint-only(sm) {
         padding: 2px 0;
-        //font-size: 14px;
+
+        // font-size: 14px;
       }
 
       @include media-breakpoint-only(md) {
         padding: 2px 0;
-        //font-size: 19px;
+
+        // font-size: 19px;
       }
 
       @include media-breakpoint-up(lg) {
         padding: 5px 0;
-        //font-size: 26px;
+
+        // font-size: 26px;
       }
 
       @include media-breakpoint-up(xl) {
         padding: 5px 0;
-        //font-size: 33px;
+
+        // font-size: 33px;
       }
     }
   }

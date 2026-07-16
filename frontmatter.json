@@ -29,20 +29,14 @@
       "type": "date"
     }
   ],
-  "frontMatter.content.supportedFileTypes": [
-    "md"
-  ],
+  "frontMatter.content.supportedFileTypes": ["md"],
   "frontMatter.content.wysiwyg": true,
   "frontMatter.content.snippet": [
     "{{< caption \"{mediaUrl}\" \"Description\" >}}"
   ],
   "frontMatter.dashboard.openOnStart": true,
   "frontMatter.framework.id": "hugo",
-  "frontMatter.global.notifications": [
-    "info",
-    "warning",
-    "error"
-  ],
+  "frontMatter.global.notifications": ["info", "warning", "error"],
   "frontMatter.media.defaultSorting": "FileNameAsc",
   "frontMatter.panel.freeform": true,
   "frontMatter.preview.host": "http://192.168.1.201:1313",
@@ -54,9 +48,7 @@
   "frontMatter.taxonomy.dateFormat": "yyyy-MM-dd'T'H:mm:ssxxx",
   "frontMatter.taxonomy.frontMatterType": "YAML",
   "frontMatter.taxonomy.indentArrays": false,
-  "frontMatter.taxonomy.noPropertyValueQuotes": [
-    "date"
-  ],
+  "frontMatter.taxonomy.noPropertyValueQuotes": ["date"],
   "frontMatter.taxonomy.seoContentLength": 1760,
   "frontMatter.taxonomy.seoDescriptionField": "description",
   "frontMatter.taxonomy.seoDescriptionLength": 170,
@@ -81,9 +73,7 @@
       "previewPath": "{{permalink}}",
       "pageBundle": true,
       "filetype": "md",
-      "fieldGroup": [
-        "resources"
-      ],
+      "fieldGroup": ["resources"],
       "fields": [
         {
           "title": "Title",
@@ -130,9 +120,7 @@
           "title": "Resources",
           "name": "resources",
           "type": "block",
-          "fieldGroup": [
-            "resources"
-          ]
+          "fieldGroup": ["resources"]
         },
         {
           "title": "Weight",
@@ -149,12 +137,7 @@
           "title": "Choice",
           "name": "choice",
           "type": "choice",
-          "choices": [
-            "",
-            "Choice 1",
-            "Choice 2",
-            "Choice 3"
-          ]
+          "choices": ["", "Choice 1", "Choice 2", "Choice 3"]
         },
         {
           "title": "Choice",
@@ -200,12 +183,7 @@
       "schema": {
         "title": "music2program2",
         "type": "object",
-        "required": [
-          "name",
-          "slug",
-          "description",
-          "link"
-        ],
+        "required": ["name", "slug", "description", "link"],
         "properties": {
           "slug": {
             "type": "string",

@@ -18,11 +18,7 @@
           }
         }
       },
-      "required": [
-        "founded",
-        "members",
-        "name"
-      ],
+      "required": ["founded", "members", "name"],
       "title": "Artist"
     },
     "blog": {
@@ -83,9 +79,7 @@
           "type": "string"
         }
       },
-      "required": [
-        "name"
-      ],
+      "required": ["name"],
       "title": "Author"
     },
     "resources": {},
@@ -100,10 +94,7 @@
           "type": "integer"
         }
       },
-      "required": [
-        "duration",
-        "name"
-      ],
+      "required": ["duration", "name"],
       "title": "Track"
     },
     "notes-from-the-laboratory": {},

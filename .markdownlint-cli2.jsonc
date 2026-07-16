@@ -1,3 +1,15 @@
 {
-  "ignores": ["scratch/**", "static/images/favicon/**"]
+  // content/** is the 20-year blog archive (2005-present): long-form prose with
+  // legacy raw-HTML embeds the shared doc-oriented ruleset (MD033 allowlist,
+  // title-case-style, etc.) was never meant to police. Keep linting scoped to
+  // engineering documentation.
+  "ignores": [
+    "node_modules/**",
+    "public/**",
+    "dist/**",
+    "resources/**",
+    "content/**",
+    "scratch/**",
+    "static/images/favicon/**"
+  ]
 }

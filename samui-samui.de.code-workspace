@@ -14,7 +14,7 @@
       "**/layouts/**.html": "gohtml",
       "**/layouts/**.xml": "gotemplate",
       "**/layouts/**.json": "gojson",
-      "**/layouts/**.txt": "gotemplate",
+      "**/layouts/**.txt": "gotemplate"
     },
     "files.exclude": {
       "**/.git": true,

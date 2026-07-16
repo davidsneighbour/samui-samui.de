@@ -10,12 +10,7 @@
       "schema": {
         "title": "music2program2",
         "type": "object",
-        "required": [
-          "name",
-          "slug",
-          "description",
-          "link"
-        ],
+        "required": ["name", "slug", "description", "link"],
         "properties": {
           "slug": {
             "type": "string",

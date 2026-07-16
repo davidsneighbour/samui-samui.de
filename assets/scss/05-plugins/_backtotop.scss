@@ -11,12 +11,8 @@
   background-color: rgba(map-get($theme-colors, 'primary'), 0.7);
   border-top-left-radius: $border-radius-lg;
   border-bottom-left-radius: $border-radius-lg;
-
-  transition: 2s ease-in-out;
   transition: 2s ease-in-out;
   animation: 2s b;
-  animation: 2s b;
-  animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   &:hover {

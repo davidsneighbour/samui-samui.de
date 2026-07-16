@@ -1,4 +1,4 @@
-# Hugo Compatibility
+# Hugo compatibility
 
 This repository requires **Hugo v0.140.2 (extended)**. Not v0.163.x. Not "whatever
 `hugo` happened to resolve to on your machine today." v0.140.2.
@@ -8,19 +8,19 @@ This repository requires **Hugo v0.140.2 (extended)**. Not v0.163.x. Not "whatev
 Because someone (me, at some point) ran this repo against Hugo v0.163.3, and it
 did not go well:
 
-- Deprecated/removed config keys (`privacy.twitter.*`, `languageCode`,
+* Deprecated/removed config keys (`privacy.twitter.*`, `languageCode`,
   `module.mounts.excludeFiles`, `imaging.quality`) started throwing warnings and
   errors.
-- The `schema` module's JSON-LD partials (`website.html`, `breadcrumblist.html`)
+* The `schema` module's JSON-LD partials (`website.html`, `breadcrumblist.html`)
   blew up the Go `html/template` escaper with `{{range}} branches end in
   different contexts`.
-- The `hooks` module's `func/hook.html` calls `partials.Include`/
+* The `hooks` module's `func/hook.html` calls `partials.Include`/
   `partials.IncludeCached` with a path that already contains the `partials/`
   prefix those functions add themselves, which apparently used to be tolerated
   and now just fails with "partial not found."
-- The `netlification` module has the exact same double-prefix bug in
+* The `netlification` module has the exact same double-prefix bug in
   `dnb-netlification/redirection.html`.
-- Recent Hugo also runs PostCSS through Node with `--permission`, which is a
+* Recent Hugo also runs PostCSS through Node with `--permission`, which is a
   fun surprise the first time `browserslist` tries to look at a file one
   directory above the project and gets denied by Hugo's own sandbox.
 

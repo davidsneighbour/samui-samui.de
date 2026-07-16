@@ -1,10 +1,12 @@
 /* stylelint-disable at-rule-no-unknown */
+@use "sass:map";
 
 #topnavigation {
   @extend .px-0;
-  //position: sticky;
-  //top: 0;
-  //z-index: $zindex-sticky;
+
+  // position: sticky;
+  // top: 0;
+  // z-index: $zindex-sticky;
 
   background-color: $gray-800;
 
@@ -48,7 +50,7 @@
   }
 
   #topnavigationbrand {
-    color: map-get($theme-colors, 'primary');
+    color: map.get($theme-colors, 'primary');
     font-family: $font-family-brandheader;
     font-weight: $font-weight-brandheader;
   }

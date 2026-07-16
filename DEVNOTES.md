@@ -1,4 +1,4 @@
-# Developer Notes
+# Developer notes
 
 ## Install pre-commit hooks
 
@@ -14,7 +14,7 @@ pre-commit install
 npm install
 ```
 
-## Available Layout Hooks
+## Available layout hooks
 
 | Hook Name | Description |
 | --------- | ----------- |
@@ -29,12 +29,11 @@ npm install
 | container-end | Fired at the end of the main container, before the footer section begins. |
 | body-end | Fired right after the closing `</body>` tag. |
 
-
 ## Youtube thumbnail
 
-- run `./scripts/convert youtube VIDEOID` to load video thumbnail into static folder
+* run `./scripts/convert youtube VIDEOID` to load video thumbnail into static folder
 
-## Deployment to Netlify
+## Deployment to netlify
 
 This repository adds a deployment configuration to work with Netlify.
 
@@ -50,7 +49,5 @@ package = "netlify-plugin-snyk"
 
 If you want to use this plugin (recommended) then you need to set up an API key for it to properly work.
 
-- see [their documentation](https://support.snyk.io/hc/en-us/articles/360004037537-Authentication-for-third-party-tools) for information on how to retrieve an API-key
-- add SNYK_TOKEN with the just retrieved key at _Deploy Settings_ > _Environment Variables_ in your Netlify site.
-
-
+* see [their documentation](https://support.snyk.io/hc/en-us/articles/360004037537-Authentication-for-third-party-tools) for information on how to retrieve an API-key
+* add SNYK_TOKEN with the just retrieved key at *Deploy Settings* > *Environment Variables* in your Netlify site.

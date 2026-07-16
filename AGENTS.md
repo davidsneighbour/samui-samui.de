@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-next-line title-case-style -->
 # AGENTS.md
 
 Instructions for any AI coding agent working in this repository. Terminology follows
@@ -10,25 +11,25 @@ a documented reason, MAY is optional.
 This repository is a Hugo static site today, and an Astro migration is now actively
 underway (bootstrapped via the `dnb-astro-migration-project` skill).
 
-- **All migration work happens directly on `main`.** By explicit user decision,
+* **All migration work happens directly on `main`.** By explicit user decision,
   this project does NOT use a separate `migration` branch, overriding that skill's
   default convention. There MUST NOT be long-lived feature branches for routine or
   migration work.
-- `legacy/hugo` is a frozen copy of `main` taken before the migration effort and MUST
+* `legacy/hugo` is a frozen copy of `main` taken before the migration effort and MUST
   NOT be used for new work.
-- Migration operating rules live in `MIGRATION.md`; route/system progress lives in
+* Migration operating rules live in `MIGRATION.md`; route/system progress lives in
   `MIGRATION.status.md`; project context and the decision log live in `PROJECT.md`.
   An agent doing migration work MUST read all three (plus `ROADMAP.md`/`TODO.md`)
   before editing implementation files — see `MIGRATION.md`'s Agent Startup Checklist.
-- A prior Astro rewrite (21 commits, all 2,049 posts already migrated, Tailwind v4 +
+* A prior Astro rewrite (21 commits, all 2,049 posts already migrated, Tailwind v4 +
   Biome) was recovered after an earlier accidental force-push and is backed up at
   `origin/recovered-astro-main`. Its adoption is undecided — see the tracking issue
   linked from `PROJECT.md`'s decision log. Do not build new Astro scaffolding without
   checking that issue's status first.
-- The live site is https://samui-samui.de. When a change's effect is unclear from
+* The live site is [https://samui-samui.de](https://samui-samui.de). When a change's effect is unclear from
   reading code alone, agents SHOULD compare local output against the live site rather
   than guessing.
-- New styling work for the Astro migration SHOULD prefer Tailwind CSS v4+. The
+* New styling work for the Astro migration SHOULD prefer Tailwind CSS v4+. The
   current site itself still runs on `@davidsneighbour/bootstrap-config` and
   hand-written SCSS (`assets/scss/`) — that MUST NOT be reworked to Tailwind piecemeal
   while the site is still Hugo-based; Tailwind applies to the migration target, not to
@@ -47,18 +48,18 @@ away from Hugo entirely — pin the version instead of chasing compatibility.
 
 ## Change tracking
 
-- Every change MUST be committed. Uncommitted work MUST NOT be left behind as the
+* Every change MUST be committed. Uncommitted work MUST NOT be left behind as the
   end state of a task.
-- Every commit MUST reference the GitHub issue it addresses (e.g. `closes #123`,
+* Every commit MUST reference the GitHub issue it addresses (e.g. `closes #123`,
   `see #123`) and explain *why* the change was made, not just what changed.
-- Every open point of work — bug, follow-up, decision, question — MUST be tracked as
+* Every open point of work — bug, follow-up, decision, question — MUST be tracked as
   a GitHub issue. Ideas that are not yet actionable MAY live in `TODO.md` instead
   (see below) until they are refined enough to become an issue.
-- Issues MUST use this repository's existing label taxonomy rather than inventing new
+* Issues MUST use this repository's existing label taxonomy rather than inventing new
   labels ad hoc:
 
   | Group | Labels | Purpose |
-  |---|---|---|
+  | --- | --- | --- |
   | `type:*` | `bug`, `enhancement`, `dependencies`, `documentation`, `refactor`, `data`, `tests`, `chore` | What kind of work this is. |
   | `status:*` | `unconfirmed`, `confirmed`, `in-progress`, `blocked`, `review`, `done` | Where the issue is in its lifecycle. |
   | `prio:*` | `critical`, `high`, `medium`, `low` | Priority. |
@@ -67,18 +68,18 @@ away from Hugo entirely — pin the version instead of chasing compatibility.
 
   Every issue SHOULD carry at least one `type:*` label and one `status:*` label.
 
-- When an agent shows an issue number in its output or summaries to the user (not
+* When an agent shows an issue number in its output or summaries to the user (not
   in commit messages, where `#123` is sufficient), it MUST link to the issue online,
   e.g. `[#123](https://github.com/davidsneighbour/samui-samui.de/issues/123)`, rather
   than printing a bare number.
 
-- `ROADMAP.md` MUST reflect the current set of open GitHub issues (a generated index,
+* `ROADMAP.md` MUST reflect the current set of open GitHub issues (a generated index,
   not hand-maintained prose) and `TODO.md` MUST stay a scratchpad for notes that are
   not yet actionable GitHub issues. The `dnb-project-task-triage` skill governs
   reconciling these two files against GitHub Issues — use it rather than
   hand-editing `ROADMAP.md`.
 
-- Editor/workspace configuration changes (e.g. `.vscode/settings.json`, including
+* Editor/workspace configuration changes (e.g. `.vscode/settings.json`, including
   ones VS Code generates automatically such as `explorer.fileNesting.patterns`
   entries) MUST be committed like any other change rather than left as stray
   uncommitted diffs — same issue-linkage rule applies.
@@ -86,19 +87,34 @@ away from Hugo entirely — pin the version instead of chasing compatibility.
 ## Commands
 
 ```bash
-npm install               # install dependencies
+npm install               # install dependencies; also installs git hooks (see below)
 npm run server            # wireit: hugo server -D -E -F --disableFastRender --tlsAuto (dumps config to data/dnb/samuisamui/config.json first)
 npm run build              # wireit: hugo --gc --minify, then pagefind indexing
 npm run deploy              # wireit: build, then netlify deploy --prod --open
-npm run release             # wireit: commit-and-tag-version, then ./bin/repo/release/postrelease
+npm run check               # non-mutating quality gate: format:check + lint (Biome + markdownlint)
+npm run lint:fix             # apply safe autofixes: Biome + markdownlint
+npm run release              # release-it --config .release-it.ts --ci (see "Release process" below)
+npm run release:dry          # release-it dry run, no git/GitHub side effects
 ```
 
-There is no lint/test script wired into `package.json` beyond the tool configs
-declared inline (`eslintConfig`, `stylelint`, `remarkConfig`, `browserslist`, all
-extending `@davidsneighbour/*-config` shared packages). Pre-commit hooks are defined
-in `.pre-commit-config.yaml` (JSON/TOML/YAML validation, merge-conflict markers,
-private-key detection, etc.) — install with `pre-commit install` (see
-`DEVNOTES.md`).
+`check`/`lint` cover Biome (`check:biome*`, `lint:code*`, `format*`) and Markdown
+(`lint:markdown*`) via `@dnbhq/biome-config` and `@dnbhq/markdownlint-config`.
+Stylelint (`lint:styles`/`lint:styles:fix`, `@davidsneighbour/stylelint-config`) is
+wired as a standalone script but deliberately left out of `check`/`lint` and the git
+hooks below — the current hand-written SCSS (`assets/scss/`) has a known, accepted
+lint backlog (legacy Sass global functions, ID-heavy widget selectors) that will be
+addressed by rewriting to Tailwind during the Astro migration, not by retrofitting
+this Bootstrap-era SCSS. Run `npm run lint:styles` manually if you need it.
+
+`simple-git-hooks` installs a `pre-commit` hook (`lint-staged`: Biome + markdownlint
+against staged files only) and a `pre-push` hook (`npm run check`, full-repo) via the
+`prepare` script, which `npm install` runs automatically. Pre-commit hooks are also
+defined separately in `.pre-commit-config.yaml` (JSON/TOML/YAML validation,
+merge-conflict markers, private-key detection, etc.), installed with `pre-commit
+install` (see `DEVNOTES.md`). Both tools write to the same `.git/hooks/pre-commit`
+file — whichever is installed last wins and silently replaces the other's hook
+script. If both are needed locally, chain them manually (e.g. have one hook call the
+other) rather than running both installers back to back.
 
 Running `hugo` directly (not via wireit) works for quick checks; `hugo server` holds
 a `.hugo_build.lock` for its lifetime, so a second `hugo`/`hugo server` invocation
@@ -106,7 +122,7 @@ while one is already running will hang waiting on that lock rather than erroring
 
 ## Architecture
 
-### Hugo Modules, not a vendored theme
+### Hugo modules, not a vendored theme
 
 There is no local `theme/` directory. Nearly all layout/partial logic comes from
 Go-module dependencies under `github.com/davidsneighbour/hugo-modules/modules/*`
@@ -160,8 +176,8 @@ does not match this repo's actual pinned Hugo version (0.140.2), and its build
 removed without also removing the submodule's gitlink entry) with no content
 checked out, and was removed outright during the `dnbhq` config-package onboarding
 since the release script that used it (`bin/repo/release/postrelease`) was replaced
-by `release-it` (see "Release process" below). Anyone acting on the Netlify build
-path SHOULD treat this as broken until reconciled, not as working prior art.
+by `release-it` (see "Commands" above). Anyone acting on the Netlify build path
+SHOULD treat this as broken until reconciled, not as working prior art.
 
 ### Styling
 

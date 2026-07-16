@@ -1,8 +1,11 @@
+<!-- markdownlint-disable-next-line title-case-style -->
+# samui-samui.de
+
 [![Netlify](https://img.shields.io/netlify/49963b4d-bb9f-411f-a9b8-521a5e3a2b42?color=%2300AD9F&logo=netlify&style=for-the-badge)](https://app.netlify.com/sites/samui-samui-de/deploys)[![GitHub issues](https://img.shields.io/github/issues-raw/davidsneighbour/samui-samui.de?logo=github&style=for-the-badge)](https://github.com/davidsneighbour/samui-samui.de/issues) ![LasCHanges](https://img.shields.io/github/last-commit/davidsneighbour/samui-samui.de?color=%23ff7700&logo=github&style=for-the-badge) [![Codacy Badge](https://img.shields.io/codacy/grade/1aa52a19ae5b42efa80f04157a29ae8d?logo=codacy&style=for-the-badge)](https://www.codacy.com/gh/davidsneighbour/samui-samui.de/dashboard) ![License](https://img.shields.io/github/license/davidsneighbour/samui-samui.de?logo=github&style=for-the-badge) ![Follow us on Twitter](https://img.shields.io/twitter/follow/hugonewsletter?color=%231DA1F2&logo=twitter&style=for-the-badge) [![Gitter Chatroom](https://img.shields.io/gitter/room/dnb-org/community?color=%23ed1965&logo=gitter&style=for-the-badge)](https://gitter.im/dnb-org/community) ![Latest Version](https://img.shields.io/github/v/tag/davidsneighbour/samui-samui.de?color=%23ed1965&label=Release&logo=hugo&logoColor=%23ffffff&sort=semver&style=for-the-badge) [![Hugo Version](https://img.shields.io/badge/Hugo-0.88.1-%23ed1965&?style=for-the-badge&logo=hugo&color=ed1965&?cacheSeconds=maxAge)](https://gohugo.io/)
 
 Website and content for [samui-samui.de](https://samui-samui.de).
 
-## Astro Migration
+## Astro migration
 
 This repository is being migrated to Astro, worked on directly on `main` (no
 separate migration branch). Migration operating rules live in `MIGRATION.md`,
@@ -10,7 +13,7 @@ project context and decisions live in `PROJECT.md`, and route/system progress
 lives in `MIGRATION.status.md`. `ROADMAP.md`/`TODO.md` track next steps; GitHub
 Issues are the source of truth for actionable work.
 
-## Local Commands
+## Local commands
 
 The site currently still runs on Hugo (pinned to v0.140.2 — see
 `HUGO-COMPATIBILITY.md`):

@@ -1,10 +1,10 @@
-const fs = require('node:fs');
-const path = require('node:path');
+const fs = require("node:fs");
+const path = require("node:path");
 
-const defaults = fs.readFileSync(path.join(__dirname, '/defaults.json'));
+const defaults = fs.readFileSync(path.join(__dirname, "/defaults.json"));
 const defaultConfiguration = JSON.parse(defaults.toString());
-const files = fs.readdirSync(path.join(__dirname, '/types/'));
-const files2 = fs.readdirSync(path.join(__dirname, '/partials/'));
+const files = fs.readdirSync(path.join(__dirname, "/types/"));
+const files2 = fs.readdirSync(path.join(__dirname, "/partials/"));
 
 let partialsConfiguration = {};
 let typeConfiguration = {};
@@ -26,7 +26,7 @@ files2.forEach((value) => {
 });
 
 fs.writeFileSync(
-  'frontmatter.json',
+  "frontmatter.json",
   `${JSON.stringify(
     {
       ...defaultConfiguration,

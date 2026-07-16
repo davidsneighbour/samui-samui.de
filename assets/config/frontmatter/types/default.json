@@ -6,9 +6,7 @@
       "previewPath": "{{permalink}}",
       "pageBundle": true,
       "filetype": "md",
-      "fieldGroup": [
-        "resources"
-      ],
+      "fieldGroup": ["resources"],
       "fields": [
         {
           "title": "Title",
@@ -55,9 +53,7 @@
           "title": "Resources",
           "name": "resources",
           "type": "block",
-          "fieldGroup": [
-            "resources"
-          ]
+          "fieldGroup": ["resources"]
         },
         {
           "title": "Weight",
@@ -74,12 +70,7 @@
           "title": "Choice",
           "name": "choice",
           "type": "choice",
-          "choices": [
-            "",
-            "Choice 1",
-            "Choice 2",
-            "Choice 3"
-          ]
+          "choices": ["", "Choice 1", "Choice 2", "Choice 3"]
         },
         {
           "title": "Choice",

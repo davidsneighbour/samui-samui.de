@@ -15,6 +15,7 @@ footer.taxonomycloud {
   padding-top: $spacer;
   color: #bababa;
   background-color: map-get($theme-colors, 'text');
+
   a {
     color: map-get($theme-colors, 'contentbg');
     text-decoration: none;
@@ -45,23 +46,23 @@ footer.taxonomycloud {
 #finisher .container {
   background: url('/assets/images/garuda.png') 50% bottom no-repeat map-get($theme-colors, 'text');
 
-  @media (max-width: 575px) {
+  @media (width <= 575px) {
     background-size: 300%;
   }
 
-  @media (min-width: 576px) and (max-width: 767px) {
+  @media (width >= 576px) and (width <= 767px) {
     background-size: 250%;
   }
 
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media (width >= 768px) and (width <= 991px) {
     background-size: 200%;
   }
 
-  @media (min-width: 992px) and (max-width: 992px) {
+  @media (width >= 992px) and (width <= 992px) {
     background-size: 140%;
   }
 
-  @media (min-width: 993px) {
+  @media (width >= 993px) {
     background-size: 140%;
   }
 

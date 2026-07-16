@@ -4,13 +4,10 @@ $primary: map-get($theme-colors, 'primary');
 $enable-rounded: false;
 $enable-deprecation-messages: true;
 $enable-important-utilities: false;
-
 $body-bg: map-get($theme-colors, 'bodybg');
 $body-color: map-get($theme-colors, 'text');
 $grid-gutter-width: 30px;
-
 $font-size-base: 1rem;
-
 $font-family-sans-serif: 'panton', sans-serif;
 $headings-font-family: 'panton', sans-serif;
 $font-weight-lighter: 400;
@@ -19,7 +16,6 @@ $font-weight-normal: 400;
 $font-weight-bold: 700;
 $font-weight-bolder: 700;
 $headings-font-weight: 400;
-
 $font-family-brandheader: 'panton', sans-serif;
 $font-weight-brandheader: 900;
 $font-size-brandheader-xs: 40px;
@@ -85,7 +81,6 @@ $brandcolors: (
 	'whatsapp': #25d366,
 	'snapchat': #fffc00
 );
-
 $header-image: 'header-201906.jpg';
 
 // forms

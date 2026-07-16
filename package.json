@@ -36,20 +36,30 @@
     "@dnbhq/markdownlint-config": "0.2.8",
     "@dnbhq/release-config": "1.1.0",
     "@release-it/conventional-changelog": "11.0.1",
+    "lint-staged": "17.0.8",
     "nanoid": ">=3.3.8",
-    "release-it": "20.2.1"
+    "release-it": "20.2.1",
+    "simple-git-hooks": "2.13.1",
+    "stylelint": "16.11.0"
   },
   "scripts": {
     "build": "wireit",
-    "check": "biome check .",
-    "check:fix": "biome check --write .",
+    "check": "npm run format:check && npm run lint",
+    "check:biome": "biome check .",
+    "check:biome:fix": "biome check --write .",
     "deploy": "wireit",
     "format": "biome format --write .",
     "format:check": "biome format .",
-    "lint": "biome lint .",
-    "lint:fix": "biome lint --write .",
+    "lint": "npm run lint:code && npm run lint:markdown",
+    "lint:code": "biome lint .",
+    "lint:code:fix": "biome lint --write .",
+    "lint:fix": "npm run lint:code:fix && npm run lint:markdown:fix",
     "lint:markdown": "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc \"**/*.{md,mdx}\"",
     "lint:markdown:fix": "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc --fix \"**/*.{md,mdx}\"",
+    "lint:staged": "lint-staged",
+    "lint:styles": "stylelint \"assets/scss/**/*.scss\"",
+    "lint:styles:fix": "stylelint \"assets/scss/**/*.scss\" --fix",
+    "prepare": "simple-git-hooks",
     "release": "release-it --config .release-it.ts --ci",
     "release:dry": "release-it --config .release-it.ts --dry-run",
     "release:force": "release-it --config .release-it.ts --ci --no-increment",
@@ -57,6 +67,21 @@
     "release:minor": "release-it --config .release-it.ts --ci --increment=minor",
     "release:patch": "release-it --config .release-it.ts --ci --increment=patch",
     "server": "wireit"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged",
+    "pre-push": "npm run check"
+  },
+  "lint-staged": {
+    "*.{js,cjs,mjs,ts}": [
+      "biome check --write"
+    ],
+    "**/!(package-lock).json": [
+      "biome check --write"
+    ],
+    "*.{md,mdx}": [
+      "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc --fix"
+    ]
   },
   "wireit": {
     "build": {
@@ -124,7 +149,18 @@
   },
   "slug": "samui-samui-de",
   "stylelint": {
-    "extends": "@davidsneighbour/stylelint-config"
+    "extends": "@davidsneighbour/stylelint-config",
+    "rules": {
+      "annotation-no-unknown": [
+        true,
+        {
+          "ignoreAnnotations": [
+            "default",
+            "global"
+          ]
+        }
+      ]
+    }
   },
   "type": "module"
 }

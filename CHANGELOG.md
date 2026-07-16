@@ -1,10 +1,10 @@
-Changelog
-## [1.2024.7](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.6...v1.2024.7) (2025-01-10)
+# Changelog
 
-## [1.2024.6](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.5...v1.2024.6) (2025-01-10)
+## [1.2024.7](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.6…v1.2024.7) (2025-01-10)
 
-## [1.2024.5](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.4...v1.2024.5) (2025-01-10)
+## [1.2024.6](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.5…v1.2024.6) (2025-01-10)
 
+## [1.2024.5](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.4…v1.2024.5) (2025-01-10)
 
 ### Chore
 
@@ -13,20 +13,17 @@ Changelog
 * **config:** move renovate config ([1862f85](https://github.com/davidsneighbour/samui-samui.de/commit/1862f85162026ce0effa8b30dd8ca779de5d72f4))
 * **config:** update engine versions ([e0e4d1d](https://github.com/davidsneighbour/samui-samui.de/commit/e0e4d1de485992bf1adf35af73028e241a604f6e))
 
-
-### Build System
+### Build system
 
 * **dev-deps:** update nanoid to >=3.3.8 ([fd2503e](https://github.com/davidsneighbour/samui-samui.de/commit/fd2503e0797c494662829989443d4f103231c106))
 * **fix:** update build commands ([f313a97](https://github.com/davidsneighbour/samui-samui.de/commit/f313a97d36e28e12a7bfc009052d5e979d321eb0))
 
-## [1.2024.4](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.3...v1.2024.4) (2024-12-19)
-
+## [1.2024.4](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.3…v1.2024.4) (2024-12-19)
 
 ### Content
 
 * **fix:** remove type frontmatter ([7724f28](https://github.com/davidsneighbour/samui-samui.de/commit/7724f284b534944722e9ede076e2dca126bfd13f))
 * update archive setup ([c339a6d](https://github.com/davidsneighbour/samui-samui.de/commit/c339a6dda72c655ef60b3421287e594dcc2a6b87))
-
 
 ### Theme
 
@@ -37,11 +34,9 @@ Changelog
 * **fix:** pagination and other configuration fixes ([eaf5b70](https://github.com/davidsneighbour/samui-samui.de/commit/eaf5b7025b7643f59f92378736ea69f9161b9d41))
 * **fix:** remove algolia setup ([36f7db9](https://github.com/davidsneighbour/samui-samui.de/commit/36f7db997242c32ee8da568d3b7fcfda71594a4b))
 
-
 ### Refactors
 
 * line endings ([3f37267](https://github.com/davidsneighbour/samui-samui.de/commit/3f372673c8ecc3514c3e20fec7be64e7a8da7910))
-
 
 ### Chore
 
@@ -58,8 +53,7 @@ Changelog
 * **deps:** update dependencies ([6241cf7](https://github.com/davidsneighbour/samui-samui.de/commit/6241cf77098c96c36bbaa023747a4e8e51be0cb5))
 * **deps:** update dependencies ([e29a2d8](https://github.com/davidsneighbour/samui-samui.de/commit/e29a2d8a8b22862cd817c0fc931110a9e8101ee7))
 
-
-### Build System
+### Build system
 
 * **deps:** bump @davidsneighbour/bootstrap-config from 2024.3.33 to 2024.3.34 ([#506](https://github.com/davidsneighbour/samui-samui.de/issues/506)) ([87208cb](https://github.com/davidsneighbour/samui-samui.de/commit/87208cb44e7b3edc128f30472ec907cd4adac2c1))
 * **deps:** bump @davidsneighbour/commitlint-config from 2024.3.33 to 2024.3.34 ([#503](https://github.com/davidsneighbour/samui-samui.de/issues/503)) ([866bcfd](https://github.com/davidsneighbour/samui-samui.de/commit/866bcfd2e1c567b57b94ffbae28efa7d3a1719a7))
@@ -77,23 +71,20 @@ Changelog
 * **deps:** update hugo modules ([065a480](https://github.com/davidsneighbour/samui-samui.de/commit/065a4803d58dbcdefc05a710cf94f794d86ec632))
 * **fix:** update submodule setup ([aadfae0](https://github.com/davidsneighbour/samui-samui.de/commit/aadfae0abbf3fd4a939c154b5b83fa7c622a4923))
 
-
 ### CI
 
 * **config:** update dependabot setup ([c4c40ec](https://github.com/davidsneighbour/samui-samui.de/commit/c4c40eca63e14ee85d864f4252b85525c511297f))
 
-## [1.2024.3](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.2...v1.2024.3) (2024-08-18)
+## [1.2024.3](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.2…v1.2024.3) (2024-08-18)
 
-## [1.2024.2](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.1...v1.2024.2) (2024-08-18)
-
+## [1.2024.2](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.1…v1.2024.2) (2024-08-18)
 
 ### Chore
 
 * **config:** set nvmrc ([765d73d](https://github.com/davidsneighbour/samui-samui.de/commit/765d73d3dbf460e738174c338e0a9cdafaae0cfc))
 * **config:** update editor configuration ([c0bf9f2](https://github.com/davidsneighbour/samui-samui.de/commit/c0bf9f2d3f0de57cf0cf7017b93e7521d430fe38))
 
-## [1.2024.1](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.0...v1.2024.1) (2024-08-18)
-
+## [1.2024.1](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.0…v1.2024.1) (2024-08-18)
 
 ### Chore
 

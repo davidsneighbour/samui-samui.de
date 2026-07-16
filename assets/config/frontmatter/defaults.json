@@ -33,20 +33,14 @@
       "type": "date"
     }
   ],
-  "frontMatter.content.supportedFileTypes": [
-    "md"
-  ],
+  "frontMatter.content.supportedFileTypes": ["md"],
   "frontMatter.content.wysiwyg": true,
   "frontMatter.content.snippet": [
     "{{< caption \"{mediaUrl}\" \"Description\" >}}"
   ],
   "frontMatter.dashboard.openOnStart": true,
   "frontMatter.framework.id": "hugo",
-  "frontMatter.global.notifications": [
-    "info",
-    "warning",
-    "error"
-  ],
+  "frontMatter.global.notifications": ["info", "warning", "error"],
   "frontMatter.media.defaultSorting": "FileNameAsc",
   "frontMatter.panel.freeform": true,
   "frontMatter.preview.host": "http://192.168.1.201:1313",
@@ -58,9 +52,7 @@
   "frontMatter.taxonomy.dateFormat": "yyyy-MM-dd'T'H:mm:ssxxx",
   "frontMatter.taxonomy.frontMatterType": "YAML",
   "frontMatter.taxonomy.indentArrays": false,
-  "frontMatter.taxonomy.noPropertyValueQuotes": [
-    "date"
-  ],
+  "frontMatter.taxonomy.noPropertyValueQuotes": ["date"],
   "frontMatter.taxonomy.seoContentLength": 1760,
   "frontMatter.taxonomy.seoDescriptionField": "description",
   "frontMatter.taxonomy.seoDescriptionLength": 170,

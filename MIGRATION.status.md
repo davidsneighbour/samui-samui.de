@@ -1,4 +1,4 @@
-# Astro Migration Status
+# Astro migration status
 
 This file tracks visible migration progress for the Astro migration described in
 `MIGRATION.md`. GitHub Issues remain the source of truth for tasks. This file
@@ -17,14 +17,14 @@ Resolved means `done + removed`.
 | ---: | ---: | ---: | ---: | ---: | ---: |
 | 0 | 0 | 10 | 1 | 11 | 9% |
 
-## Status Values
+## Status values
 
-- `untouched`: not migrated yet.
-- `in progress`: migration work has started but parity is not accepted.
-- `done`: migrated and parity-checked.
-- `removed`: intentionally not migrated; redirect or equivalent handling is tracked.
+* `untouched`: not migrated yet.
+* `in progress`: migration work has started but parity is not accepted.
+* `done`: migrated and parity-checked.
+* `removed`: intentionally not migrated; redirect or equivalent handling is tracked.
 
-## Page and Route Inventory
+## Page and route inventory
 
 | Source path | Target path | Status | Issue | Notes |
 | --- | --- | --- | --- | --- |
@@ -39,7 +39,7 @@ Resolved means `done + removed`.
 | `content/feiertage/` | TBD | untouched | none yet | Not a registered Hugo collection; unclear if it renders its own routes or is only consumed as data. See Open Inventory Questions. |
 | `content/sitewide/` (e.g. `authorfooter`) | TBD | untouched | none yet | Cross-page snippets, not routes. See Open Inventory Questions. |
 
-## Asset and System Inventory
+## Asset and system inventory
 
 | Area | Status | Issue | Notes |
 | --- | --- | --- | --- |
@@ -53,18 +53,18 @@ Resolved means `done + removed`.
 | `/admin` (Decap/Netlify CMS) | **removed** | #708 | Confirmed unconfigured boilerplate; dropped from parity target. |
 | Netlify deployment config | untouched | #709 | Currently broken/stale regardless of Hugo vs. Astro — see `netlify.toml`. |
 
-## Accepted Disparities
+## Accepted disparities
 
-- `/admin` (Decap/Netlify CMS admin UI) will not be recreated in Astro — see issue
+* `/admin` (Decap/Netlify CMS admin UI) will not be recreated in Astro — see issue
   #708 and the decision log in `PROJECT.md`.
 
-## Open Inventory Questions
+## Open inventory questions
 
-- Does `content/feiertage/` (holidays) render its own public routes, or is it purely
+* Does `content/feiertage/` (holidays) render its own public routes, or is it purely
   data consumed by templates (e.g. a holiday calendar widget)? Affects whether it
   needs a dedicated route-parity issue.
-- Does `content/sitewide/` need anything beyond being reproduced as shared
+* Does `content/sitewide/` need anything beyond being reproduced as shared
   layout/component content (i.e., is it ever a standalone route)?
-- Are there real historical redirects anywhere (front matter `aliases`, a hand-written
+* Are there real historical redirects anywhere (front matter `aliases`, a hand-written
   `static/_redirects`, etc.) beyond the boilerplate currently generated into
   `public/_redirects`?

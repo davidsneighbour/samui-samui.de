@@ -1,7 +1,5 @@
 #pagefind {
-
     .pagefind-ui__form {
-
         @extend .input-group;
         @extend .mb-3;
 
@@ -36,23 +34,13 @@
             @extend .card;
             @extend .col-md-4;
             @extend .col-12;
+
             border: 0;
 
 
             .pagefind-ui__result-thumb {
-
                 img {
                     max-width: 100%;
-                }
-            }
-
-            .pagefind-ui__result-inner {
-
-                .pagefind-ui__result-title {}
-
-                .pagefind-ui__result-excerpt {
-
-                    mark {}
                 }
             }
         }
