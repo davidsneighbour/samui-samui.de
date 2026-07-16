@@ -17,7 +17,8 @@
     "public": true,
   },
   "explorer.fileNesting.patterns": {
-    "hugo.log": "hugo_stats.json, .hugo_build.lock"
+    "hugo.log": "hugo_stats.json, .hugo_build.lock",
+    "README.md": "CLAUDE.md, AGENTS.md, SECURITY.md, TODO.md, ROADMAP.md, DEVNOTES.md"
   },
   "html.format.wrapLineLength": 120,
   "editor.wordWrapColumn": 120,
