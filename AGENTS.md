@@ -57,6 +57,11 @@ away from Hugo entirely — pin the version instead of chasing compatibility.
 
   Every issue SHOULD carry at least one `type:*` label and one `status:*` label.
 
+- When an agent shows an issue number in its output or summaries to the user (not
+  in commit messages, where `#123` is sufficient), it MUST link to the issue online,
+  e.g. `[#123](https://github.com/davidsneighbour/samui-samui.de/issues/123)`, rather
+  than printing a bare number.
+
 - `ROADMAP.md` MUST reflect the current set of open GitHub issues (a generated index,
   not hand-maintained prose) and `TODO.md` MUST stay a scratchpad for notes that are
   not yet actionable GitHub issues. The `dnb-project-task-triage` skill governs
