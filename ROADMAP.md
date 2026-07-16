@@ -15,8 +15,10 @@ tracked in `MIGRATION.status.md`.**
   `PROJECT.md`).
 * A prior Astro rewrite (21 commits, all 2,049 posts already migrated) was
   recovered after an earlier accidental force-push and is backed up at
-  `origin/recovered-astro-main`. Adoption is undecided — see #689.
-* Open GitHub issues: 21, across 6 milestones (see below) plus 1 unmilestoned
+  `origin/recovered-astro-main`. **Adopted** as the Astro Foundation base
+  (#689 closed, decision in `PROJECT.md`) — its foundation builds cleanly but
+  has no page routes for any collection yet; that work is scoped into #690.
+* Open GitHub issues: 20, across 6 milestones (see below) plus 1 unmilestoned
   cross-cutting issue.
 * Label taxonomy (`type:*`, `status:*`, `prio:*`, `resolution:*`, `meta:*`) is set
   up and in active use — see `AGENTS.md` for the full table.
@@ -25,8 +27,6 @@ tracked in `MIGRATION.status.md`.**
 
 ### Migration: inventory
 
-* #689 Review recovered-astro-main branch and decide adoption (`prio:high` — blocks
-  meaningful Astro Foundation/Content Parity progress)
 * #688 Inventory current site for Astro migration (parent/tracking)
 
 ### Migration: astro foundation
@@ -70,11 +70,11 @@ tracked in `MIGRATION.status.md`.**
 
 ## Recently closed migration issues
 
-None yet.
+* #689 Review recovered-astro-main branch and decide adoption — **adopted**, see
+  `PROJECT.md` decision log and the issue's closing comment for the full review.
 
 ## Open clarification questions
 
-* Adoption of `origin/recovered-astro-main` (#689) — pending.
 * Whether `content/feiertage/` and `content/sitewide/` need dedicated route-parity
   issues — see "Open Inventory Questions" in `MIGRATION.status.md`.
 * Whether any real historical redirects exist beyond the current boilerplate
@@ -82,10 +82,13 @@ None yet.
 
 ## Recommended next steps
 
-1. Resolve #689 (recovered branch adoption decision) — it blocks meaningful
-   progress on Astro Foundation and Content Parity work.
-2. Once resolved, proceed with #688 (inventory) and #690 (Astro foundation) in
-   parallel.
-3. Work through Content Parity issues (#696-#704) once the foundation exists.
-4. Address Cleanup issues (#708, #709) opportunistically — they don't block
+1. #690 (Astro Foundation): bring `origin/recovered-astro-main` into `main`, then
+   build the missing page-route layer (individual post/leute/tag pages, archive,
+   kontakt/suche/datenschutzerklaerung) — the recovered branch's content is ready
+   but has no routes to render it yet.
+2. #688 (inventory) can proceed in parallel.
+3. Work through remaining Content Parity issues (#696, #700-#704) once routes
+   exist for the collections that need them.
+4. Work through Content Parity issues (#696-#704) once the foundation exists.
+5. Address Cleanup issues (#708, #709) opportunistically — they don't block
    migration progress but are independent, low-risk fixes.

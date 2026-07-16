@@ -6,16 +6,26 @@ answers: "How close are we to the same website on Astro?"
 
 ## Summary
 
-Status basis: local scan of `main` (Hugo source) plus inspection of the recovered
-`origin/recovered-astro-main` branch, 2026-07-17. No content has been ported into
-`main` yet — the counts below reflect what still needs doing on `main`, not what
-exists (unreviewed) on `recovered-astro-main`.
+Status basis: local scan of `main` (Hugo source) plus a full review of the recovered
+`origin/recovered-astro-main` branch (built it locally in an isolated worktree),
+2026-07-17. **Adoption decided: yes** (see `PROJECT.md` decision log) — but nothing
+has been ported into `main` yet, that's issue #690. The counts below reflect what
+still needs doing on `main`, and notes flag what's already done on
+`recovered-astro-main` vs. what's missing even there.
+
+Review findings: the Astro foundation (config, integrations, Tailwind v4, Biome,
+pagefind, image processing, package.json generation pipeline) builds cleanly and is
+usable as-is. Content for `posts`/`leute`/`tags` is fully migrated with clean front
+matter. However, **no page routes exist for any collection** — no individual post
+pages, no leute pages, no tag pages, no archive, no kontakt/suche/datenschutzerklaerung.
+Only `/`, `/about`, paginated `/seite/N`, and RSS actually render (104 pages total).
+Every post link in the paginated list currently points at a route that doesn't exist.
 
 Resolved means `done + removed`.
 
 | Done | In progress | Untouched | Removed | Total | Resolved |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 0 | 0 | 10 | 1 | 11 | 9% |
+| 0 | 3 | 14 | 1 | 18 | 6% |
 
 ## Status values
 
@@ -32,9 +42,9 @@ Resolved means `done + removed`.
 | `/kontakt/` | TBD | untouched | #696, #702 | Contains the contact form. |
 | `/datenschutzerklaerung/` | TBD | untouched | #696 | Privacy policy. |
 | `/suche/` | TBD | untouched | #696 | Search page (Pagefind-backed). |
-| `content/posts/<year>/<slug>/` (2,049 posts) | `src/content/posts/**` | untouched | #697 | Already migrated on `recovered-astro-main`, pending adoption decision. |
-| `content/leute/<slug>/` | `src/content/leute/**` | untouched | #698 | Already migrated on `recovered-astro-main`, pending adoption decision. |
-| `content/tags/<tag>/` | `src/content/tags/**` | untouched | #699 | Already migrated on `recovered-astro-main`, pending adoption decision. |
+| `content/posts/<year>/<slug>/` (2,049 posts) | `src/content/posts/**` | in progress | #697 | Content fully migrated on `recovered-astro-main` (adopted, see #690), front matter clean. **No individual post page route exists yet** — only the paginated list links to post URLs that 404. |
+| `content/leute/<slug>/` | `src/content/leute/**` | in progress | #698 | Content migrated (incl. images/webp) on `recovered-astro-main`. **No leute page route exists yet.** |
+| `content/tags/<tag>/` | `src/content/tags/**` | in progress | #699 | Content/collection schema migrated on `recovered-astro-main`. **No tag page route exists yet.** |
 | `content/archive/<year>.md` | TBD | untouched | #700 | Recovered branch history mentions archive pagination work landing and later being reworked — reconcile, don't assume complete. |
 | `content/feiertage/` | TBD | untouched | none yet | Not a registered Hugo collection; unclear if it renders its own routes or is only consumed as data. See Open Inventory Questions. |
 | `content/sitewide/` (e.g. `authorfooter`) | TBD | untouched | none yet | Cross-page snippets, not routes. See Open Inventory Questions. |

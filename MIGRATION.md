@@ -20,9 +20,12 @@ The terms MUST, MUST NOT, SHOULD, SHOULD NOT, and MAY are used as described in
 * Scratchpad inbox: `TODO.md`, managed by `dnb-project-task-triage`.
 * **A prior Astro rewrite was recovered and backed up to
   `origin/recovered-astro-main`** (21 commits, all 2,049 posts already
-  migrated, Tailwind v4 + Biome tooling). Its adoption is undecided — see
-  issue #689. Do not build new Astro scaffolding that ignores this without
-  first checking that issue's status.
+  migrated, Tailwind v4 + Biome tooling). **Adopted as the Astro Foundation
+  base** (decision recorded in `PROJECT.md`, issue #689 closed). Its
+  foundation builds cleanly, but it has no page routes for any content
+  collection yet — that gap is scoped into issue #690. Do not treat the
+  recovered branch as ready to deploy; it is a starting point, not a
+  finished site.
 
 ## Agent startup checklist
 
