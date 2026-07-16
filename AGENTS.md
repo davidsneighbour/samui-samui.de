@@ -7,19 +7,29 @@ a documented reason, MAY is optional.
 
 ## Current phase
 
-This repository is a Hugo static site today. It is planned to migrate to Astro (see
-`TODO.md`, and the `dnb-astro-migration-project` skill when that migration is formally
-kicked off). Until the migration project changes this:
+This repository is a Hugo static site today, and an Astro migration is now actively
+underway (bootstrapped via the `dnb-astro-migration-project` skill).
 
-- Contributors MUST keep working directly on `main`. There MUST NOT be long-lived
-  feature branches for routine work.
+- **All migration work happens directly on `main`.** By explicit user decision,
+  this project does NOT use a separate `migration` branch, overriding that skill's
+  default convention. There MUST NOT be long-lived feature branches for routine or
+  migration work.
 - `legacy/hugo` is a frozen copy of `main` taken before the migration effort and MUST
   NOT be used for new work.
+- Migration operating rules live in `MIGRATION.md`; route/system progress lives in
+  `MIGRATION.status.md`; project context and the decision log live in `PROJECT.md`.
+  An agent doing migration work MUST read all three (plus `ROADMAP.md`/`TODO.md`)
+  before editing implementation files — see `MIGRATION.md`'s Agent Startup Checklist.
+- A prior Astro rewrite (21 commits, all 2,049 posts already migrated, Tailwind v4 +
+  Biome) was recovered after an earlier accidental force-push and is backed up at
+  `origin/recovered-astro-main`. Its adoption is undecided — see the tracking issue
+  linked from `PROJECT.md`'s decision log. Do not build new Astro scaffolding without
+  checking that issue's status first.
 - The live site is https://samui-samui.de. When a change's effect is unclear from
   reading code alone, agents SHOULD compare local output against the live site rather
   than guessing.
-- New styling work that anticipates the Astro migration SHOULD prefer Tailwind CSS
-  v4+. The current site itself still runs on `@davidsneighbour/bootstrap-config` and
+- New styling work for the Astro migration SHOULD prefer Tailwind CSS v4+. The
+  current site itself still runs on `@davidsneighbour/bootstrap-config` and
   hand-written SCSS (`assets/scss/`) — that MUST NOT be reworked to Tailwind piecemeal
   while the site is still Hugo-based; Tailwind applies to the migration target, not to
   retrofits of the current SCSS.
