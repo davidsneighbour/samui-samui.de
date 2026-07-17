@@ -1,0 +1,14 @@
+{
+  "dictionaries": ["samuisamui-de"],
+  "dictionaryDefinitions": [
+    {
+      "addWords": true,
+      "name": "samuisamui-de",
+      "path": "./samuisamui-de.dict.txt"
+    }
+  ],
+  "files": ["src/content/**/*.{md,mdx}"],
+  "ignorePaths": [],
+  "language": "de",
+  "version": "0.2"
+}

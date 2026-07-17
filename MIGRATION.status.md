@@ -6,20 +6,23 @@ answers: "How close are we to the same website on Astro?"
 
 ## Summary
 
-Status basis: local scan of `main` (Hugo source) plus a full review of the recovered
-`origin/recovered-astro-main` branch (built it locally in an isolated worktree),
-2026-07-17. **Adoption decided: yes** (see `PROJECT.md` decision log) — but nothing
-has been ported into `main` yet, that's issue #690. The counts below reflect what
-still needs doing on `main`, and notes flag what's already done on
-`recovered-astro-main` vs. what's missing even there.
+Status basis: local scan of `main` after landing the Astro foundation, 2026-07-17.
+**The Astro foundation is now live on `main`** (issue #690 done): `astro.config.ts`
+(TypeScript, per user decision — Astro pinned to 6.4.8, not 7.x, since some
+integrations hadn't caught up to Astro 7 peer deps yet), `biome.jsonc` extending
+`@dnbhq/biome-config`, the `src/packages/*.jsonc` fragment-based `package.json`
+generation pipeline, and all Hugo source/config/tooling removed entirely (by
+explicit user decision — Hugo no longer needs to be deployed). `npm run build`,
+`npm run astro:check` (typecheck), and `npm run check` (biome + markdownlint) all
+pass clean.
 
-Review findings: the Astro foundation (config, integrations, Tailwind v4, Biome,
-pagefind, image processing, package.json generation pipeline) builds cleanly and is
-usable as-is. Content for `posts`/`leute`/`tags` is fully migrated with clean front
-matter. However, **no page routes exist for any collection** — no individual post
-pages, no leute pages, no tag pages, no archive, no kontakt/suche/datenschutzerklaerung.
-Only `/`, `/about`, paginated `/seite/N`, and RSS actually render (104 pages total).
-Every post link in the paginated list currently points at a route that doesn't exist.
+Content for `posts`/`leute`/`tags` is fully migrated with clean front matter (from
+`recovered-astro-main`). However, **no page routes exist yet for any collection** —
+no individual post pages, no leute pages, no tag pages, no archive, no
+kontakt/suche/datenschutzerklaerung. Only `/`, `/about`, paginated `/seite/N`, and
+RSS actually render (104 pages total). Every post link in the paginated list
+currently points at a route that doesn't exist yet — that's the remaining Content
+Parity work (#696, #697, #698, #699, #700).
 
 Resolved means `done + removed`.
 

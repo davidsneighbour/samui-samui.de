@@ -8,43 +8,40 @@ a documented reason, MAY is optional.
 
 ## Current phase
 
-This repository is a Hugo static site today, and an Astro migration is now actively
-underway (bootstrapped via the `dnb-astro-migration-project` skill).
+This repository is an Astro static site (`output: 'static'`). It was a Hugo site
+until 2026-07-17, when the Astro foundation was landed on `main` and Hugo was
+removed entirely (issue #690) — by explicit user decision, since Hugo no longer
+needed to be deployed and there was no reason to keep it around during the
+migration. `HUGO-COMPATIBILITY.md` is kept as historical record only.
 
 * **All migration work happens directly on `main`.** By explicit user decision,
-  this project does NOT use a separate `migration` branch, overriding that skill's
-  default convention. There MUST NOT be long-lived feature branches for routine or
-  migration work.
-* `legacy/hugo` is a frozen copy of `main` taken before the migration effort and MUST
-  NOT be used for new work.
+  this project does NOT use a separate `migration` branch, overriding the
+  `dnb-astro-migration-project` skill's default convention. There MUST NOT be
+  long-lived feature branches for routine or migration work.
+* `legacy/hugo` is a frozen copy of `main` taken before the migration effort — the
+  only place the old Hugo source (`content/`, `layouts/`, `config/`, etc.) still
+  exists in the working tree. Use it to look something up; MUST NOT be used for new
+  work.
 * Migration operating rules live in `MIGRATION.md`; route/system progress lives in
   `MIGRATION.status.md`; project context and the decision log live in `PROJECT.md`.
   An agent doing migration work MUST read all three (plus `ROADMAP.md`/`TODO.md`)
   before editing implementation files — see `MIGRATION.md`'s Agent Startup Checklist.
-* A prior Astro rewrite (21 commits, all 2,049 posts already migrated, Tailwind v4 +
-  Biome) was recovered after an earlier accidental force-push and is backed up at
-  `origin/recovered-astro-main`. Its adoption is undecided — see the tracking issue
-  linked from `PROJECT.md`'s decision log. Do not build new Astro scaffolding without
-  checking that issue's status first.
-* The live site is [https://samui-samui.de](https://samui-samui.de). When a change's effect is unclear from
-  reading code alone, agents SHOULD compare local output against the live site rather
-  than guessing.
-* New styling work for the Astro migration SHOULD prefer Tailwind CSS v4+. The
-  current site itself still runs on `@davidsneighbour/bootstrap-config` and
-  hand-written SCSS (`assets/scss/`) — that MUST NOT be reworked to Tailwind piecemeal
-  while the site is still Hugo-based; Tailwind applies to the migration target, not to
-  retrofits of the current SCSS.
-
-## Hugo version
-
-This repository MUST be built and served with **Hugo v0.140.2 (extended)**, not
-whatever version happens to be installed. See `HUGO-COMPATIBILITY.md` for the full
-list of things that break on newer Hugo (deprecated config keys, a `html/template`
-escaper failure in the vendored `schema` module, a `partials/`-prefix double-include
-bug in the vendored `hooks` and `netlification` modules, and Hugo's Node
-`--permission` sandboxing rejecting PostCSS/browserslist's directory walk). None of
-that SHOULD be fixed forward for newer Hugo versions, since the project is migrating
-away from Hugo entirely — pin the version instead of chasing compatibility.
+* The Astro foundation came from a prior rewrite (`origin/recovered-astro-main`)
+  that was recovered after an earlier accidental force-push, reviewed, and adopted
+  (see `PROJECT.md`'s decision log). It has content for `posts`/`leute`/`tags`
+  fully migrated, but **no page routes for any collection yet** — building those is
+  the current Content Parity work (see `MIGRATION.status.md`).
+* The live site is [https://samui-samui.de](https://samui-samui.de) — since the
+  Hugo source is gone from `main`, this (or `legacy/hugo`) is the parity reference
+  now, not local Hugo output. When a change's effect is unclear from reading code
+  alone, agents SHOULD compare local output against the live site rather than
+  guessing.
+* Styling uses Tailwind CSS v4 (`@tailwindcss/vite`) — no Bootstrap/SCSS remains.
+* Astro is pinned to **6.4.8**, not 7.x, per explicit user decision — at the time
+  of the migration some integrations (e.g. `@astrojs/mdx`) hadn't caught up to
+  Astro 7's peer dependency requirements yet. Do not bump to an Astro 7.x line
+  without checking that integration compatibility has actually caught up.
+* `astro.config.ts` (TypeScript), not `.mjs` — per explicit user preference.
 
 ## Change tracking
 
@@ -88,102 +85,82 @@ away from Hugo entirely — pin the version instead of chasing compatibility.
 
 ```bash
 npm install               # install dependencies; also installs git hooks (see below)
-npm run server            # wireit: hugo server -D -E -F --disableFastRender --tlsAuto (dumps config to data/dnb/samuisamui/config.json first)
-npm run build              # wireit: hugo --gc --minify, then pagefind indexing
-npm run deploy              # wireit: build, then netlify deploy --prod --open
-npm run check               # non-mutating quality gate: format:check + lint (Biome + markdownlint)
-npm run lint:fix             # apply safe autofixes: Biome + markdownlint
-npm run release              # release-it --config .release-it.ts --ci (see "Release process" below)
-npm run release:dry          # release-it dry run, no git/GitHub side effects
+npm run dev                # astro dev --verbose
+npm run build               # astro check && astro build --verbose, then pagefind indexing
+npm run preview              # astro preview
+npm run astro:check          # astro check (typecheck) on its own
+npm run check                # non-mutating quality gate: format:check + lint (Biome + markdownlint)
+npm run lint:fix              # apply safe autofixes: Biome + markdownlint
+npm run compile:package        # regenerate package.json from src/packages/**/*.jsonc fragments, then npm install
+npm run release                # release-it --config .release-it.ts --ci
+npm run release:dry             # release-it dry run, no git/GitHub side effects
 ```
 
-`check`/`lint` cover Biome (`check:biome*`, `lint:code*`, `format*`) and Markdown
+**`package.json` is generated, not hand-edited.** It's rebuilt from
+`src/packages/**/*.jsonc` fragment files by `src/packages/generate-package.ts`
+(invoked via `npm run compile:package`), which preserves only a fixed set of
+identity fields (name/description/version/author/etc.) from the existing
+`package.json` and rebuilds everything else — `dependencies`, `scripts`,
+`simple-git-hooks`, `lint-staged`, all of it — purely from the fragments. If you
+add a dependency or script, add or edit the relevant fragment under
+`src/packages/{build,linting,site}/*.jsonc` and regenerate; do not hand-edit
+`package.json` directly, it will be overwritten. Fragment processing order isn't
+strictly alphabetical (glob-determined) — if two fragments define the same
+`scripts`/`devDependencies` key, whichever is processed later silently wins, so
+check for key collisions across fragments before adding one (this bit us once:
+`dnbhq.jsonc`'s `check` script silently overwrote `astro.jsonc`'s `astro check`,
+since `check`/`build` are common names — resolved by renaming the astro one to
+`astro:check`).
+
+`check`/`lint` cover Biome (`lint:code*`, `format*`) and Markdown
 (`lint:markdown*`) via `@dnbhq/biome-config` and `@dnbhq/markdownlint-config`.
-Stylelint (`lint:styles`/`lint:styles:fix`, `@davidsneighbour/stylelint-config`) is
-wired as a standalone script but deliberately left out of `check`/`lint` and the git
-hooks below — the current hand-written SCSS (`assets/scss/`) has a known, accepted
-lint backlog (legacy Sass global functions, ID-heavy widget selectors) that will be
-addressed by rewriting to Tailwind during the Astro migration, not by retrofitting
-this Bootstrap-era SCSS. Run `npm run lint:styles` manually if you need it.
+`biome.jsonc` extends `@dnbhq/biome-config` — keep its `$schema` version in sync
+with the installed `@biomejs/biome` version, or `biome check` hard-fails on
+version mismatch (run `biome migrate --write` after bumping Biome). Markdownlint
+is intentionally scoped away from `src/content/**` via the local
+`.markdownlint-cli2.jsonc`'s `ignores` — the 20-year blog archive predates (and
+isn't held to) the doc-oriented ruleset. `lint:spell` (cspell) is a separate,
+non-blocking script — it is not wired into `check`, pre-commit, or pre-push,
+because content has ~191k "unknown word" hits and isn't in scope to fix as part
+of routine work.
 
 `simple-git-hooks` installs a `pre-commit` hook (`lint-staged`: Biome + markdownlint
 against staged files only) and a `pre-push` hook (`npm run check`, full-repo) via the
-`prepare` script, which `npm install` runs automatically. Pre-commit hooks are also
-defined separately in `.pre-commit-config.yaml` (JSON/TOML/YAML validation,
-merge-conflict markers, private-key detection, etc.), installed with `pre-commit
-install` (see `DEVNOTES.md`). Both tools write to the same `.git/hooks/pre-commit`
-file — whichever is installed last wins and silently replaces the other's hook
-script. If both are needed locally, chain them manually (e.g. have one hook call the
-other) rather than running both installers back to back.
-
-Running `hugo` directly (not via wireit) works for quick checks; `hugo server` holds
-a `.hugo_build.lock` for its lifetime, so a second `hugo`/`hugo server` invocation
-while one is already running will hang waiting on that lock rather than erroring.
+`prepare` script, which `npm install` runs automatically.
 
 ## Architecture
 
-### Hugo modules, not a vendored theme
+### Astro foundation
 
-There is no local `theme/` directory. Nearly all layout/partial logic comes from
-Go-module dependencies under `github.com/davidsneighbour/hugo-modules/modules/*`
-(imported in `config/_default/module.toml`), each one a separately versioned
-repository owned by the same author: `debug`, `hooks`, `functions`, `modder`,
-`auditor`, `feeds`, `giscus`, `head`, `headerimage`, `icons`, `netlification`,
-`opensearch`, `pictures`, `publisher`, `pwa`, `renderhooks`, `robots`, `schema`,
-`security`, `shortcodes`, `sitemap`, `social`, `youtube`, plus a few standalone
-modules (`hugo-icons`, `hugo-icon-pack-lucide`, `hugo-robots`, `hugo-netlification`,
-`hugo-shortcodes`). Local `layouts/` only holds this site's own overrides
-(`_default/`, `posts/`, `archive/`, `partials/`, `shortcodes/`) — a local file at the
-same relative path as a module's file always wins, which is the supported way to
-patch a module's template without editing vendor code.
+Static output (`output: 'static'`) via `astro.config.ts`. Integrations: `@astrojs/mdx`,
+`@astrojs/sitemap`, `@astrojs/rss`, `astro-icon`, a hand-rolled `pagefind` build
+integration (`src/scripts/integrations/pagefind.ts`), and `@tailwindcss/vite` for
+styling. Path aliases (`@assets`, `@components`, `@config`, `@content`, `@data`,
+`@layouts`, `@packages`, `@pages`, `@scripts`, `@styles`, `@test`, `@utils`, `@/*`)
+are defined in `tsconfig.json`.
 
-Module source is cached under `~/.cache/hugo_cache/modules/filecache/...`, not the
-regular Go module cache — that is where to look when a module's actual template
-source needs to be read for debugging.
+### Content collections
 
-### Hooks system
+Defined in `src/content.config.ts`: `posts` (`src/content/posts/**/index.md`,
+2,049 posts, oldest from 2005), `leute` ("people",
+`src/content/leute/**/_index.md`), `tags` (`src/content/tags/**/_index.md`). Content
+for all three is migrated and front-matter-clean, but **no page routes render any
+of them yet** — see `MIGRATION.status.md` for what's still missing (individual
+post/leute/tag pages, archive, kontakt/suche/datenschutzerklaerung). `src/content/`
+also holds a few standalone pages (`datenschutzerklaerung.md`, `kontakt.md`,
+`suche.md`) and non-collection content (`feiertage/`, `sitewide/`) whose route
+treatment is still an open question (see `MIGRATION.status.md`'s Open Inventory
+Questions).
 
-Layout injection points (`head-start`, `head-end`, `body-start`, `content-start`,
-`content-end`, `sidebar-start`, `sidebar-end`, `container-start`, `container-end`,
-`body-end` — documented in `DEVNOTES.md`) are wired through the `hooks` module and
-configured under `[dnb.hooks]` in `config/_default/params.toml` /
-`config/development/params.toml`, keyed by hook name and pointing at a partial in
-`layouts/partials/hooks/`.
+### Pages (current state)
 
-### Config is split by concern, per environment
-
-`config/_default/*.toml` holds one file per Hugo config concern (build, hugo,
-imaging, languages, markup, mediatypes, menus, module, outputformats, outputs,
-pagination, params, permalinks, privacy, related, sitemap, taxonomies).
-`config/development/` overrides a subset of these for local dev. There is a single
-language (`de`).
-
-### Content
-
-`content/posts/<year>/...` holds blog posts (oldest content dates back to 2005).
-`content/leute/` ("people") and `content/tags/` are additional content sections.
-`content/archive/<year>.md` provides year-based archive pages. `content/sitewide/`
-holds cross-page snippets (e.g. `authorfooter`). `content/feiertage/` (holidays) and
-`content/datenschutzerklaerung.md`/`kontakt.md`/`suche.md` are standalone pages.
+`src/pages/index.astro` (paginated home/blog-list), `src/pages/about.astro`,
+`src/pages/seite/[seite].astro` (pagination), `src/pages/rss.xml.js`. That's it —
+everything else is still to be built.
 
 ### Deployment
 
-Netlify is the deploy target (`netlify.toml`), but `netlify.toml` currently pins a
-long-stale toolchain (`HUGO_VERSION = "0.101.0"`, `NODE_VERSION = "16.8.0"`) that
-does not match this repo's actual pinned Hugo version (0.140.2), and its build
-`command` (`./bin/netlify.sh`) points at a `bin/` directory that no longer exists.
-`bin/` was previously an orphaned Git submodule reference (`.gitmodules` had been
-removed without also removing the submodule's gitlink entry) with no content
-checked out, and was removed outright during the `dnbhq` config-package onboarding
-since the release script that used it (`bin/repo/release/postrelease`) was replaced
-by `release-it` (see "Commands" above). Anyone acting on the Netlify build path
-SHOULD treat this as broken until reconciled, not as working prior art.
-
-### Styling
-
-SCSS under `assets/scss/`, organized ITCSS-style (`01-settings`, `02-mixins`,
-`03-components`, `04-prose`, `05-plugins`, `09-templates`), built through
-`@davidsneighbour/postcss-config`'s PostCSS pipeline (`postcss.config.cjs`:
-`doiuse`, `autoprefixer`, `postcss-preset-env`, `cssnano`) and
-`@davidsneighbour/bootstrap-config`. This is the current, Bootstrap-based system —
-see "Current phase" above for why it is not being migrated to Tailwind in place.
+Hugo-era `netlify.toml` was removed along with the rest of the Hugo tooling; there
+is currently no deployment config for the Astro site. Tracked as issue #709 — needs
+a fresh Astro-appropriate Netlify config, not a revival of the old one (which was
+already stale/broken before removal).

@@ -5,44 +5,40 @@
     }
   ],
   "settings": {
-    "yaml.schemas": {
-      "http://json-schema.org/draft-07/schema#": [
-        "./static/_schemata/*.schema.yaml"
-      ]
-    },
-    "files.associations": {
-      "**/layouts/**.html": "gohtml",
-      "**/layouts/**.xml": "gotemplate",
-      "**/layouts/**.json": "gojson",
-      "**/layouts/**.txt": "gotemplate"
-    },
-    "files.exclude": {
-      "**/.git": true,
-      "**/.DS_Store": true
-    },
-    "explorer.fileNesting.patterns": {
-      "hugo.log": "hugo_stats.json, .hugo_build.lock"
-    },
-    "html.format.wrapLineLength": 120,
-    "editor.wordWrapColumn": 120,
-    "diffEditor.wordWrap": "on",
-    "js/ts.implicitProjectConfig.checkJs": true,
-    "markdownlint.run": "onSave",
-    "markdown.extension.list.indentationSize": "inherit",
-    "markdown.extension.syntax.decorationFileSizeLimit": 500000,
-    "markdown.extension.syntax.plainTheme": true,
-    "markdown.extension.tableFormatter.delimiterRowNoPadding": true,
-    "markdown.extension.tableFormatter.normalizeIndentation": true,
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit"
-    },
     "[dotenv]": {
       "editor.defaultFormatter": "foxundermoon.shell-format"
     },
     "[ignore]": {
       "editor.defaultFormatter": "foxundermoon.shell-format"
     },
+    "diffEditor.wordWrap": "on",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "editor.wordWrapColumn": 120,
+    "explorer.fileNesting.patterns": {
+      "hugo.log": "hugo_stats.json, .hugo_build.lock"
+    },
+    "files.associations": {
+      "**/layouts/**.html": "gohtml",
+      "**/layouts/**.json": "gojson",
+      "**/layouts/**.txt": "gotemplate",
+      "**/layouts/**.xml": "gotemplate"
+    },
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/.git": true
+    },
+    "html.format.wrapLineLength": 120,
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "markdown.extension.list.indentationSize": "inherit",
+    "markdown.extension.syntax.decorationFileSizeLimit": 500000,
+    "markdown.extension.syntax.plainTheme": true,
+    "markdown.extension.tableFormatter.delimiterRowNoPadding": true,
+    "markdown.extension.tableFormatter.normalizeIndentation": true,
+    "markdownlint.run": "onSave",
+    "peacock.color": "#e2e2b6",
     "workbench.colorCustomizations": {
       "activityBar.activeBackground": "#f0f0db",
       "activityBar.background": "#f0f0db",
@@ -62,6 +58,10 @@
       "titleBar.inactiveBackground": "#e2e2b699",
       "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#e2e2b6"
+    "yaml.schemas": {
+      "http://json-schema.org/draft-07/schema#": [
+        "./static/_schemata/*.schema.yaml"
+      ]
+    }
   }
 }

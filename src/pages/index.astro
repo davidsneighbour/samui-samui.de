@@ -1,0 +1,37 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '@components/BaseHead.astro';
+import BlogList from '@components/BlogList.astro';
+import Footer from '@components/Footer.astro';
+import Header from '@components/Header.astro';
+import setup from '@data/setup.json';
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+const totalPages = Math.max(1, Math.ceil(posts.length / setup.postsPerPage));
+const firstPagePosts = posts.slice(0, setup.postsPerPage);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={setup.title}
+      description={setup.description}
+    />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section>
+        <BlogList
+          posts={firstPagePosts}
+          pageNumber={1}
+          totalPages={totalPages}
+        />
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>

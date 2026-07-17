@@ -1,4 +1,0 @@
-# see https://gohugo.io/content-management/urls/
-posts = "/:year/:month/:slug/"
-leute = "/:section/:slug/"
-tags = "/:section/:slug/"
