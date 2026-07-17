@@ -73,6 +73,42 @@ GitHub Issues are authoritative. `ROADMAP.md` is a generated project index.
 `TODO.md` is a scratchpad inbox. Do not hand-maintain either outside the
 `dnb-project-task-triage` workflow.
 
+## Manual setup required before deployment
+
+These are operational steps outside the codebase — nothing here is committed
+code, and none of it blocks continued migration work. Track completion by
+checking items off directly in this file.
+
+### Contact form (issue #702)
+
+The Netlify Function at `netlify/functions/contact.mjs` is code-complete but
+needs these Netlify environment variables set before it can send real mail:
+
+* [ ] `RESEND_API_KEY` — from a [Resend](https://resend.com) account with a
+      verified sending domain for `samui-samui.de`.
+* [ ] `CONTACT_EMAIL_FROM` — the verified sending address (must be on the
+      domain verified with Resend above).
+* [ ] `CONTACT_EMAIL_TO` — where contact form submissions should land.
+* [ ] `RECAPTCHA_SITE_KEY` / `RECAPTCHA_SITE_SECRET` — a
+      [reCAPTCHA v3](https://www.google.com/recaptcha/admin) key pair
+      registered for `samui-samui.de`. The site key is public (embedded
+      client-side in `ContactForm.astro`); the secret is server-only.
+* [ ] Optional: `CONTACT_EMAIL_BCC` (comma-separated), `CONTACT_EMAIL_SUBJECT_PREFIX`,
+      `CONTACT_EMAIL_TIMEZONE` (defaults to `Asia/Bangkok`).
+
+Until these are set, the function responds with a clear error to submitters
+rather than failing silently (see `envReady()` in `contact.mjs`).
+
+### Netlify deployment (issue #709)
+
+`netlify.toml` currently only declares the build command and the functions
+directory. No site has been connected/deployed yet as far as this repo's
+tracking can tell — confirm the Netlify site itself still points at this repo
+and deploys from `main`, and revisit whether headers/CSP are wanted (the
+`thaicookingclass-samui.com` reference used for the contact form has an
+example under its own `netlify.toml`, but its policy is specific to that
+site's third-party scripts and shouldn't be copied verbatim).
+
 ## Tracking file review
 
 Every material migration change MUST include a review of whether
