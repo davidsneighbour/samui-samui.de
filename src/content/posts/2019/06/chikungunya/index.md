@@ -6,7 +6,7 @@ date: 2019-06-10T20:04:48+07:00
 tags: [gesundheit, tierwelt]
 ---
 
-{{< figure name="chikungunya.jpg" >}}Moskito, aber nicht der mit Chikungunya, denn der hat Zebrastreifen ([Photo von Егор Камелев](https://unsplash.com/photos/sZIjgg4Peu0)){{< /figure >}}
+![Moskito, aber nicht der mit Chikungunya, denn der hat Zebrastreifen (Photo von Егор Камелев)](./chikungunya.jpg)
 
 Hier in Südthailand grasiert zur Zeit eine Krankheit namens "Chikungunya". Von den Symptomen klingt sie sehr wie Dengue Fieber: Man hat Fieber, Kopfschmerzen und Gelenkschmerzen für zwischen 2 bis 12 Tagen nachdem man von einem infiziertem Moskito gebissen wurde.
 
@@ -16,9 +16,9 @@ Leute die diese Symptome erleben, sollten sich nicht selbst behandeln sondern ei
 
 Um es mal mit der Wikipedia zu sagen (unbeabsichtigte Hervorhebung aus Versehen von mir):
 
-{{% quote src="https://de.wikipedia.org/wiki/Chikungunyafieber" source="Wikipedia" %}}
-Das verursachende Virus ist zwar seit etwa 50 Jahren bekannt, *doch da dieses und das von ihm ausgelöste Chikungunyafieber bisher fast ausschließlich in Entwicklungsländern vorkamen, wurde kaum nach möglichen Medikamenten geforscht*.
-{{% /quote %}}
+> Das verursachende Virus ist zwar seit etwa 50 Jahren bekannt, *doch da dieses und das von ihm ausgelöste Chikungunyafieber bisher fast ausschließlich in Entwicklungsländern vorkamen, wurde kaum nach möglichen Medikamenten geforscht*.
+>
+> — [Wikipedia](https://de.wikipedia.org/wiki/Chikungunyafieber)
 
 In Thailand kann man die Nummer 1422 anrufen um Hilfe zu erhalten (vermutlich nur auf Thai).
 

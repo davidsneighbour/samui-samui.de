@@ -7,7 +7,7 @@ url: /2008/01/gewichtsklasse/
 
 
 ---
-[{{< figure src="wp-content/old-images/246" wraptag="div.jpg" />}}][1]
+[![](/wp-content/old-images/246.gif)][1]
 
 Opps. Neulich beobachtete ich wieder den Ausschlag meiner Waage und war geschockt. Vor gut einem Jahr war ich auf rund fünf Sechstel meines Super-Gewichts geschrumpft und war weit unter 100kg schwer (also nicht 99 oder 98 kg schwer).
 

@@ -11,7 +11,7 @@ leute:
     - papst franziskus
 ---
 
-{{< figure name="franziskus-und-yingluck.jpg" >}}Yingluck und Papst Franziskus, ca. 2013{{< / figure >}}
+![Yingluck und Papst Franziskus, ca. 2013](./franziskus-und-yingluck.jpg)
 
 Diese Woche wurde aus Rom bestätigt, dass Papst Franziskus plant, vom 20. bis 23. November Thailand besuchen wird.
 

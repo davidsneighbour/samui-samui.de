@@ -11,7 +11,7 @@ resources:
   title: "Bloss nicht in Thailand"
 ---
 
-{{< figure name="content" command="Resize" options="930x" >}}Bloss nicht in Thailand{{< /figure >}}
+![Bloss nicht in Thailand](./content-unavailable-in-thailand.png)
 
 Die Medien bezeichnen als "bisher nicht vorgekommen", was meiner Meinung nach schon lange Tatsache ist: Facebook blockt in Thailand Seiten, die Regierungs- oder Monarchie-kritisch sind. Zuletzt geschehen mit einer Seite, die "hin und wieder" einmal die thailändische Monarchie verspottet hat. In Zeiten wo es Verhaftungen aufgrund von Facebookeinträgen gibt nicht sonderlich erstaunlich, aber erwähnenswert. Zu schade nur, dass Facebook klein bei gibt. "Freies Internet für alle" und so weiter.
 

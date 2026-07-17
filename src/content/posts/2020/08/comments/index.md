@@ -7,7 +7,7 @@ tags:
     - hugo
 ---
 
-{{< figure name="comments.jpg" >}}Kommentieren... Yeah...{{< / figure >}}
+![Kommentieren... Yeah...](./comments.jpg)
 
 Nach rund 10 Jahren kann man nun auf [Samui? Samui!](https://samui-samui.de) wieder kommentieren. Ich bin gespannt, zu welchen Auswüchsen das führt. Deaktiviert hatte ich Kommentare zuletzt weil immer mehr Leute ihre Weisheiten in mein Blog schrieben und ihre Meinungen als Fakten dahinstellten. Tja... Egal... Mal sehen was kommt ;]
 

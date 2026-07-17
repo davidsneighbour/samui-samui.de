@@ -9,7 +9,7 @@ tags:
 
 ---
 
-{{< figure name="krankenversicherung.jpg" command="Resize" options="1110x" >}}Photo by [Marcelo Leal](https://unsplash.com/photos/6pcGTJDuf6M) on Unsplash{{< /figure >}}
+![Photo by Marcelo Leal on Unsplash](./krankenversicherung.jpg)
 <!--lint disable no-undefined-references-->
 Ab sofort müssen Rentner[^1], die längere Zeit im Königreich verbringen wollen eine Krankenversicherung vorweisen, die mindestens die folgenden Beträge abdeckt:
 

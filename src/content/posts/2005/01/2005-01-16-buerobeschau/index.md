@@ -5,7 +5,7 @@ url: /2005/01/buerobeschau/
 lastmod: 2023-09-10T19:14:12+07:00
 ---
 
-{{< figure src="wp-content/old-images/20.jpg" />}}
+![](/wp-content/old-images/20.jpg)
 
 Mein derzeit eher behelfsmäßig eingerichtetes Büro mit Ausblick. Die Fenster sind getönt. Zum Glück. Derzeit sitzen wir im "kleinen" Büro (5x5m) zu dritt. Die Programmierer bekommen dann aber ein größeres Büro, sobald da Fußbodenbelag liegt.
 

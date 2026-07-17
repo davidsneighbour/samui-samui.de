@@ -6,4 +6,4 @@ dsq_thread_id:
   - "3704465888"
 lastmod: 2023-09-10T19:14:12+07:00
 ---
-{{< figure src="wp-content/old-images/53.jpg" />}}
+![](/wp-content/old-images/53.jpg)

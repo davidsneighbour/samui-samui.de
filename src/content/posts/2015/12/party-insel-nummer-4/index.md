@@ -11,15 +11,15 @@ resources:
   title: "Party-Insel Nummer 4"
 ---
 
-{{< figure name="partyinsel" command="Resize" options="930x" >}}Party-Insel Nummer 4{{< /figure >}}
+![Party-Insel Nummer 4](./rca-2015-party-islands-koh-samui-conde-nast.jpg)
 
 Koh Samui hat im begehrten Readers‘ Choice Awards 2015 des Condé Nast Traveler Magazins in der Kategorie der 10 Besten Party-Inseln in der Welt einen 4. Platz belegt.
 
 Sie schreiben:
 
-{{< quote src="<https://www.cntraveler.com/galleries/2015-12-23/the-10-best-party-islands-in-the-world>" source="Condé Nast Traveler" >}}
-At nearly five miles long, gorgeous Chaweng Beach is the largest of Koh Samui’s beaches. It’s lined with coconut trees and boasts silvery sand, turquoise waters, and even a natural reef. Added bonus: Its northern end is party central. Though Chaweng Beach Road has plenty to offer in the way of food and beverage, try dining on the beach itself—after sunset, many restaurants set up tables and serve fresh seafood at competitive prices. For nightlife, check out Green Mango, one of Koh Samui’s oldest and most famous clubs.
-{{< /quote >}}
+> At nearly five miles long, gorgeous Chaweng Beach is the largest of Koh Samui’s beaches. It’s lined with coconut trees and boasts silvery sand, turquoise waters, and even a natural reef. Added bonus: Its northern end is party central. Though Chaweng Beach Road has plenty to offer in the way of food and beverage, try dining on the beach itself—after sunset, many restaurants set up tables and serve fresh seafood at competitive prices. For nightlife, check out Green Mango, one of Koh Samui’s oldest and most famous clubs.
+>
+> — [Condé Nast Traveler](https://www.cntraveler.com/galleries/2015-12-23/the-10-best-party-islands-in-the-world)
 
 Dass in der Liste von 10 Inseln allein 4 thailändische Inseln vertreten sind (Samui davon mit der besten Position, natürlich) spricht für sich selbst.
 

@@ -8,7 +8,7 @@ tags:
 lastmod: 2023-09-10T19:14:12+07:00
 ---
 
-{{< figure name="gelaber.jpg" >}}Vögel sind diskussionsfreudiger als ihr ([Photo von Wynand van Poortvliet](https://unsplash.com/photos/4AmyOdXZAQc)){{< /figure >}}
+![Vögel sind diskussionsfreudiger als ihr (Photo von Wynand van Poortvliet)](./gelaber.jpg)
 
 Aus eigener Sache: Ich habe die Kommentare hier auf Samui? Samui! abgeschafft. Gründe dafür gibt es genug:
 

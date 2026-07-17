@@ -4,7 +4,7 @@ date: 2005-06-23T01:28:12+00:00
 url: /2005/06/high-security/
 lastmod: 2023-09-10T19:14:12+07:00
 ---
-{{< figure src="wp-content/old-images/128.jpg" />}}
+![](/wp-content/old-images/128.jpg)
 
 ?brigens kucken wir uns derzeit nach einem neuen Haus um. Nicht dass ich mich ungeschützt fühlen würde --- Mr. Wit schläft nun mit seiner ganzen Familie im Ressort (12 Personen, ein Kleinkind, der Rest erwachsene SangSom-Trinker) und hat überall Pfosten in den Boden geschlagen, worauf Glühbirnen befestigt sind und die Nacht durch das Areal erhellen. Ich bin heute ungefähr um fünf eingeschlafen. Au?erdem sind die Häuser nun absolut sicher --- wenn ich da bin. Dann kann ich nämlich jede Türe verriegeln. Kann also niemand reinkommen --- wenn ich da bin. (Zitat Yai: He is a really crazy man!)
 

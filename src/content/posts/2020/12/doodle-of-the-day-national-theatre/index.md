@@ -14,7 +14,7 @@ resources:
       title: "The National Theatre"
 ---
 
-{{< figure name="the-national-theatre" command="Resize" options="930x" >}}{{< /figure >}}
+![](./celebrating-the-national-theatre-6753651837108751-2x.png)
 
 Das heutige Doodle feiert das Thai National Theatre, eine Kulturstätte in Bangkok. Das Theater wurde an diesem Tag im Jahr 1965 mit einer Eröffnungszeremonie mit thailändischem _kŏhn_ T&auml;anzen (maskierte Tänzer f&uuml;hren Geschichten aus dem Ramakian vor) vor einem Publikum eingeweiht, dem Mitglieder des Königshauses beiwohnten - die erste von vielen kulturellen Veranstaltungen, die dort seit Jahrzehnten stattfinden.
 

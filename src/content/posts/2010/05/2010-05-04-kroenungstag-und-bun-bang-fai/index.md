@@ -6,7 +6,7 @@ lastmod: 2023-09-10T19:14:13+07:00
 ---
 
 
-{{< figure src="wp-content/old-images/277" wraptag="div.jpg" />}}
+![](/wp-content/old-images/277.gif)
 
 Heute ist Krönungstag, der Jahrestag der Krönung König Bhumibol Adulyadejs im Jahre 1950.
 

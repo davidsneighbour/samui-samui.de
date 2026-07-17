@@ -11,6 +11,6 @@ resources:
   title: "Mein grüner Finger"
 ---
 
-{{< figure name="2015-04-15-08.28.19" command="Resize" options="930x" >}}Mein grüner Finger{{< /figure >}}
+![Mein grüner Finger](./2015-04-15-08.28.19.jpg)
 
 Ich gebe ja höchst ungern an, aber ich habe es tatsächlich geschafft, nach über drei Jahren vertrockneter Stengel meine Orchidee vorm Haus zum Blühen zu bringen. Ein weiterer Grund mal wieder raus zu gehen...

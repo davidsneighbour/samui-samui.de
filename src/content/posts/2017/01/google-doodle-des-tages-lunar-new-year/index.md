@@ -17,4 +17,10 @@ resources:
   title: "Lunar New Year für alle anderen Länder --- &copy; google.com"
 ---
 
-{{< gallery id="lunarnewyear" command="Resize" options="930x" >}}
+![Lunar New Year Hong Kong, Taiwan und China --- &copy; google.com](./lunar-new-year-2017-hong-kong-taiwan-china.jpg)
+
+![Lunar New Year Südkorea --- &copy; google.com](./lunar-new-year-2017-south-korea.jpg)
+
+![Lunar New Year Vietnam --- &copy; google.com](./lunar-new-year-2017-vietnam.jpg)
+
+![Lunar New Year für alle anderen Länder --- &copy; google.com](./lunar-new-year-2017.jpg)

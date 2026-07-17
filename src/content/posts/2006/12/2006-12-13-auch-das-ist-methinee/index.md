@@ -7,7 +7,7 @@ url: /2006/12/auch-das-ist-methinee/
 
 
 ---
-{{< figure src="wp-content/old-images/219" wraptag="div.jpg" />}}
+![](/wp-content/old-images/219.jpg)
 
 Fahren wir fort in unserer Methinee-Kingpayom-Woche. Hier sehen wir sie einmal ungeschminkt und dessous-los.
 

@@ -4,7 +4,7 @@ date: 2005-12-23T22:49:00+00:00
 url: /2005/12/jauchzet-frohlocket/
 lastmod: 2023-09-10T19:14:12+07:00
 ---
-{{< figure src="wp-content/old-images/202.jpg" />}}
+![](/wp-content/old-images/202.jpg)
 
 **Und dann war Weihnachten**
 

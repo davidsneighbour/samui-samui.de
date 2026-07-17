@@ -12,7 +12,7 @@ resources :
   title: "Elfenbein"
 ---
 
-{{< figure name="ivory" command="Resize" options="930x" >}}Elfenbein{{< /figure >}}
+![Elfenbein](./thailand-ivory-seized-cham.jpg)
 
 Thaibehörden haben 422 Elefanten-Stosszähne konfisziert und einen Gamber (Gambanesen? Gambier?) festgenommen, der die Lieferung in Empfang nehmen wollte. Deklariert waren "ungeschliffene Edelsteine", aber es davon fand man nicht viele in den Kisten. 330 Kilogramm Elefanten-Stosszähne, wert gut eine halbe Million US-Dollar.
 

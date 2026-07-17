@@ -8,6 +8,6 @@ lastmod: 2023-09-10T19:14:12+07:00
 ---
 Beide Bilder stammen von der gleichen Stra?e und die Ansichten sind auf gleicher Höhe. Im Gebäude des ersten Bildes arbeite ich. In der Hütte des zweiten Bildes esse ich.
 
-{{< figure src="wp-content/old-images/29.jpg" />}}
+![](/wp-content/old-images/29.jpg)
 
-{{< figure src="wp-content/old-images/30.jpg" />}}
+![](/wp-content/old-images/30.jpg)

@@ -8,9 +8,9 @@ tags:
 ---
 Jo, da haben wir mal ein Thema wo ich die deutschen Begriffe nachschlagen musste. Soweit ist es also schon gekommen mit mir ;) Jeh oh jeh!
 
-{{< quote source="de.wikipedia.org" src="<https://de.wikipedia.org/wiki/Portugiesische_Galeere>" >}}
-Die Portugiesische Galeere (Physalia physalis) ist eine Art aus der Gattung der Seeblasen (Physalia), die zu den Staatsquallen (Siphonophorae) gezählt wird. Im weiteren Sinne werden manchmal auch eng verwandte Arten aus derselben Gattung wie z. B. Physalia utriculus als Portugiesische Galeere bezeichnet. Die am weitesten verbreitete und im engeren Sinne gemeinte Art ist jedoch Physalia physalis.
-{{< /quote >}}
+> Die Portugiesische Galeere (Physalia physalis) ist eine Art aus der Gattung der Seeblasen (Physalia), die zu den Staatsquallen (Siphonophorae) gezählt wird. Im weiteren Sinne werden manchmal auch eng verwandte Arten aus derselben Gattung wie z. B. Physalia utriculus als Portugiesische Galeere bezeichnet. Die am weitesten verbreitete und im engeren Sinne gemeinte Art ist jedoch Physalia physalis.
+>
+> — [de.wikipedia.org](https://de.wikipedia.org/wiki/Portugiesische_Galeere)
 
 Jedes Jahr kommt es hier auf der Insel zu Verletzungen und (vergangenes Jahr sogar zu) Toten durch verschiedene Quallenarten, die nicht unbedingt als gesund eingestuft werden können. Die _Portugiesische Gallere_ oder "Man'o'war" ist ein Beispiel.
 

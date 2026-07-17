@@ -11,7 +11,7 @@ resources :
   title: "Happy New Year 2017"
 ---
 
-{{< figure name="happynewyear" command="Resize" options="930x" >}}Happy New Year 2017{{< /figure >}}
+![Happy New Year 2017](./happy-new-year-2017.jpg)
 
 Und wieder ist ein Jahr vergangen. Und wieder nehmen wir uns viel vor. Vielleicht auch mal, wieder mehr ins Blog zu schreiben :smirk: Mal sehen.
 

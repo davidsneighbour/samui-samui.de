@@ -12,7 +12,7 @@ resources:
   title: "USS Grenadier (SS-210) (via alchetron.com)"
 ---
 
-{{< figure name="grenadier" command="Resize" options="930x" >}}USS Grenadier (SSH-210) (via [alchetron.com](https://alchetron.com/USS-Grenadier-(SS-210))){{< /figure >}}
+![USS Grenadier (SSH-210) (via alchetron.com)](./uss-grenadier.jpg)
 
 150km vor Phuket haben Taucher in den vergangenen Monaten ein amerikanisches U-Boot gefunden, das im zweiten Weltkrieg dort gesunken ist. Die USS Grenadier ist eines von 42 im zweiten Weltkrieg versenkten US-U-Booten. Im April 1943 wurde es nach Bombardierungen durch Japanische Flieger aufgegeben, um dann am nächsten Morgen durch weitere Bomben versenkt zu werden. Die Soldaten des U-Boots wurden festgenommen und (typisch für die japanische Kriegführung) durch verschiedene Gefangenenlager gereicht und gefoltert. Von den 76 Soldaten starben vier in dieser Zeit.
 

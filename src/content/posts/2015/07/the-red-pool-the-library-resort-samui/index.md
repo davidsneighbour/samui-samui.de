@@ -13,7 +13,7 @@ resources:
   title: "Red Pool im The Library Resort auf Koh Samui"
 ---
 
-{{< figure name="red-pool" command="Resize" options="930x" >}}Red Pool im The Library Resort auf Koh Samui{{< /figure >}}
+![Red Pool im The Library Resort auf Koh Samui](./red-pool.jpg)
 
 Fox-News ist ja eigentlich nicht für clevere Inhalte bekannt. Jetzt hat man dort aber eine [Liste der 8 seltsamsten Hotel-Pools weltweilt][1] veröffentlicht. Und siehe da, Samui ist auf der Liste vertreten.
 

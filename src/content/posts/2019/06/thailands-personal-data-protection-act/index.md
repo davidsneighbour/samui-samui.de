@@ -9,7 +9,7 @@ tags:
 lastmod: 2023-09-10T19:14:12+07:00
 ---
 
-{{< figure name="gaffel.jpg" >}}Richter-Rumklopf-Gerät ([Photo von Bill Oxford](https://unsplash.com/photos/r2ESY7RXB4M)){{< /figure >}}
+![Richter-Rumklopf-Gerät (Photo von Bill Oxford)](./gaffel.jpg)
 
 Seit 27. Mai 2019 haben wir auch in Thailand eine Art GDPR-Gesetz namens Personal Data Protection Act (PDPA). Firmen haben bis 27. Mai 2020 Zeit um die Regelungen umzusetzen.
 

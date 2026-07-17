@@ -11,7 +11,7 @@ resources:
   title: "Illustrations of possible appearances of the moon. Tamra phichai songkhram (Divination manual for the prediction of wars and conflicts). British Library, Or.15760,f .25"
 ---
 
-{{< figure name="blutmond" command="Resize" options="930x" >}}Illustrations of possible appearances of the moon. Tamra phichai songkhram (Divination manual for the prediction of wars and conflicts). British Library, Or.15760,f .25{{< /figure >}}
+![Illustrations of possible appearances of the moon. Tamra phichai songkhram (Divination manual for the prediction of wars and conflicts). British Library, Or.15760,f .25](./blutmond-in-thai-forschers-manuskript-1800-bis-1880.jpg)
 
 Vergangene Woche war überall vom Blutmond die Rede. Hier in Thailand konnte man ihn leider nicht sehen, dazu war es zu hell. Allerdings scheint das auch besser zu sein, wenn man [diesem alten Manuscript][1] aus der Britischen Nationalbibliothek Glauben schenken darf.
 

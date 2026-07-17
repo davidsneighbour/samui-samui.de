@@ -49,7 +49,45 @@ resources:
   name: "Queen Suthida"
 ---
 
-{{< gallery id="queen-suthida" command="Resize" options="930x" >}}
+![Queen Suthida](./A001.jpg)
+
+![Queen Suthida](./A002.jpg)
+
+![Queen Suthida](./A003.jpg)
+
+![Queen Suthida](./A004.jpg)
+
+![Queen Suthida](./A005.jpg)
+
+![Queen Suthida](./A006.jpg)
+
+![Queen Suthida](./A007.jpg)
+
+![Queen Suthida](./A008.jpg)
+
+![Queen Suthida](./A009.jpg)
+
+![Queen Suthida](./A010.jpg)
+
+![Queen Suthida](./A011.jpg)
+
+![Queen Suthida](./A012.jpg)
+
+![Queen Suthida](./A013.jpg)
+
+![Queen Suthida](./A014.jpg)
+
+![Queen Suthida](./A015.jpg)
+
+![Queen Suthida](./A016.jpg)
+
+![Queen Suthida](./A017.jpg)
+
+![Queen Suthida](./A018.jpg)
+
+![Queen Suthida](./A019.jpg)
+
+![](./A020.jpg)
 
 Das Büro des Königlichen Haushalts hat eine Sammlung von offiziellen Photos von Königin Suthida herausgegeben. Da oben sind sie ;)
 

@@ -12,7 +12,7 @@ resources:
   title: "Straßenköter (Symbolphoto, Pokki, ca. 2007)"
 ---
 
-{{< figure name="elefand" command="Resize" options="930x" >}}Elefand - Elektronische Erfassung von Deutschen im Ausland{{< /figure >}}
+![Elefand - Elektronische Erfassung von Deutschen im Ausland](./elefand.png)
 
 Was wie der Titel eine politikwissenschaftlichen Diplomarbeit klingt, ist eine sehr nützliche Einrichtung der Deutschen Botschaften --- die Liste der Deutschen im Ausland.
 

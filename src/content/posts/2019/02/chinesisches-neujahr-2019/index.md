@@ -17,6 +17,8 @@ resources:
   title: "Lunar New Year für alle anderen Länder --- &copy; google.com"
 ---
 
-{{< gallery id="lunarnewyear" command="Resize" options="930x" >}}
+![Lunar New Year Südkorea --- &copy; google.com](./lunar-new-year-2019-south-korea.gif)
+
+![Lunar New Year für alle anderen Länder --- &copy; google.com](./lunar-new-year-2019.gif)
 
 Google Doodle für das Chinesische Neujahr 2019. Das Jahr des Schweins beginnt...

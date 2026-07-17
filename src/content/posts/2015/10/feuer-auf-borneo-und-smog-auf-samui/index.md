@@ -12,7 +12,7 @@ resources:
   title: "Feuer auf Borneo"
 ---
 
-{{< figure name="borneo-feuer" command="Resize" options="930x" >}}Feuer auf Borneo aus Satellitensicht{{< /figure >}}
+![Feuer auf Borneo aus Satellitensicht](./borneo-feuer-smog.jpg)
 
 Jedes Jahr um diese Zeit überzieht Smog den Süden Thailands. Das geht jedes Jahr so, weil man in Indonesien den Regenwald durch Brandrodung abholzt (illegal). Dann liest man von Smog und Luftverschmutzung im Süden, aber hier auf Samui merkte man nur an einigen wenigen Tagen etwas.
 

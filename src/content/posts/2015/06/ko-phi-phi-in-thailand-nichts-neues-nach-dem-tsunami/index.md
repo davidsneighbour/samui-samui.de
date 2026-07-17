@@ -9,6 +9,6 @@ tags:
 
 Wow. Im Spiegel. Einer dieser tollen wahren grundlagengestützten Artikel über, ehm, ... ja über was eigentlich?
 
-{{< quote src="<http://www.spiegel.de/reise/fernweh/ko-phi-phi-in-thailand-tourist-und-prostituierte-a-1039473.html>" source="Spiegel Online" >}}
-Thomas ist ein deutscher Tourist und will am tropischen Strand nur feiern. Shila ist Prostituierte und wartet auf Kundschaft. Was sie verbindet? Man könnte sagen, die gleiche Trostlosigkeit.
-{{< /quote >}}
+> Thomas ist ein deutscher Tourist und will am tropischen Strand nur feiern. Shila ist Prostituierte und wartet auf Kundschaft. Was sie verbindet? Man könnte sagen, die gleiche Trostlosigkeit.
+>
+> — [Spiegel Online](http://www.spiegel.de/reise/fernweh/ko-phi-phi-in-thailand-tourist-und-prostituierte-a-1039473.html)

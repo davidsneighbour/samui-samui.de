@@ -6,7 +6,7 @@ dsq_thread_id:
   - "6412166743"
 lastmod: 2023-09-10T19:14:12+07:00
 ---
-{{< figure src="wp-content/old-images/163.jpg" />}}
+![](/wp-content/old-images/163.jpg)
 
 Nachdem mein Bumbui-Index (die Frau des Englischlehrers) mehrfach meine Bumbui-Reduzierung erwähnte und auch eine größere Bangkoker Tageszeitung diesen Fakt gestern in einem Artikel zur höchsten Inflationsrate in Thailand seit sechs Jahren erwähnte möchte ich mich auch mal dazu äußern. Es ist ohnehin offensichtlich.
 

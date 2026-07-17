@@ -13,7 +13,7 @@ resources:
   title: "Corruption Perceptions Index 2019"
 ---
 
-{{< figure name="corruption-perceptions-index" command="Resize" options="1110x" >}}Corruption Perceptions Index 2019{{< /figure >}}
+![Corruption Perceptions Index 2019](./corruption-perceptions-index.jpg)
 
 Die Organisation Transparency International veröffentlicht seit 25 Jahren den Corruption Perceptions Index. Der Index vergibt 0 (sehr korrupt) bis 100 (nicht korrupt) Punkte für wahrgenommene Korruption im öffentlichen Sektor von derzeit 180 Ländern und bedient sich dabei verschiedener Umfragen und einer Auswertung von Expertenmeinungen.
 

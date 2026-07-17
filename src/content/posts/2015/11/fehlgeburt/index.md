@@ -12,7 +12,7 @@ resources:
   title: "Lin Hui im Chiang Mai Zoo"
 ---
 
-{{< figure name="linhui" command="Resize" options="930x" >}}Lin Hui im Chiang Mai Zoo{{< /figure >}}
+![Lin Hui im Chiang Mai Zoo](./lin-hui-at-the-chiang-mai-zoo.jpg)
 
 Von den Pandas Chiang Mai's habe ich [schon häufiger][1] im Blog geschrieben. Hin und wieder werden sie schwanger. Dann müssen sie zurück ins (chinesische) Heimatreich, oder auch nicht.
 

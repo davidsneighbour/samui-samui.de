@@ -6,7 +6,7 @@ lastmod: 2023-09-10T19:14:12+07:00
 ---
 Eben bin ich aus Versehen auf den Auslöser meiner kleinen hässlichen Kamera gekommen. Dabei entstand dieses Photo:
 
-{{< figure src="wp-content/old-images/157.jpg" />}}
+![](/wp-content/old-images/157.jpg)
 
 Dazu gibt es ja einiges zu sagen. Fangen wir mal an:
 

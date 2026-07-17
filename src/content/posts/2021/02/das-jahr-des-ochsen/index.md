@@ -21,7 +21,11 @@ resources:
   title: "Lunar New Year für alle anderen Länder --- &copy; google.com"
 ---
 
-{{< gallery command="Resize" options="930x" >}}
+![Lunar New Year Vietnam --- &copy; google.com](./gallery/lunar-new-year-2021-vietnam-6753651837108859-2x.png)
+
+![Lunar New Year Südkorea --- &copy; google.com](./gallery/lunar-new-year-2021-south-korea-6753651837108858-2x.png)
+
+![Lunar New Year für alle anderen Länder --- &copy; google.com](./gallery/lunar-new-year-2021-multiple-countries-6753651837108857-2x.png)
 
 Das Google Doodle für das Chinesische Neujahr 2021. Das Jahr des Ochsens beginnt...
 

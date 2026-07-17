@@ -21,4 +21,4 @@ resources:
 
 Im Jahre 1960 traf der König (genau der) den King (genau den).
 
-{{< figure name="king-meets-king" >}}Da! König trifft den King.{{< /figure >}}
+![Da! König trifft den King.](./king-meets-king.jpg)

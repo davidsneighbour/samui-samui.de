@@ -6,7 +6,7 @@ dsq_thread_id:
   - "6412166543"
 lastmod: 2023-09-10T19:14:12+07:00
 ---
-{{< figure src="wp-content/old-images/102.jpg" />}}
+![](/wp-content/old-images/102.jpg)
 
 Man beachte mal die Anbindung, unter der wir hier arbeiten. Ich finde, es sollten mehr Sextouristen auf die Insel kommen. Das wird zum einen für eine ?bersättigung der Thaifrauen sorgen, so dass mir abends auf der Beachroad nicht mehr "Hello, nice man" hinterhergerufen wird (Verzeihung, ich habe einen Spiegel und erkenne falsche Aussagen).
 

@@ -13,7 +13,7 @@ resources:
       title: "Photo by [ConvertKit](https://unsplash.com/@convertkit) on Unsplash"
 ---
 
-{{< figure name="passport" command="Resize" options="930x" >}}{{< /figure >}}
+![](./passport.jpg)
 
 Die Regierung in Bangkok versucht mit allen Mitteln den durch die Corona-Krise zum Stillstand gekommenen Tourismus wieder anzukurbeln. Nachdem sie kürzlich erst ein neues Touristenvisum eingeführt hat, wurde es leider nicht von den erwuenschten Touristen angenommen. Das könnte daran liegen, dass es eine Menge Restriktionen gibt, wie beispielsweise eine 14-Nächte dauernde Quarantäne in einem vom Staat anerkannten Resort oder Hotel und regelmäßigen Tests und Rückmeldungen.
 

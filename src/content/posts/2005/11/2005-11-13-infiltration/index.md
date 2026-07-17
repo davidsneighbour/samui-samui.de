@@ -4,7 +4,7 @@ date: 2005-11-12T21:38:00+00:00
 url: /2005/11/infiltration/
 lastmod: 2023-09-10T19:14:12+07:00
 ---
-{{< figure src="wp-content/old-images/186.jpg" />}}
+![](/wp-content/old-images/186.jpg)
 
 Also ich habe ja ein englisches Office auf dem Rechner. Und trotzdem hat es diese Thaizeile irgendwie ins IE-Kontextmenü geschafft. Versteh ich nicht. Trotz Diplom.
 

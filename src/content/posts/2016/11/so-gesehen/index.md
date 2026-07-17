@@ -11,4 +11,4 @@ resources:
   title: "So gesehen"
 ---
 
-{{< figure name="sogesehen" command="Resize" options="930x" >}}So gesehen{{< /figure >}}
+![So gesehen](./so-gesehen.jpg)

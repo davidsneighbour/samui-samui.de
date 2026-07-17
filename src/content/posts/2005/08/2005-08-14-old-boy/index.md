@@ -6,7 +6,7 @@ dsq_thread_id:
   - "3087365479"
 lastmod: 2023-09-10T19:14:12+07:00
 ---
-{{< figure src="wp-content/old-images/133.jpg" />}}
+![](/wp-content/old-images/133.jpg)
 
 Nun, es gibt nur wenige Filme, die mich nach jedem Mal Ansehen verwunderter zurücklassen. _Memento_ war es lange Zeit, _Mullholland Drive_ ist es immer noch. _Old Boy_ ist ein solcher.
 
@@ -26,7 +26,7 @@ Die Musik des Filmes ist eine Mischung von Klassik und moderner elektronischer M
 
 Wenn ich jemandem 5 Filme empfehlen müsste, die er/sie/es gesehen haben muss, um auch nur ansatzweise ein Gesprächsthema auf einer Ebene zu finden, würde _Oldboy_ in der Liste vorkommen. Ganz gro?es Kino.
 
-{{< figure src="wp-content/old-images/134.jpg" />}}
+![](/wp-content/old-images/134.jpg)
 
 Ein paar Links:
 

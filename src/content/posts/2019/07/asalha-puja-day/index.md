@@ -9,7 +9,7 @@ tags:
     - buddhismus
 ---
 
-{{< figure name="parileyyaka-forest.jpg" >}}While the Buddha was spending the tenth vassa in the Parileyyaka Forest, an elephant and a monkey ministered to his needs. ([British Library, Or. 14823, f. 30](http://www.bl.uk/manuscripts/Viewer.aspx?ref=or_14823_f030r)  / Public Domain){{< / figure >}}
+![While the Buddha was spending the tenth vassa in the Parileyyaka Forest, an elephant and a monkey ministered to his needs. (British Library, Or. 14823, f. 30 / Public Domain)](./parileyyaka-forest.jpg)
 
 Morgen, am 16. July (dem Juli-Vollmond-Tag) begehen Buddhisten den Asalha Puja Tag.
 
@@ -17,12 +17,9 @@ Asalha Bucha ist der Jahrestag, an dem Buddha erleuchtet wurde und begann, seine
 
 Diese Vier Wahrheiten werden übrigens unterschiedlich interpretiert, wie das so nun mal ist. Die Deutsche Bhuddistische Union interpretiert sie folgendermaßen:
 
-{{% quote src="https://de.wikipedia.org/wiki/Vier_Edle_Wahrheiten" source="Wikipedia" %}}
--   Das Leben im Daseinskreislauf ist letztlich leidvoll.
--   Ursachen des Leidens sind Gier, Hass und Verblendung.
--   Erlöschen die Ursachen, erlischt das Leiden.
--   Zum Erlöschen des Leidens führt der Edle Achtfache Pfad.
-{{% / quote %}}
+> - Das Leben im Daseinskreislauf ist letztlich leidvoll. - Ursachen des Leidens sind Gier, Hass und Verblendung. - Erlöschen die Ursachen, erlischt das Leiden. - Zum Erlöschen des Leidens führt der Edle Achtfache Pfad.
+>
+> — [Wikipedia](https://de.wikipedia.org/wiki/Vier_Edle_Wahrheiten)
 
 Am darauffolgenden Tag (Mittwoch) beginnt die Buddhistische Fastenzeit (Bhuddist Lent), die man allerdings nicht unbedingt mit der christlichen Fastenzeit vergleichen sollte.
 

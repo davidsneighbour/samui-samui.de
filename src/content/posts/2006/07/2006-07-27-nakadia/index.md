@@ -6,7 +6,7 @@ dsq_thread_id:
   - "3094415005"
 lastmod: 2023-09-10T19:14:12+07:00
 ---
-{{< figure src="wp-content/old-images/212.jpg" />}}
+![](/wp-content/old-images/212.jpg)
 
 [Nakadia][1] ist eine laut Pressetext aus Ko Samui stammende DJing die durch die Welt jettet und wahnsinnig erfolgreich ist.
 

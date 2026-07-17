@@ -12,13 +12,11 @@ resources :
   title: "Prayuth Chanocha spricht zur Presse"
 ---
 
-{{< figure name="prayuth" command="Resize" options="930x" >}}Prayuth Chanocha spricht zur Presse{{< /figure >}}
+![Prayuth Chanocha spricht zur Presse](./prayuth-chanocha-spricht-zur-presse.jpg)
 
-{{< quote source="spiegel.de" src="<http://www.spiegel.de/politik/ausland/thailand-will-journalisten-konstruktive-fragen-beibringen-a-1153911.html>" >}}
-Der thailändische Junta-Chef Prayuth Chan-o-cha ist bislang nicht mit Bemühungen um ein besseres Verhältnis zu den Berichterstattern im Land aufgefallen. Im Gegenteil: Seit seinem Amtsantritt hat er ein äußerst angespanntes Verhältnis zur Presse. Deren Vertreter werden durch die Gefahr einer Anwendung des sogenannten Majestätsbeleidigungsparagrafen zunehmend an der freien Berichterstattung gehindert.
-
-Nun will die Militärregierung nach Informationen der "Bangkok Post" noch weiter in die Berichterstattung im Land eingreifen: Demnach ist für 200 Journalisten aus dem In- und Ausland ein Treffen geplant, bei dem ihnen beigebracht werden soll, wie sie "konstruktive Fragen" stellen und zukünftig das "Verzerren von Fakten" vermeiden könnten.
-{{< /quote >}}
+> Der thailändische Junta-Chef Prayuth Chan-o-cha ist bislang nicht mit Bemühungen um ein besseres Verhältnis zu den Berichterstattern im Land aufgefallen. Im Gegenteil: Seit seinem Amtsantritt hat er ein äußerst angespanntes Verhältnis zur Presse. Deren Vertreter werden durch die Gefahr einer Anwendung des sogenannten Majestätsbeleidigungsparagrafen zunehmend an der freien Berichterstattung gehindert. Nun will die Militärregierung nach Informationen der "Bangkok Post" noch weiter in die Berichterstattung im Land eingreifen: Demnach ist für 200 Journalisten aus dem In- und Ausland ein Treffen geplant, bei dem ihnen beigebracht werden soll, wie sie "konstruktive Fragen" stellen und zukünftig das "Verzerren von Fakten" vermeiden könnten.
+>
+> — [spiegel.de](http://www.spiegel.de/politik/ausland/thailand-will-journalisten-konstruktive-fragen-beibringen-a-1153911.html)
 
 Die Premierminister Thailands haben schon immer ein recht angespanntes Verhältnis zu Reportern gehabt. Prayuth verfällt regelmäßig in Schimpftiraden wenn ihm eine Frage nicht passt. Sein Modus Operandi dabei ist, minutenlang rhetorische Fragen zu stellen ("Habe ich nicht... Sind Sie nicht... Warum muss ich..." usw.) und vorzugeben, des Regierens müde zu sein, weil niemand seine Leistungen würdigt.
 

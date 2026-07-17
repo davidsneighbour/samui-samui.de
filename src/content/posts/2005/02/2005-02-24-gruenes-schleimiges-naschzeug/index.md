@@ -4,7 +4,7 @@ date: 2005-02-24T02:21:00+00:00
 url: /2005/02/gruenes-schleimiges-naschzeug/
 lastmod: 2023-09-10T19:14:12+07:00
 ---
-{{< figure src="wp-content/old-images/55.jpg" />}}
+![](/wp-content/old-images/55.jpg)
 
 Hier nun ein Bericht zu komischem grünen Schleimkram, den man essen kann. Bei 7eleven findet man diese nicht mit englischen Etiketten ausgestattete Ware im Bereich Naschkram, weshalb ich denke, dass es was zu naschen ist.
 

@@ -14,7 +14,9 @@ resources:
   title: "Karrieren die Ausländer nicht, Part 2"
 ---
 
-{{< gallery >}}
+![Karrieren die Ausländer nicht, Part 1](./jobs1.png)
+
+![Karrieren die Ausländer nicht, Part 2](./jobs1.png)
 
 Neulich hat das Thailändische Arbeitsministerium eine Liste der Jobs, die man als Ausländer in Thailand nicht ausüben darf, veröffentlicht. Zu dumm nur, dass der Azubi bei seiner Bewerbung bei den Angaben zu den Sprachen die er spricht gelogen hat und anscheinend Google Translate genutzt hat.
 

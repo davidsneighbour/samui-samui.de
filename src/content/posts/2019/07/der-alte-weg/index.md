@@ -12,7 +12,7 @@ leute:
   - prayuth chan-ocha
 ---
 
-{{< figure name="prayuth-sorry.jpg" >}}General Prayuth Chan-Ocha ist "sorry".{{< /figure >}}
+![General Prayuth Chan-Ocha ist "sorry".](./prayuth-sorry.jpg)
 <!--lint disable no-undefined-references-->
 Am Montag hat General Prayuth Chan-Ocha, seines Zeichens durch von sorgfältig ausgewählten Stimmen per Wahl gekührter Premierminister Thailands, eine Erklärung herausgeben lassen, in der er fest stellt, dass die Regierungsbildung so schwer ist und es ihm leid tut, dass die Öffentlichkeit in den News lesen und hören muss, dass man innerhalb der Koalition um Ministerposten kämpft. [Ich hatte bereits erwähnt](/2019/06/neuer-alter-premierminister/), dass die Premierminister-Wahl mit Versprechungen einherging, die nicht eingehalten werden (können). Das gefällt nun den Partnern nicht so recht.
 <!--lint enable no-undefined-references-->

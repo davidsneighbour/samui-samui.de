@@ -4,7 +4,7 @@ date: 2005-08-27T04:21:00+00:00
 url: /2005/08/und-ploetzlich-war-ein-loch-in-der-wand/
 lastmod: 2023-09-10T19:14:12+07:00
 ---
-{{< figure src="wp-content/old-images/147.jpg" />}}
+![](/wp-content/old-images/147.jpg)
 
 Man hat zur Zeit erschwerten Zugang zum Weltennetz. Grund ist die termingerechte Anbringung einer "Müssen wir nicht immer außenrum laufen und Patrick dem Herzinfarkt näher bringen wenn wir von hinten aus dem Dunkel mit Wünschen und Fragen herausgeschossen kommen und er uns nicht kommen hört weil er laute Musik aus um die Ohren schließenden Kopfhörern hört"-Öffnung in der Wand. Ich nehme auch an, dass dann öfter die Milch alle ist (so wie jetzt eben) weil das Kaffeekochen dann keine Weltreise mehr ist (auch ich bin drei Meter näher an den Wasserkocher gezogen).
 
