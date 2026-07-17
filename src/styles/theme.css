@@ -1,1 +1,104 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/*
+ * Palette derived from the old Hugo site's SCSS (legacy/hugo:assets/scss/) as
+ * inspiration, not an exact match — see issue #716. Coral (#ec7263) fails
+ * WCAG AA as small text on the cream surface (2.48:1), so `--color-link` is a
+ * darkened variant (#b8402f, 4.65:1) used specifically for readable body-text
+ * links; the vibrant coral stays reserved for large UI (buttons, borders)
+ * where a 3:1 threshold applies instead.
+ */
+@theme {
+  --font-sans: "Panton", ui-sans-serif, system-ui, sans-serif;
+
+  --color-background: #290e1c;
+  --color-foreground: #f5f1e6;
+
+  --color-card: #f1ecd8;
+  --color-card-foreground: #2b2929;
+
+  --color-primary: #ec7263;
+  --color-primary-foreground: #2b2929;
+
+  --color-secondary: #3d1a2b;
+  --color-secondary-foreground: #f5f1e6;
+
+  --color-muted: #e5dfc7;
+  --color-muted-foreground: #6b6250;
+
+  --color-accent: #e5dfc7;
+  --color-accent-foreground: #2b2929;
+
+  --color-link: #b8402f;
+
+  --color-border: #d9d3ba;
+  --color-ring: #b8402f;
+}
+
+:root {
+  --radius: 0.75rem;
+}
+
+@font-face {
+  font-family: "Panton";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src:
+    url("/assets/webfonts/400/regular/panton-regular-webfont.woff2")
+    format("woff2"),
+    url("/assets/webfonts/400/regular/panton-regular-webfont.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Panton";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src:
+    url("/assets/webfonts/400/regular-italic/panton-regularitalic-webfont.woff2")
+    format("woff2"),
+    url("/assets/webfonts/400/regular-italic/panton-regularitalic-webfont.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Panton";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src:
+    url("/assets/webfonts/700/extra-bold/panton-extrabold-webfont.woff2")
+    format("woff2"),
+    url("/assets/webfonts/700/extra-bold/panton-extrabold-webfont.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Panton";
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src:
+    url("/assets/webfonts/900/heavy/panton-heavy-webfont.woff2") format("woff2"),
+    url("/assets/webfonts/900/heavy/panton-heavy-webfont.woff") format("woff");
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+/* Headings render at regular weight per the old site's identity; the brand
+   title in Header.astro opts into --font-weight-900 (Panton Heavy) directly. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}

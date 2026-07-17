@@ -4,6 +4,7 @@
 // this repo's own layouts/ — vendored via go.mod). Verified against the live
 // site's rendered markup rather than module source, since the module itself
 // isn't checked into legacy/hugo.
+import Button from '@components/ui/button.astro';
 import setup from '@data/setup.json';
 
 interface Props {
@@ -28,21 +29,23 @@ const twitterUrl = `https://twitter.com/intent/tweet?${new URLSearchParams({
 })}`;
 ---
 
-<p class="social-share">
-  <a
-    class="btn btn-facebook"
+<p class="flex gap-2">
+  <Button
     href={facebookUrl}
+    variant="outline"
+    size="sm"
     target="_blank"
     rel="noopener noreferrer"
   >
     Facebook
-  </a>
-  <a
-    class="btn btn-twitter"
+  </Button>
+  <Button
     href={twitterUrl}
+    variant="outline"
+    size="sm"
     target="_blank"
     rel="noopener noreferrer"
   >
     Twitter
-  </a>
+  </Button>
 </p>

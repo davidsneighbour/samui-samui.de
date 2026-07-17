@@ -1,4 +1,5 @@
 import mdx from '@astrojs/mdx';
+import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'astro/config';
@@ -56,6 +57,7 @@ export default defineConfig({
       },
     }),
     pagefind({ indexConfig: { keepIndexUrl: true } }),
+    react(),
   ],
   output: 'static',
   prefetch: { defaultStrategy: 'viewport', prefetchAll: true },

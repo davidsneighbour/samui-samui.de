@@ -1,0 +1,35 @@
+---
+import Button from '@components/ui/button.astro';
+
+interface Props {
+  previousHref?: string | undefined;
+  nextHref?: string | undefined;
+  pageNumber: number;
+  totalPages: number;
+}
+
+const { previousHref, nextHref, pageNumber, totalPages } = Astro.props as Props;
+---
+
+<nav
+  class="mt-8 flex items-center justify-between gap-4"
+  aria-label="Seitennavigation"
+>
+  {previousHref ? (
+      <Button href={previousHref} variant="outline">
+        ← Neuere Beiträge
+      </Button>
+    ) : (
+      <span />
+    )}
+  <span class="text-sm text-muted-foreground">
+    Seite {pageNumber} / {totalPages}
+  </span>
+  {nextHref ? (
+      <Button href={nextHref} variant="outline">
+        Ältere Beiträge →
+      </Button>
+    ) : (
+      <span />
+    )}
+</nav>

@@ -1,48 +1,42 @@
 ---
 import HeaderLink from '@components/HeaderLink.astro';
 import setup from '@data/setup.json';
+
+const navLinkClass =
+  'px-1.5 py-1 text-foreground/85 hover:text-primary sm:px-2';
 ---
 
-<header>
-  <nav>
-    <h2><a href="/">{setup.title}</a></h2>
-    <div class="internal-links">
-      <HeaderLink href="/">Startseite</HeaderLink>
-      <HeaderLink href="/archiv/">Archiv</HeaderLink>
-      <HeaderLink href="/suche/">Suchen</HeaderLink>
-      <HeaderLink href="/kontakt/">Kontakt</HeaderLink>
+<header class="border-b border-foreground/10 bg-background">
+  <nav
+    class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-4"
+  >
+    <a
+      href="/"
+      class="text-xl font-black tracking-tight text-foreground sm:text-2xl"
+    >
+      {setup.title}
+    </a>
+    <div class="flex flex-wrap items-center gap-x-0.5 text-sm">
+      <HeaderLink
+        href="/"
+        class={navLinkClass}
+        >Startseite</HeaderLink
+      >
+      <HeaderLink
+        href="/archiv/"
+        class={navLinkClass}
+        >Archiv</HeaderLink
+      >
+      <HeaderLink
+        href="/suche/"
+        class={navLinkClass}
+        >Suchen</HeaderLink
+      >
+      <HeaderLink
+        href="/kontakt/"
+        class={navLinkClass}
+        >Kontakt</HeaderLink
+      >
     </div>
   </nav>
 </header>
-<style>
-  header {
-    margin: 0;
-    padding: 0 1em;
-    background: white;
-    box-shadow: 0 2px 8px rgba(var(--black), 5%);
-  }
-  h2 {
-    margin: 0;
-    font-size: 1em;
-  }
-
-  h2 a,
-  h2 a.active {
-    text-decoration: none;
-  }
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  nav a {
-    padding: 1em 0.5em;
-    color: var(--black);
-    border-bottom: 4px solid transparent;
-    text-decoration: none;
-  }
-  nav a.active {
-    text-decoration: none;
-    border-bottom-color: var(--accent);
-  }
-</style>

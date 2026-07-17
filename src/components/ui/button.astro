@@ -1,0 +1,52 @@
+---
+import { cn } from '@utils/cn';
+import type { HTMLAttributes } from 'astro/types';
+import { cva, type VariantProps } from 'class-variance-authority';
+
+export const buttonVariants = cva(
+  'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-(--radius) text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50',
+  {
+    defaultVariants: {
+      size: 'default',
+      variant: 'default',
+    },
+    variants: {
+      size: {
+        default: 'h-10 px-4 py-2',
+        lg: 'h-11 rounded-[calc(var(--radius)-2px)] px-8',
+        sm: 'h-9 rounded-[calc(var(--radius)-4px)] px-3',
+      },
+      variant: {
+        default: 'bg-primary text-primary-foreground hover:bg-primary/90',
+        ghost: 'hover:bg-accent hover:text-accent-foreground',
+        link: 'text-link underline-offset-4 hover:underline',
+        outline:
+          'border border-border bg-transparent text-current hover:bg-accent hover:text-accent-foreground',
+        secondary:
+          'bg-secondary text-secondary-foreground hover:bg-secondary/90',
+      },
+    },
+  },
+);
+
+type Variant = VariantProps<typeof buttonVariants>['variant'];
+type Size = VariantProps<typeof buttonVariants>['size'];
+
+interface Props extends Omit<HTMLAttributes<'a'>, 'class'> {
+  href: string;
+  variant?: Variant | undefined;
+  size?: Size | undefined;
+  class?: string | undefined;
+}
+
+const { href, variant, size, class: className, ...rest } = Astro.props as Props;
+const classes = cn(buttonVariants({ size, variant }), className);
+---
+
+<a
+  href={href}
+  class={classes}
+  {...rest}
+>
+  <slot />
+</a>

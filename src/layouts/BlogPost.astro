@@ -6,6 +6,7 @@ import FormattedDate from '@components/FormattedDate.astro';
 import Giscus from '@components/Giscus.astro';
 import Header from '@components/Header.astro';
 import SocialShare from '@components/SocialShare.astro';
+import Separator from '@components/ui/separator.astro';
 import type { ImageMetadata } from 'astro';
 
 type Props = {
@@ -35,81 +36,59 @@ const updatedOn = lastmod ?? updatedDate;
 const hero = featured_image ?? heroImage;
 ---
 
-<html lang="en">
+<html lang="de">
   <head>
     <BaseHead
       title={title}
       description={metaDescription}
     />
-    <style>
-      main {
-        width: calc(100% - 2em);
-        max-width: 100%;
-        margin: 0;
-      }
-      .hero-image {
-        width: 100%;
-      }
-      .hero-image img {
-        display: block;
-        margin: 0 auto;
-        border-radius: 12px;
-        box-shadow: var(--box-shadow);
-      }
-      .prose {
-        width: 720px;
-        max-width: calc(100% - 2em);
-        margin: auto;
-        padding: 1em;
-        color: rgb(var(--gray-dark));
-      }
-      .title {
-        margin-bottom: 1em;
-        padding: 1em 0;
-        text-align: center;
-        line-height: 1;
-      }
-      .title h1 {
-        margin: 0 0 0.5em 0;
-      }
-      .date {
-        margin-bottom: 0.5em;
-        color: rgb(var(--gray));
-      }
-      .last-updated-on {
-        font-style: italic;
-      }
-    </style>
   </head>
 
   <body>
     <Header />
-    <main>
-      <article>
-        <div class="hero-image">
-          {hero &&
-              (typeof hero === "string" ? (
-                <img src={hero} alt="" />
-              ) : (
-                <Image width={1020} height={510} src={hero} alt="" />
-              ))}
-        </div>
-        <div class="prose">
-          <div class="title">
-            <div class="date">
+    <main class="mx-auto max-w-4xl px-4 py-8">
+      <article
+        class="overflow-hidden rounded-(--radius) bg-card text-card-foreground"
+      >
+        {hero && (
+          <div class="w-full">
+            {typeof hero === "string" ? (
+              <img
+                src={hero}
+                alt=""
+                class="block w-full"
+              />
+            ) : (
+              <Image
+                width={1020}
+                height={510}
+                src={hero}
+                alt=""
+                class="block w-full"
+              />
+            )}
+          </div>
+        )}
+        <div class="px-4 py-8 sm:px-8">
+          <div class="mb-8 text-center">
+            <p class="mb-2 text-sm text-muted-foreground">
               {publishedOn && <FormattedDate date={publishedOn} />}
               {updatedOn && (
-                  <div class="last-updated-on">
+                  <span class="block italic">
                     Last updated on <FormattedDate date={updatedOn} />
-                  </div>
+                  </span>
                 )}
-            </div>
-            <h1>{title}</h1>
-            <hr>
+            </p>
+            <h1 class="mb-4 text-3xl font-normal sm:text-4xl">{title}</h1>
+            <Separator />
           </div>
-          <slot />
+          <div
+            class="prose prose-neutral mx-auto max-w-none prose-headings:font-normal prose-headings:text-card-foreground prose-a:text-link prose-a:no-underline prose-a:hover:underline prose-strong:text-card-foreground prose-blockquote:border-primary prose-blockquote:text-muted-foreground prose-img:rounded-(--radius)"
+          >
+            <slot />
+          </div>
         </div>
-        <div class="prose">
+        <div class="border-t border-card-foreground/10 px-4 py-8 sm:px-8">
           <SocialShare
             title={title}
             url={new URL(Astro.url.pathname, Astro.site)}
