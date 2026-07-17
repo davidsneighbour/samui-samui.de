@@ -1,0 +1,54 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '@components/BaseHead.astro';
+import BlogList from '@components/BlogList.astro';
+import Footer from '@components/Footer.astro';
+import Header from '@components/Header.astro';
+import { slugify } from '@utils/slugify';
+
+export async function getStaticPaths() {
+  const [people, posts] = await Promise.all([
+    getCollection('leute'),
+    getCollection('posts'),
+  ]);
+
+  return people.map((person) => {
+    const matchingPosts = posts
+      .filter((post) =>
+        post.data.leute?.some((name) => slugify(name) === person.data.slug),
+      )
+      .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+    return {
+      params: { slug: person.data.slug },
+      props: { person, posts: matchingPosts },
+    };
+  });
+}
+
+const { person, posts } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={person.data.title}
+      description={person.data.description ?? `Beiträge über ${person.data.title}`}
+    />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section>
+        <h1>{person.data.title}</h1>
+        <BlogList
+          posts={posts}
+          pageNumber={1}
+          totalPages={1}
+        />
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>

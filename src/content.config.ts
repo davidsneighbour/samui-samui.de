@@ -15,6 +15,7 @@ const posts = defineCollection({
       dsq_thread_id: z.array(z.union([z.string(), z.number()])).optional(),
       featured_image: z.string().optional(),
       lastmod: z.coerce.date().optional(),
+      leute: z.array(z.string()).optional(),
       resources: z
         .array(
           z.object({
