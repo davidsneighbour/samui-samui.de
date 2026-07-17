@@ -46,4 +46,16 @@ const tags = defineCollection({
   }),
 });
 
-export const collections = { leute, posts, tags };
+// Standalone top-level pages (kontakt, suche, datenschutzerklaerung) --
+// intentionally non-recursive so it doesn't pick up the posts/leute/tags
+// subdirectories, which are their own collections above.
+const pages = defineCollection({
+  loader: glob({ base: './src/content', pattern: '*.md' }),
+  schema: baseFrontmatter
+    .extend({
+      lastmod: z.coerce.date().optional(),
+    })
+    .passthrough(),
+});
+
+export const collections = { leute, pages, posts, tags };
