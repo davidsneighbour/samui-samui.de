@@ -37,6 +37,12 @@ const { title, description, image = FallbackImage } = Astro.props;
   title={setup.title}
   href={new URL("rss.xml", Astro.site)}
 >
+<link
+  rel="search"
+  type="application/opensearchdescription+xml"
+  title={setup.title}
+  href="/opensearch.xml"
+>
 <meta
   name="generator"
   content={Astro.generator}

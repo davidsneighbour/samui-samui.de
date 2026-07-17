@@ -38,7 +38,9 @@ if (!entry) throw new Error('Missing pages/suche.md entry');
     <script is:inline>
       window.addEventListener('DOMContentLoaded', () => {
         // biome-ignore lint/correctness/noUndeclaredVariables: loaded globally by the pagefind-ui.js script above
-        new PagefindUI({ element: '#search' });
+        const search = new PagefindUI({ element: '#search' });
+        const query = new URLSearchParams(window.location.search).get('q');
+        if (query) search.triggerSearch(query);
       });
     </script>
   </body>
