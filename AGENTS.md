@@ -112,6 +112,13 @@ check for key collisions across fragments before adding one (this bit us once:
 since `check`/`build` are common names — resolved by renaming the astro one to
 `astro:check`).
 
+The `lint-staged` JSON pattern is `**/!(package-lock|.vscode/**).json`, not the
+simpler `**/!(package-lock).json` you'd expect: `biome.jsonc` intentionally
+excludes `.vscode/**` from linting, and if `lint-staged` hands `biome check
+--write` an explicit path that resolves to zero processable files, Biome treats
+that as a hard error ("No files were processed") rather than a no-op — so any
+staged `.vscode/*.json` change would otherwise always fail the pre-commit hook.
+
 `check`/`lint` cover Biome (`lint:code*`, `format*`) and Markdown
 (`lint:markdown*`) via `@dnbhq/biome-config` and `@dnbhq/markdownlint-config`.
 `biome.jsonc` extends `@dnbhq/biome-config` — keep its `$schema` version in sync

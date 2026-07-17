@@ -14,7 +14,7 @@
     "*.{md,mdx}": [
       "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc --fix"
     ],
-    "**/!(package-lock).json": ["biome check --write"]
+    "**/!(package-lock|.vscode/**).json": ["biome check --write"]
   },
   "scripts": {
     "check": "npm run format:check && npm run lint",
