@@ -4,8 +4,16 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'astro/config';
 import icon from 'astro-icon';
+import mkcert from 'vite-plugin-mkcert';
 import redirects from './src/data/redirects.json';
 import pagefind from './src/scripts/integrations/pagefind.ts';
+
+// `astro dev` only -- `server: { host: true }` (below) makes the dev server
+// reachable from other devices on the LAN by IP, and `http://192.168.x.x` is
+// not a secure context the way `http://localhost` is, so PWA/service-worker
+// testing from a phone needs real HTTPS. `astro build`/`astro preview` are
+// unaffected: they're plain `vite`/`vite preview` commands, not `dev`.
+const isDevServer = process.argv.includes('dev');
 
 // https://astro.build/config
 export default defineConfig({
@@ -66,6 +74,6 @@ export default defineConfig({
   site: 'https://samui-samui.de',
 
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [tailwindcss(), isDevServer && mkcert()],
   },
 });
