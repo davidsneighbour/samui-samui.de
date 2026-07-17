@@ -26,15 +26,16 @@ integration.
 
 **Not yet done:** the contact form itself (kontakt.astro renders the page's prose
 but the form is explicitly deferred, #702), shared asset parity (#701), redirects
-(#703), and widget/embed parity — giscus, Matomo, schema.org JSON-LD, etc. (#704).
-Also found and filed separately: 260 posts still contain raw, unconverted Hugo
-shortcode syntax (#715) — a content-fidelity gap distinct from routing.
+(#703), and most of widget/embed parity — giscus, YouTube, OpenSearch, PWA,
+schema.org JSON-LD, social sharing (#704; Matomo analytics is done). Also found
+and filed separately: 260 posts still contain raw, unconverted Hugo shortcode
+syntax (#715) — a content-fidelity gap distinct from routing.
 
 Resolved means `done + removed`.
 
 | Done | In progress | Untouched | Removed | Total | Resolved |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 11 | 2 | 4 | 1 | 18 | 67% |
+| 11 | 3 | 3 | 1 | 18 | 67% |
 
 ## Status values
 
@@ -67,7 +68,7 @@ Resolved means `done + removed`.
 | CSS/theme + JS behavior + visual identity | untouched | #716 | User wants the site to look more like the old one soon. Old site's actual colors (`#290e1c` body, `#e2e2b6` content bg, `#ec7263` primary), font ("Panton", already restored to `public/assets/webfonts/` but not wired in), and old JS behaviors (reading-progress bar, sticky-header brand toggle) are documented on the issue. Needs a scope decision (shadcn/ui adoption vs. plain Tailwind) before starting. |
 | Forms | done | #702 | Contact form implemented via a Netlify Function (Resend + reCAPTCHA v3 + spam heuristics), adapted from `thaicookingclass-samui.com`'s reference implementation. Needs Resend/reCAPTCHA credentials set as Netlify env vars before it sends real mail — code-complete either way. |
 | Redirects | done | #703 | No real historical redirects exist anywhere (no `aliases:` front matter, no configured `dnb.netlification.redirects` beyond dev boilerplate) — the original WordPress→Hugo migration preserved exact URLs via `url:` front matter instead, already replicated by `getPostUrl()`. Added `src/pages/404.astro`, which didn't exist at all. |
-| Widgets/embeds (giscus, YouTube, OpenSearch, PWA, Matomo, schema.org JSON-LD, social) | untouched | #704 | |
+| Widgets/embeds (giscus, YouTube, OpenSearch, PWA, Matomo, schema.org JSON-LD, social) | in progress | #704 | Matomo analytics done (`src/components/Analytics.astro`, tracker `//analytics.dnbhub.xyz/`, site ID `2`, gated to production builds only via `import.meta.env.PROD`, matching the old `hugo.IsServer` dev-skip). Remaining: giscus, YouTube embeds, OpenSearch, PWA manifest, schema.org JSON-LD, social sharing. |
 | `/admin` (Decap/Netlify CMS) | **removed** | #708 | Confirmed unconfigured boilerplate; dropped from parity target. |
 | Netlify deployment config | in progress | #709 | A minimal `netlify.toml` now exists (build command + functions directory, added alongside the contact form) — still needs confirming the Netlify site is actually connected to this repo, and headers/CSP are undecided. |
 
