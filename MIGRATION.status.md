@@ -56,8 +56,8 @@ Resolved means `done + removed`.
 | `content/leute/<slug>/` | `src/pages/leute/[slug].astro` | done | #698 | Only `prayuth-chan-ocha` has a page (matches original Hugo gap — `thanathorn-juangroongruangkit` never had an `_index.md` there either). |
 | `content/tags/<tag>/` | `src/pages/tags/[slug].astro` | done | #699 | Generates a page per distinct tag slug used across all posts (Hugo taxonomy behavior), with override support from the one tag with a manual `_index.md`. |
 | `content/archive/<year>.md` | `src/pages/archiv/[year].astro` + index | done | #700 | German "archiv" URL (per original Hugo permalinks). Computed from posts' `date`, not a separate content collection. |
-| `content/feiertage/` | TBD | untouched | none yet | Not a registered Hugo collection; unclear if it renders its own routes or is only consumed as data. See Open Inventory Questions. |
-| `content/sitewide/` (e.g. `authorfooter`) | TBD | untouched | none yet | Cross-page snippets, not routes. See Open Inventory Questions. |
+| `content/feiertage/` | `src/pages/feiertage.astro` | done | #688 | Resolved via its own Hugo front matter (no `_build` render-suppression, unlike sitewide/ below) — confirmed live at `https://samui-samui.de/feiertage/`. |
+| `content/sitewide/` (e.g. `authorfooter`) | n/a (data only) | done | #688 | Confirmed via Hugo's `_build: { render: never, list: never }` on both files — never a standalone route. `authorfooter` is wired into `BlogPost.astro` as the post-article author-bio section, matching the live site. |
 
 ## Asset and system inventory
 
@@ -65,7 +65,7 @@ Resolved means `done + removed`.
 | --- | --- | --- | --- |
 | Images and media (`images`, `assets`, legacy `wp-content/{uploads,old-images,imagecache}`) | done | #701 | Restored from `legacy/hugo`'s `static/` into `public/` (783 files), verified present in `dist/` after build. |
 | PDFs and downloads | done | #701 | None exist locally or ever did in `legacy/hugo`'s `static/`; the few posts mentioning `.pdf` link to external URLs. Nothing to migrate. |
-| CSS/theme + JS behavior + visual identity | untouched | #716 | User wants the site to look more like the old one soon. Old site's actual colors (`#290e1c` body, `#e2e2b6` content bg, `#ec7263` primary), font ("Panton", already restored to `public/assets/webfonts/` but not wired in), and old JS behaviors (reading-progress bar, sticky-header brand toggle) are documented on the issue. Needs a scope decision (shadcn/ui adoption vs. plain Tailwind) before starting. |
+| CSS/theme + JS behavior + visual identity | done | #716 | Old site's colors (dark aubergine shell, cream content surface, coral accent) used as inspiration for a WCAG-checked modern palette (not an exact copy — raw coral fails AA as small text on cream); shadcn/ui adopted as a Tailwind v4 `@theme` + zero-JS Astro component foundation (`@astrojs/react` available for future genuinely-interactive components). Panton webfont wired in for the weights actually used. Header/Footer/BlogList/BlogPost restyled; the shadcn theme preset from `TODO.md` explicitly rejected per user decision. Old JS behaviors (reading-progress bar, sticky-header brand toggle) not ported — not requested in the issue's confirmed scope. |
 | Forms | done | #702 | Contact form implemented via a Netlify Function (Resend + reCAPTCHA v3 + spam heuristics), adapted from `thaicookingclass-samui.com`'s reference implementation. Needs Resend/reCAPTCHA credentials set as Netlify env vars before it sends real mail — code-complete either way. |
 | Redirects | done | #703 | No real historical redirects exist anywhere (no `aliases:` front matter, no configured `dnb.netlification.redirects` beyond dev boilerplate) — the original WordPress→Hugo migration preserved exact URLs via `url:` front matter instead, already replicated by `getPostUrl()`. Added `src/pages/404.astro`, which didn't exist at all. |
 | Widgets/embeds (giscus, YouTube, OpenSearch, PWA, Matomo, schema.org JSON-LD, social) | in progress | #704 | Matomo analytics done (`src/components/Analytics.astro`, gated to production builds via `import.meta.env.PROD`). OpenSearch done (`src/pages/opensearch.xml.ts` + `<link rel="search">` in `BaseHead.astro`); the old site's own descriptor pointed at a 404'd `/search/` URL, fixed here to the real `/suche/?q=` path, and `suche.astro` now reads `?q=` and calls Pagefind's `triggerSearch()`. PWA manifest done (`<link rel="manifest">` + theme-color meta in `BaseHead.astro`, pointing at the already-restored `public/images/favicon/site.webmanifest`) — the old site's own Hugo "pwa" module output was a broken manifest with every field empty, not worth porting. Giscus done (`src/components/Giscus.astro`, wired into `BlogPost.astro`), adapted from `kollitsch.dev`'s reference; GitHub Discussions enabled on the repo; still needs the giscus GitHub App installed (manual step, see `MIGRATION.md`). Social sharing done (`src/components/SocialShare.astro`, Facebook + Twitter share links matching the live site's exact URL/param format, wired into `BlogPost.astro`). Schema.org JSON-LD: investigated, nothing to migrate — the old site's "schema" Hugo module was front-matter build-time validation (`assets/config/schema/frontmatter.schema.json`), not structured-data output; the live site emits no `application/ld+json` anywhere. YouTube embeds done — 31 occurrences converted to `<iframe>` embeds as part of #715 (closed), which covered this alongside its other raw-shortcode-conversion work (figure, quote, gallery, languagelink, ref). |
@@ -79,11 +79,9 @@ Resolved means `done + removed`.
 
 ## Open inventory questions
 
-* Does `content/feiertage/` (holidays) render its own public routes, or is it purely
-  data consumed by templates (e.g. a holiday calendar widget)? Affects whether it
-  needs a dedicated route-parity issue.
-* Does `content/sitewide/` need anything beyond being reproduced as shared
-  layout/component content (i.e., is it ever a standalone route)?
+None open — the two questions this section used to track (`content/feiertage/`
+and `content/sitewide/` route status) were resolved and closed via #688.
+
 * Are there real historical redirects anywhere (front matter `aliases`, a hand-written
   `static/_redirects`, etc.) beyond the boilerplate currently generated into
   `public/_redirects`?
