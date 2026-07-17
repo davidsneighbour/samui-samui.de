@@ -15,7 +15,17 @@ current work — see `ROADMAP.md` for open issues and next steps.
 
 * enable GH discussions
 * add Giscus component
+* check [https://github.com/davidsneighbour/kollitsch.dev/tree/bef2ee1900628c171cc1dd3aa786698321964122/src/components/features/comments](https://github.com/davidsneighbour/kollitsch.dev/tree/bef2ee1900628c171cc1dd3aa786698321964122/src/components/features/comments) for details on Giscus
+* check for setup options for giscus and proper links here: [https://giscus.app/](https://giscus.app/)
 
 ## Migrate old disqus comments to giscus
 
 scratch/samui-samui-de-2026-07-17T00_34_24.800177-all.xml.gz contains a backup of older comments from disqus. Migrate to Giscus
+
+## Onboard to shadcn/ui
+
+ see [https://ui.shadcn.com/](https://ui.shadcn.com/) for details. onboard and get the navigation into shadcn via [https://ui.shadcn.com/docs/components/base/navigation-menu](https://ui.shadcn.com/docs/components/base/navigation-menu)
+
+## Theme for shadcn
+
+--preset b6VOFFYwcb
