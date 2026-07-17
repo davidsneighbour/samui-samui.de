@@ -17,38 +17,32 @@ tracked in `MIGRATION.status.md`.**
   `origin/recovered-astro-main`. **Adopted** as the Astro Foundation base
   (#689 closed, decision in `PROJECT.md`) and landed on `main` (#690 closed).
 * **The page-route layer is built for every defined content type**: individual
-  posts, leute, tags, archive, and the top-level pages (kontakt/suche/
-  datenschutzerklaerung) — see `MIGRATION.status.md` for the full breakdown.
-  `npm run build` (2,370 pages), `npm run astro:check`, `npm run check` all pass
-  clean on `main`.
-* Open GitHub issues: 14, across 6 milestones (see below) plus 3 unmilestoned
+  posts, leute, tags, archive, feiertage, and the top-level pages (kontakt/
+  suche/datenschutzerklaerung) — see `MIGRATION.status.md` for the full
+  breakdown. `npm run build` (2,371 pages), `npm run astro:check`, `npm run
+  check` all pass clean on `main`.
+* Visual identity done (#716 closed): shadcn/ui adopted as a Tailwind v4
+  `@theme` + zero-JS Astro component foundation, old site's colors used as
+  WCAG-checked inspiration (not an exact copy), Panton webfont wired in,
+  Header/Footer/BlogList/BlogPost restyled. Content fidelity done (#715
+  closed): all Hugo shortcode types converted, zero raw `{{<`/`{{%` left.
+  Inventory gap done (#688 closed): feiertage/sitewide route questions
+  resolved from their own Hugo front matter.
+* Open GitHub issues: 11, across 4 milestones (see below) plus 3 unmilestoned
   cross-cutting issues.
-* User feedback: wants the site to look more like the old one soon — tracked
-  as #716, with the old site's actual colors/fonts and shadcn/ui component
-  interest documented there, pending a scope decision. The shadcn theme
-  preset specifically MUST NOT be applied without explicit user go-ahead
-  (see the issue's comments).
 * Label taxonomy (`type:*`, `status:*`, `prio:*`, `resolution:*`, `meta:*`) is set
   up and in active use — see `AGENTS.md` for the full table.
 * Project health: 4 open Dependabot PRs pending review (#674 pagefind, #677
   nanoid, #681 postcss, #714 npm_and_yarn group) — routine dependency
-  maintenance is automated, not tracked as issues.
+  maintenance is automated, not tracked as issues. GitHub also reports 42
+  Dependabot security alerts (21 high, 17 moderate, 4 low) on `main` as of
+  2026-07-18 — not yet triaged into issues.
 
 ## Open issues by milestone
-
-### Migration: inventory
-
-* #688 Inventory current site for Astro migration (parent/tracking)
 
 ### Migration: content parity
 
 * #691 Migrate current content and route surface to Astro (parent/tracking)
-* #715 Content fidelity: 260 posts still contain raw Hugo shortcode syntax
-  (in progress — languagelink/ref/emojify/vimeo/soundcloud/figure/gallery/
-  quote all done; only youtube (31 posts) remains, deliberately deferred
-  per #704)
-* #716 Visual redesign: restyle to match old site's identity, adopt shadcn/ui
-  (`prio:medium`, needs a scope decision before starting — see the issue)
 
 ### Migration: visual parity
 
@@ -72,18 +66,30 @@ tracked in `MIGRATION.status.md`.**
 * #695 Periodic main-branch intake during migration
 * #717 Migrate historical Disqus comments into Giscus/GitHub Discussions
   (`prio:low` — export already backed up in `scratch/`, needs an import
-  approach and an attribution-scheme decision, see the issue)
-* #718 Configure Astro dev server to run over HTTPS (`prio:low` — likely
-  needed for LAN-device PWA/service-worker testing now that the dev server
-  listens on all interfaces; see the issue for the reasoning to confirm)
+  approach; attribution scheme and skip rules for spam/deleted comments
+  already confirmed in the issue's comments)
+* #718 Configure Astro dev server to run over HTTPS (`prio:low` — confirmed
+  purpose: LAN/device testing on a dev-only server, per the issue's comments)
 
 ## Recently closed migration issues
 
+* #716 Visual redesign — shadcn/ui adopted, old site's colors used as
+  WCAG-checked inspiration (the shadcn theme preset from `TODO.md` explicitly
+  rejected per user decision), Panton webfont wired in, Header/Footer/
+  BlogList/BlogPost restyled. Surfaced and fixed a site-wide regression
+  during in-browser testing: `@tailwindcss/typography`'s default palette
+  assumes a light background, so every plain page needed the same
+  `bg-card` treatment (`src/layouts/PageLayout.astro` extracted for this).
+* #715 Content fidelity — all shortcode types (figure, gallery, quote,
+  youtube, languagelink, ref, emojify, vimeo, soundcloud) converted, zero
+  remaining `{{<`/`{{%` occurrences.
+* #688 Inventory — feiertage/sitewide route questions resolved directly from
+  their own Hugo `_build` front matter (feiertage is a real page; sitewide is
+  data-only, e.g. the author-bio footer now wired into every post).
 * #704 Widgets and embeds parity — Matomo, OpenSearch, PWA manifest, giscus,
   social sharing all done; schema.org JSON-LD investigated (nothing to
   migrate, the old "schema" module was front-matter validation not
-  structured data); YouTube embeds deliberately deferred to #715 since it's
-  the same shortcode-conversion work as that issue's other types.
+  structured data); YouTube embeds folded into #715.
 * #689 Review recovered-astro-main branch and decide adoption — **adopted**, see
   `PROJECT.md` decision log and the issue's closing comment for the full review.
 * #690 Build Astro static-site foundation — landed on `main`, Hugo removed
@@ -108,25 +114,21 @@ tracked in `MIGRATION.status.md`.**
 
 ## Open clarification questions
 
-* Whether `content/feiertage/` and `content/sitewide/` need dedicated route-parity
-  issues — see "Open Inventory Questions" in `MIGRATION.status.md`.
-* Whether any real historical redirects exist beyond the current boilerplate
-  `public/_redirects` output.
+None currently open.
 
 ## Recommended next steps
 
-1. **#716 needs a scope decision from the user** before starting (shadcn/ui
-   adoption vs. plain Tailwind, which components are actually needed, exact
-   vs. inspired-by color/font match) — the highest-priority remaining item
-   given explicit user interest in the site looking better soon.
-2. #715 (raw Hugo shortcode syntax) — only `youtube` (31 posts) remains, can
-   be finished independently of #716.
-3. #688 (inventory) can proceed in parallel.
-4. Address Cleanup issues (#708, #709) opportunistically — #709 now has a
+1. #717 and #718 are both low-priority and already have their clarification
+   questions answered in-issue — either can be implemented next.
+2. Address Cleanup issues (#708, #709) opportunistically — #709 now has a
    minimal `netlify.toml` but still needs the Netlify site connection
    confirmed and headers/CSP decided if wanted.
-5. #717 and #718 are both low-priority and have open clarification questions
-   in their issue bodies — resolve those with the user before implementing
-   either.
-6. Review and merge the 4 open Dependabot PRs opportunistically (routine
+3. Review and merge the 4 open Dependabot PRs opportunistically (routine
    maintenance, no scope decision needed).
+4. The 42 Dependabot security alerts GitHub reports on `main` haven't been
+   triaged — worth a `dnb-osv-scan`-style pass or at least a look at the
+   Security tab to see whether any are exploitable in this static site's
+   actual usage (vs. build-time-only tooling).
+5. #692/#693/#694/#695/#705/#706/#691 remain parent/tracking or deferred
+   issues without independent next actions of their own — no action needed
+   until their sub-scope changes.
