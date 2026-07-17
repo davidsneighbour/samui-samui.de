@@ -27,9 +27,6 @@ Schroffe oder beleidigende Nachrichten werden wohlwollend unbeantwortet gelassen
 
 Wenn du mir Dateien schicken willst, [nutze dieses Dropbox-Formular][2].
 
-<!-- Contact form pending: see issue #702 -->
-_(Kontaktformular folgt in Kürze.)_
-
 [1]: /datenschutzerklaerung/
 
 [2]: https://www.dropbox.com/request/GZxosbX7metiPoiuLvxo
