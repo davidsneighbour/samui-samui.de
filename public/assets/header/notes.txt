@@ -1,0 +1,20 @@
+## Header images
+
+Add your header image to the folder `static/assets/header` and then configure them in `config/params.dnb` as `header_image=filename.ext`. The image should be in the format 1:2.5 to fill in properly.
+
+
+boxing boy
+Woody Brown#41292D
+Calico#DFB28C
+Santa Fe#B56351
+Manatee#8881A5
+
+elephant
+Flint#67625B
+Soft Amber#CBBFAF
+Edward#AEB7B6
+Gull Gray#99AAB5
+
+https://www.canva.com/colors/color-palette-generator/
+http://www.colorfavs.com/palettes/287850/
+https://coolors.co/image-picker

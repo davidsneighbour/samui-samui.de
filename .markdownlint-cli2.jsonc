@@ -3,5 +3,11 @@
   // with legacy raw-HTML embeds the shared doc-oriented ruleset (MD033
   // allowlist, title-case-style, etc.) was never meant to police. Keep linting
   // scoped to engineering documentation.
-  "ignores": ["node_modules/**", "dist/**", "src/content/**", "scratch/**"]
+  "ignores": [
+    "node_modules/**",
+    "dist/**",
+    "src/content/**",
+    "scratch/**",
+    "public/**"
+  ]
 }

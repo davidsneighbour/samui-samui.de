@@ -31,7 +31,9 @@
     "includes": [
       "**",
       // \! = index but not linted/fixed, !! = fully ignored
-      "!**/.vscode/**/*"
+      "!**/.vscode/**/*",
+      // Legacy static assets served as-is; not source code.
+      "!public/**"
     ]
   },
   "formatter": {

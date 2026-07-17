@@ -10,11 +10,11 @@
     "simple-git-hooks": "2.13.1"
   },
   "lint-staged": {
-    "*.{js,cjs,mjs,ts,astro}": ["biome check --write"],
+    "*.{js,cjs,mjs,ts,astro}": ["biome check --write --no-errors-on-unmatched"],
     "*.{md,mdx}": [
       "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc --fix"
     ],
-    "**/!(package-lock|.vscode/**).json": ["biome check --write"]
+    "**/!(package-lock).json": ["biome check --write --no-errors-on-unmatched"]
   },
   "scripts": {
     "check": "npm run format:check && npm run lint",

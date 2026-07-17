@@ -1,0 +1,23 @@
+@font-face {
+font-family: 'pantonextrabold';
+src: url('extra-bold/panton-extrabold-webfont.eot');
+src: url('extra-bold/panton-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+url('extra-bold/panton-extrabold-webfont.woff2') format('woff2'),
+url('extra-bold/panton-extrabold-webfont.woff') format('woff'),
+url('extra-bold/panton-extrabold-webfont.ttf') format('truetype');
+font-weight: 700;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'pantonextrabold_italic';
+src: url('extra-bold-italic/panton-extrabolditalic-webfont.eot');
+src: url('extra-bold-italic/panton-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+url('extra-bold-italic/panton-extrabolditalic-webfont.woff2') format('woff2'),
+url('extra-bold-italic/panton-extrabolditalic-webfont.woff') format('woff'),
+url('extra-bold-italic/panton-extrabolditalic-webfont.ttf') format('truetype'),
+url('extra-bold-italic/panton-extrabolditalic-webfont.svg#pantonextrabold_italic') format('svg');
+font-weight: 700;
+font-style: italic;
+font-display: swap;
+}

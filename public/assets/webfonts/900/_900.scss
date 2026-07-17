@@ -1,0 +1,22 @@
+@font-face {
+font-family: 'pantonheavy';
+src: url('heavy/panton-heavy-webfont.eot');
+src: url('heavy/panton-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+url('heavy/panton-heavy-webfont.woff2') format('woff2'),
+url('heavy/panton-heavy-webfont.woff') format('woff'),
+url('heavy/panton-heavy-webfont.ttf') format('truetype');
+font-weight: 900;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'pantonheavy_italic';
+src: url('heavy-italic/panton-heavyitalic-webfont.eot');
+src: url('heavy-italic/panton-heavyitalic-webfont.eot?#iefix') format('embedded-opentype'),
+url('heavy-italic/panton-heavyitalic-webfont.woff2') format('woff2'),
+url('heavy-italic/panton-heavyitalic-webfont.woff') format('woff'),
+url('heavy-italic/panton-heavyitalic-webfont.ttf') format('truetype');
+font-weight: 900;
+font-style: italic;
+font-display: swap;
+}
