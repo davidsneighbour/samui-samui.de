@@ -1,0 +1,39 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '@components/BaseHead.astro';
+import Footer from '@components/Footer.astro';
+import Header from '@components/Header.astro';
+
+const posts = await getCollection('posts');
+const years = [
+  ...new Set(posts.map((post) => post.data.date.getUTCFullYear())),
+].sort((a, b) => b - a);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title="Das Archiv?!?"
+      description="Archiv."
+    />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <article>
+        <header class="title">
+          <h1>Das Archiv?!?</h1>
+        </header>
+        <ul class="list-inline">
+          {years.map((year) => (
+              <li>
+                <a href={`/archiv/${year}/`}>{year}</a>
+              </li>
+            ))}
+        </ul>
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
