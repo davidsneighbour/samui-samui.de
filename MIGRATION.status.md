@@ -6,29 +6,35 @@ answers: "How close are we to the same website on Astro?"
 
 ## Summary
 
-Status basis: local scan of `main` after landing the Astro foundation, 2026-07-17.
-**The Astro foundation is now live on `main`** (issue #690 done): `astro.config.ts`
-(TypeScript, per user decision — Astro pinned to 6.4.8, not 7.x, since some
-integrations hadn't caught up to Astro 7 peer deps yet), `biome.jsonc` extending
-`@dnbhq/biome-config`, the `src/packages/*.jsonc` fragment-based `package.json`
-generation pipeline, and all Hugo source/config/tooling removed entirely (by
-explicit user decision — Hugo no longer needs to be deployed). `npm run build`,
-`npm run astro:check` (typecheck), and `npm run check` (biome + markdownlint) all
-pass clean.
+Status basis: local scan of `main` after building the page-route layer,
+2026-07-17. **The Astro foundation is live and route-complete for all defined
+content** (#690, #696-#700 done): `astro.config.ts` (TypeScript, Astro pinned to
+6.4.8), `biome.jsonc` extending `@dnbhq/biome-config`, the `src/packages/*.jsonc`
+fragment-based `package.json` pipeline, and all Hugo source/config/tooling removed
+entirely. `npm run build` (2,370 pages), `npm run astro:check` (0 errors), and
+`npm run check` (biome + markdownlint) all pass clean.
 
-Content for `posts`/`leute`/`tags` is fully migrated with clean front matter (from
-`recovered-astro-main`). However, **no page routes exist yet for any collection** —
-no individual post pages, no leute pages, no tag pages, no archive, no
-kontakt/suche/datenschutzerklaerung. Only `/`, `/about`, paginated `/seite/N`, and
-RSS actually render (104 pages total). Every post link in the paginated list
-currently points at a route that doesn't exist yet — that's the remaining Content
-Parity work (#696, #697, #698, #699, #700).
+Every content collection now has a working page route: individual posts
+(`src/pages/[...slug].astro`, Hugo-parity `/:year/:month/:slug/` URLs), leute
+(`src/pages/leute/[slug].astro`), tags (`src/pages/tags/[slug].astro`, generates a
+page per distinct tag slug used across posts, matching Hugo's taxonomy behavior —
+not just the one tag with a manual override), archive
+(`src/pages/archiv/[year].astro` + index, German "archiv" spelling per the
+original permalinks), and the top-level pages kontakt/suche/datenschutzerklaerung.
+`suche` wires up `@pagefind/default-ui` against the existing pagefind build
+integration.
+
+**Not yet done:** the contact form itself (kontakt.astro renders the page's prose
+but the form is explicitly deferred, #702), shared asset parity (#701), redirects
+(#703), and widget/embed parity — giscus, Matomo, schema.org JSON-LD, etc. (#704).
+Also found and filed separately: 260 posts still contain raw, unconverted Hugo
+shortcode syntax (#715) — a content-fidelity gap distinct from routing.
 
 Resolved means `done + removed`.
 
 | Done | In progress | Untouched | Removed | Total | Resolved |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 0 | 3 | 14 | 1 | 18 | 6% |
+| 7 | 1 | 9 | 1 | 18 | 44% |
 
 ## Status values
 
@@ -41,14 +47,14 @@ Resolved means `done + removed`.
 
 | Source path | Target path | Status | Issue | Notes |
 | --- | --- | --- | --- | --- |
-| `/` | `/` | untouched | #696 | Home page. |
-| `/kontakt/` | TBD | untouched | #696, #702 | Contains the contact form. |
-| `/datenschutzerklaerung/` | TBD | untouched | #696 | Privacy policy. |
-| `/suche/` | TBD | untouched | #696 | Search page (Pagefind-backed). |
-| `content/posts/<year>/<slug>/` (2,049 posts) | `src/content/posts/**` | in progress | #697 | Content fully migrated on `recovered-astro-main` (adopted, see #690), front matter clean. **No individual post page route exists yet** — only the paginated list links to post URLs that 404. |
-| `content/leute/<slug>/` | `src/content/leute/**` | in progress | #698 | Content migrated (incl. images/webp) on `recovered-astro-main`. **No leute page route exists yet.** |
-| `content/tags/<tag>/` | `src/content/tags/**` | in progress | #699 | Content/collection schema migrated on `recovered-astro-main`. **No tag page route exists yet.** |
-| `content/archive/<year>.md` | TBD | untouched | #700 | Recovered branch history mentions archive pagination work landing and later being reworked — reconcile, don't assume complete. |
+| `/` | `/` | done | #690 | Home page (paginated blog list). |
+| `/kontakt/` | `src/pages/kontakt.astro` | in progress | #696, #702 | Page and prose done; the actual contact form is deferred to #702. |
+| `/datenschutzerklaerung/` | `src/pages/datenschutzerklaerung.astro` | done | #696 | Privacy policy. |
+| `/suche/` | `src/pages/suche.astro` | done | #696 | Pagefind-backed search, using `@pagefind/default-ui`. |
+| `content/posts/<year>/<slug>/` (2,049 posts) | `src/pages/[...slug].astro` | done | #697 | Hugo-parity `/:year/:month/:slug/` URLs (from front matter `url` or computed from `date`). 260 posts still have raw unconverted Hugo shortcode syntax in their body — tracked separately as #715. |
+| `content/leute/<slug>/` | `src/pages/leute/[slug].astro` | done | #698 | Only `prayuth-chan-ocha` has a page (matches original Hugo gap — `thanathorn-juangroongruangkit` never had an `_index.md` there either). |
+| `content/tags/<tag>/` | `src/pages/tags/[slug].astro` | done | #699 | Generates a page per distinct tag slug used across all posts (Hugo taxonomy behavior), with override support from the one tag with a manual `_index.md`. |
+| `content/archive/<year>.md` | `src/pages/archiv/[year].astro` + index | done | #700 | German "archiv" URL (per original Hugo permalinks). Computed from posts' `date`, not a separate content collection. |
 | `content/feiertage/` | TBD | untouched | none yet | Not a registered Hugo collection; unclear if it renders its own routes or is only consumed as data. See Open Inventory Questions. |
 | `content/sitewide/` (e.g. `authorfooter`) | TBD | untouched | none yet | Cross-page snippets, not routes. See Open Inventory Questions. |
 
