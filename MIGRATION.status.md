@@ -7,11 +7,11 @@ answers: "How close are we to the same website on Astro?"
 ## Summary
 
 Status basis: local scan of `main` after building the page-route layer,
-2026-07-17. **The Astro foundation is live and route-complete for all defined
+2026-07-18. **The Astro foundation is live and route-complete for all defined
 content** (#690, #696-#700 done): `astro.config.ts` (TypeScript, Astro pinned to
 6.4.8), `biome.jsonc` extending `@dnbhq/biome-config`, the `src/packages/*.jsonc`
 fragment-based `package.json` pipeline, and all Hugo source/config/tooling removed
-entirely. `npm run build` (2,370 pages), `npm run astro:check` (0 errors), and
+entirely. `npm run build` (2,371 pages), `npm run astro:check` (0 errors), and
 `npm run check` (biome + markdownlint) all pass clean.
 
 Every content collection now has a working page route: individual posts
@@ -24,18 +24,21 @@ original permalinks), and the top-level pages kontakt/suche/datenschutzerklaerun
 `suche` wires up `@pagefind/default-ui` against the existing pagefind build
 integration.
 
-**Not yet done:** the contact form itself (kontakt.astro renders the page's prose
-but the form is explicitly deferred, #702), shared asset parity (#701), redirects
-(#703), and most of widget/embed parity — giscus, YouTube, OpenSearch, PWA,
-schema.org JSON-LD, social sharing (#704; Matomo analytics is done). A
-content-fidelity gap distinct from routing — 260 posts with raw, unconverted
-Hugo shortcode syntax — was found and filed separately as #715; now resolved.
+**Not yet done:** Resend/reCAPTCHA credentials for the contact form aren't set
+as Netlify env vars yet (#702, code-complete otherwise), the giscus GitHub App
+isn't installed (#704, code-complete otherwise), and Netlify deployment config
+still needs the site connection confirmed and headers/CSP decided (#709).
+Shared asset parity (#701), redirects (#703), and widget/embed parity (#704)
+are otherwise done. A content-fidelity gap distinct from routing — 260 posts
+with raw, unconverted Hugo shortcode syntax — was found and filed separately
+as #715; now resolved. Visual identity (#716) and the feiertage/sitewide
+inventory gap (#688) are also resolved.
 
 Resolved means `done + removed`.
 
 | Done | In progress | Untouched | Removed | Total | Resolved |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 11 | 3 | 3 | 1 | 18 | 67% |
+| 14 | 3 | 0 | 1 | 18 | 83% |
 
 ## Status values
 
