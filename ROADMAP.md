@@ -21,13 +21,18 @@ tracked in `MIGRATION.status.md`.**
   datenschutzerklaerung) — see `MIGRATION.status.md` for the full breakdown.
   `npm run build` (2,370 pages), `npm run astro:check`, `npm run check` all pass
   clean on `main`.
-* Open GitHub issues: 10, across 6 milestones (see below) plus 1 unmilestoned
-  cross-cutting issue.
+* Open GitHub issues: 14, across 6 milestones (see below) plus 3 unmilestoned
+  cross-cutting issues.
 * User feedback: wants the site to look more like the old one soon — tracked
   as #716, with the old site's actual colors/fonts and shadcn/ui component
-  interest (from TODO.md) documented there, pending a scope decision.
+  interest documented there, pending a scope decision. The shadcn theme
+  preset specifically MUST NOT be applied without explicit user go-ahead
+  (see the issue's comments).
 * Label taxonomy (`type:*`, `status:*`, `prio:*`, `resolution:*`, `meta:*`) is set
   up and in active use — see `AGENTS.md` for the full table.
+* Project health: 4 open Dependabot PRs pending review (#674 pagefind, #677
+  nanoid, #681 postcss, #714 npm_and_yarn group) — routine dependency
+  maintenance is automated, not tracked as issues.
 
 ## Open issues by milestone
 
@@ -39,8 +44,9 @@ tracked in `MIGRATION.status.md`.**
 
 * #691 Migrate current content and route surface to Astro (parent/tracking)
 * #715 Content fidelity: 260 posts still contain raw Hugo shortcode syntax
-  (in progress — languagelink/ref/emojify/vimeo/soundcloud done; figure/
-  gallery/quote/youtube remaining)
+  (in progress — languagelink/ref/emojify/vimeo/soundcloud/figure/gallery/
+  quote all done; only youtube (31 posts) remains, deliberately deferred
+  per #704)
 * #716 Visual redesign: restyle to match old site's identity, adopt shadcn/ui
   (`prio:medium`, needs a scope decision before starting — see the issue)
 
@@ -64,6 +70,12 @@ tracked in `MIGRATION.status.md`.**
 ### Unmilestoned / cross-cutting
 
 * #695 Periodic main-branch intake during migration
+* #717 Migrate historical Disqus comments into Giscus/GitHub Discussions
+  (`prio:low` — export already backed up in `scratch/`, needs an import
+  approach and an attribution-scheme decision, see the issue)
+* #718 Configure Astro dev server to run over HTTPS (`prio:low` — likely
+  needed for LAN-device PWA/service-worker testing now that the dev server
+  listens on all interfaces; see the issue for the reasoning to confirm)
 
 ## Recently closed migration issues
 
@@ -107,9 +119,14 @@ tracked in `MIGRATION.status.md`.**
    adoption vs. plain Tailwind, which components are actually needed, exact
    vs. inspired-by color/font match) — the highest-priority remaining item
    given explicit user interest in the site looking better soon.
-2. #715 (raw Hugo shortcode syntax in 260 posts) can proceed independently of
-   #716 — in progress.
+2. #715 (raw Hugo shortcode syntax) — only `youtube` (31 posts) remains, can
+   be finished independently of #716.
 3. #688 (inventory) can proceed in parallel.
 4. Address Cleanup issues (#708, #709) opportunistically — #709 now has a
    minimal `netlify.toml` but still needs the Netlify site connection
    confirmed and headers/CSP decided if wanted.
+5. #717 and #718 are both low-priority and have open clarification questions
+   in their issue bodies — resolve those with the user before implementing
+   either.
+6. Review and merge the 4 open Dependabot PRs opportunistically (routine
+   maintenance, no scope decision needed).

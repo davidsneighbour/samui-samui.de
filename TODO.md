@@ -11,36 +11,22 @@ Astro foundation landed on `main`, Hugo removed entirely (issues #689, #690, #70
 closed). Route-building for posts/leute/tags/archive/top-level pages is the
 current work — see `ROADMAP.md` for open issues and next steps.
 
-## Add giscus commenting system
+## Note
 
-* enable GH discussions
-* add Giscus component
-* check [https://github.com/davidsneighbour/kollitsch.dev/tree/bef2ee1900628c171cc1dd3aa786698321964122/src/components/features/comments](https://github.com/davidsneighbour/kollitsch.dev/tree/bef2ee1900628c171cc1dd3aa786698321964122/src/components/features/comments) for details on Giscus
-* check for setup options for giscus and proper links here: [https://giscus.app/](https://giscus.app/)
+Several long-standing notes below were reconciled into GitHub Issues or found
+already implemented during the 2026-07-18 triage pass:
 
-## Migrate old disqus comments to giscus
-
-scratch/samui-samui-de-2026-07-17T00_34_24.800177-all.xml.gz contains a backup of older comments from disqus. Migrate to Giscus
-
-## Onboard to shadcn/ui
-
- see [https://ui.shadcn.com/](https://ui.shadcn.com/) for details. onboard and get the navigation into shadcn via [https://ui.shadcn.com/docs/components/base/navigation-menu](https://ui.shadcn.com/docs/components/base/navigation-menu)
-
-## Theme for shadcn
-
---preset b6VOFFYwcb
-
-## ShadCN components to use
-
-* tooltips: [https://ui.shadcn.com/docs/components/base/tooltip](https://ui.shadcn.com/docs/components/base/tooltip)
-* textarea: [https://ui.shadcn.com/docs/components/base/textarea](https://ui.shadcn.com/docs/components/base/textarea)
-* separator: [https://ui.shadcn.com/docs/components/base/separator](https://ui.shadcn.com/docs/components/base/separator)
-* pagination: [https://ui.shadcn.com/docs/components/base/pagination](https://ui.shadcn.com/docs/components/base/pagination)
-* navigation: [https://ui.shadcn.com/docs/components/base/navigation-menu](https://ui.shadcn.com/docs/components/base/navigation-menu)
-* input group: [https://ui.shadcn.com/docs/components/base/input-group](https://ui.shadcn.com/docs/components/base/input-group)
-* input: [https://ui.shadcn.com/docs/components/base/input](https://ui.shadcn.com/docs/components/base/input)
-* hover card: [https://ui.shadcn.com/docs/components/base/hover-card](https://ui.shadcn.com/docs/components/base/hover-card)
-* context menu: [https://ui.shadcn.com/docs/components/base/context-menu](https://ui.shadcn.com/docs/components/base/context-menu)
-* calendar: [https://ui.shadcn.com/docs/components/base/calendar](https://ui.shadcn.com/docs/components/base/calendar)
-* button: [https://ui.shadcn.com/docs/components/base/button](https://ui.shadcn.com/docs/components/base/button)
-* breadcrumb: [https://ui.shadcn.com/docs/components/base/breadcrumb](https://ui.shadcn.com/docs/components/base/breadcrumb)
+* giscus commenting — already implemented (`src/components/Giscus.astro`, #704).
+* shadcn/ui onboarding, theme preset, component list — folded into #716
+  (including the "don't implement the theme preset without explicit
+  go-ahead" instruction, added as a comment on that issue).
+* dev server listening on all interfaces — already done
+  (`astro.config.ts`'s `server: { host: true }`).
+* cspell with English (repo) / German (content) split — already implemented
+  (`src/config/cspell/cspell.en.jsonc` + `cspell.de.jsonc`).
+* package upgrades — handled by the existing Dependabot automation (4 open
+  PRs as of this triage: #674 pagefind, #677 nanoid, #681 postcss, #714
+  npm_and_yarn group); the "keep TypeScript on v6 unless Astro supports v7"
+  constraint is already documented in `AGENTS.md`, not a separate task.
+* disqus → giscus comment migration — now tracked as #717.
+* dev server HTTPS — now tracked as #718.
