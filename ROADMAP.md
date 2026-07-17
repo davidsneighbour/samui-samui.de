@@ -21,7 +21,7 @@ tracked in `MIGRATION.status.md`.**
   datenschutzerklaerung) — see `MIGRATION.status.md` for the full breakdown.
   `npm run build` (2,370 pages), `npm run astro:check`, `npm run check` all pass
   clean on `main`.
-* Open GitHub issues: 11, across 6 milestones (see below) plus 1 unmilestoned
+* Open GitHub issues: 10, across 6 milestones (see below) plus 1 unmilestoned
   cross-cutting issue.
 * User feedback: wants the site to look more like the old one soon — tracked
   as #716, with the old site's actual colors/fonts and shadcn/ui component
@@ -38,8 +38,9 @@ tracked in `MIGRATION.status.md`.**
 ### Migration: content parity
 
 * #691 Migrate current content and route surface to Astro (parent/tracking)
-* #704 Widgets and embeds parity
 * #715 Content fidelity: 260 posts still contain raw Hugo shortcode syntax
+  (in progress — languagelink/ref/emojify/vimeo/soundcloud done; figure/
+  gallery/quote/youtube remaining)
 * #716 Visual redesign: restyle to match old site's identity, adopt shadcn/ui
   (`prio:medium`, needs a scope decision before starting — see the issue)
 
@@ -66,6 +67,11 @@ tracked in `MIGRATION.status.md`.**
 
 ## Recently closed migration issues
 
+* #704 Widgets and embeds parity — Matomo, OpenSearch, PWA manifest, giscus,
+  social sharing all done; schema.org JSON-LD investigated (nothing to
+  migrate, the old "schema" module was front-matter validation not
+  structured data); YouTube embeds deliberately deferred to #715 since it's
+  the same shortcode-conversion work as that issue's other types.
 * #689 Review recovered-astro-main branch and decide adoption — **adopted**, see
   `PROJECT.md` decision log and the issue's closing comment for the full review.
 * #690 Build Astro static-site foundation — landed on `main`, Hugo removed
@@ -101,9 +107,8 @@ tracked in `MIGRATION.status.md`.**
    adoption vs. plain Tailwind, which components are actually needed, exact
    vs. inspired-by color/font match) — the highest-priority remaining item
    given explicit user interest in the site looking better soon.
-2. #704 (widgets/embeds — giscus, YouTube, OpenSearch, PWA, Matomo, schema.org)
-   and #715 (raw Hugo shortcode syntax in 260 posts) can proceed independently
-   of #716.
+2. #715 (raw Hugo shortcode syntax in 260 posts) can proceed independently of
+   #716 — in progress.
 3. #688 (inventory) can proceed in parallel.
 4. Address Cleanup issues (#708, #709) opportunistically — #709 now has a
    minimal `netlify.toml` but still needs the Netlify site connection
