@@ -1,0 +1,48 @@
+---
+// Facebook/Twitter share buttons, ported from the old site's
+// hugo-modules/social output (dnb "social" Hugo module, never present in
+// this repo's own layouts/ — vendored via go.mod). Verified against the live
+// site's rendered markup rather than module source, since the module itself
+// isn't checked into legacy/hugo.
+import setup from '@data/setup.json';
+
+interface Props {
+  title: string;
+  url: URL;
+}
+
+const { title, url } = Astro.props;
+const shareTitle = `${title} ↭ ${setup.title}`;
+
+const facebookUrl = `https://www.facebook.com/sharer/sharer.php?${new URLSearchParams(
+  {
+    title: shareTitle,
+    u: url.toString(),
+  },
+)}`;
+
+const twitterUrl = `https://twitter.com/intent/tweet?${new URLSearchParams({
+  hashtags: 'samui,thailand',
+  url: url.toString(),
+  via: 'samui2',
+})}`;
+---
+
+<p class="social-share">
+  <a
+    class="btn btn-facebook"
+    href={facebookUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Facebook
+  </a>
+  <a
+    class="btn btn-twitter"
+    href={twitterUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Twitter
+  </a>
+</p>
