@@ -9,4 +9,4 @@ tags:
 ---
 Dies ist eine sehr viel bessere Version des Songs. Glaubt mir.
 
-{{< youtube _GolwubH4hM >}}
+<iframe src="https://www.youtube-nocookie.com/embed/_GolwubH4hM" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>

@@ -16,4 +16,4 @@ Erwähnte Dürre-Periode ist übrigens die längste und wärmste der vergangenen
 
 Hier noch ein Video (auf Thai) mit nächtlichem Brand.
 
-{{< youtube 5v9dniq2N60 >}}
+<iframe src="https://www.youtube-nocookie.com/embed/5v9dniq2N60" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>

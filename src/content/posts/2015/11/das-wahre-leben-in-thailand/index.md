@@ -7,6 +7,6 @@ tags:
 - TAT
 - ernst gemeint
 ---
-{{< youtube DJbE_LQbJXc >}}
+<iframe src="https://www.youtube-nocookie.com/embed/DJbE_LQbJXc" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 Diese kurze Video-Dokumentation zeigt das tägliche Leben in Thailand. Ein Genuss. So, muss mich mal eben auf meinen Elephanten schwingen und meinen Zigarrenbestand im 7eleven aufstocken...

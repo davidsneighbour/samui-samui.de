@@ -10,4 +10,4 @@ tags:
 lastmod: 2023-09-10T19:14:12+07:00
 ---
 
-{{< youtube biYpmT5N3Jc >}}
+<iframe src="https://www.youtube-nocookie.com/embed/biYpmT5N3Jc" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>

@@ -17,7 +17,7 @@ resources:
       title: "Da! König trifft den King."
 ---
 
-{{< youtube id="zl0PwLvFM7U" >}}
+<iframe src="https://www.youtube-nocookie.com/embed/zl0PwLvFM7U" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 Im Jahre 1960 traf der König (genau der) den King (genau den).
 

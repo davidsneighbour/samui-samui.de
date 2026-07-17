@@ -9,6 +9,6 @@ tags:
     - video
 ---
 
-{{< youtube aXP3C5Kg-7w >}}
+<iframe src="https://www.youtube-nocookie.com/embed/aXP3C5Kg-7w" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 Chaindrite ist ein Termiten-Spray das über Kontakte übertragen wird, wie die recht selbstbewußte Termite in diesem Werbeklip leider erfahren muss.

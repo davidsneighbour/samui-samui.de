@@ -11,7 +11,7 @@ tags:
 - oktober1976
 ---
 
-{{< youtube VZvzvLiGUtw >}}
+<iframe src="https://www.youtube-nocookie.com/embed/VZvzvLiGUtw" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 Am vergangenen Montag veröffentlichte die Gruppe "Rapper gegen Diktaturen" ein interessantes Musikvideo (oben zu sehen).
 
