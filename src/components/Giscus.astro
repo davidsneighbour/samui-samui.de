@@ -1,0 +1,112 @@
+---
+// Lazy-loaded giscus comments widget, adapted from
+// davidsneighbour/kollitsch.dev's src/components/features/comments/Giscus.astro
+// reference. Loads the giscus client only once the widget scrolls into view.
+//
+// Requires the giscus GitHub App installed on this repo (a manual step — see
+// MIGRATION.md) before comments will actually render; the script degrades to
+// a quiet no-op (giscus shows its own "not installed" notice) until then.
+const repo = 'davidsneighbour/samui-samui.de';
+const repoId = 'MDEwOlJlcG9zaXRvcnkxNjI5NzM3MTA=';
+const category = 'Announcements';
+const categoryId = 'DIC_kwDOCbbIDs4DBYYi';
+---
+
+<dnb-giscus
+  data-repo={repo}
+  data-repo-id={repoId}
+  data-category={category}
+  data-category-id={categoryId}
+  data-mapping="pathname"
+  data-lang="de"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+></dnb-giscus>
+
+<script>
+  if (!customElements.get('dnb-giscus')) {
+    class DnbGiscus extends HTMLElement {
+      #initialised = false;
+
+      static #observer: IntersectionObserver | undefined;
+
+      static get observer(): IntersectionObserver {
+        if (!DnbGiscus.#observer) {
+          DnbGiscus.#observer = new IntersectionObserver(
+            (entries) => {
+              for (const entry of entries) {
+                if (entry.isIntersecting) {
+                  const el = entry.target as DnbGiscus;
+                  el.loadGiscus();
+                  DnbGiscus.#observer?.unobserve(el);
+                }
+              }
+            },
+            { rootMargin: '0px 0px 200px 0px', threshold: 0.01 },
+          );
+        }
+        return DnbGiscus.#observer;
+      }
+
+      getTheme(): string {
+        return window.matchMedia('(prefers-color-scheme: dark)').matches
+          ? 'dark'
+          : 'light';
+      }
+
+      loadGiscus(): void {
+        if (this.#initialised || this.hasAttribute('data-initialised')) return;
+
+        const ds = this.dataset;
+        const attrs: Record<string, string> = {
+          async: '',
+          crossorigin: 'anonymous',
+          'data-category': ds.category ?? '',
+          'data-category-id': ds.categoryId ?? '',
+          'data-emit-metadata': ds.emitMetadata ?? '0',
+          'data-input-position': ds.inputPosition ?? 'bottom',
+          'data-lang': ds.lang ?? 'de',
+          'data-mapping': ds.mapping ?? 'pathname',
+          'data-reactions-enabled': ds.reactionsEnabled ?? '1',
+          'data-repo': ds.repo ?? '',
+          'data-repo-id': ds.repoId ?? '',
+          'data-theme': this.getTheme(),
+          src: 'https://giscus.app/client.js',
+        };
+
+        const requiredKeys = [
+          'data-repo',
+          'data-repo-id',
+          'data-category',
+          'data-category-id',
+        ];
+        const missing = requiredKeys.filter((key) => !attrs[key]);
+        if (missing.length > 0) {
+          console.error('[Giscus] Missing required attributes:', missing);
+          return;
+        }
+
+        const script = document.createElement('script');
+        for (const [key, value] of Object.entries(attrs)) {
+          script.setAttribute(key, value);
+        }
+
+        this.appendChild(script);
+        this.#initialised = true;
+        this.setAttribute('data-initialised', 'true');
+      }
+
+      connectedCallback(): void {
+        if (this.#initialised || this.hasAttribute('data-initialised')) return;
+        DnbGiscus.observer.observe(this);
+      }
+
+      disconnectedCallback(): void {
+        DnbGiscus.observer.unobserve(this);
+      }
+    }
+
+    customElements.define('dnb-giscus', DnbGiscus);
+  }
+</script>

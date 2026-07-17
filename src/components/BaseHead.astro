@@ -43,6 +43,14 @@ const { title, description, image = FallbackImage } = Astro.props;
   title={setup.title}
   href="/opensearch.xml"
 >
+<link
+  rel="manifest"
+  href="/images/favicon/site.webmanifest"
+>
+<meta
+  name="theme-color"
+  content="#ffffff"
+>
 <meta
   name="generator"
   content={Astro.generator}

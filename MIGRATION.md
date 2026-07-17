@@ -99,6 +99,35 @@ needs these Netlify environment variables set before it can send real mail:
 Until these are set, the function responds with a clear error to submitters
 rather than failing silently (see `envReady()` in `contact.mjs`).
 
+### Comments / giscus (issue #704)
+
+`src/components/Giscus.astro` is code-complete and wired into every post via
+`BlogPost.astro`, adapted from `davidsneighbour/kollitsch.dev`'s reference
+component. It is preconfigured for this repo:
+
+* Repo: `davidsneighbour/samui-samui.de` (`repoId`
+  `MDEwOlJlcG9zaXRvcnkxNjI5NzM3MTA=`).
+* Category: `Announcements` (`categoryId` `DIC_kwDOCbbIDs4DBYYi`) — giscus
+  recommends a locked category exactly like this one so discussions are only
+  ever created through the widget, not by hand; no new category needed.
+* Mapping: `pathname` (one discussion per post URL).
+
+GitHub Discussions has been enabled on this repo (done, as part of this
+work). What's still outside the codebase and requires the user's own GitHub
+authorization:
+
+* [ ] Install the [giscus GitHub App](https://github.com/apps/giscus) on
+      `davidsneighbour/samui-samui.de`. Until this is done, the widget renders
+      but giscus shows its own "app not installed" notice instead of a
+      comment thread — it does not error or break the page.
+* [ ] Optional: use [giscus.app](https://giscus.app/)'s own config generator
+      to double-check the repo/category IDs above once the app is installed,
+      in case giscus's ID scheme changes.
+* Deferred, tracked separately in `TODO.md`: migrating the existing Disqus
+  comment export (`scratch/samui-samui-de-*-all.xml.gz`) into giscus
+  discussions — not required for parity, since the old site's comments were
+  never rendered as part of the static page content.
+
 ### Netlify deployment (issue #709)
 
 `netlify.toml` currently only declares the build command and the functions
