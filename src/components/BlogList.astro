@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import FormattedDate from '@components/FormattedDate.astro';
+import { getPostUrl as getCanonicalPostUrl } from '@utils/posts';
 
 interface Props {
   posts: CollectionEntry<'posts'>[];
@@ -31,18 +32,8 @@ const nextPage =
     ? ensureLeadingSlash(pageHref(pageNumber + 1))
     : undefined;
 
-const normalizePostUrl = (url: string) => {
-  const trimmed = url.trim();
-  const withLeadingSlash = trimmed.startsWith('/') ? trimmed : `/${trimmed}`;
-  return withLeadingSlash.endsWith('/')
-    ? withLeadingSlash
-    : `${withLeadingSlash}/`;
-};
-
-const getPostUrl = (post: CollectionEntry<'posts'>) => {
-  const rawUrl = post.data.url ?? post.id;
-  return ensureLeadingSlash(`${basePath}${normalizePostUrl(rawUrl)}`);
-};
+const getPostUrl = (post: CollectionEntry<'posts'>) =>
+  ensureLeadingSlash(`${basePath}${getCanonicalPostUrl(post)}`);
 ---
 
 <style>
