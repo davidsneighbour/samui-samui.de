@@ -1,0 +1,38 @@
+---
+import BaseHead from '@components/BaseHead.astro';
+import Footer from '@components/Footer.astro';
+import Header from '@components/Header.astro';
+
+interface Props {
+  title: string;
+  description?: string | undefined;
+}
+
+const { title, description } = Astro.props as Props;
+---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <BaseHead
+      title={title}
+      description={description ?? title}
+    />
+    <slot name="head" />
+  </head>
+  <body>
+    <Header />
+    <main class="mx-auto max-w-4xl px-4 py-8">
+      <article
+        class="rounded-(--radius) bg-card px-4 py-8 text-card-foreground sm:px-8"
+      >
+        <header class="mb-8 text-center">
+          <h1 class="text-3xl font-normal sm:text-4xl">{title}</h1>
+        </header>
+        <slot />
+      </article>
+    </main>
+    <Footer />
+    <slot name="scripts" />
+  </body>
+</html>

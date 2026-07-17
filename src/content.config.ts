@@ -58,4 +58,30 @@ const pages = defineCollection({
     .passthrough(),
 });
 
-export const collections = { leute, pages, posts, tags };
+// A single standalone page (public holidays list), section-organized like
+// leute/tags rather than a flat file, hence its own collection instead of
+// living in `pages`.
+const feiertage = defineCollection({
+  loader: glob({ base: './src/content/feiertage', pattern: '**/_index.md' }),
+  schema: baseFrontmatter.extend({
+    date: z.coerce.date().optional(),
+  }),
+});
+
+// Cross-page snippets consumed by other templates (e.g. the author-bio
+// footer rendered on every post), never routed to their own page --
+// mirrors Hugo's `_build: { render: never }` on these source files. Unlike
+// posts' `featured_image` (an absolute /wp-content/... public/ path), this
+// `image` is a genuine bundle-local file, hence the `image()` helper for
+// automatic optimization.
+const sitewide = defineCollection({
+  loader: glob({ base: './src/content/sitewide', pattern: '**/index.md' }),
+  schema: ({ image }) =>
+    baseFrontmatter.extend({
+      image: image().optional(),
+      imagetitle: z.string().optional(),
+      lastmod: z.coerce.date().optional(),
+    }),
+});
+
+export const collections = { feiertage, leute, pages, posts, sitewide, tags };

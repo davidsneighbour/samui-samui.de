@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets';
+import { getCollection, render } from 'astro:content';
 import BaseHead from '@components/BaseHead.astro';
 import Footer from '@components/Footer.astro';
 import FormattedDate from '@components/FormattedDate.astro';
@@ -7,7 +8,16 @@ import Giscus from '@components/Giscus.astro';
 import Header from '@components/Header.astro';
 import SocialShare from '@components/SocialShare.astro';
 import Separator from '@components/ui/separator.astro';
+import { proseClasses } from '@utils/prose';
 import type { ImageMetadata } from 'astro';
+
+const [authorFooter] = await getCollection(
+  'sitewide',
+  ({ id }) => id === 'authorfooter',
+);
+const AuthorBio = authorFooter
+  ? (await render(authorFooter)).Content
+  : undefined;
 
 type Props = {
   title: string;
@@ -82,12 +92,28 @@ const hero = featured_image ?? heroImage;
             <h1 class="mb-4 text-3xl font-normal sm:text-4xl">{title}</h1>
             <Separator />
           </div>
-          <div
-            class="prose prose-neutral mx-auto max-w-none prose-headings:font-normal prose-headings:text-card-foreground prose-a:text-link prose-a:no-underline prose-a:hover:underline prose-strong:text-card-foreground prose-blockquote:border-primary prose-blockquote:text-muted-foreground prose-img:rounded-(--radius)"
-          >
+          <div class={proseClasses}>
             <slot />
           </div>
         </div>
+        {authorFooter && AuthorBio && (
+          <div class="border-t border-card-foreground/10 bg-muted px-4 py-8 sm:px-8">
+            <div class="mx-auto flex max-w-2xl flex-col gap-4 sm:flex-row">
+              {authorFooter.data.image && (
+                <Image
+                  src={authorFooter.data.image}
+                  alt={authorFooter.data.imagetitle ?? ''}
+                  width={120}
+                  height={120}
+                  class="mx-auto block h-24 w-24 shrink-0 rounded-full object-cover sm:mx-0"
+                />
+              )}
+              <div class="prose prose-sm prose-neutral max-w-none text-card-foreground prose-headings:font-normal prose-headings:text-card-foreground prose-a:text-link prose-a:no-underline prose-a:hover:underline">
+                <AuthorBio />
+              </div>
+            </div>
+          </div>
+        )}
         <div class="border-t border-card-foreground/10 px-4 py-8 sm:px-8">
           <SocialShare
             title={title}

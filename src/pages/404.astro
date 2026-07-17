@@ -1,34 +1,29 @@
 ---
-import BaseHead from '@components/BaseHead.astro';
-import Footer from '@components/Footer.astro';
-import Header from '@components/Header.astro';
+import PageLayout from '@layouts/PageLayout.astro';
 ---
 
-<!doctype html>
-<html lang="de">
-  <head>
-    <BaseHead
-      title="Seite nicht gefunden"
-      description="Diese Seite konnte nicht gefunden werden."
-    />
-  </head>
-  <body>
-    <Header />
-    <main>
-      <article>
-        <header class="title">
-          <h1>Seite nicht gefunden</h1>
-        </header>
-        <p>
-          Die gesuchte Seite existiert nicht (mehr). Vielleicht hilft die
-          <a href="/suche/">Suche</a>
-          oder die
-          <a href="/archiv/">Archivübersicht</a>
-          weiter, oder zurück zur
-          <a href="/">Startseite</a>.
-        </p>
-      </article>
-    </main>
-    <Footer />
-  </body>
-</html>
+<PageLayout
+  title="Seite nicht gefunden"
+  description="Diese Seite konnte nicht gefunden werden."
+>
+  <p class="text-card-foreground">
+    Die gesuchte Seite existiert nicht (mehr). Vielleicht hilft die
+    <a
+      href="/suche/"
+      class="text-link hover:underline"
+      >Suche</a
+    >
+    oder die
+    <a
+      href="/archiv/"
+      class="text-link hover:underline"
+      >Archivübersicht</a
+    >
+    weiter, oder zurück zur
+    <a
+      href="/"
+      class="text-link hover:underline"
+      >Startseite</a
+    >.
+  </p>
+</PageLayout>

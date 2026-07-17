@@ -1,8 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import BaseHead from '@components/BaseHead.astro';
-import Footer from '@components/Footer.astro';
-import Header from '@components/Header.astro';
+import PageLayout from '@layouts/PageLayout.astro';
 import { getPostUrl } from '@utils/posts';
 
 const monthFormatter = new Intl.DateTimeFormat('de-DE', { month: 'long' });
@@ -38,40 +36,30 @@ for (const post of posts) {
 const sortedMonths = [...months.entries()].sort(([a], [b]) => a - b);
 ---
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <BaseHead
-      title={String(year)}
-      description={`Alle Beiträge aus ${year}`}
-    />
-  </head>
-  <body>
-    <Header />
-    <main>
-      <article>
-        <header class="title">
-          <h1>{year}</h1>
-        </header>
-        {sortedMonths.map(([month, monthPosts]) => (
-            <section>
-              <strong>
-                {monthFormatter.format(new Date(Date.UTC(year, month, 1)))}{' '}
-                {year}
-              </strong>
-              <ul class="list-inline">
-                {monthPosts.map((post) => (
-                  <li>
-                    {post.data.date.getUTCDate()}.{' '}
-                    {monthFormatter.format(post.data.date)} {year} -{' '}
-                    <a href={getPostUrl(post)}>{post.data.title}</a>
-                  </li>
-                ))}
-              </ul>
-            </section>
+<PageLayout
+  title={String(year)}
+  description={`Alle Beiträge aus ${year}`}
+>
+  {sortedMonths.map(([month, monthPosts]) => (
+      <section class="mb-6">
+        <strong class="mb-2 block text-card-foreground">
+          {monthFormatter.format(new Date(Date.UTC(year, month, 1)))}{' '}
+          {year}
+        </strong>
+        <ul class="space-y-1">
+          {monthPosts.map((post) => (
+            <li class="text-muted-foreground">
+              {post.data.date.getUTCDate()}.{' '}
+              {monthFormatter.format(post.data.date)} {year} -{' '}
+              <a
+                href={getPostUrl(post)}
+                class="text-link hover:underline"
+              >
+                {post.data.title}
+              </a>
+            </li>
           ))}
-      </article>
-    </main>
-    <Footer />
-  </body>
-</html>
+        </ul>
+      </section>
+    ))}
+</PageLayout>
