@@ -5,8 +5,8 @@
 * Repository: `davidsneighbour/samui-samui.de`
 * Site: [https://samui-samui.de](https://samui-samui.de)
 * Current system: Astro (`output: 'static'`), landed on `main` 2026-07-17 (issue #690). Hugo has been removed from this repository entirely — the live site was still Hugo-served, but Hugo no longer needs to be deployed, by explicit user decision, so there was no reason to keep it around during the migration.
-* Target system: Astro static site (`output: 'static'`) — foundation done, page-route layer for content collections still in progress (see `MIGRATION.status.md`)
-* Deployment target: Netlify (`netlify.toml`) — removed along with the rest of the Hugo-era config; needs a fresh Astro-appropriate config, tracked as issue #709
+* Target system: Astro static site (`output: 'static'`) — foundation and page-route layer for every content collection are done; migration work has moved on to Visual Parity verification (issue #692, see `MIGRATION.status.md`)
+* Deployment target: Netlify — a minimal `netlify.toml` (build command + functions directory) exists, but the site connection and headers/CSP are unconfirmed, tracked as issue #709
 * Source of truth for parity: the live site at [https://samui-samui.de](https://samui-samui.de) (the Hugo source itself is gone from `main`; `legacy/hugo` still has a frozen copy if the old source needs inspecting)
 
 ## Migration goal

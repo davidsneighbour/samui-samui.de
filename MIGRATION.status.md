@@ -6,7 +6,7 @@ answers: "How close are we to the same website on Astro?"
 
 ## Summary
 
-Status basis: local scan of `main` after building the page-route layer,
+Status basis: local scan of `main` after a #706 route-group verification pass,
 2026-07-18. **The Astro foundation is live and route-complete for all defined
 content** (#690, #696-#700 done): `astro.config.ts` (TypeScript, Astro pinned to
 6.4.8), `biome.jsonc` extending `@dnbhq/biome-config`, the `src/packages/*.jsonc`
@@ -24,21 +24,26 @@ original permalinks), and the top-level pages kontakt/suche/datenschutzerklaerun
 `suche` wires up `@pagefind/default-ui` against the existing pagefind build
 integration.
 
-**Not yet done:** Resend/reCAPTCHA credentials for the contact form aren't set
-as Netlify env vars yet (#702, code-complete otherwise), the giscus GitHub App
-isn't installed (#704, code-complete otherwise), and Netlify deployment config
-still needs the site connection confirmed and headers/CSP decided (#709).
-Shared asset parity (#701), redirects (#703), and widget/embed parity (#704)
-are otherwise done. A content-fidelity gap distinct from routing — 260 posts
-with raw, unconverted Hugo shortcode syntax — was found and filed separately
-as #715; now resolved. Visual identity (#716) and the feiertage/sitewide
-inventory gap (#688) are also resolved.
+Forms (#702) and widgets/embeds (#704) are both closed — code-complete, with
+only manual, non-blocking operational steps left (Netlify env vars for the
+contact form, installing the giscus GitHub App; both tracked as a checklist in
+`MIGRATION.md`, not as open code gaps). Shared asset parity (#701), redirects
+(#703), the 260-post raw-Hugo-shortcode content-fidelity gap (#715), visual
+identity (#716), and the feiertage/sitewide inventory gap (#688) are all
+resolved. **Not yet done:** Netlify deployment config still needs the site
+connection confirmed and headers/CSP decided (#709).
+
+**Migration: Visual Parity milestone now active** (#692 parent): #706 (parity
+checks across route groups) is underway — one styling gap found and fixed so
+far (tag/leute page title rendering with no spacing/typography above
+`BlogList`'s card, commit `07e2fb3d1bb3`). #705 (screenshot-based parity
+workflow) has not been started yet.
 
 Resolved means `done + removed`.
 
 | Done | In progress | Untouched | Removed | Total | Resolved |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 14 | 3 | 0 | 1 | 18 | 83% |
+| 16 | 1 | 0 | 1 | 18 | 94% |
 
 ## Status values
 
@@ -52,7 +57,7 @@ Resolved means `done + removed`.
 | Source path | Target path | Status | Issue | Notes |
 | --- | --- | --- | --- | --- |
 | `/` | `/` | done | #690 | Home page (paginated blog list). |
-| `/kontakt/` | `src/pages/kontakt.astro` | in progress | #696, #702 | Page and prose done; the actual contact form is deferred to #702. |
+| `/kontakt/` | `src/pages/kontakt.astro` | done | #696, #702 | Page, prose, and contact form (Netlify Function + Resend + reCAPTCHA v3) all done; needs Netlify env vars set before it sends real mail (non-blocking, see `MIGRATION.md`). |
 | `/datenschutzerklaerung/` | `src/pages/datenschutzerklaerung.astro` | done | #696 | Privacy policy. |
 | `/suche/` | `src/pages/suche.astro` | done | #696 | Pagefind-backed search, using `@pagefind/default-ui`. |
 | `content/posts/<year>/<slug>/` (2,049 posts) | `src/pages/[...slug].astro` | done | #697 | Hugo-parity `/:year/:month/:slug/` URLs (from front matter `url` or computed from `date`). Raw unconverted Hugo shortcode syntax in post bodies was tracked separately as #715 (closed) — all shortcode types converted, zero remaining occurrences. |
@@ -71,7 +76,7 @@ Resolved means `done + removed`.
 | CSS/theme + JS behavior + visual identity | done | #716 | Old site's colors (dark aubergine shell, cream content surface, coral accent) used as inspiration for a WCAG-checked modern palette (not an exact copy — raw coral fails AA as small text on cream); shadcn/ui adopted as a Tailwind v4 `@theme` + zero-JS Astro component foundation (`@astrojs/react` available for future genuinely-interactive components). Panton webfont wired in for the weights actually used. Header/Footer/BlogList/BlogPost restyled; the shadcn theme preset from `TODO.md` explicitly rejected per user decision. Old JS behaviors (reading-progress bar, sticky-header brand toggle) not ported — not requested in the issue's confirmed scope. |
 | Forms | done | #702 | Contact form implemented via a Netlify Function (Resend + reCAPTCHA v3 + spam heuristics), adapted from `thaicookingclass-samui.com`'s reference implementation. Needs Resend/reCAPTCHA credentials set as Netlify env vars before it sends real mail — code-complete either way. |
 | Redirects | done | #703 | No real historical redirects exist anywhere (no `aliases:` front matter, no configured `dnb.netlification.redirects` beyond dev boilerplate) — the original WordPress→Hugo migration preserved exact URLs via `url:` front matter instead, already replicated by `getPostUrl()`. Added `src/pages/404.astro`, which didn't exist at all. |
-| Widgets/embeds (giscus, YouTube, OpenSearch, PWA, Matomo, schema.org JSON-LD, social) | in progress | #704 | Matomo analytics done (`src/components/Analytics.astro`, gated to production builds via `import.meta.env.PROD`). OpenSearch done (`src/pages/opensearch.xml.ts` + `<link rel="search">` in `BaseHead.astro`); the old site's own descriptor pointed at a 404'd `/search/` URL, fixed here to the real `/suche/?q=` path, and `suche.astro` now reads `?q=` and calls Pagefind's `triggerSearch()`. PWA manifest done (`<link rel="manifest">` + theme-color meta in `BaseHead.astro`, pointing at the already-restored `public/images/favicon/site.webmanifest`) — the old site's own Hugo "pwa" module output was a broken manifest with every field empty, not worth porting. Giscus done (`src/components/Giscus.astro`, wired into `BlogPost.astro`), adapted from `kollitsch.dev`'s reference; GitHub Discussions enabled on the repo; still needs the giscus GitHub App installed (manual step, see `MIGRATION.md`). Social sharing done (`src/components/SocialShare.astro`, Facebook + Twitter share links matching the live site's exact URL/param format, wired into `BlogPost.astro`). Schema.org JSON-LD: investigated, nothing to migrate — the old site's "schema" Hugo module was front-matter build-time validation (`assets/config/schema/frontmatter.schema.json`), not structured-data output; the live site emits no `application/ld+json` anywhere. YouTube embeds done — 31 occurrences converted to `<iframe>` embeds as part of #715 (closed), which covered this alongside its other raw-shortcode-conversion work (figure, quote, gallery, languagelink, ref). |
+| Widgets/embeds (giscus, YouTube, OpenSearch, PWA, Matomo, schema.org JSON-LD, social) | done | #704 | Matomo analytics done (`src/components/Analytics.astro`, gated to production builds via `import.meta.env.PROD`). OpenSearch done (`src/pages/opensearch.xml.ts` + `<link rel="search">` in `BaseHead.astro`); the old site's own descriptor pointed at a 404'd `/search/` URL, fixed here to the real `/suche/?q=` path, and `suche.astro` now reads `?q=` and calls Pagefind's `triggerSearch()`. PWA manifest done (`<link rel="manifest">` + theme-color meta in `BaseHead.astro`, pointing at the already-restored `public/images/favicon/site.webmanifest`) — the old site's own Hugo "pwa" module output was a broken manifest with every field empty, not worth porting. Giscus done (`src/components/Giscus.astro`, wired into `BlogPost.astro`), adapted from `kollitsch.dev`'s reference; GitHub Discussions enabled on the repo; still needs the giscus GitHub App installed (manual step, see `MIGRATION.md`). Social sharing done (`src/components/SocialShare.astro`, Facebook + Twitter share links matching the live site's exact URL/param format, wired into `BlogPost.astro`). Schema.org JSON-LD: investigated, nothing to migrate — the old site's "schema" Hugo module was front-matter build-time validation (`assets/config/schema/frontmatter.schema.json`), not structured-data output; the live site emits no `application/ld+json` anywhere. YouTube embeds done — 31 occurrences converted to `<iframe>` embeds as part of #715 (closed), which covered this alongside its other raw-shortcode-conversion work (figure, quote, gallery, languagelink, ref). |
 | `/admin` (Decap/Netlify CMS) | **removed** | #708 | Confirmed unconfigured boilerplate; dropped from parity target. |
 | Netlify deployment config | in progress | #709 | A minimal `netlify.toml` now exists (build command + functions directory, added alongside the contact form) — still needs confirming the Netlify site is actually connected to this repo, and headers/CSP are undecided. |
 
