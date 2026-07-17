@@ -34,7 +34,7 @@ Resolved means `done + removed`.
 
 | Done | In progress | Untouched | Removed | Total | Resolved |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 7 | 1 | 9 | 1 | 18 | 44% |
+| 8 | 1 | 8 | 1 | 18 | 50% |
 
 ## Status values
 
@@ -62,10 +62,10 @@ Resolved means `done + removed`.
 
 | Area | Status | Issue | Notes |
 | --- | --- | --- | --- |
-| Images and media (`static/images`, `static/assets`, legacy `static/wp-content/{uploads,old-images,imagecache}`) | untouched | #701 | Legacy WordPress-era paths may still be linked from old posts; must be preserved. |
-| PDFs and downloads | untouched | #701 | None specifically inventoried yet — confirm any exist. |
-| CSS and theme files | untouched | #701 | Current: Bootstrap + hand-written SCSS. Target: Tailwind v4+ (see `AGENTS.md`). Refactor only after parity. |
-| JavaScript and plugins (`assets/js`) | untouched | #701 | Preserve behavior first. |
+| Images and media (`images`, `assets`, legacy `wp-content/{uploads,old-images,imagecache}`) | done | #701 | Restored from `legacy/hugo`'s `static/` into `public/` (783 files), verified present in `dist/` after build. |
+| PDFs and downloads | untouched | #701 | Still not specifically inventoried — confirm any exist. |
+| CSS and theme files | untouched | #701 | Current: Tailwind v4 (`theme.css` has no custom `@font-face`/`font-family` at all yet — dead font preloads pointing at nonexistent Atkinson files were removed rather than wired up). |
+| JavaScript and plugins (`assets/js`) | untouched | #701 | Old jQuery-based Hugo scripts were not ported — porting behavior is a separate decision from restoring static files. |
 | Forms | untouched | #702 | Contact form, see `[dnb.forms.contactform]` in `config/_default/params.toml`. |
 | Redirects | untouched | #703 | Current generated `public/_redirects` is mostly boilerplate (dev-only redirect + 404 catch-all) — confirm no other real redirects exist before assuming this is trivial. |
 | Widgets/embeds (giscus, YouTube, OpenSearch, PWA, Matomo, schema.org JSON-LD, social) | untouched | #704 | |
