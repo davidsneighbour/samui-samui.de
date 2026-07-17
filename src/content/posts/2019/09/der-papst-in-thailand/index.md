@@ -19,4 +19,4 @@ Dieses Jahr begeht die Vertretung des Vatikans in Thailand ihren 350. Geburtstag
 
 Eigentlich beweisst das ja nur, dass ich einen besonders heißen Draht zur heiligen See habe, denn über den Besuch berichtet haben wir auf Samui? Samui! [bereits im Juli](/2019/07/papst-franziskus-in-thailand/). Hihi...
 
-{{< languagelink "https://www.vaticannews.va/de/papst/news/2019-09/papst-franziskus-besucht-im-november-japan-und-thailand.html" "Papst Franziskus besucht im November Japan und Thailand" "en" >}}
+[Papst Franziskus besucht im November Japan und Thailand](https://www.vaticannews.va/de/papst/news/2019-09/papst-franziskus-besucht-im-november-japan-und-thailand.html)

@@ -30,4 +30,4 @@ Vielmehr ist das ein Mittel, um die Mönche zur Regenzeit in ihren Klöstern zu 
 
 Alkohol zu verkaufen oder den Verkauf zu fördern ist übrigens an beiden Tagen (wie an vielen Buddha-Tagen) unter Strafen bis zu sechs Monaten Gefüngnis oder 10.000 THB verboten.
 
--   {{< languagelink "https://de.wikipedia.org/wiki/Vier_Edle_Wahrheiten" "Die Vier Edlen Wahrheiten auf Wikipedia" "de" >}}
+-   [Die Vier Edlen Wahrheiten auf Wikipedia](https://de.wikipedia.org/wiki/Vier_Edle_Wahrheiten)

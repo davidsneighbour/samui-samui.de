@@ -22,7 +22,7 @@ Auf Youtube kann man Videos von den Tauchgängen sehen.
 
 {{< youtube id="WMcJ-sac_1g" >}}
 
--   {{< languagelink "https://www.khaosodenglish.com/news/crimecourtscalamity/2020/09/17/divers-may-have-found-us-submarine-lost-in-wwii-south-of-phuket/" "Divers May Have Found US Submarine Lost in WWII South of Phuket" "en" >}}
--   {{< languagelink "https://alchetron.com/USS-Grenadier-(SS-210)" "USS Grenadier (SS 210) auf alchetron" "en" >}}
--   {{< languagelink "https://en.wikipedia.org/wiki/USS_Grenadier_(SS-210)" "USS Grenadier (SS 210) auf Wikipedia" "en" >}}
--   {{< languagelink "https://en.wikipedia.org/wiki/Thailand_in_World_War_II" "Thailand in World War II" "en" >}}
+-   [Divers May Have Found US Submarine Lost in WWII South of Phuket](https://www.khaosodenglish.com/news/crimecourtscalamity/2020/09/17/divers-may-have-found-us-submarine-lost-in-wwii-south-of-phuket/)
+-   [USS Grenadier (SS 210) auf alchetron](https://alchetron.com/USS-Grenadier-(SS-210))
+-   [USS Grenadier (SS 210) auf Wikipedia](https://en.wikipedia.org/wiki/USS_Grenadier_(SS-210))
+-   [Thailand in World War II](https://en.wikipedia.org/wiki/Thailand_in_World_War_II)

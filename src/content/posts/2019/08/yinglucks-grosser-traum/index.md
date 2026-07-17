@@ -24,4 +24,4 @@ Unter welchen Bedingungen ihr die serbische Staatsbürgerschaft verliehen wurde,
 
 Was genau diese Interessen Serbiens sind wurde nicht bekannt. Zwischen Serbien und Thailand gibt es (natürlich) keine Auslieferungsabkommen.
 
-{{< languagelink "https://www.bangkokpost.com/thailand/politics/1727359/yingluck-granted-serbian-citizenship" "Yingluck gets Serbian citizenship" "en" >}}
+[Yingluck gets Serbian citizenship](https://www.bangkokpost.com/thailand/politics/1727359/yingluck-granted-serbian-citizenship)

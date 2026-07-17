@@ -17,7 +17,7 @@ resources:
 
 Die Organisation Transparency International veröffentlicht seit 25 Jahren den Corruption Perceptions Index. Der Index vergibt 0 (sehr korrupt) bis 100 (nicht korrupt) Punkte für wahrgenommene Korruption im öffentlichen Sektor von derzeit 180 Ländern und bedient sich dabei verschiedener Umfragen und einer Auswertung von Expertenmeinungen.
 
-Thailand ist dieses Jahr von Platz 96 auf 99 gefallen. Die Punktzahl 36 liegt deutlich unter den durchschnittlich 43 Punkten im weltweiten Vergleich (44 Punkte ndurchschnittlich in Asia-Pacific-Raum). Zwei Drittel der Länder liegen unter dem Durchschnitt. Es gibt also nichts, worüber man sich aufregen müsste {{<emojify ":see_no_evil:" >}}{{<emojify ":hear_no_evil:" >}}{{<emojify ":speak_no_evil:" >}}
+Thailand ist dieses Jahr von Platz 96 auf 99 gefallen. Die Punktzahl 36 liegt deutlich unter den durchschnittlich 43 Punkten im weltweiten Vergleich (44 Punkte ndurchschnittlich in Asia-Pacific-Raum). Zwei Drittel der Länder liegen unter dem Durchschnitt. Es gibt also nichts, worüber man sich aufregen müsste 🙈🙉🙊
 
 Manch einer meint, dass die kuriose Affäre um die teuren Luxusarmbanduhren des stellvertretenden Premierministers Prawit Wongsuwan könnte zum Punktverlust seit letztem Jahr beigetragen haben, was die Regierung vehement verneint, ohne eine Ersatzerklärung anzugeben.
 <!--lint disable no-html-->
@@ -43,5 +43,5 @@ Manch einer meint, dass die kuriose Affäre um die teuren Luxusarmbanduhren des 
 </tbody>
 </table>
 
-- {{< languagelink "<https://www.transparency.org/cpi2018>" "Corruption Perceptions Index 2018" "en" >}}
-- {{< languagelink "<https://en.wikipedia.org/wiki/Prawit_Wongsuwan#Corruption_scandal>" "Prawit Wongsuwan's Wikipedia Eintrag (mit Liste der geborgten (hehe) Uhren)" "en">}}
+- [Corruption Perceptions Index 2018](https://www.transparency.org/cpi2018)
+- [Prawit Wongsuwan's Wikipedia Eintrag (mit Liste der geborgten (hehe) Uhren)](https://en.wikipedia.org/wiki/Prawit_Wongsuwan#Corruption_scandal)

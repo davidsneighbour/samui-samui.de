@@ -33,6 +33,6 @@ Briefwahlen für Wähler im Ausland finden von 4. bis 16. März statt, am 17. M�
 
 Neuwahlen in Thailand. Definitiv, ganz bestimmt, wahrscheinlich.
 
-- {{< languagelink "<http://www.khaosodenglish.com/politics/2019/01/23/royal-decree-paves-way-for-2019-election/>" "Royal degree paves way for 2019 election" "en" >}}
-- {{< languagelink "<http://www.nationmultimedia.com/detail/politics/30362777>" "Election decree issued; EC to set date for national vote" "en" >}}
-- {{< languagelink "<https://www.bangkokpost.com/news/politics/1616422/general-election-on-march-24>" "General election on March 24" "en" >}}
+- [Royal degree paves way for 2019 election](http://www.khaosodenglish.com/politics/2019/01/23/royal-decree-paves-way-for-2019-election/)
+- [Election decree issued; EC to set date for national vote](http://www.nationmultimedia.com/detail/politics/30362777)
+- [General election on March 24](https://www.bangkokpost.com/news/politics/1616422/general-election-on-march-24)

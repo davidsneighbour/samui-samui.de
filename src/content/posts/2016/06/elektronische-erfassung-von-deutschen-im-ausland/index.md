@@ -28,4 +28,4 @@ Ich bin auch (trotz gewerblichem Misstrauens in die Datensicherheit) in der Date
 
 Was die Liste leider nicht liefert, sind Benachrichtigungen, dass man sich für die Briefwahl in Deutschland anmelden kann und sollte. Das muss man immer noch selber machen.
 
-- {{< languagelink "<https://elefand.diplo.de/elefandextern/main/registeredperson!form.action>" "Elefand - Elektronische Erfassung von Deutschen im Ausland" "de" >}}
+- [Elefand - Elektronische Erfassung von Deutschen im Ausland](https://elefand.diplo.de/elefandextern/main/registeredperson!form.action)

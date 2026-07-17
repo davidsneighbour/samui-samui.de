@@ -17,4 +17,4 @@ resources:
 
 Pokki mag Flickr gerade nicht so sehr.
 
-via {{< languagelink "<https://twitter.com/davidsneighbour/status/625646289531736064>" "Patrick Kollitsch (@davidsneighbour)" "en" >}}
+via [Patrick Kollitsch (@davidsneighbour)](https://twitter.com/davidsneighbour/status/625646289531736064)

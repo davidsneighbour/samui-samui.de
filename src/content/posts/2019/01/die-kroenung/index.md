@@ -19,6 +19,6 @@ Das Video oben zeigt die Krönungszeremonie von König Prajadhipok, Rama VII, im
 
 Interessanterweise führt diese Terminplanung zu Problemen mit den eigentlich (hehe) am 24. Februar anstehenden "demokratischen" Neuwahlen. Wissanu Krea-ngam, ein Stellvertreter des Premierministers, sagt, dass die Nachwahl-Prozeduren sich mit den Krönungszeremonien überschneiden könnten. Man wird später entscheiden, ob der Wahltermin eventuell "leider" wieder verschoben werden muss.
 
-- {{< languagelink "<https://www.bangkokpost.com/news/general/1603750/coronation-day-for-king-set-for-may-4-6>" "Coronation day for King set for May 4-6 auf bangkokpost.com" "en" >}}
-- {{< languagelink "<http://www.khaosodenglish.com/news/2019/01/01/coronation-dates-set-for-may-palace/>" "Coronation dates set for May: palace auf khaosodenglish.com" "en" >}}
-- {{< languagelink "<http://www.khaosodenglish.com/politics/2019/01/03/coronation-could-affect-february-elections-wissanu/>" "Coronation could affect February elections: Wissanu auf khaosodenglish.com" "en" >}}
+- [Coronation day for King set for May 4-6 auf bangkokpost.com](https://www.bangkokpost.com/news/general/1603750/coronation-day-for-king-set-for-may-4-6)
+- [Coronation dates set for May: palace auf khaosodenglish.com](http://www.khaosodenglish.com/news/2019/01/01/coronation-dates-set-for-may-palace/)
+- [Coronation could affect February elections: Wissanu auf khaosodenglish.com](http://www.khaosodenglish.com/politics/2019/01/03/coronation-could-affect-february-elections-wissanu/)

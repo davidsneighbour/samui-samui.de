@@ -16,7 +16,7 @@ resources:
       title: "Thailand misses you (video thumbnail via vimeo.com)"
 ---
 
-{{< vimeo id="522265992" >}}
+<iframe src="https://player.vimeo.com/video/522265992" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 Die thailändische Tourismusbehörde (TAT) hat einen neuen TV-Werbespot gestartet, um der Welt die Nachricht zu senden, dass das Land es nicht erwarten kann, Besucher wieder willkommen zu heißen.
 
@@ -36,5 +36,5 @@ Bis dahin ist es noch ein paar Monate, in denen sich erfahrungsgem&auml;&szlig; 
 >
 > &#35;AmazingThailand
 
-- {{< languagelink "https://www.tatnews.org/2021/03/tat-sends-out-latest-tvc-miss-you-to-the-world/" "TAT sends out latest TVC ‘Miss You’ to the world" "en" >}}
-- {{< languagelink "https://vimeo.com/522265992" "We love you, Thailand" "en" >}}
+- [TAT sends out latest TVC ‘Miss You’ to the world](https://www.tatnews.org/2021/03/tat-sends-out-latest-tvc-miss-you-to-the-world/)
+- [We love you, Thailand](https://vimeo.com/522265992)

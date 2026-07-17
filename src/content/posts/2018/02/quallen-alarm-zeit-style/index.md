@@ -16,4 +16,4 @@ Die Zeit berichtet in sehr ausführlicher und aufmacherische Art und Weise über
 
 Das stimmt nicht ganz, wie ich [vor einer Weile schon geschrieben habe](/2017/06/portugiesische-galeeren/). Portugiesische Galleren können durchaus zum Tod führen. Ein Grund mehr, nicht ins Meer zu gehen ;)
 
-- {{< languagelink "<http://www.zeit.de/news/2018-02/20/quallen-alarm-in-thailand-23-touristen-imkrankenhaus-180220-99-155894>" "Quallen-Alarm in Thailand (zeit.de)" "de" >}}
+- [Quallen-Alarm in Thailand (zeit.de)](http://www.zeit.de/news/2018-02/20/quallen-alarm-in-thailand-23-touristen-imkrankenhaus-180220-99-155894)

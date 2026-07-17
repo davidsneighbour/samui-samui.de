@@ -19,4 +19,4 @@ Im Gegensatz zu rund 391.000 F&auml;llen in 2019 gab es bis heute in 2020 nur 11
 
 Ich pers&ouml;nlich denke ja, dass die Abwesenheit von Touristen aus L&auml;ndern, in denen die Grippe grasiert, den Hauptanteil hat, aber naja... Disziplin des Volkes verkauft sich halt besser.
 
-- {{< languagelink "https://www.khaosodenglish.com/news/crimecourtscalamity/2020/11/19/2020s-flu-cases-plunge-in-covid-anxious-thailand/" "2020’s Flu Cases Plunge in COVID-Anxious Thailand" >}}
+- [2020’s Flu Cases Plunge in COVID-Anxious Thailand](https://www.khaosodenglish.com/news/crimecourtscalamity/2020/11/19/2020s-flu-cases-plunge-in-covid-anxious-thailand/)

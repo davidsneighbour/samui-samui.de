@@ -23,4 +23,4 @@ Man spricht halt nicht darüber um die Geflügelexporte nicht zu belasten. Klar.
 “My gardener in Korat told me that flocks of chickens died in his and his neighbor’s yard for an unknown reason,” Teerawat said Monday. He said he sent disease experts to investigate and found they had a strain of bird flu, the presence of which was unknown to animal control officials in the area.
 {{< /quote >}}
 
-- {{< languagelink "<http://www.khaosodenglish.com/news/2018/03/26/officials-admit-knowing-about-bird-flu-strain-since-august/>" "Khaosod English" "en" >}}
+- [Khaosod English](http://www.khaosodenglish.com/news/2018/03/26/officials-admit-knowing-about-bird-flu-strain-since-august/)

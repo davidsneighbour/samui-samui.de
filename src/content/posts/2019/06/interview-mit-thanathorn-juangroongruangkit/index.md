@@ -19,4 +19,4 @@ Die Strategie gegen die Opposition in Thailand allerdings fasst er genial in ein
 
 {{% quote src="<https://www.spiegel.de/politik/ausland/thailand-eine-million-dollar-fuer-eine-stimme-interview-mit-thanathorn-a-1270159.html>" source="Spiegel.de" %}}Die Behauptungen, dass wir die Monarchie als Institution abschaffen wollen, sind nicht wahr. Das sind nur Versuche, uns zu dämonisieren. Das geht in diesem Land mit zwei Vorwürfen: Entweder ist man dann korrupt oder gegen das Königshaus.{{% /quote %}}
 
-{{< languagelink "<https://www.spiegel.de/politik/ausland/thailand-eine-million-dollar-fuer-eine-stimme-interview-mit-thanathorn-a-1270159.html>" "Eine Million Dollar für eine Stimme - Interview mit Thanathorn Juangroongruangkit auf Spiegel.de" "de" >}}
+[Eine Million Dollar für eine Stimme - Interview mit Thanathorn Juangroongruangkit auf Spiegel.de](https://www.spiegel.de/politik/ausland/thailand-eine-million-dollar-fuer-eine-stimme-interview-mit-thanathorn-a-1270159.html)

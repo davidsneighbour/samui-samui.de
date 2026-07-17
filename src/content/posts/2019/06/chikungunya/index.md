@@ -24,5 +24,5 @@ In Thailand kann man die Nummer 1422 anrufen um Hilfe zu erhalten (vermutlich nu
 
 Hier auf Samui laufen sie hin und wieder die Strasse auf und ab und sprühen Moskito-Spray. Ohne Vorwarnung, aber es ist ja für unsere Gesundheit. Der kleine Asthma-Anfall beim aus Versehen Einatmen des giftigen Rauches ist ignorierbar.
 
--   {{< languagelink "https://mgronline.com/qol/detail/9620000054758" "พยากรณ์โรคสัปดาห์นี้ ระวัง \"ชิคุนกุนยา\" ระบาดเพิ่ม พบป่วยภาคใต้มากสุด" "th" >}}
--   {{< languagelink "https://de.wikipedia.org/wiki/Chikungunyafieber" "Chikungunyafieber auf Wikipedia" "de" >}}
+-   [พยากรณ์โรคสัปดาห์นี้ ระวัง "ชิคุนกุนยา" ระบาดเพิ่ม พบป่วยภาคใต้มากสุด](https://mgronline.com/qol/detail/9620000054758)
+-   [Chikungunyafieber auf Wikipedia](https://de.wikipedia.org/wiki/Chikungunyafieber)

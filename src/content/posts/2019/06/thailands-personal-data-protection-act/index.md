@@ -27,4 +27,4 @@ Zur Kontrolle und Durchsetzung des neuen Gesetzes wurde ein Personal Data Protec
 
 Genauere Regelungen zur PDPA sind noch nicht geschrieben worden. Das passiert in den kommenden Monaten.
 
-- {{< languagelink "<https://www.lexology.com/library/detail.aspx?g=b0ef7ae3-cad2-44b0-a85f-32ee516f0416>" "Thailand Adopts Personal Data Protection Act" "en" >}}
+- [Thailand Adopts Personal Data Protection Act](https://www.lexology.com/library/detail.aspx?g=b0ef7ae3-cad2-44b0-a85f-32ee516f0416)

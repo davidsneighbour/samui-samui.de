@@ -25,4 +25,4 @@ Ich persönlich bin kein großer Fan von staatlichen Aufgaben, die an private Un
 
 In den News in Thailand war VFS.Global neulich, weil sie bevorzugten "Zugang" zu den langen Immigration-Warteschlangen in Subvarnabhumi verkauften. Auch interessant.
 
--   {{< languagelink "https://www.vfsglobal.com/Germany/Thailand/" "3 simple steps for a Schengen Visa to Germany auf der Website von VFS.Global" "en" >}}
+-   [3 simple steps for a Schengen Visa to Germany auf der Website von VFS.Global](https://www.vfsglobal.com/Germany/Thailand/)

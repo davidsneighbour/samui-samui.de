@@ -22,5 +22,5 @@ According to livestock officials, 14 people died from rabies across 13 provinces
 
 Die angedachten Lösungen sind übrigens Hunde-KZs für infizierte Tiere und Massentötungen... man könnte auch einfach nur informieren und vorbeugen... das wäre aber zuviel Arbeit.
 
-- {{< languagelink "<http://www.khaosodenglish.com/news/bangkok/2018/03/19/6-die-of-rabies-since-start-of-2018-officials/>" "6 die of rabies since start of 2018 auf Khaosod.com" "en" >}}
-- {{< languagelink "<https://de.wikipedia.org/wiki/Tollwut>" "Tollwut auf Wikipedia" "de" >}}
+- [6 die of rabies since start of 2018 auf Khaosod.com](http://www.khaosodenglish.com/news/bangkok/2018/03/19/6-die-of-rabies-since-start-of-2018-officials/)
+- [Tollwut auf Wikipedia](https://de.wikipedia.org/wiki/Tollwut)

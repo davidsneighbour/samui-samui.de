@@ -9,7 +9,7 @@ tags:
 linktitle: "In der Mitte des Lebens"
 ---
 
-{{< soundcloud 36535141 >}}
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/36535141"></iframe>
 
 Die Mitte des Lebens.
 
