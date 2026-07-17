@@ -21,8 +21,11 @@ tracked in `MIGRATION.status.md`.**
   datenschutzerklaerung) — see `MIGRATION.status.md` for the full breakdown.
   `npm run build` (2,370 pages), `npm run astro:check`, `npm run check` all pass
   clean on `main`.
-* Open GitHub issues: 13, across 6 milestones (see below) plus 1 unmilestoned
+* Open GitHub issues: 11, across 6 milestones (see below) plus 1 unmilestoned
   cross-cutting issue.
+* User feedback: wants the site to look more like the old one soon — tracked
+  as #716, with the old site's actual colors/fonts and shadcn/ui component
+  interest (from TODO.md) documented there, pending a scope decision.
 * Label taxonomy (`type:*`, `status:*`, `prio:*`, `resolution:*`, `meta:*`) is set
   up and in active use — see `AGENTS.md` for the full table.
 
@@ -35,11 +38,10 @@ tracked in `MIGRATION.status.md`.**
 ### Migration: content parity
 
 * #691 Migrate current content and route surface to Astro (parent/tracking)
-* #701 Shared assets and system files parity (images/media done; PDFs, JS
-  behavior porting still open)
-* #703 Redirects and deprecated paths parity
 * #704 Widgets and embeds parity
 * #715 Content fidelity: 260 posts still contain raw Hugo shortcode syntax
+* #716 Visual redesign: restyle to match old site's identity, adopt shadcn/ui
+  (`prio:medium`, needs a scope decision before starting — see the issue)
 
 ### Migration: visual parity
 
@@ -81,6 +83,10 @@ tracked in `MIGRATION.status.md`.**
   (Resend + reCAPTCHA v3 + spam heuristics), adapted from
   `thaicookingclass-samui.com`'s reference. Needs Resend/reCAPTCHA
   credentials set as Netlify env vars before it sends real mail.
+* #701 Shared assets and system files parity — images/media restored; PDFs
+  confirmed non-existent; CSS/JS folded into #716.
+* #703 Redirects and deprecated paths parity — no real redirects existed;
+  added the missing `src/pages/404.astro`.
 
 ## Open clarification questions
 
@@ -91,12 +97,14 @@ tracked in `MIGRATION.status.md`.**
 
 ## Recommended next steps
 
-1. Work through the remaining Content Parity issues: finish shared assets
-   (#701 — PDFs, JS behavior), redirects (#703), widgets/embeds (#704).
-2. #715 (raw Hugo shortcode syntax in 260 posts) is independent of the above and
-   can be picked up any time.
+1. **#716 needs a scope decision from the user** before starting (shadcn/ui
+   adoption vs. plain Tailwind, which components are actually needed, exact
+   vs. inspired-by color/font match) — the highest-priority remaining item
+   given explicit user interest in the site looking better soon.
+2. #704 (widgets/embeds — giscus, YouTube, OpenSearch, PWA, Matomo, schema.org)
+   and #715 (raw Hugo shortcode syntax in 260 posts) can proceed independently
+   of #716.
 3. #688 (inventory) can proceed in parallel.
-4. Address Cleanup issues (#708, #709) opportunistically — they don't block
-   migration progress but are independent, low-risk fixes. #709 now has a
-   minimal `netlify.toml` (build + functions directory, added alongside the
-   contact form) but still lacks headers/CSP etc. if those are wanted.
+4. Address Cleanup issues (#708, #709) opportunistically — #709 now has a
+   minimal `netlify.toml` but still needs the Netlify site connection
+   confirmed and headers/CSP decided if wanted.

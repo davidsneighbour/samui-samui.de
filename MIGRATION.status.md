@@ -34,7 +34,7 @@ Resolved means `done + removed`.
 
 | Done | In progress | Untouched | Removed | Total | Resolved |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 9 | 1 | 7 | 1 | 18 | 56% |
+| 11 | 2 | 4 | 1 | 18 | 67% |
 
 ## Status values
 
@@ -63,14 +63,13 @@ Resolved means `done + removed`.
 | Area | Status | Issue | Notes |
 | --- | --- | --- | --- |
 | Images and media (`images`, `assets`, legacy `wp-content/{uploads,old-images,imagecache}`) | done | #701 | Restored from `legacy/hugo`'s `static/` into `public/` (783 files), verified present in `dist/` after build. |
-| PDFs and downloads | untouched | #701 | Still not specifically inventoried — confirm any exist. |
-| CSS and theme files | untouched | #701 | Current: Tailwind v4 (`theme.css` has no custom `@font-face`/`font-family` at all yet — dead font preloads pointing at nonexistent Atkinson files were removed rather than wired up). |
-| JavaScript and plugins (`assets/js`) | untouched | #701 | Old jQuery-based Hugo scripts were not ported — porting behavior is a separate decision from restoring static files. |
+| PDFs and downloads | done | #701 | None exist locally or ever did in `legacy/hugo`'s `static/`; the few posts mentioning `.pdf` link to external URLs. Nothing to migrate. |
+| CSS/theme + JS behavior + visual identity | untouched | #716 | User wants the site to look more like the old one soon. Old site's actual colors (`#290e1c` body, `#e2e2b6` content bg, `#ec7263` primary), font ("Panton", already restored to `public/assets/webfonts/` but not wired in), and old JS behaviors (reading-progress bar, sticky-header brand toggle) are documented on the issue. Needs a scope decision (shadcn/ui adoption vs. plain Tailwind) before starting. |
 | Forms | done | #702 | Contact form implemented via a Netlify Function (Resend + reCAPTCHA v3 + spam heuristics), adapted from `thaicookingclass-samui.com`'s reference implementation. Needs Resend/reCAPTCHA credentials set as Netlify env vars before it sends real mail — code-complete either way. |
-| Redirects | untouched | #703 | Current generated `public/_redirects` is mostly boilerplate (dev-only redirect + 404 catch-all) — confirm no other real redirects exist before assuming this is trivial. |
+| Redirects | done | #703 | No real historical redirects exist anywhere (no `aliases:` front matter, no configured `dnb.netlification.redirects` beyond dev boilerplate) — the original WordPress→Hugo migration preserved exact URLs via `url:` front matter instead, already replicated by `getPostUrl()`. Added `src/pages/404.astro`, which didn't exist at all. |
 | Widgets/embeds (giscus, YouTube, OpenSearch, PWA, Matomo, schema.org JSON-LD, social) | untouched | #704 | |
 | `/admin` (Decap/Netlify CMS) | **removed** | #708 | Confirmed unconfigured boilerplate; dropped from parity target. |
-| Netlify deployment config | untouched | #709 | Currently broken/stale regardless of Hugo vs. Astro — see `netlify.toml`. |
+| Netlify deployment config | in progress | #709 | A minimal `netlify.toml` now exists (build command + functions directory, added alongside the contact form) — still needs confirming the Netlify site is actually connected to this repo, and headers/CSP are undecided. |
 
 ## Accepted disparities
 
