@@ -34,7 +34,7 @@ Resolved means `done + removed`.
 
 | Done | In progress | Untouched | Removed | Total | Resolved |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 8 | 1 | 8 | 1 | 18 | 50% |
+| 9 | 1 | 7 | 1 | 18 | 56% |
 
 ## Status values
 
@@ -66,7 +66,7 @@ Resolved means `done + removed`.
 | PDFs and downloads | untouched | #701 | Still not specifically inventoried — confirm any exist. |
 | CSS and theme files | untouched | #701 | Current: Tailwind v4 (`theme.css` has no custom `@font-face`/`font-family` at all yet — dead font preloads pointing at nonexistent Atkinson files were removed rather than wired up). |
 | JavaScript and plugins (`assets/js`) | untouched | #701 | Old jQuery-based Hugo scripts were not ported — porting behavior is a separate decision from restoring static files. |
-| Forms | untouched | #702 | Contact form, see `[dnb.forms.contactform]` in `config/_default/params.toml`. |
+| Forms | done | #702 | Contact form implemented via a Netlify Function (Resend + reCAPTCHA v3 + spam heuristics), adapted from `thaicookingclass-samui.com`'s reference implementation. Needs Resend/reCAPTCHA credentials set as Netlify env vars before it sends real mail — code-complete either way. |
 | Redirects | untouched | #703 | Current generated `public/_redirects` is mostly boilerplate (dev-only redirect + 404 catch-all) — confirm no other real redirects exist before assuming this is trivial. |
 | Widgets/embeds (giscus, YouTube, OpenSearch, PWA, Matomo, schema.org JSON-LD, social) | untouched | #704 | |
 | `/admin` (Decap/Netlify CMS) | **removed** | #708 | Confirmed unconfigured boilerplate; dropped from parity target. |

@@ -29,3 +29,10 @@ scratch/samui-samui-de-2026-07-17T00_34_24.800177-all.xml.gz contains a backup o
 ## Theme for shadcn
 
 --preset b6VOFFYwcb
+
+## ShadCN components to use
+
+* tooltips: [https://ui.shadcn.com/docs/components/base/tooltip](https://ui.shadcn.com/docs/components/base/tooltip)
+* textarea: [https://ui.shadcn.com/docs/components/base/textarea](https://ui.shadcn.com/docs/components/base/textarea)
+* separator: [https://ui.shadcn.com/docs/components/base/separator](https://ui.shadcn.com/docs/components/base/separator)
+* pagination: [https://ui.shadcn.com/docs/components/base/pagination](https://ui.shadcn.com/docs/components/base/pagination)

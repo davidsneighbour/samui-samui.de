@@ -35,9 +35,8 @@ tracked in `MIGRATION.status.md`.**
 ### Migration: content parity
 
 * #691 Migrate current content and route surface to Astro (parent/tracking)
-* #701 Shared assets and system files parity
-* #702 Forms parity: contact form (kontakt.astro's page/prose is done; the form
-  itself is this issue's remaining scope)
+* #701 Shared assets and system files parity (images/media done; PDFs, JS
+  behavior porting still open)
 * #703 Redirects and deprecated paths parity
 * #704 Widgets and embeds parity
 * #715 Content fidelity: 260 posts still contain raw Hugo shortcode syntax
@@ -78,6 +77,10 @@ tracked in `MIGRATION.status.md`.**
 * #699 Content collection parity: tags — `tags/[slug].astro`, full taxonomy
   (not just the one tag with a manual override).
 * #700 Archive route parity — `archiv/[year].astro` + index.
+* #702 Forms parity: contact form — implemented via a Netlify Function
+  (Resend + reCAPTCHA v3 + spam heuristics), adapted from
+  `thaicookingclass-samui.com`'s reference. Needs Resend/reCAPTCHA
+  credentials set as Netlify env vars before it sends real mail.
 
 ## Open clarification questions
 
@@ -88,13 +91,12 @@ tracked in `MIGRATION.status.md`.**
 
 ## Recommended next steps
 
-1. Work through the remaining Content Parity issues now that the route layer
-   exists: shared assets (#701), the contact form (#702), redirects (#703),
-   widgets/embeds (#704).
+1. Work through the remaining Content Parity issues: finish shared assets
+   (#701 — PDFs, JS behavior), redirects (#703), widgets/embeds (#704).
 2. #715 (raw Hugo shortcode syntax in 260 posts) is independent of the above and
    can be picked up any time.
 3. #688 (inventory) can proceed in parallel.
 4. Address Cleanup issues (#708, #709) opportunistically — they don't block
-   migration progress but are independent, low-risk fixes. #709 (Netlify
-   deployment config) is more pressing now that there's no deployment config at
-   all, not just a stale one.
+   migration progress but are independent, low-risk fixes. #709 now has a
+   minimal `netlify.toml` (build + functions directory, added alongside the
+   contact form) but still lacks headers/CSP etc. if those are wanted.
