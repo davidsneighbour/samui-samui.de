@@ -32,7 +32,14 @@ type Props = {
   date?: Date | undefined;
   lastmod?: Date | undefined;
   featured_image?: ImageMetadata | string | undefined;
+  newerPost?: PostNavigationItem | undefined;
+  olderPost?: PostNavigationItem | undefined;
   tags?: string[] | undefined;
+};
+
+type PostNavigationItem = {
+  href: string;
+  title: string;
 };
 
 const {
@@ -45,6 +52,8 @@ const {
   date,
   lastmod,
   featured_image,
+  newerPost,
+  olderPost,
   tags,
 } = Astro.props as Props;
 const metaDescription = description ?? title;
@@ -132,6 +141,47 @@ const metaImage =
             <slot />
           </div>
         </div>
+        {(newerPost || olderPost) && (
+          <div class="border-t border-card-foreground/10 px-4 py-6 sm:px-8">
+            <nav
+              class="grid gap-4 sm:grid-cols-2"
+              aria-label="Beitragsnavigation"
+            >
+              {newerPost && (
+                <a
+                  href={newerPost.href}
+                  class="group min-w-0 rounded-[calc(var(--radius)-4px)] text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                >
+                  <span class="block text-xs text-muted-foreground">
+                    ← Neuerer Beitrag
+                  </span>
+                  <span class="mt-1 block break-words text-link group-hover:underline">
+                    {newerPost.title}
+                  </span>
+                </a>
+              )}
+              {!newerPost && olderPost && (
+                <span
+                  class="hidden sm:block"
+                  aria-hidden="true"
+                />
+              )}
+              {olderPost && (
+                <a
+                  href={olderPost.href}
+                  class="group min-w-0 rounded-[calc(var(--radius)-4px)] text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 sm:text-right"
+                >
+                  <span class="block text-xs text-muted-foreground">
+                    Älterer Beitrag →
+                  </span>
+                  <span class="mt-1 block break-words text-link group-hover:underline">
+                    {olderPost.title}
+                  </span>
+                </a>
+              )}
+            </nav>
+          </div>
+        )}
         {authorFooter && AuthorBio && (
           <div class="border-t border-card-foreground/10 bg-muted px-4 py-8 sm:px-8">
             <div class="mx-auto flex max-w-2xl flex-col gap-4 sm:flex-row">

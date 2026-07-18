@@ -5,17 +5,36 @@ import { getPostCover } from '@utils/covers';
 import { getPostUrl } from '@utils/posts';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('posts');
-  return posts.map((post) => {
+  const posts = (await getCollection('posts')).sort(
+    (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+  );
+  return posts.map((post, index) => {
     const url = getPostUrl(post);
+    const newerPost = posts[index - 1];
+    const olderPost = posts[index + 1];
+
     return {
       params: { slug: url.replace(/^\/|\/$/g, '') },
-      props: { post },
+      props: {
+        newerPost: newerPost
+          ? {
+              href: getPostUrl(newerPost),
+              title: newerPost.data.title,
+            }
+          : undefined,
+        olderPost: olderPost
+          ? {
+              href: getPostUrl(olderPost),
+              title: olderPost.data.title,
+            }
+          : undefined,
+        post,
+      },
     };
   });
 }
 
-const { post } = Astro.props;
+const { newerPost, olderPost, post } = Astro.props;
 const { Content } = await render(post);
 const cover = getPostCover(post);
 ---
@@ -27,6 +46,8 @@ const cover = getPostCover(post);
   date={post.data.date}
   lastmod={post.data.lastmod}
   featured_image={post.data.featured_image}
+  newerPost={newerPost}
+  olderPost={olderPost}
   tags={post.data.tags}
 >
   <Content />
