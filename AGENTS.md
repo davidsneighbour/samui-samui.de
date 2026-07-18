@@ -21,6 +21,28 @@ at [https://samui-samui.de](https://samui-samui.de).
   caught up.
 * `astro.config.ts` (TypeScript), not `.mjs` — per explicit user preference.
 
+## Design system
+
+* [DESIGN.md](DESIGN.md) is the single source of truth for design tokens
+  (colors, typography, spacing, radii, component variants) — it follows the
+  [design.md](https://github.com/google-labs-code/design.md) format. Agents
+  MUST consult it before making any visual/design decision (choosing a color,
+  a radius, a font weight, a spacing value, a new component variant) rather
+  than picking values ad hoc or copying whatever a similar-looking component
+  happens to use.
+* Any change that adds, removes, or changes the value of a design token —
+  editing `src/styles/theme.css`, `src/components/ui/button.astro`'s `cva`
+  config, or any other token-bearing source — MUST update `DESIGN.md` in the
+  same commit. A stale `DESIGN.md` is worse than no `DESIGN.md`.
+* Before committing a `DESIGN.md` change, run
+  `npx @google/design.md lint DESIGN.md` and address any `error`-level
+  findings (warnings MAY be accepted with a documented reason, as several
+  already are in the file's "Colors" section).
+* If a design decision genuinely isn't covered by `DESIGN.md` (a wholly new
+  pattern, not a variant of an existing token), treat that as a signal to
+  extend `DESIGN.md` deliberately — not as license to invent an undocumented
+  one-off value in component code.
+
 ## Change tracking
 
 * Every change MUST be committed. Uncommitted work MUST NOT be left behind as the
