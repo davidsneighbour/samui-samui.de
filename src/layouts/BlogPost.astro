@@ -184,19 +184,23 @@ const metaImage =
         )}
         {authorFooter && AuthorBio && (
           <div class="border-t border-card-foreground/10 bg-muted px-4 py-8 sm:px-8">
-            <div class="mx-auto flex max-w-2xl flex-col gap-4 sm:flex-row">
+            <div class="mx-auto max-w-3xl">
               {authorFooter.data.image && (
                 <Image
                   src={authorFooter.data.image}
                   alt={authorFooter.data.imagetitle ?? ''}
-                  width={120}
-                  height={120}
-                  class="mx-auto block h-24 w-24 shrink-0 rounded-full object-cover sm:mx-0"
+                  width={480}
+                  height={480}
+                  class="mb-6 block aspect-square w-full rounded-[calc(var(--radius)-4px)] object-cover outline outline-1 -outline-offset-1 outline-black/10 min-[600px]:float-left min-[600px]:mb-4 min-[600px]:mr-6 min-[600px]:w-1/3"
                 />
               )}
               <div class="prose prose-sm prose-neutral max-w-none text-card-foreground prose-headings:font-normal prose-headings:text-card-foreground prose-a:text-link prose-a:no-underline prose-a:hover:underline">
                 <AuthorBio />
               </div>
+              <div
+                class="clear-both"
+                aria-hidden="true"
+              />
             </div>
           </div>
         )}
