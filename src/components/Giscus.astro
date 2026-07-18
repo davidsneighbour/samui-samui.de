@@ -3,9 +3,9 @@
 // davidsneighbour/kollitsch.dev's src/components/features/comments/Giscus.astro
 // reference. Loads the giscus client only once the widget scrolls into view.
 //
-// Requires the giscus GitHub App installed on this repo (a manual step — see
-// MIGRATION.md) before comments will actually render; the script degrades to
-// a quiet no-op (giscus shows its own "not installed" notice) until then.
+// Requires the giscus GitHub App installed on this repo before comments will
+// actually render. The repo-root giscus.json is intentional: giscus reads it
+// from the public GitHub repository configured below, not from the live site.
 const repo = 'davidsneighbour/samui-samui.de';
 const repoId = 'MDEwOlJlcG9zaXRvcnkxNjI5NzM3MTA=';
 const category = 'Kommentare';

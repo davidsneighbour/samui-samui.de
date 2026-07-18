@@ -15,4 +15,11 @@ npm run dev      # astro dev, local preview
 npm run build    # astro check && astro build, then pagefind indexing
 ```
 
+## Giscus
+
+`giscus.json` belongs at the repository root, not in `public/`. Giscus reads
+additional configuration from the public GitHub repository named in
+`src/components/Giscus.astro`, while Astro only copies `public/` files to the
+live site.
+
 See `AGENTS.md` for the full command/architecture reference.
