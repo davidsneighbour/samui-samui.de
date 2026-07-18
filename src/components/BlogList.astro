@@ -2,6 +2,7 @@
 import type { CollectionEntry } from 'astro:content';
 import FormattedDate from '@components/FormattedDate.astro';
 import PostCover from '@components/PostCover.astro';
+import Button from '@components/ui/button.astro';
 import Pagination from '@components/ui/pagination.astro';
 import Separator from '@components/ui/separator.astro';
 import { getPostCover } from '@utils/covers';
@@ -105,10 +106,12 @@ const shouldFeaturePost = (index: number) =>
         {shouldFeaturePost(index) ? (
             <article class="rounded-(--radius) bg-card px-4 py-8 text-card-foreground sm:px-8">
               <header class="mb-4">
-                <h2 class="m-0 text-balance text-3xl leading-tight sm:text-4xl">
+                <h2
+                  class="m-0 text-balance text-3xl font-[600] leading-tight uppercase sm:text-4xl"
+                >
                   <a
                     href={getPostUrl(post)}
-                    class="hover:text-link"
+                    class="text-link hover:underline"
                   >
                     {post.data.title}
                   </a>
@@ -149,13 +152,13 @@ const shouldFeaturePost = (index: number) =>
                   />
                 ))}
               </div>
-              <p class="m-0 mt-6">
-                <a
+              <p class="m-0 mt-6 flex justify-end">
+                <Button
                   href={getPostUrl(post)}
-                  class="text-link hover:underline"
+                  variant="default"
                 >
                   Weiterlesen
-                </a>
+                </Button>
               </p>
             </article>
           ) : (
@@ -172,10 +175,12 @@ const shouldFeaturePost = (index: number) =>
                 )}
                 <div class="min-w-0 flex-1">
                   <header class="mb-3">
-                    <h2 class="m-0 text-balance text-2xl leading-tight">
+                    <h2
+                      class="m-0 text-balance text-2xl font-[600] leading-tight uppercase"
+                    >
                       <a
                         href={getPostUrl(post)}
-                        class="hover:text-link"
+                        class="text-link hover:underline"
                       >
                         {post.data.title}
                       </a>
@@ -206,13 +211,14 @@ const shouldFeaturePost = (index: number) =>
                       set:html={paragraph}
                     />
                   ))}
-                  <p class="m-0">
-                    <a
+                  <p class="m-0 flex justify-end">
+                    <Button
                       href={getPostUrl(post)}
-                      class="text-link hover:underline"
+                      size="sm"
+                      variant="default"
                     >
                       Weiterlesen
-                    </a>
+                    </Button>
                   </p>
                 </div>
               </div>
