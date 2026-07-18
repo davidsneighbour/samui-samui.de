@@ -13,8 +13,7 @@
   "files.exclude": {
     "**/.git": true,
     "**/.DS_Store": true,
-    "**/node_modules": true,
-    "public": true
+    "**/node_modules": true
   },
   "explorer.fileNesting.patterns": {
     "README.md": "CLAUDE.md, AGENTS.md, SECURITY.md, TODO.md, ROADMAP.md",
