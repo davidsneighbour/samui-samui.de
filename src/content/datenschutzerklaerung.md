@@ -30,11 +30,9 @@ Wir weisen darauf hin, dass die internetbasierte Datenübertragung Sicherheitsl�
 
 ## Cookies
 
-Wir verwenden auf unserer Seite sog. Cookies zum Wiedererkennen mehrfacher Nutzung unseres Angebots, durch denselben Nutzer/Internetanschlussinhaber. Cookies sind kleine Textdateien, die Ihr Internet-Browser auf Ihrem Rechner ablegt und speichert. Sie dienen dazu, unseren Internetauftritt und unsere Angebote zu optimieren. Es handelt sich dabei zumeist um sog. "Session-Cookies", die nach dem Ende Ihres Besuches wieder gelöscht werden.
+Wir selbst setzen auf unserer Seite keine Cookies ein. Ihre Einstellung für das helle/dunkle Farbschema sowie die Ausblendung des Umbau-Hinweisbanners werden ausschließlich im lokalen Speicher Ihres Browsers (Local Storage) auf Ihrem Gerät abgelegt und nicht an uns übermittelt.
 
-Teilweise geben diese Cookies jedoch Informationen ab, um Sie automatisch wieder zu erkennen. Diese Wiedererkennung erfolgt aufgrund der in den Cookies gespeicherten IP-Adresse. Die so erlangten Informationen dienen dazu, unsere Angebote zu optimieren und Ihnen einen leichteren Zugang auf unsere Seite zu ermöglichen.
-
-Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihres Browsers verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen unserer Website vollumfänglich nutzen können.
+Einzelne von uns eingebundene Drittanbieter-Dienste (z.B. Cloudflare Turnstile, giscus, YouTube, Vimeo) können im Rahmen ihrer jeweiligen Funktion eigene Cookies setzen. Nähere Informationen hierzu finden Sie in den jeweiligen Abschnitten dieser Datenschutzerklärung.
 
 ## Serverdaten
 
@@ -49,15 +47,11 @@ Aus technischen Gründen werden u.a. folgende Daten, die Ihr Internet-Browser an
 
 Diese anonymen Daten werden getrennt von Ihren eventuell angegebenen personenbezogenen Daten gespeichert und lassen so keine Rückschlüsse auf eine bestimmte Person zu. Sie werden zu statistischen Zwecken ausgewertet, um unseren Internetauftritt und unsere Angebote optimieren zu können.
 
-## Registrierungsfunktion
+## Einsatz von Matomo
 
-Wir bieten Ihnen auf unserer Seite die Möglichkeit, sich dort zu registrieren. Die im Zuge dieser Registrierung eingegebenen Daten, die aus der Eingabemaske des Registrierungsformular ersichtlich sind (Name, Emailadresse, Social Network Links, usw.) werden ausschließlich für die Verwendung unseres Angebots erhoben und gespeichert. Mit Ihrer Registrierung auf unserer Seite werden wir zudem Ihre IP-Adresse und das Datum sowie die Uhrzeit Ihrer Registrierung speichern. Dies dient in dem Fall, dass ein Dritter Ihre Daten missbraucht und sich mit diesen Daten ohne Ihr Wissen auf unserer Seite registriert, als Absicherung unsererseits.  Eine Weitergabe an Dritte erfolgt nicht. Ein Abgleich der so erhobenen Daten mit Daten, die möglicherweise durch andere Komponenten unserer Seite erhoben werden, erfolgt ebenfalls nicht.
+Wir nutzen auf unserer Seite den Webanalysedienst Matomo, eine selbst betriebene, quelloffene Alternative zu Google Analytics. Matomo wird von uns auf einem eigenen Server (analytics.dnbhub.xyz) betrieben; es findet keine Übermittlung der erhobenen Daten an Dritte statt.
 
-## Newsletter
-
-Wir bieten Ihnen auf unserer Seite die Möglichkeit, unseren Newsletter zu abonnieren. Mit diesem Newsletter informieren wir in regelmäßigen Abständen über unsere Angebote. Um unseren Newsletter empfangen zu können, benötigen Sie eine gültige E-Mailadresse. Die von Ihnen eingetragene E-Mail-Adresse werden wir dahingehend überprüfen, ob Sie tatsächlich der Inhaber der angegebenen E-Mail-Adresse sind bzw. deren Inhaber den Empfang des Newsletters autorisiert ist. Mit Ihrer Anmeldung zu unserem Newsletter werden wir Ihre IP-Adresse und das Datum sowie die Uhrzeit Ihrer Anmeldung speichern. Dies dient in dem Fall, dass ein Dritter Ihre E-Mail-Adresse missbraucht und ohne Ihr Wissen unseren Newsletter abonniert, als Absicherung unsererseits. 
-
-Weitere Daten werden unsererseits nicht erhoben. Die so erhobenen Daten werden ausschließlich für den Bezug unseres Newsletters verwendet. Eine Weitergabe an Dritte erfolgt nicht. Ein Abgleich der so erhobenen Daten mit Daten, die möglicherweise durch andere Komponenten unserer Seite erhoben werden, erfolgt ebenfalls nicht. Das Abonnement dieses Newsletters können Sie jederzeit kündigen. Einzelheiten hierzu können Sie der Bestätigungsmail sowie jedem einzelnen Newsletter entnehmen.
+Matomo ist bei uns so konfiguriert, dass es keine Cookies setzt und die "Do Not Track"-Einstellung Ihres Browsers respektiert. Erfasst werden unter anderem aufgerufene Seiten, Referrer-URL, Browsertyp und Ihre IP-Adresse zum Zeitpunkt des Zugriffs, ausschließlich zu dem Zweck, die Nutzung unserer Seite statistisch auszuwerten und unser Angebot zu verbessern.
 
 ## Kontaktmöglichkeit
 
@@ -75,19 +69,14 @@ Weitere Informationen zum Datenschutz bei Cloudflare Turnstile finden Sie in der
 
 Wir bieten Ihnen auf unserer Seite die Möglichkeit, Kommentare zu den einzelnen Beiträgen zu hinterlassen. Hierbei wird die IP- Adresse des Verfassers/Anschlussinhabers gespeichert. Diese Speicherung erfolgt zu unserer Sicherheit für den Fall, dass vom Verfasser durch seinen Kommentar hierbei in Rechte Dritter eingegriffen wird und/oder widerrechtliche Inhalte abgesetzt werden. Somit besteht ein Eigeninteresse unsererseits an den gespeicherten Daten des Verfassers, zumal wir unter Umständen wegen derartigen Rechtsverletzungen belangt werden können. Eine Weitergabe an Dritte erfolgt nicht. Ein Abgleich der so erhobenen Daten mit Daten, die möglicherweise durch andere Komponenten unserer Seite erhoben werden, erfolgt ebenfalls nicht.
 
-## Einsatz von facebook-Komponenten
+## Teilen-Buttons (Facebook, Twitter/X)
 
-Wir setzen auf unserer Seite Komponenten des Anbieters facebook.com ein. Facebook ist ein Service der facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA.
+Unterhalb unserer Beiträge bieten wir Buttons an, über die Sie den jeweiligen Beitrag auf Facebook oder Twitter/X teilen können. Es handelt sich dabei um einfache Verweise (Links) auf die Freigabe-Dialoge von Facebook bzw. Twitter/X, nicht um eingebettete Social-Plugins.
 
-Bei jedem einzelnen Abruf unserer Webseite, die mit einer solchen Komponente ausgestattet ist, veranlasst diese Komponente, dass der von Ihnen verwendete Browser eine entsprechende Darstellung der Komponente von facebook herunterlädt. Durch diesen Vorgang wird facebook darüber in Kenntnis gesetzt, welche konkrete Seite unserer Internetpräsenz gerade durch Sie besucht wird.
+Beim bloßen Aufruf unserer Seite wird dadurch keine Verbindung zu Facebook oder Twitter/X hergestellt und es werden keine Daten an diese Anbieter übermittelt. Erst wenn Sie aktiv auf einen dieser Buttons klicken, öffnet sich der Freigabe-Dialog des jeweiligen Anbieters in einem neuen Fenster bzw. Tab; ab diesem Zeitpunkt gelten die Datenschutzbestimmungen des jeweiligen Anbieters:
 
-Wenn Sie unsere Seite aufrufen und währenddessen bei facebook eingeloggt sind, erkennt facebook durch die von der Komponente gesammelte Information, welche konkrete Seite Sie besuchen und ordnet diese Informationen Ihrem persönlichen Account auf facebook zu. Klicken Sie z.B. den  "Gefällt mir“-Button an oder geben Sie entsprechende Kommentare ab, werden diese Informationen an Ihr persönliches Benutzerkonto auf facebook übermittelt und dort gespeichert. Darüber hinaus wird die Information, dass Sie unsere Seite besucht haben, an facebook weiter gegeben. Dies geschieht unabhängig davon, ob Sie die Komponente anklicken oder nicht.
-
-Wenn Sie diese Übermittlung und Speicherung von Daten über Sie und Ihr Verhalten auf unserer Webseite durch facebook unterbinden wollen, müssen Sie sich bei facebook ausloggen und zwar bevor Sie unsere Seite besuchen. Die Datenschutzhinweise von facebook geben hierzu nähere Informationen, insbesondere zur Erhebung und Nutzung der Daten durch facebook, zu Ihren diesbezüglichen Rechten sowie zu den Einstellungsmöglichkeiten zum Schutz Ihrer Privatsphäre: <https://de-de.facebook.com/about/privacy/>
-
-Zudem sind am Markt externe Tools erhältlich, mit denen Facebook-Social-Plugins mit Add-ons für alle gängigen Browser blockiert werden können <http://webgraph.com/resources/facebookblocker/>
-
-Eine Übersicht über die Facebook-Plugins finden Sie unter <https://developers.facebook.com/docs/plugins/>
+* Facebook: <https://de-de.facebook.com/about/privacy/>
+* Twitter/X: <https://twitter.com/privacy?lang=de>
 
 ## Einsatz von YouTube-Komponenten mit erweitertem Datenschutzmodus
 
@@ -110,12 +99,6 @@ Wir setzen auf unserer Seite Komponenten des Anbieters Vimeo ein. Vimeo ist ein 
 Klicken Sie z.B. den "Play“-Button an oder geben Sie entsprechende Kommentare ab, werden diese Informationen an Ihr persönliches Benutzerkonto bei Vimeo übermittelt und dort gespeichert. Darüber hinaus wird die Information, dass Sie unsere Seite besucht haben, an Vimeo weitergegeben. Dies geschieht unabhängig davon, ob Sie z.B. die Komponente anklicken/Kommentare abgeben oder nicht.
 
 Wenn Sie diese Übermittlung und Speicherung von Daten über Sie und Ihr Verhalten auf unserer Webseite durch Vimeo unterbinden wollen, müssen Sie sich bei Vimeo ausloggen und zwar bevor Sie unsere Seite besuchen. Die Datenschutzhinweise von Vimeo geben hierzu nähere Informationen, insbesondere zur Erhebung und Nutzung der Daten durch Vimeo: [https://vimeo.com/privacy](https://vimeo.com/privacy)
-
-## Einsatz von Instagram
-
-Wir setzen auf unserer Website den Dienst Instagram ein. Instagram ist ein Service der Instagram Inc. Durch den eingebundenen "Insta“-Button auf unsere Seite erhält Instagram die Information, dass Sie die entsprechende Seite unseres Internetauftritts aufgerufen haben. Sind Sie bei Instagram eingeloggt, kann Instagram diesen Besuch auf unserer Seite Ihrem Instagram -Konto zuordnen und die Daten somit verknüpfen. Die durch Anklicken des "Insta“-Buttons übermittelten Daten werden von Instagram gespeichert. Zu Zweck und Umfang der Datenerhebung, deren Verarbeitung und Nutzung sowie Ihren diesbezüglichen Rechten und Einstellungsmöglichkeiten zum Schutz Ihrer Privatsphäre erhalten Sie weitere Informationen in den Instagram -Datenschutzhinweisen, die Sie über [https://help.instagram.com/155833707900388](https://help.instagram.com/155833707900388) abrufen können.
-
-Um zu verhindern, dass Instagram den Besuch unserer Seite Ihrem Instagram-Konto zuordnen kann, müssen Sie sich vor dem Besuch unserer Seite von Ihrem Instagram-Account abmelden.
 
 ### Auskunft/Widerruf/Löschung
 
