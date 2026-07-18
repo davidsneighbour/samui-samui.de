@@ -34,25 +34,25 @@ Ist das Thema interessant genug? Habe ich darüber nicht schon einmal geschriebe
 
 Und schon sitzt man drei bis zehn Jahre später vor einem hervorragend konfigurierten Blog, auf dem nichts Neues steht.
 
-Das ist ein bisschen wie der Plan, morgens früh an den Strand zu gehen. Erst muss man noch einen Kaffee trinken. Dann beginnt es zu regnen. Danach ist es zu heiß. Gegen Abend wäre das Licht schön, aber nun ist die Ringstraße voll. Morgen passt es bestimmt besser.
+Das ist ein bisschen wie der Plan, morgens eine Runde zu gehen. Erst muss man noch einen Kaffee trinken. Dann beginnt es zu regnen. Danach ist es zu heiß. Gegen Abend wäre das Licht schön, aber nun ist die Ringstraße voll. Morgen passt es bestimmt besser.
 
 Der Strand bleibt unterdessen völlig unbeeindruckt liegen.
 
 ## Warum ein alter Blog immer schwerer wird
 
-Je länger man nichts veröffentlicht, desto wichtiger erscheint der nächste Beitrag.
+Je länger man nichts veröffentlicht, desto wichtiger und weltbewegend-sein-m&uuml;ssender erscheint der nächste Beitrag.
 
 Nach zwei Wochen Pause kann man irgendeine kleine Beobachtung veröffentlichen. Nach zwei Jahren glaubt man, eine Erklärung abgeben zu müssen. Nach fünf Jahren sollte der erste neue Beitrag möglichst die Weltlage einordnen, die eigene Abwesenheit erklären, einen Neustart ankündigen und gleichzeitig literarisch wertvoll sein.
 
-Das ist natürlich Unsinn.
+Das ist doch Unsinn.
 
-Niemand sitzt seit Jahren vor samui-samui.de und drückt alle zehn Minuten auf Aktualisieren. Wahrscheinlich. Und falls doch, möchte ich mich an dieser Stelle entschuldigen.
+Niemand sitzt seit Jahren vor samui-samui.de und drückt alle zehn Minuten auf Aktualisieren. Wahrscheinlich. Und falls doch, möchte ich mich an dieser Stelle entschuldigen und darauf hin weisen, dass es Hilfe gibt ;]
 
 Die eigentliche Hürde ist nicht der fehlende Stoff. Es ist die Vorstellung, dass ein neuer Beitrag die lange Pause rechtfertigen müsse. Aus einem simplen Blogeintrag wird dadurch ein Staatsakt. Und Staatsakte neigen dazu, verschoben zu werden.
 
 ## Wie man aus dem Loch wieder herauskommt
 
-Ich habe keine revolutionäre Methode gefunden. Vermutlich gibt es sie nicht. Aber es gibt einige Regeln, mit denen sich die Sache weniger kompliziert machen lässt.
+Egal. Ich habe keine revolutionäre Methode gefunden. Vermutlich gibt es sie nicht. Aber es gibt einige Regeln, mit denen sich die Sache weniger kompliziert machen lässt.
 
 ### 1. Einen kleinen Beitrag schreiben
 
@@ -60,7 +60,7 @@ Nicht jeder Text muss ein umfassender Reiseführer über Thailand sein.
 
 Ein kaputter Strommast, eine neue Ampel, ein ungewöhnliches Essen oder ein Hund, der seit drei Tagen denselben schattigen Parkplatz bewacht, können ausreichen. Blogs leben nicht nur von großen Ereignissen. Sie leben von Beobachtungen.
 
-Gerade auf Koh Samui sind die kleinen Veränderungen oft interessanter als die nächste Liste der zehn schönsten Strände.
+Gerade auf Koh Samui sind die kleinen Veränderungen oft interessanter als die nächste Liste der zehn schönsten Strände. &Uuml;brigens sind die nur solange die sch&ouml;nsten Str&auml;nde bis sie jemand listet und dann alle dort hin gehen.
 
 ### 2. Schreiben und Veröffentlichen wieder trennen
 
@@ -70,7 +70,7 @@ Drei Absätze sind besser als die perfekte Einleitung, die man seit sechs Monate
 
 ### 3. Nicht auf Motivation warten
 
-Motivation ist in Thailand ungefähr so zuverlässig wie eine Wettervorhersage während der Regenzeit.
+Motivation ist in meinem Leben ungefähr so zuverlässig wie eine Wettervorhersage während der Regenzeit.
 
 Man kann warten, bis die Bedingungen ideal sind. Man kann aber auch anfangen, obwohl es zu heiß ist, nebenan gebaut wird und irgendwo seit zwanzig Minuten ein Hund bellt.
 
@@ -84,20 +84,13 @@ Technische Verbesserungen sind sinnvoll. Sie sind aber kein Ersatz für Inhalte.
 
 Meine neue Regel lautet deshalb: Erst schreiben, dann an der Website herumbasteln. Zumindest meistens. Vermutlich.
 
+Ich habe dann auch drei Stunden damit zugebracht, die wirklich nette "wir bauen" Leiste oben auf dieser Seite zu erstellen. 
+
 ### 5. Eine Themenliste führen
 
 Die besten Themen fallen einem grundsätzlich dann ein, wenn man nicht schreiben kann: auf dem Motorroller, unter der Dusche oder nachts kurz vor dem Einschlafen.
 
-Deshalb gehört jede Idee sofort auf eine Liste. Nicht als ausgearbeiteter Redaktionsplan, sondern als kurze Gedächtnisstütze:
-
-* Warum auf Samui Entfernungen in Fahrzeit gemessen werden
-* Dinge, die früher normal waren und heute verschwunden sind
-* Der tägliche Kampf zwischen Natur und Internetleitung
-* Was Touristen über die Regenzeit falsch verstehen
-* Wie sich die Insel seit meinem ersten Besuch verändert hat
-* Warum jeder auf Samui mindestens eine Geschichte über einen Stromausfall besitzt
-
-Eine solche Liste nimmt dem leeren Editor einen Teil seines Schreckens.
+Deshalb gehört jede Idee sofort auf eine Liste. Nicht als ausgearbeiteter Redaktionsplan, sondern als kurze Gedächtnisstütze. Eine solche Liste nimmt dem leeren Editor einen Teil seines Schreckens.
 
 ### 6. Nicht jeden Beitrag optimieren
 
@@ -134,7 +127,7 @@ Damit das Ganze nicht in drei Monaten wieder endet, braucht es ein paar Verteidi
 
 ## Und nun?
 
-samui-samui.de wird gerade technisch von Hugo zu Astro umgezogen. Das ist notwendig, macht Spaß und bietet gleichzeitig hervorragende Möglichkeiten, das eigentliche Schreiben weiter aufzuschieben.
+samui-samui.de ist von [Hugo](https://gohugo.io) zu [Astro](https://astro.build) umgezogen. Das war notwendig (aller halbe Jahre war was kaputt, ohne dass man selbst Hand anlegen musste), macht Spaß (ich habe die vergangenen Monate damit zugebracht, viele Websites von einem Tool auf das andere umzuziehen) und bietet gleichzeitig hervorragende Möglichkeiten, das eigentliche Schreiben weiter aufzuschieben.
 
 Deshalb ist dieser Beitrag ein Gegenversuch.
 
@@ -142,4 +135,4 @@ Der Blog soll wieder ein Ort werden, an dem nicht nur Feiertagslisten, alte Meld
 
 Ob daraus jede Woche ein neuer Beitrag wird, verspreche ich nicht.
 
-Aber nach mehreren Jahren ist bereits ein zweiter Beitrag innerhalb desselben Jahrzehnts ein realistischer Fortschritt.
+Aber nach mehreren Jahren ist bereits ein zweiter Beitrag innerhalb desselben Jahrzehnts ein realistischer Fortschritt und wir befinden uns statistisch noch voll in diesem Durchschnitt.
