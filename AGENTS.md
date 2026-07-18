@@ -8,39 +8,17 @@ a documented reason, MAY is optional.
 
 ## Current phase
 
-This repository is an Astro static site (`output: 'static'`). It was a Hugo site
-until 2026-07-17, when the Astro foundation was landed on `main` and Hugo was
-removed entirely (issue #690) — by explicit user decision, since Hugo no longer
-needed to be deployed and there was no reason to keep it around during the
-migration. `HUGO-COMPATIBILITY.md` is kept as historical record only.
+This repository is an Astro static site (`output: 'static'`), deployed to Netlify
+at [https://samui-samui.de](https://samui-samui.de).
 
-* **All migration work happens directly on `main`.** By explicit user decision,
-  this project does NOT use a separate `migration` branch, overriding the
-  `dnb-astro-migration-project` skill's default convention. There MUST NOT be
-  long-lived feature branches for routine or migration work.
-* `legacy/hugo` is a frozen copy of `main` taken before the migration effort — the
-  only place the old Hugo source (`content/`, `layouts/`, `config/`, etc.) still
-  exists in the working tree. Use it to look something up; MUST NOT be used for new
-  work.
-* Migration operating rules live in `MIGRATION.md`; route/system progress lives in
-  `MIGRATION.status.md`; project context and the decision log live in `PROJECT.md`.
-  An agent doing migration work MUST read all three (plus `ROADMAP.md`/`TODO.md`)
-  before editing implementation files — see `MIGRATION.md`'s Agent Startup Checklist.
-* The Astro foundation came from a prior rewrite (`origin/recovered-astro-main`)
-  that was recovered after an earlier accidental force-push, reviewed, and adopted
-  (see `PROJECT.md`'s decision log). It has content for `posts`/`leute`/`tags`
-  fully migrated, but **no page routes for any collection yet** — building those is
-  the current Content Parity work (see `MIGRATION.status.md`).
-* The live site is [https://samui-samui.de](https://samui-samui.de) — since the
-  Hugo source is gone from `main`, this (or `legacy/hugo`) is the parity reference
-  now, not local Hugo output. When a change's effect is unclear from reading code
-  alone, agents SHOULD compare local output against the live site rather than
-  guessing.
-* Styling uses Tailwind CSS v4 (`@tailwindcss/vite`) — no Bootstrap/SCSS remains.
-* Astro is pinned to **6.4.8**, not 7.x, per explicit user decision — at the time
-  of the migration some integrations (e.g. `@astrojs/mdx`) hadn't caught up to
-  Astro 7's peer dependency requirements yet. Do not bump to an Astro 7.x line
-  without checking that integration compatibility has actually caught up.
+* Live site is the reference for expected behavior — when a change's effect is
+  unclear from reading code alone, agents SHOULD compare local output against the
+  live site rather than guessing.
+* Styling uses Tailwind CSS v4 (`@tailwindcss/vite`) — no Bootstrap/SCSS.
+* Astro is pinned to **6.4.8**, not 7.x — some integrations (e.g. `@astrojs/mdx`)
+  haven't caught up to Astro 7's peer dependency requirements yet. Do not bump to
+  an Astro 7.x line without checking that integration compatibility has actually
+  caught up.
 * `astro.config.ts` (TypeScript), not `.mjs` — per explicit user preference.
 
 ## Change tracking
@@ -150,24 +128,23 @@ are defined in `tsconfig.json`.
 
 Defined in `src/content.config.ts`: `posts` (`src/content/posts/**/index.md`,
 2,049 posts, oldest from 2005), `leute` ("people",
-`src/content/leute/**/_index.md`), `tags` (`src/content/tags/**/_index.md`). Content
-for all three is migrated and front-matter-clean, but **no page routes render any
-of them yet** — see `MIGRATION.status.md` for what's still missing (individual
-post/leute/tag pages, archive, kontakt/suche/datenschutzerklaerung). `src/content/`
-also holds a few standalone pages (`datenschutzerklaerung.md`, `kontakt.md`,
-`suche.md`) and non-collection content (`feiertage/`, `sitewide/`) whose route
-treatment is still an open question (see `MIGRATION.status.md`'s Open Inventory
-Questions).
+`src/content/leute/**/_index.md`), `tags` (`src/content/tags/**/_index.md`).
+`src/content/` also holds a few standalone pages (`datenschutzerklaerung.md`,
+`kontakt.md`, `suche.md`) and non-collection content (`feiertage/`, `sitewide/` —
+the latter is data-only, e.g. the author-bio footer wired into every post).
 
-### Pages (current state)
+### Pages
 
-`src/pages/index.astro` (paginated home/blog-list), `src/pages/about.astro`,
-`src/pages/seite/[seite].astro` (pagination), `src/pages/rss.xml.js`. That's it —
-everything else is still to be built.
+`src/pages/` has a route for every content type: `index.astro` (paginated
+home/blog-list), `[...slug].astro` (individual posts), `leute/[slug].astro`,
+`tags/[slug].astro`, `archiv/[year].astro` + `archiv/index.astro`,
+`feiertage.astro`, `kontakt.astro`, `suche.astro`, `datenschutzerklaerung.astro`,
+`404.astro`, `seite/[seite].astro` (pagination), `rss.xml.js`,
+`opensearch.xml.ts`.
 
 ### Deployment
 
-Hugo-era `netlify.toml` was removed along with the rest of the Hugo tooling; there
-is currently no deployment config for the Astro site. Tracked as issue #709 — needs
-a fresh Astro-appropriate Netlify config, not a revival of the old one (which was
-already stale/broken before removal).
+Netlify, configured via `netlify.toml`: build command, functions directory
+(`netlify/functions/contact.mjs` for the contact form), security headers, and a
+resource-audited Content-Security-Policy covering Matomo, Giscus, YouTube/Vimeo
+embeds, reCAPTCHA, and Pagefind's WASM search index.
