@@ -1,0 +1,225 @@
+---
+// Old-school "under construction" banner. Dismissal is stored in
+// localStorage only (no cookies) and re-shown on every visit until the
+// user explicitly closes it.
+const message =
+  'Diese Website befindet sich im permanenten Umbau. Fehler sind eingeplant – Sponsoring wäre aber auch okay.';
+---
+
+<div
+  id="construction-banner"
+  class="construction-banner"
+>
+  <div class="construction-banner__track">
+    <div class="construction-banner__inner">
+      <div
+        class="construction-banner__stripes"
+        aria-hidden="true"
+      ></div>
+      <p class="construction-banner__message">
+        <svg
+          class="construction-banner__icon"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <rect
+            x="2"
+            y="6"
+            width="20"
+            height="8"
+            rx="1"
+          ></rect>
+          <path d="M17 14v7"></path>
+          <path d="M7 14v7"></path>
+          <path d="M17 3v3"></path>
+          <path d="M7 3v3"></path>
+          <path d="M10 14 2.3 6.3"></path>
+          <path d="m14 6 7.7 7.7"></path>
+          <path d="m8 6 8 8"></path>
+        </svg>
+        <span>{message}</span>
+        <svg
+          class="construction-banner__icon"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <rect
+            x="2"
+            y="6"
+            width="20"
+            height="8"
+            rx="1"
+          ></rect>
+          <path d="M17 14v7"></path>
+          <path d="M7 14v7"></path>
+          <path d="M17 3v3"></path>
+          <path d="M7 3v3"></path>
+          <path d="M10 14 2.3 6.3"></path>
+          <path d="m14 6 7.7 7.7"></path>
+          <path d="m8 6 8 8"></path>
+        </svg>
+      </p>
+      <button
+        type="button"
+        id="construction-banner-close"
+        class="construction-banner__close"
+        aria-label="Hinweis schließen"
+      >
+        <svg
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M18 6 6 18"></path>
+          <path d="m6 6 12 12"></path>
+        </svg>
+      </button>
+      <div
+        class="construction-banner__stripes"
+        aria-hidden="true"
+      ></div>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+  (() => {
+    const STORAGE_KEY = 'construction-banner-dismissed';
+    const banner = document.getElementById('construction-banner');
+    const closeButton = document.getElementById('construction-banner-close');
+    if (!banner || !closeButton) return;
+
+    if (localStorage.getItem(STORAGE_KEY) === '1') {
+      banner.classList.add('construction-banner--closed');
+    }
+
+    closeButton.addEventListener('click', () => {
+      banner.classList.add('construction-banner--closed');
+      try {
+        localStorage.setItem(STORAGE_KEY, '1');
+      } catch {
+        // localStorage unavailable (private mode, quota, etc.) – banner
+        // still closes for this page view, just won't persist.
+      }
+    });
+  })();
+</script>
+
+<style>
+  .construction-banner {
+    display: grid;
+    grid-template-rows: 1fr;
+    background: #000;
+    color: #ffd400;
+    transition: grid-template-rows 300ms ease;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .construction-banner {
+      background: #ffd400;
+      color: #000;
+    }
+  }
+
+  .construction-banner--closed {
+    grid-template-rows: 0fr;
+  }
+
+  .construction-banner__track {
+    overflow: hidden;
+    min-height: 0;
+  }
+
+  .construction-banner__inner {
+    display: flex;
+    align-items: stretch;
+    min-height: 2.75rem;
+  }
+
+  .construction-banner__stripes {
+    flex: 0 0 1.5rem;
+    background-image: repeating-linear-gradient(
+      -45deg,
+      currentColor 0,
+      currentColor 0.6rem,
+      transparent 0.6rem,
+      transparent 1.2rem
+    );
+  }
+
+  @media (min-width: 640px) {
+    .construction-banner__stripes {
+      flex-basis: 2.5rem;
+    }
+  }
+
+  .construction-banner__message {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    margin: 0;
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+
+  .construction-banner__icon {
+    flex-shrink: 0;
+  }
+
+  @media (min-width: 640px) {
+    .construction-banner__message {
+      font-size: 0.9rem;
+    }
+  }
+
+  .construction-banner__close {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    background: transparent;
+    border: none;
+    border-left: 1px dashed currentColor;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .construction-banner__close:hover,
+  .construction-banner__close:focus-visible {
+    background: color-mix(in srgb, currentColor 15%, transparent);
+  }
+
+  .construction-banner__close:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: -2px;
+  }
+</style>

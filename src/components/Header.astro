@@ -1,4 +1,5 @@
 ---
+import ConstructionBanner from '@components/ConstructionBanner.astro';
 import HeaderLink from '@components/HeaderLink.astro';
 import setup from '@data/setup.json';
 
@@ -6,6 +7,7 @@ const navLinkClass =
   'px-1.5 py-1 text-foreground/85 hover:text-primary sm:px-2';
 ---
 
+<ConstructionBanner />
 <header class="border-b border-foreground/10 bg-background">
   <nav
     class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-4"
