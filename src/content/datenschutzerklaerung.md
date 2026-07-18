@@ -69,7 +69,7 @@ Zum Schutz unseres Kontaktformulars vor automatisiertem Missbrauch (Spam) setzen
 
 Beim Aufruf des Kontaktformulars wird eine Verbindung zu den Servern von Cloudflare hergestellt. Dabei werden Ihre IP-Adresse sowie technische Merkmale Ihres Browsers verarbeitet, um zu überprüfen, ob die Formulareingabe von einem Menschen oder einer automatisierten Software stammt. Eine Speicherung dieser Daten über die Dauer der Formularübermittlung hinaus erfolgt durch uns nicht.
 
-Weitere Informationen zum Datenschutz bei Cloudflare Turnstile finden Sie in der Datenschutzerklärung von Cloudflare: <https://www.cloudflare.com/privacypolicy/>
+Weitere Informationen zum Datenschutz bei Cloudflare Turnstile finden Sie in der allgemeinen Datenschutzerklärung von Cloudflare (<https://www.cloudflare.com/privacypolicy/>) sowie im spezifischen Turnstile-Datenschutzhinweis: <https://www.cloudflare.com/en-gb/turnstile-privacy-policy/>
 
 ## Kommentarmöglichkeit
 
