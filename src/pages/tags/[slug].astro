@@ -4,7 +4,7 @@ import BaseHead from '@components/BaseHead.astro';
 import BlogList from '@components/BlogList.astro';
 import Footer from '@components/Footer.astro';
 import Header from '@components/Header.astro';
-import { slugify } from '@utils/slugify';
+import { humanize, slugify } from '@utils/slugify';
 
 export async function getStaticPaths() {
   const [tagEntries, posts] = await Promise.all([
@@ -40,7 +40,7 @@ export async function getStaticPaths() {
   return [...bySlug.entries()].map(([slug, { rawTag, posts: tagPosts }]) => {
     const override = overridesBySlug.get(slug);
     const finalSlug = override?.data.slug ?? slug;
-    const title = override?.data.title ?? rawTag;
+    const title = humanize(override?.data.title ?? rawTag);
     const sortedPosts = tagPosts.sort(
       (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
     );

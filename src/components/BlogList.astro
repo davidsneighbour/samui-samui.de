@@ -3,6 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 import FormattedDate from '@components/FormattedDate.astro';
 import Pagination from '@components/ui/pagination.astro';
 import { getPostUrl as getCanonicalPostUrl } from '@utils/posts';
+import { humanize, slugify } from '@utils/slugify';
 
 interface Props {
   posts: CollectionEntry<'posts'>[];
@@ -64,6 +65,21 @@ const getPostUrl = (post: CollectionEntry<'posts'>) =>
               <FormattedDate date={post.data.date} />
             </p>
           </a>
+          {post.data.tags && post.data.tags.length > 0 && (
+            <p class="m-0 mt-1 text-sm text-muted-foreground">
+              {post.data.tags.map((tag, index) => (
+                <>
+                  {index > 0 && ' / '}
+                  <a
+                    href={`/tags/${slugify(tag)}/`}
+                    class="text-link hover:underline"
+                  >
+                    {humanize(tag)}
+                  </a>
+                </>
+              ))}
+            </p>
+          )}
         </li>
       ))}
   </ul>

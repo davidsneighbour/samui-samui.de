@@ -10,3 +10,19 @@ export function slugify(value: string): string {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 }
+
+/**
+ * Turns a raw taxonomy term (typically kebab-case, e.g. from front matter or
+ * a slug) into a display label, matching Hugo's `humanize` template func:
+ * hyphens/underscores become spaces, and each word's first letter is
+ * capitalized (e.g. "recht-und-ordnung" -> "Recht Und Ordnung"). Already
+ * capitalized runs (acronyms like "TAT") are left as-is since only the first
+ * letter is touched.
+ */
+export function humanize(value: string): string {
+  return value
+    .split(/[-_\s]+/)
+    .filter(Boolean)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+}

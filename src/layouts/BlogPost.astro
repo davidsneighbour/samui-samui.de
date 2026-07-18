@@ -9,6 +9,7 @@ import Header from '@components/Header.astro';
 import SocialShare from '@components/SocialShare.astro';
 import Separator from '@components/ui/separator.astro';
 import { proseClasses } from '@utils/prose';
+import { humanize, slugify } from '@utils/slugify';
 import type { ImageMetadata } from 'astro';
 
 const [authorFooter] = await getCollection(
@@ -28,6 +29,7 @@ type Props = {
   date?: Date | undefined;
   lastmod?: Date | undefined;
   featured_image?: ImageMetadata | string | undefined;
+  tags?: string[] | undefined;
 };
 
 const {
@@ -39,6 +41,7 @@ const {
   date,
   lastmod,
   featured_image,
+  tags,
 } = Astro.props as Props;
 const metaDescription = description ?? title;
 const publishedOn = date ?? pubDate;
@@ -90,6 +93,21 @@ const hero = featured_image ?? heroImage;
                 )}
             </p>
             <h1 class="mb-4 text-3xl font-normal sm:text-4xl">{title}</h1>
+            {tags && tags.length > 0 && (
+              <p class="mb-4 text-sm text-muted-foreground">
+                {tags.map((tag, index) => (
+                  <>
+                    {index > 0 && ' / '}
+                    <a
+                      href={`/tags/${slugify(tag)}/`}
+                      class="text-link hover:underline"
+                    >
+                      {humanize(tag)}
+                    </a>
+                  </>
+                ))}
+              </p>
+            )}
             <Separator />
           </div>
           <div class={proseClasses}>
