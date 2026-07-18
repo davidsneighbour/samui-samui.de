@@ -78,7 +78,7 @@
     "tar": "7.5.20"
   },
   "private": true,
-  "repository": "davidsneighbour/samui-samui.de",
+  "repository": "https://github.com/davidsneighbour/samui-samui.de.git",
   "scripts": {
     "astro": "astro",
     "astro:check": "astro check",
