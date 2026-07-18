@@ -67,20 +67,6 @@ Wir bieten Ihnen auf unserer Seite die Möglichkeit, mit uns per E-Mail und/oder
 
 Wir bieten Ihnen auf unserer Seite die Möglichkeit, Kommentare zu den einzelnen Beiträgen zu hinterlassen. Hierbei wird die IP- Adresse des Verfassers/Anschlussinhabers gespeichert. Diese Speicherung erfolgt zu unserer Sicherheit für den Fall, dass vom Verfasser durch seinen Kommentar hierbei in Rechte Dritter eingegriffen wird und/oder widerrechtliche Inhalte abgesetzt werden. Somit besteht ein Eigeninteresse unsererseits an den gespeicherten Daten des Verfassers, zumal wir unter Umständen wegen derartigen Rechtsverletzungen belangt werden können. Eine Weitergabe an Dritte erfolgt nicht. Ein Abgleich der so erhobenen Daten mit Daten, die möglicherweise durch andere Komponenten unserer Seite erhoben werden, erfolgt ebenfalls nicht.
 
-## Einsatz von Google-Analytics mit Anonymisierungsfunktion
-
-Wir setzen auf unserer Seite Google-Analytics, einen Webanalysedienst der Firma Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043 USA, nachfolgend "Google“ ein. Google-Analytics verwendet sog. "Cookies“, Textdateien, die auf Ihrem Computer gespeichert werden und hierdurch eine Analyse der Benutzung der Website durch Sie ermöglichen.
-
-Die durch diese Cookies erzeugten Informationen, beispielsweise Zeit, Ort und Häufigkeit Ihres Webseiten-Besuchs einschließlich Ihrer IP-Adresse, werden an Google in den USA übertragen und dort gespeichert.
-
-Wir verwenden auf unserer Website Google-Analytics mit einer IP-Anonymisierungsfunktion. Ihre IP-Adresse wird in diesem Fall von Google schon innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum gekürzt und dadurch anonymisiert.
-
-Google wird diese Informationen benutzen, um Ihre Nutzung unserer Seite auszuwerten, um Reports über die Websiteaktivitäten für uns zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben oder soweit Dritte diese Daten im Auftrag von Google verarbeiten.
-
-Google wird, nach eigenen Angaben, in keinem Fall Ihre IP-Adresse mit anderen Daten von Google in Verbindung bringen. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen unserer Website vollumfänglich nutzen können.
-
-Des Weiteren bietet Google für die gängigsten Browser eine Deaktivierungsoption an, welche Ihnen mehr Kontrolle darüber gibt, welche Daten von Google erfasst und verarbeitet werden. Sollte Sie diese Option aktivieren, werden keine Informationen zum Website-Besuch an Google Analytics übermittelt. Die Aktivierung verhindert aber nicht, dass Informationen an uns oder an andere von uns gegebenenfalls eingesetzte Webanalyse-Services übermittelt werden. Weitere Informationen zu der von Google bereitgestellten Deaktivierungsoption sowie zu der Aktivierung dieser Option, erhalten Sie über nachfolgenden Link: <https://tools.google.com/dlpage/gaoptout?hl=de>
-
 ## Einsatz von Google-Maps mit Empfehlungskomponenten
 
 Wir setzen auf unserer Seite die Komponente "Google Maps" in Kombination mit der sogenannten "Teilen-Funktion" ein.  "Google Maps" ist ein Service der Firma Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043 USA, nachfolgend "Google“.
@@ -174,12 +160,6 @@ Wenn Sie diese Übermittlung und Speicherung von Daten über Sie und Ihr Verhalt
 Wir setzen auf unserer Website den Dienst Instagram ein. Instagram ist ein Service der Instagram Inc. Durch den eingebundenen "Insta“-Button auf unsere Seite erhält Instagram die Information, dass Sie die entsprechende Seite unseres Internetauftritts aufgerufen haben. Sind Sie bei Instagram eingeloggt, kann Instagram diesen Besuch auf unserer Seite Ihrem Instagram -Konto zuordnen und die Daten somit verknüpfen. Die durch Anklicken des "Insta“-Buttons übermittelten Daten werden von Instagram gespeichert. Zu Zweck und Umfang der Datenerhebung, deren Verarbeitung und Nutzung sowie Ihren diesbezüglichen Rechten und Einstellungsmöglichkeiten zum Schutz Ihrer Privatsphäre erhalten Sie weitere Informationen in den Instagram -Datenschutzhinweisen, die Sie über [https://help.instagram.com/155833707900388](https://help.instagram.com/155833707900388) abrufen können.
 
 Um zu verhindern, dass Instagram den Besuch unserer Seite Ihrem Instagram-Konto zuordnen kann, müssen Sie sich vor dem Besuch unserer Seite von Ihrem Instagram-Account abmelden.
-
-## Einsatz von Google AdSense
-
-Wir setzen auf unserer Website Google AdSense ein. Google AdSense ist ein Dienst der Firma Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043 USA, zum Einbinden von Werbeanzeigen. Google-AdSense verwendet sog. "Cookies“, somit Textdateien, die auf Ihrem Computer gespeichert werden und eine Analyse der Benutzung unserer Website ermöglichen. Weiter verwendet Google AdSense sogenannte Web Beacons. Durch diese Web Beacons ist es Google möglich, Informationen, wie zum Beispiel den Besucherfluss auf unserer Seite, auszuwerten. Diese Informationen werden neben Ihrer IP-Adresse und der Erfassung der angezeigten Werbeformate an Google in den USA übertragen, dort gespeichert und können von Google an Vertragspartner weiter gegeben werden. 
-
-Google führt Ihre IP-Adresse jedoch nicht mit anderen von Ihnen gespeicherten Daten zusammen. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihres Browsers verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen unserer Website vollumfänglich nutzen können. Mit der Nutzung unserer Website erklären Sie sich mit der Bearbeitung der über sie erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden.
 
 ### Auskunft/Widerruf/Löschung
 
