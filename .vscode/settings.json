@@ -16,7 +16,7 @@
     "**/node_modules": true
   },
   "explorer.fileNesting.patterns": {
-    "README.md": "CLAUDE.md, AGENTS.md, SECURITY.md, TODO.md, ROADMAP.md",
+    "README.md": "CLAUDE.md, AGENTS.md, SECURITY.md, TODO.md, ROADMAP.md, DESIGN.md",
     "MIGRATION.md": "MIGRATION.*.md, PROJECT.md",
     "package.json": "package-lock.json, .release-it.ts, .nvmrc, .npmrc",
     "astro.config.ts": ".editorconfig, biome.jsonc, tsconfig.json, .markdownlint-cli2.jsonc, netlify.toml"
