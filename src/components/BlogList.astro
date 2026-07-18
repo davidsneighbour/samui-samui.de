@@ -1,8 +1,8 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-import FormattedDate from '@components/FormattedDate.astro';
+import BlogPostMeta from '@components/BlogPostMeta.astro';
+import BlogPostTitle from '@components/BlogPostTitle.astro';
 import PostCover from '@components/PostCover.astro';
-import TagBadges from '@components/TagBadges.astro';
 import Button from '@components/ui/button.astro';
 import Pagination from '@components/ui/pagination.astro';
 import { getPostCover } from '@utils/covers';
@@ -104,22 +104,15 @@ const shouldFeaturePost = (index: number) =>
         {shouldFeaturePost(index) ? (
             <article class="rounded-(--radius) bg-card px-4 py-8 text-card-foreground sm:px-8">
               <header class="mb-4">
-                <h2
-                  class="m-0 text-balance text-3xl font-[600] leading-tight uppercase sm:text-4xl"
-                >
-                  <a
-                    href={getPostUrl(post)}
-                    class="text-link hover:underline"
-                  >
-                    {post.data.title}
-                  </a>
-                </h2>
-                <div class="mt-2 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
-                  <FormattedDate date={post.data.date} />
-                  {post.data.tags && post.data.tags.length > 0 && (
-                    <TagBadges tags={post.data.tags} />
-                  )}
-                </div>
+                <BlogPostTitle
+                  title={post.data.title}
+                  href={getPostUrl(post)}
+                />
+                <BlogPostMeta
+                  date={post.data.date}
+                  tags={post.data.tags}
+                  class="mt-2"
+                />
               </header>
               {cover && (
                 <PostCover
@@ -160,22 +153,16 @@ const shouldFeaturePost = (index: number) =>
                 )}
                 <div class="min-w-0 flex-1">
                   <header class="mb-3">
-                    <h2
-                      class="m-0 text-balance text-2xl font-[600] leading-tight uppercase"
-                    >
-                      <a
-                        href={getPostUrl(post)}
-                        class="text-link hover:underline"
-                      >
-                        {post.data.title}
-                      </a>
-                    </h2>
-                    <div class="mt-2 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
-                      <FormattedDate date={post.data.date} />
-                      {post.data.tags && post.data.tags.length > 0 && (
-                        <TagBadges tags={post.data.tags} />
-                      )}
-                    </div>
+                    <BlogPostTitle
+                      title={post.data.title}
+                      href={getPostUrl(post)}
+                      size="compact"
+                    />
+                    <BlogPostMeta
+                      date={post.data.date}
+                      tags={post.data.tags}
+                      class="mt-2"
+                    />
                   </header>
                   {summary.map((paragraph) => (
                     <p

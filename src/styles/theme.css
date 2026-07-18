@@ -66,6 +66,16 @@
 
 @font-face {
   font-family: "Panton";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src:
+    url("/assets/webfonts/600/bold/panton-bold-webfont.woff2") format("woff2"),
+    url("/assets/webfonts/600/bold/panton-bold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Panton";
   font-weight: 700;
   font-style: normal;
   font-display: swap;

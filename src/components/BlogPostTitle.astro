@@ -1,0 +1,38 @@
+---
+import { cn } from '@utils/cn';
+
+interface Props {
+  title: string;
+  href?: string | undefined;
+  level?: 'h1' | 'h2' | undefined;
+  size?: 'default' | 'compact' | undefined;
+  class?: string | undefined;
+}
+
+const {
+  title,
+  href,
+  level = 'h2',
+  size = 'default',
+  class: className,
+} = Astro.props as Props;
+const HeadingTag = level;
+const titleClass = cn(
+  'm-0 text-balance font-[600] leading-tight uppercase',
+  size === 'compact' ? 'text-2xl' : 'text-3xl sm:text-4xl',
+  className,
+);
+---
+
+<HeadingTag class={titleClass}>
+  {href ? (
+    <a
+      href={href}
+      class="text-link hover:underline"
+    >
+      {title}
+    </a>
+  ) : (
+    title
+  )}
+</HeadingTag>

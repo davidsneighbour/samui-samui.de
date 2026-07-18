@@ -1,0 +1,52 @@
+---
+import FormattedDate from '@components/FormattedDate.astro';
+import TagBadges from '@components/TagBadges.astro';
+import { cn } from '@utils/cn';
+
+interface Props {
+  date?: Date | undefined;
+  updatedDate?: Date | undefined;
+  tags?: string[] | undefined;
+  extended?: boolean | undefined;
+  align?: 'start' | 'center' | undefined;
+  class?: string | undefined;
+}
+
+const {
+  date,
+  updatedDate,
+  tags,
+  extended = false,
+  align = 'start',
+  class: className,
+} = Astro.props as Props;
+const hasTags = tags && tags.length > 0;
+const hasMeta = date || updatedDate || hasTags;
+---
+
+{hasMeta && (
+  <div
+    class={cn(
+      'flex flex-wrap items-center gap-2 text-sm text-muted-foreground',
+      align === 'center' && 'justify-center',
+      className,
+    )}
+  >
+    {date && (
+      <FormattedDate
+        date={date}
+        extended={extended}
+      />
+    )}
+    {updatedDate && (
+      <span class="italic">
+        Zuletzt aktualisiert am{' '}
+        <FormattedDate
+          date={updatedDate}
+          extended={extended}
+        />
+      </span>
+    )}
+    {hasTags && <TagBadges tags={tags} />}
+  </div>
+)}

@@ -31,6 +31,9 @@ typography:
   heading:
     fontFamily: Panton
     fontWeight: 400
+  post-title:
+    fontFamily: Panton
+    fontWeight: 600
   body-md:
     fontFamily: Panton
     fontWeight: 400
@@ -187,9 +190,9 @@ Do's and Don'ts.
 
 Font family is **Panton** everywhere (`--font-sans`), self-hosted as
 woff2/woff under `public/assets/webfonts/`, loaded via `@font-face` in
-`theme.css`. Weights actually registered: 400 (regular + italic), 700
-(extra-bold), 900 (heavy) — the font ships 100–900 on disk, but only
-these four faces are wired into CSS, deliberately, to avoid unused
+`theme.css`. Weights actually registered: 400 (regular + italic), 600
+(bold), 700 (extra-bold), 900 (heavy) — the font ships 100–900 on disk,
+but only these faces are wired into CSS, deliberately, to avoid unused
 `@font-face` requests.
 
 * **`brand-masthead`** — the site name in `Header.astro`. Weight 900,
@@ -209,6 +212,10 @@ these four faces are wired into CSS, deliberately, to avoid unused
   come from the `@tailwindcss/typography` plugin's defaults (`prose`
   classes in `src/utils/prose.ts`), not custom-set — don't add
   per-heading `fontSize` overrides here without checking that file.
+* **`post-title`** — post titles in list cards and the single-post header.
+  Weight 600, uppercase, `text-balance`, rendered by
+  `BlogPostTitle.astro`. This is deliberately separate from article
+  content headings, which remain weight 400.
 * **`body-md`** — base body copy. 16px / 1.5 line-height, weight 400.
 * **`nav-link`** / **`nav-link-active`** — header navigation
   (`HeaderLink.astro`). Active state is signaled by weight (700) plus a
@@ -265,6 +272,13 @@ sharp (0px) corners.
   on the cream card surface, with uppercase labels supplied by
   `TagBadges.astro`; `outline`, `ghost`, and `link` variants reuse
   existing `border`, `accent`, and `link` tokens.
+* **BlogPostTitle** (`src/components/BlogPostTitle.astro`) — shared post
+  title component for list cards and single-post pages. It always renders
+  uppercase at weight 600, supports `h1`/`h2`, and offers default
+  (`text-3xl sm:text-4xl`) and compact (`text-2xl`) sizes.
+* **BlogPostMeta** (`src/components/BlogPostMeta.astro`) — shared metadata
+  row beneath post titles. It owns published/updated dates, optional tag
+  badges, and start/center alignment for list cards vs. single-post pages.
 * **Card** — not a dedicated component file; the pattern (`bg-card`,
   `text-card-foreground`, `rounded-(--radius)`, `px-4 py-8 sm:px-8`) is
   repeated inline in `BlogList.astro`, `PageLayout.astro`, and
