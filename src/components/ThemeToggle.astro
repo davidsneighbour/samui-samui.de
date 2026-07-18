@@ -1,0 +1,80 @@
+---
+import { Moon, Sun } from '@lucide/astro';
+---
+
+<button
+  type="button"
+  class="theme-toggle relative inline-flex size-10 shrink-0 items-center justify-center overflow-hidden rounded-(--radius) text-foreground/85 transition-[background-color,color,scale] duration-150 ease-out hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background active:scale-[0.96]"
+  data-theme-toggle
+  aria-label="Helles Farbschema aktivieren"
+  aria-pressed="true"
+  title="Helles Farbschema aktivieren"
+>
+  <span
+    class="theme-toggle__icon theme-toggle__icon--sun absolute inset-0 inline-flex items-center justify-center"
+    aria-hidden="true"
+  >
+    <Sun class="size-5" />
+  </span>
+  <span
+    class="theme-toggle__icon theme-toggle__icon--moon inline-flex items-center justify-center"
+    aria-hidden="true"
+  >
+    <Moon class="size-5" />
+  </span>
+</button>
+
+<script is:inline>
+  (() => {
+    const button = document.currentScript?.previousElementSibling;
+    if (!(button instanceof HTMLButtonElement)) return;
+
+    const updateButton = () => {
+      const isDark = document.documentElement.classList.contains('dark');
+      const label = isDark
+        ? 'Helles Farbschema aktivieren'
+        : 'Dunkles Farbschema aktivieren';
+
+      button.dataset.theme = isDark ? 'dark' : 'light';
+      button.setAttribute('aria-pressed', String(isDark));
+      button.setAttribute('aria-label', label);
+      button.title = label;
+    };
+
+    button.addEventListener('click', () => {
+      window.SamuiTheme?.toggleTheme();
+      updateButton();
+    });
+    document.addEventListener('samui-theme-change', updateButton);
+    updateButton();
+  })();
+</script>
+
+<style>
+  .theme-toggle__icon {
+    opacity: 0;
+    transform: scale(0.25);
+    filter: blur(4px);
+    transition-property: opacity, transform, filter;
+    transition-duration: 180ms;
+    transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
+  }
+
+  .theme-toggle__icon--sun {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+  }
+
+  :global(.dark) .theme-toggle__icon--sun {
+    opacity: 0;
+    transform: scale(0.25);
+    filter: blur(4px);
+  }
+
+  :global(.dark) .theme-toggle__icon--moon {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+  }
+</style>

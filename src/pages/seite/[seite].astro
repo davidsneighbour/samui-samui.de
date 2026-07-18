@@ -38,7 +38,10 @@ const { posts, pageNumber, totalPages } = Astro.props as Props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html
+  lang="en"
+  class="dark"
+>
   <head>
     <BaseHead
       title={`${setup.title} - Seite ${pageNumber}`}

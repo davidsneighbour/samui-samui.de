@@ -16,6 +16,72 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const { title, description, image = FallbackImage } = Astro.props;
 ---
 
+<script is:inline>
+  (() => {
+    const storageKey = 'samui-theme';
+    const darkThemeColor = '#290e1c';
+    const lightThemeColor = '#f8f3e6';
+    const root = document.documentElement;
+
+    const getStoredTheme = () => {
+      try {
+        const stored = localStorage.getItem(storageKey);
+        return stored === 'light' ? 'light' : 'dark';
+      } catch {
+        return 'dark';
+      }
+    };
+
+    const updateThemeColor = (theme) => {
+      const themeColor = document.querySelector('meta[name="theme-color"]');
+      themeColor?.setAttribute(
+        'content',
+        theme === 'dark' ? darkThemeColor : lightThemeColor,
+      );
+    };
+
+    const applyTheme = (theme, persist = true) => {
+      const nextTheme = theme === 'light' ? 'light' : 'dark';
+      const isDark = nextTheme === 'dark';
+
+      root.classList.toggle('dark', isDark);
+      root.dataset.theme = nextTheme;
+      root.style.colorScheme = nextTheme;
+      updateThemeColor(nextTheme);
+      if (document.readyState === 'loading') {
+        document.addEventListener(
+          'DOMContentLoaded',
+          () => updateThemeColor(nextTheme),
+          { once: true },
+        );
+      }
+
+      if (persist) {
+        try {
+          localStorage.setItem(storageKey, nextTheme);
+        } catch {
+          // Ignore unavailable storage; the class update still applies.
+        }
+      }
+
+      document.dispatchEvent(
+        new CustomEvent('samui-theme-change', {
+          detail: { theme: nextTheme },
+        }),
+      );
+    };
+
+    window.SamuiTheme = {
+      getTheme: () => (root.classList.contains('dark') ? 'dark' : 'light'),
+      setTheme: (theme) => applyTheme(theme),
+      toggleTheme: () =>
+        applyTheme(root.classList.contains('dark') ? 'light' : 'dark'),
+    };
+
+    applyTheme(getStoredTheme(), false);
+  })();
+</script>
+
 <!-- Global Metadata -->
 <meta charset="utf-8">
 <meta
@@ -49,7 +115,11 @@ const { title, description, image = FallbackImage } = Astro.props;
 >
 <meta
   name="theme-color"
-  content="#ffffff"
+  content="#290e1c"
+>
+<meta
+  name="color-scheme"
+  content="dark light"
 >
 <meta
   name="generator"

@@ -1,43 +1,94 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+@custom-variant dark (&:is(.dark *));
+
 /*
  * Palette derived from the old Hugo site's SCSS (legacy/hugo:assets/scss/) as
- * inspiration, not an exact match — see issue #716. Coral (#ec7263) fails
- * WCAG AA as small text on the cream surface (2.48:1), so `--color-link` is a
- * darkened variant (#b8402f, 4.65:1) used specifically for readable body-text
- * links; the vibrant coral stays reserved for large UI (buttons, borders)
- * where a 3:1 threshold applies instead.
+ * inspiration, not an exact match -- see issue #716. The legacy maroon palette
+ * remains the default dark theme, while the light theme keeps the same warm
+ * parchment/coral identity with contrast-safe body links.
  */
-@theme {
+@theme inline {
   --font-sans: "Panton", ui-sans-serif, system-ui, sans-serif;
 
-  --color-background: #290e1c;
-  --color-foreground: #f5f1e6;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
 
-  --color-card: #f1ecd8;
-  --color-card-foreground: #2b2929;
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
 
-  --color-primary: #ec7263;
-  --color-primary-foreground: #2b2929;
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
 
-  --color-secondary: #3d1a2b;
-  --color-secondary-foreground: #f5f1e6;
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
 
-  --color-muted: #e5dfc7;
-  --color-muted-foreground: #6b6250;
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
 
-  --color-accent: #e5dfc7;
-  --color-accent-foreground: #2b2929;
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
 
-  --color-link: #b8402f;
+  --color-link: var(--link);
 
-  --color-border: #d9d3ba;
-  --color-ring: #b8402f;
+  --color-border: var(--border);
+  --color-ring: var(--ring);
 }
 
 :root {
   --radius: 0.75rem;
+  color-scheme: light;
+
+  --background: #f8f3e6;
+  --foreground: #2b2929;
+
+  --card: #fffaf0;
+  --card-foreground: #2b2929;
+
+  --primary: #b8402f;
+  --primary-foreground: #fffaf0;
+
+  --secondary: #eadfca;
+  --secondary-foreground: #3d1a2b;
+
+  --muted: #eee4d2;
+  --muted-foreground: #635846;
+
+  --accent: #eee4d2;
+  --accent-foreground: #2b2929;
+
+  --link: #8f2f24;
+
+  --border: #d7c9b1;
+  --ring: #b8402f;
+}
+
+.dark {
+  color-scheme: dark;
+
+  --background: #290e1c;
+  --foreground: #f5f1e6;
+
+  --card: #f1ecd8;
+  --card-foreground: #2b2929;
+
+  --primary: #ec7263;
+  --primary-foreground: #2b2929;
+
+  --secondary: #3d1a2b;
+  --secondary-foreground: #f5f1e6;
+
+  --muted: #e5dfc7;
+  --muted-foreground: #6b6250;
+
+  --accent: #e5dfc7;
+  --accent-foreground: #2b2929;
+
+  --link: #b8402f;
+
+  --border: #d9d3ba;
+  --ring: #b8402f;
 }
 
 @font-face {

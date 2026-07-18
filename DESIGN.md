@@ -3,9 +3,9 @@ name: Samui? Samui!
 version: 1.0.0
 description: >-
   A 20-year-old personal blog about expat life on Koh Samui, Thailand,
-  rebuilt in Astro. The palette and masthead treatment are inherited from
-  the site's long-running Bootstrap/Hugo theme — this is a faithful
-  continuation, not a rebrand.
+  rebuilt in Astro. The default dark palette and masthead treatment are
+  inherited from the site's long-running Bootstrap/Hugo theme, with a
+  documented light theme added as an alternate reading mode.
 colors:
   background: "#290e1c"
   foreground: "#f5f1e6"
@@ -144,29 +144,39 @@ Where the two rebuilds necessarily diverge (Bootstrap's grid vs. Tailwind
 utilities), the visual *result* — colors, the masthead effect, spacing
 rhythm — stays identical.
 
-The tone is warm-dark: a deep maroon background, a cream/parchment card
-surface for content, and a single coral accent used sparingly for links,
-focus rings, and the brand type's photo-clip effect. There is no light
-mode — `color-scheme: dark light` is declared on the live site, but the
-design itself is single-theme.
+The default tone is warm-dark: a deep maroon background, a
+cream/parchment card surface for content, and a single coral accent used
+sparingly for links, focus rings, and the brand type's photo-clip
+effect. The site now offers a light reading mode, but the dark maroon
+theme remains the no-JavaScript and first-visit fallback so the migrated
+site still opens with the long-running visual identity intact.
+
+Tailwind v4 utilities resolve through runtime CSS variables: `:root`
+holds the light-mode values, `.dark` holds the legacy dark values, and
+`<html class="dark">` ships in every document shell. The inline theme
+script in `BaseHead.astro` may remove `.dark` before the body renders
+when the reader has selected light mode.
 
 ## Colors
 
-| Token | Value | Usage |
-| --- | --- | --- |
-| `background` | `#290e1c` | Page background (`body`, `header`, `footer`). Deep maroon. |
-| `foreground` | `#f5f1e6` | Default text on `background`. |
-| `card` | `#f1ecd8` | Content surface — post bodies, the page wrapper card. |
-| `card-foreground` | `#2b2929` | Text on `card`. |
-| `primary` | `#ec7263` | Coral. Buttons, active nav underline, masthead tagline divider. |
-| `primary-foreground` | `#2b2929` | Text on `primary`. |
-| `secondary` | `#3d1a2b` | Secondary buttons; a darker maroon than `background`. |
-| `secondary-foreground` | `#f5f1e6` | Text on `secondary`. |
-| `muted` / `accent` | `#e5dfc7` | Subtle fills (hover states, ghost buttons). Same value used for both roles today. |
-| `muted-foreground` | `#6b6250` | De-emphasized text on `card`. |
-| `link` | `#b8402f` | Body-text links. A darkened `primary` — full-saturation coral fails WCAG AA (2.48:1) as small text on `card`; this variant hits 4.65:1. Reserve raw `primary` for large UI (≥3:1 threshold: buttons, borders), never for small link text. |
-| `border` | `#d9d3ba` | Card/input borders. |
-| `ring` | `#b8402f` | Focus ring — matches `link`, not `primary`, for the same contrast reason. |
+The frontmatter `colors` block records the dark/default delivered
+theme. The complete mode matrix in `src/styles/theme.css` is:
+
+| Token | Light Value | Dark Value | Usage |
+| --- | --- | --- | --- |
+| `background` | `#f8f3e6` | `#290e1c` | Page background (`body`, `header`, `footer`). Light mode uses warm parchment; dark mode uses the legacy deep maroon. |
+| `foreground` | `#2b2929` | `#f5f1e6` | Default text on `background`. |
+| `card` | `#fffaf0` | `#f1ecd8` | Content surface — post bodies, the page wrapper card. |
+| `card-foreground` | `#2b2929` | `#2b2929` | Text on `card`. |
+| `primary` | `#b8402f` | `#ec7263` | Coral accent. Buttons, active nav underline, masthead tagline divider. Light mode uses the darker contrast-safe coral because it appears more often against pale surfaces. |
+| `primary-foreground` | `#fffaf0` | `#2b2929` | Text on `primary`. |
+| `secondary` | `#eadfca` | `#3d1a2b` | Secondary buttons and subdued fills. |
+| `secondary-foreground` | `#3d1a2b` | `#f5f1e6` | Text on `secondary`. |
+| `muted` / `accent` | `#eee4d2` | `#e5dfc7` | Subtle fills (hover states, ghost buttons). Same value used for both roles within each mode today. |
+| `muted-foreground` | `#635846` | `#6b6250` | De-emphasized text on `card`. |
+| `link` | `#8f2f24` | `#b8402f` | Body-text links. Both are darkened coral values selected for readable small text on the active `card` color. |
+| `border` | `#d7c9b1` | `#d9d3ba` | Card/input borders. |
+| `ring` | `#b8402f` | `#b8402f` | Focus ring — matches the contrast-safe coral family, not always `primary`, for small UI readability. |
 
 **Note on lint warnings:** `design.md lint` flags `muted`, `border`, and
 `ring` as "never referenced by any component." This is expected, not a
@@ -178,6 +188,10 @@ mapping; `muted` is currently identical in value to `accent` (`#e5dfc7`)
 and only `accent` is actually used as a component background today —
 `muted` itself is only ever paired with `muted-foreground` as text, never
 as a fill.
+
+**Theme persistence:** `BaseHead.astro` owns the inline script that reads
+and writes `localStorage["samui-theme"]`. Only `light` and `dark` are
+valid stored values; missing or invalid values fall back to `dark`.
 
 **Known gap:** the masthead tagline (`.masthead__tagline` in `Header.astro`)
 uses a hardcoded `#e2e2b6`, not a theme token. This is intentional —
@@ -291,6 +305,11 @@ sharp (0px) corners.
   Lucide icon plus text label, spaced inline with a 2px transparent
   bottom border that turns `primary`-colored (and the text weight jumps
   to 700) when active or hovered.
+* **ThemeToggle** (`src/components/ThemeToggle.astro`) — header icon
+  button for switching between light and dark themes. It uses a fixed
+  40px hit area (`size-10`), `rounded-(--radius)`, the existing
+  `accent` hover fill, and cross-fades Lucide `Sun`/`Moon` icons with
+  explicit `opacity`, `transform`, and `filter` transitions.
 * **Masthead** (`src/components/Header.astro`) — see Typography and
   Layout above; the site's one genuinely bespoke, non-utility-driven
   component.
@@ -312,6 +331,9 @@ sharp (0px) corners.
 * **Do** update this document in the same commit/PR whenever a token in
   `theme.css`, `Header.astro`'s masthead styles, or `button.astro`'s
   `cva` config changes. A stale DESIGN.md is worse than none.
+* **Do** keep dark mode as the first-visit and no-JavaScript fallback
+  unless deliberately changing the migrated site's default visual
+  identity.
 * **Don't** invent a spacing or radius scale beyond what's listed here
   without checking actual usage first (`grep -rn "rounded-\|gap-\|px-\|py-" src`)
   — this document favors recording what's real over prescribing what's
