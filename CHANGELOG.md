@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.2.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.1.0...v2.2.0) (2026-07-18)
+
+### Feat
+
+* **contact:** replace Google reCAPTCHA with Cloudflare Turnstile ([1b9dea5](https://github.com/davidsneighbour/samui-samui.de/commit/1b9dea58109ce17334fef4d9200e23a3848df133)), closes [#722](https://github.com/davidsneighbour/samui-samui.de/issues/722)
+
+### Docs
+
+* **privacy:** link Cloudflare's Turnstile-specific privacy policy ([36983a7](https://github.com/davidsneighbour/samui-samui.de/commit/36983a7d32becdd5b030e4c875aa22a7fa76fd9d))
+
 ## [2.1.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.0.0...v2.1.0) (2026-07-18)
 
 ### Feat
