@@ -592,97 +592,97 @@
       "aliases": [],
       "decided_date": "2026-07-18",
       "ecosystem": "npm",
-      "fixed_version": null,
+      "fixed_version": "7.5.20",
       "github_issue": 748,
       "id": "GHSA-34x7-hfp2-rc4v",
       "package": "tar",
-      "reason": "no safe non-major fix available within the parent package's declared semver range; filed for manual triage",
+      "reason": "fixed via package.json overrides pinning tar to 7.5.20 (issue #748), applied alongside the astro 7.1.1 upgrade; validated with npm run check + astro:check + build + dev-server smoke test",
       "severity": "high",
-      "status": "open"
+      "status": "fixed"
     },
     {
       "aliases": [],
       "decided_date": "2026-07-18",
       "ecosystem": "npm",
-      "fixed_version": null,
+      "fixed_version": "7.5.20",
       "github_issue": 748,
       "id": "GHSA-83g3-92jg-28cx",
       "package": "tar",
-      "reason": "no safe non-major fix available within the parent package's declared semver range; filed for manual triage",
+      "reason": "fixed via package.json overrides pinning tar to 7.5.20 (issue #748), applied alongside the astro 7.1.1 upgrade; validated with npm run check + astro:check + build + dev-server smoke test",
       "severity": "high",
-      "status": "open"
+      "status": "fixed"
     },
     {
       "aliases": [],
       "decided_date": "2026-07-18",
       "ecosystem": "npm",
-      "fixed_version": null,
+      "fixed_version": "7.5.20",
       "github_issue": 748,
       "id": "GHSA-8qq5-rm4j-mr97",
       "package": "tar",
-      "reason": "no safe non-major fix available within the parent package's declared semver range; filed for manual triage",
+      "reason": "fixed via package.json overrides pinning tar to 7.5.20 (issue #748), applied alongside the astro 7.1.1 upgrade; validated with npm run check + astro:check + build + dev-server smoke test",
       "severity": "high",
-      "status": "open"
+      "status": "fixed"
     },
     {
       "aliases": [],
       "decided_date": "2026-07-18",
       "ecosystem": "npm",
-      "fixed_version": null,
+      "fixed_version": "7.5.20",
       "github_issue": 748,
       "id": "GHSA-9ppj-qmqm-q256",
       "package": "tar",
-      "reason": "no safe non-major fix available within the parent package's declared semver range; filed for manual triage",
+      "reason": "fixed via package.json overrides pinning tar to 7.5.20 (issue #748), applied alongside the astro 7.1.1 upgrade; validated with npm run check + astro:check + build + dev-server smoke test",
       "severity": "high",
-      "status": "open"
+      "status": "fixed"
     },
     {
       "aliases": [],
       "decided_date": "2026-07-18",
       "ecosystem": "npm",
-      "fixed_version": null,
+      "fixed_version": "7.5.20",
       "github_issue": 748,
       "id": "GHSA-qffp-2rhf-9h96",
       "package": "tar",
-      "reason": "no safe non-major fix available within the parent package's declared semver range; filed for manual triage",
+      "reason": "fixed via package.json overrides pinning tar to 7.5.20 (issue #748), applied alongside the astro 7.1.1 upgrade; validated with npm run check + astro:check + build + dev-server smoke test",
       "severity": "high",
-      "status": "open"
+      "status": "fixed"
     },
     {
       "aliases": [],
       "decided_date": "2026-07-18",
       "ecosystem": "npm",
-      "fixed_version": null,
+      "fixed_version": "7.5.20",
       "github_issue": 748,
       "id": "GHSA-r6q2-hw4h-h46w",
       "package": "tar",
-      "reason": "no safe non-major fix available within the parent package's declared semver range; filed for manual triage",
+      "reason": "fixed via package.json overrides pinning tar to 7.5.20 (issue #748), applied alongside the astro 7.1.1 upgrade; validated with npm run check + astro:check + build + dev-server smoke test",
       "severity": "high",
-      "status": "open"
+      "status": "fixed"
     },
     {
       "aliases": [],
       "decided_date": "2026-07-18",
       "ecosystem": "npm",
-      "fixed_version": null,
+      "fixed_version": "7.5.20",
       "github_issue": 748,
       "id": "GHSA-vmf3-w455-68vh",
       "package": "tar",
-      "reason": "no safe non-major fix available within the parent package's declared semver range; filed for manual triage",
+      "reason": "fixed via package.json overrides pinning tar to 7.5.20 (issue #748), applied alongside the astro 7.1.1 upgrade; validated with npm run check + astro:check + build + dev-server smoke test",
       "severity": "moderate",
-      "status": "open"
+      "status": "fixed"
     },
     {
       "aliases": [],
       "decided_date": "2026-07-18",
       "ecosystem": "npm",
-      "fixed_version": null,
+      "fixed_version": "0.28.1",
       "github_issue": 749,
       "id": "GHSA-g7r4-m6w7-qqqr",
       "package": "esbuild",
-      "reason": "no safe non-major fix available within the parent package's declared semver range; filed for manual triage",
+      "reason": "fixed via package.json overrides pinning esbuild to 0.28.1 (issue #749), applied alongside the astro 7.1.1 upgrade; validated with npm run check + astro:check + build + dev-server smoke test",
       "severity": "low",
-      "status": "open"
+      "status": "fixed"
     },
     {
       "aliases": [],
