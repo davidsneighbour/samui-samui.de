@@ -75,58 +75,6 @@ Weitere Informationen zum Datenschutz bei Cloudflare Turnstile finden Sie in der
 
 Wir bieten Ihnen auf unserer Seite die Möglichkeit, Kommentare zu den einzelnen Beiträgen zu hinterlassen. Hierbei wird die IP- Adresse des Verfassers/Anschlussinhabers gespeichert. Diese Speicherung erfolgt zu unserer Sicherheit für den Fall, dass vom Verfasser durch seinen Kommentar hierbei in Rechte Dritter eingegriffen wird und/oder widerrechtliche Inhalte abgesetzt werden. Somit besteht ein Eigeninteresse unsererseits an den gespeicherten Daten des Verfassers, zumal wir unter Umständen wegen derartigen Rechtsverletzungen belangt werden können. Eine Weitergabe an Dritte erfolgt nicht. Ein Abgleich der so erhobenen Daten mit Daten, die möglicherweise durch andere Komponenten unserer Seite erhoben werden, erfolgt ebenfalls nicht.
 
-## Einsatz von Google-Maps mit Empfehlungskomponenten
-
-Wir setzen auf unserer Seite die Komponente "Google Maps" in Kombination mit der sogenannten "Teilen-Funktion" ein.  "Google Maps" ist ein Service der Firma Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043 USA, nachfolgend "Google“.
-
-Bei jedem einzelnen Aufruf dieser Komponente wird von Google ein Cookie gesetzt, um bei der Anzeige der Seite, auf der die Komponente "Google Maps" integriert ist, Nutzereinstellungen und -daten zu verarbeiten. Dieses Cookie wird im Regelfall nicht durch das Schließen des Browsers gelöscht, sondern läuft nach einer bestimmten Zeit ab, soweit es nicht von Ihnen zuvor manuell gelöscht wird.
-
-Wenn Sie mit dieser Verarbeitung Ihrer Daten nicht einverstanden sind, so besteht die Möglichkeit, den Service von "Google Maps" zu deaktivieren und auf diesem Weg die Übertragung von Daten an Google zu verhindern. Dazu müssen Sie die Java-Script-Funktion in Ihrem Browser deaktivieren. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall "Google Maps" nicht oder nur eingeschränkt nutzen können.
-
-Die Nutzung von "Google Maps" und der über "Google Maps" erlangten Informationen erfolgt gemäß den Google-Nutzungsbedingungen
-
-[http://www.google.de/intl/de/policies/terms/regional.html](http://www.google.de/intl/de/policies/terms/regional.html)
-
-sowie der zusätzlichen Geschäftsbedingungen für "Google Maps“
-
-[https://www.google.com/intl/de_de/help/terms_maps.html](https://www.google.com/intl/de_de/help/terms_maps.html)
-
-Die Google-Maps Funktion enthält zudem folgende Empfehlungsschaltflächen:
-
-*   "Google+-Button" der Firma Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043 USA;
-*   "facebook-Button" der Firma facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA;
-*   "Twitter-Button" der Firma Twitter Inc., 795 Folsom St., Suite 600, San Francisco, CA 94107, USA.
-
-Mit dem Aufruf der "Google Maps"-Seite veranlassen diese "Empfehlungs-Komponenten“, dass der von Ihnen verwendete Browser eine entsprechende Darstellung der Komponente vom jeweiligen Anbieter herunterlädt. Hierdurch wird der jeweilige -vorstehend genannte- Anbieter darüber in Kenntnis gesetzt, welche konkrete Seite unseres Internetauftrittes Sie gerade besuchen.
-
-Sind Sie zum Zeitpunkt des Aufrufes der "Google Maps" Seite in Ihrem jeweiligen persönlichen Account bei den vorstehend genannten Anbietern eingeloggt, so können diese die so erlangten Informationen über die von Ihnen weiterempfohlene Webseite sowie Ihre IP-Adresse und andere browserbezogene Informationen erfassen und mit Ihrem jeweiligen Account verknüpfen.
-
-Wollen Sie diese Übermittlung und Speicherung von Daten über Sie und Ihr Verhalten auf unserer Webseite durch den jeweiligen Anbieter unterbinden, müssen Sie sich bei diesen Anbietern ausloggen bevor Sie unsere Seite besuchen.
-
-Näheres zu der Datenerfassung der jeweiligen Anbieter können Sie über die nachfolgenden Links erfahren:
-
-Datenschutzerklärung Twitter: [https://twitter.com/privacy?lang=de](https://twitter.com/privacy?lang=de)
-
-Datenschutzerklärung facebook: <https://de-de.facebook.com/about/privacy>
-
-Datenschutzerklärung Google+: <https://developers.google.com/+/web/buttons-policy>
-
-## Einsatz von Google-Maps
-
-Wir setzen auf unserer Seite die Komponente "Google Maps" der Firma Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043 USA, nachfolgend "Google“, ein.
-
-Bei jedem einzelnen Aufruf der Komponente "Google Maps" wird von Google ein Cookie gesetzt, um bei der Anzeige der Seite, auf der die Komponente "Google Maps" integriert ist, Nutzereinstellungen und -daten zu verarbeiten. Dieses Cookie wird im Regelfall nicht durch das Schließen des Browsers gelöscht, sondern läuft nach einer bestimmten Zeit ab, soweit es nicht von Ihnen zuvor manuell gelöscht wird.
-
-Wenn Sie mit dieser Verarbeitung Ihrer Daten nicht einverstanden sind, so besteht die Möglichkeit, den Service von "Google Maps" zu deaktivieren und auf diesem Weg die Übertragung von Daten an Google zu verhindern. Dazu müssen Sie die Java-Script-Funktion in Ihrem Browser deaktivieren. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall die "Google Maps" nicht oder nur eingeschränkt nutzen können.
-
-Die Nutzung von "Google Maps" und der über "Google Maps" erlangten Informationen erfolgt gemäß den Google-Nutzungsbedingungen
-
-<http://www.google.de/intl/de/policies/terms/regional.html>
-
-sowie der zusätzlichen Geschäftsbedingungen für "Google Maps“
-
-<https://www.google.com/intl/de_de/help/terms_maps.html>
-
 ## Einsatz von facebook-Komponenten
 
 Wir setzen auf unserer Seite Komponenten des Anbieters facebook.com ein. Facebook ist ein Service der facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA.
