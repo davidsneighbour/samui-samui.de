@@ -10,6 +10,7 @@ import {
   Section,
   Text,
 } from '@react-email/components';
+import React from 'react';
 
 export interface ContactNotificationEmailProps {
   name: string;
@@ -18,7 +19,6 @@ export interface ContactNotificationEmailProps {
   submittedAt: string;
   pageUrl: string;
   userAgent: string;
-  recaptchaScore?: number;
 }
 
 export function ContactNotificationEmail({
@@ -26,7 +26,6 @@ export function ContactNotificationEmail({
   message,
   name,
   pageUrl,
-  recaptchaScore,
   submittedAt,
   userAgent,
 }: ContactNotificationEmailProps) {
@@ -91,11 +90,6 @@ export function ContactNotificationEmail({
             <Text style={{ color: '#71717a', fontSize: '12px', margin: 0 }}>
               User agent: {userAgent}
             </Text>
-            {typeof recaptchaScore === 'number' && (
-              <Text style={{ color: '#71717a', fontSize: '12px', margin: 0 }}>
-                reCAPTCHA-Score: {recaptchaScore}
-              </Text>
-            )}
           </Section>
         </Container>
       </Body>
@@ -112,7 +106,6 @@ ContactNotificationEmail.PreviewProps = {
     'Hallo, ich wollte fragen ob ihr auch Empfehlungen für Restaurants in Bophut habt.',
   name: 'Max Mustermann',
   pageUrl: 'https://samui-samui.de/kontakt/',
-  recaptchaScore: 0.9,
   submittedAt: '17 July 2026, 14:20 ICT',
   userAgent:
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',

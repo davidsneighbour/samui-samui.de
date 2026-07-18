@@ -190,4 +190,4 @@ home/blog-list), `[...slug].astro` (individual posts), `leute/[slug].astro`,
 Netlify, configured via `netlify.toml`: build command, functions directory
 (`netlify/functions/contact.mjs` for the contact form), security headers, and a
 resource-audited Content-Security-Policy covering Matomo, Giscus, YouTube/Vimeo
-embeds, reCAPTCHA, and Pagefind's WASM search index.
+embeds, Cloudflare Turnstile, and Pagefind's WASM search index.

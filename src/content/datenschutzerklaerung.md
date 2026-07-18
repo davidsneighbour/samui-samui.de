@@ -63,6 +63,14 @@ Weitere Daten werden unsererseits nicht erhoben. Die so erhobenen Daten werden a
 
 Wir bieten Ihnen auf unserer Seite die Möglichkeit, mit uns per E-Mail und/oder über ein Kontaktformular in Verbindung zu treten. In diesem Fall werden die vom Nutzer gemachten Angaben zum Zwecke der Bearbeitung seiner Kontaktaufnahme gespeichert. Eine Weitergabe an Dritte erfolgt nicht. Ein Abgleich der so erhobenen Daten mit Daten, die möglicherweise durch andere Komponenten unserer Seite erhoben werden, erfolgt ebenfalls nicht.
 
+## Einsatz von Cloudflare Turnstile
+
+Zum Schutz unseres Kontaktformulars vor automatisiertem Missbrauch (Spam) setzen wir den Dienst "Cloudflare Turnstile" der Firma Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, USA, ein.
+
+Beim Aufruf des Kontaktformulars wird eine Verbindung zu den Servern von Cloudflare hergestellt. Dabei werden Ihre IP-Adresse sowie technische Merkmale Ihres Browsers verarbeitet, um zu überprüfen, ob die Formulareingabe von einem Menschen oder einer automatisierten Software stammt. Eine Speicherung dieser Daten über die Dauer der Formularübermittlung hinaus erfolgt durch uns nicht.
+
+Weitere Informationen zum Datenschutz bei Cloudflare Turnstile finden Sie in der Datenschutzerklärung von Cloudflare: <https://www.cloudflare.com/privacypolicy/>
+
 ## Kommentarmöglichkeit
 
 Wir bieten Ihnen auf unserer Seite die Möglichkeit, Kommentare zu den einzelnen Beiträgen zu hinterlassen. Hierbei wird die IP- Adresse des Verfassers/Anschlussinhabers gespeichert. Diese Speicherung erfolgt zu unserer Sicherheit für den Fall, dass vom Verfasser durch seinen Kommentar hierbei in Rechte Dritter eingegriffen wird und/oder widerrechtliche Inhalte abgesetzt werden. Somit besteht ein Eigeninteresse unsererseits an den gespeicherten Daten des Verfassers, zumal wir unter Umständen wegen derartigen Rechtsverletzungen belangt werden können. Eine Weitergabe an Dritte erfolgt nicht. Ein Abgleich der so erhobenen Daten mit Daten, die möglicherweise durch andere Komponenten unserer Seite erhoben werden, erfolgt ebenfalls nicht.

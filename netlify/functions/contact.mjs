@@ -9,9 +9,8 @@ const CONTACT_PATH = '/kontakt/';
 // CONTACT_EMAIL_TIMEZONE if the recipient is ever somewhere else.
 const DEFAULT_TIMEZONE = 'Asia/Bangkok';
 
-const RECAPTCHA_ACTION = 'contact';
-const RECAPTCHA_MIN_SCORE = 0.5;
-const RECAPTCHA_VERIFY_URL = 'https://www.google.com/recaptcha/api/siteverify';
+const TURNSTILE_VERIFY_URL =
+  'https://challenges.cloudflare.com/turnstile/v0/siteverify';
 
 const MAX_NAME_LENGTH = 200;
 const MAX_EMAIL_LENGTH = 254;
@@ -144,7 +143,7 @@ function envReady() {
     process.env.RESEND_API_KEY &&
       process.env.CONTACT_EMAIL_FROM &&
       process.env.CONTACT_EMAIL_TO &&
-      process.env.RECAPTCHA_SITE_SECRET,
+      process.env.TURNSTILE_SECRET,
   );
 }
 
@@ -159,16 +158,16 @@ function fieldsWithinLimits(fields) {
   );
 }
 
-// Verifies a reCAPTCHA v3 token against Google's siteverify endpoint.
-// https://developers.google.com/recaptcha/docs/v3
-async function verifyRecaptcha(token, remoteIp) {
+// Verifies a Cloudflare Turnstile token against the siteverify endpoint.
+// https://developers.cloudflare.com/turnstile/get-started/server-side-validation/
+async function verifyTurnstile(token, remoteIp) {
   if (!token) {
     return { ok: false, reason: 'missing-token' };
   }
 
   const params = new URLSearchParams({
     response: token,
-    secret: process.env.RECAPTCHA_SITE_SECRET,
+    secret: process.env.TURNSTILE_SECRET,
   });
   if (remoteIp) {
     params.set('remoteip', remoteIp);
@@ -176,14 +175,14 @@ async function verifyRecaptcha(token, remoteIp) {
 
   let payload;
   try {
-    const verifyResponse = await fetch(RECAPTCHA_VERIFY_URL, {
+    const verifyResponse = await fetch(TURNSTILE_VERIFY_URL, {
       body: params.toString(),
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       method: 'POST',
     });
     payload = await verifyResponse.json();
   } catch (error) {
-    console.error('reCAPTCHA verification request failed.', error);
+    console.error('Turnstile verification request failed.', error);
     return { ok: false, reason: 'network-error' };
   }
 
@@ -194,17 +193,8 @@ async function verifyRecaptcha(token, remoteIp) {
       reason: 'verification-failed',
     };
   }
-  if (payload.action !== RECAPTCHA_ACTION) {
-    return { ok: false, reason: 'action-mismatch', score: payload.score };
-  }
-  if (
-    typeof payload.score === 'number' &&
-    payload.score < RECAPTCHA_MIN_SCORE
-  ) {
-    return { ok: false, reason: 'low-score', score: payload.score };
-  }
 
-  return { ok: true, score: payload.score };
+  return { ok: true };
 }
 
 export default async function handler(request, context) {
@@ -241,23 +231,22 @@ export default async function handler(request, context) {
 
   if (!envReady()) {
     console.error(
-      'Missing Resend/reCAPTCHA contact form environment variables.',
+      'Missing Resend/Turnstile contact form environment variables.',
     );
     return responsePayload(request, 500, 'error', MESSAGES.error);
   }
 
-  const recaptchaToken = textValue(formData, 'g-recaptcha-response');
-  const recaptchaResult = await verifyRecaptcha(recaptchaToken, context?.ip);
+  const turnstileToken = textValue(formData, 'cf-turnstile-response');
+  const turnstileResult = await verifyTurnstile(turnstileToken, context?.ip);
 
-  if (!recaptchaResult.ok) {
-    console.warn('reCAPTCHA check failed on contact form.', recaptchaResult);
+  if (!turnstileResult.ok) {
+    console.warn('Turnstile check failed on contact form.', turnstileResult);
     return responsePayload(request, 400, 'suspicious', MESSAGES.suspicious);
   }
 
   const payload = await resendPayload({
     ...fields,
     pageUrl: pageUrlFrom(request),
-    recaptchaScore: recaptchaResult.score,
     submittedAt: formatTimestamp(new Date()),
     userAgent: userAgentFrom(request),
   });

@@ -1,6 +1,6 @@
 // Free, dependency-free spam heuristics for the contact form. None of this
-// calls a paid API: it's a first line of defense alongside reCAPTCHA v3 and
-// the honeypot field.
+// calls a paid API: it's a first line of defense alongside Cloudflare
+// Turnstile and the honeypot field.
 
 const URL_PATTERN = /https?:\/\/|www\./gi;
 const MAX_URLS = 2;
