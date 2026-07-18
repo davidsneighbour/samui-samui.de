@@ -5,17 +5,26 @@
 // check lives in the caller (BaseHead) so this template stays a plain
 // top-level <script> — nesting one with an inline JS body inside a `{cond &&
 // (...)}` expression breaks Biome's Astro parser.
+import setup from '@data/setup.json';
+
+const { host: matomoHost, siteId: matomoSiteId } = setup.matomo;
 ---
 
-<script is:inline>
+<script
+  is:inline
+  define:vars={{ matomoHost, matomoSiteId }}
+>
   window._paq = window._paq || [];
   const _paq = window._paq;
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['setDoNotTrack', true]);
+  _paq.push(['disableCookies']);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (() => {
-    const u = '//analytics.dnbhub.xyz/';
+    const u = matomoHost;
     _paq.push(['setTrackerUrl', u + 'matomo.php']);
-    _paq.push(['setSiteId', '2']);
+    _paq.push(['setSiteId', matomoSiteId]);
     const d = document;
     const g = d.createElement('script');
     const s = d.getElementsByTagName('script')[0];
@@ -24,3 +33,13 @@
     s.parentNode.insertBefore(g, s);
   })();
 </script>
+<noscript>
+  <p>
+    <img
+      referrerpolicy="no-referrer-when-downgrade"
+      src={`${matomoHost}matomo.php?idsite=${matomoSiteId}&rec=1`}
+      style="border:0"
+      alt=""
+    >
+  </p>
+</noscript>

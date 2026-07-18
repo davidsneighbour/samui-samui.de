@@ -1,5 +1,9 @@
 {
   "description": "David's Neighbour's Notizen über sein Leben als Auswanderer auf der Insel Koh Samui in Thailand. Auf Deutsch, und so...",
+  "matomo": {
+    "host": "https://analytics.dnbhub.xyz/",
+    "siteId": "2"
+  },
   "pagination": {
     "slug": "seite"
   },
