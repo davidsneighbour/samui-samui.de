@@ -3,9 +3,9 @@ Developer: Patrick Kollitsch
 Site: https://davids-neighbour.com
 Twitter: https://twitter.com/davidsneighbour
 Location: Koh Samui, Thailand
-                            
+
 /* SITE */
-Last update: 2019/02/04
+Last update: 2026-07-18
 Standards: HTML5, CSS3, JavaScript
 Components: jQuery, FontAwesome, Bootstrap
 Software: Hugo, Node.js
