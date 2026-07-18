@@ -101,10 +101,8 @@
   font-style: normal;
   font-display: swap;
   src:
-    url("/assets/webfonts/400/regular/panton-regular-webfont.woff2")
-    format("woff2"),
-    url("/assets/webfonts/400/regular/panton-regular-webfont.woff")
-    format("woff");
+    url("/assets/webfonts/400/regular/panton-regular-webfont.woff2") format("woff2"),
+    url("/assets/webfonts/400/regular/panton-regular-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -113,10 +111,8 @@
   font-style: italic;
   font-display: swap;
   src:
-    url("/assets/webfonts/400/regular-italic/panton-regularitalic-webfont.woff2")
-    format("woff2"),
-    url("/assets/webfonts/400/regular-italic/panton-regularitalic-webfont.woff")
-    format("woff");
+    url("/assets/webfonts/400/regular-italic/panton-regularitalic-webfont.woff2") format("woff2"),
+    url("/assets/webfonts/400/regular-italic/panton-regularitalic-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -135,10 +131,8 @@
   font-style: normal;
   font-display: swap;
   src:
-    url("/assets/webfonts/700/extra-bold/panton-extrabold-webfont.woff2")
-    format("woff2"),
-    url("/assets/webfonts/700/extra-bold/panton-extrabold-webfont.woff")
-    format("woff");
+    url("/assets/webfonts/700/extra-bold/panton-extrabold-webfont.woff2") format("woff2"),
+    url("/assets/webfonts/700/extra-bold/panton-extrabold-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -165,5 +159,5 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
+  font-weight: 700;
 }
