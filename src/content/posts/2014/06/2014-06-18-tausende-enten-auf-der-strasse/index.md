@@ -9,9 +9,7 @@ dsq_thread_id:
 
 
 ---
-<div class="video-youtube embed-responsive-item" id="video-youtube-b26b3f7a71a06354d8d7504de147f4cb" data-video="//www.youtube.com/embed/OHviopSflwc?&loadvideo=&autohide=2&autoplay=1&rel=0&controls=2&color=red&modestbranding=1&iv_load_policy=3&theme=light&enablejsapi=1&origin=https://localhost">
-  <img src="/wp-content/imagecache/OHviopSflwc-hqdefault.jpg" alt="video preview" /><span class="video-youtube-play-icon" aria-label="Play this video"><i class="icon-play" aria-hidden="true"></i></span>
-</div>
+<iframe src="https://www.youtube-nocookie.com/embed/OHviopSflwc" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 Man kann ja so einiges auf den Straßen Thailands erleben, angefangen von Tieren (Ochsen, Hunden, Schlangen) die mehr oder weniger gemütlich die Straße entlang reisen, über Rostlauben die mit Seilen zusammen gehalten werden hin zu Mopeds mit 6 oder mehr Passagieren.
 
