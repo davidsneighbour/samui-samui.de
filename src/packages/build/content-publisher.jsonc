@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "yaml": "2.9.0"
+  },
+  "scripts": {
+    "publisher": "node src/scripts/publisher.ts"
+  }
+}

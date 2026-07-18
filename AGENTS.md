@@ -158,6 +158,24 @@ Defined in `src/content.config.ts`: `posts` (`src/content/posts/**/index.md`,
 `kontakt.md`, `suche.md`) and non-collection content (`feiertage/`, `sitewide/` —
 the latter is data-only, e.g. the author-bio footer wired into every post).
 
+Posts also carry an optional `publisher` frontmatter block — repo-internal
+editorial metadata (e.g. `status: need-work`), never rendered on the site. It
+exists so a human or an agent can tag a subset of the 20-year archive as a
+work queue ("go through everything tagged `need-work` and fix X") without
+inventing an external tracker for content-only cleanup. Manage it with
+`npm run publisher -- <command>` (`src/scripts/publisher.ts`) rather than
+hand-editing frontmatter across many files:
+
+```bash
+npm run publisher -- set status need-work --year=2005   # tag a batch
+npm run publisher -- list --status=need-work             # find the queue
+npm run publisher -- unset status --year=2005            # clear it
+```
+
+`set`/`unset` refuse to run without an explicit filter (`--all`, `--year`,
+`--path`, `--status`, `--tag`) — there is no accidental-blanket-write mode.
+See the script's header comment for the full filter/flag reference.
+
 ### Pages
 
 `src/pages/` has a route for every content type: `index.astro` (paginated

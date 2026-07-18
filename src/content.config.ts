@@ -7,6 +7,18 @@ const baseFrontmatter = z.object({
   title: z.string(),
 });
 
+// Repo-internal editorial metadata, never rendered on the site. `status` is a
+// free-form string (e.g. "ok", "need-work") rather than an enum, since the
+// values are just labels the `publisher` CLI script (src/scripts/publisher.ts)
+// and whoever is triaging content agree on ad hoc -- extra keys beyond
+// `status` are allowed for the same reason.
+const publisherFrontmatter = z
+  .object({
+    status: z.string().optional(),
+  })
+  .catchall(z.union([z.string(), z.number(), z.boolean()]))
+  .optional();
+
 const posts = defineCollection({
   loader: glob({ base: './src/content/posts', pattern: '**/index.md' }),
   schema: baseFrontmatter
@@ -16,6 +28,7 @@ const posts = defineCollection({
       featured_image: z.string().optional(),
       lastmod: z.coerce.date().optional(),
       leute: z.array(z.string()).optional(),
+      publisher: publisherFrontmatter,
       resources: z
         .array(
           z.object({
