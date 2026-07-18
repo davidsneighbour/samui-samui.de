@@ -227,8 +227,9 @@ const shouldFeaturePost = (index: number) =>
       </li>
     ))}
 </ul>
-{(previousPage || nextPage) && (
+{totalPages > 1 && (
     <Pagination
+      basePath={basePath}
       previousHref={previousPage}
       nextHref={nextPage}
       pageNumber={pageNumber}

@@ -1,35 +1,171 @@
 ---
-import Button from '@components/ui/button.astro';
+import { cn } from '@utils/cn';
 
 interface Props {
+  basePath?: string | undefined;
   previousHref?: string | undefined;
   nextHref?: string | undefined;
   pageNumber: number;
   totalPages: number;
 }
 
-const { previousHref, nextHref, pageNumber, totalPages } = Astro.props as Props;
+type PageItem =
+  | { type: 'page'; page: number }
+  | { type: 'ellipsis'; key: string };
+
+const normalizeBasePath = (path = '') => {
+  const trimmed = path.replace(/\/+$/, '');
+  if (!trimmed || trimmed === '/') return '';
+  return trimmed.startsWith('/') ? trimmed : `/${trimmed}`;
+};
+
+const ensureLeadingSlash = (path: string) =>
+  path.startsWith('/') ? path : `/${path}`;
+
+const getPageItems = (currentPage: number, pagesTotal: number): PageItem[] => {
+  const pages = new Set<number>();
+
+  pages.add(1);
+  pages.add(pagesTotal);
+
+  for (
+    let page = Math.max(1, currentPage - 1);
+    page <= Math.min(pagesTotal, currentPage + 1);
+    page += 1
+  ) {
+    pages.add(page);
+  }
+
+  if (currentPage <= 3) {
+    for (let page = 1; page <= Math.min(3, pagesTotal); page += 1) {
+      pages.add(page);
+    }
+  }
+
+  if (currentPage >= pagesTotal - 2) {
+    for (
+      let page = Math.max(1, pagesTotal - 2);
+      page <= pagesTotal;
+      page += 1
+    ) {
+      pages.add(page);
+    }
+  }
+
+  return [...pages]
+    .filter((page) => page >= 1 && page <= pagesTotal)
+    .sort((a, b) => a - b)
+    .reduce<PageItem[]>((items, page) => {
+      const previous = items.at(-1);
+
+      if (previous?.type === 'page' && page - previous.page > 1) {
+        if (page - previous.page === 2) {
+          items.push({ page: previous.page + 1, type: 'page' });
+        } else {
+          items.push({ key: `${previous.page}-${page}`, type: 'ellipsis' });
+        }
+      }
+
+      items.push({ page, type: 'page' });
+      return items;
+    }, []);
+};
+
+const {
+  basePath: rawBasePath,
+  previousHref,
+  nextHref,
+  pageNumber,
+  totalPages,
+} = Astro.props as Props;
+
+const basePath = normalizeBasePath(rawBasePath);
+const pageHref = (page: number) =>
+  ensureLeadingSlash(
+    page === 1 ? basePath || '/' : `${basePath}/seite/${page}/`,
+  );
+const pageItems = getPageItems(pageNumber, totalPages);
+
+const controlClass =
+  'inline-flex h-9 min-w-9 items-center justify-center gap-2 whitespace-nowrap rounded-[calc(var(--radius)-4px)] px-3 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2';
+const linkClass =
+  'text-card-foreground hover:bg-accent hover:text-accent-foreground';
+const activeClass = 'bg-primary text-primary-foreground hover:bg-primary/90';
+const disabledClass = 'pointer-events-none opacity-45';
 ---
 
 <nav
-  class="mt-8 flex items-center justify-between gap-4"
+  class="mx-auto mt-8 max-w-4xl px-4"
   aria-label="Seitennavigation"
 >
-  {previousHref ? (
-      <Button href={previousHref} variant="outline">
-        ← Neuere Beiträge
-      </Button>
-    ) : (
-      <span />
-    )}
-  <span class="text-sm text-muted-foreground">
-    Seite {pageNumber} / {totalPages}
-  </span>
-  {nextHref ? (
-      <Button href={nextHref} variant="outline">
-        Ältere Beiträge →
-      </Button>
-    ) : (
-      <span />
-    )}
+  <ul
+    class="flex flex-wrap items-center justify-center gap-2 rounded-(--radius) bg-card px-4 py-4 text-card-foreground sm:px-6"
+  >
+    <li>
+      {previousHref ? (
+          <a
+            href={previousHref}
+            class={cn(controlClass, linkClass)}
+            aria-label="Zu neueren Beiträgen"
+          >
+            <span aria-hidden="true">←</span>
+            <span class="hidden sm:inline">Neuere</span>
+          </a>
+        ) : (
+          <span
+            class={cn(controlClass, disabledClass)}
+            aria-disabled="true"
+          >
+            <span aria-hidden="true">←</span>
+            <span class="hidden sm:inline">Neuere</span>
+          </span>
+        )}
+    </li>
+
+    {pageItems.map((item) => (
+        <li>
+          {item.type === 'ellipsis' ? (
+              <span
+                class="inline-flex h-9 min-w-9 items-center justify-center px-2 text-sm text-muted-foreground"
+                aria-hidden="true"
+              >
+                ...
+              </span>
+            ) : (
+              <a
+                href={pageHref(item.page)}
+                class={cn(
+                  controlClass,
+                  item.page === pageNumber ? activeClass : linkClass,
+                )}
+                aria-current={item.page === pageNumber ? 'page' : undefined}
+                aria-label={`Seite ${item.page}`}
+              >
+                {item.page}
+              </a>
+            )}
+        </li>
+      ))}
+
+    <li>
+      {nextHref ? (
+          <a
+            href={nextHref}
+            class={cn(controlClass, linkClass)}
+            aria-label="Zu älteren Beiträgen"
+          >
+            <span class="hidden sm:inline">Ältere</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        ) : (
+          <span
+            class={cn(controlClass, disabledClass)}
+            aria-disabled="true"
+          >
+            <span class="hidden sm:inline">Ältere</span>
+            <span aria-hidden="true">→</span>
+          </span>
+        )}
+    </li>
+  </ul>
 </nav>
