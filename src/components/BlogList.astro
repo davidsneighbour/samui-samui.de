@@ -1,12 +1,11 @@
 ---
-import { type CollectionEntry, render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
 import FormattedDate from '@components/FormattedDate.astro';
 import PostCover from '@components/PostCover.astro';
 import Pagination from '@components/ui/pagination.astro';
 import Separator from '@components/ui/separator.astro';
 import { getPostCover } from '@utils/covers';
 import { getPostUrl as getCanonicalPostUrl } from '@utils/posts';
-import { proseClasses } from '@utils/prose';
 import { humanize, slugify } from '@utils/slugify';
 
 interface Props {
@@ -41,20 +40,41 @@ const nextPage =
 const getPostUrl = (post: CollectionEntry<'posts'>) =>
   ensureLeadingSlash(`${basePath}${getCanonicalPostUrl(post)}`);
 
-// The old Hugo site's home/list templates render each post's full content
-// (not a truncated summary), image included -- see
-// legacy/hugo:layouts/partials/content/content.html.
-const renderedPosts = await Promise.all(
-  posts.map(async (post) => ({
-    Content: (await render(post)).Content,
-    cover: getPostCover(post),
-    post,
-  })),
-);
+const stripMarkdownPreview = (value: string) =>
+  value
+    .replaceAll(/!\[[^\]]*\]\([^)]+\)/g, '')
+    .replaceAll(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replaceAll(/`([^`]+)`/g, '$1')
+    .replaceAll(/\*\*([^*]+)\*\*/g, '$1')
+    .replaceAll(/\*([^*]+)\*/g, '$1')
+    .replaceAll(/_{1,2}([^_]+)_{1,2}/g, '$1')
+    .replaceAll(/^#{1,6}\s+/gm, '')
+    .replaceAll(/^>\s?/gm, '')
+    .replaceAll(/\s+/g, ' ')
+    .trim();
+
+const getPostSummary = (post: CollectionEntry<'posts'>) => {
+  const frontmatterSummary = post.data.summary?.trim();
+  if (frontmatterSummary) return frontmatterSummary;
+
+  const description = post.data.description?.trim();
+  if (description) return description;
+
+  return (post.body ?? '')
+    .split(/\n{2,}/)
+    .map(stripMarkdownPreview)
+    .find(Boolean);
+};
+
+const listedPosts = posts.map((post) => ({
+  cover: getPostCover(post),
+  post,
+  summary: getPostSummary(post),
+}));
 ---
 
 <ul class="mx-auto flex max-w-4xl flex-col gap-8 px-4">
-  {renderedPosts.map(({ Content, cover, post }, index) => (
+  {listedPosts.map(({ cover, post, summary }, index) => (
       <li>
         {index > 0 && <Separator class="mb-8" />}
         <article class="rounded-(--radius) bg-card px-4 py-8 text-card-foreground sm:px-8">
@@ -94,9 +114,20 @@ const renderedPosts = await Promise.all(
               imageClass="block h-auto w-full rounded-(--radius)"
             />
           )}
-          <div class={proseClasses}>
-            <Content />
-          </div>
+          {summary && (
+            <p
+              class="mx-auto mb-4 max-w-none text-base leading-7 text-card-foreground"
+              set:html={summary}
+            />
+          )}
+          <p class="m-0">
+            <a
+              href={getPostUrl(post)}
+              class="text-link hover:underline"
+            >
+              Weiterlesen
+            </a>
+          </p>
         </article>
       </li>
     ))}

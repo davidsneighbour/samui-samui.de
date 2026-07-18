@@ -52,6 +52,7 @@ const posts = defineCollection({
           }),
         )
         .optional(),
+      summary: z.string().optional(),
       tags: z.array(z.string()).optional(),
       url: z.string().optional(),
       video: z.string().optional(),
