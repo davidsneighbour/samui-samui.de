@@ -76,6 +76,7 @@
   "scripts": {
     "astro": "astro",
     "astro:check": "astro check",
+    "blog:new": "node src/scripts/new-blog-post.ts",
     "build": "astro check && astro build --verbose",
     "check": "npm run format:check && npm run lint",
     "clean": "wireit",

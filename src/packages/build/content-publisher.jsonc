@@ -3,6 +3,7 @@
     "yaml": "2.9.0"
   },
   "scripts": {
+    "blog:new": "node src/scripts/new-blog-post.ts",
     "publisher": "node src/scripts/publisher.ts"
   }
 }
