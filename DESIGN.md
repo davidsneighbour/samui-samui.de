@@ -82,6 +82,18 @@ components:
     rounded: "{rounded.sm}"
     padding: 12px
     height: 36px
+  badge-secondary:
+    backgroundColor: "{colors.secondary}"
+    textColor: "{colors.secondary-foreground}"
+    rounded: "{rounded.sm}"
+    padding: 8px
+    height: 24px
+  badge-outline:
+    backgroundColor: transparent
+    textColor: currentColor
+    rounded: "{rounded.sm}"
+    padding: 8px
+    height: 24px
   card:
     backgroundColor: "{colors.card}"
     textColor: "{colors.card-foreground}"
@@ -241,6 +253,11 @@ sharp (0px) corners.
   `default` / `secondary` / `outline` / `ghost` / `link`, sizes
   `default` / `sm` / `lg`. See the `components.button-*` tokens above for
   the concrete color/radius/padding mapping per variant and size.
+* **Badge** (`src/components/ui/badge.astro`) — shadcn-style `cva`
+  component for compact labels and tag links. Tags use the `secondary`
+  variant so they read as badges on the cream card surface, with uppercase
+  labels supplied by `TagBadges.astro`; `outline`, `ghost`, and `link`
+  variants reuse existing `border`, `accent`, and `link` tokens.
 * **Card** — not a dedicated component file; the pattern (`bg-card`,
   `text-card-foreground`, `rounded-(--radius)`, `px-4 py-8 sm:px-8`) is
   repeated inline in `BlogList.astro`, `PageLayout.astro`, and

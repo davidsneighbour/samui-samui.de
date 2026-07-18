@@ -1,0 +1,55 @@
+---
+import { cn } from '@utils/cn';
+import type { HTMLAttributes } from 'astro/types';
+import { cva, type VariantProps } from 'class-variance-authority';
+
+export const badgeVariants = cva(
+  'inline-flex w-fit shrink-0 items-center justify-center gap-1 overflow-hidden whitespace-nowrap rounded-[calc(var(--radius)-4px)] border px-2 py-0.5 text-xs font-medium transition-[background-color,border-color,color,box-shadow] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 [&>svg]:pointer-events-none [&>svg]:size-3',
+  {
+    defaultVariants: {
+      variant: 'default',
+    },
+    variants: {
+      variant: {
+        default:
+          'border-transparent bg-primary text-primary-foreground hover:bg-primary/90',
+        ghost:
+          'border-transparent text-current hover:bg-accent hover:text-accent-foreground',
+        link: 'border-transparent text-link underline-offset-4 hover:underline',
+        outline:
+          'border-border bg-transparent text-current hover:bg-accent hover:text-accent-foreground',
+        secondary:
+          'border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/90',
+      },
+    },
+  },
+);
+
+type Variant = VariantProps<typeof badgeVariants>['variant'];
+
+interface Props extends Omit<HTMLAttributes<'a'>, 'class'> {
+  href?: string | undefined;
+  variant?: Variant | undefined;
+  class?: string | undefined;
+}
+
+const { href, variant, class: className, ...rest } = Astro.props as Props;
+const classes = cn(badgeVariants({ variant }), className);
+---
+
+{href ? (
+  <a
+    href={href}
+    class={classes}
+    {...rest}
+  >
+    <slot />
+  </a>
+) : (
+  <span
+    class={classes}
+    {...rest}
+  >
+    <slot />
+  </span>
+)}

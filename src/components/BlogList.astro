@@ -2,11 +2,11 @@
 import type { CollectionEntry } from 'astro:content';
 import FormattedDate from '@components/FormattedDate.astro';
 import PostCover from '@components/PostCover.astro';
+import TagBadges from '@components/TagBadges.astro';
 import Button from '@components/ui/button.astro';
 import Pagination from '@components/ui/pagination.astro';
 import { getPostCover } from '@utils/covers';
 import { getPostUrl as getCanonicalPostUrl } from '@utils/posts';
-import { humanize, slugify } from '@utils/slugify';
 
 interface Props {
   posts: CollectionEntry<'posts'>[];
@@ -114,25 +114,12 @@ const shouldFeaturePost = (index: number) =>
                     {post.data.title}
                   </a>
                 </h2>
-                <p class="m-0 mt-1 text-sm text-muted-foreground">
+                <div class="mt-2 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
                   <FormattedDate date={post.data.date} />
                   {post.data.tags && post.data.tags.length > 0 && (
-                    <>
-                      {' — '}
-                      {post.data.tags.map((tag, tagIndex) => (
-                        <>
-                          {tagIndex > 0 && ' / '}
-                          <a
-                            href={`/tags/${slugify(tag)}/`}
-                            class="text-link hover:underline"
-                          >
-                            {humanize(tag)}
-                          </a>
-                        </>
-                      ))}
-                    </>
+                    <TagBadges tags={post.data.tags} />
                   )}
-                </p>
+                </div>
               </header>
               {cover && (
                 <PostCover
@@ -183,25 +170,12 @@ const shouldFeaturePost = (index: number) =>
                         {post.data.title}
                       </a>
                     </h2>
-                    <p class="m-0 mt-1 text-sm text-muted-foreground">
+                    <div class="mt-2 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
                       <FormattedDate date={post.data.date} />
                       {post.data.tags && post.data.tags.length > 0 && (
-                        <>
-                          {' — '}
-                          {post.data.tags.map((tag, tagIndex) => (
-                            <>
-                              {tagIndex > 0 && ' / '}
-                              <a
-                                href={`/tags/${slugify(tag)}/`}
-                                class="text-link hover:underline"
-                              >
-                                {humanize(tag)}
-                              </a>
-                            </>
-                          ))}
-                        </>
+                        <TagBadges tags={post.data.tags} />
                       )}
-                    </p>
+                    </div>
                   </header>
                   {summary.map((paragraph) => (
                     <p

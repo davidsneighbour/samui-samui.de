@@ -1,0 +1,32 @@
+---
+import Badge from '@components/ui/badge.astro';
+import { cn } from '@utils/cn';
+import { humanize, slugify } from '@utils/slugify';
+
+interface Props {
+  tags: string[];
+  class?: string | undefined;
+}
+
+const { tags, class: className } = Astro.props as Props;
+const getTagLabel = (tag: string) => humanize(tag);
+const getTagBadgeLabel = (tag: string) =>
+  getTagLabel(tag).toLocaleUpperCase('de-DE');
+---
+
+<ul
+  class={cn('flex flex-wrap items-center gap-2', className)}
+  aria-label="Tags"
+>
+  {tags.map((tag) => (
+      <li>
+        <Badge
+          href={`/tags/${slugify(tag)}/`}
+          variant="secondary"
+          aria-label={`Beiträge zum Tag ${getTagLabel(tag)}`}
+        >
+          {getTagBadgeLabel(tag)}
+        </Badge>
+      </li>
+    ))}
+</ul>
