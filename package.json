@@ -121,7 +121,7 @@
     "pre-push": "npm run check"
   },
   "type": "module",
-  "version": "2025.0.0",
+  "version": "2.0.0",
   "wireit": {
     "clean": {
       "dependencies": [
