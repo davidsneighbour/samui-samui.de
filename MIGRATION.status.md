@@ -48,11 +48,11 @@ single post page that has no old-site equivalent, a deliberate improvement).
 Filed #720 for a pre-existing Matomo tracking script bug surfaced while
 testing the CSP (not caused by the CSP, not blocking).
 
-**Migration: Visual Parity milestone now active** (#692 parent): #706 (parity
-checks across route groups) is underway. A first pass found and fixed the
-tag/leute page title rendering with no spacing/typography above `BlogList`'s
-card (commit `07e2fb3d1bb3`). A second, systematic browser pass across every
-route group (home, post, leute, tags, archive, kontakt, suche,
+**Migration: Visual Parity milestone active** (#692 parent): #706 (parity
+checks across route groups) is done and closed. A first pass found and fixed
+the tag/leute page title rendering with no spacing/typography above
+`BlogList`'s card (commit `07e2fb3d1bb3`). A second, systematic browser pass
+across every route group (home, post, leute, tags, archive, kontakt, suche,
 datenschutzerklaerung, 404) on 2026-07-18 found and fixed two more gaps: the
 contact form's Name/Email/Nachricht fields rendering with zero visible
 styling (no border/background under Tailwind preflight,
@@ -70,8 +70,13 @@ already used for the other 31 YouTube embeds. Two other broken-looking
 patterns (`2010-02-01-ong-bak-3-teaser`'s plain link and
 `2009-07-13-panda`'s empty `<div class="flex-video">`) were checked against
 `legacy/hugo` and confirmed pre-existing on the original site (bug-for-bug
-parity), so left untouched. Issue #705 (screenshot-based parity workflow)
-has not been started yet.
+parity), so left untouched. The pass's one remaining open item — the search
+page's Pagefind results referencing build-time asset hashes that 404 under
+`astro dev` (a dev-vs-build path mismatch, not a real bug, confirmed working
+against a full `npm run build`) — was resolved by site-owner decision: search
+results don't need parity with the old site. Issue #705 (screenshot-based
+parity workflow) is a separate, still-open sibling under #692 and has not
+been started yet.
 
 Resolved means `done + removed`.
 
