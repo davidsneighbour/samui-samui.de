@@ -28,33 +28,27 @@ tracked in `MIGRATION.status.md`.**
   closed): all Hugo shortcode types converted, zero raw `{{<`/`{{%` left.
   Inventory gap done (#688 closed): feiertage/sitewide route questions
   resolved from their own Hugo front matter.
-* Open GitHub issues: 11, across 4 milestones (see below) plus 3 unmilestoned
+* Open GitHub issues: 9, across 2 milestones (see below) plus 6 unmilestoned
   cross-cutting issues.
 * Label taxonomy (`type:*`, `status:*`, `prio:*`, `resolution:*`, `meta:*`) is set
   up and in active use — see `AGENTS.md` for the full table.
-* Project health: 4 open Dependabot PRs pending review (#674 pagefind, #677
-  nanoid, #681 postcss, #714 npm_and_yarn group) — routine dependency
-  maintenance is automated, not tracked as issues. GitHub also reports 42
-  Dependabot security alerts (21 high, 17 moderate, 4 low) on `main` as of
-  2026-07-18 — not yet triaged into issues.
+* Project health: `npm run astro:check` passes clean (0 errors, 0 warnings) on
+  `main` as of 2026-07-18. 4 open Dependabot PRs pending review (#674
+  pagefind, #677 nanoid, #681 postcss, #714 npm_and_yarn group) — routine
+  dependency maintenance is automated, not tracked as issues. GitHub also
+  reports 42 Dependabot security alerts (21 high, 17 moderate, 4 low) on
+  `main` as of 2026-07-18 — not yet triaged into issues.
 
 ## Open issues by milestone
-
-### Migration: content parity
-
-* #691 Migrate current content and route surface to Astro (parent/tracking)
 
 ### Migration: visual parity
 
 * #692 Verify visual and behavioral parity (parent/tracking)
 * #705 Screenshot-based parity workflow
-* #706 Parity checks across route groups
 
 ### Migration: cleanup
 
 * #693 Clean up legacy migration leftovers after parity (parent/tracking)
-* #708 Cleanup: remove unused static/admin CMS boilerplate
-* #709 Fix or remove stale Netlify deployment config
 
 ### Migration: post-parity improvements
 
@@ -68,11 +62,29 @@ tracked in `MIGRATION.status.md`.**
   (`prio:low` — export already backed up in `scratch/`, needs an import
   approach; attribution scheme and skip rules for spam/deleted comments
   already confirmed in the issue's comments)
-* #718 Configure Astro dev server to run over HTTPS (`prio:low` — confirmed
-  purpose: LAN/device testing on a dev-only server, per the issue's comments)
+* #720 Matomo tracking script throws "Assignment to constant variable" on
+  Astro pages (`prio:low` — found while verifying #709's CSP against preview
+  deploys; not a CSP issue, throws inside Matomo's own minified `matomo.js`
+  loaded verbatim from the old Hugo site's `src/components/Analytics.astro`)
+* #721 Replace Google Maps privacy-policy section with a non-Google map
+  solution (`prio:low` — stale boilerplate text, no actual Maps embed exists
+  in the Astro site; owner decision 2026-07-18 was to migrate to a Leaflet/
+  OpenStreetMap embed rather than just delete the text)
+* #722 Google reCAPTCHA: disclose in privacy policy or replace with a
+  non-Google alternative (`prio:medium` — real gap: `ContactForm.astro` +
+  `netlify/functions/contact.mjs` use reCAPTCHA v3 but
+  `datenschutzerklaerung.md` has no mention of it at all)
 
 ## Recently closed migration issues
 
+* #691 Migrate current content and route surface to Astro (parent/tracking)
+  — closed 2026-07-18, all 9 content-parity sub-issues complete.
+* #706 Parity checks across route groups — closed, recorded in
+  `MIGRATION.status.md`.
+* #708 Cleanup: remove unused static/admin CMS boilerplate — closed.
+* #709 Fix or remove stale Netlify deployment config — closed, minimal
+  `netlify.toml` with CSP landed.
+* #718 Configure Astro dev server to run over HTTPS — closed.
 * #716 Visual redesign — shadcn/ui adopted, old site's colors used as
   WCAG-checked inspiration (the shadcn theme preset from `TODO.md` explicitly
   rejected per user decision), Panton webfont wired in, Header/Footer/
@@ -118,17 +130,17 @@ None currently open.
 
 ## Recommended next steps
 
-1. #717 and #718 are both low-priority and already have their clarification
-   questions answered in-issue — either can be implemented next.
-2. Address Cleanup issues (#708, #709) opportunistically — #709 now has a
-   minimal `netlify.toml` but still needs the Netlify site connection
-   confirmed and headers/CSP decided if wanted.
+1. #722 (reCAPTCHA privacy-policy disclosure) is `prio:medium` and
+   independently actionable — either disclose reCAPTCHA usage or swap it for
+   a non-Google alternative.
+2. #717, #720, #721 are all low-priority with clarification already resolved
+   in-issue — any can be picked up next.
 3. Review and merge the 4 open Dependabot PRs opportunistically (routine
    maintenance, no scope decision needed).
 4. The 42 Dependabot security alerts GitHub reports on `main` haven't been
    triaged — worth a `dnb-osv-scan`-style pass or at least a look at the
    Security tab to see whether any are exploitable in this static site's
    actual usage (vs. build-time-only tooling).
-5. #692/#693/#694/#695/#705/#706/#691 remain parent/tracking or deferred
-   issues without independent next actions of their own — no action needed
-   until their sub-scope changes.
+5. #692/#693/#694/#695/#705 remain parent/tracking or deferred issues
+   without independent next actions of their own — no action needed until
+   their sub-scope changes.
