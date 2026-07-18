@@ -22,7 +22,7 @@ const getTagBadgeLabel = (tag: string) =>
       <li>
         <Badge
           href={`/tags/${slugify(tag)}/`}
-          variant="secondary"
+          variant="muted"
           aria-label={`Beiträge zum Tag ${getTagLabel(tag)}`}
         >
           {getTagBadgeLabel(tag)}
