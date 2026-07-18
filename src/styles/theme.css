@@ -62,6 +62,8 @@
 
   --border: #d7c9b1;
   --ring: #b8402f;
+
+  --masthead-tagline: #6b2438;
 }
 
 .dark {
@@ -89,6 +91,8 @@
 
   --border: #d9d3ba;
   --ring: #b8402f;
+
+  --masthead-tagline: #e2e2b6;
 }
 
 @font-face {

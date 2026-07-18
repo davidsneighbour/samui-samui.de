@@ -22,6 +22,7 @@ colors:
   link: "#b8402f"
   border: "#d9d3ba"
   ring: "#b8402f"
+  masthead-tagline: "#e2e2b6"
 typography:
   brand-masthead:
     fontFamily: Panton
@@ -177,28 +178,26 @@ theme. The complete mode matrix in `src/styles/theme.css` is:
 | `link` | `#8f2f24` | `#b8402f` | Body-text links. Both are darkened coral values selected for readable small text on the active `card` color. |
 | `border` | `#d7c9b1` | `#d9d3ba` | Card/input borders. |
 | `ring` | `#b8402f` | `#b8402f` | Focus ring — matches the contrast-safe coral family, not always `primary`, for small UI readability. |
+| `masthead-tagline` | `#6b2438` | `#e2e2b6` | Masthead description text in `Header.astro`. Dark mode keeps the exact legacy `.blogdescription` color; light mode uses a deeper maroon so the small viewport-scaled text remains readable on parchment. |
 
-**Note on lint warnings:** `design.md lint` flags `muted`, `border`, and
-`ring` as "never referenced by any component." This is expected, not a
-gap to fix: `border`/`ring` have no matching slot in the DESIGN.md
-component-token schema (`component_sub_tokens` doesn't define a border
-or ring-color property), so they're used directly as Tailwind utilities
-(`border-border`, `ring-ring`) rather than through a `components.*`
-mapping; `muted` is currently identical in value to `accent` (`#e5dfc7`)
-and only `accent` is actually used as a component background today —
-`muted` itself is only ever paired with `muted-foreground` as text, never
-as a fill.
+**Note on lint warnings:** `design.md lint` flags `border`, `ring`, and
+`masthead-tagline` as "never referenced by any component." This is
+expected, not a gap to fix: `border`/`ring` have no matching slot in the
+DESIGN.md component-token schema (`component_sub_tokens` doesn't define
+a border or ring-color property), so they're used directly as Tailwind
+utilities (`border-border`, `ring-ring`) rather than through a
+`components.*` mapping; `masthead-tagline` is a component-specific CSS
+variable used by `Header.astro`, and the schema has no dedicated field
+for this bespoke masthead text color.
 
 **Theme persistence:** `BaseHead.astro` owns the inline script that reads
 and writes `localStorage["samui-theme"]`. Only `light` and `dark` are
 valid stored values; missing or invalid values fall back to `dark`.
 
-**Known gap:** the masthead tagline (`.masthead__tagline` in `Header.astro`)
-uses a hardcoded `#e2e2b6`, not a theme token. This is intentional —
-it's the exact value from the live site's `.blogdescription` rule, and
-`muted` (`#e5dfc7`) is close but not identical. Don't "fix" this by
-swapping in `muted` without checking against the live site first; see
-Do's and Don'ts.
+**Masthead tagline:** `.masthead__tagline` in `Header.astro` uses the
+dedicated `--masthead-tagline` variable. The dark value (`#e2e2b6`) is
+the exact legacy `.blogdescription` color; the light value (`#6b2438`)
+is intentionally darker for contrast on the light page background.
 
 ## Typography
 
@@ -325,9 +324,9 @@ sharp (0px) corners.
 * **Do** treat the live site
   ([https://samui-samui.de](https://samui-samui.de)) as the source of
   truth when a token's exact value is ambiguous from code alone — several
-  values here (masthead breakpoints, the `#e2e2b6` tagline color) were
-  recovered by diffing the deployed theme's compiled CSS, not from any
-  design file.
+  values here (masthead breakpoints, the dark-mode `#e2e2b6` tagline
+  color) were recovered by diffing the deployed theme's compiled CSS,
+  not from any design file.
 * **Do** update this document in the same commit/PR whenever a token in
   `theme.css`, `Header.astro`'s masthead styles, or `button.astro`'s
   `cva` config changes. A stale DESIGN.md is worse than none.
@@ -338,9 +337,9 @@ sharp (0px) corners.
   without checking actual usage first (`grep -rn "rounded-\|gap-\|px-\|py-" src`)
   — this document favors recording what's real over prescribing what's
   ideal.
-* **Don't** "fix" the masthead tagline's hardcoded `#e2e2b6` by
-  replacing it with the `muted` token — they're visually close but not
-  equal, and the hardcoded value is the one that matches the live site.
+* **Don't** replace the dark masthead tagline value (`#e2e2b6`) with the
+  `muted` token — they're visually close but not equal, and `#e2e2b6`
+  is the one that matches the live site.
 * **Don't** add `box-shadow` / elevation utilities; this design is
   intentionally flat.
 * **Don't** bold headings inside post content — regular weight (400) on
