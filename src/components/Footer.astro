@@ -1,10 +1,20 @@
 ---
+import { Copyright } from '@lucide/astro';
+
 const today = new Date();
 ---
 
 <footer
   class="border-t border-foreground/10 bg-background px-4 py-10 text-center text-sm text-foreground/60"
 >
-  &copy; 2005 bis {today.getFullYear()} Patrick Kollitsch. Alle Rechte
-  vorbehalten.
+  <p class="m-0 inline-flex flex-wrap items-center justify-center gap-1.5">
+    <Copyright
+      aria-hidden="true"
+      class="size-4 shrink-0"
+    />
+    <span class="sr-only">Copyright</span>
+    <span>
+      2005 bis {today.getFullYear()} Patrick Kollitsch. Alle Rechte vorbehalten.
+    </span>
+  </p>
 </footer>

@@ -1,4 +1,6 @@
 ---
+import { Construction, X } from '@lucide/astro';
+
 // Old-school "under construction" banner. Dismissal is stored in
 // localStorage only (no cookies) and re-shown on every visit until the
 // user explicitly closes it.
@@ -17,63 +19,15 @@ const message =
         aria-hidden="true"
       ></div>
       <p class="construction-banner__message">
-        <svg
+        <Construction
           class="construction-banner__icon"
           aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <rect
-            x="2"
-            y="6"
-            width="20"
-            height="8"
-            rx="1"
-          ></rect>
-          <path d="M17 14v7"></path>
-          <path d="M7 14v7"></path>
-          <path d="M17 3v3"></path>
-          <path d="M7 3v3"></path>
-          <path d="M10 14 2.3 6.3"></path>
-          <path d="m14 6 7.7 7.7"></path>
-          <path d="m8 6 8 8"></path>
-        </svg>
+        />
         <span>{message}</span>
-        <svg
+        <Construction
           class="construction-banner__icon"
           aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <rect
-            x="2"
-            y="6"
-            width="20"
-            height="8"
-            rx="1"
-          ></rect>
-          <path d="M17 14v7"></path>
-          <path d="M7 14v7"></path>
-          <path d="M17 3v3"></path>
-          <path d="M7 3v3"></path>
-          <path d="M10 14 2.3 6.3"></path>
-          <path d="m14 6 7.7 7.7"></path>
-          <path d="m8 6 8 8"></path>
-        </svg>
+        />
       </p>
       <button
         type="button"
@@ -81,21 +35,10 @@ const message =
         class="construction-banner__close"
         aria-label="Hinweis schließen"
       >
-        <svg
+        <X
           aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          width="18"
-          height="18"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <path d="M18 6 6 18"></path>
-          <path d="m6 6 12 12"></path>
-        </svg>
+          class="construction-banner__close-icon"
+        />
       </button>
       <div
         class="construction-banner__stripes"
@@ -192,6 +135,8 @@ const message =
 
   .construction-banner__icon {
     flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
   }
 
   @media (min-width: 640px) {
@@ -211,6 +156,12 @@ const message =
     border-left: 1px dashed currentColor;
     color: inherit;
     cursor: pointer;
+  }
+
+  .construction-banner__close-icon {
+    width: 1.125rem;
+    height: 1.125rem;
+    flex-shrink: 0;
   }
 
   .construction-banner__close:hover,

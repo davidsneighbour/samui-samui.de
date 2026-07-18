@@ -288,8 +288,9 @@ sharp (0px) corners.
   extraction but does not exist yet — don't assume one when reading
   those files.
 * **HeaderLink** (`src/components/HeaderLink.astro`) — nav links with a
-  2px transparent bottom border that turns `primary`-colored (and the
-  text weight jumps to 700) when active or hovered.
+  Lucide icon plus text label, spaced inline with a 2px transparent
+  bottom border that turns `primary`-colored (and the text weight jumps
+  to 700) when active or hovered.
 * **Masthead** (`src/components/Header.astro`) — see Typography and
   Layout above; the site's one genuinely bespoke, non-utility-driven
   component.
