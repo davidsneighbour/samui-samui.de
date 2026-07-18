@@ -85,10 +85,19 @@ const hero = featured_image ?? heroImage;
         <div class="px-4 py-8 sm:px-8">
           <div class="mb-8 text-center">
             <p class="mb-2 text-sm text-muted-foreground">
-              {publishedOn && <FormattedDate date={publishedOn} />}
+              {publishedOn && (
+                <FormattedDate
+                  date={publishedOn}
+                  extended
+                />
+              )}
               {updatedOn && (
                   <span class="block italic">
-                    Last updated on <FormattedDate date={updatedOn} />
+                    Zuletzt aktualisiert am{' '}
+                    <FormattedDate
+                      date={updatedOn}
+                      extended
+                    />
                   </span>
                 )}
             </p>

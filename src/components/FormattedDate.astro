@@ -1,15 +1,12 @@
 ---
+import { formatDate } from '@utils/dates';
+
 interface Props {
   date: Date;
+  extended?: boolean;
 }
 
-const { date } = Astro.props;
+const { date, extended = false } = Astro.props as Props;
 ---
 
-<time datetime={date.toISOString()}>
-  {date.toLocaleDateString("en-us", {
-      day: "numeric",
-      month: "short",
-      year: "numeric",
-    })}
-</time>
+<time datetime={date.toISOString()}>{formatDate(date, { extended })}</time>

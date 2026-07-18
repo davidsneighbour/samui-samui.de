@@ -1,9 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import PageLayout from '@layouts/PageLayout.astro';
+import { formatMonthLong } from '@utils/dates';
 import { getPostUrl } from '@utils/posts';
-
-const monthFormatter = new Intl.DateTimeFormat('de-DE', { month: 'long' });
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -43,14 +42,14 @@ const sortedMonths = [...months.entries()].sort(([a], [b]) => a - b);
   {sortedMonths.map(([month, monthPosts]) => (
       <section class="mb-6">
         <strong class="mb-2 block text-card-foreground">
-          {monthFormatter.format(new Date(Date.UTC(year, month, 1)))}{' '}
+          {formatMonthLong(new Date(Date.UTC(year, month, 1)))}{' '}
           {year}
         </strong>
         <ul class="space-y-1">
           {monthPosts.map((post) => (
             <li class="text-muted-foreground">
               {post.data.date.getUTCDate()}.{' '}
-              {monthFormatter.format(post.data.date)} {year} -{' '}
+              {formatMonthLong(post.data.date)} {year} -{' '}
               <a
                 href={getPostUrl(post)}
                 class="text-link hover:underline"
