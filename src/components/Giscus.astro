@@ -8,8 +8,9 @@
 // a quiet no-op (giscus shows its own "not installed" notice) until then.
 const repo = 'davidsneighbour/samui-samui.de';
 const repoId = 'MDEwOlJlcG9zaXRvcnkxNjI5NzM3MTA=';
-const category = 'Announcements';
-const categoryId = 'DIC_kwDOCbbIDs4DBYYi';
+const category = 'Kommentare';
+const categoryId = 'DIC_kwDOCbbIDs4DBbj1';
+const theme = 'https://giscus.app/themes/custom_example.css';
 ---
 
 <dnb-giscus
@@ -18,10 +19,13 @@ const categoryId = 'DIC_kwDOCbbIDs4DBYYi';
   data-category={category}
   data-category-id={categoryId}
   data-mapping="pathname"
-  data-lang="de"
+  data-strict="0"
+  data-lang="en"
   data-reactions-enabled="1"
-  data-emit-metadata="0"
+  data-emit-metadata="1"
   data-input-position="bottom"
+  data-theme={theme}
+  data-loading="lazy"
 ></dnb-giscus>
 
 <script>
@@ -49,12 +53,6 @@ const categoryId = 'DIC_kwDOCbbIDs4DBYYi';
         return DnbGiscus.#observer;
       }
 
-      getTheme(): string {
-        return window.matchMedia('(prefers-color-scheme: dark)').matches
-          ? 'dark'
-          : 'light';
-      }
-
       loadGiscus(): void {
         if (this.#initialised || this.hasAttribute('data-initialised')) return;
 
@@ -67,11 +65,13 @@ const categoryId = 'DIC_kwDOCbbIDs4DBYYi';
           'data-emit-metadata': ds.emitMetadata ?? '0',
           'data-input-position': ds.inputPosition ?? 'bottom',
           'data-lang': ds.lang ?? 'de',
+          'data-loading': ds.loading ?? 'lazy',
           'data-mapping': ds.mapping ?? 'pathname',
           'data-reactions-enabled': ds.reactionsEnabled ?? '1',
           'data-repo': ds.repo ?? '',
           'data-repo-id': ds.repoId ?? '',
-          'data-theme': this.getTheme(),
+          'data-strict': ds.strict ?? '0',
+          'data-theme': ds.theme ?? 'light',
           src: 'https://giscus.app/client.js',
         };
 
