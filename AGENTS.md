@@ -24,7 +24,10 @@ at [https://samui-samui.de](https://samui-samui.de).
 ## Change tracking
 
 * Every change MUST be committed. Uncommitted work MUST NOT be left behind as the
-  end state of a task.
+  end state of a task. This repository has a single developer (the repo owner) —
+  agents MUST commit finished work autonomously, without pausing to ask for
+  confirmation before the commit itself; there is no second party whose work could
+  be clobbered by an unreviewed commit landing on `main`.
 * Every commit MUST reference the GitHub issue it addresses (e.g. `closes #123`,
   `see #123`) and explain *why* the change was made, not just what changed.
 * Every open point of work — bug, follow-up, decision, question — MUST be tracked as
