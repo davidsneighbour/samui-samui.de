@@ -29,9 +29,24 @@ only manual, non-blocking operational steps left (Netlify env vars for the
 contact form, installing the giscus GitHub App; both tracked as a checklist in
 `MIGRATION.md`, not as open code gaps). Shared asset parity (#701), redirects
 (#703), the 260-post raw-Hugo-shortcode content-fidelity gap (#715), visual
-identity (#716), and the feiertage/sitewide inventory gap (#688) are all
-resolved. **Not yet done:** Netlify deployment config still needs the site
-connection confirmed and headers/CSP decided (#709).
+identity (#716), the feiertage/sitewide inventory gap (#688), and Netlify
+deployment config (#709, closed 2026-07-18 — site connection confirmed via
+`netlify status`, security headers + a resource-audited CSP added to
+`netlify.toml`, verified clean against 4 iterative preview deploys) are all
+resolved.
+
+Two more content/UX gaps found and fixed 2026-07-18, reported directly by the
+site owner rather than found via a parity pass: the home/list feed
+(`BlogList.astro`) only ever rendered title/date/tags, never the post's
+image or body text — matched against the live site's actual Hugo templates
+(`layouts/index.html` renders full `.Content`, not a summary) and reworked
+to a single-column feed of full post cards; and all dates were formatted in
+English (`Jan 10, 2025`) despite the rest of the site being German — fixed
+via a shared `src/utils/dates.ts` (German long month names, `10. Januar
+2025`, plus a new `um 14:23 Uhr`-suffixed extended variant used on the
+single post page that has no old-site equivalent, a deliberate improvement).
+Filed #720 for a pre-existing Matomo tracking script bug surfaced while
+testing the CSP (not caused by the CSP, not blocking).
 
 **Migration: Visual Parity milestone now active** (#692 parent): #706 (parity
 checks across route groups) is underway. A first pass found and fixed the
@@ -62,7 +77,7 @@ Resolved means `done + removed`.
 
 | Done | In progress | Untouched | Removed | Total | Resolved |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 16 | 1 | 0 | 1 | 18 | 94% |
+| 17 | 0 | 0 | 1 | 18 | 100% |
 
 ## Status values
 
@@ -97,7 +112,7 @@ Resolved means `done + removed`.
 | Redirects | done | #703 | No real historical redirects exist anywhere (no `aliases:` front matter, no configured `dnb.netlification.redirects` beyond dev boilerplate) — the original WordPress→Hugo migration preserved exact URLs via `url:` front matter instead, already replicated by `getPostUrl()`. Added `src/pages/404.astro`, which didn't exist at all. |
 | Widgets/embeds (giscus, YouTube, OpenSearch, PWA, Matomo, schema.org JSON-LD, social) | done | #704 | Matomo analytics done (`src/components/Analytics.astro`, gated to production builds via `import.meta.env.PROD`). OpenSearch done (`src/pages/opensearch.xml.ts` + `<link rel="search">` in `BaseHead.astro`); the old site's own descriptor pointed at a 404'd `/search/` URL, fixed here to the real `/suche/?q=` path, and `suche.astro` now reads `?q=` and calls Pagefind's `triggerSearch()`. PWA manifest done (`<link rel="manifest">` + theme-color meta in `BaseHead.astro`, pointing at the already-restored `public/images/favicon/site.webmanifest`) — the old site's own Hugo "pwa" module output was a broken manifest with every field empty, not worth porting. Giscus done (`src/components/Giscus.astro`, wired into `BlogPost.astro`), adapted from `kollitsch.dev`'s reference; GitHub Discussions enabled on the repo; still needs the giscus GitHub App installed (manual step, see `MIGRATION.md`). Social sharing done (`src/components/SocialShare.astro`, Facebook + Twitter share links matching the live site's exact URL/param format, wired into `BlogPost.astro`). Schema.org JSON-LD: investigated, nothing to migrate — the old site's "schema" Hugo module was front-matter build-time validation (`assets/config/schema/frontmatter.schema.json`), not structured-data output; the live site emits no `application/ld+json` anywhere. YouTube embeds done — 31 occurrences converted to `<iframe>` embeds as part of #715 (closed), which covered this alongside its other raw-shortcode-conversion work (figure, quote, gallery, languagelink, ref). |
 | `/admin` (Decap/Netlify CMS) | **removed** | #708 | Confirmed unconfigured boilerplate; dropped from parity target. |
-| Netlify deployment config | in progress | #709 | A minimal `netlify.toml` now exists (build command + functions directory, added alongside the contact form) — still needs confirming the Netlify site is actually connected to this repo, and headers/CSP are undecided. |
+| Netlify deployment config | done | #709 | Site connection confirmed (`netlify status`), `netlify.toml` has build command, functions directory, security headers, and a resource-audited CSP -- verified clean against 4 iterative preview deploys covering every route group and third-party embed. |
 
 ## Accepted disparities
 
