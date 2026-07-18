@@ -1,8 +1,10 @@
 ---
 import { type CollectionEntry, render } from 'astro:content';
 import FormattedDate from '@components/FormattedDate.astro';
+import PostCover from '@components/PostCover.astro';
 import Pagination from '@components/ui/pagination.astro';
 import Separator from '@components/ui/separator.astro';
+import { getPostCover } from '@utils/covers';
 import { getPostUrl as getCanonicalPostUrl } from '@utils/posts';
 import { proseClasses } from '@utils/prose';
 import { humanize, slugify } from '@utils/slugify';
@@ -43,12 +45,16 @@ const getPostUrl = (post: CollectionEntry<'posts'>) =>
 // (not a truncated summary), image included -- see
 // legacy/hugo:layouts/partials/content/content.html.
 const renderedPosts = await Promise.all(
-  posts.map(async (post) => ({ Content: (await render(post)).Content, post })),
+  posts.map(async (post) => ({
+    Content: (await render(post)).Content,
+    cover: getPostCover(post),
+    post,
+  })),
 );
 ---
 
 <ul class="mx-auto flex max-w-4xl flex-col gap-8 px-4">
-  {renderedPosts.map(({ Content, post }, index) => (
+  {renderedPosts.map(({ Content, cover, post }, index) => (
       <li>
         {index > 0 && <Separator class="mb-8" />}
         <article class="rounded-(--radius) bg-card px-4 py-8 text-card-foreground sm:px-8">
@@ -81,12 +87,11 @@ const renderedPosts = await Promise.all(
               )}
             </p>
           </header>
-          {post.data.featured_image && (
-            <img
-              src={post.data.featured_image}
-              alt={post.data.title}
-              loading="lazy"
-              class="mb-4 w-full rounded-(--radius)"
+          {cover && (
+            <PostCover
+              cover={cover}
+              figureClass="mb-4"
+              imageClass="block h-auto w-full rounded-(--radius)"
             />
           )}
           <div class={proseClasses}>

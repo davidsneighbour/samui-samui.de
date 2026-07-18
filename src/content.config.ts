@@ -19,10 +19,24 @@ const publisherFrontmatter = z
   .catchall(z.union([z.string(), z.number(), z.boolean()]))
   .optional();
 
+const bundledCoverFrontmatter = z
+  .object({
+    src: z
+      .string()
+      .refine(
+        (src) => src === '' || (!src.includes('/') && !src.includes('\\')),
+        'Cover src must be a file name in the same folder as the post index.md.',
+      ),
+    title: z.string(),
+    type: z.literal('image'),
+  })
+  .optional();
+
 const posts = defineCollection({
   loader: glob({ base: './src/content/posts', pattern: '**/index.md' }),
   schema: baseFrontmatter
     .extend({
+      cover: bundledCoverFrontmatter,
       date: z.coerce.date(),
       dsq_thread_id: z.array(z.union([z.string(), z.number()])).optional(),
       featured_image: z.string().optional(),

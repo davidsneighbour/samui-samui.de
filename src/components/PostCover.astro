@@ -1,0 +1,50 @@
+---
+import { Picture } from 'astro:assets';
+import type { ResolvedPostCover } from '@utils/covers';
+
+interface Props {
+  captionClass?: string;
+  cover: ResolvedPostCover;
+  eager?: boolean;
+  figureClass?: string;
+  imageClass?: string;
+  sizes?: string;
+}
+
+const {
+  captionClass = 'mt-2 text-center text-xs text-muted-foreground',
+  cover,
+  eager = false,
+  figureClass = 'm-0',
+  imageClass = 'block h-auto w-full',
+  sizes = '(min-width: 896px) 896px, 100vw',
+} = Astro.props as Props;
+
+const loading = eager ? 'eager' : 'lazy';
+const optimizedSrc = typeof cover.src === 'string' ? undefined : cover.src;
+const fallbackSrc = typeof cover.src === 'string' ? cover.src : cover.src.src;
+---
+
+<figure class={figureClass}>
+  {cover.optimized && optimizedSrc ? (
+    <Picture
+      src={optimizedSrc}
+      alt={cover.alt}
+      formats={['avif', 'webp']}
+      widths={[640, 750, 828, 1080, 1280]}
+      sizes={sizes}
+      loading={loading}
+      decoding="async"
+      class={imageClass}
+    />
+  ) : (
+    <img
+      src={fallbackSrc}
+      alt={cover.alt}
+      loading={loading}
+      decoding="async"
+      class={imageClass}
+    />
+  )}
+  {cover.title && <figcaption class={captionClass}>{cover.title}</figcaption>}
+</figure>

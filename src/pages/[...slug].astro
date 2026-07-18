@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BlogPost from '@layouts/BlogPost.astro';
+import { getPostCover } from '@utils/covers';
 import { getPostUrl } from '@utils/posts';
 
 export async function getStaticPaths() {
@@ -16,11 +17,13 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+const cover = getPostCover(post);
 ---
 
 <BlogPost
   title={post.data.title}
   description={post.data.description}
+  cover={cover}
   date={post.data.date}
   lastmod={post.data.lastmod}
   featured_image={post.data.featured_image}
