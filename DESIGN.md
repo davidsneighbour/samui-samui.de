@@ -277,8 +277,10 @@ sharp (0px) corners.
   uppercase at weight 600, supports `h1`/`h2`, and offers default
   (`text-3xl sm:text-4xl`) and compact (`text-2xl`) sizes.
 * **BlogPostMeta** (`src/components/BlogPostMeta.astro`) — shared metadata
-  row beneath post titles. It owns published/updated dates, optional tag
-  badges, and start/center alignment for list cards vs. single-post pages.
+  row beneath post titles. It owns published/updated dates and optional tag
+  badges. The row stacks left-aligned date and tags on small screens, then
+  places dates on the left and tag badges on the right from the `sm`
+  breakpoint upward.
 * **Card** — not a dedicated component file; the pattern (`bg-card`,
   `text-card-foreground`, `rounded-(--radius)`, `px-4 py-8 sm:px-8`) is
   repeated inline in `BlogList.astro`, `PageLayout.astro`, and

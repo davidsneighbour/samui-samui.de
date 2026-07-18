@@ -8,7 +8,6 @@ interface Props {
   updatedDate?: Date | undefined;
   tags?: string[] | undefined;
   extended?: boolean | undefined;
-  align?: 'start' | 'center' | undefined;
   class?: string | undefined;
 }
 
@@ -17,36 +16,44 @@ const {
   updatedDate,
   tags,
   extended = false,
-  align = 'start',
   class: className,
 } = Astro.props as Props;
 const hasTags = tags && tags.length > 0;
+const hasDates = date || updatedDate;
 const hasMeta = date || updatedDate || hasTags;
 ---
 
 {hasMeta && (
   <div
     class={cn(
-      'flex flex-wrap items-center gap-2 text-sm text-muted-foreground',
-      align === 'center' && 'justify-center',
+      'flex flex-col items-start gap-2 text-left text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between sm:gap-4',
       className,
     )}
   >
-    {date && (
-      <FormattedDate
-        date={date}
-        extended={extended}
+    {hasDates && (
+      <div class="flex flex-col items-start gap-1">
+        {date && (
+          <FormattedDate
+            date={date}
+            extended={extended}
+          />
+        )}
+        {updatedDate && (
+          <span class="italic">
+            Zuletzt aktualisiert am{' '}
+            <FormattedDate
+              date={updatedDate}
+              extended={extended}
+            />
+          </span>
+        )}
+      </div>
+    )}
+    {hasTags && (
+      <TagBadges
+        tags={tags}
+        class="sm:justify-end"
       />
     )}
-    {updatedDate && (
-      <span class="italic">
-        Zuletzt aktualisiert am{' '}
-        <FormattedDate
-          date={updatedDate}
-          extended={extended}
-        />
-      </span>
-    )}
-    {hasTags && <TagBadges tags={tags} />}
   </div>
 )}
