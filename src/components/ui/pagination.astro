@@ -1,4 +1,5 @@
 ---
+import { ArrowLeftToLine, ArrowRightToLine, Ellipsis } from '@lucide/astro';
 import { cn } from '@utils/cn';
 
 interface Props {
@@ -108,7 +109,10 @@ const disabledClass = 'pointer-events-none opacity-45';
             class={cn(controlClass, linkClass)}
             aria-label="Zu neueren Beiträgen"
           >
-            <span aria-hidden="true">←</span>
+            <ArrowLeftToLine
+              aria-hidden="true"
+              class="size-4"
+            />
             <span class="hidden sm:inline">Neuere</span>
           </a>
         ) : (
@@ -116,7 +120,10 @@ const disabledClass = 'pointer-events-none opacity-45';
             class={cn(controlClass, disabledClass)}
             aria-disabled="true"
           >
-            <span aria-hidden="true">←</span>
+            <ArrowLeftToLine
+              aria-hidden="true"
+              class="size-4"
+            />
             <span class="hidden sm:inline">Neuere</span>
           </span>
         )}
@@ -129,7 +136,7 @@ const disabledClass = 'pointer-events-none opacity-45';
                 class="inline-flex h-9 min-w-9 items-center justify-center px-2 text-sm text-muted-foreground"
                 aria-hidden="true"
               >
-                ...
+                <Ellipsis class="size-4" />
               </span>
             ) : (
               <a
@@ -155,7 +162,10 @@ const disabledClass = 'pointer-events-none opacity-45';
             aria-label="Zu älteren Beiträgen"
           >
             <span class="hidden sm:inline">Ältere</span>
-            <span aria-hidden="true">→</span>
+            <ArrowRightToLine
+              aria-hidden="true"
+              class="size-4"
+            />
           </a>
         ) : (
           <span
@@ -163,7 +173,10 @@ const disabledClass = 'pointer-events-none opacity-45';
             aria-disabled="true"
           >
             <span class="hidden sm:inline">Ältere</span>
-            <span aria-hidden="true">→</span>
+            <ArrowRightToLine
+              aria-hidden="true"
+              class="size-4"
+            />
           </span>
         )}
     </li>
