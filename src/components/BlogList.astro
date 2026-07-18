@@ -1,8 +1,10 @@
 ---
-import type { CollectionEntry } from 'astro:content';
+import { type CollectionEntry, render } from 'astro:content';
 import FormattedDate from '@components/FormattedDate.astro';
 import Pagination from '@components/ui/pagination.astro';
+import Separator from '@components/ui/separator.astro';
 import { getPostUrl as getCanonicalPostUrl } from '@utils/posts';
+import { proseClasses } from '@utils/prose';
 import { humanize, slugify } from '@utils/slugify';
 
 interface Props {
@@ -36,59 +38,69 @@ const nextPage =
 
 const getPostUrl = (post: CollectionEntry<'posts'>) =>
   ensureLeadingSlash(`${basePath}${getCanonicalPostUrl(post)}`);
+
+// The old Hugo site's home/list templates render each post's full content
+// (not a truncated summary), image included -- see
+// legacy/hugo:layouts/partials/content/content.html.
+const renderedPosts = await Promise.all(
+  posts.map(async (post) => ({ Content: (await render(post)).Content, post })),
+);
 ---
 
-<section
-  class="mx-auto max-w-5xl rounded-(--radius) bg-card px-4 py-8 text-card-foreground sm:px-8"
->
-  <ul class="flex flex-wrap gap-8">
-    {posts.map((post, index) => (
-        <li class:list={["group", index === 0 ? "w-full text-center" : "w-full sm:w-[calc(50%-1rem)]"]}>
-          <a href={getPostUrl(post)} class="block">
-            {post.data.featured_image && (
-              <img
-                src={post.data.featured_image}
-                alt={post.data.title}
-                loading="lazy"
-                class:list={["mb-2 rounded-(--radius) transition-shadow group-hover:shadow-lg", index === 0 ? "w-full" : "w-full"]}
-              />
-            )}
-            <h4
-              class:list={[
-                "m-0 leading-tight text-card-foreground group-hover:text-link",
-                index === 0 ? "text-3xl sm:text-4xl" : "text-xl",
-              ]}
-            >
-              {post.data.title}
-            </h4>
-            <p class="m-0 text-muted-foreground group-hover:text-link">
-              <FormattedDate date={post.data.date} />
-            </p>
-          </a>
-          {post.data.tags && post.data.tags.length > 0 && (
+<ul class="mx-auto flex max-w-4xl flex-col gap-8 px-4">
+  {renderedPosts.map(({ Content, post }, index) => (
+      <li>
+        {index > 0 && <Separator class="mb-8" />}
+        <article class="rounded-(--radius) bg-card px-4 py-8 text-card-foreground sm:px-8">
+          <header class="mb-4">
+            <h2 class="m-0 text-2xl leading-tight sm:text-3xl">
+              <a
+                href={getPostUrl(post)}
+                class="hover:text-link"
+              >
+                {post.data.title}
+              </a>
+            </h2>
             <p class="m-0 mt-1 text-sm text-muted-foreground">
-              {post.data.tags.map((tag, index) => (
+              <FormattedDate date={post.data.date} />
+              {post.data.tags && post.data.tags.length > 0 && (
                 <>
-                  {index > 0 && ' / '}
-                  <a
-                    href={`/tags/${slugify(tag)}/`}
-                    class="text-link hover:underline"
-                  >
-                    {humanize(tag)}
-                  </a>
+                  {' — '}
+                  {post.data.tags.map((tag, tagIndex) => (
+                    <>
+                      {tagIndex > 0 && ' / '}
+                      <a
+                        href={`/tags/${slugify(tag)}/`}
+                        class="text-link hover:underline"
+                      >
+                        {humanize(tag)}
+                      </a>
+                    </>
+                  ))}
                 </>
-              ))}
+              )}
             </p>
+          </header>
+          {post.data.featured_image && (
+            <img
+              src={post.data.featured_image}
+              alt={post.data.title}
+              loading="lazy"
+              class="mb-4 w-full rounded-(--radius)"
+            />
           )}
-        </li>
-      ))}
-  </ul>
-  {(previousPage || nextPage) && (
-      <Pagination
-        previousHref={previousPage}
-        nextHref={nextPage}
-        pageNumber={pageNumber}
-        totalPages={totalPages}
-      />
-    )}
-</section>
+          <div class={proseClasses}>
+            <Content />
+          </div>
+        </article>
+      </li>
+    ))}
+</ul>
+{(previousPage || nextPage) && (
+    <Pagination
+      previousHref={previousPage}
+      nextHref={nextPage}
+      pageNumber={pageNumber}
+      totalPages={totalPages}
+    />
+  )}
