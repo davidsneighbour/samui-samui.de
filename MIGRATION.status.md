@@ -34,10 +34,29 @@ resolved. **Not yet done:** Netlify deployment config still needs the site
 connection confirmed and headers/CSP decided (#709).
 
 **Migration: Visual Parity milestone now active** (#692 parent): #706 (parity
-checks across route groups) is underway — one styling gap found and fixed so
-far (tag/leute page title rendering with no spacing/typography above
-`BlogList`'s card, commit `07e2fb3d1bb3`). #705 (screenshot-based parity
-workflow) has not been started yet.
+checks across route groups) is underway. A first pass found and fixed the
+tag/leute page title rendering with no spacing/typography above `BlogList`'s
+card (commit `07e2fb3d1bb3`). A second, systematic browser pass across every
+route group (home, post, leute, tags, archive, kontakt, suche,
+datenschutzerklaerung, 404) on 2026-07-18 found and fixed two more gaps: the
+contact form's Name/Email/Nachricht fields rendering with zero visible
+styling (no border/background under Tailwind preflight,
+`src/components/ContactForm.astro`) — restyled using the existing
+`--color-border`/`--color-ring`/`(--radius)` theme tokens and the
+`buttonVariants()` helper from `ui/button.astro` — and 4 posts
+(`2014-06-09-heute-vor-68-jahren`, `2014-06-16-schwerter-und-federkiele`,
+`2014-06-18-tausende-enten-auf-der-strasse`, `2014-12-31-diesem-sinne-2`)
+using a raw WordPress-era `<div class="video-youtube">` lazy-load pattern
+that issue #715 missed (distinct from the Hugo `{{< youtube >}}` shortcode
+syntax that issue covered) — no CSS/JS ever implemented this class in the
+Hugo source either (confirmed via `legacy/hugo`), so it rendered a dead
+click-to-play thumbnail; converted to the same working `<iframe>` pattern
+already used for the other 31 YouTube embeds. Two other broken-looking
+patterns (`2010-02-01-ong-bak-3-teaser`'s plain link and
+`2009-07-13-panda`'s empty `<div class="flex-video">`) were checked against
+`legacy/hugo` and confirmed pre-existing on the original site (bug-for-bug
+parity), so left untouched. Issue #705 (screenshot-based parity workflow)
+has not been started yet.
 
 Resolved means `done + removed`.
 
