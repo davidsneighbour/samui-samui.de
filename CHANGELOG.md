@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.0.0...v2.1.0) (2026-07-18)
+
+### Feat
+
+* **release:** add content(new)/content(fix) release scopes ([f3b764e](https://github.com/davidsneighbour/samui-samui.de/commit/f3b764e385b958a01563e50ac171f2b7c1a8fd4e))
+
 ## [2.0.0](https://github.com/davidsneighbour/samui-samui.de/compare/v1.2024.7...v2.0.0) (2026-07-18)
 
 ### Feat
