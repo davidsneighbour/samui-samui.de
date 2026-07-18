@@ -28,8 +28,11 @@ tracked in `MIGRATION.status.md`.**
   closed): all Hugo shortcode types converted, zero raw `{{<`/`{{%` left.
   Inventory gap done (#688 closed): feiertage/sitewide route questions
   resolved from their own Hugo front matter.
-* Open GitHub issues: 9, across 2 milestones (see below) plus 6 unmilestoned
-  cross-cutting issues.
+* Open GitHub issues: 7, across 2 milestones (see below) plus 6 unmilestoned
+  cross-cutting issues. Visual/behavioral parity is now considered verified
+  (#692 closed) — the manual route-group pass (#706) covered the real gaps;
+  an automated screenshot-diff workflow (#705) was closed as not needed per
+  owner decision (exact pixel parity with the old site isn't the goal).
 * Label taxonomy (`type:*`, `status:*`, `prio:*`, `resolution:*`, `meta:*`) is set
   up and in active use — see `AGENTS.md` for the full table.
 * Project health: `npm run astro:check` passes clean (0 errors, 0 warnings) on
@@ -40,11 +43,6 @@ tracked in `MIGRATION.status.md`.**
   `main` as of 2026-07-18 — not yet triaged into issues.
 
 ## Open issues by milestone
-
-### Migration: visual parity
-
-* #692 Verify visual and behavioral parity (parent/tracking)
-* #705 Screenshot-based parity workflow
 
 ### Migration: cleanup
 
@@ -77,6 +75,15 @@ tracked in `MIGRATION.status.md`.**
 
 ## Recently closed migration issues
 
+* #692 Verify visual and behavioral parity (parent/tracking) — closed
+  2026-07-18, both sub-issues resolved (#706 done, #705 closed as not
+  needed).
+* #705 Screenshot-based parity workflow — closed 2026-07-18, not built per
+  owner decision: exact pixel parity with the old site isn't the goal, the
+  manual pass (#706) already covers the real gaps. Its scratch conversion
+  scripts (`convert-figure.mjs`, `convert-gallery-quote.mjs`,
+  `convert-youtube.mjs`) were confirmed already-applied (zero shortcodes
+  remain in `src/content/posts/`) and deleted.
 * #691 Migrate current content and route surface to Astro (parent/tracking)
   — closed 2026-07-18, all 9 content-parity sub-issues complete.
 * #706 Parity checks across route groups — closed, recorded in
@@ -141,6 +148,10 @@ None currently open.
    triaged — worth a `dnb-osv-scan`-style pass or at least a look at the
    Security tab to see whether any are exploitable in this static site's
    actual usage (vs. build-time-only tooling).
-5. #692/#693/#694/#695/#705 remain parent/tracking or deferred issues
-   without independent next actions of their own — no action needed until
-   their sub-scope changes.
+5. #693/#694/#695 remain parent/tracking or deferred issues without
+   independent next actions of their own — no action needed until their
+   sub-scope changes. Note: #693 (cleanup of legacy migration leftovers) is
+   now unblocked since parity is accepted — worth a pass to check for
+   remaining Hugo-specific scaffolding (e.g. stale `HUGO-COMPATIBILITY.md`
+   references in `AGENTS.md`/`README.md`/`PROJECT.md`/`ROADMAP.md` even
+   though the file itself was already deleted).

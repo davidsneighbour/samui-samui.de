@@ -48,7 +48,7 @@ single post page that has no old-site equivalent, a deliberate improvement).
 Filed #720 for a pre-existing Matomo tracking script bug surfaced while
 testing the CSP (not caused by the CSP, not blocking).
 
-**Migration: Visual Parity milestone active** (#692 parent): #706 (parity
+**Migration: Visual Parity milestone complete** (#692 parent, closed): #706 (parity
 checks across route groups) is done and closed. A first pass found and fixed
 the tag/leute page title rendering with no spacing/typography above
 `BlogList`'s card (commit `07e2fb3d1bb3`). A second, systematic browser pass
@@ -75,8 +75,9 @@ page's Pagefind results referencing build-time asset hashes that 404 under
 `astro dev` (a dev-vs-build path mismatch, not a real bug, confirmed working
 against a full `npm run build`) — was resolved by site-owner decision: search
 results don't need parity with the old site. Issue #705 (screenshot-based
-parity workflow) is a separate, still-open sibling under #692 and has not
-been started yet.
+parity workflow) was closed without being built — owner decision (2026-07-18):
+exact pixel parity with the old site isn't the goal, and the manual pass
+above already covers the real gaps. #692 closed as complete.
 
 Resolved means `done + removed`.
 
