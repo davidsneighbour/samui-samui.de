@@ -1,10 +1,11 @@
 ---
-title: Feiertage in Thailand 2025
-description: Erfahre alles über die Feiertage in Thailand 2025, ihre kulturelle Bedeutung und wie sie deinen Urlaub beeinflussen können. Tipps und Highlights für eine gelungene Reise…
-date: 2024-12-22T15:02:43+07:00
+title: The White Lotus Trailer
+description: The White Lotus Staffel 3 spielt auf Koh Samui und startet am 16. Februar 2025. Gedreht wurde im Four Seasons. Trailer jetzt verfügbar!
+date: 2024-12-22T16:39:41+07:00
 tags:
-  - feiertage
+  - video
   - thailand
+  - fernsehen
 lastmod: 2025-09-18T3:05:08+00:00
 ---
 
