@@ -9,23 +9,32 @@ hand-editing it.
 
 * The Astro migration is complete. The site is now a static Astro project
   deployed on Netlify at [https://samui-samui.de](https://samui-samui.de).
-* Open GitHub issues: 7 as of 2026-07-20.
-* The `/archiv/` and `/tags/` feature milestone (issues #903-#917) is nearly
-  done: #903-#914, #916, and #917 are all closed. Only
-  [#915](https://github.com/davidsneighbour/samui-samui.de/issues/915) (SEO
-  pass) remains, unblocked on its dependencies.
-* **#917 closed (2026-07-20):** final visual review and milestone close-out
-  verified as in scope.
-* **#916 closed (2026-07-20):** real-browser accessibility & responsive
-  review of `/archiv/`, `/archiv/[year]/` (incl. 400+-post years), and
-  `/tags/` found no blocking defects -- native `<details>/<summary>`
-  disclosures, correct heading hierarchy, no color-contrast violations once
-  measured against the actual card background (an early check against
-  `document.body`'s background gave false positives), 200%-zoom reflow
-  clean, 48px touch targets. One follow-up filed:
-  [#928](https://github.com/davidsneighbour/samui-samui.de/issues/928)
-  (site-wide missing skip-to-content link, low priority, not archive-specific).
-* **Dependency PR triage (this session):** 8 open Dependabot PRs were
+* Open GitHub issues: 6 as of 2026-07-20.
+* **The `/archiv/` and `/tags/` feature milestone (issues #903-#917) is fully
+  closed.** All fourteen issues landed:
+  * #903-#914 -- audit, archive/tags pages, breadcrumbs, cross-linking,
+    Pagefind facets, DESIGN.md tokens, accordion primitive, Vitest runner
+    (prior sessions).
+  * **#916 closed (2026-07-20):** real-browser accessibility & responsive
+    review of `/archiv/`, `/archiv/[year]/` (incl. 400+-post years), and
+    `/tags/` found no blocking defects -- native `<details>/<summary>`
+    disclosures, correct heading hierarchy, no color-contrast violations once
+    measured against the actual effective background (an early check against
+    `document.body`'s background gave false positives -- content sits inside
+    a `.bg-card` container), clean 200%-zoom reflow, 48px touch targets. One
+    follow-up filed: [#928](https://github.com/davidsneighbour/samui-samui.de/issues/928)
+    (site-wide missing skip-to-content link, low priority, not
+    archive-specific).
+  * **#915 closed (2026-07-20):** added `public/robots.txt` and an
+    `@astrojs/sitemap` `filter` excluding `/seite/[seite]/` pagination pages
+    (thin duplicates of content already indexed elsewhere) -- sitemap URL
+    count dropped from 2374 to 2272, exactly matching the 102 excluded
+    pages. No canonical-strategy change needed since #910 decided against
+    building `/archiv/[year]/[month]/` routes. Documented in
+    `documentation/archiv.md`.
+  * **#917 closed (2026-07-20):** final visual review and milestone
+    close-out verified as in scope.
+* **Dependency PR triage (prior session):** 8 open Dependabot PRs were
   reviewed. 7 merged after local verification (build + `astro:check` +
   `npm test` against each, not just the repo's CodeQL/WIP checks, which don't
   actually run the build):
@@ -34,10 +43,6 @@ hand-editing it.
     usage in `src` today, so low risk), #923/#924 tailwindcss +
     `@tailwindcss/vite` 4.1.17 -> 4.3.2, #925 `@pagefind/default-ui` 1.4.0 ->
     1.5.2.
-  * The `src/packages/*.jsonc` dependency-version fragments (which
-    `compile:package` regenerates root `package.json` from) were synced
-    afterward via `npm run compile:package:update` so the next regeneration
-    doesn't silently revert these bumps.
   * **#920 (typescript 5.9.3 -> 7.0.2) was NOT merged** — `npm ci` fails
     outright because `@astrojs/check@0.9.9` (drives `astro:check`) only
     supports `typescript@^5.0.0 || ^6.0.0`. Commented on the PR and filed
@@ -48,15 +53,15 @@ hand-editing it.
     confirmed via `npm ls brace-expansion` (now 5.0.7) and GitHub's
     Dependabot alerts API (advisory no longer listed as open).
 * No unprocessed scratchpad notes remain in `TODO.md`.
-* Local health checks on 2026-07-19 (after all merges above):
+* Local health checks on 2026-07-20 (after the #915 sitemap/robots.txt work):
   * `npm run check` passes: Biome format/lint and markdownlint report no errors.
   * `npm run astro:check` passes with 0 errors, 0 warnings, 57 existing
     `ts(6385)` Zod deprecation hints.
   * `npm test` passes (4 tests).
-  * `npm run build` completes cleanly (2375 pages, sitemap + Pagefind index).
+  * `npm run build` completes cleanly (2374 pages, sitemap + Pagefind index).
   * One open Dependabot security alert remains: markdown-it (moderate),
     tracked by #747.
-* **Garuda footer (this session):** [#926](https://github.com/davidsneighbour/samui-samui.de/issues/926)
+* **Garuda footer (prior session):** [#926](https://github.com/davidsneighbour/samui-samui.de/issues/926)
   closed. The old `garuda.png` had its background baked in for the *old*
   footer's flat grey, with alpha only on the empty top half. Derived a
   properly alpha-masked artwork from the 4x-upscaled source (color-keyed the
@@ -78,15 +83,13 @@ hand-editing it.
   new) - PR #920 breaks `npm ci`; either wait for `@astrojs/check` to support
   TS 7, or bump to the still-compatible `6.0.3` instead.
 
-## Archive & tags feature milestone (#903-#917)
+## Accessibility
 
-* [#915](https://github.com/davidsneighbour/samui-samui.de/issues/915) SEO pass:
-  robots.txt, sitemap filtering, canonical strategy (`prio:medium`,
-  `status:confirmed`) - unblocked (#903 and #910 both resolved); needs
-  `public/robots.txt` and a sitemap `filter` in `astro.config.ts`. Last open
-  issue in this milestone.
-* Accessibility review (#916) and close-out (#917) are both done; the
-  milestone is fully closed once #915 lands.
+* [#928](https://github.com/davidsneighbour/samui-samui.de/issues/928) Add
+  skip-to-content link for keyboard users (`prio:low`, `status:confirmed`) -
+  site-wide gap found during the #916 review; no skip link exists anywhere
+  in `Header.astro`/layouts, so every page requires tabbing through the full
+  nav before reaching main content.
 
 ## Content and design
 
@@ -102,14 +105,6 @@ hand-editing it.
   historical Disqus comments into Giscus/GitHub Discussions (`prio:low`,
   `status:blocked`) - data migration remains blocked until the import approach,
   attribution handling, and Giscus production setup are ready.
-
-## Accessibility
-
-* [#928](https://github.com/davidsneighbour/samui-samui.de/issues/928) Add
-  skip-to-content link for keyboard users (`prio:low`, `status:confirmed`) -
-  site-wide gap found during the #916 review; no skip link exists anywhere
-  in `Header.astro`/layouts, so every page requires tabbing through the full
-  nav before reaching main content.
 
 ## Editorial tooling
 
@@ -135,18 +130,16 @@ hand-editing it.
 
 1. Handle [#747](https://github.com/davidsneighbour/samui-samui.de/issues/747)
    as the only remaining high-priority security issue.
-2. Finish the archive milestone: [#915](https://github.com/davidsneighbour/samui-samui.de/issues/915)
-   is the only issue left; the milestone closes once it lands.
+2. Pick up [#928](https://github.com/davidsneighbour/samui-samui.de/issues/928)
+   (skip-to-content link) as a small, low-risk site-wide a11y fix.
 3. Decide the TypeScript path for
    [#927](https://github.com/davidsneighbour/samui-samui.de/issues/927) (wait
    for upstream support vs. bump to 6.0.3).
 4. Continue [#898](https://github.com/davidsneighbour/samui-samui.de/issues/898)
    (already in progress).
-5. Pick up [#928](https://github.com/davidsneighbour/samui-samui.de/issues/928)
-   (skip-to-content link) as a small, low-risk site-wide a11y fix.
-6. Decide the scope for
+5. Decide the scope for
    [#745](https://github.com/davidsneighbour/samui-samui.de/issues/745) before
    implementation, because the right fix depends on whether this should happen in
    the editor, pre-commit flow, or a content-cleanup script.
-7. Resume [#717](https://github.com/davidsneighbour/samui-samui.de/issues/717)
+6. Resume [#717](https://github.com/davidsneighbour/samui-samui.de/issues/717)
    once the comment platform setup and migration/import plan are unblocked.
