@@ -121,3 +121,5 @@ component's JavaScript.
   specifically [`lite-vimeo.ts`](https://github.com/slightlyoff/lite-vimeo/blob/master/lite-vimeo.ts).
 * Demonstrated in
   [`src/content/posts/2021/03/thailand-vermisst-dich/index.md`](../src/content/posts/2021/03/thailand-vermisst-dich/index.md).
+* See also [`documentation/youtube.md`](youtube.md) for the sibling
+  component this one shares its shape with.
