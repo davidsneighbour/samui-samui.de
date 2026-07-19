@@ -2,9 +2,9 @@
 # samui-samui.de
 
 [![Netlify](https://img.shields.io/netlify/49963b4d-bb9f-411f-a9b8-521a5e3a2b42?color=%2300AD9F&logo=netlify&style=for-the-badge)](https://app.netlify.com/sites/samui-samui-de/deploys)
-![samui-samui.de website status](https://img.shields.io/website?url=https%3A%2F%2Fsamui-samui.de&style=for-the-badge)
-![Latest GitHub release](https://img.shields.io/github/v/release/davidsneighbour/samui-samui.de?color=%23ed1965&logo=github&logoColor=%23ffffff&style=for-the-badge)
-![Latest commit](https://img.shields.io/github/last-commit/davidsneighbour/samui-samui.de?color=%23ff7700&logo=github&style=for-the-badge)
+[![samui-samui.de website status](https://img.shields.io/website?url=https%3A%2F%2Fsamui-samui.de&style=for-the-badge)](https://samui-samui.de)
+[![Latest GitHub release](https://img.shields.io/github/v/release/davidsneighbour/samui-samui.de?color=%23ed1965&logo=github&logoColor=%23ffffff&style=for-the-badge)](https://github.com/davidsneighbour/samui-samui.de/releases/latest)
+[![Latest commit](https://img.shields.io/github/last-commit/davidsneighbour/samui-samui.de?color=%23ff7700&logo=github&style=for-the-badge)](https://github.com/davidsneighbour/samui-samui.de/commits/main)
 ![Repository size](https://img.shields.io/github/repo-size/davidsneighbour/samui-samui.de?logo=github&style=for-the-badge)
 [![Open GitHub issues](https://img.shields.io/github/issues/davidsneighbour/samui-samui.de?logo=github&style=for-the-badge)](https://github.com/davidsneighbour/samui-samui.de/issues)
 [![Discord community](https://img.shields.io/discord/936261002306125847?logo=discord&style=for-the-badge)](https://discord.gg/mMEVuwyne)
