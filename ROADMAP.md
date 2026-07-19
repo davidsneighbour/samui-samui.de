@@ -9,30 +9,44 @@ hand-editing it.
 
 * The Astro migration is complete. The site is now a static Astro project
   deployed on Netlify at [https://samui-samui.de](https://samui-samui.de).
-* Open GitHub issues: 9 as of 2026-07-19 (down from 13).
+* Open GitHub issues: 8 as of 2026-07-19 (down from 13 at the start of today).
 * The `/archiv/` and `/tags/` feature milestone (issues #903-#917) is nearly
-  done: #903-#914 are all closed. The four issues that were unblocked
-  (#910, #911, #913, #914) shipped in this session:
-  * [#914](https://github.com/davidsneighbour/samui-samui.de/issues/914) -
-    `/tags/` added to header nav, deep-pagination prompt toward `/archiv/`.
-  * [#913](https://github.com/davidsneighbour/samui-samui.de/issues/913) -
-    Pagefind year/tag facets on `/suche/`.
-  * [#910](https://github.com/davidsneighbour/samui-samui.de/issues/910) -
-    decided against separate `/archiv/[year]/[month]/` routes; documented in
-    `documentation/archiv.md` (year-page month anchors are the retained
-    implementation).
-  * [#911](https://github.com/davidsneighbour/samui-samui.de/issues/911) -
-    new `Breadcrumbs.astro` component + `BreadcrumbList` JSON-LD, wired into
-    `/archiv/`, `/archiv/[year]/`, and `/tags/[slug]/`.
-  * Only [#915](https://github.com/davidsneighbour/samui-samui.de/issues/915)
-    (SEO pass), [#916](https://github.com/davidsneighbour/samui-samui.de/issues/916)
-    (a11y review), and [#917](https://github.com/davidsneighbour/samui-samui.de/issues/917)
-    (close-out) remain, all now unblocked on their dependencies.
+  done: #903-#914 are all closed (see prior session notes). Only
+  [#915](https://github.com/davidsneighbour/samui-samui.de/issues/915) (SEO
+  pass), [#916](https://github.com/davidsneighbour/samui-samui.de/issues/916)
+  (a11y review), and [#917](https://github.com/davidsneighbour/samui-samui.de/issues/917)
+  (close-out) remain, all unblocked on their dependencies.
+* **Dependency PR triage (this session):** 8 open Dependabot PRs were
+  reviewed. 7 merged after local verification (build + `astro:check` +
+  `npm test` against each, not just the repo's CodeQL/WIP checks, which don't
+  actually run the build):
+  * #918 sharp 0.34.5 -> 0.35.3, #919 wireit 0.14.12 -> 0.14.13, #921 cspell
+    9.3.2 -> 10.0.1, #922 @astrojs/react 5.0.7 -> 6.0.1 (major; no `.tsx`/React
+    usage in `src` today, so low risk), #923/#924 tailwindcss +
+    `@tailwindcss/vite` 4.1.17 -> 4.3.2, #925 `@pagefind/default-ui` 1.4.0 ->
+    1.5.2.
+  * The `src/packages/*.jsonc` dependency-version fragments (which
+    `compile:package` regenerates root `package.json` from) were synced
+    afterward via `npm run compile:package:update` so the next regeneration
+    doesn't silently revert these bumps.
+  * **#920 (typescript 5.9.3 -> 7.0.2) was NOT merged** — `npm ci` fails
+    outright because `@astrojs/check@0.9.9` (drives `astro:check`) only
+    supports `typescript@^5.0.0 || ^6.0.0`. Commented on the PR and filed
+    [#927](https://github.com/davidsneighbour/samui-samui.de/issues/927) to
+    track the follow-up.
+  * [#750](https://github.com/davidsneighbour/samui-samui.de/issues/750)
+    (brace-expansion DoS) closed as a side effect of the wireit merge —
+    confirmed via `npm ls brace-expansion` (now 5.0.7) and GitHub's
+    Dependabot alerts API (advisory no longer listed as open).
 * No unprocessed scratchpad notes remain in `TODO.md`.
-* Local health checks on 2026-07-19:
+* Local health checks on 2026-07-19 (after all merges above):
   * `npm run check` passes: Biome format/lint and markdownlint report no errors.
-  * `npm run astro:check` passes with 0 errors, 0 warnings, and 58 existing
-    `ts(6385)` Zod deprecation hints in `src/content.config.ts`.
+  * `npm run astro:check` passes with 0 errors, 0 warnings, 57 existing
+    `ts(6385)` Zod deprecation hints.
+  * `npm test` passes (4 tests).
+  * `npm run build` completes cleanly (2375 pages, sitemap + Pagefind index).
+  * One open Dependabot security alert remains: markdown-it (moderate),
+    tracked by #747.
 
 ## Security and dependencies
 
@@ -41,10 +55,10 @@ hand-editing it.
   (`prio:high`, `status:confirmed`) - highest-priority open item. Tracks four
   GHSA advisories in the markdownlint tooling chain (devDependency only, not
   shipped to the deployed site).
-* [#750](https://github.com/davidsneighbour/samui-samui.de/issues/750) chore(deps):
-  brace-expansion DoS via wireit's pinned range (`prio:medium`,
-  `status:confirmed`) - dependency-security follow-up for Wireit's transitive
-  range; likely an `accepted` risk if no upstream fix path exists.
+* [#927](https://github.com/davidsneighbour/samui-samui.de/issues/927) chore(deps):
+  typescript 7.0.2 blocked by `@astrojs/check` peer dependency (`prio:medium`,
+  new) - PR #920 breaks `npm ci`; either wait for `@astrojs/check` to support
+  TS 7, or bump to the still-compatible `6.0.3` instead.
 
 ## Archive & tags feature milestone (#903-#917)
 
@@ -96,6 +110,9 @@ hand-editing it.
   whether this should be an editor-level transform, a pre-commit/content hook, or
   a one-time cleanup plus future guard; also decide whether an archive-wide bulk
   replacement is in scope.
+* [#927](https://github.com/davidsneighbour/samui-samui.de/issues/927) - decide
+  whether to wait for `@astrojs/check` to support TypeScript 7, or bump to
+  `6.0.3` as an interim step.
 * [#717](https://github.com/davidsneighbour/samui-samui.de/issues/717) - decide
   migration scope (all comments vs. curated subset) and attribution approach
   for re-posted historical comments.
@@ -103,13 +120,14 @@ hand-editing it.
 ## Recommended next steps
 
 1. Handle [#747](https://github.com/davidsneighbour/samui-samui.de/issues/747)
-   first because it is the only high-priority open security issue.
-2. Then handle [#750](https://github.com/davidsneighbour/samui-samui.de/issues/750)
-   as the remaining medium-priority security/dependency issue.
-3. Finish the archive milestone: [#915](https://github.com/davidsneighbour/samui-samui.de/issues/915)
+   as the only remaining high-priority security issue.
+2. Finish the archive milestone: [#915](https://github.com/davidsneighbour/samui-samui.de/issues/915)
    and [#916](https://github.com/davidsneighbour/samui-samui.de/issues/916)
    are both unblocked now, then close out with
    [#917](https://github.com/davidsneighbour/samui-samui.de/issues/917).
+3. Decide the TypeScript path for
+   [#927](https://github.com/davidsneighbour/samui-samui.de/issues/927) (wait
+   for upstream support vs. bump to 6.0.3).
 4. Continue [#898](https://github.com/davidsneighbour/samui-samui.de/issues/898)
    (already in progress) and decide the visual approach for
    [#926](https://github.com/davidsneighbour/samui-samui.de/issues/926) given
