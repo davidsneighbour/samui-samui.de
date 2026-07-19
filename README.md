@@ -5,6 +5,7 @@
 
 Website and content for [samui-samui.de](https://samui-samui.de).
 
+* [Architecture](#architecture)
 * [Setup](#setup)
   * [Local `.env`](#local-env)
   * [Netlify deployment, DNS, and functions](#netlify-deployment-dns-and-functions)
@@ -18,6 +19,30 @@ Website and content for [samui-samui.de](https://samui-samui.de).
   * [Generated package maintenance](#generated-package-maintenance)
   * [Release commands](#release-commands)
   * [Lifecycle scripts](#lifecycle-scripts)
+
+## Architecture
+
+This is a quiet, sturdy little static site: [Astro 7](https://astro.build/)
+builds the pages, [Tailwind CSS 4](https://tailwindcss.com/) carries the design
+system, and [Netlify](https://www.netlify.com/) hosts the production site,
+deploy previews, headers, DNS, and serverless functions.
+
+The content layer is Astro content collections, with long-form posts in
+Markdown and [MDX](https://mdxjs.com/) where richer components are useful.
+[React 19](https://react.dev/) is available for interactive islands and email
+templates, while icons come from [Lucide](https://lucide.dev/) and
+[Iconify](https://iconify.design/). Search is generated at build time with
+[Pagefind](https://pagefind.app/), comments are handled by
+[Giscus](https://giscus.app/), contact-form bot protection uses
+[Cloudflare Turnstile](https://developers.cloudflare.com/turnstile/), and mail
+delivery goes through [Resend](https://resend.com/).
+
+The maintenance tools are intentionally boring in the best possible way:
+[Biome](https://biomejs.dev/) for code formatting and linting,
+[markdownlint](https://github.com/DavidAnson/markdownlint) for Markdown,
+[cspell](https://cspell.org/) for optional spell checks,
+[Wireit](https://github.com/google/wireit) for generated-package maintenance,
+and [release-it](https://github.com/release-it/release-it) for releases.
 
 ## Setup
 
