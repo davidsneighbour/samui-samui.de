@@ -3,6 +3,12 @@ title: Betriebsausflug
 date: 2005-03-22T04:41:00+00:00
 url: /2005/03/betriebsausflug/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Soso. Heute waren wir in Ban Nathon auf Betriebsausflug. Um 10 Uhr kam der Kremserwagen, wir öffneten ein paar Flaschen Bier (in einem reinen Männerunternehmen darf man das) und sangen schmutzige Lieder.
 

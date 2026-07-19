@@ -2,10 +2,12 @@
 title: Alone
 date: 2007-04-05T12:01:58+00:00
 url: /2007/04/alone/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/226.jpg)
 

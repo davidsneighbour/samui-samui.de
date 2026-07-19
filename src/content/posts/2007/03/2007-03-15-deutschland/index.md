@@ -2,10 +2,12 @@
 title: Deutschland
 date: 2007-03-14T21:43:58+00:00
 url: /2007/03/deutschland/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 **Königlich Thailändische Botschaft**
 

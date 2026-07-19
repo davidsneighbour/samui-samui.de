@@ -3,6 +3,12 @@ title: (Life in) Slow Motion.
 date: 2005-12-09T19:54:00+00:00
 url: /2005/12/life-in-slow-motion/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Das Interessanteste (für mich) an den vergangenen 4 Wochen ist, dass es mich nicht im geringsten angeödet hat. Fast bin ich ein bisschen traurig, dass die Sonne seit heute durch die Wolken dringen kann und meine Lieblingsüberschwemmung in Bophut so langsam auszutrocknen beginnt. Ich hatte bereits eine Technik entwickelt, hinter den Pickups in einem Meter Abstand zu fahren. Damit kommt man schneller vorwärts weil die Fluten wie damals im Roten Meer (wars das Tote?) getrennt werden und ich nahezu trocken durchkam.
 

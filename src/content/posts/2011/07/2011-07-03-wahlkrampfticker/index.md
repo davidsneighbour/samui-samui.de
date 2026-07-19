@@ -3,6 +3,12 @@ title: Wahlkrampfticker
 date: 2011-07-03T02:47:41+00:00
 url: /2011/07/wahlkrampfticker/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Thailand hat gewählt --- erwartungsgemä?. Wie schön, dass die neue Regierung "reconciliation", also Versöhnung, will --- dumm nur, dass da der Name Shinawatra mit drinnen hängt und die Versöhnung einen Preis hat.
 

@@ -3,10 +3,15 @@ title: "Visa und Krankenversicherung"
 date: 2019-05-15T17:27:00+07:00
 url: /2019/05/visa-und-krankenversicherung
 tags:
-- visa
-- krankenversicherung
-- auswanderer
-
+  - visa
+  - krankenversicherung
+  - auswanderer
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Photo by Marcelo Leal on Unsplash](./krankenversicherung.jpg)

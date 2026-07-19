@@ -4,11 +4,17 @@ description: "Ein Rap-Musik-Video macht die Runden in Thailand's Netzwerken, die
 date: 2018-10-27T20:25:00+07:00
 url: /2018/10/rappen-gegen-diktaturen
 tags:
-- musik
-- armee-regierung
-- protest
-- neuwahlen
-- oktober1976
+  - musik
+  - armee-regierung
+  - protest
+  - neuwahlen
+  - oktober1976
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 <dnb-youtube videoid="VZvzvLiGUtw"></dnb-youtube>

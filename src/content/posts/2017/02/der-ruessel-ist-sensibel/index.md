@@ -6,6 +6,12 @@ tags:
   - elefanten
   - tierwelt
   - video
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Und hier noch eine kleine Lektion zum Thema Elefanten und Rüssel-Sensitivität:

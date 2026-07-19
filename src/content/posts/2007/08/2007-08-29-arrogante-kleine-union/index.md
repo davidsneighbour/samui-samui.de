@@ -2,10 +2,12 @@
 title: Arrogante kleine Union
 date: 2007-08-29T15:13:41+00:00
 url: /2007/08/arrogante-kleine-union/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Europäische Union hat nun einen [Stunt geliefert][1], den normalerweise die Amerikaner zu liefern pflegen:
 

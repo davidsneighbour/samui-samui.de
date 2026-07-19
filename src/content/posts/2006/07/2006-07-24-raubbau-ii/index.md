@@ -3,6 +3,12 @@ title: Raubbau II
 date: 2006-07-23T22:38:00+00:00
 url: /2006/07/raubbau-ii/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Unser<txp:gho_footnote>Ko Samui</txp:gho_footnote> eigener kleiner <txp:gho_permalink id="797">Raubbau-Skandal</txp:gho_permalink> hat seine Wellen geschlagen und ist nun fast wieder eingeschlafen.
 

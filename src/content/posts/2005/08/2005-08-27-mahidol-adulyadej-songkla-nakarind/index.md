@@ -3,6 +3,12 @@ title: Mahidol Adulyadej, Songkla Nakarind
 date: 2005-08-27T08:41:13+00:00
 url: /2005/08/mahidol-adulyadej-songkla-nakarind/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute ist einer der wenigen thailändischen Feiertage, die nicht mit Freiheit und Arbeitslosigkeit gefeiert werden. Warum auch. Ist ja Samstag --- eh frei. Und nächstes Jahr wird neu verhandelt. Nichtsdestotrotz ist das ein feiernswerter Tag und ich werde nachher mal sehen, was das Mehkhong-Lager hergibt.
 

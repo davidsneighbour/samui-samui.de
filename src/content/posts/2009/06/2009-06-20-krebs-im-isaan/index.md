@@ -4,10 +4,12 @@ date: 2009-06-20T13:22:42+00:00
 url: /2009/06/krebs-im-isaan/
 dsq_thread_id:
   - "3212702120"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Im Isaan (Nordosten von Thailand) gibt es die [weltweit stärkste Anhäufung an Krebsfällen im Gallenbereich][1]. (Ich übersetze mal "epithelial cancer of the bile duct" als zellulärer Krebs im Gallen-Trakt.)
 

@@ -2,10 +2,12 @@
 title: 'Laos: Passgeschichten'
 date: 2007-01-14T23:06:31+00:00
 url: /2007/01/laos-passgeschichten/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute Morgen war ich dann auf dem Konsulat hier in Savannkhet. Das war eine Sache von 20 Minuten. Dummerweise hat Murphy auch hier zugeschlagen, denn ab _heute_ geben sie die erteilten Visa definitiv erst am Folgetag Nachmittags aus. Bisher, so erzählten es die Spatzen<txp:gho_footnote>die etwas kleiner aber dafür fetter sind</txp:gho_footnote> von den Dächern, war es bei entsprechend niedriger Antragszahl bereits am gleichen Tag möglich. Aber wie das so ist mit den Spatzen und den Dächern: jeder kann es hören, weshalb ich auch nicht den Trick für den Süden verrate.
 

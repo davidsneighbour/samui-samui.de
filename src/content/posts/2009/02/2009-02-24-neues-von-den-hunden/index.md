@@ -4,10 +4,12 @@ date: 2009-02-24T14:02:43+00:00
 url: /2009/02/neues-von-den-hunden/
 dsq_thread_id:
   - "3250824792"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3295535196/" title="Official"><img src="//farm4.static.flickr.com/3082/3295535196_600da4748a.jpg" alt="Official" /></a></p>

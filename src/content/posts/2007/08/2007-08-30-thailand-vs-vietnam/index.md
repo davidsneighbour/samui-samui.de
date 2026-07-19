@@ -2,10 +2,12 @@
 title: Thailand vs. Vietnam
 date: 2007-08-29T22:31:08+00:00
 url: /2007/08/thailand-vs-vietnam/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Thailand vor! Noch ein Thooooooor!
 

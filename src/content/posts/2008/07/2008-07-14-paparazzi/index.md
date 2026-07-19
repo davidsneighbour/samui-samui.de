@@ -2,10 +2,12 @@
 title: Paparazzi
 date: 2008-07-14T04:28:57+00:00
 url: /2008/07/paparazzi/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eines Tages erschienen am Empfangstresen eines samuianischen 5-Sterne-Ressorts zwei nette Herren und mieteten eine der überteuerten aber romantischen Villen. Sie erwähnten, dass sie einen Freund überraschen wollten, der wohl in den nächsten Tagen eintreffen wolle. Die folgenden Tage und Nächste verbrachten sie in nicht unangenehmer Begleitung am villeneigenen Pool. Das Ressort ist berühmt für seinen Service und seine Diskretion.
 

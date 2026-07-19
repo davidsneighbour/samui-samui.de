@@ -2,10 +2,12 @@
 title: 'Grippecounter: 1473'
 date: 2009-06-30T20:50:04+00:00
 url: /2009/07/grippecounter-1473/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3672375340/" title="Colorful by Patrick Kollitsch, on Flickr"><img src="//farm3.static.flickr.com/2433/3672375340_8d651c3589.jpg" width="500" height="375" alt="Colorful" /></a></p>

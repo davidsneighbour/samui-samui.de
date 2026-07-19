@@ -5,6 +5,12 @@ url: /2006/11/multipler-sklerose-sex/
 dsq_thread_id:
   - "2969214272"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eigentlich müsste der Titel in etwa lauten "Sex wenn man mit Multipler Sklerose lebt" oder so, das ist mir aber zu lang.
 

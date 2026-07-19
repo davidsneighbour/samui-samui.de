@@ -2,10 +2,12 @@
 title: Alles wird teurer
 date: 2008-06-30T03:12:50+00:00
 url: /2008/06/alles-wird-teurer/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Für eine Moped-Tankfüllung zahlt man heutzutage gute 120 Baht. Als ich auf die Insel kam (vor etwas mehr als 1250 Tagen) waren es nur 75 Baht. Die Fährpreise werden ab Morgen erhöht (sorry, ich wusste das schon länger, fand es aber weniger interessant... im Nachhinein hätte man ja ein paar Hamsterkäufe machen können, weil die Tickets auch weiterhin gültig sein werden...) und man rechnet mit zweistelligen Inflationsraten Ende des Jahres in Thailand.
 

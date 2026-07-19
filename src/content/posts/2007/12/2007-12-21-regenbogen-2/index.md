@@ -2,10 +2,12 @@
 title: Regenbogen
 date: 2007-12-20T20:36:27+00:00
 url: /2007/12/regenbogen-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2126075055/" title="Rainbow"><img src="//farm3.static.flickr.com/2278/2126075055_14523de5ac.jpg" alt="Rainbow" /></a></p>

@@ -2,10 +2,12 @@
 title: 2 Jahre
 date: 2007-11-15T01:43:38+00:00
 url: /2007/11/2-jahre/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/96202616/" title="chilling"><img src="//farm1.static.flickr.com/41/96202616_6cdc22a397.jpg" alt="chilling" /></a></p>

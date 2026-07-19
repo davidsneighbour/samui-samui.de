@@ -2,10 +2,12 @@
 title: Undiplomatischer Ballwechsel
 date: 2007-01-31T21:04:38+00:00
 url: /2007/02/undiplomatischer-ballwechsel/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Singapore gegen Thailand war gestern angesagt bei den ASEAN Football Championships und [es kam zum Eklat][1].
 

@@ -4,8 +4,14 @@ description: "Fischer hier im Golf von Thailand haben eine Begegnung mit Albino-
 date: 2020-01-24T21:42:44+07:00
 lastmod: 2020-01-24T21:42:44+07:00
 tags:
-    - tierwelt
-    - delphin
+  - tierwelt
+  - delphin
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 <dnb-youtube videoid="PbHzitKau0I"></dnb-youtube>

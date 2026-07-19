@@ -9,6 +9,12 @@ leute:
   - koenig-maha-vajiralongkorn
   - koenig-prajadhipok
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 <dnb-youtube videoid="0BouTfg-Yos"></dnb-youtube>

@@ -2,10 +2,12 @@
 title: Zwangsvegetarismus
 date: 2006-10-22T03:41:55+00:00
 url: /2006/10/zwangsvegetarismusrn/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Tag drei meines Zwangsvegetarismusses.
 

@@ -3,6 +3,12 @@ title: Schneiden
 date: 2011-03-14T18:39:29+00:00
 url: /2011/03/schneiden/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute Morgen ergab sich (ich sage gleich wo) der folgende Dialog zwischen mir und einer Service-Dame:
 

@@ -5,6 +5,12 @@ url: /2017/06/portugiesische-galeeren/
 tags:
   - portugiesische galleren
   - tierwelt
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Jo, da haben wir mal ein Thema wo ich die deutschen Begriffe nachschlagen musste. Soweit ist es also schon gekommen mit mir ;) Jeh oh jeh!
 

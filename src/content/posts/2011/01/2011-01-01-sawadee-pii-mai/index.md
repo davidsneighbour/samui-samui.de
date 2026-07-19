@@ -3,6 +3,12 @@ title: Sawadee Pii Mai
 date: 2011-01-01T12:25:58+00:00
 url: /2011/01/sawadee-pii-mai/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Willkommen im neuen Jahrzehnt.
 

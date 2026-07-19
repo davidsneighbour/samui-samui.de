@@ -2,10 +2,12 @@
 title: Kurz Geschnittenes Sechs
 date: 2007-07-25T01:35:36+00:00
 url: /2007/07/kurz-geschnittenes-4/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 * Die Hacker der <span class="caps">MICT</span>-Website vergangene Woche [konnten nach Deutschland zurück verfolgt werden][1]. Thais in Deutschland. Tststs... Damit stehen einige meiner IM-Kontakte nun unter Generalverdacht :D
 * [Thailand besiegt Deutschland][2]. Im Frauen-Volleyball. (Fügen Sie an dieser Stelle einen schmutzigen Witz zu jungen Thaifrauen (Teens vielleicht?) und Ballspielen ein.)

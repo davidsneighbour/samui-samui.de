@@ -2,10 +2,12 @@
 title: Nach 4 Wochen
 date: 2008-11-10T00:42:03+00:00
 url: /2008/11/nach-4-wochen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

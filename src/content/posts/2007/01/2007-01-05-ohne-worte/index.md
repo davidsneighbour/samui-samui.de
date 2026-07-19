@@ -2,10 +2,12 @@
 title: Ohne Worte
 date: 2007-01-05T04:09:11+00:00
 url: /2007/01/ohne-worte/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/346120531/"><img src="//farm1.static.flickr.com/164/346120531_41c3e0bb03.jpg" class="flickr-photo" alt="" /></a></p>

@@ -4,10 +4,12 @@ date: 2009-08-24T04:08:02+00:00
 url: /2009/08/das-ramadan-raetsel/
 dsq_thread_id:
   - "3536134424"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der Islam ist eine geheimnisvolle Religion. Vergangene Woche begannen gegen Mittwoch verschiedene muslimische Freunde, mich zu fragen, wann denn dieses Jahr Ramadan beginnt.
 

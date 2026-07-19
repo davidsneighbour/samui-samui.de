@@ -3,6 +3,12 @@ title: Bin wieder da
 date: 2005-07-11T20:21:06+00:00
 url: /2005/07/bin-wieder-da/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 War schön. Sehr schön. Chiang Mai ist eine schöne kleine Stadt. Schöne Wats wo man hin sieht. Isaan ist eine schöne Gegend. Schöne Menschen. Schönes Wetter. Viel schöner Reis. Laos ist auch schön. Und ich les jetzt erstmal Mails. Später vielleicht mehr.
 

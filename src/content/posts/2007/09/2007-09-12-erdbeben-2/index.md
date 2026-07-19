@@ -2,10 +2,12 @@
 title: Erdbeben
 date: 2007-09-12T00:45:22+00:00
 url: /2007/09/erdbeben-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Vor Sumatra gab es wieder einmal ein Erdbeben. Sowas gab es schon einmal zu Weihnachten 2004 mit nachfolgender Tsunamiwelle. Seither wird bei jedem Erdbeben kräftig Panik geschürt.
 

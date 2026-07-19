@@ -2,10 +2,12 @@
 title: Aufräumen
 date: 2007-10-31T18:25:08+00:00
 url: /2007/11/aufraeumen-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In Bangkok wurde heute ein [Brite festgenommen][1], der pornographische Bilder nackter Kinder im Internet vertrieben haben soll. Ob er sie auch missbraucht hat, wird noch ermittelt.
 

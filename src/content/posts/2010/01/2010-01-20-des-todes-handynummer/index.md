@@ -3,6 +3,12 @@ title: Des Todes Handynummer
 date: 2010-01-20T02:55:46+00:00
 url: /2010/01/des-todes-handynummer/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Thais lieben Geistergeschichten.
 

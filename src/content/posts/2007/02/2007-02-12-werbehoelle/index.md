@@ -2,10 +2,12 @@
 title: Werbehölle
 date: 2007-02-12T09:35:37+00:00
 url: /2007/02/werbehoelle/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Liebe Werber, besonders diejenigen unter Ihnen (also unter im Sinne einer Schnittmenge, nicht körperlich unter Ihnen, ich mag nicht annehmen, dass es sowas wie eine Reklamecouch unter Ihnen (auch dies Schnittmenge) gibt) die ungewünschte Werbe-Emails versenden (per Email (also elektronisch), sozusagen),
 

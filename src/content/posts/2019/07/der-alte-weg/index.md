@@ -10,6 +10,12 @@ tags:
   - putsch
 leute:
   - prayuth chan-ocha
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![General Prayuth Chan-Ocha ist "sorry".](./prayuth-sorry.jpg)

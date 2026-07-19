@@ -2,10 +2,12 @@
 title: Das Leben im Dschungel II
 date: 2007-04-25T02:03:50+00:00
 url: /2007/04/das-leben-im-dschungel-ii/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/472174655/"><img src="//farm1.static.flickr.com/167/472174655_1ec22b87ab.jpg" class="flickr-photo" alt="" /></a></p>

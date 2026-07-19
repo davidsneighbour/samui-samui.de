@@ -5,11 +5,14 @@ url: /2013/09/lin-ping-geht/
 fb_author_post_id:
   - 517050641_10151661458675642
 
-
-
 tags:
   - panda
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Lin Ping schlägt mal wieder (Nachrichten)Wellen. Unser (der erste und einziger in Thailand geborene) [Lieblingspanda][1] aus Chiang Mai verlässt uns nächste Woche in Richtung seiner noch nie besuchten chinesischen Heimat. Wie das so ist mit chinesischen Leihgaben --- ihre Kinder gehören China. [Nächsten Samstag beginnt die große Reise][2].
 

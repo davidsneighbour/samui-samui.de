@@ -2,10 +2,12 @@
 title: Pokki proudly presents
 date: 2007-09-02T21:38:10+00:00
 url: /2007/09/pokki-proudly-presents/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1310925549/" title="The new house"><img src="//farm2.static.flickr.com/1198/1310925549_afe89a87b0.jpg" alt="The new house" /></a></p>

@@ -3,6 +3,12 @@ title: Ong Bak 3
 date: 2010-01-13T18:47:14+00:00
 url: /2010/01/ong-bak-3-2/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Welt wartet ja bekanntermassen auf Tony Jaa's Ong Bak 3 (das Sequel zum Prequel von [Ong Bak][1])
 

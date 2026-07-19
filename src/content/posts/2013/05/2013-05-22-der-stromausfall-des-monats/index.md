@@ -4,10 +4,12 @@ date: 2013-05-22T06:40:17+00:00
 url: /2013/05/der-stromausfall-des-monats/
 fb_author_post_id:
   - 517050641_10151438955975642
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Normalerweise fällt ja in Thailand nie der Strom aus, weil alle Kabelnetze perfekt gewartet werden, immer genügend Strom vorhanden ist, alle Netze mit Backups versehen sind und überhaupt. Der Drei-Tages-Ausfall im letzten Dezember war ja mehr oder weniger ein Test wie man ohne Strom Kaffee kochen kann und nach wieviel Stunden die Ideen für Offline-Beschäftigungen aus gehen.
 

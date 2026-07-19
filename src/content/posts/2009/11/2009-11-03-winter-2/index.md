@@ -2,10 +2,12 @@
 title: Winter
 date: 2009-11-03T13:45:54+00:00
 url: /2009/11/winter-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Immer wenn der Khlong vor dem Haus Wasser führt und die ganzen Abfälle, die sich so im Jahr ansammeln ins Meer schwemmt, dann haben wir die Regenzeit. Seit heute morgen führt der Khlong vorm Haus Wasser.
 

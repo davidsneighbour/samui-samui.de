@@ -2,10 +2,12 @@
 title: Golfer auf der Flucht
 date: 2007-08-13T19:48:57+00:00
 url: /2007/08/golfer-auf-der-flucht/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Seine Rundreisen wird Thaksin Shinawatra, der Vorsitzende des Thailändischen Profigolfervereins, nun etwas einschränken müssen, denn [es ist ein Haftbefehl auf ihn und seine Frau Pojaman ausgestellt][1]
 

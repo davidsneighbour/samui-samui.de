@@ -3,6 +3,12 @@ title: Der Neue
 date: 2005-04-04T05:57:00+00:00
 url: /2005/04/der-neue/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eben im Spiegel unter dem Titel ""Bischof Tutu hofft auf afrikanischen Papst":<http://www.spiegel.de/panorama/0,1518,349554,00.html>":
 

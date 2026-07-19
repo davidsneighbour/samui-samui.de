@@ -2,10 +2,12 @@
 title: Scherben
 date: 2006-09-07T04:37:00+00:00
 url: /2006/09/scherben/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 (Hier mal ein Beispiel für einen Eintrag den ich <txp:gho_permalink id="872">in meinem deutschsprachigen Technoblog</txp:gho_permalink> schreiben würde, hehe...)
 

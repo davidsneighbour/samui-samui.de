@@ -5,6 +5,12 @@ url: /2005/08/zur-feier-des-tages-ein-schwarz-geklautes-mp3-mit-musik/
 dsq_thread_id:
   - "6412166670"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Siehe Titel. 5.2MB. Thaimusik at its best. Es leben die Edelgase.][1]
 

@@ -4,10 +4,12 @@ date: 2009-06-17T01:08:28+00:00
 url: /2009/06/mee-and-my-father/
 dsq_thread_id:
   - "3027257157"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
 </div>

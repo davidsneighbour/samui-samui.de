@@ -2,10 +2,12 @@
 title: Australiens nationale Sicherheit durch Ladyboy gefährdet
 date: 2009-07-13T00:48:55+00:00
 url: /2009/07/australiens-nationale-sicherheit-durch-ladyboy-gefaehrdet/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In australischen Zeitungen kann man heute lesen, dass ein "Mitglied" (da war er wieder) der Verteidigungskräfte von einem Ladyboy seines Militär-Laptops und anderer Güter (Bewusstsein, Geld, Pass, Telephone, iPod usw.) [beraubt wurde][1].
 

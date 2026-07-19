@@ -187,3 +187,6 @@ scratch
 # else (functions bundles, deploy logs, etc.) is local/generated
 .netlify/*
 !.netlify/state.json
+
+# Local content hygiene handoff
+RESUME-CONTENTWORK.md

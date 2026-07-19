@@ -2,10 +2,12 @@
 title: Thaksin auf der Couch
 date: 2006-08-22T10:14:22+00:00
 url: /2006/08/thaksin-auf-der-couch/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

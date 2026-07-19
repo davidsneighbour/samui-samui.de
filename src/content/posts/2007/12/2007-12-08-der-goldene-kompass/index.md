@@ -2,10 +2,12 @@
 title: Der goldene Kompass
 date: 2007-12-08T16:43:37+00:00
 url: /2007/12/der-goldene-kompass/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern mal wieder im Kino gewesen und "Der goldene Kompass" gesehen. Falls ihr noch nicht "Stardust" gesehen habt und die Möglichkeit habt, den Film zu sehen --- tut dies. Kuckt nicht den Kompass an. Falls "Stardust" nicht zur Verfügung steht, nehmt euer Geld und geht Glühwein trinken.
 

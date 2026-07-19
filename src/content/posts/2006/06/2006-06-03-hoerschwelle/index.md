@@ -2,10 +2,12 @@
 title: Hörschwelle
 date: 2006-06-03T09:24:00+00:00
 url: /2006/06/hoerschwelle/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern morgen erwachte ich mit einem seltsamen Gefühl im Ohr. Das war mir neu. Seltsame Gefühle in verschiedenen Körperteilen sind mir nur zu gut bekannt aber das Ohr war bisher unbetroffen. Nun also die Gehörgänge. Kein Problem dachte ich mir, brühte einen Kaffee und beschäftigte mich mit meiner tälglichen Morgenlektüre. Gegen Mittag begann das Ohrinnere dann zu schwellen. Gegen Abend war der Inhalt meines Ohres so geschwollen, dass man mit keinem Fremdkörper mehr hineinkam und dann kam der Schmerz. Am Ende war es dann so schlimm, dass jede Bewegung meines an schallleitenden Massen reichen Körpers in einem schmerzenden Ohr endete. Die Nacht verbrachte ich dann abwechselnd wach wegen einer unangenehmen Drehung oder wach weil ich meinen eigenen Puls hämmern hörte.
 

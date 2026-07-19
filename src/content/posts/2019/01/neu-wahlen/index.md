@@ -3,14 +3,20 @@ title: "Neu! Wahlen?"
 date: 2019-01-23T21:00:00+07:00
 url: /2019/01/neu-wahlen/
 tags:
-- politik
-- wahlen 2019
+  - politik
+  - wahlen 2019
 leute:
-- prayuth chan-ocha
+  - prayuth chan-ocha
 resources:
-- src: "royal-degree.png"
-  name: "neuwahlen"
-  title: "Königliches Dekret zur Festlegung der Neuwahlen in Thailand"
+  - src: "royal-degree.png"
+    name: "neuwahlen"
+    title: "Königliches Dekret zur Festlegung der Neuwahlen in Thailand"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Königliches Dekret zur Festlegung der Neuwahlen in Thailand](./royal-degree.png)

@@ -3,9 +3,15 @@ title: Bombenanschlag in Bangkok
 date: 2015-08-17T13:09:36+00:00
 url: /2015/08/bombenanschlag-in-bangkok/
 tags:
-- bangkok
-- bombenanschlag
-- terrorismus
+  - bangkok
+  - bombenanschlag
+  - terrorismus
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Und wieder einmal ist in Bangkok eine Bombe explodiert, diesmal am Erawan-Schrein, einer ziemlich belebten Ecke:

@@ -3,6 +3,12 @@ title: R??ckenmassage
 date: 2005-09-25T01:08:00+00:00
 url: /2005/09/rueckenmassage/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="420" src="//static.flickr.com/32/46304412_00c1c71bc2.jpg" alt="Big Buddha 2005/09/25" />][1]
 

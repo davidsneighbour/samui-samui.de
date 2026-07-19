@@ -5,8 +5,14 @@ date: 2019-08-28T21:18:24+07:00
 lastmod: 2019-08-28T21:18:24+07:00
 url: /2019/08/128-jahre-11-jahre/
 tags:
-    - alter
-    - thaileben
+  - alter
+  - thaileben
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Orn Parnchompoo, vermutlich 128 Jahre alt (Quelle: Khaosod.co.th)](./128-jahre-11-jahre.jpg)

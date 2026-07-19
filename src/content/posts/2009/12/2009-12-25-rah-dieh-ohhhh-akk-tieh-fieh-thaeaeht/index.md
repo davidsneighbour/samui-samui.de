@@ -2,10 +2,12 @@
 title: Rah-Dieh-Ohhhh Akk-Tieh-Fieh-Thääht
 date: 2009-12-25T03:05:58+00:00
 url: /2009/12/rah-dieh-ohhhh-akk-tieh-fieh-thaeaeht/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Iridium 192][1] ist ein nettes kleines radioaktives, ehm, Material (?), das in entsprechender Menge zur Herstellung einer schmutzigen Bombe genutzt werden kann. Ebensolches sollte heute morgen auf dem internationalen Flughafen in Bangkok [ausgetreten sein][2].
 

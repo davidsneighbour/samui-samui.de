@@ -2,10 +2,12 @@
 title: Hundstage
 date: 2007-10-08T12:41:49+00:00
 url: /2007/10/hundstage/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1519728771/" title="Brushed and clean"><img src="//farm3.static.flickr.com/2083/1519728771_50e527b8ff.jpg" alt="Brushed and clean" /></a></p>

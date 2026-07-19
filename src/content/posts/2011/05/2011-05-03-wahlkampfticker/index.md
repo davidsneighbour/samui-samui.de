@@ -3,6 +3,12 @@ title: Wahlkampfticker
 date: 2011-05-02T19:48:46+00:00
 url: /2011/05/wahlkampfticker/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute findet die letzte Parlamentssitzung vor der Auflösung des selbigen statt --- damit wird der Weg zu "demokratischen" Neuwahlen in Thailand geebnet. Zeit also, kurz einzutauchen in den Wahlkampf Thaistyle in kurzen Schnitten.
 

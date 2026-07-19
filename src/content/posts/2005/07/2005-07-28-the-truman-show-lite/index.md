@@ -3,6 +3,12 @@ title: The Truman Show Lite
 date: 2005-07-27T22:07:00+00:00
 url: /2005/07/the-truman-show-lite/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ein bisschen was von Truman Show hat mein Leben ja derzeit schon. Die Darsteller werden alle ausgetauscht (eher ersatzlos gestrichen). Am Dienstag dachte ich mir so, man muss ja nicht alles aus dem "alten Leben" kippen und schrieb eine SMS an Judy (nicht was ihr schon wieder denkt, das ist die Sängerin der Siam Band), ob und wo sie denn am Dienstag abend spielen (hey, habt ihr nun den Text in der anderen Klammer gelesen oder nicht?). Zurück kam die Antwort, dass sie nicht mehr in Lamai spielen und sie die Band Ende des Monats verlässt.
 

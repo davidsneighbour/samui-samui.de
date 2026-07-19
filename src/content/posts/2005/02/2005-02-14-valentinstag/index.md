@@ -3,6 +3,12 @@ title: Valentinstag
 date: 2005-02-13T21:17:36+00:00
 url: /2005/02/valentinstag/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ohh! Ahh! Valentinstag! Küsschen! Super!
 

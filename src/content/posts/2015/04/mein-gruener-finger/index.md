@@ -6,9 +6,15 @@ tags:
   - blumen
   - orchidee
 resources:
-- src: "2015-04-15-08.28.19.jpg"
-  name: "2015-04-15-08.28.19"
-  title: "Mein grüner Finger"
+  - src: "2015-04-15-08.28.19.jpg"
+    name: "2015-04-15-08.28.19"
+    title: "Mein grüner Finger"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Mein grüner Finger](./2015-04-15-08.28.19.jpg)

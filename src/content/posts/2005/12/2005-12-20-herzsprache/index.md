@@ -3,6 +3,12 @@ title: Herzsprache
 date: 2005-12-20T01:24:00+00:00
 url: /2005/12/herzsprache/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es gibt ein Buch das ich versuche seit Januar (ok, ich lerne erst seit Februar Thai, also seit Februar) zu bekommen: [Hearttalk][1] von [Christopher G. Moore][2].
 

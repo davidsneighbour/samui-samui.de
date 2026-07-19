@@ -2,10 +2,12 @@
 title: Heim und andere Kleinigkeiten
 date: 2008-12-05T01:04:17+00:00
 url: /2008/12/heim-und-andere-kleinigkeiten/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 * Pojaman Shinawatra (oder wie immer sie nun nach ihrer Scheidung vom Präsidenten des thailändischen Profigolferverbandes heissen mag) kehrt heim ins Königreich. <del>Am Freitag</del> Heute Nacht um Zehn, also vorhin. [Sagt die Immigrationsbehörde][1] und die muss es ja wissen.
 * Subvarnabhumi hat seinen Betrieb wieder aufgenommen und will am 15. Dezember wieder zu 100% laufen.

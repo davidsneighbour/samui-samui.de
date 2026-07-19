@@ -5,6 +5,12 @@ url: /2005/05/alles-macht-der-mai/
 dsq_thread_id:
   - "6412166617"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wie? Was? Mai? War doch grade noch März? Irgendwie ist der April an mir vorbeigezogen wie ein thailändischer Lastwagen. Wobei, den hätte ich vorbeiziehen gemerkt.
 

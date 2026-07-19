@@ -2,10 +2,12 @@
 title: "5000"
 date: 2006-09-06T22:14:33+00:00
 url: /2006/09/5000/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Um die 5000 Thais begehen jedes Jahr Selbstmord][1]. Mal abgesehen von dem leichten Rechenfehler mit den zwei Leuten pro Stunde finde ich an diesem Artikel interessant, auf welche Art und Weise man hier zu scheiden pflegt:
 

@@ -3,6 +3,12 @@ title: Buschbrand
 date: 2005-11-21T02:20:31+00:00
 url: /2005/11/buschbrand/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In Asien zu leben ist zur Zeit recht schwierig, man hat ja immer die Terrorgefahr wegen der Anwesenheit des Amichefs in der Region. Gestern nun war er in Peking, besuchte einen evangelischen Gottesdienst (die anderen Besucher wurden größtenteils festgenommen und werden vermutlich von der Bildfläche verschwinden) und sprach dann die folgenden kraftvollen Sätze live auf allen Nachrichtenkanälen vor einer Ansammlung von Journalisten (Erinnerungszitat, es war viel schlimmer):
 

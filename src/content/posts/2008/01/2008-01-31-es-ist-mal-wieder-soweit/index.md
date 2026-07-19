@@ -2,10 +2,12 @@
 title: Es ist mal wieder soweit
 date: 2008-01-31T01:28:02+00:00
 url: /2008/01/es-ist-mal-wieder-soweit/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Man mag es kaum glauben aber auch heute im Jahre 2008 sind wir noch sehr abhängig von einigen wenigen kleinen Kabeln, die durch die Weltmeere verlaufen. Vor Athen wurde neulich eines dieser Kabel zerrissen.
 

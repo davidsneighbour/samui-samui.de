@@ -3,6 +3,12 @@ title: Donnerstagmorgen auf Samui
 date: 2005-09-14T20:50:11+00:00
 url: /2005/09/donnerstagmorgen-auf-samui/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute morgen war ungewöhnlich viel Verkehr in Lamai. Mir war nach dem "langen Arbeitsweg", der ungefähr 10 Minuten länger dauert und mich durch einige Bereiche der Ortschaft führt, die mir morgens halb Acht besser gefallen als zu anderen Tageszeiten.
 

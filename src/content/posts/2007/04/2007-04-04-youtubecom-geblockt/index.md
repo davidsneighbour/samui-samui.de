@@ -4,10 +4,12 @@ date: 2007-04-04T05:21:27+00:00
 url: /2007/04/youtubecom-geblockt/
 dsq_thread_id:
   - "2962712892"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Youtube][1] ist in Thailand geblockt. Die einen sagen "mal wieder", die anderen "diesmal wirklich". Grund dafür soll ein [den König beleidigendes Video][2] sein. Die glücklicheren unter den Internetusern Thailands bekommen die [Blockseite des MICT][3] angezeigt, ich bekomme nur Timeouts. Der "Trick" vom letzten Mal mit dem Weglassen von www am Anfang oder dem Aufruf der IPs von Youtube funktioniert dieses Mal nicht.
 

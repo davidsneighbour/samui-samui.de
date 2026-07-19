@@ -2,10 +2,12 @@
 title: Problemhunde
 date: 2008-09-09T05:21:57+00:00
 url: /2008/09/problemhunde/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich such(t)e seit gut drei Wochen nach einem neuen Haus (eine lange Geschichte, jede Menge Beziehung, Dating und anderer Kram aber letzten Endes sind (oder werden) alle Beteiligten (irgendwann) glücklich sein). Interessanterweise ergibt sich auf einmal ein Problem, was ich nie als solches angesehen habe:
 

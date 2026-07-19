@@ -2,10 +2,12 @@
 title: Gedankenspiele
 date: 2008-05-30T23:16:58+00:00
 url: /2008/05/gedankenspiele/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute war einer dieser Tage zu denen man irgendwann einmal, wenn es mal Demokratie in Thailand geben wird und man sagen darf, was man denkt, sagen wird, es wäre ganz knapp an unschönen Begebenheiten vorbei gegangen.
 

@@ -2,10 +2,12 @@
 title: Liebes Internet-Tagebuch…
 date: 2007-02-09T03:12:00+00:00
 url: /2007/02/liebes-internet-tagebuch/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute habe ich einen TT&T-Truck auf meiner Auffahrt **g**esehen. Bekomm ich j**e**tzt DSL? Das wär ja sc**h**ön. Ich hab mir nämlich bereits **e**ine fette Erkältung im Internetcafe eingefangen. Die schalten d**i**e Kli**m**aanlage immer so kalt, wenn ich komme. Mehr Fett, mehr Kühlung. Seltsame Logik...
 

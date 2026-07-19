@@ -3,6 +3,12 @@ title: Das Ende vom Paradies
 date: 2011-03-30T21:00:57+00:00
 url: /2011/03/das-ende-vom-paradies/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5576157255/" title="The end of the paradise"><img src="//farm6.static.flickr.com/5065/5576157255_158e511032_z.jpg" width="640" height="480" alt="The end of the paradise" /></p>

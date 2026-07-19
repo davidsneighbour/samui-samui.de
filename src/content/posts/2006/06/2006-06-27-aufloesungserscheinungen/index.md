@@ -2,10 +2,12 @@
 title: Auflösungserscheinungen
 date: 2006-06-27T05:04:00+00:00
 url: /2006/06/aufloesungserscheinungen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Dass Thai Rak Thai (TRT) derzeit einige Prozesse am Hals hat wegen des Vorwurfs des Wahlbetrugs habe ich ja bereits <txp:gho_permalink id="769">mehrfach</txp:gho_permalink> <txp:gho_permalink id="746">geschrieben</txp:gho_permalink>. Heute nun hat der Generalstaatsanwalt beim Verfassungsgericht beantragt, 5 Parteien (darunter TRT und die Demokratische Partei) aufzulösen.
 

@@ -3,6 +3,12 @@ title: Das Jahr der Karotte
 date: 2011-02-02T21:17:09+00:00
 url: /2011/02/das-jahr-der-karotte/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ein gesundes neues Jahr wünsche ich allen meinen Lesern. Im thailändischen Jahreskreis der Neujahre sind wir nun beim Chinesischen Neujahr angelangt. Der Chinesische Kalender orientiert sich am Mond, weshalb der exakte Jahreswechsel jedes Jahr an einem anderen Tag liegt. Dieses Jahr nun am 3. Februar.
 

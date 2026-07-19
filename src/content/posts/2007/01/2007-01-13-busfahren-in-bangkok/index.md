@@ -2,10 +2,12 @@
 title: Busfahren in Bangkok
 date: 2007-01-12T21:20:11+00:00
 url: /2007/01/busfahren-in-bangkok/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/220.jpg)
 

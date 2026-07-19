@@ -3,6 +3,12 @@ title: Hausbeschau
 date: 2005-01-15T23:32:00+00:00
 url: /2005/01/hausbeschau/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Willkommen bei der Hausbeschau! Wollen wir doch mal sehen, wie man hier leben kann:
 

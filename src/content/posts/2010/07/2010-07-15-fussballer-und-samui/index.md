@@ -3,6 +3,12 @@ title: Fussballer und Samui
 date: 2010-07-15T14:21:47+00:00
 url: /2010/07/fussballer-und-samui/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

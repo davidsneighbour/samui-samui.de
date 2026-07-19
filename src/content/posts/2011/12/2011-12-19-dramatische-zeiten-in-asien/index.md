@@ -3,6 +3,12 @@ title: Dramatische Zeiten in Asien
 date: 2011-12-19T02:23:05+00:00
 url: /2011/12/dramatische-zeiten-in-asien/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Kim Jong Il ist tot. Herzinfarkt im Zug. Ich weiss genau, warum ich auch in Thailand immer mit dem Bus reise.
 

@@ -2,10 +2,12 @@
 title: Mord lohnt nicht
 date: 2006-08-16T23:05:00+00:00
 url: /2006/08/mord-lohnt-nicht/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die News sind heute [voll][1] der Nachrichten über den gefassten mutmaßlichen Mörder von JonBenet Ramsey. Ich entsinne mich darüber vor Jahren einmal einen Bericht gesehen zu haben mit Filmen und Photos von ihr wo sie puppenhaft zurecht gemacht über den Laufsteg dackelte und "glücklich" war.
 

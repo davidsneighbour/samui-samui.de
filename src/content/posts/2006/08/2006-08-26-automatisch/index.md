@@ -2,10 +2,12 @@
 title: Automatisch
 date: 2006-08-26T07:18:51+00:00
 url: /2006/08/automatisch/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Version 1:
 

@@ -2,10 +2,12 @@
 title: Gratis Touristenvisum
 date: 2009-02-28T12:13:07+00:00
 url: /2009/02/gratis-touristenvisum/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Nach einigen Monaten der Gerüchte und Verbalprofilierung wurde endlich der Vorschlag des Premierministers vom Parlament abgesegnet, das [Touristenvisum zur Ankurbelung des Tourismusses ohne Kosten][1] zu erteilen:
 

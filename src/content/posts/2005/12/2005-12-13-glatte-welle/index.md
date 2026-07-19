@@ -3,6 +3,12 @@ title: Glatte Welle
 date: 2005-12-13T04:56:00+00:00
 url: /2005/12/glatte-welle/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Im letzten Eintrag gabs einen [Kommentar][1] von [Dee][2] zu den glatten Haaren der Thais. Dazu möchte der Autor Folgendes bemerken.
 

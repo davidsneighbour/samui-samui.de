@@ -6,9 +6,15 @@ tags:
   - astrologie
   - blutmond
 resources:
-- src: "blutmond-in-thai-forschers-manuskript-1800-bis-1880.jpg"
-  name: "blutmond"
-  title: "Illustrations of possible appearances of the moon. Tamra phichai songkhram (Divination manual for the prediction of wars and conflicts). British Library, Or.15760,f .25"
+  - src: "blutmond-in-thai-forschers-manuskript-1800-bis-1880.jpg"
+    name: "blutmond"
+    title: "Illustrations of possible appearances of the moon. Tamra phichai songkhram (Divination manual for the prediction of wars and conflicts). British Library, Or.15760,f .25"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Illustrations of possible appearances of the moon. Tamra phichai songkhram (Divination manual for the prediction of wars and conflicts). British Library, Or.15760,f .25](./blutmond-in-thai-forschers-manuskript-1800-bis-1880.jpg)

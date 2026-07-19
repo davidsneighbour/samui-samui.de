@@ -3,6 +3,12 @@ title: Hund mit Quietsche-Eiskrem
 date: 2006-11-17T03:56:19+00:00
 url: /2006/11/hund-mit-quietsche-eiskrem/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/299297141/" title="Pokki, 1st birthday"><img src="//static.flickr.com/101/299297141_5b522cc442.jpg" alt="Pokki, 1st birthday" /></a></p>

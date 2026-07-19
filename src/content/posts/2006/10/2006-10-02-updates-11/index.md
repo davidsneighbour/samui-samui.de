@@ -3,6 +3,12 @@ title: Updates
 date: 2006-10-02T00:14:00+00:00
 url: /2006/10/updates-11/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Ereignisse der letzten Tage
 

@@ -3,6 +3,12 @@ title: "Businessideen I: Blogging"
 date: 2006-07-28T23:33:00+00:00
 url: /2006/07/businessideen-i-blogging/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Jupp. Genau. Ich habe tatsächlich eine Weile überlegt, hier in Thailand ein Blogportal aufzuziehen. Portalsoftware gibt es ja genügend und zu den Entwicklern einiger dieser Softwaren habe ich direkte Kontakte, Übersetzer auch. So hätte man die Übersetzung ins Thai und den ganzen Internationalisierungskram, der bei Thai ein kleines bisschen komplizierter ist als nur bei Russisch oder Umlautdeutsch ganz gut koordiniert über die Bühne bringen können. Es gibt ein paar Serverfarmen in Bangkok, die auch gut angebunden sind (sie versorgen den größten Teil der Region mit Servern).
 

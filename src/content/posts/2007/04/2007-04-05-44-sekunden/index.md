@@ -2,10 +2,12 @@
 title: 44 Sekunden
 date: 2007-04-05T06:20:28+00:00
 url: /2007/04/44-sekunden/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Youtube.com wird immer noch auf den thailändischen Internetleitungen geblockt. Jetzt merkt man beim morgendlichen Feedreader-Abgrasen, wieviele Blogs ihre "Inhalte" über Youtube beziehen. Inzwischen werden auch [immer mehr Informationen][1] zu den Vorgängen hinter den Kulissen bekannt.
 

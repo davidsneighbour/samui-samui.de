@@ -4,10 +4,12 @@ date: 2006-06-13T09:04:00+00:00
 url: /2006/06/stromausfall-4/
 dnb_samuisamui_article_image_size:
   - "1"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
  <big>oder Immer wenn es regnet (gesungen wie in diesem Musikal wo es den Milchmann Tervje oder so gibt der immer singt "wenn ich einmal reich bin" oder so)</big>
 

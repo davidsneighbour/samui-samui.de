@@ -4,15 +4,21 @@ description: "Thailand hat nun eine demokratisch gewaehlte Regierung nach den Wa
 date: 2019-07-12T21:54:30+07:00
 lastmod: 2019-07-12T21:54:30+07:00
 tags:
-    - regierung
-    - politik
-    - demokratie
+  - regierung
+  - politik
+  - demokratie
 leute:
-    - prayuth chan-ocha
+  - prayuth chan-ocha
 resources:
-    - src: "file"
-      name: "name"
-      title: "title"
+  - src: "file"
+    name: "name"
+    title: "title"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Thailands neue, demokratisch gewählte Regierung](./thai-cabinet-2019.jpg)

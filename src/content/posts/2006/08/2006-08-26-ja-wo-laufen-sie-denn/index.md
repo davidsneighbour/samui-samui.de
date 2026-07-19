@@ -4,10 +4,12 @@ date: 2006-08-26T08:14:00+00:00
 url: /2006/08/ja-wo-laufen-sie-denn/
 dsq_thread_id:
   - "3404713626"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Um sich in Thailand aufhalten zu dürfen muss man entweder thailändischer Staatsbürger sein (ein für geborene Europäer mehrere Millionen Euro schweres Unterfangen) oder ein Visum besitzen. Dabei gibt es mehrere Arten von Visa.
 

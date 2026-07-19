@@ -2,10 +2,12 @@
 title: 3 Jahre
 date: 2008-07-30T14:26:44+00:00
 url: /2008/07/3-jahre/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Pojaman Shinawatra, die Gemahlin des amtierenden Präsidenten des thailändischen Profigolferverbands, wurde eben wegen Steuerhinterziehung [zu drei Jahren Haft verurteilt][1]. Sie hat wohl gemeinsam mit ihrem Stiefbruder und ihrer Sekretärin oder Haushälterin (je nach Publikation variierend) 546 Millionen Baht an Steuern nicht bezahlt. Das sind mehr als 10 Millionen Euro.
 

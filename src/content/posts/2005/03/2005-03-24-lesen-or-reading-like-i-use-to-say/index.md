@@ -3,6 +3,12 @@ title: Lesen. Or reading like I use to say
 date: 2005-03-23T20:43:00+00:00
 url: /2005/03/lesen-or-reading-like-i-use-to-say/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Soso. Was macht man, wenn man laptopkabellos das Wochenende herumbringen muss? Man liest. Vornehmlich Bücher, manchmal auch Plakate und Etiketten. Aber grö?tenteils Bücher. Und so habe ich den Umfang der auf dieser Insel gelesenen Bücher von 3 auf 7 erhöht.
 

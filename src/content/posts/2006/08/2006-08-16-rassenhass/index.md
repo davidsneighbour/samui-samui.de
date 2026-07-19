@@ -4,10 +4,12 @@ date: 2006-08-16T10:56:00+00:00
 url: /2006/08/rassenhass/
 dsq_thread_id:
   - "3310665742"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/216821222/" title="a broken jaw"><img src="//static.flickr.com/89/216821222_e8e2f71f4d.jpg" alt="a broken jaw" /></a></p>

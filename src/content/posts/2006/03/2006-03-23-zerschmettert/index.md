@@ -3,6 +3,12 @@ title: Zerschmettert
 date: 2006-03-22T19:41:00+00:00
 url: /2006/03/zerschmettert/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich finde erstaunlicherweise nirgendwo Berichte darüber und das Thai-TV war auf Thai auch nicht sehr verständlich, zeigte aber Bilder vom zerschmetterten Buddha und einem toten Verrückten. Jedenfalls gibt es in Bangkok einen hinduistischen Schrein (Erawan Schrein) direkt unter dem Skytrain in Ploenchit/Rajprasong, der eigentlich nur ein Schrein mit einer Brahmafigur war, aber immer von vielen Thais besucht wurde.
 

@@ -2,10 +2,12 @@
 title: König Reich
 date: 2007-09-23T17:43:35+00:00
 url: /2007/09/koenig-reich/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In einer (Bilder-) [Liste der reichsten Monarchen][1] ("The World's Richest Royals") bei Forbes.com steht König Bhumibol Adulyadej von Thailand auf Platz 5.
 

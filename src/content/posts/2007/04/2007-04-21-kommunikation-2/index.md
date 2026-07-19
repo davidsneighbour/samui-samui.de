@@ -2,10 +2,12 @@
 title: Kommunikation
 date: 2007-04-21T05:38:11+00:00
 url: /2007/04/kommunikation-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eben. Telefon klingelt, ich kuck aufs Display, ein Name steht drauf, ich heb ab:
 

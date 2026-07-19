@@ -3,6 +3,12 @@ title: Songkran – mal wieder Neujahr
 date: 2005-04-12T05:13:00+00:00
 url: /2005/04/songkran-mal-wieder-neujahr/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Jawollja! Ich persönlich finde ja, dass wir viel zu wenig zu feiern haben hier auf unserer kleinen Insel weshalb es sehr gut ist, dass endlich mal wieder, nach einer langen feiertagslosen Durststrecke, Feiertage angesagt sind.
 

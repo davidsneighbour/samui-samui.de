@@ -3,6 +3,12 @@ title: Knastaufstand (Thaistyle)
 date: 2006-10-28T07:55:45+00:00
 url: /2006/10/knastaufstand-thaistyle/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Drei Orte gibt es in Thailand, in denen man sich als Farang nicht gerne aufhalten möchte. Einer dieser Orte ist eines der Thai-Gefängnisse. Sie sind in der Regel überfüllt, unhygienisch und von unausgebildetem Personal bestückt das gegen Bezahlung Vergünstigungen erlaubt und bei Zahlungsunfähigkeit schon mal lebenserhaltende Hilfsleistungen vergisst oder verlangsamt. Irgendwo habe ich mal gelesen, dass man nach einem von fünf Aufenthalten hinter Gittern nicht lebend das Gelände verlässt.
 

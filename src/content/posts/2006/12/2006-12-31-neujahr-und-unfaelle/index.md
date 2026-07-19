@@ -2,10 +2,12 @@
 title: Neujahr und Unfälle
 date: 2006-12-31T00:25:48+00:00
 url: /2006/12/neujahr-und-unfaelle/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Neujahr und Unfälle sind ein Thema, das in Thailand sehr häufig in einem Satz gesagt wird. Sowohl zu Songkran als auch zum gregorianischen Jahreswechsel passieren die mit Abstand häufigsten Unfälle, meistens durch Alkohol am Steuer verursacht.
 

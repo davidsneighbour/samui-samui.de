@@ -5,6 +5,12 @@ url: /2005/08/kajalstift/
 dsq_thread_id:
   - "3216244588"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute morgen stand ich im etwas zu dunklen Bad vor dem halb beschlagenen Spiegel, betrachtete deprimiert meinen erstaunlich unmotiviert schlaff herunterhängenden Bauch, sah mir in die blutunterlaufenen dunkel beringten Augen und sagte zu mir selbst (ich spreche häufig zu mir selbst beim morgendlichen Reinigungsritual, das vermittelt ein gewisses uneinsiedlerisches Gefühl und bereitet meine samtene Stimme bereits im dampfgetränkten Ambiente meines Spas auf die Lasten des Alltags vor): "Jetzt wo du Autor mit Vertrag bist, könntest du ja nochmal die Sache mit dem Kajalstift überdenken, vielleicht sieht das ja doch ganz gut aus."
 

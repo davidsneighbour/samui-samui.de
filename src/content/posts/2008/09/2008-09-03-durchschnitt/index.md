@@ -2,10 +2,12 @@
 title: Durchschnitt
 date: 2008-09-03T03:53:39+00:00
 url: /2008/09/durchschnitt/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute erreichte mich [diese aussagekräftige Meldung][1]. Wer so wie ich des Thais noch nicht ausreichend lesenderweise befähigt ist, wird sich so seine Gedanken machen, was der Artikel uns sagen will.
 

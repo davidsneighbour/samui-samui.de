@@ -3,6 +3,12 @@ title: Buchvermehrung
 date: 2005-07-26T05:34:20+00:00
 url: /2005/07/buchvermehrung/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Nun habe ich ja gestern endlich Mister Brysons Nicht-Travel-Doku zu Ende gelesen und war entsprechend buchlos. Also knatterte ich mit meinem kleinen roten Moped nach getaner Arbeit durch die Beach-Street unseres kleinen Küstenortes auf der Suche nach einem Buchladen mit Harry-Potter-Verkauf (ich habe den fünften Band immer noch nicht gelesen --- ja, ich brauche immer etwas länger). Gefunden ward ein Laden schnell --- die Filiale einer Kette aus Bangkok, die gebrauchte Bücher verkauft.
 

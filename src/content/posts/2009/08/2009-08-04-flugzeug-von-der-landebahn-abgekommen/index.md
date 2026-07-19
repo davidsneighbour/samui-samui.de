@@ -2,10 +2,12 @@
 title: Flugzeug von der Landebahn abgekommen
 date: 2009-08-03T17:55:05+00:00
 url: /2009/08/flugzeug-von-der-landebahn-abgekommen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Man munkelt, dass ein Flugzeug auf dem Flughafen in Samui bei starken Regen und Seitenwind von der Landebahn abgekommen ist und mit dem Tower kollidiert sei. Alles was eine Sirene auf dem Dach hat ist jedenfalls zur Zeit in eine Richtung unterwegs.
 

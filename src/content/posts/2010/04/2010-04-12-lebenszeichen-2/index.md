@@ -3,6 +3,12 @@ title: Lebenszeichen
 date: 2010-04-11T22:53:55+00:00
 url: /2010/04/lebenszeichen-2/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/4513675671/" title="Germanytrip 2010: Türkeil"><img src="//farm3.static.flickr.com/2303/4513675671_445e0cd4d5.jpg" alt="Germanytrip 2010: Türkeil" /></p>

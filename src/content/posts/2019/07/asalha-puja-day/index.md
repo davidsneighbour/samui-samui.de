@@ -4,9 +4,15 @@ description: ""
 date: 2019-07-15T17:41:29+07:00
 lastmod: 2019-07-15T17:41:29+07:00
 tags:
-    - feiertage
-    - religion
-    - buddhismus
+  - feiertage
+  - religion
+  - buddhismus
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![While the Buddha was spending the tenth vassa in the Parileyyaka Forest, an elephant and a monkey ministered to his needs. (British Library, Or. 14823, f. 30 / Public Domain)](./parileyyaka-forest.jpg)

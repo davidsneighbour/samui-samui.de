@@ -3,6 +3,12 @@ title: Thai f??r Sprichwortfetischisten II
 date: 2005-11-09T03:31:00+00:00
 url: /2005/11/thai-fuer-sprichwortfetischisten-ii/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Neulich (schur, kram, blätter --- ah, <txp:gho_permalink id="469">hier</txp:gho_permalink>) meinte ich einen tollen Thaispruch loswerden zu müssen und wurde mitten im Schreiben, ehm, zu einem, ehm, dringenden und unerwarteten, ehm, Patientenbesuch gerufen. Genau. Patientenbesuch. Das wars.
 

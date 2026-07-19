@@ -2,10 +2,12 @@
 title: Das dritte Mal dieses Jahr.
 date: 2006-01-30T20:20:00+00:00
 url: /2006/01/dasdrittemaldiesesjahr/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="455" src="//static.flickr.com/24/93368867_b78933511a.jpg" alt="Third time this year" />][1]
 

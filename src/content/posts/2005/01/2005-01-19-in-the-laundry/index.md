@@ -5,6 +5,12 @@ url: /2005/01/in-the-laundry/
 dsq_thread_id:
   - "6412166507"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Da dieses Weblog anscheinend eine Sammlung erster Male wird, möchte ich auch diesen Tag mit der Schilderung einmaliger erster Male beginnen.
 

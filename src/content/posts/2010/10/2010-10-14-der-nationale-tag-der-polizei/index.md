@@ -3,6 +3,12 @@ title: Der Nationale Tag der Polizei
 date: 2010-10-14T14:04:59+00:00
 url: /2010/10/der-nationale-tag-der-polizei/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/64437533/" title="Police Sergeant Indifferent"><img src="//farm1.static.flickr.com/25/64437533_1cd42bd2bb.jpg" alt="Police Sergeant Indifferent" /></p>

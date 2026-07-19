@@ -6,6 +6,12 @@ tags:
   - presseschau
   - schildkroete
   - tierwelt
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Die Schildkröte "Omsin" ("Sparschwein") lebte in einem Gewässer im thailändischen Sriracha, etwa 120 Kilometer südöstlich von Bangkok. Als auffiel, dass die Meeresschildkröte beim Schwimmen ein Bein nicht benutzte und zunehmend Schwierigkeiten beim Atmen hatte, wurde sie in eine Schutzanlage gebracht und dort untersucht.

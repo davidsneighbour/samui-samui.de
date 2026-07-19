@@ -3,6 +3,12 @@ title: Klimaanlage
 date: 2005-01-16T01:34:23+00:00
 url: /2005/01/klimaanlage/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Dem Thai wird ja allgemein nachgesagt, er habe ein krankes Verhätnis zu allerlei kühlenden Geräten. Ich wurde im Vorfeld vorgewarnt, dass die Klimaanlagen eiskalt gestellt sind und man sich schnell eine Erkältung holen könne.
 

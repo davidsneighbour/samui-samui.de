@@ -2,10 +2,12 @@
 title: Swimming-Pool
 date: 2008-09-10T05:37:20+00:00
 url: /2008/09/swimming-pool/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Dass der Swimming-Pool ziehen würde, wusste ich schon. Irgendwie denken alle Leute immer, das "wir Farangs in Thailand" den ganzen Tag am Pool oder in der Hängematraze liegen. Was grö?tenteils daran liegen könnte, dass viele Farangs, die ich kenne, ihre Telephonate nach Hause mit weitschweifigen Erklärungen beginnen, dass sie gerade am Pool in der Hängematte liegen... auch wenn es gerade aus Kübeln gie?t.
 

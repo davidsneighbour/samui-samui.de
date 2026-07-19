@@ -2,10 +2,12 @@
 title: Kurzschnitt
 date: 2008-07-15T14:46:27+00:00
 url: /2008/07/kurzschnitt-3/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2672731121/" title="Summer cut"><img src="//farm4.static.flickr.com/3104/2672731121_2acb016f24.jpg" alt="Summer cut" /></a></p>

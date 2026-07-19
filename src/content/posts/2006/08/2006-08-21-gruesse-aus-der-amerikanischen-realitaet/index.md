@@ -2,10 +2,12 @@
 title: Grü?e aus der (amerikanischen) Realität
 date: 2006-08-20T22:53:00+00:00
 url: /2006/08/gruesse-aus-der-amerikanischen-realitaet/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Zone Reality][1] ist ein lustiger kleiner britischer Sender der seinen Weg ins thailändische Kabelnetz gefunden hat. Wenn nicht achtziger Jahre 911-Serien kommen dann kann man sehen wie sich Cowboys die Hoden beim Bullriding ruinieren, Drogenhändler verdeckte Ermittler vor versteckter Kamera verkloppen, kleine Idioten in einem Überlaufbecken bei Regen Skateboard fahren und fast ertrinken, Operationen am offenen Herzen fast schief gehen und fanatische Hundebesitzer in Kanalrohren feststecken, weil sie ihren Lieblingen hinterherkraulen und vom Umfang das Rohr bei weitem übertreffen.
 

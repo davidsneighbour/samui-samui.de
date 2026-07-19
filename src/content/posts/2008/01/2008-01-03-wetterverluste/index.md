@@ -2,10 +2,12 @@
 title: Wetterverluste
 date: 2008-01-03T01:35:26+00:00
 url: /2008/01/wetterverluste/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Dr. Schmidt hat heute die Insel verlassen. Des Wetters wegen. Zwei Tage früher. Das ihn beherbergende Ressort hat dadurch doppelt soviel Geld verloren, wie ich im vergangenen Jahr verdient habe. Bonzen (auf beiden Seiten).
 

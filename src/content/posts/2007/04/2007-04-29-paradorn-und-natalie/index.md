@@ -2,10 +2,12 @@
 title: Paradorn und Natalie
 date: 2007-04-29T05:50:41+00:00
 url: /2007/04/paradorn-und-natalie/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Natalie Glebova][1] war mal Miss Universum</a> und arbeitet derzeit als <a href="950">Brauereipferd und Appetizer in Thailand. [Paradorn Srichaphan][2] ist ein ehemals ziemlich erfolgreicher Tennis-Spieler, der es schon mal bis auf Platz neun der Weltrangliste gebracht hat und als einer der erfolgreichsten Thais gehandelt wird, derzeit aber eher durch Ausfälle in frühen Runden glänzt.
 

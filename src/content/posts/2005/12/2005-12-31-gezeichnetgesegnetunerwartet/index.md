@@ -3,6 +3,12 @@ title: Gezeichnet. Gesegnet. Unerwartet.
 date: 2005-12-30T22:08:00+00:00
 url: /2005/12/gezeichnetgesegnetunerwartet/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="455" src="//static.flickr.com/40/79626076_e9085e2f8f.jpg" alt="Signed. Blessed. Unexpected." />][1]
 

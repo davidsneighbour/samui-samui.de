@@ -2,10 +2,12 @@
 title: Mit den Waffen der Frauen
 date: 2007-06-23T23:10:25+00:00
 url: /2007/06/mit-den-waffen-der-frauen-fuers-koenigreich/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/235.jpg)
 

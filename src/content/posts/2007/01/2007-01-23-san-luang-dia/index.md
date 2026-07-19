@@ -2,10 +2,12 @@
 title: San Luang Dia
 date: 2007-01-23T05:28:41+00:00
 url: /2007/01/san-luang-dia/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <txp:smallmap lat="12.675684" lng="101.070533" width="200" height="200" zoom="18" /> Am Wochenende habe ich mal die hiesige Chinesenschrein-Szene aufgemischt. In Ban Chang gibt es drei sehr schöne Tempel (die ich alle nicht besucht habe) und einige chinesische Schreine. San Luang Dia ist ein kleiner Schrein, an dem am Samstag und Sonntag ein Fest gefeiert wurde.
 

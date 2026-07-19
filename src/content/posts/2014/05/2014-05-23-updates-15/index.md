@@ -4,10 +4,12 @@ date: 2014-05-23T14:31:27+00:00
 url: /2014/05/updates-15/
 dsq_thread_id:
   - "2914969610"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Das nationale Friedens- und Ordnungs-Beibehaltungs-Komittee. Im Fernsehen.
 

@@ -3,6 +3,12 @@ title: Der gro?e Regen II
 date: 2005-12-02T03:49:00+00:00
 url: /2005/12/der-grosse-regen-ii/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Nun. Da es immer noch regnet wird es langsam wirklich langweilig <txp:gho_permalink id="540">von einem dieser Tage</txp:gho_permalink> zu erzählen. Machen wirs also kurz. Es regnete und mein Moped verschwand unter Wasser. Die Thais die an dieser Kurve lebten wussten aber schon Bescheid dass sich selbst überschätzende Farangs meistens im Rudel kommen und hoben das kleine rote Etwas schnell aus dem Wasser. Hin und hergeschüttelt, Wasser kurz ablaufen lassen, kurz in den Tank schnüffeln ob Wasser reingekommen ist, nein, mich aufs Moped setzen und gute Weiterreise wünschen. Das wars.
 

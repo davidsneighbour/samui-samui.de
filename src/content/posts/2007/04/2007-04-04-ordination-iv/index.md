@@ -2,10 +2,12 @@
 title: Ordination IV
 date: 2007-04-04T13:39:10+00:00
 url: /2007/04/ordination-iv/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/446331039/"><img src="//farm1.static.flickr.com/185/446331039_cc398b93bb.jpg" class="flickr-photo" alt="" /></a></p>

@@ -7,9 +7,15 @@ tags:
   - botschaft
   - sicherheit
 resources:
-- src: "elefand.png"
-  name: "elefand"
-  title: "Straßenköter (Symbolphoto, Pokki, ca. 2007)"
+  - src: "elefand.png"
+    name: "elefand"
+    title: "Straßenköter (Symbolphoto, Pokki, ca. 2007)"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Elefand - Elektronische Erfassung von Deutschen im Ausland](./elefand.png)

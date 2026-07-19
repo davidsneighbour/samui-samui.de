@@ -3,6 +3,12 @@ title: Kein Support aus den USA
 date: 2006-07-18T21:27:00+00:00
 url: /2006/07/kein-support-aus-den-usa/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Demnächst (man verwende einen möglichst schwammigen Begriff, wenn man das genaue Datum nicht kennt) wird ein neuer UN-Generalsekretär gewählt.
 

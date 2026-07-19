@@ -2,10 +2,12 @@
 title: Was für eine Regierung!
 date: 2008-12-20T00:41:04+00:00
 url: /2008/12/was-fuer-eine-regierung/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

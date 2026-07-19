@@ -4,10 +4,12 @@ date: 2007-03-03T07:55:19+00:00
 url: /2007/03/der-grosse-tag-zweiter-und-dritter-versuch/
 dsq_thread_id:
   - "6412166305"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Regelmässige Leser dieser kleinen Publikation werden sich erinnern, dass ich anstrebe, aus meiner kleinen Hütte mit den Hunden gemeinsam ins Internet zu gehen. Schneller als bisher mit dem 5kB-Mobilemodem. DSL ist eine gute Sache (wir Kenner nennen es hier ADSL2+) und überall verfügbar. Nur nicht in meiner Hütte.
 

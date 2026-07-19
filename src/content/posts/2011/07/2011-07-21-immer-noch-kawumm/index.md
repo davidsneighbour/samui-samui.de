@@ -3,6 +3,12 @@ title: (Immer noch) Kawumm
 date: 2011-07-21T13:01:52+00:00
 url: /2011/07/immer-noch-kawumm/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In den letzten Tagen ist das Internet wieder mal unverhältnismä?ig schlecht. Mal routen sie alles über irgendwelche Inseln hinten um den Erdball rum, dann halten Verbindungen gerade mal ein paar Sekunden, dann bekomme ich aller 5 Minuten eine neue IP oder sie hängen einfach mal die ganze Insel vom Netz. Die wohlinformierte Support-Hotline sagt dann gerne "In 24 hour will work again" --- einmal am Tag. Von den letzten 30 Tagen war ich ganze 20 Tage online.
 

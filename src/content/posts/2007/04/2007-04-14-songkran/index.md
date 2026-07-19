@@ -2,10 +2,12 @@
 title: Songkran
 date: 2007-04-14T08:25:45+00:00
 url: /2007/04/songkran/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wir befinden uns mitten im Songkran, dem thailändischen Jahreswechsel. Das offizielle Neujahr in Thailand ist seit 1941 der gleiche Tag, der im gregorianischen Kalender das Neujahr darstellt, der 1. Januar. Das ist nicht der richtige Gregorianische Jahresanfang, sondern der Jahresanfang des Suriyakati-Kalenders, den man auch als gregorianischen Kalender Thailands bezeichnet. Gezählt wird allerdings vom Todestag Gautama Buddhas, 543 v. Chr. an, so dass wir nun das Jahr 2550 haben.
 

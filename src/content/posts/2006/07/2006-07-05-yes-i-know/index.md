@@ -3,6 +3,12 @@ title: Yes I know
 date: 2006-07-05T13:12:37+00:00
 url: /2006/07/yes-i-know/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich: Hmmm. I am getting old.
 

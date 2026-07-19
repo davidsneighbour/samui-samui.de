@@ -3,6 +3,12 @@ title: Manches ändert sich eben
 date: 2006-05-30T12:10:00+00:00
 url: /2006/05/manchesaendertsicheben/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Manches ändert sich eben, stellte ich neulich fest. Früher schrieb ich mehr ins "Blog" wenn ich Stress jedweder Art hatte. Manchmal bekam das Blog dann eine Art Kommunikationsfunktion. Heute finde ich Leute die meinen über ihre Blogs kommunizieren zu müssen lächerlich. Wer nicht in der Lage ist, Kritikpunkte am Ort des Vorkommens anzubringen sollte sich nicht als Kommunikator bezeichnen und einfach die Klappe halten. Und so finde ich immer häufiger Satzfetzen im Entwürfeordner --- "veröffentliche" aber weniger. Ob das gut ist halte ich mal eher für fraglich --- dumme Kommentare jedenfalls hält es mir fern. Allerdings sind viele Einträge dann auch gnadenlos veraltet wenn sie denn veröffentlichenswert sind (siehe Fleur) und "die Leute" fragen immer, ob es mir gut geht.
 

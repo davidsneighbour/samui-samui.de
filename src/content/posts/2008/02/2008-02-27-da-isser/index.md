@@ -2,10 +2,12 @@
 title: Da isser!
 date: 2008-02-27T13:20:38+00:00
 url: /2008/02/da-isser/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/250.jpg) beim Verlassen des Airports, dann gings sofort zum Obersten Gerichtshof, wo er sich den Anklagen stellte und bereits wieder gegen Kaution von 8 Millionen Baht frei gelassen wurde.
 

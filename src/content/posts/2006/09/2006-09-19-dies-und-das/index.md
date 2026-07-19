@@ -2,10 +2,12 @@
 title: Dies und das
 date: 2006-09-19T15:08:00+00:00
 url: /2006/09/dies-und-das/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 * der Thaibaht ist auf den [niedrigsten Stand seit Jahren][1] gefallen (danke! wirklich! ich hab grade ein paar Dollar für die nächste Monatsmiete ueberwiesen)
 * Internet fällt sukzessive aus

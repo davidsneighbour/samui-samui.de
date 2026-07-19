@@ -2,10 +2,12 @@
 title: 'Grippecounter: 662'
 date: 2009-06-20T14:58:21+00:00
 url: /2009/06/grippecounter-662/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wir haben inzwischen [662 offiziell bekanntgegebene A(H1N1) Grippefälle im Lande][1]. Keiner davon ist gestorben, 11 Personen wurden in Krankenhäuser eingewiesen und mehr als 500 bereits wieder gesund.
 

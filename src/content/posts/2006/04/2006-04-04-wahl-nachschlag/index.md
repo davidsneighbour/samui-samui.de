@@ -3,6 +3,12 @@ title: Wahl. Nachschlag.
 date: 2006-04-03T19:40:00+00:00
 url: /2006/04/wahl-nachschlag/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Warten auch Sie auf die Ergebnisse? Irgendwie zählt man hier langsamer. Ich habe gehört, der Premierminister will sich die Ergebnisse gestern Abend anhören. Hat er aber wohl nicht, sonst hätte man ja in den Nachrichten was gesehen. Wie auch immer.
 

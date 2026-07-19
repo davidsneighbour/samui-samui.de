@@ -3,11 +3,14 @@ title: Ein spezieller Panda
 date: 2009-06-18T22:31:59+00:00
 url: /2009/06/ein-spezieller-panda/
 
-
-
 tags:
   - panda
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der kleine Panda in Chiang Mai ist nicht nur ausserhalb der normalen Panda-Geburtsmonate auf die Welt gekommen, er (also sie) hat auch eine nicht ganz so normale Färbung. Normalerweise haben Pandas schwarzes Fell an den Beinen, bei Namenlos gehen sie hinten [nur bis an die Knie][1].
 

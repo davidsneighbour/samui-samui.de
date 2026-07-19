@@ -3,10 +3,15 @@ title: "Cookies für Alle!"
 date: 2019-05-30T19:25:48+07:00
 url: /2019/05/cookies-fuer-alle
 tags:
-- cookies
-- onlinekram
-- meinungsmache
-
+  - cookies
+  - onlinekram
+  - meinungsmache
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Nein, andere Cookies! Photo von Denisse Leon auf Unsplash](./cookies.jpg)

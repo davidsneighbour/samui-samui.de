@@ -2,10 +2,12 @@
 title: The last sunset
 date: 2006-12-31T05:20:42+00:00
 url: /2006/12/the-last-sunset/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 _Stellen Sie sich hier ein Photo vom letzten Sonnenuntergang an meinem Lieblingsstrand vor._
 

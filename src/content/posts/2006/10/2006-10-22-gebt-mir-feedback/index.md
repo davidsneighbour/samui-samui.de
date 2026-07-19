@@ -4,10 +4,12 @@ date: 2006-10-22T09:12:00+00:00
 url: /2006/10/gebt-mir-feedback/
 dsq_thread_id:
   - "3560666037"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 (Feedback ist ein nettes denglisches Wort für Rückmeldungen)
 

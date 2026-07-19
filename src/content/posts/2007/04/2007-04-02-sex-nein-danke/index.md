@@ -2,10 +2,12 @@
 title: Sex? Nein danke!
 date: 2007-04-02T06:06:58+00:00
 url: /2007/04/sex-nein-danke/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Das wars. Nun ist Schluss mit lustig.
 

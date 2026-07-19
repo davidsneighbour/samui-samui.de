@@ -2,10 +2,12 @@
 title: Die Frankensteinkoalition
 date: 2008-12-11T23:09:42+00:00
 url: /2008/12/die-frankensteinkoalition/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Viel ist geschehen in den vergangenen Wochen der, ehm, Rekonziliation. Oder wie auch immer man die Ruhe vor dem nächsten Sturm in der thailändischen Politikszene nennen mag.
 

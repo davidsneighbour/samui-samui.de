@@ -3,6 +3,12 @@ title: Echte Helden
 date: 2005-03-08T19:31:00+00:00
 url: /2005/03/echte-helden/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Echte Helden stecken ihre Hemden und T-Shirts (wenn es denn T-Shirts sein müssen) nicht in die Hose. Soviel nur am Anfang. Aber schauen wir uns doch mal das Cover der Veröffentlichung der Inhaber des fünften Platzes der thailändischen Charts an:
 

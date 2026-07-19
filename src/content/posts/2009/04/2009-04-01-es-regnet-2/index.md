@@ -2,10 +2,12 @@
 title: Es regnet
 date: 2009-03-31T21:50:41+00:00
 url: /2009/04/es-regnet-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3403549915/" title="Its raining"><img src="//farm4.static.flickr.com/3439/3403549915_b92190c1b2.jpg" alt="Its raining" /></a></p>

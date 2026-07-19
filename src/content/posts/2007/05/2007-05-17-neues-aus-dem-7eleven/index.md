@@ -2,10 +2,12 @@
 title: Neues aus dem 7eleven
 date: 2007-05-17T00:27:43+00:00
 url: /2007/05/neues-aus-dem-7eleven/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eben im 7eleven, ich packte Würstchen auf die Theke und zwischen mir und der Kassen-Thai entspann sich ein kleiner Dialog.
 

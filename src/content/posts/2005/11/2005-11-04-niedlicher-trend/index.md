@@ -3,6 +3,12 @@ title: Niedlicher Trend
 date: 2005-11-04T02:00:00+00:00
 url: /2005/11/niedlicher-trend/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich stelle einen niedlichen Trend fest: Thais (zumeist weiblicher Natur) nennen mich neuerdings öfters Bedd. Das klingt ganz süß aus so einem Munde. Das "tr" ist dann doch etwas schwer auszusprechen --- es gehört nicht zum Lautschatz der Thais. (Na? Lautschatz? Wortschatz? Lautschatz? Ich möchte das mal eben in den Duden eintragen lassen.)
 

@@ -4,10 +4,12 @@ date: 2007-02-09T04:01:14+00:00
 url: /2007/02/warum-die-thais-so-haeufig-luegen/
 dsq_thread_id:
   - "3363411412"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute mal ein kleiner sprachwissenschaftlicher Witz: Warum lügen Thais so häufig?
 

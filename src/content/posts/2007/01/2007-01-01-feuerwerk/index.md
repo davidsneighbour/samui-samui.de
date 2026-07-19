@@ -2,10 +2,12 @@
 title: Feuerwerk
 date: 2006-12-31T21:36:07+00:00
 url: /2007/01/feuerwerk/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/340316549/"><img src="//farm1.static.flickr.com/147/340316549_7fe85fc4eb.jpg" class="flickr-photo" alt="" /></a></p>

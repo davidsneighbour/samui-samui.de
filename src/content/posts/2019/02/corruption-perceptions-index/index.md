@@ -3,14 +3,20 @@ title: "Corruption Perceptions Index 2018"
 date: 2019-02-03T18:44:00+07:00
 url: /2019/02/corruption-perceptions-index
 tags:
-- korruption
-- listen
+  - korruption
+  - listen
 leute:
-- prawit wongsuwan
+  - prawit wongsuwan
 resources:
-- src: "corruption-perceptions-index.jpg"
-  name: "corruption-perceptions-index"
-  title: "Corruption Perceptions Index 2019"
+  - src: "corruption-perceptions-index.jpg"
+    name: "corruption-perceptions-index"
+    title: "Corruption Perceptions Index 2019"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Corruption Perceptions Index 2019](./corruption-perceptions-index.jpg)

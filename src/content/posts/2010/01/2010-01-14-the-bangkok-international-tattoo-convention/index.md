@@ -3,6 +3,12 @@ title: The Bangkok International Tattoo Convention
 date: 2010-01-14T00:49:31+00:00
 url: /2010/01/the-bangkok-international-tattoo-convention/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wer was auf sich hält, hält eine Tattoo-Messe ab. Und da die Touristen ausbleiben muss auch Thailand sich neue Wege überlegen, um Leute (und deren Geld) ins Land zu schaufeln.
 

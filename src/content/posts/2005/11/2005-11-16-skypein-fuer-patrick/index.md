@@ -3,6 +3,12 @@ title: SkypeIn f??r Patrick
 date: 2005-11-16T02:17:00+00:00
 url: /2005/11/skypein-fuer-patrick/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So. Seit heute kann man bei [Skype][1] auch SkypeIn-Nummern für Deutschland kaufen. Das heisst, Leutchens in Deutschland rufen eine Nummer in Deutschland an und landen auf meinem Arbeitsrechner in Thailand. Das ist fast so, als ob ich immer noch in Lübeck sitzen würde.
 

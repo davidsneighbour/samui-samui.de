@@ -5,9 +5,15 @@ date: 2019-08-11T20:09:52+07:00
 lastmod: 2019-08-11T20:09:52+07:00
 url: /2019/08/yinglucks-grosser-traum
 tags:
-    - serbien
+  - serbien
 leute:
-    - yingluck shinawatra
+  - yingluck shinawatra
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Yingluck Shinawatra in den guten alten Zeiten, als sie noch "definitiv" beschwor, das Land nicht zu verlassen.](./yingluck-shinawatra.jpg)

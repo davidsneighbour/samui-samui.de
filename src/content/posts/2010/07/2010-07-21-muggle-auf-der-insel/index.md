@@ -3,6 +3,12 @@ title: Muggle auf der Insel
 date: 2010-07-21T12:23:02+00:00
 url: /2010/07/muggle-auf-der-insel/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich weiss, so langsam verkommen diese Seiten hier zu einem "wer ist auf Samui"-Magazin --- was solls...
 

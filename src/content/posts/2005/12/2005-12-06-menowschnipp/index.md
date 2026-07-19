@@ -5,6 +5,12 @@ url: /2005/12/menowschnipp/
 dsq_thread_id:
   - "6412166782"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="455" src="//static.flickr.com/18/70791144_617df2e83a.jpg" alt="Me now. Schnipp." />][1]
 

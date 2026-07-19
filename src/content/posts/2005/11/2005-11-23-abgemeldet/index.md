@@ -3,6 +3,12 @@ title: Abgemeldet
 date: 2005-11-22T20:09:00+00:00
 url: /2005/11/abgemeldet/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Kohls Mädel (Bangkok Post) wurde gestern das Ruder in die Hand gegeben und ich habe eben meine Abmeldung ans Einwohnermeldeamt in Lübeck gefaxt (ein Schelm wer da einen Zusammenhang sieht). Man ist jetzt in Maenam gemeldet. Bin gespannt wie flexibel die sind mit so einem Faxkram. Hab noch schnell ein Anschreiben dazugedichtet und sexuelle Gefälligkeiten bei bevorzugter Behandlung versprochen.
 

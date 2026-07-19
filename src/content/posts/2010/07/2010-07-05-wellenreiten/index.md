@@ -3,6 +3,12 @@ title: Wellenreiten
 date: 2010-07-05T00:50:14+00:00
 url: /2010/07/wellenreiten/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/4763589169/" title="Dirty5"><img src="//farm5.static.flickr.com/4078/4763589169_0b94332b37.jpg" alt="Dirty5" /></p>

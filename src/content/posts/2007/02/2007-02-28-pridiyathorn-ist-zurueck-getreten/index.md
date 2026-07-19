@@ -2,10 +2,12 @@
 title: Pridiyathorn ist zurück getreten
 date: 2007-02-28T00:57:31+00:00
 url: /2007/02/pridiyathorn-ist-zurueck-getreten/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eben ist der stellvertretende Premierminister und Finanzminister der ?bergangsregierung [Pridiyathorn Devakula zurück getreten][1].
 

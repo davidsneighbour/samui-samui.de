@@ -3,6 +3,12 @@ title: Grünes schleimiges Naschzeug.
 date: 2005-02-24T02:21:00+00:00
 url: /2005/02/gruenes-schleimiges-naschzeug/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/55.jpg)
 

@@ -5,6 +5,12 @@ url: /2015/12/schweizer-sicherheitsrisiko/
 tags:
   - sicherheit
   - touristen
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Über Bomben macht man dieser Tage an Bord von Flugzeugen einfach keine Witze. Das durfte ein Schweizer [auf dem Weg in den Urlaub][1] dieser Tage erfahren.

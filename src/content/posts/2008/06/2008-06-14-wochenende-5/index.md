@@ -2,10 +2,12 @@
 title: Wochenende
 date: 2008-06-13T18:40:43+00:00
 url: /2008/06/wochenende-5/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2577535784/" title="Weekend. Again."><img src="//farm4.static.flickr.com/3021/2577535784_9da224a900.jpg" alt="Weekend. Again." /></a></p>

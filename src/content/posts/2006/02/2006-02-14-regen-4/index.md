@@ -3,6 +3,12 @@ title: Regen
 date: 2006-02-13T23:49:00+00:00
 url: /2006/02/regen-4/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich bedauere ja Leute, die auf einsame kleine Inseln schwimmen um ein verlängertes Wochenende zu verleben das dann _so_ verregnet ist wie das Vergangene.
 

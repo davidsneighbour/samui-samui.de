@@ -5,16 +5,22 @@ date: 2021-03-19T19:45:58+07:00
 lastmod: 2021-03-19T19:45:58+07:00
 url: /2021/03/koenig-trifft-koenig
 tags:
-    - elvis
-    - bhumibol-adulyadej
+  - elvis
+  - bhumibol-adulyadej
 hide_comments: false
 hide_sharebuttons: false
 hide_related: false
 
 resources:
-    - src: "king-meets-king.jpg"
-      name: "king-meets-king"
-      title: "Da! König trifft den King."
+  - src: "king-meets-king.jpg"
+    name: "king-meets-king"
+    title: "Da! König trifft den King."
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 <dnb-youtube videoid="zl0PwLvFM7U"></dnb-youtube>

@@ -5,6 +5,12 @@ url: /2006/02/die-verfluchte-woche/
 tags:
   - pokki
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die vergangene Woche war verflucht. Das war eigentlich allen klar, nur mir nicht. Alles begann mit dem unschönen Ableben meiner Nachbarn am Sonntag (was ich erst Dienstag abend wusste, da wars aber schon zu spät). Aber mal schön statistisch der Reihenfolge nach:
 

@@ -4,10 +4,12 @@ date: 2007-02-27T22:59:23+00:00
 url: /2007/02/venusfliegenfalle/
 dsq_thread_id:
   - "3412108570"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/223.jpg)
 

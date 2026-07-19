@@ -4,10 +4,12 @@ date: 2006-12-20T06:03:16+00:00
 url: /2006/12/dunkle-ecken-in-bangkok/
 dsq_thread_id:
   - "3669487361"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eine Radiostation in Bangkok hat eine Liste der gefährlichsten Ecken Bangkoks heraus gebracht. Darunter sind:
 

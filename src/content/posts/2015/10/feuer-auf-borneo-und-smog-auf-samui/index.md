@@ -7,9 +7,15 @@ tags:
   - smog
   - wetter
 resources:
-- src: "borneo-feuer-smog.jpg"
-  name: "borneo-feuer"
-  title: "Feuer auf Borneo"
+  - src: "borneo-feuer-smog.jpg"
+    name: "borneo-feuer"
+    title: "Feuer auf Borneo"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Feuer auf Borneo aus Satellitensicht](./borneo-feuer-smog.jpg)

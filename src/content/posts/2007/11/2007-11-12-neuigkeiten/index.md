@@ -2,10 +2,12 @@
 title: Neuigkeiten
 date: 2007-11-11T23:47:11+00:00
 url: /2007/11/neuigkeiten/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Neuigkeiten von General Sonthi Boonyaratkalin][1]:
 

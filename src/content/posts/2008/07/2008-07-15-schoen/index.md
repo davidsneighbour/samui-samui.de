@@ -2,10 +2,12 @@
 title: Schön
 date: 2008-07-15T13:12:10+00:00
 url: /2008/07/schoen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/254.png)
 

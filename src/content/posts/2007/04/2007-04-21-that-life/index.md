@@ -2,10 +2,12 @@
 title: That life
 date: 2007-04-21T11:47:26+00:00
 url: /2007/04/that-life/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/466997652/"><img src="//farm1.static.flickr.com/194/466997652_56c1ffb5bd.jpg" class="flickr-photo" alt="" /></a></p>

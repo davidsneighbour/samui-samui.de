@@ -4,10 +4,12 @@ date: 2008-08-05T15:00:50+00:00
 url: /2008/08/samui-in-den-news/
 dsq_thread_id:
   - "3030533169"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Hin und wieder sollte man Marketing in eigener Sache machen, hier also die neuesten Neuigkeiten aus Samui:
 

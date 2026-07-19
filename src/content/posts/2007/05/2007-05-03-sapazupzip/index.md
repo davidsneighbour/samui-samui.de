@@ -2,10 +2,12 @@
 title: Sapazupzip!!!
 date: 2007-05-03T12:16:29+00:00
 url: /2007/05/sapazupzip/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [sapazupzip.com][1] will/soll/wird die Antwort der thailändischen Regierung auf die überall aufpoppenden Websites gegen die Regierung sein. Jeder darf dort seine Meinung zur Regierung ablegen. Die Regierung darf Beiträge löschen.
 

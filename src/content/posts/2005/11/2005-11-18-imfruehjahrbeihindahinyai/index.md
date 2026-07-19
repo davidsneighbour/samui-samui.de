@@ -3,6 +3,12 @@ title: Im Fr??hjahr bei Hin Da Hin Yai
 date: 2005-11-18T04:57:00+00:00
 url: /2005/11/imfruehjahrbeihindahinyai/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="420" src="//static.flickr.com/33/64447100_b4da095005.jpg" alt="Hin Da Hin Yai" />][1]
 

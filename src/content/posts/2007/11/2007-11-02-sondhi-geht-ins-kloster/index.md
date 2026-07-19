@@ -2,10 +2,12 @@
 title: Sondhi geht ins Kloster
 date: 2007-11-01T20:31:08+00:00
 url: /2007/11/sondhi-geht-ins-kloster/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Sondhi --- Leute die vor zwei Jahren diese Seiten schon mal aus der Ferne betrachtet haben werden sich erinnern, dass das der "Medienmogul" ist, der am lautesten auf den Demonstrationen gegen Thaksin, damals seines Zeichens Premierminister von Thailand und Ex-bester Freund von Sondhi, parliert hat --- Limthongkul wird in der kommenden Woche [ins Kloster gehen][1].
 

@@ -2,10 +2,12 @@
 title: Feiertag
 date: 2006-09-19T15:53:00+00:00
 url: /2006/09/feiertag/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der Mittwoch wurde soeben zum Feiertag erklärt. Das heisst unter anderem, dass die Banken und die Börse geschlossen sind.
 

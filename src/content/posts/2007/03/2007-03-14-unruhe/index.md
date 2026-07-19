@@ -2,10 +2,12 @@
 title: Unruhe
 date: 2007-03-14T09:13:05+00:00
 url: /2007/03/unruhe/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich überlege häufiger, ob ich was über Anschläge im Süden Thailands schreiben soll. Ich dachte auch schon über einen Google-Maps-Mashup mit den Orten der Anschläge nach, verwarf das dann aber als zu zynisch. Man könnte täglich darüer schreiben und ich werde bei Gelegenheit einen lägeren Eintrag zur Geschichte der Unruhen schreiben (liegt wie immer im Entwürfe-Ordner herum).
 

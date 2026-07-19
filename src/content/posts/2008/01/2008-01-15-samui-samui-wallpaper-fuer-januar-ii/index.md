@@ -4,10 +4,12 @@ date: 2008-01-14T23:33:44+00:00
 url: /2008/01/samui-samui-wallpaper-fuer-januar-ii/
 dsq_thread_id:
   - "2899566457"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2195317638/" title="Samui-Samui-Wallpaper January 2551 II"><img src="//farm3.static.flickr.com/2309/2195317638_4beb0c8757.jpg" alt="Samui-Samui-Wallpaper January 2551 II" /></a></p>

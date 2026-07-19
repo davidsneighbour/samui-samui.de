@@ -2,10 +2,12 @@
 title: 15 verängstigte Farangs in einem klapperigen Bus
 date: 2006-09-23T20:25:00+00:00
 url: /2006/09/15-veraengstigte-farangs-in-einem-klapperigen-bus/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://flickr.com/photos/schreibblogade/250244877/"><img src="//static.flickr.com/89/250244877_cdca847c31.jpg" alt="Ein Bus" /></a></p>

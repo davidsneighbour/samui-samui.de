@@ -2,10 +2,12 @@
 title: Kleine Wunder
 date: 2007-05-08T23:46:13+00:00
 url: /2007/05/kleine-wunder/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/490810588/"><img src="//farm1.static.flickr.com/205/490810588_bf67cb18ae.jpg" class="flickr-photo" alt="" /></a></p>

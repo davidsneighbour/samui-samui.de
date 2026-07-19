@@ -3,6 +3,12 @@ title: Experiment Demokratie
 date: 2006-10-24T20:29:07+00:00
 url: /2006/10/experiment-demokratie/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Zur Zeit kann man in Thailand recht gut nachvollziehen, warum es "Experiment Demokratie" heisst, wenn man von thailändischer Demokratie spricht. Damit meine ich nicht die Übergangsregierung und die Arbeiten an der neuen Verfassung die meiner unwissenden Meinung nach sehr gut und schnell voran gehen. Ich meine die "kleineren Geschichten" wie die (lasst es uns mal) Alkoholikerbestimmungen (nennen).
 

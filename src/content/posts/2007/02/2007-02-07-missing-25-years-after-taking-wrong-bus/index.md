@@ -2,10 +2,12 @@
 title: Missing 25 Years After Taking Wrong Bus
 date: 2007-02-07T06:42:49+00:00
 url: /2007/02/missing-25-years-after-taking-wrong-bus/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Busfahren in Thailand ist ja bekanntermaßen ein Abenteuer der besonderen Art:
 

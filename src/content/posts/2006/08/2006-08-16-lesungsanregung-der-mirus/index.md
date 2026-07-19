@@ -2,10 +2,12 @@
 title: 'Lesungsanregung: Der Mirus'
 date: 2006-08-16T11:59:00+00:00
 url: /2006/08/lesungsanregung-der-mirus/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der [Mirus][1]. Der [Johannes][1]. Einer der wenigen, die mich korrekt verlinken: mit [die schreiBBloga.de][2] --- da stimmt jeder Buchstabe, jedes Zeichen, jede Kapitalisation.
 

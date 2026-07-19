@@ -2,10 +2,12 @@
 title: 'Endlich: Thaksin ist Präsident!'
 date: 2007-05-01T05:19:29+00:00
 url: /2007/05/endlich-thaksin-ist-praesident/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Thaksin Shinawatra, für meine seltener lesenden Leser: der war mal Ministerpräsident in Thailand, ist endlich wieder Präsident. [Der Präsident der <span class="caps">PGA</span> Thailand][1]. Das ist die Professionelle Golfervereinigung Thailands.
 

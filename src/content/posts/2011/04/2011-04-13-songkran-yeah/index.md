@@ -3,6 +3,12 @@ title: Songkran, yeah.
 date: 2011-04-12T19:30:01+00:00
 url: /2011/04/songkran-yeah/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image" style="text-align:center;">
   <a href="http://google.co.th">![](/wp-content/old-images/285.jpg)

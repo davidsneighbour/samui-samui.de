@@ -4,10 +4,12 @@ date: 2007-03-06T09:50:18+00:00
 url: /2007/03/hallo-lenin/
 dsq_thread_id:
   - "6412166313"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich fass es nicht. Auf UBC (ach nein, wir hei?en True visions now) kommt "Goodbye Lenin". Auf Deutsch. Gewohnt bin ich auf dem Moviekanal nur Japanisch, Englisch, Französisch und Spanisch. Das ist das erste Mal, dass ein deutscher Film kommt (den ich dazu auch noch nicht mal gesehen habe).
 

@@ -4,10 +4,12 @@ date: 2007-03-01T09:04:11+00:00
 url: /2007/03/der-moerder/
 dsq_thread_id:
   - "2995621781"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Und wieder hat Lt-General Assawin Khwanmuang zugeschlagen und einen Farang-Mord schnell und einfach aufgeklärt.
 

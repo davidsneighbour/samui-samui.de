@@ -2,10 +2,12 @@
 title: Kein SEX!!!
 date: 2007-05-05T11:05:44+00:00
 url: /2007/05/kein-sex/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute beim Hunde-Arzt unseres Vertrauens:
 

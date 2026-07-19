@@ -3,6 +3,12 @@ title: Thailänderinnen verstehen
 date: 2005-06-26T06:54:00+00:00
 url: /2005/06/thailaenderinnen-verstehen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Muuuuahahahahaha. Eben kam ein Google-Suchender rein, der nach [Thailänderinnen verstehen][1] suchte. Gut. Ich werde mal versuchen, einiges zusammenzustellen:
 

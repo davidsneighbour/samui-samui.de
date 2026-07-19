@@ -2,10 +2,12 @@
 title: Ausbrecher
 date: 2006-08-30T10:41:47+00:00
 url: /2006/08/ausbrecher/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Mal wieder mein <txp:gho_permalink id="860">dieswöchiges</txp:gho_permalink> Lieblingsthema <txp:gho_permalink id="861">Stierkampf</txp:gho_permalink>. Nach den beiden Ausbrechern am Montag hatte ich irgendwie angenommen, man würde es sein lassen mit den Stierkämpfen oder für eine sicherere Umgebung sorgen. Es blieb eine Annahme.
 

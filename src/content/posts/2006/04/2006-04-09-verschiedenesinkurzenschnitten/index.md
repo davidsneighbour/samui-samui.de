@@ -3,6 +3,12 @@ title: Verschiedenes in kurzen Schnitten
 date: 2006-04-09T02:03:00+00:00
 url: /2006/04/verschiedenesinkurzenschnitten/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Unsereins hat Urlaub. Da trifft es sich gut, dass Feiertage in Massen anfallen, so dass eine gewisse Ersparnis an Urlaubstagen eintritt.
 

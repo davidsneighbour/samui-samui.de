@@ -2,10 +2,12 @@
 title: Vor guten Sätzen
 date: 2006-12-31T02:52:03+00:00
 url: /2006/12/vor-guten-saetzen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Das Jahr hat in unserer Zeitzone noch gute 8.5 Stunden zu leben, weshalb es an der Zeit ist, mal über die "Guten Vorsätze" und deren Einhaltung im vergangenen Jahr und im kommenden Jahr zu reflektieren. Soviele Vorsätze hatte ich ja nicht.
 

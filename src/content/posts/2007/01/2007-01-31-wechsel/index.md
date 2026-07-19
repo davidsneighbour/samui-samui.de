@@ -2,10 +2,12 @@
 title: Wechsel
 date: 2007-01-31T03:52:39+00:00
 url: /2007/01/wechsel/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Monatswechsel ist Ortswechsel. Nur diesmal wieder. Wenn ich den Bus in Bangkok finde. Die 5eleven rückwärts. Busbahnhofsgeruch schnuppern. Fähre (langweilig, aber vieleicht mit photogenen Sonnenaufgang). Zurück auf der Insel. Banking. Moped holen, heim und den Hunden mitteilen, dass ich sie das nächste Mal auf jeden Fall mit nehmen werde.
 

@@ -2,10 +2,12 @@
 title: Deutscher zündet Telefonbuden und Geldautomaten an
 date: 2009-03-10T14:18:33+00:00
 url: /2009/03/deutscher-zuendet-telefonbuden-und-geldautomaten-an/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ein 64jähriger ehemaliger deutscher Militär-Ingenieur [wurde in Bangkok festgenommen][1], weil er 11 Telephon-Häuschen in Brand gesetzt, da er seine Freunde in Deutschland nicht erreichen konnte. Dann hat er noch ein paar Geldautomaten angezündet, weil er kein Geld mehr hatte und einige Buswartehäuschen und Werbeplakate, weil die dort lebenden Obdachlosen ihn nicht übernachten lie?en.
 

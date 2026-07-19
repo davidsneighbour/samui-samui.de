@@ -2,10 +2,12 @@
 title: Merry Merry!
 date: 2008-12-25T13:45:34+00:00
 url: /2008/12/merry-merry/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3136684625/" title="Merry Merry!"><img src="//farm4.static.flickr.com/3226/3136684625_0658d13061.jpg" alt="Merry Merry!" /></a></p>

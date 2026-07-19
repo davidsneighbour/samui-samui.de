@@ -2,10 +2,12 @@
 title: Pilzsuppe
 date: 2006-09-07T09:17:56+00:00
 url: /2006/09/pilzsuppe/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/213.jpg)
 

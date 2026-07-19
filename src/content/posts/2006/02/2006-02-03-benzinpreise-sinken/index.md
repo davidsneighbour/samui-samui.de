@@ -3,6 +3,12 @@ title: Benzinpreise sinken
 date: 2006-02-03T03:27:38+00:00
 url: /2006/02/benzinpreise-sinken/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Hmmm][1]. Gleich mal einen Mopedausflug fürs Wochenende planen.
 

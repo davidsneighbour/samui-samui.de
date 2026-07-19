@@ -2,10 +2,12 @@
 title: Auch das ist Methinee
 date: 2006-12-12T23:01:00+00:00
 url: /2006/12/auch-das-ist-methinee/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/219.jpg)
 

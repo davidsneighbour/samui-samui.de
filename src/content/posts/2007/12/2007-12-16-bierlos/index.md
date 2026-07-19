@@ -2,10 +2,12 @@
 title: Bierlos
 date: 2007-12-16T13:14:37+00:00
 url: /2007/12/bierlos/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Klasse. Die thailändische (?bergangs-)Regierung, rund ein Jahr für viele ?berraschungen gut, hat ganz zum Schluss noch eins draufgesetzt: Ausschankverbot für alkoholische Getränke für das gesamte vergangene Wochenende (Freitags 18 Uhr bis Sonntags 24 Uhr) und das gesamte nächste Wochenende.
 

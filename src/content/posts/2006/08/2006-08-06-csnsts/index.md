@@ -2,10 +2,12 @@
 title: CSNSTS
 date: 2006-08-06T07:58:00+00:00
 url: /2006/08/csnsts/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Mit dem [CSNSTS][1] (Civil Society Network to Stop the Thaksin System) gibt es seit heute eine weitere Organisation (Partei?) neben der <span class="caps">PAD</span> die zwar keine Ideen für die Zukunft hat, selbige aber ohne Thaksin gestalten will. Das ist löblich. Die Society hat eine Website unter [stoptaksin.com][2] laufen<txp:gho_footnote>Man wird auf ein Blog bei 2bangkok.com weitergeleitet. Ich weiss es jetzt nicht genau, bin mir aber ziemlich sicher, unter dieser Domain mal eine [ausführliche Dokumentation zum schwarzen Mai][3] gelesen zu haben.</txp:gho_footnote> Das wäre dann endlich mal ein Thaksin-Gegner ohne den Geruch eines ehemaligen Thaksin-Freundes.
 

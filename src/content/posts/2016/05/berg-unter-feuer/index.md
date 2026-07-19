@@ -3,9 +3,15 @@ title: Berg unter Feuer
 date: 2016-05-11T09:36:54+00:00
 url: /2016/05/berg-unter-feuer/
 tags:
-- waldbrand
-- koh samui
-- news
+  - waldbrand
+  - koh samui
+  - news
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Seit gestern Abend brennt es auf dem Berg zwischen Maenam und Bophut, und zwar ziemlich heftig. Da man in Thailand alles nur in Relationen verstehen kann, verkündeten die News heute, dass es der schlimmste Grossbrand der vergangenen 50 Jahre auf Samui ist. Erschwert werden die Löschversuche durch die Unzugänglichkeit des Gebietes.

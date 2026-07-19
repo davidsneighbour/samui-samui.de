@@ -4,20 +4,26 @@ description: ""
 date: 2020-01-25T14:29:10+07:00
 lastmod: 2020-01-25T14:29:10+07:00
 tags:
-- mondkalender
-- neujahr
-- kalender
-- google doodle
+  - mondkalender
+  - neujahr
+  - kalender
+  - google doodle
 resources:
-- src: "lunar-new-year-2020-south-korea.png"
-  name: "google-doodle3"
-  title: "Lunar New Year Südkorea --- &copy; google.com"
-- src: "lunar-new-year-2020-vietnam.png"
-  name: "google-doodle2"
-  title: "Lunar New Year Vietnam --- &copy; google.com"
-- src: "lunar-new-year-2020-multiple-countries.png"
-  name: "google-doodle4"
-  title: "Lunar New Year für alle anderen Länder --- &copy; google.com"
+  - src: "lunar-new-year-2020-south-korea.png"
+    name: "google-doodle3"
+    title: "Lunar New Year Südkorea --- &copy; google.com"
+  - src: "lunar-new-year-2020-vietnam.png"
+    name: "google-doodle2"
+    title: "Lunar New Year Vietnam --- &copy; google.com"
+  - src: "lunar-new-year-2020-multiple-countries.png"
+    name: "google-doodle4"
+    title: "Lunar New Year für alle anderen Länder --- &copy; google.com"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Lunar New Year Südkorea --- &copy; google.com](./gallery/lunar-new-year-2020-south-korea.png)

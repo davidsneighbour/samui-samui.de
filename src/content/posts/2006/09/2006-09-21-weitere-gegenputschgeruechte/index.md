@@ -2,10 +2,12 @@
 title: Weitere Gegenputschgerüchte
 date: 2006-09-21T11:43:00+00:00
 url: /2006/09/weitere-gegenputschgeruechte/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es gibt immer noch Gerüchte über die Möglichkeit eines Gegenputsches.
 

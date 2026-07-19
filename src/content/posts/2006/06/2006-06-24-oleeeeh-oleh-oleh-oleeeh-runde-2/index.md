@@ -2,10 +2,12 @@
 title: Oleeeeh oleh oleh oleeeh! Runde 2.
 date: 2006-06-24T05:45:48+00:00
 url: /2006/06/oleeeeh-oleh-oleh-oleeeh-runde-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Und pünktlich zur, ehm, zweiten Runde (?? heh? wie nennt man das bei Fussball&trade;-WMs denn eigentlich) gibts hier die Sender und Termine der nächsten 8 Spiele für die Fussball&trade;fanatiker in Thailand. Die Zeiten sind ohne Gewähr, denn es kann durchaus sein, dass der Care takende Premierminister Thaksin mal wieder eine <del>inhaltsleere</del> Rede in der er der Nation für die Feierlichkeiten zum 60ten Thronjubiläum des Königs dankt halten wird (wie gestern abend) und alles ein bisschen verschiebt. Die restlichen Spiele poste ich dann am Montag und trage (fast wie ein kleiner Fan) die Mannschaften dann nach, wenn jemand gewonnen hat.
 

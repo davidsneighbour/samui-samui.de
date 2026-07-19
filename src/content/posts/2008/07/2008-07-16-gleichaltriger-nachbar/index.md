@@ -2,10 +2,12 @@
 title: Gleichaltriger Nachbar
 date: 2008-07-16T03:41:55+00:00
 url: /2008/07/gleichaltriger-nachbar/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Schlagzeile der Samuianischen Bildzeitung heute lautet:
 

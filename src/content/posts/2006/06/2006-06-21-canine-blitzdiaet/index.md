@@ -2,10 +2,12 @@
 title: Canine Blitzdiät
 date: 2006-06-21T10:37:00+00:00
 url: /2006/06/canine-blitzdiaet/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die letzten Tage waren ziemlich aufreibend im Hause Kollitsch(th). Bis Sonntagmittag wuselte Soosi (ich schreib immer Soosie, vielleicht sollte ich sie noch schnell umbenennen) herum, spielte mit Pokkis Barthaaren, allen Quietscheentchen die das Haus hergibt (eine Menge, wenn man Hunde, Bären, Autos, Katzen, Softeiswaffeln, Hasen usw. den Enten zurechnet, Hauptsache es quietscht). Dann hörte sie auf zu essen.
 

@@ -3,8 +3,14 @@ title: Reiche Thais
 date: 2015-06-05T13:56:44+00:00
 url: /2015/06/reiche-thais/
 tags:
-- high society
-- geld
+  - high society
+  - geld
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Die drei reichsten Thais sind laut der Zeitschrift Forbes

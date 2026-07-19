@@ -2,10 +2,12 @@
 title: Thais lieben Thailand
 date: 2007-05-30T02:31:19+00:00
 url: /2007/05/thais-lieben-thailand/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Thai Rak Thai][1] (<span class="caps">TRT</span>, Thais lieben Thais/Thailand) wurde soeben per Gerichtsbeschluss aufgelöst. Es gilt als erwiesen, dass die Partei Wahlergebnisse gefälscht hat (unter anderem durch das bezahlte Antretenlassen von "politischen Gegnern" bei der ansonsten von den Parteien Thailands boykottierten Wahl, damit für <span class="caps">TRT</span> abgegebene Stimmen gezählt würden).
 

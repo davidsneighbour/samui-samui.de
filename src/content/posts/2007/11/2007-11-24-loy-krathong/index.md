@@ -2,10 +2,12 @@
 title: Loy Krathong
 date: 2007-11-23T23:06:03+00:00
 url: /2007/11/loy-krathong/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es ist mal wieder Loy Krathong. Im November, zum Vollmond, gehen buddhistische Thais eine Hindugöttin ehren und die schlechten Taten des vergangenen Jahres in einem Bananenblattboot mit vielen Blüten und Kerzen (Krathongs) die Flüsse hinunter schwimmen lassen.
 

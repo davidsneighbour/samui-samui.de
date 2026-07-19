@@ -3,6 +3,12 @@ title: Stille Post
 date: 2006-07-12T21:01:00+00:00
 url: /2006/07/stille-post/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In den News machen derzeit zwei Briefe die Runde. Einmal ein Schreiben vom Care takenden Premierminister Thaksin Shinawatra an Bush und einmal dessen Antwort darauf.
 

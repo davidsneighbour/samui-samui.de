@@ -3,6 +3,12 @@ title: Thaksin backs down as the prime minister but will carry on political care
 date: 2006-04-04T19:22:50+00:00
 url: /2006/04/thaksin-backs-down-as-the-prime-minister-but-will-carry-on-political-career/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Police Lieutenant Colonel Thaksin Shinawatra last night apologized 16 million people who voted for the Thai Rak Thai Party in the April 2 general election, for being unable to accept the mandate to lead the country because of several pressures besieging him.
 

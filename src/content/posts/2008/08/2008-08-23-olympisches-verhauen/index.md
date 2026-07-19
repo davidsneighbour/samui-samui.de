@@ -2,10 +2,12 @@
 title: Olympisches Verhauen
 date: 2008-08-22T21:05:02+00:00
 url: /2008/08/olympisches-verhauen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gerade startet der Kampf um die Goldmedaille im Boxen bei den Fliegengewichten. Oder so. Jedenfalls verhaut da ein Thai einen Kubaner und nach drei Minuten steht es schon 5:0. Sieht nach einer weiteren Goldmedaille aus.
 

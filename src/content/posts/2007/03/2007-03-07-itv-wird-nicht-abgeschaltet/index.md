@@ -2,10 +2,12 @@
 title: iTV wird nicht abgeschaltet
 date: 2007-03-07T12:06:27+00:00
 url: /2007/03/itv-wird-nicht-abgeschaltet/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Erstmal][1].
 

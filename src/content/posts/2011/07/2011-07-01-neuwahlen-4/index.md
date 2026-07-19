@@ -3,6 +3,12 @@ title: Neuwahlen
 date: 2011-06-30T18:31:09+00:00
 url: /2011/07/neuwahlen-4/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Am Sonntag sind Wahlen (yeah!!!11Eins) und Thailand wird von den Gewinnern in eine rosige Zukunft geführt. Ist ja logisch, von manchen Stellen aus kann es nur noch bergauf gehen, denkt man.
 

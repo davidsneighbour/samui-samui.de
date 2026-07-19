@@ -4,10 +4,12 @@ date: 2007-03-04T07:52:58+00:00
 url: /2007/03/aller-guten-dinge-sind-vier/
 dsq_thread_id:
   - "6412166304"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich mag es gar nicht laut sagen, könnte ja gleich wieder aus gehen, aber ich habe jetzt DSL in der Hütte. Zwei Lampen leuchten, zwei Lampen blinken.
 

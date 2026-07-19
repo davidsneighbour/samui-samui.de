@@ -3,6 +3,12 @@ title: Harry und G-Punkt
 date: 2005-07-26T21:03:00+00:00
 url: /2005/07/harry-und-g-punkt/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Also [Harry und Ginny][1] (ähm, Spoilerwarnung ;). Soso. Das ist ja interessant. Ich bin ja der Meinung mit den Schwestern der besten Freunde was anzufangen ist so unheilbehaftet wie Beziehungen mit Arbeitskollegen oder Gastronomieangestellten auf thailändischen Inseln. Au?erdem wissen wir doch alle, dass Harry eher den Männern zugeneigt ist. Wenn der siebte Band raus ist, schreib ich den achten und das wird garantiert kein jugendfreier.
 

@@ -5,6 +5,12 @@ url: /2006/02/neuesvomwuschel/
 tags:
   - pokki
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/105678055/" title="Fresh and clean."><img src="//static.flickr.com/47/105678055_c324fc3243.jpg" alt="Fresh and clean." /></a></p>

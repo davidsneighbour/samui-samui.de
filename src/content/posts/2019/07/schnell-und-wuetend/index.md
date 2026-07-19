@@ -4,13 +4,19 @@ date: 2019-07-02T22:07:09+07:00
 lastmod: 2019-07-02T22:07:09+07:00
 url: /2019/07/schnell-und-wuetend-in-thailand
 tags:
-    - film
-    - hollywood
+  - film
+  - hollywood
 leute:
-    - dwayne johnson
-    - vin diesel
+  - dwayne johnson
+  - vin diesel
 images:
-    - schnell-und-wuetend.jpg
+  - schnell-und-wuetend.jpg
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Schnell und wütend aber gut verpackt auf Thailands Straßen](./schnell-und-wuetend.jpg)

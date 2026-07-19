@@ -2,10 +2,12 @@
 title: Nur fürs Protokoll
 date: 2007-11-21T02:45:49+00:00
 url: /2007/11/nur-fuers-protokoll/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich lebe noch. Gibt nur nichts zu berichten. Es gibt Besseres als das Leben eines Sachsen in Thailand. Zumindest für selbigen... Wenn man alles so berichten könnte wie es geschehen würde, wäre es einerseits langweilig, andererseits wortreicher.
 

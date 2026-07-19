@@ -3,6 +3,12 @@ title: Good Morning
 date: 2005-11-13T19:03:00+00:00
 url: /2005/11/goodmorning/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="420" src="//static.flickr.com/29/63008084_079d759195.jpg" alt="Good Morning" />][1]
 

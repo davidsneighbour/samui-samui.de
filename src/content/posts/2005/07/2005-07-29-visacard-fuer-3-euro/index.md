@@ -3,6 +3,12 @@ title: Visacard für 3 Euro
 date: 2005-07-29T01:46:00+00:00
 url: /2005/07/visacard-fuer-3-euro/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So. Neuer Monat. Neues Konto. Nachdem mein kleines Konto bei der Siam City Bank abgeräumt werden konnte ohne dass die Penner die PIN hatten</a>, habe ich dort natürlich kein Geld mehr deponiert. Ohne Pass kann man kein neues Konto eröffnen und <a href="241">als</a> ich <txp:permlink id="242">dann</a> <txp:permlink id="243">endlich</a> <txp:permlink id="272">meinen Pass hatte, hatte ich kein Geld mehr um es draufzutun. Jetzt hab ich Geld, einen Pass und gute Laune. Also habe ich mal ein Konto bei der [Bank of Ayudhya][1] eröffnet.
 

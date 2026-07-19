@@ -2,10 +2,12 @@
 title: Wo ist Thaksin?
 date: 2007-01-20T21:09:49+00:00
 url: /2007/01/wo-ist-thaksin/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

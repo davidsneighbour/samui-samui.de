@@ -3,6 +3,12 @@ title: Hausbau Thaistyle
 date: 2006-07-26T03:40:00+00:00
 url: /2006/07/hausbau-thaistyle/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/198669035/" title="Homebuilding Thaistyle"><img src="//static.flickr.com/62/198669035_93751457bb.jpg" alt="Homebuilding Thaistyle" /></a></p>

@@ -3,6 +3,12 @@ title: Ronald McDonald macht den Wai
 date: 2005-02-10T01:51:00+00:00
 url: /2005/02/ronald-mcdonald-macht-den-wai/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/47.jpg)
 

@@ -3,6 +3,12 @@ title: Tony Jaa im Kloster
 date: 2010-05-28T12:18:18+00:00
 url: /2010/05/tony-jaa-im-kloster/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Tony Jaa, Darsteller und Regisseur diverser Ong Bak Filme hat sich gestern [zum Mönch ordinieren lassen][1]. Jeder männliche Thai wird für einige Tage oder Monate zum Mönch, bevor er heiratet oder andere neue Lebensabschnitte beginnt. Die Reise zum Tempel hat er stilgerecht auf dem Rücken eines Elephanten gemacht.
 

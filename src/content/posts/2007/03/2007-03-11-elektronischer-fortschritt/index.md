@@ -2,10 +2,12 @@
 title: Elektronischer Fortschritt
 date: 2007-03-11T08:01:08+00:00
 url: /2007/03/elektronischer-fortschritt/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Im Januar gab es [die ersten Anzeichen][1], dass tatsächlich dieses Jahr ein königliches Dekret unterschrieben werden soll, das den elektronischen Geldverkehr in Thailand einführt und regelt.
 

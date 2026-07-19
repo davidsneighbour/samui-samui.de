@@ -2,10 +2,12 @@
 title: Der gro?e Haustiertest
 date: 2007-01-29T11:20:47+00:00
 url: /2007/01/der-grosse-haustiertest/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

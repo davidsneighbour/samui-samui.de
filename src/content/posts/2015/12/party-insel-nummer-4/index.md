@@ -6,9 +6,15 @@ tags:
   - awards
   - party
 resources:
-- src: "rca-2015-party-islands-koh-samui-conde-nast.jpg"
-  name: "partyinsel"
-  title: "Party-Insel Nummer 4"
+  - src: "rca-2015-party-islands-koh-samui-conde-nast.jpg"
+    name: "partyinsel"
+    title: "Party-Insel Nummer 4"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Party-Insel Nummer 4](./rca-2015-party-islands-koh-samui-conde-nast.jpg)

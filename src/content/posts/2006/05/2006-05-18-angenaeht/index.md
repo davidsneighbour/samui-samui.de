@@ -3,6 +3,12 @@ title: Angenäht
 date: 2006-05-17T22:09:48+00:00
 url: /2006/05/angenaeht/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der "Da Vinci Code" darf nun doch ungeschnitten aufgeführt werden.
 

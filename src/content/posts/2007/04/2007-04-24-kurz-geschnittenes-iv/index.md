@@ -2,10 +2,12 @@
 title: Kurz Geschnittenes IV
 date: 2007-04-24T09:42:52+00:00
 url: /2007/04/kurz-geschnittenes-iv/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es ist mal wieder Zeit die Tabs aufzuräumen, die es nicht in eigene kleine Einträge geschafft haben.
 

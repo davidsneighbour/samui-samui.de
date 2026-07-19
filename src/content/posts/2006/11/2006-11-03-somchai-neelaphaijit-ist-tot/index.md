@@ -3,6 +3,12 @@ title: Somchai Neelaphaijit ist tot
 date: 2006-11-03T04:34:52+00:00
 url: /2006/11/somchai-neelaphaijit-ist-tot/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der [seit 12. März 2004][1] vermisste Menschenrechtsanwalt Somchai Neelaphaijit ist tot, wie Attaporn Yaisawang, der Sprecher des Oberstaatsanwaltes heute mitteilte. [Man habe Beweise für seinen Tod vom Department of Special Investigation (<span class="caps">DSI</span>) erhalten][2].
 

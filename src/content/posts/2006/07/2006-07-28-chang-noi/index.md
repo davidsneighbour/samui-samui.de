@@ -3,6 +3,12 @@ title: Chang Noi
 date: 2006-07-28T10:42:58+00:00
 url: /2006/07/chang-noi/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Seit vier Monaten lebt unter dem Haus ein, ehm, Hirschkäfer oder sowas. Jedenfalls ein fetter Käfer mit Horn vorne drauf (ok, Hirschkäfer haben bestimmt zwei Hörner also ist es ein, ehm, Nashornkäfer). Der fliegt dann Abends aller zwei Wochen gegen die Türe und versucht sich Einlass zu verschaffen. Fu hat ihn liebevoll Chang Noi (kleiner Elefant) getauft was mich nicht daran hindert, ihn wenn er es denn mal bis nach drinnen geschaft hat ganz unmonströs durchs Fenster wieder nach draussen zu befördern.
 

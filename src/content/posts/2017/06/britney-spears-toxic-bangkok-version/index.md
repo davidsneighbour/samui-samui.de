@@ -6,6 +6,12 @@ tags:
   - britney spears
   - fun
   - video
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Dies ist eine sehr viel bessere Version des Songs. Glaubt mir.
 

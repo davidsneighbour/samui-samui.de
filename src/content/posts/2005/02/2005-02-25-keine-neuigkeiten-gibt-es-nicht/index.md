@@ -5,5 +5,11 @@ url: /2005/02/keine-neuigkeiten-gibt-es-nicht/
 dsq_thread_id:
   - "3704478859"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ... weshalb ich um keine Verwunderung bitte, wenn hier mal kein täglicher Eintrag kommt. Womit der tägliche Eintrag von heute erbracht wäre. Ist das nicht seltsam, wie man den Papst immerwieder vom Sterben abhält? Naja. Wie gesagt, heute kein Eintrag.

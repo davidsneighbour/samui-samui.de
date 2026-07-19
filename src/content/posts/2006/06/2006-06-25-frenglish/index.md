@@ -2,10 +2,12 @@
 title: Frenglish
 date: 2006-06-25T02:28:00+00:00
 url: /2006/06/frenglish/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich freu mich ja immer wieder, wenn ich einen Thai Englisch sprechen höre weil da schon mal lustige Stilblüten namens Thanglish dabei herauskommen.
 

@@ -2,10 +2,12 @@
 title: Botschaftsschreiben
 date: 2007-03-06T05:25:50+00:00
 url: /2007/03/botschaftsschreiben/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Hin und wieder verschickt die _Deutsche Botschaft_&trade; in Bangkok ein Marketingblättchen als PDF, in welchem erzählt wird, was der Botschafter Hr. Doktor Brümmer so in den letzten Wochen gemacht hat.
 

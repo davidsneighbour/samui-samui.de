@@ -2,10 +2,12 @@
 title: Gerüchte
 date: 2006-09-20T05:45:00+00:00
 url: /2006/09/geruechte/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der Gouvernor der Bank of Thailand [Pridayadhorn Devakula soll der kommende Premierminister werden][1]. [Oder auch nicht][2].
 

@@ -2,10 +2,12 @@
 title: Murphy im Quadrat
 date: 2007-01-08T02:31:47+00:00
 url: /2007/01/murphy-im-quadrat/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So. Mal angenommen es kündigt sich an, dass man nach einem halben Jahr 5kB mit den mobiltelefonischen Modem endlich wieder mit einer ADSL-Internetleitung am onlinen Leben teilhaben darf --- was würde denn dann frei nach Murphy geschehen?
 

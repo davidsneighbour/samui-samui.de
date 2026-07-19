@@ -5,6 +5,12 @@ url: /2006/10/das-kabinett-des-surayud/
 instant_articles_submission_id:
   - "225209301238777"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Das Kabinett von General Surayud Chulanont steht und ist vom König bestätigt worden.
 

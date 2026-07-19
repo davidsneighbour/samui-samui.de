@@ -2,10 +2,12 @@
 title: iTV wird abgeschaltet
 date: 2007-03-06T07:45:47+00:00
 url: /2007/03/itv-wird-abgeschaltet/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 iTV, Thaksins Ex-Fernsehsender, [muss am 7. März um 0:00 Uhr abgeschaltet werden][1]. Das beschloss das Kabinett heute. Man konnte Schulden in Höhe von von 100 Milliarden Baht<txp:gho_footnote>sorry, "billion" im Englischen ist doch eine Milliarde, oder?</txp:gho_footnote> nicht bezahlen und bis geklärt wurde, wie es weiter gehen soll wird dem Sender die Lizenz entzogen.
 

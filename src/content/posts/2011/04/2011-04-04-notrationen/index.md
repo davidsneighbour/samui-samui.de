@@ -5,6 +5,12 @@ url: /2011/04/notrationen/
 dsq_thread_id:
   - "2922527813"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Da die "Convenience Stores" der Insel erhebliche logistische Probleme haben, gab ich meinem Freund (der im Makro einkaufen gehen kann, unserem Inselgro?handel, der bereits am Freitag komplett neu ausgestattet wieder eröffnete) heute einen Tausend-Baht-Schein in die Hand (er hat es selbst angeboten) und hoffte auf das Beste.
 

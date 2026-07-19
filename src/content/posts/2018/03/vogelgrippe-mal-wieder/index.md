@@ -3,12 +3,18 @@ title: "Vogelgrippe, mal wieder"
 date: 2018-03-27T19:29:11+07:00
 url: /2018/03/vogelgrippe-mal-wieder
 tags:
-- vogelgrippe
-- tierwelt
-resources :
-- src: "birdflu.jpg"
-  name: "birdflu"
-  title: "Nicht nachweislich Vogelgrippenkranker Vogel, Symbolbild von Frida Bredensen"
+  - vogelgrippe
+  - tierwelt
+resources:
+  - src: "birdflu.jpg"
+    name: "birdflu"
+    title: "Nicht nachweislich Vogelgrippenkranker Vogel, Symbolbild von Frida Bredensen"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Nicht nachweislich Vogelgrippenkranker Vogel, Symbolbild von Frida Bredensen](./birdflu.jpg)

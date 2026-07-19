@@ -2,10 +2,12 @@
 title: Schulfrei
 date: 2006-09-21T23:02:00+00:00
 url: /2006/09/schulfrei/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute morgen halb neun standen plötzlich die beiden Kinder meiner Hausbesitzer vor der Tür und fingen an, mit Pokki und Soosie zu spielen. Das kommt häufiger vor, allerdings nicht unter der Woche und nicht halb neun. Da sind sie normalerweise in der Schule. Der Kleine (3) macht irgendeine Art Vorschule --- er hat mir von meinem Thaialphabetplakat die Namen der Buchstaben vorgelesen --- und der Große (8?) ist in der normalen Schule.
 

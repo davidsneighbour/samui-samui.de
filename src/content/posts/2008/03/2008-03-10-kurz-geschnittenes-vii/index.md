@@ -2,10 +2,12 @@
 title: Kurz Geschnittenes VII
 date: 2008-03-10T01:55:24+00:00
 url: /2008/03/kurz-geschnittenes-vii/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Viel zu viel Ungeschriebenes... Hier ist es:
 

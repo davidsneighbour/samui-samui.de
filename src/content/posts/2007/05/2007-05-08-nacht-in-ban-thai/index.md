@@ -2,10 +2,12 @@
 title: Nacht in Ban Thai
 date: 2007-05-08T11:23:55+00:00
 url: /2007/05/nacht-in-ban-thai/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 (Anmerkung der Redaktion: Ab 19 Uhr abends ist es stockduster, weshalb das als Nachts gewertet wird. Künstlerische Freiheit!)
 

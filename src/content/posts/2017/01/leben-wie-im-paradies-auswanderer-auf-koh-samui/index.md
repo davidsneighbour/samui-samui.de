@@ -5,6 +5,12 @@ url: /2017/01/leben-wie-im-paradies-auswanderer-auf-koh-samui/
 tags:
   - auswanderer
   - fernsehen
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Wer 30 (oder mehr?) Minuten Zeit hat und eine Internetverbindung, die funktioniert (nicht so wie wir hier auf der Insel heute), der kann sich mal die folgende Eposide von 30 Minuten Deutschland, die gestern Nacht auf RTL lief, ansehen: [Leben wie im Paradies --- Deutsche Auswanderer im Paradies][1].

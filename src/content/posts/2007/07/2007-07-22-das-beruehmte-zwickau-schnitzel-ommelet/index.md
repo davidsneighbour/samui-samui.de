@@ -2,10 +2,12 @@
 title: Das berühmte Zwickauer Schnitzel-Ommelet
 date: 2007-07-22T01:17:10+00:00
 url: /2007/07/das-beruehmte-zwickau-schnitzel-ommelet/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/869495355/" title="The famous Zwickau-Schnitzel-Ommelet"><img src="//farm2.static.flickr.com/1237/869495355_fc0f474d97.jpg" alt="The famous Zwickau-Schnitzel-Ommelet" /></a></p>

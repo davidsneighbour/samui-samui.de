@@ -2,10 +2,12 @@
 title: Datentransport
 date: 2007-12-16T01:34:11+00:00
 url: /2007/12/datentransport/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Unter dem Titel [Die Top-10 der Daten-Desaster][1] bringt der Spiegel eine Topliste der Datendesaster... Jaja. Auf Platz Eins? Ein Photograph in Thailand:
 

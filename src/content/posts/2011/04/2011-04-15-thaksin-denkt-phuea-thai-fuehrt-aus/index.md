@@ -3,6 +3,12 @@ title: Thaksin denkt, Phuea Thai führt aus
 date: 2011-04-14T20:51:37+00:00
 url: /2011/04/thaksin-denkt-phuea-thai-fuehrt-aus/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Bis nächstes Jahr gilt noch das 5-Jahres-Verbot politischer Tätigkeit für die führenden Mitglieder der ehemaligen Thai Rak Thai Partei. Aus diesem Grund gibt es mehrere Parteien, deren Mitglieder nicht-führende Mitglieder Thai Rak Thais sind und die aus dem Untergrund oder Dubai gesteuert werden.
 

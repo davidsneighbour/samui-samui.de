@@ -3,6 +3,12 @@ title: Wahlhäppchen. Zum letzten Mal. Wirklich. Für heute.
 date: 2006-04-01T03:12:00+00:00
 url: /2006/04/wahlhaeppchenzumletztenmalwirklichfuerheute/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich hatte ja bereits angesprochen, dass in Wahlbezirken wo nur ein Kandidat, in der Regel der von Thai Rak Thai (TRT), mangels Opposition antritt eine bestimmte Anzahl an Stimmen abgegeben werden muss, damit der Kandidat als gewählt angesehen werden darf. Es handelt sich hierbei um 20% aller Wahlberechtigten. In Bangkok bspw. tritt TRT in 20 von 36 Distrikten ohne Gegner an.
 

@@ -3,6 +3,12 @@ title: Ausversehen ein Date einfangen
 date: 2005-09-08T21:00:00+00:00
 url: /2005/09/ausversehen-ein-date-einfangen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern wollte ich nach getaner Arbeit (und noch einem Bisschen produktiv Sein (hmm, das könnte missverstanden werden)) ein paar Würstchen von meinem präferierten Würstchenstand auf der Beachstreet abholen, um durch das enthaltene Fett meinen Bumbui bei Laune zu halten. Dies tat ich auch.
 

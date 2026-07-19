@@ -2,10 +2,12 @@
 title: Krankenhausnews
 date: 2009-09-22T04:09:02+00:00
 url: /2009/09/krankenhausnews/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 König Bhumibol Aduljadey ist am Samstag mit Fieber und Appetitlosigkeit ins Krankenhaus eingeliefert worde. Zuerst hat man es totgeschwiegen, dann hat man es zur Routineuntersuchung gemacht und seit Montag berichtet man in nahezu stündlichen Veröffentlichungen über den aktuellen [Stand][1].
 

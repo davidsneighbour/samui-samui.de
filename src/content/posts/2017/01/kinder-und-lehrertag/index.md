@@ -6,6 +6,12 @@ tags:
   - feiertage
   - video
   - kindertag
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Am zweiten Samstag im Januar findet hierzulande der Kindertag statt. Während anderswo dieser Tag genutzt wird, um auf die Bedürfnisse von Kindern und Probleme speziell mit Kinderrechten hinzuweisen und einzugehen, ist er hier in Thailand ein Tag, um Maschinengewehre in jungem Alter in die Hände zu nehmen und auf Panzern herumzuklettern. Indoktrination beginnt nun mal früh.

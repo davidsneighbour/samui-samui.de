@@ -2,10 +2,12 @@
 title: Zensur – Zwischenstand
 date: 2007-04-14T00:58:32+00:00
 url: /2007/04/zensur-zwischenstand/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In kurz:
 

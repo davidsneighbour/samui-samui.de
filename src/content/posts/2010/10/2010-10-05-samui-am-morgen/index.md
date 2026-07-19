@@ -3,6 +3,12 @@ title: Samui am Morgen
 date: 2010-10-04T17:51:47+00:00
 url: /2010/10/samui-am-morgen/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5053840546/" title="Koh Samui, Morning"><img src="//farm5.static.flickr.com/4147/5053840546_508106e2a7.jpg" alt="Koh Samui, Morning" /></p>

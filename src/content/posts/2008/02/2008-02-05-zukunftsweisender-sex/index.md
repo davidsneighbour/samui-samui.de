@@ -2,10 +2,12 @@
 title: Zukunftsweisender Sex
 date: 2008-02-05T12:55:28+00:00
 url: /2008/02/zukunftsweisender-sex/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   ![](/wp-content/old-images/248.jpg)

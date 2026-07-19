@@ -2,10 +2,12 @@
 title: Thailands eigener Videogamekiller
 date: 2008-08-04T03:36:40+00:00
 url: /2008/08/thailands-eigener-videogamekiller/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Endlich hat auch Thailand seinen eigenen Videogamekiller. Ein 19 Jahre alter Schüer wurde heute in einem Taxi aufgefunden, mit erstochenem Taxifahrer im Rücksitz. Er gab zu, von Grand Theft Auto "abhängig" zu sein und Töten im Spiel als einfach empfunden zu haben.
 

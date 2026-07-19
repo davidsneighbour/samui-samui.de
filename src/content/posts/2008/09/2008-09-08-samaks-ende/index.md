@@ -2,10 +2,12 @@
 title: Samaks Ende?
 date: 2008-09-08T04:06:06+00:00
 url: /2008/09/samaks-ende/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Morgen werden wir sehen, ob die Regierung Samaks es noch bis zum Meilenstein des kommenden Referendums aushalten wird. Er sagte heute in einem Verfahren aus, in dem es um einen Verstoss gegen die Verfassung Thailands ging.
 

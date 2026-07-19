@@ -5,6 +5,12 @@ url: /2005/01/learning-to-fly/
 dsq_thread_id:
   - "6412166372"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Stellen wir uns diese Seite als Comic vor:
 

@@ -2,10 +2,12 @@
 title: Wahrsager wissen mehr
 date: 2007-06-09T00:37:44+00:00
 url: /2007/06/wahrsager-wissen-mehr/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Potjaman Shinawatra hat nicht nur den selben Nachnamen wie Thaksin Shinawatra, der Vorsitzende des Thailändischen Golfvereins, sie ist auch seine Frau. Nichtsdestotrotz sieht sie ihn derzeit seltener, weil er in Japan Interviews geben muss, auf Bali golft, sich in Russland beklauen lässt und in London daraus resultierende Visaangelegenheiten zu erledigen hat.
 

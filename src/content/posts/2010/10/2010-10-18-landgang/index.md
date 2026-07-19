@@ -5,6 +5,12 @@ url: /2010/10/landgang/
 dsq_thread_id:
   - "3377279425"
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5093484540/" title="&quot;Diamond Princess&quot; visits Koh Samui"><img src="//farm5.static.flickr.com/4129/5093484540_c460159b47.jpg" alt="&quot;Diamond Princess&quot; visits Koh Samui" /></p>

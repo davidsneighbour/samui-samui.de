@@ -3,6 +3,12 @@ title: Nokachi Shikimime
 date: 2006-07-05T04:02:00+00:00
 url: /2006/07/nokachi-shikimime/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Zur Zeit macht folgende Mail die thailändischen Mailinglisten unsicher:
 

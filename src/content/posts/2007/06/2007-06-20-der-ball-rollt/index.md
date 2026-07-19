@@ -2,10 +2,12 @@
 title: Der Ball rollt
 date: 2007-06-20T16:00:27+00:00
 url: /2007/06/der-ball-rollt/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wie es aussieht, hat Thaksin den Zuschlag bekommen und darf nun endlich einen Fu?ballclub der Premier League sein Eigen nennen. [Manchester City][1]. Jetzt muss er nur noch den Premier-League "Right and Proper Persons Test" bestehen. Hehehe...
 

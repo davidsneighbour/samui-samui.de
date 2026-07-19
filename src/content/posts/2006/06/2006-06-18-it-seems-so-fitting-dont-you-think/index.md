@@ -2,10 +2,12 @@
 title: It seems so fitting don’t you think?
 date: 2006-06-18T12:41:52+00:00
 url: /2006/06/it-seems-so-fitting-dont-you-think/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es ist kälter als je zuvor
 

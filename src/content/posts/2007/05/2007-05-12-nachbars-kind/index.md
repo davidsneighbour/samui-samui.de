@@ -2,10 +2,12 @@
 title: Nachbars Kind…
 date: 2007-05-12T09:03:26+00:00
 url: /2007/05/nachbars-kind/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/494668315/"><img src="//farm1.static.flickr.com/189/494668315_cbe7907757.jpg" class="flickr-photo" alt="" /></a></p>

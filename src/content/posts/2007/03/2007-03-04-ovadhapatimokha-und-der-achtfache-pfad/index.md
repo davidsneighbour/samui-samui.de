@@ -2,10 +2,12 @@
 title: Ovadhapatimokha und der achtfache Pfad
 date: 2007-03-03T22:00:40+00:00
 url: /2007/03/ovadhapatimokha-und-der-achtfache-pfad/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der Achtfache Pfad stellt die Grundlagen im Buddhismus dar und besteht aus folgenden Elementen:
 

@@ -3,6 +3,12 @@ title: "Announcement: Krungthep 4.0"
 date: 2005-09-14T20:59:39+00:00
 url: /2005/09/announcement-krungthep-40/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Werter Kunde!
 

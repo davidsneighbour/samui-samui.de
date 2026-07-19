@@ -3,6 +3,12 @@ title: Tsutaya-Reinfall. Tesko-Reinfall.
 date: 2005-09-03T01:20:00+00:00
 url: /2005/09/tsutaya-reinfall-tesko-reinfall/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich möchte dieses Forum mal eben nutzen um meine tiefe Enttäuschung und Verbitterung als treuer Kunde von Tsutaya auszudrücken, die neuerdings keine VCDs mehr im Originalton anbieten sondern nur noch auf Thai. Ich finde das eine Unverschämtheit. Da wird man ja geradezu in die Prostitution getrieben, wenn man Thai lernen muss um dann schlecht synchronisierte Filme sehen zu müssen bei denen die oralen Bewegungen der Protagonisten nicht im geringsten in Volumen und Positionierung mit den zu hörenden Tönen übereinstimmen. Nenene.
 

@@ -2,10 +2,12 @@
 title: Neues aus dem Goldenen Land
 date: 2008-11-26T00:40:48+00:00
 url: /2008/11/neues-aus-dem-goldenen-land/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Man möge mir diesen etwas ungelenk formulierten Eintrag verzeihen.
 

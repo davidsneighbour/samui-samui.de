@@ -3,11 +3,13 @@ title: Regen
 date: 2006-01-24T00:05:00+00:00
 url: /2006/01/regen-3/
 tags:
-- pokki
-
-
-
-
+  - pokki
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es regnet. Mal wieder. Das Unangenehme am Leben als Hundehalter ist, dass man zu jeder Zeit bereit sein muss mit dem befellten Lebensgefährten eine geeignete Outdoor-Lokalität auf zu suchen. Gegen zwölf (der täglichen Wiese-geh-Zeit) dachte ich mir, er schläft und es regnet, also warten wir einfach ein bisschen, vielleicht besserts sich ja noch (Ja, ich denke mit sinnlosen Includes wie "ja" in normales Sätzen).
 

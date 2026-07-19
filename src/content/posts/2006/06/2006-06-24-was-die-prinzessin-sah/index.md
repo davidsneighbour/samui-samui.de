@@ -2,10 +2,12 @@
 title: Was die Prinzessin sah
 date: 2006-06-23T21:21:00+00:00
 url: /2006/06/was-die-prinzessin-sah/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <img src="/images/210.jpg" style="height:454px;width:333px" alt="just behind behind" />
 

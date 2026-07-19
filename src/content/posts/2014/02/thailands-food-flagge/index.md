@@ -4,6 +4,12 @@ date: 2014-02-03T01:55:20+00:00
 url: /2014/02/thailands-food-flagge/
 dsq_thread_id:
   - "2914974659"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Thailands Food Flagge](./national-flag-made-food17.jpg)

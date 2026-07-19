@@ -3,6 +3,12 @@ title: Der Visa-Run
 date: 2005-04-11T05:29:00+00:00
 url: /2005/04/der-visa-run/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Neulich war ich übrigens auf dem Visa-Run (Wir erinnern uns: "Wenn ich Run höre, dann erklingt irgendwo in meinem Hinterkopf immer eine Stelle aus Pink Floyds "The Wall" mit "you better run, run, run, run, run" oder so. Beim Suchen eben fiel mir auf, dass die Stelle aber auch aus meiner eigenen "The Wall"-Version stammen könnte, ich fand sie nämlich nicht.") in Burma, was manche noch als Birma kennen, aber nun bereits wieder Myanmar hei?t.
 

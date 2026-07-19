@@ -3,6 +3,12 @@ title: Kriegsrechtsaufhebung
 date: 2006-11-27T04:46:15+00:00
 url: /2006/11/kriegsrechtsaufhebung/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der Verteidigungsminister General Boonrawd Somtas hat vergangene Woche bestätigt, dass im Dezember das [Kriegsrecht aufgehoben][1] werden soll. Oder auch nicht. Mal sehen.
 

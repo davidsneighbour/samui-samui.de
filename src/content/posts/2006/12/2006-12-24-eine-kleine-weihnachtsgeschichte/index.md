@@ -4,10 +4,12 @@ date: 2006-12-24T10:15:06+00:00
 url: /2006/12/eine-kleine-weihnachtsgeschichte/
 dsq_thread_id:
   - "3151660999"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 "I don't like to loose" sag ich und ziehe einen Holzklotz. Ein seltsames Holzspiel mit Klötzen die man aufstapelt und dann unten Klötze zieht, diese oben drauf legt und das möglichst so, dass der Stapel umfällt, wenn man nicht selbst "dran" ist. Der Holzklotz landet leicht schräg auf einem anderen und ich hoffe im Stillen, nicht noch einmal ziehen zu müssen. "What are you doing tonight?" fragt Gig mich. Ich erkläre ihr leicht errötend, dass man(n) das missverstehen kann, wenn man(n) als Farang von einer Thaifrau gefragt wird und sie lässt sich erklären warum. Als ich fertig bin meint sie nur nachdenklich "Ah, that explains a lot" und zieht den nächsten Stein. Hochkant landet er auf der Spitze des Turmes.
 

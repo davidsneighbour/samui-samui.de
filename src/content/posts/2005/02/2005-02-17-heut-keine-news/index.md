@@ -5,6 +5,12 @@ url: /2005/02/heut-keine-news/
 dsq_thread_id:
   - "3704473270"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Moin, heut keine News. Die neuen Rechner sind da. Muss... installieren... Software... und... Wlan... Fotos folgen natürlich ;)
 

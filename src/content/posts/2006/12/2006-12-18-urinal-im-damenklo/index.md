@@ -2,10 +2,12 @@
 title: Urinal im Damenklo
 date: 2006-12-18T06:21:22+00:00
 url: /2006/12/urinal-im-damenklo/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eine Schule in Chiang Mai hat jetzt ein [Urinal auf der Mädchentoilette][1] aufgehängt.
 

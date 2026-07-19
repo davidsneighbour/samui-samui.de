@@ -2,10 +2,12 @@
 title: Strohwittwer
 date: 2006-10-23T12:11:13+00:00
 url: /2006/10/strohwittwer/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ab morgen bin ich sowas wie ein Strohwittwer. Fu zieht es für drei Wochen gen Bangkok (ihr wisst schon, die Stadt der Engelmenschen) um noch mehr über Kreditwesen und all den Kram zu lernen. Da werde ich dann viel Zeit für meine kleine Website haben.
 

@@ -3,6 +3,12 @@ title: Gute Zeiten, Schlechte Zeiten
 date: 2010-05-04T16:30:55+00:00
 url: /2010/05/gute-zeiten-schlechte-zeiten/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Titel der heutigen Reaktionen auf Premierminister Abhisits [gestrige Vorschläge][1] zur, ehm, Rekonzilierung der, ehm, nationalen Seele Thailands (sprich wieder mal Neuwahlen am 14. November):
 

@@ -3,6 +3,12 @@ title: ARC => CDRM => CDR => CNS
 date: 2006-10-02T00:38:00+00:00
 url: /2006/10/arc-cdrm-cdr-cns/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Das <span class="caps">CDR</span>, das vorher <span class="caps">ARC</span> hieß und sich zwischendurch auch mal <span class="caps">CDRM</span> nannte, heißt nun <span class="caps">CNS</span>.
 

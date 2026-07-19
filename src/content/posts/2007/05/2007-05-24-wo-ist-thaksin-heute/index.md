@@ -4,10 +4,12 @@ date: 2007-05-24T02:51:43+00:00
 url: /2007/05/wo-ist-thaksin-heute/
 dsq_thread_id:
   - "3648517410"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Frage, die täglich 3 meiner Leser beschäftigt (es lebe Google Analytics), wo hält sich Thaksin Shinawatra, der bei 50% seiner Landsmannen und der aktuellen putschenderweise an die Macht gekommenen Regierung unbeliebte Ex-Premierminister mit Fussballclubkaufgelüsten und Golfbegeisterung, auf, wird heute von der russischen Pravda beantwortet:
 

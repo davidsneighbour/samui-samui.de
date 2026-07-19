@@ -3,6 +3,12 @@ title: "NewsAlert: Shinawatra erh??lt Blumengirlanden von einem Elephanten!!!"
 date: 2006-03-14T19:23:00+00:00
 url: /2006/03/newsalert-shinawatra-erhaelt-eine-blumengirlande-von-einem-elephanten/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

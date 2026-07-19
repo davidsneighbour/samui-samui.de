@@ -2,10 +2,12 @@
 title: Nur in Thailand…
 date: 2008-04-10T01:54:56+00:00
 url: /2008/04/nur-in-thailand/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ... kann man durch eine Stra?ensperre fahren ohne anzuhalten. Als Farang zumindest. Ich war vorhin gerade in Gedanken über eine dringend vor Mai abzuarbeitenden Todoliste als der Verkehr stockte und viele viele überaus bewaffnete Polizisten rumstoppten. Ich setzte ein Lächeln auf und fuhr durch. Man schoss nicht.
 

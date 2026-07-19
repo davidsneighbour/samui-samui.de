@@ -2,10 +2,12 @@
 title: Google Maps Thailand
 date: 2009-02-26T01:23:27+00:00
 url: /2009/02/google-maps-thailand/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Google Maps gibt es nun auch in einem Thai sprechenden Interface. Unter [http://maps.google.co.th][1] kann man sich Thailand ansehen. Samui hingegen ist immer noch [bewölkt und sieht aus wie ein Patchworkteppich][2].
 

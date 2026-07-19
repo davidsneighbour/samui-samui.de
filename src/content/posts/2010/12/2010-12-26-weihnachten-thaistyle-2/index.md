@@ -3,6 +3,12 @@ title: Weihnachten (Thaistyle)
 date: 2010-12-25T22:34:57+00:00
 url: /2010/12/weihnachten-thaistyle-2/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.daylife.com/photo/05R38743Ide3n">![](/wp-content/old-images/284.jpg)

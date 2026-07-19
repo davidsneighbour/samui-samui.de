@@ -2,10 +2,12 @@
 title: Gewichtsklasse
 date: 2008-01-15T00:57:10+00:00
 url: /2008/01/gewichtsklasse/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [![](/wp-content/old-images/246.gif)][1]
 

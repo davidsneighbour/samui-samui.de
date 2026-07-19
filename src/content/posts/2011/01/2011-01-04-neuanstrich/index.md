@@ -5,6 +5,12 @@ url: /2011/01/neuanstrich/
 dsq_thread_id:
   - "3502267566"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Mein Haus wird gerade von einem circa 100 Jahre alten kleinen Mann neu gestrichen. Die vergangene Woche verbrachte er damit, das Haus gegenüber zu streichen.
 

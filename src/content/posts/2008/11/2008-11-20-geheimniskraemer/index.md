@@ -2,10 +2,12 @@
 title: Geheimniskrämer
 date: 2008-11-20T01:22:34+00:00
 url: /2008/11/geheimniskraemer/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Pracha Prasopdee (eines der Führungsmitglieder der Peoples Power Partei, derzeit Regierungspartei Thailands) hat [was gesagt][1]:
 

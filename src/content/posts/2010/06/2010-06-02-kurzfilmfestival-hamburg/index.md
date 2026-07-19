@@ -3,6 +3,12 @@ title: Kurzfilmfestival Hamburg
 date: 2010-06-02T00:25:43+00:00
 url: /2010/06/kurzfilmfestival-hamburg/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In Hamburg gibt es ein Internationales Kurzfilmfestival. Eines der Hauptthemen in diesem Jahr ist Thailand. Unter dem Titel [We are fine][1] (wie passend) kann man 14 kurze Filme aus Thailand ansehen.
 

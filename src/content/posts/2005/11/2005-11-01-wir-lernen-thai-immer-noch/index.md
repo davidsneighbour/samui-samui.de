@@ -3,6 +3,12 @@ title: Wir lernen Thai. Immer noch.
 date: 2005-10-31T19:56:10+00:00
 url: /2005/11/wir-lernen-thai-immer-noch/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Also gestern war mal wieder eine recht nützliche Thailektion dran. Wir haben gelernt, was "verbraucht" heisst. Interessanterweise bedeutet das exakt übersetzt "zu sehr benutzt". Entspricht genau meiner Definition des Wortes.
 

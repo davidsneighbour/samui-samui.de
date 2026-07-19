@@ -7,9 +7,15 @@ tags:
   - panda
   - tierwelt
 resources:
-- src: "lin-hui-at-the-chiang-mai-zoo.jpg"
-  name: "linhui"
-  title: "Lin Hui im Chiang Mai Zoo"
+  - src: "lin-hui-at-the-chiang-mai-zoo.jpg"
+    name: "linhui"
+    title: "Lin Hui im Chiang Mai Zoo"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Lin Hui im Chiang Mai Zoo](./lin-hui-at-the-chiang-mai-zoo.jpg)

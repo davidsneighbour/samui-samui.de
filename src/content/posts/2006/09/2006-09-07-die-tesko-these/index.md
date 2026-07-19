@@ -2,10 +2,12 @@
 title: Die Tesko-These
 date: 2006-09-07T02:53:13+00:00
 url: /2006/09/die-tesko-these/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Als ich eben Tesko verlies,<txp:gho_footnote>Na K. aus Z.? ist das ein nettes Komma?</txp:gho_footnote> fiel mir ein, dass es letztes Jahr in der Regenzeit immer regnete, wenn ich Tesko verlassen wollte. Denn es regnete.
 

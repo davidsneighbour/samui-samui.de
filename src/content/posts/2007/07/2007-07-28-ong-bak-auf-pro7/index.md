@@ -4,10 +4,12 @@ date: 2007-07-27T22:51:00+00:00
 url: /2007/07/ong-bak-auf-pro7/
 dsq_thread_id:
   - "3645470319"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich habe mir sagen lassen, dass morgen Abend mal wieder Edelsteine über Ferkel geträufelt werden. Auf Pro7 kommt um 22:00 Uhr mitteleuropäischer Sommerzeit (und Nachts 1:45 nochmal) [Ong Bak][1].
 

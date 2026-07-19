@@ -2,10 +2,12 @@
 title: Agathe?
 date: 2007-04-04T11:53:48+00:00
 url: /2007/04/agathe/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Soll ich sie Agathe nennen?
 

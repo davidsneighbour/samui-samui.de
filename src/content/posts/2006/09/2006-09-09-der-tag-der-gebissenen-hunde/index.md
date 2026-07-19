@@ -2,10 +2,12 @@
 title: Der Tag der gebissenen Hunde
 date: 2006-09-09T05:54:08+00:00
 url: /2006/09/der-tag-der-gebissenen-hunde/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute war das Hundekrankenhaus voller gebissener Hunde. Da relativiert sich "Pokki's Leiden" ein wenig. Ein Labrador der in den Nacken gebissen wurde, ein pudelähnlicher Hund (muss ein Hund gewesen sein, es hat gebellt) und ein kleiner Shih Tzu.
 

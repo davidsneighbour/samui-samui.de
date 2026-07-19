@@ -2,10 +2,12 @@
 title: Helmpflicht
 date: 2006-09-24T08:27:00+00:00
 url: /2006/09/helmpflicht-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wenn man als Urlauber auf die schöne Insel Ko Samui kommt, mag man meinen in Thailand herrsche keine Helmpflicht. Halbnackte Touristen rauschen unbehelmt auf ihren Rollern in der Gegend rum. Thais ebenso. Tut sie aber. Herrschen. Es besteht Helmpflicht für alle motorisierten Zweiräder.
 

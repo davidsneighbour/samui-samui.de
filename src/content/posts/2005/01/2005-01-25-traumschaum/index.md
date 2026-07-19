@@ -3,6 +3,12 @@ title: Traumschaum
 date: 2005-01-25T06:49:00+00:00
 url: /2005/01/traumschaum/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Irgendwo in Nordeuropa. Ich befinde mich an Bord eines recht gro?en Schiffes mit Ziel Eismeer. Es sind ein paar bekannte Gesichter dabei, die an mir aber stumpf vorbeischauen oder mit sich selbst beschäftigt sind. Ein running Gag wird es werden, dass niemand zwei herumgehende ?pfel und Birnen essen will und sie immer einem anderen verdutzten Gegenüber in die Hand gesteckt werden und man verschwindet, während jenes Gegenüber nun versuchen wird, das Obst loszukriegen.
 

@@ -2,10 +2,12 @@
 title: Zero Tolerance
 date: 2007-06-14T12:50:51+00:00
 url: /2007/06/zero-tolerance/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/231.jpg)
 

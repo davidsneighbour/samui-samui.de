@@ -3,6 +3,12 @@ title: Ray Ban
 date: 2005-11-03T02:18:00+00:00
 url: /2005/11/ray-ban/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Frohen Schrittes betrete ich (vorhin) die Filiale einer Optikerei-Kette namens "Beautiful Opticals" auf der Beachstreet in Chaweng. (An dieser Stelle stoppt der Film, ich hänge mit dem Fuss überaus dümmlich grinsend über der Schwelle und aus dem Off ertönt eine Stimme:) Was war geschehen? Ich brauchte eine Brille. Eine neue. Die alte wollte nicht mehr so wie sie sollte, klapperte ihrem Ende entgegen, die Schrauben hielten nicht mehr, das Glas ermattete und auf die Frage nach dem "Wie lange trägst du die Brille denn schon" wusste ich keine Antwort was auf mindestens 4 Jahre hinweist. Abgesehen davon brauchte mein Gesicht schon lange mal ein Upgrade. Was also lag näher als die Schwelle eines Optikers zu übertreten? Hmm? Genau! Nichts.
 

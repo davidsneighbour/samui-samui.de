@@ -2,10 +2,12 @@
 title: Mailserverspä?e
 date: 2007-07-02T20:43:48+00:00
 url: /2007/07/mailserverspaesse/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/703624929/" title="Photo Sharing"><img src="//farm2.static.flickr.com/1089/703624929_39b0a8ed3b.jpg" width="500" height="375" alt="Dem Inschinör is nix zu schwör!" /></a></p>

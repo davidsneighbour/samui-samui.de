@@ -13,6 +13,12 @@ fb_author_post_id:
 fb_status_messages:
   - a:1:{i:0;a:2:{s:7:"message";s:104:"Posted to <a href="http://www.facebook.com/10151104559220642" target="_blank">your Facebook Timeline</a>";s:5:"error";s:0:"";}}
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Samui ist das Usedom Thailands --- wer hier Urlaub gemacht hat und keinen anderen Ort in Thailand (außer vielleicht Bangkoks wunderschönem überfüllten Flughafen Subvarnabhumi) besucht hat, war meiner Meinung nach noch nicht wirklich in Thailand. Samui wird gut aufbereitet an den Touristen weiter gegeben. Sonne, weiße Strände, türkisfarbenes Wasser, Teakholz-Pool-Liegen, gutes Essen, teure Taxis, freundliche Menschen an jeder Ecke --- genau was sich manch einer unter Thailand vorstellt.
 

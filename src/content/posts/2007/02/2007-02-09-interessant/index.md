@@ -2,10 +2,12 @@
 title: Interessant!
 date: 2007-02-09T00:40:04+00:00
 url: /2007/02/interessant/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/384215411/"><img src="//farm1.static.flickr.com/163/384215411_a53d8839cd.jpg" class="flickr-photo" alt="" /></a></p>

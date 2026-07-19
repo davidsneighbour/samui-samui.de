@@ -2,10 +2,12 @@
 title: Bombenterror im Urlaubsparadies
 date: 2006-06-15T04:52:00+00:00
 url: /2006/06/bombenterror-im-urlaubsparadies/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 (Ich wollte schon immer mal reißerische und verfremdende Überschriften einsetzen)
 

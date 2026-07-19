@@ -2,10 +2,12 @@
 title: Dies und das
 date: 2007-01-12T08:18:24+00:00
 url: /2007/01/dies-und-das-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Irgendwie viel zu viel zu tun "auf Arbeit"...
 

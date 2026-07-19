@@ -4,10 +4,12 @@ date: 2007-05-12T07:44:57+00:00
 url: /2007/05/fraglicher-wasserfall/
 dsq_thread_id:
   - "2938087500"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/494661031/"><img src="//farm1.static.flickr.com/201/494661031_28c8343e26.jpg" class="flickr-photo" alt="" /></a></p>

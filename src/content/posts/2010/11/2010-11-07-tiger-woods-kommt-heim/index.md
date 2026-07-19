@@ -3,6 +3,12 @@ title: Tiger Woods kommt heim
 date: 2010-11-07T14:29:54+00:00
 url: /2010/11/tiger-woods-kommt-heim/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <img src="//samui-samui.de/images/279.jpg"  style="width:620px;" /></p>

@@ -3,6 +3,12 @@ title: You romantic man!
 date: 2005-11-12T20:29:00+00:00
 url: /2005/11/you-romantic-man/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern abend hab dann selbst ich einige Augenblicke sehr sehr dumm aus der Wäsche gekuckt. Glücklicherweise war es dunkel und so sahen es nicht allzuviele Personen.
 

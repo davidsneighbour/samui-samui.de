@@ -3,6 +3,12 @@ title: I don’t like
 date: 2011-12-01T13:42:03+00:00
 url: /2011/12/i-don-t-like/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Bis vor kurzem noch in der Kuriositätenabteilung der lokalen Presse versteckt: Wenn man (als Thailänder, oder als Ausländer in Thailand) auf Facebook eine Seite "liked", die von den jeweils Regierenden oder gegen ebenjene Arbeitenden nicht gemocht wird, dann [kann man wegen Majestätsbeleidigung angeklagt werden][1]. Sagt der Chef der staatlichen Zensurbehörde und der muss es ja wissen.
 

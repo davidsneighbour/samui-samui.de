@@ -2,10 +2,12 @@
 title: Long live Google
 date: 2008-01-30T23:22:18+00:00
 url: /2008/01/long-live-google/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Grad kam per <span class="caps">ICQ</span> eine Kontakt-Anfrage von meinem Lieblingscousin in Deutschland rein, in der er meinte, dass er mich gegoogelt hat und an Position 1 gefunden hätte.
 

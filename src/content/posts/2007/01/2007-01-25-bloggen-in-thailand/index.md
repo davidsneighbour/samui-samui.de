@@ -2,10 +2,12 @@
 title: Bloggen in Thailand – Na Endlich!
 date: 2007-01-24T22:41:01+00:00
 url: /2007/01/bloggen-in-thailand/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<span class="caps">MSN</span> hat gestern laut verkündet][1], dass sie ab heute einen auf thailändische Verhältnisse und Sprache zugeschnittenen Weblog-Service anbieten wollen. Sie haben schon eine Weile unter [th.msn.com][2] ein Thailand-Portal laufen und bringen nun den Segen des Bloggens nach Thailand.
 

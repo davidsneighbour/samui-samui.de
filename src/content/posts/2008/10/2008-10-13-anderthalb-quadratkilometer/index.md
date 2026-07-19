@@ -4,10 +4,12 @@ date: 2008-10-13T16:23:35+00:00
 url: /2008/10/anderthalb-quadratkilometer/
 dsq_thread_id:
   - "3454162074"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ?und ein angedrohter Krieg.
 

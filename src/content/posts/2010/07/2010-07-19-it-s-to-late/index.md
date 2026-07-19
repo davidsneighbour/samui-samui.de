@@ -3,6 +3,12 @@ title: … it’s to late …
 date: 2010-07-19T15:38:13+00:00
 url: /2010/07/it-s-to-late/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <dnb-youtube videoid="9dNIu8_-iU8"></dnb-youtube>
 

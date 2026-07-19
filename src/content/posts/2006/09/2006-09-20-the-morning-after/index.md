@@ -2,10 +2,12 @@
 title: Der Morgen danach – Zum Putsch in Thailand
 date: 2006-09-19T20:44:00+00:00
 url: /2006/09/the-morning-after/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/247872022/" title="The morning after"><img src="//static.flickr.com/80/247872022_237eb1dc9a.jpg" alt="The morning after" /></a></p>

@@ -6,6 +6,12 @@ tags:
   - i head a dream
   - somchai wongsawasdi
   - thai style
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Somchai Wongsawasdi (einer der Premierminister zwischen Thaksin Shinawatra und heute) hatte vergangenen Mittwoch einen schlechten Traum. Dieser schlechte Traum bewegte ihn, am Donnerstag einen Mönch zu besuchen:

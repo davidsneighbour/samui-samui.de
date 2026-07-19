@@ -5,6 +5,12 @@ url: /2011/04/lin-ping-bleibt/
 tags:
   - panda
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/mrpokx5/3948848287/" title="SANY0016 by mrpokx5, on Flickr"><img src="//farm3.static.flickr.com/2511/3948848287_f50d8b82db_z.jpg" width="640" height="480" alt="SANY0016" /></a></p>

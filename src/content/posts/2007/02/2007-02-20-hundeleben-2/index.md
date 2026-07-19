@@ -4,10 +4,12 @@ date: 2007-02-20T05:42:14+00:00
 url: /2007/02/hundeleben-2/
 dsq_thread_id:
   - "3490259640"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/395200117/"><img src="//farm1.static.flickr.com/127/395200117_5a61d0a6e1.jpg" class="flickr-photo" alt="" /></a></p>

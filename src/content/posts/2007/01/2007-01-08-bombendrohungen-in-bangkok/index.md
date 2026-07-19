@@ -2,10 +2,12 @@
 title: Bombendrohungen in Bangkok
 date: 2007-01-08T01:53:47+00:00
 url: /2007/01/bombendrohungen-in-bangkok/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Tage seit dem Jahreswechsel sind gefüllt mit Bombendrohungen. Nahezu keine Stunde ohne erneuten Bombenalarm. Einkaufszentren, Schulen, Redaktionen... nicht nur in Bangkok. Entweder reagieren Leute verängstigt auf offen stehende öffentliche Telephone oder einsam herumstehende Taschen oder Leute stellen tatsächlich Taschen mit herausstehenden Drähten irgendwo hin oder rufen an, um zu erklären, dass sie Bomben deponiert hätten. Hysterie und Vandalentum halten sich somit die Waage. "Echte" Anschläge au?er den seit zwei Jahren beinahe täglich geschehenden im Süden gab es aber seither nicht. Die Behörden wachsam.
 

@@ -3,10 +3,16 @@ title: "Koreanische Zombies"
 date: 2019-01-27T20:00:00+07:00
 url: /2019/01/koreanische-zombies/
 tags:
-- netflix
-- korea
-- zombies
-- kingdom
+  - netflix
+  - korea
+  - zombies
+  - kingdom
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Es stellt sich heraus, dass es auch in Korea Zombies gibt... zumindest auf Netflix. Ein Grund mehr, endlich mal ein Abo abzuschliessen.

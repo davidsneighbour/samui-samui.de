@@ -2,10 +2,12 @@
 title: Der Tag der gebissenen Hunde II
 date: 2006-09-09T09:45:21+00:00
 url: /2006/09/der-tag-der-gebissenen-hunde-ii/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Manchmal kommt mir Pokkis Leben wie eine kleine Thaisoap vor. Vor gut einer Stunde (pünktlich 30 Minuten nachdem die Tierklinik für den Rest des Wochenendes geschlossen hat) wurde Pokki gebissen. Mal wieder. Diesmal von einem Insekt (vermuten wir).
 

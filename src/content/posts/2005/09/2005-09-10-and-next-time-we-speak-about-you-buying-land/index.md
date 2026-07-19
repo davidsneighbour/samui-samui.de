@@ -3,6 +3,12 @@ title: And next time we speak about you buying land!
 date: 2005-09-09T23:21:00+00:00
 url: /2005/09/and-next-time-we-speak-about-you-buying-land/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Hab eben die Miete für meinen Palast und den nächsten Monat gezahlt. Was weniger lustig gewesen wäre wenn ich nicht "mein Haus" in den Worten meiner Vermieterin Kiew mit ihr Haus verwechselt hätte und dort rumgesessen hätte. Mein Haus ist also auch bei ihr "mein Haus". Das müssen wir mal noch klären.
 

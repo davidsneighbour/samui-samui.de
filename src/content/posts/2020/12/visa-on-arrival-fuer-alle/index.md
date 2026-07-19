@@ -4,13 +4,19 @@ date: 2020-12-27T16:31:42+07:00
 lastmod: 2020-12-27T16:31:42+07:00
 url: /2020/12/visa-on-arrival-fuer-alle
 tags:
-    - thailand
-    - visa
-    - covid-19
+  - thailand
+  - visa
+  - covid-19
 resources:
-    - src: "passport.jpg"
-      name: "passport"
-      title: "Photo by [ConvertKit](https://unsplash.com/@convertkit) on Unsplash"
+  - src: "passport.jpg"
+    name: "passport"
+    title: "Photo by [ConvertKit](https://unsplash.com/@convertkit) on Unsplash"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![](./passport.jpg)

@@ -3,6 +3,12 @@ title: Wenig lustig
 date: 2006-07-06T11:02:56+00:00
 url: /2006/07/wenig-lustig/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Manchmal kommt mir mein Leben wie eine Komödie vor. Dann muss ich lachen.
 

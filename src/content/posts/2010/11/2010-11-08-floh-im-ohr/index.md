@@ -5,6 +5,12 @@ url: /2010/11/floh-im-ohr/
 dsq_thread_id:
   - "3168352125"
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <img src="//samui-samui.de/images/280.jpg" /></p>

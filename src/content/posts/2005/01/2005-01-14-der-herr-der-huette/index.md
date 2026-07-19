@@ -3,6 +3,12 @@ title: Der Herr der Hütte
 date: 2005-01-14T00:31:57+00:00
 url: /2005/01/der-herr-der-huette/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So. Hab vorhin eine Hütte gemietet. Dummerweise hat die keine Klimaanlage, so dass es recht warm werden könnte. Aber das macht nichts, so wird das ganze Erlebnis authentischer ;)
 

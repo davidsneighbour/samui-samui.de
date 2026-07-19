@@ -3,6 +3,12 @@ title: Verschiedenes zum Wochenende ;)
 date: 2005-10-05T23:43:00+00:00
 url: /2005/10/verschiedenes-zum-wochenende/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 * Wenn Sie heute eine Reise beginnen, sei es nach Hause oder anderswohin, so kommen Sie gut an.
 * Wenn Sie dieses Blog regelmäßig lesen, so sparen Sie Zeit, Bandbreite und Sorgen und kommen Sie erst am Montag wieder hier her.

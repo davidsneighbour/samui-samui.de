@@ -3,6 +3,12 @@ title: Das Wetter
 date: 2005-12-22T00:46:00+00:00
 url: /2005/12/das-wetter-2/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es h??rt nicht auf. Im S??den ist so ziemlich alles ??berschwemmt, was zu ??berschwemmen geht. Die neun s??dlichen Provinzen sind zum Unwettergebiet ausgerufen worden und es wird f??r die n??chsten Tage mehr erwartet:
 

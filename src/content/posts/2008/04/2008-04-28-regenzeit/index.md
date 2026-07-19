@@ -4,10 +4,12 @@ date: 2008-04-28T14:21:14+00:00
 url: /2008/04/regenzeit/
 dsq_thread_id:
   - "3211940751"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2450453665/" title="Lots of water"><img src="//farm3.static.flickr.com/2214/2450453665_f8748f4eef.jpg" alt="Lots of water" /></a></p>

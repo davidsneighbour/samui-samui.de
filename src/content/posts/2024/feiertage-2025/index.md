@@ -6,6 +6,12 @@ tags:
   - feiertage
   - thailand
 lastmod: 2025-09-18T2:46:53+00:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Thailand hat auch im Jahr 2025 eine Vielzahl an Feiertagen, die nicht nur kulturell spannend sind, sondern auch die Reiseplanung beeinflussen können. Öffentliche Feiertage bieten eine Gelegenheit, traditionelle Feste mitzuerleben, können aber auch Auswirkungen auf Öffnungszeiten und Verkehr haben. In diesem Beitrag findest du eine Übersicht der wichtigsten Feiertage in Thailand 2025, einschließlich Tipps, wie du diese Tage optimal nutzen kannst, egal ob du auf Koh Samui oder in anderen Teilen des Landes bist.

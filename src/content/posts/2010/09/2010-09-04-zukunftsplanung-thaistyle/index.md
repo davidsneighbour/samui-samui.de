@@ -3,6 +3,12 @@ title: Zukunftsplanung Thaistyle
 date: 2010-09-04T14:47:59+00:00
 url: /2010/09/zukunftsplanung-thaistyle/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In Thailand läuft immer alles etwas anders als man es aus der alten Heimat kennt.
 

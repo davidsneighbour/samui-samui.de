@@ -3,6 +3,12 @@ title: Virtuelles Memory in der Laundry
 date: 2005-08-16T20:43:00+00:00
 url: /2005/08/virtuelles-memory-in-der-laundry/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eben war ich mal wieder durchgeschwitzte Kleidungsstücke (was ich damit sagen will ist: Kähäääähähäh! Wir haben hier ewigen Sommer) in der Laundry abgegeben und wurde zu einem höchst interessanten Gespräch eingeladen:
 

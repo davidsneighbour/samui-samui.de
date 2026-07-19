@@ -5,6 +5,12 @@ url: /2005/07/western-money-geldwaesche/
 dsq_thread_id:
   - "6412166463"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So. Soso. Hab ich heute mal wieder Geld in das finanziell klamme Deutschland geschickt. Wollte ich eigentlich schon sehr viel eher machen, habe es aber aufgrund unvorhergesehener Zwischenfälle und verschiedener, ähm, Dinge, ähm, nicht geschafft.
 

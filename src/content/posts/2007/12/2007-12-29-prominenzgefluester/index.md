@@ -2,10 +2,12 @@
 title: Prominenzgeflüster
 date: 2007-12-29T00:36:13+00:00
 url: /2007/12/prominenzgefluester/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Dr. Eric Schmidt][1], <span class="caps">CEO</span> einer kleineren amerikanischen Suchmaschine, befindet sich auf der Insel und leidet an Jetlag.
 

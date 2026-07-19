@@ -2,10 +2,12 @@
 title: Samaks (vorläufiges) Ende
 date: 2008-09-09T03:50:42+00:00
 url: /2008/09/samaks-vorlaeufiges-ende/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Tatsächlich][1]. Eine Kochsendung hat ihn aus dem Premierministeramt gesto?en. Wie lustig.
 

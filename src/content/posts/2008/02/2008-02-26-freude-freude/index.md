@@ -2,10 +2,12 @@
 title: Freude, Freude!
 date: 2008-02-26T12:16:45+00:00
 url: /2008/02/freude-freude/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/249.png)
 

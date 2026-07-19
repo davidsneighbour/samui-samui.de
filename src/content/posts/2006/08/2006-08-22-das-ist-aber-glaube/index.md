@@ -2,10 +2,12 @@
 title: Das ist aber Glaube
 date: 2006-08-22T09:35:26+00:00
 url: /2006/08/das-ist-aber-glaube/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute druckste Fu den ganzen Abend herum und rückte dann nach einer Weile heraus, mit ihrem Buddha-Anhänger. Von ihrem Bruder geschenkt, gefertigt in einem Wat in Phrae und glücksbringend. "You know that!". Ein von meinem schrägen Humor unantastbares Symbol.
 

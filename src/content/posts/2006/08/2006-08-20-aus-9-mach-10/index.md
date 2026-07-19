@@ -2,10 +2,12 @@
 title: Aus 9 mach 10
 date: 2006-08-20T02:18:00+00:00
 url: /2006/08/aus-9-mach-10/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Dass es in Thailand <txp:gho_permalink id="743">eine acht mehr in den Mobiltelefonnummern</txp:gho_permalink> geben wird, habe ich mehrfach erwähnt. Zum ersten September nun wird umgeschaltet und alle Nummern bekommen gleich hinter der 0 eine 8 verpasst. Aus meiner leicht zu merkenden 078979350 wird eine 0878979350, das wird schon schön kompliziert.
 

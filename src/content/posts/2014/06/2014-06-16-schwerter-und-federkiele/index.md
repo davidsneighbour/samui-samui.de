@@ -4,10 +4,12 @@ date: 2014-06-16T13:36:33+00:00
 url: /2014/06/schwerter-und-federkiele/
 dsq_thread_id:
   - "2894267774"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <dnb-youtube videoid="p-JnwTmGLsU"></dnb-youtube>
 

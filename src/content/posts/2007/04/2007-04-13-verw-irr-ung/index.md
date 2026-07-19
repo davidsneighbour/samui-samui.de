@@ -2,10 +2,12 @@
 title: Verw-irr-ung
 date: 2007-04-13T12:10:12+00:00
 url: /2007/04/verw-irr-ung/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich könnte gut ohne diese ganze Chemie leben. Andererseits... was wäre es (das Leben) ohne die Wendungen? Langweilig? Vieleicht sowohl mit als auch ohne...
 

@@ -2,10 +2,12 @@
 title: Panikmache
 date: 2006-09-08T04:29:00+00:00
 url: /2006/09/panikmache/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ca. 300 Thais sind im letzten Monat aus dem Süden in unsere Provinz gezogen. Heute steht in der [The Nation Online][1]:
 

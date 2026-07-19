@@ -6,10 +6,16 @@ tags:
   - elefanten
   - elfenbein
   - kriminalität
-resources :
-- src: "thailand-ivory-seized-cham.jpg"
-  name: "ivory"
-  title: "Elfenbein"
+resources:
+  - src: "thailand-ivory-seized-cham.jpg"
+    name: "ivory"
+    title: "Elfenbein"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Elfenbein](./thailand-ivory-seized-cham.jpg)

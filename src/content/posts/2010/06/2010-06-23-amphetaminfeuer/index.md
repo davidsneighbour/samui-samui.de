@@ -3,6 +3,12 @@ title: Amphetaminfeuer
 date: 2010-06-23T00:51:32+00:00
 url: /2010/06/amphetaminfeuer/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wie jedes Jahr um diese Zeit werden morgen [wieder einmal legal Drogen verbrannt][1]. 5.691kg werden mit einem "speziellen Verfahren" verbrannt, das die Umwelt nicht verschmutzt und vermutlich auch keine unerwünschten Drogenräusche hervor ruft.
 

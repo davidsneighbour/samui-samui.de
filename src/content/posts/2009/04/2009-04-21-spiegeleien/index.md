@@ -2,10 +2,12 @@
 title: Spiegeleien
 date: 2009-04-20T22:58:11+00:00
 url: /2009/04/spiegeleien/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Im Spiegel gibt es ein interessantes [Interview mit Sukhumbhand Paribatra][1], dem Governour Bangkoks und Cousins des Königs ([hier auf Deutsch][2]). Neben Thaksin und den Unruhen geht es dabei um die Thronfolge:
 

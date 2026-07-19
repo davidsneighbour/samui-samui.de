@@ -2,10 +2,12 @@
 title: Militärfernsehprogramm
 date: 2006-09-28T11:48:00+00:00
 url: /2006/09/militaerfernsehprogramm/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Das Militär unterbricht übrigens immer noch ständig das Programm auf den Thaikanälen. Heute bspw. verkündeten sie mitten in Fu's Lieblingsthaisoap, dass ein paar Bestimmungen, die der scheidende Thaksin von sich gegeben hat, ungütig sind. Das normale Programm wird dafür nicht gestoppt. Verpasst das Volk eben, was Naraks fieser Gegenspielerins Mutter so von sich gibt wenn diese ihren nicht ganz so geheimen oder familiär ungeliebten Freund zufällig beim Parken trifft.
 

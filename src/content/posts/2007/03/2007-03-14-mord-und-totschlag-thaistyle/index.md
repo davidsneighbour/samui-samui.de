@@ -2,10 +2,12 @@
 title: Mord und Totschlag, Thaistyle
 date: 2007-03-13T22:35:12+00:00
 url: /2007/03/mord-und-totschlag-thaistyle/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Gestern wurde in Nathon ein kleiner Junge umgebracht und seine Mutter schwer verletzt][1]. Die Nachricht lief durch die Nachbarschaft, wurde wohl kurz auf TiTV gezeigt und jeder versuchte, es mir zu erklären, verstanden habe ich aber am Ende nur, dass ein Fünfjähriger tot ist und seine Mutter schwer verletzt. Die restlichen Familienmitglieder leben zur Zeit in Australien. Von Mord wusste ich auch nichts, denn so wie ich das verstanden habe, ist das Haus zusammen gebrochen (stürmisch war es ja). Ich sehe schon, ich muss langsam mal "Thai für Kriminelle" lernen. Dann müsste ich brechen nicht mit ein- oder zusammen- in Verbindung bringen müssen. Die englischen News sind immer sehr langsam.
 

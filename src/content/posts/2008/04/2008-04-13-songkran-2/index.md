@@ -4,10 +4,12 @@ date: 2008-04-13T00:05:35+00:00
 url: /2008/04/songkran-2/
 dsq_thread_id:
   - "3382808952"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
  <img src="//samui-samui.de/images/251.gif" width="276" height="110" style="float:left; margin-right:10px;" />Zum Songkran-Fest hat [Google-Thailand][1] sogar einen Google-Doodle spendiert. Das dürfte der erste Google-Doodle für Thailand sein.
 

@@ -2,10 +2,12 @@
 title: Karajan is lange tot.
 date: 2008-06-01T01:22:21+00:00
 url: /2008/06/karajan-is-lange-tot/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2541844688/" title="Burn baby burn!"><img src="//farm4.static.flickr.com/3227/2541844688_384cd4106e.jpg" alt="Burn baby burn!" /></a></p>

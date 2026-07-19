@@ -2,10 +2,12 @@
 title: Aus dem Fenster fallen
 date: 2007-10-09T14:52:17+00:00
 url: /2007/10/aus-dem-fenster-fallen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In Bangkok und anderen Farangansammlungen in Thailand fallen immer mal wieder Menschen von Dächern und aus Fenstern. Die stürzen sich nicht runter, sie werden nicht gesto?en, sie fallen. So wie mein Haus damals nicht ausgeraubt wurde sondern ich meine Sachen "verloren" habe.
 

@@ -2,10 +2,12 @@
 title: Hier. Photo!
 date: 2007-04-17T08:01:14+00:00
 url: /2007/04/hier-photo/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/462510522/"><img src="//farm1.static.flickr.com/242/462510522_6976374920.jpg" class="flickr-photo" alt="" /></a></p>

@@ -2,6 +2,12 @@
 title: "Manchester City quit Thailand"
 date: 2009-03-06T14:15:46+00:00
 url: /2009/03/manchester-city-quit-thailand/
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Tja, ohne ehemaligen Premierminister Thailands im Board of Directors (wie voraus schauend mehrwertdeutig) hat auch der britische Fussballclub Manchester City [kein Interesse mehr][1] am "Thailand-Geschäft".

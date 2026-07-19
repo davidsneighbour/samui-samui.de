@@ -3,6 +3,12 @@ title: Chakri Day
 date: 2005-04-05T05:41:00+00:00
 url: /2005/04/chakri-day/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Jawohl! Es ist April. Mit 4 Feiertagen der arbeitstechnisch ertragreichste Monat unseres kleinen Unternehmens. Morgen nun ist der erste Feiertag: Der Chakri Tag (Chakri Day). An diesem Tag pflegt der gewönliche Thailänder der Chakri-Dynastie zu huldigen, die hier gerade seit 1782 (ratet an welchem Tag? Ja! Dem 6. April!) an der Macht ist. König Bhumibol Aulyadej der Gro?e ist übrigens der neunte König der Chakri-Dynastie.
 

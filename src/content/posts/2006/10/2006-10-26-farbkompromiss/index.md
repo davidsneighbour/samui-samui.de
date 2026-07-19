@@ -2,10 +2,12 @@
 title: Farbkompromiss
 date: 2006-10-26T09:47:49+00:00
 url: /2006/10/farbkompromiss/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es nörgelten zu viele über meine wirklich schönen und sorgfältig ausgewählten Farben. Also hab ich das mal geändert. Natürlich nicht hier ;)
 

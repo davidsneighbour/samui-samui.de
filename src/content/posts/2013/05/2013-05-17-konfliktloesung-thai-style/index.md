@@ -4,10 +4,12 @@ date: 2013-05-17T16:29:19+00:00
 url: /2013/05/konfliktloesung-thai-style/
 fb_author_post_id:
   - 517050641_10151432137190642
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich bin mehr oder weniger ein Geek. Das heisst ich verbringe meine Tage und Nächte vor Monitoren, trinke Bier (in Ermangelung an Mate-Getränken in Thailand) und tippe auf klebrigen Tastaturen herum.
 

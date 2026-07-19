@@ -2,10 +2,12 @@
 title: Zerrissene Familie
 date: 2007-01-09T20:31:43+00:00
 url: /2007/01/zerrissene-familie/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/351098569/"><img src="//farm1.static.flickr.com/126/351098569_8a40d42073.jpg" class="flickr-photo" alt="" /></a></p>

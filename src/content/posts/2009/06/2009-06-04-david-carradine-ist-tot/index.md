@@ -2,10 +2,12 @@
 title: David Carradine ist tot
 date: 2009-06-04T00:54:41+00:00
 url: /2009/06/david-carradine-ist-tot/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [David Carradine ist nach Presseberichten tot][1]. Vermutlich hat er sich selbst umgebracht, zumindest hat man ihn in einem Bangkoker Hotelzimmer hängend gefunden.
 

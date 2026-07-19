@@ -2,10 +2,12 @@
 title: 'Darf ich vorstellen: Soosi'
 date: 2006-06-18T23:10:00+00:00
 url: /2006/06/darf-ich-vorstellen-soosi/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/170175155/" title="Soosi"><img src="//static.flickr.com/46/170175155_98f9f5707e.jpg" alt="Soosi" /></a></p>

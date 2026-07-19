@@ -2,10 +2,12 @@
 title: Gehacktes.
 date: 2007-07-19T00:26:17+00:00
 url: /2007/07/gehacktes/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute mittag wurde die Website des Information and Communications Technology Ministeriums [gehackt][1]. Die ärmsten. Thaksin war drauf zu sehen.
 

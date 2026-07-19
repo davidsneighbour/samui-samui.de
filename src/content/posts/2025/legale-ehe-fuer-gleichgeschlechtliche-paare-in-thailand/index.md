@@ -7,6 +7,12 @@ tags:
   - thailand
   - ehe
 lastmod: 2025-09-18T3:02:10+00:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Thailand legalisiert die Ehe für alle - ein Meilenstein in Südostasien.

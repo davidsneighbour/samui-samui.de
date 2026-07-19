@@ -4,10 +4,12 @@ date: 2006-10-23T07:59:39+00:00
 url: /2006/10/was-ist-denn-nun-schon-wieder-los/
 dsq_thread_id:
   - "3560666911"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Hier in der Re(De)Signation werde ich über die lange Zeit herausgeschobenen Umstrukturierungsarbeiten berichten. Es wird dabei sehr technisch und stark textpatternbezogen zu gehen. In der rechten Spalte kann man sich die jeweiligen Änderungen im Screenshot ansehen.
 

@@ -2,10 +2,12 @@
 title: Null Zeit in Thailand
 date: 2006-06-13T03:34:00+00:00
 url: /2006/06/null-zeit-in-thailand/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Auch mal die anderen erzählen lassen: Helene, oder ([nullzeit][1])generator, war im März in Thailand und berichtet in ihrem Blog darüber. Leider haben wir uns trotz nettem Emailkontakts (das ist ja mal wieder ein schöner Genitiv gewesen) nicht getroffen, was eventuell an meiner Beschreibung der Sehenswürdigkeiten der Insel gelegen haben könnte ("Ballermann im Golf" --- sehr nett umschrieben von ihr). Macht nichts, die Beschreibungen von Land und Leuten des Isaans sind Belohnung genug.
 

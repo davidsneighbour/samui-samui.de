@@ -2,10 +2,12 @@
 title: Mein Bild
 date: 2007-01-09T21:14:56+00:00
 url: /2007/01/mein-bild/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/352351256/"><img src="//farm1.static.flickr.com/166/352351256_0f9099992c.jpg" class="flickr-photo" alt="" /></a></p>

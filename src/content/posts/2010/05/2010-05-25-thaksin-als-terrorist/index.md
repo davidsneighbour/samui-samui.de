@@ -3,6 +3,12 @@ title: Thaksin als Terrorist
 date: 2010-05-25T11:48:11+00:00
 url: /2010/05/thaksin-als-terrorist/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

@@ -2,10 +2,12 @@
 title: No more D, no more 2B
 date: 2007-12-08T15:41:20+00:00
 url: /2007/12/no-more-d-no-more-2b/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Big ist tot. Big ist ein Drittel einer vor gut fünf Jahren noch sehr erfolgreichen thailändischen Boyband namens D2B und hie? eigentlich Parnrawat Kittikorncharoen. Die Boyband hie? D2B weil sie aus Dan, Big und Beam bestand. 2 B's und 1 D.
 

@@ -2,10 +2,12 @@
 title: Mit Thaksin zur Registrierung
 date: 2007-11-11T13:03:47+00:00
 url: /2007/11/mit-thaksin-zur-registrierung/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wahlkampf Thaistyle: Surapong Towichakchaikul, ein Kandidat für die People's Power Partei (<span class="caps">PPP</span>), kam zur Registrierung als Kandidat für Chiang Mai gestern [mit Thaksinmaske][1].
 

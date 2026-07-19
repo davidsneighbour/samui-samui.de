@@ -2,10 +2,12 @@
 title: Strategie
 date: 2006-09-20T20:45:00+00:00
 url: /2006/09/strategie/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Das <span class="caps">ARC</span> behält seine Strategie, wichtige und eventuell Aufruhr erzeugende Erlässe in der Nacht zu präsentieren, bei. Einerseits bekommen so weniger Menschen mit, was passiert und die Wahrscheinlichkeit für Aufruhr sink und andererseits bekommen jene, die die Erlasse betreffen es schwerer mit.
 

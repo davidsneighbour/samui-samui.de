@@ -4,10 +4,12 @@ date: 2007-04-19T23:25:00+00:00
 url: /2007/04/friseurgeschichten-2/
 dsq_thread_id:
   - "2896434282"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern war ich beim Friseur. Die Hunde auch, aber das ist eine andere Geschichte.
 

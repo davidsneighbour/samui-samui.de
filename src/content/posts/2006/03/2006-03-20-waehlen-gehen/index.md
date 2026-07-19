@@ -3,6 +3,12 @@ title: W??hlen gehen
 date: 2006-03-20T00:54:00+00:00
 url: /2006/03/waehlen-gehen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich: Und? Wen wirst du wählen?
 

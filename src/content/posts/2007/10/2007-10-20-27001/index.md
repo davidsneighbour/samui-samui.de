@@ -2,10 +2,12 @@
 title: 2700:1
 date: 2007-10-19T21:10:00+00:00
 url: /2007/10/27001/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/243.png)
 

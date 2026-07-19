@@ -3,6 +3,12 @@ title: "Das Gesundheitsministerium informiert: Plastiktüten eignen sich nicht a
 date: 2011-01-04T17:55:56+00:00
 url: /2011/01/das-gesundheitsministerium-informiert-plastiktueten-eignen-sich-nicht-als-kondom/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die The Nation berichtet heute über Schüler, die Plastiktüten als Kondome benutzen und das daraus resultierende Bedürfnis des Gesundheitsministeriums, darauf hin zu weisen, dass das [nicht weise ist][1]. Man beachte bitte das schöne Schaubild mit den Plastiktüten.
 

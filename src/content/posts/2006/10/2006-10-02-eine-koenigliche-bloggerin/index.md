@@ -2,10 +2,12 @@
 title: 'Eine königliche Bloggerin'
 date: 2006-10-02T06:05:28+00:00
 url: /2006/10/eine-koenigliche-bloggerin/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ziemlich viel Buzz (yeah! Schlagworte! Für die älteren unter meinen Lesern, es handelt sich um ein Wort für "Rumor, Begeisterung") machten die Medien des Landes in den vergangenen Tagen über Ihre Königliche Hoheit Prinzessing Maha Chakri Sirindhorn, die ein Blog führen soll. Leider relativiert sich das alles und aus dem Blog ist ein Eintrag geworden, der zudem noch aus einem einzelnen Absatz besteht.
 

@@ -2,10 +2,12 @@
 title: Oleeeeh oleh oleh oleeeh! Endzeit.
 date: 2006-06-28T22:04:00+00:00
 url: /2006/06/oleeeeh-oleh-oleh-oleeeh-endzeit/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Man wöllte meinen nach einem Monat voll Rumgespiele haben die Leute endlich genug vom beinah idealen Rund. Haben sie aber nicht. Glücklicherweise habe ich gelesen, dass nach dem 9. Juli dann wirklich Schluss sein wird. Gut so. Hier also die Ausstrahlungszeiten für die thailändischen Fernsehsender. Für drei der Termine stehen die Sender entweder noch nicht fest oder es sind alle fünf Sender gleichzeitig online. Das muss ich noch tranlatieren.
 

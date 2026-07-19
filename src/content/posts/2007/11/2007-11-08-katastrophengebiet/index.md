@@ -2,10 +2,12 @@
 title: Katastrophengebiet
 date: 2007-11-07T22:31:22+00:00
 url: /2007/11/katastrophengebiet/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Samui wurde heute zum [Katastrophengebiet][1] ausgerufen. Es regenete gut zwei Tage lang und die Stra?en sind überflutet. Auf dem Weg zum nächtlichen Bierkauf (1km zum 7eleven) gibt es drei ?berschwemmungsstellen und die Stra?e hat jeden Tag mehr Schlaglöcher und Risse.
 

@@ -5,6 +5,12 @@ url: /2005/02/thai-sprechen/
 dsq_thread_id:
   - "3009282456"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Dass es sich lohnt, Thai zu lernen habe ich heute im 7eleven (wir Kenner sagen hier "säwwäniihläwwän") gemerkt. Ich entschied mich spontan dazu beim Rückgeld ein "kopp hun kapp" loszuwerden (die lautmalerische Version von einem thai-Danke) und wurde prompt mit einem tiefstem Wai zuzüglich breitem Lächeln belohnt. Also tiefer und breiter als sonst.
 

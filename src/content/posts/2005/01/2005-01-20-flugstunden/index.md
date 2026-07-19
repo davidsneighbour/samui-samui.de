@@ -5,6 +5,12 @@ url: /2005/01/flugstunden/
 dsq_thread_id:
   - "6412166505"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So. Vor ungefähr einer Stunde verlie? meine Maus plötzlich der batteriell betriebene Strom. Ich dachte mir, fährste schnell heim und holst neue, so ne Unterbrechung kann nicht schaden. Gedacht, getan. Ich fahre vor mich hin, auf unsere Waldstra?e hinauf. Mir kommt ein Laster entgegen, sehr schnell. Das war nicht etwa das erste Mal, dass ich einen Laster auf der Gegenspur hatte, also bremste ich ein bisschen und fuhr weiter links. Der Laster beschleunigte, fuhr an mir vorbei. Mit ihm kam ein Schwall Luft, der mich nach links drückte, ich bremste, dummerweise auf einer Sandspur.
 

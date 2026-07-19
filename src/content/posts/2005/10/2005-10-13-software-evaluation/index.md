@@ -3,6 +3,12 @@ title: Software-Evaluation
 date: 2005-10-13T05:42:17+00:00
 url: /2005/10/software-evaluation/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 * Sich erinnern, dass Google Earth existiert und man es jetzt, wo man wieder unter XP läuft, mal installieren könnte.
 * Downloaden und installieren

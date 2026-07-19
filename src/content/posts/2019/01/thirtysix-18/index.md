@@ -3,13 +3,19 @@ title: "Thirtysix-18"
 date: 2019-01-01T21:00:00+07:00
 url: /2019/01/thirtysix-18/
 tags:
-- wetter
-- sturm
-- koh samui
+  - wetter
+  - sturm
+  - koh samui
 resources:
-- src: "samui-jan-4.png"
-  name: "samui-jan-4"
-  title: "Samui am 4. Januar 2019, ca. 14 Uhr (Quelle: windy.com)"
+  - src: "samui-jan-4.png"
+    name: "samui-jan-4"
+    title: "Samui am 4. Januar 2019, ca. 14 Uhr (Quelle: windy.com)"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Samui am 4. Januar 2019, ca. 14 Uhr (Quelle: windy.com)](./samui-jan-4.png)

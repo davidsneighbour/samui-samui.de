@@ -2,10 +2,12 @@
 title: Hin Da Hin Yai
 date: 2009-01-28T21:53:57+00:00
 url: /2009/01/hin-da-hin-yai-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3235770457/" title="Its not a question of size"><img src="//farm4.static.flickr.com/3467/3235770457_1612ae9d06.jpg" alt="Its not a question of size" /></a></p>

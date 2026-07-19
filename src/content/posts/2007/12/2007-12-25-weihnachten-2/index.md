@@ -2,10 +2,12 @@
 title: Weihnachten
 date: 2007-12-25T02:38:34+00:00
 url: /2007/12/weihnachten-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2135910380/" title="Christmas eve"><img src="//farm3.static.flickr.com/2229/2135910380_b35f975dd0.jpg" alt="Christmas eve" /></a></p>

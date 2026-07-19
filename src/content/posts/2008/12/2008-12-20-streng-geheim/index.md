@@ -2,10 +2,12 @@
 title: Streng geheim
 date: 2008-12-20T15:36:07+00:00
 url: /2008/12/streng-geheim/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Bei [Factthai][1] kann man eine (streng geheime) Liste der vom <span class="caps">ICT</span> (Ministerium für Information und Kommunikation) Thailands verbotenen Websiten ansehen.
 

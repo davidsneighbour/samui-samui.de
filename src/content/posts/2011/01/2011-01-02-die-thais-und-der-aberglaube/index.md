@@ -3,6 +3,12 @@ title: Die Thais und der Aberglaube
 date: 2011-01-01T21:10:09+00:00
 url: /2011/01/die-thais-und-der-aberglaube/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In der New York Times findet man einen lesenswerten Artikel zu den Thais und ihrem Hang zum Aberglauben. Wahrsagerei und "Magie" jedweder Färbung sind auch heute noch weit verbreitet und äu?erst lukrativ.
 

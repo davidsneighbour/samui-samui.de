@@ -3,6 +3,12 @@ title: Gra Thong
 date: 2005-11-16T02:56:00+00:00
 url: /2005/11/gra-thong/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Im Süden (in Gra Thong) wurde [heute Nacht][1] in einer Schießerei eine Familie bestehend aus Eltern und sieben Töchtern getötet und weitere Menschen verwundet. In den letzten Tagen häufen sich derartige Meldungen mal wieder. Einige Zeit lang sah es so aus, als ob man sich auf Bombenattentate auf Regierungsgebäude und die Energieversorgung konzentrieren würde, jetzt sind wieder die Menschen dran.
 

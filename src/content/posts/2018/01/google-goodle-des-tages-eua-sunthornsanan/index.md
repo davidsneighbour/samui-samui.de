@@ -3,15 +3,21 @@ title: "Google Doodle des Tages: Eua Sunthornsanan"
 date: 2018-01-22T22:47:32+07:00
 url: /2018/01/google-doodle-des-tages-eua-sunthornsanan/
 tags:
-- google doodle
-- thai kultur
-- thai musik
-- personen
-- eua sunthornsanan
+  - google doodle
+  - thai kultur
+  - thai musik
+  - personen
+  - eua sunthornsanan
 resources:
-- src: "eua-sunthornsanans-108th-birthday.png"
-  name: "googledoodle"
-  title: "Google Doodle zum 108en Geburtstag von Eua Sunthornsanan"
+  - src: "eua-sunthornsanans-108th-birthday.png"
+    name: "googledoodle"
+    title: "Google Doodle zum 108en Geburtstag von Eua Sunthornsanan"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Google Doodle zum 108en Geburtstag von Eua Sunthornsanan](./eua-sunthornsanans-108th-birthday.png)

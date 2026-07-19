@@ -3,6 +3,12 @@ title: Einstein, Heisenberg und Beer Chang
 date: 2005-08-06T23:17:00+00:00
 url: /2005/08/einstein-heisenberg-und-beer-chang/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Li und ich sitzen in meiner präferierten Ladybar an der Theke und trinken Beer Chang. Mai schlängelt sich zu den harten Beats aus den Boxen um eine in Reichweite stehende Stange und schwelgt in ekstatisch rhythmischen Zuckungen. Wir unterhalten uns gerade über Einsteins Fehler, sein c als Konstante einzuführen (zumal es keine Konstante war) und Li ist schockiert, dass ich seine Theorie von der Krümmung des Raumes für ausgemachten Unfug halte (ich sage das nur, um eine andere Meinung zu haben und das sehr fruchtbare Gespräch im Fluss zu halten). "Aber dann kommt doch nie ein Ding zum Ende!" sagt sie. Ich murmel "Das hättest du gerne. Schnell rein und raus. Nene. Nich mit mir!" und lasse beiläufig meinen Blick über ihre nur von wenigen Stofffetzen bedeckten Beine gleiten.
 

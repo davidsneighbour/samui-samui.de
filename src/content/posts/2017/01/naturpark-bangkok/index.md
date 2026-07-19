@@ -6,10 +6,16 @@ tags:
   - bangkok
   - google
   - maps
-resources :
-- src: "bangkok-in-google-maps.png"
-  name: "naturpark"
-  title: "Naturpark Bangkok"
+resources:
+  - src: "bangkok-in-google-maps.png"
+    name: "naturpark"
+    title: "Naturpark Bangkok"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Naturpark Bangkok](./bangkok-in-google-maps.png)

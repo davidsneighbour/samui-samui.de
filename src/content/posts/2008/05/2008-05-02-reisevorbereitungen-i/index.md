@@ -2,10 +2,12 @@
 title: Reisevorbereitungen I
 date: 2008-05-01T17:12:27+00:00
 url: /2008/05/reisevorbereitungen-i/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 * Heute Nacht das erste Mal von Flugzeugabstürzen geträumt --- Check.
 * Festgestellt, dass ich keine sauberen Klamotten habe, die mir auch noch passen --- Check

@@ -2,10 +2,12 @@
 title: Tag 11688
 date: 2007-07-05T01:54:16+00:00
 url: /2007/07/tag-11688/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/728104776/" title="Photo Sharing"><img src="//farm2.static.flickr.com/1396/728104776_30f514da94.jpg" width="500" height="375" alt="Me now." /></a></p>

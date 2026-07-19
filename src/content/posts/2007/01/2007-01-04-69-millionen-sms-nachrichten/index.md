@@ -2,10 +2,12 @@
 title: 69 Millionen SMS-Nachrichten
 date: 2007-01-04T10:51:37+00:00
 url: /2007/01/69-millionen-sms-nachrichten/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Zwischen Silvester und Neujahr wurden in Thailands drei gro?en Mobilfunknetzen [69 Millionen SMSse verschickt][1]. Das hat das Netz natürlich in die Knie gezwungen. Ich habe noch gestern morgen (3. Januar) SMSse vom 31. Dezember bekommen.
 

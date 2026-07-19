@@ -3,9 +3,15 @@ title: "Quallen Alarm (Zeit-Style)"
 date: 2018-02-22T20:46:22+07:00
 url: /2018/02/quallen-alarm-zeit-style
 tags:
-- reisewarnung
-- news
-- portugiesische galleren
+  - reisewarnung
+  - news
+  - portugiesische galleren
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Die Zeit berichtet in sehr ausführlicher und aufmacherische Art und Weise über Portugiesische Galleren an Thailands Stränden.

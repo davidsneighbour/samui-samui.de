@@ -6,6 +6,12 @@ url: /2019/06/shut-up
 tags:
   - samuisamui
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Vögel sind diskussionsfreudiger als ihr (Photo von Wynand van Poortvliet)](./gelaber.jpg)

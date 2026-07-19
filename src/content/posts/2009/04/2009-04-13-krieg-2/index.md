@@ -2,10 +2,12 @@
 title: Krieg
 date: 2009-04-13T13:24:58+00:00
 url: /2009/04/krieg-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Songkran ist in Bangkok zu einem [Krieg][1] der [Roten][2] ausgewachsen.
 

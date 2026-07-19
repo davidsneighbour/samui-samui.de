@@ -3,6 +3,12 @@ title: Kalt
 date: 2005-01-24T19:11:53+00:00
 url: /2005/01/kalt/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So. Heute war dann eine richtig kalte Nacht. Ich fror so sehr vor mich hin, dass ich das erste Mal in Thailand unter statt auf der Decke schluf. Jedenfalls war zusätzlich Vollmond, was mich recht wenig schlafen lie?, da die Hähne die ganze Nacht durch meinten, den Morgen ankündigen zu müssen und ich auf "äh hiäh hiäh" bereits konditioniert bin. Ich stieg also frühmorgens aus den Federn, bereitete mein ?u?eres für ein halbwegs annehmbares Aussehen vor und wollte frisch und frei ins Büro motobiken. Das Motobike war nass. Tja, ich ging wieder rein, holte ein Handtuch und putzte die relevanten Stellen trocken, warf das Handtuch in die Hütte und bestieg mein Motobike.
 

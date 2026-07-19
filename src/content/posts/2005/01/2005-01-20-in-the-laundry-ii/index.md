@@ -3,6 +3,12 @@ title: In the laundry Pt.II
 date: 2005-01-19T18:53:00+00:00
 url: /2005/01/in-the-laundry-ii/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 (Schrieb ich schon mal, dass ich beim Titel immer an "In the navy" gesungen von irgendeinem russischen Männchor und den Leningrad Cowboys denken muss? Nein? Ist hiermit geschehen.)
 

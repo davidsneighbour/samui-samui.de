@@ -2,10 +2,12 @@
 title: Mit dem Rücken an der Wand
 date: 2007-10-16T01:48:43+00:00
 url: /2007/10/mit-dem-ruecken-an-der-wand/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/242.jpg)
 

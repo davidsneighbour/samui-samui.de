@@ -4,10 +4,12 @@ date: 2008-01-01T12:54:18+00:00
 url: /2008/01/prinzessin-galyani-vadhana-ist-tot/
 dsq_thread_id:
   - "3423876943"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Heute morgen][1] starb <span class="caps">HRH</span> Princess Galyani Vadhana im Alter von 84 Jahren nach längerer Krankheit. Sie war die Schwester von König Bhumibol Adulyadej (Rama IX.) und König Ananda Mahidol (Rama <span class="caps">VIII</span>.) sowie die Enkeltochter von König Chulalongkorn (Rama V.).
 

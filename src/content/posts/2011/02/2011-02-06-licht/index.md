@@ -3,6 +3,12 @@ title: Licht
 date: 2011-02-06T15:49:05+00:00
 url: /2011/02/licht/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5423849913/" title="We are not alone"><img src="//farm6.static.flickr.com/5100/5423849913_91958379d0_z.jpg" alt="We are not alone" /></p>

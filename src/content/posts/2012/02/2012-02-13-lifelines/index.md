@@ -3,6 +3,12 @@ title: Lifelines
 date: 2012-02-13T10:06:28+00:00
 url: /2012/02/lifelines/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media photo image">
   <a href="http://www.flickr.com/photos/schreibblogade/6771493119/" title="Lifelines by Patrick Kollitsch, on Flickr"><img src="//farm8.staticflickr.com/7010/6771493119_4802f3ac94_z.jpg" width="640" height="480" alt="Lifelines" /></a></p>

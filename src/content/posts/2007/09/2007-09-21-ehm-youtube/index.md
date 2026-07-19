@@ -2,10 +2,12 @@
 title: Ehm, Youtube…
 date: 2007-09-20T22:41:13+00:00
 url: /2007/09/ehm-youtube/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich weiss, es wird langsam einseitig hier im Blog, aber: [Es gibt da ein zweiteiliges Video bei Youtube][1], das behauptet, Prem Tinsulanonda, der Vorsitzende des Königlichen Geheimrats, würde hinter dem Putsch vom 19. September 2006 stecken.
 

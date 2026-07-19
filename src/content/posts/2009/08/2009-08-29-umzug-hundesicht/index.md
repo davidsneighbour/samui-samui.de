@@ -2,10 +2,12 @@
 title: Umzug (Hundesicht)
 date: 2009-08-29T02:07:27+00:00
 url: /2009/08/umzug-hundesicht/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gegen Samstag vorvergangener Woche bekamen die Hunde mit, dass da mal wieder was geplant war. Pokki und Soosie reagieren seit meiner einen Monat langen Abwesenheit im Januar 2007 allergisch auf jedes Packen von Sachen.
 

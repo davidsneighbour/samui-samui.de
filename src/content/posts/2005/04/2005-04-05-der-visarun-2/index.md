@@ -3,6 +3,12 @@ title: Der Visarun – Teil 2
 date: 2005-04-05T04:57:00+00:00
 url: /2005/04/der-visarun-2/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

@@ -5,6 +5,12 @@ url: /2012/04/mein-neuer-nachbar/
 dsq_thread_id:
   - "3142312309"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media photo image">
   <a href="http://www.flickr.com/photos/schreibblogade/6947282596/" title="My new neighbour by Patrick Kollitsch, on Flickr"><img src="//farm6.staticflickr.com/5464/6947282596_a78ed07b58_z.jpg" alt="My new neighbour" /></a></p>

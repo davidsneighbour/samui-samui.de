@@ -2,10 +2,12 @@
 title: Krachender Tagesbeginn
 date: 2007-01-30T01:17:36+00:00
 url: /2007/01/krachender-tagesbeginn/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [In Bangkoks Norden wurden heute Nacht zwei ?bungsgranaten abgefeuert][1]. Man geht von Chaoten aus, allerdings bietet sich genügend Stoff für Verschwörungstheorien, weil eine Granate in die Mauer der Büros der Daily News und eine in den Parkplatz eines naheliegenden Hotels einschlug.
 

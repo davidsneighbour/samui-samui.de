@@ -4,10 +4,12 @@ date: 2007-05-26T11:35:16+00:00
 url: /2007/05/thaiboys-piraten-und-popcorn/
 dsq_thread_id:
   - "3219573666"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern war ich mal wieder im Kino (mit einem Thaiboy, aber das ist fast schon wieder eine Geschichte für sich) und habe "Piraten der Karibik --- Irgendwas mit Ende der Welt" angesehen. Wenn man den zweiten Teil nicht gesehen hat und den ersten Teil super fand, dann sollte man den dritten Teil besser nicht ansehen. Ist irgendwie so ähnlich wie die Matrix-Triologie.
 

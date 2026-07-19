@@ -4,10 +4,12 @@ date: 2009-07-09T02:18:26+00:00
 url: /2009/07/und-das-musst-du-machen-wenn-du-schlaefst/
 dsq_thread_id:
   - "3168357264"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <txp:thumbnail id="270" link="y" /></p>

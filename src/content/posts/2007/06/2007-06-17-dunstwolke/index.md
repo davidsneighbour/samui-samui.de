@@ -2,10 +2,12 @@
 title: Dunstwolke
 date: 2007-06-17T14:43:43+00:00
 url: /2007/06/dunstwolke/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 _Dieser Eintrag stammt vom 19. Mai. Aus irgendeinem Grund hab ich ihn aber nicht "live gestellt". Wie schändlich..._
 

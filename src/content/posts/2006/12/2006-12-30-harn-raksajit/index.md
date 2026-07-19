@@ -2,10 +2,12 @@
 title: Harn Raksajit
 date: 2006-12-30T02:58:52+00:00
 url: /2006/12/harn-raksajit/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern wurde Harn Raksajit, den viele Thais als Nane Ae kennen, [zu 100 Jahren Haft verurteilt][1]. Harn lernte in Kambodscha schwarze Magie (Thais glauben, dass Kambodscha ein Land voll von schwarzer Magie und Geistern ist) und war in den vergangenen Jahren mehrfach in Erscheinung getreten.
 

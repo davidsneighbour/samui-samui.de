@@ -5,6 +5,12 @@ url: /2011/03/blutwuermer/
 dsq_thread_id:
   - "3177806432"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wenn ich "Blutwürmer" höre, denke ich an Horrorgeschöpfe a la Alien und Dune. Das nur am Rande.
 

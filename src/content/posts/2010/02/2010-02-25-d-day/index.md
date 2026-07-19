@@ -3,6 +3,12 @@ title: D-Day
 date: 2010-02-25T12:29:45+00:00
 url: /2010/02/d-day/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Profigolfer der Nation schauen heute nach Bangkok. Es ist Thaksins gro?er D-Day: In Bangkok wird die Entscheidung über seine 76.621.603.61,05 eingefrorene Baht verkündet.
 

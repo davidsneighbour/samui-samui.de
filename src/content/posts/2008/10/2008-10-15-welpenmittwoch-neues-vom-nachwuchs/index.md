@@ -2,10 +2,12 @@
 title: 'Welpenmittwoch: Neues vom Nachwuchs'
 date: 2008-10-14T20:52:33+00:00
 url: /2008/10/welpenmittwoch-neues-vom-nachwuchs/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2940271481/" title="Tired (Day 4)"><img src="//farm4.static.flickr.com/3001/2940271481_d4eb011f5d.jpg" alt="Tired (Day 4)" /></a></p>

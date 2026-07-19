@@ -4,10 +4,12 @@ date: 2007-08-05T23:14:14+00:00
 url: /2007/08/von-bullen-und-katzen/
 dsq_thread_id:
   - "2977498456"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <img src="//samui-samui.de/images/239.jpg" width="200" height="231" style="float:left;margin-right:10px;" />Ich werde das dumpfe Gefühl nicht los, dass die Königliche Thailändische Polizei gerade dabei ist, sich weltweit sehr sehr lächerlich macht.
 

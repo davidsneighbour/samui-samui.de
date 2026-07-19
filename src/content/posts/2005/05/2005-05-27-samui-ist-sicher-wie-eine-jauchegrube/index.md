@@ -5,6 +5,12 @@ url: /2005/05/samui-ist-sicher-wie-eine-jauchegrube/
 dsq_thread_id:
   - "2894603767"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wenn es nicht so traurig wäre würde ich in einen wahren Schadenfreudenrausch mir selbst gegenüber ausbrechen. Ist aber leider traurig und ungeheuer dumm. Also muss Anderseiner die Schadenfreude empfinden.
 

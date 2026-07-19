@@ -11,6 +11,12 @@ fb_author_post_id:
 fb_status_messages:
   - a:1:{i:0;a:2:{s:7:"message";s:104:"Posted to <a href="http://www.facebook.com/10150928009655642" target="_blank">your Facebook Timeline</a>";s:5:"error";s:0:"";}}
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Thailand wäre nicht Thailand, wenn [die Geburt von Sechslingen][1] in der vergangenen Woche (die ersten Sechslinge, die in Thailand geboren wurden, wie andersorten auch mit etwas Nachhilfe) nicht mit einem dieser merkwürdigen Nebensätze versehen worden wäre:
 

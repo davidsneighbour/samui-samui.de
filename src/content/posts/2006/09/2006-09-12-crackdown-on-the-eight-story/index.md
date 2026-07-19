@@ -2,10 +2,12 @@
 title: Crackdown on the Eight-Story
 date: 2006-09-11T21:39:00+00:00
 url: /2006/09/crackdown-on-the-eight-story/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 (Crackdown ist ein Schlagwort das gerne in englischsprachigen thailändischen Medien benutzt wird um Schlagzeilen zu machen, wenn es eigentlich nichts zu sagen gibt. Ich werde das mal häufiger verwenden.)
 

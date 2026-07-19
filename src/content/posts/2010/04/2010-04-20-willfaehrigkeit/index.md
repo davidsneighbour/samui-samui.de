@@ -3,6 +3,12 @@ title: Willfährigkeit
 date: 2010-04-20T16:23:11+00:00
 url: /2010/04/willfaehrigkeit/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Mit [Government requests][1] bietet Google jetzt ein Tool an, mit dem man nachsehen kann, welche Länder oder besser gesagt deren Regierungen Anfragen an Google gestellt haben. Löschanfragen und Datenanfragen um genau zu sein.
 

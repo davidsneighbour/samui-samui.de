@@ -2,10 +2,12 @@
 title: Durain-Update
 date: 2006-12-05T21:15:39+00:00
 url: /2006/12/durain-update/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Also es regnet. Mehr als zuvor aber das kennen wir ja schon. Interessanterweise können sich die Meterologischen ?mter nicht entscheiden, ob der Sturm (so wie es im Augenblick aussieht ist es nur noch ein Stürmchen) nun Durain oder Durian heisst.
 

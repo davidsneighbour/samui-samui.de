@@ -3,6 +3,12 @@ title: Auftakt der Fussball-Weltmeisterschaft in Bangkok
 date: 2010-06-10T22:39:11+00:00
 url: /2010/06/auftakt-der-fussballweltmeisterschaft-in-bangkok/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <txp:thumbnail id="278" /></p>

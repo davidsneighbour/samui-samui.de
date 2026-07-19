@@ -2,10 +2,12 @@
 title: 'Tier- und andere Krankheiten'
 date: 2009-06-14T11:34:20+00:00
 url: /2009/06/tier-und-andere-krankheiten/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/265.jpg)
 

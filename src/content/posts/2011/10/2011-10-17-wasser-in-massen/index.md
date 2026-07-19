@@ -3,6 +3,12 @@ title: Wasser in Massen
 date: 2011-10-16T23:58:54+00:00
 url: /2011/10/wasser-in-massen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Seit gut einer Woche wird die Hauptstadt Thailands von den Wassermassen der diesjährigen Monsunsaison bedroht. Ungefähr genau so lange berichten lokale und internationale Medien über die jedes Jahr wieder auftretende Situation.
 

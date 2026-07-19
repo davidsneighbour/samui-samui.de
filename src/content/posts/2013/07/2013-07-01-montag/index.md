@@ -4,10 +4,12 @@ date: 2013-07-01T14:50:19+00:00
 url: /2013/07/montag/
 fb_author_post_id:
   - 517050641_10151508794630642
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es ist Montag, ich falle aus dem Bett (jeden Montag falle ich aus dem Bett, weil "manche Leute" gerade Montags mit viel Elan in die neue Woche gehen und mir meinen Schönheitsschlaf (und wer mich kennt weiß, dass ich ihn dringend benötige) nicht gönnen.
 

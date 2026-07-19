@@ -2,10 +2,12 @@
 title: Gedanken zum Sonntag
 date: 2007-07-14T19:24:18+00:00
 url: /2007/07/gedanken-zum-sonntag/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Meine innere Uhr sagte mir vorhin, es sei Sonntag, man könne diesem verwaisten Weblog ja mal wieder etwas Leben ein hauchen. Nichts einfacher als das:
 

@@ -2,10 +2,12 @@
 title: Vor dem Regen ist nach dem Regen
 date: 2006-08-02T02:04:57+00:00
 url: /2006/08/vor-dem-regen-ist-nach-dem-regen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Provinzverwaltung in Suratthani hat 50.000.000 Baht locker gemacht, um auf der Insel ein wenig Flutprävention zu betreiben.
 

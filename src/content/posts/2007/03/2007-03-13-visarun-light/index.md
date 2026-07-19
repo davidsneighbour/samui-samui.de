@@ -4,10 +4,12 @@ date: 2007-03-13T09:59:07+00:00
 url: /2007/03/visarun-light/
 dsq_thread_id:
   - "6412166326"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute war ich mein Visa im Immigration Office in Nathon verlängern. Jedes Mal wenn ich dort an komme, ist der Empfangsraum anders angeordnet und die Abläufe sind geändert. Die einzige Konstante ist diese überaus niedliche Thai in der Uniform die immer persönlich meine Unterlagen entgegen nimmt.
 

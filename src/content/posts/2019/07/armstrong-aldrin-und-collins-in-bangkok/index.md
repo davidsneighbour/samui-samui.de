@@ -4,10 +4,16 @@ description: ""
 date: 2019-07-20T09:00:58+07:00
 lastmod: 2019-07-20T09:00:58+07:00
 tags:
-    - mondlandung
-    - bangkok
+  - mondlandung
+  - bangkok
 leute:
-    - thanom kittikachorn
+  - thanom kittikachorn
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 <dnb-youtube videoid="vPS8PPDDZgY"></dnb-youtube>

@@ -3,6 +3,12 @@ title: Krungthep Mahanakhon 4.0
 date: 2005-09-20T22:14:00+00:00
 url: /2005/09/krungthep-mahanakhon-40/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Jaja. Schon gut. Hier ist er ja.
 

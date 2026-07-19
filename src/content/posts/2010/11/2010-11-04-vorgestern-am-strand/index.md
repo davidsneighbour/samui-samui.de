@@ -3,6 +3,12 @@ title: Vorgestern am Strand
 date: 2010-11-03T23:20:35+00:00
 url: /2010/11/vorgestern-am-strand/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media video">
 </div>

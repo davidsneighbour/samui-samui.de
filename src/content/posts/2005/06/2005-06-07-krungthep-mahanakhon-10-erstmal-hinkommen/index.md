@@ -3,6 +3,12 @@ title: Krungthep Mahanakhon 1.0 – Erstmal hinkommen
 date: 2005-06-07T07:40:00+00:00
 url: /2005/06/krungthep-mahanakhon-10-erstmal-hinkommen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ok. Ich war also in Bangkok. Nur um diejenigen meiner Leser die beim Bemerken neuer Einträge mit einem "Oh, das sind aber wieder viele Worte" reagieren gleich zu Beginn abzuspeisen: Bangkok ist eine schreckliche Stadt. Schmutzig. Die Amis sind bescheuert. Ko Samui ist 5mal so teuer wie Bangkok. Ich kann in Bussen nicht schlafen. Und: Meine Freundin taucht in einigen Nebensätzen auf. Vielleicht sollte man doch alles lesen. Wenn nicht --- mindestens drei Bangkok-Einträge werden es werden. Und nächste Woche fahr ich schon wieder dahin.
 

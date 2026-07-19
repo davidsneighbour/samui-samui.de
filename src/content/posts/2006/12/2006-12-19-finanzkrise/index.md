@@ -2,10 +2,12 @@
 title: Finanzkrise?
 date: 2006-12-19T04:37:30+00:00
 url: /2006/12/finanzkrise/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es hat ein wenig den Anschein einer Wirtschaftskrise, was in der Finanzwelt Thailands so abgeht derzeit. Der Wechselkurs zwischen Baht und Dollar stieg zuletzt auf den höchsten Stand seit 9 Jahren und viele verglichen den Höhenflug bereits reisserisch mit eben jener Finanzkrise 1997. Seit Wochen wurde die Bank of Thailand (was man wohl mit der Zentralbank vergleichen kann) aufgefordert Gegenma?nahmen einzuleiten.
 

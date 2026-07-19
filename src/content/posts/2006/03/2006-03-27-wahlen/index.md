@@ -3,6 +3,12 @@ title: Wahlen
 date: 2006-03-27T00:56:00+00:00
 url: /2006/03/wahlen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Am Sonntag ist Wahlsonntag. Das heißt die Kneipen haben geschlossen (ich glaube auch schon am Tag davor), damit die Wähler klaren Kopfes in die Wahlkabinen gehen können, wenn sie denn am Ort verweilen an dem sie gemeldet sind. Wie bereits erwähnt ist das seltenst der Fall.
 

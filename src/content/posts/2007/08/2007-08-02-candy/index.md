@@ -2,10 +2,12 @@
 title: Candy
 date: 2007-08-02T00:59:21+00:00
 url: /2007/08/candy/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es gibt ja eine Menge Leute, die sich darüber aufregen, dass ich hier so wenig schreibe. Dass ist natürlich nur subjektiv so, denn an Tagen an denen ich dann mal schreibe, kommen gleich drei oder vier Einträge auf diese Seiten, aber subjektiv geht die Welt zu Grunde.
 

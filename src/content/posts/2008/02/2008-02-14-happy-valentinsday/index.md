@@ -2,10 +2,12 @@
 title: Happy Valentinsday
 date: 2008-02-14T03:08:47+00:00
 url: /2008/02/happy-valentinsday/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2264688511/" title="Happy Valentinsday"><img src="//farm3.static.flickr.com/2322/2264688511_5aa17f81f4.jpg" alt="Happy Valentinsday" /></a></p>

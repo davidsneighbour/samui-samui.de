@@ -2,10 +2,12 @@
 title: 'Thai für Jedermann I: Dies und das'
 date: 2007-06-17T01:41:55+00:00
 url: /2007/06/thai-fuer-jedermann-i-dies-und-das/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Herzlich willkommen im Thaikurs der [die schreiBBloga.de][1]. Ich habe mich entschieden, meine ausgeprägte Kompetenz im Bereich der thailändischen Sprache dem geneigten Leser dieser kleinen Publikation zugänglich zu machen. Lernen auch Sie im Vorübergehen quasi essentielle Bestandteile der Kommunikation mit den Thais kennen und seien Sie morgen schon bereit, neue Freundschaften zu schlie?en, Ihren Gefühlen Druck zu verleihen und metaphysische Streitgespräche für sich zu entscheiden!
 

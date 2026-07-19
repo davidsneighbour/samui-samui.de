@@ -2,10 +2,12 @@
 title: Kurz und schmerzlos
 date: 2007-01-26T09:28:06+00:00
 url: /2007/01/kurz-und-schmerzlos/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute wurde das Kriegsrecht in den 41 Provinzen wo es noch nicht oder nur teilweise aufgehoben war wieder aufgehoben.
 

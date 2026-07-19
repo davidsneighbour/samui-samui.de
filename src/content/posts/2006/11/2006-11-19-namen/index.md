@@ -3,6 +3,12 @@ title: Namen
 date: 2006-11-19T09:21:29+00:00
 url: /2006/11/namen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Super][1]. Der Islam gefällt mir immer besser, denn "Islam-Gelehrte [haben] festgestellt, dass jeder Mensch das Recht habe, seinen Namen zu ändern, falls er ihm nicht gefallen sollte".
 

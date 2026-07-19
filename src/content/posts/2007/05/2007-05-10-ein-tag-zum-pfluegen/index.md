@@ -2,10 +2,12 @@
 title: Ein Tag zum Pflügen
 date: 2007-05-09T23:19:36+00:00
 url: /2007/05/ein-tag-zum-pfluegen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute ist der Tag der "Royal Ploughing Ceremony", eine Zeremonie brahmanischer Herkunft, an dem auf dem königlichen Acker in Bangkok gepflügt und Reis gesät wird. Au?erdem werden den beiden pflügenden heiligen Kühen sieben verschiedene Güter (Reis, Mais, grüne Bohnen, Sesam, Likör(!), Wasser und Gras) vorgesetzt und [die von ihnen gefressene Sorte][1] bestimmt die Ernteergebnisse des Jahres:
 

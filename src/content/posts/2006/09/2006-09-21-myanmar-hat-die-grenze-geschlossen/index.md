@@ -2,10 +2,12 @@
 title: Myanmar hat die Grenze geschlossen
 date: 2006-09-21T11:27:56+00:00
 url: /2006/09/myanmar-hat-die-grenze-geschlossen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ooops. Und, ehm, falls mir Fäkalsprache erlaubt sei, ehm, Shit!!! Ich muss am Wochenende auf einen Visarun. Und Myanmar hat die Grenzen geschlossen.
 

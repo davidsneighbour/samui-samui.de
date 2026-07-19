@@ -2,10 +2,12 @@
 title: Monsoon
 date: 2006-12-21T06:32:42+00:00
 url: /2006/12/monsoon/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In Surat Thani ist heute (mal wieder) ein Monsun eingefallen. Der Kleine hat keinen (medial nennenswerten) Namen, aber [einige Küstengebiete auf dem Festland überschwemmt][1] und (angeblich) auch Nathon nass werden lassen. Das letzte Mal wurde der Fährbetrieb nicht eingestellt. Diesmal schon.
 

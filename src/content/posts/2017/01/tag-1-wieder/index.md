@@ -5,10 +5,16 @@ url: /2017/01/tag-1-wieder/
 tags:
   - jahreswechsel
   - kalender
-resources :
-- src: "happy-new-year-2017.jpg"
-  name: "happynewyear"
-  title: "Happy New Year 2017"
+resources:
+  - src: "happy-new-year-2017.jpg"
+    name: "happynewyear"
+    title: "Happy New Year 2017"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Happy New Year 2017](./happy-new-year-2017.jpg)

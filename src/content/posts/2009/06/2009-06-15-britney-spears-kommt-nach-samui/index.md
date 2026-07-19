@@ -2,10 +2,12 @@
 title: Britney Spears kommt nach Samui
 date: 2009-06-15T13:57:03+00:00
 url: /2009/06/britney-spears-kommt-nach-samui/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Britney Jean Spears][1] will ein ganzes Ressort hier auf Samui für einen einwöchigen Urlaub mieten. [Sagt man][2].
 

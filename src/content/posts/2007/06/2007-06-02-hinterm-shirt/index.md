@@ -2,10 +2,12 @@
 title: Hinterm Shirt
 date: 2007-06-01T23:16:42+00:00
 url: /2007/06/hinterm-shirt/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/526066871/"><img src="//farm2.static.flickr.com/1210/526066871_25b6bcbd73.jpg" width="500" height="375" alt="Me now" /></a></p>

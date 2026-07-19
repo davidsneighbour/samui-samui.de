@@ -2,10 +2,12 @@
 title: Und dann hats Bumm gemacht
 date: 2007-12-06T13:35:18+00:00
 url: /2007/12/und-dann-hats-bumm-gemacht/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Am alten Haus im Dschungel hatte ich das ja öfters: es fängt an zu regnen und 5 Minuten später fällt der Strom aus. Eben durfte ich sowas nun gewisserma?en live vor Ort erleben. Es fing an zu regnen, von draussen hörte ich ein seltsames Geräusch: laut, brummend, sehr bassig. Lauter als die üblichen Schrottkarren mit kaputten Auspuff.
 

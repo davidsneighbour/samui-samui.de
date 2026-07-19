@@ -3,18 +3,24 @@ title: 'Google Doodle des Tages: Lunar New Year'
 date: 2017-01-29T17:32:53+00:00
 url: /2017/01/google-doodle-des-tages-lunar-new-year/
 resources:
-- src: "lunar-new-year-2017-hong-kong-taiwan-china.jpg"
-  name: "google-doodle1"
-  title: "Lunar New Year Hong Kong, Taiwan und China --- &copy; google.com"
-- src: "lunar-new-year-2017-south-korea.jpg"
-  name: "google-doodle2"
-  title: "Lunar New Year Südkorea --- &copy; google.com"
-- src: "lunar-new-year-2017-vietnam.jpg"
-  name: "google-doodle3"
-  title: "Lunar New Year Vietnam --- &copy; google.com"
-- src: "lunar-new-year-2017.jpg"
-  name: "google-doodle4"
-  title: "Lunar New Year für alle anderen Länder --- &copy; google.com"
+  - src: "lunar-new-year-2017-hong-kong-taiwan-china.jpg"
+    name: "google-doodle1"
+    title: "Lunar New Year Hong Kong, Taiwan und China --- &copy; google.com"
+  - src: "lunar-new-year-2017-south-korea.jpg"
+    name: "google-doodle2"
+    title: "Lunar New Year Südkorea --- &copy; google.com"
+  - src: "lunar-new-year-2017-vietnam.jpg"
+    name: "google-doodle3"
+    title: "Lunar New Year Vietnam --- &copy; google.com"
+  - src: "lunar-new-year-2017.jpg"
+    name: "google-doodle4"
+    title: "Lunar New Year für alle anderen Länder --- &copy; google.com"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Lunar New Year Hong Kong, Taiwan und China --- &copy; google.com](./lunar-new-year-2017-hong-kong-taiwan-china.jpg)

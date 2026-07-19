@@ -5,6 +5,12 @@ url: /2016/08/angst-essen-tourismus-auf/
 tags:
   - bombenanschlag
   - terrorismus
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Wenn man [die News im Spiegel heute][1] so liest, mag man meinen, dass es eine schlechte Idee ist, Thailand derzeit zu besuchen:

@@ -2,10 +2,12 @@
 title: Lüstling. Flittchen.
 date: 2006-09-24T10:07:00+00:00
 url: /2006/09/luestling-flittchen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eben kuck ich am Monitor vorbei weil es verdammt ruhig in den Augenwinkeln war. Die beiden Hunde kämpften bis grade noch vor sich hin. Ich kuck so und seh Soosie mit hochgestrecktem Hinterteil, Pokki steht über ihr (ihr wisst schon wie) eine Pfote auf ihrem Rücken, die andere bleibt in der Luft stehen, als er mich kucken sieht.
 

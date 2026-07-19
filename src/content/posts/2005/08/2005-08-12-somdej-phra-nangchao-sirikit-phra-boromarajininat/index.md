@@ -5,6 +5,12 @@ url: /2005/08/somdej-phra-nangchao-sirikit-phra-boromarajininat/
 dsq_thread_id:
   - "6412166710"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ihre Majestät Königin Sirikit feiert heute ihren 73. Geburtstag. Das ist der erste Geburtstag in ihrem siebten Lebenszyklus. Schon die ganze Woche werden überall übergro?e Portraitbilder aus jüngeren Jahren aufgestellt und mit Leuchtschlangen, Kerzen und allerlei anderem verehrendem Utilariat verschönert.
 

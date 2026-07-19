@@ -2,10 +2,12 @@
 title: Auf eindringlichen Wunsche hin
 date: 2007-10-15T11:21:06+00:00
 url: /2007/10/auf-eindringlichen-wunsche-hin/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1582169247/" title="Me now"><img src="//farm3.static.flickr.com/2025/1582169247_a4d7106ff0.jpg" alt="Me now" /></a></p>

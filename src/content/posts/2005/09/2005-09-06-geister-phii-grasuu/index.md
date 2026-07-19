@@ -3,6 +3,12 @@ title: "Geister: Phii Kraseu und Phii Krahang"
 date: 2005-09-06T07:44:00+00:00
 url: /2005/09/geister-phii-grasuu/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Thais lieben Geistergeschichten.
 

@@ -6,10 +6,16 @@ tags:
   - prayuth chan-ocha
   - pressefreiheit
   - thaistyle
-resources :
-- src: "prayuth-chanocha-spricht-zur-presse.jpg"
-  name: "prayuth"
-  title: "Prayuth Chanocha spricht zur Presse"
+resources:
+  - src: "prayuth-chanocha-spricht-zur-presse.jpg"
+    name: "prayuth"
+    title: "Prayuth Chanocha spricht zur Presse"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Prayuth Chanocha spricht zur Presse](./prayuth-chanocha-spricht-zur-presse.jpg)

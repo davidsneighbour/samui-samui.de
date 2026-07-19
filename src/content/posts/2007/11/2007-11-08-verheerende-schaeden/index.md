@@ -2,10 +2,12 @@
 title: Verheerende Schäden
 date: 2007-11-08T02:45:06+00:00
 url: /2007/11/verheerende-schaeden/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

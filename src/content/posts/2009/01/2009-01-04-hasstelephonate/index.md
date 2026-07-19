@@ -2,10 +2,12 @@
 title: Hasstelephonate
 date: 2009-01-03T22:01:15+00:00
 url: /2009/01/hasstelephonate/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Unser Premierminister (für alle diejenigen, die nicht wissen, wer das ist, Abhisit Vejjajiva, man kann ja mal die Übersicht verlieren bei soviel hin und her) bekommt um die [100 Hassanrufe pro Tag][1] auf sein privates Mobiltelephon. Am Anfang hat er die alle noch selbst angenommen, inzwischen beschäftigt er sich ja bekanntermaßen mit der Rettung des Landes, also nimmt die Anrufe nun sein Sekretär entgegen.
 

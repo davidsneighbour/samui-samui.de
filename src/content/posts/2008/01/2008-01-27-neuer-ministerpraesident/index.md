@@ -2,10 +2,12 @@
 title: Neuer Ministerpräsident
 date: 2008-01-27T12:10:45+00:00
 url: /2008/01/neuer-ministerpraesident/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/247.jpg)Heute wird Samak Sundaravej, der Vorsitzende der Peoples Power Party zum Ministerpräsidenten gewählt werden. Das hat auch seine Richtigkeit, schlie?lich wurde er (thai)demokratisch gewählt. Damit hat alles wieder seine Richtigkeit in Thailand, keine Armee sitzt in der Regierung und die Schweden können [endlich][1] ihre Kampfjets an Thailand verscherbeln.
 

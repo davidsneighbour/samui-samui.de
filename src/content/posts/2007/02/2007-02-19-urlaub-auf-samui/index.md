@@ -2,10 +2,12 @@
 title: Urlaub auf Samui
 date: 2007-02-18T22:17:38+00:00
 url: /2007/02/urlaub-auf-samui/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Jana Simon schreibt in der [ZEIT online][1] über Samui, wie sich alles "ein kleines bisschen" veränderte in den vergangenen 10 Jahren und (natürlich) über die Sextouristen:
 

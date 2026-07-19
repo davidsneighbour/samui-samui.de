@@ -2,10 +2,12 @@
 title: Soosie erinnert sich
 date: 2009-11-12T12:52:55+00:00
 url: /2009/11/soosie-erinnert-sich/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Soosie erinnert sich: Da müssen zwei Hunde beteiligt sein. Einer springt beim anderen drauf und dann wird rumgemacht. Dummerweise nur hat sie ein paar wichtige Details vergessen: hinten muss Pokki stehen und er muss hinten stehen.
 

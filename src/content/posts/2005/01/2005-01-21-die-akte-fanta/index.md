@@ -3,6 +3,12 @@ title: Die Akte Fanta
 date: 2005-01-20T23:51:00+00:00
 url: /2005/01/die-akte-fanta/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Da ich gestern abend gleich aufs Bett geglitten und heute morgen ausnahmsweise ohne Zwischenfälle auf Arbeit gekommen bin, gibt es nichts zu berichten, also erzähle ich euch mal was über Fanta.
 

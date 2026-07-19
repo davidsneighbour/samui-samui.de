@@ -3,6 +3,12 @@ title: Katastrophenblogging
 date: 2005-11-07T01:11:00+00:00
 url: /2005/11/katastrophenblogging/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ehm. Vor ner Stunde ging die Tür auf und vier Thais (2 female, 2 male) schneiten herein. Sie stellten sich mit "Steuerbehörde Surrat Thani" vor und verlangten den Boss.
 

@@ -5,6 +5,12 @@ url: /2010/06/schnellbootunfall-auf-der-fullmoon-party/
 dsq_thread_id:
   - "2899958653"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute Nacht ist es mal wieder zu einem [Schnellboot-Unfall vor Koh Phangans Küste][1] gekommen --- zwei Boote auf dem Weg zur Fullmoon-Party kollidierten miteinander. 2 Menschen werden vermisst und 39 Verletzte mit teilweise schweren Verletzungen in die Krankenhäuser der Umgebung gebracht.
 

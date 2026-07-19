@@ -2,10 +2,12 @@
 title: Die Alte-Macht-Clique
 date: 2006-12-31T09:06:17+00:00
 url: /2006/12/die-alte-macht-clique/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Man ist in Bangkok ziemlich schnell mit dem Finden der Schuldigen der Bombenanschläge von heute Abend und hat die "[Old-Power-Clique][1]" ausgemacht. [Thai Rak Thai hat gleich darauf geantwortet][2] und gesagt, dass sie nicht dahinter stecken und es ebensogut die Militanten aus dem Süden sein können. Getretene Hunde bellen.
 

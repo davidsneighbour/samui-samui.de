@@ -3,6 +3,12 @@ title: Ritsch Ratsch
 date: 2010-08-27T02:36:09+00:00
 url: /2010/08/ritsch-ratsch/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute ist ein gro?artiger Tag für mich, denn ich habe nach fünfundeinhalb Jahren in Thailand festgestellt, dass die Zweierpackung Chang-Beer (zwei Flaschen und eine nette Pappumhüllung mit glücklichen Menschen) einen praktischen Aufrei?verschluss auf der Rückseite hat.
 

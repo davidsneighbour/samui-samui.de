@@ -5,6 +5,12 @@ url: /2010/02/touristenpolizei/
 dsq_thread_id:
   - "3653213696"
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die gute Touristenpolizei. Das sind Nicht-Thais, die der thailändischen Polizei hier auf der Insel sprachlich und kulturell unter die Arme greifen. Oder um es [mit den Worten der Touristenpolizeiwebsite][1] zu sagen:
 

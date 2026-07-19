@@ -6,9 +6,15 @@ tags:
   - facebook
   - meinungsfreiheit
 resources:
-- src: "content-unavailable-in-thailand.png"
-  name: "content"
-  title: "Bloss nicht in Thailand"
+  - src: "content-unavailable-in-thailand.png"
+    name: "content"
+    title: "Bloss nicht in Thailand"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Bloss nicht in Thailand](./content-unavailable-in-thailand.png)

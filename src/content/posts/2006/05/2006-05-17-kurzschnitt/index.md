@@ -3,6 +3,12 @@ title: Kurzschnitt
 date: 2006-05-16T23:58:00+00:00
 url: /2006/05/kurzschnitt/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Aus der Kategorie "Das gibts nur in unserem Thailand" eine Lektion in Einflussnahme auf staatliche Organe: "der Film "Da Vinci Code [muss in Thailand auf Forderung christlicher Organisationen um 10 Minuten verkürzt aufgeführt werden][1]. Auszüge aus der Bibel die im Vor- und Abspann gezeigt werden müssen durch andere Sprüche ersetzt werden.
 

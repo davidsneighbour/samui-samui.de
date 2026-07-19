@@ -2,10 +2,12 @@
 title: Wahlen (sozusagen)
 date: 2007-08-16T22:25:25+00:00
 url: /2007/08/wahlen-sozusagen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Am Sonntag wird gewählt: In Thailand darf das Volk (erstmals per Referendum) entscheiden, ob der Entwurf einer neuen Verfassung angenommen wird oder nicht.
 

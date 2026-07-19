@@ -3,6 +3,12 @@ title: Ong Bak 3 Teaser
 date: 2010-01-31T23:13:45+00:00
 url: /2010/02/ong-bak-3-teaser/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <dnb-youtube videoid="SJpkkwbrngk" videotitle="Ong Bak 3 Teaser"></dnb-youtube>
 

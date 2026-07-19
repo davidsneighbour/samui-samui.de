@@ -2,10 +2,12 @@
 title: Bauernopfer?
 date: 2007-02-23T05:00:39+00:00
 url: /2007/02/bauernopfer/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In den vergangenen Tagen konnten wir Zeuge eines seltsamen politischen Schachzuges werden, der anscheinend nach hinten los gegangen ist.
 

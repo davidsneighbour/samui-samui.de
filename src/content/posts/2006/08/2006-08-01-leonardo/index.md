@@ -2,10 +2,12 @@
 title: Leonardo
 date: 2006-08-01T10:38:37+00:00
 url: /2006/08/leonardo/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der Spruch des Tages geht für mich heute an Fu, sie meinte eben:
 

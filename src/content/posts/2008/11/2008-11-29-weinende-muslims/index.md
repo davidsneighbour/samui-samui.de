@@ -2,10 +2,12 @@
 title: Weinende Muslims
 date: 2008-11-28T17:20:15+00:00
 url: /2008/11/weinende-muslims/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [450 Muslims stecken auf dem Weg nach Mecca in Bangkok fest][1].
 

@@ -2,10 +2,12 @@
 title: Kurz geschnittenes VIII
 date: 2008-04-22T01:06:14+00:00
 url: /2008/04/kurz-geschnittenes-viii/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Nein][1] , ich bin nicht im Songkran ersoffen. Es gibt halt nur zuwenig Zeit, um Dinge zu berichten oder keine Dinge, die man berichten könnte. Also hier die Zusammenfassung der eventuell berichtenswerten Sachen der vergangenen Woche.
 

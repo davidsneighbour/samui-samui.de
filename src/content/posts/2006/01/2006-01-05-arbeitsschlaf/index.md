@@ -4,10 +4,13 @@ date: 2006-01-05T02:52:00+00:00
 url: /2006/01/arbeitsschlaf/
 
 tags:
-- pokki
-
-
-
+  - pokki
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="455" src="//static.flickr.com/39/82442903_dff2581f52.jpg" alt="pokkis favourite sleeping-place" />][1]
 

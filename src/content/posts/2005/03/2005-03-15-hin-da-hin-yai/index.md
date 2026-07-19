@@ -5,6 +5,12 @@ url: /2005/03/hin-da-hin-yai/
 dsq_thread_id:
   - "2972337759"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Hier ist er also, der erste wahre Eintrag zum Thema Sex! Edukativ und informativ! Ich war am Sonntag auf Lerntour. Vergessen wir kurz die Porno-Hütte und wenden wir uns den angenehmeren Dingen des Lebens zu. Zum Beispiel Kartoffeln, die amerikanischen Präsidenten ähnlich sehen. Oder Wolken, die wie Tiere aussehen. Erdnussflips in der Form von Früchten. Oder Toastbrote mit Mutter Theresa in der Butterecke.
 

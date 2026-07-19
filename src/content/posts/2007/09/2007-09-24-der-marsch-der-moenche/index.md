@@ -2,10 +2,12 @@
 title: Der Marsch der Mönche
 date: 2007-09-23T23:18:16+00:00
 url: /2007/09/der-marsch-der-moenche/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/241.jpg)
 

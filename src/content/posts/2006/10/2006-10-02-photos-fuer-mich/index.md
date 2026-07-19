@@ -3,6 +3,12 @@ title: Photos für _mich_
 date: 2006-10-01T22:49:34+00:00
 url: /2006/10/photos-fuer-mich/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Thais lieben Photos mit Leuten drauf (vorzugsweise sie selbst in Posen vor Orten und Plätzen die sie besucht haben), Essen (Thaifood, volle Teller, halbvolle Teller und Teller nachdem sie geleert wurden) oder einer Kombination aus beidem (alle Essenden vor leeren Tellern). Die Photos müssen unbedingt einen Zeitstempel im Bild tragen, damit man auch noch Jahre später weiss, wann die Photos geschossen wurden.
 

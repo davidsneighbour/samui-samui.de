@@ -4,10 +4,12 @@ date: 2006-06-24T06:58:00+00:00
 url: /2006/06/der-phallus/
 dsq_thread_id:
   - "3341478538"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Kinder unter 18 Jahren lesen bitte hier weiter][1].
 

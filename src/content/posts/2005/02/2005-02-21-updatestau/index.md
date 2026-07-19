@@ -3,6 +3,12 @@ title: Updatestau
 date: 2005-02-20T23:05:04+00:00
 url: /2005/02/updatestau/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So. Das war es also: mein "Ich gehe nicht online"-Wochenende. Am Freitag habe ich ein paar ?berstunden abgesetzt und bin mit dem Moped nach Ban Nathon gefahren (so etwas wie die Inselhauptstadt), hab verschiedene nicht lebensnotwendige Dinge gekauft, mir einen Sonnenstich geholt, meine neue Vorliebe für seltsamen grünen Eistee gestärkt, abends Thai gelernt, im Spa fein gegessen und nach einem seltsamen Film überaus zufrieden ins Bett gefallen (häh? habe ins Bett gefallen?). Samstag war dann Taling Krap angesagt (Juan von 5Phase feierte seinen Geburtstag am Strand). Ein Strand gemacht für Sonnenuntergangsfetischisten. Am Sonntag habe ich dann "mal aufgeräumt".
 

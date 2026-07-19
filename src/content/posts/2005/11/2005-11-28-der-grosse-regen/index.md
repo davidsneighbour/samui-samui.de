@@ -3,6 +3,12 @@ title: Der gro?e Regen
 date: 2005-11-27T21:39:00+00:00
 url: /2005/11/der-grosse-regen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Irgendwie fing es am Mittwoch Abend an zu regnen und hörte nicht wirklich auf. Das ist relativ normal auch wenn die wahren Kenner der Inselszene meinten, es würde nur 5 Minuten regnen und dann... naja... das ist eine ganz andere Geschichte. Jedenfalls hörte es nicht auf zu regnen. Also fuhr ich am Donnerstag durch die Fluten in Maenam und Bophut auf Arbeit in der Hoffnung auf abendliche Wetterbesserung. Die blieb aus und so schwamm ich abends wieder zurück in meine geliebte Hütte.
 

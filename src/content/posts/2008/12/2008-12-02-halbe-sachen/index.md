@@ -2,10 +2,12 @@
 title: Halbe Sachen
 date: 2008-12-02T13:50:34+00:00
 url: /2008/12/halbe-sachen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ok, einen Putsch haben wir "leider" abgewehrt, was können wir denn nun noch unternehmen, um die Farangs aus dem Land zu halten? Genau, an den Visabestimmungen schrauben.
 

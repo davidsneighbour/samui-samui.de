@@ -2,10 +2,12 @@
 title: Lady? Boy!
 date: 2006-08-31T10:03:01+00:00
 url: /2006/08/lady-boy/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute hab ich mal wieder den Häretiker gegeben und eine Frage in den Raum geworfen:
 

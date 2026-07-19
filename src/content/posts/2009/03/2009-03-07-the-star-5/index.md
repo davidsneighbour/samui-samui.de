@@ -2,10 +2,12 @@
 title: The Star 5
 date: 2009-03-07T00:03:10+00:00
 url: /2009/03/the-star-5/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 "Deutschland sucht den Super Star" hei?t in Thailand "The Star" und ist ungefähr genau so uninszeniert wie die ganzen Originalkopien des Konzepts.
 

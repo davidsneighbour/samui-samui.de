@@ -4,10 +4,12 @@ date: 2007-02-14T10:37:58+00:00
 url: /2007/02/valentinstag-thaistyle/
 dsq_thread_id:
   - "3510545024"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eigentlich wollte ich ja einen grö?eren Eintrag zu dem ganzen Valentinstag-Trara schreiben, das jedes Jahr in Thailand stattfindet, aber irgendwie ist selbiger fast schon wieder vorbei. Also nur ganz kurz und zusammenfassend:
 

@@ -2,10 +2,12 @@
 title: Bomben in Bangkok
 date: 2006-12-31T07:15:06+00:00
 url: /2006/12/bomben-in-bangkok/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Bisher 7 Bomben (das war vor wenigen Minuten noch nur 4) [wurden vor einer Stunde in Bangkok simultan gezündet][1]. Getötet wurden 2 Menschen, verletzt mehr als 20.
 

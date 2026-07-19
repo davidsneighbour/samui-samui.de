@@ -2,10 +2,12 @@
 title: Ong Bak 2.
 date: 2008-10-19T15:51:38+00:00
 url: /2008/10/ong-bak-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In einer Zeit, als die Bösewichter Thailands nicht rot oder gelb sondern nur schwarz trugen, als man noch mit Schwertern käpfte, die nicht blutverschmiert waren wenn sie aus den Leibern der Gegner herausgezogen wurden und in der Elephanten die Stra?enköter Thailands waren spielt die Handlung von [Ong Bak 2][1]. Ting ([Tony Jaa][2] oder auch Panom Yeerum) erlernt darin die Kunst und Philosophie von "Martial Arts".
 

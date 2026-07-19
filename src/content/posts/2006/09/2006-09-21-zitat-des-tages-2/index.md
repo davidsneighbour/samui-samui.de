@@ -2,10 +2,12 @@
 title: Zitat des Tages
 date: 2006-09-20T20:10:00+00:00
 url: /2006/09/zitat-des-tages-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

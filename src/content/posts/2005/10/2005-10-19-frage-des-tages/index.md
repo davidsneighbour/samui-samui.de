@@ -3,6 +3,12 @@ title: Frage des Tages
 date: 2005-10-18T21:07:00+00:00
 url: /2005/10/frage-des-tages/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 **Frage des Tages:** Wie erkennt man, ob ein Farang-Thai-Pärchen auf einem Moped ein Pärchen oder Geschäftspartner sind?
 

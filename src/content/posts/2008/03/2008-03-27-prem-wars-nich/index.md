@@ -2,10 +2,12 @@
 title: Prem wars nich!
 date: 2008-03-27T04:03:39+00:00
 url: /2008/03/prem-wars-nich/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Na [endlich][1]!
 

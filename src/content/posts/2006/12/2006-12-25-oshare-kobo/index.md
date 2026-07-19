@@ -2,10 +2,12 @@
 title: Oshare Kobo
 date: 2006-12-24T22:57:08+00:00
 url: /2006/12/oshare-kobo/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 "Oshare Kobo" ist der Hammer. Das läuft hier auf UBC als "Fashionable Living" und ist so eine Art MacGyver für japanische Hausfrauen.
 

@@ -4,10 +4,12 @@ date: 2009-06-14T23:39:44+00:00
 url: /2009/06/namensgebung/
 dsq_thread_id:
   - "3168354988"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der kleine Panda in Chiang Mai lebt noch und ist weiblich. Nun dürfen die Thais den Namen der Kleinen festlegen und es wurde aus vielen Einsendungen eine Liste von 4 Namen [gewählt][1]: Ying Ying, Thai Jeen, Lin Ping und Khwan Thai.
 

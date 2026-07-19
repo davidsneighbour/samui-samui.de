@@ -3,6 +3,12 @@ title: Die Anw??lte haben WLAN
 date: 2005-09-22T06:22:02+00:00
 url: /2005/09/die-anwaelte-haben-wlan/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern sprach mich der [Anwalt von gegenüber][1] auf der Toilette an, ob ich ihm nicht mal was erklären könne. Klar konnte ich das. Auch wenn ich nicht unbedingt darauf stehe beim Urinieren angequatscht zu werden. Man ist da manchmal eigen. Andere rauchen, manche singen, einige rezitieren Benn, ich schweige. Er suchte nach Worten und meinte dann, ich solle mal mit in sein Office kommen, es ist besser wenn er _es_ mir zeigt. _Es_. Soso.
 

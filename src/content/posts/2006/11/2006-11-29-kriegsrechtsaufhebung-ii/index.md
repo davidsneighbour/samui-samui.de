@@ -3,6 +3,12 @@ title: Kriegsrechtsaufhebung II
 date: 2006-11-29T01:01:05+00:00
 url: /2006/11/kriegsrechtsaufhebung-ii/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wenn der König das entsprechende Gesetz unterzeichnet, dann wird in den nächsten Tagen in gut 50% der Provinzen Thailands das Kriegsrecht aufgehoben.
 

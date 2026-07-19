@@ -4,10 +4,12 @@ date: 2014-07-02T07:10:44+00:00
 url: /2014/07/ausgestempelt/
 dsq_thread_id:
   - "2894217473"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Nach Meldung von HDVIsa, Koh Samui's größter Border-Run-Company, hat es sich an den Grenzen Thailands erstmal ausgestempelt. Die Immigration vergibt keine Einreisestempel mehr sondern verlangt, dass man bei der Einreise ein gültiges Visum im Pass hat. Bisher erhielt man bis zu viermal einen Einreisestempel für 30 Tage, konnte also gut 4 Monate ohne Visum Thailandurlaub machen:
 

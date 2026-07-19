@@ -3,6 +3,12 @@ title: Wuff (Satanic Incarnation Remix).
 date: 2005-11-24T07:05:00+00:00
 url: /2005/11/wuff-satanic-incarnation-remix/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Also ich kann <txp:gho_permalink id="531">im Rauch</txp:gho_permalink> durchaus was erkennen.
 

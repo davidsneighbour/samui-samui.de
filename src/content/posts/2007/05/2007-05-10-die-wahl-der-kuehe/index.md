@@ -2,10 +2,12 @@
 title: Die Wahl der Kühe
 date: 2007-05-10T01:43:42+00:00
 url: /2007/05/die-wahl-der-kuehe/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die heiligen Kühe haben <del>gesprochen</del> [gefressen][1]:
 

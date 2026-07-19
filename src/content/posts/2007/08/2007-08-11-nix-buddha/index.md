@@ -2,10 +2,12 @@
 title: Nix Buddha.
 date: 2007-08-11T12:20:16+00:00
 url: /2007/08/nix-buddha/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <txp:thumbnail id="237" style="float:left;margin-right:10px;" /></a> Neulich berichtete ich über eine seltsame <a href="1313">Buddhaerscheinung auf einem Berg im Norden Chinas. Nun stellt sich heraus, dass es nicht Buddha sondern nur [ein bisschen Physik][1] war. Auch nett.
 

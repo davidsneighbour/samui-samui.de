@@ -2,10 +2,12 @@
 title: Feuer und Smog
 date: 2009-03-10T15:29:32+00:00
 url: /2009/03/feuer-und-smog/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/262.jpg)
 

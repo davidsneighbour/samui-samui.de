@@ -5,6 +5,12 @@ url: /2005/01/easyrider-oder-rechtshaender-und-rechtskurven/
 dsq_thread_id:
   - "6412166547"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So. Ich hatte bereits erwähnt, dass ich bestimmte Tätigkeiten auf spätere Lebensabschnitte zu legen pflege um nicht zugeben zu müssen, dass ich ?nderungen und neue Verhältnisse hasse. Aber man muss sich seinen Dämonen stellen, damit sie sich als die Würmer erweisen, die sie sind.
 

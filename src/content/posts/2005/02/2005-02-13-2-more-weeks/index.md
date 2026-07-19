@@ -5,6 +5,12 @@ url: /2005/02/2-more-weeks/
 dsq_thread_id:
   - "3704459491"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Hab heute "die Hütte" für weitere 2 Wochen gemietet. (_?ber-Ich_: Du wirst darin verotten!). Naja. Jedenfalls kam Mr. Wit freudestrahlend in seinem Pickup angefahren (hab ihn angerufen und klar gemacht, dass ich bleibe) und begrü?te mich mit "Morgen". Mir blieb das säuberlich vorformulierte und hundertmal geübte Sawadiikrapp im Halse stecken und ich murmelte ein "Hallo".
 

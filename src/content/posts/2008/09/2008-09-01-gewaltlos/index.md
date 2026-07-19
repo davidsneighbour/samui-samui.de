@@ -2,10 +2,12 @@
 title: Gewaltlos
 date: 2008-09-01T04:12:29+00:00
 url: /2008/09/gewaltlos/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Bilder von verschiedenen unter den <span class="caps">PAD</span>-Demonstranten eingesammelten Geräten][1] im Pantip-Forum künden vom unbewaffneten Widerstand gegen die böse Regierung.
 

@@ -2,10 +2,12 @@
 title: Thailands König ist reichster Monarch
 date: 2009-06-20T18:34:28+00:00
 url: /2009/06/thailands-koenig-ist-reichster-monarch/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Forbes hat wieder einmal seine [Liste der reichsten Monarchen der Welt][1] heraus gebracht und König Bhumibol Adulyadej von Thailand ist zum zweiten Mal mit 30 Billionen Dollar auf Platz eins:
 

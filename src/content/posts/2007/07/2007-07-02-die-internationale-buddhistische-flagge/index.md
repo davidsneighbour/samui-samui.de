@@ -4,10 +4,12 @@ date: 2007-07-01T20:29:26+00:00
 url: /2007/07/die-internationale-buddhistische-flagge/
 dsq_thread_id:
   - "2956810180"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/236.png)Es gibt eine international anerkannte [Flagge für den Buddhismus][1], die man auch hier an buddhistischen Feiertagen in den Tempeln sieht. 1880 wurde sie von einem amerikanischen Journalisten namens Henry Steele Olcott entworfen/verbessert (da ist man sich nicht so ganz einig) und 1885 in Sri Lanka vorgestellt.
 

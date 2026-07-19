@@ -2,10 +2,12 @@
 title: Rücktritt?
 date: 2008-09-03T00:30:10+00:00
 url: /2008/09/ruecktritt-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Man [munkelt][1], Samak würde morgen um 7:30 Uhr zurück treten und habe heute eine Audienz zu diesem Thema beim König gehabt.
 

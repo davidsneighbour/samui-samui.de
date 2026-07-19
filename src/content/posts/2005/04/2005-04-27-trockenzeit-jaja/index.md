@@ -3,6 +3,12 @@ title: Trockenzeit, jaja
 date: 2005-04-26T20:07:05+00:00
 url: /2005/04/trockenzeit-jaja/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Soso. (Schon gemerkt? Ich liebe Doppelungen kleiner Wörter. Blabla.) Trockenzeit haben wir also. Ich glaubs sogar. Und seit drei donnert und leuchtet der Himmel als ob er die Insel zurückerobern will. Die Luft ist seltsam feucht, als ob die Wolken sich jeden Moment in ihre Bestandteile auflösen wollen.
 

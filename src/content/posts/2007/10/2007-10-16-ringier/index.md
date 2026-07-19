@@ -2,10 +2,12 @@
 title: Ringier
 date: 2007-10-16T03:36:04+00:00
 url: /2007/10/ringier/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Man][1] ist auf der Insel. Irgend welche Pläne oder nur Urlaub?
 

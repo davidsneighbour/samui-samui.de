@@ -2,10 +2,12 @@
 title: Samui Airport öffnet seine Landebahnen
 date: 2008-01-17T18:41:02+00:00
 url: /2008/01/samui-airport-oeffnet-seine-landebahnen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wenn man so liest, [was die News-Agenturen heute so verbreiten][1], dann mag man meinen, es wäre eine supertolle Sache im Anflug. Ab 15. Februar sollen auch fremde Airlines den von Bangkok Airways besessenen Flughafen hier auf Samui anfliegen dürfen.
 

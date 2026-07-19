@@ -3,6 +3,12 @@ title: Angemacht.
 date: 2005-08-04T20:30:00+00:00
 url: /2005/08/angemacht/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Achso, hab ich ja glatt vergessen. Ich wurde von einer indischen Sicherheitsbeamtin auf dem Flughafen von Singapore angemacht (leider erst beim Einchecken zum Rückflug). Also nicht im Sinne von Mündung am Ohr sondern eher this way:
 

@@ -2,10 +2,12 @@
 title: (E.)T.S. phone home
 date: 2007-03-27T09:11:54+00:00
 url: /2007/03/ets-phone-home/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/224.jpg)
 

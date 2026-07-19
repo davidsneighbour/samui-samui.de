@@ -5,6 +5,12 @@ url: /2012/11/toonami/
 fb_author_post_id:
   - "10151139367955642"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Pressemitteilung des Tages ist [die von "Toonami"][1], einem Cartoon-Fernsehsender, der am 1. Dezember in Thailand starten soll.
 

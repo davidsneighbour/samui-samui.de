@@ -2,10 +2,12 @@
 title: Der gro?e Lauf von Malaysia (mal wieder)
 date: 2007-11-27T13:11:55+00:00
 url: /2007/11/der-grosse-lauf-von-malaysia-mal-wieder/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Sodele... Heute geht es dann mal wieder ins schöne Malaysia --- ein Visarun steht an. Ein grö?erer, nach dessen Zieleinlauf ich dann (hoffentlich/vermutlich/eventuell/wenn alles klappt) nur noch aller drei Monate kurz über die Grenze hupfen muss.
 

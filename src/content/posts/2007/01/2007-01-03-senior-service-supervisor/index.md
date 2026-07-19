@@ -2,10 +2,12 @@
 title: Senior Service Supervisor
 date: 2007-01-03T04:06:50+00:00
 url: /2007/01/senior-service-supervisor/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/343704098/"><img src="//farm1.static.flickr.com/140/343704098_1ac0b9e2ca.jpg" class="flickr-photo" alt="" /></a></p>

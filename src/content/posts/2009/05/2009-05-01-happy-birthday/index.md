@@ -2,10 +2,12 @@
 title: Happy Birthday
 date: 2009-04-30T19:27:39+00:00
 url: /2009/05/happy-birthday/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/362250452/" title="Soosie"><img src="//farm1.static.flickr.com/147/362250452_accc7347d2.jpg" alt="Soosie" /></a></p>

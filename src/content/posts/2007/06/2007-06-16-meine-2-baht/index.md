@@ -2,10 +2,12 @@
 title: Meine 2 Baht
 date: 2007-06-15T21:22:56+00:00
 url: /2007/06/meine-2-baht/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich bin mir nicht ganz sicher, vermute aber, der Beamte, der für die Einführung des 2Baht-Stückes verantwortlich war, muss Opfer der Todesstrafe gewesen sein. Wenn nicht --- verdient hat er es.
 

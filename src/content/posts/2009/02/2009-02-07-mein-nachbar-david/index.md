@@ -2,10 +2,12 @@
 title: Mein Nachbar David
 date: 2009-02-06T19:07:51+00:00
 url: /2009/02/mein-nachbar-david/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Mein Nachbar David (Beckham, so ein Fussballer, der seit einer Weile ein Haus auf Ko Samui aber anscheinend noch nie darin gelebt hat) hat Probleme mit den lokalen Mönchen, weil er in sein neues Haus eine [Moskitokilleranstalt eingebaut][1] hat.
 

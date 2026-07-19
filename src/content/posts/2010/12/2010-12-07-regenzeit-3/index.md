@@ -3,6 +3,12 @@ title: Regenzeit
 date: 2010-12-06T22:09:52+00:00
 url: /2010/12/regenzeit-3/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich weiss ja nicht, vielleicht hab ich's schonmal erzählt, wir haben zur Zeit Regen-, ehm, -zeit. Es regnet, in Mülleimern gemessen, ungefähr einen Eimer in zwei Stunden.
 

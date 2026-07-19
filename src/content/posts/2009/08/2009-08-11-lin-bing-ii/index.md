@@ -5,11 +5,14 @@ url: /2009/08/lin-bing-ii/
 dsq_thread_id:
   - "3168356323"
 
-
-
 tags:
   - panda
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Thomas fragt in den Kommentaren des vorherigen Eintrages nach der Bedeutung des Panda-Namens "Lin Bing". Meine Quellen meinen, das sind Namen von Flüssen in Thailand und China. [Ping][1] im Norden Thailands und Kui Lin (vermutlich [Guilin][2]) in China.
 

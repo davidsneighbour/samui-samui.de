@@ -2,10 +2,12 @@
 title: Canines Update
 date: 2006-09-02T21:56:00+00:00
 url: /2006/09/canines-update/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/230603154/" title="The big ones"><img src="//static.flickr.com/63/230603154_657b0fd7b2.jpg" alt="The big ones" /></a></p>

@@ -2,10 +2,12 @@
 title: 'Feiertage: Suriyakati-Neujahr'
 date: 2008-01-01T00:18:28+00:00
 url: /2008/01/feiertage-suriyakati-neujahr/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Als ich gestern noch meinte, wir würden das gregorianische Neujahr feiern, habe ich mich einigerma?en geirrt, es ist [Suriyakati][1]-Neujahr. Das ist der buddhistische Kalender der Thais.
 

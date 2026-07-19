@@ -2,10 +2,12 @@
 title: Mayagüez
 date: 2006-12-29T07:17:57+00:00
 url: /2006/12/mayagueez/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der an Weihnachten verstorbene ehemalige US-Präsident Gerald Rudolph Ford wird in Thailand vor allem mit _einer_ Sache in Verbindung gebracht: [dem Mayagüez-Vorfall][1]. Eine Gruppe kambodschanischer Roter Khmer kaperte ein amerikanisches Handelsschiff und hielt die Besatzung gefangen.
 

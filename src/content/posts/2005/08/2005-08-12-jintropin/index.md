@@ -5,6 +5,12 @@ url: /2005/08/jintropin/
 dsq_thread_id:
   - "3022604021"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

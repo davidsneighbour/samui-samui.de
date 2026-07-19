@@ -5,6 +5,12 @@ url: /2006/02/subtilitaet-2/
 tags:
   - pokki
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [![hrmpf!][1]][2]
 

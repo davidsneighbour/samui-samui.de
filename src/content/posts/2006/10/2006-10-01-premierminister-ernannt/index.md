@@ -3,6 +3,12 @@ title: Premierminister ernannt
 date: 2006-10-01T05:47:00+00:00
 url: /2006/10/premierminister-ernannt/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Surayud wurde eben zum Premierminister ernannt und hat auch schon eine Pressekonferenz gehalten, auf der ein Typ von Al Jazeera dümmlich auf Englisch fragte, ob er sich denn für einen besseren Präsidenten (jupp) als den demokratisch gewählten Thaksin hält.
 

@@ -2,10 +2,12 @@
 title: Karl
 date: 2007-03-09T09:49:06+00:00
 url: /2007/03/karl/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/415597439/"><img src="//farm1.static.flickr.com/167/415597439_a592f8131d.jpg" class="flickr-photo" alt="" /></a></p>

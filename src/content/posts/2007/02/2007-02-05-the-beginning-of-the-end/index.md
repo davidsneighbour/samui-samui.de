@@ -2,10 +2,12 @@
 title: The beginning of the end
 date: 2007-02-05T13:37:07+00:00
 url: /2007/02/the-beginning-of-the-end/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <img src="//die.schreibbloga.de/images/222.jpg" width="520" />
 

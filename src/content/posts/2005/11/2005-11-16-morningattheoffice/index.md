@@ -3,6 +3,12 @@ title: Morning at the office
 date: 2005-11-15T19:59:00+00:00
 url: /2005/11/morningattheoffice/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="420" src="//static.flickr.com/29/63742563_6d338b2a1a.jpg" alt="Morning at the office" />][1]
 

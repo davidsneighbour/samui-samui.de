@@ -3,6 +3,12 @@ title: Regen
 date: 2005-09-05T20:44:00+00:00
 url: /2005/09/regen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/154.jpg)
 

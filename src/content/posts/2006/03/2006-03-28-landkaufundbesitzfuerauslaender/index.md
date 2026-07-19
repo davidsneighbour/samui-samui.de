@@ -5,6 +5,12 @@ url: /2006/03/landkaufundbesitzfuerauslaender/
 dsq_thread_id:
   - "2920774347"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ausländer dürfen in Thailand kein Land kaufen (oder um im guten alten Deutsch zu bleiben kein Eigentum an Land halten). Es gibt aber verschiedene Wege, um trotzdem stolz "zu Hause" berichten zu können, dass man auf seiner Farm im Nordenwesten Thailands Reis zieht.
 

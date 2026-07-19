@@ -2,10 +2,12 @@
 title: Parkplatz
 date: 2007-07-29T21:07:00+00:00
 url: /2007/07/parkplatz/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/950516648/" title="Something happens..."><img src="//farm2.static.flickr.com/1140/950516648_7a86303092.jpg" alt="Something happens..." /></a></p>

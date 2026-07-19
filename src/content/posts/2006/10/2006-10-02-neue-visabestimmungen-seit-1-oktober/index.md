@@ -2,10 +2,12 @@
 title: Neue Visabestimmungen seit 1. Oktober
 date: 2006-10-02T03:30:00+00:00
 url: /2006/10/neue-visabestimmungen-seit-1-oktober/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Seit gestern gelten ja nun <txp:gho_permalink id="939">die neuen Visabestimmungen</txp:gho_permalink>. Leise und heimlich hat die Regierung Ende vergangener Woche noch schnell ein paar weitere kleine Änderungen nachgeschoben:
 

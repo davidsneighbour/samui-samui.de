@@ -4,10 +4,12 @@ date: 2007-03-11T04:52:52+00:00
 url: /2007/03/youtube-geblockt-oder-nicht/
 dsq_thread_id:
   - "3167746883"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Von Freitag auf Samstag war YouTube von Thailand aus nicht erreichbar. Das sagen [verschiedene][1] [Weblogs][2] und Boards und [sogar BoingBoing greift das Thema auf][3].
 

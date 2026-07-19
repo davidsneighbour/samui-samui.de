@@ -2,10 +2,12 @@
 title: Thai woman bites Belgian tourist’s organ
 date: 2009-05-13T23:29:41+00:00
 url: /2009/05/thai-woman-bites-belgian-tourists-organ/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Der][1] ist so gut, den muss man einfach voll zitieren:
 

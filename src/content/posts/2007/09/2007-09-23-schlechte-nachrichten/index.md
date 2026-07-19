@@ -4,10 +4,12 @@ date: 2007-09-23T14:04:38+00:00
 url: /2007/09/schlechte-nachrichten/
 dsq_thread_id:
   - "3081494937"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die vergangene Woche brachte einige schlechte Neuigkeiten für verwöhnte Farangs in Thailand:
 

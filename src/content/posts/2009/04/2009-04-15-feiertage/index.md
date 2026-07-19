@@ -4,10 +4,12 @@ date: 2009-04-15T14:48:23+00:00
 url: /2009/04/feiertage/
 dsq_thread_id:
   - "3579292171"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Thailand erlebt zur Zeit eine Schwemme an Feiertagen ;). Vergangenen Freitag wurde vom Premierminister Abhisit ein unoffizieller offizieller Feiertag eingeschoben, damit die Hauptstadt sich auf Songkran vorbereiten kann. Dann kamen die offiziellen Songkran-Feiertage Montag bis Mittwoch und nun (wiederum nach Ereignissen in der Hauptstadt) wurden noch zwei inoffizielle Feiertage bis zum Ende der Woche zum Aufräumen eingeschoben.
 

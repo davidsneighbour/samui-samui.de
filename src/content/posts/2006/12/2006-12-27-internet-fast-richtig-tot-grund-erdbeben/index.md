@@ -4,10 +4,12 @@ date: 2006-12-27T06:41:22+00:00
 url: /2006/12/internet-fast-richtig-tot-grund-erdbeben/
 dsq_thread_id:
   - "3471979307"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Tatsächlich][1]. Ich habe das tote Internet wegen eines Erdbebens ja zuerst für einen Witz gehalten. Anscheinend sind aber jede Menge Tiefseekabel zerstört und man kommt nicht oder nur schleichend auf die Server in Taiwan, USA usw. --- das soll rund drei Wochen anhalten.
 

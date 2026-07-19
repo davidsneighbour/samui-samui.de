@@ -2,10 +2,12 @@
 title: Demokratie Thaistyle
 date: 2008-07-29T04:15:33+00:00
 url: /2008/07/demokratie-thaistyle/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Das folgende Video zeigt, wie ungefähr 50% der Thais ihr Recht auf Meinungsfreiheit interpretieren.
 

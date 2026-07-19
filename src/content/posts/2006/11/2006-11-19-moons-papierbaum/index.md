@@ -3,6 +3,12 @@ title: Moons Papierbaum
 date: 2006-11-19T08:46:16+00:00
 url: /2006/11/moons-papierbaum/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ein kleines Mädchen namens Moon erhielt eines Tages von einem vorbeiziehenden Mann voller Magie eine gefaltete Papierblume. Er erzählte ihr, dass, wenn sie die Blume pflanzen und pflegen würde, eines Tages ein wunderschöner Baum voller Blüten daraus wachsen würde. Sie pflanzte die Papierblume und kümmerte sich um sie Jahr für Jahr. Sie ignorierte die Dorfbewohner, die sie auslachten und sagten, dass es nur eine Papierblume sei. Und nichts geschah.
 

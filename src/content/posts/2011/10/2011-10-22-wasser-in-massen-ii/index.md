@@ -3,6 +3,12 @@ title: Wasser in Massen II
 date: 2011-10-21T18:56:29+00:00
 url: /2011/10/wasser-in-massen-ii/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Vor ein paar Tagen hat die Regierung "beschlossen", Bangkok "fluten zu lassen". So martialisch das klingt --- es hat mal wieder politische Gründe. Irgendein Berater hat unserer Prime Ministress schonend beigebracht, dass es seltsam aussieht, wenn man sich nur um die Bangkoker Bevölkerung sorgt und andere Landesteile derweil künstlich unter Wasser gesetzt werden, nur damit Bangkok trocken bleibt. Und so steigt das Wasser nun auch in Bangkok unter der Massgabe "Bangkok muss einen Teil der Fluten mit tragen".
 

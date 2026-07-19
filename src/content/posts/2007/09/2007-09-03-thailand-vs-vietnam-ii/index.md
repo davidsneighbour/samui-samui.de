@@ -2,10 +2,12 @@
 title: Thailand vs. Vietnam II
 date: 2007-09-02T19:41:42+00:00
 url: /2007/09/thailand-vs-vietnam-ii/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Thailand hat übrigens das bereits erwähnte Match der Matche [gewonnen][1].
 

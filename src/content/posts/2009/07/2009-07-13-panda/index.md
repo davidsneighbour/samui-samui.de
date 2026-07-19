@@ -3,11 +3,14 @@ title: Panda
 date: 2009-07-12T23:48:57+00:00
 url: /2009/07/panda/
 
-
-
 tags:
   - panda
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flex-video">
 </div>

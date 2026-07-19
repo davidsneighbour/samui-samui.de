@@ -2,10 +2,12 @@
 title: Raus und rein
 date: 2009-04-07T23:15:50+00:00
 url: /2009/04/raus-und-rein/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Neuigkeiten aus dem Soapoperagewerbe: Die Familie des Profigolfpräsidenten hat [heute Nacht auf verschiedenen Wegen][1] das Land verlassen. Und endlich nimmt auch Pojaman, Ex-Frau Thaksins, wieder am Geschehen teil.
 

@@ -2,10 +2,12 @@
 title: 'Templatespielereien III: CSS-Geschraube'
 date: 2006-10-29T20:27:48+00:00
 url: /2006/10/templatespielereien-iii-css-geschraube/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In den letzten Tagen (und Nächten) habe ich ein wenig am <span class="caps">CSS</span> geschraubt. Der Titel gefällt mir noch nicht ganz (sowohl von der Aussage als auch von der Schrift und Farbe her) und da einige Bereiche noch nicht ganz fertig sind wird da auch noch Nacharbeit notwendig sein, wenn sie eingerichtet sind (schwammig genug formuliert?).
 

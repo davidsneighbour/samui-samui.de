@@ -2,10 +2,12 @@
 title: Energie
 date: 2007-08-29T18:18:28+00:00
 url: /2007/08/energie/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Strom ist eine feine Sache. Man kann damit Lüfter antreiben, Lampen, Kühlschränke, Computer, Fernseher, Stereoanlagen und manchmal sogar Router und Modems.
 

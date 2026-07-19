@@ -2,10 +2,12 @@
 title: Bilanz
 date: 2007-09-02T16:43:50+00:00
 url: /2007/09/bilanz/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Dies und das in kurzer Notiz
 

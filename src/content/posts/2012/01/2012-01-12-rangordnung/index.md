@@ -3,6 +3,12 @@ title: Rangordnung
 date: 2012-01-12T13:34:03+00:00
 url: /2012/01/rangordnung/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media video">
 </div>

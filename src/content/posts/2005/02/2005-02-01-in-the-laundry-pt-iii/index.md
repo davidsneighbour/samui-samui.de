@@ -5,6 +5,12 @@ url: /2005/02/in-the-laundry-pt-iii/
 dsq_thread_id:
   - "3012171534"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Hüstel. Ich wei?, dass meine werte Leserschaft nicht allzuviel mit Wiederholungen anzufangen wei?, diese hier aber lässt sich (anscheinend) nicht verhindern. Es war mal wieder soweit, die Fliegen nahmen zu, also mussten die Klamotten in die Wäscherei. Ich entschied mich, die selbe aufzusuchen wie beim letzten Mal. Dort angekommen übergab ich flugs die Wäsche, sagte in meinem überaus verständlichem und ausgeklügeltem Englisch "battjuhduhnotthäfftowoschsähbägg" und brauste auf meinem kleinen roten lauten klapperndem Moped von dannen.
 

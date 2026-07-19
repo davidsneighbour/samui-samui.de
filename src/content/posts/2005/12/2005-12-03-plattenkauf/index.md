@@ -5,6 +5,12 @@ url: /2005/12/plattenkauf/
 dsq_thread_id:
   - "6412166775"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute war ich in Nathon (immer der Sonne hinterher) beim Plattenverkäufer meines Vertrauens. Dort habe ich dann für 30 Euro CDs gekauft. Nun ja. Das wäre in Deutschland einmal Robbie Williams und das neue Teil von Madonna. Hier in Thailand ist es ein kleines bisschen mehr (mit jeder Menge Gehandel und Lachen und so. Aber ich habe es durchaus hingekriegt.
 

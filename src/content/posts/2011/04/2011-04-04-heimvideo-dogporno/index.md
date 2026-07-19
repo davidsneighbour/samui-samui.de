@@ -5,6 +5,12 @@ url: /2011/04/heimvideo-dogporno/
 dsq_thread_id:
   - "2900351870"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media video">
 </div>

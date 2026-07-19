@@ -2,10 +2,12 @@
 title: 'Feiertage: Makha Bucha Day'
 date: 2008-02-20T11:44:37+00:00
 url: /2008/02/feiertage-makha-bucha-day/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute feiern wir den Makha Bucha Day. Das ist ein offizieller Feiertag in Thailand, aber hauptsächlich ein buddhistischer Feiertag, der jedes Jahr auf den Vollmond des dritten Mondmonats fällt.
 

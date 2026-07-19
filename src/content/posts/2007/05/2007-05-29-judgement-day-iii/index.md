@@ -2,10 +2,12 @@
 title: Judgement Day III
 date: 2007-05-29T02:23:32+00:00
 url: /2007/05/judgement-day-iii/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Die Schulen in der Nähe des Verfassungsgerichts in Bangkok haben heute geschlossen][1] und auch den Unternehmen in der thailändischen Metropole wird empfohlen, heute einen Urlaubstag einzulegen.
 

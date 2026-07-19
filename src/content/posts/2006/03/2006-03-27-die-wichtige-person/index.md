@@ -3,6 +3,12 @@ title: Die Wichtige Person
 date: 2006-03-27T01:41:00+00:00
 url: /2006/03/die-wichtige-person/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Auf der Insel hält sich eine _Wichtige Person_ auf. Gestern wurde ich den ganzen Tag aufgehalten weil am Palm Beach Ressort in Maenam/Bophut ständig die Straße auf rund 500 Metern Länge gesperrt ist.
 

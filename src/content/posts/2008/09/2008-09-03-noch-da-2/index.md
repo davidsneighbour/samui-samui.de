@@ -2,10 +2,12 @@
 title: Noch da
 date: 2008-09-03T16:16:17+00:00
 url: /2008/09/noch-da-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wir sind alle noch da. Samak bleibt (vorerst) Premierminister und das Internet wurde (noch) nicht gekappt. Die Gerüchte um Samaks Rücktritt haben vermutlich für eine ruhige Nacht gesorgt.
 

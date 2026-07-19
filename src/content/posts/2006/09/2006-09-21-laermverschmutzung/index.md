@@ -2,10 +2,12 @@
 title: Lärmverschmutzung
 date: 2006-09-21T10:08:00+00:00
 url: /2006/09/laermverschmutzung/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 _Normalerweise hab ich ja einen Ordner, in dem Einträge "wo geschrieben und nicht veröffentlicht weil grad nicht passend" abgelegt werden und in dem ich dann alte Perlen finde, die ich löschen kann weil sie völlig veraltet sind. Das folgende Teil will ich euch aber nicht vorenthalten. Kurz vor seiner Fertigstellung wurden am Dienstag die Fernsehsender abgeschaltet. Seither ist es eher ruhig hier._
 

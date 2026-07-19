@@ -2,10 +2,12 @@
 title: Visarun
 date: 2009-02-06T18:56:39+00:00
 url: /2009/02/visarun-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In der nächsten Woche darf ich wieder einmal auf Visarun gehen. Diese nützliche Erfindung der Thais, um den Farangs im Lande deutlich zu machen, dass sie nur solange im Lande gedulded sind, wie sie Geld ins Land mit bringen.
 

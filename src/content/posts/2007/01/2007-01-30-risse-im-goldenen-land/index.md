@@ -2,10 +2,12 @@
 title: Risse im Goldenen Land
 date: 2007-01-29T20:24:28+00:00
 url: /2007/01/risse-im-goldenen-land/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <img src="//die.schreibbloga.de/images/221.jpg" width="500" height="343" /></p>

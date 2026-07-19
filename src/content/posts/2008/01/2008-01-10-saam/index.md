@@ -2,10 +2,12 @@
 title: Saam
 date: 2008-01-10T00:36:51+00:00
 url: /2008/01/saam/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Drei Jahre bin ich nun schon auf der Insel (seit zwei Tagen). Das nur am Rande. am Achten Januar Zweitausendfünf setzte ich Fuss auf Kontinent und Insel.
 

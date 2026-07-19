@@ -2,10 +2,12 @@
 title: ?bergangsverfassung und Premierministerkandidaten
 date: 2006-09-27T08:15:00+00:00
 url: /2006/09/uebergangsverfassung-und-premierministerkandidaten/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es wurde heute ein [erster Entwurf der Übergangsverfassung][1] vorgelegt. Leider haben alle englischen Quellen keine oder nur zusammenfassende Inhalte (wie der Link der Nation hier). Sobald ich den kompletten Text gefunden habe, versuche ich mich mal als Übersetzer.
 

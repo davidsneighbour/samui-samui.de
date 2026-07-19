@@ -3,11 +3,17 @@ title: "Neuer alter Premierminister"
 date: 2019-06-06T19:25:48+07:00
 url: /2019/06/neuer-alter-premierminister
 tags:
-    - politik
+  - politik
 leute:
-    - prayuth chan-ocha
-    - thanathorn juangroongruangkit
-    - abhisit vejjajiva
+  - prayuth chan-ocha
+  - thanathorn juangroongruangkit
+  - abhisit vejjajiva
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![General Prayuth Chan-Ocha](./general-prayuth.jpg)

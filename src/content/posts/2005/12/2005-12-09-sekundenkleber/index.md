@@ -5,6 +5,12 @@ url: /2005/12/sekundenkleber/
 dsq_thread_id:
   - "3585731366"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich habe ja ein spezielles Verhältnis zu Klebern im Allgemeinen und Sekundenkleber im Speziellen. Normalerweise verkleistere ich immer meine Klamotten anstatt das klebrige Gut an der zu verklebenden Stelle aufzubringen. Sekundenkleber benutze ich immer nur einmal, weil dann hinterher immer die Düse verstopft ist.
 

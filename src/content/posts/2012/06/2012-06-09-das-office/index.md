@@ -3,6 +3,12 @@ title: Das Office
 date: 2012-06-09T14:07:30+00:00
 url: /2012/06/das-office/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media photo image">
   <a href="http://www.flickr.com/photos/schreibblogade/7356466416/" title="The Office"><img src="//farm8.staticflickr.com/7219/7356466416_a39ea04ba2_z.jpg" width="620" alt="The Office" /></a></p>

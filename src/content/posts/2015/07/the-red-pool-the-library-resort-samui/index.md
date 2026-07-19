@@ -8,9 +8,15 @@ tags:
   - photo
   - the library
 resources:
-- src: "red-pool.jpg"
-  name: "red-pool"
-  title: "Red Pool im The Library Resort auf Koh Samui"
+  - src: "red-pool.jpg"
+    name: "red-pool"
+    title: "Red Pool im The Library Resort auf Koh Samui"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Red Pool im The Library Resort auf Koh Samui](./red-pool.jpg)

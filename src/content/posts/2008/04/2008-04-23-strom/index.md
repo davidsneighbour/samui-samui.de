@@ -2,10 +2,12 @@
 title: Strom!
 date: 2008-04-23T03:26:07+00:00
 url: /2008/04/strom/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Seit einigen Tagen knallt es immer nachts auf der Ringroad vorm Haus und der Strom fällt aus.
 

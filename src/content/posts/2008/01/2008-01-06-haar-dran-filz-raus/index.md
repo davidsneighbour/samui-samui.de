@@ -2,10 +2,12 @@
 title: Haar dran, Filz raus
 date: 2008-01-05T21:20:24+00:00
 url: /2008/01/haar-dran-filz-raus/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2170975065/" title="Pokki"><img src="//farm3.static.flickr.com/2294/2170975065_bda82db5a6.jpg" alt="Pokki" /></a></p>

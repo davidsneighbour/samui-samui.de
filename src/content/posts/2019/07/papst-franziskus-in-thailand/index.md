@@ -4,12 +4,18 @@ description: ""
 date: 2019-07-18T20:20:00+07:00
 lastmod: 2019-07-18T20:20:00+07:00
 leute:
-    - papst franziskus
-    - yingluck shinawatra
+  - papst franziskus
+  - yingluck shinawatra
 tags:
-    - papstbesuch
-    - religion
-    - katholizismus
+  - papstbesuch
+  - religion
+  - katholizismus
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Yingluck und Papst Franziskus, ca. 2013](./franziskus-und-yingluck.jpg)

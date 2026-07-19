@@ -3,6 +3,12 @@ title: Schnell und unkompliziert
 date: 2005-12-27T01:23:00+00:00
 url: /2005/12/kontaktformular/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <txp:zem_contact mailto="<schreibblogade@gmail.com>">
 

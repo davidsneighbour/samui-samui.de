@@ -2,10 +2,12 @@
 title: Gegendarstellung
 date: 2007-06-13T00:30:04+00:00
 url: /2007/06/gegendarstellung/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Am Freitag den 8. Juni erhielten einige (rund 400) Emailnutzer (Freunde, Verwandte, Bekannte und auch ein paar Pissnelken) weltweit eine Email, in der die Behauptung aufgestellt wurde, "Patrick Kollitsch wants to talk with you using the new Yahoo! Messenger".
 

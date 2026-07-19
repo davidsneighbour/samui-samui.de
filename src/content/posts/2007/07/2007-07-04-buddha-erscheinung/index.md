@@ -2,10 +2,12 @@
 title: Buddha-Erscheinung
 date: 2007-07-04T01:16:34+00:00
 url: /2007/07/buddha-erscheinung/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/237.jpg)
 

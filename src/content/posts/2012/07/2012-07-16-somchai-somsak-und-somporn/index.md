@@ -18,6 +18,12 @@ fb_status_messages:
   - |
     a:2:{i:0;a:2:{s:7:"message";s:202:"Posted to mentioned friends' Facebook Timelines. <a href="http://www.facebook.com/603392055/posts/260321900747117" target="_blank"><img src="http://graph.facebook.com/603392055/picture" width="15"></a> ";s:5:"error";s:0:"";}i:1;a:2:{s:7:"message";s:104:"Posted to <a href="http://www.facebook.com/10150941724180642" target="_blank">your Facebook Timeline</a>";s:5:"error";s:0:"";}}
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die nach Angaben des thailändischen Innenministeriums [beliebtesten (männlichen) Vornamen in Thailand][1] sind:
 

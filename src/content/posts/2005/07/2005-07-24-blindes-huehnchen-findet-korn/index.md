@@ -5,6 +5,12 @@ url: /2005/07/blindes-huehnchen-findet-korn/
 dsq_thread_id:
   - "6412166654"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der folgende Eintrag könnte eventuell erklären, warum es hier nach unserem Urlaub so wenig Einträge gab.
 

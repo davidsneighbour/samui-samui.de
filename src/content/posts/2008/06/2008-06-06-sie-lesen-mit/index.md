@@ -2,10 +2,12 @@
 title: Sie lesen mit
 date: 2008-06-06T01:54:30+00:00
 url: /2008/06/sie-lesen-mit/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Bangkok-Post hat keine Permalinks, weshalb ich ein Lesen [des folgenden Artikels][1] baldigst empfehle, ein "Backup" hab ich noch auf der Platte, falls er dann doch verloren geht.
 

@@ -2,10 +2,12 @@
 title: Thaksin verkauft Manchester City
 date: 2008-08-05T14:43:28+00:00
 url: /2008/08/thaksin-verkauft-manchester-city/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Oder auch nicht][1]. Aber man kann ja mal drüber nach denken, so wie es die englischen Sportzeitungen heute machen. Thaksin soll sich erkundigt haben, was denn die Konditionen seien, um seinen Anteil an Manchester City, einem Fussballclub in Grossbritanien wieder zu verkaufen. Gekauft hat er ihn erst nach dem letzten Putsch, was in Thailand eine kurze Zeitspanne ist.
 

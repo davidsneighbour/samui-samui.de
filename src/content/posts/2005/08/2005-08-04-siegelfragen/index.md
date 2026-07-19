@@ -5,6 +5,12 @@ url: /2005/08/siegelfragen/
 dsq_thread_id:
   - "6412166706"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Moin, kann mir mal jemand "mit dem unabhängigen Siegel der Zufriedenheit" auf Französisch übersetzten? Ich brauche eine neue Headline. Aus verschiedenen Gründen.
 

@@ -2,10 +2,12 @@
 title: Sichtweisen
 date: 2007-09-22T23:59:58+00:00
 url: /2007/09/sichtweisen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute [berichtet][1] der Spiegel darüber, dass in Myanmar buddhistische Mönche gegen die Junta auf die Stra?e gehen. In der Berichterstattung klingt das Ganze so, als ob das was Neues wäre. Ist es aber nicht: die Mönche demonstrieren schon seit 5 Tagen und sind der thailändischen Presse "Tagesthema".
 

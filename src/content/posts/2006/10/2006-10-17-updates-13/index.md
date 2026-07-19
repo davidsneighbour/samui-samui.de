@@ -2,10 +2,12 @@
 title: Updates
 date: 2006-10-17T09:36:00+00:00
 url: /2006/10/updates-13/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Nachrichten der vergangenen Tage:
 

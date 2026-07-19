@@ -2,10 +2,12 @@
 title: 'Holiday Outtakes V: Come Druegg!'
 date: 2008-06-16T04:46:46+00:00
 url: /2008/06/holiday-outtakes-v-come-druegg/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2584167635/" title="Holiday Outtakes V: Come Druegg!"><img src="//farm4.static.flickr.com/3189/2584167635_87c211b345.jpg" alt="Holiday Outtakes V: Come Druegg!" /></a></p>

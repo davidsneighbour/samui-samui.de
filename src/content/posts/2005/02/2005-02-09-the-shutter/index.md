@@ -3,6 +3,12 @@ title: ?ั???อร? ก??ิ?วิญญา?
 date: 2005-02-09T00:14:00+00:00
 url: /2005/02/the-shutter/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern habe ich dann endlich meinen Thai-Film angesehen. Nicht zu fassen, es ist ein solider kleiner Horrorthriller. Freundlicherweise war ganz kurz der Titel im Vorspann auf Englisch zu erkennen, so dass ich [diese überaus informative Seite zum Film][1] namens "Shutter" verlinken kann ;)
 

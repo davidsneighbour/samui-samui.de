@@ -3,6 +3,12 @@ title: "Thailand-News II: Happy End für Bangkoks Tauben"
 date: 2010-02-11T15:08:21+00:00
 url: /2010/02/thailand-news-ii-happy-end-fuer-bangkoks-tauben/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es gibt Nachrichten, die gibt es nur in Thailand:
 

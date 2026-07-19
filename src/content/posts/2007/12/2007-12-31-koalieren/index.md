@@ -2,10 +2,12 @@
 title: Koalieren
 date: 2007-12-30T23:42:23+00:00
 url: /2007/12/koalieren/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Samak, der Parteichef der Wahlgewinner Peoples Power Party (ich liebe es, den Namen der Partei auf Englisch zu schreiben, weil er dann den Parteiencharakter verliert --- Party party, happy happy), hat heute [per Pressekonferenz][1] eine Koalition aus 4 Parteien verkündet.
 

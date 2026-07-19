@@ -2,10 +2,12 @@
 title: Dreiarmig
 date: 2008-06-12T05:33:19+00:00
 url: /2008/06/dreiarmig/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/253.jpg)
 

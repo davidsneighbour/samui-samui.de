@@ -2,10 +2,12 @@
 title: Visarun (mal wieder)
 date: 2006-09-22T07:42:00+00:00
 url: /2006/09/visarun-mal-wieder/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Morgen fahr ich zur Butterfahrt nach Malaysia. Die Grenze zu Myanmar (mein präferiertes Borderrun-Ziel) ist immer noch geschlossen und um die 100 Farangs sitzen in Myanmar fest.
 

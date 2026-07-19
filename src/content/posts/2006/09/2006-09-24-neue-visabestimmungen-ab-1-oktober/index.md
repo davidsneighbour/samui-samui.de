@@ -4,10 +4,12 @@ date: 2006-09-24T02:14:00+00:00
 url: /2006/09/neue-visabestimmungen-ab-1-oktober/
 dsq_thread_id:
   - "2894256731"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Thailand hat die Visabestimmungen geändert. Diese Meldung erzeugte ein kleines bisschen Unruhe, auch _ich_ bin gefragt worden, ob mich das irgendwie betrifft. Tut es, dazu am Ende mehr. Zuerst einmal, was sich denn geändert hat und warum (wobei sich die Informationen in der Regel auf die drei deutschsprachigen Länder beziehen).
 

@@ -2,10 +2,12 @@
 title: (T)Raumschiff
 date: 2007-07-24T22:03:12+00:00
 url: /2007/07/traumschiff/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Auf True Movies kommt eben dieser Bully Herbig Film wo sie Raumschiff Enterprise veralbern. Das hab ich damals irgendwie verpasst.
 

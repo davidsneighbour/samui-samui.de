@@ -2,10 +2,12 @@
 title: Klopfen
 date: 2006-09-19T13:20:00+00:00
 url: /2006/09/klopfen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Irgendwas ist im Busch. Die TV-Sender bringen entweder nur noch den König (die Thaisender, Propagandavideos die ich noch nie gesehen habe und alle 8 Sender bringen das gleiche, zeitgleich) oder nichts (alle anderen). Kurz vorher sms-te mir die Quelle noch, morgen passiere "etwas Großes" mit Thaksin.
 

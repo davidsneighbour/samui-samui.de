@@ -2,10 +2,12 @@
 title: Terminvereinbarung Thaistyle
 date: 2006-08-24T10:09:04+00:00
 url: /2006/08/terminvereinbarung-thaistyle/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Montag:
 

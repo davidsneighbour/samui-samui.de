@@ -2,10 +2,12 @@
 title: Unschuldig unschuldig.
 date: 2006-08-29T08:42:00+00:00
 url: /2006/08/unschuldig-unschuldig/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Mister John Karr hat die kleine JonBenet Ramsey nicht umgebracht. Er hat es zwar behauptet aber irgendwie bin ich froh, <txp:gho_permalink id="841">damals schon mutmaßlich geschrieben zu haben</txp:gho_permalink>, denn bereits nach einigen Stunden meldeten sich die ersten Stimmen, dass er ein ziemlich seltsam aufmerksamkeitsbedürftiger Zeitgenosse sei. Er hat mit einem Kriminalistikprofessor Briefwechsel geführt woraufhin dieser die Briefe ans FBI weiter gegeben hat, weil er (Karr) mehr und mehr Behauptungen und Lügengerüste aufbaute.
 

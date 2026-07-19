@@ -2,10 +2,12 @@
 title: Besuch
 date: 2009-08-01T14:57:30+00:00
 url: /2009/08/besuch/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern kam uns Bui, regelmä?igen Lesern auch als Nummer 1, Number one oder Lindsay bekannt, besuchen.
 

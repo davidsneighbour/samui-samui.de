@@ -2,10 +2,12 @@
 title: Ja wirds denn nun?
 date: 2008-03-07T01:05:51+00:00
 url: /2008/03/ja-wirds-denn-nun/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Seit gut zwei Wochen bekomme ich täglich verschiedene Anfragen von unterschiedlichsten Nationalitäten, ob beim wilden animalischen Sex neulich denn nun ein Treffer gelandet wurde.
 

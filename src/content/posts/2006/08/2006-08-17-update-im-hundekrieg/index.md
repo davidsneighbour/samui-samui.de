@@ -2,10 +2,12 @@
 title: Update im Hundekrieg
 date: 2006-08-16T23:19:25+00:00
 url: /2006/08/update-im-hundekrieg/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die braune Terror-Töle hat grade den netten schwarzen Hund von der Kokosnussfarm nebenan gebissen. Jetzt ist er fällig. Er braucht nur auf hundert Meter heranzukommen und schon drehen Pokki und Soosie durch, bellen, jaulen (Pokki bellt immer nur ganz kurz, macht sich nicht so gut mit zwei Unterkiefern) und knurren. Selbst Soosie die eigentlich nur spielbellen kann.
 

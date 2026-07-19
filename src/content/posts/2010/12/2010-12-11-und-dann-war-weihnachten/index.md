@@ -3,6 +3,12 @@ title: Und dann war Weihnachten
 date: 2010-12-11T00:47:02+00:00
 url: /2010/12/und-dann-war-weihnachten/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5251108691/" title="Christmas. Yeah. :|"><img src="//farm6.static.flickr.com/5006/5251108691_7bd87ef663_z.jpg" alt="Christmas. Yeah. :|" /></p>

@@ -5,10 +5,16 @@ url: /2017/07/liebes-tagebuch/
 tags:
   - shih tzu
   - soosie
-resources :
-- src: "soosie.jpg"
-  name: "Soosie"
-  title: "Soosie, 1. Mai 2006 - 18. Juli 2017"
+resources:
+  - src: "soosie.jpg"
+    name: "Soosie"
+    title: "Soosie, 1. Mai 2006 - 18. Juli 2017"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![](./soosie.jpg)

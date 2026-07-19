@@ -4,10 +4,12 @@ date: 2008-01-24T01:04:53+00:00
 url: /2008/01/nahtod-gedanken/
 dsq_thread_id:
   - "3603827447"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Vor dem Eingang zum Tempel um die Ecke sind zwei gro?e Löcher im Stra?en-Boden, in die ich gerade beinahe reingefahren wäre. Bin gespannt, was sie da hin bauen wollen. Vielleicht eine Erweiterung des Tores mit ein paar Schnörkeln, die den Tempelgrund um dringend benötigte 10m<sup>2</sup> erweitern.
 

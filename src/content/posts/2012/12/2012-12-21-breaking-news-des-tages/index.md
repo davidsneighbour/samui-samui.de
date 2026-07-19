@@ -5,6 +5,12 @@ url: /2012/12/breaking-news-des-tages/
 fb_author_post_id:
   - "10151179148385642"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media photo">
   <a href="https://samui-samui.de/weblog/2012/12/breaking-news-des-tages/selection_004#main" rel="attachment wp-att-2315"><img class="alignnone size-medium wp-image-2315" alt="Selection_004" src="//samui-samui.dehttps://assets.samui-samui.de/2012/12/Selection_004-640x284.png" width="620" /></a>

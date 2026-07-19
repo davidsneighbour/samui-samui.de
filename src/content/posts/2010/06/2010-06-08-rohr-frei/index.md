@@ -3,6 +3,12 @@ title: Rohr frei!(!!)
 date: 2010-06-08T01:13:18+00:00
 url: /2010/06/rohr-frei/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Unsereins hat bei der Quartals-Rasur einen recht hohen Haarabgang. Nicht unverständlich daher ist also, dass die Rohre nach gut einem Jahr im neuen alten Haus aufgaben und das Wasser nicht mehr ablief. Ich persönlich habe mir eine Ausrede a la "Das sind die Termiten die da unten im warmen Ablauf ihr Nest errichten" zurecht gelegt. Das half aber nichts, das Wasser blieb in der Gosse.
 

@@ -2,10 +2,12 @@
 title: Dänische Geschenke
 date: 2007-12-26T01:32:39+00:00
 url: /2007/12/daenische-geschenke/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2138684530/" title="The present from Denmark"><img src="//farm3.static.flickr.com/2250/2138684530_06b919c020.jpg" alt="The present from Denmark" /></a></p>

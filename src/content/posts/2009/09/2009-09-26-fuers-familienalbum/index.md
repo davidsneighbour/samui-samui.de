@@ -2,10 +2,12 @@
 title: Fürs Familienalbum
 date: 2009-09-26T15:47:17+00:00
 url: /2009/09/fuers-familienalbum/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3957293535/" title="Pokki and Nikkie"><img src="//farm3.static.flickr.com/2513/3957293535_518e359a65.jpg" alt="Pokki and Nikkie" /></a></p>

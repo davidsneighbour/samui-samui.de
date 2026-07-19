@@ -2,10 +2,12 @@
 title: The old one
 date: 2006-01-15T23:07:00+00:00
 url: /2006/01/theoldone/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="455" src="//static.flickr.com/39/87218846_df18be7770.jpg" alt="The old one" />][1]
 

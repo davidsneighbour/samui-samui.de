@@ -2,10 +2,12 @@
 title: Der neue Oldman
 date: 2007-07-10T00:13:40+00:00
 url: /2007/07/der-neue-oldman/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Morgen startet in den thailändischen Kinos der neue [Gary-Oldman-Film][1]. Ich lass mich überraschen. [Irgendwie geht es um einen geheimen Orden][2]. Ein Kammerstück von einer britischen Autorin. Robbie Coltrane soll auch wieder mit spielen... der hat ja schon öfters mit Gary im selben Film agiert.
 

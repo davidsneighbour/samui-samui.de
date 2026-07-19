@@ -3,12 +3,17 @@ title: "Prem Tinsulanonda"
 date: 2019-05-31T00:06:48+07:00
 url: /2019/05/prem-tinsulanonda
 tags:
-- politik
+  - politik
 leute:
-- prem tinsulanonda
-- prayuth chan-ocha
-- surayud chulanont
-
+  - prem tinsulanonda
+  - prayuth chan-ocha
+  - surayud chulanont
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Gen. Prem Tinsulanonda mit Junta-Führer Prayuth Chan-ocha in Bangkok, 11. April 2019.](./prem-tinsulanond.jpg)

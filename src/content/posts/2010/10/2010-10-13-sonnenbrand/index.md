@@ -3,6 +3,12 @@ title: Sonnenbrand
 date: 2010-10-12T20:54:33+00:00
 url: /2010/10/sonnenbrand/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5077509575/" title="Me now. Burnt in 70's style."><img src="//farm5.static.flickr.com/4051/5077509575_7a27e64644.jpg" alt="Me now. Burnt in 70's style." /></p>

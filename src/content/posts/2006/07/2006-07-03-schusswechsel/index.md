@@ -3,6 +3,12 @@ title: Schusswechsel
 date: 2006-07-03T11:40:00+00:00
 url: /2006/07/schusswechsel/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Dass man für ein bisschen Aufregung nicht weit fahren muss, zeigt mir der heutige Abend wieder einmal. Vor rund 2 Stunden gab es einen heftigen Schusswechsel zwei Ecken weiter am 7eleven. Von meinem Haus aus klang das wie ein kleines Feuerwerk. Nach einer halben Stunde auf dem abendlichen Fu-Heimweg durfte ich dann feststellen, dass nicht jedes Feuerwerk der Unterhaltung dienen muss.
 

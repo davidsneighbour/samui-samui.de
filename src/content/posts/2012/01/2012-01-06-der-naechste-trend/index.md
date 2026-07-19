@@ -3,6 +3,12 @@ title: Der nächste Trend
 date: 2012-01-05T20:23:27+00:00
 url: /2012/01/der-naechste-trend/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/6612652141/" title="The next hype by Patrick Kollitsch, on Flickr"><img src="//farm8.staticflickr.com/7004/6612652141_394910e7d8_z.jpg" width="620" alt="The next hype" /></a></p>

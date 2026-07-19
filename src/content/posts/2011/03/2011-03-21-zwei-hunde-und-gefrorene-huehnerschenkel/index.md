@@ -5,6 +5,12 @@ url: /2011/03/zwei-hunde-und-gefrorene-huehnerschenkel/
 dsq_thread_id:
   - "3634579082"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5529269128/" title="Sick Soosie, frozen chicken and attention needing Pokki"><img src="//farm6.static.flickr.com/5099/5546480784_a9183997c5_z.jpg" width="640" height="480" alt="Sick Soosie, frozen chicken and attention needing Pokki" /></p>

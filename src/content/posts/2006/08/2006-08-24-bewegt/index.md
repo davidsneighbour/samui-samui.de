@@ -2,10 +2,12 @@
 title: Bewegt
 date: 2006-08-24T09:16:00+00:00
 url: /2006/08/bewegt/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/215649892/" title="360°"><img src="//static.flickr.com/58/215649892_307c8e0952.jpg" alt="360°" /></a></p>

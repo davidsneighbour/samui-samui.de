@@ -2,10 +2,12 @@
 title: Schon abgeschrieben
 date: 2007-12-27T23:34:45+00:00
 url: /2007/12/schon-abgeschrieben/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich entsinne mich schwach, dass das Times-Magazin eines Tages einmal aus Versehen Nachrufe auf noch lebende Personen veröffentlichte. [Gleiches passierte heute der Nation][1].
 

@@ -3,6 +3,12 @@ title: Die Guten lassen sich schlecht ausmachen
 date: 2010-05-18T16:57:50+00:00
 url: /2010/05/die-guten-lassen-sich-schlecht-ausmachen/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ein meiner Meinung nach sehr interessantes und halbwegs stimmiges Interview mit Gerhard Will, dem Thailand Experten der Stiftung Wissenschaft und Politik [zur aktuellen Lage in Bangkok][1] kann man bei Spiegel Online lesen.
 

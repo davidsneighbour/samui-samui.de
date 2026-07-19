@@ -2,10 +2,12 @@
 title: Is finish!
 date: 2008-07-09T04:08:56+00:00
 url: /2008/07/is-finish/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 "Is finish! Is finish!" rief mir heute der Tankstellen-Thai entgegen, als ich mit meinem durstigen Moped in die Auffüllstation um die Ecke einbog. Irgendwie haben die immer kein Benzin, wenn ich vorbei komme. Andererseits: Angeblich ist ja das Benzin so teuer, dass die Leute weniger fahren und tanken. Warum also werden die Tanks an der Tanke leer frage ich mich...
 

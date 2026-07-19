@@ -4,10 +4,12 @@ date: 2006-12-12T03:53:55+00:00
 url: /2006/12/metinee-kingpayoms-dessous/
 dsq_thread_id:
   - "2903115017"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/216.jpg)
 

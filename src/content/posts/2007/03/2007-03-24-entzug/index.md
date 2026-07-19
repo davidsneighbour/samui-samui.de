@@ -2,10 +2,12 @@
 title: Entzug
 date: 2007-03-24T06:15:50+00:00
 url: /2007/03/entzug/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Hunde haben sich heute besprungen. Also bitte ohne jeden Nebengedanken hier, ja?!? Frontal und mit Pfotengeplänkel. Das sah nicht nur sü? aus, ich dachte auch die ganze Zeit, das sollte man jetzt mal photographieren.
 

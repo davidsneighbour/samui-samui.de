@@ -2,10 +2,12 @@
 title: Nikkies erstes Jahr
 date: 2009-10-11T03:32:04+00:00
 url: /2009/10/nikkies-erstes-jahr/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3066048768/" title="Nikki (7 Weeks old)"><img src="//farm4.static.flickr.com/3243/3066048768_ff8b8d6979.jpg" alt="Nikki (7 Weeks old)" /></a></p>

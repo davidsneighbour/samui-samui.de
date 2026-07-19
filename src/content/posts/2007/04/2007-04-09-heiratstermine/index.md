@@ -2,10 +2,12 @@
 title: Heiratstermine
 date: 2007-04-09T12:17:46+00:00
 url: /2007/04/heiratstermine/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Fu war heute auf der Hochzeit einer Freundin (ich nicht, denn ich musste arbeiten, das ist ein Thema für sich, kein Kommentar).
 

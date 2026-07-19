@@ -2,10 +2,12 @@
 title: 'Internet (fast) tot. Grund: Erdbeben.'
 date: 2006-12-27T01:37:46+00:00
 url: /2006/12/internet-tot-grund-erdbeben/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ziemlich lustig finde ich, dass man aus Thailand die Westliche Hemispäre (sprich das "neue" Europa, die Kriegstreiber) nicht erreichen kann, [weil ein Erdbeben einen Router (zer|ge)stört hat][1]. Manche Probleme löst Mutter Natur halt auf unkonventionelle Weise.
 

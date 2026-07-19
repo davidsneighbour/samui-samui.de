@@ -5,6 +5,12 @@ url: /2006/02/a-la-coiffeur-de-canine-ii/
 tags:
   - pokki
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Das sind ja gleich drei Dinge auf einmal][1], da muss ich natürlich ausführlicher antworten ;)
 

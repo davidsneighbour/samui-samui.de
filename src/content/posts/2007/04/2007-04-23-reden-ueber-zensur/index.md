@@ -2,10 +2,12 @@
 title: 'Reden über Zensur'
 date: 2007-04-22T22:27:03+00:00
 url: /2007/04/reden-ueber-zensur/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute Nachmittag findet in Bangkok ein "Seminar" statt, auf dem über [Zensur im zeitgenössischen Kino und andere aktuelle Themen][1] gesprochen werden wird.
 

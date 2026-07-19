@@ -2,10 +2,12 @@
 title: Tod dem Mörder. Des Tourismus willens.
 date: 2007-09-02T23:02:11+00:00
 url: /2007/09/tod-dem-moerder-des-tourismus-willens/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der Mörder der beiden Russinnen in Pattaya, die definitiv keine Prostituierten waren ist nun [zum Tode verurteilt][1] worden. Weil er dem Tourismus-Image der Nation geschadet hat.
 

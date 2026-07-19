@@ -2,10 +2,12 @@
 title: Wochenende
 date: 2007-10-14T14:43:34+00:00
 url: /2007/10/wochenende-4/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich gebe zu ich vernachlässige mein kleines Blog schändlich. Wenn ich mal was Interessantes zu schreiben habe, dann packe ich es auf eine Todo-Liste, wo ich es eine Woche später wieder finde und nach einer weiteren Woche immer noch nicht gepostet habe. Schmutzige kleine Einträge gibts wohl nicht mehr. Schade. Daher in kurzen Schnitten hier ein paar Informationen die so oder ähnlich wohl Einzug in einen der nächsten Einträge halten werden.
 

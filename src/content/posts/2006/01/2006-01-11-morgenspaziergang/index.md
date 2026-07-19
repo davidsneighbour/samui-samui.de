@@ -3,11 +3,13 @@ title: Morgenspaziergang
 date: 2006-01-10T20:13:00+00:00
 url: /2006/01/morgenspaziergang/
 tags:
-- pokki
-
-
-
-
+  - pokki
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="455" src="//static.flickr.com/43/85036979_46311e8d84.jpg" alt="Morningwalk at the &quot;Graveyard of the Ghosthouses&quot;" />][1]
 

@@ -3,6 +3,12 @@ title: Vegetarisch
 date: 2006-10-20T07:48:00+00:00
 url: /2006/10/vegetarisch/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Vor einer Woche überraschte mich Fu mit der Ankündigung, dass ich ab dem 20. Oktober kein totes Tier mehr essen darf. Ich grinste und sagte jaja. Heute Nacht nun kam eine SMS "so now is the vegetarian festival and you eat sausage no more!".
 

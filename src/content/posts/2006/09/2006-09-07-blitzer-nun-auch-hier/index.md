@@ -2,10 +2,12 @@
 title: Blitzer. Nun auch hier.
 date: 2006-09-06T22:45:00+00:00
 url: /2006/09/blitzer-nun-auch-hier/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/236529232/" title="They have speed-traps now."><img src="//static.flickr.com/98/236529232_cce0e7b30c.jpg" alt="They have speed-traps now." /></a></p>

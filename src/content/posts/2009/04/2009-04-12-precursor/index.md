@@ -2,10 +2,12 @@
 title: Precursor?
 date: 2009-04-12T00:08:21+00:00
 url: /2009/04/precursor/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <txp:thumbnail class="flickr" id="263" wraptag="div" />
 

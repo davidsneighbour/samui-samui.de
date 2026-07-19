@@ -2,10 +2,12 @@
 title: Updates
 date: 2006-09-20T00:43:00+00:00
 url: /2006/09/updates/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 * Ein Freund in Bangkok wohnt an Rama 9 (das dürfte eine der Schnellstraßen sein) und sagt vor seinem Building steht ein Panzer und bewaffnetes Militär. Der Pizzadienst geht ein und aus und niemand traut sich nach draussen.
 * Sondhi Limthongkul (Thaksins Busenfeind) hat den Coup gut geheißen und die für heute Abend angesetzte Demonstration abgesagt.

@@ -2,10 +2,12 @@
 title: Neues vom Hunde
 date: 2006-09-17T23:12:07+00:00
 url: /2006/09/neues-vom-hunde-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute hat man Pokki die Zahnspange (ich nenn es immer Draht ums Gebiss, denn mehr war es nicht wirklich) abgenommen. Er ist ganz zufrieden mit sich und (haltet euch fest) wir müssen erst in zwei Monaten wieder ins Hundekrankenhaus (dann bekommt Soosie ihre Dreimonatsspritzen). Alles in allem ist die "Hundebiss"-Episode also ausgestanden.
 

@@ -4,12 +4,18 @@ description: ""
 date: 2018-03-19T19:35:43+07:00
 url: /2018/03/tollwuetige-menschen
 tags:
-- tollwut
-- gesundheit
+  - tollwut
+  - gesundheit
 resources:
-- src: "strassenkoeter.jpg"
-  name: "strassenkoeter"
-  title: "Straßenköter (Symbolphoto, Pokki, ca. 2007)"
+  - src: "strassenkoeter.jpg"
+    name: "strassenkoeter"
+    title: "Straßenköter (Symbolphoto, Pokki, ca. 2007)"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Straßenköter (Symbolphoto, Pokki, ca. 2007) --- Photo von Patrick Kollitsch](./strassenkoeter.jpg)

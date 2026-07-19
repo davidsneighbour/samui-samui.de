@@ -2,10 +2,12 @@
 title: Am Ende steht der Anfang
 date: 2007-12-31T00:01:44+00:00
 url: /2007/12/am-ende-steht-der-anfang/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Mein kleines Mobiltelefon erinnerte mich heute morgen mit flimmernden Bildschirm (ist das nicht interessant, dass Nokia-Handys bei mir eine Haltbarkeit von rund drei Monaten haben?) daran, dass in Thailand die Neujahrs-Saison begonnen hat. Offiziell feiern wir dreimal Neujahr. Inoffiziell sind es (aus persönlichen Gründen) einige mehr.
 

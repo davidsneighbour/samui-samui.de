@@ -5,6 +5,12 @@ url: /2006/10/ich-mag-meine-website-nicht-so-ganz/
 dsq_thread_id:
   - "3560662390"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der Hauptgrund, warum es in den vergangenen Tagen eher weniger Einträge gab ist der: Ich habe, <txp:gho_permalink id="602">mal wieder</txp:gho_permalink>, mich an einem neuen Design versucht. Das ist nun schon das dritte Mal seit dem letzten Wechsel und das dritte Mal beginne ich es zu hassen, ungefaehr 48 Stunden nachdem das Design steht und ich nur noch die Inhalte konvertieren und die neuen Funktionen einbauen müsste.
 

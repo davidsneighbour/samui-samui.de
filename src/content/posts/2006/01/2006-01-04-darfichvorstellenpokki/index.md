@@ -3,10 +3,13 @@ title: 'Darf ich vorstellen: Pokki'
 date: 2006-01-03T20:47:00+00:00
 url: /2006/01/darfichvorstellenpokki/
 tags:
-- pokki
-
-
-
+  - pokki
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="455" src="//static.flickr.com/37/81806916_e12f3f2f88.jpg" alt="2006-01-04 001" />][1]
 

@@ -5,6 +5,12 @@ url: /2005/03/kabelsalat-oder-wireless/
 dsq_thread_id:
   - "6412166404"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Hmm. So richtig einig werden kann ich mir nicht mit dem Titel für diesen Eintrag. Mal sehen, vielleicht wirds ja noch.
 

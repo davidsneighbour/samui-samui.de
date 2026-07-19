@@ -3,8 +3,14 @@ title: Bombenanschlag auf Samui
 date: 2015-04-11T08:36:58+00:00
 url: /2015/04/bombenanschlag-auf-samui/
 tags:
-- terrorismus
-- koh samui
+  - terrorismus
+  - koh samui
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Bombenanschläge in Einkaufszentren sind in Thailand gar nicht mal so ungewöhnlich --- hier auf Samui jedoch schon. Gestern Abend wurde in einem Einkaufzentrum in Chaweng eine Autobombe gezündet.

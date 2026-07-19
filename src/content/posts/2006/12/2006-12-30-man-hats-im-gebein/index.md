@@ -2,10 +2,12 @@
 title: Man hats im Gebein…
 date: 2006-12-30T00:53:21+00:00
 url: /2006/12/man-hats-im-gebein/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich habe neuerdings immer so seltsame arthrithisch-rheumatische Anfälle in meinem linken Bein. So richtig weh tuts nicht aber es fühlt sich auch nicht fröhlich an. Die Muskeln pochen als ob das Bein verdreht ist, egal wie und wohin ich es richte. Winkel ich das Bein an, tut das Knie weh, strecke ich es aus sinds die Muskeln. Das Wetter ists. Gestern bspw. regnete es mal wieder, das wusste ich schon vor dem Aufstehen... Das Ganze geht dann einzwei Tage, dann beruhigt sich alles wieder.
 

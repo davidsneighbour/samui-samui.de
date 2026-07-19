@@ -2,10 +2,12 @@
 title: 'Thai Food ;]'
 date: 2006-01-23T21:38:00+00:00
 url: /2006/01/thaifood/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="455" src="//static.flickr.com/23/90486517_040cbf0fe7.jpg" alt="Thai Food ;]" />][1]
 

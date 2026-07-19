@@ -3,6 +3,12 @@ title: Regen. Mal wieder. Nachtrag.
 date: 2005-11-18T21:50:00+00:00
 url: /2005/11/regenmalwiedernachtrag/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="420" src="//static.flickr.com/29/64662361_e83734b86b.jpg" alt="In front of my house" />][1]
 

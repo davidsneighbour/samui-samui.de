@@ -8,6 +8,12 @@ tags:
   - waermland
   - winter
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <figure><img width="420" height="315" src="/wp-content/uploads/2005/01/ein-bild/15.jpg" class="attachment-original size-original" alt="" /><figcaption>
 

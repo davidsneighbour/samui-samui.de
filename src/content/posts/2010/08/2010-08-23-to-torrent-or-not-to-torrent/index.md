@@ -3,6 +3,12 @@ title: To torrent or not to torrent…
 date: 2010-08-23T00:54:38+00:00
 url: /2010/08/to-torrent-or-not-to-torrent/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Seit etwas über einer Woche wird (laut Expat-Foren, und Expat-Foren haben immer Recht) von Thailands Providern Bittorrent geblockt. Nun kann man also nicht mehr mit nur einem Bein im Knast stehen. Bittorrent ist bekannlicherma?en total illegal.
 

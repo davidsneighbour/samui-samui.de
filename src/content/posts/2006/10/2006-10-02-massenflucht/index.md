@@ -2,10 +2,12 @@
 title: Massenflucht
 date: 2006-10-02T05:26:00+00:00
 url: /2006/10/massenflucht/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <txp:gho_permalink id="962">Eben noch berichtete ich</txp:gho_permalink>, dass Surakiart aus Thai Rak Thai ausgetreten ist. Die Meldungen über Austritte allerdings explodierten in den letzten Stunden:
 

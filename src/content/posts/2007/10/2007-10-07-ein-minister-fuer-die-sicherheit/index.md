@@ -2,10 +2,12 @@
 title: Ein Minister für die Sicherheit
 date: 2007-10-07T14:10:52+00:00
 url: /2007/10/ein-minister-fuer-die-sicherheit/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 General Sonthi Boonyaratkalin, ehemaliger Armeechef und Putschführer des am nächsten zurückliegenden Putsches, hat heute [seinen ersten Arbeitstag][1] als --- genau --- "Deputy Prime Minister in charge of security". Also so ein kleiner thailändischer Schäuble.
 

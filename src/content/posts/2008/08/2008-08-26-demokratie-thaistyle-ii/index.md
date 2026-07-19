@@ -2,10 +2,12 @@
 title: Demokratie Thaistyle II
 date: 2008-08-26T02:09:03+00:00
 url: /2008/08/demokratie-thaistyle-ii/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Dass Demokratie und Meinungsfreiheit im Verständnis von rund 50% der Thais immer seltsam interpretiert werden, wissen wir ja bereits. Nun wurde ja für heute die gro?e letzte Demonstration der <span class="caps">PAD</span> angekündigt und siehe da, auch sie artete eher aus.
 

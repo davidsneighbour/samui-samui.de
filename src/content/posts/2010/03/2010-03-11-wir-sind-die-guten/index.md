@@ -3,6 +3,12 @@ title: Wir sind die Guten!
 date: 2010-03-11T15:35:01+00:00
 url: /2010/03/wir-sind-die-guten/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In Bangkok demonstrieren ab heute mal wieder die Guten gegen die Bösen. Wenn man das vor zwei Jahren das letzte Mal beobachtet hat, dann sollte man wissen, dass die Guten von damals inzwischen die Bösen sind, weil sie die Regierung bilden dürfen, und die Bösen von damals sind die Guten, die Barrikaden errichten und sich heute Nacht vermutlich Stra?enkämpfe liefern werden.
 

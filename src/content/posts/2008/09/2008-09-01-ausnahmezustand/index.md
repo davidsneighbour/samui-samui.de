@@ -2,10 +2,12 @@
 title: Ausnahmezustand
 date: 2008-09-01T12:03:02+00:00
 url: /2008/09/ausnahmezustand/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [In Bangkok wurde nach den Ausschreitungen heute Nacht der Ausnahmezustand verhängt][1].
 

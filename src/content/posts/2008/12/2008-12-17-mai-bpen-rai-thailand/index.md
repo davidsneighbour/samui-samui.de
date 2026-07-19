@@ -4,10 +4,12 @@ date: 2008-12-17T11:00:52+00:00
 url: /2008/12/mai-bpen-rai-thailand/
 dsq_thread_id:
   - "3490104286"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eigentlich denke ich ja, dass der Thai gemeinhin recht ironieresistent ist, aber bei dieser Kampagne hier konnten sich sicher ein paar der Marketingmenschen bei AirAsia das Grinsen nicht ganz verkneifen:
 

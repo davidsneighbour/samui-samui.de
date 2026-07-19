@@ -2,10 +2,12 @@
 title: Sonnenuntergang bei Ban Taling Ngam
 date: 2008-01-15T00:24:03+00:00
 url: /2008/01/sonnenuntergang-bei-ban-taling-ngam/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es fragen häufiger mal Leute an, wo es denn nun am romantischsten auf Koh Samui wäre. Einfache Frage. Einfache Antwort.
 

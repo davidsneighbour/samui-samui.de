@@ -2,10 +2,12 @@
 title: Wasserfall im Secret Garden
 date: 2008-12-08T23:33:45+00:00
 url: /2008/12/wasserfall-im-secret-garden/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3095664988/" title="At the secret garden..."><img src="//farm4.static.flickr.com/3114/3095664988_84a2cb8d7d.jpg" alt="At the secret garden..." /></a></p>

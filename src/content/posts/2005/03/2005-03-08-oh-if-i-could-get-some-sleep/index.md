@@ -5,6 +5,12 @@ url: /2005/03/oh-if-i-could-get-some-sleep/
 dsq_thread_id:
   - "6412166410"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Insomnia von Faithless war damals, ich glaube so gegen 1996, eine kleine musikalische Revolution. Endlich wurde der Bass wieder für etwas Sinnvolleres als Eurobeat (Ronnymusik) eingesetzt. Die Rettung kam wie häufig von der Insel. Eine neue Phase der Musik hatte gerade begonnen. Ich frage mich manchmal, was aus C&C-Factory (hie?en die Produzenten so?) geworden ist. 10 Minuten-Mixe mit der geradezu manischen Wiederholung einzelner Zeilen in immer bassigeren Variationen. Ja. Was waren wir jung. Wir hatten die ganze Welt in den Händen.
 

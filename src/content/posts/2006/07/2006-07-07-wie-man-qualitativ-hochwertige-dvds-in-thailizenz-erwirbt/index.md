@@ -3,6 +3,12 @@ title: Wie man qualitativ hochwertige DVDs in Thailizenz erwirbt
 date: 2006-07-07T05:09:05+00:00
 url: /2006/07/wie-man-qualitativ-hochwertige-dvds-in-thailizenz-erwirbt/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In unserer kleinen Reihe "How to survive in Thailand" heute ein Ratgeber zum Thema DVDs. Man kann auf jeder Beachstreet der Insel DVDs in Massen kaufen. In der Regel kosten die 100 Baht pro Stück (rund 2 Euro), bestehen aber auch nur aus dem Inlet für die DVD-Hülle und der DVD selber. In der Hochsaison kann man "10 DVDs für den Preis von 9"-Rabatte heraus handeln.
 

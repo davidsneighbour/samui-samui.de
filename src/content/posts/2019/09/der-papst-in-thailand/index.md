@@ -4,11 +4,17 @@ date: 2019-09-15T15:17:11+07:00
 lastmod: 2019-09-15T15:17:11+07:00
 url: /2019/09/der-papst-in-thailand/
 tags:
-    - papstbesuch
-    - religion
-    - katholizismus
+  - papstbesuch
+  - religion
+  - katholizismus
 leute:
-    - papst franziskus
+  - papst franziskus
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Yingluck und Papst Franziskus, ca. 2013](./franziskus-und-yingluck.jpg)

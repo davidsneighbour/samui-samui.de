@@ -2,10 +2,12 @@
 title: Spiegeleien II
 date: 2009-04-22T01:47:03+00:00
 url: /2009/04/spiegeleien-ii/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wenn man Thaksins Gegner interviewt, muss man natürlich auch dem Gro?meister der Worthülsen eine Möglichkeit geben, [sich zu äu?ern][1] (deutscher Link wird gleich in den Kommentaren nachgeliefert ;)
 

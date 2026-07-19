@@ -2,10 +2,12 @@
 title: Allein
 date: 2007-04-05T11:49:06+00:00
 url: /2007/04/allein/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In Bangkok wurde das erste Mal eine [Trennung von Siamesischen Zwillingen][1] vorgenommen, die am Herzen verbunden waren und heute, 50 Tage nach der Operation, noch leben.
 

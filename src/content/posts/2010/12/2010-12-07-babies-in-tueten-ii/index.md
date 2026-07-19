@@ -9,6 +9,12 @@ tags:
   - horror
   - tempel
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Irgendwie habe ich ganz vergessen zu erzählen, wie die Föten-Horror-Vorlage so richtig ausgegangen ist. Man hat am Ende [um die 2.000 Babyleichen][1] aus dem Tempel-Leichenhaus geholt.
 

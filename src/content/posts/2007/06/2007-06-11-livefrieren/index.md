@@ -2,10 +2,12 @@
 title: Livefrieren
 date: 2007-06-10T19:05:02+00:00
 url: /2007/06/livefrieren/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute abend wird (mal wieder) [live im Fernsehen verkündet][1], ob die Reichtümer von Thaksin Shinawatra, seines Zeichens Vorsitzender des Thailändischen Golfvereins, eingefroren werden sollen.
 

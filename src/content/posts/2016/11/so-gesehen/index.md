@@ -6,9 +6,15 @@ tags:
   - bangkok
   - subvarnabhumi
 resources:
-- src: "so-gesehen.jpg"
-  name: "sogesehen"
-  title: "So gesehen"
+  - src: "so-gesehen.jpg"
+    name: "sogesehen"
+    title: "So gesehen"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![So gesehen](./so-gesehen.jpg)

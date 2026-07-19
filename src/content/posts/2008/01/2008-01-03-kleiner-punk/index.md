@@ -2,10 +2,12 @@
 title: Kleiner Punk
 date: 2008-01-03T03:14:52+00:00
 url: /2008/01/kleiner-punk/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2162697371/" title="soosie posing"><img src="//farm3.static.flickr.com/2196/2162697371_d9135c35ce.jpg" alt="soosie posing" /></a></p>

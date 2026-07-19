@@ -3,6 +3,12 @@ title: Thaieuro Inc.
 date: 2006-04-25T02:49:00+00:00
 url: /2006/04/thaieuroinc/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Neulich hat mir mein Daddy den folgenden Informationsschnippsel geschickt.
 

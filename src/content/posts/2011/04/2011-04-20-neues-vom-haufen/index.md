@@ -3,6 +3,12 @@ title: Neues vom Haufen
 date: 2011-04-19T19:45:19+00:00
 url: /2011/04/neues-vom-haufen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der Haufen liegt immer noch in der Landschaft herum, der Neffe des Hausbesitzers kommt immer noch jeden zweiten Tag vorbei und zündet ihn an einer anderen Ecke an und geht dann unverrichteterdings wieder von dannen.
 

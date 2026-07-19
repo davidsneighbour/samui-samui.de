@@ -11,6 +11,12 @@ fb_author_post_id:
 fb_status_messages:
   - a:1:{i:0;a:2:{s:7:"message";s:104:"Posted to <a href="http://www.facebook.com/10151014891005642" target="_blank">your Facebook Timeline</a>";s:5:"error";s:0:"";}}
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Was ich [im Januar schon][1] sagte, [hat nun auch der Spiegel entdeckt][2]: Jetlev-Flyer --- nette wasserbetriebene Flugspielzeuge. Für die Reichen und --- hier auf Koh Samui --- für Jedermann.
 

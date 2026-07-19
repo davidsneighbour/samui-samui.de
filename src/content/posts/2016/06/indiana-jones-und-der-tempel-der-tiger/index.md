@@ -3,14 +3,20 @@ title: Indiana Jones und der Tempel der Tiger
 date: 2016-06-02T15:19:56+00:00
 url: /2016/06/indiana-jones-und-der-tempel-der-tiger/
 tags:
-- tempel
-- tiger
-- tigertempel
-- tierwelt
+  - tempel
+  - tiger
+  - tigertempel
+  - tierwelt
 resources:
-- src: "Cj7f9WqVAAAiqPj.jpg"
-  name: "Cj7f9WqVAAAiqPj"
-  title: "Pickled Tigers from Kanchanaburi, via [Richart Miyer](https://twitter.com/Richart_NOW26/status/738273658137804801)"
+  - src: "Cj7f9WqVAAAiqPj.jpg"
+    name: "Cj7f9WqVAAAiqPj"
+    title: "Pickled Tigers from Kanchanaburi, via [Richart Miyer](https://twitter.com/Richart_NOW26/status/738273658137804801)"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Pickled Tigers from Kanchanaburi, via Richart Miyer](./Cj7f9WqVAAAiqPj.jpg)

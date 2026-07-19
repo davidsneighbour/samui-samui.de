@@ -2,10 +2,12 @@
 title: Liv Tyler
 date: 2006-08-03T12:15:00+00:00
 url: /2006/08/liv-tyler/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ... is ja doch [ne][1] Schnecke. (_kuck grade die thailändische Originalversion vom Herrn der Ringe_)
 

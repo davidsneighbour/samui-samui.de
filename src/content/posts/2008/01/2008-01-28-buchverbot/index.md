@@ -2,10 +2,12 @@
 title: Buchverbot
 date: 2008-01-27T22:47:42+00:00
 url: /2008/01/buchverbot/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ziemlich seltsam mutet ein Buchverbot an, das [heute verkündet][1] wurde:
 

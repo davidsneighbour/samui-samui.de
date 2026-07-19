@@ -3,6 +3,12 @@ title: Neues Geld braucht das Land!
 date: 2012-01-12T17:16:45+00:00
 url: /2012/01/neues-geld-braucht-das-land/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media photo image">
   <a href="http://www.flickr.com/photos/schreibblogade/6688612715/" title="50 Baht by Patrick Kollitsch, on Flickr"><img src="//farm8.staticflickr.com/7028/6688612715_1843c9a276_z.jpg" width="640"  alt="50 Baht" /></a></p>

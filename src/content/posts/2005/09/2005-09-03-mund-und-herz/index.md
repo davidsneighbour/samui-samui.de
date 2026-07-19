@@ -3,6 +3,12 @@ title: Mund und Herz
 date: 2005-09-02T22:41:00+00:00
 url: /2005/09/mund-und-herz/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Thais sind ja nicht unerheblich ironiebefreit. Soll heißen, sie merken nicht, wenn ein Farang ironische Anmerkungen macht.
 

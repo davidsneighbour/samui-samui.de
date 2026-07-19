@@ -2,10 +2,12 @@
 title: Ab in den Mädchensaal
 date: 2007-08-10T23:23:37+00:00
 url: /2007/08/ab-in-den-maedchensaal/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die News des Tages: Wenn man als Mann eine Sex-Wechsel-Operation über sich ergehen lässt, [darf man in der Srinakharinwirot-Universität im Mädchensaal übernachten][1].
 

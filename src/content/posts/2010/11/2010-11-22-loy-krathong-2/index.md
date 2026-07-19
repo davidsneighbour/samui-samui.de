@@ -3,6 +3,12 @@ title: Loy Krathong
 date: 2010-11-21T19:54:54+00:00
 url: /2010/11/loy-krathong-2/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/281.jpg)
 

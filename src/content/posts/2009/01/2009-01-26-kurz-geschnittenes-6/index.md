@@ -2,10 +2,12 @@
 title: Kurz geschnittenes
 date: 2009-01-26T12:42:23+00:00
 url: /2009/01/kurz-geschnittenes-6/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 * Es sieht so aus als ob es bei Starbucks gar keinen Mocchachino gibt. Ich bestelle den immer und bekomme jedes Mal etwas anderes Kakaoartiges vor die Nase gestellt. Das ging neulich so weit, dass nicht mal Koffein drinnen war, dafür aber eine dicke Sahnehaube --- ich erinnere mich deutlich die Frage nach "Extra Whip" mit No thanks beantwortet zu haben. Nun also bin ich der Theorie verfallen, dass das mit dem Moccachino vielleicht eine andere Koffein-Kette war.
 * Internet im Poolhause wird immer schlimmer. Nun kann ich gerade noch Skype laufen lassen, Webseiten kann man gar nicht mehr abrufen. Die kleinen Datenpakete landen immer irgendwo ganz anders. Da der "all inclusive" Preis des Hauses damit etwas zu ex-klusiv ist, sehe ich mich gemütlich nach einem neuen Heim um. Mit Internet. Echtem. Vorher getestetem.

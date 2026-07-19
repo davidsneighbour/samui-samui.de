@@ -3,6 +3,12 @@ title: Flickrkram
 date: 2005-11-15T05:28:00+00:00
 url: /2005/11/flickrkram/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So. Hab mir mal [einen Pro-Account bei Flickr][1] gekauft. Wenn ich jetzt gleich noch Lust habe, werde ich mal alle meine kleinen [Pornobildchen][1] hochladen. Ich weiss nur noch nicht, ob ich das nach [Asian][2], [Ebony][3], [Teens][4] oder nach [Stellungen][5] sortieren soll. Mal sehen.
 

@@ -2,10 +2,12 @@
 title: How not to lead Geeks
 date: 2006-06-26T04:45:34+00:00
 url: /2006/06/how-not-to-lead-geeks/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute mal ein Link zu einer [2*10 Punkte langen Liste (auf englisch) wie man Geeks nicht führen sollte][1]. Ich stimme den Listen zu 80% zu.
 

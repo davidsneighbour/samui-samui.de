@@ -2,10 +2,12 @@
 title: Wo ist Thaksin?
 date: 2008-12-01T00:48:40+00:00
 url: /2008/12/wo-ist-thaksin-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In [Koh Kong][1], Cambodia. So nah war er lange nicht.
 

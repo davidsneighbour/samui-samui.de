@@ -2,10 +2,12 @@
 title: Anti-Putsch-Bewegung
 date: 2006-09-22T01:58:36+00:00
 url: /2006/09/anti-putsch-bewegung/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Um 07:18 Uhr: Es soll unter [19sep.org][1] eine Antiputschwebsite geben. Von hier aus ist sie nicht erreichbar (Server nicht gefunden). Es wird Zeit die einschlägigen Tools zu installieren.
 

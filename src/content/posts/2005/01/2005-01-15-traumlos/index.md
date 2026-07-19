@@ -5,6 +5,12 @@ url: /2005/01/traumlos/
 dsq_thread_id:
   - "6412166497"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Interessanterweise habe ich heute nacht das erste Mal in Thailand geträumt bzw. für mich selbst merkbar geträumt. Wahrscheinlich gibt/gab es noch zu viel zu verarbeiten, so dass das System blockierte. War interessant. Es ging um ein Vegetarier-Theaterstück in Zinnowitz, Schnute war in Lübeck und ich hab mal wieder den Ausgang nicht gefunden. Klingt eigentlich normal für meine Träume, wenn man au?er Acht lässt, dass keine thailändischen Komponenten vorkommen.
 

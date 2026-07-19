@@ -3,6 +3,12 @@ title: "Templatespielereien I: TXP-Grundlagen"
 date: 2006-10-25T01:04:00+00:00
 url: /2006/10/templatespielereien-i-txp-grundlagen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Textpattern besteht aus Templatesicht aus <span class="marker">vier Komponenten: Sektionen (sections), Seiten (pages), Bausteinen (forms) und den Stylesheets</span>. Ich persönlich bevorzuge es die Stylesheets nicht über <span class="caps">TXP</span> zu verwalten sondern habe sie als Dateien abgelegt. Damit kann der Server zum einen schneller darauf zugreifen (minimal, ich weiß), zum anderen kann ich per Skript bestimmte Pfade anpassen oder mit <span class="caps">PHP</span> und Variablen arbeiten. Das Stylesheetsystem von <span class="caps">TXP</span> parst weder TXP-Tags, noch ist es per Plugins erweiterbar.
 

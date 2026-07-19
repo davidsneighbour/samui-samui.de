@@ -2,10 +2,12 @@
 title: Man kann ja mal fragen
 date: 2007-06-16T22:37:25+00:00
 url: /2007/06/man-kann-ja-mal-fragen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Man hat gefragt und Bangkok hat geantwortet. Mag man meinen.
 

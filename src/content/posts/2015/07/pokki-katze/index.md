@@ -8,9 +8,15 @@ tags:
   - photo
   - pokki
 resources:
-- src: "pokki-cat.png"
-  name: "pokki-cat"
-  title: "Pokki, Katze"
+  - src: "pokki-cat.png"
+    name: "pokki-cat"
+    title: "Pokki, Katze"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Pokki, Katze](./pokki-cat.png)

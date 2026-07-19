@@ -3,6 +3,12 @@ title: Audienz
 date: 2006-05-19T03:11:12+00:00
 url: /2006/05/audienz/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Thaksin (Ex-Premierminister der noch amtiert aber in Urlaub ist und nicht wieder antreten wird aber trotzdem Premierminister genannt werden will) hat eine [Audienz beim König heute nachmittag][1].
 

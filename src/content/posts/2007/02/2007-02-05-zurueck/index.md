@@ -4,10 +4,12 @@ date: 2007-02-05T13:17:47+00:00
 url: /2007/02/zurueck/
 dsq_thread_id:
   - "3297056021"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ?brigens bin ich wieder da. Auf meiner Insel. Zuhause (da wo ich Miete zahle).
 

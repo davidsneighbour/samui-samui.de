@@ -5,6 +5,12 @@ url: /2005/08/bangkok-v30/
 dsq_thread_id:
   - "6412166734"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 **oder Über Wuschel und Japan, ziemlich große Hitze, blauen Heftchen makabren Inhaltes, fiebernde System Analysten die keine sind und warum Thaifrauen recht häufig recht niedlich aussehen.**
 

@@ -2,10 +2,12 @@
 title: Rote Karten
 date: 2007-12-29T23:32:23+00:00
 url: /2007/12/rote-karten/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute wurden drei "rote Karten" an Wahlgewinner der <span class="caps">PPP</span> in Buri Ram [verteilt][1]. Rote Karten sind Disqualifikationen der jeweiligen Wahlgewinner aufgrund von Stimmenkauf oder Wahlmanipulation. Es gibt auch noch gelbe Karten, das ist die Disqualifikation mit der Erlaubnis, bei den Nachwahlen als Kandidat aufgestellt zu werden. Drei dieser gelben Karten wurden bereits kurz nach der Wahl neulich vergeben. Auch an Mitglieder der <span class="caps">PPP</span>.
 

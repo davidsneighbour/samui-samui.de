@@ -2,10 +2,12 @@
 title: Erwachsen werden
 date: 2008-07-07T15:35:41+00:00
 url: /2008/07/erwachsen-werden/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wer nun hoffte, hier einen tiefen einsichtigen Eintrag zu meiner Adoleszenz zu lesen, der sei versichert: Wenn die Hölle zufriert. Beides, Adoleszenz und Eintrag.
 

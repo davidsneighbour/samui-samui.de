@@ -2,10 +2,12 @@
 title: This and that
 date: 2007-05-24T01:48:45+00:00
 url: /2007/05/this-and-that/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Übrigens, es gibt mich noch. Ja, haha, da haben einige schon Hoffnungen gehabt. Ich hab viel um die Ohren. Positiverweise. Da bleiben schon mal die einen oder anderen Einträge liegen. Die kommen dann später nach.
 

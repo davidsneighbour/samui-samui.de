@@ -3,9 +3,15 @@ title: Das wahre Leben in Thailand
 date: 2015-11-17T08:57:27+00:00
 url: /2015/11/das-wahre-leben-in-thailand/
 tags:
-- undjetztmalwerbung
-- TAT
-- ernst gemeint
+  - undjetztmalwerbung
+  - TAT
+  - ernst gemeint
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <dnb-youtube videoid="DJbE_LQbJXc"></dnb-youtube>
 

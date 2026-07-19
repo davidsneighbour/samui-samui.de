@@ -2,10 +2,12 @@
 title: Spannungen
 date: 2006-09-21T01:21:00+00:00
 url: /2006/09/spannungen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die offiziellen Meldungen behaupten, dass Panzer abgezogen werden und die Lage entspannt ist. Allerdings häufen sich die Hinweise, dass die Armeeführung durchaus nicht entspannt ist und weiter Militär nach Bangkok zieht. Es geht das Gerücht von einem in Planung befindlichen Gegenputsch um.
 

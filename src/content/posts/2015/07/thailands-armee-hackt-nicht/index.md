@@ -3,10 +3,16 @@ title: Thailand’s Armee hackt nicht
 date: 2015-07-21T13:05:24+00:00
 url: /2015/07/thailands-armee-hackt-nicht/
 tags:
-- das weite internetz
-- hacking team
-- staatstrojaner
-- armee
+  - das weite internetz
+  - hacking team
+  - staatstrojaner
+  - armee
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 WikiLeaks, Alptraum eines jeden Diktators und einiger sogenannter Demokratien, hat neulich die gehackten Emails einer Hackerfirma veröffentlicht. Klingt kompliziert, ist es aber nicht: _Hacking Team_, eine Firma die an Regierungen interessante Tools verkauft, mit denen man auf fremden Rechnern rumschnüffeln kann oder [bei Bedarf sogar Kinderpornographie auf die Rechner laden kann][1], wurde gehackt, und gut 400GB (das sind 57 schlecht kopierte 2 Stunden Filme) ins weite Internetz hochgeladen.

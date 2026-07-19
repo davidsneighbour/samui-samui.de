@@ -2,10 +2,12 @@
 title: Valentinstag Samuistyle
 date: 2007-02-15T11:24:23+00:00
 url: /2007/02/valentinstag-samuistyle/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern wurde ich Zeuge einer seltsamen Veranstaltung.
 

@@ -3,8 +3,14 @@ title: "Kommentieren! Yeah!"
 date: 2020-08-01T21:23:22+07:00
 url: /2020/08/kommentieren-yeah
 tags:
-    - samuisamui
-    - hugo
+  - samuisamui
+  - hugo
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Kommentieren... Yeah...](./comments.jpg)

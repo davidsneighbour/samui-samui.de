@@ -3,6 +3,12 @@ title: Temperaturbeobachtungen
 date: 2005-04-22T23:27:00+00:00
 url: /2005/04/temperaturbeobachtungen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern habe ich mir bei Tesko mal eine Digitaluhr gekauft. Nicht wegen der Zeitanzeige, die ist hier uninteressant und sowieso relativ. Sondern wegen der Temperaturanzeige. Die Uhr hat auch ein Pendel Sehr sinnvolles Gimmick für eine Digitaluhr. Naja. Gekostet hat sie übrigens knapp einen Euro. Witzige Sache das.
 

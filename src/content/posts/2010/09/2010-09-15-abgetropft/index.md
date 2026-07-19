@@ -3,6 +3,12 @@ title: Abgetropft
 date: 2010-09-15T00:50:58+00:00
 url: /2010/09/abgetropft/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Tankstelle hier um die Ecke in Ban Thai sollte man (soweit die Ringroad dies zu lässt) weiträumig umfahren. Man wird dort einfach nur abgezockt, wie ich gerade wieder am eigenen Moped erleben durfte.
 

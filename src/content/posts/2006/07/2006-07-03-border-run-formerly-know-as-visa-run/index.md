@@ -3,6 +3,12 @@ title: Border-Run (formerly know as Visa-Run)
 date: 2006-07-03T05:34:00+00:00
 url: /2006/07/border-run-formerly-know-as-visa-run/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Am Wochenende machte ich einen kleinen Trip nach Malaysia. Als nichtangestellter<txp:gho_footnote>Yepp. Man ist wieder auf dem freien Arbeitsmarkt verfügbar.</txp:gho_footnote> Ausländer in Thailand muss man das Land kurz verlassen, um beim Wiedereinreisen ein neues Visa zu erhalten. Das hatten wir ja letztes Jahr schon zur Genüge. Rund um diese Visaruns hat sich eine richtige Tourismusindustrie gebildet und hier auf der Insel findet man aller 200 Meter einen Travelshop mit Visarun-Plakat in den Fenstern. Ich werde also in den nälchsten Jahren mal die verschiedenen Anbieter durchtesten ;)
 

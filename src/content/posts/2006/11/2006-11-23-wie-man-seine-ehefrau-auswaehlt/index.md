@@ -3,6 +3,12 @@ title: Wie man seine Ehefrau auswählt
 date: 2006-11-23T09:07:30+00:00
 url: /2006/11/wie-man-seine-ehefrau-auswaehlt/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 (eine buddhistische Geschichte)
 

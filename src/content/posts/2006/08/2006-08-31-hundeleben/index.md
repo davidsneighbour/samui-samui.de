@@ -2,10 +2,12 @@
 title: Hundeleben.
 date: 2006-08-31T10:28:00+00:00
 url: /2006/08/hundeleben/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Manchmal fragt man mich ja, was ich den ganzen Tag so treibe. Nun, gestern zum Beispiel verbrachte ich vier Stunden damit, Pokkis Beine zu entfilzen. Er hat inzwischen sehr lange Haare und ihm ist sehr langweilig, weil ich ihm seine ganzen Beißspielzeuge nicht geben darf. Weshalb er seine Beine ableckt. Wenn man das nur lang genug macht verfilzt das alles. Im Sinne von Filz. Also eine richtig dicke Matte.
 

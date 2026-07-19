@@ -2,10 +2,12 @@
 title: Schein und Sein
 date: 2009-08-28T16:02:58+00:00
 url: /2009/08/schein-und-sein/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Für Morgen (Sonntag) war eine Gro?demonstration der rot behemdeten Freunde der thailändischen Demokratie zur Unterstützung des Präsidenten des thailändischen Profigolferverbandes geplant. Die Regierung hat Präventivma?nahmen ergriffen. Heute nun [die folgende Verkündung][1]:
 

@@ -2,10 +2,12 @@
 title: Feuer hinterm Haus
 date: 2007-03-16T01:02:02+00:00
 url: /2007/03/feuer-hinterm-haus/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/422828457/"><img src="//farm1.static.flickr.com/167/422828457_09b0d03ce2.jpg" class="flickr-photo" alt="" /></a></p>

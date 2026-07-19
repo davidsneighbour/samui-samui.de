@@ -2,10 +2,12 @@
 title: Third announcement of the Administrative Reform Committee under the Constitutional Monarchy
 date: 2006-09-19T14:48:00+00:00
 url: /2006/09/third-announcement-of-the-administrative-reform-committee-under-the-constitutional-monarchy/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 The Administrative Reform Committee under the Constitutional Monarchy revoked the 1997 constitution following a power seizure yesterday.
 

@@ -3,6 +3,12 @@ title: Begossener Pudel.
 date: 2006-04-24T03:30:00+00:00
 url: /2006/04/begossenerpudel/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/134052784/" title="Pokki showers."><img src="//static.flickr.com/56/134052784_72eaf65102.jpg" alt="Pokki showers." /></a></p>

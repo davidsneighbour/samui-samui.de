@@ -3,6 +3,12 @@ title: Wochenend und Sonnenschein
 date: 2005-03-04T20:21:00+00:00
 url: /2005/03/wochenend-und-sonnenschein/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Nein, liebe Leute, _so_ gehts nun wirklich nicht. Es ist hier dunkel wie kurz vorm Sonnenuntergang, es stürmt und der Himmel sieht bedenklich nach langanhaltendem Regen aus. Ich bin ja schon froh, dass ich noch ins Büro gekommen bin, so muss ich nicht in meiner kleinen Hütte hocken und hab einen schnellen Rechner. Aber eigentlich wollte ich ja mal komisch aussehende Steine ansehen.
 

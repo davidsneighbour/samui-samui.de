@@ -3,6 +3,12 @@ title: Grotte
 date: 2005-11-15T19:22:00+00:00
 url: /2005/11/grotte/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Also. Ich kuck mir ja tolerant so jeden Film an, den es zu sehen gibt, könnte ja wirklich ne Perle drunter sein. In den letzten Tagen waren das die Folgenden:
 

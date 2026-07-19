@@ -2,10 +2,12 @@
 title: Lieblings-7eleven
 date: 2007-06-19T04:10:18+00:00
 url: /2007/06/lieblings-7eleven/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Mein Lieblings-7eleven ist im Herzen Maenams. Nicht wegen der Frauen oder der Jungs. Wegen der peinlich berührten aber nicht abweisenden Blicke, wenn man nach 24 Uhr noch Bier kaufen will. Die trauen sich nicht, einem Farang dem Wunsch nach Rausch abweisend zu entgegnen. Sehr schön
 

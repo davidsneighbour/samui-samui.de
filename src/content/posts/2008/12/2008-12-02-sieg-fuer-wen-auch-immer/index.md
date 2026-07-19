@@ -2,10 +2,12 @@
 title: Sieg. Für wen auch immer.
 date: 2008-12-02T01:04:54+00:00
 url: /2008/12/sieg-fuer-wen-auch-immer/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So. Nun hat man also völlig unerwartet die drei Regierungsparteien ([People Power Party][1], [Matchima Thipataya][2] und [Chart Thai Party][3]) per Verfassungsgericht auflösen lassen.
 

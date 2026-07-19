@@ -2,10 +2,12 @@
 title: Zurück ins Königreich
 date: 2007-06-12T01:09:34+00:00
 url: /2007/06/zurueck-ins-koenigreich/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Thaksin kommt zurück. Wie schön. Heute morgen lies er verkünden, dass er zurück kommen wird, egal ob die Regierung es ihm erlaubt um sich gegen die unhaltbaren Behauptungen gegen ihn zu wehren. Zwei Stunden später war [der Artikel darüber bei The Nation][1] umbenannt in "Ousted PM is welcomed back: PM and Junta's chief". Er darf gerne zurück kommen. Nicht weil er sich nicht drum kümmert, ob man es ihm erlaubt, sondern weil er willkommen ist, sich in seinem Korruptionsprozess zu verteidigen.
 

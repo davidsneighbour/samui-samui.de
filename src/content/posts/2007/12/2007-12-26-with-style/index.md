@@ -2,10 +2,12 @@
 title: With style
 date: 2007-12-26T01:48:13+00:00
 url: /2007/12/with-style/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2138709072/" title="The present from Denmark"><img src="//farm3.static.flickr.com/2229/2138709072_1a615c3b89.jpg" alt="The present from Denmark" /></a></p>

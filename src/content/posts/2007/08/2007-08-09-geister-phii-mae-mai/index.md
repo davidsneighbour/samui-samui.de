@@ -2,10 +2,12 @@
 title: 'Geister: Phii Mae Mai'
 date: 2007-08-08T22:29:44+00:00
 url: /2007/08/geister-phii-mae-mai/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Thais lieben Geistergeschichten.
 

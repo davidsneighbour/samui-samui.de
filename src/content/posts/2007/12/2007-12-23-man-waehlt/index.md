@@ -2,10 +2,12 @@
 title: Man wählt
 date: 2007-12-22T19:23:29+00:00
 url: /2007/12/man-waehlt/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Regeln sind einfach: Das Parlament besteht aus 480 Mitgliedern. Davon werden 400 Sitze durch Direktmandate aus den Wahlbezirken und die restlichen 80 Sitze anteilig nach den Gesamtstimmzahlen einer zweiten Stimme besetzt.
 

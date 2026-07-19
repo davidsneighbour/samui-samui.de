@@ -2,10 +2,12 @@
 title: Soosie simuliert
 date: 2008-09-30T16:37:19+00:00
 url: /2008/09/soosie-simuliert/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2903382829/" title="Soosie is simulating pregnancy (again)"><img src="//farm4.static.flickr.com/3258/2903382829_9f8e2fb212.jpg" alt="Soosie is simulating pregnancy (again)" /></a></p>

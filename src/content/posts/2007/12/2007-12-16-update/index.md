@@ -2,10 +2,12 @@
 title: Update.
 date: 2007-12-15T22:09:22+00:00
 url: /2007/12/update/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2114332449/" title="Safe!"><img src="//farm3.static.flickr.com/2032/2114332449_3e3f772140.jpg" alt="Safe!" /></a></p>

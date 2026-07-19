@@ -4,10 +4,12 @@ date: 2007-06-20T21:03:14+00:00
 url: /2007/06/sex-wilder-animalischer-sex/
 dsq_thread_id:
   - "2943854706"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die vergangene Nacht war ziemlich hitzig in unserem kleinen Haus. Soosie hat es nun endlich geschafft, flügge zu werden und macht die Hunde der Umgebung verrückt. Ungefähr eine Woche blutete sie vor sich hin, nun ist sie hei?.
 

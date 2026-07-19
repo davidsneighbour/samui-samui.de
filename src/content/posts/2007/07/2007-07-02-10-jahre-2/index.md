@@ -2,10 +2,12 @@
 title: 10 Jahre
 date: 2007-07-01T21:22:01+00:00
 url: /2007/07/10-jahre-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Heute vor 10 Jahren][1] kam es zur bisher grö?ten [Finanzkrise in Südostasien][2]. In Thailand meldeten 6 Banken und 56 Finanzinstitute Konkurs an.
 

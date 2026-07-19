@@ -2,10 +2,12 @@
 title: PPP wird nicht aufgelöst
 date: 2008-01-18T01:42:52+00:00
 url: /2008/01/ppp-wird-nicht-aufgeloest/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Peoples Power Party (<span class="caps">PPP</span>, im allgemeinen Journalistenjargon inzwischen nur noch "Proxy der aufgelösten Thaksin-Partei Thai Rak Thai" genannt) [wird nun nicht aufgelöst][1].
 

@@ -4,10 +4,16 @@ date: 2019-09-11T20:34:16+07:00
 lastmod: 2019-09-11T20:34:16+07:00
 url: /2019/09/thailands-erste-tonfilme-3
 tags:
-    - geschichte
-    - tonfilm
+  - geschichte
+  - tonfilm
 resources:
-    - src: "thailands-erste-tonfilme.png"
+  - src: "thailands-erste-tonfilme.png"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 <dnb-youtube videoid="YO2iUExOv1E"></dnb-youtube>

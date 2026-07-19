@@ -2,10 +2,12 @@
 title: 10 Jahre
 date: 2007-04-07T11:43:59+00:00
 url: /2007/04/10-jahre/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [The Nation Online würdigt Dave Winer][1], den selbsternannten Erfinder des Bloggens (weltweit, in Deutschland wars der Wellenbereiter).
 

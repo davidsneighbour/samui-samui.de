@@ -3,6 +3,12 @@ title: Affordable Relationship Counceling in Samui
 date: 2005-08-26T02:05:00+00:00
 url: /2005/08/affordable-relationship-counceling-in-samui/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Unter der titelgebenden Überschrift findet sich im Community Newspaper (ein Versuch den Glanz meines Lieblingsmagazins auf der Insel auch auf normalem Zeitungspapier einmal monatlich unter die Leute zu bringen) eine sehr ansprechende Anzeige im Classifieds-Bereich, die ich dem geneigten Leser nicht unkommentiert vorenthalten möchte:
 

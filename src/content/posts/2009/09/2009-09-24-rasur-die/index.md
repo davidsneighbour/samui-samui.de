@@ -2,10 +2,12 @@
 title: Rasur, die
 date: 2009-09-24T05:25:19+00:00
 url: /2009/09/rasur-die/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute erfuhr mein Unterhaupt eine Rasur. Hin und wieder lasse ich die Gesichtsbehaarung ja schon mal [wachsen wie sie will][1]. Aus Faulheit oder weil gewisse Gesichtszüge eine zu starke Gewichtszunahme indizieren. Letzteres diesmal.
 

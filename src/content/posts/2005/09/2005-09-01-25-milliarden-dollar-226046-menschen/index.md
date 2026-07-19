@@ -3,6 +3,12 @@ title: 25 Milliarden. Dollar. 226046. Menschen.
 date: 2005-09-01T06:05:00+00:00
 url: /2005/09/25-milliarden-dollar-226046-menschen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Die zivilisierte Welt bezeichnet also die Hurrican-Katatrophe in den USA als verheerender als die Tsunami-Katastrophe in Südostasien im letzten Dezember][1].
 

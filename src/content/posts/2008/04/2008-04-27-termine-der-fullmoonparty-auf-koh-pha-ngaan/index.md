@@ -2,10 +2,12 @@
 title: Termine der Fullmoonparty auf Koh Pha Ngaan
 date: 2008-04-27T15:09:09+00:00
 url: /2008/04/termine-der-fullmoonparty-auf-koh-pha-ngaan/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 * Samstag, 16. August
 * Sonntag, 14. September 2008

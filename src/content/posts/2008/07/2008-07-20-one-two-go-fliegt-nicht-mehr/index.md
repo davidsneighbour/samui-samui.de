@@ -2,10 +2,12 @@
 title: One-Two-Go fliegt nicht mehr
 date: 2008-07-20T15:38:55+00:00
 url: /2008/07/one-two-go-fliegt-nicht-mehr/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Am Wochenende [verkündete][1] Udom Tatiprosongchai, der <span class="caps">CEO</span> von One-Two-Go, einer Flugfirma, die innerhalb Thailands die erste Billig-Fluglinie war, dass die Fluglinie ihre Tätigkeit bis Mitte September einstellen wird. Als Grund gab man die Preissteigerungen bei den ?lpreisen an.
 

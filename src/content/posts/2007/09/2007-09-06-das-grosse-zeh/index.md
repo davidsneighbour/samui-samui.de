@@ -2,10 +2,12 @@
 title: Das! Gro?e! Zeh!
 date: 2007-09-06T02:42:58+00:00
 url: /2007/09/das-grosse-zeh/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1336245839/" title="congestion at the rice-floor"><img src="//farm2.static.flickr.com/1182/1336245839_92390f3f48.jpg" alt="congestion at the rice-floor" /></a></p>

@@ -2,10 +2,12 @@
 title: Neulich im Solo-Club
 date: 2007-11-06T14:26:27+00:00
 url: /2007/11/neulich-im-solo-club/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich habe festgestellt, dass ich es wohl nie schaffen werde, meine neuerlich wieder (nur wegen des Praktikanten) aufgeflammten Besuche in der Solo-Bar, die jetzt Solo-Club hei?t, zu beschreiben. Ich selbst muss ja eigentlich nicht mehr Nachts ausgehen und schon gar nicht in den Solo-Club.
 

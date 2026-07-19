@@ -3,6 +3,12 @@ title: 40 grad ++
 date: 2006-07-25T10:55:04+00:00
 url: /2006/07/40-grad/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 (der Titel is Copyright my Pappa)
 

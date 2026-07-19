@@ -4,10 +4,12 @@ date: 2009-06-17T12:27:54+00:00
 url: /2009/06/passfaelscher-und-ihre-kunden/
 dsq_thread_id:
   - "3374635376"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In Thailand werden häufiger mal Passfälscher festgenommen. Sieht man sich den Ausländermix an, der die Stra?en der einschlägigen Untertauch-(Halb)Inseln und Strände bevölkert, wird der Bedarf deutlich. Passfälscher und Händler gestohlener oder neuer unbedruckter Pässe halten sich dabei die Waage.
 

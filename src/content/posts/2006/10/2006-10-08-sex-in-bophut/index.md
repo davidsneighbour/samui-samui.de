@@ -3,6 +3,12 @@ title: Sex in Bophut
 date: 2006-10-08T09:45:59+00:00
 url: /2006/10/sex-in-bophut/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich habe gerade festgestellt, dass die meisten Suchenden mit einschlägigen Suchbegriffen in der Mitte des _vergangenen Jahres_&trade; landen. Dem muss natürlich entgegengewirkt werden.
 

@@ -4,10 +4,12 @@ date: 2008-09-10T05:53:47+00:00
 url: /2008/09/kategorie-seltsame-hobbies/
 dsq_thread_id:
   - "2957508348"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Bei [hi5.com][1] alle User als Contacts adden, die "Samui" im Username haben. (Ein Satz mit 7:5 Denglish-Ratio. Das schaffen nur Samui-Portale!)
 

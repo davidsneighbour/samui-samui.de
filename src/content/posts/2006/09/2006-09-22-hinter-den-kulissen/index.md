@@ -2,10 +2,12 @@
 title: Hinter den Kulissen
 date: 2006-09-21T21:26:00+00:00
 url: /2006/09/hinter-den-kulissen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In der [The Nation][1] kann man einen Bericht über die Vorgänge am Dienstag hinter den Kulissen lesen. Das ist zwar ein subjektiver Bericht ohne jegliche Beweise, klingt aber sehr interessant. Vor allem die Behauptung es würde Gewalt bei der Demonstration erzeugt werden klingt sehr glaubwürdig. Es gab solche Vorfälle schon eher. Es blieb aber immer gewaltlos, weil die <span class="caps">PAD</span> ausdrücklich auf Gewalt verzichten wollte.
 

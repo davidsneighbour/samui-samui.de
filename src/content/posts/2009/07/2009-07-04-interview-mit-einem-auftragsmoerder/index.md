@@ -4,10 +4,12 @@ date: 2009-07-04T13:40:18+00:00
 url: /2009/07/interview-mit-einem-auftragsmoerder/
 dsq_thread_id:
   - "3457562173"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Vor ein paar Jahren hat mir mal ein betrunkenes "Logenmitglied" erzählt, dass die Preise für einen Auftragskiller hier um die 15.000 Baht sind (für Farangs leicht über 50.000) und dass das meistens Muslims sind.
 

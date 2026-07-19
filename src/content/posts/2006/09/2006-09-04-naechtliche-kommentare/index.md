@@ -2,10 +2,12 @@
 title: Nächtliche Kommentare
 date: 2006-09-03T20:35:00+00:00
 url: /2006/09/naechtliche-kommentare/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wenn man ein "Weblog" hat und Einträge schreibt, muss man damit leben, dass bei eingeschalter Kommentarfunktion auch Kommentare eingehen. In der die schreiBBloga.de sind das in der Regel Hundeliebhaber, die kommentieren ;) Ich habe durch die Kommentare und [Kontaktformularemails][1] in den vergangenen 20 Monaten viele sehr nette Menschen kennen gelernt.
 

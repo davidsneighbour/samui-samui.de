@@ -2,10 +2,12 @@
 title: Auf ein Neues
 date: 2009-01-25T12:05:25+00:00
 url: /2009/01/auf-ein-neues-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/260.gif)
 

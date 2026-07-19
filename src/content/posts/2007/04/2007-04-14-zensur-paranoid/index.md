@@ -2,10 +2,12 @@
 title: Zensur – Paranoid?
 date: 2007-04-14T11:48:38+00:00
 url: /2007/04/zensur-paranoid/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/229.jpg)
 

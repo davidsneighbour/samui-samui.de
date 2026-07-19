@@ -3,6 +3,12 @@ title: Achtung vor dem Leben
 date: 2005-12-13T05:49:17+00:00
 url: /2005/12/achtung-vor-dem-leben/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 _Nachfolgenden Text hab ich eben aus dem Zettelkasten gefischt. Eigentlich sollte er Teil eines grösseren Pamphlets über die Entwicklung einer für mich positiven Umgebungsbedingung persönlicher Art werden. Passte aber nicht ganz rein. Also nun einfach so. Im Einzelauswurf._
 

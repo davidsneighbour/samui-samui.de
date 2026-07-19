@@ -3,6 +3,12 @@ title: Japan
 date: 2011-03-11T21:37:32+00:00
 url: /2011/03/japan/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Etwas makaber ist ja schon, dass der deutsche Botschafter in Thailand heute eine Email an die sog. "Deutschenliste" --- so eine Art Notfallemailverteiler --- schickt und vor rechnet, dass Japan von Thailand 5000km entfernt ist, Tschernobyl von Deutschland aber nur 1200km entfernt ist. Das soll wahrscheinlich beruhigen, aber wenn hier um die Ecke ein Atomkraftwerk in die Luft geht, tut es das nicht wirklich. Tschernobyl ist heute noch von einer 30km dicken Schutzzone umgeben.
 

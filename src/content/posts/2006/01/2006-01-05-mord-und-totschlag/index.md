@@ -2,10 +2,12 @@
 title: Mord und Totschlag
 date: 2006-01-04T22:33:00+00:00
 url: /2006/01/mord-und-totschlag/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Na endlich. Ein Mord. Hier auf Samui. Das Jahr begann schon langweilig zu werden:
 

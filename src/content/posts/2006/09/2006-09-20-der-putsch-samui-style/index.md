@@ -4,10 +4,12 @@ date: 2006-09-20T05:39:00+00:00
 url: /2006/09/der-putsch-samui-style/
 dsq_thread_id:
   - "3492335388"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 _Das mit dem Schlafen hat nicht funktioniert, also habe ich mich kurzentschlossen auf eine Rundreise durch den nordöstlichen Teil Samuis gemacht (Bophut, Bang Rak, Airport, Chaweng und über Bophut zurück) und ein paar Leute befragt, die mir über den Weg liefen. Anschließend musste ich noch Soosie duschen, weil sie ihre fäkale Phase aktiv ausüben und ihre Nase in die Häufen anderer Hunde stecken musste. Buchstäblich. Nun aber wieder zum Tagesthema._
 

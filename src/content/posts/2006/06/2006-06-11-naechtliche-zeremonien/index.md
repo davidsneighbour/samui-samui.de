@@ -2,10 +2,12 @@
 title: Nächtliche Zeremonien
 date: 2006-06-10T22:02:00+00:00
 url: /2006/06/naechtliche-zeremonien/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ganz Thailand trägt Gelb --- die Farbe des Königs weil er an einem Montag geboren wurde. Am Freitag hielt der König eine Generalaudienz für das Thailändische Volk (Bangkoks Verkehr stand still und die Menschen stauten sich 2km weit vom Balkon auf dem der Köndig und die Königin standen) auf der er unter anderem Folgendes sagte:
 

@@ -2,10 +2,12 @@
 title: Service. SMS.
 date: 2006-08-24T10:01:09+00:00
 url: /2006/08/service-sms/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

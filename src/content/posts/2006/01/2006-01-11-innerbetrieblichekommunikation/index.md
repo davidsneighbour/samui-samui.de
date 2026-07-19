@@ -2,10 +2,12 @@
 title: Innerbetriebliche Kommunikation
 date: 2006-01-10T19:53:00+00:00
 url: /2006/01/innerbetrieblichekommunikation/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/85030244/" title="communication"><img width="455" src="//static.flickr.com/40/85030244_e7b6d65564.jpg" alt="communication" /></a>

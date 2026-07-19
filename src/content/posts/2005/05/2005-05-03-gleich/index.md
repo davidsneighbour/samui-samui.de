@@ -5,6 +5,12 @@ url: /2005/05/gleich/
 dsq_thread_id:
   - "6412166543"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/102.jpg)
 

@@ -3,6 +3,12 @@ title: Raubbau
 date: 2006-07-15T23:56:00+00:00
 url: /2006/07/raubbau/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Am Mittwoch konnte man im Staatsfernsehen in den Nachrichten einen längeren Bericht über Samui sehen. Unter anderem wurden Erdrutsche, kahle Stellen auf den Bergen und zwei Gebäude auf dem Gipfel des Berges hinter meinem Haus gezeigt. Seit rund einem Monat denke ich im Dunkeln immer, ein Flugzeug kommt über den Hügel geflogen, es ist aber nur ebendieses Haus, das festlich beleuchtet wird.
 

@@ -2,10 +2,12 @@
 title: Die Stimmung am Abend
 date: 2006-09-20T11:50:00+00:00
 url: /2006/09/die-stimmung-am-abend/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Bei der abendlichen Mopedrundfahrt ist mir aufgefallen, was mir schon am Nachmittag zu denken gegeben hat (ich hab es aber vergessen zu schreiben): Keine Polizeipräsenz!
 

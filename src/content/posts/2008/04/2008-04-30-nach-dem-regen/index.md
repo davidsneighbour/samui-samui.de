@@ -2,10 +2,12 @@
 title: Nach dem Regen
 date: 2008-04-30T00:54:39+00:00
 url: /2008/04/nach-dem-regen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2454710720/" title="After the rain"><img src="//farm4.static.flickr.com/3222/2454710720_70067c9340.jpg" alt="After the rain" /></a></p>

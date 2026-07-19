@@ -2,10 +2,12 @@
 title: Kurzschnitt
 date: 2008-02-22T01:33:22+00:00
 url: /2008/02/kurzschnitt-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2283399135/" title="The thinker"><img src="//farm3.static.flickr.com/2310/2283399135_a37c43c56b.jpg" alt="The thinker" /></a></p>

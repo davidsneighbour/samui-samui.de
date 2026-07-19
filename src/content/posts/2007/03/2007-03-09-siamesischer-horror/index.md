@@ -2,10 +2,12 @@
 title: Siamesischer Horror
 date: 2007-03-08T21:35:15+00:00
 url: /2007/03/siamesischer-horror/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Hin und wieder hat man ja Ideen, die etwas ausgefallener sind. Wie wäre es bspw. mit einem Horrorfilm, in dem siamesische Zwillinge getrennt werden, einer der beiden stirbt und fortan der andere Zwilling alleine durch eine immer seltsamere Welt gehen und mit dem Rache suchenden Geist seines Zwillings leben muss?
 

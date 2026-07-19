@@ -4,10 +4,12 @@ date: 2007-05-27T19:39:32+00:00
 url: /2007/05/ebay-und-sanookcom/
 dsq_thread_id:
   - "3445666454"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Ebay und Sanook.com haben eine Partnerschaft verkündet][1], im Verlaufe derer sie ein Handelsportal eröffnen wollen, auf dem Privat- und Geschäftsleute im In- und Ausland handeln können.
 

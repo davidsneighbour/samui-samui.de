@@ -4,10 +4,12 @@ date: 2007-08-08T04:14:19+00:00
 url: /2007/08/kuechenkatastrophe/
 dsq_thread_id:
   - "3148456899"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute kam es endlich zur Küchenkatastrophe. Ich wartete darauf schon länger und hatte angenommen, dass bereits meine Cordon Bleus eine Niederlage würden. Wurden sie aber nicht. Heute nun sowas wie Spirelli Bolognese. Ich erwähne hier "sowas" weil wir während der Zubereitung viermal in den 7-Eleven rannten, um potentielle Zutaten zu kaufen.
 

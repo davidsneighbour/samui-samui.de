@@ -3,6 +3,12 @@ title: Kyoto liegt in Japan
 date: 2005-02-15T21:40:00+00:00
 url: /2005/02/kyoto-liegt-in-japan/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

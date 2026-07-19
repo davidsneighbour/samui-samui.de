@@ -5,6 +5,12 @@ url: /2005/01/gehen-sie-ueber-los-ziehen-sie-nicht-4000-euro-ein/
 tags:
   - wie alles begann
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 So. Morgen ist es also soweit. Das Notebook ist eingepackt, die Geräte auseinandergestöpselt, der Seesack gepackt. Nach Wochen der Planung und des Hin und Her beginnt morgen Mittag mein eigenes kleines Abenteuer.

@@ -5,8 +5,14 @@ date: 2020-12-31T17:23:10+07:00
 lastmod: 2020-12-31T17:23:10+07:00
 url: /2020/12/in-diesem-sinne
 tags:
-    - video
-    - m83
+  - video
+  - m83
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 … wir lesen uns im nächsten Jahr wieder (Spätestens zum nächsten Jahresendvideo).

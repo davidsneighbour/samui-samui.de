@@ -3,6 +3,12 @@ title: Monster
 date: 2011-04-15T21:31:50+00:00
 url: /2011/04/monster/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5624208380/" title="The monster by Patrick Kollitsch, on Flickr"><img src="//farm6.static.flickr.com/5144/5624208380_a86b3e4dd9_z.jpg" alt="The monster" /></a></p>

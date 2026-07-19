@@ -3,15 +3,21 @@ title: Karrieren die Ausländer nicht.
 date: 2015-08-12T13:41:08+00:00
 url: /2015/08/karrieren-die-auslaender-nicht/
 tags:
-- lost in translation
-- thaistyle
+  - lost in translation
+  - thaistyle
 resources:
-- src: "jobs1.png"
-  name: "jobs1"
-  title: "Karrieren die Ausländer nicht, Part 1"
-- src: "jobs1.png"
-  name: "jobs"
-  title: "Karrieren die Ausländer nicht, Part 2"
+  - src: "jobs1.png"
+    name: "jobs1"
+    title: "Karrieren die Ausländer nicht, Part 1"
+  - src: "jobs1.png"
+    name: "jobs"
+    title: "Karrieren die Ausländer nicht, Part 2"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Karrieren die Ausländer nicht, Part 1](./jobs1.png)

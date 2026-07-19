@@ -4,10 +4,12 @@ date: 2008-12-23T21:49:36+00:00
 url: /2008/12/faq-gibt-es-das-weihnachtsfest-in-thailand/
 dsq_thread_id:
   - "2918322340"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eine der Fragen, die ich mir in letzter Zeit häfiger stellen lassen musste war, ob es denn das Weihnachtsfest in Thailand gäbe.
 

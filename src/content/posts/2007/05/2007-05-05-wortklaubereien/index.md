@@ -2,10 +2,12 @@
 title: Wortklaubereien
 date: 2007-05-05T10:27:01+00:00
 url: /2007/05/wortklaubereien/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute fragte eine mir bekannte Thaifrau (ja, die):
 

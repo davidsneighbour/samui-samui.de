@@ -2,10 +2,12 @@
 title: Gerüchteküche
 date: 2007-06-29T17:39:20+00:00
 url: /2007/06/geruechtekueche/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In der vergangenen Woche ging das Gerücht um, David Beckham (der hin und wieder für verschiedene Unternehmen Fu?ball spielt und eine von den Spice Girls geheiratet hat) würde "demnächst" Urlaub auf Phuket machen.
 

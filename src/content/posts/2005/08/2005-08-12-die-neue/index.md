@@ -5,6 +5,12 @@ url: /2005/08/die-neue/
 dsq_thread_id:
   - "6412166475"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Nun gut. Hätte ich eine Digitalkamera, die funktioniert, würde ich ein Foto geschossen haben von einem Haus mit einer sehr gro?en Veranda, einer langen Treppe und einer sü?en Thai auf den Stufen. Darunter hätte ich dann geschrieben: "Die Neue". Das wäre ganz nett.
 

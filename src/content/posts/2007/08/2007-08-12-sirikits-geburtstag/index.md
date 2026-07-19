@@ -2,10 +2,12 @@
 title: Sirikits Geburtstag
 date: 2007-08-11T17:47:14+00:00
 url: /2007/08/sirikits-geburtstag/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1089961905/" title="Queens Birthday"><img src="//farm2.static.flickr.com/1295/1089961905_e60f6433dc.jpg" alt="Queens Birthday" /></a></p>

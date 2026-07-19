@@ -4,10 +4,12 @@ date: 2013-10-24T13:28:14+00:00
 url: /2013/10/huete-dich-vor-dem-zorn-der-frau/
 dsq_thread_id:
   - "3116625347"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Thailand ist das Land des Lächelns und der Überreaktionen. Beispiel gefällig? Eine Frau streitet mit ihrem Mann, verbrennt (seine?) Kleidungsstücke in ihrem Raum. Ergebnis: 42 Häuser niedergebrannt, 92 Häuser beschädigt, 401 Verletzte.
 

@@ -3,6 +3,12 @@ title: Kawumm
 date: 2011-07-12T13:09:54+00:00
 url: /2011/07/kawumm/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="image media">
   <a href="http://www.flickr.com/photos/schreibblogade/5932046017/" title="Me now by Patrick Kollitsch, on Flickr"><img src="//farm7.static.flickr.com/6016/5932046017_cc703c6d59_z.jpg" width="640" height="480" alt="Me now" /></a></p>

@@ -11,6 +11,12 @@ cover:
   type: image
   title: "Deprimierender Ausblick."
 date: 2026-07-18T06:09:34.006Z
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Es gibt Menschen, die behaupten, auf Koh Samui müsse man nur vor die Tür gehen, um etwas zu erleben. Traumstrände, tropische Stürme, Schlangen im Badezimmer, Touristen auf Motorrollern und gelegentlich ein Tierartenvertreter, der eine stark befahrene Straße mit mehr Übersicht überquert als die meisten Verkehrsteilnehmer.

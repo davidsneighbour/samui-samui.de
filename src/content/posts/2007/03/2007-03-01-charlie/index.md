@@ -4,10 +4,12 @@ date: 2007-03-01T11:35:27+00:00
 url: /2007/03/charlie/
 dsq_thread_id:
   - "6412166297"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Hier kommt grade auf UBC (ach nein, wir heißen ja jetzt true visions) ein Charlie-Chaplin-Film. Schwarz Weiss. Mit französischen Einlagen. Logischerweise kommt sowas nur Nachts. Aber keine Sorge, ich bleib wach und kuck mir das an...
 

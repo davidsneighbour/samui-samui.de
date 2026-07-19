@@ -2,10 +2,12 @@
 title: Kurz Geschnittenes
 date: 2007-03-28T14:51:44+00:00
 url: /2007/03/kurz-geschnittenes/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Hin und wieder wurde ich in den vergangenen Tagen gefragt, warum ich denn "nichts mehr" schreibe. Seltsam. So kommt mir das nicht vor. Dummerweise schreibe ich eine Menge, was (noch) nicht online zu lesen ist oder weniger für dieses kleine Internet-Tagebuch geeignet (oder gedacht) ist. Nichtsdestotrotz haben sich einige Nachrichten und/oder News angehäuft, die ich keinem interessierten Leser vorenthalten will, ehe sie unaktuell oder aktualisiert werden. Auf auf nun zum fröhlichen Kurzgeschnittenen:
 

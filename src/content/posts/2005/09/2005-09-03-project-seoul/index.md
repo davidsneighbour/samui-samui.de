@@ -3,6 +3,12 @@ title: Project Seoul
 date: 2005-09-02T22:06:00+00:00
 url: /2005/09/project-seoul/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Oh, did I tell already that I like photoblogs? It's mainly because my own photos are the worst waste of harddrive space since mankind spotted the possibility to hold moments on pictures.
 

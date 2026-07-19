@@ -3,6 +3,12 @@ title: Neuwahlen! Wirklich!
 date: 2006-07-21T11:41:00+00:00
 url: /2006/07/neuwahlen-wirklich/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Seine Majestät König Bhumibol Adulyadej hat heute ein königliches Dekret unterschrieben, auf dass am 15. Oktober Neuwahlen in Thailand seien.
 

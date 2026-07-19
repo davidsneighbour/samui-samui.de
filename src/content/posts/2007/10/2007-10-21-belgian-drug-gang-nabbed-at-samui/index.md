@@ -2,10 +2,12 @@
 title: Die Belgier
 date: 2007-10-20T20:43:36+00:00
 url: /2007/10/belgian-drug-gang-nabbed-at-samui/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1669206201/" title="Belgian Drug Gang nabbed at Samui"><img src="//farm3.static.flickr.com/2404/1669206201_b700c7c747.jpg" alt="Belgian Drug Gang nabbed at Samui" /></a></p>

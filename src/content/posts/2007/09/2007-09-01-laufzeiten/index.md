@@ -2,10 +2,12 @@
 title: Laufzeiten
 date: 2007-08-31T19:31:34+00:00
 url: /2007/09/laufzeiten/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Werte Langzeitleser und -beobachter werden sich entsinnen, dass es Anfang des Jahres etwas länger dauerte, bis meine kleine Hütte im Internet surfen konnte. Fürs neue Haus war also eine bestehende Verbindung zum Netz der Netze Bezugsgrundlage.
 

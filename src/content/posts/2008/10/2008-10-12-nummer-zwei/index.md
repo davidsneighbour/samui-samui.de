@@ -2,10 +2,12 @@
 title: Nummer Zwei
 date: 2008-10-11T17:39:51+00:00
 url: /2008/10/nummer-zwei/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2933096037/" title="Boo Song"><img src="//farm4.static.flickr.com/3210/2933096037_3d5fdc6298.jpg" alt="Boo Song" /></a></p>

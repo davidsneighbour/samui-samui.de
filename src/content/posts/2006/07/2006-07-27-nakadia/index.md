@@ -5,6 +5,12 @@ url: /2006/07/nakadia/
 dsq_thread_id:
   - "3094415005"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/212.jpg)
 

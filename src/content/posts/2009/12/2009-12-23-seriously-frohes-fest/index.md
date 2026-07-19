@@ -2,10 +2,12 @@
 title: Seriously, Frohes Fest!
 date: 2009-12-23T13:29:01+00:00
 url: /2009/12/seriously-frohes-fest/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <txp:thumbnail class="flickr" id="273" wraptag="div" />
 

@@ -4,10 +4,12 @@ author: Patrick Kollitsch
 date: 2006-07-29T02:11:00+00:00
 excerpt: 'Im September bekommen die Mobilfunknummern in Thailand <txp:gho_permalink id="743">wie bereits erwähnt</txp:gho_permalink> eine neue Nummer in die Vorwahl gepackt (interessanterweise die 8, warum weiss erstmal niemand). Das soll mehr Nummern für einen zu erwartenden Anstieg der Mobiltelefonnutzung in Thailand bringen. Das allerdings nur, wenn man weitere Vorwahlen einführt.'
 url: /2006/07/rufnummernverteilung-in-thailand/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die folgende Tabelle zeigt die aktuelle Rufnummernverteilung im Mobilfunk in Thailand:
 

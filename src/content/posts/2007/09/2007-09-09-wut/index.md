@@ -2,10 +2,12 @@
 title: Wut
 date: 2007-09-08T23:25:52+00:00
 url: /2007/09/wut/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

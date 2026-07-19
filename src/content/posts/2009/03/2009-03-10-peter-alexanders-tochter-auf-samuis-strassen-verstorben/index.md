@@ -2,10 +2,12 @@
 title: Peter Alexanders Tochter auf Samuis Stra?en verstorben
 date: 2009-03-10T14:50:01+00:00
 url: /2009/03/peter-alexanders-tochter-auf-samuis-strassen-verstorben/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Peter Alexanders Tochter Susanne Neumayer-Haindinger ist am Wochenende bei einem Unfall [ums Leben gekommen][1]. Ihr Mann kam in einer Kurve hinter Nathon in einer Kurve von der Stra?e ab und sie überschlugen sich.
 

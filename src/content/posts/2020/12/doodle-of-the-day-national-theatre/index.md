@@ -1,17 +1,22 @@
 ---
-
 title: "Google Doodle des Tages: Das National-Theater"
 description: "Das heutige Doodle feiert das Thai National Theatre, eine Kulturstätte in der Bangkok. Das Theater wurde an diesem Tag im Jahr 1965 mit einer Eröffnungszeremonie mit thailändischem _kŏhn_ T&auml;anzen (maskierte Tänzer f&uuml;hren Geschichten aus dem Ramakian vor) vor einem Publikum eingeweiht."
 date: 2020-12-23T20:54:35+07:00
 lastmod: 2020-12-23T20:54:35+07:00
 url: /2020/12/google-doodle-des-tages-national-theater
 tags:
-    - google doodle
-    - kultur
+  - google doodle
+  - kultur
 resources:
-    - src: "celebrating-the-national-theatre-6753651837108751-2x.png"
-      name: "the-national-theatre"
-      title: "The National Theatre"
+  - src: "celebrating-the-national-theatre-6753651837108751-2x.png"
+    name: "the-national-theatre"
+    title: "The National Theatre"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![](./celebrating-the-national-theatre-6753651837108751-2x.png)

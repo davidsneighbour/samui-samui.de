@@ -2,10 +2,12 @@
 title: Friedlicher Verstand
 date: 2007-11-08T02:28:12+00:00
 url: /2007/11/friedlicher-verstand/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich hatte es bereits erwähnt, Sondhi --- seines Zeichens Ex-bester Freund von Thaksin Shinawatra --- geht ins Kloster. Gestern (also rein technisch heute) nun [war Ordination][1]. Gegener demonstrierten, um die 100 Polizisten schützten die Szenerie, nun ist er ein buddhistischer Mönch. Man lese den Nachsatz.
 

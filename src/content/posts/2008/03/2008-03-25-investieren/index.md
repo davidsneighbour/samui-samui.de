@@ -2,10 +2,12 @@
 title: Investieren?
 date: 2008-03-25T03:27:33+00:00
 url: /2008/03/investieren/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Frage ob man in Thailand heutzutage investieren sollte oder nicht möchte ich mit einem Zitat von Ranongrak Suwanchawee, der [aktuellen][1] stellvertretenden Finanzministerin Thailands, beantworten:
 

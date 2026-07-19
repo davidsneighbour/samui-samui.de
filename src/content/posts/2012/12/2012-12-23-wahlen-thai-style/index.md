@@ -7,6 +7,12 @@ fb_author_message:
 fb_author_post_id:
   - "10151182500310642"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Habe mich gerade mit einem Thai-Freund über die heute stattfindenden Bürgermeister-Wahlen auf Samui unterhalten. Seit drei Monaten hat Samui den Stadt-Status, weshalb eine neue Stadtverwaltung gewählt werden muss. Mal abgesehen davon, dass das um Weihnachten herum geschehen muss (Alkoholverbot) bin ich sehr froh, dass die wochenlange Dauerbeschallung aus zu Wahlplakaten umgewandelten Pickups heraus nun endlich vorbei ist und nur noch der zweimal wöchentlich verkehrende "Wet-T-Shirt-Contest"-Truck mit seinem mir eher genehmen Drum'n'Bass Gewummere meinen täglichen Mittagschlaf stören wird.
 

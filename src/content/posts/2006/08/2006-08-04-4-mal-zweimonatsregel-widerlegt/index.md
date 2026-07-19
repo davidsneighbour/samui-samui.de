@@ -2,9 +2,11 @@
 title: 4 mal Zweimonatsregel widerlegt.
 date: 2006-08-04T12:12:37+00:00
 url: /2006/08/4-mal-zweimonatsregel-widerlegt/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ... and counting ...

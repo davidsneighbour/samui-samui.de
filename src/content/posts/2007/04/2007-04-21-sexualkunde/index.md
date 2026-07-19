@@ -2,10 +2,12 @@
 title: Sexualkunde
 date: 2007-04-21T04:51:48+00:00
 url: /2007/04/sexualkunde/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute habe ich dem kleinen Sohn meiner Hausherren (5 Jahre alt) Sexualkundeunterricht gegeben. Ehe man das jetzt falsch versteht, seien mir einige Erläuterungen dazu erlaubt.
 

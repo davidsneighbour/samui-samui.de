@@ -2,10 +2,12 @@
 title: Erster Schritt in die Normalität
 date: 2006-09-19T21:42:00+00:00
 url: /2006/09/erster-schritt-in-die-normalitaet/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Um 9:21 Uhr hat das Administrative Reform Committee under the Constitutional Monarchy eine Fernsehansprache gehalten. Das war für mich ein sehr ambivalenter Augenblick, der aber schnell wieder vorbei war. Meine Notizen dazu:
 

@@ -2,10 +2,12 @@
 title: 'Reisegeschäft'
 date: 2008-08-07T15:15:38+00:00
 url: /2008/08/reisegeschaeft/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Manch einem mag es aufgefallen sein, dass ich gestern Abend schnell noch die restlichen 80 Bilder aus der Deutsch.Landreise zu flickr.com geladen habe, was größtenteils daran lag, dass ich an anderer Stelle recht leicht fertig versprochen habe, alle Bilder oben zu haben, ehe ich wieder auf Reisen gehe.
 

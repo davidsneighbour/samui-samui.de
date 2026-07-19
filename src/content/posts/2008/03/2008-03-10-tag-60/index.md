@@ -2,10 +2,12 @@
 title: Tag 60
 date: 2008-03-10T02:50:21+00:00
 url: /2008/03/tag-60/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2324678818/" title="Day 60"><img src="//farm3.static.flickr.com/2283/2324678818_9dcac07027.jpg" alt="Day 60" /></a></p>

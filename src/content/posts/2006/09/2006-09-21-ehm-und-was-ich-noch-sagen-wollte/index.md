@@ -2,10 +2,12 @@
 title: Ehm, und was ich noch sagen wollte…
 date: 2006-09-21T10:55:00+00:00
 url: /2006/09/ehm-und-was-ich-noch-sagen-wollte/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ehm. Eigentlich wollte ich gar nichts sagen. Denn eigentlich ist mir die Meinung anderer relativ egal. Aber wenn <del>die Volksfront von Judäa</del> das Administrative Reform Council eine korrekte Betitelung als The Council for Democratic Reform under Constitutional Monarchy fordern darf dann kann auch ich nicht zurück stehen.
 

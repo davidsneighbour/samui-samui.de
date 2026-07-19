@@ -2,10 +2,12 @@
 title: Updates
 date: 2006-09-23T22:27:00+00:00
 url: /2006/09/updates-6/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Ereignisse der letzten Stunden
 

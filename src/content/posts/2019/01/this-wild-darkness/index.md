@@ -8,6 +8,12 @@ tags:
   - video
   - moby
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 <dnb-youtube videoid="biYpmT5N3Jc"></dnb-youtube>

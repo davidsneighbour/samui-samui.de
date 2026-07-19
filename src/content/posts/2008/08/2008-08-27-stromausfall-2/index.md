@@ -2,10 +2,12 @@
 title: Stromausfall
 date: 2008-08-26T23:01:52+00:00
 url: /2008/08/stromausfall-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Gegen neun Führer der <span class="caps">PAD</span> sind Haftbefehle ausgestellt worden][1] und man nimmt an, dass sie bei "Einbruch der Dunkelheit" verhaftet werden sollen. Grade wurde den Demonstranten am Government House ([Map][2]) [der Strom abgestellt][3]. Sie demonstrieren aber fröhlich weiter.
 

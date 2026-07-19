@@ -2,10 +2,12 @@
 title: Gurkencola
 date: 2009-01-28T13:29:51+00:00
 url: /2009/01/gurkencola/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Im 7eleven gibt es seit ein paar Tagen grüne Pepsi. Die Flasche sieht von ferne aus wie Sprite, wenn man näher kommt, sieht man aber, dass die Flüssigkeit und nicht die Flasche grün ist. Das Ganze soll wohl Cola sein, der Geschmack erinnert wohltuend an <span class="caps">DDR</span>-Schaumbad mit viel Zucker (Zucker zusätzlich zum Schaumbad).
 

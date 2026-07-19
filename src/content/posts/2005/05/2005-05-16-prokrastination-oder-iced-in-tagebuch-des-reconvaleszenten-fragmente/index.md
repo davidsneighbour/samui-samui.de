@@ -3,6 +3,12 @@ title: Prokrastination – oder – Iced in (Tagebuch des Reconvaleszenten). Fra
 date: 2005-05-15T22:38:34+00:00
 url: /2005/05/prokrastination-oder-iced-in-tagebuch-des-reconvaleszenten-fragmente/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Moag. Ich nahm mir kurzentschlossen aus verschiedenen Gründen drei Werktage frei. Eigentlich wollte ich hier einen langen inneren Monolog zu den gro?en Themen des Alltags bringen. Der bzw. das hat mich aber derartig gelangweilt, dass ich ihn auf einige kurze Ausschnitte gekürzt habe.
 

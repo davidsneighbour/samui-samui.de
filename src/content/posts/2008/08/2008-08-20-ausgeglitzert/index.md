@@ -2,10 +2,12 @@
 title: Ausgeglitzert
 date: 2008-08-19T23:59:46+00:00
 url: /2008/08/ausgeglitzert/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Paul Francis Gadd, den die meisten meiner (sehr viel) älteren Leser wohl unter dem Namen [Gary Glitter][1] kennen, wurde in dieser Woche aus einem vietnamesischen Gefängnis entlassen und [sitzt nun in Thailand auf Subvarnabhumi, dem internationalen Flughafen fest][2], weil er sich weigert, nach Gro?britanien weiter zu reisen und die Thais ihn nicht im Lande wollen.
 

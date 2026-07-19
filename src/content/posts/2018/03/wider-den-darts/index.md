@@ -4,13 +4,19 @@ description: "Darts sind böse. Sagt der neueste Crackdown der Thai-Regierung."
 date: 2018-03-13T20:53:07+07:00
 url: /2018/03/wider-den-darts
 tags:
-- darts
-- crackdown
+  - darts
+  - crackdown
 linktitle: "Darts sind böse. Sagt der neueste Crackdown der Thai-Regierung."
 resources:
-- src: "darts.jpg"
-  name: "darts"
-  title: "Terrorist an Zielscheibe"
+  - src: "darts.jpg"
+    name: "darts"
+    title: "Terrorist an Zielscheibe"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Terrorist an Zielscheibe --- (Photo von Clem Onojeghuo)](./darts.jpg)

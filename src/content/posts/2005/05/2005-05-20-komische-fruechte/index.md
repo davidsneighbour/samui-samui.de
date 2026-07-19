@@ -5,6 +5,12 @@ url: /2005/05/komische-fruechte/
 dsq_thread_id:
   - "2900753269"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern hab ich mir komische Früchte gekauft. Vom äu?eren Aufbau her machten sie eigentlich den Eindruck, dass sie zur Litschi-Gruppe gehören, mit deren Vertretern ich bereits viel Freude hatte.
 

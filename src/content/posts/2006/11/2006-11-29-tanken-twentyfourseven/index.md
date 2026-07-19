@@ -3,6 +3,12 @@ title: Tanken Twentyfourseven
 date: 2006-11-28T21:17:10+00:00
 url: /2006/11/tanken-twentyfourseven/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Vom 1. Dezember an dürfen die Tankstellen (wieder) rund um die Uhr öffnen][1]. Seit ich auf der Insel bin waren sie immer nur bis gegen 21 Uhr geöffnet, was mich mehr als einmal benzinlos vor geschlossenen Toren (Ok, es waren Rollabsperrungen, keine Tore) stehen ließ. In Lamai hat man die Tankstelle sogar ein paar Mal freundlich lächelnd vor meiner Nase zu gemacht.
 

@@ -2,10 +2,12 @@
 title: Denial of service hackerz
 date: 2009-10-10T04:06:49+00:00
 url: /2009/10/denial-of-service-hackerz/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Man will uns gerade bei der The Nation klar machen, dass die Daten von 1000 Studenten bei [einer 'koordinierten denial of service'-Attacke gestohlen worden][1].
 

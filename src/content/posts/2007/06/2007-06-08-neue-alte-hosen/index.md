@@ -2,10 +2,12 @@
 title: Neue alte Hosen
 date: 2007-06-08T16:26:26+00:00
 url: /2007/06/neue-alte-hosen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich sollte ein Abnehmblog aufmachen.
 

@@ -3,6 +3,12 @@ title: Der Tag danach
 date: 2011-04-01T11:37:11+00:00
 url: /2011/04/der-tag-danach/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5580538061/" title="The day after - road works ahead"><img src="//farm6.static.flickr.com/5299/5580538061_c32145a614_z.jpg" width="640" height="480" alt="The day after - road works ahead" /></p>

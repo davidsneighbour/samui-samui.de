@@ -2,10 +2,12 @@
 title: Im Bad
 date: 2008-03-19T02:36:39+00:00
 url: /2008/03/im-bad/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2345872798/" title="In the bathroom"><img src="//farm4.static.flickr.com/3027/2345872798_8c62625e3b.jpg" alt="In the bathroom" /></a></p>

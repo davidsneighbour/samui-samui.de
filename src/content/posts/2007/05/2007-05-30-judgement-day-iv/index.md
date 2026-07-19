@@ -2,10 +2,12 @@
 title: Judgement Day IV
 date: 2007-05-29T18:04:36+00:00
 url: /2007/05/judgement-day-iv/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Im Fernsehen werden gerade Anklage und Verteidigung für den Fall der Demokraten verlesen. Live auf allen Thai-Kanälen. Nur die Farangsender bringen das übliche Durcheinander.
 

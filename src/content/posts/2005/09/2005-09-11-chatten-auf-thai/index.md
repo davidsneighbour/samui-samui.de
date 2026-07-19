@@ -3,6 +3,12 @@ title: Chatten auf Thai
 date: 2005-09-10T21:04:47+00:00
 url: /2005/09/chatten-auf-thai/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Chatten auf Thai ist schwierig. Abgesehen vom Vokabular muss man zum einen zwischen bis zu fünf Transskriptionssystemen wählen (wenn man die Rough-Guide und Lonely-Planet Schreibweisen noch dazu nimmt sinds sieben). Da wird dann schnell mal aus einem "phut paasa thai" (Sprichst du Thai?) im royal transkription systeme ein "poot pasa thai" in einer der eingeenglischten Formen. Da hilft alles nichts. Laut mitlesen und hoffen, dass man auf den Sinn kommt.
 

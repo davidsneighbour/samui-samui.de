@@ -6,9 +6,15 @@ tags:
   - google doodle
   - feiertage
 resources:
-- src: "childrens-day-2017-thailand.jpg"
-  name: "google-doodle"
-  title: "Google Doodle Kindertag 2017 in Thailand --- &copy; google.com"
+  - src: "childrens-day-2017-thailand.jpg"
+    name: "google-doodle"
+    title: "Google Doodle Kindertag 2017 in Thailand --- &copy; google.com"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Google Doodle Kindertag 2017 in Thailand --- © google.com](./childrens-day-2017-thailand.jpg)

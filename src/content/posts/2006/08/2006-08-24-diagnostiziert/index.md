@@ -2,10 +2,12 @@
 title: Diagnostiziert
 date: 2006-08-24T08:37:50+00:00
 url: /2006/08/diagnostiziert/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Da hab ich den gestrigen Tag nun die ganze Zeit darauf gewartet, <txp:gho_permalink id="850">Thaksins Diagnose</txp:gho_permalink> zu hören --- nichts. Vermutlich war sie so niederschmetternd dass sie eine Geheimstufe bekommen hat.
 

@@ -2,10 +2,12 @@
 title: Publiziert
 date: 2007-02-20T21:02:01+00:00
 url: /2007/02/publiziert/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich dachte ja immer, dass meine Buchstabenspielereien zuerst eines Tages gedruckt werden würden. Dem scheint nicht so zu sein. Bilder sind gewünscht. Bitte gerne.
 

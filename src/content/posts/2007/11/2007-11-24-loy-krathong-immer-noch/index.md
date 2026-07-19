@@ -2,10 +2,12 @@
 title: Loy Krathong (immer noch)
 date: 2007-11-23T23:30:34+00:00
 url: /2007/11/loy-krathong-immer-noch/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Noch zwei Bemerkungen zum Loy Krathong:
 

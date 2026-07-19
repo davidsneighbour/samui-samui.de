@@ -2,10 +2,12 @@
 title: Wahlbe(ein)tra(e)cht(ig)ungen
 date: 2007-12-27T13:02:43+00:00
 url: /2007/12/wahlbeeintraechtigungen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die [Ergebnisse][1] stehen fest, die Peoples Power Partei ist "der gro?e Gewinner" der Wahlen. <span class="caps">PPP</span> hat 233 Plätze im Parlament abgeräumt und die Demokraten nur 165. Das ist allerdings keine überwältigende Mehrheit, weshalb man nun [auf der Suche nach Koalitionspartnern][2] ist, auf dass die Demokraten mit ihrem angestammten Oppositionsplatz nichts mehr als reine Zahlen in den Abstimmungen seien...
 

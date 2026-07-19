@@ -2,10 +2,12 @@
 title: Jazz im Karma Ressort
 date: 2009-06-15T14:16:46+00:00
 url: /2009/06/jazz-im-karma-ressort/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <txp:thumbnail class="flickr" id="266" wraptag="div" link="1" />
 

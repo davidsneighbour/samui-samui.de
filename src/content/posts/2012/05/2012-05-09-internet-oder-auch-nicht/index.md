@@ -3,6 +3,12 @@ title: Internet. Oder auch nicht.
 date: 2012-05-09T02:28:03+00:00
 url: /2012/05/internet-oder-auch-nicht/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Dies und das zum interessiertem Informations-Update:
 

@@ -2,10 +2,12 @@
 title: Thaksin ist kein Südamerikaner und Sondhi fast tot.
 date: 2009-04-16T13:09:00+00:00
 url: /2009/04/thaksin-ist-kein-suedamerikaner-und-sondhi-fast-tot/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Es sieht so aus][1], als ob die nikaraguanische Passgeschichte Thaksins ein gut gemachter Photoshopscherz ist, der weder bestätigt werden kann noch verneint wird. Sehr beruhigend und vor allem ein klares Licht auf Thaksin werfend.
 

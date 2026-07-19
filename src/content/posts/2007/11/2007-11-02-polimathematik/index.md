@@ -2,10 +2,12 @@
 title: Poli(mathema)tik
 date: 2007-11-02T03:08:17+00:00
 url: /2007/11/polimathematik/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

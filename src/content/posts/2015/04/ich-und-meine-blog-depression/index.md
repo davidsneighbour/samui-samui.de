@@ -3,7 +3,13 @@ title: Ich und meine Blog-Depression
 date: 2015-04-09T15:16:50+00:00
 url: /2015/04/ich-und-meine-blog-depression/
 tags:
-- samuisamui
+  - samuisamui
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Nun mal Butter bei die Fische: Wenn man die Entwicklung der Einträge hier in der Die Schreibbloga.de über die Jahre hinweg betrachtet sieht man einen Trend zum Nichts.
 

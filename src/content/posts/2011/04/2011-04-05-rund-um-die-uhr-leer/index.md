@@ -3,6 +3,12 @@ title: Rund um die Uhr leer
 date: 2011-04-05T11:11:49+00:00
 url: /2011/04/rund-um-die-uhr-leer/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die 7elevens auf der Insel sind auch heute (6 Tage nachdem die Fähren wieder fahren) noch leer. Hin und wieder bringen die Bäcker auf der Insel brotähnliche Produkte, alle anderen Regale sind absolut leer. Entweder steht deren Logistikcenter auf dem Festland unter Wasser oder sie haben ein sehr unflexibles Auslieferungssystem (Donnerstags steht der Truck vor der Tür).
 

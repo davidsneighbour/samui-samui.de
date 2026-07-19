@@ -3,6 +3,12 @@ title: Return of the Rasenmähermann
 date: 2011-04-14T11:46:22+00:00
 url: /2011/04/return-of-the-rasenmaehermann/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Dass die rund dreimonatlich erscheinenden Rasenmähermänner eine Belastung meiner sowieso fragilen inneren Ruhe darstellen, habe ich ja schon mal erzählt.
 

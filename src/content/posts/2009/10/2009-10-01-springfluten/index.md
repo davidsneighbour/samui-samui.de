@@ -2,10 +2,12 @@
 title: Springfluten
 date: 2009-09-30T23:19:01+00:00
 url: /2009/10/springfluten/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Diesmal wird man sogar vor Springfluten gewarnt. [Samui, Koh Phangan][1] sowie [18 Provinzen][2] an der Ostküste Thailands müssen mit starkem Regen und Sturm rechnen.
 

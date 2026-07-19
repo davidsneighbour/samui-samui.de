@@ -3,6 +3,12 @@ title: Computerkauf Thaistyle Teil I
 date: 2006-03-10T01:57:00+00:00
 url: /2006/03/computerkauf-thaistyle-teil-i/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich habe ja nun (wer drei Praktikantinnen um sich hat die deutsche Texte nach Englisch und Thai übersetzen dürfen weiss, dass dieses "ja nun" eine ziemlich schwachsinnige deutsche Wortkonstruktion ist --- ich nutz das trotzdem --- Stillosigkeit als Stil) ein Notebook bestellt und das freundlich <txp:gho_permalink id="658">als neues Familienmitglied gemeldet</txp:gho_permalink>. Ich dachte (die Verwendung des Präteritums deutet darauf hin, dass immer alles anders kommt als man es sich vorstellt, aber das wird man auch noch an der Länge des Eintrages sehen), dass das eine kurze einfache Sache wird --- aus Erfahrung, ich bestellte bei "unserem" Firmenlieferanten J.R. nach Katalog. Ein [Acer TravelMate 3212][1]. Katalogbestellungen machen keine Probleme. Denkt man.
 

@@ -2,10 +2,12 @@
 title: An-Alphabetik
 date: 2008-07-24T15:04:54+00:00
 url: /2008/07/an-alphabetik/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Umfragen haben ergeben, dass nur 13,3 Prozent der Thais wissen, [wieviele Vokale ihr Alphabet hat][1]. Ein spontaner Test mit meinem Thai-Azubi ergab das gleiche niederschmetternde Ergebnis.
 

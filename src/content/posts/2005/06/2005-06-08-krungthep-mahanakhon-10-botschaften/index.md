@@ -5,6 +5,12 @@ url: /2005/06/krungthep-mahanakhon-10-botschaften/
 dsq_thread_id:
   - "6412166692"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Hab ich eigentlich schon erwähnt, dass ich neulich in Krungthep war? Hab ich? Ach ja. Stimmt ja. Gut, dann liefere ich schnell noch ein Nachtbild von unserem Stra?enaufenthalt in Surrat Thani nach:
 

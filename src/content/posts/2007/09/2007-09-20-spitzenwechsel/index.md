@@ -2,10 +2,12 @@
 title: Spitzenwechsel
 date: 2007-09-19T22:12:49+00:00
 url: /2007/09/spitzenwechsel/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 General Sonthi Boonyaratglin, der freundliche Mann mit der Militäruniform der vor einem Jahr Thailand von seinem damals noch zukünftigen Profigolfer-Präsidenten befreite, hat ja nun nur eine befristete Militärlaufbahn als Armeechef, die Ende diesen Monats, ehm, endet. Also in nicht ganz 10 Tagen. Dann ist er kein Militärchef mehr. Schade.
 

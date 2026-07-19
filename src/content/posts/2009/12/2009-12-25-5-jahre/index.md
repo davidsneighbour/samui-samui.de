@@ -2,10 +2,12 @@
 title: 5 Jahre
 date: 2009-12-25T03:31:06+00:00
 url: /2009/12/5-jahre/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake"><img src="//samui-samui.de/images/274t.jpg" width="500" /></p>

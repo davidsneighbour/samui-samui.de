@@ -6,6 +6,12 @@ tags:
   - tierwelt
   - video
   - krokodil
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Lektion des Tages: Wenn das Krokodil rollt, dann roll hinterher.

@@ -2,10 +2,12 @@
 title: Skypereien
 date: 2009-04-20T22:47:40+00:00
 url: /2009/04/skypereien/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Skype ist ja ganz nett. Seit einiger Zeit gibt es sog. "Subscriptions", mit denen man unbegrenzt ins Festnetz eines Landes anrufen kann. Ich spielte für eine Weile mit dem Gedanken, mir so ein Abo für Deutschland zuzulegen, lies das dann aber, weil ich nicht wirklich häufig nach Deutschland anrufe.
 

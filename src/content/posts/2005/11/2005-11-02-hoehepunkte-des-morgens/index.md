@@ -3,6 +3,12 @@ title: H??hepunkte des Morgens
 date: 2005-11-01T19:13:00+00:00
 url: /2005/11/hoehepunkte-des-morgens/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 * Die Erweiterung des morgendlichen Umweges auf Arbeits auf den Markt.
 * Marktfrauen die sich nicht sicher sind, ob sie einen übervorteilen können sind recht lustig zu beobachten.

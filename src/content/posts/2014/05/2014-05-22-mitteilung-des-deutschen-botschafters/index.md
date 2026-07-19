@@ -2,10 +2,12 @@
 title: Mitteilung des deutschen Botschafters
 date: 2014-05-22T13:17:58+00:00
 url: /2014/05/mitteilung-des-deutschen-botschafters/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Deutschenliste wurde eben vom deutschen Botschafter be-emailt:
 

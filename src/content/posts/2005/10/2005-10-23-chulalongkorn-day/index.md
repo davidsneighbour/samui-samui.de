@@ -3,6 +3,12 @@ title: Chulalongkorn Day
 date: 2005-10-23T04:53:00+00:00
 url: /2005/10/chulalongkorn-day/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es ist mal wieder feiertagen angesagt. Diesmal sogar offiziell. Das heisst, weil heute Feier- _und_ Sonntag ist, wird der morgige Montag zum Freitag. Keine Fron. Einfach so abhängen.
 

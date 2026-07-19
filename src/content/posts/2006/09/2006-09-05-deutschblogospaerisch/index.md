@@ -2,10 +2,12 @@
 title: Deutschblogospärisch?
 date: 2006-09-05T10:21:00+00:00
 url: /2006/09/deutschblogospaerisch/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Mich hat neulich tatsächlich jemand gefragt, ob ich mich noch der _Deutschen Blogosphäre_&trade; zugehörig fühle.
 

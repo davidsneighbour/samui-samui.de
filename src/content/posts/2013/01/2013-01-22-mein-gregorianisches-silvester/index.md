@@ -6,10 +6,12 @@ fb_author_post_id:
   - "10151228858425642"
 dsq_thread_id:
   - "3325362873"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Auf vielfachem Wunsche hin][1] hier nun ein Beitrag mit all den Einzelheiten zu den Umständen und Veranstaltungen die mein letztjähriges Silvester umgaben:
 

@@ -2,10 +2,12 @@
 title: Thaksins roter Pass ist weg.
 date: 2007-01-10T06:45:56+00:00
 url: /2007/01/thaksins-roter-pass-ist-weg/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Man erinnere sich bitte mal: Im November hatte man überlegt, wie man es anstellt, dem Thaksin Shinawatra, im September ungnädig in Abwesenheit hinweg geputschter Ex-Premierminister, seinen Diplomatenpass abzunehmen. Er reiste in der Welt herum, selbst Anfang der Woche hatte man noch erzählt, er wäre in Thailand gesehen worden.
 

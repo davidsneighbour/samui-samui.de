@@ -2,10 +2,12 @@
 title: Declaration of state of emergency in Thailand
 date: 2006-09-19T13:37:00+00:00
 url: /2006/09/declaration-of-state-of-emergency-in-thailand/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 The following is a statement by the Administrative Reform Committee under the Constitutional Monarchy.
 

@@ -2,10 +2,12 @@
 title: Jahresrückblick 2009
 date: 2009-12-30T14:04:29+00:00
 url: /2009/12/jahresrueckblick-2009/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 2009 war in Thailand das Jahr, in dem ein Demokrat (parteizugehörigkeitsweise gesehen) thailändischer Premierminister wurde, der es demokratisch gesehen nie geworden wäre, in Chiang Mai ein Panda das Licht der Welt und tausender Kameras erblickte und der Profigolfpräsident Thailands Twitter entdeckte (wie so viele andere auch).
 

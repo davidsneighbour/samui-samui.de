@@ -3,6 +3,12 @@ title: Fussball-Weltmeisterschaft im thailändischen Fernsehen
 date: 2010-06-01T23:32:34+00:00
 url: /2010/06/fussball-weltmeisterschaft-im-thailaendischen-fernsehen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich entsinne mich, dass ich für die Fussball WM vor vier Jahren mühsam die Fernsehtermine bei den thailändischen Kanälen zusammen gesucht habe. Ganz schön viel Arbeit, wenn man bedenkt, dass ich dieser Sportart absolut nichts abgewinnen kann (au?er vielleicht Würstchen und Bier auf den Tribünen, dazu aber muss man bekannterma?en nicht ins Stadion gehen).
 

@@ -3,6 +3,12 @@ title: Babies in Tüten
 date: 2010-11-15T19:02:06+00:00
 url: /2010/11/babies-in-tueten/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eine Geschichte die Drehbuch für einen thailändischen Horrorfilm sein könnte, trug sich heute in Bangkok zu: Dort fand man in einem Tempel [mehr als 50 Säuglingsleichen][1] in ("verschiedenfarbigen") Plastiktüten.
 

@@ -2,10 +2,12 @@
 title: 'Ansätze'
 date: 2007-03-31T08:38:45+00:00
 url: /2007/03/ansaetze/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich habe ein paar "Erklärungen" zu den Headerbildern hier in der die schreiBBloga.de auf eine Extraseite gepackt. Die [Headerbilder in der die schreiBBloga.de][1].
 

@@ -2,10 +2,12 @@
 title: Thailändische Farbenlehre
 date: 2009-04-11T16:04:36+00:00
 url: /2009/04/thailaendische-farbenlehre/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Dass man mit der Vorliebe für eine Farbe hier in Thailand immer eine politische Meinung hat, habe ich häufiger anmerken lassen. Gestern gab es wieder eines der Beispiele dafür: In Pattaya bekäpften sich "Rote" und "Blaue" T-Shirts.
 

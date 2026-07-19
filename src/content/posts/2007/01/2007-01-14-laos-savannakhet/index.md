@@ -2,10 +2,12 @@
 title: 'Laos: Savannakhet'
 date: 2007-01-13T22:45:52+00:00
 url: /2007/01/laos-savannakhet/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
   1. Internet haben sie
   2. Die Nacht war von Ungewissheit geplagt, in welchen Bus sie mich gesteckt haben. Da stand alles Mögliche drauf, nur keine romanischen Schriftzeichen.

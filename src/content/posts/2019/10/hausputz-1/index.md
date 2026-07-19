@@ -4,13 +4,18 @@ description: ""
 date: 2019-10-23T23:47:53+07:00
 lastmod: 2019-10-23T23:47:53+07:00
 tags:
-    - hausputz
-    - koenigsfamilie
-    - geschichte-thailands
+  - hausputz
+  - koenigsfamilie
+  - geschichte-thailands
 leute:
-    - koenig-maha-vajiralongkorn
-    - sineenart
-
+  - koenig-maha-vajiralongkorn
+  - sineenart
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 -   [Royal Consort Sineenat Stripped of Royal Ranks](http://www.khaosodenglish.com/news/2019/10/21/royal-consort-sineenat-stripped-of-royal-ranks/)

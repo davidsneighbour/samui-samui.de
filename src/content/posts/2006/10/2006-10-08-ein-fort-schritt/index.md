@@ -2,10 +2,12 @@
 title: Ein Fort-Schritt
 date: 2006-10-08T08:32:31+00:00
 url: /2006/10/ein-fort-schritt/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eben habe ich Fu eine Emailadresse eingerichtet. Das ging etwa so:
 

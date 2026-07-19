@@ -2,10 +2,12 @@
 title: Polizeiruf Samui
 date: 2008-03-31T01:53:36+00:00
 url: /2008/03/polizeiruf-samui/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eben kommt auf dem Kabelkanal mit geklauten thaisynchronisierten Filmen so was wie eine Polizeiselbstbeweihräucherung. Man berichtet was man alles in der vergangenen Woche so gemacht hat. Fast ein kleines Videoblog.
 

@@ -3,6 +3,12 @@ title: Die Wahlen sind ungültig
 date: 2006-05-08T03:43:00+00:00
 url: /2006/05/die-wahlen-sind-ungueltig/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Die Wahlen vom 2. April sind eben durch den höchsten Gerichtshof Thailands als ungültig erklärt worden][1]. 8:6 war die Stimmung.
 

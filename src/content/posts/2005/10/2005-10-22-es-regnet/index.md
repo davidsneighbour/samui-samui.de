@@ -3,6 +3,12 @@ title: Es regnet.
 date: 2005-10-21T22:39:00+00:00
 url: /2005/10/es-regnet/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es regnet. Seit **vergangenem** Freitag eigentlich durchgehend. Früh um 4 fängt es an. Ich weiss das, weil ich bei Regen gut einschlafen kann. Allerdings muss man erstmal wach sein, um einzuschlafen. Und erwache ich nach 3 Uhr morgens schlaf ich nicht mehr ein.
 

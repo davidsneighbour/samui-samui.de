@@ -3,6 +3,12 @@ title: Zahltag. Klappe 2 – Remix
 date: 2005-11-01T01:38:00+00:00
 url: /2005/11/zahltag-klappe-2-remix/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Klar. <txp:gho_permalink id="451">Kaum hat man mal was über Bankbesuche geschrieben</txp:gho_permalink>, laufen die Instant-Messaging-Leitungen schon heiss und ich werde wortreich aufgefordert, mehr zu erzählen.
 

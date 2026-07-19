@@ -4,10 +4,12 @@ date: 2008-03-15T02:45:24+00:00
 url: /2008/03/visa-on-arrival-ohne-einschraenkungen/
 dsq_thread_id:
   - "2954364744"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Jawohl! Und wenn es dann in ein paar Tagen die Papierspatzen von den Dächern pfeifen, dann sagt denen bitte, ihr hättet es hier zuerst gelesen.
 

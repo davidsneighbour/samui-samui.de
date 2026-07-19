@@ -3,6 +3,12 @@ title: Segeln gehen
 date: 2011-07-01T13:56:28+00:00
 url: /2011/07/segeln-gehen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Auf Facebook kann man noch bis zum Ende des Jahres am [Nautiness-Gewinnspiel][1] teilnehmen und eine Woche all inklusive für zwei Personen auf einem Segel-Katamaran gewinnen. Segeln, Angeln, Tauchen oder einfach nur in der Sonne braten. Nur den Flug muss man noch bezahlen.
 

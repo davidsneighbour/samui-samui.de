@@ -2,10 +2,12 @@
 title: Pochen.
 date: 2014-05-22T11:41:14+00:00
 url: /2014/05/pochen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich entsinne mich, beim letzten Putsch (dem letzten Offiziellen im Oktober 2006) notiert zu haben, dass politische Unruhen und Umwälzungen in Thailand immer im Mai oder im Herbst (September/Oktober) stattfinden. Dem ist nicht viel hinzu zu fügen...
 

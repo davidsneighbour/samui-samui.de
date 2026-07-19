@@ -2,10 +2,12 @@
 title: Bad News
 date: 2007-12-23T03:05:19+00:00
 url: /2007/12/bad-news-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Schlechte Neuigkeiten für meine Heavy-Metal-Freunde: Vorhin ist mir mein Kurzhaarschneider wieder in die Hände gefallen. Irgendwie ist das ein ziemlich glänzendes Teil. Und mit Strom betrieben und dem richtigen Aufsatz lassen sich alle (in Buchstaben AH-<span class="caps">ELL</span>---<span class="caps">ELL</span>-EH) Haare auf 3mm trimmen.
 

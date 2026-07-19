@@ -5,6 +5,12 @@ url: /2005/01/wie-man-kaputte-motorraeder-zurueck-gibt/
 dsq_thread_id:
   - "6412166557"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Das vermutlich nicht letzte Kapitel meiner gestrigen Erlebnisse durfte ich eben erleben. Gegen 11 schneite Gilbert (Schillbär), der Franzose mit den vielen Mopeds, herein und präsentierte mir stolz den Schlüssel zu "meinem" Moped. Kostenpunkt 2500 THB im Monat. Das sind 50 Euro, was für ein Moped nicht schlecht ist.
 

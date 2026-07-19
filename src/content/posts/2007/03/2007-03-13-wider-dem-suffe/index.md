@@ -2,10 +2,12 @@
 title: Wider dem Suffe
 date: 2007-03-13T09:45:38+00:00
 url: /2007/03/wider-dem-suffe/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute wurde nun das [lange und heftig diskutierte][1] Alkoholgesetz [verabschiedet][2].
 

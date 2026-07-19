@@ -3,6 +3,12 @@ title: Rain Season Blues
 date: 2010-10-07T23:00:51+00:00
 url: /2010/10/rain-season-blues/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5062396668/" title="Pokki relaxing"><img src="//farm5.static.flickr.com/4092/5062396668_05b5f87389.jpg" alt="Pokki relaxing" /></p>

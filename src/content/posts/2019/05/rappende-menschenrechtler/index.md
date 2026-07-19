@@ -3,11 +3,16 @@ title: "Rappende Menschenrechtler"
 date: 2019-05-31T22:24:48+07:00
 url: /2019/05/rappende-menschenrechtler
 tags:
-- musik
-- armee-regierung
-- protest
-- preise
-
+  - musik
+  - armee-regierung
+  - protest
+  - preise
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 <dnb-youtube videoid="VZvzvLiGUtw"></dnb-youtube>

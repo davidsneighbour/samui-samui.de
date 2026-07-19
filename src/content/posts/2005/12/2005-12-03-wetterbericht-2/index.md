@@ -3,6 +3,12 @@ title: Wetterbericht
 date: 2005-12-03T04:09:00+00:00
 url: /2005/12/wetterbericht-2/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich bin heute mal um die Insel gefahren um für meine Leser die aktuelle Situation auf der Insel aufzunehmen. (Eigentlich habe ich jemanden bei "kein Regen" nach Nathon zur Fähre gebracht und wurde dann von einem Regengebiet einmal um die Insel bis nach Lamai getrieben wo ich nun im Office ausharre und flehentlich um schöneres Wetter bitte. Wobei, es kann ruhig regnen. Hab heut nichts weiter vor. Oder warte mal. Ne. Doch.)
 

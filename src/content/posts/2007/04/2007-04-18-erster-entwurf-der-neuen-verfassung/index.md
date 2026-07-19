@@ -2,10 +2,12 @@
 title: Erster Entwurf der neuen Verfassung
 date: 2007-04-18T05:58:21+00:00
 url: /2007/04/erster-entwurf-der-neuen-verfassung/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der [erste Entwurf der neuen Verfassung Thailands][1] wurde heute vorgestellt. Mal sehen, was drinnen steht, die Übersetzung wird nicht lange auf sich warten lassen.
 

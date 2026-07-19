@@ -3,6 +3,12 @@ title: Zwei Soldaten in Tanyong Limo zu Tode gefoltert
 date: 2005-09-23T00:08:00+00:00
 url: /2005/09/tanyong-limo/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 "Two Thai soldiers, who had been held hostage in a mosque in southern Thailand (Tanyong Limo village, in Thailand's disturbed Narathiwat province), were beaten to death 18 hours after they were seized, an army officer said. As some 2,000 anger villagers prevented authorities from entering the mosque, the two were stabbed in their stomachs and badly beaten about their heads."
 

@@ -2,10 +2,12 @@
 title: Kurz Geschnittenes II
 date: 2007-04-03T07:59:37+00:00
 url: /2007/04/kurz-geschnittenes-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Dienstags sitzt das Kabinett in Bangkok beim Kaffee und beschließt dies und das. Heute unter anderem Folgendes:
 

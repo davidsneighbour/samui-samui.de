@@ -2,10 +2,12 @@
 title: Terrorismuskunde
 date: 2008-11-26T00:50:02+00:00
 url: /2008/11/terrorismuskunde/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ?brigens finde ich es Klasse (jetzt mal natürlich nur rein aus terrorismuswissenschaftlicher Sicht geschrieben), dass mit der Flughafen-, ehm, -betriebseinschränkung durch die überaus friedfertigen gelben Demonstranten der <span class="caps">PAD</span> die Haupteinnahmequelle der thailändischen Wirtschaft (nein, nicht Reis, keine Pickups und schon gar die Marial Arts) --- die Touristen --- angegriffen werden.
 

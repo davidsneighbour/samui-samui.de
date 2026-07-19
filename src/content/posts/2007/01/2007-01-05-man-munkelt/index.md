@@ -2,10 +2,12 @@
 title: Man munkelt
 date: 2007-01-04T20:14:12+00:00
 url: /2007/01/man-munkelt/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern war mal [wieder so ein Tag][1], wo man die ganze Zeit lesen und hören konnte, es würde vom Militär ein Putsch gegen die ?bergangsregierung geplant.
 

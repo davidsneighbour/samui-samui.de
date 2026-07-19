@@ -3,6 +3,12 @@ title: Hier der Titel
 date: 2006-03-01T18:50:54+00:00
 url: /2006/03/hier-der-titel/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute morgen dachte sich das Schicksal "der Typ hat lange keinen Menschen mehr sterben gesehen" und lies zwei Frauen mit ihrem Moped verunglücken nur Sekunden nachdem sie mir und Pokki am Geisterhausfriedhof zugewunken haben. Wir waren gerade fertig mit dem morgendlichen Auslauf. Als wir um die nächste Kurve bogen (<txp:gho_permalink id="218">eben diese Kurve</txp:gho_permalink>) lag das Moped mit den beiden Frauen mitten auf der Straße und die Wächter des nahegelegenen Ressort kamen gelaufen. Eine der Frauen war relativ unversehrt und panisch, weil die andere Frau bewusstlos war. Die Wächter trugen sie von der Straße und wir rämten die Mopedreste zusammen.
 

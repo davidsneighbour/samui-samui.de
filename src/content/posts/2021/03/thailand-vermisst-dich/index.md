@@ -5,15 +5,21 @@ date: 2021-03-16T19:08:02+07:00
 lastmod: 2021-03-16T19:08:02+07:00
 url: /2021/03/thailand-vermisst-dich
 tags:
-- tat
-- thailand
-- reisen
-- covid19
+  - tat
+  - thailand
+  - reisen
+  - covid19
 linktitle: "use for linking to this post"
 resources:
-    - src: "522265992.jpg"
-      name: "thailand-misses-you"
-      title: "Thailand misses you (video thumbnail via vimeo.com)"
+  - src: "522265992.jpg"
+    name: "thailand-misses-you"
+    title: "Thailand misses you (video thumbnail via vimeo.com)"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 <dnb-vimeo videoid="522265992" videotitle="Thailand vermisst dich"></dnb-vimeo>

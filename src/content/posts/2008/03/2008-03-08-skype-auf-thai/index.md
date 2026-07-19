@@ -2,10 +2,12 @@
 title: Skype auf Thai
 date: 2008-03-08T00:05:10+00:00
 url: /2008/03/skype-auf-thai/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Skype][1] auf Thai? Das geht. Mit dem Sprachfile, das man [hier][2] downloaden kann. Vorsicht, es blinkt überall und jede Menge Banner versperren den Weg.
 

@@ -3,6 +3,12 @@ title: Sonntagmorgen auf Samui
 date: 2005-07-30T23:34:00+00:00
 url: /2005/07/sonntagmorgen-auf-samui/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gut geschlafen. Auf ner komischen Matraze in ner komischen Hütte. Nachts im Plastikstuhl auf der "Veranda" gesessen und "Hannibal" gelesen. Meer gelauscht. Sextouristen aus Deutschland beobachtet. Irgendwie isses ihnen ja doch peinlich. Das Nebenhaus hatte Sex. Ungefähr 30 Sekunden lang. Wenn das Vorspiel leise war isses ok. Wenn nicht, tut (Hilfsverb) mir der weibliche Part leid. Könnte sein, dass die Hüttenwahl negativ in die Geschichte der die.schreibbloga.de eingehen wird. Hier spricht fast jeder Deutsch. Habt ihr Ferien oder so Kram?
 

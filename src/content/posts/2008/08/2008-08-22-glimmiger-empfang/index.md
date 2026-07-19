@@ -2,10 +2,12 @@
 title: Glimmiger Empfang
 date: 2008-08-22T01:50:18+00:00
 url: /2008/08/glimmiger-empfang/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Gary Glitter ist zu Hause angekommen][1]. Das nur, damit unsere kleine Reise</a>---<a href="1642">Serie zu einem glücklichen Ende gebracht werden kann. Die thailändische Immigrationsbehörde hat gerade noch rechtzeitig festgestellt, dass sie dabei ist, mit dieser Farce mehr als nur ihr Gesicht zu verlieren und ihn kurzerhand ins Flugzeug nach London gesetzt.
 

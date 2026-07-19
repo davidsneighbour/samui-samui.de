@@ -5,12 +5,15 @@ url: /2014/12/diesem-sinne-2/
 dsq_thread_id:
   - "3376663630"
 
-
-
 tags:
   - au4
   - video
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <dnb-youtube videoid="sp8sdZe1hrw"></dnb-youtube>
 

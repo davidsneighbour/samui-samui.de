@@ -2,10 +2,12 @@
 title: Amnesty International verdammt die Anschläge von Hat Yai
 date: 2006-09-17T09:53:00+00:00
 url: /2006/09/amnesty-international-verdammt-die-anschlaege-von-hat-yai/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Amnesty International verdammt die Anschläge von Hat Yai][1]. Damit heißen sie ja implizit die bisherigen Anschläge gut, oder?
 

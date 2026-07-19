@@ -5,6 +5,12 @@ url: /2005/01/benzin-wozu-braucht-ein-moped-benzin/
 dsq_thread_id:
   - "2897598133"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Titelgebende Zeile mag ausschlaggebend für mein "kleines" Problem heute morgen gewesen sein. Ich dachte schon seit ein paar Tagen, ich sollte mal wieder tanken. Da ich aber nur auf Arbeit und zurück fuhr, verschob ich das immer wieder auf später. Nach der Laundry aber machte mein kleines sü?es Moped plötzlich seltsame Laute. Spotz spotz. Ich dachte mir, es wäre nicht unklug, nun gleich tanken zu fahren. Das Moped dachte es auch und ging an der nächsten Kreuzung aus.
 

@@ -2,10 +2,12 @@
 title: Doktor Wer?
 date: 2008-11-19T23:24:30+00:00
 url: /2008/11/doktor-wer/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Früher, als Speicher noch ganz knapp war, wurde häufig durch Löschen Platz geschaffen. Und so geschah es, dass jede Menge Episoden der Serie [Doctor Who][1] der <span class="caps">BBC</span> auf Nimmerwiedersehen verschwanden. Vielleicht nicht alle, denn ein "Forscher" hat zumindest neun dieser Folgen (in denen es sinnigerweise um eine (Zeit-)Reise des Doktors mit Marco Polo auf der Seidenstraße geht) nach Thailand verfolgt.
 

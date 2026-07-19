@@ -5,8 +5,14 @@ date: 2020-01-21T17:37:17+07:00
 lastmod: 2020-01-21T17:37:17+07:00
 
 tags:
-    - undjetztmalwerbung
-    - video
+  - undjetztmalwerbung
+  - video
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 <dnb-youtube videoid="aXP3C5Kg-7w"></dnb-youtube>

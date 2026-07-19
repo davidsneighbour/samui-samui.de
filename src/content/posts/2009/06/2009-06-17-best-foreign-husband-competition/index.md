@@ -4,10 +4,12 @@ date: 2009-06-17T01:26:24+00:00
 url: /2009/06/best-foreign-husband-competition/
 dsq_thread_id:
   - "3333508132"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
 </div>

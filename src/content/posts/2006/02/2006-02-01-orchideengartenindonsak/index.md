@@ -3,6 +3,12 @@ title: Orchideen-Garten in Donsak
 date: 2006-02-01T01:43:00+00:00
 url: /2006/02/orchideengartenindonsak/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/93506575/" title="Orchid Garden in Donsak"><img src="//static.flickr.com/26/93506575_eb4b13b03d.jpg" alt="Orchid Garden in Donsak" /></a></p>

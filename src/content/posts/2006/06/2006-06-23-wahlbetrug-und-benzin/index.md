@@ -2,10 +2,12 @@
 title: Wahlbetrug und Benzin
 date: 2006-06-23T00:05:03+00:00
 url: /2006/06/wahlbetrug-und-benzin/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern hat die Wahlkommission EC (Election Commission) Thailands einen Untersuchungsbericht veröffentlicht und sagt nun auch, [dass Thai Rak Thai (TRT, Thaksins Partei) kleinere Parteien bestochen hat][1], bei der (inzwischen annullierten) Wahl vom April anzutreten. Das ist ziemlich interessant weil EC dafür berüchtigt ist in ihrer unabhängigen eigenständigen Meinung eher zu TRT zu tendieren und kleinere Parteien eher zu bestrafen als TRT.
 

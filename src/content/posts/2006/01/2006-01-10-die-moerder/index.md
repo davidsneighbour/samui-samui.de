@@ -4,10 +4,12 @@ date: 2006-01-10T03:40:00+00:00
 url: /2006/01/die-moerder/
 dsq_thread_id:
   - "2935645783"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Vorgestern Nacht hat man die Mörder der englischen Studentin gefasst. Wenn ich mir den [Bericht in The Nation online][1] dazu durchlese mache ich mir schon Gedanken darüber, wie niedrig die Hemmschwelle sein kann mit ein bisschen Porno und ein bisschen Sangsom (beides preiswert überall erhältlich).
 

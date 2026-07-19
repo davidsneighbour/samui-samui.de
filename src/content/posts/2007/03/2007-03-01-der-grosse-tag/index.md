@@ -2,10 +2,12 @@
 title: Der gro?e Tag
 date: 2007-02-28T22:32:56+00:00
 url: /2007/03/der-grosse-tag/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es sieht so aus, als ob ich tatsächlich heute Abend das weltweite Internetz aus meiner kleinen Hütte heraus besuchen kann.
 

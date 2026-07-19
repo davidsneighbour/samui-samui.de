@@ -5,6 +5,12 @@ url: /2005/08/breaking-news-die-digicam-geht-wieder/
 dsq_thread_id:
   - "6412166709"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eben wollte ich in einem Aufbegehren wilder Agressivität meine kleine kaputte Digicam medienwirksam zerstören. Ich legte nochmal zwei Akkus ein, um zu sehen, dass sie wirklich nicht geht. Sie ging nicht an. Ich legte zwei andere Akkus ein und sie ging an. Das ging ja immer, ich nahm sie also bei der Hand und holte zum Wurf aus, als beim Drücken auf den Auslöser statt des Geräusches des kaputten Ausschaltens ein Blitz erschien. Ein Foto ward gemacht.
 

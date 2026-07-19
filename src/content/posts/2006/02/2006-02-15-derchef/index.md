@@ -3,6 +3,12 @@ title: Der Chef
 date: 2006-02-14T22:12:00+00:00
 url: /2006/02/derchef/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [![The Boss][1]][2]
 

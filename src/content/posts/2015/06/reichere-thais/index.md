@@ -5,6 +5,12 @@ url: /2015/06/reichere-thais/
 tags:
   - central
   - chirathivat
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Die [neulich erwähnte][1] Familie Chirathivat, Eigentümer der Central-Kaufhaus-Kette und von Platz 1 der reichsten Thais auf Platz 3 gefallen, expandiert nach Deutschland.

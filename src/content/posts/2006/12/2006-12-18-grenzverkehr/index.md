@@ -2,10 +2,12 @@
 title: Grenzverkehr
 date: 2006-12-17T20:16:57+00:00
 url: /2006/12/grenzverkehr/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Am Samstag hab ich mal nachgesehen, ob an der Grenze zu Malaysia alles in Ordnung ist. [Glaubt man den Medienberichten][1], ist dem nicht so. Da haben doch tatsächlich ein paar Thais einen armen malayischen Grenzbeamten beim Mittagsspaziergang jenseits der Grenze verprügelt, weil der einem der Thais die Einreise verweigert hat.
 

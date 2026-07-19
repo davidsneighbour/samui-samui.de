@@ -2,10 +2,12 @@
 title: Flugplatznews
 date: 2008-11-26T21:57:37+00:00
 url: /2008/11/flugplatznews/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Jetzt ist auch noch der zweite, alte, Flughafen Bangkoks, Don Mueang, von den Demonstranten blockiert und niemand kommt mehr raus oder rein. Demnächst darf man dann auf den Ladeflächen der Pickups über Laos und Malaysia in und aus dem Urlaub kommen. Wobei, Laos und Malaysia sind beides sehr schöne Länder, voller freundlicher Menschen. Und die jeweiligen Regierungen lassen solche meinungsfreiheitlichen Überinterpretationen demokratischer Grundbegriffe nicht zu. Könnte man doch gleich dort bleiben... In Malaysia gibt es ein 90-Tage-Visa on Arrival.
 

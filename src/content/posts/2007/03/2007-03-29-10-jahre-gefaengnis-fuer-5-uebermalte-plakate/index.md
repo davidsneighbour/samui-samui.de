@@ -4,10 +4,12 @@ date: 2007-03-29T00:24:03+00:00
 url: /2007/03/10-jahre-gefaengnis-fuer-5-uebermalte-plakate/
 dsq_thread_id:
   - "2915127330"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Den König zu beleidigen ist strafbar in Thailand, ich schrieb das schon mehrfach. Auf Majestätsbeleidigung stehen zwischen 3 und 15 Jahren Gefängnisstrafe. Dabei kann man sowohl versteckte Bemerkungen wie die Thaksins, dass man ihn mit Wimpeln mit dem Königssymbol begrü?te um ihn zu täuschen, als Beleidigung werten als auch offensichtliche Aktivitäten wie das ?bermalen der allgegenwärtigen Königsbilder im öffentlichen Raum.
 

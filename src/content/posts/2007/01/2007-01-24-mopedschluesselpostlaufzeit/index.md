@@ -2,10 +2,12 @@
 title: Mopedschlüsselpostlaufzeit
 date: 2007-01-24T07:44:43+00:00
 url: /2007/01/mopedschluesselpostlaufzeit/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Nur fürs Protokoll: Wenn man innerhalb Thailands einen Mopedschlüssel (Modell Honda, klobig, sperrig) in einem normalen Briefumschlag versendet (bspw. weil Thais absolut unzuverlässig sind, was Terminangaben und -absprachen betrifft und beim Schlafen das Mobiltelefon ausschalten und man dann den Hausschlüssel für den befreundeten Hundebabysitter beim Hausbesitzer abgeben muss, dann schnell mit dem Moped voll bepackt zum Busbahnhof fahren und es dort am Stra?enrand stehen lassen muss und dann natürlich den Schlüssel nicht wie vereinbart auf dem Tisch liegen lassen kann), dann kostet das 7 Baht (ohne Zuschläge) und der Brief hat eine ungefähre Laufzeit von 13 Tagen bis er am Ziel ankommt.
 

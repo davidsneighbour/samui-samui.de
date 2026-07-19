@@ -2,10 +2,12 @@
 title: Mein eigener Freund
 date: 2009-07-28T02:07:05+00:00
 url: /2009/07/mein-eigener-freund/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   ![](/wp-content/old-images/272.jpg)

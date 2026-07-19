@@ -3,6 +3,12 @@ title: Flugzeugträger in der Bucht
 date: 2011-03-29T16:49:13+00:00
 url: /2011/03/flugzeugtraeger-in-der-bucht/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Und auch die Deutsche Botschaft schreibt schon einen Rundbrief wegen des Wetters:
 

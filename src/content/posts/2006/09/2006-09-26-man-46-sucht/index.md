@@ -2,10 +2,12 @@
 title: Man, 46, sucht…
 date: 2006-09-26T10:39:00+00:00
 url: /2006/09/man-46-sucht/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/253344142/" title="Searching"><img src="//static.flickr.com/113/253344142_5dc3e235a3.jpg" alt="Searching" /></a></p>

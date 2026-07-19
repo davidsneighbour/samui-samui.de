@@ -3,6 +3,12 @@ title: Verschnupfte Schweine
 date: 2012-06-21T12:25:56+00:00
 url: /2012/06/verschnupfte-schweine/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In Nakhon Ratchasima wurde bei mehr als 40 Patienten die Schweinegrippe (die ältern unter meinen Lesern werden sich erinnern, das war im Jahr 2009 mal die Seuche des Jahres) [diagnostiziert][1]. Es gibt (offiziell) natürlich keinen Grund zur Besorgnis --- trotzdem ist es interessant, wie lange sich sowas in der freien Natur halten kann.
 

@@ -2,10 +2,12 @@
 title: Die Wahlkommission
 date: 2006-09-08T20:40:00+00:00
 url: /2006/09/die-wahlkommission/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern wurde [die neue Election Commission][1] gewählt. Für die Bekanntgabe der Ergebnisse wurde sogar meine Thaisoap unterbrochen:
 

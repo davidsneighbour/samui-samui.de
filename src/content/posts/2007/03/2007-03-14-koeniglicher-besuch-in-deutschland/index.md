@@ -2,10 +2,12 @@
 title: Königlicher Besuch in Deutschland
 date: 2007-03-13T21:08:17+00:00
 url: /2007/03/koeniglicher-besuch-in-deutschland/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute fliegt [Her Royal Highness Princess Soamsawali][1], die Ehefrau des [Kronprinzen][2] auf einen [offiziellen Besuch nach Deutschland][3]. Unter anderem wird sie verschiedene Ausstellungen besuchen und eröffnen und jede Menge Bayern treffen.
 

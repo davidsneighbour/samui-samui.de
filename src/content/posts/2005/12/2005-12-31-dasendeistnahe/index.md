@@ -3,6 +3,12 @@ title: Das Ende ist nahe!
 date: 2005-12-30T22:46:00+00:00
 url: /2005/12/dasendeistnahe/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="455" src="//static.flickr.com/42/79628578_8368acd571.jpg" alt="Hin Da Hin Yai, New Years Eve Morning." />][1]
 

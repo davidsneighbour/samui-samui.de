@@ -4,10 +4,12 @@ date: 2013-07-09T11:51:53+00:00
 url: /2013/07/katastrophenalarm/
 fb_author_post_id:
   - 517050641_10151523439945642
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eben im 7eleven --- ein freundliches Hinweisschild hängt an allen leeren Regalen:
 

@@ -3,6 +3,12 @@ title: Dan & Beam (& Big)
 date: 2005-11-14T02:04:14+00:00
 url: /2005/11/dan-beam-bic/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ach zu [Dan & Beam][1] gibts auch noch eine Zusatzgeschichte zu erzählen. Jeder der erst dieses Jahr begann, sich für Dan und Beam und ihre eingängigen unterhaltsamen Melodien zu interessieren wird beim Erwähnen des Namens Big nicht mit der Wimper zucken.
 

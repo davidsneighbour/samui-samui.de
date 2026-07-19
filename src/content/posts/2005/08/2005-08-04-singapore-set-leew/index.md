@@ -3,6 +3,12 @@ title: Singapore. Set leew.
 date: 2005-08-04T06:56:00+00:00
 url: /2005/08/singapore-set-leew/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Nun. Es war ja schon ganz lustig für jeden, der mich beobachtet hat auf meiner kleinen Reise.
 

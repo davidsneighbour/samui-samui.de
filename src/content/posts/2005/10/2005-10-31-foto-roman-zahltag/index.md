@@ -3,6 +3,12 @@ title: "Foto-Roman: Zahltag"
 date: 2005-10-31T00:28:00+00:00
 url: /2005/10/foto-roman-zahltag/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Wenn man am Zahltag diesen Batzen Geld...
 

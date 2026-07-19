@@ -3,10 +3,12 @@ title: Die Statements der Administrative Reform Group
 date: 2006-09-20T00:05:00+00:00
 excerpt: 'Die BBC hat "alle Statements":http://news.bbc.co.uk/2/hi/asia-pacific/5361756.stm der "Administrative Reform Group"... '
 url: /2006/09/die-statements-der/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Leaders of Thailand's military coup have released a series of statements. The initial statement and communiques 1 to 4 were read out on army television and a sixth statement appeared in English on the website of The Nation newspaper. The texts of the four statements follow:
 

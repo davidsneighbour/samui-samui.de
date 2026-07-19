@@ -3,6 +3,12 @@ title: There is a new ride in town
 date: 2010-01-27T23:05:04+00:00
 url: /2010/01/there-is-a-new-ride-in-town/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/4310873587/" title="The new ride"><img src="//farm5.static.flickr.com/4060/4310873587_90d1724e1a.jpg" alt="The new ride" /></p>

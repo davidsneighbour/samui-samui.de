@@ -4,10 +4,12 @@ date: 2008-02-22T23:16:49+00:00
 url: /2008/02/krieg-den-drogen/
 dsq_thread_id:
   - "3221383581"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 

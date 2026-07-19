@@ -3,6 +3,12 @@ title: Ein Krathong
 date: 2005-11-16T01:06:00+00:00
 url: /2005/11/einkrathong/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="420" src="//static.flickr.com/30/63818774_9182c6a2ce.jpg" alt="Krathong" />][1]
 

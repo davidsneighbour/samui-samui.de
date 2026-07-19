@@ -2,10 +2,12 @@
 title: Mopednews
 date: 2006-08-29T10:07:00+00:00
 url: /2006/08/mopednews/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So. Ich glaube ich habe mich so langsam mit <txp:gho_permalink id="856">meinem neuen Behindertengefährt</txp:gho_permalink> abgefunden. Meine Füße zucken nicht mehr unkontrolliert, wenn es Gänge zu schalten gibt (weil es keine Gänge zu schalten gibt) und auch die Sache mit den Bremsen wird langsam klar. Vorne links ist Vollbremsung und vorne rechts Abbremsen. Einziges Manko ist, dass kein Körbchen am Moped ist, denn Pokki mag die Stellfläche nicht allzusehr.
 

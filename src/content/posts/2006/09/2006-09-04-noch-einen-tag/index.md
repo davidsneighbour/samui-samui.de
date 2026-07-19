@@ -2,10 +2,12 @@
 title: Noch einen Tag
 date: 2006-09-04T07:09:00+00:00
 url: /2006/09/noch-einen-tag/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/233701657/" title="buffalos"><img src="//static.flickr.com/94/233701657_8176765af3.jpg" alt="buffalos" /></a></p>

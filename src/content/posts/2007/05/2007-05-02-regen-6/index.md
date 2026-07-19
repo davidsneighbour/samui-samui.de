@@ -2,10 +2,12 @@
 title: Regen
 date: 2007-05-02T04:44:25+00:00
 url: /2007/05/regen-6/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Yeah. Endlich wieder mal Regen. [Eines meiner Lieblingsthemen][1]. Seit 5 Tagen regnet es durchgehend. Mal ein bisschen, mal sehr, mal richtig viel. Es ist richtig nass.
 

@@ -3,6 +3,12 @@ title: Ihr privates kleines Stück Trauminsel
 date: 2006-11-23T08:29:22+00:00
 url: /2006/11/ihr-privates-kleines-stueck-trauminsel/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Kommse rein, kommse her, hier gibts noch was für den Euro!!!
 

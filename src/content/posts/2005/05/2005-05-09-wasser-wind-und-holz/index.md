@@ -3,6 +3,12 @@ title: Wasser, Wind und Holz
 date: 2005-05-08T22:29:47+00:00
 url: /2005/05/wasser-wind-und-holz/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es warnen ja immer wieder die intimen Kenner des Verkehrs auf der Insel vor dem Mopedfahren ohne Helm. Schlie?lich kann da ne Menge passieren. Man kann von einem Truck von der Stra?e gewischt werden, gegen andere Verkehrsteilnehmer fahren oder einfach so vom Moped fallen. Was diese Leute nicht wissen ist, dass man ebensogut von einem Baumstamm vom Auto gewischt und mit gespaltenem Kopf auf die Stra?e geklatscht werden kann. Da hilft dann auch kein Plastikhelm.
 

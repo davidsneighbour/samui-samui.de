@@ -2,10 +2,12 @@
 title: Schweiz
 date: 2007-03-14T21:43:48+00:00
 url: /2007/03/schweiz/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 **Königlich Thailändische Botschaft**
 

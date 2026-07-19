@@ -2,10 +2,12 @@
 title: Thaksin bekommt einen Burger und verliert einen Koffer
 date: 2007-05-24T12:18:41+00:00
 url: /2007/05/thaksin-bekommt-einen-burger-und-verliert-einen-koffer/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Bangkok Post hat natürlich in der Thaksinsache den besten Titel:
 

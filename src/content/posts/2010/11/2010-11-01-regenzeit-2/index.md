@@ -3,6 +3,12 @@ title: Regenzeit
 date: 2010-11-01T02:02:28+00:00
 url: /2010/11/regenzeit-2/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute fuhr ein Pickup durch Chaweng, der sonst Box-Kämpfe oder die Full-Moon-Party anpreist und warnte die Bevölkerung vor der "Depression". Ich wurde dann auch prompt gefragt, was denn eine Depression wäre und fing an, langwierig über chemische Vorgänge, Vererbung und soziologische Faktoren zu dozieren. Nachdem alle Zuhörer mit dem Lachen fertig waren, wurde mir erklärt, dass das Thema des Tages eine "tropische Depression" ist --- [schlechtes Wetter][1].
 

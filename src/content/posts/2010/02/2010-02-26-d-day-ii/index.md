@@ -3,6 +3,12 @@ title: D-Day II
 date: 2010-02-26T00:20:51+00:00
 url: /2010/02/d-day-ii/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Würfel sind gefallen: [46 Milliarden Baht][1] aus Thaksins eingefrorenen Geldern werden eingezogen, da er sie lt. Urteil unrechtmä?ig beschafft hat, 30 Milliarden bekommt er zurück. Damit hat er ja wieder erstmal ein bisschen Geld in der Kaffeekasse.
 

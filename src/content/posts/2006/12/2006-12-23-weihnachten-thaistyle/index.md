@@ -4,10 +4,12 @@ date: 2006-12-23T04:07:12+00:00
 url: /2006/12/weihnachten-thaistyle/
 dsq_thread_id:
   - "3110607332"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern fragte [Lowlander][1] in den Kommentaren, wie denn in Thailand Weihnachten gefeiert würde. Die Antwort darauf ist einfach: Gar nicht.
 

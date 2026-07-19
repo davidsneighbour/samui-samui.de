@@ -2,10 +2,12 @@
 title: Vorbereitet
 date: 2006-01-31T02:02:00+00:00
 url: /2006/01/vorbereitet/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [![2006-01-30 197][1]][2]
 

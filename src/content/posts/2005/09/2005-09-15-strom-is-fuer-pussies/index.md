@@ -3,6 +3,12 @@ title: Strom is f??r Pussies
 date: 2005-09-14T20:24:00+00:00
 url: /2005/09/strom-is-fuer-pussies/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Zur Zeit wird unsere schöne Palmeninsel mit neuen Kabeln ausgestattet durch die mehr und besserer Strom fließen soll. Aus diesem freudigen Grunde hatten wir zwischen Mai und Juli regelmäßig Stromausfälle. Die blieben in letzter Zeit aus. Weshalb der leichtgläubige Farang annahm, dass es nun vorbei wäre.
 

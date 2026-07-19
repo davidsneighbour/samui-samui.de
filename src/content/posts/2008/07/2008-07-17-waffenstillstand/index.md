@@ -2,10 +2,12 @@
 title: Waffenstillstand
 date: 2008-07-16T22:26:01+00:00
 url: /2008/07/waffenstillstand/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Separatisten in den drei südlichen Provinzen haben heute (medienwirksam) einen [Waffenstillstand verkündet][1].
 

@@ -2,10 +2,12 @@
 title: (Keine) CIA-"Gefängnisse“ in Thailand
 date: 2008-01-17T12:14:22+00:00
 url: /2008/01/keine-cia-gefaengnisse-in-thailand/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es gab niemals <span class="caps">CIA</span>--- ehm Gefängnisse in Thailand. [Wirklich][1].
 

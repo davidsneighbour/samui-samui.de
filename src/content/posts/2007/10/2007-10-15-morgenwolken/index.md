@@ -2,10 +2,12 @@
 title: Morgenwolken
 date: 2007-10-15T11:09:09+00:00
 url: /2007/10/morgenwolken/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1582877684/" title="Morning Clouds"><img src="//farm3.static.flickr.com/2282/1582877684_f167d731db.jpg" alt="Morning Clouds" /></a></p>

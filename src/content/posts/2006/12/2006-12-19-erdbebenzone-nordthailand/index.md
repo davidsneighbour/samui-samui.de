@@ -2,10 +2,12 @@
 title: Erdbebenzone Nordthailand
 date: 2006-12-19T02:48:22+00:00
 url: /2006/12/erdbebenzone-nordthailand/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In und um Chiang Mai herum wackelt öfters mal die Erde. Letzte Woche gab es ein (auf der Richterskala) grösseres Erdbeben, [heute morgen eines mit einer Stärke von 2.7][1].
 

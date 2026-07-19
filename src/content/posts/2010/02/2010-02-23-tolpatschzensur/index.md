@@ -3,6 +3,12 @@ title: Tolpatschzensur
 date: 2010-02-23T15:12:28+00:00
 url: /2010/02/tolpatschzensur/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Seit ein paar Tagen wird bei meinem Internet-Provider <span class="caps">TOT</span> versucht, bestimmte Seiten bei Facebook zu blocken. Das hängt wohl mit der für Freitag angekündigten Urteilsverkündigung zu der Weiterverwendung der eingefrorenen Reichtümer des Golfpräsidenten Thailands zusammen.
 

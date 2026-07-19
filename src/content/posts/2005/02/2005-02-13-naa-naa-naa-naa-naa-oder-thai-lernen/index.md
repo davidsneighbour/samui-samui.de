@@ -3,6 +3,12 @@ title: Naa Naa Naa Naa Naa – oder Thai lernen
 date: 2005-02-12T22:14:26+00:00
 url: /2005/02/naa-naa-naa-naa-naa-oder-thai-lernen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ok. Ich wusste ja, dass es schwer werden würde, aber muss es denn gleich _so_ schwer sein?
 

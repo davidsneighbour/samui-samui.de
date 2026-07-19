@@ -2,10 +2,12 @@
 title: ?sterreich
 date: 2007-03-14T21:43:37+00:00
 url: /2007/03/oesterreich/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 **Königlich Thailändische Botschaft**
 

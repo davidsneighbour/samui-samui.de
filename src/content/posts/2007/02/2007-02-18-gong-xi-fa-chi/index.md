@@ -2,10 +2,12 @@
 title: Gong Xi Fa Chi
 date: 2007-02-18T08:16:40+00:00
 url: /2007/02/gong-xi-fa-chi/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/393997409/"><img src="//farm1.static.flickr.com/172/393997409_1a7d9b5be1.jpg" class="flickr-photo" alt="" /></a></p>

@@ -2,10 +2,12 @@
 title: Wochenende
 date: 2007-02-10T03:19:10+00:00
 url: /2007/02/wochenende-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eine SMS, die in etwa mein bisheriges Wochenende beschreibt (selbst die Tatsache, dass ich sowas per SMS schreiben musste, trägt zum Wochenende bei):
 

@@ -2,10 +2,12 @@
 title: Gerüchte des Tages
 date: 2009-04-11T23:29:33+00:00
 url: /2009/04/geruechte-des-tages/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Gerüchte des Tages besagen, dass der Präsident des thailändischen Profigolferverbandes sich endlich wieder (wenngleich auch auf Umwegen und höchst illegal) im Land des erstarrten Lächelns aufhält. Man sucht ihn auf Koh Chang.
 

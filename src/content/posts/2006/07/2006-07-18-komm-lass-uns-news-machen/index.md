@@ -3,6 +3,12 @@ title: Komm lass uns News machen
 date: 2006-07-18T00:19:23+00:00
 url: /2006/07/komm-lass-uns-news-machen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern gab es ein Seebeben in der Nähe von Indonesien. Das ist nichts Außergewöhnliches. Es bebt hier öfters mal. Diesmal allerdings wurde eine Welle ausgelöst die an der Küste von Java aufschlug und mehr als 200 Menschen tötete.
 

@@ -3,6 +3,12 @@ title: … dass ich euch Nichts nehme!
 date: 2005-07-18T06:41:00+00:00
 url: /2005/07/dass-ich-euch-nichts-nehme/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Zarathustra stieg allein das Gebirge abwärts und Niemand begegnete ihm. Als er aber in die Wälder kam, stand auf einmal ein Greis vor ihm, der seine heilige Hütte verlassen hatte, um Wurzeln im Walde zu suchen. Und also sprach der Greis zu Zarathustra:
 

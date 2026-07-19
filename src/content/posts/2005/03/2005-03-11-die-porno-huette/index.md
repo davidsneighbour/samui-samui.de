@@ -5,6 +5,12 @@ url: /2005/03/die-porno-huette/
 dsq_thread_id:
   - "3664821706"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eigentlich wollte ich ja mein erstes Statement zum Thema Sex und Thailand etwas anders gestalten, aber das hier ist nun echt der Hammer.
 

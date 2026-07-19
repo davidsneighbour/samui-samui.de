@@ -2,10 +2,12 @@
 title: Parlamentarisches Desaster
 date: 2009-04-04T17:13:22+00:00
 url: /2009/04/parlamentarisches-desaster/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3385190256/" title="Learning Thai (reading and writing now)"><img src="//farm4.static.flickr.com/3440/3385190256_bfb4b2be97.jpg" alt="Learning Thai (reading and writing now)" /></a></p>

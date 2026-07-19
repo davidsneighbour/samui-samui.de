@@ -2,10 +2,12 @@
 title: '50% weniger Touristen auf Samui'
 date: 2009-06-29T21:08:21+00:00
 url: /2009/06/50-weniger-touristen-auf-samui/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die [Touristenzahlen auf Samui][1] sind um 40-50% im Vergleich zum Vorjahr gesunken. Neben dem politischen Hin- und Her müssen Rezession und die Grippewelle als Gründe her halten.
 

@@ -3,6 +3,12 @@ title: H??hnisches Grinsen
 date: 2005-12-07T00:14:00+00:00
 url: /2005/12/hoehnischesgrinsen/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="455" src="//static.flickr.com/34/71090194_d208989eff.jpg" alt="Sneering Sun" />][1]
 

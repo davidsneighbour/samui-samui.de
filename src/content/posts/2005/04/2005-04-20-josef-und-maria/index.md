@@ -3,6 +3,12 @@ title: Josef und Maria
 date: 2005-04-20T00:36:00+00:00
 url: /2005/04/josef-und-maria/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <img src="/images/105.jpg" style="height:75px;width:75px;float:left;margin-right:10px;" />(12:34:26) Gunnar: BILD: "Sein Vater (Gendarm) hieß Joseph. Seine Mutter Maria. Seine Geburt war ein Zeichen."
 

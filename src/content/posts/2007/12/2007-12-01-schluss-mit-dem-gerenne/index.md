@@ -2,10 +2,12 @@
 title: Schluss mit dem Gerenne
 date: 2007-11-30T19:51:29+00:00
 url: /2007/12/schluss-mit-dem-gerenne/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So. Man ist wieder vollwertiges Mitglied der ausländischen Meute in Thailand. Ein Konsulat in einer kleinen malaysischen Stadt hat ein Einsehen mit meinen chaotisch vorgelegten Papieren gehabt und mir ein buntes Visa mit Hologramm (der neueste Schrei in der Thaivisa-Szene) geklebt. Gültig für viele Einreisen innerhalb des nächsten Jahres. Ich werde versuchen, die Einreisen so niedrig zu halten wie möglich und nötig.
 

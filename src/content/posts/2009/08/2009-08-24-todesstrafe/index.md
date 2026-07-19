@@ -4,10 +4,12 @@ date: 2009-08-24T13:48:44+00:00
 url: /2009/08/todesstrafe/
 dsq_thread_id:
   - "3184440661"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Thailand (oder seine Repräsentanten) sieht sich gerne als modernes und fortgeschrittenes Land. Solange aber die Todesstrafe weiterhin ([so wie vorgestern Nacht][1]) verhängt und ausgeübt wird, bleibt es ein kleines pimfiges Dritte Welt Land.
 

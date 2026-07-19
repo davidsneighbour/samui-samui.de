@@ -3,6 +3,12 @@ title: David Carradines Witwe klagt
 date: 2010-06-07T15:04:12+00:00
 url: /2010/06/david-carradines-witwe-klagt/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Vor ziemlich genau einem Jahr fand man David Carradine, Schauspieler in Serien wie "Kung Fu" und Filmen wie "Kill Bill" im Schrank eines Bangkoker Hotels tot hängend auf.
 

@@ -2,10 +2,12 @@
 title: Malaysische Notizen
 date: 2007-11-30T20:04:07+00:00
 url: /2007/12/malaysische-notizen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Malaysia ist teuer. Aus Thaisicht. Von Deutschland aus würde man wahrscheinlich über EUR1.50 teure Riesen-Cappuccini lachen. Glücklich.
 

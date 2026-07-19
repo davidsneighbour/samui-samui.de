@@ -2,10 +2,12 @@
 title: Sportnews
 date: 2007-07-16T14:12:20+00:00
 url: /2007/07/sportnews/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es war ja eine Weile recht ruhig um unseren Nebenprotagonisten Thaksin Shinawatra, dem Präsidenten des Thailändischen Profigolfvereins, was grö?tenteils daran liegt, dass man ihm ständig seine Webseiten sperrt. Weshalb er nun eine neue Website einrichten will: [truethaksin.com][1]. Ein Schelm wer da an irgendein Marketing-Ding von True Corp denkt.
 

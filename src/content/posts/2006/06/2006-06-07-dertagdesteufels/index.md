@@ -2,10 +2,12 @@
 title: Der Tag des Teufels
 date: 2006-06-07T01:06:00+00:00
 url: /2006/06/dertagdesteufels/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern war ja bekanntermassen der Tag des Teufels (06.06.06). In meinem Leben ist nichts Schlimmes passiert. Also alles nur Mache?
 

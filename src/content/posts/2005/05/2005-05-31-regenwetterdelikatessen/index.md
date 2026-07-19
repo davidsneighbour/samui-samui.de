@@ -5,6 +5,12 @@ url: /2005/05/regenwetterdelikatessen/
 dsq_thread_id:
   - "6412166630"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern hat es geregnet. Ziemlich stark sogar. Das ist ersteinmal nichts Spektakuläres um diese Jahreszeit. Allerdings war dann auf der 5km-Strecke nach Hause an ein entspanntes Fahren leider nicht mehr zu denken. Die Stra?en waren voll von Fröschen und Kröten. Die wiederum machten einen Krach, dass man den Mopedmotor nicht hörte und warfen sich todesmutig reihenweise vor meine Reifen auf der Suche nach geeigneten Paarungspartnern. Das dabei entstehende Geräusch ist nicht sehr angenehm und macht in etwa ein schlickriges "Schmoatsch".
 

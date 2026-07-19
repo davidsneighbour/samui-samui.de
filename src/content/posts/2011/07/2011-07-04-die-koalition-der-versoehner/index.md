@@ -3,6 +3,12 @@ title: Die Koalition der Versöhner
 date: 2011-07-04T02:30:01+00:00
 url: /2011/07/die-koalition-der-versoehner/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So erdrutschartig kann der Sieg der Pheua Thai Partei am Sonntag gar nicht gewesen sein, denn heute kündigt Thaksins Schwester, unsere zukünftige Prime Ministress, an, [eine Koalition aus 5 (fünf) Parteien][1] zu führen. Damit kommt die neue Regierung auf 299 Sitze im Parlament --- was lt. Yingluck Shinawatra eine "wunderschöne Nummer" ist.
 

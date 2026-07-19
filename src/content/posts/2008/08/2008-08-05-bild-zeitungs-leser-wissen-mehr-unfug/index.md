@@ -2,10 +2,12 @@
 title: Bild-Zeitungs-Leser wissen mehr Unfug
 date: 2008-08-05T14:17:48+00:00
 url: /2008/08/bild-zeitungs-leser-wissen-mehr-unfug/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Bei [Bild Online][1] kann der geneigte Leser heute einen Beitrag über den "Inkognito"-Besuch des thailändischen Kronprinzen in Deutschland lesen.
 

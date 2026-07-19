@@ -2,10 +2,12 @@
 title: Textpattern
 date: 2006-10-24T11:25:28+00:00
 url: /2006/10/textpattern/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Textpattern][1] ist die Antwort die ich immer gebe, wenn mich jemand fragt, was ich ihm/ihr empfehlen würde, um eine Website zu gestalten. Allerdings nicht, ohne gleich den Zusatz zu bringen, dass es vermutlich für den Fragestellenden weniger geeignet ist, "weil man schon wissen sollte, was man tut". Eigentlich kann ich textpattern niemandem empfehlen. Ich habe das schon zweimal empfohlen und bin damit jedes mal auf die Nase gefallen, größtenteils weil die Personen, denen ich das empfehle weder Kreativität noch Kenntnisse von <span class="caps">HTML</span>, <span class="caps">CSS</span> und so weiter hatten.
 

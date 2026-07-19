@@ -3,8 +3,14 @@ title: Würfelquallen
 date: 2015-10-08T13:22:56+00:00
 url: /2015/10/wuerfelquallen/
 tags:
-- wuerfelquallen
-- tierwelt
+  - wuerfelquallen
+  - tierwelt
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Nachts auf Samui Schwimmen zu gehen, ist eine schlechte Idee. Das haben zwei deutsche Touristinnen in dieser Woche am eigenen Leib erfahren. Sie haben weder die Warnschilder über, noch die Würfelquallen selbst gesehen. Kommen die Tentakel dieser Quallen mit der Haut in Berührung, werden Gifte frei gesetzt, die mitunter zum Tod führen können. Das passiert in letzter Zeit häufiger. Vergangenes Jahr starb ein kleiner Junge auf Koh Tao, vor einigen Monaten eine junge Thai auf Koh Phangan und nun eine junge deutsche Touristin.

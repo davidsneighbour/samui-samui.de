@@ -5,6 +5,12 @@ url: /2005/03/dell-suckz/
 dsq_thread_id:
   - "6412166592"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Naja, als ich meinen kleinen Inspiron 8200 kaufte, war das ein ganz nettes Teil zum Existenz gründen. Inzwischen ist das Gerät aber nur noch der Horror.
 

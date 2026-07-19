@@ -2,10 +2,12 @@
 title: 'Pluto: Und er bleibt doch ein Planet!'
 date: 2006-08-25T19:57:23+00:00
 url: /2006/08/pluto-und-er-bleibt-doch-ein-planet/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich finde ja, dass man Wissenschaftlern jegliches Stimmrecht entziehen sollte. "Seit gestern ist Pluto nur noch ein Zwerg-Planet und kein "richtiger [Planet mehr][1]. Warum? Weil Wissenschaftler erst diskutiert haben, die Definition eines Planeten zu ändern und dann nur ein paar davon (um die 400) über eine wissenschaftlich allgemeingültige Definition abgestimmt haben. Dummerweise haben größtenteils die Falschen abgestimmt.
 

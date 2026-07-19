@@ -4,10 +4,12 @@ date: 2007-11-13T12:57:26+00:00
 url: /2007/11/kabelfernsehen-samuistyle/
 dsq_thread_id:
   - "3514774341"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Kabelfernsehen ist Fernsehen aus dem Kabel. Man zahlt 450 Baht im Monat (150 Baht mehr als für das Grundpaket bei <span class="caps">UBC</span>) und bekommt dafür eine Vielzahl interessanter Kanäle:
 

@@ -2,10 +2,12 @@
 title: Fälscherin
 date: 2007-02-13T02:28:24+00:00
 url: /2007/02/faelscherin/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern kam Fu mit einem Packen uralter Passphotos an und wollte das aktuellste (ungefähr 5 Jahre alt) eingescannt haben, damit sie davon neue Passphotos machen lassen kann. Man muss ja sparen, meinte sie.
 

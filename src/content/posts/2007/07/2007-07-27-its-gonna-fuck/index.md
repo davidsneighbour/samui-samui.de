@@ -2,10 +2,12 @@
 title: It’s gonna fuck!
 date: 2007-07-27T00:17:56+00:00
 url: /2007/07/its-gonna-fuck/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/916006003/" title="Pirated"><img src="//farm2.static.flickr.com/1438/916006003_c546223490.jpg" alt="Pirated" /></a></p>

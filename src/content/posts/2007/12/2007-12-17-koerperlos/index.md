@@ -2,10 +2,12 @@
 title: Körperlos
 date: 2007-12-17T14:00:47+00:00
 url: /2007/12/koerperlos/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   ![](/wp-content/old-images/245.jpg)

@@ -2,10 +2,12 @@
 title: Schwangerschaftsabbruch
 date: 2008-03-15T02:21:45+00:00
 url: /2008/03/schwangerschaftsabbruch/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die Nachricht des Tages kommt aus dem Veterinärbereich: Ein uns bekannter weiblicher Vertreter der Shih-Tzu-Rasse hat es zum zweiten Mal geschafft, selbst mich wieder gut eine Woche lang glauben zu machen, man wäre schwanger.
 

@@ -2,10 +2,12 @@
 title: Makha Bucha Day
 date: 2007-03-03T22:24:50+00:00
 url: /2007/03/makha-bucha-day-3/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern war Makha Bucha Day. Neun Monate nach Buddhas Erleuchtung am Vollmondtag des dritten Monats des Mondjahres (da braucht man mehr als zehn Finger um das Datum zu errechnen) begaben sich verschiedene Ereignisse:
 

@@ -2,10 +2,12 @@
 title: Ein patenter Monarch
 date: 2006-06-09T05:37:00+00:00
 url: /2006/06/einpatentermonarch/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 König Bhumibol Adulyadej der Große oder wie wir Kenner auch gerne sagen Phrabat Somdej Phra Paramindra Maha Bhumibol Adulyadej Mahitaladhibet Ramadhibodi Chakrinarubodindara Sayamindaradhiraj Boromanatbophit ist nicht nur der Welt dienstältester Monarch, er ist auch der einzige Monarch weltweit, der von sich behaupten kann, einige Patente zu besitzen. Er unterhält auf dem Gelände seines Palastes in Bangkok sogar eine Testfarm. Mit seinen Forschungsergebnissen unterstützt er unter vor allem die Landwirtschaft im Norden wie die folgenden zwei seiner Patente zeigen:
 

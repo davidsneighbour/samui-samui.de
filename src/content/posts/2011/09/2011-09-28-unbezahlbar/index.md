@@ -3,6 +3,12 @@ title: Unbezahlbar
 date: 2011-09-27T22:45:38+00:00
 url: /2011/09/unbezahlbar/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/6191520661/" title="Holidays? by Patrick Kollitsch, on Flickr"><img src="//farm7.static.flickr.com/6160/6191520661_f99a086bb8_z.jpg" width="640" height="480" alt="Holidays?" /></a></p>

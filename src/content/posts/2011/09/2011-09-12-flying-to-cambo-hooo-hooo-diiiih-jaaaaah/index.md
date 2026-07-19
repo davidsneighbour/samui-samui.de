@@ -5,6 +5,12 @@ url: /2011/09/flying-to-cambo-hooo-hooo-diiiih-jaaaaah/
 dsq_thread_id:
   - "3515979270"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Unsere Prime Ministress Yingluck Shinawatra ist in diesen Tagen auf Antrittsbesuchen rund um den südostasiatischen Erdball herum. Vor ein paar Tagen war sie wohl in Brunei, heute landete sie in Indonesien, am Ende der Woche wird sie in Cambodia und Laos erwartet.
 

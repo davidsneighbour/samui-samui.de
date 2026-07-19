@@ -3,6 +3,12 @@ title: Ich bin jetzt (Teil)Samuianer
 date: 2005-11-11T22:48:00+00:00
 url: /2005/11/ich-bin-jetzt-teilsamuianer/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Also mal ganz kurz und knapp: Ich bin jetzt polizeilich mit Wohnort in Thailand, Surrat Thani, Ko Samui, Ban Maenam, 47/15 Moo 4 gemeldet. Das Ganze geht einher mit einem neuerlichen Umzug.
 

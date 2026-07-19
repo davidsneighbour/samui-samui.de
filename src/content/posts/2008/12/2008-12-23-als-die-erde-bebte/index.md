@@ -2,10 +2,12 @@
 title: Als die Erde bebte
 date: 2008-12-22T23:22:29+00:00
 url: /2008/12/als-die-erde-bebte/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3130204781/" title="earthquake"><img src="//farm4.static.flickr.com/3117/3130204781_36afb883e9.jpg" alt="earthquake" /></a></p>

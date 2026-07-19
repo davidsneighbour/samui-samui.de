@@ -4,10 +4,12 @@ date: 2007-06-11T13:40:38+00:00
 url: /2007/06/neues-aus-soddom/
 dsq_thread_id:
   - "3575233191"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Die vergangenen beiden Abende musste ich im Schutz der Dunkelheit häufiger nach Chaweng. Das hatte technische und Eiscreme-Gründe. Jedenfalls hatte ich wieder Gelegenheit, interessante Beobachtungen zu machen. So eine halbe Stunde auf einer Parkbank auf bzw. (wenn wir technisch genau sein wollen) an der Beachroad hat was...
 

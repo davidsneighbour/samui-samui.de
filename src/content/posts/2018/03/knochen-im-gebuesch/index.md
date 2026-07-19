@@ -5,9 +5,15 @@ date: 2018-03-28T19:14:01+07:00
 lastmod: 2018-03-28T19:14:01+07:00
 url: /2018/03/knochen-im-gebuesch
 tags:
-- koh samui
-- mord und totschlag
-- thinglish
+  - koh samui
+  - mord und totschlag
+  - thinglish
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Auf Koh Samui wurden (mal wieder) Knochen in einem der noch nicht bebauten Dschungelteile gefunden, nur 200 Meter neben der Strasse, die quer ueber die Insel von Maenam nach Lamai fuehrt, unter einem Baum, noch in der Kleidung. Bisher weiss man noch nicht, ob es sich um einen Mann oder eine Frau oder einen Thai oder gar um einen Immigranten aus Myanmar handelt:

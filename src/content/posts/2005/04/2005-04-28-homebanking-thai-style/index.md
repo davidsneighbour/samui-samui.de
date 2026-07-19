@@ -3,6 +3,12 @@ title: Homebanking Thai-Style
 date: 2005-04-27T20:34:00+00:00
 url: /2005/04/homebanking-thai-style/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Nun, ich hatte bereits mehrere Male berichtet, dass ich allmonatlich (eigentlich den ganzen Monat hindurch) versuche Geld aus meinen reichhaltigen Pfründen hier nach Deutschland zu schieben. In Deutschland leben meine Gläubiger und denen geht es nicht so gut, wenn sie kein Geld bekommen. Ich habe viele Gläubiger. Seit drei Monaten betrete ich nahezu jede Bank und frage, ob es denn möglich wäre, Geld nach Deutschland zu schicken. Immer sagen die überaus freundlichen Schalter-Thais ja, stellen dann aber fest, dass sie das Ja für Transfers _nach_ Thailand meinten, nicht _aus_ Thailand, das wiederum ginge nicht. Western Money Transfer bieten alle Banken vollmundig als schnellste Art Geld weltweit zu bewegen an. Aber anscheinend werden die Angestellten nur für das Ausfüllen der Receive-Formulare ausgebildet, nicht für die Send-Formulare.
 

@@ -3,6 +3,12 @@ title: Tsunami. Oder auch nicht.
 date: 2005-07-25T00:35:24+00:00
 url: /2005/07/tsunami-oder-auch-nicht/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Heute nacht gab es wohl ein Erdbeben zwei Zeitzonen weiter westlich [mit anschlie?ender Tsunamiwarnung der thailändischen Behörden][1]. Ich habe davon nichts gemerkt. [Die Warnung wurde später auch wieder zurückgenommen][2].
 

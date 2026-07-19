@@ -6,9 +6,15 @@ tags:
   - bangkok
   - batman
 resources:
-- src: "batman-auf-dem-polizeirevier.jpg"
-  name: "batman"
-  title: "Batman auf dem Polizeirevier"
+  - src: "batman-auf-dem-polizeirevier.jpg"
+    name: "batman"
+    title: "Batman auf dem Polizeirevier"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Batman auf dem Polizeirevier](./batman-auf-dem-polizeirevier.jpg)

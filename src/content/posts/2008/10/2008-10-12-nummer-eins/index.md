@@ -2,10 +2,12 @@
 title: Nummer Eins
 date: 2008-10-11T17:39:30+00:00
 url: /2008/10/nummer-eins/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2933098373/" title="Boo Neung"><img src="//farm4.static.flickr.com/3288/2933098373_672621abb0.jpg" alt="Boo Neung" /></a></p>

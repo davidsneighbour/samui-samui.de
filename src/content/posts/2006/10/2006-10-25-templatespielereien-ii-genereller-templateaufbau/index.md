@@ -2,10 +2,12 @@
 title: 'Templatespielereien II: Genereller Templateaufbau'
 date: 2006-10-25T06:42:23+00:00
 url: /2006/10/templatespielereien-ii-genereller-templateaufbau/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich benutze zur Realisierung meiner Layouts seit einiger Zeit die [Layout-Gala][1] von [<span class="given-name">Alessandro</span> <span class="family-name">Fulciniti</span>][2]{.vcard.n.url} (wünscht ihr euch nicht auch manchmal, ihr wäret Italiener?). Mit einem einzigen XHTML-Gerüst kann man laut Layout-Gala 40 verschiedene Layouts realisieren. Ich bin mir ziemlich sicher, dass es damit weitaus mehr sein könnten, die vorgestellten reichen aber vollkommen aus.
 

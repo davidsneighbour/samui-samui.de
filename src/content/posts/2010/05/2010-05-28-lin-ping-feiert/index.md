@@ -5,6 +5,12 @@ url: /2010/05/lin-ping-feiert/
 tags:
   - panda
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Das Chiang Maianische Pandababy Lin Ping feierte [gestern][1] seinen ersten Geburtstag. Oder sagen wir besser, die Menschen um das Baby herum:
 

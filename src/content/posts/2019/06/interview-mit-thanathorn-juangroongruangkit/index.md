@@ -3,10 +3,15 @@ title: "Interview mit Thanathorn"
 date: 2019-06-07T21:31:48+07:00
 url: /2019/06/interview-mit-thanathorn-juangroongruangkit
 tags:
-- politik
+  - politik
 leute:
-- thanathorn juangroongruangkit
-
+  - thanathorn juangroongruangkit
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![Thanathorn Juangroongruangkit (via Facebook)](./thanathorn-juangroongruangkit.jpg)

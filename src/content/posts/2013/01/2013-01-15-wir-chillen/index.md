@@ -10,10 +10,12 @@ fb_mentioned_pages_post_ids:
   - 'a:2:{i:0;s:31:"301327566635116_117174995123538";i:1;s:31:"460353317345609_318408364935932";}'
 dsq_thread_id:
   - "3168350499"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/8383478222/" title="Chilling by Patrick Kollitsch, on Flickr"><img src="//farm9.staticflickr.com/8194/8383478222_e8c6be9a0f_z.jpg" width="640" height="480" alt="Chilling" /><span>Wir chillen</span></a>

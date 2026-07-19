@@ -3,6 +3,12 @@ title: Thaksin l??st das Parlament auf
 date: 2006-02-24T20:00:00+00:00
 url: /2006/02/thaksin-loest-das-parlament-auf/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
  <img src="/images/206.jpg" style="height:338px;width:300px;margin-right:10px;float:left;" />Neues aus der Kategorie "Ich hab das ja schon immer gesagt": Wir werden dieses Jahr tatsächlich Neuwahlen haben. In weniger als 2 Monaten. Denn Thaksin Shinawatra hat gestern das Parlament aufgelöst.
 

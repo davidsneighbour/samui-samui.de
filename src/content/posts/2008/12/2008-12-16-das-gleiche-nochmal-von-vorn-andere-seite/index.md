@@ -2,10 +2,12 @@
 title: Das gleiche nochmal von vorn (andere Seite)
 date: 2008-12-15T23:12:46+00:00
 url: /2008/12/das-gleiche-nochmal-von-vorn-andere-seite/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In der "The Nation":<http://www.nationmultimedia.com/breakingnews/read.php?newsid=30091180> stehts (das sind die, die journalistisch gegen Thaksin sind und immer Ahnung haben): "DAAD to rally at Sanam Luang for 3 days":<http://www.nationmultimedia.com/breakingnews/read.php?newsid=30091180>
 

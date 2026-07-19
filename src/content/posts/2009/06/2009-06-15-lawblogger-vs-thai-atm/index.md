@@ -2,10 +2,12 @@
 title: Lawblogger vs. Thai-ATM
 date: 2009-06-15T15:08:47+00:00
 url: /2009/06/lawblogger-vs-thai-atm/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Der [Lawblogger verklagt die Postbank][1], weil sie ihm 150 Baht mehr als in Thailand abgehoben in Rechnung stellt --- dabei sollten doch 10 Abhebungen kostenlos sein.
 

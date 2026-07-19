@@ -4,9 +4,15 @@ description: "Ein paar Gedanken zum Altern."
 date: 2018-02-14T20:11:26+07:00
 url: /2018/02/in-der-mitte-des-lebens
 tags:
-- dies und das
-- gnadenloses altern
+  - dies und das
+  - gnadenloses altern
 linktitle: "In der Mitte des Lebens"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/36535141"></iframe>

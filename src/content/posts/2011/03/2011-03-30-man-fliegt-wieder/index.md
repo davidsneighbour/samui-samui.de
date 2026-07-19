@@ -3,6 +3,12 @@ title: Man fliegt wieder
 date: 2011-03-29T20:52:12+00:00
 url: /2011/03/man-fliegt-wieder/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Bangkok Airways hat den ganzen Tag gearbeitet und doch mehr als nur die zwei angekündigten Flüge durchgeführt:
 

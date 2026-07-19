@@ -2,10 +2,12 @@
 title: Staatsreligion
 date: 2007-04-20T11:52:47+00:00
 url: /2007/04/staatsreligion/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Hab ich schon erzählt, dass es Leute gibt, die den Buddhismus in der neuen Verfassung als Staatsreligion [verankern][1] [wollen][2]? Nein? Gut. Also es gibt da Leute, die den Buddhismus in der neuen Verfassung als Staatsreligion verankern wollen.
 

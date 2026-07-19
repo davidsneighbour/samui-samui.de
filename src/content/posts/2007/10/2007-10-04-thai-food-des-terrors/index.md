@@ -2,10 +2,12 @@
 title: Thai-Food des Terrors
 date: 2007-10-04T13:04:30+00:00
 url: /2007/10/thai-food-des-terrors/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 In London hat ein Thairestaurant neulich eine Anti-Terror-Gro?aktion ausgelöst. Der Grund? Man kochte [eine scharfe So?e][1]:
 

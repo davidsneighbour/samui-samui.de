@@ -2,10 +2,12 @@
 title: Der Tag des schwarzen Hundes
 date: 2007-02-12T06:53:40+00:00
 url: /2007/02/der-tag-des-schwarzen-hundes/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Es gibt diese Tage, da merkt man schon beim Aufwachen, dass sie als schwarze Tage in die Jahresabschlusswertung eingehen werden.
 

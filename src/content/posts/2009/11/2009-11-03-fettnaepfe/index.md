@@ -2,10 +2,12 @@
 title: Fettnäpfe
 date: 2009-11-02T20:27:27+00:00
 url: /2009/11/fettnaepfe/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ?ber den unter deutschen Expats hei?beliebten Newsletter der Deutschen Botschaft zu Bangkok habe ich bereits</a> <a href="1163">einige</a> <txp:permlink id="1125">Male berichtet.
 

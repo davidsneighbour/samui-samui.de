@@ -3,6 +3,12 @@ title: ?kumenisch gegen den Verfall
 date: 2010-06-08T01:31:14+00:00
 url: /2010/06/oekumenisch-gegen-den-verfall/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Am Donnerstag][1] werden im Parlament Vertreter aus 5 Religionen gleichzeitig (versucht <span class="caps">DAS</span> mal!) an einer "merit making"-Zeremonie teilnehmen (zumindest hätte die Regierung das gerne).
 

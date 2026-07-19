@@ -2,10 +2,12 @@
 title: Hinter der Tür
 date: 2007-05-27T13:25:47+00:00
 url: /2007/05/hinter-der-tuer/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/517187831/"><img src="//farm1.static.flickr.com/203/517187831_6ffdc9db49.jpg" class="flickr-photo" alt="" /></a></p>

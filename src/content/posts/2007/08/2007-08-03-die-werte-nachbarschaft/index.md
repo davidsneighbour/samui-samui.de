@@ -2,10 +2,12 @@
 title: Die werte Nachbarschaft
 date: 2007-08-02T20:52:44+00:00
 url: /2007/08/die-werte-nachbarschaft/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich habe seit gut vier Monaten einen Nachbarn.
 

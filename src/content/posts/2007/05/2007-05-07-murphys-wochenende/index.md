@@ -2,10 +2,12 @@
 title: Murphys Wochenende
 date: 2007-05-07T10:35:20+00:00
 url: /2007/05/murphys-wochenende/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Am Sonntag war eine Menge los. Zuerst waren wir mit den Hunden im "Secret Garden" (500 Meter hoch, steinig, ein paar Wasserfälle, tolle Photos) spazieren. Die haben da so eine Art künstliche kleine Wasserfall-Strecke gebastelt.
 

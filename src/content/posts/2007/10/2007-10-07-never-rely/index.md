@@ -2,10 +2,12 @@
 title: Never rely…
 date: 2007-10-06T19:00:33+00:00
 url: /2007/10/never-rely/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So ein Visarun ist eine optimale Gelegenheit, mir in Erinnerung zu rufen, warum ich so ungern mit Farangs verkehre.
 

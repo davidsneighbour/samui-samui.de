@@ -2,10 +2,12 @@
 title: Youtube.com nicht geblockt. Wieder.
 date: 2007-08-28T23:57:53+00:00
 url: /2007/08/youtubecom-nicht-geblockt-wieder/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Youtube.com][1] geht wieder. Ich hatte 24 Stunden nach dem letzten Mal glatt vergessen, Bescheid zu sagen, dass es wieder geblockt ist, aber das war es. Bis vorhin. Nun können wir wieder Youtube.com kucken.
 

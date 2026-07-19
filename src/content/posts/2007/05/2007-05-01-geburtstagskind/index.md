@@ -2,10 +2,12 @@
 title: Geburtstagskind
 date: 2007-05-01T05:40:07+00:00
 url: /2007/05/geburtstagskind/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/479701789/"><img src="//farm1.static.flickr.com/200/479701789_52612e5747.jpg" class="flickr-photo" alt="" /></a></p>

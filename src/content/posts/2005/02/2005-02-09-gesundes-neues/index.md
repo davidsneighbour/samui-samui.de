@@ -3,6 +3,12 @@ title: Gesundes Neues!
 date: 2005-02-09T05:30:59+00:00
 url: /2005/02/gesundes-neues/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ach übrigens: Gesundes neues Jahr. Wir feiern gerade den Chinesischen Jahresanfang. Das Jahr des Hahnes, wenn ich recht informiert bin. Die anderen Neujahre hier in Thailand habe ich relativ verpasst. Einmal wünschte mir an der Tankstelle einer ein gesundes Neues Jahr. Jedenfalls gibt es das gregorianische Neujahr, das thailändische und das chinesische. Letzeres seit gestern. Das ist auch nicht wirklich ein neues Jahr als Zeitpunkt, nur eben ein Grund zu feiern und tagelang ab 4:30 Uhr morgens Krach zu machen. Böller abfackeln. Laute Musik laufen lassen (naja, das eigentlich immer).
 

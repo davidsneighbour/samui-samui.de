@@ -7,6 +7,12 @@ fb_status_messages:
 dsq_thread_id:
   - "3505057296"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media photo image">
   <img src="https://maps.google.com/maps/api/staticmap?markers=size:tiny|color:red|9.548953,100.062447|5.263234,100.484623&path=color:0xff000080|weight:2|9.54472,100.06227|5.26054,100.49538&size=620x280&sensor=false" />

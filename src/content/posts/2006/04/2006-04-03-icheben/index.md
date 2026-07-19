@@ -3,6 +3,12 @@ title: Ich. Eben.
 date: 2006-04-03T02:21:00+00:00
 url: /2006/04/icheben/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/122355961/" title="Me. Now."><img src="//static.flickr.com/42/122355961_7ad467330e.jpg" alt="Me. Now." /></a></p>

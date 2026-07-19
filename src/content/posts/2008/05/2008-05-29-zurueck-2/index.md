@@ -2,10 +2,12 @@
 title: Zurück
 date: 2008-05-29T01:57:03+00:00
 url: /2008/05/zurueck-2/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2533405695/" title="Back home"><img src="//farm3.static.flickr.com/2273/2533405695_bdf853e038.jpg" alt="Back home" /></a></p>

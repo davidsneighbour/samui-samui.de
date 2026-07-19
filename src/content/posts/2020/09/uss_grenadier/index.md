@@ -4,12 +4,18 @@ description: "150km vor Phuket haben Taucher in den vergangenen Monaten ein amer
 date: 2020-09-18T19:56:20+07:00
 lastmod: 2020-09-18T19:56:20+07:00
 tags:
-    - geschichte
-    - weltkrieg
+  - geschichte
+  - weltkrieg
 resources:
-- src: "uss-grenadier.jpg"
-  name: "grenadier"
-  title: "USS Grenadier (SS-210) (via alchetron.com)"
+  - src: "uss-grenadier.jpg"
+    name: "grenadier"
+    title: "USS Grenadier (SS-210) (via alchetron.com)"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 ![USS Grenadier (SSH-210) (via alchetron.com)](./uss-grenadier.jpg)

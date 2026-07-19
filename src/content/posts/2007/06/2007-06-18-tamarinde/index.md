@@ -2,10 +2,12 @@
 title: Tamarinde
 date: 2007-06-17T19:42:41+00:00
 url: /2007/06/tamarinde/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/563456473/" title="Tamarind-Leaves"><img src="//farm2.static.flickr.com/1108/563456473_c8fbe3b880.jpg" width="500" height="375" alt="Tamarind-Leaves" /></a></p>

@@ -2,10 +2,12 @@
 title: Canine Neuigkeiten
 date: 2008-11-28T18:54:51+00:00
 url: /2008/11/canine-neuigkeiten/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3065178735/" title="Fighting for the ball"><img src="//farm4.static.flickr.com/3204/3065178735_caa0a1e8cd.jpg" alt="Fighting for the ball" /></a></p>

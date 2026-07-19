@@ -3,6 +3,12 @@ title: Exil-Portraits
 date: 2010-10-10T16:40:13+00:00
 url: /2010/10/exil-portraits/
 lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Auf der Website des wöchentlich erscheinenden Magazins "New Yorker" kann man sich ein [Album mit Portrait-Photos von in Thailand lebenden Burmesen][1] ansehen.
 

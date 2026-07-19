@@ -2,10 +2,12 @@
 title: Bränne!!! Bränne!!!
 date: 2009-06-25T20:54:56+00:00
 url: /2009/06/braenne-braenne/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <txp:thumbnail id="269" link="y" /></p>

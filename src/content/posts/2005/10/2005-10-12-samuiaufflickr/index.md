@@ -3,6 +3,12 @@ title: Samui auf Flickr
 date: 2005-10-11T20:04:00+00:00
 url: /2005/10/samuiaufflickr/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="420" src="//static.flickr.com/29/51178687_3366a41591.jpg" alt="Samui" />][1]
 

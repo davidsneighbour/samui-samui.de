@@ -3,6 +3,12 @@ title: Die Schlagzeilen der vergangenen 6 Stunden
 date: 2006-07-25T09:28:00+00:00
 url: /2006/07/die-schlagzeilen-der-vergangenen-6-stunden/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 (mal nur die von The Nation Online)
 

@@ -3,6 +3,12 @@ title: Was ich (nicht) vermisse
 date: 2006-10-06T11:11:55+00:00
 url: /2006/10/was-ich-nicht-vermisse/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Was ich vermisse:
 

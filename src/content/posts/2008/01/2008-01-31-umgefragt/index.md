@@ -2,10 +2,12 @@
 title: Umgefragt
 date: 2008-01-30T17:45:43+00:00
 url: /2008/01/umgefragt/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Samak ist schon fast 24 Stunden königlich beglaubigt im Amt, also sollte man mal ein paar Umfragen aufstellen, um die Meinung im Lande zu evaluieren.
 

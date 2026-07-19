@@ -2,10 +2,12 @@
 title: Visarun
 date: 2007-09-05T01:16:09+00:00
 url: /2007/09/visarun/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1327608288/" title="On the road (again)"><img src="//farm2.static.flickr.com/1009/1327608288_5f3d26bbce.jpg" alt="On the road (again)" /></a></p>

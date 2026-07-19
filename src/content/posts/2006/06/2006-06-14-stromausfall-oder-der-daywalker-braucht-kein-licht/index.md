@@ -2,10 +2,12 @@
 title: Stromausfall oder Ein Daywalker braucht kein Licht
 date: 2006-06-14T07:38:00+00:00
 url: /2006/06/stromausfall-oder-der-daywalker-braucht-kein-licht/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ah. Schon wieder. Heute morgen 3 Stunden und jetzt gerade auch. Punkt 19 Uhr ging das Licht im 7eleven aus (schauen Sie mal kurz in die Seitenbox wann bei uns hier die Sonne untergeht). Die Kassen dort sind an Notfallbatterien angeschlossen. Trotzdem bekamen die Kassenbienen Panik und brabbelten alle Leute auf Thai voll. Mich auch. Verstanden habe ich nichts, aber ich konnte es mir schon denken, nach 2 Minuten zeigte sich, warum: Alte Batterien halten nicht lange. Eine Kasse ging kurz vor mir aus, die andere nach mir. Püh! Stromausfall ohne Bier ist wie ein Großraumbüro mit nur einem Mitarbeiter. Glücklicherweise ist nur der Strom auf der Mainroad weg, meine kleine Siedlung blieb verschont. Kabelfernsehen geht nicht. Das ist schade, weil heute eine neue Anwaltsserie namens "[Boston Legal][1]" auf dem Farangkanal beginnt. Mit [Kaptain Kirk][2] (schonmal einen Thai nach Startrek recherchieren lassen?) und [so einem Typen][3] der [in einer anderen Serie][4] auch einen Anwalt gespielt hat, der gegangen worden ist. Nennt man Sequel, oder? So eine Parallelserie? Jedenfalls werde ich versuchen müssen das Ganze heute Nacht zu sehen (es lebe die unendliche Wiederholung). Ist nämlich ein [David-E-Kelley][5]. Alles klar, ne? [Odo][6] spielt übrigens auch mit.
 

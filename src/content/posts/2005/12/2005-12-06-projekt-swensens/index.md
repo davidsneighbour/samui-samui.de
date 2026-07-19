@@ -3,6 +3,12 @@ title: Projekt Swensens
 date: 2005-12-05T19:49:49+00:00
 url: /2005/12/projekt-swensens/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Gestern nach dem Dunkeln des Himmels sprach meine Quelle davon, dass wir mal wieder zu Swensens gehen könnten um ein Eis zu uns zu nehmen. Ich war nicht abgeneigt und so setzten wir uns aufs Moped und fuhren los. Es hatte nur den ganzen Samstag und Sonntag und ein bisschen am Montagmorgen geregnet, weshalb wir von einer mehr oder weniger unüberschwemmten Strecke ausgingen.
 

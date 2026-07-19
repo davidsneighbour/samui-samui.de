@@ -2,10 +2,12 @@
 title: Verkauft (aber nicht verraten)
 date: 2008-08-31T21:56:22+00:00
 url: /2008/09/verkauft-aber-nicht-verraten/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Thaksin Shinawatra, unser (ehemaliger) Premierminister und trotz Asyls in London immer noch Präsident des thailändischen Profigolfervereins, hat sein Spielzeug, den Mehrheitsanteil am britischen Fussballclub Manchester City [an eine Bietergesellschaft aus Abu Dhabi verkauft][1]. Scheint, dass sein Geld knapp wird.
 

@@ -2,10 +2,12 @@
 title: Die Drei
 date: 2006-12-28T11:00:37+00:00
 url: /2006/12/die-drei/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Fu hat zwei Freundinnen. Zusammen nennen sie sich "Die Drei". Man reist umher, man trifft sich häufiger. Man geht aus. Alle drei arbeiten und leben sie in verschiedenen Provinzen Thailands. Für Weihnachten 2004 haben sie sich auf Samui verabredet. Fu arbeitet hier. Die eine Freundin kommt, die andere muss einen Tag länger arbeiten, in der Nähe von Phuket.
 

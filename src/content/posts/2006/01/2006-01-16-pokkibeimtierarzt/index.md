@@ -4,10 +4,13 @@ date: 2006-01-15T21:48:00+00:00
 url: /2006/01/pokkibeimtierarzt/
 
 tags:
-- pokki
-
-
-
+  - pokki
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [<img width="455" src="//static.flickr.com/38/87186723_4b00b770da.jpg" alt="pokki at the animal clinic" />][1]
 

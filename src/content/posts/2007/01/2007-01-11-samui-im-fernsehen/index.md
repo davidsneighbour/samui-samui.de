@@ -2,10 +2,12 @@
 title: Samui im Fernsehen
 date: 2007-01-11T06:41:14+00:00
 url: /2007/01/samui-im-fernsehen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eben kam Samui im Fernsehen. Ihr wisst schon, die kleine Insel im Golf von Thailand. Viele Touristen sagen ihre Reisen ab, weil es hohe Wellen gibt. Na super. Es gibt ja auch nur Wasser auf Koh Samui. Passenderweise hat man den Bericht mit Bildern von halbnackt am Strand röstenden Farangs versetzt. Mich erklären meine Bekannten auf der Insel immer für verrückt, weil "you farang, you have to go beach and swim".
 

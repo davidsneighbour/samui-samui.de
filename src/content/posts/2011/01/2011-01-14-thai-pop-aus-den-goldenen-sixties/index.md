@@ -3,6 +3,12 @@ title: Thai Pop aus den goldenen Sixties
 date: 2011-01-14T00:33:34+00:00
 url: /2011/01/thai-pop-aus-den-goldenen-sixties/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 (Disclaimer: Das thailändische Goldene Jahrzehnt war im Gegensatz zu Deutschland nicht in den Zwanzigern sondern in den Sechszigern. Sag ich jetzt einfach mal.)
 

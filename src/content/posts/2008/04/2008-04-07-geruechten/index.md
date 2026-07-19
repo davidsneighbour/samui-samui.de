@@ -2,10 +2,12 @@
 title: Gerüchten
 date: 2008-04-07T14:51:11+00:00
 url: /2008/04/geruechten/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 (Das N steht da bewusst)
 

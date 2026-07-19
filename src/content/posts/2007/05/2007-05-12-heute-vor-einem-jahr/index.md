@@ -2,10 +2,12 @@
 title: Heute vor einem Jahr…
 date: 2007-05-12T11:58:08+00:00
 url: /2007/05/heute-vor-einem-jahr/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ... sagte ich zu Fu: I guess I will be fired soon. Sie meinte darauf: That good. You will be free.
 

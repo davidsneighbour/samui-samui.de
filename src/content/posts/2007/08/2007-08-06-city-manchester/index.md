@@ -2,10 +2,12 @@
 title: City. Manchester und Publi.
 date: 2007-08-05T22:30:14+00:00
 url: /2007/08/city-manchester/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Thaksin, der Shinawatra, der Präsident des Thailändischen Profigolfervereins hat mal wieder [eine Party geschmissen][1] und dafür [jede Menge Briten und ein paar Thais][2] eingeladen. Mit Musik, einem Freundschaftsspiel, das Manchester City 1:0 verloren hat und "We want Thaksin back"-T-Shirts.
 

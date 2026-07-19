@@ -2,10 +2,12 @@
 title: Wir warten auf Durain
 date: 2006-12-04T10:37:24+00:00
 url: /2006/12/wir-warten-auf-durain/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [Siehe Titel][1]. Ich finde immer wieder interessant, dass das schlechte Wetter _immer_ aus China kommt.
 

@@ -2,10 +2,12 @@
 title: Noch ein Kabel
 date: 2008-02-02T14:30:51+00:00
 url: /2008/02/noch-ein-kabel/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ja klar. Und gleich [noch ein Kabel in Dubai zerschnitten][1]. Beim The Guardian gibt es eine nette [?bersicht zu den Unterseekabeln][2] die das weltweite Netz ziemlich löchrig aussehen lassen.
 

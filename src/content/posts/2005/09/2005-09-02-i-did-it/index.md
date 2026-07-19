@@ -3,6 +3,12 @@ title: I did it (again)
 date: 2005-09-01T20:04:00+00:00
 url: /2005/09/i-did-it/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Yes! I did it. And I have no fear to admit it. Yesterday I bought a dvd-player capable of a lot of formats.
 

@@ -4,10 +4,12 @@ date: 2007-11-06T14:32:11+00:00
 url: /2007/11/neulich-im-solo-club-i/
 dsq_thread_id:
   - "3039901312"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 **Szene:**
 

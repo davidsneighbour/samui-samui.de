@@ -2,10 +2,12 @@
 title: Perle am Golf von Thailand
 date: 2007-01-21T01:25:36+00:00
 url: /2007/01/perle-am-golf-von-thailand/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Hin und wieder wurde ich in den vergangenen Tagen gefragt, warum ich nichts über Rayong, meinen Aufenthaltsort im Januar, schreiben würde.
 

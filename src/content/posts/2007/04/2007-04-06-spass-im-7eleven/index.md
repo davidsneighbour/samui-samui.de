@@ -2,10 +2,12 @@
 title: 'Spaß im 7eleven'
 date: 2007-04-06T11:42:50+00:00
 url: /2007/04/spass-im-7eleven/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Eine 211 Baht-Rechnung mit neun 20 Baht-Scheinen und einem 50 Baht-Schein bezahlt. Die Schlange 5 Minuten lang aufgehalten. Sie war zwar ziemlich süß (die Kassen-Thai), aber im 7eleven ist Schönheit umgekehrt proportional zu Geschwindigkeit und (ich hör schon die Complaints) Intelligenz.
 

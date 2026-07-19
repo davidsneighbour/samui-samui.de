@@ -4,10 +4,12 @@ date: 2006-06-29T03:24:00+00:00
 url: /2006/06/thaksin-spricht/
 dsq_thread_id:
   - "2899976403"
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich sehe mir gerade im Staatsfernsehen eine Rede vom care takenden Premierminister Thaksin Shinawatra an. Das ist ein bisschen gespenstisch, weil niemand klatscht. Die Kameras fangen die Zuhörer immer in dem Augenblick ein, wenn sie den Mund aufreißen um ausführlich zu gähnen. Das kann ganz lustig rüber kommen, wenn sie in ebendiesem Augenblick bemerken, _dass_ sie im Fokus sind und sich entscheiden entweder in ihren Aktenkoffern zu kramen oder so zu tun als ob sie eigentlich zwischen den Zähnen kramen wollten.
 

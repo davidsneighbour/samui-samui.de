@@ -2,10 +2,12 @@
 title: Sie wählen
 date: 2007-12-22T17:48:21+00:00
 url: /2007/12/sie-waehlen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Nur kurz: Man wählt, [vermutlich <span class="caps">PPP</span>][1] was ich mal als worst case bezeichnen möchte. Aber Prognosen sind nun mal nicht mehr als Prognosen, nicht wahr? Vielleicht sind die Wähler der Demokraten nur nicht so gesprächig und stolz auf die von ihnen gewählte Partei. Wie mein Vater bei jeder Wahl zu proklamieren pflegt: "Gibt ja sonst nichts, was man wählen könnte."
 

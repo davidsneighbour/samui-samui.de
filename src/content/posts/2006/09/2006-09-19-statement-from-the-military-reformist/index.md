@@ -2,10 +2,12 @@
 title: Statement from the military reformist
 date: 2006-09-19T13:44:00+00:00
 url: /2006/09/statement-from-the-military-reformist/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 The following is the statement from the military reform council.
 

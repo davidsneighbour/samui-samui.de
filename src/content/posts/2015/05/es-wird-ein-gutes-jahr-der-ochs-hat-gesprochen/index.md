@@ -3,9 +3,15 @@ title: Es wird ein gutes Jahr! Der Ochs hat gesprochen…
 date: 2015-05-16T08:49:26+00:00
 url: /2015/05/es-wird-ein-gutes-jahr-der-ochs-hat-gesprochen/
 tags:
-- royal ploughing ceremony
-- traditionen
-- feiertage
+  - royal ploughing ceremony
+  - traditionen
+  - feiertage
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 
 Als Ochse hat man es ziemlich leicht in Thailand, wenn man mehr oder weniger weiss ist. Creme-farbig ist ok. Mit allen anderen Farben ist man mehr oder weniger auf sich selbst gestellt. Aber wie gesagt: weiss, und das Leben ist ein Hit. Dann wird man einmal im Jahr aus dem üppig mit Heu gefülltem Stall und auf ein Feld mit allerlei guter Dinge geführt und dann warten die Leute auch noch darauf, was man zuerst frisst. Was also sollte man nur zuerst fressen...

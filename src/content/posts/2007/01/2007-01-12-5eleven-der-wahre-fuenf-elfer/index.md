@@ -2,10 +2,12 @@
 title: '5eleven: Der wahre Fünf-Elfer'
 date: 2007-01-12T09:34:31+00:00
 url: /2007/01/5eleven-der-wahre-fuenf-elfer/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ich habe das dumpfe Gefühl, dass ich mit meiner Reisebeschreibung ins industrielle Rayong ungefähr so lange brauche, wie ich hier sein werde. Also werde ich mal schnell die Geschichte vom echten Fünf-Elfer erzählen, ehe ich das noch vergesse. Man ist ja nicht mehr allzu jung.
 

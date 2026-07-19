@@ -2,10 +2,12 @@
 title: Na endlich!
 date: 2007-10-21T01:11:41+00:00
 url: /2007/10/na-endlich/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1672950163/" title="Finally!!!"><img src="//farm3.static.flickr.com/2117/1672950163_37b91dcec2.jpg" alt="Finally!!!" /></a></p>

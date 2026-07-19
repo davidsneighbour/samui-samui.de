@@ -3,6 +3,12 @@ title: ??berwindung
 date: 2005-11-23T02:37:00+00:00
 url: /2005/11/ueberwindung/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <img src="/images/105.jpg" style="height:75px;width:75px;float:left;margin-right:10px;" />Nun ist es hoch amtlich.
 

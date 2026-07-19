@@ -2,10 +2,12 @@
 title: Die schlechten News von morgen
 date: 2009-07-22T01:11:59+00:00
 url: /2009/07/die-schlechten-news-von-morgen/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 ![](/wp-content/old-images/271.png)
 

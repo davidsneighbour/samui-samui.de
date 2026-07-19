@@ -2,10 +2,12 @@
 title: Der Tag der Acht
 date: 2006-09-01T05:53:23+00:00
 url: /2006/09/der-tag-der-acht/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 So, seit heute muss man eine 8 zwischen die Null und die Mobilvorwahl bei Mobilnummern setzen. Ich habe (denke ich) die ganzen Nummern bei mir getauscht.
 

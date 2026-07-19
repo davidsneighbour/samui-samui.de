@@ -5,6 +5,12 @@ url: /2011/06/sehenswuerdigkeiten-samuis-i-das-32km-schild/
 dsq_thread_id:
   - "3363480318"
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5793599976/" title="32km by Patrick Kollitsch, on Flickr"><img src="//farm6.static.flickr.com/5102/5793599976_fd88013f5e_z.jpg" width="640" height="480" alt="32km" /></a></p>

@@ -3,6 +3,12 @@ title: Neulich in Hat Yai
 date: 2011-05-16T02:23:24+00:00
 url: /2011/05/neulich-in-hat-yai/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 <div class="media video">
 </div>

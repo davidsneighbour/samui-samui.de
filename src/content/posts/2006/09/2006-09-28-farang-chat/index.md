@@ -2,10 +2,12 @@
 title: Farang-Chat
 date: 2006-09-28T13:04:20+00:00
 url: /2006/09/farang-chat/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 [00:58:46] A says: nong, lek, ding, fuk
 

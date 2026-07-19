@@ -3,6 +3,12 @@ title: Schwarze M??nche
 date: 2005-11-14T02:16:00+00:00
 url: /2005/11/schwarze-moenche/
 lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Neulich sah ich in den Nachrichten (Channel 3 --- immer gut informiert) einen schwarzberobten Mönch. Ich hatte das schon öfter mal gesehen und mich gewundert, weil eigentlich orange die Farbe der Mönche ist. Ich habe mich also mal hingesetzt und mit dicken Fingern meiner vertraulichen Quelle eine fragende SMS geschrieben:
 

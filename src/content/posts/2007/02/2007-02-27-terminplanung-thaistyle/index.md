@@ -2,10 +2,12 @@
 title: Terminplanung (Thaistyle)
 date: 2007-02-27T09:46:07+00:00
 url: /2007/02/terminplanung-thaistyle/
-
-
-
-
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
 ---
 Ende Dezember 2006 (vergangenes Jahr quasi<txp:gho_footnote>Mit Grüßen</txp:gho_footnote>):
 
