@@ -4,9 +4,30 @@ import { Copyright } from '@lucide/astro';
 const today = new Date();
 ---
 
-<footer
-  class="border-t border-foreground/10 bg-background px-4 py-10 text-center text-sm text-foreground/60"
+<div
+  class="mx-auto max-w-5xl px-4"
+  aria-hidden="true"
 >
+  <img
+    src="/assets/images/garuda-footer-dark.webp"
+    alt=""
+    width="2600"
+    height="468"
+    loading="lazy"
+    decoding="async"
+    class="hidden w-full dark:block"
+  >
+  <img
+    src="/assets/images/garuda-footer-light.webp"
+    alt=""
+    width="2600"
+    height="468"
+    loading="lazy"
+    decoding="async"
+    class="block w-full dark:hidden"
+  >
+</div>
+<footer class="bg-background px-4 py-10 text-center text-sm text-foreground/60">
   <p class="m-0 inline-flex flex-wrap items-center justify-center gap-1.5">
     <Copyright
       aria-hidden="true"
