@@ -11,6 +11,10 @@ const monthLongFormatter = new Intl.DateTimeFormat('de-DE', {
   month: 'long',
   timeZone: 'UTC',
 });
+const monthShortFormatter = new Intl.DateTimeFormat('de-DE', {
+  month: 'short',
+  timeZone: 'UTC',
+});
 const yearFormatter = new Intl.DateTimeFormat('de-DE', {
   timeZone: 'UTC',
   year: 'numeric',
@@ -23,6 +27,10 @@ const timeFormatter = new Intl.DateTimeFormat('de-DE', {
 
 export function formatMonthLong(date: Date): string {
   return monthLongFormatter.format(date);
+}
+
+export function formatMonthShort(date: Date): string {
+  return monthShortFormatter.format(date);
 }
 
 export function formatDate(date: Date, { extended = false } = {}): string {
