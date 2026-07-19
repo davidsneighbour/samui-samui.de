@@ -1,27 +1,297 @@
 ---
 import { getCollection } from 'astro:content';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import FormattedDate from '@components/FormattedDate.astro';
+import Accordion from '@components/ui/accordion.astro';
+import Badge from '@components/ui/badge.astro';
 import PageLayout from '@layouts/PageLayout.astro';
+import { cn } from '@utils/cn';
+import { formatMonthLong } from '@utils/dates';
+import { groupPostsByTag } from '@utils/tags';
 
-const posts = await getCollection('posts');
-const years = [
-  ...new Set(posts.map((post) => post.data.date.getUTCFullYear())),
-].sort((a, b) => b - a);
+const [posts, tagEntries] = await Promise.all([
+  getCollection('posts'),
+  getCollection('tags'),
+]);
+
+const sortedByDate = [...posts].sort(
+  (a, b) => a.data.date.valueOf() - b.data.date.valueOf(),
+);
+const oldestPost = sortedByDate[0];
+if (!oldestPost) throw new Error('No posts found in the posts collection');
+
+interface MonthCount {
+  month: number;
+  count: number;
+}
+
+interface YearSummary {
+  year: number;
+  total: number;
+  months: MonthCount[];
+  hasPosts: boolean;
+}
+
+const postsByYear = new Map<number, typeof posts>();
+for (const post of posts) {
+  const year = post.data.date.getUTCFullYear();
+  const group = postsByYear.get(year);
+  if (group) {
+    group.push(post);
+  } else {
+    postsByYear.set(year, [post]);
+  }
+}
+
+const yearNumbers = [...postsByYear.keys()];
+const minYear = Math.min(...yearNumbers);
+const maxYear = Math.max(...yearNumbers);
+
+// Walk every year in range, not just the ones with posts -- a year with
+// zero posts (e.g. a gap year) still appears in the list so the archive
+// reads as a continuous timeline, just unlinked (there's no /archiv/[year]/
+// page for it) and with twelve empty activity dots.
+const years: YearSummary[] = [];
+for (let year = maxYear; year >= minYear; year--) {
+  const yearPosts = postsByYear.get(year);
+  if (yearPosts) {
+    const monthCounts = Array.from({ length: 12 }, () => 0);
+    for (const post of yearPosts) {
+      const month = post.data.date.getUTCMonth();
+      monthCounts[month] = (monthCounts[month] ?? 0) + 1;
+    }
+    years.push({
+      hasPosts: true,
+      months: monthCounts.map((count, month) => ({ count, month })),
+      total: yearPosts.length,
+      year,
+    });
+  } else {
+    years.push({
+      hasPosts: false,
+      months: Array.from({ length: 12 }, (_, month) => ({ count: 0, month })),
+      total: 0,
+      year,
+    });
+  }
+}
+
+// Four-step activity scale on the `primary` token -- see DESIGN.md's "Month
+// activity indicator" section. Thresholds are tuned to this archive's real
+// per-month distribution (median 5, p75 21, max 93), not round numbers.
+function activityLevel(count: number): 'none' | 'few' | 'some' | 'many' {
+  if (count === 0) return 'none';
+  if (count < 5) return 'few';
+  if (count < 20) return 'some';
+  return 'many';
+}
+
+const activityClasses = {
+  few: 'bg-primary/25',
+  many: 'bg-primary',
+  none: 'border border-border bg-transparent',
+  some: 'bg-primary/60',
+} as const;
+
+// Month anchors on /archiv/[year]/ use a zero-padded, locale-independent
+// `#monat-MM` id (see src/pages/archiv/[year].astro) rather than a German
+// month name, so the fragment never has to deal with umlaut slugification.
+const monthAnchor = (month: number) =>
+  `monat-${String(month + 1).padStart(2, '0')}`;
+
+// The year link in each row stays outside <details>/<summary> below --
+// nesting an interactive element inside <summary> is a known a11y
+// anti-pattern (Chrome DevTools' Issues panel flags it). Only the "Monate
+// anzeigen" toggle and its content live inside the accordion.
+
+const tagGroups = groupPostsByTag(posts, tagEntries).sort(
+  (a, b) => b.posts.length - a.posts.length,
+);
+// No editorial "featured tag" signal exists in the content today (see
+// documentation/archiv.md) -- this is frequency-ranked, not hand-curated.
+// Revisit once/if editorial curation is added.
+const curatedTags = tagGroups.slice(0, 12);
 ---
 
 <PageLayout
-  title="Das Archiv?!?"
-  description="Archiv."
+  title="Archiv"
+  description="21 Jahre Leben auf Koh Samui -- durchsuche das komplette Archiv nach Jahr, Monat oder Thema."
 >
-  <ul class="flex flex-wrap gap-x-6 gap-y-2">
-    {years.map((year) => (
-        <li>
-          <a
-            href={`/archiv/${year}/`}
-            class="text-link hover:underline"
-          >
-            {year}
-          </a>
-        </li>
-      ))}
-  </ul>
+  <link
+    slot="head"
+    href="/pagefind/pagefind-ui.css"
+    rel="stylesheet"
+  >
+
+  <Breadcrumbs
+    slot="breadcrumbs"
+    items={[
+      { href: '/', label: 'Startseite' },
+      { href: '/archiv/', label: 'Archiv' },
+    ]}
+  />
+
+  <p class="-mt-4 mb-8 text-center text-lg text-muted-foreground">
+    21 Jahre Leben auf Koh Samui
+  </p>
+
+  <p class="mb-8 text-card-foreground">
+    Im Archiv findest du alle Beiträge seit
+    {oldestPost.data.date.getUTCFullYear()}. Suche nach einem Begriff, wähle ein
+    Jahr oder steige über eines der häufigsten Themen ein.
+  </p>
+
+  <dl
+    class="mb-10 grid grid-cols-2 gap-4 border-y border-border py-6 sm:grid-cols-4"
+  >
+    <div>
+      <dt class="text-sm text-muted-foreground">Beiträge</dt>
+      <dd class="text-2xl font-medium text-card-foreground">{posts.length}</dd>
+    </div>
+    <div>
+      <dt class="text-sm text-muted-foreground">Jahre im Archiv</dt>
+      <dd class="text-2xl font-medium text-card-foreground">
+        {postsByYear.size}
+      </dd>
+    </div>
+    <div>
+      <dt class="text-sm text-muted-foreground">Themen</dt>
+      <dd class="text-2xl font-medium text-card-foreground">
+        {tagGroups.length}
+      </dd>
+    </div>
+    <div>
+      <dt class="text-sm text-muted-foreground">Ältester Beitrag</dt>
+      <dd class="text-2xl font-medium text-card-foreground">
+        <FormattedDate date={oldestPost.data.date} />
+      </dd>
+    </div>
+  </dl>
+
+  <section class="mb-10">
+    <h2 class="mb-2 text-lg font-medium text-card-foreground">
+      Im gesamten Archiv suchen
+    </h2>
+    <p class="mb-3 text-sm text-muted-foreground">
+      Suche nach Orten, Personen, Restaurants, Ereignissen oder Begriffen aus
+      dem Inselleben.
+    </p>
+    <div id="archiv-search"></div>
+  </section>
+
+  <section class="mb-10">
+    <h2 class="mb-4 text-lg font-medium text-card-foreground">Nach Jahr</h2>
+    <ul class="divide-y divide-border border-y border-border">
+      {years.map((yearSummary) => (
+          <li class="py-3">
+            <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
+              {yearSummary.hasPosts ? (
+                <a
+                  href={`/archiv/${yearSummary.year}/`}
+                  class="text-lg font-medium text-card-foreground hover:text-link hover:underline"
+                >
+                  {yearSummary.year}
+                </a>
+              ) : (
+                <span class="text-lg font-medium text-muted-foreground">
+                  {yearSummary.year}
+                </span>
+              )}
+              <span class="text-sm text-muted-foreground">
+                {yearSummary.hasPosts
+                  ? `${yearSummary.total} ${yearSummary.total === 1 ? 'Beitrag' : 'Beiträge'}`
+                  : 'Keine Beiträge'}
+              </span>
+              <span
+                class="flex items-center gap-1"
+                aria-hidden="true"
+              >
+                {yearSummary.months.map((monthCount) => (
+                    <span
+                      class={cn(
+                        'size-2 rounded-full',
+                        activityClasses[activityLevel(monthCount.count)],
+                      )}
+                    />
+                  ))}
+              </span>
+            </div>
+            {yearSummary.hasPosts && (
+              <Accordion class="border-b-0">
+                <span slot="summary">Monate anzeigen</span>
+                <ul class="grid grid-cols-2 gap-x-6 gap-y-1 pl-1 sm:grid-cols-3 md:grid-cols-4">
+                  {yearSummary.months
+                    .filter((monthCount) => monthCount.count > 0)
+                    .map((monthCount) => (
+                        <li>
+                          <a
+                            href={`/archiv/${yearSummary.year}/#${monthAnchor(monthCount.month)}`}
+                            class="flex items-baseline justify-between gap-2 text-sm text-muted-foreground hover:text-link hover:underline"
+                          >
+                            <span>
+                              {formatMonthLong(
+                                new Date(
+                                  Date.UTC(
+                                    yearSummary.year,
+                                    monthCount.month,
+                                    1,
+                                  ),
+                                ),
+                              )}
+                            </span>
+                            <span>{monthCount.count}</span>
+                          </a>
+                        </li>
+                      ))}
+                </ul>
+              </Accordion>
+            )}
+          </li>
+        ))}
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="mb-1 text-lg font-medium text-card-foreground">
+      Womit möchtest du anfangen?
+    </h2>
+    <p class="mb-4 text-sm text-muted-foreground">
+      Eine Auswahl häufig verwendeter Themen aus {postsByYear.size} Jahren
+      Archiv.
+    </p>
+    <ul class="flex flex-wrap gap-2">
+      {curatedTags.map((tag) => (
+          <li>
+            <Badge
+              href={`/tags/${tag.slug}/`}
+              variant="muted"
+              aria-label={`${tag.posts.length} Beiträge zum Thema ${tag.title}`}
+            >
+              {tag.title.toLocaleUpperCase('de-DE')} · {tag.posts.length}
+            </Badge>
+          </li>
+        ))}
+    </ul>
+    <a
+      href="/tags/"
+      class="mt-4 inline-block text-sm text-link hover:underline"
+    >
+      Alle Tags ansehen →
+    </a>
+  </section>
+
+  <script
+    slot="scripts"
+    is:inline
+    src="/pagefind/pagefind-ui.js"
+  ></script>
+  <script
+    slot="scripts"
+    is:inline
+  >
+    window.addEventListener('DOMContentLoaded', () => {
+      // biome-ignore lint/correctness/noUndeclaredVariables: loaded globally by the pagefind-ui.js script above
+      new PagefindUI({ element: '#archiv-search' });
+    });
+  </script>
 </PageLayout>

@@ -199,6 +199,37 @@ dedicated `--masthead-tagline` variable. The dark value (`#e2e2b6`) is
 the exact legacy `.blogdescription` color; the light value (`#6b2438`)
 is intentionally darker for contrast on the light page background.
 
+### Month activity indicator
+
+The archive's year overview shows twelve small dots per year, one per
+month, signaling how many posts that month had (0 / few / some / many).
+Rather than a new hue or a net-new frontmatter token, this reuses the
+existing `primary` token at four opacity steps — it stays inside the
+site's one accent color instead of introducing a second color language,
+and doesn't require a `design.md lint` change since no new token is
+declared:
+
+| Level | Meaning | Class |
+| --- | --- | --- |
+| none | 0 posts | `border border-border bg-transparent` (hollow, not just "0% opacity fill") |
+| few | 1–4 posts | `bg-primary/25` |
+| some | 5–19 posts | `bg-primary/60` |
+| many | 20+ posts | `bg-primary` |
+
+The "none" level is a hollow ring rather than a fourth opacity step so
+the empty state reads as a distinct shape, not merely "very faint" —
+this is what keeps the indicator understandable without relying on
+color contrast alone. The dots are always paired with the actual post
+count in text (in the year row and, expanded, in each month row), so
+the dots themselves are decorative (`aria-hidden="true"`) rather than
+the sole carrier of the information.
+
+Thresholds are tuned against the archive's real per-month distribution
+(157 months have ≥1 post; median 5, 75th percentile 21, max 93 in a
+single month) rather than the round numbers in early planning drafts —
+most 2005–2007 months land in "many", most 2012+ months land in "few"
+or "some", which is the actual shape of this blog's history.
+
 ## Typography
 
 Font family is **Panton** everywhere (`--font-sans`), self-hosted as

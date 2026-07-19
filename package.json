@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@astrojs/react": "5.0.7",
-    "@pagefind/default-ui": "1.4.0",
+    "@pagefind/default-ui": "1.5.2",
     "@tailwindcss/typography": "0.5.20",
     "@tailwindcss/vite": "4.3.2",
     "class-variance-authority": "0.7.1",
@@ -23,7 +23,7 @@
     "react-dom": "19.2.7",
     "sirv": "3.0.2",
     "tailwind-merge": "3.6.0",
-    "tailwindcss": "4.1.17"
+    "tailwindcss": "4.3.2"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.9",
@@ -51,11 +51,12 @@
     "react": "19.2.7",
     "react-dom": "19.2.7",
     "release-it": "20.2.1",
-    "sharp": "0.34.5",
+    "sharp": "0.35.3",
     "simple-git-hooks": "2.13.1",
     "typescript": "5.9.3",
     "vite-plugin-mkcert": "2.1.0",
-    "wireit": "0.14.12",
+    "vitest": "4.1.10",
+    "wireit": "0.14.13",
     "yaml": "2.9.0"
   },
   "scripts": {
@@ -92,6 +93,8 @@
     "release:major": "release-it --config .release-it.ts --ci --increment=major",
     "release:minor": "release-it --config .release-it.ts --ci --increment=minor",
     "release:patch": "release-it --config .release-it.ts --ci --increment=patch",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "upgrade": "npx @astrojs/upgrade"
   },
   "wireit": {

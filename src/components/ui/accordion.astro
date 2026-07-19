@@ -1,0 +1,33 @@
+---
+import { ChevronDown } from '@lucide/astro';
+import { cn } from '@utils/cn';
+
+interface Props {
+  class?: string | undefined;
+  open?: boolean | undefined;
+  summaryClass?: string | undefined;
+}
+
+const { class: className, open = false, summaryClass } = Astro.props as Props;
+---
+
+<details
+  open={open}
+  class={cn('group border-b border-border last:border-b-0', className)}
+>
+  <summary
+    class={cn(
+      'flex cursor-pointer list-none items-center justify-between gap-4 py-3 marker:content-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 [&::-webkit-details-marker]:hidden',
+      summaryClass,
+    )}
+  >
+    <slot name="summary" />
+    <ChevronDown
+      class="size-4 shrink-0 text-muted-foreground transition-transform duration-150 group-open:rotate-180"
+      aria-hidden="true"
+    />
+  </summary>
+  <div class="pb-3">
+    <slot />
+  </div>
+</details>

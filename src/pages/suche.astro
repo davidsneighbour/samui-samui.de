@@ -27,7 +27,10 @@ if (!entry) throw new Error('Missing pages/suche.md entry');
   >
     window.addEventListener('DOMContentLoaded', () => {
       // biome-ignore lint/correctness/noUndeclaredVariables: loaded globally by the pagefind-ui.js script above
-      const search = new PagefindUI({ element: '#search' });
+      const search = new PagefindUI({
+        element: '#search',
+        open_filters: ['Year', 'Tag'],
+      });
       const query = new URLSearchParams(window.location.search).get('q');
       if (query) search.triggerSearch(query);
     });

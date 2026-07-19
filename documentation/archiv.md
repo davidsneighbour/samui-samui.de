@@ -47,7 +47,6 @@ Already implemented and reused as-is where noted:
 ```text
 /archiv/                    year overview, statistics, search, curated tags
 /archiv/[year]/             all posts of a year, grouped by month, anchors
-/archiv/[year]/[month]/     optional — see decision below
 /tags/                      full tag index (alphabetical + frequency)
 /tags/[slug]/               unchanged, existing page
 /[year]/[month]/slug/       individual post URLs — unchanged, never touched
@@ -56,10 +55,25 @@ Already implemented and reused as-is where noted:
 `/archiv/` is a distinct prefix from the post permalinks (`/yyyy/mm/slug/`),
 so there is no route conflict and breadcrumbs stay unambiguous.
 
-Whether `/archiv/[year]/[month]/` ships as real static routes or stays
-anchor-only on the year page is decided in
-[#910](https://github.com/davidsneighbour/samui-samui.de/issues/910); record
-the outcome here once resolved.
+**Decision ([#910](https://github.com/davidsneighbour/samui-samui.de/issues/910)):
+no separate `/archiv/[year]/[month]/` routes are built.** The year page
+(`/archiv/[year]/`, [#909](https://github.com/davidsneighbour/samui-samui.de/issues/909))
+already gives every month a directly linkable `#monat-MM` anchor, a compact
+post list, and month-level counts — the anchors are retained as the sole
+implementation of "browse a month" per the EN plan's explicit fallback.
+Reasons against building real month routes:
+
+* Every month page would duplicate the year page's per-month section almost
+  verbatim (same post list, same counts), which is exactly the kind of thin
+  duplicate-content the plan warns against.
+* Populated prev/next navigation across year boundaries (e.g. Dec 2006 →
+  Jan 2007) and a canonical-vs-index decision for each new route would add
+  meaningful upkeep for a "browse a month" need the year page already meets.
+* No post currently links to, or depends on, a `/archiv/[year]/[month]/` URL.
+
+If a genuine need for directly shareable month URLs surfaces later (e.g. an
+external link expects one), this decision can be revisited — nothing here
+prevents adding the routes retroactively.
 
 ## Data source
 
@@ -77,14 +91,19 @@ in-progress/unpublished content living in the `posts` collection that would
 need excluding — if that changes, filtering belongs in one shared query
 helper, not duplicated per archive page.
 
+**Gap years:** `/archiv/` lists every year in the continuous range from the
+oldest to the newest post, not just years that have posts — a year with zero
+posts (e.g. 2023) still appears in the UI, shown unlinked (muted year
+number, "Keine Beiträge", twelve hollow activity dots, no month disclosure),
+so the archive reads as an unbroken timeline. It never gets a
+`/archiv/[year]/` route — there's nothing to build a page for.
+
 ## Indexing strategy
 
 Indexable (included in the sitemap, get canonical + meta description):
 
 * `/archiv/`
 * `/archiv/[year]/` for every year with ≥1 post
-* `/archiv/[year]/[month]/` for every month with ≥1 post, if built
-  ([#910](https://github.com/davidsneighbour/samui-samui.de/issues/910))
 * `/tags/`
 * `/tags/[slug]/` for every tag with ≥1 post
 

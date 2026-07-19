@@ -2,9 +2,10 @@
 import { getCollection } from 'astro:content';
 import BaseHead from '@components/BaseHead.astro';
 import BlogList from '@components/BlogList.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
 import Footer from '@components/Footer.astro';
 import Header from '@components/Header.astro';
-import { humanize, slugify } from '@utils/slugify';
+import { groupPostsByTag } from '@utils/tags';
 
 export async function getStaticPaths() {
   const [tagEntries, posts] = await Promise.all([
@@ -12,52 +13,20 @@ export async function getStaticPaths() {
     getCollection('posts'),
   ]);
 
-  // Hugo generates a taxonomy page for every distinct tag *slug* used across
-  // posts, not just the ones with a hand-authored _index.md -- that file only
-  // provides an optional title/description/slug override for its one term.
-  // Front matter `title` on those entries holds the raw (un-prettified) tag
-  // string that posts actually reference; `slug` is the pretty URL override.
-  const overridesBySlug = new Map(
-    tagEntries.map((entry) => [slugify(entry.data.title), entry]),
-  );
-
-  // Group by slug, not raw string -- a few posts use inconsistent casing or
-  // separators for the same term (e.g. "TAT"/"tat", "bhumibol adulyadej"/
-  // "bhumibol-adulyadej"), which must collapse to one page, not collide.
-  const bySlug = new Map<string, { rawTag: string; posts: typeof posts }>();
-  for (const post of posts) {
-    for (const tag of post.data.tags ?? []) {
-      const slug = slugify(tag);
-      const group = bySlug.get(slug);
-      if (group) {
-        group.posts.push(post);
-      } else {
-        bySlug.set(slug, { posts: [post], rawTag: tag });
-      }
-    }
-  }
-
-  return [...bySlug.entries()].map(([slug, { rawTag, posts: tagPosts }]) => {
-    const override = overridesBySlug.get(slug);
-    const finalSlug = override?.data.slug ?? slug;
-    const title = humanize(override?.data.title ?? rawTag);
-    const sortedPosts = tagPosts.sort(
-      (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
-    );
-
-    return {
-      params: { slug: finalSlug },
-      props: {
-        description:
-          override?.data.description ?? `Beiträge zum Thema ${title}`,
-        posts: sortedPosts,
-        title,
-      },
-    };
-  });
+  return groupPostsByTag(posts, tagEntries).map((group) => ({
+    params: { slug: group.slug },
+    props: {
+      description: group.description,
+      posts: group.posts.sort(
+        (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+      ),
+      slug: group.slug,
+      title: group.title,
+    },
+  }));
 }
 
-const { title, description, posts } = Astro.props;
+const { title, description, posts, slug } = Astro.props;
 ---
 
 <!doctype html>
@@ -75,6 +44,14 @@ const { title, description, posts } = Astro.props;
     <Header />
     <main class="py-8">
       <section>
+        <Breadcrumbs
+          class="mx-auto max-w-4xl px-4"
+          items={[
+            { href: '/', label: 'Startseite' },
+            { href: '/tags/', label: 'Themen' },
+            { href: `/tags/${slug}/`, label: title },
+          ]}
+        />
         <h1
           class="mx-auto mb-4 max-w-4xl px-4 text-2xl font-normal text-foreground"
         >
