@@ -16,4 +16,4 @@ Wenn man es so ohne Hintergedanken ansieht, dann ist es nicht sonderlich schlimm
 
 Neben-Notiz: Gestern hat ein französisches Paar versucht, einen "Selfie" neben einem Krokodil aufzunehmen --- die Frau wurde von selbigem gebissen. Mehr habe ich dazu nicht zu sagen. Ausser vielleicht: Tierische Instinkte für touristische Gründe zu missbrauchen wird sich eines Tages (oder spätestens wenn das Krokodil zubeisst) revanchieren.
 
-<iframe src="https://www.youtube-nocookie.com/embed/3lOhzMGfnOo" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="3lOhzMGfnOo"></dnb-youtube>

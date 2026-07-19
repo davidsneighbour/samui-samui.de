@@ -10,7 +10,7 @@ tags:
 
 ---
 
-<iframe src="https://www.youtube-nocookie.com/embed/VZvzvLiGUtw" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="VZvzvLiGUtw"></dnb-youtube>
 
 Die Gruppe "Rapper gegen Diktaturen", [ich berichtete](/2018/10/rappen-gegen-diktaturen), erhält nun den *Václav Havel Prize for Creative Dissent* (Václav Havel Preis für kreativen Widerstand). Verdient.
 

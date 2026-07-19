@@ -11,4 +11,4 @@ tags:
 
 Im nun folgenden Video k&ouml;nnen wir dem Treiben eines kleinen Jungen zusehen, welcher der festen Meinung ist, dass er gleich hinter Saturn einen neuen Planeten entdecken wird und als super-duper Astronaut die Welt ver&auml;ndern wird. Wenn er nur das Teleskop kaufen k&ouml;nnte, was da verlockend hinter dem Schaufenster des Ladens gleich neben dem Eiscreme-Stand gl&auml;nzt. Und so beginnt er zu sparen, und zu sparen. Wird er das Geld zusammen sparen k&ouml;nnen um seine Bestimmung und seinen Traum zu verwirklichen?
 
-<iframe src="https://www.youtube-nocookie.com/embed/a2lv_Xl1e4U" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="a2lv_Xl1e4U"></dnb-youtube>

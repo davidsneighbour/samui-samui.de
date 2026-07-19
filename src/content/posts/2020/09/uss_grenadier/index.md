@@ -20,7 +20,7 @@ Wie auch immer&hellip; Interessant, wo Amerikaner und Japaner sich so rumgetrieb
 
 Auf Youtube kann man Videos von den Tauchgängen sehen.
 
-<iframe src="https://www.youtube-nocookie.com/embed/WMcJ-sac_1g" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="WMcJ-sac_1g"></dnb-youtube>
 
 -   [Divers May Have Found US Submarine Lost in WWII South of Phuket](https://www.khaosodenglish.com/news/crimecourtscalamity/2020/09/17/divers-may-have-found-us-submarine-lost-in-wwii-south-of-phuket/)
 -   [USS Grenadier (SS 210) auf alchetron](https://alchetron.com/USS-Grenadier-(SS-210))

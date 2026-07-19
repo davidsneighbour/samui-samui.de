@@ -8,7 +8,7 @@ tags:
 - video
 ---
 
-<iframe src="https://www.youtube-nocookie.com/embed/Ls1cfDPDGDI" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="Ls1cfDPDGDI"></dnb-youtube>
 
 Dashcams sind eine sehr nützliche Erfindung. So kann man nämlich in diesem Video das Verglühen eines Meteoriten aus allen möglichen Richtungen betrachten. Dieser Feuerball war gestern Abend in Bangkok zu sehen. Das grünliche Licht, das beim Verbrennen in der Atmosphäre ausgestrahlt wurde, deutet auf [Eisen und Nickel im Objekt][1] hin.
 

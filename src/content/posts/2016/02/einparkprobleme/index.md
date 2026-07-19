@@ -8,6 +8,6 @@ tags:
 - bangkok
 ---
 
-<iframe src="https://www.youtube-nocookie.com/embed/C2uyfYOkTP0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="C2uyfYOkTP0"></dnb-youtube>
 
 Einparkprobleme hatte am Wochenende dieses etwas größere Transportschiff in einem zugegebenermassen etwas kurvigem Bereich des Chao Phraya Rivers in Bangkok.

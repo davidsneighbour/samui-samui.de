@@ -12,6 +12,6 @@ Am zweiten Samstag im Januar findet hierzulande der Kindertag statt. Während an
 
 Dieses Jahr war der Tag ein wenig aufregender, weil in Hat Yai auf einer Flugschau ein Flugzeug abgestürzt ist.
 
-<iframe src="https://www.youtube-nocookie.com/embed/081NOLjBD3k" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="081NOLjBD3k"></dnb-youtube>
 
 Am 16. Januar jedes Jahr dann wiederum (passenderweise immer ein paar Tage nach dem Kindertag) ist es an der Zeit, die Lehrer zu ehren. Genaugenommen gibt es in jedem Lebensbereich Lehrer, sei es in der Schule (des Lebens), der Universität, im Sport und vielen anderen Bereichen. Der Lehrertag ist daher ein Grund für alle, den Lehrern in ihrem Leben Respekt zu erweisen.

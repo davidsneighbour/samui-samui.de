@@ -12,6 +12,6 @@ tags:
   - video
 
 ---
-<iframe src="https://www.youtube-nocookie.com/embed/sp8sdZe1hrw" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="sp8sdZe1hrw"></dnb-youtube>
 
 ... wir lesen uns im nächsten Jahr wieder (Spätestens zum nächsten Jahresendvideo).

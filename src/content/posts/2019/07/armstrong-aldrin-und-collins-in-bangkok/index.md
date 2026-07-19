@@ -10,7 +10,7 @@ leute:
     - thanom kittikachorn
 ---
 
-<iframe src="https://www.youtube-nocookie.com/embed/vPS8PPDDZgY" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="vPS8PPDDZgY"></dnb-youtube>
 
 Vor 50 Jahren setzte Eagle, das Apollo Mondmodul, am 20. Juli 1969 um 20:17 UTC auf dem Mond auf und Neil Armstrong betrat als erster Mensch knapp 7 Stunden später um 2:56 UTC Morgens am 21. Juli den Mond. 
 

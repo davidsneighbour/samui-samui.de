@@ -5,7 +5,7 @@ url: /2019/06/die-koenigin-der-durianen
 tags: [thaistyle, wirtschaft, fruechte, video]
 ---
 
-<iframe src="https://www.youtube-nocookie.com/embed/uU0o8kRyj54" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="uU0o8kRyj54"></dnb-youtube>
 
 Für 1.5 Millionen Thaibaht wurde vergangene Woche eine Durian versteigert (das sind rund 42.500 EUR). Das Objekt der Begierde wurde aufgrund ihrer perfekten Größe, Form und Reifheitsgrad gewählt.
 

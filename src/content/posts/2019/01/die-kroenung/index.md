@@ -11,7 +11,7 @@ leute:
 lastmod: 2023-09-10T19:14:12+07:00
 ---
 
-<iframe src="https://www.youtube-nocookie.com/embed/0BouTfg-Yos" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="0BouTfg-Yos"></dnb-youtube>
 
 Die offizielle Krönungszeremonie von König Maha Vajiralongkorn, Rama X, wird am 4. bis 6. Mai stattfinden. Das gab das königliche Haushaltsbüro bekannt. Die Zeremonie wird am 4. Mai vollzogen, in den Tagen darauf dann von Prozessionen und Audienzen begleitet.
 

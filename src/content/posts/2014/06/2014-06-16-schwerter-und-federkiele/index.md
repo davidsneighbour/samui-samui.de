@@ -9,7 +9,7 @@ dsq_thread_id:
 
 
 ---
-<iframe src="https://www.youtube-nocookie.com/embed/p-JnwTmGLsU" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="p-JnwTmGLsU"></dnb-youtube>
 
 Wenn General Prayuth Chanocha nicht gerade demokratisch gewählte und undemokratisch bedemonstrierte Regierungen von ihren den Fortschritt behindernden Positionen wegputscht nimmt er schon gerne mal den Bleistift in die Hand und schreibt gefühlvolle Balladen nieder. So geschehen vor ein paar Tagen, als er ein Lied veröffentlichen lies, das die nationale Einheit herbeibeschwören soll. "Vertraut uns einfach, wir fragen nur nach mehr Zeit" usw...
 

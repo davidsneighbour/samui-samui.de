@@ -8,7 +8,7 @@ tags:
     - delphin
 ---
 
-<iframe src="https://www.youtube-nocookie.com/embed/PbHzitKau0I" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="PbHzitKau0I"></dnb-youtube>
 
 Fischer hier im Golf von Thailand haben eine Begegnung mit Albino-Delphinen gefilmt. Die Delphine sind relativ selten und betteln um Futter. Sehr interessant anzuschauen. Hier in der Nähe des Festlandes sind die Albino-Delphine eine der Touristenattraktionen. Man sieht sie, aber selten. 
 

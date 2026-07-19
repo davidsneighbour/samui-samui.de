@@ -4,9 +4,7 @@ date: 2010-08-03T13:02:43+00:00
 url: /2010/08/kill-the-drill/
 lastmod: 2023-09-10T19:14:12+07:00
 ---
-<div class="media video">
-  <a class="video" href="http://www.youtube.com/watch?v=Ob-XAWNf4lo">Kill the drill</a>
-</div>
+<dnb-youtube videoid="Ob-XAWNf4lo" videotitle="Kill the drill"></dnb-youtube>
 
 Ein Video von der Menschenkette gegen die ?lplattform(en) in der Nähe Samuis am Samstag. Im lokalen Fernsehen gibt es ein änliches Video in der Rotation und auch in den Zeitungen wird die Aktion [erwähnt][1]. Mal sehen was es bringt.
 

@@ -15,6 +15,6 @@ Der Zusammenhang bleibt unerklärt.
 
 Ich bezweifle, dass die Leute im folgenden Werbeclip eine Lebensversicherung der Thai Life Insurance haben, aber naja. *Tränendrüse aktiviert*. 
 
-<iframe src="https://www.youtube-nocookie.com/embed/uaWA2GbcnJU" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="uaWA2GbcnJU"></dnb-youtube>
 
 

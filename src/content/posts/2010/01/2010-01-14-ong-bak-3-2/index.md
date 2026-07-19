@@ -14,9 +14,7 @@ Ong Bak 3 sollte erst zu Weihnachten 2009 und dann am 21. Januar in die Kinosäl
 
 Um die Wartezeit zu überbrücken hier ein Filmschnippsel der eigentlich gar nichts aussagt.
 
-<div class="media video">
-  <a href="http://www.youtube.com/watch?v=OdCAZ4HreKI" class="video">Ong Bak 3 News</a>
-</div>
+<dnb-youtube videoid="OdCAZ4HreKI" videotitle="Ong Bak 3 News"></dnb-youtube>
 
  [1]: http://www.imdb.com/title/tt0368909/
  [2]: http://twitchfilm.net/news/2009/11/afm-09-fresh-art-and-plot-details-from-tony-jaas-ong-bak-3.php

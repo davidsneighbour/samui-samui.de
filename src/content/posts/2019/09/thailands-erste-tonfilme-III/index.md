@@ -10,7 +10,7 @@ resources:
     - src: "thailands-erste-tonfilme.png"
 ---
 
-<iframe src="https://www.youtube-nocookie.com/embed/YO2iUExOv1E" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="YO2iUExOv1E"></dnb-youtube>
 
 Das Thailändische Filmarchiv hat vor ein paar Tagen die ersten bekannten Tonfilme aus Thailand der Öffentlichkeit vorgestellt. Entdeckt wurden sie in den Archiven der Universität von South Carolina in den USA. Aufgenommen wurden sie von Fox Movietone in den 30er Jahren des vergangenen Jahrhunderts. 
 

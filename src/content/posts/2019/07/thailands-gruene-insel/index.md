@@ -14,7 +14,7 @@ resources:
       title: "Thailands grüne Insel - Fischer"
 ---
 
-<iframe src="https://www.youtube-nocookie.com/embed/RwzZBbmXrCk" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="RwzZBbmXrCk"></dnb-youtube>
 
 Hin und wieder macht die TAT (Thailands Tourismus Regierungsorganisation) mal manche Sachen richtig. Zur Zeit zum Beispiel veröffentlichen sie zur Zeit eine Kurz-Video-Serie namens "Seasons" in der sie unentdeckte Regionen vorstellen. Die aktuelle Folge handelt von Ko Pha Luai, einer Insel im Angthong National Marine Park hier um die Ecke. Die Insel ist die erste "grüne Insel" Thailands. Das bedeutet, dass sie ihre Energie selbst umweltfreundlich herstellt und auch in vielen anderen Punkten sich unabhängig versorgt. 
 

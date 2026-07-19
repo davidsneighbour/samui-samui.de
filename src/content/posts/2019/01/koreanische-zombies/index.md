@@ -17,4 +17,4 @@ Die Art der Serie ist relativ weitverbreitet. Ich musste mir da vor etwas mehr a
 
 PS: Mir fällt grade auf, die Serie gibt es auch auf Deutsch, für die Sprachfaulen ;)
 
-<iframe src="https://www.youtube-nocookie.com/embed/mIy6h15DpPk" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-youtube videoid="mIy6h15DpPk"></dnb-youtube>
