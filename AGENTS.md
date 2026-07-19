@@ -78,10 +78,12 @@ at [https://samui-samui.de](https://samui-samui.de).
 
   Every issue SHOULD carry at least one `type:*` label and one `status:*` label.
 
-* When an agent shows an issue number in its output or summaries to the user (not
-  in commit messages, where `#123` is sufficient), it MUST link to the issue online,
-  e.g. `[#123](https://github.com/davidsneighbour/samui-samui.de/issues/123)`, rather
-  than printing a bare number.
+* Every time an agent writes an issue number, it MUST link to the issue online, e.g.
+  `[#123](https://github.com/davidsneighbour/samui-samui.de/issues/123)`, rather than
+  printing a bare number. This applies everywhere: chat output and summaries to the
+  user, GitHub issue bodies/comments, `ROADMAP.md`, and other documentation. The only
+  exception is commit messages, where bare `#123` is sufficient — GitHub auto-links it
+  there, whereas a markdown link renders as literal text in `git log`.
 
 * `ROADMAP.md` MUST reflect the current set of open GitHub issues (a generated index,
   not hand-maintained prose) and `TODO.md` MUST stay a scratchpad for notes that are
