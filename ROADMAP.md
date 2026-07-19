@@ -1,89 +1,76 @@
 # Roadmap
 
 Generated index of open GitHub issues for this repository. This file is a cache of
-issue-tracker state, not the source of truth — GitHub Issues are authoritative.
-Regenerate via the `dnb-project-task-triage` skill rather than hand-editing.
+issue-tracker state, not the source of truth. GitHub Issues are authoritative.
+Regenerate this file with the `dnb-project-task-triage` skill instead of
+hand-editing it.
 
 ## Project state
 
-* **The Astro migration project is complete and closed out** (2026-07-18). Current
-  stack: Astro (`output: 'static'`), deployed to Netlify at
-  [https://samui-samui.de](https://samui-samui.de). Hugo has been removed entirely
-  — see `AGENTS.md` for the current architecture.
-* A follow-up burst of UI/polish work (theme toggle, tag badges, pagination
-  redesign, title/meta component extraction, lucide icons, footer/copyright,
-  formatting fixes) landed in 15 commits that closed issues #733–#743. These
-  were closed manually during this run (repository state confirmed the work
-  was done before the commits were confirmed pushed); the branch has since
-  been pushed to `origin/main`, so GitHub's own closing-keyword automation is
-  now in sync.
-* Open GitHub issues: 6 (5 pre-existing post-migration follow-ups + 1 new item
-  converted from a `TODO.md` scratch note this run).
-* Label taxonomy (`type:*`, `status:*`, `prio:*`, `resolution:*`, `meta:*`) is set
-  up and in active use — see `AGENTS.md` for the full table.
-* Project health: `npm run astro:check` passes clean (0 errors, 0 warnings, 42
-  hints — all `ts(6385)` deprecated-`z`-import hints in `src/content.config.ts`,
-  cosmetic, from the Zod version bundled with Astro) as of 2026-07-18. 4 open
-  Dependabot PRs pending review (#674 pagefind, #677 nanoid, #681 postcss, #714
-  npm_and_yarn group) — routine dependency maintenance is automated, not tracked
-  as issues. GitHub reports 42 open Dependabot security alerts (21 high, 17
-  medium, 4 low, 0 critical) on `main` as of 2026-07-18 — not yet triaged into
-  issues.
-* An uncommitted change to `netlify/functions/contact.mjs` exists in the working
-  tree outside this run's scope (project tracking files only) — left untouched.
+* The Astro migration is complete. The site is now a static Astro project
+  deployed on Netlify at [https://samui-samui.de](https://samui-samui.de).
+* Open GitHub issues: 5 as of 2026-07-19. The previous roadmap entries for
+  [#720](https://github.com/davidsneighbour/samui-samui.de/issues/720),
+  [#721](https://github.com/davidsneighbour/samui-samui.de/issues/721),
+  [#722](https://github.com/davidsneighbour/samui-samui.de/issues/722), and
+  [#723](https://github.com/davidsneighbour/samui-samui.de/issues/723) are now
+  closed and have been removed from the open-work index.
+* One TODO scratchpad note was converted into
+  [#887](https://github.com/davidsneighbour/samui-samui.de/issues/887), leaving no
+  unprocessed notes in `TODO.md`.
+* Local health checks on 2026-07-19:
+  * `npm run check` passes: Biome format/lint and markdownlint report no errors.
+  * `npm run astro:check` passes with 0 errors, 0 warnings, and 42 existing
+    `ts(6385)` Zod deprecation hints in `src/content.config.ts`.
 
-## Open issues
+## Security and dependencies
 
-* [#723](https://github.com/davidsneighbour/samui-samui.de/issues/723) Production
-  setup: contact form secrets + giscus GitHub App install (`prio:medium` —
-  operational only, not a code gap: Netlify env vars for Resend/reCAPTCHA
-  confirmed unset via `netlify env:list`; giscus GitHub App install needs the
-  repo owner's own GitHub authorization)
-* [#722](https://github.com/davidsneighbour/samui-samui.de/issues/722) Google
-  reCAPTCHA: disclose in privacy policy or replace with a non-Google alternative
-  (`prio:medium` — real gap: `ContactForm.astro` + `netlify/functions/contact.mjs`
-  use reCAPTCHA v3 but `datenschutzerklaerung.md` has no mention of it at all)
-* [#721](https://github.com/davidsneighbour/samui-samui.de/issues/721) Replace
-  Google Maps privacy-policy section with a non-Google map solution (`prio:low` —
-  stale boilerplate text, no actual Maps embed exists in the Astro site; owner
-  decision 2026-07-18 was to migrate to a Leaflet/OpenStreetMap embed rather than
-  just delete the text)
-* [#720](https://github.com/davidsneighbour/samui-samui.de/issues/720) Matomo
-  tracking script throws "Assignment to constant variable" on Astro pages
-  (`prio:low` — not a CSP issue, throws inside Matomo's own minified `matomo.js`
-  loaded verbatim from the old Hugo site's `src/components/Analytics.astro`)
+* [#747](https://github.com/davidsneighbour/samui-samui.de/issues/747) chore(deps):
+  outdated markdown-it/linkify-it/js-yaml pins in markdownlint toolchain
+  (`prio:high`, `status:confirmed`) - highest-priority open item. This tracks
+  four GHSA advisories in the markdownlint tooling chain.
+* [#750](https://github.com/davidsneighbour/samui-samui.de/issues/750) chore(deps):
+  brace-expansion DoS via wireit's pinned range (`prio:medium`,
+  `status:confirmed`) - dependency-security follow-up for Wireit's transitive
+  range.
+
+## Comments and community
+
 * [#717](https://github.com/davidsneighbour/samui-samui.de/issues/717) Migrate
-  historical Disqus comments into Giscus/GitHub Discussions (`prio:low` — export
-  already backed up in `scratch/`, needs an import approach; attribution scheme
-  and skip rules for spam/deleted comments already confirmed in the issue's
-  comments)
-* [#745](https://github.com/davidsneighbour/samui-samui.de/issues/745) Auto-replace
-  HTML entity umlauts (`&uuml;` etc.) with proper characters on save/commit
-  (`prio:low` — new this run, converted from a `TODO.md` note; open clarification
-  questions on pre-commit hook vs. editor-level fix, and whether a bulk-fix pass
-  over existing content is in scope)
+  historical Disqus comments into Giscus/GitHub Discussions (`prio:low`,
+  `status:blocked`) - data migration remains blocked until the import approach,
+  attribution handling, and Giscus production setup are ready.
+* [#887](https://github.com/davidsneighbour/samui-samui.de/issues/887) Adapt
+  Giscus comment theme to SamuiSamui design tokens (`prio:low`,
+  `status:confirmed`) - new issue converted from `TODO.md`; keep `DESIGN.md` and
+  README setup notes in sync if theme hosting or configuration changes.
+
+## Editorial tooling
+
+* [#745](https://github.com/davidsneighbour/samui-samui.de/issues/745)
+  Auto-replace HTML entity umlauts (`&uuml;` etc.) with proper characters on
+  save/commit (`prio:low`, `status:unconfirmed`, `meta:question`) - needs a
+  scope decision before implementation.
 
 ## Open clarification questions
 
-* [#745](https://github.com/davidsneighbour/samui-samui.de/issues/745) — pre-commit
-  hook vs. VS Code editor-level transform, and whether a bulk-fix pass over
-  existing content is in scope.
+* [#745](https://github.com/davidsneighbour/samui-samui.de/issues/745) - decide
+  whether this should be an editor-level transform, a pre-commit/content hook, or
+  a one-time cleanup plus future guard; also decide whether an archive-wide bulk
+  replacement is in scope.
 
 ## Recommended next steps
 
-1. [#722](https://github.com/davidsneighbour/samui-samui.de/issues/722) and
-   [#723](https://github.com/davidsneighbour/samui-samui.de/issues/723) are both
-   `prio:medium` and independently actionable — #723 in particular blocks the
-   contact form from sending real mail and comments from rendering in production.
-2. [#717](https://github.com/davidsneighbour/samui-samui.de/issues/717),
-   [#720](https://github.com/davidsneighbour/samui-samui.de/issues/720),
-   [#721](https://github.com/davidsneighbour/samui-samui.de/issues/721), and
-   [#745](https://github.com/davidsneighbour/samui-samui.de/issues/745) are all
-   low-priority; #745 needs its clarification questions answered before
-   implementation, the rest have clarification already resolved in-issue.
-3. Review and merge the 4 open Dependabot PRs opportunistically (routine
-   maintenance, no scope decision needed).
-4. The 42 Dependabot security alerts GitHub reports on `main` haven't been
-   triaged — worth a `dnb-osv-scan`-style pass or at least a look at the Security
-   tab to see whether any are exploitable in this static site's actual usage (vs.
-   build-time-only tooling).
+1. Handle [#747](https://github.com/davidsneighbour/samui-samui.de/issues/747)
+   first because it is the only high-priority open security issue.
+2. Then handle [#750](https://github.com/davidsneighbour/samui-samui.de/issues/750)
+   as the remaining medium-priority security/dependency issue.
+3. Decide the scope for
+   [#745](https://github.com/davidsneighbour/samui-samui.de/issues/745) before
+   implementation, because the right fix depends on whether this should happen in
+   the editor, pre-commit flow, or a content-cleanup script.
+4. Work on [#887](https://github.com/davidsneighbour/samui-samui.de/issues/887)
+   after Giscus production setup is stable enough to verify the theme locally and
+   in production.
+5. Resume [#717](https://github.com/davidsneighbour/samui-samui.de/issues/717)
+   once the comment platform setup and migration/import plan are unblocked.
