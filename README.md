@@ -147,69 +147,69 @@ Netlify's connected build or the Netlify CLI once the setup above is complete.
 
 ### Astro and site commands
 
-| Command | What it does | Notes |
-| --- | --- | --- |
-| `npm run astro -- <args>` | Runs the Astro CLI directly. | Use this for ad hoc Astro subcommands that do not have a named npm wrapper. |
-| `npm run astro:check` | Runs `astro check`. | Type/content diagnostics only; no build output. |
-| `npm run dev` | Runs `astro dev --verbose`. | This is intentionally more chatty than plain `astro dev`. |
-| `npm run dev:verbose` | Runs `DEBUG_FRONTMATTER=true astro dev --verbose`. | Adds frontmatter debugging on top of the already verbose dev server. |
-| `npm run build` | Runs `astro check && astro build --verbose`. | Differs from plain `astro build` by type-checking first and using verbose build output; the build integration also creates the Pagefind index. |
-| `npm run preview` | Runs `astro preview`. | Serves the built `dist` output locally after a build. |
-| `npm run upgrade` | Runs `npx @astrojs/upgrade`. | Interactive Astro upgrade helper; use with the Astro version constraints in `AGENTS.md` in mind. |
+| Command | Details |
+| --- | --- |
+| `npm run astro -- <args>` | Direct Astro CLI passthrough for ad hoc subcommands. |
+| `npm run astro:check` | Type/content diagnostics only; no build output. |
+| `npm run dev` | Starts Astro dev with `--verbose`, so it is chattier than plain `astro dev`. |
+| `npm run dev:verbose` | Adds `DEBUG_FRONTMATTER=true` to the already verbose dev server. |
+| `npm run build` | Runs `astro check` first, then `astro build --verbose`; the build integration also creates the Pagefind index. |
+| `npm run preview` | Serves the built `dist` output locally. |
+| `npm run upgrade` | Interactive Astro upgrade helper; respect the Astro version constraints in `AGENTS.md`. |
 
 ### Quality gates
 
-| Command | What it does | Notes |
-| --- | --- | --- |
-| `npm run check` | Runs `npm run format:check && npm run lint`. | Non-mutating full quality gate used before pushes. |
-| `npm run format:check` | Runs `biome format .`. | Checks formatting without writing changes. |
-| `npm run format` | Runs `biome format --write .`. | Writes formatting changes across the repo. |
-| `npm run lint` | Runs `npm run lint:code && npm run lint:markdown`. | Non-mutating lint gate for code and Markdown. |
-| `npm run lint:code` | Runs `biome lint .`. | Code lint only; no writes. |
-| `npm run lint:code:fix` | Runs `biome lint --write .`. | Applies Biome's safe lint fixes. |
-| `npm run lint:markdown` | Runs markdownlint with the shared `@dnbhq` config against `**/*.{md,mdx}` except `CHANGELOG.md`. | The local markdownlint config also ignores generated/output and archived content paths. |
-| `npm run lint:markdown:fix` | Runs the same markdownlint command with `--fix`. | Writes automatic Markdown fixes. |
-| `npm run lint:fix` | Runs `npm run lint:code:fix && npm run lint:markdown:fix`. | Applies both code and Markdown autofixes. |
-| `npm run lint:spell` | Runs cspell against `src/{*,.*}/**/*.{md,mdx}`. | Content spellcheck is separate from `check`, pre-commit, and pre-push. |
-| `npm run lint:staged` | Runs lint-staged. | Used by the pre-commit hook; only staged files are checked/fixed. |
+| Command | Details |
+| --- | --- |
+| `npm run check` | Non-mutating full gate: formatting check, code lint, and Markdown lint. |
+| `npm run format:check` | Biome formatting check only; no writes. |
+| `npm run format` | Writes Biome formatting changes across the repo. |
+| `npm run lint` | Non-mutating code and Markdown lint. |
+| `npm run lint:code` | Biome lint only; no writes. |
+| `npm run lint:code:fix` | Applies Biome's safe lint fixes. |
+| `npm run lint:markdown` | Markdownlint with the shared `@dnbhq` config; excludes `CHANGELOG.md` and configured archive/output paths. |
+| `npm run lint:markdown:fix` | Applies automatic Markdown fixes. |
+| `npm run lint:fix` | Applies both code and Markdown autofixes. |
+| `npm run lint:spell` | Cspell content check; separate from `check`, pre-commit, and pre-push. |
+| `npm run lint:staged` | Staged-file gate used by the pre-commit hook. |
 
 ### Content helpers
 
-| Command | What it does | Notes |
-| --- | --- | --- |
-| `npm run blog:new` | Runs `node src/scripts/new-blog-post.ts`. | Prompts for a title and tags, creates `src/content/posts/YYYY/<slug>/index.md`, and opens it in VS Code unless `--no-open` is passed. |
-| `npm run publisher -- <command>` | Runs `node src/scripts/publisher.ts`. | Manages repo-internal `publisher.*` frontmatter work queues. `set` and `unset` refuse to run without an explicit filter such as `--year`, `--path`, `--status`, `--tag`, or `--all`. |
+| Command | Details |
+| --- | --- |
+| `npm run blog:new` | Prompts for title/tags, creates `src/content/posts/YYYY/<slug>/index.md`, and opens VS Code unless `--no-open` is passed. |
+| `npm run publisher -- <command>` | Manages repo-internal `publisher.*` frontmatter queues; `set`/`unset` require an explicit filter. |
 
 ### Generated package maintenance
 
-| Command | What it does | Notes |
-| --- | --- | --- |
-| `npm run compile:package` | Runs the Wireit package-generation pipeline. | Regenerates `package.json` from `src/packages/**/*.jsonc`, then runs the install/fixpack phase. |
-| `npm run compile:package:install` | Runs the Wireit install phase. | Runs `npm install` after `compile:fixpack`; writes `node_modules` and can update `package-lock.json`. |
-| `npm run compile:package:update` | Runs `node src/packages/update-package.ts`. | Syncs dependency versions back into `src/packages/**/*.jsonc` and reports script/Wireit drift. |
-| `npm run compile:fixpack` | Runs the Wireit fixpack phase. | Runs `fixpack --config ci/.fixpackrc.json` twice with tolerated failures to normalize package metadata during generation. |
-| `npm run clean` | Runs the Wireit clean target. | Removes Astro/build caches through the internal `clean:astro` Wireit target. |
-| `npm run clean:full` | Runs the Wireit full-clean target. | Removes `node_modules`, `package-lock.json`, `.wireit`, and Astro/build caches. |
-| `npm run icons:sync` | Runs `node src/scripts/create-icon-types.ts`. | Current state: the referenced script is missing in this checkout, so this command fails until that helper is restored or the script entry is updated. |
+| Command | Details |
+| --- | --- |
+| `npm run compile:package` | Regenerates `package.json` from `src/packages/**/*.jsonc`, then runs install/fixpack. |
+| `npm run compile:package:install` | Wireit install phase; writes `node_modules` and can update `package-lock.json`. |
+| `npm run compile:package:update` | Syncs dependency versions into `src/packages/**/*.jsonc` and reports script/Wireit drift. |
+| `npm run compile:fixpack` | Normalizes package metadata during generation with tolerated fixpack failures. |
+| `npm run clean` | Removes Astro/build caches through the internal `clean:astro` target. |
+| `npm run clean:full` | Removes `node_modules`, `package-lock.json`, `.wireit`, and Astro/build caches. |
+| `npm run icons:sync` | Currently fails because `src/scripts/create-icon-types.ts` is missing. |
 
 ### Release commands
 
-| Command | What it does | Notes |
-| --- | --- | --- |
-| `npm run release` | Runs `release-it --config .release-it.ts --ci`. | Real release flow with changelog, version/tag, GitHub, and package metadata side effects from the shared release config. |
-| `npm run release:dry` | Runs `release-it --config .release-it.ts --dry-run`. | Preview release output without Git/GitHub side effects. |
-| `npm run release:force` | Runs `release-it --config .release-it.ts --ci --no-increment`. | Release flow without a version increment. |
-| `npm run release:major` | Runs `release-it --config .release-it.ts --ci --increment=major`. | Forces a major version bump. |
-| `npm run release:minor` | Runs `release-it --config .release-it.ts --ci --increment=minor`. | Forces a minor version bump. |
-| `npm run release:patch` | Runs `release-it --config .release-it.ts --ci --increment=patch`. | Forces a patch version bump. |
+| Command | Details |
+| --- | --- |
+| `npm run release` | Real `release-it` flow with changelog, version/tag, GitHub, and package metadata side effects. |
+| `npm run release:dry` | Preview release output without Git/GitHub side effects. |
+| `npm run release:force` | Release flow without a version increment. |
+| `npm run release:major` | Forces a major version bump. |
+| `npm run release:minor` | Forces a minor version bump. |
+| `npm run release:patch` | Forces a patch version bump. |
 
 ### Lifecycle scripts
 
 These scripts are normally run by npm or Git hooks rather than by hand:
 
-| Command | What it does | Notes |
-| --- | --- | --- |
-| `npm run prepare` | Runs `simple-git-hooks`. | Installed automatically by `npm install`; wires pre-commit and pre-push hooks from `package.json`. |
-| `npm run postinstall:icons` | Runs `npm run icons:sync`. | Current state: this inherits the missing `src/scripts/create-icon-types.ts` issue from `icons:sync`. |
+| Command | Details |
+| --- | --- |
+| `npm run prepare` | Installs pre-commit and pre-push hooks from `package.json`. |
+| `npm run postinstall:icons` | Runs `icons:sync`, so it currently inherits the missing helper-script failure. |
 
 See `AGENTS.md` for the full command/architecture reference.
