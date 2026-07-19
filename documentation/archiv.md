@@ -77,6 +77,13 @@ in-progress/unpublished content living in the `posts` collection that would
 need excluding — if that changes, filtering belongs in one shared query
 helper, not duplicated per archive page.
 
+**Gap years:** `/archiv/` lists every year in the continuous range from the
+oldest to the newest post, not just years that have posts — a year with zero
+posts (e.g. 2023) still appears in the UI, shown unlinked (muted year
+number, "Keine Beiträge", twelve hollow activity dots, no month disclosure),
+so the archive reads as an unbroken timeline. It never gets a
+`/archiv/[year]/` route — there's nothing to build a page for.
+
 ## Indexing strategy
 
 Indexable (included in the sitemap, get canonical + meta description):
