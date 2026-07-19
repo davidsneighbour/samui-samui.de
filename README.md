@@ -46,10 +46,9 @@ and [release-it](https://github.com/release-it/release-it) for releases.
 
 ## Setup
 
-This site is a static Astro build with one Netlify Function for the contact
-form. Complete the manual setup below before a production deploy through
-Netlify, the Netlify CLI, or any future `npm run deploy` wrapper. The current
-`package.json` does not define a `deploy` script.
+Complete the manual setup below before a production deploy through Netlify, the
+Netlify CLI, or any future `npm run deploy` wrapper. The current `package.json`
+does not define a `deploy` script.
 
 ### Local `.env`
 
