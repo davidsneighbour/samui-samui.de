@@ -9,7 +9,7 @@ hand-editing it.
 
 * The Astro migration is complete. The site is now a static Astro project
   deployed on Netlify at [https://samui-samui.de](https://samui-samui.de).
-* Open GitHub issues: 8 as of 2026-07-19 (down from 13 at the start of today).
+* Open GitHub issues: 7 as of 2026-07-19 (down from 13 at the start of today).
 * The `/archiv/` and `/tags/` feature milestone (issues #903-#917) is nearly
   done: #903-#914 are all closed (see prior session notes). Only
   [#915](https://github.com/davidsneighbour/samui-samui.de/issues/915) (SEO
@@ -47,6 +47,15 @@ hand-editing it.
   * `npm run build` completes cleanly (2375 pages, sitemap + Pagefind index).
   * One open Dependabot security alert remains: markdown-it (moderate),
     tracked by #747.
+* **Garuda footer (this session):** [#926](https://github.com/davidsneighbour/samui-samui.de/issues/926)
+  closed. The old `garuda.png` had its background baked in for the *old*
+  footer's flat grey, with alpha only on the empty top half. Derived a
+  properly alpha-masked artwork from the 4x-upscaled source (color-keyed the
+  flat background out with ImageMagick), plus a tone-inverted light-mode
+  variant (the line art is light-on-dark by design and unreadable on cream
+  without inverting). Both composited-checked against the exact
+  `--background` hex per theme before wiring in. `Footer.astro` now renders
+  both, toggled via the existing `dark:` variant.
 
 ## Security and dependencies
 
@@ -82,13 +91,6 @@ hand-editing it.
   `status:in-progress`) - refactor to let posts define cover frontmatter for
   local images, YouTube, or Vimeo, with rendering and a migration path for
   historical posts.
-* [#926](https://github.com/davidsneighbour/samui-samui.de/issues/926) Recreate
-  Garuda Footer (`prio:medium`, `status:confirmed`) - the old design's footer
-  Garuda graphic disappeared in the redesign; needs either art rework of
-  `public/assets/images/garuda.png` or a layout change so it can hold up the
-  last section or the whole page. Note: an untracked
-  `public/assets/images/garuda-upscaled.png` is still present in the working
-  tree, suggesting in-progress asset work toward this issue.
 
 ## Comments and community
 
@@ -129,9 +131,7 @@ hand-editing it.
    [#927](https://github.com/davidsneighbour/samui-samui.de/issues/927) (wait
    for upstream support vs. bump to 6.0.3).
 4. Continue [#898](https://github.com/davidsneighbour/samui-samui.de/issues/898)
-   (already in progress) and decide the visual approach for
-   [#926](https://github.com/davidsneighbour/samui-samui.de/issues/926) given
-   the in-progress upscaled asset already in the working tree.
+   (already in progress).
 5. Decide the scope for
    [#745](https://github.com/davidsneighbour/samui-samui.de/issues/745) before
    implementation, because the right fix depends on whether this should happen in
