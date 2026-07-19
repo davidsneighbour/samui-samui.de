@@ -1,5 +1,28 @@
 # Changelog
 
+## [2.3.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.2.0...v2.3.0) (2026-07-19)
+
+### Feat
+
+* **comments:** add Samui Giscus theme ([822dbef](https://github.com/davidsneighbour/samui-samui.de/commit/822dbef3954c702c299bc70c453eacede0236550)), closes [#887](https://github.com/davidsneighbour/samui-samui.de/issues/887)
+
+### Docs
+
+* **privacy:** reconcile privacy policy with actual site behavior ([f9412eb](https://github.com/davidsneighbour/samui-samui.de/commit/f9412eb2cff414729b6f33bc492c516436c2439a))
+* **privacy:** remove stale Google Maps sections ([145d204](https://github.com/davidsneighbour/samui-samui.de/commit/145d204e94340585b50fb385401246185b11c859)), closes [#721](https://github.com/davidsneighbour/samui-samui.de/issues/721)
+* **readme:** add architecture overview ([67b0b84](https://github.com/davidsneighbour/samui-samui.de/commit/67b0b84ebeede99fdbdf83c5870f04125668388a)), closes [#885](https://github.com/davidsneighbour/samui-samui.de/issues/885)
+* **readme:** document production setup steps ([ef866bb](https://github.com/davidsneighbour/samui-samui.de/commit/ef866bb4ad25bcd05110664bbf057c7a23bbbe9e)), closes [#723](https://github.com/davidsneighbour/samui-samui.de/issues/723)
+* **readme:** expand local command reference ([cb64df3](https://github.com/davidsneighbour/samui-samui.de/commit/cb64df362fb00c178ff5677051dad833b2dd27bc)), closes [#884](https://github.com/davidsneighbour/samui-samui.de/issues/884)
+* **readme:** link status badges ([d52e3cc](https://github.com/davidsneighbour/samui-samui.de/commit/d52e3cc8be32682d82c1d6edd9184c8ad4131ccd)), closes [#886](https://github.com/davidsneighbour/samui-samui.de/issues/886)
+* **readme:** polish badges and content notes ([d1c668f](https://github.com/davidsneighbour/samui-samui.de/commit/d1c668f8652556eec23605dc5fd554b9c9877d6c)), closes [#886](https://github.com/davidsneighbour/samui-samui.de/issues/886)
+* **readme:** tighten command tables ([981273c](https://github.com/davidsneighbour/samui-samui.de/commit/981273c2339ab92ee7fba95bdc341032388af715)), closes [#884](https://github.com/davidsneighbour/samui-samui.de/issues/884)
+* **readme:** trim setup introduction ([856391a](https://github.com/davidsneighbour/samui-samui.de/commit/856391ac9cc20396087dadc47a48992caba4da23)), closes [#885](https://github.com/davidsneighbour/samui-samui.de/issues/885)
+
+### Chore
+
+* **project:** update project plan ([50ffa5a](https://github.com/davidsneighbour/samui-samui.de/commit/50ffa5ab05f827b497dfc3704fe26d613aa2e197)), closes [#887](https://github.com/davidsneighbour/samui-samui.de/issues/887)
+* **vscode:** nest components.json and giscus.json under astro.config.ts ([b0549a4](https://github.com/davidsneighbour/samui-samui.de/commit/b0549a4346fa77a49ca0496c27be6286933d64e8))
+
 ## [2.2.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.1.0...v2.2.0) (2026-07-18)
 
 ### Feat
