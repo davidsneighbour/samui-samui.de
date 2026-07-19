@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die heiligen Kühe haben <del>gesprochen</del> [gefressen][1]:
 

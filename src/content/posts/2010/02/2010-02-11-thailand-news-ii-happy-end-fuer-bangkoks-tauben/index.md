@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es gibt Nachrichten, die gibt es nur in Thailand:
 

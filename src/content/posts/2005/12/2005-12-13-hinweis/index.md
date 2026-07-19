@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wenn Sie in Suchmaschinen nach "Patrick Kollitsch" suchen und die Links in [die schreiBBloga.de][1] anklicken landet Ihre IP in meinen Logs.
 

@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 Bombenanschläge in Einkaufszentren sind in Thailand gar nicht mal so ungewöhnlich --- hier auf Samui jedoch schon. Gestern Abend wurde in einem Einkaufzentrum in Chaweng eine Autobombe gezündet.

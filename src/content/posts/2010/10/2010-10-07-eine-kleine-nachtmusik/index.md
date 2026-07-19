@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <span><a href="http://soundcloud.com/user4584608/sounds-of-the-night-1">sounds of the night</a> by <a href="http://soundcloud.com/user4584608">pkollitsch</a></span>
 

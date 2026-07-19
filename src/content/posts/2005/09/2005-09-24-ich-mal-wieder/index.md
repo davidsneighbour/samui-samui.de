@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben bin ich aus Versehen auf den Auslöser meiner kleinen hässlichen Kamera gekommen. Dabei entstand dieses Photo:
 

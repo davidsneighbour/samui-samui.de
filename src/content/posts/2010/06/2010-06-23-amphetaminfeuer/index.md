@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wie jedes Jahr um diese Zeit werden morgen [wieder einmal legal Drogen verbrannt][1]. 5.691kg werden mit einem "speziellen Verfahren" verbrannt, das die Umwelt nicht verschmutzt und vermutlich auch keine unerwünschten Drogenräusche hervor ruft.
 

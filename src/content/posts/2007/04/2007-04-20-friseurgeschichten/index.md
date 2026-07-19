@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern waren die Hunde beim Friseur. Ich auch, aber das ist eine andere Geschichte.
 

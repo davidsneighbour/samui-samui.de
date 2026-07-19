@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Morgen wird es wieder zum grö?ten Drogenfest des Jahres kommen. Alljährlich werden nämlich die im vergangenen Jahr zusammen-konfiszierten Drogen medial begleitet [verbrannt][1], bereits zum 37. mal dieses Jahr. 6 Tonnen Drogen werden zum "United Nations International Anti-Drugs Day" den Flammen zum Opfer fallen.
 

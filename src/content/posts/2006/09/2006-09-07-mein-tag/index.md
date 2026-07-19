@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Was meinen Tag "machte" war die Suchanfrage [was gibt es im Netz wenn man überhaupt nichts zu tun hat][1] --- offensichtlich [die schreiBBloga.de][2]
 

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Kinder unter 18 Jahren lesen bitte hier weiter][1].
 

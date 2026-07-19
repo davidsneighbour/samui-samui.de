@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ... sagte ich zu Fu: I guess I will be fired soon. Sie meinte darauf: That good. You will be free.
 

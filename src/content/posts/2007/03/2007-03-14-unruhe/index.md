@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich überlege häufiger, ob ich was über Anschläge im Süden Thailands schreiben soll. Ich dachte auch schon über einen Google-Maps-Mashup mit den Orten der Anschläge nach, verwarf das dann aber als zu zynisch. Man könnte täglich darüer schreiben und ich werde bei Gelegenheit einen lägeren Eintrag zur Geschichte der Unruhen schreiben (liegt wie immer im Entwürfe-Ordner herum).
 

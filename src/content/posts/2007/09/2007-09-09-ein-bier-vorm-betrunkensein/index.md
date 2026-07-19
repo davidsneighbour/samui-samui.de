@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 War am Samstag mal wieder auf einem geselligen Beisammensein mit anderen Farangs (sowas muss man sich hin und wieder geben) und habe interessante Geschichten gehört. Einige, die jedes Vorurteil bestätigen, einige, die beweisen, dass jeder Farang in seiner eigenen kleinen Wahrnehmung gefangen sitzt und einige, die... naja, lassen wir das...
 

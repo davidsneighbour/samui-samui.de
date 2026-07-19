@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Amnesty International verdammt die Anschläge von Hat Yai][1]. Damit heißen sie ja implizit die bisherigen Anschläge gut, oder?
 

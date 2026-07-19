@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Morgen fahr ich zur Butterfahrt nach Malaysia. Die Grenze zu Myanmar (mein präferiertes Borderrun-Ziel) ist immer noch geschlossen und um die 100 Farangs sitzen in Myanmar fest.
 

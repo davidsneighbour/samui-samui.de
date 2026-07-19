@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="455" src="//static.flickr.com/38/87186723_4b00b770da.jpg" alt="pokki at the animal clinic" />][1]
 

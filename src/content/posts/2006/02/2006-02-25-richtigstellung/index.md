@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich liebe Macs. Ich hasse Netzwerkrouter die Macs erlauben Protokolle zu verwenden die andere Betriebssysteme und deren Karrikaturen vom weltweiten Netzwerken abhalten. Die Macs könnens ja nicht besser.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Myanmar nahe der Grenze Nordthailands [bebte eben zweimal die Erde][1]. "Nur" 7.0 auf der Richterskala, trotzdem sollen noch in Bangkok (800km entfernt) die Wolkenkratzer geschwankt haben. Seitdem steht das Telephon bei mir nicht still, weil alle vom "Internetexperten" wissen wollen, was eigentlich los sei.
 

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2450453665/" title="Lots of water"><img src="//farm3.static.flickr.com/2214/2450453665_f8748f4eef.jpg" alt="Lots of water" /></a></p>

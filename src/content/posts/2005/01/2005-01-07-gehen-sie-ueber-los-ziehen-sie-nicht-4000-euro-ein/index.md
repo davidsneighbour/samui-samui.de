@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 So. Morgen ist es also soweit. Das Notebook ist eingepackt, die Geräte auseinandergestöpselt, der Seesack gepackt. Nach Wochen der Planung und des Hin und Her beginnt morgen Mittag mein eigenes kleines Abenteuer.

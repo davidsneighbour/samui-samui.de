@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 * Wenn Sie heute eine Reise beginnen, sei es nach Hause oder anderswohin, so kommen Sie gut an.
 * Wenn Sie dieses Blog regelmäßig lesen, so sparen Sie Zeit, Bandbreite und Sorgen und kommen Sie erst am Montag wieder hier her.

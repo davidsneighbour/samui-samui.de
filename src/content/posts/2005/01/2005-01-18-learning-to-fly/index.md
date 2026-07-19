@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Stellen wir uns diese Seite als Comic vor:
 

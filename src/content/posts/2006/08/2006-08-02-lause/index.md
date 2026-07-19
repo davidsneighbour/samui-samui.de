@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Mein Headset sollte eigentlich ganz guten Sound "rüberbringen". Dummerweise ist alles recht leise. Ich dachte immer, man kann das irgendwie boosten aber anscheinend nicht. Oder mein Notebook ist für Rentner. Jedenfalls is nich mit lauter Dschungelmusik im Kopf. Kann man sowas nicht per Software verstärken?
 

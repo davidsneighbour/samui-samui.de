@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/4763589169/" title="Dirty5"><img src="//farm5.static.flickr.com/4078/4763589169_0b94332b37.jpg" alt="Dirty5" /></p>

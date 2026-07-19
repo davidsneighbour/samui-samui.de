@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man wöllte meinen nach einem Monat voll Rumgespiele haben die Leute endlich genug vom beinah idealen Rund. Haben sie aber nicht. Glücklicherweise habe ich gelesen, dass nach dem 9. Juli dann wirklich Schluss sein wird. Gut so. Hier also die Ausstrahlungszeiten für die thailändischen Fernsehsender. Für drei der Termine stehen die Sender entweder noch nicht fest oder es sind alle fünf Sender gleichzeitig online. Das muss ich noch tranlatieren.
 

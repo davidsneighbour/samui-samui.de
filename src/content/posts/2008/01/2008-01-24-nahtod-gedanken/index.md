@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Vor dem Eingang zum Tempel um die Ecke sind zwei gro?e Löcher im Stra?en-Boden, in die ich gerade beinahe reingefahren wäre. Bin gespannt, was sie da hin bauen wollen. Vielleicht eine Erweiterung des Tores mit ein paar Schnörkeln, die den Tempelgrund um dringend benötigte 10m<sup>2</sup> erweitern.
 

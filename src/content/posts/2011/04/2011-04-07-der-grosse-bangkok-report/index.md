@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hin und wieder reichen 10 Stunden in der Stadt der engelartigen Menschen um zu verstehen, warum genau ich auf einer Insel lebe. Mehr habe ich nicht zu sagen ;)

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Massive Attacks "Angel" ist eines der Stücke, die ich auf nahezu jede Kompilation ausgesuchter musikalischer Schmankerl draufpacken würde, wenn ich für jemanden Besonders eine derartige Kollektion zusammenstellen würde. Was ich nie mache, weil es keine besonderen Menschen mehr gibt auf dieser Welt.
 

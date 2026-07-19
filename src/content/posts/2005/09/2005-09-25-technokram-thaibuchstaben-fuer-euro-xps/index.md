@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Also es gibt ja hin und wieder Leute die sich bei mir melden und sagen, dass die Thaibuchstaben auf diesen Seiten nicht angezeigt werden. Das kann schon sein, besonders auf europäischen Windows-XP-Rechnern (wer ältere Windowsversionen verwendet, sollte sich mal Gedanken machen ob er sich nicht Gedanken machen sollte). Laut [diesem Forumseintrag hier][1] soll es aber sehr einfach sein, Thaischriften nachzuinstallieren. Teste das mal einer. Dass die Buchstaben im Firefox unter Mac (und im Thunderbird) nicht dargestellt werden dürfte ein anderes Problem sein.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hier haben wir den offiziellen Traier zum dritten Teil von Tony Jaa's Ong Bak Saga. Wer jetzt meint, hier würde es zuviel Ong Bak 3 Inhalte geben, der sollte bis zum 5. Mai bitte nicht mehr mitlesen. Dann nämlich wird es den Film hier im Kino geben und ich mich beruhigen.
 

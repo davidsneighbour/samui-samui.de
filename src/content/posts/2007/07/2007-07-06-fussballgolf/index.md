@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hier auf der Insel gibt es Fussballgolf. Das ist Golfen mit Fussbällen. Später mehr dazu. Nun erstmal nur der Hinweis, dass Thaksin Shinawatra, der Chef des Thailändischen Profigolfverbands nun 75% der Anteile an Manchester City, einem Fussballclub in der englischen Premier League aufkaufen konnte und damit de facto [Besitzer eines Premier-League-Clubs ist][1].
 

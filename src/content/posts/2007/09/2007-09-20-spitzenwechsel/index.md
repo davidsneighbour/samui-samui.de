@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 General Sonthi Boonyaratglin, der freundliche Mann mit der Militäruniform der vor einem Jahr Thailand von seinem damals noch zukünftigen Profigolfer-Präsidenten befreite, hat ja nun nur eine befristete Militärlaufbahn als Armeechef, die Ende diesen Monats, ehm, endet. Also in nicht ganz 10 Tagen. Dann ist er kein Militärchef mehr. Schade.
 

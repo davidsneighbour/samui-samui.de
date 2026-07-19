@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Bangkok Airways hat den ganzen Tag gearbeitet und doch mehr als nur die zwei angekündigten Flüge durchgeführt:
 

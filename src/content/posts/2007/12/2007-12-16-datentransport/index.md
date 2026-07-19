@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Unter dem Titel [Die Top-10 der Daten-Desaster][1] bringt der Spiegel eine Topliste der Datendesaster... Jaja. Auf Platz Eins? Ein Photograph in Thailand:
 

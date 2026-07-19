@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ihre königliche Hoheit [Prinzessin Maha Chakri Sirindhorn][1] (The Princess of Technology) wird heute Abend zu einem kurzen Besuch nach Deutschland aufbrechen. Dabei wird sie die Frankfurter Buchmesse besuchen und die Chemnitzer Technische Universität (die interessanterweise Kooperationen mit Universitäten in Thailand am Laufen hat.
 

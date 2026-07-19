@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Früher, als Speicher noch ganz knapp war, wurde häufig durch Löschen Platz geschaffen. Und so geschah es, dass jede Menge Episoden der Serie [Doctor Who][1] der <span class="caps">BBC</span> auf Nimmerwiedersehen verschwanden. Vielleicht nicht alle, denn ein "Forscher" hat zumindest neun dieser Folgen (in denen es sinnigerweise um eine (Zeit-)Reise des Doktors mit Marco Polo auf der Seidenstraße geht) nach Thailand verfolgt.
 

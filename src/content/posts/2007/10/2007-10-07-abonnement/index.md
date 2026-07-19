@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man kann _Samui Samui!_ im Abonnement lesen. Dazu gibt es viele Möglichkeiten.
 

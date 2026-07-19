@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Jupp. Genau. Ich habe tatsächlich eine Weile überlegt, hier in Thailand ein Blogportal aufzuziehen. Portalsoftware gibt es ja genügend und zu den Entwicklern einiger dieser Softwaren habe ich direkte Kontakte, Übersetzer auch. So hätte man die Übersetzung ins Thai und den ganzen Internationalisierungskram, der bei Thai ein kleines bisschen komplizierter ist als nur bei Russisch oder Umlautdeutsch ganz gut koordiniert über die Bühne bringen können. Es gibt ein paar Serverfarmen in Bangkok, die auch gut angebunden sind (sie versorgen den größten Teil der Region mit Servern).
 

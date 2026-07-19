@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 _Stellen Sie sich hier ein Photo vom letzten Sonnenuntergang an meinem Lieblingsstrand vor._
 

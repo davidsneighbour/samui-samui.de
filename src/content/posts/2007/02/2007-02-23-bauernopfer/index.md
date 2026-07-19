@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In den vergangenen Tagen konnten wir Zeuge eines seltsamen politischen Schachzuges werden, der anscheinend nach hinten los gegangen ist.
 

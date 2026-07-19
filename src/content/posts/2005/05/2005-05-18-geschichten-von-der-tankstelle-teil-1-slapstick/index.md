@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Jetzt wo man mir alles oder zumindest 'meine' Tankstelle die sich direkt auf dem Weg zur Arbeit befand und deren Tank-Thais mein 'full please' verstanden genommen hat muss ich mich gezwungenerma??en auf andere Betankungsmöglichkeiten in der Gegend konzentrieren. Und so sieht man dann und wann wenn das 'Bitte betank mich wieder'-Lämpchen am Moped blinkt einen fusseligen Farang durch die Gegend heizen auf der Suche nach Brennstoff für den roten Teufel.
 

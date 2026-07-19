@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ab morgen bin ich sowas wie ein Strohwittwer. Fu zieht es für drei Wochen gen Bangkok (ihr wisst schon, die Stadt der Engelmenschen) um noch mehr über Kreditwesen und all den Kram zu lernen. Da werde ich dann viel Zeit für meine kleine Website haben.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2674983976/" title="Famous furry Dog"><img src="//farm4.static.flickr.com/3211/2674983976_60c6295d22.jpg" alt="Famous furry Dog" /></a></p>

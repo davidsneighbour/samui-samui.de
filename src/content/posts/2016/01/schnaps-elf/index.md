@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 So. Heute sind es genau 11 Jahre dass ich Fuss auf _**Die Insel™**_ setzte. Nicht sicher, ob das ein Grund zum Feiern ist aber meine mathematische Ader besteht darauf, es zumindest erwähnt zu haben. Das sind mehr als 4000 Tage (4015, aber wer spaltet schon Haare), mehr als ein Viertel und ungelogen der beste und gesundeste Teil meines Lebens.

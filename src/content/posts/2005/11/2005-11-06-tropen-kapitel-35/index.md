@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Tropen! **Tropen!!!** Wenn auch nur noch \*ein\*mal jemand mit Tropen zu mir kommt stopf ich ihm die Tropen in jede verfügbare Körperöffnung.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="455" src="//static.flickr.com/23/90486517_040cbf0fe7.jpg" alt="Thai Food ;]" />][1]
 

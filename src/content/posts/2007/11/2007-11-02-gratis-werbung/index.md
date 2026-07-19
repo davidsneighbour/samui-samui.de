@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Neulich unterhielt ich mich mit ein paar Freunden von [Bangkok Airways][1] (jaja, die Boutique-Airline) und [Thai Air Asia][2] über den neuen A380. Der allgemeine Tenor war in etwa "die [Singapore Airlines][3] bekommt hier jede Menge kostenloser Publicity, weil sie den ersten Riesen-Airbus bekommen haben" und marketingtechnisch wäre das schon eine kleinere Katastrophe. Für die anderen Airlines.
 

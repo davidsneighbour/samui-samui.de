@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute kam es endlich zur Küchenkatastrophe. Ich wartete darauf schon länger und hatte angenommen, dass bereits meine Cordon Bleus eine Niederlage würden. Wurden sie aber nicht. Heute nun sowas wie Spirelli Bolognese. Ich erwähne hier "sowas" weil wir während der Zubereitung viermal in den 7-Eleven rannten, um potentielle Zutaten zu kaufen.
 

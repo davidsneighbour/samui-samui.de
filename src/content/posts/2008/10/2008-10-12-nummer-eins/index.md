@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2933098373/" title="Boo Neung"><img src="//farm4.static.flickr.com/3288/2933098373_672621abb0.jpg" alt="Boo Neung" /></a></p>

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich mag es gar nicht laut sagen, könnte ja gleich wieder aus gehen, aber ich habe jetzt DSL in der Hütte. Zwei Lampen leuchten, zwei Lampen blinken.
 

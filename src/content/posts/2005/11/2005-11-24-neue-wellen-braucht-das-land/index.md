@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 New Wave war so ziemlich der einzige Musikstil den ich hörte lange nachdem ihn alle hörten. Sonst umgekehrt. Schade um Nine Inch Nails und Sigur Ros. Nicht um Marilyn Manson. Und auch nicht, ehm, ne, sag ich nicht. Die sind noch nicht _ganz_ Mainstream. Trotzdem wird heute ein NewWave-Tag. Ich spürs im linken Zeh. Dem Großen.

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eine Radiostation in Bangkok hat eine Liste der gefährlichsten Ecken Bangkoks heraus gebracht. Darunter sind:
 

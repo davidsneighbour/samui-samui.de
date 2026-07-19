@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hat sich eben jemand beschwert, dass hier nichts Neues mehr drinnen steht. Nun, wir haben einen Krieg hier zu führen. Mit dem Netzwerk. Wenn nochmal jemand Netzwerk sagt, kille ihn ihn. Jedenfalls ist dem ganzen Kram schon der Entwicklungsserver zum Opfer gefallen, der jetzt erstmal mit einem netten fröhlichen Windows XP bespielt wird (wehe, du lachst). Dann stehen zwei neue schwarz blitzende Rechner in der Gegend rum, jungfräulich noch weil die Festplatten sich nicht mit der (da ist sie wieder) WindowsXP-Installation vertragen. Und dann noch die Sache mit dem "Ich habe immer recht" und "Das Mac-Notebook zerschiesst uns das Netzwerk". Aber ich sage mal nichts.
 

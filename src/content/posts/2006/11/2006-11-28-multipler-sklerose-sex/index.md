@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eigentlich müsste der Titel in etwa lauten "Sex wenn man mit Multipler Sklerose lebt" oder so, das ist mir aber zu lang.
 

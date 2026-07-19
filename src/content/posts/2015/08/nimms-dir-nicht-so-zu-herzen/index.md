@@ -12,6 +12,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 Somchai Wongsawasdi (einer der Premierminister zwischen Thaksin Shinawatra und heute) hatte vergangenen Mittwoch einen schlechten Traum. Dieser schlechte Traum bewegte ihn, am Donnerstag einen Mönch zu besuchen:

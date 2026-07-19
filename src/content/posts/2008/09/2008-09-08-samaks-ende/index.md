@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Morgen werden wir sehen, ob die Regierung Samaks es noch bis zum Meilenstein des kommenden Referendums aushalten wird. Er sagte heute in einem Verfahren aus, in dem es um einen Verstoss gegen die Verfassung Thailands ging.
 

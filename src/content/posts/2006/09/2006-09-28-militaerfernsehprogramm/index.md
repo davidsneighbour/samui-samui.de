@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Das Militär unterbricht übrigens immer noch ständig das Programm auf den Thaikanälen. Heute bspw. verkündeten sie mitten in Fu's Lieblingsthaisoap, dass ein paar Bestimmungen, die der scheidende Thaksin von sich gegeben hat, ungütig sind. Das normale Programm wird dafür nicht gestoppt. Verpasst das Volk eben, was Naraks fieser Gegenspielerins Mutter so von sich gibt wenn diese ihren nicht ganz so geheimen oder familiär ungeliebten Freund zufällig beim Parken trifft.
 

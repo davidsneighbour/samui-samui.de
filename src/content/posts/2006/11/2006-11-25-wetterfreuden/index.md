@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Vor 5 Minuten schien die Sonne, eine Wolke hing über den Bergen, wir tollten bei 32 Grad auf dem Hunderennplatz herum und planten einen Ausflug ins WLAN.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 * Sich erinnern, dass Google Earth existiert und man es jetzt, wo man wieder unter XP läuft, mal installieren könnte.
 * Downloaden und installieren

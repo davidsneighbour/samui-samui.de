@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Bis vor kurzem noch in der Kuriositätenabteilung der lokalen Presse versteckt: Wenn man (als Thailänder, oder als Ausländer in Thailand) auf Facebook eine Seite "liked", die von den jeweils Regierenden oder gegen ebenjene Arbeitenden nicht gemocht wird, dann [kann man wegen Majestätsbeleidigung angeklagt werden][1]. Sagt der Chef der staatlichen Zensurbehörde und der muss es ja wissen.
 

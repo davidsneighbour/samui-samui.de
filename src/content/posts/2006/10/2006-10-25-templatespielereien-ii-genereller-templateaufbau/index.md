@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich benutze zur Realisierung meiner Layouts seit einiger Zeit die [Layout-Gala][1] von [<span class="given-name">Alessandro</span> <span class="family-name">Fulciniti</span>][2]{.vcard.n.url} (wünscht ihr euch nicht auch manchmal, ihr wäret Italiener?). Mit einem einzigen XHTML-Gerüst kann man laut Layout-Gala 40 verschiedene Layouts realisieren. Ich bin mir ziemlich sicher, dass es damit weitaus mehr sein könnten, die vorgestellten reichen aber vollkommen aus.
 

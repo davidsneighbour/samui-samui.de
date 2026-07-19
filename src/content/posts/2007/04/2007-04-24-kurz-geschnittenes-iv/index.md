@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es ist mal wieder Zeit die Tabs aufzuräumen, die es nicht in eigene kleine Einträge geschafft haben.
 

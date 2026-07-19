@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Hamburg gibt es ein Internationales Kurzfilmfestival. Eines der Hauptthemen in diesem Jahr ist Thailand. Unter dem Titel [We are fine][1] (wie passend) kann man 14 kurze Filme aus Thailand ansehen.
 

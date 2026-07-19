@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/939540861/" title="Asalha Puja Day"><img src="//farm2.static.flickr.com/1358/939540861_643a51e318.jpg" alt="Asalha Puja Day" /></a></p>

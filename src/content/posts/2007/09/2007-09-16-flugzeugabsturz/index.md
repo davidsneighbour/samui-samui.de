@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Phuket ist ein Flugzeug vom Himmel gefallen. Anscheinend hatte man schon mehrere ?berflüge gemacht und konnte dann zur Landung ansetzen. Ein starker Regenschauer setzte ein und man entschied sich, durchzustarten und abzuwarten. Dabei ist das Flugzeug in die Hügel hinter dem Flughafen gekracht und in zwei Teile gebrochen. Man hat wohl 20 Menschen heraus holen können, [der Rest der 123 Passagiere ist vermutlich tot][1].
 

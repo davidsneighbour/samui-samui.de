@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Gerüchte des Tages besagen, dass der Präsident des thailändischen Profigolferverbandes sich endlich wieder (wenngleich auch auf Umwegen und höchst illegal) im Land des erstarrten Lächelns aufhält. Man sucht ihn auf Koh Chang.
 

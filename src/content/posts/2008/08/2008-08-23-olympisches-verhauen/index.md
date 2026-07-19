@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gerade startet der Kampf um die Goldmedaille im Boxen bei den Fliegengewichten. Oder so. Jedenfalls verhaut da ein Thai einen Kubaner und nach drei Minuten steht es schon 5:0. Sieht nach einer weiteren Goldmedaille aus.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media photo image">
   <a href="http://www.flickr.com/photos/schreibblogade/7356466416/" title="The Office"><img src="//farm8.staticflickr.com/7219/7356466416_a39ea04ba2_z.jpg" width="620" alt="The Office" /></a></p>

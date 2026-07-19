@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich spüre mein Herz schlagen ohne Kaffee getrunken zu haben. Ein unwohles Gefühl. Irgendwie.

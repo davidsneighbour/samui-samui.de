@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/554357154/" title="Photo Sharing"><img src="//farm2.static.flickr.com/1090/554357154_6ef80953af.jpg" width="500" height="375" alt="Good Morning" /></a>

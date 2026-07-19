@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5580538061/" title="The day after - road works ahead"><img src="//farm6.static.flickr.com/5299/5580538061_c32145a614_z.jpg" width="640" height="480" alt="The day after - road works ahead" /></p>

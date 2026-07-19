@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Da ich gestern abend gleich aufs Bett geglitten und heute morgen ausnahmsweise ohne Zwischenfälle auf Arbeit gekommen bin, gibt es nichts zu berichten, also erzähle ich euch mal was über Fanta.
 

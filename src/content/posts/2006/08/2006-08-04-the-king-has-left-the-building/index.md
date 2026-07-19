@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 König Bhumibol Adulyadei verlässt gerade das Krankenhaus mit Liveübertragung auf allen Kanälen. Man versteht die Reporter nicht mehr so laut ist es. Die obligatorische Kamera hat er dabei. Nahezu alle seine Kinder sind auch anwesend.
 

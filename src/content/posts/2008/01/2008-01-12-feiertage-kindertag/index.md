@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute feiern wir den Kindertag in Thailand. Dieser Tag findet jedes Jahr am zweiten Samstag im Jahr statt. Was heute ist.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Seit etwas über einer Woche wird (laut Expat-Foren, und Expat-Foren haben immer Recht) von Thailands Providern Bittorrent geblockt. Nun kann man also nicht mehr mit nur einem Bein im Knast stehen. Bittorrent ist bekannlicherma?en total illegal.
 

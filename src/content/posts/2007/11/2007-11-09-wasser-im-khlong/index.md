@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Long live [youtube.com][1] ;) Die Qualität ist fürchterlich (youtube hat aus meinem 20MB-14Sekunden-Hochquälitäts-Video ein Handyvideo gemacht.
 

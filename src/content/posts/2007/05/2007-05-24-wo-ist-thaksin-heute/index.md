@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Frage, die täglich 3 meiner Leser beschäftigt (es lebe Google Analytics), wo hält sich Thaksin Shinawatra, der bei 50% seiner Landsmannen und der aktuellen putschenderweise an die Macht gekommenen Regierung unbeliebte Ex-Premierminister mit Fussballclubkaufgelüsten und Golfbegeisterung, auf, wird heute von der russischen Pravda beantwortet:
 

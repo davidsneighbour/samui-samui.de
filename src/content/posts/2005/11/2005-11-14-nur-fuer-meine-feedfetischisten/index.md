@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hallo ihr Süssen! Na? Habt ihr wieder ein bisschen XML gegrabbt? Das ging eine Weile nicht. Hab ich mir sagen lassen. Jetzt gehts wieder. Ihr habt übrigens verdammt viel verpasst. Sag ich jetzt mal. Onlinecontent. Und so.

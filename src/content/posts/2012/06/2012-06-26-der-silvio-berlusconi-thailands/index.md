@@ -17,6 +17,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ein wunderbares Portrait über Thaksin Shinawatra, das, trotzdem es in English geschrieben ist, schon mit dem Titel das Ganze auf den Punkt bringt:
 

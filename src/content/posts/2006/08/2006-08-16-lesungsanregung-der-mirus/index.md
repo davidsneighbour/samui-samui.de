@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der [Mirus][1]. Der [Johannes][1]. Einer der wenigen, die mich korrekt verlinken: mit [die schreiBBloga.de][2] --- da stimmt jeder Buchstabe, jedes Zeichen, jede Kapitalisation.
 

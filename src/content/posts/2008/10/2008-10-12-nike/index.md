@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2933951168/" title="Nike"><img src="//farm4.static.flickr.com/3004/2933951168_28ff815d09.jpg" alt="Nike" /></a></p>

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thailand ist das Land des Lächelns und der Überreaktionen. Beispiel gefällig? Eine Frau streitet mit ihrem Mann, verbrennt (seine?) Kleidungsstücke in ihrem Raum. Ergebnis: 42 Häuser niedergebrannt, 92 Häuser beschädigt, 401 Verletzte.
 

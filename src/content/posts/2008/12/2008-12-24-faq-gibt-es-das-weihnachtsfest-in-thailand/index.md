@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eine der Fragen, die ich mir in letzter Zeit häfiger stellen lassen musste war, ob es denn das Weihnachtsfest in Thailand gäbe.
 

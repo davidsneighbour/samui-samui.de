@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute findet die letzte Parlamentssitzung vor der Auflösung des selbigen statt --- damit wird der Weg zu "demokratischen" Neuwahlen in Thailand geebnet. Zeit also, kurz einzutauchen in den Wahlkampf Thaistyle in kurzen Schnitten.
 

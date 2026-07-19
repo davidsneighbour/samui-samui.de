@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ... heute abend. Wie man am lamaiischen Himmel sehen kann. Auf Statements zu den Themen des Tages darf man also getrost warten. Auf einige länger. Auf andere kürzer. Auf manche lange.

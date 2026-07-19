@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3551249566/" title="Rainseason"><img src="//farm3.static.flickr.com/2472/3551249566_3dd2bf709c.jpg" alt="Rainseason" /></a></p>

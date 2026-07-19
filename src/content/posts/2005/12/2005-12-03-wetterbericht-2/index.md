@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich bin heute mal um die Insel gefahren um für meine Leser die aktuelle Situation auf der Insel aufzunehmen. (Eigentlich habe ich jemanden bei "kein Regen" nach Nathon zur Fähre gebracht und wurde dann von einem Regengebiet einmal um die Insel bis nach Lamai getrieben wo ich nun im Office ausharre und flehentlich um schöneres Wetter bitte. Wobei, es kann ruhig regnen. Hab heut nichts weiter vor. Oder warte mal. Ne. Doch.)
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hmm??? Hab ich was verpasst? Ist schon Wochenende? Ich sitz im "Office" und niemand ist hier. Hmm. Mein kleines Blog kann mir auch nicht helfen, weil die Datumsanzeige noch nicht wieder funktioniert. Hmm...
 

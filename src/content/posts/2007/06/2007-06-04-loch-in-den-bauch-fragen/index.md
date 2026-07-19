@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://flickr.com/photos/schreibblogade/529489668/"><img src="//farm2.static.flickr.com/1189/529489668_0baaabbbc7.jpg" width="500" height="375" alt="Lord Buddha." /></a></p>

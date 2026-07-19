@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Bophut (5 km von Maenam entfernt) ist dieses Jahr (in den letzten 6 Wochen) eine extreme Häufung an Dengue-Fieber zu verzeichnen gewesen, sagt der Chef vom Bangkok-International-Hospital hier auf der Insel. Der muss es ja wissen.
 

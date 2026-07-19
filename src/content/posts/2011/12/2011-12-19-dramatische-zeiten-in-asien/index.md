@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Kim Jong Il ist tot. Herzinfarkt im Zug. Ich weiss genau, warum ich auch in Thailand immer mit dem Bus reise.
 

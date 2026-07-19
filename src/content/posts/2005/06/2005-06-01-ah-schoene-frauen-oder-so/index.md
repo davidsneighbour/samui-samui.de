@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wenn im Pub keine neue Playliste angespielt wird und das Eis in den Gläsern von Alkohol unbenetzt schmilzt, weil alle gebannt dem Flimmern des Fernsehers zugewandt starr und unbeweglich verharren, dann --- ja dann ist mal wieder [Miss-Universe][1]-Wahl. Vorgestern Nacht hat man in Bangkok kräftig gewählt. Leider besteht das Universum nur aus unserem grünblauen an den Polen abgeflachten Planeten, der gekippt seinem Verderben entgegentrudelt.
 

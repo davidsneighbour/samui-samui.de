@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich finde erstaunlicherweise nirgendwo Berichte darüber und das Thai-TV war auf Thai auch nicht sehr verständlich, zeigte aber Bilder vom zerschmetterten Buddha und einem toten Verrückten. Jedenfalls gibt es in Bangkok einen hinduistischen Schrein (Erawan Schrein) direkt unter dem Skytrain in Ploenchit/Rajprasong, der eigentlich nur ein Schrein mit einer Brahmafigur war, aber immer von vielen Thais besucht wurde.
 

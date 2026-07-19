@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3856571378/" title="New old home"><img src="//farm4.static.flickr.com/3548/3856571378_55a283695a.jpg" alt="New old home" /></a></p>

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern kam uns Bui, regelmä?igen Lesern auch als Nummer 1, Number one oder Lindsay bekannt, besuchen.
 

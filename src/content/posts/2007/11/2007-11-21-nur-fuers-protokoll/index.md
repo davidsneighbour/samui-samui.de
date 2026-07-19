@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich lebe noch. Gibt nur nichts zu berichten. Es gibt Besseres als das Leben eines Sachsen in Thailand. Zumindest für selbigen... Wenn man alles so berichten könnte wie es geschehen würde, wäre es einerseits langweilig, andererseits wortreicher.
 

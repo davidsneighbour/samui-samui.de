@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Bis nächstes Jahr gilt noch das 5-Jahres-Verbot politischer Tätigkeit für die führenden Mitglieder der ehemaligen Thai Rak Thai Partei. Aus diesem Grund gibt es mehrere Parteien, deren Mitglieder nicht-führende Mitglieder Thai Rak Thais sind und die aus dem Untergrund oder Dubai gesteuert werden.
 

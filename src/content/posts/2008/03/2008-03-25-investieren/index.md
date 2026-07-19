@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Frage ob man in Thailand heutzutage investieren sollte oder nicht möchte ich mit einem Zitat von Ranongrak Suwanchawee, der [aktuellen][1] stellvertretenden Finanzministerin Thailands, beantworten:
 

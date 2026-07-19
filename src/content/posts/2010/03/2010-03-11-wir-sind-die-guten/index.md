@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Bangkok demonstrieren ab heute mal wieder die Guten gegen die Bösen. Wenn man das vor zwei Jahren das letzte Mal beobachtet hat, dann sollte man wissen, dass die Guten von damals inzwischen die Bösen sind, weil sie die Regierung bilden dürfen, und die Bösen von damals sind die Guten, die Barrikaden errichten und sich heute Nacht vermutlich Stra?enkämpfe liefern werden.
 

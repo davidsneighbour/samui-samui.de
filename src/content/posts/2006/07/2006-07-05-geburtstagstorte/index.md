@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/182415591/" title="After the meal"><img src="//static.flickr.com/65/182415591_3e2e78bfe6.jpg" alt="After the meal" /></a></p>

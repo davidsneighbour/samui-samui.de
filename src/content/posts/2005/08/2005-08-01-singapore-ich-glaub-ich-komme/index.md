@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Und überhaupt. Es ist mal wieder ein Visarun angesagt. Diesmal bewege ich mich nur minimal und fliege nach Singapore. Das hat mehrere Vorteile. Erstens bleibe ich im Training. Nachdem ich 29 Jahre damit zugebracht habe, nicht zu fliegen, sollte ich diese neu errungene Fähigkeit nicht einrosten lassen. Und wenn ich die nächste Thaifreundin beeindrucken will, schlepp ich sie auch wieder in ein Flugzeug und kann mich dann schwer auf mich selbst konzentrieren. Zweitens benötige ich eines der berühmt berüchtigten "Non Immigrant B"-Visa (B is for Business) und die bekommt man nur in ?bersee. Was für thailändische Verhältnisse jedes Land ist, das keine direkte Grenze mit Thailand hat. Au?erdem, und das ist der dritte Punkt auf der Liste, kotzt mich die Insel ein kleines bisschen an zur Zeit. Also flieg ich auf eine grö?ere Insel. Ist ja nur konsequent.
 

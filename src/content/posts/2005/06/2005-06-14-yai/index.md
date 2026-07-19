@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Das ist Yai. Yai ist 34 Jahre alt, Isaan (als solche Thai), ziemlich klein und weiblich. Man sieht es zwar auf dem Photo, ich wollte es aber nebenbei nochmal bemerken.
 

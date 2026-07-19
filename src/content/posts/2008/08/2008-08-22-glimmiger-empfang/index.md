@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Gary Glitter ist zu Hause angekommen][1]. Das nur, damit unsere kleine Reise</a>---<a href="1642">Serie zu einem glücklichen Ende gebracht werden kann. Die thailändische Immigrationsbehörde hat gerade noch rechtzeitig festgestellt, dass sie dabei ist, mit dieser Farce mehr als nur ihr Gesicht zu verlieren und ihn kurzerhand ins Flugzeug nach London gesetzt.
 

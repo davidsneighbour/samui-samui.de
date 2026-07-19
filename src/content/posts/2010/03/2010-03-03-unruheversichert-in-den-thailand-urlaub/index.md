@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man kann ja bis zum 6. März diesen Jahres sein Touristenvisum für Thailand kostenlos bei den Botschaften Thailands erhalten (nur so, ein Hinweis, am Rande). Im Februar meinte dann das Tourismusministerium (gibt es das überhaupt?), dass diese Aktion nicht mehr verlängert werden solle.
 

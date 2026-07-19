@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man spielt gerade Fussball. Thailand hat eine Weile 1:0 geführt, nun hat Singapore ein Tor geschossen. Noch 5 Minuten zu spielen. Ich finde ja Fussball eher uninteressant. Aber dieses Spiel (oder besser diese Länderkombination) bricht dann doch einigen Streit vom Zaun.
 

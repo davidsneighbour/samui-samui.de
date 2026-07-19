@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es gibt immer noch Gerüchte über die Möglichkeit eines Gegenputsches.
 

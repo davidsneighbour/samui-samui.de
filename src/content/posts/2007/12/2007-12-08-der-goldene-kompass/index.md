@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern mal wieder im Kino gewesen und "Der goldene Kompass" gesehen. Falls ihr noch nicht "Stardust" gesehen habt und die Möglichkeit habt, den Film zu sehen --- tut dies. Kuckt nicht den Kompass an. Falls "Stardust" nicht zur Verfügung steht, nehmt euer Geld und geht Glühwein trinken.
 

@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ach übrigens war ich neulich mal wieder in Bangkok. Es ging größtenteils darum, gewisse Stempel, die mich als vollwertiges Mitglied der thailändischen Arbeiterklasse erstens ausweisen und zweitens auch im Lande legal rumsitzen lassen vom alten in den neuen Pass transferieren zu lassen. [Das letzte Mal ging das ein wenig schief][1], weil ich nicht wusste, dass man dazu Geld benötigt. Im "normalen" Immigration-Office hätte es geklappt, aber wir sind ja übers BOI im Lande, was das alles etwas exklusiver macht. Und wer aus Goldschüsselchen fressen will, sollte auch das Gold dafür liefern.
 

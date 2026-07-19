@@ -53,6 +53,10 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
+cover:
+  type: image
+  src: A001.jpg
 ---
 
 ![Queen Suthida](./A001.jpg)

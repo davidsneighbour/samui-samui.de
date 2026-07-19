@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 _Dieser Eintrag stammt vom 19. Mai. Aus irgendeinem Grund hab ich ihn aber nicht "live gestellt". Wie schändlich..._
 

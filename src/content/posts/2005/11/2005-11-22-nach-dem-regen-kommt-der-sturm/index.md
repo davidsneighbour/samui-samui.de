@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ... sagte gestern [der Ex-System-Analytiker von gegenüber][1] mit melodramatischem Tremolo in der tränenerstickten Stimme. Da hat er nicht ganz unrecht. Mit dem kleinen Unterschied, dass es seit gestern gleichzeitig regnet und stürmt. Die Neudefinition des Begriffes **Medienmacht**. Sag ich mal.
 

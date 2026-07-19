@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich habe ja ein spezielles Verhältnis zu Klebern im Allgemeinen und Sekundenkleber im Speziellen. Normalerweise verkleistere ich immer meine Klamotten anstatt das klebrige Gut an der zu verklebenden Stelle aufzubringen. Sekundenkleber benutze ich immer nur einmal, weil dann hinterher immer die Düse verstopft ist.
 

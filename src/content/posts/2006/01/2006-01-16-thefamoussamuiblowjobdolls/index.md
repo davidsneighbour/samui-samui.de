@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="455" src="//static.flickr.com/36/87213453_ec9c8e122b.jpg" alt="The famous Samui-Blowjob-Dolls" />][1]
 

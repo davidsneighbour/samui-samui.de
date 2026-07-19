@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich führe ja inzwischen ein erfülltes kommentiertes Leben. Dumm nur, dass soviele Kommentarmails reinkommen, dass der Spamfilter die schreiBBloga.de inzwischen in den Spamordner schiebt. Was sagt das jetzt über die Qualität aus? Hähähäh...

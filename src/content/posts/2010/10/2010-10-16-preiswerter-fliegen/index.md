@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wer zwischen dem ersten und letzten Tag im November zwischen Bangkok und Samui mit dem Flugzeug reisen muss oder will, kann bei der [Bangkok Airways][1] einen Discount bekommen, wenn er beim Buchen des Fluges zwischen Heute und dem 20. Oktober den Gutscheincode _M3HFKQL_ angibt.
 

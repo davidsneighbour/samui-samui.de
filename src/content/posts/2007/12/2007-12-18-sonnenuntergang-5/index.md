@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2114350563/" title="Sunset"><img src="//farm3.static.flickr.com/2048/2114350563_276dbe2ca5.jpg" alt="Sunset" /></a></p>

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Bangkok wurde heute ein [Brite festgenommen][1], der pornographische Bilder nackter Kinder im Internet vertrieben haben soll. Ob er sie auch missbraucht hat, wird noch ermittelt.
 

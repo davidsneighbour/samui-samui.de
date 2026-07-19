@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Rothemden (zumindest deren Anführer) haben heute ihre Demonstrationen offiziell beendet. Diejenigen die damit nicht einverstanden sind (und das sind einige) "kämpfen" weiter. Das Central World in Bangkok (Einkaufsmeile Nummer 1) steht in Flammen und wird danach vermutlich nur noch abgerissen werden können.
 

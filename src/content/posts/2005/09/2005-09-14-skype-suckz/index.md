@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Skype suckz. Wirklich. Nachdem es vorgestern von Ebay aufgekauft worden ist, haben die den Skypeleuten Druck gemacht und eine alte Fehde mit mir wieder aufgenommen. Ich kann mich seit gestern nicht mehr einloggen. Schuld ist anscheinend ein Bug, der keine Sonderzeichen in Passworten der Linuxversion beim manuell einloggen erlaubt.
 

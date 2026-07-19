@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In australischen Zeitungen kann man heute lesen, dass ein "Mitglied" (da war er wieder) der Verteidigungskräfte von einem Ladyboy seines Militär-Laptops und anderer Güter (Bewusstsein, Geld, Pass, Telephone, iPod usw.) [beraubt wurde][1].
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5423849913/" title="We are not alone"><img src="//farm6.static.flickr.com/5100/5423849913_91958379d0_z.jpg" alt="We are not alone" /></p>

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 "At 2am, The Nation was informed by the Thai military that all telecommunication and internet connections in the country would be shut down in two hours?? time."
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute dachte ich beim Mopedfahren, ich muesste N. mal wieder eine Mail schreiben. N. und ich lernten uns über Skype kennen in meinem ersten Thailandjahr und wir, ehm, dateten ziemlich häufig in Bangkok. Seit über einem Jahr war dann Funkstille.
 

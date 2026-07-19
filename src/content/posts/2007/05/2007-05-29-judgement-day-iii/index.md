@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Die Schulen in der Nähe des Verfassungsgerichts in Bangkok haben heute geschlossen][1] und auch den Unternehmen in der thailändischen Metropole wird empfohlen, heute einen Urlaubstag einzulegen.
 

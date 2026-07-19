@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wenn man am Zahltag diesen Batzen Geld...
 

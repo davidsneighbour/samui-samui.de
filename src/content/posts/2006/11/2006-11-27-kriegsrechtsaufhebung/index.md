@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der Verteidigungsminister General Boonrawd Somtas hat vergangene Woche bestätigt, dass im Dezember das [Kriegsrecht aufgehoben][1] werden soll. Oder auch nicht. Mal sehen.
 

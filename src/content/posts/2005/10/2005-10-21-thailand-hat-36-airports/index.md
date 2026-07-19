@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die nutzlose Information des Tages ist, dass Thailand 36 Airports hat. Einer davon ist auf Ko Samui. (Bin gerade an einem nutzlosen Nebenprojekt zu Gange)

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media photo image">
   <a href="http://www.flickr.com/photos/schreibblogade/6688612715/" title="50 Baht by Patrick Kollitsch, on Flickr"><img src="//farm8.staticflickr.com/7028/6688612715_1843c9a276_z.jpg" width="640"  alt="50 Baht" /></a></p>

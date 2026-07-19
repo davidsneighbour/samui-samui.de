@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wie? Was? Mai? War doch grade noch März? Irgendwie ist der April an mir vorbeigezogen wie ein thailändischer Lastwagen. Wobei, den hätte ich vorbeiziehen gemerkt.
 

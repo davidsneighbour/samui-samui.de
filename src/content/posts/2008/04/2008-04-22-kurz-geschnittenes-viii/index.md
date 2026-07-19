@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Nein][1] , ich bin nicht im Songkran ersoffen. Es gibt halt nur zuwenig Zeit, um Dinge zu berichten oder keine Dinge, die man berichten könnte. Also hier die Zusammenfassung der eventuell berichtenswerten Sachen der vergangenen Woche.
 

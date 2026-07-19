@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/115073235/" title="My new Nokia 6681"><img src="//static.flickr.com/44/115073235_46456b8677.jpg" alt="My new Nokia 6681" /></a></p>

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich freu mich ja immer wieder, wenn ich einen Thai Englisch sprechen höre weil da schon mal lustige Stilblüten namens Thanglish dabei herauskommen.
 

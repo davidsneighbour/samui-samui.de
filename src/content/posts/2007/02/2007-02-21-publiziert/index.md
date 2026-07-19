@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich dachte ja immer, dass meine Buchstabenspielereien zuerst eines Tages gedruckt werden würden. Dem scheint nicht so zu sein. Bilder sind gewünscht. Bitte gerne.
 

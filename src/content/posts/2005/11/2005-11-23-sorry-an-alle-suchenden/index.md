@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ein großes Sorry an alle Suchenden. Ich habe eben mal die Logs durchstöbert mit welchem Wissensdurst die Zielgruppe hier so aufschlägt und festgestellt, dass ich nicht alles genau erkläre und manch einer falsche Eindrücke gewinnen dürfte. Nachfolgend also einige Richtigstellungen:
 

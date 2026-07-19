@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <img src="//die.schreibbloga.de/images/230.jpg" width="310" height="450" style="display:inline;float:left;margin-right:10px;" />Heute ist übrigens ein Feiertag in Thailand: [Coronation Day][1]. Ich bin mir nicht ganz sicher, wie ich das übersetzen soll, denn unter einer Krönung stelle ich mir eine Zeremonie vor, bei der _jemand_ einer Person die Krone aufs Haupt setzt und diese damit zum König erhöht. Bei Bhumibol war das anders, der hat sich die Krone selbst aufgesetzt. Ich gehe mal davon aus, dass das was damit zu tun hat, dass er ein Halbgott ist und man ihn nicht anfassen darf oder gar die Hände über ihn erheben darf.
 

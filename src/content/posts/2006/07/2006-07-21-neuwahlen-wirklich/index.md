@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Seine Majestät König Bhumibol Adulyadej hat heute ein königliches Dekret unterschrieben, auf dass am 15. Oktober Neuwahlen in Thailand seien.
 

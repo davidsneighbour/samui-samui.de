@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 **F: Sollten wir unseren Urlaub nach Thailand antreten?**
 

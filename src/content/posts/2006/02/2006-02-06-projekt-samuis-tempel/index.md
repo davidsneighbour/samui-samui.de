@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich habe ja (weiss nicht ob schon mal hier verlautet) das unsinnige Sammlerprojekt "Samuis Tempel" ins Leben gerufen (schon vor langer Zeit). Auf Samui gibt es laut kostenlos verteilten Karten 28 Tempel, es ist schonmal einer mehr (den ich beim letzten monatlichen "ich habe mich verfahren und fahre solange geradeaus bis ich Meer sehe"-Event gefunden habe. Tempel gibt es also genug. Und ich werde jeden Tempel besuchen und photographieren. Am Wochenende bspw. habe ich die Tempel rund um Nathon "abgehakt". Neben den eher ärmlichen Tempeln [Khon Kharam][1] und [Sietavib][2] kann man dort den Tempel [Chaeng][3] besuchen. Südlich von Nathon findet man dann mit dem Wat [Hin Lad][4] einen der derzeit zwei Tempel auf Koh Samui, die man meiner Meinung nach gesehen haben sollte (darunter ist kein Big Buddha).
 

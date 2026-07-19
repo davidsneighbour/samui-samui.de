@@ -15,6 +15,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Irgendwie habe ich ganz vergessen zu erzählen, wie die Föten-Horror-Vorlage so richtig ausgegangen ist. Man hat am Ende [um die 2.000 Babyleichen][1] aus dem Tempel-Leichenhaus geholt.
 

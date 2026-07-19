@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Dass man mit der Vorliebe für eine Farbe hier in Thailand immer eine politische Meinung hat, habe ich häufiger anmerken lassen. Gestern gab es wieder eines der Beispiele dafür: In Pattaya bekäpften sich "Rote" und "Blaue" T-Shirts.
 

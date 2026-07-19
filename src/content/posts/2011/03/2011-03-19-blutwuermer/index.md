@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wenn ich "Blutwürmer" höre, denke ich an Horrorgeschöpfe a la Alien und Dune. Das nur am Rande.
 

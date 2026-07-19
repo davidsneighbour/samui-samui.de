@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Neulich dachte ich mir, es wäre ja mal ganz nett, meiner Mutter irgendwann zum 50/50-Geburtstag zu gratulieren. Das ist der Geburtstag, wo man doppelt so alt wie sein Kind ist und einer der Geburtstage, die man neben den 1000ern wirklich feiern sollte, nicht diesen jährlichen Kram. Gestern dann hab ich mich daran gemacht, das Datum auszurechnen. Dumme Sache. Der war letztes Jahr im April. Irgendwie sind wir alle ziemlich alt.

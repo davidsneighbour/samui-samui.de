@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute ist der Tag der "Royal Ploughing Ceremony", eine Zeremonie brahmanischer Herkunft, an dem auf dem königlichen Acker in Bangkok gepflügt und Reis gesät wird. Au?erdem werden den beiden pflügenden heiligen Kühen sieben verschiedene Güter (Reis, Mais, grüne Bohnen, Sesam, Likör(!), Wasser und Gras) vorgesetzt und [die von ihnen gefressene Sorte][1] bestimmt die Ernteergebnisse des Jahres:
 

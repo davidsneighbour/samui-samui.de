@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Manch einem mag es aufgefallen sein, dass ich gestern Abend schnell noch die restlichen 80 Bilder aus der Deutsch.Landreise zu flickr.com geladen habe, was größtenteils daran lag, dass ich an anderer Stelle recht leicht fertig versprochen habe, alle Bilder oben zu haben, ehe ich wieder auf Reisen gehe.
 

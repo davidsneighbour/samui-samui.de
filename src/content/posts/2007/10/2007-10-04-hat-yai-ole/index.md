@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Sitze im Stundenhotel in Hat Yai. Sehe einen Vampirfledermaus-Film. Amazing Thailand.

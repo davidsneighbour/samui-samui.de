@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 _Nachfolgenden Text hab ich eben aus dem Zettelkasten gefischt. Eigentlich sollte er Teil eines grösseren Pamphlets über die Entwicklung einer für mich positiven Umgebungsbedingung persönlicher Art werden. Passte aber nicht ganz rein. Also nun einfach so. Im Einzelauswurf._
 

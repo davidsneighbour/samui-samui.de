@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nun mal Butter bei die Fische: Wenn man die Entwicklung der Einträge hier in der Die Schreibbloga.de über die Jahre hinweg betrachtet sieht man einen Trend zum Nichts.
 

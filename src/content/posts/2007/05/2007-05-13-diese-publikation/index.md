@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ...zieht jetzt um. Keine Sorge, erstmal nur technisch gesehen. Jetzt wäre der beste Augenblick, um dumme Kommentare zu schreiben. Die Wahrscheinlichkeit, dass selbige verloren gehen ist ziemlich hoch.
 

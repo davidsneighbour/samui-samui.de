@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Plasma RX, ein kleiner Rettungsroboter, der von angehenden Ingenieuren der Chulalongkorn Universität in Bangkok zusammengestöpselt wurde, hat den ersten Preis in der Kategorie Rettung beim RoboCup in Suzhou, China, [gewonnen][1].
 

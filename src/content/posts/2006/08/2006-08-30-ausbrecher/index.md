@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Mal wieder mein <txp:gho_permalink id="860">dieswöchiges</txp:gho_permalink> Lieblingsthema <txp:gho_permalink id="861">Stierkampf</txp:gho_permalink>. Nach den beiden Ausbrechern am Montag hatte ich irgendwie angenommen, man würde es sein lassen mit den Stierkämpfen oder für eine sicherere Umgebung sorgen. Es blieb eine Annahme.
 

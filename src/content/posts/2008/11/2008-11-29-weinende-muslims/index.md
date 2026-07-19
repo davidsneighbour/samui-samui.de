@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [450 Muslims stecken auf dem Weg nach Mecca in Bangkok fest][1].
 

@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So. Ich hatte bereits erwähnt, dass ich bestimmte Tätigkeiten auf spätere Lebensabschnitte zu legen pflege um nicht zugeben zu müssen, dass ich ?nderungen und neue Verhältnisse hasse. Aber man muss sich seinen Dämonen stellen, damit sie sich als die Würmer erweisen, die sie sind.
 

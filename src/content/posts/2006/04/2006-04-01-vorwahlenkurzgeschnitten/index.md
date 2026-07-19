@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <img src="/images/208.jpg" style="height:300px; width:192px;float: left;margin-right: 20px;" />Habe ich eigentlich schon erwähnt, dass morgen hier in Thailand Neuwahlen sind? Also nicht planmäßig aber trotzdem irgendwie rechtmäßig? Am vergangenen Wochenende waren bereits einmal Vorwahlen. Da konnte man seine Stimme schonmal abgeben, wenn man morgen auf die eine oder andere Art oder Weise verhindert ist. Die im Voraus abgegebenen Stimmen vom Wochenende überstiegen die der letzten Wahl. Es wählten 681.000 (sagt die Wahlkommission, eigentlich sagte sie einen bis auf den Einer genaue Zahl an). Das deutet dann doch eher auf eine starke Wahlbeteiligung dieses Jahr hin. Meinen kennende Beobachter.
 

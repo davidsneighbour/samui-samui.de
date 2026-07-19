@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der Premierminister der zivilen Übergangsregierung steht fest. Das wussten wir ja schon. Verkündet werden sollte er erst am Sonntag. Dummerweise kann einem schon mal was rausrutschen, wenn Kameras und Scheinwerfer auf einen gerichtet sind und so sagte Auditor General Jaruvan Maintaka gestern "aus Versehen": "Yes, definitely, Gen. Surayud is the prime minister. He is the suitable person." Später wurde es auch von Admiral Sathiraphan Keyanont, dem stellvertretenden Vorsitzenden des <span class="caps">CDR</span>, bestätigt.
 

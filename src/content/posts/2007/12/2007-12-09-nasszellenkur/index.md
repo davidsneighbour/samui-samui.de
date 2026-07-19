@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2097785882/" title="Its this time again"><img src="//farm3.static.flickr.com/2008/2097785882_d6f5cbcbd6.jpg" alt="Its this time again" /></a></p>

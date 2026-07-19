@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern war mal [wieder so ein Tag][1], wo man die ganze Zeit lesen und hören konnte, es würde vom Militär ein Putsch gegen die ?bergangsregierung geplant.
 

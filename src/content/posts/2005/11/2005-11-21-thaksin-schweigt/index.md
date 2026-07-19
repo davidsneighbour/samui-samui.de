@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thaksin (der Ministerpräsident meines derzeitigen Lebensmittelpunktes) [schweigt jetzt gegenüber der Presse][1]. Begründung gewohnt markig und klar:
 

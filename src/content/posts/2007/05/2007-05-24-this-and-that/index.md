@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Übrigens, es gibt mich noch. Ja, haha, da haben einige schon Hoffnungen gehabt. Ich hab viel um die Ohren. Positiverweise. Da bleiben schon mal die einen oder anderen Einträge liegen. Die kommen dann später nach.
 

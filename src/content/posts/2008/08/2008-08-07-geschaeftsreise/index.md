@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thaksin Shinawatra, Vorsitzender des thailändischen Profigolferverbands, und seine kürzlich verurteilte Frau Pojaman [sind heute nach China gereist][1]. Geschäftlich. Die anwesenden Kinder brachen bei ihrer Abreise in Tränen aus, wie man das auch so macht, wenn die Eltern auf Geschäftsreise gehen.
 

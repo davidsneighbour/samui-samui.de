@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Songkran ist in Bangkok zu einem [Krieg][1] der [Roten][2] ausgewachsen.
 

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2182530265/" title="Oops! We did it again..."><img src="//farm3.static.flickr.com/2298/2182530265_f8f13087ed.jpg" alt="Oops! We did it again..." /></a></p>

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Jetzt gibt es Skype auch für Macs (teure stylische Computer für die Kürzeren) mit [Video-Calling][1]. Endlich können auch die Mac-User einander beim Lügen und Nase reiben zusehen. Schöne bunte Zukunft.
 

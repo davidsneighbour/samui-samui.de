@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nach einigen Monaten der Gerüchte und Verbalprofilierung wurde endlich der Vorschlag des Premierministers vom Parlament abgesegnet, das [Touristenvisum zur Ankurbelung des Tourismusses ohne Kosten][1] zu erteilen:
 

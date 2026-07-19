@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 **Frage des Tages:** Wie erkennt man, ob ein Farang-Thai-Pärchen auf einem Moped ein Pärchen oder Geschäftspartner sind?
 

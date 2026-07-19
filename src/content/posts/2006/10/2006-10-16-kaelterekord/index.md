@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute morgen zeigte das Thermometer 25 Grad. Es war eiskalt. Ich wäre ja gerne noch im warmen Bett geblieben aber die Hunde wollten raus. Winter ist blöd.

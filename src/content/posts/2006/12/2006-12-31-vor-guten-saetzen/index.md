@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Das Jahr hat in unserer Zeitzone noch gute 8.5 Stunden zu leben, weshalb es an der Zeit ist, mal über die "Guten Vorsätze" und deren Einhaltung im vergangenen Jahr und im kommenden Jahr zu reflektieren. Soviele Vorsätze hatte ich ja nicht.
 

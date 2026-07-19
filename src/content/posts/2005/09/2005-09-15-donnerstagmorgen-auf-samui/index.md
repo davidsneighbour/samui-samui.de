@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute morgen war ungewöhnlich viel Verkehr in Lamai. Mir war nach dem "langen Arbeitsweg", der ungefähr 10 Minuten länger dauert und mich durch einige Bereiche der Ortschaft führt, die mir morgens halb Acht besser gefallen als zu anderen Tageszeiten.
 

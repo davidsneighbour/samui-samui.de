@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Subtilität ist nach Meinung mancher fehl am Platz in der thailändischen Politik.
 

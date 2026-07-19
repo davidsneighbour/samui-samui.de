@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/134052784/" title="Pokki showers."><img src="//static.flickr.com/56/134052784_72eaf65102.jpg" alt="Pokki showers." /></a></p>

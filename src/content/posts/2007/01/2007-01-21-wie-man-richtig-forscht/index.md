@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ein [Forscherteam aus Harvard][1] war neulich für eine Woche in Thailand, hat mit 20 Thais gesprochen und dann wissenschaftlich korrekt evaluiert, dass die Meinungsfreiheit in Thailand freier sein könnte. Ich würde gerne wissen, was sie bei 30 Thais und 2 Wochen Aufenthalt ermittelt hätten...
 

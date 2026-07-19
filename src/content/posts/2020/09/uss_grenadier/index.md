@@ -16,6 +16,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
+cover:
+  type: image
+  src: uss-grenadier.jpg
+  caption: USS Grenadier (SS-210) (via alchetron.com)
 ---
 
 ![USS Grenadier (SSH-210) (via alchetron.com)](./uss-grenadier.jpg)

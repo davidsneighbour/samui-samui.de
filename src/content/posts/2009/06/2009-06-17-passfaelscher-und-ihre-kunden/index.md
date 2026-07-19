@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Thailand werden häufiger mal Passfälscher festgenommen. Sieht man sich den Ausländermix an, der die Stra?en der einschlägigen Untertauch-(Halb)Inseln und Strände bevölkert, wird der Bedarf deutlich. Passfälscher und Händler gestohlener oder neuer unbedruckter Pässe halten sich dabei die Waage.
 

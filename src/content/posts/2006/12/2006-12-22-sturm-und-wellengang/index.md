@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/329744151/" title="Ghosthouse in Bang Por"><img src="//farm1.static.flickr.com/126/329744151_deb4462e7e.jpg" alt="Ghosthouse in Bang Por" /></a></p>

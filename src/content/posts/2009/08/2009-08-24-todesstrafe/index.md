@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thailand (oder seine Repräsentanten) sieht sich gerne als modernes und fortgeschrittenes Land. Solange aber die Todesstrafe weiterhin ([so wie vorgestern Nacht][1]) verhängt und ausgeübt wird, bleibt es ein kleines pimfiges Dritte Welt Land.
 

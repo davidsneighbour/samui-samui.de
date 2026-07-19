@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Kinder! Wenn wir erst mal erwachsen sind, werden wir am Lagerfeuer sitzen und über die ganze Geschichte lachen. Bis dahin bemühen wir uns um Schadensbegrenzung und kucken derweil das schöne Headerbildchen an.

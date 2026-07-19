@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5679722303/" title="Whats that? by Patrick Kollitsch, on Flickr"><img src="//farm6.static.flickr.com/5227/5679722303_1b6656872f_z.jpg" width="640" height="480" alt="Whats that?" /></a></p>

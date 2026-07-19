@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es fragen häufiger mal Leute an, wo es denn nun am romantischsten auf Koh Samui wäre. Einfache Frage. Einfache Antwort.
 

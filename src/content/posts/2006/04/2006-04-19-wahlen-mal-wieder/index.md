@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Thailand wird heute der Senat gewählt. (Sehr intelligent diese Wahl _vor_ den Wiederholungswahlen am 23. April zu halten. Dann darf vermutlich in den Provinzen, in denen wiederholt gewählt wird auch die Senatswahl wiederholt werden.)
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Yeah. Endlich wieder mal Regen. [Eines meiner Lieblingsthemen][1]. Seit 5 Tagen regnet es durchgehend. Mal ein bisschen, mal sehr, mal richtig viel. Es ist richtig nass.
 

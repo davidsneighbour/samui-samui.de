@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ok. Ich war also in Bangkok. Nur um diejenigen meiner Leser die beim Bemerken neuer Einträge mit einem "Oh, das sind aber wieder viele Worte" reagieren gleich zu Beginn abzuspeisen: Bangkok ist eine schreckliche Stadt. Schmutzig. Die Amis sind bescheuert. Ko Samui ist 5mal so teuer wie Bangkok. Ich kann in Bussen nicht schlafen. Und: Meine Freundin taucht in einigen Nebensätzen auf. Vielleicht sollte man doch alles lesen. Wenn nicht --- mindestens drei Bangkok-Einträge werden es werden. Und nächste Woche fahr ich schon wieder dahin.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Moloko][1]. Wollt ich nur mal erwähnen.
 

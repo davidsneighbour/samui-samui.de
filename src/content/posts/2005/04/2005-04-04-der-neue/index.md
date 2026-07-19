@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben im Spiegel unter dem Titel ""Bischof Tutu hofft auf afrikanischen Papst":<http://www.spiegel.de/panorama/0,1518,349554,00.html>":
 

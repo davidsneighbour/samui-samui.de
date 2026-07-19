@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Kabelfernsehen ist Fernsehen aus dem Kabel. Man zahlt 450 Baht im Monat (150 Baht mehr als für das Grundpaket bei <span class="caps">UBC</span>) und bekommt dafür eine Vielzahl interessanter Kanäle:
 

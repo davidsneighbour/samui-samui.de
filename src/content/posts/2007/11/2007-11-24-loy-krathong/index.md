@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es ist mal wieder Loy Krathong. Im November, zum Vollmond, gehen buddhistische Thais eine Hindugöttin ehren und die schlechten Taten des vergangenen Jahres in einem Bananenblattboot mit vielen Blüten und Kerzen (Krathongs) die Flüsse hinunter schwimmen lassen.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Unter dem Titel "Besser spät als nie" stellte die Deutsche Botschaft zu Bangkok im letzten Newsletter (jede Botschaft, die was auf sich hält verschickt regelmä?ig fette PDF-Dokumente als Newsletter, natürlich Opt-In, man ist ja kein Spammer) schon den Fasching vor. Sie schreiben da "Offiziel[l] ist die närrische Zeit schon zu Ende, aber echte Fasching[s]-Enthusiasten kümmert das wenig." --- ich mag das bezweifeln.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die erste Lektion der Woche lautet übrigens, dass unbezahlte Rechnungen immer zu irgendwelchen Gegenaktionen führen. Weshalb irgendwann in dieser Woche mein kleiner Server gesperrt wurde. Das alles war nur halb so schlimm, denn ich hatte bereits längere Zeit vor, auf einen anderen Server umzuziehen. Schlimm war, dass dieses "lange" nun recht kurzfristig ein "jetzt gleich" wurde. Nun jedenfalls sind nun (nach rund 5 Tagen panischen Rumladens) so gut wie alle Seiten wieder online und alle glücklich und mehr oder weniger zufrieden und um das Bezahlen von Rechnungen brauche ich mir (erstmal) keine Gedanken mehr zu machen.
 

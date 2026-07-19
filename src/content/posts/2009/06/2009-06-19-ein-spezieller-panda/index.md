@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der kleine Panda in Chiang Mai ist nicht nur ausserhalb der normalen Panda-Geburtsmonate auf die Welt gekommen, er (also sie) hat auch eine nicht ganz so normale Färbung. Normalerweise haben Pandas schwarzes Fell an den Beinen, bei Namenlos gehen sie hinten [nur bis an die Knie][1].
 

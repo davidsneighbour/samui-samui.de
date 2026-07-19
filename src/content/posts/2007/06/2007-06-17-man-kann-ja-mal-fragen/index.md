@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man hat gefragt und Bangkok hat geantwortet. Mag man meinen.
 

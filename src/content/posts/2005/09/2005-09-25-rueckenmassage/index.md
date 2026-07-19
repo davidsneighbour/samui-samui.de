@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="420" src="//static.flickr.com/32/46304412_00c1c71bc2.jpg" alt="Big Buddha 2005/09/25" />][1]
 

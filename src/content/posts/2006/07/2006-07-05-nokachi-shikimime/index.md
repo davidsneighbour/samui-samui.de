@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Zur Zeit macht folgende Mail die thailändischen Mailinglisten unsicher:
 

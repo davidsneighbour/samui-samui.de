@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern war Makha Bucha Day. Neun Monate nach Buddhas Erleuchtung am Vollmondtag des dritten Monats des Mondjahres (da braucht man mehr als zehn Finger um das Datum zu errechnen) begaben sich verschiedene Ereignisse:
 

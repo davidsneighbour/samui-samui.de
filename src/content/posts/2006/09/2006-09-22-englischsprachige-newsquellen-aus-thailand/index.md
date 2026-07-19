@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die folgenden englischsprachigen nationalen Newsseiten kann ich empfehlen, wenn es darum geht, einen halbwegs ausführlichen aktuellen Bericht aus Thailand zu bekommen. Man darf dabei aber nicht vergessen, dass alle Medien aufgefordert sind, putschkritische Berichterstattung zu zensieren.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Soso... Ich sitze hier in Bangkok im Bus nach Rayong. Wie ich hergekommen bin ist eine eigene längere Geschichte. Jedenfalls ist Bangkok immer noch so dreckig und verstopft wie bei meinem letzten Besuch Ende 2005. Was? 2005? Ich bin kein einziges Mal im letzten Jahr in Krungthep gewesen? Sehr interessant. Das sollte sich ändern, hehe...
 

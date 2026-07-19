@@ -11,5 +11,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man muss sich das mal vorstellen. Ich sitze hier auf einer Insel wo den ganzen Tag die Sonne scheint und hab mir ne Grippe eingefangen. Nenene.

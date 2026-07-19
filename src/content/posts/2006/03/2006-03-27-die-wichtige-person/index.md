@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Auf der Insel hält sich eine _Wichtige Person_ auf. Gestern wurde ich den ganzen Tag aufgehalten weil am Palm Beach Ressort in Maenam/Bophut ständig die Straße auf rund 500 Metern Länge gesperrt ist.
 

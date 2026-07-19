@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Das Chiang Maianische Pandababy Lin Ping feierte [gestern][1] seinen ersten Geburtstag. Oder sagen wir besser, die Menschen um das Baby herum:
 

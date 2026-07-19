@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern wollte ich nach getaner Arbeit (und noch einem Bisschen produktiv Sein (hmm, das könnte missverstanden werden)) ein paar Würstchen von meinem präferierten Würstchenstand auf der Beachstreet abholen, um durch das enthaltene Fett meinen Bumbui bei Laune zu halten. Dies tat ich auch.
 

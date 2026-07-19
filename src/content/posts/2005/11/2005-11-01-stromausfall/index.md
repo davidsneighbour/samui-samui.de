@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich beschwer mich ja selten. Aber dass der Strom genau in dem Moment (eben gerade) ausfällt, wenn ich den Knopf der Espressomaschine zum Kaffeegeben animieren will ... das ist ... ich würde mal sagen ein unhaltbarer Zustand.

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Beim Durchstöbern meiner Serverlogs bemerkte ich eben, dass immer weniger Besucher aufgrund interessanter Sex-Suchbegriffe auf meine Seiten kommen. Diesem Missstand muss ich eben mal vorbeugend entgegentreten --- zumal ich gestern von einem Nichtleser&copy; gebeten wurde, über Sex zu schreiben. Ja. Ich schreibs eben nochmal: SEX.
 

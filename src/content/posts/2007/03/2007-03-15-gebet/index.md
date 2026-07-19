@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Grade besprang mich eine Gottesanbeterin. Ich glaube so laut hab ich im Leben nicht geschrien.

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Um 07:18 Uhr: Es soll unter [19sep.org][1] eine Antiputschwebsite geben. Von hier aus ist sie nicht erreichbar (Server nicht gefunden). Es wird Zeit die einschlägigen Tools zu installieren.
 

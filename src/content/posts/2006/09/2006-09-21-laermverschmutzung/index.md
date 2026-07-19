@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 _Normalerweise hab ich ja einen Ordner, in dem Einträge "wo geschrieben und nicht veröffentlicht weil grad nicht passend" abgelegt werden und in dem ich dann alte Perlen finde, die ich löschen kann weil sie völlig veraltet sind. Das folgende Teil will ich euch aber nicht vorenthalten. Kurz vor seiner Fertigstellung wurden am Dienstag die Fernsehsender abgeschaltet. Seither ist es eher ruhig hier._
 

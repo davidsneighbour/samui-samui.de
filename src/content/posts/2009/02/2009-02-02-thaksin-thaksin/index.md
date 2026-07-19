@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thaksin Shinawatra, frischgebackener Single, Präsident des Profigolferverbandes Thailands und stets viraler Liebhaber aller Thais, hat mal wieder ein Phone-In (englische Wortneuschöpfung der Thais für einen Telephonanruf mit jubelnden Anhängern in (je nach Sättigungsgrad) gefüllte Stadien und (eben auch hin und wieder nur) Sportplätze hinein) gehalten. Das ist ein Ereignis, was in letzter Zeit nicht mehr so unhäufig geschieht und daher eine gewisse Sättigung an Informationen enthält.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In und um Chiang Mai herum wackelt öfters mal die Erde. Letzte Woche gab es ein (auf der Richterskala) grösseres Erdbeben, [heute morgen eines mit einer Stärke von 2.7][1].
 

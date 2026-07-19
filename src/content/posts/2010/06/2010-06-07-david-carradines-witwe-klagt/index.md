@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Vor ziemlich genau einem Jahr fand man David Carradine, Schauspieler in Serien wie "Kung Fu" und Filmen wie "Kill Bill" im Schrank eines Bangkoker Hotels tot hängend auf.
 

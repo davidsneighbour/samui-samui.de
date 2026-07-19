@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <img src="/images/105.jpg" style="height:75px;width:75px;float:left;margin-right:10px;" />Nun ist es hoch amtlich.
 

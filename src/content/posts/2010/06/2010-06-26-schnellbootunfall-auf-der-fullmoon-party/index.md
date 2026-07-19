@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute Nacht ist es mal wieder zu einem [Schnellboot-Unfall vor Koh Phangans Küste][1] gekommen --- zwei Boote auf dem Weg zur Fullmoon-Party kollidierten miteinander. 2 Menschen werden vermisst und 39 Verletzte mit teilweise schweren Verletzungen in die Krankenhäuser der Umgebung gebracht.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute Nachmittag findet in Bangkok ein "Seminar" statt, auf dem über [Zensur im zeitgenössischen Kino und andere aktuelle Themen][1] gesprochen werden wird.
 

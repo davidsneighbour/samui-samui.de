@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5804406197/" title="me and my new programming tool by Patrick Kollitsch, on Flickr"><img src="//farm6.static.flickr.com/5230/5804406197_7251054209_z.jpg" width="640" height="480" alt="me and my new programming tool" /></a></p>

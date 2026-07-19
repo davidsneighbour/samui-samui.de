@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man wird in nächster Zeit häufiger Schilder in Thailand sehen, die eine durchgestrichene Zigarette zeign und die folgenden Worte: "<span class="thai">??ร???สู??ุหรี? ??ื?อ???วย?า??????าร?ระ?ำ??อ?ห?าม??ย??หมาย</span>" (Bitte nicht rauchen, da es gegen das Gesetz ist). Sind sie nicht höflich, die Thais?
 

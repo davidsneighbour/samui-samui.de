@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ok. Ich wusste ja, dass es schwer werden würde, aber muss es denn gleich _so_ schwer sein?
 

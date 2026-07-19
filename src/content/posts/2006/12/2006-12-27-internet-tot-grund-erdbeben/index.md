@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ziemlich lustig finde ich, dass man aus Thailand die Westliche Hemispäre (sprich das "neue" Europa, die Kriegstreiber) nicht erreichen kann, [weil ein Erdbeben einen Router (zer|ge)stört hat][1]. Manche Probleme löst Mutter Natur halt auf unkonventionelle Weise.
 

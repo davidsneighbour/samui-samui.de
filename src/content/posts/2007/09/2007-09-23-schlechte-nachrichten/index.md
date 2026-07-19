@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die vergangene Woche brachte einige schlechte Neuigkeiten für verwöhnte Farangs in Thailand:
 

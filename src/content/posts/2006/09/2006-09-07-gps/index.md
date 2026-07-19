@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich suche schon seit einiger Zeit nach einem GPS-Receiver oder wie man die Dinger heutzutage nennen mag. Mir schwebt da eine [Karte mit den genauen Standorten der Wats auf Samui][1] vor. Nicht dieses angenäherte Gepunkte das ich da mal vor einiger Zeit zusammen geschustert habe.
 

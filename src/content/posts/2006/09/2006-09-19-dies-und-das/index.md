@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 * der Thaibaht ist auf den [niedrigsten Stand seit Jahren][1] gefallen (danke! wirklich! ich hab grade ein paar Dollar für die nächste Monatsmiete ueberwiesen)
 * Internet fällt sukzessive aus

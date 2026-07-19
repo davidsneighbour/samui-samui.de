@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hier in der Re(De)Signation werde ich über die lange Zeit herausgeschobenen Umstrukturierungsarbeiten berichten. Es wird dabei sehr technisch und stark textpatternbezogen zu gehen. In der rechten Spalte kann man sich die jeweiligen Änderungen im Screenshot ansehen.
 

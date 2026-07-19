@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Jawollja! Ich persönlich finde ja, dass wir viel zu wenig zu feiern haben hier auf unserer kleinen Insel weshalb es sehr gut ist, dass endlich mal wieder, nach einer langen feiertagslosen Durststrecke, Feiertage angesagt sind.
 

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Tatsächlich][1]. Ich habe das tote Internet wegen eines Erdbebens ja zuerst für einen Witz gehalten. Anscheinend sind aber jede Menge Tiefseekabel zerstört und man kommt nicht oder nur schleichend auf die Server in Taiwan, USA usw. --- das soll rund drei Wochen anhalten.
 

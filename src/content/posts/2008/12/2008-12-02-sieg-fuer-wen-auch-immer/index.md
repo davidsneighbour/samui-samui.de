@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So. Nun hat man also völlig unerwartet die drei Regierungsparteien ([People Power Party][1], [Matchima Thipataya][2] und [Chart Thai Party][3]) per Verfassungsgericht auflösen lassen.
 

@@ -12,6 +12,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 Die Zeit berichtet in sehr ausführlicher und aufmacherische Art und Weise über Portugiesische Galleren an Thailands Stränden.

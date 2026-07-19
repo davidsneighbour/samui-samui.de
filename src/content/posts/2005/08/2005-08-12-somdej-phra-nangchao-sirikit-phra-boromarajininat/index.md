@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ihre Majestät Königin Sirikit feiert heute ihren 73. Geburtstag. Das ist der erste Geburtstag in ihrem siebten Lebenszyklus. Schon die ganze Woche werden überall übergro?e Portraitbilder aus jüngeren Jahren aufgestellt und mit Leuchtschlangen, Kerzen und allerlei anderem verehrendem Utilariat verschönert.
 

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Vor ein paar Jahren hat mir mal ein betrunkenes "Logenmitglied" erzählt, dass die Preise für einen Auftragskiller hier um die 15.000 Baht sind (für Farangs leicht über 50.000) und dass das meistens Muslims sind.
 

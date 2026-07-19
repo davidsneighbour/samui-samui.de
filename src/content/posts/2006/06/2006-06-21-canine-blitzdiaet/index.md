@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die letzten Tage waren ziemlich aufreibend im Hause Kollitsch(th). Bis Sonntagmittag wuselte Soosi (ich schreib immer Soosie, vielleicht sollte ich sie noch schnell umbenennen) herum, spielte mit Pokkis Barthaaren, allen Quietscheentchen die das Haus hergibt (eine Menge, wenn man Hunde, Bären, Autos, Katzen, Softeiswaffeln, Hasen usw. den Enten zurechnet, Hauptsache es quietscht). Dann hörte sie auf zu essen.
 

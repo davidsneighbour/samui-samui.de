@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Homo-Ehe: Sir Elton sagt Ja][1]
 

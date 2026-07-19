@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Um die 5000 Thais begehen jedes Jahr Selbstmord][1]. Mal abgesehen von dem leichten Rechenfehler mit den zwei Leuten pro Stunde finde ich an diesem Artikel interessant, auf welche Art und Weise man hier zu scheiden pflegt:
 

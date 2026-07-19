@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [The Nation Online würdigt Dave Winer][1], den selbsternannten Erfinder des Bloggens (weltweit, in Deutschland wars der Wellenbereiter).
 

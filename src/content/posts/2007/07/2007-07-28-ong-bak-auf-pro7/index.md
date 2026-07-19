@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich habe mir sagen lassen, dass morgen Abend mal wieder Edelsteine über Ferkel geträufelt werden. Auf Pro7 kommt um 22:00 Uhr mitteleuropäischer Sommerzeit (und Nachts 1:45 nochmal) [Ong Bak][1].
 

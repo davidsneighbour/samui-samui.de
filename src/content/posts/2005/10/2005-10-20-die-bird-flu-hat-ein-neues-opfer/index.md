@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Vogelpest (H5N1) hat in Thailand ihr erstes Opfer seit einem Jahr gefordert. Das [hat Premierminister Thaksin Shinawatra heute bekannt gegeben][1]. Demnach ist ein 48jähriger Mann in Kanchanaburi im Nordwesten gestorben.
 

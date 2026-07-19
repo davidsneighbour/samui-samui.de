@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die vergangenen beiden Abende musste ich im Schutz der Dunkelheit häufiger nach Chaweng. Das hatte technische und Eiscreme-Gründe. Jedenfalls hatte ich wieder Gelegenheit, interessante Beobachtungen zu machen. So eine halbe Stunde auf einer Parkbank auf bzw. (wenn wir technisch genau sein wollen) an der Beachroad hat was...
 

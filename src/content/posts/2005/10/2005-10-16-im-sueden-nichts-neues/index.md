@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Im Süden bringen sich die Leute weiterhin gegenseitig um. Gestern wurde ein Mönch und zwei Jugendliche umgebracht und ein Tempel in Brand gesteckt. Außerdem sind ein Moslem und ein Buddhist erschossen worden. Es vergeht kein Tag ohne [Meldungen dieser Art aus dem Süden][1].
 

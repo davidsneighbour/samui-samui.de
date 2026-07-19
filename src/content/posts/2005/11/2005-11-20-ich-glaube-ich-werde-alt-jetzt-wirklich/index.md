@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 * Seit drei Wochen trinke ich nur noch 1/8 der Mengen an Alkohol (die ich vorher getrunken habe --- das nur aus Verständnisgründen einer ansonsten perfekten Ellipse).
 * Ich schlafe nach einer Flasche Bier ein (dass es sich hierbei um Beer Chang handelt liefert nur Eingeweihten eine allerdings durchaus brüchige Argumentation)

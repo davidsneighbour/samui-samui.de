@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute ist ein gro?artiger Tag für mich, denn ich habe nach fünfundeinhalb Jahren in Thailand festgestellt, dass die Zweierpackung Chang-Beer (zwei Flaschen und eine nette Pappumhüllung mit glücklichen Menschen) einen praktischen Aufrei?verschluss auf der Rückseite hat.
 

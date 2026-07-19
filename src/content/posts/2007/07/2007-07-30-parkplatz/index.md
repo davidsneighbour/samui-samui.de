@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/950516648/" title="Something happens..."><img src="//farm2.static.flickr.com/1140/950516648_7a86303092.jpg" alt="Something happens..." /></a></p>

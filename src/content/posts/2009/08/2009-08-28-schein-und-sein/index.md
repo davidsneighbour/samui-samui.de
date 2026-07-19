@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Für Morgen (Sonntag) war eine Gro?demonstration der rot behemdeten Freunde der thailändischen Demokratie zur Unterstützung des Präsidenten des thailändischen Profigolferverbandes geplant. Die Regierung hat Präventivma?nahmen ergriffen. Heute nun [die folgende Verkündung][1]:
 

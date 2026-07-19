@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Grade in den News von Channel 3 (der englischsprachigen Synchronisation):
 

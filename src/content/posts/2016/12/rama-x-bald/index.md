@@ -13,6 +13,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 Der Prozess einen König zu ernennen ist, zumindest in Thailand, nicht so einfach. Man nimmt ja an, dass das gemäss der Devise "Der König ist tot, lang lebe der König" ohne grosse Verzögerungen vor sich geht. Ist aber nicht so.

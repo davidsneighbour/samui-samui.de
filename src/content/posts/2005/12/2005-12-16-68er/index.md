@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ab wann darf man sich eigentlich mit Fug und Recht [68er][1] nennen? Wenn man 68 schon gelebt hat oder wenn man 68 alt genug war um eine Meinung zu haben die relevant für das Meinungsspektrum der "68er" ist? Nur so am Rande. Leute die dieses Jahr 50 wurden waren 68 (lass mal rechnen, 5 minus, 45, 60, 5 weg, 55, 68 minus 55 ist) 13 kleine Jährchen alt.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ende Dezember 2006 (vergangenes Jahr quasi<txp:gho_footnote>Mit Grüßen</txp:gho_footnote>):
 

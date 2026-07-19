@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Neuwahlen gibts in Thailand am 23. Dezember. Wir können uns schon mal auf Schlagzeilensuche machen.

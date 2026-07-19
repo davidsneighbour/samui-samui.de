@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Vor Sumatra gab es wieder einmal ein Erdbeben. Sowas gab es schon einmal zu Weihnachten 2004 mit nachfolgender Tsunamiwelle. Seither wird bei jedem Erdbeben kräftig Panik geschürt.
 

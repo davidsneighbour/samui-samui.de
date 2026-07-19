@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man sagt ja, zu Sonkran (13. bis 15. April) sollte man nicht aktiv am Straßenverkehr teilnehmen. Das kann tödlich sein, weil die Thais drei Tage lang trinken und Auto fahren. Ich persönlich finde ja, sie fahren _immer_ wie die Verrückten. Heute morgen zum Beispiel bei der gemütlichen Fahrt zum Kaffee in Nathon --- gemütlich weil der Hund im Körbchen immer eine Maximalgeschwindigkeit von 40km/h verlangt, das Fell verfilzt sonst zu sehr --- wurde ich dreimal fast umgebracht. Es gibt hier Leute die nur für die Zeit rund um Sonkran eine Unfallversicherung abschließen. Ratet mal, wer eine hat. Das Dumme mit diesen Versicherungen ist immer: man braucht sie nur, wenn man sie nicht hat.
 

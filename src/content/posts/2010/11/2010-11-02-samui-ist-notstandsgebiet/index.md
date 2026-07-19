@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Samui ist gerade mit 15 anderen Bezirken Surat Thanis [zum Notstandsgebiet erklärt worden][1]. In Nakhon Si Thammarat, Songkhla, Trang, Satun, Narathiwat und Phatthalung wurde schon eher der Notstand ausgerufen.
 

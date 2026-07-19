@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 "Deutschland sucht den Super Star" hei?t in Thailand "The Star" und ist ungefähr genau so uninszeniert wie die ganzen Originalkopien des Konzepts.
 

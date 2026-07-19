@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ?brigen: [Ngu Ngon Vietnam][1] (Gute Nacht Vietnam) ist wieder da. In Vietnam. Lesebefehl! Ich schreib hier eh nicht mehr so viel ;)
 

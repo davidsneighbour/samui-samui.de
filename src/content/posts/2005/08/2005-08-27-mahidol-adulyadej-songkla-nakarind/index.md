@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute ist einer der wenigen thailändischen Feiertage, die nicht mit Freiheit und Arbeitslosigkeit gefeiert werden. Warum auch. Ist ja Samstag --- eh frei. Und nächstes Jahr wird neu verhandelt. Nichtsdestotrotz ist das ein feiernswerter Tag und ich werde nachher mal sehen, was das Mehkhong-Lager hergibt.
 

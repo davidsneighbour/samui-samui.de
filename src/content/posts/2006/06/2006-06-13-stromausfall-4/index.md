@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
  <big>oder Immer wenn es regnet (gesungen wie in diesem Musikal wo es den Milchmann Tervje oder so gibt der immer singt "wenn ich einmal reich bin" oder so)</big>
 

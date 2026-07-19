@@ -17,8 +17,12 @@ list pages can render images, YouTube videos, and Vimeo videos consistently.
 * Existing image `title` values remain valid, but new content should use
   `caption`.
 * Hugo `resources` is migration evidence, not an implicit runtime fallback.
+* When a post has multiple Hugo `resources`, the first usable image resource is
+  the review cover candidate.
 * Migrated `resources` entries remain in frontmatter until a dedicated cleanup
   pass decides what to delete.
+* Risky or incomplete migrations are marked with
+  `publisher.covermigration: true`.
 * List-page cover placement alternates by post index instead of randomizing at
   build time.
 
@@ -55,18 +59,31 @@ is active.
      migrate automatically.
    * `candidate:resources:image` can promote one Hugo resource when no body
      media exists.
-   * `review` needs human inspection because media may be inline, repeated,
-     remote, or absent.
+   * `review:has-candidate:*` can be migrated with `--review`, but body media is
+     kept in place and the post receives `publisher.covermigration: true`.
+   * `review:no-candidate` has no usable local cover candidate.
+   * `review:marked:no-candidate` is already in the manual queue.
+   * `covered:review` has a cover and still needs manual verification.
 3. Migrate in small batches, for example:
 
    ```bash
    npm run covers -- migrate --year=2021 --dry-run
    npm run covers -- migrate --year=2021
+   npm run covers -- migrate --year=2021 --review --mark-missing --dry-run
    ```
 
 4. Build or inspect the affected pages.
-5. Remove or unset `publisher.cover` only after the cover has been reviewed.
+5. Remove or unset `publisher.covermigration` only after the cover has been
+   reviewed.
 6. Leave remaining `resources` cleanup for a separate pass.
+
+After the first full migration pass, the archive audit was:
+
+```text
+covered 91
+covered:review 8
+review:marked:no-candidate 1951
+```
 
 ## Open questions
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Sehr suspekt ist mir das dumpfe Gefühl, dass ich heute irgendwas verpasst habe. Allerdings konnten auch eingehende Recherchen nicht ergründen, was genau am 21. März war. Geburtstage starten erst am 28. März. Jahrestage liegen alle im November (Hupps. Ne doch.). Feiertage haben wir schon losgekriegt.
 

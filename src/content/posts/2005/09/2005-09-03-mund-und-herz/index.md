@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Thais sind ja nicht unerheblich ironiebefreit. Soll heißen, sie merken nicht, wenn ein Farang ironische Anmerkungen macht.
 

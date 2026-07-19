@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eigentlich wollte ich ja mein erstes Statement zum Thema Sex und Thailand etwas anders gestalten, aber das hier ist nun echt der Hammer.
 

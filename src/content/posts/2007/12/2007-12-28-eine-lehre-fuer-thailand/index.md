@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der Noch-Premierminister von Thailand, Ex-General Surayudh, wird heute Abend eine Rede im Fernsehen halten, in der er den Tod von Benazir Bhutto (Ex-Premierministerin Pakistans, die vor Kurzem nach längerem Exil zurück kehrte und gestern ermordet wurde) [als Lehre für die Thais hin stellen will][1]:
 

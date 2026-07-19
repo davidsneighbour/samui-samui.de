@@ -12,6 +12,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 Als Ochse hat man es ziemlich leicht in Thailand, wenn man mehr oder weniger weiss ist. Creme-farbig ist ok. Mit allen anderen Farben ist man mehr oder weniger auf sich selbst gestellt. Aber wie gesagt: weiss, und das Leben ist ein Hit. Dann wird man einmal im Jahr aus dem üppig mit Heu gefülltem Stall und auf ein Feld mit allerlei guter Dinge geführt und dann warten die Leute auch noch darauf, was man zuerst frisst. Was also sollte man nur zuerst fressen...

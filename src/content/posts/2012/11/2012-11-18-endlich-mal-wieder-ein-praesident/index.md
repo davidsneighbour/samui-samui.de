@@ -13,6 +13,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Thai-Presse berichtet schon seit Wochen vom bevorstehenden Besuch des amerikanischen Präsidenten Barack Obama. Sicher bestätigt ist er erst seit einer Woche, weil er von seiner Wiederwahl abhing --- was für ein nicht unbedeutende Interesse an den Wahlvorgängen dort sorgte --- schließlich hat man nicht so häufig einen Präsidenten im Land.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eines Tages erschienen am Empfangstresen eines samuianischen 5-Sterne-Ressorts zwei nette Herren und mieteten eine der überteuerten aber romantischen Villen. Sie erwähnten, dass sie einen Freund überraschen wollten, der wohl in den nächsten Tagen eintreffen wolle. Die folgenden Tage und Nächste verbrachten sie in nicht unangenehmer Begleitung am villeneigenen Pool. Das Ressort ist berühmt für seinen Service und seine Diskretion.
 

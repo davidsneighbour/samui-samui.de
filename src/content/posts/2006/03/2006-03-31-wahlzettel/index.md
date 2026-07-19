@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So ganz glaub ich es noch nicht, aber das hier soll der Wahlzettel für Sonntag sein (anklicken fürs große Original). Ich lass mal meine Praktikant(inn)en ermitteln. Viel interessanter finde ich die Frage, was oder wer sich hinter der 502 verbirgt. Ein Wahlfälschungsskandal? Das wär ja mal was. Wahlfälschung aufgedeckt durch ein kleines deutsches Blog...
 

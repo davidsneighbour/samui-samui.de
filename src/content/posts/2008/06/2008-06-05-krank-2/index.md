@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Titelgebender Zustand nur als Erklärung dafür, dass hier trotz überstandenem Urlaubs keine Eintragsflut herrscht. 20 Tage Europa können dreieinhalb Jahre Klimaanlagenimmunität zunichte machen. Ich husste, keuche, schniefe und dampfe vor mich hin...
 

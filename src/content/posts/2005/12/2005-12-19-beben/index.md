@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Chiang Rai (im Norden) [gab es in den vergangenen Tagen einige kleinere Erdbeben][1] und man bereitet sich darauf vor, notfalls zu evakuieren.
 

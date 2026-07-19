@@ -12,6 +12,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ach herrje, neulich (im Januar) stellte ich fest, dass die gut 50% der Besucher dieses Weblogs die Seiten mit mobilen Geräten aufsuchten. Hatte der Weihnachtsmann doch recht viele Pads und Smartphones verschenkt. (Heroische Musik startet) Und so nahm ich mir vor, meine Website mit einem "responsiblen Layout" zu versehen. Fast forward ein paar Monate und grade ging es mehr oder weniger (un)vollständig online.
 

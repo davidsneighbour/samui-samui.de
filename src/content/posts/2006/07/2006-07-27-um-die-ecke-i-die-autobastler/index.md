@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Um die Ecke gibt es eine Autowerkstatt voller junger Thais. Die stehen gegen drei Nachmittags auf und fangen dann an, Autos in Stereoanlagen umzuwandeln. Es wummert den ganzen Nachmittag. Manchmal auch Abends. Manchmal auch Nachts. Manchmal lassen sie auch nur einfach aus Spaß mal eben einen Auspuff ausbrennen. Das röhrt dann ca. 30 Sekunden lang (mehr brauchen sie nicht) und alle Scheiben klirren. Ich warte noch auf den ersten Sprung.
 

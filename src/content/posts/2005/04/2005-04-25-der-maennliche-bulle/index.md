@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So. Da hab ich eben im Thaiunterricht erzählen wollen, dass ich einen Bullen gesehen habe, der männlich ist (man muss manchmal komische Sätze bilden, um alle neuen Worte zu verwenden). Als Neung (unser Thailehrer) fertig war mit Lachen, erklärte er mir, dass ich ein männliches, hömm, Geschlechtsteil gesehen habe. Gut zu wissen.
 

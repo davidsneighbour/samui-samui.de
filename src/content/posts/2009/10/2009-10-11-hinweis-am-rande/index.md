@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man sieht die Kommentare auf diesen redaktionell missratenen Seiten wieder. Irgendwann zwischen (<span class="caps">ACHTUNG</span> <span class="caps">TECHTALK</span>!!!) Version 4.0.6 und Version 4.2.0 der besten Inhaltsverwaltungssoftware der Welt hat man begonnen, in Kommentaren so einfache Befehle wie "message" nicht mehr zu verstehen. "comment message" will man hören.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Oh achso, wir müssen ja auch noch nach Nathon sprach [der analytisch denkende Senior (muahaha) Development (genau) Engineer][1] heute bei der morgendlichen Männer --- WG --- Selbshilfegruppen --- Waschplan --- Sitzung. Es fiel mir wie Schuppen von den Augen. Nein, kein Visarun. Nie wieder Visarun. Mit unserer netten Jahres(muahaha)aufenthaltsgenehmigung dürfen wir uns aller drei Monate in Nathon melden, kriegen einen Stempel und das wars. Keine amüsanten Reisen nach Singapore, keine absaufenden Boote nach Laos, keine schunkelnden Busse voller Touristen, kein Verkehr mit Kindern in Myanmar mehr. Schade eigentlich.
 

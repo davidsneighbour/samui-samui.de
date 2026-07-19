@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In einer (Bilder-) [Liste der reichsten Monarchen][1] ("The World's Richest Royals") bei Forbes.com steht König Bhumibol Adulyadej von Thailand auf Platz 5.
 

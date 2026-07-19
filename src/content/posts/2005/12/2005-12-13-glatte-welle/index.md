@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Im letzten Eintrag gabs einen [Kommentar][1] von [Dee][2] zu den glatten Haaren der Thais. Dazu möchte der Autor Folgendes bemerken.
 

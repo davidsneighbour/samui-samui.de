@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Regeln sind einfach: Das Parlament besteht aus 480 Mitgliedern. Davon werden 400 Sitze durch Direktmandate aus den Wahlbezirken und die restlichen 80 Sitze anteilig nach den Gesamtstimmzahlen einer zweiten Stimme besetzt.
 

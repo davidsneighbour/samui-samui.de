@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich hatte eben _die_ Hammeridee für das Cover meines ersten Albums. Jetzt muss ich nur noch die Musik machen.
 

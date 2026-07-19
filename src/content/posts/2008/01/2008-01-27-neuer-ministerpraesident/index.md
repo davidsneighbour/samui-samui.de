@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ![](/wp-content/old-images/247.jpg)Heute wird Samak Sundaravej, der Vorsitzende der Peoples Power Party zum Ministerpräsidenten gewählt werden. Das hat auch seine Richtigkeit, schlie?lich wurde er (thai)demokratisch gewählt. Damit hat alles wieder seine Richtigkeit in Thailand, keine Armee sitzt in der Regierung und die Schweden können [endlich][1] ihre Kampfjets an Thailand verscherbeln.
 

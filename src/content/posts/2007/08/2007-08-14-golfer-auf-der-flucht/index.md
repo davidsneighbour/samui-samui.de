@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Seine Rundreisen wird Thaksin Shinawatra, der Vorsitzende des Thailändischen Profigolfervereins, nun etwas einschränken müssen, denn [es ist ein Haftbefehl auf ihn und seine Frau Pojaman ausgestellt][1]
 

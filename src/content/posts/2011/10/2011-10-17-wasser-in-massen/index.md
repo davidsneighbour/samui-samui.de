@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Seit gut einer Woche wird die Hauptstadt Thailands von den Wassermassen der diesjährigen Monsunsaison bedroht. Ungefähr genau so lange berichten lokale und internationale Medien über die jedes Jahr wieder auftretende Situation.
 

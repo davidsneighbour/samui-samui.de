@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der Geist <span class="thai" xml:lang="th">Phii Nang Kwak</span> ist ein guter Geist der für Reichtum und Wohlstand sorgen soll. Früher wurde er dargestellt als kniende Frau in Thaikleidung, die ihre rechte Handfläche nach oben hält, um den Reichtum in Empfang zu nehmen und mit der linken Hand den Besitz schützt (wenn man sie so aufstellt, dass sie mit dem Rücken zum Eigentum kniet). Inzwischen ist man aber dazu übergegangen, den Geist als Katze mit sich ständig bewegender Pfote darzustellen.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Bangkok-Post hat keine Permalinks, weshalb ich ein Lesen [des folgenden Artikels][1] baldigst empfehle, ein "Backup" hab ich noch auf der Platte, falls er dann doch verloren geht.
 

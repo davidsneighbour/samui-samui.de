@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Und trotzdem noch schuldig. Thaksin Shinawatra und seine Frau Pojaman [haben sich in der vergangenen Woche in Hong Kong scheiden lassen][1].
 

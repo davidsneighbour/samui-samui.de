@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <txp:zem_contact mailto="<schreibblogade@gmail.com>">
 

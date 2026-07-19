@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute war das Hundekrankenhaus voller gebissener Hunde. Da relativiert sich "Pokki's Leiden" ein wenig. Ein Labrador der in den Nacken gebissen wurde, ein pudelähnlicher Hund (muss ein Hund gewesen sein, es hat gebellt) und ein kleiner Shih Tzu.
 

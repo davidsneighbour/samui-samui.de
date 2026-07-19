@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Die Wahlen vom 2. April sind eben durch den höchsten Gerichtshof Thailands als ungültig erklärt worden][1]. 8:6 war die Stimmung.
 

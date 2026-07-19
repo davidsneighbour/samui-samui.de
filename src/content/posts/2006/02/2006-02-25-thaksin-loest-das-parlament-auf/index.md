@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
  <img src="/images/206.jpg" style="height:338px;width:300px;margin-right:10px;float:left;" />Neues aus der Kategorie "Ich hab das ja schon immer gesagt": Wir werden dieses Jahr tatsächlich Neuwahlen haben. In weniger als 2 Monaten. Denn Thaksin Shinawatra hat gestern das Parlament aufgelöst.
 

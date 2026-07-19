@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute mittag wurde die Website des Information and Communications Technology Ministeriums [gehackt][1]. Die ärmsten. Thaksin war drauf zu sehen.
 

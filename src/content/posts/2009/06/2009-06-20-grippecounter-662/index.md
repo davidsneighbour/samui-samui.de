@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wir haben inzwischen [662 offiziell bekanntgegebene A(H1N1) Grippefälle im Lande][1]. Keiner davon ist gestorben, 11 Personen wurden in Krankenhäuser eingewiesen und mehr als 500 bereits wieder gesund.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Also irgendwie bin ich ja ziemlich angefressen. Ich suche seit Wochen einen Mediaplayer der mir die Unicode-Tags (Thaiscript) meiner MP3s ausliest und ordentlich anzeigt. Winamp und Media(wir lieben Microsoft)player haben damit so einige Probleme. Interessanterweise zeigt der Mediaplayer die Thaititel an bis er sie dann das erste Mal spielen soll. Dann kommt nur noch Wirrwarr raus.
 

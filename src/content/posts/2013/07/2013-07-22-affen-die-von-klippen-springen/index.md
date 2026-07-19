@@ -10,5 +10,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Hua Hin springen die Affen zum Spass von den Klippen. Scheint bei dieser Hitze auch dringend notwendig zu sein :)

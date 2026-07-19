@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Mein Haus wird gerade von einem circa 100 Jahre alten kleinen Mann neu gestrichen. Die vergangene Woche verbrachte er damit, das Haus gegenüber zu streichen.
 

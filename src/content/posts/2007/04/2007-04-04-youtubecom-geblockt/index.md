@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Youtube][1] ist in Thailand geblockt. Die einen sagen "mal wieder", die anderen "diesmal wirklich". Grund dafür soll ein [den König beleidigendes Video][2] sein. Die glücklicheren unter den Internetusern Thailands bekommen die [Blockseite des MICT][3] angezeigt, ich bekomme nur Timeouts. Der "Trick" vom letzten Mal mit dem Weglassen von www am Anfang oder dem Aufruf der IPs von Youtube funktioniert dieses Mal nicht.
 

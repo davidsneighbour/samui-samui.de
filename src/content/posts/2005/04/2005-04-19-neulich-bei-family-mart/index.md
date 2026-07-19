@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ein etwas dicklicher kleiner europäisch aussehender Mann steht vor dem Bierkühlregal und befindet sich in einer der letzten Phasen des Entscheidungsprozesses für den bevorstehenden Bierkauf. Er öffnet die Tür des Kühlschrankes und greift nach dem guten alten (und äu?erst preiswerten) Beer Chang. Da ertönt aus dem hinteren Bereich der Verkaufsstätte eine hohe nervige Stimme: "You dont need to buy this cheap stuff! Buy the better beer. You can give out money for me. Man!" --- eine äu?erst leichtbeschürzte (mehr Gürtel als Rock und ein leichtes Stoffstückchen zum Bedecken der Nippel) und nicht schön anzusehende Thai (sie machte tatsächlich einen etwas verbraucht wirkenden Eindruck) bewirkte mit ihren gar lieblich vorgetragenen Worten ein heftiges Erröten des kleinen dicken Mannes bis tief in die haarigen Gefilde seines meiner Meinung nach zu weit offenen Hemdes. Er griff nach der teuersten Sorte Bier, entnahm einige Flaschen, ging rot zur Kasse, zahlt wortlos und verlässt meinen Lieblingsladen, eingehakt die Thai.
 

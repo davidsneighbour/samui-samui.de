@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/143255075/" title="Like I always use to say..."><img src="//static.flickr.com/53/143255075_0fbb3445d7.jpg" alt="Like I always use to say..." /></a></p>

@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Sau beim Nachbarn wirft grad Baby-Schweine. Es ist ein Geschreie als ob sie alle abgeschlachtet werden. Und der _gro?e schwarze Hund_ jault auch die ganze Zeit. Das werden wieder ein paar unruhige Nächte im Revier.

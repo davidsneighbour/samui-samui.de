@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Strom ist eine feine Sache. Man kann damit Lüfter antreiben, Lampen, Kühlschränke, Computer, Fernseher, Stereoanlagen und manchmal sogar Router und Modems.
 

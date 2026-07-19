@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Freitag Abend kann man Zeuge eines ganz besonderen Sonnenuntergangs werden. Ab 17:58 wird in Thailand kann man [Teile][1] der diesjährigen [totalen Sonnenfinsternis über Asien][2] sehen. Wird sicherlich ein gutes Photomotiv, wenn das Wetter mit spielt.
 

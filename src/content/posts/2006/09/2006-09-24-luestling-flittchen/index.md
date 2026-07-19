@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben kuck ich am Monitor vorbei weil es verdammt ruhig in den Augenwinkeln war. Die beiden Hunde kämpften bis grade noch vor sich hin. Ich kuck so und seh Soosie mit hochgestrecktem Hinterteil, Pokki steht über ihr (ihr wisst schon wie) eine Pfote auf ihrem Rücken, die andere bleibt in der Luft stehen, als er mich kucken sieht.
 

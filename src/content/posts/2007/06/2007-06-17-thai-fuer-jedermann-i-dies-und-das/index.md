@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Herzlich willkommen im Thaikurs der [die schreiBBloga.de][1]. Ich habe mich entschieden, meine ausgeprägte Kompetenz im Bereich der thailändischen Sprache dem geneigten Leser dieser kleinen Publikation zugänglich zu machen. Lernen auch Sie im Vorübergehen quasi essentielle Bestandteile der Kommunikation mit den Thais kennen und seien Sie morgen schon bereit, neue Freundschaften zu schlie?en, Ihren Gefühlen Druck zu verleihen und metaphysische Streitgespräche für sich zu entscheiden!
 

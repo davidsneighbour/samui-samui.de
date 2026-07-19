@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Man][1] ist auf der Insel. Irgend welche Pläne oder nur Urlaub?
 

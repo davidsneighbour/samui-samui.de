@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der [erste Entwurf der neuen Verfassung Thailands][1] wurde heute vorgestellt. Mal sehen, was drinnen steht, die Übersetzung wird nicht lange auf sich warten lassen.
 

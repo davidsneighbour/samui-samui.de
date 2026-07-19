@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 * Die Erweiterung des morgendlichen Umweges auf Arbeits auf den Markt.
 * Marktfrauen die sich nicht sicher sind, ob sie einen übervorteilen können sind recht lustig zu beobachten.

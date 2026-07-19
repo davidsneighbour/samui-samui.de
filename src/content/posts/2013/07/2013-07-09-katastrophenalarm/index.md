@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben im 7eleven --- ein freundliches Hinweisschild hängt an allen leeren Regalen:
 

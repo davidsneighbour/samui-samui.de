@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 `(somewhere) at 9:17 ...<br />
 Warning power loss detected on UPS tezcatlipoca<br />

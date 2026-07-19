@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Malaysia ist teuer. Aus Thaisicht. Von Deutschland aus würde man wahrscheinlich über EUR1.50 teure Riesen-Cappuccini lachen. Glücklich.
 

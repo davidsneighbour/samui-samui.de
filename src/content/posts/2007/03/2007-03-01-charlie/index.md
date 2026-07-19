@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hier kommt grade auf UBC (ach nein, wir heißen ja jetzt true visions) ein Charlie-Chaplin-Film. Schwarz Weiss. Mit französischen Einlagen. Logischerweise kommt sowas nur Nachts. Aber keine Sorge, ich bleib wach und kuck mir das an...
 

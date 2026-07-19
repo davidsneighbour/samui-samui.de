@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/166246545/" title="wm2006"><img src="//static.flickr.com/46/166246545_cb83bc8162.jpg" alt="wm2006" /></a></p>

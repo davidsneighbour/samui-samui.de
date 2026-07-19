@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Titel der heutigen Reaktionen auf Premierminister Abhisits [gestrige Vorschläge][1] zur, ehm, Rekonzilierung der, ehm, nationalen Seele Thailands (sprich wieder mal Neuwahlen am 14. November):
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben beim Übersetzen lassen der Erklärung zum Chatten durch meine blutjungen Studentinnen kurz gestutzt: User heißt Puu Chaai. Mann/Junge heißt aber auch Puu Chaai. Frag ich so: "Ehm, was ist denn jetzt der Unterschied?" kommt als Antwort (ich hätts vorhersagen können) "Puu Chai ist Low Tone und Puu Chai ist Rising Tone". Jetzt muss ich mir nur noch eine Eselsbrücke erstellen bei der der User aufsteigt und der Junge tief liegt.
 

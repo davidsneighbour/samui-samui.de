@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Unsereins hat Urlaub. Da trifft es sich gut, dass Feiertage in Massen anfallen, so dass eine gewisse Ersparnis an Urlaubstagen eintritt.
 

@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ... ist mal wieder _nicht_ geblockt. Mal sehen wie lange.

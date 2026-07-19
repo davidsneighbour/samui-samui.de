@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Peter Alexanders Tochter Susanne Neumayer-Haindinger ist am Wochenende bei einem Unfall [ums Leben gekommen][1]. Ihr Mann kam in einer Kurve hinter Nathon in einer Kurve von der Stra?e ab und sie überschlugen sich.
 

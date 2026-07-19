@@ -16,6 +16,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/8383478222/" title="Chilling by Patrick Kollitsch, on Flickr"><img src="//farm9.staticflickr.com/8194/8383478222_e8c6be9a0f_z.jpg" width="640" height="480" alt="Chilling" /><span>Wir chillen</span></a>

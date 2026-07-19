@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ... dann sehe ich mir morgen die ersten 3000 Bilder aus dem Urlaub an und verspreche auch (hoch und heilig, muahahaha), den ersten Teil des Urlaubsberichts (Samui bis Bangkok und von da bis in den Airport hinein) fertig zu stellen.
 

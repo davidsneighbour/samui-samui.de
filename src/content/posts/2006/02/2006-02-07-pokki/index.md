@@ -13,6 +13,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der kleine Pokki heisst Pokki (Poh (low tone) Kieh (falling tone)). Das ist erstmal ein ziemlich niedlicher Name. Er hat aber auch eine Bedeutung und da diese häufiger erfragt wurde gibts hier nun die Geschichte von der Namensgebung.
 

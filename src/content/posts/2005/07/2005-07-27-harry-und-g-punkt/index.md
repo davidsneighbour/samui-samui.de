@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Also [Harry und Ginny][1] (ähm, Spoilerwarnung ;). Soso. Das ist ja interessant. Ich bin ja der Meinung mit den Schwestern der besten Freunde was anzufangen ist so unheilbehaftet wie Beziehungen mit Arbeitskollegen oder Gastronomieangestellten auf thailändischen Inseln. Au?erdem wissen wir doch alle, dass Harry eher den Männern zugeneigt ist. Wenn der siebte Band raus ist, schreib ich den achten und das wird garantiert kein jugendfreier.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Neuigkeiten von General Sonthi Boonyaratkalin][1]:
 

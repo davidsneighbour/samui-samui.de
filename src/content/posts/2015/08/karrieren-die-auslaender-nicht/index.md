@@ -18,6 +18,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
+cover:
+  type: image
+  src: jobs1.png
+  caption: Karrieren die Ausländer nicht, Part 1
 ---
 
 ![Karrieren die Ausländer nicht, Part 1](./jobs1.png)

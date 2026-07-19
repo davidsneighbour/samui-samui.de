@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Separatisten in den drei südlichen Provinzen haben heute (medienwirksam) einen [Waffenstillstand verkündet][1].
 

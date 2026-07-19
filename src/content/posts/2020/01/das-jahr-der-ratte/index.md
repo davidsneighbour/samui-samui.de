@@ -24,6 +24,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 ![Lunar New Year Südkorea --- &copy; google.com](./gallery/lunar-new-year-2020-south-korea.png)

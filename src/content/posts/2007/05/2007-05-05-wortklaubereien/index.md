@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute fragte eine mir bekannte Thaifrau (ja, die):
 

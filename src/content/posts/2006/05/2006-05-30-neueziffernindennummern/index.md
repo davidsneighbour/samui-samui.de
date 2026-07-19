@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Dass das Mobiltelefon des Thais liebstes Utensil ist, habe ich bereits berichtet, oder? Jedenfalls wird bei der Entscheidung Geld oder Mobile mitzunehmen wenn man nur Platz für ein Gepäckstück hat das Telefon gewählt. Viel Verwirrung und Fehlanrufe wird es in der thailändischen Mobilfunkszene ab September geben. Dann nämlich wird jede Telefonnummer mit einer zusätzlichen 8 ausgestattet. Aus 07 89 79 350 (wessen Nummer könnte das wohl sein?) wird dann ein 0\*8\*7 89 79 350. Man will die ersten Monate beide Nummernformen mit den richtigen Empfängern verbinden, dann eine Zeitlang auf den alten Nummern Ansagen laufen lassen und diese nach spätestens 4 Monaten abschalten.
 

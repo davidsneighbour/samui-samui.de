@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image" style="text-align:center;">
   <a href="http://google.co.th">![](/wp-content/old-images/285.jpg)

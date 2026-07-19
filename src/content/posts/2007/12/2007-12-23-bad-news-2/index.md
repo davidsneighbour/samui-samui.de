@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Schlechte Neuigkeiten für meine Heavy-Metal-Freunde: Vorhin ist mir mein Kurzhaarschneider wieder in die Hände gefallen. Irgendwie ist das ein ziemlich glänzendes Teil. Und mit Strom betrieben und dem richtigen Aufsatz lassen sich alle (in Buchstaben AH-<span class="caps">ELL</span>---<span class="caps">ELL</span>-EH) Haare auf 3mm trimmen.
 

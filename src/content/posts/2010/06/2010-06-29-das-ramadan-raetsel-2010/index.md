@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Dass ich vergangenes Jahr als [Ramadan Orakel][1] her halten musste habe ich ja bereits erzählt. Dieses Jahr ist es nicht anders und so möchte ich nur kurz am Rande erwähnen, dass Ramadan im Jahre 2010 in Asien am 11. August beginnt und am 9. September endet. Der genaue Termin hängt vom Iman des jeweiligen Ortes ab --- sieht der den ersten Schein des Mondes, beginnt das Fasten.
 

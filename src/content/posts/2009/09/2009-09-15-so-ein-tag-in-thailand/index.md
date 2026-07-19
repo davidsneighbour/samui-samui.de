@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern ist nicht viel passiert in unserem kleinen Thailand. Man hat herausgefunden, dass Mobilfunksignale die Genauigkeit der Vorhersagen eines angeschwemmten Baumstumpfes [negativ beeinflussen][1], ein alter Schauspieler hat mitbekommen, dass er seine Steuern seit Jahren an [das falsche Steueramt][2] bezahlt hat (dieses wiederum hat wohl auch nichts gemerkt) und in Pathum Thani hat es Tausend-Baht-Scheine [geregnet][3].
 

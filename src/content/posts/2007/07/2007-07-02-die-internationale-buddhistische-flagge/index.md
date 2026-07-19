@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ![](/wp-content/old-images/236.png)Es gibt eine international anerkannte [Flagge für den Buddhismus][1], die man auch hier an buddhistischen Feiertagen in den Tempeln sieht. 1880 wurde sie von einem amerikanischen Journalisten namens Henry Steele Olcott entworfen/verbessert (da ist man sich nicht so ganz einig) und 1885 in Sri Lanka vorgestellt.
 

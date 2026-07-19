@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Nosferatu, eine Symphonie des Grauens][1] ist meiner Meinung nach der beste Film aller Zeiten ([Metropolis][2] läuft au?er Konkurrenz). [Shadow of the vampire][3] der Zweitbeste. Und so sehe ich eben beides wieder an. Ich habe da so eine Idee unter dem Geheimnamen "Projekt Nosferatu", die mich wohl nicht so bald verlassen wird. Relativ gesehen gibt es nun Entwicklungen, die "Projekt Nosferatu" einen neuen Anschub geben. In filmographischer Hinsicht. Nicht der ursprünglichen.
 

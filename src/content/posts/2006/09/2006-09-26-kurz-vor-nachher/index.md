@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/253368374/" title="Gone"><img src="//static.flickr.com/80/253368374_5908468d7c.jpg" alt="Gone" /></a></p>

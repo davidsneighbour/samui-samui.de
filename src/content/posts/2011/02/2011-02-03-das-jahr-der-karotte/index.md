@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ein gesundes neues Jahr wünsche ich allen meinen Lesern. Im thailändischen Jahreskreis der Neujahre sind wir nun beim Chinesischen Neujahr angelangt. Der Chinesische Kalender orientiert sich am Mond, weshalb der exakte Jahreswechsel jedes Jahr an einem anderen Tag liegt. Dieses Jahr nun am 3. Februar.
 

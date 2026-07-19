@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute (wie jedes Jahr am zweiten Samstag im Jahr) wird in Thailand der Kindertag begangen. Frohes Kindervolk darf in Bangkok an den Panzern des Militärs spielen und Photos schie?en. Auf den Flügen der Thai Airways bekommen die Kinder ein "Spezial-Menü" und und und...
 

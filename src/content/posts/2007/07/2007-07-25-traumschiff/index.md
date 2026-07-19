@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Auf True Movies kommt eben dieser Bully Herbig Film wo sie Raumschiff Enterprise veralbern. Das hab ich damals irgendwie verpasst.
 

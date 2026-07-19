@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben. Telefon klingelt, ich kuck aufs Display, ein Name steht drauf, ich heb ab:
 

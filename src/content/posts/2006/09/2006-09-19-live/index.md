@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Im Fernsehen sieht man eine Limousinenkolonne in Bangkok fahren. Dann wieder der König. Ich glaube jetzt rächt sich, dass wir nie Thai zu lesen gelernt haben.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Morgen ist ein gro?er Tag für die thailändische IT-Behörde [<span class="caps">MICT</span>][1] (was soviel wie Ministerium für Informations- und Kommunikationstechnologien hei?t). Das ist das gleiche Ministerium wie jenes, das Youtube verbot und das Nutzen von Technologien, welche der Verschleierung der eigenen IP dienen (Tor, Proxies) unter Haftstrafen stellt.
 

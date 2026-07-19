@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Soso. Was macht man, wenn man laptopkabellos das Wochenende herumbringen muss? Man liest. Vornehmlich Bücher, manchmal auch Plakate und Etiketten. Aber grö?tenteils Bücher. Und so habe ich den Umfang der auf dieser Insel gelesenen Bücher von 3 auf 7 erhöht.
 

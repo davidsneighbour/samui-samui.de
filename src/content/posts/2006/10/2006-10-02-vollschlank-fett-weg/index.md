@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Seit einigen Wochen nervt mich Fu mit Sprüchen a la "You can go to fitness" und so. Ich gebe ja zu, dass ich auf Photos etwas mehr Platz wegnehme, aber "Fitness" ist Sport und der ist Mord. Ich grinse also weise und antworte meistens nicht. Die verpasst mir dann irgendwelche chinesischen Kräuter in Wasser aufgelöst und Pillchen die ich vor dem Schlafen gehen nehmen muss und pieckst mir ständig in die Schwarte.
 

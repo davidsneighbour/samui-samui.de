@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So. Da hab ich mir eine grippeähnliche Krankheit eingefangen. Alles fing mit Müdigkeit an (die ich auf den Hund schob) und endete mit Fieber. Nach einem "normalen" Krankentag bin ich dann zum örtlichen Heiler der feststellte, dass ich _kein_ Malaria habe und mir jede Menge lustiger Pillen verschrieb. Kleine weisse und große pinke (nicht dreieckig) und längliche grüne und so seltsame blaue Kapseln. Ich glaube die Thais können selbst das Kranksein nicht ohne Farben geniessen. Dann schlief ich drei Tage, langweilte mich in den wachen Stunden (im Fernsehen wird alles dreimal täglich wiederholt) und erzog mittendrin den Hund zu einem stubenreinen kleinen freundlichen Wesen. So ganz gesund bin ich wohl noch nicht, aber das Fieber ist weg. Und da meine Arbeitsmoral überdurchschnittlich ist (ein Umstand den es unbedingt bei den nächsten Gehaltsverhandlungen anzubringen gilt) und zu Hause alles geputzt, aufgeräumt, sortiert, angesehen und ausgelesen ist sitze ich nun im Büro und mache das, was ich am besten kann. Emails schreiben und Leute verrückt machen (manch einer nennt es arbeiten).
 

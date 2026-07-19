@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/236529232/" title="They have speed-traps now."><img src="//static.flickr.com/98/236529232_cce0e7b30c.jpg" alt="They have speed-traps now." /></a></p>

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Tony Jaa, Darsteller und Regisseur diverser Ong Bak Filme hat sich gestern [zum Mönch ordinieren lassen][1]. Jeder männliche Thai wird für einige Tage oder Monate zum Mönch, bevor er heiratet oder andere neue Lebensabschnitte beginnt. Die Reise zum Tempel hat er stilgerecht auf dem Rücken eines Elephanten gemacht.
 

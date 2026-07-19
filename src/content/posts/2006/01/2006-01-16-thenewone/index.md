@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="455" src="//static.flickr.com/38/87218812_015029a5d0.jpg" alt="The new one" />][1]
 

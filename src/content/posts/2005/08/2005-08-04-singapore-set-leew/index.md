@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nun. Es war ja schon ganz lustig für jeden, der mich beobachtet hat auf meiner kleinen Reise.
 

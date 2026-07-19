@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute mal ein Link zu einer [2*10 Punkte langen Liste (auf englisch) wie man Geeks nicht führen sollte][1]. Ich stimme den Listen zu 80% zu.
 

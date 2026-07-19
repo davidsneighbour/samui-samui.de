@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So. [Nu isser also wirklich zurückgetreten][1].
 

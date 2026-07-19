@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern hab ich mir komische Früchte gekauft. Vom äu?eren Aufbau her machten sie eigentlich den Eindruck, dass sie zur Litschi-Gruppe gehören, mit deren Vertretern ich bereits viel Freude hatte.
 

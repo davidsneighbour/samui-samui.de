@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Potjaman Shinawatra hat nicht nur den selben Nachnamen wie Thaksin Shinawatra, der Vorsitzende des Thailändischen Golfvereins, sie ist auch seine Frau. Nichtsdestotrotz sieht sie ihn derzeit seltener, weil er in Japan Interviews geben muss, auf Bali golft, sich in Russland beklauen lässt und in London daraus resultierende Visaangelegenheiten zu erledigen hat.
 

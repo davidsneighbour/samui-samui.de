@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Dem Thai wird ja allgemein nachgesagt, er habe ein krankes Verhätnis zu allerlei kühlenden Geräten. Ich wurde im Vorfeld vorgewarnt, dass die Klimaanlagen eiskalt gestellt sind und man sich schnell eine Erkältung holen könne.
 

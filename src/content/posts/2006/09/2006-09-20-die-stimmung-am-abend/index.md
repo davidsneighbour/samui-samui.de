@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Bei der abendlichen Mopedrundfahrt ist mir aufgefallen, was mir schon am Nachmittag zu denken gegeben hat (ich hab es aber vergessen zu schreiben): Keine Polizeipräsenz!
 

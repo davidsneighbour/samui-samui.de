@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So. Seit heute kann man bei [Skype][1] auch SkypeIn-Nummern für Deutschland kaufen. Das heisst, Leutchens in Deutschland rufen eine Nummer in Deutschland an und landen auf meinem Arbeitsrechner in Thailand. Das ist fast so, als ob ich immer noch in Lübeck sitzen würde.
 

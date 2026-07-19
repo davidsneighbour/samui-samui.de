@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Super][1]. Der Islam gefällt mir immer besser, denn "Islam-Gelehrte [haben] festgestellt, dass jeder Mensch das Recht habe, seinen Namen zu ändern, falls er ihm nicht gefallen sollte".
 

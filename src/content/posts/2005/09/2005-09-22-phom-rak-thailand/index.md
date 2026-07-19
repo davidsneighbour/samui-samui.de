@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Darf ich mal was sagen? Ja? Gut. Also: Ich mag Thailand. So ziemlich alles ist einfacher als in Deutschland. Manche Dinge sind schwerer. Allerdings sind _diese_ Dinge von geringer Wichtigkeit. Weshalb im Großen und Ganzen alles einfacher ist.
 

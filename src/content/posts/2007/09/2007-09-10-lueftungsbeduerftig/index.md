@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1355898940/" title="Clever dogs"><img src="//farm2.static.flickr.com/1268/1355898940_71ad10c802.jpg" alt="Clever dogs" /></a></p>

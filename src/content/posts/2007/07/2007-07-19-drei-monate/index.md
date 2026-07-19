@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/850494371/" title="Finally: pigtails again"><img src="//farm2.static.flickr.com/1042/850494371_f9c618ea2c.jpg" alt="Finally: pigtails again" /></a></p>

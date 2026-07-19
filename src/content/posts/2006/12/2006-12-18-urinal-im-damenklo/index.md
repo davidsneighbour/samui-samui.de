@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eine Schule in Chiang Mai hat jetzt ein [Urinal auf der Mädchentoilette][1] aufgehängt.
 

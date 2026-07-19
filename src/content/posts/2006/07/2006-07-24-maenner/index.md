@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [00:39] GrauMeister: ich kuck jetzt bei wikipedia nach. thomas mann war ein typ der sich selbst umgebracht hat und der sohn von dem mann aus luebeck war.
 

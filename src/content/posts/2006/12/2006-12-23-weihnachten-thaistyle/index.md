@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern fragte [Lowlander][1] in den Kommentaren, wie denn in Thailand Weihnachten gefeiert würde. Die Antwort darauf ist einfach: Gar nicht.
 

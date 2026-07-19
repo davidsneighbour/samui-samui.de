@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Diesmal wird man sogar vor Springfluten gewarnt. [Samui, Koh Phangan][1] sowie [18 Provinzen][2] an der Ostküste Thailands müssen mit starkem Regen und Sturm rechnen.
 

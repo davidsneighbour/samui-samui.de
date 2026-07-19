@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Dass die rund dreimonatlich erscheinenden Rasenmähermänner eine Belastung meiner sowieso fragilen inneren Ruhe darstellen, habe ich ja schon mal erzählt.
 

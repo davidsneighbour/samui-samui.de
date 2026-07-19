@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Fürs Protokoll: ca. 10 Tage braucht ein Brief per Luftpost von Deutschland nach Lamai, Thailand. Meine Wahlunterlagen sind da ;)

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In meiner ganzen Vorfreude über die Ankunft einer gewissen gelben Familie habe ich ganz übersehen, dass ich in keinem thailändischen Kino bisher Werbung für den Film gesehen habe.
 

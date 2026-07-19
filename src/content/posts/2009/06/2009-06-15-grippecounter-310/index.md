@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nun sind es [310 offiziell bestätigte Grippe-Fälle in Thailand][1]. Ich denke ich werde ab 10.000 Fällen trotz Bitten des Gesundheitsministers in eine geordnete Panik verfallen.
 

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <img src="//samui-samui.de/images/239.jpg" width="200" height="231" style="float:left;margin-right:10px;" />Ich werde das dumpfe Gefühl nicht los, dass die Königliche Thailändische Polizei gerade dabei ist, sich weltweit sehr sehr lächerlich macht.
 

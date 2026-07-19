@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Immer wenn der Khlong vor dem Haus Wasser führt und die ganzen Abfälle, die sich so im Jahr ansammeln ins Meer schwemmt, dann haben wir die Regenzeit. Seit heute morgen führt der Khlong vorm Haus Wasser.
 

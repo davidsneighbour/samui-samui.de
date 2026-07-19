@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ziemlich seltsam mutet ein Buchverbot an, das [heute verkündet][1] wurde:
 

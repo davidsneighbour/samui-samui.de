@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eine kleine Nachricht aus der Nation Multimedia von heute:
 

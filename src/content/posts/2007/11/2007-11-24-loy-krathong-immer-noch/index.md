@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Noch zwei Bemerkungen zum Loy Krathong:
 

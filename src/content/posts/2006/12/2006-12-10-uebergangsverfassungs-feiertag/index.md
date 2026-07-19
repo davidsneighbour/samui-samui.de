@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute feiert Thailand den Tag der (?bergangs-, sie haben ja keine richtige Verfassung derzeit) Verfassung. Das ist der thailändische Nationalfeiertag und ich tippe mal darauf, dass er nach Fertigstellung der neuen Verfassung im nächsten Jahr verschoben werden wird. Mal sehen.
 

@@ -12,6 +12,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Auf vielfachem Wunsche hin][1] hier nun ein Beitrag mit all den Einzelheiten zu den Umständen und Veranstaltungen die mein letztjähriges Silvester umgaben:
 

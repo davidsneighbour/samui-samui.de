@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thais lieben Photos mit Leuten drauf (vorzugsweise sie selbst in Posen vor Orten und Plätzen die sie besucht haben), Essen (Thaifood, volle Teller, halbvolle Teller und Teller nachdem sie geleert wurden) oder einer Kombination aus beidem (alle Essenden vor leeren Tellern). Die Photos müssen unbedingt einen Zeitstempel im Bild tragen, damit man auch noch Jahre später weiss, wann die Photos geschossen wurden.
 

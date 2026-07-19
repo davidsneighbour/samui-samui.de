@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die The Nation berichtet heute über Schüler, die Plastiktüten als Kondome benutzen und das daraus resultierende Bedürfnis des Gesundheitsministeriums, darauf hin zu weisen, dass das [nicht weise ist][1]. Man beachte bitte das schöne Schaubild mit den Plastiktüten.
 

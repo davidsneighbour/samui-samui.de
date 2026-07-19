@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thaksin Shinawatra, für meine seltener lesenden Leser: der war mal Ministerpräsident in Thailand, ist endlich wieder Präsident. [Der Präsident der <span class="caps">PGA</span> Thailand][1]. Das ist die Professionelle Golfervereinigung Thailands.
 

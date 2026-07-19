@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich bin mir nicht ganz sicher, vermute aber, der Beamte, der für die Einführung des 2Baht-Stückes verantwortlich war, muss Opfer der Todesstrafe gewesen sein. Wenn nicht --- verdient hat er es.
 

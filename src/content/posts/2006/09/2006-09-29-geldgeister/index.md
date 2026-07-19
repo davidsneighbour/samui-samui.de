@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Irgendwer lädt meine Callingcard ständig mit kleineren Beträgen auf. Neulich 25 Baht, eben 69 Baht. Kann man das nicht bitte auch mit meinem Konto machen?

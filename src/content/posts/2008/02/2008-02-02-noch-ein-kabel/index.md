@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ja klar. Und gleich [noch ein Kabel in Dubai zerschnitten][1]. Beim The Guardian gibt es eine nette [?bersicht zu den Unterseekabeln][2] die das weltweite Netz ziemlich löchrig aussehen lassen.
 

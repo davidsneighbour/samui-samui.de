@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So. Hab vorhin eine Hütte gemietet. Dummerweise hat die keine Klimaanlage, so dass es recht warm werden könnte. Aber das macht nichts, so wird das ganze Erlebnis authentischer ;)
 

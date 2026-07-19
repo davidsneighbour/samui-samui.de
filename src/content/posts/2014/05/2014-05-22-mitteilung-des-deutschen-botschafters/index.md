@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Deutschenliste wurde eben vom deutschen Botschafter be-emailt:
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <txp:thumbnail id="237" style="float:left;margin-right:10px;" /></a> Neulich berichtete ich über eine seltsame <a href="1313">Buddhaerscheinung auf einem Berg im Norden Chinas. Nun stellt sich heraus, dass es nicht Buddha sondern nur [ein bisschen Physik][1] war. Auch nett.
 

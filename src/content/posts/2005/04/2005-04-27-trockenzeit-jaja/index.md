@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Soso. (Schon gemerkt? Ich liebe Doppelungen kleiner Wörter. Blabla.) Trockenzeit haben wir also. Ich glaubs sogar. Und seit drei donnert und leuchtet der Himmel als ob er die Insel zurückerobern will. Die Luft ist seltsam feucht, als ob die Wolken sich jeden Moment in ihre Bestandteile auflösen wollen.
 

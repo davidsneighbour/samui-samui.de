@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 > angepisst, dtsch.; Zustand, den ein Duschender erreicht, wenn er bemerkt, dass sich kein Handtuch auf dem Handtuchhalter befindet und das nächste Handtuch-Repo in einer Entfernung doppelt der Hauslänge zu finden ist.
 

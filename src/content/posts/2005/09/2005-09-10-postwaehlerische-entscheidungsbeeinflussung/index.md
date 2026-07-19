@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Mich würde mal interessieren, inwieweit die Berichterstattung und die vorläufigen Ergebnisse zum 18. September in "Dresden I" die Wahlentscheidung und die Wahlbeteiligung beeinflussen wird. Wär doch ganz nett wenn es eine Kippstellung geben würde und bestimmten Menschen in Berlin und angegliederten Freistaaten gewisse Körperteile gekühlt "gehen" würden (nicht dass ich 210000 Menschen eine entscheidende Funktion zuschreiben würde).
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Surayud wurde eben zum Premierminister ernannt und hat auch schon eine Pressekonferenz gehalten, auf der ein Typ von Al Jazeera dümmlich auf Englisch fragte, ob er sich denn für einen besseren Präsidenten (jupp) als den demokratisch gewählten Thaksin hält.
 

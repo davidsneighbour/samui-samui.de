@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1932598384/" title="Wednesday morning"><img src="//farm3.static.flickr.com/2121/1932598384_047165581f.jpg" alt="Wednesday morning" /></a></p>

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Provinzverwaltung in Suratthani hat 50.000.000 Baht locker gemacht, um auf der Insel ein wenig Flutprävention zu betreiben.
 

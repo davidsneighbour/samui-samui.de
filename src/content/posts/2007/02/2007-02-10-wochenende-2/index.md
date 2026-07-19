@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eine SMS, die in etwa mein bisheriges Wochenende beschreibt (selbst die Tatsache, dass ich sowas per SMS schreiben musste, trägt zum Wochenende bei):
 

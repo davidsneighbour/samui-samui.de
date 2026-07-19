@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Einzweimal im Jahr wird auf Samui der gro?e Aufräumtag ausgerufen und Hundertschaften von Freiwilligen räumen den Müll vom Strand. [Morgen ist wieder einmal so ein Tag][1].
 

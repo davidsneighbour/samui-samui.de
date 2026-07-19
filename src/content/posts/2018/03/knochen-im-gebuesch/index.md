@@ -14,6 +14,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 Auf Koh Samui wurden (mal wieder) Knochen in einem der noch nicht bebauten Dschungelteile gefunden, nur 200 Meter neben der Strasse, die quer ueber die Insel von Maenam nach Lamai fuehrt, unter einem Baum, noch in der Kleidung. Bisher weiss man noch nicht, ob es sich um einen Mann oder eine Frau oder einen Thai oder gar um einen Immigranten aus Myanmar handelt:

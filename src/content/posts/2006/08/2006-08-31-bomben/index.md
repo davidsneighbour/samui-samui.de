@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Vor 90 Minuten gab es wieder mal koordinierte [Anschläge][1] im Süden. Diesmal auf acht Banken in Yala darunter auch die Bank of Ayutthaya.
 

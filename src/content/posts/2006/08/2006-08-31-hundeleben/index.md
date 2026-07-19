@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Manchmal fragt man mich ja, was ich den ganzen Tag so treibe. Nun, gestern zum Beispiel verbrachte ich vier Stunden damit, Pokkis Beine zu entfilzen. Er hat inzwischen sehr lange Haare und ihm ist sehr langweilig, weil ich ihm seine ganzen Beißspielzeuge nicht geben darf. Weshalb er seine Beine ableckt. Wenn man das nur lang genug macht verfilzt das alles. Im Sinne von Filz. Also eine richtig dicke Matte.
 

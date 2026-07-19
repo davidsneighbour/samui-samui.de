@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es regnet. Das ist nichts Neues, es regnet häufiger mal. Interessanterweise aber ist es März und "normalerweise" haben wir zu dieser Zeit kein Wölkchen am Himmel, 35 Grad im Schatten und wünschen uns nichts sehnlicher als Regen.
 

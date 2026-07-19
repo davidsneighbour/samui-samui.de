@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Am 22. Oktober sind in Thailand (mal wieder und diesmal vorläufig das letzte Mal) [Neuwahlen][1]. Derweil hat [der Chef der Wahlkommission Thailand fluchtartig verlassen][2] (News die von keinem thailändischen Medium berichtet werden) und [die Opposition boykottiert die Wahlkommission weiter][3].
 

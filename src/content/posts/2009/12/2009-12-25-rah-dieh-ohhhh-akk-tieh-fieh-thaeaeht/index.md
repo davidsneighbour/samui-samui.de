@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Iridium 192][1] ist ein nettes kleines radioaktives, ehm, Material (?), das in entsprechender Menge zur Herstellung einer schmutzigen Bombe genutzt werden kann. Ebensolches sollte heute morgen auf dem internationalen Flughafen in Bangkok [ausgetreten sein][2].
 

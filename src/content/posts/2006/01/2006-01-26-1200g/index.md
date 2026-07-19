@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Schon mal in 10 Tagen 26% Gewichtszunahme erlebt? Nein? Ich schon. Ich kenne ein kleines Fellbündel, das hat das geschafft.

@@ -13,6 +13,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Lin Ping schlägt mal wieder (Nachrichten)Wellen. Unser (der erste und einziger in Thailand geborene) [Lieblingspanda][1] aus Chiang Mai verlässt uns nächste Woche in Richtung seiner noch nie besuchten chinesischen Heimat. Wie das so ist mit chinesischen Leihgaben --- ihre Kinder gehören China. [Nächsten Samstag beginnt die große Reise][2].
 

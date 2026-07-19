@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 "Two Thai soldiers, who had been held hostage in a mosque in southern Thailand (Tanyong Limo village, in Thailand's disturbed Narathiwat province), were beaten to death 18 hours after they were seized, an army officer said. As some 2,000 anger villagers prevented authorities from entering the mosque, the two were stabbed in their stomachs and badly beaten about their heads."
 

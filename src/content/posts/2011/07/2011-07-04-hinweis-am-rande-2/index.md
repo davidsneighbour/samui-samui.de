@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nougat-Schokolade passt nicht in Päckchen, die nach Thailand geschickt werden. Erstens werden die Päckchen unschön behandelt --- geworfen, geschleudert, gematscht --- und gewisse Verpackungen platzen gerne auf. Zweitens liegt Thailand in den Tropen, was gewisse Temperatur-Probleme mit sich bringt --- vor allem, wenn Nougat schon bei Temperaturen weit unter 100 Grad Celsius schmilzt.
 

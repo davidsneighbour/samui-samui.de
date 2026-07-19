@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="455" src="//static.flickr.com/37/81806916_e12f3f2f88.jpg" alt="2006-01-04 001" />][1]
 

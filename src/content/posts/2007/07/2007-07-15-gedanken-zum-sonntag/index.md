@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Meine innere Uhr sagte mir vorhin, es sei Sonntag, man könne diesem verwaisten Weblog ja mal wieder etwas Leben ein hauchen. Nichts einfacher als das:
 

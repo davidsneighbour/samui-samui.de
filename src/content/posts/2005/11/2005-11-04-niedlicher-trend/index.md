@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich stelle einen niedlichen Trend fest: Thais (zumeist weiblicher Natur) nennen mich neuerdings öfters Bedd. Das klingt ganz süß aus so einem Munde. Das "tr" ist dann doch etwas schwer auszusprechen --- es gehört nicht zum Lautschatz der Thais. (Na? Lautschatz? Wortschatz? Lautschatz? Ich möchte das mal eben in den Duden eintragen lassen.)
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hin und wieder gehe ich ja auch in den 7eleven, um den Biervorrat im heimischen Kühlhaus aufzustocken. Die kleine Thai von neulich vermeidet neuerdings mich an die Theke zu bekommen. Allerdings bin ich auch eher an dem jungen Mann interessiert, der seit einigen Wochen in die Tasten der Registrierkasse hämmert. Jungs im Kundenservice von 7elevens fern der Strandstra?en sind ein Novum auf Thailands Boutique-Insel.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man munkelt, dass ein Flugzeug auf dem Flughafen in Samui bei starken Regen und Seitenwind von der Landebahn abgekommen ist und mit dem Tower kollidiert sei. Alles was eine Sirene auf dem Dach hat ist jedenfalls zur Zeit in eine Richtung unterwegs.
 

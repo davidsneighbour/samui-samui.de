@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wir sind alle noch da. Samak bleibt (vorerst) Premierminister und das Internet wurde (noch) nicht gekappt. Die Gerüchte um Samaks Rücktritt haben vermutlich für eine ruhige Nacht gesorgt.
 

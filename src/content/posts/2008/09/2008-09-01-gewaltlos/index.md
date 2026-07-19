@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Bilder von verschiedenen unter den <span class="caps">PAD</span>-Demonstranten eingesammelten Geräten][1] im Pantip-Forum künden vom unbewaffneten Widerstand gegen die böse Regierung.
 

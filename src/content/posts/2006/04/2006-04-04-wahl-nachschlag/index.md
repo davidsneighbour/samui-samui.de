@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Warten auch Sie auf die Ergebnisse? Irgendwie zählt man hier langsamer. Ich habe gehört, der Premierminister will sich die Ergebnisse gestern Abend anhören. Hat er aber wohl nicht, sonst hätte man ja in den Nachrichten was gesehen. Wie auch immer.
 

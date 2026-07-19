@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ... kann man durch eine Stra?ensperre fahren ohne anzuhalten. Als Farang zumindest. Ich war vorhin gerade in Gedanken über eine dringend vor Mai abzuarbeitenden Todoliste als der Verkehr stockte und viele viele überaus bewaffnete Polizisten rumstoppten. Ich setzte ein Lächeln auf und fuhr durch. Man schoss nicht.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Liebe Werber, besonders diejenigen unter Ihnen (also unter im Sinne einer Schnittmenge, nicht körperlich unter Ihnen, ich mag nicht annehmen, dass es sowas wie eine Reklamecouch unter Ihnen (auch dies Schnittmenge) gibt) die ungewünschte Werbe-Emails versenden (per Email (also elektronisch), sozusagen),
 

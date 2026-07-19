@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1830326029/" title="Neil at the water"><img src="//farm3.static.flickr.com/2172/1830326029_a6b3f99393.jpg" alt="Neil at the water" /></a></p>

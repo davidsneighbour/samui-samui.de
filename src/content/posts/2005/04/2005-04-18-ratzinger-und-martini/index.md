@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Rudi Ratzinger ist ein Musiker, der als [:wumpscut:][1] überaus interessante elektronische Musik macht. Anscheinend hat er in letzter Zeit eine Menge Material herausgebracht das in meiner Sammlung noch fehlt. Muss ich wohl mal aufstocken.
 

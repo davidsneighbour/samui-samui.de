@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich habe in den vergangenen 4 Tagen insgesamt 8 Stunden geschlafen. Das nur am Rande. Ich fühle eine leichte euphorische Phase. Mein Schreibtisch gefällt mir. Mein Stammpub auch.

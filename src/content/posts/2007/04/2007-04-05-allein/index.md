@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Bangkok wurde das erste Mal eine [Trennung von Siamesischen Zwillingen][1] vorgenommen, die am Herzen verbunden waren und heute, 50 Tage nach der Operation, noch leben.
 

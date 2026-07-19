@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ... dass die Welt **doch** ganz schön Scheiße ist. Jaja. Hat sie fast geschafft, mich zu blenden. Aber nich mit mir nich. Klar!?

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ganz Thailand trägt Gelb --- die Farbe des Königs weil er an einem Montag geboren wurde. Am Freitag hielt der König eine Generalaudienz für das Thailändische Volk (Bangkoks Verkehr stand still und die Menschen stauten sich 2km weit vom Balkon auf dem der Köndig und die Königin standen) auf der er unter anderem Folgendes sagte:
 

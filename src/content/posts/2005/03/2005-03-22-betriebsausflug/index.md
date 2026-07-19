@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Soso. Heute waren wir in Ban Nathon auf Betriebsausflug. Um 10 Uhr kam der Kremserwagen, wir öffneten ein paar Flaschen Bier (in einem reinen Männerunternehmen darf man das) und sangen schmutzige Lieder.
 

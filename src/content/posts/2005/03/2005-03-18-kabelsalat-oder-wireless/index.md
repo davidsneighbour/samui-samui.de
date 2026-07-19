@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hmm. So richtig einig werden kann ich mir nicht mit dem Titel für diesen Eintrag. Mal sehen, vielleicht wirds ja noch.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gesundes neues Jahr euch da draußen, drüben, unten und oben. Wir schreiben das Jahr 2550 buddhistischer Zeitrechnung. Es wird ein gutes Jahr. Ein bombiges Jahr. Glaubt mir.
 

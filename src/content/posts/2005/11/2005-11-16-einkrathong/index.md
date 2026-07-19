@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="420" src="//static.flickr.com/30/63818774_9182c6a2ce.jpg" alt="Krathong" />][1]
 

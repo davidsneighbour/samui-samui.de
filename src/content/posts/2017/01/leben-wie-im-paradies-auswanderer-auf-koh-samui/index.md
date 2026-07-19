@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 Wer 30 (oder mehr?) Minuten Zeit hat und eine Internetverbindung, die funktioniert (nicht so wie wir hier auf der Insel heute), der kann sich mal die folgende Eposide von 30 Minuten Deutschland, die gestern Nacht auf RTL lief, ansehen: [Leben wie im Paradies --- Deutsche Auswanderer im Paradies][1].

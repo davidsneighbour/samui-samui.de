@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nur fürs Protokoll: Falls es eben gerade in der (geographischen) Nähe ein Erdbeben gab, dann hab ich das gespürt. Der Boden hat gewackelt, die Wände haben neue Risse, die Hunde sind schreiend nach draußen gerannt.

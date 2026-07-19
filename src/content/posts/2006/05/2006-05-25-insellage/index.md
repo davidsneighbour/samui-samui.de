@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der Nachteil von Palmen, Strand, willigen Gesprächspartnerinnen und Thaifood liegt für Companies die ihr Pad Thai im Internet verdienen in der Internetanbindung. Und so tüteln wir seit ein paar Tagen mit Anbindungsraten wie damals als die Onlineverbindung noch quietschend zischelnde Laute von sich gab mit ständigen Timeouts und nicht erreichbaren Erdzonen (derzeit Süddeutschland und USA, eh nicht erstrebenswert) herum. Gut zu wissen, dass es allen so geht. Hier auf der Insel.
 

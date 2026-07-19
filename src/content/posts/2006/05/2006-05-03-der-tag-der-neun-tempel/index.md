@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Neulich war Songkran, das buddhistische Neujahrsfest. Bis vor einigen Jahren war das identisch mit dem thailändischen kalendarischen Neujahr. Inzwischen ist auch hier der 1. Januar der erste Tag des Jahres. Das hält die Thailänder nicht davon ab auch Songkran zu feiern. Es findet jedes Jahr vom 13. bis zum 15. April statt. Am Tag vor Songkran sollte man sein Haus säubern, damit der "Dreck des alten Jahres" nicht mit ins neue Jahr kommt.
 

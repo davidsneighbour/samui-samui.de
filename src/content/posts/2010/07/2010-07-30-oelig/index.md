@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wer was auf sich hält geht heute nach Nathon, unserer kleinen Inselhauptstadt, und demonstriert lautstark (Demokratie funktioniert in Thailand nur laut und bombastisch) gegen die geplante ?lplattform hier im Golf von Thailand.
 

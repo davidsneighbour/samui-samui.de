@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/93506575/" title="Orchid Garden in Donsak"><img src="//static.flickr.com/26/93506575_eb4b13b03d.jpg" alt="Orchid Garden in Donsak" /></a></p>

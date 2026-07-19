@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.daylife.com/photo/05R38743Ide3n">![](/wp-content/old-images/284.jpg)

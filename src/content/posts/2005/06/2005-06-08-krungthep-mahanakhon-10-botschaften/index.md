@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hab ich eigentlich schon erwähnt, dass ich neulich in Krungthep war? Hab ich? Ach ja. Stimmt ja. Gut, dann liefere ich schnell noch ein Nachtbild von unserem Stra?enaufenthalt in Surrat Thani nach:
 

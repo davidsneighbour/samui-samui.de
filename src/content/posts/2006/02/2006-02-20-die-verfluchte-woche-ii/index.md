@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich brauchte gestern übrigens nicht in den Tempel zu gehen, weil am Samstag nachmittags jede Menge Mönche aufkreuzten, mit Gongs um das Haus liefen und anschließend im Haus Totengebet hielten. Die Geister sind gebändigt und alle glücklich.
 

@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich bekomme die ganze Woche schon Beglückwünschungen zum Chinesischen Neuen Jahr. Das allerdings dürfte morgen erst beginnen. Asiatische Feiertage jedoch feiern wir immer mit mehreren Tagen Vor- und Nachlauf. Das chinesische Neujahr bspw. vom 1. bis zum 8. Februar dieses Jahr.

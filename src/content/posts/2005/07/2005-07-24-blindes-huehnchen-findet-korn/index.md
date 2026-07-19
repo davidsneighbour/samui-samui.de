@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der folgende Eintrag könnte eventuell erklären, warum es hier nach unserem Urlaub so wenig Einträge gab.
 

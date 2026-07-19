@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thailand hat übrigens das bereits erwähnte Match der Matche [gewonnen][1].
 

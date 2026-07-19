@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Das nationale Friedens- und Ordnungs-Beibehaltungs-Komittee. Im Fernsehen.
 

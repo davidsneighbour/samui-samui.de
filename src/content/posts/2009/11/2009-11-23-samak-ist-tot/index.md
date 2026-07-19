@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Samak Sundaravej, einer der vier Premierminister Thailands in 2008 [verstarb heute morgen in Bangkok][1]. Er war schon längere Zeit an Krebs erkrankt.
 

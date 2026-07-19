@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wie konnte ich Faur??'s Requiem nur so lange vergessen? Manchmal haben nächtliche Ohrträume doch ihren Zweck.

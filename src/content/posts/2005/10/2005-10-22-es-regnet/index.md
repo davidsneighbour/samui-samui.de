@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es regnet. Seit **vergangenem** Freitag eigentlich durchgehend. Früh um 4 fängt es an. Ich weiss das, weil ich bei Regen gut einschlafen kann. Allerdings muss man erstmal wach sein, um einzuschlafen. Und erwache ich nach 3 Uhr morgens schlaf ich nicht mehr ein.
 

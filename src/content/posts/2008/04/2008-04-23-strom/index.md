@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Seit einigen Tagen knallt es immer nachts auf der Ringroad vorm Haus und der Strom fällt aus.
 

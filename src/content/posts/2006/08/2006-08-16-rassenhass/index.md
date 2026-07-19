@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/216821222/" title="a broken jaw"><img src="//static.flickr.com/89/216821222_e8e2f71f4d.jpg" alt="a broken jaw" /></a></p>

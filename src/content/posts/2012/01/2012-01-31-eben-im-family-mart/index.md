@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 "Hey, bist du nicht der Patrick aus'm Blog?"
 

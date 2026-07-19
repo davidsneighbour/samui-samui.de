@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nahezu der ganze Rest des Landes steht unter Wasser. --- in Samui beginnt die Regenzeit immer etwas später. Koh Samui District Chief Decha Kangsanant (?าย???า ?ั?ส?ั???) (das ist sowas wie der Inselbürgermeister) hat jedenfalls [verkündet][1], dass die Insel vorbereitet ist.
 

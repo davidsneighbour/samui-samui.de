@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich hatte ja bereits angesprochen, dass in Wahlbezirken wo nur ein Kandidat, in der Regel der von Thai Rak Thai (TRT), mangels Opposition antritt eine bestimmte Anzahl an Stimmen abgegeben werden muss, damit der Kandidat als gewählt angesehen werden darf. Es handelt sich hierbei um 20% aller Wahlberechtigten. In Bangkok bspw. tritt TRT in 20 von 36 Distrikten ohne Gegner an.
 

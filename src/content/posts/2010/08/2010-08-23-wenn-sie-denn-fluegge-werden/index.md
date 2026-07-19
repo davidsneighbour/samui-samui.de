@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/4920344658/" title="Bye bye baby!"><img src="//farm5.static.flickr.com/4081/4920344658_1179e9663c.jpg" alt="Bye bye baby!" /></p>

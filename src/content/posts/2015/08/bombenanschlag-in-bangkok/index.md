@@ -12,6 +12,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 Und wieder einmal ist in Bangkok eine Bombe explodiert, diesmal am Erawan-Schrein, einer ziemlich belebten Ecke:

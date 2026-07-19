@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es gab niemals <span class="caps">CIA</span>--- ehm Gefängnisse in Thailand. [Wirklich][1].
 

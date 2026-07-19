@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der Gouvernor der Bank of Thailand [Pridayadhorn Devakula soll der kommende Premierminister werden][1]. [Oder auch nicht][2].
 

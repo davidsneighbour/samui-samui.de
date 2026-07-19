@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Schon seit Jahren wird verhandelt, durch den Putsch in 2006 wurde die Planung wieder etwas zurück geworfen, nun aber scheint es bald soweit zu sein: [Gestern wurde das Dach des <span class="caps">IKEA</span>-Shops in Bangkok Bangna mit einer Zeremonie fertig gestellt][1] und am 3. November wird man zwischen Billy-Regalen und Köttbullar-Theke wandeln können.
 

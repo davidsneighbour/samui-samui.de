@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 War schön. Sehr schön. Chiang Mai ist eine schöne kleine Stadt. Schöne Wats wo man hin sieht. Isaan ist eine schöne Gegend. Schöne Menschen. Schönes Wetter. Viel schöner Reis. Laos ist auch schön. Und ich les jetzt erstmal Mails. Später vielleicht mehr.
 

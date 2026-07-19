@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/6131531979/" title="Thats not a gecko..."><img src="//farm7.static.flickr.com/6188/6131531979_3ea0acbdef_z.jpg" width="640" height="480" alt="Thats not a gecko..." /></a></p>

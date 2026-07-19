@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In den nächsten Tagen feiern wir in Thailand "King Bhumibol Adulyadej's 60th Anniversay Celebration of His Majesty's accession to the throne" (so der offizielle Name) oder das 60jährige Jubiläum seiner Inthronisation. Mit 60 Jahren auf dem Thron ist er der dienstäteste Monarch weltweit, ein Fakt auf den viele Thais stolz sind. Es wird jede Menge Umzüge geben und das Gute an dieser Feier (für Leute die freie Tage brauchen) sind die amtlich verordneten zusätzlichen gesetzlichen Feiertage am Freitag, Montag und Dienstag.
 

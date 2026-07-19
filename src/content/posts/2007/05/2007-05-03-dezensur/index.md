@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Youtube ist wieder erreichbar. Zumindest aus dem TT&T-Netz und mit www am Anfang. Nach Meinung einiger Freunde ist das aus Versehen passiert. Die Leute bei <span class="caps">TOT</span> sind nicht ganz begnadet bei der Konfiguration ihrer Blacklisten. Ich habe vor, mich dort zu bewerben...
 

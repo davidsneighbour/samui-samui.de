@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thailand bekommt eine neue Provinz. Ganz ohne Expansionskämpfe und Rückführung --- man teilt einfach eine andere Provinz in zwei Provinzen auf.
 

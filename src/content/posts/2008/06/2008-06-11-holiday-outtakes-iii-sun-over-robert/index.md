@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2570227801/" title="Holiday Outtakes III: Sun over Robert"><img src="//farm4.static.flickr.com/3262/2570227801_f0dfd2ea07.jpg" alt="Holiday Outtakes III: Sun over Robert" /></a></p>

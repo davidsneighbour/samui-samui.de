@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In London hat ein Thairestaurant neulich eine Anti-Terror-Gro?aktion ausgelöst. Der Grund? Man kochte [eine scharfe So?e][1]:
 

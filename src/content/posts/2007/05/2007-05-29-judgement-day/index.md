@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Morgen ist "Judgement Day" in Thailand. Es wird vom obersten Gerichtshof entschieden, ob Parteien wie die Demokraten und Thai Rak Thai aufgelöst werden sollen. Angeklagt sind sie, weil sie bei der letzten Wahl, die Thaksin Shinawatra, der Vorsitzende des Golfverbandes von Thailand, mit eindeutiger Mehrheit gewonnen hatte. Anscheinend war der Gewinn nicht ganz sauber.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <img src="//die.schreibbloga.de/images/222.jpg" width="520" />
 

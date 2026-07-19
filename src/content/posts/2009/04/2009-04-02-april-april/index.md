@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Thailand ist die "Tradition", am 1. April Scherze zu machen nicht bekannt. Sehr schön wie ich finde. Schade nur, dass das Internet (noch) nicht auf Thailand beschränkt ist.

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Verdammt (Schnauze, das ist **mein** Blog, hier darf ich fluchen wie ich will)!!!
 

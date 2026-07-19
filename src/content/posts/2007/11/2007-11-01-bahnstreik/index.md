@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Bahn streikt. [Die in Thailand][1]. Grund: Sie soll privatisiert werden. Tausende sitzen fest und die Züge stehen in den Bahnhöfen still. Das dürfte ein bisschen unangenehmer als in Deutschland sein, denn es ist nass und heiss oder kalt (je nach Tageszeit) und die Züge kann man nicht unbedingt kuschelig nennen.
 

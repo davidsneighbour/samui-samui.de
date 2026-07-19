@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Also. Ich kuck mir ja tolerant so jeden Film an, den es zu sehen gibt, könnte ja wirklich ne Perle drunter sein. In den letzten Tagen waren das die Folgenden:
 

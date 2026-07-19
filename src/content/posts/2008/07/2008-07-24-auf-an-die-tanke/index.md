@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute Nacht wurde auf wundersame Weise das [Benzin runde 5 Baht preiswerter][1]. Das ist gut 1/8tel des alten Preises. Wenn Thaksin nun noch Ministerpräsident unseres kleinen Tropenstaates wäre, würden Pickups mit Lautsprechern und gro?e Plakate am Stra?enrand von den guten Taten der Regierung berichten. Ist er aber nicht mehr, weshalb das Ganze eher leise und verschämt eingerichtet wurde.
 

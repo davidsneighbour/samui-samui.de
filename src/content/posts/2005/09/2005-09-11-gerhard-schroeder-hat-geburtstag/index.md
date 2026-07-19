@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute vor 95 Jahren wurde übrigens der bekannte CDU-Politiker [Gerhard Schr??der][1] im schönen Saarland geboren.
 

@@ -13,6 +13,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern wollte ich dem süsstesten Fellbündel seit der Erfindung von Furby mal etwas besonders Gutes gönnen und bin dabei an die und ich versuche das jetzt mal besonders freundlich auszudrücken Grenzen der Tierliebe gestossen. Eigentlich wollte ich ihn nur mal von jemanden duschen und entknoten lassen, der Ahnung davon hat.
 

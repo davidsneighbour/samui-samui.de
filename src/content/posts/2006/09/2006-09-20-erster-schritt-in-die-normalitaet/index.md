@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Um 9:21 Uhr hat das Administrative Reform Committee under the Constitutional Monarchy eine Fernsehansprache gehalten. Das war für mich ein sehr ambivalenter Augenblick, der aber schnell wieder vorbei war. Meine Notizen dazu:
 

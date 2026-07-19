@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Zwei Wochen lang sagte man, Bangkok ist nicht von Überschwemmungen bedroht. Zwei Wochen lang sagte man, es könnte sein, dass Bangkok überschwemmt wird. Zwei Wochen lang sagte man, man bereite Bangkok darauf vor, von den Fluten heimgesucht zu werden. Seit gestern sagt man, es werden Fluten erwartet. Heute nun sind sie da. Die Fluten.
 

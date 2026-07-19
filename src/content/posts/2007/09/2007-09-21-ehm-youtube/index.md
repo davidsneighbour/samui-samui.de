@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich weiss, es wird langsam einseitig hier im Blog, aber: [Es gibt da ein zweiteiliges Video bei Youtube][1], das behauptet, Prem Tinsulanonda, der Vorsitzende des Königlichen Geheimrats, würde hinter dem Putsch vom 19. September 2006 stecken.
 

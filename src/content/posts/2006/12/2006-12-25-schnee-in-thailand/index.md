@@ -10,5 +10,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Keine Sorge, es hat noch nicht geschneit. Es ist aber seit ungefähr einer Woche sehr kalt. In den Bergen im Norden ist es 2 bis 4 Grad Celsius kalt, in Bangkok 18 bis 22 und hier auf der Insel haben wir gemütliche 26 bis 28 Grad. Das letzte Mal lag am 8. Januar 1955 Schnee in Thailand --- in Chiang Mai.

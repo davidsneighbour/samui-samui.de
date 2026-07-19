@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der <txp:gho_permalink id="411">unbekannte Feiertag neulich</txp:gho_permalink> war übrigens der Neumondtag im Oktober, an dem die Krathin Zeremonie begangen wird.
 

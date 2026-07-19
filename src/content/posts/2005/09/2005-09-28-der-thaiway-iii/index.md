@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Zitat des Tages: "You know! This is against the law. So it took long time because she is afraid. But she know my sister." --- Mal so völlig aus dem Zusammenhang gerissen. Lustig trotzdem.

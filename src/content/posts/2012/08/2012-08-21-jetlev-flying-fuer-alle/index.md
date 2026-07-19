@@ -17,6 +17,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Was ich [im Januar schon][1] sagte, [hat nun auch der Spiegel entdeckt][2]: Jetlev-Flyer --- nette wasserbetriebene Flugspielzeuge. Für die Reichen und --- hier auf Koh Samui --- für Jedermann.
 

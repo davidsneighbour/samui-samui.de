@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ehm. Eigentlich wollte ich gar nichts sagen. Denn eigentlich ist mir die Meinung anderer relativ egal. Aber wenn <del>die Volksfront von Judäa</del> das Administrative Reform Council eine korrekte Betitelung als The Council for Democratic Reform under Constitutional Monarchy fordern darf dann kann auch ich nicht zurück stehen.
 

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Und wieder hat Lt-General Assawin Khwanmuang zugeschlagen und einen Farang-Mord schnell und einfach aufgeklärt.
 

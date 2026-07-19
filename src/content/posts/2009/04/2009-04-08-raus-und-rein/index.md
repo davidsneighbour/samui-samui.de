@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Neuigkeiten aus dem Soapoperagewerbe: Die Familie des Profigolfpräsidenten hat [heute Nacht auf verschiedenen Wegen][1] das Land verlassen. Und endlich nimmt auch Pojaman, Ex-Frau Thaksins, wieder am Geschehen teil.
 

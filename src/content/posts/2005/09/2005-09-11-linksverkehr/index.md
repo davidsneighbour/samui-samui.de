@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hab gestern einen Film gesehen in dem einer mit nem BMW einen Münchner Vorort entlang gefahren ist (Bourne Verschwörung oder so). Jedenfalls fährt der so vor sich hin und ich denk die ganze Zeit wenn jetzt einer entgegen kommt fällt er auf, so blöd wie der fährt. Und dann kam einer entgegen und ich denk so wie schaffen die das jetzt beide auf der rechten Seite ihrer Fahrbahn zu fahren ohne zu schlingern, das ist doch ungewöhnlich dass jemand auf deiner Spur entgegen kommt und du gemütlich die Seite wechselst ohne ihm den Finger zu zeigen, weil er auf deiner Spur ist, das ist nicht sehr realistisch, doofer Film.
 

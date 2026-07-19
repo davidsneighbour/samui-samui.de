@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Echte Helden stecken ihre Hemden und T-Shirts (wenn es denn T-Shirts sein müssen) nicht in die Hose. Soviel nur am Anfang. Aber schauen wir uns doch mal das Cover der Veröffentlichung der Inhaber des fünften Platzes der thailändischen Charts an:
 

@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben loggte ich mich an meinem Arbeitsterminal ein, klatschte einen komischen Rhythmus in die Hände und sagte laut "Das is heut ein schöh ner Tag". Dann verharrte ich einige Momente peinlich berührt. Manchmal ist es ganz praktisch der Erste im Büro zu sein.

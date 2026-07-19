@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich lese den Spiegel nur noch über Handy. Mit Opera Mini.<txp:gho_footnote>Und im Thailotto hab ich nicht mal annähernd gewonnen. Keine einzige Zahl gleich.</txp:gho_footnote>

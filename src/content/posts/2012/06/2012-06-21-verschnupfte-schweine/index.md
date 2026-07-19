@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Nakhon Ratchasima wurde bei mehr als 40 Patienten die Schweinegrippe (die ältern unter meinen Lesern werden sich erinnern, das war im Jahr 2009 mal die Seuche des Jahres) [diagnostiziert][1]. Es gibt (offiziell) natürlich keinen Grund zur Besorgnis --- trotzdem ist es interessant, wie lange sich sowas in der freien Natur halten kann.
 

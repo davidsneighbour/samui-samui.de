@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Angekommen. Heiß ist es. Nein. Nicht wirklich heiß. So um die 30 Grad sind es wohl, aber die Sonne und die außerordentlich schwere Luft macht einem Nordländer wie mir schon zu schaffen. Meine Schleimhäute fühlen sich doppelt so dick an wie sonst. Was solls. Es gibt viel zu berichten. Fangen wir an. Mit dem Fliegen.
 

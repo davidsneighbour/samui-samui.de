@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Email-Nicknames meiner Thai-Kontakte im MSN-Messenger fangen alle mit N an.

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Regelmässige Leser dieser kleinen Publikation werden sich erinnern, dass ich anstrebe, aus meiner kleinen Hütte mit den Hunden gemeinsam ins Internet zu gehen. Schneller als bisher mit dem 5kB-Mobilemodem. DSL ist eine gute Sache (wir Kenner nennen es hier ADSL2+) und überall verfügbar. Nur nicht in meiner Hütte.
 

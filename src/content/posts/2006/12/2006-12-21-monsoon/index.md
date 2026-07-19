@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Surat Thani ist heute (mal wieder) ein Monsun eingefallen. Der Kleine hat keinen (medial nennenswerten) Namen, aber [einige Küstengebiete auf dem Festland überschwemmt][1] und (angeblich) auch Nathon nass werden lassen. Das letzte Mal wurde der Fährbetrieb nicht eingestellt. Diesmal schon.
 

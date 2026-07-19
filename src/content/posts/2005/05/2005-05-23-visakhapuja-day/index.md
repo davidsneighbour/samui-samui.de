@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 (Die Bezeichnung dieses Tages ist regional verschieden und kann von Visakha Bucha über Vesak Bucha hin zum titelgebenden Visakhapuja variieren.)
 

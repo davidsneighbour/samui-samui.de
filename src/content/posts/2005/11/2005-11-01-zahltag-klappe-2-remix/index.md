@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Klar. <txp:gho_permalink id="451">Kaum hat man mal was über Bankbesuche geschrieben</txp:gho_permalink>, laufen die Instant-Messaging-Leitungen schon heiss und ich werde wortreich aufgefordert, mehr zu erzählen.
 

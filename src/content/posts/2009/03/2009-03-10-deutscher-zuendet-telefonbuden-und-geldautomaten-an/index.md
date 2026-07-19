@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ein 64jähriger ehemaliger deutscher Militär-Ingenieur [wurde in Bangkok festgenommen][1], weil er 11 Telephon-Häuschen in Brand gesetzt, da er seine Freunde in Deutschland nicht erreichen konnte. Dann hat er noch ein paar Geldautomaten angezündet, weil er kein Geld mehr hatte und einige Buswartehäuschen und Werbeplakate, weil die dort lebenden Obdachlosen ihn nicht übernachten lie?en.
 

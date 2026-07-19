@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/185418863/" title="The long waiting"><img src="//static.flickr.com/69/185418863_1ff92a491b.jpg" alt="The long waiting" /></a></p>

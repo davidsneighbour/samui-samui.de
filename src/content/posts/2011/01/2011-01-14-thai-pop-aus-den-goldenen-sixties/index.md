@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 (Disclaimer: Das thailändische Goldene Jahrzehnt war im Gegensatz zu Deutschland nicht in den Zwanzigern sondern in den Sechszigern. Sag ich jetzt einfach mal.)
 

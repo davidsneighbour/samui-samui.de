@@ -17,6 +17,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Einer der Gründe, warum ich so gerne die lokale englisch-sprachige Presse lese: die Reporter hier sind leicht erregbar...
 

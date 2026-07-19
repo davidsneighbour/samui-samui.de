@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Zur Zeit kann man in Thailand recht gut nachvollziehen, warum es "Experiment Demokratie" heisst, wenn man von thailändischer Demokratie spricht. Damit meine ich nicht die Übergangsregierung und die Arbeiten an der neuen Verfassung die meiner unwissenden Meinung nach sehr gut und schnell voran gehen. Ich meine die "kleineren Geschichten" wie die (lasst es uns mal) Alkoholikerbestimmungen (nennen).
 

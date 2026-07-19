@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://flickr.com/photos/schreibblogade/529492838/"><img src="//farm2.static.flickr.com/1185/529492838_0dd7ae2cdd.jpg" width="500" height="375" alt="Wat Plai Laem." /></a></p>

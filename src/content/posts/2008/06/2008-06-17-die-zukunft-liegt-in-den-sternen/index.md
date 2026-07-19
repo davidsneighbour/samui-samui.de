@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gut. Also Thaksin Shinawatra, der Präsident des Profigolferverbands von Thailand (der nicht mal nach Samui kam als hier die Bangkok Open gespielt wurden, die sogar von der letzten Zeitung in Russland besprochen wurde) hat mal wieder [was gesagt][1]. Diesmal etwa Folgendes:
 

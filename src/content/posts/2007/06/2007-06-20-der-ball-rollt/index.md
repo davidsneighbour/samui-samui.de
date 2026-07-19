@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wie es aussieht, hat Thaksin den Zuschlag bekommen und darf nun endlich einen Fu?ballclub der Premier League sein Eigen nennen. [Manchester City][1]. Jetzt muss er nur noch den Premier-League "Right and Proper Persons Test" bestehen. Hehehe...
 

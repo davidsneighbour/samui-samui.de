@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <img src="//samui-samui.de/images/279.jpg"  style="width:620px;" /></p>

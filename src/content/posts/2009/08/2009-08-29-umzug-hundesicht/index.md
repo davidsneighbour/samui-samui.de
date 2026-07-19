@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gegen Samstag vorvergangener Woche bekamen die Hunde mit, dass da mal wieder was geplant war. Pokki und Soosie reagieren seit meiner einen Monat langen Abwesenheit im Januar 2007 allergisch auf jedes Packen von Sachen.
 

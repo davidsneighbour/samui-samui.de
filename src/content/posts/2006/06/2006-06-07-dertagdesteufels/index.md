@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern war ja bekanntermassen der Tag des Teufels (06.06.06). In meinem Leben ist nichts Schlimmes passiert. Also alles nur Mache?
 

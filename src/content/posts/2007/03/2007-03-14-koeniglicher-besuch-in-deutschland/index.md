@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute fliegt [Her Royal Highness Princess Soamsawali][1], die Ehefrau des [Kronprinzen][2] auf einen [offiziellen Besuch nach Deutschland][3]. Unter anderem wird sie verschiedene Ausstellungen besuchen und eröffnen und jede Menge Bayern treffen.
 

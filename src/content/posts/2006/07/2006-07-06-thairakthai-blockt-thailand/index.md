@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Website von Thai Rak Thai (der Partei des guten Thaksins, was ich jetzt so unarrogant wie nur möglich zu sagen versuche) blockt neuerdings Besucher aus Thailand. Unter <http://www.thairakthai.or.th/> bekommt man entweder eine blanke Seite oder einen 403er (Access forbidden) angezeigt.
 

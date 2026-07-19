@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/6191520661/" title="Holidays? by Patrick Kollitsch, on Flickr"><img src="//farm7.static.flickr.com/6160/6191520661_f99a086bb8_z.jpg" width="640" height="480" alt="Holidays?" /></a></p>

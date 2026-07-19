@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Im Süden (in Gra Thong) wurde [heute Nacht][1] in einer Schießerei eine Familie bestehend aus Eltern und sieben Töchtern getötet und weitere Menschen verwundet. In den letzten Tagen häufen sich derartige Meldungen mal wieder. Einige Zeit lang sah es so aus, als ob man sich auf Bombenattentate auf Regierungsgebäude und die Energieversorgung konzentrieren würde, jetzt sind wieder die Menschen dran.
 

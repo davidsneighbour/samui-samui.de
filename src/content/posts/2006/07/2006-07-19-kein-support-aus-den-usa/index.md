@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Demnächst (man verwende einen möglichst schwammigen Begriff, wenn man das genaue Datum nicht kennt) wird ein neuer UN-Generalsekretär gewählt.
 

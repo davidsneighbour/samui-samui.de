@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Auch wenn auf Mallorca der schlimmste Wintereinbruch seit Jahren ist --- hier ist noch kein Schnee weit und breit zu sehen. Ja, es ist etwas kühl in der Nacht, aber zum Frieren reicht es noch nicht. Ich melde mich wieder, wenn die ersten Schneeflocken fallen!

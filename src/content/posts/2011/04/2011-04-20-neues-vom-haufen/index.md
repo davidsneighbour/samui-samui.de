@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der Haufen liegt immer noch in der Landschaft herum, der Neffe des Hausbesitzers kommt immer noch jeden zweiten Tag vorbei und zündet ihn an einer anderen Ecke an und geht dann unverrichteterdings wieder von dannen.
 

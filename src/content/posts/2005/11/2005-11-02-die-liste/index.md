@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 * <del>Lafontaine (SPD)</del> (Schmollmodus, entkommen, siehe unten)
 * <del>Möllemann (FDP)</del> (Sonderprämie wegen Originalität)

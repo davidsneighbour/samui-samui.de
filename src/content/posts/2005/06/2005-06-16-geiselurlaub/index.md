@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Soso. Man hört ja schon mal genauer hin, wenn in den Nachrichten von den umgebenden Ländern die Rede ist. Da war auch die Nachricht von der [Geiselnahme in Kambodscha][1] heute interessant. Ich dachte den ganzen Morgen "Nordwesten ist ok. Da komm ich im Urlaub eh nicht hin." --- Dummerweise aber doch. Eben las ich im Kleingedruckten, dass Angkor Wat im Nordwesten ist und Angkor Wat ist genau der Ort, der mein Interesse an Kambodscha wecken konnte. Die Geiselnehmer wollten nur 1000 Dollar. Seltsam. Naja. Wie auch immer. Fahr ich halt in eine Gegend, die ein bisschen unsicherer ist, als gedacht. Anderswo kann einem auch ein Baum auf den Kopf fallen.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die offiziellen Meldungen behaupten, dass Panzer abgezogen werden und die Lage entspannt ist. Allerdings häufen sich die Hinweise, dass die Armeeführung durchaus nicht entspannt ist und weiter Militär nach Bangkok zieht. Es geht das Gerücht von einem in Planung befindlichen Gegenputsch um.
 

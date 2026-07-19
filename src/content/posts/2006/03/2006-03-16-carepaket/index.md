@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/113156662/" title="Care-Packet"><img src="//static.flickr.com/46/113156662_29acf28bcb.jpg" alt="Care-Packet" /></a></p>

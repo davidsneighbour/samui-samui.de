@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="455" src="//static.flickr.com/40/79626076_e9085e2f8f.jpg" alt="Signed. Blessed. Unexpected." />][1]
 

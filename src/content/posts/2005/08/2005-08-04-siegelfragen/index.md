@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Moin, kann mir mal jemand "mit dem unabhängigen Siegel der Zufriedenheit" auf Französisch übersetzten? Ich brauche eine neue Headline. Aus verschiedenen Gründen.
 

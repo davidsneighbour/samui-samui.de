@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Samui hat ein Lichtspielhaus. Kenner würden es als Kino bezeichnen, manch einer wählt Cinema, Cineplex, The Movies oder andere Bezeichnungen, um sich von der mengenmä?ig breiteren Masse abzuheben. Dort sieht man mich hin und wieder häufig am Wochenende in der Hoffnung auf etwas Kultur. Samui ist arm an Kultur (rein rhetorisch, ich werden den Gegenbeweis bei Gelegenheit antreten). Ich persönlich stehe ja auf das kontemporäre thailändische Kino (Horror-, Love- und Comedytrash), werde aber hin und wieder gezwungen, Hollywood-Filmchen anzusehen.
 

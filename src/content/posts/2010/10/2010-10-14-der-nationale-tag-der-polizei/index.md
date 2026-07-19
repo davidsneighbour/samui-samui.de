@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/64437533/" title="Police Sergeant Indifferent"><img src="//farm1.static.flickr.com/25/64437533_1cd42bd2bb.jpg" alt="Police Sergeant Indifferent" /></p>

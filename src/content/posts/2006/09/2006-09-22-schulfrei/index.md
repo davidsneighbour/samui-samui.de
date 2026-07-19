@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute morgen halb neun standen plötzlich die beiden Kinder meiner Hausbesitzer vor der Tür und fingen an, mit Pokki und Soosie zu spielen. Das kommt häufiger vor, allerdings nicht unter der Woche und nicht halb neun. Da sind sie normalerweise in der Schule. Der Kleine (3) macht irgendeine Art Vorschule --- er hat mir von meinem Thaialphabetplakat die Namen der Buchstaben vorgelesen --- und der Große (8?) ist in der normalen Schule.
 

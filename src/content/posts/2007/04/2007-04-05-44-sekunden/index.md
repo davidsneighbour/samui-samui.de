@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Youtube.com wird immer noch auf den thailändischen Internetleitungen geblockt. Jetzt merkt man beim morgendlichen Feedreader-Abgrasen, wieviele Blogs ihre "Inhalte" über Youtube beziehen. Inzwischen werden auch [immer mehr Informationen][1] zu den Vorgängen hinter den Kulissen bekannt.
 

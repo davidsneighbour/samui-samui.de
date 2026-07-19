@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Normalerweise fällt ja in Thailand nie der Strom aus, weil alle Kabelnetze perfekt gewartet werden, immer genügend Strom vorhanden ist, alle Netze mit Backups versehen sind und überhaupt. Der Drei-Tages-Ausfall im letzten Dezember war ja mehr oder weniger ein Test wie man ohne Strom Kaffee kochen kann und nach wieviel Stunden die Ideen für Offline-Beschäftigungen aus gehen.
 

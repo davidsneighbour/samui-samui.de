@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 Wow. Im Spiegel. Einer dieser tollen wahren grundlagengestützten Artikel über, ehm, ... ja über was eigentlich?

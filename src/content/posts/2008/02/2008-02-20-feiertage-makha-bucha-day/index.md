@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute feiern wir den Makha Bucha Day. Das ist ein offizieller Feiertag in Thailand, aber hauptsächlich ein buddhistischer Feiertag, der jedes Jahr auf den Vollmond des dritten Mondmonats fällt.
 

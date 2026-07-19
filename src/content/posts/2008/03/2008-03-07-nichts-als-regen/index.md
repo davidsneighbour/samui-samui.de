@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2317009702/" title="Rain!"><img src="//farm3.static.flickr.com/2402/2317009702_c77d4e7cc3.jpg" alt="Rain!" /></a></p>

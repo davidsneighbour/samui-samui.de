@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5529269128/" title="Sick Soosie, frozen chicken and attention needing Pokki"><img src="//farm6.static.flickr.com/5099/5546480784_a9183997c5_z.jpg" width="640" height="480" alt="Sick Soosie, frozen chicken and attention needing Pokki" /></p>

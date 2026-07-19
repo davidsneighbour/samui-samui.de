@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern war ein einfach fürchterlicher Tag. Ich hab es mir gut gehen gelassen und bis 12 Uhr ein gewisses Hörbuch hörgelesen, als ich mich entschied, schon ein paar Stunden vor meinem Telefondate mit Schnute ins Büro zu gehen und ein bisschen Mails zu lesen, an Webseiten rumzuschrauben. Im Büro angekommen genoss ich die leere Atmosphäre unseres zwei Tische großen Gro?raumbüros, startete den Rechner, verkabelte ihn und kam nicht online. Die nächste Stunde verbrachte ich dann mit Fehleranalyse und diversen Neustarts (konnte ja sein, dass es ausnahmsweise am Betriebssystem lag). Nichts ging. Die Blockade konnte ich dann bis hinter das WLAN zurück verfolgen, im Prinzip die letzte Stelle, an der ich etwas ändern könnte. Vermutlich hatte man uns einen Riegel vorgeschoben.
 

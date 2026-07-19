@@ -16,6 +16,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 -   [Royal Consort Sineenat Stripped of Royal Ranks](http://www.khaosodenglish.com/news/2019/10/21/royal-consort-sineenat-stripped-of-royal-ranks/)

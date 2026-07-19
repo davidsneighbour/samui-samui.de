@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/166259827/" title="proof: there is a rabbit in the moon, no man"><img src="//static.flickr.com/66/166259827_f2d6b489ee.jpg" alt="proof: there is a rabbit in the moon, no man" /></a></p>

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Neulich sah ich in den Nachrichten (Channel 3 --- immer gut informiert) einen schwarzberobten Mönch. Ich hatte das schon öfter mal gesehen und mich gewundert, weil eigentlich orange die Farbe der Mönche ist. Ich habe mich also mal hingesetzt und mit dicken Fingern meiner vertraulichen Quelle eine fragende SMS geschrieben:
 

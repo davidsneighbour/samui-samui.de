@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Da dieses Weblog anscheinend eine Sammlung erster Male wird, möchte ich auch diesen Tag mit der Schilderung einmaliger erster Male beginnen.
 

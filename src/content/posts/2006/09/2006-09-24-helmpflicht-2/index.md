@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wenn man als Urlauber auf die schöne Insel Ko Samui kommt, mag man meinen in Thailand herrsche keine Helmpflicht. Halbnackte Touristen rauschen unbehelmt auf ihren Rollern in der Gegend rum. Thais ebenso. Tut sie aber. Herrschen. Es besteht Helmpflicht für alle motorisierten Zweiräder.
 

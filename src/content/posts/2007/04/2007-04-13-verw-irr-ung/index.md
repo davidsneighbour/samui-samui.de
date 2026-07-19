@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich könnte gut ohne diese ganze Chemie leben. Andererseits... was wäre es (das Leben) ohne die Wendungen? Langweilig? Vieleicht sowohl mit als auch ohne...
 

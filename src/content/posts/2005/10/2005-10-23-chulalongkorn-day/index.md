@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es ist mal wieder feiertagen angesagt. Diesmal sogar offiziell. Das heisst, weil heute Feier- _und_ Sonntag ist, wird der morgige Montag zum Freitag. Keine Fron. Einfach so abhängen.
 

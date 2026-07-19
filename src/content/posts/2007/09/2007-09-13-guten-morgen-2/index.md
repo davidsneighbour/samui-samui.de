@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1376930435/" title="At the ferrryport of Lomprayah II"><img src="//farm2.static.flickr.com/1170/1376930435_d10ef4bd42.jpg" alt="At the ferrryport of Lomprayah II" /></a></p>

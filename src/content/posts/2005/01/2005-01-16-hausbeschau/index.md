@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Willkommen bei der Hausbeschau! Wollen wir doch mal sehen, wie man hier leben kann:
 

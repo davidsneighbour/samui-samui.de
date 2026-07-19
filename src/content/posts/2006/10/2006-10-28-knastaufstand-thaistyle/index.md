@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Drei Orte gibt es in Thailand, in denen man sich als Farang nicht gerne aufhalten möchte. Einer dieser Orte ist eines der Thai-Gefängnisse. Sie sind in der Regel überfüllt, unhygienisch und von unausgebildetem Personal bestückt das gegen Bezahlung Vergünstigungen erlaubt und bei Zahlungsunfähigkeit schon mal lebenserhaltende Hilfsleistungen vergisst oder verlangsamt. Irgendwo habe ich mal gelesen, dass man nach einem von fünf Aufenthalten hinter Gittern nicht lebend das Gelände verlässt.
 

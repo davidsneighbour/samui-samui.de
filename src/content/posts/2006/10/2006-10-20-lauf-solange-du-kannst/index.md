@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Alle die nun erraten, was für eine Information hinter dieser Überschrift steckt, erhalten ein Bienchen. Die Antworten auf die häufigsten Fragen zu diesem Thema lauten übrigens "Ja", "Ja", "Nein", "Eventuell", "Das sind ja faktisch nur 29 Tage", "Weil sie erst ab Oktober zählen" und "Das weiß allein der Wind".
 

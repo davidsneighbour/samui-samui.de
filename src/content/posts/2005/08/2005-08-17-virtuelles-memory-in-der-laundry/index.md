@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben war ich mal wieder durchgeschwitzte Kleidungsstücke (was ich damit sagen will ist: Kähäääähähäh! Wir haben hier ewigen Sommer) in der Laundry abgegeben und wurde zu einem höchst interessanten Gespräch eingeladen:
 

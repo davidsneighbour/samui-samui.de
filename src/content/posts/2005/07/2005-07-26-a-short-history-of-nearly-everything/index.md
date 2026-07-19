@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nun man kommt ja kurzerdings erheblich häufiger in den Genuss, mal ein Buch zu lesen und so schaffte ich es in den vergangenen Tagen endlich einmal, [Bill Brysons][1] "A short history of nearly everything" fertig zu lesen. Ich habe dafür 6 Monate gebraucht. 5.5 Monate für die ersten 100 Seiten und die letzten Nächte für den Rest.
 

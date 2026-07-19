@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Am Sonntag ist Wahlsonntag. Das heißt die Kneipen haben geschlossen (ich glaube auch schon am Tag davor), damit die Wähler klaren Kopfes in die Wahlkabinen gehen können, wenn sie denn am Ort verweilen an dem sie gemeldet sind. Wie bereits erwähnt ist das seltenst der Fall.
 

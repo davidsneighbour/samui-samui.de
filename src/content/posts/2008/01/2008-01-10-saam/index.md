@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Drei Jahre bin ich nun schon auf der Insel (seit zwei Tagen). Das nur am Rande. am Achten Januar Zweitausendfünf setzte ich Fuss auf Kontinent und Insel.
 

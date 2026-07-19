@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man grü?t sich in Thailand mit dem Wai. Dabei hält man die Handflächen aneinander und neigt den Kopf. Je höher die Hände dabei sind und je mehr man den Kopf neigt umso grö?er ist der Respekt, den man seinem Gegenüber zollt. Es gibt vier Arten des Wais:
 

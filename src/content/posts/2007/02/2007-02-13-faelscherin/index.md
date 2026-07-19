@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern kam Fu mit einem Packen uralter Passphotos an und wollte das aktuellste (ungefähr 5 Jahre alt) eingescannt haben, damit sie davon neue Passphotos machen lassen kann. Man muss ja sparen, meinte sie.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Dr. Eric Schmidt][1], <span class="caps">CEO</span> einer kleineren amerikanischen Suchmaschine, befindet sich auf der Insel und leidet an Jetlag.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Peoples Power Party (<span class="caps">PPP</span>, im allgemeinen Journalistenjargon inzwischen nur noch "Proxy der aufgelösten Thaksin-Partei Thai Rak Thai" genannt) [wird nun nicht aufgelöst][1].
 

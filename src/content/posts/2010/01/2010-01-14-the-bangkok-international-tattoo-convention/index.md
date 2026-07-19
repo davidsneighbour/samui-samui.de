@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wer was auf sich hält, hält eine Tattoo-Messe ab. Und da die Touristen ausbleiben muss auch Thailand sich neue Wege überlegen, um Leute (und deren Geld) ins Land zu schaufeln.
 

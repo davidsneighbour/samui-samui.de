@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ... is ja doch [ne][1] Schnecke. (_kuck grade die thailändische Originalversion vom Herrn der Ringe_)
 

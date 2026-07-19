@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Alle Thai-Sender sind seit ein paar Stunden wieder nicht zu erreichen. "Wieder" darum, weil das im September 2006 schon so passiert ist --- da wurden dann allerdings stundenlang Königs-Hymnen und -Videos gespielt. Sieht nach Putsch oder einem zerrissenem Kabel aus.
 

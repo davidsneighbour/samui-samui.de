@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Das Interessanteste (für mich) an den vergangenen 4 Wochen ist, dass es mich nicht im geringsten angeödet hat. Fast bin ich ein bisschen traurig, dass die Sonne seit heute durch die Wolken dringen kann und meine Lieblingsüberschwemmung in Bophut so langsam auszutrocknen beginnt. Ich hatte bereits eine Technik entwickelt, hinter den Pickups in einem Meter Abstand zu fahren. Damit kommt man schneller vorwärts weil die Fluten wie damals im Roten Meer (wars das Tote?) getrennt werden und ich nahezu trocken durchkam.
 

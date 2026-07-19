@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Youtube.com ist immer noch erreichbar. Ich hab den ganzen Tag Monty Python angekuckt und auch The Nation hat (nach der 24-Stunden-Regel) [Breaking News][1] zum Thema zu verkünden ;)
 

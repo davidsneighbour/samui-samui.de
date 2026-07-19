@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich hatte "[Samui][1]" ja <txp:gho_permalink id="419">bereits einmal</txp:gho_permalink> erwähnt. Nichtsdestotrotz darf ich sie nochmal erwähnen. Erwähnte ich schonmal, dass ich auf (Südost)Asiatinnen stehe? Lecker lecker.
 

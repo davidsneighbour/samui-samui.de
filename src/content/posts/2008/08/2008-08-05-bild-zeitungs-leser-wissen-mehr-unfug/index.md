@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Bei [Bild Online][1] kann der geneigte Leser heute einen Beitrag über den "Inkognito"-Besuch des thailändischen Kronprinzen in Deutschland lesen.
 

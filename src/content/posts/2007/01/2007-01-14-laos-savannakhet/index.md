@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
   1. Internet haben sie
   2. Die Nacht war von Ungewissheit geplagt, in welchen Bus sie mich gesteckt haben. Da stand alles Mögliche drauf, nur keine romanischen Schriftzeichen.

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben klopft es im Chefbüro an die Tür. Unsereins ist ja freundlich und kuck nach, wer da was Samstags von einer Farang-Firma will. Vor der Tür steht ein kleiner Thai, der mich mit einem Schwall wohlgemeinter Worte überflutet. Ich sage "Phom Mai Kautschai" (Ich versteh dich nicht). Er lacht, freut sich und sagt wieder irgendwas mit den selben Worten und einigen Erweiterungen. Nun hält er mir einen Zettel entgegen. Ich glaube verstehen zu können, dass er jemanden sucht. Also kuck ich mir den Zettel an --- nur Thaibuchstaben. So langsam rächt es sich, dass wir nur Verstehen und Sprechen aber nicht Lesen und Schreiben lernen. Ich erkläre ihm also, dass ich des Thailesens nicht mächtig bin ("Phom mai samaat aan Thai") und er soll doch mal zu den Anwälten gehen, die kleine Sekretärin ist heute da und versteht ihn sicher. Er kuckt zum Anwaltsbüro, zu mir, zum Anwaltsbüro, sieht mich sehr sehr ungläubig an und geht wieder.
 

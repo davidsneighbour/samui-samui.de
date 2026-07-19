@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Samak, der Parteichef der Wahlgewinner Peoples Power Party (ich liebe es, den Namen der Partei auf Englisch zu schreiben, weil er dann den Parteiencharakter verliert --- Party party, happy happy), hat heute [per Pressekonferenz][1] eine Koalition aus 4 Parteien verkündet.
 

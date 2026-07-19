@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="455" src="//static.flickr.com/38/76738109_4b1e06d2d3.jpg" alt="christmas eve morning" />][1]
 

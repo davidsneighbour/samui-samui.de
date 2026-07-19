@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Jabber: <friedrich.wilhelm.murnau@jabber.ccc.de>
 

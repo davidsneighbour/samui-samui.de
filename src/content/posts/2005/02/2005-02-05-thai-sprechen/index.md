@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Dass es sich lohnt, Thai zu lernen habe ich heute im 7eleven (wir Kenner sagen hier "säwwäniihläwwän") gemerkt. Ich entschied mich spontan dazu beim Rückgeld ein "kopp hun kapp" loszuwerden (die lautmalerische Version von einem thai-Danke) und wurde prompt mit einem tiefstem Wai zuzüglich breitem Lächeln belohnt. Also tiefer und breiter als sonst.
 

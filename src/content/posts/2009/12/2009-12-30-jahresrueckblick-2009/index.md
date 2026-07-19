@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 2009 war in Thailand das Jahr, in dem ein Demokrat (parteizugehörigkeitsweise gesehen) thailändischer Premierminister wurde, der es demokratisch gesehen nie geworden wäre, in Chiang Mai ein Panda das Licht der Welt und tausender Kameras erblickte und der Profigolfpräsident Thailands Twitter entdeckte (wie so viele andere auch).
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eine Geschichte die Drehbuch für einen thailändischen Horrorfilm sein könnte, trug sich heute in Bangkok zu: Dort fand man in einem Tempel [mehr als 50 Säuglingsleichen][1] in ("verschiedenfarbigen") Plastiktüten.
 

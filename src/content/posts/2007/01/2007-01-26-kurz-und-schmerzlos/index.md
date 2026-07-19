@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute wurde das Kriegsrecht in den 41 Provinzen wo es noch nicht oder nur teilweise aufgehoben war wieder aufgehoben.
 

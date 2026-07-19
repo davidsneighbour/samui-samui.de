@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Sleepy Hollow][1] auf Thai. Ich bin schon gespannt, wie man Johnny Depps "Because" auf Thai übersetzen wird.
 

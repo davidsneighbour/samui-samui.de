@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 (Ich wollte schon immer mal so eine Überschrift haben. Allerdings genüge ich hier nur meiner Chronistenpflicht (auch den wollte ich schon immer mal bringen) als Investigativjournalist von der Wurzel und verweise auf einen Artikel)
 

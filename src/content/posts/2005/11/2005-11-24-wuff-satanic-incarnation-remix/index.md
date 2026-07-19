@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Also ich kann <txp:gho_permalink id="531">im Rauch</txp:gho_permalink> durchaus was erkennen.
 

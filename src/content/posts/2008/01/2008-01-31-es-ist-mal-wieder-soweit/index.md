@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man mag es kaum glauben aber auch heute im Jahre 2008 sind wir noch sehr abhängig von einigen wenigen kleinen Kabeln, die durch die Weltmeere verlaufen. Vor Athen wurde neulich eines dieser Kabel zerrissen.
 

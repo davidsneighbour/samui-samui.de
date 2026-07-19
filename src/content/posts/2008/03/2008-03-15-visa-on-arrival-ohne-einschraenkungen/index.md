@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Jawohl! Und wenn es dann in ein paar Tagen die Papierspatzen von den Dächern pfeifen, dann sagt denen bitte, ihr hättet es hier zuerst gelesen.
 

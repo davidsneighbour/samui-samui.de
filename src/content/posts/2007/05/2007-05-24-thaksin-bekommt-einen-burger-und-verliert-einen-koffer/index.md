@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Bangkok Post hat natürlich in der Thaksinsache den besten Titel:
 

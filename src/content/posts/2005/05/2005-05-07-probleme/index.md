@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Das Mädchen das nie lächelt muss wohl ziemliche Probleme haben, denn eben lief sie bepackt mit einem Glas Milch, einem Glas Saft, jeder Menge Blumen, Unmengen an Räucherstäbchen und so seltsamen Pendelstrippen zum örtlichen Geisterhaus und wai-te, was die Wirbelsäule hergab.
 

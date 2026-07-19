@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man kann es wohl nicht besser als [die Boulevardpresse][1] ausdrücken:
 

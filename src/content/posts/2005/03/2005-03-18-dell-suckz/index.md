@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Naja, als ich meinen kleinen Inspiron 8200 kaufte, war das ein ganz nettes Teil zum Existenz gründen. Inzwischen ist das Gerät aber nur noch der Horror.
 

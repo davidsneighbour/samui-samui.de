@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Im Spiegel gibt es ein interessantes [Interview mit Sukhumbhand Paribatra][1], dem Governour Bangkoks und Cousins des Königs ([hier auf Deutsch][2]). Neben Thaksin und den Unruhen geht es dabei um die Thronfolge:
 

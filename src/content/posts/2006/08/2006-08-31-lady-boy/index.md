@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute hab ich mal wieder den Häretiker gegeben und eine Frage in den Raum geworfen:
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ehm, einen ganz ganz großen Nachteil hat der Umzug nach Maenam. Ich fahre morgens (wenn Stau ist 30 Minuten lang sonst) 20 Minuten lang mit der Sonne im Gesicht. Das führt einerseits zu einer gewissen Bräune, andererseits wird durch das viele Sonnenlicht jeglicher graue Gedanke ausgelöscht.
 

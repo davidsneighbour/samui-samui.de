@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wenn jetzt jemand glaubt, ich würde am Wochenende nicht mehr ins Büro kommen, weil der Weg so weit ist, das dachte ich auch, allerdings bin ich heute schon das zweite Mal hier. Sehr aussagekräftig, oder? (Nagut, man könnte die kurzfristige Verschiebung eines morgendlichen Dates und die Tatsache dass die Heimkinosachen noch im Büro rumliegen als Begründung anführen, das aber würde nur zu Nachfragen führen, weshalb ich davon erstmal absehe(n thuhe).)
 

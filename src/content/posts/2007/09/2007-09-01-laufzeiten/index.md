@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Werte Langzeitleser und -beobachter werden sich entsinnen, dass es Anfang des Jahres etwas länger dauerte, bis meine kleine Hütte im Internet surfen konnte. Fürs neue Haus war also eine bestehende Verbindung zum Netz der Netze Bezugsgrundlage.
 

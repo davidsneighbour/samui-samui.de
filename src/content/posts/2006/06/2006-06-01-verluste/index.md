@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute war ein eher trauriger Tag in unserem Haus. Als wir gestern abend nach Hause kamen war von Fleur nichts zu sehen. Normalerweise erwartete sie uns jeden Abend auf der obersten Stufe schwanzwedelnd und wahnsinnig vor Freude. Gestern nun begrüsste uns ausser einem Häufchen und einem Pfützchen (so ganz hat sie das noch nicht raus mit der Ortwahl für ihre Geschäfte) nur gähnende Leere. Kein Fiepen, kein Schwanzwedeln.
 

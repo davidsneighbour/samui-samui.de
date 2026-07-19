@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Im Isaan (Nordosten von Thailand) gibt es die [weltweit stärkste Anhäufung an Krebsfällen im Gallenbereich][1]. (Ich übersetze mal "epithelial cancer of the bile duct" als zellulärer Krebs im Gallen-Trakt.)
 

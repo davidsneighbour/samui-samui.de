@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Busfahren in Thailand ist ja bekanntermaßen ein Abenteuer der besonderen Art:
 

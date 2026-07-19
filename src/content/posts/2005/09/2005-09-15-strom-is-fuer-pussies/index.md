@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Zur Zeit wird unsere schöne Palmeninsel mit neuen Kabeln ausgestattet durch die mehr und besserer Strom fließen soll. Aus diesem freudigen Grunde hatten wir zwischen Mai und Juli regelmäßig Stromausfälle. Die blieben in letzter Zeit aus. Weshalb der leichtgläubige Farang annahm, dass es nun vorbei wäre.
 

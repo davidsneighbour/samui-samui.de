@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/4678464125/" title="Samui? Samui!"><img src="//farm2.static.flickr.com/1295/4678464125_049920c665.jpg" alt="Samui? Samui!" /></p>

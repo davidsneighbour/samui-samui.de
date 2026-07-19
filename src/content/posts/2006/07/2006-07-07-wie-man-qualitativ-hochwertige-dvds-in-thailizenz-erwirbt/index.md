@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In unserer kleinen Reihe "How to survive in Thailand" heute ein Ratgeber zum Thema DVDs. Man kann auf jeder Beachstreet der Insel DVDs in Massen kaufen. In der Regel kosten die 100 Baht pro Stück (rund 2 Euro), bestehen aber auch nur aus dem Inlet für die DVD-Hülle und der DVD selber. In der Hochsaison kann man "10 DVDs für den Preis von 9"-Rabatte heraus handeln.
 

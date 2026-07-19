@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In der New York Times findet man einen lesenswerten Artikel zu den Thais und ihrem Hang zum Aberglauben. Wahrsagerei und "Magie" jedweder Färbung sind auch heute noch weit verbreitet und äu?erst lukrativ.
 

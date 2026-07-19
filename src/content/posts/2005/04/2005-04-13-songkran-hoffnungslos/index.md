@@ -11,5 +11,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es ist hoffnungslos. Jetzt fahren die Leute mit ihren Pickups in der Gegend rum, haben da ihre Wasserfässer draufgepackt und spritzend in voller Fahrt rum. Ich glaube nicht, dass hier irgendjemand trocken bleiben wird.

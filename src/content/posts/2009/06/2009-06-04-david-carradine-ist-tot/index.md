@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [David Carradine ist nach Presseberichten tot][1]. Vermutlich hat er sich selbst umgebracht, zumindest hat man ihn in einem Bangkoker Hotelzimmer hängend gefunden.
 

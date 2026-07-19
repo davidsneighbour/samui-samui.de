@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich habe ein paar "Erklärungen" zu den Headerbildern hier in der die schreiBBloga.de auf eine Extraseite gepackt. Die [Headerbilder in der die schreiBBloga.de][1].
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Früher habe ich mir öfters Rosen geschenkt. Ich habe sie nie verblühen lassen. Sobald sie die ersten Ermüdungserscheinungen aufwiesen, hing ich sie mich dem Kopf nach unten auf und lies sie trocknen. Ich hatte viele Trockenblumen.
 

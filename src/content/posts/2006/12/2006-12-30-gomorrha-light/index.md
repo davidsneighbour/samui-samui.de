@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Mit Maenam geht es auch den Bach hinunter --- sextechnisch.
 

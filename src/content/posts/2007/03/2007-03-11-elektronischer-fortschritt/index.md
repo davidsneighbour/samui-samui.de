@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Im Januar gab es [die ersten Anzeichen][1], dass tatsächlich dieses Jahr ein königliches Dekret unterschrieben werden soll, das den elektronischen Geldverkehr in Thailand einführt und regelt.
 

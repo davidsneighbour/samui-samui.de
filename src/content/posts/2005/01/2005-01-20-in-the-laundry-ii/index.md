@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 (Schrieb ich schon mal, dass ich beim Titel immer an "In the navy" gesungen von irgendeinem russischen Männchor und den Leningrad Cowboys denken muss? Nein? Ist hiermit geschehen.)
 

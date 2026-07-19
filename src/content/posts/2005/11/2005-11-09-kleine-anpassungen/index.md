@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ehm, ich hab grade gemerkt, dass meine eigenen Kommentare als Visitors gezählt werden. Kähhähhähhäh. Das geht natürlich nicht. Die werden logischerweise dem Autor zugerechnet.

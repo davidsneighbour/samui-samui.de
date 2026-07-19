@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media photo image">
   <a href="http://www.flickr.com/photos/schreibblogade/6771466763/" title="Pool by Patrick Kollitsch, on Flickr"><img src="//farm8.staticflickr.com/7149/6771466763_32f9011e40_z.jpg" width="640" height="480" alt="Pool" /></a></p>

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Neulich kamen die Rasenmähermänner und mähten den Rasen vor und um meinem Haus herum. Mein Hausbesitzer kam herbei geeilt und hatte eine Idee --- sie könnten doch mal die Bäume beschneiden. Gesagt getan, sie säbelten hier und da die ?ste ab. Die Reste der ?ste legten sie zu einem Haufen auf der Lichtung im Dschungel über meinem kleinen Khlong vor dem Haus ab. Dann zogen sie von dannen.
 

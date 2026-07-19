@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Da mag man meinen die Thais wären ironieresistent aber [so kurz und prägnant][1] und ähnlich sind die Zeitungen der vergangenen Tage gepflaster:
 

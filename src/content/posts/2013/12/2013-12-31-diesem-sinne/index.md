@@ -10,5 +10,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ... wir lesen uns im nächsten Jahr wieder.

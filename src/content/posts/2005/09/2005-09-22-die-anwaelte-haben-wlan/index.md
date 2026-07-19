@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern sprach mich der [Anwalt von gegenüber][1] auf der Toilette an, ob ich ihm nicht mal was erklären könne. Klar konnte ich das. Auch wenn ich nicht unbedingt darauf stehe beim Urinieren angequatscht zu werden. Man ist da manchmal eigen. Andere rauchen, manche singen, einige rezitieren Benn, ich schweige. Er suchte nach Worten und meinte dann, ich solle mal mit in sein Office kommen, es ist besser wenn er _es_ mir zeigt. _Es_. Soso.
 

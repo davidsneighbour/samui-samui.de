@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die [Ergebnisse][1] stehen fest, die Peoples Power Partei ist "der gro?e Gewinner" der Wahlen. <span class="caps">PPP</span> hat 233 Plätze im Parlament abgeräumt und die Demokraten nur 165. Das ist allerdings keine überwältigende Mehrheit, weshalb man nun [auf der Suche nach Koalitionspartnern][2] ist, auf dass die Demokraten mit ihrem angestammten Oppositionsplatz nichts mehr als reine Zahlen in den Abstimmungen seien...
 

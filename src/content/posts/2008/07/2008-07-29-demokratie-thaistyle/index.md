@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Das folgende Video zeigt, wie ungefähr 50% der Thais ihr Recht auf Meinungsfreiheit interpretieren.
 

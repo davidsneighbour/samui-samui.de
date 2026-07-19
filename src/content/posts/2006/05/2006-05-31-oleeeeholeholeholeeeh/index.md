@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Demnächst scheint man in Deutschland häufiger Fussball&trade; zu spielen. Hier in Thailand ist man trotz Nichtteilnahme sehr daran interessiert und überträgt natürlich alle Spiele live (und in Farbe). Die Zeiten sind natürlich optimal für die Expats hier. Ich kann mir schwer vorstellen, dass in Deutschland 15 Uhr jemand Zeit findet, Bälle getreten zu sehen ;)
 

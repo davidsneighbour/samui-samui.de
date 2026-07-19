@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Unsere Prime Ministress Yingluck Shinawatra ist in diesen Tagen auf Antrittsbesuchen rund um den südostasiatischen Erdball herum. Vor ein paar Tagen war sie wohl in Brunei, heute landete sie in Indonesien, am Ende der Woche wird sie in Cambodia und Laos erwartet.
 

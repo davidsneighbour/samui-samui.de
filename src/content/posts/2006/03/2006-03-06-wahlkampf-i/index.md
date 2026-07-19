@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Der Wahlkampf hat begonnen und hier ist Thaksins Antwort auf seine Kritiker][1]. Er macht sich heute übrigens auf in den Norden. In den Dörfern ist man Pro-Thaksin, die Taxi-Fahrer sind Pro-Thaksin (warum, muss ich noch rausfinden), Studenten sind Contra-Thaksin, Barbesitzer auch.
 

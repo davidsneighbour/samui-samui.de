@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 "Is finish! Is finish!" rief mir heute der Tankstellen-Thai entgegen, als ich mit meinem durstigen Moped in die Auffüllstation um die Ecke einbog. Irgendwie haben die immer kein Benzin, wenn ich vorbei komme. Andererseits: Angeblich ist ja das Benzin so teuer, dass die Leute weniger fahren und tanken. Warum also werden die Tanks an der Tanke leer frage ich mich...
 

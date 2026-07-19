@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es sieht so aus, als ob ich tatsächlich heute Abend das weltweite Internetz aus meiner kleinen Hütte heraus besuchen kann.
 

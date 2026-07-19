@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man ist in Bangkok ziemlich schnell mit dem Finden der Schuldigen der Bombenanschläge von heute Abend und hat die "[Old-Power-Clique][1]" ausgemacht. [Thai Rak Thai hat gleich darauf geantwortet][2] und gesagt, dass sie nicht dahinter stecken und es ebensogut die Militanten aus dem Süden sein können. Getretene Hunde bellen.
 

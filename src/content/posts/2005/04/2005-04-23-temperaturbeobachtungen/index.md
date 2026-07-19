@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern habe ich mir bei Tesko mal eine Digitaluhr gekauft. Nicht wegen der Zeitanzeige, die ist hier uninteressant und sowieso relativ. Sondern wegen der Temperaturanzeige. Die Uhr hat auch ein Pendel Sehr sinnvolles Gimmick für eine Digitaluhr. Naja. Gekostet hat sie übrigens knapp einen Euro. Witzige Sache das.
 

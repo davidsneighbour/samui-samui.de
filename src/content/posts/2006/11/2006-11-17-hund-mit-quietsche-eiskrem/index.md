@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/299297141/" title="Pokki, 1st birthday"><img src="//static.flickr.com/101/299297141_5b522cc442.jpg" alt="Pokki, 1st birthday" /></a></p>

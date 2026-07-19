@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 General Sonthi Boonyaratkalin, ehemaliger Armeechef und Putschführer des am nächsten zurückliegenden Putsches, hat heute [seinen ersten Arbeitstag][1] als --- genau --- "Deputy Prime Minister in charge of security". Also so ein kleiner thailändischer Schäuble.
 

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eigentlich denke ich ja, dass der Thai gemeinhin recht ironieresistent ist, aber bei dieser Kampagne hier konnten sich sicher ein paar der Marketingmenschen bei AirAsia das Grinsen nicht ganz verkneifen:
 

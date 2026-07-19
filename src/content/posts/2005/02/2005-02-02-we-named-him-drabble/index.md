@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Unser Neuer war bis heute Morgen noch namenlos. Aber wir haben eine Strategie (was wären wir ohne Strategie). Die Kisten werden jetzt nach Comicfiguren benannt. Und nicht nach irgendwelchen döddeligen Everydayfiguren. Nein.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In der "The Nation":<http://www.nationmultimedia.com/breakingnews/read.php?newsid=30091180> stehts (das sind die, die journalistisch gegen Thaksin sind und immer Ahnung haben): "DAAD to rally at Sanam Luang for 3 days":<http://www.nationmultimedia.com/breakingnews/read.php?newsid=30091180>
 

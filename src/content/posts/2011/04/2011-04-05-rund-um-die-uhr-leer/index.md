@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die 7elevens auf der Insel sind auch heute (6 Tage nachdem die Fähren wieder fahren) noch leer. Hin und wieder bringen die Bäcker auf der Insel brotähnliche Produkte, alle anderen Regale sind absolut leer. Entweder steht deren Logistikcenter auf dem Festland unter Wasser oder sie haben ein sehr unflexibles Auslieferungssystem (Donnerstags steht der Truck vor der Tür).
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Heute vor 10 Jahren][1] kam es zur bisher grö?ten [Finanzkrise in Südostasien][2]. In Thailand meldeten 6 Banken und 56 Finanzinstitute Konkurs an.
 

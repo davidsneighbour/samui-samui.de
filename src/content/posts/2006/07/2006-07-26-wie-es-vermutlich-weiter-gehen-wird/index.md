@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 **Sagen Sie möglichst neutral "So, ab heute trennen sich unsere Wege"**
 

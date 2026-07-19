@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Am Sonntag sind Wahlen (yeah!!!11Eins) und Thailand wird von den Gewinnern in eine rosige Zukunft geführt. Ist ja logisch, von manchen Stellen aus kann es nur noch bergauf gehen, denkt man.
 

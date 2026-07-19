@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Hmmm][1]. Gleich mal einen Mopedausflug fürs Wochenende planen.
 

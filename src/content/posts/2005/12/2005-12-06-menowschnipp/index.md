@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="455" src="//static.flickr.com/18/70791144_617df2e83a.jpg" alt="Me now. Schnipp." />][1]
 

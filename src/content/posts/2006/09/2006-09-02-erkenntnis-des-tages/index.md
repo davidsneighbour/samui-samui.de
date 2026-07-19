@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Sonnenaufgangsphotographie an Stellen die nach Osten durch Berge verstellt sind lohnt nicht.

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wenn der Thailehrer nicht kommt, muss man sich eben selbst ein bisschen Thai beibringen. <span class="thai">Thung</span> heisst Sack oder Beutel. <span class="thai">Thung Thaow</span> heisst <del>Strumpfhose</del> Socke und <span class="thai">Thung Yaow</span> heißt Strumpfhose.
 

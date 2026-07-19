@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5174922145/" title="5 years old"><img src="//farm5.static.flickr.com/4107/5174922145_cecf419904_z_d.jpg" alt="5 years old" /></p>

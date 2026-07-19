@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/247872022/" title="The morning after"><img src="//static.flickr.com/80/247872022_237eb1dc9a.jpg" alt="The morning after" /></a></p>

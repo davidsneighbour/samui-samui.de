@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <txp:gho_permalink id="962">Eben noch berichtete ich</txp:gho_permalink>, dass Surakiart aus Thai Rak Thai ausgetreten ist. Die Meldungen über Austritte allerdings explodierten in den letzten Stunden:
 

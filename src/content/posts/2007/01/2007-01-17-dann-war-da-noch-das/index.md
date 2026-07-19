@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich bin übrigens wieder "da" (seit gut drei Stunden). In meinem Januar-Heim. Also nicht zuhause aber so halb. Bericht folgt. Ich versuche das diesmal ein bisschen angenehmer lesbar aufzuarbeiten. Gebt mir eine Woche.

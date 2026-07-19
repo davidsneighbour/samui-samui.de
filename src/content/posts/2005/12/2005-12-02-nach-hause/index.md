@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Gegen Sechs][1] solls heute weniger regnen. Tolle Sache. Ich bereite mal Projekt Heimschwimmen vor. Mich hört man dann wieder am Dienstag. Montag ist Feiertag. Und an Feiertagen arbeitet man nicht. Morgen ist Putztag und an Putztagen komm ich nicht. Und am Sonntag ist die Klimaanlage nicht an.
 

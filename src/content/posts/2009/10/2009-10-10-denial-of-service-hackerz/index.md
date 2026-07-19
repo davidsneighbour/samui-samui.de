@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man will uns gerade bei der The Nation klar machen, dass die Daten von 1000 Studenten bei [einer 'koordinierten denial of service'-Attacke gestohlen worden][1].
 

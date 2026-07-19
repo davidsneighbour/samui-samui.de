@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Yes! I did it. And I have no fear to admit it. Yesterday I bought a dvd-player capable of a lot of formats.
 

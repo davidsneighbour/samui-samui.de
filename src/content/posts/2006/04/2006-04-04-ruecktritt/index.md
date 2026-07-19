@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich glaube, Thaksin Shinawatra ist gerade zurückgetreten. So genau ist das nicht zu verstehen gewesen. Mehr später.
 

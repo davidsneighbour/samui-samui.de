@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Bangkok und anderen Farangansammlungen in Thailand fallen immer mal wieder Menschen von Dächern und aus Fenstern. Die stürzen sich nicht runter, sie werden nicht gesto?en, sie fallen. So wie mein Haus damals nicht ausgeraubt wurde sondern ich meine Sachen "verloren" habe.
 

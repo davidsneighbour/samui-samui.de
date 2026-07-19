@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Mein kleines Mobiltelefon erinnerte mich heute morgen mit flimmernden Bildschirm (ist das nicht interessant, dass Nokia-Handys bei mir eine Haltbarkeit von rund drei Monaten haben?) daran, dass in Thailand die Neujahrs-Saison begonnen hat. Offiziell feiern wir dreimal Neujahr. Inoffiziell sind es (aus persönlichen Gründen) einige mehr.
 

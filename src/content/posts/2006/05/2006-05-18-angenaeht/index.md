@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der "Da Vinci Code" darf nun doch ungeschnitten aufgeführt werden.
 

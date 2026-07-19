@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich: Boah! Thats boring! She cries since 20 minutes and they play that stupid song all the time. We know now that she is unhappy. They can make a sequel where she is crying. What happens? She cries and cries. Thats so boring my brain hurts! Argh!
 

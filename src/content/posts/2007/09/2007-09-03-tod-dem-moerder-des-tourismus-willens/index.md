@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der Mörder der beiden Russinnen in Pattaya, die definitiv keine Prostituierten waren ist nun [zum Tode verurteilt][1] worden. Weil er dem Tourismus-Image der Nation geschadet hat.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thaksin reist mal wieder. <txp:gho_permalink id="1007">Nachdem er in China gesichtet wurde</txp:gho_permalink>, sah man ihn vergangene Woche beim Händchenhalten und Shopping mit seiner Frau in Hong Kong und nun macht er [Urlaub auf Bali][1]. Hat ganz den Anschein, als ob er in London nicht so gerne gesehen wird wie er es gerne haben würde.
 

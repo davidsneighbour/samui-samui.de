@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Mit [Government requests][1] bietet Google jetzt ein Tool an, mit dem man nachsehen kann, welche Länder oder besser gesagt deren Regierungen Anfragen an Google gestellt haben. Löschanfragen und Datenanfragen um genau zu sein.
 

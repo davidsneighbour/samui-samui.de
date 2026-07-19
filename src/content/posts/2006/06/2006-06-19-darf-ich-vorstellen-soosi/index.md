@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/170175155/" title="Soosi"><img src="//static.flickr.com/46/170175155_98f9f5707e.jpg" alt="Soosi" /></a></p>

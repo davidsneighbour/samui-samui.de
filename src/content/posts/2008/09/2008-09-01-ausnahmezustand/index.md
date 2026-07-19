@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [In Bangkok wurde nach den Ausschreitungen heute Nacht der Ausnahmezustand verhängt][1].
 

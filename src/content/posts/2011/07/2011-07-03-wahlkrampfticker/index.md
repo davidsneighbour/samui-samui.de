@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thailand hat gewählt --- erwartungsgemä?. Wie schön, dass die neue Regierung "reconciliation", also Versöhnung, will --- dumm nur, dass da der Name Shinawatra mit drinnen hängt und die Versöhnung einen Preis hat.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Channel 5 ist der Kanal der Stunde. Der Militärkanal. Dort läuft das Originalband, das auf allen anderen Kanälen mit ein paar Sekunden Verzögerung kommt. Der Chef von Channel 9 (Thaksintreu) soll "abgeführt" worden sein, nachdem man einen Internetbroadcast von Thaksin aus New York brachte, in dem er den Ausnahmezustand erklärte. Er will morgen zurück kehren um hier aufzuräumen. Sagt er.
 

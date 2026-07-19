@@ -17,6 +17,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thailand wäre nicht Thailand, wenn [die Geburt von Sechslingen][1] in der vergangenen Woche (die ersten Sechslinge, die in Thailand geboren wurden, wie andersorten auch mit etwas Nachhilfe) nicht mit einem dieser merkwürdigen Nebensätze versehen worden wäre:
 

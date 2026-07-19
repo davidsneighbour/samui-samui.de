@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Am Sonntag wird gewählt: In Thailand darf das Volk (erstmals per Referendum) entscheiden, ob der Entwurf einer neuen Verfassung angenommen wird oder nicht.
 

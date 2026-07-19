@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wer nun hoffte, hier einen tiefen einsichtigen Eintrag zu meiner Adoleszenz zu lesen, der sei versichert: Wenn die Hölle zufriert. Beides, Adoleszenz und Eintrag.
 

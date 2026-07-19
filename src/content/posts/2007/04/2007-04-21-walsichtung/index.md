@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Meine Quellen berichten, im Angthon National Park (das Inselparadies hier um die Ecke) würde ein Wal mit Walbaby sein Wesen treiben. Genauer gesagt gibt es Sichtungen bei Ko Tao. Da Babies nur mit Müttern rumschwimmen ist es natürlich ein Walweibchen.
 

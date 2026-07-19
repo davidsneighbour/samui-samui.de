@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3235770457/" title="Its not a question of size"><img src="//farm4.static.flickr.com/3467/3235770457_1612ae9d06.jpg" alt="Its not a question of size" /></a></p>

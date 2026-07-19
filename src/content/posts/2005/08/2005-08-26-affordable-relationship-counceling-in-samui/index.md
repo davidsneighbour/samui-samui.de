@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Unter der titelgebenden Überschrift findet sich im Community Newspaper (ein Versuch den Glanz meines Lieblingsmagazins auf der Insel auch auf normalem Zeitungspapier einmal monatlich unter die Leute zu bringen) eine sehr ansprechende Anzeige im Classifieds-Bereich, die ich dem geneigten Leser nicht unkommentiert vorenthalten möchte:
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/304961268/" title="ameisen (ants)"><img src="//static.flickr.com/119/304961268_6255c63cc8.jpg" alt="ameisen (ants)" /></a></p>

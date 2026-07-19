@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/105678055/" title="Fresh and clean."><img src="//static.flickr.com/47/105678055_c324fc3243.jpg" alt="Fresh and clean." /></a></p>

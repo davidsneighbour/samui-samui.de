@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Kohls Mädel (Bangkok Post) wurde gestern das Ruder in die Hand gegeben und ich habe eben meine Abmeldung ans Einwohnermeldeamt in Lübeck gefaxt (ein Schelm wer da einen Zusammenhang sieht). Man ist jetzt in Maenam gemeldet. Bin gespannt wie flexibel die sind mit so einem Faxkram. Hab noch schnell ein Anschreiben dazugedichtet und sexuelle Gefälligkeiten bei bevorzugter Behandlung versprochen.
 

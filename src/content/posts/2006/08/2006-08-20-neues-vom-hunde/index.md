@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/219753950/" title="The brace"><img src="//static.flickr.com/70/219753950_6b4ec0fbce.jpg" alt="The brace" /></a></p>

@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wenn es im Monat November mehr Kommentare als Einträge gibt, schreibe ich weiter wertvollen interessanten Content. Wenn nicht, dann schreib ich analoges Tagebuch.

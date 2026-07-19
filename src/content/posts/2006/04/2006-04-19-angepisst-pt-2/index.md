@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Angepisst ist man, wenn man den ganzen Nachmittag mit dem Gie?en der Begrünung des IT-Centres zugebracht hat (wie unser kleiner Garten-Thai) und es dann heftigst regnet (wie jetzt gerade).

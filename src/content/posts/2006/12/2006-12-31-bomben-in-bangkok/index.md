@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Bisher 7 Bomben (das war vor wenigen Minuten noch nur 4) [wurden vor einer Stunde in Bangkok simultan gezündet][1]. Getötet wurden 2 Menschen, verletzt mehr als 20.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich entsinne mich schwach, dass das Times-Magazin eines Tages einmal aus Versehen Nachrufe auf noch lebende Personen veröffentlichte. [Gleiches passierte heute der Nation][1].
 

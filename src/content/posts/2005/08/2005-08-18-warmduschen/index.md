@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 1 Stunde nachdem ich mein Haus bezahlt hatte rief mich Kiew (man spricht das etwa Kiiiechähooooh, mit leichtem Katzenfauchen beim ch) meine Vermieterin an und meinte, dass ihr gerade eingefallen wäre, dass ich kein Warmwasser im Bad hätte. Nun, das ist kein Problem für mich, weil ich eigentlich nicht warm dusche ;) Jedenfalls einigten wir uns darauf, dass ihr Bruder (Landkeeper unserer kleinen Bergsiedlung) das am Samstag erledigen würde. Diesen Samstag. Also übermorgen.
 

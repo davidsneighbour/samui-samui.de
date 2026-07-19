@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ?brigens bin ich wieder da. Auf meiner Insel. Zuhause (da wo ich Miete zahle).
 

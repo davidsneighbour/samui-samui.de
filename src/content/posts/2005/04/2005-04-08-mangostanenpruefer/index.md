@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Titelgebende Bezeichnung kann ich mir nun geben, denn ich wei? nun, wie man Mangostanen auf Qualität prüft. Aber fangen wir am Anfang an.
 

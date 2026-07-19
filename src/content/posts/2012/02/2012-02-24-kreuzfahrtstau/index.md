@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media photo image">
   <a href="http://www.flickr.com/photos/schreibblogade/6779080988/" title="Cruise traffic jam by Patrick Kollitsch, on Flickr"><img src="//farm8.staticflickr.com/7178/6779080988_3db3043249_z.jpg" alt="Cruise traffic jam" /></a></p>

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="455" src="//static.flickr.com/29/68119089_39efb01f17.jpg" alt="End of time" />][1]
 

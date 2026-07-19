@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thailand steht bei den Briten an der ersten Position wenn es um Un-, Über- und andere ungünstige Fälle geht die im Urlaub auftreten können.
 

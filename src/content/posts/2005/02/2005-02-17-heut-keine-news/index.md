@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Moin, heut keine News. Die neuen Rechner sind da. Muss... installieren... Software... und... Wlan... Fotos folgen natürlich ;)
 

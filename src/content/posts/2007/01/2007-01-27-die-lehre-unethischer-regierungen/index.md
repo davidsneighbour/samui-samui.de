@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 General Prem Tinsulanonda, der Vorsitzende des Geheimrats (Privy Council) Seiner Majestät König Bhumibol Adulyadejs, spricht erstens nur öffentlich, wenn es gehört werden soll und zweitens nur indirekt und in Bildern. Das habe ich ja schon erzählt. Durch seine Nähe zum König geht man im Allgemeinen davon aus, dass was er sagt auch die Meinung des Königs ist. Ein praktisches Instrument.
 

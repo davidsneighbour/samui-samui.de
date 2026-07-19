@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/304971824/" title="Fu"><img src="//static.flickr.com/104/304971824_9eb5ce7f16.jpg" alt="Fu" /></a></p>

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es ist Montag, ich falle aus dem Bett (jeden Montag falle ich aus dem Bett, weil "manche Leute" gerade Montags mit viel Elan in die neue Woche gehen und mir meinen Schönheitsschlaf (und wer mich kennt weiß, dass ich ihn dringend benötige) nicht gönnen.
 

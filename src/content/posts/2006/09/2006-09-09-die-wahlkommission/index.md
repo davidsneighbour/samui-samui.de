@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern wurde [die neue Election Commission][1] gewählt. Für die Bekanntgabe der Ergebnisse wurde sogar meine Thaisoap unterbrochen:
 

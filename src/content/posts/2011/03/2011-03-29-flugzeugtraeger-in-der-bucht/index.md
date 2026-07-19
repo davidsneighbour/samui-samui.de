@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Und auch die Deutsche Botschaft schreibt schon einen Rundbrief wegen des Wetters:
 

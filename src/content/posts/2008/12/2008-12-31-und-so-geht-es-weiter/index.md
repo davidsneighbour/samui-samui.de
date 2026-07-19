@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Willkommen im Jahre 2552. Buddhistischer Zeitrechnung natürlich. Es wurde auch Zeit, das alte Jahr hat genug Schaden angerichtet. Jetzt kann es eigentlich nur noch besser werden. Man liest sich...

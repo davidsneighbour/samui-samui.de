@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Das Kabinett von General Surayud Chulanont steht und ist vom König bestätigt worden.
 

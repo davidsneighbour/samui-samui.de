@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nur wenige Sekunden des neuen Jahres waren vergangen, da stand ein "Pub" (je nach Medienbericht ist es mal ein Pub oder ein Club) in Bangkok in Flammen. Es gab vier Ausgänge, einer davon war den Besuchern bekannt. Es war eine kleine Tür. Die Toiletten hatten nur eine kleine Treppe als Zugang, da kam keiner lebend raus. Im Pub selbst gab es jede Menge brennbarer Materialien, so dass nach wenigen Minuten das gesamte dreistöckige Gebäude in Flammen stand. Die Bilanz bisher: 62 Tote.
 

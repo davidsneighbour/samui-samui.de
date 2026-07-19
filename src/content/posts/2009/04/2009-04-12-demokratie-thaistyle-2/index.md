@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nach Pattaya gestern wurde heute [in Bangkok und 5 weiteren Provinzen][1] der Ausnahmezustand ausgerufen.
 

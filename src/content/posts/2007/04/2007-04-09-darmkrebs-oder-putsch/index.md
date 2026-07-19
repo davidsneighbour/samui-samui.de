@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute morgen munkelte man vom Gegenputsch. Wieder einmal. Bestätigend kam diesmal hinzu, dass Premierminister Surayudh unerwartet alle Termine für heute absagte. Alle beteiligten Parteien waren schnell wieder am Bestätigen, dass von Gegenputsch keine Rede sein kann und Surayudh auch definitiv nicht zurück tritt oder vom Nationalen Sicherheitskomitee wegen schlechter Leistungen und Uneinsichtigkeit hinsichtlich des vom Komitee geforderten Ausnahmezustands wegen der Gegendemonstrationen eingesackt wurde.
 

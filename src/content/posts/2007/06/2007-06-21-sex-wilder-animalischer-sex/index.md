@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die vergangene Nacht war ziemlich hitzig in unserem kleinen Haus. Soosie hat es nun endlich geschafft, flügge zu werden und macht die Hunde der Umgebung verrückt. Ungefähr eine Woche blutete sie vor sich hin, nun ist sie hei?.
 

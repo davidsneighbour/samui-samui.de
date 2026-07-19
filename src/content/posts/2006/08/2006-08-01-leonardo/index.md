@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der Spruch des Tages geht für mich heute an Fu, sie meinte eben:
 

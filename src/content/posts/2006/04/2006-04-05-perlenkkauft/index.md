@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/123562170/" title="Nathon Street Life"><img src="//static.flickr.com/40/123562170_64f2a17e61.jpg" alt="Nathon Street Life" /></a></p>

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Chatten auf Thai ist schwierig. Abgesehen vom Vokabular muss man zum einen zwischen bis zu fünf Transskriptionssystemen wählen (wenn man die Rough-Guide und Lonely-Planet Schreibweisen noch dazu nimmt sinds sieben). Da wird dann schnell mal aus einem "phut paasa thai" (Sprichst du Thai?) im royal transkription systeme ein "poot pasa thai" in einer der eingeenglischten Formen. Da hilft alles nichts. Laut mitlesen und hoffen, dass man auf den Sinn kommt.
 

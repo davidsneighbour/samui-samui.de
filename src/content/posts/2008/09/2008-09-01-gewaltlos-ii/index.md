@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Auf allen Thaikanälen sieht man derzeit Live-Bilder von <span class="caps">PAD</span>-"Demonstranten", die friedfertig mit Eisenstangen und Elektroschockern auf Gegendemonstranten ein-"wirken". Würde mich nicht wundern, wenn wir morgen früh mit einer Armee-Regierung aufwachen.
 

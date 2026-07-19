@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute druckste Fu den ganzen Abend herum und rückte dann nach einer Weile heraus, mit ihrem Buddha-Anhänger. Von ihrem Bruder geschenkt, gefertigt in einem Wat in Phrae und glücksbringend. "You know that!". Ein von meinem schrägen Humor unantastbares Symbol.
 

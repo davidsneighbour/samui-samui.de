@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich weiss, so langsam verkommen diese Seiten hier zu einem "wer ist auf Samui"-Magazin --- was solls...
 

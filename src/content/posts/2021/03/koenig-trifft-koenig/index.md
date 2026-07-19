@@ -21,6 +21,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
+cover:
+  type: image
+  src: king-meets-king.jpg
+  caption: Da! König trifft den King.
 ---
 
 <dnb-youtube videoid="zl0PwLvFM7U"></dnb-youtube>

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich habe gerade festgestellt, dass die meisten Suchenden mit einschlägigen Suchbegriffen in der Mitte des _vergangenen Jahres_&trade; landen. Dem muss natürlich entgegengewirkt werden.
 

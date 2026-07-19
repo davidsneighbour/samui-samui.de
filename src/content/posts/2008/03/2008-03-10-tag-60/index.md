@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2324678818/" title="Day 60"><img src="//farm3.static.flickr.com/2283/2324678818_9dcac07027.jpg" alt="Day 60" /></a></p>

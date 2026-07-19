@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ca. 300 Thais sind im letzten Monat aus dem Süden in unsere Provinz gezogen. Heute steht in der [The Nation Online][1]:
 

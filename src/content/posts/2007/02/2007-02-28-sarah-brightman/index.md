@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 UBC (oh, ah, warte, es hei?t jetzt true Visions) ist sowas wie premiere für Arme. Also das premiere von vor drei Jahren, was Anderes kenne ich ja nicht. Auf thematischen Spartenkanälen werden nette "Hitserien" aus allen möglichen Ländern (nur nicht Deutschland, was uns _das_ wohl zu sagen hat) je nach Paket verschlüsselt oder unverschlüsselt ohne Werbeunterbrechung dreimal täglich ausgestrahlt, nur um dann die verbleibende Zeit bis zur nächsten vollen Stunde mit Eigenwerbung zu füllen. Darüber (UBC (oh, ah, warte, es hei?t jetzt true Visions)) wollte ich schon länger mal schreiben. Jaja. Die Zeit. Die normalen Thaikanäle gibt es natürlich auch noch.
 

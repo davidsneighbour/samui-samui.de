@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So. Manchmal muss man sich von Altlasten trennen. Ich hab mich heute von 15 Domains und den darunter schlummernden Projekten und Ideen getrennt. Ging schneller als ich dachte. Und vor allem so schmerzlos.
 

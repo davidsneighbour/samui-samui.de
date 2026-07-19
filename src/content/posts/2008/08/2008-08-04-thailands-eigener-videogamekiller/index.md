@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Endlich hat auch Thailand seinen eigenen Videogamekiller. Ein 19 Jahre alter Schüer wurde heute in einem Taxi aufgefunden, mit erstochenem Taxifahrer im Rücksitz. Er gab zu, von Grand Theft Auto "abhängig" zu sein und Töten im Spiel als einfach empfunden zu haben.
 

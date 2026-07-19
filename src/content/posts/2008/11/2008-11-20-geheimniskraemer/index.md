@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Pracha Prasopdee (eines der Führungsmitglieder der Peoples Power Partei, derzeit Regierungspartei Thailands) hat [was gesagt][1]:
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Neujahr und Unfälle sind ein Thema, das in Thailand sehr häufig in einem Satz gesagt wird. Sowohl zu Songkran als auch zum gregorianischen Jahreswechsel passieren die mit Abstand häufigsten Unfälle, meistens durch Alkohol am Steuer verursacht.
 

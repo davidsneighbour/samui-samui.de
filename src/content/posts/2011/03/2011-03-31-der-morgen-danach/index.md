@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5578594276/" title="Good Morning Samui"><img src="//farm6.static.flickr.com/5012/5578594276_9ee61df8a5_z.jpg" width="640" height="480" alt="Good Morning Samui" /></p>

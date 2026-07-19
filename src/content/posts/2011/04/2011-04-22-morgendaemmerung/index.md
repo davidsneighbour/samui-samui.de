@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="image media">
   <a href="http://www.flickr.com/photos/schreibblogade/5642994383/" title="Donsak in dust by Patrick Kollitsch, on Flickr"><img src="//farm6.static.flickr.com/5268/5642994383_b0f77d86e7_z.jpg" width="640" height="360" alt="Donsak in dust" /></a></p>

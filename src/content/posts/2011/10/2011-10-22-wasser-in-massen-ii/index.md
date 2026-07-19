@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Vor ein paar Tagen hat die Regierung "beschlossen", Bangkok "fluten zu lassen". So martialisch das klingt --- es hat mal wieder politische Gründe. Irgendein Berater hat unserer Prime Ministress schonend beigebracht, dass es seltsam aussieht, wenn man sich nur um die Bangkoker Bevölkerung sorgt und andere Landesteile derweil künstlich unter Wasser gesetzt werden, nur damit Bangkok trocken bleibt. Und so steigt das Wasser nun auch in Bangkok unter der Massgabe "Bangkok muss einen Teil der Fluten mit tragen".
 

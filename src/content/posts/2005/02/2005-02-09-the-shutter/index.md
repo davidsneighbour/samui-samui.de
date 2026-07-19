@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern habe ich dann endlich meinen Thai-Film angesehen. Nicht zu fassen, es ist ein solider kleiner Horrorthriller. Freundlicherweise war ganz kurz der Titel im Vorspann auf Englisch zu erkennen, so dass ich [diese überaus informative Seite zum Film][1] namens "Shutter" verlinken kann ;)
 

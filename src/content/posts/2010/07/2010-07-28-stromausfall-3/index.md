@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Stromausfälle sind hier auf Samui an der Tagesordnung. Ganz normal. Alltäglich. 3 Minuten nachdem der Strom ausfällt fängt es an zu regnen. ?ffnen neue Hotels, dann werden die auch einfach mal an die bestehenden Leitungen angeschlossen, ohne die Kapazitäten zu erhöhen. Seit das komische Ressort um die Ecke sich an unsere Versorgung hier angeschlossen hat ist täglich der Strom einzweimal weg. Man gewöhnt sich dran. Hat das Computerhirn des Hauses an einer Batterie hängen. Den Lüfter auch. Ohne Fernsehen kommt man gut ein paar Minuten aus. Da Regenzeit ist, lässt sich auch das Klima ertragen --- einfach ein bisschen vors Haus gehen. Die Hunde mögen auch im Dunkeln Gassi gehen.
 

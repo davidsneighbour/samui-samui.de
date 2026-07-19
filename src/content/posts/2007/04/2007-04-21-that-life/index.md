@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/466997652/"><img src="//farm1.static.flickr.com/194/466997652_56c1ffb5bd.jpg" class="flickr-photo" alt="" /></a></p>

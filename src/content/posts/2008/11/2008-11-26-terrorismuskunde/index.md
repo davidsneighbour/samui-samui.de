@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ?brigens finde ich es Klasse (jetzt mal natürlich nur rein aus terrorismuswissenschaftlicher Sicht geschrieben), dass mit der Flughafen-, ehm, -betriebseinschränkung durch die überaus friedfertigen gelben Demonstranten der <span class="caps">PAD</span> die Haupteinnahmequelle der thailändischen Wirtschaft (nein, nicht Reis, keine Pickups und schon gar die Marial Arts) --- die Touristen --- angegriffen werden.
 

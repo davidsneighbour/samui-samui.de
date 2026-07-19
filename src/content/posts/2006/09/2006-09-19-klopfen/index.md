@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Irgendwas ist im Busch. Die TV-Sender bringen entweder nur noch den König (die Thaisender, Propagandavideos die ich noch nie gesehen habe und alle 8 Sender bringen das gleiche, zeitgleich) oder nichts (alle anderen). Kurz vorher sms-te mir die Quelle noch, morgen passiere "etwas Großes" mit Thaksin.
 

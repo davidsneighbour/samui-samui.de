@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="455" src="//static.flickr.com/34/71090194_d208989eff.jpg" alt="Sneering Sun" />][1]
 

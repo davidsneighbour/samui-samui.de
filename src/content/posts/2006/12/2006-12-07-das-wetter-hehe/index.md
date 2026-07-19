@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/316215899/" title="wetter"><img src="//static.flickr.com/118/316215899_5addd9cda3.jpg" alt="wetter" /></a></p>

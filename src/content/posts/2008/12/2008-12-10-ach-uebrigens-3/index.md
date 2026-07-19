@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hab Ong Bak 2 am Samstag im Kino gesehen. Ehm. Ja. Nett. 10 Baht teurer, vier dümmliche Farangs mit ihren Urlaubs-begleit-ungen im Publikum, volles Kino, viel Gekloppe, interessante Handlung, netter Bodyguard (dazu später mal mehr &trade;) und, ehm, wie gesagt... Naja...
 

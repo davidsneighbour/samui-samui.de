@@ -11,6 +11,7 @@ interface Props {
   figureClass?: string;
   imageClass?: string;
   sizes?: string;
+  videoClass?: string;
 }
 
 const {
@@ -20,6 +21,7 @@ const {
   figureClass = 'm-0',
   imageClass = 'block h-auto w-full',
   sizes = '(min-width: 896px) 896px, 100vw',
+  videoClass = imageClass,
 } = Astro.props as Props;
 
 const loading = eager ? 'eager' : 'lazy';
@@ -55,7 +57,7 @@ const loading = eager ? 'eager' : 'lazy';
       params={cover.params}
       autoload={cover.autoload}
       autoplay={cover.autoplay}
-      class={imageClass}
+      class={videoClass}
     />
   )}
   {cover.type === 'vimeo' && (
@@ -66,7 +68,7 @@ const loading = eager ? 'eager' : 'lazy';
       hash={cover.hash}
       autoload={cover.autoload}
       autoplay={cover.autoplay}
-      class={imageClass}
+      class={videoClass}
     />
   )}
   {cover.caption && <figcaption class={captionClass}>{cover.caption}</figcaption>}

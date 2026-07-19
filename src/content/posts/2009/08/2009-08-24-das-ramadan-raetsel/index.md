@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der Islam ist eine geheimnisvolle Religion. Vergangene Woche begannen gegen Mittwoch verschiedene muslimische Freunde, mich zu fragen, wann denn dieses Jahr Ramadan beginnt.
 

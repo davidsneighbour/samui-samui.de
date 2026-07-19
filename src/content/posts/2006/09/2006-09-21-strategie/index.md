@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Das <span class="caps">ARC</span> behält seine Strategie, wichtige und eventuell Aufruhr erzeugende Erlässe in der Nacht zu präsentieren, bei. Einerseits bekommen so weniger Menschen mit, was passiert und die Wahrscheinlichkeit für Aufruhr sink und andererseits bekommen jene, die die Erlasse betreffen es schwerer mit.
 

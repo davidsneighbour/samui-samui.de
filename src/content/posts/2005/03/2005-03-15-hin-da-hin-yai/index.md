@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hier ist er also, der erste wahre Eintrag zum Thema Sex! Edukativ und informativ! Ich war am Sonntag auf Lerntour. Vergessen wir kurz die Porno-Hütte und wenden wir uns den angenehmeren Dingen des Lebens zu. Zum Beispiel Kartoffeln, die amerikanischen Präsidenten ähnlich sehen. Oder Wolken, die wie Tiere aussehen. Erdnussflips in der Form von Früchten. Oder Toastbrote mit Mutter Theresa in der Butterecke.
 

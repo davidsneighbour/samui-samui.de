@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So langsam scheint es mir, dass ich doch auf einer zu kleinen Insel lebe. Gestern bei Tesko hab ich jede Menge Leute gesehen, die ich schon öfter vorher gesehen habe. Einen Typen hab ich ganz am Anfang meines Einkaufbesuchs gesehen und dann die ganze Zeit überlegt, wer das wohl sein mag. Am Ende wusste ich es. Das war der Mensch, der dieses wunderbare Passphoto auf der rechten Seite gemacht hat. Ist also doch recht klein, die Insel.

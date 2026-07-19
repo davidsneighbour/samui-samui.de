@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Der neue Flughafen in Bangkok, Suvarnabhumi, wird eine eigenständige Provinz Thailands][1]. Das ist die Nachricht des Tages für mich. Ich lass das mal so stehen. Ohne Kommentar. Der Flughafen ist ja ein Thema für sich. Sicherlich werden wir alle sehr stolz auf ihn sein, wenn er denn mal öffnet. Ist gleich in der Nähe von Bang Na, wo ich öfters mal verkehre.
 

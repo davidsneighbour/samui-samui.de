@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Zwei bewaffnete Räuber haben heute einen 7eleven in Bangkok ausgeraubt][1] und sage und schreibe 1.3 Millionen Baht erbeutet. Das muss man sich mal vorstellen. Um so viel Geld zu horten muss man 35.000 Flaschen Chang-Bier verkaufen.
 

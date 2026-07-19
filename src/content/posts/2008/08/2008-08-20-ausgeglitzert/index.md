@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Paul Francis Gadd, den die meisten meiner (sehr viel) älteren Leser wohl unter dem Namen [Gary Glitter][1] kennen, wurde in dieser Woche aus einem vietnamesischen Gefängnis entlassen und [sitzt nun in Thailand auf Subvarnabhumi, dem internationalen Flughafen fest][2], weil er sich weigert, nach Gro?britanien weiter zu reisen und die Thais ihn nicht im Lande wollen.
 

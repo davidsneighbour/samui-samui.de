@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <img src="//samui-samui.de/images/244.jpg" width="279" height="344" style="float:left;margin-right:10px;" />Endlich wieder einmal eine Beauty-Queen aus Thailand. Tanyarat Jirapatpakon wurde am Sonntag zur [Miss International Queen 2007][1] gekührt.
 

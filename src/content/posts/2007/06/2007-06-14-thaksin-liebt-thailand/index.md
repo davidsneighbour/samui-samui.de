@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute abend (21 Uhr Bangkokzeit) wird Thaksin "über eine Webcam" mit ihn unterstützenden Demonstranten sprechen. Geblockt, zensiert, korrigiert, wie auch immer werden soll das nicht. Allerdings haben sich gleich mal die Sicherheits-Offiziellen in einer [Notsitzung][1] zusammen gesetzt.
 

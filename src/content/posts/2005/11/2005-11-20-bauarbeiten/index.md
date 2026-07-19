@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <del>Ich probier hier mal was aus, also nicht gleich Mammi holen, wenn was seltsam aussieht, ja?</del>
 

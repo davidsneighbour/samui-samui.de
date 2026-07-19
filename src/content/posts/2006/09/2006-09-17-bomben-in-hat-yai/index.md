@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Bei den Bombenanschlägen in Hat Yai gestern ist ein Farang, [ein Kanadier][1], getötet worden. Endlich. Sag ich mal ganz zynisch. Jetzt kann sich die Regierung nicht mehr hinter einem nur "nationalem" kleinen Problem verstecken. Und die internationale Presse wird sich vielleicht auch etwas intensiver mit den Problemen beschäftigen die in den verganenen zweieinhalb Jahren (?) bereits 1700 Tote gefordert haben.
 

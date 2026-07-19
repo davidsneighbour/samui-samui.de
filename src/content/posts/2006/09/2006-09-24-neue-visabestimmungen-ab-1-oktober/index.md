@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thailand hat die Visabestimmungen geändert. Diese Meldung erzeugte ein kleines bisschen Unruhe, auch _ich_ bin gefragt worden, ob mich das irgendwie betrifft. Tut es, dazu am Ende mehr. Zuerst einmal, was sich denn geändert hat und warum (wobei sich die Informationen in der Regel auf die drei deutschsprachigen Länder beziehen).
 

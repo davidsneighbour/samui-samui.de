@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 (Ich wollte schon immer mal reißerische und verfremdende Überschriften einsetzen)
 

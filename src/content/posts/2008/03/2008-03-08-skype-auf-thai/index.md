@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Skype][1] auf Thai? Das geht. Mit dem Sprachfile, das man [hier][2] downloaden kann. Vorsicht, es blinkt überall und jede Menge Banner versperren den Weg.
 

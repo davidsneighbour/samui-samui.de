@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thaksin hat heute seiner Partei [gefaxt][1], dass er vom Amt des Vorsitzenden der von ihm 1999 gegründeten Partei Thai Rak Thai zurückzieht. Die Schuld für die Spaltung im Lande hat er der Peoples Alliance for Democracy gegeben. Er empfiehlt der übrig gebliebenen Parteiführung, zurück zu treten.
 

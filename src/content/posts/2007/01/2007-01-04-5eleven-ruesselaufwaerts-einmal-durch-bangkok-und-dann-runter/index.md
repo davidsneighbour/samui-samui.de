@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So. Am Montag machte ich mich also frohgemut auf, um die kleine Insel (die mit den Palmen) gen Norden zu verlassen. Im Prinzip führen alle Wege in Thailand erstmal nach Bangkok, ehe man irgendwo anders hin kommt. Wenn man nicht gerade lokale Attraktionen bereisen will. Wollte ich nicht, also ab in den Bus nach Bangkok. Ich wurde in den 2.Klasse-Bus gesteckt weil ich irgendwie mein Ticket zu spät gelöst habe (der Bankautomat hat mir 2000 Baht gestohlen, als das Internet gestört war, Schweinerei, allerdings war mir dann auch lieb, dass ich nur in den 530er Bus durfte und nicht in den 850er Bus --- bahtmä?ig gesehen). Da wird man auch 2ter Klasse behandelt. Au?er einer filzigen Decke gegen die Klimaanlagenerkältung gabs nichts. ?ber mir im Gang war ein gro?es schwarzes Loch. Die Fähre war auch so verrostet, dass ich mir das erste Mal Gedanken machte, ob ich in Zukunft nicht andere Wege, derartige Inseln zu verlassen wählen sollte.
 

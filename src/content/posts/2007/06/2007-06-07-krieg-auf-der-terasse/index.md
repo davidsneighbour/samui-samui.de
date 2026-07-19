@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/534660409/" title="Photo Sharing"><img src="//farm2.static.flickr.com/1342/534660409_e737967e09.jpg" width="500" height="375" alt="War!" /></a></p>

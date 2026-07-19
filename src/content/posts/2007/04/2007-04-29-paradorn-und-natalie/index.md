@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Natalie Glebova][1] war mal Miss Universum</a> und arbeitet derzeit als <a href="950">Brauereipferd und Appetizer in Thailand. [Paradorn Srichaphan][2] ist ein ehemals ziemlich erfolgreicher Tennis-Spieler, der es schon mal bis auf Platz neun der Weltrangliste gebracht hat und als einer der erfolgreichsten Thais gehandelt wird, derzeit aber eher durch Ausfälle in frühen Runden glänzt.
 

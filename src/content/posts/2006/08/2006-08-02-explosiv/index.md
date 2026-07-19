@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Im Süden gab es heute mal wieder eine koordinierte Bombenattacke. Zwischen 70 und 100 Bomben wurden in den drei südlichen Provinzen gezündet. Dabei wurden zwei bis drei Polizisten getötet. So genau weiss man das noch nicht, weil informatives Chaos herrscht.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Soosie erinnert sich: Da müssen zwei Hunde beteiligt sein. Einer springt beim anderen drauf und dann wird rumgemacht. Dummerweise nur hat sie ein paar wichtige Details vergessen: hinten muss Pokki stehen und er muss hinten stehen.
 

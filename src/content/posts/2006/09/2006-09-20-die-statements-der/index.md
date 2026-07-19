@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Leaders of Thailand's military coup have released a series of statements. The initial statement and communiques 1 to 4 were read out on army television and a sixth statement appeared in English on the website of The Nation newspaper. The texts of the four statements follow:
 

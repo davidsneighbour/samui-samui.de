@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ganz im Trend der Infographiken ist bangkokbiznews.com mit diesen [Vorher-Nachher-Bildern][1] von den Fluten in den Provinzen Surat Thani (die beiden linken Graphiken) und Nakhon Sri Thammarat (die beiden rechten Graphiken).
 

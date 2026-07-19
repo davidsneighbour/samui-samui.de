@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Tatsächlich][1]. Eine Kochsendung hat ihn aus dem Premierministeramt gesto?en. Wie lustig.
 

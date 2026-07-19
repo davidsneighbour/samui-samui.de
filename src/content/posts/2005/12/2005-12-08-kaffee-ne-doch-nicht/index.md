@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich vermute, dass der nächste Wasserkocher in unserem gemütlichen Großraumbüro einer sein wird, der sich von selbst abschaltet.

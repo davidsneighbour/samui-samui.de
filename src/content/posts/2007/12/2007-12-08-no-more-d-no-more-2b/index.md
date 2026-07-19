@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Big ist tot. Big ist ein Drittel einer vor gut fünf Jahren noch sehr erfolgreichen thailändischen Boyband namens D2B und hie? eigentlich Parnrawat Kittikorncharoen. Die Boyband hie? D2B weil sie aus Dan, Big und Beam bestand. 2 B's und 1 D.
 

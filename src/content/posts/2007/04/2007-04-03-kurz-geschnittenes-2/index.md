@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Dienstags sitzt das Kabinett in Bangkok beim Kaffee und beschließt dies und das. Heute unter anderem Folgendes:
 

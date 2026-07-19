@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hin und wieder wurde ich in den vergangenen Tagen gefragt, warum ich nichts über Rayong, meinen Aufenthaltsort im Januar, schreiben würde.
 

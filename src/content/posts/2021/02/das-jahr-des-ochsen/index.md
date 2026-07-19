@@ -25,6 +25,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 ![Lunar New Year Vietnam --- &copy; google.com](./gallery/lunar-new-year-2021-vietnam-6753651837108859-2x.png)

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wahlkampf Thaistyle: Surapong Towichakchaikul, ein Kandidat für die People's Power Partei (<span class="caps">PPP</span>), kam zur Registrierung als Kandidat für Chiang Mai gestern [mit Thaksinmaske][1].
 

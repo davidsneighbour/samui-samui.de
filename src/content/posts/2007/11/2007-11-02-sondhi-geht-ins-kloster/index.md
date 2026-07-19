@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Sondhi --- Leute die vor zwei Jahren diese Seiten schon mal aus der Ferne betrachtet haben werden sich erinnern, dass das der "Medienmogul" ist, der am lautesten auf den Demonstrationen gegen Thaksin, damals seines Zeichens Premierminister von Thailand und Ex-bester Freund von Sondhi, parliert hat --- Limthongkul wird in der kommenden Woche [ins Kloster gehen][1].
 

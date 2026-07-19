@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es nörgelten zu viele über meine wirklich schönen und sorgfältig ausgewählten Farben. Also hab ich das mal geändert. Natürlich nicht hier ;)
 

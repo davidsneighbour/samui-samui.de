@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Jawohl! Es ist April. Mit 4 Feiertagen der arbeitstechnisch ertragreichste Monat unseres kleinen Unternehmens. Morgen nun ist der erste Feiertag: Der Chakri Tag (Chakri Day). An diesem Tag pflegt der gewönliche Thailänder der Chakri-Dynastie zu huldigen, die hier gerade seit 1782 (ratet an welchem Tag? Ja! Dem 6. April!) an der Macht ist. König Bhumibol Aulyadej der Gro?e ist übrigens der neunte König der Chakri-Dynastie.
 

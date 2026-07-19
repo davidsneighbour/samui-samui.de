@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2283399135/" title="The thinker"><img src="//farm3.static.flickr.com/2310/2283399135_a37c43c56b.jpg" alt="The thinker" /></a></p>

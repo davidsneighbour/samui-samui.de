@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Am Donnerstag][1] werden im Parlament Vertreter aus 5 Religionen gleichzeitig (versucht <span class="caps">DAS</span> mal!) an einer "merit making"-Zeremonie teilnehmen (zumindest hätte die Regierung das gerne).
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute am späten Nachmittag hörte man zuerst aus der Umgebung meines Hauses eine Stimmenansammlung als ob 200 Meter entfernt eine öffentliche Übertragung eines Fussballspiels stattfand. Das währte nicht lange. Es kam zu einer Volumenerruption a la Golden Goal und dann verschiedenes Geschrei. Wenige Sekunden später galloppierten zwei schwarze Stierbullen in Hochgeschwindigkeit vorbei (ich war grad Gassi gehen mit den Hunden und konnte grade noch so Pokki an mich reißen um ihn an der Verfolgung zu hindern) in Richtung der Ringroad.
 

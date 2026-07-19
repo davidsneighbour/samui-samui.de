@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute war ich mein Visa im Immigration Office in Nathon verlängern. Jedes Mal wenn ich dort an komme, ist der Empfangsraum anders angeordnet und die Abläufe sind geändert. Die einzige Konstante ist diese überaus niedliche Thai in der Uniform die immer persönlich meine Unterlagen entgegen nimmt.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Der beste Ex-Systemanalytiker von nebenan][1] hat nach jahrelanger Entwicklungsarbeit (er wurde im vergangenen Jahr etwas aufgehalten) [podcast.de][2] regelauncht und [kündigt zweiwöchentliche Updates an][3]. Jaja. Podcasting ist (für die bejahrteren Leser meiner kleinen unbedeutenden Publikation) Bloggen für Leute die eine Rechtschreibschwäche haben.
 

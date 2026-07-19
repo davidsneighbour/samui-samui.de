@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Bangkok Post titelt [Troops 'protecting' TV stations][1] --- die Anführungszeichen geben zu denken. TV-Stationen sind von Militär umstellt. Die Fernsehprogramme senden aber "normales" Abendprogramm (soweit man das normal nennen kann).
 

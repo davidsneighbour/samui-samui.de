@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute Morgen ergab sich (ich sage gleich wo) der folgende Dialog zwischen mir und einer Service-Dame:
 

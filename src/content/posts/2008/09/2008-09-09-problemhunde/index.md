@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich such(t)e seit gut drei Wochen nach einem neuen Haus (eine lange Geschichte, jede Menge Beziehung, Dating und anderer Kram aber letzten Endes sind (oder werden) alle Beteiligten (irgendwann) glücklich sein). Interessanterweise ergibt sich auf einmal ein Problem, was ich nie als solches angesehen habe:
 

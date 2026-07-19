@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Sie lernen irgendwie nicht. Gerade füllt sich die Wiese hinten wieder mit Büffelkampffreunden. Gleich mal die Hunde wegsperren. Diesmal hab ich die Kamera bei der Hand, wenn sie rennen...

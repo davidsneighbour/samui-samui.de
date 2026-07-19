@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 (Feedback ist ein nettes denglisches Wort für Rückmeldungen)
 

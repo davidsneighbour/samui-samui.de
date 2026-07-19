@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So. Dann versteht mich mal nicht falsch. Es ist wirklich nicht sehr langweilig hier und ich habe auch ein gerütteltes Maß an touristischen Tätigkeiten durchzuführen. Nichtsdestotrotz finde ich, es ist Zeit, dass auch _ich_ mal eine Blog-Konferenz abhalte. Thailand ist viel zu wenig vertreten in internationalen Konferenzen. Und irgendwie haben all die internationalen Konferenzen nicht ganz den Standard, den ich von einer Blogkonferenz erwarte. Ich habe daher die <a href="http://blogfarm.de/" style="font-family: 'Arial Black','Arial Bold',Arial,Helvetica,sans-serif !important; text-transform:uppercase !important;clear:both !important;display:block !important;color:#CC3300 !important;font-size:70px !important;line-height:80px !important;">blogfarm</a> ins Leben gerufen, die im Februar kommenden Jahres in Version null.sieben stattfinden wird.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern abend hab dann selbst ich einige Augenblicke sehr sehr dumm aus der Wäsche gekuckt. Glücklicherweise war es dunkel und so sahen es nicht allzuviele Personen.
 

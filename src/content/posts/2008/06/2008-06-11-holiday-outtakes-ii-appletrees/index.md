@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2570233913/" title="Holiday Outtakes II: Appletrees"><img src="//farm4.static.flickr.com/3152/2570233913_88bd123ded.jpg" alt="Holiday Outtakes II: Appletrees" /></a></p>

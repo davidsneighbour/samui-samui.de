@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gerüchte über die baldige Wiederkehr des amtierenden Präsidenten des Profilgolfverbandes von Thailand, Thaksin Shinawatra, gibt es seit er sich mit ebenso kolportierten geldgefüllten Koffern aus dem Staub gemacht habe. Mal war von Valentinesday die Rede, mal von Songkran, mal von Oktober, mal von in spätestens zwei Jahren.
 

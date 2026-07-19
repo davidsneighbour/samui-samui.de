@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Sowas wie Ironie oder Sarkasmus verstehen viele Thais leider nicht. Ich habe häufiger Probleme, wenn ich genervt "macht doch was ihr wollt" sage und alle dann machen, was sie wollen.
 

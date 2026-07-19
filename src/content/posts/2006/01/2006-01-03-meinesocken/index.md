@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="455" src="//static.flickr.com/42/81384531_3afc683e52.jpg" alt="my socks" />][1]
 

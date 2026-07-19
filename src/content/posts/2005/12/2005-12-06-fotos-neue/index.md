@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Alle Welt wartet auf bestimmte neue Fotos. Von mir. Die kommen. Heute abend. Hehe.

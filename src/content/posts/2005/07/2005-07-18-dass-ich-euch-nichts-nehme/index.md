@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Zarathustra stieg allein das Gebirge abwärts und Niemand begegnete ihm. Als er aber in die Wälder kam, stand auf einmal ein Greis vor ihm, der seine heilige Hütte verlassen hatte, um Wurzeln im Walde zu suchen. Und also sprach der Greis zu Zarathustra:
 

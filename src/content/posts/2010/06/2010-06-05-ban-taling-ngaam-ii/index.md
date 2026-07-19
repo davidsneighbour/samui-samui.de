@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/4671928386/" title="Ban Taling Ngaam"><img src="//farm5.static.flickr.com/4026/4671928386_283481a59a.jpg" alt="Ban Taling Ngaam" /></p>

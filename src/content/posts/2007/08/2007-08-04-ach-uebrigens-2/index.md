@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Anrufe von Nummern die ich nicht kenne nehme ich nicht entgegen. Auch nicht wenn sie aus der Schweiz kommen.

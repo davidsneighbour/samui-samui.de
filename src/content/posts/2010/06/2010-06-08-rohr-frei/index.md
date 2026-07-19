@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Unsereins hat bei der Quartals-Rasur einen recht hohen Haarabgang. Nicht unverständlich daher ist also, dass die Rohre nach gut einem Jahr im neuen alten Haus aufgaben und das Wasser nicht mehr ablief. Ich persönlich habe mir eine Ausrede a la "Das sind die Termiten die da unten im warmen Ablauf ihr Nest errichten" zurecht gelegt. Das half aber nichts, das Wasser blieb in der Gosse.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Manchmal kommt mir Pokkis Leben wie eine kleine Thaisoap vor. Vor gut einer Stunde (pünktlich 30 Minuten nachdem die Tierklinik für den Rest des Wochenendes geschlossen hat) wurde Pokki gebissen. Mal wieder. Diesmal von einem Insekt (vermuten wir).
 

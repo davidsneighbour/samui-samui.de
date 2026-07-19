@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In der Vollmondnacht des zwölften Monats des Mondkalenders (dieses Jahr am Mittwoch, dem 16. November) feiern die thailändischen Buddhisten Loi Krathong. Die Menschen lassen traditionell aus Bananenblättern gefertigte Schiffchen (Krathongs) die mit brennenden Kerzen, Räucherstäbchen, Blumen und Münzen als Opfergaben gefüllt sind auf Seen, Flüssen, Kanälen und dem Meer schwimmen. Mit den Schiffchen schwimmen auch alle Sorgen und Sünden davon. Wenn die Kerze lange brennt, wird ein Wunsch in Erfüllung gehen und das nächste Jahr ein Glückliches. Allerdings darf man dazu seinen Krathong nicht aus den Augen verlieren.
 

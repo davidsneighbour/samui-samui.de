@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute habe ich dem kleinen Sohn meiner Hausherren (5 Jahre alt) Sexualkundeunterricht gegeben. Ehe man das jetzt falsch versteht, seien mir einige Erläuterungen dazu erlaubt.
 

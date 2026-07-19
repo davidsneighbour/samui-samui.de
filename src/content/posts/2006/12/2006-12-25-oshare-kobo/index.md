@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 "Oshare Kobo" ist der Hammer. Das läuft hier auf UBC als "Fashionable Living" und ist so eine Art MacGyver für japanische Hausfrauen.
 

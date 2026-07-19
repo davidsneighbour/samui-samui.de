@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Am alten Haus im Dschungel hatte ich das ja öfters: es fängt an zu regnen und 5 Minuten später fällt der Strom aus. Eben durfte ich sowas nun gewisserma?en live vor Ort erleben. Es fing an zu regnen, von draussen hörte ich ein seltsames Geräusch: laut, brummend, sehr bassig. Lauter als die üblichen Schrottkarren mit kaputten Auspuff.
 

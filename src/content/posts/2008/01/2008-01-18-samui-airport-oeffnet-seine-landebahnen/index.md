@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wenn man so liest, [was die News-Agenturen heute so verbreiten][1], dann mag man meinen, es wäre eine supertolle Sache im Anflug. Ab 15. Februar sollen auch fremde Airlines den von Bangkok Airways besessenen Flughafen hier auf Samui anfliegen dürfen.
 

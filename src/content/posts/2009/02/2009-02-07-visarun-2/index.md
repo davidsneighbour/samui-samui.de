@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In der nächsten Woche darf ich wieder einmal auf Visarun gehen. Diese nützliche Erfindung der Thais, um den Farangs im Lande deutlich zu machen, dass sie nur solange im Lande gedulded sind, wie sie Geld ins Land mit bringen.
 

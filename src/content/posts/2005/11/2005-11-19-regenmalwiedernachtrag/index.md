@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="420" src="//static.flickr.com/29/64662361_e83734b86b.jpg" alt="In front of my house" />][1]
 

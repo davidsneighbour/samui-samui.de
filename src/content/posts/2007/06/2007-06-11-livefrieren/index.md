@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute abend wird (mal wieder) [live im Fernsehen verkündet][1], ob die Reichtümer von Thaksin Shinawatra, seines Zeichens Vorsitzender des Thailändischen Golfvereins, eingefroren werden sollen.
 

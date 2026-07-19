@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Am Wochenende machte ich einen kleinen Trip nach Malaysia. Als nichtangestellter<txp:gho_footnote>Yepp. Man ist wieder auf dem freien Arbeitsmarkt verfügbar.</txp:gho_footnote> Ausländer in Thailand muss man das Land kurz verlassen, um beim Wiedereinreisen ein neues Visa zu erhalten. Das hatten wir ja letztes Jahr schon zur Genüge. Rund um diese Visaruns hat sich eine richtige Tourismusindustrie gebildet und hier auf der Insel findet man aller 200 Meter einen Travelshop mit Visarun-Plakat in den Fenstern. Ich werde also in den nälchsten Jahren mal die verschiedenen Anbieter durchtesten ;)
 

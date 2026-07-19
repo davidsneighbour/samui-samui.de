@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <txp:smallmap lat="12.675684" lng="101.070533" width="200" height="200" zoom="18" /> Am Wochenende habe ich mal die hiesige Chinesenschrein-Szene aufgemischt. In Ban Chang gibt es drei sehr schöne Tempel (die ich alle nicht besucht habe) und einige chinesische Schreine. San Luang Dia ist ein kleiner Schrein, an dem am Samstag und Sonntag ein Fest gefeiert wurde.
 

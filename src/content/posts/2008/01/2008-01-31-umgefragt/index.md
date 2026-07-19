@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Samak ist schon fast 24 Stunden königlich beglaubigt im Amt, also sollte man mal ein paar Umfragen aufstellen, um die Meinung im Lande zu evaluieren.
 

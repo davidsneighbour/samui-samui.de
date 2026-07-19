@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ein meiner Meinung nach sehr interessantes und halbwegs stimmiges Interview mit Gerhard Will, dem Thailand Experten der Stiftung Wissenschaft und Politik [zur aktuellen Lage in Bangkok][1] kann man bei Spiegel Online lesen.
 

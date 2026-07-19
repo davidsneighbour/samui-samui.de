@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nun gut. Hätte ich eine Digitalkamera, die funktioniert, würde ich ein Foto geschossen haben von einem Haus mit einer sehr gro?en Veranda, einer langen Treppe und einer sü?en Thai auf den Stufen. Darunter hätte ich dann geschrieben: "Die Neue". Das wäre ganz nett.
 

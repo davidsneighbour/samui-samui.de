@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die vergangene Woche war verflucht. Das war eigentlich allen klar, nur mir nicht. Alles begann mit dem unschönen Ableben meiner Nachbarn am Sonntag (was ich erst Dienstag abend wusste, da wars aber schon zu spät). Aber mal schön statistisch der Reihenfolge nach:
 

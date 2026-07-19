@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es wurde ja auch Zeit. Nach</a> <a href="1193">unendlichen</a> <txp:permlink id="1196">Versuchen, die Pandabären im Zoo von Chiang Mai zum ehelichen Sex zu animieren, wurde nun [endlich ein kleines Panda-Baby][1] (auf diesem Photo in der Schnauze der Mutter) geboren.
 

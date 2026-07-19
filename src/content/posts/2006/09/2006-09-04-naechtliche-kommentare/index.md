@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wenn man ein "Weblog" hat und Einträge schreibt, muss man damit leben, dass bei eingeschalter Kommentarfunktion auch Kommentare eingehen. In der die schreiBBloga.de sind das in der Regel Hundeliebhaber, die kommentieren ;) Ich habe durch die Kommentare und [Kontaktformularemails][1] in den vergangenen 20 Monaten viele sehr nette Menschen kennen gelernt.
 

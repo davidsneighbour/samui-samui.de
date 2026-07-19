@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Also es regnet. Mehr als zuvor aber das kennen wir ja schon. Interessanterweise können sich die Meterologischen ?mter nicht entscheiden, ob der Sturm (so wie es im Augenblick aussieht ist es nur noch ein Stürmchen) nun Durain oder Durian heisst.
 

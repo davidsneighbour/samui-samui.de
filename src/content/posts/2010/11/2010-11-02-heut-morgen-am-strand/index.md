@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5139513205/" title="On the beach."><img src="//farm2.static.flickr.com/1091/5139513205_68e89e1754_z_d.jpg" alt="On the beach." /></p>

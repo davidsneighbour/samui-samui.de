@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Das sind ja gleich drei Dinge auf einmal][1], da muss ich natürlich ausführlicher antworten ;)
 

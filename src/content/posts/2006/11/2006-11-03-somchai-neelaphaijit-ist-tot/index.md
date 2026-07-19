@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der [seit 12. März 2004][1] vermisste Menschenrechtsanwalt Somchai Neelaphaijit ist tot, wie Attaporn Yaisawang, der Sprecher des Oberstaatsanwaltes heute mitteilte. [Man habe Beweise für seinen Tod vom Department of Special Investigation (<span class="caps">DSI</span>) erhalten][2].
 

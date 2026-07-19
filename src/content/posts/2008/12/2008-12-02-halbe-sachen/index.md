@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ok, einen Putsch haben wir "leider" abgewehrt, was können wir denn nun noch unternehmen, um die Farangs aus dem Land zu halten? Genau, an den Visabestimmungen schrauben.
 

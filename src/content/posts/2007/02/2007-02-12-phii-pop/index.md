@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 The Nation berichtet über einen Ritus, der an zwei Frauen im tiefsten Isaan durchgeführt wurde, weil man annimmt, dass sie [von bösen Geistern besessen][1] seien. Es gab im Ort wohl vier "mysteriöse Todesfälle" (65- bis 80-jährige, die eigentlich ganz normalen Todesarten wie Herzinfarkten und Schlaganfällen erlagen), was für die Haushalte des Ortes Grund genug war, um <txp:baht value="35000"/> (rund 800 Euro) zu sammeln, um einen Exorzismus durchzuführen.
 

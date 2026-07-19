@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/mrpokx5/3948848287/" title="SANY0016 by mrpokx5, on Flickr"><img src="//farm3.static.flickr.com/2511/3948848287_f50d8b82db_z.jpg" width="640" height="480" alt="SANY0016" /></a></p>

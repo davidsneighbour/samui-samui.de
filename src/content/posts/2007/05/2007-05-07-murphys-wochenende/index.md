@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Am Sonntag war eine Menge los. Zuerst waren wir mit den Hunden im "Secret Garden" (500 Meter hoch, steinig, ein paar Wasserfälle, tolle Photos) spazieren. Die haben da so eine Art künstliche kleine Wasserfall-Strecke gebastelt.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gut, dass wir Bayern doch nicht ausgegliedert haben. So. Wir haben also einen Papst. Nicht das wir vorher keinen gehabt hätten, aber die Journalisten, die heute aus Rom schreiben, dürften damals (bei der letzten Konklave) noch in Windeln gewickelt im Krippenspiel mitdargestellt haben. Also ist es ein mediales Ereignis geworden. Man hätte ja fast glauben können bei soviel multimedialer Aufmerksamkeit hätte auch die katholische Kirche einen Neuanfang verdient.
 

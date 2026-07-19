@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man mag es kaum glauben, aber die Chinesen orientieren sich nicht nur am Mond, sondern haben parallel dazu noch einen Sonnenkalender laufen --- und nach diesem beginnt heute der Frühling. Das Wetter verhält sich entsprechend, noch kein Tropfen ist gefallen seit Sonnenaufgang.
 

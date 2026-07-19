@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thaksin, der Shinawatra, der Präsident des Thailändischen Profigolfervereins hat mal wieder [eine Party geschmissen][1] und dafür [jede Menge Briten und ein paar Thais][2] eingeladen. Mit Musik, einem Freundschaftsspiel, das Manchester City 1:0 verloren hat und "We want Thaksin back"-T-Shirts.
 

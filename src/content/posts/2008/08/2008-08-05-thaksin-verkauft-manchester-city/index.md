@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Oder auch nicht][1]. Aber man kann ja mal drüber nach denken, so wie es die englischen Sportzeitungen heute machen. Thaksin soll sich erkundigt haben, was denn die Konditionen seien, um seinen Anteil an Manchester City, einem Fussballclub in Grossbritanien wieder zu verkaufen. Gekauft hat er ihn erst nach dem letzten Putsch, was in Thailand eine kurze Zeitspanne ist.
 

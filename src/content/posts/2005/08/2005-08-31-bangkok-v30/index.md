@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 **oder Über Wuschel und Japan, ziemlich große Hitze, blauen Heftchen makabren Inhaltes, fiebernde System Analysten die keine sind und warum Thaifrauen recht häufig recht niedlich aussehen.**
 

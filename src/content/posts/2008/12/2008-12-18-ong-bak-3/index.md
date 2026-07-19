@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Richtig gelesen. [Ong Bak 3 steht in den Startlöchern][1]. Laut Somsak Techaratanaprasert (dem Mann mit dem Geld und den Nerven hinter Tony Jaa) wird noch dieses Jahr (is ja auch nicht mehr so lange hin, habe ich mir sagen lassen) mit den Dreharbeiten zum dritten Teil begonnen. Mir kam es ja schon seltsam vor, dass der zweite Teil so seltsam abrupt endete.
 

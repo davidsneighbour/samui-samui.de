@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben ist der stellvertretende Premierminister und Finanzminister der ?bergangsregierung [Pridiyathorn Devakula zurück getreten][1].
 

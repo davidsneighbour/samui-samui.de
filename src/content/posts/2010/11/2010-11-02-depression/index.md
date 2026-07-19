@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Das hat dann auch mich etwas verwundert. Gegen Mitternacht heute war plötzlich der Strom weg und kam erst kurz nach Mittag wieder zurück. Die üblichen Quellen sprechen von einem Samui-weiten Stromausfall --- man rechne mit ein bis zwei Tagen Behebungsdauer. Es waren dann nur 12 Stunden, aber das war wiedermal eine Zeit, in der man daran erinnert wurde, wozu man Strom so braucht. Gestern noch fand ich meinen Gaskocher steinzeitlich --- heute bin ich konvertiert.
 

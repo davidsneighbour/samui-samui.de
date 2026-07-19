@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So erdrutschartig kann der Sieg der Pheua Thai Partei am Sonntag gar nicht gewesen sein, denn heute kündigt Thaksins Schwester, unsere zukünftige Prime Ministress, an, [eine Koalition aus 5 (fünf) Parteien][1] zu führen. Damit kommt die neue Regierung auf 299 Sitze im Parlament --- was lt. Yingluck Shinawatra eine "wunderschöne Nummer" ist.
 

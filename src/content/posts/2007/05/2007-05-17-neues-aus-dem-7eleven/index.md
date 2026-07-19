@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben im 7eleven, ich packte Würstchen auf die Theke und zwischen mir und der Kassen-Thai entspann sich ein kleiner Dialog.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wenn man Thaksins Gegner interviewt, muss man natürlich auch dem Gro?meister der Worthülsen eine Möglichkeit geben, [sich zu äu?ern][1] (deutscher Link wird gleich in den Kommentaren nachgeliefert ;)
 

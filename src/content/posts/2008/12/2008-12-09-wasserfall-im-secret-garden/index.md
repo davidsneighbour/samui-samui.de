@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3095664988/" title="At the secret garden..."><img src="//farm4.static.flickr.com/3114/3095664988_84a2cb8d7d.jpg" alt="At the secret garden..." /></a></p>

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wow. Das ging aber schnell. [Der König hat Sonthi als ARC-Präsidenten bestätigt][1] und damit indirekt dem Putsch seinen Segen gegeben.
 

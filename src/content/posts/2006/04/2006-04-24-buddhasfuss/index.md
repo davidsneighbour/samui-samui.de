@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/134073860/" title="Wat Laem Suan Waram"><img src="//static.flickr.com/47/134073860_63bd7c484f.jpg" alt="Wat Laem Suan Waram" /></a></p>

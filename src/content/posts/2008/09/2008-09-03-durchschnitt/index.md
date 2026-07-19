@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute erreichte mich [diese aussagekräftige Meldung][1]. Wer so wie ich des Thais noch nicht ausreichend lesenderweise befähigt ist, wird sich so seine Gedanken machen, was der Artikel uns sagen will.
 

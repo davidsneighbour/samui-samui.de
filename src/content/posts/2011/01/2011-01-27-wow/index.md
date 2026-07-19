@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Klasse. Spiegel online ist verdammt schnell. [Heute schon wird über unseren Babyleichentempel berichtet][1]. Einer der Leichenbestatter wurde zu 20 Jahren verurteilt.
 

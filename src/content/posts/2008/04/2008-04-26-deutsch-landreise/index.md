@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <img src="//samui-samui.de/images/252t.png" width="540" class="flickr" />

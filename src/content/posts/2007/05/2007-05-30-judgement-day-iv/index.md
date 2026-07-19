@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Im Fernsehen werden gerade Anklage und Verteidigung für den Fall der Demokraten verlesen. Live auf allen Thai-Kanälen. Nur die Farangsender bringen das übliche Durcheinander.
 

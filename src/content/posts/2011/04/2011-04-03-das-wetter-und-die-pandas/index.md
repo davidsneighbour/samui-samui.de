@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Thais lieben Pandas. In der [The Nation][1] kann man heute einen interessanten Artikel lesen, der genau erklärt, warum das Wetter so verrückt spielt **und** dabei Pandas ins Spiel bringt. Das ist nicht so einfach, aber wenn man sich anstrengt, versteht man es: Da wurden Fossilien gefunden, die darauf hindeuten, dass vor 10.000 Jahren Pandas aus China nach Thailand gekommen und hier verstorben sind. Weil es so kalt war!
 

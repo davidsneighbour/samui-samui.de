@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 * Heute Nacht das erste Mal von Flugzeugabstürzen geträumt --- Check.
 * Festgestellt, dass ich keine sauberen Klamotten habe, die mir auch noch passen --- Check

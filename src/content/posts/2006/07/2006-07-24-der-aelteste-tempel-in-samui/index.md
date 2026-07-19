@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/197154956/" title="The hidden chinese shrine in Nathon"><img src="//static.flickr.com/62/197154956_498d1462e9.jpg" alt="The hidden chinese shrine in Nathon" /></a></p>

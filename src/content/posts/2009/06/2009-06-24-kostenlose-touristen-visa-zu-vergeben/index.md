@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Vom 25. Juni 2009 bis zum März 2010 (über das genaue Enddatum der auch sonst relativ unoffiziell überall nur als Zitat eines Berichtes erwähnten Aktion schweigt man sich aus) werden für Touristenvisa mit einer einmaligen Einreise keine Gebühren erhoben, wenn diese in Königlich Thailändischen Botschaften oder General-Konsulaten ausgestellt werden.
 

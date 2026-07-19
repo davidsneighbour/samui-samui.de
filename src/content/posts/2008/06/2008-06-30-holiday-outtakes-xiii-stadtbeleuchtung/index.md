@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2623395241/" title="Holiday Outtakes XIII: Stadtbeleuchtung"><img src="//farm4.static.flickr.com/3107/2623395241_01f38db00a.jpg" alt="Holiday Outtakes XIII: Stadtbeleuchtung" /></a></p>

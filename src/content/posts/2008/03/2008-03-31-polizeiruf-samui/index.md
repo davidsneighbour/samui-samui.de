@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben kommt auf dem Kabelkanal mit geklauten thaisynchronisierten Filmen so was wie eine Polizeiselbstbeweihräucherung. Man berichtet was man alles in der vergangenen Woche so gemacht hat. Fast ein kleines Videoblog.
 

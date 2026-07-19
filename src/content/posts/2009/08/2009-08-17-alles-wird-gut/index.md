@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Habe heute morgen festgestellt, dass ich nunmehr 11 Monate im Poolhaus gelebt habe, ohne den Pool zu nutzen (aber nicht ohne diesen Luxus mitzubezahlen). Das wird sich ändern ;)

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Die zivilisierte Welt bezeichnet also die Hurrican-Katatrophe in den USA als verheerender als die Tsunami-Katastrophe in Südostasien im letzten Dezember][1].
 

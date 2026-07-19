@@ -19,6 +19,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wenn in den nächsten Tagen das thailändische Internet zusammen bricht, dann liegt das nicht am ohnehin schlechten Service sondern an der neuen Website [Bangkok Flood Watch][1]. Hier kann man (anders als man sich bei diesem schlecht gewählten Namen denken mag) nicht die Fluten in Bangkok, sondern einen Test des neuen Wasser-Entsorgungs-Programms ansehen --- live, via Videostream. Da lassen sie (diesmal kontrolliert) Wasser aus den Reservoirs im Norden und Osten und prüfen, ob es durch Bangkoks Kanäle sicher gen Golf von Thailand geleitet wird (ohne wie vergangenes Jahr geschehen die Stadt unter Wasser zu setzen).
 

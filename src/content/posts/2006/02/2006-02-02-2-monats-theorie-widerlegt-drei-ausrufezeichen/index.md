@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Mit dem Ablauf des heutigen Tages werde ich eine gewisse 2-Monats-Theorie widerlegt haben die ich vergangenen Sommer aufgestellt habe. Hab mich ein bisschen schwergetan mit dem finalen Beweis, aber es sollte ja möglichst sauber und gültig sein. Und mir missfällt gar nicht mal, dass eine meiner sonst _immer_ stimmigen Theorien falsch ist ;]
 

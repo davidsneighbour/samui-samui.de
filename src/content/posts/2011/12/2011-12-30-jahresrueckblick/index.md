@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Soso, wieder ein Jahr rum gebracht, die Produktion von Thai Beverage Plc mit meinen Käufen am Leben gehalten und 8500km auf der Insel verfahren (das sind nur um die 150 Inselumrundungen habe ich gerade fest gestellt. Das sollten wir ändern).
 

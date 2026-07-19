@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/120632482/" title="sunrise at the graveyard"><img src="//static.flickr.com/35/120632482_9c4a707c6d.jpg" alt="sunrise at the graveyard" /></a></p>

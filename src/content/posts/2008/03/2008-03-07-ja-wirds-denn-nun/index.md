@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Seit gut zwei Wochen bekomme ich täglich verschiedene Anfragen von unterschiedlichsten Nationalitäten, ob beim wilden animalischen Sex neulich denn nun ein Treffer gelandet wurde.
 

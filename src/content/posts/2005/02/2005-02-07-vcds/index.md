@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Thailand gibt es noch einen Markt für Technologien, die es auf deutschen Boden nie geschafft haben. Zumindest habe ich nie so etwas wie VCDs (Video-CDs) gesehen. Das ist im Prinzip die Vorstufe einer DVD in miserabler Qualität auf dem Notebook (auf dem Fernsehbildschirm aber sicherlich nicht schlecht anzusehen), einseitig abspielbar, ohne Menü einfach durchzulaufen. Meist gibt es zwei CDs, damit die Qualität nicht allzu weinerlich ist. Solche Filme kosten dann bis zu 150 THB (3 Euro) und sind in Englisch und Thai zu finden.
 

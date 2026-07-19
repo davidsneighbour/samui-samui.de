@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Achso, hab ich ja glatt vergessen. Ich wurde von einer indischen Sicherheitsbeamtin auf dem Flughafen von Singapore angemacht (leider erst beim Einchecken zum Rückflug). Also nicht im Sinne von Mündung am Ohr sondern eher this way:
 

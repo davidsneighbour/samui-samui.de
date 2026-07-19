@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Auf Google's [Constitute][1] Website (einer gestern veröffentlichten Sammlung von Verfassungen weltweit) kann man auch die aktuell gültige [Verfassung Thailands von 1997][2] lesen. Interessant wäre ja, wenn man eines Tages die verschiedenen Versionen gegenüber stellen kann und die Unterschiede herausstellen könnte. Zur Zeit (eigentlich seit die aktuelle Verfassung in Kraft getreten ist) wird in Thailand diskutiert, eine neue Verfassung zu schreiben.
 

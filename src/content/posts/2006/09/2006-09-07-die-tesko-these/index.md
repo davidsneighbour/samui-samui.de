@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Als ich eben Tesko verlies,<txp:gho_footnote>Na K. aus Z.? ist das ein nettes Komma?</txp:gho_footnote> fiel mir ein, dass es letztes Jahr in der Regenzeit immer regnete, wenn ich Tesko verlassen wollte. Denn es regnete.
 

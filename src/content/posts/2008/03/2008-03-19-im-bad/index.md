@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2345872798/" title="In the bathroom"><img src="//farm4.static.flickr.com/3027/2345872798_8c62625e3b.jpg" alt="In the bathroom" /></a></p>

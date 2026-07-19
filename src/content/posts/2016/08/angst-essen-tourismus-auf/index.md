@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 Wenn man [die News im Spiegel heute][1] so liest, mag man meinen, dass es eine schlechte Idee ist, Thailand derzeit zu besuchen:

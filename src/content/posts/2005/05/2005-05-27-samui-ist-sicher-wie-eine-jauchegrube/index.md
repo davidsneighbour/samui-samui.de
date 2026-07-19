@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wenn es nicht so traurig wäre würde ich in einen wahren Schadenfreudenrausch mir selbst gegenüber ausbrechen. Ist aber leider traurig und ungeheuer dumm. Also muss Anderseiner die Schadenfreude empfinden.
 

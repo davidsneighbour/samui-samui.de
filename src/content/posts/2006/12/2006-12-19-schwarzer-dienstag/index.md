@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nun nennt man den heutigen Tag schon "Schwarzer Dienstag". In rei?erischen Betitulierungen sind sie gut, die Thais.
 

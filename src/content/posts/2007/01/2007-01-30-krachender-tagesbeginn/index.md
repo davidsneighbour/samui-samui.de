@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [In Bangkoks Norden wurden heute Nacht zwei ?bungsgranaten abgefeuert][1]. Man geht von Chaoten aus, allerdings bietet sich genügend Stoff für Verschwörungstheorien, weil eine Granate in die Mauer der Büros der Daily News und eine in den Parkplatz eines naheliegenden Hotels einschlug.
 

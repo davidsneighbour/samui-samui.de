@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ehm. Vor ner Stunde ging die Tür auf und vier Thais (2 female, 2 male) schneiten herein. Sie stellten sich mit "Steuerbehörde Surrat Thani" vor und verlangten den Boss.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Nachricht des Tages kommt aus dem Veterinärbereich: Ein uns bekannter weiblicher Vertreter der Shih-Tzu-Rasse hat es zum zweiten Mal geschafft, selbst mich wieder gut eine Woche lang glauben zu machen, man wäre schwanger.
 

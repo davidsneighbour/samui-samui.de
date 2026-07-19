@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Viel zu viel Ungeschriebenes... Hier ist es:
 

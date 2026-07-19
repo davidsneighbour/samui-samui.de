@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nun ja, man ist ja nicht mehr der Jüngste und sorgt sich auch dann und wann um die älteren Mitglieder der Bürogemeinschaft. Da ist es schon gut, zu wissen, [welche Positionen man nach dem Einbau einer künstlichen Hüfte vermeiden sollte][1] und [welche man unbeeinträchtigt weiterhin ausüben kann][2]. Quasi der Kamasutra für die Hüftoperierten. [via [Sex!][3] --- ein Blog, das ich nur lese, um mein Schwedisch zu verbessern]
 

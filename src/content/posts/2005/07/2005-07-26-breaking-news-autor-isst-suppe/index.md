@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ... von Western Money. Man muss sich ja langsam wieder dran gewöhnen. Angeblich soll es Oriental Style sein. Ich bin gespannt.

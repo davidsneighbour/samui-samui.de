@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So. Nu haben wirs auch [amtlich][1], dass es dies heftigste Regenzeit seit 40 Jahren war. Ist überall noch ein bisschen nass auf der Insel aber geregnet hats seit zwei Tagen (und Nächten) nicht mehr. Dafür haben wir keinen Strom mehr. Aber das ist ein ganz anderes Thema.
 

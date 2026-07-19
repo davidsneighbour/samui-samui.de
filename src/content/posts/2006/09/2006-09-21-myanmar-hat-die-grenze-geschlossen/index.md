@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ooops. Und, ehm, falls mir Fäkalsprache erlaubt sei, ehm, Shit!!! Ich muss am Wochenende auf einen Visarun. Und Myanmar hat die Grenzen geschlossen.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es gibt ein Buch das ich versuche seit Januar (ok, ich lerne erst seit Februar Thai, also seit Februar) zu bekommen: [Hearttalk][1] von [Christopher G. Moore][2].
 

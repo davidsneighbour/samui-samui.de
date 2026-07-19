@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3424067780/" title="Samui? Samui! (Design study)"><img src="//farm4.static.flickr.com/3641/3424067780_e243282284.jpg" alt="Samui? Samui! (Design study)" /></a></p>

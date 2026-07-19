@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die _\*Sieben\*_ ist im Buddhismus eine heilige Zahl. Unter anderem wird sie repräsentiert in den [Bojjhanga][1], den sieben Erleuchtungsgliedern (Wissensklarheit, Willenskraft, Güte und Mitleid, Freude, Gleichmut, Achtsamkeit, Sammlung). Au?erdem stehen in jedem Tempel sieben Buddhafiguren mit Spendenkörben. Da muss ich erst noch herausfinden, welchen Sinn das hat.
 

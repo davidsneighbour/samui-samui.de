@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Das vermutlich nicht letzte Kapitel meiner gestrigen Erlebnisse durfte ich eben erleben. Gegen 11 schneite Gilbert (Schillbär), der Franzose mit den vielen Mopeds, herein und präsentierte mir stolz den Schlüssel zu "meinem" Moped. Kostenpunkt 2500 THB im Monat. Das sind 50 Euro, was für ein Moped nicht schlecht ist.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Police Lieutenant Colonel Thaksin Shinawatra last night apologized 16 million people who voted for the Thai Rak Thai Party in the April 2 general election, for being unable to accept the mandate to lead the country because of several pressures besieging him.
 

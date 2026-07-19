@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <img src="/images/210.jpg" style="height:454px;width:333px" alt="just behind behind" />
 

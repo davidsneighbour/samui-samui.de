@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute mal wieder ein paar nahezu unbeachtete Tabs. Firefox benötigt einfach zu viele Ressourcen mit jedem geöffnetem Tab...
 

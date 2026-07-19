@@ -13,6 +13,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 Thailand legalisiert die Ehe für alle - ein Meilenstein in Südostasien.

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die News sind heute [voll][1] der Nachrichten über den gefassten mutmaßlichen Mörder von JonBenet Ramsey. Ich entsinne mich darüber vor Jahren einmal einen Bericht gesehen zu haben mit Filmen und Photos von ihr wo sie puppenhaft zurecht gemacht über den Laufsteg dackelte und "glücklich" war.
 

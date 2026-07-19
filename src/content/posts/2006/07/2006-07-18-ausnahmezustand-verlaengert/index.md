@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute wurde der [Ausnahmezustand in den drei südlichen Unruheprovinzen um weitere drei Monate verlängert][1]. Das war zu erwarten, daher nur diese Randnotiz.
 

@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Pressemitteilung des Tages ist [die von "Toonami"][1], einem Cartoon-Fernsehsender, der am 1. Dezember in Thailand starten soll.
 

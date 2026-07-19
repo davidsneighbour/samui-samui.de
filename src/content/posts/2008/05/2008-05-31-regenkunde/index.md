@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2538805624/" title="Weather Report Samui"><img src="//farm3.static.flickr.com/2388/2538805624_c8bdc182fa.jpg" alt="Weather Report Samui" /></a></p>

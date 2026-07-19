@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In [Koh Kong][1], Cambodia. So nah war er lange nicht.
 

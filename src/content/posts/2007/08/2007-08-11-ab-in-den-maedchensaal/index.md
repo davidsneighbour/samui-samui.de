@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die News des Tages: Wenn man als Mann eine Sex-Wechsel-Operation über sich ergehen lässt, [darf man in der Srinakharinwirot-Universität im Mädchensaal übernachten][1].
 

@@ -11,5 +11,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ... weshalb ich um keine Verwunderung bitte, wenn hier mal kein täglicher Eintrag kommt. Womit der tägliche Eintrag von heute erbracht wäre. Ist das nicht seltsam, wie man den Papst immerwieder vom Sterben abhält? Naja. Wie gesagt, heute kein Eintrag.

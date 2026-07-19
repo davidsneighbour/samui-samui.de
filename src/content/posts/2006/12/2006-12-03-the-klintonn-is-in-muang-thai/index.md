@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ziemlich viel Geblubber wird gerade um den Ehemann der zukünftigen US-Präsidentin gemacht, der in Thailand herumreist. Unter anderem hat er der Regierung schon gesagt, dass sie ihre Versprechen einhalten soll (welche genau, hat er nicht gesagt, aber dafür gibts ja auch keine Vorlagen) und vom Tsunami betroffene Zonen und Menschen besucht und dabei in Kameras gelächelt oder betroffen gekuckt.
 

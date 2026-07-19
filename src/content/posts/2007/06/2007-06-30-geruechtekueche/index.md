@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In der vergangenen Woche ging das Gerücht um, David Beckham (der hin und wieder für verschiedene Unternehmen Fu?ball spielt und eine von den Spice Girls geheiratet hat) würde "demnächst" Urlaub auf Phuket machen.
 

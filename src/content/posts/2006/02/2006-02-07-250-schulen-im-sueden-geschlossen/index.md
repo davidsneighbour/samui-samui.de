@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Im Süden Thailands bleiben [250 Schulen für mindestens eine Woche geschlossen][1] nachdem zuletzt täglich Anschläge und Schießereien die Sicherheit öffentlicher Einrichtungen arg in Frage stellen.
 

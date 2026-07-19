@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben wollte ich in einem Aufbegehren wilder Agressivität meine kleine kaputte Digicam medienwirksam zerstören. Ich legte nochmal zwei Akkus ein, um zu sehen, dass sie wirklich nicht geht. Sie ging nicht an. Ich legte zwei andere Akkus ein und sie ging an. Das ging ja immer, ich nahm sie also bei der Hand und holte zum Wurf aus, als beim Drücken auf den Auslöser statt des Geräusches des kaputten Ausschaltens ein Blitz erschien. Ein Foto ward gemacht.
 

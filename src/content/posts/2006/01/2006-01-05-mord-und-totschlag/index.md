@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Na endlich. Ein Mord. Hier auf Samui. Das Jahr begann schon langweilig zu werden:
 

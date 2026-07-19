@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Da spammt mir grade jemand das Blog voll (manuell) mit Viagra- und Cialis-Werbung (jeder weiss doch, dass Cialis das bessere Viagra ist, warum werben die überhaupt noch mit den blauen Pillchen?) und anderem Quatsch zu. Also nicht wundern.
 

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hin und wieder sollte man Marketing in eigener Sache machen, hier also die neuesten Neuigkeiten aus Samui:
 

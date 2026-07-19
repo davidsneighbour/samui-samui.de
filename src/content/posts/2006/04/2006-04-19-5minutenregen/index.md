@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/131234504/" title="5-minute-rain"><img src="//static.flickr.com/53/131234504_424a379a3d.jpg" alt="5-minute-rain" /></a></p>

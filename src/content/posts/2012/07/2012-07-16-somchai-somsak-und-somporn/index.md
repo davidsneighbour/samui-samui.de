@@ -24,6 +24,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die nach Angaben des thailändischen Innenministeriums [beliebtesten (männlichen) Vornamen in Thailand][1] sind:
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Also gestern war mal wieder eine recht nützliche Thailektion dran. Wir haben gelernt, was "verbraucht" heisst. Interessanterweise bedeutet das exakt übersetzt "zu sehr benutzt". Entspricht genau meiner Definition des Wortes.
 

@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 * Anscheinend haben die Thais auf der Insel einen katholizistischen Ansatz beim Begehen ihrer Feiertage, ich wurde bereits gestern von meinen Sünden gereinigt
 * Man sieht aktuelle Reinigungsstellen bereits vorher, weil dort die Stra?e nass ist. Wenn man also kann, aufs Gas treten und einfach durchrasen. (Was zum Ergebnis hat, dass ich Teile von Lamai heute in Hochgeschwindigkeit absolviert habe)

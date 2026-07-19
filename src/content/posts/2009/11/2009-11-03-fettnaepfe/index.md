@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ?ber den unter deutschen Expats hei?beliebten Newsletter der Deutschen Botschaft zu Bangkok habe ich bereits</a> <a href="1163">einige</a> <txp:permlink id="1125">Male berichtet.
 

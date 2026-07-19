@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nach einigem Hin und Her hat das Parlament heute für unsere zukünftige Prime Ministress gestimmt. 296 Abgeordnete stimmten für sie, 3 stimmten gegen sie, 197 enthielten sich. Wenn der König das Ganze dann in den nächsten Tagen offiziell macht, hat Thailand einen weiblichen 44 Jahre alten Premierminister.
 

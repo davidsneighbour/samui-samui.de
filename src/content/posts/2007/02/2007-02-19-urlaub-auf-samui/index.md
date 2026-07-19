@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Jana Simon schreibt in der [ZEIT online][1] über Samui, wie sich alles "ein kleines bisschen" veränderte in den vergangenen 10 Jahren und (natürlich) über die Sextouristen:
 

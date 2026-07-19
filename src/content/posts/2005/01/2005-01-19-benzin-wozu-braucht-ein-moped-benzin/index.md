@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Titelgebende Zeile mag ausschlaggebend für mein "kleines" Problem heute morgen gewesen sein. Ich dachte schon seit ein paar Tagen, ich sollte mal wieder tanken. Da ich aber nur auf Arbeit und zurück fuhr, verschob ich das immer wieder auf später. Nach der Laundry aber machte mein kleines sü?es Moped plötzlich seltsame Laute. Spotz spotz. Ich dachte mir, es wäre nicht unklug, nun gleich tanken zu fahren. Das Moped dachte es auch und ging an der nächsten Kreuzung aus.
 

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Seit einigen Wochen kommt die Post nicht mehr in meinem kleinen Haus an. Früher hat das eigentlich relativ gut funktioniert und ich bekam eine Postkarte pro Jahr, ziemlich genau 10 Tage oder 6 Wochen nach dem Versenden aus Deutschland beispielsweise, nun kommt gar nichts mehr an. Allerdings weiss ich von zwei Postkarten, die seit einigen Monaten auf dem Weg sein dürften.
 

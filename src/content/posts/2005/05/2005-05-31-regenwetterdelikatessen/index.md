@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern hat es geregnet. Ziemlich stark sogar. Das ist ersteinmal nichts Spektakuläres um diese Jahreszeit. Allerdings war dann auf der 5km-Strecke nach Hause an ein entspanntes Fahren leider nicht mehr zu denken. Die Stra?en waren voll von Fröschen und Kröten. Die wiederum machten einen Krach, dass man den Mopedmotor nicht hörte und warfen sich todesmutig reihenweise vor meine Reifen auf der Suche nach geeigneten Paarungspartnern. Das dabei entstehende Geräusch ist nicht sehr angenehm und macht in etwa ein schlickriges "Schmoatsch".
 

@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Habe gerade tatsächlich die "My dog ate it"-Ausrede benutzt, um den Hausherren abzuwimmeln der nach der unbezahlten 150 Baht-Rechnung (um die 4 Euro) fürs Wasser fragte. Hmm. Eigentlich wollte ich das irgendwann für größere Beträge verwenden...

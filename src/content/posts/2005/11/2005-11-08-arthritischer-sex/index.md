@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Neulich gabs ja schon die Tips für die Möglichen Positionen nach einer Hüftoperation. Allerdings sind unsere älteren Mitbürger nicht nur durch titanische Hüften definiert, nein, dann und wann leiden Sie auch an Arthritis. Aber auch arthritisch verkrümmte Zeitgenossen können erfüllten Sex haben. Sagt [die University of Washington/Seattle][1]. Mit Bildchen (kannte ich alles schon, ohne Arthritis zu haben). [via [Sex!][2] --- ein Blog, das ich nur lese, um mein Schwedisch zu verbessern]
 

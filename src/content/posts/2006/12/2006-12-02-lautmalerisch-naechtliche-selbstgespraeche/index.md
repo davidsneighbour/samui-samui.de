@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich versuche ja seit langem, in meinem kleinen Blog sowas wie eine Lautschrift für die Aussprache der Thaizeichen einzubauen. Nun habe ich tatsächlich endlich die (Achtung Technogelaber) Unicode-Zeichen für die Töne gefunden (bzw. die Zeichen, die man für die Töne verwenden kann). Das Dumme ist nur, dass sie die Unicodezeichen) in den meisten Schriftarten nicht vorhanden sind und in manchen (ich würde mal sagen) falsch implementiert sind. Auf meinem Rechner kann man das hier ganz gut ansehen:
 

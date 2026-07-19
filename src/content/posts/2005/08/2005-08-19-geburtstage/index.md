@@ -11,5 +11,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich bin am Dienstag 11.000 (elftausend) Tage alt geworden. Und niemand hat mir gratuliert. Danke auch. Für gaaaaar nichts.

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Im Fernsehen läuft gerade die Wahl des Premierministers, wenn ich das richtig verstehe. Weil [die Technik versagt][1], wird jeder Abgeordnete aufgerufen, darf dann an das nächstliegende Mikrofon treten und seinen Premierminister ansagen. Bei Enthaltungen (gibt es auch) wird immer 10 Sekunden pietätvoll gewartet, bis der Hausvorsitzende Yongyuth Tiyapairat den nächsten Namen liest.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Dr. Schmidt hat heute die Insel verlassen. Des Wetters wegen. Zwei Tage früher. Das ihn beherbergende Ressort hat dadurch doppelt soviel Geld verloren, wie ich im vergangenen Jahr verdient habe. Bonzen (auf beiden Seiten).
 

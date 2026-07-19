@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/109986930/" title="The buddhist version of &quot;x has been here&quot;"><img src="//static.flickr.com/45/109986930_97944ce26f.jpg" alt="The buddhist version of &quot;x has been here&quot;" /></a></p>

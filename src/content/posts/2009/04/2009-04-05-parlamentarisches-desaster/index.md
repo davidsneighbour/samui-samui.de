@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3385190256/" title="Learning Thai (reading and writing now)"><img src="//farm4.static.flickr.com/3440/3385190256_bfb4b2be97.jpg" alt="Learning Thai (reading and writing now)" /></a></p>

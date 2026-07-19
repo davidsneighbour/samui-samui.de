@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Mit 234 zu 197 Stimmen gewann Abhisit Vejjajiva [eben][1] die Wahl zum 27. Premierminister Thailands. Demokratische Abstimmungen in Thailand sind eine feine Sache.
 

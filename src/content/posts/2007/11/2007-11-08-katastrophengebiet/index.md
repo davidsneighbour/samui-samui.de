@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Samui wurde heute zum [Katastrophengebiet][1] ausgerufen. Es regenete gut zwei Tage lang und die Stra?en sind überflutet. Auf dem Weg zum nächtlichen Bierkauf (1km zum 7eleven) gibt es drei ?berschwemmungsstellen und die Stra?e hat jeden Tag mehr Schlaglöcher und Risse.
 

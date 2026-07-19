@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Klasse. Die thailändische (?bergangs-)Regierung, rund ein Jahr für viele ?berraschungen gut, hat ganz zum Schluss noch eins draufgesetzt: Ausschankverbot für alkoholische Getränke für das gesamte vergangene Wochenende (Freitags 18 Uhr bis Sonntags 24 Uhr) und das gesamte nächste Wochenende.
 

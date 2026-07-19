@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So. Soso. Hab ich heute mal wieder Geld in das finanziell klamme Deutschland geschickt. Wollte ich eigentlich schon sehr viel eher machen, habe es aber aufgrund unvorhergesehener Zwischenfälle und verschiedener, ähm, Dinge, ähm, nicht geschafft.
 

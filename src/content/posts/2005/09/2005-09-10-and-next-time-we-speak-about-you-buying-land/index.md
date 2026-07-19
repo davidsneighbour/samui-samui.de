@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hab eben die Miete für meinen Palast und den nächsten Monat gezahlt. Was weniger lustig gewesen wäre wenn ich nicht "mein Haus" in den Worten meiner Vermieterin Kiew mit ihr Haus verwechselt hätte und dort rumgesessen hätte. Mein Haus ist also auch bei ihr "mein Haus". Das müssen wir mal noch klären.
 

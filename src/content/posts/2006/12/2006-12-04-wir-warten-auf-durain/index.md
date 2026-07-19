@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Siehe Titel][1]. Ich finde immer wieder interessant, dass das schlechte Wetter _immer_ aus China kommt.
 

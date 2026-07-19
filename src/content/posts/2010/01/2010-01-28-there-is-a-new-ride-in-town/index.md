@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/4310873587/" title="The new ride"><img src="//farm5.static.flickr.com/4060/4310873587_90d1724e1a.jpg" alt="The new ride" /></p>

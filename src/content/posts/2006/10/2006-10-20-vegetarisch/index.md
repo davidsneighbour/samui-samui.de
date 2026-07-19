@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Vor einer Woche überraschte mich Fu mit der Ankündigung, dass ich ab dem 20. Oktober kein totes Tier mehr essen darf. Ich grinste und sagte jaja. Heute Nacht nun kam eine SMS "so now is the vegetarian festival and you eat sausage no more!".
 

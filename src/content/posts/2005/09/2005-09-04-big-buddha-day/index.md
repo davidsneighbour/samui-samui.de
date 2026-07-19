@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ok. Ich tu jetzt mal so als hätte ich nicht die Digicam im Büro vergessen und das erst gemerkt als ich da war und papp hier ein Foto aus dem März hin. Hat sich eh nicht viel geändert seither, Big Buddha wacht immer noch mit schlaffen Lidern über seine <del>Schafe</del> Kinder.
 

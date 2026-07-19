@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute mal ein kleiner sprachwissenschaftlicher Witz: Warum lügen Thais so häufig?
 

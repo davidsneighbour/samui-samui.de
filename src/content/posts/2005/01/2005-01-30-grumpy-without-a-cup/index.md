@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Was macht man weit weg von der Heimat (oje, über diese Definition reden wir später einmal), wenn man sich selbst etwas Gutes tun will? Genau. Und wie erreicht man das bei Jemandem wie mir?
 

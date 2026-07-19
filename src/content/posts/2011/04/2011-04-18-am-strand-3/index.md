@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5631808284/" title="Samui today by Patrick Kollitsch, on Flickr"><img src="//farm6.static.flickr.com/5145/5631808284_6286cb3427_z.jpg" width="640" height="480" alt="Samui today" /></a></p>

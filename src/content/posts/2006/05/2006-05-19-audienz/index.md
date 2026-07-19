@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thaksin (Ex-Premierminister der noch amtiert aber in Urlaub ist und nicht wieder antreten wird aber trotzdem Premierminister genannt werden will) hat eine [Audienz beim König heute nachmittag][1].
 

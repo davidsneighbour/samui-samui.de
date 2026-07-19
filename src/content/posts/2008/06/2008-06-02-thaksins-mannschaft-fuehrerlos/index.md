@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Sven-Goran Eriksson][1] war als Trainer in Schweden, Italien und England tätig (in letzterem als erster ausländischer Nationaltrainer) bevor er sich für eine Weile auf Samui zur Ruhe setzte.
 

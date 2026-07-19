@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Bernama.com schreibt, dass die Touristenzahlen im Süden Thailands wegen des Aufstands in den letzten drei Jahren auf 50% gesunken sind][1].
 

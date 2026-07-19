@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Neulich hat mir mein Daddy den folgenden Informationsschnippsel geschickt.
 

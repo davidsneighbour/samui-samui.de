@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Irgendwie viel zu viel zu tun "auf Arbeit"...
 

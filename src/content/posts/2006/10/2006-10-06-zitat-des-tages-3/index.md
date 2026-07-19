@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 "Wenn ich kein Familienblog sein wöllte hätte ich ein paar nette Photos..."

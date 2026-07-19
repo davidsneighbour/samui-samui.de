@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eine [nicht näher genannte Quelle in Deutschland][1] hat mir gesteckt, dass in der nächsten SpiegelTV-Sendung (wenn das alles noch so wie "früher" ist dann wird das Sonntag Abend auf RTL sein) ein Bericht über Deutsche die sich in Thailand selbständig gemacht haben gesendet werden wird. Das sollte man sich ruhig mal ankucken, denn die zeigen bestimmt farbige Bilder von Sonne und Palmen.
 

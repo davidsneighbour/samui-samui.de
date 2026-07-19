@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2114332449/" title="Safe!"><img src="//farm3.static.flickr.com/2032/2114332449_3e3f772140.jpg" alt="Safe!" /></a></p>

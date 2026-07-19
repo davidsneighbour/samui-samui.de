@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ein bisschen was von Truman Show hat mein Leben ja derzeit schon. Die Darsteller werden alle ausgetauscht (eher ersatzlos gestrichen). Am Dienstag dachte ich mir so, man muss ja nicht alles aus dem "alten Leben" kippen und schrieb eine SMS an Judy (nicht was ihr schon wieder denkt, das ist die Sängerin der Siam Band), ob und wo sie denn am Dienstag abend spielen (hey, habt ihr nun den Text in der anderen Klammer gelesen oder nicht?). Zurück kam die Antwort, dass sie nicht mehr in Lamai spielen und sie die Band Ende des Monats verlässt.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Tankstelle hier um die Ecke in Ban Thai sollte man (soweit die Ringroad dies zu lässt) weiträumig umfahren. Man wird dort einfach nur abgezockt, wie ich gerade wieder am eigenen Moped erleben durfte.
 

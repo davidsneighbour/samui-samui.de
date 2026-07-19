@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Irgendwo in Nordeuropa. Ich befinde mich an Bord eines recht gro?en Schiffes mit Ziel Eismeer. Es sind ein paar bekannte Gesichter dabei, die an mir aber stumpf vorbeischauen oder mit sich selbst beschäftigt sind. Ein running Gag wird es werden, dass niemand zwei herumgehende ?pfel und Birnen essen will und sie immer einem anderen verdutzten Gegenüber in die Hand gesteckt werden und man verschwindet, während jenes Gegenüber nun versuchen wird, das Obst loszukriegen.
 

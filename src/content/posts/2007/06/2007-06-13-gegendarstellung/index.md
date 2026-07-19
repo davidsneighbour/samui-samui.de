@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Am Freitag den 8. Juni erhielten einige (rund 400) Emailnutzer (Freunde, Verwandte, Bekannte und auch ein paar Pissnelken) weltweit eine Email, in der die Behauptung aufgestellt wurde, "Patrick Kollitsch wants to talk with you using the new Yahoo! Messenger".
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben kommt ein Typ rein mit "Hey, Börnd said you guys work with Apple. I have a problem, can you..." --- Ich hab ihn erstmal freundlich unterbrochen und mitgeteilt dass hier keine guys mit Apple arbeiten, höchstens der Chef und der ist nicht da und ich weiß auch überhaupt nicht ob er kommt. Soweit kommt das noch, dass ich hier irgendwelchen Mac-Fritzen den Rechner ans Netzwerk anschließe. Im Delegieren sind die Farangs gut. Ein Thai würde wenigstens mitkommen und freundlich nachfragen ob wir eventuell helfen könnten.
 

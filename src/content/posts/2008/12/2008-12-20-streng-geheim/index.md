@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Bei [Factthai][1] kann man eine (streng geheime) Liste der vom <span class="caps">ICT</span> (Ministerium für Information und Kommunikation) Thailands verbotenen Websiten ansehen.
 

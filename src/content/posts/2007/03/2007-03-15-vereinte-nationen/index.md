@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 **Permanent Mission of Thailand To The United Nations Office**
 

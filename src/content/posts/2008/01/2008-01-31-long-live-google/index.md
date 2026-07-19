@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Grad kam per <span class="caps">ICQ</span> eine Kontakt-Anfrage von meinem Lieblingscousin in Deutschland rein, in der er meinte, dass er mich gegoogelt hat und an Position 1 gefunden hätte.
 

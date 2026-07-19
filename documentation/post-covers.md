@@ -73,11 +73,28 @@ Use the cover helper to audit and migrate historical posts:
 npm run covers -- audit --all --summary
 npm run covers -- migrate --path=2024/the-white-lotus-trailer --dry-run
 npm run covers -- migrate --path=2024/the-white-lotus-trailer
+npm run covers -- migrate --all --review --mark-missing --dry-run
 ```
 
 The migration command only changes clear single-media posts. It can promote one
 local Markdown image, one standalone YouTube/Vimeo embed, or one Hugo
 `resources` image when there is no body media.
+
+Add `--review` for ambiguous posts that still have at least one usable cover
+candidate. Review migrations prefer the first Hugo `resources` image, add
+`publisher.covermigration: true`, and keep body media in place so the article is
+not silently edited before a manual check.
+
+Add `--mark-missing` together with `--review` to mark posts that have no usable
+cover candidate:
+
+```yaml
+publisher:
+  covermigration: true
+```
+
+Those posts do not get fake or empty `cover` objects. The marker is a manual
+queue for choosing or adding a real cover later.
 
 `resources` entries are not removed automatically. Treat them as post-migration
 metadata to review once rendered covers have been checked.

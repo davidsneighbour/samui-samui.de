@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [In Nakhom Pathom ist ein Truck mit 11.000 Kücken konfisziert worden][1] weil die Kleinen alle Vogelgrippe hatten. So. Toppt das mal mit eurem Toten Huhn in Rumänien, Weicheier.
 

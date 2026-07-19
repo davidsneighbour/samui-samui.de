@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hin und wieder befinden sich unter den täglichen durch unnatürliche Ursachen getöteten Personen in Thailand Ausländer. Darunter ein amerikanischer Teenager, der sich zwischen zwei Wagen eines Zuges in Ermangelung einer Klimaanlage heraus lehnte, um sich abzukühlen und dann bei voller Fahrt von einem in die Strecke hängendem Hindernis herunter gerissen wurde (Stichwort "freak accident") oder ein Sachsen-Anhaltiner, der wegen Pädophilie festgenommen wurde und nach einigen Tagen mit aufgeschnittenen Pulsadern [in seiner Zelle aufgefunden wurde][1] --- als Todesursache wurde allerdings ein in den Mund gestopfter Sockenballen ermittelt, an welchem er erstickte.
 

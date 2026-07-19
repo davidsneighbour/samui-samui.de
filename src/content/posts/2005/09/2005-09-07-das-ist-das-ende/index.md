@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So fängt der Tag gleich grau an: Eine anonym bleibende vertrauliche Quelle hat mir eben den folgenden Link geschickt: [Link][1] (das mit dem Link ist ein Insider, macht nichts. Draufklicken und lesen wenn man des Englischen mächtig ist.)
 

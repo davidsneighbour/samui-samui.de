@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Im Jahr 2022 löscht ein Tsunami Bangkok aus (wenn es bis dahin nicht schon das Schicksal Atlantis' teilt). Zumindest im Film "2022 Tsunami", dessen Trailer zur Zeit das thailändische Internet überflutet. Es soll sich dabei wohl um einen Film a la "The day after Tomorrow" handeln.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Viel ist geschehen in den vergangenen Wochen der, ehm, Rekonziliation. Oder wie auch immer man die Ruhe vor dem nächsten Sturm in der thailändischen Politikszene nennen mag.
 

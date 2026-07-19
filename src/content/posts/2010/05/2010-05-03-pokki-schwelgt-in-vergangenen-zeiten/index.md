@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/4574739193/" title="Pokki enjoys..."><img src="//farm4.static.flickr.com/3314/4574739193_4488bcb29c.jpg" alt="Pokki enjoys..." /></p>

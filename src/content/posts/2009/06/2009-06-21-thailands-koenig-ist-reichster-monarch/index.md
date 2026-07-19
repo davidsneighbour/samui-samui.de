@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Forbes hat wieder einmal seine [Liste der reichsten Monarchen der Welt][1] heraus gebracht und König Bhumibol Adulyadej von Thailand ist zum zweiten Mal mit 30 Billionen Dollar auf Platz eins:
 

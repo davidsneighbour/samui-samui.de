@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Irgendwie fing es am Mittwoch Abend an zu regnen und hörte nicht wirklich auf. Das ist relativ normal auch wenn die wahren Kenner der Inselszene meinten, es würde nur 5 Minuten regnen und dann... naja... das ist eine ganz andere Geschichte. Jedenfalls hörte es nicht auf zu regnen. Also fuhr ich am Donnerstag durch die Fluten in Maenam und Bophut auf Arbeit in der Hoffnung auf abendliche Wetterbesserung. Die blieb aus und so schwamm ich abends wieder zurück in meine geliebte Hütte.
 

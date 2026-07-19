@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 The following is a statement by the Administrative Reform Committee under the Constitutional Monarchy.
 

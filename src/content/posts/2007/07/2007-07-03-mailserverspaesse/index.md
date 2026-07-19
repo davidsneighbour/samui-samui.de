@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/703624929/" title="Photo Sharing"><img src="//farm2.static.flickr.com/1089/703624929_39b0a8ed3b.jpg" width="500" height="375" alt="Dem Inschinör is nix zu schwör!" /></a></p>

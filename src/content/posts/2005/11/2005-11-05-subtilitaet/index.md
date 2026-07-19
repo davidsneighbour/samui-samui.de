@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Subtilität ist eine Kunst. Daher darf sich auch jeder an ihr versuchen. Wäre es ein Handwerk, würde es nicht diese ewigen Versuche amüsanter Subtilität geben. Hmm? Na? Verstehst du? Hmm?

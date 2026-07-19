@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/35528319/" title="graveyard of ghosthouses"><br /> <img src="//photos29.flickr.com/35528319_6f4b3912bb.jpg" alt="graveyard of ghosthouses" /><br /> </a>

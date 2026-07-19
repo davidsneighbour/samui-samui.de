@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="455" src="//static.flickr.com/36/73990583_dcc4419214.jpg" alt="On the way in the office." />][1]
 

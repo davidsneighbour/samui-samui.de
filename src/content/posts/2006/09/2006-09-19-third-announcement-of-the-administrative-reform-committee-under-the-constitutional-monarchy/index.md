@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 The Administrative Reform Committee under the Constitutional Monarchy revoked the 1997 constitution following a power seizure yesterday.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Neulich gingen innerhalb einer Woche zwei meiner drei "Außenlampen" kaputt. Da sich niemand anderes dafür interessierte dachte ich mir, als Ingenieur kriegst du das sicher auch selbst hin. Ich bin ja fürchterlich clever (stellen Sie sich hier einen vollschlanken Autoren vor der sich mit dem rechten Zeigefinger gegen die rechte Augenbraue tippt) und weil sich meine Energierechnung im letzten Monat verdreifacht hat weil ich von zu Hause aus arbeite kaufte ich drei Energiesparglühbirnen mit je 8 Watt, was laut Packung 60 Watt entsprechen sollte. Philips. Deutsche Qualität. Ich bestieg heute morgen also todesmutig die Verandabrüstung, entschraubte die Laternenhüllen, wechselte die Glühbirnen und verschraubte alles wieder. Dem Ingenieur ist nichts zu schör. Beobachtet wurde ich von einigen Thais die lustige Bemerkungen zum dicken Farang (farang uan sanook maak mai krap) machten und meine Probleme mit dem Lösen einer der Birnen kommentierten. Ich lies mir nichts anmerken und vollendete die Mission projektplangemäß.
 

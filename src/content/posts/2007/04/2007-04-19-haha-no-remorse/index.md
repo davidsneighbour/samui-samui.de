@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Einen langen selbstbezogenen Eintrag schreiben, schnell noch einen Kommentar zu aktuellen südkoreanischen Themen schreiben, das Ganze löschen und nichtssagende drei Zeilen schreiben. Posten. Schlafen gehen.
 

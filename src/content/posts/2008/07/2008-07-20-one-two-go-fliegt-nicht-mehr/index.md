@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Am Wochenende [verkündete][1] Udom Tatiprosongchai, der <span class="caps">CEO</span> von One-Two-Go, einer Flugfirma, die innerhalb Thailands die erste Billig-Fluglinie war, dass die Fluglinie ihre Tätigkeit bis Mitte September einstellen wird. Als Grund gab man die Preissteigerungen bei den ?lpreisen an.
 

@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Klasse. 5 Wochen die Sonne gemieden und fast wieder weiß geworden und dann \_ein\_mal raus zum Hundeimpfen --- rot. Wird Zeit, dass die Regenzeit kommt.

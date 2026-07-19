@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5053840546/" title="Koh Samui, Morning"><img src="//farm5.static.flickr.com/4147/5053840546_508106e2a7.jpg" alt="Koh Samui, Morning" /></p>

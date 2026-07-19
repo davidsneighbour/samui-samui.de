@@ -19,6 +19,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Lin Pin schlägt mal wieder zu. Unser [Lieblingspanda][1] aus Chiang Mai hält als EM-Orakel her und macht [meine mickrigen Versuche][2] auf ewigen Ruhm damit zunichte. Für das vergangene Nacht stattgefundene Spiel sagte sie voraus, dass Deutschland gewinnen würde.
 

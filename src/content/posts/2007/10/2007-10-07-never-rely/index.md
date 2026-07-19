@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So ein Visarun ist eine optimale Gelegenheit, mir in Erinnerung zu rufen, warum ich so ungern mit Farangs verkehre.
 

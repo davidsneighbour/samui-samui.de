@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 (Anmerkung der Redaktion: Ab 19 Uhr abends ist es stockduster, weshalb das als Nachts gewertet wird. Künstlerische Freiheit!)
 

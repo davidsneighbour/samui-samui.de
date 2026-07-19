@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [sapazupzip.com][1] will/soll/wird die Antwort der thailändischen Regierung auf die überall aufpoppenden Websites gegen die Regierung sein. Jeder darf dort seine Meinung zur Regierung ablegen. Die Regierung darf Beiträge löschen.
 

@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 Die [neulich erwähnte][1] Familie Chirathivat, Eigentümer der Central-Kaufhaus-Kette und von Platz 1 der reichsten Thais auf Platz 3 gefallen, expandiert nach Deutschland.

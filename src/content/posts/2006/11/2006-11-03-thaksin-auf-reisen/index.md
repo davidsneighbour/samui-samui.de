@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thaksin Shinawatra (für die weniger regelmä?ig lesenden Besucher, der ehemalige Premierminister Thailands) ist am Dienstag nach China geflogen. Warum, wird sich der geneigte Leser da fragen. Die Antwort ist so trivial wie auch interessant für alle Hobby-Verschwörungstheoretiker: Surayud, der aktuelle Premierminister befand sich bis Donnerstag eben da und hielt Verhandlungen mit der chinesischen Regierung ab. [Interessanterweise hat er Thaksin nicht empfangen wollen][1], Weshalb Thaksin nun natürlich erklären muss, er war nur zum Urlauben und Golfspielen in China.
 

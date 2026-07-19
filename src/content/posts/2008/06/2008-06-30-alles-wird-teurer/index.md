@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Für eine Moped-Tankfüllung zahlt man heutzutage gute 120 Baht. Als ich auf die Insel kam (vor etwas mehr als 1250 Tagen) waren es nur 75 Baht. Die Fährpreise werden ab Morgen erhöht (sorry, ich wusste das schon länger, fand es aber weniger interessant... im Nachhinein hätte man ja ein paar Hamsterkäufe machen können, weil die Tickets auch weiterhin gültig sein werden...) und man rechnet mit zweistelligen Inflationsraten Ende des Jahres in Thailand.
 

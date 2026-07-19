@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben sehe ich aus meinem Bürofenster am Berge ein Flugzeug auf der Strecke gen samuianischen Flughafen einschwenken, auf der normalerweise Flieger aus Bangkok landen. Sie werden doch nicht die Flughäfen schon freigegeben haben?
 

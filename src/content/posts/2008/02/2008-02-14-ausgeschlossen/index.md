@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute wurde ein lang gehegter Alptraum wahr: Ich stand vor einer verschlossenen Tür. Vor meinem Haus. Ich kann der Haustür nicht auf einen Meter nahe kommen, ohne dass die Hand panisch nach den Schlüsseln greift, die Tür könnte ja zu fallen.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Im 7eleven gibt es seit ein paar Tagen grüne Pepsi. Die Flasche sieht von ferne aus wie Sprite, wenn man näher kommt, sieht man aber, dass die Flüssigkeit und nicht die Flasche grün ist. Das Ganze soll wohl Cola sein, der Geschmack erinnert wohltuend an <span class="caps">DDR</span>-Schaumbad mit viel Zucker (Zucker zusätzlich zum Schaumbad).
 

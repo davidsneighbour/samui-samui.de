@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ganz schön langweilig, was man im Netz so unter schreibblo(g(g)?|ck)a(de)?(.de)? findet. Mag ich gar nicht verlinken. Aber irgendwie heißen plötzlich alle Blogs schreibblogade in den verschiedensten Schreibweisen. Wenn es nicht so schwer wäre Freund Guugel und Konsorten auf meine Spuren zu bringen würde ich lieber heute als alsbald Domain und Namen wechseln.
 

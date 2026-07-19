@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Seit gestern hielten bis eben viele Züge in Thailand einfach mal so an und fuhren nicht weiter. Die Bahngewerkschaftler streikten. Gestreikt wurde unangekündigt dagegen, dass die derzeit noch im Staatsbesitz befindliche Eisenbahngesellschaft (State Railway of Thailand) modernisiert werden soll.
 

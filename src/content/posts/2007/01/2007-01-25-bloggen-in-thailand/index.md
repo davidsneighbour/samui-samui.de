@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<span class="caps">MSN</span> hat gestern laut verkündet][1], dass sie ab heute einen auf thailändische Verhältnisse und Sprache zugeschnittenen Weblog-Service anbieten wollen. Sie haben schon eine Weile unter [th.msn.com][2] ein Thailand-Portal laufen und bringen nun den Segen des Bloggens nach Thailand.
 

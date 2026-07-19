@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Am Samstag hab ich mal nachgesehen, ob an der Grenze zu Malaysia alles in Ordnung ist. [Glaubt man den Medienberichten][1], ist dem nicht so. Da haben doch tatsächlich ein paar Thais einen armen malayischen Grenzbeamten beim Mittagsspaziergang jenseits der Grenze verprügelt, weil der einem der Thais die Einreise verweigert hat.
 

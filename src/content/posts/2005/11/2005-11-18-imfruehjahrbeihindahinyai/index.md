@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="420" src="//static.flickr.com/33/64447100_b4da095005.jpg" alt="Hin Da Hin Yai" />][1]
 

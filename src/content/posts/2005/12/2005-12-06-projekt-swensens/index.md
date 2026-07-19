@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern nach dem Dunkeln des Himmels sprach meine Quelle davon, dass wir mal wieder zu Swensens gehen könnten um ein Eis zu uns zu nehmen. Ich war nicht abgeneigt und so setzten wir uns aufs Moped und fuhren los. Es hatte nur den ganzen Samstag und Sonntag und ein bisschen am Montagmorgen geregnet, weshalb wir von einer mehr oder weniger unüberschwemmten Strecke ausgingen.
 

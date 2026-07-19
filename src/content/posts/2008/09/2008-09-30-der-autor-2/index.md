@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2904227422/" title="me now"><img src="//farm4.static.flickr.com/3231/2904227422_df113d8d98.jpg" alt="me now" /></a></p>

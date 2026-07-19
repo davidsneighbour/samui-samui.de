@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
  <img src="//samui-samui.de/images/251.gif" width="276" height="110" style="float:left; margin-right:10px;" />Zum Songkran-Fest hat [Google-Thailand][1] sogar einen Google-Doodle spendiert. Das dürfte der erste Google-Doodle für Thailand sein.
 

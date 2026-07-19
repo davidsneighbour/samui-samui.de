@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Aus Mangel an Zeit und Ressourcen (kaputtes Notebookstromkabel, hoffentlich) hier nur ein Hinweis auf [die alten Einträge zum Chulalongkorn Day][1], den frei habende Thais heute feiern.
 

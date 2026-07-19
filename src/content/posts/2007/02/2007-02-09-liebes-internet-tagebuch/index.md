@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute habe ich einen TT&T-Truck auf meiner Auffahrt **g**esehen. Bekomm ich j**e**tzt DSL? Das wär ja sc**h**ön. Ich hab mir nämlich bereits **e**ine fette Erkältung im Internetcafe eingefangen. Die schalten d**i**e Kli**m**aanlage immer so kalt, wenn ich komme. Mehr Fett, mehr Kühlung. Seltsame Logik...
 

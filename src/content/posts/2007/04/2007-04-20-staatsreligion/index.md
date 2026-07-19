@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hab ich schon erzählt, dass es Leute gibt, die den Buddhismus in der neuen Verfassung als Staatsreligion [verankern][1] [wollen][2]? Nein? Gut. Also es gibt da Leute, die den Buddhismus in der neuen Verfassung als Staatsreligion verankern wollen.
 

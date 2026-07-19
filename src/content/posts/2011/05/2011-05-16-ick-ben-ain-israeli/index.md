@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Thailand sollte man ja tunlichst vermeiden, über die königliche Familie zu berichten, weil das recht schnell als Lese Majeste (Majestätsbeleidigung) dahingestellt werden kann, wenn die Leute einem an die Wäsche wollen.
 

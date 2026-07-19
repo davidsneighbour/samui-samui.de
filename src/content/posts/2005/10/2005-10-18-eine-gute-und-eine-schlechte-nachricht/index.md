@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute habe ich eine gute und eine schlechte Nachricht. Für mich. Die Gute: In meinem Haus befindet sich nichts, was ein zufällig vorbeikommender Thai-Gelegenheitsbeschaffer auf seinen Gelegenheitsbeschaffungszügen in der Nachbarschaft als mitnehmenswert betrachtet. Diese Strategie nach <txp:gho_permalink id="237">meinem ersten Einbruch</txp:gho_permalink> (!! klar, ne?) hat sich bezahlt gemacht. Ich verlasse mein Haus nicht ohne Papiere und allem monetär verwertbaren Kram. Also nicht viel. Ich war mir schon eine ganze Weile ziemlich sicher, dass dieses Vorgehen optimal ist. Bewiesen werden konnte es aber nur durch einen unangekündigten Test, der gestern im Laufe des Tages stattfand.
 

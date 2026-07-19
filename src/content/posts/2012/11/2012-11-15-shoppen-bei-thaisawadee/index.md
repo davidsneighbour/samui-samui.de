@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Seit einiger Zeit nun schon kann man in der rechten Spalte dieses kleinen Blogs ein Werbebanner von [Thaisawadee.de][1] --- dem Online-Shop für alles Schöne und Nützliche aus Thailand --- sehen und auch klicken. Ich sage das nur, weil fast niemand klickt ;) und ihr somit die ganze schöne Shopping-Welt verpasst.
 

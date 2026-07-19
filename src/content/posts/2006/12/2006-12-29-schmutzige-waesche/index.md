@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In den vergangenen Wochen wurde immer mehr schmutzige Wäsche in der thailändischen Politik gewaschen. "Politische Aktivisten" wissen ganz schön viel und haben festgestellt: [Sonthi soll zwei Ehefrauen haben][1] und Surayud staatliche Eisenbahnwagen als Gartenhaus und [geschütztes Waldgebiet als Grundstück gekauft][2] haben. Das alles wird schön rei?erisch mit Rücktrittsforderungen garniert.
 

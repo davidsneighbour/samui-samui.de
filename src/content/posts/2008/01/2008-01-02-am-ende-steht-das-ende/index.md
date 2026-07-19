@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die interessanteste Erfahrung heute war, dass ich Leute über den Tod von Galyani Vadhana _weinen_ gesehen habe, die bisher das Königshaus mit keinem einzigen Wort erwähnt haben. Ihr Tod hat mir heute bspw. den [ersten Thai-Kommentar in dieser kleinen Publikation eingebracht][1], den ich kurz und still aus Mangel an Worten mit "rest in peace" übersetzen möchte. Die königliche Familie ist so sehr in das Leben der Thais verwoben, dass "wir Farangs" es wohl niemals begreifen werden.
 

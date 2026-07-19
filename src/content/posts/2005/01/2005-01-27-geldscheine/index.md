@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Keine Angst, es handelt sich hierbei nicht um mein Lieblingsthema ;) Wie wissen ja nun, dass man hier auf den König Bhumibol Adulyadej nichts kommen lässt. Man darf nicht über ihn lästern. Er ist ein feiner Kerl.
 

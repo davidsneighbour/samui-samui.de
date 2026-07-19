@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Der][1] ist so gut, den muss man einfach voll zitieren:
 

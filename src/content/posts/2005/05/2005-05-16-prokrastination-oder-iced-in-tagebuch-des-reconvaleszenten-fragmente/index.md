@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Moag. Ich nahm mir kurzentschlossen aus verschiedenen Gründen drei Werktage frei. Eigentlich wollte ich hier einen langen inneren Monolog zu den gro?en Themen des Alltags bringen. Der bzw. das hat mich aber derartig gelangweilt, dass ich ihn auf einige kurze Ausschnitte gekürzt habe.
 

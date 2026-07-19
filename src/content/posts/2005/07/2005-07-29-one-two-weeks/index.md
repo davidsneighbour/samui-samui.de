@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Titelgebender Ausspruch verbunden mit "you will forget me" war eine einige Zeitlang häufig in meiner Hütte zu hörender Dialogbeginn. Nun, ich habe ein kleines Problem damit. Wann beginnen diese ein zwei Wochen? Mit dem ersten Mal verlassen werden? Mit dem ersten "richtigen" Auszug? Mit dem letzten Mal verlassen werden? Mit dem letzten physischen Kontakt? Mit der letzten SMS? Mit dem letzten Haar, das man aus dem Haus entfernt? Hmmm... Rein theoretisch, würde ich das erste Mal nehmen, wäre heute Vergessen angesagt. Ansonsten hätten wir noch ein paar Tage, Wochen. Andererseits, ich gehe hier von braven "Ich hätte dich nie verlassen"-2-Wochen aus, nicht dem erlaubten Zeitbereich von 7 bis 14 Tagen.
 

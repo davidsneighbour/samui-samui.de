@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Post aus Deutschland benötigt bis zum Eintreffen hier auf Samui immer noch nur 10 Tage. Von Samui nach Deutschland sieht es wohl anders aus, aber das werden wir demnächst wissen.
 

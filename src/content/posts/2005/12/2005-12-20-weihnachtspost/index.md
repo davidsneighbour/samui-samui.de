@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ... gibts nicht von mir dieses Jahr (gabs die jemals von mir?). Weihnachten ist kommerzieller Schnickschnack. Trotzdem war ich eben auf der Post und hab ne Menge Briefe abgegeben. Interessanterweise kostete das weniger als der Versand innerhalb Deutschlands. Man könnte sich glatt für das neue Jahr vornehmen, ein paar Karten zu schicken. Mal sehen.
 

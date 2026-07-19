@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Super][1]! Klasse! Vermutlich hat einer der Leute im Provinz-Thing von Surrat Thani Google-Map entdeckt und beim reinzoomen [diese kleine Insel][2] gefunden. Sie liegt 3km südlich von Ko Samui und hat tatsächlich noch keine Beachstreet. Das wird nun nachgeholt. Ein paar Hotelketten müssen auch noch her. Strand gibts ja genug.
 

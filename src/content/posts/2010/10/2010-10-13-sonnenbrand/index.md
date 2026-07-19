@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5077509575/" title="Me now. Burnt in 70's style."><img src="//farm5.static.flickr.com/4051/5077509575_7a27e64644.jpg" alt="Me now. Burnt in 70's style." /></p>

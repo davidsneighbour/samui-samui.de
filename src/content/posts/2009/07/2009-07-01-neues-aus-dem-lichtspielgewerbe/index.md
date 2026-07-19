@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Am Wochenende war ich übrigens wieder mal im lokalen Lichtspielhaus und habe mir "Transformers --- The Lovemovie" angesehen. Es kam nur zu zwei Stromausfällen mit einer Wartezeit von jeweils gut 30 Minuten und gegen 0:30 (nach dreieinhalb Stunden) konnten wir gen Heimat fahren --- ohne Gutschein und ohne den Film nur teilweise gesehen zu haben. Das liegt grö?tenteils daran, dass die Handlung relativ sextouristenfreundlich ist und man nicht unbedingt nachdenken muss, wenn man dabei bleiben will. Es wird ständig gekämpft und die Transformers transformen im Kampf innerhalb von 5 Sekunden, wenn sie mit Regierungsvertretern sprechen (hahah, sprechen, haha) dann brauchen sie imposante 30 Sekunden.
 

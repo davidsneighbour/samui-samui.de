@@ -21,6 +21,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
+cover:
+  type: image
+  src: lunar-new-year-2017-hong-kong-taiwan-china.jpg
+  caption: Lunar New Year Hong Kong, Taiwan und China --- &copy; google.com
 ---
 
 ![Lunar New Year Hong Kong, Taiwan und China --- &copy; google.com](./lunar-new-year-2017-hong-kong-taiwan-china.jpg)

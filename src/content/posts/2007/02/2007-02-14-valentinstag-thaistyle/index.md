@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eigentlich wollte ich ja einen grö?eren Eintrag zu dem ganzen Valentinstag-Trara schreiben, das jedes Jahr in Thailand stattfindet, aber irgendwie ist selbiger fast schon wieder vorbei. Also nur ganz kurz und zusammenfassend:
 

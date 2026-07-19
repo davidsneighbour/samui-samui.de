@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2533405695/" title="Back home"><img src="//farm3.static.flickr.com/2273/2533405695_bdf853e038.jpg" alt="Back home" /></a></p>

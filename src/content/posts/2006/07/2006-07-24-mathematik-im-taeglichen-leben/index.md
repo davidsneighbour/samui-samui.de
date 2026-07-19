@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 * Die Geschwindigkeit und Freundlichkeit der weiblichen Bedienungen bei 7eleven ist umgekehrt proportional zu deren Gewicht.
 * Die Wahrscheinlichkeit, dass männliche 7eleven-Mitarbeiter dem männlichen Geschlecht zugeneigt sind steigt gegen Chaweng an.

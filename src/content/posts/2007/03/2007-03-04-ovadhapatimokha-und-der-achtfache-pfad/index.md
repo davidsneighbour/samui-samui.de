@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der Achtfache Pfad stellt die Grundlagen im Buddhismus dar und besteht aus folgenden Elementen:
 

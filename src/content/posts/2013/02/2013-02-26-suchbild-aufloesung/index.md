@@ -12,6 +12,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a title="New Neighbour by Patrick Kollitsch, on Flickr" href="http://www.flickr.com/photos/schreibblogade/8506448640/"><img alt="New Neighbour" src="//farm9.staticflickr.com/8366/8506448640_5cc574824e_z.jpg" width="640" height="480" /></a><span>New Neighbour</span>

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der [Lawblogger verklagt die Postbank][1], weil sie ihm 150 Baht mehr als in Thailand abgehoben in Rechnung stellt --- dabei sollten doch 10 Abhebungen kostenlos sein.
 

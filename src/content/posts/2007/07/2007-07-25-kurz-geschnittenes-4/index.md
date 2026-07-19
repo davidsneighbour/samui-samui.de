@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 * Die Hacker der <span class="caps">MICT</span>-Website vergangene Woche [konnten nach Deutschland zurück verfolgt werden][1]. Thais in Deutschland. Tststs... Damit stehen einige meiner IM-Kontakte nun unter Generalverdacht :D
 * [Thailand besiegt Deutschland][2]. Im Frauen-Volleyball. (Fügen Sie an dieser Stelle einen schmutzigen Witz zu jungen Thaifrauen (Teens vielleicht?) und Ballspielen ein.)

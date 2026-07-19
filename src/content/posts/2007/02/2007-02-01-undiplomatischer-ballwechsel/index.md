@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Singapore gegen Thailand war gestern angesagt bei den ASEAN Football Championships und [es kam zum Eklat][1].
 

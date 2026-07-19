@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Dieses Video zeigt recht gut, wie goebbelig der "friedliche Widerstand" in Bangkok abgelaufen ist. Die Resultate: [36 abgebrannte Banken, Kaufhäuser und Regierungsgebäude][1].
 

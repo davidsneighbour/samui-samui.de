@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 König Bhumibol Aduljadey ist am Samstag mit Fieber und Appetitlosigkeit ins Krankenhaus eingeliefert worde. Zuerst hat man es totgeschwiegen, dann hat man es zur Routineuntersuchung gemacht und seit Montag berichtet man in nahezu stündlichen Veröffentlichungen über den aktuellen [Stand][1].
 

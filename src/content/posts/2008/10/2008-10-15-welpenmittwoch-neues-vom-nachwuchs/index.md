@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2940271481/" title="Tired (Day 4)"><img src="//farm4.static.flickr.com/3001/2940271481_d4eb011f5d.jpg" alt="Tired (Day 4)" /></a></p>

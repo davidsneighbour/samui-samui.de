@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Jedes Jahr um diese Zeit läuten die Brahmanen auf einem Feld in Bangkok die Reis-Saison ein und lassen heilige Kühe bestimmen, [ob die Ernte dieses Jahr gut oder schlecht wird][1]
 

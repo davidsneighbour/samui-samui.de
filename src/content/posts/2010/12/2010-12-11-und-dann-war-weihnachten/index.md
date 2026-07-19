@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5251108691/" title="Christmas. Yeah. :|"><img src="//farm6.static.flickr.com/5006/5251108691_7bd87ef663_z.jpg" alt="Christmas. Yeah. :|" /></p>

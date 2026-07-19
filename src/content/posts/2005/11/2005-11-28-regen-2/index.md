@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wir haben hier ein kleineres Wetterproblem. Melde mich wieder.

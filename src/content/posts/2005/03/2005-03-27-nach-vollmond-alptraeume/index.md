@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Diese Nacht wird mir wiedermal als eine besonders Interessante in Erinnerung bleiben. Ich hatte meinen ersten Alptraum, in dem Thais vorkommen.
 

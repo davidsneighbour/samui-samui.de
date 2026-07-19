@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gemerkt? Plural im Titel! Genau.</span> Nachdem am Montag mal wieder in unserer kleinen Hausreihensiedlung eingebrochen wurde (diesmal traf es den Schotten (das war der, der in 10 Worten mindestens zweimal Fuck verpacken muss) und sie haben sein Schloss rausgehebelt (ist also doch nicht allzu sicher, wenn man die Fenster zu macht) und erkleckliche 600 THB geklaut --- er meinte eine erhebliche Synchronizität mit Diebstählen bei ihm und seinen Freunden und der Anwesenheit des Wandermarktes im jeweiligen Orte erkennen zu können) wurde ich gestern Abend mit einer beleuchteten Häuserreihe begrüsst. Seit Dienstag brannte im Nebenhaus Licht --- witzigerweise macht ein Haus, in dem es keine Geräusche gibt, vor dem kein Moped oder Auto steht auch einen absolut bewohnten Eindruck, wenn ein Licht die ganze Nacht durch brennt. Gestern brannte in allen Häusern Licht. Ich nahm also an, dass schon wieder eingebrochen wurde. Aber diesmal war alles anders.
 

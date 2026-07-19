@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Mich hat neulich tatsächlich jemand gefragt, ob ich mich noch der _Deutschen Blogosphäre_&trade; zugehörig fühle.
 

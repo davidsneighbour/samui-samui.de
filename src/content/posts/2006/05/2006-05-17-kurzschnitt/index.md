@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Aus der Kategorie "Das gibts nur in unserem Thailand" eine Lektion in Einflussnahme auf staatliche Organe: "der Film "Da Vinci Code [muss in Thailand auf Forderung christlicher Organisationen um 10 Minuten verkürzt aufgeführt werden][1]. Auszüge aus der Bibel die im Vor- und Abspann gezeigt werden müssen durch andere Sprüche ersetzt werden.
 

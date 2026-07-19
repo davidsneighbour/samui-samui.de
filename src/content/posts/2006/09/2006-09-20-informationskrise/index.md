@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Fu hat sich entschieden, den freien Tag in der Bank schlafend zu verbringen. Ich meinte daraufhin, dass ich eigentlich auf sie warte, damit sie mir die Mitteilungen und Nachrichten übersetzt. Das kanzelte sie mit einem "You can use the internet" ab und lachte. Wenigstens habe ich dann eine Ausrede wenn sie heute abend fragt, warum ich immer noch keinen Job habe.
 

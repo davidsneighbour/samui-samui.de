@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Bei 7eleven verkaufen sie Regenschirme. Scheint ein regenreiches Monatsende zu werden.

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Netter Kommentar in The Nation][1] über das Leben mit einer nicht regierenden Regierung:
 

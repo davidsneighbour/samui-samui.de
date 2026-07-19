@@ -5,15 +5,19 @@
  *
  * Usage:
  *   node src/scripts/post-covers.ts audit [--all|--year=YYYY|--path=glob] [--summary]
- *   node src/scripts/post-covers.ts migrate [--all|--year=YYYY|--path=glob] [--dry-run]
+ *   node src/scripts/post-covers.ts migrate [--all|--year=YYYY|--path=glob] [--dry-run] [--review] [--mark-missing]
  *
  * `migrate` only applies clear single-media cases:
  * - one local Markdown image (`![alt](./file.jpg)`)
  * - one standalone `<dnb-youtube>` or `<dnb-vimeo>` embed
  * - one Hugo `resources` image and no body media
  *
- * It keeps `resources` entries intact. Review and remove migrated resource
- * metadata in a dedicated content pass once the cover output has been checked.
+ * `--review` also migrates ambiguous posts that have at least one usable
+ * candidate. It prefers the first Hugo `resources` image, keeps body media in
+ * place, and marks the post with `publisher.covermigration: true`.
+ *
+ * `--mark-missing` can be combined with `--review` to mark posts that have no
+ * usable cover candidate. It does not create fake/empty covers.
  */
 
 import fs from 'node:fs';
@@ -42,7 +46,9 @@ interface ParsedFrontmatter {
 
 interface Candidate {
   caption: string | undefined;
+  index: number;
   remove: RegExp | undefined;
+  review: boolean;
   source: 'body-image' | 'body-video' | 'resources';
   src: string | undefined;
   type: CoverType;
@@ -52,8 +58,16 @@ interface Candidate {
 interface LoadedPost {
   data: Record<string, unknown>;
   doc: ReturnType<typeof parseDocument>;
+  file: string;
   parsed: ParsedFrontmatter;
 }
+
+type Classification =
+  | Candidate
+  | 'covered'
+  | 'covered:review'
+  | 'review:marked:no-candidate'
+  | 'review:no-candidate';
 
 const imageExtensionPattern = /\.(avif|gif|jpe?g|png|webp)$/i;
 const localImagePathPattern = /^\.\/([^/\\]+)$/;
@@ -90,6 +104,8 @@ function parseArgs(argv: string[]) {
   const [command, ...rest] = argv;
   const filters: Filters = { all: false, summary: false };
   let dryRun = false;
+  let markMissing = false;
+  let migrateReview = false;
 
   for (const arg of rest) {
     if (arg === '--all') {
@@ -98,6 +114,10 @@ function parseArgs(argv: string[]) {
       dryRun = true;
     } else if (arg === '--summary') {
       filters.summary = true;
+    } else if (arg === '--review') {
+      migrateReview = true;
+    } else if (arg === '--mark-missing') {
+      markMissing = true;
     } else if (arg.startsWith('--path=')) {
       filters.path = arg.slice('--path='.length);
     } else if (arg.startsWith('--year=')) {
@@ -107,7 +127,7 @@ function parseArgs(argv: string[]) {
     }
   }
 
-  return { command, dryRun, filters };
+  return { command, dryRun, filters, markMissing, migrateReview };
 }
 
 function hasFilter(filters: Filters): boolean {
@@ -135,7 +155,7 @@ function loadPost(file: string): LoadedPost | null {
 
   const doc = parseDocument(parsed.fmText);
   const data = (doc.toJS() ?? {}) as Record<string, unknown>;
-  return { data, doc, parsed };
+  return { data, doc, file, parsed };
 }
 
 function writePost(file: string, loaded: LoadedPost, body: string): void {
@@ -164,7 +184,9 @@ function collectBodyImageCandidates(body: string): Candidate[] {
 
       return {
         caption: alt.trim() || undefined,
+        index: match.index,
         remove: new RegExp(`\\n?${escapeRegExp(match[0])}\\n?`, 'm'),
+        review: false,
         source: 'body-image',
         src: fileName,
         type: 'image',
@@ -182,7 +204,9 @@ function collectBodyVideoCandidates(body: string): Candidate[] {
 
       return {
         caption: readAttribute(match[0], 'videotitle'),
+        index: match.index,
         remove: new RegExp(`\\n?${escapeRegExp(match[0])}\\n?`, 'm'),
+        review: false,
         source: 'body-video',
         src: undefined,
         type: 'youtube',
@@ -197,7 +221,9 @@ function collectBodyVideoCandidates(body: string): Candidate[] {
 
       return {
         caption: readAttribute(match[0], 'videotitle'),
+        index: match.index,
         remove: new RegExp(`\\n?${escapeRegExp(match[0])}\\n?`, 'm'),
+        review: false,
         source: 'body-video',
         src: undefined,
         type: 'vimeo',
@@ -206,15 +232,18 @@ function collectBodyVideoCandidates(body: string): Candidate[] {
     })
     .filter((candidate): candidate is Candidate => Boolean(candidate));
 
-  return [...youtube, ...vimeo];
+  return [...youtube, ...vimeo].sort((a, b) => a.index - b.index);
 }
 
-function collectResourceCandidates(data: Record<string, unknown>): Candidate[] {
+function collectResourceCandidates(
+  data: Record<string, unknown>,
+  postDirectory: string,
+): Candidate[] {
   const resources = data.resources;
   if (!Array.isArray(resources)) return [];
 
   return resources
-    .map((resource): Candidate | undefined => {
+    .map((resource, index): Candidate | undefined => {
       if (!resource || typeof resource !== 'object') return undefined;
 
       const record = resource as Record<string, unknown>;
@@ -222,12 +251,17 @@ function collectResourceCandidates(data: Record<string, unknown>): Candidate[] {
       if (!src || src.includes('/') || !imageExtensionPattern.test(src)) {
         return undefined;
       }
+      if (!fs.existsSync(path.join(postDirectory, src))) {
+        return undefined;
+      }
 
       const title = typeof record.title === 'string' ? record.title.trim() : '';
 
       return {
         caption: title || undefined,
+        index,
         remove: undefined,
+        review: false,
         source: 'resources',
         src,
         type: 'image',
@@ -241,18 +275,49 @@ function escapeRegExp(value: string): string {
   return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
-function classifyPost(loaded: LoadedPost): Candidate | 'covered' | 'review' {
-  if (loaded.data.cover) return 'covered';
+function firstReviewCandidate(
+  bodyCandidates: Candidate[],
+  resources: Candidate[],
+): Candidate | undefined {
+  const resourceCandidate = resources[0];
+  if (resourceCandidate) {
+    return { ...resourceCandidate, review: true };
+  }
+
+  const bodyCandidate = [...bodyCandidates].sort(
+    (a, b) => a.index - b.index,
+  )[0];
+  if (!bodyCandidate) return undefined;
+
+  return { ...bodyCandidate, remove: undefined, review: true };
+}
+
+function hasCoverMigrationMarker(data: Record<string, unknown>): boolean {
+  const publisher = data.publisher;
+  if (!publisher || typeof publisher !== 'object') return false;
+
+  return (publisher as Record<string, unknown>).covermigration === true;
+}
+
+function classifyPost(loaded: LoadedPost): Classification {
+  const marked = hasCoverMigrationMarker(loaded.data);
+
+  if (loaded.data.cover) return marked ? 'covered:review' : 'covered';
 
   const body = loaded.parsed.body;
   const bodyImages = collectBodyImageCandidates(body);
   const bodyVideos = collectBodyVideoCandidates(body);
-  const resources = collectResourceCandidates(loaded.data);
+  const resources = collectResourceCandidates(
+    loaded.data,
+    path.dirname(loaded.file),
+  );
   const allMediaCount = (body.match(anyMediaPattern) ?? []).length;
-  const bodyCandidates = [...bodyImages, ...bodyVideos];
+  const bodyCandidates = [...bodyImages, ...bodyVideos].sort(
+    (a, b) => a.index - b.index,
+  );
 
   if (bodyCandidates.length === 1 && allMediaCount === 1) {
-    return bodyCandidates[0] ?? 'review';
+    return bodyCandidates[0] ?? 'review:no-candidate';
   }
 
   if (
@@ -260,18 +325,13 @@ function classifyPost(loaded: LoadedPost): Candidate | 'covered' | 'review' {
     allMediaCount === 0 &&
     resources.length === 1
   ) {
-    return resources[0] ?? 'review';
+    return resources[0] ?? 'review:no-candidate';
   }
 
-  if (
-    bodyCandidates.length === 0 &&
-    allMediaCount === 0 &&
-    resources.length === 0
-  ) {
-    return 'review';
-  }
+  const reviewCandidate = firstReviewCandidate(bodyCandidates, resources);
+  if (reviewCandidate) return reviewCandidate;
 
-  return 'review';
+  return marked ? 'review:marked:no-candidate' : 'review:no-candidate';
 }
 
 function setCover(loaded: LoadedPost, candidate: Candidate): void {
@@ -289,12 +349,25 @@ function setCover(loaded: LoadedPost, candidate: Candidate): void {
 
   loaded.doc.set('cover', cover);
 
-  if (candidate.remove) {
+  if (candidate.review) {
+    setPublisherCoverMigration(loaded);
+  }
+
+  if (!candidate.review && candidate.remove) {
     loaded.parsed.body = loaded.parsed.body
       .replace(candidate.remove, '\n')
       .replace(/^\n+/, '')
       .replace(/\n{3,}/g, '\n\n');
   }
+}
+
+function setPublisherCoverMigration(loaded: LoadedPost): void {
+  const currentPublisher = loaded.doc.get('publisher', true);
+  const publisher =
+    currentPublisher instanceof YAMLMap ? currentPublisher : new YAMLMap();
+
+  publisher.set('covermigration', true);
+  loaded.doc.set('publisher', publisher);
 }
 
 async function runAudit(filters: Filters): Promise<void> {
@@ -310,7 +383,9 @@ async function runAudit(filters: Filters): Promise<void> {
     const status =
       typeof classification === 'string'
         ? classification
-        : `candidate:${classification.source}:${classification.type}`;
+        : classification.review
+          ? `review:has-candidate:${classification.source}:${classification.type}`
+          : `candidate:${classification.source}:${classification.type}`;
 
     counts.set(status, (counts.get(status) ?? 0) + 1);
     if (!filters.summary) {
@@ -324,7 +399,12 @@ async function runAudit(filters: Filters): Promise<void> {
   }
 }
 
-async function runMigrate(filters: Filters, dryRun: boolean): Promise<void> {
+async function runMigrate(
+  filters: Filters,
+  dryRun: boolean,
+  markMissing: boolean,
+  migrateReview: boolean,
+): Promise<void> {
   if (!hasFilter(filters)) {
     throw new Error(
       'Refusing to migrate without --all, --year=YYYY, or --path=glob.',
@@ -333,13 +413,31 @@ async function runMigrate(filters: Filters, dryRun: boolean): Promise<void> {
 
   const files = await findCandidateFiles(filters);
   let changed = 0;
+  let markedMissing = 0;
 
   for (const file of files) {
     const loaded = loadPost(file);
     if (!loaded) continue;
 
     const candidate = classifyPost(loaded);
+    if (candidate === 'review:no-candidate' && migrateReview && markMissing) {
+      setPublisherCoverMigration(loaded);
+      markedMissing++;
+
+      const rel = path.relative(projectRoot, file);
+      console.log(
+        `${dryRun ? '[dry-run] would mark' : 'marked'}\tno-candidate\t${rel}`,
+      );
+
+      if (!dryRun) {
+        writePost(file, loaded, loaded.parsed.body);
+      }
+
+      continue;
+    }
+
     if (typeof candidate === 'string') continue;
+    if (candidate.review && !migrateReview) continue;
 
     setCover(loaded, candidate);
     changed++;
@@ -357,22 +455,29 @@ async function runMigrate(filters: Filters, dryRun: boolean): Promise<void> {
   console.log(
     `\n${dryRun ? '[dry-run] would migrate' : 'Migrated'} ${changed} post(s).`,
   );
+  if (migrateReview && markMissing) {
+    console.log(
+      `${dryRun ? '[dry-run] would mark' : 'Marked'} ${markedMissing} post(s) without a cover candidate.`,
+    );
+  }
 }
 
 async function main(): Promise<void> {
   try {
-    const { command, dryRun, filters } = parseArgs(process.argv.slice(2));
+    const { command, dryRun, filters, markMissing, migrateReview } = parseArgs(
+      process.argv.slice(2),
+    );
 
     switch (command) {
       case 'audit':
         await runAudit(filters);
         break;
       case 'migrate':
-        await runMigrate(filters, dryRun);
+        await runMigrate(filters, dryRun, markMissing, migrateReview);
         break;
       default:
         throw new Error(
-          'Usage: post-covers audit|migrate [--all|--year=YYYY|--path=glob] [--dry-run]',
+          'Usage: post-covers audit|migrate [--all|--year=YYYY|--path=glob] [--dry-run] [--review] [--mark-missing]',
         );
     }
   } catch (error) {

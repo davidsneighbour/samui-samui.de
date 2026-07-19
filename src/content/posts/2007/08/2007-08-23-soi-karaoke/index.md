@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Mein kleiner Feldweg wurde neulich nicht nur in eine Asphaltstra?e verwandelt --- zumindest zu 90% der Länge, bis zur Karaokebar und 20 Meter dahinter, das Ende wurde mit einer neuen Feldwegkreuzung versehen und am Stra?enrand baggern Bagger und Schutttransporter fahren meine Internetkabelhalterbaumstämme einmal in der Woche um. Das allerdings hat seine Vorteile, denn dann bemühen sich nackte männliche Oberkörper, neue Stämme zu suchen um mein Kabel wieder aufzurichten. Das Internetkabel.
 

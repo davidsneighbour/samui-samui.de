@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute abend hab ich mal eine Sonnenuntergangsrundreise um die Insel gemacht. Dabei kam ich das erste Mal seit Anfang Juni auch wieder in Lamai vorbei und hab die Beachstreet abgefahren. Im Folgenden möchte ich kurz schreiben, was es Neues in und aus Lamai gibt.
 

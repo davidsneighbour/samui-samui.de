@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 Über Bomben macht man dieser Tage an Bord von Flugzeugen einfach keine Witze. Das durfte ein Schweizer [auf dem Weg in den Urlaub][1] dieser Tage erfahren.

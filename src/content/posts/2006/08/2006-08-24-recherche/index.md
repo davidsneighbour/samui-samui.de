@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich finde es erstaunlich, wie viele meiner Besucher über den Suchterm [Patrick Kollitsch][1] auf die [die schreiBBloga.de][2] kommen. _Das_ nenn ich mal Suchmaschinenoptimierung.
 

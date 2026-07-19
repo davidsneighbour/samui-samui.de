@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der Premierminister hat der Jugend Thailands ja angeraten, mit dem Sex zu warten, bis sie [im richtigen Alter][1] dafür ist. Wenn man allerdings ein Panda ist und keine Lust auf Sex hat, dann wird man in Thailand gezwungen oder "angeregt", dem freudigen Treiben zu fröhnen.
 

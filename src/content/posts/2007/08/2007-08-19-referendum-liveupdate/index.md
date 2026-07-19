@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man kann [das Zählen der Stimmen][1] (die Wahllokale (eher leer, wenn ich heute daran vorbeigefahren bin) schlossen um 18 Uhr) live verfolgen. Derzeit sieht es wie ein Ja für die neue Verfassung aus. Man sagt, gegen neun Uhr kann man das Ergebnis relativ repräsentativ nennen.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Das <span class="caps">CDR</span>, das vorher <span class="caps">ARC</span> hieß und sich zwischendurch auch mal <span class="caps">CDRM</span> nannte, heißt nun <span class="caps">CNS</span>.
 

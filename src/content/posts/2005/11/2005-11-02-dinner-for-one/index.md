@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Interessenten zum Thema Dinner mögen sich den Eintrag "<txp:gho_permalink id="453">Zahltag Klappe 2 --- Remix</txp:gho_permalink>" unter dem Aspekt der Kommunikation erneut lesend zu Gemüte führen. Ich werde berichten&trade;.

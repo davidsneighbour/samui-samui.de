@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/197046686/" title="Familytrip to the beach"><img src="//static.flickr.com/67/197046686_1a95e9ae6f.jpg" alt="Familytrip to the beach" /></a></p>

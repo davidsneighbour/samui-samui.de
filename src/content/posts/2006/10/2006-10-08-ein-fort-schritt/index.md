@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben habe ich Fu eine Emailadresse eingerichtet. Das ging etwa so:
 

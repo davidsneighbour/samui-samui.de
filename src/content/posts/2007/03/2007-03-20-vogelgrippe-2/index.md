@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Mukdahan (an der Grenze zu Laos) ist zur [Disease-Outbreak-Zone][1] erklärt worden, weil mal wieder ein toter Truthahn mit Vogelgrippe diagnostiziert wurde. Das passiert häufiger, entpuppt sich meistens als Fehlalarm, aber manchmal eben nicht. Rein präventiv werden erstmal wieder hunderte Geflügel getötet.
 

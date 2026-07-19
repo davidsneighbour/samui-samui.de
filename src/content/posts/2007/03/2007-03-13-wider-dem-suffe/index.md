@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute wurde nun das [lange und heftig diskutierte][1] Alkoholgesetz [verabschiedet][2].
 

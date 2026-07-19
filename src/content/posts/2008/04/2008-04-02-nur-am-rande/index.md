@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Se vogliamo che tutto rimanga com??è, bisogna che tutto cambi.

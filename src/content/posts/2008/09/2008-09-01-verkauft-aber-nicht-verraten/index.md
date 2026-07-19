@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thaksin Shinawatra, unser (ehemaliger) Premierminister und trotz Asyls in London immer noch Präsident des thailändischen Profigolfervereins, hat sein Spielzeug, den Mehrheitsanteil am britischen Fussballclub Manchester City [an eine Bietergesellschaft aus Abu Dhabi verkauft][1]. Scheint, dass sein Geld knapp wird.
 

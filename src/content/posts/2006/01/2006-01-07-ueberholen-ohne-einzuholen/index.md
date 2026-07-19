@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eigentlich wollte ich morgen mal eben meine unbedeutende kleine Onlinepublikation relaunchen. Ein bisschen andere Farbe. Ein bisschen mehr Kram zum draufklicken. Ein bisschen mehr Struktur. Dann aber entwickelte sich in den vergangenen zwei Tagen eine nicht unerhebliche Antipathie gegen die neue Version (ich glaube ich entwickle verspätete Schwangerschaftssyndrome). Da bin ich doch sehr froh, dass es _vor_ dem Umschalten kam. So kann ich jetzt sagen, dass es nur eine Designstudie ist und ich sie nie wirklich einsetzen wollte.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Seit vier Monaten lebt unter dem Haus ein, ehm, Hirschkäfer oder sowas. Jedenfalls ein fetter Käfer mit Horn vorne drauf (ok, Hirschkäfer haben bestimmt zwei Hörner also ist es ein, ehm, Nashornkäfer). Der fliegt dann Abends aller zwei Wochen gegen die Türe und versucht sich Einlass zu verschaffen. Fu hat ihn liebevoll Chang Noi (kleiner Elefant) getauft was mich nicht daran hindert, ihn wenn er es denn mal bis nach drinnen geschaft hat ganz unmonströs durchs Fenster wieder nach draussen zu befördern.
 

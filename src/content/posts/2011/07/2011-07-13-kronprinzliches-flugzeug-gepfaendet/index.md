@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Da zahlt man (Thailand) mal eine klitzekleine Rechnung (31 Millionen Euro) mal nicht, und schon (20 Jahre später) wird das Flugzeug des Kronprinzen Maha Vajiralongkorn gepfändet. [Tststs][1]...
 

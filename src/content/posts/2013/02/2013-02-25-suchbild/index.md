@@ -12,6 +12,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/8505344515/" title="New Neighbour (look again ;) by Patrick Kollitsch, on Flickr"><img src="//farm9.staticflickr.com/8228/8505344515_793466c19d_b.jpg" width="640" alt="New Neighbour (look again ;)" /></a><span>New Neighbour (look again ;)</span></a>

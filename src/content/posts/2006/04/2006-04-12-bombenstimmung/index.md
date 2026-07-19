@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Da hat der Iran also Uran angereichert. Gleich mal bei Wikipedia nachschlagen, was es damit auf sich hat. Auf Fox (der Nachrichtenkanal für amerikanische Bildzeitungsleser) hat gleich mal seine besten Reporter Bret und Brit losgeschickt, die aus Rumsfeld und Konsorten herauskitzeln, dass sie nicht sagen werden, ob sie irgendwelche Optionen noch einmal überdenken werden (wenn Bush "nuclear" sagt, klingt das immer wie "nukkila"). Und die UNO wird bestimmt nächsten Monat gleich eine Sitzung abhalten, in der darüber diskutiert werden wird, ob man demnächst nicht mal ne Sitzung abhalten soll die über die Einrichtung eines Komitees beraten soll, das dann eine Resolution verfassen soll, die dann Ende des Jahres ratifiziert werden soll --- dass man über Sanktionen gegen den Iran beraten will.
 

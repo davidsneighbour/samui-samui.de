@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Seit ein paar Tagen wird bei meinem Internet-Provider <span class="caps">TOT</span> versucht, bestimmte Seiten bei Facebook zu blocken. Das hängt wohl mit der für Freitag angekündigten Urteilsverkündigung zu der Weiterverwendung der eingefrorenen Reichtümer des Golfpräsidenten Thailands zusammen.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Zwischen Silvester und Neujahr wurden in Thailands drei gro?en Mobilfunknetzen [69 Millionen SMSse verschickt][1]. Das hat das Netz natürlich in die Knie gezwungen. Ich habe noch gestern morgen (3. Januar) SMSse vom 31. Dezember bekommen.
 

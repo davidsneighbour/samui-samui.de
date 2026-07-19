@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Da ist sie also][1] --- die (lange angekündigte</a>) neue Website von und mit Thaksin Shinawatra, dem Präsidenten des Thailändischen Profigolfervereins und des britischen Premier-League Fussballvereins Manchester City. Die auf der Basis eines Content Management Systems namens vDeck (<a href="1299">Deutsche in Thailand suchen bereits fieberhaft nach Sicherheitslücken des Systems) realisierte Website glänzt durch ein Bild, das ein Suchfeld darstellt, ein altes Bild von Thaksin (vermutete 5 Jahre alt, er sieht heutzutage etwas gehetzter aus) und einige Seiten, die nicht erreichbar sind. Die anderen Seiten sind mit langen Begründungen gefüllt, warum die aktuelle Regierung in Thailand böse ist. Gut zu wissen.
 

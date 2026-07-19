@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern war ich auf der Geburtstagsparty der Freundin meines Chefes. So. In Deutschland hätte ich das nie gemacht, auf die Freundinnensgeburtstagsparty meines Chefes zu gehen. Einerseits war ich die längste Zeit mein eigener Chef und andererseits hatten die Chefs keine geburtstagspartybesuchenswerten Freundinnen oder waren selbst geburtstagspartyunwert oder ich hab nicht lang genug für sie gearbeitet um auf eine derartige Veranstaltung zu kommen. Wie auch immer. Ich war da. Der Alkohol floss in Strömen (zumindest habe ich hinterher das Gefühl) und hier ist der Chang-Bericht.
 

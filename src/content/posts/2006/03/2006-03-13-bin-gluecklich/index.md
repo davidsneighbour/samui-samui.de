@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Keine Zeit. Muss... installieren... konfigurieren... Namen finden...

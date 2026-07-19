@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Umfragen haben ergeben, dass nur 13,3 Prozent der Thais wissen, [wieviele Vokale ihr Alphabet hat][1]. Ein spontaner Test mit meinem Thai-Azubi ergab das gleiche niederschmetternde Ergebnis.
 

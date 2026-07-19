@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Profigolfer der Nation schauen heute nach Bangkok. Es ist Thaksins gro?er D-Day: In Bangkok wird die Entscheidung über seine 76.621.603.61,05 eingefrorene Baht verkündet.
 

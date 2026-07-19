@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media photo">
   <a href="https://samui-samui.de/weblog/2012/12/breaking-news-des-tages/selection_004#main" rel="attachment wp-att-2315"><img class="alignnone size-medium wp-image-2315" alt="Selection_004" src="//samui-samui.dehttps://assets.samui-samui.de/2012/12/Selection_004-640x284.png" width="620" /></a>

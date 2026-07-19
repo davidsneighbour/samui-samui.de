@@ -12,6 +12,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img src="/images/87t.jpg" style="width:200px;float:left;margin-right:10px;" />][1]
 

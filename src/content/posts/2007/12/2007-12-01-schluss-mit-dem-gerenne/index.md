@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So. Man ist wieder vollwertiges Mitglied der ausländischen Meute in Thailand. Ein Konsulat in einer kleinen malaysischen Stadt hat ein Einsehen mit meinen chaotisch vorgelegten Papieren gehabt und mir ein buntes Visa mit Hologramm (der neueste Schrei in der Thaivisa-Szene) geklebt. Gültig für viele Einreisen innerhalb des nächsten Jahres. Ich werde versuchen, die Einreisen so niedrig zu halten wie möglich und nötig.
 

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Vorgestern Nacht hat man die Mörder der englischen Studentin gefasst. Wenn ich mir den [Bericht in The Nation online][1] dazu durchlese mache ich mir schon Gedanken darüber, wie niedrig die Hemmschwelle sein kann mit ein bisschen Porno und ein bisschen Sangsom (beides preiswert überall erhältlich).
 

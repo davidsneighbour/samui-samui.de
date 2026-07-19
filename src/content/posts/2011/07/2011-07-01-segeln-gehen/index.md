@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Auf Facebook kann man noch bis zum Ende des Jahres am [Nautiness-Gewinnspiel][1] teilnehmen und eine Woche all inklusive für zwei Personen auf einem Segel-Katamaran gewinnen. Segeln, Angeln, Tauchen oder einfach nur in der Sonne braten. Nur den Flug muss man noch bezahlen.
 

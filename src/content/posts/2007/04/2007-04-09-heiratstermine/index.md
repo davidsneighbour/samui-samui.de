@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Fu war heute auf der Hochzeit einer Freundin (ich nicht, denn ich musste arbeiten, das ist ein Thema für sich, kein Kommentar).
 

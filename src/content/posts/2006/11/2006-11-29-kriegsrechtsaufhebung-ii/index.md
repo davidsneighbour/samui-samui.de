@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wenn der König das entsprechende Gesetz unterzeichnet, dann wird in den nächsten Tagen in gut 50% der Provinzen Thailands das Kriegsrecht aufgehoben.
 

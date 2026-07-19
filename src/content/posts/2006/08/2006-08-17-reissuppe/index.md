@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 So. Reissuppe also für Pokki. Das trifft sich gut weil ich häufiger mal Reissuppe im Topf habe. Dabei handelt es sich aber nicht um irgendwas wohlschmeckendes mit Reis, es ist einfach nur Reis mit besonders viel Wasser. In der Regel gibt es dann dazu verschiedene Gerichte (Grünkram und tote Tiere) die man in die Suppe tunken kann auf dass der Geschmack komme.
 

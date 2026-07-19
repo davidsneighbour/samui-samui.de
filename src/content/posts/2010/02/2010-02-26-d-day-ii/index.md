@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Würfel sind gefallen: [46 Milliarden Baht][1] aus Thaksins eingefrorenen Geldern werden eingezogen, da er sie lt. Urteil unrechtmä?ig beschafft hat, 30 Milliarden bekommt er zurück. Damit hat er ja wieder erstmal ein bisschen Geld in der Kaffeekasse.
 

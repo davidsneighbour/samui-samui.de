@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thailands demokratisch eingesetzter Premierminister Abhisit Vejjajiva hat heute Myanmar die [Hilfe Thailands bei der demnächst stattfindenden Wahl][1] angeboten.
 

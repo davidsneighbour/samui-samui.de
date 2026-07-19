@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich weiss ja nicht, vielleicht hab ich's schonmal erzählt, wir haben zur Zeit Regen-, ehm, -zeit. Es regnet, in Mülleimern gemessen, ungefähr einen Eimer in zwei Stunden.
 

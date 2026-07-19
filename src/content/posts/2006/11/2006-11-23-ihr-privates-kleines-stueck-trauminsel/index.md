@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Kommse rein, kommse her, hier gibts noch was für den Euro!!!
 

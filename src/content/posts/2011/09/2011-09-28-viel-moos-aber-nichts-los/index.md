@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/6191521381/" title="At the beach by Patrick Kollitsch, on Flickr"><img src="//farm7.static.flickr.com/6171/6191521381_57fa4f5439_z.jpg" width="640" height="480" alt="At the beach" /></a></p>

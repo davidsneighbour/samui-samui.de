@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Youtube.com][1] geht wieder. Ich hatte 24 Stunden nach dem letzten Mal glatt vergessen, Bescheid zu sagen, dass es wieder geblockt ist, aber das war es. Bis vorhin. Nun können wir wieder Youtube.com kucken.
 

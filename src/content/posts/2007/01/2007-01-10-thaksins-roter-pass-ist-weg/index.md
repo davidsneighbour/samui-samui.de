@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Man erinnere sich bitte mal: Im November hatte man überlegt, wie man es anstellt, dem Thaksin Shinawatra, im September ungnädig in Abwesenheit hinweg geputschter Ex-Premierminister, seinen Diplomatenpass abzunehmen. Er reiste in der Welt herum, selbst Anfang der Woche hatte man noch erzählt, er wäre in Thailand gesehen worden.
 

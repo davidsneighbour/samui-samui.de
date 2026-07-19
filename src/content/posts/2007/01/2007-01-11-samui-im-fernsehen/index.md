@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Eben kam Samui im Fernsehen. Ihr wisst schon, die kleine Insel im Golf von Thailand. Viele Touristen sagen ihre Reisen ab, weil es hohe Wellen gibt. Na super. Es gibt ja auch nur Wasser auf Koh Samui. Passenderweise hat man den Bericht mit Bildern von halbnackt am Strand röstenden Farangs versetzt. Mich erklären meine Bekannten auf der Insel immer für verrückt, weil "you farang, you have to go beach and swim".
 

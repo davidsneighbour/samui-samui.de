@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es h??rt nicht auf. Im S??den ist so ziemlich alles ??berschwemmt, was zu ??berschwemmen geht. Die neun s??dlichen Provinzen sind zum Unwettergebiet ausgerufen worden und es wird f??r die n??chsten Tage mehr erwartet:
 

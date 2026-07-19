@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Vom 1. Dezember an dürfen die Tankstellen (wieder) rund um die Uhr öffnen][1]. Seit ich auf der Insel bin waren sie immer nur bis gegen 21 Uhr geöffnet, was mich mehr als einmal benzinlos vor geschlossenen Toren (Ok, es waren Rollabsperrungen, keine Tore) stehen ließ. In Lamai hat man die Tankstelle sogar ein paar Mal freundlich lächelnd vor meiner Nase zu gemacht.
 

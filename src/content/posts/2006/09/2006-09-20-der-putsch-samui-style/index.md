@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 _Das mit dem Schlafen hat nicht funktioniert, also habe ich mich kurzentschlossen auf eine Rundreise durch den nordöstlichen Teil Samuis gemacht (Bophut, Bang Rak, Airport, Chaweng und über Bophut zurück) und ein paar Leute befragt, die mir über den Weg liefen. Anschließend musste ich noch Soosie duschen, weil sie ihre fäkale Phase aktiv ausüben und ihre Nase in die Häufen anderer Hunde stecken musste. Buchstäblich. Nun aber wieder zum Tagesthema._
 

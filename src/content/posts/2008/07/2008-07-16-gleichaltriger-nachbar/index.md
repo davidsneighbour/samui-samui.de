@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Schlagzeile der Samuianischen Bildzeitung heute lautet:
 

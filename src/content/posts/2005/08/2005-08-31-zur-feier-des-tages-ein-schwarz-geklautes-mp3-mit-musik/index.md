@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Siehe Titel. 5.2MB. Thaimusik at its best. Es leben die Edelgase.][1]
 

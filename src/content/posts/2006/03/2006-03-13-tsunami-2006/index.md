@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es soll mal keiner sagen er käme unerwartet wenn er kommt. Die [Darstellung der Erdbeben der letzten 7 Tage in der Region][1] spricht für sich. In Phuket wird schon [kontrollierte Panik][2] verbreitet.
 

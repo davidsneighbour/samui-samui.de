@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Morgen, [5:07][1] werden in den Buchläden Thailands die letzten Harry Potters verkauft. Dann werden wir es endlich wissen. Obwohl --- eigentlich wird es eh nur um Sex gehen.
 

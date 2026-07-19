@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thaksin Shinawatra (für meine weniger häufigeren Leser: das ist der ehemalige Ministerpräsident des Königsreiches) reist immer noch in der Gegend rum. Heute nun ist er aus Bali (wo er sich zu rekreationalen Zwecken aufhielt) zurück nach Hong Kong gereist, um dort mit seiner Frau Khunying Pojamarn deren Geburtstag zu feiern.
 

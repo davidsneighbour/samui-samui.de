@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thailand erlebt zur Zeit eine Schwemme an Feiertagen ;). Vergangenen Freitag wurde vom Premierminister Abhisit ein unoffizieller offizieller Feiertag eingeschoben, damit die Hauptstadt sich auf Songkran vorbereiten kann. Dann kamen die offiziellen Songkran-Feiertage Montag bis Mittwoch und nun (wiederum nach Ereignissen in der Hauptstadt) wurden noch zwei inoffizielle Feiertage bis zum Ende der Woche zum Aufräumen eingeschoben.
 

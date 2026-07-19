@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gestern gab es ein Seebeben in der Nähe von Indonesien. Das ist nichts Außergewöhnliches. Es bebt hier öfters mal. Diesmal allerdings wurde eine Welle ausgelöst die an der Küste von Java aufschlug und mehr als 200 Menschen tötete.
 

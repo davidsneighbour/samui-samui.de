@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Europäische Union hat nun einen [Stunt geliefert][1], den normalerweise die Amerikaner zu liefern pflegen:
 

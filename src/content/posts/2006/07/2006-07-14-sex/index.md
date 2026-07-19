@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der Wasserbüffel-Bulle auf der Wiese neben meinem Haus ist rollig und muh-schreit den ganzen Tag herum. Die Wasserbüffel-Kuh auf der Wiese hinter dem Haus ist auch rollig und antwortet das Schreien des Bullen.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es gibt ja eine Menge Leute, die sich darüber aufregen, dass ich hier so wenig schreibe. Dass ist natürlich nur subjektiv so, denn an Tagen an denen ich dann mal schreibe, kommen gleich drei oder vier Einträge auf diese Seiten, aber subjektiv geht die Welt zu Grunde.
 

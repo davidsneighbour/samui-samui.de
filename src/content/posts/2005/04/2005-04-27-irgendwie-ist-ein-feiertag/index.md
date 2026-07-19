@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Irgendwie ist heute ein Feiertag. Wir wollten grade Mittag essen gehen, aber irgendwie sind auf 100 Meter alle Restaurants geschlossen. Ohne Vorwarnung. (Weiter sind wir nicht gekommen, weil es dazu noch ziemlich warm ist. Da bewegt man sich nicht allzugerne.) Als ich heute morgen aus Ban Nathon zurück kam, lief ein seltsamer Mönch durch Lamais Stra?en und alle Leute versuchten irgendwie ihm Schatten mit ihren Schirmen zu spenden. Der war wohl ziemlich wichtig.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich habe ja nun (wer drei Praktikantinnen um sich hat die deutsche Texte nach Englisch und Thai übersetzen dürfen weiss, dass dieses "ja nun" eine ziemlich schwachsinnige deutsche Wortkonstruktion ist --- ich nutz das trotzdem --- Stillosigkeit als Stil) ein Notebook bestellt und das freundlich <txp:gho_permalink id="658">als neues Familienmitglied gemeldet</txp:gho_permalink>. Ich dachte (die Verwendung des Präteritums deutet darauf hin, dass immer alles anders kommt als man es sich vorstellt, aber das wird man auch noch an der Länge des Eintrages sehen), dass das eine kurze einfache Sache wird --- aus Erfahrung, ich bestellte bei "unserem" Firmenlieferanten J.R. nach Katalog. Ein [Acer TravelMate 3212][1]. Katalogbestellungen machen keine Probleme. Denkt man.
 

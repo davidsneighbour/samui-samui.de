@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es gibt diese Tage, da merkt man schon beim Aufwachen, dass sie als schwarze Tage in die Jahresabschlusswertung eingehen werden.
 

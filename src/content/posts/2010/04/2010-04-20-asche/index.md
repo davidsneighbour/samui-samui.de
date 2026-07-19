@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wer von der isländischen Asche an der Heimreise ins heimische alte Europa gehindert wird (oder wurde) muss sich zumindest hinsichtlich seiner Aufenthaltsrechte hier in unserem schönen unruheversicherten Thailand keine Sorgen machen --- es werden keine "Overstay"-Gebühren erhoben, wenn der Rückflug ab dem 15. April gestrichen wurde (und man nicht schon vorher länger als gestempelt erlaubt im Königreich verweilte). Man bekommt in diesem Fall ganze 15 Tage kostenlos dazu --- bis 30. April wird das Visum automatisch verlängert. Eyafjökull, ehm, Eyjafökkull, ehm, dem Vulkan sei Dank.
 

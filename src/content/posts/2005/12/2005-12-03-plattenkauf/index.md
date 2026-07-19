@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute war ich in Nathon (immer der Sonne hinterher) beim Plattenverkäufer meines Vertrauens. Dort habe ich dann für 30 Euro CDs gekauft. Nun ja. Das wäre in Deutschland einmal Robbie Williams und das neue Teil von Madonna. Hier in Thailand ist es ein kleines bisschen mehr (mit jeder Menge Gehandel und Lachen und so. Aber ich habe es durchaus hingekriegt.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Shit. Ich muss mich hier von einem dummen rothaarigen aufmerksamkeitsbedürftigen Farang-Kleinkind aus dem Anwaltsoffice gegenüber angaffen lassen. Jetzt leckt das Ding auch noch die Scheibe an. Nenene. Wenn ich mal groß bin will ich Thaikinder haben...
 

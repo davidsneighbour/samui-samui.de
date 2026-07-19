@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Gut geschlafen. Auf ner komischen Matraze in ner komischen Hütte. Nachts im Plastikstuhl auf der "Veranda" gesessen und "Hannibal" gelesen. Meer gelauscht. Sextouristen aus Deutschland beobachtet. Irgendwie isses ihnen ja doch peinlich. Das Nebenhaus hatte Sex. Ungefähr 30 Sekunden lang. Wenn das Vorspiel leise war isses ok. Wenn nicht, tut (Hilfsverb) mir der weibliche Part leid. Könnte sein, dass die Hüttenwahl negativ in die Geschichte der die.schreibbloga.de eingehen wird. Hier spricht fast jeder Deutsch. Habt ihr Ferien oder so Kram?
 

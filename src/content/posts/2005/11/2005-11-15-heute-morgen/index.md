@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ... lächelte ich. Ganz kurz nur. Aber es war erkennbar. (Irgendwie hat das neue Haus mehr Spiegel als das alte.)

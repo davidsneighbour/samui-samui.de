@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Neulich war ich übrigens auf dem Visa-Run (Wir erinnern uns: "Wenn ich Run höre, dann erklingt irgendwo in meinem Hinterkopf immer eine Stelle aus Pink Floyds "The Wall" mit "you better run, run, run, run, run" oder so. Beim Suchen eben fiel mir auf, dass die Stelle aber auch aus meiner eigenen "The Wall"-Version stammen könnte, ich fand sie nämlich nicht.") in Burma, was manche noch als Birma kennen, aber nun bereits wieder Myanmar hei?t.
 

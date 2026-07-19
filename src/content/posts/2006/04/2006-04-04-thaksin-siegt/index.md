@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thaksin hat gesiegt in der Wahl. Sagt er. Für ihn bzw. Thai Tak Thai stimmten 16 Mio. Wähler, 10 Mio. Wähler kreuzten No an. In 50% der Provinzen wo nur TRT antrat werden Neuwahlen fällig, weil die Kandidaten die erforderliche Mindeststimmzahl nicht erreichten.

@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Von Freitag auf Samstag war YouTube von Thailand aus nicht erreichbar. Das sagen [verschiedene][1] [Weblogs][2] und Boards und [sogar BoingBoing greift das Thema auf][3].
 

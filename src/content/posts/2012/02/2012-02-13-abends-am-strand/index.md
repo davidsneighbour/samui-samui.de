@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="media photo image">
   <a href="http://www.flickr.com/photos/schreibblogade/6771472971/" title="Clouds by Patrick Kollitsch, on Flickr"><img src="//farm8.staticflickr.com/7165/6771472971_503b00d68c_z.jpg" width="640" height="480" alt="Clouds" /></a></p>

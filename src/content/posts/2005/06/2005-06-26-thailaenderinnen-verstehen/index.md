@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Muuuuahahahahaha. Eben kam ein Google-Suchender rein, der nach [Thailänderinnen verstehen][1] suchte. Gut. Ich werde mal versuchen, einiges zusammenzustellen:
 

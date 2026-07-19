@@ -11,5 +11,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Bin wieder da, war sehr sehr schön, hab aber noch keine Lust hier wieder zu schreiben, mal sehen, morgen vielleicht, oder überhaupt nicht mehr...

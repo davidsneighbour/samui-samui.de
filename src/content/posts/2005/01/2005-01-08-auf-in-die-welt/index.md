@@ -11,5 +11,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Auf in die Welt! So. In 4 Stunden werde ich das Vergnügen haben, in einem Flugzeug zu sitzen und Deutschland an mir vorbeiziehen zu sehen. Ich bin gespannt. In jeder Hinsicht des Wortes. Das Notebook wird gleich eingepackt. Dann gehts wohl los, oder?

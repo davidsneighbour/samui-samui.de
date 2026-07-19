@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Sodele... Heute geht es dann mal wieder ins schöne Malaysia --- ein Visarun steht an. Ein grö?erer, nach dessen Zieleinlauf ich dann (hoffentlich/vermutlich/eventuell/wenn alles klappt) nur noch aller drei Monate kurz über die Grenze hupfen muss.
 

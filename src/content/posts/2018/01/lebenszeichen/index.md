@@ -10,5 +10,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Oh! Hi! Hello! Dies ist nur ein Lebenszeichen. Ich bin noch da, das Blog ist noch da. Ich baue zur Zeit unter der Haube um und bin am überlegen, wie es hier weiter geht. Die Domain ist verlaengert bis 2020 ;) Mal sehen... Eigentlich gibt es keine Gründe, im Jahre 2018 noch ein Blog zu schreiben (was man schon an der Frequenz meiner Einträge in den vergangenen 10 Jahren sehen kann). Aber irgendwie gibt es doch hin und wieder den Drang, ein paar Worte in die (Online)Welt zu drücken. Hallo Echo!

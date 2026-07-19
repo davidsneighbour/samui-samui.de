@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Für morgen (Freitag) sind Demonstrationen der <span class="caps">PAD</span> (Peoples Alliance for Democracy, das sind die Gegner der aktuellen Regierung) angekündigt, in denen diese "mit Gewalt" gegen die Regierung vorgehen wollen. ?berhaupt haben sie angekündigt, mit den Demonstrationen nur dann auf zu hören, wenn die derzeitige Regierung zurück treten würde.
 

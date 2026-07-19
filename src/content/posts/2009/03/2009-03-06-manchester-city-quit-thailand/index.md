@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 
 Tja, ohne ehemaligen Premierminister Thailands im Board of Directors (wie voraus schauend mehrwertdeutig) hat auch der britische Fussballclub Manchester City [kein Interesse mehr][1] am "Thailand-Geschäft".

@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Für die beherzter entlassenen Ex-Rehabilitanten unter meinen Lieblingslesern: Ungefähr hier gehts los, und dann unten immer den linken Link klicken.

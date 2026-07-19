@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [<img width="420" src="//static.flickr.com/29/51178687_3366a41591.jpg" alt="Samui" />][1]
 

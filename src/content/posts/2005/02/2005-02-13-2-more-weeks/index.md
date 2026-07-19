@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hab heute "die Hütte" für weitere 2 Wochen gemietet. (_?ber-Ich_: Du wirst darin verotten!). Naja. Jedenfalls kam Mr. Wit freudestrahlend in seinem Pickup angefahren (hab ihn angerufen und klar gemacht, dass ich bleibe) und begrü?te mich mit "Morgen". Mir blieb das säuberlich vorformulierte und hundertmal geübte Sawadiikrapp im Halse stecken und ich murmelte ein "Hallo".
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es ist mal wieder Zeit, die Bookmarks der News abzugrasen, die es nicht in einen eigenen Eintrag geschafft haben:
 

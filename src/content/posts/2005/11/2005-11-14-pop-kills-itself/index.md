@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Wie man lesen kann][1] ist das Leben als Popstar in Thailand gefährlich. Für meine Entscheidung, hier doch kein Popstar zu werden spricht allerdings auch die Tatsache, dass man im Internet zu einem "Phai" absolut nichts findet. Überhaupt ist die Thailändische Poplandschaft sehr unübersichtlich. Neben den normalen "üblichen Verdächtigen" (Tata Young, Dan & Beam usw.), die ehrlich gesagt aussehen, als ob sie schon seit 10 Jahren diesem Gewerbe fröhnen gibt es jede Menge kleine Sternchen, die ungefähr 10 Monate lang geliebt werden und dann entweder von Studioscheinwerfern erschlagen oder der Plattenfirma gekündigt werden.
 

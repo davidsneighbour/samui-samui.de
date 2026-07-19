@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Thailand läuft immer alles etwas anders als man es aus der alten Heimat kennt.
 

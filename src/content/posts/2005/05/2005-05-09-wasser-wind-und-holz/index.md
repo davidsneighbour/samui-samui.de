@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es warnen ja immer wieder die intimen Kenner des Verkehrs auf der Insel vor dem Mopedfahren ohne Helm. Schlie?lich kann da ne Menge passieren. Man kann von einem Truck von der Stra?e gewischt werden, gegen andere Verkehrsteilnehmer fahren oder einfach so vom Moped fallen. Was diese Leute nicht wissen ist, dass man ebensogut von einem Baumstamm vom Auto gewischt und mit gespaltenem Kopf auf die Stra?e geklatscht werden kann. Da hilft dann auch kein Plastikhelm.
 

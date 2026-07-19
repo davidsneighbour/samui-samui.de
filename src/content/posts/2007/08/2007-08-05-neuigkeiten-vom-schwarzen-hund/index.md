@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photo.gne?id=950787266" title="Over There!!!"><img src="//static.flickr.com/1309/950787266_1d996afa0f.jpg" title="Over There!!!" alt="Over There!!!" width="500" height="375" /></a>

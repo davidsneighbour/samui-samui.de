@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/96202616/" title="chilling"><img src="//farm1.static.flickr.com/41/96202616_6cdc22a397.jpg" alt="chilling" /></a></p>

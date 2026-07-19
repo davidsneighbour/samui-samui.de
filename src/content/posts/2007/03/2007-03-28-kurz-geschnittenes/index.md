@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hin und wieder wurde ich in den vergangenen Tagen gefragt, warum ich denn "nichts mehr" schreibe. Seltsam. So kommt mir das nicht vor. Dummerweise schreibe ich eine Menge, was (noch) nicht online zu lesen ist oder weniger für dieses kleine Internet-Tagebuch geeignet (oder gedacht) ist. Nichtsdestotrotz haben sich einige Nachrichten und/oder News angehäuft, die ich keinem interessierten Leser vorenthalten will, ehe sie unaktuell oder aktualisiert werden. Auf auf nun zum fröhlichen Kurzgeschnittenen:
 

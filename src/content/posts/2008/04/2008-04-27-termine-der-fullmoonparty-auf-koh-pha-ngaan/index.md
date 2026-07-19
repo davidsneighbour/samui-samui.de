@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 * Samstag, 16. August
 * Sonntag, 14. September 2008

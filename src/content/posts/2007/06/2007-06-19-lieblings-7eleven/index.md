@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Mein Lieblings-7eleven ist im Herzen Maenams. Nicht wegen der Frauen oder der Jungs. Wegen der peinlich berührten aber nicht abweisenden Blicke, wenn man nach 24 Uhr noch Bier kaufen will. Die trauen sich nicht, einem Farang dem Wunsch nach Rausch abweisend zu entgegnen. Sehr schön
 

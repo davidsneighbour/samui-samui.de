@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Wenn die Benzinkosten auf ca. 60<txp:gho_baht/> pro Tag steigen handelt es sich entweder um eine Frau oder um die Suche nach einem neuen Haus.
 

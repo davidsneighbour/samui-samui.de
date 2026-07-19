@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute war einer dieser Tage zu denen man irgendwann einmal, wenn es mal Demokratie in Thailand geben wird und man sagen darf, was man denkt, sagen wird, es wäre ganz knapp an unschönen Begebenheiten vorbei gegangen.
 

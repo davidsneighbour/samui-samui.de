@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Es ist vollbracht. 12.000 Photos vom Urlaub sind gesichtet und 270 Photos liegen in einem Ordner und warten darauf, vertaggt, beschriftet und hochgeladen zu werden... Ich denke mal, dass gut 50 Photos noch weg fallen werden. Mal sehen....
 

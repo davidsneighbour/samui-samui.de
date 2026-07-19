@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Hab mich heute beim Rasieren fatal geschnitten. Ich sehe so aus den Augenwinkeln den Rasierer auf die Augen zu trudeln (womit ich beschäftigt war, mag der Leser nur erahnen), rei? den Kopf noch so rum und schon hab ich einen Dreierkratzer (raten Sie das Rasierermodell) unterm Auge, da wo gar keine Barthaare wachsen. Das glaubt mir wieder keiner, dass es nur ein Badezimmerunfall war.
 

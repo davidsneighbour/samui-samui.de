@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Es sieht so aus][1], als ob die nikaraguanische Passgeschichte Thaksins ein gut gemachter Photoshopscherz ist, der weder bestätigt werden kann noch verneint wird. Sehr beruhigend und vor allem ein klares Licht auf Thaksin werfend.
 

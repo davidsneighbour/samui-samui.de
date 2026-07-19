@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Neuwahlen in Thailand sind am 2.][1]  [<del>oder 9. April</del>][2].
 

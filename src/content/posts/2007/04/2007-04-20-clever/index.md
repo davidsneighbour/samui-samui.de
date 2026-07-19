@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Armee Chef Sonthi Boonyaratkalin beweist hin und wieder, dass er nicht dumm ist. Diesmal hat er ein "Angebot" der <span class="caps">USA</span> [ausgeschlagen][1], Thailand bei der Behebung der Konflikte im Süden helfen zu lassen.
 

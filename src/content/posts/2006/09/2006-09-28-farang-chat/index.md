@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [00:58:46] A says: nong, lek, ding, fuk
 

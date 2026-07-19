@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Manch einer wird sich erinnern, dass einer meiner Einträge</a> im November mit dem Satz "_Eine Geschichte die Drehbuch für einen thailändischen Horrorfilm sein könnte..._" begann. Man fand in den Leichenaufbewahrungsräumen eines Tempels in Bangkok über 2.000 Babyföten. <a href="1932">Nach und nach stellte sich heraus, dass die Leichen von illegalen Abtreibungen stammten und die Friedhofswächter sich durch die Lagerung etwas hinzu verdienen wollten.
 

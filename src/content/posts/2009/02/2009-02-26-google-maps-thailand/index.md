@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Google Maps gibt es nun auch in einem Thai sprechenden Interface. Unter [http://maps.google.co.th][1] kann man sich Thailand ansehen. Samui hingegen ist immer noch [bewölkt und sieht aus wie ein Patchworkteppich][2].
 

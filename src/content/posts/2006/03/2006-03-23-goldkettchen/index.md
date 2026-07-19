@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die Putze vom IT-Complex-Chef kam eben mit Goldkettchen, nettem, ehm, Oberteil und auch ansonsten recht aufgeputzt die Auffahrt hochgewankt. Entweder hat sie nen Fan (reich, Farang) oder die Mönche kommen wieder.
 

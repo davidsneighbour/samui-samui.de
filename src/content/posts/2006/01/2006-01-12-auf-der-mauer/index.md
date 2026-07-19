@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Mal angenommen ich hätte meine Kamera nicht im Büro vergessen, dann hätte ich heute morgen am Geisterhausfriedhof ein paar Fotos schiessen können von Pokki und einem etwa 10cm grossen Kätzchen, das da so auf der Mauer (auf der Lauer) in der Sonne saß und seine Mutter vermisste (die höchst schnöd 30 Meter weiter sich um ein anderes Katzenbaby kümmerte das keine Probleme hatte todesmutig eine 60cm hohe Mauer herunterzuspringen).
 

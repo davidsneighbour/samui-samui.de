@@ -21,6 +21,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
+cover:
+  type: image
+  src: lunar-new-year-2019-south-korea.gif
+  caption: Lunar New Year Südkorea --- &copy; google.com
 ---
 
 ![Lunar New Year Südkorea --- &copy; google.com](./lunar-new-year-2019-south-korea.gif)

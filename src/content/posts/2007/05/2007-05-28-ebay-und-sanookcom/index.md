@@ -10,6 +10,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 [Ebay und Sanook.com haben eine Partnerschaft verkündet][1], im Verlaufe derer sie ein Handelsportal eröffnen wollen, auf dem Privat- und Geschäftsleute im In- und Ausland handeln können.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Die [Touristenzahlen auf Samui][1] sind um 40-50% im Vergleich zum Vorjahr gesunken. Neben dem politischen Hin- und Her müssen Rezession und die Grippewelle als Gründe her halten.
 

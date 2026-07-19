@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In der Krisenregion im Süden Thailands gab es erneut eine [Schießerei mit Toten in einem Teeladen][1]. Der Angriff war dem Angriff ähnlich, in dessen Folge in der vergangenen Woche zwei Soldaten der thailändischen Armee in einer Moschee <txp:gho_permalink id="394">gefangen gehalten und zu Tode gefoltert wurden</txp:gho_permalink>.
 

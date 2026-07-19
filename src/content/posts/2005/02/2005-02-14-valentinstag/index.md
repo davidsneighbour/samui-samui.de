@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ohh! Ahh! Valentinstag! Küsschen! Super!
 

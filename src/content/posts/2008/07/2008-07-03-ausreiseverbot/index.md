@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Thaksin Shinawatra, seines Zeichens amtierender Präsident des Thailändischen Profigolferverbands, darf Thailand in den nächsten Wochen [nicht verlassen][1]. Dabei wollte er doch nur nach China, England, China (ja, zweimal) und Japan reisen.
 

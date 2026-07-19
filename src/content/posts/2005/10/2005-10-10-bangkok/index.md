@@ -9,5 +9,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 ... wird jedesmal besser. Allerdings auch schmutziger, verautoigter, heißer und nerviger. Was die Busfahrten angeht. Werde mal bei Gelegenheit den Zug testen. Mehr später.

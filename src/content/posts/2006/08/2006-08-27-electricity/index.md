@@ -8,5 +8,6 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich sag mal, mit steigender Zahl der Visarünne sinkt die Qualität selbiger. Mehr morgen.

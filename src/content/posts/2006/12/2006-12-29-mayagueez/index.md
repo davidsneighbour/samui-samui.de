@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Der an Weihnachten verstorbene ehemalige US-Präsident Gerald Rudolph Ford wird in Thailand vor allem mit _einer_ Sache in Verbindung gebracht: [dem Mayagüez-Vorfall][1]. Eine Gruppe kambodschanischer Roter Khmer kaperte ein amerikanisches Handelsschiff und hielt die Besatzung gefangen.
 

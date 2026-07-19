@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Als ich gestern noch meinte, wir würden das gregorianische Neujahr feiern, habe ich mich einigerma?en geirrt, es ist [Suriyakati][1]-Neujahr. Das ist der buddhistische Kalender der Thais.
 

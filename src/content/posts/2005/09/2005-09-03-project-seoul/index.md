@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Oh, did I tell already that I like photoblogs? It's mainly because my own photos are the worst waste of harddrive space since mankind spotted the possibility to hold moments on pictures.
 

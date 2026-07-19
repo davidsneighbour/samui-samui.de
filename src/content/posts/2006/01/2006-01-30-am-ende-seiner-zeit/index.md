@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 König Bhumipol (ich habe neulich gesagt bekommen, dass das pol am Ende im Thailändischen eher phon ausgesprochen wird, man aber den Farangs nicht die Freude daran nehmen will, einen Königsnamen aussprechen zu können) ist mit seinen (ja, seien wir mal ehrlich) 78 Jahren nicht nur der weltweit am längsten regierende König (dieses Jahr werden es 60 Jahre*), er ist auch etwas alt. Die durchschnittliche Lebensdauer in Thailand liegt derzeit bei 76 Jahren. So verwundert es niemanden, wenn die (ausländische) Presse [über seinen Gesundheitszustand zu spekulieren beginnt][1] und schon mal für "die Zeit danach" die Lage sondiert.
 

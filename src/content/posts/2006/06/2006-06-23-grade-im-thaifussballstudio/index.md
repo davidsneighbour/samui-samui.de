@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Grade hat im Thaifussball&trade;studio der FIFA-Chef Blatter eine Ansprache gehalten wo er dem König von Thailand alles Gute zum 60ten Thronjubiläum wünschte. Er endete mit "lonng laiff to säh gingg". Jaja. Das heißt long live the king bittesehr. Naja.
 

@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 "Was ist denn da bei euch unten wieder los" lautet der Einleitungssatz jeder zweiten privaten Email derzeit. "Bei uns" also hier auf der Insel ist nichts los. Keine Unruhen, keine politisch verwendeten roten Shirts. Aber auch keine Urlauber. Auf der anderen Seite geht es zur Zeit sowieso in Riesenschritten auf den hei?esten Monat zu. Wer will da schon in der Sonne braten.
 

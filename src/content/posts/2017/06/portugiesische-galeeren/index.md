@@ -11,6 +11,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Jo, da haben wir mal ein Thema wo ich die deutschen Begriffe nachschlagen musste. Soweit ist es also schon gekommen mit mir ;) Jeh oh jeh!
 

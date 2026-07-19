@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Heute nacht gab es wohl ein Erdbeben zwei Zeitzonen weiter westlich [mit anschlie?ender Tsunamiwarnung der thailändischen Behörden][1]. Ich habe davon nichts gemerkt. [Die Warnung wurde später auch wieder zurückgenommen][2].
 

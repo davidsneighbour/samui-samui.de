@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 In Asien zu leben ist zur Zeit recht schwierig, man hat ja immer die Terrorgefahr wegen der Anwesenheit des Amichefs in der Region. Gestern nun war er in Peking, besuchte einen evangelischen Gottesdienst (die anderen Besucher wurden größtenteils festgenommen und werden vermutlich von der Bildfläche verschwinden) und sprach dann die folgenden kraftvollen Sätze live auf allen Nachrichtenkanälen vor einer Ansammlung von Journalisten (Erinnerungszitat, es war viel schlimmer):
 

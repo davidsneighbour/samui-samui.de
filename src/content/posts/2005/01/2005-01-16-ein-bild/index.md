@@ -14,6 +14,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 <figure><img width="420" height="315" src="/wp-content/uploads/2005/01/ein-bild/15.jpg" class="attachment-original size-original" alt="" /><figcaption>
 

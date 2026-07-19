@@ -8,6 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Ich finde ja, dass man Wissenschaftlern jegliches Stimmrecht entziehen sollte. "Seit gestern ist Pluto nur noch ein Zwerg-Planet und kein "richtiger [Planet mehr][1]. Warum? Weil Wissenschaftler erst diskutiert haben, die Definition eines Planeten zu ändern und dann nur ein paar davon (um die 400) über eine wissenschaftlich allgemeingültige Definition abgestimmt haben. Dummerweise haben größtenteils die Falschen abgestimmt.
 

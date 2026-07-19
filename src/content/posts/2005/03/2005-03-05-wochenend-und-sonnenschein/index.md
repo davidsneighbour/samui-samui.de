@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nein, liebe Leute, _so_ gehts nun wirklich nicht. Es ist hier dunkel wie kurz vorm Sonnenuntergang, es stürmt und der Himmel sieht bedenklich nach langanhaltendem Regen aus. Ich bin ja schon froh, dass ich noch ins Büro gekommen bin, so muss ich nicht in meiner kleinen Hütte hocken und hab einen schnellen Rechner. Aber eigentlich wollte ich ja mal komisch aussehende Steine ansehen.
 

@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nachdem ich anderthalb Tage im Bett verbracht und mir vor Langeweile Locken gedreht habe, entschied ich mich, etwas zu ändern. Es kann ja nicht angehen, dass ich hier zwischen Büro und Filmabenden vergammele. Ich erstellte mir einen Aktivitätsplan, dessen Punkte bis Sonntag abgearbeitet zu sein hatten. Nicht dass ich das nicht schon öfter gemacht hätte, es haperte bisher nur an der Erfüllung des Plansolls. Der Plan umfasste nur zwei kleine kurze Punkte: Schreibtisch kaufen, damit ich in meiner kleinen Hütte arbeiten könne und genügend Thais kennenlernen, damit ich mein Thai anwenden und lernen kann.
 

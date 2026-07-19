@@ -9,6 +9,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  covermigration: true
 ---
 Nun gut, die wenigsten mag es interessieren, aber als ich heute meinen freitäglichen Besuch bei Tsutaya, meinem samuianischen VCD-Dealer, machte, hatten die plötzlich jede Menge DVDs zum Preis einer VCD. Nun gut. eine DVD ist nicht unbedingt eine DVD. Der Inhalt macht die Qualität. Blafasel.
 
