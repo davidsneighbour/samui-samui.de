@@ -1,26 +1,48 @@
 ---
 import { getCollection } from 'astro:content';
 import PageLayout from '@layouts/PageLayout.astro';
-import { formatMonthLong } from '@utils/dates';
+import { formatMonthLong, formatMonthShort } from '@utils/dates';
 import { getPostUrl } from '@utils/posts';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
-  const years = new Set(posts.map((post) => post.data.date.getUTCFullYear()));
 
-  return [...years].map((year) => {
-    const yearPosts = posts
-      .filter((post) => post.data.date.getUTCFullYear() === year)
-      .sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf());
+  const postsByYear = new Map<number, typeof posts>();
+  for (const post of posts) {
+    const year = post.data.date.getUTCFullYear();
+    const group = postsByYear.get(year);
+    if (group) {
+      group.push(post);
+    } else {
+      postsByYear.set(year, [post]);
+    }
+  }
 
+  // Only years that actually have posts get a route -- a gap year like 2023
+  // is listed (unlinked) on /archiv/ but never generates a page here.
+  const sortedYears = [...postsByYear.keys()].sort((a, b) => a - b);
+
+  return sortedYears.map((year, index) => {
+    const yearPosts = postsByYear.get(year);
+    if (!yearPosts) throw new Error(`No posts found for year ${year}`);
     return {
       params: { year: String(year) },
-      props: { posts: yearPosts, year },
+      props: {
+        nextYear: sortedYears[index + 1] ?? null,
+        posts: yearPosts,
+        previousYear: sortedYears[index - 1] ?? null,
+        year,
+      },
     };
   });
 }
 
-const { year, posts } = Astro.props;
+const { year, posts, previousYear, nextYear } = Astro.props;
+
+interface MonthGroup {
+  month: number;
+  posts: typeof posts;
+}
 
 const months = new Map<number, typeof posts>();
 for (const post of posts) {
@@ -32,32 +54,108 @@ for (const post of posts) {
     months.set(month, [post]);
   }
 }
-const sortedMonths = [...months.entries()].sort(([a], [b]) => a - b);
+
+const sortedMonths: MonthGroup[] = [...months.entries()]
+  .sort(([a], [b]) => a - b)
+  .map(([month, monthPosts]) => ({
+    month,
+    posts: [...monthPosts].sort(
+      (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+    ),
+  }));
+
+// Matches the `#monat-MM` convention linked from /archiv/'s year rows.
+const monthAnchor = (month: number) =>
+  `monat-${String(month + 1).padStart(2, '0')}`;
+
+const dayMonth = (date: Date) =>
+  `${String(date.getUTCDate()).padStart(2, '0')}.${String(date.getUTCMonth() + 1).padStart(2, '0')}.`;
 ---
 
 <PageLayout
   title={String(year)}
-  description={`Alle Beiträge aus ${year}`}
+  description={`${posts.length} ${posts.length === 1 ? 'Beitrag' : 'Beiträge'} aus dem Jahr ${year}`}
 >
-  {sortedMonths.map(([month, monthPosts]) => (
-      <section class="mb-6">
-        <strong class="mb-2 block text-card-foreground">
-          {formatMonthLong(new Date(Date.UTC(year, month, 1)))}{' '}
-          {year}
-        </strong>
+  <a
+    href="/archiv/"
+    class="mb-6 inline-block text-sm text-link hover:underline"
+  >
+    ← Archiv
+  </a>
+
+  <p class="-mt-2 mb-6 text-center text-lg text-muted-foreground">
+    {posts.length} {posts.length === 1 ? 'Beitrag' : 'Beiträge'} aus dem Jahr
+    {year}
+  </p>
+
+  <div class="mb-6 flex items-center justify-between text-sm">
+    {previousYear ? (
+      <a
+        href={`/archiv/${previousYear}/`}
+        class="text-link hover:underline"
+      >
+        ← {previousYear}
+      </a>
+    ) : (
+      <span />
+    )}
+    {nextYear ? (
+      <a
+        href={`/archiv/${nextYear}/`}
+        class="text-link hover:underline"
+      >
+        {nextYear} →
+      </a>
+    ) : (
+      <span />
+    )}
+  </div>
+
+  <nav
+    aria-label="Monate"
+    class="mb-10 flex flex-wrap gap-x-1 gap-y-1 border-y border-border py-4 text-sm text-muted-foreground"
+  >
+    {sortedMonths.map(({ month, posts: monthPosts }, index) => (
+        <>
+          {index > 0 && <span aria-hidden="true">·</span>}
+          <a
+            href={`#${monthAnchor(month)}`}
+            class="px-1 hover:text-link hover:underline"
+          >
+            {formatMonthShort(new Date(Date.UTC(year, month, 1)))}{' '}
+            {monthPosts.length}
+          </a>
+        </>
+      ))}
+  </nav>
+
+  {sortedMonths.map(({ month, posts: monthPosts }) => (
+      <section
+        id={monthAnchor(month)}
+        class="mb-8"
+      >
+        <h2 class="mb-2 flex items-baseline justify-between text-card-foreground">
+          <span class="font-medium">
+            {formatMonthLong(new Date(Date.UTC(year, month, 1)))}
+          </span>
+          <span class="text-sm text-muted-foreground">
+            {monthPosts.length} {monthPosts.length === 1 ? 'Beitrag' : 'Beiträge'}
+          </span>
+        </h2>
         <ul class="space-y-1">
           {monthPosts.map((post) => (
-            <li class="text-muted-foreground">
-              {post.data.date.getUTCDate()}.{' '}
-              {formatMonthLong(post.data.date)} {year} -{' '}
-              <a
-                href={getPostUrl(post)}
-                class="text-link hover:underline"
-              >
-                {post.data.title}
-              </a>
-            </li>
-          ))}
+              <li class="flex gap-3 text-sm">
+                <span class="shrink-0 tabular-nums text-muted-foreground">
+                  {dayMonth(post.data.date)}
+                </span>
+                <a
+                  href={getPostUrl(post)}
+                  class="text-link hover:underline"
+                >
+                  {post.data.title}
+                </a>
+              </li>
+            ))}
         </ul>
       </section>
     ))}
