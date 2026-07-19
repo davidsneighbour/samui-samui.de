@@ -10,6 +10,7 @@ import Header from '@components/Header.astro';
 import PostCover from '@components/PostCover.astro';
 import SocialShare from '@components/SocialShare.astro';
 import Separator from '@components/ui/separator.astro';
+import VimeoScript from '@components/VimeoScript.astro';
 import type { ResolvedPostCover } from '@utils/covers';
 import { proseClasses } from '@utils/prose';
 import type { ImageMetadata } from 'astro';
@@ -118,6 +119,7 @@ const metaImage =
             />
             <Separator />
           </div>
+          <VimeoScript />
           <div class={proseClasses}>
             <slot />
           </div>

@@ -16,7 +16,7 @@ resources:
       title: "Thailand misses you (video thumbnail via vimeo.com)"
 ---
 
-<iframe src="https://player.vimeo.com/video/522265992" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<dnb-vimeo videoid="522265992" videotitle="Thailand vermisst dich"></dnb-vimeo>
 
 Die thailändische Tourismusbehörde (TAT) hat einen neuen TV-Werbespot gestartet, um der Welt die Nachricht zu senden, dass das Land es nicht erwarten kann, Besucher wieder willkommen zu heißen.
 

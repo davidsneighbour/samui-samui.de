@@ -1,0 +1,49 @@
+---
+// Astro wrapper around the `dnb-vimeo` web component (see VimeoScript.astro),
+// a TypeScript port of https://github.com/slightlyoff/lite-vimeo — a
+// click-to-load Vimeo facade that only fetches the oEmbed thumbnail up
+// front and defers the real iframe until the user interacts (or, with
+// `autoload`, until it scrolls into view).
+import VimeoScript from '@components/VimeoScript.astro';
+
+type Props = {
+  /** Vimeo video id, e.g. `522265992` for https://vimeo.com/522265992 */
+  videoid: string;
+  /** Accessible title used for the play button and iframe title. */
+  title?: string;
+  /** Label prefixed to the title, e.g. "Play: <title>". Defaults to "Play". */
+  playLabel?: string;
+  /** Start offset, e.g. "1m30s". Defaults to "0s". */
+  startAt?: string;
+  /** Unlisted-video access hash (the `h` query param on vimeo.com/<id>/<hash>). */
+  hash?: string;
+  /** Load the iframe automatically once the element scrolls into view. */
+  autoload?: boolean;
+  /** Autoplay once loaded (only takes effect together with `autoload`). */
+  autoplay?: boolean;
+  class?: string;
+};
+
+const {
+  videoid,
+  title,
+  playLabel,
+  startAt,
+  hash,
+  autoload = false,
+  autoplay = false,
+  class: className,
+} = Astro.props;
+---
+
+<VimeoScript />
+<dnb-vimeo
+  videoid={videoid}
+  videotitle={title}
+  videoplay={playLabel}
+  start={startAt}
+  videohash={hash}
+  autoload={autoload ? '' : undefined}
+  autoplay={autoplay ? '' : undefined}
+  class={className}
+></dnb-vimeo>

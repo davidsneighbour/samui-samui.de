@@ -1,0 +1,294 @@
+---
+// Defines the `dnb-vimeo` custom element (a TypeScript port of
+// https://github.com/slightlyoff/lite-vimeo/blob/master/lite-vimeo.ts) so raw
+// `<dnb-vimeo videoid="…">` markup works both from the `Vimeo.astro` wrapper
+// and from `<dnb-vimeo>` tags dropped directly into blog post markdown
+// (blog posts are plain .md, not .mdx, so they cannot import Vimeo.astro).
+---
+
+<script>
+  if (!customElements.get('dnb-vimeo')) {
+    type VimeoOembedResponse = {
+      thumbnail_url?: string;
+      title?: string;
+    };
+
+    function isVimeoOembedResponse(
+      value: unknown,
+    ): value is VimeoOembedResponse {
+      return typeof value === 'object' && value !== null;
+    }
+
+    class DnbVimeo extends HTMLElement {
+      static #preconnected = false;
+
+      #iframeLoaded = false;
+      #frame!: HTMLDivElement;
+      #playButton!: HTMLButtonElement;
+      #img!: {
+        fallback: HTMLImageElement;
+        webp: HTMLSourceElement;
+        jpeg: HTMLSourceElement;
+      };
+
+      static get observedAttributes(): string[] {
+        return ['videoid'];
+      }
+
+      constructor() {
+        super();
+        this.#setupDom();
+      }
+
+      get videoId(): string {
+        return encodeURIComponent(this.getAttribute('videoid') ?? '');
+      }
+
+      get videoTitle(): string {
+        return this.getAttribute('videotitle') ?? 'Video';
+      }
+
+      get videoPlay(): string {
+        return this.getAttribute('videoplay') ?? 'Play';
+      }
+
+      get videoStartAt(): string {
+        return this.getAttribute('start') ?? '0s';
+      }
+
+      get videoHash(): string {
+        return encodeURIComponent(this.getAttribute('videohash') ?? '');
+      }
+
+      get autoLoad(): boolean {
+        return this.hasAttribute('autoload');
+      }
+
+      get autoPlay(): boolean {
+        return this.hasAttribute('autoplay');
+      }
+
+      #setupDom(): void {
+        const shadow = this.attachShadow({ mode: 'open' });
+        shadow.innerHTML = `
+              <style>
+                :host {
+                  contain: content;
+                  display: block;
+                  position: relative;
+                  width: 100%;
+                  aspect-ratio: 16 / 9;
+                  background-color: #000;
+                }
+                #frame, iframe {
+                  position: absolute;
+                  inset: 0;
+                  width: 100%;
+                  height: 100%;
+                  border: 0;
+                }
+                #frame {
+                  cursor: pointer;
+                }
+                picture, img {
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                }
+                .dnb-vimeo-playbtn {
+                  width: 70px;
+                  height: 46px;
+                  background-color: #212121;
+                  z-index: 1;
+                  opacity: 0.8;
+                  border-radius: 10%;
+                  transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
+                  border: 0;
+                  cursor: pointer;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate3d(-50%, -50%, 0);
+                }
+                #frame:hover .dnb-vimeo-playbtn {
+                  background-color: rgb(98, 175, 237);
+                  opacity: 1;
+                }
+                .dnb-vimeo-playbtn::before {
+                  content: '';
+                  border-style: solid;
+                  border-width: 11px 0 11px 19px;
+                  border-color: transparent transparent transparent #fff;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate3d(-40%, -50%, 0);
+                }
+                #frame.dnb-vimeo-activated .dnb-vimeo-playbtn {
+                  display: none;
+                }
+              </style>
+              <div id="frame">
+                <picture>
+                  <source id="webpPlaceholder" type="image/webp" />
+                  <source id="jpegPlaceholder" type="image/jpeg" />
+                  <img
+                    id="fallbackPlaceholder"
+                    referrerpolicy="origin"
+                    decoding="async"
+                    loading="lazy"
+                  />
+                </picture>
+                <button class="dnb-vimeo-playbtn" type="button"></button>
+              </div>
+            `;
+
+        this.#frame = shadow.querySelector<HTMLDivElement>('#frame')!;
+        this.#playButton =
+          shadow.querySelector<HTMLButtonElement>('.dnb-vimeo-playbtn')!;
+        this.#img = {
+          fallback: shadow.querySelector<HTMLImageElement>(
+            '#fallbackPlaceholder',
+          )!,
+          jpeg: shadow.querySelector<HTMLSourceElement>('#jpegPlaceholder')!,
+          webp: shadow.querySelector<HTMLSourceElement>('#webpPlaceholder')!,
+        };
+      }
+
+      connectedCallback(): void {
+        this.addEventListener('pointerover', DnbVimeo.#warmConnections, {
+          once: true,
+        });
+        this.addEventListener('click', () => this.#addIframe());
+
+        if (this.autoLoad) {
+          this.#initIntersectionObserver();
+        }
+      }
+
+      attributeChangedCallback(
+        name: string,
+        oldVal: string | null,
+        newVal: string | null,
+      ): void {
+        if (name !== 'videoid' || oldVal === newVal) return;
+
+        void this.#loadPlaceholder();
+
+        if (this.#frame.classList.contains('dnb-vimeo-activated')) {
+          this.#frame.classList.remove('dnb-vimeo-activated');
+          this.shadowRoot?.querySelector('iframe')?.remove();
+          this.#iframeLoaded = false;
+        }
+      }
+
+      #addIframe(): void {
+        if (this.#iframeLoaded) return;
+
+        const srcUrl = new URL(
+          `https://player.vimeo.com/video/${this.videoId}`,
+        );
+        srcUrl.searchParams.set('dnt', '1');
+        if (this.autoLoad && this.autoPlay) {
+          srcUrl.searchParams.set('autoplay', '1');
+        }
+        if (this.videoHash) {
+          srcUrl.searchParams.set('h', this.videoHash);
+        }
+        if (this.videoStartAt) {
+          srcUrl.hash = `t=${this.videoStartAt}`;
+        }
+
+        const iframe = document.createElement('iframe');
+        iframe.setAttribute(
+          'allow',
+          'accelerometer; autoplay; encrypted-media; fullscreen; gyroscope; picture-in-picture',
+        );
+        iframe.setAttribute('allowfullscreen', '');
+        iframe.setAttribute('title', `${this.videoPlay}: ${this.videoTitle}`);
+        iframe.src = srcUrl.toString();
+
+        this.#frame.append(iframe);
+        this.#frame.classList.add('dnb-vimeo-activated');
+        this.#iframeLoaded = true;
+      }
+
+      async #loadPlaceholder(): Promise<void> {
+        if (!this.videoId) return;
+
+        DnbVimeo.#addPrefetch('preconnect', 'https://i.vimeocdn.com/');
+
+        const apiUrl = `https://vimeo.com/api/oembed.json?url=${encodeURIComponent(
+          `https://vimeo.com/${this.videoId}`,
+        )}`;
+
+        let data: VimeoOembedResponse = {};
+        try {
+          const response = await fetch(apiUrl);
+          const json: unknown = await response.json();
+          if (isVimeoOembedResponse(json)) {
+            data = json;
+          }
+        } catch {
+          // Network/API failure: fall back to a blank thumbnail rather than
+          // blocking the click-to-load iframe behaviour.
+        }
+
+        const label = `${this.videoPlay}: ${
+          this.getAttribute('videotitle') ?? data.title ?? this.videoTitle
+        }`;
+        this.#playButton.setAttribute('aria-label', label);
+        this.setAttribute('title', label);
+        this.#img.fallback.setAttribute('aria-label', label);
+        this.#img.fallback.setAttribute('alt', label);
+
+        const thumbnailUrl = data.thumbnail_url;
+        if (!thumbnailUrl) return;
+
+        const imgId = thumbnailUrl
+          .slice(thumbnailUrl.lastIndexOf('/') + 1)
+          .split('_')[0];
+        this.#img.webp.srcset = `https://i.vimeocdn.com/video/${imgId}.webp?mw=1100&mh=619&q=70`;
+        this.#img.jpeg.srcset = `https://i.vimeocdn.com/video/${imgId}.jpg?mw=1100&mh=619&q=70`;
+        this.#img.fallback.src = `https://i.vimeocdn.com/video/${imgId}.jpg?mw=1100&mh=619&q=70`;
+      }
+
+      #initIntersectionObserver(): void {
+        if (!('IntersectionObserver' in window)) return;
+
+        const observer = new IntersectionObserver(
+          (entries, obs) => {
+            for (const entry of entries) {
+              if (entry.isIntersecting && !this.#iframeLoaded) {
+                DnbVimeo.#warmConnections();
+                this.#addIframe();
+                obs.unobserve(this);
+              }
+            }
+          },
+          { root: null, rootMargin: '0px', threshold: 0 },
+        );
+        observer.observe(this);
+      }
+
+      static #addPrefetch(kind: string, url: string): void {
+        const link = document.createElement('link');
+        link.rel = kind;
+        link.href = url;
+        link.crossOrigin = 'true';
+        document.head.append(link);
+      }
+
+      static #warmConnections(): void {
+        if (DnbVimeo.#preconnected) return;
+        DnbVimeo.#addPrefetch('preconnect', 'https://f.vimeocdn.com');
+        DnbVimeo.#addPrefetch('preconnect', 'https://player.vimeo.com');
+        DnbVimeo.#addPrefetch('preconnect', 'https://i.vimeocdn.com');
+        DnbVimeo.#preconnected = true;
+      }
+    }
+
+    customElements.define('dnb-vimeo', DnbVimeo);
+  }
+</script>
