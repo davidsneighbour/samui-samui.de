@@ -29,6 +29,7 @@ const { title, description } = Astro.props as Props;
       <article
         class="rounded-(--radius) bg-card px-4 py-8 text-card-foreground sm:px-8"
       >
+        <slot name="breadcrumbs" />
         <header class="mb-8 text-center">
           <h1 class="text-3xl font-normal sm:text-4xl">{title}</h1>
         </header>

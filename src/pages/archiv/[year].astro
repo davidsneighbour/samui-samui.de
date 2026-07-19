@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
 import PageLayout from '@layouts/PageLayout.astro';
 import { formatMonthLong, formatMonthShort } from '@utils/dates';
 import { getPostUrl } from '@utils/posts';
@@ -76,6 +77,15 @@ const dayMonth = (date: Date) =>
   title={String(year)}
   description={`${posts.length} ${posts.length === 1 ? 'Beitrag' : 'Beiträge'} aus dem Jahr ${year}`}
 >
+  <Breadcrumbs
+    slot="breadcrumbs"
+    items={[
+      { href: '/', label: 'Startseite' },
+      { href: '/archiv/', label: 'Archiv' },
+      { href: `/archiv/${year}/`, label: String(year) },
+    ]}
+  />
+
   <a
     href="/archiv/"
     class="mb-6 inline-block text-sm text-link hover:underline"

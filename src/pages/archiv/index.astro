@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
 import FormattedDate from '@components/FormattedDate.astro';
 import Accordion from '@components/ui/accordion.astro';
 import Badge from '@components/ui/badge.astro';
@@ -121,6 +122,14 @@ const curatedTags = tagGroups.slice(0, 12);
     href="/pagefind/pagefind-ui.css"
     rel="stylesheet"
   >
+
+  <Breadcrumbs
+    slot="breadcrumbs"
+    items={[
+      { href: '/', label: 'Startseite' },
+      { href: '/archiv/', label: 'Archiv' },
+    ]}
+  />
 
   <p class="-mt-4 mb-8 text-center text-lg text-muted-foreground">
     21 Jahre Leben auf Koh Samui

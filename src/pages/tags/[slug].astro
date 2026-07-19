@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseHead from '@components/BaseHead.astro';
 import BlogList from '@components/BlogList.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
 import Footer from '@components/Footer.astro';
 import Header from '@components/Header.astro';
 import { groupPostsByTag } from '@utils/tags';
@@ -19,12 +20,13 @@ export async function getStaticPaths() {
       posts: group.posts.sort(
         (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
       ),
+      slug: group.slug,
       title: group.title,
     },
   }));
 }
 
-const { title, description, posts } = Astro.props;
+const { title, description, posts, slug } = Astro.props;
 ---
 
 <!doctype html>
@@ -42,6 +44,14 @@ const { title, description, posts } = Astro.props;
     <Header />
     <main class="py-8">
       <section>
+        <Breadcrumbs
+          class="mx-auto max-w-4xl px-4"
+          items={[
+            { href: '/', label: 'Startseite' },
+            { href: '/tags/', label: 'Themen' },
+            { href: `/tags/${slug}/`, label: title },
+          ]}
+        />
         <h1
           class="mx-auto mb-4 max-w-4xl px-4 text-2xl font-normal text-foreground"
         >
