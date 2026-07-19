@@ -5,8 +5,11 @@ import BlogPostTitle from '@components/BlogPostTitle.astro';
 import PostCover from '@components/PostCover.astro';
 import Button from '@components/ui/button.astro';
 import Pagination from '@components/ui/pagination.astro';
+import Separator from '@components/ui/separator.astro';
 import { getPostCover } from '@utils/covers';
+import { getPostPreviewHtml } from '@utils/post-preview';
 import { getPostUrl as getCanonicalPostUrl } from '@utils/posts';
+import { proseClasses } from '@utils/prose';
 
 interface Props {
   posts: CollectionEntry<'posts'>[];
@@ -46,51 +49,12 @@ const nextPage =
 const getPostUrl = (post: CollectionEntry<'posts'>) =>
   ensureLeadingSlash(`${basePath}${getCanonicalPostUrl(post)}`);
 
-const stripMarkdownPreview = (value: string) =>
-  value
-    .replaceAll(/!\[[^\]]*\]\([^)]+\)/g, '')
-    .replaceAll(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-    .replaceAll(/`([^`]+)`/g, '$1')
-    .replaceAll(/\*\*([^*]+)\*\*/g, '$1')
-    .replaceAll(/\*([^*]+)\*/g, '$1')
-    .replaceAll(/_{1,2}([^_]+)_{1,2}/g, '$1')
-    .replaceAll(/^#{1,6}\s+/gm, '')
-    .replaceAll(/^>\s?/gm, '')
-    .replaceAll(/\s+/g, ' ')
-    .trim();
-
-const getBodyPreview = (
-  post: CollectionEntry<'posts'>,
-  paragraphCount: number,
-) =>
-  (post.body ?? '')
-    .split(/\n{2,}/)
-    .map(stripMarkdownPreview)
-    .filter(Boolean)
-    .slice(0, paragraphCount);
-
-const getFrontmatterPreview = (post: CollectionEntry<'posts'>) => {
-  const frontmatterSummary = post.data.summary?.trim();
-  if (frontmatterSummary) return [frontmatterSummary];
-
-  const description = post.data.description?.trim();
-  if (description) return [description];
-
-  return [];
-};
-
 const listedPosts = posts.map((post) => {
-  const bodyPreview = getBodyPreview(post, 3);
-  const frontmatterPreview = getFrontmatterPreview(post);
-
   return {
     cover: getPostCover(post),
-    featuredPreview: bodyPreview.length > 0 ? bodyPreview : frontmatterPreview,
+    featuredPreview: getPostPreviewHtml(post, 5).join('\n'),
     post,
-    summary:
-      frontmatterPreview.length > 0
-        ? frontmatterPreview
-        : bodyPreview.slice(0, 1),
+    summary: getPostPreviewHtml(post, 1).join('\n'),
   };
 });
 
@@ -106,17 +70,6 @@ const coverOutlineClass =
       <li>
         {shouldFeaturePost(index) ? (
             <article class="rounded-(--radius) bg-card px-4 py-8 text-card-foreground sm:px-8">
-              <header class="mb-4">
-                <BlogPostTitle
-                  title={post.data.title}
-                  href={getPostUrl(post)}
-                />
-                <BlogPostMeta
-                  date={post.data.date}
-                  tags={post.data.tags}
-                  class="mt-2"
-                />
-              </header>
               {cover && (
                 <PostCover
                   cover={cover}
@@ -126,13 +79,22 @@ const coverOutlineClass =
                   videoClass={`block aspect-video w-full overflow-hidden rounded-[calc(var(--radius)-4px)] ${coverOutlineClass}`}
                 />
               )}
-              <div class="space-y-4">
-                {featuredPreview.map((paragraph) => (
-                  <p
-                    class="m-0 max-w-none text-pretty text-base leading-7 text-card-foreground"
-                    set:html={paragraph}
-                  />
-                ))}
+              <header class="mb-8 text-center">
+                <BlogPostTitle
+                  title={post.data.title}
+                  href={getPostUrl(post)}
+                />
+                <BlogPostMeta
+                  date={post.data.date}
+                  tags={post.data.tags}
+                  class="mb-4 mt-3"
+                />
+                <Separator />
+              </header>
+              <div
+                class:list={[proseClasses, 'text-pretty']}
+                set:html={featuredPreview}
+              >
               </div>
               <p class="m-0 mt-6 flex justify-end">
                 <Button
@@ -175,12 +137,11 @@ const coverOutlineClass =
                       class="mt-2"
                     />
                   </header>
-                  {summary.map((paragraph) => (
-                    <p
-                      class="m-0 mb-4 text-pretty text-base leading-7 text-card-foreground"
-                      set:html={paragraph}
-                    />
-                  ))}
+                  <div
+                    class:list={[proseClasses, 'text-pretty']}
+                    set:html={summary}
+                  >
+                  </div>
                   <p class="m-0 flex justify-end">
                     <Button
                       href={getPostUrl(post)}
