@@ -11,12 +11,20 @@ hand-editing it.
   deployed on Netlify at [https://samui-samui.de](https://samui-samui.de).
 * Open GitHub issues: 7 as of 2026-07-20.
 * The `/archiv/` and `/tags/` feature milestone (issues #903-#917) is nearly
-  done: #903-#914 and #917 are all closed. Only
+  done: #903-#914, #916, and #917 are all closed. Only
   [#915](https://github.com/davidsneighbour/samui-samui.de/issues/915) (SEO
-  pass) and [#916](https://github.com/davidsneighbour/samui-samui.de/issues/916)
-  (a11y review) remain, both unblocked on their dependencies.
+  pass) remains, unblocked on its dependencies.
 * **#917 closed (2026-07-20):** final visual review and milestone close-out
-  verified as in scope; no further action needed once #915 and #916 land.
+  verified as in scope.
+* **#916 closed (2026-07-20):** real-browser accessibility & responsive
+  review of `/archiv/`, `/archiv/[year]/` (incl. 400+-post years), and
+  `/tags/` found no blocking defects -- native `<details>/<summary>`
+  disclosures, correct heading hierarchy, no color-contrast violations once
+  measured against the actual card background (an early check against
+  `document.body`'s background gave false positives), 200%-zoom reflow
+  clean, 48px touch targets. One follow-up filed:
+  [#928](https://github.com/davidsneighbour/samui-samui.de/issues/928)
+  (site-wide missing skip-to-content link, low priority, not archive-specific).
 * **Dependency PR triage (this session):** 8 open Dependabot PRs were
   reviewed. 7 merged after local verification (build + `astro:check` +
   `npm test` against each, not just the repo's CodeQL/WIP checks, which don't
@@ -75,13 +83,10 @@ hand-editing it.
 * [#915](https://github.com/davidsneighbour/samui-samui.de/issues/915) SEO pass:
   robots.txt, sitemap filtering, canonical strategy (`prio:medium`,
   `status:confirmed`) - unblocked (#903 and #910 both resolved); needs
-  `public/robots.txt` and a sitemap `filter` in `astro.config.ts`.
-* [#916](https://github.com/davidsneighbour/samui-samui.de/issues/916)
-  Accessibility & responsive review of archive feature (`prio:high`,
-  `status:confirmed`) - unblocked (#906, #907, #908, #909, #911 all closed);
-  broad a11y pass across `/archiv/`, year pages, `/tags/`.
-* Milestone close-out (#917) is done; the milestone is fully closed once
-  #915 and #916 land.
+  `public/robots.txt` and a sitemap `filter` in `astro.config.ts`. Last open
+  issue in this milestone.
+* Accessibility review (#916) and close-out (#917) are both done; the
+  milestone is fully closed once #915 lands.
 
 ## Content and design
 
@@ -97,6 +102,14 @@ hand-editing it.
   historical Disqus comments into Giscus/GitHub Discussions (`prio:low`,
   `status:blocked`) - data migration remains blocked until the import approach,
   attribution handling, and Giscus production setup are ready.
+
+## Accessibility
+
+* [#928](https://github.com/davidsneighbour/samui-samui.de/issues/928) Add
+  skip-to-content link for keyboard users (`prio:low`, `status:confirmed`) -
+  site-wide gap found during the #916 review; no skip link exists anywhere
+  in `Header.astro`/layouts, so every page requires tabbing through the full
+  nav before reaching main content.
 
 ## Editorial tooling
 
@@ -123,17 +136,17 @@ hand-editing it.
 1. Handle [#747](https://github.com/davidsneighbour/samui-samui.de/issues/747)
    as the only remaining high-priority security issue.
 2. Finish the archive milestone: [#915](https://github.com/davidsneighbour/samui-samui.de/issues/915)
-   and [#916](https://github.com/davidsneighbour/samui-samui.de/issues/916)
-   are both unblocked now; the milestone closes once both land (#917
-   close-out is already done).
+   is the only issue left; the milestone closes once it lands.
 3. Decide the TypeScript path for
    [#927](https://github.com/davidsneighbour/samui-samui.de/issues/927) (wait
    for upstream support vs. bump to 6.0.3).
 4. Continue [#898](https://github.com/davidsneighbour/samui-samui.de/issues/898)
    (already in progress).
-5. Decide the scope for
+5. Pick up [#928](https://github.com/davidsneighbour/samui-samui.de/issues/928)
+   (skip-to-content link) as a small, low-risk site-wide a11y fix.
+6. Decide the scope for
    [#745](https://github.com/davidsneighbour/samui-samui.de/issues/745) before
    implementation, because the right fix depends on whether this should happen in
    the editor, pre-commit flow, or a content-cleanup script.
-6. Resume [#717](https://github.com/davidsneighbour/samui-samui.de/issues/717)
+7. Resume [#717](https://github.com/davidsneighbour/samui-samui.de/issues/717)
    once the comment platform setup and migration/import plan are unblocked.
