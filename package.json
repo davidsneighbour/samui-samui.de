@@ -55,6 +55,7 @@
     "simple-git-hooks": "2.13.1",
     "typescript": "5.9.3",
     "vite-plugin-mkcert": "2.1.0",
+    "vitest": "4.1.10",
     "wireit": "0.14.12",
     "yaml": "2.9.0"
   },
@@ -92,6 +93,8 @@
     "release:major": "release-it --config .release-it.ts --ci --increment=major",
     "release:minor": "release-it --config .release-it.ts --ci --increment=minor",
     "release:patch": "release-it --config .release-it.ts --ci --increment=patch",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "upgrade": "npx @astrojs/upgrade"
   },
   "wireit": {
