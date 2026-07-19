@@ -43,6 +43,16 @@ at [https://samui-samui.de](https://samui-samui.de).
   extend `DESIGN.md` deliberately — not as license to invent an undocumented
   one-off value in component code.
 
+## Documentation
+
+* Feature and topic documentation MUST live in `documentation/`. Add or update one
+  focused Markdown file per feature or topic rather than mixing unrelated notes into
+  a catch-all document.
+* When adding or editing a feature, agents MUST update the matching
+  `documentation/` file in the same change set. If no matching document exists yet,
+  create one as part of the feature work so behavior, configuration, and operating
+  notes do not drift away from the implementation.
+
 ## Change tracking
 
 * Every change MUST be committed. Uncommitted work MUST NOT be left behind as the
