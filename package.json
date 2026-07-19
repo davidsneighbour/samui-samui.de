@@ -148,7 +148,7 @@
     "**/!(CHANGELOG).{md,mdx}": [
       "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc --fix"
     ],
-    "**/!(package-lock).json": [
+    "**/!(package|package-lock).json": [
       "biome check --write --no-errors-on-unmatched"
     ]
   },

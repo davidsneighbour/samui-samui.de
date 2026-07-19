@@ -31,6 +31,8 @@
     "includes": [
       "**",
       // \! = index but not linted/fixed, !! = fully ignored
+      // Root package metadata ordering is owned by fixpack.
+      "!package.json",
       "!**/.vscode/**/*",
       // Legacy static assets served as-is; not source code.
       "!public/**"
