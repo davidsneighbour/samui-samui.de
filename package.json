@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@astrojs/react": "5.0.7",
-    "@pagefind/default-ui": "1.4.0",
+    "@pagefind/default-ui": "1.5.2",
     "@tailwindcss/typography": "0.5.20",
     "@tailwindcss/vite": "4.1.17",
     "class-variance-authority": "0.7.1",
