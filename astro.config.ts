@@ -44,6 +44,11 @@ export default defineConfig({
   integrations: [
     mdx(),
     sitemap({
+      // `/seite/2/`, `/seite/3/`, ... are thin duplicates of content already
+      // indexed via `/archiv/`, `/tags/`, and individual post permalinks --
+      // see documentation/archiv.md's indexing strategy. Page 1 (`/`) is
+      // unaffected since it isn't under `/seite/`.
+      filter: (page) => !new URL(page).pathname.startsWith('/seite/'),
       namespaces: { image: false, news: false, video: false, xhtml: false },
       xslURL: '/feeds/sitemap.xsl',
     }),

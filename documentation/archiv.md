@@ -116,5 +116,22 @@ Not indexable / never generated as static routes:
 * Any expanded/collapsed disclosure state on `/archiv/` — pure client-side
   UI state (native `<details>`), not a route.
 
-See [#915](https://github.com/davidsneighbour/samui-samui.de/issues/915) for
-the `robots.txt` and sitemap `filter` implementation.
+Excluded from the sitemap, but still built and crawlable (not `robots.txt`
+disallowed):
+
+* `/seite/[seite]/` (pages 2+ of the paginated blog listing) — thin
+  duplicates of content already indexed via `/archiv/`, `/tags/`, and
+  individual post permalinks. Filtered out via `@astrojs/sitemap`'s `filter`
+  option in `astro.config.ts`. Page 1 (`/`) is unaffected.
+
+`/robots.txt` (`public/robots.txt`) allows all crawling and points at
+`/sitemap-index.xml`; no route needs disallowing since the exclusions above
+are handled at the sitemap level instead.
+
+Canonical URLs are a simple self-referencing tag
+(`new URL(Astro.url.pathname, Astro.site)` in `BaseHead.astro`) with no
+per-page override. That's sufficient today: #910 decided against building
+`/archiv/[year]/[month]/` routes, so there's no duplicate-content pairing
+that would need a canonical pointing elsewhere.
+
+Implemented in [#915](https://github.com/davidsneighbour/samui-samui.de/issues/915).
