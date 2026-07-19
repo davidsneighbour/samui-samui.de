@@ -56,7 +56,7 @@
     "typescript": "5.9.3",
     "vite-plugin-mkcert": "2.1.0",
     "vitest": "4.1.10",
-    "wireit": "0.14.12",
+    "wireit": "0.14.13",
     "yaml": "2.9.0"
   },
   "scripts": {
