@@ -10,7 +10,8 @@ const repo = 'davidsneighbour/samui-samui.de';
 const repoId = 'MDEwOlJlcG9zaXRvcnkxNjI5NzM3MTA=';
 const category = 'Kommentare';
 const categoryId = 'DIC_kwDOCbbIDs4DBbj1';
-const theme = 'https://giscus.app/themes/custom_example.css';
+const themeLight = '/assets/styles/giscus-samui-light.css';
+const themeDark = '/assets/styles/giscus-samui-dark.css';
 ---
 
 <dnb-giscus
@@ -24,14 +25,27 @@ const theme = 'https://giscus.app/themes/custom_example.css';
   data-reactions-enabled="1"
   data-emit-metadata="1"
   data-input-position="bottom"
-  data-theme={theme}
+  data-theme-light={themeLight}
+  data-theme-dark={themeDark}
   data-loading="lazy"
 ></dnb-giscus>
 
 <script>
   if (!customElements.get('dnb-giscus')) {
+    type SamuiThemeName = 'light' | 'dark';
+
+    const giscusOrigin = 'https://giscus.app';
+
     class DnbGiscus extends HTMLElement {
       #initialised = false;
+
+      #handleThemeChange = (event: Event): void => {
+        const theme =
+          event instanceof CustomEvent && event.detail?.theme === 'light'
+            ? 'light'
+            : 'dark';
+        this.syncTheme(theme);
+      };
 
       static #observer: IntersectionObserver | undefined;
 
@@ -53,10 +67,43 @@ const theme = 'https://giscus.app/themes/custom_example.css';
         return DnbGiscus.#observer;
       }
 
+      get currentTheme(): SamuiThemeName {
+        const samuiTheme = (
+          window as Window & { SamuiTheme?: { getTheme: () => string } }
+        ).SamuiTheme;
+        return samuiTheme?.getTheme() === 'light' ? 'light' : 'dark';
+      }
+
+      themeUrl(theme: SamuiThemeName = this.currentTheme): string {
+        const themePath =
+          theme === 'light' ? this.dataset.themeLight : this.dataset.themeDark;
+
+        if (!themePath) return theme;
+
+        return new URL(themePath, window.location.origin).href;
+      }
+
+      syncTheme(theme: SamuiThemeName = this.currentTheme): void {
+        const themeUrl = this.themeUrl(theme);
+        const script = this.querySelector<HTMLScriptElement>(
+          'script[src="https://giscus.app/client.js"]',
+        );
+        script?.setAttribute('data-theme', themeUrl);
+
+        const iframe = this.querySelector<HTMLIFrameElement>(
+          'iframe.giscus-frame',
+        );
+        iframe?.contentWindow?.postMessage(
+          { giscus: { setConfig: { theme: themeUrl } } },
+          giscusOrigin,
+        );
+      }
+
       loadGiscus(): void {
         if (this.#initialised || this.hasAttribute('data-initialised')) return;
 
         const ds = this.dataset;
+        const themeUrl = this.themeUrl();
         const attrs: Record<string, string> = {
           async: '',
           crossorigin: 'anonymous',
@@ -71,7 +118,7 @@ const theme = 'https://giscus.app/themes/custom_example.css';
           'data-repo': ds.repo ?? '',
           'data-repo-id': ds.repoId ?? '',
           'data-strict': ds.strict ?? '0',
-          'data-theme': ds.theme ?? 'light',
+          'data-theme': themeUrl,
           src: 'https://giscus.app/client.js',
         };
 
@@ -95,14 +142,23 @@ const theme = 'https://giscus.app/themes/custom_example.css';
         this.appendChild(script);
         this.#initialised = true;
         this.setAttribute('data-initialised', 'true');
+        this.syncTheme();
       }
 
       connectedCallback(): void {
+        document.addEventListener(
+          'samui-theme-change',
+          this.#handleThemeChange,
+        );
         if (this.#initialised || this.hasAttribute('data-initialised')) return;
         DnbGiscus.observer.observe(this);
       }
 
       disconnectedCallback(): void {
+        document.removeEventListener(
+          'samui-theme-change',
+          this.#handleThemeChange,
+        );
         DnbGiscus.observer.unobserve(this);
       }
     }

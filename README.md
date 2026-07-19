@@ -177,6 +177,11 @@ Manual Giscus checks before production deploys:
    widget.
 5. Keep `giscus.json` aligned with the production and local hostnames that
    should be allowed to load comments.
+6. Keep the custom Giscus themes in `public/assets/styles/giscus-samui-*.css`
+   aligned with `DESIGN.md`. `src/components/Giscus.astro` resolves those files
+   against the current site origin and switches them when the Samui theme toggle
+   changes. Netlify headers allow `https://giscus.app` to load the theme CSS and
+   Panton webfonts.
 
 ## Local commands
 

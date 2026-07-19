@@ -309,6 +309,19 @@ sharp (0px) corners.
   40px hit area (`size-10`), `rounded-(--radius)`, the existing
   `accent` hover fill, and cross-fades Lucide `Sun`/`Moon` icons with
   explicit `opacity`, `transform`, and `filter` transitions.
+* **Giscus comments** (`src/components/Giscus.astro` plus
+  `public/assets/styles/giscus-samui-light.css` and
+  `public/assets/styles/giscus-samui-dark.css`) — the iframe cannot
+  inherit runtime CSS variables from the page, so the custom Giscus
+  themes pin the equivalent DESIGN.md colors inside Primer's variable
+  names. Light mode uses `card` `#fffaf0`, `foreground` `#2b2929`,
+  `muted` `#eee4d2`, `border` `#d7c9b1`, and light `primary`/`link`
+  coral values. Dark mode keeps the site's surrounding dark page but
+  renders the comments on the dark-theme `card` surface `#f1ecd8`,
+  with `card-foreground` `#2b2929`, `muted` `#e5dfc7`, `border`
+  `#d9d3ba`, and dark `primary` `#ec7263`. Both theme files load the
+  same Panton 400/600 faces as the site and keep the comment form below
+  the timeline header, matching the current Giscus layout preference.
 * **Masthead** (`src/components/Header.astro`) — see Typography and
   Layout above; the site's one genuinely bespoke, non-utility-driven
   component.

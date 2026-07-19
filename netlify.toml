@@ -23,3 +23,16 @@ for = "/*"
   Referrer-Policy = "strict-origin-when-cross-origin"
   X-Content-Type-Options = "nosniff"
   X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+for = "/assets/styles/giscus-samui-*.css"
+
+  [headers.values]
+  Access-Control-Allow-Origin = "https://giscus.app"
+  Cache-Control = "public, max-age=3600"
+
+[[headers]]
+for = "/assets/webfonts/*"
+
+  [headers.values]
+  Access-Control-Allow-Origin = "https://giscus.app"

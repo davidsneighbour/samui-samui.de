@@ -1,0 +1,156 @@
+/*!
+ * Samui? Samui! Giscus light theme.
+ * Primer variable names adapted from giscus.app/themes/light.css.
+ */
+
+@font-face {
+  font-family: "Panton";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url("https://samui-samui.de/assets/webfonts/400/regular/panton-regular-webfont.woff2")
+    format("woff2"),
+    url("https://samui-samui.de/assets/webfonts/400/regular/panton-regular-webfont.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Panton";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    url("https://samui-samui.de/assets/webfonts/600/bold/panton-bold-webfont.woff2")
+    format("woff2"),
+    url("https://samui-samui.de/assets/webfonts/600/bold/panton-bold-webfont.woff")
+    format("woff");
+}
+
+main {
+  --color-prettylights-syntax-comment: #635846;
+  --color-prettylights-syntax-constant: #8f2f24;
+  --color-prettylights-syntax-entity: #6b2438;
+  --color-prettylights-syntax-storage-modifier-import: #2b2929;
+  --color-prettylights-syntax-entity-tag: #3d1a2b;
+  --color-prettylights-syntax-keyword: #b8402f;
+  --color-prettylights-syntax-string: #6b2438;
+  --color-prettylights-syntax-variable: #8f2f24;
+  --color-prettylights-syntax-brackethighlighter-unmatched: #b8402f;
+  --color-prettylights-syntax-invalid-illegal-text: #fffaf0;
+  --color-prettylights-syntax-invalid-illegal-bg: #8f2f24;
+  --color-prettylights-syntax-carriage-return-text: #fffaf0;
+  --color-prettylights-syntax-carriage-return-bg: #b8402f;
+  --color-prettylights-syntax-string-regexp: #3d1a2b;
+  --color-prettylights-syntax-markup-list: #6b2438;
+  --color-prettylights-syntax-markup-heading: #8f2f24;
+  --color-prettylights-syntax-markup-italic: #2b2929;
+  --color-prettylights-syntax-markup-bold: #2b2929;
+  --color-prettylights-syntax-markup-deleted-text: #8f2f24;
+  --color-prettylights-syntax-markup-deleted-bg: #f7ddd7;
+  --color-prettylights-syntax-markup-inserted-text: #3d1a2b;
+  --color-prettylights-syntax-markup-inserted-bg: #eadfca;
+  --color-prettylights-syntax-markup-changed-text: #6b2438;
+  --color-prettylights-syntax-markup-changed-bg: #eee4d2;
+  --color-prettylights-syntax-markup-ignored-text: #fffaf0;
+  --color-prettylights-syntax-markup-ignored-bg: #8f2f24;
+  --color-prettylights-syntax-meta-diff-range: #6b2438;
+  --color-prettylights-syntax-brackethighlighter-angle: #635846;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #d7c9b1;
+  --color-prettylights-syntax-constant-other-reference-link: #8f2f24;
+
+  --color-btn-text: #2b2929;
+  --color-btn-bg: #eee4d2;
+  --color-btn-border: #d7c9b1;
+  --color-btn-shadow: 0 0 #0000;
+  --color-btn-inset-shadow: 0 0 #0000;
+  --color-btn-hover-bg: #eadfca;
+  --color-btn-hover-border: #b8402f;
+  --color-btn-active-bg: #e5d8c4;
+  --color-btn-active-border: #b8402f;
+  --color-btn-selected-bg: #eadfca;
+  --color-btn-primary-text: #fffaf0;
+  --color-btn-primary-bg: #b8402f;
+  --color-btn-primary-border: #8f2f24;
+  --color-btn-primary-shadow: 0 0 #0000;
+  --color-btn-primary-inset-shadow: 0 0 #0000;
+  --color-btn-primary-hover-bg: #8f2f24;
+  --color-btn-primary-hover-border: #8f2f24;
+  --color-btn-primary-selected-bg: #8f2f24;
+  --color-btn-primary-selected-shadow: 0 0 #0000;
+  --color-btn-primary-disabled-text: #fffaf0cc;
+  --color-btn-primary-disabled-bg: #b8402f99;
+  --color-btn-primary-disabled-border: #8f2f2466;
+
+  --color-action-list-item-default-hover-bg: #eee4d2;
+  --color-segmented-control-bg: #eee4d2;
+  --color-segmented-control-button-bg: #fffaf0;
+  --color-segmented-control-button-selected-border: #b8402f;
+  --color-fg-default: #2b2929;
+  --color-fg-muted: #635846;
+  --color-fg-subtle: #6b6250;
+  --color-canvas-default: #fffaf0;
+  --color-canvas-overlay: #fffaf0;
+  --color-canvas-inset: #f8f3e6;
+  --color-canvas-subtle: #eee4d2;
+  --color-border-default: #d7c9b1;
+  --color-border-muted: #eadfca;
+  --color-neutral-muted: #d7c9b166;
+  --color-accent-fg: #8f2f24;
+  --color-accent-emphasis: #b8402f;
+  --color-accent-muted: #b8402f66;
+  --color-accent-subtle: #eee4d2;
+  --color-success-fg: #2f6f3e;
+  --color-attention-fg: #8a5a00;
+  --color-attention-muted: #d4a72c66;
+  --color-attention-subtle: #fff4bf;
+  --color-danger-fg: #b8402f;
+  --color-danger-muted: #b8402f66;
+  --color-danger-subtle: #f7ddd7;
+  --color-primer-shadow-inset: 0 0 #0000;
+  --color-scale-gray-1: #eee4d2;
+  --color-scale-blue-1: #eadfca;
+
+  --color-social-reaction-bg-hover: var(--color-scale-gray-1);
+  --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-1);
+
+  color: var(--color-fg-default);
+  background-color: var(--color-canvas-default);
+  font-family: "Panton", ui-sans-serif, system-ui, sans-serif;
+}
+
+.gsc-main,
+.gsc-comment-content,
+.gsc-comment-box-main,
+.gsc-comment-box-textarea {
+  font-family: "Panton", ui-sans-serif, system-ui, sans-serif;
+}
+
+.gsc-reactions-count {
+  display: none;
+}
+
+.gsc-timeline {
+  flex-direction: column-reverse;
+}
+
+.gsc-header {
+  padding-bottom: 1rem;
+}
+
+.gsc-comments > .gsc-header {
+  order: 1;
+}
+
+.gsc-comments > .gsc-comment-box {
+  margin-bottom: 1rem;
+  order: 2;
+}
+
+.gsc-comments > .gsc-timeline {
+  order: 3;
+}
+
+.gsc-homepage-bg {
+  background-color: var(--color-canvas-inset);
+}
