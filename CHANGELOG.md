@@ -1,5 +1,34 @@
 # Changelog
 
+## [2.4.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.3.0...v2.4.0) (2026-07-19)
+
+### Content
+
+* **posts:** replace raw YouTube embeds with dnb-youtube ([cfccb78](https://github.com/davidsneighbour/samui-samui.de/commit/cfccb78e07a5df10d665dea844d413d1ae3dd796)), closes [#893](https://github.com/davidsneighbour/samui-samui.de/issues/893)
+
+### Feat
+
+* **components:** add lazy-loading Vimeo embed ([aae042f](https://github.com/davidsneighbour/samui-samui.de/commit/aae042f8b33b2b15e4bc7c95ed64a03d602a4e9d)), closes [#888](https://github.com/davidsneighbour/samui-samui.de/issues/888)
+* **components:** add lazy-loading YouTube embed ([4a29548](https://github.com/davidsneighbour/samui-samui.de/commit/4a29548c7b132c846237cb4d1b4728f15ad0e81b)), closes [#888](https://github.com/davidsneighbour/samui-samui.de/issues/888) [#889](https://github.com/davidsneighbour/samui-samui.de/issues/889) [#890](https://github.com/davidsneighbour/samui-samui.de/issues/890) [#892](https://github.com/davidsneighbour/samui-samui.de/issues/892)
+
+### Fix
+
+* **components:** give dnb-vimeo placeholder a real src ([fa94faa](https://github.com/davidsneighbour/samui-samui.de/commit/fa94faafd5139e81b2aa636f957ae1b83150657d)), closes [#889](https://github.com/davidsneighbour/samui-samui.de/issues/889)
+* **header:** link masthead tagline home ([5ebc0a9](https://github.com/davidsneighbour/samui-samui.de/commit/5ebc0a9348dd10376fe83b2115ef5d3a575f5fc8))
+
+### Perf
+
+* **components:** only load dnb-vimeo script on posts that use it ([b5b6fef](https://github.com/davidsneighbour/samui-samui.de/commit/b5b6fef186c178fcd118ca342369e711f4406f0b)), closes [#890](https://github.com/davidsneighbour/samui-samui.de/issues/890)
+
+### Docs
+
+* document the Vimeo embed component ([c14d528](https://github.com/davidsneighbour/samui-samui.de/commit/c14d528a609b7cbae6c0a35efa1b4443649945eb)), closes [#891](https://github.com/davidsneighbour/samui-samui.de/issues/891)
+* document the YouTube embed component ([bae59e2](https://github.com/davidsneighbour/samui-samui.de/commit/bae59e247b81d8a89fed794345215823b661443e)), closes [#894](https://github.com/davidsneighbour/samui-samui.de/issues/894)
+
+### Chore
+
+* **giscus:** restrict dev origins to https ([aeeeb01](https://github.com/davidsneighbour/samui-samui.de/commit/aeeeb014299d164bedf76340b59418f99c71efce))
+
 ## [2.3.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.2.0...v2.3.0) (2026-07-19)
 
 ### Feat
