@@ -9,13 +9,14 @@ hand-editing it.
 
 * The Astro migration is complete. The site is now a static Astro project
   deployed on Netlify at [https://samui-samui.de](https://samui-samui.de).
-* Open GitHub issues: 7 as of 2026-07-19 (down from 13 at the start of today).
+* Open GitHub issues: 7 as of 2026-07-20.
 * The `/archiv/` and `/tags/` feature milestone (issues #903-#917) is nearly
-  done: #903-#914 are all closed (see prior session notes). Only
+  done: #903-#914 and #917 are all closed. Only
   [#915](https://github.com/davidsneighbour/samui-samui.de/issues/915) (SEO
-  pass), [#916](https://github.com/davidsneighbour/samui-samui.de/issues/916)
-  (a11y review), and [#917](https://github.com/davidsneighbour/samui-samui.de/issues/917)
-  (close-out) remain, all unblocked on their dependencies.
+  pass) and [#916](https://github.com/davidsneighbour/samui-samui.de/issues/916)
+  (a11y review) remain, both unblocked on their dependencies.
+* **#917 closed (2026-07-20):** final visual review and milestone close-out
+  verified as in scope; no further action needed once #915 and #916 land.
 * **Dependency PR triage (this session):** 8 open Dependabot PRs were
   reviewed. 7 merged after local verification (build + `astro:check` +
   `npm test` against each, not just the repo's CodeQL/WIP checks, which don't
@@ -79,10 +80,8 @@ hand-editing it.
   Accessibility & responsive review of archive feature (`prio:high`,
   `status:confirmed`) - unblocked (#906, #907, #908, #909, #911 all closed);
   broad a11y pass across `/archiv/`, year pages, `/tags/`.
-* [#917](https://github.com/davidsneighbour/samui-samui.de/issues/917) Final
-  visual review, screenshots, and milestone close-out (`prio:low`,
-  `status:confirmed`) - depends on every other issue in this milestone
-  (only #915 and #916 remain); closes the milestone once done.
+* Milestone close-out (#917) is done; the milestone is fully closed once
+  #915 and #916 land.
 
 ## Content and design
 
@@ -125,8 +124,8 @@ hand-editing it.
    as the only remaining high-priority security issue.
 2. Finish the archive milestone: [#915](https://github.com/davidsneighbour/samui-samui.de/issues/915)
    and [#916](https://github.com/davidsneighbour/samui-samui.de/issues/916)
-   are both unblocked now, then close out with
-   [#917](https://github.com/davidsneighbour/samui-samui.de/issues/917).
+   are both unblocked now; the milestone closes once both land (#917
+   close-out is already done).
 3. Decide the TypeScript path for
    [#927](https://github.com/davidsneighbour/samui-samui.de/issues/927) (wait
    for upstream support vs. bump to 6.0.3).
