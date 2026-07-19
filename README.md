@@ -5,19 +5,19 @@
 
 Website and content for [samui-samui.de](https://samui-samui.de).
 
-* [Local commands](#local-commands)
 * [Setup](#setup)
-* [Giscus](#giscus)
-
-## Local commands
-
-Astro static site, deployed to Netlify:
-
-```bash
-npm install
-npm run dev      # astro dev, local preview
-npm run build    # astro check && astro build, then pagefind indexing
-```
+  * [Local `.env`](#local-env)
+  * [Netlify deployment, DNS, and functions](#netlify-deployment-dns-and-functions)
+  * [Turnstile captcha](#turnstile-captcha)
+  * [Resend email sending](#resend-email-sending)
+  * [Giscus comments](#giscus-comments)
+* [Local commands](#local-commands)
+  * [Astro and site commands](#astro-and-site-commands)
+  * [Quality gates](#quality-gates)
+  * [Content helpers](#content-helpers)
+  * [Generated package maintenance](#generated-package-maintenance)
+  * [Release commands](#release-commands)
+  * [Lifecycle scripts](#lifecycle-scripts)
 
 ## Setup
 
@@ -115,19 +115,101 @@ DNS or the current authoritative DNS provider before deploying.
 After the first production deploy with these variables, send one contact-form
 message and verify both the browser success state and the delivered email.
 
-## Giscus
+### Giscus comments
 
-`giscus.json` belongs at the repository root, not in `public/`. Giscus reads
-additional configuration from the public GitHub repository named in
-`src/components/Giscus.astro`, while Astro only copies `public/` files to the
-live site.
+`giscus.json` contains the allowed server names/origins where Giscus may load
+for this repository, including the production domain and the local development
+hostnames used by this project.
 
 Manual Giscus checks before production deploys:
 
-1. Install or confirm the [giscus GitHub App](https://github.com/apps/giscus) for
+1. Enable GitHub Discussions for `davidsneighbour/samui-samui.de`.
+2. Create or confirm the dedicated `Kommentare` discussion category. It must be
+   its own category with the category type set to `Announcements`.
+3. Install or confirm the [giscus GitHub App](https://github.com/apps/giscus) for
    `davidsneighbour/samui-samui.de`.
-2. Confirm GitHub Discussions are enabled for the repository.
-3. Confirm `src/components/Giscus.astro` still matches the public repository,
-   category, and mapping expected by `giscus.json`.
+4. Confirm `src/components/Giscus.astro` still matches the public repository,
+   `Kommentare` category, category ID, and pathname mapping expected by the
+   widget.
+5. Keep `giscus.json` aligned with the production and local hostnames that
+   should be allowed to load comments.
+
+## Local commands
+
+Run `npm install` once after cloning, changing Node versions, or updating
+dependencies. The install also runs `prepare`, which installs the Git hooks.
+`package.json` is generated from `src/packages/**/*.jsonc`, so add or change
+scripts in those fragments and regenerate rather than hand-editing the root
+manifest.
+
+There is currently no `npm run deploy` script. Production deploys go through
+Netlify's connected build or the Netlify CLI once the setup above is complete.
+
+### Astro and site commands
+
+| Command | What it does | Notes |
+| --- | --- | --- |
+| `npm run astro -- <args>` | Runs the Astro CLI directly. | Use this for ad hoc Astro subcommands that do not have a named npm wrapper. |
+| `npm run astro:check` | Runs `astro check`. | Type/content diagnostics only; no build output. |
+| `npm run dev` | Runs `astro dev --verbose`. | This is intentionally more chatty than plain `astro dev`. |
+| `npm run dev:verbose` | Runs `DEBUG_FRONTMATTER=true astro dev --verbose`. | Adds frontmatter debugging on top of the already verbose dev server. |
+| `npm run build` | Runs `astro check && astro build --verbose`. | Differs from plain `astro build` by type-checking first and using verbose build output; the build integration also creates the Pagefind index. |
+| `npm run preview` | Runs `astro preview`. | Serves the built `dist` output locally after a build. |
+| `npm run upgrade` | Runs `npx @astrojs/upgrade`. | Interactive Astro upgrade helper; use with the Astro version constraints in `AGENTS.md` in mind. |
+
+### Quality gates
+
+| Command | What it does | Notes |
+| --- | --- | --- |
+| `npm run check` | Runs `npm run format:check && npm run lint`. | Non-mutating full quality gate used before pushes. |
+| `npm run format:check` | Runs `biome format .`. | Checks formatting without writing changes. |
+| `npm run format` | Runs `biome format --write .`. | Writes formatting changes across the repo. |
+| `npm run lint` | Runs `npm run lint:code && npm run lint:markdown`. | Non-mutating lint gate for code and Markdown. |
+| `npm run lint:code` | Runs `biome lint .`. | Code lint only; no writes. |
+| `npm run lint:code:fix` | Runs `biome lint --write .`. | Applies Biome's safe lint fixes. |
+| `npm run lint:markdown` | Runs markdownlint with the shared `@dnbhq` config against `**/*.{md,mdx}` except `CHANGELOG.md`. | The local markdownlint config also ignores generated/output and archived content paths. |
+| `npm run lint:markdown:fix` | Runs the same markdownlint command with `--fix`. | Writes automatic Markdown fixes. |
+| `npm run lint:fix` | Runs `npm run lint:code:fix && npm run lint:markdown:fix`. | Applies both code and Markdown autofixes. |
+| `npm run lint:spell` | Runs cspell against `src/{*,.*}/**/*.{md,mdx}`. | Content spellcheck is separate from `check`, pre-commit, and pre-push. |
+| `npm run lint:staged` | Runs lint-staged. | Used by the pre-commit hook; only staged files are checked/fixed. |
+
+### Content helpers
+
+| Command | What it does | Notes |
+| --- | --- | --- |
+| `npm run blog:new` | Runs `node src/scripts/new-blog-post.ts`. | Prompts for a title and tags, creates `src/content/posts/YYYY/<slug>/index.md`, and opens it in VS Code unless `--no-open` is passed. |
+| `npm run publisher -- <command>` | Runs `node src/scripts/publisher.ts`. | Manages repo-internal `publisher.*` frontmatter work queues. `set` and `unset` refuse to run without an explicit filter such as `--year`, `--path`, `--status`, `--tag`, or `--all`. |
+
+### Generated package maintenance
+
+| Command | What it does | Notes |
+| --- | --- | --- |
+| `npm run compile:package` | Runs the Wireit package-generation pipeline. | Regenerates `package.json` from `src/packages/**/*.jsonc`, then runs the install/fixpack phase. |
+| `npm run compile:package:install` | Runs the Wireit install phase. | Runs `npm install` after `compile:fixpack`; writes `node_modules` and can update `package-lock.json`. |
+| `npm run compile:package:update` | Runs `node src/packages/update-package.ts`. | Syncs dependency versions back into `src/packages/**/*.jsonc` and reports script/Wireit drift. |
+| `npm run compile:fixpack` | Runs the Wireit fixpack phase. | Runs `fixpack --config ci/.fixpackrc.json` twice with tolerated failures to normalize package metadata during generation. |
+| `npm run clean` | Runs the Wireit clean target. | Removes Astro/build caches through the internal `clean:astro` Wireit target. |
+| `npm run clean:full` | Runs the Wireit full-clean target. | Removes `node_modules`, `package-lock.json`, `.wireit`, and Astro/build caches. |
+| `npm run icons:sync` | Runs `node src/scripts/create-icon-types.ts`. | Current state: the referenced script is missing in this checkout, so this command fails until that helper is restored or the script entry is updated. |
+
+### Release commands
+
+| Command | What it does | Notes |
+| --- | --- | --- |
+| `npm run release` | Runs `release-it --config .release-it.ts --ci`. | Real release flow with changelog, version/tag, GitHub, and package metadata side effects from the shared release config. |
+| `npm run release:dry` | Runs `release-it --config .release-it.ts --dry-run`. | Preview release output without Git/GitHub side effects. |
+| `npm run release:force` | Runs `release-it --config .release-it.ts --ci --no-increment`. | Release flow without a version increment. |
+| `npm run release:major` | Runs `release-it --config .release-it.ts --ci --increment=major`. | Forces a major version bump. |
+| `npm run release:minor` | Runs `release-it --config .release-it.ts --ci --increment=minor`. | Forces a minor version bump. |
+| `npm run release:patch` | Runs `release-it --config .release-it.ts --ci --increment=patch`. | Forces a patch version bump. |
+
+### Lifecycle scripts
+
+These scripts are normally run by npm or Git hooks rather than by hand:
+
+| Command | What it does | Notes |
+| --- | --- | --- |
+| `npm run prepare` | Runs `simple-git-hooks`. | Installed automatically by `npm install`; wires pre-commit and pre-push hooks from `package.json`. |
+| `npm run postinstall:icons` | Runs `npm run icons:sync`. | Current state: this inherits the missing `src/scripts/create-icon-types.ts` issue from `icons:sync`. |
 
 See `AGENTS.md` for the full command/architecture reference.
