@@ -36,6 +36,7 @@ type Props = {
   newerPost?: PostNavigationItem | undefined;
   olderPost?: PostNavigationItem | undefined;
   tags?: string[] | undefined;
+  hasVimeo?: boolean | undefined;
 };
 
 type PostNavigationItem = {
@@ -56,6 +57,7 @@ const {
   newerPost,
   olderPost,
   tags,
+  hasVimeo = false,
 } = Astro.props as Props;
 const metaDescription = description ?? title;
 const publishedOn = date ?? pubDate;
@@ -119,7 +121,7 @@ const metaImage =
             />
             <Separator />
           </div>
-          <VimeoScript />
+          {hasVimeo && <VimeoScript />}
           <div class={proseClasses}>
             <slot />
           </div>
