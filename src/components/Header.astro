@@ -3,7 +3,7 @@ import ConstructionBanner from '@components/ConstructionBanner.astro';
 import HeaderLink from '@components/HeaderLink.astro';
 import ThemeToggle from '@components/ThemeToggle.astro';
 import setup from '@data/setup.json';
-import { AtSign, Binoculars, Birdhouse, Landmark } from '@lucide/astro';
+import { AtSign, Binoculars, Birdhouse, Landmark, Tags } from '@lucide/astro';
 
 const navLinkClass =
   'px-1.5 py-1 text-foreground/85 hover:text-primary sm:px-2';
@@ -45,6 +45,16 @@ const navLinkClass =
         <span>Archiv</span>
       </HeaderLink>
       <HeaderLink
+        href="/tags/"
+        class={navLinkClass}
+      >
+        <Tags
+          aria-hidden="true"
+          class="size-4 shrink-0"
+        />
+        <span>Themen</span>
+      </HeaderLink>
+      <HeaderLink
         href="/suche/"
         class={navLinkClass}
       >
@@ -71,10 +81,10 @@ const navLinkClass =
 
 <style>
   /* Recreates the original theme's #topheader masthead: the site name is
-                 rendered with the header photo clipped into the text (background-clip:
-                 text + transparent fill), and the font-size steps follow the old
-                 Bootstrap breakpoints (576/768/992/1200/1400) rather than Tailwind's,
-                 so the scale matches the live site exactly. */
+                     rendered with the header photo clipped into the text (background-clip:
+                     text + transparent fill), and the font-size steps follow the old
+                     Bootstrap breakpoints (576/768/992/1200/1400) rather than Tailwind's,
+                     so the scale matches the live site exactly. */
   .masthead {
     margin: 0 auto;
     max-width: 100%;
