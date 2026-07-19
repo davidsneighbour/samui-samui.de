@@ -11,7 +11,7 @@
   },
   "lint-staged": {
     "*.{js,cjs,mjs,ts,astro}": ["biome check --write --no-errors-on-unmatched"],
-    "*.{md,mdx}": [
+    "**/!(CHANGELOG).{md,mdx}": [
       "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc --fix"
     ],
     "**/!(package-lock).json": ["biome check --write --no-errors-on-unmatched"]
@@ -24,8 +24,8 @@
     "lint:code": "biome lint .",
     "lint:code:fix": "biome lint --write .",
     "lint:fix": "npm run lint:code:fix && npm run lint:markdown:fix",
-    "lint:markdown": "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc \"**/*.{md,mdx}\"",
-    "lint:markdown:fix": "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc --fix \"**/*.{md,mdx}\"",
+    "lint:markdown": "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc \"**/*.{md,mdx}\" \"!CHANGELOG.md\"",
+    "lint:markdown:fix": "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc --fix \"**/*.{md,mdx}\" \"!CHANGELOG.md\"",
     "lint:staged": "lint-staged",
     "prepare": "simple-git-hooks",
     "release": "release-it --config .release-it.ts --ci",

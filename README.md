@@ -1,13 +1,21 @@
 <!-- markdownlint-disable-next-line title-case-style -->
 # samui-samui.de
 
-[![Netlify](https://img.shields.io/netlify/49963b4d-bb9f-411f-a9b8-521a5e3a2b42?color=%2300AD9F&logo=netlify&style=for-the-badge)](https://app.netlify.com/sites/samui-samui-de/deploys)[![GitHub issues](https://img.shields.io/github/issues-raw/davidsneighbour/samui-samui.de?logo=github&style=for-the-badge)](https://github.com/davidsneighbour/samui-samui.de/issues) ![LasCHanges](https://img.shields.io/github/last-commit/davidsneighbour/samui-samui.de?color=%23ff7700&logo=github&style=for-the-badge) [![Codacy Badge](https://img.shields.io/codacy/grade/1aa52a19ae5b42efa80f04157a29ae8d?logo=codacy&style=for-the-badge)](https://www.codacy.com/gh/davidsneighbour/samui-samui.de/dashboard) ![License](https://img.shields.io/github/license/davidsneighbour/samui-samui.de?logo=github&style=for-the-badge) [![Gitter Chatroom](https://img.shields.io/gitter/room/dnb-org/community?color=%23ed1965&logo=gitter&style=for-the-badge)](https://gitter.im/dnb-org/community) ![Latest Version](https://img.shields.io/github/v/tag/davidsneighbour/samui-samui.de?color=%23ed1965&label=Release&logoColor=%23ffffff&sort=semver&style=for-the-badge)
+[![Netlify](https://img.shields.io/netlify/49963b4d-bb9f-411f-a9b8-521a5e3a2b42?color=%2300AD9F&logo=netlify&style=for-the-badge)](https://app.netlify.com/sites/samui-samui-de/deploys)
+![samui-samui.de website status](https://img.shields.io/website?url=https%3A%2F%2Fsamui-samui.de&style=for-the-badge)
+![Latest GitHub release](https://img.shields.io/github/v/release/davidsneighbour/samui-samui.de?color=%23ed1965&logo=github&logoColor=%23ffffff&style=for-the-badge)
+![Latest commit](https://img.shields.io/github/last-commit/davidsneighbour/samui-samui.de?color=%23ff7700&logo=github&style=for-the-badge)
+![Repository size](https://img.shields.io/github/repo-size/davidsneighbour/samui-samui.de?logo=github&style=for-the-badge)
+[![Open GitHub issues](https://img.shields.io/github/issues/davidsneighbour/samui-samui.de?logo=github&style=for-the-badge)](https://github.com/davidsneighbour/samui-samui.de/issues)
+[![Discord community](https://img.shields.io/discord/936261002306125847?logo=discord&style=for-the-badge)](https://discord.gg/mMEVuwyne)
+[![GitHub Sponsors for davidsneighbour](https://img.shields.io/github/sponsors/davidsneighbour?logo=githubsponsors&style=for-the-badge)](https://github.com/sponsors/davidsneighbour)
 
 Website and content for [samui-samui.de](https://samui-samui.de).
 
 * [Architecture](#architecture)
+* [Content model](#content-model)
 * [Setup](#setup)
-  * [Local `.env`](#local-env)
+  * [Environment variables](#environment-variables)
   * [Netlify deployment, DNS, and functions](#netlify-deployment-dns-and-functions)
   * [Turnstile captcha](#turnstile-captcha)
   * [Resend email sending](#resend-email-sending)
@@ -44,13 +52,25 @@ The maintenance tools are intentionally boring in the best possible way:
 [Wireit](https://github.com/google/wireit) for generated-package maintenance,
 and [release-it](https://github.com/release-it/release-it) for releases.
 
+## Content model
+
+Astro collections are defined in `src/content.config.ts`. Blog posts live as
+`src/content/posts/**/index.md`, people pages live in `src/content/leute/**/_index.md`,
+and tag pages live in `src/content/tags/**/_index.md`. Standalone pages such as
+contact and privacy live directly under `src/content/`, while `sitewide/` holds
+shared data-only content.
+
+Posts may include an optional `publisher.*` frontmatter block. That metadata is
+only for internal editorial queues and is managed with `npm run publisher --`;
+it is not rendered on the public site.
+
 ## Setup
 
 Complete the manual setup below before a production deploy through Netlify, the
 Netlify CLI, or any future `npm run deploy` wrapper. The current `package.json`
 does not define a `deploy` script.
 
-### Local `.env`
+### Environment variables
 
 Create a local `.env` file for contact-form testing. The file is ignored by Git
 and must never be committed. Mirror the same keys in the Netlify dashboard for
@@ -214,7 +234,6 @@ Netlify's connected build or the Netlify CLI once the setup above is complete.
 | `npm run compile:fixpack` | Normalizes package metadata during generation with tolerated fixpack failures. |
 | `npm run clean` | Removes Astro/build caches through the internal `clean:astro` target. |
 | `npm run clean:full` | Removes `node_modules`, `package-lock.json`, `.wireit`, and Astro/build caches. |
-| `npm run icons:sync` | Currently fails because `src/scripts/create-icon-types.ts` is missing. |
 
 ### Release commands
 
@@ -234,6 +253,5 @@ These scripts are normally run by npm or Git hooks rather than by hand:
 | Command | Details |
 | --- | --- |
 | `npm run prepare` | Installs pre-commit and pre-push hooks from `package.json`. |
-| `npm run postinstall:icons` | Runs `icons:sync`, so it currently inherits the missing helper-script failure. |
 
 See `AGENTS.md` for the full command/architecture reference.
