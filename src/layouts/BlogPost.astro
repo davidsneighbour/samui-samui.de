@@ -11,6 +11,7 @@ import PostCover from '@components/PostCover.astro';
 import SocialShare from '@components/SocialShare.astro';
 import Separator from '@components/ui/separator.astro';
 import VimeoScript from '@components/VimeoScript.astro';
+import YoutubeScript from '@components/YoutubeScript.astro';
 import type { ResolvedPostCover } from '@utils/covers';
 import { proseClasses } from '@utils/prose';
 import type { ImageMetadata } from 'astro';
@@ -37,6 +38,7 @@ type Props = {
   olderPost?: PostNavigationItem | undefined;
   tags?: string[] | undefined;
   hasVimeo?: boolean | undefined;
+  hasYoutube?: boolean | undefined;
 };
 
 type PostNavigationItem = {
@@ -58,6 +60,7 @@ const {
   olderPost,
   tags,
   hasVimeo = false,
+  hasYoutube = false,
 } = Astro.props as Props;
 const metaDescription = description ?? title;
 const publishedOn = date ?? pubDate;
@@ -122,6 +125,7 @@ const metaImage =
             <Separator />
           </div>
           {hasVimeo && <VimeoScript />}
+          {hasYoutube && <YoutubeScript />}
           <div class={proseClasses}>
             <slot />
           </div>

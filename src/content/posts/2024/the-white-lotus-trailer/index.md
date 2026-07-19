@@ -15,4 +15,4 @@ Die dritte Staffel, die am 16. Februar 2025 ihre Premiere feiert, führt die Zus
 
 Im Folgenden siehst du den offiziellen Trailer zur kommenden Staffel:
 
-[Play video](https://www.youtube.com/watch?v=XwQRkOK5KC4)
+<dnb-youtube videoid="XwQRkOK5KC4" videotitle="The White Lotus – Season 3 Trailer"></dnb-youtube>

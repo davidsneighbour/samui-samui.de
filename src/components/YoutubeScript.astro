@@ -1,0 +1,305 @@
+---
+// Defines the `dnb-youtube` custom element (a TypeScript port of
+// https://github.com/paulirish/lite-youtube-embed, adapted to shadow DOM and
+// to the same conventions as the `dnb-vimeo` port — see VimeoScript.astro)
+// so raw `<dnb-youtube videoid="…">` markup works both from the `Youtube.astro`
+// wrapper and from `<dnb-youtube>` tags dropped directly into blog post
+// markdown (blog posts are plain .md, not .mdx, so they cannot import
+// Youtube.astro).
+---
+
+<script>
+  if (!customElements.get('dnb-youtube')) {
+    class DnbYoutube extends HTMLElement {
+      static #preconnected = false;
+
+      #iframeLoaded = false;
+      #frame!: HTMLDivElement;
+      #titleOverlay!: HTMLDivElement;
+      #playButton!: HTMLButtonElement;
+      #img!: HTMLImageElement;
+
+      static get observedAttributes(): string[] {
+        return ['videoid'];
+      }
+
+      constructor() {
+        super();
+        this.#setupDom();
+      }
+
+      get videoId(): string {
+        return encodeURIComponent(this.getAttribute('videoid') ?? '');
+      }
+
+      get videoTitle(): string {
+        return this.getAttribute('videotitle') ?? 'Video';
+      }
+
+      get videoPlay(): string {
+        return this.getAttribute('videoplay') ?? 'Play';
+      }
+
+      get autoLoad(): boolean {
+        return this.hasAttribute('autoload');
+      }
+
+      get autoPlay(): boolean {
+        return this.hasAttribute('autoplay');
+      }
+
+      #setupDom(): void {
+        const shadow = this.attachShadow({ mode: 'open' });
+        shadow.innerHTML = `
+              <style>
+                :host {
+                  contain: content;
+                  display: block;
+                  position: relative;
+                  width: 100%;
+                  aspect-ratio: 16 / 9;
+                  background-color: #000;
+                }
+                #frame, iframe {
+                  position: absolute;
+                  inset: 0;
+                  width: 100%;
+                  height: 100%;
+                  border: 0;
+                }
+                #frame {
+                  cursor: pointer;
+                }
+                picture, img {
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                }
+                .dnb-youtube-title {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  right: 0;
+                  height: 99px;
+                  padding: 25px 20px;
+                  box-sizing: border-box;
+                  background-image: linear-gradient(180deg, rgb(0 0 0 / 67%) 0%, rgb(0 0 0 / 54%) 14%, rgb(0 0 0 / 15%) 54%, rgb(0 0 0 / 5%) 72%, rgb(0 0 0 / 0%) 94%);
+                  color: hsl(0deg 0% 93.33%);
+                  font: 18px/1.2 'YouTube Noto', Roboto, Arial, Helvetica, sans-serif;
+                  text-shadow: 0 0 2px rgb(0 0 0 / 50%);
+                  overflow: hidden;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  transition: opacity 0.1s cubic-bezier(0, 0, 0.2, 1);
+                }
+                .dnb-youtube-playbtn {
+                  width: 68px;
+                  height: 48px;
+                  background: no-repeat center / 68px 48px;
+                  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/><path d="M45 24 27 14v20" fill="white"/></svg>');
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate3d(-50%, -50%, 0);
+                  z-index: 1;
+                  filter: grayscale(100%);
+                  transition: filter 0.1s cubic-bezier(0, 0, 0.2, 1);
+                  border: 0;
+                  cursor: pointer;
+                }
+                #frame:hover .dnb-youtube-playbtn,
+                .dnb-youtube-playbtn:focus {
+                  filter: none;
+                }
+                #frame.dnb-youtube-activated .dnb-youtube-title,
+                #frame.dnb-youtube-activated .dnb-youtube-playbtn {
+                  opacity: 0;
+                  pointer-events: none;
+                }
+              </style>
+              <div id="frame">
+                <img
+                  id="posterImage"
+                  src="${DnbYoutube.#transparentPixel}"
+                  alt=""
+                  referrerpolicy="origin"
+                  decoding="async"
+                  loading="lazy"
+                />
+                <div class="dnb-youtube-title"></div>
+                <button class="dnb-youtube-playbtn" type="button"></button>
+              </div>
+            `;
+
+        this.#frame = shadow.querySelector<HTMLDivElement>('#frame')!;
+        this.#titleOverlay =
+          shadow.querySelector<HTMLDivElement>('.dnb-youtube-title')!;
+        this.#playButton = shadow.querySelector<HTMLButtonElement>(
+          '.dnb-youtube-playbtn',
+        )!;
+        this.#img = shadow.querySelector<HTMLImageElement>('#posterImage')!;
+      }
+
+      // A 1x1 transparent GIF so the poster `<img>` always has a valid `src`
+      // — an absent/empty src renders as a "broken image" glyph in some
+      // browsers. `:host`'s black background shows through until the real
+      // YouTube thumbnail (set synchronously below, no network round trip
+      // needed to know its URL) replaces it.
+      static readonly #transparentPixel =
+        'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
+
+      connectedCallback(): void {
+        this.addEventListener('pointerover', DnbYoutube.#warmConnections, {
+          once: true,
+        });
+        this.addEventListener('focusin', DnbYoutube.#warmConnections, {
+          once: true,
+        });
+        this.addEventListener('click', () => this.#addIframe(true));
+
+        if (this.autoLoad) {
+          this.#initIntersectionObserver();
+        }
+      }
+
+      attributeChangedCallback(
+        name: string,
+        oldVal: string | null,
+        newVal: string | null,
+      ): void {
+        if (name !== 'videoid' || oldVal === newVal) return;
+
+        this.#setupPlaceholder();
+
+        if (this.#frame.classList.contains('dnb-youtube-activated')) {
+          this.#frame.classList.remove('dnb-youtube-activated');
+          this.shadowRoot?.querySelector('iframe')?.remove();
+          this.#iframeLoaded = false;
+        }
+      }
+
+      #setupPlaceholder(): void {
+        if (!this.videoId) return;
+
+        DnbYoutube.#addPrefetch('preconnect', 'https://i.ytimg.com');
+
+        const label = `${this.videoPlay}: ${this.videoTitle}`;
+        this.#playButton.setAttribute('aria-label', label);
+        this.setAttribute('title', label);
+        this.#img.setAttribute('aria-label', label);
+        this.#img.setAttribute('alt', label);
+        this.#titleOverlay.textContent = this.getAttribute('videotitle') ?? '';
+
+        // YouTube's thumbnail lives at a predictable URL, so — unlike Vimeo,
+        // which needs an oEmbed round trip first — the poster can be set
+        // synchronously instead of waiting on a fetch.
+        this.#img.src = `https://i.ytimg.com/vi/${this.videoId}/hqdefault.jpg`;
+        this.#upgradePosterImage();
+      }
+
+      // Deferred (YouTube's own recommendation) attempt at a higher-res
+      // poster. YouTube returns a 200 with a 120x90 placeholder image
+      // instead of a real 404 when a video has no maxresdefault thumbnail,
+      // so the only way to detect "no better poster available" is to check
+      // the loaded image's dimensions.
+      #upgradePosterImage(): void {
+        const videoId = this.videoId;
+        setTimeout(() => {
+          if (this.videoId !== videoId) return;
+
+          const webpUrl = `https://i.ytimg.com/vi_webp/${videoId}/maxresdefault.webp`;
+          const probe = new Image();
+          probe.referrerPolicy = 'origin';
+          probe.src = webpUrl;
+          probe.onload = () => {
+            const noBetterPoster =
+              probe.naturalHeight === 90 && probe.naturalWidth === 120;
+            if (noBetterPoster || this.videoId !== videoId) return;
+            this.#img.src = webpUrl;
+          };
+        }, 100);
+      }
+
+      #getParams(autoplay: boolean): URLSearchParams {
+        const params = new URLSearchParams(this.getAttribute('params') ?? '');
+        if (autoplay) {
+          params.set('autoplay', '1');
+        }
+        params.set('playsinline', '1');
+        return params;
+      }
+
+      // `autoplay` only takes effect when triggered by the click handler, or
+      // when explicitly requested via the `autoplay` attribute together with
+      // `autoload` — a silent, unrequested autoplay from merely scrolling an
+      // embed into view is the kind of thing browsers block (or annoy
+      // visitors with) without an explicit opt-in.
+      #addIframe(autoplay: boolean): void {
+        if (this.#iframeLoaded) return;
+
+        const params = this.#getParams(autoplay);
+
+        const iframe = document.createElement('iframe');
+        iframe.setAttribute(
+          'allow',
+          'accelerometer; autoplay; encrypted-media; fullscreen; gyroscope; picture-in-picture',
+        );
+        iframe.setAttribute('allowfullscreen', '');
+        iframe.setAttribute(
+          'referrerpolicy',
+          'strict-origin-when-cross-origin',
+        );
+        iframe.setAttribute('title', `${this.videoPlay}: ${this.videoTitle}`);
+        iframe.src = `https://www.youtube-nocookie.com/embed/${this.videoId}?${params.toString()}`;
+
+        this.#frame.append(iframe);
+        this.#frame.classList.add('dnb-youtube-activated');
+        this.#iframeLoaded = true;
+        iframe.focus();
+      }
+
+      #initIntersectionObserver(): void {
+        if (!('IntersectionObserver' in window)) return;
+
+        const observer = new IntersectionObserver(
+          (entries, obs) => {
+            for (const entry of entries) {
+              if (entry.isIntersecting && !this.#iframeLoaded) {
+                DnbYoutube.#warmConnections();
+                this.#addIframe(this.autoPlay);
+                obs.unobserve(this);
+              }
+            }
+          },
+          { root: null, rootMargin: '0px', threshold: 0 },
+        );
+        observer.observe(this);
+      }
+
+      static #addPrefetch(kind: string, url: string): void {
+        const link = document.createElement('link');
+        link.rel = kind;
+        link.href = url;
+        document.head.append(link);
+      }
+
+      static #warmConnections(): void {
+        if (DnbYoutube.#preconnected) return;
+        DnbYoutube.#addPrefetch(
+          'preconnect',
+          'https://www.youtube-nocookie.com',
+        );
+        DnbYoutube.#addPrefetch('preconnect', 'https://www.google.com');
+        DnbYoutube.#addPrefetch(
+          'preconnect',
+          'https://googleads.g.doubleclick.net',
+        );
+        DnbYoutube.#addPrefetch('preconnect', 'https://static.doubleclick.net');
+        DnbYoutube.#preconnected = true;
+      }
+    }
+
+    customElements.define('dnb-youtube', DnbYoutube);
+  }
+</script>

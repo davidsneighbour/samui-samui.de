@@ -38,9 +38,10 @@ const { newerPost, olderPost, post } = Astro.props;
 const { Content } = await render(post);
 const cover = getPostCover(post);
 // Raw markdown source (not the rendered HTML) — cheap to grep and lets
-// BlogPost skip shipping the dnb-vimeo definition on the ~2050 posts that
-// don't embed a video.
+// BlogPost skip shipping the dnb-vimeo/dnb-youtube definitions on the posts
+// that don't embed the corresponding video.
 const hasVimeo = post.body?.includes('dnb-vimeo') ?? false;
+const hasYoutube = post.body?.includes('dnb-youtube') ?? false;
 ---
 
 <BlogPost
@@ -54,6 +55,7 @@ const hasVimeo = post.body?.includes('dnb-vimeo') ?? false;
   olderPost={olderPost}
   tags={post.data.tags}
   hasVimeo={hasVimeo}
+  hasYoutube={hasYoutube}
 >
   <Content />
 </BlogPost>

@@ -1,0 +1,46 @@
+---
+// Astro wrapper around the `dnb-youtube` web component (see
+// YoutubeScript.astro), a TypeScript port of
+// https://github.com/paulirish/lite-youtube-embed — a click-to-load YouTube
+// facade that shows the (statically-known) thumbnail up front and defers the
+// real `youtube-nocookie.com` iframe until the user interacts (or, with
+// `autoload`, until it scrolls into view). Mirrors `Vimeo.astro`.
+import YoutubeScript from '@components/YoutubeScript.astro';
+
+type Props = {
+  /** YouTube video id, e.g. `dQw4w9WgXcQ` for https://youtu.be/dQw4w9WgXcQ */
+  videoid: string;
+  /** Accessible title used for the play button, iframe title, and gradient overlay. */
+  title?: string;
+  /** Label prefixed to the title, e.g. "Play: <title>". Defaults to "Play". */
+  playLabel?: string;
+  /** Extra YouTube player URL params passed through as-is, e.g. "start=30". */
+  params?: string;
+  /** Load the iframe automatically once the element scrolls into view. */
+  autoload?: boolean;
+  /** Autoplay when triggered by `autoload` (a manual click always autoplays). */
+  autoplay?: boolean;
+  class?: string;
+};
+
+const {
+  videoid,
+  title,
+  playLabel,
+  params,
+  autoload = false,
+  autoplay = false,
+  class: className,
+} = Astro.props;
+---
+
+<YoutubeScript />
+<dnb-youtube
+  videoid={videoid}
+  videotitle={title}
+  videoplay={playLabel}
+  params={params}
+  autoload={autoload ? '' : undefined}
+  autoplay={autoplay ? '' : undefined}
+  class={className}
+></dnb-youtube>
