@@ -52,7 +52,10 @@ const showArchivePrompt = pageNumber >= 5;
   </head>
   <body>
     <Header />
-    <main>
+    <main
+      id="main"
+      tabindex="-1"
+    >
       <section>
         {showArchivePrompt && (
           <p class="mx-auto mb-8 max-w-4xl rounded-(--radius) bg-card px-4 py-4 text-sm text-card-foreground sm:px-6">

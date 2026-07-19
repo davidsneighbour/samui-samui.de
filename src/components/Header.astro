@@ -9,6 +9,12 @@ const navLinkClass =
   'px-1.5 py-1 text-foreground/85 hover:text-primary sm:px-2';
 ---
 
+<a
+  href="#main"
+  class="sr-only focus-visible:not-sr-only focus-visible:fixed focus-visible:top-4 focus-visible:left-4 focus-visible:z-50 focus-visible:rounded-(--radius) focus-visible:bg-background focus-visible:px-4 focus-visible:py-2 focus-visible:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+>
+  Zum Inhalt springen
+</a>
 <ConstructionBanner />
 <header class="border-b border-foreground/10 bg-background">
   <div class="masthead">
@@ -81,10 +87,10 @@ const navLinkClass =
 
 <style>
   /* Recreates the original theme's #topheader masthead: the site name is
-                       rendered with the header photo clipped into the text (background-clip:
-                       text + transparent fill), and the font-size steps follow the old
-                       Bootstrap breakpoints (576/768/992/1200/1400) rather than Tailwind's,
-                       so the scale matches the live site exactly. */
+                         rendered with the header photo clipped into the text (background-clip:
+                         text + transparent fill), and the font-size steps follow the old
+                         Bootstrap breakpoints (576/768/992/1200/1400) rather than Tailwind's,
+                         so the scale matches the live site exactly. */
   .masthead {
     margin: 0 auto;
     max-width: 100%;

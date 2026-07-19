@@ -42,7 +42,11 @@ const { title, description, posts, slug } = Astro.props;
   </head>
   <body>
     <Header />
-    <main class="py-8">
+    <main
+      id="main"
+      tabindex="-1"
+      class="py-8"
+    >
       <section>
         <Breadcrumbs
           class="mx-auto max-w-4xl px-4"

@@ -26,7 +26,10 @@ const firstPagePosts = posts.slice(0, setup.postsPerPage);
   </head>
   <body>
     <Header />
-    <main>
+    <main
+      id="main"
+      tabindex="-1"
+    >
       <section>
         <BlogList
           posts={firstPagePosts}
