@@ -12,8 +12,8 @@ updates:
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
-    reviewers:
-      - davidsneighbour
+    cooldown:
+      default-days: 7
     target-branch: main
     open-pull-requests-limit: 999
     pull-request-branch-name:
@@ -30,8 +30,8 @@ updates:
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
-    reviewers:
-      - davidsneighbour
+    cooldown:
+      default-days: 7
     target-branch: main
     open-pull-requests-limit: 999
     pull-request-branch-name:
