@@ -77,7 +77,9 @@ const postCover: ResolvedPostCover | undefined =
       }
     : undefined);
 const metaImage =
-  postCover?.optimized && typeof postCover.src !== 'string'
+  postCover?.type === 'image' &&
+  postCover.optimized &&
+  typeof postCover.src !== 'string'
     ? postCover.src
     : undefined;
 ---

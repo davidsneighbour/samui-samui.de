@@ -13,10 +13,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: 128-jahre-11-jahre.jpg
+  caption: "Orn Parnchompoo, vermutlich 128 Jahre alt (Quelle: Khaosod.co.th)"
 ---
-
-![Orn Parnchompoo, vermutlich 128 Jahre alt (Quelle: Khaosod.co.th)](./128-jahre-11-jahre.jpg)
-
 Orn Parnchompoo, der etwas ältere Herr oben im Photo, sagt, er wäre 128 Jahre alt. Auf seiner ID-Karte steht, dass er am 9. April 1891 geboren wurde, zur Regierungszeit von König Chulalongkorn, dem 5. König der Chakri-Dynastie. Sein "Geheim"-Tipp für ein langes Leben sind saubere Ernährung und ausreichend Bewegung.
 
 Ein Grund, warum er nicht "offiziell" der äteste Mann der Welt ist, wird vermutlich das recht lasch gehandhabte Meldewesen der vergangenen Jahrhunderte in Thailand sein. Ich habe eine überdurchschnittlich große Anzahl an Bekannten, die am 1. Januar eines Jahres geboren wurden, weil sie das genaue Datum nicht kannten, als sie eine ID-Karte (Personalausweis) beantragt haben.

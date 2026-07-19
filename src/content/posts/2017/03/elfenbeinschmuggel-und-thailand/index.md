@@ -16,10 +16,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: thailand-ivory-seized-cham.jpg
+  caption: Elfenbein
 ---
-
-![Elfenbein](./thailand-ivory-seized-cham.jpg)
-
 Thaibehörden haben 422 Elefanten-Stosszähne konfisziert und einen Gamber (Gambanesen? Gambier?) festgenommen, der die Lieferung in Empfang nehmen wollte. Deklariert waren "ungeschliffene Edelsteine", aber es davon fand man nicht viele in den Kisten. 330 Kilogramm Elefanten-Stosszähne, wert gut eine halbe Million US-Dollar.
 
 Thailand war jahrelang Hauptumschlagplatz fuer solche Lieferungen, mit China als Haupt-Kunde. Das Image Thailands als Zentrum des Elfenbeinhandels war jahrelang ein Gesichtsverlust. Erst 2014 wurden Gesetze erlassen, die Elfenbeinhandel in Thailand kriminalisieren.

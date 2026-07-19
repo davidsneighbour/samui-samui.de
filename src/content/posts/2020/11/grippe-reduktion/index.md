@@ -15,10 +15,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: grippe-reduktion.jpg
+  caption: Photo by <a href="https://unsplash.com/@enginakyurt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">engin akyurt</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
 ---
-
-![Photo by <a href="https://unsplash.com/@enginakyurt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">engin akyurt</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>](./grippe-reduktion.jpg)
-
 COVID-19 scheint ja doch was Gutes zu haben --- die Grippef&auml;lle in Thailand sind auf nur ein Drittel des "normalen" Umfangs gefallen. Die Beh&ouml;rden sagen, dass das an der Disziplin des thail&auml;ndischen Volkes liegt - Social Distancing, Handwasch-Regeln und Gesichtsmasken-Pflicht sollen zur Verringerung beigetragen haben.
 
 Im Gegensatz zu rund 391.000 F&auml;llen in 2019 gab es bis heute in 2020 nur 116.000 gez&auml;hlte Grippe-F&auml;lle.

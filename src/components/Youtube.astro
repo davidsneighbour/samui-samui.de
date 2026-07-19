@@ -11,15 +11,15 @@ type Props = {
   /** YouTube video id, e.g. `dQw4w9WgXcQ` for https://youtu.be/dQw4w9WgXcQ */
   videoid: string;
   /** Accessible title used for the play button, iframe title, and gradient overlay. */
-  title?: string;
+  title?: string | undefined;
   /** Label prefixed to the title, e.g. "Play: <title>". Defaults to "Play". */
-  playLabel?: string;
+  playLabel?: string | undefined;
   /** Extra YouTube player URL params passed through as-is, e.g. "start=30". */
-  params?: string;
+  params?: string | undefined;
   /** Load the iframe automatically once the element scrolls into view. */
-  autoload?: boolean;
+  autoload?: boolean | undefined;
   /** Autoplay when triggered by `autoload` (a manual click always autoplays). */
-  autoplay?: boolean;
+  autoplay?: boolean | undefined;
   class?: string;
 };
 

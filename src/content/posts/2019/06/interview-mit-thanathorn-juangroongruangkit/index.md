@@ -12,10 +12,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: thanathorn-juangroongruangkit.jpg
+  caption: Thanathorn Juangroongruangkit (via Facebook)
 ---
-
-![Thanathorn Juangroongruangkit (via Facebook)](./thanathorn-juangroongruangkit.jpg)
-
 Im Spiegel kann man ein [Interview mit Thanathorn Juangroongruangkit](https://www.spiegel.de/politik/ausland/thailand-eine-million-dollar-fuer-eine-stimme-interview-mit-thanathorn-a-1270159.html) lesen. Wir erfahren dabei beispielsweise, wie die Armeepartei Phalang Pracharat Einfluss auf Mitglieder von Thanathorns Partei nimmt.
 
 Freunde macht er sich allerdings mit diesem Interview nicht, denn hier in Thailand fragen seine Gegner nun, wer seine Mutter angerufen haben soll und für 20 Stimmen der Partei das Fallenlassen aller Anklagen gegen ihn angeboten habe.

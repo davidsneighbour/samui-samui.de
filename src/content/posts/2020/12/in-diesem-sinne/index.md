@@ -13,8 +13,8 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: _BM3zCMRPcw
 ---
-
 … wir lesen uns im nächsten Jahr wieder (Spätestens zum nächsten Jahresendvideo).
-
-<dnb-youtube videoid="_BM3zCMRPcw"></dnb-youtube>

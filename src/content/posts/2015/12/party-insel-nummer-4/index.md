@@ -15,10 +15,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: rca-2015-party-islands-koh-samui-conde-nast.jpg
+  caption: Party-Insel Nummer 4
 ---
-
-![Party-Insel Nummer 4](./rca-2015-party-islands-koh-samui-conde-nast.jpg)
-
 Koh Samui hat im begehrten Readers‘ Choice Awards 2015 des Condé Nast Traveler Magazins in der Kategorie der 10 Besten Party-Inseln in der Welt einen 4. Platz belegt.
 
 Sie schreiben:

@@ -15,8 +15,9 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: 2015-04-15-08.28.19.jpg
+  caption: Mein grüner Finger
 ---
-
-![Mein grüner Finger](./2015-04-15-08.28.19.jpg)
-
 Ich gebe ja höchst ungern an, aber ich habe es tatsächlich geschafft, nach über drei Jahren vertrockneter Stengel meine Orchidee vorm Haus zum Blühen zu bringen. Ein weiterer Grund mal wieder raus zu gehen...

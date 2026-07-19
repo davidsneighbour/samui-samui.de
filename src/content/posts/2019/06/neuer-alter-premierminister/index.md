@@ -14,10 +14,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: general-prayuth.jpg
+  caption: General Prayuth Chan-Ocha
 ---
-
-![General Prayuth Chan-Ocha](./general-prayuth.jpg)
-
 Thailand hat seit gestern einen neuen "demokratisch" gewählten Premierminister. Es ist der gleiche, der nach dem von ihm selbst durchgeführten Militärputsch 2014 als Premierminister "gedient" hat: General Prayuth Chan-Ocha. Das Militär wird also auch weiterhin an der Macht bleiben. Prayuth’s erste Amtszeit zeichnete sich durch Inhaftieren und Einschüchtern von Kritikern, dem Bann von Protesten, und der Unterdrückung der Meinungsfreiheit aus.
 
 Phalang Pracharat, die Partei, die vor ein paar Monaten gegründet wurde um ihm den Job zu sichern, konnte eine kleine Mehrheit von 254 Sitzen im 500 Sitze zählendem Parlament zusammen trommeln. Wenn ich das richtig verstehe, besteht die "Koalition" (dazu später mehr) aus 19 oder mehr Parteien: Phalang Pracharat, Bhumjaithai und der "Demokratischen" Partei sowie 16 kleineren Parteien die Sitze im Parlament bekommen haben.

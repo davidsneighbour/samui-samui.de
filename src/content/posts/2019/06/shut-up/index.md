@@ -12,10 +12,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: gelaber.jpg
+  caption: Vögel sind diskussionsfreudiger als ihr (Photo von Wynand van Poortvliet)
 ---
-
-![Vögel sind diskussionsfreudiger als ihr (Photo von Wynand van Poortvliet)](./gelaber.jpg)
-
 Aus eigener Sache: Ich habe die Kommentare hier auf Samui? Samui! abgeschafft. Gründe dafür gibt es genug:
 
 - **Technik:** Der Service der die Kommentare eingebunden hat ist privacymäßig zwar GDPR-konform, lädt aber eine Unmenge an Code und Cookies nach und ist in den meisten Geschwindigkeitstests der Website Grund für gut 4 Punkte (von 100) Abzug. Genug um schlecht aufzufallen.

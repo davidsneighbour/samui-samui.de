@@ -15,10 +15,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: happy-new-year-2017.jpg
+  caption: Happy New Year 2017
 ---
-
-![Happy New Year 2017](./happy-new-year-2017.jpg)
-
 Und wieder ist ein Jahr vergangen. Und wieder nehmen wir uns viel vor. Vielleicht auch mal, wieder mehr ins Blog zu schreiben :smirk: Mal sehen.
 
 Wie auch immer. Nächste Woche beginnt mein 13. Jahr auf der Insel, hier in Thailand. In den vergangenen 12 Jahren hab ich viel gelernt. Allerdings immer noch nicht, Thai zu lesen oder zu schreiben --- noch so ein guter Vorsatz...

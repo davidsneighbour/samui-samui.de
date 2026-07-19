@@ -9,5 +9,8 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: kOz9IfL6_oQ
+  caption: Vorhin am Strand
 ---
-<dnb-youtube videoid="kOz9IfL6_oQ" videotitle="Vorhin am Strand"></dnb-youtube>

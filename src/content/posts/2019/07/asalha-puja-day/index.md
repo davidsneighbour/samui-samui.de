@@ -13,10 +13,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: parileyyaka-forest.jpg
+  caption: While the Buddha was spending the tenth vassa in the Parileyyaka Forest, an elephant and a monkey ministered to his needs. (British Library, Or. 14823, f. 30 / Public Domain)
 ---
-
-![While the Buddha was spending the tenth vassa in the Parileyyaka Forest, an elephant and a monkey ministered to his needs. (British Library, Or. 14823, f. 30 / Public Domain)](./parileyyaka-forest.jpg)
-
 Morgen, am 16. July (dem Juli-Vollmond-Tag) begehen Buddhisten den Asalha Puja Tag.
 
 Asalha Bucha ist der Jahrestag, an dem Buddha erleuchtet wurde und begann, seine Predigten zu den vier "Edlen Wahrheiten" zu halten. Diese vier Wahrheiten sind das Leidens, die Gründe des Leidens, das Ende des Leidens und des Weges der zum Ende des Leidens führt.

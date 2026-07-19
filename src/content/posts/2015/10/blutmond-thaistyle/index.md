@@ -15,10 +15,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: blutmond-in-thai-forschers-manuskript-1800-bis-1880.jpg
+  caption: Illustrations of possible appearances of the moon. Tamra phichai songkhram (Divination manual for the prediction of wars and conflicts). British Library, Or.15760,f .25
 ---
-
-![Illustrations of possible appearances of the moon. Tamra phichai songkhram (Divination manual for the prediction of wars and conflicts). British Library, Or.15760,f .25](./blutmond-in-thai-forschers-manuskript-1800-bis-1880.jpg)
-
 Vergangene Woche war überall vom Blutmond die Rede. Hier in Thailand konnte man ihn leider nicht sehen, dazu war es zu hell. Allerdings scheint das auch besser zu sein, wenn man [diesem alten Manuscript][1] aus der Britischen Nationalbibliothek Glauben schenken darf.
 
 Die hat ein thailändisches Werk, dessen Alter man auf bis zu 200 Jahre schätzt, digitalisiert, in dem die verschiedenen Himmelskonstellationen und deren Auswirkung auf die Gesellschaft erklärt werden. Ein Blutmond kann, so liest man, zu steigenden Reis-Preisen, Raubüberfällen oder gar Kriegen führen. Die Regierung, ja sogar die gesamte Bevölkerung würde darunter leiden.

@@ -1,15 +1,14 @@
 {
+  "name": "@davidsneighbour/samui-samui.de",
+  "description": "Website and content for samui-samui.de",
+  "version": "2.4.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": "https://github.com/davidsneighbour/samui-samui.de.git",
   "author": {
     "email": "davidsneighbourdev+gh@gmail.com",
     "name": "Patrick Kollitsch",
     "web": "https://davids-neighbour.com"
-  },
-  "cspell": {
-    "import": [
-      "./src/config/cspell/cspell.en.jsonc",
-      "./src/config/cspell/cspell.de.jsonc"
-    ],
-    "version": "0.2"
   },
   "dependencies": {
     "@astrojs/react": "5.0.7",
@@ -26,7 +25,6 @@
     "tailwind-merge": "3.6.0",
     "tailwindcss": "4.1.17"
   },
-  "description": "Website and content for samui-samui.de",
   "devDependencies": {
     "@astrojs/check": "0.9.9",
     "@astrojs/mdx": "7.0.3",
@@ -60,25 +58,6 @@
     "wireit": "0.14.12",
     "yaml": "2.9.0"
   },
-  "license": "UNLICENSED",
-  "lint-staged": {
-    "*.{js,cjs,mjs,ts,astro}": [
-      "biome check --write --no-errors-on-unmatched"
-    ],
-    "**/!(CHANGELOG).{md,mdx}": [
-      "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc --fix"
-    ],
-    "**/!(package-lock).json": [
-      "biome check --write --no-errors-on-unmatched"
-    ]
-  },
-  "name": "@davidsneighbour/samui-samui.de",
-  "overrides": {
-    "esbuild": "0.28.1",
-    "tar": "7.5.20"
-  },
-  "private": true,
-  "repository": "https://github.com/davidsneighbour/samui-samui.de.git",
   "scripts": {
     "astro": "astro",
     "astro:check": "astro check",
@@ -91,6 +70,7 @@
     "compile:package": "wireit",
     "compile:package:install": "wireit",
     "compile:package:update": "wireit",
+    "covers": "node src/scripts/post-covers.ts",
     "dev": "astro dev --verbose",
     "dev:verbose": "DEBUG_FRONTMATTER=true astro dev --verbose",
     "format": "biome format --write .",
@@ -114,27 +94,7 @@
     "release:patch": "release-it --config .release-it.ts --ci --increment=patch",
     "upgrade": "npx @astrojs/upgrade"
   },
-  "simple-git-hooks": {
-    "pre-commit": "npx lint-staged",
-    "pre-push": "npm run check"
-  },
-  "type": "module",
-  "version": "2.4.0",
   "wireit": {
-    "clean": {
-      "dependencies": [
-        "clean:astro"
-      ]
-    },
-    "clean:astro": {
-      "command": "rm -rf .astro dist node_modules/.astro"
-    },
-    "clean:full": {
-      "command": "rm -rf node_modules package-lock.json .wireit",
-      "dependencies": [
-        "clean:astro"
-      ]
-    },
     "compile:fixpack": {
       "command": "fixpack --config ci/.fixpackrc.json || true && fixpack --config ci/.fixpackrc.json || true"
     },
@@ -158,6 +118,47 @@
     },
     "compile:package:update": {
       "command": "node ./src/packages/update-package.ts"
+    },
+    "clean": {
+      "dependencies": [
+        "clean:astro"
+      ]
+    },
+    "clean:astro": {
+      "command": "rm -rf .astro dist node_modules/.astro"
+    },
+    "clean:full": {
+      "command": "rm -rf node_modules package-lock.json .wireit",
+      "dependencies": [
+        "clean:astro"
+      ]
     }
-  }
+  },
+  "cspell": {
+    "import": [
+      "./src/config/cspell/cspell.en.jsonc",
+      "./src/config/cspell/cspell.de.jsonc"
+    ],
+    "version": "0.2"
+  },
+  "lint-staged": {
+    "*.{js,cjs,mjs,ts,astro}": [
+      "biome check --write --no-errors-on-unmatched"
+    ],
+    "**/!(CHANGELOG).{md,mdx}": [
+      "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc --fix"
+    ],
+    "**/!(package-lock).json": [
+      "biome check --write --no-errors-on-unmatched"
+    ]
+  },
+  "overrides": {
+    "esbuild": "0.28.1",
+    "tar": "7.5.20"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged",
+    "pre-push": "npm run check"
+  },
+  "type": "module"
 }

@@ -16,10 +16,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: lin-hui-at-the-chiang-mai-zoo.jpg
+  caption: Lin Hui im Chiang Mai Zoo
 ---
-
-![Lin Hui im Chiang Mai Zoo](./lin-hui-at-the-chiang-mai-zoo.jpg)
-
 Von den Pandas Chiang Mai's habe ich [schon häufiger][1] im Blog geschrieben. Hin und wieder werden sie schwanger. Dann müssen sie zurück ins (chinesische) Heimatreich, oder auch nicht.
 
 Jedenfalls gibt es jederzeit in Chiang Mai Panda's, die als chinesische Leihgabe für 10 Jahre in den Zoo gegeben werden und dann von hoffnungsvollen Wissenschaftlern und Pflegern aktiv zum Vermehren angeregt werden.

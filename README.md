@@ -14,6 +14,7 @@ Website and content for [samui-samui.de](https://samui-samui.de).
 
 * [Architecture](#architecture)
 * [Content model](#content-model)
+  * [Post covers](#post-covers)
 * [Setup](#setup)
   * [Environment variables](#environment-variables)
   * [Netlify deployment, DNS, and functions](#netlify-deployment-dns-and-functions)
@@ -63,6 +64,13 @@ shared data-only content.
 Posts may include an optional `publisher.*` frontmatter block. That metadata is
 only for internal editorial queues and is managed with `npm run publisher --`;
 it is not rendered on the public site.
+
+### Post covers
+
+Posts may include optional `cover` frontmatter for local images, YouTube videos,
+or Vimeo videos. See [Post covers](documentation/post-covers.md) for the
+supported properties and [Post cover migration plan](documentation/post-cover-migration-plan.md)
+for the archive migration workflow.
 
 ## Setup
 

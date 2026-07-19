@@ -15,8 +15,8 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: soosie.jpg
 ---
-
-![](./soosie.jpg)
-
 Heute habe ich den "about"-Text unten in der Fusszeile dieser Website geändert.

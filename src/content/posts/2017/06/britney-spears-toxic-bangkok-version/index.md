@@ -12,7 +12,8 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: _GolwubH4hM
 ---
 Dies ist eine sehr viel bessere Version des Songs. Glaubt mir.
-
-<dnb-youtube videoid="_GolwubH4hM"></dnb-youtube>

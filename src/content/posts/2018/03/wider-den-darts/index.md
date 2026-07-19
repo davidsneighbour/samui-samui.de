@@ -17,10 +17,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: darts.jpg
+  caption: Terrorist an Zielscheibe --- (Photo von Clem Onojeghuo)
 ---
-
-![Terrorist an Zielscheibe --- (Photo von Clem Onojeghuo)](./darts.jpg)
-
 In ihrem nicht enden wollendem Kampf gegen alles unstaatliche und nicht genehmigte käpft die Regierung Thailands nun gegen unregistrierte Dartscheiben im ganzen Land.
 
 Weil - man hat das so festgelegt im Jahre 1935. Und was so lange vor unserer Zeitrechnung festgelegt wurde ist auch heute noch gültig. Dartscheiben in öffentlichen Gebäuden (also Pubs und Bars) sind nicht dem privaten Frohsinn, sondern dem Glücksspiel gewidmet. Somit müssen sie registriert werden. Oder, wie Thailand Dart Association chairman Vichai Govindani sagt:

@@ -8,7 +8,8 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: ZmYWvBtTGnQ
 ---
 Bei Khaosod kann man sich einen virtuellen Rundgang durch das Königliche Krematorium in Bangkok ansehen.
-
-<dnb-youtube videoid="ZmYWvBtTGnQ"></dnb-youtube>

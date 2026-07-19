@@ -17,10 +17,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: pokki-cat.png
+  caption: Pokki, Katze
 ---
-
-![Pokki, Katze](./pokki-cat.png)
-
 Pokki mag Flickr gerade nicht so sehr.
 
 via [Patrick Kollitsch (@davidsneighbour)](https://twitter.com/davidsneighbour/status/625646289531736064)

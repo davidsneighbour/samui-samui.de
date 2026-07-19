@@ -12,6 +12,8 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: payut-ngaokrachangs-88th-birthday.gif
+  caption: Payut Ngaikrachangs 88. Geburtstag - © google.com
 ---
-
-![Payut Ngaikrachangs 88. Geburtstag - © google.com](./payut-ngaokrachangs-88th-birthday.gif)

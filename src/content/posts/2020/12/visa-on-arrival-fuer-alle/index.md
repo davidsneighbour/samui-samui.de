@@ -17,10 +17,10 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: passport.jpg
 ---
-
-![](./passport.jpg)
-
 Die Regierung in Bangkok versucht mit allen Mitteln den durch die Corona-Krise zum Stillstand gekommenen Tourismus wieder anzukurbeln. Nachdem sie kürzlich erst ein neues Touristenvisum eingeführt hat, wurde es leider nicht von den erwuenschten Touristen angenommen. Das könnte daran liegen, dass es eine Menge Restriktionen gibt, wie beispielsweise eine 14-Nächte dauernde Quarantäne in einem vom Staat anerkannten Resort oder Hotel und regelmäßigen Tests und Rückmeldungen.
 
 Da diese Visatypen nur von wenigen Touristen in Anspruch genommen wurden (warum auch, nach 14 Tagen ist für die meisten Touristen der Urlaub vorbei), duerfen nun Bürger der folgenden 56 Länder ein 90-Tage Visum bei der Einreise ohne vorher einen Antrag stellen zu muessen: Andorra, Australien, Österreich, Belgien, Bahrain, Brasilien, Brunei, Kanada, Tschechische Republik, Dänemark, Estland, Finnland, Frankreich, Deutschland, Griechenland, Ungarn, Island, Indonesien, Irland, Israel, Italien, Japan, Kuwait, Lettland, Fürstentum Liechtenstein, Litauen, Luxemburg, Malaysia, Malediven, Mauritius, Monaco, Niederlande, Neuseeland, Norwegen, Oman, Philippinen, Polen, Portugal, Katar, San Marino, Singapur, Slowakische Republik, Republik Slowenien, Spanien, Südafrika, Südkorea, Schweden, Schweiz, Türkei, Ukraine, Vereinigte Arabische Emirate, Vereinigtes Königreich, Vereinigte Staaten von Amerika, Peru, Hongkong und Vietnam.

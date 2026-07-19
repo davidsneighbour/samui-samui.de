@@ -4,6 +4,7 @@
   },
   "scripts": {
     "blog:new": "node src/scripts/new-blog-post.ts",
+    "covers": "node src/scripts/post-covers.ts",
     "publisher": "node src/scripts/publisher.ts"
   }
 }

@@ -10,9 +10,10 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: OHviopSflwc
 ---
-<dnb-youtube videoid="OHviopSflwc"></dnb-youtube>
-
 Man kann ja so einiges auf den Straßen Thailands erleben, angefangen von Tieren (Ochsen, Hunden, Schlangen) die mehr oder weniger gemütlich die Straße entlang reisen, über Rostlauben die mit Seilen zusammen gehalten werden hin zu Mopeds mit 6 oder mehr Passagieren.
 
 Enten jedoch sind mir noch nie begegnet. Bin mir nicht sicher wie ich auf die Enten oben im Video reagieren würde...

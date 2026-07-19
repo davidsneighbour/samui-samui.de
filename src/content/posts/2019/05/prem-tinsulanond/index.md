@@ -14,10 +14,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: prem-tinsulanond.jpg
+  caption: Gen. Prem Tinsulanonda mit Junta-Führer Prayuth Chan-ocha in Bangkok, 11. April 2019.
 ---
-
-![Gen. Prem Tinsulanonda mit Junta-Führer Prayuth Chan-ocha in Bangkok, 11. April 2019.](./prem-tinsulanond.jpg)
-
 Prem Tinsulanonda ist tot. Der ehemalige Armee-General, Premierminister, königliche Berater und Vorsitzender des Königlichen Geheimrats verstarb im Alter von 98 Jahren am vergangenen Sonntag.
 
 In den meisten Nachrufen wird er als Vaterfigur des Landes bezeichnet. Je nachdem welchem politischen Lager man angehört bezeichnet man ihn als Mann, der Thailand vereinigte oder als Mann, der Regierungen stürzte. Ich kenne ihn als stille Kraft hinter den letzten beiden Putschen in Thailand.

@@ -13,12 +13,15 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: XwQRkOK5KC4
+  caption: The White Lotus – Season 3 Trailer
 ---
 
 **The White Lotus** ist eine preisgekrönte TV-Serie, die dunklen Humor und tiefgehende Gesellschaftskritik kombiniert. Jede Staffel spielt in einem luxuriösen Resort und folgt den komplexen Beziehungen und Konflikten zwischen Gästen und Mitarbeitern. Mehr Informationen zur Serie findest du auf der [Wikipedia-Seite zu _The White Lotus_](https://de.wikipedia.org/wiki/The_White_Lotus) .
 
 Die dritte Staffel, die am 16. Februar 2025 ihre Premiere feiert, führt die Zuschauer nach Thailand — genauer gesagt hier nach Koh Samui. Die Dreharbeiten fanden dieses Jahr im Four Seasons Resort um die Ecke statt.
 
-Im Folgenden siehst du den offiziellen Trailer zur kommenden Staffel:
-
-<dnb-youtube videoid="XwQRkOK5KC4" videotitle="The White Lotus – Season 3 Trailer"></dnb-youtube>
+Im offiziellen Trailer sieht man bereits, wie stark Koh Samui als Kulisse der
+kommenden Staffel inszeniert wird.

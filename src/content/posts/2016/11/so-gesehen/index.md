@@ -15,6 +15,8 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: so-gesehen.jpg
+  caption: So gesehen
 ---
-
-![So gesehen](./so-gesehen.jpg)

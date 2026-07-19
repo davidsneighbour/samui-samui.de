@@ -16,6 +16,8 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: neulich-auf-der-faehre.jpg
+  caption: Neulich auf der Fähre
 ---
-
-![Neulich auf der Fähre](./neulich-auf-der-faehre.jpg)

@@ -12,7 +12,8 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: DJbE_LQbJXc
 ---
-<dnb-youtube videoid="DJbE_LQbJXc"></dnb-youtube>
-
 Diese kurze Video-Dokumentation zeigt das tägliche Leben in Thailand. Ein Genuss. So, muss mich mal eben auf meinen Elephanten schwingen und meinen Zigarrenbestand im 7eleven aufstocken...

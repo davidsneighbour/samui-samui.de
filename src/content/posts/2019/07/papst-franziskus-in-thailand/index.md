@@ -16,10 +16,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: franziskus-und-yingluck.jpg
+  caption: Yingluck und Papst Franziskus, ca. 2013
 ---
-
-![Yingluck und Papst Franziskus, ca. 2013](./franziskus-und-yingluck.jpg)
-
 Papst Franziskus soll Gerüchten zufolge vor seiner geplanten Reise nach Japan im November auch Thailand einen Besuch abstatten. Er wird Tokyo, Nagasaki and Hiroshima in der Zeit vom 23. bis 26. November 2019 besuchen.
 
 Eingeladen wurde er 2013 von Yingluck Shinawatra, damals Premierministerin Thailands. Diese Bemerkung wird der aktuellen Regierung nicht so sehr gefallen, hat sie doch aktiv an der Abschaffung genau dieser Regierung mitgewirkt. Naja.

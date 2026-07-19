@@ -15,6 +15,8 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: childrens-day-2017-thailand.jpg
+  caption: Google Doodle Kindertag 2017 in Thailand --- © google.com
 ---
-
-![Google Doodle Kindertag 2017 in Thailand --- © google.com](./childrens-day-2017-thailand.jpg)

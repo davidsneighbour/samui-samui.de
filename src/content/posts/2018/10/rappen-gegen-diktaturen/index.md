@@ -15,10 +15,10 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: VZvzvLiGUtw
 ---
-
-<dnb-youtube videoid="VZvzvLiGUtw"></dnb-youtube>
-
 Am vergangenen Montag veröffentlichte die Gruppe "Rapper gegen Diktaturen" ein interessantes Musikvideo (oben zu sehen).
 
 Bis Freitag tat sich verhältnismässig wenig, wenn man davon absieht, dass es bis Freitag Morgen (nur) rund 850.000mal gesehen wurde. Am Freitag nun explodierte es und wurde bis jetzt rund 8.5 Millionen mal gesehen. Als ich vor ein paar Stunden angefangen habe, diesen Eintrag zu schreiben, waren wir bei 7 Millionen.

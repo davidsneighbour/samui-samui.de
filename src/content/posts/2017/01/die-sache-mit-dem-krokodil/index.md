@@ -12,8 +12,10 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: 3lOhzMGfnOo
 ---
-
 Lektion des Tages: Wenn das Krokodil rollt, dann roll hinterher.
 
 Dieser kurze Video-Clip zeigt ein Krokodil und einen "Handler", der es auf die Nase klopft, dann nochmal klopft und dann seine Hand in des Krokodils Maul hält. Selbiges fasst zu, dreht sich einmal, dann der Handler einmal, dann ist alles, ehm, gut.
@@ -21,5 +23,3 @@ Dieser kurze Video-Clip zeigt ein Krokodil und einen "Handler", der es auf die N
 Wenn man es so ohne Hintergedanken ansieht, dann ist es nicht sonderlich schlimm, oder? Wenn man weiss, dass das Krokodil durch diese sogenannte "Killerrolle" normalerweise Extremitäten abreist und sein Opfer dann verspeist, dann ist es "dramatisch" und wert, dramatisch aufgewertet zu werden.
 
 Neben-Notiz: Gestern hat ein französisches Paar versucht, einen "Selfie" neben einem Krokodil aufzunehmen --- die Frau wurde von selbigem gebissen. Mehr habe ich dazu nicht zu sagen. Ausser vielleicht: Tierische Instinkte für touristische Gründe zu missbrauchen wird sich eines Tages (oder spätestens wenn das Krokodil zubeisst) revanchieren.
-
-<dnb-youtube videoid="3lOhzMGfnOo"></dnb-youtube>

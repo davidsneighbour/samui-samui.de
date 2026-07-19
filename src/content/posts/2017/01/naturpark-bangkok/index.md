@@ -16,10 +16,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: bangkok-in-google-maps.png
+  caption: Naturpark Bangkok
 ---
-
-![Naturpark Bangkok](./bangkok-in-google-maps.png)
-
 Google Maps hat heute morgen Bangkok zum Naturpark ernannt. Wenn man ganz weit aus der Map heraus zoomt, bleibt die Bezeichnung "Thung Yai Naresuan Wildlife Sanctuary" sichtbar. Wie es aussieht hat da jemand aus Versehen (oder auch nicht) die Grenzen des Naturparks erweitert. Soviel Grün wird man wahrscheinlich erst in ein paar hundert Jahren, wenn die Affen die Welt regieren, in dieser Gegend sehen.
 
 Allerdings: Als man bei den Parkbeamten telephonisch anfragte, ob Bangkok jetzt zum Naturpark gehört, hat dieser tatsächlich nicht gewusst, ob das so sei. Wirklich.

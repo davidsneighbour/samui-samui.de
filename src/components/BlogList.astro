@@ -141,7 +141,13 @@ const shouldFeaturePost = (index: number) =>
             </article>
           ) : (
             <article class="rounded-(--radius) bg-card px-4 py-6 text-card-foreground sm:px-6">
-              <div class:list={['flex flex-col gap-4 md:flex-row', !cover && 'md:block']}>
+              <div
+                class:list={[
+                  'flex flex-col gap-4',
+                  cover && (index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'),
+                  !cover && 'md:block',
+                ]}
+              >
                 {cover && (
                   <PostCover
                     cover={cover}

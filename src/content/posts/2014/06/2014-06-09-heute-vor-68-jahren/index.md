@@ -8,5 +8,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: _VXSD0FWFXE
 ---
-<dnb-youtube videoid="_VXSD0FWFXE"></dnb-youtube>

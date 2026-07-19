@@ -20,9 +20,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: vimeo
+  video: 522265992
+  caption: Thailand vermisst dich
 ---
-
-<dnb-vimeo videoid="522265992" videotitle="Thailand vermisst dich"></dnb-vimeo>
 
 Die thailändische Tourismusbehörde (TAT) hat einen neuen TV-Werbespot gestartet, um der Welt die Nachricht zu senden, dass das Land es nicht erwarten kann, Besucher wieder willkommen zu heißen.
 

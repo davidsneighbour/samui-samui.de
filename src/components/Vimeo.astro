@@ -10,17 +10,17 @@ type Props = {
   /** Vimeo video id, e.g. `522265992` for https://vimeo.com/522265992 */
   videoid: string;
   /** Accessible title used for the play button and iframe title. */
-  title?: string;
+  title?: string | undefined;
   /** Label prefixed to the title, e.g. "Play: <title>". Defaults to "Play". */
-  playLabel?: string;
+  playLabel?: string | undefined;
   /** Start offset, e.g. "1m30s". Defaults to "0s". */
-  startAt?: string;
+  startAt?: string | undefined;
   /** Unlisted-video access hash (the `h` query param on vimeo.com/<id>/<hash>). */
-  hash?: string;
+  hash?: string | undefined;
   /** Load the iframe automatically once the element scrolls into view. */
-  autoload?: boolean;
+  autoload?: boolean | undefined;
   /** Autoplay once loaded (only takes effect together with `autoload`). */
-  autoplay?: boolean;
+  autoplay?: boolean | undefined;
   class?: string;
 };
 

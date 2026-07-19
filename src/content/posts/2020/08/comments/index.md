@@ -11,10 +11,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: comments.jpg
+  caption: Kommentieren... Yeah...
 ---
-
-![Kommentieren... Yeah...](./comments.jpg)
-
 Nach rund 10 Jahren kann man nun auf [Samui? Samui!](https://samui-samui.de) wieder kommentieren. Ich bin gespannt, zu welchen Auswüchsen das führt. Deaktiviert hatte ich Kommentare zuletzt weil immer mehr Leute ihre Weisheiten in mein Blog schrieben und ihre Meinungen als Fakten dahinstellten. Tja... Egal... Mal sehen was kommt ;]
 
 Um zu kommentieren, benötigt man einen Github-Account. Die Kommentare sind öffentlich und blöde Kommentare werde ich entsprechend beantworten.

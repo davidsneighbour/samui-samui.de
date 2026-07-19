@@ -13,10 +13,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: gaffel.jpg
+  caption: Richter-Rumklopf-Gerät (Photo von Bill Oxford)
 ---
-
-![Richter-Rumklopf-Gerät (Photo von Bill Oxford)](./gaffel.jpg)
-
 Seit 27. Mai 2019 haben wir auch in Thailand eine Art GDPR-Gesetz namens Personal Data Protection Act (PDPA). Firmen haben bis 27. Mai 2020 Zeit um die Regelungen umzusetzen.
 
 Geschützt werden soll damit jegliche Information die Individuen eindeutig identifiziert. Gültig ist es für alle Unternehmen die entweder innerhalb Thailands oder mit Unternehmen oder Personen in Thailand Geschäfte betreiben.

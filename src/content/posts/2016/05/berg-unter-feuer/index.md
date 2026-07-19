@@ -12,8 +12,10 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: 5v9dniq2N60
 ---
-
 Seit gestern Abend brennt es auf dem Berg zwischen Maenam und Bophut, und zwar ziemlich heftig. Da man in Thailand alles nur in Relationen verstehen kann, verkündeten die News heute, dass es der schlimmste Grossbrand der vergangenen 50 Jahre auf Samui ist. Erschwert werden die Löschversuche durch die Unzugänglichkeit des Gebietes.
 
 Wie es zum Brand kam, kann man noch nicht so genau sagen. Die Spekulationen gehen aber dahin, dass da Brandrodung betrieben wurde. Andererseits kann es auch durchaus sein, dass eine ungünstig als Abfall abgelegte Flasche in Verbindung mit ein wenig Sonneneinstrahlung und optischen Grundgesetzen das durch eine seit 8 Wochen anhaltende Dürre leicht entflammbare Laub entflammte(n?).
@@ -21,5 +23,3 @@ Wie es zum Brand kam, kann man noch nicht so genau sagen. Die Spekulationen gehe
 Erwähnte Dürre-Periode ist übrigens die längste und wärmste der vergangenen 65 Jahre. (Relationen, klar...)
 
 Hier noch ein Video (auf Thai) mit nächtlichem Brand.
-
-<dnb-youtube videoid="5v9dniq2N60"></dnb-youtube>

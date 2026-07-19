@@ -18,10 +18,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: eua-sunthornsanans-108th-birthday.png
+  caption: Google Doodle zum 108en Geburtstag von Eua Sunthornsanan
 ---
-
-![Google Doodle zum 108en Geburtstag von Eua Sunthornsanan](./eua-sunthornsanans-108th-birthday.png)
-
 Die länderspezifischen Google Doodles für Thailand sind immer wieder ein guter Weg, um etwas über die Kultur Thailands zu lernen.
 
 Neulich beispielsweise sahen wir ein Bild von Eua Sunthornsanan (das spricht man ungefähr “Üh-ah Sun-torn-sannan” aus), dem “Begründer der modernen Musik in Thailand”.

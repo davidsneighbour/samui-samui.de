@@ -14,6 +14,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: biYpmT5N3Jc
 ---
-
-<dnb-youtube videoid="biYpmT5N3Jc"></dnb-youtube>

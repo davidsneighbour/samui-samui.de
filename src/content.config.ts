@@ -19,17 +19,37 @@ const publisherFrontmatter = z
   .catchall(z.union([z.string(), z.number(), z.boolean()]))
   .optional();
 
+const bundledCoverImageFrontmatter = z.object({
+  alt: z.string().optional(),
+  caption: z.string().optional(),
+  src: z
+    .string()
+    .refine(
+      (src) => src === '' || (!src.includes('/') && !src.includes('\\')),
+      'Cover src must be a file name in the same folder as the post index.md.',
+    ),
+  // `title` is kept for existing image covers; use `caption` for new entries.
+  title: z.string().optional(),
+  type: z.literal('image'),
+});
+
+const bundledCoverVideoFrontmatter = z.object({
+  autoplay: z.boolean().optional(),
+  autoload: z.boolean().optional(),
+  caption: z.string().optional(),
+  hash: z.string().optional(),
+  params: z.string().optional(),
+  startAt: z.string().optional(),
+  title: z.string().optional(),
+  type: z.enum(['youtube', 'vimeo']),
+  video: z.union([z.string(), z.number()]),
+});
+
 const bundledCoverFrontmatter = z
-  .object({
-    src: z
-      .string()
-      .refine(
-        (src) => src === '' || (!src.includes('/') && !src.includes('\\')),
-        'Cover src must be a file name in the same folder as the post index.md.',
-      ),
-    title: z.string(),
-    type: z.literal('image'),
-  })
+  .discriminatedUnion('type', [
+    bundledCoverImageFrontmatter,
+    bundledCoverVideoFrontmatter,
+  ])
   .optional();
 
 const posts = defineCollection({

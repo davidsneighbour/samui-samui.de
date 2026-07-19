@@ -15,10 +15,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: batman-auf-dem-polizeirevier.jpg
+  caption: Batman auf dem Polizeirevier
 ---
-
-![Batman auf dem Polizeirevier](./batman-auf-dem-polizeirevier.jpg)
-
 Neulich wurde Batman in Bangkok von der Polizei angehalten, wurde aber (das hat Batman verlauten lassen) nicht eines Vergehens beschuldigt. Der Fahrer in voller Montur inklusive Batmobil (ohne amtliche Kennzeichen) war auf den Weg zu einer Wohltätigkeitsveranstaltung. Es scheint, als ob man auf Bangkoks Straßen häufiger mal Superhelden antrifft. Spiderman, Captain America und Superman wurden bereits gesichtet.
 
 \[via [Thongchai Lisittiwong][1]]

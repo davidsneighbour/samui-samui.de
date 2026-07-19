@@ -17,10 +17,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: royal-degree.png
+  caption: Königliches Dekret zur Festlegung der Neuwahlen in Thailand
 ---
-
-![Königliches Dekret zur Festlegung der Neuwahlen in Thailand](./royal-degree.png)
-
 Es wird Wahlen in Thailand geben. Soviel ist schon mal klar.
 
 Das Datum der Neuwahlen in Thailand wurde nach dem Putsch 2014 immer wieder gross versprochen und dann doch verschoben. Erst war es "Ende 2015", dann "nicht vor 2016, dann aber Mitte des Jahres", dann "so um August oder September 2016 herum". Im September 2016 dann versprach General Prayut, dem Volke noch mindestens zwei Jahre mehr zu dienen, wenn es denn wöllte. Die Reaktionen auf diese Ankündigung wurden wohl als Zustimmung verstanden, denn dann wurde das Datum der Wahl mit "wahrscheinlich nicht vor Anfang 2018" benannt.

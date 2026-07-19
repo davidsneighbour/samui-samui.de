@@ -16,10 +16,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: prayuth-chanocha-spricht-zur-presse.jpg
+  caption: Prayuth Chanocha spricht zur Presse
 ---
-
-![Prayuth Chanocha spricht zur Presse](./prayuth-chanocha-spricht-zur-presse.jpg)
-
 > Der thailändische Junta-Chef Prayuth Chan-o-cha ist bislang nicht mit Bemühungen um ein besseres Verhältnis zu den Berichterstattern im Land aufgefallen. Im Gegenteil: Seit seinem Amtsantritt hat er ein äußerst angespanntes Verhältnis zur Presse. Deren Vertreter werden durch die Gefahr einer Anwendung des sogenannten Majestätsbeleidigungsparagrafen zunehmend an der freien Berichterstattung gehindert. Nun will die Militärregierung nach Informationen der "Bangkok Post" noch weiter in die Berichterstattung im Land eingreifen: Demnach ist für 200 Journalisten aus dem In- und Ausland ein Treffen geplant, bei dem ihnen beigebracht werden soll, wie sie "konstruktive Fragen" stellen und zukünftig das "Verzerren von Fakten" vermeiden könnten.
 >
 > — [spiegel.de](http://www.spiegel.de/politik/ausland/thailand-will-journalisten-konstruktive-fragen-beibringen-a-1153911.html)

@@ -11,8 +11,8 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: 6xxUm815nbk
 ---
-
 Wie es aussieht, gibt es in Thailand (genauer in Nakhon Ratchasima) sogar Bären. Man fahre besser schnell durch diesen Wald.
-
-<dnb-youtube videoid="6xxUm815nbk"></dnb-youtube>

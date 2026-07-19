@@ -16,10 +16,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: strassenkoeter.jpg
+  caption: Straßenköter (Symbolphoto, Pokki, ca. 2007) --- Photo von Patrick Kollitsch
 ---
-
-![Straßenköter (Symbolphoto, Pokki, ca. 2007) --- Photo von Patrick Kollitsch](./strassenkoeter.jpg)
-
 In Thailand geht die Tollwut um. Seit Jahresbeginn sind bereits 6 Menschen gestorben. Das ist wieder ein Beispiel dafür, wie in Thailand nur reagiert, anstatt vorgebeugt wird. Über die Anzahl der Hunde und Katzen, die wegen der Tollwut gestorben sind, wird nichts ausgeführt. Erst wenn Menschen sterben und das lang und breit in den Medien und auf Social Media diskutiert wird, dann wird reagiert.
 
 > The Ministry of Public Health said six people had died from the disease since January, the most recent of which occured Sunday in Buriram province in northeast Thailand. According to livestock officials, 14 people died from rabies across 13 provinces in 2017, up from 11 people in 2016.

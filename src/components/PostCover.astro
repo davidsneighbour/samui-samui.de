@@ -1,5 +1,7 @@
 ---
 import { Picture } from 'astro:assets';
+import Vimeo from '@components/Vimeo.astro';
+import Youtube from '@components/Youtube.astro';
 import type { ResolvedPostCover } from '@utils/covers';
 
 interface Props {
@@ -21,30 +23,51 @@ const {
 } = Astro.props as Props;
 
 const loading = eager ? 'eager' : 'lazy';
-const optimizedSrc = typeof cover.src === 'string' ? undefined : cover.src;
-const fallbackSrc = typeof cover.src === 'string' ? cover.src : cover.src.src;
 ---
 
 <figure class={figureClass}>
-  {cover.optimized && optimizedSrc ? (
-    <Picture
-      src={optimizedSrc}
-      alt={cover.alt}
-      formats={['avif', 'webp']}
-      widths={[640, 750, 828, 1080, 1280]}
-      sizes={sizes}
-      loading={loading}
-      decoding="async"
-      class={imageClass}
-    />
-  ) : (
-    <img
-      src={fallbackSrc}
-      alt={cover.alt}
-      loading={loading}
-      decoding="async"
+  {cover.type === 'image' && (
+      cover.optimized && typeof cover.src !== 'string' ? (
+      <Picture
+        src={cover.src}
+        alt={cover.alt}
+        formats={['avif', 'webp']}
+        widths={[640, 750, 828, 1080, 1280]}
+        sizes={sizes}
+        loading={loading}
+        decoding="async"
+        class={imageClass}
+      />
+      ) : (
+      <img
+        src={typeof cover.src === 'string' ? cover.src : cover.src.src}
+        alt={cover.alt}
+        loading={loading}
+        decoding="async"
+        class={imageClass}
+      />
+      )
+    )}
+  {cover.type === 'youtube' && (
+    <Youtube
+      videoid={cover.videoid}
+      title={cover.title}
+      params={cover.params}
+      autoload={cover.autoload}
+      autoplay={cover.autoplay}
       class={imageClass}
     />
   )}
-  {cover.title && <figcaption class={captionClass}>{cover.title}</figcaption>}
+  {cover.type === 'vimeo' && (
+    <Vimeo
+      videoid={cover.videoid}
+      title={cover.title}
+      startAt={cover.startAt}
+      hash={cover.hash}
+      autoload={cover.autoload}
+      autoplay={cover.autoplay}
+      class={imageClass}
+    />
+  )}
+  {cover.caption && <figcaption class={captionClass}>{cover.caption}</figcaption>}
 </figure>

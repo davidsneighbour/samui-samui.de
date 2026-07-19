@@ -12,8 +12,8 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: C2uyfYOkTP0
 ---
-
-<dnb-youtube videoid="C2uyfYOkTP0"></dnb-youtube>
-
 Einparkprobleme hatte am Wochenende dieses etwas größere Transportschiff in einem zugegebenermassen etwas kurvigem Bereich des Chao Phraya Rivers in Bangkok.

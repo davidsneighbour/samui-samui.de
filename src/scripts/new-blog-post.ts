@@ -150,7 +150,7 @@ ${tags}
 cover:
   src: ""
   type: ${config.defaultCoverType}
-  title: ""
+  caption: ""
 date: ${options.date.toISOString()}
 ---
 

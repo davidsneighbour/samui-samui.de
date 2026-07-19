@@ -17,10 +17,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: red-pool.jpg
+  caption: Red Pool im The Library Resort auf Koh Samui
 ---
-
-![Red Pool im The Library Resort auf Koh Samui](./red-pool.jpg)
-
 Fox-News ist ja eigentlich nicht für clevere Inhalte bekannt. Jetzt hat man dort aber eine [Liste der 8 seltsamsten Hotel-Pools weltweilt][1] veröffentlicht. Und siehe da, Samui ist auf der Liste vertreten.
 
 Der Pool im Library Resort in Chaweng ist rot. Weshalb man ihn "[The Red Pool][2]" getauft hat. Die interessante Färbung wird durch rote Kacheln erzeugt. Bei Tag und Nacht ein interessanter Anblick.

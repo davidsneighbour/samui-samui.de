@@ -12,10 +12,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: schengen-visa.jpg
+  caption: Schengen Visa (antik)
 ---
-
-![Schengen Visa (antik)](./schengen-visa.jpg)
-
 Ab dem 1. August 2019 werden Schengen-Visa-Anträge (Anträge von Thais und Nicht-Deutschen für ein 90-Tage-Touristenvisum in die Länder des Schengener Verbundes) nicht mehr von der Deutschen Botschaft sondern einem "Partner" namens VFS.Global angenommen. Das Unternehmen nimmt die Anträge entgegen, prüft auf Vollständigkeit, leitet sie an die Botschaft weiter. Dort wird der Antrag dann entweder stattgegeben oder abgelehnt und zurück an VFS.Global gegeben, die dann die Weitergabe übernehmen.
 
 Zur Zeit befinden sich 26 Länder im Schengen-Verbund: Österreich, Belgien, Tschechien, Dänemark, Estland, Finnland, Frankreich, Deutschland, Griechenland, Ungarn, Island, Italien, Letland, Liechtenstein, Litauen, Luxemburg, Malta, die Niederlande, Norwegen, Polen, Portugal, die Slovakei, Slovenien, Spanien, Schweden, und die Schweiz. Zwischen den Ländern kann man ohne Grenzkontrollen reisen.

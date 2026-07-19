@@ -17,10 +17,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: schnell-und-wuetend.jpg
+  caption: Schnell und wütend aber gut verpackt auf Thailands Straßen
 ---
-
-![Schnell und wütend aber gut verpackt auf Thailands Straßen](./schnell-und-wuetend.jpg)
-
 Die berühmte Filmserie mit schnell fahrenden Autos und wahnsinnig reellen Stunts "Schnell und Wütend" (Fast and Furious) dreht zur Zeit in Thailand. Seit gut zwei Wochen mehren sich die Social Media postings mit wohlverpackten Autos und Angaben, wo genau man die "Fast and Furious 9" Drehorte finden kann.
 
 Ein paar Leute sind 100% davon überzeugt, dass auf Koh Samui gedreht wird. Ich glaube das eher nicht, denn die Straßen hier sind nicht allzugut für derartig tiefgelegte Autos geeignet ;] Seit Montag dreht man in Krabi. Gefilmt werden soll in Krabi, Phuket, Phang Nga und "Suratthani", was hierzulande als Code für Koh Samui verstanden wird. Wir werden sehen...

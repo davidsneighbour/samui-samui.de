@@ -16,10 +16,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: borneo-feuer-smog.jpg
+  caption: Feuer auf Borneo aus Satellitensicht
 ---
-
-![Feuer auf Borneo aus Satellitensicht](./borneo-feuer-smog.jpg)
-
 Jedes Jahr um diese Zeit überzieht Smog den Süden Thailands. Das geht jedes Jahr so, weil man in Indonesien den Regenwald durch Brandrodung abholzt (illegal). Dann liest man von Smog und Luftverschmutzung im Süden, aber hier auf Samui merkte man nur an einigen wenigen Tagen etwas.
 
 Dieses Jahr erwischt es uns aber recht heftig mit Smog auf der Insel, weil die Brände etwas mehr aus der Kontrolle geraten als bisher und so durchleben wir den schlimmsten Smog in 17 Jahren. Sagt man. Das sieht dann so aus dass die Luft vor der Tür wie in einem deutschen kalten Februar recht undurchsichtig weiss vor sich hin schwabbert. Riecht wie verbranntes Holz, logischerweise.

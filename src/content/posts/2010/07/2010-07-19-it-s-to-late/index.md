@@ -9,9 +9,10 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: 9dNIu8_-iU8
 ---
-<dnb-youtube videoid="9dNIu8_-iU8"></dnb-youtube>
-
 Dieses Video [darf im thailändischen Fernsehen nicht gezeigt werden][1] --- sagt der Zensur-Ausschuss der Fernsehanstalten in Thailand. Zuviel Gewalt und die Gefahr, dass Teile des Videos als Verleumdung angesehen werden könnten (und sowas wird immer gleich vor den Gerichten ausgetragen).
 
 Und wie das so ist: wenn man was verbietet findet es trotzdem seinen Weg in die ?ffentlichkeit, beispielsweise über Youtube. Der Premierminister ist übrigens [verwundert][2] über das Verbot. Wir werden es also doch irgendwann im Fernsehen sehen.

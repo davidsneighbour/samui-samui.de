@@ -12,6 +12,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: NmIDE_feJUs
 ---
-
-<dnb-youtube videoid="NmIDE_feJUs"></dnb-youtube>

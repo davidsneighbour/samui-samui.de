@@ -17,10 +17,11 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: image
+  src: Cj7f9WqVAAAiqPj.jpg
+  caption: Pickled Tigers from Kanchanaburi, via Richart Miyer
 ---
-
-![Pickled Tigers from Kanchanaburi, via Richart Miyer](./Cj7f9WqVAAAiqPj.jpg)
-
 Eine besonders beliebte Attraktion in Thailand ist der berühmte Tiger-Tempel Luangta Maha Bua in Kanchanaburi. Ich kenne keinen Thailand-Reisenden der nicht gerne einen Selfie mit einem Tiger in seine Social Media Ströme stellt. Dummerweise nur gibt es seit Jahren "Tierschützer", die gegen diesen Tempel und die Praxis demonstrieren.
 
 Als Urlauber, nach einem besondern Photo suchend, sollte man sich meiner Meinung nach immer der Tatsache bewusst sein, dass so ein Photo nicht _echt_ sein kann. In jedweder Hinsicht.

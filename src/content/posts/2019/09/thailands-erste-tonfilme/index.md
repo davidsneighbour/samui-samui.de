@@ -14,10 +14,10 @@ publisher:
   cover: true
   tags: true
   seo: true
+cover:
+  type: youtube
+  video: UFtR03ZG0mM
 ---
-
-<dnb-youtube videoid="UFtR03ZG0mM"></dnb-youtube>
-
 Das Thailändische Filmarchiv hat vor ein paar Tagen die ersten bekannten Tonfilme aus Thailand der Öffentlichkeit vorgestellt. Entdeckt wurden sie in den Archiven der Universität von South Carolina in den USA. Aufgenommen wurden sie von Fox Movietone in den 30er Jahren des vergangenen Jahrhunderts. 
 
 Dieses Video zeigt betende Mönche, badende Kinder, zu westlicher Musik tanzende Matrosen mit Frauen, die recht gelangweilt aussehen und ein Pärchen auf einer Parkbank. 

@@ -3,13 +3,30 @@ import type { ImageMetadata } from 'astro';
 
 type PostEntry = CollectionEntry<'posts'>;
 
-export interface ResolvedPostCover {
+interface ResolvedPostCoverBase {
+  caption?: string | undefined;
+  type: 'image' | 'youtube' | 'vimeo';
+}
+
+export interface ResolvedPostImageCover extends ResolvedPostCoverBase {
   alt: string;
   optimized: boolean;
   src: ImageMetadata | string;
-  title?: string | undefined;
   type: 'image';
 }
+
+export interface ResolvedPostVideoCover extends ResolvedPostCoverBase {
+  autoplay?: boolean | undefined;
+  autoload?: boolean | undefined;
+  hash?: string | undefined;
+  params?: string | undefined;
+  startAt?: string | undefined;
+  title: string;
+  type: 'youtube' | 'vimeo';
+  videoid: string;
+}
+
+export type ResolvedPostCover = ResolvedPostImageCover | ResolvedPostVideoCover;
 
 const postImages = import.meta.glob<ImageMetadata>(
   '/src/content/posts/**/*.{avif,gif,jpeg,jpg,png,webp}',
@@ -38,12 +55,20 @@ function resolveBundledPostImage(
   return postImages[`${postDirectory}/${fileName}`];
 }
 
+function trimmed(value: string | undefined): string | undefined {
+  const next = value?.trim();
+  return next ? next : undefined;
+}
+
 export function getPostCover(post: PostEntry): ResolvedPostCover | undefined {
   const cover = post.data.cover;
-  const coverSrc = cover?.src.trim();
 
-  if (cover?.type === 'image' && coverSrc) {
+  if (cover?.type === 'image') {
+    const coverSrc = cover.src.trim();
+    if (!coverSrc) return undefined;
+
     const image = resolveBundledPostImage(post, coverSrc);
+    const caption = trimmed(cover.caption) ?? trimmed(cover.title);
 
     if (!image) {
       throw new Error(
@@ -52,17 +77,37 @@ export function getPostCover(post: PostEntry): ResolvedPostCover | undefined {
     }
 
     return {
-      alt: cover.title || post.data.title,
+      alt: trimmed(cover.alt) ?? caption ?? post.data.title,
+      caption,
       optimized: true,
       src: image,
-      title: cover.title || undefined,
       type: 'image',
+    };
+  }
+
+  if (cover?.type === 'youtube' || cover?.type === 'vimeo') {
+    const videoid = String(cover.video).trim();
+    if (!videoid) return undefined;
+
+    const caption = trimmed(cover.caption) ?? trimmed(cover.title);
+
+    return {
+      autoplay: cover.autoplay,
+      autoload: cover.autoload,
+      caption,
+      hash: trimmed(cover.hash),
+      params: trimmed(cover.params),
+      startAt: trimmed(cover.startAt),
+      title: caption ?? post.data.title,
+      type: cover.type,
+      videoid,
     };
   }
 
   if (post.data.featured_image) {
     return {
       alt: post.data.title,
+      caption: undefined,
       optimized: false,
       src: post.data.featured_image,
       type: 'image',
