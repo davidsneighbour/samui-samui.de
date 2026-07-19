@@ -9,7 +9,7 @@ hand-editing it.
 
 * The Astro migration is complete. The site is now a static Astro project
   deployed on Netlify at [https://samui-samui.de](https://samui-samui.de).
-* Open GitHub issues: 6 as of 2026-07-20.
+* Open GitHub issues: 5 as of 2026-07-20.
 * **The `/archiv/` and `/tags/` feature milestone (issues #903-#917) is fully
   closed.** All fourteen issues landed:
   * #903-#914 -- audit, archive/tags pages, breadcrumbs, cross-linking,
@@ -24,7 +24,7 @@ hand-editing it.
     a `.bg-card` container), clean 200%-zoom reflow, 48px touch targets. One
     follow-up filed: [#928](https://github.com/davidsneighbour/samui-samui.de/issues/928)
     (site-wide missing skip-to-content link, low priority, not
-    archive-specific).
+    archive-specific). Closed same day -- see below.
   * **#915 closed (2026-07-20):** added `public/robots.txt` and an
     `@astrojs/sitemap` `filter` excluding `/seite/[seite]/` pagination pages
     (thin duplicates of content already indexed elsewhere) -- sitemap URL
@@ -34,6 +34,14 @@ hand-editing it.
     `documentation/archiv.md`.
   * **#917 closed (2026-07-20):** final visual review and milestone
     close-out verified as in scope.
+* **#928 closed (2026-07-20):** added a shared "Zum Inhalt springen" skip
+  link in `Header.astro` plus `id="main"`/`tabindex="-1"` on all six
+  `<main>` landmarks site-wide. Verified via real keyboard interaction
+  (Playwright): first Tab focuses the link, activating it moves
+  `document.activeElement` to `<main>`, and the *next* Tab lands inside
+  content -- confirming the header/nav is actually skipped, not just
+  scrolled past (an initial version without `tabindex="-1"` left focus on
+  `<body>`, silently failing that last part).
 * **Dependency PR triage (prior session):** 8 open Dependabot PRs were
   reviewed. 7 merged after local verification (build + `astro:check` +
   `npm test` against each, not just the repo's CodeQL/WIP checks, which don't
@@ -83,14 +91,6 @@ hand-editing it.
   new) - PR #920 breaks `npm ci`; either wait for `@astrojs/check` to support
   TS 7, or bump to the still-compatible `6.0.3` instead.
 
-## Accessibility
-
-* [#928](https://github.com/davidsneighbour/samui-samui.de/issues/928) Add
-  skip-to-content link for keyboard users (`prio:low`, `status:confirmed`) -
-  site-wide gap found during the #916 review; no skip link exists anywhere
-  in `Header.astro`/layouts, so every page requires tabbing through the full
-  nav before reaching main content.
-
 ## Content and design
 
 * [#898](https://github.com/davidsneighbour/samui-samui.de/issues/898)
@@ -130,16 +130,14 @@ hand-editing it.
 
 1. Handle [#747](https://github.com/davidsneighbour/samui-samui.de/issues/747)
    as the only remaining high-priority security issue.
-2. Pick up [#928](https://github.com/davidsneighbour/samui-samui.de/issues/928)
-   (skip-to-content link) as a small, low-risk site-wide a11y fix.
-3. Decide the TypeScript path for
+2. Decide the TypeScript path for
    [#927](https://github.com/davidsneighbour/samui-samui.de/issues/927) (wait
    for upstream support vs. bump to 6.0.3).
-4. Continue [#898](https://github.com/davidsneighbour/samui-samui.de/issues/898)
+3. Continue [#898](https://github.com/davidsneighbour/samui-samui.de/issues/898)
    (already in progress).
-5. Decide the scope for
+4. Decide the scope for
    [#745](https://github.com/davidsneighbour/samui-samui.de/issues/745) before
    implementation, because the right fix depends on whether this should happen in
    the editor, pre-commit flow, or a content-cleanup script.
-6. Resume [#717](https://github.com/davidsneighbour/samui-samui.de/issues/717)
+5. Resume [#717](https://github.com/davidsneighbour/samui-samui.de/issues/717)
    once the comment platform setup and migration/import plan are unblocked.
