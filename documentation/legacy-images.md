@@ -15,10 +15,11 @@ parts of the pipeline:
   tags in post content -- are rewritten by a rehype plugin,
   `src/scripts/rehype/legacy-images.ts` (`rehypeLegacyImages`), wired into
   `astro.config.ts`'s `markdown.rehypePlugins`.
-* **Post covers** (`cover:` frontmatter and the legacy `featured_image`
-  string field), resolved by `getPostCover()` in `src/utils/covers.ts`, are
-  classified in `PostCover.astro` and rendered by
-  `src/components/LegacyImagePresentation.astro`.
+* **Post covers in preview contexts** (`cover:` frontmatter and the legacy
+  `featured_image` string field), resolved by `getPostCover()` in
+  `src/utils/covers.ts`, are classified in `PostCover.astro` and rendered by
+  `src/components/LegacyImagePresentation.astro` where the call site opts in
+  with `presentationWidth`.
 
 Both read the same central config and classification function from
 `src/utils/legacy-images/`:
@@ -84,10 +85,11 @@ judged on their own intrinsic width, not an aspect-ratio heuristic).
 * Post-body images default to `720` (see
   `DEFAULT_EXPECTED_RENDERED_WIDTH` in the rehype plugin) -- the content
   column has no per-image `sizes`, unlike `<Picture>` call sites.
-* Post covers pass the `presentationWidth` prop from the call site (`896`
-  for the single-post hero and the featured list card;
-  see [Per-image overrides](#per-image-overrides) below for the cropped
-  288px list-card thumbnails, which don't opt in at all).
+* Post covers pass the `presentationWidth` prop only in preview contexts (`896`
+  for the featured list card; see [Per-image overrides](#per-image-overrides)
+  below for the cropped 288px list-card thumbnails, which don't opt in at all).
+  Single-post covers intentionally do not opt in, so they render as full-width
+  images without a separate legacy presentation frame behind them.
 
 Current defaults (`src/utils/legacy-images/config.ts`):
 
@@ -179,9 +181,8 @@ back to the original file on disk.
   relative to the column width for pathological sources) -- no
   client-side JavaScript, no layout shift.
 * `loading`/`decoding` on the foreground default to `lazy`/`async` in body
-  content, and inherit the caller's `eager`/`lazy` choice for covers (the
-  single-post hero and featured list cover render eager, matching prior
-  behavior).
+  content, and inherit the caller's `eager`/`lazy` choice for cover preview
+  contexts (the featured list cover renders eager, matching prior behavior).
 * `standard`-classified images never generate or load a blurred derivative.
 * Runs entirely at build time; no hydration, no runtime JS.
 

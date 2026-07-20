@@ -191,10 +191,6 @@ h6 {
   background-color: var(--color-muted);
 }
 
-.legacy-image-frame.single-post-cover-image {
-  border-radius: 0;
-}
-
 .legacy-image-bg {
   position: absolute;
   inset: 0;
