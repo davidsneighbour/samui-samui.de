@@ -1,0 +1,16 @@
+---
+title: 'Feiertage: Chinesisches Neujahr'
+date: 2008-02-06T12:30:45+00:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Heute ist Neujahr im Chinesischen Kalender. Es beginnt [das Jahr der Ratte][1] im Erdkreis. Die Ratte steht interessanterweise für Reichtum und materielle Erträge, aber auch für Pest und Tod.
+
+Na wir werden ja sehen...
+
+ [1]: http://en.wikipedia.org/wiki/Year_of_the_rat

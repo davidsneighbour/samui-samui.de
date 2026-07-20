@@ -1,0 +1,19 @@
+---
+title: Nichts als Regen!
+date: 2008-03-07T02:03:01+00:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+<div class="flickr">
+  <a href="http://www.flickr.com/photos/schreibblogade/2317009702/" title="Rain!"><img src="//farm3.static.flickr.com/2402/2317009702_c77d4e7cc3.jpg" alt="Rain!" /></a></p>
+
+  <p>
+    Rain!
+  </p>
+</div>

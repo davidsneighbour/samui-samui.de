@@ -1,0 +1,19 @@
+---
+title: 'Frühjahrsbeginn'
+date: 2008-03-19T15:38:52+00:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+<div class="flickr">
+  <a href="http://www.flickr.com/photos/schreibblogade/2346411603/" title="First day of spring"><img src="//farm3.static.flickr.com/2117/2346411603_88c5e322db.jpg" alt="First day of spring" /></a></p>
+
+  <p>
+    First day of spring
+  </p>
+</div>

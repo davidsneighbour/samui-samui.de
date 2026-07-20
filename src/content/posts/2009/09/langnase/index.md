@@ -1,0 +1,19 @@
+---
+title: Langnase
+date: 2009-09-24T05:31:48+00:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+<div class="flickr">
+  <a href="http://www.flickr.com/photos/schreibblogade/3950706521/" title="Cut"><img src="//farm4.static.flickr.com/3463/3950706521_1650412914.jpg" alt="Cut" /></a></p>
+
+  <p>
+    Cut
+  </p>
+</div>

@@ -1,0 +1,23 @@
+---
+title: Thailand bietet Myanmar Wahlhilfe an
+date: 2010-10-11T00:31:16+00:00
+lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Thailands demokratisch eingesetzter Premierminister Abhisit Vejjajiva hat heute Myanmar die [Hilfe Thailands bei der demnächst stattfindenden Wahl][1] angeboten.
+
+...
+
+Hmm...
+
+...
+
+Das ist so, als ob in Deutschland die jeweils regierenden Parten solange verboten werden würden bis Die Piraten an der Macht sind (sprich die Kanzlerin stellen) und eine Koalition mit den Grauen und irgendeiner Gartenpartei bilden und diese Regierung dann bspw. den Russen Wahlhilfe anbieten würden. Nur eine Meinung.
+
+ [1]: http://ph.news.yahoo.com/ap/20101011/tap-as-myanmar-thailand-7934085.html

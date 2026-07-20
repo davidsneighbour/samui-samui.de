@@ -1,0 +1,19 @@
+---
+title: Der Autor
+date: 2007-12-27T00:48:01+00:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+<div class="flickr">
+  <a href="http://www.flickr.com/photos/schreibblogade/2141482766/" title="Me now."><img src="//farm3.static.flickr.com/2186/2141482766_66274217b0.jpg" alt="Me now." /></a></p>
+
+  <p>
+    Me now.
+  </p>
+</div>

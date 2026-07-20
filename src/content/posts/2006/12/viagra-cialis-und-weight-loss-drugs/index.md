@@ -1,0 +1,16 @@
+---
+title: Viagra, Cialis und Weight-Loss-Drugs
+date: 2006-12-05T03:18:43+00:00
+dsq_thread_id:
+  - "3665286534"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Da spammt mir grade jemand das Blog voll (manuell) mit Viagra- und Cialis-Werbung (jeder weiss doch, dass Cialis das bessere Viagra ist, warum werben die überhaupt noch mit den blauen Pillchen?) und anderem Quatsch zu. Also nicht wundern.
+
+Ich persönlich brauche den Kram nicht per Internet zu kaufen, denn einerseits lebe ich strikt abstinent und andererseits kann man den Kram auf der Insel kaufen, wie ich bereits in diesem Vintage-Eintrag berichtete.

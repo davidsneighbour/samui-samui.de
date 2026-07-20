@@ -1,0 +1,31 @@
+---
+title: Schnell und unkompliziert
+date: 2005-12-27T01:23:00+00:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+<txp:zem_contact mailto="<schreibblogade@gmail.com>">
+
+<txp:zem\_contact\_email label="Emailadresse" break=" " required="1" />
+
+<txp:zem\_contact\_text label="Name" break=" " required="1" />
+
+<txp:zem\_contact\_text label="Thema" break=" " />
+
+<txp:zem\_contact\_textarea label="Nachricht" />
+
+<txp:zem\_contact\_submit label="Nachricht senden" />
+
+<txp:zem\_contact\_serverinfo name="REMOTE_ADDR" label="IP" />
+
+<txp:zem\_contact\_serverinfo name="REQUEST_URI" label="Request-Uri" />
+
+<txp:zem\_contact\_serverinfo name="USER_AGENT" label="User-Agent" />
+
+</txp:zem_contact>

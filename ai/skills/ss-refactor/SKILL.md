@@ -76,9 +76,9 @@ See `resources/state-format.md`.
 
 ## Post path normalisation
 
-Canonical post URLs are metadata-driven, not directory-name-driven. The route
-uses the preserved frontmatter `url` when present and otherwise computes
-`/:year/:month/:slug/` from frontmatter `date` plus `slug`.
+Canonical post URLs are metadata-driven. The route uses the preserved
+frontmatter `url` when present and otherwise computes `/:year/:month/:slug/`
+from frontmatter `date` plus the post folder slug.
 
 Treat date prefixes in historical post folder names as legacy export artefacts.
 When moving, creating, or otherwise normalising a post during refactor work,
@@ -95,10 +95,12 @@ src/content/posts/YYYY/MM/YYYY-MM-DD-slug/index.md
 ```
 
 Before a path migration, check for same-month slug collisions after removing
-the `YYYY-MM-DD-` prefix, update any same-folder assets with the post, and run a
-build or the narrowest route check that proves the generated permalink stayed
-unchanged. Do not change `url`, `date`, or `slug` frontmatter merely to match a
-filesystem move.
+the `YYYY-MM-DD-` prefix. Only migrate when the folder-prefix day matches the
+UTC frontmatter `date`, and only remove frontmatter `url` when it already
+matches the target `YYYY/MM/slug` path. Update any same-folder assets with the
+post, and run a build or the narrowest route check that proves the generated
+permalink stayed unchanged. Do not change `date` or `slug` frontmatter merely to
+match a filesystem move.
 
 ## Queue selection
 

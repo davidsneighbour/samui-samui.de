@@ -1,0 +1,18 @@
+---
+title: Geheimniskrämer
+date: 2008-11-20T01:22:34+00:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Pracha Prasopdee (eines der Führungsmitglieder der Peoples Power Partei, derzeit Regierungspartei Thailands) hat [was gesagt][1]:
+
+> "Just carefully monitor Thaksin's phone-in on December 13 and see what will happen on December 25 when someone is supposed to arrive by a <span class="caps">THAI</span> flight from Hong Kong to Bangkok's Suvanabhumi Airport at 9:45 a.m. (0245 <span class="caps">GMT</span>)," Pracha Prasopdee told The Nation news website in an interview.
+
+Er wird doch nicht?!? Wo er doch sonst nie?!? Der Weihnachtsmann? Er kommt nach Thailand?
+
+ [1]: http://news.xinhuanet.com/english/2008-11/20/content_10388491.htm

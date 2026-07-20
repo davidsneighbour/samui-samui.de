@@ -1,0 +1,17 @@
+---
+title: Nach Hause
+date: 2005-12-02T04:13:53+00:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+[Gegen Sechs][1] solls heute weniger regnen. Tolle Sache. Ich bereite mal Projekt Heimschwimmen vor. Mich hört man dann wieder am Dienstag. Montag ist Feiertag. Und an Feiertagen arbeitet man nicht. Morgen ist Putztag und an Putztagen komm ich nicht. Und am Sonntag ist die Klimaanlage nicht an.
+
+Und an allen drei Tagen hab ich andere Gesprächspartner als meinen Computer.
+
+ [1]: http://wwwa.accuweather.com/world-forecast-hourly.asp?partner=forecastfox&myadc=0&traveler=0&zipcode=SEA;TH;-;KO%20SAMUI;&metric=1

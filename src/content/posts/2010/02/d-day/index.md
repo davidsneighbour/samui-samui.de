@@ -1,0 +1,17 @@
+---
+title: D-Day
+date: 2010-02-25T12:29:45+00:00
+lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Die Profigolfer der Nation schauen heute nach Bangkok. Es ist Thaksins gro?er D-Day: In Bangkok wird die Entscheidung über seine 76.621.603.61,05 eingefrorene Baht verkündet.
+
+Nach der Verkündigung werden die Rothemden randalieren. Wenn ihm der gesamte Betrag oder Teile davon weg genommen werden, randalieren sie, weil das ungerecht ist und wenn er alles zurück bekommt, randalieren sie, weil das ja gewisserma?en ein Nachweis seiner Legitimität als Thailands Oberhaupt ist und er doch bitte wieder Premierminister sein soll und die Nation (oder seine Hälfte davon) einen und in eine korruptionsfreie Zukunft führen soll.
+
+So oder so, Thai-TV zu schauen macht heute Sinn. Um 1.30 Uhr wird wird das Urteil des obersten Gerichtshofes (the Supreme Court's Criminal Division for Holders of Political Positions) verkündet.

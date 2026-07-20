@@ -1,0 +1,17 @@
+---
+title: Projekt Imagewiederherstellung I
+date: 2005-06-22T02:25:04+00:00
+dsq_thread_id:
+  - "6412166449"
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+![](/wp-content/old-images/127.jpg)
+
+Pressen! Pressen. 3-Tage-Bart. Es geht aufwärts.

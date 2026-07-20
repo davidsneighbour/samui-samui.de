@@ -1,0 +1,19 @@
+---
+title: Gedanken zum Tage
+date: 2005-08-24T02:37:04+00:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Nun, zwei Punkte:
+
+(sorry, kleiner Insider für zwei absolut nichts miteinander zu tun habende Informationsbrocken)
+
+1. Ich hatte gerade einen Wahnsinnsgedankenblitz für ein Technologie-Blog das von Frauen gefüllt wird. _**Technolochicks**_. Ich finds lustig. Gibts aber garantiert schon. Und da mir einige Voraussetzungen zum Betreiben eines Frauenblogs fehlen und ich kein Geld für eine Operation habe, um die Sache selbst zu regeln, gibts die Idee, wenn sie denn so neu ist hier gratis zum Download. _**Technolochicks**_ --- bittesehr.
+
+2. Wenn man in Thai sagen will: "Es ist verdammt heiß draußen." dann sagt man in etwa folgendes: "Es ist so heiß dass deine Leber explodiert." ?????????????????????????????? (rhon dubb daek) --- Ich lass das mal im Raume stehen.

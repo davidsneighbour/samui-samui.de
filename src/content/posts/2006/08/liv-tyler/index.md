@@ -1,0 +1,16 @@
+---
+title: Liv Tyler
+date: 2006-08-03T12:15:00+00:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+... is ja doch [ne][1] Schnecke. (_kuck grade die thailändische Originalversion vom Herrn der Ringe_)
+
+PS: Gleich danach Star Wars <span class="caps">III</span> (neu oder alt? Ich weiss nicht.)
+
+ [1]: http://www.imdb.com/name/nm0000239/

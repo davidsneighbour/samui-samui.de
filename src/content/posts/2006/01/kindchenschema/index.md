@@ -1,0 +1,17 @@
+---
+title: Kindchenschema
+date: 2006-01-04T02:18:00+00:00
+dsq_thread_id:
+  - "3501556477"
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+[<img width="455" src="//static.flickr.com/42/81945557_4d636d91d9.jpg" alt="Diva" />][1]
+
+ [1]: http://www.flickr.com/photos/schreibblogade/81945557/ "Diva"
