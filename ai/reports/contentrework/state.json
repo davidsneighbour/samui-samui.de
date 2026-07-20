@@ -2,16 +2,16 @@
   "currentBatch": null,
   "flickrBackup": {
     "blocked": 0,
-    "copied": 0,
-    "matched": 0,
+    "copied": 5,
+    "matched": 5,
     "pending": 466,
     "postsWithFlickrReferences": 443,
     "uniquePhotoIds": 452
   },
   "frontmatter": {
     "coverTypes": {
-      "image": 57,
-      "missing": 1953,
+      "image": 58,
+      "missing": 1952,
       "unknown": 0,
       "vimeo": 1,
       "youtube": 39
@@ -24,10 +24,10 @@
     },
     "topLevelFlickr": 0
   },
-  "generatedAt": "2026-07-20T06:51:27.535Z",
+  "generatedAt": "2026-07-20T14:10:00+07:00",
   "markers": {
-    "cover": 2050,
-    "covermigration": 1959,
+    "cover": 2049,
+    "covermigration": 1958,
     "description": 2050,
     "flickr": 466,
     "seo": 2050,
@@ -37,10 +37,10 @@
   "otherPublisherKeys": {},
   "queues": {
     "all": 2050,
-    "covers": 2050,
+    "covers": 2049,
     "flickr": 466,
-    "marker:cover": 2050,
-    "marker:covermigration": 1959,
+    "marker:cover": 2049,
+    "marker:covermigration": 1958,
     "marker:description": 2050,
     "marker:flickr": 466,
     "marker:seo": 2050,
@@ -59,9 +59,9 @@
   },
   "totals": {
     "blocked": 0,
-    "changed": 0,
+    "changed": 1,
     "posts": 2050,
-    "reviewed": 0,
-    "unreviewed": 2050
+    "reviewed": 1,
+    "unreviewed": 2049
   }
 }

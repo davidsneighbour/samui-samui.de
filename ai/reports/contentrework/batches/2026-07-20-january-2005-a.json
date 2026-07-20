@@ -1,0 +1,26 @@
+{
+  "changedFiles": [
+    "src/content/posts/2005/01/2005-01-17-inselrundfahrt/index.md",
+    "src/content/posts/2005/01/2005-01-17-inselrundfahrt/ringroad-in-the-south-64439142.jpg",
+    "src/content/posts/2005/01/2005-01-17-inselrundfahrt/first-time-at-lipa-noi-64439106.jpg",
+    "src/content/posts/2005/01/2005-01-17-inselrundfahrt/food-safe-district-64439149.jpg",
+    "src/content/posts/2005/01/2005-01-17-inselrundfahrt/samui-3951822257.jpg",
+    "src/content/posts/2005/01/2005-01-17-inselrundfahrt/first-step-into-the-gulf-of-thailand-64439158.jpg",
+    "ai/reports/contentrework/reports/2005-01-17-inselrundfahrt.md",
+    "ai/reports/contentrework/posts.jsonl",
+    "ai/reports/contentrework/state.json",
+    "ai/reports/contentrework/batches/2026-07-20-january-2005-a.json",
+    "ai/reports/contentrework/README.md"
+  ],
+  "closedAt": "2026-07-20T14:10:00+07:00",
+  "commitSubject": "content(refactor): recover January 2005 Flickr originals",
+  "id": "2026-07-20-january-2005-a",
+  "openedAt": "2026-07-20T14:10:00+07:00",
+  "posts": ["src/content/posts/2005/01/2005-01-17-inselrundfahrt/index.md"],
+  "status": "closed",
+  "summary": [
+    "Recovered five verified Flickr originals for the January 2005 Inselrundfahrt post.",
+    "Promoted the first recovered image to the bundled cover model.",
+    "Kept metadata, taxonomy, and SEO markers for later review."
+  ]
+}

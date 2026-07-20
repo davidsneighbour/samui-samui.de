@@ -25,5 +25,5 @@ The initial baseline was generated from the current repository content:
 * tags: `src/content/tags/**/_index.md`
 * review history: `posts.jsonl`
 
-`posts.jsonl` starts empty because no post-level review events have happened in
-this workflow yet.
+`posts.jsonl` started empty at the baseline; subsequent post-level review
+events are appended as the content rework proceeds.

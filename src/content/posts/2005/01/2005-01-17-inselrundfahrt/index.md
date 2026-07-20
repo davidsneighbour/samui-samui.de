@@ -1,36 +1,37 @@
 ---
 title: Inselrundfahrt
-date: 2005-01-16T21:02:00+00:00
+date: 2005-01-17T04:00:00+07:00
 url: /2005/01/inselrundfahrt/
 dsq_thread_id:
   - "6412206834"
-lastmod: 2023-09-10T19:14:12+07:00
+cover:
+  type: image
+  src: ringroad-in-the-south-64439142.jpg
+  alt: Straße im Süden von Koh Samui mit Palmen am Rand
+  caption: Ringstraße im Süden von Koh Samui
+lastmod: 2026-07-20T14:10:00+07:00
 publisher:
   description: true
   summary: true
-  cover: true
   tags: true
   seo: true
-  covermigration: true
 ---
-![](/wp-content/old-images/21.jpg)
+So. Am Wochenende hatte ich mich dann nun zur versprochenen Inselrundfahrt aufgeschwungen. Ich bin gleich 9 Uhr losgedüst, weil ich nicht unbedingt die ganze Zeit in der größten Hitze fahren wollte. Das war eine gute Entscheidung. Es gab wenig Verkehr und man konnte öfter mal stehen bleiben um Bilder wie das folgende zu schießen.
 
-So. Am Wochenende hatte ich mich dann nun zur versprochenen Inselrundfahrt aufgeschwungen. Ich bin gleich 9 Uhr losgedüst, weil ich nicht unbedingt die ganze Zeit in der grö?ten Hitze fahren wollte. Das war eine gute Entscheidung. Es gab wenig Verkehr und man konnte öfter mal stehen bleiben um Bilder wie das folgende zu schie?en.
-
-![](/wp-content/old-images/22.jpg)
+![Kleine Boote am Strand von Lipa Noi auf Koh Samui](first-time-at-lipa-noi-64439106.jpg)
 
 Im Süden der Insel sind mehr die ländlichen Gebiete, die weniger auf Touristenunterkünfte ausgerichtet sind. Viele Attraktionen haben sie schon (Wasserfälle, Elephanten- und Schlangenshows usw.) aber weniger Unterkünfte und dicht besiedelte Gegenden.
 
-![](/wp-content/old-images/23.jpg)
+![Schild, das Koh Samui als Safe-Food-District in Thailand ausweist](food-safe-district-64439149.jpg)
 
-Dafür ist Koh Samui das Safe-Food-District Nummer 1 Thailands. Auch gut zu wissen. Gestern abend war ich knapp davor, einem der Stra?enhändler solche lecker riechenden verkrustet gebratenen komischen Etwasse abzukaufen. Aber noch war die Vorsicht grö?er.
+Dafür ist Koh Samui das Safe-Food-District Nummer 1 Thailands. Auch gut zu wissen. Gestern abend war ich knapp davor, einem der Straßenhändler solche lecker riechenden verkrustet gebratenen komischen Etwasse abzukaufen. Aber noch war die Vorsicht größer.
 
-![](/wp-content/old-images/24.jpg)
+![Blick aufs Meer vor Koh Samui mit einer Insel am Horizont](samui-3951822257.jpg)
 
 Wenn man ganz genau sucht, findet man auch die Kalenderfotoplätze. Muss nur noch eine bessere Kamera her.
 
-Und wie man im folgenden Bild von der Welle verwaschen nur noch schemenhaft erkennen kann --- ja, ich habe meine Fü?e ins Chinesische Meer getaucht. Mission accomplished.
+Und wie man im folgenden Bild von der Welle verwaschen nur noch schemenhaft erkennen kann --- ja, ich habe meine Füße ins Chinesische Meer getaucht. Mission accomplished.
 
-![](/wp-content/old-images/25.jpg)
+![Brandung am Strand, in die der Autor seine Füße hält](first-step-into-the-gulf-of-thailand-64439158.jpg)
 
-Jedenfalls sind es 87 Kilometer, wenn man die "Ringstra?e" fährt und alle halbwegs ausgebauten Stra?en dazunimmt, die ein wenig weiter um die Ringstraße gehen. Verfährt man sich dann und wann noch ein wenig, kann man viel Spa? haben und einen gut verbrachten Tag erleben.
+Jedenfalls sind es 87 Kilometer, wenn man die "Ringstraße" fährt und alle halbwegs ausgebauten Straßen dazunimmt, die ein wenig weiter um die Ringstraße gehen. Verfährt man sich dann und wann noch ein wenig, kann man viel Spaß haben und einen gut verbrachten Tag erleben.
