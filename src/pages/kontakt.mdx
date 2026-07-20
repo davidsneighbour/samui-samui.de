@@ -1,19 +1,14 @@
 ---
 title: Kontakt
-layout: kontakt
-hideMeta: true
-menu:
-  main:
-    name: Kontakt
-    weight: 300
-    identifier: kontakt
-    pre: icons/envelope.svg
-  footer:
-    name: Kontakt
-    weight: 100
-    identifier: kontakt
 lastmod: 2024-03-09T11:46:04+07:00
 ---
+
+import ContactForm from '@components/ContactForm.astro';
+import PageLayout from '@layouts/PageLayout.astro';
+import { proseClasses } from '@utils/prose';
+
+<PageLayout title={frontmatter.title} description={frontmatter.description ?? frontmatter.title}>
+<div class={proseClasses}>
 
 ## Impressum und Datenschutzerklärung
 
@@ -34,3 +29,7 @@ Wenn du mir Dateien schicken willst, [nutze dieses Dropbox-Formular][2].
 [3]: /kleingedrucktes/impressum/
 
 [4]: /kleingedrucktes/
+
+</div>
+<ContactForm />
+</PageLayout>

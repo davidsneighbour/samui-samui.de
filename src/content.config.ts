@@ -94,20 +94,6 @@ const tags = defineCollection({
   }),
 });
 
-// Standalone top-level pages (kontakt, suche) -- intentionally
-// non-recursive so it doesn't pick up the posts/leute/tags subdirectories,
-// which are their own collections above. The kleingedrucktes/* legal pages
-// live directly as .mdx files under src/pages instead of here, since they
-// don't need the content-collection indirection.
-const pages = defineCollection({
-  loader: glob({ base: './src/content', pattern: '*.md' }),
-  schema: baseFrontmatter
-    .extend({
-      lastmod: z.coerce.date().optional(),
-    })
-    .passthrough(),
-});
-
 // A single standalone page (public holidays list), section-organized like
 // leute/tags rather than a flat file, hence its own collection instead of
 // living in `pages`.
@@ -134,4 +120,4 @@ const sitewide = defineCollection({
     }),
 });
 
-export const collections = { feiertage, leute, pages, posts, sitewide, tags };
+export const collections = { feiertage, leute, posts, sitewide, tags };
