@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3130204781/" title="earthquake"><img src="//farm4.static.flickr.com/3117/3130204781_36afb883e9.jpg" alt="earthquake" /></a></p>

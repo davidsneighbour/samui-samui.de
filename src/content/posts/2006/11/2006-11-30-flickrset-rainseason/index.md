@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr2 clearfix">
 </div>

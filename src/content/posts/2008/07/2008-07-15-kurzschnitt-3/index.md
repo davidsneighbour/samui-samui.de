@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2672731121/" title="Summer cut"><img src="//farm4.static.flickr.com/3104/2672731121_2acb016f24.jpg" alt="Summer cut" /></a></p>

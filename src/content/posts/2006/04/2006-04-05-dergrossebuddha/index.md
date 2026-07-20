@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/123545618/" title="Wat Phra Yai (Big Buddha)"><img src="//static.flickr.com/1/123545618_3e45cda7f2.jpg" alt="Wat Phra Yai (Big Buddha)" /></a></p>

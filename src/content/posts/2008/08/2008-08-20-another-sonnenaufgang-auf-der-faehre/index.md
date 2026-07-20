@@ -11,6 +11,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2780734964/" title="Sunrise over Angthon"><img src="//farm4.static.flickr.com/3152/2780734964_85fc76508b.jpg" alt="Sunrise over Angthon" /></a></p>

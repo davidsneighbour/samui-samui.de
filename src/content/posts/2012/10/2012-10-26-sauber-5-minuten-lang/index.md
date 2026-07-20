@@ -14,6 +14,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="media photo image flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/8124820647/" title="Clean by Patrick Kollitsch, on Flickr"><img src="//farm9.staticflickr.com/8195/8124820647_0217b34618_z.jpg" width="640" height="480" alt="Clean" /><span>Clean</span></a>

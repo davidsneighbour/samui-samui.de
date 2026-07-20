@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/100981806/" title="The flying dog"><img src="//static.flickr.com/41/100981806_f95b950b3d.jpg" alt="The flying dog" /></a></p>

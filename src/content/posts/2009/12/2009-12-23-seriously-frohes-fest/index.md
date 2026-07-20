@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <txp:thumbnail class="flickr" id="273" wraptag="div" />
 

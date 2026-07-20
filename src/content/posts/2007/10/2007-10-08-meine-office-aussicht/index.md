@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1514652838/" title="Officeview"><img src="//farm3.static.flickr.com/2035/1514652838_5d8165d44c.jpg" alt="Officeview" /></a></p>

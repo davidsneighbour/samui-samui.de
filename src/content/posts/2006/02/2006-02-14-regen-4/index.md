@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 Ich bedauere ja Leute, die auf einsame kleine Inseln schwimmen um ein verlängertes Wochenende zu verleben das dann _so_ verregnet ist wie das Vergangene.
 

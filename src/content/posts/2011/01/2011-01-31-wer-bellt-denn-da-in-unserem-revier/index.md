@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5403615681/" title="Neighbourhoodwatch"><img src="//farm6.static.flickr.com/5133/5403615681_d7b80621d9_z.jpg" alt="Neighbourhoodwatch" /></p>

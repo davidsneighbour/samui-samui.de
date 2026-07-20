@@ -12,6 +12,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="455" src="//static.flickr.com/35/73021263_357f2105ae.jpg" alt="Me. Now. Shaving-accident again." />][1]
 

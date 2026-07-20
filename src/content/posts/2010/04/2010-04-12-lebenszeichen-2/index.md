@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/4513675671/" title="Germanytrip 2010: Türkeil"><img src="//farm3.static.flickr.com/2303/4513675671_445e0cd4d5.jpg" alt="Germanytrip 2010: Türkeil" /></p>

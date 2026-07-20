@@ -11,6 +11,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="455" src="//static.flickr.com/42/81945557_4d636d91d9.jpg" alt="Diva" />][1]
 

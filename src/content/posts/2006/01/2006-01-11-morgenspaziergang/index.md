@@ -11,6 +11,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="455" src="//static.flickr.com/43/85036979_46311e8d84.jpg" alt="Morningwalk at the &quot;Graveyard of the Ghosthouses&quot;" />][1]
 

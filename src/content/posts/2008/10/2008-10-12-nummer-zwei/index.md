@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2933096037/" title="Boo Song"><img src="//farm4.static.flickr.com/3210/2933096037_3d5fdc6298.jpg" alt="Boo Song" /></a></p>

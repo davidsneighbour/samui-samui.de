@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="455" src="//static.flickr.com/34/73673902_9cc7fea1fe.jpg" alt="Hmm. Not yet." />][1]
 

@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1831191840/" title="Elephant hiding"><img src="//farm3.static.flickr.com/2370/1831191840_55627a6d7e.jpg" alt="Elephant hiding" /></a></p>

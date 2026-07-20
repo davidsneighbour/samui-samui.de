@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/276020469/" title="20061022(003)"><img src="//static.flickr.com/119/276020469_08f254d49b.jpg" alt="20061022(003)" /></a></p>

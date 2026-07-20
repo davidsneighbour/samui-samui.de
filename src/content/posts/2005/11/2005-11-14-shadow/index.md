@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="420" src="//static.flickr.com/28/63041193_6a54ea65b3.jpg" alt="Shadow" />][1]
 

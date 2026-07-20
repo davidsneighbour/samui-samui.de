@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5306185590/" title="There is a(nother) new ride in town"><img src="//farm6.static.flickr.com/5244/5306185590_d31679b093_z_d.jpg" alt="There is a(nother) new ride in town" /></p>

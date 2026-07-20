@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3672375340/" title="Colorful by Patrick Kollitsch, on Flickr"><img src="//farm3.static.flickr.com/2433/3672375340_8d651c3589.jpg" width="500" height="375" alt="Colorful" /></a></p>

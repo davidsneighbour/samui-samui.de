@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2611155166/" title="Holiday Outtakes VII: Angel"><img src="//farm4.static.flickr.com/3286/2611155166_000e0d094a.jpg" alt="Holiday Outtakes VII: Angel" /></a></p>

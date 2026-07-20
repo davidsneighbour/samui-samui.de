@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/304263627/" title="ameise (ant)"><img src="//static.flickr.com/119/304263627_83f8e5050d.jpg" alt="ameise (ant)" /></a></p>

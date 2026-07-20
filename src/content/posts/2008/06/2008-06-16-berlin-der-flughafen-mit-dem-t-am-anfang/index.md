@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2584194961/" title="Holiday Outtakes VI: Landed. Berlin"><img src="//farm3.static.flickr.com/2270/2584194961_e9f3cf8854.jpg" alt="Holiday Outtakes VI: Landed. Berlin" /></a></p>

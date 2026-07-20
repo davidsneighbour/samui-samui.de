@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5262915425/" title="Samui-Samui als Google Chrome Application"><img src="//farm6.static.flickr.com/5163/5262915425_5fa11715c9_z.jpg" alt="Samui-Samui als Google Chrome Application" /></p>

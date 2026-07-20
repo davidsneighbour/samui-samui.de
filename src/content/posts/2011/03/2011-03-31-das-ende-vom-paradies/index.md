@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5576157255/" title="The end of the paradise"><img src="//farm6.static.flickr.com/5065/5576157255_158e511032_z.jpg" width="640" height="480" alt="The end of the paradise" /></p>

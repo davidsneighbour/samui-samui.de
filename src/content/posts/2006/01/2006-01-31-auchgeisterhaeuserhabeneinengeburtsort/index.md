@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="455" src="//static.flickr.com/39/93507867_12c8aeb2f4.jpg" alt="birthplace of the ghosthouses" />][1]
 

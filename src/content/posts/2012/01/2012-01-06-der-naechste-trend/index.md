@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/6612652141/" title="The next hype by Patrick Kollitsch, on Flickr"><img src="//farm8.staticflickr.com/7004/6612652141_394910e7d8_z.jpg" width="620" alt="The next hype" /></a></p>

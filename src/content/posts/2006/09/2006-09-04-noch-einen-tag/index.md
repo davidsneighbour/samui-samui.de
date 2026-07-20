@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/233701657/" title="buffalos"><img src="//static.flickr.com/94/233701657_8176765af3.jpg" alt="buffalos" /></a></p>

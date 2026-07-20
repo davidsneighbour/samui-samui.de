@@ -17,6 +17,7 @@ publisher:
   cover: true
   tags: true
   seo: true
+  flickr: true
 cover:
   type: image
   src: pokki-cat.png

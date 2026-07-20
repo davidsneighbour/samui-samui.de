@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="455" src="//static.flickr.com/9/69628749_37b0701a46.jpg" alt="Winnie" />][1]
 

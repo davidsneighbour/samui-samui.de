@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img src="//farm3.static.flickr.com/2362/2226301566_e0dc5d1e53_t.jpg" style="width:100px;height:75px;margin-right:10px;float:left;" alt="elect samak" />][1]Am Montag brachte es mich noch zum Lachen, am Dienstag war es bereits Streitthema und bis heute haben sich die Wogen nicht geglättet.
 

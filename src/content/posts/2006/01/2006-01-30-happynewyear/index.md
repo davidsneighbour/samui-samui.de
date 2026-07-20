@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/92869519/" title="2006-01-30 152"><img src="//static.flickr.com/19/92869519_cbbad1410e.jpg" alt="Happy New Year!" /></a></p>

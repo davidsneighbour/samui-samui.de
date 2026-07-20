@@ -11,6 +11,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <txp:thumbnail id="270" link="y" /></p>

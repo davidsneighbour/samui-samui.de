@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/33349474/" title="Big Buddha"><img src="//photos23.flickr.com/33349474_7561de407b.jpg" alt="Big Buddha" /></a>

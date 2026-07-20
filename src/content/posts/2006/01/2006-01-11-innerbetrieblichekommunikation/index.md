@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/85030244/" title="communication"><img width="455" src="//static.flickr.com/40/85030244_e7b6d65564.jpg" alt="communication" /></a>

@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/139613817/" title="Sunburn Thaistyle"><img src="//static.flickr.com/45/139613817_c5dfed7779.jpg" alt="Sunburn Thaistyle" /></a></p>

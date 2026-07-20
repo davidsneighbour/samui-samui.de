@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="455" src="//static.flickr.com/33/66447260_d94e8e2552.jpg" alt="Immigration Office Nathon" />][1]
 

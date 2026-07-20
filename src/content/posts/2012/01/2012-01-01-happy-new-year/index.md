@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/6612671125/" title="Happy New Year by Patrick Kollitsch, on Flickr"><img src="//farm8.staticflickr.com/7145/6612671125_3e88a95c84_z.jpg" width="640" height="480" alt="Happy New Year" /></a></p>

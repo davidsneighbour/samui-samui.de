@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <img src="//die.schreibbloga.de/images/221.jpg" width="500" height="343" /></p>

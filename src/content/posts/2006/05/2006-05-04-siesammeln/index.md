@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/140133617/" title="Sunset at Baan Thong Pun"><img src="//static.flickr.com/50/140133617_caf627a818.jpg" alt="Sunset at Baan Thong Pun" /></a></p>

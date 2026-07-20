@@ -12,6 +12,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/101981956/" title="at the dog-coiffeur"><img src="//static.flickr.com/25/101981956_56ac738c04.jpg" alt="at the dog-coiffeur" /></a></p>

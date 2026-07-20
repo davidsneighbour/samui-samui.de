@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1327608288/" title="On the road (again)"><img src="//farm2.static.flickr.com/1009/1327608288_5f3d26bbce.jpg" alt="On the road (again)" /></a></p>

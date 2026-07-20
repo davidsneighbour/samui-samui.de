@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5624208380/" title="The monster by Patrick Kollitsch, on Flickr"><img src="//farm6.static.flickr.com/5144/5624208380_a86b3e4dd9_z.jpg" alt="The monster" /></a></p>

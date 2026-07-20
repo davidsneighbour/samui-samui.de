@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/105086203/" title="Mo(u)rning Light"><img src="//static.flickr.com/36/105086203_910a831f85.jpg" alt="Mo(u)rning Light" /></a></p>

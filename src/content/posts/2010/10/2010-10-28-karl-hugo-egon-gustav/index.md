@@ -12,6 +12,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5123827876/" title="Hugo Egon"><img src="//farm5.static.flickr.com/4032/5123827876_9102d4fbae_z_d.jpg" alt="Hugo Egon" /></p>

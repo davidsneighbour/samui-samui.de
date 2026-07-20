@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/109087679/" title="palms"><img src="//static.flickr.com/37/109087679_59d434cba2.jpg" alt="palms" /></a></p>

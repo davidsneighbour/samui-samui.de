@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1582877684/" title="Morning Clouds"><img src="//farm3.static.flickr.com/2282/1582877684_f167d731db.jpg" alt="Morning Clouds" /></a></p>

@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/198669035/" title="Homebuilding Thaistyle"><img src="//static.flickr.com/62/198669035_93751457bb.jpg" alt="Homebuilding Thaistyle" /></a></p>

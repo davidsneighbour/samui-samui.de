@@ -12,6 +12,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="455" src="//static.flickr.com/39/82442903_dff2581f52.jpg" alt="pokkis favourite sleeping-place" />][1]
 

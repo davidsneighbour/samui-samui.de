@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2091193924/" title="Tak Bai, southern border of Thailand"><img src="//farm3.static.flickr.com/2181/2091193924_f5c5c2e37e.jpg" alt="Tak Bai, southern border of Thailand" /></a></p>

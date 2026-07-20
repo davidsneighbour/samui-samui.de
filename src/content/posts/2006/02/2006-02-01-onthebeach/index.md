@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="455" src="//static.flickr.com/13/93821630_7e3610e109.jpg" alt="on the beach" />][1]
 

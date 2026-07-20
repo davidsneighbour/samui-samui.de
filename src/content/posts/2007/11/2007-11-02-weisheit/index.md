@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1830391233/" title="Better than..."><img src="//farm3.static.flickr.com/2036/1830391233_69bf217925.jpg" alt="Better than..." /></a></p>

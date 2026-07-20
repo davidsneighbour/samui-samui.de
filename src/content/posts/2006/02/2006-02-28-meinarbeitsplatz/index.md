@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/105533029/" title="My workplace"><img src="//static.flickr.com/53/105533029_7b46221ba8.jpg" alt="My workplace" /></a></p>

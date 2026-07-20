@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/563456473/" title="Tamarind-Leaves"><img src="//farm2.static.flickr.com/1108/563456473_c8fbe3b880.jpg" width="500" height="375" alt="Tamarind-Leaves" /></a></p>

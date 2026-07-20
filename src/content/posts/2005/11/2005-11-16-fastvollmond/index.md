@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="420" src="//static.flickr.com/28/63742445_3128663f9b.jpg" alt="Nearly full moon" />][1]
 

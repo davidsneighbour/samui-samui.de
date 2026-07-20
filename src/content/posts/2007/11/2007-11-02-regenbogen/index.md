@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1831309034/" title="Rainbow"><img src="//farm3.static.flickr.com/2128/1831309034_6f1c7d3e39.jpg" alt="Rainbow" /></a></p>

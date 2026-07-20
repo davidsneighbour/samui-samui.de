@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/108556487/" title="after the hair-shop"><img src="//static.flickr.com/39/108556487_118c23271b.jpg" alt="after the hair-shop" /></a></p>

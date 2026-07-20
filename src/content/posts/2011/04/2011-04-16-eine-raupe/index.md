@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="image media">
   <a href="http://www.flickr.com/photos/schreibblogade/5623759379/" title="The caterpillar by Patrick Kollitsch, on Flickr"><img src="//farm6.static.flickr.com/5030/5623759379_fc2292a96e_z.jpg" width="640" height="480" alt="The caterpillar" /></a></p>

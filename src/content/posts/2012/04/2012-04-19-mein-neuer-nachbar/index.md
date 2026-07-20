@@ -12,6 +12,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="media photo image">
   <a href="http://www.flickr.com/photos/schreibblogade/6947282596/" title="My new neighbour by Patrick Kollitsch, on Flickr"><img src="//farm6.staticflickr.com/5464/6947282596_a78ed07b58_z.jpg" alt="My new neighbour" /></a></p>

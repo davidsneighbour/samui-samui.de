@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="455" src="//static.flickr.com/42/79628578_8368acd571.jpg" alt="Hin Da Hin Yai, New Years Eve Morning." />][1]
 

@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2194558119/" title="At the waterfall"><img src="//farm3.static.flickr.com/2138/2194558119_34ef5b7f41.jpg" alt="At the waterfall" /></a></p>

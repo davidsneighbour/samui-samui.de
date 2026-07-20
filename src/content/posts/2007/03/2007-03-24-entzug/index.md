@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 Die Hunde haben sich heute besprungen. Also bitte ohne jeden Nebengedanken hier, ja?!? Frontal und mit Pfotengeplänkel. Das sah nicht nur sü? aus, ich dachte auch die ganze Zeit, das sollte man jetzt mal photographieren.
 

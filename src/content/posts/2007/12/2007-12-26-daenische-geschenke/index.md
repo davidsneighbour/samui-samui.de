@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2138684530/" title="The present from Denmark"><img src="//farm3.static.flickr.com/2250/2138684530_06b919c020.jpg" alt="The present from Denmark" /></a></p>

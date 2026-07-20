@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 Heute erfuhr mein Unterhaupt eine Rasur. Hin und wieder lasse ich die Gesichtsbehaarung ja schon mal [wachsen wie sie will][1]. Aus Faulheit oder weil gewisse Gesichtszüge eine zu starke Gewichtszunahme indizieren. Letzteres diesmal.
 

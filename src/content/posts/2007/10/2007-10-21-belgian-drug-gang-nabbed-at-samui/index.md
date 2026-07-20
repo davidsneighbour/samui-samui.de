@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1669206201/" title="Belgian Drug Gang nabbed at Samui"><img src="//farm3.static.flickr.com/2404/1669206201_b700c7c747.jpg" alt="Belgian Drug Gang nabbed at Samui" /></a></p>

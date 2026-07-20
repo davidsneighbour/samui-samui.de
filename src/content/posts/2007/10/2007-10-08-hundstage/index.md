@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1519728771/" title="Brushed and clean"><img src="//farm3.static.flickr.com/2083/1519728771_50e527b8ff.jpg" alt="Brushed and clean" /></a></p>

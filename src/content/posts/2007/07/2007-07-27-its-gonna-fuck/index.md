@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/916006003/" title="Pirated"><img src="//farm2.static.flickr.com/1438/916006003_c546223490.jpg" alt="Pirated" /></a></p>

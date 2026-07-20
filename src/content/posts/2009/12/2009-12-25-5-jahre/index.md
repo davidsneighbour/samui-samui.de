@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake"><img src="//samui-samui.de/images/274t.jpg" width="500" /></p>

@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="media photo image flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/7419652434/" title="Euro2012 Orakel by Patrick Kollitsch, on Flickr"><img src="//farm8.staticflickr.com/7138/7419652434_06789c1793_z.jpg" width="640" height="480" alt="Euro2012 Orakel" /><span>Euro2012 Orakel</span></a>

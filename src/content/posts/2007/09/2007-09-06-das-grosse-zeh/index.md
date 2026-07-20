@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/1336245839/" title="congestion at the rice-floor"><img src="//farm2.static.flickr.com/1182/1336245839_92390f3f48.jpg" alt="congestion at the rice-floor" /></a></p>

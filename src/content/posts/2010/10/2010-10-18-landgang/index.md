@@ -12,6 +12,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/5093484540/" title="&quot;Diamond Princess&quot; visits Koh Samui"><img src="//farm5.static.flickr.com/4129/5093484540_c460159b47.jpg" alt="&quot;Diamond Princess&quot; visits Koh Samui" /></p>

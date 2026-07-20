@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2135910380/" title="Christmas eve"><img src="//farm3.static.flickr.com/2229/2135910380_b35f975dd0.jpg" alt="Christmas eve" /></a></p>

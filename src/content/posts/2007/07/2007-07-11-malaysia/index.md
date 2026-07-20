@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/775874158/" title="Malaysia"><img src="//farm2.static.flickr.com/1014/775874158_5e29362c5b.jpg" alt="Malaysia" /></a></p>

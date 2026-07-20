@@ -9,5 +9,6 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <img src="//samui-samui.de/images/252t.png" width="540" class="flickr" />

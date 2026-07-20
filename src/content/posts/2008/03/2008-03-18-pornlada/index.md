@@ -11,6 +11,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2343935794/" title="Pornlada"><img src="//farm3.static.flickr.com/2032/2343935794_19d9de49cb.jpg" alt="Pornlada" /></a></p>

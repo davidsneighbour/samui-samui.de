@@ -11,6 +11,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2157072563/" title="Samui-Samui-Wallpaper January 2551"><img src="//farm3.static.flickr.com/2361/2157072563_47e275de35.jpg" alt="Samui-Samui-Wallpaper January 2551" /></a></p>

@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2301636555/" title="Dahinter steckt immer ein kluger Kopf"><img src="//farm4.static.flickr.com/3108/2301636555_65d507ac6e.jpg" alt="Dahinter steckt immer ein kluger Kopf" /></a></p>

@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="420" src="//static.flickr.com/29/63742563_6d338b2a1a.jpg" alt="Morning at the office" />][1]
 

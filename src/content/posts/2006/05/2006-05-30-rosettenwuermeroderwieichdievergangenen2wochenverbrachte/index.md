@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 **0) Und überhaupt, Sie fragen ja immer**
 

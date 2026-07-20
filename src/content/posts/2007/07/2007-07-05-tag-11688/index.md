@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/728104776/" title="Photo Sharing"><img src="//farm2.static.flickr.com/1396/728104776_30f514da94.jpg" width="500" height="375" alt="Me now." /></a></p>

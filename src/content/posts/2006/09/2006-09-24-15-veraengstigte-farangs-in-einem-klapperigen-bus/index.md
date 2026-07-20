@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://flickr.com/photos/schreibblogade/250244877/"><img src="//static.flickr.com/89/250244877_cdca847c31.jpg" alt="Ein Bus" /></a></p>

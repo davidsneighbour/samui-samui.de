@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/4394147367/" title="Full moon over Samui on Makha Bucha day"><img src="//farm5.static.flickr.com/4031/4394147367_22ba71fded.jpg" alt="Full moon over Samui on Makha Bucha day" /></p>

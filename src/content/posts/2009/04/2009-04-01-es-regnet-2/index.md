@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3403549915/" title="Its raining"><img src="//farm4.static.flickr.com/3439/3403549915_b92190c1b2.jpg" alt="Its raining" /></a></p>

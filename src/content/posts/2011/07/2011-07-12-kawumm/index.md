@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="image media">
   <a href="http://www.flickr.com/photos/schreibblogade/5932046017/" title="Me now by Patrick Kollitsch, on Flickr"><img src="//farm7.static.flickr.com/6016/5932046017_cc703c6d59_z.jpg" width="640" height="480" alt="Me now" /></a></p>

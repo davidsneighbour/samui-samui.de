@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="455" src="//static.flickr.com/26/68114428_f2ffb4db9c.jpg" alt="View from my house." />][1]
 

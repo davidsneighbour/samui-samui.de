@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/893896543/" title="How to make the perfect braid - Part 2"><img src="//farm2.static.flickr.com/1206/893896543_5c2bf68126.jpg" alt="How to make the perfect braid" /></a></p>

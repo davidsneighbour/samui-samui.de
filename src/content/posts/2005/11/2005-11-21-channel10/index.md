@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="420" src="//static.flickr.com/34/65425211_76b8733ba6.jpg" alt="Channel 10" />][1]
 

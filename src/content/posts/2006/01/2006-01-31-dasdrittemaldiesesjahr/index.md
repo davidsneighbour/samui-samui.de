@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="455" src="//static.flickr.com/24/93368867_b78933511a.jpg" alt="Third time this year" />][1]
 

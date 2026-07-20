@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/201013794/" title="Chang Noi"><img src="//static.flickr.com/72/201013794_fbf7765490.jpg" alt="Chang Noi" /></a></p>

@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2577535784/" title="Weekend. Again."><img src="//farm4.static.flickr.com/3021/2577535784_9da224a900.jpg" alt="Weekend. Again." /></a></p>

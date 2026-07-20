@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="420" src="//static.flickr.com/29/63008084_079d759195.jpg" alt="Good Morning" />][1]
 

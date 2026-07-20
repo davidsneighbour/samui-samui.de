@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2625389646/" title="Holiday Outtakes XIV: Racoon"><img src="//farm4.static.flickr.com/3203/2625389646_3eb56c32df.jpg" alt="Holiday Outtakes XIV: Racoon" /></a></p>

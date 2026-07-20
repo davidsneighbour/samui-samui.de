@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/517187831/"><img src="//farm1.static.flickr.com/203/517187831_6ffdc9db49.jpg" class="flickr-photo" alt="" /></a></p>

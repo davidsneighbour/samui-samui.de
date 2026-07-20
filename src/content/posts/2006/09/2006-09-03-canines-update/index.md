@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/230603154/" title="The big ones"><img src="//static.flickr.com/63/230603154_657b0fd7b2.jpg" alt="The big ones" /></a></p>

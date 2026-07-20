@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2363523255/" title="green light."><img src="//farm3.static.flickr.com/2149/2363523255_1470368a12.jpg" alt="green light." /></a></p>

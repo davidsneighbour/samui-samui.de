@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/110280107/" title="Chinese Shrine in Nathon"><img src="//static.flickr.com/44/110280107_1046efaa98.jpg" alt="Chinese Shrine in Nathon" /></a></p>

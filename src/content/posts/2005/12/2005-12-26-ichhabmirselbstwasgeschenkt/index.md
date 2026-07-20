@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 [<img width="455" src="//static.flickr.com/41/77420342_b5d45a6c32.jpg" alt="i made myself a present" />][1]
 

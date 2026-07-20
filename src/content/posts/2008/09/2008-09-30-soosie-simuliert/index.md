@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2903382829/" title="Soosie is simulating pregnancy (again)"><img src="//farm4.static.flickr.com/3258/2903382829_9f8e2fb212.jpg" alt="Soosie is simulating pregnancy (again)" /></a></p>

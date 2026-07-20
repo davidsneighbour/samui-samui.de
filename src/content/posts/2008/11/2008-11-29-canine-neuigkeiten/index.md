@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/3065178735/" title="Fighting for the ball"><img src="//farm4.static.flickr.com/3204/3065178735_caa0a1e8cd.jpg" alt="Fighting for the ball" /></a></p>

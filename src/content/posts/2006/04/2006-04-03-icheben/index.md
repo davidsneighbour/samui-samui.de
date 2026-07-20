@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/122355961/" title="Me. Now."><img src="//static.flickr.com/42/122355961_7ad467330e.jpg" alt="Me. Now." /></a></p>

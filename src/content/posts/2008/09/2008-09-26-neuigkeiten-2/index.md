@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2881405995/" title="wire-less"><img src="//farm4.static.flickr.com/3004/2881405995_8f0dfc72cc.jpg" alt="wire-less" /></a></p>

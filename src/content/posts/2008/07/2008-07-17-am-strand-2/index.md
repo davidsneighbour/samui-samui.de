@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2675644617/" title="Beach"><img src="//farm4.static.flickr.com/3207/2675644617_39b6aaa0b8.jpg" alt="Beach" /></a></p>

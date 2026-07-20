@@ -12,6 +12,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="media image">
   <a href="http://www.flickr.com/photos/schreibblogade/4242659015/" title="Buddhas hand"><img src="//farm5.static.flickr.com/4070/4242659015_77ab19f642.jpg" alt="Buddhas hand" /></p>

@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2612953255/" title="Holiday Outtakes XI: Buchenwald"><img src="//farm4.static.flickr.com/3061/2612953255_59ab9082fe.jpg" alt="Holiday Outtakes XI: Buchenwald" /></a></p>

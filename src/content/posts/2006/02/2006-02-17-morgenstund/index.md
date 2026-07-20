@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  flickr: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/100602946/" title="Morning in Ban Maenam (near my house)"><img src="//static.flickr.com/29/100602946_dd771900a8.jpg" alt="Morning in Ban Maenam (near my house)" /></a></p>
