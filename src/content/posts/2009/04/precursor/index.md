@@ -1,6 +1,6 @@
 ---
 title: Precursor?
-date: 2009-04-12T00:08:21+00:00
+date: 2009-04-12T07:08:21+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Thailand-News
-date: 2010-02-03T15:21:00+00:00
+date: 2010-02-03T22:21:00+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

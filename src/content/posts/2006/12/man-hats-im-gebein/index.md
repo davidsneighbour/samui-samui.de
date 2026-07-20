@@ -1,6 +1,6 @@
 ---
 title: Man hats im Gebein…
-date: 2006-12-30T00:53:21+00:00
+date: 2006-12-30T07:53:21+07:00
 publisher:
   description: true
   summary: true

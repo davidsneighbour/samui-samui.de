@@ -1,6 +1,6 @@
 ---
 title: Neues aus Soddom
-date: 2007-06-11T13:40:38+00:00
+date: 2007-06-11T20:40:38+07:00
 dsq_thread_id:
   - "3575233191"
 publisher:

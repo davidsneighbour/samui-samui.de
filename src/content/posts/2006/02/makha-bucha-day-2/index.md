@@ -1,0 +1,13 @@
+---
+title: Makha Bucha Day
+date: 2006-02-10T04:25:06+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Am Montag ist ein buddhistischer Feiertag, der Makha Bucha Day. Vermutlich versuche ich in verschiedenen Wats ein paar Bilder zu schie?en und den Mönchen zu zu hören.

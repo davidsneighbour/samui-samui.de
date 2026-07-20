@@ -1,6 +1,6 @@
 ---
 title: Da isser!
-date: 2008-02-27T13:20:38+00:00
+date: 2008-02-27T20:20:38+07:00
 publisher:
   description: true
   summary: true

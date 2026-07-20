@@ -1,6 +1,6 @@
 ---
 title: Der Tag danach
-date: 2011-04-01T11:37:11+00:00
+date: 2011-04-01T18:37:11+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

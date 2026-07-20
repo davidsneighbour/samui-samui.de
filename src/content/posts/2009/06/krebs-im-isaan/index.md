@@ -1,6 +1,6 @@
 ---
 title: Krebs im Isaan
-date: 2009-06-20T13:22:42+00:00
+date: 2009-06-20T20:22:42+07:00
 dsq_thread_id:
   - "3212702120"
 publisher:

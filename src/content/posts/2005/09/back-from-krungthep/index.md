@@ -1,6 +1,6 @@
 ---
 title: Back from Krungthep
-date: 2005-09-20T02:33:03+00:00
+date: 2005-09-20T09:33:03+07:00
 dsq_thread_id:
   - "6412166733"
 lastmod: 2023-09-10T19:14:12+07:00

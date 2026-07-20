@@ -1,0 +1,17 @@
+---
+title: Neulich in der Zeitung
+date: 2005-12-22T03:43:00+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+[Homo-Ehe: Sir Elton sagt Ja][1]
+
+Homo heisst doch Mensch, oder hab ich da im Lateinkurs nicht aufgepasst?
+
+ [1]: http://www.tagesschau.de/aktuell/meldungen/0,1185,OID5067630_REF1,00.html

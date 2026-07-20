@@ -1,6 +1,6 @@
 ---
 title: Feuer und Smog
-date: 2009-03-10T15:29:32+00:00
+date: 2009-03-10T22:29:32+07:00
 publisher:
   description: true
   summary: true

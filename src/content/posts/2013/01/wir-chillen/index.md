@@ -1,6 +1,6 @@
 ---
 title: Wir chillen…
-date: 2013-01-15T10:19:44+00:00
+date: 2013-01-15T17:19:44+07:00
 fb_mentioned_pages:
   - 'a:2:{i:0;a:2:{s:2:"id";s:15:"301327566635116";s:4:"name";s:14:"Pokki Na Samui";}i:1;a:2:{s:2:"id";s:15:"460353317345609";s:4:"name";s:15:"Soosie Na Samui";}}'
 fb_author_post_id:

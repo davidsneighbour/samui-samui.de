@@ -1,6 +1,6 @@
 ---
 title: Panikmache
-date: 2006-09-08T04:29:00+00:00
+date: 2006-09-08T11:29:00+07:00
 publisher:
   description: true
   summary: true

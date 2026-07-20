@@ -1,6 +1,6 @@
 ---
 title: Bild-Zeitungs-Leser wissen mehr Unfug
-date: 2008-08-05T14:17:48+00:00
+date: 2008-08-05T21:17:48+07:00
 publisher:
   description: true
   summary: true

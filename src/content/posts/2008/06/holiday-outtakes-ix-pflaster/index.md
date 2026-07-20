@@ -1,6 +1,6 @@
 ---
 title: 'Holiday Outtakes IX: Pflaster (in Prag)'
-date: 2008-06-25T03:17:52+00:00
+date: 2008-06-25T10:17:52+07:00
 publisher:
   description: true
   summary: true

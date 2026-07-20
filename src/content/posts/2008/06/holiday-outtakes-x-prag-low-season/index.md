@@ -1,6 +1,6 @@
 ---
 title: 'Holiday Outtakes X: Prag. Low Season.'
-date: 2008-06-26T02:36:59+00:00
+date: 2008-06-26T09:36:59+07:00
 publisher:
   description: true
   summary: true

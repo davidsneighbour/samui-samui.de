@@ -1,6 +1,6 @@
 ---
 title: 'Holiday Outtakes XVIII: Grafitti'
-date: 2008-07-02T03:43:25+00:00
+date: 2008-07-02T10:43:25+07:00
 publisher:
   description: true
   summary: true

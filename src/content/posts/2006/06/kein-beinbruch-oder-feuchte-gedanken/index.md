@@ -1,6 +1,6 @@
 ---
 title: (K)ein Beinbruch – oder feuchte Gedanken
-date: 2006-06-13T07:52:00+00:00
+date: 2006-06-13T14:52:00+07:00
 dsq_thread_id:
   - "3403679352"
 publisher:

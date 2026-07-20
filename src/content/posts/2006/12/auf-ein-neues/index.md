@@ -1,6 +1,6 @@
 ---
 title: Auf ein Neues.
-date: 2006-12-31T11:19:00+00:00
+date: 2006-12-31T18:19:00+07:00
 publisher:
   description: true
   summary: true

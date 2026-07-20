@@ -1,6 +1,6 @@
 ---
 title: Fu noi.
-date: 2006-11-24T09:43:54+00:00
+date: 2006-11-24T16:43:54+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

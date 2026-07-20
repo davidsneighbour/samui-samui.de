@@ -1,6 +1,6 @@
 ---
 title: Anti-Putsch-Bewegung
-date: 2006-09-22T01:58:36+00:00
+date: 2006-09-22T08:58:36+07:00
 publisher:
   description: true
   summary: true

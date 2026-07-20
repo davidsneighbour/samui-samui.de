@@ -2,7 +2,11 @@
 import { getCollection } from 'astro:content';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
 import PageLayout from '@layouts/PageLayout.astro';
-import { formatMonthLong, formatMonthShort } from '@utils/dates';
+import {
+  formatMonthLong,
+  formatMonthShort,
+  getPostDateParts,
+} from '@utils/dates';
 import { getPostUrl } from '@utils/posts';
 
 export async function getStaticPaths() {
@@ -10,7 +14,7 @@ export async function getStaticPaths() {
 
   const postsByYear = new Map<number, typeof posts>();
   for (const post of posts) {
-    const year = post.data.date.getUTCFullYear();
+    const year = getPostDateParts(post.data.date).year;
     const group = postsByYear.get(year);
     if (group) {
       group.push(post);
@@ -47,7 +51,7 @@ interface MonthGroup {
 
 const months = new Map<number, typeof posts>();
 for (const post of posts) {
-  const month = post.data.date.getUTCMonth();
+  const month = getPostDateParts(post.data.date).monthIndex;
   const group = months.get(month);
   if (group) {
     group.push(post);
@@ -69,8 +73,10 @@ const sortedMonths: MonthGroup[] = [...months.entries()]
 const monthAnchor = (month: number) =>
   `monat-${String(month + 1).padStart(2, '0')}`;
 
-const dayMonth = (date: Date) =>
-  `${String(date.getUTCDate()).padStart(2, '0')}.${String(date.getUTCMonth() + 1).padStart(2, '0')}.`;
+const dayMonth = (date: Date) => {
+  const { dayPadded, monthPadded } = getPostDateParts(date);
+  return `${dayPadded}.${monthPadded}.`;
+};
 ---
 
 <PageLayout

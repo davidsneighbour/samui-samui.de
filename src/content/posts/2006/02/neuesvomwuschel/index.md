@@ -1,6 +1,6 @@
 ---
 title: Neues vom Wuschel
-date: 2006-02-28T00:56:00+00:00
+date: 2006-02-28T07:56:00+07:00
 tags:
   - pokki
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,6 @@
 ---
 title: Gewaltlos
-date: 2008-09-01T04:12:29+00:00
+date: 2008-09-01T11:12:29+07:00
 publisher:
   description: true
   summary: true

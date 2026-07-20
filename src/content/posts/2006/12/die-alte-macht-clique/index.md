@@ -1,6 +1,6 @@
 ---
 title: Die Alte-Macht-Clique
-date: 2006-12-31T09:06:17+00:00
+date: 2006-12-31T16:06:17+07:00
 publisher:
   description: true
   summary: true

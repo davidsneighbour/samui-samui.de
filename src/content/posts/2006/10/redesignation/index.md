@@ -1,6 +1,6 @@
 ---
 title: Re(De)Signation
-date: 2006-10-23T08:15:44+00:00
+date: 2006-10-23T15:15:44+07:00
 publisher:
   description: true
   summary: true

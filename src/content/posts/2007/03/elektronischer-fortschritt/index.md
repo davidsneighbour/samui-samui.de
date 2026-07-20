@@ -1,6 +1,6 @@
 ---
 title: Elektronischer Fortschritt
-date: 2007-03-11T08:01:08+00:00
+date: 2007-03-11T15:01:08+07:00
 publisher:
   description: true
   summary: true

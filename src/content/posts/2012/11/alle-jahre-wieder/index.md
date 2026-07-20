@@ -1,6 +1,6 @@
 ---
 title: Alle Jahre wieder
-date: 2012-11-15T13:34:01+00:00
+date: 2012-11-15T20:34:01+07:00
 fb_mentioned_pages:
   - a:0:{}
 fb_mentioned_friends:

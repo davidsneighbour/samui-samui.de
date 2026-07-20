@@ -1,6 +1,6 @@
 ---
 title: Yai
-date: 2005-06-14T04:10:00+00:00
+date: 2005-06-14T11:10:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

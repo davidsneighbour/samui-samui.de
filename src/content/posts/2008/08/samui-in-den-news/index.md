@@ -1,6 +1,6 @@
 ---
 title: Samui in den News
-date: 2008-08-05T15:00:50+00:00
+date: 2008-08-05T22:00:50+07:00
 dsq_thread_id:
   - "3030533169"
 publisher:

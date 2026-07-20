@@ -1,6 +1,6 @@
 ---
 title: Statement from the military reformist
-date: 2006-09-19T13:44:00+00:00
+date: 2006-09-19T20:44:00+07:00
 publisher:
   description: true
   summary: true

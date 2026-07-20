@@ -1,6 +1,6 @@
 ---
 title: Australiens nationale Sicherheit durch Ladyboy gefährdet
-date: 2009-07-13T00:48:55+00:00
+date: 2009-07-13T07:48:55+07:00
 publisher:
   description: true
   summary: true

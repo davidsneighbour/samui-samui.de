@@ -1,6 +1,6 @@
 ---
 title: Zur Feier des Tages ein schwarz geklautes MP3 mit Musik
-date: 2005-08-31T07:40:33+00:00
+date: 2005-08-31T14:40:33+07:00
 dsq_thread_id:
   - "6412166670"
 lastmod: 2023-09-10T19:14:12+07:00

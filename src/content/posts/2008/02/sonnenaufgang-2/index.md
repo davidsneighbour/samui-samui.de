@@ -1,6 +1,6 @@
 ---
 title: Sonnenaufgang
-date: 2008-02-26T12:39:24+00:00
+date: 2008-02-26T19:39:24+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Visarun (light)
-date: 2007-03-13T09:59:07+00:00
+date: 2007-03-13T16:59:07+07:00
 dsq_thread_id:
   - "6412166326"
 publisher:

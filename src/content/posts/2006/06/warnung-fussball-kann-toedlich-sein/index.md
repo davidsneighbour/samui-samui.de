@@ -1,6 +1,6 @@
 ---
 title: 'Warnung: Fussball? kann tödlich sein'
-date: 2006-06-14T08:27:56+00:00
+date: 2006-06-14T15:27:56+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Kurz Geschnittenes VII
-date: 2008-03-10T01:55:24+00:00
+date: 2008-03-10T08:55:24+07:00
 publisher:
   description: true
   summary: true

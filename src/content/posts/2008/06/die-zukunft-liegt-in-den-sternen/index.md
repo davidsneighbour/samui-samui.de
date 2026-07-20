@@ -1,6 +1,6 @@
 ---
 title: Die Zukunft liegt in den Sternen
-date: 2008-06-17T03:30:53+00:00
+date: 2008-06-17T10:30:53+07:00
 publisher:
   description: true
   summary: true

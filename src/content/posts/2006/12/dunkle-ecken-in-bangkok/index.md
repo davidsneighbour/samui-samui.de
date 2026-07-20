@@ -1,6 +1,6 @@
 ---
 title: Dunkle Ecken in Bangkok
-date: 2006-12-20T06:03:16+00:00
+date: 2006-12-20T13:03:16+07:00
 dsq_thread_id:
   - "3669487361"
 publisher:

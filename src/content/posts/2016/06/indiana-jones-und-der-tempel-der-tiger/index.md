@@ -1,6 +1,6 @@
 ---
 title: Indiana Jones und der Tempel der Tiger
-date: 2016-06-02T15:19:56+00:00
+date: 2016-06-02T22:19:56+07:00
 url: /2016/06/indiana-jones-und-der-tempel-der-tiger/
 tags:
   - tempel

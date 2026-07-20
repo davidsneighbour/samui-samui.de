@@ -1,6 +1,6 @@
 ---
 title: Wahlhäppchen. Zum letzten Mal. Wirklich. Für heute.
-date: 2006-04-01T03:12:00+00:00
+date: 2006-04-01T10:12:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

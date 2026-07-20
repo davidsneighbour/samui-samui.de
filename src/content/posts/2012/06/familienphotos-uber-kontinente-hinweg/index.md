@@ -1,6 +1,6 @@
 ---
 title: Familienphotos über Kontinente hinweg
-date: 2012-06-20T13:31:27+00:00
+date: 2012-06-20T20:31:27+07:00
 featured_image: /wp-content/uploads/2012/06/Futuristic-Family-Reunion-slide-D3HF-jumbo.jpg
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:

@@ -1,6 +1,6 @@
 ---
 title: Iñtërnâtiônàlizætiøn
-date: 2005-01-25T01:23:07+00:00
+date: 2005-01-25T08:23:07+07:00
 tags:
   - sprache
   - thai

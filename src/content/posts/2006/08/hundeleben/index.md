@@ -1,6 +1,6 @@
 ---
 title: Hundeleben.
-date: 2006-08-31T10:28:00+00:00
+date: 2006-08-31T17:28:00+07:00
 publisher:
   description: true
   summary: true

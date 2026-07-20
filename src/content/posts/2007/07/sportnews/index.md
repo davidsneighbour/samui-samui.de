@@ -1,6 +1,6 @@
 ---
 title: Sportnews
-date: 2007-07-16T14:12:20+00:00
+date: 2007-07-16T21:12:20+07:00
 publisher:
   description: true
   summary: true

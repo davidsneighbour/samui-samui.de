@@ -1,6 +1,6 @@
 ---
 title: Tropen (Kapitel 35)
-date: 2005-11-06T05:08:46+00:00
+date: 2005-11-06T12:08:46+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

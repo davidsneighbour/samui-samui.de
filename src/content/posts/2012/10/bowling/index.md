@@ -1,6 +1,6 @@
 ---
 title: Bowling
-date: 2012-10-25T16:04:14+00:00
+date: 2012-10-25T23:04:14+07:00
 fb_mentioned_pages:
   - a:0:{}
 fb_mentioned_friends:

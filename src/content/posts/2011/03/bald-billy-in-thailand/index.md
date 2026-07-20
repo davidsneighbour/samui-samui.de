@@ -1,6 +1,6 @@
 ---
 title: "Bald: Billy in Thailand"
-date: 2011-03-09T12:43:07+00:00
+date: 2011-03-09T19:43:07+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

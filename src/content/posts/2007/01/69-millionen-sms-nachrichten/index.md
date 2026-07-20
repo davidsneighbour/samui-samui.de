@@ -1,6 +1,6 @@
 ---
 title: 69 Millionen SMS-Nachrichten
-date: 2007-01-04T10:51:37+00:00
+date: 2007-01-04T17:51:37+07:00
 publisher:
   description: true
   summary: true

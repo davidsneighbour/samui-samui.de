@@ -1,6 +1,6 @@
 ---
 title: Harn Raksajit
-date: 2006-12-30T02:58:52+00:00
+date: 2006-12-30T09:58:52+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Farbkompromiss
-date: 2006-10-26T09:47:49+00:00
+date: 2006-10-26T16:47:49+07:00
 publisher:
   description: true
   summary: true

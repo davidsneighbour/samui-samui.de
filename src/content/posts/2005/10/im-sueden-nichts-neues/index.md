@@ -1,6 +1,6 @@
 ---
 title: Im Süden nichts Neues
-date: 2005-10-16T01:42:13+00:00
+date: 2005-10-16T08:42:13+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Diplomatisches Wischelwaschel
-date: 2007-01-31T09:09:34+00:00
+date: 2007-01-31T16:09:34+07:00
 publisher:
   description: true
   summary: true

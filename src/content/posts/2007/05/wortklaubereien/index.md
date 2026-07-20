@@ -1,6 +1,6 @@
 ---
 title: Wortklaubereien
-date: 2007-05-05T10:27:01+00:00
+date: 2007-05-05T17:27:01+07:00
 publisher:
   description: true
   summary: true

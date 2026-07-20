@@ -1,6 +1,6 @@
 ---
 title: Totgesagte leben länger
-date: 2007-04-06T12:07:27+00:00
+date: 2007-04-06T19:07:27+07:00
 publisher:
   description: true
   summary: true

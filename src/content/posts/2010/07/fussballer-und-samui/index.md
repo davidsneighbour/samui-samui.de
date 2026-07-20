@@ -1,6 +1,6 @@
 ---
 title: Fussballer und Samui
-date: 2010-07-15T14:21:47+00:00
+date: 2010-07-15T21:21:47+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

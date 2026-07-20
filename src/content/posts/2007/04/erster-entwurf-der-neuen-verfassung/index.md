@@ -1,6 +1,6 @@
 ---
 title: Erster Entwurf der neuen Verfassung
-date: 2007-04-18T05:58:21+00:00
+date: 2007-04-18T12:58:21+07:00
 publisher:
   description: true
   summary: true

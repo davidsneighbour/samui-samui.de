@@ -1,6 +1,6 @@
 ---
 title: Nu könnense wieder suchen!
-date: 2007-10-15T11:39:06+00:00
+date: 2007-10-15T18:39:06+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Zensur – Zwischenstand
-date: 2007-04-14T00:58:32+00:00
+date: 2007-04-14T07:58:32+07:00
 publisher:
   description: true
   summary: true

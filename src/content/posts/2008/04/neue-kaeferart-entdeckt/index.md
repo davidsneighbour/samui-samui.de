@@ -1,6 +1,6 @@
 ---
 title: Neue Käferart entdeckt
-date: 2008-04-23T04:06:11+00:00
+date: 2008-04-23T11:06:11+07:00
 publisher:
   description: true
   summary: true

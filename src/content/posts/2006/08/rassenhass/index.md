@@ -1,6 +1,6 @@
 ---
 title: Rassenhass
-date: 2006-08-16T10:56:00+00:00
+date: 2006-08-16T17:56:00+07:00
 dsq_thread_id:
   - "3310665742"
 publisher:

@@ -1,6 +1,6 @@
 ---
 title: Perle am Golf von Thailand
-date: 2007-01-21T01:25:36+00:00
+date: 2007-01-21T08:25:36+07:00
 publisher:
   description: true
   summary: true

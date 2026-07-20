@@ -1,6 +1,6 @@
 ---
 title: Projekt Imagewiederherstellung I
-date: 2005-06-22T02:25:04+00:00
+date: 2005-06-22T09:25:04+07:00
 dsq_thread_id:
   - "6412166449"
 lastmod: 2023-09-10T19:14:12+07:00

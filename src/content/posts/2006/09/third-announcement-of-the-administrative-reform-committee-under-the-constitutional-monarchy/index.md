@@ -1,6 +1,6 @@
 ---
 title: Third announcement of the Administrative Reform Committee under the Constitutional Monarchy
-date: 2006-09-19T14:48:00+00:00
+date: 2006-09-19T21:48:00+07:00
 publisher:
   description: true
   summary: true

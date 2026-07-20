@@ -1,6 +1,6 @@
 ---
 title: Terrorismuskunde
-date: 2008-11-26T00:50:02+00:00
+date: 2008-11-26T07:50:02+07:00
 publisher:
   description: true
   summary: true

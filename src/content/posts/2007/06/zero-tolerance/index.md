@@ -1,6 +1,6 @@
 ---
 title: Zero Tolerance
-date: 2007-06-14T12:50:51+00:00
+date: 2007-06-14T19:50:51+07:00
 publisher:
   description: true
   summary: true

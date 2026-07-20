@@ -1,6 +1,6 @@
 ---
 title: Explosiv
-date: 2006-08-02T00:25:00+00:00
+date: 2006-08-02T07:25:00+07:00
 publisher:
   description: true
   summary: true

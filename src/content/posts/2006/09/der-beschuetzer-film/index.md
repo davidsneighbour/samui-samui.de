@@ -1,6 +1,6 @@
 ---
 title: 'Der Beschützer Film'
-date: 2006-09-09T04:09:55+00:00
+date: 2006-09-09T11:09:55+07:00
 publisher:
   description: true
   summary: true

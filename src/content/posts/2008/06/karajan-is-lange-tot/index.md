@@ -1,6 +1,6 @@
 ---
 title: Karajan is lange tot.
-date: 2008-06-01T01:22:21+00:00
+date: 2008-06-01T08:22:21+07:00
 publisher:
   description: true
   summary: true

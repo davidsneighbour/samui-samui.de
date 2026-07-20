@@ -1,6 +1,6 @@
 ---
 title: Weihnachten Thaistyle
-date: 2006-12-23T04:07:12+00:00
+date: 2006-12-23T11:07:12+07:00
 dsq_thread_id:
   - "3110607332"
 publisher:

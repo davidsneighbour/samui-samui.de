@@ -1,6 +1,6 @@
 ---
 title: Neuigkeiten aus Lamai
-date: 2006-09-03T09:30:20+00:00
+date: 2006-09-03T16:30:20+07:00
 publisher:
   description: true
   summary: true

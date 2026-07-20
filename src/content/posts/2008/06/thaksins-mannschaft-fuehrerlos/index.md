@@ -1,6 +1,6 @@
 ---
 title: Thaksins Mannschaft führerlos
-date: 2008-06-02T01:03:13+00:00
+date: 2008-06-02T08:03:13+07:00
 publisher:
   description: true
   summary: true

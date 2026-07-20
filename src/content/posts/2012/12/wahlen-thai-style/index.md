@@ -1,6 +1,6 @@
 ---
 title: Wahlen (Thai-Style)
-date: 2012-12-23T08:32:05+00:00
+date: 2012-12-23T15:32:05+07:00
 fb_author_message:
   - It's hard to have an own voice if having another voice let's you pay the rent.
 fb_author_post_id:

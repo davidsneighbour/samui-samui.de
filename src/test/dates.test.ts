@@ -3,7 +3,9 @@ import {
   formatDateDuration,
   formatMonthLong,
   formatMonthShort,
+  formatPostTimestamp,
   getDateDurationParts,
+  getPostDateParts,
 } from '@utils/dates';
 import { describe, expect, it } from 'vitest';
 
@@ -25,7 +27,24 @@ describe('dates', () => {
   it('formats an extended date with time', () => {
     expect(
       formatDate(new Date(Date.UTC(2007, 8, 18, 14, 30)), { extended: true }),
-    ).toBe('18. September 2007 um 14:30 Uhr');
+    ).toBe('18. September 2007 um 21:30 Uhr');
+  });
+
+  it('extracts post date parts in Bangkok time', () => {
+    expect(getPostDateParts(new Date('2012-01-24T17:31:43+00:00'))).toEqual({
+      day: 25,
+      dayPadded: '25',
+      month: 1,
+      monthIndex: 0,
+      monthPadded: '01',
+      year: 2012,
+    });
+  });
+
+  it('serializes post timestamps with the fixed Bangkok offset', () => {
+    expect(formatPostTimestamp(new Date('2012-01-24T17:31:43+00:00'))).toBe(
+      '2012-01-25T00:31:43+07:00',
+    );
   });
 
   it('calculates complete years, remaining months, and remaining days', () => {

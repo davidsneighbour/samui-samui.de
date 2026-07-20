@@ -1,6 +1,6 @@
 ---
 title: Weitere Gegenputschgerüchte
-date: 2006-09-21T11:43:00+00:00
+date: 2006-09-21T18:43:00+07:00
 publisher:
   description: true
   summary: true

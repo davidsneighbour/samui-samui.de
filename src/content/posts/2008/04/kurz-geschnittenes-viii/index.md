@@ -1,6 +1,6 @@
 ---
 title: Kurz geschnittenes VIII
-date: 2008-04-22T01:06:14+00:00
+date: 2008-04-22T08:06:14+07:00
 publisher:
   description: true
   summary: true

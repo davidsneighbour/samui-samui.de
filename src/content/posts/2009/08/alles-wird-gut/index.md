@@ -1,6 +1,6 @@
 ---
 title: Alles wird gut
-date: 2009-08-17T01:16:46+00:00
+date: 2009-08-17T08:16:46+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Küchenkatastrophe
-date: 2007-08-08T04:14:19+00:00
+date: 2007-08-08T11:14:19+07:00
 dsq_thread_id:
   - "3148456899"
 publisher:

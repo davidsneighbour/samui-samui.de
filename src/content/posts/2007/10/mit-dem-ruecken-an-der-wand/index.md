@@ -1,6 +1,6 @@
 ---
 title: Mit dem Rücken an der Wand
-date: 2007-10-16T01:48:43+00:00
+date: 2007-10-16T08:48:43+07:00
 publisher:
   description: true
   summary: true

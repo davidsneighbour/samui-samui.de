@@ -1,6 +1,6 @@
 ---
 title: Krönung
-date: 2007-05-05T12:00:06+00:00
+date: 2007-05-05T19:00:06+07:00
 publisher:
   description: true
   summary: true

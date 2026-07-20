@@ -1,6 +1,6 @@
 ---
 title: Businesstrip
-date: 2005-08-29T05:55:00+00:00
+date: 2005-08-29T12:55:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

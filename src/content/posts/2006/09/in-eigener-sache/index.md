@@ -1,6 +1,6 @@
 ---
 title: In eigener Sache
-date: 2006-09-20T10:36:04+00:00
+date: 2006-09-20T17:36:04+07:00
 publisher:
   description: true
   summary: true

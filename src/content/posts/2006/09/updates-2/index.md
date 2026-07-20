@@ -1,6 +1,6 @@
 ---
 title: Updates
-date: 2006-09-20T11:03:00+00:00
+date: 2006-09-20T18:03:00+07:00
 publisher:
   description: true
   summary: true

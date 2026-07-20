@@ -1,6 +1,6 @@
 ---
 title: Katastrophenalarm
-date: 2013-07-09T11:51:53+00:00
+date: 2013-07-09T18:51:53+07:00
 fb_author_post_id:
   - 517050641_10151523439945642
 publisher:

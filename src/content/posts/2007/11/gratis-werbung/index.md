@@ -1,6 +1,6 @@
 ---
 title: Gratis-Werbung
-date: 2007-11-02T03:25:22+00:00
+date: 2007-11-02T10:25:22+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Wahrsager wissen mehr
-date: 2007-06-09T00:37:44+00:00
+date: 2007-06-09T07:37:44+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Der große Bangkok-Report
-date: 2011-04-07T11:59:07+00:00
+date: 2011-04-07T18:59:07+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

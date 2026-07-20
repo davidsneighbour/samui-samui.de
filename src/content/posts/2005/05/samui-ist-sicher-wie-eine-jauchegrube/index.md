@@ -1,6 +1,6 @@
 ---
 title: Samui ist sicher wie eine Jauchegrube
-date: 2005-05-27T05:09:00+00:00
+date: 2005-05-27T12:09:00+07:00
 dsq_thread_id:
   - "2894603767"
 lastmod: 2023-09-10T19:14:12+07:00

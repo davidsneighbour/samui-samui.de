@@ -1,6 +1,6 @@
 ---
 title: Dies und das
-date: 2007-01-12T08:18:24+00:00
+date: 2007-01-12T15:18:24+07:00
 publisher:
   description: true
   summary: true

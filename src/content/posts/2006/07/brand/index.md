@@ -1,6 +1,6 @@
 ---
 title: Brand
-date: 2006-07-08T09:17:33+00:00
+date: 2006-07-08T16:17:33+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

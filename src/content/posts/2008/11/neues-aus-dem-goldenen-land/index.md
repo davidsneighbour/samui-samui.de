@@ -1,6 +1,6 @@
 ---
 title: Neues aus dem Goldenen Land
-date: 2008-11-26T00:40:48+00:00
+date: 2008-11-26T07:40:48+07:00
 publisher:
   description: true
   summary: true

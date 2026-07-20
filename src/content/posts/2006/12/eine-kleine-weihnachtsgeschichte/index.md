@@ -1,6 +1,6 @@
 ---
 title: Eine kleine Weihnachtsgeschichte
-date: 2006-12-24T10:15:06+00:00
+date: 2006-12-24T17:15:06+07:00
 dsq_thread_id:
   - "3151660999"
 publisher:

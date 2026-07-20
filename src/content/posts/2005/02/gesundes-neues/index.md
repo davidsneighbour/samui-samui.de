@@ -1,6 +1,6 @@
 ---
 title: Gesundes Neues!
-date: 2005-02-09T05:30:59+00:00
+date: 2005-02-09T12:30:59+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Endlich mal wieder ein Präsident…
-date: 2012-11-18T04:39:24+00:00
+date: 2012-11-18T11:39:24+07:00
 fb_author_post_id:
   - "10151135473575642"
 dsq_thread_id:

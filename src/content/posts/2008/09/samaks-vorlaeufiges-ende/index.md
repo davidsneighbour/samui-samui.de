@@ -1,6 +1,6 @@
 ---
 title: Samaks (vorläufiges) Ende
-date: 2008-09-09T03:50:42+00:00
+date: 2008-09-09T10:50:42+07:00
 publisher:
   description: true
   summary: true

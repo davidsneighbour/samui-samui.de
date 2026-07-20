@@ -1,6 +1,6 @@
 ---
 title: Ronald McDonald macht den Wai
-date: 2005-02-10T01:51:00+00:00
+date: 2005-02-10T08:51:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

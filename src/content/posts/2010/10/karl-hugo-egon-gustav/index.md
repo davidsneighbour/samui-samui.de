@@ -1,6 +1,6 @@
 ---
 title: Karl Hugo Egon Gustav
-date: 2010-10-28T03:12:23+00:00
+date: 2010-10-28T10:12:23+07:00
 dsq_thread_id:
   - "3264421733"
 lastmod: 2023-09-10T19:14:13+07:00

@@ -1,6 +1,6 @@
 ---
 title: Sprachwitz
-date: 2009-04-13T13:56:22+00:00
+date: 2009-04-13T20:56:22+07:00
 publisher:
   description: true
   summary: true

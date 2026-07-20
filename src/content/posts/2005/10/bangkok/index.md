@@ -1,0 +1,13 @@
+---
+title: Bangkok…
+date: 2005-10-10T05:55:43+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+... wird jedesmal besser. Allerdings auch schmutziger, verautoigter, heißer und nerviger. Was die Busfahrten angeht. Werde mal bei Gelegenheit den Zug testen. Mehr später.

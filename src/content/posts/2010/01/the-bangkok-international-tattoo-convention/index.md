@@ -1,6 +1,6 @@
 ---
 title: The Bangkok International Tattoo Convention
-date: 2010-01-14T00:49:31+00:00
+date: 2010-01-14T07:49:31+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

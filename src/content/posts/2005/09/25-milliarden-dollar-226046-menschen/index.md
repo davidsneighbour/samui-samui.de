@@ -1,6 +1,6 @@
 ---
 title: 25 Milliarden. Dollar. 226046. Menschen.
-date: 2005-09-01T06:05:00+00:00
+date: 2005-09-01T13:05:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

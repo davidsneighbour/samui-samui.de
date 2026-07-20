@@ -1,6 +1,6 @@
 ---
 title: iTV wird abgeschaltet
-date: 2007-03-06T07:45:47+00:00
+date: 2007-03-06T14:45:47+07:00
 publisher:
   description: true
   summary: true

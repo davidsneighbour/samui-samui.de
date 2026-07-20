@@ -1,6 +1,6 @@
 ---
 title: Liebes Internet-Tagebuch…
-date: 2007-02-09T03:12:00+00:00
+date: 2007-02-09T10:12:00+07:00
 publisher:
   description: true
   summary: true

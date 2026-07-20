@@ -1,6 +1,6 @@
 ---
 title: Hair
-date: 2010-01-04T04:46:48+00:00
+date: 2010-01-04T11:46:48+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

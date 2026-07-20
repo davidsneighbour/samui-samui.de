@@ -1,6 +1,6 @@
 ---
 title: Blutmond (Thaistyle)
-date: 2015-10-03T08:58:32+00:00
+date: 2015-10-03T15:58:32+07:00
 url: /2015/10/blutmond-thaistyle/
 tags:
   - astrologie

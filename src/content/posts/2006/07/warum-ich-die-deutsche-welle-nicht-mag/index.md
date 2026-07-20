@@ -1,6 +1,6 @@
 ---
 title: Warum ich die Deutsche Welle nicht mag
-date: 2006-07-06T10:32:38+00:00
+date: 2006-07-06T17:32:38+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Mein eigener Freund
-date: 2009-07-28T02:07:05+00:00
+date: 2009-07-28T09:07:05+07:00
 publisher:
   description: true
   summary: true

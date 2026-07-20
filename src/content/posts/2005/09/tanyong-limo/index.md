@@ -1,6 +1,6 @@
 ---
 title: Zwei Soldaten in Tanyong Limo zu Tode gefoltert
-date: 2005-09-23T00:08:00+00:00
+date: 2005-09-23T07:08:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Thaksin spricht
-date: 2006-06-29T03:24:00+00:00
+date: 2006-06-29T10:24:00+07:00
 dsq_thread_id:
   - "2899976403"
 publisher:

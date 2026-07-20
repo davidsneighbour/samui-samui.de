@@ -1,6 +1,6 @@
 ---
 title: Der männliche Bulle
-date: 2005-04-25T06:42:00+00:00
+date: 2005-04-25T13:42:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

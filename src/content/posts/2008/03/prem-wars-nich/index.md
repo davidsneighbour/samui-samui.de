@@ -1,6 +1,6 @@
 ---
 title: Prem wars nich!
-date: 2008-03-27T04:03:39+00:00
+date: 2008-03-27T11:03:39+07:00
 publisher:
   description: true
   summary: true

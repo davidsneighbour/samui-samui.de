@@ -1,6 +1,6 @@
 ---
 title: Die Wahl der Kühe
-date: 2007-05-10T01:43:42+00:00
+date: 2007-05-10T08:43:42+07:00
 publisher:
   description: true
   summary: true

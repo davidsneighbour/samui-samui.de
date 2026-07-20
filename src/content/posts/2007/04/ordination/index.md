@@ -1,6 +1,6 @@
 ---
 title: Ordination
-date: 2007-04-04T13:16:56+00:00
+date: 2007-04-04T20:16:56+07:00
 publisher:
   description: true
   summary: true

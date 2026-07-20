@@ -1,6 +1,6 @@
 ---
 title: Pridiyathorn ist zurück getreten
-date: 2007-02-28T00:57:31+00:00
+date: 2007-02-28T07:57:31+07:00
 publisher:
   description: true
   summary: true

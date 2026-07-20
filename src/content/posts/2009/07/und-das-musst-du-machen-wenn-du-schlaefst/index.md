@@ -1,6 +1,6 @@
 ---
 title: Und das musst du machen wenn du schläfst…
-date: 2009-07-09T02:18:26+00:00
+date: 2009-07-09T09:18:26+07:00
 dsq_thread_id:
   - "3168357264"
 publisher:

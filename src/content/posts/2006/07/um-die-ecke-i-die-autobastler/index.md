@@ -1,6 +1,6 @@
 ---
 title: "Um die Ecke I: Die Autobastler"
-date: 2006-07-27T11:19:29+00:00
+date: 2006-07-27T18:19:29+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Deutscher zündet Telefonbuden und Geldautomaten an
-date: 2009-03-10T14:18:33+00:00
+date: 2009-03-10T21:18:33+07:00
 publisher:
   description: true
   summary: true

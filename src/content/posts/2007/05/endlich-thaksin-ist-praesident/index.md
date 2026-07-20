@@ -1,6 +1,6 @@
 ---
 title: 'Endlich: Thaksin ist Präsident!'
-date: 2007-05-01T05:19:29+00:00
+date: 2007-05-01T12:19:29+07:00
 publisher:
   description: true
   summary: true

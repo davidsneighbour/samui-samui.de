@@ -1,6 +1,6 @@
 ---
 title: Thai Pop aus den goldenen Sixties
-date: 2011-01-14T00:33:34+00:00
+date: 2011-01-14T07:33:34+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Auf eindringlichen Wunsche hin
-date: 2007-10-15T11:21:06+00:00
+date: 2007-10-15T18:21:06+07:00
 publisher:
   description: true
   summary: true

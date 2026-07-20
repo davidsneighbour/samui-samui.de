@@ -1,6 +1,6 @@
 ---
 title: So ein Tag in Thailand
-date: 2009-09-15T02:04:40+00:00
+date: 2009-09-15T09:04:40+07:00
 publisher:
   description: true
   summary: true

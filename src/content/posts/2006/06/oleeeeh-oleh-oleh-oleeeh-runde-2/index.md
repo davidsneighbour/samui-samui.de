@@ -1,6 +1,6 @@
 ---
 title: Oleeeeh oleh oleh oleeeh! Runde 2.
-date: 2006-06-24T05:45:48+00:00
+date: 2006-06-24T12:45:48+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Valentinstag Thaistyle
-date: 2007-02-14T10:37:58+00:00
+date: 2007-02-14T17:37:58+07:00
 dsq_thread_id:
   - "3510545024"
 publisher:

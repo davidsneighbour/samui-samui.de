@@ -1,6 +1,6 @@
 ---
 title: Der Stromausfall des Monats
-date: 2013-05-22T06:40:17+00:00
+date: 2013-05-22T13:40:17+07:00
 fb_author_post_id:
   - 517050641_10151438955975642
 publisher:

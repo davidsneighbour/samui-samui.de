@@ -1,6 +1,6 @@
 ---
 title: Auswandern
-date: 2006-08-29T11:56:00+00:00
+date: 2006-08-29T18:56:00+07:00
 publisher:
   description: true
   summary: true

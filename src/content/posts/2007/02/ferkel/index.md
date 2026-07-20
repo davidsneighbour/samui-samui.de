@@ -1,6 +1,6 @@
 ---
 title: Ferkel
-date: 2007-02-20T10:58:10+00:00
+date: 2007-02-20T17:58:10+07:00
 publisher:
   description: true
   summary: true

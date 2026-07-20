@@ -1,6 +1,6 @@
 ---
 title: Die Praktikant(inn)en
-date: 2006-04-24T04:46:00+00:00
+date: 2006-04-24T11:46:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

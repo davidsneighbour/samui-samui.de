@@ -1,6 +1,6 @@
 ---
 title: To torrent or not to torrent…
-date: 2010-08-23T00:54:38+00:00
+date: 2010-08-23T07:54:38+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

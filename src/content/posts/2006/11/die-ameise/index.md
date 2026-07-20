@@ -1,6 +1,6 @@
 ---
 title: Die Ameise
-date: 2006-11-23T10:19:08+00:00
+date: 2006-11-23T17:19:08+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

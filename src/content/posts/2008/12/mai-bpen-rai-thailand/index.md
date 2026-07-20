@@ -1,6 +1,6 @@
 ---
 title: Mai bpen rai Thailand!
-date: 2008-12-17T11:00:52+00:00
+date: 2008-12-17T18:00:52+07:00
 dsq_thread_id:
   - "3490104286"
 publisher:

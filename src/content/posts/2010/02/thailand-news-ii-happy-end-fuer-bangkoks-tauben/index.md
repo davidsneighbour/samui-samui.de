@@ -1,6 +1,6 @@
 ---
 title: "Thailand-News II: Happy End für Bangkoks Tauben"
-date: 2010-02-11T15:08:21+00:00
+date: 2010-02-11T22:08:21+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

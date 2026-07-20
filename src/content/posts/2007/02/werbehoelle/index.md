@@ -1,6 +1,6 @@
 ---
 title: Werbehölle
-date: 2007-02-12T09:35:37+00:00
+date: 2007-02-12T16:35:37+07:00
 publisher:
   description: true
   summary: true

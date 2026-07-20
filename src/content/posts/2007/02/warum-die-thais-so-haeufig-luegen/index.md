@@ -1,6 +1,6 @@
 ---
 title: Warum die Thais so häufig lügen
-date: 2007-02-09T04:01:14+00:00
+date: 2007-02-09T11:01:14+07:00
 dsq_thread_id:
   - "3363411412"
 publisher:

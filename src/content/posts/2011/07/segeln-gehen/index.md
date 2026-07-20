@@ -1,6 +1,6 @@
 ---
 title: Segeln gehen
-date: 2011-07-01T13:56:28+00:00
+date: 2011-07-01T20:56:28+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

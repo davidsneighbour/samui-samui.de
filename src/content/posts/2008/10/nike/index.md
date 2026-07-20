@@ -1,0 +1,21 @@
+---
+title: Nike
+date: 2008-10-12T00:40:31+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+<div class="flickr">
+  <a href="http://www.flickr.com/photos/schreibblogade/2933951168/" title="Nike"><img src="//farm4.static.flickr.com/3004/2933951168_28ff815d09.jpg" alt="Nike" /></a></p>
+
+  <p>
+    Nike
+  </p>
+</div>
+
+Nike kam gegen 9:15 und hatte ihren Namen aus offensichtlichen Gründen sofort bekommen. Und: Sie ist die größte von den Dreien.

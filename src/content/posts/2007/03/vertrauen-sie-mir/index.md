@@ -1,6 +1,6 @@
 ---
 title: Vertrauen Sie mir.
-date: 2007-03-15T12:30:51+00:00
+date: 2007-03-15T19:30:51+07:00
 dsq_thread_id:
   - "6412166349"
 publisher:

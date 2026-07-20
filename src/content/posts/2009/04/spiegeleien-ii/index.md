@@ -1,6 +1,6 @@
 ---
 title: Spiegeleien II
-date: 2009-04-22T01:47:03+00:00
+date: 2009-04-22T08:47:03+07:00
 publisher:
   description: true
   summary: true

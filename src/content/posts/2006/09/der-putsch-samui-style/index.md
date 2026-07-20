@@ -1,6 +1,6 @@
 ---
 title: Der Putsch – Samui-Style
-date: 2006-09-20T05:39:00+00:00
+date: 2006-09-20T12:39:00+07:00
 dsq_thread_id:
   - "3492335388"
 publisher:

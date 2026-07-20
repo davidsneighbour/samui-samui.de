@@ -1,6 +1,6 @@
 ---
 title: Banalitäten
-date: 2007-03-17T06:08:00+00:00
+date: 2007-03-17T13:08:00+07:00
 publisher:
   description: true
   summary: true

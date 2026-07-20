@@ -1,6 +1,6 @@
 ---
 title: Guten Morgen
-date: 2008-08-25T10:15:54+00:00
+date: 2008-08-25T17:15:54+07:00
 publisher:
   description: true
   summary: true

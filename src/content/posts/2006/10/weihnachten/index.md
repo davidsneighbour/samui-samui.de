@@ -1,6 +1,6 @@
 ---
 title: Weihnachten
-date: 2006-10-22T08:32:00+00:00
+date: 2006-10-22T15:32:00+07:00
 dsq_thread_id:
   - "3560663923"
 publisher:

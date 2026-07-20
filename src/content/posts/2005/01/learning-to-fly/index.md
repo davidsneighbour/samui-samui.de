@@ -1,0 +1,27 @@
+---
+title: Learning to fly
+date: 2005-01-18T05:04:18+07:00
+dsq_thread_id:
+  - "6412166372"
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Stellen wir uns diese Seite als Comic vor:
+
+Bild 1: Konzentriert arbeitender Patrick arbeitet konzentriert arbeitend vor sich hin. Im Hintergrund ein Fenster, Palmen, grün.
+
+Bild 2: Orange gefärbte mit 14 Zacken versehene Sprechblase "PLOMMK"
+
+Bild 3: Nicht mehr konzentriert arbeitender Patrick schaut verwirrt zum Fenster an dem viele kleine Federn langsam und gemütlich der Erde entgegen säuseln.
+
+Was war geschehen? Ein Vogel (Art unbekannt) hat das Fenster getroffen. Fliegen ist also doch nicht so einfach wie ich mir das vorgestellt habe.
+
+![](/wp-content/old-images/26.jpg)
+
+Allem Anschein nach wollte der Vogel sich selbst treffen. Hat er dann auch, nur dass er selbst eine Spiegelung in der verspiegelten Fensterscheibe war. Kann man ja den tropischen Vögeln auch nicht zumuten sowas.

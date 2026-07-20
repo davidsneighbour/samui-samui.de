@@ -1,6 +1,6 @@
 ---
 title: Lieber Bär gesucht
-date: 2006-06-21T00:14:00+00:00
+date: 2006-06-21T07:14:00+07:00
 publisher:
   description: true
   summary: true

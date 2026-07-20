@@ -1,0 +1,17 @@
+---
+title: Thanglish a la carte
+date: 2006-02-03T03:15:00+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+[![thanglish a la carte][1]][2]
+
+ [1]: //static.flickr.com/34/94746674_769c64a36f.jpg
+ [2]: http://www.flickr.com/photos/schreibblogade/94746674/ "thanglish a la carte"

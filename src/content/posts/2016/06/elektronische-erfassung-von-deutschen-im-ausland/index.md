@@ -1,6 +1,6 @@
 ---
 title: Elektronische Erfassung von Deutschen im Ausland
-date: 2016-06-12T12:11:28+00:00
+date: 2016-06-12T19:11:28+07:00
 url: /2016/06/elektronische-erfassung-von-deutschen-im-ausland/
 tags:
   - auswanderer

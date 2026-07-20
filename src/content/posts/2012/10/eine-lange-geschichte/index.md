@@ -1,6 +1,6 @@
 ---
 title: Eine lange Geschichte…
-date: 2012-10-29T13:59:44+00:00
+date: 2012-10-29T20:59:44+07:00
 fb_mentioned_pages:
   - a:0:{}
 fb_mentioned_friends:

@@ -1,6 +1,6 @@
 ---
 title: Heiratstermine
-date: 2007-04-09T12:17:46+00:00
+date: 2007-04-09T19:17:46+07:00
 publisher:
   description: true
   summary: true

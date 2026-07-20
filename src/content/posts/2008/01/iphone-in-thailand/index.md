@@ -1,6 +1,6 @@
 ---
 title: iPhone in Thailand
-date: 2008-01-24T12:58:15+00:00
+date: 2008-01-24T19:58:15+07:00
 publisher:
   description: true
   summary: true

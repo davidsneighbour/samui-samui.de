@@ -1,6 +1,6 @@
 ---
 title: Samui im Fernsehen
-date: 2007-01-11T06:41:14+00:00
+date: 2007-01-11T13:41:14+07:00
 publisher:
   description: true
   summary: true

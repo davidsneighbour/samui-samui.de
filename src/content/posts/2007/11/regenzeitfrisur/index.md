@@ -1,6 +1,6 @@
 ---
 title: Regenzeitfrisur
-date: 2007-11-14T13:36:24+00:00
+date: 2007-11-14T20:36:24+07:00
 publisher:
   description: true
   summary: true

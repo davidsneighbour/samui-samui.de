@@ -1,6 +1,6 @@
 ---
 title: Kaffee!!! Ne. Doch nicht.
-date: 2005-12-08T00:34:45+00:00
+date: 2005-12-08T07:34:45+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

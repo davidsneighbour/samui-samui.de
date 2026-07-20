@@ -1,6 +1,6 @@
 ---
 title: This and that
-date: 2007-05-24T01:48:45+00:00
+date: 2007-05-24T08:48:45+07:00
 publisher:
   description: true
   summary: true

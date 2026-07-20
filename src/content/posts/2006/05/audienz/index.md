@@ -1,6 +1,6 @@
 ---
 title: Audienz
-date: 2006-05-19T03:11:12+00:00
+date: 2006-05-19T10:11:12+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

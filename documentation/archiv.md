@@ -81,6 +81,12 @@ All archive data is derived at build time from the `posts` and `tags`
 content collections defined in `src/content.config.ts` — no hard-coded
 counts, age copy, or year lists anywhere.
 
+Post year and month grouping uses Thailand time (`Asia/Bangkok`, UTC+07:00),
+via `getPostDateParts()` in [`src/utils/dates.ts`](../src/utils/dates.ts).
+Do not group posts with raw UTC or build-machine-local `Date` getters; many
+legacy timestamps are stored as UTC instants that belong to the following
+Bangkok calendar day.
+
 The archive intro age uses [`src/components/SiteAge.astro`](../src/components/SiteAge.astro)
 and the shared `formatDateDuration()` helper in
 [`src/utils/dates.ts`](../src/utils/dates.ts). The same formatter powers the

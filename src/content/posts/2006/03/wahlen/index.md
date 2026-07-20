@@ -1,6 +1,6 @@
 ---
 title: Wahlen
-date: 2006-03-27T00:56:00+00:00
+date: 2006-03-27T07:56:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

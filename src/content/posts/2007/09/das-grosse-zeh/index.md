@@ -1,6 +1,6 @@
 ---
 title: Das! Gro?e! Zeh!
-date: 2007-09-06T02:42:58+00:00
+date: 2007-09-06T09:42:58+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Thaksin Thaksin!
-date: 2009-02-02T12:05:38+00:00
+date: 2009-02-02T19:05:38+07:00
 publisher:
   description: true
   summary: true

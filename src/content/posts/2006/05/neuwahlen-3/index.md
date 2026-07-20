@@ -1,6 +1,6 @@
 ---
 title: Neuwahlen
-date: 2006-05-15T02:05:20+00:00
+date: 2006-05-15T09:05:20+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

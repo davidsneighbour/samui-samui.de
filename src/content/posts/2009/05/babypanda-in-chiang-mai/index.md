@@ -1,6 +1,6 @@
 ---
 title: Babypanda in Chiang Mai
-date: 2009-05-27T01:48:00+00:00
+date: 2009-05-27T08:48:00+07:00
 
 tags:
   - panda

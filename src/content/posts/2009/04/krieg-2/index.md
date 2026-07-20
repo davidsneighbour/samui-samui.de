@@ -1,6 +1,6 @@
 ---
 title: Krieg
-date: 2009-04-13T13:24:58+00:00
+date: 2009-04-13T20:24:58+07:00
 publisher:
   description: true
   summary: true

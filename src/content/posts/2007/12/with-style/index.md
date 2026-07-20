@@ -1,6 +1,6 @@
 ---
 title: With style
-date: 2007-12-26T01:48:13+00:00
+date: 2007-12-26T08:48:13+07:00
 publisher:
   description: true
   summary: true

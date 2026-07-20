@@ -1,6 +1,6 @@
 ---
 title: Regenzeit?
-date: 2008-04-28T14:21:14+00:00
+date: 2008-04-28T21:21:14+07:00
 dsq_thread_id:
   - "3211940751"
 publisher:

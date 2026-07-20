@@ -1,6 +1,6 @@
 ---
 title: Und Tschü?!
-date: 2006-09-19T16:10:00+00:00
+date: 2006-09-19T23:10:00+07:00
 publisher:
   description: true
   summary: true

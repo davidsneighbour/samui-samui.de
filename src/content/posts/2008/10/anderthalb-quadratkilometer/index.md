@@ -1,6 +1,6 @@
 ---
 title: Anderthalb Quadratkilometer?
-date: 2008-10-13T16:23:35+00:00
+date: 2008-10-13T23:23:35+07:00
 dsq_thread_id:
   - "3454162074"
 publisher:

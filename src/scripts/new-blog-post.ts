@@ -6,6 +6,7 @@ import path from 'node:path';
 import process from 'node:process';
 import readline from 'node:readline/promises';
 import { promisify } from 'node:util';
+import { formatPostTimestamp, getPostDateParts } from '../utils/dates.ts';
 
 const execFileAsync = promisify(execFile);
 
@@ -54,7 +55,8 @@ Options:
 Behaviour:
   - Asks for a blog post title.
   - Optionally asks for comma-separated tags.
-  - Creates src/content/posts/YYYY/cleaned-title/index.md.
+  - Creates src/content/posts/YYYY/cleaned-title/index.md in Bangkok time.
+  - Serializes date as YYYY-MM-DDTHH:mm:ss+07:00.
   - Leaves description and cover fields empty.
   - Opens the created file in VS Code via "code <path>".
 `);
@@ -151,7 +153,7 @@ cover:
   src: ""
   type: ${config.defaultCoverType}
   caption: ""
-date: ${options.date.toISOString()}
+date: ${formatPostTimestamp(options.date)}
 ---
 
 `;
@@ -238,7 +240,7 @@ async function createBlogPost(options: CliOptions): Promise<void> {
   }
 
   const date = new Date();
-  const year = String(date.getFullYear());
+  const year = String(getPostDateParts(date).year);
   const postDirectory = path.join(config.contentDirectory, year, slug);
   const postFile = path.join(postDirectory, 'index.md');
   const content = createPostContent({

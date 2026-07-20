@@ -1,6 +1,6 @@
 ---
 title: Gutes Herz, vom Geist befallen
-date: 2005-09-05T07:36:00+00:00
+date: 2005-09-05T14:36:00+07:00
 dsq_thread_id:
   - "6412166718"
 lastmod: 2023-09-10T19:14:12+07:00

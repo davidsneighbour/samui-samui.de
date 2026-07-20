@@ -1,6 +1,6 @@
 ---
 title: Und dann hats Bumm gemacht
-date: 2007-12-06T13:35:18+00:00
+date: 2007-12-06T20:35:18+07:00
 publisher:
   description: true
   summary: true

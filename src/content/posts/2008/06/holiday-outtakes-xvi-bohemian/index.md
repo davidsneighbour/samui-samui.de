@@ -1,6 +1,6 @@
 ---
 title: 'Holiday Outtakes XVI: Bohemian'
-date: 2008-06-30T02:58:00+00:00
+date: 2008-06-30T09:58:00+07:00
 publisher:
   description: true
   summary: true

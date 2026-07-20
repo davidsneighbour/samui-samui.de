@@ -1,6 +1,6 @@
 ---
 title: Urlaub? Urlaub? Nicht doch!
-date: 2005-12-22T04:00:06+00:00
+date: 2005-12-22T11:00:06+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

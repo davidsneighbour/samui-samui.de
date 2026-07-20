@@ -1,0 +1,21 @@
+---
+title: Sonnenuntergang
+date: 2007-12-18T02:51:43+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+<div class="flickr">
+  <a href="http://www.flickr.com/photos/schreibblogade/2114350563/" title="Sunset"><img src="//farm3.static.flickr.com/2048/2114350563_276dbe2ca5.jpg" alt="Sunset" /></a></p>
+
+  <p>
+    Sunset
+  </p>
+</div>
+
+Vom gleichen Strand wie der Fischer.

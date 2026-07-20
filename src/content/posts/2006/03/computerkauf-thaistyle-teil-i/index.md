@@ -1,6 +1,6 @@
 ---
 title: Computerkauf Thaistyle Teil I
-date: 2006-03-10T01:57:00+00:00
+date: 2006-03-10T08:57:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

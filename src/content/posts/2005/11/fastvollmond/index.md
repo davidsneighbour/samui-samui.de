@@ -1,0 +1,18 @@
+---
+title: Fast Vollmond
+date: 2005-11-16T02:58:00+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+[<img width="420" src="//static.flickr.com/28/63742445_3128663f9b.jpg" alt="Nearly full moon" />][1]
+
+Aber nur fast. _Heute_ ist Vollmond. Und Loi Kratong.
+
+ [1]: http://www.flickr.com/photos/schreibblogade/63742445/ "Nearly full moon"

@@ -1,6 +1,6 @@
 ---
 title: Dahinter steckt immer ein kluger Kopf
-date: 2008-03-01T00:29:22+00:00
+date: 2008-03-01T07:29:22+07:00
 publisher:
   description: true
   summary: true

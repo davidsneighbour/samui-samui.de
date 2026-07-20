@@ -1,6 +1,6 @@
 ---
 title: Klingeltöne
-date: 2006-04-15T06:17:00+00:00
+date: 2006-04-15T13:17:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

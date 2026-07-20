@@ -1,6 +1,6 @@
 ---
 title: Neue Visabestimmungen ab 1. Oktober
-date: 2006-09-24T02:14:00+00:00
+date: 2006-09-24T09:14:00+07:00
 dsq_thread_id:
   - "2894256731"
 publisher:

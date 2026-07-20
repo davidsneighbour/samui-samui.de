@@ -1,6 +1,6 @@
 ---
 title: Murphy im Quadrat
-date: 2007-01-08T02:31:47+00:00
+date: 2007-01-08T09:31:47+07:00
 publisher:
   description: true
   summary: true

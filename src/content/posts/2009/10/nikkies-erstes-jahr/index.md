@@ -1,6 +1,6 @@
 ---
 title: Nikkies erstes Jahr
-date: 2009-10-11T03:32:04+00:00
+date: 2009-10-11T10:32:04+07:00
 publisher:
   description: true
   summary: true

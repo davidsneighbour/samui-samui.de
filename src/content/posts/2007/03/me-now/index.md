@@ -1,6 +1,6 @@
 ---
 title: Me now.
-date: 2007-03-06T12:24:54+00:00
+date: 2007-03-06T19:24:54+07:00
 dsq_thread_id:
   - "6412166311"
 publisher:

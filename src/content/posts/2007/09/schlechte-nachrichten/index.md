@@ -1,6 +1,6 @@
 ---
 title: Schlechte Nachrichten
-date: 2007-09-23T14:04:38+00:00
+date: 2007-09-23T21:04:38+07:00
 dsq_thread_id:
   - "3081494937"
 publisher:

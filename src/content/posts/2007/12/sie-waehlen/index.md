@@ -1,0 +1,16 @@
+---
+title: Sie wählen
+date: 2007-12-23T00:48:21+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Nur kurz: Man wählt, [vermutlich <span class="caps">PPP</span>][1] was ich mal als worst case bezeichnen möchte. Aber Prognosen sind nun mal nicht mehr als Prognosen, nicht wahr? Vielleicht sind die Wähler der Demokraten nur nicht so gesprächig und stolz auf die von ihnen gewählte Partei. Wie mein Vater bei jeder Wahl zu proklamieren pflegt: "Gibt ja sonst nichts, was man wählen könnte."
+
+Mehr später, um sechs schlie?en die Wahllokale und dann können wir die ersten Prognosen zum Termin des nächsten Putsches erstellen.
+
+ [1]: http://www.nationmultimedia.com/breakingnews/read.php?newsid=30060002

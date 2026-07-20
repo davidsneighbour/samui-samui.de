@@ -1,6 +1,6 @@
 ---
 title: Pokki, Katze.
-date: 2015-07-27T12:46:04+00:00
+date: 2015-07-27T19:46:04+07:00
 url: /2015/07/pokki-katze/
 tags:
   - artificial intelligence

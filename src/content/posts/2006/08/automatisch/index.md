@@ -1,6 +1,6 @@
 ---
 title: Automatisch
-date: 2006-08-26T07:18:51+00:00
+date: 2006-08-26T14:18:51+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: CSNSTS
-date: 2006-08-06T07:58:00+00:00
+date: 2006-08-06T14:58:00+07:00
 publisher:
   description: true
   summary: true

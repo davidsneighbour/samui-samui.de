@@ -1,6 +1,6 @@
 ---
 title: Kurz Geschnittenes Sechs
-date: 2007-07-25T01:35:36+00:00
+date: 2007-07-25T08:35:36+07:00
 publisher:
   description: true
   summary: true

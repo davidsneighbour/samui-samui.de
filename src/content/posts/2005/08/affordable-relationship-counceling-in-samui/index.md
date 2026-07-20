@@ -1,6 +1,6 @@
 ---
 title: Affordable Relationship Counceling in Samui
-date: 2005-08-26T02:05:00+00:00
+date: 2005-08-26T09:05:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

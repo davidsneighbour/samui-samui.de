@@ -1,6 +1,6 @@
 ---
 title: Das Ramadan-Rätsel (2012)
-date: 2012-06-22T15:00:18+00:00
+date: 2012-06-22T22:00:18+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

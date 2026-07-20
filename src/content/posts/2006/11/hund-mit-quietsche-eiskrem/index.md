@@ -1,6 +1,6 @@
 ---
 title: Hund mit Quietsche-Eiskrem
-date: 2006-11-17T03:56:19+00:00
+date: 2006-11-17T10:56:19+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

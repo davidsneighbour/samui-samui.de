@@ -1,6 +1,6 @@
 ---
 title: Der Herr der Hütte
-date: 2005-01-14T00:31:57+00:00
+date: 2005-01-14T07:31:57+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

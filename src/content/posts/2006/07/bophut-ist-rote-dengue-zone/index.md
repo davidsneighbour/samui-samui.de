@@ -1,6 +1,6 @@
 ---
 title: Bophut ist rote Dengue-Zone
-date: 2006-07-24T12:26:53+00:00
+date: 2006-07-24T19:26:53+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

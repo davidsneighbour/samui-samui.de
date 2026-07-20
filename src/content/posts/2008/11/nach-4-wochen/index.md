@@ -1,6 +1,6 @@
 ---
 title: Nach 4 Wochen
-date: 2008-11-10T00:42:03+00:00
+date: 2008-11-10T07:42:03+07:00
 publisher:
   description: true
   summary: true

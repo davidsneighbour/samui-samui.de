@@ -1,6 +1,6 @@
 ---
 title: Ihr privates kleines Stück Trauminsel
-date: 2006-11-23T08:29:22+00:00
+date: 2006-11-23T15:29:22+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

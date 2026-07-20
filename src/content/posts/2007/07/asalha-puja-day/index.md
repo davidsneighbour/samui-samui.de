@@ -1,6 +1,6 @@
 ---
 title: Asalha Puja Day
-date: 2007-07-29T03:28:48+00:00
+date: 2007-07-29T10:28:48+07:00
 publisher:
   description: true
   summary: true

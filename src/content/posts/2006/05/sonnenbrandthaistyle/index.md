@@ -1,6 +1,6 @@
 ---
 title: Sonnenbrand Thaistyle
-date: 2006-05-03T02:29:00+00:00
+date: 2006-05-03T09:29:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

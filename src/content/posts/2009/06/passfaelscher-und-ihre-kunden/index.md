@@ -1,6 +1,6 @@
 ---
 title: Passfälscher und ihre Kunden
-date: 2009-06-17T12:27:54+00:00
+date: 2009-06-17T19:27:54+07:00
 dsq_thread_id:
   - "3374635376"
 publisher:

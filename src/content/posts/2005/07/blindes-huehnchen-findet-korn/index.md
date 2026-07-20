@@ -1,6 +1,6 @@
 ---
 title: Blindes Hühnchen findet Korn
-date: 2005-07-24T06:41:00+00:00
+date: 2005-07-24T13:41:00+07:00
 dsq_thread_id:
   - "6412166654"
 lastmod: 2023-09-10T19:14:12+07:00

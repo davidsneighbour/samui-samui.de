@@ -1,6 +1,6 @@
 ---
 title: Datentransfermitschnitt
-date: 2008-08-22T01:37:46+00:00
+date: 2008-08-22T08:37:46+07:00
 publisher:
   description: true
   summary: true

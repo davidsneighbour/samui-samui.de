@@ -1,6 +1,6 @@
 ---
 title: GPS!
-date: 2006-09-07T09:29:05+00:00
+date: 2006-09-07T16:29:05+07:00
 publisher:
   description: true
   summary: true

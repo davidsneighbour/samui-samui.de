@@ -1,6 +1,6 @@
 ---
 title: Krankenhausnews
-date: 2009-09-22T04:09:02+00:00
+date: 2009-09-22T11:09:02+07:00
 publisher:
   description: true
   summary: true

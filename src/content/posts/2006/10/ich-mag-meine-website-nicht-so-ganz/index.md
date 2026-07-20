@@ -1,6 +1,6 @@
 ---
 title: Ich mag meine Website (nicht so ganz)
-date: 2006-10-22T03:58:00+00:00
+date: 2006-10-22T10:58:00+07:00
 dsq_thread_id:
   - "3560662390"
 lastmod: 2023-09-10T19:14:12+07:00

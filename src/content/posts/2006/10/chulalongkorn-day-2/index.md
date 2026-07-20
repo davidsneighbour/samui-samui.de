@@ -1,6 +1,6 @@
 ---
 title: Chulalongkorn Day
-date: 2006-10-23T08:29:55+00:00
+date: 2006-10-23T15:29:55+07:00
 publisher:
   description: true
   summary: true

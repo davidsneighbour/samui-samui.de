@@ -1,6 +1,6 @@
 ---
 title: Krieg
-date: 2007-02-04T07:53:24+00:00
+date: 2007-02-04T14:53:24+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: LongKhong II
-date: 2005-11-15T02:41:00+00:00
+date: 2005-11-15T09:41:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,0 +1,13 @@
+---
+title: Subtilität
+date: 2005-11-05T06:06:32+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Subtilität ist eine Kunst. Daher darf sich auch jeder an ihr versuchen. Wäre es ein Handwerk, würde es nicht diese ewigen Versuche amüsanter Subtilität geben. Hmm? Na? Verstehst du? Hmm?

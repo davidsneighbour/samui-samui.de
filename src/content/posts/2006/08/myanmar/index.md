@@ -1,6 +1,6 @@
 ---
 title: Myanmar
-date: 2006-08-03T06:08:00+00:00
+date: 2006-08-03T13:08:00+07:00
 publisher:
   description: true
   summary: true

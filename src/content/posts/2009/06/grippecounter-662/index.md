@@ -1,6 +1,6 @@
 ---
 title: 'Grippecounter: 662'
-date: 2009-06-20T14:58:21+00:00
+date: 2009-06-20T21:58:21+07:00
 publisher:
   description: true
   summary: true

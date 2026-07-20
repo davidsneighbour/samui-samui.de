@@ -1,6 +1,6 @@
 ---
 title: Nach dem Friseur ist vor dem Friseur
-date: 2012-06-17T14:04:15+00:00
+date: 2012-06-17T21:04:15+07:00
 dsq_thread_id:
   - "2914982289"
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,6 @@
 ---
 title: Der Autor
-date: 2008-09-30T16:24:44+00:00
+date: 2008-09-30T23:24:44+07:00
 publisher:
   description: true
   summary: true

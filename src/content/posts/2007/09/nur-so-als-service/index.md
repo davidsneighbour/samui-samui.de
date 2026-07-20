@@ -1,6 +1,6 @@
 ---
 title: Nur so als Service
-date: 2007-09-11T03:34:05+00:00
+date: 2007-09-11T10:34:05+07:00
 publisher:
   description: true
   summary: true

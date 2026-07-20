@@ -1,6 +1,6 @@
 ---
 title: Valentinstag Samuistyle
-date: 2007-02-15T11:24:23+00:00
+date: 2007-02-15T18:24:23+07:00
 publisher:
   description: true
   summary: true

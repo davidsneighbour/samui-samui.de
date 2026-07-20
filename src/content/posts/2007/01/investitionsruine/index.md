@@ -1,6 +1,6 @@
 ---
 title: Investitionsruine
-date: 2007-01-23T03:28:29+00:00
+date: 2007-01-23T10:28:29+07:00
 publisher:
   description: true
   summary: true

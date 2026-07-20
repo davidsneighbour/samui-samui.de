@@ -1,0 +1,24 @@
+---
+title: Return of the famous Samui blowjob dolls
+date: 2011-10-09T05:04:42+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+<div class="media image">
+  <a href="http://www.flickr.com/photos/schreibblogade/6225696569/" title="Return of the famous Samui blowjob dolls by Patrick Kollitsch, on Flickr"><img src="//farm7.static.flickr.com/6156/6225696569_a6c0b90c51_z.jpg" width="640"  alt="Return of the famous Samui blowjob dolls" /></a></p>
+
+  <p>
+    Return of the famous Samui blowjob dolls
+  </p>
+</div>
+
+[Und noch mehr berühmte Blowjob-Puppen auf flickr.com][1] (inklusive des Originals)
+
+ [1]: http://www.flickr.com/photos/schreibblogade/6225696569/in/set-72157627851789066/

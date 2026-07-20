@@ -1,0 +1,22 @@
+---
+title: Ein Bild
+date: 2005-01-16T06:08:00+07:00
+featured_image: /wp-content/uploads/2005/01/ein-bild/15.jpg
+tags:
+  - schweden
+  - waermland
+  - winter
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+<figure><img width="420" height="315" src="/wp-content/uploads/2005/01/ein-bild/15.jpg" class="attachment-original size-original" alt="" /><figcaption>
+
+Schwedens schönes Wärmland im Winter – © Patrick Kollitsch</figcaption></figure>
+
+Ihr wolltet ein Bild? Hier habt ihr es. Das ist ein Ausblick auf Schwedens schönes Wärmland im Winter, wo ich mit Schnute Winterurlaub gemacht habe.

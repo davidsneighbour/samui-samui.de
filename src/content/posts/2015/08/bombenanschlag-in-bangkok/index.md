@@ -1,6 +1,6 @@
 ---
 title: Bombenanschlag in Bangkok
-date: 2015-08-17T13:09:36+00:00
+date: 2015-08-17T20:09:36+07:00
 url: /2015/08/bombenanschlag-in-bangkok/
 tags:
   - bangkok

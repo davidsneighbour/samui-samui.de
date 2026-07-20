@@ -1,6 +1,6 @@
 ---
 title: Denial of service hackerz
-date: 2009-10-10T04:06:49+00:00
+date: 2009-10-10T11:06:49+07:00
 publisher:
   description: true
   summary: true

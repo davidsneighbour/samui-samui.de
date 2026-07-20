@@ -1,6 +1,6 @@
 ---
 title: Siamesische Sechslinge
-date: 2012-07-09T10:18:36+00:00
+date: 2012-07-09T17:18:36+07:00
 fb_mentioned_pages:
   - a:0:{}
 fb_mentioned_friends:

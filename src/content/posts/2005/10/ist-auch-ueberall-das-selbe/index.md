@@ -1,6 +1,6 @@
 ---
 title: Ist auch überall das Selbe
-date: 2005-10-04T01:33:07+00:00
+date: 2005-10-04T08:33:07+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

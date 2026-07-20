@@ -1,6 +1,6 @@
 ---
 title: Tag 11688
-date: 2007-07-05T01:54:16+00:00
+date: 2007-07-05T08:54:16+07:00
 publisher:
   description: true
   summary: true

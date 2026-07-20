@@ -1,6 +1,6 @@
 ---
 title: Von einem, der auszog das Fliegen zu erlernen.
-date: 2005-01-12T01:27:00+00:00
+date: 2005-01-12T08:27:00+07:00
 dsq_thread_id:
   - "3105401142"
 lastmod: 2023-09-10T19:14:12+07:00

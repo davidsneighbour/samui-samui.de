@@ -1,6 +1,6 @@
 ---
 title: Nachbars Kind…
-date: 2007-05-12T09:03:26+00:00
+date: 2007-05-12T16:03:26+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Aller guten Dinge sind Vier
-date: 2007-03-04T07:52:58+00:00
+date: 2007-03-04T14:52:58+07:00
 dsq_thread_id:
   - "6412166304"
 publisher:

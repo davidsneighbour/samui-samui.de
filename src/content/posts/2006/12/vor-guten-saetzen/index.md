@@ -1,6 +1,6 @@
 ---
 title: Vor guten Sätzen
-date: 2006-12-31T02:52:03+00:00
+date: 2006-12-31T09:52:03+07:00
 publisher:
   description: true
   summary: true

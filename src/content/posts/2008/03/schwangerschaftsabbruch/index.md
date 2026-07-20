@@ -1,6 +1,6 @@
 ---
 title: Schwangerschaftsabbruch
-date: 2008-03-15T02:21:45+00:00
+date: 2008-03-15T09:21:45+07:00
 publisher:
   description: true
   summary: true

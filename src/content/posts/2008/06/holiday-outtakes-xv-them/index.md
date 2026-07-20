@@ -1,6 +1,6 @@
 ---
 title: 'Holiday Outtakes XV: Them'
-date: 2008-06-30T02:56:24+00:00
+date: 2008-06-30T09:56:24+07:00
 publisher:
   description: true
   summary: true

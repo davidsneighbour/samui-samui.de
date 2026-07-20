@@ -1,6 +1,6 @@
 ---
 title: David Carradine ist tot
-date: 2009-06-04T00:54:41+00:00
+date: 2009-06-04T07:54:41+07:00
 publisher:
   description: true
   summary: true

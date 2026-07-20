@@ -1,6 +1,6 @@
 ---
 title: Bombenterror im Urlaubsparadies
-date: 2006-06-15T04:52:00+00:00
+date: 2006-06-15T11:52:00+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Putschgerüchteküche
-date: 2011-02-02T10:20:13+00:00
+date: 2011-02-02T17:20:13+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

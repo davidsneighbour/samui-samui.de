@@ -1,6 +1,6 @@
 ---
 title: 'Eine königliche Bloggerin'
-date: 2006-10-02T06:05:28+00:00
+date: 2006-10-02T13:05:28+07:00
 publisher:
   description: true
   summary: true

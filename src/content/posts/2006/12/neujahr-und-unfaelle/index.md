@@ -1,6 +1,6 @@
 ---
 title: Neujahr und Unfälle
-date: 2006-12-31T00:25:48+00:00
+date: 2006-12-31T07:25:48+07:00
 publisher:
   description: true
   summary: true

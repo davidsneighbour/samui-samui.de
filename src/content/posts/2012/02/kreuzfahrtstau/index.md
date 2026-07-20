@@ -1,0 +1,22 @@
+---
+title: Kreuzfahrtstau
+date: 2012-02-24T00:37:59+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+<div class="media photo image">
+  <a href="http://www.flickr.com/photos/schreibblogade/6779080988/" title="Cruise traffic jam by Patrick Kollitsch, on Flickr"><img src="//farm8.staticflickr.com/7178/6779080988_3db3043249_z.jpg" alt="Cruise traffic jam" /></a></p>
+
+  <p>
+    Cruise traffic jam
+  </p>
+</div>
+
+Neuerdings kommen die Kreuzfahrtschiffe schon im Doppelpack in Nathon an. Entsprechend voll war die Insel auch am Mittwoch --- jede Menge, ehm, älterer Touristen --- ihr wisst schon, die mit den Stöcken --- und jede Menge Japaner und Koreaner --- ihr wisst schon, die mit den Kameras.

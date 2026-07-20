@@ -1,6 +1,6 @@
 ---
 title: Stromausfall oder Ein Daywalker braucht kein Licht
-date: 2006-06-14T07:38:00+00:00
+date: 2006-06-14T14:38:00+07:00
 publisher:
   description: true
   summary: true

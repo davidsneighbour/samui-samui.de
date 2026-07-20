@@ -1,6 +1,6 @@
 ---
 title: Visa on Arrival ohne Einschränkungen
-date: 2008-03-15T02:45:24+00:00
+date: 2008-03-15T09:45:24+07:00
 dsq_thread_id:
   - "2954364744"
 publisher:

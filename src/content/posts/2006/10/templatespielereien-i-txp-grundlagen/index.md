@@ -1,6 +1,6 @@
 ---
 title: "Templatespielereien I: TXP-Grundlagen"
-date: 2006-10-25T01:04:00+00:00
+date: 2006-10-25T08:04:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Der gro?e Tag (zweiter und dritter Versuch)
-date: 2007-03-03T07:55:19+00:00
+date: 2007-03-03T14:55:19+07:00
 dsq_thread_id:
   - "6412166305"
 publisher:

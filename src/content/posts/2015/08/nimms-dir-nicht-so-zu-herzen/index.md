@@ -1,6 +1,6 @@
 ---
 title: Nimm’s dir nicht so zu Herzen, Somchai
-date: 2015-08-01T14:50:11+00:00
+date: 2015-08-01T21:50:11+07:00
 url: /2015/08/nimms-dir-nicht-so-zu-herzen/
 tags:
   - i head a dream

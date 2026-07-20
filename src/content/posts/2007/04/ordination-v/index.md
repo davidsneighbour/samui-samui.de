@@ -1,6 +1,6 @@
 ---
 title: Ordination V
-date: 2007-04-04T13:40:10+00:00
+date: 2007-04-04T20:40:10+07:00
 publisher:
   description: true
   summary: true

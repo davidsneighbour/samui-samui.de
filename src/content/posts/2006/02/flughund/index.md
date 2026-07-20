@@ -1,0 +1,20 @@
+---
+title: Flughund
+date: 2006-02-18T02:15:00+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+<div class="flickr">
+  <a href="http://www.flickr.com/photos/schreibblogade/100981806/" title="The flying dog"><img src="//static.flickr.com/41/100981806_f95b950b3d.jpg" alt="The flying dog" /></a></p>
+
+  <p>
+    The flying dog
+  </p>
+</div>

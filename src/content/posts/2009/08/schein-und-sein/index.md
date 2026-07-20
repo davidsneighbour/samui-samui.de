@@ -1,6 +1,6 @@
 ---
 title: Schein und Sein
-date: 2009-08-28T16:02:58+00:00
+date: 2009-08-28T23:02:58+07:00
 publisher:
   description: true
   summary: true

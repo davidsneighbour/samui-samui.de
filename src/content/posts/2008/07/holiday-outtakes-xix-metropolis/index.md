@@ -1,6 +1,6 @@
 ---
 title: 'Holiday Outtakes XIX: Metropolis'
-date: 2008-07-02T03:44:50+00:00
+date: 2008-07-02T10:44:50+07:00
 publisher:
   description: true
   summary: true

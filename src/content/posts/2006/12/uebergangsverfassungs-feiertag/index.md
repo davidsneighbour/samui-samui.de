@@ -1,6 +1,6 @@
 ---
 title: ?bergangsverfassungs-Feiertag
-date: 2006-12-10T02:57:34+00:00
+date: 2006-12-10T09:57:34+07:00
 publisher:
   description: true
   summary: true

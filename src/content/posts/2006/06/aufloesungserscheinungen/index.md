@@ -1,6 +1,6 @@
 ---
 title: Auflösungserscheinungen
-date: 2006-06-27T05:04:00+00:00
+date: 2006-06-27T12:04:00+07:00
 publisher:
   description: true
   summary: true

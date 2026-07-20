@@ -1,6 +1,6 @@
 ---
 title: Todesstrafe
-date: 2009-08-24T13:48:44+00:00
+date: 2009-08-24T20:48:44+07:00
 dsq_thread_id:
   - "3184440661"
 publisher:

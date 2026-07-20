@@ -1,6 +1,6 @@
 ---
 title: … it’s to late …
-date: 2010-07-19T15:38:13+00:00
+date: 2010-07-19T22:38:13+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

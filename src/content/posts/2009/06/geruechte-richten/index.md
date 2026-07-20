@@ -1,6 +1,6 @@
 ---
 title: Gerüchte richten
-date: 2009-06-14T12:07:40+00:00
+date: 2009-06-14T19:07:40+07:00
 publisher:
   description: true
   summary: true

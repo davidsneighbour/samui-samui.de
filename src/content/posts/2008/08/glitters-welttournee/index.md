@@ -1,6 +1,6 @@
 ---
 title: Glitters Welttournee
-date: 2008-08-21T00:13:06+00:00
+date: 2008-08-21T07:13:06+07:00
 publisher:
   description: true
   summary: true

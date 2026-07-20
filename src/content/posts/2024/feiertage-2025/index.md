@@ -5,7 +5,7 @@ date: 2024-12-19T15:02:43+07:00
 tags:
   - feiertage
   - thailand
-lastmod: 2025-09-18T2:46:53+00:00
+lastmod: 2025-09-18T09:46:53+07:00
 publisher:
   description: true
   summary: true

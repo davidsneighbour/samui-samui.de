@@ -1,6 +1,6 @@
 ---
 title: Wir warten auf Durain
-date: 2006-12-04T10:37:24+00:00
+date: 2006-12-04T17:37:24+07:00
 publisher:
   description: true
   summary: true

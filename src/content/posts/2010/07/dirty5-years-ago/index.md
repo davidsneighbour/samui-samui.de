@@ -1,6 +1,6 @@
 ---
 title: Dirty5 (years ago)
-date: 2010-07-05T01:01:43+00:00
+date: 2010-07-05T08:01:43+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Thailand bietet Myanmar Wahlhilfe an
-date: 2010-10-11T00:31:16+00:00
+date: 2010-10-11T07:31:16+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

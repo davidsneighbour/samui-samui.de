@@ -1,6 +1,6 @@
 ---
 title: Lady? Boy!
-date: 2006-08-31T10:03:01+00:00
+date: 2006-08-31T17:03:01+07:00
 publisher:
   description: true
   summary: true

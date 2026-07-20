@@ -1,6 +1,6 @@
 ---
 title: Samak ist tot
-date: 2009-11-23T14:05:23+00:00
+date: 2009-11-23T21:05:23+07:00
 dsq_thread_id:
   - "3078151504"
 publisher:

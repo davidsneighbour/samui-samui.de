@@ -1,6 +1,6 @@
 ---
 title: Murphys Wochenende
-date: 2007-05-07T10:35:20+00:00
+date: 2007-05-07T17:35:20+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Grünes schleimiges Naschzeug.
-date: 2005-02-24T02:21:00+00:00
+date: 2005-02-24T09:21:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

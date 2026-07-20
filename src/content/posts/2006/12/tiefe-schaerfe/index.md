@@ -1,6 +1,6 @@
 ---
 title: Tiefe Schärfe
-date: 2006-12-20T06:40:45+00:00
+date: 2006-12-20T13:40:45+07:00
 publisher:
   description: true
   summary: true

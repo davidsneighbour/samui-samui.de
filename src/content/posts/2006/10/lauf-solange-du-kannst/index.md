@@ -1,6 +1,6 @@
 ---
 title: Lauf! Solange du kannst!
-date: 2006-10-20T05:05:53+00:00
+date: 2006-10-20T12:05:53+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

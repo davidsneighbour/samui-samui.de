@@ -1,6 +1,6 @@
 ---
 title: Thaksin auf Reisen (immer noch)
-date: 2006-11-22T09:10:20+00:00
+date: 2006-11-22T16:10:20+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Wenig lustig
-date: 2006-07-06T11:02:56+00:00
+date: 2006-07-06T18:02:56+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

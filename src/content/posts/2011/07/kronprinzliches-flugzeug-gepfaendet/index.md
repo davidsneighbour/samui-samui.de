@@ -1,6 +1,6 @@
 ---
 title: Kronprinzliches Flugzeug gepfändet
-date: 2011-07-13T16:40:00+00:00
+date: 2011-07-13T23:40:00+07:00
 dsq_thread_id:
   - "3307824074"
 lastmod: 2023-09-10T19:14:12+07:00

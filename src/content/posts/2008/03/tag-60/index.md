@@ -1,6 +1,6 @@
 ---
 title: Tag 60
-date: 2008-03-10T02:50:21+00:00
+date: 2008-03-10T09:50:21+07:00
 publisher:
   description: true
   summary: true

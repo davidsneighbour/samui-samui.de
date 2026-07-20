@@ -1,6 +1,6 @@
 ---
 title: YouTube geblockt – oder nicht
-date: 2007-03-11T04:52:52+00:00
+date: 2007-03-11T11:52:52+07:00
 dsq_thread_id:
   - "3167746883"
 publisher:

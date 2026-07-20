@@ -1,6 +1,6 @@
 ---
 title: Friedlicher Verstand
-date: 2007-11-08T02:28:12+00:00
+date: 2007-11-08T09:28:12+07:00
 publisher:
   description: true
   summary: true

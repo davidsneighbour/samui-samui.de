@@ -1,6 +1,6 @@
 ---
 title: Botschaftsschreiben
-date: 2007-03-06T05:25:50+00:00
+date: 2007-03-06T12:25:50+07:00
 publisher:
   description: true
   summary: true

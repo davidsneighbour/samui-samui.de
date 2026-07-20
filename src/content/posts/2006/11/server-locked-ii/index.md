@@ -1,6 +1,6 @@
 ---
 title: Server locked II
-date: 2006-11-19T06:48:45+00:00
+date: 2006-11-19T13:48:45+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

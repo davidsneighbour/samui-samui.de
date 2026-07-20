@@ -1,6 +1,6 @@
 ---
 title: Shihtzuphrenia
-date: 2006-06-15T08:11:00+00:00
+date: 2006-06-15T15:11:00+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Morgen krachts (vielleicht)
-date: 2008-06-19T03:11:55+00:00
+date: 2008-06-19T10:11:55+07:00
 publisher:
   description: true
   summary: true

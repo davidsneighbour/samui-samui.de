@@ -1,6 +1,6 @@
 ---
 title: Weisheit
-date: 2012-02-14T13:10:15+00:00
+date: 2012-02-14T20:10:15+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

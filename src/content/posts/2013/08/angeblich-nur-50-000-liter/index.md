@@ -1,6 +1,6 @@
 ---
 title: (angeblich nur) 50.000 Liter
-date: 2013-08-02T15:15:14+00:00
+date: 2013-08-02T22:15:14+07:00
 fb_author_post_id:
   - 517050641_10151568231900642
 publisher:

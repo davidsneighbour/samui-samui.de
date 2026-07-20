@@ -1,0 +1,21 @@
+---
+title: "Massive Attack: Angel"
+date: 2005-11-13T02:57:00+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Massive Attacks "Angel" ist eines der Stücke, die ich auf nahezu jede Kompilation ausgesuchter musikalischer Schmankerl draufpacken würde, wenn ich für jemanden Besonders eine derartige Kollektion zusammenstellen würde. Was ich nie mache, weil es keine besonderen Menschen mehr gibt auf dieser Welt.
+
+Aber mal ehrlich. Wie aus einer ruhig entspannt dahinfließenden Basslinie eine derartige Explosion und triphoppige (Achtung, jetzt kommts, Fachbegriffe in der die schreiBBloga.de) synkopenhafte Wand werden kann... nenene...
+
+underlistening 01: [Massive Attack][1] "Angel" 6:20 (1998)
+
+Tagline: _her eyes_
+
+ [1]: http://www.massiveattack.co.uk/

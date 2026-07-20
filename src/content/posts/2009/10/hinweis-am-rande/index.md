@@ -1,6 +1,6 @@
 ---
 title: Hinweis am Rande
-date: 2009-10-11T03:20:39+00:00
+date: 2009-10-11T10:20:39+07:00
 publisher:
   description: true
   summary: true

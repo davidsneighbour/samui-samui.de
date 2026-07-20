@@ -1,6 +1,6 @@
 ---
 title: Gerüchte
-date: 2006-09-20T05:45:00+00:00
+date: 2006-09-20T12:45:00+07:00
 publisher:
   description: true
   summary: true

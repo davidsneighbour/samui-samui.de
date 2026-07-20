@@ -1,6 +1,6 @@
 ---
 title: Update zum gestrigen Nachtgeschehen
-date: 2005-10-18T05:50:56+00:00
+date: 2005-10-18T12:50:56+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

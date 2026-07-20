@@ -1,6 +1,6 @@
 ---
 title: Holiday Outtakes
-date: 2008-06-11T03:38:08+00:00
+date: 2008-06-11T10:38:08+07:00
 publisher:
   description: true
   summary: true

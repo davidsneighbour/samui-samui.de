@@ -1,6 +1,6 @@
 ---
 title: Thairakthai blockt Thailand
-date: 2006-07-06T11:23:00+00:00
+date: 2006-07-06T18:23:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

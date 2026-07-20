@@ -1,6 +1,6 @@
 ---
 title: Noch da
-date: 2007-10-28T15:52:31+00:00
+date: 2007-10-28T22:52:31+07:00
 publisher:
   description: true
   summary: true

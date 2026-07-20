@@ -1,6 +1,6 @@
 ---
 title: Dreiarmig
-date: 2008-06-12T05:33:19+00:00
+date: 2008-06-12T12:33:19+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Hundeleben
-date: 2007-02-20T05:42:14+00:00
+date: 2007-02-20T12:42:14+07:00
 dsq_thread_id:
   - "3490259640"
 publisher:

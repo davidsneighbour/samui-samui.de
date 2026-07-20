@@ -1,6 +1,6 @@
 ---
 title: Declaration of state of emergency in Thailand
-date: 2006-09-19T13:37:00+00:00
+date: 2006-09-19T20:37:00+07:00
 publisher:
   description: true
   summary: true

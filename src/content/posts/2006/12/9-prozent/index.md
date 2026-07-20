@@ -1,6 +1,6 @@
 ---
 title: 9 Prozent
-date: 2006-12-20T08:47:55+00:00
+date: 2006-12-20T15:47:55+07:00
 dsq_thread_id:
   - "3486316293"
 publisher:

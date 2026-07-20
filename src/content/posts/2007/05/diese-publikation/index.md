@@ -1,6 +1,6 @@
 ---
 title: Diese Publikation…
-date: 2007-05-13T10:11:35+00:00
+date: 2007-05-13T17:11:35+07:00
 publisher:
   description: true
   summary: true

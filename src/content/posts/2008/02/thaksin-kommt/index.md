@@ -1,6 +1,6 @@
 ---
 title: Thaksin kommt
-date: 2008-02-26T10:49:18+00:00
+date: 2008-02-26T17:49:18+07:00
 publisher:
   description: true
   summary: true

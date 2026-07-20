@@ -1,6 +1,6 @@
 ---
 title: Sieg. Für wen auch immer.
-date: 2008-12-02T01:04:54+00:00
+date: 2008-12-02T08:04:54+07:00
 publisher:
   description: true
   summary: true

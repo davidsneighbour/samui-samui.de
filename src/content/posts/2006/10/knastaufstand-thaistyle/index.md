@@ -1,6 +1,6 @@
 ---
 title: Knastaufstand (Thaistyle)
-date: 2006-10-28T07:55:45+00:00
+date: 2006-10-28T14:55:45+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Durchschnitt
-date: 2008-09-03T03:53:39+00:00
+date: 2008-09-03T10:53:39+07:00
 publisher:
   description: true
   summary: true

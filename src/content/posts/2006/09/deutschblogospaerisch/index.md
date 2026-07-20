@@ -1,6 +1,6 @@
 ---
 title: Deutschblogospärisch?
-date: 2006-09-05T10:21:00+00:00
+date: 2006-09-05T17:21:00+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: 'Deutsch: Landreise'
-date: 2008-04-26T03:01:00+00:00
+date: 2008-04-26T10:01:00+07:00
 publisher:
   description: true
   summary: true

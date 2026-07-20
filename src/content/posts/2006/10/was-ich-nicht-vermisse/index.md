@@ -1,6 +1,6 @@
 ---
 title: Was ich (nicht) vermisse
-date: 2006-10-06T11:11:55+00:00
+date: 2006-10-06T18:11:55+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

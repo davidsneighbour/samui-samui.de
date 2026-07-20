@@ -1,6 +1,6 @@
 ---
 title: Charlie
-date: 2007-03-01T11:35:27+00:00
+date: 2007-03-01T18:35:27+07:00
 dsq_thread_id:
   - "6412166297"
 publisher:

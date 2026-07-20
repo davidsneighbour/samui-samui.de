@@ -1,6 +1,6 @@
 ---
 title: Das berühmte Zwickauer Schnitzel-Ommelet
-date: 2007-07-22T01:17:10+00:00
+date: 2007-07-22T08:17:10+07:00
 publisher:
   description: true
   summary: true

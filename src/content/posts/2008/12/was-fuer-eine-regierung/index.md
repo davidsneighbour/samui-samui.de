@@ -1,6 +1,6 @@
 ---
 title: Was für eine Regierung!
-date: 2008-12-20T00:41:04+00:00
+date: 2008-12-20T07:41:04+07:00
 publisher:
   description: true
   summary: true

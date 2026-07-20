@@ -1,6 +1,6 @@
 ---
 title: '5eleven: Rüsselaufwärts, einmal durch Bangkok und dann runter'
-date: 2007-01-04T10:47:08+00:00
+date: 2007-01-04T17:47:08+07:00
 publisher:
   description: true
   summary: true

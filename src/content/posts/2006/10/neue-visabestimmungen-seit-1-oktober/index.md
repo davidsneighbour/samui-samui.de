@@ -1,6 +1,6 @@
 ---
 title: Neue Visabestimmungen seit 1. Oktober
-date: 2006-10-02T03:30:00+00:00
+date: 2006-10-02T10:30:00+07:00
 publisher:
   description: true
   summary: true

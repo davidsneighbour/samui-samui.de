@@ -1,6 +1,6 @@
 ---
 title: Gebärdensprache
-date: 2008-01-27T13:48:31+00:00
+date: 2008-01-27T20:48:31+07:00
 publisher:
   description: true
   summary: true

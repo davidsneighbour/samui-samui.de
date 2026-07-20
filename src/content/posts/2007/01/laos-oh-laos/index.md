@@ -1,6 +1,6 @@
 ---
 title: Laos, Oh Laos…
-date: 2007-01-27T04:03:53+00:00
+date: 2007-01-27T11:03:53+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Buddha-Erscheinung
-date: 2007-07-04T01:16:34+00:00
+date: 2007-07-04T08:16:34+07:00
 publisher:
   description: true
   summary: true

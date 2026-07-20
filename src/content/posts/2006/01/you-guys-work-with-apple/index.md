@@ -1,6 +1,6 @@
 ---
 title: You guys work with apple?
-date: 2006-01-23T00:38:57+00:00
+date: 2006-01-23T07:38:57+07:00
 publisher:
   description: true
   summary: true

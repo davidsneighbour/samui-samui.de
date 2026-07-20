@@ -1,6 +1,6 @@
 ---
 title: Ong Bak 3.
-date: 2008-12-18T00:38:34+00:00
+date: 2008-12-18T07:38:34+07:00
 publisher:
   description: true
   summary: true

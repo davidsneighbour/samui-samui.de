@@ -1,6 +1,6 @@
 ---
 title: Nächtlicher Besuch
-date: 2011-09-09T14:23:34+00:00
+date: 2011-09-09T21:23:34+07:00
 dsq_thread_id:
   - "3068016083"
 lastmod: 2023-09-10T19:14:12+07:00

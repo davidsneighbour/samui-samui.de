@@ -1,6 +1,6 @@
 ---
 title: Gegendarstellung
-date: 2007-06-13T00:30:04+00:00
+date: 2007-06-13T07:30:04+07:00
 publisher:
   description: true
   summary: true

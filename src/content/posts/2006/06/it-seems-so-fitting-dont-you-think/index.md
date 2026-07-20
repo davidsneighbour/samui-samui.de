@@ -1,6 +1,6 @@
 ---
 title: It seems so fitting don’t you think?
-date: 2006-06-18T12:41:52+00:00
+date: 2006-06-18T19:41:52+07:00
 publisher:
   description: true
   summary: true

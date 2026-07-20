@@ -1,6 +1,6 @@
 ---
 title: Zurück
-date: 2007-02-05T13:17:47+00:00
+date: 2007-02-05T20:17:47+07:00
 dsq_thread_id:
   - "3297056021"
 publisher:

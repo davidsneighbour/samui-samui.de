@@ -1,6 +1,6 @@
 ---
 title: Visa-Run – vermutlich nur Teil 1
-date: 2005-04-01T02:25:00+00:00
+date: 2005-04-01T09:25:00+07:00
 tags:
   - visa
   - visarun

@@ -6,7 +6,7 @@ tags:
   - video
   - thailand
   - fernsehen
-lastmod: 2025-09-18T3:05:08+00:00
+lastmod: 2025-09-18T10:05:08+07:00
 publisher:
   description: true
   summary: true

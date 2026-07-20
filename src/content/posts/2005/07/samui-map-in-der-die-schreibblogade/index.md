@@ -1,6 +1,6 @@
 ---
 title: Samui-Map in der die schreiBBloga.de
-date: 2005-07-24T07:58:00+00:00
+date: 2005-07-24T14:58:00+07:00
 dsq_thread_id:
   - "6412166704"
 lastmod: 2023-09-10T19:14:12+07:00

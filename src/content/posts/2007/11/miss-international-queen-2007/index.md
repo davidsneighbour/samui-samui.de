@@ -1,6 +1,6 @@
 ---
 title: Miss International Queen 2007
-date: 2007-11-11T13:18:15+00:00
+date: 2007-11-11T20:18:15+07:00
 publisher:
   description: true
   summary: true

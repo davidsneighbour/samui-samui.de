@@ -1,6 +1,6 @@
 ---
 title: Grüße aus den Tropen
-date: 2005-10-22T03:52:27+00:00
+date: 2005-10-22T10:52:27+07:00
 dsq_thread_id:
   - "6412166771"
 lastmod: 2023-09-10T19:14:12+07:00

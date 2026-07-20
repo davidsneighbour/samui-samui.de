@@ -1,6 +1,6 @@
 ---
 title: Soosie erinnert sich
-date: 2009-11-12T12:52:55+00:00
+date: 2009-11-12T19:52:55+07:00
 publisher:
   description: true
   summary: true

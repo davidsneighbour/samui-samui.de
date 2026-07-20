@@ -1,6 +1,6 @@
 ---
 title: Ja wo laufen sie denn?
-date: 2006-08-26T08:14:00+00:00
+date: 2006-08-26T15:14:00+07:00
 dsq_thread_id:
   - "3404713626"
 publisher:

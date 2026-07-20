@@ -1,6 +1,6 @@
 ---
 title: Samaks Ende?
-date: 2008-09-08T04:06:06+00:00
+date: 2008-09-08T11:06:06+07:00
 publisher:
   description: true
   summary: true

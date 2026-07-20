@@ -1,6 +1,6 @@
 ---
 title: Merry Christmas
-date: 2006-12-24T06:17:52+00:00
+date: 2006-12-24T13:17:52+07:00
 publisher:
   description: true
   summary: true

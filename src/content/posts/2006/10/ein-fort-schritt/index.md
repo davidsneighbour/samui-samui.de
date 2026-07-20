@@ -1,6 +1,6 @@
 ---
 title: Ein Fort-Schritt
-date: 2006-10-08T08:32:31+00:00
+date: 2006-10-08T15:32:31+07:00
 publisher:
   description: true
   summary: true

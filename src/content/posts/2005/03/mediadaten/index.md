@@ -1,6 +1,6 @@
 ---
 title: Mediadaten
-date: 2005-03-03T01:08:46+00:00
+date: 2005-03-03T08:08:46+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Hallo Lenin!
-date: 2007-03-06T09:50:18+00:00
+date: 2007-03-06T16:50:18+07:00
 dsq_thread_id:
   - "6412166313"
 publisher:

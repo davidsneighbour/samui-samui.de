@@ -1,6 +1,6 @@
 ---
 title: Two girls and a cup…
-date: 2008-11-10T00:02:32+00:00
+date: 2008-11-10T07:02:32+07:00
 publisher:
   description: true
   summary: true

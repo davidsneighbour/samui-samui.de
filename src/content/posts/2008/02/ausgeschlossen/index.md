@@ -1,6 +1,6 @@
 ---
 title: Ausgeschlossen!
-date: 2008-02-14T02:50:31+00:00
+date: 2008-02-14T09:50:31+07:00
 publisher:
   description: true
   summary: true

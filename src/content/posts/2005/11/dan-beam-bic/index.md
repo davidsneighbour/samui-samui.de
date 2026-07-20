@@ -1,6 +1,6 @@
 ---
 title: Dan & Beam (& Big)
-date: 2005-11-14T02:04:14+00:00
+date: 2005-11-14T09:04:14+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

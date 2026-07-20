@@ -1,6 +1,6 @@
 ---
 title: Ausnahmezustand verlängert
-date: 2006-07-18T05:26:14+00:00
+date: 2006-07-18T12:26:14+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

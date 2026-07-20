@@ -1,6 +1,6 @@
 ---
 title: Der Tag der Acht
-date: 2006-09-01T05:53:23+00:00
+date: 2006-09-01T12:53:23+07:00
 publisher:
   description: true
   summary: true

@@ -1,0 +1,15 @@
+---
+title: Bangkok, das Haar sitzt
+date: 2005-07-05T06:30:53+07:00
+dsq_thread_id:
+  - "6412166648"
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Bangkok Airport. Wir fliegen nach Chiang Mai, waren noch nicht in Laos, das ist morgen angesagt. Lamyai fliegt zum erstem Mal. Das wird ein Spa?!! Ich muss im Training bleiben. Ist ja nur eine Stunde. Bangkok nervt immer noch. Später mehr. Eigentlich wollte ich auch offline bleiben, aber wir haben noch ein bisschen Zeit. Achso. Die gro?e 30. Hat sich aber nichts geändert dadurch. Höchstens vielleicht, dass ich wieder einen Tag älter geworden bin. Irgendwie ist das fortschreitend. So. Flugzeug ruft. Kein Internet die nächsten Tage. Versprochen.

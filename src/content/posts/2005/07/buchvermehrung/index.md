@@ -1,6 +1,6 @@
 ---
 title: Buchvermehrung
-date: 2005-07-26T05:34:20+00:00
+date: 2005-07-26T12:34:20+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

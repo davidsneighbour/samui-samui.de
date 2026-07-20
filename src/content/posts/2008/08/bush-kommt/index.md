@@ -1,6 +1,6 @@
 ---
 title: Bush kommt
-date: 2008-08-04T03:45:59+00:00
+date: 2008-08-04T10:45:59+07:00
 publisher:
   description: true
   summary: true

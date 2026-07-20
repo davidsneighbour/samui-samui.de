@@ -1,6 +1,6 @@
 ---
 title: Britney Spears kommt nach Samui
-date: 2009-06-15T13:57:03+00:00
+date: 2009-06-15T20:57:03+07:00
 publisher:
   description: true
   summary: true

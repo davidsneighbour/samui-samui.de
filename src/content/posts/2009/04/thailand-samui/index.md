@@ -1,6 +1,6 @@
 ---
 title: Thailand? Samui!
-date: 2009-04-15T14:53:30+00:00
+date: 2009-04-15T21:53:30+07:00
 publisher:
   description: true
   summary: true

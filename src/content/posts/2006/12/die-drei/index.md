@@ -1,6 +1,6 @@
 ---
 title: Die Drei
-date: 2006-12-28T11:00:37+00:00
+date: 2006-12-28T18:00:37+07:00
 publisher:
   description: true
   summary: true

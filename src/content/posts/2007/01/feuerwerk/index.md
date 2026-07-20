@@ -1,0 +1,21 @@
+---
+title: Feuerwerk
+date: 2007-01-01T04:36:07+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+<div class="flickr">
+  <a href="http://www.flickr.com/photos/schreibblogade/340316549/"><img src="//farm1.static.flickr.com/147/340316549_7fe85fc4eb.jpg" class="flickr-photo" alt="" /></a></p>
+
+  <p>
+    New Year 2550 (2007)
+  </p>
+</div>
+
+_Schräg aus dem Schlafzimmerfenster gelehnt photographiert. die 3/4 rechts und unten sind voller Sträucher und Palmen ;)_

@@ -1,6 +1,6 @@
 ---
 title: Tausend Tage Samui
-date: 2007-10-06T16:40:48+00:00
+date: 2007-10-06T23:40:48+07:00
 publisher:
   description: true
   summary: true

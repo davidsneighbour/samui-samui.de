@@ -1,6 +1,6 @@
 ---
 title: Ausnahmezustand
-date: 2008-09-01T12:03:02+00:00
+date: 2008-09-01T19:03:02+07:00
 publisher:
   description: true
   summary: true

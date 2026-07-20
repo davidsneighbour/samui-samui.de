@@ -1,6 +1,6 @@
 ---
 title: Noch ein Kabel
-date: 2008-02-02T14:30:51+00:00
+date: 2008-02-02T21:30:51+07:00
 publisher:
   description: true
   summary: true

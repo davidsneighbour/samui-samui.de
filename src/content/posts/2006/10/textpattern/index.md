@@ -1,6 +1,6 @@
 ---
 title: Textpattern
-date: 2006-10-24T11:25:28+00:00
+date: 2006-10-24T18:25:28+07:00
 publisher:
   description: true
   summary: true

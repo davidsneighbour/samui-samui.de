@@ -1,6 +1,6 @@
 ---
 title: Das Office
-date: 2012-06-09T14:07:30+00:00
+date: 2012-06-09T21:07:30+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

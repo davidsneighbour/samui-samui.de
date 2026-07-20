@@ -1,0 +1,26 @@
+---
+title: Sonnenbrand
+date: 2010-10-13T03:54:33+07:00
+lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+<div class="media image">
+  <a href="http://www.flickr.com/photos/schreibblogade/5077509575/" title="Me now. Burnt in 70's style."><img src="//farm5.static.flickr.com/4051/5077509575_7a27e64644.jpg" alt="Me now. Burnt in 70's style." /></p>
+
+  <p>
+    Me now. Burnt in 70's style.
+  </p>
+
+  <p>
+    </a></div>
+
+    <p>
+      Heute bin ich am Tage eine Stunde lang aus dem Haus gewesen und habe mir natürlich sofort einen Sonnenbrand geholt. Auf den Handoberflächen und auf dem Brusthaartoupet. Alle anderen Körperteile waren sicher abgedeckt.
+    </p>

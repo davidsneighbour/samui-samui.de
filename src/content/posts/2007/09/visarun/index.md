@@ -1,6 +1,6 @@
 ---
 title: Visarun
-date: 2007-09-05T01:16:09+00:00
+date: 2007-09-05T08:16:09+07:00
 publisher:
   description: true
   summary: true

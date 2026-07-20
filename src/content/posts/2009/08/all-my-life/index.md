@@ -1,6 +1,6 @@
 ---
 title: All my life.
-date: 2009-08-25T02:40:01+00:00
+date: 2009-08-25T09:40:01+07:00
 publisher:
   description: true
   summary: true

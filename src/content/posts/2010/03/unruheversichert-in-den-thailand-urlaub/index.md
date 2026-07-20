@@ -1,6 +1,6 @@
 ---
 title: Unruheversichert in den Thailand-Urlaub
-date: 2010-03-03T03:36:55+00:00
+date: 2010-03-03T10:36:55+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

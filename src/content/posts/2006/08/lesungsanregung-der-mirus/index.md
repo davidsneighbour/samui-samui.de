@@ -1,6 +1,6 @@
 ---
 title: 'Lesungsanregung: Der Mirus'
-date: 2006-08-16T11:59:00+00:00
+date: 2006-08-16T18:59:00+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Jahresrückblick
-date: 2011-12-30T13:35:24+00:00
+date: 2011-12-30T20:35:24+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

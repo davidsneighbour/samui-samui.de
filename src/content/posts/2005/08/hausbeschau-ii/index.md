@@ -1,6 +1,6 @@
 ---
 title: Hausbeschau II
-date: 2005-08-22T06:48:00+00:00
+date: 2005-08-22T13:48:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

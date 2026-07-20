@@ -1,6 +1,6 @@
 ---
 title: Darmkrebs oder Putsch?
-date: 2007-04-09T10:32:47+00:00
+date: 2007-04-09T17:32:47+07:00
 publisher:
   description: true
   summary: true

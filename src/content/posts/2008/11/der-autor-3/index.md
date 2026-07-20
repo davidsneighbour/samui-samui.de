@@ -1,6 +1,6 @@
 ---
 title: Der Autor…
-date: 2008-11-20T01:15:33+00:00
+date: 2008-11-20T08:15:33+07:00
 publisher:
   description: true
   summary: true

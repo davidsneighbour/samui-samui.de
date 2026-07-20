@@ -1,6 +1,6 @@
 ---
 title: Das Leben im Dschungel
-date: 2007-04-14T03:07:26+00:00
+date: 2007-04-14T10:07:26+07:00
 publisher:
   description: true
   summary: true

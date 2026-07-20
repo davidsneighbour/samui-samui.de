@@ -1,6 +1,6 @@
 ---
 title: Subtilität
-date: 2008-06-12T01:11:25+00:00
+date: 2008-06-12T08:11:25+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Mahidol Adulyadej, Songkla Nakarind
-date: 2005-08-27T08:41:13+00:00
+date: 2005-08-27T15:41:13+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

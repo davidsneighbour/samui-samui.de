@@ -1,6 +1,6 @@
 ---
 title: Der Autor in Erdbeerstrickmütze
-date: 2011-06-06T02:10:23+00:00
+date: 2011-06-06T09:10:23+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

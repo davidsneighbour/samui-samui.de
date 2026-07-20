@@ -1,6 +1,6 @@
 ---
 title: Dann halt heute…
-date: 2006-08-29T05:34:51+00:00
+date: 2006-08-29T12:34:51+07:00
 publisher:
   description: true
   summary: true

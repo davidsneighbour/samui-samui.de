@@ -1,6 +1,6 @@
 ---
 title: Rasur, die
-date: 2009-09-24T05:25:19+00:00
+date: 2009-09-24T12:25:19+07:00
 publisher:
   description: true
   summary: true

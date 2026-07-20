@@ -1,6 +1,6 @@
 ---
 title: Alles wird teurer
-date: 2008-06-30T03:12:50+00:00
+date: 2008-06-30T10:12:50+07:00
 publisher:
   description: true
   summary: true

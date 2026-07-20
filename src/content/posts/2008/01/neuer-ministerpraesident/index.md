@@ -1,6 +1,6 @@
 ---
 title: Neuer Ministerpräsident
-date: 2008-01-27T12:10:45+00:00
+date: 2008-01-27T19:10:45+07:00
 publisher:
   description: true
   summary: true

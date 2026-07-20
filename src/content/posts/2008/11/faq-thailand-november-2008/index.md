@@ -1,6 +1,6 @@
 ---
 title: FAQ Thailand November 2008
-date: 2008-11-26T00:47:11+00:00
+date: 2008-11-26T07:47:11+07:00
 dsq_thread_id:
   - "3042724809"
 publisher:

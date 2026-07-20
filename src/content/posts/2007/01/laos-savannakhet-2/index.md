@@ -1,6 +1,6 @@
 ---
 title: Laos. Savannakhet.
-date: 2007-01-27T07:44:46+00:00
+date: 2007-01-27T14:44:46+07:00
 publisher:
   description: true
   summary: true

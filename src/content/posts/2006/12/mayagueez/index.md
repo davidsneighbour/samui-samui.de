@@ -1,6 +1,6 @@
 ---
 title: Mayagüez
-date: 2006-12-29T07:17:57+00:00
+date: 2006-12-29T14:17:57+07:00
 publisher:
   description: true
   summary: true

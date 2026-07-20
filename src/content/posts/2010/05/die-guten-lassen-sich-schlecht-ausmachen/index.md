@@ -1,6 +1,6 @@
 ---
 title: Die Guten lassen sich schlecht ausmachen
-date: 2010-05-18T16:57:50+00:00
+date: 2010-05-18T23:57:50+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

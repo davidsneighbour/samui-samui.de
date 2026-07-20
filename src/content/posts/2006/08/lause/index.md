@@ -1,6 +1,6 @@
 ---
 title: Lause!
-date: 2006-08-02T10:57:00+00:00
+date: 2006-08-02T17:57:00+07:00
 publisher:
   description: true
   summary: true

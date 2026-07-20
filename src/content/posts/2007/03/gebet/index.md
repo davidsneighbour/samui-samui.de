@@ -1,6 +1,6 @@
 ---
 title: Gebet
-date: 2007-03-15T11:56:31+00:00
+date: 2007-03-15T18:56:31+07:00
 publisher:
   description: true
   summary: true

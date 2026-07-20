@@ -1,4 +1,5 @@
 import type { CollectionEntry } from 'astro:content';
+import { getPostDateParts } from '@utils/dates';
 
 /**
  * The canonical URL for a post, matching the Hugo site's permalink scheme
@@ -15,7 +16,6 @@ export function getPostUrl(post: CollectionEntry<'posts'>): string {
   }
   const id = post.id.replace(/\/index$/, '');
   const slug = post.data.slug ?? id.split('/').pop() ?? id;
-  const year = post.data.date.getUTCFullYear();
-  const month = String(post.data.date.getUTCMonth() + 1).padStart(2, '0');
-  return `/${year}/${month}/${slug}/`;
+  const { monthPadded, year } = getPostDateParts(post.data.date);
+  return `/${year}/${monthPadded}/${slug}/`;
 }

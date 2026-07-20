@@ -1,6 +1,6 @@
 ---
 title: Gong Xi Fa Chai!
-date: 2008-02-05T12:51:19+00:00
+date: 2008-02-05T19:51:19+07:00
 publisher:
   description: true
   summary: true

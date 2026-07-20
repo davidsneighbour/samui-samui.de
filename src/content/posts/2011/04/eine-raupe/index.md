@@ -1,0 +1,24 @@
+---
+title: Eine Raupe
+date: 2011-04-16T04:58:59+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+<div class="image media">
+  <a href="http://www.flickr.com/photos/schreibblogade/5623759379/" title="The caterpillar by Patrick Kollitsch, on Flickr"><img src="//farm6.static.flickr.com/5030/5623759379_fc2292a96e_z.jpg" width="640" height="480" alt="The caterpillar" /></a></p>
+
+  <p>
+    The Caterpillar
+  </p>
+</div>
+
+Giftig laut Thaiquellen. Was uns nicht hindert, [Photos][1] zu schie?en.
+
+ [1]: http://www.flickr.com/photos/schreibblogade/5623761661/in/photostream

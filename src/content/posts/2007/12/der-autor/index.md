@@ -1,6 +1,6 @@
 ---
 title: Der Autor
-date: 2007-12-27T00:48:01+00:00
+date: 2007-12-27T07:48:01+07:00
 publisher:
   description: true
   summary: true

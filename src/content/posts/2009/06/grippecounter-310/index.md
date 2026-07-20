@@ -1,6 +1,6 @@
 ---
 title: 'Grippecounter: 310'
-date: 2009-06-15T14:51:29+00:00
+date: 2009-06-15T21:51:29+07:00
 publisher:
   description: true
   summary: true

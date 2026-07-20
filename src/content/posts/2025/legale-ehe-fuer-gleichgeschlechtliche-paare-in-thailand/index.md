@@ -6,7 +6,7 @@ tags:
   - recht-und-ordnung
   - thailand
   - ehe
-lastmod: 2025-09-18T3:02:10+00:00
+lastmod: 2025-09-18T10:02:10+07:00
 publisher:
   description: true
   summary: true

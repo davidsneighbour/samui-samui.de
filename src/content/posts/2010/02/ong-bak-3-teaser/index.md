@@ -1,0 +1,16 @@
+---
+title: Ong Bak 3 Teaser
+date: 2010-02-01T06:13:45+07:00
+lastmod: 2023-09-10T19:14:13+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+cover:
+  type: youtube
+  video: SJpkkwbrngk
+  caption: Ong Bak 3 Teaser
+---
+Da ist er, der erste Teaser von Ong Bak 3, dessen aktueller Veröffentlichungstermin der 29. April 2010 ist. Muss ich glatt am Wochenende mal wieder ins Kino gehen, um den Trailer in voller Schönheit zu genießen.

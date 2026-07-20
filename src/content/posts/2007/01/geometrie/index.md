@@ -1,6 +1,6 @@
 ---
 title: Geometrie
-date: 2007-01-27T04:04:09+00:00
+date: 2007-01-27T11:04:09+07:00
 publisher:
   description: true
   summary: true

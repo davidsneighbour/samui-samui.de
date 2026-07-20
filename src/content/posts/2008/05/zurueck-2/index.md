@@ -1,6 +1,6 @@
 ---
 title: Zurück
-date: 2008-05-29T01:57:03+00:00
+date: 2008-05-29T08:57:03+07:00
 publisher:
   description: true
   summary: true

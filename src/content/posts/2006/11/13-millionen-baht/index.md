@@ -1,6 +1,6 @@
 ---
 title: 1.3 Millionen Baht
-date: 2006-11-01T05:23:58+00:00
+date: 2006-11-01T12:23:58+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

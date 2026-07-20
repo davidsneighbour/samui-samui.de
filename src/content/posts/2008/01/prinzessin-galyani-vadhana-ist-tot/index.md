@@ -1,6 +1,6 @@
 ---
 title: Prinzessin Galyani Vadhana ist tot
-date: 2008-01-01T12:54:18+00:00
+date: 2008-01-01T19:54:18+07:00
 dsq_thread_id:
   - "3423876943"
 publisher:

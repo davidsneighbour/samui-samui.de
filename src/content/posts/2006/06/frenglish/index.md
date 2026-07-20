@@ -1,6 +1,6 @@
 ---
 title: Frenglish
-date: 2006-06-25T02:28:00+00:00
+date: 2006-06-25T09:28:00+07:00
 publisher:
   description: true
   summary: true

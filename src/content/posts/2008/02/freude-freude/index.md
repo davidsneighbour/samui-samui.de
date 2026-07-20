@@ -1,6 +1,6 @@
 ---
 title: Freude, Freude!
-date: 2008-02-26T12:16:45+00:00
+date: 2008-02-26T19:16:45+07:00
 publisher:
   description: true
   summary: true

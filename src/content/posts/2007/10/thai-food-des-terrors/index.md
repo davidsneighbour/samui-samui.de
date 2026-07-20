@@ -1,6 +1,6 @@
 ---
 title: Thai-Food des Terrors
-date: 2007-10-04T13:04:30+00:00
+date: 2007-10-04T20:04:30+07:00
 publisher:
   description: true
   summary: true

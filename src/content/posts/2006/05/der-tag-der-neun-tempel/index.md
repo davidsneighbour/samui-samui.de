@@ -1,6 +1,6 @@
 ---
 title: Der Tag der neun Tempel
-date: 2006-05-03T04:21:00+00:00
+date: 2006-05-03T11:21:00+07:00
 excerpt: '<p style="color: #999;font-style: italic;">Songkran ist schon ziemlich lange vorbei und ich habe es immer noch nicht geschafft, diesen Eintrag fertig zu stellen. Also dürft ihr ihn so fragmentarisch lesen, wie er ist. Im Optimalfall gäbe es noch die Links zu Bildern bei Flickr und ein paar weitere Kommentare. Abgesehen davon funktioniert das Anzeigen der Map nur mit nicht-InternetExplorern. Keine Ahnung warum. </p>'
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:

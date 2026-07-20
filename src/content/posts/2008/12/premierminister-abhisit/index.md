@@ -1,6 +1,6 @@
 ---
 title: Premierminister Abhisit.
-date: 2008-12-14T13:01:52+00:00
+date: 2008-12-14T20:01:52+07:00
 publisher:
   description: true
   summary: true

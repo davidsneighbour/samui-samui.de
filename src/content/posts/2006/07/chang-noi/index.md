@@ -1,6 +1,6 @@
 ---
 title: Chang Noi
-date: 2006-07-28T10:42:58+00:00
+date: 2006-07-28T17:42:58+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Die Freuden des käuflichen Lichtspiels auf Koh Samui
-date: 2009-05-20T01:44:24+00:00
+date: 2009-05-20T08:44:24+07:00
 dsq_thread_id:
   - "3246001913"
 publisher:

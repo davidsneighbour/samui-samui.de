@@ -1,6 +1,6 @@
 ---
 title: Sexualkunde
-date: 2007-04-21T04:51:48+00:00
+date: 2007-04-21T11:51:48+07:00
 publisher:
   description: true
   summary: true

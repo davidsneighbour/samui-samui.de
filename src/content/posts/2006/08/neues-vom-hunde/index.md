@@ -1,6 +1,6 @@
 ---
 title: Neues vom Hunde
-date: 2006-08-20T02:44:00+00:00
+date: 2006-08-20T09:44:00+07:00
 publisher:
   description: true
   summary: true

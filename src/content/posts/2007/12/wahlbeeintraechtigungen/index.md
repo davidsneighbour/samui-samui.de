@@ -1,6 +1,6 @@
 ---
 title: Wahlbe(ein)tra(e)cht(ig)ungen
-date: 2007-12-27T13:02:43+00:00
+date: 2007-12-27T20:02:43+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Sie haben die Wahl (immer noch)
-date: 2006-04-25T00:21:00+00:00
+date: 2006-04-25T07:21:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

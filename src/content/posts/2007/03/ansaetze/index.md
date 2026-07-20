@@ -1,6 +1,6 @@
 ---
 title: 'Ansätze'
-date: 2007-03-31T08:38:45+00:00
+date: 2007-03-31T15:38:45+07:00
 publisher:
   description: true
   summary: true

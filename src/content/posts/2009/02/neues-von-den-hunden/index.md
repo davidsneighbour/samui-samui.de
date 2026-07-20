@@ -1,6 +1,6 @@
 ---
 title: Neues von den Hunden
-date: 2009-02-24T14:02:43+00:00
+date: 2009-02-24T21:02:43+07:00
 dsq_thread_id:
   - "3250824792"
 publisher:

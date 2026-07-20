@@ -1,6 +1,6 @@
 ---
 title: Kurzschnitt
-date: 2008-07-15T14:46:27+00:00
+date: 2008-07-15T21:46:27+07:00
 publisher:
   description: true
   summary: true

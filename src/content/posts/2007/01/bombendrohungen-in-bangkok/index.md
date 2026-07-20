@@ -1,6 +1,6 @@
 ---
 title: Bombendrohungen in Bangkok
-date: 2007-01-08T01:53:47+00:00
+date: 2007-01-08T08:53:47+07:00
 publisher:
   description: true
   summary: true

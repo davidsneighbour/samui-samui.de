@@ -1,6 +1,6 @@
 ---
 title: Korrektes Reportering
-date: 2017-06-25T14:15:34+00:00
+date: 2017-06-25T21:15:34+07:00
 url: /2017/06/korrektes-reportering/
 tags:
   - prayuth chan-ocha

@@ -1,6 +1,6 @@
 ---
 title: Selten
-date: 2009-08-29T02:42:50+00:00
+date: 2009-08-29T09:42:50+07:00
 publisher:
   description: true
   summary: true

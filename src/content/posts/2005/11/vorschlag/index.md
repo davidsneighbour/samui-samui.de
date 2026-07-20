@@ -1,6 +1,6 @@
 ---
 title: Vorschlag
-date: 2005-11-01T06:51:51+00:00
+date: 2005-11-01T13:51:51+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,0 +1,15 @@
+---
+title: Nach dem Regen kommt der Sturm…
+date: 2005-11-22T02:40:35+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+... sagte gestern [der Ex-System-Analytiker von gegenüber][1] mit melodramatischem Tremolo in der tränenerstickten Stimme. Da hat er nicht ganz unrecht. Mit dem kleinen Unterschied, dass es seit gestern gleichzeitig regnet und stürmt. Die Neudefinition des Begriffes **Medienmacht**. Sag ich mal.
+
+ [1]: http://fabio.bacigalupo.net/

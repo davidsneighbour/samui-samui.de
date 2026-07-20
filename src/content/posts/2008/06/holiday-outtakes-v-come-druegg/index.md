@@ -1,6 +1,6 @@
 ---
 title: 'Holiday Outtakes V: Come Druegg!'
-date: 2008-06-16T04:46:46+00:00
+date: 2008-06-16T11:46:46+07:00
 publisher:
   description: true
   summary: true

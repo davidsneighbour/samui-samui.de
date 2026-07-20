@@ -1,6 +1,6 @@
 ---
 title: Informationskrise
-date: 2006-09-20T01:05:00+00:00
+date: 2006-09-20T08:05:00+07:00
 publisher:
   description: true
   summary: true

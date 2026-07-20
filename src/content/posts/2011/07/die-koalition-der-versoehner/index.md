@@ -1,6 +1,6 @@
 ---
 title: Die Koalition der Versöhner
-date: 2011-07-04T02:30:01+00:00
+date: 2011-07-04T09:30:01+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Wenn ihr alle ganz lieb kommentiert…
-date: 2008-06-06T02:42:18+00:00
+date: 2008-06-06T09:42:18+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Die Insel der sterbenden Hunde
-date: 2005-02-22T04:05:40+00:00
+date: 2005-02-22T11:05:40+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

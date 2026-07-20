@@ -1,6 +1,6 @@
 ---
 title: Schauer
-date: 2007-05-03T01:49:29+00:00
+date: 2007-05-03T08:49:29+07:00
 publisher:
   description: true
   summary: true

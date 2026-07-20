@@ -1,6 +1,6 @@
 ---
 title: Erdbebenzone Nordthailand
-date: 2006-12-19T02:48:22+00:00
+date: 2006-12-19T09:48:22+07:00
 publisher:
   description: true
   summary: true

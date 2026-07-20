@@ -1,6 +1,6 @@
 ---
 title: Thais lieben Thailand
-date: 2007-05-30T02:31:19+00:00
+date: 2007-05-30T09:31:19+07:00
 publisher:
   description: true
   summary: true

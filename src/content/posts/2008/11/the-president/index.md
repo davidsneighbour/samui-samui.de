@@ -1,6 +1,6 @@
 ---
 title: The president
-date: 2008-11-21T13:59:40+00:00
+date: 2008-11-21T20:59:40+07:00
 publisher:
   description: true
   summary: true

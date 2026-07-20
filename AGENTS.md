@@ -190,6 +190,35 @@ npm run publisher -- unset status --year=2005            # clear it
 `--path`, `--status`, `--tag`) — there is no accidental-blanket-write mode.
 See the script's header comment for the full filter/flag reference.
 
+### Post date and time model
+
+All post calendar logic MUST use Thailand time (`Asia/Bangkok`, UTC+07:00, no
+daylight saving time). This includes permalink year/month calculation, archive
+year/month grouping, displayed publication/update dates, Pagefind year metadata,
+and content-folder migration checks. Do not use the build machine timezone or
+raw UTC getters for post calendar decisions.
+
+`src/utils/dates.ts` is the source of truth for post date handling:
+
+* use `getPostDateParts(date)` for post calendar `year`, `month`, and `day`
+* use `formatDate(date)` for visible German dates
+* use `formatPostTimestamp(date)` when serialising post frontmatter timestamps
+
+New or edited post frontmatter `date` and `lastmod` values MUST use this exact
+fixed format:
+
+```text
+YYYY-MM-DDTHH:mm:ss+07:00
+```
+
+The format is zero-padded, 24-hour time, seconds required, no milliseconds, and
+an explicit `+07:00` offset. Preserve the actual instant when normalising a
+legacy timestamp: for example, `2012-01-24T17:31:43+00:00` becomes
+`2012-01-25T00:31:43+07:00`, not `2012-01-24T17:31:43+07:00`.
+
+Existing legacy timestamps with other offsets MAY remain when they are not being
+edited, but agents MUST interpret them through the Bangkok helpers above.
+
 ### Pages
 
 `src/pages/` has a route for every content type: `index.astro` (paginated

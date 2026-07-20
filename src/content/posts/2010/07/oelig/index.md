@@ -1,6 +1,6 @@
 ---
 title: ölig
-date: 2010-07-30T13:40:02+00:00
+date: 2010-07-30T20:40:02+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

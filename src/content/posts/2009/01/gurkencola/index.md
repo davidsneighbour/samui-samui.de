@@ -1,6 +1,6 @@
 ---
 title: Gurkencola
-date: 2009-01-28T13:29:51+00:00
+date: 2009-01-28T20:29:51+07:00
 publisher:
   description: true
   summary: true

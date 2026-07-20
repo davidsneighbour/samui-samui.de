@@ -1,6 +1,6 @@
 ---
 title: Neues aus dem 7eleven
-date: 2007-05-17T00:27:43+00:00
+date: 2007-05-17T07:27:43+07:00
 publisher:
   description: true
   summary: true

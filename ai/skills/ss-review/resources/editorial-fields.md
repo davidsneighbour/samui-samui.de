@@ -61,9 +61,15 @@ Flag titles that are:
 ## Dates
 
 * every post MUST contain a `date` field.
-* preserve the original `date`
-* set or update `lastmod` only according to repository policy
-* an editorial note may state the review date without altering the historical publication date
-* round times to 5 minutes (if the date is 12.23:44 then make it 12.25)
-* set the date time in the frontmatter properties in UTC+7 format instead of UTC or other time zones. Keep the proper date and calculate the differences.
+* preserve the original publication instant unless the user explicitly asks to
+  correct an incorrect date.
+* set or update `lastmod` only according to repository policy.
+* an editorial note may state the review date without altering the historical
+  publication date.
+* post calendar decisions MUST use Thailand time (`Asia/Bangkok`, UTC+07:00).
+* new or edited `date` and `lastmod` fields MUST use the fixed
+  `YYYY-MM-DDTHH:mm:ss+07:00` format: zero-padded, 24-hour time, seconds
+  required, no milliseconds, explicit `+07:00`.
+* when normalising a legacy offset, preserve the instant. For example,
+  `2012-01-24T17:31:43+00:00` becomes `2012-01-25T00:31:43+07:00`.
 * flag other date fields and remove or rename if required.

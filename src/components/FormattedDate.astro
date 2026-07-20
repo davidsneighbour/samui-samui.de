@@ -1,5 +1,5 @@
 ---
-import { formatDate } from '@utils/dates';
+import { formatDate, formatPostTimestamp } from '@utils/dates';
 
 interface Props {
   date: Date;
@@ -9,4 +9,6 @@ interface Props {
 const { date, extended = false } = Astro.props as Props;
 ---
 
-<time datetime={date.toISOString()}>{formatDate(date, { extended })}</time>
+<time datetime={formatPostTimestamp(date)}
+  >{formatDate(date, { extended })}</time
+>

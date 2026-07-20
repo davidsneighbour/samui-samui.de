@@ -1,6 +1,6 @@
 ---
 title: Ole, Ole, Oleole…
-date: 2007-03-24T07:03:42+00:00
+date: 2007-03-24T14:03:42+07:00
 publisher:
   description: true
   summary: true

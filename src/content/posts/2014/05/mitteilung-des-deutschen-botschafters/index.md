@@ -1,6 +1,6 @@
 ---
 title: Mitteilung des deutschen Botschafters
-date: 2014-05-22T13:17:58+00:00
+date: 2014-05-22T20:17:58+07:00
 publisher:
   description: true
   summary: true

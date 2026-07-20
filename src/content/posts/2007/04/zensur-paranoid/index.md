@@ -1,6 +1,6 @@
 ---
 title: Zensur – Paranoid?
-date: 2007-04-14T11:48:38+00:00
+date: 2007-04-14T18:48:38+07:00
 publisher:
   description: true
   summary: true

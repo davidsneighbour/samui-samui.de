@@ -1,6 +1,6 @@
 ---
 title: Ringier
-date: 2007-10-16T03:36:04+00:00
+date: 2007-10-16T10:36:04+07:00
 publisher:
   description: true
   summary: true

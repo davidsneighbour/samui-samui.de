@@ -1,6 +1,6 @@
 ---
 title: Suchbild mit Elephant
-date: 2007-11-02T05:45:14+00:00
+date: 2007-11-02T12:45:14+07:00
 publisher:
   description: true
   summary: true

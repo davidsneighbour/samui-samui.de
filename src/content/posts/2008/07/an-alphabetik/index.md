@@ -1,6 +1,6 @@
 ---
 title: An-Alphabetik
-date: 2008-07-24T15:04:54+00:00
+date: 2008-07-24T22:04:54+07:00
 publisher:
   description: true
   summary: true

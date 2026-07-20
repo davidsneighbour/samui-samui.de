@@ -1,6 +1,6 @@
 ---
 title: Benzinkosten
-date: 2005-11-07T02:34:57+00:00
+date: 2005-11-07T09:34:57+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

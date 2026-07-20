@@ -1,6 +1,6 @@
 ---
 title: Kikiat.
-date: 2007-04-20T12:14:02+00:00
+date: 2007-04-20T19:14:02+07:00
 publisher:
   description: true
   summary: true

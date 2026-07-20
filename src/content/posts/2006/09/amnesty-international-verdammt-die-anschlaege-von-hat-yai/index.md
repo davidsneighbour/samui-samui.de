@@ -1,6 +1,6 @@
 ---
 title: Amnesty International verdammt die Anschläge von Hat Yai
-date: 2006-09-17T09:53:00+00:00
+date: 2006-09-17T16:53:00+07:00
 publisher:
   description: true
   summary: true

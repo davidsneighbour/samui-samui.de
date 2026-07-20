@@ -1,6 +1,6 @@
 ---
 title: Sonnenuntergang bei Ban Taling Ngam
-date: 2008-01-15T00:28:17+00:00
+date: 2008-01-15T07:28:17+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: "Breaking News: Bart ab"
-date: 2005-06-19T06:05:00+00:00
+date: 2005-06-19T13:05:00+07:00
 dsq_thread_id:
   - "6412166694"
 lastmod: 2023-09-10T19:14:12+07:00

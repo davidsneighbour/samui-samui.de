@@ -1,6 +1,6 @@
 ---
 title: Projekt Nosferatu
-date: 2007-06-22T00:33:22+00:00
+date: 2007-06-22T07:33:22+07:00
 publisher:
   description: true
   summary: true

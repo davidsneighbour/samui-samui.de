@@ -1,6 +1,6 @@
 ---
 title: Wie man kaputte Motorräder zurück gibt
-date: 2005-01-21T02:05:00+00:00
+date: 2005-01-21T09:05:00+07:00
 dsq_thread_id:
   - "6412166557"
 lastmod: 2023-09-10T19:14:12+07:00

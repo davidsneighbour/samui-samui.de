@@ -1,6 +1,6 @@
 ---
 title: Mit Thaksin zur Registrierung
-date: 2007-11-11T13:03:47+00:00
+date: 2007-11-11T20:03:47+07:00
 publisher:
   description: true
   summary: true

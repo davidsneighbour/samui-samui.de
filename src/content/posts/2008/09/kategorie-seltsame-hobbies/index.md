@@ -1,6 +1,6 @@
 ---
 title: Kategorie Seltsame Hobbies
-date: 2008-09-10T05:53:47+00:00
+date: 2008-09-10T12:53:47+07:00
 dsq_thread_id:
   - "2957508348"
 publisher:

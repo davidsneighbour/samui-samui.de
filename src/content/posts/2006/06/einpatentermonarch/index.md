@@ -1,6 +1,6 @@
 ---
 title: Ein patenter Monarch
-date: 2006-06-09T05:37:00+00:00
+date: 2006-06-09T12:37:00+07:00
 publisher:
   description: true
   summary: true

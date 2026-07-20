@@ -1,6 +1,6 @@
 ---
 title: Neulich im Solo-Club
-date: 2007-11-06T14:26:27+00:00
+date: 2007-11-06T21:26:27+07:00
 publisher:
   description: true
   summary: true

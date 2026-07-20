@@ -1,6 +1,6 @@
 ---
 title: Zwangsvegetarismus
-date: 2006-10-22T03:41:55+00:00
+date: 2006-10-22T10:41:55+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Neulich in Pub
-date: 2010-08-23T01:10:31+00:00
+date: 2010-08-23T08:10:31+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

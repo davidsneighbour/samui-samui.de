@@ -1,6 +1,6 @@
 ---
 title: Raucherbildchen
-date: 2006-05-05T01:59:00+00:00
+date: 2006-05-05T08:59:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

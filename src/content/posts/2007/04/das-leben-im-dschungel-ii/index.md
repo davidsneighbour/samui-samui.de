@@ -1,6 +1,6 @@
 ---
 title: Das Leben im Dschungel II
-date: 2007-04-25T02:03:50+00:00
+date: 2007-04-25T09:03:50+07:00
 publisher:
   description: true
   summary: true

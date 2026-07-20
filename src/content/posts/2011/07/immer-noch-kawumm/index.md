@@ -1,6 +1,6 @@
 ---
 title: (Immer noch) Kawumm
-date: 2011-07-21T13:01:52+00:00
+date: 2011-07-21T20:01:52+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

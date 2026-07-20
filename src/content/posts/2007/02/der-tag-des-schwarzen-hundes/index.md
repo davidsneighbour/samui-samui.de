@@ -1,6 +1,6 @@
 ---
 title: Der Tag des schwarzen Hundes
-date: 2007-02-12T06:53:40+00:00
+date: 2007-02-12T13:53:40+07:00
 publisher:
   description: true
   summary: true

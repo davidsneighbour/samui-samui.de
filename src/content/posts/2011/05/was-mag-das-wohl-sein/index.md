@@ -1,6 +1,6 @@
 ---
 title: Was mag das wohl sein?
-date: 2011-05-02T00:48:23+00:00
+date: 2011-05-02T07:48:23+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

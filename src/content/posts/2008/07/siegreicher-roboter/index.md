@@ -1,6 +1,6 @@
 ---
 title: Siegreicher Roboter
-date: 2008-07-20T09:54:13+00:00
+date: 2008-07-20T16:54:13+07:00
 publisher:
   description: true
   summary: true

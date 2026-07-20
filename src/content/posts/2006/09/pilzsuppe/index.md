@@ -1,6 +1,6 @@
 ---
 title: Pilzsuppe
-date: 2006-09-07T09:17:56+00:00
+date: 2006-09-07T16:17:56+07:00
 publisher:
   description: true
   summary: true

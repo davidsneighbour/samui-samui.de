@@ -1,6 +1,6 @@
 ---
 title: Polarbär
-date: 2007-03-30T05:34:46+00:00
+date: 2007-03-30T12:34:46+07:00
 publisher:
   description: true
   summary: true

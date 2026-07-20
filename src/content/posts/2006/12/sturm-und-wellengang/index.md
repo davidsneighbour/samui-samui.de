@@ -1,6 +1,6 @@
 ---
 title: Sturm und Wellengang
-date: 2006-12-22T03:02:21+00:00
+date: 2006-12-22T10:02:21+07:00
 dsq_thread_id:
   - "2901371054"
 publisher:

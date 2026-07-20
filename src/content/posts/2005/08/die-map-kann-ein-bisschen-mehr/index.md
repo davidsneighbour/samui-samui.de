@@ -1,6 +1,6 @@
 ---
 title: Die Map kann ein bisschen mehr
-date: 2005-08-13T01:46:00+00:00
+date: 2005-08-13T08:46:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

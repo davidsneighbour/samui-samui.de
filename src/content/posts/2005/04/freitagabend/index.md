@@ -1,6 +1,6 @@
 ---
 title: Freitagabend
-date: 2005-04-15T06:32:37+00:00
+date: 2005-04-15T13:32:37+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

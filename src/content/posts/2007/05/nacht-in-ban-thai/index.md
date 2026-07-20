@@ -1,6 +1,6 @@
 ---
 title: Nacht in Ban Thai
-date: 2007-05-08T11:23:55+00:00
+date: 2007-05-08T18:23:55+07:00
 publisher:
   description: true
   summary: true

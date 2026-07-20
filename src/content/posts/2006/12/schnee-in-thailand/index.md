@@ -1,6 +1,6 @@
 ---
 title: Schnee in Thailand
-date: 2006-12-25T02:05:04+00:00
+date: 2006-12-25T09:05:04+07:00
 dsq_thread_id:
   - "3669446077"
 publisher:

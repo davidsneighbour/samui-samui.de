@@ -1,6 +1,6 @@
 ---
 title: Erdbeben in Myanmar
-date: 2011-03-24T00:36:05+00:00
+date: 2011-03-24T07:36:05+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Jazz im Karma Ressort
-date: 2009-06-15T14:16:46+00:00
+date: 2009-06-15T21:16:46+07:00
 publisher:
   description: true
   summary: true

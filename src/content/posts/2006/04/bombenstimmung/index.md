@@ -1,6 +1,6 @@
 ---
 title: Bombenstimmung
-date: 2006-04-12T00:02:00+00:00
+date: 2006-04-12T07:02:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

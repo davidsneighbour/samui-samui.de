@@ -1,6 +1,6 @@
 ---
 title: 'Holiday Outtakes VIII: Holding the earth'
-date: 2008-06-25T03:16:42+00:00
+date: 2008-06-25T10:16:42+07:00
 publisher:
   description: true
   summary: true

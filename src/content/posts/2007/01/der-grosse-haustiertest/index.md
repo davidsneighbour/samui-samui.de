@@ -1,6 +1,6 @@
 ---
 title: Der gro?e Haustiertest
-date: 2007-01-29T11:20:47+00:00
+date: 2007-01-29T18:20:47+07:00
 publisher:
   description: true
   summary: true

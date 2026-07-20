@@ -1,6 +1,6 @@
 ---
 title: Das Wetter
-date: 2005-12-22T00:46:00+00:00
+date: 2005-12-22T07:46:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

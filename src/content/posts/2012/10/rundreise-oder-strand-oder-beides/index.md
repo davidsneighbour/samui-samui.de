@@ -1,6 +1,6 @@
 ---
 title: Rundreise oder Strand? Oder beides?
-date: 2012-10-25T14:34:47+00:00
+date: 2012-10-25T21:34:47+07:00
 fb_mentioned_pages:
   - a:0:{}
 fb_mentioned_friends:

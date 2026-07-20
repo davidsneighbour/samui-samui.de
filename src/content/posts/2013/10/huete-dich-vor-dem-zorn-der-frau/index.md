@@ -1,6 +1,6 @@
 ---
 title: Hüte dich vor dem Zorn der Frau!
-date: 2013-10-24T13:28:14+00:00
+date: 2013-10-24T20:28:14+07:00
 dsq_thread_id:
   - "3116625347"
 publisher:

@@ -1,6 +1,6 @@
 ---
 title: Paparazzi
-date: 2008-07-14T04:28:57+00:00
+date: 2008-07-14T11:28:57+07:00
 publisher:
   description: true
   summary: true

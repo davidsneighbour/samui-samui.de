@@ -1,6 +1,6 @@
 ---
 title: Sonnenuntergangsfinsternis
-date: 2008-07-30T02:07:06+00:00
+date: 2008-07-30T09:07:06+07:00
 publisher:
   description: true
   summary: true

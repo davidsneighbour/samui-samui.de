@@ -1,6 +1,6 @@
 ---
 title: Censorsh*t
-date: 2011-04-14T12:41:36+00:00
+date: 2011-04-14T19:41:36+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

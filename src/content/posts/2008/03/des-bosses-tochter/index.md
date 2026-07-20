@@ -1,6 +1,6 @@
 ---
 title: Des Bosses Tochter
-date: 2008-03-18T05:16:04+00:00
+date: 2008-03-18T12:16:04+07:00
 publisher:
   description: true
   summary: true

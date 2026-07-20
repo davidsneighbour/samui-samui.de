@@ -1,6 +1,6 @@
 ---
 title: Auch Geisterh??user haben einen Geburtsort
-date: 2006-01-31T03:31:00+00:00
+date: 2006-01-31T10:31:00+07:00
 publisher:
   description: true
   summary: true

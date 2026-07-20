@@ -1,6 +1,6 @@
 ---
 title: Missing 25 Years After Taking Wrong Bus
-date: 2007-02-07T06:42:49+00:00
+date: 2007-02-07T13:42:49+07:00
 publisher:
   description: true
   summary: true

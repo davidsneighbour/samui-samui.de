@@ -1,0 +1,24 @@
+---
+title: Die Wahlkommission
+date: 2006-09-09T03:40:00+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Gestern wurde [die neue Election Commission][1] gewählt. Für die Bekanntgabe der Ergebnisse wurde sogar meine Thaisoap unterbrochen:
+
+Die gewählten Kommissionäre:
+
+* Apichart Sukhakkanon, chief justice of the Environment Division of the Supreme Court
+* Somchai Jung-prasert, chief of the Supreme Court judges' quorum
+* Prapan Naikowit, deputy attorney-general
+* Sumet Oupanisakorn, senior judge of the Southern Bangkok Criminal Court
+* Sodsri Satayathum, senior Supreme Court judge and the only female nomimee
+
+Drei offene Thaksingegner wurden nicht gewählt. Und wenn ich das richtig sehe, haben wir hier das erste Mal eine Frau in der Kommission.
+
+ [1]: http://www.nationmultimedia.com/breakingnews/read.php?newsid=30013161

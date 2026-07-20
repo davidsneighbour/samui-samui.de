@@ -1,6 +1,6 @@
 ---
 title: Karrieren die Ausländer nicht.
-date: 2015-08-12T13:41:08+00:00
+date: 2015-08-12T20:41:08+07:00
 url: /2015/08/karrieren-die-auslaender-nicht/
 tags:
   - lost in translation

@@ -1,6 +1,6 @@
 ---
 title: Krieg auf der Terasse…
-date: 2007-06-07T00:43:15+00:00
+date: 2007-06-07T07:43:15+07:00
 publisher:
   description: true
   summary: true

@@ -78,7 +78,7 @@ See `resources/state-format.md`.
 
 Canonical post URLs are metadata-driven. The route uses the preserved
 frontmatter `url` when present and otherwise computes `/:year/:month/:slug/`
-from frontmatter `date` plus the post folder slug.
+from frontmatter `date` in `Asia/Bangkok` plus the post folder slug.
 
 Treat date prefixes in historical post folder names as legacy export artefacts.
 When moving, creating, or otherwise normalising a post during refactor work,
@@ -96,11 +96,15 @@ src/content/posts/YYYY/MM/YYYY-MM-DD-slug/index.md
 
 Before a path migration, check for same-month slug collisions after removing
 the `YYYY-MM-DD-` prefix. Only migrate when the folder-prefix day matches the
-UTC frontmatter `date`, and only remove frontmatter `url` when it already
-matches the target `YYYY/MM/slug` path. Update any same-folder assets with the
-post, and run a build or the narrowest route check that proves the generated
-permalink stayed unchanged. Do not change `date` or `slug` frontmatter merely to
-match a filesystem move.
+Bangkok calendar day of the frontmatter `date`, and only remove frontmatter
+`url` when it already matches the target `YYYY/MM/slug` path. Update any
+same-folder assets with the post, and run a build or the narrowest route check
+that proves the generated permalink stayed unchanged. Do not change `date` or
+`slug` frontmatter merely to match a filesystem move.
+
+When a refactor edits or creates `date` or `lastmod`, serialise the timestamp
+as `YYYY-MM-DDTHH:mm:ss+07:00`. Preserve the instant when converting a legacy
+offset; do not relabel a UTC timestamp as `+07:00` without adding seven hours.
 
 ## Queue selection
 

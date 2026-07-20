@@ -1,6 +1,6 @@
 ---
 title: Thailands Tierwelt
-date: 2007-04-21T04:34:21+00:00
+date: 2007-04-21T11:34:21+07:00
 dsq_thread_id:
   - "3499694157"
 publisher:

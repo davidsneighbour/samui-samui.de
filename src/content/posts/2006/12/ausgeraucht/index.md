@@ -1,6 +1,6 @@
 ---
 title: Ausgeraucht
-date: 2006-12-31T02:05:13+00:00
+date: 2006-12-31T09:05:13+07:00
 publisher:
   description: true
   summary: true

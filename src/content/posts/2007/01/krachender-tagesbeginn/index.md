@@ -1,6 +1,6 @@
 ---
 title: Krachender Tagesbeginn
-date: 2007-01-30T01:17:36+00:00
+date: 2007-01-30T08:17:36+07:00
 publisher:
   description: true
   summary: true

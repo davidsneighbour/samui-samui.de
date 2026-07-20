@@ -1,6 +1,6 @@
 ---
 title: Soosie on the red carpet
-date: 2010-01-20T03:24:42+00:00
+date: 2010-01-20T10:24:42+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

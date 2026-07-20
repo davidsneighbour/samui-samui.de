@@ -1,6 +1,6 @@
 ---
 title: Der Ball rollt
-date: 2007-06-20T16:00:27+00:00
+date: 2007-06-20T23:00:27+07:00
 publisher:
   description: true
   summary: true

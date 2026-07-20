@@ -1,6 +1,6 @@
 ---
 title: Wetterverluste
-date: 2008-01-03T01:35:26+00:00
+date: 2008-01-03T08:35:26+07:00
 publisher:
   description: true
   summary: true

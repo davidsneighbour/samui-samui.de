@@ -1,6 +1,6 @@
 ---
 title: Google Maps Thailand
-date: 2009-02-26T01:23:27+00:00
+date: 2009-02-26T08:23:27+07:00
 publisher:
   description: true
   summary: true

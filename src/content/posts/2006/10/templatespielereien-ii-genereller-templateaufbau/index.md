@@ -1,6 +1,6 @@
 ---
 title: 'Templatespielereien II: Genereller Templateaufbau'
-date: 2006-10-25T06:42:23+00:00
+date: 2006-10-25T13:42:23+07:00
 publisher:
   description: true
   summary: true

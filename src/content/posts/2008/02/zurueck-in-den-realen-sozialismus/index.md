@@ -1,6 +1,6 @@
 ---
 title: Zurück in den realen Sozialismus
-date: 2008-02-17T00:22:33+00:00
+date: 2008-02-17T07:22:33+07:00
 publisher:
   description: true
   summary: true

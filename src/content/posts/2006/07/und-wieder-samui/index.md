@@ -1,6 +1,6 @@
 ---
 title: Und wieder Samui
-date: 2006-07-07T10:23:00+00:00
+date: 2006-07-07T17:23:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

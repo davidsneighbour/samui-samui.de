@@ -1,6 +1,6 @@
 ---
 title: Vor dem Regen ist nach dem Regen
-date: 2006-08-02T02:04:57+00:00
+date: 2006-08-02T09:04:57+07:00
 publisher:
   description: true
   summary: true

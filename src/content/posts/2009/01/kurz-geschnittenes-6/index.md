@@ -1,6 +1,6 @@
 ---
 title: Kurz geschnittenes
-date: 2009-01-26T12:42:23+00:00
+date: 2009-01-26T19:42:23+07:00
 publisher:
   description: true
   summary: true

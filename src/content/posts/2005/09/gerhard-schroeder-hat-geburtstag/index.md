@@ -1,6 +1,6 @@
 ---
 title: Gerhard Schröder hat Geburtstag.
-date: 2005-09-11T05:36:59+00:00
+date: 2005-09-11T12:36:59+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

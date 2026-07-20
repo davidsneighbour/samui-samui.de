@@ -52,15 +52,30 @@ function normalizePostFilePath(
 ): string | undefined {
   if (!filePath) return undefined;
 
-  const contentPathIndex = filePath.indexOf('src/content/posts/');
+  const normalizedFilePath = filePath.replaceAll(path.sep, path.posix.sep);
+  const contentPathIndex = normalizedFilePath.indexOf('src/content/posts/');
   if (contentPathIndex === -1) return undefined;
 
-  return `/${filePath.slice(contentPathIndex)}`;
+  return `/${normalizedFilePath.slice(contentPathIndex)}`;
+}
+
+function normalizePostIdPath(id: string): string | undefined {
+  const normalizedId = id.replaceAll('\\', '/').replace(/^\/+/, '');
+  const contentPathIndex = normalizedId.indexOf('src/content/posts/');
+  const relativeId =
+    contentPathIndex === -1
+      ? normalizedId
+      : normalizedId.slice(contentPathIndex + 'src/content/posts/'.length);
+  const postPath = relativeId.replace(/\/index(?:\.md)?$/, '');
+
+  if (!postPath) return undefined;
+
+  return `/${path.posix.join('src/content/posts', postPath)}`;
 }
 
 function postDirectoryFor(post: PostEntry): string | undefined {
   const postFilePath = normalizePostFilePath(post.filePath);
-  return postFilePath?.replace(/\/[^/]+$/, '');
+  return postFilePath?.replace(/\/[^/]+$/, '') ?? normalizePostIdPath(post.id);
 }
 
 function resolveBundledPostImage(
@@ -70,7 +85,7 @@ function resolveBundledPostImage(
   const postDirectory = postDirectoryFor(post);
   if (!postDirectory) return undefined;
 
-  return postImages[`${postDirectory}/${fileName}`];
+  return postImages[path.posix.join(postDirectory, fileName)];
 }
 
 /** Absolute filesystem path to a bundled post image, for local processing (e.g. the legacy-image blur derivative) that `astro:assets` doesn't cover. */
@@ -81,7 +96,7 @@ function resolveBundledPostImageFsPath(
   const postDirectory = postDirectoryFor(post);
   if (!postDirectory) return undefined;
 
-  return path.join(process.cwd(), postDirectory, fileName);
+  return path.join(process.cwd(), postDirectory.replace(/^\/+/, ''), fileName);
 }
 
 function trimmed(value: string | undefined): string | undefined {

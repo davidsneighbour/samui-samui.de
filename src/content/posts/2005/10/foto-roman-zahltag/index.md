@@ -1,6 +1,6 @@
 ---
 title: "Foto-Roman: Zahltag"
-date: 2005-10-31T00:28:00+00:00
+date: 2005-10-31T07:28:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

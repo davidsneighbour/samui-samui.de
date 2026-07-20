@@ -1,6 +1,6 @@
 ---
 title: Der Tag der gebissenen Hunde II
-date: 2006-09-09T09:45:21+00:00
+date: 2006-09-09T16:45:21+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Metinee Kingpayoms Dessous
-date: 2006-12-12T03:53:55+00:00
+date: 2006-12-12T10:53:55+07:00
 dsq_thread_id:
   - "2903115017"
 publisher:

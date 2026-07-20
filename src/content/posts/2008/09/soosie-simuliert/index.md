@@ -1,6 +1,6 @@
 ---
 title: Soosie simuliert
-date: 2008-09-30T16:37:19+00:00
+date: 2008-09-30T23:37:19+07:00
 publisher:
   description: true
   summary: true

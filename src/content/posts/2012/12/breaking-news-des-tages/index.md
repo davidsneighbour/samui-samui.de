@@ -1,6 +1,6 @@
 ---
 title: Breaking News des Tages
-date: 2012-12-21T01:56:05+00:00
+date: 2012-12-21T08:56:05+07:00
 fb_author_post_id:
   - "10151179148385642"
 lastmod: 2023-09-10T19:14:12+07:00

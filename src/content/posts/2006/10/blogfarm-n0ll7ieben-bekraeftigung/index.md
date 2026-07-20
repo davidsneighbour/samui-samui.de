@@ -1,6 +1,6 @@
 ---
 title: Blogfarm N0ll.7ieben – Bekräftigung
-date: 2006-10-06T11:54:03+00:00
+date: 2006-10-06T18:54:03+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

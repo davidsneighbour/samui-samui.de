@@ -1,6 +1,6 @@
 ---
 title: Fürs Protokoll
-date: 2008-01-28T00:25:27+00:00
+date: 2008-01-28T07:25:27+07:00
 publisher:
   description: true
   summary: true

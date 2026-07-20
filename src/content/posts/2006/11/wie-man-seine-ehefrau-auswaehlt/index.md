@@ -1,6 +1,6 @@
 ---
 title: Wie man seine Ehefrau auswählt
-date: 2006-11-23T09:07:30+00:00
+date: 2006-11-23T16:07:30+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

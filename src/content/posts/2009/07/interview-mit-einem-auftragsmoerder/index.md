@@ -1,6 +1,6 @@
 ---
 title: Interview mit einem Auftragsmörder
-date: 2009-07-04T13:40:18+00:00
+date: 2009-07-04T20:40:18+07:00
 dsq_thread_id:
   - "3457562173"
 publisher:

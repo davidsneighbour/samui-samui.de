@@ -1,6 +1,6 @@
 ---
 title: 'Holiday Outtakes III: Sun over Robert'
-date: 2008-06-11T03:46:41+00:00
+date: 2008-06-11T10:46:41+07:00
 publisher:
   description: true
   summary: true

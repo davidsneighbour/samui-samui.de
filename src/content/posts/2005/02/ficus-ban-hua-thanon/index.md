@@ -1,6 +1,6 @@
 ---
 title: Ficus, Ban Hua Thanon
-date: 2005-02-08T00:10:00+00:00
+date: 2005-02-08T07:10:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

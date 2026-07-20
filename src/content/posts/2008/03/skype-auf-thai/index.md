@@ -1,6 +1,6 @@
 ---
 title: Skype auf Thai
-date: 2008-03-08T00:05:10+00:00
+date: 2008-03-08T07:05:10+07:00
 publisher:
   description: true
   summary: true

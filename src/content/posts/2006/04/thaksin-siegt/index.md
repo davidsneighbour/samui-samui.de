@@ -1,0 +1,13 @@
+---
+title: Thaksin siegt.
+date: 2006-04-04T05:45:00+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Thaksin hat gesiegt in der Wahl. Sagt er. Für ihn bzw. Thai Tak Thai stimmten 16 Mio. Wähler, 10 Mio. Wähler kreuzten No an. In 50% der Provinzen wo nur TRT antrat werden Neuwahlen fällig, weil die Kandidaten die erforderliche Mindeststimmzahl nicht erreichten.

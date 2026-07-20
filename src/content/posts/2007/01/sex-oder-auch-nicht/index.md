@@ -1,6 +1,6 @@
 ---
 title: Sex. Oder auch nicht.
-date: 2007-01-21T02:06:23+00:00
+date: 2007-01-21T09:06:23+07:00
 dsq_thread_id:
   - "3168355446"
 publisher:

@@ -1,6 +1,6 @@
 ---
 title: Thaksin bekommt einen Burger und verliert einen Koffer
-date: 2007-05-24T12:18:41+00:00
+date: 2007-05-24T19:18:41+07:00
 publisher:
   description: true
   summary: true

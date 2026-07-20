@@ -1,6 +1,6 @@
 ---
 title: Thaksin auf der Couch
-date: 2006-08-22T10:14:22+00:00
+date: 2006-08-22T17:14:22+07:00
 publisher:
   description: true
   summary: true

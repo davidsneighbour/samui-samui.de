@@ -1,6 +1,6 @@
 ---
 title: 'Thai für Jedermann I: Dies und das'
-date: 2007-06-17T01:41:55+00:00
+date: 2007-06-17T08:41:55+07:00
 publisher:
   description: true
   summary: true

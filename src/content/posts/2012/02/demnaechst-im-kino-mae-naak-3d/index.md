@@ -1,6 +1,6 @@
 ---
 title: "Demnächst im Kino: Mae Naak 3D"
-date: 2012-02-29T14:04:36+00:00
+date: 2012-02-29T21:04:36+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: '5eleven: Der wahre Fünf-Elfer'
-date: 2007-01-12T09:34:31+00:00
+date: 2007-01-12T16:34:31+07:00
 publisher:
   description: true
   summary: true

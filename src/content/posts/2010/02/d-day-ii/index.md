@@ -1,6 +1,6 @@
 ---
 title: D-Day II
-date: 2010-02-26T00:20:51+00:00
+date: 2010-02-26T07:20:51+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

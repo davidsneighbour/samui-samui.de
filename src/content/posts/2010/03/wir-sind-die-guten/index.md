@@ -1,6 +1,6 @@
 ---
 title: Wir sind die Guten!
-date: 2010-03-11T15:35:01+00:00
+date: 2010-03-11T22:35:01+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

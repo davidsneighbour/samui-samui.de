@@ -1,6 +1,6 @@
 ---
 title: ARC => CDRM => CDR => CNS
-date: 2006-10-02T00:38:00+00:00
+date: 2006-10-02T07:38:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

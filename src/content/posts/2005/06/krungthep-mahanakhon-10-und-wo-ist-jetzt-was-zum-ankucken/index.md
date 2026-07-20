@@ -1,6 +1,6 @@
 ---
 title: Krungthep Mahanakhon 1.0 – Taxi, Taxi, Shopping, Taxi
-date: 2005-06-09T06:37:00+00:00
+date: 2005-06-09T13:37:00+07:00
 dsq_thread_id:
   - "6412166643"
 lastmod: 2023-09-10T19:14:12+07:00

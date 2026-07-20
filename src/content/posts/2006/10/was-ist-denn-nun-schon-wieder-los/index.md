@@ -1,6 +1,6 @@
 ---
 title: Was ist denn nun schon wieder los?
-date: 2006-10-23T07:59:39+00:00
+date: 2006-10-23T14:59:39+07:00
 dsq_thread_id:
   - "3560666911"
 publisher:

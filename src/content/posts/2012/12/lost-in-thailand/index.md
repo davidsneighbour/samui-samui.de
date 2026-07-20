@@ -1,6 +1,6 @@
 ---
 title: Lost in Thailand
-date: 2012-12-23T11:48:43+00:00
+date: 2012-12-23T18:48:43+07:00
 fb_author_post_id:
   - "10151182662590642"
 lastmod: 2023-09-10T19:14:12+07:00

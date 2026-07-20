@@ -1,6 +1,6 @@
 ---
 title: The end is the beginning is the end
-date: 2005-05-30T04:43:00+00:00
+date: 2005-05-30T11:43:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

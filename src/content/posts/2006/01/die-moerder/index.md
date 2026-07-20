@@ -1,6 +1,6 @@
 ---
 title: Die Mörder
-date: 2006-01-10T03:40:00+00:00
+date: 2006-01-10T10:40:00+07:00
 dsq_thread_id:
   - "2935645783"
 publisher:

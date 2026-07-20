@@ -1,0 +1,23 @@
+---
+title: Kein Sex in Thailand
+date: 2005-10-25T03:24:00+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Beim Durchstöbern meiner Serverlogs bemerkte ich eben, dass immer weniger Besucher aufgrund interessanter Sex-Suchbegriffe auf meine Seiten kommen. Diesem Missstand muss ich eben mal vorbeugend entgegentreten --- zumal ich gestern von einem Nichtleser&copy; gebeten wurde, über Sex zu schreiben. Ja. Ich schreibs eben nochmal: SEX.
+
+Thaksin will den Sex abschaffen. Wenn man bedenkt, dass sich die Bevölkerung in Thailand seit 1960 fast verdreifacht hat ein guter Ansatz. Als Erstes muss natürlich aller Schmutz- und Porno-Kram im Internet verschwinden. Wenn die Gedanken rein sind, kann nichts passieren. Man muss Emails schreiben können ohne von blinkenden Thai-Frauen-Vermittlungs-Werbebannern und Hochglanz-Bildern auf komische Gedanken gebracht zu werden.
+
+Im thailändischen Web gibts schon keine Pornos (falls es die jemals gab). Nun wird auch noch bis Ende Dezember angefangen, die Online-Inhalte zu filtern, die an die Browser in Thailand ausgeliefert werden.
+
+Schnell noch bisschen was downloaden.
+
+PS: In Malaysia ist das Ansehen von Sexseiten strafbar (3 Wochen Knast) --- sagt der mehr Sex fordernde Nichtleser&copy;. Ich werde berichten.
+
+PPS: In zwei Monaten ist Weihnachten. Irgendwelche Geschenk-Ideen?

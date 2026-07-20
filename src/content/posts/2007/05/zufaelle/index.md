@@ -1,6 +1,6 @@
 ---
 title: Zufälle
-date: 2007-05-25T02:45:23+00:00
+date: 2007-05-25T09:45:23+07:00
 publisher:
   description: true
   summary: true

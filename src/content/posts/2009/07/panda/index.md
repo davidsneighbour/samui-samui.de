@@ -1,0 +1,20 @@
+---
+title: Panda
+date: 2009-07-13T06:48:57+07:00
+
+tags:
+  - panda
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+<div class="flex-video">
+</div>
+
+So, hier mal ein Pandavideo (nicht aus Chiang Mai, die Internet-Nomaden werden das schon kennen), damit man sich ungefähr vorstellen kann, wie so ein Tag zwischen Panda-Mama und Panda-Baby aussieht. Bambus fressen, rumsitzen oder -liegen.
+
+Ich habe inzwischen ein paar der Panda-[permalink id="1762"]Benamungskarten[/permalink] sichern können. Mal sehen ob wir die Namensgebung positiv beeinflussen können.

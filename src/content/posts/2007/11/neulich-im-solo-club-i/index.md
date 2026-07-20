@@ -1,6 +1,6 @@
 ---
 title: Neulich im Solo-Club I
-date: 2007-11-06T14:32:11+00:00
+date: 2007-11-06T21:32:11+07:00
 dsq_thread_id:
   - "3039901312"
 publisher:

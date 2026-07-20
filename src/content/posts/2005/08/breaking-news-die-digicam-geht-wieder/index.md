@@ -1,6 +1,6 @@
 ---
 title: "Breaking News: Die Digicam geht wieder"
-date: 2005-08-17T04:29:05+00:00
+date: 2005-08-17T11:29:05+07:00
 dsq_thread_id:
   - "6412166709"
 lastmod: 2023-09-10T19:14:12+07:00

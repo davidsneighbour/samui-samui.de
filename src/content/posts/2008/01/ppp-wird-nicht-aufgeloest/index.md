@@ -1,6 +1,6 @@
 ---
 title: PPP wird nicht aufgelöst
-date: 2008-01-18T01:42:52+00:00
+date: 2008-01-18T08:42:52+07:00
 publisher:
   description: true
   summary: true

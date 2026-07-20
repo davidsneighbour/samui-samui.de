@@ -1,6 +1,6 @@
 ---
 title: Nur fürs Protokoll
-date: 2007-11-21T02:45:49+00:00
+date: 2007-11-21T09:45:49+07:00
 publisher:
   description: true
   summary: true

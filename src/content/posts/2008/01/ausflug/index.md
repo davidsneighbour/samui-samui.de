@@ -1,6 +1,6 @@
 ---
 title: Ausflug
-date: 2008-01-24T13:10:06+00:00
+date: 2008-01-24T20:10:06+07:00
 publisher:
   description: true
   summary: true

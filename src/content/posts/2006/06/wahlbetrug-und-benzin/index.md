@@ -1,6 +1,6 @@
 ---
 title: Wahlbetrug und Benzin
-date: 2006-06-23T00:05:03+00:00
+date: 2006-06-23T07:05:03+07:00
 publisher:
   description: true
   summary: true

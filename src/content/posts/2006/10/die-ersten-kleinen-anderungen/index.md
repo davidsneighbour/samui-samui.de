@@ -1,6 +1,6 @@
 ---
 title: Die ersten kleinen ?nderungen
-date: 2006-10-24T09:39:31+00:00
+date: 2006-10-24T16:39:31+07:00
 publisher:
   description: true
   summary: true

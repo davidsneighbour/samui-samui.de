@@ -1,6 +1,6 @@
 ---
 title: Kabelsalat – oder – Wireless
-date: 2005-03-18T06:55:26+00:00
+date: 2005-03-18T13:55:26+07:00
 dsq_thread_id:
   - "6412166404"
 lastmod: 2023-09-10T19:14:12+07:00

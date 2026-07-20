@@ -1,28 +1,50 @@
-// German date formatting shared by FormattedDate.astro and the archive
-// pages. Formatted in UTC (not the build machine's local time or a fixed
-// Thai offset) to match the day/month/year components already produced by
-// z.coerce.date() -- most front matter dates carry a +00:00 offset, a
-// minority +07:00, so UTC is the only zone consistent across all posts.
+// German date formatting shared by FormattedDate.astro and the archive pages.
+// Posts describe life on Koh Samui, so calendar dates are interpreted in
+// Thailand time even when legacy frontmatter serialises the instant as +00:00.
+export const POST_TIME_ZONE = 'Asia/Bangkok';
+
+export interface PostDateParts {
+  day: number;
+  dayPadded: string;
+  month: number;
+  monthIndex: number;
+  monthPadded: string;
+  year: number;
+}
+
 const dayFormatter = new Intl.DateTimeFormat('de-DE', {
   day: 'numeric',
-  timeZone: 'UTC',
+  timeZone: POST_TIME_ZONE,
 });
 const monthLongFormatter = new Intl.DateTimeFormat('de-DE', {
   month: 'long',
-  timeZone: 'UTC',
+  timeZone: POST_TIME_ZONE,
 });
 const monthShortFormatter = new Intl.DateTimeFormat('de-DE', {
   month: 'short',
-  timeZone: 'UTC',
+  timeZone: POST_TIME_ZONE,
 });
 const yearFormatter = new Intl.DateTimeFormat('de-DE', {
-  timeZone: 'UTC',
+  timeZone: POST_TIME_ZONE,
   year: 'numeric',
 });
 const timeFormatter = new Intl.DateTimeFormat('de-DE', {
   hour: '2-digit',
   minute: '2-digit',
-  timeZone: 'UTC',
+  timeZone: POST_TIME_ZONE,
+});
+const postDatePartsFormatter = new Intl.DateTimeFormat('en-CA', {
+  day: '2-digit',
+  month: '2-digit',
+  timeZone: POST_TIME_ZONE,
+  year: 'numeric',
+});
+const postTimePartsFormatter = new Intl.DateTimeFormat('en-GB', {
+  hour: '2-digit',
+  hourCycle: 'h23',
+  minute: '2-digit',
+  second: '2-digit',
+  timeZone: POST_TIME_ZONE,
 });
 
 const dateOnlyPattern = /^(\d{4})-(\d{2})-(\d{2})$/;
@@ -43,6 +65,52 @@ export interface DateDurationFormatOptions {
   untilDate?: Date | string;
   unit?: DateDurationUnit;
   format?: string;
+}
+
+export function getPostDateParts(date: Date): PostDateParts {
+  const parts = Object.fromEntries(
+    postDatePartsFormatter
+      .formatToParts(date)
+      .map((part) => [part.type, part.value]),
+  );
+  const year = Number(parts.year);
+  const month = Number(parts.month);
+  const day = Number(parts.day);
+
+  if (!year || !month || !day) {
+    throw new Error(
+      `Could not format post date parts for ${date.toISOString()}`,
+    );
+  }
+
+  return {
+    day,
+    dayPadded: String(day).padStart(2, '0'),
+    month,
+    monthIndex: month - 1,
+    monthPadded: String(month).padStart(2, '0'),
+    year,
+  };
+}
+
+export function formatPostTimestamp(date: Date): string {
+  const { dayPadded, monthPadded, year } = getPostDateParts(date);
+  const parts = Object.fromEntries(
+    postTimePartsFormatter
+      .formatToParts(date)
+      .map((part) => [part.type, part.value]),
+  );
+  const hour = parts.hour;
+  const minute = parts.minute;
+  const second = parts.second;
+
+  if (!hour || !minute || !second) {
+    throw new Error(
+      `Could not format post time parts for ${date.toISOString()}`,
+    );
+  }
+
+  return `${year}-${monthPadded}-${dayPadded}T${hour}:${minute}:${second}+07:00`;
 }
 
 function parseDateInput(input: Date | string, label: string): Date {

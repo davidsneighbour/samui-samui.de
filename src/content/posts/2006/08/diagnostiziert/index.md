@@ -1,6 +1,6 @@
 ---
 title: Diagnostiziert
-date: 2006-08-24T08:37:50+00:00
+date: 2006-08-24T15:37:50+07:00
 publisher:
   description: true
   summary: true

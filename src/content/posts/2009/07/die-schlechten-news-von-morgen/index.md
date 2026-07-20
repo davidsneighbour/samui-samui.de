@@ -1,6 +1,6 @@
 ---
 title: Die schlechten News von morgen
-date: 2009-07-22T01:11:59+00:00
+date: 2009-07-22T08:11:59+07:00
 publisher:
   description: true
   summary: true

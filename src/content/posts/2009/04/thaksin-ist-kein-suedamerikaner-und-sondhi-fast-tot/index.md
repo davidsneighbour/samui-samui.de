@@ -1,6 +1,6 @@
 ---
 title: Thaksin ist kein Südamerikaner und Sondhi fast tot.
-date: 2009-04-16T13:09:00+00:00
+date: 2009-04-16T20:09:00+07:00
 publisher:
   description: true
   summary: true

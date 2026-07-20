@@ -1,6 +1,6 @@
 ---
 title: Ordination III
-date: 2007-04-04T13:31:47+00:00
+date: 2007-04-04T20:31:47+07:00
 publisher:
   description: true
   summary: true

@@ -1,0 +1,19 @@
+---
+title: Reisevorbereitungen I
+date: 2008-05-02T00:12:27+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+* Heute Nacht das erste Mal von Flugzeugabstürzen geträumt --- Check.
+* Festgestellt, dass ich keine sauberen Klamotten habe, die mir auch noch passen --- Check
+* Die Hunde untergebracht (eine Geschichte für sich, die mich nervlich mehrere Jahre meines Lebens gekostet hat) --- Check
+* Tickets gekauft und auch bezahlt --- Check (grade so noch)
+* Festgestellt, dass ich keine Koffer oder ähnliche Verpackungsgegenstände (mehr?) besitze --- Check
+* Festgestellt, dass der Wechselkurs von <span class="caps">THB</span> nach <span class="caps">EUR</span> so hoch ist wie nie in den dreieinhalb Jahren zuvor --- Check
+
+In neun Stunden beginnt der Urlaub, in 17 Stunden bin ich auf Achse :) Yeah.

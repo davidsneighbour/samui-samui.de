@@ -1,6 +1,6 @@
 ---
 title: We named him Drabble!
-date: 2005-02-02T05:15:00+00:00
+date: 2005-02-02T12:15:00+07:00
 dsq_thread_id:
   - "3704430256"
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,6 @@
 ---
 title: 'Zukunftsgeplänkel'
-date: 2009-12-21T01:39:46+00:00
+date: 2009-12-21T08:39:46+07:00
 dsq_thread_id:
   - "3078153284"
 publisher:

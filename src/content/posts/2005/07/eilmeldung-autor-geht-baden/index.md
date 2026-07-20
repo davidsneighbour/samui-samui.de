@@ -1,6 +1,6 @@
 ---
 title: "Breaking News: Autor geht baden"
-date: 2005-07-18T00:50:00+00:00
+date: 2005-07-18T07:50:00+07:00
 dsq_thread_id:
   - "3009140623"
 lastmod: 2023-09-10T19:14:12+07:00

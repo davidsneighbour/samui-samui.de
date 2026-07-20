@@ -1,6 +1,6 @@
 ---
 title: Helmpflicht
-date: 2006-09-24T08:27:00+00:00
+date: 2006-09-24T15:27:00+07:00
 publisher:
   description: true
   summary: true

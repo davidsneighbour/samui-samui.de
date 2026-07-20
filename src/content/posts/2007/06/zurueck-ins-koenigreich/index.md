@@ -1,6 +1,6 @@
 ---
 title: Zurück ins Königreich
-date: 2007-06-12T01:09:34+00:00
+date: 2007-06-12T08:09:34+07:00
 publisher:
   description: true
   summary: true

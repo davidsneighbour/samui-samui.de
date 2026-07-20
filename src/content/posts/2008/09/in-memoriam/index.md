@@ -1,6 +1,6 @@
 ---
 title: In Memoriam
-date: 2008-09-09T04:50:04+00:00
+date: 2008-09-09T11:50:04+07:00
 publisher:
   description: true
   summary: true

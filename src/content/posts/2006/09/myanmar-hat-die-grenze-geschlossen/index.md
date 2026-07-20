@@ -1,6 +1,6 @@
 ---
 title: Myanmar hat die Grenze geschlossen
-date: 2006-09-21T11:27:56+00:00
+date: 2006-09-21T18:27:56+07:00
 publisher:
   description: true
   summary: true

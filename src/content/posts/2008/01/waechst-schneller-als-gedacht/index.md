@@ -1,6 +1,6 @@
 ---
 title: 'Wächst schneller als gedacht…'
-date: 2008-01-03T03:16:46+00:00
+date: 2008-01-03T10:16:46+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Kurz Geschnittenes IV
-date: 2007-04-24T09:42:52+00:00
+date: 2007-04-24T16:42:52+07:00
 publisher:
   description: true
   summary: true

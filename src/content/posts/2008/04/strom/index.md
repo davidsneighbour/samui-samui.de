@@ -1,6 +1,6 @@
 ---
 title: Strom!
-date: 2008-04-23T03:26:07+00:00
+date: 2008-04-23T10:26:07+07:00
 publisher:
   description: true
   summary: true

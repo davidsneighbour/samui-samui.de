@@ -1,6 +1,6 @@
 ---
 title: Stromausfall
-date: 2006-06-13T09:04:00+00:00
+date: 2006-06-13T16:04:00+07:00
 dnb_samuisamui_article_image_size:
   - "1"
 publisher:

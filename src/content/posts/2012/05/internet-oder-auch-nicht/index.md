@@ -1,6 +1,6 @@
 ---
 title: Internet. Oder auch nicht.
-date: 2012-05-09T02:28:03+00:00
+date: 2012-05-09T09:28:03+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

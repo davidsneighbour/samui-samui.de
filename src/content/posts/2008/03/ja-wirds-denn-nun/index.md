@@ -1,6 +1,6 @@
 ---
 title: Ja wirds denn nun?
-date: 2008-03-07T01:05:51+00:00
+date: 2008-03-07T08:05:51+07:00
 publisher:
   description: true
   summary: true

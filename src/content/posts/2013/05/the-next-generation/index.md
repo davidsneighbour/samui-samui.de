@@ -1,6 +1,6 @@
 ---
 title: The next generation
-date: 2013-05-19T10:02:36+00:00
+date: 2013-05-19T17:02:36+07:00
 fb_author_post_id:
   - 517050641_10151434521660642
 dsq_thread_id:

@@ -1,6 +1,6 @@
 ---
 title: Grade im Thaifussball?studio
-date: 2006-06-23T08:40:00+00:00
+date: 2006-06-23T15:40:00+07:00
 publisher:
   description: true
   summary: true

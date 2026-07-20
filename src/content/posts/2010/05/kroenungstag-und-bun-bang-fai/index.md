@@ -1,6 +1,6 @@
 ---
 title: Krönungstag und Bun Bang Fai
-date: 2010-05-04T11:51:18+00:00
+date: 2010-05-04T18:51:18+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

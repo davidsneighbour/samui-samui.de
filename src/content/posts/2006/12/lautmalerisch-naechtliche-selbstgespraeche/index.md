@@ -1,6 +1,6 @@
 ---
 title: Lautmalerisch nächtliche Selbstgespräche
-date: 2006-12-02T10:13:35+00:00
+date: 2006-12-02T17:13:35+07:00
 publisher:
   description: true
   summary: true

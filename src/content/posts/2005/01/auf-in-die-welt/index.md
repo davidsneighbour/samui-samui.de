@@ -1,6 +1,6 @@
 ---
 title: Auf in die Welt!
-date: 2005-01-08T02:01:00+00:00
+date: 2005-01-08T09:01:00+07:00
 tags:
   - wie alles begann
 lastmod: 2023-09-10T19:14:12+07:00

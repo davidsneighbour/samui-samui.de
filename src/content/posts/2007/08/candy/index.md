@@ -1,6 +1,6 @@
 ---
 title: Candy
-date: 2007-08-02T00:59:21+00:00
+date: 2007-08-02T07:59:21+07:00
 publisher:
   description: true
   summary: true

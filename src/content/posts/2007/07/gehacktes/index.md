@@ -1,6 +1,6 @@
 ---
 title: Gehacktes.
-date: 2007-07-19T00:26:17+00:00
+date: 2007-07-19T07:26:17+07:00
 publisher:
   description: true
   summary: true

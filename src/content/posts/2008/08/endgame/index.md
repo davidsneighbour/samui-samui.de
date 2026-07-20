@@ -1,6 +1,6 @@
 ---
 title: Endgame
-date: 2008-08-25T03:47:25+00:00
+date: 2008-08-25T10:47:25+07:00
 publisher:
   description: true
   summary: true

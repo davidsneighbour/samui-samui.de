@@ -1,6 +1,6 @@
 ---
 title: Direct Market Thailand
-date: 2006-08-02T01:53:00+00:00
+date: 2006-08-02T08:53:00+07:00
 publisher:
   description: true
   summary: true

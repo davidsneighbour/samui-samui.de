@@ -1,6 +1,6 @@
 ---
 title: David Beckham’s House
-date: 2008-08-15T02:33:05+00:00
+date: 2008-08-15T09:33:05+07:00
 publisher:
   description: true
   summary: true

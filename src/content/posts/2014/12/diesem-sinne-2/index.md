@@ -1,6 +1,6 @@
 ---
 title: In diesem Sinne…
-date: 2014-12-31T11:30:47+00:00
+date: 2014-12-31T18:30:47+07:00
 dsq_thread_id:
   - "3376663630"
 

@@ -1,0 +1,20 @@
+---
+title: Waffenstillstand
+date: 2008-07-17T05:26:01+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+Die Separatisten in den drei südlichen Provinzen haben heute (medienwirksam) einen [Waffenstillstand verkündet][1].
+
+Der Sprecher der Separatisten soll ein Widerstandskämpfer namens Mali Peng Khann sein, der von 1984 bis 1987 aktiv war und im aktuellen Konflikt keine gro?e Rolle spielte. Er hat wohl schon mehrfach vergeblich versucht, zwischen den Fronten zu vermitteln.
+
+Der Armeechef General Anupong Paochinda erklärte, dass man auch weiterhin nicht mit den Separatisten verhandeln will. Wenigstens wurde diesmal das Wort Terrorist nicht verwendet.
+
+Das soll also nun das Ende von täglichen Berichten über geköpfte Buddhisten, verbrannte Farmer und erschossene Lehrer sein. Wir werden ja sehen.
+
+ [1]: http://nationmultimedia.com/2008/07/17/national/national_30078331.php

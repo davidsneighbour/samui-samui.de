@@ -1,6 +1,6 @@
 ---
 title: Netzwerkspezialist bei der Arbeit (Thaistyle)
-date: 2006-02-25T01:05:00+00:00
+date: 2006-02-25T08:05:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

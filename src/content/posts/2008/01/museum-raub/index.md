@@ -1,6 +1,6 @@
 ---
 title: Museum-Raub
-date: 2008-01-25T12:47:31+00:00
+date: 2008-01-25T19:47:31+07:00
 publisher:
   description: true
   summary: true

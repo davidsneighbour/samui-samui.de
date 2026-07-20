@@ -1,6 +1,6 @@
 ---
 title: Thaiboys, Piraten und Popcorn
-date: 2007-05-26T11:35:16+00:00
+date: 2007-05-26T18:35:16+07:00
 dsq_thread_id:
   - "3219573666"
 publisher:

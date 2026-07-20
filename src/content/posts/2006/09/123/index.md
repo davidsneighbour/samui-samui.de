@@ -1,6 +1,6 @@
 ---
 title: 1/23
-date: 2006-09-28T12:20:00+00:00
+date: 2006-09-28T19:20:00+07:00
 publisher:
   description: true
   summary: true

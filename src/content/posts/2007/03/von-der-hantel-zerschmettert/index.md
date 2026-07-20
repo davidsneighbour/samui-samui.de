@@ -1,6 +1,6 @@
 ---
 title: Von der Hantel zerschmettert
-date: 2007-03-15T12:02:15+00:00
+date: 2007-03-15T19:02:15+07:00
 publisher:
   description: true
   summary: true

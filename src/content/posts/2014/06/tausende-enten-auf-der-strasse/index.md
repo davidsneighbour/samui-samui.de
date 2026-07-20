@@ -1,6 +1,6 @@
 ---
 title: Tausende Enten auf der Straße
-date: 2014-06-18T04:40:19+00:00
+date: 2014-06-18T11:40:19+07:00
 dsq_thread_id:
   - "2900518673"
 publisher:

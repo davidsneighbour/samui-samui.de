@@ -1,6 +1,6 @@
 ---
 title: Am Ende steht der Anfang
-date: 2007-12-31T00:01:44+00:00
+date: 2007-12-31T07:01:44+07:00
 publisher:
   description: true
   summary: true

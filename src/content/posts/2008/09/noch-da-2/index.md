@@ -1,6 +1,6 @@
 ---
 title: Noch da
-date: 2008-09-03T16:16:17+00:00
+date: 2008-09-03T23:16:17+07:00
 publisher:
   description: true
   summary: true

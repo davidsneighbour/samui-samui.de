@@ -1,6 +1,6 @@
 ---
 title: Komm lass uns News machen
-date: 2006-07-18T00:19:23+00:00
+date: 2006-07-18T07:19:23+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

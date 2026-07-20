@@ -1,6 +1,6 @@
 ---
 title: Wetterbericht
-date: 2005-01-27T06:38:43+00:00
+date: 2005-01-27T13:38:43+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Nur in Thailand…
-date: 2008-04-10T01:54:56+00:00
+date: 2008-04-10T08:54:56+07:00
 publisher:
   description: true
   summary: true

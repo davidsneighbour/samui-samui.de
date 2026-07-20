@@ -1,6 +1,6 @@
 ---
 title: Die Tesko-These
-date: 2006-09-07T02:53:13+00:00
+date: 2006-09-07T09:53:13+07:00
 publisher:
   description: true
   summary: true

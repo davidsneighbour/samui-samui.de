@@ -1,6 +1,6 @@
 ---
 title: Total neue Neuigkeiten
-date: 2006-02-24T01:56:00+00:00
+date: 2006-02-24T08:56:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

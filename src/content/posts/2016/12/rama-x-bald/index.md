@@ -1,6 +1,6 @@
 ---
 title: Rama X – bald
-date: 2016-12-01T10:14:43+00:00
+date: 2016-12-01T17:14:43+07:00
 url: /2016/12/rama-x-bald/
 tags:
   - bhumibol adulyadej

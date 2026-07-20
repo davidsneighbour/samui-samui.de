@@ -1,6 +1,6 @@
 ---
 title: Kurz Geschnittenes 5
-date: 2007-06-20T12:46:25+00:00
+date: 2007-06-20T19:46:25+07:00
 dsq_thread_id:
   - "3490152691"
 publisher:

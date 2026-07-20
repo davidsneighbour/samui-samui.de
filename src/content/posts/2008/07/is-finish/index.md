@@ -1,6 +1,6 @@
 ---
 title: Is finish!
-date: 2008-07-09T04:08:56+00:00
+date: 2008-07-09T11:08:56+07:00
 publisher:
   description: true
   summary: true

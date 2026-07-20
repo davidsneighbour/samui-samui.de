@@ -1,6 +1,6 @@
 ---
 title: Samui Big Cleaning Day
-date: 2011-04-22T12:33:11+00:00
+date: 2011-04-22T19:33:11+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Palmen, Himmel und Wolken
-date: 2006-03-07T00:13:00+00:00
+date: 2006-03-07T07:13:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

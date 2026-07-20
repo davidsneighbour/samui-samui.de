@@ -1,6 +1,6 @@
 ---
 title: Thailands Food-Flagge
-date: 2014-02-03T01:55:20+00:00
+date: 2014-02-03T08:55:20+07:00
 url: /2014/02/thailands-food-flagge/
 dsq_thread_id:
   - "2914974659"

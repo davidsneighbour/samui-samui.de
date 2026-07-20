@@ -1,6 +1,6 @@
 ---
 title: Saam
-date: 2008-01-10T00:36:51+00:00
+date: 2008-01-10T07:36:51+07:00
 publisher:
   description: true
   summary: true

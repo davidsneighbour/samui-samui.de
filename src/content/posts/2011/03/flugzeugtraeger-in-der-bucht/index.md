@@ -1,6 +1,6 @@
 ---
 title: Flugzeugträger in der Bucht
-date: 2011-03-29T16:49:13+00:00
+date: 2011-03-29T23:49:13+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

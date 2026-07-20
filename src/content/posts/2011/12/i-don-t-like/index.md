@@ -1,6 +1,6 @@
 ---
 title: I don’t like
-date: 2011-12-01T13:42:03+00:00
+date: 2011-12-01T20:42:03+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

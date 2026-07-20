@@ -1,6 +1,6 @@
 ---
 title: Ausgestempelt
-date: 2014-07-02T07:10:44+00:00
+date: 2014-07-02T14:10:44+07:00
 dsq_thread_id:
   - "2894217473"
 publisher:

@@ -1,6 +1,6 @@
 ---
 title: iTV wird nicht abgeschaltet
-date: 2007-03-07T12:06:27+00:00
+date: 2007-03-07T19:06:27+07:00
 publisher:
   description: true
   summary: true

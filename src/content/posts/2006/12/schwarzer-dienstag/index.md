@@ -1,6 +1,6 @@
 ---
 title: Schwarzer Dienstag
-date: 2006-12-19T07:29:03+00:00
+date: 2006-12-19T14:29:03+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Wo ist Thaksin?
-date: 2008-12-01T00:48:40+00:00
+date: 2008-12-01T07:48:40+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Premierminister ernannt
-date: 2006-10-01T05:47:00+00:00
+date: 2006-10-01T12:47:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

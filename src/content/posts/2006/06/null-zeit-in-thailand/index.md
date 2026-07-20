@@ -1,6 +1,6 @@
 ---
 title: Null Zeit in Thailand
-date: 2006-06-13T03:34:00+00:00
+date: 2006-06-13T10:34:00+07:00
 publisher:
   description: true
   summary: true

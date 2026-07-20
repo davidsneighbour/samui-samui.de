@@ -1,6 +1,6 @@
 ---
 title: Unser Album gib uns aller vier Jahre
-date: 2006-11-23T08:50:34+00:00
+date: 2006-11-23T15:50:34+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

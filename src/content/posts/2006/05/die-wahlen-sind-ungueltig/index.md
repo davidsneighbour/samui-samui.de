@@ -1,6 +1,6 @@
 ---
 title: Die Wahlen sind ungültig
-date: 2006-05-08T03:43:00+00:00
+date: 2006-05-08T10:43:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

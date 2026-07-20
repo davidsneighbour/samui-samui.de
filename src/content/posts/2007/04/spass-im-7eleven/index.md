@@ -1,6 +1,6 @@
 ---
 title: 'Spaß im 7eleven'
-date: 2007-04-06T11:42:50+00:00
+date: 2007-04-06T18:42:50+07:00
 publisher:
   description: true
   summary: true

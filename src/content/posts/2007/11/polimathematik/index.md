@@ -1,6 +1,6 @@
 ---
 title: Poli(mathema)tik
-date: 2007-11-02T03:08:17+00:00
+date: 2007-11-02T10:08:17+07:00
 publisher:
   description: true
   summary: true

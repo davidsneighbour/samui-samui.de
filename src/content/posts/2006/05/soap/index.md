@@ -1,6 +1,6 @@
 ---
 title: Soap.
-date: 2006-05-04T02:13:08+00:00
+date: 2006-05-04T09:13:08+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

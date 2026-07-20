@@ -1,6 +1,6 @@
 ---
 title: Blogfarm 07
-date: 2007-02-08T03:28:33+00:00
+date: 2007-02-08T10:28:33+07:00
 publisher:
   description: true
   summary: true

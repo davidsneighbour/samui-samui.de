@@ -1,6 +1,6 @@
 ---
 title: Berühmtes Fellbündel
-date: 2008-07-16T04:01:34+00:00
+date: 2008-07-16T11:01:34+07:00
 publisher:
   description: true
   summary: true

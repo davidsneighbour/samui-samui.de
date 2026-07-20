@@ -1,6 +1,6 @@
 ---
 title: Ein Bier vorm Betrunkensein
-date: 2007-09-09T12:58:57+00:00
+date: 2007-09-09T19:58:57+07:00
 publisher:
   description: true
   summary: true

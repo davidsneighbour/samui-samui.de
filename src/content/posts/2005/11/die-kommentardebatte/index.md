@@ -1,6 +1,6 @@
 ---
 title: Die Kommentardebatte
-date: 2005-11-15T06:37:00+00:00
+date: 2005-11-15T13:37:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

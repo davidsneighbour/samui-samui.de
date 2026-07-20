@@ -1,6 +1,6 @@
 ---
 title: Stromausfall
-date: 2010-07-28T01:55:08+00:00
+date: 2010-07-28T08:55:08+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

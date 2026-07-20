@@ -1,6 +1,6 @@
 ---
 title: Militärfernsehprogramm
-date: 2006-09-28T11:48:00+00:00
+date: 2006-09-28T18:48:00+07:00
 publisher:
   description: true
   summary: true

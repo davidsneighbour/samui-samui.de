@@ -1,6 +1,6 @@
 ---
 title: Das Ramadan-Rätsel
-date: 2009-08-24T04:08:02+00:00
+date: 2009-08-24T11:08:02+07:00
 dsq_thread_id:
   - "3536134424"
 publisher:

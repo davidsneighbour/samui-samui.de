@@ -1,6 +1,6 @@
 ---
 title: Thaksin liebt Thailand
-date: 2007-06-14T15:35:38+00:00
+date: 2007-06-14T22:35:38+07:00
 publisher:
   description: true
   summary: true

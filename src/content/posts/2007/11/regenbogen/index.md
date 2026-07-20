@@ -1,6 +1,6 @@
 ---
 title: Regenbogen
-date: 2007-11-02T05:59:25+00:00
+date: 2007-11-02T12:59:25+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Somchai, Somsak und Somporn
-date: 2012-07-16T12:42:30+00:00
+date: 2012-07-16T19:42:30+07:00
 fb_mentioned_pages:
   - a:0:{}
 fb_mentioned_friends:

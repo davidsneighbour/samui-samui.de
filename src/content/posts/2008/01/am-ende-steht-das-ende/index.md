@@ -1,6 +1,6 @@
 ---
 title: Am Ende steht das Ende
-date: 2008-01-02T03:26:14+00:00
+date: 2008-01-02T10:26:14+07:00
 publisher:
   description: true
   summary: true

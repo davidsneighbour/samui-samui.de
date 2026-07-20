@@ -1,6 +1,6 @@
 ---
 title: Thaksin zieht sich zurück
-date: 2006-10-03T02:41:00+00:00
+date: 2006-10-03T09:41:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

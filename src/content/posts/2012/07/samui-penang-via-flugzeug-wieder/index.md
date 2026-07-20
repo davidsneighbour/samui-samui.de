@@ -1,0 +1,24 @@
+---
+title: Samui-Penang via Flugzeug. Wieder.
+date: 2012-07-13T00:09:53+07:00
+fb_status_messages:
+  - a:0:{}
+dsq_thread_id:
+  - "3505057296"
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+<div class="media photo image">
+  <img src="https://maps.google.com/maps/api/staticmap?markers=size:tiny|color:red|9.548953,100.062447|5.263234,100.484623&path=color:0xff000080|weight:2|9.54472,100.06227|5.26054,100.49538&size=620x280&sensor=false" />
+</div>
+
+Vor ein paar Jahren konnte man mit [Firefly][1], einer malaysischen Fluggesellschaft, von Samui direkt nach Penang fliegen. Das passte vielen in den Kram, die aller drei Monate auf Visa-Run gehen müssen. Irgendwann dann flog man nicht mehr, weil sie mit der Linie nur Verluste eingeflogen haben. [Nun gibts die Direktverbindung ab August wieder][2]. Solange bis sie das Ganze wieder durch rechnen und die Strecke aus Kostengründen abschaffen.
+
+ [1]: http://www.fireflyz.com.my/
+ [2]: http://www.nst.com.my/latest/firefly-relaunches-penang-koh-samui-route-1.106047#

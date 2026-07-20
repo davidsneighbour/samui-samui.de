@@ -1,6 +1,6 @@
 ---
 title: Vorher
-date: 2006-09-26T04:14:00+00:00
+date: 2006-09-26T11:14:00+07:00
 publisher:
   description: true
   summary: true

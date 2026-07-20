@@ -1,6 +1,6 @@
 ---
 title: Der Silvio Berlusconi Thailands
-date: 2012-06-26T07:38:23+00:00
+date: 2012-06-26T14:38:23+07:00
 fb_mentioned_pages:
   - a:0:{}
 fb_mentioned_friends:

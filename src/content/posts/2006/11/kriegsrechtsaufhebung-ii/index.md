@@ -1,6 +1,6 @@
 ---
 title: Kriegsrechtsaufhebung II
-date: 2006-11-29T01:01:05+00:00
+date: 2006-11-29T08:01:05+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

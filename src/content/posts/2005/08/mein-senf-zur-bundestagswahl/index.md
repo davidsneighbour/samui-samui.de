@@ -1,6 +1,6 @@
 ---
 title: Mein Senf zur Bundestagswahl
-date: 2005-08-29T04:17:03+00:00
+date: 2005-08-29T11:17:03+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -10,7 +10,7 @@ cover:
   src: "gabrielle-maurer-vhtzzJ6hLVM-unsplash.jpg"
   type: image
   title: "Deprimierender Ausblick."
-date: 2026-07-18T06:09:34.006Z
+date: 2026-07-18T13:09:34+07:00
 publisher:
   description: true
   summary: true

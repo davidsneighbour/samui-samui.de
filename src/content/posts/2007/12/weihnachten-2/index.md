@@ -1,6 +1,6 @@
 ---
 title: Weihnachten
-date: 2007-12-25T02:38:34+00:00
+date: 2007-12-25T09:38:34+07:00
 publisher:
   description: true
   summary: true

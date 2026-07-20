@@ -1,6 +1,6 @@
 ---
 title: 'Holiday Outtakes XI: Buchenwald'
-date: 2008-06-26T02:37:24+00:00
+date: 2008-06-26T09:37:24+07:00
 publisher:
   description: true
   summary: true

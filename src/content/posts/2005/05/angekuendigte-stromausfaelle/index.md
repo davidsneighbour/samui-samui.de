@@ -1,6 +1,6 @@
 ---
 title: Angekündigte Stromausfälle
-date: 2005-05-19T04:19:43+00:00
+date: 2005-05-19T11:19:43+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Learning to drive
-date: 2005-01-20T02:36:00+00:00
+date: 2005-01-20T09:36:00+07:00
 dsq_thread_id:
   - "6412166373"
 lastmod: 2023-09-10T19:14:12+07:00

@@ -1,6 +1,6 @@
 ---
 title: Bombenanschlag auf Samui
-date: 2015-04-11T08:36:58+00:00
+date: 2015-04-11T15:36:58+07:00
 url: /2015/04/bombenanschlag-auf-samui/
 tags:
   - terrorismus

@@ -1,6 +1,6 @@
 ---
 title: Wie man richtig forscht
-date: 2007-01-21T02:29:19+00:00
+date: 2007-01-21T09:29:19+07:00
 publisher:
   description: true
   summary: true

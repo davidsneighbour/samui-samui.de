@@ -1,6 +1,6 @@
 ---
 title: Tiger Woods kommt heim
-date: 2010-11-07T14:29:54+00:00
+date: 2010-11-07T21:29:54+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

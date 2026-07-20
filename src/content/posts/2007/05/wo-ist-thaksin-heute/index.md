@@ -1,6 +1,6 @@
 ---
 title: Wo ist Thaksin heute?
-date: 2007-05-24T02:51:43+00:00
+date: 2007-05-24T09:51:43+07:00
 dsq_thread_id:
   - "3648517410"
 publisher:

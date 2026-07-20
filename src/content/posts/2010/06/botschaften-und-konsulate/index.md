@@ -1,6 +1,6 @@
 ---
 title: Botschaften und Konsulate
-date: 2010-06-29T13:46:19+00:00
+date: 2010-06-29T20:46:19+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

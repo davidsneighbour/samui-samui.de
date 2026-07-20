@@ -1,6 +1,6 @@
 ---
 title: Shoppen bei Thaisawadee
-date: 2012-11-15T14:07:09+00:00
+date: 2012-11-15T21:07:09+07:00
 fb_author_post_id:
   - "10151132236835642"
 lastmod: 2023-09-10T19:14:12+07:00

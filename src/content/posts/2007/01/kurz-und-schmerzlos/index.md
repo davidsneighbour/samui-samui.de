@@ -1,6 +1,6 @@
 ---
 title: Kurz und schmerzlos
-date: 2007-01-26T09:28:06+00:00
+date: 2007-01-26T16:28:06+07:00
 publisher:
   description: true
   summary: true

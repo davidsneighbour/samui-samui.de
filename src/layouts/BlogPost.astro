@@ -13,7 +13,7 @@ import Separator from '@components/ui/separator.astro';
 import VimeoScript from '@components/VimeoScript.astro';
 import YoutubeScript from '@components/YoutubeScript.astro';
 import type { ResolvedPostCover } from '@utils/covers';
-import { formatDate } from '@utils/dates';
+import { formatDate, getPostDateParts } from '@utils/dates';
 import { proseClasses } from '@utils/prose';
 import { humanize } from '@utils/slugify';
 import type { ImageMetadata } from 'astro';
@@ -137,7 +137,7 @@ const postTags = tags ?? [];
           {publishedOn && (
             <span
               class="sr-only"
-              data-pagefind-filter={`Year:${publishedOn.getUTCFullYear()}`}
+              data-pagefind-filter={`Year:${getPostDateParts(publishedOn).year}`}
               data-pagefind-meta={`date:${formatDate(publishedOn)}`}
             />
           )}

@@ -1,6 +1,6 @@
 ---
 title: Wie aufregend!
-date: 2012-09-06T08:56:26+00:00
+date: 2012-09-06T15:56:26+07:00
 fb_mentioned_pages:
   - a:0:{}
 fb_mentioned_friends:

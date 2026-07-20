@@ -1,6 +1,6 @@
 ---
 title: Ah schöne Frauen, oder so.
-date: 2005-06-01T07:17:00+00:00
+date: 2005-06-01T14:17:00+07:00
 dsq_thread_id:
   - "2925198565"
 lastmod: 2023-09-10T19:14:12+07:00

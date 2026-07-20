@@ -1,6 +1,6 @@
 ---
 title: Affen, die von Klippen springen
-date: 2013-07-22T06:16:25+00:00
+date: 2013-07-22T13:16:25+07:00
 fb_author_post_id:
   - 517050641_10151546317735642
 publisher:

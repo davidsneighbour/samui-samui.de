@@ -1,6 +1,6 @@
 ---
 title: Aus 9 mach 10
-date: 2006-08-20T02:18:00+00:00
+date: 2006-08-20T09:18:00+07:00
 publisher:
   description: true
   summary: true

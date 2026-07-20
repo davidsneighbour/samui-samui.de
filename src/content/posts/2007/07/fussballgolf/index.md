@@ -1,6 +1,6 @@
 ---
 title: Fussballgolf
-date: 2007-07-06T02:18:56+00:00
+date: 2007-07-06T09:18:56+07:00
 publisher:
   description: true
   summary: true

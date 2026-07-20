@@ -1,6 +1,6 @@
 ---
 title: Gehen Sie über Los, ziehen Sie nicht 4000 Euro ein …
-date: 2005-01-07T03:00:00+00:00
+date: 2005-01-07T10:00:00+07:00
 tags:
   - wie alles begann
 lastmod: 2023-09-10T19:14:12+07:00

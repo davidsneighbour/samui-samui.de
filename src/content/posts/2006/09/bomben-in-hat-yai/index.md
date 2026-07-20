@@ -1,6 +1,6 @@
 ---
 title: Bomben in Hat Yai
-date: 2006-09-17T03:16:43+00:00
+date: 2006-09-17T10:16:43+07:00
 publisher:
   description: true
   summary: true

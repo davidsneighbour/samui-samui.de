@@ -1,6 +1,6 @@
 ---
 title: Neue Ziffern in den Nummern
-date: 2006-05-30T11:15:00+00:00
+date: 2006-05-30T18:15:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

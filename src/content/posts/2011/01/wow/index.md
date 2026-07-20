@@ -1,6 +1,6 @@
 ---
 title: Wow!!!
-date: 2011-01-27T01:21:31+00:00
+date: 2011-01-27T08:21:31+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

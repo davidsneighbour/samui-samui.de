@@ -1,6 +1,6 @@
 ---
 title: Des Todes Handynummer
-date: 2010-01-20T02:55:46+00:00
+date: 2010-01-20T09:55:46+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

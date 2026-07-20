@@ -1,6 +1,6 @@
 ---
 title: Gewaltlos II
-date: 2008-09-01T04:59:25+00:00
+date: 2008-09-01T11:59:25+07:00
 publisher:
   description: true
   summary: true

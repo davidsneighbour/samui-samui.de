@@ -1,6 +1,6 @@
 ---
 title: Schnellbootunfall auf der Fullmoon-Party
-date: 2010-06-26T12:15:47+00:00
+date: 2010-06-26T19:15:47+07:00
 dsq_thread_id:
   - "2899958653"
 lastmod: 2023-09-10T19:14:12+07:00

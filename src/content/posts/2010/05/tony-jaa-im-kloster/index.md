@@ -1,6 +1,6 @@
 ---
 title: Tony Jaa im Kloster
-date: 2010-05-28T12:18:18+00:00
+date: 2010-05-28T19:18:18+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

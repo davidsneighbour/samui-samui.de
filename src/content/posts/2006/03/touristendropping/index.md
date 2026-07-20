@@ -1,0 +1,17 @@
+---
+title: Touristendropping
+date: 2006-03-14T02:41:08+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+[Bernama.com schreibt, dass die Touristenzahlen im Süden Thailands wegen des Aufstands in den letzten drei Jahren auf 50% gesunken sind][1].
+
+Kleine zynische Bemerkung am Rande: Bei den Anschlägen im Süden ist noch kein Tourist zu Schaden gekommen.
+
+ [1]: http://www.bernama.com/bernama/v3/news_lite.php?id=185335

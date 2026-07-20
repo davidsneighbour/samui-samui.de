@@ -1,6 +1,6 @@
 ---
 title: Guten Morgen!
-date: 2007-06-15T12:04:25+00:00
+date: 2007-06-15T19:04:25+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: Kabelfernsehen Samuistyle
-date: 2007-11-13T12:57:26+00:00
+date: 2007-11-13T19:57:26+07:00
 dsq_thread_id:
   - "3514774341"
 publisher:

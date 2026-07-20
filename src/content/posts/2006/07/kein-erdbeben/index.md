@@ -1,6 +1,6 @@
 ---
 title: Kein Erdbeben!
-date: 2006-07-21T10:53:25+00:00
+date: 2006-07-21T17:53:25+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Pfingstwetter
-date: 2013-05-19T10:20:47+00:00
+date: 2013-05-19T17:20:47+07:00
 post_to_facebook_timeline:
   - "1"
 publisher:

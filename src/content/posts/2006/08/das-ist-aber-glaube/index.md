@@ -1,6 +1,6 @@
 ---
 title: Das ist aber Glaube
-date: 2006-08-22T09:35:26+00:00
+date: 2006-08-22T16:35:26+07:00
 publisher:
   description: true
   summary: true

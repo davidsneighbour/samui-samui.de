@@ -1,6 +1,6 @@
 ---
 title: Der Phallus
-date: 2006-06-24T06:58:00+00:00
+date: 2006-06-24T13:58:00+07:00
 dsq_thread_id:
   - "3341478538"
 publisher:

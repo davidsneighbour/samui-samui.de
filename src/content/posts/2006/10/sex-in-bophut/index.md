@@ -1,6 +1,6 @@
 ---
 title: Sex in Bophut
-date: 2006-10-08T09:45:59+00:00
+date: 2006-10-08T16:45:59+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Der goldene Kompass
-date: 2007-12-08T16:43:37+00:00
+date: 2007-12-08T23:43:37+07:00
 publisher:
   description: true
   summary: true

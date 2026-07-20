@@ -1,6 +1,6 @@
 ---
 title: Wellenreiten
-date: 2010-07-05T00:50:14+00:00
+date: 2010-07-05T07:50:14+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

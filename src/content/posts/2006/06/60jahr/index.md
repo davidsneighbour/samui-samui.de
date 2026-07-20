@@ -1,6 +1,6 @@
 ---
 title: 60 Jahr…
-date: 2006-06-08T01:36:00+00:00
+date: 2006-06-08T08:36:00+07:00
 publisher:
   description: true
   summary: true

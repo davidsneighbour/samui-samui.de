@@ -1,6 +1,6 @@
 ---
 title: Meine Socken
-date: 2006-01-03T00:57:00+00:00
+date: 2006-01-03T07:57:00+07:00
 publisher:
   description: true
   summary: true

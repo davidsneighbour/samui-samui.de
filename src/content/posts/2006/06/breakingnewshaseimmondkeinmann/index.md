@@ -1,6 +1,6 @@
 ---
 title: 'Breaking News: Hase im Mond, kein Mann'
-date: 2006-06-13T01:18:00+00:00
+date: 2006-06-13T08:18:00+07:00
 publisher:
   description: true
   summary: true

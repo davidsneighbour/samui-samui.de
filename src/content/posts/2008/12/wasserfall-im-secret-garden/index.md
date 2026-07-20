@@ -1,0 +1,23 @@
+---
+title: Wasserfall im Secret Garden
+date: 2008-12-09T06:33:45+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+  flickr: true
+---
+<div class="flickr">
+  <a href="http://www.flickr.com/photos/schreibblogade/3095664988/" title="At the secret garden..."><img src="//farm4.static.flickr.com/3114/3095664988_84a2cb8d7d.jpg" alt="At the secret garden..." /></a></p>
+
+  <p>
+    At the secret garden...
+  </p>
+</div>
+
+... und [diesmal][1] bin ich nicht hineingefallen...
+
+ [1]: https://samui-samui.de/photo/1261/fraglicher-wasserfall/

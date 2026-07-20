@@ -1,6 +1,6 @@
 ---
 title: Massenflucht
-date: 2006-10-02T05:26:00+00:00
+date: 2006-10-02T12:26:00+07:00
 publisher:
   description: true
   summary: true

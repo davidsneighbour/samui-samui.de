@@ -1,6 +1,6 @@
 ---
 title: Teletubby Thaistyle
-date: 2007-08-20T01:36:07+00:00
+date: 2007-08-20T08:36:07+07:00
 publisher:
   description: true
   summary: true

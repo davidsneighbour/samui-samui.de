@@ -1,6 +1,6 @@
 ---
 title: Nahtod-Gedanken
-date: 2008-01-24T01:04:53+00:00
+date: 2008-01-24T08:04:53+07:00
 dsq_thread_id:
   - "3603827447"
 publisher:

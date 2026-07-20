@@ -1,6 +1,6 @@
 ---
 title: Friedhof der Geisterhäuser
-date: 2005-03-27T02:47:00+00:00
+date: 2005-03-27T09:47:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

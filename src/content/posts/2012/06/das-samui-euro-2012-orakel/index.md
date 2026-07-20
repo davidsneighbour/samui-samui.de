@@ -1,6 +1,6 @@
 ---
 title: Das Samui?! Euro-2012-Orakel.
-date: 2012-06-22T13:12:50+00:00
+date: 2012-06-22T20:12:50+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

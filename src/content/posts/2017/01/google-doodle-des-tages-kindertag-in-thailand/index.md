@@ -1,6 +1,6 @@
 ---
 title: 'Google Doodle des Tages: Kindertag in Thailand'
-date: 2017-01-14T03:54:45+00:00
+date: 2017-01-14T10:54:45+07:00
 url: /2017/01/google-doodle-des-tages-kindertag-in-thailand/
 tags:
   - google doodle

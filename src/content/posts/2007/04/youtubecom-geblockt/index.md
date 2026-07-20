@@ -1,6 +1,6 @@
 ---
 title: Youtube.com geblockt
-date: 2007-04-04T05:21:27+00:00
+date: 2007-04-04T12:21:27+07:00
 dsq_thread_id:
   - "2962712892"
 publisher:

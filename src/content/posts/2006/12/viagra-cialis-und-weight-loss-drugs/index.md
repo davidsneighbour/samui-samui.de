@@ -1,6 +1,6 @@
 ---
 title: Viagra, Cialis und Weight-Loss-Drugs
-date: 2006-12-05T03:18:43+00:00
+date: 2006-12-05T10:18:43+07:00
 dsq_thread_id:
   - "3665286534"
 publisher:

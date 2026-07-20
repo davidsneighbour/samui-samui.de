@@ -1,6 +1,6 @@
 ---
 title: Mee and my father
-date: 2009-06-17T01:08:28+00:00
+date: 2009-06-17T08:08:28+07:00
 dsq_thread_id:
   - "3027257157"
 publisher:

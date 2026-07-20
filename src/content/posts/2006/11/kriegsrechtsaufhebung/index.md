@@ -1,6 +1,6 @@
 ---
 title: Kriegsrechtsaufhebung
-date: 2006-11-27T04:46:15+00:00
+date: 2006-11-27T11:46:15+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

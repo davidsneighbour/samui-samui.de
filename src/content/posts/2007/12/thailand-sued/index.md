@@ -1,6 +1,6 @@
 ---
 title: Thailand, Süd
-date: 2007-12-06T00:41:18+00:00
+date: 2007-12-06T07:41:18+07:00
 publisher:
   description: true
   summary: true

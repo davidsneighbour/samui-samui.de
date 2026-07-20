@@ -1,6 +1,6 @@
 ---
 title: Das Panda-Orakel
-date: 2012-06-29T09:05:03+00:00
+date: 2012-06-29T16:05:03+07:00
 fb_mentioned_pages:
   - a:0:{}
 fb_mentioned_friends:

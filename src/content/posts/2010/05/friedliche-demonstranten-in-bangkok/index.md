@@ -1,6 +1,6 @@
 ---
 title: Friedliche Demonstranten in Bangkok
-date: 2010-05-20T01:53:59+00:00
+date: 2010-05-20T08:53:59+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

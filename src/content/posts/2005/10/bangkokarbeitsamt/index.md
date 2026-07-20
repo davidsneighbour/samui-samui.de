@@ -1,6 +1,6 @@
 ---
 title: Bangkok – Arbeitsamt
-date: 2005-10-10T06:47:00+00:00
+date: 2005-10-10T13:47:00+07:00
 dsq_thread_id:
   - "3106080210"
 lastmod: 2023-09-10T19:14:12+07:00

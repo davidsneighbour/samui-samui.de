@@ -1,6 +1,6 @@
 ---
 title: Spice of life
-date: 2008-03-18T05:13:52+00:00
+date: 2008-03-18T12:13:52+07:00
 publisher:
   description: true
   summary: true

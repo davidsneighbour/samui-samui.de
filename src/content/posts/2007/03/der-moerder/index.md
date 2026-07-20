@@ -1,6 +1,6 @@
 ---
 title: Der Mörder
-date: 2007-03-01T09:04:11+00:00
+date: 2007-03-01T16:04:11+07:00
 dsq_thread_id:
   - "2995621781"
 publisher:

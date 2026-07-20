@@ -1,6 +1,6 @@
 ---
 title: "Quiz: In welcher Branche arbeiten wir?"
-date: 2005-11-02T00:26:00+00:00
+date: 2005-11-02T07:26:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

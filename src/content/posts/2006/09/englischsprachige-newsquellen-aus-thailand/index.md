@@ -1,6 +1,6 @@
 ---
 title: Englischsprachige Newsquellen aus Thailand
-date: 2006-09-22T03:53:00+00:00
+date: 2006-09-22T10:53:00+07:00
 publisher:
   description: true
   summary: true

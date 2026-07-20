@@ -1,6 +1,6 @@
 ---
 title: Raupe. Hungrig.
-date: 2007-01-19T03:11:58+00:00
+date: 2007-01-19T10:11:58+07:00
 publisher:
   description: true
   summary: true

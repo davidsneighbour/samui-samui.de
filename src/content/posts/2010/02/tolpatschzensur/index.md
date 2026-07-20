@@ -1,6 +1,6 @@
 ---
 title: Tolpatschzensur
-date: 2010-02-23T15:12:28+00:00
+date: 2010-02-23T22:12:28+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Farang-Chat
-date: 2006-09-28T13:04:20+00:00
+date: 2006-09-28T20:04:20+07:00
 publisher:
   description: true
   summary: true

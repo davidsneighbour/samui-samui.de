@@ -1,6 +1,6 @@
 ---
 title: Schnaps. Elf.
-date: 2016-01-09T01:00:44+00:00
+date: 2016-01-09T08:00:44+07:00
 url: /2016/01/schnaps-elf/
 tags:
   - samuisamui

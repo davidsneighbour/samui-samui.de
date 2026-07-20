@@ -1,6 +1,6 @@
 ---
 title: Soi Karaoke
-date: 2007-08-23T12:56:43+00:00
+date: 2007-08-23T19:56:43+07:00
 publisher:
   description: true
   summary: true

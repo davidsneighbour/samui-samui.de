@@ -1,6 +1,6 @@
 ---
 title: No more D, no more 2B
-date: 2007-12-08T15:41:20+00:00
+date: 2007-12-08T22:41:20+07:00
 publisher:
   description: true
   summary: true

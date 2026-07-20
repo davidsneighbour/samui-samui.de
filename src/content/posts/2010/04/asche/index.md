@@ -1,6 +1,6 @@
 ---
 title: Asche
-date: 2010-04-20T00:58:40+00:00
+date: 2010-04-20T07:58:40+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

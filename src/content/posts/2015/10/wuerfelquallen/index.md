@@ -1,6 +1,6 @@
 ---
 title: Würfelquallen
-date: 2015-10-08T13:22:56+00:00
+date: 2015-10-08T20:22:56+07:00
 url: /2015/10/wuerfelquallen/
 tags:
   - wuerfelquallen

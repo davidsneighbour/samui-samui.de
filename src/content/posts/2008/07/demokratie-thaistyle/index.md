@@ -1,6 +1,6 @@
 ---
 title: Demokratie Thaistyle
-date: 2008-07-29T04:15:33+00:00
+date: 2008-07-29T11:15:33+07:00
 publisher:
   description: true
   summary: true

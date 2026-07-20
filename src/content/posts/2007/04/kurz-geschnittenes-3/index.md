@@ -1,6 +1,6 @@
 ---
 title: Kurz Geschnittenes 3
-date: 2007-04-14T09:03:55+00:00
+date: 2007-04-14T16:03:55+07:00
 publisher:
   description: true
   summary: true

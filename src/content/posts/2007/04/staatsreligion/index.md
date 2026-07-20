@@ -1,6 +1,6 @@
 ---
 title: Staatsreligion
-date: 2007-04-20T11:52:47+00:00
+date: 2007-04-20T18:52:47+07:00
 publisher:
   description: true
   summary: true

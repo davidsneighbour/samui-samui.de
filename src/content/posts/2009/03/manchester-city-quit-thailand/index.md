@@ -1,6 +1,6 @@
 ---
 title: "Manchester City quit Thailand"
-date: 2009-03-06T14:15:46+00:00
+date: 2009-03-06T21:15:46+07:00
 publisher:
   description: true
   summary: true

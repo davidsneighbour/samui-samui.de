@@ -1,6 +1,6 @@
 ---
 title: Mutitag
-date: 2005-05-08T02:20:00+00:00
+date: 2005-05-08T09:20:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

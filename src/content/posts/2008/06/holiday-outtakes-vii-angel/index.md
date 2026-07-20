@@ -1,6 +1,6 @@
 ---
 title: 'Holiday Outtakes VII: Angel'
-date: 2008-06-25T03:16:07+00:00
+date: 2008-06-25T10:16:07+07:00
 publisher:
   description: true
   summary: true

@@ -1,6 +1,6 @@
 ---
 title: San Luang Dia
-date: 2007-01-25T01:35:14+00:00
+date: 2007-01-25T08:35:14+07:00
 publisher:
   description: true
   summary: true

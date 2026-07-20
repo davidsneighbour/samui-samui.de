@@ -1,6 +1,6 @@
 ---
 title: Die Zukunft (nach Ochsenmeinung)
-date: 2011-05-13T16:59:34+00:00
+date: 2011-05-13T23:59:34+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

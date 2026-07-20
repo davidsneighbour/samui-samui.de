@@ -1,6 +1,6 @@
 ---
 title: Thailändische Farbenlehre
-date: 2009-04-11T16:04:36+00:00
+date: 2009-04-11T23:04:36+07:00
 publisher:
   description: true
   summary: true

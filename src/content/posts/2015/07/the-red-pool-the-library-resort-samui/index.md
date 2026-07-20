@@ -1,6 +1,6 @@
 ---
 title: The Red Pool, The Library Resort Samui
-date: 2015-07-27T13:28:56+00:00
+date: 2015-07-27T20:28:56+07:00
 url: /2015/07/the-red-pool-the-library-resort-samui/
 tags:
   - architektur

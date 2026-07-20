@@ -1,6 +1,6 @@
 ---
 title: Gleichaltriger Nachbar
-date: 2008-07-16T03:41:55+00:00
+date: 2008-07-16T10:41:55+07:00
 publisher:
   description: true
   summary: true

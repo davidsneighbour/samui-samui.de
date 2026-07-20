@@ -1,6 +1,6 @@
 ---
 title: Hörschwelle
-date: 2006-06-03T09:24:00+00:00
+date: 2006-06-03T16:24:00+07:00
 publisher:
   description: true
   summary: true

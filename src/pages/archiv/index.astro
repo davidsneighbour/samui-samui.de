@@ -7,7 +7,11 @@ import Accordion from '@components/ui/accordion.astro';
 import Badge from '@components/ui/badge.astro';
 import PageLayout from '@layouts/PageLayout.astro';
 import { cn } from '@utils/cn';
-import { formatDateDuration, formatMonthLong } from '@utils/dates';
+import {
+  formatDateDuration,
+  formatMonthLong,
+  getPostDateParts,
+} from '@utils/dates';
 import { groupPostsByTag } from '@utils/tags';
 
 const [posts, tagEntries] = await Promise.all([
@@ -40,7 +44,7 @@ interface YearSummary {
 
 const postsByYear = new Map<number, typeof posts>();
 for (const post of posts) {
-  const year = post.data.date.getUTCFullYear();
+  const year = getPostDateParts(post.data.date).year;
   const group = postsByYear.get(year);
   if (group) {
     group.push(post);
@@ -63,7 +67,7 @@ for (let year = maxYear; year >= minYear; year--) {
   if (yearPosts) {
     const monthCounts = Array.from({ length: 12 }, () => 0);
     for (const post of yearPosts) {
-      const month = post.data.date.getUTCMonth();
+      const month = getPostDateParts(post.data.date).monthIndex;
       monthCounts[month] = (monthCounts[month] ?? 0) + 1;
     }
     years.push({
@@ -147,8 +151,8 @@ const curatedTags = tagGroups.slice(0, 12);
 
   <p class="mb-8 text-card-foreground">
     Im Archiv findest du alle Beiträge seit
-    {oldestPost.data.date.getUTCFullYear()}. Suche nach einem Begriff, wähle ein
-    Jahr oder steige über eines der häufigsten Themen ein.
+    {getPostDateParts(oldestPost.data.date).year}. Suche nach einem Begriff,
+    wähle ein Jahr oder steige über eines der häufigsten Themen ein.
   </p>
 
   <dl

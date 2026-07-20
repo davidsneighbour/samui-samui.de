@@ -1,6 +1,6 @@
 ---
 title: Man, 46, sucht…
-date: 2006-09-26T10:39:00+00:00
+date: 2006-09-26T17:39:00+07:00
 publisher:
   description: true
   summary: true

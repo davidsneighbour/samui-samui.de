@@ -1,6 +1,6 @@
 ---
 title: Dänische Geschenke
-date: 2007-12-26T01:32:39+00:00
+date: 2007-12-26T08:32:39+07:00
 publisher:
   description: true
   summary: true

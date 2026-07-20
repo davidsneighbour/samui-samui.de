@@ -1,0 +1,15 @@
+---
+title: Homer und die Bell-Kröte
+date: 2005-03-31T06:57:00+07:00
+lastmod: 2023-09-10T19:14:12+07:00
+publisher:
+  description: true
+  summary: true
+  cover: true
+  tags: true
+  seo: true
+  covermigration: true
+---
+![](/wp-content/old-images/85.jpg)
+
+In den ersten Wochen waren rund ums Haus (das ich heute für einen weiteren Monat angemietet habe) immer jede Menge Hunde verteilt, in Hochzeiten 7 Stück. Inzwischen grenzt es fast schon an ein Wunder, wenn mal einer vorbei kommt. Das hat allerdings auch den Vorteil, dass es Nachts nicht wegen der Hunde laut ist. Hier sehen wir nun ein Foto aus alten glanzvollen Zeiten. Braun ist Homer, der damals recht alt und vermutlich weiblich war (hmm, ne andersrum wird ein Schuh draus, wie eine Frau aussehen und ein Mann sein, naje, er machte nie einen intelligenten Eindruck) und vermutlich inzwischen verstorben ist (sein Halsband lag im Müll) und das kleine schwarze Ding ist die Bell-Kröte, die mir die ersten Wochen schlaflose Nächte bereitet hat. Timmy genannt. Timmäh!!!

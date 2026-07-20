@@ -1,6 +1,6 @@
 ---
 title: Judgement Day II
-date: 2007-05-29T02:00:28+00:00
+date: 2007-05-29T09:00:28+07:00
 publisher:
   description: true
   summary: true

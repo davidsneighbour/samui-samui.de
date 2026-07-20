@@ -1,6 +1,6 @@
 ---
 title: Benzin wird teurer
-date: 2005-09-03T06:01:00+00:00
+date: 2005-09-03T13:01:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

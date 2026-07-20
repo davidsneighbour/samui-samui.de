@@ -1,6 +1,6 @@
 ---
 title: D-Day
-date: 2010-02-25T12:29:45+00:00
+date: 2010-02-25T19:29:45+07:00
 lastmod: 2023-09-10T19:14:13+07:00
 publisher:
   description: true

@@ -1,6 +1,6 @@
 ---
 title: Google und Thailands Verfassung
-date: 2013-09-24T02:33:39+00:00
+date: 2013-09-24T09:33:39+07:00
 fb_author_post_id:
   - 517050641_10151664523270642
 publisher:

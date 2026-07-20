@@ -1,6 +1,6 @@
 ---
 title: Kommunikation
-date: 2007-04-21T05:38:11+00:00
+date: 2007-04-21T12:38:11+07:00
 publisher:
   description: true
   summary: true

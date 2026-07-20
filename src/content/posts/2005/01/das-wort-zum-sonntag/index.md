@@ -1,6 +1,6 @@
 ---
 title: Das Wort zum Sonntag
-date: 2005-01-30T01:40:09+00:00
+date: 2005-01-30T08:40:09+07:00
 dsq_thread_id:
   - "6412166383"
 lastmod: 2023-09-10T19:14:12+07:00

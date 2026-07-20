@@ -1,6 +1,6 @@
 ---
 title: Lawblogger vs. Thai-ATM
-date: 2009-06-15T15:08:47+00:00
+date: 2009-06-15T22:08:47+07:00
 publisher:
   description: true
   summary: true

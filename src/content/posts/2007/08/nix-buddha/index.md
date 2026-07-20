@@ -1,6 +1,6 @@
 ---
 title: Nix Buddha.
-date: 2007-08-11T12:20:16+00:00
+date: 2007-08-11T19:20:16+07:00
 publisher:
   description: true
   summary: true

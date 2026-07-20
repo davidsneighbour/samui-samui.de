@@ -1,6 +1,6 @@
 ---
 title: Faur??
-date: 2005-08-31T02:50:00+00:00
+date: 2005-08-31T09:50:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
   description: true

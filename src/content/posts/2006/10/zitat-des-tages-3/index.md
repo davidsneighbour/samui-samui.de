@@ -1,6 +1,6 @@
 ---
 title: Zitat des Tages
-date: 2006-10-06T12:21:52+00:00
+date: 2006-10-06T19:21:52+07:00
 publisher:
   description: true
   summary: true
