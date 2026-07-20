@@ -5,7 +5,6 @@ author:
   homepage: https://kollitsch.de
 date: 2019-07-08T20:01:33+07:00
 lastmod: 2019-07-08T20:01:33+07:00
-url: /2019/07/thailands-gruene-insel
 tags:
   - umweltschutz
   - insel

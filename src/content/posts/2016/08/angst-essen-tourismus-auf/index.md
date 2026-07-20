@@ -1,7 +1,6 @@
 ---
 title: Angst essen Tourismus auf
 date: 2016-08-24T09:33:38+07:00
-url: /2016/08/angst-essen-tourismus-auf/
 tags:
   - bombenanschlag
   - terrorismus

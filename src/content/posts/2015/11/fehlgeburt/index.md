@@ -1,7 +1,6 @@
 ---
 title: Fehlgeburt
 date: 2015-11-18T21:08:11+07:00
-url: /2015/11/fehlgeburt/
 tags:
   - chiang mai
   - panda

@@ -1,7 +1,6 @@
 ---
 title: Bärig
 date: 2016-03-27T15:21:08+07:00
-url: /2016/03/baerig/
 tags:
   - tierwelt
   - baeren

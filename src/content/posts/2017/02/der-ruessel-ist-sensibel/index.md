@@ -1,7 +1,6 @@
 ---
 title: Der Rüssel ist sensibel
 date: 2017-02-12T12:18:59+07:00
-url: /2017/02/der-ruessel-ist-sensibel/
 tags:
   - elefanten
   - tierwelt

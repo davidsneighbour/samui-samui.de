@@ -1,7 +1,6 @@
 ---
 title: Eine GDPR für Thailand
 date: 2019-06-22T17:31:48+07:00
-url: /2019/06/thailands-personal-data-protection-act
 tags:
   - gesetze
   - datenschutz

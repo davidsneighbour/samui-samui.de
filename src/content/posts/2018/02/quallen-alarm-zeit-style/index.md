@@ -1,7 +1,6 @@
 ---
 title: "Quallen Alarm (Zeit-Style)"
 date: 2018-02-22T20:46:22+07:00
-url: /2018/02/quallen-alarm-zeit-style
 tags:
   - reisewarnung
   - news

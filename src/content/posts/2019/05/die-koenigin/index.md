@@ -1,7 +1,6 @@
 ---
 title: "Die Königin"
 date: 2019-05-17T23:25:48+07:00
-url: /2019/05/die-koenigin
 tags:
   - royal family
 leute:

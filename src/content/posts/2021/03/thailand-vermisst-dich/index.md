@@ -3,7 +3,6 @@ title: "Thailand vermisst dich"
 description: ""
 date: 2021-03-16T19:08:02+07:00
 lastmod: 2021-03-16T19:08:02+07:00
-url: /2021/03/thailand-vermisst-dich
 tags:
   - tat
   - thailand

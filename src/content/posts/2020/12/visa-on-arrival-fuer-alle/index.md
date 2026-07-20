@@ -2,7 +2,6 @@
 title: "Visa on Arrival für alle"
 date: 2020-12-27T16:31:42+07:00
 lastmod: 2020-12-27T16:31:42+07:00
-url: /2020/12/visa-on-arrival-fuer-alle
 tags:
   - thailand
   - visa

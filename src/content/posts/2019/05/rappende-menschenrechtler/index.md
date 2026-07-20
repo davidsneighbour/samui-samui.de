@@ -1,7 +1,6 @@
 ---
 title: "Rappende Menschenrechtler"
 date: 2019-05-31T22:24:48+07:00
-url: /2019/05/rappende-menschenrechtler
 tags:
   - musik
   - armee-regierung

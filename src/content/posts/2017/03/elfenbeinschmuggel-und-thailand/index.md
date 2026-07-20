@@ -1,7 +1,6 @@
 ---
 title: Elfenbeinschmuggel und Thailand
 date: 2017-03-09T21:30:58+07:00
-url: /2017/03/elfenbeinschmuggel-und-thailand/
 tags:
   - elefanten
   - elfenbein

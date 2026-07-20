@@ -1,7 +1,6 @@
 ---
 title: Die Krönung
 date: 2019-01-03T20:25:00+07:00
-url: /2019/01/die-kroenung
 tags:
   - chakri-dynastie
   - zeremonien

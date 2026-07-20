@@ -2,7 +2,6 @@
 title: "Thailands erste Tonfilme"
 date: 2019-09-11T20:14:16+07:00
 lastmod: 2019-09-11T20:14:16+07:00
-url: /2019/09/thailands-erste-tonfilme
 tags:
   - geschichte
   - tonfilm

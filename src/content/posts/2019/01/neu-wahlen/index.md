@@ -1,7 +1,6 @@
 ---
 title: "Neu! Wahlen?"
 date: 2019-01-23T21:00:00+07:00
-url: /2019/01/neu-wahlen/
 tags:
   - politik
   - wahlen 2019

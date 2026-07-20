@@ -1,7 +1,6 @@
 ---
 title: Portugiesische Galeeren
 date: 2017-06-28T22:44:53+07:00
-url: /2017/06/portugiesische-galeeren/
 tags:
   - portugiesische galleren
   - tierwelt

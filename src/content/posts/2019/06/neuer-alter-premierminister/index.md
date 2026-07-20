@@ -1,7 +1,6 @@
 ---
 title: "Neuer alter Premierminister"
 date: 2019-06-06T19:25:48+07:00
-url: /2019/06/neuer-alter-premierminister
 tags:
   - politik
 leute:

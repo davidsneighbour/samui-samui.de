@@ -1,7 +1,6 @@
 ---
 title: Rundgang durch das Königliche Krematorium
 date: 2017-10-22T20:09:04+07:00
-url: /2017/10/rundgang-durch-das-koenigliche-krematorium/
 publisher:
   description: true
   summary: true

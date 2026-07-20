@@ -1,7 +1,6 @@
 ---
 title: "Vogelgrippe, mal wieder"
 date: 2018-03-27T19:29:11+07:00
-url: /2018/03/vogelgrippe-mal-wieder
 tags:
   - vogelgrippe
   - tierwelt

@@ -1,7 +1,6 @@
 ---
 title: Es wird ein gutes Jahr! Der Ochs hat gesprochen…
 date: 2015-05-16T15:49:26+07:00
-url: /2015/05/es-wird-ein-gutes-jahr-der-ochs-hat-gesprochen/
 tags:
   - royal ploughing ceremony
   - traditionen

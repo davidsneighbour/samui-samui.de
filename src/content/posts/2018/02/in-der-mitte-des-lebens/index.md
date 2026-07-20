@@ -2,7 +2,6 @@
 title: "In der Mitte des Lebens"
 description: "Ein paar Gedanken zum Altern."
 date: 2018-02-14T20:11:26+07:00
-url: /2018/02/in-der-mitte-des-lebens
 tags:
   - dies und das
   - gnadenloses altern

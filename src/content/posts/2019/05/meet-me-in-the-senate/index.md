@@ -1,7 +1,6 @@
 ---
 title: "Meet Me in the Senate"
 date: 2019-05-16T20:25:48+07:00
-url: /2019/05/meet-me-in-the-senate
 tags:
   - senat
   - politik

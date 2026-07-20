@@ -1,7 +1,6 @@
 ---
 title: Schnaps. Elf.
 date: 2016-01-09T08:00:44+07:00
-url: /2016/01/schnaps-elf/
 tags:
   - samuisamui
   - wieallesbegann

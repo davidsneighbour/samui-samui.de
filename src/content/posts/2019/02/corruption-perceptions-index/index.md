@@ -1,7 +1,6 @@
 ---
 title: "Corruption Perceptions Index 2018"
 date: 2019-02-03T18:44:00+07:00
-url: /2019/02/corruption-perceptions-index
 tags:
   - korruption
   - listen

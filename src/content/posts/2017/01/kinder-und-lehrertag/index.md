@@ -1,7 +1,6 @@
 ---
 title: 'Kinder- und Lehrertag'
 date: 2017-01-16T20:32:23+07:00
-url: /2017/01/kinder-und-lehrertag/
 tags:
   - feiertage
   - video

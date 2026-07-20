@@ -1,7 +1,6 @@
 ---
 title: Reichere Thais
 date: 2015-06-10T10:13:17+07:00
-url: /2015/06/reichere-thais/
 tags:
   - central
   - chirathivat

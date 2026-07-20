@@ -1,7 +1,6 @@
 ---
 title: Das wahre Leben in Thailand
 date: 2015-11-17T15:57:27+07:00
-url: /2015/11/das-wahre-leben-in-thailand/
 tags:
   - undjetztmalwerbung
   - TAT

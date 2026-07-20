@@ -1,7 +1,6 @@
 ---
 title: Ich und meine Blog-Depression
 date: 2015-04-09T22:16:50+07:00
-url: /2015/04/ich-und-meine-blog-depression/
 tags:
   - samuisamui
 publisher:

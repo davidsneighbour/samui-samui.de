@@ -1,7 +1,6 @@
 ---
 title: Die Sache mit dem Krokodil
 date: 2017-01-02T21:31:39+07:00
-url: /2017/01/die-sache-mit-dem-krokodil/
 tags:
   - tierwelt
   - video

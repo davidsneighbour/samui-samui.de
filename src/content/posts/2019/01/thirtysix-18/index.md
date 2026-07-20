@@ -1,7 +1,6 @@
 ---
 title: "Thirtysix-18"
 date: 2019-01-01T21:00:00+07:00
-url: /2019/01/thirtysix-18/
 tags:
   - wetter
   - sturm

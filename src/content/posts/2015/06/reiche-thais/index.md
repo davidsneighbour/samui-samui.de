@@ -1,7 +1,6 @@
 ---
 title: Reiche Thais
 date: 2015-06-05T20:56:44+07:00
-url: /2015/06/reiche-thais/
 tags:
   - high society
   - geld

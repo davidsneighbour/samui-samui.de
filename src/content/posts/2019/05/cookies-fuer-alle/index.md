@@ -1,7 +1,6 @@
 ---
 title: "Cookies für Alle!"
 date: 2019-05-30T19:25:48+07:00
-url: /2019/05/cookies-fuer-alle
 tags:
   - cookies
   - onlinekram

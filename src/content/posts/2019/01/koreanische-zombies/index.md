@@ -1,7 +1,6 @@
 ---
 title: "Koreanische Zombies"
 date: 2019-01-27T20:00:00+07:00
-url: /2019/01/koreanische-zombies/
 tags:
   - netflix
   - korea

@@ -3,7 +3,6 @@ title: "Das Jahr des Ochsen"
 description: ""
 date: 2021-02-13T19:15:11+07:00
 lastmod: 2021-02-13T19:15:11+07:00
-url: /2021/02/das-jahr-des-ochsen
 tags:
   - mondkalender
   - neujahr

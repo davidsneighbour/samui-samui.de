@@ -1,7 +1,6 @@
 ---
 title: Party-Insel Nummer 4
 date: 2015-12-28T16:50:49+07:00
-url: /2015/12/party-insel-nummer-4/
 tags:
   - awards
   - party
