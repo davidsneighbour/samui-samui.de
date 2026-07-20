@@ -1,0 +1,62 @@
+---
+import {
+  parseHtmlFragment,
+  renderNoticeDescription,
+} from '@utils/notices/markdown';
+import { buildNoticeHast, noticeHastToHtml } from '@utils/notices/render';
+import { resolveNotice } from '@utils/notices/resolve';
+import type { NoticeVariant } from '@utils/notices/schema';
+
+interface Props {
+  slug?: string;
+  title?: string;
+  description?: string;
+  icon?: string;
+  variant?: NoticeVariant;
+  dismissible?: boolean;
+  dismissLabel?: string;
+  class?: string;
+}
+
+const {
+  slug,
+  title,
+  description,
+  icon,
+  variant,
+  dismissible,
+  dismissLabel,
+  class: className,
+} = Astro.props as Props;
+
+// The default slot is already-compiled HTML by the time an .mdx file's
+// <Notice>...</Notice> children reach this component (MDX renders its own
+// Markdown before Astro ever sees the slot), so it's used as-is below
+// rather than re-parsed as Markdown source -- see `resolved.descriptionSource`
+// and documentation/notices.md's "Override precedence" section.
+const hasSlot = Astro.slots.has('default');
+const slotHtml = hasSlot ? (await Astro.slots.render('default')).trim() : '';
+
+const resolved = resolveNotice({
+  bodyDescription: slotHtml.length > 0 ? slotHtml : undefined,
+  description,
+  dismissible,
+  dismissLabel,
+  icon,
+  slug,
+  sourceFile: Astro.url.pathname,
+  title,
+  variant,
+});
+
+const descriptionChildren =
+  resolved.descriptionSource === 'body' && slotHtml.length > 0
+    ? parseHtmlFragment(slotHtml)
+    : renderNoticeDescription(resolved.description);
+
+const html = noticeHastToHtml(
+  buildNoticeHast(resolved, descriptionChildren, { class: className }),
+);
+---
+
+<Fragment set:html={html} />

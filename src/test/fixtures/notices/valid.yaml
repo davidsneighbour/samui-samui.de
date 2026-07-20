@@ -1,0 +1,12 @@
+beispiel-hinweis:
+  title: "Beispiel"
+  description: "Ein **Beispieltext** mit [Link](https://example.com)."
+  icon: "info"
+  variant: "note"
+
+beispiel-korrektur:
+  title: "Korrigiert"
+  description: "Dieser Beitrag wurde aktualisiert."
+  icon: "pencil-line"
+  variant: "correction"
+  dismissible: true

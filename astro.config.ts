@@ -9,6 +9,7 @@ import mkcert from 'vite-plugin-mkcert';
 import redirects from './src/data/redirects.json';
 import pagefind from './src/scripts/integrations/pagefind.ts';
 import { rehypeLegacyImages } from './src/scripts/rehype/legacy-images.ts';
+import { rehypeDnbNotice } from './src/scripts/rehype/notices.ts';
 
 // `astro dev` only -- `server: { host: true }` (below) makes the dev server
 // reachable from other devices on the LAN by IP, and `http://192.168.x.x` is
@@ -81,7 +82,7 @@ export default defineConfig({
     // post bodies (the majority of this site's 20-year archive) would still
     // be unparsed `raw` nodes by the time `rehypeLegacyImages` visits the
     // tree -- see src/scripts/rehype/legacy-images.ts's docstring.
-    rehypePlugins: [rehypeRaw, rehypeLegacyImages],
+    rehypePlugins: [rehypeRaw, rehypeLegacyImages, rehypeDnbNotice],
   },
 
   output: 'static',

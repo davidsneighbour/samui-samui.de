@@ -12,6 +12,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
+<dnb-notice slug="flickr-nicht-mehr-verwendet"></dnb-notice>
+
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/33349474/" title="Big Buddha"><img src="//photos23.flickr.com/33349474_7561de407b.jpg" alt="Big Buddha" /></a>
 </div>

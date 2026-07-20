@@ -1,0 +1,51 @@
+# Central registry for the reusable editorial notice system (see
+# documentation/notices.md). Keys are the slug referenced by
+# `<Notice slug="...">` (MDX) and `<dnb-notice slug="...">` (plain
+# Markdown). Both `title` and `description` support the repository's
+# standard Markdown syntax and are rendered through the same safe
+# Markdown pipeline as post content -- see src/utils/notices/markdown.ts.
+#
+# Schema (src/utils/notices/schema.ts):
+#   title: string (required)
+#   description: string (required, Markdown)
+#   icon: string (required, a Lucide icon name in kebab-case)
+#   variant: note | historical | legal | correction | warning (default: note)
+#   dismissible: boolean (default: false)
+
+flickr-nicht-mehr-verwendet:
+  title: "Redaktionsnotiz"
+  description: >-
+    Flickr wird von dieser Website heute nicht mehr verwendet. Der folgende
+    Absatz beschreibt den damaligen Stand und bleibt aus historischen Gründen
+    unverändert.
+  icon: "camera-off"
+  variant: "historical"
+
+keine-rechtsberatung:
+  title: "Keine Rechtsberatung"
+  description: >-
+    Dieser Abschnitt gibt ausschließlich meine persönliche Meinung wieder und
+    ersetzt keine rechtliche Beratung. Für verbindliche Auskünfte wenden Sie
+    sich bitte an eine qualifizierte Rechtsanwältin oder einen qualifizierten
+    Rechtsanwalt.
+  icon: "scale"
+  variant: "legal"
+
+historische-informationen-koennen-veraltet-sein:
+  title: "Historischer Hinweis"
+  description: >-
+    Dieser Beitrag ist Teil des Archivs und kann veraltete Informationen
+    enthalten. Namen, Preise, Öffnungszeiten und ähnliche Angaben wurden seit
+    der Veröffentlichung möglicherweise nicht mehr aktualisiert.
+  icon: "history"
+  variant: "historical"
+
+aktualisierung-verfuegbar:
+  title: "Aktualisierung verfügbar"
+  description: >-
+    Zu diesem Beitrag gibt es einen neueren oder korrigierten Artikel. Die
+    ursprüngliche Fassung bleibt hier aus historischen Gründen unverändert
+    erhalten.
+  icon: "pencil-line"
+  variant: "correction"
+  dismissible: true

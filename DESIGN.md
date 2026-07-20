@@ -361,6 +361,14 @@ sharp (0px) corners.
   hazard-stripe styling, inverted in dark-mode media query. This is a
   deliberate visual break from the rest of the site (an "under
   construction" notice should look like one), not an oversight.
+* **Notice** (`src/components/Notice.astro`, plus the `<dnb-notice>`
+  plain-Markdown equivalent — see documentation/notices.md) — editorial
+  annotation asides (historical context, corrections, legal disclaimers,
+  warnings). Reuses the `muted`/`border`/`card-foreground` tokens already
+  used by tag badges and the author-bio surface rather than introducing a
+  semantic red/yellow/blue palette; `legal`/`warning` variants get
+  `border-primary/40` as their only colour differentiator, everything else
+  stays on the plain `border` token. `not-prose`, no `box-shadow`.
 
 <!-- markdownlint-disable-next-line title-case-style -->
 ## Do's and Don'ts

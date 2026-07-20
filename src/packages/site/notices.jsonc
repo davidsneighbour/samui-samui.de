@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "hast-util-from-html": "2.0.3",
+    "hast-util-to-html": "9.0.5",
+    "hastscript": "9.0.1",
+    "lucide-static": "1.25.0",
+    "remark-gfm": "4.0.1",
+    "remark-parse": "11.0.0",
+    "remark-rehype": "11.1.2",
+    "unified": "11.0.5",
+    "zod": "4.4.3"
+  }
+}
