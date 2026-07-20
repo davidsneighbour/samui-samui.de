@@ -33,6 +33,7 @@
     "remisa.shellman",
     "mkhl.shfmt",
     "mjmlio.vscode-mjml",
-    "ms-vscode.vscode-speech"
+    "ms-vscode.vscode-speech",
+    "emeraldwalk.runonsave"
   ]
 }

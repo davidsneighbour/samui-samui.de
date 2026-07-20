@@ -35,6 +35,14 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.(md|mdx|astro)$",
+        "cmd": "node \"${workspaceFolder}/src/scripts/normalize-german-characters.ts\" --write \"${file}\""
+      }
+    ]
+  },
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },

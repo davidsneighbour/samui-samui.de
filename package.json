@@ -95,6 +95,8 @@
     "release:patch": "release-it --config .release-it.ts --ci --increment=patch",
     "test": "vitest run",
     "test:watch": "vitest",
+    "text:check": "node src/scripts/normalize-german-characters.ts --check",
+    "text:normalize": "node src/scripts/normalize-german-characters.ts --write",
     "upgrade": "npx @astrojs/upgrade"
   },
   "wireit": {
@@ -146,9 +148,11 @@
   },
   "lint-staged": {
     "*.{js,cjs,mjs,ts,astro}": [
+      "node src/scripts/normalize-german-characters.ts --write",
       "biome check --write --no-errors-on-unmatched"
     ],
     "**/!(CHANGELOG).{md,mdx}": [
+      "node src/scripts/normalize-german-characters.ts --write",
       "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc --fix"
     ],
     "**/!(package|package-lock).json": [
