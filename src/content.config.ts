@@ -19,6 +19,21 @@ const publisherFrontmatter = z
   .catchall(z.union([z.string(), z.number(), z.boolean()]))
   .optional();
 
+const curationStatus = z.enum(['include', 'exclude', 'review']);
+
+const curationFrontmatter = z
+  .object({
+    anniversary: z
+      .object({
+        note: z.string().optional(),
+        status: curationStatus,
+      })
+      .strict()
+      .optional(),
+  })
+  .strict()
+  .optional();
+
 const legacyImageOverride = z.enum(['auto', 'always', 'never']);
 
 const bundledCoverImageFrontmatter = z.object({
@@ -63,6 +78,7 @@ const posts = defineCollection({
   schema: baseFrontmatter
     .extend({
       cover: bundledCoverFrontmatter,
+      curation: curationFrontmatter,
       date: z.coerce.date(),
       dsq_thread_id: z.array(z.union([z.string(), z.number()])).optional(),
       featured_image: z.string().optional(),
