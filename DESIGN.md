@@ -322,9 +322,11 @@ sharp (0px) corners.
   (`text-3xl sm:text-4xl`) and compact (`text-2xl`) sizes.
 * **BlogPostMeta** (`src/components/BlogPostMeta.astro`) — shared metadata
   row beneath post titles. It owns published/updated dates and optional tag
-  badges. The row stacks left-aligned date and tags on small screens, then
-  places dates on the left and tag badges on the right from the `sm`
-  breakpoint upward.
+  badges. The published date appears inline with a `CalendarDays` icon; when an
+  updated date exists, a `CalendarCheck` icon follows it and reveals the
+  "Zuletzt aktualisiert" timestamp on hover or keyboard focus. The row stacks
+  left-aligned date and tags on small screens, then places dates on the left and
+  tag badges on the right from the `sm` breakpoint upward.
 * **Card** — not a dedicated component file; the pattern (`bg-card`,
   `text-card-foreground`, `rounded-(--radius)`, `px-4 py-8 sm:px-8`) is
   repeated inline in `BlogList.astro`, `PageLayout.astro`, and

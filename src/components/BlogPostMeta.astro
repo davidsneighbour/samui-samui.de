@@ -1,7 +1,9 @@
 ---
 import FormattedDate from '@components/FormattedDate.astro';
 import TagBadges from '@components/TagBadges.astro';
+import { CalendarCheck, CalendarDays } from '@lucide/astro';
 import { cn } from '@utils/cn';
+import { formatDate } from '@utils/dates';
 
 interface Props {
   date?: Date | undefined;
@@ -21,6 +23,9 @@ const {
 const hasTags = tags && tags.length > 0;
 const hasDates = date || updatedDate;
 const hasMeta = date || updatedDate || hasTags;
+const updatedDateLabel = updatedDate
+  ? `Zuletzt aktualisiert am ${formatDate(updatedDate, { extended })}`
+  : undefined;
 ---
 
 {hasMeta && (
@@ -31,20 +36,37 @@ const hasMeta = date || updatedDate || hasTags;
     )}
   >
     {hasDates && (
-      <div class="flex flex-col items-start gap-1">
+      <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
         {date && (
-          <FormattedDate
-            date={date}
-            extended={extended}
-          />
-        )}
-        {updatedDate && (
-          <span class="italic">
-            Zuletzt aktualisiert am{' '}
+          <span class="inline-flex items-center gap-2">
+            <CalendarDays
+              class="size-4 shrink-0"
+              aria-hidden="true"
+            />
             <FormattedDate
-              date={updatedDate}
+              date={date}
               extended={extended}
             />
+          </span>
+        )}
+        {updatedDate && (
+          <span class="post-meta-tooltip relative inline-flex items-center">
+            <span
+              class="inline-flex size-6 items-center justify-center rounded-[calc(var(--radius)-4px)] text-muted-foreground transition-[color,scale] duration-150 ease-out hover:text-card-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card active:scale-[0.96]"
+              tabindex="0"
+              aria-label={updatedDateLabel}
+            >
+              <CalendarCheck
+                class="size-4"
+                aria-hidden="true"
+              />
+            </span>
+            <span
+              class="post-meta-tooltip__content pointer-events-none absolute right-0 bottom-full z-10 mb-2 inline-flex w-max max-w-[calc(100vw-2rem)] rounded-[calc(var(--radius)-4px)] border border-border bg-card px-3 py-2 text-xs leading-snug text-card-foreground opacity-0 shadow-sm transition-[opacity,transform] duration-150 ease-out"
+              aria-hidden="true"
+            >
+              {updatedDateLabel}
+            </span>
           </span>
         )}
       </div>
@@ -57,3 +79,15 @@ const hasMeta = date || updatedDate || hasTags;
     )}
   </div>
 )}
+
+<style>
+  .post-meta-tooltip__content {
+    transform: translateY(0.25rem);
+  }
+
+  .post-meta-tooltip:hover .post-meta-tooltip__content,
+  .post-meta-tooltip:focus-within .post-meta-tooltip__content {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
