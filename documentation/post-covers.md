@@ -28,6 +28,11 @@ Properties:
 `src` intentionally does not accept paths. Put cover images in the post bundle
 so Astro can optimize them.
 
+On single post pages, image covers sit flush against the post header area: the
+top corners follow the surrounding article radius, while the bottom edge remains
+square so captions and post content connect cleanly below the media. Blog list
+preview covers keep their fully rounded image treatment.
+
 ## Video covers
 
 Use video covers for YouTube and Vimeo embeds that should appear as the post
