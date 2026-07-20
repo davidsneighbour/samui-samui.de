@@ -99,7 +99,7 @@ component's JavaScript.
   autoplay once it scrolls into view.
 * **Privacy.** The generated iframe URL always sets `dnt=1` (Vimeo's
   do-not-track player param), matching this repo's privacy posture (see
-  [`src/content/datenschutzerklaerung.md`](../src/content/datenschutzerklaerung.md),
+  [`src/pages/kleingedrucktes/datenschutzerklaerung.mdx`](../src/pages/kleingedrucktes/datenschutzerklaerung.mdx),
   "Einsatz von Vimeo-Komponenten").
 * **`allow` list includes `fullscreen`.** The upstream lite-vimeo reference
   omits `fullscreen` from the iframe's `allow` attribute while still setting
