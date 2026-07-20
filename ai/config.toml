@@ -1,0 +1,30 @@
+[paths]
+skillsRoot = "ai/skills"
+contentReworkStateRoot = "ai/reports/contentrework"
+
+[skills]
+loader = "repo-local"
+roots = ["ai/skills"]
+available = ["ai/skills/ss-review", "ai/skills/ss-refactor"]
+
+[contentRework]
+stateRoot = "ai/reports/contentrework"
+purpose = "resume-state-for-global-content-rework"
+initialize = "only-when-user-requests"
+
+[flickrBackup]
+root = "/home/patrick/Documents/Pictures/FlickrBackup"
+metadataRoot = "/home/patrick/Documents/Pictures/FlickrBackup/72157723297596066_987e05b0837f_part1"
+dataRoots = [
+  "/home/patrick/Documents/Pictures/FlickrBackup/data-download-1",
+  "/home/patrick/Documents/Pictures/FlickrBackup/data-download-2",
+  "/home/patrick/Documents/Pictures/FlickrBackup/data-download-3",
+  "/home/patrick/Documents/Pictures/FlickrBackup/data-download-4",
+  "/home/patrick/Documents/Pictures/FlickrBackup/data-download-5",
+  "/home/patrick/Documents/Pictures/FlickrBackup/data-download-6",
+  "/home/patrick/Documents/Pictures/FlickrBackup/data-download-7",
+]
+
+[locations.types]
+skills = "ai/skills"
+contentrework = "ai/reports/contentrework"

@@ -1,0 +1,67 @@
+{
+  "currentBatch": null,
+  "flickrBackup": {
+    "blocked": 0,
+    "copied": 0,
+    "matched": 0,
+    "pending": 466,
+    "postsWithFlickrReferences": 443,
+    "uniquePhotoIds": 452
+  },
+  "frontmatter": {
+    "coverTypes": {
+      "image": 57,
+      "missing": 1953,
+      "unknown": 0,
+      "vimeo": 1,
+      "youtube": 39
+    },
+    "legacyImages": {
+      "always": 0,
+      "auto": 0,
+      "never": 0,
+      "unspecified": 2050
+    },
+    "topLevelFlickr": 0
+  },
+  "generatedAt": "2026-07-20T06:51:27.535Z",
+  "markers": {
+    "cover": 2050,
+    "covermigration": 1959,
+    "description": 2050,
+    "flickr": 466,
+    "seo": 2050,
+    "summary": 2050,
+    "tags": 2050
+  },
+  "otherPublisherKeys": {},
+  "queues": {
+    "all": 2050,
+    "covers": 2050,
+    "flickr": 466,
+    "marker:cover": 2050,
+    "marker:covermigration": 1959,
+    "marker:description": 2050,
+    "marker:flickr": 466,
+    "marker:seo": 2050,
+    "marker:summary": 2050,
+    "marker:tags": 2050,
+    "metadata": 2050,
+    "seo": 2050,
+    "unreviewed": 2050
+  },
+  "schemaVersion": 1,
+  "seoRuleset": "2026-07-20",
+  "source": {
+    "postsGlob": "src/content/posts/**/index.md",
+    "reviewHistory": "ai/reports/contentrework/posts.jsonl",
+    "tagsGlob": "src/content/tags/**/_index.md"
+  },
+  "totals": {
+    "blocked": 0,
+    "changed": 0,
+    "posts": 2050,
+    "reviewed": 0,
+    "unreviewed": 2050
+  }
+}
