@@ -192,8 +192,7 @@ h6 {
 }
 
 .legacy-image-frame.single-post-cover-image {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+  border-radius: 0;
 }
 
 .legacy-image-bg {

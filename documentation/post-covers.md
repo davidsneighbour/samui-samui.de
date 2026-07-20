@@ -29,9 +29,10 @@ Properties:
 so Astro can optimize them.
 
 On single post pages, image covers sit flush against the post header area: the
-top corners follow the surrounding article radius, while the bottom edge remains
-square so captions and post content connect cleanly below the media. Blog list
-preview covers keep their fully rounded image treatment.
+cover frame itself is square and the surrounding article's overflow clipping
+provides the visible rounded top corners. The bottom edge remains square so
+captions and post content connect cleanly below the media. Blog list preview
+covers keep their fully rounded image treatment.
 
 ## Video covers
 
