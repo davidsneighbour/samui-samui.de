@@ -1,8 +1,8 @@
 # Blog archive
 
 Tracked by milestone [Blog archive: chronological & thematic navigation](https://github.com/davidsneighbour/samui-samui.de/milestone/7).
-Turns the 2,049-post, 21-year `posts` collection into a chronological and
-thematic archive that complements — not replaces — the existing paginated
+Turns the multi-year `posts` collection into a chronological and thematic
+archive that complements — not replaces — the existing paginated
 blog listing.
 
 ## Audit summary (state before this milestone)
@@ -79,7 +79,23 @@ prevents adding the routes retroactively.
 
 All archive data is derived at build time from the `posts` and `tags`
 content collections defined in `src/content.config.ts` — no hard-coded
-counts or year lists anywhere.
+counts, age copy, or year lists anywhere.
+
+The archive intro age uses [`src/components/SiteAge.astro`](../src/components/SiteAge.astro)
+and the shared `formatDateDuration()` helper in
+[`src/utils/dates.ts`](../src/utils/dates.ts). The same formatter powers the
+plain-Markdown `<dnb-site-age>` tag through
+[`src/scripts/rehype/site-age.ts`](../src/scripts/rehype/site-age.ts), so
+plain `.md` content can render build-time age text without switching to MDX:
+
+```html
+<dnb-site-age since-date="2005-01-08" format="%y Jahre"></dnb-site-age>
+```
+
+Custom `format` strings support `%y` complete years, `%m` remaining months,
+`%d` remaining days, `%M` total complete months, `%D` total days, and `%%` for
+a literal percent sign. Without `format`, `unit="years"`, `unit="months"`, or
+`unit="days"` returns one total unit.
 
 There is no `draft`/`publish` boolean in the `posts` schema. Draft state is
 handled out-of-band via the free-form `publisher.status` frontmatter block

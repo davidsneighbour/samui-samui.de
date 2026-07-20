@@ -11,6 +11,7 @@ import redirects from './src/data/redirects.json';
 import pagefind from './src/scripts/integrations/pagefind.ts';
 import { rehypeLegacyImages } from './src/scripts/rehype/legacy-images.ts';
 import { rehypeDnbNotice } from './src/scripts/rehype/notices.ts';
+import { rehypeSiteAge } from './src/scripts/rehype/site-age.ts';
 import { remarkDnbTypography } from './src/scripts/remark/typography.ts';
 
 // `astro dev` only -- `server: { host: true }` (below) makes the dev server
@@ -85,7 +86,12 @@ export default defineConfig({
     // be unparsed `raw` nodes by the time `rehypeLegacyImages` visits the
     // tree -- see src/scripts/rehype/legacy-images.ts's docstring.
     processor: unified({
-      rehypePlugins: [rehypeRaw, rehypeLegacyImages, rehypeDnbNotice],
+      rehypePlugins: [
+        rehypeRaw,
+        rehypeLegacyImages,
+        rehypeDnbNotice,
+        rehypeSiteAge,
+      ],
       remarkPlugins: [remarkDnbTypography],
     }),
   },

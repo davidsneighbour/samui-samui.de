@@ -2,11 +2,12 @@
 import { getCollection } from 'astro:content';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
 import FormattedDate from '@components/FormattedDate.astro';
+import SiteAge from '@components/SiteAge.astro';
 import Accordion from '@components/ui/accordion.astro';
 import Badge from '@components/ui/badge.astro';
 import PageLayout from '@layouts/PageLayout.astro';
 import { cn } from '@utils/cn';
-import { formatMonthLong } from '@utils/dates';
+import { formatDateDuration, formatMonthLong } from '@utils/dates';
 import { groupPostsByTag } from '@utils/tags';
 
 const [posts, tagEntries] = await Promise.all([
@@ -19,6 +20,11 @@ const sortedByDate = [...posts].sort(
 );
 const oldestPost = sortedByDate[0];
 if (!oldestPost) throw new Error('No posts found in the posts collection');
+const siteSinceDate = '2005-01-08';
+const siteAge = formatDateDuration({
+  format: '%y Jahre',
+  sinceDate: siteSinceDate,
+});
 
 interface MonthCount {
   month: number;
@@ -115,7 +121,7 @@ const curatedTags = tagGroups.slice(0, 12);
 
 <PageLayout
   title="Archiv"
-  description="21 Jahre Leben auf Koh Samui -- durchsuche das komplette Archiv nach Jahr, Monat oder Thema."
+  description={`${siteAge} Leben auf Koh Samui -- durchsuche das komplette Archiv nach Jahr, Monat oder Thema.`}
 >
   <link
     slot="head"
@@ -132,7 +138,11 @@ const curatedTags = tagGroups.slice(0, 12);
   />
 
   <p class="-mt-4 mb-8 text-center text-lg text-muted-foreground">
-    21 Jahre Leben auf Koh Samui
+    <SiteAge
+      sinceDate={siteSinceDate}
+      format="%y Jahre"
+    />
+    Leben auf Koh Samui
   </p>
 
   <p class="mb-8 text-card-foreground">

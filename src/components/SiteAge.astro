@@ -1,0 +1,23 @@
+---
+import {
+  type DateDurationFormatOptions,
+  type DateDurationUnit,
+  formatDateDuration,
+} from '@utils/dates';
+
+interface Props {
+  sinceDate: Date | string;
+  untilDate?: Date | string;
+  unit?: DateDurationUnit;
+  format?: string;
+}
+
+const { format, sinceDate, unit, untilDate } = Astro.props as Props;
+const options: DateDurationFormatOptions = { sinceDate };
+if (format !== undefined) options.format = format;
+if (unit !== undefined) options.unit = unit;
+if (untilDate !== undefined) options.untilDate = untilDate;
+const value = formatDateDuration(options);
+---
+
+{value}
