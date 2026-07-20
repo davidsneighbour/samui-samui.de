@@ -19,9 +19,15 @@ const publisherFrontmatter = z
   .catchall(z.union([z.string(), z.number(), z.boolean()]))
   .optional();
 
+const legacyImageOverride = z.enum(['auto', 'always', 'never']);
+
 const bundledCoverImageFrontmatter = z.object({
   alt: z.string().optional(),
   caption: z.string().optional(),
+  // Per-image override for the legacy-image presentation system (see
+  // src/utils/legacy-images/) -- takes precedence over the post-level
+  // `legacyImages` frontmatter below.
+  legacyPresentation: legacyImageOverride.optional(),
   src: z
     .string()
     .refine(
@@ -61,6 +67,9 @@ const posts = defineCollection({
       dsq_thread_id: z.array(z.union([z.string(), z.number()])).optional(),
       featured_image: z.string().optional(),
       lastmod: z.coerce.date().optional(),
+      // Post-level override for the legacy-image presentation system (see
+      // src/utils/legacy-images/); defaults to automatic classification.
+      legacyImages: legacyImageOverride.default('auto'),
       leute: z.array(z.string()).optional(),
       publisher: publisherFrontmatter,
       resources: z

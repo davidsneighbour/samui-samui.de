@@ -167,3 +167,55 @@ h5,
 h6 {
   font-weight: 700;
 }
+
+/*
+ * Legacy-image presentation (src/utils/legacy-images/) -- the canvas a small
+ * historical scan is displayed on, either backed by a blurred derivative of
+ * itself ("legacy" mode) or a plain muted surface ("thumbnail" mode). See
+ * documentation/legacy-images.md. `--legacy-blur-radius` is set inline per
+ * instance from the central config so the radius stays configurable in one
+ * place (src/utils/legacy-images/config.ts) without editing this file.
+ */
+.legacy-image-frame {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  border-radius: var(--radius);
+  background-color: var(--color-muted);
+}
+
+.legacy-image-frame--thumbnail {
+  background-color: var(--color-muted);
+}
+
+.legacy-image-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Scaled up so the blur radius never reveals the derivative's edges. */
+  transform: scale(1.15);
+  filter: blur(var(--legacy-blur-radius, 24px));
+}
+
+.legacy-image-scrim {
+  position: absolute;
+  inset: 0;
+  background-color: var(--color-background);
+  opacity: 0.25;
+}
+
+.legacy-image-fg {
+  position: relative;
+  z-index: 1;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin: auto;
+}

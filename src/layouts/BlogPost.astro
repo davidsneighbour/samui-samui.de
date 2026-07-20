@@ -73,6 +73,7 @@ const postCover: ResolvedPostCover | undefined =
   (hero
     ? {
         alt: title,
+        legacyOverride: 'auto',
         optimized: typeof hero !== 'string',
         src: hero,
         type: 'image',
@@ -116,6 +117,7 @@ const postTags = tags ?? [];
             figureClass="m-0 w-full"
             imageClass="block h-auto w-full"
             captionClass="px-4 pt-2 text-center text-xs text-muted-foreground sm:px-8"
+            presentationWidth={896}
           />
         )}
         <div class="px-4 py-8 sm:px-8">

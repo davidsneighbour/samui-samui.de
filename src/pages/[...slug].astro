@@ -36,7 +36,7 @@ export async function getStaticPaths() {
 
 const { newerPost, olderPost, post } = Astro.props;
 const { Content } = await render(post);
-const cover = getPostCover(post);
+const cover = await getPostCover(post);
 // Raw markdown source (not the rendered HTML) — cheap to grep and lets
 // BlogPost skip shipping the dnb-vimeo/dnb-youtube definitions on the posts
 // that don't embed the corresponding video.

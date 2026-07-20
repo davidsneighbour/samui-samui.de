@@ -49,14 +49,16 @@ const nextPage =
 const getPostUrl = (post: CollectionEntry<'posts'>) =>
   ensureLeadingSlash(`${basePath}${getCanonicalPostUrl(post)}`);
 
-const listedPosts = posts.map((post) => {
-  return {
-    cover: getPostCover(post),
-    featuredPreview: getPostPreviewHtml(post, 5).join('\n'),
-    post,
-    summary: getPostPreviewHtml(post, 1).join('\n'),
-  };
-});
+const listedPosts = await Promise.all(
+  posts.map(async (post) => {
+    return {
+      cover: await getPostCover(post),
+      featuredPreview: getPostPreviewHtml(post, 5).join('\n'),
+      post,
+      summary: getPostPreviewHtml(post, 1).join('\n'),
+    };
+  }),
+);
 
 const shouldFeaturePost = (index: number) =>
   featuredFirst && pageNumber === 1 && index === 0;
@@ -77,6 +79,7 @@ const coverOutlineClass =
                   figureClass="mb-6"
                   imageClass={`block h-auto w-full rounded-[calc(var(--radius)-4px)] ${coverOutlineClass}`}
                   videoClass={`block aspect-video w-full overflow-hidden rounded-[calc(var(--radius)-4px)] ${coverOutlineClass}`}
+                  presentationWidth={896}
                 />
               )}
               <header class="mb-8 text-center">

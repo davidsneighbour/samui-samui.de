@@ -1,4 +1,12 @@
 import type { CollectionEntry } from 'astro:content';
+import path from 'node:path';
+import { resolveOverride } from '@utils/legacy-images/classify';
+import type { LegacyImageOverride } from '@utils/legacy-images/config';
+import {
+  isRemoteSrc,
+  probeImageDimensions,
+  resolveImageFsPath,
+} from '@utils/legacy-images/fs';
 import type { ImageMetadata } from 'astro';
 
 type PostEntry = CollectionEntry<'posts'>;
@@ -10,6 +18,12 @@ interface ResolvedPostCoverBase {
 
 export interface ResolvedPostImageCover extends ResolvedPostCoverBase {
   alt: string;
+  /** Absolute filesystem path to the source file, when resolvable locally. */
+  fsPath?: string | undefined;
+  intrinsicHeight?: number | undefined;
+  intrinsicWidth?: number | undefined;
+  /** Combined per-image + post-level legacy-image override, resolved to a single "auto"/"always"/"never". */
+  legacyOverride: LegacyImageOverride;
   optimized: boolean;
   src: ImageMetadata | string;
   type: 'image';
@@ -44,15 +58,30 @@ function normalizePostFilePath(
   return `/${filePath.slice(contentPathIndex)}`;
 }
 
+function postDirectoryFor(post: PostEntry): string | undefined {
+  const postFilePath = normalizePostFilePath(post.filePath);
+  return postFilePath?.replace(/\/[^/]+$/, '');
+}
+
 function resolveBundledPostImage(
   post: PostEntry,
   fileName: string,
 ): ImageMetadata | undefined {
-  const postFilePath = normalizePostFilePath(post.filePath);
-  if (!postFilePath) return undefined;
+  const postDirectory = postDirectoryFor(post);
+  if (!postDirectory) return undefined;
 
-  const postDirectory = postFilePath.replace(/\/[^/]+$/, '');
   return postImages[`${postDirectory}/${fileName}`];
+}
+
+/** Absolute filesystem path to a bundled post image, for local processing (e.g. the legacy-image blur derivative) that `astro:assets` doesn't cover. */
+function resolveBundledPostImageFsPath(
+  post: PostEntry,
+  fileName: string,
+): string | undefined {
+  const postDirectory = postDirectoryFor(post);
+  if (!postDirectory) return undefined;
+
+  return path.join(process.cwd(), postDirectory, fileName);
 }
 
 function trimmed(value: string | undefined): string | undefined {
@@ -60,8 +89,11 @@ function trimmed(value: string | undefined): string | undefined {
   return next ? next : undefined;
 }
 
-export function getPostCover(post: PostEntry): ResolvedPostCover | undefined {
+export async function getPostCover(
+  post: PostEntry,
+): Promise<ResolvedPostCover | undefined> {
   const cover = post.data.cover;
+  const postOverride = post.data.legacyImages;
 
   if (cover?.type === 'image') {
     const coverSrc = cover.src.trim();
@@ -79,6 +111,10 @@ export function getPostCover(post: PostEntry): ResolvedPostCover | undefined {
     return {
       alt: trimmed(cover.alt) ?? caption ?? post.data.title,
       caption,
+      fsPath: resolveBundledPostImageFsPath(post, coverSrc),
+      intrinsicHeight: image.height,
+      intrinsicWidth: image.width,
+      legacyOverride: resolveOverride(cover.legacyPresentation, postOverride),
       optimized: true,
       src: image,
       type: 'image',
@@ -92,8 +128,8 @@ export function getPostCover(post: PostEntry): ResolvedPostCover | undefined {
     const caption = trimmed(cover.caption) ?? trimmed(cover.title);
 
     return {
-      autoplay: cover.autoplay,
       autoload: cover.autoload,
+      autoplay: cover.autoplay,
       caption,
       hash: trimmed(cover.hash),
       params: trimmed(cover.params),
@@ -105,11 +141,21 @@ export function getPostCover(post: PostEntry): ResolvedPostCover | undefined {
   }
 
   if (post.data.featured_image) {
+    const src = post.data.featured_image;
+    const fsPath = isRemoteSrc(src)
+      ? undefined
+      : resolveImageFsPath(src, undefined);
+    const dimensions = fsPath ? await probeImageDimensions(fsPath) : undefined;
+
     return {
       alt: post.data.title,
       caption: undefined,
+      fsPath,
+      intrinsicHeight: dimensions?.height,
+      intrinsicWidth: dimensions?.width,
+      legacyOverride: resolveOverride(undefined, postOverride),
       optimized: false,
-      src: post.data.featured_image,
+      src,
       type: 'image',
     };
   }

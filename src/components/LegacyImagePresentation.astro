@@ -1,0 +1,116 @@
+---
+import { Image } from 'astro:assets';
+import {
+  foregroundMaxHeight,
+  foregroundMaxWidth,
+} from '@utils/legacy-images/classify';
+import {
+  defaultLegacyImageConfig,
+  type LegacyImageConfig,
+} from '@utils/legacy-images/config';
+import {
+  computeFrameHeight,
+  LEGACY_IMAGE_BG_CLASS,
+  LEGACY_IMAGE_FG_CLASS,
+  LEGACY_IMAGE_FRAME_CLASS,
+  LEGACY_IMAGE_FRAME_THUMBNAIL_CLASS,
+  LEGACY_IMAGE_SCRIM_CLASS,
+} from '@utils/legacy-images/frame';
+import { buildTinyDerivativeDataUri } from '@utils/legacy-images/fs';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+  alt: string;
+  class?: string | undefined;
+  config?: Partial<LegacyImageConfig> | undefined;
+  /** The width this cover is expected to render at, used to cap the frame's height. */
+  expectedRenderedWidth: number;
+  /** Absolute filesystem path to the source file, when it can be read locally (required for `mode="legacy"`'s blurred background). */
+  fsPath?: string | undefined;
+  intrinsicHeight: number;
+  intrinsicWidth: number;
+  loading?: 'eager' | 'lazy' | undefined;
+  mode: 'legacy' | 'thumbnail';
+  src: ImageMetadata | string;
+}
+
+const {
+  alt,
+  class: className = '',
+  config: configOverride,
+  expectedRenderedWidth,
+  fsPath,
+  intrinsicHeight,
+  intrinsicWidth,
+  loading = 'lazy',
+  mode,
+  src,
+} = Astro.props as Props;
+
+const config: LegacyImageConfig = {
+  ...defaultLegacyImageConfig,
+  ...configOverride,
+};
+
+const maxForegroundWidth = foregroundMaxWidth(intrinsicWidth, config);
+const maxForegroundHeight = foregroundMaxHeight(intrinsicHeight, config);
+const frameHeight = computeFrameHeight(
+  maxForegroundHeight,
+  expectedRenderedWidth,
+);
+
+const bgDataUri =
+  mode === 'legacy' && fsPath
+    ? await buildTinyDerivativeDataUri(fsPath, config.blurDerivativeWidth)
+    : undefined;
+
+const frameClasses = [
+  LEGACY_IMAGE_FRAME_CLASS,
+  mode === 'thumbnail' ? LEGACY_IMAGE_FRAME_THUMBNAIL_CLASS : '',
+  className,
+]
+  .filter(Boolean)
+  .join(' ');
+
+const foregroundStyle = `max-width:min(100%, ${maxForegroundWidth}px)`;
+---
+
+<span
+  class={frameClasses}
+  style={`height:${frameHeight}px;--legacy-blur-radius:${config.blurRadius}px`}
+  data-legacy-image-mode={mode}
+>
+  {bgDataUri && (
+    <>
+      <span
+        class={LEGACY_IMAGE_BG_CLASS}
+        style={`background-image:url(${bgDataUri})`}
+        aria-hidden="true"
+      />
+      <span class={LEGACY_IMAGE_SCRIM_CLASS} aria-hidden="true" />
+    </>
+  )}
+  {typeof src === 'string' ? (
+    <img
+      src={src}
+      alt={alt}
+      width={intrinsicWidth}
+      height={intrinsicHeight}
+      loading={loading}
+      decoding="async"
+      class={LEGACY_IMAGE_FG_CLASS}
+      style={foregroundStyle}
+    />
+  ) : (
+    <Image
+      src={src}
+      alt={alt}
+      width={intrinsicWidth}
+      height={intrinsicHeight}
+      loading={loading}
+      decoding="async"
+      class={LEGACY_IMAGE_FG_CLASS}
+      style={foregroundStyle}
+    />
+  )}
+</span>

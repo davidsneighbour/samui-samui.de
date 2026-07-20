@@ -1,8 +1,11 @@
 ---
 import { Picture } from 'astro:assets';
+import LegacyImagePresentation from '@components/LegacyImagePresentation.astro';
 import Vimeo from '@components/Vimeo.astro';
 import Youtube from '@components/Youtube.astro';
 import type { ResolvedPostCover } from '@utils/covers';
+import { classifyImagePresentation } from '@utils/legacy-images/classify';
+import { defaultLegacyImageConfig } from '@utils/legacy-images/config';
 
 interface Props {
   captionClass?: string;
@@ -10,6 +13,13 @@ interface Props {
   eager?: boolean;
   figureClass?: string;
   imageClass?: string;
+  /**
+   * The width this cover is expected to render at, e.g. the post content
+   * column. When omitted, the legacy-image classifier never runs and the
+   * cover renders exactly as before -- opt in per call site (hero/featured
+   * covers) rather than at cropped thumbnail card sizes.
+   */
+  presentationWidth?: number;
   sizes?: string;
   videoClass?: string;
 }
@@ -20,16 +30,45 @@ const {
   eager = false,
   figureClass = 'm-0',
   imageClass = 'block h-auto w-full',
+  presentationWidth,
   sizes = '(min-width: 896px) 896px, 100vw',
   videoClass = imageClass,
 } = Astro.props as Props;
 
 const loading = eager ? 'eager' : 'lazy';
+
+const presentationMode =
+  cover.type === 'image' &&
+  presentationWidth &&
+  cover.intrinsicWidth &&
+  cover.intrinsicHeight
+    ? classifyImagePresentation(
+        {
+          expectedRenderedWidth: presentationWidth,
+          intrinsicHeight: cover.intrinsicHeight,
+          intrinsicWidth: cover.intrinsicWidth,
+          override: cover.legacyOverride,
+        },
+        defaultLegacyImageConfig,
+      )
+    : 'standard';
 ---
 
 <figure class={figureClass}>
   {cover.type === 'image' && (
-      cover.optimized && typeof cover.src !== 'string' ? (
+      presentationMode === 'legacy' || presentationMode === 'thumbnail' ? (
+      <LegacyImagePresentation
+        src={cover.src}
+        alt={cover.alt}
+        mode={presentationMode}
+        intrinsicWidth={cover.intrinsicWidth as number}
+        intrinsicHeight={cover.intrinsicHeight as number}
+        expectedRenderedWidth={presentationWidth as number}
+        fsPath={cover.fsPath}
+        loading={loading}
+        class={imageClass}
+      />
+      ) : cover.optimized && typeof cover.src !== 'string' ? (
       <Picture
         src={cover.src}
         alt={cover.alt}
