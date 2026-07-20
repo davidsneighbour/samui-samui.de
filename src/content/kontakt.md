@@ -17,7 +17,7 @@ lastmod: 2024-03-09T11:46:04+07:00
 
 ## Impressum und Datenschutzerklärung
 
-[Impressum und Datenschutzerklärung][1]
+[Impressum][3] und [Datenschutzerklärung][1] findest du unter [Kleingedrucktes][4].
 
 ## Kontakt via Email
 
@@ -27,6 +27,10 @@ Schroffe oder beleidigende Nachrichten werden wohlwollend unbeantwortet gelassen
 
 Wenn du mir Dateien schicken willst, [nutze dieses Dropbox-Formular][2].
 
-[1]: /datenschutzerklaerung/
+[1]: /kleingedrucktes/datenschutzerklaerung/
 
 [2]: https://www.dropbox.com/request/GZxosbX7metiPoiuLvxo
+
+[3]: /kleingedrucktes/impressum/
+
+[4]: /kleingedrucktes/

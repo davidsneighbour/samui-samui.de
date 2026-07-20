@@ -1,28 +1,22 @@
 ---
-title: Datenschutzerklärung! Yeah!
-hideMeta: true
-menu:
-  main:
-    name: Datenschutzerklärung
-    weight: 100
-    identifier: datenschutzerklaerung
-    parent: kontakt
-  footer:
-    name: Datenschutzerklärung
-    weight: 200
-    identifier: datenschutzerklaerung
+title: Datenschutzerklärung
+lastmod: 2026-07-20T00:00:00+07:00
 ---
+
+import PageLayout from '@layouts/PageLayout.astro';
+import { proseClasses } from '@utils/prose';
+
+<PageLayout title={frontmatter.title} description={frontmatter.description ?? frontmatter.title}>
+<div class={proseClasses}>
 
 Die Nutzung dieser Seiten ist ohne eine Angabe von personenbezogenen Daten möglich. Für die Nutzung einzelner Services unserer Seite können sich hierfür abweichende Regelungen ergeben, die in diesem Falle nachstehend gesondert erläutert werden. Ihre personenbezogenen Daten (z.B. Name, Anschrift, E-Mail, Telefonnummer, u.ä.) werden von uns nur gemäß den Bestimmungen des deutschen Datenschutzrechts verarbeitet. Daten sind dann personenbezogen, wenn sie eindeutig einer bestimmten natürlichen Person zugeordnet werden können. Die rechtlichen Grundlagen des Datenschutzes finden Sie im Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG). Nachstehende Regelungen informieren Sie insoweit über die Art, den Umfang und Zweck der Erhebung, die Nutzung und die Verarbeitung von personenbezogenen Daten durch den Anbieter.
 
 Eigentümer von **_Samui? Samui!_** und verantwortlich für die Inhalte:
 
-> David's Neighbour Part., Ltd.  
-> Patrick Kollitsch  
-> P.O.Box 135  
-> Postoffice Maenam  
-> 84330 Koh Samui, Suratthani  
-> Thailand  
+> Patrick Kollitsch
+> 1/6 Moo 5, Ban Maenam
+> 84330 Koh Samui, Suratthani
+> Thailand
 
 [Kontakt][1]
 
@@ -63,7 +57,7 @@ Zum Schutz unseres Kontaktformulars vor automatisiertem Missbrauch (Spam) setzen
 
 Beim Aufruf des Kontaktformulars wird eine Verbindung zu den Servern von Cloudflare hergestellt. Dabei werden Ihre IP-Adresse sowie technische Merkmale Ihres Browsers verarbeitet, um zu überprüfen, ob die Formulareingabe von einem Menschen oder einer automatisierten Software stammt. Eine Speicherung dieser Daten über die Dauer der Formularübermittlung hinaus erfolgt durch uns nicht.
 
-Weitere Informationen zum Datenschutz bei Cloudflare Turnstile finden Sie in der allgemeinen Datenschutzerklärung von Cloudflare (<https://www.cloudflare.com/privacypolicy/>) sowie im spezifischen Turnstile-Datenschutzhinweis: <https://www.cloudflare.com/en-gb/turnstile-privacy-policy/>
+Weitere Informationen zum Datenschutz bei Cloudflare Turnstile finden Sie in der allgemeinen Datenschutzerklärung von Cloudflare ([cloudflare.com/privacypolicy](https://www.cloudflare.com/privacypolicy/)) sowie im spezifischen Turnstile-Datenschutzhinweis: [cloudflare.com/en-gb/turnstile-privacy-policy](https://www.cloudflare.com/en-gb/turnstile-privacy-policy/)
 
 ## Kommentarmöglichkeit
 
@@ -75,8 +69,8 @@ Unterhalb unserer Beiträge bieten wir Buttons an, über die Sie den jeweiligen 
 
 Beim bloßen Aufruf unserer Seite wird dadurch keine Verbindung zu Facebook oder Twitter/X hergestellt und es werden keine Daten an diese Anbieter übermittelt. Erst wenn Sie aktiv auf einen dieser Buttons klicken, öffnet sich der Freigabe-Dialog des jeweiligen Anbieters in einem neuen Fenster bzw. Tab; ab diesem Zeitpunkt gelten die Datenschutzbestimmungen des jeweiligen Anbieters:
 
-* Facebook: <https://de-de.facebook.com/about/privacy/>
-* Twitter/X: <https://twitter.com/privacy?lang=de>
+* Facebook: [de-de.facebook.com/about/privacy](https://de-de.facebook.com/about/privacy/)
+* Twitter/X: [twitter.com/privacy](https://twitter.com/privacy?lang=de)
 
 ## Einsatz von YouTube-Komponenten mit erweitertem Datenschutzmodus
 
@@ -94,7 +88,7 @@ Weitere Informationen zum Datenschutz von YouTube werden von Google unter dem fo
 
 ## Einsatz von Vimeo-Komponenten
 
-Wir setzen auf unserer Seite Komponenten des Anbieters Vimeo ein. Vimeo ist ein Service der Vimeo LCC, 555 West 18th Street, New York, New York 10011, USA. Bei jedem einzelnen Abruf unserer Webseite, die mit einer solchen Komponente ausgestattet ist, veranlasst diese Komponente, dass der von Ihnen verwendete Browser eine entsprechende Darstellung der Komponente von Vimeo herunterlädt. Wenn Sie unsere Seite aufrufen und währenddessen bei Vimeo eingeloggt sind, erkennt Vimeo durch die von der Komponente gesammelten Informationen, welche konkrete Seite Sie besuchen und ordnet diese Informationen Ihrem persönlichen Account bei Vimeo zu. 
+Wir setzen auf unserer Seite Komponenten des Anbieters Vimeo ein. Vimeo ist ein Service der Vimeo LCC, 555 West 18th Street, New York, New York 10011, USA. Bei jedem einzelnen Abruf unserer Webseite, die mit einer solchen Komponente ausgestattet ist, veranlasst diese Komponente, dass der von Ihnen verwendete Browser eine entsprechende Darstellung der Komponente von Vimeo herunterlädt. Wenn Sie unsere Seite aufrufen und währenddessen bei Vimeo eingeloggt sind, erkennt Vimeo durch die von der Komponente gesammelten Informationen, welche konkrete Seite Sie besuchen und ordnet diese Informationen Ihrem persönlichen Account bei Vimeo zu.
 
 Klicken Sie z.B. den "Play“-Button an oder geben Sie entsprechende Kommentare ab, werden diese Informationen an Ihr persönliches Benutzerkonto bei Vimeo übermittelt und dort gespeichert. Darüber hinaus wird die Information, dass Sie unsere Seite besucht haben, an Vimeo weitergegeben. Dies geschieht unabhängig davon, ob Sie z.B. die Komponente anklicken/Kommentare abgeben oder nicht.
 
@@ -107,3 +101,6 @@ Sie können sich aufgrund des Bundesdatenschutzgesetzes bei Fragen zur Erhebung,
 [Muster-Datenschutzerklärung](https://www.ratgeberrecht.eu/leistungen/muster-datenschutzerklaerung.html) der [Anwaltskanzlei Weiß & Partner](https://www.ratgeberrecht.eu/)
 
  [1]: /kontakt/
+
+</div>
+</PageLayout>

@@ -1,0 +1,23 @@
+---
+title: Kleingedrucktes
+lastmod: 2026-07-20T00:00:00+07:00
+---
+
+import PageLayout from '@layouts/PageLayout.astro';
+import { proseClasses } from '@utils/prose';
+
+<PageLayout title={frontmatter.title} description={frontmatter.description ?? frontmatter.title}>
+<div class={proseClasses}>
+
+Hier stehen die rechtlichen und organisatorischen Rahmenbedingungen von **_Samui? Samui!_**:
+
+*   [Impressum][1]
+*   [Datenschutzerklärung][2]
+*   [Kommentarrichtlinien][3]
+
+ [1]: /kleingedrucktes/impressum/
+ [2]: /kleingedrucktes/datenschutzerklaerung/
+ [3]: /kleingedrucktes/kommentarrichtlinien/
+
+</div>
+</PageLayout>

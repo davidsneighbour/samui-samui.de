@@ -2,11 +2,14 @@
   // src/content/** is the 20-year blog archive (2005-present): long-form prose
   // with legacy raw-HTML embeds the shared doc-oriented ruleset (MD033
   // allowlist, title-case-style, etc.) was never meant to police. Keep linting
-  // scoped to engineering documentation.
+  // scoped to engineering documentation. src/pages/kleingedrucktes/** is the
+  // same kind of long-form legal prose, just living as MDX pages (with a JSX
+  // PageLayout/div wrapper) instead of content-collection entries.
   "ignores": [
     "node_modules/**",
     "dist/**",
     "src/content/**",
+    "src/pages/kleingedrucktes/**",
     "scratch/**",
     "public/**"
   ]

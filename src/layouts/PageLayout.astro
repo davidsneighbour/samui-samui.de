@@ -4,11 +4,16 @@ import Footer from '@components/Footer.astro';
 import Header from '@components/Header.astro';
 
 interface Props {
-  title: string;
+  title?: string;
   description?: string | undefined;
+  // Set when this layout is used via an MDX page's own `<PageLayout>` JSX
+  // wrapper and passed `frontmatter` from that file's YAML frontmatter.
+  frontmatter?: { title: string; description?: string };
 }
 
-const { title, description } = Astro.props as Props;
+const { title, description, frontmatter } = Astro.props as Props;
+const pageTitle = frontmatter?.title ?? title ?? '';
+const pageDescription = frontmatter?.description ?? description;
 ---
 
 <!doctype html>
@@ -18,8 +23,8 @@ const { title, description } = Astro.props as Props;
 >
   <head>
     <BaseHead
-      title={title}
-      description={description ?? title}
+      title={pageTitle}
+      description={pageDescription ?? pageTitle}
     />
     <slot name="head" />
   </head>
@@ -35,7 +40,7 @@ const { title, description } = Astro.props as Props;
       >
         <slot name="breadcrumbs" />
         <header class="mb-8 text-center">
-          <h1 class="text-3xl font-normal sm:text-4xl">{title}</h1>
+          <h1 class="text-3xl font-normal sm:text-4xl">{pageTitle}</h1>
         </header>
         <slot />
       </article>

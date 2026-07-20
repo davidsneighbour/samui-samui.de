@@ -34,8 +34,8 @@ const bundledCoverImageFrontmatter = z.object({
 });
 
 const bundledCoverVideoFrontmatter = z.object({
-  autoplay: z.boolean().optional(),
   autoload: z.boolean().optional(),
+  autoplay: z.boolean().optional(),
   caption: z.string().optional(),
   hash: z.string().optional(),
   params: z.string().optional(),
@@ -94,9 +94,11 @@ const tags = defineCollection({
   }),
 });
 
-// Standalone top-level pages (kontakt, suche, datenschutzerklaerung) --
-// intentionally non-recursive so it doesn't pick up the posts/leute/tags
-// subdirectories, which are their own collections above.
+// Standalone top-level pages (kontakt, suche) -- intentionally
+// non-recursive so it doesn't pick up the posts/leute/tags subdirectories,
+// which are their own collections above. The kleingedrucktes/* legal pages
+// live directly as .mdx files under src/pages instead of here, since they
+// don't need the content-collection indirection.
 const pages = defineCollection({
   loader: glob({ base: './src/content', pattern: '*.md' }),
   schema: baseFrontmatter
