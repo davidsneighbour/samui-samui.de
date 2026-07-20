@@ -316,6 +316,12 @@ sharp (0px) corners.
   on the cream card surface, with uppercase labels supplied by
   `TagBadges.astro`; `outline`, `ghost`, and `link` variants reuse
   existing `border`, `accent`, and `link` tokens.
+* **Tooltip** (`src/components/ui/tooltip.astro`) — reusable hover/focus
+  disclosure for compact help text. Tooltip content is fixed-positioned so it
+  is not clipped by card overflow, opens below the trigger, centers to the
+  trigger when space allows, and clamps to the viewport with a small arrow still
+  pointing back to the trigger. The surface uses `muted`, `card-foreground`,
+  `border`, and the standard small radius calculation.
 * **BlogPostTitle** (`src/components/BlogPostTitle.astro`) — shared post
   title component for list cards and single-post pages. It always renders
   uppercase at weight 600, supports `h1`/`h2`, and offers default
@@ -324,9 +330,11 @@ sharp (0px) corners.
   row beneath post titles. It owns published/updated dates and optional tag
   badges. The published date appears inline with a `CalendarDays` icon; when an
   updated date exists, a `CalendarCheck` icon follows it and reveals the
-  "Zuletzt aktualisiert" timestamp on hover or keyboard focus. The row stacks
-  left-aligned date and tags on small screens, then places dates on the left and
-  tag badges on the right from the `sm` breakpoint upward.
+  "Zuletzt aktualisiert" timestamp via the shared `Tooltip` component. The date
+  line is a centered flex row so both icons and date text share the same visual
+  middle. The row stacks left-aligned date and tags on small screens, then
+  places dates on the left and tag badges on the right from the `sm` breakpoint
+  upward.
 * **Card** — not a dedicated component file; the pattern (`bg-card`,
   `text-card-foreground`, `rounded-(--radius)`, `px-4 py-8 sm:px-8`) is
   repeated inline in `BlogList.astro`, `PageLayout.astro`, and

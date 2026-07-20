@@ -1,0 +1,207 @@
+---
+import { cn } from '@utils/cn';
+
+interface Props {
+  content: string;
+  id?: string | undefined;
+  label?: string | undefined;
+  class?: string | undefined;
+  triggerClass?: string | undefined;
+  contentClass?: string | undefined;
+}
+
+const {
+  content,
+  id = `tooltip-${crypto.randomUUID()}`,
+  label = content,
+  class: className,
+  triggerClass,
+  contentClass,
+} = Astro.props as Props;
+---
+
+<span
+  class={cn('tooltip inline-flex', className)}
+  data-tooltip
+>
+  <span
+    class={cn(
+      'tooltip__trigger inline-flex items-center justify-center rounded-[calc(var(--radius)-4px)] leading-none text-muted-foreground transition-[color,scale] duration-150 ease-out hover:text-card-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card active:scale-[0.96] [&>svg]:block',
+      triggerClass,
+    )}
+    tabindex="0"
+    aria-label={label}
+    aria-describedby={id}
+    data-tooltip-trigger
+  >
+    <slot name="trigger" />
+  </span>
+  <span
+    id={id}
+    class={cn(
+      'tooltip__content fixed z-50 w-max rounded-[calc(var(--radius)-4px)] border border-border bg-muted px-3 py-2 text-center text-xs leading-snug text-card-foreground opacity-0 shadow-md transition-[opacity,transform] duration-150 ease-out',
+      contentClass,
+    )}
+    role="tooltip"
+    aria-hidden="true"
+    data-tooltip-content
+  >
+    {content}
+  </span>
+</span>
+
+<script is:inline>
+  (() => {
+    if (window.__samuiTooltipController) return;
+    window.__samuiTooltipController = true;
+
+    const tooltipSelector = '[data-tooltip]';
+    const triggerSelector = '[data-tooltip-trigger]';
+    const contentSelector = '[data-tooltip-content]';
+    const openTooltips = new Set();
+    const margin = 16;
+    const gap = 10;
+
+    const getParts = (tooltip) => {
+      const trigger = tooltip.querySelector(triggerSelector);
+      const content = tooltip.querySelector(contentSelector);
+      if (!(trigger instanceof HTMLElement)) return undefined;
+      if (!(content instanceof HTMLElement)) return undefined;
+      return { content, trigger };
+    };
+
+    const positionTooltip = (tooltip) => {
+      const parts = getParts(tooltip);
+      if (!parts) return;
+
+      const { trigger, content } = parts;
+      const triggerRect = trigger.getBoundingClientRect();
+      const contentRect = content.getBoundingClientRect();
+      const triggerCenter = triggerRect.left + triggerRect.width / 2;
+      const maxLeft = window.innerWidth - contentRect.width - margin;
+      const left = Math.min(
+        Math.max(triggerCenter - contentRect.width / 2, margin),
+        Math.max(margin, maxLeft),
+      );
+      const top = triggerRect.bottom + gap;
+      const arrowLeft = Math.min(
+        Math.max(triggerCenter - left, 12),
+        contentRect.width - 12,
+      );
+
+      content.style.setProperty('--tooltip-left', `${left}px`);
+      content.style.setProperty('--tooltip-top', `${top}px`);
+      content.style.setProperty('--tooltip-arrow-left', `${arrowLeft}px`);
+    };
+
+    const showTooltip = (tooltip) => {
+      const parts = getParts(tooltip);
+      if (!parts) return;
+
+      positionTooltip(tooltip);
+      tooltip.dataset.tooltipState = 'open';
+      parts.content.setAttribute('aria-hidden', 'false');
+      openTooltips.add(tooltip);
+    };
+
+    const hideTooltip = (tooltip) => {
+      const parts = getParts(tooltip);
+      if (!parts) return;
+
+      delete tooltip.dataset.tooltipState;
+      parts.content.setAttribute('aria-hidden', 'true');
+      openTooltips.delete(tooltip);
+    };
+
+    const syncOpenTooltips = () => {
+      openTooltips.forEach(positionTooltip);
+    };
+
+    const getTooltipFromTarget = (target) => {
+      if (!(target instanceof Element)) return undefined;
+      const trigger = target.closest(triggerSelector);
+      const tooltip = trigger?.closest(tooltipSelector);
+      return tooltip instanceof HTMLElement ? tooltip : undefined;
+    };
+
+    document.addEventListener('mouseover', (event) => {
+      const tooltip = getTooltipFromTarget(event.target);
+      const related = event.relatedTarget;
+      const parts = tooltip ? getParts(tooltip) : undefined;
+      if (!tooltip || !parts) return;
+      if (related instanceof Node && parts.trigger.contains(related)) return;
+      showTooltip(tooltip);
+    });
+
+    document.addEventListener('mouseout', (event) => {
+      const tooltip = getTooltipFromTarget(event.target);
+      const related = event.relatedTarget;
+      const parts = tooltip ? getParts(tooltip) : undefined;
+      if (!tooltip || !parts) return;
+      if (related instanceof Node && parts.trigger.contains(related)) return;
+      hideTooltip(tooltip);
+    });
+
+    document.addEventListener('focusin', (event) => {
+      const tooltip = getTooltipFromTarget(event.target);
+      if (tooltip) showTooltip(tooltip);
+    });
+
+    document.addEventListener('focusout', (event) => {
+      const tooltip = getTooltipFromTarget(event.target);
+      if (tooltip) hideTooltip(tooltip);
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape') return;
+      openTooltips.forEach((tooltip) => {
+        const parts = getParts(tooltip);
+        hideTooltip(tooltip);
+        parts?.trigger.blur();
+      });
+    });
+
+    window.addEventListener('resize', syncOpenTooltips);
+    window.addEventListener('scroll', syncOpenTooltips, true);
+  })();
+</script>
+
+<style>
+  .tooltip__trigger {
+    position: relative;
+  }
+
+  .tooltip__trigger::before {
+    position: absolute;
+    inset: -0.5rem;
+    content: "";
+  }
+
+  .tooltip__content {
+    top: var(--tooltip-top, 0);
+    left: var(--tooltip-left, 0);
+    max-width: min(18rem, calc(100vw - 2rem));
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-0.25rem);
+  }
+
+  .tooltip__content::before {
+    position: absolute;
+    top: -0.25rem;
+    left: var(--tooltip-arrow-left, 50%);
+    width: 0.5rem;
+    height: 0.5rem;
+    content: "";
+    background-color: var(--color-muted);
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+    transform: translateX(-50%) rotate(45deg);
+  }
+
+  .tooltip[data-tooltip-state="open"] .tooltip__content {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
