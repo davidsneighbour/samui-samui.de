@@ -1,5 +1,6 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { z } from 'astro/zod';
 
 const baseFrontmatter = z.object({
   description: z.string().optional(),
@@ -102,7 +103,7 @@ const posts = defineCollection({
       url: z.string().optional(),
       video: z.string().optional(),
     })
-    .passthrough(),
+    .loose(),
 });
 
 const leute = defineCollection({
