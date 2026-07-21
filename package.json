@@ -76,10 +76,9 @@
   },
   "scripts": {
     "astro": "astro",
-    "astro:check": "astro check",
     "blog:new": "node src/scripts/new-blog-post.ts",
-    "build": "astro check && astro build --verbose",
-    "check": "npm run format:check && npm run lint",
+    "build": "npm run validate:content && astro build --verbose",
+    "check": "npm run format:check && npm run lint && npm run validate && npm run test",
     "clean": "wireit",
     "clean:full": "wireit",
     "compile:fixpack": "wireit",
@@ -110,7 +109,9 @@
     "release:patch": "release-it --config .release-it.ts --ci --increment=patch",
     "test": "vitest run",
     "test:watch": "vitest",
-    "upgrade": "npx @astrojs/upgrade"
+    "upgrade": "npx @astrojs/upgrade",
+    "validate": "npm run validate:content",
+    "validate:content": "astro check"
   },
   "wireit": {
     "compile:fixpack": {

@@ -11,11 +11,12 @@
   },
   "scripts": {
     "astro": "astro",
-    "astro:check": "astro check",
-    "build": "astro check && astro build --verbose",
+    "build": "npm run validate:content && astro build --verbose",
     "dev": "astro dev --verbose",
     "dev:verbose": "DEBUG_FRONTMATTER=true astro dev --verbose",
     "preview": "astro preview",
-    "upgrade": "npx @astrojs/upgrade"
+    "upgrade": "npx @astrojs/upgrade",
+    "validate": "npm run validate:content",
+    "validate:content": "astro check"
   }
 }

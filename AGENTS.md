@@ -101,10 +101,11 @@ at [https://samui-samui.de](https://samui-samui.de).
 ```bash
 npm install               # install dependencies; also installs git hooks (see below)
 npm run dev                # astro dev --verbose
-npm run build               # astro check && astro build --verbose, then pagefind indexing
+npm run build               # validate:content, astro build --verbose, then pagefind indexing
 npm run preview              # astro preview
-npm run astro:check          # astro check (typecheck) on its own
-npm run check                # non-mutating quality gate: format:check + lint (Biome + markdownlint)
+npm run validate             # strict project/content/type contracts
+npm run validate:content     # astro check on its own
+npm run check                # non-mutating quality gate: format:check + lint + validate + test
 npm run lint:fix              # apply safe autofixes: Biome + markdownlint
 npm run compile:package        # regenerate package.json from src/packages/**/*.jsonc fragments, then npm install
 npm run release                # release-it --config .release-it.ts --ci
@@ -122,10 +123,11 @@ add a dependency or script, add or edit the relevant fragment under
 `package.json` directly, it will be overwritten. Fragment processing order isn't
 strictly alphabetical (glob-determined) — if two fragments define the same
 `scripts`/`devDependencies` key, whichever is processed later silently wins, so
-check for key collisions across fragments before adding one (this bit us once:
-`dnbhq.jsonc`'s `check` script silently overwrote `astro.jsonc`'s `astro check`,
-since `check`/`build` are common names — resolved by renaming the astro one to
-`astro:check`).
+check for key collisions across fragments before adding one. Quality-gate names
+follow `documentation/quality-gates.md`: `check` is the non-mutating umbrella,
+`lint` is static analysis, `validate` is strict contracts, `test` is behavioural
+correctness, and mutating commands use explicit names such as `format`,
+`lint:*:fix`, `*:write`, or `*:update`.
 
 The `lint-staged` JSON pattern excludes `package.json` and `package-lock.json`
 (`**/!(package|package-lock).json`) rather than sending those manifests through
@@ -136,8 +138,10 @@ explicit path that resolves to zero processable files, Biome treats that as a ha
 error ("No files were processed") rather than a no-op — so keep staged JSON globs
 aligned with Biome's file exclusions when broadening them.
 
-`check`/`lint` cover Biome (`lint:code*`, `format*`) and Markdown
-(`lint:markdown*`) via `@dnbhq/biome-config` and `@dnbhq/markdownlint-config`.
+`check` covers `format:check`, `lint`, `validate`, and `test`. `lint` covers
+Biome (`lint:code*`) and Markdown (`lint:markdown*`) via
+`@dnbhq/biome-config` and `@dnbhq/markdownlint-config`; `validate:content` runs
+`astro check`; `test` runs Vitest.
 `biome.jsonc` extends `@dnbhq/biome-config` — keep its `$schema` version in sync
 with the installed `@biomejs/biome` version, or `biome check` hard-fails on
 version mismatch (run `biome migrate --write` after bumping Biome). Markdownlint
