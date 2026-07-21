@@ -12,6 +12,7 @@ publisher:
   seo: true
   covermigration: true
   flickr: true
+  textpattern: true
 ---
 Der Hauptgrund, warum es in den vergangenen Tagen eher weniger Einträge gab ist der: Ich habe, <txp:gho_permalink id="602">mal wieder</txp:gho_permalink>, mich an einem neuen Design versucht. Das ist nun schon das dritte Mal seit dem letzten Wechsel und das dritte Mal beginne ich es zu hassen, ungefaehr 48 Stunden nachdem das Design steht und ich nur noch die Inhalte konvertieren und die neuen Funktionen einbauen müsste.
 

@@ -8,6 +8,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Ich sollte ein Abnehmblog aufmachen.
 

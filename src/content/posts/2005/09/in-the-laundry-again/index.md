@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Heute <txp:gho_permalink id="370">beim wöchentlichen Besuch in der Laundry</txp:gho_permalink> fehlte jede Anwesenheit des Englischlehrers. Das Interessante an dieser Konstellation ist, dass es seine Frau liebt sich mit mir über Lord Buddha und die Welt zu unterhalten. Das Dumme ist nur: Sie kann kein Englisch. Was uns zwingt Thai zu sprechen. Wobei sie sehr viel spricht. Und ich eher Unfug. Wahrscheinlich. Was sie manchmal so sehr zum Lachen bringt, dass wir gar nicht mehr zum Sprechen kommen.
 

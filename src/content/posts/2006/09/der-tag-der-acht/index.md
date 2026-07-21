@@ -8,6 +8,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 So, seit heute muss man eine 8 zwischen die Null und die Mobilvorwahl bei Mobilnummern setzen. Ich habe (denke ich) die ganzen Nummern bei mir getauscht.
 

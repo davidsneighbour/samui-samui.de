@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 So. Neuer Monat. Neues Konto. Nachdem mein kleines Konto bei der Siam City Bank abgeräumt werden konnte ohne dass die Penner die PIN hatten</a>, habe ich dort natürlich kein Geld mehr deponiert. Ohne Pass kann man kein neues Konto eröffnen und <a href="241">als</a> ich <txp:permlink id="242">dann</a> <txp:permlink id="243">endlich</a> <txp:permlink id="272">meinen Pass hatte, hatte ich kein Geld mehr um es draufzutun. Jetzt hab ich Geld, einen Pass und gute Laune. Also habe ich mal ein Konto bei der [Bank of Ayudhya][1] eröffnet.
 

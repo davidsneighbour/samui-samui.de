@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Heute ist Ok Phansa. Es ist das Ende der buddhistischen Fastenzeit, die etwas drei Monate lang dauerte. Die Mönche durften in dieser Zeit ihre Klöster nicht verlassen. Ich hatte schon begonnen, mich zu wundern, weil Leute mit dem Essen zu den Klostern gefahren sind und nicht die Mönche zu den Leuten gekommen sind. Jedenfalls durften sie nicht nur ihre Klöster verlassen, sie durften auch ihre Roben nicht wechseln. Nun wissen wir auch, warum sie <txp:gho_permalink id="424">neulich</txp:gho_permalink> neue bekommen haben, denn ich möchte nicht wissen, ob man die alten nochmal sauber bekommt nach drei Monaten.
 

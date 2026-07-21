@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Thai Rak Thai, die Partei Thaksins, verliert seit dem Putsch immer mehr Mitglieder. Heute wurde nun bekannt, dass bereits am 24. September, am Tag 4 des Putsches, Surakiart Sathirathai ""ausgetreten":<http://www.nationmultimedia.com/breakingnews/read.php?newsid=30015178>" ist.
 

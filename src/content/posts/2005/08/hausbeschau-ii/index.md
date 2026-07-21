@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Neues Haus, alte Kamera aber wieder funktionierend. Also neue Hausbeschau. Unsereins bezog ja Mitte des Monats für die letzten Baht die das Singaporegebeutelte Budget hergab <txp:gho_permalink id="310">eine nette kleine Hütte</txp:gho_permalink> im Dschungel von Lamai. Nachfolgend nun eine bebilderte Reise durch mein Reich. Das _\*Haus am Berg\*_
 

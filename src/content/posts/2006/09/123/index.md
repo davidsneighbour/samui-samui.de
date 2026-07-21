@@ -8,6 +8,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Übrigens, es hat ja den Anschein, <txp:gho_permalink id="877">dass man mir nicht glaubt</txp:gho_permalink>. Ich habe bisher eine Postkarte erhalten. <txp:gho_permalink id="454">Das mit den Kommentaren damals</txp:gho_permalink> habe ich auch ernst gemeint und das Ergebnis konsequent befolgt.
 

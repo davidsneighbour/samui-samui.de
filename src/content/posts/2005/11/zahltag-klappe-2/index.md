@@ -9,5 +9,6 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 So. <txp:gho_permalink id="445">Heute habe ich es dann endlich mal bis Maenam geschafft</txp:gho_permalink>. In Bophut und Maenam ist von der Straße durch das gestrige Unwetter nicht mehr viel übrig. Schlaglöcher wo das Mopedrad hin rollt und ganze Straßenhälften sind abgesenkt. Die Amis hätten schon lange evakuiert. Die Bank selber war vom Ambiente her wie alle Banken von Ayudhaya. Und irgendwie gelingt es mir auch jedes Mal mehr, nahezu alle Felder auf dem Zettelchen auszufüllen. Naja. War ne nette Reise. Lohnenswert. Das war die Reputation dann schon wert.

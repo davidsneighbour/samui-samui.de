@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 In den News machen derzeit zwei Briefe die Runde. Einmal ein Schreiben vom Care takenden Premierminister Thaksin Shinawatra an Bush und einmal dessen Antwort darauf.
 

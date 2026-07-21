@@ -8,6 +8,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Da hab ich den gestrigen Tag nun die ganze Zeit darauf gewartet, <txp:gho_permalink id="850">Thaksins Diagnose</txp:gho_permalink> zu hören --- nichts. Vermutlich war sie so niederschmetternd dass sie eine Geheimstufe bekommen hat.
 

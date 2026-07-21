@@ -8,6 +8,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Dass es in Thailand <txp:gho_permalink id="743">eine acht mehr in den Mobiltelefonnummern</txp:gho_permalink> geben wird, habe ich mehrfach erwähnt. Zum ersten September nun wird umgeschaltet und alle Nummern bekommen gleich hinter der 0 eine 8 verpasst. Aus meiner leicht zu merkenden 078979350 wird eine 0878979350, das wird schon schön kompliziert.
 

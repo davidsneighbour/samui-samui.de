@@ -9,6 +9,7 @@ publisher:
   seo: true
   covermigration: true
   flickr: true
+  textpattern: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/215649892/" title="360°"><img src="//static.flickr.com/58/215649892_307c8e0952.jpg" alt="360°" /></a></p>

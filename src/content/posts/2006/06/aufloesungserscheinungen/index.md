@@ -8,6 +8,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Dass Thai Rak Thai (TRT) derzeit einige Prozesse am Hals hat wegen des Vorwurfs des Wahlbetrugs habe ich ja bereits <txp:gho_permalink id="769">mehrfach</txp:gho_permalink> <txp:gho_permalink id="746">geschrieben</txp:gho_permalink>. Heute nun hat der Generalstaatsanwalt beim Verfassungsgericht beantragt, 5 Parteien (darunter TRT und die Demokratische Partei) aufzulösen.
 

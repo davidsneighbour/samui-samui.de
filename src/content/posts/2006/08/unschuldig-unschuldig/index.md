@@ -8,6 +8,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Mister John Karr hat die kleine JonBenet Ramsey nicht umgebracht. Er hat es zwar behauptet aber irgendwie bin ich froh, <txp:gho_permalink id="841">damals schon mutmaßlich geschrieben zu haben</txp:gho_permalink>, denn bereits nach einigen Stunden meldeten sich die ersten Stimmen, dass er ein ziemlich seltsam aufmerksamkeitsbedürftiger Zeitgenosse sei. Er hat mit einem Kriminalistikprofessor Briefwechsel geführt woraufhin dieser die Briefe ans FBI weiter gegeben hat, weil er (Karr) mehr und mehr Behauptungen und Lügengerüste aufbaute.
 

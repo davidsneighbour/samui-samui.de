@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Es regnet. Mal wieder. Das Unangenehme am Leben als Hundehalter ist, dass man zu jeder Zeit bereit sein muss mit dem befellten Lebensgefährten eine geeignete Outdoor-Lokalität auf zu suchen. Gegen zwölf (der täglichen Wiese-geh-Zeit) dachte ich mir, er schläft und es regnet, also warten wir einfach ein bisschen, vielleicht besserts sich ja noch (Ja, ich denke mit sinnlosen Includes wie "ja" in normales Sätzen).
 

@@ -8,6 +8,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Seit gestern gelten ja nun <txp:gho_permalink id="939">die neuen Visabestimmungen</txp:gho_permalink>. Leise und heimlich hat die Regierung Ende vergangener Woche noch schnell ein paar weitere kleine Änderungen nachgeschoben:
 

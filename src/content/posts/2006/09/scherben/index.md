@@ -8,6 +8,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 (Hier mal ein Beispiel für einen Eintrag den ich <txp:gho_permalink id="872">in meinem deutschsprachigen Technoblog</txp:gho_permalink> schreiben würde, hehe...)
 

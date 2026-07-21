@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Manchmal kommt mir mein Leben wie eine Komödie vor. Dann muss ich lachen.
 

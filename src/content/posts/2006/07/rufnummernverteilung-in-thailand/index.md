@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Die folgende Tabelle zeigt die aktuelle Rufnummernverteilung im Mobilfunk in Thailand:
 

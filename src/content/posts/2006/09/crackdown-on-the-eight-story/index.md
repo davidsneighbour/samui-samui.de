@@ -8,6 +8,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 (Crackdown ist ein Schlagwort das gerne in englischsprachigen thailändischen Medien benutzt wird um Schlagzeilen zu machen, wenn es eigentlich nichts zu sagen gibt. Ich werde das mal häufiger verwenden.)
 

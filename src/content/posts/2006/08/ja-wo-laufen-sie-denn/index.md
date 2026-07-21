@@ -10,6 +10,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Um sich in Thailand aufhalten zu dürfen muss man entweder thailändischer Staatsbürger sein (ein für geborene Europäer mehrere Millionen Euro schweres Unterfangen) oder ein Visum besitzen. Dabei gibt es mehrere Arten von Visa.
 

@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Unser<txp:gho_footnote>Ko Samui</txp:gho_footnote> eigener kleiner <txp:gho_permalink id="797">Raubbau-Skandal</txp:gho_permalink> hat seine Wellen geschlagen und ist nun fast wieder eingeschlafen.
 

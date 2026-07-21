@@ -17,6 +17,7 @@
  *   --status=<value>   only posts whose current publisher.status equals this
  *   --thema=<thema>    only posts whose `themen` frontmatter includes this topic
  *   --tag=<tag>        deprecated alias for --thema
+ *   --textpattern-tags only posts whose file contains legacy Textpattern tags
  *
  * Values for `set` are auto-coerced: "true"/"false" -> boolean, a bare
  * number -> number, anything else stays a string.
@@ -34,11 +35,14 @@ const postsBase = path.join(projectRoot, 'src/content/posts');
 
 interface Filters {
   all: boolean;
+  textpatternTags: boolean;
   year?: string;
   path?: string;
   status?: string;
   thema?: string;
 }
+
+const textpatternTagPattern = /<txp:(?:gho_permalink|permlink|footnote)\b/i;
 
 interface ParsedFrontmatter {
   raw: string;
@@ -74,7 +78,7 @@ function coerceValue(value: string): string | number | boolean {
 function parseArgs(argv: string[]) {
   const [command, ...rest] = argv;
   const positional: string[] = [];
-  const filters: Filters = { all: false };
+  const filters: Filters = { all: false, textpatternTags: false };
   let dryRun = false;
 
   for (const arg of rest) {
@@ -92,6 +96,8 @@ function parseArgs(argv: string[]) {
       filters.thema = arg.slice('--thema='.length);
     } else if (arg.startsWith('--tag=')) {
       filters.thema = arg.slice('--tag='.length);
+    } else if (arg === '--textpattern-tags') {
+      filters.textpatternTags = true;
     } else {
       positional.push(arg);
     }
@@ -120,12 +126,14 @@ function hasFilter(filters: Filters): boolean {
       filters.year ||
       filters.path ||
       filters.status ||
-      filters.thema,
+      filters.thema ||
+      filters.textpatternTags,
   );
 }
 
-function matchesPostLevelFilters(
+function matchesPostFilters(
   frontmatter: Record<string, unknown>,
+  raw: string,
   filters: Filters,
 ): boolean {
   if (filters.status !== undefined) {
@@ -139,6 +147,9 @@ function matchesPostLevelFilters(
     if (!Array.isArray(themen) || !themen.includes(filters.thema)) {
       return false;
     }
+  }
+  if (filters.textpatternTags && !textpatternTagPattern.test(raw)) {
+    return false;
   }
   return true;
 }
@@ -183,7 +194,7 @@ async function runSet(
     const loaded = loadFrontmatter(file);
     if (!loaded) continue;
     const { parsed, doc, data } = loaded;
-    if (!matchesPostLevelFilters(data, filters)) continue;
+    if (!matchesPostFilters(data, parsed.raw, filters)) continue;
 
     doc.setIn(['publisher', key], value);
     changed++;
@@ -217,7 +228,7 @@ async function runUnset(key: string, filters: Filters, dryRun: boolean) {
     const loaded = loadFrontmatter(file);
     if (!loaded) continue;
     const { parsed, doc, data } = loaded;
-    if (!matchesPostLevelFilters(data, filters)) continue;
+    if (!matchesPostFilters(data, parsed.raw, filters)) continue;
     const publisher = data.publisher as Record<string, unknown> | undefined;
     if (!publisher || !(key in publisher)) continue;
 
@@ -249,8 +260,8 @@ async function runList(filters: Filters) {
   for (const file of files) {
     const loaded = loadFrontmatter(file);
     if (!loaded) continue;
-    const { data } = loaded;
-    if (!matchesPostLevelFilters(data, filters)) continue;
+    const { data, parsed } = loaded;
+    if (!matchesPostFilters(data, parsed.raw, filters)) continue;
     matched++;
     const publisher = data.publisher as Record<string, unknown> | undefined;
     const rel = path.relative(projectRoot, file);

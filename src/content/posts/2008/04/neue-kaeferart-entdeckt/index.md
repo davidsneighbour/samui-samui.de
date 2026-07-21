@@ -9,6 +9,7 @@ publisher:
   seo: true
   covermigration: true
   flickr: true
+  textpattern: true
 ---
 <div class="flickr">
   <a href="http://www.flickr.com/photos/schreibblogade/2437116396/" title="Ghost"><img src="//farm4.static.flickr.com/3066/2437116396_794b85d710.jpg" alt="Ghost" /></a></p>

@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 <txp:gho_permalink id="968">Ich sage nur Auml</txp:gho_permalink>! Es gibt bereits erste Vortragsanmeldungen und Besucher, die die Konferenz besuchen werden (was anders soll man als Besucher auch machen).
 

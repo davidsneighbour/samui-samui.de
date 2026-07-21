@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Neulich (schur, kram, blätter --- ah, <txp:gho_permalink id="469">hier</txp:gho_permalink>) meinte ich einen tollen Thaispruch loswerden zu müssen und wurde mitten im Schreiben, ehm, zu einem, ehm, dringenden und unerwarteten, ehm, Patientenbesuch gerufen. Genau. Patientenbesuch. Das wars.
 

@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Morgen übrigens werde ich das heimatliche Büro nur auf zwei gemütlichen Mopedfahrten zum und vom Flughafen tangieren, weil es eben an der Straße liegt. Wir (der Systemanalytiker und ich) machen einen Businesstrip nach Bangkok oder wie wir Kenner gerne noncholant dahinzuwerfen pflegen Krungthep Mahanakhon --- die Stadt der Engelmenschen --- um endlich vollwertige Mitglieder der Gesellschaft zu werden. Eine sehr lange Geschichte nimmt ihr Ende. Und eine noch längere ihren Beginn.
 

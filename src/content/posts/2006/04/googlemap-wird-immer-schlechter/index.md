@@ -9,6 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+  textpattern: true
 ---
 Neulich habe ich schon berichtet, <txp:gho_permalink id="697">dass die Qualität der Maps in und um Bangkok herum schlechter geworden ist</txp:gho_permalink>, nun haben sie komplett neues Kartenmaterial für Thailand im Angebot.
 
