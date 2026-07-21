@@ -1,6 +1,6 @@
 ---
 title: Datenschutzerklärung
-lastmod: 2026-07-20T00:00:00+07:00
+lastmod: 2026-07-21T00:00:00+07:00
 ---
 
 import PageLayout from '@layouts/PageLayout.astro';
@@ -93,6 +93,12 @@ Wir setzen auf unserer Seite Komponenten des Anbieters Vimeo ein. Vimeo ist ein 
 Klicken Sie z.B. den "Play“-Button an oder geben Sie entsprechende Kommentare ab, werden diese Informationen an Ihr persönliches Benutzerkonto bei Vimeo übermittelt und dort gespeichert. Darüber hinaus wird die Information, dass Sie unsere Seite besucht haben, an Vimeo weitergegeben. Dies geschieht unabhängig davon, ob Sie z.B. die Komponente anklicken/Kommentare abgeben oder nicht.
 
 Wenn Sie diese Übermittlung und Speicherung von Daten über Sie und Ihr Verhalten auf unserer Webseite durch Vimeo unterbinden wollen, müssen Sie sich bei Vimeo ausloggen und zwar bevor Sie unsere Seite besuchen. Die Datenschutzhinweise von Vimeo geben hierzu nähere Informationen, insbesondere zur Erhebung und Nutzung der Daten durch Vimeo: [https://vimeo.com/privacy](https://vimeo.com/privacy)
+
+## Einsatz von OpenFreeMap-Karten
+
+Auf einzelnen Seiten kann eine interaktive Karte angezeigt werden. Die Karte wird erst geladen, wenn Sie die jeweilige Schaltfläche zum Anzeigen der Karte aktivieren. Als Darstellungsbibliothek verwenden wir MapLibre GL JS, eine quelloffene Kartenbibliothek. Die Kartenstile, Vektorkacheln, Schrift- und Symbolressourcen werden zunächst über OpenFreeMap (`tiles.openfreemap.org`) geladen.
+
+Dabei wird keine Verbindung zu Google Maps oder Mapbox aufgebaut, und für diese Kartenintegration ist kein API-Schlüssel erforderlich. Beim Laden der Kartenressourcen werden jedoch übliche Verbindungsdaten, insbesondere Ihre IP-Adresse und technische Browserdaten, an die Infrastruktur von OpenFreeMap übermittelt. Die aktuelle Integration ist deshalb nicht vollständig selbst betrieben und nicht vollständig privat.
 
 ### Auskunft/Widerruf/Löschung
 

@@ -228,6 +228,50 @@ home/blog-list), `[...slug].astro` (individual posts), `leute/[slug].astro`,
 `404.astro`, `seite/[seite].astro` (pagination), `rss.xml.js`,
 `opensearch.xml.ts`.
 
+### Interactive maps
+
+The selected mapping stack is MapLibre GL JS as the open-source renderer and
+OpenFreeMap as the initial MapLibre-compatible vector style/tile provider. These
+are separate concerns: MapLibre renders maps in the browser, while OpenFreeMap
+supplies the hosted style document, tiles, sprites, glyphs, fonts, and related
+assets. Open-source rendering does not make a hosted tile provider free,
+private, unlimited, or production-suitable by default.
+
+Do not use Google Maps, Google Maps APIs, Mapbox, Google-hosted map assets,
+CDN-loaded map JavaScript/CSS, API-key-dependent map services, or
+`tile.openstreetmap.org` as an assumed unlimited production tile CDN for this
+stack. Leaflet remains valid for future simple raster-map needs, but it is not
+the selected initial stack because this site needs full control over vector map
+styling. OpenLayers is also not selected for the initial stack because its GIS
+surface area is unnecessary for the current website requirements.
+
+Central map settings MUST live in `src/config/maps.ts`. Reusable locations MUST
+live in structured local TypeScript data such as `src/data/map-locations.ts` or
+a future GeoJSON/data module; do not scatter coordinate literals through page
+templates. Remember that MapLibre coordinate arrays use `[longitude, latitude]`
+order even when component APIs accept named `latitude` and `longitude` props.
+
+The initial OpenFreeMap setup requires no Google dependency, Mapbox token,
+account, or application API key. It still makes external requests to
+`tiles.openfreemap.org`, disclosing ordinary connection metadata such as visitor
+IP address to that external host. Do not describe this as fully self-hosted,
+anonymous, completely private, or GDPR-compliant merely because MapLibre is open
+source. The long-term privacy and independence path is MapLibre GL JS with a
+locally hosted style document, local sprites/fonts where required, and a
+self-hosted regional Protomaps PMTiles file; do not implement PMTiles until a
+future requirement asks for full self-hosting.
+
+Map components MUST be native Astro plus strict TypeScript unless an existing
+frontend runtime is already required for the specific surface. They MUST lazy-load
+MapLibre in the browser after the map becomes visible, import MapLibre CSS
+through the module graph, validate finite latitude/longitude/zoom values, render
+local accessible HTML/SVG markers, build popups with DOM APIs or otherwise
+escaped text rather than `innerHTML`, support multiple instances without global
+IDs or `window` state, resize hidden-then-shown maps, expose visible close
+controls, restore focus, respect reduced-motion preferences, and clean up map
+instances/listeners when dialogs close or components are torn down. When CSP
+changes are required, document the exact directives and hosts being added.
+
 ### Deployment
 
 Netlify, configured via `netlify.toml`: build command, functions directory
