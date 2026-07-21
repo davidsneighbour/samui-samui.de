@@ -2,7 +2,7 @@
 title: "Grippe Reduktion"
 date: 2020-11-23T20:47:40+07:00
 lastmod: 2020-11-23T20:47:40+07:00
-tags:
+themen:
   - grippe
   - covid-19
 resources:

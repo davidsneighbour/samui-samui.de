@@ -1,7 +1,7 @@
 ---
 title: 'Google Doodle des Tages: Kindertag in Thailand'
 date: 2017-01-14T10:54:45+07:00
-tags:
+themen:
   - google doodle
   - feiertage
 resources:

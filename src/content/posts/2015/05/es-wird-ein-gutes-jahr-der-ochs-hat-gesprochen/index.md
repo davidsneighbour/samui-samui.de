@@ -1,7 +1,7 @@
 ---
 title: Es wird ein gutes Jahr! Der Ochs hat gesprochen…
 date: 2015-05-16T15:49:26+07:00
-tags:
+themen:
   - royal ploughing ceremony
   - traditionen
   - feiertage

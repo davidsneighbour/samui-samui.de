@@ -3,12 +3,12 @@ title: Der alte Weg
 description: ""
 date: 2019-07-02T20:40:40+07:00
 lastmod: 2023-09-10T19:14:12+07:00
-tags:
+themen:
   - politik
   - regierung
   - putsch
 leute:
-  - prayuth chan-ocha
+   - prayuth-chan-ocha
 publisher:
   description: true
   summary: true

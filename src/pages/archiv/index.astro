@@ -12,11 +12,11 @@ import {
   formatMonthLong,
   getPostDateParts,
 } from '@utils/dates';
-import { groupPostsByTag } from '@utils/tags';
+import { groupPostsByThema } from '@utils/themen';
 
-const [posts, tagEntries] = await Promise.all([
+const [posts, themaEntries] = await Promise.all([
   getCollection('posts'),
-  getCollection('tags'),
+  getCollection('themen'),
 ]);
 
 const sortedByDate = [...posts].sort(
@@ -114,13 +114,13 @@ const monthAnchor = (month: number) =>
 // anti-pattern (Chrome DevTools' Issues panel flags it). Only the "Monate
 // anzeigen" toggle and its content live inside the accordion.
 
-const tagGroups = groupPostsByTag(posts, tagEntries).sort(
+const themaGroups = groupPostsByThema(posts, themaEntries).sort(
   (a, b) => b.posts.length - a.posts.length,
 );
-// No editorial "featured tag" signal exists in the content today (see
+// No editorial "featured topic" signal exists in the content today (see
 // documentation/archiv.md) -- this is frequency-ranked, not hand-curated.
 // Revisit once/if editorial curation is added.
-const curatedTags = tagGroups.slice(0, 12);
+const curatedThemen = themaGroups.slice(0, 12);
 ---
 
 <PageLayout
@@ -171,7 +171,7 @@ const curatedTags = tagGroups.slice(0, 12);
     <div>
       <dt class="text-sm text-muted-foreground">Themen</dt>
       <dd class="text-2xl font-medium text-card-foreground">
-        {tagGroups.length}
+        {themaGroups.length}
       </dd>
     </div>
     <div>
@@ -274,23 +274,23 @@ const curatedTags = tagGroups.slice(0, 12);
       Archiv.
     </p>
     <ul class="flex flex-wrap gap-2">
-      {curatedTags.map((tag) => (
+      {curatedThemen.map((thema) => (
           <li>
             <Badge
-              href={`/tags/${tag.slug}/`}
+              href={`/themen/${thema.slug}/`}
               variant="muted"
-              aria-label={`${tag.posts.length} Beiträge zum Thema ${tag.title}`}
+              aria-label={`${thema.posts.length} Beiträge zum Thema ${thema.title}`}
             >
-              {tag.title.toLocaleUpperCase('de-DE')} · {tag.posts.length}
+              {thema.title.toLocaleUpperCase('de-DE')} · {thema.posts.length}
             </Badge>
           </li>
         ))}
     </ul>
     <a
-      href="/tags/"
+      href="/themen/"
       class="mt-4 inline-block text-sm text-link hover:underline"
     >
-      Alle Tags ansehen →
+      Alle Themen ansehen →
     </a>
   </section>
 

@@ -3,7 +3,7 @@ title: "Und jetzt mal Werbung III"
 description: "Ein kleiner Junge spart auf ein Teleskop. Wird er das Geld zusammen bekommen?"
 date: 2020-11-11T20:14:55+07:00
 url: /2020/11/und-jetzt-mal-werbung-iii
-tags:
+themen:
   - undjetztmalwerbung
   - video
   - traenendruesenwerbung

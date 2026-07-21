@@ -1,6 +1,6 @@
 ---
 import FormattedDate from '@components/FormattedDate.astro';
-import TagBadges from '@components/TagBadges.astro';
+import ThemaBadges from '@components/ThemaBadges.astro';
 import Tooltip from '@components/ui/tooltip.astro';
 import { CalendarCheck, CalendarDays } from '@lucide/astro';
 import { cn } from '@utils/cn';
@@ -9,7 +9,7 @@ import { formatDate } from '@utils/dates';
 interface Props {
   date?: Date | undefined;
   updatedDate?: Date | undefined;
-  tags?: string[] | undefined;
+  themen?: string[] | undefined;
   extended?: boolean | undefined;
   class?: string | undefined;
 }
@@ -17,13 +17,13 @@ interface Props {
 const {
   date,
   updatedDate,
-  tags,
+  themen,
   extended = false,
   class: className,
 } = Astro.props as Props;
-const hasTags = tags && tags.length > 0;
+const hasThemen = themen && themen.length > 0;
 const hasDates = date || updatedDate;
-const hasMeta = date || updatedDate || hasTags;
+const hasMeta = date || updatedDate || hasThemen;
 const updatedDateLabel = updatedDate
   ? `Zuletzt aktualisiert am ${formatDate(updatedDate, { extended })}`
   : undefined;
@@ -64,9 +64,9 @@ const updatedDateLabel = updatedDate
         )}
       </div>
     )}
-    {hasTags && (
-      <TagBadges
-        tags={tags}
+    {hasThemen && (
+      <ThemaBadges
+        themen={themen}
         class="sm:justify-end"
       />
     )}

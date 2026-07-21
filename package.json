@@ -77,7 +77,7 @@
   "scripts": {
     "astro": "astro",
     "blog:new": "node src/scripts/new-blog-post.ts",
-    "build": "npm run validate:content && astro build --verbose",
+    "build": "npm run validate && astro build --verbose",
     "check": "npm run format:check && npm run lint && npm run validate && npm run test",
     "clean": "wireit",
     "clean:full": "wireit",
@@ -110,8 +110,9 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "upgrade": "npx @astrojs/upgrade",
-    "validate": "npm run validate:content",
-    "validate:content": "astro check"
+    "validate": "npm run validate:content && npm run validate:taxonomies",
+    "validate:content": "astro check",
+    "validate:taxonomies": "node src/scripts/validate-taxonomies.ts"
   },
   "wireit": {
     "compile:fixpack": {

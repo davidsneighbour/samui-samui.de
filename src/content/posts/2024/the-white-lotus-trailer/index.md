@@ -2,7 +2,7 @@
 title: The White Lotus Trailer
 description: The White Lotus Staffel 3 spielt auf Koh Samui und startet am 16. Februar 2025. Gedreht wurde im Four Seasons. Trailer jetzt verfügbar!
 date: 2024-12-22T16:39:41+07:00
-tags:
+themen:
   - video
   - thailand
   - fernsehen

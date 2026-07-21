@@ -1,7 +1,7 @@
 ---
 title: Entscheidung Thai-Style
 date: 2017-10-24T20:36:56+07:00
-tags:
+themen:
   - soccer
   - thaistyle
   - video

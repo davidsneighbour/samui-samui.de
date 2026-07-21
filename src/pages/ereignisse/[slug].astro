@@ -1,0 +1,78 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '@components/BaseHead.astro';
+import BlogList from '@components/BlogList.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import Footer from '@components/Footer.astro';
+import Header from '@components/Header.astro';
+import {
+  getEntityDescription,
+  groupPostsByEntity,
+  isPublicEntity,
+} from '@utils/taxonomies/entities';
+
+export async function getStaticPaths() {
+  const [events, posts] = await Promise.all([
+    getCollection('ereignisse'),
+    getCollection('posts'),
+  ]);
+
+  return events.filter(isPublicEntity).map((event) => ({
+    params: { slug: event.id },
+    props: {
+      event,
+      posts: groupPostsByEntity(posts, 'ereignisse', event.id),
+    },
+  }));
+}
+
+const { event, posts } = Astro.props;
+const description = getEntityDescription('ereignisse', event);
+---
+
+<!doctype html>
+<html
+  lang="de"
+  class="dark"
+>
+  <head>
+    <BaseHead
+      title={event.data.title}
+      description={description}
+      noindex={event.data.noindex}
+    />
+  </head>
+  <body>
+    <Header />
+    <main
+      id="main"
+      tabindex="-1"
+      class="py-8"
+    >
+      <section>
+        <Breadcrumbs
+          class="mx-auto max-w-4xl px-4"
+          items={[
+            { href: '/', label: 'Startseite' },
+            { href: '/ereignisse/', label: 'Ereignisse' },
+            { href: `/ereignisse/${event.id}/`, label: event.data.title },
+          ]}
+        />
+        <h1
+          class="mx-auto mb-4 max-w-4xl px-4 text-2xl font-normal text-foreground"
+        >
+          {event.data.title}
+        </h1>
+        <p class="mx-auto mb-8 max-w-4xl px-4 text-muted-foreground">
+          {description}
+        </p>
+        <BlogList
+          posts={posts}
+          pageNumber={1}
+          totalPages={1}
+        />
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>

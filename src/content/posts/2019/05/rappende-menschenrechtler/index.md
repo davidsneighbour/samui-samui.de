@@ -1,7 +1,7 @@
 ---
 title: "Rappende Menschenrechtler"
 date: 2019-05-31T22:24:48+07:00
-tags:
+themen:
   - musik
   - armee-regierung
   - protest

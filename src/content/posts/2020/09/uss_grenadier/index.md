@@ -3,7 +3,7 @@ title: "USS Grenadier"
 description: "150km vor Phuket haben Taucher in den vergangenen Monaten ein amerikanisches U-Boot gefunden, das im zweiten Weltkrieg dort gesunken ist."
 date: 2020-09-18T19:56:20+07:00
 lastmod: 2020-09-18T19:56:20+07:00
-tags:
+themen:
   - geschichte
   - weltkrieg
 resources:

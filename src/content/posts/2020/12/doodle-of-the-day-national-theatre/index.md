@@ -4,7 +4,7 @@ description: "Das heutige Doodle feiert das Thai National Theatre, eine Kulturst
 date: 2020-12-23T20:54:35+07:00
 lastmod: 2020-12-23T20:54:35+07:00
 url: /2020/12/google-doodle-des-tages-national-theater
-tags:
+themen:
   - google doodle
   - kultur
 resources:

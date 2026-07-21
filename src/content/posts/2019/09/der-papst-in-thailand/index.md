@@ -2,12 +2,12 @@
 title: "Der Papst in Thailand"
 date: 2019-09-15T15:17:11+07:00
 lastmod: 2019-09-15T15:17:11+07:00
-tags:
+themen:
   - papstbesuch
   - religion
   - katholizismus
 leute:
-  - papst franziskus
+   - papst-franziskus
 publisher:
   description: true
   summary: true

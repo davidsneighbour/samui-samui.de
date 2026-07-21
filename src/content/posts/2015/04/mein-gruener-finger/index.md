@@ -1,7 +1,7 @@
 ---
 title: "Mein grüner Finger"
 date: 2015-04-16T09:43:43+07:00
-tags:
+themen:
   - blumen
   - orchidee
 resources:

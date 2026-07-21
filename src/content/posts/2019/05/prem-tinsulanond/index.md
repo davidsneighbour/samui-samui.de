@@ -2,12 +2,12 @@
 title: "Prem Tinsulanonda"
 date: 2019-05-31T00:06:48+07:00
 url: /2019/05/prem-tinsulanonda
-tags:
+themen:
   - politik
 leute:
-  - prem tinsulanonda
-  - prayuth chan-ocha
-  - surayud chulanont
+   - prem-tinsulanonda
+   - prayuth-chan-ocha
+   - surayud-chulanont
 publisher:
   description: true
   summary: true

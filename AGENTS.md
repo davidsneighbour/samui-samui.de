@@ -53,6 +53,41 @@ at [https://samui-samui.de](https://samui-samui.de).
   create one as part of the feature work so behavior, configuration, and operating
   notes do not drift away from the implementation.
 
+## Taxonomien
+
+Der Blog verwendet vier getrennte Taxonomien:
+
+* `leute`: konkrete Personen
+* `orte`: konkrete geografische Orte
+* `ereignisse`: konkrete benannte Ereignisse
+* `themen`: allgemeine Themen und redaktionelle Schlagwörter
+
+Für jeden Wert in `leute`, `orte` und `ereignisse` muss ein physischer Eintrag in
+der entsprechenden Content Collection existieren. `themen` ist die einzige offene
+Taxonomie. Themen dürfen ohne eigenen Collection-Eintrag verwendet werden.
+
+Verwende in Beiträgen ausschließlich kanonische IDs:
+
+```yaml
+leute:
+  - thaksin-shinawatra
+orte:
+  - bangkok
+ereignisse:
+  - militaerputsch-2006
+themen:
+  - politik
+```
+
+Personen, Orte und Ereignisse dürfen nicht zusätzlich als Themen eingetragen
+werden. Neue Entitäten dürfen zunächst als minimale `_index.md`-Datei angelegt
+werden. Erfinde keine Beschreibungen, Lebensdaten, Koordinaten oder sonstigen
+Fakten. Erzeuge keine Ereignis-Einträge für jede beiläufige Erwähnung, leite Orte
+nicht ungefragt aus Prosa ab, verwende keine Anzeigenamen als Referenzen und nutze
+öffentlich `Themen`, nie `Tags`. Nach Content-Änderungen mit Taxonomiebezug
+`npm run validate:taxonomies` ausführen. Die vollständigen Regeln stehen in
+[`documentation/taxonomien.md`](documentation/taxonomien.md).
+
 ## Change tracking
 
 * Every change MUST be committed. Uncommitted work MUST NOT be left behind as the
@@ -171,7 +206,9 @@ are defined in `tsconfig.json`.
 
 Defined in `src/content.config.ts`: `posts` (`src/content/posts/**/index.md`,
 2,049 posts, oldest from 2005), `leute` ("people",
-`src/content/leute/**/_index.md`), `tags` (`src/content/tags/**/_index.md`).
+`src/content/leute/**/_index.md`), `orte` (`src/content/orte/**/_index.md`),
+`ereignisse` (`src/content/ereignisse/**/_index.md`), and `themen`
+(`src/content/themen/**/_index.md`).
 `src/content/` also holds a few standalone pages (`datenschutzerklaerung.md`,
 `kontakt.md`, `suche.md`) and non-collection content (`feiertage/`, `sitewide/` —
 the latter is data-only, e.g. the author-bio footer wired into every post).
@@ -227,7 +264,8 @@ edited, but agents MUST interpret them through the Bangkok helpers above.
 
 `src/pages/` has a route for every content type: `index.astro` (paginated
 home/blog-list), `[...slug].astro` (individual posts), `leute/[slug].astro`,
-`tags/[slug].astro`, `archiv/[year].astro` + `archiv/index.astro`,
+`orte/[slug].astro`, `ereignisse/[slug].astro`, `themen/[slug].astro`,
+`archiv/[year].astro` + `archiv/index.astro`,
 `feiertage.astro`, `kontakt.astro`, `suche.astro`, `datenschutzerklaerung.astro`,
 `404.astro`, `seite/[seite].astro` (pagination), `rss.xml.js`,
 `opensearch.xml.ts`.

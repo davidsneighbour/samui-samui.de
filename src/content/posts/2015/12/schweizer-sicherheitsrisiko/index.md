@@ -1,7 +1,7 @@
 ---
 title: Schweizer Sicherheitsrisiko
 date: 2015-12-13T19:40:20+07:00
-tags:
+themen:
   - sicherheit
   - touristen
 publisher:

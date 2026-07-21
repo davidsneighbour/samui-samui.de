@@ -1,7 +1,7 @@
 ---
 title: "Thirtysix-18"
 date: 2019-01-01T21:00:00+07:00
-tags:
+themen:
   - wetter
   - sturm
   - koh samui

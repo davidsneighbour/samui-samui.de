@@ -9,7 +9,7 @@ fb_author_message:
   - New on my personal blog (you might need to learn German to read it ;)
 fb_status_messages:
   - 'a:1:{i:0;a:2:{s:7:"message";s:153:"Failed posting to your Facebook Timeline. Error: {"message":"An unexpected error has occurred. Please retry your request later.","type":"OAuthException"}";s:5:"error";s:1:"1";}}'
-tags:
+themen:
   - panda
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:

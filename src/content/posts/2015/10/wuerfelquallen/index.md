@@ -1,7 +1,7 @@
 ---
 title: Würfelquallen
 date: 2015-10-08T20:22:56+07:00
-tags:
+themen:
   - wuerfelquallen
   - tierwelt
 publisher:

@@ -1,7 +1,7 @@
 ---
 title: Elfenbeinschmuggel und Thailand
 date: 2017-03-09T21:30:58+07:00
-tags:
+themen:
   - elefanten
   - elfenbein
   - kriminalität

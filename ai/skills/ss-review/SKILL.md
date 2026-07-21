@@ -1,6 +1,6 @@
 ---
 name: ss-review
-description: Review one samui-samui.de blog post for editorial quality, metadata, SEO, tags, links, images, cover migration, Flickr references, and repository-specific content standards. Use for existing posts and new drafts, with or without publisher frontmatter.
+description: Review one samui-samui.de blog post for editorial quality, metadata, SEO, taxonomies, links, images, cover migration, Flickr references, and repository-specific content standards. Use for existing posts and new drafts, with or without publisher frontmatter.
 ---
 
 <!-- markdownlint-disable title-case-style -->
@@ -25,7 +25,7 @@ Inspect:
 * factual and historical context
 * headings and document structure
 * internal and external links
-* tags and site-wide tag consistency
+* taxonomies and site-wide taxonomy consistency
 * cover configuration and cover migration
 * all body images
 * Flickr references and recoverable originals
@@ -57,7 +57,7 @@ Before changing content, inspect these when present:
 3. repository documentation relevant to posts, images, covers, Markdown, and
    editorial notes
 4. `ai/skills/ss-review/resources/*.md`
-5. the site-wide tag registry or tag collection
+5. the taxonomy documentation and topic collection
 6. neighbouring posts when useful for terminology and internal links
 
 The most specific repository instruction wins.
@@ -173,12 +173,14 @@ because they are old.
 When information is outdated, prefer an editorial note over rewriting the
 original claim as though it had always been current.
 
-### 7. Review tags
+### 7. Review taxonomies
 
 Follow `resources/tag-rules.md`.
 
-Tags are a controlled site-wide vocabulary, not free-form keywords. Compare the
-proposed tags against existing tags and related posts.
+Use the four German taxonomies documented in
+`documentation/taxonomien.md`. Compare proposed topics against existing topics
+and related posts, and use registered `leute`, `orte`, and `ereignisse`
+references for concrete people, places, and named events.
 
 ### 8. Review images and cover
 
@@ -216,7 +218,7 @@ Do not clear it solely because the visible page renders.
 Follow `resources/seo-rules.md`.
 
 SEO is a holistic pass. It is not satisfied merely by having a title,
-description, and tags.
+description, and taxonomies.
 
 ### 11. Determine editorial note requirements
 

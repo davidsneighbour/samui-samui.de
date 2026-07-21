@@ -11,12 +11,13 @@
   },
   "scripts": {
     "astro": "astro",
-    "build": "npm run validate:content && astro build --verbose",
+    "build": "npm run validate && astro build --verbose",
     "dev": "astro dev --verbose",
     "dev:verbose": "DEBUG_FRONTMATTER=true astro dev --verbose",
     "preview": "astro preview",
     "upgrade": "npx @astrojs/upgrade",
-    "validate": "npm run validate:content",
-    "validate:content": "astro check"
+    "validate": "npm run validate:content && npm run validate:taxonomies",
+    "validate:content": "astro check",
+    "validate:taxonomies": "node src/scripts/validate-taxonomies.ts"
   }
 }

@@ -1,7 +1,7 @@
 ---
 title: Feuer auf Borneo und Smog auf Samui
 date: 2015-10-23T19:06:54+07:00
-tags:
+themen:
   - indonesien
   - smog
   - wetter

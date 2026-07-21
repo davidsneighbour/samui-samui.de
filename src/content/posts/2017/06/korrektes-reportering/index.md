@@ -1,7 +1,7 @@
 ---
 title: Korrektes Reportering
 date: 2017-06-25T21:15:34+07:00
-tags:
+themen:
   - prayuth chan-ocha
   - pressefreiheit
   - thaistyle

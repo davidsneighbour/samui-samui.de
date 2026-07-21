@@ -1,7 +1,7 @@
 ---
 title: "Vogelgrippe, mal wieder"
 date: 2018-03-27T19:29:11+07:00
-tags:
+themen:
   - vogelgrippe
   - tierwelt
 resources:

@@ -2,7 +2,7 @@
 title: "Neues Verfahren zur Beantragung des deutschen Schengen-Visas"
 date: 2019-07-24T18:39:53+07:00
 lastmod: 2019-07-24T18:39:53+07:00
-tags:
+themen:
   - deutschland
   - schengen
   - visa

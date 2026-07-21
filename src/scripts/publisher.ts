@@ -1,8 +1,8 @@
 /**
  * CLI for managing the repo-internal `publisher.*` frontmatter block on blog
  * posts (src/content/posts/**\/index.md). This metadata is never rendered on
- * the site -- it exists purely so a human or an AI agent can tag posts (e.g.
- * `status: need-work`) and later query "everything tagged X" as a work queue.
+ * the site -- it exists purely so a human or an AI agent can mark posts (e.g.
+ * `status: need-work`) and later query "everything marked X" as a work queue.
  *
  * Usage:
  *   node src/scripts/publisher.ts set <key> <value> <filter...> [--dry-run]
@@ -15,7 +15,8 @@
  *   --year=2005        posts under src/content/posts/2005/
  *   --path=<glob>      glob relative to src/content/posts, e.g. "2005/**"
  *   --status=<value>   only posts whose current publisher.status equals this
- *   --tag=<tag>        only posts whose `tags` frontmatter includes this tag
+ *   --thema=<thema>    only posts whose `themen` frontmatter includes this topic
+ *   --tag=<tag>        deprecated alias for --thema
  *
  * Values for `set` are auto-coerced: "true"/"false" -> boolean, a bare
  * number -> number, anything else stays a string.
@@ -36,7 +37,7 @@ interface Filters {
   year?: string;
   path?: string;
   status?: string;
-  tag?: string;
+  thema?: string;
 }
 
 interface ParsedFrontmatter {
@@ -87,8 +88,10 @@ function parseArgs(argv: string[]) {
       filters.path = arg.slice('--path='.length);
     } else if (arg.startsWith('--status=')) {
       filters.status = arg.slice('--status='.length);
+    } else if (arg.startsWith('--thema=')) {
+      filters.thema = arg.slice('--thema='.length);
     } else if (arg.startsWith('--tag=')) {
-      filters.tag = arg.slice('--tag='.length);
+      filters.thema = arg.slice('--tag='.length);
     } else {
       positional.push(arg);
     }
@@ -117,7 +120,7 @@ function hasFilter(filters: Filters): boolean {
       filters.year ||
       filters.path ||
       filters.status ||
-      filters.tag,
+      filters.thema,
   );
 }
 
@@ -131,9 +134,11 @@ function matchesPostLevelFilters(
       | undefined;
     if ((publisher?.status ?? undefined) !== filters.status) return false;
   }
-  if (filters.tag !== undefined) {
-    const tags = frontmatter.tags;
-    if (!Array.isArray(tags) || !tags.includes(filters.tag)) return false;
+  if (filters.thema !== undefined) {
+    const themen = frontmatter.themen;
+    if (!Array.isArray(themen) || !themen.includes(filters.thema)) {
+      return false;
+    }
   }
   return true;
 }
@@ -165,7 +170,7 @@ async function runSet(
 ) {
   if (!hasFilter(filters)) {
     console.error(
-      'Refusing to run `set` with no filter -- pass --all or a scoping filter (--year, --path, --status, --tag).',
+      'Refusing to run `set` with no filter -- pass --all or a scoping filter (--year, --path, --status, --thema).',
     );
     process.exitCode = 1;
     return;
@@ -200,7 +205,7 @@ async function runSet(
 async function runUnset(key: string, filters: Filters, dryRun: boolean) {
   if (!hasFilter(filters)) {
     console.error(
-      'Refusing to run `unset` with no filter -- pass --all or a scoping filter (--year, --path, --status, --tag).',
+      'Refusing to run `unset` with no filter -- pass --all or a scoping filter (--year, --path, --status, --thema).',
     );
     process.exitCode = 1;
     return;

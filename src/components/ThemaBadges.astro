@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+import Badge from '@components/ui/badge.astro';
+import { cn } from '@utils/cn';
+import { humanize } from '@utils/slugify';
+import { getThemaSlug } from '@utils/themen';
+
+interface Props {
+  themen: string[];
+  class?: string | undefined;
+}
+
+const { themen, class: className } = Astro.props as Props;
+const themaEntries = await getCollection('themen');
+const getThemaLabel = (thema: string) => humanize(thema);
+const getThemaBadgeLabel = (thema: string) =>
+  getThemaLabel(thema).toLocaleUpperCase('de-DE');
+---
+
+<ul
+  class={cn('flex flex-wrap items-center gap-2', className)}
+  aria-label="Themen"
+>
+  {themen.map((thema) => (
+      <li>
+        <Badge
+          href={`/themen/${getThemaSlug(thema, themaEntries)}/`}
+          variant="muted"
+          aria-label={`Beiträge zum Thema ${getThemaLabel(thema)}`}
+        >
+          {getThemaBadgeLabel(thema)}
+        </Badge>
+      </li>
+    ))}
+</ul>

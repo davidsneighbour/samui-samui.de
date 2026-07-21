@@ -2,7 +2,7 @@
 title: Ein spezieller Panda
 date: 2009-06-19T05:31:59+07:00
 
-tags:
+themen:
   - panda
 publisher:
   description: true

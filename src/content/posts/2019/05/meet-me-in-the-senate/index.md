@@ -1,12 +1,12 @@
 ---
 title: "Meet Me in the Senate"
 date: 2019-05-16T20:25:48+07:00
-tags:
+themen:
   - senat
   - politik
   - regierung
 leute:
-  - prayuth chan-ocha
+   - prayuth-chan-ocha
 publisher:
   description: true
   summary: true

@@ -2,7 +2,7 @@
 title: "Google Doodle des Tages: Eua Sunthornsanan"
 date: 2018-01-22T22:47:32+07:00
 url: /2018/01/google-doodle-des-tages-eua-sunthornsanan/
-tags:
+themen:
   - google doodle
   - thai kultur
   - thai musik

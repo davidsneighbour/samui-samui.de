@@ -9,11 +9,17 @@ interface Props {
   title: string;
   description: string;
   image?: ImageMetadata | undefined;
+  noindex?: boolean | undefined;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image = FallbackImage } = Astro.props;
+const {
+  title,
+  description,
+  image = FallbackImage,
+  noindex = false,
+} = Astro.props;
 ---
 
 <script is:inline>
@@ -142,6 +148,12 @@ const { title, description, image = FallbackImage } = Astro.props;
   name="description"
   content={description}
 >
+{noindex ? (
+  <meta
+    name="robots"
+    content="noindex,follow"
+  />
+) : null}
 
 <!-- Open Graph / Facebook -->
 <meta

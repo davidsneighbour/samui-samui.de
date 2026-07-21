@@ -1,7 +1,7 @@
 ---
 title: Authentisches Leben in einer Touristengegend
 date: 2005-01-13T03:27:08+07:00
-tags:
+themen:
   - lamai
   - moped
 lastmod: 2023-09-10T19:14:12+07:00

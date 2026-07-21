@@ -1,7 +1,7 @@
 ---
 title: Bombenanschlag auf Samui
 date: 2015-04-11T15:36:58+07:00
-tags:
+themen:
   - terrorismus
   - koh samui
 publisher:

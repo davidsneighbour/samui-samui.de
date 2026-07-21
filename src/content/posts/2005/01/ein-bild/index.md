@@ -2,7 +2,7 @@
 title: Ein Bild
 date: 2005-01-16T06:08:00+07:00
 featured_image: /wp-content/uploads/2005/01/ein-bild/15.jpg
-tags:
+themen:
   - schweden
   - waermland
   - winter

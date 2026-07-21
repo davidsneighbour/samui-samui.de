@@ -3,7 +3,7 @@ title: "Asalha Puja Day"
 description: ""
 date: 2019-07-15T17:41:29+07:00
 lastmod: 2019-07-15T17:41:29+07:00
-tags:
+themen:
   - feiertage
   - religion
   - buddhismus

@@ -3,7 +3,7 @@ title: "Knochen im Gebüsch"
 description: ""
 date: 2018-03-28T19:14:01+07:00
 lastmod: 2018-03-28T19:14:01+07:00
-tags:
+themen:
   - koh samui
   - mord und totschlag
   - thinglish

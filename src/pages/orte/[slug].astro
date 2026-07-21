@@ -5,39 +5,41 @@ import BlogList from '@components/BlogList.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
 import Footer from '@components/Footer.astro';
 import Header from '@components/Header.astro';
-import { groupPostsByTag } from '@utils/tags';
+import {
+  getEntityDescription,
+  groupPostsByEntity,
+  isPublicEntity,
+} from '@utils/taxonomies/entities';
 
 export async function getStaticPaths() {
-  const [tagEntries, posts] = await Promise.all([
-    getCollection('tags'),
+  const [places, posts] = await Promise.all([
+    getCollection('orte'),
     getCollection('posts'),
   ]);
 
-  return groupPostsByTag(posts, tagEntries).map((group) => ({
-    params: { slug: group.slug },
+  return places.filter(isPublicEntity).map((place) => ({
+    params: { slug: place.id },
     props: {
-      description: group.description,
-      posts: group.posts.sort(
-        (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
-      ),
-      slug: group.slug,
-      title: group.title,
+      place,
+      posts: groupPostsByEntity(posts, 'orte', place.id),
     },
   }));
 }
 
-const { title, description, posts, slug } = Astro.props;
+const { place, posts } = Astro.props;
+const description = getEntityDescription('orte', place);
 ---
 
 <!doctype html>
 <html
-  lang="en"
+  lang="de"
   class="dark"
 >
   <head>
     <BaseHead
-      title={title}
+      title={place.data.title}
       description={description}
+      noindex={place.data.noindex}
     />
   </head>
   <body>
@@ -52,15 +54,18 @@ const { title, description, posts, slug } = Astro.props;
           class="mx-auto max-w-4xl px-4"
           items={[
             { href: '/', label: 'Startseite' },
-            { href: '/tags/', label: 'Themen' },
-            { href: `/tags/${slug}/`, label: title },
+            { href: '/orte/', label: 'Orte' },
+            { href: `/orte/${place.id}/`, label: place.data.title },
           ]}
         />
         <h1
           class="mx-auto mb-4 max-w-4xl px-4 text-2xl font-normal text-foreground"
         >
-          {title}
+          {place.data.title}
         </h1>
+        <p class="mx-auto mb-8 max-w-4xl px-4 text-muted-foreground">
+          {description}
+        </p>
         <BlogList
           posts={posts}
           pageNumber={1}

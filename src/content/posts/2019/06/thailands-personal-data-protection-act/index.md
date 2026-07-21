@@ -1,7 +1,7 @@
 ---
 title: Eine GDPR für Thailand
 date: 2019-06-22T17:31:48+07:00
-tags:
+themen:
   - gesetze
   - datenschutz
   - gdpr

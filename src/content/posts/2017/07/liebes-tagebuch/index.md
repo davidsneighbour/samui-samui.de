@@ -1,7 +1,7 @@
 ---
 title: Liebes Tagebuch
 date: 2017-07-24T20:52:51+07:00
-tags:
+themen:
   - shih tzu
   - soosie
 resources:

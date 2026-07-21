@@ -1,7 +1,7 @@
 ---
 title: Iñtërnâtiônàlizætiøn
 date: 2005-01-25T08:23:07+07:00
-tags:
+themen:
   - sprache
   - thai
 lastmod: 2023-09-10T19:14:12+07:00

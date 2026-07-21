@@ -1,7 +1,7 @@
 ---
 title: Bloss nicht in Thailand
 date: 2016-05-08T13:51:24+07:00
-tags:
+themen:
   - facebook
   - meinungsfreiheit
 resources:

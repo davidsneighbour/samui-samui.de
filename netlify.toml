@@ -5,6 +5,16 @@ publish = "dist"
 [functions]
 directory = "netlify/functions"
 
+[[redirects]]
+from = "/tags/"
+to = "/themen/"
+status = 301
+
+[[redirects]]
+from = "/tags/*"
+to = "/themen/:splat"
+status = 301
+
 # Resource audit behind this CSP (2026-07-21, issues
 # https://github.com/davidsneighbour/samui-samui.de/issues/709,
 # https://github.com/davidsneighbour/samui-samui.de/issues/722, and

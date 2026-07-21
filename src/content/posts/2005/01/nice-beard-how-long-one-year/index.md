@@ -1,7 +1,7 @@
 ---
 title: Nice beard! How long? One year?
 date: 2005-01-12T12:32:00+07:00
-tags:
+themen:
   - bart
   - hawaii hemden
   - tesko

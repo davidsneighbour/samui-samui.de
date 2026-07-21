@@ -1,7 +1,7 @@
 ---
 title: "Lebenszeichen"
 date: 2018-01-18T22:47:32+07:00
-tags:
+themen:
   - samuisamui
 publisher:
   description: true

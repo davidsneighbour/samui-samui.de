@@ -1,7 +1,7 @@
 ---
 title: Beim Hundefriseur
 date: 2006-02-20T06:13:00+07:00
-tags:
+themen:
   - pokki
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:

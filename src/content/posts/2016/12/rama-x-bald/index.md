@@ -1,7 +1,7 @@
 ---
 title: Rama X – bald
 date: 2016-12-01T17:14:43+07:00
-tags:
+themen:
   - bhumibol adulyadej
   - kroenung
   - maha vajiralongkorn

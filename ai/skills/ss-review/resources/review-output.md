@@ -22,7 +22,7 @@ Return this structure.
 | Summary | pass/fail/decision | concise action |
 | Language/body | pass/fail/decision | concise action |
 | Links | pass/fail/decision | concise action |
-| Tags | pass/fail/decision | concise action |
+| Taxonomien | pass/fail/decision | concise action |
 | Cover | pass/fail/decision | concise action |
 | Cover migration | pass/fail/decision | concise action |
 | Flickr | pass/fail/decision | concise action |
@@ -33,12 +33,12 @@ Return this structure.
 
 List exact field and content changes. Include character counts for `description` and `summary`.
 
-## Tag decision
+## Taxonomy decision
 
-* Existing canonical tags retained:
-* Tags removed:
-* Canonical tags added:
-* New tag proposals:
+* Existing canonical topics retained:
+* Topics removed:
+* Canonical topics added:
+* New topic proposals:
 * Registry changes required:
 
 ## Image decision

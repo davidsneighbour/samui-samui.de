@@ -10,23 +10,23 @@ blog listing.
 Already implemented and reused as-is where noted:
 
 * `src/pages/archiv/index.astro` — existed only as a 27-line stub: a flat,
-  unstyled list of year links. No counts, no search, no statistics, no tag
+  unstyled list of year links. No counts, no search, no statistics, no topic
   entry points. Rebuilt in
   [#908](https://github.com/davidsneighbour/samui-samui.de/issues/908).
 * `src/pages/archiv/[year].astro` — existed, groups posts by month and lists
   them, but had no month-jump navigation, no prev/next-year navigation, and
   no anchors. Extended in
   [#909](https://github.com/davidsneighbour/samui-samui.de/issues/909).
-* `src/pages/tags/[slug].astro` — complete and reused unchanged. Derives the
-  real tag universe from every post's `tags[]` (slugified, case/separator
-  collisions collapsed), not from the `tags` content collection (which only
-  supplies optional title/description overrides per slug).
-* `src/pages/tags/index.astro` — did not exist. Added in
+* `src/pages/themen/[slug].astro` — derives the real topic universe from every
+  post's `themen[]` (slugified, case/separator collisions collapsed), not from
+  the `themen` content collection (which only supplies optional title,
+  description, aliases, and slug overrides).
+* `src/pages/themen/index.astro` — did not exist. Added in
   [#912](https://github.com/davidsneighbour/samui-samui.de/issues/912).
 * `src/pages/suche.astro` + `src/scripts/integrations/pagefind.ts` — full-text
   search works; reused as the archive's search entry point
   ([#908](https://github.com/davidsneighbour/samui-samui.de/issues/908)).
-  No year/tag faceting existed (`data-pagefind-filter`/`-meta` unused
+  No year/topic faceting existed (`data-pagefind-filter`/`-meta` unused
   anywhere) — added in
   [#913](https://github.com/davidsneighbour/samui-samui.de/issues/913).
 * `src/pages/index.astro` / `src/pages/seite/[seite].astro` + `BlogList.astro`
@@ -45,10 +45,10 @@ Already implemented and reused as-is where noted:
 ## Route structure
 
 ```text
-/archiv/                    year overview, statistics, search, curated tags
+/archiv/                    year overview, statistics, search, curated topics
 /archiv/[year]/             all posts of a year, grouped by month, anchors
-/tags/                      full tag index (alphabetical + frequency)
-/tags/[slug]/               unchanged, existing page
+/themen/                    full topic index (alphabetical + frequency)
+/themen/[slug]/             topic page
 /[year]/[month]/slug/       individual post URLs — unchanged, never touched
 ```
 
@@ -77,7 +77,7 @@ prevents adding the routes retroactively.
 
 ## Data source
 
-All archive data is derived at build time from the `posts` and `tags`
+All archive data is derived at build time from the `posts` and `themen`
 content collections defined in `src/content.config.ts` — no hard-coded
 counts, age copy, or year lists anywhere.
 
@@ -108,7 +108,7 @@ handled out-of-band via the free-form `publisher.status` frontmatter block
 (managed by `npm run publisher`, never rendered), not a schema-level gate.
 **Decision: archive pages query `getCollection('posts')` unfiltered, same as
 every other listing page on the site today** (`index.astro`,
-`seite/[seite].astro`, `tags/[slug].astro`). There is no evidence of
+`seite/[seite].astro`, `themen/[slug].astro`). There is no evidence of
 in-progress/unpublished content living in the `posts` collection that would
 need excluding — if that changes, filtering belongs in one shared query
 helper, not duplicated per archive page.
@@ -126,8 +126,8 @@ Indexable (included in the sitemap, get canonical + meta description):
 
 * `/archiv/`
 * `/archiv/[year]/` for every year with ≥1 post
-* `/tags/`
-* `/tags/[slug]/` for every tag with ≥1 post
+* `/themen/`
+* `/themen/[slug]/` for every topic with ≥1 post
 
 Not indexable / never generated as static routes:
 
@@ -142,7 +142,7 @@ Excluded from the sitemap, but still built and crawlable (not `robots.txt`
 disallowed):
 
 * `/seite/[seite]/` (pages 2+ of the paginated blog listing) — thin
-  duplicates of content already indexed via `/archiv/`, `/tags/`, and
+  duplicates of content already indexed via `/archiv/`, `/themen/`, and
   individual post permalinks. Filtered out via `@astrojs/sitemap`'s `filter`
   option in `astro.config.ts`. Page 1 (`/`) is unaffected.
 

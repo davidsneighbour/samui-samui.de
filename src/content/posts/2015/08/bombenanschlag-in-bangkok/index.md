@@ -1,7 +1,7 @@
 ---
 title: Bombenanschlag in Bangkok
 date: 2015-08-17T20:09:36+07:00
-tags:
+themen:
   - bangkok
   - bombenanschlag
   - terrorismus

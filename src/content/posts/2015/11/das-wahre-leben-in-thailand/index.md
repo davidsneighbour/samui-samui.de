@@ -1,7 +1,7 @@
 ---
 title: Das wahre Leben in Thailand
 date: 2015-11-17T15:57:27+07:00
-tags:
+themen:
   - undjetztmalwerbung
   - TAT
   - ernst gemeint

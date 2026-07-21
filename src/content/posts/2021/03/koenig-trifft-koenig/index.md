@@ -3,7 +3,7 @@ title: "König trifft König"
 description: "Im Jahre 1960 traf der König (genau der) den King (genau den). "
 date: 2021-03-19T19:45:58+07:00
 lastmod: 2021-03-19T19:45:58+07:00
-tags:
+themen:
   - elvis
   - bhumibol-adulyadej
 hide_comments: false

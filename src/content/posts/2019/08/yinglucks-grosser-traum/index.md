@@ -3,10 +3,10 @@ title: "Yinglucks großer Traum"
 description: ""
 date: 2019-08-11T20:09:52+07:00
 lastmod: 2019-08-11T20:09:52+07:00
-tags:
+themen:
   - serbien
 leute:
-  - yingluck shinawatra
+   - yingluck-shinawatra
 publisher:
   description: true
   summary: true

@@ -1,7 +1,7 @@
 ---
 title: 'Ko Phi Phi in Thailand: Nichts Neues nach dem Tsunami'
 date: 2015-06-19T19:12:02+07:00
-tags:
+themen:
   - sextourismus
   - spiegel
 publisher:

@@ -2,7 +2,7 @@
 title: Thailand goes Panda
 date: 2009-06-26T03:39:36+07:00
 
-tags:
+themen:
   - panda
 publisher:
   description: true

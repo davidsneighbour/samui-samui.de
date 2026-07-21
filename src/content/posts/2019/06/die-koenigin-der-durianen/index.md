@@ -1,7 +1,7 @@
 ---
 title: "Die Königin der Durianen"
 date: 2019-06-11T19:35:48+07:00
-tags: [ thaistyle, wirtschaft, fruechte, video ]
+themen: [ thaistyle, wirtschaft, fruechte, video ]
 publisher:
   description: true
   summary: true

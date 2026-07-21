@@ -5,7 +5,7 @@ author:
   homepage: https://kollitsch.de
 date: 2019-07-08T20:01:33+07:00
 lastmod: 2019-07-08T20:01:33+07:00
-tags:
+themen:
   - umweltschutz
   - insel
 resources:

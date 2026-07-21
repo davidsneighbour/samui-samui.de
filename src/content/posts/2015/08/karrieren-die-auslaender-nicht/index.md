@@ -1,7 +1,7 @@
 ---
 title: Karrieren die Ausländer nicht.
 date: 2015-08-12T20:41:08+07:00
-tags:
+themen:
   - lost in translation
   - thaistyle
 resources:

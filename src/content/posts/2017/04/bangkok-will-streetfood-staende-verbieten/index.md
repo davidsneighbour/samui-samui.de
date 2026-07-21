@@ -1,7 +1,7 @@
 ---
 title: Bangkok will Streetfood-Stände verbieten
 date: 2017-04-18T19:20:12+07:00
-tags:
+themen:
   - spiegel.de
   - streetfood
   - thai traditionen

@@ -25,13 +25,13 @@ interface CliOptions {
 
 interface CreatePostContentOptions {
   title: string;
-  tags: string[];
+  themen: string[];
   date: Date;
 }
 
 interface PostInput {
   title: string;
-  tagInput: string;
+  themaInput: string;
 }
 
 /**
@@ -54,7 +54,7 @@ Options:
 
 Behaviour:
   - Asks for a blog post title.
-  - Optionally asks for comma-separated tags.
+  - Optionally asks for comma-separated topics.
   - Creates src/content/posts/YYYY/cleaned-title/index.md in Bangkok time.
   - Serializes date as YYYY-MM-DDTHH:mm:ss+07:00.
   - Leaves description and cover fields empty.
@@ -110,16 +110,16 @@ function slugifyTitle(title: string): string {
 }
 
 /**
- * Convert a comma-separated tag input into a normalised tag list.
+ * Convert a comma-separated topic input into a normalised topic list.
  *
  * @param input - Raw user input.
- * @returns Normalised tags.
+ * @returns Normalised topics.
  */
-function parseTags(input: string): string[] {
+function parseThemen(input: string): string[] {
   return input
     .split(',')
-    .map((tag) => tag.trim().toLowerCase())
-    .filter((tag) => tag.length > 0);
+    .map((thema) => thema.trim().toLowerCase())
+    .filter((thema) => thema.length > 0);
 }
 
 /**
@@ -139,16 +139,16 @@ function escapeYamlString(value: string): string {
  * @returns Markdown document content.
  */
 function createPostContent(options: CreatePostContentOptions): string {
-  const tags =
-    options.tags.length > 0
-      ? `tags:\n${options.tags.map((tag) => `  - ${tag}`).join('\n')}`
-      : 'tags: []';
+  const themen =
+    options.themen.length > 0
+      ? `themen:\n${options.themen.map((thema) => `  - ${thema}`).join('\n')}`
+      : 'themen: []';
 
   return `---
 title: "${escapeYamlString(options.title)}"
 description: ""
 summary: ""
-${tags}
+${themen}
 cover:
   src: ""
   type: ${config.defaultCoverType}
@@ -180,7 +180,7 @@ async function openInVSCode(filePath: string): Promise<void> {
 /**
  * Read post metadata from interactive prompts or piped stdin.
  *
- * @returns Raw title and tag input.
+ * @returns Raw title and topic input.
  */
 async function readPostInput(): Promise<PostInput> {
   if (!process.stdin.isTTY) {
@@ -190,12 +190,12 @@ async function readPostInput(): Promise<PostInput> {
       chunks.push(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk));
     }
 
-    const [title = '', tagInput = ''] = Buffer.concat(chunks)
+    const [title = '', themaInput = ''] = Buffer.concat(chunks)
       .toString('utf8')
       .split(/\r?\n/);
 
     return {
-      tagInput: tagInput.trim(),
+      themaInput: themaInput.trim(),
       title: title.trim(),
     };
   }
@@ -209,11 +209,11 @@ async function readPostInput(): Promise<PostInput> {
     const title = (
       await rl.question('What should the new blog post be called? ')
     ).trim();
-    const tagInput = (
-      await rl.question('Tags, comma-separated, or leave empty: ')
+    const themaInput = (
+      await rl.question('Themen, comma-separated, or leave empty: ')
     ).trim();
 
-    return { tagInput, title };
+    return { themaInput, title };
   } finally {
     rl.close();
   }
@@ -226,13 +226,13 @@ async function readPostInput(): Promise<PostInput> {
  * @returns Nothing.
  */
 async function createBlogPost(options: CliOptions): Promise<void> {
-  const { tagInput, title } = await readPostInput();
+  const { themaInput, title } = await readPostInput();
 
   if (title.length === 0) {
     throw new Error('A title is required.');
   }
 
-  const tags = parseTags(tagInput);
+  const themen = parseThemen(themaInput);
   const slug = slugifyTitle(title);
 
   if (slug.length === 0) {
@@ -245,7 +245,7 @@ async function createBlogPost(options: CliOptions): Promise<void> {
   const postFile = path.join(postDirectory, 'index.md');
   const content = createPostContent({
     date,
-    tags,
+    themen,
     title,
   });
 

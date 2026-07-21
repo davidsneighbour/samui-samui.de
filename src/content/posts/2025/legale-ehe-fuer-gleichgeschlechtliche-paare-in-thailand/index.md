@@ -2,7 +2,7 @@
 title: Legale Ehe für gleichgeschlechtliche Paare in Thailand
 description: Thailand legalisiert die Ehe für alle &mdash; ein Meilenstein in Südostasien. Am 24. September 2024 wurde im Royal Thai Government Gazette das Gesetz zur Änderung des Zivil- und Handelsgesetzbuchs veröffentlicht.
 date: 2025-01-10T15:02:43+07:00
-tags:
+themen:
   - recht-und-ordnung
   - thailand
   - ehe

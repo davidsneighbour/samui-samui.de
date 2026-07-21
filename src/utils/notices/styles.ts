@@ -1,7 +1,7 @@
 import type { NoticeVariant } from './schema';
 
 // Mirrors the muted, bordered treatment used by tag badges on single-post
-// pages (src/components/ui/badge.astro's `muted` variant / TagBadges.astro)
+// pages (src/components/ui/badge.astro's `muted` variant / ThemaBadges.astro)
 // and the author-bio `bg-muted` surface in BlogPost.astro, rather than
 // introducing a separate visual system -- see documentation/notices.md and
 // DESIGN.md ("Colors" / "Do's and Don'ts": no new tokens, no box-shadow).

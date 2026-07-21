@@ -3,7 +3,7 @@ title: "Albino Delphine"
 description: "Fischer hier im Golf von Thailand haben eine Begegnung mit Albino-Delphinen gefilmt. Die Delphine sind relativ selten und betteln um Futter. Sehr interessant anzuschauen."
 date: 2020-01-24T21:42:44+07:00
 lastmod: 2020-01-24T21:42:44+07:00
-tags:
+themen:
   - tierwelt
   - delphin
 publisher:

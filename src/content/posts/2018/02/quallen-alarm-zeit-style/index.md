@@ -1,7 +1,7 @@
 ---
 title: "Quallen Alarm (Zeit-Style)"
 date: 2018-02-22T20:46:22+07:00
-tags:
+themen:
   - reisewarnung
   - news
   - portugiesische galleren

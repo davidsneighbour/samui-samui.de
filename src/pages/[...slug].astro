@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import BlogPost from '@layouts/BlogPost.astro';
 import { getPostCover } from '@utils/covers';
 import { getPostUrl } from '@utils/posts';
+import { resolvePostTaxonomyGroups } from '@utils/taxonomies/entities';
 
 export async function getStaticPaths() {
   const posts = (await getCollection('posts')).sort(
@@ -37,6 +38,19 @@ export async function getStaticPaths() {
 const { newerPost, olderPost, post } = Astro.props;
 const { Content } = await render(post);
 const cover = await getPostCover(post);
+const [leute, orte, ereignisse, themen] = await Promise.all([
+  getCollection('leute'),
+  getCollection('orte'),
+  getCollection('ereignisse'),
+  getCollection('themen'),
+]);
+const taxonomies = resolvePostTaxonomyGroups({
+  ereignisse,
+  leute,
+  orte,
+  post,
+  themen,
+});
 // Raw markdown source (not the rendered HTML) — cheap to grep and lets
 // BlogPost skip shipping the dnb-vimeo/dnb-youtube definitions on the posts
 // that don't embed the corresponding video.
@@ -53,7 +67,8 @@ const hasYoutube = post.body?.includes('dnb-youtube') ?? false;
   featured_image={post.data.featured_image}
   newerPost={newerPost}
   olderPost={olderPost}
-  tags={post.data.tags}
+  taxonomies={taxonomies}
+  themen={post.data.themen}
   hasVimeo={hasVimeo}
   hasYoutube={hasYoutube}
 >

@@ -1,7 +1,7 @@
 ---
 title: Reichere Thais
 date: 2015-06-10T10:13:17+07:00
-tags:
+themen:
   - central
   - chirathivat
 publisher:

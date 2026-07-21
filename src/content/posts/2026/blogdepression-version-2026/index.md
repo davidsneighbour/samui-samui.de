@@ -2,7 +2,7 @@
 title: "Blogdepression: Wenn selbst das Paradies nichts mehr zu erzählen hat"
 description: ""
 summary: ""
-tags:
+themen:
   - wie-alles-begann
   - samuisamui
   - organisatorisches

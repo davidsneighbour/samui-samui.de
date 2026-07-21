@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import PageLayout from '@layouts/PageLayout.astro';
+import {
+  isPublicEntity,
+  sortEntitiesByTitle,
+} from '@utils/taxonomies/entities';
+
+const events = sortEntitiesByTitle(
+  (await getCollection('ereignisse')).filter(isPublicEntity),
+);
+---
+
+<PageLayout
+  title="Ereignisse"
+  description={`${events.length} Ereignisse im Archiv.`}
+>
+  <Breadcrumbs
+    slot="breadcrumbs"
+    items={[
+      { href: '/', label: 'Startseite' },
+      { href: '/ereignisse/', label: 'Ereignisse' },
+    ]}
+  />
+  {events.length > 0 ? (
+    <ul class="columns-1 gap-8 sm:columns-2">
+      {events.map((event) => (
+          <li class="mb-2 break-inside-avoid">
+            <a
+              href={`/ereignisse/${event.id}/`}
+              class="text-link hover:underline"
+            >
+              {event.data.title}
+            </a>
+          </li>
+        ))}
+    </ul>
+  ) : (
+    <p class="text-muted-foreground">
+      Ereignisse werden während der redaktionellen Durchsicht ergänzt.
+    </p>
+  )}
+</PageLayout>

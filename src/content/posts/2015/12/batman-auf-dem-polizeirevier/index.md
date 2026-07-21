@@ -1,7 +1,7 @@
 ---
 title: Batman auf dem Polizeirevier
 date: 2015-12-28T08:16:46+07:00
-tags:
+themen:
   - bangkok
   - batman
 resources:

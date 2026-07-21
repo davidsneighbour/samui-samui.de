@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import PageLayout from '@layouts/PageLayout.astro';
+import {
+  isPublicEntity,
+  sortEntitiesByTitle,
+} from '@utils/taxonomies/entities';
+
+const places = sortEntitiesByTitle(
+  (await getCollection('orte')).filter(isPublicEntity),
+);
+---
+
+<PageLayout
+  title="Orte"
+  description={`${places.length} Orte im Archiv.`}
+>
+  <Breadcrumbs
+    slot="breadcrumbs"
+    items={[
+      { href: '/', label: 'Startseite' },
+      { href: '/orte/', label: 'Orte' },
+    ]}
+  />
+  {places.length > 0 ? (
+    <ul class="columns-1 gap-8 sm:columns-2">
+      {places.map((place) => (
+          <li class="mb-2 break-inside-avoid">
+            <a
+              href={`/orte/${place.id}/`}
+              class="text-link hover:underline"
+            >
+              {place.data.title}
+            </a>
+          </li>
+        ))}
+    </ul>
+  ) : (
+    <p class="text-muted-foreground">
+      Orte werden während der redaktionellen Durchsicht ergänzt.
+    </p>
+  )}
+</PageLayout>

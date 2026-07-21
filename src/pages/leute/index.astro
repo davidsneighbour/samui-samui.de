@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import PageLayout from '@layouts/PageLayout.astro';
+import {
+  isPublicEntity,
+  sortEntitiesByTitle,
+} from '@utils/taxonomies/entities';
+
+const people = sortEntitiesByTitle(
+  (await getCollection('leute')).filter(isPublicEntity),
+);
+---
+
+<PageLayout
+  title="Personen"
+  description={`${people.length} Personen im Archiv.`}
+>
+  <Breadcrumbs
+    slot="breadcrumbs"
+    items={[
+      { href: '/', label: 'Startseite' },
+      { href: '/leute/', label: 'Personen' },
+    ]}
+  />
+  <ul class="columns-1 gap-8 sm:columns-2">
+    {people.map((person) => (
+        <li class="mb-2 break-inside-avoid">
+          <a
+            href={`/leute/${person.id}/`}
+            class="text-link hover:underline"
+          >
+            {person.data.title}
+          </a>
+        </li>
+      ))}
+  </ul>
+</PageLayout>

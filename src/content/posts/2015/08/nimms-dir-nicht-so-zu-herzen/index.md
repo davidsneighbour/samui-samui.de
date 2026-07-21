@@ -1,7 +1,7 @@
 ---
 title: Nimm’s dir nicht so zu Herzen, Somchai
 date: 2015-08-01T21:50:11+07:00
-tags:
+themen:
   - i head a dream
   - somchai wongsawasdi
   - thai style

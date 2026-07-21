@@ -1,47 +1,47 @@
 ---
 import { getCollection } from 'astro:content';
 import PageLayout from '@layouts/PageLayout.astro';
-import { groupPostsByTag } from '@utils/tags';
+import { groupPostsByThema } from '@utils/themen';
 
-const [posts, tagEntries] = await Promise.all([
+const [posts, themaEntries] = await Promise.all([
   getCollection('posts'),
-  getCollection('tags'),
+  getCollection('themen'),
 ]);
 
-const tagGroups = groupPostsByTag(posts, tagEntries);
+const themaGroups = groupPostsByThema(posts, themaEntries);
 
-const byFrequency = [...tagGroups].sort(
+const byFrequency = [...themaGroups].sort(
   (a, b) => b.posts.length - a.posts.length,
 );
 
 interface LetterGroup {
   letter: string;
-  tags: typeof tagGroups;
+  themen: typeof themaGroups;
 }
 
-const byLetterMap = new Map<string, typeof tagGroups>();
-for (const tag of [...tagGroups].sort((a, b) =>
+const byLetterMap = new Map<string, typeof themaGroups>();
+for (const thema of [...themaGroups].sort((a, b) =>
   a.title.localeCompare(b.title, 'de-DE'),
 )) {
-  const letter = tag.title.charAt(0).toLocaleUpperCase('de-DE');
+  const letter = thema.title.charAt(0).toLocaleUpperCase('de-DE');
   const group = byLetterMap.get(letter);
   if (group) {
-    group.push(tag);
+    group.push(thema);
   } else {
-    byLetterMap.set(letter, [tag]);
+    byLetterMap.set(letter, [thema]);
   }
 }
 const byLetter: LetterGroup[] = [...byLetterMap.entries()]
   .sort(([a], [b]) => a.localeCompare(b, 'de-DE'))
-  .map(([letter, tags]) => ({ letter, tags }));
+  .map(([letter, themen]) => ({ letter, themen }));
 ---
 
 <PageLayout
-  title="Tags"
-  description={`Alle ${tagGroups.length} Themen des Archivs -- alphabetisch oder nach Häufigkeit.`}
+  title="Themen"
+  description={`Alle ${themaGroups.length} Themen des Archivs -- alphabetisch oder nach Häufigkeit.`}
 >
   <p class="mb-8 text-card-foreground">
-    {tagGroups.length}
+    {themaGroups.length}
     Themen aus 21 Jahren Archiv, sortierbar nach Häufigkeit oder Alphabet.
   </p>
 
@@ -71,13 +71,13 @@ const byLetter: LetterGroup[] = [...byLetterMap.entries()]
       Häufig verwendet
     </h2>
     <ul class="flex flex-wrap gap-x-4 gap-y-2">
-      {byFrequency.map((tag) => (
+      {byFrequency.map((thema) => (
           <li>
             <a
-              href={`/tags/${tag.slug}/`}
+              href={`/themen/${thema.slug}/`}
               class="text-sm text-link hover:underline"
             >
-              {tag.title} <span class="text-muted-foreground">({tag.posts.length})</span>
+              {thema.title} <span class="text-muted-foreground">({thema.posts.length})</span>
             </a>
           </li>
         ))}
@@ -86,20 +86,20 @@ const byLetter: LetterGroup[] = [...byLetterMap.entries()]
 
   <section id="alphabet">
     <h2 class="mb-4 text-lg font-medium text-card-foreground">Alphabetisch</h2>
-    {byLetter.map(({ letter, tags }) => (
+    {byLetter.map(({ letter, themen }) => (
         <div class="mb-6">
           <h3 class="mb-2 text-sm font-medium text-muted-foreground">
             {letter}
           </h3>
           <ul class="flex flex-wrap gap-x-4 gap-y-2">
-            {tags.map((tag) => (
+            {themen.map((thema) => (
                 <li>
                   <a
-                    href={`/tags/${tag.slug}/`}
+                    href={`/themen/${thema.slug}/`}
                     class="text-sm text-link hover:underline"
                   >
-                    {tag.title}{' '}
-                    <span class="text-muted-foreground">({tag.posts.length})</span>
+                    {thema.title}{' '}
+                    <span class="text-muted-foreground">({thema.posts.length})</span>
                   </a>
                 </li>
               ))}

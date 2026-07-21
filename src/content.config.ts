@@ -1,12 +1,32 @@
-import { defineCollection } from 'astro:content';
+import { defineCollection, reference } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 
+function taxonomyEntryId(entry: string): string {
+  return entry
+    .replace(/\\/g, '/')
+    .replace(/\/_index\.md$/, '')
+    .replace(/\/index\.md$/, '')
+    .replace(/\.md$/, '');
+}
+
 const baseFrontmatter = z.object({
   description: z.string().optional(),
-  slug: z.string().optional(),
   title: z.string(),
 });
+
+const entityFrontmatter = baseFrontmatter.extend({
+  aliases: z.array(z.string()).default([]),
+  draft: z.boolean().default(false),
+  noindex: z.boolean().default(false),
+});
+
+const taxonomyLoader = (base: string) =>
+  glob({
+    base,
+    generateId: ({ entry }) => taxonomyEntryId(entry),
+    pattern: '**/_index.md',
+  });
 
 // Repo-internal editorial metadata, never rendered on the site. `status` is a
 // free-form string (e.g. "ok", "need-work") rather than an enum, since the
@@ -82,12 +102,14 @@ const posts = defineCollection({
       curation: curationFrontmatter,
       date: z.coerce.date(),
       dsq_thread_id: z.array(z.union([z.string(), z.number()])).optional(),
+      ereignisse: z.array(reference('ereignisse')).default([]),
       featured_image: z.string().optional(),
       lastmod: z.coerce.date().optional(),
       // Post-level override for the legacy-image presentation system (see
       // src/utils/legacy-images/); defaults to automatic classification.
       legacyImages: legacyImageOverride.default('auto'),
-      leute: z.array(z.string()).optional(),
+      leute: z.array(reference('leute')).default([]),
+      orte: z.array(reference('orte')).default([]),
       publisher: publisherFrontmatter,
       resources: z
         .array(
@@ -99,7 +121,7 @@ const posts = defineCollection({
         )
         .optional(),
       summary: z.string().optional(),
-      tags: z.array(z.string()).optional(),
+      themen: z.array(z.string()).default([]),
       url: z.string().optional(),
       video: z.string().optional(),
     })
@@ -107,21 +129,98 @@ const posts = defineCollection({
 });
 
 const leute = defineCollection({
-  loader: glob({ base: './src/content/leute', pattern: '**/_index.md' }),
-  schema: baseFrontmatter.extend({
-    slug: z.string(),
+  loader: taxonomyLoader('./src/content/leute'),
+  schema: entityFrontmatter.extend({
+    born: z.coerce.date().optional(),
+    died: z.coerce.date().optional(),
+    image: z.string().optional(),
   }),
 });
 
-const tags = defineCollection({
-  loader: glob({ base: './src/content/tags', pattern: '**/_index.md' }),
+const ortType = z.enum([
+  'land',
+  'provinz',
+  'bezirk',
+  'insel',
+  'stadt',
+  'dorf',
+  'stadtteil',
+  'strand',
+  'sehenswuerdigkeit',
+  'gebaeude',
+  'veranstaltungsort',
+  'naturraum',
+  'sonstiges',
+]);
+
+const orte = defineCollection({
+  loader: taxonomyLoader('./src/content/orte'),
+  schema: entityFrontmatter.extend({
+    coordinates: z
+      .object({
+        latitude: z.number().min(-90).max(90),
+        longitude: z.number().min(-180).max(180),
+      })
+      .strict()
+      .optional(),
+    parent: reference('orte').optional(),
+    type: ortType.optional(),
+  }),
+});
+
+const ereignisType = z.enum([
+  'politisches-ereignis',
+  'wahl',
+  'militaerputsch',
+  'naturkatastrophe',
+  'festival',
+  'feiertag',
+  'kulturelles-ereignis',
+  'historisches-ereignis',
+  'persoenliches-ereignis',
+  'sonstiges',
+]);
+
+const ereignisse = defineCollection({
+  loader: taxonomyLoader('./src/content/ereignisse'),
+  schema: baseFrontmatter
+    .extend({
+      aliases: z.array(z.string()).default([]),
+      draft: z.boolean().default(false),
+      endDate: z.coerce.date().optional(),
+      leute: z.array(reference('leute')).default([]),
+      noindex: z.boolean().default(false),
+      orte: z.array(reference('orte')).default([]),
+      recurring: z.boolean().default(false),
+      startDate: z.coerce.date().optional(),
+      type: ereignisType.optional(),
+    })
+    .superRefine((data, context) => {
+      if (
+        data.startDate &&
+        data.endDate &&
+        data.endDate.valueOf() < data.startDate.valueOf()
+      ) {
+        context.addIssue({
+          code: 'custom',
+          message:
+            'Das Ende eines Ereignisses darf nicht vor dem Start liegen.',
+          path: ['endDate'],
+        });
+      }
+    }),
+});
+
+const themen = defineCollection({
+  loader: taxonomyLoader('./src/content/themen'),
   schema: baseFrontmatter.extend({
-    slug: z.string(),
+    aliases: z.array(z.string()).default([]),
+    slug: z.string().optional(),
   }),
 });
 
 // A single standalone page (public holidays list), section-organized like
-// leute/tags rather than a flat file, hence its own collection instead of
+// leute/themen rather than a flat file, hence its own collection instead of
 // living in `pages`.
 const feiertage = defineCollection({
   loader: glob({ base: './src/content/feiertage', pattern: '**/_index.md' }),
@@ -146,4 +245,12 @@ const sitewide = defineCollection({
     }),
 });
 
-export const collections = { feiertage, leute, posts, sitewide, tags };
+export const collections = {
+  ereignisse,
+  feiertage,
+  leute,
+  orte,
+  posts,
+  sitewide,
+  themen,
+};

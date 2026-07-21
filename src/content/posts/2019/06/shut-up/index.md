@@ -2,7 +2,7 @@
 title: Shut up (No more comments)
 description: "Comments are for pussies. Auf samui-samui.de gibts in Zukunft keine mehr. Aus verschiedenen Gruenden. "
 date: 2019-06-20T21:31:48+07:00
-tags:
+themen:
   - samuisamui
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:

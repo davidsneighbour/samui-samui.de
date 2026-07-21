@@ -10,7 +10,7 @@ export async function GET(context) {
   return rss({
     description: setup.description,
     items: posts.map((post) => ({
-      categories: post.data.tags || [],
+      categories: post.data.themen || [],
       description: post.data.description,
       link: getPostUrl(post),
       pubDate: post.data.date,

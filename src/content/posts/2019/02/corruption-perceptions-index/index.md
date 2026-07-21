@@ -1,11 +1,11 @@
 ---
 title: "Corruption Perceptions Index 2018"
 date: 2019-02-03T18:44:00+07:00
-tags:
+themen:
   - korruption
   - listen
 leute:
-  - prawit wongsuwan
+   - prawit-wongsuwan
 resources:
   - src: "corruption-perceptions-index.jpg"
     name: "corruption-perceptions-index"

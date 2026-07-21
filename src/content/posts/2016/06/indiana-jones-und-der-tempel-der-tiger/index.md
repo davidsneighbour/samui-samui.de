@@ -1,7 +1,7 @@
 ---
 title: Indiana Jones und der Tempel der Tiger
 date: 2016-06-02T22:19:56+07:00
-tags:
+themen:
   - tempel
   - tiger
   - tigertempel

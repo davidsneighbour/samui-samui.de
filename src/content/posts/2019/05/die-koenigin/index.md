@@ -1,10 +1,10 @@
 ---
 title: "Die Königin"
 date: 2019-05-17T23:25:48+07:00
-tags:
+themen:
   - royal family
 leute:
-  - koenigin suthida
+   - koenigin-suthida
 resources:
   - src: "A001.jpg"
     name: "Queen Suthida"

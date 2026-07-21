@@ -3,7 +3,7 @@ title: "Hausputz"
 description: ""
 date: 2019-10-23T22:19:06+07:00
 lastmod: 2019-10-23T22:19:06+07:00
-tags:
+themen:
   - hausputz
 publisher:
   description: true

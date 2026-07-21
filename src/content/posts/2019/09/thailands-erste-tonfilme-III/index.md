@@ -3,7 +3,7 @@ title: "Thailands erste Tonfilme III"
 date: 2019-09-11T20:34:16+07:00
 lastmod: 2019-09-11T20:34:16+07:00
 url: /2019/09/thailands-erste-tonfilme-3
-tags:
+themen:
   - geschichte
   - tonfilm
 resources:

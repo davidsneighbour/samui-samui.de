@@ -1,7 +1,7 @@
 ---
 title: Bangkok, der Naturpark
 date: 2017-01-27T20:53:12+07:00
-tags:
+themen:
   - bangkok
   - google
   - maps

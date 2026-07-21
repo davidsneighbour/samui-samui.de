@@ -3,11 +3,11 @@ title: "Armstrong, Aldrin und Collins in Bangkok"
 description: ""
 date: 2019-07-20T09:00:58+07:00
 lastmod: 2019-07-20T09:00:58+07:00
-tags:
+themen:
   - mondlandung
   - bangkok
 leute:
-  - thanom kittikachorn
+   - thanom-kittikachorn
 publisher:
   description: true
   summary: true

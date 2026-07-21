@@ -61,12 +61,12 @@ Remove only when the cover is valid, representative, correctly described, and us
 
 Add or keep when:
 
-* tags are absent where useful
-* tags are overly broad, duplicated, inconsistent, misspelled, or one-off variants
-* a proposed tag requires a site-wide taxonomy decision
-* existing tags do not represent the post's durable topics
+* topics are absent where useful
+* topics are overly broad, duplicated, inconsistent, misspelled, or one-off variants
+* a proposed topic requires a site-wide taxonomy decision
+* existing topics do not represent the post's durable subjects
 
-Remove only when tags conform to the controlled site-wide vocabulary.
+Remove only when topics and registered taxonomy references conform to the site-wide rules.
 
 ### `publisher.seo`
 

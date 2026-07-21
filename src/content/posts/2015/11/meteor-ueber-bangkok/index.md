@@ -1,7 +1,7 @@
 ---
 title: Meteor über Bangkok
 date: 2015-11-03T09:26:27+07:00
-tags:
+themen:
   - meteor
   - natur
   - video

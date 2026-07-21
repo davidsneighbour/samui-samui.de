@@ -13,6 +13,7 @@ import { rehypeLegacyImages } from './src/scripts/rehype/legacy-images.ts';
 import { rehypeDnbNotice } from './src/scripts/rehype/notices.ts';
 import { rehypeSiteAge } from './src/scripts/rehype/site-age.ts';
 import { remarkDnbTypography } from './src/scripts/remark/typography.ts';
+import { getNoindexTaxonomyPaths } from './src/utils/taxonomies/noindex.ts';
 
 // `astro dev` only -- `server: { host: true }` (below) makes the dev server
 // reachable from other devices on the LAN by IP, and `http://192.168.x.x` is
@@ -20,6 +21,7 @@ import { remarkDnbTypography } from './src/scripts/remark/typography.ts';
 // testing from a phone needs real HTTPS. `astro build`/`astro preview` are
 // unaffected: they're plain `vite`/`vite preview` commands, not `dev`.
 const isDevServer = process.argv.includes('dev');
+const noindexTaxonomyPaths = getNoindexTaxonomyPaths();
 
 // https://astro.build/config
 export default defineConfig({
@@ -51,10 +53,15 @@ export default defineConfig({
     mdx(),
     sitemap({
       // `/seite/2/`, `/seite/3/`, ... are thin duplicates of content already
-      // indexed via `/archiv/`, `/tags/`, and individual post permalinks --
+      // indexed via `/archiv/`, `/themen/`, and individual post permalinks --
       // see documentation/archiv.md's indexing strategy. Page 1 (`/`) is
       // unaffected since it isn't under `/seite/`.
-      filter: (page) => !new URL(page).pathname.startsWith('/seite/'),
+      filter: (page) => {
+        const pathname = new URL(page).pathname;
+        return (
+          !pathname.startsWith('/seite/') && !noindexTaxonomyPaths.has(pathname)
+        );
+      },
       namespaces: { image: false, news: false, video: false, xhtml: false },
       xslURL: '/feeds/sitemap.xsl',
     }),

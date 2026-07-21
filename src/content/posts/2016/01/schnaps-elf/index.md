@@ -1,7 +1,7 @@
 ---
 title: Schnaps. Elf.
 date: 2016-01-09T08:00:44+07:00
-tags:
+themen:
   - samuisamui
   - wieallesbegann
 publisher:

@@ -1,7 +1,7 @@
 ---
 title: Tag 1, wieder
 date: 2017-01-01T16:58:34+07:00
-tags:
+themen:
   - jahreswechsel
   - kalender
 resources:

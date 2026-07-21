@@ -4,7 +4,7 @@ date: 2009-08-10T06:13:22+07:00
 dsq_thread_id:
   - "3168356052"
 
-tags:
+themen:
   - panda
 publisher:
   description: true

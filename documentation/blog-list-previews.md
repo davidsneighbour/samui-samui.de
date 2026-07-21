@@ -8,7 +8,7 @@ The featured homepage card follows the same top-level article order as the
 single post layout:
 
 1. Post cover media, when `cover` frontmatter resolves.
-2. Header section with title, metadata, tags, and separator.
+2. Header section with title, metadata, topics, and separator.
 3. Post preview content.
 4. "Weiterlesen" link.
 

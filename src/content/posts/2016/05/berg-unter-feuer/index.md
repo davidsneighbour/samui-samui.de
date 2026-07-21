@@ -1,7 +1,7 @@
 ---
 title: Berg unter Feuer
 date: 2016-05-11T16:36:54+07:00
-tags:
+themen:
   - waldbrand
   - koh samui
   - news

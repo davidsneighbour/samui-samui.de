@@ -2,7 +2,7 @@
 title: Feiertage in Thailand 2025
 description: Erfahre alles über die Feiertage in Thailand 2025, ihre kulturelle Bedeutung und wie sie deinen Urlaub beeinflussen können. Tipps und Highlights für eine gelungene Reise…
 date: 2024-12-19T15:02:43+07:00
-tags:
+themen:
   - feiertage
   - thailand
 lastmod: 2025-09-18T09:46:53+07:00

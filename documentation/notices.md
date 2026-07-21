@@ -261,7 +261,7 @@ annotation.
 
 Base container mirrors the muted, bordered treatment already used by tag
 badges (`src/components/ui/badge.astro`'s `muted` variant /
-`TagBadges.astro`) and the author-bio `bg-muted` surface in
+`ThemaBadges.astro`) and the author-bio `bg-muted` surface in
 `BlogPost.astro`: `bg-muted`, `border-border` (or `border-primary/40` for
 `legal`/`warning`, the only variant-specific colour), `rounded-(--radius)`,
 `text-card-foreground`. No new design tokens, no `box-shadow` (see

@@ -1,7 +1,7 @@
 ---
 title: Reiche Thais
 date: 2015-06-05T20:56:44+07:00
-tags:
+themen:
   - high society
   - geld
 publisher:

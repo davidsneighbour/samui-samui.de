@@ -1,0 +1,73 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '@components/BaseHead.astro';
+import BlogList from '@components/BlogList.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import Footer from '@components/Footer.astro';
+import Header from '@components/Header.astro';
+import { groupPostsByThema } from '@utils/themen';
+
+export async function getStaticPaths() {
+  const [themaEntries, posts] = await Promise.all([
+    getCollection('themen'),
+    getCollection('posts'),
+  ]);
+
+  return groupPostsByThema(posts, themaEntries).map((group) => ({
+    params: { slug: group.slug },
+    props: {
+      description: group.description,
+      posts: group.posts.sort(
+        (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+      ),
+      slug: group.slug,
+      title: group.title,
+    },
+  }));
+}
+
+const { title, description, posts, slug } = Astro.props;
+---
+
+<!doctype html>
+<html
+  lang="de"
+  class="dark"
+>
+  <head>
+    <BaseHead
+      title={title}
+      description={description}
+    />
+  </head>
+  <body>
+    <Header />
+    <main
+      id="main"
+      tabindex="-1"
+      class="py-8"
+    >
+      <section>
+        <Breadcrumbs
+          class="mx-auto max-w-4xl px-4"
+          items={[
+            { href: '/', label: 'Startseite' },
+            { href: '/themen/', label: 'Themen' },
+            { href: `/themen/${slug}/`, label: title },
+          ]}
+        />
+        <h1
+          class="mx-auto mb-4 max-w-4xl px-4 text-2xl font-normal text-foreground"
+        >
+          {title}
+        </h1>
+        <BlogList
+          posts={posts}
+          pageNumber={1}
+          totalPages={1}
+        />
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>

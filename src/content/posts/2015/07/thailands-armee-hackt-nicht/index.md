@@ -1,7 +1,7 @@
 ---
 title: Thailand’s Armee hackt nicht
 date: 2015-07-21T20:05:24+07:00
-tags:
+themen:
   - das weite internetz
   - hacking team
   - staatstrojaner

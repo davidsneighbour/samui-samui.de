@@ -1,7 +1,7 @@
 ---
 title: The Red Pool, The Library Resort Samui
 date: 2015-07-27T20:28:56+07:00
-tags:
+themen:
   - architektur
   - muss man gesehen haben
   - photo

@@ -4,9 +4,9 @@ description: ""
 date: 2019-07-18T20:20:00+07:00
 lastmod: 2019-07-18T20:20:00+07:00
 leute:
-  - papst franziskus
-  - yingluck shinawatra
-tags:
+   - papst-franziskus
+   - yingluck-shinawatra
+themen:
   - papstbesuch
   - religion
   - katholizismus

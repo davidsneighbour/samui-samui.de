@@ -1,11 +1,11 @@
 ---
 title: "Neu! Wahlen?"
 date: 2019-01-23T21:00:00+07:00
-tags:
+themen:
   - politik
   - wahlen 2019
 leute:
-  - prayuth chan-ocha
+   - prayuth-chan-ocha
 resources:
   - src: "royal-degree.png"
     name: "neuwahlen"

@@ -6,7 +6,7 @@
     // biome-ignore lint/correctness/noUndeclaredVariables: loaded globally by the pagefind-ui.js script loaded alongside this component
     const search = new PagefindUI({
       element: '#search',
-      open_filters: ['Year', 'Tag'],
+      open_filters: ['Year', 'Thema'],
     });
     const query = new URLSearchParams(window.location.search).get('q');
     if (query) search.triggerSearch(query);

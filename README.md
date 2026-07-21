@@ -57,7 +57,9 @@ and [release-it](https://github.com/release-it/release-it) for releases.
 
 Astro collections are defined in `src/content.config.ts`. Blog posts live as
 `src/content/posts/**/index.md`, people pages live in `src/content/leute/**/_index.md`,
-and tag pages live in `src/content/tags/**/_index.md`. Standalone pages such as
+place pages in `src/content/orte/**/_index.md`, event pages in
+`src/content/ereignisse/**/_index.md`, and topic pages in
+`src/content/themen/**/_index.md`. Standalone pages such as
 contact and privacy live directly under `src/content/`, while `sitewide/` holds
 shared data-only content.
 
@@ -234,7 +236,8 @@ Netlify's connected build or the Netlify CLI once the setup above is complete.
 
 | Command | Details |
 | --- | --- |
-| `npm run blog:new` | Prompts for title/tags, creates `src/content/posts/YYYY/<slug>/index.md`, and opens VS Code unless `--no-open` is passed. |
+| `npm run blog:new` | Prompts for title/topics, creates `src/content/posts/YYYY/<slug>/index.md`, and opens VS Code unless `--no-open` is passed. |
+| `npm run validate:taxonomies` | Validates registered `leute`, `orte`, and `ereignisse` references plus topic metadata rules. |
 | `npm run publisher -- <command>` | Manages repo-internal `publisher.*` frontmatter queues; `set`/`unset` require an explicit filter. |
 
 ### Generated package maintenance

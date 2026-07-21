@@ -1,7 +1,7 @@
 ---
 title: Die Krönung
 date: 2019-01-03T20:25:00+07:00
-tags:
+themen:
   - chakri-dynastie
   - zeremonien
 leute:

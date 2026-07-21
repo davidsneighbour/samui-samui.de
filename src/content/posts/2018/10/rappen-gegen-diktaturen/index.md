@@ -2,7 +2,7 @@
 title: "Rappen gegen Diktaturen"
 description: "Ein Rap-Musik-Video macht die Runden in Thailand's Netzwerken, die Diktatur kritisierend - Prathet Khun Mii (Mein Land). "
 date: 2018-10-27T20:25:00+07:00
-tags:
+themen:
   - musik
   - armee-regierung
   - protest

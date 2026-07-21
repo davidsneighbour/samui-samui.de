@@ -1,7 +1,7 @@
 ---
 title: Blutmond (Thaistyle)
 date: 2015-10-03T15:58:32+07:00
-tags:
+themen:
   - astrologie
   - blutmond
 resources:
