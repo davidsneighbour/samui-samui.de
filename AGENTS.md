@@ -97,6 +97,14 @@ nicht ungefragt aus Prosa ab, verwende keine Anzeigenamen als Referenzen und nut
   be clobbered by an unreviewed commit landing on `main`.
 * Every commit MUST reference the GitHub issue it addresses (e.g. `closes #123`,
   `see #123`) and explain *why* the change was made, not just what changed.
+* Every commit message MUST use the Conventional Commits format consumed by
+  release-it/conventional-changelog:
+  `<type>(optional-scope): <imperative summary>`. Use the type that matches the
+  release/changelog meaning of the change, not a generic fallback. Common local
+  types include `content`, `feat`, `fix`, `instructions`, `docs`, `test`,
+  `refactor`, and `chore`. Examples:
+  `content(fix): mark Textpattern review queue` and
+  `instructions: require conventional commit messages`.
 * Every open point of work — bug, follow-up, decision, question — MUST be tracked as
   a GitHub issue. Ideas that are not yet actionable MAY live in `TODO.md` instead
   (see below) until they are refined enough to become an issue.
