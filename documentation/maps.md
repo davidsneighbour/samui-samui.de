@@ -1,61 +1,62 @@
 # Interactive maps
 
-Interactive maps use MapLibre GL JS with OpenFreeMap as the initial
-MapLibre-compatible style and vector tile provider. MapLibre is loaded from npm,
-not from a CDN, and its CSS is imported through the Astro module graph in
-`src/components/BaseHead.astro`.
+Interactive maps use a local mapcn-style React component layer on top of
+MapLibre GL JS, with OpenFreeMap as the initial MapLibre-compatible style and
+vector tile provider. MapLibre is loaded from npm, not from a CDN, and MapLibre
+CSS is imported through the local mapcn component module graph.
 
 MapLibre is the renderer. OpenFreeMap supplies the initial hosted style document,
 tiles, sprites, glyphs, fonts, and related map assets from
 `https://tiles.openfreemap.org`. This does not use Google Maps, Mapbox, a Mapbox
 token, or an application API key, but it does still send normal connection
 metadata such as the visitor IP address to OpenFreeMap infrastructure when a map
-is opened.
+component loads.
 
-The reusable component lives at `src/components/MapDialog.astro`. It initially
-renders a button, lazy-loads `maplibre-gl` only after the native dialog opens, and
-then creates one local HTML marker plus a locally rendered popup. Map coordinates
-must be supplied as latitude and longitude props, but MapLibre calls must always
-receive coordinates in `[longitude, latitude]` order.
+The mapcn-style primitive lives at `src/components/ui/map.tsx`. It exposes
+`MapCanvas`, `MapMarker`, `MarkerContent`, `MarkerPopup`, and `MapControls`
+wrappers for MapLibre. The contact-page implementation lives at
+`src/components/ContactMap.tsx` and is hydrated from `/kontakt/` with
+`client:visible`, so it is displayed inline below the contact form rather than
+opened from a button.
+
+Map coordinates in data files are stored as named `latitude` and `longitude`
+fields, but MapLibre calls must always receive coordinates in
+`[longitude, latitude]` order.
 
 Example:
 
-```astro
+```tsx
 ---
-import MapDialog from '@components/MapDialog.astro';
-import { contactMapLocation } from '@data/map-locations';
+import ContactMap from '@components/ContactMap';
+import { getMapPointBySlug } from '@data/map-points';
 ---
 
-<MapDialog
-  buttonLabel="Karte anzeigen"
-  dialogTitle="Karte: Koh Samui"
-  latitude={contactMapLocation.latitude}
-  longitude={contactMapLocation.longitude}
-  zoom={contactMapLocation.zoom}
-  markerTitle={contactMapLocation.title}
-  markerDescription={contactMapLocation.description}
-/>
+<ContactMap point={getMapPointBySlug('dnb-hq')} client:visible />
 ```
 
 Keep reusable map configuration in `src/config/maps.ts`. Keep reusable locations
-in structured local data such as `src/data/map-locations.ts`; do not scatter
-coordinate literals through page templates. When multiple locations are added,
-use a typed structure like:
+in `src/data/map-points.json`; do not scatter coordinate literals through page
+templates. Each point must have:
 
 ```ts
-export interface MapLocation {
-  id: string;
+export interface MapPoint {
+  slug: string;
   latitude: number;
   longitude: number;
   zoom?: number;
   title: string;
-  description?: string;
+  description: string;
+  tags: string[];
 }
 ```
 
-Future location-list features can build on that shape for `flyTo()` navigation,
-external popup activation buttons, GeoJSON layers, marker clustering, regional
-map extents, custom styles, and local PMTiles.
+The map UI adapts the site design tokens from `DESIGN.md`: card and border
+tokens frame the map, `primary` marks points, `muted` styles metadata, and the
+MapLibre-generated controls/popups are normalized in `src/styles/theme.css`.
+
+Future location-list features can build on the JSON registry for `flyTo()`
+navigation, external popup activation buttons, GeoJSON layers, marker
+clustering, regional map extents, custom styles, and local PMTiles.
 
 The preferred self-hosting path is MapLibre GL JS plus a locally hosted style
 document, local sprites and fonts where needed, and a self-hosted regional

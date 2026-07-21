@@ -5,20 +5,12 @@ export const MAP_CONFIG = {
   styleUrl: 'https://tiles.openfreemap.org/styles/liberty',
 } as const;
 
-export interface MapLocation {
-  id: string;
+export interface MapPoint {
+  slug: string;
   latitude: number;
   longitude: number;
   zoom?: number;
   title: string;
-  description?: string;
-}
-
-export interface MapDialogPayload {
-  dialogTitle: string;
-  latitude: number;
-  longitude: number;
-  zoom: number;
-  markerTitle: string;
-  markerDescription?: string;
+  description: string;
+  tags: string[];
 }

@@ -363,6 +363,14 @@ sharp (0px) corners.
   `#d9d3ba`, and dark `primary` `#ec7263`. Both theme files load the
   same Panton 400/600 faces as the site and keep the comment form below
   the timeline header, matching the current Giscus layout preference.
+* **Map surfaces** (`src/components/ui/map.tsx` and
+  `src/components/ContactMap.tsx`) — mapcn-style MapLibre controls,
+  markers, and popups adapted to this site's existing tokens. The map
+  frame uses `border`, `muted`, and `rounded-(--radius)` like other
+  framed tools; the marker uses `primary` with a `card` border and
+  `primary-foreground` center dot; popups use `card`,
+  `card-foreground`, `border`, and the small radius calculation. No new
+  map-specific colors, radii, or shadows are introduced.
 * **Masthead** (`src/components/Header.astro`) — see Typography and
   Layout above; the site's one genuinely bespoke, non-utility-driven
   component.

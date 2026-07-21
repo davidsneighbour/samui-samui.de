@@ -4,10 +4,12 @@ lastmod: 2024-03-09T11:46:04+07:00
 ---
 
 import ContactForm from '@components/ContactForm.astro';
-import MapDialog from '@components/MapDialog.astro';
-import { contactMapLocation } from '@data/map-locations';
+import ContactMap from '@components/ContactMap';
+import { getMapPointBySlug } from '@data/map-points';
 import PageLayout from '@layouts/PageLayout.astro';
 import { proseClasses } from '@utils/prose';
+
+export const contactMapPoint = getMapPointBySlug('dnb-hq');
 
 <PageLayout title={frontmatter.title} description={frontmatter.description ?? frontmatter.title}>
 <div class={proseClasses}>
@@ -34,15 +36,5 @@ Wenn du mir Dateien schicken willst, [nutze dieses Dropbox-Formular][2].
 
 </div>
 <ContactForm />
-<div class="mt-10 border-t border-border pt-8">
-  <MapDialog
-    buttonLabel="Karte anzeigen"
-    dialogTitle="Karte: Koh Samui"
-    latitude={contactMapLocation.latitude}
-    longitude={contactMapLocation.longitude}
-    zoom={contactMapLocation.zoom}
-    markerTitle={contactMapLocation.title}
-    markerDescription={contactMapLocation.description}
-  />
-</div>
+<ContactMap point={contactMapPoint} client:visible />
 </PageLayout>

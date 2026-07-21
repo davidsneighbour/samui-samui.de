@@ -245,11 +245,13 @@ the selected initial stack because this site needs full control over vector map
 styling. OpenLayers is also not selected for the initial stack because its GIS
 surface area is unnecessary for the current website requirements.
 
-Central map settings MUST live in `src/config/maps.ts`. Reusable locations MUST
-live in structured local TypeScript data such as `src/data/map-locations.ts` or
-a future GeoJSON/data module; do not scatter coordinate literals through page
-templates. Remember that MapLibre coordinate arrays use `[longitude, latitude]`
-order even when component APIs accept named `latitude` and `longitude` props.
+Central map settings MUST live in `src/config/maps.ts`. Reusable point data MUST
+live in `src/data/map-points.json` and be read through `src/data/map-points.ts`;
+do not scatter coordinate literals through page templates. Each point MUST have
+`slug`, `latitude`, `longitude`, `title`, `description`, and `tags` fields, with
+`zoom` optional. Remember that MapLibre coordinate arrays use
+`[longitude, latitude]` order even when component APIs accept named `latitude`
+and `longitude` props.
 
 The initial OpenFreeMap setup requires no Google dependency, Mapbox token,
 account, or application API key. It still makes external requests to
@@ -261,16 +263,18 @@ locally hosted style document, local sprites/fonts where required, and a
 self-hosted regional Protomaps PMTiles file; do not implement PMTiles until a
 future requirement asks for full self-hosting.
 
-Map components MUST be native Astro plus strict TypeScript unless an existing
-frontend runtime is already required for the specific surface. They MUST lazy-load
-MapLibre in the browser after the map becomes visible, import MapLibre CSS
-through the module graph, validate finite latitude/longitude/zoom values, render
-local accessible HTML/SVG markers, build popups with DOM APIs or otherwise
+Map UI SHOULD use the local mapcn-style React primitive in
+`src/components/ui/map.tsx` when the surface needs an interactive MapLibre map.
+Astro pages should hydrate map islands only when needed (for example
+`client:visible` for below-the-fold maps). Map components MUST import MapLibre
+CSS through the module graph, validate finite latitude/longitude/zoom values,
+render local accessible HTML/SVG markers, build popups with React/DOM-rendered
 escaped text rather than `innerHTML`, support multiple instances without global
-IDs or `window` state, resize hidden-then-shown maps, expose visible close
-controls, restore focus, respect reduced-motion preferences, and clean up map
-instances/listeners when dialogs close or components are torn down. When CSP
-changes are required, document the exact directives and hosts being added.
+IDs or `window` state, respect reduced-motion preferences for future camera
+animations, and clean up map instances/listeners when components unmount. Map UI
+MUST adapt existing DESIGN.md tokens instead of inventing one-off colors,
+radii, or spacing. When CSP changes are required, document the exact directives
+and hosts being added.
 
 ### Deployment
 

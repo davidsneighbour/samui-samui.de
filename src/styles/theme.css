@@ -219,3 +219,48 @@ h6 {
   object-fit: contain;
   margin: auto;
 }
+
+/*
+ * mapcn-style MapLibre surfaces. The component layer lives in
+ * src/components/ui/map.tsx and src/components/ContactMap.tsx; these selectors
+ * only adapt MapLibre's generated controls/popups to the DESIGN.md tokens.
+ */
+.mapcn-samui .maplibregl-popup-content {
+  padding: 0;
+  border-radius: calc(var(--radius) - 4px);
+  background: transparent;
+  box-shadow: none;
+}
+
+.mapcn-samui .maplibregl-popup-tip {
+  display: none;
+}
+
+.mapcn-samui .maplibregl-ctrl-group,
+.mapcn-samui .maplibregl-ctrl-attrib {
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: calc(var(--radius) - 4px);
+  background: var(--color-card);
+  color: var(--color-card-foreground);
+}
+
+.mapcn-samui .maplibregl-ctrl-group button {
+  color: var(--color-card-foreground);
+}
+
+.mapcn-samui .maplibregl-ctrl-group button + button {
+  border-top-color: var(--color-border);
+}
+
+.mapcn-samui .maplibregl-ctrl-group button:hover {
+  background: var(--color-accent);
+}
+
+.mapcn-samui .maplibregl-ctrl-attrib a {
+  color: var(--color-link);
+}
+
+.mapcn-samui .maplibregl-ctrl-attrib-button {
+  background-color: transparent;
+}
