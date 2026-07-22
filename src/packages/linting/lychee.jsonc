@@ -1,0 +1,8 @@
+{
+  "lint-staged": {
+    "src/content/**/*.{md,mdx}": ["node src/scripts/lint-links.ts --staged"]
+  },
+  "scripts": {
+    "lint:links": "node src/scripts/lint-links.ts"
+  }
+}

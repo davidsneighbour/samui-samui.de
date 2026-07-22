@@ -195,6 +195,22 @@ Pass:
 
 `ss-review` remains authoritative for post-level acceptance criteria.
 
+### 4a. Check links for edited posts
+
+When a refactor pass edits a post, run the narrowest content link check that
+covers the changed post before marking the post complete:
+
+```bash
+npm run lint:links -- src/content/posts/YYYY/MM/slug
+```
+
+Treat broken internal links, missing local media links, failed fragment links,
+and failed external source links as required fixes. During the archive refactor,
+do not hide remote failures by broad ignores: keep the concrete Lychee reason
+visible when a historical source blocks crawlers, times out, returns an HTTP
+error, or has disappeared, then decide whether the post needs a replacement
+source, an archive/source-rot note, or an intentionally retained historical link.
+
 ### 5. Recover Flickr originals
 
 When the post has `publisher.flickr` or legacy `flickr` frontmatter, follow

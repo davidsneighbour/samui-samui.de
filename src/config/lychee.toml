@@ -1,0 +1,34 @@
+#############################  Display  #############################
+
+format = "detailed"
+mode = "plain"
+no_progress = true
+host_stats = true
+
+#############################  Cache  ###############################
+
+cache = true
+max_cache_age = "7d"
+cache_exclude_status = "429, 500.."
+
+#############################  Runtime  #############################
+
+max_concurrency = 32
+max_retries = 1
+timeout = 20
+retry_wait_time = 2
+
+#############################  Requests  ############################
+
+method = "get"
+user_agent = "samui-samui.de content link checker (lychee)"
+accept = "100..=103, 200..=299"
+include_fragments = "anchor-only"
+include_verbatim = false
+include_mail = false
+skip_missing = false
+
+#############################  Local files  #########################
+
+extensions = ["md", "mdx"]
+index_files = ["index.md", "_index.md"]

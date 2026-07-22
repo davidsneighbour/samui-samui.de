@@ -33,3 +33,8 @@ mutating commands under `check`, `lint`, `validate`, `test`, or `audit`.
 `lint:spell` remains intentionally separate from `check` because the inherited
 content archive produces a large number of known spelling hits that are not part
 of the routine quality gate.
+
+`lint:links` is also intentionally separate from `check` during the archive
+refactor. It runs Lychee against `src/content` only, can be narrowed with
+`npm run lint:links -- src/content/path`, and is wired into lint-staged for
+staged content Markdown/MDX files so touched posts do not add new broken links.
