@@ -52,6 +52,23 @@ at [https://samui-samui.de](https://samui-samui.de).
   `documentation/` file in the same change set. If no matching document exists yet,
   create one as part of the feature work so behavior, configuration, and operating
   notes do not drift away from the implementation.
+* Source citations in posts SHOULD use named Markdown footnotes following
+  [`documentation/source-citations.md`](documentation/source-citations.md).
+  Prefer semantic `[^src-...]` identifiers over numeric `[^1]` identifiers for
+  external source citations.
+
+## Repo-local assistant skills
+
+* Samui-specific assistant skills live in `ai/skills/` and use the `ss-*` prefix.
+  Every direct child folder matching `ai/skills/ss-*/SKILL.md` MUST be treated as
+  available to assistant conversations in this repository.
+* `ai/config.toml` MUST keep repo-local skill registration pattern-based
+  (`available = ["ai/skills/ss-*"]`) rather than listing individual skill folders.
+  Adding a new `ai/skills/ss-*` folder with `SKILL.md` should autoregister it for
+  future agents.
+* Each `ss-*` skill's frontmatter `name` MUST match its folder name, and prompt
+  helpers in that folder SHOULD invoke the same `ss-*` name. See
+  [`documentation/repo-local-skills.md`](documentation/repo-local-skills.md).
 
 ## Taxonomien
 

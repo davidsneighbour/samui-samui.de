@@ -1,0 +1,184 @@
+# Unreviewed recurring source candidates discovered during ss-research-news
+# report runs. Keep existing entries until Patrick reviews and either promotes
+# them into resources/sources/*.yaml or removes/rejects them.
+#
+# Use the source format documented in resources/sources.md.
+# Sub-sources discovered from existing entries may include parent_source and
+# relation fields so their origin and distinct rescanning value stay visible.
+
+- name: Travel + Leisure World's Best Awards
+  url: https://www.travelandleisure.com/worlds-best-awards-best-islands-in-the-world-11952553
+  language:
+    - en
+  type:
+    - topic_page
+  geographic_scope:
+    - koh-samui
+    - international-tourism
+  strengths:
+    - original ranking source
+    - useful award methodology notes
+  weaknesses:
+    - tourism-reader ranking, not local reporting
+  search_notes:
+    - search annually for World's Best Awards and Koh Samui
+  active: true
+
+- name: The Nation Thailand
+  url: https://www.nationthailand.com/news/tourism/40068721
+  language:
+    - en
+  type:
+    - local-news
+  geographic_scope:
+    - thailand
+    - koh-samui
+  strengths:
+    - English-language national coverage
+    - often includes government framing
+  weaknesses:
+    - can amplify official tourism messaging
+  search_notes:
+    - search site for Koh Samui and Surat Thani
+  active: true
+
+- name: Government Public Relations Department Thailand
+  url: https://thailand.prd.go.th/
+  language:
+    - en
+    - th
+  type:
+    - official_updates
+  geographic_scope:
+    - thailand
+  strengths:
+    - primary government policy announcements
+    - useful for visa and cabinet-related items
+  weaknesses:
+    - official framing; limited local critique
+  search_notes:
+    - search exact policy titles and PRD mirrors
+  active: true
+
+- name: Province of Surat Thani
+  url: https://suratthani.go.th/
+  language:
+    - th
+  type:
+    - official_updates
+  geographic_scope:
+    - surat-thani
+    - koh-samui
+    - koh-phangan
+  strengths:
+    - primary provincial administration source
+    - strong for inspections, enforcement, meetings
+  weaknesses:
+    - Thai-only and sometimes dense administrative wording
+  search_notes:
+    - search Thai terms for สมุย, เกาะพะงัน, นอมินี, ต่างด้าว
+  active: true
+
+- name: TAT Newsroom
+  url: https://www.tatnews.org/
+  language:
+    - en
+  type:
+    - official_updates
+  geographic_scope:
+    - thailand
+    - koh-samui
+  strengths:
+    - official tourism campaigns and award announcements
+  weaknesses:
+    - promotional source, not independent reporting
+  search_notes:
+    - check press releases and event calendars
+  active: true
+
+- name: Bangkok Biz News
+  url: https://www.bangkokbiznews.com/
+  language:
+    - th
+  type:
+    - local-news
+    - section
+  geographic_scope:
+    - thailand
+    - surat-thani
+    - koh-samui
+  strengths:
+    - useful for infrastructure, environmental and government stories
+  weaknesses:
+    - often rewrites ministry or agency PR
+  search_notes:
+    - search for เกาะสมุย, กะเปอร์-ไชยา, ขยะสมุย
+  active: true
+
+- name: Thai Meteorological Department
+  url: https://www5.tmd.go.th/weather/region/southerneastcoast
+  language:
+    - th
+  type:
+    - official_updates
+  geographic_scope:
+    - southern-east-coast
+    - koh-samui
+  strengths:
+    - primary daily weather source
+  weaknesses:
+    - regional rather than Samui-specific narrative
+  search_notes:
+    - use for storms, marine warnings, travel-risk context
+  active: true
+
+- name: DataForThai government procurement pages
+  url: https://www.dataforthai.com/
+  language:
+    - th
+  type:
+    - search_page
+  geographic_scope:
+    - thailand
+    - koh-samui
+  strengths:
+    - exposes local procurement and construction notices
+  weaknesses:
+    - aggregator; verify against e-GP or municipality when possible
+  search_notes:
+    - search project IDs and Thai location names
+  active: true
+
+- name: Our Samui Events
+  url: https://oursamui.com/events/
+  language:
+    - en
+  type:
+    - event_calendar
+  geographic_scope:
+    - koh-samui
+  strengths:
+    - recurring visitor-facing Samui event listings
+  weaknesses:
+    - editorial/promotional tone; verify official dates elsewhere
+  search_notes:
+    - check monthly for upcoming local and holiday events
+  active: true
+
+- name: Koh Samui Tourist Police
+  url: https://kohsamui.tourist.police.go.th/
+  language:
+    - th
+  type:
+    - official_updates
+  geographic_scope:
+    - koh-samui
+    - koh-phangan
+    - koh-tao
+  strengths:
+    - primary source for tourist-safety and enforcement activities
+  weaknesses:
+    - publication dates and event dates can be confusing or delayed
+  search_notes:
+    - use category archives and verify actual event dates
+  active: true

@@ -5,7 +5,9 @@ contentReworkStateRoot = "ai/reports/contentrework"
 [skills]
 loader = "repo-local"
 roots = ["ai/skills"]
-available = ["ai/skills/ss-review", "ai/skills/ss-refactor"]
+available = ["ai/skills/ss-*"]
+autoregister = true
+entrypoint = "SKILL.md"
 
 [contentRework]
 stateRoot = "ai/reports/contentrework"
