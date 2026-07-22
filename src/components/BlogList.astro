@@ -65,8 +65,20 @@ const shouldFeaturePost = (index: number) =>
 
 const coverOutlineClass =
   'outline outline-1 -outline-offset-1 outline-black/10 dark:outline-white/10';
+const showPagination = totalPages > 1;
+const showTopPagination = showPagination && pageNumber > 1;
 ---
 
+{showTopPagination && (
+    <Pagination
+      basePath={basePath}
+      placement="top"
+      previousHref={previousPage}
+      nextHref={nextPage}
+      pageNumber={pageNumber}
+      totalPages={totalPages}
+    />
+  )}
 <ul class="mx-auto flex max-w-4xl flex-col gap-8 px-4">
   {listedPosts.map(({ cover, featuredPreview, post, summary }, index) => (
       <li>
@@ -161,9 +173,10 @@ const coverOutlineClass =
       </li>
     ))}
 </ul>
-{totalPages > 1 && (
+{showPagination && (
     <Pagination
       basePath={basePath}
+      placement="bottom"
       previousHref={previousPage}
       nextHref={nextPage}
       pageNumber={pageNumber}

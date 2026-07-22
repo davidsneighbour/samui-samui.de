@@ -39,7 +39,11 @@ Already implemented and reused as-is where noted:
   readers can enter a page number from `1` through the generated `totalPages`
   value and press Enter to navigate to `/` for page 1 or `/seite/[page]/` for
   later pages. Invalid empty values do nothing; out-of-range numeric values are
-  clamped to the nearest generated page.
+  clamped to the nearest generated page. Page 2 and later also render the same
+  pagination above the post list, added in
+  [#1237](https://github.com/davidsneighbour/samui-samui.de/issues/1237), so
+  readers who arrive on an older listing page can jump again without scrolling
+  to the bottom first.
 * No breadcrumb component and no structured data (JSON-LD) existed anywhere
   on the site prior to this milestone — both added in
   [#911](https://github.com/davidsneighbour/samui-samui.de/issues/911).

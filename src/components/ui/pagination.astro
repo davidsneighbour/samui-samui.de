@@ -9,6 +9,7 @@ import { cn } from '@utils/cn';
 
 interface Props {
   basePath?: string | undefined;
+  placement?: 'bottom' | 'top' | undefined;
   previousHref?: string | undefined;
   nextHref?: string | undefined;
   pageNumber: number;
@@ -81,6 +82,7 @@ const getPageItems = (currentPage: number, pagesTotal: number): PageItem[] => {
 
 const {
   basePath: rawBasePath,
+  placement = 'bottom',
   previousHref,
   nextHref,
   pageNumber,
@@ -112,11 +114,18 @@ const linkClass =
   'text-card-foreground hover:bg-accent hover:text-accent-foreground';
 const activeClass = 'bg-primary text-primary-foreground hover:bg-primary/90';
 const disabledClass = 'pointer-events-none opacity-45';
+const paginationId = `pagination-page-jump-${placement}-${pageNumber}`;
+const navLabel =
+  placement === 'top' ? 'Seitennavigation oben' : 'Seitennavigation unten';
+const navClass = cn(
+  'mx-auto max-w-4xl px-4',
+  placement === 'top' ? 'mb-8' : 'mt-8',
+);
 ---
 
 <nav
-  class="mx-auto mt-8 max-w-4xl px-4"
-  aria-label="Seitennavigation"
+  class={navClass}
+  aria-label={navLabel}
 >
   <ul
     class="flex flex-wrap items-center justify-center gap-2 rounded-(--radius) bg-card px-4 py-4 text-card-foreground sm:px-6"
@@ -177,11 +186,11 @@ const disabledClass = 'pointer-events-none opacity-45';
                 data-total-pages={totalPages}
                 aria-label="Direkt zu einer Seite springen"
               >
-                <label class="sr-only" for={`pagination-page-jump-${pageNumber}`}>
+                <label class="sr-only" for={paginationId}>
                   Seitennummer
                 </label>
                 <input
-                  id={`pagination-page-jump-${pageNumber}`}
+                  id={paginationId}
                   class="peer h-9 w-full rounded-[calc(var(--radius)-4px)] border border-border bg-card py-1.5 pl-3 pr-9 text-center text-sm font-medium tabular-nums text-card-foreground transition-[border-color,box-shadow] placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                   data-slot="input-group-control"
                   inputmode="numeric"
