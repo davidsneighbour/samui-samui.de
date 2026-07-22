@@ -111,5 +111,10 @@ export default defineConfig({
 
   vite: {
     plugins: [tailwindcss(), isDevServer && mkcert()],
+    server: {
+      watch: {
+        ignored: ['**/scratch/**'],
+      },
+    },
   },
 });
