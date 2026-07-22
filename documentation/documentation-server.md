@@ -35,6 +35,10 @@ site tooling: `unified`, `remark-parse`, `remark-gfm`, `remark-rehype`, and
 build, so it does not hydrate Astro components or load the public site design
 system.
 
+The sidebar navigation lists all Markdown documentation pages and groups them
+by documentation area: Components, Content, Features, and Repository. Files at
+the documentation root belong to Repository.
+
 `npm run dev` starts both the Astro dev server and the documentation server. Use
 the split scripts when only one side is needed:
 

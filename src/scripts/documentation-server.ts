@@ -30,11 +30,30 @@ export interface DocumentationServerOptions {
   port?: number;
 }
 
+interface DocumentationNavGroup {
+  pages: DocumentationPage[];
+  title: string;
+}
+
 interface ParsedOptions {
   documentationRoot: string;
   host: string;
   port: number;
 }
+
+const documentationNavCategoryOrder = [
+  'components',
+  'content',
+  'features',
+  'repository',
+];
+
+const documentationNavCategoryTitles: Record<string, string> = {
+  components: 'Components',
+  content: 'Content',
+  features: 'Features',
+  repository: 'Repository',
+};
 
 const markdownProcessor = unified()
   .use(remarkParse)
@@ -82,6 +101,35 @@ function titleFromMarkdown(markdown: string, fallback: string): string {
       )
       .trim()
   );
+}
+
+function categoryFromRoutePath(routePath: string): string {
+  const firstSegment = routePath.split('/').filter(Boolean)[0];
+  return firstSegment && firstSegment in documentationNavCategoryTitles
+    ? firstSegment
+    : 'repository';
+}
+
+function groupDocumentationPages(
+  pages: DocumentationPage[],
+): DocumentationNavGroup[] {
+  const groupedPages = new Map<string, DocumentationPage[]>();
+
+  for (const page of pages) {
+    const category = categoryFromRoutePath(page.routePath);
+    groupedPages.set(category, [...(groupedPages.get(category) ?? []), page]);
+  }
+
+  return [...groupedPages.entries()]
+    .sort(([a], [b]) => {
+      const aIndex = documentationNavCategoryOrder.indexOf(a);
+      const bIndex = documentationNavCategoryOrder.indexOf(b);
+      return aIndex - bIndex;
+    })
+    .map(([category, groupPages]) => ({
+      pages: groupPages,
+      title: documentationNavCategoryTitles[category] ?? category,
+    }));
 }
 
 async function fileExists(filePath: string): Promise<boolean> {
@@ -161,11 +209,16 @@ export function renderDocumentationPage(
   const html = toHtml(
     markdownProcessor.runSync(markdownProcessor.parse(markdown)),
   );
-  const nav = pages
-    .map((page) => {
-      const active = page.routePath === currentPage.routePath;
-      const ariaCurrent = active ? ' aria-current="page"' : '';
-      return `<li><a href="${escapeHtml(page.routePath)}"${ariaCurrent}>${escapeHtml(page.title)}</a></li>`;
+  const nav = groupDocumentationPages(pages)
+    .map((group) => {
+      const links = group.pages
+        .map((page) => {
+          const active = page.routePath === currentPage.routePath;
+          const ariaCurrent = active ? ' aria-current="page"' : '';
+          return `<li><a href="${escapeHtml(page.routePath)}"${ariaCurrent}>${escapeHtml(page.title)}</a></li>`;
+        })
+        .join('\n');
+      return `<li class="nav-group"><h2>${escapeHtml(group.title)}</h2><ul>${links}</ul></li>`;
     })
     .join('\n');
 
@@ -231,6 +284,19 @@ export function renderDocumentationPage(
       list-style: none;
       margin: 0;
       padding: 0;
+    }
+
+    .nav-group + .nav-group {
+      margin-top: 1rem;
+    }
+
+    .nav-group h2 {
+      color: var(--text);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0;
+      margin: 0 0 0.3rem;
+      text-transform: uppercase;
     }
 
     nav a {

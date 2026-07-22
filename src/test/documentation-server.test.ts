@@ -15,6 +15,7 @@ function makeDocumentationRoot(): string {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'samui-docs-'));
   tempRoots.push(root);
   fs.mkdirSync(path.join(root, 'content'), { recursive: true });
+  fs.mkdirSync(path.join(root, 'features'), { recursive: true });
   fs.writeFileSync(
     path.join(root, 'index.md'),
     '# Documentation index\n\n[Taxonomies](content/taxonomies.md)\n',
@@ -22,6 +23,10 @@ function makeDocumentationRoot(): string {
   fs.writeFileSync(
     path.join(root, 'content', 'taxonomies.md'),
     '# Content taxonomies\n\nTaxonomy notes.\n',
+  );
+  fs.writeFileSync(
+    path.join(root, 'features', 'search.md'),
+    '# Search\n\nSearch notes.\n',
   );
   return root;
 }
@@ -65,6 +70,11 @@ describe('documentation server helpers', () => {
         title: 'Content taxonomies',
       },
       {
+        filePath: path.join(root, 'features', 'search.md'),
+        routePath: '/features/search.md',
+        title: 'Search',
+      },
+      {
         filePath: path.join(root, 'index.md'),
         routePath: '/',
         title: 'Documentation index',
@@ -82,13 +92,34 @@ describe('documentation server helpers', () => {
     const html = renderDocumentationPage(
       '# Documentation index\n\n- item\n',
       page,
-      [page],
+      [
+        {
+          filePath: '/tmp/docs/content/taxonomies.md',
+          routePath: '/content/taxonomies.md',
+          title: 'Content taxonomies',
+        },
+        {
+          filePath: '/tmp/docs/features/search.md',
+          routePath: '/features/search.md',
+          title: 'Search',
+        },
+        page,
+      ],
     );
 
     expect(html).toContain(
       '<title>Documentation index | Documentation</title>',
     );
     expect(html).toContain('<h1>Documentation index</h1>');
+    expect(html).toContain('<h2>Content</h2>');
+    expect(html).toContain('<h2>Features</h2>');
+    expect(html).toContain('<h2>Repository</h2>');
+    expect(html.indexOf('<h2>Content</h2>')).toBeLessThan(
+      html.indexOf('<h2>Features</h2>'),
+    );
+    expect(html.indexOf('<h2>Features</h2>')).toBeLessThan(
+      html.indexOf('<h2>Repository</h2>'),
+    );
     expect(html).toContain(
       '<a href="/" aria-current="page">Documentation index</a>',
     );
