@@ -3,7 +3,7 @@ import {
   ArrowLeftToLine,
   ArrowRightToLine,
   Ellipsis,
-  Hash,
+  Pencil,
 } from '@lucide/astro';
 import { cn } from '@utils/cn';
 
@@ -19,8 +19,6 @@ interface Props {
 type PageItem =
   | { type: 'page'; page: number }
   | { type: 'ellipsis'; key: string };
-
-type DisplayItem = PageItem | { type: 'jump'; key: string };
 
 const normalizeBasePath = (path = '') => {
   const trimmed = path.replace(/\/+$/, '');
@@ -95,18 +93,6 @@ const pageHref = (page: number) =>
     page === 1 ? basePath || '/' : `${basePath}/seite/${page}/`,
   );
 const pageItems = getPageItems(pageNumber, totalPages);
-const pageItemsWithJump = pageItems.reduce<DisplayItem[]>((items, item) => {
-  items.push(item);
-
-  if (
-    item.type === 'ellipsis' &&
-    !items.some((displayItem) => displayItem.type === 'jump')
-  ) {
-    items.push({ key: 'page-jump', type: 'jump' });
-  }
-
-  return items;
-}, []);
 
 const controlClass =
   'inline-flex h-9 min-w-9 items-center justify-center gap-2 whitespace-nowrap rounded-[calc(var(--radius)-4px)] px-3 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2';
@@ -114,7 +100,7 @@ const linkClass =
   'text-card-foreground hover:bg-accent hover:text-accent-foreground';
 const activeClass = 'bg-primary text-primary-foreground hover:bg-primary/90';
 const disabledClass = 'pointer-events-none opacity-45';
-const paginationId = `pagination-page-jump-${placement}-${pageNumber}`;
+const paginationId = `pagination-page-current-${placement}-${pageNumber}`;
 const navLabel =
   placement === 'top' ? 'Seitennavigation oben' : 'Seitennavigation unten';
 const navClass = cn(
@@ -157,7 +143,7 @@ const navClass = cn(
         )}
     </li>
 
-    {pageItemsWithJump.map((item) => (
+    {pageItems.map((item) => (
         <li>
           {item.type === 'ellipsis' ? (
               <span
@@ -166,49 +152,55 @@ const navClass = cn(
               >
                 <Ellipsis class="size-4" />
               </span>
-            ) : item.type === 'page' ? (
-              <a
-                href={pageHref(item.page)}
-                class={cn(
-                  controlClass,
-                  item.page === pageNumber ? activeClass : linkClass,
-                )}
-                aria-current={item.page === pageNumber ? 'page' : undefined}
-                aria-label={`Seite ${item.page}`}
-              >
-                {item.page}
-              </a>
-            ) : item.type === 'jump' ? (
+            ) : item.page === pageNumber ? (
               <form
-                class="relative inline-flex h-9 w-24 items-center"
-                data-pagination-jump
+                class="inline-flex h-9 items-center"
+                data-pagination-current
                 data-base-path={basePath || '/'}
+                data-current-page={pageNumber}
                 data-total-pages={totalPages}
-                aria-label="Direkt zu einer Seite springen"
+                aria-label="Aktuelle Seitennummer bearbeiten"
               >
+                <button
+                  class={cn(controlClass, activeClass, 'min-w-14 pr-2.5')}
+                  type="button"
+                  data-pagination-current-trigger
+                  aria-current="page"
+                  aria-label={`Aktuelle Seite ${item.page} bearbeiten`}
+                  title={`Seite ${item.page} bearbeiten`}
+                >
+                  <span>{item.page}</span>
+                  <Pencil
+                    aria-hidden="true"
+                    class="size-3.5 opacity-60"
+                  />
+                </button>
                 <label class="sr-only" for={paginationId}>
                   Seitennummer
                 </label>
                 <input
                   id={paginationId}
-                  class="peer h-9 w-full rounded-[calc(var(--radius)-4px)] border border-border bg-card py-1.5 pl-3 pr-9 text-center text-sm font-medium tabular-nums text-card-foreground transition-[border-color,box-shadow] placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-                  data-slot="input-group-control"
+                  class="h-9 w-16 rounded-[calc(var(--radius)-4px)] border border-primary/80 bg-primary px-3 text-center text-sm font-medium tabular-nums text-primary-foreground transition-[border-color,box-shadow] placeholder:text-primary-foreground/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                  data-pagination-current-input
                   inputmode="numeric"
                   maxlength={String(totalPages).length}
                   name="page"
                   pattern="[0-9]*"
-                  placeholder={String(pageNumber)}
                   title={`Seite 1 bis ${totalPages}`}
                   type="text"
+                  value={String(pageNumber)}
+                  hidden
                 />
-                <span
-                  class="pointer-events-none absolute inset-y-0 right-3 inline-flex items-center text-muted-foreground transition-colors peer-focus-visible:text-card-foreground"
-                  aria-hidden="true"
-                >
-                  <Hash class="size-4" />
-                </span>
               </form>
-            ) : null}
+            ) : (
+              <a
+                href={pageHref(item.page)}
+                class={cn(controlClass, linkClass)}
+                aria-label={`Seite ${item.page}`}
+              >
+                {item.page}
+              </a>
+            )}
         </li>
       ))}
 
@@ -245,33 +237,72 @@ const navClass = cn(
   (() => {
     const pagination = document.currentScript?.previousElementSibling;
     if (pagination instanceof HTMLElement) {
-      pagination.querySelectorAll('[data-pagination-jump]').forEach((form) => {
-        if (!(form instanceof HTMLFormElement)) return;
+      pagination
+        .querySelectorAll('[data-pagination-current]')
+        .forEach((form) => {
+          if (!(form instanceof HTMLFormElement)) return;
 
-        const input = form.querySelector('input[name="page"]');
-        if (!(input instanceof HTMLInputElement)) return;
+          const input = form.querySelector('[data-pagination-current-input]');
+          if (!(input instanceof HTMLInputElement)) return;
 
-        const totalPages = Number.parseInt(form.dataset.totalPages ?? '', 10);
-        const basePath = form.dataset.basePath ?? '/';
-        if (!Number.isFinite(totalPages)) return;
+          const trigger = form.querySelector(
+            '[data-pagination-current-trigger]',
+          );
+          if (!(trigger instanceof HTMLButtonElement)) return;
 
-        form.addEventListener('submit', (event) => {
-          event.preventDefault();
+          const currentPage = form.dataset.currentPage ?? '';
+          const totalPages = Number.parseInt(form.dataset.totalPages ?? '', 10);
+          const basePath = form.dataset.basePath ?? '/';
+          if (!Number.isFinite(totalPages)) return;
 
-          if (!/^\d+$/.test(input.value)) return;
+          const closeEditor = () => {
+            input.value = currentPage;
+            input.hidden = true;
+            trigger.hidden = false;
+          };
 
-          const requestedPage = Number.parseInt(input.value, 10);
-          const page = Math.min(Math.max(requestedPage, 1), totalPages);
-          const normalizedBasePath =
-            basePath === '/' ? '' : basePath.replace(/\/+$/, '');
-          const href =
-            page === 1
-              ? normalizedBasePath || '/'
-              : `${normalizedBasePath}/seite/${page}/`;
+          const openEditor = () => {
+            trigger.hidden = true;
+            input.hidden = false;
+            input.value = currentPage;
+            window.requestAnimationFrame(() => {
+              input.focus();
+              input.select();
+            });
+          };
 
-          window.location.assign(href);
+          trigger.addEventListener('click', openEditor);
+
+          input.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+              event.preventDefault();
+              closeEditor();
+              trigger.focus();
+            }
+          });
+
+          input.addEventListener('blur', () => {
+            if (input.hidden) return;
+            closeEditor();
+          });
+
+          form.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            if (!/^\d+$/.test(input.value)) return;
+
+            const requestedPage = Number.parseInt(input.value, 10);
+            const page = Math.min(Math.max(requestedPage, 1), totalPages);
+            const normalizedBasePath =
+              basePath === '/' ? '' : basePath.replace(/\/+$/, '');
+            const href =
+              page === 1
+                ? normalizedBasePath || '/'
+                : `${normalizedBasePath}/seite/${page}/`;
+
+            window.location.assign(href);
+          });
         });
-      });
     }
   })();
 </script>

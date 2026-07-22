@@ -33,14 +33,14 @@ Already implemented and reused as-is where noted:
   — the paginated listing, kept unchanged as the "read recent posts" surface.
   Cross-linked from the archive in
   [#914](https://github.com/davidsneighbour/samui-samui.de/issues/914).
-  The numbered pagination includes a compact page-jump input beside the
-  ellipsis gap, added in
-  [#1236](https://github.com/davidsneighbour/samui-samui.de/issues/1236):
-  readers can enter a page number from `1` through the generated `totalPages`
-  value and press Enter to navigate to `/` for page 1 or `/seite/[page]/` for
-  later pages. Invalid empty values do nothing; out-of-range numeric values are
-  clamped to the nearest generated page. Page 2 and later also render the same
-  pagination above the post list, added in
+  The active page number in the numbered pagination doubles as a compact
+  page-jump control, added in
+  [#1238](https://github.com/davidsneighbour/samui-samui.de/issues/1238):
+  its subtle pencil icon signals that readers can click the current page chip,
+  edit the page number in place, and press Enter to navigate to `/` for page 1
+  or `/seite/[page]/` for later pages. Invalid empty values do nothing;
+  out-of-range numeric values are clamped to the nearest generated page. Page 2
+  and later also render the same pagination above the post list, added in
   [#1237](https://github.com/davidsneighbour/samui-samui.de/issues/1237), so
   readers who arrive on an older listing page can jump again without scrolling
   to the bottom first.
