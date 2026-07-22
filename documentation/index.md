@@ -52,6 +52,8 @@
 
 ## Repository
 
+* [Documentation server](documentation-server.md) explains the local Markdown
+  preview server that can run beside the Astro dev server.
 * [Link checking](link-checking.md) documents the Lychee wrapper for content
   Markdown and MDX links.
 * [Quality gates](quality-gates.md) explains the repository's npm quality-gate

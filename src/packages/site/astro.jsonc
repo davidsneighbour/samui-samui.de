@@ -12,8 +12,10 @@
   "scripts": {
     "astro": "astro",
     "build": "npm run validate && astro build --verbose",
-    "dev": "astro dev --verbose",
-    "dev:verbose": "DEBUG_FRONTMATTER=true astro dev --verbose",
+    "dev": "node src/scripts/dev.ts",
+    "dev:docs": "node src/scripts/documentation-server.ts",
+    "dev:site": "astro dev --verbose",
+    "dev:verbose": "DEBUG_FRONTMATTER=true node src/scripts/dev.ts",
     "preview": "astro preview",
     "upgrade": "npx @astrojs/upgrade",
     "validate": "npm run validate:content && npm run validate:taxonomies",
