@@ -33,7 +33,7 @@ const {
 // <Notice>...</Notice> children reach this component (MDX renders its own
 // Markdown before Astro ever sees the slot), so it's used as-is below
 // rather than re-parsed as Markdown source -- see `resolved.descriptionSource`
-// and documentation/notices.md's "Override precedence" section.
+// and documentation/components/notices.md's "Override precedence" section.
 const hasSlot = Astro.slots.has('default');
 const slotHtml = hasSlot ? (await Astro.slots.render('default')).trim() : '';
 

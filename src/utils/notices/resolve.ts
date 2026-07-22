@@ -71,7 +71,7 @@ function resolveDescription(
  * applying the documented precedence: explicit property > body-content
  * description override > registry value > component default. Shared by
  * both the MDX component and the plain-Markdown rehype transform so they
- * can never drift apart -- see documentation/notices.md.
+ * can never drift apart -- see documentation/components/notices.md.
  */
 export function resolveNotice(
   overrides: NoticeOverrides,

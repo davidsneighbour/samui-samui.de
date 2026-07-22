@@ -70,8 +70,8 @@ it is not rendered on the public site.
 ### Post covers
 
 Posts may include optional `cover` frontmatter for local images, YouTube videos,
-or Vimeo videos. See [Post covers](documentation/post-covers.md) for the
-supported properties and [Post cover migration plan](documentation/post-cover-migration-plan.md)
+or Vimeo videos. See [Post covers](documentation/components/post-covers.md) for the
+supported properties and [Post cover migration plan](documentation/content/post-cover-migration-plan.md)
 for the archive migration workflow.
 
 ## Setup

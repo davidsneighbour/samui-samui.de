@@ -23,7 +23,7 @@ Already implemented and reused as-is where noted:
   description, aliases, and slug overrides).
 * `src/pages/themen/index.astro` — did not exist. Added in
   [#912](https://github.com/davidsneighbour/samui-samui.de/issues/912).
-* `src/pages/suche.astro` + `src/scripts/integrations/pagefind.ts` — full-text
+* `src/pages/suche.mdx` + `src/scripts/integrations/pagefind.ts` — full-text
   search works; reused as the archive's search entry point
   ([#908](https://github.com/davidsneighbour/samui-samui.de/issues/908)).
   No year/topic faceting existed (`data-pagefind-filter`/`-meta` unused
@@ -93,16 +93,16 @@ content collections defined in `src/content.config.ts` — no hard-coded
 counts, age copy, or year lists anywhere.
 
 Post year and month grouping uses Thailand time (`Asia/Bangkok`, UTC+07:00),
-via `getPostDateParts()` in [`src/utils/dates.ts`](../src/utils/dates.ts).
+via `getPostDateParts()` in [`src/utils/dates.ts`](../../src/utils/dates.ts).
 Do not group posts with raw UTC or build-machine-local `Date` getters; many
 legacy timestamps are stored as UTC instants that belong to the following
 Bangkok calendar day.
 
-The archive intro age uses [`src/components/SiteAge.astro`](../src/components/SiteAge.astro)
+The archive intro age uses [`src/components/SiteAge.astro`](../../src/components/SiteAge.astro)
 and the shared `formatDateDuration()` helper in
-[`src/utils/dates.ts`](../src/utils/dates.ts). The same formatter powers the
+[`src/utils/dates.ts`](../../src/utils/dates.ts). The same formatter powers the
 plain-Markdown `<dnb-site-age>` tag through
-[`src/scripts/rehype/site-age.ts`](../src/scripts/rehype/site-age.ts), so
+[`src/scripts/rehype/site-age.ts`](../../src/scripts/rehype/site-age.ts), so
 plain `.md` content can render build-time age text without switching to MDX:
 
 ```html

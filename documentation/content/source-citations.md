@@ -11,7 +11,7 @@ research notes that readers may want to verify.
 Use named Markdown footnotes, not numeric footnotes:
 
 ```markdown
-Die neue Faehrverbindung soll im August starten.[^src-bangkokpost-20260720-samui-ferry]
+The new ferry service is expected to start in August.[^src-bangkokpost-20260720-samui-ferry]
 
 [^src-bangkokpost-20260720-samui-ferry]: Bangkok Post: ["New ferry route for Samui"](https://example.com/new-ferry-route), 20 July 2026 (accessed 22 July 2026).
 ```

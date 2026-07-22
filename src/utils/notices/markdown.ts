@@ -9,7 +9,7 @@ import { unified } from 'unified';
 // `allowDangerousHtml` is intentionally left at its default (falsy):
 // mdast-util-to-hast then drops raw HTML tags from notice title/description
 // text entirely (their surrounding plain text is kept, escaped) instead of
-// passing them through as executable markup -- see documentation/notices.md
+// passing them through as executable markup -- see documentation/components/notices.md
 // ("Safe rendering") for why the registry is not a trusted-HTML surface.
 const processor = unified().use(remarkParse).use(remarkGfm).use(remarkRehype);
 

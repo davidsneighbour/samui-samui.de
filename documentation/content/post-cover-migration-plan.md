@@ -36,7 +36,7 @@ list pages can render images, YouTube videos, and Vimeo videos consistently.
    `Youtube.astro`, or `Vimeo.astro`.
 4. Keep the first homepage post large; render subsequent list covers in the
    compact flex preview and alternate left/right placement.
-5. Document the cover properties in `documentation/post-covers.md`.
+5. Document the cover properties in `documentation/components/post-covers.md`.
 6. Add `src/scripts/post-covers.ts` for archive audit and safe scoped
    migration.
 

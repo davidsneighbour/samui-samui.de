@@ -52,8 +52,23 @@ at [https://samui-samui.de](https://samui-samui.de).
   `documentation/` file in the same change set. If no matching document exists yet,
   create one as part of the feature work so behavior, configuration, and operating
   notes do not drift away from the implementation.
+* Documentation prose under `documentation/` MUST be written in English. Literal
+  German UI labels, slugs, frontmatter values, data examples, or quoted content MAY
+  appear when they document the website's real German-language surface.
+* Keep the documentation tree sorted by topic:
+  * `documentation/components/` contains reusable component and rendering-surface
+    notes, including YouTube, Vimeo, notices, tooltips, post covers, legacy image
+    presentation, and blog-list preview components.
+  * `documentation/features/` contains user-facing website features such as search,
+    archive browsing, maps, and the contact form.
+  * `documentation/content/` contains editorial content contracts, frontmatter
+    models, taxonomy rules, citations, post paths, post dates, and migration notes.
+  * Keep repository process or assistant-operation notes directly in
+    `documentation/` when they do not belong to one of those subcategories.
+* `documentation/index.md` MUST list every documentation file with a short sentence
+  about its purpose whenever files are added, moved, renamed, or removed.
 * Source citations in posts SHOULD use named Markdown footnotes following
-  [`documentation/source-citations.md`](documentation/source-citations.md).
+  [`documentation/content/source-citations.md`](documentation/content/source-citations.md).
   Prefer semantic `[^src-...]` identifiers over numeric `[^1]` identifiers for
   external source citations.
 
@@ -70,20 +85,20 @@ at [https://samui-samui.de](https://samui-samui.de).
   helpers in that folder SHOULD invoke the same `ss-*` name. See
   [`documentation/repo-local-skills.md`](documentation/repo-local-skills.md).
 
-## Taxonomien
+## Taxonomies
 
-Der Blog verwendet vier getrennte Taxonomien:
+The blog uses four separate German-named taxonomies:
 
-* `leute`: konkrete Personen
-* `orte`: konkrete geografische Orte
-* `ereignisse`: konkrete benannte Ereignisse
-* `themen`: allgemeine Themen und redaktionelle Schlagwörter
+* `leute`: concrete people.
+* `orte`: concrete geographic places.
+* `ereignisse`: concrete named events.
+* `themen`: general topics and editorial keywords.
 
-Für jeden Wert in `leute`, `orte` und `ereignisse` muss ein physischer Eintrag in
-der entsprechenden Content Collection existieren. `themen` ist die einzige offene
-Taxonomie. Themen dürfen ohne eigenen Collection-Eintrag verwendet werden.
+Every value in `leute`, `orte`, and `ereignisse` MUST have a physical entry in
+the matching content collection. `themen` is the only open taxonomy. Topics MAY
+be used without their own collection entry.
 
-Verwende in Beiträgen ausschließlich kanonische IDs:
+Use only canonical IDs in posts:
 
 ```yaml
 leute:
@@ -96,14 +111,14 @@ themen:
   - politik
 ```
 
-Personen, Orte und Ereignisse dürfen nicht zusätzlich als Themen eingetragen
-werden. Neue Entitäten dürfen zunächst als minimale `_index.md`-Datei angelegt
-werden. Erfinde keine Beschreibungen, Lebensdaten, Koordinaten oder sonstigen
-Fakten. Erzeuge keine Ereignis-Einträge für jede beiläufige Erwähnung, leite Orte
-nicht ungefragt aus Prosa ab, verwende keine Anzeigenamen als Referenzen und nutze
-öffentlich `Themen`, nie `Tags`. Nach Content-Änderungen mit Taxonomiebezug
-`npm run validate:taxonomies` ausführen. Die vollständigen Regeln stehen in
-[`documentation/taxonomien.md`](documentation/taxonomien.md).
+People, places, and events MUST NOT also be added as topics. New entities MAY
+start as minimal `_index.md` files. Do not invent descriptions, life dates,
+coordinates, or other facts. Do not create event entries for every passing prose
+mention, do not infer places from prose without being asked, do not use display
+names as references, and use public copy `Themen`, never `Tags`. After
+taxonomy-related content changes, run `npm run validate:taxonomies`. The full
+rules live in
+[`documentation/content/taxonomies.md`](documentation/content/taxonomies.md).
 
 ## Change tracking
 

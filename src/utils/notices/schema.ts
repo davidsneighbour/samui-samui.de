@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-// Restrained, muted-only variants -- see documentation/notices.md and
+// Restrained, muted-only variants -- see documentation/components/notices.md and
 // DESIGN.md for the token mapping each one uses.
 export const NOTICE_VARIANTS = [
   'note',

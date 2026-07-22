@@ -16,7 +16,8 @@ equivalent input:
   time by the rehype plugin `src/scripts/rehype/notices.ts`
   (`rehypeDnbNotice`), wired into `astro.config.ts`'s
   `markdown.rehypePlugins` (after `rehypeRaw`, same requirement as
-  `rehypeLegacyImages` -- see documentation/legacy-images.md). This is what
+  `rehypeLegacyImages` -- see [Legacy image presentation](legacy-images.md)).
+  This is what
   most of the 20-year post archive uses, since those posts are `.md`, not
   `.mdx`, and `[...slug].astro` renders their `<Content />` with no MDX
   component registration.

@@ -5,7 +5,7 @@ A lazy-loading YouTube embed ported from
 ([`lite-yt-embed.js`](https://github.com/paulirish/lite-youtube-embed/blob/master/src/lite-yt-embed.js),
 [`lite-yt-embed.css`](https://github.com/paulirish/lite-youtube-embed/blob/master/src/lite-yt-embed.css)),
 adapted to shadow DOM and to the same conventions used by this repo's
-[Vimeo embed](vimeo.md) (`documentation/vimeo.md`) — the two components share
+[Vimeo embed](vimeo.md) — the two components share
 one implementation shape, so if you know one you know the other.
 
 Instead of loading the full YouTube iframe (and YouTube's own heavy
@@ -18,8 +18,8 @@ It ships as two things that share one implementation:
 
 | Variant | Source | Use it from |
 | --- | --- | --- |
-| `<Youtube />` | [`src/components/Youtube.astro`](../src/components/Youtube.astro) | `.astro` files (layouts, pages, any component tree) |
-| `<dnb-youtube>` | [`src/components/YoutubeScript.astro`](../src/components/YoutubeScript.astro) | Raw markdown content (blog posts are plain `.md`, not `.mdx`, so they cannot import an Astro component — but raw HTML tags pass through untouched) |
+| `<Youtube />` | [`src/components/Youtube.astro`](../../src/components/Youtube.astro) | `.astro` files (layouts, pages, any component tree) |
+| `<dnb-youtube>` | [`src/components/YoutubeScript.astro`](../../src/components/YoutubeScript.astro) | Raw markdown content (blog posts are plain `.md`, not `.mdx`, so they cannot import an Astro component — but raw HTML tags pass through untouched) |
 
 `<Youtube />` is a thin wrapper: it renders `<YoutubeScript />` (the custom
 element definition) followed by a `<dnb-youtube>` element with the props
@@ -56,7 +56,7 @@ Only `videoid` is required; every other prop is optional.
 
 This is the tag to use directly inside post content (`src/content/posts/**/index.md`),
 since those files are plain markdown and cannot `import` an Astro component.
-`BlogPost.astro` (see [`src/layouts/BlogPost.astro`](../src/layouts/BlogPost.astro))
+`BlogPost.astro` (see [`src/layouts/BlogPost.astro`](../../src/layouts/BlogPost.astro))
 scans each post's raw markdown source for the string `dnb-youtube` at build
 time and only renders `<YoutubeScript />` — the element definition — for
 posts that actually use it (independently of the same check for
@@ -142,18 +142,18 @@ JavaScript.
 
 ## Source
 
-* [`src/components/Youtube.astro`](../src/components/Youtube.astro) — the
+* [`src/components/Youtube.astro`](../../src/components/Youtube.astro) — the
   Astro wrapper component.
-* [`src/components/YoutubeScript.astro`](../src/components/YoutubeScript.astro) —
+* [`src/components/YoutubeScript.astro`](../../src/components/YoutubeScript.astro) —
   the `dnb-youtube` custom element definition (TypeScript, inside a
   `<script>` block).
-* [`src/layouts/BlogPost.astro`](../src/layouts/BlogPost.astro) and
+* [`src/layouts/BlogPost.astro`](../../src/layouts/BlogPost.astro) and
   `src/pages/[...slug].astro` — where the post-body scan and conditional
   `<YoutubeScript />` rendering happens.
 * Ported from [paulirish/lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed),
   specifically [`lite-yt-embed.js`](https://github.com/paulirish/lite-youtube-embed/blob/master/src/lite-yt-embed.js)
   and [`lite-yt-embed.css`](https://github.com/paulirish/lite-youtube-embed/blob/master/src/lite-yt-embed.css).
 * Demonstrated in
-  [`src/content/posts/2024/the-white-lotus-trailer/index.md`](../src/content/posts/2024/the-white-lotus-trailer/index.md).
-* See also [`documentation/vimeo.md`](vimeo.md) for the sibling component
+  [`src/content/posts/2024/the-white-lotus-trailer/index.md`](../../src/content/posts/2024/the-white-lotus-trailer/index.md).
+* See also [`vimeo.md`](vimeo.md) for the sibling component
   this one mirrors.

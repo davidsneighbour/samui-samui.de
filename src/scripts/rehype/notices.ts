@@ -64,7 +64,7 @@ function collectText(node: ElementContent): string {
  * body contains a blank line) contribute only their text, so inline
  * Markdown emphasis immediately touching the opening/closing tag is
  * reprocessed correctly for the common single-paragraph case documented in
- * documentation/notices.md; multi-paragraph bodies still render, just
+ * documentation/components/notices.md; multi-paragraph bodies still render, just
  * without the original blank-line paragraph break.
  */
 function extractBodyMarkdown(node: Element): string | undefined {

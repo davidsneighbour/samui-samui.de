@@ -118,7 +118,7 @@ const themaGroups = groupPostsByThema(posts, themaEntries).sort(
   (a, b) => b.posts.length - a.posts.length,
 );
 // No editorial "featured topic" signal exists in the content today (see
-// documentation/archiv.md) -- this is frequency-ranked, not hand-curated.
+// documentation/features/archiv.md) -- this is frequency-ranked, not hand-curated.
 // Revisit once/if editorial curation is added.
 const curatedThemen = themaGroups.slice(0, 12);
 ---

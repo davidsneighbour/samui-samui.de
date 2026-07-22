@@ -12,8 +12,8 @@ It ships as two things that share one implementation:
 
 | Variant | Source | Use it from |
 | --- | --- | --- |
-| `<Vimeo />` | [`src/components/Vimeo.astro`](../src/components/Vimeo.astro) | `.astro` files (layouts, pages, any component tree) |
-| `<dnb-vimeo>` | [`src/components/VimeoScript.astro`](../src/components/VimeoScript.astro) | Raw markdown content (blog posts are plain `.md`, not `.mdx`, so they cannot import an Astro component — but raw HTML tags pass through untouched) |
+| `<Vimeo />` | [`src/components/Vimeo.astro`](../../src/components/Vimeo.astro) | `.astro` files (layouts, pages, any component tree) |
+| `<dnb-vimeo>` | [`src/components/VimeoScript.astro`](../../src/components/VimeoScript.astro) | Raw markdown content (blog posts are plain `.md`, not `.mdx`, so they cannot import an Astro component — but raw HTML tags pass through untouched) |
 
 `<Vimeo />` is a thin wrapper: it renders `<VimeoScript />` (the custom
 element definition) followed by a `<dnb-vimeo>` element with the props
@@ -52,7 +52,7 @@ Only `videoid` is required; every other prop is optional.
 
 This is the tag to use directly inside post content (`src/content/posts/**/index.md`),
 since those files are plain markdown and cannot `import` an Astro component.
-`BlogPost.astro` (see [`src/layouts/BlogPost.astro`](../src/layouts/BlogPost.astro))
+`BlogPost.astro` (see [`src/layouts/BlogPost.astro`](../../src/layouts/BlogPost.astro))
 scans each post's raw markdown source for the string `dnb-vimeo` at build time
 and only renders `<VimeoScript />` — the element definition — for posts that
 actually use it, so the ~2000 posts without a video embed don't ship the
@@ -99,7 +99,7 @@ component's JavaScript.
   autoplay once it scrolls into view.
 * **Privacy.** The generated iframe URL always sets `dnt=1` (Vimeo's
   do-not-track player param), matching this repo's privacy posture (see
-  [`src/pages/kleingedrucktes/datenschutzerklaerung.mdx`](../src/pages/kleingedrucktes/datenschutzerklaerung.mdx),
+  [`src/pages/kleingedrucktes/datenschutzerklaerung.mdx`](../../src/pages/kleingedrucktes/datenschutzerklaerung.mdx),
   "Einsatz von Vimeo-Komponenten").
 * **`allow` list includes `fullscreen`.** The upstream lite-vimeo reference
   omits `fullscreen` from the iframe's `allow` attribute while still setting
@@ -109,17 +109,17 @@ component's JavaScript.
 
 ## Source
 
-* [`src/components/Vimeo.astro`](../src/components/Vimeo.astro) — the Astro
+* [`src/components/Vimeo.astro`](../../src/components/Vimeo.astro) — the Astro
   wrapper component.
-* [`src/components/VimeoScript.astro`](../src/components/VimeoScript.astro) —
+* [`src/components/VimeoScript.astro`](../../src/components/VimeoScript.astro) —
   the `dnb-vimeo` custom element definition (TypeScript, inside a `<script>`
   block).
-* [`src/layouts/BlogPost.astro`](../src/layouts/BlogPost.astro) and
+* [`src/layouts/BlogPost.astro`](../../src/layouts/BlogPost.astro) and
   `src/pages/[...slug].astro` — where the post-body scan and conditional
   `<VimeoScript />` rendering happens.
 * Ported from [slightlyoff/lite-vimeo](https://github.com/slightlyoff/lite-vimeo),
   specifically [`lite-vimeo.ts`](https://github.com/slightlyoff/lite-vimeo/blob/master/lite-vimeo.ts).
 * Demonstrated in
-  [`src/content/posts/2021/03/thailand-vermisst-dich/index.md`](../src/content/posts/2021/03/thailand-vermisst-dich/index.md).
-* See also [`documentation/youtube.md`](youtube.md) for the sibling
+  [`src/content/posts/2021/03/thailand-vermisst-dich/index.md`](../../src/content/posts/2021/03/thailand-vermisst-dich/index.md).
+* See also [`youtube.md`](youtube.md) for the sibling
   component this one shares its shape with.

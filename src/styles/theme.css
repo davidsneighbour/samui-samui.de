@@ -241,7 +241,7 @@ h6 {
  * Legacy-image presentation (src/utils/legacy-images/) -- the canvas a small
  * historical scan is displayed on, either backed by a blurred derivative of
  * itself ("legacy" mode) or a plain muted surface ("thumbnail" mode). See
- * documentation/legacy-images.md. `--legacy-blur-radius` is set inline per
+ * documentation/components/legacy-images.md. `--legacy-blur-radius` is set inline per
  * instance from the central config so the radius stays configurable in one
  * place (src/utils/legacy-images/config.ts) without editing this file.
  */

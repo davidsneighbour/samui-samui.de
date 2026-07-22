@@ -3,7 +3,7 @@ import type { NoticeVariant } from './schema';
 // Mirrors the muted, bordered treatment used by tag badges on single-post
 // pages (src/components/ui/badge.astro's `muted` variant / ThemaBadges.astro)
 // and the author-bio `bg-muted` surface in BlogPost.astro, rather than
-// introducing a separate visual system -- see documentation/notices.md and
+// introducing a separate visual system -- see documentation/components/notices.md and
 // DESIGN.md ("Colors" / "Do's and Don'ts": no new tokens, no box-shadow).
 export const NOTICE_CONTAINER_CLASSES =
   'not-prose flex items-start gap-3 rounded-(--radius) border bg-muted px-4 py-3 text-card-foreground';

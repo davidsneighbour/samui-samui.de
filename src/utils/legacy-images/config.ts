@@ -1,6 +1,6 @@
 // Central configuration for the legacy-image presentation system. Tune these
 // values here rather than hard-coding thresholds at each call site -- see
-// documentation/legacy-images.md for what each value controls and why.
+// documentation/components/legacy-images.md for what each value controls and why.
 export interface LegacyImageConfig {
   /** Below this intrinsic width, treat the source as a plain thumbnail rather than a photograph. */
   thumbnailMaximumWidth: number;

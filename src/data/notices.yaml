@@ -1,5 +1,5 @@
 # Central registry for the reusable editorial notice system (see
-# documentation/notices.md). Keys are the slug referenced by
+# documentation/components/notices.md). Keys are the slug referenced by
 # `<Notice slug="...">` (MDX) and `<dnb-notice slug="...">` (plain
 # Markdown). Both `title` and `description` support the repository's
 # standard Markdown syntax and are rendered through the same safe
