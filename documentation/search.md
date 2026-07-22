@@ -4,7 +4,10 @@ Die Website nutzt [Pagefind](https://pagefind.app/) fuer die statische Suche.
 Die UI laeuft ueber die Pagefind Component UI:
 
 * `src/components/Header.astro` rendert die kompakte
-  `<pagefind-searchbox>`-Variante direkt in der Navigation.
+  `<pagefind-searchbox>`-Variante als eigenes Masthead-Control rechts neben der
+  Textlink-Navigation und vor dem Theme-Schalter. Das Feld nutzt `Finden` als
+  Placeholder, die Lucide-Fernglasform als Suchicon und eine helle
+  `accent`-Flaeche aus DESIGN.md.
 * `src/pages/suche.mdx` bleibt die eigene Suchseite und rendert ueber
   `src/components/PagefindSearchPage.astro` ein zusammengesetztes Interface aus
   Input, Jahr-/Thema-Filtern, Zusammenfassung und Ergebnisliste.

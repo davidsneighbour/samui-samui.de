@@ -239,7 +239,7 @@ custom properties onto the existing Samui tokens:
 | Pagefind role | Samui token source |
 | --- | --- |
 | Text | `card-foreground` and `muted-foreground` |
-| Surface | `card` |
+| Surface | `card`; header search scopes the compact input to `accent` |
 | Borders and focus | `border` and `ring` |
 | Hover and skeleton fills | `accent`, `muted`, and `card` |
 | Highlight mark | `primary` |
@@ -247,9 +247,12 @@ custom properties onto the existing Samui tokens:
 | Radius | `--radius - 4px`, matching compact controls |
 
 The header search uses the compact `<pagefind-searchbox>` dropdown variant so
-it behaves like an inline navigation control. The `/suche/` page uses the
-composable primitives (`input`, filter dropdowns, summary, results) for a fuller
-search surface without introducing new visual tokens.
+it behaves like an inline masthead control beside the text-link navigation. Its
+input background is scoped to the existing `accent` token for a lighter,
+yellowed parchment surface, and its search icon is Pagefind's
+`--pf-icon-search` variable set to the Lucide binoculars shape. The `/suche/`
+page uses the composable primitives (`input`, filter dropdowns, summary,
+results) for a fuller search surface without introducing new visual tokens.
 
 ## Typography
 
