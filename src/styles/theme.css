@@ -64,6 +64,41 @@
   --ring: #b8402f;
 
   --masthead-tagline: #6b2438;
+
+  --pf-text: var(--color-card-foreground);
+  --pf-text-secondary: var(--color-muted-foreground);
+  --pf-text-muted: var(--color-muted-foreground);
+  --pf-background: var(--color-card);
+  --pf-border: var(--color-border);
+  --pf-border-focus: var(--color-ring);
+  --pf-skeleton: var(--color-muted);
+  --pf-skeleton-shine: var(--color-card);
+  --pf-hover: var(--color-accent);
+  --pf-mark: var(--color-primary);
+  --pf-scroll-shadow: rgb(43 41 41 / 0.12);
+  --pf-shadow-sm: 0 2px 8px rgb(43 41 41 / 0.08);
+  --pf-shadow-md: 0 8px 18px rgb(43 41 41 / 0.12);
+  --pf-shadow-lg: 0 18px 56px rgb(43 41 41 / 0.22);
+  --pf-error-bg: #f9e1dd;
+  --pf-error-border: #d28378;
+  --pf-error-text: #8f2f24;
+  --pf-error-text-secondary: #6b2438;
+  --pf-outline-focus: var(--color-ring);
+  --pf-outline-width: 2px;
+  --pf-outline-offset: 2px;
+  --pf-font: var(--font-sans);
+  --pf-input-height: 40px;
+  --pf-input-font-size: 16px;
+  --pf-summary-font-size: 14px;
+  --pf-result-title-font-size: 16px;
+  --pf-result-excerpt-font-size: 14px;
+  --pf-results-gap: 8px;
+  --pf-border-radius: calc(var(--radius) - 4px);
+  --pf-modal-backdrop: rgb(43 41 41 / 0.56);
+  --pf-searchbox-max-width: 100%;
+  --pf-searchbox-dropdown-max-height: min(60dvh, 420px);
+  --pf-dropdown-max-height: min(60dvh, 360px);
+  --pf-dropdown-z-index: 50;
 }
 
 .dark {
@@ -93,6 +128,15 @@
   --ring: #b8402f;
 
   --masthead-tagline: #e2e2b6;
+
+  --pf-scroll-shadow: rgb(41 14 28 / 0.18);
+  --pf-shadow-sm: 0 2px 8px rgb(41 14 28 / 0.12);
+  --pf-shadow-md: 0 8px 18px rgb(41 14 28 / 0.16);
+  --pf-shadow-lg: 0 18px 56px rgb(41 14 28 / 0.28);
+  --pf-error-bg: #f9d8d2;
+  --pf-error-border: #ec7263;
+  --pf-error-text: #8f2f24;
+  --pf-error-text-secondary: #6b2438;
 }
 
 @font-face {
@@ -155,6 +199,28 @@ body {
   background-color: var(--color-background);
   color: var(--color-foreground);
   font-family: var(--font-sans);
+}
+
+.header-search,
+.pagefind-archive-search,
+.pagefind-search-page {
+  color: var(--color-card-foreground);
+  font-family: var(--font-sans);
+}
+
+.header-search {
+  text-transform: none;
+}
+
+.pagefind-search-page {
+  display: grid;
+  gap: 1rem;
+}
+
+.pagefind-search-page__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 /* Headings render at regular weight per the old site's identity; the brand

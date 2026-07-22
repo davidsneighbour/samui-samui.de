@@ -4,12 +4,9 @@ description: Suchen im Archiv.
 lastmod: 2023-09-10T17:01:43+07:00
 ---
 
-import PagefindSearchScript from '@components/PagefindSearchScript.astro';
+import PagefindSearchPage from '@components/PagefindSearchPage.astro';
 import PageLayout from '@layouts/PageLayout.astro';
 
 <PageLayout title={frontmatter.title} description={frontmatter.description ?? frontmatter.title}>
-  <link slot="head" href="/pagefind/pagefind-ui.css" rel="stylesheet" />
-  <div id="search"></div>
-  <script slot="scripts" is:inline src="/pagefind/pagefind-ui.js"></script>
-  <PagefindSearchScript slot="scripts" />
+  <PagefindSearchPage />
 </PageLayout>

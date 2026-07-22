@@ -212,7 +212,9 @@ Netlify's connected build or the Netlify CLI once the setup above is complete.
 | `npm run astro:check` | Type/content diagnostics only; no build output. |
 | `npm run dev` | Starts Astro dev with `--verbose`, so it is chattier than plain `astro dev`. |
 | `npm run dev:verbose` | Adds `DEBUG_FRONTMATTER=true` to the already verbose dev server. |
-| `npm run build` | Runs `astro check` first, then `astro build --verbose`; the build integration also creates the Pagefind index. |
+| `npm run build` | Runs `astro check` first, then `astro build --verbose`; the build integration reuses the cached Pagefind index unless `src/content/**` changed. |
+| `npm run build:nocache` | Forces a fresh Pagefind index rebuild during the normal build. |
+| `npm run clean:pagefind` | Removes the local Pagefind cache and current `dist/pagefind` bundle. |
 | `npm run preview` | Serves the built `dist` output locally. |
 | `npm run upgrade` | Interactive Astro upgrade helper; respect the Astro version constraints in `AGENTS.md`. |
 

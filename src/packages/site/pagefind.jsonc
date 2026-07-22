@@ -1,7 +1,11 @@
 {
   "dependencies": {
-    "@pagefind/default-ui": "1.5.2",
+    "@pagefind/component-ui": "1.5.2",
     "pagefind": "1.5.2",
     "sirv": "3.0.2"
+  },
+  "scripts": {
+    "build:nocache": "PAGEFIND_FORCE_REBUILD=1 npm run build",
+    "clean:pagefind": "rm -rf node_modules/.astro/pagefind dist/pagefind"
   }
 }

@@ -127,12 +127,6 @@ const curatedThemen = themaGroups.slice(0, 12);
   title="Archiv"
   description={`${siteAge} Leben auf Koh Samui -- durchsuche das komplette Archiv nach Jahr, Monat oder Thema.`}
 >
-  <link
-    slot="head"
-    href="/pagefind/pagefind-ui.css"
-    rel="stylesheet"
-  >
-
   <Breadcrumbs
     slot="breadcrumbs"
     items={[
@@ -190,7 +184,19 @@ const curatedThemen = themaGroups.slice(0, 12);
       Suche nach Orten, Personen, Restaurants, Ereignissen oder Begriffen aus
       dem Inselleben.
     </p>
-    <div id="archiv-search"></div>
+    <div class="pagefind-archive-search">
+      <pagefind-config
+        instance="archive"
+        bundle-path="/pagefind/"
+        base-url="/"
+      ></pagefind-config>
+      <pagefind-searchbox
+        instance="archive"
+        placeholder="Archiv durchsuchen"
+        max-results="8"
+        hide-shortcut
+      ></pagefind-searchbox>
+    </div>
   </section>
 
   <section class="mb-10">
@@ -293,19 +299,4 @@ const curatedThemen = themaGroups.slice(0, 12);
       Alle Themen ansehen →
     </a>
   </section>
-
-  <script
-    slot="scripts"
-    is:inline
-    src="/pagefind/pagefind-ui.js"
-  ></script>
-  <script
-    slot="scripts"
-    is:inline
-  >
-    window.addEventListener('DOMContentLoaded', () => {
-      // biome-ignore lint/correctness/noUndeclaredVariables: loaded globally by the pagefind-ui.js script above
-      new PagefindUI({ element: '#archiv-search' });
-    });
-  </script>
 </PageLayout>

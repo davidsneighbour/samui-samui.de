@@ -230,6 +230,27 @@ single month) rather than the round numbers in early planning drafts —
 most 2005–2007 months land in "many", most 2012+ months land in "few"
 or "some", which is the actual shape of this blog's history.
 
+### Pagefind component UI
+
+The search UI uses Pagefind's Component UI web components, but its theme is not
+an independent design system. `src/styles/theme.css` maps Pagefind's `--pf-*`
+custom properties onto the existing Samui tokens:
+
+| Pagefind role | Samui token source |
+| --- | --- |
+| Text | `card-foreground` and `muted-foreground` |
+| Surface | `card` |
+| Borders and focus | `border` and `ring` |
+| Hover and skeleton fills | `accent`, `muted`, and `card` |
+| Highlight mark | `primary` |
+| Typography | `--font-sans` / Panton |
+| Radius | `--radius - 4px`, matching compact controls |
+
+The header search uses the compact `<pagefind-searchbox>` dropdown variant so
+it behaves like an inline navigation control. The `/suche/` page uses the
+composable primitives (`input`, filter dropdowns, summary, results) for a fuller
+search surface without introducing new visual tokens.
+
 ## Typography
 
 Font family is **Panton** everywhere (`--font-sans`), self-hosted as

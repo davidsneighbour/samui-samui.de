@@ -1,0 +1,14 @@
+---
+---
+
+<script>
+  import { getInstanceManager } from '@pagefind/component-ui';
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const query = new URLSearchParams(window.location.search).get('q');
+    if (!query) return;
+
+    const instance = getInstanceManager().getInstance('search-page');
+    instance.triggerSearch(query);
+  });
+</script>

@@ -1,0 +1,38 @@
+---
+import PagefindSearchPageQuery from '@components/PagefindSearchPageQuery.astro';
+---
+
+<section class="pagefind-search-page">
+  <pagefind-config
+    instance="search-page"
+    bundle-path="/pagefind/"
+    base-url="/"
+    preload
+  ></pagefind-config>
+  <pagefind-input
+    instance="search-page"
+    placeholder="Archiv durchsuchen"
+    autofocus
+  ></pagefind-input>
+  <div class="pagefind-search-page__filters">
+    <pagefind-filter-dropdown
+      instance="search-page"
+      filter="Year"
+      label="Jahr"
+      sort="count-desc"
+      single-select
+    ></pagefind-filter-dropdown>
+    <pagefind-filter-dropdown
+      instance="search-page"
+      filter="Thema"
+      label="Thema"
+      sort="alphabetical"
+    ></pagefind-filter-dropdown>
+  </div>
+  <pagefind-summary
+    instance="search-page"
+    default-message="Suchbegriff eingeben."
+  ></pagefind-summary>
+  <pagefind-results instance="search-page"></pagefind-results>
+</section>
+<PagefindSearchPageQuery />
