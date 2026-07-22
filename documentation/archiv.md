@@ -33,6 +33,13 @@ Already implemented and reused as-is where noted:
   — the paginated listing, kept unchanged as the "read recent posts" surface.
   Cross-linked from the archive in
   [#914](https://github.com/davidsneighbour/samui-samui.de/issues/914).
+  The numbered pagination includes a compact page-jump input beside the
+  ellipsis gap, added in
+  [#1236](https://github.com/davidsneighbour/samui-samui.de/issues/1236):
+  readers can enter a page number from `1` through the generated `totalPages`
+  value and press Enter to navigate to `/` for page 1 or `/seite/[page]/` for
+  later pages. Invalid empty values do nothing; out-of-range numeric values are
+  clamped to the nearest generated page.
 * No breadcrumb component and no structured data (JSON-LD) existed anywhere
   on the site prior to this milestone — both added in
   [#911](https://github.com/davidsneighbour/samui-samui.de/issues/911).

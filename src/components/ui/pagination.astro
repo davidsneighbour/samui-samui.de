@@ -1,5 +1,10 @@
 ---
-import { ArrowLeftToLine, ArrowRightToLine, Ellipsis } from '@lucide/astro';
+import {
+  ArrowLeftToLine,
+  ArrowRightToLine,
+  Ellipsis,
+  Hash,
+} from '@lucide/astro';
 import { cn } from '@utils/cn';
 
 interface Props {
@@ -13,6 +18,8 @@ interface Props {
 type PageItem =
   | { type: 'page'; page: number }
   | { type: 'ellipsis'; key: string };
+
+type DisplayItem = PageItem | { type: 'jump'; key: string };
 
 const normalizeBasePath = (path = '') => {
   const trimmed = path.replace(/\/+$/, '');
@@ -86,6 +93,18 @@ const pageHref = (page: number) =>
     page === 1 ? basePath || '/' : `${basePath}/seite/${page}/`,
   );
 const pageItems = getPageItems(pageNumber, totalPages);
+const pageItemsWithJump = pageItems.reduce<DisplayItem[]>((items, item) => {
+  items.push(item);
+
+  if (
+    item.type === 'ellipsis' &&
+    !items.some((displayItem) => displayItem.type === 'jump')
+  ) {
+    items.push({ key: 'page-jump', type: 'jump' });
+  }
+
+  return items;
+}, []);
 
 const controlClass =
   'inline-flex h-9 min-w-9 items-center justify-center gap-2 whitespace-nowrap rounded-[calc(var(--radius)-4px)] px-3 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2';
@@ -129,7 +148,7 @@ const disabledClass = 'pointer-events-none opacity-45';
         )}
     </li>
 
-    {pageItems.map((item) => (
+    {pageItemsWithJump.map((item) => (
         <li>
           {item.type === 'ellipsis' ? (
               <span
@@ -138,7 +157,7 @@ const disabledClass = 'pointer-events-none opacity-45';
               >
                 <Ellipsis class="size-4" />
               </span>
-            ) : (
+            ) : item.type === 'page' ? (
               <a
                 href={pageHref(item.page)}
                 class={cn(
@@ -150,7 +169,37 @@ const disabledClass = 'pointer-events-none opacity-45';
               >
                 {item.page}
               </a>
-            )}
+            ) : item.type === 'jump' ? (
+              <form
+                class="relative inline-flex h-9 w-24 items-center"
+                data-pagination-jump
+                data-base-path={basePath || '/'}
+                data-total-pages={totalPages}
+                aria-label="Direkt zu einer Seite springen"
+              >
+                <label class="sr-only" for={`pagination-page-jump-${pageNumber}`}>
+                  Seitennummer
+                </label>
+                <input
+                  id={`pagination-page-jump-${pageNumber}`}
+                  class="peer h-9 w-full rounded-[calc(var(--radius)-4px)] border border-border bg-card py-1.5 pl-3 pr-9 text-center text-sm font-medium tabular-nums text-card-foreground transition-[border-color,box-shadow] placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                  data-slot="input-group-control"
+                  inputmode="numeric"
+                  maxlength={String(totalPages).length}
+                  name="page"
+                  pattern="[0-9]*"
+                  placeholder={String(pageNumber)}
+                  title={`Seite 1 bis ${totalPages}`}
+                  type="text"
+                />
+                <span
+                  class="pointer-events-none absolute inset-y-0 right-3 inline-flex items-center text-muted-foreground transition-colors peer-focus-visible:text-card-foreground"
+                  aria-hidden="true"
+                >
+                  <Hash class="size-4" />
+                </span>
+              </form>
+            ) : null}
         </li>
       ))}
 
@@ -182,3 +231,38 @@ const disabledClass = 'pointer-events-none opacity-45';
     </li>
   </ul>
 </nav>
+
+<script is:inline>
+  (() => {
+    const pagination = document.currentScript?.previousElementSibling;
+    if (pagination instanceof HTMLElement) {
+      pagination.querySelectorAll('[data-pagination-jump]').forEach((form) => {
+        if (!(form instanceof HTMLFormElement)) return;
+
+        const input = form.querySelector('input[name="page"]');
+        if (!(input instanceof HTMLInputElement)) return;
+
+        const totalPages = Number.parseInt(form.dataset.totalPages ?? '', 10);
+        const basePath = form.dataset.basePath ?? '/';
+        if (!Number.isFinite(totalPages)) return;
+
+        form.addEventListener('submit', (event) => {
+          event.preventDefault();
+
+          if (!/^\d+$/.test(input.value)) return;
+
+          const requestedPage = Number.parseInt(input.value, 10);
+          const page = Math.min(Math.max(requestedPage, 1), totalPages);
+          const normalizedBasePath =
+            basePath === '/' ? '' : basePath.replace(/\/+$/, '');
+          const href =
+            page === 1
+              ? normalizedBasePath || '/'
+              : `${normalizedBasePath}/seite/${page}/`;
+
+          window.location.assign(href);
+        });
+      });
+    }
+  })();
+</script>
