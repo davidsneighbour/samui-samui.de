@@ -57,6 +57,11 @@ at [https://samui-samui.de](https://samui-samui.de).
 * Documentation prose under `documentation/` MUST be written in English. Literal
   German UI labels, slugs, frontmatter values, data examples, or quoted content MAY
   appear when they document the website's real German-language surface.
+* [`documentation/content/frontmatter-variables.md`](documentation/content/frontmatter-variables.md)
+  MUST stay the index of every supported content frontmatter property. Any change
+  that adds, removes, renames, or changes the meaning/default/type of a
+  frontmatter property MUST update that index in the same change set and link to
+  the focused documentation that owns the detailed contract.
 * Keep the documentation tree sorted by topic:
   * `documentation/components/` contains reusable component and rendering-surface
     notes, including YouTube, Vimeo, notices, tooltips, post covers, legacy image

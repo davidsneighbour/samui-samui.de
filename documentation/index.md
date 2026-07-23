@@ -22,6 +22,9 @@
   schema import and loose-schema conventions.
 * [Curation frontmatter](content/curation-frontmatter.md) defines the public
   editorial `curation` frontmatter contract.
+* [Frontmatter variables](content/frontmatter-variables.md) indexes all
+  supported content frontmatter properties and links to their focused
+  documentation.
 * [Markdown typography](content/markdown-typography.md) explains the remark
   typography transform used for post prose.
 * [People taxonomy migration](content/people-taxonomy-migration.md) records the
