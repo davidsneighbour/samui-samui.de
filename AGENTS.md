@@ -15,10 +15,12 @@ at [https://samui-samui.de](https://samui-samui.de).
   unclear from reading code alone, agents SHOULD compare local output against the
   live site rather than guessing.
 * Styling uses Tailwind CSS v4 (`@tailwindcss/vite`) — no Bootstrap/SCSS.
-* Astro is pinned to **6.4.8**, not 7.x — some integrations (e.g. `@astrojs/mdx`)
-  haven't caught up to Astro 7's peer dependency requirements yet. Do not bump to
-  an Astro 7.x line without checking that integration compatibility has actually
-  caught up.
+* Astro is pinned to the **7.1.x** line. Do not bump to a newer Astro major
+  without checking that integrations such as `@astrojs/mdx`, `@astrojs/react`,
+  `@astrojs/check`, and `@astrojs/markdown-remark` support it.
+* TypeScript is pinned to the latest 6.x line supported by `@astrojs/check`.
+  TypeScript 7 is not currently supported by `@astrojs/check@0.9.9`, whose peer
+  dependency is `typescript@^5.0.0 || ^6.0.0`.
 * `astro.config.ts` (TypeScript), not `.mjs` — per explicit user preference.
 
 ## Design system

@@ -65,7 +65,7 @@
     "remark-rehype": "11.1.2",
     "sharp": "0.35.3",
     "simple-git-hooks": "2.13.1",
-    "typescript": "5.9.3",
+    "typescript": "6.0.3",
     "unified": "11.0.5",
     "unist-util-visit": "5.1.0",
     "vfile": "6.0.3",
@@ -159,6 +159,9 @@
         "clean:astro"
       ]
     }
+  },
+  "engines": {
+    "node": "26.3.0"
   },
   "cspell": {
     "import": [
