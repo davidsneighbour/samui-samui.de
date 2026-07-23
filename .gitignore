@@ -121,6 +121,8 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
+!src/vendor/cuelume/dist/
+!src/vendor/cuelume/dist/**
 
 # Gatsby files
 .cache/

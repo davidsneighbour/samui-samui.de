@@ -112,7 +112,7 @@ function getAudioContext() {
     if (typeof window === "undefined")
         return null;
     const Ctor = window.AudioContext ??
-        window.webkitAudioContext;
+        window["webkitAudioContext"];
     if (!Ctor)
         return null;
     try {

@@ -2,7 +2,7 @@
 
 The site uses [Cuelume](https://github.com/davidsneighbour/cuelume) for optional
 browser-side interaction sounds. The dependency points at the vendored local
-package in `vendor/cuelume`, built from the reviewed
+package in `src/vendor/cuelume`, built from the reviewed
 `davidsneighbour/cuelume` fork commit `ce81ececf18b4ee6cd195404546dfbab31b279fe`.
 It is not installed from the npm registry package, because the upstream project
 should not be treated as a stable external commitment yet.

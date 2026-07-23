@@ -34,6 +34,8 @@
       // Root package metadata ordering is owned by fixpack.
       "!package.json",
       "!**/.vscode/**/*",
+      // Vendored third-party package output is source-owned but not authored here.
+      "!!src/vendor/**",
       // Legacy static assets served as-is; not source code.
       "!public/**"
     ]

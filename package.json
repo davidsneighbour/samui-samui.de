@@ -17,7 +17,7 @@
     "@tailwindcss/vite": "4.3.2",
     "class-variance-authority": "0.7.1",
     "clsx": "2.1.1",
-    "cuelume": "file:vendor/cuelume",
+    "cuelume": "file:src/vendor/cuelume",
     "lucide-react": "1.25.0",
     "maplibre-gl": "5.24.0",
     "pagefind": "1.5.2",
