@@ -55,6 +55,13 @@ const curationFrontmatter = z
   .strict()
   .optional();
 
+const postOptionsFrontmatter = z
+  .object({
+    featured: z.boolean().default(true),
+  })
+  .strict()
+  .default({ featured: true });
+
 const legacyImageOverride = z.enum(['auto', 'always', 'never']);
 
 const bundledCoverImageFrontmatter = z.object({
@@ -109,6 +116,7 @@ const posts = defineCollection({
       // src/utils/legacy-images/); defaults to automatic classification.
       legacyImages: legacyImageOverride.default('auto'),
       leute: z.array(reference('leute')).default([]),
+      options: postOptionsFrontmatter,
       orte: z.array(reference('orte')).default([]),
       publisher: publisherFrontmatter,
       resources: z

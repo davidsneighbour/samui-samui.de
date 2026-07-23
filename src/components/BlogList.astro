@@ -2,10 +2,13 @@
 import type { CollectionEntry } from 'astro:content';
 import BlogPostMeta from '@components/BlogPostMeta.astro';
 import BlogPostTitle from '@components/BlogPostTitle.astro';
+import Giscus from '@components/Giscus.astro';
 import PostCover from '@components/PostCover.astro';
 import Button from '@components/ui/button.astro';
 import Pagination from '@components/ui/pagination.astro';
 import Separator from '@components/ui/separator.astro';
+import VimeoScript from '@components/VimeoScript.astro';
+import YoutubeScript from '@components/YoutubeScript.astro';
 import { getPostCover } from '@utils/covers';
 import { getPostPreviewHtml } from '@utils/post-preview';
 import { getPostUrl as getCanonicalPostUrl } from '@utils/posts';
@@ -49,19 +52,28 @@ const nextPage =
 const getPostUrl = (post: CollectionEntry<'posts'>) =>
   ensureLeadingSlash(`${basePath}${getCanonicalPostUrl(post)}`);
 
+const getPostDiscussionTerm = (post: CollectionEntry<'posts'>) =>
+  getCanonicalPostUrl(post);
+
+const shouldFeaturePost = (index: number) =>
+  featuredFirst && pageNumber === 1 && index === 0;
+
 const listedPosts = await Promise.all(
-  posts.map(async (post) => {
+  posts.map(async (post, index) => {
+    const featured = shouldFeaturePost(index);
+
     return {
       cover: await getPostCover(post),
-      featuredPreview: getPostPreviewHtml(post, 5).join('\n'),
+      fullPostHtml: featured
+        ? (post.rendered?.html ?? getPostPreviewHtml(post, 5).join('\n'))
+        : undefined,
+      hasVimeo: featured && (post.body?.includes('dnb-vimeo') ?? false),
+      hasYoutube: featured && (post.body?.includes('dnb-youtube') ?? false),
       post,
       summary: getPostPreviewHtml(post, 1).join('\n'),
     };
   }),
 );
-
-const shouldFeaturePost = (index: number) =>
-  featuredFirst && pageNumber === 1 && index === 0;
 
 const coverOutlineClass =
   'outline outline-1 -outline-offset-1 outline-black/10 dark:outline-white/10';
@@ -80,45 +92,47 @@ const showTopPagination = showPagination && pageNumber > 1;
     />
   )}
 <ul class="mx-auto flex max-w-4xl flex-col gap-8 px-4">
-  {listedPosts.map(({ cover, featuredPreview, post, summary }, index) => (
+  {listedPosts.map(({ cover, fullPostHtml, hasVimeo, hasYoutube, post, summary }, index) => (
       <li>
         {shouldFeaturePost(index) ? (
-            <article class="rounded-(--radius) bg-card px-4 py-8 text-card-foreground sm:px-8">
+            <article class="overflow-hidden rounded-(--radius) bg-card text-card-foreground">
               {cover && (
                 <PostCover
                   cover={cover}
                   eager
-                  figureClass="mb-6"
-                  imageClass={`block h-auto w-full rounded-[calc(var(--radius)-4px)] ${coverOutlineClass}`}
-                  videoClass={`block aspect-video w-full overflow-hidden rounded-[calc(var(--radius)-4px)] ${coverOutlineClass}`}
+                  figureClass="m-0 w-full"
+                  imageClass={`block h-auto w-full ${coverOutlineClass}`}
+                  videoClass={`block aspect-video w-full overflow-hidden ${coverOutlineClass}`}
                   presentationWidth={896}
                 />
               )}
-              <header class="mb-8 text-center">
-                <BlogPostTitle
-                  title={post.data.title}
-                  href={getPostUrl(post)}
-                />
-                <BlogPostMeta
-                  date={post.data.date}
-                  themen={post.data.themen}
-                  class="mb-4 mt-3"
-                />
-                <Separator />
-              </header>
-              <div
-                class:list={[proseClasses, 'text-pretty']}
-                set:html={featuredPreview}
-              >
-              </div>
-              <p class="m-0 mt-6 flex justify-end">
-                <Button
-                  href={getPostUrl(post)}
-                  variant="default"
+              <div class="px-4 py-8 sm:px-8">
+                <header class="mb-8 text-center">
+                  <BlogPostTitle
+                    title={post.data.title}
+                    href={getPostUrl(post)}
+                  />
+                  <BlogPostMeta
+                    date={post.data.date}
+                    themen={post.data.themen}
+                    class="mb-4 mt-3"
+                  />
+                  <Separator />
+                </header>
+                {hasVimeo && <VimeoScript />}
+                {hasYoutube && <YoutubeScript />}
+                <div
+                  class:list={[proseClasses, 'text-pretty']}
+                  set:html={fullPostHtml}
                 >
-                  Weiterlesen
-                </Button>
-              </p>
+                </div>
+              </div>
+              <div class="border-t border-card-foreground/10 px-4 py-8 sm:px-8">
+                <Giscus
+                  mapping="specific"
+                  term={getPostDiscussionTerm(post)}
+                />
+              </div>
             </article>
           ) : (
             <article class="rounded-(--radius) bg-card px-4 py-6 text-card-foreground sm:px-6">

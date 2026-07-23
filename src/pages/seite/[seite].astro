@@ -5,11 +5,13 @@ import BlogList from '@components/BlogList.astro';
 import Footer from '@components/Footer.astro';
 import Header from '@components/Header.astro';
 import setup from '@data/setup.json';
+import { orderPostsForHomepage } from '@utils/homepage-posts';
 
 export async function getStaticPaths() {
-  const posts = (await getCollection('posts')).sort(
+  const chronologicalPosts = (await getCollection('posts')).sort(
     (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
   );
+  const posts = orderPostsForHomepage(chronologicalPosts);
   const totalPages = Math.max(1, Math.ceil(posts.length / setup.postsPerPage));
 
   return Array.from({ length: Math.max(0, totalPages - 1) }, (_, index) => {

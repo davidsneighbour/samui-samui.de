@@ -21,7 +21,7 @@ surfaces. Treat them as the suggested implementation order for the visual polish
 track, while preserving the current identity: Panton, the maroon/parchment/coral
 palette, the clipped masthead, and the archive-first reading model.
 
-* [ ] Overhaul the first homepage article into a stronger editorial feature.
+* [x] Overhaul the first homepage article into a stronger editorial feature.
   * Issue: The first post is larger than the rest, but it still reads mostly as
     the first item in a chronological list rather than a deliberate front-page
     composition.

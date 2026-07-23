@@ -12,6 +12,21 @@ const category = 'Kommentare';
 const categoryId = 'DIC_kwDOCbbIDs4DBbj1';
 const themeLight = '/assets/styles/giscus-samui-light.css';
 const themeDark = '/assets/styles/giscus-samui-dark.css';
+
+type GiscusMapping =
+  | 'pathname'
+  | 'url'
+  | 'title'
+  | 'og:title'
+  | 'specific'
+  | 'number';
+
+interface Props {
+  mapping?: GiscusMapping;
+  term?: string;
+}
+
+const { mapping = 'pathname', term } = Astro.props as Props;
 ---
 
 <dnb-giscus
@@ -19,7 +34,8 @@ const themeDark = '/assets/styles/giscus-samui-dark.css';
   data-repo-id={repoId}
   data-category={category}
   data-category-id={categoryId}
-  data-mapping="pathname"
+  data-mapping={mapping}
+  data-term={term}
   data-strict="0"
   data-lang="de"
   data-reactions-enabled="1"
@@ -121,6 +137,10 @@ const themeDark = '/assets/styles/giscus-samui-dark.css';
           'data-theme': themeUrl,
           src: 'https://giscus.app/client.js',
         };
+
+        if (ds.term) {
+          attrs['data-term'] = ds.term;
+        }
 
         const requiredKeys = [
           'data-repo',
