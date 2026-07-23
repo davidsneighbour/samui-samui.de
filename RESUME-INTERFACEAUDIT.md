@@ -14,6 +14,109 @@ engineering, mobile comfort, and token hygiene rather than a redesign.
 
 ## Tasks
 
+### Homepage and editorial optimisation sequence
+
+These items came from a `gpt-taste` review of the local homepage and article
+surfaces. Treat them as the suggested implementation order for the visual polish
+track, while preserving the current identity: Panton, the maroon/parchment/coral
+palette, the clipped masthead, and the archive-first reading model.
+
+* [ ] Overhaul the first homepage article into a stronger editorial feature.
+  * Issue: The first post is larger than the rest, but it still reads mostly as
+    the first item in a chronological list rather than a deliberate front-page
+    composition.
+  * Reasoning: This is the highest-leverage visual change because it improves
+    the homepage's first content impression without redesigning the whole site.
+  * Suggestion: Start here. Give the lead article a more intentional editorial
+    rhythm: stronger image/title relationship, tighter excerpt length, clearer
+    reading action, and spacing that distinguishes it from the standard list
+    items while staying inside the existing card and token system.
+  * Likely files: `src/components/BlogList.astro`,
+    `src/components/BlogPostTitle.astro`,
+    `documentation/components/blog-list-previews.md`, `DESIGN.md` if the
+    component contract changes.
+
+* [ ] Rebalance mobile type hierarchy on the homepage.
+  * Issue: The masthead tagline becomes nearly ornamental on narrow screens,
+    while the featured article title becomes a tall block before the reader gets
+    much context.
+  * Reasoning: The mobile first viewport is visually coherent, but the
+    proportions make the brand description too quiet and the first title too
+    loud.
+  * Suggestion: Use stable responsive sizing such as `clamp()` for the masthead
+    tagline, and tune compact/featured title sizes so long titles remain strong
+    without dominating the entire phone viewport.
+  * Likely files: `src/components/Header.astro`,
+    `src/components/BlogPostTitle.astro`, `DESIGN.md` if type tokens change.
+
+* [ ] Make the header navigation and search row feel more intentional.
+  * Issue: The current nav/search row is functional and token-aligned, but it
+    reads as a tidy row of controls rather than a clearly designed masthead
+    system.
+  * Reasoning: The masthead is doing most of the brand work; the control row
+    should support it with clearer grouping and rhythm.
+  * Suggestion: Preserve the established search contract: keep `/suche/`, keep
+    `Finden`, keep the binoculars icon, and keep the lighter parchment search
+    field before the theme toggle. Explore a restrained split-nav or compact-bar
+    treatment using existing tokens.
+  * Likely files: `src/components/Header.astro`,
+    `src/components/HeaderLink.astro`, `documentation/features/search.md`,
+    `DESIGN.md` if navigation component variants change.
+
+* [ ] Reduce construction banner dominance in the first viewport.
+  * Issue: On mobile, the construction banner, masthead, nav, and header search
+    consume most of the first viewport before the main content appears. In
+    screenshots, the black/yellow banner is the first thing the eye sees.
+  * Reasoning: The banner's personality is useful, but it currently competes
+    with the masthead and delays the first article.
+  * Suggestion: Keep the banner's voice, but reduce its mobile height, simplify
+    the close affordance, persist dismissal reliably, or use a calmer compact
+    presentation while the site is in active review.
+  * Likely files: `src/components/ConstructionBanner.astro`,
+    `src/components/Header.astro`, `DESIGN.md` if masthead or banner tokens
+    change.
+
+* [ ] Add interaction polish to post cards.
+  * Issue: Post cards are readable but static; standard list entries especially
+    have little tactile response beyond text links.
+  * Reasoning: Small interaction details can make the archive feel more alive
+    without changing the reading model.
+  * Suggestion: Add grouped hover/focus behaviour: subtle cover-image scale,
+    stable title underline or color shift, and a light card-surface or border
+    transition. Gate decorative hover effects to hover-capable devices.
+  * Likely files: `src/components/BlogList.astro`,
+    `src/components/PostCover.astro`, `src/components/ui/button.astro`,
+    `documentation/components/blog-list-previews.md`.
+
+* [ ] Add subtle motion primitives, not heavy scroll spectacle.
+  * Issue: The site has room for more visual life, but heavy pinned scrolling or
+    stacked-card effects would fight the blog's archive and reading surfaces.
+  * Reasoning: The best motion direction is editorial restraint: motion should
+    clarify state or reveal media, not turn normal reading into a presentation.
+  * Suggestion: Prefer image reveal/scale, pressed states, and gentle masthead or
+    search entrance motion. Pair this with reduced-motion handling before adding
+    any new animation. Save GSAP-style pinned or scrubbed experiments for a
+    future special archive or story page, not the default article list.
+  * Likely files: `src/components/BlogList.astro`,
+    `src/components/PostCover.astro`, `src/components/Header.astro`,
+    `src/components/ConstructionBanner.astro`,
+    `documentation/components/blog-list-previews.md`.
+
+* [ ] Tune article pages as the quiet reading mode.
+  * Issue: Article pages already have a strong foundation, but spacing, title
+    scale, and metadata rhythm can be tightened after the homepage work.
+  * Reasoning: Post detail pages should feel calmer than the homepage: image,
+    title, metadata, taxonomy, and body copy should support long reading.
+  * Suggestion: Make only light adjustments after the homepage sequence: verify
+    the hero image/title relationship, mobile title wrap, taxonomy spacing, and
+    text rhythm. Avoid bringing homepage-style motion or dense editorial layout
+    into default article pages.
+  * Likely files: `src/layouts/BlogPost.astro`,
+    `src/components/BlogPostTitle.astro`,
+    `documentation/components/post-covers.md`.
+
+### Interface hygiene tasks
+
 * [ ] Fix iOS zoom risk in contact form fields.
   * Issue: `src/components/ContactForm.astro` uses `text-sm` for inputs and the
     textarea, which can render below 16px.
@@ -110,19 +213,6 @@ engineering, mobile comfort, and token hygiene rather than a redesign.
     `DESIGN.md`.
   * Likely files: `src/components/ContactForm.astro`, `DESIGN.md`,
     `documentation/features/contact-form.md`.
-
-* [ ] Revisit the first mobile viewport while the construction banner is active.
-  * Issue: On mobile, the construction banner, masthead, nav, and header search
-    consume most of the first viewport before the main content appears.
-  * Reasoning: The masthead is part of the site's identity and should stay
-    recognizable, but the temporary banner currently dominates the first
-    impression and delays content.
-  * Suggestion: Keep the banner's personality but reduce its mobile height, make
-    dismissal more compact, or persist dismissal reliably. Also consider whether
-    header search can be more compact while the banner is visible.
-  * Likely files: `src/components/ConstructionBanner.astro`,
-    `src/components/Header.astro`, `DESIGN.md` if masthead or banner tokens
-    change.
 
 ## Verification checklist
 
