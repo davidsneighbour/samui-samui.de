@@ -88,6 +88,70 @@ const {
   })();
 </script>
 
+<script>
+  import { bind, play, setEnabled } from 'cuelume';
+
+  type SamuiSound = {
+    getEnabled: () => boolean;
+    play: typeof play;
+    setEnabled: (enabled: boolean) => void;
+    toggleEnabled: () => boolean;
+  };
+
+  declare global {
+    interface Window {
+      SamuiSound?: SamuiSound;
+    }
+  }
+
+  const storageKey = 'samui-sound';
+
+  const readEnabledPreference = (): boolean => {
+    try {
+      return localStorage.getItem(storageKey) !== 'off';
+    } catch {
+      return true;
+    }
+  };
+
+  const writeEnabledPreference = (enabled: boolean): void => {
+    try {
+      localStorage.setItem(storageKey, enabled ? 'on' : 'off');
+    } catch {
+      // Playback preference is best-effort; Cuelume itself still no-ops safely.
+    }
+  };
+
+  let enabled = readEnabledPreference();
+  setEnabled(enabled);
+  bind();
+
+  const dispatchSoundChange = (): void => {
+    document.dispatchEvent(
+      new CustomEvent('samui-sound-change', {
+        detail: { enabled },
+      }),
+    );
+  };
+
+  window.SamuiSound = {
+    getEnabled: () => enabled,
+    play,
+    setEnabled: (nextEnabled: boolean) => {
+      enabled = nextEnabled;
+      setEnabled(enabled);
+      writeEnabledPreference(enabled);
+      dispatchSoundChange();
+    },
+    toggleEnabled: () => {
+      window.SamuiSound?.setEnabled(!enabled);
+      return enabled;
+    },
+  };
+
+  dispatchSoundChange();
+</script>
+
 <!-- Global Metadata -->
 <meta charset="utf-8">
 <meta

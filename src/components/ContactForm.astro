@@ -165,6 +165,7 @@ const fieldClasses =
     status.className = variant;
     statusText.textContent = message;
     status.hidden = false;
+    window.SamuiSound?.play(variant === 'success' ? 'success' : 'error');
   }
 
   form?.addEventListener('submit', async (event) => {
@@ -179,6 +180,7 @@ const fieldClasses =
 
     const submitButton = form.querySelector("button[type='submit']");
     submitButton?.setAttribute('disabled', 'true');
+    window.SamuiSound?.play('loading');
     status.hidden = true;
     if (statusText instanceof HTMLElement) {
       statusText.textContent = '';

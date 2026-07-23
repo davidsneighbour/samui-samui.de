@@ -49,6 +49,8 @@
   stack and data contracts.
 * [Search](features/search.md) documents Pagefind search UI placement and index
   caching.
+* [Sound effects](features/sound-effects.md) documents optional Cuelume
+  interaction sounds, persistence, and fallback behavior.
 
 ## Repository
 

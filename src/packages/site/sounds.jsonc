@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "cuelume": "file:vendor/cuelume"
+  }
+}
