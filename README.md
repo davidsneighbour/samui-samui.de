@@ -70,8 +70,9 @@ it is not rendered on the public site.
 ### Post covers
 
 Posts may include optional `cover` frontmatter for local images, YouTube videos,
-or Vimeo videos. See [Post covers](documentation/components/post-covers.md) for the
-supported properties and [Post cover migration plan](documentation/content/post-cover-migration-plan.md)
+or Vimeo videos. See [Post covers](documentation/components/post-covers.md) for
+the supported properties and the
+[Post cover migration plan](documentation/content/post-cover-migration-plan.md)
 for the archive migration workflow.
 
 ## Setup
@@ -88,6 +89,8 @@ production and deploy previews that should send real email.
 
 Required variables:
 
+<!-- markdownlint-disable MD013 -->
+
 | Variable | Used by | Notes |
 | --- | --- | --- |
 | `RESEND_API_KEY` | Netlify Function | Secret token from the [Resend API Keys dashboard](https://resend.com/api-keys). Use a sending-scoped key when possible. |
@@ -103,6 +106,8 @@ Optional variables:
 | `CONTACT_EMAIL_BCC` | none | Comma-separated BCC recipients. |
 | `CONTACT_EMAIL_SUBJECT_PREFIX` | `Samui? Samui!` | Prefix for contact notification subjects. |
 | `CONTACT_EMAIL_TIMEZONE` | `Asia/Bangkok` | IANA time zone for timestamps in notification emails. |
+
+<!-- markdownlint-enable MD013 -->
 
 Use `npm run dev` for the static Astro site. Use Netlify CLI's `netlify dev`
 when the contact form itself needs to run locally with the Netlify Function.
@@ -206,70 +211,106 @@ Netlify's connected build or the Netlify CLI once the setup above is complete.
 
 ### Astro and site commands
 
-| Command | Details |
-| --- | --- |
-| `npm run astro -- <args>` | Direct Astro CLI passthrough for ad hoc subcommands. |
-| `npm run astro:check` | Type/content diagnostics only; no build output. |
-| `npm run dev` | Starts Astro dev with `--verbose`, so it is chattier than plain `astro dev`. |
-| `npm run dev:verbose` | Adds `DEBUG_FRONTMATTER=true` to the already verbose dev server. |
-| `npm run build` | Runs `astro check` first, then `astro build --verbose`; the build integration reuses the cached Pagefind index unless `src/content/**` changed. |
-| `npm run build:nocache` | Forces a fresh Pagefind index rebuild during the normal build. |
-| `npm run clean:pagefind` | Removes the local Pagefind cache and current `dist/pagefind` bundle. |
-| `npm run preview` | Serves the built `dist` output locally. |
-| `npm run upgrade` | Interactive Astro upgrade helper; respect the Astro version constraints in `AGENTS.md`. |
+* `npm run astro -- <args>` runs Astro directly when a one-off framework command
+  is needed.
+* `npm run astro:check` checks Astro content, frontmatter, and types without
+  producing a site build.
+* `npm run dev` starts the local site and the local documentation server together
+  for day-to-day editing.
+* `npm run dev:site` starts only the Astro site dev server. It currently keeps
+  Astro's verbose logging enabled for debugging server output.
+* `npm run dev:docs` starts only the lightweight documentation browser at
+  [http://127.0.0.1:4322/](http://127.0.0.1:4322/).
+* `npm run dev:verbose` starts the combined dev servers with extra frontmatter
+  debugging enabled.
+* `npm run build` runs the full validation chain and then builds the static site
+  for Netlify, including Pagefind search output.
+* `npm run build:nocache` builds the site after forcing Pagefind to rebuild its
+  search index from scratch.
+* `npm run clean:pagefind` clears Pagefind's local cache and generated bundle
+  when search output needs a fresh start.
+* `npm run preview` serves the already-built `dist` directory to inspect
+  production output locally.
+* `npm run upgrade` opens Astro's guided upgrade helper; respect the version
+  constraints in `AGENTS.md` before accepting changes.
 
 ### Quality gates
 
-| Command | Details |
-| --- | --- |
-| `npm run check` | Non-mutating full gate: formatting check, code lint, and Markdown lint. |
-| `npm run format:check` | Biome formatting check only; no writes. |
-| `npm run format` | Writes Biome formatting changes across the repo. |
-| `npm run lint` | Non-mutating code and Markdown lint. |
-| `npm run lint:code` | Biome lint only; no writes. |
-| `npm run lint:code:fix` | Applies Biome's safe lint fixes. |
-| `npm run lint:markdown` | Markdownlint with the shared `@dnbhq` config; excludes `CHANGELOG.md` and configured archive/output paths. |
-| `npm run lint:markdown:fix` | Applies automatic Markdown fixes. |
-| `npm run lint:fix` | Applies both code and Markdown autofixes. |
-| `npm run lint:spell` | Cspell content check; separate from `check`, pre-commit, and pre-push. |
-| `npm run lint:staged` | Staged-file gate used by the pre-commit hook. |
+* `npm run check` runs the complete non-mutating confidence gate before pushing
+  or handing off work.
+* `npm run format:check` reports files that do not match the Biome formatter
+  without changing them.
+* `npm run format` applies Biome formatting across the repository.
+* `npm run lint` runs the non-mutating code and Markdown lint checks used inside
+  `check`.
+* `npm run lint:code` reports code-quality issues from Biome without changing
+  files.
+* `npm run lint:code:fix` applies Biome's safe code lint fixes.
+* `npm run lint:markdown` checks Markdown with the shared `@dnbhq` rules while
+  leaving archive and output paths alone.
+* `npm run lint:markdown:fix` applies automatic Markdown fixes with the same
+  shared rules.
+* `npm run lint:links` checks content links in the currently supported content
+  scope.
+* `npm run lint:fix` applies both code and Markdown autofixes for a broad
+  cleanup pass.
+* `npm run lint:spell` runs the optional content spell check; it is intentionally
+  outside `check` and the Git hooks.
+* `npm run lint:staged` runs the staged-file checks used by the pre-commit hook.
+* `npm run test` runs the Vitest suite once for behaviour-level checks.
+* `npm run test:watch` starts Vitest in watch mode while working on tests or
+  test-covered code.
+* `npm run validate` runs the strict content and taxonomy validation chain used
+  by the production build.
+* `npm run validate:content` checks Astro content and types without running
+  taxonomy validation.
+* `npm run validate:taxonomies` validates registered `leute`, `orte`, and
+  `ereignisse` references plus topic metadata rules.
 
 ### Content helpers
 
-| Command | Details |
-| --- | --- |
-| `npm run blog:new` | Prompts for title/topics, creates `src/content/posts/YYYY/<slug>/index.md`, and opens VS Code unless `--no-open` is passed. |
-| `npm run validate:taxonomies` | Validates registered `leute`, `orte`, and `ereignisse` references plus topic metadata rules. |
-| `npm run publisher -- <command>` | Manages repo-internal `publisher.*` frontmatter queues; `set`/`unset` require an explicit filter. |
+* `npm run blog:new` creates a correctly placed new post from an interactive
+  prompt or piped title input.
+* `npm run covers -- <command>` audits or migrates post cover metadata during
+  archive-media cleanup work.
+* `npm run publisher -- <command>` manages repo-internal `publisher.*`
+  frontmatter queues; `set` and `unset` require an explicit filter.
 
 ### Generated package maintenance
 
-| Command | Details |
-| --- | --- |
-| `npm run compile:package` | Regenerates `package.json` from `src/packages/**/*.jsonc`, then runs install/fixpack. |
-| `npm run compile:package:install` | Wireit install phase; writes `node_modules` and can update `package-lock.json`. |
-| `npm run compile:package:update` | Syncs dependency versions into `src/packages/**/*.jsonc` and reports script/Wireit drift. |
-| `npm run compile:fixpack` | Normalizes package metadata during generation with tolerated fixpack failures. |
-| `npm run clean` | Removes Astro/build caches through the internal `clean:astro` target. |
-| `npm run clean:full` | Removes `node_modules`, `package-lock.json`, `.wireit`, and Astro/build caches. |
+* `npm run compile:package` rebuilds the generated root manifest from
+  `src/packages/**/*.jsonc` and refreshes the install state.
+* `npm run compile:package:install` runs the install phase used by package
+  generation; this can update `node_modules` and `package-lock.json`.
+* `npm run compile:package:update` audits package fragments against installed
+  versions and reports script or Wireit drift.
+* `npm run compile:fixpack` normalizes generated package metadata after the
+  fragment rebuild.
+* `npm run clean` removes Astro and build caches when local generated output is
+  stale.
+* `npm run clean:full` removes install state, lockfile, Wireit cache, and build
+  caches for a full local reset.
 
 ### Release commands
 
-| Command | Details |
-| --- | --- |
-| `npm run release` | Real `release-it` flow with changelog, version/tag, GitHub, and package metadata side effects. |
-| `npm run release:dry` | Preview release output without Git/GitHub side effects. |
-| `npm run release:force` | Release flow without a version increment. |
-| `npm run release:major` | Forces a major version bump. |
-| `npm run release:minor` | Forces a minor version bump. |
-| `npm run release:patch` | Forces a patch version bump. |
+* `npm run release` publishes a real release with changelog, version/tag, and
+  GitHub side effects.
+* `npm run release:dry` previews the release calculation and changelog without
+  writing to Git or GitHub.
+* `npm run release:force` publishes release artifacts without incrementing the
+  package version.
+* `npm run release:major` publishes a release with an explicit major version
+  bump.
+* `npm run release:minor` publishes a release with an explicit minor version
+  bump.
+* `npm run release:patch` publishes a release with an explicit patch version
+  bump.
 
 ### Lifecycle scripts
 
 These scripts are normally run by npm or Git hooks rather than by hand:
 
-| Command | Details |
-| --- | --- |
-| `npm run prepare` | Installs pre-commit and pre-push hooks from `package.json`. |
+* `npm run prepare` installs the repository's pre-commit and pre-push hooks after
+  dependency installation.
 
 See `AGENTS.md` for the full command/architecture reference.
