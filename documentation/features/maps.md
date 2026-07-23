@@ -1,9 +1,10 @@
 # Interactive maps
 
 Interactive maps use a local mapcn-style React component layer on top of
-MapLibre GL JS, with OpenFreeMap as the initial MapLibre-compatible style and
-vector tile provider. MapLibre is loaded from npm, not from a CDN, and MapLibre
-CSS is imported through the local mapcn component module graph.
+MapLibre GL JS 6, with OpenFreeMap as the initial MapLibre-compatible style and
+vector tile provider. MapLibre is loaded from npm as an ESM package, not from a
+CDN, and MapLibre CSS is imported through the local mapcn component module
+graph.
 
 MapLibre is the renderer. OpenFreeMap supplies the initial hosted style document,
 tiles, sprites, glyphs, fonts, and related map assets from
@@ -18,6 +19,10 @@ wrappers for MapLibre. The contact-page implementation lives at
 `src/components/ContactMap.tsx` and is hydrated from `/kontakt/` with
 `client:visible`, so it is displayed inline below the contact form rather than
 opened from a button.
+
+Import MapLibre through a namespace import (`import * as MapLibreGL from
+'maplibre-gl'`) plus type-only named imports. MapLibre 6 no longer exposes the
+old default export shape used by earlier versions.
 
 Map coordinates in data files are stored as named `latitude` and `longitude`
 fields, but MapLibre calls must always receive coordinates in

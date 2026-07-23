@@ -1,10 +1,7 @@
 'use client';
 
-import MapLibreGL, {
-  type MapOptions,
-  type MarkerOptions,
-  type PopupOptions,
-} from 'maplibre-gl';
+import * as MapLibreGL from 'maplibre-gl';
+import type { MapOptions, MarkerOptions, PopupOptions } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import {
   createContext,

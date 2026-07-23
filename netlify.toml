@@ -24,9 +24,10 @@ status = 301
 # YouTube (youtube-nocookie.com) and Vimeo (player.vimeo.com) post embeds,
 # Cloudflare Turnstile (challenges.cloudflare.com, only active when
 # TURNSTILE_SITE_KEY is set), Pagefind's WASM search index
-# ('wasm-unsafe-eval', same-origin), and MapLibre/OpenFreeMap. MapLibre needs
-# blob workers; OpenFreeMap map styles, tiles, glyphs, sprites, and related
-# assets are fetched from tiles.openfreemap.org only after a map dialog opens.
+# ('wasm-unsafe-eval', same-origin), and MapLibre/OpenFreeMap. MapLibre 6 is
+# consumed as an ESM package; OpenFreeMap map styles, tiles, glyphs, sprites,
+# and related assets are fetched from tiles.openfreemap.org only after an
+# interactive map island becomes visible.
 # Verified against a preview deploy -- grep `<iframe src="https://` across
 # src/content/posts for the full embed-domain list if new embed types are added
 # later.

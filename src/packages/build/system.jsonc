@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "glob": "13.0.0",
+    "glob": "13.0.6",
     "wireit": "0.14.13"
   }
 }
