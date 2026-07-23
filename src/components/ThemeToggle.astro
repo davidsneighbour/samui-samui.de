@@ -78,4 +78,10 @@ import { Moon, Sun } from '@lucide/astro';
     transform: scale(1);
     filter: blur(0);
   }
+
+  @media (prefers-reduced-motion: reduce) {
+    .theme-toggle__icon {
+      transition: none;
+    }
+  }
 </style>

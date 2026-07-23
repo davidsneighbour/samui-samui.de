@@ -117,7 +117,7 @@ palette, the clipped masthead, and the archive-first reading model.
 
 ### Interface hygiene tasks
 
-* [ ] Fix iOS zoom risk in contact form fields.
+* [x] Fix iOS zoom risk in contact form fields.
   * Issue: `src/components/ContactForm.astro` uses `text-sm` for inputs and the
     textarea, which can render below 16px.
   * Reasoning: iOS Safari zooms focused form controls below 16px, which makes the
@@ -128,7 +128,7 @@ palette, the clipped masthead, and the archive-first reading model.
   * Likely files: `src/components/ContactForm.astro`,
     `documentation/features/contact-form.md`.
 
-* [ ] Make search-page autofocus touch-aware.
+* [x] Make search-page autofocus touch-aware.
   * Issue: `src/components/PagefindSearchPage.astro` sets `autofocus` on the
     Pagefind input unconditionally.
   * Reasoning: Desktop autofocus can be convenient, but on phones it can open the
@@ -155,7 +155,7 @@ palette, the clipped masthead, and the archive-first reading model.
     `src/components/ui/button.astro`, `src/components/ui/pagination.astro`,
     `src/components/ui/map.tsx`, `documentation/components/*` as applicable.
 
-* [ ] Remove active-navigation layout shift.
+* [x] Remove active-navigation layout shift.
   * Issue: `src/components/HeaderLink.astro` changes active links to
     `font-weight: 700`.
   * Reasoning: Changing font weight between states can shift neighboring
@@ -166,7 +166,7 @@ palette, the clipped masthead, and the archive-first reading model.
   * Likely files: `src/components/HeaderLink.astro`, `DESIGN.md` if the active
     treatment changes the documented component contract.
 
-* [ ] Add reduced-motion handling for visible UI motion.
+* [x] Add reduced-motion handling for visible UI motion.
   * Issue: The construction banner animates `grid-template-rows`, while theme and
     sound toggles animate opacity, transform, and blur without a
     `prefers-reduced-motion` override.
@@ -192,7 +192,7 @@ palette, the clipped masthead, and the archive-first reading model.
     `src/components/ui/pagination.astro`, `src/components/ui/map.tsx`,
     `src/components/YoutubeScript.astro`, `src/components/VimeoScript.astro`.
 
-* [ ] Replace `transition: all` in Vimeo placeholder.
+* [x] Replace `transition: all` in Vimeo placeholder.
   * Issue: `src/components/VimeoScript.astro` uses `transition: all 0.2s ...` for
     the custom play button.
   * Reasoning: `transition: all` can accidentally animate layout-affecting
@@ -202,7 +202,7 @@ palette, the clipped masthead, and the archive-first reading model.
   * Likely files: `src/components/VimeoScript.astro`,
     `documentation/components/vimeo.md`.
 
-* [ ] Bring contact form status colors into the token system.
+* [x] Bring contact form status colors into the token system.
   * Issue: Success and error feedback colors in `src/components/ContactForm.astro`
     are hardcoded hex values.
   * Reasoning: The rest of the site has a strong `DESIGN.md` and theme-token

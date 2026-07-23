@@ -12,7 +12,6 @@ import PagefindSearchPageQuery from '@components/PagefindSearchPageQuery.astro';
   <pagefind-input
     instance="search-page"
     placeholder="Archiv durchsuchen"
-    autofocus
   ></pagefind-input>
   <div class="pagefind-search-page__filters">
     <pagefind-filter-dropdown
@@ -36,3 +35,34 @@ import PagefindSearchPageQuery from '@components/PagefindSearchPageQuery.astro';
   <pagefind-results instance="search-page"></pagefind-results>
 </section>
 <PagefindSearchPageQuery />
+
+<script is:inline>
+  (() => {
+    const shouldFocus = window.matchMedia(
+      '(hover: hover) and (pointer: fine)',
+    ).matches;
+    if (!shouldFocus) return;
+
+    const searchInput = document.querySelector(
+      'pagefind-input[instance="search-page"]',
+    );
+    if (!(searchInput instanceof HTMLElement)) return;
+
+    const focusSearch = () => {
+      const target =
+        searchInput.shadowRoot?.querySelector('input') ?? searchInput;
+      if (target instanceof HTMLElement) {
+        target.focus({ preventScroll: true });
+      }
+    };
+
+    if (customElements.get('pagefind-input')) {
+      requestAnimationFrame(focusSearch);
+      return;
+    }
+
+    customElements.whenDefined('pagefind-input').then(() => {
+      requestAnimationFrame(focusSearch);
+    });
+  })();
+</script>

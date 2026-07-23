@@ -46,7 +46,7 @@ typography:
     fontSize: 14px
   nav-link-active:
     fontFamily: Panton
-    fontWeight: 700
+    fontWeight: 400
     fontSize: 14px
 rounded:
   sm: 8px
@@ -286,8 +286,9 @@ but only these faces are wired into CSS, deliberately, to avoid unused
   content headings, which remain weight 400.
 * **`body-md`** — base body copy. 16px / 1.5 line-height, weight 400.
 * **`nav-link`** / **`nav-link-active`** — header navigation
-  (`HeaderLink.astro`). Active state is signaled by weight (700) plus a
-  `primary`-colored bottom border, not a color change.
+  (`HeaderLink.astro`). Active state keeps the same 400 weight as the
+  default link to avoid layout shift and is signaled by the `primary`-colored
+  bottom border, not a color change.
 
 ## Layout
 
@@ -367,8 +368,8 @@ sharp (0px) corners.
   those files.
 * **HeaderLink** (`src/components/HeaderLink.astro`) — nav links with a
   Lucide icon plus text label, spaced inline with a 2px transparent
-  bottom border that turns `primary`-colored (and the text weight jumps
-  to 700) when active or hovered.
+  bottom border that turns `primary`-colored when active or when hovered on
+  hover-capable pointer devices.
 * **ThemeToggle** (`src/components/ThemeToggle.astro`) — header icon
   button for switching between light and dark themes. It uses a fixed
   40px hit area (`size-10`), `rounded-(--radius)`, the existing

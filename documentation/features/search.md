@@ -9,7 +9,9 @@ UI uses the Pagefind Component UI in three places:
   binoculars icon, and the light `accent` surface from `DESIGN.md`.
 * `src/pages/suche.mdx` remains the standalone search page. It renders
   `src/components/PagefindSearchPage.astro`, a composed interface with an input,
-  year and topic filters, a summary, and a result list.
+  year and topic filters, a summary, and a result list. The page focuses the
+  search field only on hover-capable fine-pointer devices so phones do not open
+  the keyboard immediately after navigation.
 * `src/pages/archiv/index.astro` also uses a compact `<pagefind-searchbox>` on
   the archive page.
 * `src/styles/theme.css` maps Pagefind `--pf-*` variables onto the existing

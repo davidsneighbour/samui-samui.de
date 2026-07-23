@@ -29,9 +29,11 @@ const isActive = href === pathname || href === '/' + (subpath?.[0] || '');
   }
   a.active {
     border-bottom-color: var(--color-primary);
-    font-weight: 700;
   }
-  a:hover {
-    border-bottom-color: var(--color-primary);
+
+  @media (hover: hover) and (pointer: fine) {
+    a:hover {
+      border-bottom-color: var(--color-primary);
+    }
   }
 </style>

@@ -108,4 +108,10 @@ const today = new Date();
     transform: scale(1);
     filter: blur(0);
   }
+
+  @media (prefers-reduced-motion: reduce) {
+    .sound-toggle__icon {
+      transition: none;
+    }
+  }
 </style>

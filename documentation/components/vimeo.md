@@ -76,6 +76,10 @@ component's JavaScript.
   element (or `autoload` triggers it). This is the entire point of porting
   lite-vimeo: a page with several embeds doesn't pay for several Vimeo
   players until the visitor actually asks for one.
+* **Play-button interaction.** The custom play button transitions only the
+  properties that change (`background-color` and `opacity`), gates the hover
+  color to hover-capable pointer devices, and disables that transition for
+  `prefers-reduced-motion: reduce`.
 * **Shadow DOM.** Markup and styles (the placeholder frame, the play button,
   the injected iframe) live in a shadow root, so the component is
   self-contained and doesn't depend on — or leak into — the host page's CSS.
