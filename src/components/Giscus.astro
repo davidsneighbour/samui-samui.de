@@ -10,8 +10,11 @@ const repo = 'davidsneighbour/samui-samui.de';
 const repoId = 'MDEwOlJlcG9zaXRvcnkxNjI5NzM3MTA=';
 const category = 'Kommentare';
 const categoryId = 'DIC_kwDOCbbIDs4DBbj1';
-const themeLight = '/assets/styles/giscus-samui-light.css';
-const themeDark = '/assets/styles/giscus-samui-dark.css';
+// Use production URLs in all environments: giscus.app cannot reliably fetch
+// custom themes from a private LAN dev origin due to browser PNA restrictions.
+const themeLight =
+  'https://samui-samui.de/assets/styles/giscus-samui-light.css';
+const themeDark = 'https://samui-samui.de/assets/styles/giscus-samui-dark.css';
 
 type GiscusMapping =
   | 'pathname'

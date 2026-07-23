@@ -4,6 +4,8 @@
 
 * [Blog list previews](components/blog-list-previews.md) documents rendered HTML
   excerpts and featured-card behavior in `BlogList.astro`.
+* [Giscus comments](components/giscus-comments.md) documents the lazy giscus
+  widget, custom theme URLs, and local-development theme limitations.
 * [Legacy image presentation](components/legacy-images.md) explains the
   automatic small-image rendering system for archive images and cover previews.
 * [Editorial notices](components/notices.md) documents the `Notice.astro` and
