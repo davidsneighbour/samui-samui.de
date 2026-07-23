@@ -361,6 +361,6 @@ and hosts being added.
 ### Deployment
 
 Netlify, configured via `netlify.toml`: build command, functions directory
-(`netlify/functions/contact.mjs` for the contact form), security headers, and a
+(`src/netlify/functions/contact.mjs` for the contact form), security headers, and a
 resource-audited Content-Security-Policy covering Matomo, Giscus, YouTube/Vimeo
 embeds, Cloudflare Turnstile, and Pagefind's WASM search index.

@@ -115,7 +115,7 @@ checked-in `netlify.toml` defines the production build:
 
 * Build command: `npm run build`
 * Publish directory: `dist`
-* Functions directory: `netlify/functions`
+* Functions directory: `src/netlify/functions`
 
 Manual Netlify checks before production deploys:
 

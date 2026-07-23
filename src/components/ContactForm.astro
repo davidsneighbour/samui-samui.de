@@ -3,7 +3,7 @@ import { buttonVariants } from '@components/ui/button.astro';
 
 // Read at build/render time only; the site key is meant to be public and is
 // rendered into the cf-turnstile widget below. The secret never leaves the
-// Netlify Function (see netlify/functions/contact.mjs).
+// Netlify Function (see src/netlify/functions/contact.mjs).
 const turnstileSiteKey = import.meta.env.TURNSTILE_SITE_KEY;
 
 const labelClasses = 'block text-sm font-medium';

@@ -1,5 +1,5 @@
 import { render, toPlainText } from '@react-email/render';
-import { ContactNotificationEmail } from '../../../emails/contact-notification.tsx';
+import { ContactNotificationEmail } from '../../emails/contact-notification.tsx';
 
 // ContactNotificationEmail has no hooks/state, so calling it directly (rather
 // than via JSX) returns the same element tree without requiring JSX syntax
