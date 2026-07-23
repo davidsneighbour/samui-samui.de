@@ -22,7 +22,11 @@ opened from a button.
 
 Import MapLibre through a namespace import (`import * as MapLibreGL from
 'maplibre-gl'`) plus type-only named imports. MapLibre 6 no longer exposes the
-old default export shape used by earlier versions.
+old default export shape used by earlier versions. The component also imports
+`maplibre-gl/dist/maplibre-gl-worker.mjs?url` and passes it to
+`MapLibreGL.setWorkerUrl()` so Vite serves a real module-worker asset instead
+of relying on MapLibre's default `import.meta.url` worker lookup inside an
+optimized dependency.
 
 Map coordinates in data files are stored as named `latitude` and `longitude`
 fields, but MapLibre calls must always receive coordinates in

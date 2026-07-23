@@ -3,6 +3,7 @@
 import * as MapLibreGL from 'maplibre-gl';
 import type { MapOptions, MarkerOptions, PopupOptions } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
+import mapLibreWorkerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
 import {
   createContext,
   forwardRef,
@@ -17,6 +18,8 @@ import {
 import { createPortal } from 'react-dom';
 import { X } from 'lucide-react';
 import { cn } from '@utils/cn';
+
+MapLibreGL.setWorkerUrl(mapLibreWorkerUrl);
 
 type Theme = 'light' | 'dark';
 type MapStyleOption = string | MapLibreGL.StyleSpecification;
