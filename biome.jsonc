@@ -37,7 +37,14 @@
       // Vendored third-party package output is source-owned but not authored here.
       "!!src/vendor/**",
       // Legacy static assets served as-is; not source code.
-      "!public/**"
+      "!public/**",
+      // AI agent/skill tooling directories: installed by editor/CLI tooling,
+      // not source code authored in this repo.
+      "!!.agents/**",
+      "!!.claude/**",
+      "!!.codex/**",
+      "!!.github/hooks/**",
+      "!!.github/skills/**"
     ]
   },
   "formatter": {
