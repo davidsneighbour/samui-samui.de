@@ -51,96 +51,96 @@
       #setupDom(): void {
         const shadow = this.attachShadow({ mode: 'open' });
         shadow.innerHTML = `
-                <style>
-                  :host {
-                    contain: content;
-                    display: block;
-                    position: relative;
-                    width: 100%;
-                    aspect-ratio: 16 / 9;
-                    background-color: #000;
-                  }
-                  #frame, iframe {
-                    position: absolute;
-                    inset: 0;
-                    width: 100%;
-                    height: 100%;
-                    border: 0;
-                  }
-                  #frame {
-                    cursor: pointer;
-                  }
-                  picture, img {
-                    display: block;
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                  }
-                  .dnb-youtube-title {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    height: 99px;
-                    padding: 25px 20px;
-                    box-sizing: border-box;
-                    background-image: linear-gradient(180deg, rgb(0 0 0 / 67%) 0%, rgb(0 0 0 / 54%) 14%, rgb(0 0 0 / 15%) 54%, rgb(0 0 0 / 5%) 72%, rgb(0 0 0 / 0%) 94%);
-                    color: hsl(0deg 0% 93.33%);
-                    font: 18px/1.2 'YouTube Noto', Roboto, Arial, Helvetica, sans-serif;
-                    text-shadow: 0 0 2px rgb(0 0 0 / 50%);
-                    overflow: hidden;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
-                    transition: opacity 0.1s cubic-bezier(0, 0, 0.2, 1);
-                  }
-                  .dnb-youtube-playbtn {
-                    width: 68px;
-                    height: 48px;
-                    background: no-repeat center / 68px 48px;
-                    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/><path d="M45 24 27 14v20" fill="white"/></svg>');
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate3d(-50%, -50%, 0);
-                    z-index: 1;
-                    filter: grayscale(100%);
-                    transition: filter 0.1s cubic-bezier(0, 0, 0.2, 1);
-                    border: 0;
-                    cursor: pointer;
-                  }
-                  @media (hover: hover) and (pointer: fine) {
-                    #frame:hover .dnb-youtube-playbtn {
-                      filter: none;
-                    }
-                  }
-                  .dnb-youtube-playbtn:focus {
-                    filter: none;
-                  }
-                  #frame.dnb-youtube-activated .dnb-youtube-title,
-                  #frame.dnb-youtube-activated .dnb-youtube-playbtn {
-                    opacity: 0;
-                    pointer-events: none;
-                  }
-                  @media (prefers-reduced-motion: reduce) {
-                    .dnb-youtube-title,
-                    .dnb-youtube-playbtn {
-                      transition: none;
-                    }
-                  }
-                </style>
-                <div id="frame">
-                  <img
-                    id="posterImage"
-                    src="${DnbYoutube.#transparentPixel}"
-                    alt=""
-                    referrerpolicy="origin"
-                    decoding="async"
-                    loading="lazy"
-                  />
-                  <div class="dnb-youtube-title"></div>
-                  <button class="dnb-youtube-playbtn" type="button"></button>
-                </div>
-              `;
+                    <style>
+                      :host {
+                        contain: content;
+                        display: block;
+                        position: relative;
+                        width: 100%;
+                        aspect-ratio: 16 / 9;
+                        background-color: #000;
+                      }
+                      #frame, iframe {
+                        position: absolute;
+                        inset: 0;
+                        width: 100%;
+                        height: 100%;
+                        border: 0;
+                      }
+                      #frame {
+                        cursor: pointer;
+                      }
+                      picture, img {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                      }
+                      .dnb-youtube-title {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        height: 99px;
+                        padding: 25px 20px;
+                        box-sizing: border-box;
+                        background-image: linear-gradient(180deg, rgb(0 0 0 / 67%) 0%, rgb(0 0 0 / 54%) 14%, rgb(0 0 0 / 15%) 54%, rgb(0 0 0 / 5%) 72%, rgb(0 0 0 / 0%) 94%);
+                        color: hsl(0deg 0% 93.33%);
+                        font: 18px/1.2 'YouTube Noto', Roboto, Arial, Helvetica, sans-serif;
+                        text-shadow: 0 0 2px rgb(0 0 0 / 50%);
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        transition: opacity 0.1s cubic-bezier(0, 0, 0.2, 1);
+                      }
+                      .dnb-youtube-playbtn {
+                        width: 68px;
+                        height: 48px;
+                        background: no-repeat center / 68px 48px;
+                        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/><path d="M45 24 27 14v20" fill="white"/></svg>');
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate3d(-50%, -50%, 0);
+                        z-index: 1;
+                        filter: grayscale(100%);
+                        transition: filter 0.1s cubic-bezier(0, 0, 0.2, 1);
+                        border: 0;
+                        cursor: pointer;
+                      }
+                      @media (hover: hover) and (pointer: fine) {
+                        #frame:hover .dnb-youtube-playbtn {
+                          filter: none;
+                        }
+                      }
+                      .dnb-youtube-playbtn:focus {
+                        filter: none;
+                      }
+                      #frame.dnb-youtube-activated .dnb-youtube-title,
+                      #frame.dnb-youtube-activated .dnb-youtube-playbtn {
+                        opacity: 0;
+                        pointer-events: none;
+                      }
+                      @media (prefers-reduced-motion: reduce) {
+                        .dnb-youtube-title,
+                        .dnb-youtube-playbtn {
+                          transition: none;
+                        }
+                      }
+                    </style>
+                    <div id="frame">
+                      <img
+                        id="posterImage"
+                        src="${DnbYoutube.#transparentPixel}"
+                        alt=""
+                        referrerpolicy="origin"
+                        decoding="async"
+                        loading="lazy"
+                      />
+                      <div class="dnb-youtube-title"></div>
+                      <button class="dnb-youtube-playbtn" type="button"></button>
+                    </div>
+                  `;
 
         this.#frame = shadow.querySelector<HTMLDivElement>('#frame')!;
         this.#titleOverlay =
@@ -210,9 +210,15 @@
 
       // Deferred (YouTube's own recommendation) attempt at a higher-res
       // poster. YouTube returns a 200 with a 120x90 placeholder image
-      // instead of a real 404 when a video has no maxresdefault thumbnail,
-      // so the only way to detect "no better poster available" is to check
-      // the loaded image's dimensions.
+      // instead of a real 404 when a video has no maxresdefault thumbnail
+      // on the legacy jpg endpoint, but the vi_webp endpoint used here can
+      // genuinely 404 instead -- hence both checks below. A `fetch` HEAD
+      // request would avoid the resulting console noise, but i.ytimg.com
+      // sends no CORS headers, so `fetch` fails for every video, not just
+      // the ones without a maxres poster; a plain image-load probe is the
+      // only client-side option that actually works cross-origin here, and
+      // the browser will log the failed subresource load itself on a
+      // genuine 404 regardless of the onerror handler below.
       #upgradePosterImage(): void {
         const videoId = this.videoId;
         setTimeout(() => {
@@ -227,6 +233,9 @@
               probe.naturalHeight === 90 && probe.naturalWidth === 120;
             if (noBetterPoster || this.videoId !== videoId) return;
             this.#img.src = webpUrl;
+          };
+          probe.onerror = () => {
+            // No maxresdefault poster for this video -- keep hqdefault.jpg.
           };
         }, 100);
       }

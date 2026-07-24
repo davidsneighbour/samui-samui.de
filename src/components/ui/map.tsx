@@ -1,23 +1,23 @@
 'use client';
 
-import * as MapLibreGL from 'maplibre-gl';
 import type { MapOptions, MarkerOptions, PopupOptions } from 'maplibre-gl';
+import * as MapLibreGL from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
+import { cn } from '@utils/cn';
+import { X } from 'lucide-react';
 import mapLibreWorkerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
 import {
   createContext,
   forwardRef,
+  type ReactNode,
   useContext,
   useEffect,
   useImperativeHandle,
   useMemo,
   useRef,
   useState,
-  type ReactNode,
 } from 'react';
 import { createPortal } from 'react-dom';
-import { X } from 'lucide-react';
-import { cn } from '@utils/cn';
 
 MapLibreGL.setWorkerUrl(mapLibreWorkerUrl);
 
@@ -123,6 +123,14 @@ function DefaultLoader(): ReactNode {
   );
 }
 
+function DefaultError(): ReactNode {
+  return (
+    <div className="absolute inset-0 z-10 flex items-center justify-center bg-card p-4 text-center text-sm text-muted-foreground">
+      Die Karte konnte nicht geladen werden.
+    </div>
+  );
+}
+
 export const MapCanvas = forwardRef<MapRef, MapProps>(function MapCanvas(
   {
     children,
@@ -140,6 +148,7 @@ export const MapCanvas = forwardRef<MapRef, MapProps>(function MapCanvas(
   const containerRef = useRef<HTMLDivElement>(null);
   const [mapInstance, setMapInstance] = useState<MapLibreGL.Map | null>(null);
   const [isLoaded, setIsLoaded] = useState(false);
+  const [hasError, setHasError] = useState(false);
   const resolvedTheme = useResolvedTheme(themeProp);
   const lightStyle = useStableStyle(styles.light);
   const darkStyle = useStableStyle(styles.dark);
@@ -155,28 +164,52 @@ export const MapCanvas = forwardRef<MapRef, MapProps>(function MapCanvas(
     const initialStyle = resolvedTheme === 'dark' ? darkStyle : lightStyle;
     currentStyleRef.current = initialStyle;
 
-    const map = new MapLibreGL.Map({
-      attributionControl: { compact: true },
-      center,
-      container: containerRef.current,
-      renderWorldCopies: false,
-      style: initialStyle,
-      zoom,
-      ...props,
-    });
+    let map: MapLibreGL.Map;
+    try {
+      map = new MapLibreGL.Map({
+        attributionControl: { compact: true },
+        center,
+        container: containerRef.current,
+        renderWorldCopies: false,
+        style: initialStyle,
+        zoom,
+        ...props,
+      });
+    } catch {
+      // WebGL unavailable/blocked, or the worker script failed to boot.
+      setHasError(true);
+      return;
+    }
 
-    const loadHandler = () => setIsLoaded(true);
+    let hasLoadedOnce = false;
+    const loadHandler = () => {
+      hasLoadedOnce = true;
+      setIsLoaded(true);
+    };
     const moveHandler = () => onViewportChangeRef.current?.(getViewport(map));
+    // MapLibre reports fatal init failures (bad style, no WebGL context) and
+    // transient runtime errors (a single missing tile while panning) through
+    // the same 'error' event. Without any handling the loading skeleton
+    // spins forever on a fatal failure; treating every error as fatal would
+    // instead hide an already-working map behind the error state on a
+    // harmless tile miss. Only errors before the first successful load are
+    // treated as fatal.
+    const errorHandler = () => {
+      if (!hasLoadedOnce) setHasError(true);
+    };
 
     map.on('load', loadHandler);
     map.on('move', moveHandler);
+    map.on('error', errorHandler);
     setMapInstance(map);
 
     return () => {
       map.off('load', loadHandler);
       map.off('move', moveHandler);
+      map.off('error', errorHandler);
       map.remove();
       setIsLoaded(false);
+      setHasError(false);
       setMapInstance(null);
     };
     // MapLibre owns the mounted instance lifecycle; prop syncing happens below.
@@ -211,8 +244,12 @@ export const MapCanvas = forwardRef<MapRef, MapProps>(function MapCanvas(
         ref={containerRef}
         className={cn('relative h-full w-full overflow-hidden', className)}
       >
-        {(!isLoaded || loading) && <DefaultLoader />}
-        {mapInstance && children}
+        {hasError ? (
+          <DefaultError />
+        ) : (
+          (!isLoaded || loading) && <DefaultLoader />
+        )}
+        {mapInstance && !hasError && children}
       </div>
     </MapContext.Provider>
   );

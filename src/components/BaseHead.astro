@@ -21,6 +21,31 @@ const {
 } = Astro.props;
 ---
 
+<!-- Global Metadata -->
+<meta charset="utf-8">
+<meta
+  name="viewport"
+  content="width=device-width,initial-scale=1"
+>
+
+<!-- Preload the two Panton weights rendered above the fold on every page
+     (masthead at 900, nav/body text at 400) to avoid a fallback-font swap
+     shifting the layout once the real face loads. -->
+<link
+  rel="preload"
+  as="font"
+  type="font/woff2"
+  href="/assets/webfonts/400/regular/panton-regular-webfont.woff2"
+  crossorigin
+>
+<link
+  rel="preload"
+  as="font"
+  type="font/woff2"
+  href="/assets/webfonts/900/heavy/panton-heavy-webfont.woff2"
+  crossorigin
+>
+
 <script is:inline>
   (() => {
     const storageKey = 'samui-theme';
@@ -151,12 +176,6 @@ const {
   dispatchSoundChange();
 </script>
 
-<!-- Global Metadata -->
-<meta charset="utf-8">
-<meta
-  name="viewport"
-  content="width=device-width,initial-scale=1"
->
 <link
   rel="icon"
   type="image/x-icon"
