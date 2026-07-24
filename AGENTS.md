@@ -152,13 +152,20 @@ rules live in
 
   | Group | Labels | Purpose |
   | --- | --- | --- |
-  | `type:*` | `bug`, `enhancement`, `dependencies`, `documentation`, `refactor`, `data`, `tests`, `chore` | What kind of work this is. |
+  | `type:*` | `bug`, `enhancement`, `dependencies`, `documentation`, `refactor`, `data`, `tests`, `chore`, `security`, `performance`, `accessibility`, `design`, `content` | What kind of work this is. |
   | `status:*` | `unconfirmed`, `confirmed`, `in-progress`, `blocked`, `review`, `done` | Where the issue is in its lifecycle. |
   | `prio:*` | `critical`, `high`, `medium`, `low` | Priority. |
-  | `resolution:*` | `duplicate`, `invalid`, `wont-fix`, `completed` | Why an issue was closed. |
+  | `resolution:*` | `duplicate`, `invalid`, `wont-fix`, `cancelled`, `superseded`, `completed` | Why an issue was closed. |
   | `meta:*` | `question`, `help-wanted`, `keep-open` | Cross-cutting notes on the issue itself. |
 
-  Every issue SHOULD carry at least one `type:*` label and one `status:*` label.
+  The `dnb-github-label-classifier` skill owns the canonical taxonomy and applies it
+  when creating, triaging, or closing issues.
+
+  Every open issue MUST carry exactly one `type:*`, one `status:*`, and one `prio:*`
+  label (default `prio:low` when no higher priority is justified), plus zero or more
+  `meta:*` labels, and no `resolution:*` label. Every closed issue MUST carry exactly
+  one `type:*` and one `resolution:*` label, with no `status:*`, `prio:*`, or `meta:*`
+  labels.
 
 * Every time an agent writes an issue number, it MUST link to the issue online, e.g.
   `[#123](https://github.com/davidsneighbour/samui-samui.de/issues/123)`, rather than
