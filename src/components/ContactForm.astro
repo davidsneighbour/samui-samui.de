@@ -1,14 +1,15 @@
 ---
 import { buttonVariants } from '@components/ui/button.astro';
+import FormMessage from '@components/ui/form-message.astro';
+import Input from '@components/ui/input.astro';
+import Label from '@components/ui/label.astro';
+import Textarea from '@components/ui/textarea.astro';
+import { cn } from '@utils/cn';
 
 // Read at build/render time only; the site key is meant to be public and is
 // rendered into the cf-turnstile widget below. The secret never leaves the
 // Netlify Function (see src/netlify/functions/contact.mjs).
 const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
-
-const labelClasses = 'block text-sm font-medium';
-const fieldClasses =
-  'mt-1 block w-full rounded-(--radius) border border-border bg-transparent px-3 py-2 text-base text-card-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2';
 ---
 
 {turnstileSiteKey && (
@@ -28,62 +29,68 @@ const fieldClasses =
   <p hidden>
     <label>Nicht ausfüllen: <input name="bot-field"></label>
   </p>
-  <p class="mt-4">
-    <label
-      for="contact-name"
-      class={labelClasses}
-      >Name</label
-    >
-    <input
-      id="contact-name"
-      name="name"
-      autocomplete="name"
-      required
-      class={fieldClasses}
-    >
-  </p>
-  <p class="mt-4">
-    <label
-      for="contact-email"
-      class={labelClasses}
-      >Email</label
-    >
-    <input
-      id="contact-email"
-      type="email"
-      name="email"
-      autocomplete="email"
-      required
-      class={fieldClasses}
-    >
-  </p>
-  <p class="mt-4">
-    <label
-      for="contact-message"
-      class={labelClasses}
-      >Nachricht</label
-    >
-    <textarea
+  <div class="mt-4 grid gap-4 sm:grid-cols-2">
+    <div class="grid gap-2">
+      <Label for="contact-name">Name</Label>
+      <Input
+        id="contact-name"
+        name="name"
+        autocomplete="name"
+        required
+        aria-describedby="contact-name-error"
+      />
+      <FormMessage
+        id="contact-name-error"
+        data-field-error
+      />
+    </div>
+    <div class="grid gap-2">
+      <Label for="contact-email">Email</Label>
+      <Input
+        id="contact-email"
+        type="email"
+        name="email"
+        autocomplete="email"
+        required
+        aria-describedby="contact-email-error"
+      />
+      <FormMessage
+        id="contact-email-error"
+        data-field-error
+      />
+    </div>
+  </div>
+  <div class="mt-4 grid gap-2">
+    <Label for="contact-message">Nachricht</Label>
+    <Textarea
       id="contact-message"
       name="message"
       rows="8"
       required
-      class={fieldClasses}
-    ></textarea>
-  </p>
+      aria-describedby="contact-message-error"
+    />
+    <FormMessage
+      id="contact-message-error"
+      data-field-error
+    />
+  </div>
   {turnstileSiteKey && (
-      <>
-        <p class="mt-4">
-          <div
-            class="cf-turnstile"
-            data-sitekey={turnstileSiteKey}
-            data-action="turnstile-spin-v2"
-            data-callback="onTurnstileVerified"
-            data-expired-callback="onTurnstileUnverified"
-            data-error-callback="onTurnstileUnverified"
-          >
-          </div>
-        </p>
+      <p class="mt-4">
+        <div
+          class="cf-turnstile"
+          data-sitekey={turnstileSiteKey}
+          data-action="turnstile-spin-v2"
+          data-callback="onTurnstileVerified"
+          data-expired-callback="onTurnstileUnverified"
+          data-error-callback="onTurnstileUnverified"
+        >
+        </div>
+      </p>
+    )}
+  <div
+    class="mt-4 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
+  >
+    {turnstileSiteKey && (
         <p class="turnstile-disclaimer">
           Diese Seite ist durch Cloudflare Turnstile geschützt, es gelten die{' '}
           <a href="https://www.cloudflare.com/privacypolicy/">Datenschutzerklärung</a>{' '}
@@ -91,17 +98,15 @@ const fieldClasses =
           <a href="https://www.cloudflare.com/website-terms/">Nutzungsbedingungen</a>{' '}
           von Cloudflare.
         </p>
-      </>
-    )}
-  <p class="mt-4">
+      )}
     <button
       type="submit"
-      class={buttonVariants()}
+      class={cn(buttonVariants(), 'sm:ml-auto')}
       disabled={turnstileSiteKey ? true : undefined}
     >
       Absenden
     </button>
-  </p>
+  </div>
   <p
     role="status"
     data-form-status
@@ -164,6 +169,43 @@ const fieldClasses =
       ?.setAttribute('disabled', 'true');
   };
 
+  function fieldErrorMessage(field) {
+    const validity = field.validity;
+    if (validity.valueMissing) return 'Dieses Feld ist erforderlich.';
+    if (validity.typeMismatch && field.type === 'email') {
+      return 'Bitte gib eine gültige E-Mail-Adresse ein.';
+    }
+    return field.validationMessage;
+  }
+
+  function fieldErrorElement(field) {
+    const describedBy = field.getAttribute('aria-describedby');
+    return describedBy ? document.getElementById(describedBy) : null;
+  }
+
+  function showFieldError(field) {
+    const message = fieldErrorElement(field);
+    if (message) message.textContent = fieldErrorMessage(field);
+    field.setAttribute('aria-invalid', 'true');
+  }
+
+  function clearFieldError(field) {
+    const message = fieldErrorElement(field);
+    if (message) message.textContent = '';
+    field.removeAttribute('aria-invalid');
+  }
+
+  const validatedFields = form?.querySelectorAll('[aria-describedby]') ?? [];
+  for (const field of validatedFields) {
+    field.addEventListener('invalid', (event) => {
+      event.preventDefault();
+      showFieldError(field);
+    });
+    field.addEventListener('input', () => {
+      if (field.validity.valid) clearFieldError(field);
+    });
+  }
+
   function showStatus(variant, message) {
     if (
       !(status instanceof HTMLElement) ||
@@ -184,6 +226,11 @@ const fieldClasses =
       !(form instanceof HTMLFormElement) ||
       !(status instanceof HTMLElement)
     ) {
+      return;
+    }
+
+    if (!form.checkValidity()) {
+      form.reportValidity();
       return;
     }
 

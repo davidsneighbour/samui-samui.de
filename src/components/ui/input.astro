@@ -1,0 +1,20 @@
+---
+import { cn } from '@utils/cn';
+import type { HTMLAttributes } from 'astro/types';
+
+interface Props extends Omit<HTMLAttributes<'input'>, 'class'> {
+  class?: string | undefined;
+}
+
+const { class: className, ...rest } = Astro.props as Props;
+// 16px text avoids iOS Safari's focused-field zoom (see documentation/features/contact-form.md).
+const classes = cn(
+  'flex h-10 w-full min-w-0 rounded-(--radius) border border-border bg-transparent px-3 py-2 text-base text-card-foreground transition-[color,box-shadow] placeholder:text-muted-foreground focus-visible:border-ring focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-link aria-invalid:ring-link/20',
+  className,
+);
+---
+
+<input
+  class={classes}
+  {...rest}
+>

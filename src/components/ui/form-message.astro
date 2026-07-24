@@ -1,0 +1,21 @@
+---
+import { cn } from '@utils/cn';
+import type { HTMLAttributes } from 'astro/types';
+
+interface Props extends Omit<HTMLAttributes<'p'>, 'class'> {
+  class?: string | undefined;
+}
+
+const { class: className, ...rest } = Astro.props as Props;
+// Empty by default (no error yet); client-side validation fills the text
+// node in and out, and `empty:hidden` keeps layout from reserving space.
+const classes = cn('text-sm font-medium text-link empty:hidden', className);
+---
+
+<p
+  role="alert"
+  class={classes}
+  {...rest}
+>
+  <slot />
+</p>
