@@ -34,6 +34,6 @@ The visible date line shows the publish date inline with the Lucide
 the normal text flow and is revealed through `src/components/ui/tooltip.astro`
 when the icon is hovered or receives keyboard focus.
 
-The tooltip text keeps the German wording `Zuletzt aktualisiert am` followed by
+The tooltip text keeps the German wording `Aktualisiert am` followed by
 the same extended date formatting as the publish date when the component's
 `extended` prop is enabled.

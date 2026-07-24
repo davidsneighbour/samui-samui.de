@@ -355,7 +355,7 @@ sharp (0px) corners.
   row beneath post titles. It owns published/updated dates and optional tag
   badges. The published date appears inline with a `CalendarDays` icon; when an
   updated date exists, a `CalendarCheck` icon follows it and reveals the
-  "Zuletzt aktualisiert" timestamp via the shared `Tooltip` component. The date
+  "Aktualisiert" timestamp via the shared `Tooltip` component. The date
   line is a centered flex row so both icons and date text share the same visual
   middle. The row stacks left-aligned date and tags on small screens, then
   places dates on the left and tag badges on the right from the `sm` breakpoint
