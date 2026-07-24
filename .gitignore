@@ -198,3 +198,14 @@ RESUME-CONTENTWORK.md
 
 # Playwright MCP session output
 .playwright-mcp
+
+# AI assistant tool-local state: personal Claude Code overrides and
+# auto-installed plugin skills/hooks mirrored per-tool (e.g. "impeccable").
+# Not repo-authored; repo-local skills live in ai/skills/ss-* instead
+# (see AGENTS.md).
+.claude/settings.local.json
+.claude/skills/
+.agents/
+.codex/
+.github/hooks/
+.github/skills/
