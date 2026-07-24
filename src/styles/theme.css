@@ -4,6 +4,25 @@
 @custom-variant dark (&:is(.dark *));
 
 /*
+ * Sitewide reduced-motion safety net. Individual components with bespoke
+ * <style> blocks (banner, theme toggle, video embeds) already guard their
+ * own transitions, but Tailwind utility classes like `transition-transform`
+ * or `group-hover:scale-105` can't be wrapped in a media query at the class
+ * level -- this rule neutralizes those instead of requiring every new hover
+ * effect to duplicate a per-component guard.
+ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*
  * Palette derived from the old Hugo site's SCSS (legacy/hugo:assets/scss/) as
  * inspiration, not an exact match -- see issue #716. The legacy maroon palette
  * remains the default dark theme, while the light theme keeps the same warm
@@ -322,8 +341,10 @@ h6 {
   border-top-color: var(--color-border);
 }
 
-.mapcn-samui .maplibregl-ctrl-group button:hover {
-  background: var(--color-accent);
+@media (hover: hover) and (pointer: fine) {
+  .mapcn-samui .maplibregl-ctrl-group button:hover {
+    background: var(--color-accent);
+  }
 }
 
 .mapcn-samui .maplibregl-ctrl-attrib a {

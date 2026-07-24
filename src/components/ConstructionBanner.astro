@@ -25,7 +25,7 @@ const message =
         />
         <span>{message}</span>
         <Construction
-          class="construction-banner__icon"
+          class="construction-banner__icon construction-banner__icon--trailing"
           aria-hidden="true"
         />
       </p>
@@ -48,7 +48,13 @@ const message =
   </div>
 </div>
 
-<script is:inline>
+<!-- data-astro-rerun: without it, Astro only runs this once per session, so the
+     dismissed state and the close-button listener never reattach after a
+     client-side (view-transition) navigation. -->
+<script
+  is:inline
+  data-astro-rerun
+>
   (() => {
     const STORAGE_KEY = 'construction-banner-dismissed';
     const banner = document.getElementById('construction-banner');
@@ -99,7 +105,13 @@ const message =
   .construction-banner__inner {
     display: flex;
     align-items: stretch;
-    min-height: 2.75rem;
+    min-height: 2.25rem;
+  }
+
+  @media (min-width: 640px) {
+    .construction-banner__inner {
+      min-height: 2.75rem;
+    }
   }
 
   .construction-banner__stripes {
@@ -126,22 +138,39 @@ const message =
     justify-content: center;
     gap: 0.6rem;
     margin: 0;
-    padding: 0.5rem 0.75rem;
+    padding: 0.375rem 0.75rem;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 700;
     letter-spacing: 0.01em;
   }
 
   .construction-banner__icon {
     flex-shrink: 0;
-    width: 1.25rem;
-    height: 1.25rem;
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+
+  /* The trailing icon is purely decorative symmetry; dropping it on narrow
+       screens frees enough width to keep the message to two lines instead of
+       three, so the banner takes up less of the first mobile viewport. */
+  .construction-banner__icon--trailing {
+    display: none;
   }
 
   @media (min-width: 640px) {
     .construction-banner__message {
+      padding: 0.5rem 0.75rem;
       font-size: 0.9rem;
+    }
+
+    .construction-banner__icon {
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+
+    .construction-banner__icon--trailing {
+      display: block;
     }
   }
 
@@ -164,9 +193,14 @@ const message =
     flex-shrink: 0;
   }
 
-  .construction-banner__close:hover,
   .construction-banner__close:focus-visible {
     background: color-mix(in srgb, currentColor 15%, transparent);
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .construction-banner__close:hover {
+      background: color-mix(in srgb, currentColor 15%, transparent);
+    }
   }
 
   .construction-banner__close:focus-visible {

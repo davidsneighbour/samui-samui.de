@@ -346,7 +346,7 @@ export function MarkerPopup({
       <button
         type="button"
         aria-label="Popup schließen"
-        className="absolute top-2 right-2 inline-flex size-6 items-center justify-center rounded-sm text-card-foreground/70 transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+        className="absolute top-2 right-2 inline-flex size-6 items-center justify-center rounded-sm text-card-foreground/70 transition-colors before:absolute before:-inset-2.5 before:content-[''] hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
         onClick={() => popup.remove()}
       >
         <X className="size-3.5" aria-hidden="true" />

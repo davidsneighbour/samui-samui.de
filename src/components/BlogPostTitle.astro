@@ -19,7 +19,7 @@ const {
 const HeadingTag = level;
 const titleClass = cn(
   'm-0 text-balance font-[600] leading-tight uppercase',
-  size === 'compact' ? 'text-2xl' : 'text-3xl sm:text-4xl',
+  size === 'compact' ? 'text-2xl' : 'text-[1.75rem] sm:text-3xl md:text-4xl',
   className,
 );
 ---
@@ -28,7 +28,7 @@ const titleClass = cn(
   {href ? (
     <a
       href={href}
-      class="text-link hover:underline"
+      class="text-link decoration-2 underline-offset-4 transition-colors duration-150 hover:underline hover:text-primary group-hover:underline group-hover:text-primary group-focus-within:underline group-focus-within:text-primary"
     >
       {title}
     </a>

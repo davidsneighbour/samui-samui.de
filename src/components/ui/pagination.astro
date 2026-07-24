@@ -94,8 +94,11 @@ const pageHref = (page: number) =>
   );
 const pageItems = getPageItems(pageNumber, totalPages);
 
+// `before:-inset-1` pads the visually-compact 36px controls out to a 44px
+// invisible hit area; adjacent controls sit `gap-2` (8px) apart, so the 4px
+// expansion on each side meets its neighbor's without overlapping it.
 const controlClass =
-  'inline-flex h-9 min-w-9 items-center justify-center gap-2 whitespace-nowrap rounded-[calc(var(--radius)-4px)] px-3 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2';
+  "relative inline-flex h-9 min-w-9 items-center justify-center gap-2 whitespace-nowrap rounded-[calc(var(--radius)-4px)] px-3 text-sm font-medium transition-colors before:absolute before:-inset-1 before:content-[''] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2";
 const linkClass =
   'text-card-foreground hover:bg-accent hover:text-accent-foreground';
 const activeClass = 'bg-primary text-primary-foreground hover:bg-primary/90';

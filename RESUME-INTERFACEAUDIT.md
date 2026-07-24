@@ -7,6 +7,13 @@ at mobile and desktop sizes.
 Tracking issue:
 [#1645](https://github.com/davidsneighbour/samui-samui.de/issues/1645).
 
+**Status (2026-07-24): all tasks below are checked off and `npm run check`
+passes.** Remaining before closing #1645: decide what to do with the
+unrelated `src/components/Analytics.astro` working-tree change (see note in
+the verification checklist), review/commit the changes in this file's task
+list, and re-run the visual pass once more after commit to catch anything
+`npm run check` can't (it doesn't screenshot).
+
 The current visual direction is coherent and worth preserving: the legacy
 maroon/parchment/coral palette, clipped masthead, and card-based reading surface
 give the site a recognizable identity. Most remaining work is interaction
@@ -36,18 +43,15 @@ palette, the clipped masthead, and the archive-first reading model.
     `documentation/components/blog-list-previews.md`, `DESIGN.md` if the
     component contract changes.
 
-* [ ] Rebalance mobile type hierarchy on the homepage.
-  * Issue: The masthead tagline becomes nearly ornamental on narrow screens,
-    while the featured article title becomes a tall block before the reader gets
-    much context.
-  * Reasoning: The mobile first viewport is visually coherent, but the
-    proportions make the brand description too quiet and the first title too
-    loud.
-  * Suggestion: Use stable responsive sizing such as `clamp()` for the masthead
-    tagline, and tune compact/featured title sizes so long titles remain strong
-    without dominating the entire phone viewport.
-  * Likely files: `src/components/Header.astro`,
-    `src/components/BlogPostTitle.astro`, `DESIGN.md` if type tokens change.
+* [x] Rebalance mobile type hierarchy on the homepage.
+  * Resolution: `.masthead__tagline` now uses `clamp(0.95rem, 0.6rem + 1.4vw,
+    1.75rem)` instead of a bare `1.85vw` (which hit ~7px on a 390px phone).
+    `BlogPostTitle`'s default size dropped from `text-3xl sm:text-4xl` to
+    `text-[1.75rem] sm:text-3xl md:text-4xl` so the featured title reads
+    strong without eating the whole first viewport. Verified via mobile
+    screenshots at 390px.
+  * Files touched: `src/components/Header.astro`,
+    `src/components/BlogPostTitle.astro`.
 
 * [x] Make the header navigation and search row feel more intentional.
   * Issue: The current nav/search row is functional and token-aligned, but it
@@ -63,57 +67,46 @@ palette, the clipped masthead, and the archive-first reading model.
     `src/components/HeaderLink.astro`, `documentation/features/search.md`,
     `DESIGN.md` if navigation component variants change.
 
-* [ ] Reduce construction banner dominance in the first viewport.
-  * Issue: On mobile, the construction banner, masthead, nav, and header search
-    consume most of the first viewport before the main content appears. In
-    screenshots, the black/yellow banner is the first thing the eye sees.
-  * Reasoning: The banner's personality is useful, but it currently competes
-    with the masthead and delays the first article.
-  * Suggestion: Keep the banner's voice, but reduce its mobile height, simplify
-    the close affordance, persist dismissal reliably, or use a calmer compact
-    presentation while the site is in active review.
-  * Likely files: `src/components/ConstructionBanner.astro`,
-    `src/components/Header.astro`, `DESIGN.md` if masthead or banner tokens
-    change.
+* [x] Reduce construction banner dominance in the first viewport.
+  * Resolution: Dropped mobile font-size (0.8rem → 0.7rem) and padding, hid the
+    purely decorative trailing icon below `640px` (kept at `sm:` and up), and
+    reduced `min-height` on mobile — this took the banner from 3 wrapped lines
+    to 2 on a 390px phone, moving the first article further into view.
+    Dismissal already persisted via `localStorage`; left unchanged.
+  * Files touched: `src/components/ConstructionBanner.astro`.
 
-* [ ] Add interaction polish to post cards.
-  * Issue: Post cards are readable but static; standard list entries especially
-    have little tactile response beyond text links.
-  * Reasoning: Small interaction details can make the archive feel more alive
-    without changing the reading model.
-  * Suggestion: Add grouped hover/focus behaviour: subtle cover-image scale,
-    stable title underline or color shift, and a light card-surface or border
-    transition. Gate decorative hover effects to hover-capable devices.
-  * Likely files: `src/components/BlogList.astro`,
-    `src/components/PostCover.astro`, `src/components/ui/button.astro`,
-    `documentation/components/blog-list-previews.md`.
+* [x] Add interaction polish to post cards.
+  * Resolution: Standard list-item `<article>` in `BlogList.astro` got a
+    `group` class, a transparent border that turns to `border-border/60` on
+    `hover`/`focus-within`, and the cover image now scales
+    (`group-hover:scale-105`, mirrored for `group-focus-within` so keyboard
+    users get the same feedback) inside a new `overflow-hidden` figure
+    wrapper. `BlogPostTitle`'s link picked up
+    `group-hover:underline group-hover:text-primary` (plus
+    `group-focus-within:*`) so hovering anywhere on the card — not just the
+    title text — gives a color/underline cue. Verified with Playwright hover
+    in both light and dark themes.
+  * Files touched: `src/components/BlogList.astro`,
+    `src/components/BlogPostTitle.astro`.
 
-* [ ] Add subtle motion primitives, not heavy scroll spectacle.
-  * Issue: The site has room for more visual life, but heavy pinned scrolling or
-    stacked-card effects would fight the blog's archive and reading surfaces.
-  * Reasoning: The best motion direction is editorial restraint: motion should
-    clarify state or reveal media, not turn normal reading into a presentation.
-  * Suggestion: Prefer image reveal/scale, pressed states, and gentle masthead or
-    search entrance motion. Pair this with reduced-motion handling before adding
-    any new animation. Save GSAP-style pinned or scrubbed experiments for a
-    future special archive or story page, not the default article list.
-  * Likely files: `src/components/BlogList.astro`,
-    `src/components/PostCover.astro`, `src/components/Header.astro`,
-    `src/components/ConstructionBanner.astro`,
-    `documentation/components/blog-list-previews.md`.
+* [x] Add subtle motion primitives, not heavy scroll spectacle.
+  * Resolution: Covered by the cover-image reveal/scale above, plus a new
+    `active:scale-[0.97]` pressed state on `ui/button.astro`. Added a sitewide
+    `prefers-reduced-motion: reduce` safety net in `theme.css` (zeroes
+    transition/animation durations) since Tailwind utility classes like
+    `group-hover:scale-105` can't be wrapped in a per-component media query
+    the way the existing bespoke `<style>` blocks are. Deliberately skipped
+    masthead/search entrance motion — didn't want to introduce load-time
+    layout shift risk for marginal benefit.
+  * Files touched: `src/components/ui/button.astro`, `src/styles/theme.css`.
 
-* [ ] Tune article pages as the quiet reading mode.
-  * Issue: Article pages already have a strong foundation, but spacing, title
-    scale, and metadata rhythm can be tightened after the homepage work.
-  * Reasoning: Post detail pages should feel calmer than the homepage: image,
-    title, metadata, taxonomy, and body copy should support long reading.
-  * Suggestion: Make only light adjustments after the homepage sequence: verify
-    the hero image/title relationship, mobile title wrap, taxonomy spacing, and
-    text rhythm. Avoid bringing homepage-style motion or dense editorial layout
-    into default article pages.
-  * Likely files: `src/layouts/BlogPost.astro`,
-    `src/components/BlogPostTitle.astro`,
-    `documentation/components/post-covers.md`.
+* [x] Tune article pages as the quiet reading mode.
+  * Resolution: Reviewed `BlogPost.astro` against a real long-title post at
+    390px — hero/title/meta/taxonomy/prose rhythm was already solid (this is
+    where the masthead-tagline and title-sizing fixes above pay off too,
+    since `BlogPostTitle` is shared). No structural changes made; the existing
+    layout already meets the "calmer than the homepage" bar.
+  * Files touched: none (verification only).
 
 ### Interface hygiene tasks
 
@@ -141,19 +134,20 @@ palette, the clipped masthead, and the archive-first reading model.
   * Likely files: `src/components/PagefindSearchPage.astro`,
     `documentation/features/search.md`.
 
-* [ ] Raise mobile tap targets to 44px without bloating the visual design.
-  * Issue: Several frequently used controls render below the recommended 44px
-    touch target: header nav links, small buttons, pagination controls, and the
-    map popup close button.
-  * Reasoning: The current controls look tidy, but small hit areas increase
-    mistaps on phones. Emil's rule is touch-first with hover enhancements layered
-    on top.
-  * Suggestion: Add invisible hit-area padding or `min-h-11 min-w-11` where the
-    visual size can remain compact. For text links, increase vertical padding or
-    wrap the link in a larger inline-flex target.
-  * Likely files: `src/components/Header.astro`,
+* [x] Raise mobile tap targets to 44px without bloating the visual design.
+  * Resolution: `HeaderLink` nav links got `min-height: 2.75rem` (44px) via
+    `align-items: center`, so the visible link stays compact but the hit box
+    doesn't. `ui/button.astro` and `ui/pagination.astro` controls (36-40px
+    tall) got an invisible `before:absolute before:-inset-1` hit-area
+    extension — sized so adjacent pagination controls' expanded hit areas
+    meet at the `gap-2` midpoint without overlapping. The map popup close
+    button (`size-6` = 24px) got `before:-inset-2.5` to reach 44px. Left
+    MapLibre's own zoom/compass `NavigationControl` buttons untouched — that's
+    third-party-rendered DOM tuned around a 29px icon size, not something the
+    audit named.
+  * Files touched: `src/components/HeaderLink.astro`,
     `src/components/ui/button.astro`, `src/components/ui/pagination.astro`,
-    `src/components/ui/map.tsx`, `documentation/components/*` as applicable.
+    `src/components/ui/map.tsx`.
 
 * [x] Remove active-navigation layout shift.
   * Issue: `src/components/HeaderLink.astro` changes active links to
@@ -178,19 +172,23 @@ palette, the clipped masthead, and the archive-first reading model.
   * Likely files: `src/components/ConstructionBanner.astro`,
     `src/components/ThemeToggle.astro`, `src/components/Footer.astro`.
 
-* [ ] Gate decorative hover states to hover-capable devices.
-  * Issue: Hover styles are applied broadly across nav links, buttons, badges,
-    pagination, map controls, and media placeholders.
-  * Reasoning: Touch devices can leave hover styles "stuck" after tapping. Hover
-    should enhance pointer devices, not become a touch state.
-  * Suggestion: Move bespoke CSS `:hover` rules into
-    `@media (hover: hover) and (pointer: fine)`. For Tailwind `hover:*` utilities,
-    consider a project-wide pattern or targeted component CSS where touch behavior
-    is most visible.
-  * Likely files: `src/components/HeaderLink.astro`,
-    `src/components/ui/button.astro`, `src/components/ui/badge.astro`,
-    `src/components/ui/pagination.astro`, `src/components/ui/map.tsx`,
-    `src/components/YoutubeScript.astro`, `src/components/VimeoScript.astro`.
+* [x] Gate decorative hover states to hover-capable devices.
+  * Resolution: Confirmed via a direct Tailwind v4 `compile()` test that this
+    project's `hover:` and `group-hover:` variants already compile to
+    `@media (hover: hover) { ... }` (Tailwind v4's built-in behavior) — so
+    every Tailwind-utility hover state (`ui/button.astro`, `ui/badge.astro`,
+    `ui/pagination.astro`, `ui/map.tsx`'s JSX className hovers) was already
+    gated with no changes needed. Audited every remaining bespoke CSS
+    `:hover` selector site-wide (`rg ":hover"`) and gated the ones that
+    weren't: `YoutubeScript.astro`'s play-button hover (brought in line with
+    the already-gated `VimeoScript.astro` pattern, plus added the matching
+    `prefers-reduced-motion` rule it was missing), `ConstructionBanner.astro`'s
+    close-button hover (split from its `:focus-visible` pairing, which must
+    stay ungated), and the MapLibre control-button hover in
+    `src/styles/theme.css`. `HeaderLink.astro` and `ContactForm.astro` were
+    already gated from the prior pass.
+  * Files touched: `src/components/YoutubeScript.astro`,
+    `src/components/ConstructionBanner.astro`, `src/styles/theme.css`.
 
 * [x] Replace `transition: all` in Vimeo placeholder.
   * Issue: `src/components/VimeoScript.astro` uses `transition: all 0.2s ...` for
@@ -216,16 +214,36 @@ palette, the clipped masthead, and the archive-first reading model.
 
 ## Verification checklist
 
-* [ ] Check mobile and desktop screenshots for the homepage, search page, archive
-  page, and contact page.
-* [ ] Verify light and dark modes after token or feedback-color changes.
-* [ ] Verify keyboard focus order and visible focus rings for header nav, search,
-  pagination, contact form, and map popup controls.
-* [ ] Verify touch targets are at least 44px or have equivalent invisible hit
-  areas.
-* [ ] Verify `prefers-reduced-motion: reduce` disables nonessential transitions.
-* [ ] Run the relevant quality gate, preferably `npm run check` unless the change
-  is deliberately scoped to a narrower validation.
+* [x] Check mobile and desktop screenshots for the homepage, search page, archive
+  page, and contact page. Also spot-checked `/seite/2/` (standard list cards)
+  and a real long-title article page.
+* [x] Verify light and dark modes after token or feedback-color changes. Card
+  hover (border + title color/underline) checked in both themes via Playwright.
+* [x] Verify keyboard focus order and visible focus rings for header nav, search,
+  pagination, contact form, and map popup controls. Tabbed through the header
+  nav into pagination and confirmed the `before:-inset-*` hit-area
+  pseudo-elements don't affect the visible focus ring (it still renders
+  tight to the control's real box) or tab order.
+* [x] Verify touch targets are at least 44px or have equivalent invisible hit
+  areas. Header nav, buttons, pagination, and map popup close button now meet
+  44px via `min-height` or `before:-inset-*` hit-area expansion.
+* [x] Verify `prefers-reduced-motion: reduce` disables nonessential transitions.
+  Added a sitewide safety-net rule in `theme.css` in addition to the
+  already-gated per-component rules.
+* [x] Run the relevant quality gate, preferably `npm run check` unless the change
+  is deliberately scoped to a narrower validation. `npm run check` passes
+  (format, lint, astro check, taxonomy validation, 121 vitest tests) — run with
+  the unrelated pre-existing `src/components/Analytics.astro` working-tree
+  change stashed since it fails `biome format` on its own and isn't part of
+  this audit pass (see note below).
+
+**Note on `src/components/Analytics.astro`:** this file appeared modified in
+the working tree partway through this session without any edit from the audit
+work (quote style flipped from single to double, a comment removed, a
+self-closing tag change) — almost certainly an editor auto-format from the
+file being open elsewhere. Left untouched; it still needs a decision (revert
+vs. reformat to match Biome) before `npm run check` will pass cleanly on the
+full working tree.
 
 ## Repeating the audit
 
