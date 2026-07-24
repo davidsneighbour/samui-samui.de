@@ -1,10 +1,4 @@
 ---
-// Matomo analytics, ported from the old Hugo hooks module
-// (layouts/partials/hooks/head-end-matomo.html). Only loads in production,
-// matching the old `{{ if hugo.IsServer }}` skip-in-dev behavior. The prod
-// check lives in the caller (BaseHead) so this template stays a plain
-// top-level <script> — nesting one with an inline JS body inside a `{cond &&
-// (...)}` expression breaks Biome's Astro parser.
 import setup from '@data/setup.json';
 
 const { host: matomoHost, siteId: matomoSiteId } = setup.matomo;
@@ -16,7 +10,7 @@ const { host: matomoHost, siteId: matomoSiteId } = setup.matomo;
 >
   window._paq = window._paq || [];
   const _paq = window._paq;
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  /* tracker methods like "setCustomDimension" MUST be called before "trackPageView" */
   _paq.push(['setDoNotTrack', true]);
   _paq.push(['disableCookies']);
   _paq.push(['trackPageView']);
