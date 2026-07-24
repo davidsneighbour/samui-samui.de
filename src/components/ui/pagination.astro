@@ -160,6 +160,7 @@ const navClass = cn(
                 data-current-page={pageNumber}
                 data-total-pages={totalPages}
                 aria-label="Aktuelle Seitennummer bearbeiten"
+                transition:name={`pagination-active-${placement}`}
               >
                 <button
                   class={cn(controlClass, activeClass, 'min-w-14 pr-2.5')}
@@ -233,7 +234,10 @@ const navClass = cn(
   </ul>
 </nav>
 
-<script is:inline>
+<script
+  is:inline
+  data-astro-rerun
+>
   (() => {
     const pagination = document.currentScript?.previousElementSibling;
     if (pagination instanceof HTMLElement) {

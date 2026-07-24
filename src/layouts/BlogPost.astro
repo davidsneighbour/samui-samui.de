@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
+import { ClientRouter } from 'astro:transitions';
 import BaseHead from '@components/BaseHead.astro';
 import BlogPostMeta from '@components/BlogPostMeta.astro';
 import BlogPostTitle from '@components/BlogPostTitle.astro';
@@ -102,6 +103,7 @@ const postThemen = themen ?? [];
       description={metaDescription}
       image={metaImage}
     />
+    <ClientRouter />
   </head>
 
   <body>

@@ -1,4 +1,5 @@
 ---
+import { ClientRouter } from 'astro:transitions';
 import BaseHead from '@components/BaseHead.astro';
 import Footer from '@components/Footer.astro';
 import Header from '@components/Header.astro';
@@ -33,6 +34,7 @@ const pageDescription = frontmatter?.description ?? description;
       description={pageDescription ?? pageTitle}
       noindex={noindex}
     />
+    <ClientRouter />
     <slot name="head" />
   </head>
   <body>
