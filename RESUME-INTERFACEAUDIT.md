@@ -49,7 +49,7 @@ palette, the clipped masthead, and the archive-first reading model.
   * Likely files: `src/components/Header.astro`,
     `src/components/BlogPostTitle.astro`, `DESIGN.md` if type tokens change.
 
-* [ ] Make the header navigation and search row feel more intentional.
+* [x] Make the header navigation and search row feel more intentional.
   * Issue: The current nav/search row is functional and token-aligned, but it
     reads as a tidy row of controls rather than a clearly designed masthead
     system.
