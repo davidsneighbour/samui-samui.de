@@ -1,0 +1,34 @@
+[
+  {
+    "camera": { "zoom": 4 },
+    "description": "Hier beginnt die Zeitreise. Der genaue Herkunftsort ist noch nicht dokumentiert und wird durch einen Platzhalter markiert, bis die echten Koordinaten feststehen.",
+    "duration": 2600,
+    "locations": [{ "point": "todo-birthplace", "role": "primary" }],
+    "title": "Der Anfang",
+    "year": 1974
+  },
+  {
+    "camera": { "zoom": 9 },
+    "currentLocation": true,
+    "description": "2005 geht es nach Thailand, auf die Insel Koh Samui. Dieser Ort bleibt bis heute der aktuelle Lebensmittelpunkt.",
+    "duration": 2600,
+    "locations": [{ "point": "dnb-hq", "role": "destination" }],
+    "pauseAfterTransition": 900,
+    "title": "Der Umzug nach Thailand",
+    "transition": {
+      "route": {
+        "curve": 0.35,
+        "duration": 5200,
+        "followVehicle": true,
+        "from": "todo-birthplace",
+        "lineStyle": "dashed",
+        "to": "dnb-hq",
+        "transport": "plane"
+      },
+      "showPreviousLocation": true,
+      "type": "journey"
+    },
+    "transitionDuration": 5200,
+    "year": 2005
+  }
+]

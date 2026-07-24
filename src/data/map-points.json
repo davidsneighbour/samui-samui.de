@@ -6,5 +6,13 @@
     "slug": "dnb-hq",
     "tags": ["house", "menow"],
     "title": "DNB HQ"
+  },
+  {
+    "description": "Platzhalter-Koordinate (Null Island, 0°N 0°O) für den noch nicht dokumentierten Ort vor dem Umzug 1974–2005. Muss durch den echten Herkunftsort ersetzt werden, sobald er feststeht — siehe documentation/features/life-timeline.md.",
+    "latitude": 0,
+    "longitude": 0,
+    "slug": "todo-birthplace",
+    "tags": ["placeholder", "todo"],
+    "title": "TODO_ORIGIN_BEFORE_THAILAND (Platzhalter)"
   }
 ]

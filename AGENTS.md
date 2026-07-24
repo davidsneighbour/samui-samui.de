@@ -401,6 +401,30 @@ MUST adapt existing DESIGN.md tokens instead of inventing one-off colors,
 radii, or spacing. When CSP changes are required, document the exact directives
 and hosts being added.
 
+#### Life timeline map (`/timeline/`)
+
+`src/pages/timeline.astro` (component: `src/components/LifeTimelineMap.tsx`,
+supporting pieces under `src/components/life-timeline/`) is an experimental,
+data-driven animated timeline map built on the primitives above. See
+[`documentation/features/life-timeline.md`](documentation/features/life-timeline.md)
+for the full schema and architecture. Agents editing or extending it MUST:
+
+* Treat it as data-driven — add or edit content in
+  `src/data/life-timeline.json`, not by branching on specific years or
+  locations in component code.
+* Reference locations by `slug` into `src/data/map-points.json`
+  (`{ point: 'some-slug' }`); never duplicate `latitude`/`longitude` inside
+  `life-timeline.json`.
+* Keep `[longitude, latitude]` ordering at MapLibre API boundaries
+  (`LifeTimelineCamera.tsx`, `journey-animation.ts`) even though the data
+  model and resolved types use named `latitude`/`longitude`.
+* Keep journey/camera animations respecting `prefers-reduced-motion` — the
+  2005 plane-journey animation and all camera transitions have a reduced-
+  motion path that skips prolonged motion without dropping any textual
+  information.
+* Keep all visitor-facing text (titles, descriptions, control labels, error
+  messages) in German, matching the rest of the site's content language.
+
 ### Deployment
 
 Netlify, configured via `netlify.toml`: build command, functions directory

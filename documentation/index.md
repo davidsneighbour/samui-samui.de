@@ -52,6 +52,13 @@
   Turnstile disclaimer styling.
 * [Interactive maps](features/maps.md) records the MapLibre/OpenFreeMap map
   stack and data contracts.
+* [Life timeline map](features/life-timeline.md) documents the experimental
+  `/timeline/` animated life-timeline map, its sparse-year data schema, and
+  the 2005 plane-journey animation.
+* [Life timeline authoring guide](features/life-timeline-authoring.md) is a
+  copy-paste-driven guide to registering places and authoring real timeline
+  entries (simple years, periods, multi-location years, journeys, the
+  finale).
 * [Search](features/search.md) documents Pagefind search UI placement and index
   caching.
 * [Sound effects](features/sound-effects.md) documents optional Cuelume

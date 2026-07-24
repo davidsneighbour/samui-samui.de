@@ -1,0 +1,42 @@
+---
+// Experimental route — deliberately not linked from the header nav (see
+// documentation/features/life-timeline.md "Moving the page later"). This
+// page intentionally renders no site chrome at all (no Header/masthead/nav,
+// no Footer) — the map is meant to be a fully immersive, edge-to-edge
+// experience contained to exactly one viewport, not "a page with a map on
+// it". Analytics is preserved directly (see Footer.astro's own pattern)
+// since losing tracking wasn't part of that request.
+import { ClientRouter } from 'astro:transitions';
+import Analytics from '@components/Analytics.astro';
+import BaseHead from '@components/BaseHead.astro';
+import LifeTimelineMap from '@components/LifeTimelineMap';
+
+const title = 'Zeitreise';
+const description =
+  'Eine interaktive, animierte Zeitreise-Karte durch die Jahre von 1974 bis heute.';
+---
+
+<!doctype html>
+<html
+  lang="de"
+  class="dark"
+>
+  <head>
+    <BaseHead
+      title={title}
+      description={description}
+      noindex
+    />
+    <ClientRouter />
+  </head>
+  <body class="h-svh w-full overflow-hidden">
+    <main
+      id="main"
+      tabindex="-1"
+      class="relative h-svh w-full overflow-hidden"
+    >
+      <LifeTimelineMap client:load />
+    </main>
+    {import.meta.env.PROD && <Analytics />}
+  </body>
+</html>
