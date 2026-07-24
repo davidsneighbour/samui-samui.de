@@ -4,11 +4,15 @@ import { formatDate, formatPostTimestamp } from '@utils/dates';
 interface Props {
   date: Date;
   extended?: boolean;
+  class?: string;
 }
 
-const { date, extended = false } = Astro.props as Props;
+const { date, extended = false, class: className } = Astro.props as Props;
 ---
 
-<time datetime={formatPostTimestamp(date)}
-  >{formatDate(date, { extended })}</time
+<time
+  class={className}
+  datetime={formatPostTimestamp(date)}
 >
+  {formatDate(date, { extended })}
+</time>

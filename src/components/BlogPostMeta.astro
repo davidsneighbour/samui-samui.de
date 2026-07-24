@@ -30,45 +30,27 @@ const updatedDateLabel = updatedDate
 ---
 
 {hasMeta && (
-  <div
-    class={cn(
-      'flex flex-col items-start gap-2 text-left text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between sm:gap-4',
-      className,
-    )}
-  >
-    {hasDates && (
-      <div class="flex flex-wrap items-center gap-x-2 gap-y-1 leading-none">
-        {date && (
-          <span class="inline-flex items-center gap-2 leading-none [&_svg]:block [&_time]:leading-none">
-            <CalendarDays
-              class="size-4 shrink-0"
-              aria-hidden="true"
-            />
-            <FormattedDate
-              date={date}
-              extended={extended}
-            />
-          </span>
-        )}
-        {updatedDateLabel && (
-          <Tooltip
-            content={updatedDateLabel}
-            triggerClass="size-6"
-          >
-            <CalendarCheck
-              slot="trigger"
-              class="size-4"
-              aria-hidden="true"
-            />
-          </Tooltip>
-        )}
-      </div>
-    )}
-    {hasThemen && (
-      <ThemaBadges
-        themen={themen}
-        class="sm:justify-end"
-      />
-    )}
-  </div>
-)}
+    <div
+      class={cn(
+        "flex flex-col items-start gap-2 text-left text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between sm:gap-4",
+        className,
+      )}
+    >
+      {hasDates && (
+        <div class="flex flex-wrap items-center gap-x-2 gap-y-1 leading-none">
+          {date && (
+            <span class="inline-flex items-center gap-2 leading-none [&_svg]:block [&_time]:leading-none">
+              <CalendarDays class="size-4 shrink-0" aria-hidden="true" />
+              <FormattedDate date={date} extended={extended} class="text-box-balanced" />
+            </span>
+          )}
+          {updatedDateLabel && (
+            <Tooltip content={updatedDateLabel} triggerClass="size-6">
+              <CalendarCheck slot="trigger" class="size-4" aria-hidden="true" />
+            </Tooltip>
+          )}
+        </div>
+      )}
+      {hasThemen && <ThemaBadges themen={themen} class="sm:justify-end" />}
+    </div>
+  )}

@@ -354,3 +354,19 @@ h6 {
 .mapcn-samui .maplibregl-ctrl-attrib-button {
   background-color: transparent;
 }
+
+/*
+ * The `text-box` property is a new CSS feature that optically balances text
+ * blocks by trimming excess space above and below the first and last lines.
+ * It's not yet widely supported, so we use a fallback translation to achieve
+ * a similar effect in browsers that don't support it.
+ */
+.text-box-balanced {
+  translate: 0 var(--text-optical-offset, -0.06em);
+}
+@supports (text-box: trim-both cap alphabetic) {
+  .text-box-balanced {
+    translate: none;
+    text-box: trim-both cap alphabetic;
+  }
+}
