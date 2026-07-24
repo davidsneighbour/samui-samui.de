@@ -396,3 +396,12 @@ Netlify, configured via `netlify.toml`: build command, functions directory
 (`src/netlify/functions/contact.mjs` for the contact form), security headers, and a
 resource-audited Content-Security-Policy covering Matomo, Giscus, YouTube/Vimeo
 embeds, Cloudflare Turnstile, and Pagefind's WASM search index.
+
+### Analytics
+
+`Analytics.astro` (Matomo) is rendered from `Footer.astro`, intentionally last in
+the page, so it never delays anything the visitor is there for. Tracking on this
+site exists for technical reasons only, not marketing, so losing a "track" when a
+visitor leaves before the script loads is an accepted tradeoff in exchange for not
+blocking page rendering or interaction. Do not move the analytics include earlier
+in the document to "fix" this without discussing the tradeoff first.
