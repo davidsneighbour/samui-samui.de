@@ -249,6 +249,24 @@ styling. Path aliases (`@assets`, `@components`, `@config`, `@content`, `@data`,
 `@layouts`, `@packages`, `@pages`, `@scripts`, `@styles`, `@test`, `@utils`, `@/*`)
 are defined in `tsconfig.json`.
 
+Every page uses Astro's `<ClientRouter />` (view transitions), so navigation
+between pages is client-side DOM swapping, not a full page reload. This has a
+sharp edge: a bare `<script is:inline>` that does its setup work (reading
+`localStorage`, attaching a click listener, etc.) only reliably runs on the
+very first page load of a session. After a later view-transition navigation,
+Astro does not re-run it, so any element it wired up "goes dead" (listeners
+missing) or reverts to its default state (e.g. a dismissed banner
+reappearing) on the swapped-in page — even though the exact same markup
+worked fine on a hard refresh. Any `is:inline` script that touches per-page
+DOM (not just a one-time global side effect) MUST add `data-astro-rerun` so
+it re-executes after every transition. See
+[docs.astro.build/en/guides/view-transitions/#script-re-execution](https://docs.astro.build/en/guides/view-transitions/#script-re-execution).
+Likewise, CSS needed by a client-side custom element belongs in a component's
+frontmatter (a normal Astro stylesheet import Astro tracks and waits on
+during a swap), not inside a `<script>` tag's side-effect import — the latter
+only runs once and isn't part of what the view-transition swap waits to load,
+so it can render unstyled for a moment after navigating.
+
 ### Content collections
 
 Defined in `src/content.config.ts`: `posts` (`src/content/posts/**/index.md`,

@@ -25,7 +25,13 @@ import { Moon, Sun } from '@lucide/astro';
   </span>
 </button>
 
-<script is:inline>
+<!-- data-astro-rerun: rebinds the click listener on every view-transition
+     navigation; otherwise a page swapped in after the first load gets a
+     button with no handler attached. -->
+<script
+  is:inline
+  data-astro-rerun
+>
   (() => {
     const button = document.currentScript?.previousElementSibling;
     if (!(button instanceof HTMLButtonElement)) return;

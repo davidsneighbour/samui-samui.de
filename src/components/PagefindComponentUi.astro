@@ -1,7 +1,13 @@
 ---
+// The CSS import lives here (not in the script below) so Astro emits it as a
+// normal per-page stylesheet. Astro's view-transition swap waits for a
+// page's own stylesheets to load before firing `astro:page-load`; a
+// stylesheet injected as a side effect of a client `<script>` isn't tracked
+// that way, so it could still be loading (or briefly missing) right after a
+// client-side navigation, leaving the search box unstyled for a moment.
+import '@pagefind/component-ui/css/pagefind-component-ui.css';
 ---
 
 <script>
   import '@pagefind/component-ui';
-  import '@pagefind/component-ui/css/pagefind-component-ui.css';
 </script>

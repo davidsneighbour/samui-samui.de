@@ -62,7 +62,13 @@ const today = new Date();
   </p>
 </footer>
 
-<script is:inline>
+<!-- data-astro-rerun: rebinds the click listener on every view-transition
+     navigation; otherwise a page swapped in after the first load gets a
+     button with no handler attached. -->
+<script
+  is:inline
+  data-astro-rerun
+>
   (() => {
     const button = document.querySelector('[data-sound-toggle]');
     if (!(button instanceof HTMLButtonElement)) return;
