@@ -1,7 +1,6 @@
 ---
 import '@styles/theme.css';
 import FallbackImage from '@assets/blog-placeholder-1.jpg';
-import Analytics from '@components/Analytics.astro';
 import setup from '@data/setup.json';
 import type { ImageMetadata } from 'astro';
 
@@ -212,12 +211,7 @@ const {
   name="description"
   content={description}
 >
-{noindex ? (
-  <meta
-    name="robots"
-    content="noindex,follow"
-  />
-) : null}
+{noindex ? <meta name="robots" content="noindex,follow" /> : null}
 
 <!-- Open Graph / Facebook -->
 <meta
@@ -262,5 +256,3 @@ const {
   property="twitter:image"
   content={new URL(image.src, Astro.url)}
 >
-
-{import.meta.env.PROD && <Analytics />}

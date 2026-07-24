@@ -38,8 +38,12 @@ const { host: matomoHost, siteId: matomoSiteId } = setup.matomo;
     <img
       referrerpolicy="no-referrer-when-downgrade"
       src={`${matomoHost}matomo.php?idsite=${matomoSiteId}&rec=1`}
-      style="border:0"
+      class="border-0"
       alt=""
+      aria-hidden="true"
+      width="1"
+      height="1"
+      style="position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0)"
     >
   </p>
 </noscript>

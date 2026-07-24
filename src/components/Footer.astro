@@ -1,11 +1,11 @@
 ---
+import Analytics from '@components/Analytics.astro';
 import { Copyright, Volume2, VolumeX } from '@lucide/astro';
 
 const today = new Date();
 ---
 
-<!-- @todo this needs design work -->
-<!-- <div
+<!-- @todo this needs design work --><!-- <div
   class="mx-auto max-w-5xl px-4"
   aria-hidden="true"
 >
@@ -115,3 +115,5 @@ const today = new Date();
     }
   }
 </style>
+
+{import.meta.env.PROD && <Analytics />}
