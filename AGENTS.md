@@ -44,6 +44,17 @@ at [https://samui-samui.de](https://samui-samui.de).
   pattern, not a variant of an existing token), treat that as a signal to
   extend `DESIGN.md` deliberately — not as license to invent an undocumented
   one-off value in component code.
+* Agents MUST treat every `impeccable` hook finding as authoritative by
+  default and fix it, unless the flagged pattern is already documented as an
+  accepted exception in `DESIGN.md` (e.g. the "warnings MAY be accepted with a
+  documented reason" carve-out above) or another committed, explicit override.
+  A finding is NOT something an agent may wave off in the moment on its own
+  judgment — "this predates my change," "it matches another component," or
+  "it looks intentional" are not documented overrides. If a flagged pattern
+  really is intentional going forward, that MUST be captured as a durable
+  exception (a `DESIGN.md` entry, or an `/impeccable hooks ignore-*` config
+  change made after the user explicitly confirms it) rather than left as a
+  silent one-off judgment call in the response.
 
 ## Documentation
 

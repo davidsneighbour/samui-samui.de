@@ -136,14 +136,13 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
     margin-block-start: 1rem;
     padding: 0.5em 1em;
     border: 1px solid var(--color-border);
-    border-left-width: 4px;
     border-radius: calc(var(--radius) - 4px);
     background: var(--color-muted);
     color: var(--color-card-foreground);
   }
 
   [data-form-status].success {
-    border-left-color: var(--color-primary);
+    border-color: var(--color-primary);
   }
 
   [data-form-status].error {
