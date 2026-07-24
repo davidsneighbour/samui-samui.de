@@ -83,8 +83,8 @@ async function buildFrame(
 
   // The per-image override marker is only meaningful to us; strip it either
   // way so it never leaks into rendered output.
-  const perImageOverride = readOverride(properties.dataLegacyImage);
-  delete properties.dataLegacyImage;
+  const perImageOverride = readOverride(properties['dataLegacyImage']);
+  delete properties['dataLegacyImage'];
 
   if (isSvgSrc(src)) return undefined;
   // Remote sources can't be probed or turned into a background derivative
@@ -213,7 +213,7 @@ export function rehypeLegacyImages(options: RehypeLegacyImagesOptions = {}) {
   return async (tree: Root, file: VFile) => {
     const postOverride = readOverride(
       (file.data as { astro?: { frontmatter?: Record<string, unknown> } })
-        ?.astro?.frontmatter?.legacyImages,
+        ?.astro?.frontmatter?.['legacyImages'],
     );
     const fromDir = file.path ? path.dirname(file.path) : undefined;
     const ctx: BuildContext = {

@@ -185,6 +185,6 @@ describe('rehypeLegacyImages', () => {
       width: 1200,
     });
     const node = await run(tree, makeFile());
-    expect(node.properties.dataLegacyImage).toBeUndefined();
+    expect(node.properties['dataLegacyImage']).toBeUndefined();
   });
 });

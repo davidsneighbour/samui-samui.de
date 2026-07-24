@@ -52,7 +52,7 @@ export function useMap(): MapContextValue {
 function getDocumentTheme(): Theme {
   if (typeof document === 'undefined') return 'dark';
   const root = document.documentElement;
-  if (root.dataset.theme === 'light' || root.classList.contains('light')) {
+  if (root.dataset['theme'] === 'light' || root.classList.contains('light')) {
     return 'light';
   }
   return 'dark';

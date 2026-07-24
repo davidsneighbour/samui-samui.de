@@ -443,8 +443,8 @@ async function handleRequest(
 function parseOptions(args: string[], env: NodeJS.ProcessEnv): ParsedOptions {
   const options: ParsedOptions = {
     documentationRoot: defaultDocumentationRoot,
-    host: env.DOCS_HOST ?? defaultHost,
-    port: Number.parseInt(env.DOCS_PORT ?? `${defaultPort}`, 10),
+    host: env['DOCS_HOST'] ?? defaultHost,
+    port: Number.parseInt(env['DOCS_PORT'] ?? `${defaultPort}`, 10),
   };
 
   for (let index = 0; index < args.length; index += 1) {

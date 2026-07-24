@@ -137,13 +137,13 @@ function matchesPostFilters(
   filters: Filters,
 ): boolean {
   if (filters.status !== undefined) {
-    const publisher = frontmatter.publisher as
+    const publisher = frontmatter['publisher'] as
       | Record<string, unknown>
       | undefined;
-    if ((publisher?.status ?? undefined) !== filters.status) return false;
+    if ((publisher?.['status'] ?? undefined) !== filters.status) return false;
   }
   if (filters.thema !== undefined) {
-    const themen = frontmatter.themen;
+    const themen = frontmatter['themen'];
     if (!Array.isArray(themen) || !themen.includes(filters.thema)) {
       return false;
     }
@@ -229,7 +229,7 @@ async function runUnset(key: string, filters: Filters, dryRun: boolean) {
     if (!loaded) continue;
     const { parsed, doc, data } = loaded;
     if (!matchesPostFilters(data, parsed.raw, filters)) continue;
-    const publisher = data.publisher as Record<string, unknown> | undefined;
+    const publisher = data['publisher'] as Record<string, unknown> | undefined;
     if (!publisher || !(key in publisher)) continue;
 
     doc.deleteIn(['publisher', key]);
@@ -263,7 +263,7 @@ async function runList(filters: Filters) {
     const { data, parsed } = loaded;
     if (!matchesPostFilters(data, parsed.raw, filters)) continue;
     matched++;
-    const publisher = data.publisher as Record<string, unknown> | undefined;
+    const publisher = data['publisher'] as Record<string, unknown> | undefined;
     const rel = path.relative(projectRoot, file);
     console.log(`${rel}\t${publisher ? JSON.stringify(publisher) : '(none)'}`);
   }

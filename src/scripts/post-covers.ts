@@ -239,7 +239,7 @@ function collectResourceCandidates(
   data: Record<string, unknown>,
   postDirectory: string,
 ): Candidate[] {
-  const resources = data.resources;
+  const resources = data['resources'];
   if (!Array.isArray(resources)) return [];
 
   return resources
@@ -247,7 +247,7 @@ function collectResourceCandidates(
       if (!resource || typeof resource !== 'object') return undefined;
 
       const record = resource as Record<string, unknown>;
-      const src = typeof record.src === 'string' ? record.src.trim() : '';
+      const src = typeof record['src'] === 'string' ? record['src'].trim() : '';
       if (!src || src.includes('/') || !imageExtensionPattern.test(src)) {
         return undefined;
       }
@@ -255,7 +255,8 @@ function collectResourceCandidates(
         return undefined;
       }
 
-      const title = typeof record.title === 'string' ? record.title.trim() : '';
+      const title =
+        typeof record['title'] === 'string' ? record['title'].trim() : '';
 
       return {
         caption: title || undefined,
@@ -293,16 +294,16 @@ function firstReviewCandidate(
 }
 
 function hasCoverMigrationMarker(data: Record<string, unknown>): boolean {
-  const publisher = data.publisher;
+  const publisher = data['publisher'];
   if (!publisher || typeof publisher !== 'object') return false;
 
-  return (publisher as Record<string, unknown>).covermigration === true;
+  return (publisher as Record<string, unknown>)['covermigration'] === true;
 }
 
 function classifyPost(loaded: LoadedPost): Classification {
   const marked = hasCoverMigrationMarker(loaded.data);
 
-  if (loaded.data.cover) return marked ? 'covered:review' : 'covered';
+  if (loaded.data['cover']) return marked ? 'covered:review' : 'covered';
 
   const body = loaded.parsed.body;
   const bodyImages = collectBodyImageCandidates(body);

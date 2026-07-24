@@ -1,20 +1,20 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
     "paths": {
-      "@/*": ["*"],
-      "@assets/*": ["src/assets/*"],
-      "@components/*": ["src/components/*"],
-      "@config/*": ["src/config/*"],
-      "@content/*": ["src/content/*"],
-      "@data/*": ["src/data/*"],
-      "@layouts/*": ["src/layouts/*"],
-      "@packages/*": ["src/packages/*"],
-      "@pages/*": ["src/pages/*"],
-      "@scripts/*": ["src/scripts/*"],
-      "@styles/*": ["src/styles/*"],
-      "@test/*": ["src/test/*"],
-      "@utils/*": ["src/utils/*"]
+      "@/*": ["./*"],
+      "@assets/*": ["./src/assets/*"],
+      "@components/*": ["./src/components/*"],
+      "@config/*": ["./src/config/*"],
+      "@content/*": ["./src/content/*"],
+      "@data/*": ["./src/data/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@packages/*": ["./src/packages/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@scripts/*": ["./src/scripts/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@test/*": ["./src/test/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@vendor/*": ["./src/vendor/*"]
     },
     "plugins": [
       {
@@ -25,6 +25,6 @@
     "verbatimModuleSyntax": true
   },
   "exclude": ["dist", "scratch"],
-  "extends": "astro/tsconfigs/strictest",
+  "extends": "@dnbhq/tsconfig/astro",
   "include": [".astro/types.d.ts", "src/**/*"]
 }

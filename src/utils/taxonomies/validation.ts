@@ -178,7 +178,7 @@ export function validateTaxonomyIntegrity(
   }
 
   for (const place of collections.orte) {
-    const parent = referenceId(place.data.parent);
+    const parent = referenceId(place.data['parent']);
     if (!parent) continue;
     validateReferenceList({
       collectionPath: 'src/content/orte',
@@ -208,14 +208,14 @@ export function validateTaxonomyIntegrity(
       references: referenceList(event.data, 'leute'),
     });
 
-    const startDate = parseDate(event.data.startDate);
-    const endDate = parseDate(event.data.endDate);
+    const startDate = parseDate(event.data['startDate']);
+    const endDate = parseDate(event.data['endDate']);
     if (startDate && endDate && endDate.valueOf() < startDate.valueOf()) {
       issues.push({
         field: 'endDate',
         file: event.file,
         message: 'Das Ende eines Ereignisses liegt vor dem Start.',
-        reference: String(event.data.endDate),
+        reference: String(event.data['endDate']),
       });
     }
   }

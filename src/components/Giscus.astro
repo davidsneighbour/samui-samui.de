@@ -95,7 +95,9 @@ const { mapping = 'pathname', term } = Astro.props as Props;
 
       themeUrl(theme: SamuiThemeName = this.currentTheme): string {
         const themePath =
-          theme === 'light' ? this.dataset.themeLight : this.dataset.themeDark;
+          theme === 'light'
+            ? this.dataset['themeLight']
+            : this.dataset['themeDark'];
 
         if (!themePath) return theme;
 
@@ -126,23 +128,23 @@ const { mapping = 'pathname', term } = Astro.props as Props;
         const attrs: Record<string, string> = {
           async: '',
           crossorigin: 'anonymous',
-          'data-category': ds.category ?? '',
-          'data-category-id': ds.categoryId ?? '',
-          'data-emit-metadata': ds.emitMetadata ?? '0',
-          'data-input-position': ds.inputPosition ?? 'bottom',
-          'data-lang': ds.lang ?? 'de',
-          'data-loading': ds.loading ?? 'lazy',
-          'data-mapping': ds.mapping ?? 'pathname',
-          'data-reactions-enabled': ds.reactionsEnabled ?? '1',
-          'data-repo': ds.repo ?? '',
-          'data-repo-id': ds.repoId ?? '',
-          'data-strict': ds.strict ?? '0',
+          'data-category': ds['category'] ?? '',
+          'data-category-id': ds['categoryId'] ?? '',
+          'data-emit-metadata': ds['emitMetadata'] ?? '0',
+          'data-input-position': ds['inputPosition'] ?? 'bottom',
+          'data-lang': ds['lang'] ?? 'de',
+          'data-loading': ds['loading'] ?? 'lazy',
+          'data-mapping': ds['mapping'] ?? 'pathname',
+          'data-reactions-enabled': ds['reactionsEnabled'] ?? '1',
+          'data-repo': ds['repo'] ?? '',
+          'data-repo-id': ds['repoId'] ?? '',
+          'data-strict': ds['strict'] ?? '0',
           'data-theme': themeUrl,
           src: 'https://giscus.app/client.js',
         };
 
-        if (ds.term) {
-          attrs['data-term'] = ds.term;
+        if (ds['term']) {
+          attrs['data-term'] = ds['term'];
         }
 
         const requiredKeys = [

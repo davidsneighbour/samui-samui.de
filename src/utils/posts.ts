@@ -15,7 +15,7 @@ export function getPostUrl(post: CollectionEntry<'posts'>): string {
     return url.endsWith('/') ? url : `${url}/`;
   }
   const id = post.id.replace(/\/index$/, '');
-  const slug = post.data.slug ?? id.split('/').pop() ?? id;
+  const slug = post.data['slug'] ?? id.split('/').pop() ?? id;
   const { monthPadded, year } = getPostDateParts(post.data.date);
   return `/${year}/${monthPadded}/${slug}/`;
 }

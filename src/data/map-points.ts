@@ -6,14 +6,14 @@ function isMapPoint(value: unknown): value is MapPoint {
 
   const candidate = value as Record<string, unknown>;
   return (
-    typeof candidate.slug === 'string' &&
-    typeof candidate.latitude === 'number' &&
-    typeof candidate.longitude === 'number' &&
-    typeof candidate.title === 'string' &&
-    typeof candidate.description === 'string' &&
-    Array.isArray(candidate.tags) &&
-    candidate.tags.every((tag) => typeof tag === 'string') &&
-    (candidate.zoom === undefined || typeof candidate.zoom === 'number')
+    typeof candidate['slug'] === 'string' &&
+    typeof candidate['latitude'] === 'number' &&
+    typeof candidate['longitude'] === 'number' &&
+    typeof candidate['title'] === 'string' &&
+    typeof candidate['description'] === 'string' &&
+    Array.isArray(candidate['tags']) &&
+    candidate['tags'].every((tag) => typeof tag === 'string') &&
+    (candidate['zoom'] === undefined || typeof candidate['zoom'] === 'number')
   );
 }
 

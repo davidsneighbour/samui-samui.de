@@ -73,9 +73,9 @@ export function getPostDateParts(date: Date): PostDateParts {
       .formatToParts(date)
       .map((part) => [part.type, part.value]),
   );
-  const year = Number(parts.year);
-  const month = Number(parts.month);
-  const day = Number(parts.day);
+  const year = Number(parts['year']);
+  const month = Number(parts['month']);
+  const day = Number(parts['day']);
 
   if (!year || !month || !day) {
     throw new Error(
@@ -100,9 +100,9 @@ export function formatPostTimestamp(date: Date): string {
       .formatToParts(date)
       .map((part) => [part.type, part.value]),
   );
-  const hour = parts.hour;
-  const minute = parts.minute;
-  const second = parts.second;
+  const hour = parts['hour'];
+  const minute = parts['minute'];
+  const second = parts['second'];
 
   if (!hour || !minute || !second) {
     throw new Error(
