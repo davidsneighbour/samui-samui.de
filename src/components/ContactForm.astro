@@ -4,7 +4,12 @@ import FormMessage from '@components/ui/form-message.astro';
 import Input from '@components/ui/input.astro';
 import Label from '@components/ui/label.astro';
 import Textarea from '@components/ui/textarea.astro';
-import { MailQuestionMark, MessageSquareWarning, UserPen } from '@lucide/astro';
+import {
+  MailQuestionMark,
+  MessageSquareWarning,
+  Send,
+  UserPen,
+} from '@lucide/astro';
 import { cn } from '@utils/cn';
 
 // Read at build/render time only; the site key is meant to be public and is
@@ -126,6 +131,10 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
       class={cn(buttonVariants(), 'sm:ml-auto')}
       disabled={turnstileSiteKey ? true : undefined}
     >
+      <Send
+        aria-hidden="true"
+        class="size-4"
+      />
       Absenden
     </button>
   </div>
