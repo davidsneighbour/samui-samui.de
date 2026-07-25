@@ -274,18 +274,29 @@ export interface MapMarkerProps extends Omit<MarkerOptions, 'element'> {
   children: ReactNode;
   latitude: number;
   longitude: number;
+  /**
+   * Pixel coordinate within the icon's own box (measured from its top-left
+   * corner) that should sit exactly on the lat/long point — e.g. `[16, 16]`
+   * for the center of a 32px icon, or `[16, 32]` for the tip of a 32px-tall
+   * pin. Takes precedence over `anchor`/`offset` when set.
+   */
+  iconAnchor?: [number, number];
 }
 
 export function MapMarker({
   children,
   latitude,
   longitude,
+  iconAnchor,
   ...markerOptions
 }: MapMarkerProps): ReactNode {
   const { map } = useMap();
   const marker = useMemo(
     () =>
       new MapLibreGL.Marker({
+        ...(iconAnchor
+          ? { anchor: 'top-left', offset: [-iconAnchor[0], -iconAnchor[1]] }
+          : {}),
         ...markerOptions,
         element: document.createElement('div'),
       }).setLngLat([longitude, latitude]),

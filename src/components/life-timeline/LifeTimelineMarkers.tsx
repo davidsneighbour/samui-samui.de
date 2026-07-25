@@ -46,7 +46,7 @@ export function LifeTimelineMarkers({
             key={`previous-${location.point}`}
             latitude={location.latitude}
             longitude={location.longitude}
-            anchor="bottom"
+            iconAnchor={[8, 8]}
           >
             <MarkerContent>
               <span aria-hidden="true">
@@ -62,7 +62,7 @@ export function LifeTimelineMarkers({
             key={location.point}
             latitude={location.latitude}
             longitude={location.longitude}
-            anchor="bottom"
+            iconAnchor={[16, 16]}
           >
             <MarkerContent>
               <button

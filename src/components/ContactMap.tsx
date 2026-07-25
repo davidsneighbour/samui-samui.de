@@ -75,7 +75,7 @@ export default function ContactMap({ point }: Props) {
           <MapMarker
             latitude={point.latitude}
             longitude={point.longitude}
-            anchor="bottom"
+            iconAnchor={[16, 16]}
           >
             <MarkerContent>
               <button
