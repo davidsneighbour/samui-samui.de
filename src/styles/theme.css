@@ -220,6 +220,16 @@ body {
   font-family: var(--font-sans);
 }
 
+/*
+ * Root scrollbar (the `<html>` element is the actual scrolling box in every
+ * layout, not `body`) tracks the same theme tokens as the rest of the site
+ * via Tailwind v4.3's native scrollbar-color utilities, so it repaints
+ * automatically when `.dark` toggles.
+ */
+html {
+  @apply scrollbar-thin scrollbar-thumb-muted scrollbar-track-background hover:scrollbar-thumb-primary;
+}
+
 .header-search,
 .pagefind-archive-search,
 .pagefind-search-page {
