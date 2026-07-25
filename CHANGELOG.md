@@ -1,5 +1,26 @@
 # Changelog
 
+## [2.6.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.5.0...v2.6.0) (2026-07-25)
+
+### Feat
+
+* **contact:** add inline field icons to contact form ([5e82e66](https://github.com/davidsneighbour/samui-samui.de/commit/5e82e66d6d2bd05be9a76c229f283c39b66fce20))
+* **contact:** add send icon to submit button ([3daa39f](https://github.com/davidsneighbour/samui-samui.de/commit/3daa39f9ee1bd9225d826de67cd1f2c649df5444))
+* **weather:** add lazily loaded Koh Samui weather widget ([92259ec](https://github.com/davidsneighbour/samui-samui.de/commit/92259ec89d8d03eb2c1b655980c7d5489f0ba911)), closes [#1657](https://github.com/davidsneighbour/samui-samui.de/issues/1657)
+
+### Fix
+
+* **contact:** align Dropbox link baseline with surrounding text ([26e1826](https://github.com/davidsneighbour/samui-samui.de/commit/26e1826f6e6bc4639aa4ca6376979cadbe39bcb1))
+* **map:** anchor round marker icons on their exact coordinate ([ecab6ad](https://github.com/davidsneighbour/samui-samui.de/commit/ecab6ad5c86b47997d78a682ef3e42fbc93f111f))
+
+### Style
+
+* **theme:** theme the root scrollbar via Tailwind scrollbar utilities ([e5b8400](https://github.com/davidsneighbour/samui-samui.de/commit/e5b84005bb51c5d3af3d228e0c7aef1190958544))
+
+### Chore
+
+* **project:** update project plan ([ae50086](https://github.com/davidsneighbour/samui-samui.de/commit/ae50086f42675051d9005c52e5f0b219e8db3065)), closes [#1657](https://github.com/davidsneighbour/samui-samui.de/issues/1657) [#717](https://github.com/davidsneighbour/samui-samui.de/issues/717) [#747](https://github.com/davidsneighbour/samui-samui.de/issues/747) [#927](https://github.com/davidsneighbour/samui-samui.de/issues/927) [#898](https://github.com/davidsneighbour/samui-samui.de/issues/898) [#1229](https://github.com/davidsneighbour/samui-samui.de/issues/1229)
+
 ## [2.5.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.4.0...v2.5.0) (2026-07-25)
 
 ### Content
