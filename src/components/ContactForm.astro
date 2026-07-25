@@ -4,6 +4,7 @@ import FormMessage from '@components/ui/form-message.astro';
 import Input from '@components/ui/input.astro';
 import Label from '@components/ui/label.astro';
 import Textarea from '@components/ui/textarea.astro';
+import { MailQuestionMark, MessageSquareWarning, UserPen } from '@lucide/astro';
 import { cn } from '@utils/cn';
 
 // Read at build/render time only; the site key is meant to be public and is
@@ -32,13 +33,20 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
   <div class="mt-4 grid gap-4 sm:grid-cols-2">
     <div class="grid gap-2">
       <Label for="contact-name">Name</Label>
-      <Input
-        id="contact-name"
-        name="name"
-        autocomplete="name"
-        required
-        aria-describedby="contact-name-error"
-      />
+      <div class="relative">
+        <UserPen
+          aria-hidden="true"
+          class="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground"
+        />
+        <Input
+          id="contact-name"
+          name="name"
+          autocomplete="name"
+          required
+          aria-describedby="contact-name-error"
+          class="pl-9"
+        />
+      </div>
       <FormMessage
         id="contact-name-error"
         data-field-error
@@ -46,14 +54,21 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
     </div>
     <div class="grid gap-2">
       <Label for="contact-email">Email</Label>
-      <Input
-        id="contact-email"
-        type="email"
-        name="email"
-        autocomplete="email"
-        required
-        aria-describedby="contact-email-error"
-      />
+      <div class="relative">
+        <MailQuestionMark
+          aria-hidden="true"
+          class="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground"
+        />
+        <Input
+          id="contact-email"
+          type="email"
+          name="email"
+          autocomplete="email"
+          required
+          aria-describedby="contact-email-error"
+          class="pl-9"
+        />
+      </div>
       <FormMessage
         id="contact-email-error"
         data-field-error
@@ -62,13 +77,20 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
   </div>
   <div class="mt-4 grid gap-2">
     <Label for="contact-message">Nachricht</Label>
-    <Textarea
-      id="contact-message"
-      name="message"
-      rows="8"
-      required
-      aria-describedby="contact-message-error"
-    />
+    <div class="relative">
+      <MessageSquareWarning
+        aria-hidden="true"
+        class="pointer-events-none absolute top-3 left-3 size-4 text-muted-foreground"
+      />
+      <Textarea
+        id="contact-message"
+        name="message"
+        rows="8"
+        required
+        aria-describedby="contact-message-error"
+        class="pl-9"
+      />
+    </div>
     <FormMessage
       id="contact-message-error"
       data-field-error
