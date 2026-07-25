@@ -1,0 +1,46 @@
+---
+// Icon mapping lives outside WeatherWidget.astro on purpose (see
+// documentation/features/weather-widget.md#lucide-icons) -- both this
+// widget and any future larger weather display resolve a WeatherIconName to
+// the same statically imported Lucide icon through this one component.
+import {
+  Cloud,
+  CloudDrizzle,
+  CloudFog,
+  CloudLightning,
+  CloudMoon,
+  CloudRain,
+  CloudRainWind,
+  CloudSun,
+  Moon,
+  Sun,
+} from '@lucide/astro';
+import type { WeatherIconName } from '@utils/weather/weather-codes';
+
+interface Props {
+  name: WeatherIconName;
+  class?: string | undefined;
+}
+
+const { name, class: className = '' } = Astro.props as Props;
+
+const ICONS = {
+  cloud: Cloud,
+  'cloud-drizzle': CloudDrizzle,
+  'cloud-fog': CloudFog,
+  'cloud-lightning': CloudLightning,
+  'cloud-moon': CloudMoon,
+  'cloud-rain': CloudRain,
+  'cloud-rain-wind': CloudRainWind,
+  'cloud-sun': CloudSun,
+  moon: Moon,
+  sun: Sun,
+} as const satisfies Record<WeatherIconName, unknown>;
+
+const Icon = ICONS[name];
+---
+
+<Icon
+  class={className}
+  aria-hidden="true"
+/>

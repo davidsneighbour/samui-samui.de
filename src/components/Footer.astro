@@ -1,9 +1,20 @@
 ---
 import Analytics from '@components/Analytics.astro';
+import WeatherWidget from '@components/weather/WeatherWidget.astro';
 import { Copyright, Volume2, VolumeX } from '@lucide/astro';
 
+interface Props {
+  // Opt out of the weather widget for pages that intentionally render no
+  // normal site chrome (see documentation/features/weather-widget.md#placement),
+  // e.g. 404.astro. Every other shared layout renders it by default.
+  hideWeather?: boolean | undefined;
+}
+
+const { hideWeather = false } = Astro.props as Props;
 const today = new Date();
 ---
+
+{!hideWeather && <WeatherWidget />}
 
 <!-- @todo this needs design work --><!-- <div
   class="mx-auto max-w-5xl px-4"

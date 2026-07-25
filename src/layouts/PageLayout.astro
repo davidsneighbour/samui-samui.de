@@ -8,6 +8,8 @@ interface Props {
   title?: string;
   description?: string | undefined;
   noindex?: boolean | undefined;
+  // Passed straight through to Footer.astro -- see its hideWeather prop.
+  hideWeather?: boolean | undefined;
   // Set when this layout is used via an MDX page's own `<PageLayout>` JSX
   // wrapper and passed `frontmatter` from that file's YAML frontmatter.
   frontmatter?: { title: string; description?: string };
@@ -18,6 +20,7 @@ const {
   description,
   frontmatter,
   noindex = false,
+  hideWeather = false,
 } = Astro.props as Props;
 const pageTitle = frontmatter?.title ?? title ?? '';
 const pageDescription = frontmatter?.description ?? description;
@@ -54,7 +57,7 @@ const pageDescription = frontmatter?.description ?? description;
         <slot />
       </article>
     </main>
-    <Footer />
+    <Footer hideWeather={hideWeather} />
     <slot name="scripts" />
   </body>
 </html>

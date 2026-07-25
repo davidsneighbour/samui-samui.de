@@ -5,6 +5,15 @@ publish = "dist"
 [functions]
 directory = "src/netlify/functions"
 
+# Same-origin proxy route for the weather widget (see
+# documentation/features/weather-widget.md) -- rewrites (not redirects,
+# status 200) so the browser only ever sees /api/weather and never the
+# function's implementation path or a direct connection to Open-Meteo.
+[[redirects]]
+from = "/api/weather"
+to = "/.netlify/functions/weather"
+status = 200
+
 [[redirects]]
 from = "/tags/"
 to = "/themen/"

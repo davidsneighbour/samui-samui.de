@@ -1,0 +1,146 @@
+---
+// Compact, lazy-loaded weather note -- see
+// documentation/features/weather-widget.md for the full architecture.
+//
+// This component only knows the normalised WeatherSnapshot shape (via the
+// WeatherIcon variants and data-weather-* targets below); it never parses a
+// raw Open-Meteo response itself. Nothing is fetched during render -- the
+// markup starts `inert` (see the <style> block for why not `hidden`) and
+// stays that way until WeatherWidgetClient.ts populates it after the widget
+// approaches the viewport.
+
+import {
+  WEATHER_BROWSER_CACHE_STORAGE_KEY,
+  WEATHER_ENDPOINT_PATH,
+  WEATHER_LOCATION,
+} from '@config/weather';
+import { Clock3 } from '@lucide/astro';
+import { ALL_WEATHER_ICON_NAMES } from '@utils/weather/weather-codes';
+import WeatherIcon from './WeatherIcon.astro';
+---
+
+<div class="mx-auto max-w-4xl px-4 pb-6 sm:px-6">
+  <dnb-weather-widget
+    class="weather-widget flex flex-col gap-3 rounded-(--radius) border border-border bg-card px-4 py-4 text-card-foreground sm:flex-row sm:items-center sm:gap-4 sm:px-6"
+    inert
+    data-endpoint={WEATHER_ENDPOINT_PATH}
+    data-storage-key={WEATHER_BROWSER_CACHE_STORAGE_KEY}
+  >
+    <div
+      class="weather-widget__icon flex size-10 shrink-0 items-center justify-center text-primary sm:size-12"
+      data-weather-icon
+      aria-hidden="true"
+    >
+      {ALL_WEATHER_ICON_NAMES.map((iconName) => (
+        <span
+          class="weather-widget__icon-variant"
+          data-icon={iconName}
+        >
+          <WeatherIcon name={iconName} class="size-8 sm:size-10" />
+        </span>
+      ))}
+    </div>
+    <div class="min-w-0 flex-1">
+      <p
+        class="weather-widget__headline text-lg font-medium leading-snug text-card-foreground"
+      >
+        <span data-weather-temp>--</span>&nbsp;°C im {WEATHER_LOCATION.label}
+      </p>
+      <p
+        class="mt-1 text-sm text-muted-foreground"
+        data-weather-summary
+      ></p>
+      <p
+        class="mt-1 text-sm text-muted-foreground"
+        data-weather-feels-like
+        hidden
+      ></p>
+      <p
+        class="mt-2 inline-flex flex-wrap items-center gap-x-1.5 gap-y-1 text-xs text-muted-foreground"
+      >
+        <Clock3
+          class="size-3.5 shrink-0"
+          aria-hidden="true"
+        />
+        <span>
+          Wetterstand <span data-weather-stand>--:--</span> Uhr · Ortszeit
+          <span data-weather-local-time>--:--</span>
+          Uhr
+        </span>
+      </p>
+      <p class="mt-1 text-xs text-muted-foreground/70">
+        Wetterdaten:
+        <a
+          href="https://open-meteo.com"
+          target="_blank"
+          rel="noopener noreferrer license"
+          class="text-link hover:underline"
+        >
+          Open-Meteo
+        </a>
+        · zusammengefasst · Lizenz
+        <a
+          href="https://creativecommons.org/licenses/by/4.0/"
+          target="_blank"
+          rel="noopener noreferrer license"
+          class="text-link hover:underline"
+        >
+          CC BY 4.0
+        </a>
+      </p>
+    </div>
+  </dnb-weather-widget>
+</div>
+
+<script>
+  import '@components/weather/WeatherWidgetClient';
+</script>
+
+<style>
+  /* `inert`, not `hidden`, marks the pre-load state -- and both would look
+       equivalent at a glance:
+       - `hidden` maps to `display: none` (Tailwind's preflight even forces it
+         with `!important`), which removes the element from layout entirely.
+         An element with no geometry can never intersect the viewport, so
+         IntersectionObserver would never fire and the widget would never
+         lazy-load in the first place.
+       - `aria-hidden` would hide it from assistive tech, but the attribution
+         links inside would stay focusable -- a real "focusable descendant of
+         an aria-hidden ancestor" accessibility violation.
+       `inert` removes the subtree from the accessibility tree *and* makes it
+       unfocusable, without forcing `display: none` -- so it keeps real
+       geometry for IntersectionObserver while this rule collapses it to a
+       visually empty, zero-size box. */
+  .weather-widget[inert] {
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    border-width: 0;
+    padding: 0;
+    opacity: 0;
+  }
+
+  /* Only the icon variant matching the controller's data-active-icon
+       attribute is shown -- see WeatherWidgetClient.ts's render(). All
+       variants are statically imported/rendered up front so no icon is ever
+       fetched or swapped in dynamically at runtime. */
+  .weather-widget__icon-variant {
+    display: none;
+  }
+
+  .weather-widget__icon[data-active-icon="sun"] [data-icon="sun"],
+  .weather-widget__icon[data-active-icon="moon"] [data-icon="moon"],
+  .weather-widget__icon[data-active-icon="cloud-sun"] [data-icon="cloud-sun"],
+  .weather-widget__icon[data-active-icon="cloud-moon"] [data-icon="cloud-moon"],
+  .weather-widget__icon[data-active-icon="cloud"] [data-icon="cloud"],
+  .weather-widget__icon[data-active-icon="cloud-fog"] [data-icon="cloud-fog"],
+  .weather-widget__icon[data-active-icon="cloud-drizzle"]
+    [data-icon="cloud-drizzle"],
+  .weather-widget__icon[data-active-icon="cloud-rain"] [data-icon="cloud-rain"],
+  .weather-widget__icon[data-active-icon="cloud-rain-wind"]
+    [data-icon="cloud-rain-wind"],
+  .weather-widget__icon[data-active-icon="cloud-lightning"]
+    [data-icon="cloud-lightning"] {
+    display: block;
+  }
+</style>

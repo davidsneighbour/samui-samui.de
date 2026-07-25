@@ -63,6 +63,9 @@
   caching.
 * [Sound effects](features/sound-effects.md) documents optional Cuelume
   interaction sounds, persistence, and fallback behavior.
+* [Weather widget](features/weather-widget.md) documents the compact,
+  lazy-loaded Koh Samui weather note, its Netlify/Open-Meteo proxy, and
+  caching layers.
 
 ## Repository
 
