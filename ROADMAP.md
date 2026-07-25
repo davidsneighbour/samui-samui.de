@@ -9,127 +9,98 @@ hand-editing it.
 
 * The Astro migration is complete. The site is now a static Astro project
   deployed on Netlify at [https://samui-samui.de](https://samui-samui.de).
-* Open GitHub issues: 14 as of 2026-07-24 (up from 5 on 2026-07-20).
-* **Map onboarding closed out this session.** [#1227](https://github.com/davidsneighbour/samui-samui.de/issues/1227)
-  (onboard MapLibre/OpenFreeMap) and [#1228](https://github.com/davidsneighbour/samui-samui.de/issues/1228)
-  (adapt contact map to a visible mapcn-style section) were both verified
-  fully implemented and closed: `src/components/ui/map.tsx` (mapcn
-  primitives), `src/config/maps.ts` (centralized OpenFreeMap config),
-  `src/data/map-points.json`/`.ts` (JSON point registry), `ContactMap.tsx`
-  rendering the DNB HQ marker visibly on `/kontakt/` via `client:visible`,
-  CSP allowing `tiles.openfreemap.org`, privacy wording in
-  `kleingedrucktes/datenschutzerklaerung.mdx`, and architecture notes in
-  AGENTS.md § Interactive maps.
-* **Quality-gate and schema cleanup closed out this session.**
-  [#1231](https://github.com/davidsneighbour/samui-samui.de/issues/1231)
-  (npm script taxonomy) and
-  [#1232](https://github.com/davidsneighbour/samui-samui.de/issues/1232)
-  (Astro content schema deprecation warnings) were verified already done:
-  `check` is the documented non-mutating umbrella
-  (`format:check && lint && validate && test`,
-  `documentation/quality-gates.md`), and `src/content.config.ts` imports
-  `z` from `astro/zod` with `.loose()` replacing the deprecated
-  `.passthrough()` call -- `npm run validate:content` now reports 0
-  errors/warnings/hints (down from the 57 `ts(6385)` hints noted last
-  session).
-* **Turnstile disclaimer styling closed out this session.**
-  [#1230](https://github.com/davidsneighbour/samui-samui.de/issues/1230) --
-  `ContactForm.astro`'s `.turnstile-disclaimer a` already uses
-  `var(--color-link)`, matching the site's link token.
-* **[#927](https://github.com/davidsneighbour/samui-samui.de/issues/927)
-  updated, left open.** `main` is now on TypeScript `6.0.3` (the interim
-  bump this issue proposed), and `npm ci`/`astro check` succeed cleanly.
-  Dependabot has rebased PR #920 to "bump typescript from 6.0.3 to 7.0.2";
-  it stays blocked by `@astrojs/check@0.9.9`'s `^5.0.0 || ^6.0.0` peer
-  dependency until upstream ships TS 7 support.
-* **Eight new issues filed from TODO.md notes this session**
-  ([#1648](https://github.com/davidsneighbour/samui-samui.de/issues/1648)-[#1655](https://github.com/davidsneighbour/samui-samui.de/issues/1655),
-  see Content and design / Analytics and tracking / Maintenance sections
-  below). `TODO.md` is now empty of processed notes.
-* **[#1229](https://github.com/davidsneighbour/samui-samui.de/issues/1229)**
-  (Dropbox drop address) needs the replacement URL from the site owner before
-  it's actionable -- clarification comment added.
-* An "Analytics is loaded last from `Footer.astro`, tracking-loss-on-navigation
-  is an accepted tradeoff" note from `TODO.md` was written directly into
-  AGENTS.md § Analytics (assistant-instruction item, not GitHub-issue
-  material, per the "add instructions immediately" marker in `TODO.md`).
-* Local health checks on 2026-07-24: `npm run check` passes (Biome
+* Open GitHub issues: 15 as of 2026-07-25 (was 14 on 2026-07-24).
+* **New issue since last regen:** [#1657](https://github.com/davidsneighbour/samui-samui.de/issues/1657)
+  (add a lazily loaded Koh Samui weather widget, Open-Meteo via a Netlify
+  Function proxy/cache; `status:in-progress`) - see
+  `documentation/features/weather-widget.md` for the architecture.
+* **[#717](https://github.com/davidsneighbour/samui-samui.de/issues/717)
+  removed from this roadmap -- confirmed complete and closed.** All 802
+  Disqus discussion threads / 1,868 comments were imported into GitHub
+  Discussions and verified live via giscus; the stale reference in the
+  previous roadmap version has been reconciled.
+* [#1656](https://github.com/davidsneighbour/samui-samui.de/issues/1656)
+  (experimental `/timeline/` life-timeline map) was also closed since the
+  last regen -- no roadmap change needed, it was never listed here.
+* **Label taxonomy note:** most open issues (all except #1657) currently
+  carry only a `type:*` label -- the `prio:*`/`status:*` labels the previous
+  roadmap version quoted for #747, #927, #898, and #1229 are no longer
+  present on those issues. This roadmap now reflects the issues' actual
+  current labels rather than carrying the old ones forward; re-labelling is
+  outside this skill's scope (see `dnb-github-label-classifier`).
+* Local health checks on 2026-07-25: `npm run check` passes (Biome
   format/lint, markdownlint, `astro check` -- 0 errors/warnings/hints --,
-  taxonomy validation, and 121 Vitest tests across 16 files, all green).
-  `npm audit --omit=dev` reports 0 vulnerabilities. `npm outdated` shows
-  only `typescript` (6.0.3 installed vs. 7.0.2 latest, held back by
-  `@astrojs/check`, see #927).
-* Three open Dependabot security alerts remain, all tracked by
-  [#747](https://github.com/davidsneighbour/samui-samui.de/issues/747):
-  `linkify-it` (high), `js-yaml` (high), `markdown-it` (medium) -- all in
-  the markdownlint devDependency chain, not shipped to the deployed site.
+  taxonomy validation, and 202 Vitest tests across 24 files, all green --
+  up from 121 tests/16 files on 2026-07-24). `npm audit --omit=dev` reports
+  0 vulnerabilities.
+* Two open clarification questions remain unresolved: the replacement
+  Dropbox address for [#1229](https://github.com/davidsneighbour/samui-samui.de/issues/1229),
+  and scope decisions for [#745](https://github.com/davidsneighbour/samui-samui.de/issues/745)
+  and [#1655](https://github.com/davidsneighbour/samui-samui.de/issues/1655).
+
+## Features in progress
+
+* [#1657](https://github.com/davidsneighbour/samui-samui.de/issues/1657)
+  Add lazily loaded Koh Samui weather widget (`type:enhancement`,
+  `status:in-progress`, `prio:medium`) - editorial-style weather note
+  between page content and footer; Open-Meteo proxied/cached through a
+  Netlify Function so the browser never talks to Open-Meteo directly or
+  leaks visitor location. Full design in
+  `documentation/features/weather-widget.md`.
 
 ## Security and dependencies
 
 * [#747](https://github.com/davidsneighbour/samui-samui.de/issues/747) chore(deps):
   outdated markdown-it/linkify-it/js-yaml pins in markdownlint toolchain
-  (`prio:high`, `status:confirmed`) - highest-priority open item. Tracks
-  three open Dependabot advisories (two high, one medium) in the
-  markdownlint tooling chain (devDependency only, not shipped to the
-  deployed site).
+  (`type:security`) - tracks four open GHSA advisories in the markdownlint
+  tooling chain (devDependency only, not shipped to the deployed site).
 * [#927](https://github.com/davidsneighbour/samui-samui.de/issues/927) chore(deps):
-  typescript 7.0.2 blocked by `@astrojs/check` peer dependency (`prio:medium`) -
-  interim bump to 6.0.3 already landed on `main`; PR #920 stays open and
-  blocked until `@astrojs/check` supports TypeScript 7.
+  typescript 7.0.2 blocked by `@astrojs/check` peer dependency
+  (`type:dependencies`) - interim bump to 6.0.3 already landed on `main`;
+  PR #920 stays open and blocked until `@astrojs/check` supports
+  TypeScript 7.
 
 ## Content and design
 
 * [#898](https://github.com/davidsneighbour/samui-samui.de/issues/898)
-  Implement optional post cover media system (`prio:medium`,
-  `status:in-progress`) - refactor to let posts define cover frontmatter for
-  local images, YouTube, or Vimeo, with rendering and a migration path for
-  historical posts. Active: several related cover-rendering fixes have
-  landed recently (single-post cover corner/frame fixes, legacy-image
-  presentation system).
+  Implement optional post cover media system (`type:enhancement`) -
+  refactor to let posts define cover frontmatter for local images, YouTube,
+  or Vimeo, with rendering and a migration path for historical posts.
 * [#1652](https://github.com/davidsneighbour/samui-samui.de/issues/1652)
   Redesign archive year view: single-line header and per-year month
-  coloring (`type:enhancement`, new) - collapse each year row to one line,
-  add a calendar icon to the months dropdown, larger dots with a
-  hover-reveal month name, remove inter-year divider lines, switch to a
-  grid layout, and scale month-dot color per-year instead of against the
-  full 21-year archive max. Builds on the closed `/archiv/` milestone
-  (#903-#917, #928); reuse the real-browser contrast-check methodology
-  from #916 rather than checking against the wrong background layer.
+  coloring (`type:enhancement`) - collapse each year row to one line, add
+  a calendar icon to the months dropdown, larger dots with a hover-reveal
+  month name, remove inter-year divider lines, switch to a grid layout,
+  and scale month-dot color per-year instead of against the full 21-year
+  archive max. Builds on the closed `/archiv/` milestone (#903-#917, #928).
 * [#1649](https://github.com/davidsneighbour/samui-samui.de/issues/1649)
-  Add legal navigation to the footer (`type:enhancement`, new) - surface
+  Add legal navigation to the footer (`type:enhancement`) - surface
   Impressum, Datenschutzerklärung, and Kommentarpolicy as a footer nav
   group via `src/data/navigation/footer.json`.
 * [#1650](https://github.com/davidsneighbour/samui-samui.de/issues/1650)
-  Move sound on/off toggle title into a tooltip (`type:enhancement`, new) -
+  Move sound on/off toggle title into a tooltip (`type:enhancement`) -
   replace the native `title` attribute with the existing shadcn Tooltip
   primitive, opening above the icon on hover/focus.
 * [#1229](https://github.com/davidsneighbour/samui-samui.de/issues/1229)
-  Update contact Dropbox drop address (unlabeled, new) - blocked on the
+  Update contact Dropbox drop address (unlabeled) - blocked on the
   replacement URL; clarification comment posted.
 
 ## Analytics and tracking
 
 * [#1653](https://github.com/davidsneighbour/samui-samui.de/issues/1653)
-  Add Matomo tracking documentation links (`type:documentation`, new) -
-  link the three official Matomo tracking-API docs near `Analytics.astro`
-  so future tracking work has a reference.
+  Add Matomo tracking documentation links (`type:documentation`) - link
+  the three official Matomo tracking-API docs near `Analytics.astro` so
+  future tracking work has a reference.
 * [#1654](https://github.com/davidsneighbour/samui-samui.de/issues/1654)
-  Add Matomo internal search tracking (`type:enhancement`, new) - wire
+  Add Matomo internal search tracking (`type:enhancement`) - wire
   `trackSiteSearch` into `/suche/`, respecting the existing
   Footer-loaded/best-effort analytics strategy; may need a privacy-wording
   update.
 
-## Comments and community
-
-* [#717](https://github.com/davidsneighbour/samui-samui.de/issues/717) Migrate
-  historical Disqus comments into Giscus/GitHub Discussions (`prio:low`,
-  `status:blocked`) - data migration remains blocked until the import approach,
-  attribution handling, and Giscus production setup are ready.
-
 ## Data and content migration
 
 * [#1234](https://github.com/davidsneighbour/samui-samui.de/issues/1234)
-  Research legacy Textpattern link and footnote tags (`type:data`, new) -
+  Research legacy Textpattern link and footnote tags (`type:data`) -
   review posts with `publisher.textpattern: true` for unresolvable
   `<txp:gho_permalink>`/`<txp:permlink>` tags (manual source research) and
   `<txp:footnote>` tags (possibly migratable to Markdown footnotes).
@@ -137,27 +108,27 @@ hand-editing it.
 ## Editorial tooling
 
 * [#745](https://github.com/davidsneighbour/samui-samui.de/issues/745)
-  Auto-replace HTML entity umlauts (`&uuml;` etc.) with proper characters on
-  save/commit (`prio:low`, `status:unconfirmed`, `meta:question`) - needs a
-  scope decision before implementation.
+  Auto-replace HTML entity umlauts (`&uuml;` etc.) with proper characters
+  on save/commit (`type:enhancement`) - needs a scope decision before
+  implementation.
 
 ## Maintenance and DX
 
 * [#1648](https://github.com/davidsneighbour/samui-samui.de/issues/1648)
   Ignore root UPPERCASE markdown files in local dev watcher
-  (`type:enhancement`, new) - extend the existing Vite
+  (`type:enhancement`) - extend the existing Vite
   `watch.ignored: ['**/scratch/**']` pattern (from closed #1351) to cover
   `README.md`/`TODO.md`/`ROADMAP.md`/etc. so routine project-file edits
   stop triggering dev-server reloads.
 * [#1651](https://github.com/davidsneighbour/samui-samui.de/issues/1651)
   Document `.text-box-balanced` CSS class and translate hack
-  (`type:documentation`, new) - explain the Firefox-specific vertical-balance
+  (`type:documentation`) - explain the Firefox-specific vertical-balance
   workaround in `theme.css` before someone "cleans it up" and reintroduces
   the bug it fixes.
 * [#1655](https://github.com/davidsneighbour/samui-samui.de/issues/1655)
-  Evaluate tweakCN for theme fine-tuning (`type:chore`, new) - spike on
-  whether the tweakcn.com visual token editor is worth adopting for this
-  project's shadcn/Tailwind theme; decide adopt/visualize-only/reject.
+  Evaluate tweakCN for theme fine-tuning (`type:chore`) - spike on whether
+  the tweakcn.com visual token editor is worth adopting for this project's
+  shadcn/Tailwind theme; decide adopt/visualize-only/reject.
 
 ## Open clarification questions
 
@@ -173,43 +144,41 @@ hand-editing it.
 * [#927](https://github.com/davidsneighbour/samui-samui.de/issues/927) - decide
   whether to keep waiting for `@astrojs/check` to support TypeScript 7, or
   close PR #920 outright now that the safe interim bump (6.0.3) has landed.
-* [#717](https://github.com/davidsneighbour/samui-samui.de/issues/717) - decide
-  migration scope (all comments vs. curated subset) and attribution approach
-  for re-posted historical comments.
 
 ## Project health indicators
 
 * `npm run check` (format:check + lint + validate + test): **passing** --
-  Biome format/lint clean, markdownlint clean (60 files), `astro check` 0
-  errors/0 warnings/0 hints (127 files), taxonomy references valid, 121
-  Vitest tests passing across 16 files.
+  Biome format/lint clean, markdownlint clean (63 files), `astro check` 0
+  errors/0 warnings/0 hints (165 files), taxonomy references valid, 202
+  Vitest tests passing across 24 files.
 * `npm audit --omit=dev`: **0 vulnerabilities**.
-* `npm outdated`: only `typescript` behind (6.0.3 installed, 7.0.2 latest --
-  intentionally held back, see #927).
-* Dependabot security alerts: **3 open**, all tracked by #747
-  (linkify-it/high, js-yaml/high, markdown-it/medium; devDependency-only).
+* `npm outdated`: `typescript` (6.0.3 installed, 7.0.2 latest -- held back
+  intentionally, see #927) and `@playwright/test` (1.61.1 installed, 1.62.0
+  latest -- minor, unblocked).
+* Dependabot security alerts: tracked by #747 (markdownlint toolchain
+  advisories, devDependency-only, not shipped to the deployed site).
 * Full `npm run build` not re-run this session; last confirmed clean
   2026-07-20 (2374 pages, sitemap + Pagefind index).
 
 ## Recommended next steps
 
-1. Handle [#747](https://github.com/davidsneighbour/samui-samui.de/issues/747)
-   as the only remaining open security issue (3 Dependabot advisories in the
-   markdownlint chain).
-2. Supply the replacement address for
+1. Continue [#1657](https://github.com/davidsneighbour/samui-samui.de/issues/1657)
+   (weather widget, already in progress).
+2. Handle [#747](https://github.com/davidsneighbour/samui-samui.de/issues/747)
+   as the remaining open security-tagged item (markdownlint toolchain
+   advisories).
+3. Supply the replacement address for
    [#1229](https://github.com/davidsneighbour/samui-samui.de/issues/1229) so
    the Dropbox link can be updated.
-3. Continue [#898](https://github.com/davidsneighbour/samui-samui.de/issues/898)
-   (already in progress).
-4. Pick up the small, self-contained new issues opportunistically:
+4. Continue [#898](https://github.com/davidsneighbour/samui-samui.de/issues/898)
+   opportunistically -- cover-rendering fixes have been landing piecemeal.
+5. Pick up the small, self-contained new issues opportunistically:
    [#1648](https://github.com/davidsneighbour/samui-samui.de/issues/1648)
    (dev-watcher ignore), [#1651](https://github.com/davidsneighbour/samui-samui.de/issues/1651)
    (`.text-box-balanced` docs), and
    [#1653](https://github.com/davidsneighbour/samui-samui.de/issues/1653)
    (Matomo doc links) are all low-risk, low-effort.
-5. Decide the scope for
+6. Decide the scope for
    [#745](https://github.com/davidsneighbour/samui-samui.de/issues/745) before
    implementation, because the right fix depends on whether this should happen in
    the editor, pre-commit flow, or a content-cleanup script.
-6. Resume [#717](https://github.com/davidsneighbour/samui-samui.de/issues/717)
-   once the comment platform setup and migration/import plan are unblocked.
