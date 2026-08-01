@@ -42,7 +42,7 @@
     "@iconify-json/simple-icons": "1.2.91",
     "@lucide/astro": "1.26.0",
     "@playwright/mcp": "0.0.78",
-    "@playwright/test": "1.61.1",
+    "@playwright/test": "1.62.0",
     "@react-email/components": "1.0.12",
     "@react-email/render": "2.1.0",
     "@release-it/conventional-changelog": "11.0.1",
