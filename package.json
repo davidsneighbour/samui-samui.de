@@ -36,7 +36,7 @@
     "@astrojs/sitemap": "3.7.3",
     "@biomejs/biome": "2.5.5",
     "@dnbhq/biome-config": "0.2.3",
-    "@dnbhq/markdownlint-config": "0.2.8",
+    "@dnbhq/markdownlint-config": "0.2.11",
     "@dnbhq/release-config": "1.1.0",
     "@iconify-json/bi": "1.2.7",
     "@iconify-json/simple-icons": "1.2.91",
