@@ -12,7 +12,7 @@ cover:
   type: image
   caption: "Ein Reisepass ist klein, aber seine Reichweite ist sehr unterschiedlich. Foto: Andrej Lisakov / Unsplash."
   alt: "Ein Reisepass und Reisedokumente liegen auf einem Tisch"
-date: 2026-08-01T05:00:00+07:00
+date: 2026-08-17T05:00:00+07:00
 ---
 
 Ein Reisepass sieht zunächst einmal recht unspektakulär aus: ein kleines Heft, ein Wappen auf dem Einband und einige Seiten, die heute kaum noch jemand abstempelt. Trotzdem entscheidet dieses Heft darüber, ob man spontan einen Flug buchen kann oder zunächst Formulare, Kontoauszüge, Einladungen und andere Nachweise zusammensuchen muss.
