@@ -1,10 +1,13 @@
 {
   "dependencies": {
-    "lucide-react": "1.26.0"
+    "lucide": "1.31.0",
+    "morphicons": "1.7.0",
+    "lucide-react": "1.31.0"
   },
   "devDependencies": {
-    "@lucide/astro": "1.26.0",
+    "@lucide/astro": "1.31.0",
     "@iconify-json/bi": "1.2.7",
+    "@iconify-json/simple-icons": "1.2.93",
     "astro-icon": "1.1.5",
     "bootstrap-icons": "1.13.1"
   }

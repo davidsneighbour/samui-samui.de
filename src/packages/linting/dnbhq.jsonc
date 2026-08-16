@@ -1,12 +1,12 @@
 {
   "devDependencies": {
-    "@biomejs/biome": "2.5.5",
+    "@biomejs/biome": "2.5.8",
     "@dnbhq/biome-config": "0.2.3",
-    "@dnbhq/markdownlint-config": "0.2.8",
+    "@dnbhq/markdownlint-config": "0.2.11",
     "@dnbhq/release-config": "1.1.0",
-    "@release-it/conventional-changelog": "11.0.1",
-    "lint-staged": "17.2.0",
-    "release-it": "20.2.1",
+    "@release-it/conventional-changelog": "12.0.0",
+    "lint-staged": "17.3.0",
+    "release-it": "21.0.2",
     "simple-git-hooks": "2.13.1"
   },
   "lint-staged": {

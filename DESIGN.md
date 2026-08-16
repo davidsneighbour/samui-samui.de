@@ -372,9 +372,10 @@ sharp (0px) corners.
   hover-capable pointer devices.
 * **ThemeToggle** (`src/components/ThemeToggle.astro`) — header icon
   button for switching between light and dark themes. It uses a fixed
-  40px hit area (`size-10`), `rounded-(--radius)`, the existing
-  `accent` hover fill, and cross-fades Lucide `Sun`/`Moon` icons with
-  explicit `opacity`, `transform`, and `filter` transitions.
+  44px hit area (`size-11`), `rounded-(--radius)`, the existing
+  `accent` hover fill, and Morphicons' Astro custom element to morph
+  between Lucide `Sun`/`Moon` icon data while honoring the user's
+  reduced-motion preference.
 * **Giscus comments** (`src/components/Giscus.astro` plus
   `public/assets/styles/giscus-samui-light.css` and
   `public/assets/styles/giscus-samui-dark.css`) — the iframe cannot

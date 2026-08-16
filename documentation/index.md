@@ -12,6 +12,8 @@
   `<dnb-notice>` rendering pipeline.
 * [Post covers](components/post-covers.md) describes optional image, YouTube,
   and Vimeo cover media rendered by post and list views.
+* [Theme toggle](components/theme-toggle.md) documents the masthead light/dark
+  theme button and its Morphicons icon morph.
 * [Tooltips](components/tooltips.md) documents the shared tooltip primitive.
 * [Vimeo embed](components/vimeo.md) documents the lazy Vimeo Astro wrapper and
   raw Markdown custom element.

@@ -1,5 +1,6 @@
 ---
-import { Moon, Sun } from '@lucide/astro';
+import { Moon } from 'lucide';
+import MorphIcon from 'morphicons/astro';
 ---
 
 <button
@@ -11,82 +12,84 @@ import { Moon, Sun } from '@lucide/astro';
   title="Helles Farbschema aktivieren"
   data-cuelume-toggle="bloom"
 >
-  <span
-    class="theme-toggle__icon theme-toggle__icon--sun absolute inset-0 inline-flex items-center justify-center"
-    aria-hidden="true"
-  >
-    <Sun class="size-5" />
-  </span>
-  <span
-    class="theme-toggle__icon theme-toggle__icon--moon inline-flex items-center justify-center"
-    aria-hidden="true"
-  >
-    <Moon class="size-5" />
-  </span>
+  <MorphIcon
+    icon={Moon}
+    class="theme-toggle__icon size-5"
+    size={20}
+    strokeWidth={2}
+    reducedMotion="user"
+  />
 </button>
 
-<!-- data-astro-rerun: rebinds the click listener on every view-transition
-     navigation; otherwise a page swapped in after the first load gets a
-     button with no handler attached. -->
-<script
-  is:inline
-  data-astro-rerun
->
-  (() => {
-    const button = document.currentScript?.previousElementSibling;
-    if (!(button instanceof HTMLButtonElement)) return;
+<script>
+  import { Moon, Sun } from 'lucide';
+  import type { MorphIconElement } from 'morphicons/element';
 
-    const updateButton = () => {
-      const isDark = document.documentElement.classList.contains('dark');
-      const label = isDark
-        ? 'Helles Farbschema aktivieren'
-        : 'Dunkles Farbschema aktivieren';
+  declare global {
+    interface Window {
+      SamuiThemeToggleBound?: boolean;
+      SamuiTheme?: {
+        getTheme: () => 'dark' | 'light';
+        setTheme: (theme: 'dark' | 'light') => void;
+        toggleTheme: () => void;
+      };
+    }
+  }
 
-      button.dataset.theme = isDark ? 'dark' : 'light';
-      button.setAttribute('aria-pressed', String(isDark));
-      button.setAttribute('aria-label', label);
-      button.title = label;
-    };
+  const updateButton = (button: HTMLButtonElement) => {
+    const icon = button.querySelector<MorphIconElement>('morph-icon');
+    const isDark = document.documentElement.classList.contains('dark');
+    const label = isDark
+      ? 'Helles Farbschema aktivieren'
+      : 'Dunkles Farbschema aktivieren';
 
-    button.addEventListener('click', () => {
+    button.dataset['theme'] = isDark ? 'dark' : 'light';
+    button.setAttribute('aria-pressed', String(isDark));
+    button.setAttribute('aria-label', label);
+    button.title = label;
+    const themeIcon = isDark ? Moon : Sun;
+    if (typeof icon?.morphTo === 'function') {
+      icon.morphTo(themeIcon);
+    } else if (icon) {
+      icon.icon = themeIcon;
+    }
+  };
+
+  const updateButtons = () => {
+    for (const button of document.querySelectorAll<HTMLButtonElement>(
+      '[data-theme-toggle]',
+    )) {
+      updateButton(button);
+    }
+  };
+
+  if (!window.SamuiThemeToggleBound) {
+    window.SamuiThemeToggleBound = true;
+    document.addEventListener('click', (event) => {
+      const target = event.target;
+      if (!(target instanceof Element)) return;
+
+      const button = target.closest<HTMLButtonElement>('[data-theme-toggle]');
+      if (!button) return;
+
       window.SamuiTheme?.toggleTheme();
-      updateButton();
+      updateButtons();
     });
-    document.addEventListener('samui-theme-change', updateButton);
-    updateButton();
-  })();
+    document.addEventListener('samui-theme-change', updateButtons);
+    document.addEventListener('astro:page-load', updateButtons);
+  }
+
+  updateButtons();
 </script>
 
 <style>
   .theme-toggle__icon {
-    opacity: 0;
-    transform: scale(0.25);
-    filter: blur(4px);
-    transition-property: opacity, transform, filter;
-    transition-duration: 180ms;
-    transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
-  }
-
-  .theme-toggle__icon--sun {
-    opacity: 1;
-    transform: scale(1);
-    filter: blur(0);
-  }
-
-  :global(.dark) .theme-toggle__icon--sun {
-    opacity: 0;
-    transform: scale(0.25);
-    filter: blur(4px);
-  }
-
-  :global(.dark) .theme-toggle__icon--moon {
-    opacity: 1;
-    transform: scale(1);
-    filter: blur(0);
+    display: inline-flex;
+    color: currentColor;
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .theme-toggle__icon {
+    .theme-toggle__icon :global(svg) {
       transition: none;
     }
   }

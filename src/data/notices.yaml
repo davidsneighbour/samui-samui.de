@@ -37,7 +37,7 @@ historische-informationen-koennen-veraltet-sein:
     Dieser Beitrag ist Teil des Archivs und kann veraltete Informationen
     enthalten. Namen, Preise, Öffnungszeiten und ähnliche Angaben wurden seit
     der Veröffentlichung möglicherweise nicht mehr aktualisiert.
-  icon: "history"
+  icon: "clock-fading"
   variant: "historical"
 
 aktualisierung-verfuegbar:
