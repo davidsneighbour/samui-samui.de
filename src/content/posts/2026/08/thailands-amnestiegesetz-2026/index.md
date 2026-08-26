@@ -18,7 +18,7 @@ sources:
   - title: "Peaceful Society Promotion Act B.E. 2569 (2026)"
     publisher: "Royal Gazette"
     src: "https://ratchakitcha.soc.go.th/documents/123992.pdf"
-    local: "123992.pdf"
+    local: "https://samui-samui.de/2026/08/thailands-amnestiegesetz-2026/123992.pdf"
   - title: "Amnesty law takes effect Monday, excludes lese majeste offences"
     publisher: "Bangkok Post"
     src: "https://www.bangkokpost.com/thailand/general/3306575/amnesty-law-takes-effect-monday-excludes-lese-majeste-offences"
@@ -91,4 +91,4 @@ Mit dem Inkrafttreten beginnt daher weniger ein großer Schlussstrich unter 20 J
 * [Bangkok Post: Amnesty law takes effect Monday, excludes lese majeste offences](https://www.bangkokpost.com/thailand/general/3306575/amnesty-law-takes-effect-monday-excludes-lese-majeste-offences)
 * [Thai PBS World: Amnesty law for political cases takes effect tomorrow](https://world.thaipbs.or.th/detail/amnesty-law-for-political-cases-takes-effect-tomorrow/62483)
 * [Thairath: Royal Endorsement of the Peaceful Society Promotion Act Takes Effect on 24 Aug](https://en.thairath.co.th/news/politic/2954710)
-* [Lokale Kopie des Royal-Gazette-PDFs](123992.pdf)
+* [Lokale Kopie des Royal-Gazette-PDFs](https://samui-samui.de/2026/08/thailands-amnestiegesetz-2026/123992.pdf)
