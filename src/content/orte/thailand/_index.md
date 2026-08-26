@@ -1,0 +1,4 @@
+---
+title: Thailand
+type: land
+---
