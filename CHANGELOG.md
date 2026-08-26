@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.7.0](https://github.com/davidsneighbour/samui-samui/compare/v2.6.0...v2.7.0) (2026-08-26)
+
+### Content
+
+* add Thailand amnesty law post ([1b3bcd7](https://github.com/davidsneighbour/samui-samui/commit/1b3bcd74c1112dd357827da69c8a0d8eaf35b943)), closes [#1662](https://github.com/davidsneighbour/samui-samui/issues/1662)
+* publish passport mobility comparison ([8a7354f](https://github.com/davidsneighbour/samui-samui/commit/8a7354f359edba61f7e4c921df2f463559e8bb1b)), closes [#1660](https://github.com/davidsneighbour/samui-samui/issues/1660)
+* update passport post date ([6b4e43f](https://github.com/davidsneighbour/samui-samui/commit/6b4e43f7d796d374e335fafb993a514953e45446)), references [#1660](https://github.com/davidsneighbour/samui-samui/issues/1660)
+
+### Feat
+
+* **theme:** morph theme toggle icon ([21486a6](https://github.com/davidsneighbour/samui-samui/commit/21486a6912358db5d2649215379e0b904901c540)), closes [#1661](https://github.com/davidsneighbour/samui-samui/issues/1661)
+
+### Build
+
+* **deps:** update dependencies ([0fb9a26](https://github.com/davidsneighbour/samui-samui/commit/0fb9a264d1965627e2c8eb9efc523ec5a041c110))
+
+### Chore
+
+* recent smaller changes ([e5f15e9](https://github.com/davidsneighbour/samui-samui/commit/e5f15e9c3536c188c7a71c0a9e54914a87e89136))
+
 ## [2.6.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.5.0...v2.6.0) (2026-07-25)
 
 ### Feat
