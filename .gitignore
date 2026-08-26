@@ -188,6 +188,11 @@ sketch
 # local scratch notes
 scratch
 
+# Local project-management working files
+/PROJECT.md
+/ROADMAP.md
+/TODO.md
+
 # Local Netlify folder -- state.json (site link) is tracked, everything
 # else (functions bundles, deploy logs, etc.) is local/generated
 .netlify/*

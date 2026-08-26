@@ -9,7 +9,8 @@ it applies to every agent working in this repo, not just Claude Code.
 
 ## Claude code specific notes
 
-* The `dnb-project-task-triage` skill governs `ROADMAP.md`/`TODO.md` reconciliation
-  against GitHub Issues; use it instead of hand-editing `ROADMAP.md`.
+* The `dnb-project-task-triage` skill governs local `PROJECT.md`/`TODO.md`
+  reconciliation against GitHub Issues; use it instead of hand-editing
+  `PROJECT.md`.
 * The `dnb-site-audit` skill is appropriate for launch-readiness / technical-SEO /
   accessibility review of [https://samui-samui.de](https://samui-samui.de) or a local preview.

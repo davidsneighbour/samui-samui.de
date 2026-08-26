@@ -181,15 +181,16 @@ rules live in
 * Every time an agent writes an issue number, it MUST link to the issue online, e.g.
   `[#123](https://github.com/davidsneighbour/samui-samui.de/issues/123)`, rather than
   printing a bare number. This applies everywhere: chat output and summaries to the
-  user, GitHub issue bodies/comments, `ROADMAP.md`, and other documentation. The only
+  user, GitHub issue bodies/comments, `PROJECT.md`, and other documentation. The only
   exception is commit messages, where bare `#123` is sufficient — GitHub auto-links it
   there, whereas a markdown link renders as literal text in `git log`.
 
-* `ROADMAP.md` MUST reflect the current set of open GitHub issues (a generated index,
-  not hand-maintained prose) and `TODO.md` MUST stay a scratchpad for notes that are
-  not yet actionable GitHub issues. The `dnb-project-task-triage` skill governs
-  reconciling these two files against GitHub Issues — use it rather than
-  hand-editing `ROADMAP.md`.
+* `PROJECT.md` MUST reflect the current set of open GitHub issues (a generated local
+  index, not hand-maintained prose) and `TODO.md` MUST stay a scratchpad for notes
+  that are not yet actionable GitHub issues. Both files are local working state and
+  MUST NOT be committed. The `dnb-project-task-triage` skill governs reconciling
+  these two files against GitHub Issues — use it rather than hand-editing
+  `PROJECT.md`.
 
 * Editor/workspace configuration changes (e.g. `.vscode/settings.json`, including
   ones VS Code generates automatically such as `explorer.fileNesting.patterns`
