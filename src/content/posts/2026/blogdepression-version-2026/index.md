@@ -47,7 +47,7 @@ Der Strand bleibt unterdessen völlig unbeeindruckt liegen.
 
 ## Warum ein alter Blog immer schwerer wird
 
-Je länger man nichts veröffentlicht, desto wichtiger und weltbewegend-sein-m&uuml;ssender erscheint der nächste Beitrag.
+Je länger man nichts veröffentlicht, desto wichtiger und weltbewegend-sein-müssender erscheint der nächste Beitrag.
 
 Nach zwei Wochen Pause kann man irgendeine kleine Beobachtung veröffentlichen. Nach zwei Jahren glaubt man, eine Erklärung abgeben zu müssen. Nach fünf Jahren sollte der erste neue Beitrag möglichst die Weltlage einordnen, die eigene Abwesenheit erklären, einen Neustart ankündigen und gleichzeitig literarisch wertvoll sein.
 
@@ -67,7 +67,7 @@ Nicht jeder Text muss ein umfassender Reiseführer über Thailand sein.
 
 Ein kaputter Strommast, eine neue Ampel, ein ungewöhnliches Essen oder ein Hund, der seit drei Tagen denselben schattigen Parkplatz bewacht, können ausreichen. Blogs leben nicht nur von großen Ereignissen. Sie leben von Beobachtungen.
 
-Gerade auf Koh Samui sind die kleinen Veränderungen oft interessanter als die nächste Liste der zehn schönsten Strände. &Uuml;brigens sind die nur solange die sch&ouml;nsten Str&auml;nde bis sie jemand listet und dann alle dort hin gehen.
+Gerade auf Koh Samui sind die kleinen Veränderungen oft interessanter als die nächste Liste der zehn schönsten Strände. Übrigens sind die nur solange die schönsten Strände bis sie jemand listet und dann alle dort hin gehen.
 
 ### 2. Schreiben und Veröffentlichen wieder trennen
 

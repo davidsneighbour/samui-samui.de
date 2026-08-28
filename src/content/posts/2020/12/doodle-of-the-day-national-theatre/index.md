@@ -1,6 +1,6 @@
 ---
 title: "Google Doodle des Tages: Das National-Theater"
-description: "Das heutige Doodle feiert das Thai National Theatre, eine Kulturstätte in der Bangkok. Das Theater wurde an diesem Tag im Jahr 1965 mit einer Eröffnungszeremonie mit thailändischem _kŏhn_ T&auml;anzen (maskierte Tänzer f&uuml;hren Geschichten aus dem Ramakian vor) vor einem Publikum eingeweiht."
+description: "Das heutige Doodle feiert das Thai National Theatre, eine Kulturstätte in der Bangkok. Das Theater wurde an diesem Tag im Jahr 1965 mit einer Eröffnungszeremonie mit thailändischem _kŏhn_ Täanzen (maskierte Tänzer führen Geschichten aus dem Ramakian vor) vor einem Publikum eingeweiht."
 date: 2020-12-23T20:54:35+07:00
 lastmod: 2020-12-23T20:54:35+07:00
 url: /2020/12/google-doodle-des-tages-national-theater
@@ -21,7 +21,7 @@ cover:
   type: image
   src: celebrating-the-national-theatre-6753651837108751-2x.png
 ---
-Das heutige Doodle feiert das Thai National Theatre, eine Kulturstätte in Bangkok. Das Theater wurde an diesem Tag im Jahr 1965 mit einer Eröffnungszeremonie mit thailändischem _kŏhn_ T&auml;anzen (maskierte Tänzer f&uuml;hren Geschichten aus dem Ramakian vor) vor einem Publikum eingeweiht, dem Mitglieder des Königshauses beiwohnten - die erste von vielen kulturellen Veranstaltungen, die dort seit Jahrzehnten stattfinden.
+Das heutige Doodle feiert das Thai National Theatre, eine Kulturstätte in Bangkok. Das Theater wurde an diesem Tag im Jahr 1965 mit einer Eröffnungszeremonie mit thailändischem _kŏhn_ Täanzen (maskierte Tänzer führen Geschichten aus dem Ramakian vor) vor einem Publikum eingeweiht, dem Mitglieder des Königshauses beiwohnten - die erste von vielen kulturellen Veranstaltungen, die dort seit Jahrzehnten stattfinden.
 
 Das Nationaltheater wurde erstmals 1932 als Ort für darstellende Künstler konzipiert, um Thailands reiches kulturelles Erbe an Musik und Tanz mit dem Publikum zu teilen. Ein weiterer Zweck des Theaters war es, den Einheimischen ein Zuhause zu bieten, in dem sie künstlerische Bräuche mit Besuchern aus dem Ausland austauschen können, um engere internationale Beziehungen aufzubauen. Etwa drei Jahrzehnte lang wurde das Theater von der Abteilung für bildende Künste des Nationalmuseums aus betrieben, und 1961 wurde mit dem Bau des heute bekannten Gebäudes begonnen.
 
