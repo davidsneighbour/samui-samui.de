@@ -270,8 +270,11 @@ but only these faces are wired into CSS, deliberately, to avoid unused
   glyphs (`background-clip: text`). Below 576px the title is forced into
   two lines (`Samui?` / `Samui!`) and uses
   `clamp(4.75rem, 25vw, 9.375rem)`, so the mobile wordmark can grow
-  towards a 150px cap without occupying the full viewport. From 576px up,
-  the title returns to one line and steps through the *old Bootstrap
+  towards a 150px cap without occupying the full viewport. The first
+  mobile line is `0.96em` to keep the question mark clear of the right
+  edge on very small devices. From 576px up, the title returns to one
+  line, both words use the same size again, and it steps through the
+  *old Bootstrap
   breakpoints* (576/768/992/1200/1400px → 68/92/125/149/172px), not
   Tailwind's default breakpoints, because matching the live site's
   line-wrap behavior required matching its exact breakpoints. See

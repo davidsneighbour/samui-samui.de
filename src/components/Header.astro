@@ -30,7 +30,7 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
         aria-label={setup.title}
       >
         <span
-          class="masthead__word"
+          class="masthead__word masthead__word--question"
           aria-hidden="true"
         >
           {firstMastheadWord}
@@ -44,7 +44,7 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
                 {' '}
               </span>
               <span
-                class="masthead__word"
+                class="masthead__word masthead__word--answer"
                 aria-hidden="true"
               >
                 {secondMastheadWord}
@@ -197,6 +197,10 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
     display: block;
   }
 
+  .masthead__word--question {
+    font-size: 0.96em;
+  }
+
   .masthead__separator {
     display: none;
   }
@@ -223,6 +227,9 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
     .masthead__word,
     .masthead__separator {
       display: inline;
+    }
+    .masthead__word--question {
+      font-size: 1em;
     }
     .masthead__tagline {
       margin-top: 1rem;

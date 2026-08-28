@@ -6,6 +6,7 @@ export default defineConfig({
   expect: {
     timeout: 5_000,
   },
+  outputDir: '.playwright/test-results',
   projects: [
     {
       name: 'chromium',

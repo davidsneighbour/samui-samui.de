@@ -4,13 +4,19 @@ const twoLineWidths = [320, 375, 390, 430, 575];
 const singleLineWidths = [576, 768, 1024, 1200];
 
 type MastheadMetrics = {
+  answerFontSize: number;
   backgroundImage: string;
   documentWidth: number;
   lineCount: number;
   nameHeight: number;
   nameWidth: number;
+  questionFontSize: number;
   viewportWidth: number;
-  wordWidths: number[];
+  wordRects: Array<{
+    left: number;
+    right: number;
+    width: number;
+  }>;
 };
 
 for (const width of twoLineWidths) {
@@ -25,21 +31,38 @@ for (const width of twoLineWidths) {
       .locator('.masthead__name')
       .evaluate((node) => {
         const element = node as HTMLElement;
-        const wordRects = Array.from(
+        const words = Array.from(
           element.querySelectorAll<HTMLElement>('.masthead__word'),
-        ).map((word) => word.getBoundingClientRect());
+        );
+        const wordRects = words.map((word) => {
+          const range = document.createRange();
+          range.selectNodeContents(word);
+          const rect = range.getBoundingClientRect();
+          range.detach();
+          return rect;
+        });
         const uniqueLineTops = new Set(
           wordRects.map((rect) => Math.round(rect.top)),
         );
 
         return {
+          answerFontSize: Number.parseFloat(
+            getComputedStyle(words[1]).fontSize,
+          ),
           backgroundImage: getComputedStyle(element).backgroundImage,
           documentWidth: document.documentElement.scrollWidth,
           lineCount: uniqueLineTops.size,
           nameHeight: element.getBoundingClientRect().height,
           nameWidth: element.getBoundingClientRect().width,
+          questionFontSize: Number.parseFloat(
+            getComputedStyle(words[0]).fontSize,
+          ),
           viewportWidth: window.innerWidth,
-          wordWidths: wordRects.map((rect) => rect.width),
+          wordRects: wordRects.map((rect) => ({
+            left: rect.left,
+            right: rect.right,
+            width: rect.width,
+          })),
         };
       });
 
@@ -49,9 +72,12 @@ for (const width of twoLineWidths) {
       metrics.viewportWidth + 1,
     );
     expect(metrics.nameHeight).toBeLessThan(260);
-    for (const wordWidth of metrics.wordWidths) {
-      expect(wordWidth).toBeLessThanOrEqual(metrics.nameWidth + 1);
-      expect(wordWidth).toBeGreaterThan(metrics.nameWidth * 0.72);
+    expect(metrics.questionFontSize).toBeLessThan(metrics.answerFontSize);
+    for (const wordRect of metrics.wordRects) {
+      expect(wordRect.left).toBeGreaterThanOrEqual(0);
+      expect(wordRect.right).toBeLessThanOrEqual(metrics.viewportWidth + 1);
+      expect(wordRect.width).toBeLessThanOrEqual(metrics.nameWidth + 1);
+      expect(wordRect.width).toBeGreaterThan(metrics.nameWidth * 0.72);
     }
   });
 }
@@ -66,21 +92,38 @@ for (const width of singleLineWidths) {
       .locator('.masthead__name')
       .evaluate((node) => {
         const element = node as HTMLElement;
-        const wordRects = Array.from(
+        const words = Array.from(
           element.querySelectorAll<HTMLElement>('.masthead__word'),
-        ).map((word) => word.getBoundingClientRect());
+        );
+        const wordRects = words.map((word) => {
+          const range = document.createRange();
+          range.selectNodeContents(word);
+          const rect = range.getBoundingClientRect();
+          range.detach();
+          return rect;
+        });
         const uniqueLineTops = new Set(
           wordRects.map((rect) => Math.round(rect.top)),
         );
 
         return {
+          answerFontSize: Number.parseFloat(
+            getComputedStyle(words[1]).fontSize,
+          ),
           backgroundImage: getComputedStyle(element).backgroundImage,
           documentWidth: document.documentElement.scrollWidth,
           lineCount: uniqueLineTops.size,
           nameHeight: element.getBoundingClientRect().height,
           nameWidth: element.getBoundingClientRect().width,
+          questionFontSize: Number.parseFloat(
+            getComputedStyle(words[0]).fontSize,
+          ),
           viewportWidth: window.innerWidth,
-          wordWidths: wordRects.map((rect) => rect.width),
+          wordRects: wordRects.map((rect) => ({
+            left: rect.left,
+            right: rect.right,
+            width: rect.width,
+          })),
         };
       });
 
@@ -90,5 +133,6 @@ for (const width of singleLineWidths) {
       metrics.viewportWidth + 1,
     );
     expect(metrics.nameHeight).toBeLessThan(160);
+    expect(metrics.questionFontSize).toBe(metrics.answerFontSize);
   });
 }
