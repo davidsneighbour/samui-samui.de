@@ -138,10 +138,7 @@ async function findCandidateFiles(filters: Filters): Promise<string[]> {
   const pattern = filters.year
     ? `${filters.year}/**/index.md`
     : filters.path
-      ? `${filters.path.replace(/\/index\.md$/, '')}/index.md`.replace(
-          /\*\*\/index\.md$/,
-          '**/index.md',
-        )
+      ? `${filters.path.replace(/\/index\.md$/, '')}/index.md`
       : '**/index.md';
 
   const files = await glob(pattern, { absolute: true, cwd: postsBase });

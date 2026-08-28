@@ -1,4 +1,6 @@
 import type { CollectionEntry } from 'astro:content';
+import type { Nodes, Root } from 'hast';
+import { fromHtml } from 'hast-util-from-html';
 
 type PostEntry = CollectionEntry<'posts'>;
 
@@ -30,22 +32,20 @@ const escapeHtml = (value: string) =>
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#39;');
 
-const stripHtml = (value: string) =>
-  value
-    .replaceAll(/<[^>]+>/g, '')
-    .replaceAll(/\s+/g, ' ')
-    .trim();
-
 const isMediaOnlyBlock = (value: string) => {
-  const withoutMedia = value
-    .replaceAll(/<img\b[^>]*>/gi, '')
-    .replaceAll(
-      /<dnb-(?:youtube|vimeo)\b[\s\S]*?<\/dnb-(?:youtube|vimeo)>/gi,
-      '',
-    )
-    .replaceAll(/<iframe\b[\s\S]*?<\/iframe>/gi, '');
+  const tree = fromHtml(value, { fragment: true }) as Root;
+  const mediaTags = new Set(['dnb-vimeo', 'dnb-youtube', 'iframe', 'img']);
 
-  return stripHtml(withoutMedia).length === 0;
+  const hasTextOutsideMedia = (node: Nodes): boolean => {
+    if (node.type === 'text') return node.value.trim().length > 0;
+    if (node.type === 'element' && mediaTags.has(node.tagName.toLowerCase())) {
+      return false;
+    }
+    if ('children' in node) return node.children.some(hasTextOutsideMedia);
+    return false;
+  };
+
+  return !hasTextOutsideMedia(tree);
 };
 
 const getRenderedBodyBlocks = (post: PostEntry) => {
