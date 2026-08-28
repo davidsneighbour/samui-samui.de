@@ -269,7 +269,7 @@ but only these faces are wired into CSS, deliberately, to avoid unused
   listed property), rendered with the header photo clipped into the
   glyphs (`background-clip: text`). Below 576px the title is forced into
   two lines (`Samui?` / `Samui!`) and uses
-  `clamp(4.75rem, 25vw, 9.375rem)`, so the mobile wordmark can grow
+  `clamp(4.75rem, 24vw, 9.375rem)`, so the mobile wordmark can grow
   towards a 150px cap without occupying the full viewport. The first
   mobile line is `0.96em` to keep the question mark clear of the right
   edge on very small devices. From 576px up, the title returns to one

@@ -16,7 +16,7 @@ Samui?
 Samui!
 ```
 
-The mobile font size uses `clamp(4.75rem, 25vw, 9.375rem)`, so it can grow
+The mobile font size uses `clamp(4.75rem, 24vw, 9.375rem)`, so it can grow
 towards a 150px maximum without filling the whole screen. The word spans are
 block-level in this range to avoid mid-word breaks. The first line,
 `Samui?`, is scaled to `0.96em` on mobile because the fixed title's question
