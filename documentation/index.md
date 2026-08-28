@@ -29,6 +29,9 @@
 * [Frontmatter variables](content/frontmatter-variables.md) indexes all
   supported content frontmatter properties and links to their focused
   documentation.
+* [German umlaut normalisation](content/german-umlaut-normalisation.md)
+  documents the narrow HTML entity replacement script, its npm commands, and
+  pre-commit behaviour.
 * [Markdown typography](content/markdown-typography.md) explains the remark
   typography transform used for post prose.
 * [People taxonomy migration](content/people-taxonomy-migration.md) records the

@@ -40,8 +40,7 @@ refactor. It runs Lychee against `src/content` only, can be narrowed with
 staged content Markdown/MDX files so touched posts do not add new broken links.
 
 `lint:umlauts` checks Markdown, MDX, and Astro content for the narrow German
-umlaut entity set (`ä`, `ö`, `ü`, `ß`, `Ä`,
-`Ö`, `Ü`, and decimal numeric equivalents). It reports each finding as
-`path:line:column` with a code extract so terminals such as VS Code can open the
-source location. `lint:umlauts:fix` applies the same replacements and is wired
+umlaut entity set. `lint:umlauts:fix` applies the same replacements and is wired
 into lint-staged before markdownlint or Biome write to the same staged files.
+See [German umlaut normalisation](content/german-umlaut-normalisation.md) for
+the replacement set, output format, and configuration notes.
