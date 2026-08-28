@@ -188,7 +188,7 @@ rules live in
 * `PROJECT.md` MUST reflect the current set of open GitHub issues (a generated local
   index, not hand-maintained prose) and `TODO.md` MUST stay a scratchpad for notes
   that are not yet actionable GitHub issues. Both files are local working state and
-  MUST NOT be committed. The `dnb-project-task-triage` skill governs reconciling
+  MUST NOT be committed. The `clerkwork-project-task-triage` skill governs reconciling
   these two files against GitHub Issues — use it rather than hand-editing
   `PROJECT.md`.
 
