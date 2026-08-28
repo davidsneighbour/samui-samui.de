@@ -13,8 +13,8 @@ npm run check
 The current `check` sequence is:
 
 1. `format:check` -- Biome verifies canonical formatting without writing files.
-2. `lint` -- Biome and markdownlint inspect style, conventions, and likely
-   mistakes.
+2. `lint` -- Biome, markdownlint, and the German umlaut entity check inspect
+   style, conventions, and likely mistakes.
 3. `validate` -- strict project contracts. Today this delegates to
    `validate:content`, which runs `astro check`.
 4. `test` -- Vitest verifies behavioural correctness.
@@ -38,3 +38,10 @@ of the routine quality gate.
 refactor. It runs Lychee against `src/content` only, can be narrowed with
 `npm run lint:links -- src/content/path`, and is wired into lint-staged for
 staged content Markdown/MDX files so touched posts do not add new broken links.
+
+`lint:umlauts` checks Markdown, MDX, and Astro content for the narrow German
+umlaut entity set (`ä`, `ö`, `ü`, `ß`, `Ä`,
+`Ö`, `Ü`, and decimal numeric equivalents). It reports each finding as
+`path:line:column` with a code extract so terminals such as VS Code can open the
+source location. `lint:umlauts:fix` applies the same replacements and is wired
+into lint-staged before markdownlint or Biome write to the same staged files.

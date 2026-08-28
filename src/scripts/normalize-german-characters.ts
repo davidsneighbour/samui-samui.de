@@ -275,6 +275,10 @@ function findOccurrences(
   return occurrences;
 }
 
+function formatOccurrence(occurrence: Occurrence): string {
+  return `${occurrence.file}:${occurrence.line}:${occurrence.column}  ${occurrence.match} -> ${occurrence.replacement}  |  ${occurrence.context}`;
+}
+
 /**
  * Apply all configured replacements to a string.
  *
@@ -385,9 +389,7 @@ async function main(): Promise<void> {
     );
 
     for (const occurrence of occurrences) {
-      console.error(
-        `${occurrence.file}:${occurrence.line}:${occurrence.column}  ${occurrence.match} → ${occurrence.replacement}  |  ${occurrence.context}`,
-      );
+      console.error(formatOccurrence(occurrence));
     }
 
     console.error(
@@ -408,4 +410,10 @@ async function main(): Promise<void> {
   }
 }
 
-await main();
+const entrypoint = process.argv[1] ? path.resolve(process.argv[1]) : undefined;
+
+if (entrypoint === fileURLToPath(import.meta.url)) {
+  await main();
+}
+
+export { DEFAULT_CONFIG, findOccurrences, formatOccurrence, normalizeContent };

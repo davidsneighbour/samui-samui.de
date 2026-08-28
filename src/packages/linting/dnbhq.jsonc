@@ -1,17 +1,21 @@
 {
   "devDependencies": {
-    "@biomejs/biome": "2.5.8",
+    "@biomejs/biome": "2.5.11",
     "@dnbhq/biome-config": "0.2.3",
     "@dnbhq/markdownlint-config": "0.2.11",
-    "@dnbhq/release-config": "1.1.0",
+    "@dnbhq/release-config": "1.1.3",
     "@release-it/conventional-changelog": "12.0.0",
-    "lint-staged": "17.3.0",
+    "lint-staged": "17.4.1",
     "release-it": "21.0.2",
     "simple-git-hooks": "2.13.1"
   },
   "lint-staged": {
-    "*.{js,cjs,mjs,ts,astro}": ["biome check --write --no-errors-on-unmatched"],
+    "*.{js,cjs,mjs,ts,astro}": [
+      "node src/scripts/normalize-german-characters.ts --write",
+      "biome check --write --no-errors-on-unmatched"
+    ],
     "**/!(CHANGELOG).{md,mdx}": [
+      "node src/scripts/normalize-german-characters.ts --write",
       "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc --fix"
     ],
     "**/!(package|package-lock).json": [
@@ -22,13 +26,15 @@
     "check": "npm run format:check && npm run lint && npm run validate && npm run test",
     "format": "biome format --write .",
     "format:check": "biome format .",
-    "lint": "npm run lint:code && npm run lint:markdown",
+    "lint": "npm run lint:code && npm run lint:markdown && npm run lint:umlauts",
     "lint:code": "biome lint .",
     "lint:code:fix": "biome lint --write .",
-    "lint:fix": "npm run lint:code:fix && npm run lint:markdown:fix",
+    "lint:fix": "npm run lint:code:fix && npm run lint:markdown:fix && npm run lint:umlauts:fix",
     "lint:markdown": "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc \"**/*.{md,mdx}\" \"!CHANGELOG.md\"",
     "lint:markdown:fix": "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc --fix \"**/*.{md,mdx}\" \"!CHANGELOG.md\"",
     "lint:staged": "lint-staged",
+    "lint:umlauts": "node src/scripts/normalize-german-characters.ts --check",
+    "lint:umlauts:fix": "node src/scripts/normalize-german-characters.ts --write",
     "prepare": "simple-git-hooks",
     "release": "release-it --config .release-it.ts --ci",
     "release:dry": "release-it --config .release-it.ts --dry-run",
