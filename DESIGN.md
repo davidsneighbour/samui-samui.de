@@ -267,11 +267,14 @@ but only these faces are wired into CSS, deliberately, to avoid unused
   uppercase (via `text-transform`, not a font feature — DESIGN.md's
   typography schema has no uppercase token, so this is a CSS rule, not a
   listed property), rendered with the header photo clipped into the
-  glyphs (`background-clip: text`). Font-size is **not** a single value:
-  it steps through six sizes at the *old Bootstrap breakpoints*
-  (576/768/992/1200/1400px → 40/68/92/125/149/172px), not Tailwind's
-  default breakpoints, because matching the live site's line-wrap
-  behavior required matching its exact breakpoints. See
+  glyphs (`background-clip: text`). Below 576px the title is forced into
+  two lines (`Samui?` / `Samui!`) and uses
+  `clamp(4.75rem, 25vw, 9.375rem)`, so the mobile wordmark can grow
+  towards a 150px cap without occupying the full viewport. From 576px up,
+  the title returns to one line and steps through the *old Bootstrap
+  breakpoints* (576/768/992/1200/1400px → 68/92/125/149/172px), not
+  Tailwind's default breakpoints, because matching the live site's
+  line-wrap behavior required matching its exact breakpoints. See
   `Header.astro`'s `<style>` block for the full step table — this
   document records only the base (mobile) value.
 * **`heading`** — `h1`–`h6` in article content render at **regular**

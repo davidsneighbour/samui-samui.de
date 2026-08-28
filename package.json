@@ -125,6 +125,7 @@
     "release:minor": "release-it --config .release-it.ts --ci --increment=minor",
     "release:patch": "release-it --config .release-it.ts --ci --increment=patch",
     "test": "vitest run",
+    "test:e2e": "playwright test",
     "test:watch": "vitest",
     "upgrade": "npx @astrojs/upgrade",
     "validate": "npm run validate:content && npm run validate:taxonomies",

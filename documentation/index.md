@@ -8,6 +8,8 @@
   widget, custom theme URLs, and local-development theme limitations.
 * [Legacy image presentation](components/legacy-images.md) explains the
   automatic small-image rendering system for archive images and cover previews.
+* [Masthead](components/masthead.md) documents the responsive site title,
+  header-owned CSS, and dev-only masthead preview route.
 * [Editorial notices](components/notices.md) documents the `Notice.astro` and
   `<dnb-notice>` rendering pipeline.
 * [Post covers](components/post-covers.md) describes optional image, YouTube,

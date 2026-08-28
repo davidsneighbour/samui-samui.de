@@ -1,0 +1,114 @@
+---
+import { ClientRouter } from 'astro:transitions';
+import BaseHead from '@components/BaseHead.astro';
+import Header from '@components/Header.astro';
+
+export function getStaticPaths() {
+  if (import.meta.env.PROD) {
+    return [];
+  }
+
+  return [
+    { params: { path: 'masthead' } },
+    { params: { path: 'masthead-frame' } },
+  ];
+}
+
+const path = Astro.params.path ?? '';
+const allowedPaths = new Set(['masthead', 'masthead-frame']);
+
+if (!import.meta.env.DEV || !allowedPaths.has(path)) {
+  return new Response('Not found', { status: 404 });
+}
+
+const previewWidths = [320, 375, 390, 430, 575, 576, 768, 1024, 1200];
+const isFrame = path === 'masthead-frame';
+const title = isFrame ? 'Masthead test frame' : 'Masthead responsive test';
+const description =
+  'Development-only masthead preview for responsive header checks.';
+---
+
+<!doctype html>
+<html
+  lang="de"
+  class="dark"
+>
+  <head>
+    <BaseHead
+      title={title}
+      description={description}
+      noindex
+    />
+    <ClientRouter />
+  </head>
+  <body>
+    {isFrame ? (
+        <div class="masthead-test-frame">
+          <Header />
+        </div>
+      ) : (
+        <main class="mx-auto max-w-6xl px-4 py-8 text-foreground">
+          <header class="mb-6">
+            <h1 class="text-3xl font-normal">Masthead responsive test</h1>
+            <p class="mt-2 max-w-2xl text-sm text-foreground/75">
+              Development-only preview route. Each box is an iframe, so the
+              masthead sees the labelled width as its viewport.
+            </p>
+          </header>
+          <div class="grid gap-6">
+            {previewWidths.map((width) => (
+              <section class="masthead-test-preview">
+                <h2 class="masthead-test-preview__label">{width}px</h2>
+                <div class="masthead-test-preview__box">
+                  <iframe
+                    title={`Masthead preview at ${width}px`}
+                    src="/tests/masthead-frame"
+                    style={`width: ${width}px;`}
+                  />
+                </div>
+              </section>
+            ))}
+          </div>
+        </main>
+      )}
+  </body>
+</html>
+
+<style>
+  :global(body) {
+    min-width: 0;
+    margin: 0;
+    background: var(--color-background);
+  }
+
+  .masthead-test-frame {
+    border: 2px solid var(--color-primary);
+    background: var(--color-background);
+  }
+
+  .masthead-test-preview {
+    display: grid;
+    gap: 0.5rem;
+  }
+
+  .masthead-test-preview__label {
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+
+  .masthead-test-preview__box {
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    background: var(--color-card);
+  }
+
+  .masthead-test-preview iframe {
+    display: block;
+    height: 18rem;
+    max-width: none;
+    border: 0;
+    background: var(--color-background);
+  }
+</style>
