@@ -55,7 +55,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      M&#252;nchen
+      München
     </td>
 
     <td>
@@ -155,7 +155,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      Elfenbeink&#252;ste
+      Elfenbeinküste
     </td>
 
     <td>
@@ -211,7 +211,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      N&#252;rnberg
+      Nürnberg
     </td>
 
     <td>
@@ -237,7 +237,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      K&#246;ln
+      Köln
     </td>
 
     <td>
@@ -333,7 +333,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      S&#252;dkorea
+      Südkorea
     </td>
 
     <td>
@@ -445,7 +445,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      M&#252;nchen
+      München
     </td>
 
     <td>
@@ -523,7 +523,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      N&#252;rnberg
+      Nürnberg
     </td>
 
     <td>
@@ -597,7 +597,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      Elfenbeink&#252;ste
+      Elfenbeinküste
     </td>
 
     <td>
@@ -679,7 +679,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      K&#246;ln
+      Köln
     </td>
 
     <td>
@@ -731,7 +731,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      N&#252;rnberg
+      Nürnberg
     </td>
 
     <td>
@@ -757,7 +757,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      M&#252;nchen
+      München
     </td>
 
     <td>
@@ -779,7 +779,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      S&#252;dkorea
+      Südkorea
     </td>
 
     <td>
@@ -939,7 +939,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      K&#246;ln
+      Köln
     </td>
 
     <td>
@@ -1061,7 +1061,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      Elfenbeink&#252;ste
+      Elfenbeinküste
     </td>
 
     <td>
@@ -1069,7 +1069,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      M&#252;nchen
+      München
     </td>
 
     <td>
@@ -1121,7 +1121,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      N&#252;rnberg
+      Nürnberg
     </td>
 
     <td>
@@ -1251,7 +1251,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      K&#246;ln
+      Köln
     </td>
 
     <td>
@@ -1273,7 +1273,7 @@ Jedenfalls hier ist der Fernsehplan für die Fussball&trade;fanatiker in Thailan
     </td>
 
     <td>
-      S&#252;dkorea
+      Südkorea
     </td>
 
     <td>

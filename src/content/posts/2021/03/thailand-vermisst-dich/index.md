@@ -27,13 +27,13 @@ cover:
 
 Die thailändische Tourismusbehörde (TAT) hat einen neuen TV-Werbespot gestartet, um der Welt die Nachricht zu senden, dass das Land es nicht erwarten kann, Besucher wieder willkommen zu heißen.
 
-W&auml;rend 2019 rund 40 Millionen Touristen in Thailand ankamen, waren es 2020 wegen der Pandemie nur noch rund 7 Millionen. Seit M&auml;rz war das Land abgeriegelt und die Tour-Anbieter k&auml;mpfen seither ums &Uuml;berleben.  
+Wärend 2019 rund 40 Millionen Touristen in Thailand ankamen, waren es 2020 wegen der Pandemie nur noch rund 7 Millionen. Seit März war das Land abgeriegelt und die Tour-Anbieter kämpfen seither ums Überleben.  
 
-Ab dem 1. Oktober 2021 soll das Land wieder im gr&ouml;&szlig;eren Stile Touristen zug&auml;nglich gemacht werden und das soll dieser TV-Spot verk&uuml;nden. 
+Ab dem 1. Oktober 2021 soll das Land wieder im größeren Stile Touristen zugänglich gemacht werden und das soll dieser TV-Spot verkünden. 
 
-In Samui plant man, f&uuml;r Besucher, die sowohl geimpft wurden als auch einen negativen Test in den Stunden vor ihrem Anflug hatten, die Quarant&auml;ne abzuschaffen, so dass auch Kurzzeit-Urlauber wieder kommen k&ouml;nnen, ohne ihre 14 Tage Urlaub hinter verschlossenen Villat&uuml;ren verbringen zu m&uuml;ssen. 
+In Samui plant man, für Besucher, die sowohl geimpft wurden als auch einen negativen Test in den Stunden vor ihrem Anflug hatten, die Quarantäne abzuschaffen, so dass auch Kurzzeit-Urlauber wieder kommen können, ohne ihre 14 Tage Urlaub hinter verschlossenen Villatüren verbringen zu müssen. 
 
-Bis dahin ist es noch ein paar Monate, in denen sich erfahrungsgem&auml;&szlig; wieder alles &auml;ndern kann. Aber es geht bergauf. Eine andere Richtung aus dieser Situation gibt es leider nicht.
+Bis dahin ist es noch ein paar Monate, in denen sich erfahrungsgemäß wieder alles ändern kann. Aber es geht bergauf. Eine andere Richtung aus dieser Situation gibt es leider nicht.
 
 > Hello! We miss you so!  
 > We haven’t seen each other for a while. How are you?  
