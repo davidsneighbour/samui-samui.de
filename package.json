@@ -193,7 +193,10 @@
   },
   "overrides": {
     "esbuild": "0.28.1",
-    "tar": "7.5.20"
+    "tar": "7.5.20",
+    "markdownlint-rule-title-case-style": {
+      "markdownlint": "^0.41.1"
+    }
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged",
