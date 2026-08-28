@@ -1,7 +1,13 @@
 import { type ChildProcess, spawn } from 'node:child_process';
 
+const requestedSiteScript = process.env['ASTRO_SITE_SCRIPT'];
+const siteScript =
+  requestedSiteScript && requestedSiteScript.trim() !== ''
+    ? requestedSiteScript
+    : 'dev:site';
+
 const commands = [
-  ['npm', ['run', 'dev:site']],
+  ['npm', ['run', siteScript]],
   ['npm', ['run', 'dev:docs']],
 ] as const;
 

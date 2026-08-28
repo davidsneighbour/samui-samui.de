@@ -217,14 +217,18 @@ Netlify's connected build or the Netlify CLI once the setup above is complete.
   producing a site build.
 * `npm run dev` starts the local site and the local documentation server together
   for day-to-day editing.
-* `npm run dev:site` starts only the Astro site dev server. It currently keeps
-  Astro's verbose logging enabled for debugging server output.
+* `npm run dev:site` starts only the Astro site dev server with Astro's normal
+  logging level.
+* `npm run dev:site:verbose` starts only the Astro site dev server with Astro's
+  verbose logging enabled.
 * `npm run dev:docs` starts only the lightweight documentation browser at
   [http://127.0.0.1:4322/](http://127.0.0.1:4322/).
 * `npm run dev:verbose` starts the combined dev servers with extra frontmatter
-  debugging enabled.
+  debugging and Astro's verbose logging enabled.
 * `npm run build` runs the full validation chain and then builds the static site
   for Netlify, including Pagefind search output.
+* `npm run build:verbose` runs the same static site build with Astro's verbose
+  logging enabled.
 * `npm run build:nocache` builds the site after forcing Pagefind to rebuild its
   search index from scratch.
 * `npm run clean:pagefind` clears Pagefind's local cache and generated bundle

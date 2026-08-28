@@ -44,3 +44,6 @@ umlaut entity set. `lint:umlauts:fix` applies the same replacements and is wired
 into lint-staged before markdownlint or Biome write to the same staged files.
 See [German umlaut normalisation](content/german-umlaut-normalisation.md) for
 the replacement set, output format, and configuration notes.
+
+`npm run build` uses Astro's normal logging level after validation. Use
+`npm run build:verbose` when a build needs Astro's verbose diagnostic output.
