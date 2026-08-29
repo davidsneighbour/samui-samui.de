@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.8.1](https://github.com/davidsneighbour/samui-samui/compare/v2.8.0...v2.8.1) (2026-08-29)
+
+### Test
+
+* **masthead:** move visual spec under src test ([c8d59d6](https://github.com/davidsneighbour/samui-samui/commit/c8d59d62aca535e139de2b7b425b3dd09d516c31)), references [#1665](https://github.com/davidsneighbour/samui-samui/issues/1665)
+
+### Build
+
+* **feat:** add deploy procedure ([27510e0](https://github.com/davidsneighbour/samui-samui/commit/27510e009f0868ea765b6fb5168349b28c039078))
+
 ## [2.8.0](https://github.com/davidsneighbour/samui-samui/compare/v2.7.0...v2.8.0) (2026-08-29)
 
 ### Content
