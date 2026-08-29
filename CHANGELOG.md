@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.9.0](https://github.com/davidsneighbour/samui-samui/compare/v2.8.1...v2.9.0) (2026-08-29)
+
+### Feat
+
+* **masthead:** always stack wordmark on two aligned lines ([6564e19](https://github.com/davidsneighbour/samui-samui/commit/6564e196946d40982916dbaf146b0290e1e200e7))
+
+### Fix
+
+* **blog:** align homepage featured post with single-post layout ([7cf37d1](https://github.com/davidsneighbour/samui-samui/commit/7cf37d12bd618b1db6d2bcc36b50fa702e2e0e53))
+* **deps:** pin @opentelemetry/api to resolve npm install conflict ([3e15718](https://github.com/davidsneighbour/samui-samui/commit/3e15718d06ff805c475817a92ef52b3dacdd59b9))
+* **test:** satisfy noUncheckedIndexedAccess in masthead alignment check ([18704b9](https://github.com/davidsneighbour/samui-samui/commit/18704b91a21f446a0d448d8e2f3fa4da9a855aad))
+
 ## [2.8.1](https://github.com/davidsneighbour/samui-samui/compare/v2.8.0...v2.8.1) (2026-08-29)
 
 ### Test
