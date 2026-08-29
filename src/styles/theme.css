@@ -236,6 +236,15 @@ html {
   font-family: var(--font-sans);
 }
 
+/* Pagefind's component UI caps `.pf-searchbox` at `--pf-searchbox-max-width`
+   (480px) by default. On the archive overview the search box sits in a full-
+   width section next to a heading/paragraph that aren't capped, so it reads
+   as narrower than its container; unsetting the variable here removes the
+   cap for this instance only (see #1669). */
+.pagefind-archive-search {
+  --pf-searchbox-max-width: none;
+}
+
 .pagefind-search-page {
   display: grid;
   gap: 1rem;
