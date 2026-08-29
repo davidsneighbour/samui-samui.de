@@ -25,8 +25,8 @@ const LEUTE_BASE = path.join(process.cwd(), 'src/content/leute');
 // `align-[-2px]` nudges the whole flex box to sit on the surrounding
 // prose baseline instead of the ~2px-off baseline an `inline-flex`
 // container synthesizes by default for its content.
-const WRAPPER_CLASSES = 'inline-flex items-center align-[-2px]';
-const ICON_CLASSES = 'size-3.5 shrink-0';
+const WRAPPER_CLASSES = 'dnb-person-link inline-flex items-center align-[-2px]';
+const ICON_CLASSES = 'dnb-person-link__icon size-3.5 shrink-0';
 // A real non-breaking space (U+00A0) for the visual gap, not a margin --
 // keeps the same character an author can use inside the tag's own body to
 // glue together parts of a name, e.g. `Lt.&nbsp;Name Surname` (survives as

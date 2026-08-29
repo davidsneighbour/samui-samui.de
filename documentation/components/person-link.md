@@ -5,9 +5,9 @@ number 1672): renders a leading `user-round` icon plus the entity's page
 link, and -- when the entity has a `subtitle` -- a hover/keyboard-focus
 tooltip showing it, reusing the shared [`Tooltip`](tooltips.md) component's
 exact markup, CSS, and controller script. The icon sits outside the `<a>`
-(not itself clickable) and carries no color class, so it inherits the
-surrounding prose text color via `currentColor` rather than the link's
-`prose-a:text-link` color.
+(not itself clickable), inherits the surrounding prose text color by
+default, and transitions to the site link color when the person-link group
+is hovered or focused.
 
 There are two integration points that both call into the same builder, so
 they always produce identical markup for equivalent input -- same split as
@@ -40,8 +40,9 @@ Both call `buildPersonLinkHast()` / `personLinkHastToHtml()`
    `buildLucideIconHast()` used by notices) plus the link
    (`<a href="/leute/<id>/">`) with the tag's own body as the visible label
    -- not the entity's `title`. The icon sits outside the `<a>` (only the
-   name is clickable) and is left uncolored so it inherits the surrounding
-   text color instead of the link color. Both sit in an `inline-flex
+   name is clickable), inherits the surrounding text color by default, and
+   animates to `--color-link` on hover or focus within the person-link group.
+   Both sit in an `inline-flex
    items-center` wrapper: a browser can still insert a line-break
    opportunity between two separate adjacent inline-level boxes (the icon
    and the link) even with a literal `&nbsp;` between them and even with
@@ -91,7 +92,11 @@ Vorsitzender ist <dnb-person id="anutin-charnvirakul">Anutin Charnvirakul</dnb-p
 Both render:
 
 ```html
-Vorsitzender ist <span class="inline-flex items-center align-[-2px]"><svg .../><a href="/leute/anutin-charnvirakul/">Anutin Charnvirakul</a></span>.
+Vorsitzender ist
+<span class="dnb-person-link inline-flex items-center align-[-2px]">
+  <svg class="dnb-person-link__icon ..." ... />
+  <a href="/leute/anutin-charnvirakul/">Anutin Charnvirakul</a>
+</span>.
 ```
 
 -- plus the tooltip markup (wrapping the `<a>`, not the icon) and

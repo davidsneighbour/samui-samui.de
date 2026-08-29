@@ -10,6 +10,10 @@ import {
   isPublicEntity,
   resolvePostTaxonomyGroups,
 } from '../utils/taxonomies/entities';
+import {
+  buildPersonLinkHast,
+  personLinkHastToHtml,
+} from '../utils/taxonomies/person-link';
 import { validateTaxonomyIntegrity } from '../utils/taxonomies/validation';
 import { groupPostsByThema } from '../utils/themen';
 
@@ -110,6 +114,18 @@ describe('taxonomies', () => {
         }),
       }),
     ).toThrow(/Fehlende Taxonomie-Referenz: leute:fehlt/);
+  });
+
+  it('renders person-link classes for the icon hover animation', () => {
+    const html = personLinkHastToHtml(
+      buildPersonLinkHast({
+        id: 'anutin-charnvirakul',
+        label: [{ type: 'text', value: 'Anutin Charnvirakul' }],
+      }),
+    );
+
+    expect(html).toContain('dnb-person-link inline-flex');
+    expect(html).toContain('dnb-person-link__icon size-3.5 shrink-0');
   });
 
   it('orders post taxonomy groups and omits topics from the lower list', () => {

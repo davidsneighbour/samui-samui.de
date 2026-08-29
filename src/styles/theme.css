@@ -429,6 +429,21 @@ h6 {
 }
 
 /*
+ * Shared person taxonomy link (src/utils/taxonomies/person-link.ts).
+ * The generated raw rehype HTML must use global CSS, just like tooltips
+ * below, because it never passes through Astro's component scoping.
+ */
+.dnb-person-link__icon {
+  color: currentColor;
+  transition: color 150ms ease-out;
+}
+
+.dnb-person-link:hover .dnb-person-link__icon,
+.dnb-person-link:focus-within .dnb-person-link__icon {
+  color: var(--color-link);
+}
+
+/*
  * Shared tooltip primitive (src/components/ui/tooltip.astro,
  * documentation/components/tooltips.md). Global rather than an Astro
  * component-scoped `<style>` block so the plain-Markdown `<dnb-person>`
