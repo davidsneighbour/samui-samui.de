@@ -2,6 +2,8 @@
 
 ## Components
 
+* [Analytics](components/analytics.md) links the official Matomo JavaScript and
+  HTTP Tracking API references used by `Analytics.astro`.
 * [Blog list previews](components/blog-list-previews.md) documents rendered HTML
   excerpts and featured-card behavior in `BlogList.astro`.
 * [Giscus comments](components/giscus-comments.md) documents the lazy giscus
