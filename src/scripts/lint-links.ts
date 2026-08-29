@@ -2,6 +2,10 @@ import { spawn } from 'node:child_process';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+// Relative imports only: this script runs via plain `node`, not Vite, so
+// `@utils/*` path aliases aren't resolved here.
+import { getPostDateParts } from '../utils/dates.ts';
+import { readYamlFrontmatter } from '../utils/taxonomies/frontmatter.ts';
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(scriptDir, '../..');
@@ -95,11 +99,68 @@ function escapeRegex(value: string): string {
   return value.replace(/[.*+?^${}()|[\]\\]/g, String.raw`\$&`);
 }
 
-function routeRemaps(): string[] {
+/**
+ * Posts documented in documentation/content/post-paths.md's "date-free
+ * folder form" (`src/content/posts/YYYY/slug/`, no `MM` subfolder) still
+ * get a `/YYYY/MM/slug/` permalink (from `src/utils/posts.ts`'s
+ * `getPostUrl`, mirrored here since that module needs `astro:content`
+ * types this plain-`node` script doesn't have). The generic
+ * `(\d{4})/(\d{2})/([^/#?]+)` route rule below assumes the URL's `MM`
+ * segment is also the folder name, which is false for these -- so a local
+ * link using the public permalink form (e.g. a post's own PDF copy,
+ * `/2026/08/some-slug/some.pdf`) would otherwise remap to a folder that
+ * doesn't exist. Emitted as specific rules ahead of the generic one so
+ * lychee's first-match-wins picks these over it.
+ */
+async function findDateFreePostRemaps(rootFileUrl: string): Promise<string[]> {
+  const postsRoot = path.join(contentRoot, 'posts');
+  const yearEntries = await fs.readdir(postsRoot, { withFileTypes: true });
+  const remaps: string[] = [];
+
+  for (const yearEntry of yearEntries) {
+    if (!yearEntry.isDirectory() || !/^\d{4}$/.test(yearEntry.name)) continue;
+    const yearDir = path.join(postsRoot, yearEntry.name);
+    const slugEntries = await fs.readdir(yearDir, { withFileTypes: true });
+
+    for (const slugEntry of slugEntries) {
+      if (!slugEntry.isDirectory() || /^\d{2}$/.test(slugEntry.name)) continue;
+      const indexFile = path.join(yearDir, slugEntry.name, 'index.md');
+      let data: Record<string, unknown>;
+      try {
+        data = readYamlFrontmatter(indexFile);
+      } catch {
+        continue;
+      }
+
+      const url =
+        typeof data['url'] === 'string' ? data['url'].trim() : undefined;
+      let prefix: string;
+      if (url) {
+        prefix = url.replace(/^\//, '').replace(/\/$/, '');
+      } else {
+        const date =
+          typeof data['date'] === 'string' ? new Date(data['date']) : undefined;
+        if (!date || Number.isNaN(date.valueOf())) continue;
+        const { monthPadded, year } = getPostDateParts(date);
+        prefix = `${year}/${monthPadded}/${slugEntry.name}`;
+      }
+
+      const target = `${rootFileUrl}src/content/posts/${yearEntry.name}/${slugEntry.name}/`;
+      remaps.push(`${escapeRegex(prefix)}/?(?:[#?].*)? ${target}`);
+    }
+  }
+
+  return remaps;
+}
+
+async function routeRemaps(): Promise<string[]> {
   const rootFileUrl = pathToFileURL(`${projectRoot}/`).href;
   const escapedRootFileUrl = escapeRegex(rootFileUrl);
   const samuiDomainUrl = String.raw`https?://(?:www\.)?samui-samui\.de`;
   const routeSources = [`${escapedRootFileUrl}`, `${samuiDomainUrl}/`];
+  const dateFreePostRemaps = (
+    await findDateFreePostRemaps(rootFileUrl)
+  ).flatMap((rule) => routeSources.map((source) => `${source}${rule}`));
   const routeRules = [
     [
       String.raw`(\d{4})/(\d{2})/([^/#?]+)/?(?:[#?].*)?`,
@@ -129,6 +190,7 @@ function routeRemaps(): string[] {
   ];
 
   return [
+    ...dateFreePostRemaps,
     ...routeSources.flatMap((source) =>
       routeRules.map(([from, to]) => `${source}${from} ${to}`),
     ),
@@ -191,7 +253,10 @@ async function main() {
   console.log('Lychee reports aggregate link totals below.');
   console.log(`Lychee config: ${toRepositoryPath(lycheeConfigPath)}`);
 
-  const remapArgs = routeRemaps().flatMap((remap) => ['--remap', remap]);
+  const remapArgs = (await routeRemaps()).flatMap((remap) => [
+    '--remap',
+    remap,
+  ]);
   const lycheeArgs = [
     '--config',
     lycheeConfigPath,

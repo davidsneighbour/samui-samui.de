@@ -78,6 +78,7 @@ People entries live in `src/content/leute/**/_index.md`.
 | `draft` | Boolean, default `false`. | Draft-state marker for entity entries. | [Content schema](content-schema.md), [Content taxonomies](taxonomies.md) |
 | `image` | Optional string. | Entity image path or identifier. | [Content schema](content-schema.md) |
 | `noindex` | Boolean, default `false`. | Search-engine indexing override for entity pages. | [Content schema](content-schema.md) |
+| `subtitle` | Optional string. | Short descriptor (e.g. a role) shown as a tooltip by the `<dnb-person>`/`<PersonLink>` taxonomy link. | [Person taxonomy link](../components/person-link.md) |
 
 ## Places
 

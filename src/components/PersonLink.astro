@@ -1,0 +1,38 @@
+---
+// MDX integration point for the `leute` taxonomy link (issue #1672):
+// `<PersonLink id="...">Name</PersonLink>`. Renders identically to the
+// plain-Markdown `<dnb-person>` custom element
+// (src/scripts/rehype/person-link.ts) -- both call into
+// buildPersonLinkHast() (src/utils/taxonomies/person-link.ts), the single
+// source of truth for the markup. Not named `<Person>`: that name is
+// already taken by src/components/Person.astro (schema.org Person, used on
+// the legal pages).
+import { parseHtmlFragment } from '@utils/notices/markdown';
+import {
+  buildPersonLinkHast,
+  personLinkHastToHtml,
+} from '@utils/taxonomies/person-link';
+
+interface Props {
+  id: string;
+}
+
+const { id } = Astro.props as Props;
+
+// The default slot is already-compiled HTML by the time an .mdx file's
+// <PersonLink>...</PersonLink> children reach this component (MDX renders
+// its own Markdown before Astro ever sees the slot), so it's parsed back
+// into hast nodes rather than treated as Markdown source -- same reasoning
+// as Notice.astro's slot handling.
+const slotHtml = (await Astro.slots.render('default')).trim();
+
+const html = personLinkHastToHtml(
+  buildPersonLinkHast({
+    id,
+    label: parseHtmlFragment(slotHtml),
+    sourceFile: Astro.url.pathname,
+  }),
+);
+---
+
+<Fragment set:html={html} />

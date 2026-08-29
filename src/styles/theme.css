@@ -427,3 +427,67 @@ h6 {
     text-box: trim-both cap alphabetic;
   }
 }
+
+/*
+ * Shared tooltip primitive (src/components/ui/tooltip.astro,
+ * documentation/components/tooltips.md). Global rather than an Astro
+ * component-scoped `<style>` block so the plain-Markdown `<dnb-person>`
+ * rehype transform (src/scripts/rehype/person-link.ts) -- which renders raw
+ * HTML that never runs through Astro's component compiler and so can't
+ * carry a component's scoped style attribute -- can reuse the exact same
+ * `.tooltip`/`.tooltip__trigger`/`.tooltip__content` markup as the
+ * Astro-rendered `<Tooltip>` usages (Footer.astro, BlogPostMeta.astro).
+ * Positioning state (`--tooltip-left`/`--tooltip-top`/`--tooltip-arrow-left`)
+ * is written by the shared controller script
+ * (src/utils/tooltip/controller.ts).
+ */
+.tooltip__trigger {
+  position: relative;
+}
+
+.tooltip__trigger::before {
+  position: absolute;
+  inset: -0.5rem;
+  content: "";
+}
+
+.tooltip__content {
+  top: var(--tooltip-top, 0);
+  left: var(--tooltip-left, 0);
+  max-width: min(18rem, calc(100vw - 2rem));
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(-0.25rem);
+}
+
+.tooltip__content::before {
+  position: absolute;
+  top: -0.25rem;
+  left: var(--tooltip-arrow-left, 50%);
+  width: 0.5rem;
+  height: 0.5rem;
+  content: "";
+  background-color: var(--color-muted);
+  border-top: 1px solid var(--color-border);
+  border-left: 1px solid var(--color-border);
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.tooltip[data-tooltip-placement="top"] .tooltip__content {
+  transform: translateY(0.25rem);
+}
+
+.tooltip[data-tooltip-placement="top"] .tooltip__content::before {
+  top: auto;
+  bottom: -0.25rem;
+  border-top: none;
+  border-left: none;
+  border-right: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.tooltip[data-tooltip-state="open"] .tooltip__content {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { globSync } from 'glob';
-import { parseDocument } from 'yaml';
+import { readYamlFrontmatter } from './frontmatter.ts';
 import { taxonomyEntryId } from './ids.ts';
 
 export type ValidationField =
@@ -32,17 +32,6 @@ interface LoadedCollections {
 }
 
 const registeredCollections = ['leute', 'orte', 'ereignisse'] as const;
-
-function readFrontmatter(source: string): string | undefined {
-  return /^---\n([\s\S]*?)\n---/.exec(source)?.[1];
-}
-
-function readYamlFrontmatter(file: string): Record<string, unknown> {
-  const source = fs.readFileSync(file, 'utf8');
-  const frontmatter = readFrontmatter(source);
-  if (!frontmatter) return {};
-  return (parseDocument(frontmatter).toJS() ?? {}) as Record<string, unknown>;
-}
 
 function referenceId(value: unknown): string | undefined {
   if (typeof value === 'string') return value;

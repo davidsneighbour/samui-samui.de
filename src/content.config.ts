@@ -142,6 +142,12 @@ const leute = defineCollection({
     born: z.coerce.date().optional(),
     died: z.coerce.date().optional(),
     image: z.string().optional(),
+    // Short descriptor shown as a tooltip by the `<dnb-person>`/`<PersonLink>`
+    // taxonomy link (issue #1672), e.g. a person's role. Optional and not
+    // rendered anywhere else -- do not invent one for an entry that doesn't
+    // already have a well-established descriptor (see AGENTS.md's taxonomy
+    // rules on not inventing facts).
+    subtitle: z.string().optional(),
   }),
 });
 

@@ -11,6 +11,7 @@ import redirects from './src/data/redirects.json';
 import pagefind from './src/scripts/integrations/pagefind.ts';
 import { rehypeLegacyImages } from './src/scripts/rehype/legacy-images.ts';
 import { rehypeDnbNotice } from './src/scripts/rehype/notices.ts';
+import { rehypeDnbPerson } from './src/scripts/rehype/person-link.ts';
 import { rehypeSiteAge } from './src/scripts/rehype/site-age.ts';
 import { remarkDnbTypography } from './src/scripts/remark/typography.ts';
 import { getNoindexTaxonomyPaths } from './src/utils/taxonomies/noindex.ts';
@@ -101,6 +102,7 @@ export default defineConfig({
         rehypeRaw,
         rehypeLegacyImages,
         rehypeDnbNotice,
+        rehypeDnbPerson,
         rehypeSiteAge,
       ],
       remarkPlugins: [remarkDnbTypography],

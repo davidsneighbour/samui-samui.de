@@ -14,6 +14,8 @@
   header-owned CSS, and dev-only masthead preview route.
 * [Editorial notices](components/notices.md) documents the `Notice.astro` and
   `<dnb-notice>` rendering pipeline.
+* [Person taxonomy link](components/person-link.md) documents the
+  `<PersonLink>`/`<dnb-person>` link from post prose to a `leute` entity page.
 * [Post covers](components/post-covers.md) describes optional image, YouTube,
   and Vimeo cover media rendered by post and list views.
 * [Theme toggle](components/theme-toggle.md) documents the masthead light/dark

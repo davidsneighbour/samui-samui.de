@@ -10,6 +10,8 @@ cover:
   alt: "Menschen in roten Shirts sitzen bei einer Versammlung auf grauen Stühlen"
 orte:
   - thailand
+leute:
+  - anutin-charnvirakul
 themen:
   - politik
   - recht-und-ordnung
@@ -65,7 +67,7 @@ Auch die im Gesetz vorgesehenen besonderen Rehabilitationsmöglichkeiten für Pe
 
 ## Eine Kommission entscheidet über die Umsetzung
 
-Zur Umsetzung wird eine **Peaceful Society Promotion Committee** eingerichtet. Vorsitzender ist der Premierminister oder ein von ihm bestimmter stellvertretender Premierminister, hinzu kommen unter anderem der Justizminister, Vertreter staatlicher Institutionen sowie Fachleute aus den Bereichen Recht, Menschenrechte, Strafjustiz und Konfliktbewältigung.
+Zur Umsetzung wird eine **Peaceful Society Promotion Committee** eingerichtet. Vorsitzender ist Premierminister <dnb-person id="anutin-charnvirakul">Anutin Charnvirakul</dnb-person> oder ein von ihm bestimmter stellvertretender Premierminister, hinzu kommen unter anderem der Justizminister, Vertreter staatlicher Institutionen sowie Fachleute aus den Bereichen Recht, Menschenrechte, Strafjustiz und Konfliktbewältigung.
 
 Die Kommission soll unter anderem entscheiden, welche Fälle unter die Amnestie fallen, Anträge entgegennehmen und gegebenenfalls weitere Informationen anfordern. Ihre Entscheidungen sind für die zuständigen staatlichen Stellen innerhalb des Justizsystems verbindlich.
 
