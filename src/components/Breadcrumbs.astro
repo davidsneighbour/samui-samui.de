@@ -27,37 +27,26 @@ const jsonLd = {
 
 <nav
   aria-label="Breadcrumb"
-  class:list={['mb-6 text-sm text-muted-foreground', className]}
+  class:list={["text-sm text-muted-foreground", className]}
 >
   <ol class="flex flex-wrap items-center gap-1">
     {items.map((item, index) => {
-      const isLast = index === items.length - 1;
-      return (
-        <li class="flex items-center gap-1">
-          {index > 0 && (
-            <ChevronRight
-              aria-hidden="true"
-              class="size-3.5 shrink-0"
-            />
-          )}
-          {isLast ? (
-            <span
-              class="text-card-foreground"
-              aria-current="page"
-            >
-              {item.label}
-            </span>
-          ) : (
-            <a
-              href={item.href}
-              class="hover:text-link hover:underline"
-            >
-              {item.label}
-            </a>
-          )}
-        </li>
-      );
-    })}
+        const isLast = index === items.length - 1;
+        return (
+          <li class="flex items-center gap-1">
+            {index > 0 && <ChevronRight aria-hidden="true" class="size-3.5 shrink-0" />}
+            {isLast ? (
+              <span class="text-card-foreground" aria-current="page">
+                {item.label}
+              </span>
+            ) : (
+              <a href={item.href} class="hover:text-link hover:underline">
+                {item.label}
+              </a>
+            )}
+          </li>
+        );
+      })}
   </ol>
 </nav>
 <script

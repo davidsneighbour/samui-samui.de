@@ -9,24 +9,21 @@ const { groups } = Astro.props as Props;
 ---
 
 {groups.length > 0 && (
-  <dl class="mb-8 space-y-2 border-y border-card-foreground/10 py-4 text-sm">
-    {groups.map((group) => (
+    <dl class="mb-8 space-y-2 border-y border-card-foreground/10 py-4 text-sm">
+      {groups.map((group) => (
         <div class="grid gap-1 sm:grid-cols-[7rem_1fr]">
-          <dt class="font-medium text-card-foreground">{group.label}</dt>
+          <dt class="font-medium text-card-foreground text-right">{group.label}: </dt>
           <dd class="text-muted-foreground">
             {group.items.map((item, index) => (
-                <>
-                  <a
-                    href={item.href}
-                    class="text-link hover:underline"
-                  >
-                    {item.label}
-                  </a>
-                  {index < group.items.length - 1 && <span>, </span>}
-                </>
-              ))}
+              <>
+                <a href={item.href} class="text-link hover:underline">
+                  {item.label}
+                </a>
+                {index < group.items.length - 1 && <span>, </span>}
+              </>
+            ))}
           </dd>
         </div>
       ))}
-  </dl>
-)}
+    </dl>
+  )}

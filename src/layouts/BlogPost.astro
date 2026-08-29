@@ -123,128 +123,101 @@ const publishedYear = publishedOn
         class="overflow-hidden rounded-(--radius) bg-card text-card-foreground"
       >
         {postCover && (
-          <PostCover
-            cover={postCover}
-            eager
-            figureClass="m-0 w-full"
-            imageClass="block h-auto w-full"
-            captionClass="px-4 pt-2 text-center text-xs text-muted-foreground sm:px-8"
-          />
-        )}
+            <PostCover
+              cover={postCover}
+              eager
+              figureClass="m-0 w-full"
+              imageClass="block h-auto w-full"
+              captionClass="px-4 pt-2 text-center text-xs text-muted-foreground sm:px-8"
+            />
+          )}
         <div class="px-4 py-8 sm:px-8">
-          <div class="mb-8 text-center">
+          <div class="text-center">
             <BlogPostTitle
               title={title}
               level="h1"
             />
-            <BlogPostMeta
-              date={publishedOn}
-              updatedDate={updatedOn}
-              themen={themen}
-              extended
-              class="mb-4 mt-3"
-            />
-            <Separator />
-            {publishedYear && postUrl && (
+          </div>
+          <BlogPostMeta
+            date={publishedOn}
+            updatedDate={updatedOn}
+            themen={themen}
+            extended
+            class="mb-4 mt-3"
+          />
+          <Separator />
+          {publishedYear && postUrl && (
               <Breadcrumbs
                 class="mb-4 mt-4 text-left"
                 items={[
-                  { href: '/', label: 'Startseite' },
+                  { href: "/", label: "Startseite" },
                   { href: `/archiv/${publishedYear}/`, label: String(publishedYear) },
                   { href: postUrl, label: title },
                 ]}
               />
             )}
-          </div>
+          <PostTaxonomyGroups groups={taxonomies} />
           {publishedOn && (
-            <span
-              class="sr-only"
-              data-pagefind-filter={`Year:${getPostDateParts(publishedOn).year}`}
-              data-pagefind-meta={`date:${formatDate(publishedOn)}`}
-            />
-          )}
+              <span
+                class="sr-only"
+                data-pagefind-filter={`Year:${getPostDateParts(publishedOn).year}`}
+                data-pagefind-meta={`date:${formatDate(publishedOn)}`}
+              />
+            )}
           {postThemen.length > 0 && (
-            <span
-              class="sr-only"
-              data-pagefind-meta={`themen:${postThemen.map(humanize).join(', ')}`}
-            />
-          )}
-          {postThemen.map((thema) => (
-            <span
-              class="sr-only"
-              data-pagefind-filter={`Thema:${humanize(thema)}`}
-            />
-          ))}
+              <span class="sr-only" data-pagefind-meta={`themen:${postThemen.map(humanize).join(", ")}`} />
+            )}
+          {postThemen.map((thema) => <span class="sr-only" data-pagefind-filter={`Thema:${humanize(thema)}`} />)}
           {hasVimeo && <VimeoScript />}
           {hasYoutube && <YoutubeScript />}
-          <PostTaxonomyGroups groups={taxonomies} />
           <div class={proseClasses}>
             <slot />
           </div>
         </div>
         {(newerPost || olderPost) && (
-          <div class="border-t border-card-foreground/10 px-4 py-6 sm:px-8">
-            <nav
-              class="grid gap-4 sm:grid-cols-2"
-              aria-label="Beitragsnavigation"
-            >
-              {newerPost && (
-                <a
-                  href={newerPost.href}
-                  class="group min-w-0 rounded-[calc(var(--radius)-4px)] text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-                >
-                  <span class="block text-xs text-muted-foreground">
-                    ← Neuerer Beitrag
-                  </span>
-                  <span class="mt-1 block break-words text-link group-hover:underline">
-                    {newerPost.title}
-                  </span>
-                </a>
-              )}
-              {!newerPost && olderPost && (
-                <span
-                  class="hidden sm:block"
-                  aria-hidden="true"
-                />
-              )}
-              {olderPost && (
-                <a
-                  href={olderPost.href}
-                  class="group min-w-0 rounded-[calc(var(--radius)-4px)] text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 sm:text-right"
-                >
-                  <span class="block text-xs text-muted-foreground">
-                    Älterer Beitrag →
-                  </span>
-                  <span class="mt-1 block break-words text-link group-hover:underline">
-                    {olderPost.title}
-                  </span>
-                </a>
-              )}
-            </nav>
-          </div>
-        )}
-        {authorFooter && AuthorBio && (
-          <div class="border-t border-card-foreground/10 bg-muted px-4 py-8 sm:px-8">
-            <div class="mx-auto max-w-3xl">
-              {authorFooter.data.image && (
-                <Image
-                  src={authorFooter.data.image}
-                  alt={authorFooter.data.imagetitle ?? ''}
-                  width={480}
-                  height={480}
-                  class="mb-6 block aspect-square w-full rounded-[calc(var(--radius)-4px)] object-cover outline outline-1 -outline-offset-1 outline-black/10 min-[600px]:float-left min-[600px]:mb-4 min-[600px]:mr-6 min-[600px]:w-1/3"
-                />
-              )}
-              <div class="prose prose-sm prose-neutral max-w-none text-card-foreground prose-headings:font-normal prose-headings:text-card-foreground prose-a:text-link prose-a:no-underline prose-a:hover:underline">
-                <AuthorBio />
-              </div>
-              <div
-                class="clear-both"
-                aria-hidden="true"
-              />
+            <div class="border-t border-card-foreground/10 px-4 py-6 sm:px-8">
+              <nav class="grid gap-4 sm:grid-cols-2" aria-label="Beitragsnavigation">
+                {newerPost && (
+                  <a
+                    href={newerPost.href}
+                    class="group min-w-0 rounded-[calc(var(--radius)-4px)] text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                  >
+                    <span class="block text-xs text-muted-foreground">← Neuerer Beitrag</span>
+                    <span class="mt-1 block break-words text-link group-hover:underline">{newerPost.title}</span>
+                  </a>
+                )}
+                {!newerPost && olderPost && <span class="hidden sm:block" aria-hidden="true" />}
+                {olderPost && (
+                  <a
+                    href={olderPost.href}
+                    class="group min-w-0 rounded-[calc(var(--radius)-4px)] text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 sm:text-right"
+                  >
+                    <span class="block text-xs text-muted-foreground">Älterer Beitrag →</span>
+                    <span class="mt-1 block break-words text-link group-hover:underline">{olderPost.title}</span>
+                  </a>
+                )}
+              </nav>
             </div>
-          </div>
-        )}
+          )}
+        {authorFooter && AuthorBio && (
+            <div class="border-t border-card-foreground/10 bg-muted px-4 py-8 sm:px-8">
+              <div class="mx-auto max-w-3xl">
+                {authorFooter.data.image && (
+                  <Image
+                    src={authorFooter.data.image}
+                    alt={authorFooter.data.imagetitle ?? ""}
+                    width={480}
+                    height={480}
+                    class="mb-6 block aspect-square w-full rounded-[calc(var(--radius)-4px)] object-cover outline outline-1 -outline-offset-1 outline-black/10 min-[600px]:float-left min-[600px]:mb-4 min-[600px]:mr-6 min-[600px]:w-1/3"
+                  />
+                )}
+                <div class="prose prose-sm prose-neutral max-w-none text-card-foreground prose-headings:font-normal prose-headings:text-card-foreground prose-a:text-link prose-a:no-underline prose-a:hover:underline">
+                  <AuthorBio />
+                </div>
+                <div class="clear-both" aria-hidden="true" />
+              </div>
+            </div>
+          )}
         <div class="border-t border-card-foreground/10 px-4 py-8 sm:px-8">
           <SocialShare
             title={title}
