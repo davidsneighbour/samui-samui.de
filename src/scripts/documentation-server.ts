@@ -218,7 +218,11 @@ export function renderDocumentationPage(
           return `<li><a href="${escapeHtml(page.routePath)}"${ariaCurrent}>${escapeHtml(page.title)}</a></li>`;
         })
         .join('\n');
-      return `<li class="nav-group"><details open><summary><h2>${escapeHtml(group.title)}</h2></summary><ul>${links}</ul></details></li>`;
+      const isActiveGroup = group.pages.some(
+        (page) => page.routePath === currentPage.routePath,
+      );
+      const open = isActiveGroup ? ' open' : '';
+      return `<li class="nav-group"><details${open}><summary><h2>${escapeHtml(group.title)}</h2></summary><ul>${links}</ul></details></li>`;
     })
     .join('\n');
 
