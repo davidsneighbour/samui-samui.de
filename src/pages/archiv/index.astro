@@ -6,10 +6,12 @@ import SiteAge from '@components/SiteAge.astro';
 import Accordion from '@components/ui/accordion.astro';
 import Badge from '@components/ui/badge.astro';
 import PageLayout from '@layouts/PageLayout.astro';
+import { Calendar } from '@lucide/astro';
 import { cn } from '@utils/cn';
 import {
   formatDateDuration,
   formatMonthLong,
+  formatMonthShort,
   getPostDateParts,
 } from '@utils/dates';
 import { groupPostsByThema } from '@utils/themen';
@@ -30,9 +32,12 @@ const siteAge = formatDateDuration({
   sinceDate: siteSinceDate,
 });
 
+type ActivityLevel = 'none' | 'few' | 'some' | 'many';
+
 interface MonthCount {
   month: number;
   count: number;
+  level: ActivityLevel;
 }
 
 interface YearSummary {
@@ -57,6 +62,25 @@ const yearNumbers = [...postsByYear.keys()];
 const minYear = Math.min(...yearNumbers);
 const maxYear = Math.max(...yearNumbers);
 
+// Four-step activity scale on the `primary` token -- see DESIGN.md's "Month
+// activity indicator" section. Scaled per year (darkest = that year's own
+// busiest month, lightest active tier = its own least-busy active month)
+// rather than against the whole archive's max, so a low-volume year still
+// shows internal month-to-month contrast instead of reading as uniformly
+// faded next to a peak year like 2006 (#1652).
+function activityLevel(
+  count: number,
+  yearMin: number,
+  yearMax: number,
+): ActivityLevel {
+  if (count === 0) return 'none';
+  const fraction =
+    yearMax > yearMin ? (count - yearMin) / (yearMax - yearMin) : 1;
+  if (fraction < 1 / 3) return 'few';
+  if (fraction < 2 / 3) return 'some';
+  return 'many';
+}
+
 // Walk every year in range, not just the ones with posts -- a year with
 // zero posts (e.g. a gap year) still appears in the list so the archive
 // reads as a continuous timeline, just unlinked (there's no /archiv/[year]/
@@ -70,30 +94,31 @@ for (let year = maxYear; year >= minYear; year--) {
       const month = getPostDateParts(post.data.date).monthIndex;
       monthCounts[month] = (monthCounts[month] ?? 0) + 1;
     }
+    const activeCounts = monthCounts.filter((count) => count > 0);
+    const yearMin = Math.min(...activeCounts);
+    const yearMax = Math.max(...activeCounts);
     years.push({
       hasPosts: true,
-      months: monthCounts.map((count, month) => ({ count, month })),
+      months: monthCounts.map((count, month) => ({
+        count,
+        level: activityLevel(count, yearMin, yearMax),
+        month,
+      })),
       total: yearPosts.length,
       year,
     });
   } else {
     years.push({
       hasPosts: false,
-      months: Array.from({ length: 12 }, (_, month) => ({ count: 0, month })),
+      months: Array.from({ length: 12 }, (_, month) => ({
+        count: 0,
+        level: 'none' as const,
+        month,
+      })),
       total: 0,
       year,
     });
   }
-}
-
-// Four-step activity scale on the `primary` token -- see DESIGN.md's "Month
-// activity indicator" section. Thresholds are tuned to this archive's real
-// per-month distribution (median 5, p75 21, max 93), not round numbers.
-function activityLevel(count: number): 'none' | 'few' | 'some' | 'many' {
-  if (count === 0) return 'none';
-  if (count < 5) return 'few';
-  if (count < 20) return 'some';
-  return 'many';
 }
 
 const activityClasses = {
@@ -201,36 +226,41 @@ const curatedThemen = themaGroups.slice(0, 12);
 
   <section class="mb-10">
     <h2 class="mb-4 text-lg font-medium text-card-foreground">Nach Jahr</h2>
-    <ul class="divide-y divide-border border-y border-border">
+    <ul class="grid grid-cols-1 gap-3 sm:grid-cols-2">
       {years.map((yearSummary) => (
-          <li class="py-3">
-            <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
+          <li class="rounded-(--radius) border border-border/60 bg-card p-3">
+            <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
               {yearSummary.hasPosts ? (
                 <a
                   href={`/archiv/${yearSummary.year}/`}
-                  class="text-lg font-medium text-card-foreground hover:text-link hover:underline"
+                  class="text-base font-medium text-card-foreground hover:text-link hover:underline"
                 >
                   {yearSummary.year}
                 </a>
               ) : (
-                <span class="text-lg font-medium text-muted-foreground">
+                <span class="text-base font-medium text-muted-foreground">
                   {yearSummary.year}
                 </span>
               )}
-              <span class="text-sm text-muted-foreground">
+              <span class="text-xs text-muted-foreground">
                 {yearSummary.hasPosts
                   ? `${yearSummary.total} ${yearSummary.total === 1 ? 'Beitrag' : 'Beiträge'}`
                   : 'Keine Beiträge'}
               </span>
               <span
-                class="flex items-center gap-1"
+                class="ml-auto flex items-center gap-1"
                 aria-hidden="true"
               >
                 {yearSummary.months.map((monthCount) => (
                     <span
                       class={cn(
-                        'size-2 rounded-full',
-                        activityClasses[activityLevel(monthCount.count)],
+                        'month-dot size-2.5 rounded-full',
+                        activityClasses[monthCount.level],
+                      )}
+                      data-month={formatMonthShort(
+                        new Date(
+                          Date.UTC(yearSummary.year, monthCount.month, 1),
+                        ),
                       )}
                     />
                   ))}
@@ -238,8 +268,17 @@ const curatedThemen = themaGroups.slice(0, 12);
             </div>
             {yearSummary.hasPosts && (
               <Accordion class="border-b-0">
-                <span slot="summary">Monate anzeigen</span>
-                <ul class="grid grid-cols-2 gap-x-6 gap-y-1 pl-1 sm:grid-cols-3 md:grid-cols-4">
+                <span
+                  slot="summary"
+                  class="inline-flex items-center gap-1.5"
+                >
+                  <Calendar
+                    class="size-3.5"
+                    aria-hidden="true"
+                  />
+                  Monate anzeigen
+                </span>
+                <ul class="grid grid-cols-2 gap-x-4 gap-y-1 pl-1">
                   {yearSummary.months
                     .filter((monthCount) => monthCount.count > 0)
                     .map((monthCount) => (

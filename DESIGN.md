@@ -222,13 +222,23 @@ this is what keeps the indicator understandable without relying on
 color contrast alone. The dots are always paired with the actual post
 count in text (in the year row and, expanded, in each month row), so
 the dots themselves are decorative (`aria-hidden="true"`) rather than
-the sole carrier of the information.
+the sole carrier of the information. Hovering a dot also reveals its
+month abbreviation via a plain CSS `attr()` tooltip (`.month-dot` in
+`theme.css`) — a supplementary mouse affordance, not a second carrier,
+so the dots stay non-focusable rather than gaining 252 new tab stops.
 
-Thresholds are tuned against the archive's real per-month distribution
-(157 months have ≥1 post; median 5, 75th percentile 21, max 93 in a
-single month) rather than the round numbers in early planning drafts —
-most 2005–2007 months land in "many", most 2012+ months land in "few"
-or "some", which is the actual shape of this blog's history.
+Thresholds are computed per year, not against the whole archive: for
+each year, its own busiest active month is "many" and its own
+least-busy active month is "few", with "some" in between (#1652).
+Earlier versions used fixed archive-wide thresholds (tuned against the
+real per-month distribution: 157 months have ≥1 post, median 5, 75th
+percentile 21, max 93 in a single month) — that made every low-volume
+recent year read as uniformly faded next to peak years like 2005–2007,
+since nothing in a 3-post year could reach the "many" threshold tuned
+for a 93-post month. Per-year scaling means every year shows its own
+internal month-to-month contrast, at the cost of no longer being able
+to compare absolute volume between years by dot color alone (the
+"Beiträge" count text next to each year is the source for that).
 
 ### Pagefind component UI
 

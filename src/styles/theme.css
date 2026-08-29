@@ -367,6 +367,43 @@ h6 {
 }
 
 /*
+ * Archive year-overview month dots (`/archiv/`) are decorative and
+ * `aria-hidden` -- the month name/count they represent is always present as
+ * real text in the "Monate anzeigen" disclosure below, so this hover-only
+ * label is a supplementary mouse affordance, not the sole carrier of the
+ * information (see DESIGN.md's "Month activity indicator" section, #1652).
+ * A plain CSS `attr()` tooltip keeps that decorative/non-focusable status --
+ * reaching for the shared Tooltip component would make all twelve dots per
+ * year individually focusable, adding hundreds of pointless tab stops to the
+ * page.
+ */
+.month-dot {
+  position: relative;
+}
+.month-dot::after {
+  content: attr(data-month);
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  z-index: 10;
+  translate: -50% 0;
+  white-space: nowrap;
+  border-radius: calc(var(--radius) - 6px);
+  border: 1px solid var(--color-border);
+  background: var(--color-muted);
+  padding: 2px 6px;
+  color: var(--color-card-foreground);
+  font-size: 0.6875rem;
+  opacity: 0;
+  transition: opacity 150ms ease-out;
+}
+@media (hover: hover) and (pointer: fine) {
+  .month-dot:hover::after {
+    opacity: 1;
+  }
+}
+
+/*
  * The `text-box` property is a new CSS feature that optically balances text
  * blocks by trimming excess space above and below the first and last lines.
  * It's not yet widely supported, so we use a fallback translation to achieve
