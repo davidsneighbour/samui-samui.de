@@ -1,0 +1,50 @@
+---
+// Renders a schema.org `Person` (https://schema.org/Person): a visible
+// name/address block plus a JSON-LD script that nests the address as a
+// `PostalAddress` (https://schema.org/PostalAddress). Reusable anywhere a
+// person needs to be marked up structurally, e.g. legal-page operator
+// details or an author byline -- not limited to the legal pages it was
+// introduced for.
+import PostalAddress from '@components/PostalAddress.astro';
+
+interface Props {
+  name: string;
+  address: {
+    streetAddress: string;
+    addressLocality: string;
+    postalCode: string;
+    addressRegion?: string;
+    addressCountry: string;
+  };
+  class?: string;
+}
+
+const { name, address, class: className } = Astro.props as Props;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: address.addressLocality,
+    postalCode: address.postalCode,
+    streetAddress: address.streetAddress,
+    ...(address.addressRegion ? { addressRegion: address.addressRegion } : {}),
+    addressCountry: address.addressCountry,
+  },
+  name,
+};
+---
+
+<span class:list={['block', className]}>
+  <span class="block">{name}</span>
+  <PostalAddress
+    {...address}
+    jsonLd={false}
+  />
+</span>
+<script
+  type="application/ld+json"
+  is:inline
+  set:html={JSON.stringify(schema)}
+/>

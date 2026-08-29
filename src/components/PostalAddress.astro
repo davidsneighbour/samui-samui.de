@@ -1,0 +1,47 @@
+---
+// Renders a schema.org `PostalAddress` (https://schema.org/PostalAddress):
+// a visible address block plus a JSON-LD script, following the JSON-LD
+// pattern established by Breadcrumbs.astro rather than inline microdata.
+interface Props {
+  streetAddress: string;
+  addressLocality: string;
+  postalCode: string;
+  addressRegion?: string;
+  addressCountry: string;
+  class?: string;
+  jsonLd?: boolean;
+}
+
+const {
+  streetAddress,
+  addressLocality,
+  postalCode,
+  addressRegion,
+  addressCountry,
+  class: className,
+  jsonLd = true,
+} = Astro.props as Props;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'PostalAddress',
+  addressLocality,
+  postalCode,
+  streetAddress,
+  ...(addressRegion ? { addressRegion } : {}),
+  addressCountry,
+};
+
+const localityLine = addressRegion
+  ? `${postalCode} ${addressLocality}, ${addressRegion}`
+  : `${postalCode} ${addressLocality}`;
+---
+
+<address class:list={['not-italic', className]}>
+  <span class="block">{streetAddress}</span>
+  <span class="block">{localityLine}</span>
+  <span class="block">{addressCountry}</span>
+</address>
+{jsonLd && (
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(schema)} />
+  )}

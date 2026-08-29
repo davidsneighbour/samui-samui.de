@@ -4,6 +4,7 @@ lastmod: 2026-08-29T00:00:00+07:00
 ---
 
 import PageLayout from '@layouts/PageLayout.astro';
+import Person from '@components/Person.astro';
 import { proseClasses } from '@utils/prose';
 
 <PageLayout title={frontmatter.title} description={frontmatter.description ?? frontmatter.title}>
@@ -17,10 +18,18 @@ Personenbezogene Daten sind alle Informationen, die sich auf eine bestimmte oder
 
 Verantwortlich für die Datenverarbeitung im Zusammenhang mit dieser Website ist:
 
-> Patrick Kollitsch
-> 1/6 Moo 5, Ban Maenam
-> 84330 Koh Samui, Suratthani
-> Thailand
+<blockquote>
+  <Person
+    name="Patrick Kollitsch"
+    address={{
+      streetAddress: '1/6 Moo 5, Ban Maenam',
+      postalCode: '84330',
+      addressLocality: 'Koh Samui',
+      addressRegion: 'Suratthani',
+      addressCountry: 'Thailand',
+    }}
+  />
+</blockquote>
 
 [Kontakt][1]
 
