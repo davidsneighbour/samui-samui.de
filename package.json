@@ -115,6 +115,7 @@
     "lint:staged": "lint-staged",
     "lint:umlauts": "node src/scripts/normalize-german-characters.ts --check",
     "lint:umlauts:fix": "node src/scripts/normalize-german-characters.ts --write",
+    "postinstall": "biome migrate --write",
     "prepare": "simple-git-hooks",
     "preview": "astro preview",
     "publisher": "node src/scripts/publisher.ts",

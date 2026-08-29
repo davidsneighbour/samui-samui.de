@@ -192,6 +192,7 @@ scratch
 /PROJECT.md
 /ROADMAP.md
 /TODO.md
+/RESUME.md
 
 # Local Netlify folder -- state.json (site link) is tracked, everything
 # else (functions bundles, deploy logs, etc.) is local/generated
