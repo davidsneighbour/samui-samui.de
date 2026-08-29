@@ -75,9 +75,13 @@ for (const width of widths) {
     );
     expect(metrics.questionFontSize).toBeLessThan(metrics.answerFontSize);
     expect(metrics.answerFontSize).toBeLessThanOrEqual(200);
-    expect(
-      Math.abs(metrics.wordRects[0].left - metrics.wordRects[1].left),
-    ).toBeLessThanOrEqual(1);
+    const [questionRect, answerRect] = metrics.wordRects;
+    if (questionRect === undefined || answerRect === undefined) {
+      throw new Error('Expected the masthead title to contain two word spans.');
+    }
+    expect(Math.abs(questionRect.left - answerRect.left)).toBeLessThanOrEqual(
+      1,
+    );
     for (const wordRect of metrics.wordRects) {
       expect(wordRect.left).toBeGreaterThanOrEqual(0);
       expect(wordRect.right).toBeLessThanOrEqual(metrics.viewportWidth + 1);
