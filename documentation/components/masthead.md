@@ -43,7 +43,7 @@ testing page.
 
 ## Automated checks
 
-`npm run test:e2e` runs the Playwright masthead checks in `tests/`. The test
+`npm run test:e2e` runs the Playwright masthead checks in `src/test/`. The test
 starts the Astro dev server, opens `/tests/masthead-frame`, and checks that:
 
 * widths below 576px render two word lines,

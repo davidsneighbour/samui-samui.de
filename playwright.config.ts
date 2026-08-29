@@ -13,7 +13,8 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
   ],
-  testDir: './tests',
+  testDir: './src/test',
+  testMatch: '**/*.spec.ts',
   timeout: 30_000,
   use: {
     baseURL: `https://127.0.0.1:${port}`,
