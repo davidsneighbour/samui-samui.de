@@ -82,6 +82,8 @@
 
 ## Repository
 
+* [Deployment](deployment.md) documents the production `npm run deploy`
+  pipeline, Netlify account prompt, release step, build, and production deploy.
 * [Documentation server](documentation-server.md) explains the local Markdown
   preview server that can run beside the Astro dev server.
 * [Link checking](link-checking.md) documents the Lychee wrapper for content
