@@ -362,6 +362,15 @@ h6 {
  * blocks by trimming excess space above and below the first and last lines.
  * It's not yet widely supported, so we use a fallback translation to achieve
  * a similar effect in browsers that don't support it.
+ *
+ * Used on the post date in BlogPostMeta.astro/FormattedDate.astro. Firefox
+ * doesn't support `text-box: trim-both cap alphabetic` yet, so it falls back
+ * to the base rule below: leaving Firefox's default line-box leading in
+ * place reads as the date sitting slightly too low next to its icon, so
+ * `translate` nudges it up by `--text-optical-offset` (-0.06em) to match the
+ * optically-trimmed look browsers with `text-box` support get natively. Test
+ * in Firefox specifically when touching this rule -- it's the browser that
+ * motivated the fallback.
  */
 .text-box-balanced {
   translate: 0 var(--text-optical-offset, -0.06em);
