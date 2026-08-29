@@ -1,10 +1,13 @@
 # Person taxonomy link
 
 A reusable inline link from post prose to a `leute` entity page (issue
-number 1672): renders the entity's page link, a trailing `user-round` icon,
-and -- when the entity has a `subtitle` -- a hover/keyboard-focus tooltip
-showing it, reusing the shared [`Tooltip`](tooltips.md) component's exact
-markup, CSS, and controller script.
+number 1672): renders a leading `user-round` icon plus the entity's page
+link, and -- when the entity has a `subtitle` -- a hover/keyboard-focus
+tooltip showing it, reusing the shared [`Tooltip`](tooltips.md) component's
+exact markup, CSS, and controller script. The icon sits outside the `<a>`
+(not itself clickable) and carries no color class, so it inherits the
+surrounding prose text color via `currentColor` rather than the link's
+`prose-a:text-link` color.
 
 There are two integration points that both call into the same builder, so
 they always produce identical markup for equivalent input -- same split as
@@ -33,18 +36,23 @@ Both call `buildPersonLinkHast()` / `personLinkHastToHtml()`
 2. Throws a build error if the id has no entry (`Unknown leute id "..."`)
    or is a draft (`leute/[slug].astro`'s `getStaticPaths` skips drafts, so
    linking to one would 404).
-3. Builds the link (`<a href="/leute/<id>/">`) with the tag's own body as
-   the visible label -- not the entity's `title` -- plus a trailing
-   `user-round` icon (`lucide-static`, via the same `buildLucideIconHast()`
-   used by notices).
-4. When the entity has a `subtitle`, wraps it in the exact
-   `.tooltip`/`.tooltip__trigger`/`.tooltip__content` markup `Tooltip.astro`
-   itself renders (its `interactive` mode, since the trigger here is
-   already a focusable `<a>` -- see Footer.astro's sound-toggle button for
-   the same pattern) and appends the shared controller script
-   (`src/utils/tooltip/controller.ts`), idempotent via its own `window`
-   flag guard so repeating it for multiple `<dnb-person>` occurrences on
-   one page is harmless.
+3. Builds a leading `user-round` icon (`lucide-static`, via the same
+   `buildLucideIconHast()` used by notices) plus the link
+   (`<a href="/leute/<id>/">`) with the tag's own body as the visible label
+   -- not the entity's `title`. The icon sits outside the `<a>` (only the
+   name is clickable) and is left uncolored so it inherits the surrounding
+   text color instead of the link color; both sit in a small
+   `inline-flex items-center gap-1` wrapper (needed because Tailwind's
+   preflight sets `svg { display: block }`, which would otherwise force the
+   icon onto its own line).
+4. When the entity has a `subtitle`, wraps the link (not the icon) in the
+   exact `.tooltip`/`.tooltip__trigger`/`.tooltip__content` markup
+   `Tooltip.astro` itself renders (its `interactive` mode, since the
+   trigger here is already a focusable `<a>` -- see Footer.astro's
+   sound-toggle button for the same pattern) and appends the shared
+   controller script (`src/utils/tooltip/controller.ts`), idempotent via
+   its own `window` flag guard so repeating it for multiple `<dnb-person>`
+   occurrences on one page is harmless.
 
 ## Usage
 
@@ -63,11 +71,11 @@ Vorsitzender ist <dnb-person id="anutin-charnvirakul">Anutin Charnvirakul</dnb-p
 Both render:
 
 ```html
-Vorsitzender ist <a href="/leute/anutin-charnvirakul/">Anutin Charnvirakul<svg .../></a>.
+Vorsitzender ist <span class="inline-flex items-center gap-1"><svg .../><a href="/leute/anutin-charnvirakul/">Anutin Charnvirakul</a></span>.
 ```
 
--- plus the tooltip markup and controller script when the entity's
-frontmatter has a `subtitle`.
+-- plus the tooltip markup (wrapping the `<a>`, not the icon) and
+controller script when the entity's frontmatter has a `subtitle`.
 
 ## The `subtitle` frontmatter field
 

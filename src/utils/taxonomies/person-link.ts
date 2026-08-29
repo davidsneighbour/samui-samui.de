@@ -13,8 +13,11 @@ import { readYamlFrontmatter } from './frontmatter';
 const LEUTE_BASE = path.join(process.cwd(), 'src/content/leute');
 // `inline-flex` (rather than relying on default inline text flow) because
 // Tailwind's preflight sets `svg { display: block }`, which would otherwise
-// force the icon onto its own line inside the link text.
-const LINK_CLASSES = 'inline-flex items-center gap-1';
+// force the icon onto its own line. The icon sits outside the `<a>` --
+// leading, not linked, and deliberately uncolored so it inherits the
+// surrounding prose text color via `currentColor` instead of the link's
+// `prose-a:text-link` color.
+const WRAPPER_CLASSES = 'inline-flex items-center gap-1';
 const ICON_CLASSES = 'size-3.5 shrink-0';
 
 // Mirrors src/components/ui/tooltip.astro's own class contract exactly
@@ -104,15 +107,16 @@ function resolvePerson(
  * MDX slot for the component path) rather than a plain string, so inline
  * formatting inside the tag's body renders as authored.
  *
- * Without a `subtitle`, this is just a plain link with a trailing icon --
- * no tooltip markup, no script. With one, it reuses the exact
- * `.tooltip`/`.tooltip__trigger`/`.tooltip__content` contract of the shared
- * `Tooltip` component (its CSS lives globally in src/styles/theme.css
- * precisely so this rehype-built markup can pick it up) plus its
- * positioning/show-hide controller script, which must accompany each
- * occurrence for pages that don't otherwise render `<Tooltip>` --
- * idempotent via the controller's own `window` flag guard, so repeating it
- * for multiple `<dnb-person>` occurrences on one page is harmless.
+ * Without a `subtitle`, this is just a plain link with a leading icon --
+ * no tooltip markup, no script. With one, the link (not the icon) reuses
+ * the exact `.tooltip`/`.tooltip__trigger`/`.tooltip__content` contract of
+ * the shared `Tooltip` component (its CSS lives globally in
+ * src/styles/theme.css precisely so this rehype-built markup can pick it
+ * up) plus its positioning/show-hide controller script, which must
+ * accompany each occurrence for pages that don't otherwise render
+ * `<Tooltip>` -- idempotent via the controller's own `window` flag guard,
+ * so repeating it for multiple `<dnb-person>` occurrences on one page is
+ * harmless.
  */
 export function buildPersonLinkHast(
   options: PersonLinkOptions,
@@ -122,17 +126,17 @@ export function buildPersonLinkHast(
   const icon = buildLucideIconHast('user-round', { class: ICON_CLASSES });
 
   if (!subtitle) {
-    const link = h('a', { class: LINK_CLASSES, href }, [...label, icon]);
-    return { node: link as Element, script: undefined };
+    const link = h('a', { href }, label);
+    const wrapper = h('span', { class: WRAPPER_CLASSES }, [
+      icon,
+      link,
+    ]) as Element;
+    return { node: wrapper, script: undefined };
   }
 
   const tooltipId = `dnb-person-link-${hashString(`${id}:${subtitle}`)}`;
 
-  const link = h(
-    'a',
-    { 'aria-describedby': tooltipId, class: LINK_CLASSES, href },
-    [...label, icon],
-  );
+  const link = h('a', { 'aria-describedby': tooltipId, href }, label);
   const trigger = h(
     'span',
     { class: TRIGGER_CLASSES, 'data-tooltip-trigger': '' },
@@ -149,7 +153,7 @@ export function buildPersonLinkHast(
     },
     subtitle,
   );
-  const node = h(
+  const tooltip = h(
     'span',
     {
       class: 'tooltip inline-flex',
@@ -157,11 +161,15 @@ export function buildPersonLinkHast(
       'data-tooltip-placement': 'top',
     },
     [trigger, content],
-  ) as Element;
+  );
+  const wrapper = h('span', { class: WRAPPER_CLASSES }, [
+    icon,
+    tooltip,
+  ]) as Element;
 
   const script = h('script', {}, TOOLTIP_CONTROLLER_SCRIPT) as Element;
 
-  return { node, script };
+  return { node: wrapper, script };
 }
 
 /** Stringifies a `buildPersonLinkHast()` result for use with Astro's `set:html`. */
