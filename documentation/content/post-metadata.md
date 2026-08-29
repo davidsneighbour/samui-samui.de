@@ -37,3 +37,7 @@ when the icon is hovered or receives keyboard focus.
 The tooltip text keeps the German wording `Aktualisiert am` followed by
 the same extended date formatting as the publish date when the component's
 `extended` prop is enabled.
+
+Single post pages render a breadcrumb below the visible metadata row and above
+the taxonomy list. The trail uses `Startseite`, the Bangkok calendar year linked
+to `/archiv/YYYY/`, and the current post title as the active page item.

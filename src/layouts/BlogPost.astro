@@ -5,6 +5,7 @@ import { ClientRouter } from 'astro:transitions';
 import BaseHead from '@components/BaseHead.astro';
 import BlogPostMeta from '@components/BlogPostMeta.astro';
 import BlogPostTitle from '@components/BlogPostTitle.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
 import Footer from '@components/Footer.astro';
 import Giscus from '@components/Giscus.astro';
 import Header from '@components/Header.astro';
@@ -39,6 +40,7 @@ type Props = {
   date?: Date | undefined;
   lastmod?: Date | undefined;
   featured_image?: ImageMetadata | string | undefined;
+  postUrl?: string | undefined;
   newerPost?: PostNavigationItem | undefined;
   olderPost?: PostNavigationItem | undefined;
   taxonomies?: PostTaxonomyGroup[] | undefined;
@@ -62,6 +64,7 @@ const {
   date,
   lastmod,
   featured_image,
+  postUrl,
   newerPost,
   olderPost,
   taxonomies = [],
@@ -91,6 +94,9 @@ const metaImage =
     ? postCover.src
     : undefined;
 const postThemen = themen ?? [];
+const publishedYear = publishedOn
+  ? getPostDateParts(publishedOn).year
+  : undefined;
 ---
 
 <html
@@ -138,6 +144,16 @@ const postThemen = themen ?? [];
               extended
               class="mb-4 mt-3"
             />
+            {publishedYear && postUrl && (
+              <Breadcrumbs
+                class="mt-4 text-left"
+                items={[
+                  { href: '/', label: 'Startseite' },
+                  { href: `/archiv/${publishedYear}/`, label: String(publishedYear) },
+                  { href: postUrl, label: title },
+                ]}
+              />
+            )}
             <Separator />
           </div>
           {publishedOn && (
