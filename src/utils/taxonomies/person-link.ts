@@ -11,26 +11,26 @@ import { TOOLTIP_CONTROLLER_SCRIPT } from '../tooltip/controller';
 import { readYamlFrontmatter } from './frontmatter';
 
 const LEUTE_BASE = path.join(process.cwd(), 'src/content/leute');
-// No wrapper-level flex: an `inline-flex` wrapper synthesizes its own
-// baseline for the whole box, which sat ~2px off the surrounding line
-// compared to plain text. `inline-block` on the icon alone (overriding
-// Tailwind's preflight `svg { display: block }`, which would otherwise
-// force the icon onto its own line) keeps everything in normal inline
-// flow, so the link text lines up exactly with the surrounding prose
-// baseline; `align-[-2px]` nudges just the icon glyph to look centered
-// against the text instead of sitting on its own baseline. The icon sits
-// outside the `<a>` -- leading, not linked, and deliberately uncolored so
-// it inherits the surrounding prose text color via `currentColor` instead
-// of the link's `prose-a:text-link` color.
-const ICON_CLASSES = 'inline-block size-3.5 shrink-0 align-[-2px]';
-// A real non-breaking space (U+00A0), not a margin, glues the icon to the
-// name so a narrow viewport can never wrap between them -- a margin gap
-// between two adjacent atomic inline boxes is still a valid line-break
-// opportunity in some browsers even with no literal space character there.
-// The name itself may still wrap at its own (regular) spaces; authors can
-// use the same `&nbsp;` -- surviving as this exact character through
-// remark/rehype's standard entity decoding -- inside the tag's own body to
-// glue together parts of a name, e.g. `Lt.&nbsp;Name Surname`.
+// `inline-flex` on the wrapper, not just `inline-block` on the icon: a
+// browser can still insert a line-break opportunity between two separate
+// adjacent inline-level boxes (the icon and the link) even with a literal
+// `&nbsp;` between them and even with zero characters between them --
+// replaced elements like `<svg>` get soft-wrap opportunities synthesized
+// at their edges more or less unconditionally. Flex layout doesn't have
+// that problem: flex items never wrap onto separate lines from each other
+// (`flex-wrap` defaults to `nowrap`), so icon and link are guaranteed to
+// stay on the same line -- while the `<a>`'s own text can still wrap
+// internally within its own flex-item box, since that's normal text
+// layout inside the item, not inline-level line-breaking between boxes.
+// `align-[-2px]` nudges the whole flex box to sit on the surrounding
+// prose baseline instead of the ~2px-off baseline an `inline-flex`
+// container synthesizes by default for its content.
+const WRAPPER_CLASSES = 'inline-flex items-center align-[-2px]';
+const ICON_CLASSES = 'size-3.5 shrink-0';
+// A real non-breaking space (U+00A0) for the visual gap, not a margin --
+// keeps the same character an author can use inside the tag's own body to
+// glue together parts of a name, e.g. `Lt.&nbsp;Name Surname` (survives as
+// this exact character through remark/rehype's standard entity decoding).
 const ICON_GAP = '\u00A0';
 
 // Mirrors src/components/ui/tooltip.astro's own class contract exactly
@@ -140,7 +140,11 @@ export function buildPersonLinkHast(
 
   if (!subtitle) {
     const link = h('a', { href }, label);
-    const wrapper = h('span', {}, [icon, ICON_GAP, link]) as Element;
+    const wrapper = h('span', { class: WRAPPER_CLASSES }, [
+      icon,
+      ICON_GAP,
+      link,
+    ]) as Element;
     return { node: wrapper, script: undefined };
   }
 
@@ -172,7 +176,11 @@ export function buildPersonLinkHast(
     },
     [trigger, content],
   );
-  const wrapper = h('span', {}, [icon, ICON_GAP, tooltip]) as Element;
+  const wrapper = h('span', { class: WRAPPER_CLASSES }, [
+    icon,
+    ICON_GAP,
+    tooltip,
+  ]) as Element;
 
   const script = h('script', {}, TOOLTIP_CONTROLLER_SCRIPT) as Element;
 

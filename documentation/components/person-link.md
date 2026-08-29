@@ -41,19 +41,23 @@ Both call `buildPersonLinkHast()` / `personLinkHastToHtml()`
    (`<a href="/leute/<id>/">`) with the tag's own body as the visible label
    -- not the entity's `title`. The icon sits outside the `<a>` (only the
    name is clickable) and is left uncolored so it inherits the surrounding
-   text color instead of the link color. No flex wrapper: an `inline-flex`
-   container synthesizes its own baseline, which sat visibly off the
-   surrounding line compared to plain text, so the icon is `inline-block`
-   instead (overriding Tailwind's preflight `svg { display: block }`, which
-   would otherwise force it onto its own line) with `align-[-2px]` to sit
-   centered against the text -- everything else stays in normal inline
-   flow, so the link text lines up exactly with the surrounding prose
-   baseline. The icon and the name are glued together with an actual
-   non-breaking space (U+00A0) text node, not a margin, so a narrow
-   viewport can never wrap between the icon and the name -- a margin gap
-   between two adjacent atomic inline boxes is still a valid line-break
-   opportunity in some browsers even with no literal space character
-   there. The name itself may still wrap at its own regular spaces; an
+   text color instead of the link color. Both sit in an `inline-flex
+   items-center` wrapper: a browser can still insert a line-break
+   opportunity between two separate adjacent inline-level boxes (the icon
+   and the link) even with a literal `&nbsp;` between them and even with
+   zero characters between them -- replaced elements like `<svg>` get
+   soft-wrap opportunities synthesized at their edges more or less
+   unconditionally in some browsers. Flex layout doesn't have that
+   problem: flex items never wrap onto separate lines from each other
+   (`flex-wrap` defaults to `nowrap`), so the icon and the link are
+   guaranteed to stay on the same line, while the `<a>`'s own text can
+   still wrap internally within its own flex-item box (normal text layout
+   inside the item, not inline-level line-breaking between boxes).
+   `align-[-2px]` on the wrapper nudges the whole flex box back onto the
+   surrounding prose baseline, which an `inline-flex` container otherwise
+   synthesizes ~2px off by default. The icon and the name are still glued
+   together with an actual non-breaking space (U+00A0) text node (not a
+   margin, so the gap itself never becomes a break point either), and an
    author can use the same `&nbsp;` inside the tag's own body to glue
    together parts of a name, e.g. `Lt.&nbsp;Name Surname` -- it survives
    as the same character through remark/rehype's standard entity
@@ -87,7 +91,7 @@ Vorsitzender ist <dnb-person id="anutin-charnvirakul">Anutin Charnvirakul</dnb-p
 Both render:
 
 ```html
-Vorsitzender ist <span><svg .../><a href="/leute/anutin-charnvirakul/">Anutin Charnvirakul</a></span>.
+Vorsitzender ist <span class="inline-flex items-center align-[-2px]"><svg .../><a href="/leute/anutin-charnvirakul/">Anutin Charnvirakul</a></span>.
 ```
 
 -- plus the tooltip markup (wrapping the `<a>`, not the icon) and
