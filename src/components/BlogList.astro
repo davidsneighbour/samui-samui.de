@@ -1,18 +1,23 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 import BlogPostMeta from '@components/BlogPostMeta.astro';
 import BlogPostTitle from '@components/BlogPostTitle.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
 import Giscus from '@components/Giscus.astro';
 import PostCover from '@components/PostCover.astro';
+import PostTaxonomyGroups from '@components/PostTaxonomyGroups.astro';
 import Button from '@components/ui/button.astro';
 import Pagination from '@components/ui/pagination.astro';
 import Separator from '@components/ui/separator.astro';
 import VimeoScript from '@components/VimeoScript.astro';
 import YoutubeScript from '@components/YoutubeScript.astro';
 import { getPostCover } from '@utils/covers';
+import { getPostDateParts } from '@utils/dates';
 import { getPostPreviewHtml } from '@utils/post-preview';
 import { getPostUrl as getCanonicalPostUrl } from '@utils/posts';
 import { proseClasses } from '@utils/prose';
+import { resolvePostTaxonomyGroups } from '@utils/taxonomies/entities';
 
 interface Props {
   posts: CollectionEntry<'posts'>[];
@@ -57,6 +62,35 @@ const getPostDiscussionTerm = (post: CollectionEntry<'posts'>) =>
 
 const shouldFeaturePost = (index: number) =>
   featuredFirst && pageNumber === 1 && index === 0;
+
+const featuredPost = shouldFeaturePost(0) ? posts[0] : undefined;
+const [leute, orte, ereignisse, feiertage] = featuredPost
+  ? await Promise.all([
+      getCollection('leute'),
+      getCollection('orte'),
+      getCollection('ereignisse'),
+      getCollection('feiertage'),
+    ])
+  : [[], [], [], []];
+const featuredTaxonomies = featuredPost
+  ? resolvePostTaxonomyGroups({
+      ereignisse,
+      feiertage,
+      leute,
+      orte,
+      post: featuredPost,
+    })
+  : [];
+const featuredYear = featuredPost
+  ? getPostDateParts(featuredPost.data.date).year
+  : undefined;
+const featuredBreadcrumbs = featuredPost
+  ? [
+      { href: '/', label: 'Startseite' },
+      { href: `/archiv/${featuredYear}/`, label: String(featuredYear) },
+      { href: getPostUrl(featuredPost), label: featuredPost.data.title },
+    ]
+  : [];
 
 const listedPosts = await Promise.all(
   posts.map(async (post, index) => {
@@ -119,6 +153,11 @@ const showTopPagination = showPagination && pageNumber > 1;
                   />
                   <Separator />
                 </header>
+                <Breadcrumbs
+                  class="mb-4 mt-4 text-left"
+                  items={featuredBreadcrumbs}
+                />
+                <PostTaxonomyGroups groups={featuredTaxonomies} />
                 {hasVimeo && <VimeoScript />}
                 {hasYoutube && <YoutubeScript />}
                 <div
