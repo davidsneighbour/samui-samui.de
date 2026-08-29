@@ -8,6 +8,11 @@ interface Props {
   class?: string | undefined;
   triggerClass?: string | undefined;
   contentClass?: string | undefined;
+  // Set when the slotted trigger is already an interactive, focusable
+  // element (e.g. a <button>) that manages its own focus styling and
+  // accessible name. Skips the wrapper's own tabindex/aria-label so the
+  // control doesn't get a redundant tab stop.
+  interactive?: boolean | undefined;
 }
 
 const {
@@ -17,7 +22,11 @@ const {
   class: className,
   triggerClass,
   contentClass,
+  interactive = false,
 } = Astro.props as Props;
+const triggerA11yAttrs = interactive
+  ? {}
+  : { 'aria-describedby': id, 'aria-label': label, tabindex: '0' };
 ---
 
 <span
@@ -26,13 +35,13 @@ const {
 >
   <span
     class={cn(
-      'tooltip__trigger inline-flex items-center justify-center rounded-[calc(var(--radius)-4px)] leading-none text-muted-foreground transition-[color,scale] duration-150 ease-out hover:text-card-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card active:scale-[0.96] [&>svg]:block',
+      'tooltip__trigger inline-flex items-center justify-center',
+      !interactive &&
+        'rounded-[calc(var(--radius)-4px)] leading-none text-muted-foreground transition-[color,scale] duration-150 ease-out hover:text-card-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card active:scale-[0.96] [&>svg]:block',
       triggerClass,
     )}
-    tabindex="0"
-    aria-label={label}
-    aria-describedby={id}
     data-tooltip-trigger
+    {...triggerA11yAttrs}
   >
     <slot name="trigger" />
   </span>

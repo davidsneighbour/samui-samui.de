@@ -1,5 +1,6 @@
 ---
 import Analytics from '@components/Analytics.astro';
+import Tooltip from '@components/ui/tooltip.astro';
 import WeatherWidget from '@components/weather/WeatherWidget.astro';
 import { Copyright, Volume2, VolumeX } from '@lucide/astro';
 
@@ -40,27 +41,35 @@ const today = new Date();
   >
 </div> -->
 <footer class="bg-background px-4 py-10 text-center text-sm text-foreground/70">
-  <button
-    type="button"
-    class="sound-toggle mb-4 inline-flex size-11 shrink-0 items-center justify-center overflow-hidden rounded-(--radius) text-foreground/75 transition-[background-color,color,scale] duration-150 ease-out hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background active:scale-[0.96]"
-    data-sound-toggle
-    aria-label="Klangeffekte deaktivieren"
-    aria-pressed="true"
-    title="Klangeffekte deaktivieren"
+  <Tooltip
+    id="sound-toggle-tooltip"
+    content="Klangeffekte deaktivieren"
+    class="mb-4"
+    interactive
   >
-    <span
-      class="sound-toggle__icon sound-toggle__icon--on absolute inset-0 inline-flex items-center justify-center"
-      aria-hidden="true"
+    <button
+      slot="trigger"
+      type="button"
+      class="sound-toggle inline-flex size-11 shrink-0 items-center justify-center overflow-hidden rounded-(--radius) text-foreground/75 transition-[background-color,color,scale] duration-150 ease-out hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background active:scale-[0.96]"
+      data-sound-toggle
+      aria-label="Klangeffekte deaktivieren"
+      aria-pressed="true"
+      aria-describedby="sound-toggle-tooltip"
     >
-      <Volume2 class="size-5" />
-    </span>
-    <span
-      class="sound-toggle__icon sound-toggle__icon--off inline-flex items-center justify-center"
-      aria-hidden="true"
-    >
-      <VolumeX class="size-5" />
-    </span>
-  </button>
+      <span
+        class="sound-toggle__icon sound-toggle__icon--on absolute inset-0 inline-flex items-center justify-center"
+        aria-hidden="true"
+      >
+        <Volume2 class="size-5" />
+      </span>
+      <span
+        class="sound-toggle__icon sound-toggle__icon--off inline-flex items-center justify-center"
+        aria-hidden="true"
+      >
+        <VolumeX class="size-5" />
+      </span>
+    </button>
+  </Tooltip>
   <p class="m-0 inline-flex flex-wrap items-center justify-center gap-1.5">
     <Copyright
       aria-hidden="true"
@@ -107,6 +116,8 @@ const today = new Date();
     const button = document.querySelector('[data-sound-toggle]');
     if (!(button instanceof HTMLButtonElement)) return;
 
+    const tooltipContent = document.getElementById('sound-toggle-tooltip');
+
     const updateButton = () => {
       const enabled = window.SamuiSound?.getEnabled() ?? true;
       const label = enabled
@@ -116,7 +127,7 @@ const today = new Date();
       button.dataset.sound = enabled ? 'on' : 'off';
       button.setAttribute('aria-pressed', String(enabled));
       button.setAttribute('aria-label', label);
-      button.title = label;
+      if (tooltipContent) tooltipContent.textContent = label;
     };
 
     button.addEventListener('click', () => {
