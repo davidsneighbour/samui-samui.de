@@ -279,10 +279,9 @@ const curatedThemen = themaGroups.slice(0, 12);
                   Monate anzeigen
                 </span>
                 <ul class="grid grid-cols-2 gap-x-4 gap-y-1 pl-1">
-                  {yearSummary.months
-                    .filter((monthCount) => monthCount.count > 0)
-                    .map((monthCount) => (
-                        <li>
+                  {yearSummary.months.map((monthCount) => (
+                      <li>
+                        {monthCount.count > 0 ? (
                           <a
                             href={`/archiv/${yearSummary.year}/#${monthAnchor(monthCount.month)}`}
                             class="flex items-baseline justify-between gap-2 text-sm text-muted-foreground hover:text-link hover:underline"
@@ -300,8 +299,24 @@ const curatedThemen = themaGroups.slice(0, 12);
                             </span>
                             <span>{monthCount.count}</span>
                           </a>
-                        </li>
-                      ))}
+                        ) : (
+                          <span class="flex items-baseline justify-between gap-2 text-sm text-muted-foreground/50">
+                            <span>
+                              {formatMonthLong(
+                                new Date(
+                                  Date.UTC(
+                                    yearSummary.year,
+                                    monthCount.month,
+                                    1,
+                                  ),
+                                ),
+                              )}
+                            </span>
+                            <span>{monthCount.count}</span>
+                          </span>
+                        )}
+                      </li>
+                    ))}
                 </ul>
               </Accordion>
             )}
