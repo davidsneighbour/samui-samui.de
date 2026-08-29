@@ -39,18 +39,18 @@ const { newerPost, olderPost, post } = Astro.props;
 const postUrl = getPostUrl(post);
 const { Content } = await render(post);
 const cover = await getPostCover(post);
-const [leute, orte, ereignisse, themen] = await Promise.all([
+const [leute, orte, ereignisse, feiertage] = await Promise.all([
   getCollection('leute'),
   getCollection('orte'),
   getCollection('ereignisse'),
-  getCollection('themen'),
+  getCollection('feiertage'),
 ]);
 const taxonomies = resolvePostTaxonomyGroups({
   ereignisse,
+  feiertage,
   leute,
   orte,
   post,
-  themen,
 });
 // Raw markdown source (not the rendered HTML) — cheap to grep and lets
 // BlogPost skip shipping the dnb-vimeo/dnb-youtube definitions on the posts

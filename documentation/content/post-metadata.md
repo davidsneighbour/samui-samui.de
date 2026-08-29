@@ -45,4 +45,6 @@ to `/archiv/YYYY/`, and the current post title as the active page item.
 `src/components/PostTaxonomyGroups.astro` renders the taxonomy groups below the
 breadcrumb as compact flex rows. Each row keeps the German taxonomy label and
 its linked values on the same line where space allows, with values wrapping
-within the row on narrow screens.
+within the row on narrow screens. The rows are ordered `Orte`, `Ereignisse`,
+`Feiertage`, and `Personen`, and empty groups are hidden. `Themen` are not
+shown in this block because the metadata line already renders them.

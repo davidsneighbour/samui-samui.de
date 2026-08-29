@@ -1,7 +1,10 @@
 import type { CollectionEntry } from 'astro:content';
-import { getThemaSlug } from '@utils/themen';
 
-export type EntityCollectionName = 'leute' | 'orte' | 'ereignisse';
+export type EntityCollectionName =
+  | 'leute'
+  | 'orte'
+  | 'ereignisse'
+  | 'feiertage';
 export type TaxonomyReference<
   C extends EntityCollectionName = EntityCollectionName,
 > =
@@ -37,6 +40,7 @@ export function entityHref(
   collection: EntityCollectionName,
   id: string,
 ): string {
+  if (collection === 'feiertage') return '/feiertage/';
   return `/${collection}/${id}/`;
 }
 
@@ -104,20 +108,12 @@ function resolveEntityLinks<C extends EntityCollectionName>(
 
 export function resolvePostTaxonomyGroups(options: {
   post: CollectionEntry<'posts'>;
+  feiertage: CollectionEntry<'feiertage'>[];
   leute: CollectionEntry<'leute'>[];
   orte: CollectionEntry<'orte'>[];
   ereignisse: CollectionEntry<'ereignisse'>[];
-  themen: CollectionEntry<'themen'>[];
 }): PostTaxonomyGroup[] {
   const groups: PostTaxonomyGroup[] = [
-    {
-      items: resolveEntityLinks(
-        options.post.data.leute,
-        'leute',
-        options.leute,
-      ),
-      label: 'Personen',
-    },
     {
       items: resolveEntityLinks(options.post.data.orte, 'orte', options.orte),
       label: 'Orte',
@@ -131,11 +127,20 @@ export function resolvePostTaxonomyGroups(options: {
       label: 'Ereignisse',
     },
     {
-      items: (options.post.data.themen ?? []).map((thema) => ({
-        href: `/themen/${getThemaSlug(thema, options.themen)}/`,
-        label: thema,
-      })),
-      label: 'Themen',
+      items: resolveEntityLinks(
+        options.post.data.feiertage,
+        'feiertage',
+        options.feiertage,
+      ),
+      label: 'Feiertage',
+    },
+    {
+      items: resolveEntityLinks(
+        options.post.data.leute,
+        'leute',
+        options.leute,
+      ),
+      label: 'Personen',
     },
   ];
 

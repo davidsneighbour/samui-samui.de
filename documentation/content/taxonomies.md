@@ -1,6 +1,6 @@
 # Content taxonomies
 
-This website uses four separate taxonomies. Their public labels and URLs are
+This website uses five separate taxonomies. Their public labels and URLs are
 German:
 
 | Mention | Correct field |
@@ -12,18 +12,19 @@ German:
 | Tourism | `themen` |
 | Tsunami 2004 | `ereignisse` |
 | Lamai Beach | `orte` |
+| Thai holidays page | `feiertage` |
 
-> People, places, and events are registered entities. Every used value needs an
-> entry in the matching content collection. Topics are an open editorial taxonomy
-> and can be used without their own collection entry.
+> People, places, events, and holidays are registered entities. Every used value
+> needs an entry in the matching content collection. Topics are an open
+> editorial taxonomy and can be used without their own collection entry.
 
 ## Fields
 
 `leute` describes concrete, identifiable people. `orte` describes concrete
 geographic places, sights, buildings, beaches, venues, or administrative areas.
 `ereignisse` describes concrete named historical, political, cultural, natural,
-or recurring events. `themen` describes general editorial topics, concepts, and
-keywords.
+or recurring events. `feiertage` describes holiday entries. `themen` describes
+general editorial topics, concepts, and keywords.
 
 A person, place, or event is not also added as a topic. Instead, the post gets
 the matching registered entity reference and only true general topics:
@@ -153,6 +154,10 @@ leute:
   - thaksin-shinawatra/_index
 ```
 
+Holiday references in posts point to entries in `src/content/feiertage/`. The
+current public holiday surface is the section page at `/feiertage/`, so the
+existing `_index.md` entry is referenced as `_index`.
+
 Topics also use short values in posts. An entry in `src/content/themen/` is
 optional and only acts as a curated metadata source.
 
@@ -198,6 +203,7 @@ The current public URLs are:
 /orte/[id]/
 /ereignisse/
 /ereignisse/[id]/
+/feiertage/
 /themen/
 /themen/[slug]/
 ```
@@ -220,14 +226,14 @@ npm run validate
 
 `validate:taxonomies` checks:
 
-* all `leute`, `orte`, and `ereignisse` in posts;
+* all `leute`, `orte`, `ereignisse`, and `feiertage` in posts;
 * `parent` in places;
 * `leute` and `orte` in events;
 * event date ranges;
 * duplicate alias conflicts.
 
-Topics without collection entries are allowed. People, places, and events
-without collection entries are errors.
+Topics without collection entries are allowed. People, places, events, and
+holidays without collection entries are errors.
 
 ## Common mistakes
 

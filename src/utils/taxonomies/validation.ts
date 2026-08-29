@@ -8,6 +8,7 @@ export type ValidationField =
   | 'leute'
   | 'orte'
   | 'ereignisse'
+  | 'feiertage'
   | 'parent'
   | 'aliases'
   | 'endDate';
@@ -29,9 +30,15 @@ interface LoadedCollections {
   leute: EntityRecord[];
   orte: EntityRecord[];
   ereignisse: EntityRecord[];
+  feiertage: EntityRecord[];
 }
 
-const registeredCollections = ['leute', 'orte', 'ereignisse'] as const;
+const registeredCollections = [
+  'leute',
+  'orte',
+  'ereignisse',
+  'feiertage',
+] as const;
 
 function referenceId(value: unknown): string | undefined {
   if (typeof value === 'string') return value;
@@ -76,6 +83,7 @@ function loadEntityCollection(
 function loadRegisteredCollections(root: string): LoadedCollections {
   return {
     ereignisse: loadEntityCollection(root, 'ereignisse'),
+    feiertage: loadEntityCollection(root, 'feiertage'),
     leute: loadEntityCollection(root, 'leute'),
     orte: loadEntityCollection(root, 'orte'),
   };
@@ -143,6 +151,7 @@ export function validateTaxonomyIntegrity(
   const collections = loadRegisteredCollections(root);
   const ids = {
     ereignisse: entityIds(collections.ereignisse),
+    feiertage: entityIds(collections.feiertage),
     leute: entityIds(collections.leute),
     orte: entityIds(collections.orte),
   };

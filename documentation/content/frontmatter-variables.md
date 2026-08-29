@@ -46,6 +46,7 @@ should be listed here and documented in a focused file.
 | `date` | Required date. | Publication timestamp, interpreted in Thailand time. | [Post metadata](post-metadata.md), [Post paths](post-paths.md) |
 | `dsq_thread_id` | Optional array. | Legacy Disqus thread ids retained from migration data. | [Content schema](content-schema.md) |
 | `ereignisse` | Array of event references, default `[]`. | Registered event ids associated with the post. | [Content taxonomies](taxonomies.md) |
+| `feiertage` | Array of holiday references, default `[]`. | Registered holiday entries associated with the post. | [Content taxonomies](taxonomies.md) |
 | `featured_image` | Optional string. | Legacy absolute public image path retained for migrated posts. | [Legacy image presentation](../components/legacy-images.md) |
 | `lastmod` | Optional date. | Last-modified timestamp, interpreted in Thailand time. | [Post metadata](post-metadata.md) |
 | `legacyImages` | Enum, default `auto`. | Post-level legacy image presentation override: `auto`, `always`, or `never`. | [Legacy image presentation](../components/legacy-images.md) |

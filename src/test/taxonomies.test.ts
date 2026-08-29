@@ -21,6 +21,7 @@ function post(
     data: {
       date: new Date('2026-01-01T00:00:00+07:00'),
       ereignisse: [],
+      feiertage: [],
       legacyImages: 'auto',
       leute: [],
       orte: [],
@@ -32,7 +33,9 @@ function post(
   } as CollectionEntry<'posts'>;
 }
 
-function entity<C extends 'leute' | 'orte' | 'ereignisse' | 'themen'>(
+function entity<
+  C extends 'leute' | 'orte' | 'ereignisse' | 'themen' | 'feiertage',
+>(
   collection: C,
   id: string,
   title: string,
@@ -54,7 +57,13 @@ function entity<C extends 'leute' | 'orte' | 'ereignisse' | 'themen'>(
 function makeFixture() {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'samui-taxonomies-'));
   fs.mkdirSync(path.join(root, 'src/content/posts'), { recursive: true });
-  for (const collection of ['leute', 'orte', 'ereignisse', 'themen']) {
+  for (const collection of [
+    'leute',
+    'orte',
+    'ereignisse',
+    'feiertage',
+    'themen',
+  ]) {
     fs.mkdirSync(path.join(root, 'src/content', collection), {
       recursive: true,
     });
@@ -72,12 +81,12 @@ describe('taxonomies', () => {
   it('resolves a valid person reference to the canonical title', () => {
     const groups = resolvePostTaxonomyGroups({
       ereignisse: [],
+      feiertage: [],
       leute: [entity('leute', 'thaksin-shinawatra', 'Thaksin Shinawatra')],
       orte: [],
       post: post({
         leute: [{ collection: 'leute', id: 'thaksin-shinawatra' }],
       }),
-      themen: [],
     });
 
     expect(groups[0]).toMatchObject({
@@ -93,14 +102,53 @@ describe('taxonomies', () => {
     expect(() =>
       resolvePostTaxonomyGroups({
         ereignisse: [],
+        feiertage: [],
         leute: [],
         orte: [],
         post: post({
           leute: [{ collection: 'leute', id: 'fehlt' }],
         }),
-        themen: [],
       }),
     ).toThrow(/Fehlende Taxonomie-Referenz: leute:fehlt/);
+  });
+
+  it('orders post taxonomy groups and omits topics from the lower list', () => {
+    const groups = resolvePostTaxonomyGroups({
+      ereignisse: [
+        entity('ereignisse', 'songkran', 'Songkran', {
+          leute: [],
+          orte: [],
+          recurring: true,
+        }),
+      ],
+      feiertage: [
+        entity('feiertage', '_index', 'Feiertage in Thailand', {
+          date: new Date('2026-01-01T00:00:00+07:00'),
+        }),
+      ],
+      leute: [entity('leute', 'thaksin-shinawatra', 'Thaksin Shinawatra')],
+      orte: [entity('orte', 'bangkok', 'Bangkok')],
+      post: post({
+        ereignisse: [{ collection: 'ereignisse', id: 'songkran' }],
+        feiertage: [{ collection: 'feiertage', id: '_index' }],
+        leute: [{ collection: 'leute', id: 'thaksin-shinawatra' }],
+        orte: [{ collection: 'orte', id: 'bangkok' }],
+        themen: ['politik'],
+      }),
+    });
+
+    expect(groups.map((group) => group.label)).toEqual([
+      'Orte',
+      'Ereignisse',
+      'Feiertage',
+      'Personen',
+    ]);
+    expect(groups.flatMap((group) => group.items)).toEqual([
+      { href: '/orte/bangkok/', label: 'Bangkok' },
+      { href: '/ereignisse/songkran/', label: 'Songkran' },
+      { href: '/feiertage/', label: 'Feiertage in Thailand' },
+      { href: '/leute/thaksin-shinawatra/', label: 'Thaksin Shinawatra' },
+    ]);
   });
 
   it('accepts a valid place parent reference', () => {
@@ -130,6 +178,21 @@ describe('taxonomies', () => {
     expect(validateTaxonomyIntegrity(root)).toEqual(
       expect.arrayContaining([
         expect.objectContaining({ field: 'parent', reference: 'thailand' }),
+      ]),
+    );
+  });
+
+  it('reports an invalid holiday reference from a post', () => {
+    const root = makeFixture();
+    writeFixture(
+      root,
+      'src/content/posts/2026/beispiel/index.md',
+      '---\ntitle: Beispiel\ndate: 2026-01-01T00:00:00+07:00\nfeiertage:\n  - fehlt\n---\n',
+    );
+
+    expect(validateTaxonomyIntegrity(root)).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ field: 'feiertage', reference: 'fehlt' }),
       ]),
     );
   });
@@ -200,19 +263,21 @@ describe('taxonomies', () => {
       props: {
         groups: [
           {
-            items: [{ href: '/leute/thaksin/', label: 'Thaksin' }],
-            label: 'Personen',
+            items: [{ href: '/orte/bangkok/', label: 'Bangkok' }],
+            label: 'Orte',
           },
           {
-            items: [{ href: '/themen/politik/', label: 'politik' }],
-            label: 'Themen',
+            items: [{ href: '/leute/thaksin/', label: 'Thaksin' }],
+            label: 'Personen',
           },
         ],
       },
     });
 
+    expect(html).toContain('Orte');
     expect(html).toContain('Personen');
-    expect(html).toContain('Themen');
+    expect(html).not.toContain('Themen');
+    expect(html).toContain('/orte/bangkok/');
     expect(html).toContain('/leute/thaksin/');
   });
 

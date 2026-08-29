@@ -111,6 +111,7 @@ const posts = defineCollection({
       dsq_thread_id: z.array(z.union([z.string(), z.number()])).optional(),
       ereignisse: z.array(reference('ereignisse')).default([]),
       featured_image: z.string().optional(),
+      feiertage: z.array(reference('feiertage')).default([]),
       lastmod: z.coerce.date().optional(),
       // Post-level override for the legacy-image presentation system (see
       // src/utils/legacy-images/); defaults to automatic classification.
