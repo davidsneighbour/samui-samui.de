@@ -210,6 +210,7 @@
     "markdownlint-rule-title-case-style": {
       "markdownlint": "^0.41.1"
     },
+    "sharp": "0.35.4",
     "tar": "7.5.20"
   },
   "simple-git-hooks": {

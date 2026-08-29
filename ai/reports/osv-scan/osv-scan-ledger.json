@@ -695,6 +695,34 @@
       "reason": "no safe non-major fix available within the parent package's declared semver range; filed for manual triage",
       "severity": "moderate",
       "status": "open"
+    },
+    {
+      "aliases": [
+        "CVE-2026-33327",
+        "CVE-2026-33328",
+        "CVE-2026-35590",
+        "CVE-2026-35591"
+      ],
+      "decided_date": "2026-08-29",
+      "ecosystem": "npm",
+      "fixed_version": "0.35.4",
+      "id": "GHSA-f88m-g3jw-g9cj",
+      "package": "sharp",
+      "reason": "sharp inherited vulnerabilities in libvips. Top-level sharp devDependency was already 0.35.4 (fixed), but netlify-cli -> @netlify/images -> ipx pulls its own sharp copy, and ipx@3.1.1 declares \"sharp\": \"^0.34.3\" (excludes 0.35.x under normal semver), so npm installed a separate vulnerable sharp@0.34.5 alongside it. Added a global \"sharp\": \"0.35.4\" entry to package.json overrides to force every copy to the patched version. Validated with npm run check (format, lint, astro check, taxonomy validation, vitest) - all passing, and npm ls sharp confirms every install location now dedupes to 0.35.4. Promote to fixed once ipx/netlify-cli bump their own sharp requirement to >=0.35.0 and the override is no longer needed.",
+      "review_after": "2026-11-29",
+      "severity": "high",
+      "status": "workaround"
+    },
+    {
+      "aliases": ["CVE-2026-56876"],
+      "decided_date": "2026-08-29",
+      "ecosystem": "npm",
+      "github_issue": 1689,
+      "id": "GHSA-jmr9-qjv8-65gv",
+      "package": "extract-zip",
+      "reason": "extract-zip unvalidated symlink path traversal. Transitive via netlify-cli -> @netlify/dev -> @netlify/functions-dev -> extract-zip@2.0.1. No patched version exists upstream (2.0.1 is the latest published release), so no auto-fix or override target is available. Filed for tracking; watch for a netlify-cli or extract-zip release.",
+      "severity": "high",
+      "status": "open"
     }
   ],
   "version": 1
