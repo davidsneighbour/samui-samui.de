@@ -113,7 +113,23 @@ export default defineConfig({
     plugins: [tailwindcss(), isDevServer && mkcert()],
     server: {
       watch: {
-        ignored: ['**/scratch/**'],
+        ignored: [
+          '**/scratch/**',
+          // Root-level UPPERCASE tracking/reference markdown files (project
+          // notes, docs, agent instructions) aren't site content and never
+          // affect rendered output; ignore them so editing them during
+          // `npm run dev` doesn't trigger a reload. Mirrors the scratch/
+          // ignore above (see #1351, #1648).
+          '**/AGENTS.md',
+          '**/CHANGELOG.md',
+          '**/CLAUDE.md',
+          '**/DESIGN.md',
+          '**/PROJECT.md',
+          '**/README.md',
+          '**/RESUME.md',
+          '**/SECURITY.md',
+          '**/TODO.md',
+        ],
       },
     },
   },
