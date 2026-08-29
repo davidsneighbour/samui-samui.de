@@ -218,7 +218,7 @@ export function renderDocumentationPage(
           return `<li><a href="${escapeHtml(page.routePath)}"${ariaCurrent}>${escapeHtml(page.title)}</a></li>`;
         })
         .join('\n');
-      return `<li class="nav-group"><h2>${escapeHtml(group.title)}</h2><ul>${links}</ul></li>`;
+      return `<li class="nav-group"><details open><summary><h2>${escapeHtml(group.title)}</h2></summary><ul>${links}</ul></details></li>`;
     })
     .join('\n');
 
@@ -290,8 +290,30 @@ export function renderDocumentationPage(
       margin-top: 1rem;
     }
 
+    .nav-group summary {
+      cursor: pointer;
+      list-style: none;
+    }
+
+    .nav-group summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .nav-group summary::before {
+      content: "▸";
+      display: inline-block;
+      font-size: 0.65rem;
+      margin-right: 0.35rem;
+      transition: transform 0.15s ease;
+    }
+
+    .nav-group details[open] > summary::before {
+      transform: rotate(90deg);
+    }
+
     .nav-group h2 {
       color: var(--text);
+      display: inline;
       font-size: 0.72rem;
       font-weight: 700;
       letter-spacing: 0;
