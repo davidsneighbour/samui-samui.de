@@ -41,10 +41,14 @@ Both call `buildPersonLinkHast()` / `personLinkHastToHtml()`
    (`<a href="/leute/<id>/">`) with the tag's own body as the visible label
    -- not the entity's `title`. The icon sits outside the `<a>` (only the
    name is clickable) and is left uncolored so it inherits the surrounding
-   text color instead of the link color; both sit in a small
-   `inline-flex items-center gap-1` wrapper (needed because Tailwind's
-   preflight sets `svg { display: block }`, which would otherwise force the
-   icon onto its own line).
+   text color instead of the link color. No flex wrapper: an `inline-flex`
+   container synthesizes its own baseline, which sat visibly off the
+   surrounding line compared to plain text, so the icon is `inline-block`
+   instead (overriding Tailwind's preflight `svg { display: block }`, which
+   would otherwise force it onto its own line) with `align-[-2px] mr-1` to
+   sit centered against the text and spaced from the link -- everything
+   else stays in normal inline flow, so the link text lines up exactly with
+   the surrounding prose baseline.
 4. When the entity has a `subtitle`, wraps the link (not the icon) in the
    exact `.tooltip`/`.tooltip__trigger`/`.tooltip__content` markup
    `Tooltip.astro` itself renders (its `interactive` mode, since the
@@ -71,7 +75,7 @@ Vorsitzender ist <dnb-person id="anutin-charnvirakul">Anutin Charnvirakul</dnb-p
 Both render:
 
 ```html
-Vorsitzender ist <span class="inline-flex items-center gap-1"><svg .../><a href="/leute/anutin-charnvirakul/">Anutin Charnvirakul</a></span>.
+Vorsitzender ist <span><svg .../><a href="/leute/anutin-charnvirakul/">Anutin Charnvirakul</a></span>.
 ```
 
 -- plus the tooltip markup (wrapping the `<a>`, not the icon) and

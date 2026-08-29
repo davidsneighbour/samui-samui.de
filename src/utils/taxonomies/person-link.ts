@@ -11,14 +11,18 @@ import { TOOLTIP_CONTROLLER_SCRIPT } from '../tooltip/controller';
 import { readYamlFrontmatter } from './frontmatter';
 
 const LEUTE_BASE = path.join(process.cwd(), 'src/content/leute');
-// `inline-flex` (rather than relying on default inline text flow) because
-// Tailwind's preflight sets `svg { display: block }`, which would otherwise
-// force the icon onto its own line. The icon sits outside the `<a>` --
-// leading, not linked, and deliberately uncolored so it inherits the
-// surrounding prose text color via `currentColor` instead of the link's
-// `prose-a:text-link` color.
-const WRAPPER_CLASSES = 'inline-flex items-center gap-1';
-const ICON_CLASSES = 'size-3.5 shrink-0';
+// No wrapper-level flex: an `inline-flex` wrapper synthesizes its own
+// baseline for the whole box, which sat ~2px off the surrounding line
+// compared to plain text. `inline-block` on the icon alone (overriding
+// Tailwind's preflight `svg { display: block }`, which would otherwise
+// force the icon onto its own line) keeps everything in normal inline
+// flow, so the link text lines up exactly with the surrounding prose
+// baseline; `align-[-2px]` nudges just the icon glyph to look centered
+// against the text instead of sitting on its own baseline. The icon sits
+// outside the `<a>` -- leading, not linked, and deliberately uncolored so
+// it inherits the surrounding prose text color via `currentColor` instead
+// of the link's `prose-a:text-link` color.
+const ICON_CLASSES = 'inline-block size-3.5 shrink-0 align-[-2px] mr-1';
 
 // Mirrors src/components/ui/tooltip.astro's own class contract exactly
 // (documentation/components/tooltips.md: "Use the component instead of
@@ -127,10 +131,7 @@ export function buildPersonLinkHast(
 
   if (!subtitle) {
     const link = h('a', { href }, label);
-    const wrapper = h('span', { class: WRAPPER_CLASSES }, [
-      icon,
-      link,
-    ]) as Element;
+    const wrapper = h('span', {}, [icon, link]) as Element;
     return { node: wrapper, script: undefined };
   }
 
@@ -162,10 +163,7 @@ export function buildPersonLinkHast(
     },
     [trigger, content],
   );
-  const wrapper = h('span', { class: WRAPPER_CLASSES }, [
-    icon,
-    tooltip,
-  ]) as Element;
+  const wrapper = h('span', {}, [icon, tooltip]) as Element;
 
   const script = h('script', {}, TOOLTIP_CONTROLLER_SCRIPT) as Element;
 
