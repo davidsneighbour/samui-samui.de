@@ -98,7 +98,20 @@ const presentationMode =
       autoload={cover.autoload}
       autoplay={cover.autoplay}
       class={videoClass}
-    />
+    >
+      {cover.posterUrl && (
+        <Picture
+          slot="poster"
+          src={cover.posterUrl}
+          inferSize
+          alt={cover.title}
+          formats={['webp']}
+          fallbackFormat="jpeg"
+          loading={loading}
+          decoding="async"
+        />
+      )}
+    </Youtube>
   )}
   {cover.type === 'vimeo' && (
     <Vimeo
@@ -109,7 +122,20 @@ const presentationMode =
       autoload={cover.autoload}
       autoplay={cover.autoplay}
       class={videoClass}
-    />
+    >
+      {cover.posterUrl && (
+        <Picture
+          slot="poster"
+          src={cover.posterUrl}
+          inferSize
+          alt={cover.title}
+          formats={['webp']}
+          fallbackFormat="jpeg"
+          loading={loading}
+          decoding="async"
+        />
+      )}
+    </Vimeo>
   )}
   {cover.caption && <figcaption class={captionClass}>{cover.caption}</figcaption>}
 </figure>

@@ -43,6 +43,10 @@ export default defineConfig({
 
   image: {
     breakpoints: [640, 750, 828, 1080, 1280],
+    // Lets `astro:assets` download and cache YouTube/Vimeo cover
+    // thumbnails at build time so they're served from `self` instead of
+    // fetched client-side from the provider on every page view (#1670).
+    domains: ['i.vimeocdn.com', 'i.ytimg.com'],
     layout: 'constrained',
     objectFit: 'cover',
     objectPosition: 'center',

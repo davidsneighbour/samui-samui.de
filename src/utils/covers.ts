@@ -34,6 +34,8 @@ export interface ResolvedPostVideoCover extends ResolvedPostCoverBase {
   autoload?: boolean | undefined;
   hash?: string | undefined;
   params?: string | undefined;
+  /** Remote thumbnail URL resolved at build time, for `astro:assets` to cache and serve from `self`. Undefined when resolution fails (e.g. Vimeo oEmbed lookup errors). */
+  posterUrl?: string | undefined;
   startAt?: string | undefined;
   title: string;
   type: 'youtube' | 'vimeo';
@@ -41,6 +43,79 @@ export interface ResolvedPostVideoCover extends ResolvedPostCoverBase {
 }
 
 export type ResolvedPostCover = ResolvedPostImageCover | ResolvedPostVideoCover;
+
+type VimeoOembedResponse = {
+  thumbnail_url?: string;
+};
+
+// oEmbed lookups happen server-side during the build/dev process, so
+// `fetch` here isn't subject to the browser CSP that blocks the
+// equivalent client-side call in VimeoScript.astro (#1670). Memoized per
+// process so the same video isn't looked up twice across posts/rebuilds.
+const vimeoPosterUrls = new Map<string, Promise<string | undefined>>();
+
+function resolveVimeoPosterUrl(videoId: string): Promise<string | undefined> {
+  const cached = vimeoPosterUrls.get(videoId);
+  if (cached) return cached;
+
+  const promise = (async (): Promise<string | undefined> => {
+    try {
+      const apiUrl = `https://vimeo.com/api/oembed.json?url=${encodeURIComponent(
+        `https://vimeo.com/${videoId}`,
+      )}`;
+      const response = await fetch(apiUrl);
+      if (!response.ok) return undefined;
+
+      const json = (await response.json()) as VimeoOembedResponse;
+      const thumbnailUrl = json.thumbnail_url;
+      if (!thumbnailUrl) return undefined;
+
+      const imgId = thumbnailUrl
+        .slice(thumbnailUrl.lastIndexOf('/') + 1)
+        .split('_')[0];
+      return `https://i.vimeocdn.com/video/${imgId}.jpg?mw=1100&mh=619&q=70`;
+    } catch {
+      return undefined;
+    }
+  })();
+
+  vimeoPosterUrls.set(videoId, promise);
+  return promise;
+}
+
+// YouTube's thumbnail lives at a predictable URL, so unlike Vimeo it needs
+// no lookup -- but the URL is still a guess (e.g. deleted/private videos
+// 404), and `astro:assets`' `inferSize` throws a hard, page-crashing error
+// for a URL that turns out not to exist, so this HEAD-checks the guess
+// before handing it to the image pipeline.
+const youtubePosterUrls = new Map<string, Promise<string | undefined>>();
+
+function resolveYoutubePosterUrl(videoId: string): Promise<string | undefined> {
+  const cached = youtubePosterUrls.get(videoId);
+  if (cached) return cached;
+
+  const promise = (async (): Promise<string | undefined> => {
+    const url = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+    try {
+      const response = await fetch(url, { method: 'HEAD' });
+      return response.ok ? url : undefined;
+    } catch {
+      return undefined;
+    }
+  })();
+
+  youtubePosterUrls.set(videoId, promise);
+  return promise;
+}
+
+async function resolveVideoPosterUrl(
+  type: 'youtube' | 'vimeo',
+  videoId: string,
+): Promise<string | undefined> {
+  return type === 'youtube'
+    ? resolveYoutubePosterUrl(videoId)
+    : resolveVimeoPosterUrl(videoId);
+}
 
 const postImages = import.meta.glob<ImageMetadata>(
   '/src/content/posts/**/*.{avif,gif,jpeg,jpg,png,webp}',
@@ -148,6 +223,7 @@ export async function getPostCover(
       caption,
       hash: trimmed(cover.hash),
       params: trimmed(cover.params),
+      posterUrl: await resolveVideoPosterUrl(cover.type, videoid),
       startAt: trimmed(cover.startAt),
       title: caption ?? post.data.title,
       type: cover.type,

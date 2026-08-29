@@ -70,7 +70,7 @@
                       #frame {
                         cursor: pointer;
                       }
-                      picture, img {
+                      picture, img, ::slotted(picture), ::slotted(img) {
                         display: block;
                         width: 100%;
                         height: 100%;
@@ -129,14 +129,16 @@
                       }
                     </style>
                     <div id="frame">
-                      <img
-                        id="posterImage"
-                        src="${DnbYoutube.#transparentPixel}"
-                        alt=""
-                        referrerpolicy="origin"
-                        decoding="async"
-                        loading="lazy"
-                      />
+                      <slot name="poster">
+                        <img
+                          id="posterImage"
+                          src="${DnbYoutube.#transparentPixel}"
+                          alt=""
+                          referrerpolicy="origin"
+                          decoding="async"
+                          loading="lazy"
+                        />
+                      </slot>
                       <div class="dnb-youtube-title"></div>
                       <button class="dnb-youtube-playbtn" type="button"></button>
                     </div>
@@ -189,17 +191,29 @@
         }
       }
 
+      // A `slot="poster"` light-DOM child (projected by Youtube.astro when
+      // PostCover.astro has a build-time-resolved thumbnail, #1670) means
+      // the real poster is already showing, so the live `i.ytimg.com`
+      // request below -- the fallback for raw `<dnb-youtube>` markup
+      // dropped directly into post bodies -- can be skipped entirely.
+      get #hasPoster(): boolean {
+        return this.querySelector('[slot="poster"]') !== null;
+      }
+
       #setupPlaceholder(): void {
         if (!this.videoId) return;
-
-        DnbYoutube.#addPrefetch('preconnect', 'https://i.ytimg.com');
 
         const label = `${this.videoPlay}: ${this.videoTitle}`;
         this.#playButton.setAttribute('aria-label', label);
         this.setAttribute('title', label);
+        this.#titleOverlay.textContent = this.getAttribute('videotitle') ?? '';
+
+        if (this.#hasPoster) return;
+
+        DnbYoutube.#addPrefetch('preconnect', 'https://i.ytimg.com');
+
         this.#img.setAttribute('aria-label', label);
         this.#img.setAttribute('alt', label);
-        this.#titleOverlay.textContent = this.getAttribute('videotitle') ?? '';
 
         // YouTube's thumbnail lives at a predictable URL, so — unlike Vimeo,
         // which needs an oEmbed round trip first — the poster can be set
