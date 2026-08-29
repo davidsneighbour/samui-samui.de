@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "count": 150,
+      "exclude": [],
+      "include": ["^https://samui-samui\\.de/\\d{4}/\\d{2}/"],
+      "name": "posts"
+    },
+    {
+      "count": 100,
+      "exclude": [],
+      "include": [
+        "^https://samui-samui\\.de/(leute|orte|ereignisse|themen|tags)/"
+      ],
+      "name": "taxonomies"
+    },
+    {
+      "count": 75,
+      "exclude": [],
+      "include": [
+        "^https://samui-samui\\.de/(archiv|seite|kleingedrucktes)(/|$)",
+        "^https://samui-samui\\.de/(suche|kontakt|feiertage|timeline)/$"
+      ],
+      "name": "archive-pagination-and-pages"
+    }
+  ],
+  "historyFile": "src/scripts/audit/.ahrefs-audit-history.json",
+  "localSitemapDirectory": "dist",
+  "maxUrls": 350,
+  "outputFile": "dist/ahrefs-audit-sample.txt",
+  "permanentUrls": [
+    "https://samui-samui.de/",
+    "https://samui-samui.de/suche/",
+    "https://samui-samui.de/archiv/",
+    "https://samui-samui.de/kontakt/",
+    "https://samui-samui.de/feiertage/",
+    "https://samui-samui.de/kleingedrucktes/impressum/",
+    "https://samui-samui.de/kleingedrucktes/datenschutzerklaerung/"
+  ],
+  "randomSeed": null,
+  "sitemaps": ["dist/sitemap-index.xml"],
+  "siteUrl": "https://samui-samui.de"
+}

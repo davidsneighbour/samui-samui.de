@@ -7,7 +7,7 @@
     "@release-it/conventional-changelog": "12.0.0",
     "lint-staged": "17.4.1",
     "release-it": "21.0.2",
-    "simple-git-hooks": "2.13.1"
+    "simple-git-hooks": "2.14.0"
   },
   "lint-staged": {
     "*.{js,cjs,mjs,ts,astro}": [
@@ -35,6 +35,7 @@
     "lint:staged": "lint-staged",
     "lint:umlauts": "node src/scripts/normalize-german-characters.ts --check",
     "lint:umlauts:fix": "node src/scripts/normalize-german-characters.ts --write",
+    "postinstall": "biome migrate --write",
     "prepare": "simple-git-hooks",
     "release": "release-it --config .release-it.ts --ci",
     "release:dry": "release-it --config .release-it.ts --dry-run",

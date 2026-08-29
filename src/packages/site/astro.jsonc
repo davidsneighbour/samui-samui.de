@@ -14,8 +14,8 @@
   },
   "scripts": {
     "astro": "astro",
-    "build": "npm run validate && astro build",
-    "build:verbose": "npm run validate && astro build --verbose",
+    "build": "npm run validate && astro build && npm run audit:ahrefs",
+    "build:verbose": "npm run validate && astro build --verbose && npm run audit:ahrefs",
     "dev": "node src/scripts/dev.ts",
     "dev:docs": "node src/scripts/documentation-server.ts",
     "dev:site": "astro dev",

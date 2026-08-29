@@ -209,6 +209,10 @@ RESUME-CONTENTWORK.md
 .playwright/
 test-results/
 
+# Local Ahrefs audit rotation state. The generated public URL list lives in
+# dist/ and is rebuilt during `npm run build`.
+/src/scripts/audit/.ahrefs-audit-history.json
+
 # AI assistant tool-local state: personal Claude Code overrides and
 # auto-installed plugin skills/hooks mirrored per-tool (e.g. "impeccable").
 # Not repo-authored; repo-local skills live in ai/skills/ss-* instead

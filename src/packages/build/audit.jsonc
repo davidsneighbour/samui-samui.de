@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "audit:ahrefs": "node src/scripts/audit/generate.mjs --config src/scripts/audit/ahrefs-audit-sample.config.json",
+    "audit:ahrefs:dry": "node src/scripts/audit/generate.mjs --config src/scripts/audit/ahrefs-audit-sample.config.json --dry-run"
+  }
+}

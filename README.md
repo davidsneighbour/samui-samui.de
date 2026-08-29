@@ -25,6 +25,7 @@ Website and content for [samui-samui.de](https://samui-samui.de).
   * [Astro and site commands](#astro-and-site-commands)
   * [Quality gates](#quality-gates)
   * [Content helpers](#content-helpers)
+  * [Audit helpers](#audit-helpers)
   * [Generated package maintenance](#generated-package-maintenance)
   * [Release commands](#release-commands)
   * [Lifecycle scripts](#lifecycle-scripts)
@@ -225,8 +226,9 @@ Netlify's connected build or the Netlify CLI once the setup above is complete.
   [http://127.0.0.1:4322/](http://127.0.0.1:4322/).
 * `npm run dev:verbose` starts the combined dev servers with extra frontmatter
   debugging and Astro's verbose logging enabled.
-* `npm run build` runs the full validation chain and then builds the static site
-  for Netlify, including Pagefind search output.
+* `npm run build` runs the full validation chain, builds the static site for
+  Netlify, including Pagefind search output, and writes the Ahrefs audit sample
+  to `dist/ahrefs-audit-sample.txt`.
 * `npm run build:verbose` runs the same static site build with Astro's verbose
   logging enabled.
 * `npm run build:nocache` builds the site after forcing Pagefind to rebuild its
@@ -279,6 +281,16 @@ Netlify's connected build or the Netlify CLI once the setup above is complete.
   archive-media cleanup work.
 * `npm run publisher -- <command>` manages repo-internal `publisher.*`
   frontmatter queues; `set` and `unset` require an explicit filter.
+
+### Audit helpers
+
+* `npm run audit:ahrefs` generates the Ahrefs custom URL-list sample from the
+  built sitemap in `dist/sitemap-index.xml`.
+* `npm run audit:ahrefs:dry` previews the same sample without writing the
+  output file or updating local rotation history.
+
+See [Ahrefs audit sample](documentation/features/ahrefs-audit-sample.md) for
+configuration, output, and Ahrefs project settings.
 
 ### Generated package maintenance
 

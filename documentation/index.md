@@ -57,6 +57,8 @@
 
 ## Features
 
+* [Ahrefs audit sample](features/ahrefs-audit-sample.md) documents the generated
+  custom URL-list sample used for Ahrefs Site Audit crawls.
 * [Blog archive](features/archiv.md) documents the chronological archive,
   topic index, indexing choices, and archive data model.
 * [Contact form](features/contact-form.md) documents contact-form rendering and
