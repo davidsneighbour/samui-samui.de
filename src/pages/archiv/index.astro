@@ -224,6 +224,13 @@ const curatedThemen = themaGroups.slice(0, 12);
     </div>
   </section>
 
+  <script>
+    import { getInstanceManager } from '@pagefind/component-ui';
+    import { trackPagefindSearch } from '@scripts/analytics/track-pagefind-search';
+
+    trackPagefindSearch(getInstanceManager().getInstance('archive'));
+  </script>
+
   <section class="mb-10">
     <h2 class="mb-4 text-lg font-medium text-card-foreground">Nach Jahr</h2>
     <ul class="grid grid-cols-1 gap-3 sm:grid-cols-2">

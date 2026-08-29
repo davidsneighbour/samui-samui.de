@@ -121,6 +121,13 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
 </header>
 <PagefindComponentUi />
 
+<script>
+  import { getInstanceManager } from '@pagefind/component-ui';
+  import { trackPagefindSearch } from '@scripts/analytics/track-pagefind-search';
+
+  trackPagefindSearch(getInstanceManager().getInstance('default'));
+</script>
+
 <style>
   /* Recreates the original theme's #topheader masthead: the site name is
                                      rendered with the header photo clipped into the text (background-clip:
