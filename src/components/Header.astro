@@ -130,10 +130,9 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
 
 <style>
   /* Recreates the original theme's #topheader masthead: the site name is
-                                     rendered with the header photo clipped into the text (background-clip:
-                                     text + transparent fill), and the font-size steps follow the old
-                                     Bootstrap breakpoints (576/768/992/1200/1400) rather than Tailwind's,
-                                     so the scale matches the live site exactly. */
+     rendered with the header photo clipped into the text (background-clip:
+     text + transparent fill). The two words always stack on separate lines;
+     font-size scales fluidly with viewport width, capped at 200px. */
   .masthead {
     margin: 0 auto;
     max-width: 100%;
@@ -178,10 +177,16 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
     text-decoration: none;
   }
 
+  /* inline-flex column + align-items: flex-start (rather than an
+     inline-block) keeps "SAMUI" flush on the same left edge on both lines;
+     inline-block would stretch both words to the widest one's width and then
+     center each within it, so "?" vs "!" width would knock the words apart. */
   .masthead__name {
-    display: block;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
     font-family: var(--font-sans);
-    font-size: clamp(4.75rem, 24vw, 9.375rem);
+    font-size: clamp(4.75rem, 16vw, 200px);
     font-weight: 900;
     line-height: 0.78;
     text-decoration: none;
@@ -221,47 +226,15 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
   }
 
   @media (min-width: 576px) {
-    .masthead__name {
-      font-size: 68px;
-      line-height: 0.85;
-    }
-    .masthead__word,
-    .masthead__separator {
-      display: inline;
-    }
-    .masthead__word--question {
-      font-size: 1em;
-    }
     .masthead__tagline {
       margin-top: 1rem;
       padding: 2px 0;
     }
   }
 
-  @media (min-width: 768px) {
-    .masthead__name {
-      font-size: 92px;
-    }
-  }
-
   @media (min-width: 992px) {
-    .masthead__name {
-      font-size: 125px;
-    }
     .masthead__tagline {
       padding: 5px 0;
-    }
-  }
-
-  @media (min-width: 1200px) {
-    .masthead__name {
-      font-size: 149px;
-    }
-  }
-
-  @media (min-width: 1400px) {
-    .masthead__name {
-      font-size: 172px;
     }
   }
 
