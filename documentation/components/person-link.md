@@ -45,10 +45,22 @@ Both call `buildPersonLinkHast()` / `personLinkHastToHtml()`
    container synthesizes its own baseline, which sat visibly off the
    surrounding line compared to plain text, so the icon is `inline-block`
    instead (overriding Tailwind's preflight `svg { display: block }`, which
-   would otherwise force it onto its own line) with `align-[-2px] mr-1` to
-   sit centered against the text and spaced from the link -- everything
-   else stays in normal inline flow, so the link text lines up exactly with
-   the surrounding prose baseline.
+   would otherwise force it onto its own line) with `align-[-2px]` to sit
+   centered against the text -- everything else stays in normal inline
+   flow, so the link text lines up exactly with the surrounding prose
+   baseline. The icon and the name are glued together with an actual
+   non-breaking space (U+00A0) text node, not a margin, so a narrow
+   viewport can never wrap between the icon and the name -- a margin gap
+   between two adjacent atomic inline boxes is still a valid line-break
+   opportunity in some browsers even with no literal space character
+   there. The name itself may still wrap at its own regular spaces; an
+   author can use the same `&nbsp;` inside the tag's own body to glue
+   together parts of a name, e.g. `Lt.&nbsp;Name Surname` -- it survives
+   as the same character through remark/rehype's standard entity
+   decoding, and the rehype transform's whitespace-only-text-node filter
+   is deliberately not `String.prototype.trim()`-based, since `trim()`
+   also treats a lone `&nbsp;` as trimmable and would otherwise silently
+   discard it if it ever ends up as its own text node.
 4. When the entity has a `subtitle`, wraps the link (not the icon) in the
    exact `.tooltip`/`.tooltip__trigger`/`.tooltip__content` markup
    `Tooltip.astro` itself renders (its `interactive` mode, since the

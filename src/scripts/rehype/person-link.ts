@@ -57,8 +57,14 @@ export function rehypeDnbPerson() {
         );
       }
 
+      // Drops only insignificant whitespace-only text nodes (indentation/
+      // newlines between elements from how the markdown source is
+      // formatted) -- not `String.prototype.trim()`, which also treats a
+      // lone `&nbsp;` (U+00A0) as trimmable and would silently discard an
+      // author's non-breaking space if it ever ends up as its own text
+      // node (e.g. between two inline elements in the tag's body).
       const label = node.children.filter(
-        (child) => !(child.type === 'text' && child.value.trim().length === 0),
+        (child) => !(child.type === 'text' && /^[ \t\n\r]*$/.test(child.value)),
       );
 
       const { node: replacement, script } = buildPersonLinkHast({

@@ -22,7 +22,16 @@ const LEUTE_BASE = path.join(process.cwd(), 'src/content/leute');
 // outside the `<a>` -- leading, not linked, and deliberately uncolored so
 // it inherits the surrounding prose text color via `currentColor` instead
 // of the link's `prose-a:text-link` color.
-const ICON_CLASSES = 'inline-block size-3.5 shrink-0 align-[-2px] mr-1';
+const ICON_CLASSES = 'inline-block size-3.5 shrink-0 align-[-2px]';
+// A real non-breaking space (U+00A0), not a margin, glues the icon to the
+// name so a narrow viewport can never wrap between them -- a margin gap
+// between two adjacent atomic inline boxes is still a valid line-break
+// opportunity in some browsers even with no literal space character there.
+// The name itself may still wrap at its own (regular) spaces; authors can
+// use the same `&nbsp;` -- surviving as this exact character through
+// remark/rehype's standard entity decoding -- inside the tag's own body to
+// glue together parts of a name, e.g. `Lt.&nbsp;Name Surname`.
+const ICON_GAP = '\u00A0';
 
 // Mirrors src/components/ui/tooltip.astro's own class contract exactly
 // (documentation/components/tooltips.md: "Use the component instead of
@@ -131,7 +140,7 @@ export function buildPersonLinkHast(
 
   if (!subtitle) {
     const link = h('a', { href }, label);
-    const wrapper = h('span', {}, [icon, link]) as Element;
+    const wrapper = h('span', {}, [icon, ICON_GAP, link]) as Element;
     return { node: wrapper, script: undefined };
   }
 
@@ -163,7 +172,7 @@ export function buildPersonLinkHast(
     },
     [trigger, content],
   );
-  const wrapper = h('span', {}, [icon, tooltip]) as Element;
+  const wrapper = h('span', {}, [icon, ICON_GAP, tooltip]) as Element;
 
   const script = h('script', {}, TOOLTIP_CONTROLLER_SCRIPT) as Element;
 
