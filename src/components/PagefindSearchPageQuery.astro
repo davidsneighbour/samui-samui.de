@@ -2,13 +2,30 @@
 ---
 
 <script>
-  import { getInstanceManager } from '@pagefind/component-ui';
+  import {
+    getInstanceManager,
+    type PagefindSearchResult,
+  } from '@pagefind/component-ui';
 
   window.addEventListener('DOMContentLoaded', () => {
+    const instance = getInstanceManager().getInstance('search-page');
+
+    // Matomo internal search tracking (see AGENTS.md § Analytics for the
+    // "loaded from the footer, tracks may be lost" tradeoff this relies on).
+    instance.on('results', (...args) => {
+      const results = args[0] as PagefindSearchResult;
+      const term = instance.searchTerm;
+      if (!term) return;
+      window._paq?.push([
+        'trackSiteSearch',
+        term,
+        false,
+        results.results.length,
+      ]);
+    });
+
     const query = new URLSearchParams(window.location.search).get('q');
     if (!query) return;
-
-    const instance = getInstanceManager().getInstance('search-page');
     instance.triggerSearch(query);
   });
 </script>
