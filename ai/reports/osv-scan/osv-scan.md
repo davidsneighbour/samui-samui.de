@@ -6,7 +6,7 @@ ledger. Each entry here should be dated and explain the *why* behind the decisio
 
 <!-- Entries are appended below, newest last. -->
 
-## 2026-08-29 - sharp (gHSA-f88m-g3jw-g9cj) - workaround
+## 2026-08-29 - sharp (`GHSA-f88m-g3jw-g9cj`) - workaround
 
 Dependabot alert #331. `netlify-cli` → `@netlify/images` → `ipx` pulls its own
 `sharp` copy, and `ipx@3.1.1` declares `"sharp": "^0.34.3"`, which excludes the
