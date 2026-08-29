@@ -1,5 +1,80 @@
 # Changelog
 
+## [2.8.0](https://github.com/davidsneighbour/samui-samui/compare/v2.7.0...v2.8.0) (2026-08-29)
+
+### Content
+
+* **fix:** move post to proper location ([ee21a35](https://github.com/davidsneighbour/samui-samui/commit/ee21a35eb34d9588dec9607686acefb4b5a9583d))
+* publish amnesty law PDF copy ([6033b4e](https://github.com/davidsneighbour/samui-samui/commit/6033b4ef42209c8f5d8c5e2067f0c07747a8af07)), references [#1662](https://github.com/davidsneighbour/samui-samui/issues/1662)
+
+### Feat
+
+* **archive:** redesign year grid with per-year month coloring ([eec9765](https://github.com/davidsneighbour/samui-samui/commit/eec9765f5bfd3f8b018c0775e403524fe8965df1)), closes [#1652](https://github.com/davidsneighbour/samui-samui/issues/1652)
+* **audit:** generate Ahrefs URL samples ([cb9530a](https://github.com/davidsneighbour/samui-samui/commit/cb9530a1d6d6a8fd254354998cb5319b9f37e4e0)), references [#1674](https://github.com/davidsneighbour/samui-samui/issues/1674)
+* **components:** add leute taxonomy link component ([c183dc1](https://github.com/davidsneighbour/samui-samui/commit/c183dc1c8e37b1458738634d509e0ffeb38bf68c)), closes [#1672](https://github.com/davidsneighbour/samui-samui/issues/1672)
+* **components:** add schema.org Person and PostalAddress components ([f0bdc9b](https://github.com/davidsneighbour/samui-samui/commit/f0bdc9b15b63d9cc4958b380f5627fd778c6ca62)), closes [#1671](https://github.com/davidsneighbour/samui-samui/issues/1671)
+* **content:** consolidate umlaut entity linting ([5eda285](https://github.com/davidsneighbour/samui-samui/commit/5eda2855ad252efe2c9f664d7eb80e54066ab466)), closes [#745](https://github.com/davidsneighbour/samui-samui/issues/745)
+* **content:** wire umlaut-entity normalizer into lint and pre-commit ([d78c2c3](https://github.com/davidsneighbour/samui-samui/commit/d78c2c30b43c1896ee71fc34f53acbe984e7f12b)), closes [#745](https://github.com/davidsneighbour/samui-samui/issues/745), references [#252](https://github.com/davidsneighbour/samui-samui/issues/252)
+* **dev:** ignore root uppercase markdown files in dev watcher ([9f71cd8](https://github.com/davidsneighbour/samui-samui/commit/9f71cd83ef0a945877de168789da6fb574b8bf45)), closes [#1648](https://github.com/davidsneighbour/samui-samui/issues/1648)
+* **docs-server:** make sidebar nav groups collapsible ([52a778e](https://github.com/davidsneighbour/samui-samui/commit/52a778ec702676a0f58f82f6782da122162a33d3))
+* **docs-server:** only expand the active sidebar nav group ([cce883a](https://github.com/davidsneighbour/samui-samui/commit/cce883a7bba5e87aa3a1454b88cd4ec8ca3393aa))
+* **footer:** add legal page links below copyright line ([c47e1e2](https://github.com/davidsneighbour/samui-samui/commit/c47e1e2757e583d5dc2fa051fe6e384a3e4a5d0a))
+* **footer:** use shadcn tooltip for sound toggle label ([9c6208b](https://github.com/davidsneighbour/samui-samui/commit/9c6208bbdb7bfe31b5ba09828297215353cf18cc)), closes [#1650](https://github.com/davidsneighbour/samui-samui/issues/1650)
+* **masthead:** reflow mobile site title ([d8452e1](https://github.com/davidsneighbour/samui-samui/commit/d8452e1aa4f763b1a6498a111a4447f2e9666271)), references [#1665](https://github.com/davidsneighbour/samui-samui/issues/1665)
+* **posts:** show breadcrumbs on single posts ([984c4ab](https://github.com/davidsneighbour/samui-samui/commit/984c4abdf32942c0b11455da9792585baf41d9ab)), references [#1673](https://github.com/davidsneighbour/samui-samui/issues/1673)
+* **search:** track internal search queries in Matomo ([33315ce](https://github.com/davidsneighbour/samui-samui/commit/33315cebf7bd8a6972034df003207c0986ae94a7)), closes [#1654](https://github.com/davidsneighbour/samui-samui/issues/1654)
+
+### Instructions
+
+* name Clerkwork project triage skill ([7f456e0](https://github.com/davidsneighbour/samui-samui/commit/7f456e03fa7d41b77f2027247d7b7db1d6bb1e0c)), references [#1664](https://github.com/davidsneighbour/samui-samui/issues/1664)
+* name Clerkwork project triage skill ([11e6a9e](https://github.com/davidsneighbour/samui-samui/commit/11e6a9e877cf6630c4201e899251818b7f633311)), references [#1664](https://github.com/davidsneighbour/samui-samui/issues/1664)
+
+### Fix
+
+* 24vw instead of 25vw for the masthead ([2ec42bd](https://github.com/davidsneighbour/samui-samui/commit/2ec42bde084367b3db4fa5def53663c1b76bd4c1))
+* animate person-link icon colour ([e8c9560](https://github.com/davidsneighbour/samui-samui/commit/e8c9560ad5df265ad1ef63b8efe490ee1de7ed2c)), closes [#1676](https://github.com/davidsneighbour/samui-samui/issues/1676)
+* **archive:** make search field render full width ([e8981ab](https://github.com/davidsneighbour/samui-samui/commit/e8981abcd7255a6a49af538c808deede4a226a7f)), closes [#1669](https://github.com/davidsneighbour/samui-samui/issues/1669)
+* **archive:** show all twelve months in year disclosure, not just active ones ([26949e0](https://github.com/davidsneighbour/samui-samui/commit/26949e063f00143409acb35402e1237ee30c2685))
+* **components:** fix person-link baseline offset ([76de5b4](https://github.com/davidsneighbour/samui-samui/commit/76de5b42080551812fb5a966872383786cbc8d63)), references [#1672](https://github.com/davidsneighbour/samui-samui/issues/1672)
+* **components:** guarantee person-link icon never wraps from name ([eab6abd](https://github.com/davidsneighbour/samui-samui/commit/eab6abd8418766918297f448c9ec8776b4044ce8)), references [#1672](https://github.com/davidsneighbour/samui-samui/issues/1672)
+* **components:** keep person-link icon glued to the name ([c8bb845](https://github.com/davidsneighbour/samui-samui/commit/c8bb845bd37fe7869f0d51e24af0b78f6d764a63)), references [#1672](https://github.com/davidsneighbour/samui-samui/issues/1672)
+* **components:** move person-link icon before the name, unlinked ([d4aa325](https://github.com/davidsneighbour/samui-samui/commit/d4aa325a3648a05cea9152215d7ef86c0dd58dc9)), references [#1672](https://github.com/davidsneighbour/samui-samui/issues/1672)
+* **deps:** resolve markdownlint toolchain GHSA advisories via override ([8b4c5d9](https://github.com/davidsneighbour/samui-samui/commit/8b4c5d911dcca7a732dcee0cb2132f56d35ea188)), closes [#747](https://github.com/davidsneighbour/samui-samui/issues/747)
+* **design:** tighten prose list item spacing ([98019f1](https://github.com/davidsneighbour/samui-samui/commit/98019f1d376c933c1d88fe656723df18c0f851d8)), references [#1677](https://github.com/davidsneighbour/samui-samui/issues/1677)
+* **footer:** position sound toggle tooltip above the icon ([bc5f1ed](https://github.com/davidsneighbour/samui-samui/commit/bc5f1ed1c199786c5a337e90057925350e126aac))
+* **lint:** exclude local-only scratch files from markdown lint scope ([11ebe56](https://github.com/davidsneighbour/samui-samui/commit/11ebe56b076b3aa317cff4ec8834bc486298a9a2))
+* **masthead:** ease mobile question line ([63a3aa5](https://github.com/davidsneighbour/samui-samui/commit/63a3aa5a5a0b10bd0276e7b26c73dd9e258146e5)), references [#1665](https://github.com/davidsneighbour/samui-samui/issues/1665)
+* order post taxonomy metadata groups ([537283b](https://github.com/davidsneighbour/samui-samui/commit/537283b1835353980309d6de010bf269025259f1)), references [#1675](https://github.com/davidsneighbour/samui-samui/issues/1675)
+* **postheader:** update post header order and formatting ([8018ca4](https://github.com/davidsneighbour/samui-samui/commit/8018ca420ae7ce744cda1b708150b280fdf778d5))
+* **posts:** balance breadcrumb spacing ([d62d750](https://github.com/davidsneighbour/samui-samui/commit/d62d7503df067f2b968c5b74564c168814bfcbb8)), references [#1673](https://github.com/davidsneighbour/samui-samui/issues/1673)
+* **posts:** place breadcrumb separator before trail ([8f7073f](https://github.com/davidsneighbour/samui-samui/commit/8f7073f367c1f867811cfe31836b58f95d594588)), references [#1673](https://github.com/davidsneighbour/samui-samui/issues/1673)
+* render taxonomy groups as flex rows ([533b9fb](https://github.com/davidsneighbour/samui-samui/commit/533b9fb682236f50be565c56df0e2549dc6b4d75)), references [#1675](https://github.com/davidsneighbour/samui-samui/issues/1675)
+* **search:** track Matomo internal search on every Pagefind instance ([6c1cb6b](https://github.com/davidsneighbour/samui-samui/commit/6c1cb6b59afeff03add67c86d0839f6d40b1ece1))
+* **security:** remediate GitHub security alerts ([27bd901](https://github.com/davidsneighbour/samui-samui/commit/27bd90187eed8be1dabaf9981ec955781d932bf8)), closes [#1668](https://github.com/davidsneighbour/samui-samui/issues/1668)
+* **video:** cache Vimeo/YouTube cover thumbnails at build time ([fe2d656](https://github.com/davidsneighbour/samui-samui/commit/fe2d656689241fd68c48ca969868635e6204b20e)), closes [#1670](https://github.com/davidsneighbour/samui-samui/issues/1670)
+
+### Refactor
+
+* **legal:** align Impressum and Datenschutzerklärung with actual site behaviour ([bac4b67](https://github.com/davidsneighbour/samui-samui/commit/bac4b673516d85520cbc0c60ceb932d136e13559))
+* reformat markdown formatting ([7279d85](https://github.com/davidsneighbour/samui-samui/commit/7279d853bfa3af018c9deaa27554b3467c83f715))
+
+### Docs
+
+* **analytics:** link Matomo tracking API references ([95ea66c](https://github.com/davidsneighbour/samui-samui/commit/95ea66c4a2ad9fa0d875250d0015bc7189b4eec7)), closes [#1653](https://github.com/davidsneighbour/samui-samui/issues/1653)
+* **content:** document umlaut normalisation workflow ([f567ddb](https://github.com/davidsneighbour/samui-samui/commit/f567ddb06d3fa769a69d4d042bad4a6ee0ecc98a)), references [#745](https://github.com/davidsneighbour/samui-samui/issues/745)
+* **styles:** document .text-box-balanced Firefox translate fallback ([cc64c63](https://github.com/davidsneighbour/samui-samui/commit/cc64c634ad44e2a820c3ea729d8bbd3ec5186176)), closes [#1651](https://github.com/davidsneighbour/samui-samui/issues/1651)
+
+### Build
+
+* **deps:** update dependencies ([748b222](https://github.com/davidsneighbour/samui-samui/commit/748b222a0ac4a29444704a720ee5c5cb488b2c20))
+* **deps:** update dependencies ([51121ae](https://github.com/davidsneighbour/samui-samui/commit/51121aec52f7ea684ab0d992853997f5c98d133d))
+* **deps:** update dependencies ([974ad13](https://github.com/davidsneighbour/samui-samui/commit/974ad1396c48615d75cd311fe09f9e7b3804eb43))
+
+### Chore
+
+* **project:** migrate dashboard to local PROJECT.md ([f8b7db5](https://github.com/davidsneighbour/samui-samui/commit/f8b7db5312206842d293aaf79c7ce478fd2fcfb4)), closes [#1664](https://github.com/davidsneighbour/samui-samui/issues/1664)
+* **scripts:** make Astro logs quiet by default ([ebe744d](https://github.com/davidsneighbour/samui-samui/commit/ebe744d1df6f158f8481ab4e4a069f995baa8347)), references [#1667](https://github.com/davidsneighbour/samui-samui/issues/1667)
+
 ## [2.7.0](https://github.com/davidsneighbour/samui-samui/compare/v2.6.0...v2.7.0) (2026-08-26)
 
 ### Content
