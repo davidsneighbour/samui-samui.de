@@ -13,6 +13,7 @@ interface Props {
   // accessible name. Skips the wrapper's own tabindex/aria-label so the
   // control doesn't get a redundant tab stop.
   interactive?: boolean | undefined;
+  placement?: 'top' | 'bottom' | undefined;
 }
 
 const {
@@ -23,6 +24,7 @@ const {
   triggerClass,
   contentClass,
   interactive = false,
+  placement = 'bottom',
 } = Astro.props as Props;
 const triggerA11yAttrs = interactive
   ? {}
@@ -32,6 +34,7 @@ const triggerA11yAttrs = interactive
 <span
   class={cn('tooltip inline-flex', className)}
   data-tooltip
+  data-tooltip-placement={placement}
 >
   <span
     class={cn(
@@ -92,7 +95,12 @@ const triggerA11yAttrs = interactive
         Math.max(triggerCenter - contentRect.width / 2, margin),
         Math.max(margin, maxLeft),
       );
-      const top = triggerRect.bottom + gap;
+      const placement =
+        tooltip.dataset.tooltipPlacement === 'top' ? 'top' : 'bottom';
+      const top =
+        placement === 'top'
+          ? Math.max(margin, triggerRect.top - contentRect.height - gap)
+          : triggerRect.bottom + gap;
       const arrowLeft = Math.min(
         Math.max(triggerCenter - left, 12),
         contentRect.width - 12,
@@ -206,6 +214,19 @@ const triggerA11yAttrs = interactive
     border-top: 1px solid var(--color-border);
     border-left: 1px solid var(--color-border);
     transform: translateX(-50%) rotate(45deg);
+  }
+
+  .tooltip[data-tooltip-placement="top"] .tooltip__content {
+    transform: translateY(0.25rem);
+  }
+
+  .tooltip[data-tooltip-placement="top"] .tooltip__content::before {
+    top: auto;
+    bottom: -0.25rem;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
   }
 
   .tooltip[data-tooltip-state="open"] .tooltip__content {
