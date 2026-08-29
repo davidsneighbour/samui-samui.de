@@ -41,3 +41,8 @@ the same extended date formatting as the publish date when the component's
 Single post pages render a breadcrumb below the visible metadata row and above
 the taxonomy list. The trail uses `Startseite`, the Bangkok calendar year linked
 to `/archiv/YYYY/`, and the current post title as the active page item.
+
+`src/components/PostTaxonomyGroups.astro` renders the taxonomy groups below the
+breadcrumb as compact flex rows. Each row keeps the German taxonomy label and
+its linked values on the same line where space allows, with values wrapping
+within the row on narrow screens.
