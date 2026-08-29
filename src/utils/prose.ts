@@ -4,4 +4,4 @@
 // on this site's dark body renders illegibly (dark-on-dark), so every prose
 // block site-wide must carry these card-aware overrides.
 export const proseClasses =
-  'prose prose-neutral mx-auto max-w-none prose-headings:font-normal prose-headings:text-card-foreground prose-a:text-link prose-a:no-underline prose-a:hover:underline prose-strong:text-card-foreground prose-blockquote:border-primary prose-blockquote:text-muted-foreground prose-img:rounded-(--radius)';
+  'prose prose-neutral mx-auto max-w-none prose-headings:font-normal prose-headings:text-card-foreground prose-a:text-link prose-a:no-underline prose-a:hover:underline prose-strong:text-card-foreground prose-blockquote:border-primary prose-blockquote:text-muted-foreground prose-img:rounded-(--radius) prose-li:my-[0.25em] [&_li>p:first-child]:mt-[0.625em] [&_li>p:last-child]:mb-[0.625em]';

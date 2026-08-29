@@ -301,6 +301,13 @@ but only these faces are wired into CSS, deliberately, to avoid unused
   `BlogPostTitle.astro`. This is deliberately separate from article
   content headings, which remain weight 400.
 * **`body-md`** — base body copy. 16px / 1.5 line-height, weight 400.
+  Prose list items deliberately use half of the
+  `@tailwindcss/typography` default vertical item rhythm through
+  `src/utils/prose.ts`: direct `<li>` spacing is `0.25em` above and
+  below, while the first and last paragraphs inside loose Markdown list
+  items keep a reduced `0.625em` edge margin. This keeps separate list
+  items distinguishable without reading like a blank paragraph between
+  every item.
 * **`nav-link`** / **`nav-link-active`** — header navigation
   (`HeaderLink.astro`). Active state keeps the same 400 weight as the
   default link to avoid layout shift and is signaled by the `primary`-colored
