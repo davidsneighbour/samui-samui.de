@@ -7,12 +7,14 @@
     "node": "26.3.0"
   },
   "overrides": {
+    "@opentelemetry/api": "1.8.0",
     "esbuild": "0.28.1",
     "js-yaml": "5.2.2",
     "markdownlint-rule-title-case-style": {
       "markdownlint": "^0.41.1"
     },
-    "tar": "7.5.20"
+    "sharp": "0.35.4",
+    "tar": "7.5.22"
   },
   "scripts": {
     "compile:fixpack": "wireit",

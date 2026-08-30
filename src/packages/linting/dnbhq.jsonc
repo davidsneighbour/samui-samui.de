@@ -45,7 +45,7 @@
     "release:patch": "release-it --config .release-it.ts --ci --increment=patch"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged",
+    "pre-commit": "npx lint-staged && npm run validate:content",
     "pre-push": "npm run check"
   }
 }
