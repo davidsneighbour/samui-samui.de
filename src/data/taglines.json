@@ -1,0 +1,26 @@
+[
+  {
+    "from": null,
+    "precision": "unknown",
+    "source": {
+      "note": "Der originale Sub-Titel der durch den nächsten Titel ausgetauscht wurde.",
+      "reference": "1fe5fbf6d67c15d96af210b05161ad8ff1be5e73",
+      "type": "git"
+    },
+    "text": "Notizen über mein Leben als Auswanderer auf Koh Samui, Thailand"
+  },
+  {
+    "from": "2019-07-04",
+    "precision": "day",
+    "source": {
+      "reference": "1fe5fbf6d67c15d96af210b05161ad8ff1be5e73",
+      "type": "git"
+    },
+    "text": "David's Neighbour's Notizen über sein Leben als Auswanderer auf der Insel Koh Samui in Thailand. Auf Deutsch, und so..."
+  },
+  {
+    "from": "2026-08-29",
+    "precision": "day",
+    "text": "Notizen. Unsortiert."
+  }
+]

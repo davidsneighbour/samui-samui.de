@@ -8,7 +8,7 @@ export async function GET(context) {
   posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
   posts = posts.slice(0, 10);
   return rss({
-    description: setup.description,
+    description: setup.siteDescription,
     items: posts.map((post) => ({
       categories: post.data.themen || [],
       description: post.data.description,

@@ -1,0 +1,62 @@
+---
+import { getTaglineTimeline } from '@data/taglines';
+import PageLayout from '@layouts/PageLayout.astro';
+
+const timeline = getTaglineTimeline();
+---
+
+<PageLayout
+  title="Was hier schon alles drunterstand"
+  description="Alle bekannten Beschreibungen von Samui? Samui! seit 2005, chronologisch sortiert."
+>
+  <p class="mb-4 text-card-foreground">
+    Seit 2005 hat sich nicht nur Koh Samui verändert. Auch die Beschreibung
+    dieses Blogs wurde im Laufe der Jahre gelegentlich angepasst.
+  </p>
+  <p class="mb-10 text-card-foreground">
+    Hier steht, soweit noch rekonstruierbar, was im Laufe der Zeit unter „Samui?
+    Samui!“ stand.
+  </p>
+
+  <ol class="space-y-8 border-l border-border pl-6">
+    {timeline.map((entry) => (
+      <li class="relative">
+        <span
+          class:list={[
+            'absolute top-1.5 -left-6 size-2.5 -translate-x-1/2 rounded-full border-2 border-card',
+            entry.isCurrent ? 'bg-primary' : 'bg-muted-foreground',
+          ]}
+          aria-hidden="true"
+        />
+        <p class="flex flex-wrap items-center gap-2 text-sm font-medium text-muted-foreground">
+          <span>{entry.displayPeriod}</span>
+          {entry.isCurrent && (
+            <span class="rounded-full bg-primary/15 px-2 py-0.5 text-xs font-medium text-primary">
+              aktuell
+            </span>
+          )}
+        </p>
+        <p class="mt-1 text-lg text-card-foreground">„{entry.text}“</p>
+        {entry.note && (
+          <p class="mt-1 text-sm text-muted-foreground">{entry.note}</p>
+        )}
+        {entry.source && (
+          <p class="mt-1 text-xs text-muted-foreground">
+            Quelle:{' '}
+            {entry.sourceUrl ? (
+              <a
+                href={entry.sourceUrl}
+                class="text-link hover:underline"
+              >
+                {entry.source.type}
+              </a>
+            ) : (
+              entry.source.type
+            )}
+            {entry.source.note && ` – ${entry.source.note}`}
+          </p>
+        )}
+      </li>
+    ))}
+  </ol>
+</PageLayout>
