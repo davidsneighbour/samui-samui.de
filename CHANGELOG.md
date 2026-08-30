@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.10.0](https://github.com/davidsneighbour/samui-samui/compare/v2.9.0...v2.10.0) (2026-08-30)
+
+### Feat
+
+* **taglines:** add historical tagline system with /taglines/ timeline ([de594de](https://github.com/davidsneighbour/samui-samui/commit/de594dec19bb7cb8d78e02fdfb597ade230ff228))
+
+### Fix
+
+* **deps:** resolve GHSA-f88m-g3jw-g9cj in sharp via overrides ([f22a8b9](https://github.com/davidsneighbour/samui-samui/commit/f22a8b9c97b861e00036601db689446cd0775344)), closes [#331](https://github.com/davidsneighbour/samui-samui/issues/331) [#1689](https://github.com/davidsneighbour/samui-samui/issues/1689), references [#328](https://github.com/davidsneighbour/samui-samui/issues/328)
+* **docs:** restore GHSA id casing mangled by markdownlint auto-fix ([0f5c6b7](https://github.com/davidsneighbour/samui-samui/commit/0f5c6b740a5a49a0815b30336d760869f0df14da))
+
+### Build
+
+* **hooks:** run astro check in pre-commit, not just pre-push ([53856e3](https://github.com/davidsneighbour/samui-samui/commit/53856e3fa57f7d9eaa705c440899f91e74665333))
+
 ## [2.9.0](https://github.com/davidsneighbour/samui-samui/compare/v2.8.1...v2.9.0) (2026-08-29)
 
 ### Feat
