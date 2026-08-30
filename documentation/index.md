@@ -4,6 +4,7 @@
 
 * [Analytics](components/analytics.md) links the official Matomo JavaScript and HTTP Tracking API references used by `Analytics.astro`.
 * [Blog list previews](components/blog-list-previews.md) documents rendered HTML excerpts and featured-card behavior in `BlogList.astro`.
+* [Component structure](components/structure.md) defines the topic-based `src/components/` folder layout.
 * [Giscus comments](components/giscus-comments.md) documents the lazy giscus widget, custom theme URLs, and local-development theme limitations.
 * [Legacy image presentation](components/legacy-images.md) explains the automatic small-image rendering system for archive images and cover previews.
 * [Masthead](components/masthead.md) documents the responsive site title, header-owned CSS, and dev-only masthead preview route.

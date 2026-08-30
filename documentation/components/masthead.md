@@ -1,6 +1,6 @@
 # Masthead
 
-`src/components/Header.astro` owns the site masthead, including the title, tagline, header search control, navigation, and all masthead-specific CSS.
+`src/components/layout/header/Header.astro` owns the site masthead, including the title, tagline, header search control, navigation, and all masthead-specific CSS.
 
 The site title uses the `setup.title` value from `src/data/setup.json`, split into word spans for presentation. The accessible name stays the full title, `Samui? Samui!`.
 

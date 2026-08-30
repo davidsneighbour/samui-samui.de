@@ -43,12 +43,12 @@ Browser                Netlify edge/CDN         Netlify Function          Open-M
         <-- WeatherSnapshot JSON
 ```
 
-Four separate layers, matching `src/utils/weather/` and `src/components/weather/`:
+Four separate layers, matching `src/utils/weather/` and `src/components/features/weather/`:
 
 1. **Provider integration** -- `src/netlify/functions/weather.ts` builds the Open-Meteo request URL and fetches it. Provider-specific knowledge stops here.
 2. **Internal model** -- `src/utils/weather/types.ts` (`WeatherSnapshot`, `WeatherForecastHour`) and `src/utils/weather/normalise-open-meteo.ts` (raw response -> internal model, with validation). Everything downstream only ever sees this shape.
 3. **Interpretation** -- `src/utils/weather/summarise-weather.ts` (German summary) and `src/utils/weather/weather-codes.ts` (WMO code -> category / label / icon).
-4. **Presentation** -- `src/components/weather/WeatherWidget.astro` (markup, server-rendered but inert) and `src/components/weather/WeatherWidgetClient.ts` (lazy-load lifecycle, fetch, cache, DOM updates).
+4. **Presentation** -- `src/components/features/weather/WeatherWidget.astro` (markup, server-rendered but inert) and `src/components/features/weather/WeatherWidgetClient.ts` (lazy-load lifecycle, fetch, cache, DOM updates).
 
 A provider swap should only ever touch layer 1 (and, if the new provider uses a different code table, `weather-codes.ts`). The component and summary logic never parse a raw provider response.
 
@@ -245,7 +245,7 @@ Implemented in `src/utils/weather/browser-cache.ts`:
 
 ## Lazy-loading lifecycle
 
-`src/components/weather/WeatherWidgetClient.ts` defines `<dnb-weather-widget>`, a small custom element -- the same `IntersectionObserver` + custom-element pattern already used by `src/components/Giscus.astro`, not a new pattern invented for this widget.
+`src/components/features/weather/WeatherWidgetClient.ts` defines `<dnb-weather-widget>`, a small custom element -- the same `IntersectionObserver` + custom-element pattern already used by `src/components/features/comments/Giscus.astro`, not a new pattern invented for this widget.
 
 ```ts
 export const WEATHER_WIDGET_OBSERVER_OPTIONS = {
@@ -354,7 +354,7 @@ Manual verification checklist:
 
 ## Placement
 
-Rendered from `src/components/Footer.astro` (as the first thing before the `<footer>` element itself), which every shared layout already includes -- `PageLayout.astro`, `BlogPost.astro`, `index.astro`, and `seite/[seite].astro` -- so it appears on every normal content page without each page needing to render it individually.
+Rendered from `src/components/layout/footer/Footer.astro` (as the first thing before the `<footer>` element itself), which every shared layout already includes -- `PageLayout.astro`, `BlogPost.astro`, `index.astro`, and `seite/[seite].astro` -- so it appears on every normal content page without each page needing to render it individually.
 
 `Footer.astro` accepts a `hideWeather` prop (threaded through `PageLayout.astro`'s own `hideWeather` prop) for pages that should intentionally omit it. Currently used only by `404.astro`, since an error page isn't really "content" the weather note belongs under. Other special surfaces don't need the prop because they don't render `Footer.astro` at all:
 

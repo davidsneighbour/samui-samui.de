@@ -1,6 +1,6 @@
 # Blog list previews
 
-Blog list pages are rendered by `src/components/BlogList.astro`. The homepage passes `featuredFirst`, so the first eligible post on the first page is shown as a large featured article.
+Blog list pages are rendered by `src/components/content/blog/BlogList.astro`. The homepage passes `featuredFirst`, so the first eligible post on the first page is shown as a large featured article.
 
 Posts are eligible for that homepage lead slot unless they explicitly opt out with:
 

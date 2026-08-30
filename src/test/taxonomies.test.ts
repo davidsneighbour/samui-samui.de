@@ -4,7 +4,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { experimental_AstroContainer as AstroContainer } from 'astro/container';
 import { describe, expect, it } from 'vitest';
-import PostTaxonomyGroups from '../components/PostTaxonomyGroups.astro';
+import PostTaxonomyGroups from '../components/content/post/PostTaxonomyGroups.astro';
 import redirects from '../data/redirects.json';
 import {
   isPublicEntity,

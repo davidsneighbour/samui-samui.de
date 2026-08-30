@@ -7,9 +7,9 @@
 // it". Analytics is preserved directly (see Footer.astro's own pattern)
 // since losing tracking wasn't part of that request.
 import { ClientRouter } from 'astro:transitions';
-import Analytics from '@components/Analytics.astro';
-import BaseHead from '@components/BaseHead.astro';
-import LifeTimelineMap from '@components/LifeTimelineMap';
+import Analytics from '@components/features/analytics/Analytics.astro';
+import LifeTimelineMap from '@components/features/life-timeline/LifeTimelineMap';
+import BaseHead from '@components/layout/head/BaseHead.astro';
 
 const title = 'Zeitreise';
 const description =

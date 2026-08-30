@@ -9,7 +9,7 @@ import remarkRehype from 'remark-rehype';
 import { unified } from 'unified';
 import { VFile } from 'vfile';
 import { beforeEach, describe, expect, it } from 'vitest';
-import Notice from '../components/Notice.astro';
+import Notice from '../components/content/notices/Notice.astro';
 
 beforeEach(() => {
   clearNoticeRegistryCache();

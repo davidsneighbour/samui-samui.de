@@ -1,6 +1,6 @@
 # Post metadata
 
-`src/components/BlogPostMeta.astro` owns the shared metadata row used below post titles on single post pages and blog list cards.
+`src/components/content/post/BlogPostMeta.astro` owns the shared metadata row used below post titles on single post pages and blog list cards.
 
 ## Timezone
 
@@ -24,4 +24,4 @@ The tooltip text keeps the German wording `Aktualisiert am` followed by the same
 
 Single post pages render a breadcrumb below the visible metadata row and above the taxonomy list. The trail uses `Startseite`, the Bangkok calendar year linked to `/archiv/YYYY/`, and the current post title as the active page item.
 
-`src/components/PostTaxonomyGroups.astro` renders the taxonomy groups below the breadcrumb as compact flex rows. Each row keeps the German taxonomy label and its linked values on the same line where space allows, with values wrapping within the row on narrow screens. The rows are ordered `Orte`, `Ereignisse`, `Feiertage`, and `Personen`, and empty groups are hidden. `Themen` are not shown in this block because the metadata line already renders them.
+`src/components/content/post/PostTaxonomyGroups.astro` renders the taxonomy groups below the breadcrumb as compact flex rows. Each row keeps the German taxonomy label and its linked values on the same line where space allows, with values wrapping within the row on narrow screens. The rows are ordered `Orte`, `Ereignisse`, `Feiertage`, and `Personen`, and empty groups are hidden. `Themen` are not shown in this block because the metadata line already renders them.

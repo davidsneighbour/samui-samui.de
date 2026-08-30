@@ -5,7 +5,7 @@
 // facade that shows the (statically-known) thumbnail up front and defers the
 // real `youtube-nocookie.com` iframe until the user interacts (or, with
 // `autoload`, until it scrolls into view). Mirrors `Vimeo.astro`.
-import YoutubeScript from '@components/YoutubeScript.astro';
+import YoutubeScript from '@components/content/embeds/YoutubeScript.astro';
 
 type Props = {
   /** YouTube video id, e.g. `dQw4w9WgXcQ` for https://youtu.be/dQw4w9WgXcQ */

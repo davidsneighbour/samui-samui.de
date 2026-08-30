@@ -25,7 +25,7 @@ function readAttr(
 /**
  * Rehype plugin implementing the plain-Markdown `<dnb-person>` custom
  * element (issue #1672): links inline prose to a `leute` entity page,
- * mirroring the MDX `<PersonLink>` component (src/components/PersonLink.astro).
+ * mirroring the MDX `<PersonLink>` component (src/components/content/person/PersonLink.astro).
  * Both call into `buildPersonLinkHast()` (src/utils/taxonomies/person-link.ts)
  * so they render identical markup -- same split as `<dnb-notice>` /
  * `<Notice>` (src/scripts/rehype/notices.ts).

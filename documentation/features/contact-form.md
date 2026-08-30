@@ -1,6 +1,6 @@
 # Contact form
 
-The contact page renders editorial copy in the normal prose wrapper, but `src/components/ContactForm.astro` sits outside that wrapper so form controls and helper text can keep their compact spacing.
+The contact page renders editorial copy in the normal prose wrapper, but `src/components/features/contact/ContactForm.astro` sits outside that wrapper so form controls and helper text can keep their compact spacing.
 
 The form posts to the Netlify Function in `src/netlify/functions/contact.mjs`. Function helpers live beside it in `src/netlify/functions/lib/`, and the React Email notification template lives in `src/netlify/emails/contact-notification.tsx` so the whole contact-delivery surface stays under the Netlify source tree.
 

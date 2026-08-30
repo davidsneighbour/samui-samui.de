@@ -1,6 +1,6 @@
 # Giscus comments
 
-`src/components/Giscus.astro` renders the lazy-loaded giscus comment widget used on post pages. The widget is configured for the `davidsneighbour/samui-samui.de` repository, the `Kommentare` discussion category, German interface copy, and pathname-based discussion mapping by default.
+`src/components/features/comments/Giscus.astro` renders the lazy-loaded giscus comment widget used on post pages. The widget is configured for the `davidsneighbour/samui-samui.de` repository, the `Kommentare` discussion category, German interface copy, and pathname-based discussion mapping by default.
 
 The comment form uses custom giscus themes from:
 

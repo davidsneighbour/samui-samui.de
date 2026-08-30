@@ -71,7 +71,7 @@ export const WEATHER_BROWSER_CACHE = {
 export type WeatherBrowserCachePolicy = typeof WEATHER_BROWSER_CACHE;
 
 // IntersectionObserver tuning for the lazy-load trigger -- see
-// src/components/weather/WeatherWidgetClient.ts.
+// src/components/features/weather/WeatherWidgetClient.ts.
 export const WEATHER_WIDGET_OBSERVER_OPTIONS: IntersectionObserverInit = {
   root: null,
   rootMargin: '400px 0px',

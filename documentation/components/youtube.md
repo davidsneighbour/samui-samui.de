@@ -8,8 +8,8 @@ It ships as two things that share one implementation:
 
 | Variant | Source | Use it from |
 | --------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `<Youtube />` | [`src/components/Youtube.astro`](../../src/components/Youtube.astro) | `.astro` files (layouts, pages, any component tree) |
-| `<dnb-youtube>` | [`src/components/YoutubeScript.astro`](../../src/components/YoutubeScript.astro) | Raw markdown content (blog posts are plain `.md`, not `.mdx`, so they cannot import an Astro component — but raw HTML tags pass through untouched) |
+| `<Youtube />` | [`src/components/content/embeds/Youtube.astro`](../../src/components/content/embeds/Youtube.astro) | `.astro` files (layouts, pages, any component tree) |
+| `<dnb-youtube>` | [`src/components/content/embeds/YoutubeScript.astro`](../../src/components/content/embeds/YoutubeScript.astro) | Raw markdown content (blog posts are plain `.md`, not `.mdx`, so they cannot import an Astro component — but raw HTML tags pass through untouched) |
 
 `<Youtube />` is a thin wrapper: it renders `<YoutubeScript />` (the custom element definition) followed by a `<dnb-youtube>` element with the props mapped to its HTML attributes. Both variants are backed by the exact same `dnb-youtube` custom element.
 
@@ -17,7 +17,7 @@ It ships as two things that share one implementation:
 
 ```astro
 ---
-import Youtube from '@components/Youtube.astro';
+import Youtube from '@components/content/embeds/Youtube.astro';
 ---
 
 <Youtube videoid="XwQRkOK5KC4" title="The White Lotus – Season 3 Trailer" />
@@ -68,8 +68,8 @@ This is the tag to use directly inside post content (`src/content/posts/**/index
 
 ## Source
 
-* [`src/components/Youtube.astro`](../../src/components/Youtube.astro) — the Astro wrapper component.
-* [`src/components/YoutubeScript.astro`](../../src/components/YoutubeScript.astro) — the `dnb-youtube` custom element definition (TypeScript, inside a `<script>` block).
+* [`src/components/content/embeds/Youtube.astro`](../../src/components/content/embeds/Youtube.astro) — the Astro wrapper component.
+* [`src/components/content/embeds/YoutubeScript.astro`](../../src/components/content/embeds/YoutubeScript.astro) — the `dnb-youtube` custom element definition (TypeScript, inside a `<script>` block).
 * [`src/layouts/BlogPost.astro`](../../src/layouts/BlogPost.astro) and `src/pages/[...slug].astro` — where the post-body scan and conditional `<YoutubeScript />` rendering happens.
 * Ported from [paulirish/lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed), specifically [`lite-yt-embed.js`](https://github.com/paulirish/lite-youtube-embed/blob/master/src/lite-yt-embed.js) and [`lite-yt-embed.css`](https://github.com/paulirish/lite-youtube-embed/blob/master/src/lite-yt-embed.css).
 * Demonstrated in [`src/content/posts/2024/the-white-lotus-trailer/index.md`](../../src/content/posts/2024/the-white-lotus-trailer/index.md).

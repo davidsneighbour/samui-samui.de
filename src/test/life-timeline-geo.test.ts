@@ -3,7 +3,7 @@ import {
   computeBounds,
   computeJourneyCurve,
   pointAlongCurve,
-} from '@components/life-timeline/geo';
+} from '@components/features/life-timeline/geo';
 import { describe, expect, it } from 'vitest';
 
 describe('computeJourneyCurve', () => {

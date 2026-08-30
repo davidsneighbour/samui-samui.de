@@ -1,6 +1,6 @@
 import { experimental_AstroContainer as AstroContainer } from 'astro/container';
 import { describe, expect, it } from 'vitest';
-import SiteAge from '../components/SiteAge.astro';
+import SiteAge from '../components/content/date/SiteAge.astro';
 
 async function renderSiteAge(props: Record<string, unknown>) {
   const container = await AstroContainer.create();

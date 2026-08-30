@@ -4,7 +4,7 @@ A reusable inline link from post prose to a `leute` entity page (issue number 16
 
 There are two integration points that both call into the same builder, so they always produce identical markup for equivalent input -- same split as [editorial notices](notices.md):
 
-* **MDX**: `src/components/PersonLink.astro`, used as `<PersonLink id="...">Name</PersonLink>` inside `.mdx` files. Not named `<Person>`: that name is already taken by `src/components/Person.astro` (a schema.org `Person` block used on the legal pages, an unrelated component).
+* **MDX**: `src/components/content/person/PersonLink.astro`, used as `<PersonLink id="...">Name</PersonLink>` inside `.mdx` files. Not named `<Person>`: that name is already taken by `src/components/content/person/Person.astro` (a schema.org `Person` block used on the legal pages, an unrelated component).
 * **Plain Markdown**: a `<dnb-person>` custom element, `<dnb-person id="...">Name</dnb-person>`, transformed at build time by the rehype plugin `src/scripts/rehype/person-link.ts` (`rehypeDnbPerson`), wired into `astro.config.ts`'s `markdown.rehypePlugins` (after `rehypeRaw`, same requirement as `rehypeDnbNotice`). This is the integration point actually used by the archive today, since posts are `.md`, not `.mdx`.
 
 Both call `buildPersonLinkHast()` / `personLinkHastToHtml()` (`src/utils/taxonomies/person-link.ts`), which:

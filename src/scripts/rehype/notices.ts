@@ -84,7 +84,7 @@ interface NoticeTarget {
 /**
  * Rehype plugin implementing the plain-Markdown `<dnb-notice>` custom
  * element: transforms it into the same canonical notice markup produced by
- * the MDX `<Notice>` component (src/components/Notice.astro), both routed
+ * the MDX `<Notice>` component (src/components/content/notices/Notice.astro), both routed
  * through the shared resolver in src/utils/notices/. Must run after
  * `rehypeRaw` (see astro.config.ts) so `<dnb-notice>` is already a real
  * hast element rather than an unparsed raw HTML node.

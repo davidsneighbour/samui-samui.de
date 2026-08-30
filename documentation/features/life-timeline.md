@@ -7,8 +7,8 @@ This file covers architecture, the data schema, and the playback/camera/ journey
 ## Architecture
 
 * `src/pages/timeline.astro` — the route. Renders no site chrome at all — neither `PageLayout.astro`'s centered `max-w-4xl` card wrapper nor the `Header`/`Footer` components — so the map is a fully immersive, edge-to-edge experience contained to exactly one viewport (`h-svh`, no scroll), not "a page with a map on it". It hydrates the map island with `client:load`, since the whole page's purpose is this one interactive component.
-* `src/components/LifeTimelineMap.tsx` — the top-level React component. Resolves the sparse data into one state per year, drives the playback controller, and composes the map canvas with the overlay UI.
-* `src/components/life-timeline/` — supporting pieces:
+* `src/components/features/life-timeline/LifeTimelineMap.tsx` — the top-level React component. Resolves the sparse data into one state per year, drives the playback controller, and composes the map canvas with the overlay UI.
+* `src/components/features/life-timeline/` — supporting pieces:
   * `playback-controller.ts` — a framework-agnostic state machine (`LifeTimelinePlaybackController`) owning playback state and the auto-advance timer. Deliberately independent of React so it is unit testable with plain Vitest fake timers; `useLifeTimelinePlayback.ts` wraps one instance with `useSyncExternalStore`.
   * `LifeTimelineCamera.tsx` — the imperative MapLibre camera driver. Watches the active year and drives `jumpTo`/`easeTo`/`fitBounds`, or hands off to `journey-animation.ts` for the 2005 sequence. Renders nothing.
   * `journey-animation.ts` — the plane-journey animation: a GeoJSON `LineString` source/layer drawn progressively, plus an HTML marker moved along the curve via `requestAnimationFrame`.

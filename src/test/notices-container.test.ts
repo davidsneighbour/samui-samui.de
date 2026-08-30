@@ -1,7 +1,7 @@
 import { clearNoticeRegistryCache } from '@utils/notices/registry';
 import { experimental_AstroContainer as AstroContainer } from 'astro/container';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
-import Notice from '../components/Notice.astro';
+import Notice from '../components/content/notices/Notice.astro';
 
 beforeEach(() => {
   clearNoticeRegistryCache();

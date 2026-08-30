@@ -1,12 +1,12 @@
 'use client';
 
-import { DescriptionPanel } from '@components/life-timeline/DescriptionPanel';
-import { LifeTimelineCamera } from '@components/life-timeline/LifeTimelineCamera';
-import { LifeTimelineMarkers } from '@components/life-timeline/LifeTimelineMarkers';
-import { PlaybackControls } from '@components/life-timeline/PlaybackControls';
-import { useLifeTimelinePlayback } from '@components/life-timeline/useLifeTimelinePlayback';
-import { useReducedMotion } from '@components/life-timeline/useReducedMotion';
-import { YearDisplay } from '@components/life-timeline/YearDisplay';
+import { DescriptionPanel } from '@components/features/life-timeline/DescriptionPanel';
+import { LifeTimelineCamera } from '@components/features/life-timeline/LifeTimelineCamera';
+import { LifeTimelineMarkers } from '@components/features/life-timeline/LifeTimelineMarkers';
+import { PlaybackControls } from '@components/features/life-timeline/PlaybackControls';
+import { useLifeTimelinePlayback } from '@components/features/life-timeline/useLifeTimelinePlayback';
+import { useReducedMotion } from '@components/features/life-timeline/useReducedMotion';
+import { YearDisplay } from '@components/features/life-timeline/YearDisplay';
 import { MapCanvas, MapControls } from '@components/ui/map';
 import {
   LIFE_TIMELINE_CONFIG,

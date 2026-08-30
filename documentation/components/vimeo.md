@@ -6,8 +6,8 @@ It ships as two things that share one implementation:
 
 | Variant | Source | Use it from |
 | ------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `<Vimeo />` | [`src/components/Vimeo.astro`](../../src/components/Vimeo.astro) | `.astro` files (layouts, pages, any component tree) |
-| `<dnb-vimeo>` | [`src/components/VimeoScript.astro`](../../src/components/VimeoScript.astro) | Raw markdown content (blog posts are plain `.md`, not `.mdx`, so they cannot import an Astro component — but raw HTML tags pass through untouched) |
+| `<Vimeo />` | [`src/components/content/embeds/Vimeo.astro`](../../src/components/content/embeds/Vimeo.astro) | `.astro` files (layouts, pages, any component tree) |
+| `<dnb-vimeo>` | [`src/components/content/embeds/VimeoScript.astro`](../../src/components/content/embeds/VimeoScript.astro) | Raw markdown content (blog posts are plain `.md`, not `.mdx`, so they cannot import an Astro component — but raw HTML tags pass through untouched) |
 
 `<Vimeo />` is a thin wrapper: it renders `<VimeoScript />` (the custom element definition) followed by a `<dnb-vimeo>` element with the props mapped to its HTML attributes. Both variants are backed by the exact same `dnb-vimeo` custom element — there is no behavioural difference between them, only a different surface for a different content type.
 
@@ -15,7 +15,7 @@ It ships as two things that share one implementation:
 
 ```astro
 ---
-import Vimeo from '@components/Vimeo.astro';
+import Vimeo from '@components/content/embeds/Vimeo.astro';
 ---
 
 <Vimeo videoid="522265992" title="Thailand vermisst dich" />
@@ -66,8 +66,8 @@ This is the tag to use directly inside post content (`src/content/posts/**/index
 
 ## Source
 
-* [`src/components/Vimeo.astro`](../../src/components/Vimeo.astro) — the Astro wrapper component.
-* [`src/components/VimeoScript.astro`](../../src/components/VimeoScript.astro) — the `dnb-vimeo` custom element definition (TypeScript, inside a `<script>` block).
+* [`src/components/content/embeds/Vimeo.astro`](../../src/components/content/embeds/Vimeo.astro) — the Astro wrapper component.
+* [`src/components/content/embeds/VimeoScript.astro`](../../src/components/content/embeds/VimeoScript.astro) — the `dnb-vimeo` custom element definition (TypeScript, inside a `<script>` block).
 * [`src/layouts/BlogPost.astro`](../../src/layouts/BlogPost.astro) and `src/pages/[...slug].astro` — where the post-body scan and conditional `<VimeoScript />` rendering happens.
 * Ported from [slightlyoff/lite-vimeo](https://github.com/slightlyoff/lite-vimeo), specifically [`lite-vimeo.ts`](https://github.com/slightlyoff/lite-vimeo/blob/master/lite-vimeo.ts).
 * Demonstrated in [`src/content/posts/2021/03/thailand-vermisst-dich/index.md`](../../src/content/posts/2021/03/thailand-vermisst-dich/index.md).

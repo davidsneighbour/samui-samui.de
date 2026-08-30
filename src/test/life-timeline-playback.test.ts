@@ -1,4 +1,4 @@
-import { LifeTimelinePlaybackController } from '@components/life-timeline/playback-controller';
+import { LifeTimelinePlaybackController } from '@components/features/life-timeline/playback-controller';
 import type { ResolvedLifeTimelineYear } from '@data/life-timeline';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 

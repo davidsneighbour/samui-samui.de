@@ -1,8 +1,8 @@
 ---
 import { Picture } from 'astro:assets';
-import LegacyImagePresentation from '@components/LegacyImagePresentation.astro';
-import Vimeo from '@components/Vimeo.astro';
-import Youtube from '@components/Youtube.astro';
+import Vimeo from '@components/content/embeds/Vimeo.astro';
+import Youtube from '@components/content/embeds/Youtube.astro';
+import LegacyImagePresentation from '@components/content/post/LegacyImagePresentation.astro';
 import type { ResolvedPostCover } from '@utils/covers';
 import { classifyImagePresentation } from '@utils/legacy-images/classify';
 import { defaultLegacyImageConfig } from '@utils/legacy-images/config';

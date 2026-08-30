@@ -1,17 +1,17 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { getCollection } from 'astro:content';
-import BlogPostMeta from '@components/BlogPostMeta.astro';
-import BlogPostTitle from '@components/BlogPostTitle.astro';
-import Breadcrumbs from '@components/Breadcrumbs.astro';
-import Giscus from '@components/Giscus.astro';
-import PostCover from '@components/PostCover.astro';
-import PostTaxonomyGroups from '@components/PostTaxonomyGroups.astro';
+import VimeoScript from '@components/content/embeds/VimeoScript.astro';
+import YoutubeScript from '@components/content/embeds/YoutubeScript.astro';
+import BlogPostMeta from '@components/content/post/BlogPostMeta.astro';
+import BlogPostTitle from '@components/content/post/BlogPostTitle.astro';
+import PostCover from '@components/content/post/PostCover.astro';
+import PostTaxonomyGroups from '@components/content/post/PostTaxonomyGroups.astro';
+import Giscus from '@components/features/comments/Giscus.astro';
+import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import Button from '@components/ui/button.astro';
 import Pagination from '@components/ui/pagination.astro';
 import Separator from '@components/ui/separator.astro';
-import VimeoScript from '@components/VimeoScript.astro';
-import YoutubeScript from '@components/YoutubeScript.astro';
 import { getPostCover } from '@utils/covers';
 import { getPostDateParts } from '@utils/dates';
 import { getPostPreviewHtml } from '@utils/post-preview';

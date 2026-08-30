@@ -1,6 +1,6 @@
 // Layer 4 (client half): lazy-load lifecycle and DOM rendering for
 // <dnb-weather-widget>. Mirrors the <dnb-giscus> custom-element +
-// IntersectionObserver pattern already used in src/components/Giscus.astro
+// IntersectionObserver pattern already used in src/components/features/comments/Giscus.astro
 // -- see documentation/features/weather-widget.md#lazy-loading-lifecycle for
 // the full trigger/cache/render sequence this implements.
 //

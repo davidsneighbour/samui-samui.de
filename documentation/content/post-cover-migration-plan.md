@@ -22,7 +22,7 @@ Move post-leading media into optional `cover` frontmatter so single posts and li
 
 1. Extend `src/content.config.ts` to validate optional image, YouTube, and Vimeo cover frontmatter.
 2. Extend `src/utils/covers.ts` to normalize cover frontmatter into renderable image/video media.
-3. Extend `src/components/PostCover.astro` to render optimized images, `Youtube.astro`, or `Vimeo.astro`.
+3. Extend `src/components/content/post/PostCover.astro` to render optimized images, `Youtube.astro`, or `Vimeo.astro`.
 4. Keep the first homepage post large; render subsequent list covers in the compact flex preview and alternate left/right placement.
 5. Document the cover properties in `documentation/components/post-covers.md`.
 6. Add `src/scripts/post-covers.ts` for archive audit and safe scoped migration.

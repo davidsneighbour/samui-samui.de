@@ -4,7 +4,7 @@ Interactive maps use a local mapcn-style React component layer on top of MapLibr
 
 MapLibre is the renderer. OpenFreeMap supplies the initial hosted style document, tiles, sprites, glyphs, fonts, and related map assets from `https://tiles.openfreemap.org`. This does not use Google Maps, Mapbox, a Mapbox token, or an application API key, but it does still send normal connection metadata such as the visitor IP address to OpenFreeMap infrastructure when a map component loads.
 
-The mapcn-style primitive lives at `src/components/ui/map.tsx`. It exposes `MapCanvas`, `MapMarker`, `MarkerContent`, `MarkerPopup`, and `MapControls` wrappers for MapLibre. The contact-page implementation lives at `src/components/ContactMap.tsx` and is hydrated from `/kontakt/` with `client:visible`, so it is displayed inline below the contact form rather than opened from a button.
+The mapcn-style primitive lives at `src/components/ui/map.tsx`. It exposes `MapCanvas`, `MapMarker`, `MarkerContent`, `MarkerPopup`, and `MapControls` wrappers for MapLibre. The contact-page implementation lives at `src/components/features/contact/ContactMap.tsx` and is hydrated from `/kontakt/` with `client:visible`, so it is displayed inline below the contact form rather than opened from a button.
 
 Import MapLibre through a namespace import (`import * as MapLibreGL from 'maplibre-gl'`) plus type-only named imports. MapLibre 6 no longer exposes the old default export shape used by earlier versions. The component also imports `maplibre-gl/dist/maplibre-gl-worker.mjs?url` and passes it to `MapLibreGL.setWorkerUrl()` so Vite serves a real module-worker asset instead of relying on MapLibre's default `import.meta.url` worker lookup inside an optimized dependency.
 
@@ -14,7 +14,7 @@ Example:
 
 ```tsx
 ---
-import ContactMap from '@components/ContactMap';
+import ContactMap from '@components/features/contact/ContactMap';
 import { getMapPointBySlug } from '@data/map-points';
 ---
 

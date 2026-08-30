@@ -1,10 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
-import BaseHead from '@components/BaseHead.astro';
-import BlogList from '@components/BlogList.astro';
-import Breadcrumbs from '@components/Breadcrumbs.astro';
-import Footer from '@components/Footer.astro';
-import Header from '@components/Header.astro';
+import BlogList from '@components/content/blog/BlogList.astro';
+import Footer from '@components/layout/footer/Footer.astro';
+import BaseHead from '@components/layout/head/BaseHead.astro';
+import Header from '@components/layout/header/Header.astro';
+import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import {
   getEntityDescription,
   groupPostsByEntity,

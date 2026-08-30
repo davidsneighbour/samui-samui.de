@@ -321,7 +321,7 @@ h6 {
 
 /*
  * mapcn-style MapLibre surfaces. The component layer lives in
- * src/components/ui/map.tsx and src/components/ContactMap.tsx; these selectors
+ * src/components/ui/map.tsx and src/components/features/contact/ContactMap.tsx; these selectors
  * only adapt MapLibre's generated controls/popups to the DESIGN.md tokens.
  */
 .mapcn-samui .maplibregl-popup-content {

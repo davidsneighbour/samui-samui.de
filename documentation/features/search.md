@@ -2,8 +2,8 @@
 
 The website uses [Pagefind](https://pagefind.app/) for static search. The search UI uses the Pagefind Component UI in three places:
 
-* `src/components/Header.astro` renders the compact `<pagefind-searchbox>` as a dedicated masthead control to the right of the text-link navigation and before the theme toggle. The field uses the German placeholder `Finden`, a Lucide binoculars icon, and the light `accent` surface from `DESIGN.md`.
-* `src/pages/suche.mdx` remains the standalone search page. It renders `src/components/PagefindSearchPage.astro`, a composed interface with an input, year and topic filters, a summary, and a result list. The page focuses the search field only on hover-capable fine-pointer devices so phones do not open the keyboard immediately after navigation.
+* `src/components/layout/header/Header.astro` renders the compact `<pagefind-searchbox>` as a dedicated masthead control to the right of the text-link navigation and before the theme toggle. The field uses the German placeholder `Finden`, a Lucide binoculars icon, and the light `accent` surface from `DESIGN.md`.
+* `src/pages/suche.mdx` remains the standalone search page. It renders `src/components/features/search/PagefindSearchPage.astro`, a composed interface with an input, year and topic filters, a summary, and a result list. The page focuses the search field only on hover-capable fine-pointer devices so phones do not open the keyboard immediately after navigation.
 * `src/pages/archiv/index.astro` also uses a compact `<pagefind-searchbox>` on the archive page.
 * `src/styles/theme.css` maps Pagefind `--pf-*` variables onto the existing color, font, radius, and focus values from `DESIGN.md`. Do not invent Pagefind-only colors there.
 

@@ -5,7 +5,7 @@ Many posts in the archive (2005 onward) embed images whose intrinsic dimensions 
 It has two integration points that share the same classification logic, config, and CSS, but render independently because they run in different parts of the pipeline:
 
 * **Post-body images** -- both Markdown `![]()` syntax and raw HTML `<img>` tags in post content -- are rewritten by a rehype plugin, `src/scripts/rehype/legacy-images.ts` (`rehypeLegacyImages`), wired into `astro.config.ts`'s `markdown.rehypePlugins`.
-* **Post covers in preview contexts** (`cover:` frontmatter and the legacy `featured_image` string field), resolved by `getPostCover()` in `src/utils/covers.ts`, are classified in `PostCover.astro` and rendered by `src/components/LegacyImagePresentation.astro` where the call site opts in with `presentationWidth`.
+* **Post covers in preview contexts** (`cover:` frontmatter and the legacy `featured_image` string field), resolved by `getPostCover()` in `src/utils/covers.ts`, are classified in `PostCover.astro` and rendered by `src/components/content/post/LegacyImagePresentation.astro` where the call site opts in with `presentationWidth`.
 
 Both read the same central config and classification function from `src/utils/legacy-images/`:
 

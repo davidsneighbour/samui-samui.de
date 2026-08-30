@@ -4,7 +4,7 @@ A reusable "editorial notice" system for static annotations on post content -- h
 
 There are two integration points that resolve through the same central resolver and render function, so they always produce the same markup for equivalent input:
 
-* **MDX**: `src/components/Notice.astro`, used as `<Notice slug="..." />` inside `.mdx` files (imported like any other Astro component).
+* **MDX**: `src/components/content/notices/Notice.astro`, used as `<Notice slug="..." />` inside `.mdx` files (imported like any other Astro component).
 * **Plain Markdown**: a `<dnb-notice>` custom element, transformed at build time by the rehype plugin `src/scripts/rehype/notices.ts` (`rehypeDnbNotice`), wired into `astro.config.ts`'s `markdown.rehypePlugins` (after `rehypeRaw`, same requirement as `rehypeLegacyImages` -- see [Legacy image presentation](legacy-images.md)). This is what most of the 20-year post archive uses, since those posts are `.md`, not `.mdx`, and `[...slug].astro` renders their `<Content />` with no MDX component registration.
 
 Both call into `src/utils/notices/`:
@@ -77,7 +77,7 @@ Dismissible:
 <Notice slug="aktualisierung-verfuegbar" dismissible />
 ```
 
-Props (`src/components/Notice.astro`): `slug?`, `title?`, `description?`, `icon?`, `variant?`, `dismissible?`, `dismissLabel?`, `class?`.
+Props (`src/components/content/notices/Notice.astro`): `slug?`, `title?`, `description?`, `icon?`, `variant?`, `dismissible?`, `dismissLabel?`, `class?`.
 
 ## Plain markdown usage
 

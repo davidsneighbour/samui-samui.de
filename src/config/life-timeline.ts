@@ -1,7 +1,7 @@
 // Shared types and tunable defaults for the /timeline/ life-timeline map.
 // Keep this file limited to the data contract and timing/camera defaults —
 // component mechanics (state machine, MapLibre wiring) live under
-// src/components/life-timeline/. See documentation/features/life-timeline.md
+// src/components/features/life-timeline/. See documentation/features/life-timeline.md
 // for the full schema writeup and editing guide.
 
 export type LifeTimelineLocationRole =
