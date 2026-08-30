@@ -1,10 +1,9 @@
 # People taxonomy migration
 
-This inventory documents the migration from old free-form `leute` values to
-canonical IDs. No biographical details were added.
+This inventory documents the migration from old free-form `leute` values to canonical IDs. No biographical details were added.
 
 | Old value | Canonical ID | Entry | Possible duplicate | Manual review |
-| --- | --- | --- | --- | --- |
+| ------------------------------- | ------------------------------- | ------- | ------------------ | ------------- |
 | `abhisit vejjajiva` | `abhisit-vejjajiva` | created | no | no |
 | `dwayne johnson` | `dwayne-johnson` | created | no | no |
 | `koenig-maha-vajiralongkorn` | `koenig-maha-vajiralongkorn` | created | no | no |
@@ -21,5 +20,4 @@ canonical IDs. No biographical details were added.
 | `vin diesel` | `vin-diesel` | created | no | no |
 | `yingluck shinawatra` | `yingluck-shinawatra` | created | no | no |
 
-An existing media folder for `thanathorn-juangroongruangkit` received the
-minimal `_index.md` entry.
+An existing media folder for `thanathorn-juangroongruangkit` received the minimal `_index.md` entry.

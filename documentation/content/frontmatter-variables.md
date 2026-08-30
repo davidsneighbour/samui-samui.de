@@ -1,31 +1,24 @@
 # Frontmatter variables
 
-This is the index of frontmatter properties accepted by the Astro content
-schema in `src/content.config.ts`. Keep the detailed rules in the focused
-documentation files linked from the "Documentation" column; this page is a
-stub-level map so agents and editors can find the right contract quickly.
+This is the index of frontmatter properties accepted by the Astro content schema in `src/content.config.ts`. Keep the detailed rules in the focused documentation files linked from the "Documentation" column; this page is a stub-level map so agents and editors can find the right contract quickly.
 
-When adding, removing, or changing a frontmatter property, update this file in
-the same change set as the schema and focused documentation update.
+When adding, removing, or changing a frontmatter property, update this file in the same change set as the schema and focused documentation update.
 
 ## Shared properties
 
-These fields come from the shared base frontmatter schema and can appear on
-content collections that extend it.
+These fields come from the shared base frontmatter schema and can appear on content collections that extend it.
 
 | Property | Collections | Shape | Documentation |
-| --- | --- | --- | --- |
+| ------------- | ------------------------------------------------------------------ | ---------------- | ----------------------------------- |
 | `title` | posts, people, places, events, topics, holidays, sitewide snippets | Required string. | [Content schema](content-schema.md) |
 | `description` | posts, people, places, events, topics, holidays, sitewide snippets | Optional string. | [Content schema](content-schema.md) |
 
 ## Posts
 
-Post entries live in `src/content/posts/**/index.md`. The post schema is loose
-so unknown legacy migration fields are preserved, but new supported fields
-should be listed here and documented in a focused file.
+Post entries live in `src/content/posts/**/index.md`. The post schema is loose so unknown legacy migration fields are preserved, but new supported fields should be listed here and documented in a focused file.
 
 | Property | Shape | Stub | Documentation |
-| --- | --- | --- | --- |
+| ----------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `cover` | Optional object. | Public post/list cover media. Uses one of the image, YouTube, or Vimeo shapes below. | [Post covers](../components/post-covers.md), [Legacy image presentation](../components/legacy-images.md) |
 | `cover.type` | Required when `cover` exists. | `image`, `youtube`, or `vimeo`. | [Post covers](../components/post-covers.md) |
 | `cover.src` | Required for image covers. | Bundle-local image file name only; no paths. | [Post covers](../components/post-covers.md) |
@@ -72,7 +65,7 @@ should be listed here and documented in a focused file.
 People entries live in `src/content/leute/**/_index.md`.
 
 | Property | Shape | Stub | Documentation |
-| --- | --- | --- | --- |
+| ---------- | ------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | `aliases` | Array of strings, default `[]`. | Alternative names or spellings. | [Content taxonomies](taxonomies.md) |
 | `born` | Optional date. | Birth date when known and verified. | [Content taxonomies](taxonomies.md) |
 | `died` | Optional date. | Death date when known and verified. | [Content taxonomies](taxonomies.md) |
@@ -86,7 +79,7 @@ People entries live in `src/content/leute/**/_index.md`.
 Place entries live in `src/content/orte/**/_index.md`.
 
 | Property | Shape | Stub | Documentation |
-| --- | --- | --- | --- |
+| ----------------------- | ------------------------------------------ | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | `aliases` | Array of strings, default `[]`. | Alternative names or spellings. | [Content taxonomies](taxonomies.md) |
 | `coordinates` | Optional object. | Geographic coordinates. | [Content taxonomies](taxonomies.md), [Interactive maps](../features/maps.md) |
 | `coordinates.latitude` | Required number when `coordinates` exists. | Latitude between -90 and 90. | [Content taxonomies](taxonomies.md), [Interactive maps](../features/maps.md) |
@@ -101,7 +94,7 @@ Place entries live in `src/content/orte/**/_index.md`.
 Event entries live in `src/content/ereignisse/**/_index.md`.
 
 | Property | Shape | Stub | Documentation |
-| --- | --- | --- | --- |
+| ----------- | ----------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
 | `aliases` | Array of strings, default `[]`. | Alternative names or spellings. | [Content taxonomies](taxonomies.md) |
 | `draft` | Boolean, default `false`. | Draft-state marker for event entries. | [Content schema](content-schema.md), [Content taxonomies](taxonomies.md) |
 | `endDate` | Optional date. | Event end date; must not be before `startDate`. | [Content taxonomies](taxonomies.md) |
@@ -117,7 +110,7 @@ Event entries live in `src/content/ereignisse/**/_index.md`.
 Topic entries live in `src/content/themen/**/_index.md`.
 
 | Property | Shape | Stub | Documentation |
-| --- | --- | --- | --- |
+| --------- | ------------------------------- | ----------------------------- | ------------------------------------------------------------------------ |
 | `aliases` | Array of strings, default `[]`. | Alternative topic labels. | [Content taxonomies](taxonomies.md) |
 | `slug` | Optional string. | Explicit topic slug override. | [Content taxonomies](taxonomies.md), [Content schema](content-schema.md) |
 
@@ -126,16 +119,15 @@ Topic entries live in `src/content/themen/**/_index.md`.
 Holiday entries live in `src/content/feiertage/**/_index.md`.
 
 | Property | Shape | Stub | Documentation |
-| --- | --- | --- | --- |
+| -------- | -------------- | ------------- | ----------------------------------- |
 | `date` | Optional date. | Holiday date. | [Content schema](content-schema.md) |
 
 ## Sitewide snippets
 
-Sitewide snippets live in `src/content/sitewide/**/index.md` and are consumed by
-templates rather than routed as standalone pages.
+Sitewide snippets live in `src/content/sitewide/**/index.md` and are consumed by templates rather than routed as standalone pages.
 
 | Property | Shape | Stub | Documentation |
-| --- | --- | --- | --- |
+| ------------ | ------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | `image` | Optional optimized image. | Bundle-local image used by the consuming template. | [Content schema](content-schema.md) |
 | `imagetitle` | Optional string. | Image title or alt/caption source used by the consuming template. | [Content schema](content-schema.md) |
 | `lastmod` | Optional date. | Last-modified timestamp for the snippet. | [Content schema](content-schema.md), [Post metadata](post-metadata.md) |

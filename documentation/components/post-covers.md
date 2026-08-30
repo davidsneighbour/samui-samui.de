@@ -1,7 +1,6 @@
 # Post covers
 
-Blog posts can define optional `cover` frontmatter. Covers are rendered above
-the single post body and in blog list previews.
+Blog posts can define optional `cover` frontmatter. Covers are rendered above the single post body and in blog list previews.
 
 ## Image covers
 
@@ -18,27 +17,20 @@ cover:
 Properties:
 
 | Property | Required | Notes |
-| --- | --- | --- |
+| --------- | -------- | ---------------------------------------------------------------- |
 | `type` | yes | Must be `image`. |
 | `src` | yes | File name only. The image must live next to the post `index.md`. |
 | `caption` | no | Visible caption below the media. Preferred for new posts. |
 | `alt` | no | Image alt text. Falls back to `caption`, then the post title. |
 | `title` | no | Legacy alias for old image captions. Prefer `caption`. |
 
-`src` intentionally does not accept paths. Put cover images in the post bundle
-so Astro can optimize them.
+`src` intentionally does not accept paths. Put cover images in the post bundle so Astro can optimize them.
 
-On single post pages, image covers sit flush against the post header area: the
-image itself renders full-width, and the surrounding article's overflow clipping
-provides the visible rounded top corners. There is no separate cover-frame
-background behind the image. The bottom edge remains square so captions and post
-content connect cleanly below the media. Blog list preview covers keep their
-fully rounded image treatment.
+On single post pages, image covers sit flush against the post header area: the image itself renders full-width, and the surrounding article's overflow clipping provides the visible rounded top corners. There is no separate cover-frame background behind the image. The bottom edge remains square so captions and post content connect cleanly below the media. Blog list preview covers keep their fully rounded image treatment.
 
 ## Video covers
 
-Use video covers for YouTube and Vimeo embeds that should appear as the post
-media instead of inside the Markdown body.
+Use video covers for YouTube and Vimeo embeds that should appear as the post media instead of inside the Markdown body.
 
 ```yaml
 cover:
@@ -57,7 +49,7 @@ cover:
 Properties:
 
 | Property | Required | Notes |
-| --- | --- | --- |
+| ---------- | -------- | ----------------------------------------------------------------- |
 | `type` | yes | Must be `youtube` or `vimeo`. |
 | `video` | yes | YouTube or Vimeo video id. Strings and numbers are accepted. |
 | `caption` | no | Visible caption below the media and accessible video title. |
@@ -68,9 +60,7 @@ Properties:
 | `autoload` | no | Boolean. Loads the iframe when the facade scrolls into view. |
 | `autoplay` | no | Boolean. Autoplays when used together with `autoload`. |
 
-Remove the matching in-body `<dnb-youtube>` or `<dnb-vimeo>` embed once it has
-been promoted to `cover`, unless the same video is intentionally discussed again
-inside the article.
+Remove the matching in-body `<dnb-youtube>` or `<dnb-vimeo>` embed once it has been promoted to `cover`, unless the same video is intentionally discussed again inside the article.
 
 ## Migration helpers
 
@@ -83,25 +73,17 @@ npm run covers -- migrate --path=2024/the-white-lotus-trailer
 npm run covers -- migrate --all --review --mark-missing --dry-run
 ```
 
-The migration command only changes clear single-media posts. It can promote one
-local Markdown image, one standalone YouTube/Vimeo embed, or one Hugo
-`resources` image when there is no body media.
+The migration command only changes clear single-media posts. It can promote one local Markdown image, one standalone YouTube/Vimeo embed, or one Hugo `resources` image when there is no body media.
 
-Add `--review` for ambiguous posts that still have at least one usable cover
-candidate. Review migrations prefer the first Hugo `resources` image, add
-`publisher.covermigration: true`, and keep body media in place so the article is
-not silently edited before a manual check.
+Add `--review` for ambiguous posts that still have at least one usable cover candidate. Review migrations prefer the first Hugo `resources` image, add `publisher.covermigration: true`, and keep body media in place so the article is not silently edited before a manual check.
 
-Add `--mark-missing` together with `--review` to mark posts that have no usable
-cover candidate:
+Add `--mark-missing` together with `--review` to mark posts that have no usable cover candidate:
 
 ```yaml
 publisher:
   covermigration: true
 ```
 
-Those posts do not get fake or empty `cover` objects. The marker is a manual
-queue for choosing or adding a real cover later.
+Those posts do not get fake or empty `cover` objects. The marker is a manual queue for choosing or adding a real cover later.
 
-`resources` entries are not removed automatically. Treat them as post-migration
-metadata to review once rendered covers have been checked.
+`resources` entries are not removed automatically. Treat them as post-migration metadata to review once rendered covers have been checked.

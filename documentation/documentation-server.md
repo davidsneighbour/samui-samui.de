@@ -1,7 +1,6 @@
 # Documentation server
 
-The repository includes a small local documentation server for reading
-`documentation/**/*.md` as HTML in a browser or in VS Code's Simple Browser.
+The repository includes a small local documentation server for reading `documentation/**/*.md` as HTML in a browser or in VS Code's Simple Browser.
 
 Run it by itself:
 
@@ -15,9 +14,7 @@ The default URL is:
 http://127.0.0.1:4322/
 ```
 
-`documentation/index.md` is served as the landing page. Other Markdown files are
-served from their documentation-relative paths, so
-`documentation/content/taxonomies.md` is available at:
+`documentation/index.md` is served as the landing page. Other Markdown files are served from their documentation-relative paths, so `documentation/content/taxonomies.md` is available at:
 
 ```text
 http://127.0.0.1:4322/content/taxonomies.md
@@ -29,18 +26,11 @@ Extensionless routes also work for convenience:
 http://127.0.0.1:4322/content/taxonomies
 ```
 
-The server renders Markdown with the same core libraries already used by the
-site tooling: `unified`, `remark-parse`, `remark-gfm`, `remark-rehype`, and
-`hast-util-to-html`. It is intentionally a local reader, not a second website
-build, so it does not hydrate Astro components or load the public site design
-system.
+The server renders Markdown with the same core libraries already used by the site tooling: `unified`, `remark-parse`, `remark-gfm`, `remark-rehype`, and `hast-util-to-html`. It is intentionally a local reader, not a second website build, so it does not hydrate Astro components or load the public site design system.
 
-The sidebar navigation lists all Markdown documentation pages and groups them
-by documentation area: Components, Content, Features, and Repository. Files at
-the documentation root belong to Repository.
+The sidebar navigation lists all Markdown documentation pages and groups them by documentation area: Components, Content, Features, and Repository. Files at the documentation root belong to Repository.
 
-`npm run dev` starts both the Astro dev server and the documentation server. Use
-the split scripts when only one side is needed:
+`npm run dev` starts both the Astro dev server and the documentation server. Use the split scripts when only one side is needed:
 
 ```bash
 npm run dev:site

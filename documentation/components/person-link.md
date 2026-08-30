@@ -1,79 +1,18 @@
 # Person taxonomy link
 
-A reusable inline link from post prose to a `leute` entity page (issue
-number 1672): renders a leading `user-round` icon plus the entity's page
-link, and -- when the entity has a `subtitle` -- a hover/keyboard-focus
-tooltip showing it, reusing the shared [`Tooltip`](tooltips.md) component's
-exact markup, CSS, and controller script. The icon sits outside the `<a>`
-(not itself clickable), inherits the surrounding prose text color by
-default, and transitions to the site link color when the person-link group
-is hovered or focused.
+A reusable inline link from post prose to a `leute` entity page (issue number 1672): renders a leading `user-round` icon plus the entity's page link, and -- when the entity has a `subtitle` -- a hover/keyboard-focus tooltip showing it, reusing the shared [`Tooltip`](tooltips.md) component's exact markup, CSS, and controller script. The icon sits outside the `<a>` (not itself clickable), inherits the surrounding prose text color by default, and transitions to the site link color when the person-link group is hovered or focused.
 
-There are two integration points that both call into the same builder, so
-they always produce identical markup for equivalent input -- same split as
-[editorial notices](notices.md):
+There are two integration points that both call into the same builder, so they always produce identical markup for equivalent input -- same split as [editorial notices](notices.md):
 
-* **MDX**: `src/components/PersonLink.astro`, used as
-  `<PersonLink id="...">Name</PersonLink>` inside `.mdx` files. Not named
-  `<Person>`: that name is already taken by `src/components/Person.astro`
-  (a schema.org `Person` block used on the legal pages, an unrelated
-  component).
-* **Plain Markdown**: a `<dnb-person>` custom element,
-  `<dnb-person id="...">Name</dnb-person>`, transformed at build time by the
-  rehype plugin `src/scripts/rehype/person-link.ts` (`rehypeDnbPerson`),
-  wired into `astro.config.ts`'s `markdown.rehypePlugins` (after
-  `rehypeRaw`, same requirement as `rehypeDnbNotice`). This is the
-  integration point actually used by the archive today, since posts are
-  `.md`, not `.mdx`.
+* **MDX**: `src/components/PersonLink.astro`, used as `<PersonLink id="...">Name</PersonLink>` inside `.mdx` files. Not named `<Person>`: that name is already taken by `src/components/Person.astro` (a schema.org `Person` block used on the legal pages, an unrelated component).
+* **Plain Markdown**: a `<dnb-person>` custom element, `<dnb-person id="...">Name</dnb-person>`, transformed at build time by the rehype plugin `src/scripts/rehype/person-link.ts` (`rehypeDnbPerson`), wired into `astro.config.ts`'s `markdown.rehypePlugins` (after `rehypeRaw`, same requirement as `rehypeDnbNotice`). This is the integration point actually used by the archive today, since posts are `.md`, not `.mdx`.
 
-Both call `buildPersonLinkHast()` / `personLinkHastToHtml()`
-(`src/utils/taxonomies/person-link.ts`), which:
+Both call `buildPersonLinkHast()` / `personLinkHastToHtml()` (`src/utils/taxonomies/person-link.ts`), which:
 
-1. Reads the referenced `leute` entity's frontmatter directly from disk
-   (`src/content/leute/<id>/_index.md`, no `astro:content` -- unavailable
-   to the rehype integration point, same pattern as
-   `src/utils/taxonomies/validation.ts`).
-2. Throws a build error if the id has no entry (`Unknown leute id "..."`)
-   or is a draft (`leute/[slug].astro`'s `getStaticPaths` skips drafts, so
-   linking to one would 404).
-3. Builds a leading `user-round` icon (`lucide-static`, via the same
-   `buildLucideIconHast()` used by notices) plus the link
-   (`<a href="/leute/<id>/">`) with the tag's own body as the visible label
-   -- not the entity's `title`. The icon sits outside the `<a>` (only the
-   name is clickable), inherits the surrounding text color by default, and
-   animates to `--color-link` on hover or focus within the person-link group.
-   Both sit in an `inline-flex
-   items-center` wrapper: a browser can still insert a line-break
-   opportunity between two separate adjacent inline-level boxes (the icon
-   and the link) even with a literal `&nbsp;` between them and even with
-   zero characters between them -- replaced elements like `<svg>` get
-   soft-wrap opportunities synthesized at their edges more or less
-   unconditionally in some browsers. Flex layout doesn't have that
-   problem: flex items never wrap onto separate lines from each other
-   (`flex-wrap` defaults to `nowrap`), so the icon and the link are
-   guaranteed to stay on the same line, while the `<a>`'s own text can
-   still wrap internally within its own flex-item box (normal text layout
-   inside the item, not inline-level line-breaking between boxes).
-   `align-[-2px]` on the wrapper nudges the whole flex box back onto the
-   surrounding prose baseline, which an `inline-flex` container otherwise
-   synthesizes ~2px off by default. The icon and the name are still glued
-   together with an actual non-breaking space (U+00A0) text node (not a
-   margin, so the gap itself never becomes a break point either), and an
-   author can use the same `&nbsp;` inside the tag's own body to glue
-   together parts of a name, e.g. `Lt.&nbsp;Name Surname` -- it survives
-   as the same character through remark/rehype's standard entity
-   decoding, and the rehype transform's whitespace-only-text-node filter
-   is deliberately not `String.prototype.trim()`-based, since `trim()`
-   also treats a lone `&nbsp;` as trimmable and would otherwise silently
-   discard it if it ever ends up as its own text node.
-4. When the entity has a `subtitle`, wraps the link (not the icon) in the
-   exact `.tooltip`/`.tooltip__trigger`/`.tooltip__content` markup
-   `Tooltip.astro` itself renders (its `interactive` mode, since the
-   trigger here is already a focusable `<a>` -- see Footer.astro's
-   sound-toggle button for the same pattern) and appends the shared
-   controller script (`src/utils/tooltip/controller.ts`), idempotent via
-   its own `window` flag guard so repeating it for multiple `<dnb-person>`
-   occurrences on one page is harmless.
+1. Reads the referenced `leute` entity's frontmatter directly from disk (`src/content/leute/<id>/_index.md`, no `astro:content` -- unavailable to the rehype integration point, same pattern as `src/utils/taxonomies/validation.ts`).
+2. Throws a build error if the id has no entry (`Unknown leute id "..."`) or is a draft (`leute/[slug].astro`'s `getStaticPaths` skips drafts, so linking to one would 404).
+3. Builds a leading `user-round` icon (`lucide-static`, via the same `buildLucideIconHast()` used by notices) plus the link (`<a href="/leute/<id>/">`) with the tag's own body as the visible label -- not the entity's `title`. The icon sits outside the `<a>` (only the name is clickable), inherits the surrounding text color by default, and animates to `--color-link` on hover or focus within the person-link group. Both sit in an `inline-flex items-center` wrapper: a browser can still insert a line-break opportunity between two separate adjacent inline-level boxes (the icon and the link) even with a literal `&nbsp;` between them and even with zero characters between them -- replaced elements like `<svg>` get soft-wrap opportunities synthesized at their edges more or less unconditionally in some browsers. Flex layout doesn't have that problem: flex items never wrap onto separate lines from each other (`flex-wrap` defaults to `nowrap`), so the icon and the link are guaranteed to stay on the same line, while the `<a>`'s own text can still wrap internally within its own flex-item box (normal text layout inside the item, not inline-level line-breaking between boxes). `align-[-2px]` on the wrapper nudges the whole flex box back onto the surrounding prose baseline, which an `inline-flex` container otherwise synthesizes ~2px off by default. The icon and the name are still glued together with an actual non-breaking space (U+00A0) text node (not a margin, so the gap itself never becomes a break point either), and an author can use the same `&nbsp;` inside the tag's own body to glue together parts of a name, e.g. `Lt.&nbsp;Name Surname` -- it survives as the same character through remark/rehype's standard entity decoding, and the rehype transform's whitespace-only-text-node filter is deliberately not `String.prototype.trim()`-based, since `trim()` also treats a lone `&nbsp;` as trimmable and would otherwise silently discard it if it ever ends up as its own text node.
+4. When the entity has a `subtitle`, wraps the link (not the icon) in the exact `.tooltip`/`.tooltip__trigger`/`.tooltip__content` markup `Tooltip.astro` itself renders (its `interactive` mode, since the trigger here is already a focusable `<a>` -- see Footer.astro's sound-toggle button for the same pattern) and appends the shared controller script (`src/utils/tooltip/controller.ts`), idempotent via its own `window` flag guard so repeating it for multiple `<dnb-person>` occurrences on one page is harmless.
 
 ## Usage
 
@@ -95,21 +34,15 @@ Both render:
 Vorsitzender ist
 <span class="dnb-person-link inline-flex items-center align-[-2px]">
   <svg class="dnb-person-link__icon ..." ... />
-  <a href="/leute/anutin-charnvirakul/">Anutin Charnvirakul</a>
-</span>.
+  <a href="/leute/anutin-charnvirakul/">Anutin Charnvirakul</a> </span
+>.
 ```
 
--- plus the tooltip markup (wrapping the `<a>`, not the icon) and
-controller script when the entity's frontmatter has a `subtitle`.
+-- plus the tooltip markup (wrapping the `<a>`, not the icon) and controller script when the entity's frontmatter has a `subtitle`.
 
 ## The `subtitle` frontmatter field
 
-Optional on `leute` entries only (`src/content.config.ts`'s `leute`
-collection schema), e.g. a person's role. Not rendered anywhere else on the
-site -- see [Frontmatter variables](../content/frontmatter-variables.md).
-Do not add one to an entry purely to demonstrate the tooltip: AGENTS.md's
-taxonomy rules say not to invent facts for entity entries, and this field is
-no exception.
+Optional on `leute` entries only (`src/content.config.ts`'s `leute` collection schema), e.g. a person's role. Not rendered anywhere else on the site -- see [Frontmatter variables](../content/frontmatter-variables.md). Do not add one to an entry purely to demonstrate the tooltip: AGENTS.md's taxonomy rules say not to invent facts for entity entries, and this field is no exception.
 
 ```yaml
 ---
@@ -120,12 +53,4 @@ subtitle: Some role or descriptor
 
 ## Why not just use `<Tooltip>` directly for the rehype path
 
-[Tooltips](tooltips.md) says to use the shared component instead of local
-tooltip markup, and the MDX/rehype split here follows that: both paths
-render the exact same `.tooltip`/`.tooltip__trigger`/`.tooltip__content`
-markup, CSS, and controller script `Tooltip.astro` itself uses -- that CSS
-and script were moved out of the component (into `src/styles/theme.css` and
-`src/utils/tooltip/controller.ts`) specifically so this raw, rehype-built
-HTML can reuse them, since it never runs through Astro's component compiler
-and so can't pick up a component-scoped `<style>` block. Neither `Tooltip`
-usage's own visual behavior changed -- only where the CSS/script text lives.
+[Tooltips](tooltips.md) says to use the shared component instead of local tooltip markup, and the MDX/rehype split here follows that: both paths render the exact same `.tooltip`/`.tooltip__trigger`/`.tooltip__content` markup, CSS, and controller script `Tooltip.astro` itself uses -- that CSS and script were moved out of the component (into `src/styles/theme.css` and `src/utils/tooltip/controller.ts`) specifically so this raw, rehype-built HTML can reuse them, since it never runs through Astro's component compiler and so can't pick up a component-scoped `<style>` block. Neither `Tooltip` usage's own visual behavior changed -- only where the CSS/script text lives.

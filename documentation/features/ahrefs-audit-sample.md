@@ -1,8 +1,6 @@
 # Ahrefs audit sample
 
-The Ahrefs audit sampler creates a bounded, rotating URL sample from the built
-XML sitemap. It is for Ahrefs Site Audit projects where a full crawl would use
-too many crawl credits.
+The Ahrefs audit sampler creates a bounded, rotating URL sample from the built XML sitemap. It is for Ahrefs Site Audit projects where a full crawl would use too many crawl credits.
 
 The production build runs the sampler after Astro finishes:
 
@@ -51,20 +49,14 @@ The sampler supports:
 * `sitemaps`: local sitemap files or remote sitemap URLs.
 * `outputFile`: generated URL-list path, relative to the project root.
 * `historyFile`: rotation-state path, relative to the project root.
-* `localSitemapDirectory`: optional build-output directory used to resolve
-  same-origin sitemap links without a network request.
-* `randomSeed`: fixed seed for reproducible test output, or `null` to use the
-  current date.
+* `localSitemapDirectory`: optional build-output directory used to resolve same-origin sitemap links without a network request.
+* `randomSeed`: fixed seed for reproducible test output, or `null` to use the current date.
 * `maxUrls`: hard upper bound for the generated list.
 * `permanentUrls`: URLs that appear in every sample.
-* `siteUrl`: public site origin used when mapping same-origin sitemap index
-  children to local files.
-* `groups`: ordered sampling groups with `name`, `count`, `include`, and
-  `exclude` regular expressions.
+* `siteUrl`: public site origin used when mapping same-origin sitemap index children to local files.
+* `groups`: ordered sampling groups with `name`, `count`, `include`, and `exclude` regular expressions.
 
-Groups are evaluated in order. Once one group selects a URL, later groups do
-not select it again. The history file makes unseen URLs preferred before older
-URLs are reused.
+Groups are evaluated in order. Once one group selects a URL, later groups do not select it again. The history file makes unseen URLs preferred before older URLs are reused.
 
 ## Ahrefs settings
 
@@ -82,5 +74,4 @@ Crawl
     Max internal pages      slightly above sampler maxUrls
 ```
 
-With the default `maxUrls` value of `350`, set Ahrefs' maximum internal pages to
-approximately `350` or `375`.
+With the default `maxUrls` value of `350`, set Ahrefs' maximum internal pages to approximately `350` or `375`.
