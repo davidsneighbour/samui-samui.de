@@ -1,332 +1,148 @@
 <!-- markdownlint-disable-next-line title-case-style -->
 # samui-samui.de
 
-[![Netlify](https://img.shields.io/netlify/49963b4d-bb9f-411f-a9b8-521a5e3a2b42?color=%2300AD9F&logo=netlify&style=for-the-badge)](https://app.netlify.com/sites/samui-samui-de/deploys)
-[![samui-samui.de website status](https://img.shields.io/website?url=https%3A%2F%2Fsamui-samui.de&style=for-the-badge)](https://samui-samui.de)
-[![Latest GitHub release](https://img.shields.io/github/v/release/davidsneighbour/samui-samui.de?color=%23ed1965&logo=github&logoColor=%23ffffff&style=for-the-badge)](https://github.com/davidsneighbour/samui-samui.de/releases/latest)
-[![Latest commit](https://img.shields.io/github/last-commit/davidsneighbour/samui-samui.de?color=%23ff7700&logo=github&style=for-the-badge)](https://github.com/davidsneighbour/samui-samui.de/commits/main)
-![Repository size](https://img.shields.io/github/repo-size/davidsneighbour/samui-samui.de?logo=github&style=for-the-badge)
-[![Open GitHub issues](https://img.shields.io/github/issues/davidsneighbour/samui-samui.de?logo=github&style=for-the-badge)](https://github.com/davidsneighbour/samui-samui.de/issues)
-[![Discord community](https://img.shields.io/discord/936261002306125847?logo=discord&style=for-the-badge)](https://discord.gg/mMEVuwyne)
-[![GitHub Sponsors for davidsneighbour](https://img.shields.io/github/sponsors/davidsneighbour?logo=githubsponsors&style=for-the-badge)](https://github.com/sponsors/davidsneighbour)
+Website source and long-running content archive for [samui-samui.de](https://samui-samui.de), Patrick Kollitsch's German-language site about life on Koh Samui and Thailand. The project is built as a static Astro site, with small focused tools for archive maintenance, content validation, search indexing, and Netlify deployment, so old posts can keep working while the site can still be changed with confidence.
 
-Website and content for [samui-samui.de](https://samui-samui.de).
+* **Static by default.** Astro builds the public site to `dist/`, and Netlify serves it with checked-in headers, redirects, and one contact-form function.
+* **Archive-aware.** Posts live in `src/content/posts/**/index.md`, with separate collections for people, places, events, and topics.
+* **Strict where it matters.** `npm run check` combines Biome formatting, Biome linting, markdownlint, content validation, taxonomy validation, and Vitest.
+* **Documented operations.** Feature and process notes live under [`documentation/`](documentation/index.md), rather than being hidden in scripts.
+* **Generated package manifest.** `package.json` is generated from `src/packages/**/*.jsonc`; edit fragments and run `npm run compile:package` instead of hand-editing the root manifest.
 
-* [Architecture](#architecture)
+---
+
+## Quick example
+
+Create a new post, validate content, and run the full confidence gate:
+
+```bash
+npm run blog:new
+npm run validate
+npm run check
+```
+
+---
+
+## Contents
+
+* [Getting started](#getting-started)
+* [Daily workflow](#daily-workflow)
 * [Content model](#content-model)
-  * [Post covers](#post-covers)
-* [Setup](#setup)
-  * [Environment variables](#environment-variables)
-  * [Netlify deployment, DNS, and functions](#netlify-deployment-dns-and-functions)
-  * [Turnstile captcha](#turnstile-captcha)
-  * [Resend email sending](#resend-email-sending)
-  * [Giscus comments](#giscus-comments)
-* [Local commands](#local-commands)
-  * [Astro and site commands](#astro-and-site-commands)
-  * [Quality gates](#quality-gates)
-  * [Content helpers](#content-helpers)
-  * [Audit helpers](#audit-helpers)
-  * [Generated package maintenance](#generated-package-maintenance)
-  * [Release commands](#release-commands)
-  * [Lifecycle scripts](#lifecycle-scripts)
+* [Documentation](#documentation)
+* [Deployment](#deployment)
+* [Important commands](#important-commands)
 
-## Architecture
+---
 
-This is a quiet, sturdy little static site: [Astro 7](https://astro.build/)
-builds the pages, [Tailwind CSS 4](https://tailwindcss.com/) carries the design
-system, and [Netlify](https://www.netlify.com/) hosts the production site,
-deploy previews, headers, DNS, and serverless functions.
+## Getting started
 
-The content layer is Astro content collections, with long-form posts in
-Markdown and [MDX](https://mdxjs.com/) where richer components are useful.
-[React 19](https://react.dev/) is available for interactive islands and email
-templates, while icons come from [Lucide](https://lucide.dev/) and
-[Iconify](https://iconify.design/). Search is generated at build time with
-[Pagefind](https://pagefind.app/), comments are handled by
-[Giscus](https://giscus.app/), contact-form bot protection uses
-[Cloudflare Turnstile](https://developers.cloudflare.com/turnstile/), and mail
-delivery goes through [Resend](https://resend.com/).
+1. Install the project dependencies:
 
-The maintenance tools are intentionally boring in the best possible way:
-[Biome](https://biomejs.dev/) for code formatting and linting,
-[markdownlint](https://github.com/DavidAnson/markdownlint) for Markdown,
-[cspell](https://cspell.org/) for optional spell checks,
-[Wireit](https://github.com/google/wireit) for generated-package maintenance,
-and [release-it](https://github.com/release-it/release-it) for releases.
+   ```bash
+   npm install
+   ```
+
+2. Start the site and the local documentation server:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Open the local services:
+
+   * Astro site: use the URL printed by `npm run dev`.
+   * Documentation browser: [http://127.0.0.1:4322/](http://127.0.0.1:4322/).
+
+4. Before handing off changes, run:
+
+   ```bash
+   npm run check
+   ```
+
+The install step also runs `prepare`, which installs the Git hooks used by this repository.
+
+---
+
+## Daily workflow
+
+Use `npm run dev` for normal editing. It starts the Astro site and the lightweight documentation server together. Use `npm run dev:site` when only the public site is needed, and `npm run dev:docs` when only the documentation browser is needed.
+
+Use `npm run build` to validate and build production output. Use `npm run preview` after a build to inspect the generated `dist/` output locally.
+
+Use `npm run lint:markdown:fix` or `npm run lint:fix` only when a broad cleanup is intended. Markdown prose in this repository should stay on natural lines; it must not be hard-wrapped to 80 characters.
+
+---
 
 ## Content model
 
-Astro collections are defined in `src/content.config.ts`. Blog posts live as
-`src/content/posts/**/index.md`, people pages live in `src/content/leute/**/_index.md`,
-place pages in `src/content/orte/**/_index.md`, event pages in
-`src/content/ereignisse/**/_index.md`, and topic pages in
-`src/content/themen/**/_index.md`. Standalone pages such as
-contact and privacy live directly under `src/content/`, while `sitewide/` holds
-shared data-only content.
+Astro collections are defined in [`src/content.config.ts`](src/content.config.ts). Blog posts live as `src/content/posts/**/index.md`. People, places, events, and topics live in these German-named collections:
 
-Posts may include an optional `publisher.*` frontmatter block. That metadata is
-only for internal editorial queues and is managed with `npm run publisher --`;
-it is not rendered on the public site.
+* `src/content/leute/**/_index.md`
+* `src/content/orte/**/_index.md`
+* `src/content/ereignisse/**/_index.md`
+* `src/content/themen/**/_index.md`
 
-### Post covers
+Posts can use optional `publisher.*` frontmatter for internal editorial queues. Manage that metadata with `npm run publisher -- <command>` instead of hand-editing many files.
 
-Posts may include optional `cover` frontmatter for local images, YouTube videos,
-or Vimeo videos. See [Post covers](documentation/components/post-covers.md) for
-the supported properties and the
-[Post cover migration plan](documentation/content/post-cover-migration-plan.md)
-for the archive migration workflow.
+Post dates use Thailand time. New or edited `date` and `lastmod` values should use `YYYY-MM-DDTHH:mm:ss+07:00`.
 
-## Setup
+See the focused content docs for details:
 
-Complete the manual setup below before a production deploy through Netlify, the
-Netlify CLI, or any future `npm run deploy` wrapper. The current `package.json`
-does not define a `deploy` script.
+* [Frontmatter variables](documentation/content/frontmatter-variables.md)
+* [Post paths](documentation/content/post-paths.md)
+* [Post metadata](documentation/content/post-metadata.md)
+* [Content taxonomies](documentation/content/taxonomies.md)
+* [Publisher frontmatter](documentation/content/publisher-frontmatter.md)
 
-### Environment variables
+---
 
-Create a local `.env` file for contact-form testing. The file is ignored by Git
-and must never be committed. Mirror the same keys in the Netlify dashboard for
-production and deploy previews that should send real email.
+## Documentation
 
-Required variables:
+The documentation tree is the operating manual for this site. Start with [`documentation/index.md`](documentation/index.md).
 
-<!-- markdownlint-disable MD013 -->
+Main sections:
 
-| Variable | Used by | Notes |
-| --- | --- | --- |
-| `RESEND_API_KEY` | Netlify Function | Secret token from the [Resend API Keys dashboard](https://resend.com/api-keys). Use a sending-scoped key when possible. |
-| `CONTACT_EMAIL_FROM` | Netlify Function | Verified sender address in Resend, usually on the `samui-samui.de` sending domain. |
-| `CONTACT_EMAIL_TO` | Netlify Function | Recipient address for contact form submissions. |
-| `TURNSTILE_SECRET` | Netlify Function | Private secret from the [Cloudflare Turnstile dashboard](https://dash.cloudflare.com/?to=/:account/turnstile). |
-| `TURNSTILE_SITE_KEY` | Astro build | Public site key from the same Turnstile widget. Astro renders it into the contact form. |
+* [`documentation/components/`](documentation/components/) documents reusable rendering surfaces such as post covers, notices, embeds, tooltips, comments, and the masthead.
+* [`documentation/content/`](documentation/content/) documents editorial contracts, frontmatter, post paths, citations, dates, and taxonomies.
+* [`documentation/features/`](documentation/features/) documents user-facing features such as search, archive browsing, maps, the contact form, and the weather widget.
+* Root files in [`documentation/`](documentation/) document repository processes such as deployment, link checking, local development, and quality gates.
 
-Optional variables:
+When a feature changes, update the matching documentation file in the same change set.
 
-| Variable | Default | Notes |
-| --- | --- | --- |
-| `CONTACT_EMAIL_BCC` | none | Comma-separated BCC recipients. |
-| `CONTACT_EMAIL_SUBJECT_PREFIX` | `Samui? Samui!` | Prefix for contact notification subjects. |
-| `CONTACT_EMAIL_TIMEZONE` | `Asia/Bangkok` | IANA time zone for timestamps in notification emails. |
+---
 
-<!-- markdownlint-enable MD013 -->
+## Deployment
 
-Use `npm run dev` for the static Astro site. Use Netlify CLI's `netlify dev`
-when the contact form itself needs to run locally with the Netlify Function.
+Production is hosted on Netlify at [samui-samui.de](https://samui-samui.de). The checked-in [`netlify.toml`](netlify.toml) defines the build command, publish directory, functions directory, and security headers.
 
-### Netlify deployment, DNS, and functions
+`npm run deploy` is the production deployment command. It prints production warnings, shows the current Netlify account, optionally runs `netlify switch`, runs checks, releases when local commits exist after the latest local tag, builds, and then runs `netlify deploy --prod --open`.
 
-The connected Netlify site is
-[samui-samui-de](https://app.netlify.com/sites/samui-samui-de/overview). The
-checked-in `netlify.toml` defines the production build:
+Read [Deployment](documentation/deployment.md) before using the deployment command. A production deploy can publish the current branch to the live website.
 
-* Build command: `npm run build`
-* Publish directory: `dist`
-* Functions directory: `src/netlify/functions`
+The contact form needs Resend and Cloudflare Turnstile environment variables. Keep secrets out of committed files.
 
-Manual Netlify checks before production deploys:
+---
 
-1. Link the local checkout to the existing Netlify site with `netlify link`, or
-   authenticate the CLI with `netlify login`. For non-interactive use, create a
-   Netlify personal access token under
-   [Applications > Personal access tokens](https://app.netlify.com/user/applications#personal-access-tokens)
-   and expose it locally as `NETLIFY_AUTH_TOKEN`.
-2. Confirm deploy settings in the
-   [Netlify deploys dashboard](https://app.netlify.com/sites/samui-samui-de/deploys)
-   and keep them aligned with `netlify.toml`.
-3. Configure production domains, DNS records, HTTPS, and redirects in
-   [Netlify domain management](https://app.netlify.com/sites/samui-samui-de/domain-management).
-   If using Netlify DNS, copy existing records such as mail records before
-   delegating nameservers.
-4. Add the environment variables in
-   [Netlify environment variables](https://app.netlify.com/sites/samui-samui-de/configuration/env).
-   `TURNSTILE_SITE_KEY` must be available to Builds. `RESEND_API_KEY`,
-   `CONTACT_EMAIL_FROM`, `CONTACT_EMAIL_TO`, `TURNSTILE_SECRET`, and the optional
-   contact-email variables must be available to Functions. If the UI does not
-   require explicit scopes, using all scopes is fine.
-5. After changing environment variables, trigger a fresh deploy so the build-time
-   site key and runtime function secrets are both current.
-6. Inspect the
-   [Netlify Functions dashboard](https://app.netlify.com/sites/samui-samui-de/functions)
-   after deployment and submit one real contact-form test from `/kontakt/`.
+## Important commands
 
-### Turnstile captcha
+* `npm run dev` starts the site and documentation server for local editing.
+* `npm run dev:site` starts only Astro.
+* `npm run dev:docs` starts only the documentation browser.
+* `npm run build` validates, builds the static site, creates Pagefind output, and writes the Ahrefs audit sample.
+* `npm run preview` serves the built `dist/` output.
+* `npm run check` runs the complete non-mutating quality gate.
+* `npm run format:check` checks Biome formatting.
+* `npm run format` applies Biome formatting.
+* `npm run lint` runs Biome, markdownlint, and German umlaut entity checks.
+* `npm run lint:markdown` checks Markdown with the shared DNBHQ markdownlint rules.
+* `npm run lint:links` checks content links with the local Lychee wrapper.
+* `npm run lint:umlauts` checks German umlaut HTML entities.
+* `npm run test` runs Vitest.
+* `npm run test:e2e` runs Playwright.
+* `npm run validate` runs Astro content validation and taxonomy validation.
+* `npm run publisher -- <command>` manages internal archive-maintenance metadata.
+* `npm run covers -- <command>` audits or migrates post cover metadata.
+* `npm run compile:package` regenerates `package.json` from package fragments and refreshes install state.
+* `npm run deploy` runs the guarded production Netlify deployment sequence.
 
-Create one Turnstile widget in the
-[Cloudflare Turnstile dashboard](https://dash.cloudflare.com/?to=/:account/turnstile)
-for `samui-samui.de`. Use Managed mode unless there is a specific reason to
-change it, add the production hostname, and add preview/local hostnames only if
-those environments need end-to-end form tests. Copy the widget's site key to
-`TURNSTILE_SITE_KEY` and its secret key to `TURNSTILE_SECRET`.
-
-The contact form loads Turnstile only when `TURNSTILE_SITE_KEY` exists. The
-Netlify Function still requires `TURNSTILE_SECRET` and rejects submissions whose
-Turnstile token cannot be verified.
-
-### Resend email sending
-
-Set up the sending domain or sender identity in the
-[Resend dashboard](https://resend.com/domains), then create the production API
-key in the [Resend API Keys dashboard](https://resend.com/api-keys). The sender
-configured as `CONTACT_EMAIL_FROM` must be allowed by Resend, and
-`CONTACT_EMAIL_TO` should be the mailbox that receives site enquiries.
-If Resend asks for DNS records to verify the sending domain, add them in Netlify
-DNS or the current authoritative DNS provider before deploying.
-
-After the first production deploy with these variables, send one contact-form
-message and verify both the browser success state and the delivered email.
-
-### Giscus comments
-
-`giscus.json` contains the allowed server names/origins where Giscus may load
-for this repository, including the production domain and the local development
-hostnames used by this project.
-
-Manual Giscus checks before production deploys:
-
-1. Enable GitHub Discussions for `davidsneighbour/samui-samui.de`.
-2. Create or confirm the dedicated `Kommentare` discussion category. It must be
-   its own category with the category type set to `Announcements`.
-3. Install or confirm the [giscus GitHub App](https://github.com/apps/giscus) for
-   `davidsneighbour/samui-samui.de`.
-4. Confirm `src/components/Giscus.astro` still matches the public repository,
-   `Kommentare` category, category ID, and pathname mapping expected by the
-   widget.
-5. Keep `giscus.json` aligned with the production and local hostnames that
-   should be allowed to load comments.
-6. Keep the custom Giscus themes in `public/assets/styles/giscus-samui-*.css`
-   aligned with `DESIGN.md`. `src/components/Giscus.astro` resolves those files
-   against the current site origin and switches them when the Samui theme toggle
-   changes. Netlify headers allow `https://giscus.app` to load the theme CSS and
-   Panton webfonts.
-
-## Local commands
-
-Run `npm install` once after cloning, changing Node versions, or updating
-dependencies. The install also runs `prepare`, which installs the Git hooks.
-`package.json` is generated from `src/packages/**/*.jsonc`, so add or change
-scripts in those fragments and regenerate rather than hand-editing the root
-manifest.
-
-There is currently no `npm run deploy` script. Production deploys go through
-Netlify's connected build or the Netlify CLI once the setup above is complete.
-
-### Astro and site commands
-
-* `npm run astro -- <args>` runs Astro directly when a one-off framework command
-  is needed.
-* `npm run astro:check` checks Astro content, frontmatter, and types without
-  producing a site build.
-* `npm run dev` starts the local site and the local documentation server together
-  for day-to-day editing.
-* `npm run dev:site` starts only the Astro site dev server with Astro's normal
-  logging level.
-* `npm run dev:site:verbose` starts only the Astro site dev server with Astro's
-  verbose logging enabled.
-* `npm run dev:docs` starts only the lightweight documentation browser at
-  [http://127.0.0.1:4322/](http://127.0.0.1:4322/).
-* `npm run dev:verbose` starts the combined dev servers with extra frontmatter
-  debugging and Astro's verbose logging enabled.
-* `npm run build` runs the full validation chain, builds the static site for
-  Netlify, including Pagefind search output, and writes the Ahrefs audit sample
-  to `dist/ahrefs-audit-sample.txt`.
-* `npm run build:verbose` runs the same static site build with Astro's verbose
-  logging enabled.
-* `npm run build:nocache` builds the site after forcing Pagefind to rebuild its
-  search index from scratch.
-* `npm run clean:pagefind` clears Pagefind's local cache and generated bundle
-  when search output needs a fresh start.
-* `npm run preview` serves the already-built `dist` directory to inspect
-  production output locally.
-* `npm run upgrade` opens Astro's guided upgrade helper; respect the version
-  constraints in `AGENTS.md` before accepting changes.
-
-### Quality gates
-
-* `npm run check` runs the complete non-mutating confidence gate before pushing
-  or handing off work.
-* `npm run format:check` reports files that do not match the Biome formatter
-  without changing them.
-* `npm run format` applies Biome formatting across the repository.
-* `npm run lint` runs the non-mutating code and Markdown lint checks used inside
-  `check`.
-* `npm run lint:code` reports code-quality issues from Biome without changing
-  files.
-* `npm run lint:code:fix` applies Biome's safe code lint fixes.
-* `npm run lint:markdown` checks Markdown with the shared `@dnbhq` rules while
-  leaving archive and output paths alone.
-* `npm run lint:markdown:fix` applies automatic Markdown fixes with the same
-  shared rules.
-* `npm run lint:links` checks content links in the currently supported content
-  scope.
-* `npm run lint:fix` applies both code and Markdown autofixes for a broad
-  cleanup pass.
-* `npm run lint:spell` runs the optional content spell check; it is intentionally
-  outside `check` and the Git hooks.
-* `npm run lint:staged` runs the staged-file checks used by the pre-commit hook.
-* `npm run test` runs the Vitest suite once for behaviour-level checks.
-* `npm run test:watch` starts Vitest in watch mode while working on tests or
-  test-covered code.
-* `npm run validate` runs the strict content and taxonomy validation chain used
-  by the production build.
-* `npm run validate:content` checks Astro content and types without running
-  taxonomy validation.
-* `npm run validate:taxonomies` validates registered `leute`, `orte`, and
-  `ereignisse` references plus topic metadata rules.
-
-### Content helpers
-
-* `npm run blog:new` creates a correctly placed new post from an interactive
-  prompt or piped title input.
-* `npm run covers -- <command>` audits or migrates post cover metadata during
-  archive-media cleanup work.
-* `npm run publisher -- <command>` manages repo-internal `publisher.*`
-  frontmatter queues; `set` and `unset` require an explicit filter.
-
-### Audit helpers
-
-* `npm run audit:ahrefs` generates the Ahrefs custom URL-list sample from the
-  built sitemap in `dist/sitemap-index.xml`.
-* `npm run audit:ahrefs:dry` previews the same sample without writing the
-  output file or updating local rotation history.
-
-See [Ahrefs audit sample](documentation/features/ahrefs-audit-sample.md) for
-configuration, output, and Ahrefs project settings.
-
-### Generated package maintenance
-
-* `npm run compile:package` rebuilds the generated root manifest from
-  `src/packages/**/*.jsonc` and refreshes the install state.
-* `npm run compile:package:install` runs the install phase used by package
-  generation; this can update `node_modules` and `package-lock.json`.
-* `npm run compile:package:update` audits package fragments against installed
-  versions and reports script or Wireit drift.
-* `npm run compile:fixpack` normalizes generated package metadata after the
-  fragment rebuild.
-* `npm run clean` removes Astro and build caches when local generated output is
-  stale.
-* `npm run clean:full` removes install state, lockfile, Wireit cache, and build
-  caches for a full local reset.
-
-### Release commands
-
-* `npm run release` publishes a real release with changelog, version/tag, and
-  GitHub side effects.
-* `npm run release:dry` previews the release calculation and changelog without
-  writing to Git or GitHub.
-* `npm run release:force` publishes release artifacts without incrementing the
-  package version.
-* `npm run release:major` publishes a release with an explicit major version
-  bump.
-* `npm run release:minor` publishes a release with an explicit minor version
-  bump.
-* `npm run release:patch` publishes a release with an explicit patch version
-  bump.
-
-### Lifecycle scripts
-
-These scripts are normally run by npm or Git hooks rather than by hand:
-
-* `npm run prepare` installs the repository's pre-commit and pre-push hooks after
-  dependency installation.
-
-See `AGENTS.md` for the full command/architecture reference.
+See [Quality gates](documentation/quality-gates.md), [Link checking](documentation/link-checking.md), and [Deployment](documentation/deployment.md) for the longer explanations.
