@@ -1,9 +1,14 @@
 [
   {
     "from": null,
+    "note": "Auf einem alten Screenshot gefunden.",
+    "precision": "unknown",
+    "text": "การก้าวช้าไม่ได้ทำให้คุณไปไม่ถึงจุดหมาย (Going slowly does not mean you will not reach your destination.)"
+  },
+  {
+    "from": null,
     "precision": "unknown",
     "source": {
-      "note": "Der originale Sub-Titel der durch den nächsten Titel ausgetauscht wurde.",
       "reference": "1fe5fbf6d67c15d96af210b05161ad8ff1be5e73",
       "type": "git"
     },
