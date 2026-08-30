@@ -70,5 +70,7 @@
     "statusBar.debuggingBackground": "#e2e2b6",
     "statusBar.debuggingForeground": "#15202b"
   },
-  "peacock.color": "#e2e2b6"
+  "peacock.color": "#e2e2b6",
+  "markdown.extension.print.theme": "dark",
+  "markdown.validate.enabled": false
 }
