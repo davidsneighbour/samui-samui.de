@@ -15,6 +15,13 @@ max_line_length = 120
 intent_style = space
 indent_size = 2
 trim_trailing_whitespace = false
+max_line_length = off
+
+[*.mdx]
+intent_style = space
+indent_size = 2
+trim_trailing_whitespace = false
+max_line_length = off
 
 [*.(yml|yaml)]
 intent_style = space
