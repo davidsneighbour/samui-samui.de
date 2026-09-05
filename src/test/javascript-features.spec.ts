@@ -49,12 +49,12 @@ test('dismissible banner and sound toggle still bind after navigation', async ({
     page.evaluate(() => localStorage.getItem('construction-banner-dismissed')),
   ).resolves.toBe('1');
 
-  const soundToggle = page.getByRole('button', {
-    name: 'Toneffekte deaktivieren',
-  });
+  const soundToggle = page.locator('[data-sound-toggle]');
+  await expect(soundToggle).toHaveAccessibleName('Klangeffekte deaktivieren');
   await expect(soundToggle).toHaveAttribute('data-sound', 'on');
   await soundToggle.click();
   await expect(soundToggle).toHaveAttribute('data-sound', 'off');
+  await expect(soundToggle).toHaveAccessibleName('Klangeffekte aktivieren');
   await expect(
     page.evaluate(() => localStorage.getItem('samui-sound')),
   ).resolves.toBe('off');
