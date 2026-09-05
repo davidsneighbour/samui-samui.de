@@ -24,9 +24,9 @@ Only the homepage lead article renders the full post body and comments. Compact 
 
 ## Balanced media width on compact cards
 
-Compact (non-featured) cards with a cover render as a two-column layout from the `md` breakpoint upward: media on one side, title/meta/excerpt/button on the other, alternating sides by post index (`md:flex-row` / `md:flex-row-reverse`).
+Every compact (non-featured) card renders its title and meta byline as a full-width header first, above everything else. Below that, cards with a cover render a two-column row from the `md` breakpoint upward: media on one side, excerpt/button on the other, alternating sides by post index (`md:flex-row` / `md:flex-row-reverse`). The title/meta header sits outside this row deliberately -- it is not part of the height being balanced, only the excerpt and button are.
 
-The media column's static width is one-third of the row (`md:w-[var(--balanced-media-width,33.333%)]` on the `PostCover` figure). A short excerpt next to a 16:9 video can leave that one-third media noticeably shorter than the content column, so `src/scripts/balanced-media.ts` progressively widens the media column, up to one-half of the row, until the rendered media height approximately matches the rendered content height (within an 8px tolerance).
+The media column's static width is one-third of the row (`md:w-[var(--balanced-media-width,33.333%)]` on the `PostCover` figure). A short excerpt next to a 16:9 video can leave that one-third media noticeably shorter than the excerpt column, so `src/scripts/balanced-media.ts` progressively widens the media column, up to one-half of the row, until the rendered media height approximately matches the rendered excerpt column's height (within an 8px tolerance).
 
 How it works:
 

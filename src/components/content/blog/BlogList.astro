@@ -179,6 +179,18 @@ const showTopPagination = showPagination && pageNumber > 1;
             </article>
           ) : (
             <article class="group rounded-(--radius) border border-transparent bg-card px-4 py-6 text-card-foreground transition-colors duration-200 hover:border-border/60 focus-within:border-border/60 sm:px-6">
+              <header class="mb-4">
+                <BlogPostTitle
+                  title={post.data.title}
+                  href={getPostUrl(post)}
+                  size="compact"
+                />
+                <BlogPostMeta
+                  date={post.data.date}
+                  themen={post.data.themen}
+                  class="mt-2"
+                />
+              </header>
               <div
                 class:list={[
                   'flex flex-col gap-4',
@@ -199,18 +211,6 @@ const showTopPagination = showPagination && pageNumber > 1;
                   />
                 )}
                 <div class="min-w-0 flex-1" data-balanced-media-content={cover ? '' : undefined}>
-                  <header class="mb-3">
-                    <BlogPostTitle
-                      title={post.data.title}
-                      href={getPostUrl(post)}
-                      size="compact"
-                    />
-                    <BlogPostMeta
-                      date={post.data.date}
-                      themen={post.data.themen}
-                      class="mt-2"
-                    />
-                  </header>
                   <div
                     class:list={[proseClasses, 'text-pretty']}
                     set:html={summary}
