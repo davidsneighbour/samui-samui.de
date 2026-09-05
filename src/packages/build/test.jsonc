@@ -1,8 +1,8 @@
 {
   "devDependencies": {
-    "@playwright/mcp": "0.0.79",
-    "@playwright/test": "1.62.1",
-    "vitest": "4.1.11"
+    "@playwright/mcp": "0.0.80",
+    "@playwright/test": "1.63.0",
+    "vitest": "5.0.0"
   },
   "scripts": {
     "test": "vitest run",

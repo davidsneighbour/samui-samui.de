@@ -14,7 +14,8 @@
       "markdownlint": "^0.41.1"
     },
     "sharp": "0.35.4",
-    "tar": "7.5.22"
+    "tar": "7.5.22",
+    "toml": "4.2.0"
   },
   "scripts": {
     "compile:fixpack": "wireit",

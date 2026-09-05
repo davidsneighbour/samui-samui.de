@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "netlify-cli": "27.4.1"
+    "netlify-cli": "27.5.0"
   },
   "scripts": {
     "deploy": "node ./src/scripts/deploy.ts"
