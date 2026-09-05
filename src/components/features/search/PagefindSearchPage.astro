@@ -36,7 +36,12 @@ import PagefindSearchPageQuery from '@components/features/search/PagefindSearchP
 </section>
 <PagefindSearchPageQuery />
 
-<script is:inline>
+<!-- data-astro-rerun: the query-string bridge must run after every
+     view-transition navigation to /suche/?q=..., not only after a hard load. -->
+<script
+  is:inline
+  data-astro-rerun
+>
   (() => {
     const shouldFocus = window.matchMedia(
       '(hover: hover) and (pointer: fine)',

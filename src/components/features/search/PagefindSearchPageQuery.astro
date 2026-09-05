@@ -5,13 +5,25 @@
   import { getInstanceManager } from '@pagefind/component-ui';
   import { trackPagefindSearch } from '@scripts/analytics/track-pagefind-search';
 
-  trackPagefindSearch(getInstanceManager().getInstance('search-page'));
+  const instance = getInstanceManager().getInstance('search-page');
+  trackPagefindSearch(instance);
 
-  window.addEventListener('DOMContentLoaded', () => {
+  const triggerQuerySearch = () => {
     const query = new URLSearchParams(window.location.search).get('q');
     if (!query) return;
 
-    const instance = getInstanceManager().getInstance('search-page');
     instance.triggerSearch(query);
+  };
+
+  if (document.readyState === 'loading') {
+    window.addEventListener('DOMContentLoaded', triggerQuerySearch, {
+      once: true,
+    });
+  } else {
+    triggerQuerySearch();
+  }
+
+  document.addEventListener('astro:page-load', triggerQuerySearch, {
+    once: true,
   });
 </script>
