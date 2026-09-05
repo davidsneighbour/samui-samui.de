@@ -258,6 +258,69 @@ html {
   font-family: var(--font-sans);
 }
 
+/*
+ * Pagefind's bundled focus styles leave the browser's native (blue) focus
+ * outline in place alongside their own border/box-shadow treatment, so
+ * clicking into a search box shows a blue ring even though the rest of the
+ * theme is tan/maroon. Suppress the native outline and replace it with a
+ * `--color-primary` ring that animates slowly around the input instead of
+ * sitting static. Pagefind boosts its own selector specificity with a
+ * `:is(*, #\#)` repeat-ID hack, so `!important` is needed to win here.
+ */
+@property --pf-focus-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.pf-input-wrapper,
+.pf-searchbox-input-wrapper {
+  position: relative;
+}
+
+.pf-input:focus,
+.pf-input:focus-visible,
+.pf-searchbox-input:focus,
+.pf-searchbox-input:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.pf-input-wrapper::after,
+.pf-searchbox-input-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: calc(var(--pf-border-radius) + 2px);
+  padding: 2px;
+  background: conic-gradient(
+    from var(--pf-focus-angle),
+    transparent 0deg,
+    var(--color-primary) 90deg,
+    transparent 180deg
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+
+.pf-input-wrapper:focus-within::after,
+.pf-searchbox-input-wrapper:focus-within::after {
+  opacity: 1;
+  animation: pf-focus-ring-spin 2.5s linear infinite;
+}
+
+@keyframes pf-focus-ring-spin {
+  to {
+    --pf-focus-angle: 360deg;
+  }
+}
+
 /* Pagefind's component UI caps `.pf-searchbox` at `--pf-searchbox-max-width`
    (480px) by default. On the archive overview the search box sits in a full-
    width section next to a heading/paragraph that aren't capped, so it reads
