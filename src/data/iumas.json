@@ -1,0 +1,54 @@
+[
+  {
+    "from": null,
+    "note": "Auf einem alten Screenshot gefunden.",
+    "precision": "unknown",
+    "type": "subtitle",
+    "value": "การก้าวช้าไม่ได้ทำให้คุณไปไม่ถึงจุดหมาย (Going slowly does not mean you will not reach your destination.)"
+  },
+  {
+    "from": null,
+    "precision": "unknown",
+    "source": {
+      "reference": "1fe5fbf6d67c15d96af210b05161ad8ff1be5e73",
+      "type": "git"
+    },
+    "type": "subtitle",
+    "value": "Notizen über mein Leben als Auswanderer auf Koh Samui, Thailand"
+  },
+  {
+    "from": "2019-07-04",
+    "precision": "day",
+    "source": {
+      "reference": "1fe5fbf6d67c15d96af210b05161ad8ff1be5e73",
+      "type": "git"
+    },
+    "type": "subtitle",
+    "value": "David's Neighbour's Notizen über sein Leben als Auswanderer auf der Insel Koh Samui in Thailand. Auf Deutsch, und so..."
+  },
+  {
+    "from": "2026-08-29",
+    "precision": "day",
+    "type": "subtitle",
+    "value": "Notizen. Unsortiert."
+  },
+  {
+    "from": null,
+    "note": "Aktuelle Domain. Frühere Domains (u. a. schreibbloga.de) werden noch nachgetragen.",
+    "precision": "unknown",
+    "type": "title",
+    "value": "samui-samui.de"
+  },
+  {
+    "alt": "Aktuelles Kopfbild des Blogs, in den Blogtitel eingeblendet.",
+    "from": "2019-06-07",
+    "note": "Datum aus den EXIF-Metadaten der Bilddatei. Frühere Kopfbilder werden noch nachgetragen.",
+    "precision": "day",
+    "source": {
+      "note": "EXIF-Erstellungsdatum der Datei header-201906.jpg.",
+      "type": "other"
+    },
+    "type": "image",
+    "value": "/assets/header/header-201906.jpg"
+  }
+]

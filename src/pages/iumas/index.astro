@@ -1,0 +1,256 @@
+---
+import {
+  getIumasTimeline,
+  IUMAS_TYPE_LABELS,
+  type IumasEntryType,
+} from '@data/iumas';
+import PageLayout from '@layouts/PageLayout.astro';
+import { Diamond, Heading, Heading2, Image as ImageIcon } from '@lucide/astro';
+
+const timeline = getIumasTimeline();
+
+// One icon per lane -- see scratch/IUMAS.md "Node differentiation". The
+// type label text (rendered below) is what actually carries the meaning;
+// these are decorative and marked aria-hidden at the call site.
+const iconByType: Record<IumasEntryType, typeof Heading> = {
+  image: ImageIcon,
+  logo: Diamond,
+  subtitle: Heading2,
+  title: Heading,
+};
+---
+
+<PageLayout
+  title="IUMAS"
+  description="Samui rückwärts: Titel, Untertitel, Logos und Kopfbilder, die im Laufe der Jahre hier aufgetaucht sind."
+>
+  <p class="mb-4 text-card-foreground">Samui rückwärts.</p>
+  <p class="mb-10 text-card-foreground">
+    Titel, Untertitel, Logos und Kopfbilder, die hier im Laufe der Jahre
+    aufgetaucht sind. Soweit das alles noch rekonstruierbar ist.
+  </p>
+
+  <div class="iumas-graph relative">
+    <div
+      class="iumas-rails"
+      aria-hidden="true"
+    />
+    <ol class="iumas-list space-y-8">
+      {timeline.map((entry) => {
+          const Icon = iconByType[entry.type];
+          return (
+            <li class:list={['iumas-row', `iumas-row--${entry.type}`]}>
+              <div class="iumas-node-cell" aria-hidden="true">
+                <span class="iumas-node">
+                  <Icon class="size-3" />
+                </span>
+                <span class="iumas-connector" />
+              </div>
+              <div class="iumas-content min-w-0">
+                <p class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm font-medium text-muted-foreground">
+                  <span class="iumas-type-label">
+                    {IUMAS_TYPE_LABELS[entry.type]}
+                  </span>
+                  <span aria-hidden="true">·</span>
+                  <span>{entry.displayPeriod}</span>
+                  {entry.isCurrent && (
+                    <span class="rounded-full bg-primary/15 px-2 py-0.5 text-xs font-medium text-primary">
+                      aktuell
+                    </span>
+                  )}
+                </p>
+
+                {entry.type === 'image' ? (
+                  <img
+                    src={entry.value}
+                    alt={entry.alt ?? ''}
+                    loading="lazy"
+                    decoding="async"
+                    class="mt-2 max-h-40 w-auto max-w-full rounded-(--radius) border border-border object-contain"
+                  />
+                ) : (
+                  <p class="mt-1 text-lg text-card-foreground">
+                    „{entry.value}“
+                  </p>
+                )}
+
+                {entry.note && (
+                  <p class="mt-1 text-sm text-muted-foreground">
+                    {entry.note}
+                  </p>
+                )}
+                {entry.source && (
+                  <p class="mt-1 text-xs text-muted-foreground">
+                    Quelle:{' '}
+                    {entry.sourceUrl ? (
+                      <a
+                        href={entry.sourceUrl}
+                        class="text-link hover:underline"
+                      >
+                        {entry.source.type}
+                      </a>
+                    ) : (
+                      entry.source.type
+                    )}
+                    {entry.source.note && ` – ${entry.source.note}`}
+                  </p>
+                )}
+              </div>
+            </li>
+          );
+        })}
+    </ol>
+  </div>
+</PageLayout>
+
+<style>
+  /*
+   * Four-lane, Git-graph-inspired history graph. Not a real Git graph --
+   * see scratch/IUMAS.md "Core visual change": no merges, no branches, no
+   * parent relationships, just four fixed lanes with one node per event.
+   *
+   * The rails are one absolutely positioned layer spanning the whole list
+   * (not per-row), so they stay visually continuous through the vertical
+   * gaps between <li>s. z-index: -1 keeps them behind row content without
+   * needing every row to opt into its own stacking context -- but only
+   * because .iumas-graph itself gets an explicit z-index below, which
+   * makes it a stacking context of its own. Without that, "relative" alone
+   * doesn't establish one, and the -1 rails escape all the way behind the
+   * page background instead of just behind the row content.
+   */
+  .iumas-graph {
+    position: relative;
+    z-index: 0;
+    --iumas-graph-width: 4.5rem;
+    --iumas-lane-title: 0.5rem;
+    --iumas-lane-logo: 1.75rem;
+    --iumas-lane-subtitle: 3rem;
+    --iumas-lane-image: 4.25rem;
+    /* Distance between two lanes -- the connector end-dot sits half this
+       far past the fourth (image) rail, so it reads as its own mark
+       rather than crowding the line. */
+    --iumas-lane-gap: 1.25rem;
+  }
+
+  .iumas-rails {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    width: var(--iumas-graph-width);
+    background-repeat: no-repeat;
+    background-image:
+      linear-gradient(var(--iumas-title), var(--iumas-title)),
+      linear-gradient(var(--iumas-logo), var(--iumas-logo)),
+      linear-gradient(var(--iumas-subtitle), var(--iumas-subtitle)),
+      linear-gradient(var(--iumas-image), var(--iumas-image));
+    background-size: 2px 100%;
+    background-position:
+      var(--iumas-lane-title) 0,
+      var(--iumas-lane-logo) 0,
+      var(--iumas-lane-subtitle) 0,
+      var(--iumas-lane-image) 0;
+  }
+
+  .iumas-row {
+    display: grid;
+    grid-template-columns: var(--iumas-graph-width) 1fr;
+    column-gap: calc(1rem + var(--iumas-lane-gap) / 2);
+  }
+
+  .iumas-node-cell {
+    position: relative;
+    width: var(--iumas-graph-width);
+  }
+
+  .iumas-node {
+    position: absolute;
+    top: 0.4rem;
+    left: var(--iumas-lane-x);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.1rem;
+    height: 1.1rem;
+    color: var(--color-card);
+    background-color: var(--iumas-lane-color);
+    border: 2px solid var(--color-card);
+    border-radius: 9999px;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Image events keep a square badge -- the one shape distinction called
+     out in scratch/IUMAS.md; the other three lanes differ by icon only. */
+  .iumas-row--image .iumas-node {
+    border-radius: 3px;
+  }
+
+  .iumas-connector {
+    position: absolute;
+    top: 0.4rem;
+    left: var(--iumas-lane-x);
+    width: calc(100% - var(--iumas-lane-x) + var(--iumas-lane-gap) / 2);
+    height: 2px;
+    background-color: var(--iumas-lane-color);
+    transform: translateY(-50%);
+  }
+
+  /* Marks where the connector meets the event's title/content row -- sits
+     half a lane-width past the fourth rail, not flush against it. */
+  .iumas-connector::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: var(--iumas-lane-color);
+    border-radius: 9999px;
+    transform: translate(50%, -50%);
+  }
+
+  .iumas-row--title {
+    --iumas-lane-x: var(--iumas-lane-title);
+    --iumas-lane-color: var(--iumas-title);
+  }
+
+  .iumas-row--logo {
+    --iumas-lane-x: var(--iumas-lane-logo);
+    --iumas-lane-color: var(--iumas-logo);
+  }
+
+  .iumas-row--subtitle {
+    --iumas-lane-x: var(--iumas-lane-subtitle);
+    --iumas-lane-color: var(--iumas-subtitle);
+  }
+
+  .iumas-row--image {
+    --iumas-lane-x: var(--iumas-lane-image);
+    --iumas-lane-color: var(--iumas-image);
+  }
+
+  .iumas-type-label {
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 575px) {
+    .iumas-graph {
+      --iumas-graph-width: 2.75rem;
+      --iumas-lane-title: 0.375rem;
+      --iumas-lane-logo: 1rem;
+      --iumas-lane-subtitle: 1.625rem;
+      --iumas-lane-image: 2.25rem;
+      --iumas-lane-gap: 0.625rem;
+    }
+
+    .iumas-row {
+      column-gap: calc(0.625rem + var(--iumas-lane-gap) / 2);
+    }
+
+    .iumas-node {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+</style>

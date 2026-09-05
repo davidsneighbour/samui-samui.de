@@ -3,8 +3,8 @@ import PagefindComponentUi from '@components/features/search/PagefindComponentUi
 import ConstructionBanner from '@components/layout/header/ConstructionBanner.astro';
 import HeaderLink from '@components/layout/header/HeaderLink.astro';
 import ThemeToggle from '@components/layout/header/ThemeToggle.astro';
+import { getCurrentIumasValue } from '@data/iumas';
 import setup from '@data/setup.json';
-import { currentTagline } from '@data/taglines';
 import {
   AtSign,
   Birdhouse,
@@ -17,6 +17,7 @@ const navLinkClass =
   'px-1.5 py-1 text-foreground/85 hover:text-primary sm:px-2';
 const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
   setup.title.split(' ');
+const currentSubtitle = getCurrentIumasValue('subtitle');
 ---
 
 <a
@@ -55,9 +56,9 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
       </span>
     </a>
     <div class="masthead__tagline-wrap">
-      <span class="masthead__tagline">{currentTagline.text}</span>
+      <span class="masthead__tagline">{currentSubtitle?.value}</span>
       <a
-        href="/taglines/"
+        href="/iumas/"
         class="masthead__tagline-info"
         aria-label="Frühere Beschreibungen dieses Blogs anzeigen"
       >

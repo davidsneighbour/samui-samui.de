@@ -36,6 +36,7 @@
 * [Ahrefs audit sample](features/ahrefs-audit-sample.md) documents the generated custom URL-list sample used for Ahrefs Site Audit crawls.
 * [Blog archive](features/archiv.md) documents the chronological archive, topic index, indexing choices, and archive data model.
 * [Contact form](features/contact-form.md) documents contact-form rendering and Turnstile disclaimer styling.
+* [IUMAS](features/iumas.md) documents the four-lane title/subtitle/logo/image history graph at `/iumas/` (formerly `/taglines/`).
 * [Interactive maps](features/maps.md) records the MapLibre/OpenFreeMap map stack and data contracts.
 * [Life timeline map](features/life-timeline.md) documents the experimental `/timeline/` animated life-timeline map, its sparse-year data schema, and the 2005 plane-journey animation.
 * [Life timeline authoring guide](features/life-timeline-authoring.md) is a copy-paste-driven guide to registering places and authoring real timeline entries (simple years, periods, multi-location years, journeys, the finale).

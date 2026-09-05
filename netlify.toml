@@ -15,6 +15,11 @@ to = "/.netlify/functions/weather"
 status = 200
 
 [[redirects]]
+from = "/taglines/"
+to = "/iumas/"
+status = 301
+
+[[redirects]]
 from = "/tags/"
 to = "/themen/"
 status = 301
