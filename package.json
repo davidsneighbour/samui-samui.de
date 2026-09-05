@@ -13,6 +13,7 @@
   "dependencies": {
     "@astrojs/react": "6.0.5",
     "@dnbhq/tsconfig": "0.1.6",
+    "@fontsource-variable/anuphan": "5.3.0",
     "@pagefind/component-ui": "1.5.2",
     "@tailwindcss/typography": "0.5.20",
     "@tailwindcss/vite": "4.3.3",
