@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.12.0](https://github.com/davidsneighbour/samui-samui/compare/v2.11.0...v2.12.0) (2026-09-05)
+
+### Feat
+
+* **iumas:** replace /taglines/ with a four-lane title/subtitle/logo/image history ([3be5090](https://github.com/davidsneighbour/samui-samui/commit/3be50901dbd05dbcc8ab39e01734a33355ef0ca4))
+
 ## [2.11.0](https://github.com/davidsneighbour/samui-samui/compare/v2.10.0...v2.11.0) (2026-09-05)
 
 ### Content
