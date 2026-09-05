@@ -18,9 +18,14 @@ import { cn } from '@utils/cn';
 const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
 ---
 
+<!-- data-astro-rerun: without it, Turnstile's implicit auto-render only
+     scans the DOM once, so the widget never (re-)initializes for the
+     freshly swapped-in form after a client-side (view-transition)
+     navigation to this page. -->
 {turnstileSiteKey && (
     <script
       is:inline
+      data-astro-rerun
       src="https://challenges.cloudflare.com/turnstile/v0/api.js"
       async
       defer
@@ -181,7 +186,14 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
   }
 </style>
 
-<script is:inline>
+<!-- data-astro-rerun: without it, this script only runs on the very first
+     page load, so field validation, Turnstile callbacks, and AJAX submission
+     wiring never reattach for the freshly swapped-in form after a
+     client-side (view-transition) navigation to this page. -->
+<script
+  is:inline
+  data-astro-rerun
+>
   const form = document.querySelector('[data-contact-form]');
   const status = form?.querySelector('[data-form-status]');
   const statusText = status?.querySelector('[data-form-status-text]');
