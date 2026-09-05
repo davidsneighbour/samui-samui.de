@@ -64,7 +64,7 @@ Do this once per distinct place, then reference the slug as many times as needed
 
 Two things are currently marked as placeholders and should be replaced with your real data as you go — see [Life timeline map § Placeholders still requiring real values](life-timeline.md#placeholders-still-requiring-real-values):
 
-1. `todo-birthplace` in `map-points.json` — currently Null Island (0°N 0°O), explicitly labeled `TODO_ORIGIN_BEFORE_THAILAND`. Update its `latitude`/`longitude`/`title`/`description` to the real 1974 origin. Nothing in `life-timeline.json` needs to change — it already references this slug, so updating the coordinates here is the only edit needed.
+1. `todo-birthplace` in `map-points.json` — currently Null Island (0°N 0°O), with a visitor-facing placeholder title of "Herkunftsort (noch nicht dokumentiert)". Update its `latitude`/`longitude`/`title`/`description` to the real 1974 origin. Nothing in `life-timeline.json` needs to change — it already references this slug, so updating the coordinates here is the only edit needed.
 2. The 2005 entry's journey `route.from` also points at `todo-birthplace` — update it at the same time, or point it at a different registered slug if the actual pre-Thailand departure point differs from the birthplace.
 
 ## Recipe: a simple one-year event

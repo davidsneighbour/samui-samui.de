@@ -71,7 +71,7 @@ The current sample data (`src/data/life-timeline.json`) intentionally has **only
 
 ## Placeholders still requiring real values
 
-* `todo-birthplace` (`src/data/map-points.json`) — a placeholder map point at Null Island (0°N 0°O), explicitly marked as `TODO_ORIGIN_BEFORE_THAILAND` in its title/description. Replace its `latitude`/`longitude` with the real origin once known — no other file needs to change, since the timeline only references it by slug.
+* `todo-birthplace` (`src/data/map-points.json`) — a placeholder map point at Null Island (0°N 0°O), with a visitor-facing title of "Herkunftsort (noch nicht dokumentiert)" and `tags: ["placeholder", "todo"]` marking it internally. Replace its `latitude`/`longitude`/`title`/`description` with the real origin once known — no other file needs to change, since the timeline only references it by slug.
 * The 2005 entry's `currentLocation: true` reuses the existing `dnb-hq` map point (tagged `menow` — "me, now" — in `map-points.json`) as both the Thailand arrival point and the present-day finale, since no later relocation is documented. If a later move is ever authored, add a new entry and move `currentLocation: true` to it.
 
 ## Camera configuration
