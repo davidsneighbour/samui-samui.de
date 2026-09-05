@@ -22,7 +22,7 @@ const facebookUrl = `https://www.facebook.com/sharer/sharer.php?${new URLSearchP
   },
 )}`;
 
-const twitterUrl = `https://twitter.com/intent/tweet?${new URLSearchParams({
+const xUrl = `https://x.com/intent/tweet?${new URLSearchParams({
   hashtags: 'samui,thailand',
   url: url.toString(),
   via: 'samui2',
@@ -40,12 +40,12 @@ const twitterUrl = `https://twitter.com/intent/tweet?${new URLSearchParams({
     Facebook
   </Button>
   <Button
-    href={twitterUrl}
+    href={xUrl}
     variant="outline"
     size="sm"
     target="_blank"
     rel="noopener noreferrer"
   >
-    Twitter
+    X
   </Button>
 </p>
