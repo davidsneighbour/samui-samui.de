@@ -1,0 +1,84 @@
+---
+// Lets a visitor opt out of the Matomo tracking configured in Analytics.astro,
+// per the target model in scratch/DATAPRIVACY.md ("Opt-out-Möglichkeit
+// bereitstellen"). Uses Matomo's own documented `optUserOut`/
+// `forgetUserOptOut`/`isUserOptedOut` JS API (see
+// documentation/components/analytics.md) rather than a custom cookie/storage
+// mechanism, so the choice is recognised by the same Matomo instance that
+// does the tracking.
+import { buttonVariants } from '@components/ui/button.astro';
+---
+
+<div
+  data-matomo-optout
+  class="not-prose mt-4 flex flex-col items-start gap-2"
+>
+  <p
+    data-matomo-optout-status
+    role="status"
+  >
+    Ihr Opt-out-Status wird geladen …
+  </p>
+  <button
+    type="button"
+    data-matomo-optout-toggle
+    class={buttonVariants({ size: 'sm', variant: 'outline' })}
+    disabled
+  >
+    Lädt …
+  </button>
+</div>
+
+<!-- data-astro-rerun: without it, this script only runs on the very first
+     page load, so the opt-out status and button never (re-)initialize after
+     a client-side (view-transition) navigation to this page. -->
+<script
+  is:inline
+  data-astro-rerun
+>
+  (() => {
+    const container = document.querySelector('[data-matomo-optout]');
+    if (!container) return;
+
+    const status = container.querySelector('[data-matomo-optout-status]');
+    const button = container.querySelector('[data-matomo-optout-toggle]');
+    if (
+      !(status instanceof HTMLElement) ||
+      !(button instanceof HTMLButtonElement)
+    ) {
+      return;
+    }
+
+    window._paq = window._paq || [];
+
+    function render(optedOut) {
+      status.textContent = optedOut
+        ? 'Sie haben der Erfassung durch Matomo widersprochen. Ihr Besuch wird nicht erfasst.'
+        : 'Ihr Besuch wird aktuell anonym über Matomo erfasst (siehe oben).';
+      button.textContent = optedOut
+        ? 'Erfassung wieder zulassen'
+        : 'Der Erfassung widersprechen';
+      button.disabled = false;
+    }
+
+    window._paq.push([
+      function () {
+        render(this.isUserOptedOut());
+      },
+    ]);
+
+    button.addEventListener('click', () => {
+      button.disabled = true;
+      window._paq.push([
+        function () {
+          if (this.isUserOptedOut()) {
+            this.forgetUserOptOut();
+          } else {
+            this.optUserOut();
+          }
+          render(this.isUserOptedOut());
+        },
+      ]);
+    });
+  })();
+</script>

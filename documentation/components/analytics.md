@@ -1,6 +1,8 @@
 # Analytics
 
-`Analytics.astro` renders the Matomo tracking snippet, reading `matomoHost` and `matomoSiteId` from `src/data/setup.json`. It is included from `Footer.astro`, intentionally last in the page — see AGENTS.md § Analytics for why the include position must not move.
+`Analytics.astro` renders the Matomo tracking snippet, reading `matomoHost` and `matomoSiteId` from `src/data/setup.json`. It is included from `Footer.astro`, intentionally last in the page, and only in production builds (`import.meta.env.PROD`) — see AGENTS.md § Analytics for why the include position must not move.
+
+`MatomoOptOut.astro`, rendered on the Datenschutz page (`src/pages/kleingedrucktes/datenschutzerklaerung.mdx`), lets a visitor opt out of tracking via Matomo's own `optUserOut`/`forgetUserOptOut`/`isUserOptedOut` JS API, pushed onto the same `_paq` queue `Analytics.astro` uses. Matomo persists the choice itself (a `mtm_consent_removed` cookie set outside the `disableCookies` tracking-cookie restriction) so it survives future visits; the component does not implement its own storage. Because `Analytics.astro` only runs in production, the opt-out control only reaches a working Matomo tracker in production/preview builds, not `astro dev`.
 
 ## Matomo tracking references
 

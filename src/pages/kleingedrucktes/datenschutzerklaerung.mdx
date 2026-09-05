@@ -5,6 +5,7 @@ lastmod: 2026-08-29T00:00:00+07:00
 
 import PageLayout from '@layouts/PageLayout.astro';
 import Person from '@components/content/person/Person.astro';
+import MatomoOptOut from '@components/features/analytics/MatomoOptOut.astro';
 import { proseClasses } from '@utils/prose';
 
 <PageLayout title={frontmatter.title} description={frontmatter.description ?? frontmatter.title}>
@@ -64,6 +65,10 @@ Diese Daten fallen technisch bedingt bei jedem Website-Aufruf an. Wir selbst wer
 Wir nutzen auf unserer Seite den Webanalysedienst Matomo, eine selbst betriebene, quelloffene Alternative zu Google Analytics. Matomo wird von uns auf einem eigenen Server (analytics.dnbhub.xyz) betrieben; es findet keine Übermittlung der erhobenen Daten an Dritte statt.
 
 Matomo ist bei uns so konfiguriert, dass es keine Cookies setzt und die "Do Not Track"-Einstellung Ihres Browsers respektiert. Erfasst werden unter anderem aufgerufene Seiten, Referrer-URL, Browsertyp und Ihre IP-Adresse zum Zeitpunkt des Zugriffs, ausschließlich zu dem Zweck, die Nutzung unserer Seite statistisch auszuwerten und unser Angebot zu verbessern. Nutzen Sie die interne Suche auf unserer Seite, wird zusätzlich Ihr eingegebener Suchbegriff samt Anzahl der gefundenen Treffer an Matomo übermittelt.
+
+Sie können der Erfassung durch Matomo jederzeit über den folgenden Schalter widersprechen. Ihre Wahl wird dazu von Matomo selbst in Ihrem Browser hinterlegt, damit sie auch bei künftigen Besuchen erhalten bleibt.
+
+<MatomoOptOut />
 
 ## Kontaktformular
 
