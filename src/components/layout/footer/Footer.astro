@@ -55,7 +55,32 @@ const today = new Date();
     />
     <span class="sr-only">Copyright</span>
     <span>
-      2005 bis {today.getFullYear()} Patrick Kollitsch. Alle Rechte vorbehalten.
+      <span class="copyright-years">
+        2005 bis {today.getFullYear()}
+        <svg
+          class="copyright-arrow"
+          viewBox="0 0 160 24"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+        >
+          <path
+            pathLength="1"
+            class="stroke-1"
+            d="M8,6 C34,19 66,20 92,11 C112,4 128,3 148,9"
+          />
+          <path
+            pathLength="1"
+            class="stroke-2"
+            d="M148,9 L135,2"
+          />
+          <path
+            pathLength="1"
+            class="stroke-3"
+            d="M148,9 L139,17"
+          />
+        </svg>
+      </span>
+      Patrick Kollitsch. Alle Rechte vorbehalten.
     </span>
   </p>
   <nav
@@ -141,6 +166,66 @@ const today = new Date();
   @media (prefers-reduced-motion: reduce) {
     .sound-toggle__icon {
       transition: none;
+    }
+  }
+
+  .copyright-years {
+    position: relative;
+    display: inline-block;
+  }
+
+  .copyright-arrow {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0.85em;
+    overflow: visible;
+    pointer-events: none;
+    color: var(--color-primary);
+  }
+
+  .copyright-arrow path {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    opacity: 0.7;
+  }
+
+  .copyright-years:hover .stroke-1,
+  .copyright-years:focus-visible .stroke-1 {
+    animation: draw-copyright-arrow 320ms ease-out forwards;
+  }
+
+  .copyright-years:hover .stroke-2,
+  .copyright-years:focus-visible .stroke-2 {
+    animation: draw-copyright-arrow 140ms ease-out 260ms forwards;
+  }
+
+  .copyright-years:hover .stroke-3,
+  .copyright-years:focus-visible .stroke-3 {
+    animation: draw-copyright-arrow 140ms ease-out 360ms forwards;
+  }
+
+  @keyframes draw-copyright-arrow {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .copyright-arrow path {
+      stroke-dashoffset: 1;
+      animation: none !important;
+    }
+
+    .copyright-years:hover .copyright-arrow path,
+    .copyright-years:focus-visible .copyright-arrow path {
+      stroke-dashoffset: 0;
     }
   }
 </style>
