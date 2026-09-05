@@ -1,5 +1,63 @@
 # Changelog
 
+## [2.11.0](https://github.com/davidsneighbour/samui-samui/compare/v2.10.0...v2.11.0) (2026-09-05)
+
+### Content
+
+* **privacy:** correct in-body Vimeo embed description ([9139149](https://github.com/davidsneighbour/samui-samui/commit/9139149e271e6fb53e1bf39dec1af0b6196909c1)), closes [#1699](https://github.com/davidsneighbour/samui-samui/issues/1699)
+* **privacy:** document the Dropbox file-request link ([3a8a839](https://github.com/davidsneighbour/samui-samui/commit/3a8a839de7c12a4590e2170e340289ead6ac651f)), closes [#1700](https://github.com/davidsneighbour/samui-samui/issues/1700)
+* **privacy:** list all first-party local storage keys ([050b1f7](https://github.com/davidsneighbour/samui-samui/commit/050b1f7d60dda344fcd9f8c7fce36db27610010f)), closes [#1695](https://github.com/davidsneighbour/samui-samui/issues/1695)
+* **privacy:** mention browser-side weather cache ([2c02fdd](https://github.com/davidsneighbour/samui-samui/commit/2c02fdd41fb35bfa9d4a35d32c77c68742fea089)), closes [#1696](https://github.com/davidsneighbour/samui-samui/issues/1696)
+
+### Feat
+
+* add robots.txt generation ([be2bc25](https://github.com/davidsneighbour/samui-samui/commit/be2bc25eae3703937c8ae182f349858a445fa1a4))
+* **blog-list:** dynamically balance media/content height on compact cards ([a1996d7](https://github.com/davidsneighbour/samui-samui/commit/a1996d79efb21f5f5b535731a02f6ac82a98b88b)), closes [#1705](https://github.com/davidsneighbour/samui-samui/issues/1705)
+* **privacy:** add Matomo opt-out control ([b06b9d0](https://github.com/davidsneighbour/samui-samui/commit/b06b9d0743f46dbc9caf656706b3dba3bd2d8875)), closes [#1694](https://github.com/davidsneighbour/samui-samui/issues/1694)
+
+### Instructions
+
+* stop wrapping markdown prose ([efcf4d4](https://github.com/davidsneighbour/samui-samui/commit/efcf4d4cff2588a6544e4a66ef23303ff6fcbd27)), references [#1691](https://github.com/davidsneighbour/samui-samui/issues/1691)
+
+### Fix
+
+* **blog-list:** move title/meta above the balanced media row ([4f1a65b](https://github.com/davidsneighbour/samui-samui/commit/4f1a65b8db2ea3f743a502defa9f2200fc567511)), references [#1705](https://github.com/davidsneighbour/samui-samui/issues/1705)
+* **blog-list:** vertically center balanced media instead of top-aligning ([be78a7c](https://github.com/davidsneighbour/samui-samui/commit/be78a7c3aa2130627842259c11920f47223a6c2b)), references [#1705](https://github.com/davidsneighbour/samui-samui/issues/1705)
+* **contact:** re-run contact form scripts after view transitions ([f58634d](https://github.com/davidsneighbour/samui-samui/commit/f58634d9a7c96d9a90473fdd0641e76ce8588db5)), closes [#1701](https://github.com/davidsneighbour/samui-samui/issues/1701)
+* **deps:** resolve Dependabot transitive alerts ([18de478](https://github.com/davidsneighbour/samui-samui/commit/18de478dd81525ec028257996738d04897cb6b6b)), references [#1690](https://github.com/davidsneighbour/samui-samui/issues/1690)
+* **deps:** resolve GHSA-v5mp-jgw5-2x6j in toml via overrides ([3c62795](https://github.com/davidsneighbour/samui-samui/commit/3c627958d5d24f231645fb3cf09948f7d83a0b57)), closes [#333](https://github.com/davidsneighbour/samui-samui/issues/333) [#334](https://github.com/davidsneighbour/samui-samui/issues/334), references [#333](https://github.com/davidsneighbour/samui-samui/issues/333) [#334](https://github.com/davidsneighbour/samui-samui/issues/334)
+* **footer:** extend garuda separator lines ([4987aff](https://github.com/davidsneighbour/samui-samui/commit/4987aff705e90527b78aff49483d77795092a3ec)), closes [#1704](https://github.com/davidsneighbour/samui-samui/issues/1704)
+* **i18n:** declare lang="de" on homepage and paginated listings ([9fef855](https://github.com/davidsneighbour/samui-samui/commit/9fef85548bd17020245ed20c6fb1647d16134801)), closes [#1680](https://github.com/davidsneighbour/samui-samui/issues/1680)
+* pagefind breaks theme toggle somehow ([aa72662](https://github.com/davidsneighbour/samui-samui/commit/aa72662466a879f8a5f53a47009c0fbf9bd9d899))
+* **redirects:** add missing /datenschutz legal redirect ([7afeaea](https://github.com/davidsneighbour/samui-samui/commit/7afeaeaa400277fcb9476320fc983ed19b884c84)), closes [#1703](https://github.com/davidsneighbour/samui-samui/issues/1703)
+* remove obsolete preview images ([89afe12](https://github.com/davidsneighbour/samui-samui/commit/89afe12b7c44eab9268b15c076a0eaa53e825e93))
+* remove padding and width restrictions for garuda footer ([91656fc](https://github.com/davidsneighbour/samui-samui/commit/91656fcbde67c00eab4a1aaf489d2c0daa1b2a7e))
+* remove yandex validation file ([f80b9fb](https://github.com/davidsneighbour/samui-samui/commit/f80b9fb2ceaee95b48d4d6435f741ce5cfc42577))
+* **share:** align X share button with x.com and privacy wording ([2134290](https://github.com/davidsneighbour/samui-samui/commit/2134290da7c7a8010fcf81794617059e2a43a079)), closes [#1702](https://github.com/davidsneighbour/samui-samui/issues/1702)
+* **taglines:** add ancient tagline from 2006 ([5b665ea](https://github.com/davidsneighbour/samui-samui/commit/5b665eab03c9eeb366349ed19b8dea070a16b478))
+* **test:** update sound toggle e2e test to match current copy ([cddfeec](https://github.com/davidsneighbour/samui-samui/commit/cddfeec8d64e2b05337ff8e5e8bfc578189b6586))
+* **timeline:** stop exposing internal TODO marker as a visitor-facing title ([7792751](https://github.com/davidsneighbour/samui-samui/commit/77927515ea82d46abadfa2bbe8647a48ee3847d4)), closes [#1678](https://github.com/davidsneighbour/samui-samui/issues/1678)
+
+### Refactor
+
+* **components:** group component tree by topic ([bb03d67](https://github.com/davidsneighbour/samui-samui/commit/bb03d67fc88e6f3c1f9d57cc0f8f52e9757cbad4)), closes [#1693](https://github.com/davidsneighbour/samui-samui/issues/1693)
+
+### Docs
+
+* improve project readme ([120b7a1](https://github.com/davidsneighbour/samui-samui/commit/120b7a109f942447094243025b48eca629c07a9b)), closes [#1692](https://github.com/davidsneighbour/samui-samui/issues/1692)
+* unwrap documentation prose ([3f772f3](https://github.com/davidsneighbour/samui-samui/commit/3f772f361f09728ac870103cd02e4b99473ce9fd)), closes [#1691](https://github.com/davidsneighbour/samui-samui/issues/1691)
+
+### Build
+
+* **deps:** audit fixes for packages ([1e98210](https://github.com/davidsneighbour/samui-samui/commit/1e982103486a95e6c3046206233a52205714842e))
+* **deps:** update dependencies ([81ede28](https://github.com/davidsneighbour/samui-samui/commit/81ede2844125fca160821a919d381a5881f64029))
+* **vscode:** update workspace configuration ([bc30633](https://github.com/davidsneighbour/samui-samui/commit/bc306338e69405a0cfe9120146f21d7131a98fe1))
+
+### Chore
+
+* **footer:** remove dead garuda-artwork block ([e9af463](https://github.com/davidsneighbour/samui-samui/commit/e9af463fdb15fecfa2129ce0359f1b72445470e4)), closes [#1681](https://github.com/davidsneighbour/samui-samui/issues/1681)
+* remove obsolete offline.html ([b3652da](https://github.com/davidsneighbour/samui-samui/commit/b3652da49e8157a199312c1f54a4b552a849731b))
+
 ## [2.10.0](https://github.com/davidsneighbour/samui-samui/compare/v2.9.0...v2.10.0) (2026-08-30)
 
 ### Feat
