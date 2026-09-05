@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.13.0](https://github.com/davidsneighbour/samui-samui/compare/v2.12.0...v2.13.0) (2026-09-05)
+
+### Feat
+
+* add anuphan as thai font ([9c49fb7](https://github.com/davidsneighbour/samui-samui/commit/9c49fb7c11cb59e9c0e67853ce41abc9f7bdcc34))
+
+### Fix
+
+* **search:** match pagefind search boxes to the theme accent background ([be525e3](https://github.com/davidsneighbour/samui-samui/commit/be525e30dfd3a1ab8b73b4d5b698d48b422af6a0))
+
 ## [2.12.0](https://github.com/davidsneighbour/samui-samui/compare/v2.11.0...v2.12.0) (2026-09-05)
 
 ### Feat
