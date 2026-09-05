@@ -247,6 +247,11 @@ html {
 
 .pagefind-archive-search,
 .pagefind-search-page {
+  /* Pagefind's own default (--pf-background: var(--color-card)) reads as
+     plain white against the surrounding card -- match the header search's
+     tan/accent treatment instead (see .header-search in Header.astro). */
+  --pf-background: var(--color-accent);
+  --pf-hover: var(--color-card);
   color: var(--color-card-foreground);
   font-family: var(--font-sans);
 }
