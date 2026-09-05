@@ -115,6 +115,10 @@ const showPagination = totalPages > 1;
 const showTopPagination = showPagination && pageNumber > 1;
 ---
 
+<script>
+  import '@scripts/balanced-media';
+</script>
+
 {showTopPagination && (
     <Pagination
       basePath={basePath}
@@ -181,18 +185,19 @@ const showTopPagination = showPagination && pageNumber > 1;
                   cover && (index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'),
                   !cover && 'md:block',
                 ]}
+                data-balanced-media={cover ? '' : undefined}
               >
                 {cover && (
                   <PostCover
                     cover={cover}
-                    figureClass="m-0 overflow-hidden rounded-[calc(var(--radius)-4px)] md:w-1/3 md:shrink-0"
+                    figureClass="m-0 overflow-hidden rounded-[calc(var(--radius)-4px)] md:w-[var(--balanced-media-width,33.333%)] md:shrink-0"
                     imageClass={`block aspect-[4/3] h-auto w-full rounded-[calc(var(--radius)-4px)] object-cover transition-transform duration-300 ease-out group-hover:scale-105 group-focus-within:scale-105 ${coverOutlineClass}`}
                     videoClass={`block aspect-video w-full overflow-hidden rounded-[calc(var(--radius)-4px)] ${coverOutlineClass}`}
                     captionClass="sr-only"
                     sizes="(min-width: 768px) 288px, 100vw"
                   />
                 )}
-                <div class="min-w-0 flex-1">
+                <div class="min-w-0 flex-1" data-balanced-media-content={cover ? '' : undefined}>
                   <header class="mb-3">
                     <BlogPostTitle
                       title={post.data.title}
