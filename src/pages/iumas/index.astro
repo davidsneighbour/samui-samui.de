@@ -6,6 +6,7 @@ import {
 } from '@data/iumas';
 import PageLayout from '@layouts/PageLayout.astro';
 import { Diamond, Heading, Heading2, Image as ImageIcon } from '@lucide/astro';
+import { renderIumasValue } from '@utils/iumas/markdown';
 
 const timeline = getIumasTimeline();
 
@@ -70,7 +71,7 @@ const iconByType: Record<IumasEntryType, typeof Heading> = {
                   />
                 ) : (
                   <p class="mt-1 text-lg text-card-foreground">
-                    „{entry.value}“
+                    „<span set:html={renderIumasValue(entry.value)} />“
                   </p>
                 )}
 
