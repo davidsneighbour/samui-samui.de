@@ -93,12 +93,12 @@ at [https://samui-samui.de](https://samui-samui.de).
 
 ## Repo-local assistant skills
 
-* Samui-specific assistant skills live in `ai/skills/` and use the `ss-*` prefix.
-  Every direct child folder matching `ai/skills/ss-*/SKILL.md` MUST be treated as
+* Samui-specific assistant skills live in `.agents/skills/` and use the `ss-*` prefix.
+  Every direct child folder matching `.agents/skills/ss-*/SKILL.md` MUST be treated as
   available to assistant conversations in this repository.
-* `ai/config.toml` MUST keep repo-local skill registration pattern-based
-  (`available = ["ai/skills/ss-*"]`) rather than listing individual skill folders.
-  Adding a new `ai/skills/ss-*` folder with `SKILL.md` should autoregister it for
+* `.agents/config.toml` MUST keep repo-local skill registration pattern-based
+  (`available = [".agents/skills/ss-*"]`) rather than listing individual skill folders.
+  Adding a new `.agents/skills/ss-*` folder with `SKILL.md` should autoregister it for
   future agents.
 * Each `ss-*` skill's frontmatter `name` MUST match its folder name, and prompt
   helpers in that folder SHOULD invoke the same `ss-*` name. See

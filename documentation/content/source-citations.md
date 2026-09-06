@@ -78,6 +78,6 @@ Keep definitions near the bottom of the post or directly below a drafted section
 
 ## Source list entries are not citations
 
-The source registry in `ai/skills/ss-research-news/resources/` tracks reusable research entry points. A post citation points to the specific article, announcement, document, event page, or source item used in the post.
+The source registry in `.agents/skills/ss-research-news/resources/` tracks reusable research entry points. A post citation points to the specific article, announcement, document, event page, or source item used in the post.
 
 Do not cite a source homepage when a direct article or document URL is available.

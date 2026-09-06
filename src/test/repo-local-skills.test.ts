@@ -3,8 +3,8 @@ import path from 'node:path';
 import { describe, expect, it } from 'vitest';
 
 const root = process.cwd();
-const skillsRoot = path.join(root, 'ai/skills');
-const configPath = path.join(root, 'ai/config.toml');
+const skillsRoot = path.join(root, '.agents/skills');
+const configPath = path.join(root, '.agents/config.toml');
 
 function readText(filePath: string): string {
   return fs.readFileSync(filePath, 'utf8');
@@ -22,19 +22,19 @@ function listRepoLocalSkills(): string[] {
 }
 
 describe('repo-local assistant skills', () => {
-  it('autoregisters ss-* skill folders from ai/skills', () => {
+  it('autoregisters ss-* skill folders from .agents/skills', () => {
     const config = readText(configPath);
     const skills = listRepoLocalSkills();
 
     expect(skills).toEqual(
       expect.arrayContaining(['ss-refactor', 'ss-research-news', 'ss-review']),
     );
-    expect(config).toContain('available = ["ai/skills/ss-*"]');
+    expect(config).toContain('available = [".agents/skills/ss-*"]');
     expect(config).toContain('autoregister = true');
     expect(config).toContain('entrypoint = "SKILL.md"');
 
     for (const skill of skills) {
-      expect(config).not.toContain(`"ai/skills/${skill}"`);
+      expect(config).not.toContain(`".agents/skills/${skill}"`);
     }
   });
 

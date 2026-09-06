@@ -52,4 +52,4 @@
 * [Link checking](link-checking.md) documents the Lychee wrapper for content Markdown and MDX links.
 * [Local development](local-development.md) records local dev-server behavior such as Vite watcher exclusions.
 * [Quality gates](quality-gates.md) explains the repository's npm quality-gate script naming model.
-* [Repo-local skills](repo-local-skills.md) documents pattern-based registration for `ai/skills/ss-*` assistant skills.
+* [Repo-local skills](repo-local-skills.md) documents pattern-based registration for `.agents/skills/ss-*` assistant skills.

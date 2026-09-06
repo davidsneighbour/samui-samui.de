@@ -215,7 +215,7 @@ test-results/
 
 # AI assistant tool-local state: personal Claude Code overrides and
 # auto-installed plugin skills/hooks mirrored per-tool (e.g. "impeccable").
-# Not repo-authored; repo-local skills live in ai/skills/ss-* instead
+# Not repo-authored; repo-local skills live in .agents/skills/ss-* instead
 # (see AGENTS.md).
 .claude/settings.local.json
 .claude/skills/
