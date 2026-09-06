@@ -1,5 +1,48 @@
 # Changelog
 
+## [2.16.0](https://github.com/davidsneighbour/samui-samui/compare/v2.15.1...v2.16.0) (2026-09-06)
+
+### Content
+
+* **fix:** record new tagline in iumas history ([5b594c7](https://github.com/davidsneighbour/samui-samui/commit/5b594c7251a71c26f7cf7bd10532c740701f8a18))
+* **fix:** sync siteDescription with current tagline ([100d3bf](https://github.com/davidsneighbour/samui-samui/commit/100d3bffe1ca13a4ba6892053611991fe6262c67))
+
+### Feat
+
+* **archiv:** extract archive taxonomy nav into a reusable beacon component ([5dd77a2](https://github.com/davidsneighbour/samui-samui/commit/5dd77a244d201eded2fa095ddbc155d9838db7b1))
+* **archiv:** move taxonomies under /archiv/ and rename leute to personen ([0511ede](https://github.com/davidsneighbour/samui-samui/commit/0511ede85039123ec0d0c47d7d64210345209585)), closes [#1688](https://github.com/davidsneighbour/samui-samui/issues/1688)
+* **author-footer:** add pedantic Samui life-share timeline graph ([b970d97](https://github.com/davidsneighbour/samui-samui/commit/b970d974513714169948f705fcd4117b492ab0a3))
+* **author-footer:** highlight the days still needed for a Samui majority ([c241906](https://github.com/davidsneighbour/samui-samui/commit/c241906b06a4c01aae39a5f4ffbdbf21098b784e))
+* **footer:** add indicator icons to footer nav labels ([3e04f55](https://github.com/davidsneighbour/samui-samui/commit/3e04f553d209c71be9c9bf04bb0cd6ed5a4eee16))
+* hyphenation for paragraphs ([3b64a6f](https://github.com/davidsneighbour/samui-samui/commit/3b64a6ffbdcf7ce2389a5b81e71646da8c38e94f))
+* **masthead:** replace plain separator with Lanna-inspired ornament ([a0edb0c](https://github.com/davidsneighbour/samui-samui/commit/a0edb0c3de49810eb08529ffbcad8963bd3dd231))
+
+### Instructions
+
+* pin Biome as the editor formatter for JS/TS/Astro/JSON/CSS ([1c237d6](https://github.com/davidsneighbour/samui-samui/commit/1c237d6552527357ff8619d7f9b2b46680a5337e))
+* pin Biome as the editor formatter for JS/TS/Astro/JSON/CSS ([dd15989](https://github.com/davidsneighbour/samui-samui/commit/dd1598916b3e90095add4aed7dd9a6ec6a3dee58))
+
+### Fix
+
+* **blog-list:** move Weiterlesen button into its own row ([aa16e1f](https://github.com/davidsneighbour/samui-samui/commit/aa16e1f9db200ef89090778de73e291d2c726e5d))
+* change title of iumas page ([d45d542](https://github.com/davidsneighbour/samui-samui/commit/d45d5421ea1a14a21f6229cd48689d489d41ed94))
+* **masthead:** make setup.json the tagline source of truth ([38bf857](https://github.com/davidsneighbour/samui-samui/commit/38bf8575ef8a55c5dea088452411d42c3d85c076))
+* **masthead:** match ornament stroke weight to the divider line ([18bc049](https://github.com/davidsneighbour/samui-samui/commit/18bc0490a7cad0d568cb11e059a5794989c6623f))
+* **masthead:** scale ornament divider to content width ([86c6bed](https://github.com/davidsneighbour/samui-samui/commit/86c6bed643ef22963400e92376109ebf838bb8ea))
+* **post-cover:** put slot="poster" on the rendered <picture>, not its <img> ([9ae0287](https://github.com/davidsneighbour/samui-samui/commit/9ae028714706492eb5107eea136ec6d6fd3d3dcf))
+* rename iumas section ([96f3008](https://github.com/davidsneighbour/samui-samui/commit/96f3008249b838eb76988ec7ed9ce6f784de0186))
+* **scripts:** ignore staged file paths in fetch-video-thumbnails CLI arg ([dd4d3a6](https://github.com/davidsneighbour/samui-samui/commit/dd4d3a69cc5bc78b10c2a379d9ed9eb72d063654))
+* **typography:** lighten Anuphan's Thai fallback weight to match Panton ([5710385](https://github.com/davidsneighbour/samui-samui/commit/571038526ff815f4f2a2aa2790ce8be8a258b5c9))
+
+### Docs
+
+* **ai:** restructure agent instructions ([8a310b7](https://github.com/davidsneighbour/samui-samui/commit/8a310b70098c8af3be5c1025e8de22a646990989))
+* document Anuphan Thai fallback in DESIGN.md ([0c312ae](https://github.com/davidsneighbour/samui-samui/commit/0c312ae85349d96ff0a3996aa7293f2836c746a4))
+
+### Style
+
+* **author-footer:** pair Samui-share and majority-countdown lines on wide screens, add 50% bar marker ([4567b0f](https://github.com/davidsneighbour/samui-samui/commit/4567b0faad4e11f6805f01c1f9a93dcd32962b90))
+
 ## [2.15.1](https://github.com/davidsneighbour/samui-samui/compare/v2.15.0...v2.15.1) (2026-09-06)
 
 ### Build
