@@ -14,18 +14,28 @@ import {
   formatMonthShort,
   getPostDateParts,
 } from '@utils/dates';
+import { isPublicEntity } from '@utils/taxonomies/entities';
 import { groupPostsByThema } from '@utils/themen';
 
-const [posts, themaEntries] = await Promise.all([
-  getCollection('posts'),
-  getCollection('themen'),
-]);
+const [posts, themaEntries, personenEntries, orteEntries, ereignisseEntries] =
+  await Promise.all([
+    getCollection('posts'),
+    getCollection('themen'),
+    getCollection('personen'),
+    getCollection('orte'),
+    getCollection('ereignisse'),
+  ]);
+const personenCount = personenEntries.filter(isPublicEntity).length;
+const orteCount = orteEntries.filter(isPublicEntity).length;
+const ereignisseCount = ereignisseEntries.filter(isPublicEntity).length;
 
 const sortedByDate = [...posts].sort(
   (a, b) => a.data.date.valueOf() - b.data.date.valueOf(),
 );
 const oldestPost = sortedByDate[0];
 if (!oldestPost) throw new Error('No posts found in the posts collection');
+const newestPost = sortedByDate.at(-1);
+if (!newestPost) throw new Error('No posts found in the posts collection');
 const siteSinceDate = '2005-01-08';
 const siteAge = formatDateDuration({
   format: '%y Jahre',
@@ -188,18 +198,70 @@ const curatedThemen = themaGroups.slice(0, 12);
       </dd>
     </div>
     <div>
-      <dt class="text-sm text-muted-foreground">Themen</dt>
-      <dd class="text-2xl font-medium text-card-foreground">
-        {themaGroups.length}
-      </dd>
-    </div>
-    <div>
       <dt class="text-sm text-muted-foreground">Ältester Beitrag</dt>
       <dd class="text-2xl font-medium text-card-foreground">
         <FormattedDate date={oldestPost.data.date} />
       </dd>
     </div>
+    <div>
+      <dt class="text-sm text-muted-foreground">Neuester Beitrag</dt>
+      <dd class="text-2xl font-medium text-card-foreground">
+        <FormattedDate date={newestPost.data.date} />
+      </dd>
+    </div>
   </dl>
+
+  <nav
+    aria-label="Im Archiv"
+    class="mb-10 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm"
+  >
+    <span class="text-muted-foreground">Im Archiv:</span>
+    <a
+      href="#nach-jahr"
+      class="text-link hover:underline"
+      >Chronologisch</a
+    >
+    <span
+      class="text-muted-foreground"
+      aria-hidden="true"
+      >·</span
+    >
+    <a
+      href="/archiv/themen/"
+      class="text-link hover:underline"
+      >Themen</a
+    >
+    <span
+      class="text-muted-foreground"
+      aria-hidden="true"
+      >·</span
+    >
+    <a
+      href="/archiv/personen/"
+      class="text-link hover:underline"
+      >Personen</a
+    >
+    <span
+      class="text-muted-foreground"
+      aria-hidden="true"
+      >·</span
+    >
+    <a
+      href="/archiv/orte/"
+      class="text-link hover:underline"
+      >Orte</a
+    >
+    <span
+      class="text-muted-foreground"
+      aria-hidden="true"
+      >·</span
+    >
+    <a
+      href="/archiv/ereignisse/"
+      class="text-link hover:underline"
+      >Ereignisse</a
+    >
+  </nav>
 
   <section class="mb-10">
     <h2 class="mb-2 text-lg font-medium text-card-foreground">
@@ -231,7 +293,10 @@ const curatedThemen = themaGroups.slice(0, 12);
     trackPagefindSearch(getInstanceManager().getInstance('archive'));
   </script>
 
-  <section class="mb-10">
+  <section
+    id="nach-jahr"
+    class="mb-10"
+  >
     <h2 class="mb-4 text-lg font-medium text-card-foreground">Nach Jahr</h2>
     <ul class="grid grid-cols-1 gap-3 sm:grid-cols-2">
       {years.map((yearSummary) => (
@@ -334,30 +399,89 @@ const curatedThemen = themaGroups.slice(0, 12);
 
   <section>
     <h2 class="mb-1 text-lg font-medium text-card-foreground">
-      Womit möchtest du anfangen?
+      Quer durchs Archiv
     </h2>
-    <p class="mb-4 text-sm text-muted-foreground">
-      Eine Auswahl häufig verwendeter Themen aus {postsByYear.size} Jahren
-      Archiv.
+    <p class="mb-6 text-sm text-muted-foreground">
+      Nicht alles lässt sich an einem Datum festmachen. Stöbere nach Themen,
+      Personen, Orten und Ereignissen.
     </p>
-    <ul class="flex flex-wrap gap-2">
-      {curatedThemen.map((thema) => (
-          <li>
-            <Badge
-              href={`/themen/${thema.slug}/`}
-              variant="muted"
-              aria-label={`${thema.posts.length} Beiträge zum Thema ${thema.title}`}
-            >
-              {thema.title.toLocaleUpperCase('de-DE')} · {thema.posts.length}
-            </Badge>
-          </li>
-        ))}
-    </ul>
-    <a
-      href="/themen/"
-      class="mt-4 inline-block text-sm text-link hover:underline"
-    >
-      Alle Themen ansehen →
-    </a>
+
+    <div class="mb-8">
+      <h3
+        class="mb-1 text-xs font-medium tracking-wide text-muted-foreground uppercase"
+      >
+        Themen
+      </h3>
+      <ul class="mb-3 flex flex-wrap gap-2">
+        {curatedThemen.map((thema) => (
+            <li>
+              <Badge
+                href={`/archiv/themen/${thema.slug}/`}
+                variant="muted"
+                aria-label={`${thema.posts.length} Beiträge zum Thema ${thema.title}`}
+              >
+                {thema.title.toLocaleUpperCase('de-DE')} · {thema.posts.length}
+              </Badge>
+            </li>
+          ))}
+      </ul>
+      <a
+        href="/archiv/themen/"
+        class="text-sm text-link hover:underline"
+      >
+        Alle Themen ansehen →
+      </a>
+    </div>
+
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+      <div>
+        <h3
+          class="mb-1 text-xs font-medium tracking-wide text-muted-foreground uppercase"
+        >
+          Personen
+        </h3>
+        <p class="mb-2 text-sm text-muted-foreground">
+          {personenCount} {personenCount === 1 ? 'Eintrag' : 'Einträge'}
+        </p>
+        <a
+          href="/archiv/personen/"
+          class="text-sm text-link hover:underline"
+        >
+          Alle Personen ansehen →
+        </a>
+      </div>
+      <div>
+        <h3
+          class="mb-1 text-xs font-medium tracking-wide text-muted-foreground uppercase"
+        >
+          Orte
+        </h3>
+        <p class="mb-2 text-sm text-muted-foreground">
+          {orteCount} {orteCount === 1 ? 'Eintrag' : 'Einträge'}
+        </p>
+        <a
+          href="/archiv/orte/"
+          class="text-sm text-link hover:underline"
+        >
+          Alle Orte ansehen →
+        </a>
+      </div>
+      <div>
+        <h3
+          class="mb-1 text-xs font-medium tracking-wide text-muted-foreground uppercase"
+        >
+          Ereignisse
+        </h3>
+        <p class="mb-2 text-sm text-muted-foreground">
+          {ereignisseCount} {ereignisseCount === 1 ? 'Eintrag' : 'Einträge'}
+        </p>
+        <a
+          href="/archiv/ereignisse/"
+          class="text-sm text-link hover:underline"
+        >
+          Alle Ereignisse ansehen →
+        </a>
+      </div>
+    </div>
   </section>
 </PageLayout>

@@ -1,9 +1,17 @@
 {
   "/datenschutz": "/kleingedrucktes/datenschutzerklaerung/",
   "/datenschutzerklaerung": "/kleingedrucktes/datenschutzerklaerung/",
+  "/ereignisse/": "/archiv/ereignisse/",
+  "/ereignisse/[slug]": "/archiv/ereignisse/[slug]",
   "/impressum": "/kleingedrucktes/impressum/",
   "/kommentarrichtlinien": "/kleingedrucktes/kommentarrichtlinien/",
+  "/leute/": "/archiv/personen/",
+  "/leute/[slug]": "/archiv/personen/[slug]",
+  "/orte/": "/archiv/orte/",
+  "/orte/[slug]": "/archiv/orte/[slug]",
   "/seite/1": "/",
-  "/tags/": "/themen/",
-  "/tags/[slug]": "/themen/[slug]"
+  "/tags/": "/archiv/themen/",
+  "/tags/[slug]": "/archiv/themen/[slug]",
+  "/themen/": "/archiv/themen/",
+  "/themen/[slug]": "/archiv/themen/[slug]"
 }

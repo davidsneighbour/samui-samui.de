@@ -6,7 +6,7 @@ lastmod: 2019-07-20T09:00:58+07:00
 themen:
   - mondlandung
   - bangkok
-leute:
+personen:
    - thanom-kittikachorn
 publisher:
   description: true

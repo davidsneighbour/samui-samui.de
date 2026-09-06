@@ -4,7 +4,12 @@ import { globSync } from 'glob';
 import { parseDocument } from 'yaml';
 import { taxonomyEntryId } from './ids.ts';
 
-const taxonomyCollections = ['leute', 'orte', 'ereignisse', 'themen'] as const;
+const taxonomyCollections = [
+  'personen',
+  'orte',
+  'ereignisse',
+  'themen',
+] as const;
 
 function frontmatter(source: string): string | undefined {
   return /^---\n([\s\S]*?)\n---/.exec(source)?.[1];
@@ -27,7 +32,7 @@ export function getNoindexTaxonomyPaths(root = process.cwd()): Set<string> {
 
       const id = taxonomyEntryId(file);
       const slug = collection === 'themen' ? (data.slug ?? id) : id;
-      paths.add(`/${collection}/${slug}/`);
+      paths.add(`/archiv/${collection}/${slug}/`);
     }
   }
 

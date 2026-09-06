@@ -106,21 +106,22 @@ at [https://samui-samui.de](https://samui-samui.de).
 
 ## Taxonomies
 
-The blog uses four separate German-named taxonomies:
+The blog uses four separate German-named taxonomies, all surfaced under
+`/archiv/` (see [Blog archive](documentation/features/archiv.md)):
 
-* `leute`: concrete people.
+* `personen`: concrete people.
 * `orte`: concrete geographic places.
 * `ereignisse`: concrete named events.
 * `themen`: general topics and editorial keywords.
 
-Every value in `leute`, `orte`, and `ereignisse` MUST have a physical entry in
-the matching content collection. `themen` is the only open taxonomy. Topics MAY
-be used without their own collection entry.
+Every value in `personen`, `orte`, and `ereignisse` MUST have a physical entry
+in the matching content collection. `themen` is the only open taxonomy. Topics
+MAY be used without their own collection entry.
 
 Use only canonical IDs in posts:
 
 ```yaml
-leute:
+personen:
   - thaksin-shinawatra
 orte:
   - bangkok
@@ -290,8 +291,8 @@ so it can render unstyled for a moment after navigating.
 ### Content collections
 
 Defined in `src/content.config.ts`: `posts` (`src/content/posts/**/index.md`,
-2,049 posts, oldest from 2005), `leute` ("people",
-`src/content/leute/**/_index.md`), `orte` (`src/content/orte/**/_index.md`),
+2,049 posts, oldest from 2005), `personen` ("people",
+`src/content/personen/**/_index.md`), `orte` (`src/content/orte/**/_index.md`),
 `ereignisse` (`src/content/ereignisse/**/_index.md`), and `themen`
 (`src/content/themen/**/_index.md`).
 `src/content/` also holds a few standalone pages (`datenschutzerklaerung.md`,
@@ -348,8 +349,9 @@ edited, but agents MUST interpret them through the Bangkok helpers above.
 ### Pages
 
 `src/pages/` has a route for every content type: `index.astro` (paginated
-home/blog-list), `[...slug].astro` (individual posts), `leute/[slug].astro`,
-`orte/[slug].astro`, `ereignisse/[slug].astro`, `themen/[slug].astro`,
+home/blog-list), `[...slug].astro` (individual posts),
+`archiv/personen/[slug].astro`, `archiv/orte/[slug].astro`,
+`archiv/ereignisse/[slug].astro`, `archiv/themen/[slug].astro`,
 `archiv/[year].astro` + `archiv/index.astro`,
 `feiertage.astro`, `kontakt.astro`, `suche.astro`, `datenschutzerklaerung.astro`,
 `404.astro`, `seite/[seite].astro` (pagination), `rss.xml.js`,

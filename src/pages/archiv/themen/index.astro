@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import PageLayout from '@layouts/PageLayout.astro';
 import { groupPostsByThema } from '@utils/themen';
 
@@ -40,6 +41,14 @@ const byLetter: LetterGroup[] = [...byLetterMap.entries()]
   title="Themen"
   description={`Alle ${themaGroups.length} Themen des Archivs -- alphabetisch oder nach Häufigkeit.`}
 >
+  <Breadcrumbs
+    slot="breadcrumbs"
+    items={[
+      { href: '/', label: 'Startseite' },
+      { href: '/archiv/', label: 'Archiv' },
+      { href: '/archiv/themen/', label: 'Themen' },
+    ]}
+  />
   <p class="mb-8 text-card-foreground">
     {themaGroups.length}
     Themen aus 21 Jahren Archiv, sortierbar nach Häufigkeit oder Alphabet.
@@ -74,7 +83,7 @@ const byLetter: LetterGroup[] = [...byLetterMap.entries()]
       {byFrequency.map((thema) => (
           <li>
             <a
-              href={`/themen/${thema.slug}/`}
+              href={`/archiv/themen/${thema.slug}/`}
               class="text-sm text-link hover:underline"
             >
               {thema.title} <span class="text-muted-foreground">({thema.posts.length})</span>
@@ -95,7 +104,7 @@ const byLetter: LetterGroup[] = [...byLetterMap.entries()]
             {themen.map((thema) => (
                 <li>
                   <a
-                    href={`/themen/${thema.slug}/`}
+                    href={`/archiv/themen/${thema.slug}/`}
                     class="text-sm text-link hover:underline"
                   >
                     {thema.title}{' '}

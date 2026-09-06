@@ -1,10 +1,18 @@
 import type { CollectionEntry } from 'astro:content';
 
 export type EntityCollectionName =
-  | 'leute'
+  | 'personen'
   | 'orte'
   | 'ereignisse'
   | 'feiertage';
+
+// personen, orte, and ereignisse live under /archiv/ (see AGENTS.md's
+// taxonomy section); feiertage keeps its own standalone page.
+const archivedCollections = new Set<EntityCollectionName>([
+  'personen',
+  'orte',
+  'ereignisse',
+]);
 export type TaxonomyReference<
   C extends EntityCollectionName = EntityCollectionName,
 > =
@@ -41,6 +49,8 @@ export function entityHref(
   id: string,
 ): string {
   if (collection === 'feiertage') return '/feiertage/';
+  if (archivedCollections.has(collection))
+    return `/archiv/${collection}/${id}/`;
   return `/${collection}/${id}/`;
 }
 
@@ -109,7 +119,7 @@ function resolveEntityLinks<C extends EntityCollectionName>(
 export function resolvePostTaxonomyGroups(options: {
   post: CollectionEntry<'posts'>;
   feiertage: CollectionEntry<'feiertage'>[];
-  leute: CollectionEntry<'leute'>[];
+  personen: CollectionEntry<'personen'>[];
   orte: CollectionEntry<'orte'>[];
   ereignisse: CollectionEntry<'ereignisse'>[];
 }): PostTaxonomyGroup[] {
@@ -136,9 +146,9 @@ export function resolvePostTaxonomyGroups(options: {
     },
     {
       items: resolveEntityLinks(
-        options.post.data.leute,
-        'leute',
-        options.leute,
+        options.post.data.personen,
+        'personen',
+        options.personen,
       ),
       label: 'Personen',
     },

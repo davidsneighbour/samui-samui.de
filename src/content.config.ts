@@ -116,9 +116,9 @@ const posts = defineCollection({
       // Post-level override for the legacy-image presentation system (see
       // src/utils/legacy-images/); defaults to automatic classification.
       legacyImages: legacyImageOverride.default('auto'),
-      leute: z.array(reference('leute')).default([]),
       options: postOptionsFrontmatter,
       orte: z.array(reference('orte')).default([]),
+      personen: z.array(reference('personen')).default([]),
       publisher: publisherFrontmatter,
       resources: z
         .array(
@@ -137,8 +137,8 @@ const posts = defineCollection({
     .loose(),
 });
 
-const leute = defineCollection({
-  loader: taxonomyLoader('./src/content/leute'),
+const personen = defineCollection({
+  loader: taxonomyLoader('./src/content/personen'),
   schema: entityFrontmatter.extend({
     born: z.coerce.date().optional(),
     died: z.coerce.date().optional(),
@@ -203,9 +203,9 @@ const ereignisse = defineCollection({
       aliases: z.array(z.string()).default([]),
       draft: z.boolean().default(false),
       endDate: z.coerce.date().optional(),
-      leute: z.array(reference('leute')).default([]),
       noindex: z.boolean().default(false),
       orte: z.array(reference('orte')).default([]),
+      personen: z.array(reference('personen')).default([]),
       recurring: z.boolean().default(false),
       startDate: z.coerce.date().optional(),
       type: ereignisType.optional(),
@@ -235,7 +235,7 @@ const themen = defineCollection({
 });
 
 // A single standalone page (public holidays list), section-organized like
-// leute/themen rather than a flat file, hence its own collection instead of
+// personen/themen rather than a flat file, hence its own collection instead of
 // living in `pages`.
 const feiertage = defineCollection({
   loader: glob({ base: './src/content/feiertage', pattern: '**/_index.md' }),
@@ -263,8 +263,8 @@ const sitewide = defineCollection({
 export const collections = {
   ereignisse,
   feiertage,
-  leute,
   orte,
+  personen,
   posts,
   sitewide,
   themen,

@@ -3,7 +3,7 @@ title: "Papst Franziskus in Thailand"
 description: ""
 date: 2019-07-18T20:20:00+07:00
 lastmod: 2019-07-18T20:20:00+07:00
-leute:
+personen:
    - papst-franziskus
    - yingluck-shinawatra
 themen:

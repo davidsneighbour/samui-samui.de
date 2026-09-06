@@ -9,7 +9,7 @@
 * [Legacy image presentation](components/legacy-images.md) explains the automatic small-image rendering system for archive images and cover previews.
 * [Masthead](components/masthead.md) documents the responsive site title, header-owned CSS, and dev-only masthead preview route.
 * [Editorial notices](components/notices.md) documents the `Notice.astro` and `<dnb-notice>` rendering pipeline.
-* [Person taxonomy link](components/person-link.md) documents the `<PersonLink>`/`<dnb-person>` link from post prose to a `leute` entity page.
+* [Person taxonomy link](components/person-link.md) documents the `<PersonLink>`/`<dnb-person>` link from post prose to a `personen` entity page.
 * [Post covers](components/post-covers.md) describes optional image, YouTube, and Vimeo cover media rendered by post and list views.
 * [Theme toggle](components/theme-toggle.md) documents the masthead light/dark theme button and its Morphicons icon morph.
 * [Tooltips](components/tooltips.md) documents the shared tooltip primitive.
@@ -29,7 +29,7 @@
 * [Post paths](content/post-paths.md) explains post bundle storage paths and permalink resolution.
 * [Publisher frontmatter](content/publisher-frontmatter.md) documents repo-internal archive-maintenance metadata.
 * [Source citations](content/source-citations.md) defines named Markdown footnote citations for sourced posts.
-* [Content taxonomies](content/taxonomies.md) explains the `leute`, `orte`, `ereignisse`, and `themen` taxonomy model.
+* [Content taxonomies](content/taxonomies.md) explains the `personen`, `orte`, `ereignisse`, and `themen` taxonomy model.
 * [Video thumbnail cache](content/video-thumbnail-cache.md) documents the locally cached YouTube/Vimeo poster images, the fetch/verify script, and its lint-staged and GitHub Actions wiring.
 
 ## Features

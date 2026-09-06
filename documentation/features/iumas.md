@@ -2,7 +2,7 @@
 
 `IUMAS` is `SAMUI` backwards. It is the site's own history of how the weblog presented itself over time.
 
-Canonical route: [`/iumas/`](../../src/pages/iumas/index.astro). Legacy route `/taglines/` permanently redirects to it (see `netlify.toml`, next to the existing `/tags/` → `/themen/` rule).
+Canonical route: [`/iumas/`](../../src/pages/iumas/index.astro). Legacy route `/taglines/` permanently redirects to it (see `netlify.toml`, next to the existing `/tags/` → `/archiv/themen/` rule).
 
 ## Four tracked dimensions
 

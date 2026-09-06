@@ -5,29 +5,28 @@ import Footer from '@components/layout/footer/Footer.astro';
 import BaseHead from '@components/layout/head/BaseHead.astro';
 import Header from '@components/layout/header/Header.astro';
 import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
-import {
-  getEntityDescription,
-  groupPostsByEntity,
-  isPublicEntity,
-} from '@utils/taxonomies/entities';
+import { groupPostsByThema } from '@utils/themen';
 
 export async function getStaticPaths() {
-  const [events, posts] = await Promise.all([
-    getCollection('ereignisse'),
+  const [themaEntries, posts] = await Promise.all([
+    getCollection('themen'),
     getCollection('posts'),
   ]);
 
-  return events.filter(isPublicEntity).map((event) => ({
-    params: { slug: event.id },
+  return groupPostsByThema(posts, themaEntries).map((group) => ({
+    params: { slug: group.slug },
     props: {
-      event,
-      posts: groupPostsByEntity(posts, 'ereignisse', event.id),
+      description: group.description,
+      posts: group.posts.sort(
+        (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+      ),
+      slug: group.slug,
+      title: group.title,
     },
   }));
 }
 
-const { event, posts } = Astro.props;
-const description = getEntityDescription('ereignisse', event);
+const { title, description, posts, slug } = Astro.props;
 ---
 
 <!doctype html>
@@ -37,9 +36,8 @@ const description = getEntityDescription('ereignisse', event);
 >
   <head>
     <BaseHead
-      title={event.data.title}
+      title={title}
       description={description}
-      noindex={event.data.noindex}
     />
   </head>
   <body>
@@ -54,18 +52,16 @@ const description = getEntityDescription('ereignisse', event);
           class="mx-auto max-w-4xl px-4"
           items={[
             { href: '/', label: 'Startseite' },
-            { href: '/ereignisse/', label: 'Ereignisse' },
-            { href: `/ereignisse/${event.id}/`, label: event.data.title },
+            { href: '/archiv/', label: 'Archiv' },
+            { href: '/archiv/themen/', label: 'Themen' },
+            { href: `/archiv/themen/${slug}/`, label: title },
           ]}
         />
         <h1
           class="mx-auto mb-4 max-w-4xl px-4 text-2xl font-normal text-foreground"
         >
-          {event.data.title}
+          {title}
         </h1>
-        <p class="mx-auto mb-8 max-w-4xl px-4 text-muted-foreground">
-          {description}
-        </p>
         <BlogList
           posts={posts}
           pageNumber={1}

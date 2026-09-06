@@ -3,7 +3,7 @@ title: "Die Königin"
 date: 2019-05-17T23:25:48+07:00
 themen:
   - royal family
-leute:
+personen:
    - koenigin-suthida
 resources:
   - src: "A001.jpg"

@@ -10,7 +10,7 @@ cover:
   alt: "Menschen in roten Shirts sitzen bei einer Versammlung auf grauen Stühlen"
 orte:
   - thailand
-leute:
+personen:
   - anutin-charnvirakul
 themen:
   - politik

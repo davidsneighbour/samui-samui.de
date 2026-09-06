@@ -4,7 +4,7 @@ date: 2019-01-23T21:00:00+07:00
 themen:
   - politik
   - wahlen 2019
-leute:
+personen:
    - prayuth-chan-ocha
 resources:
   - src: "royal-degree.png"

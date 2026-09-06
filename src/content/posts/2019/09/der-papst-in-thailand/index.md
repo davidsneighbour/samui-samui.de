@@ -6,7 +6,7 @@ themen:
   - papstbesuch
   - religion
   - katholizismus
-leute:
+personen:
    - papst-franziskus
 publisher:
   description: true

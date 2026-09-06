@@ -167,7 +167,7 @@ async function routeRemaps(): Promise<string[]> {
       `${rootFileUrl}src/content/posts/$1/$2/$3/`,
     ],
     [
-      String.raw`(leute|orte|ereignisse|themen)/([^/#?]+)/?(?:[#?].*)?`,
+      String.raw`archiv/(personen|orte|ereignisse|themen)/([^/#?]+)/?(?:[#?].*)?`,
       `${rootFileUrl}src/content/$1/$2/`,
     ],
     [

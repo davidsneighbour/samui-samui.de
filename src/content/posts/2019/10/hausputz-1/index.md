@@ -7,7 +7,7 @@ themen:
   - hausputz
   - koenigsfamilie
   - geschichte-thailands
-leute:
+personen:
   - koenig-maha-vajiralongkorn
   - sineenart
 publisher:

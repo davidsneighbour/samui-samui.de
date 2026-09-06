@@ -64,9 +64,9 @@ const shouldFeaturePost = (index: number) =>
   featuredFirst && pageNumber === 1 && index === 0;
 
 const featuredPost = shouldFeaturePost(0) ? posts[0] : undefined;
-const [leute, orte, ereignisse, feiertage] = featuredPost
+const [personen, orte, ereignisse, feiertage] = featuredPost
   ? await Promise.all([
-      getCollection('leute'),
+      getCollection('personen'),
       getCollection('orte'),
       getCollection('ereignisse'),
       getCollection('feiertage'),
@@ -76,8 +76,8 @@ const featuredTaxonomies = featuredPost
   ? resolvePostTaxonomyGroups({
       ereignisse,
       feiertage,
-      leute,
       orte,
+      personen,
       post: featuredPost,
     })
   : [];

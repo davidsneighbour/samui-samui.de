@@ -7,38 +7,39 @@ import {
   sortEntitiesByTitle,
 } from '@utils/taxonomies/entities';
 
-const events = sortEntitiesByTitle(
-  (await getCollection('ereignisse')).filter(isPublicEntity),
+const places = sortEntitiesByTitle(
+  (await getCollection('orte')).filter(isPublicEntity),
 );
 ---
 
 <PageLayout
-  title="Ereignisse"
-  description={`${events.length} Ereignisse im Archiv.`}
+  title="Orte"
+  description={`${places.length} Orte im Archiv.`}
 >
   <Breadcrumbs
     slot="breadcrumbs"
     items={[
       { href: '/', label: 'Startseite' },
-      { href: '/ereignisse/', label: 'Ereignisse' },
+      { href: '/archiv/', label: 'Archiv' },
+      { href: '/archiv/orte/', label: 'Orte' },
     ]}
   />
-  {events.length > 0 ? (
+  {places.length > 0 ? (
     <ul class="columns-1 gap-8 sm:columns-2">
-      {events.map((event) => (
+      {places.map((place) => (
           <li class="mb-2 break-inside-avoid">
             <a
-              href={`/ereignisse/${event.id}/`}
+              href={`/archiv/orte/${place.id}/`}
               class="text-link hover:underline"
             >
-              {event.data.title}
+              {place.data.title}
             </a>
           </li>
         ))}
     </ul>
   ) : (
     <p class="text-muted-foreground">
-      Ereignisse werden während der redaktionellen Durchsicht ergänzt.
+      Orte werden während der redaktionellen Durchsicht ergänzt.
     </p>
   )}
 </PageLayout>

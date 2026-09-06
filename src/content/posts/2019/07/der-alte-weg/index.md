@@ -7,7 +7,7 @@ themen:
   - politik
   - regierung
   - putsch
-leute:
+personen:
    - prayuth-chan-ocha
 publisher:
   description: true

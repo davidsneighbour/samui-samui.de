@@ -10,7 +10,7 @@
       "count": 100,
       "exclude": [],
       "include": [
-        "^https://samui-samui\\.de/(leute|orte|ereignisse|themen|tags)/"
+        "^https://samui-samui\\.de/archiv/(personen|orte|ereignisse|themen)/"
       ],
       "name": "taxonomies"
     },

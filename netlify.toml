@@ -21,12 +21,55 @@ status = 301
 
 [[redirects]]
 from = "/tags/"
-to = "/themen/"
+to = "/archiv/themen/"
 status = 301
 
 [[redirects]]
 from = "/tags/*"
-to = "/themen/:splat"
+to = "/archiv/themen/:splat"
+status = 301
+
+# Taxonomies moved under /archiv/ (see documentation/features/archiv.md and
+# documentation/content/taxonomies.md) -- `leute` was also renamed to
+# `personen` internally in the same change.
+[[redirects]]
+from = "/themen/"
+to = "/archiv/themen/"
+status = 301
+
+[[redirects]]
+from = "/themen/*"
+to = "/archiv/themen/:splat"
+status = 301
+
+[[redirects]]
+from = "/leute/"
+to = "/archiv/personen/"
+status = 301
+
+[[redirects]]
+from = "/leute/*"
+to = "/archiv/personen/:splat"
+status = 301
+
+[[redirects]]
+from = "/orte/"
+to = "/archiv/orte/"
+status = 301
+
+[[redirects]]
+from = "/orte/*"
+to = "/archiv/orte/:splat"
+status = 301
+
+[[redirects]]
+from = "/ereignisse/"
+to = "/archiv/ereignisse/"
+status = 301
+
+[[redirects]]
+from = "/ereignisse/*"
+to = "/archiv/ereignisse/:splat"
 status = 301
 
 # Resource audit behind this CSP (2026-07-21, issues

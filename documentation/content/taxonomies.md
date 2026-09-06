@@ -4,7 +4,7 @@ This website uses five separate taxonomies. Their public labels and URLs are Ger
 
 | Mention | Correct field |
 | ------------------ | ------------- |
-| Thaksin Shinawatra | `leute` |
+| Thaksin Shinawatra | `personen` |
 | Koh Samui | `orte` |
 | Military coup 2006 | `ereignisse` |
 | Politics | `themen` |
@@ -17,12 +17,12 @@ This website uses five separate taxonomies. Their public labels and URLs are Ger
 
 ## Fields
 
-`leute` describes concrete, identifiable people. `orte` describes concrete geographic places, sights, buildings, beaches, venues, or administrative areas. `ereignisse` describes concrete named historical, political, cultural, natural, or recurring events. `feiertage` describes holiday entries. `themen` describes general editorial topics, concepts, and keywords.
+`personen` describes concrete, identifiable people. `orte` describes concrete geographic places, sights, buildings, beaches, venues, or administrative areas. `ereignisse` describes concrete named historical, political, cultural, natural, or recurring events. `feiertage` describes holiday entries. `themen` describes general editorial topics, concepts, and keywords.
 
 A person, place, or event is not also added as a topic. Instead, the post gets the matching registered entity reference and only true general topics:
 
 ```yaml
-leute:
+personen:
   - thaksin-shinawatra
 themen:
   - politik
@@ -32,7 +32,7 @@ themen:
 Wrong:
 
 ```yaml
-leute:
+personen:
   - thaksin-shinawatra
 themen:
   - thaksin-shinawatra
@@ -103,7 +103,7 @@ startDate: 2006-09-19
 orte:
   - thailand
   - bangkok
-leute:
+personen:
   - thaksin-shinawatra
 ---
 ```
@@ -124,20 +124,20 @@ The examples show the structure. Fact values are only added when they have been 
 All registered entities use `_index.md` inside a folder. The folder name is the canonical ID:
 
 ```text
-src/content/leute/thaksin-shinawatra/_index.md
+src/content/personen/thaksin-shinawatra/_index.md
 ```
 
 The post reference is:
 
 ```yaml
-leute:
+personen:
   - thaksin-shinawatra
 ```
 
 Do not use:
 
 ```yaml
-leute:
+personen:
   - Thaksin Shinawatra
   - thaksin-shinawatra/_index
 ```
@@ -155,7 +155,7 @@ Topics also use short values in posts. An entry in `src/content/themen/` is opti
 `parent` can point to another place, for example `lamai` pointing to `koh-samui`. This relationship is metadata, not a URL hierarchy. The public URL stays flat:
 
 ```text
-/orte/lamai/
+/archiv/orte/lamai/
 ```
 
 ## Events
@@ -175,23 +175,33 @@ Do not create an event for every passing mention in prose.
 The current public URLs are:
 
 ```text
-/leute/
-/leute/[id]/
-/orte/
-/orte/[id]/
-/ereignisse/
-/ereignisse/[id]/
+/archiv/personen/
+/archiv/personen/[id]/
+/archiv/orte/
+/archiv/orte/[id]/
+/archiv/ereignisse/
+/archiv/ereignisse/[id]/
 /feiertage/
-/themen/
-/themen/[slug]/
+/archiv/themen/
+/archiv/themen/[slug]/
 ```
 
-The old `/tags/` URLs remain permanent redirects:
+Taxonomies are surfaced as part of the archive -- see
+[Blog archive](../features/archiv.md). The old pre-archive taxonomy URLs, and
+the even older `/tags/` URLs, remain permanent redirects:
 
 ```text
-/tags/       -> /themen/
-/tags/abc/   -> /themen/abc/
+/tags/       -> /archiv/themen/
+/tags/abc/   -> /archiv/themen/abc/
+/themen/     -> /archiv/themen/
+/leute/      -> /archiv/personen/
+/orte/       -> /archiv/orte/
+/ereignisse/ -> /archiv/ereignisse/
 ```
+
+The former `leute` taxonomy was renamed to `personen` in the same change that
+moved it under `/archiv/`; no code, content, or documentation should still use
+the `leute` name.
 
 ## Validation
 
@@ -204,9 +214,9 @@ npm run validate
 
 `validate:taxonomies` checks:
 
-* all `leute`, `orte`, `ereignisse`, and `feiertage` in posts;
+* all `personen`, `orte`, `ereignisse`, and `feiertage` in posts;
 * `parent` in places;
-* `leute` and `orte` in events;
+* `personen` and `orte` in events;
 * event date ranges;
 * duplicate alias conflicts.
 
@@ -217,21 +227,21 @@ Topics without collection entries are allowed. People, places, events, and holid
 Wrong: display names as references.
 
 ```yaml
-leute:
+personen:
   - Thaksin Shinawatra
 ```
 
 Right:
 
 ```yaml
-leute:
+personen:
   - thaksin-shinawatra
 ```
 
 Wrong: person also added as a topic.
 
 ```yaml
-leute:
+personen:
   - thaksin-shinawatra
 themen:
   - thaksin-shinawatra
@@ -240,7 +250,7 @@ themen:
 Right:
 
 ```yaml
-leute:
+personen:
   - thaksin-shinawatra
 themen:
   - politik

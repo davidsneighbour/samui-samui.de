@@ -27,8 +27,8 @@ function post(
       ereignisse: [],
       feiertage: [],
       legacyImages: 'auto',
-      leute: [],
       orte: [],
+      personen: [],
       themen: [],
       title: 'Beispiel',
       ...data,
@@ -38,7 +38,7 @@ function post(
 }
 
 function entity<
-  C extends 'leute' | 'orte' | 'ereignisse' | 'themen' | 'feiertage',
+  C extends 'personen' | 'orte' | 'ereignisse' | 'themen' | 'feiertage',
 >(
   collection: C,
   id: string,
@@ -62,7 +62,7 @@ function makeFixture() {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'samui-taxonomies-'));
   fs.mkdirSync(path.join(root, 'src/content/posts'), { recursive: true });
   for (const collection of [
-    'leute',
+    'personen',
     'orte',
     'ereignisse',
     'feiertage',
@@ -86,16 +86,21 @@ describe('taxonomies', () => {
     const groups = resolvePostTaxonomyGroups({
       ereignisse: [],
       feiertage: [],
-      leute: [entity('leute', 'thaksin-shinawatra', 'Thaksin Shinawatra')],
       orte: [],
+      personen: [
+        entity('personen', 'thaksin-shinawatra', 'Thaksin Shinawatra'),
+      ],
       post: post({
-        leute: [{ collection: 'leute', id: 'thaksin-shinawatra' }],
+        personen: [{ collection: 'personen', id: 'thaksin-shinawatra' }],
       }),
     });
 
     expect(groups[0]).toMatchObject({
       items: [
-        { href: '/leute/thaksin-shinawatra/', label: 'Thaksin Shinawatra' },
+        {
+          href: '/archiv/personen/thaksin-shinawatra/',
+          label: 'Thaksin Shinawatra',
+        },
       ],
       label: 'Personen',
     });
@@ -107,13 +112,13 @@ describe('taxonomies', () => {
       resolvePostTaxonomyGroups({
         ereignisse: [],
         feiertage: [],
-        leute: [],
         orte: [],
+        personen: [],
         post: post({
-          leute: [{ collection: 'leute', id: 'fehlt' }],
+          personen: [{ collection: 'personen', id: 'fehlt' }],
         }),
       }),
-    ).toThrow(/Fehlende Taxonomie-Referenz: leute:fehlt/);
+    ).toThrow(/Fehlende Taxonomie-Referenz: personen:fehlt/);
   });
 
   it('renders person-link classes for the icon hover animation', () => {
@@ -132,8 +137,8 @@ describe('taxonomies', () => {
     const groups = resolvePostTaxonomyGroups({
       ereignisse: [
         entity('ereignisse', 'songkran', 'Songkran', {
-          leute: [],
           orte: [],
+          personen: [],
           recurring: true,
         }),
       ],
@@ -142,13 +147,15 @@ describe('taxonomies', () => {
           date: new Date('2026-01-01T00:00:00+07:00'),
         }),
       ],
-      leute: [entity('leute', 'thaksin-shinawatra', 'Thaksin Shinawatra')],
       orte: [entity('orte', 'bangkok', 'Bangkok')],
+      personen: [
+        entity('personen', 'thaksin-shinawatra', 'Thaksin Shinawatra'),
+      ],
       post: post({
         ereignisse: [{ collection: 'ereignisse', id: 'songkran' }],
         feiertage: [{ collection: 'feiertage', id: '_index' }],
-        leute: [{ collection: 'leute', id: 'thaksin-shinawatra' }],
         orte: [{ collection: 'orte', id: 'bangkok' }],
+        personen: [{ collection: 'personen', id: 'thaksin-shinawatra' }],
         themen: ['politik'],
       }),
     });
@@ -160,10 +167,13 @@ describe('taxonomies', () => {
       'Personen',
     ]);
     expect(groups.flatMap((group) => group.items)).toEqual([
-      { href: '/orte/bangkok/', label: 'Bangkok' },
-      { href: '/ereignisse/songkran/', label: 'Songkran' },
+      { href: '/archiv/orte/bangkok/', label: 'Bangkok' },
+      { href: '/archiv/ereignisse/songkran/', label: 'Songkran' },
       { href: '/feiertage/', label: 'Feiertage in Thailand' },
-      { href: '/leute/thaksin-shinawatra/', label: 'Thaksin Shinawatra' },
+      {
+        href: '/archiv/personen/thaksin-shinawatra/',
+        label: 'Thaksin Shinawatra',
+      },
     ]);
   });
 
@@ -217,7 +227,7 @@ describe('taxonomies', () => {
     const root = makeFixture();
     writeFixture(
       root,
-      'src/content/leute/thaksin/_index.md',
+      'src/content/personen/thaksin/_index.md',
       '---\ntitle: Thaksin\n---\n',
     );
     writeFixture(
@@ -228,7 +238,7 @@ describe('taxonomies', () => {
     writeFixture(
       root,
       'src/content/ereignisse/rueckkehr/_index.md',
-      '---\ntitle: Rückkehr\nleute:\n  - thaksin\norte:\n  - bangkok\n---\n',
+      '---\ntitle: Rückkehr\npersonen:\n  - thaksin\norte:\n  - bangkok\n---\n',
     );
 
     expect(validateTaxonomyIntegrity(root)).toEqual([]);
@@ -279,11 +289,11 @@ describe('taxonomies', () => {
       props: {
         groups: [
           {
-            items: [{ href: '/orte/bangkok/', label: 'Bangkok' }],
+            items: [{ href: '/archiv/orte/bangkok/', label: 'Bangkok' }],
             label: 'Orte',
           },
           {
-            items: [{ href: '/leute/thaksin/', label: 'Thaksin' }],
+            items: [{ href: '/archiv/personen/thaksin/', label: 'Thaksin' }],
             label: 'Personen',
           },
         ],
@@ -293,31 +303,39 @@ describe('taxonomies', () => {
     expect(html).toContain('Orte');
     expect(html).toContain('Personen');
     expect(html).not.toContain('Themen');
-    expect(html).toContain('/orte/bangkok/');
-    expect(html).toContain('/leute/thaksin/');
+    expect(html).toContain('/archiv/orte/bangkok/');
+    expect(html).toContain('/archiv/personen/thaksin/');
   });
 
   it('hides draft entities from public indexes', () => {
     expect(
-      isPublicEntity(entity('leute', 'draft', 'Draft', { draft: true })),
+      isPublicEntity(entity('personen', 'draft', 'Draft', { draft: true })),
     ).toBe(false);
   });
 
-  it('keeps permanent compatibility redirects from old tag URLs', () => {
-    expect(redirects['/tags/']).toBe('/themen/');
-    expect(redirects['/tags/[slug]']).toBe('/themen/[slug]');
+  it('keeps permanent compatibility redirects from old tag and taxonomy URLs', () => {
+    expect(redirects['/tags/']).toBe('/archiv/themen/');
+    expect(redirects['/tags/[slug]']).toBe('/archiv/themen/[slug]');
+    expect(redirects['/themen/']).toBe('/archiv/themen/');
+    expect(redirects['/themen/[slug]']).toBe('/archiv/themen/[slug]');
+    expect(redirects['/leute/']).toBe('/archiv/personen/');
+    expect(redirects['/leute/[slug]']).toBe('/archiv/personen/[slug]');
+    expect(redirects['/orte/']).toBe('/archiv/orte/');
+    expect(redirects['/orte/[slug]']).toBe('/archiv/orte/[slug]');
+    expect(redirects['/ereignisse/']).toBe('/archiv/ereignisse/');
+    expect(redirects['/ereignisse/[slug]']).toBe('/archiv/ereignisse/[slug]');
   });
 
   it('reports duplicate aliases inside registered entities', () => {
     const root = makeFixture();
     writeFixture(
       root,
-      'src/content/leute/a/_index.md',
+      'src/content/personen/a/_index.md',
       '---\ntitle: A\naliases:\n  - Gleich\n---\n',
     );
     writeFixture(
       root,
-      'src/content/leute/b/_index.md',
+      'src/content/personen/b/_index.md',
       '---\ntitle: B\naliases:\n  - Gleich\n---\n',
     );
 

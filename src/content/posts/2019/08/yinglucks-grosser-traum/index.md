@@ -5,7 +5,7 @@ date: 2019-08-11T20:09:52+07:00
 lastmod: 2019-08-11T20:09:52+07:00
 themen:
   - serbien
-leute:
+personen:
    - yingluck-shinawatra
 publisher:
   description: true

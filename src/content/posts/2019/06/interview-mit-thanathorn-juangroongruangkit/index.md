@@ -3,7 +3,7 @@ title: "Interview mit Thanathorn"
 date: 2019-06-07T21:31:48+07:00
 themen:
   - politik
-leute:
+personen:
    - thanathorn-juangroongruangkit
 publisher:
   description: true

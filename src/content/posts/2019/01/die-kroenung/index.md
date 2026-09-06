@@ -4,7 +4,7 @@ date: 2019-01-03T20:25:00+07:00
 themen:
   - chakri-dynastie
   - zeremonien
-leute:
+personen:
   - koenig-maha-vajiralongkorn
   - koenig-prajadhipok
 lastmod: 2023-09-10T19:14:12+07:00

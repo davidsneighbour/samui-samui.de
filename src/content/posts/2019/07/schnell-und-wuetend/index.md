@@ -6,7 +6,7 @@ url: /2019/07/schnell-und-wuetend-in-thailand
 themen:
   - film
   - hollywood
-leute:
+personen:
    - dwayne-johnson
    - vin-diesel
 images:

@@ -5,7 +5,7 @@ import { readYamlFrontmatter } from './frontmatter.ts';
 import { taxonomyEntryId } from './ids.ts';
 
 export type ValidationField =
-  | 'leute'
+  | 'personen'
   | 'orte'
   | 'ereignisse'
   | 'feiertage'
@@ -27,14 +27,14 @@ interface EntityRecord {
 }
 
 interface LoadedCollections {
-  leute: EntityRecord[];
+  personen: EntityRecord[];
   orte: EntityRecord[];
   ereignisse: EntityRecord[];
   feiertage: EntityRecord[];
 }
 
 const registeredCollections = [
-  'leute',
+  'personen',
   'orte',
   'ereignisse',
   'feiertage',
@@ -84,8 +84,8 @@ function loadRegisteredCollections(root: string): LoadedCollections {
   return {
     ereignisse: loadEntityCollection(root, 'ereignisse'),
     feiertage: loadEntityCollection(root, 'feiertage'),
-    leute: loadEntityCollection(root, 'leute'),
     orte: loadEntityCollection(root, 'orte'),
+    personen: loadEntityCollection(root, 'personen'),
   };
 }
 
@@ -152,8 +152,8 @@ export function validateTaxonomyIntegrity(
   const ids = {
     ereignisse: entityIds(collections.ereignisse),
     feiertage: entityIds(collections.feiertage),
-    leute: entityIds(collections.leute),
     orte: entityIds(collections.orte),
+    personen: entityIds(collections.personen),
   };
   const issues: TaxonomyValidationIssue[] = [];
 
@@ -198,12 +198,12 @@ export function validateTaxonomyIntegrity(
       references: referenceList(event.data, 'orte'),
     });
     validateReferenceList({
-      collectionPath: 'src/content/leute',
-      field: 'leute',
+      collectionPath: 'src/content/personen',
+      field: 'personen',
       file: event.file,
-      ids: ids.leute,
+      ids: ids.personen,
       issues,
-      references: referenceList(event.data, 'leute'),
+      references: referenceList(event.data, 'personen'),
     });
 
     const startDate = parseDate(event.data['startDate']);

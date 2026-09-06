@@ -77,7 +77,7 @@ Use `npm run lint:markdown:fix` or `npm run lint:fix` only when a broad cleanup 
 
 Astro collections are defined in [`src/content.config.ts`](src/content.config.ts). Blog posts live as `src/content/posts/**/index.md`. People, places, events, and topics live in these German-named collections:
 
-* `src/content/leute/**/_index.md`
+* `src/content/personen/**/_index.md`
 * `src/content/orte/**/_index.md`
 * `src/content/ereignisse/**/_index.md`
 * `src/content/themen/**/_index.md`

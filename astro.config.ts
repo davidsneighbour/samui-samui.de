@@ -55,9 +55,9 @@ export default defineConfig({
     mdx(),
     sitemap({
       // `/seite/2/`, `/seite/3/`, ... are thin duplicates of content already
-      // indexed via `/archiv/`, `/themen/`, and individual post permalinks --
-      // see documentation/archiv.md's indexing strategy. Page 1 (`/`) is
-      // unaffected since it isn't under `/seite/`.
+      // indexed via `/archiv/`, `/archiv/themen/`, and individual post
+      // permalinks -- see documentation/features/archiv.md's indexing
+      // strategy. Page 1 (`/`) is unaffected since it isn't under `/seite/`.
       filter: (page) => {
         const pathname = new URL(page).pathname;
         return (

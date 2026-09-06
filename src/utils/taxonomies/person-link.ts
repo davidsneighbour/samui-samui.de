@@ -10,7 +10,7 @@ import { buildLucideIconHast } from '../notices/icons';
 import { TOOLTIP_CONTROLLER_SCRIPT } from '../tooltip/controller';
 import { readYamlFrontmatter } from './frontmatter';
 
-const LEUTE_BASE = path.join(process.cwd(), 'src/content/leute');
+const PERSONEN_BASE = path.join(process.cwd(), 'src/content/personen');
 // `inline-flex` on the wrapper, not just `inline-block` on the icon: a
 // browser can still insert a line-break opportunity between two separate
 // adjacent inline-level boxes (the icon and the link) even with a literal
@@ -73,23 +73,23 @@ function hashString(input: string): string {
 }
 
 /**
- * Reads a `leute` entity's frontmatter directly from disk (no
+ * Reads a `personen` entity's frontmatter directly from disk (no
  * `astro:content`, unavailable to the rehype integration point -- see
  * src/utils/taxonomies/validation.ts for the same pattern) and validates
- * that a public page will actually exist for it: `leute/[slug].astro`'s
+ * that a public page will actually exist for it: `archiv/personen/[slug].astro`'s
  * `getStaticPaths` skips draft entries, so linking to one would 404.
  */
 function resolvePerson(
   id: string,
   sourceFile: string | undefined,
 ): ResolvedPerson {
-  const file = path.join(LEUTE_BASE, id, '_index.md');
+  const file = path.join(PERSONEN_BASE, id, '_index.md');
   let data: Record<string, unknown>;
   try {
     data = readYamlFrontmatter(file);
   } catch (cause) {
     throw new Error(
-      `Unknown leute id "${id}" referenced by <dnb-person>${sourceFile ? ` in ${sourceFile}` : ''}. ` +
+      `Unknown personen id "${id}" referenced by <dnb-person>${sourceFile ? ` in ${sourceFile}` : ''}. ` +
         `Create ${path.relative(process.cwd(), file)} first.`,
       { cause },
     );
@@ -103,7 +103,7 @@ function resolvePerson(
 
   const subtitle = data['subtitle'];
   return {
-    href: `/leute/${id}/`,
+    href: `/archiv/personen/${id}/`,
     subtitle: typeof subtitle === 'string' ? subtitle : undefined,
   };
 }

@@ -5,7 +5,7 @@ themen:
   - senat
   - politik
   - regierung
-leute:
+personen:
    - prayuth-chan-ocha
 publisher:
   description: true

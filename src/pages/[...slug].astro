@@ -39,8 +39,8 @@ const { newerPost, olderPost, post } = Astro.props;
 const postUrl = getPostUrl(post);
 const { Content } = await render(post);
 const cover = await getPostCover(post);
-const [leute, orte, ereignisse, feiertage] = await Promise.all([
-  getCollection('leute'),
+const [personen, orte, ereignisse, feiertage] = await Promise.all([
+  getCollection('personen'),
   getCollection('orte'),
   getCollection('ereignisse'),
   getCollection('feiertage'),
@@ -48,8 +48,8 @@ const [leute, orte, ereignisse, feiertage] = await Promise.all([
 const taxonomies = resolvePostTaxonomyGroups({
   ereignisse,
   feiertage,
-  leute,
   orte,
+  personen,
   post,
 });
 // Raw markdown source (not the rendered HTML) — cheap to grep and lets

@@ -7,7 +7,7 @@ themen:
   - regierung
   - politik
   - demokratie
-leute:
+personen:
    - prayuth-chan-ocha
 resources:
   - src: "file"

@@ -3,7 +3,7 @@ title: "Neuer alter Premierminister"
 date: 2019-06-06T19:25:48+07:00
 themen:
   - politik
-leute:
+personen:
    - prayuth-chan-ocha
    - thanathorn-juangroongruangkit
    - abhisit-vejjajiva

@@ -19,14 +19,22 @@ Already implemented and reused as-is where noted:
 ## Route structure
 
 ```text
-/archiv/                    year overview, statistics, search, curated topics
+/archiv/                    year overview, statistics, search, cross-archive navigation
 /archiv/[year]/             all posts of a year, grouped by month, anchors
-/themen/                    full topic index (alphabetical + frequency)
-/themen/[slug]/             topic page
+/archiv/themen/              full topic index (alphabetical + frequency)
+/archiv/themen/[slug]/       topic page
+/archiv/personen/            people index
+/archiv/personen/[slug]/     person page
+/archiv/orte/                place index
+/archiv/orte/[slug]/         place page
+/archiv/ereignisse/          event index
+/archiv/ereignisse/[slug]/   event page
 /[year]/[month]/slug/       individual post URLs — unchanged, never touched
 ```
 
 `/archiv/` is a distinct prefix from the post permalinks (`/yyyy/mm/slug/`), so there is no route conflict and breadcrumbs stay unambiguous.
+
+**Taxonomies are part of the archive, not siblings of it** ([#1688](https://github.com/davidsneighbour/samui-samui.de/issues/1688)): the `themen`, `personen` (formerly `leute` — renamed in the same change), `orte`, and `ereignisse` taxonomies were moved from top-level routes (`/themen/`, `/leute/`, `/orte/`, `/ereignisse/`) to `/archiv/themen/`, `/archiv/personen/`, `/archiv/orte/`, and `/archiv/ereignisse/`. `Themen` was removed from the header navigation — `Archiv` is now the sole entry point for chronological *and* topical/entity-based discovery. The old top-level taxonomy URLs (and the older `/tags/` URLs) remain permanent redirects (`src/data/redirects.json`, `netlify.toml`) to their new `/archiv/...` locations; they are not indexable and carry no canonical of their own.
 
 **Decision ([#910](https://github.com/davidsneighbour/samui-samui.de/issues/910)): no separate `/archiv/[year]/[month]/` routes are built.** The year page (`/archiv/[year]/`, [#909](https://github.com/davidsneighbour/samui-samui.de/issues/909)) already gives every month a directly linkable `#monat-MM` anchor, a compact post list, and month-level counts — the anchors are retained as the sole implementation of "browse a month" per the EN plan's explicit fallback. Reasons against building real month routes:
 
@@ -60,8 +68,14 @@ Indexable (included in the sitemap, get canonical + meta description):
 
 * `/archiv/`
 * `/archiv/[year]/` for every year with ≥1 post
-* `/themen/`
-* `/themen/[slug]/` for every topic with ≥1 post
+* `/archiv/themen/`
+* `/archiv/themen/[slug]/` for every topic with ≥1 post
+* `/archiv/personen/`, `/archiv/personen/[slug]/` for every non-draft person
+* `/archiv/orte/`, `/archiv/orte/[slug]/` for every non-draft place
+* `/archiv/ereignisse/`, `/archiv/ereignisse/[slug]/` for every non-draft event
+
+An entity page with `noindex: true` still builds but is excluded from the
+sitemap and sets `robots: noindex,follow` (`src/utils/taxonomies/noindex.ts`).
 
 Not indexable / never generated as static routes:
 
@@ -71,7 +85,7 @@ Not indexable / never generated as static routes:
 
 Excluded from the sitemap, but still built and crawlable (not `robots.txt` disallowed):
 
-* `/seite/[seite]/` (pages 2+ of the paginated blog listing) — thin duplicates of content already indexed via `/archiv/`, `/themen/`, and individual post permalinks. Filtered out via `@astrojs/sitemap`'s `filter` option in `astro.config.ts`. Page 1 (`/`) is unaffected.
+* `/seite/[seite]/` (pages 2+ of the paginated blog listing) — thin duplicates of content already indexed via `/archiv/`, `/archiv/themen/`, and individual post permalinks. Filtered out via `@astrojs/sitemap`'s `filter` option in `astro.config.ts`. Page 1 (`/`) is unaffected.
 
 `/robots.txt` (`public/robots.txt`) allows all crawling and points at `/sitemap-index.xml`; no route needs disallowing since the exclusions above are handled at the sitemap level instead.
 

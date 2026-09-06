@@ -4,6 +4,7 @@ import BlogList from '@components/content/blog/BlogList.astro';
 import Footer from '@components/layout/footer/Footer.astro';
 import BaseHead from '@components/layout/head/BaseHead.astro';
 import Header from '@components/layout/header/Header.astro';
+import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import {
   getEntityDescription,
   groupPostsByEntity,
@@ -12,12 +13,12 @@ import {
 
 export async function getStaticPaths() {
   const [people, posts] = await Promise.all([
-    getCollection('leute'),
+    getCollection('personen'),
     getCollection('posts'),
   ]);
 
   return people.filter(isPublicEntity).map((person) => {
-    const matchingPosts = groupPostsByEntity(posts, 'leute', person.id);
+    const matchingPosts = groupPostsByEntity(posts, 'personen', person.id);
 
     return {
       params: { slug: person.id },
@@ -27,7 +28,7 @@ export async function getStaticPaths() {
 }
 
 const { person, posts } = Astro.props;
-const description = getEntityDescription('leute', person);
+const description = getEntityDescription('personen', person);
 ---
 
 <!doctype html>
@@ -50,6 +51,15 @@ const description = getEntityDescription('leute', person);
       class="py-8"
     >
       <section>
+        <Breadcrumbs
+          class="mx-auto max-w-4xl px-4"
+          items={[
+            { href: '/', label: 'Startseite' },
+            { href: '/archiv/', label: 'Archiv' },
+            { href: '/archiv/personen/', label: 'Personen' },
+            { href: `/archiv/personen/${person.id}/`, label: person.data.title },
+          ]}
+        />
         <h1
           class="mx-auto mb-4 max-w-4xl px-4 text-2xl font-normal text-foreground"
         >

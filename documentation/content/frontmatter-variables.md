@@ -43,10 +43,10 @@ Post entries live in `src/content/posts/**/index.md`. The post schema is loose s
 | `featured_image` | Optional string. | Legacy absolute public image path retained for migrated posts. | [Legacy image presentation](../components/legacy-images.md) |
 | `lastmod` | Optional date. | Last-modified timestamp, interpreted in Thailand time. | [Post metadata](post-metadata.md) |
 | `legacyImages` | Enum, default `auto`. | Post-level legacy image presentation override: `auto`, `always`, or `never`. | [Legacy image presentation](../components/legacy-images.md) |
-| `leute` | Array of people references, default `[]`. | Registered person ids associated with the post. | [Content taxonomies](taxonomies.md) |
 | `options` | Object, default `{ featured: true }`. | Post display options. | [Blog list previews](../components/blog-list-previews.md) |
 | `options.featured` | Boolean, default `true`. | Set to `false` to opt a post out of the homepage lead-article slot. | [Blog list previews](../components/blog-list-previews.md) |
 | `orte` | Array of place references, default `[]`. | Registered place ids associated with the post. | [Content taxonomies](taxonomies.md) |
+| `personen` | Array of people references, default `[]`. | Registered person ids associated with the post. | [Content taxonomies](taxonomies.md) |
 | `publisher` | Optional loose object. | Repo-internal archive-maintenance metadata, never rendered publicly. | [Publisher frontmatter](publisher-frontmatter.md) |
 | `publisher.status` | Optional string. | Free-form internal work-queue label. | [Publisher frontmatter](publisher-frontmatter.md) |
 | `publisher.covermigration` | Optional boolean. | Internal marker for posts needing cover migration review. | [Post covers](../components/post-covers.md), [Post cover migration plan](post-cover-migration-plan.md), [Publisher frontmatter](publisher-frontmatter.md) |
@@ -62,7 +62,7 @@ Post entries live in `src/content/posts/**/index.md`. The post schema is loose s
 
 ## People
 
-People entries live in `src/content/leute/**/_index.md`.
+People entries live in `src/content/personen/**/_index.md`.
 
 | Property | Shape | Stub | Documentation |
 | ---------- | ------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
@@ -98,9 +98,9 @@ Event entries live in `src/content/ereignisse/**/_index.md`.
 | `aliases` | Array of strings, default `[]`. | Alternative names or spellings. | [Content taxonomies](taxonomies.md) |
 | `draft` | Boolean, default `false`. | Draft-state marker for event entries. | [Content schema](content-schema.md), [Content taxonomies](taxonomies.md) |
 | `endDate` | Optional date. | Event end date; must not be before `startDate`. | [Content taxonomies](taxonomies.md) |
-| `leute` | Array of people references, default `[]`. | Registered people associated with the event. | [Content taxonomies](taxonomies.md) |
 | `noindex` | Boolean, default `false`. | Search-engine indexing override for event pages. | [Content schema](content-schema.md) |
 | `orte` | Array of place references, default `[]`. | Registered places associated with the event. | [Content taxonomies](taxonomies.md) |
+| `personen` | Array of people references, default `[]`. | Registered people associated with the event. | [Content taxonomies](taxonomies.md) |
 | `recurring` | Boolean, default `false`. | Marks recurring events. | [Content taxonomies](taxonomies.md) |
 | `startDate` | Optional date. | Event start date. | [Content taxonomies](taxonomies.md) |
 | `type` | Optional enum. | Event type such as `wahl`, `militaerputsch`, `festival`, or `sonstiges`. | [Content taxonomies](taxonomies.md) |

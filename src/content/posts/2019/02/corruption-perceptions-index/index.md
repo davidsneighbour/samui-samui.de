@@ -4,7 +4,7 @@ date: 2019-02-03T18:44:00+07:00
 themen:
   - korruption
   - listen
-leute:
+personen:
    - prawit-wongsuwan
 resources:
   - src: "corruption-perceptions-index.jpg"
