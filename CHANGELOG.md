@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.15.0](https://github.com/davidsneighbour/samui-samui/compare/v2.14.0...v2.15.0) (2026-09-06)
+
+### Feat
+
+* **embeds:** serve YouTube/Vimeo posters from a local thumbnail cache ([76e08a0](https://github.com/davidsneighbour/samui-samui/commit/76e08a0ebf0e7232c38b0120cd8dd3fd3ed68f97))
+
 ## [2.14.0](https://github.com/davidsneighbour/samui-samui/compare/v2.13.0...v2.14.0) (2026-09-06)
 
 ### Feat
