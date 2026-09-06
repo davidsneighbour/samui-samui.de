@@ -60,7 +60,7 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
           <defs>
             <path
               id="masthead-ornament-path"
-              d="M48 11.5 H29 C23.5 11.5 23.5 5 17 5 C11.5 5 9.5 8.7 13 10 C14.8 10.7 16.1 9.3 14.7 8.6 M25 8.3 C22.7 6 19.4 6.3 18.4 8.4"
+              d="M48 10 H29 C23.5 10 23.5 3.5 17 3.5 C11.5 3.5 9.5 7.2 13 8.5 C14.8 9.2 16.1 7.8 14.7 7.1 M25 6.8 C22.7 4.5 19.4 4.8 18.4 6.9"
             ></path>
           </defs>
         </svg>
@@ -172,6 +172,9 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
      text + transparent fill). The two words always stack on separate lines;
      font-size scales fluidly with viewport width, capped at 200px. */
   .masthead {
+    display: grid;
+    grid-template-columns: max-content;
+    justify-content: center;
     margin: 0 auto;
     max-width: 100%;
     padding: 1.5rem 0.75rem 0;
@@ -261,14 +264,24 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
   .masthead__divider {
     display: flex;
     align-items: center;
-    gap: 0.375rem;
+    width: 100%;
     color: var(--color-primary);
   }
 
+  /* Ornaments claim most of the divider's width (it is already capped to
+     the widest of the wordmark/tagline via the grid above), the center
+     line just fills whatever they leave — flex-basis 0 plus a heavier
+     grow factor is what makes the flourish, not the line, the dominant
+     shape. aspect-ratio keeps the artwork undistorted as it scales. */
   .masthead__divider-ornament {
-    flex-shrink: 0;
-    width: clamp(1.5rem, 1rem + 2vw, 2.25rem);
+    flex: 5 1 0%;
+    /* clamp() with a vw component (not a % of the flex container) so the
+       browser has a definite intrinsic size to fall back to — a percentage
+       max-width here is indefinite during grid's max-content measurement of
+       .masthead and made the SVG balloon to its 300px UA-default size. */
+    max-width: clamp(3rem, 14vw, 9rem);
     height: auto;
+    aspect-ratio: 48 / 20;
     fill: none;
     stroke: currentColor;
     stroke-width: 1.5;
@@ -281,8 +294,8 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
   }
 
   .masthead__divider-line {
-    flex: 1 1 auto;
-    min-width: 1.5rem;
+    flex: 1 1 0%;
+    min-width: 0.5rem;
     height: 1px;
     background-color: currentColor;
   }
