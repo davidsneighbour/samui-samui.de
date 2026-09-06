@@ -57,7 +57,12 @@ const PLACEHOLDER_MAX_BYTES = 2000;
 const cliArgs = process.argv.slice(2);
 const force = cliArgs.includes('--force');
 const verify = cliArgs.includes('--verify');
-const explicitId = cliArgs.find((arg) => !arg.startsWith('--'));
+// lint-staged always appends the staged file paths to this command, which
+// this script's default (no-arg) full-project scan doesn't need -- ignore
+// path-like arguments instead of misreading one as an explicit video id.
+const explicitId = cliArgs.find(
+  (arg) => !arg.startsWith('--') && !arg.includes('/') && !arg.includes('\\'),
+);
 
 function detectProvider(id: string): Provider | null {
   if (YOUTUBE_ID_RE.test(id)) return 'youtube';
