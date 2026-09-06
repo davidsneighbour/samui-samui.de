@@ -251,7 +251,10 @@ const feiertage = defineCollection({
 // `image` is a genuine bundle-local file, hence the `image()` helper for
 // automatic optimization.
 const sitewide = defineCollection({
-  loader: glob({ base: './src/content/sitewide', pattern: '**/index.md' }),
+  loader: glob({
+    base: './src/content/sitewide',
+    pattern: '**/index.{md,mdx}',
+  }),
   schema: ({ image }) =>
     baseFrontmatter.extend({
       image: image().optional(),

@@ -11,7 +11,21 @@ _build:
 lastmod: 2023-09-10T22:19:20+07:00
 ---
 
-Patrick Kollitsch (Dipl. Ing. (FH), soviel Zeit muss sein) hat die ersten 18641 Tage seines Lebens hinter sich und die letzten 7861 Tage davon in Thailand auf Koh Samui, einer kleinen aber ausreichend großen Insel im Golf von Thailand, zu-, ge-, über-, be- und verbracht.
+import SamuiLifeBar from '@components/content/SamuiLifeBar.astro';
+import { formatNumberDE, getLifeStats } from '@utils/life-stats';
+
+export const stats = getLifeStats();
+
+Patrick Kollitsch (Dipl. Ing. (FH), soviel Zeit muss sein) hat die ersten {formatNumberDE(stats.totalDays)} Tage seines Lebens hinter sich und die letzten {formatNumberDE(stats.samuiDays)} Tage davon in Thailand auf Koh Samui, einer kleinen aber ausreichend großen Insel im Golf von Thailand, zu-, ge-, über-, be- und verbracht.
+
+<SamuiLifeBar
+  preSamuiDays={stats.preSamuiDays}
+  samuiDays={stats.samuiDays}
+  totalDays={stats.totalDays}
+  samuiSharePercent={stats.samuiSharePercent}
+  hasSamuiMajority={stats.hasSamuiMajority}
+  daysUntilOrSinceSamuiMajority={stats.daysUntilOrSinceSamuiMajority}
+/>
 
 Nun allein bewohnt er einen kleinen Bungalow unter Palmen in Bang Por im Nordwesten der Insel.
 

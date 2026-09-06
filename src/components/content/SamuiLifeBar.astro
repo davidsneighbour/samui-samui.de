@@ -1,0 +1,71 @@
+---
+// A small, understated "Lebenszeit, pedantisch aufgeteilt" timeline bar for
+// the author footer -- not a chart, just two proportional segments. See
+// src/content/sitewide/authorfooter/index.mdx for where this is used and
+// src/utils/life-stats.ts for how the numbers are computed.
+import { formatNumberDE, formatPercentDE } from '@utils/life-stats';
+
+interface Props {
+  preSamuiDays: number;
+  samuiDays: number;
+  totalDays: number;
+  samuiSharePercent: number;
+  hasSamuiMajority: boolean;
+  daysUntilOrSinceSamuiMajority: number;
+}
+
+const {
+  preSamuiDays,
+  samuiDays,
+  totalDays,
+  samuiSharePercent,
+  hasSamuiMajority,
+  daysUntilOrSinceSamuiMajority,
+} = Astro.props;
+
+const preSamuiPercent = (preSamuiDays / totalDays) * 100;
+const samuiPercent = 100 - preSamuiPercent;
+
+const majorityText = hasSamuiMajority
+  ? `Samui-Mehrheit seit ${formatNumberDE(daysUntilOrSinceSamuiMajority)} Tagen erreicht.`
+  : `Noch ${formatNumberDE(daysUntilOrSinceSamuiMajority)} Tage bis zur Samui-Mehrheit.`;
+---
+
+<div class="not-prose my-6">
+  <div
+    class="flex h-2.5 w-full overflow-hidden rounded-full bg-muted"
+    aria-hidden="true"
+  >
+    <span
+      class="block h-full bg-muted-foreground/40"
+      style={`width: ${preSamuiPercent.toFixed(4)}%`}
+    ></span>
+    <span
+      class="block h-full bg-primary"
+      style={`width: ${samuiPercent.toFixed(4)}%`}
+    ></span>
+  </div>
+  <dl class="mt-2 flex flex-wrap justify-between gap-x-4 gap-y-0.5 text-xs">
+    <div>
+      <dt class="inline text-muted-foreground">Vor Samui:</dt>
+      {' '}
+      <dd class="inline text-muted-foreground">
+        {formatNumberDE(preSamuiDays)}
+        Tage
+      </dd>
+    </div>
+    <div>
+      <dt class="inline font-medium text-card-foreground">Auf Samui:</dt>
+      {' '}
+      <dd class="inline font-medium text-card-foreground">
+        {formatNumberDE(samuiDays)}
+        Tage
+      </dd>
+    </div>
+  </dl>
+  <p class="mt-1 text-xs text-muted-foreground">
+    Samui-Anteil am bisherigen Gesamtwerk:{' '}
+    {formatPercentDE(samuiSharePercent)}&nbsp;%
+  </p>
+  <p class="text-xs text-muted-foreground">{majorityText}</p>
+</div>
