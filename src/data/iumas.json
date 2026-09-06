@@ -33,6 +33,12 @@
     "value": "Notizen. Unsortiert."
   },
   {
+    "from": "2026-09-06",
+    "precision": "day",
+    "type": "subtitle",
+    "value": "Notizen. (Pedantisch) Unsortiert."
+  },
+  {
     "from": null,
     "note": "Aktuelle Domain. Frühere Domains (u. a. schreibbloga.de) werden noch nachgetragen.",
     "precision": "unknown",
