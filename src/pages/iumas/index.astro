@@ -22,7 +22,7 @@ const iconByType: Record<IumasEntryType, typeof Heading> = {
 ---
 
 <PageLayout
-  title="IUMAS"
+  title="!iumaS ?iumaS"
   description="Samui rückwärts: Titel, Untertitel, Logos und Kopfbilder, die im Laufe der Jahre hier aufgetaucht sind."
 >
   <p class="mb-4 text-card-foreground">Samui rückwärts.</p>
@@ -35,12 +35,12 @@ const iconByType: Record<IumasEntryType, typeof Heading> = {
     <div
       class="iumas-rails"
       aria-hidden="true"
-    />
+    ></div>
     <ol class="iumas-list space-y-8">
       {timeline.map((entry) => {
           const Icon = iconByType[entry.type];
           return (
-            <li class:list={['iumas-row', `iumas-row--${entry.type}`]}>
+            <li class:list={["iumas-row", `iumas-row--${entry.type}`]}>
               <div class="iumas-node-cell" aria-hidden="true">
                 <span class="iumas-node">
                   <Icon class="size-3" />
@@ -49,22 +49,18 @@ const iconByType: Record<IumasEntryType, typeof Heading> = {
               </div>
               <div class="iumas-content min-w-0">
                 <p class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm font-medium text-muted-foreground">
-                  <span class="iumas-type-label">
-                    {IUMAS_TYPE_LABELS[entry.type]}
-                  </span>
+                  <span class="iumas-type-label">{IUMAS_TYPE_LABELS[entry.type]}</span>
                   <span aria-hidden="true">·</span>
                   <span>{entry.displayPeriod}</span>
                   {entry.isCurrent && (
-                    <span class="rounded-full bg-primary/15 px-2 py-0.5 text-xs font-medium text-primary">
-                      aktuell
-                    </span>
+                    <span class="rounded-full bg-primary/15 px-2 py-0.5 text-xs font-medium text-primary">aktuell</span>
                   )}
                 </p>
 
-                {entry.type === 'image' ? (
+                {entry.type === "image" ? (
                   <img
                     src={entry.value}
-                    alt={entry.alt ?? ''}
+                    alt={entry.alt ?? ""}
                     loading="lazy"
                     decoding="async"
                     class="mt-2 max-h-40 w-auto max-w-full rounded-(--radius) border border-border object-contain"
@@ -75,19 +71,12 @@ const iconByType: Record<IumasEntryType, typeof Heading> = {
                   </p>
                 )}
 
-                {entry.note && (
-                  <p class="mt-1 text-sm text-muted-foreground">
-                    {entry.note}
-                  </p>
-                )}
+                {entry.note && <p class="mt-1 text-sm text-muted-foreground">{entry.note}</p>}
                 {entry.source && (
                   <p class="mt-1 text-xs text-muted-foreground">
-                    Quelle:{' '}
+                    Quelle:{" "}
                     {entry.sourceUrl ? (
-                      <a
-                        href={entry.sourceUrl}
-                        class="text-link hover:underline"
-                      >
+                      <a href={entry.sourceUrl} class="text-link hover:underline">
                         {entry.source.type}
                       </a>
                     ) : (
