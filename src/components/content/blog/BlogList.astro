@@ -216,17 +216,22 @@ const showTopPagination = showPagination && pageNumber > 1;
                     set:html={summary}
                   >
                   </div>
-                  <p class="m-0 flex justify-end">
-                    <Button
-                      href={getPostUrl(post)}
-                      size="sm"
-                      variant="default"
-                    >
-                      Weiterlesen
-                    </Button>
-                  </p>
                 </div>
               </div>
+              <p
+                class:list={[
+                  'm-0 mt-4 flex',
+                  cover && index % 2 === 0 ? 'justify-start' : 'justify-end',
+                ]}
+              >
+                <Button
+                  href={getPostUrl(post)}
+                  size="sm"
+                  variant="default"
+                >
+                  Weiterlesen
+                </Button>
+              </p>
             </article>
           )}
       </li>
