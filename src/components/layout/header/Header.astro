@@ -61,6 +61,7 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
             <path
               id="masthead-ornament-path"
               d="M48 10 H29 C23.5 10 23.5 3.5 17 3.5 C11.5 3.5 9.5 7.2 13 8.5 C14.8 9.2 16.1 7.8 14.7 7.1 M25 6.8 C22.7 4.5 19.4 4.8 18.4 6.9"
+              vector-effect="non-scaling-stroke"
             ></path>
           </defs>
         </svg>
@@ -284,6 +285,10 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
     aspect-ratio: 48 / 20;
     fill: none;
     stroke: currentColor;
+    /* The ornament scales well past its 48x20 viewBox, which would scale
+       stroke-width right along with it; vector-effect="non-scaling-stroke"
+       on the path (below) keeps the stroke a constant 1.5px so it stays
+       identical to .masthead__divider-line's thickness at every size. */
     stroke-width: 1.5;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -296,7 +301,7 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
   .masthead__divider-line {
     flex: 1 1 0%;
     min-width: 0.5rem;
-    height: 1px;
+    height: 1.5px;
     background-color: currentColor;
   }
 
