@@ -133,6 +133,8 @@
     "test": "vitest run",
     "test:e2e": "playwright test",
     "test:watch": "vitest",
+    "thumbnails:fetch": "node src/scripts/content/fetch-video-thumbnails.ts",
+    "thumbnails:verify": "node src/scripts/content/fetch-video-thumbnails.ts --verify",
     "upgrade": "npx @astrojs/upgrade",
     "validate": "npm run validate:content && npm run validate:taxonomies",
     "validate:content": "astro check",
@@ -190,7 +192,9 @@
   },
   "lint-staged": {
     "src/content/**/*.{md,mdx}": [
-      "node src/scripts/lint-links.ts --staged"
+      "node src/scripts/lint-links.ts --staged",
+      "node src/scripts/content/fetch-video-thumbnails.ts",
+      "git add src/assets/images/video-thumbnails"
     ],
     "*.{js,cjs,mjs,ts,astro}": [
       "node src/scripts/normalize-german-characters.ts --write",

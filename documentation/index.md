@@ -30,6 +30,7 @@
 * [Publisher frontmatter](content/publisher-frontmatter.md) documents repo-internal archive-maintenance metadata.
 * [Source citations](content/source-citations.md) defines named Markdown footnote citations for sourced posts.
 * [Content taxonomies](content/taxonomies.md) explains the `leute`, `orte`, `ereignisse`, and `themen` taxonomy model.
+* [Video thumbnail cache](content/video-thumbnail-cache.md) documents the locally cached YouTube/Vimeo poster images, the fetch/verify script, and its lint-staged and GitHub Actions wiring.
 
 ## Features
 

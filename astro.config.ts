@@ -13,6 +13,7 @@ import { rehypeLegacyImages } from './src/scripts/rehype/legacy-images.ts';
 import { rehypeDnbNotice } from './src/scripts/rehype/notices.ts';
 import { rehypeDnbPerson } from './src/scripts/rehype/person-link.ts';
 import { rehypeSiteAge } from './src/scripts/rehype/site-age.ts';
+import { rehypeVideoPosters } from './src/scripts/rehype/video-posters.ts';
 import { remarkDnbTypography } from './src/scripts/remark/typography.ts';
 import { getNoindexTaxonomyPaths } from './src/utils/taxonomies/noindex.ts';
 
@@ -44,10 +45,6 @@ export default defineConfig({
 
   image: {
     breakpoints: [640, 750, 828, 1080, 1280],
-    // Lets `astro:assets` download and cache YouTube/Vimeo cover
-    // thumbnails at build time so they're served from `self` instead of
-    // fetched client-side from the provider on every page view (#1670).
-    domains: ['i.vimeocdn.com', 'i.ytimg.com'],
     layout: 'constrained',
     objectFit: 'cover',
     objectPosition: 'center',
@@ -104,6 +101,7 @@ export default defineConfig({
         rehypeDnbNotice,
         rehypeDnbPerson,
         rehypeSiteAge,
+        rehypeVideoPosters,
       ],
       remarkPlugins: [remarkDnbTypography],
     }),

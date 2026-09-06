@@ -99,11 +99,10 @@ const presentationMode =
       autoplay={cover.autoplay}
       class={videoClass}
     >
-      {cover.posterUrl && (
+      {cover.posterImage && (
         <Picture
           slot="poster"
-          src={cover.posterUrl}
-          inferSize
+          src={cover.posterImage}
           alt={cover.title}
           formats={['webp']}
           fallbackFormat="jpeg"
@@ -123,11 +122,10 @@ const presentationMode =
       autoplay={cover.autoplay}
       class={videoClass}
     >
-      {cover.posterUrl && (
+      {cover.posterImage && (
         <Picture
           slot="poster"
-          src={cover.posterUrl}
-          inferSize
+          src={cover.posterImage}
           alt={cover.title}
           formats={['webp']}
           fallbackFormat="jpeg"

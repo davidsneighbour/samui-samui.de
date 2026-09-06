@@ -62,6 +62,8 @@ Properties:
 
 Remove the matching in-body `<dnb-youtube>` or `<dnb-vimeo>` embed once it has been promoted to `cover`, unless the same video is intentionally discussed again inside the article.
 
+Video covers show a locally cached, git-committed poster image rather than ever contacting YouTube/Vimeo to render one — see [`video-thumbnail-cache.md`](../content/video-thumbnail-cache.md). Run `npm run thumbnails:fetch` after adding a new video cover so the poster is committed alongside the post.
+
 ## Migration helpers
 
 Use the cover helper to audit and migrate historical posts:
