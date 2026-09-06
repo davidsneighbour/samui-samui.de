@@ -1,6 +1,6 @@
 ---
 // A small, understated "Lebenszeit, pedantisch aufgeteilt" timeline bar for
-// the author footer -- not a chart, just two proportional segments. See
+// the author footer -- not a chart, just proportional segments. See
 // src/content/sitewide/authorfooter/index.mdx for where this is used and
 // src/utils/life-stats.ts for how the numbers are computed.
 import { formatNumberDE, formatPercentDE } from '@utils/life-stats';
@@ -25,6 +25,17 @@ const {
 
 const preSamuiPercent = (preSamuiDays / totalDays) * 100;
 const samuiPercent = 100 - preSamuiPercent;
+// The days still needed for samuiDays to overtake preSamuiDays, expressed as
+// a slice of the still-unmatched pre-Samui portion of the bar -- highlighted
+// separately so it reads as "this much more" rather than blending into the
+// plain pre-Samui segment.
+const remainingToMajorityPercent = hasSamuiMajority
+  ? 0
+  : Math.min(
+      preSamuiPercent,
+      (daysUntilOrSinceSamuiMajority / totalDays) * 100,
+    );
+const beforeSamuiPercent = preSamuiPercent - remainingToMajorityPercent;
 
 const majorityText = hasSamuiMajority
   ? `Samui-Mehrheit seit ${formatNumberDE(daysUntilOrSinceSamuiMajority)} Tagen erreicht.`
@@ -39,8 +50,14 @@ const majorityText = hasSamuiMajority
     <div class="flex h-2.5 w-full overflow-hidden rounded-full bg-muted">
       <span
         class="block h-full bg-muted-foreground/40"
-        style={`width: ${preSamuiPercent.toFixed(4)}%`}
+        style={`width: ${beforeSamuiPercent.toFixed(4)}%`}
       ></span>
+      {remainingToMajorityPercent > 0 && (
+        <span
+          class="block h-full bg-primary/40"
+          style={`width: ${remainingToMajorityPercent.toFixed(4)}%`}
+        ></span>
+      )}
       <span
         class="block h-full bg-primary"
         style={`width: ${samuiPercent.toFixed(4)}%`}
