@@ -4,6 +4,8 @@
 
 The site title uses the `setup.title` value from `src/data/setup.json`, split into word spans for presentation. The accessible name stays the full title, `Samui? Samui!`.
 
+The tagline shown under the title uses `setup.siteDescription` from the same file — `setup.json` is the source of truth for both, and `src/data/iumas.json` is a historical archive only (see [`documentation/features/iumas.md`](../features/iumas.md)). Changing the visible tagline means editing `setup.json`, not `iumas.json`; append a matching dated entry to `iumas.json` in the same change so the `/iumas/` history stays complete.
+
 ## Responsive title
 
 Below 576px viewport width, the title is forced into two lines:

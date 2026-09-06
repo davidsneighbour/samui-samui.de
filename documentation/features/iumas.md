@@ -1,8 +1,14 @@
 # IUMAS
 
-`IUMAS` is `SAMUI` backwards. It is the site's own history of how the weblog presented itself over time.
+`IUMAS` is `SAMUI` backwards. It is the site's own history of how the weblog presented itself over time — a read-only archive, not a data source the live site depends on.
 
 Canonical route: [`/iumas/`](../../src/pages/iumas/index.astro). Legacy route `/taglines/` permanently redirects to it (see `netlify.toml`, next to the existing `/tags/` → `/archiv/themen/` rule).
+
+## Source of truth
+
+`src/data/setup.json` is the source of truth for what the live site currently shows (`title`, `siteDescription` — the latter doubles as the masthead tagline and the meta/OG/Twitter description). `src/components/layout/header/Header.astro` reads `setup.json` directly and never depends on `iumas.json`.
+
+`src/data/iumas.json` is a historical log, not a live data source. **Whenever `setup.json`'s `title` or `siteDescription` changes, append a matching dated entry to `iumas.json` in the same change** (`type: "title"` or `type: "subtitle"`, `from` set to that day). Nothing enforces this automatically — do it by hand, in the same commit, every time.
 
 ## Four tracked dimensions
 
@@ -63,7 +69,7 @@ Set `value` to the asset path (as referenced elsewhere in the site, e.g. `/asset
 getCurrentIumasValue('subtitle'); // -> IumasEntry | undefined
 ```
 
-Returns `undefined` for a dimension with no recorded entries yet (e.g. `logo`, until historical logo data is added). The masthead (`src/components/layout/header/Header.astro`) reads the current subtitle this way instead of a separate tagline data source, and its info link points at `/iumas/`.
+Returns `undefined` for a dimension with no recorded entries yet (e.g. `logo`, until historical logo data is added). This is used only to mark entries as current (`isCurrent`) on the `/iumas/` archive timeline itself — it does not feed the masthead. The masthead (`src/components/layout/header/Header.astro`) reads `title`/`siteDescription` straight from `setup.json`; its tagline info link merely points at `/iumas/` for history.
 
 ## Period calculations
 
@@ -81,4 +87,4 @@ This is **not** a real Git graph: no merges, no branches, no parent relationship
 
 ## Migrating from the old tagline data
 
-The previous `/taglines/` implementation (`Tagline*` types, `src/data/taglines.json`) tracked only the subtitle dimension. Its entries were migrated into `iumas.json` as `type: "subtitle"` with `text` renamed to `value`; all dates, precision, notes, and sources were preserved as-is. `src/data/iumas.json` is now the single source of truth.
+The previous `/taglines/` implementation (`Tagline*` types, `src/data/taglines.json`) tracked only the subtitle dimension. Its entries were migrated into `iumas.json` as `type: "subtitle"` with `text` renamed to `value`; all dates, precision, notes, and sources were preserved as-is.

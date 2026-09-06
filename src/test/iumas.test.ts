@@ -10,6 +10,7 @@ import {
   type IumasEntryType,
   sortIumasEntries,
 } from '@data/iumas';
+import setup from '@data/setup.json';
 import { describe, expect, it } from 'vitest';
 
 function entry(overrides: Partial<IumasEntry> = {}): IumasEntry {
@@ -324,7 +325,7 @@ describe('buildIumasTimeline', () => {
 });
 
 describe('getCurrentIumasValue', () => {
-  it('retrieves the current subtitle, matching what the masthead renders', () => {
+  it('retrieves the current subtitle entry (for the /iumas/ archive page only)', () => {
     const current = getCurrentIumasValue('subtitle');
     expect(current).toBeDefined();
     expect(current?.type).toBe('subtitle');
@@ -343,6 +344,13 @@ describe('getCurrentIumasValue', () => {
 
   it('returns undefined for a lane with no recorded entries yet (logo)', () => {
     expect(getCurrentIumasValue('logo')).toBeUndefined();
+  });
+});
+
+describe('setup.json / iumas.json sync', () => {
+  it('keeps the newest iumas subtitle entry in sync with setup.json (source of truth)', () => {
+    const current = getCurrentIumasValue('subtitle');
+    expect(current?.value).toBe(setup.siteDescription);
   });
 });
 
