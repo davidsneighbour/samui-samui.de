@@ -48,6 +48,38 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
       </span>
     </a>
     <div class="masthead__tagline-wrap">
+      <div
+        class="masthead__divider"
+        aria-hidden="true"
+      >
+        <svg
+          width="0"
+          height="0"
+          style="position: absolute;"
+        >
+          <defs>
+            <path
+              id="masthead-ornament-path"
+              d="M48 11.5 H29 C23.5 11.5 23.5 5 17 5 C11.5 5 9.5 8.7 13 10 C14.8 10.7 16.1 9.3 14.7 8.6 M25 8.3 C22.7 6 19.4 6.3 18.4 8.4"
+            ></path>
+          </defs>
+        </svg>
+        <svg
+          class="masthead__divider-ornament"
+          viewBox="0 0 48 20"
+          focusable="false"
+        >
+          <use href="#masthead-ornament-path"></use>
+        </svg>
+        <span class="masthead__divider-line"></span>
+        <svg
+          class="masthead__divider-ornament masthead__divider-ornament--right"
+          viewBox="0 0 48 20"
+          focusable="false"
+        >
+          <use href="#masthead-ornament-path"></use>
+        </svg>
+      </div>
       <span class="masthead__tagline">{setup.siteDescription}</span>
       <a
         href="/iumas/"
@@ -220,8 +252,39 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
   .masthead__tagline-wrap {
     position: relative;
     margin-top: 0.85rem;
-    padding: 4px 1.75rem;
-    border-top: 1px solid var(--color-primary);
+    padding: 4px 1.75rem 0;
+  }
+
+  /* Lanna-inspired ornamental divider: a single fern-curl motif drawn once
+     as a shared <path>, referenced by both ornaments via <use> — the right
+     side is the same drawing mirrored with scaleX(-1), not a second path. */
+  .masthead__divider {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    color: var(--color-primary);
+  }
+
+  .masthead__divider-ornament {
+    flex-shrink: 0;
+    width: clamp(1.5rem, 1rem + 2vw, 2.25rem);
+    height: auto;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .masthead__divider-ornament--right {
+    transform: scaleX(-1);
+  }
+
+  .masthead__divider-line {
+    flex: 1 1 auto;
+    min-width: 1.5rem;
+    height: 1px;
+    background-color: currentColor;
   }
 
   .masthead__tagline {
