@@ -19,17 +19,21 @@ const iconByType: Record<IumasEntryType, typeof Heading> = {
   subtitle: Heading2,
   title: Heading,
 };
+
+const introText = 'Samui rückwärts.';
+const detailText =
+  'Titel, Untertitel, Logos und Kopfbilder, die hier im Laufe der Jahre aufgetaucht sind. Soweit das alles noch rekonstruierbar ist.';
+// The meta description reuses the same two sentences shown on the page
+// itself, rather than a separately maintained copy.
+const pageDescription = `${introText.replace(/\.$/, '')}: ${detailText}`;
 ---
 
 <PageLayout
   title="!iumaS ?iumaS"
-  description="Samui rückwärts: Titel, Untertitel, Logos und Kopfbilder, die im Laufe der Jahre hier aufgetaucht sind."
+  description={pageDescription}
 >
-  <p class="mb-4 text-card-foreground">Samui rückwärts.</p>
-  <p class="mb-10 text-card-foreground">
-    Titel, Untertitel, Logos und Kopfbilder, die hier im Laufe der Jahre
-    aufgetaucht sind. Soweit das alles noch rekonstruierbar ist.
-  </p>
+  <p class="mb-4 text-card-foreground">{introText}</p>
+  <p class="mb-10 text-card-foreground">{detailText}</p>
 
   <div class="iumas-graph relative">
     <div
