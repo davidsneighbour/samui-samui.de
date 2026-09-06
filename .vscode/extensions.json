@@ -1,10 +1,11 @@
 {
   "recommendations": [
+    "biomejs.biome",
+    "astro-build.astro-vscode",
     "naumovs.color-highlight",
     "github.copilot-labs",
     "christian-kohler.npm-intellisense",
     "dunstontc.vscode-go-syntax",
-    "dbaeumer.vscode-eslint",
     "mikestead.dotenv",
     "editorconfig.editorconfig",
     "github.vscode-github-actions",
@@ -35,5 +36,9 @@
     "mjmlio.vscode-mjml",
     "ms-vscode.vscode-speech",
     "emeraldwalk.runonsave"
+  ],
+  "unwantedRecommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
   ]
 }
