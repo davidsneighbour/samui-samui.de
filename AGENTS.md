@@ -259,6 +259,21 @@ of routine work.
 against staged files only) and a `pre-push` hook (`npm run check`, full-repo) via the
 `prepare` script, which `npm install` runs automatically.
 
+**ESLint and Prettier are explicitly not part of this toolchain — Biome fully
+replaces both.** If an agent encounters either one anywhere in this
+repository — a config file (`.eslintrc*`, `.prettierrc*`, `prettier.config.*`),
+a `package.json`/fragment dependency, a `.vscode/settings.json` formatter
+binding or code action (e.g. `source.fixAll.eslint`), a CI step, or a
+recommended/installed editor extension (`dbaeumer.vscode-eslint`,
+`esbenp.prettier-vscode`) — treat it as regressed state, stop, and flag it to
+the user rather than silently working around it or extending it further. This
+guards against exactly the failure mode already hit once: with no explicit
+`editor.defaultFormatter` pinned to `biomejs.biome` per language, VS Code
+silently fell back to a Prettier-flavoured formatter on save, producing
+double-quoted output that diverged from what the Biome-driven git hooks
+enforce (see `.vscode/settings.json`'s per-language `editor.defaultFormatter`
+entries and `unwantedRecommendations` in `.vscode/extensions.json`).
+
 ## Architecture
 
 ### Astro foundation
