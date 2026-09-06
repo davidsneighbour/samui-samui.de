@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.14.0](https://github.com/davidsneighbour/samui-samui/compare/v2.13.0...v2.14.0) (2026-09-06)
+
+### Feat
+
+* **footer:** add hand-drawn hover animation to copyright years ([1c4fcff](https://github.com/davidsneighbour/samui-samui/commit/1c4fcffb0b4e95579825bdbe7a78f01c509b9723))
+* **iumas:** render entry values as Markdown ([6ad9663](https://github.com/davidsneighbour/samui-samui/commit/6ad96633806659adb89860398e8e06edff9c617c))
+
+### Fix
+
+* **header:** let search field fill the available header space ([8063a94](https://github.com/davidsneighbour/samui-samui/commit/8063a94d98f1011bd9119f79a2a167f40384e361))
+* **search:** replace native blue focus outline with animated primary ring ([20341b6](https://github.com/davidsneighbour/samui-samui/commit/20341b6e5de198fa0435a4eb22232f690c12aa02))
+
 ## [2.13.0](https://github.com/davidsneighbour/samui-samui/compare/v2.12.0...v2.13.0) (2026-09-05)
 
 ### Feat
