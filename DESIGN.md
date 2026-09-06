@@ -287,7 +287,12 @@ but only these faces are wired into CSS, deliberately, to avoid unused
   is ever fetched in practice — the other three subsets stay registered
   but unrequested. Anuphan's variable weight axis covers 100–700, which
   is enough to sit alongside Panton's 400–900 without a mismatch at the
-  weights actually used in content (400/700).
+  weights actually used in content (400/700). Anuphan reads visibly
+  heavier than Panton at the same numeric weight, so `body` in
+  `theme.css` pins Anuphan's `wght` axis to a fixed `300` via
+  `font-variation-settings` regardless of the requested weight — a
+  no-op for Panton, which is a static (non-variable) font and ignores
+  the property.
 
 * **`brand-masthead`** — the site name in `Header.astro`. Weight 900,
   uppercase (via `text-transform`, not a font feature — DESIGN.md's

@@ -13,7 +13,6 @@
  * effect to duplicate a per-component guard.
  */
 @media (prefers-reduced-motion: reduce) {
-
   *,
   ::before,
   ::after {
@@ -182,8 +181,10 @@
   font-style: normal;
   font-display: swap;
   src:
-    url("/assets/webfonts/400/regular/panton-regular-webfont.woff2") format("woff2"),
-    url("/assets/webfonts/400/regular/panton-regular-webfont.woff") format("woff");
+    url("/assets/webfonts/400/regular/panton-regular-webfont.woff2")
+    format("woff2"),
+    url("/assets/webfonts/400/regular/panton-regular-webfont.woff")
+    format("woff");
 }
 
 @font-face {
@@ -192,8 +193,10 @@
   font-style: italic;
   font-display: swap;
   src:
-    url("/assets/webfonts/400/regular-italic/panton-regularitalic-webfont.woff2") format("woff2"),
-    url("/assets/webfonts/400/regular-italic/panton-regularitalic-webfont.woff") format("woff");
+    url("/assets/webfonts/400/regular-italic/panton-regularitalic-webfont.woff2")
+    format("woff2"),
+    url("/assets/webfonts/400/regular-italic/panton-regularitalic-webfont.woff")
+    format("woff");
 }
 
 @font-face {
@@ -212,8 +215,10 @@
   font-style: normal;
   font-display: swap;
   src:
-    url("/assets/webfonts/700/extra-bold/panton-extrabold-webfont.woff2") format("woff2"),
-    url("/assets/webfonts/700/extra-bold/panton-extrabold-webfont.woff") format("woff");
+    url("/assets/webfonts/700/extra-bold/panton-extrabold-webfont.woff2")
+    format("woff2"),
+    url("/assets/webfonts/700/extra-bold/panton-extrabold-webfont.woff")
+    format("woff");
 }
 
 @font-face {
@@ -230,6 +235,16 @@ body {
   background-color: var(--color-background);
   color: var(--color-foreground);
   font-family: var(--font-sans);
+
+  /*
+   * Anuphan (the Thai fallback in --font-sans) renders visibly heavier than
+   * Panton at the same numeric font-weight -- Thai text at "regular" (400)
+   * reads as bold next to Latin regular. Pin its variable "wght" axis two
+   * steps below whatever weight is requested so Thai glyphs sit visually
+   * level with the surrounding Latin type. Panton ships as static per-weight
+   * files (not a variable font), so this has no effect on it.
+   */
+  font-variation-settings: "wght" 300;
 }
 
 /*
@@ -288,10 +303,12 @@ html {
   inset: -2px;
   border-radius: calc(var(--pf-border-radius) + 2px);
   padding: 2px;
-  background: conic-gradient(from var(--pf-focus-angle),
-      transparent 0deg,
-      var(--color-primary) 90deg,
-      transparent 180deg);
+  background: conic-gradient(
+    from var(--pf-focus-angle),
+    transparent 0deg,
+    var(--color-primary) 90deg,
+    transparent 180deg
+  );
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
@@ -426,7 +443,7 @@ h6 {
   color: var(--color-card-foreground);
 }
 
-.mapcn-samui .maplibregl-ctrl-group button+button {
+.mapcn-samui .maplibregl-ctrl-group button + button {
   border-top-color: var(--color-border);
 }
 
