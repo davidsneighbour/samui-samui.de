@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import ArchiveNav from '@components/layout/navigation/ArchiveNav.astro';
 import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import PageLayout from '@layouts/PageLayout.astro';
 import {
@@ -23,6 +24,10 @@ const people = sortEntitiesByTitle(
       { href: '/archiv/', label: 'Archiv' },
       { href: '/archiv/personen/', label: 'Personen' },
     ]}
+  />
+  <ArchiveNav
+    current="personen"
+    class="mb-8"
   />
   <ul class="columns-1 gap-8 sm:columns-2">
     {people.map((person) => (

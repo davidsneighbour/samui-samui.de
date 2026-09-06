@@ -1,0 +1,71 @@
+---
+// Small cross-archive wayfinding bar shown on every /archiv/ page (the
+// index, year pages, and all four taxonomy index/detail pages): a
+// consistent "you are here, here's where else you can go" beacon so a
+// visitor landing on e.g. a single Ereignis page can still jump straight to
+// Themen, Personen, Orte, or back to the chronological archive without
+// returning to /archiv/ first. Styled as a `bg-muted` panel (see
+// ContactMap.tsx and BlogPost.astro's source-attribution strip for the same
+// "static bg-muted info panel" pattern) so it reads as a distinct surface
+// against the surrounding `bg-card` page body, not another paragraph.
+type ArchiveSection =
+  | 'chronologisch'
+  | 'themen'
+  | 'personen'
+  | 'orte'
+  | 'ereignisse';
+
+interface Props {
+  current: ArchiveSection;
+  // The archive index page itself links to its own in-page `#nach-jahr`
+  // anchor; every other /archiv/ page links back to that anchor on the
+  // index page instead.
+  chronologicalHref?: string | undefined;
+  class?: string | undefined;
+}
+
+const {
+  current,
+  chronologicalHref = '/archiv/#nach-jahr',
+  class: className,
+} = Astro.props as Props;
+
+const items: { key: ArchiveSection; href: string; label: string }[] = [
+  { href: chronologicalHref, key: 'chronologisch', label: 'Chronologisch' },
+  { href: '/archiv/themen/', key: 'themen', label: 'Themen' },
+  { href: '/archiv/personen/', key: 'personen', label: 'Personen' },
+  { href: '/archiv/orte/', key: 'orte', label: 'Orte' },
+  { href: '/archiv/ereignisse/', key: 'ereignisse', label: 'Ereignisse' },
+];
+---
+
+<nav
+  aria-label="Im Archiv"
+  class:list={[
+    'flex flex-wrap items-center gap-x-4 gap-y-2 rounded-(--radius) border border-border bg-muted px-4 py-3 text-sm',
+    className,
+  ]}
+>
+  <span class="text-muted-foreground">Im Archiv:</span>
+  {items.map((item, index) => (
+      <>
+        <a
+          href={item.href}
+          aria-current={item.key === current ? 'page' : undefined}
+          class={item.key === current
+            ? 'font-medium text-card-foreground'
+            : 'text-link hover:underline'}
+        >
+          {item.label}
+        </a>
+        {index < items.length - 1 && (
+          <span
+            class="text-muted-foreground"
+            aria-hidden="true"
+          >
+            ·
+          </span>
+        )}
+      </>
+    ))}
+</nav>

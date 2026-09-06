@@ -4,6 +4,7 @@ import BlogList from '@components/content/blog/BlogList.astro';
 import Footer from '@components/layout/footer/Footer.astro';
 import BaseHead from '@components/layout/head/BaseHead.astro';
 import Header from '@components/layout/header/Header.astro';
+import ArchiveNav from '@components/layout/navigation/ArchiveNav.astro';
 import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import {
   getEntityDescription,
@@ -58,6 +59,10 @@ const description = getEntityDescription('ereignisse', event);
             { href: '/archiv/ereignisse/', label: 'Ereignisse' },
             { href: `/archiv/ereignisse/${event.id}/`, label: event.data.title },
           ]}
+        />
+        <ArchiveNav
+          current="ereignisse"
+          class="mx-auto mb-6 max-w-4xl px-4"
         />
         <h1
           class="mx-auto mb-4 max-w-4xl px-4 text-2xl font-normal text-foreground"

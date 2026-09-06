@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import FormattedDate from '@components/content/date/FormattedDate.astro';
 import SiteAge from '@components/content/date/SiteAge.astro';
+import ArchiveNav from '@components/layout/navigation/ArchiveNav.astro';
 import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import Accordion from '@components/ui/accordion.astro';
 import Badge from '@components/ui/badge.astro';
@@ -211,57 +212,11 @@ const curatedThemen = themaGroups.slice(0, 12);
     </div>
   </dl>
 
-  <nav
-    aria-label="Im Archiv"
-    class="mb-10 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm"
-  >
-    <span class="text-muted-foreground">Im Archiv:</span>
-    <a
-      href="#nach-jahr"
-      class="text-link hover:underline"
-      >Chronologisch</a
-    >
-    <span
-      class="text-muted-foreground"
-      aria-hidden="true"
-      >·</span
-    >
-    <a
-      href="/archiv/themen/"
-      class="text-link hover:underline"
-      >Themen</a
-    >
-    <span
-      class="text-muted-foreground"
-      aria-hidden="true"
-      >·</span
-    >
-    <a
-      href="/archiv/personen/"
-      class="text-link hover:underline"
-      >Personen</a
-    >
-    <span
-      class="text-muted-foreground"
-      aria-hidden="true"
-      >·</span
-    >
-    <a
-      href="/archiv/orte/"
-      class="text-link hover:underline"
-      >Orte</a
-    >
-    <span
-      class="text-muted-foreground"
-      aria-hidden="true"
-      >·</span
-    >
-    <a
-      href="/archiv/ereignisse/"
-      class="text-link hover:underline"
-      >Ereignisse</a
-    >
-  </nav>
+  <ArchiveNav
+    current="chronologisch"
+    chronologicalHref="#nach-jahr"
+    class="mb-10"
+  />
 
   <section class="mb-10">
     <h2 class="mb-2 text-lg font-medium text-card-foreground">

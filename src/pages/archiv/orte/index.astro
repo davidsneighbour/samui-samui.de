@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import ArchiveNav from '@components/layout/navigation/ArchiveNav.astro';
 import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import PageLayout from '@layouts/PageLayout.astro';
 import {
@@ -23,6 +24,10 @@ const places = sortEntitiesByTitle(
       { href: '/archiv/', label: 'Archiv' },
       { href: '/archiv/orte/', label: 'Orte' },
     ]}
+  />
+  <ArchiveNav
+    current="orte"
+    class="mb-8"
   />
   {places.length > 0 ? (
     <ul class="columns-1 gap-8 sm:columns-2">

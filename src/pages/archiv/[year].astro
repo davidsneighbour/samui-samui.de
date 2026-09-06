@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import ArchiveNav from '@components/layout/navigation/ArchiveNav.astro';
 import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import PageLayout from '@layouts/PageLayout.astro';
 import {
@@ -90,6 +91,11 @@ const dayMonth = (date: Date) => {
       { href: '/archiv/', label: 'Archiv' },
       { href: `/archiv/${year}/`, label: String(year) },
     ]}
+  />
+
+  <ArchiveNav
+    current="chronologisch"
+    class="mb-6"
   />
 
   <a
