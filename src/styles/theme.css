@@ -13,6 +13,7 @@
  * effect to duplicate a per-component guard.
  */
 @media (prefers-reduced-motion: reduce) {
+
   *,
   ::before,
   ::after {
@@ -181,10 +182,8 @@
   font-style: normal;
   font-display: swap;
   src:
-    url("/assets/webfonts/400/regular/panton-regular-webfont.woff2")
-    format("woff2"),
-    url("/assets/webfonts/400/regular/panton-regular-webfont.woff")
-    format("woff");
+    url("/assets/webfonts/400/regular/panton-regular-webfont.woff2") format("woff2"),
+    url("/assets/webfonts/400/regular/panton-regular-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -193,10 +192,8 @@
   font-style: italic;
   font-display: swap;
   src:
-    url("/assets/webfonts/400/regular-italic/panton-regularitalic-webfont.woff2")
-    format("woff2"),
-    url("/assets/webfonts/400/regular-italic/panton-regularitalic-webfont.woff")
-    format("woff");
+    url("/assets/webfonts/400/regular-italic/panton-regularitalic-webfont.woff2") format("woff2"),
+    url("/assets/webfonts/400/regular-italic/panton-regularitalic-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -215,10 +212,8 @@
   font-style: normal;
   font-display: swap;
   src:
-    url("/assets/webfonts/700/extra-bold/panton-extrabold-webfont.woff2")
-    format("woff2"),
-    url("/assets/webfonts/700/extra-bold/panton-extrabold-webfont.woff")
-    format("woff");
+    url("/assets/webfonts/700/extra-bold/panton-extrabold-webfont.woff2") format("woff2"),
+    url("/assets/webfonts/700/extra-bold/panton-extrabold-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -293,12 +288,10 @@ html {
   inset: -2px;
   border-radius: calc(var(--pf-border-radius) + 2px);
   padding: 2px;
-  background: conic-gradient(
-    from var(--pf-focus-angle),
-    transparent 0deg,
-    var(--color-primary) 90deg,
-    transparent 180deg
-  );
+  background: conic-gradient(from var(--pf-focus-angle),
+      transparent 0deg,
+      var(--color-primary) 90deg,
+      transparent 180deg);
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
@@ -433,7 +426,7 @@ h6 {
   color: var(--color-card-foreground);
 }
 
-.mapcn-samui .maplibregl-ctrl-group button + button {
+.mapcn-samui .maplibregl-ctrl-group button+button {
   border-top-color: var(--color-border);
 }
 
@@ -465,6 +458,7 @@ h6 {
 .month-dot {
   position: relative;
 }
+
 .month-dot::after {
   content: attr(data-month);
   position: absolute;
@@ -482,6 +476,7 @@ h6 {
   opacity: 0;
   transition: opacity 150ms ease-out;
 }
+
 @media (hover: hover) and (pointer: fine) {
   .month-dot:hover::after {
     opacity: 1;
@@ -506,6 +501,7 @@ h6 {
 .text-box-balanced {
   translate: 0 var(--text-optical-offset, -0.06em);
 }
+
 @supports (text-box: trim-both cap alphabetic) {
   .text-box-balanced {
     translate: none;
@@ -590,4 +586,11 @@ h6 {
   visibility: visible;
   opacity: 1;
   transform: translateY(0);
+}
+
+/* hyphenation */
+p {
+  hyphens: auto;
+  hyphenate-limit-chars: auto 3;
+  hyphenate-limit-lines: 4;
 }
