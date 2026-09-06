@@ -273,6 +273,22 @@ woff2/woff under `public/assets/webfonts/`, loaded via `@font-face` in
 but only these faces are wired into CSS, deliberately, to avoid unused
 `@font-face` requests.
 
+* **Thai fallback** — `--font-sans` is
+  `"Panton", "Anuphan Variable", ui-sans-serif, system-ui, sans-serif`.
+  Panton has no Thai glyphs, so any Thai character in otherwise-Latin
+  content (mixed German/Thai strings, `<span class="thai">`, `/iumas`,
+  post body text) automatically falls through to **Anuphan**, a Google
+  font self-hosted via `@fontsource-variable/anuphan` (`wght.css`,
+  imported in `theme.css`). No markup or JS is needed per Thai fragment
+  — the browser resolves per-character. The package's variable-font CSS
+  ships one `@font-face` per Unicode subset (thai, vietnamese,
+  latin-ext, latin), each scoped with its own `unicode-range`; because
+  Panton already serves every Latin glyph, only the `thai` subset file
+  is ever fetched in practice — the other three subsets stay registered
+  but unrequested. Anuphan's variable weight axis covers 100–700, which
+  is enough to sit alongside Panton's 400–900 without a mismatch at the
+  weights actually used in content (400/700).
+
 * **`brand-masthead`** — the site name in `Header.astro`. Weight 900,
   uppercase (via `text-transform`, not a font feature — DESIGN.md's
   typography schema has no uppercase token, so this is a CSS rule, not a
