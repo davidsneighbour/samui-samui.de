@@ -115,9 +115,9 @@ When a feature changes, update the matching documentation file in the same chang
 
 Production is hosted on Netlify at [samui-samui.de](https://samui-samui.de). The checked-in [`netlify.toml`](netlify.toml) defines the build command, publish directory, functions directory, and security headers.
 
-`npm run deploy` is the production deployment command. It prints production warnings, shows the current Netlify account, optionally runs `netlify switch`, runs checks, releases when local commits exist after the latest local tag, builds, and then runs `netlify deploy --prod --open`.
+`npm run deploy` creates a Netlify deploy preview. It shows the current Netlify account, optionally runs `netlify switch`, runs checks, builds, and then runs `netlify deploy --open`.
 
-Read [Deployment](documentation/deployment.md) before using the deployment command. A production deploy can publish the current branch to the live website.
+Use `npm run deploy:production` only when a live release is intentional. It prints production warnings, shows the current Netlify account, optionally runs `netlify switch`, runs checks, releases when local commits exist after the latest local tag, builds, and then requires confirmation because Netlify currently charges 15 credits for each production deploy.
 
 The contact form needs Resend and Cloudflare Turnstile environment variables. Keep secrets out of committed files.
 
@@ -143,6 +143,7 @@ The contact form needs Resend and Cloudflare Turnstile environment variables. Ke
 * `npm run publisher -- <command>` manages internal archive-maintenance metadata.
 * `npm run covers -- <command>` audits or migrates post cover metadata.
 * `npm run compile:package` regenerates `package.json` from package fragments and refreshes install state.
-* `npm run deploy` runs the guarded production Netlify deployment sequence.
+* `npm run deploy` runs the guarded Netlify deploy-preview sequence.
+* `npm run deploy:production` runs the guarded production Netlify deployment sequence.
 
 See [Quality gates](documentation/quality-gates.md), [Link checking](documentation/link-checking.md), and [Deployment](documentation/deployment.md) for the longer explanations.

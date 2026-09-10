@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "thumbnails:fetch": "node src/scripts/content/fetch-video-thumbnails.ts",
+    "thumbnails:verify": "node src/scripts/content/fetch-video-thumbnails.ts --verify"
+  }
+}

@@ -102,6 +102,7 @@
     "compile:package:update": "wireit",
     "covers": "node src/scripts/post-covers.ts",
     "deploy": "node ./src/scripts/deploy.ts",
+    "deploy:production": "node ./src/scripts/deploy.ts --production",
     "dev": "node src/scripts/dev.ts",
     "dev:docs": "node src/scripts/documentation-server.ts",
     "dev:site": "astro dev",

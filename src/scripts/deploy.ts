@@ -3,8 +3,12 @@ import { createInterface } from 'node:readline/promises';
 
 const productionWarnings = [
   'This deploy goes to the live production website.',
+  'Netlify currently charges 15 credits for each production deploy.',
+  'On the Free plan, 10 production deploys use 50% of the monthly 300-credit allowance.',
   'Make sure the correct Netlify user for this website is logged in.',
 ];
+
+const PRODUCTION_CONFIRMATION = 'spend 15 credits';
 
 type RunOptions = {
   allowFailure?: boolean;
@@ -16,13 +20,22 @@ type RunResult = {
   output: string;
 };
 
-function printHeader() {
+function isProductionDeploy() {
+  return process.argv.includes('--production');
+}
+
+function printHeader(production: boolean) {
   const line = '='.repeat(72);
   console.log(`\n${line}`);
-  console.log('Production deploy');
+  console.log(production ? 'Production deploy' : 'Preview deploy');
   console.log(line);
-  for (const warning of productionWarnings) {
-    console.log(`WARNING: ${warning}`);
+  if (production) {
+    for (const warning of productionWarnings) {
+      console.log(`WARNING: ${warning}`);
+    }
+  } else {
+    console.log('This deploy creates a Netlify deploy preview.');
+    console.log('It does not publish to the live production website.');
   }
   console.log(line);
 }
@@ -149,13 +162,50 @@ async function releaseIfNeeded() {
   console.log('\nNo commits after the latest tag. Skipping release.');
 }
 
+async function confirmProductionDeploy() {
+  if (!process.stdin.isTTY) {
+    throw new Error(
+      `Production deploy requires an interactive confirmation: type "${PRODUCTION_CONFIRMATION}".`,
+    );
+  }
+
+  const readline = createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+
+  try {
+    const answer = await readline.question(
+      `\nType "${PRODUCTION_CONFIRMATION}" to confirm this production deploy will use 15 Netlify credits: `,
+    );
+
+    if (answer.trim() !== PRODUCTION_CONFIRMATION) {
+      throw new Error('Production deploy confirmation did not match.');
+    }
+  } finally {
+    readline.close();
+  }
+}
+
 async function main() {
-  printHeader();
+  const production = isProductionDeploy();
+
+  printHeader(production);
+  if (production) {
+    await confirmProductionDeploy();
+  }
   await maybeSwitchNetlifyUser();
   await run('npm', ['run', 'check']);
-  await releaseIfNeeded();
+  if (production) {
+    await releaseIfNeeded();
+  }
   await run('npm', ['run', 'build']);
-  await run('netlify', ['deploy', '--prod', '--open']);
+  if (production) {
+    await run('netlify', ['deploy', '--prod', '--open']);
+    return;
+  }
+
+  await run('netlify', ['deploy', '--open']);
 }
 
 main().catch((error: unknown) => {
