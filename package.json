@@ -81,7 +81,7 @@
     "vite-plugin-mkcert": "2.1.0",
     "vitest": "5.0.0",
     "wireit": "0.14.13",
-    "yaml": "2.9.0",
+    "yaml": "2.9.1",
     "zod": "4.5.4"
   },
   "scripts": {
