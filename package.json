@@ -37,7 +37,7 @@
     "@astrojs/mdx": "8.0.0",
     "@astrojs/rss": "4.0.19",
     "@astrojs/sitemap": "3.7.4",
-    "@biomejs/biome": "2.5.12",
+    "@biomejs/biome": "2.5.14",
     "@dnbhq/biome-config": "0.2.7",
     "@dnbhq/markdownlint-config": "0.2.11",
     "@dnbhq/release-config": "1.1.3",
