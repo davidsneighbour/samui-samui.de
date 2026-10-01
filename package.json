@@ -63,7 +63,7 @@
     "hastscript": "9.0.1",
     "lint-staged": "17.5.0",
     "lucide-static": "1.41.0",
-    "netlify-cli": "27.5.0",
+    "netlify-cli": "27.9.0",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "rehype-raw": "7.0.0",
