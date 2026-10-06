@@ -1,5 +1,48 @@
 # Changelog
 
+## [2.17.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.16.0...v2.17.0) (2026-10-06)
+
+### Content
+
+* **fix:** add footnotes with sources ([c67797c](https://github.com/davidsneighbour/samui-samui.de/commit/c67797c3b7f36d06ae6cba372695002392a894bf))
+* humanise the Sat Duean Sip post ([59f7d07](https://github.com/davidsneighbour/samui-samui.de/commit/59f7d07158e55a9ecd0ec3fce1fe61a11942ea21)), closes [#1735](https://github.com/davidsneighbour/samui-samui.de/issues/1735)
+
+### Feat
+
+* **brand:** deliver the island logo kit ([f4ed357](https://github.com/davidsneighbour/samui-samui.de/commit/f4ed3575dea0290f400f09094297ed0314b5e5b5)), closes [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748), references [#1749](https://github.com/davidsneighbour/samui-samui.de/issues/1749)
+* **citations:** check dates and refine return controls ([23b417b](https://github.com/davidsneighbour/samui-samui.de/commit/23b417bde9d8d0f3ca708235afb12778c1ba21ae)), closes [#1737](https://github.com/davidsneighbour/samui-samui.de/issues/1737) [#1738](https://github.com/davidsneighbour/samui-samui.de/issues/1738)
+* give post footnotes a distinct section ([fbe8bc1](https://github.com/davidsneighbour/samui-samui.de/commit/fbe8bc18363cea9679a91cdb3c9403db257eeed9)), closes [#1736](https://github.com/davidsneighbour/samui-samui.de/issues/1736)
+* **header:** span the island and title with one photo ([74db457](https://github.com/davidsneighbour/samui-samui.de/commit/74db457d3b6583165ec3dfb6a01456a22b388bce)), references [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748)
+
+### Fix
+
+* **brand:** apply selected Panton logo and island-only small marks ([94d920a](https://github.com/davidsneighbour/samui-samui.de/commit/94d920a6b0ee282edbe9effe49a7c728908b4446)), references [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748)
+* **brand:** match island punctuation to Panton Heavy ([ba27a6e](https://github.com/davidsneighbour/samui-samui.de/commit/ba27a6e74d20826cd948df83f6ba86701d01a6db)), references [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748)
+* **brand:** study left-balanced marks with Panton titles ([a10082f](https://github.com/davidsneighbour/samui-samui.de/commit/a10082ff509d7ce84fa715ae6914ce9fa53a903b)), references [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748)
+* **deps:** resolve compatible security advisories ([7fd567e](https://github.com/davidsneighbour/samui-samui.de/commit/7fd567eb4d867a9c42e99035e84d8c629e16c34a)), closes [#1742](https://github.com/davidsneighbour/samui-samui.de/issues/1742) [#1743](https://github.com/davidsneighbour/samui-samui.de/issues/1743) [#1744](https://github.com/davidsneighbour/samui-samui.de/issues/1744) [#1745](https://github.com/davidsneighbour/samui-samui.de/issues/1745) [#1746](https://github.com/davidsneighbour/samui-samui.de/issues/1746) [#1747](https://github.com/davidsneighbour/samui-samui.de/issues/1747), references [#1747](https://github.com/davidsneighbour/samui-samui.de/issues/1747)
+* **header:** align title dots and centre the lettering ([e3ecc55](https://github.com/davidsneighbour/samui-samui.de/commit/e3ecc552a19ea9bff50b0833343e89691bef7c39)), references [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748)
+* **header:** apply alignment directly to clipping paths ([24b4f5f](https://github.com/davidsneighbour/samui-samui.de/commit/24b4f5fa86cb9844b5bf7f47c964e02010f1377f)), references [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748)
+* **header:** centre the visible logo against the divider ([11253b3](https://github.com/davidsneighbour/samui-samui.de/commit/11253b376f59eba415b749498544274b183c21c4)), references [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748)
+* **header:** halve the island gap and cap image enlargement ([7b3c989](https://github.com/davidsneighbour/samui-samui.de/commit/7b3c98909c2ddd252f739baecb849e7617dcf621)), references [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748)
+* **search:** keep script markup out of frontmatter comments ([a0da691](https://github.com/davidsneighbour/samui-samui.de/commit/a0da691657e5babed23e2b045173e6a6c54e0079)), closes [#1750](https://github.com/davidsneighbour/samui-samui.de/issues/1750)
+
+### Docs
+
+* **brand:** present the refined identity in a brand board ([d894a0f](https://github.com/davidsneighbour/samui-samui.de/commit/d894a0f64d03e90cb72ee61e7091b7d03bc77c03)), references [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748)
+* **brand:** save individual brand board panels ([415e15f](https://github.com/davidsneighbour/samui-samui.de/commit/415e15f3df691e78970b5ba442db37b97755cc16)), references [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748)
+
+### Build
+
+* **deps:** update dependencies ([917b0af](https://github.com/davidsneighbour/samui-samui.de/commit/917b0af17ae01860d51ca636da933cc2160ff1c1))
+* **vscode:** update workspace configuration ([f4ea666](https://github.com/davidsneighbour/samui-samui.de/commit/f4ea666d32cc461c2d7e130f86b4d1e7c8d4a891))
+
+### Chore
+
+* **brand:** exclude artwork from commit and push checks ([f6125aa](https://github.com/davidsneighbour/samui-samui.de/commit/f6125aa4df597364543a89bfeb1716bcdb073d80)), references [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748)
+* **format:** restore passing repository quality checks ([c4a2385](https://github.com/davidsneighbour/samui-samui.de/commit/c4a2385be540f68100d6b1c7e3021417cf645683)), closes [#1747](https://github.com/davidsneighbour/samui-samui.de/issues/1747)
+* make production deploys explicit ([316da79](https://github.com/davidsneighbour/samui-samui.de/commit/316da798fcd836636e69059f3fad444ebe5f7db7)), closes [#1708](https://github.com/davidsneighbour/samui-samui.de/issues/1708)
+* **node:** accept compatible Node 26 releases ([635e53f](https://github.com/davidsneighbour/samui-samui.de/commit/635e53f784413066241f4db646ae16e61a8d5966)), closes [#1740](https://github.com/davidsneighbour/samui-samui.de/issues/1740), references [#1741](https://github.com/davidsneighbour/samui-samui.de/issues/1741)
+
 ## [2.16.0](https://github.com/davidsneighbour/samui-samui/compare/v2.15.1...v2.16.0) (2026-09-06)
 
 ### Content
