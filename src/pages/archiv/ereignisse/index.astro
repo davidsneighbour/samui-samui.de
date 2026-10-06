@@ -32,15 +32,15 @@ const events = sortEntitiesByTitle(
   {events.length > 0 ? (
     <ul class="columns-1 gap-8 sm:columns-2">
       {events.map((event) => (
-          <li class="mb-2 break-inside-avoid">
-            <a
-              href={`/archiv/ereignisse/${event.id}/`}
-              class="text-link hover:underline"
-            >
-              {event.data.title}
-            </a>
-          </li>
-        ))}
+        <li class="mb-2 break-inside-avoid">
+          <a
+            href={`/archiv/ereignisse/${event.id}/`}
+            class="text-link hover:underline"
+          >
+            {event.data.title}
+          </a>
+        </li>
+      ))}
     </ul>
   ) : (
     <p class="text-muted-foreground">

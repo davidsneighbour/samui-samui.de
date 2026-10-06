@@ -1,4 +1,4 @@
-<!-- markdownlint-disable-next-line title-case-style -->
+<!-- markdownlint-disable-next-line dnb-title-case-style -->
 # samui-samui.de
 
 Website source and long-running content archive for [samui-samui.de](https://samui-samui.de), Patrick Kollitsch's German-language site about life on Koh Samui and Thailand. The project is built as a static Astro site, with small focused tools for archive maintenance, content validation, search indexing, and Netlify deployment, so old posts can keep working while the site can still be changed with confidence.

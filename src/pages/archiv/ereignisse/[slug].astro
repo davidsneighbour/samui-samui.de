@@ -57,7 +57,10 @@ const description = getEntityDescription('ereignisse', event);
             { href: '/', label: 'Startseite' },
             { href: '/archiv/', label: 'Archiv' },
             { href: '/archiv/ereignisse/', label: 'Ereignisse' },
-            { href: `/archiv/ereignisse/${event.id}/`, label: event.data.title },
+            {
+              href: `/archiv/ereignisse/${event.id}/`,
+              label: event.data.title,
+            },
           ]}
         />
         <ArchiveNav

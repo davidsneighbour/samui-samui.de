@@ -120,130 +120,127 @@ const showTopPagination = showPagination && pageNumber > 1;
 </script>
 
 {showTopPagination && (
-    <Pagination
-      basePath={basePath}
-      placement="top"
-      previousHref={previousPage}
-      nextHref={nextPage}
-      pageNumber={pageNumber}
-      totalPages={totalPages}
-    />
-  )}
+  <Pagination
+    basePath={basePath}
+    placement="top"
+    previousHref={previousPage}
+    nextHref={nextPage}
+    pageNumber={pageNumber}
+    totalPages={totalPages}
+  />
+)}
 <ul class="mx-auto flex max-w-4xl flex-col gap-8 px-4">
-  {listedPosts.map(({ cover, fullPostHtml, hasVimeo, hasYoutube, post, summary }, index) => (
+  {listedPosts.map(
+    ({ cover, fullPostHtml, hasVimeo, hasYoutube, post, summary }, index) => (
       <li>
         {shouldFeaturePost(index) ? (
-            <article class="overflow-hidden rounded-(--radius) bg-card text-card-foreground">
-              {cover && (
-                <PostCover
-                  cover={cover}
-                  eager
-                  figureClass="m-0 w-full"
-                  imageClass={`block h-auto w-full ${coverOutlineClass}`}
-                  videoClass={`block aspect-video w-full overflow-hidden ${coverOutlineClass}`}
-                  presentationWidth={896}
-                />
-              )}
-              <div class="px-4 py-8 sm:px-8">
-                <header class="mb-8 text-center">
-                  <BlogPostTitle
-                    title={post.data.title}
-                    href={getPostUrl(post)}
-                  />
-                  <BlogPostMeta
-                    date={post.data.date}
-                    themen={post.data.themen}
-                    class="mb-4 mt-3"
-                  />
-                  <Separator />
-                </header>
-                <Breadcrumbs
-                  class="mb-4 mt-4 text-left"
-                  items={featuredBreadcrumbs}
-                />
-                <PostTaxonomyGroups groups={featuredTaxonomies} />
-                {hasVimeo && <VimeoScript />}
-                {hasYoutube && <YoutubeScript />}
-                <div
-                  class:list={[proseClasses, 'text-pretty']}
-                  set:html={fullPostHtml}
-                >
-                </div>
-              </div>
-              <div class="border-t border-card-foreground/10 px-4 py-8 sm:px-8">
-                <Giscus
-                  mapping="specific"
-                  term={getPostDiscussionTerm(post)}
-                />
-              </div>
-            </article>
-          ) : (
-            <article class="group rounded-(--radius) border border-transparent bg-card px-4 py-6 text-card-foreground transition-colors duration-200 hover:border-border/60 focus-within:border-border/60 sm:px-6">
-              <header class="mb-4">
+          <article class="overflow-hidden rounded-(--radius) bg-card text-card-foreground">
+            {cover && (
+              <PostCover
+                cover={cover}
+                eager
+                figureClass="m-0 w-full"
+                imageClass={`block h-auto w-full ${coverOutlineClass}`}
+                videoClass={`block aspect-video w-full overflow-hidden ${coverOutlineClass}`}
+                presentationWidth={896}
+              />
+            )}
+            <div class="px-4 py-8 sm:px-8">
+              <header class="mb-8 text-center">
                 <BlogPostTitle
                   title={post.data.title}
                   href={getPostUrl(post)}
-                  size="compact"
                 />
                 <BlogPostMeta
                   date={post.data.date}
                   themen={post.data.themen}
-                  class="mt-2"
+                  class="mb-4 mt-3"
                 />
+                <Separator />
               </header>
+              <Breadcrumbs
+                class="mb-4 mt-4 text-left"
+                items={featuredBreadcrumbs}
+              />
+              <PostTaxonomyGroups groups={featuredTaxonomies} />
+              {hasVimeo && <VimeoScript />}
+              {hasYoutube && <YoutubeScript />}
               <div
-                class:list={[
-                  'flex flex-col gap-4',
-                  cover && (index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'),
-                  cover && 'md:items-center',
-                  !cover && 'md:block',
-                ]}
-                data-balanced-media={cover ? '' : undefined}
+                class:list={[proseClasses, 'text-pretty']}
+                set:html={fullPostHtml}
+              ></div>
+            </div>
+            <div class="border-t border-card-foreground/10 px-4 py-8 sm:px-8">
+              <Giscus mapping="specific" term={getPostDiscussionTerm(post)} />
+            </div>
+          </article>
+        ) : (
+          <article class="group rounded-(--radius) border border-transparent bg-card px-4 py-6 text-card-foreground transition-colors duration-200 hover:border-border/60 focus-within:border-border/60 sm:px-6">
+            <header class="mb-4">
+              <BlogPostTitle
+                title={post.data.title}
+                href={getPostUrl(post)}
+                size="compact"
+              />
+              <BlogPostMeta
+                date={post.data.date}
+                themen={post.data.themen}
+                class="mt-2"
+              />
+            </header>
+            <div
+              class:list={[
+                'flex flex-col gap-4',
+                cover &&
+                  (index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'),
+                cover && 'md:items-center',
+                !cover && 'md:block',
+              ]}
+              data-balanced-media={cover ? '' : undefined}
+            >
+              {cover && (
+                <PostCover
+                  cover={cover}
+                  figureClass="m-0 overflow-hidden rounded-[calc(var(--radius)-4px)] md:w-[var(--balanced-media-width,33.333%)] md:shrink-0"
+                  imageClass={`block aspect-[4/3] h-auto w-full rounded-[calc(var(--radius)-4px)] object-cover transition-transform duration-300 ease-out group-hover:scale-105 group-focus-within:scale-105 ${coverOutlineClass}`}
+                  videoClass={`block aspect-video w-full overflow-hidden rounded-[calc(var(--radius)-4px)] ${coverOutlineClass}`}
+                  captionClass="sr-only"
+                  sizes="(min-width: 768px) 288px, 100vw"
+                />
+              )}
+              <div
+                class="min-w-0 flex-1"
+                data-balanced-media-content={cover ? '' : undefined}
               >
-                {cover && (
-                  <PostCover
-                    cover={cover}
-                    figureClass="m-0 overflow-hidden rounded-[calc(var(--radius)-4px)] md:w-[var(--balanced-media-width,33.333%)] md:shrink-0"
-                    imageClass={`block aspect-[4/3] h-auto w-full rounded-[calc(var(--radius)-4px)] object-cover transition-transform duration-300 ease-out group-hover:scale-105 group-focus-within:scale-105 ${coverOutlineClass}`}
-                    videoClass={`block aspect-video w-full overflow-hidden rounded-[calc(var(--radius)-4px)] ${coverOutlineClass}`}
-                    captionClass="sr-only"
-                    sizes="(min-width: 768px) 288px, 100vw"
-                  />
-                )}
-                <div class="min-w-0 flex-1" data-balanced-media-content={cover ? '' : undefined}>
-                  <div
-                    class:list={[proseClasses, 'text-pretty']}
-                    set:html={summary}
-                  >
-                  </div>
-                </div>
+                <div
+                  class:list={[proseClasses, 'text-pretty']}
+                  set:html={summary}
+                ></div>
               </div>
-              <p
-                class:list={[
-                  'm-0 mt-4 flex',
-                  cover && index % 2 === 0 ? 'justify-start' : 'justify-end',
-                ]}
-              >
-                <Button
-                  href={getPostUrl(post)}
-                  size="sm"
-                  variant="default"
-                >
-                  Weiterlesen
-                </Button>
-              </p>
-            </article>
-          )}
+            </div>
+            <p
+              class:list={[
+                'm-0 mt-4 flex',
+                cover && index % 2 === 0 ? 'justify-start' : 'justify-end',
+              ]}
+            >
+              <Button href={getPostUrl(post)} size="sm" variant="default">
+                Weiterlesen
+              </Button>
+            </p>
+          </article>
+        )}
       </li>
-    ))}
+    ),
+  )}
 </ul>
 {showPagination && (
-    <Pagination
-      basePath={basePath}
-      placement="bottom"
-      previousHref={previousPage}
-      nextHref={nextPage}
-      pageNumber={pageNumber}
-      totalPages={totalPages}
-    />
-  )}
+  <Pagination
+    basePath={basePath}
+    placement="bottom"
+    previousHref={previousPage}
+    nextHref={nextPage}
+    pageNumber={pageNumber}
+    totalPages={totalPages}
+  />
+)}

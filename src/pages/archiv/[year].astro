@@ -112,20 +112,14 @@ const dayMonth = (date: Date) => {
 
   <div class="mb-6 flex items-center justify-between text-sm">
     {previousYear ? (
-      <a
-        href={`/archiv/${previousYear}/`}
-        class="text-link hover:underline"
-      >
+      <a href={`/archiv/${previousYear}/`} class="text-link hover:underline">
         ← {previousYear}
       </a>
     ) : (
       <span />
     )}
     {nextYear ? (
-      <a
-        href={`/archiv/${nextYear}/`}
-        class="text-link hover:underline"
-      >
+      <a href={`/archiv/${nextYear}/`} class="text-link hover:underline">
         {nextYear} →
       </a>
     ) : (
@@ -138,47 +132,41 @@ const dayMonth = (date: Date) => {
     class="mb-10 flex flex-wrap gap-x-1 gap-y-1 border-y border-border py-4 text-sm text-muted-foreground"
   >
     {sortedMonths.map(({ month, posts: monthPosts }, index) => (
-        <>
-          {index > 0 && <span aria-hidden="true">·</span>}
-          <a
-            href={`#${monthAnchor(month)}`}
-            class="px-1 hover:text-link hover:underline"
-          >
-            {formatMonthShort(new Date(Date.UTC(year, month, 1)))}{' '}
-            {monthPosts.length}
-          </a>
-        </>
-      ))}
+      <>
+        {index > 0 && <span aria-hidden="true">·</span>}
+        <a
+          href={`#${monthAnchor(month)}`}
+          class="px-1 hover:text-link hover:underline"
+        >
+          {formatMonthShort(new Date(Date.UTC(year, month, 1)))}{' '}
+          {monthPosts.length}
+        </a>
+      </>
+    ))}
   </nav>
 
   {sortedMonths.map(({ month, posts: monthPosts }) => (
-      <section
-        id={monthAnchor(month)}
-        class="mb-8"
-      >
-        <h2 class="mb-2 flex items-baseline justify-between text-card-foreground">
-          <span class="font-medium">
-            {formatMonthLong(new Date(Date.UTC(year, month, 1)))}
-          </span>
-          <span class="text-sm text-muted-foreground">
-            {monthPosts.length} {monthPosts.length === 1 ? 'Beitrag' : 'Beiträge'}
-          </span>
-        </h2>
-        <ul class="space-y-1">
-          {monthPosts.map((post) => (
-              <li class="flex gap-3 text-sm">
-                <span class="shrink-0 tabular-nums text-muted-foreground">
-                  {dayMonth(post.data.date)}
-                </span>
-                <a
-                  href={getPostUrl(post)}
-                  class="text-link hover:underline"
-                >
-                  {post.data.title}
-                </a>
-              </li>
-            ))}
-        </ul>
-      </section>
-    ))}
+    <section id={monthAnchor(month)} class="mb-8">
+      <h2 class="mb-2 flex items-baseline justify-between text-card-foreground">
+        <span class="font-medium">
+          {formatMonthLong(new Date(Date.UTC(year, month, 1)))}
+        </span>
+        <span class="text-sm text-muted-foreground">
+          {monthPosts.length} {monthPosts.length === 1 ? 'Beitrag' : 'Beiträge'}
+        </span>
+      </h2>
+      <ul class="space-y-1">
+        {monthPosts.map((post) => (
+          <li class="flex gap-3 text-sm">
+            <span class="shrink-0 tabular-nums text-muted-foreground">
+              {dayMonth(post.data.date)}
+            </span>
+            <a href={getPostUrl(post)} class="text-link hover:underline">
+              {post.data.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
 </PageLayout>

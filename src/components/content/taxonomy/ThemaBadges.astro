@@ -22,14 +22,14 @@ const getThemaBadgeLabel = (thema: string) =>
   aria-label="Themen"
 >
   {themen.map((thema) => (
-      <li>
-        <Badge
-          href={`/archiv/themen/${getThemaSlug(thema, themaEntries)}/`}
-          variant="muted"
-          aria-label={`Beiträge zum Thema ${getThemaLabel(thema)}`}
-        >
-          {getThemaBadgeLabel(thema)}
-        </Badge>
-      </li>
-    ))}
+    <li>
+      <Badge
+        href={`/archiv/themen/${getThemaSlug(thema, themaEntries)}/`}
+        variant="muted"
+        aria-label={`Beiträge zum Thema ${getThemaLabel(thema)}`}
+      >
+        {getThemaBadgeLabel(thema)}
+      </Badge>
+    </li>
+  ))}
 </ul>

@@ -23,14 +23,14 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
      freshly swapped-in form after a client-side (view-transition)
      navigation to this page. -->
 {turnstileSiteKey && (
-    <script
-      is:inline
-      data-astro-rerun
-      src="https://challenges.cloudflare.com/turnstile/v0/api.js"
-      async
-      defer
-    ></script>
-  )}
+  <script
+    is:inline
+    data-astro-rerun
+    src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+    async
+    defer
+  ></script>
+)}
 
 <form
   method="POST"
@@ -107,30 +107,33 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
     />
   </div>
   {turnstileSiteKey && (
-      <p class="mt-4">
-        <div
-          class="cf-turnstile"
-          data-sitekey={turnstileSiteKey}
-          data-action="turnstile-spin-v2"
-          data-callback="onTurnstileVerified"
-          data-expired-callback="onTurnstileUnverified"
-          data-error-callback="onTurnstileUnverified"
-        >
-        </div>
-      </p>
-    )}
+    <p class="mt-4">
+      <div
+        class="cf-turnstile"
+        data-sitekey={turnstileSiteKey}
+        data-action="turnstile-spin-v2"
+        data-callback="onTurnstileVerified"
+        data-expired-callback="onTurnstileUnverified"
+        data-error-callback="onTurnstileUnverified"
+      ></div>
+    </p>
+  )}
   <div
     class="mt-4 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
   >
     {turnstileSiteKey && (
-        <p class="turnstile-disclaimer">
-          Diese Seite ist durch Cloudflare Turnstile geschützt, es gelten die{' '}
-          <a href="https://www.cloudflare.com/privacypolicy/">Datenschutzerklärung</a>{' '}
-          und die{' '}
-          <a href="https://www.cloudflare.com/website-terms/">Nutzungsbedingungen</a>{' '}
-          von Cloudflare.
-        </p>
-      )}
+      <p class="turnstile-disclaimer">
+        Diese Seite ist durch Cloudflare Turnstile geschützt, es gelten die{' '}
+        <a href="https://www.cloudflare.com/privacypolicy/">
+          Datenschutzerklärung
+        </a>{' '}
+        und die{' '}
+        <a href="https://www.cloudflare.com/website-terms/">
+          Nutzungsbedingungen
+        </a>{' '}
+        von Cloudflare.
+      </p>
+    )}
     <button
       type="submit"
       class={cn(buttonVariants(), 'sm:ml-auto')}

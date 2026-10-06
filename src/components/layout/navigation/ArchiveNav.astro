@@ -48,24 +48,23 @@ const items: { key: ArchiveSection; href: string; label: string }[] = [
 >
   <span class="text-muted-foreground">Im Archiv:</span>
   {items.map((item, index) => (
-      <>
-        <a
-          href={item.href}
-          aria-current={item.key === current ? 'page' : undefined}
-          class={item.key === current
+    <>
+      <a
+        href={item.href}
+        aria-current={item.key === current ? 'page' : undefined}
+        class={
+          item.key === current
             ? 'font-medium text-card-foreground'
-            : 'text-link hover:underline'}
-        >
-          {item.label}
-        </a>
-        {index < items.length - 1 && (
-          <span
-            class="text-muted-foreground"
-            aria-hidden="true"
-          >
-            ·
-          </span>
-        )}
-      </>
-    ))}
+            : 'text-link hover:underline'
+        }
+      >
+        {item.label}
+      </a>
+      {index < items.length - 1 && (
+        <span class="text-muted-foreground" aria-hidden="true">
+          ·
+        </span>
+      )}
+    </>
+  ))}
 </nav>

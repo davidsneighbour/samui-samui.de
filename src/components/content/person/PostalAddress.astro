@@ -43,5 +43,9 @@ const localityLine = addressRegion
   <span class="block">{addressCountry}</span>
 </address>
 {jsonLd && (
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(schema)} />
-  )}
+  <script
+    type="application/ld+json"
+    is:inline
+    set:html={JSON.stringify(schema)}
+  />
+)}

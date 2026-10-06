@@ -58,7 +58,10 @@ const description = getEntityDescription('personen', person);
             { href: '/', label: 'Startseite' },
             { href: '/archiv/', label: 'Archiv' },
             { href: '/archiv/personen/', label: 'Personen' },
-            { href: `/archiv/personen/${person.id}/`, label: person.data.title },
+            {
+              href: `/archiv/personen/${person.id}/`,
+              label: person.data.title,
+            },
           ]}
         />
         <ArchiveNav

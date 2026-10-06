@@ -55,8 +55,8 @@ const presentationMode =
 ---
 
 <figure class={figureClass}>
-  {cover.type === 'image' && (
-      presentationMode === 'legacy' || presentationMode === 'thumbnail' ? (
+  {cover.type === 'image' &&
+    (presentationMode === 'legacy' || presentationMode === 'thumbnail' ? (
       <LegacyImagePresentation
         src={cover.src}
         alt={cover.alt}
@@ -68,7 +68,7 @@ const presentationMode =
         loading={loading}
         class={imageClass}
       />
-      ) : cover.optimized && typeof cover.src !== 'string' ? (
+    ) : cover.optimized && typeof cover.src !== 'string' ? (
       <Picture
         src={cover.src}
         alt={cover.alt}
@@ -80,7 +80,7 @@ const presentationMode =
         decoding="async"
         class={imageClass}
       />
-      ) : (
+    ) : (
       <img
         src={typeof cover.src === 'string' ? cover.src : cover.src.src}
         alt={cover.alt}
@@ -88,8 +88,7 @@ const presentationMode =
         decoding="async"
         class={imageClass}
       />
-      )
-    )}
+    ))}
   {cover.type === 'youtube' && (
     <Youtube
       videoid={cover.videoid}
@@ -137,5 +136,7 @@ const presentationMode =
       )}
     </Vimeo>
   )}
-  {cover.caption && <figcaption class={captionClass}>{cover.caption}</figcaption>}
+  {cover.caption && (
+    <figcaption class={captionClass}>{cover.caption}</figcaption>
+  )}
 </figure>

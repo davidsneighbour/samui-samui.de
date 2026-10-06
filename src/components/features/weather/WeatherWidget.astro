@@ -32,10 +32,7 @@ import WeatherIcon from './WeatherIcon.astro';
       aria-hidden="true"
     >
       {ALL_WEATHER_ICON_NAMES.map((iconName) => (
-        <span
-          class="weather-widget__icon-variant"
-          data-icon={iconName}
-        >
+        <span class="weather-widget__icon-variant" data-icon={iconName}>
           <WeatherIcon name={iconName} class="size-8 sm:size-10" />
         </span>
       ))}
