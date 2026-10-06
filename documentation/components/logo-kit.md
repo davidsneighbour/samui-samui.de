@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD013 -->
 # Logo kit
 
-The draft "Island voice" identity combines a simplified Koh Samui silhouette with negative-space `?!`, preserving the question-and-answer rhythm of "Samui? Samui!". The kit lives in `src/assets/brand/samui/`. It is exploratory artwork, has not been approved as canonical, and does not replace the current masthead or website icons automatically. Work is tracked in [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748).
+The selected revision A of the "Island voice" identity combines a simplified Koh Samui silhouette with negative-space `?!`, preserving the question-and-answer rhythm of "Samui? Samui!". The kit lives in `src/assets/brand/samui/`. The owner selected A after reviewing the Panton studies. The kit does not replace the current masthead or website icons automatically. Work is tracked in [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748).
 
 ## Revised logo studies
 
@@ -11,7 +11,7 @@ The owner retained the island silhouette and negative-space `?!`, requested a sm
 * B compresses punctuation horizontally to 92%, with its centre approximately 8 units left of the earlier mark.
 * C reduces punctuation to 90%, with its centre approximately 8 units left of the earlier mark and its vertical centre preserved.
 
-`comparison.png` and `comparison.svg` show all three with identical Panton lockups, dark and pale backgrounds, and 64/32/16 px symbol checks. The island-only small-size alternative is shown separately. A is the recommendation because it preserves punctuation strength while correcting balance. These are draft comparisons, not an approved replacement kit. The previous generated files remain available for comparison; do not deploy them as canonical assets.
+`comparison.png` and `comparison.svg` show all three with identical Panton lockups, dark and pale backgrounds, and 64/32/16 px symbol checks. The island-only small-size alternative is shown separately. A is the recommendation because it preserves punctuation strength while correcting balance. The owner selected A. The delivery kit now uses A’s punctuation shift and Panton wordmark; B and C remain historical comparisons. At 32 px and below, the comparison and favicon exports use the island silhouette alone, with no punctuation or wordmark.
 
 Regenerate the concepts from the repository root with Python 3, uv, and `rsvg-convert`:
 
@@ -26,9 +26,9 @@ The script declares its pinned FontTools dependency, reads the existing island m
 | Folder or file | Purpose |
 | --- | --- |
 | `svg/symbol-*.svg` | Full island-and-punctuation mark. |
-| `svg/horizontal-*.svg` | Symbol and custom wordmark, with fixed horizontal spacing. |
+| `svg/horizontal-*.svg` | Symbol and outlined Panton wordmark, with fixed horizontal spacing. |
 | `svg/stacked-*.svg` | Symbol above the two-line wordmark. |
-| `svg/wordmark-*.svg` | Custom lettering without the symbol. |
+| `svg/wordmark-*.svg` | Outlined Panton Heavy lettering without the symbol. |
 | `svg/island-small.svg` | Simplified island-only cut for small uses. |
 | `svg/punctuation-small.svg` | Punctuation-only alternative. |
 | `svg/app-icon.svg` | Full symbol on a plum tile, for larger app and touch icons. |
@@ -41,7 +41,7 @@ The script declares its pinned FontTools dependency, reads the existing island m
 
 Use `*-colour.svg` on plum: coral symbol and cream lettering. Use `*-plum.svg` or `*-light-coral.svg` on pale backgrounds. The single-colour black, white, plum, coral, and dark coral variants have transparent punctuation holes, rather than painted background patches. The white and bright coral cuts slightly enlarge the counters and dots to reduce apparent weight on dark backgrounds.
 
-At favicon sizes, use the island alone, or `?!` alone. Never squeeze both elements into 16–32 px. The island is the primary option. Larger touch/app icons use the full symbol; the punctuation alternative remains available as a complete alternative icon family. The adaptive favicon SVG uses dark coral by default and bright coral when the browser requests a dark colour scheme. PNG and ICO fallbacks use fixed dark coral.
+At 32 px and below, use only the island silhouette, with no punctuation or wordmark. The punctuation-only family is retained as an unused historical alternative, rather than the selected small-size mark. Larger touch/app icons use the full symbol; the punctuation alternative remains available as a complete alternative icon family. The adaptive favicon SVG uses dark coral by default and bright coral when the browser requests a dark colour scheme. PNG and ICO fallbacks use fixed dark coral.
 
 ## Usage rules
 
@@ -67,12 +67,12 @@ Run from the repository root with Node 26 and `rsvg-convert` available:
 node src/scripts/brand/build-logo-kit.ts
 ```
 
-The strict TypeScript ESM generator reads the owner-supplied `src/assets/koh-samui-outline-main.svg`, reduces the contour from 73 to 40 vertices for the full mark and 21 for the small cut, constructs custom outlined letters, renders PNGs, and assembles PNG-backed ICO files. It does not use a map service, a font, network requests, or the assistant’s temporary concept files. It overwrites only the generated kit files. Meaningful early concepts were preserved during development; subsequent changes should preserve the prior draft artwork in Git before regenerating.
+The strict TypeScript ESM generator reads the owner-supplied `src/assets/koh-samui-outline-main.svg`, reduces the contour from 73 to 40 vertices for the full mark and 21 for the small cut, reads the selected left-balanced symbol masters and outlined Panton lettering, renders PNGs, and assembles PNG-backed ICO files. The kit generator uses no map service or network requests. Its wordmark outlines come from the local Panton font. After changing the font, first run the concept generator to rebuild `panton-wordmark.json`, then regenerate the kit. The selected symbol masters live in `selected/` and remain stable across rebuilds. It overwrites only the generated kit files. Meaningful early concepts were preserved during development; subsequent changes should preserve the prior draft artwork in Git before regenerating.
 
 To integrate later, copy the selected `web/` files into `public/assets/brand/samui/` and adapt `web/head-snippet.html` in the shared page head. The manifest uses relative icon URLs, so keep it beside its icons. To select punctuation, copy `web/punctuation/` favicons and touch/app files in place of the matching primary files. The primary maskable icon and manifest are island-based; a punctuation deployment should either omit the manifest or generate its own matching maskable icon and manifest. The prepared snippet is an example for that later integration, and its URLs are not live until the files have been copied.
 
 ## Provenance and validation
 
-The coastline comes from the SVG supplied by the owner. Its upstream author, source URL, licence, geographic accuracy, and attribution obligations are unverified. [#1749](https://github.com/davidsneighbour/samui-samui.de/issues/1749) tracks source confirmation before publication. No geographic facts were inferred or added. The older wordmark and punctuation are custom geometric drawings. The revised wordmark studies use outlined Panton Heavy glyphs from the repository font; no font file is embedded in the SVG, but the Panton licence still governs the source font and its permitted uses. A professional similarity and trademark search is recommended before registering or commercially licensing the identity; no clearance is claimed.
+The coastline comes from the SVG supplied by the owner. Its upstream author, source URL, licence, geographic accuracy, and attribution obligations are unverified. [#1749](https://github.com/davidsneighbour/samui-samui.de/issues/1749) tracks source confirmation before publication. No geographic facts were inferred or added. The punctuation remains a custom geometric drawing. The selected wordmark and studies use outlined Panton Heavy glyphs from the repository font; no font file is embedded in the SVG, but the Panton licence still governs the source font and its permitted uses. A professional similarity and trademark search is recommended before registering or commercially licensing the identity; no clearance is claimed.
 
 The artwork was rendered and visually inspected on pale and dark backgrounds. SVG audits checked representative symbol, wordmark, and favicon masters. Coastline angle warnings are expected for preserved geographic contours; forcing those vertices onto a typography grid would change the shape. Masters have no live text, strokes, raster images, filters, masks, or external resources. The full mark’s punctuation is a real even-odd cut-out. The presentation board contains live labels, which are not part of any logo master. Browser checks cover the adaptive favicon’s light and dark appearance, and the ICO frames were checked against their PNG sizes.

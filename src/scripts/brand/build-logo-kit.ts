@@ -1,4 +1,4 @@
-/** Build the approved identity kit. Run from the repository root with Node 26. */
+/** Build the selected Panton identity kit. Run from the repository root with Node 26. */
 import { execFileSync } from 'node:child_process';
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -81,41 +81,23 @@ function punctuation(reversed = false): string {
     : 'M80 109C80 73 136 73 136 109C136 127 117 130 117 146H101C101 120 120 120 120 109C120 94 96 94 96 109Z';
   return `${question} M${reversed ? 150 : 151} 83H${reversed ? 169 : 168}V${reversed ? 147 : 146}H${reversed ? 150 : 151}Z ${circle(109, 165, reversed ? 10 : 9)} ${circle(159.5, 165, reversed ? 10 : 9)}`;
 }
-const letters: Record<string, string> = {
-  '!': 'M0 0H8V33H0Z ' + circle(4, 44, 4),
-  '?':
-    'M0 12C0 -6 32 -6 32 12C32 22 20 26 20 33H12C12 22 24 19 24 12C24 4 8 4 8 12Z ' +
-    circle(16, 44, 4),
-  a: 'M0 48L16 0H24L40 48H31L27 37H13L9 48Z M16 29H24L20 17Z',
-  i: 'M0 0H8V48H0Z',
-  m: 'M0 48V0H8L20 20L32 0H40V48H32V16L20 35L8 16V48Z',
-  s: 'M40 0H15C-5 0 -5 28 15 28H27C35 28 35 40 27 40H0V48H27C47 48 47 20 27 20H15C7 20 7 8 15 8H40Z',
-  u: 'M0 0H8V29C8 45 32 45 32 29V0H40V29C40 56 0 56 0 29Z',
-};
+const fontPaths: Record<string, string> = JSON.parse(
+  readFileSync(join(destination, 'panton-wordmark.json'), 'utf8'),
+);
 function word(text: string): string {
-  let x = 0;
-  return [...text]
-    .map((character) => {
-      const path = letters[character];
-      if (!path) throw new Error(`Missing letter: ${character}`);
-      const result = `<path transform="translate(${x} 0)" fill-rule="evenodd" d="${path}"/>`;
-      x +=
-        character === 'i'
-          ? 21
-          : character === '!'
-            ? 8
-            : character === '?'
-              ? 32
-              : 54;
-      return result;
-    })
-    .join('');
+  const path = fontPaths[text];
+  if (!path) throw new Error(`Missing Panton outline: ${text}`);
+  return `<path d="${path}"/>`;
 }
-const words = `<g>${word('samui?')}</g><g transform="translate(312 0)">${word('samui!')}</g>`;
+const words = word('samui? samui!');
 const shape = island(7);
 const faviconShape = island(16);
 function symbol(fill: string, reversed = false): string {
-  return `<path fill="${fill}" fill-rule="evenodd" d="${shape} ${punctuation(reversed)}"/>`;
+  const file = reversed ? 'symbol-reversed.svg' : 'symbol-normal.svg';
+  const source = readFileSync(join(destination, 'selected', file), 'utf8');
+  const path = / d="([^"]+)"/.exec(source)?.[1];
+  if (!path) throw new Error(`Missing selected symbol path: ${file}`);
+  return `<path fill="${fill}" fill-rule="evenodd" d="${path}"/>`;
 }
 function svg(body: string, width = 256, height = 256): string {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" role="img"><title>Samui? Samui! — island voice</title>${body}</svg>\n`;
@@ -316,7 +298,7 @@ function placed(
 ): string {
   return `<g transform="translate(${x} ${y}) scale(${size / 256})">${simple ? iconArtwork(fill) : symbol(fill, fill === colour.coral || fill === '#ffffff')}</g>`;
 }
-let board = `<rect width="1600" height="1450" fill="${colour.cream}"/>${label(64, 70, 'Samui? Samui! — island voice', 38)}${label(64, 108, 'Approved direction C · identity kit · 6 October 2026', 18)}`;
+let board = `<rect width="1600" height="1450" fill="${colour.cream}"/>${label(64, 70, 'Samui? Samui! — island voice', 38)}${label(64, 108, 'Selected direction A · Panton 900 · 6 October 2026', 18)}`;
 board += `<rect x="64" y="145" width="1472" height="360" fill="${colour.plum}"/>${placed(108, 178, 290, colour.coral)}<g transform="translate(460 288) scale(1.75)" fill="${colour.cream}">${words}</g>`;
 board +=
   label(64, 550, 'Light background', 20) + placed(64, 573, 160, colour.plum);
@@ -328,9 +310,7 @@ board +=
   placed(524, 584, 64, colour.lightCoral, true) +
   placed(610, 608, 32, colour.lightCoral, true) +
   placed(672, 624, 16, colour.lightCoral, true);
-board +=
-  label(524, 720, 'Punctuation alternative', 20) +
-  `<g transform="translate(540 743) scale(.25)">${punctuationIcon(colour.lightCoral)}</g><g transform="translate(610 775) scale(.125)">${punctuationIcon(colour.lightCoral)}</g><g transform="translate(670 791) scale(.0625)">${punctuationIcon(colour.lightCoral)}</g>`;
+board += label(524, 720, '32 px and below: island only', 18);
 board += label(840, 550, 'Established palette', 20);
 for (const [index, [name, fill]] of Object.entries(colour).entries()) {
   const x = 840 + index * 140;
@@ -348,7 +328,7 @@ for (const [index, name] of contexts.entries()) {
   const x = 64 + (index % 3) * 500;
   const y = 875 + Math.floor(index / 3) * 265;
   board += label(x, y - 20, name, 20);
-  board += `<rect x="${x}" y="${y}" width="472" height="210" fill="${index === 2 || index === 5 ? colour.plum : '#ffffff'}"/>`;
+  board += `<rect x="${x}" y="${y}" width="472" height="210" fill="${index === 2 || index === 5 ? colour.plum : colour.cream}"/>`;
   if (index === 0 || index === 3) {
     board += `<rect x="${x}" y="${y}" width="472" height="86" fill="${colour.plum}"/>${placed(x + 16, y + 8, 68, colour.coral)}<g transform="translate(${x + 100} ${y + 30}) scale(.55)" fill="${colour.cream}">${words}</g>`;
     board +=

@@ -7,6 +7,7 @@ Run: uv run src/scripts/brand/build-logo-concepts.py
 """
 from pathlib import Path
 import re
+import json
 import subprocess
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
@@ -39,11 +40,28 @@ def lettering(text):
     return pen.getCommands(), x * scale
 
 
-master = (ROOT / 'src/assets/brand/samui/svg/symbol-coral.svg').read_text()
-path = re.search(r'd="([^"]+)"', master).group(1)
-island, holes = path.split(' M79', 1)
-holes = 'M79' + holes
+master = (ROOT / 'src/assets/brand/samui/selected/symbol-reversed.svg').read_text()
+path = re.search(r' d="([^"]+)"', master).group(1)
+island, holes = path.split('Z ', 1)
+island += 'Z'
+# The selected master already includes A's shift. Recover the comparison baseline.
+original_holes = SVGPathPen(None)
+parse_path(holes, TransformPen(original_holes, (1, 0, 0, 1, 8, 0)))
+holes = original_holes.getCommands()
 wordmark, word_width = lettering('SAMUI? SAMUI!')
+# Compact reusable outlines retain the exact Panton letterforms.
+from fontTools.pens.boundsPen import BoundsPen
+bounds = BoundsPen(glyphs)
+glyphs[cmap[ord('S')]].draw(bounds)
+cap_height = bounds.bounds[3] * scale
+normalise = 48 / cap_height
+kit_words = {}
+for text in ['SAMUI?', 'SAMUI!', 'SAMUI? SAMUI!']:
+    outlined, width = lettering(text)
+    kit_words[text.lower()] = transformed_word = SVGPathPen(None)
+    parse_path(outlined, TransformPen(transformed_word, (normalise, 0, 0, normalise, 0, 48)))
+    kit_words[text.lower()] = transformed_word.getCommands()
+(ROOT / 'src/assets/brand/samui/panton-wordmark.json').write_text(json.dumps(kit_words, indent=2) + '\n')
 
 
 def transformed(path, matrix):
@@ -76,7 +94,7 @@ for index, (key, title, matrix) in enumerate(options):
     board += f'<g transform="translate(68 {y+28}) scale({min(1, 1450/width)})">{lockup}</g>'
     for j, size in enumerate([64, 32, 16]):
         x = 48 + j * 112
-        board += f'<g transform="translate({x} {y+276}) scale({size/256})"><path fill="#290e1c" fill-rule="evenodd" d="{symbol}"/></g>'
+        board += f'<g transform="translate({x} {y+276}) scale({size/256})"><path fill="#290e1c" fill-rule="evenodd" d="{symbol if size > 32 else island}"/></g>'
         board += f'<text x="{x+72}" y="{y+300}" font-family="sans-serif" font-size="14" fill="#290e1c">{size}px</text>'
     board += f'<g transform="translate(440 {y+275}) scale(.25)"><path fill="#290e1c" d="{island}"/></g>'
     board += f'<text x="520" y="{y+310}" font-family="sans-serif" font-size="16" fill="#290e1c">Island-only small-size alternative</text>'
