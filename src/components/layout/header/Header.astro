@@ -1,4 +1,7 @@
 ---
+import wordmark from '@assets/brand/samui/panton-wordmark.json';
+import symbolSvg from '@assets/brand/samui/selected/symbol-reversed.svg?raw';
+import detailSvg from '@assets/brand/samui/svg/symbol-detail-white.svg?raw';
 import PagefindComponentUi from '@components/features/search/PagefindComponentUi.astro';
 import ConstructionBanner from '@components/layout/header/ConstructionBanner.astro';
 import HeaderLink from '@components/layout/header/HeaderLink.astro';
@@ -8,8 +11,10 @@ import { AtSign, Birdhouse, CircleQuestionMark, Landmark } from '@lucide/astro';
 
 const navLinkClass =
   'px-1.5 py-1 text-foreground/85 hover:text-primary sm:px-2';
-const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
-  setup.title.split(' ');
+const symbolPath = / d="([^"]+)"/.exec(symbolSvg)?.[1];
+const detailPath = / d="([^"]+)"/.exec(detailSvg)?.[1];
+if (!detailPath) throw new Error('The detailed island symbol needs a path.');
+if (!symbolPath) throw new Error('The selected island symbol needs a path.');
 ---
 
 <a
@@ -24,28 +29,48 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
     <a
       href="/"
       class="masthead__link"
+      aria-label={setup.title}
     >
-      <span
-        class="masthead__name"
-        aria-label={setup.title}
+      <svg
+        class="masthead__artwork"
+        viewBox="0 0 900 300"
+        aria-hidden="true"
+        focusable="false"
       >
-        <span
-          class="masthead__word masthead__word--question"
-          aria-hidden="true"
-        >
-          {firstMastheadWord}
-        </span>
-        {secondMastheadWord && (
-            <>
-              <span class="masthead__separator" aria-hidden="true">
-                {" "}
-              </span>
-              <span class="masthead__word masthead__word--answer" aria-hidden="true">
-                {secondMastheadWord}
-              </span>
-            </>
-          )}
-      </span>
+        <defs>
+          <clipPath id="masthead-photo-cutout">
+            <path
+              class="masthead__island masthead__island--simple"
+              transform="translate(0 3) scale(1.2)"
+              clip-rule="evenodd"
+              d={symbolPath}
+            />
+            <path
+              class="masthead__island masthead__island--detail"
+              transform="translate(0 3) scale(1.2)"
+              clip-rule="evenodd"
+              d={detailPath}
+            />
+            <path
+              class="masthead__word masthead__word--question"
+              transform="translate(320 36) scale(2)"
+              d={wordmark['samui?']}
+            />
+            <path
+              class="masthead__word masthead__word--answer"
+              transform="translate(320 162) scale(2)"
+              d={wordmark['samui!']}
+            />
+          </clipPath>
+        </defs>
+        <image
+          href="/assets/header/header-201906.jpg"
+          width="900"
+          height="300"
+          preserveAspectRatio="xMidYMid slice"
+          clip-path="url(#masthead-photo-cutout)"
+        />
+      </svg>
     </a>
     <div class="masthead__tagline-wrap">
       <div
@@ -168,92 +193,58 @@ const [firstMastheadWord = setup.title, secondMastheadWord = ''] =
 </script>
 
 <style>
-  /* Recreates the original theme's #topheader masthead: the site name is
-     rendered with the header photo clipped into the text (background-clip:
-     text + transparent fill). The two words always stack on separate lines;
-     font-size scales fluidly with viewport width, capped at 200px. */
+  /* One continuous photograph clipped through the island and two-line Panton title.
+     The punctuation holes reveal the active page background. */
   .masthead {
     display: grid;
-    grid-template-columns: max-content;
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
     justify-content: center;
     margin: 0 auto;
     max-width: 100%;
-    padding: 1.5rem 0.75rem 0;
+    padding: 1.5rem 1rem 0;
     text-align: center;
     text-transform: uppercase;
   }
 
-  @media (min-width: 576px) {
-    .masthead {
-      max-width: 540px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .masthead {
-      max-width: 720px;
-    }
-  }
-
-  @media (min-width: 992px) {
-    .masthead {
-      max-width: 960px;
-    }
-  }
-
-  @media (min-width: 1200px) {
-    .masthead {
-      max-width: 1140px;
-    }
-  }
-
-  @media (min-width: 1400px) {
-    .masthead {
-      max-width: 1320px;
-    }
-  }
-
   .masthead__link {
     display: block;
+    width: min(calc(100vw - 32px), 1920px);
+    max-width: calc(100vw - 32px);
     color: inherit;
     text-decoration: none;
   }
 
-  /* inline-flex column + align-items: flex-start (rather than an
-     inline-block) keeps "SAMUI" flush on the same left edge on both lines;
-     inline-block would stretch both words to the widest one's width and then
-     center each within it, so "?" vs "!" width would knock the words apart. */
-  .masthead__name {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-family: var(--font-sans);
-    font-size: clamp(4.75rem, 16vw, 200px);
-    font-weight: 900;
-    line-height: 0.78;
-    text-decoration: none;
-    color: transparent;
-    background-image: url("/assets/header/header-201906.jpg");
-    background-position: center 40%;
-    background-size: cover;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  .masthead__link:focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 4px;
+    border-radius: var(--radius);
   }
 
-  .masthead__word {
+  .masthead__artwork {
     display: block;
+    width: 100%;
+    height: auto;
+    overflow: visible;
   }
 
-  .masthead__word--question {
-    font-size: 0.96em;
-  }
-
-  .masthead__separator {
+  .masthead__island--detail {
     display: none;
   }
 
+  @media (min-width: 768px) {
+    .masthead__island--simple {
+      display: none;
+    }
+
+    .masthead__island--detail {
+      display: inline;
+    }
+  }
+
   .masthead__tagline-wrap {
+    width: min(calc(100vw - 32px), 1920px);
+    max-width: 100%;
     position: relative;
     margin-top: 0.85rem;
     padding: 4px 1.75rem 0;

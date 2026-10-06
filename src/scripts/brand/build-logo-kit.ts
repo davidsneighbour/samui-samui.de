@@ -138,6 +138,20 @@ for (const [name, fill] of Object.entries(variants)) {
     svg(`<g transform="translate(12 18)" fill="${fill}">${words}</g>`, 592, 88),
   );
 }
+// The large masthead retains the supplied coastline detail and selected holes.
+const selectedReversed = readFileSync(
+  join(destination, 'selected/symbol-reversed.svg'),
+  'utf8',
+);
+const selectedPath = / d="([^"]+)"/.exec(selectedReversed)?.[1];
+const selectedHoles = selectedPath?.split('Z ').slice(1).join('Z ');
+if (!selectedHoles) throw new Error('Missing selected punctuation holes.');
+save(
+  'svg/symbol-detail-white.svg',
+  svg(
+    `<path fill="#ffffff" fill-rule="evenodd" d="${island(0)} ${selectedHoles}"/>`,
+  ),
+);
 save('svg/symbol-colour.svg', svg(symbol(colour.coral, true)));
 save(
   'svg/horizontal-colour.svg',

@@ -1,25 +1,19 @@
+<!-- markdownlint-disable MD013 -->
 # Masthead
 
 `src/components/layout/header/Header.astro` owns the site masthead, including the title, tagline, header search control, navigation, and all masthead-specific CSS.
 
-The site title uses the `setup.title` value from `src/data/setup.json`, split into word spans for presentation. The accessible name stays the full title, `Samui? Samui!`.
+The home link’s accessible name uses `setup.title` from `src/data/setup.json`. Visible lettering uses outlined Panton Heavy from the selected logo kit; changing the site name requires regenerating those outlines, as well as updating `setup.title`.
 
 The tagline shown under the title uses `setup.siteDescription` from the same file — `setup.json` is the source of truth for both, and `src/data/iumas.json` is a historical archive only (see [`documentation/features/iumas.md`](../features/iumas.md)). Changing the visible tagline means editing `setup.json`, not `iumas.json`; append a matching dated entry to `iumas.json` in the same change so the `/iumas/` history stays complete.
 
-## Responsive title
+## Photo-cut logo and responsive title
 
-Below 576px viewport width, the title is forced into two lines:
+The selected revision A island symbol sits on the left, and `Samui?` and `Samui!` remain on two left-aligned lines on the right at every viewport width. One SVG `<image>` draws `/assets/header/header-201906.jpg` over the complete composition. A combined `<clipPath>` contains the island and both outlined words, so the photograph continues across all three shapes without repetition. `preserveAspectRatio="xMidYMid slice"` covers the full canvas. The island uses `clip-rule="evenodd"`, preserving transparent `?!` holes that reveal the active header background in both themes.
 
-```text
-Samui?
-Samui!
-```
+The source artwork comes from `src/assets/brand/samui/selected/symbol-reversed.svg` and `src/assets/brand/samui/panton-wordmark.json`. Astro imports their source at build time; there are no external image hosts, CSS data URLs, or new CSP directives. The single home link exposes the site title to assistive technology, while the decorative SVG is hidden to prevent duplicate announcements. A visible focus outline uses existing ring and radius tokens. No JavaScript is required for the photo treatment or theme response, and the SVG remains intact after Astro view transitions.
 
-The mobile font size uses `clamp(4.75rem, 24vw, 9.375rem)`, so it can grow towards a 150px maximum without filling the whole screen. The word spans are block-level in this range to avoid mid-word breaks. The first line, `Samui?`, is scaled to `0.96em` on mobile because the fixed title's question mark otherwise sits too close to the right edge on very small devices.
-
-At 576px and wider, the words return to one line. The masthead then follows the legacy Bootstrap-style steps documented in `DESIGN.md`: 68px at 576px, 92px at 768px, 125px at 992px, 149px at 1200px, and 172px at 1400px. Both words use the same font size again in this range.
-
-This implementation does not use Pretext. The title is intentionally fixed as `Samui? Samui!`, so static markup plus CSS gives the required one-line and two-line states without adding runtime JavaScript.
+The artwork uses a 900 × 300 viewBox and scales to `min(calc(100vw - 32px), 1920px)`, giving 16px on each side and capping the artwork at 1920px on very large screens. It spans the viewport independently of the article and navigation columns; the former stepped container limits are removed. The island’s 256-unit canvas is scaled by 1.2 and translated by (0, 3). Both word paths have a normalised 48-unit cap height, are scaled by 2, and are translated by (320, 36) and (320, 162). These composition values are recorded in DESIGN.md. Separate logo uses at 32 px and below continue to use the island silhouette alone.
 
 ## Development preview
 
@@ -29,11 +23,12 @@ The route is declared in `src/pages/tests/[...path].astro`. `getStaticPaths()` r
 
 ## Automated checks
 
-`npm run test:e2e` runs the Playwright masthead checks in `src/test/`. The test starts the Astro dev server, opens `/tests/masthead-frame`, and checks that:
+The Playwright masthead checks in `src/test/masthead.spec.ts` cover two left-aligned word paths at all tested widths, a single elephant image clipped through all three shapes, the even-odd island cut-out, the accessible home-link name, and absence of horizontal overflow. Run the installed test package directly when the generic Playwright executable resolves a different version:
 
-* widths below 576px render two word lines,
-* widths at and above 576px render one word line,
-* the mobile `Samui?` line is slightly smaller than `Samui!`,
-* the title keeps the header photo clipped into the text,
-* the masthead does not cause horizontal overflow, and
-* the mobile title stays below the test height budget.
+```bash
+node node_modules/@playwright/test/cli.js test src/test/masthead.spec.ts
+```
+
+Visual checks cover light and dark themes. The clipping geometry lives inside the same SVG as its image and therefore travels with the header during an Astro view transition.
+
+The masthead uses the full supplied coastline at viewport widths of 768px and above, and the simplified 40-vertex contour below 768px. Both cuts use the same selected punctuation geometry, canvas, and scale. CSS selects the visible clipping path; one photograph covers the composition in either case. The tagline is constrained to the same responsive width and can wrap on narrow screens.

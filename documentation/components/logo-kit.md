@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD013 -->
 # Logo kit
 
-The selected revision A of the "Island voice" identity combines a simplified Koh Samui silhouette with negative-space `?!`, preserving the question-and-answer rhythm of "Samui? Samui!". The kit lives in `src/assets/brand/samui/`. The owner selected A after reviewing the Panton studies. The kit does not replace the current masthead or website icons automatically. Work is tracked in [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748).
+The selected revision A of the "Island voice" identity combines a simplified Koh Samui silhouette with negative-space `?!`, preserving the question-and-answer rhythm of "Samui? Samui!". The kit lives in `src/assets/brand/samui/`. The owner selected A after reviewing the Panton studies. The masthead uses the selected symbol as a photo mask beside its two-line title; website icons remain separate integration assets. See [Masthead](masthead.md). Work is tracked in [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748).
 
 ## Revised logo studies
 
@@ -25,7 +25,7 @@ The script declares its pinned FontTools dependency, reads the existing island m
 
 | Folder or file | Purpose |
 | --- | --- |
-| `svg/symbol-*.svg` | Full island-and-punctuation mark. |
+| `svg/symbol-*.svg` | Full island-and-punctuation mark; `symbol-detail-white.svg` retains the complete supplied coastline for the large masthead. |
 | `svg/horizontal-*.svg` | Symbol and outlined Panton wordmark, with fixed horizontal spacing. |
 | `svg/stacked-*.svg` | Symbol above the two-line wordmark. |
 | `svg/wordmark-*.svg` | Outlined Panton Heavy lettering without the symbol. |

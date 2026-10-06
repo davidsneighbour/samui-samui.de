@@ -1,92 +1,75 @@
 import { expect, test } from '@playwright/test';
 
-const widths = [320, 375, 390, 430, 575, 576, 768, 992, 1024, 1200, 1400, 1920];
-
-type MastheadMetrics = {
-  answerFontSize: number;
-  backgroundImage: string;
-  documentWidth: number;
-  lineCount: number;
-  nameHeight: number;
-  nameWidth: number;
-  questionFontSize: number;
-  viewportWidth: number;
-  wordRects: Array<{
-    left: number;
-    right: number;
-    width: number;
-  }>;
-};
-
-function readMastheadMetrics(node: SVGElement | HTMLElement): MastheadMetrics {
-  const element = node as HTMLElement;
-  const words = Array.from(
-    element.querySelectorAll<HTMLElement>('.masthead__word'),
-  );
-  const questionWord = words[0];
-  const answerWord = words[1];
-
-  if (questionWord === undefined || answerWord === undefined) {
-    throw new Error('Expected the masthead title to contain two word spans.');
-  }
-
-  const wordRects = words.map((word) => {
-    const range = document.createRange();
-    range.selectNodeContents(word);
-    return range.getBoundingClientRect();
-  });
-  const uniqueLineTops = new Set(wordRects.map((rect) => Math.round(rect.top)));
-
-  return {
-    answerFontSize: Number.parseFloat(getComputedStyle(answerWord).fontSize),
-    backgroundImage: getComputedStyle(element).backgroundImage,
-    documentWidth: document.documentElement.scrollWidth,
-    lineCount: uniqueLineTops.size,
-    nameHeight: element.getBoundingClientRect().height,
-    nameWidth: element.getBoundingClientRect().width,
-    questionFontSize: Number.parseFloat(
-      getComputedStyle(questionWord).fontSize,
-    ),
-    viewportWidth: window.innerWidth,
-    wordRects: wordRects.map((rect) => ({
-      left: rect.left,
-      right: rect.right,
-      width: rect.width,
-    })),
-  };
-}
+const widths = [
+  320, 375, 390, 430, 575, 576, 768, 992, 1024, 1200, 1400, 1920, 2560, 3840,
+];
 
 for (const width of widths) {
-  test(`masthead title always uses two clean lines at ${width}px`, async ({
+  test(`masthead clips one photo through the island and two words at ${width}px`, async ({
     page,
   }) => {
     await page.setViewportSize({ height: 500, width });
     await page.goto('/tests/masthead-frame');
-    await page.evaluate(() => document.fonts.ready);
-
-    const metrics: MastheadMetrics = await page
-      .locator('.masthead__name')
-      .evaluate(readMastheadMetrics);
-
-    expect(metrics.backgroundImage).toContain('header-201906.jpg');
-    expect(metrics.lineCount).toBe(2);
-    expect(metrics.documentWidth).toBeLessThanOrEqual(
-      metrics.viewportWidth + 1,
+    const artwork = page.locator('.masthead__artwork');
+    await expect(artwork.locator('image')).toHaveCount(1);
+    await expect(artwork.locator('image')).toHaveAttribute(
+      'href',
+      '/assets/header/header-201906.jpg',
     );
-    expect(metrics.questionFontSize).toBeLessThan(metrics.answerFontSize);
-    expect(metrics.answerFontSize).toBeLessThanOrEqual(200);
-    const [questionRect, answerRect] = metrics.wordRects;
-    if (questionRect === undefined || answerRect === undefined) {
-      throw new Error('Expected the masthead title to contain two word spans.');
-    }
-    expect(Math.abs(questionRect.left - answerRect.left)).toBeLessThanOrEqual(
-      1,
+    await expect(artwork.locator('image')).toHaveAttribute(
+      'clip-path',
+      'url(#masthead-photo-cutout)',
     );
-    for (const wordRect of metrics.wordRects) {
-      expect(wordRect.left).toBeGreaterThanOrEqual(0);
-      expect(wordRect.right).toBeLessThanOrEqual(metrics.viewportWidth + 1);
-      expect(wordRect.width).toBeLessThanOrEqual(metrics.nameWidth + 1);
-      expect(wordRect.width).toBeGreaterThan(metrics.nameWidth * 0.72);
+    await expect(
+      artwork.locator(
+        width >= 768
+          ? '.masthead__island--detail'
+          : '.masthead__island--simple',
+      ),
+    ).toHaveAttribute('clip-rule', 'evenodd');
+    await expect(page.locator('.masthead__link')).toHaveAccessibleName(
+      'Samui? Samui!',
+    );
+    const metrics = await artwork.evaluate((node) => {
+      const paths = [
+        ...node.querySelectorAll<SVGPathElement>('clipPath path'),
+      ].filter((path) => getComputedStyle(path).display !== 'none');
+      const boxes = paths.map((path) => {
+        const box = path.getBBox();
+        const matrix = path.transform.baseVal.consolidate()?.matrix;
+        if (!matrix) throw new Error('Expected a transformed artwork path.');
+        const topLeft = new DOMPoint(box.x, box.y).matrixTransform(matrix);
+        const bottomRight = new DOMPoint(
+          box.x + box.width,
+          box.y + box.height,
+        ).matrixTransform(matrix);
+        return {
+          bottom: bottomRight.y,
+          left: topLeft.x,
+          right: bottomRight.x,
+          top: topLeft.y,
+        };
+      });
+      return {
+        artworkWidth: node.getBoundingClientRect().width,
+        boxes,
+        documentWidth: document.documentElement.scrollWidth,
+        viewport: innerWidth,
+      };
+    });
+    const [island, question, answer] = metrics.boxes;
+    if (!island || !question || !answer)
+      throw new Error('Expected three clipping shapes.');
+    expect(island.right).toBeLessThan(question.left);
+    expect(question.bottom).toBeLessThan(answer.top);
+    expect(Math.abs(question.left - answer.left)).toBeLessThanOrEqual(1);
+    for (const box of metrics.boxes) {
+      expect(box.left).toBeGreaterThanOrEqual(0);
+      expect(box.right).toBeLessThanOrEqual(900);
+      expect(box.top).toBeGreaterThanOrEqual(0);
+      expect(box.bottom).toBeLessThanOrEqual(300);
     }
+    expect(metrics.documentWidth).toBeLessThanOrEqual(metrics.viewport + 1);
+    expect(metrics.artworkWidth).toBeCloseTo(Math.min(width - 32, 1920), 0);
   });
 }

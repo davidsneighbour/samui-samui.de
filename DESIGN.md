@@ -294,23 +294,7 @@ but only these faces are wired into CSS, deliberately, to avoid unused
   no-op for Panton, which is a static (non-variable) font and ignores
   the property.
 
-* **`brand-masthead`** — the site name in `Header.astro`. Weight 900,
-  uppercase (via `text-transform`, not a font feature — DESIGN.md's
-  typography schema has no uppercase token, so this is a CSS rule, not a
-  listed property), rendered with the header photo clipped into the
-  glyphs (`background-clip: text`). Below 576px the title is forced into
-  two lines (`Samui?` / `Samui!`) and uses
-  `clamp(4.75rem, 24vw, 9.375rem)`, so the mobile wordmark can grow
-  towards a 150px cap without occupying the full viewport. The first
-  mobile line is `0.96em` to keep the question mark clear of the right
-  edge on very small devices. From 576px up, the title returns to one
-  line, both words use the same size again, and it steps through the
-  *old Bootstrap
-  breakpoints* (576/768/992/1200/1400px → 68/92/125/149/172px), not
-  Tailwind's default breakpoints, because matching the live site's
-  line-wrap behavior required matching its exact breakpoints. See
-  `Header.astro`'s `<style>` block for the full step table — this
-  document records only the base (mobile) value.
+* **`brand-masthead`** — the site name in `src/components/layout/header/Header.astro`. The selected island sits on the left of two left-aligned lines, `Samui?` and `Samui!`, using outlined Panton Heavy (900) artwork. One SVG image of `header-201906.jpg` spans all three shapes, clipped by a combined vector path; the photograph is never repeated between elements. The island’s even-odd `?!` holes reveal the active page background. The composition uses a 900 × 300 viewBox: the 256-unit symbol is translated by (0, 3) and scaled by 1.2; the normalised 48-unit cap-height words are scaled by 2 and placed at (320, 36) and (320, 162). The responsive artwork width is `min(calc(100vw - 32px), 1920px)`, limited to the viewport minus the existing 32px large spacing token. The photograph uses `xMidYMid slice`, covering the combined canvas once. The home link has a `ring` focus outline, a 4px offset, and the existing medium radius. This deliberately extends the inherited photo-cut masthead without introducing another colour or font.
 * **`heading`** — `h1`–`h6` in article content render at **regular**
   weight (400), not bold, per a deliberate identity choice carried over
   from the old theme (see the comment in `theme.css`). Sizes themselves
@@ -339,11 +323,7 @@ but only these faces are wired into CSS, deliberately, to avoid unused
 * Content max-width: `max-w-4xl`/`max-w-5xl` (Tailwind defaults, 56rem /
   64rem) depending on component — post lists and the page card use
   `4xl`, the header nav uses `5xl`. Not yet unified; see Do's and Don'ts.
-* The masthead (`.masthead` in `Header.astro`) is a deliberate exception:
-  it replicates Bootstrap's *stepped* container widths (100% fluid →
-  540 → 720 → 960 → 1140 → 1320px) rather than a flat Tailwind
-  max-width, because the uppercase brand title needs the wider container
-  to stay on one line at desktop sizes, matching the live site.
+* The masthead deliberately spans the viewport outside the narrower article and navigation columns. Its combined photo-cut artwork has 16px on each side and a 1920px maximum width for very large displays; the inherited stepped container limits are removed. The composition scales uniformly, keeping the island and both words together.
 * Standard horizontal padding is `px-4` (16px), widening to `sm:px-8`
   (32px) on card surfaces at the `sm` breakpoint.
 * No custom spacing scale is defined in `theme.css` — Tailwind's default
@@ -488,11 +468,6 @@ Generated Markdown footnotes use a separate "Fußnoten" section with 32px of spa
   intentionally flat.
 * **Don't** bold headings inside post content — regular weight (400) on
   `h1`–`h6` is a deliberate identity choice, not a missed style.
-* **Don't** treat Bootstrap-breakpoint values (576/768/992/1200/1400)
-  seen in `Header.astro` as a pattern to reuse elsewhere. They exist
-  there for one reason (matching the live site's masthead line-wrap) and
-  should stay scoped to that component; the rest of the site uses
-  Tailwind's default breakpoints.
 
 ## Island logo kit
 
@@ -501,3 +476,5 @@ The selected identity direction is "Island voice", revision A: a simplified Koh 
 The square symbol canvas is 256 units. The full coastline retains 40 vertices, and the island-only small cut retains 21. Preserve the geographic orientation and its organic angles; do not snap coastline vertices to typographic angle grids. Clear space is one exclamation-stem width (17 symbol units). White and bright coral cuts enlarge punctuation counters and dots slightly for dark backgrounds. The standalone favicon uses only the island, with a punctuation-only alternative; never combine both at 16–32 px. App icon tiles reuse the existing 12 px medium radius on a 256-unit export canvas. These asset construction rules do not change component spacing or radius tokens.
 
 The presentation is flat and uses existing brand colours. Its six contexts are illustrative applications, not implemented website changes. The supplied coastline’s upstream licence is unverified and tracked in [#1749](https://github.com/davidsneighbour/samui-samui.de/issues/1749).
+
+The masthead uses the full supplied coastline at viewport widths of 768px and above, and the simplified 40-vertex contour below 768px. Both cuts use the same selected punctuation geometry, canvas, and scale. CSS selects the visible clipping path; one photograph covers the composition in either case. The tagline is constrained to the same responsive width and can wrap on narrow screens.
