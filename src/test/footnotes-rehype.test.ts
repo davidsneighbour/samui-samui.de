@@ -31,7 +31,11 @@ describe('post footnotes', () => {
     expect(html).toContain('href="#user-content-fnref-src-example-2"');
     expect(html).toContain('aria-label="Zurück zur Textstelle 1"');
     expect(html).toContain('aria-label="Zurück zur Textstelle 1-2"');
-    expect(html.match(/>↵<\/a>/g)).toHaveLength(2);
+    expect(html.match(/<svg /g)).toHaveLength(2);
+    expect(html).toContain('aria-hidden="true"');
+    expect(html).toContain('d="M14 9 9 4 4 9"');
+    expect(html).toContain('d="M20 20h-7a4 4 0 0 1-4-4V4"');
+    expect(html).not.toContain('↵');
   });
 
   it('leaves posts without footnotes and ordinary ordered lists unchanged', async () => {

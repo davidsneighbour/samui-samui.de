@@ -26,3 +26,5 @@ Mutating commands must be named explicitly. `format` writes canonical formatting
 `lint:umlauts` checks Markdown, MDX, and Astro content for the narrow German umlaut entity set. `lint:umlauts:fix` applies the same replacements and is wired into lint-staged before markdownlint or Biome write to the same staged files. See [German umlaut normalisation](content/german-umlaut-normalisation.md) for the replacement set, output format, and configuration notes.
 
 `npm run build` uses Astro's normal logging level after validation. Use `npm run build:verbose` when a build needs Astro's verbose diagnostic output.
+
+`lint:german-dates` checks date spelling in Markdown footnote prose. Lint-staged runs it on edited content, while the explicit whole-content audit stays separate from `check` during the archive cleanup. It reports suggested German spellings without changing dates. See [German citation dates](content/german-citation-dates.md) for its scope and exclusions.

@@ -1,4 +1,5 @@
-import type { Root } from 'hast';
+import type { Element, Root } from 'hast';
+import { CornerLeftUp } from 'lucide';
 import { visit } from 'unist-util-visit';
 
 /** Give generated Markdown footnotes a visible heading and accessible returns. */
@@ -23,7 +24,32 @@ export function rehypeFootnotes() {
           typeof label === 'string'
             ? label.replace('Back to reference', 'Zurück zur Textstelle')
             : 'Zurück zur Textstelle';
-        node.children = [{ type: 'text', value: '↵' }];
+        node.children = [
+          {
+            children: CornerLeftUp.map(
+              ([tagName, properties]): Element => ({
+                children: [],
+                properties,
+                tagName,
+                type: 'element',
+              }),
+            ),
+            properties: {
+              ariaHidden: 'true',
+              fill: 'none',
+              focusable: 'false',
+              height: 16,
+              stroke: 'currentColor',
+              strokeLinecap: 'round',
+              strokeLinejoin: 'round',
+              strokeWidth: '2',
+              viewBox: '0 0 24 24',
+              width: 16,
+            },
+            tagName: 'svg',
+            type: 'element',
+          },
+        ];
       }
     });
   };

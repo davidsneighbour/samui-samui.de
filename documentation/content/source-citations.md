@@ -82,8 +82,12 @@ The source registry in `.agents/skills/ss-research-news/resources/` tracks reusa
 
 Do not cite a source homepage when a direct article or document URL is available.
 
+## German date spelling
+
+Write publication and access dates in German, for example `23. September 2026` and `abgerufen am 6. Oktober 2026`. Preserve an original foreign-language source title and link it. The pre-commit citation date check reports English or abbreviated date forms in footnote prose; see [German citation dates](german-citation-dates.md) for its scope.
+
 ## Rendered footnotes
 
 Posts with Markdown footnotes automatically show a separate "Fußnoten" section after the body. A short line precedes the visible heading, and the numbered entries use slightly smaller text. No shortcode, manual heading, or frontmatter option is required. The shared `rehypeFootnotes` plugin in `src/scripts/rehype/footnotes.ts` provides the German heading and return-link labels; `src/styles/theme.css` owns the presentation, as recorded in `DESIGN.md`.
 
-Repeated references retain one definition and separate return links to each original text position. Return links display a plain text arrow rather than an emoji and use "Zurück zur Textstelle" with a reference number as their accessible label. Reference and return links remain keyboard accessible with visible focus outlines. Posts without footnotes gain no extra section.
+Repeated references retain one definition and separate return links to each original text position. Return links display the locally bundled Lucide `corner-left-up` SVG and use "Zurück zur Textstelle" with a reference number as their accessible label. Return links are native fragment links with inline ghost-button hover, focus, and pressed feedback. Reference and return links remain keyboard accessible with visible focus outlines. Posts without footnotes gain no extra section.

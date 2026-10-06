@@ -21,6 +21,7 @@
 * [Content schema](content/content-schema.md) records current Astro content schema import and loose-schema conventions.
 * [Curation frontmatter](content/curation-frontmatter.md) defines the public editorial `curation` frontmatter contract.
 * [Frontmatter variables](content/frontmatter-variables.md) indexes all supported content frontmatter properties and links to their focused documentation.
+* [German citation dates](content/german-citation-dates.md) documents the staged citation date check and its explicit archive audit.
 * [German umlaut normalisation](content/german-umlaut-normalisation.md) documents the narrow HTML entity replacement script, its npm commands, and pre-commit behaviour.
 * [Markdown typography](content/markdown-typography.md) explains the remark typography transform used for post prose.
 * [People taxonomy migration](content/people-taxonomy-migration.md) records the migration from free-form `leute` values to canonical people IDs.

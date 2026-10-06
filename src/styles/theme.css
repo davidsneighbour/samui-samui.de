@@ -650,11 +650,28 @@ p {
 }
 
 .prose section[data-footnotes] a[data-footnote-backref] {
-  display: inline-block;
-  min-width: 1.5rem;
-  min-height: 1.5rem;
-  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: calc(var(--radius) - 4px);
+  vertical-align: middle;
   text-decoration: none;
+  transition:
+    background-color 150ms,
+    color 150ms,
+    transform 150ms;
+}
+
+.prose section[data-footnotes] a[data-footnote-backref]:hover,
+.prose section[data-footnotes] a[data-footnote-backref]:focus-visible {
+  color: var(--color-accent-foreground);
+  background-color: var(--color-accent);
+}
+
+.prose section[data-footnotes] a[data-footnote-backref]:active {
+  transform: scale(0.97);
 }
 
 .prose [data-footnote-ref]:focus-visible,

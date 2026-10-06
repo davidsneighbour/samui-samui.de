@@ -114,6 +114,7 @@
     "lint:code": "biome lint .",
     "lint:code:fix": "biome lint --write .",
     "lint:fix": "npm run lint:code:fix && npm run lint:markdown:fix && npm run lint:umlauts:fix",
+    "lint:german-dates": "node src/scripts/lint-german-dates.ts",
     "lint:links": "node src/scripts/lint-links.ts",
     "lint:markdown": "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc \"**/*.{md,mdx}\" \"!CHANGELOG.md\" \"!PROJECT.md\" \"!TODO.md\" \"!RESUME.md\"",
     "lint:markdown:fix": "markdownlint-cli2 --config ./node_modules/@dnbhq/markdownlint-config/.markdownlint-cli2.jsonc --fix \"**/*.{md,mdx}\" \"!CHANGELOG.md\" \"!PROJECT.md\" \"!TODO.md\" \"!RESUME.md\"",
@@ -194,6 +195,7 @@
   "lint-staged": {
     "src/content/**/*.{md,mdx}": [
       "node src/scripts/lint-links.ts --staged",
+      "node src/scripts/lint-german-dates.ts",
       "node src/scripts/content/fetch-video-thumbnails.ts",
       "git add src/assets/images/video-thumbnails"
     ],
