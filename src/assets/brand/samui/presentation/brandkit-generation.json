@@ -1,0 +1,74 @@
+{
+  "skill": "/home/patrick/github.com/davidsneighbour/skills/skills/taste-skill/brandkit/SKILL.md",
+  "basePrompt": "Create ONE standalone full-resolution 4:3 brand-guidelines PANEL for the premium identity of 'Samui? Samui!', following a senior identity studio's restrained editorial brandkit. NOT a collage or 3x3 board. Fill the whole image with this single panel. Request highest native resolution available, ideally 2048x1536 or greater. This is a German personal publication about life on Koh Samui, curious, direct, observant, with 20 years of history; the core metaphor is the island and a question becoming an emphatic answer. Preserve the supplied logo silhouette and rounded heavyweight Panton lettering (weight 900), exact punctuation, never invent another symbol. Reference1 is the approved logo; reference2 is website appearance only. Palette exclusively plum #290e1c, coral #ec7263, ivory #f5f1e6, darker coral #b8402f, muted tagline #e2e2b6. No generic gradients, no random neon, no fake dense text. Minimal typography, clean alignment, generous negative space, one strong idea per panel. ",
+  "references": [
+    "src/assets/brand/samui/png/horizontal-coral-1880.png",
+    "/tmp/samui-masthead-centred.png"
+  ],
+  "panels": [
+    {
+      "file": "panels/01-logo.png",
+      "nativeWidth": 1448,
+      "nativeHeight": 1086,
+      "generationFile": "/home/patrick/.codex/generated_images/01a110bc-8b56-77a3-9517-dc606fa505b7/exec-a0e9ce43-d263-4760-b79b-99e2b0a03421.png",
+      "brief": "Logo cover. Warm ivory paper field, approved coral island and Samui? Samui! wordmark prominently centred, huge calm negative space. One tiny label '01 / Identität'."
+    },
+    {
+      "file": "panels/02-logo-system.png",
+      "nativeWidth": 1448,
+      "nativeHeight": 1086,
+      "generationFile": "/home/patrick/.codex/generated_images/01a110bc-8b56-77a3-9517-dc606fa505b7/exec-5a32c88e-237c-4f83-8d29-ba5a505f1340.png",
+      "brief": "Logo construction. Deep plum field. One large cream Koh Samui silhouette with the approved Panton ?! negative space slightly left of centre, subtle coral measurement grid. Compare one tiny island-only mark labelled '32 px'. Sparse precision, no invented construction circles.",
+      "correction": "Remove punctuation only from the 32 px island icon; retain all other artwork."
+    },
+    {
+      "file": "panels/03-website.png",
+      "nativeWidth": 1448,
+      "nativeHeight": 1086,
+      "generationFile": "/home/patrick/.codex/generated_images/01a110bc-8b56-77a3-9517-dc606fa505b7/exec-bd7d6556-fe95-4909-88b4-161e5117d79f.png",
+      "brief": "Digital application. Minimal believable browser window, deep plum website. Reproduce the supplied website reference: island left, SAMUI? and SAMUI! on two lines right with aligned punctuation dots, centred and vertically balanced. One continuous elephant mural photograph across all three shapes, punctuation on island is plum background. A thin coral divider, then 'Notizen. (Pedantisch) unsortiert.' No yellow construction banner. A tiny URL 'samui-samui.de'."
+    },
+    {
+      "file": "panels/04-tagline.png",
+      "nativeWidth": 1448,
+      "nativeHeight": 1086,
+      "generationFile": "/home/patrick/.codex/generated_images/01a110bc-8b56-77a3-9517-dc606fa505b7/exec-81dcbbbf-e501-4f58-a5d7-d42a27e2b68f.png",
+      "brief": "Brand essence. Deep plum background. Large cream heavy Panton-style typography arranged in three calm lines, exact text 'Notizen.' then '(Pedantisch)' then 'unsortiert.' One tiny coral island emblem. Quiet, restrained, balanced."
+    },
+    {
+      "file": "panels/05-palette.png",
+      "nativeWidth": 1448,
+      "nativeHeight": 1086,
+      "generationFile": "/home/patrick/.codex/generated_images/01a110bc-8b56-77a3-9517-dc606fa505b7/exec-9ffb55d0-c135-4275-998e-dc4ea2638811.png",
+      "brief": "Colour system. A refined ivory paper composition of five solid flat colour rectangles or material chips using EXACT colours plum #290e1c, coral #ec7263, cream #f5f1e6, dark coral #b8402f, muted olive cream #e2e2b6. Minimal clear hex labels. One tiny approved island mark. No extra colour."
+    },
+    {
+      "file": "panels/06-typography.png",
+      "nativeWidth": 1448,
+      "nativeHeight": 1086,
+      "generationFile": "/home/patrick/.codex/generated_images/01a110bc-8b56-77a3-9517-dc606fa505b7/exec-aa473c23-ed39-4237-98ea-f99f0e0a0d16.png",
+      "brief": "Typography. Warm ivory field. Large specimen 'Samui? Samui!' and large '? !' in very heavy rounded geometric Panton 900 like reference lettering. Secondary small simple sans specimen 'Notizen aus Thailand.' Minimal labels 'Panton / 900' and 'Panton / 400'. A precise editorial type specimen, no fake alphabets or fonts."
+    },
+    {
+      "file": "panels/07-postcard.png",
+      "nativeWidth": 1448,
+      "nativeHeight": 1086,
+      "generationFile": "/home/patrick/.codex/generated_images/01a110bc-8b56-77a3-9517-dc606fa505b7/exec-21ca7554-83ef-449a-a7c4-51403fafaeb3.png",
+      "brief": "Physical application. Believable matte warm ivory postcard on deep plum table in soft side light. Approved coral island and Samui? Samui! logo on face, one small printed 'samui-samui.de'. A second card back has a quiet coral rule and tiny island. Restrained tactile paper, no foil or shiny mockup."
+    },
+    {
+      "file": "panels/08-image-direction.png",
+      "nativeWidth": 1448,
+      "nativeHeight": 1086,
+      "generationFile": "/home/patrick/.codex/generated_images/01a110bc-8b56-77a3-9517-dc606fa505b7/exec-bf62d1ac-8729-455f-bb4d-161dfd85f451.png",
+      "brief": "Image direction. A cinematic authentic Thai island editorial photograph: Koh Samui coastline and coconut palms, humid hazy warm dusk, understated coral sun and plum shadows, subtle natural film grain. One small cream approved island mark at bottom left, tiny 'Koh Samui'. No people, no fantasy landscape."
+    },
+    {
+      "file": "panels/09-icons-and-navigation.png",
+      "nativeWidth": 1448,
+      "nativeHeight": 1086,
+      "generationFile": "/home/patrick/.codex/generated_images/01a110bc-8b56-77a3-9517-dc606fa505b7/exec-c3d32a15-12a6-4cab-9d4f-1eacad30bc6d.png",
+      "brief": "System detail. Deep plum field. A quiet oversized cream search field with German placeholder 'Finden', coral active underline, a few restrained line icons for home, archive, mail, and moon. A tiny icon-size family of coral island-only marks at 16, 24, and 32 px, larger island with Panton ?! at 64 and 128 px. No typography inside tiny islands. Sparse precise functional design. Labels 'Startseite', 'Archiv', 'Kontakt'."
+    }
+  ]
+}

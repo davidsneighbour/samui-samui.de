@@ -49,8 +49,9 @@ The update flag changes only the selected masters and font outline data; it leav
 | `png/` | Transparent symbol, wordmark, horizontal, and stacked PNG exports. |
 | `web/` | Island-only favicon SVG, 16/32/48 px PNGs, multi-size ICO, touch/app icons, maskable icon, web manifest, and integration snippet. |
 | `web/punctuation/` | Alternative punctuation-only favicons and touch/app icons. |
-| `presentation/panels/` | Nine individual PNG panels extracted from the brand overview without regenerating or redrawing its artwork. |
-| `presentation/brandkit-overview.png` | Image-generated 3 × 3 brand overview, based on the refined Panton symbol and centred photo-cut masthead. Illustrative applications and lettering are not exact production masters. |
+| `presentation/panels/` | Nine independently generated full-size original PNG panels, numbered in reading order. |
+| `presentation/brandkit-overview.svg` and `brandkit-overview.png` | Self-contained 3 × 3 canvas and large raster export assembled from the nine original panels. The SVG embeds the raster artwork and allows panel layout changes. |
+| `presentation/brandkit-overview-v1.png` | Preserved earlier single-image overview, whose small crops are superseded by the full-size originals. |
 | `presentation/index.html` | Portable presentation showing six illustrative editorial contexts. |
 | `presentation/overview.svg` and `overview.png` | Vector and raster presentation board. Presentation labels use system text; the logo artwork itself contains only vector shapes. |
 
@@ -94,6 +95,18 @@ The artwork was rendered and visually inspected on pale and dark backgrounds. SV
 
 ## Brand overview image
 
-`src/assets/brand/samui/presentation/brandkit-overview.png` presents the refined identity as a 3 × 3 board: logo, symbol construction, photo-cut website application, tagline, palette, typography, postcard, island image direction, and icon applications. It was generated with the brandkit skill using the centred header preview and current coral symbol as references. The image is a presentation illustration; generated typography, coastline details, photographic scenes, and UI examples can differ from the exact SVG assets and implemented website. Use the selected SVG masters and DESIGN.md for production geometry, font, colour, and component decisions. The regular kit generator leaves this separately generated PNG intact.
+The current kit follows `/home/patrick/github.com/davidsneighbour/skills/skills/taste-skill/brandkit/SKILL.md`. Its visual sequence is logo cover, logo construction, digital application, brand essence, colour system, typography, physical application, image direction, and system detail. The approved Panton logo and the centred photo-cut masthead are generation references; DESIGN.md supplies the palette.
 
-The nine original panels are also saved individually under `presentation/panels/`, numbered in reading order from `01-logo.png` to `09-icons-and-navigation.png`. They are pixel-preserving crops of `brandkit-overview.png`; the outer canvas and gutters are excluded. These illustrative extracts share the overview’s production limitations.
+Unlike the earlier overview's small extracted crops, the nine files under `presentation/panels/` are separately generated original PNG images. Each original is 1448 × 1086 pixels, saved at its native resolution with no enlargement of the previous crops. The original single-image overview is retained as `presentation/brandkit-overview-v1.png`.
+
+`presentation/brandkit-overview.svg` embeds all nine images in a portable 3 × 3 canvas. Each panel has a named SVG image element that can be moved or resized in a vector editor. The panel artwork remains raster: the canvas does not turn generated lettering, photographs, or mockups into editable vector objects. Exact outlined logo masters remain under `svg/`. The matching 4472 × 3386 pixel `brandkit-overview.png` is rendered from this canvas at its native panel scale, using the documented plum background and 32 px spacing token.
+
+Regenerate the canvas and raster export from the saved originals with:
+
+```bash
+node src/scripts/brand/build-brandkit-board.ts
+```
+
+This assembly requires `rsvg-convert`. It does not regenerate or alter the source PNG files. To change an individual panel, replace its matching file under `presentation/panels/`, then rerun the command. The normal logo-kit generator leaves these separately generated presentation assets intact.
+
+Generated typography, coastline details, photographs, and UI mockups can differ from the approved identity and implemented website. These images are presentation illustrations; use the SVG logo masters and DESIGN.md for production geometry, fonts, colours, and components.
