@@ -354,7 +354,7 @@ but only these faces are wired into CSS, deliberately, to avoid unused
   where one of these already covers it.
 
 <!-- markdownlint-disable-next-line title-case-style -->
-## Elevation & Depth
+## Elevation & depth
 
 There is no elevation system. **No `box-shadow` is used anywhere in the
 codebase.** Depth/separation is communicated entirely through flat color
@@ -463,7 +463,7 @@ Generated Markdown footnotes use a separate "Fußnoten" section with 32px of spa
   stays on the plain `border` token. `not-prose`, no `box-shadow`.
 
 <!-- markdownlint-disable-next-line title-case-style -->
-## Do's and Don'ts
+## Do's and don'ts
 
 * **Do** treat the live site
   ([https://samui-samui.de](https://samui-samui.de)) as the source of
@@ -493,3 +493,11 @@ Generated Markdown footnotes use a separate "Fußnoten" section with 32px of spa
   there for one reason (matching the live site's masthead line-wrap) and
   should stay scoped to that component; the rest of the site uses
   Tailwind's default breakpoints.
+
+## Island logo kit
+
+The approved identity direction is "Island voice": a simplified Koh Samui silhouette containing negative-space `?!`. The delivery kit under `src/assets/brand/samui/` uses the existing dark `primary` coral, `background` plum, and `foreground` cream; pale surfaces use plum or the existing light `primary` dark coral. No website palette or masthead token changes are introduced. Horizontal and stacked lockups use custom outlined geometric uppercase lettering; this lettering is logo artwork, not an additional site font. See [Logo kit](documentation/components/logo-kit.md) for files, clear space, minimum sizes, provenance, and regeneration.
+
+The square symbol canvas is 256 units. The full coastline retains 40 vertices, and the island-only small cut retains 21. Preserve the geographic orientation and its organic angles; do not snap coastline vertices to typographic angle grids. Clear space is one exclamation-stem width (17 symbol units). White and bright coral cuts enlarge punctuation counters and dots slightly for dark backgrounds. The standalone favicon uses only the island, with a punctuation-only alternative; never combine both at 16–32 px. App icon tiles reuse the existing 12 px medium radius on a 256-unit export canvas. These asset construction rules do not change component spacing or radius tokens.
+
+The presentation is flat and uses existing brand colours. Its six contexts are illustrative applications, not implemented website changes. The supplied coastline’s upstream licence is unverified and tracked in [#1749](https://github.com/davidsneighbour/samui-samui.de/issues/1749).

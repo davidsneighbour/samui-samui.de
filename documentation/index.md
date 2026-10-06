@@ -7,6 +7,7 @@
 * [Component structure](components/structure.md) defines the topic-based `src/components/` folder layout.
 * [Giscus comments](components/giscus-comments.md) documents the lazy giscus widget, custom theme URLs, and local-development theme limitations.
 * [Legacy image presentation](components/legacy-images.md) explains the automatic small-image rendering system for archive images and cover previews.
+* [Logo kit](components/logo-kit.md) documents the approved island-and-punctuation identity, exports, favicon options, usage rules, and regeneration.
 * [Masthead](components/masthead.md) documents the responsive site title, header-owned CSS, and dev-only masthead preview route.
 * [Editorial notices](components/notices.md) documents the `Notice.astro` and `<dnb-notice>` rendering pipeline.
 * [Person taxonomy link](components/person-link.md) documents the `<PersonLink>`/`<dnb-person>` link from post prose to a `personen` entity page.
