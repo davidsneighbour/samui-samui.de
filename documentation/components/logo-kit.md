@@ -49,6 +49,7 @@ The update flag changes only the selected masters and font outline data; it leav
 | `png/` | Transparent symbol, wordmark, horizontal, and stacked PNG exports. |
 | `web/` | Island-only favicon SVG, 16/32/48 px PNGs, multi-size ICO, touch/app icons, maskable icon, web manifest, and integration snippet. |
 | `web/punctuation/` | Alternative punctuation-only favicons and touch/app icons. |
+| `presentation/brandkit-overview.png` | Image-generated 3 × 3 brand overview, based on the refined Panton symbol and centred photo-cut masthead. Illustrative applications and lettering are not exact production masters. |
 | `presentation/index.html` | Portable presentation showing six illustrative editorial contexts. |
 | `presentation/overview.svg` and `overview.png` | Vector and raster presentation board. Presentation labels use system text; the logo artwork itself contains only vector shapes. |
 
@@ -89,3 +90,7 @@ To integrate later, copy the selected `web/` files into `public/assets/brand/sam
 The coastline comes from the SVG supplied by the owner. Its upstream author, source URL, licence, geographic accuracy, and attribution obligations are unverified. [#1749](https://github.com/davidsneighbour/samui-samui.de/issues/1749) tracks source confirmation before publication. No geographic facts were inferred or added. The punctuation now uses the same Panton Heavy font outlines as the wordmark. The selected wordmark and studies use outlined Panton Heavy glyphs from the repository font; no font file is embedded in the SVG, but the Panton licence still governs the source font and its permitted uses. A professional similarity and trademark search is recommended before registering or commercially licensing the identity; no clearance is claimed.
 
 The artwork was rendered and visually inspected on pale and dark backgrounds. SVG audits checked representative symbol, wordmark, and favicon masters. Coastline angle warnings are expected for preserved geographic contours; forcing those vertices onto a typography grid would change the shape. Masters have no live text, strokes, raster images, filters, masks, or external resources. The full mark’s punctuation is a real even-odd cut-out. The presentation board contains live labels, which are not part of any logo master. Browser checks cover the adaptive favicon’s light and dark appearance, and the ICO frames were checked against their PNG sizes.
+
+## Brand overview image
+
+`src/assets/brand/samui/presentation/brandkit-overview.png` presents the refined identity as a 3 × 3 board: logo, symbol construction, photo-cut website application, tagline, palette, typography, postcard, island image direction, and icon applications. It was generated with the brandkit skill using the centred header preview and current coral symbol as references. The image is a presentation illustration; generated typography, coastline details, photographic scenes, and UI examples can differ from the exact SVG assets and implemented website. Use the selected SVG masters and DESIGN.md for production geometry, font, colour, and component decisions. The regular kit generator leaves this separately generated PNG intact.
