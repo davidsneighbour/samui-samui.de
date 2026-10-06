@@ -294,7 +294,7 @@ but only these faces are wired into CSS, deliberately, to avoid unused
   no-op for Panton, which is a static (non-variable) font and ignores
   the property.
 
-* **`brand-masthead`** — the site name in `src/components/layout/header/Header.astro`. The selected island sits on the left of two left-aligned lines, `Samui?` and `Samui!`, using outlined Panton Heavy (900) artwork. One SVG image of `header-201906.jpg` spans all three shapes, clipped by a combined vector path; the photograph is never repeated between elements. The island’s even-odd `?!` holes reveal the active page background. The composition uses a 900 × 300 viewBox: the 256-unit symbol is translated by (0, 3) and scaled by 1.2; the normalised 48-unit cap-height words are scaled by 2 and placed at (320, 36) and (320, 162). The responsive artwork width is `min(calc(100vw - 32px), 1920px)`, limited to the viewport minus the existing 32px large spacing token. The photograph uses `xMidYMid slice`, covering the combined canvas once. The home link has a `ring` focus outline, a 4px offset, and the existing medium radius. This deliberately extends the inherited photo-cut masthead without introducing another colour or font.
+* **`brand-masthead`** — the site name in `src/components/layout/header/Header.astro`. The selected island sits on the left of two left-aligned lines, `Samui?` and `Samui!`, using outlined Panton Heavy (900) artwork. One SVG image of `header-201906.jpg` spans all three shapes, clipped by a combined vector path; the photograph is never repeated between elements. The island’s even-odd `?!` holes reveal the active page background. The composition uses a 900 × 300 viewBox: the 256-unit symbol is translated by (0, 3) and scaled by 1.2; the normalised 48-unit cap-height words are scaled by 2 and placed at (294.24, 36) and (294.24, 162). The responsive artwork width is `min(calc(100vw - 32px), 1600px)`, limited to the viewport minus the existing 32px large spacing token. The photograph uses `xMidYMid slice`, covering the combined canvas once. The home link has a `ring` focus outline, a 4px offset, and the existing medium radius. This deliberately extends the inherited photo-cut masthead without introducing another colour or font.
 * **`heading`** — `h1`–`h6` in article content render at **regular**
   weight (400), not bold, per a deliberate identity choice carried over
   from the old theme (see the comment in `theme.css`). Sizes themselves
@@ -323,7 +323,7 @@ but only these faces are wired into CSS, deliberately, to avoid unused
 * Content max-width: `max-w-4xl`/`max-w-5xl` (Tailwind defaults, 56rem /
   64rem) depending on component — post lists and the page card use
   `4xl`, the header nav uses `5xl`. Not yet unified; see Do's and Don'ts.
-* The masthead deliberately spans the viewport outside the narrower article and navigation columns. Its combined photo-cut artwork has 16px on each side and a 1920px maximum width for very large displays; the inherited stepped container limits are removed. The composition scales uniformly, keeping the island and both words together.
+* The masthead deliberately spans the viewport outside the narrower article and navigation columns. Its combined photo-cut artwork has 16px on each side and a 1600px maximum width for very large displays; the inherited stepped container limits are removed. The composition scales uniformly, keeping the island and both words together.
 * Standard horizontal padding is `px-4` (16px), widening to `sm:px-8`
   (32px) on card surfaces at the `sm` breakpoint.
 * No custom spacing scale is defined in `theme.css` — Tailwind's default
@@ -478,3 +478,5 @@ The square symbol canvas is 256 units. The full coastline retains 40 vertices, a
 The presentation is flat and uses existing brand colours. Its six contexts are illustrative applications, not implemented website changes. The supplied coastline’s upstream licence is unverified and tracked in [#1749](https://github.com/davidsneighbour/samui-samui.de/issues/1749).
 
 The masthead uses the full supplied coastline at viewport widths of 768px and above, and the simplified 40-vertex contour below 768px. Both cuts use the same selected punctuation geometry, canvas, and scale. CSS selects the visible clipping path; one photograph covers the composition in either case. The tagline is constrained to the same responsive width and can wrap on narrow screens.
+
+The visible island-to-wordmark gap is approximately 25.76 viewBox units, half the earlier 51.52-unit gap. Both word lines move left together; the island geometry and the single continuous photo crop stay unchanged. The 1600px maximum width limits enlargement of the source photograph.

@@ -61,6 +61,7 @@ for (const width of widths) {
     if (!island || !question || !answer)
       throw new Error('Expected three clipping shapes.');
     expect(island.right).toBeLessThan(question.left);
+    expect(question.left - island.right).toBeCloseTo(25.76, 2);
     expect(question.bottom).toBeLessThan(answer.top);
     expect(Math.abs(question.left - answer.left)).toBeLessThanOrEqual(1);
     for (const box of metrics.boxes) {
@@ -70,6 +71,6 @@ for (const width of widths) {
       expect(box.bottom).toBeLessThanOrEqual(300);
     }
     expect(metrics.documentWidth).toBeLessThanOrEqual(metrics.viewport + 1);
-    expect(metrics.artworkWidth).toBeCloseTo(Math.min(width - 32, 1920), 0);
+    expect(metrics.artworkWidth).toBeCloseTo(Math.min(width - 32, 1600), 0);
   });
 }
