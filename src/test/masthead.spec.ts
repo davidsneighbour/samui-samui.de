@@ -36,7 +36,12 @@ for (const width of widths) {
       ].filter((path) => getComputedStyle(path).display !== 'none');
       const boxes = paths.map((path) => {
         const box = path.getBBox();
-        const matrix = path.transform.baseVal.consolidate()?.matrix;
+        const screenMatrix = path.getScreenCTM();
+        const rootMatrix = (node as SVGSVGElement).getScreenCTM();
+        const matrix =
+          screenMatrix && rootMatrix
+            ? rootMatrix.inverse().multiply(screenMatrix)
+            : null;
         if (!matrix) throw new Error('Expected a transformed artwork path.');
         const topLeft = new DOMPoint(box.x, box.y).matrixTransform(matrix);
         const bottomRight = new DOMPoint(
@@ -50,10 +55,36 @@ for (const width of widths) {
           top: topLeft.y,
         };
       });
+      const dots = paths.slice(1).map((path) => {
+        const contours = (path.getAttribute('d') ?? '')
+          .split(/(?=M)/)
+          .slice(-2);
+        const probe = document.createElementNS(
+          'http://www.w3.org/2000/svg',
+          'path',
+        );
+        probe.style.visibility = 'hidden';
+        node.append(probe);
+        const candidates = contours.map((d) => {
+          probe.setAttribute('d', d);
+          return probe.getBBox();
+        });
+        probe.remove();
+        const dot = candidates.sort((a, b) => a.height - b.height)[0];
+        const screenMatrix = path.getScreenCTM();
+        const rootMatrix = (node as SVGSVGElement).getScreenCTM();
+        if (!dot || !screenMatrix || !rootMatrix)
+          throw new Error('Expected punctuation dot bounds.');
+        return new DOMPoint(
+          dot.x + dot.width / 2,
+          dot.y + dot.height / 2,
+        ).matrixTransform(rootMatrix.inverse().multiply(screenMatrix)).x;
+      });
       return {
         artworkWidth: node.getBoundingClientRect().width,
         boxes,
         documentWidth: document.documentElement.scrollWidth,
+        dots,
         viewport: innerWidth,
       };
     });
@@ -63,6 +94,11 @@ for (const width of widths) {
     expect(island.right).toBeLessThan(question.left);
     expect(question.left - island.right).toBeCloseTo(25.76, 2);
     expect(question.bottom).toBeLessThan(answer.top);
+    expect(metrics.dots[0]).toBeCloseTo(metrics.dots[1] ?? 0, 2);
+    expect((question.top + answer.bottom) / 2).toBeCloseTo(
+      (island.top + island.bottom) / 2,
+      2,
+    );
     expect(Math.abs(question.left - answer.left)).toBeLessThanOrEqual(1);
     for (const box of metrics.boxes) {
       expect(box.left).toBeGreaterThanOrEqual(0);

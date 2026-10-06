@@ -51,16 +51,18 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
               clip-rule="evenodd"
               d={detailPath}
             />
-            <path
-              class="masthead__word masthead__word--question"
-              transform="translate(294.24 36) scale(2)"
-              d={wordmark['samui?']}
-            />
-            <path
-              class="masthead__word masthead__word--answer"
-              transform="translate(294.24 162) scale(2)"
-              d={wordmark['samui!']}
-            />
+            <g class="masthead__type">
+              <path
+                class="masthead__word masthead__word--question"
+                transform="translate(294.30657 36) scale(1.92645)"
+                d={wordmark['samui?']}
+              />
+              <path
+                class="masthead__word masthead__word--answer"
+                transform="translate(294.24 162) scale(2)"
+                d={wordmark['samui!']}
+              />
+            </g>
           </clipPath>
         </defs>
         <image
@@ -228,11 +230,19 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
     overflow: visible;
   }
 
+  .masthead__type {
+    transform: translateY(11.02975px);
+  }
+
   .masthead__island--detail {
     display: none;
   }
 
   @media (min-width: 768px) {
+    .masthead__type {
+      transform: translateY(9.46975px);
+    }
+
     .masthead__island--simple {
       display: none;
     }
