@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD013 -->
 # Search
 
 The website uses [Pagefind](https://pagefind.app/) for static search. The search UI uses the Pagefind Component UI in three places:
@@ -22,3 +23,7 @@ npm run clean:pagefind # removes the cache and current dist/pagefind bundle
 ```
 
 Use `npm run build:nocache` after layout changes, metadata-markup changes, Pagefind filter-attribute changes, or other non-content search-signal changes. The automatic cache key is intentionally limited to `src/content/**` as its primary change indicator.
+
+## Development dependency scan
+
+Avoid literal opening script tags in frontmatter comments in `PagefindComponentUi.astro`. The development dependency scanner can treat them as real client script blocks, extract comment prose as JavaScript, and report an unterminated string before the Pagefind import. Describe client scripts in plain words instead. This does not change the browser script or the frontmatter stylesheet import.
