@@ -48,6 +48,7 @@
 
 ## Repository
 
+* [Dependency security](dependency-security.md) records safe remediation, package-fragment ownership, and unresolved advisory tracking.
 * [Deployment](deployment.md) documents the preview-first `npm run deploy` pipeline, the explicit `npm run deploy:production` command, the Netlify account prompt, the release step, build, and production deploy credit warning.
 * [Documentation server](documentation-server.md) explains the local Markdown preview server that can run beside the Astro dev server.
 * [Link checking](link-checking.md) documents the Lychee wrapper for content Markdown and MDX links.
