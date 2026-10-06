@@ -18,7 +18,7 @@ Einmal im Jahr öffnet sich, so der Glaube, die Grenze zwischen der Welt der Leb
 
 Im Süden Thailands heißt diese Zeit Sat Duean Sip (สารทเดือนสิบ), das Fest des zehnten Mondmonats. In englischen Texten findet man häufig die Schreibweise *Sart Duen Sip*. Der zehnte Monat bezieht sich auf den thailändischen Mondkalender. Deshalb findet das Fest je nach Jahr im September oder Oktober statt.
 
-2026 dauert die Festzeit in Nakhon Si Thammarat vom 28. September bis zum 12. Oktober. Dort hat die Tradition ihre stärksten Wurzeln.
+2026 dauert die Festzeit in Nakhon Si Thammarat vom 28. September bis zum 12. Oktober[^src-thailandnow-20260923-festival-of-the-tenth-lunar-month]. Dort hat die Tradition ihre stärksten Wurzeln.
 
 ## Besuch aus einer anderen Welt
 
@@ -40,7 +40,7 @@ Eine Familie stellt traditionell einen Hmu Rub (หมุรับ) zusammen, ei
 - Khanom Kong (ขนมกง) hat die Form von Ringen oder Armreifen und wird als Schmuck interpretiert.
 - Khanom Ba (ขนมบ้า) symbolisiert ein traditionelles Spielzeug beziehungsweise einen Kreisel.
 
-Dazu kommt häufig Krayasat (กระยาสารท), eine klebrig-knusprige Süßigkeit aus unter anderem Reis, Sesam, Nüssen und Zucker.
+Dazu kommt häufig Krayasat (กระยาสารท), eine klebrig-knusprige Süßigkeit aus unter anderem Reis, Sesam, Nüssen und Zucker.[^src-thailandfoundation-20220926-sart-duen-sip]
 
 Wenn Oma und Opa schon aus dem Jenseits vorbeikommen, sollen sie schließlich nicht ohne Kleidung, Transportmittel, Geld und Schmuck wieder abreisen.
 
@@ -68,10 +68,13 @@ In manchen Tempeln wurde daraus ein regelrechter Wettkampf: Die Gaben lagen auf 
 
 Sat Duean Sip bringt Familien zusammen. Menschen kehren in ihre Heimatorte zurück, besuchen gemeinsam den Tempel und erinnern sich an Eltern, Großeltern und frühere Generationen. Die thailändische Regierungs-PR beschreibt die Tradition als Ausdruck der Dankbarkeit und als jährlichen Treffpunkt der Familien des Südens.
 
-Laut der Thailand Foundation richtet sich die Dankbarkeit auch an Land und Natur. Das passt zum landwirtschaftlichen Ursprung vieler solcher Bräuche: Im zehnten Mondmonat gehen die Reisfelder ihrem Ertrag entgegen, und bäuerliche Gemeinschaften hatten traditionell Gelegenheit für gemeinsame Zeremonien.
+Laut der Thailand Foundation richtet sich die Dankbarkeit auch an Land und Natur.[^src-thailandfoundation-20220926-sart-duen-sip] Das passt zum landwirtschaftlichen Ursprung vieler solcher Bräuche: Im zehnten Mondmonat gehen die Reisfelder ihrem Ertrag entgegen, und bäuerliche Gemeinschaften hatten traditionell Gelegenheit für gemeinsame Zeremonien.
 
 Der Pret vermittelt außerdem eine moralische Lektion: Sein ewiger Hunger ist die Folge seines Karmas. Benimm dich ordentlich, sonst stehst du irgendwann mit einem Bauch wie ein Fass und einem Mund wie ein Nadelöhr unter einem Baum und hoffst darauf, dass deine Ururenkel dir Khanom La mitbringen.
 
 ## Sat Duean Sip im Süden
 
-Varianten von Ahnen- und Merit-Making-Festen zum thailändischen Sat gibt es auch in anderen Landesteilen. Sat Duean Sip mit Hmu Rub, Pret und Ching Pret gehört besonders zum kulturellen Kalender Südthailands und wird vor allem mit Nakhon Si Thammarat verbunden. Für uns auf Samui ist das Fest besonders interessant, weil es zu den Traditionen unserer Region gehört.
+Varianten von Ahnen- und Merit-Making-Festen zum thailändischen Sat gibt es auch in anderen Landesteilen. Sat Duean Sip mit Hmu Rub, Pret und Ching Pret gehört besonders zum kulturellen Kalender Südthailands und wird vor allem mit Nakhon Si Thammarat verbunden. Für uns auf Samui ist das Fest besonders interessant, weil es zu den Traditionen in der Region gehört.
+
+[^src-thailandnow-20260923-festival-of-the-tenth-lunar-month]: Thailand Now: [The Festival of the Tenth Lunar Month](https://www.thailandnow.in.th/event/the-festival-of-the-tenth-lunar-month/), 23. September 2026 (abgerufen am 6. Oktober 2026).
+[^src-thailandfoundation-20220926-sart-duen-sip]: Thailand Foundation: [Sart Duen Sip: A Feast for the Dead](https://thailandfoundation.or.th/th/sart-duen-sip-a-feast-for-the-dead/), 26. September 2022 (abgerufen am 6. Oktober 2026).
