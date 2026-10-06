@@ -71,16 +71,6 @@ function island(tolerance: number): string {
       .join(' ') + 'Z'
   );
 }
-function circle(x: number, y: number, radius: number): string {
-  return `M${x - radius} ${y}A${radius} ${radius} 0 1 0 ${x + radius} ${y}A${radius} ${radius} 0 1 0 ${x - radius} ${y}Z`;
-}
-// Wider counters in the reversed cut compensate for the apparent weight on dark surfaces.
-function punctuation(reversed = false): string {
-  const question = reversed
-    ? 'M79 109C79 71 137 71 137 109C137 128 118 132 118 147H100C100 120 119 119 119 109C119 95 97 95 97 109Z'
-    : 'M80 109C80 73 136 73 136 109C136 127 117 130 117 146H101C101 120 120 120 120 109C120 94 96 94 96 109Z';
-  return `${question} M${reversed ? 150 : 151} 83H${reversed ? 169 : 168}V${reversed ? 147 : 146}H${reversed ? 150 : 151}Z ${circle(109, 165, reversed ? 10 : 9)} ${circle(159.5, 165, reversed ? 10 : 9)}`;
-}
 const fontPaths: Record<string, string> = JSON.parse(
   readFileSync(join(destination, 'panton-wordmark.json'), 'utf8'),
 );
@@ -88,6 +78,16 @@ function word(text: string): string {
   const path = fontPaths[text];
   if (!path) throw new Error(`Missing Panton outline: ${text}`);
   return `<path d="${path}"/>`;
+}
+function punctuation(): string {
+  const source = readFileSync(
+    join(destination, 'selected/symbol-reversed.svg'),
+    'utf8',
+  );
+  const path = / d="([^"]+)"/.exec(source)?.[1];
+  const holes = path?.split('Z ').slice(1).join('Z ');
+  if (!holes) throw new Error('Missing selected Panton punctuation.');
+  return holes;
 }
 const words = word('samui? samui!');
 const shape = island(7);

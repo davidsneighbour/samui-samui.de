@@ -32,3 +32,5 @@ node node_modules/@playwright/test/cli.js test src/test/masthead.spec.ts
 Visual checks cover light and dark themes. The clipping geometry lives inside the same SVG as its image and therefore travels with the header during an Astro view transition.
 
 The masthead uses the full supplied coastline at viewport widths of 768px and above, and the simplified 40-vertex contour below 768px. Both cuts use the same selected punctuation geometry, canvas, and scale. CSS selects the visible clipping path; one photograph covers the composition in either case. The tagline is constrained to the same responsive width and can wrap on narrow screens.
+
+The island’s `?!` now uses exact outlined Panton Heavy glyphs from the same font as both title lines. The source font’s rounded-square dots and stroke shapes are preserved with uniform scaling; both responsive coastlines use this same punctuation.

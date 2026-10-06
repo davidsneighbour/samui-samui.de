@@ -9,6 +9,7 @@ from pathlib import Path
 import re
 import json
 import subprocess
+import sys
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.transformPen import TransformPen
@@ -40,7 +41,7 @@ def lettering(text):
     return pen.getCommands(), x * scale
 
 
-master = (ROOT / 'src/assets/brand/samui/selected/symbol-reversed.svg').read_text()
+master = (ROOT / 'src/assets/brand/samui/concepts/a-symbol.svg').read_text()
 path = re.search(r' d="([^"]+)"', master).group(1)
 island, holes = path.split('Z ', 1)
 island += 'Z'
@@ -56,12 +57,36 @@ glyphs[cmap[ord('S')]].draw(bounds)
 cap_height = bounds.bounds[3] * scale
 normalise = 48 / cap_height
 kit_words = {}
-for text in ['SAMUI?', 'SAMUI!', 'SAMUI? SAMUI!']:
+for text in ['SAMUI?', 'SAMUI!', 'SAMUI? SAMUI!', '?!']:
     outlined, width = lettering(text)
     kit_words[text.lower()] = transformed_word = SVGPathPen(None)
     parse_path(outlined, TransformPen(transformed_word, (normalise, 0, 0, normalise, 0, 48)))
     kit_words[text.lower()] = transformed_word.getCommands()
 (ROOT / 'src/assets/brand/samui/panton-wordmark.json').write_text(json.dumps(kit_words, indent=2) + '\n')
+
+if '--update-punctuation' in sys.argv:
+    outlined, _ = lettering('?!')
+    punctuation_bounds = BoundsPen(None)
+    parse_path(outlined, punctuation_bounds)
+    left, top, right, bottom = punctuation_bounds.bounds
+    fit = 96 / (bottom - top)
+    punctuation_pen = SVGPathPen(None)
+    # Preserve A's leftward optical centre and the original vertical centre.
+    parse_path(outlined, TransformPen(punctuation_pen, (
+        fit, 0, 0, fit,
+        116.25 - (left + right) * fit / 2,
+        124 - (top + bottom) * fit / 2,
+    )))
+    punctuation_path = punctuation_pen.getCommands()
+    for mode in ['normal', 'reversed']:
+        selected = ROOT / f'src/assets/brand/samui/selected/symbol-{mode}.svg'
+        content = selected.read_text()
+        previous_path = re.search(r' d="([^"]+)"', content).group(1)
+        coastline = previous_path.split('Z ', 1)[0] + 'Z'
+        selected.write_text(content.replace(previous_path, coastline + ' ' + punctuation_path))
+    print('Updated selected island punctuation with exact Panton Heavy outlines.')
+    sys.exit(0)
+
 
 
 def transformed(path, matrix):

@@ -11,7 +11,7 @@ The owner retained the island silhouette and negative-space `?!`, requested a sm
 * B compresses punctuation horizontally to 92%, with its centre approximately 8 units left of the earlier mark.
 * C reduces punctuation to 90%, with its centre approximately 8 units left of the earlier mark and its vertical centre preserved.
 
-`comparison.png` and `comparison.svg` show all three with identical Panton lockups, dark and pale backgrounds, and 64/32/16 px symbol checks. The island-only small-size alternative is shown separately. A is the recommendation because it preserves punctuation strength while correcting balance. The owner selected A. The delivery kit now uses A’s punctuation shift and Panton wordmark; B and C remain historical comparisons. At 32 px and below, the comparison and favicon exports use the island silhouette alone, with no punctuation or wordmark.
+`comparison.png` and `comparison.svg` show all three with identical Panton lockups, dark and pale backgrounds, and 64/32/16 px symbol checks. The island-only small-size alternative is shown separately. A is the recommendation because it preserves punctuation strength while correcting balance. The owner selected A. The delivery kit now retains A’s optical centre and uses actual Panton Heavy outlines for both the wordmark and island punctuation; B and C remain historical comparisons. At 32 px and below, the comparison and favicon exports use the island silhouette alone, with no punctuation or wordmark.
 
 Regenerate the concepts from the repository root with Python 3, uv, and `rsvg-convert`:
 
@@ -20,6 +20,19 @@ uv run src/scripts/brand/build-logo-concepts.py
 ```
 
 The script declares its pinned FontTools dependency, reads the existing island master and local Panton font, exports vector outlines, and renders the comparison. It does not alter the old kit or website. The original coastline and font licensing requirements continue to apply; outlining the font does not remove those requirements. Symbol and lockup audits reported no structural failures; the lockups retain the actual font’s contour complexity and angled exclamation sides, and their wide proportions will need a stacked alternative when a direction is selected; preserved coastline angle warnings are covered by the exception in DESIGN.md. The rendered comparison was visually inspected. At 16–32 px, use the island-only alternative rather than treating the full punctuation mark as a finished favicon.
+
+## Panton punctuation revision
+
+Both `?` and `!` inside the island are now outlined directly from the same local Panton Heavy font as the title. The pair is uniformly scaled to a visible height of 96 units, with its visible bounding-box centre at (116.25, 124), preserving A’s leftward optical balance. Glyph proportions, kerning, curved sides, and rounded-square dots come from the font. Normal and reversed symbols share this geometry, and the detailed coastline version uses the same holes. The selected 32px-and-below island-only rule remains.
+
+To regenerate the selected punctuation and font outline data, then all delivery assets:
+
+```bash
+uv run src/scripts/brand/build-logo-concepts.py --update-punctuation
+node src/scripts/brand/build-logo-kit.ts
+```
+
+The update flag changes only the selected masters and font outline data; it leaves the historical comparison artwork intact. The earlier studies retain their hand-drawn punctuation for historical comparison.
 
 ## Files and selection
 
@@ -39,13 +52,13 @@ The script declares its pinned FontTools dependency, reads the existing island m
 | `presentation/index.html` | Portable presentation showing six illustrative editorial contexts. |
 | `presentation/overview.svg` and `overview.png` | Vector and raster presentation board. Presentation labels use system text; the logo artwork itself contains only vector shapes. |
 
-Use `*-colour.svg` on plum: coral symbol and cream lettering. Use `*-plum.svg` or `*-light-coral.svg` on pale backgrounds. The single-colour black, white, plum, coral, and dark coral variants have transparent punctuation holes, rather than painted background patches. The white and bright coral cuts slightly enlarge the counters and dots to reduce apparent weight on dark backgrounds.
+Use `*-colour.svg` on plum: coral symbol and cream lettering. Use `*-plum.svg` or `*-light-coral.svg` on pale backgrounds. The single-colour black, white, plum, coral, and dark coral variants have transparent punctuation holes, rather than painted background patches. All colour cuts now share the exact Panton Heavy punctuation geometry, including its rounded-square dots.
 
 At 32 px and below, use only the island silhouette, with no punctuation or wordmark. The punctuation-only family is retained as an unused historical alternative, rather than the selected small-size mark. Larger touch/app icons use the full symbol; the punctuation alternative remains available as a complete alternative icon family. The adaptive favicon SVG uses dark coral by default and bright coral when the browser requests a dark colour scheme. PNG and ICO fallbacks use fixed dark coral.
 
 ## Usage rules
 
-Keep clear space of at least one exclamation-stem width around the visible artwork: 17 units on the symbol’s 256-unit canvas. For any selected final version, do not add a frame, move punctuation, stretch the island, rotate it, or change the fixed lockup proportions. The outline keeps the source orientation. Logo geometry is an identifier, rather than a navigational map.
+Keep clear space of at least one exclamation-stem width around the visible artwork: 32 units on the symbol’s 256-unit canvas, rounded upwards from Panton’s approximately 31-unit exclamation stem. For any selected final version, do not add a frame, move punctuation, stretch the island, rotate it, or change the fixed lockup proportions. The outline keeps the source orientation. Logo geometry is an identifier, rather than a navigational map.
 
 Use the full symbol at 64 px or larger, horizontal lockups at 320 px or larger, stacked lockups at 192 px or larger, and wordmarks at 240 px or larger. Below these sizes, switch to the island-only cut. The favicon alternatives are supplied at 16, 32, and 48 px. These are practical screen recommendations from the rendered tests, rather than guarantees for every printing process. Use at least 17 mm for the full symbol and ask the producer for a proof before embroidery, engraving, or other coarse reproduction.
 
@@ -73,6 +86,6 @@ To integrate later, copy the selected `web/` files into `public/assets/brand/sam
 
 ## Provenance and validation
 
-The coastline comes from the SVG supplied by the owner. Its upstream author, source URL, licence, geographic accuracy, and attribution obligations are unverified. [#1749](https://github.com/davidsneighbour/samui-samui.de/issues/1749) tracks source confirmation before publication. No geographic facts were inferred or added. The punctuation remains a custom geometric drawing. The selected wordmark and studies use outlined Panton Heavy glyphs from the repository font; no font file is embedded in the SVG, but the Panton licence still governs the source font and its permitted uses. A professional similarity and trademark search is recommended before registering or commercially licensing the identity; no clearance is claimed.
+The coastline comes from the SVG supplied by the owner. Its upstream author, source URL, licence, geographic accuracy, and attribution obligations are unverified. [#1749](https://github.com/davidsneighbour/samui-samui.de/issues/1749) tracks source confirmation before publication. No geographic facts were inferred or added. The punctuation now uses the same Panton Heavy font outlines as the wordmark. The selected wordmark and studies use outlined Panton Heavy glyphs from the repository font; no font file is embedded in the SVG, but the Panton licence still governs the source font and its permitted uses. A professional similarity and trademark search is recommended before registering or commercially licensing the identity; no clearance is claimed.
 
 The artwork was rendered and visually inspected on pale and dark backgrounds. SVG audits checked representative symbol, wordmark, and favicon masters. Coastline angle warnings are expected for preserved geographic contours; forcing those vertices onto a typography grid would change the shape. Masters have no live text, strokes, raster images, filters, masks, or external resources. The full mark’s punctuation is a real even-odd cut-out. The presentation board contains live labels, which are not part of any logo master. Browser checks cover the adaptive favicon’s light and dark appearance, and the ICO frames were checked against their PNG sizes.
