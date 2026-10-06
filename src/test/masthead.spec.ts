@@ -12,6 +12,7 @@ for (const width of widths) {
     await page.goto('/tests/masthead-frame');
     const artwork = page.locator('.masthead__artwork');
     await expect(artwork.locator('image')).toHaveCount(1);
+    await expect(artwork.locator('clipPath > .masthead__word')).toHaveCount(2);
     await expect(artwork.locator('image')).toHaveAttribute(
       'href',
       '/assets/header/header-201906.jpg',
