@@ -49,6 +49,7 @@ The update flag changes only the selected masters and font outline data; it leav
 | `png/` | Transparent symbol, wordmark, horizontal, and stacked PNG exports. |
 | `web/` | Island-only favicon SVG, 16/32/48 px PNGs, multi-size ICO, touch/app icons, maskable icon, web manifest, and integration snippet. |
 | `web/punctuation/` | Alternative punctuation-only favicons and touch/app icons. |
+| `presentation/panels/` | Nine individual PNG panels extracted from the brand overview without regenerating or redrawing its artwork. |
 | `presentation/brandkit-overview.png` | Image-generated 3 × 3 brand overview, based on the refined Panton symbol and centred photo-cut masthead. Illustrative applications and lettering are not exact production masters. |
 | `presentation/index.html` | Portable presentation showing six illustrative editorial contexts. |
 | `presentation/overview.svg` and `overview.png` | Vector and raster presentation board. Presentation labels use system text; the logo artwork itself contains only vector shapes. |
@@ -94,3 +95,5 @@ The artwork was rendered and visually inspected on pale and dark backgrounds. SV
 ## Brand overview image
 
 `src/assets/brand/samui/presentation/brandkit-overview.png` presents the refined identity as a 3 × 3 board: logo, symbol construction, photo-cut website application, tagline, palette, typography, postcard, island image direction, and icon applications. It was generated with the brandkit skill using the centred header preview and current coral symbol as references. The image is a presentation illustration; generated typography, coastline details, photographic scenes, and UI examples can differ from the exact SVG assets and implemented website. Use the selected SVG masters and DESIGN.md for production geometry, font, colour, and component decisions. The regular kit generator leaves this separately generated PNG intact.
+
+The nine original panels are also saved individually under `presentation/panels/`, numbered in reading order from `01-logo.png` to `09-icons-and-navigation.png`. They are pixel-preserving crops of `brandkit-overview.png`; the outer canvas and gutters are excluded. These illustrative extracts share the overview’s production limitations.
