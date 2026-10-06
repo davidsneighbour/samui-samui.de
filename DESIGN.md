@@ -375,6 +375,10 @@ sharp (0px) corners.
 
 ## Components
 
+### Post footnotes
+
+Generated Markdown footnotes use a separate "Fußnoten" section with 32px of space above it. The regular-weight, 16px heading has a decorative 32px by 1px line on its left in the `link` colour, separated by an 8px gap, and 16px of space below. Footnote copy uses the existing 14px navigation size at a 1.5 line height, with `muted-foreground` text, `link` links, and numbered list markers. Return links use a plain text arrow with a German accessible label and a minimum 24px target. Reference and return links have a visible `ring` focus outline. This pattern uses the existing card surface, colour tokens, and spacing scale, without a new panel or shadow.
+
 * **Button** (`src/components/ui/button.astro`) — `cva`-based, variants
   `default` / `secondary` / `outline` / `ghost` / `link`, sizes
   `default` / `sm` / `lg`. See the `components.button-*` tokens above for

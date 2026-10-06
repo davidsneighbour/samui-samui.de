@@ -9,6 +9,7 @@ import rehypeRaw from 'rehype-raw';
 import mkcert from 'vite-plugin-mkcert';
 import redirects from './src/data/redirects.json';
 import pagefind from './src/scripts/integrations/pagefind.ts';
+import { rehypeFootnotes } from './src/scripts/rehype/footnotes.ts';
 import { rehypeLegacyImages } from './src/scripts/rehype/legacy-images.ts';
 import { rehypeDnbNotice } from './src/scripts/rehype/notices.ts';
 import { rehypeDnbPerson } from './src/scripts/rehype/person-link.ts';
@@ -97,6 +98,7 @@ export default defineConfig({
     processor: unified({
       rehypePlugins: [
         rehypeRaw,
+        rehypeFootnotes, // Shared German heading and return links for citations.
         rehypeLegacyImages,
         rehypeDnbNotice,
         rehypeDnbPerson,

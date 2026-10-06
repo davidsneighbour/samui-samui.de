@@ -81,3 +81,9 @@ Keep definitions near the bottom of the post or directly below a drafted section
 The source registry in `.agents/skills/ss-research-news/resources/` tracks reusable research entry points. A post citation points to the specific article, announcement, document, event page, or source item used in the post.
 
 Do not cite a source homepage when a direct article or document URL is available.
+
+## Rendered footnotes
+
+Posts with Markdown footnotes automatically show a separate "Fußnoten" section after the body. A short line precedes the visible heading, and the numbered entries use slightly smaller text. No shortcode, manual heading, or frontmatter option is required. The shared `rehypeFootnotes` plugin in `src/scripts/rehype/footnotes.ts` provides the German heading and return-link labels; `src/styles/theme.css` owns the presentation, as recorded in `DESIGN.md`.
+
+Repeated references retain one definition and separate return links to each original text position. Return links display a plain text arrow rather than an emoji and use "Zurück zur Textstelle" with a reference number as their accessible label. Reference and return links remain keyboard accessible with visible focus outlines. Posts without footnotes gain no extra section.
