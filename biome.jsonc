@@ -36,6 +36,8 @@
       "!**/.vscode/**/*",
       // Vendored third-party package output is source-owned but not authored here.
       "!!src/vendor/**",
+      // Brand artwork and exports are excluded from commit and push checks.
+      "!!src/assets/brand/**",
       // Legacy static assets served as-is; not source code.
       "!public/**",
       // AI agent/skill tooling directories: installed by editor/CLI tooling,

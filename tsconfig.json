@@ -24,7 +24,7 @@
     "types": ["astro/client"],
     "verbatimModuleSyntax": true
   },
-  "exclude": ["dist", "scratch"],
+  "exclude": ["dist", "scratch", "src/assets/brand"],
   "extends": "@dnbhq/tsconfig/astro",
   "include": [".astro/types.d.ts", "src/**/*"]
 }

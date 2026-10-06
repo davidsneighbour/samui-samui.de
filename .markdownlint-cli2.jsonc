@@ -10,6 +10,7 @@
     "node_modules/**",
     "dist/**",
     "src/content/**",
+    "src/assets/brand/**",
     "src/pages/kleingedrucktes/**",
     "src/pages/kontakt.mdx",
     "src/pages/suche.mdx",
