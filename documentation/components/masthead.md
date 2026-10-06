@@ -36,3 +36,5 @@ The masthead uses the full supplied coastline at viewport widths of 768px and ab
 The island’s `?!` now uses exact outlined Panton Heavy glyphs from the same font as both title lines. The source font’s rounded-square dots and stroke shapes are preserved with uniform scaling; both responsive coastlines use this same punctuation.
 
 The visible island-to-wordmark gap is approximately 25.76 viewBox units, half the earlier 51.52-unit gap. Both word lines move left together; the island geometry and the single continuous photo crop stay unchanged. The 1600px maximum width limits enlargement of the source photograph.
+
+The masthead viewBox starts at x = -43.34706 while retaining its 900 × 300 size. This balances the empty horizontal margins around the visible island-and-title block, aligning its centre with the decorative divider and tagline without resizing the artwork, changing the internal gaps, or moving the image relative to its clipping shapes.

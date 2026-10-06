@@ -480,3 +480,5 @@ The presentation is flat and uses existing brand colours. Its six contexts are i
 The masthead uses the full supplied coastline at viewport widths of 768px and above, and the simplified 40-vertex contour below 768px. Both cuts use the same selected punctuation geometry, canvas, and scale. CSS selects the visible clipping path; one photograph covers the composition in either case. The tagline is constrained to the same responsive width and can wrap on narrow screens.
 
 The visible island-to-wordmark gap is approximately 25.76 viewBox units, half the earlier 51.52-unit gap. Both word lines move left together; the island geometry and the single continuous photo crop stay unchanged. The 1600px maximum width limits enlargement of the source photograph.
+
+The masthead viewBox starts at x = -43.34706 while retaining its 900 × 300 size. This balances the empty horizontal margins around the visible island-and-title block, aligning its centre with the decorative divider and tagline without resizing the artwork, changing the internal gaps, or moving the image relative to its clipping shapes.

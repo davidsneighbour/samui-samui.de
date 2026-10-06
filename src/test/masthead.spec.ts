@@ -81,12 +81,27 @@ for (const width of widths) {
           dot.y + dot.height / 2,
         ).matrixTransform(rootMatrix.inverse().multiply(screenMatrix)).x;
       });
+      const canvas = (node as SVGSVGElement).viewBox.baseVal;
+      const divider = document
+        .querySelector('.masthead__divider')
+        ?.getBoundingClientRect();
+      const rootMatrix = (node as SVGSVGElement).getScreenCTM();
+      if (!divider || !rootMatrix)
+        throw new Error('Expected divider and artwork.');
+      const blockCentre =
+        (Math.min(...boxes.map((box) => box.left)) +
+          Math.max(...boxes.map((box) => box.right))) /
+        2;
       return {
         artworkWidth: node.getBoundingClientRect().width,
         boxes,
+        canvasCentre: canvas.x + canvas.width / 2,
+        dividerCentre: divider.left + divider.width / 2,
         documentWidth: document.documentElement.scrollWidth,
         dots,
         viewport: innerWidth,
+        visibleCentre: new DOMPoint(blockCentre, 0).matrixTransform(rootMatrix)
+          .x,
       };
     });
     const [island, question, answer] = metrics.boxes;
@@ -107,6 +122,12 @@ for (const width of widths) {
       expect(box.top).toBeGreaterThanOrEqual(0);
       expect(box.bottom).toBeLessThanOrEqual(300);
     }
+    expect(
+      (Math.min(...metrics.boxes.map((box) => box.left)) +
+        Math.max(...metrics.boxes.map((box) => box.right))) /
+        2,
+    ).toBeCloseTo(metrics.canvasCentre, 2);
+    expect(metrics.visibleCentre).toBeCloseTo(metrics.dividerCentre, 2);
     expect(metrics.documentWidth).toBeLessThanOrEqual(metrics.viewport + 1);
     expect(metrics.artworkWidth).toBeCloseTo(Math.min(width - 32, 1600), 0);
   });
