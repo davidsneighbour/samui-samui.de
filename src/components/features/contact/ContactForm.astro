@@ -5,6 +5,7 @@ import Input from '@components/ui/input.astro';
 import Label from '@components/ui/label.astro';
 import Textarea from '@components/ui/textarea.astro';
 import {
+  LoaderCircle,
   MailQuestionMark,
   MessageSquareWarning,
   Send,
@@ -141,7 +142,11 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
     >
       <Send
         aria-hidden="true"
-        class="size-4"
+        class="contact-submit__send size-4"
+      />
+      <LoaderCircle
+        aria-hidden="true"
+        class="contact-submit__spinner size-4"
       />
       Absenden
     </button>
@@ -190,6 +195,34 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
     [data-form-status] {
       opacity: 0;
       translate: 0 4px;
+    }
+  }
+
+  /* Busy state while the request runs (form[aria-busy="true"]): the Send
+     icon becomes a spinner and the disabled button keeps full opacity, so
+     it reads as "working" rather than "unavailable". 700ms, not Tailwind's
+     1s animate-spin, because a faster spin makes the same wait feel shorter.
+     Under reduced motion the global rule leaves a static loader icon. */
+  .contact-submit__spinner {
+    display: none;
+  }
+
+  [data-contact-form][aria-busy="true"] .contact-submit__send {
+    display: none;
+  }
+
+  [data-contact-form][aria-busy="true"] .contact-submit__spinner {
+    display: block;
+    animation: contact-submit-spin 700ms linear infinite;
+  }
+
+  [data-contact-form][aria-busy="true"] button[type="submit"]:disabled {
+    opacity: 1;
+  }
+
+  @keyframes contact-submit-spin {
+    to {
+      rotate: 360deg;
     }
   }
 
@@ -294,6 +327,7 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
 
     const submitButton = form.querySelector("button[type='submit']");
     submitButton?.setAttribute('disabled', 'true');
+    form.setAttribute('aria-busy', 'true');
     window.SamuiSound?.play('loading');
     status.hidden = true;
     if (statusText instanceof HTMLElement) {
@@ -318,6 +352,7 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
     } catch {
       showStatus('error', 'Die Nachricht konnte nicht gesendet werden.');
     } finally {
+      form.removeAttribute('aria-busy');
       submitButton?.removeAttribute('disabled');
     }
   });

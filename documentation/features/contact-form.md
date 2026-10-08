@@ -10,4 +10,6 @@ Text inputs and textareas intentionally use the normal 16px body size rather tha
 
 Submit feedback uses the existing `muted`, `border`, `primary`, and `link` tokens instead of standalone success/error hex colors. The message text carries the actual result, while the left border gives a compact visual cue without adding a new semantic color palette. The status box enters over 200ms (opacity plus a 4px rise, `cubic-bezier(0.2, 0, 0, 1)`) through `@starting-style`, because it appears below the button where the visitor is not looking. It hides instantly on resubmit. See the Motion section in `DESIGN.md`.
 
+While the request runs, the form carries `aria-busy="true"`. The submit button is disabled but stays at full opacity, and its Send icon is replaced by a Lucide `loader-circle` that spins at 700ms per turn. Without this, only the loading sound showed that sending was in progress, and visitors with sound off saw a dimmed button that looked unavailable. Under reduced motion, the global rule in `theme.css` leaves a static loader icon.
+
 Cloudflare Turnstile legal copy is shown only when `TURNSTILE_SITE_KEY` is set. Its privacy-policy and terms links are colored with `var(--color-link)` and underlined in the component stylesheet because the disclaimer is not prose content.
