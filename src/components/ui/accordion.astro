@@ -17,7 +17,7 @@ const { class: className, open = false, summaryClass } = Astro.props as Props;
 >
   <summary
     class={cn(
-      'flex cursor-pointer list-none items-center justify-between gap-4 py-3 marker:content-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 [&::-webkit-details-marker]:hidden',
+      'flex cursor-pointer list-none items-center justify-between gap-4 py-3 marker:content-none focus-visible:focus-ring [&::-webkit-details-marker]:hidden',
       summaryClass,
     )}
   >

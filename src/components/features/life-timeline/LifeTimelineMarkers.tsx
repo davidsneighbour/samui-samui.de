@@ -68,7 +68,7 @@ export function LifeTimelineMarkers({
               <button
                 type="button"
                 aria-label={location.label ?? location.pointTitle}
-                className="relative flex size-8 items-center justify-center rounded-full transition-transform hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                className="relative flex size-8 items-center justify-center rounded-full transition-transform hover:scale-105 focus-visible:focus-ring"
               >
                 <MarkerDot
                   muted={isContext}

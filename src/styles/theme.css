@@ -55,6 +55,7 @@
 
   --color-border: var(--border);
   --color-ring: var(--ring);
+  --color-ring-contrast: var(--ring-contrast);
 }
 
 :root {
@@ -90,6 +91,7 @@
 
   --border: #d7c9b1;
   --ring: #b8402f;
+  --ring-contrast: #fffaf0;
 
   --masthead-tagline: #6b2438;
 
@@ -166,6 +168,7 @@
 
   --border: #d9d3ba;
   --ring: #b8402f;
+  --ring-contrast: #f1ecd8;
 
   --masthead-tagline: #e2e2b6;
 
@@ -252,6 +255,30 @@ body {
 }
 
 /*
+ * Two-tone focus indicator. A 2px cream band (`ring-contrast`, drawn with
+ * box-shadow) sits directly around the element, and a 2px coral `ring`
+ * outline sits outside it. Whatever the surface, one of the two tones keeps
+ * at least 3:1 against it: cream is 15:1 on the maroon page, coral is 4.65:1
+ * or better on the cream cards and the light page. The coral ring alone is
+ * only 3.25:1 on maroon. `:focus-visible` gets it by default (base layer);
+ * components that previously removed the outline use the `focus-ring`
+ * utility. See DESIGN.md "Focus indicator".
+ */
+@utility focus-ring {
+  outline: 2px solid var(--color-ring);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px var(--color-ring-contrast);
+}
+
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 2px var(--color-ring-contrast);
+  }
+}
+
+/*
  * Root scrollbar (the `<html>` element is the actual scrolling box in every
  * layout, not `body`) tracks the same theme tokens as the rest of the site
  * via Tailwind v4.3's native scrollbar-color utilities, so it repaints
@@ -276,9 +303,8 @@ html {
  * Pagefind's bundled focus styles leave the browser's native (blue) focus
  * outline in place alongside their own border/box-shadow treatment, so
  * clicking into a search box shows a blue ring even though the rest of the
- * theme is tan/maroon. Replace both with the site's standard focus
- * indicator: a static, complete 2px `ring` outline with a 2px offset, as on
- * footnote links. Pagefind boosts its own selector specificity with a
+ * theme is tan/maroon. Replace both with the site's standard two-tone focus
+ * indicator (see `focus-ring` above). Pagefind boosts its own selector specificity with a
  * `:is(*, #\#)` repeat-ID hack, so `!important` is needed to win here.
  */
 .pf-input:focus,
@@ -291,7 +317,7 @@ html {
 .pf-searchbox-input:focus-visible {
   outline: 2px solid var(--color-ring) !important;
   outline-offset: 2px !important;
-  box-shadow: none !important;
+  box-shadow: 0 0 0 2px var(--color-ring-contrast) !important;
 }
 
 /* Pagefind's component UI caps `.pf-searchbox` at `--pf-searchbox-max-width`
@@ -715,6 +741,7 @@ p {
 .prose [data-footnote-backref]:focus-visible {
   outline: 2px solid var(--color-ring);
   outline-offset: 2px;
+  box-shadow: 0 0 0 2px var(--color-ring-contrast);
 }
 
 .prose [id^="user-content-fn"] {

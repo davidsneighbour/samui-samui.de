@@ -197,7 +197,7 @@ const publishedYear = publishedOn
               {newerPost && (
                 <a
                   href={newerPost.href}
-                  class="group min-w-0 rounded-[calc(var(--radius)-4px)] text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                  class="group min-w-0 rounded-[calc(var(--radius)-4px)] text-left focus-visible:focus-ring"
                 >
                   <span class="block text-xs text-muted-foreground">
                     ← Neuerer Beitrag
@@ -213,7 +213,7 @@ const publishedYear = publishedOn
               {olderPost && (
                 <a
                   href={olderPost.href}
-                  class="group min-w-0 rounded-[calc(var(--radius)-4px)] text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 sm:text-right"
+                  class="group min-w-0 rounded-[calc(var(--radius)-4px)] text-left focus-visible:focus-ring sm:text-right"
                 >
                   <span class="block text-xs text-muted-foreground">
                     Älterer Beitrag →

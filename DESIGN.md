@@ -22,6 +22,7 @@ colors:
   link: "#b8402f"
   border: "#d9d3ba"
   ring: "#b8402f"
+  ring-contrast: "#f1ecd8"
   masthead-tagline: "#e2e2b6"
 typography:
   brand-masthead:
@@ -209,16 +210,17 @@ theme. The complete mode matrix in `src/styles/theme.css` is:
 | `muted-foreground` | `#635846` | `#6b6250` | De-emphasized text on `card`. |
 | `link` | `#8f2f24` | `#b8402f` | Body-text links. Both are darkened coral values selected for readable small text on the active `card` color. |
 | `border` | `#d7c9b1` | `#d9d3ba` | Card/input borders. |
-| `ring` | `#b8402f` | `#b8402f` | Focus ring — matches the contrast-safe coral family, not always `primary`, for small UI readability. |
+| `ring` | `#b8402f` | `#b8402f` | Focus ring — matches the contrast-safe coral family, not always `primary`, for small UI readability. Outer tone of the two-tone focus indicator. |
+| `ring-contrast` | `#fffaf0` | `#f1ecd8` | Inner cream band of the two-tone focus indicator (same values as `card`). |
 | `masthead-tagline` | `#6b2438` | `#e2e2b6` | Masthead description text in `Header.astro`. Dark mode keeps the exact legacy `.blogdescription` color; light mode uses a deeper maroon so the small viewport-scaled text remains readable on parchment. |
 
-**Note on lint warnings:** `design.md lint` flags `border`, `ring`, and
-`masthead-tagline` as "never referenced by any component." This is
-expected, not a gap to fix: `border`/`ring` have no matching slot in the
-DESIGN.md component-token schema (`component_sub_tokens` doesn't define
-a border or ring-color property), so they're used directly as Tailwind
-utilities (`border-border`, `ring-ring`) rather than through a
-`components.*` mapping; `masthead-tagline` is a component-specific CSS
+**Note on lint warnings:** `design.md lint` flags `border`, `ring`,
+`ring-contrast`, and `masthead-tagline` as "never referenced by any
+component." This is expected, not a gap to fix: `border`/`ring`/
+`ring-contrast` have no matching slot in the DESIGN.md component-token
+schema (`component_sub_tokens` doesn't define a border or focus-colour
+property), so they're used directly in CSS (`border-border`, the
+`focus-ring` utility) rather than through a `components.*` mapping; `masthead-tagline` is a component-specific CSS
 variable used by `Header.astro`, and the schema has no dedicated field
 for this bespoke masthead text color.
 
@@ -282,7 +284,7 @@ custom properties onto the existing Samui tokens:
 | --- | --- |
 | Text | `card-foreground` and `muted-foreground` |
 | Surface | `card`; header search scopes the compact input to `accent` |
-| Borders and focus | `border`; focus is a static, complete 2px `ring` outline with a 2px offset, replacing Pagefind's own focus styles |
+| Borders and focus | `border`; focus uses the site's two-tone focus indicator, replacing Pagefind's own focus styles |
 | Hover and skeleton fills | `accent`, `muted`, and `card` |
 | Highlight mark | `primary` |
 | Typography | `--font-sans` / Panton |
@@ -345,7 +347,7 @@ but only these faces are wired into CSS, deliberately, to avoid unused
   no-op for Panton, which is a static (non-variable) font and ignores
   the property.
 
-* **`brand-masthead`** — the site name in `src/components/layout/header/Header.astro`. The selected island sits on the left of two left-aligned lines, `Samui?` and `Samui!`, using outlined Panton Heavy (900) artwork. One SVG image of `header-201906.jpg` spans all three shapes, clipped by a combined vector path; the photograph is never repeated between elements. The island’s even-odd `?!` holes reveal the active page background. The composition uses a 900 × 300 viewBox: the 256-unit symbol is translated by (0, 3) and scaled by 1.2; the normalised 48-unit cap-height first line is scaled by 1.92645 at (294.30657, 45.46975), while the second is scaled by 2 at (294.24, 171.46975). This preserves the visible left edge and aligns the punctuation-dot centres vertically. These direct path positions centre the title against the detailed coastline. The simplified coastline preserves all four extrema, so its bounds match the detailed coastline and no mobile-only vertical word translation is needed. The responsive artwork width is `min(calc(100vw - 32px), 1600px)`, limited to the viewport minus the existing 32px large spacing token. The photograph uses `xMidYMid slice`, covering the combined canvas once. The home link has a `ring` focus outline, a 4px offset, and the existing medium radius. This deliberately extends the inherited photo-cut masthead without introducing another colour or font.
+* **`brand-masthead`** — the site name in `src/components/layout/header/Header.astro`. The selected island sits on the left of two left-aligned lines, `Samui?` and `Samui!`, using outlined Panton Heavy (900) artwork. One SVG image of `header-201906.jpg` spans all three shapes, clipped by a combined vector path; the photograph is never repeated between elements. The island’s even-odd `?!` holes reveal the active page background. The composition uses a 900 × 300 viewBox: the 256-unit symbol is translated by (0, 3) and scaled by 1.2; the normalised 48-unit cap-height first line is scaled by 1.92645 at (294.30657, 45.46975), while the second is scaled by 2 at (294.24, 171.46975). This preserves the visible left edge and aligns the punctuation-dot centres vertically. These direct path positions centre the title against the detailed coastline. The simplified coastline preserves all four extrema, so its bounds match the detailed coastline and no mobile-only vertical word translation is needed. The responsive artwork width is `min(calc(100vw - 32px), 1600px)`, limited to the viewport minus the existing 32px large spacing token. The photograph uses `xMidYMid slice`, covering the combined canvas once. The home link has the two-tone focus indicator with a 4px cream band (filling the 4px outline offset) and the existing medium radius. This deliberately extends the inherited photo-cut masthead without introducing another colour or font.
 * **`heading`** — every `h1`–`h6` renders at weight **700** (Panton extra-bold). The global rule sits in `@layer base` in `theme.css`, so a Tailwind weight utility on a heading overrides it normally. Inside `prose`, `prose-headings:font-bold` in `src/utils/prose.ts` sets the same 700 explicitly; without it the typography plugin would render prose `h1` at 800 (a face not registered here) and `h3`/`h4` at 600. The footnote heading keeps its own unlayered 400 rule. Sizes themselves
   come from the `@tailwindcss/typography` plugin's defaults (`prose`
   classes in `src/utils/prose.ts`), not custom-set — don't add
@@ -429,11 +431,20 @@ Motion is reserved for feedback and state changes; reading surfaces stay static.
 
 Do not stagger list items, reveal blog cards on scroll, or animate the height of disclosures; these surfaces are used often and motion would slow every visit.
 
+### Focus indicator
+
+Every keyboard focus uses one two-tone indicator: a 2px `ring-contrast` cream band directly around the element (drawn with `box-shadow`) and a 2px `ring` coral outline outside it (`outline-offset: 2px`). On any surface, one of the two tones keeps at least 3:1 (WCAG 1.4.11): cream is 15:1 on the maroon page, and coral is 4.65:1 or better on the cream cards and the light page. The coral ring alone would be only 3.25:1 on maroon.
+
+* `:focus-visible` gets the indicator by default from `@layer base` in `theme.css`, so plain links and controls need no classes.
+* Components that also manage other focus styles use the `focus-visible:focus-ring` utility (`@utility focus-ring` in `theme.css`). Do not rebuild it from `ring-2`/`ring-offset-*` utilities, and do not add `outline-none` without replacing the indicator.
+* Bespoke CSS (masthead, footnotes, Pagefind inputs) repeats the same outline plus `box-shadow` pair. A larger outline offset gets a matching larger cream band, so the two tones always touch.
+* The construction banner keeps its own `currentColor` outline as part of its deliberate off-palette styling.
+
 ## Components
 
 ### Post footnotes
 
-Generated Markdown footnotes use a separate "Fußnoten" section with 32px of space above it. The regular-weight, 16px heading has a decorative 32px by 1px line on its left in the `link` colour, separated by an 8px gap, and 16px of space below. Footnote copy uses the existing 14px navigation size at a 1.5 line height, with `muted-foreground` text, `link` links, and numbered list markers. Return links use the installed Lucide `corner-left-up` SVG at 16px in a 24px inline target, with a German accessible label. They reuse the button's ghost treatment: no resting fill or border, an `accent` hover/focus fill with `accent-foreground` text, the small 8px radius, 150ms colour/background/transform transitions, and a 0.97 active scale. The global reduced-motion rule disables prolonged transitions. Reference and return links have a visible `ring` focus outline. This pattern uses the existing card surface, colour tokens, and spacing scale, without a new panel or shadow.
+Generated Markdown footnotes use a separate "Fußnoten" section with 32px of space above it. The regular-weight, 16px heading has a decorative 32px by 1px line on its left in the `link` colour, separated by an 8px gap, and 16px of space below. Footnote copy uses the existing 14px navigation size at a 1.5 line height, with `muted-foreground` text, `link` links, and numbered list markers. Return links use the installed Lucide `corner-left-up` SVG at 16px in a 24px inline target, with a German accessible label. They reuse the button's ghost treatment: no resting fill or border, an `accent` hover/focus fill with `accent-foreground` text, the small 8px radius, 150ms colour/background/transform transitions, and a 0.97 active scale. The global reduced-motion rule disables prolonged transitions. Reference and return links use the two-tone focus indicator. This pattern uses the existing card surface, colour tokens, and spacing scale, without a new panel or shadow.
 
 * **Button** (`src/components/ui/button.astro`) — `cva`-based, variants
   `default` / `secondary` / `outline` / `ghost` / `link`, sizes

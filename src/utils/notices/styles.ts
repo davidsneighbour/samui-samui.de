@@ -38,6 +38,6 @@ export const NOTICE_DESCRIPTION_CLASSES =
   'text-muted-foreground [&_a:hover]:no-underline [&_a]:text-link [&_a]:underline [&_a]:underline-offset-2 [&_code]:rounded [&_code]:bg-card-foreground/10 [&_code]:px-1 [&_code]:py-0.5 [&_code]:font-mono [&_code]:text-[0.85em] [&_li]:mt-1 [&_strong]:text-card-foreground [&>ol]:mt-2 [&>ol]:list-decimal [&>ol]:pl-5 [&>p+p]:mt-2 [&>ul]:mt-2 [&>ul]:list-disc [&>ul]:pl-5';
 
 export const NOTICE_DISMISS_CLASSES =
-  'ml-auto -mr-1 -mt-1 inline-flex size-7 shrink-0 items-center justify-center rounded-[calc(var(--radius)-4px)] text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2';
+  'ml-auto -mr-1 -mt-1 inline-flex size-7 shrink-0 items-center justify-center rounded-[calc(var(--radius)-4px)] text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:focus-ring';
 
 export const NOTICE_DISMISS_ICON_CLASSES = 'size-4';

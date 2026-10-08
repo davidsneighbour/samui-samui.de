@@ -81,7 +81,7 @@ export default function ContactMap({ point }: Props) {
               <button
                 type="button"
                 aria-label={point.title}
-                className="relative flex size-8 items-center justify-center rounded-full border-2 border-card bg-primary transition-transform hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card"
+                className="relative flex size-8 items-center justify-center rounded-full border-2 border-card bg-primary transition-transform hover:scale-105 focus-visible:focus-ring"
               >
                 <span className="size-2.5 rounded-full bg-primary-foreground" />
               </button>

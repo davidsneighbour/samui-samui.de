@@ -19,7 +19,7 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
 
 <a
   href="#main"
-  class="sr-only focus-visible:not-sr-only focus-visible:fixed focus-visible:top-4 focus-visible:left-4 focus-visible:z-50 focus-visible:rounded-(--radius) focus-visible:bg-background focus-visible:px-4 focus-visible:py-2 focus-visible:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+  class="sr-only focus-visible:not-sr-only focus-visible:fixed focus-visible:top-4 focus-visible:left-4 focus-visible:z-50 focus-visible:rounded-(--radius) focus-visible:bg-background focus-visible:px-4 focus-visible:py-2 focus-visible:text-foreground focus-visible:focus-ring"
 >
   Zum Inhalt springen
 </a>
@@ -241,6 +241,8 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
   .masthead__link:focus-visible {
     outline: 2px solid var(--color-ring);
     outline-offset: 4px;
+    /* Two-tone focus: the cream band fills the 4px offset. */
+    box-shadow: 0 0 0 4px var(--color-ring-contrast);
     border-radius: var(--radius);
   }
 
@@ -343,6 +345,7 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
     border-radius: 9999px;
     outline: 2px solid var(--color-ring);
     outline-offset: 2px;
+    box-shadow: 0 0 0 2px var(--color-ring-contrast);
   }
 
   /* Hidden until hover on devices that can actually hover; always shown
