@@ -1,7 +1,7 @@
 version = 1
 
 [posting]
-default_networks = ["mastodon", "bluesky"]
+default_networks = ["mastodon", "bluesky", "reddit"]
 
 [paths]
 dotenv = ".posthaste/.env"
