@@ -19,7 +19,7 @@ Bei der Bangkok Post kann man nun ein [Interview mit einem dieser Auftragsmörde
 >
 > "Buddhism is a 'soft' religion, not as strong as Islam or others, so I don't worry too much about it. I don't have to enter the monkhood," he said.
 
-Der Gro?teil der Auftragskiller kommt aus ärmeren Gegenden:
+Der Großteil der Auftragskiller kommt aus ärmeren Gegenden:
 
 > He said in his experience gunman were mainly from poor areas. They were typically bad guys or wannabe bad guys.
 >

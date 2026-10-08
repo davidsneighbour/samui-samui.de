@@ -9,16 +9,19 @@ publisher:
   seo: true
   covermigration: true
 ---
-Gestern kam uns Bui, regelmä?igen Lesern auch als Nummer 1, Number one oder Lindsay bekannt, besuchen.
+Gestern kam uns Bui, regelmäßigen Lesern auch als Nummer 1, Number one oder Lindsay bekannt, besuchen.
 
 Das gehört zu den Augenblicken, in denen unfreiwilligen Hundezüchtern schon vor Stolz die Brust schwillt. Sie sieht ungefähr so aus wie Soosie, hat aber Pokkis Haare, Farben und sogar Farbstruktur. Ich habe natürlich vergessen, Photos zu schiessen.
 
 Sie hat gut eine halbe Stunde gebraucht, bis ihr gedämmert hat, dass das mal "zu Hause" war. Soosie schnupperte sie die ganze Zeit irritiert an --- ihr hat wohl nur gedämmert, dass sie den Hund da kennen müsste. Nikkie wollte spielen, Bui nicht. Pokki wiederum hatte nur Interesse an ihr weiblicherseits. Neue Girls im Ressort sind immer interessant.
 
-Sie ist ein bisschen dünner als Nikkie (jetzt erklär ich Nikkie immer, dass sie fett ist, mal sehen wann sie anfängt, weniger zu essen) und ihre Haare sind relativ stümperhaft geschnitten. Aber was solls, solange sie glücklich ist.
+Sie ist ein bisschen dünner als Nikkie (jetzt erklär ich Nikkie immer, dass sie fett ist, mal sehen, wann sie anfängt, weniger zu essen) und ihre Haare sind relativ stümperhaft geschnitten. Aber was solls, solange sie glücklich ist.
 
-Bui springt mehr als Nikkie (was auf der Flucht vor Soosie und Pokki ganz nüzlich war) und hatte auch schon Sex mit dem Nachbarschaftspudel. Mit 9 Monaten finde ich das reichlich verfrüht, aber ihr wisst ja, wie das mit den Teenies heutzutage ist.
+Bui springt mehr als Nikkie (was auf der Flucht vor Soosie und Pokki ganz nützlich war) und hatte auch schon Sex mit dem Nachbarschaftspudel. Mit 9 Monaten finde ich das reichlich verfrüht, aber ihr wisst ja, wie das mit den Teenies heutzutage ist.
 
 Schön schön. Nummer 2 geht es auch gut, habe ich mir sagen lassen. Sie besuchte uns vor ein paar Monaten ein ganzes Wochenende lang und war völlig auf Menschen fixiert und traurig, wenn man sie mit den anderen Dreien alleine gelassen hat.
 
-So entwickelt sich jeder vor sich hin...
+So entwickelt sich jeder vor sich hin …
+
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E erklär -->
+<!-- grammar-ignore GERMAN_WORD_REPEAT_RULE Schön schön -->
