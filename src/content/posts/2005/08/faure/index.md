@@ -1,5 +1,5 @@
 ---
-title: Faur??
+title: Fauré
 date: 2005-08-31T09:50:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
@@ -10,4 +10,4 @@ publisher:
   seo: true
   covermigration: true
 ---
-Wie konnte ich Faur??'s Requiem nur so lange vergessen? Manchmal haben nächtliche Ohrträume doch ihren Zweck.
+Wie konnte ich Fauré's Requiem nur so lange vergessen? Manchmal haben nächtliche Ohrträume doch ihren Zweck.

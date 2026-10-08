@@ -20,11 +20,11 @@ Jedenfalls hatte in den vergangenen Nächten jede Hütte rings um meine Sex. Man
 
 So ungefähr eine Stunde nach dem Eintritt in die jeweilige Hütte kommt die Thai dann meistens strauchelnd wieder raus und flaniert an meiner Veranda vorbei gen Moped. Nicht ohne mich vorher zu fragen, ob ich denn heute nicht ausgehen möchte. Möchte ich nicht.
 
-?berhaupt werde ich neuerdings häufiger von Thais (abseits der Beachstreat) angesprochen. Scheint sich rumgesprochen zu haben, dass ich wieder Single bin. Mal sehen.
+Überhaupt werde ich neuerdings häufiger von Thais (abseits der Beachstreet) angesprochen. Scheint sich rumgesprochen zu haben, dass ich wieder Single bin. Mal sehen.
 
-Heute morgen hörte ich durch meine gut isolierten Wände einen deutschdialektischen ST sich von seiner nächtlichen Thai verabschieden. Mit den folgenden Worten: "Ok. Bye then. Thank you. ?hm, my friend paid you?"
+Heute Morgen hörte ich durch meine gut isolierten Wände einen deutschdialektischen ST sich von seiner nächtlichen Thai verabschieden. Mit den folgenden Worten: "Ok. Bye then. Thank you. Ähm, my friend paid you?"
 
-Und in der Hütte vor mir entspann sich gestern abend der folgende Dialog zwischen zwei deutschen Sextouristinnen (ja, solls auch geben):
+Und in der Hütte vor mir entspann sich gestern Abend der folgende Dialog zwischen zwei deutschen Sextouristinnen (ja, solls auch geben):
 
 1: Du, Hans mag dich.
 
@@ -32,15 +32,15 @@ Und in der Hütte vor mir entspann sich gestern abend der folgende Dialog zwisch
 
 1: Ja. Echt? Ich finde ja, er quatscht ein bisschen viel.
 
-2: Naja. Aber er hat so interessante Theorien und sein Weltbild ist echt alternativ, du!
+2: Na ja. Aber er hat so interessante Theorien und sein Weltbild ist echt alternativ, du!
 
 1: Hmm. Also ich mag ja Shaemus sehr.
 
 2: Und? Mag er dich auch?
 
-1: Weiss nicht. Hab nicht mit ihm gesprochen.
+1: Weiß nicht. Hab nicht mit ihm gesprochen.
 
-2: Lass uns doch nochmal rüber gehen.
+2: Lass uns doch nochmal rübergehen.
 
 In der betreffenden Hütte kam es zu multiplen Orgasmen in dieser Nacht. In einer anderen sicher auch. So. Im Interesse meiner männlichen Leser habe ich den Dialog mal in eine männliche Sextouristen-Variante übersetzt:
 
@@ -52,14 +52,27 @@ In der betreffenden Hütte kam es zu multiplen Orgasmen in dieser Nacht. In eine
 
 2: Ja, macht ja nichts. Von hinten sieht man das nicht.
 
-1: Soso. Naja. Nehm ich eben Pau.
+1: So, so. Na ja. Nehm ich eben Pau.
 
 2: Was, die will auch?
 
-1: Weiss nicht. Aber ich krieg sie schon rum.
+1: Weiß nicht. Aber ich krieg sie schon rum.
 
-2: Ok. Aber ich will die Hütte heut nacht.
+2: Ok. Aber ich will die Hütte heut Nacht.
 
 Ich bin übrigens aus weiter oben genannten Gründen wieder auf Haussuche (ich hasse bellende Hunde in der Nacht). Heute noch werde ich es auf herkömmliche Weise versuchen (kucken). Ab morgen versuchs ich dann Plan B in die Tat umzusetzen: Thai kennenlernen, ein bisschen quatschen, nach leer stehenden Häusern fragen, Häuser prüfen, Haus mieten, Thai droppen. Und das ganze mit möglichst wenig emotionalen Einsatz. Mal sehen wie sehr ich Arschloch sein kann.
 
-(Jaja. Ich weiss. Allerdings brauch ich ein Haus und keine Frau und diese Siedlung deprimiert mich! Wie soll man da Harry Potter lesen ohne jeden Satz fehlzuinterpretieren?)
+(Jaja. Ich weiß. Allerdings brauch ich ein Haus und keine Frau und diese Siedlung deprimiert mich! Wie soll man da Harry Potter lesen, ohne jeden Satz fehlzuinterpretieren?)
+
+<!-- cspell:ignore Shaemus Nehm heut droppen versuchs deutschdialektischen -->
+<!-- grammar-ignore RAN_RUM_RAUF_REIN_RAUS_RUNTER_NEU rumschreien -->
+<!-- grammar-ignore DE_AGREEMENT meine Sex -->
+<!-- grammar-ignore GERMAN_WORD_REPEAT_BEGINNING_RULE Manchmal -->
+<!-- grammar-ignore RAN_RUM_RAUF_REIN_RAUS_RUNTER_NEU rumgesprochen -->
+<!-- grammar-ignore N_NETTER_TYP ne -->
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E werd -->
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E Nehm -->
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E krieg -->
+<!-- grammar-ignore RAN_RUM_RAUF_REIN_RAUS_RUNTER rum -->
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E brauch -->
+<!-- grammar-ignore RAN_RUM_RAUF_REIN_RAUS_RUNTER_NEU rübergehen -->

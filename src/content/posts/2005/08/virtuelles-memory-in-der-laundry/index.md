@@ -14,7 +14,7 @@ Eben war ich mal wieder durchgeschwitzte Kleidungsstücke (was ich damit sagen w
 
 Englischlehrer: You know Virtschulell Memmorrieh?
 
-Ich: ?hm. No. ( _immer noch besser es nicht zu kennen, als sich an einen thaisprachigen XP-Rechner setzen zu müssen_ )
+Ich: Ähm. No. (_immer noch besser, es nicht zu kennen, als sich an einen thaisprachigen XP-Rechner setzen zu müssen_)
 
 E: Yes! Thats in Winnow. A Winnow opens all the time and say "Virtschulell Memmorrieh loo". It ask if I want to increase.
 
@@ -28,4 +28,6 @@ E: Truly? (\_verschwindet in seiner Hütte, kommt nach ner Weile wieder raus\_) 
 
 Er war dann so glücklich, dass er mich sogar bewait hat (schon mal nen Thai gesehen, der gleichzeitig wait und einem versucht, die Hand zu geben? So stelle ich mir immer Schmiergeldzahlungen vor). Jaja. Immer gut, ein paar XP-Kenntnisse dabei zu haben.
 
-PS: Er hei?t übrigens Englischlehrer, weil er mal am Anfang gesagt hat, dass er Englischlehrer sei. Was er aber sagen wollte war, dass er Englisch lernt. Trotzdem ist er seither der Englischlehrer. Au?erdem ist er ungefähr 50 und ein kleiner Hacker. Was ich interessant finde für einen kleinen Thai in seinem Alter. Und wenn ich mal zwischen zwei Laundrybesuchen mehr als 7 Tage verstreichen lasse, sagt er mir immer hinterher, dass seine Frau (die nur Thai kann und sich gerne mit mir unterhält) schon dachte, dass ich "zurückgeflogen" sei, worauf ich immer erkläre, dass ich nicht "zurückfliegen" werde.
+PS: Er heißt übrigens Englischlehrer, weil er mal am Anfang gesagt hat, dass er Englischlehrer sei. Was er aber sagen wollte war, dass er Englisch lernt. Trotzdem ist er seither der Englischlehrer. Außerdem ist er ungefähr 50 und ein kleiner Hacker. Was ich interessant finde für einen kleinen Thai in seinem Alter. Und wenn ich mal zwischen zwei Laundrybesuchen mehr als 7 Tage verstreichen lasse, sagt er mir immer hinterher, dass seine Frau (die nur Thai kann und sich gerne mit mir unterhält) schon dachte, dass ich "zurückgeflogen" sei, worauf ich immer erkläre, dass ich nicht "zurückfliegen" werde.
+
+<!-- cspell:ignore Kähäääähähäh Virtschulell Memmorrieh bewait -->
