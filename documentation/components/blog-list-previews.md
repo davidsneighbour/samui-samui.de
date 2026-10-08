@@ -22,6 +22,10 @@ Previews come from Astro's rendered post HTML (`post.rendered.html`), not from r
 
 Only the homepage lead article renders the full post body and comments. Compact list cards keep the shorter one-block preview length. If rendered post HTML is unavailable, the helper falls back to escaped `summary` frontmatter, then escaped `description` frontmatter.
 
+## "Weiterlesen" button
+
+Each compact card ends with a "Weiterlesen" button. Its accessible name also includes the post title through a visually hidden suffix (`Weiterlesen<span class="sr-only">: {title}</span>`), so a list of links read out by a screen reader is not a row of identical "Weiterlesen" entries (WCAG 2.4.4). The visible label stays first in the accessible name, so voice-control users can still say "Weiterlesen" (WCAG 2.5.3). Keep the span on the same line as the label: a line break adds a space before the colon.
+
 ## Balanced media width on compact cards
 
 Every compact (non-featured) card renders its title and meta byline as a full-width header first, above everything else. Below that, cards with a cover render a two-column row from the `md` breakpoint upward: media on one side, excerpt/button on the other, alternating sides by post index (`md:flex-row` / `md:flex-row-reverse`). The title/meta header sits outside this row deliberately -- it is not part of the height being balanced, only the excerpt and button are.

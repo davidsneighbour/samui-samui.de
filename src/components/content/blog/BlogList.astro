@@ -227,7 +227,7 @@ const showTopPagination = showPagination && pageNumber > 1;
               ]}
             >
               <Button href={getPostUrl(post)} size="sm" variant="default">
-                Weiterlesen
+                Weiterlesen<span class="sr-only">: {post.data.title}</span>
               </Button>
             </p>
           </article>
