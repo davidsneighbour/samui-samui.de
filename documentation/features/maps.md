@@ -35,7 +35,7 @@ export interface MapPoint {
 }
 ```
 
-The map UI adapts the site design tokens from `DESIGN.md`: card and border tokens frame the map, `primary` marks points, `muted` styles metadata, and the MapLibre-generated controls/popups are normalized in `src/styles/theme.css`.
+The map UI adapts the site design tokens from `DESIGN.md`: card and border tokens frame the map, `primary` marks points, `muted` styles metadata, and the MapLibre-generated controls/popups are normalized in `src/styles/theme.css`. Popup content enters over 150ms (opacity plus `scale: 0.96 → 1`) via `@starting-style`, with `transform-origin` set from MapLibre's `maplibregl-popup-anchor-*` class so the popup grows out of its marker. Only `.maplibregl-popup-content` is animated, because MapLibre positions `.maplibregl-popup` with an inline `transform`. The contact map's `defaultOpen` popup also plays this entrance on load, where the loading overlay mostly covers it.
 
 Future location-list features can build on the JSON registry for `flyTo()` navigation, external popup activation buttons, GeoJSON layers, marker clustering, regional map extents, custom styles, and local PMTiles.
 

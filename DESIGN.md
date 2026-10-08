@@ -364,6 +364,7 @@ Motion is reserved for feedback and state changes; reading surfaces stay static.
 * **Entrance curve** — `cubic-bezier(0.2, 0, 0, 1)` for elements that enter (footer sound icon swap at 180ms, contact form status).
 * **Contact form status** — enters over 200ms from `opacity: 0` and a 4px downward offset via `@starting-style`. It has no exit animation.
 * **Busy spinner** — while a request runs, the contact form's submit icon becomes Lucide `loader-circle` spinning at 700ms `linear` per turn (faster than Tailwind's 1s `animate-spin`, because a faster spin makes the same wait feel shorter). The disabled button keeps full opacity while busy, so it reads as working, not unavailable.
+* **Map popups** — MapLibre popup content enters over 150ms from `opacity: 0` and `scale: 0.96` via `@starting-style`, with the entrance curve. `transform-origin` follows MapLibre's `maplibregl-popup-anchor-*` class so the popup grows out of its marker. Closing stays instant.
 
 Do not stagger list items, reveal blog cards on scroll, or animate the height of disclosures; these surfaces are used often and motion would slow every visit.
 
