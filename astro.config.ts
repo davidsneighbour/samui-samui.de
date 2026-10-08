@@ -114,7 +114,7 @@ export default defineConfig({
   output: 'static',
   prefetch: { defaultStrategy: 'viewport', prefetchAll: true },
   redirects: redirects,
-  server: { host: true },
+  server: { host: '192.168.1.201' },
   site: 'https://samui-samui.de',
 
   vite: {
