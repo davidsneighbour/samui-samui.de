@@ -1,5 +1,32 @@
 # Changelog
 
+## [2.18.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.17.0...v2.18.0) (2026-10-08)
+
+### Content
+
+* **social:** add reusable profile copy ([d6166e8](https://github.com/davidsneighbour/samui-samui.de/commit/d6166e8639e75fe0707e99611d23cb104d9fb093)), closes [#1753](https://github.com/davidsneighbour/samui-samui.de/issues/1753)
+* **social:** draft Mastodon introduction ([13862a1](https://github.com/davidsneighbour/samui-samui.de/commit/13862a104b014211329fcfdda27f9a20039bd4b9)), closes [#1754](https://github.com/davidsneighbour/samui-samui.de/issues/1754)
+* **social:** prepare Reddit introduction ([7b17e3e](https://github.com/davidsneighbour/samui-samui.de/commit/7b17e3e5985ab72d49493449856af972d24386dd)), closes [#1758](https://github.com/davidsneighbour/samui-samui.de/issues/1758)
+* **social:** publish Bluesky introduction ([897e312](https://github.com/davidsneighbour/samui-samui.de/commit/897e312b35b9b359c3e6c93d9652963a5ca2a75a)), closes [#1756](https://github.com/davidsneighbour/samui-samui.de/issues/1756)
+* **social:** record Mastodon introduction ([27c4950](https://github.com/davidsneighbour/samui-samui.de/commit/27c4950ee5275129e6d027aad0343f186bb1aead)), closes [#1755](https://github.com/davidsneighbour/samui-samui.de/issues/1755)
+* **social:** record Reddit introduction ([1c75ad1](https://github.com/davidsneighbour/samui-samui.de/commit/1c75ad18ffc3de77f23aea6197eb3e627ec8f191)), closes [#1759](https://github.com/davidsneighbour/samui-samui.de/issues/1759)
+
+### Feat
+
+* **brand:** save full-size brandkit panels and SVG canvas ([fdcff81](https://github.com/davidsneighbour/samui-samui.de/commit/fdcff812ddeb6f16185bc89508f62fdfb0b798b6)), references [#1748](https://github.com/davidsneighbour/samui-samui.de/issues/1748)
+* **footer:** add Reddit community link ([6692336](https://github.com/davidsneighbour/samui-samui.de/commit/66923365ee6089a65de1df5cc3ec918b549f0d67)), closes [#1760](https://github.com/davidsneighbour/samui-samui.de/issues/1760)
+* **footer:** add social action tooltips ([3385bc2](https://github.com/davidsneighbour/samui-samui.de/commit/3385bc28421dc4e2887a111fc377d17dfa857d3b)), closes [#1761](https://github.com/davidsneighbour/samui-samui.de/issues/1761)
+* **footer:** link social profiles with Simple Icons ([5734a76](https://github.com/davidsneighbour/samui-samui.de/commit/5734a76c1cb9db0c1ab924aa4928e2bcb0ad9fab)), closes [#1757](https://github.com/davidsneighbour/samui-samui.de/issues/1757)
+* **posthaste:** add project publishing defaults ([d03930b](https://github.com/davidsneighbour/samui-samui.de/commit/d03930b31ba319ce523765932b0eab68fa1e965b)), closes [#1751](https://github.com/davidsneighbour/samui-samui.de/issues/1751)
+
+### Refactor
+
+* **social:** centralise public network config ([f148f5f](https://github.com/davidsneighbour/samui-samui.de/commit/f148f5f6112c0525545df648088d3e75bc647670)), closes [#1762](https://github.com/davidsneighbour/samui-samui.de/issues/1762)
+
+### Build
+
+* **posthaste:** add reddit as default network ([4e70009](https://github.com/davidsneighbour/samui-samui.de/commit/4e700090a6d2bd4e5898f104982cdd47afc71866))
+
 ## [2.17.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.16.0...v2.17.0) (2026-10-06)
 
 ### Content
