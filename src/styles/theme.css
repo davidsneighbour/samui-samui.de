@@ -97,6 +97,8 @@
    * IUMAS four-lane history graph (src/pages/iumas/index.astro) -- one
    * stable colour per tracked dimension, centralized here rather than
    * hardcoded in the template. See scratch/IUMAS.md "Lane colours".
+   * The graph sits on the `card` surface, which stays light in dark mode, so
+   * these values serve both themes (4.7:1 or better on either card).
    */
   --iumas-title: #8a5a2b;
   --iumas-logo: #3f6b52;
@@ -166,11 +168,6 @@
   --ring: #b8402f;
 
   --masthead-tagline: #e2e2b6;
-
-  --iumas-title: #d9a463;
-  --iumas-logo: #7fc4a0;
-  --iumas-subtitle: #b39ddb;
-  --iumas-image: #7ab8d9;
 
   --pf-scroll-shadow: rgb(41 14 28 / 0.18);
   --pf-shadow-sm: 0 2px 8px rgb(41 14 28 / 0.12);

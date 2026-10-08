@@ -81,7 +81,7 @@ The rendered timeline is newest first across all four types combined. Ties on eq
 
 ## The four-lane graph
 
-`src/pages/iumas/index.astro` renders the timeline as a small Git-branch-inspired graph: four persistent vertical rails (one per type, in a stable colour defined once in `src/styles/theme.css` as `--iumas-title`/`--iumas-logo`/`--iumas-subtitle`/`--iumas-image`), with one node per event on its own rail and a short connector to that event's content row.
+`src/pages/iumas/index.astro` renders the timeline as a small Git-branch-inspired graph: four persistent vertical rails (one per type, in a stable colour defined once in `src/styles/theme.css` as `--iumas-title`/`--iumas-logo`/`--iumas-subtitle`/`--iumas-image`; the same values serve both themes because the graph sits on the `card` surface, which stays light in dark mode), with one node per event on its own rail and a short connector to that event's content row.
 
 This is **not** a real Git graph: no merges, no branches, no parent relationships — just fixed lane positions. It's implemented with plain CSS (a single absolutely positioned background layer draws the continuous rails behind the list) and no runtime JS or graph library. Each event's type is always shown as explicit German text (`Titel`/`Logo`/`Untertitel`/`Kopfbild`) in addition to the lane colour and node icon, so the graph never relies on colour alone.
 
