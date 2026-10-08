@@ -10,7 +10,12 @@ for (const width of widths) {
   }) => {
     await page.setViewportSize({ height: 500, width });
     await page.goto('/tests/masthead-frame');
+    const homeLink = page.locator('.masthead__link');
+    await expect(homeLink).toHaveText('Samui? Samui!');
+    await expect(homeLink.locator('span.sr-only')).toHaveText('Samui? Samui!');
+    expect(await homeLink.getAttribute('aria-label')).toBeNull();
     const artwork = page.locator('.masthead__artwork');
+    await expect(artwork).toHaveAttribute('aria-hidden', 'true');
     await expect(artwork.locator('image')).toHaveCount(1);
     await expect(artwork.locator('clipPath > .masthead__word')).toHaveCount(2);
     await expect(artwork.locator('image')).toHaveAttribute(
@@ -132,3 +137,28 @@ for (const width of widths) {
     expect(metrics.artworkWidth).toBeCloseTo(Math.min(width - 32, 1600), 0);
   });
 }
+
+test('the site name exists as link text in the initial HTML without JavaScript', async ({
+  browser,
+  baseURL,
+}) => {
+  if (!baseURL) throw new Error('Expected a configured test server URL.');
+  const context = await browser.newContext({
+    baseURL,
+    ignoreHTTPSErrors: true,
+    javaScriptEnabled: false,
+  });
+  try {
+    const page = await context.newPage();
+    const response = await page.goto('/tests/masthead-frame');
+    expect(await response?.text()).toMatch(
+      /<span\b[^>]*class="sr-only"[^>]*>Samui\? Samui!<\/span>/,
+    );
+    await expect(page.locator('.masthead__link')).toHaveText('Samui? Samui!');
+    await expect(page.locator('.masthead__link')).toHaveAccessibleName(
+      'Samui? Samui!',
+    );
+  } finally {
+    await context.close();
+  }
+});

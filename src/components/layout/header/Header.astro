@@ -29,8 +29,8 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
     <a
       href="/"
       class="masthead__link"
-      aria-label={setup.title}
     >
+      <span class="sr-only">{setup.title}</span>
       <svg
         class="masthead__artwork"
         viewBox="-43.23906 0 900 300"
