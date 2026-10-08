@@ -182,5 +182,6 @@ The pipeline is based on a research comparison of German proofreading tools. The
 
 Tracked in [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774):
 
-* Fix the 870 broken `ß` characters across the archive.
+* Fix the remaining broken `ß` characters. On 2026-10-08, 261 posts were repaired and committed (`BrokenEszett` went from 870 to 365 findings in 179 posts). The repair method: each `?` was restored from intact spellings of the same word elsewhere in the archive, checked against the German dictionary, and reviewed in context; word-final cases (`wei?`, `gro?`) were reviewed by hand, because they mix with real question marks. The remaining posts have their repair saved in a local stash and are blocked by dead links, see [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780).
+* Repair the other characters the same import broke (quotes, dashes, apostrophes, transliterated names, Textpattern baht tags), see [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781). Broken Thai script is tracked in [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706).
 * Work through the remaining `npm run check:full` failures, then decide which checks can join `npm run check`.
