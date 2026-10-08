@@ -10,7 +10,13 @@ The design follows a layered approach: a dictionary decides what is *allowed*, e
 | House orthography | Vale with the `SamuiDE` style | `npm run lint:orthography` | Preferred variants, reformed ß/ss, broken characters |
 | Grammar | LanguageTool (local server) | `npm run lint:grammar` | Agreement, commas, case, repeated words, typography |
 
-None of these commands is part of `npm run check` or the git hooks yet, because the archive baseline is not triaged. See [Quality gates](../quality-gates.md).
+## When the checks run
+
+* **Pre-commit (staged content):** every staged `src/content/**/*.md` file goes through all three layers. Content that is edited or added must pass at once: when a post is touched, its existing findings are fixed in the same commit. `src/scripts/lint-content-language.ts` runs CSpell, Vale, and the grammar check one after the other and fails at the end, so all findings in a post show in one run (lint-staged would otherwise stop the other tasks after the first failure). The grammar check starts LanguageTool in Docker when it is not running, which adds about 10 seconds to the first commit; the container then keeps running until `npm run languagetool:stop`.
+* **`npm run check:full`:** runs `check` and every archive-wide check (`lint:spell`, `lint:orthography`, `lint:grammar`, `lint:german-dates`, `lint:links`). It does not stop at a failure and prints a summary, so the archive baseline can be fixed step by step. A full run takes about seven minutes, mostly for the link check.
+* **`npm run check` and pre-push:** not included, because the untriaged archive baseline would block every push. See [Quality gates](../quality-gates.md).
+
+MDX content is not part of the pre-commit language check (Vale does not lint MDX here; see below).
 
 ## House orthography policy
 
@@ -72,10 +78,10 @@ Words that stay flagged on purpose include pre-reform or non-standard forms such
 
 | Rule | Level | What it reports |
 | --- | --- | --- |
-| `HouseSpelling.yml` | warning | Modern loanword variants: `Foto*` → `Photo*`, `Fotograf*` → `Photograph*`, `Grafik*` → `Graphik*`, `-grafie` → `-graphie`, `Delfin*`, `Fantasie`, `Potenzial`, `-enziell` → `-entiell`, `selbstständig`, `Stängel`, `Megafon`, `Saxofon`, `Xylofon`. |
+| `HouseSpelling.yml` | error | Modern loanword variants: `Foto*` → `Photo*`, `Fotograf*` → `Photograph*`, `Grafik*` → `Graphik*`, `-grafie` → `-graphie`, `Delfin*`, `Fantasie`, `Potenzial`, `-enziell` → `-entiell`, `selbstständig`, `Stängel`, `Megafon`, `Saxofon`, `Xylofon`. |
 | `HouseSpellingStrict.yml` | suggestion | Optional strict profile: `Telefon` → `Telephon`, `Mikrofon` → `Mikrophon`, `platzieren` → `plazieren`. Hidden by default. |
-| `ReformedEszett.yml` | warning | A curated list of pre-reform ß forms: `daß`, `muß`, `wußte`, `läßt`, `Fluß`, `Schluß`, `Schloß`, `miß-`, and others. |
-| `BrokenEszett.yml` | warning | `?` between letters (`Stra?e`, `gro?e`). Earlier archive imports replaced `ß` with `?`. |
+| `ReformedEszett.yml` | error | A curated list of pre-reform ß forms: `daß`, `muß`, `wußte`, `läßt`, `Fluß`, `Schluß`, `Schloß`, `miß-`, and others. |
+| `BrokenEszett.yml` | error | `?` between letters (`Stra?e`, `gro?e`). Earlier archive imports replaced `ß` with `?`. |
 
 Show the strict profile:
 
@@ -108,7 +114,7 @@ npm run lint:grammar -- src/content/posts/2026
 npm run languagetool:stop
 ```
 
-Set `LANGUAGETOOL_URL` to use another server. Without arguments the script checks all Markdown in `src/content`, which takes about one minute for the whole archive. It prints `file:line:column  RULE_ID  text -> suggestion  (message)` and exits with code 1 when there are findings, or with code 2 when the server cannot be reached.
+`npm run lint:grammar` also starts the default server by itself when it is not reachable. Set `LANGUAGETOOL_URL` to use another server; a custom URL is never started automatically. Without arguments the script checks all Markdown in `src/content`, which takes about one minute for the whole archive. It prints `file:line:column  RULE_ID  text -> suggestion  (message)` and exits with code 1 when there are findings, or with code 2 when the server cannot be reached or started (for example when Docker is not available).
 
 How the script works:
 
@@ -142,7 +148,7 @@ Measured on 2026-10-08 across `src/content`:
 | Check | Findings |
 | --- | ---: |
 | `lint:spell` | 8,451 in 1,568 files (207,602 before the German dictionary and ignore patterns) |
-| `lint:orthography` | 923 (870 broken ß, 47 house spelling, 6 pre-reform ß) |
+| `lint:orthography` | 923 errors (870 broken ß, 47 house spelling, 6 pre-reform ß) |
 | `lint:grammar` | 5,738 in 2,073 files |
 
 The most frequent grammar rules are `AUSLASSUNGSPUNKTE_LEERZEICHEN`, `UPPERCASE_SENTENCE_START`, `DOPPELTES_AUSRUFEZEICHEN`, `DE_CASE`, and comma rules.
@@ -161,5 +167,5 @@ The pipeline is based on a research comparison of German proofreading tools. The
 
 Tracked in [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774):
 
-* Fix the 870 broken `ß` characters, then make `BrokenEszett` an error and run Vale on staged content in `lint-staged`.
-* Triage the CSpell and LanguageTool baselines, then decide which checks can join `npm run check`.
+* Fix the 870 broken `ß` characters across the archive.
+* Work through the remaining `npm run check:full` failures, then decide which checks can join `npm run check`.

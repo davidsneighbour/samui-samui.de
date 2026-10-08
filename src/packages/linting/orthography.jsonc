@@ -2,7 +2,11 @@
   "devDependencies": {
     "@vvago/vale": "3.24.0"
   },
+  "lint-staged": {
+    "src/content/**/*.md": ["node src/scripts/lint-content-language.ts"]
+  },
   "scripts": {
+    "check:full": "node src/scripts/check-full.ts",
     "languagetool:start": "docker run --detach --rm --name samui-languagetool --publish 127.0.0.1:8010:8010 erikvl87/languagetool:6.8",
     "languagetool:stop": "docker stop samui-languagetool",
     "lint:grammar": "node src/scripts/lint-grammar.ts",

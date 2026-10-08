@@ -5,7 +5,7 @@
 # further pre-reform forms through LanguageTool.
 extends: substitution
 message: "Reformed spelling: use '%s' instead of '%s'."
-level: warning
+level: error
 ignorecase: false
 swap:
   '([Dd])aß': $1ass

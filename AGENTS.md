@@ -209,6 +209,7 @@ npm run preview              # astro preview
 npm run validate             # strict project/content/type contracts
 npm run validate:content     # astro check on its own
 npm run check                # non-mutating quality gate: format:check + lint + validate + test
+npm run check:full           # check + all archive-wide checks (spelling, orthography, grammar, dates, links), with a summary
 npm run lint:fix              # apply safe autofixes: Biome + markdownlint
 npm run compile:package        # regenerate package.json from src/packages/**/*.jsonc fragments, then npm install
 npm run release                # release-it --config .release-it.ts --ci
@@ -251,17 +252,21 @@ version mismatch (run `biome migrate --write` after bumping Biome). Markdownlint
 is intentionally scoped away from `src/content/**` via the local
 `.markdownlint-cli2.jsonc`'s `ignores` — the 20-year blog archive predates (and
 isn't held to) the doc-oriented ruleset. `lint:spell` (cspell),
-`lint:orthography` (Vale house spelling), and `lint:grammar` (LanguageTool,
-needs `npm run languagetool:start`) are separate, non-blocking scripts — they
-are not wired into `check`, pre-commit, or pre-push, because the archive still
-has a large untriaged baseline (~8.5k cspell hits). The house orthography is
+`lint:orthography` (Vale house spelling), and `lint:grammar` (LanguageTool in
+Docker, started automatically) are not part of `check` or pre-push, because the
+archive still has a large untriaged baseline (~8.5k cspell hits). They DO run
+in pre-commit on staged `src/content/**/*.md`: when an agent edits a post, it
+MUST fix that post's spelling, orthography, and grammar findings in the same
+change. `npm run check:full` runs every check without stopping at failures
+for archive-wide cleanup. The house orthography is
 reformed ß/ss (`dass`) with traditional loanword spellings (`Photo`,
 `Graphik`, `selbständig`); agents MUST NOT "correct" those loanwords to modern
 variants. See
 [`documentation/content/german-orthography-and-grammar.md`](documentation/content/german-orthography-and-grammar.md).
 
-`simple-git-hooks` installs a `pre-commit` hook (`lint-staged`: Biome + markdownlint
-against staged files only) and a `pre-push` hook (`npm run check`, full-repo) via the
+`simple-git-hooks` installs a `pre-commit` hook (`lint-staged` against staged files
+only: Biome + markdownlint, plus link, citation-date, spelling, orthography, and
+grammar checks for staged content) and a `pre-push` hook (`npm run check`, full-repo) via the
 `prepare` script, which `npm install` runs automatically.
 
 **ESLint and Prettier are explicitly not part of this toolchain — Biome fully

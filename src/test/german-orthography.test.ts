@@ -1,4 +1,4 @@
-import { execFileSync } from 'node:child_process';
+import { spawnSync } from 'node:child_process';
 import path from 'node:path';
 import { describe, expect, it } from 'vitest';
 
@@ -12,11 +12,14 @@ interface ValeAlert {
 
 /** Lint Markdown through the repository's .vale.ini and SamuiDE style. */
 function lint(markdown: string, ...args: string[]): ValeAlert[] {
-  const output = execFileSync(vale, ['--ext=.md', '--output=JSON', ...args], {
-    encoding: 'utf8',
-    input: markdown,
-  });
-  const result = JSON.parse(output) as Record<string, ValeAlert[]>;
+  // Vale exits with 1 when it reports errors, so read stdout either way.
+  const { status, stdout, stderr } = spawnSync(
+    vale,
+    ['--ext=.md', '--output=JSON', ...args],
+    { encoding: 'utf8', input: markdown },
+  );
+  if (status !== 0 && status !== 1) throw new Error(`Vale failed: ${stderr}`);
+  const result = JSON.parse(stdout) as Record<string, ValeAlert[]>;
   return result['stdin.md'] ?? [];
 }
 

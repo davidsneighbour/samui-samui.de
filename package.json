@@ -95,6 +95,7 @@
     "build:nocache": "PAGEFIND_FORCE_REBUILD=1 npm run build",
     "build:verbose": "npm run validate && astro build --verbose && npm run audit:ahrefs",
     "check": "npm run format:check && npm run lint && npm run validate && npm run test",
+    "check:full": "node src/scripts/check-full.ts",
     "clean": "wireit",
     "clean:full": "wireit",
     "clean:pagefind": "rm -rf node_modules/.astro/pagefind dist/pagefind",
@@ -200,6 +201,9 @@
     "version": "0.2"
   },
   "lint-staged": {
+    "src/content/**/*.md": [
+      "node src/scripts/lint-content-language.ts"
+    ],
     "src/content/**/*.{md,mdx}": [
       "node src/scripts/lint-links.ts --staged",
       "node src/scripts/lint-german-dates.ts",

@@ -2,7 +2,7 @@
 # "gro?e"). A question mark between two letters is almost always this damage.
 extends: existence
 message: "Broken character: '%s' probably needs 'ß' instead of '?'."
-level: warning
+level: error
 nonword: true
 tokens:
   - '\b\p{L}+\?\p{Ll}+'

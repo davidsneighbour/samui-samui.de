@@ -5,7 +5,7 @@
 # so Fotograf* wins over Foto*.
 extends: substitution
 message: "House spelling: use '%s' instead of '%s'."
-level: warning
+level: error
 ignorecase: false
 swap:
   'Foto(\p{Ll}*)': Photo$1

@@ -14,9 +14,15 @@
  *   npm run languagetool:start
  *   npm run lint:grammar -- [paths...]
  *
+ * When the default server is not reachable, the script starts it through
+ * `npm run languagetool:start` (Docker) and waits until it answers, so the
+ * pre-commit hook and `npm run check:full` work without a manual step.
+ *
  * Environment:
- *   LANGUAGETOOL_URL  server base URL (default http://127.0.0.1:8010)
+ *   LANGUAGETOOL_URL  server base URL (default http://127.0.0.1:8010); a
+ *                     custom URL is never started automatically
  */
+import { execFileSync } from 'node:child_process';
 import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -263,17 +269,53 @@ async function collectFiles(args: string[]): Promise<string[]> {
   return files.sort();
 }
 
-async function main(): Promise<void> {
-  const baseUrl = (
-    process.env['LANGUAGETOOL_URL'] ?? 'http://127.0.0.1:8010'
-  ).replace(/\/$/, '');
+const DEFAULT_URL = 'http://127.0.0.1:8010';
+
+async function isReachable(baseUrl: string): Promise<boolean> {
   try {
-    await fetch(`${baseUrl}/v2/languages`, {
+    const response = await fetch(`${baseUrl}/v2/languages`, {
       signal: AbortSignal.timeout(5_000),
     });
+    return response.ok;
   } catch {
+    return false;
+  }
+}
+
+/** Start the local Docker server and wait until it answers (max. 2 minutes). */
+async function startServer(baseUrl: string): Promise<boolean> {
+  console.log('LanguageTool is not running; starting it with Docker.');
+  try {
+    execFileSync('npm', ['run', '--silent', 'languagetool:start'], {
+      stdio: ['ignore', 'ignore', 'inherit'],
+    });
+  } catch {
+    return false;
+  }
+  const deadline = Date.now() + 120_000;
+  while (Date.now() < deadline) {
+    if (await isReachable(baseUrl)) {
+      console.log(
+        'LanguageTool started. Stop it with `npm run languagetool:stop`.',
+      );
+      return true;
+    }
+    await new Promise((resolve) => setTimeout(resolve, 2_000));
+  }
+  return false;
+}
+
+async function main(): Promise<void> {
+  const baseUrl = (process.env['LANGUAGETOOL_URL'] ?? DEFAULT_URL).replace(
+    /\/$/,
+    '',
+  );
+  if (
+    !(await isReachable(baseUrl)) &&
+    !(baseUrl === DEFAULT_URL && (await startServer(baseUrl)))
+  ) {
     console.error(
-      `LanguageTool is not reachable at ${baseUrl}. Start it with \`npm run languagetool:start\` or set LANGUAGETOOL_URL.`,
+      `LanguageTool is not reachable at ${baseUrl}. Start it with \`npm run languagetool:start\` (needs Docker) or set LANGUAGETOOL_URL.`,
     );
     process.exitCode = 2;
     return;
