@@ -1,5 +1,5 @@
 ---
-title: Subversive H??resie
+title: Subversive Häresie
 date: 2005-09-09T13:32:00+07:00
 dsq_thread_id:
   - "6412166727"
@@ -17,3 +17,7 @@ color: #666;<br />
 }`
 
 in nem Kirchenportal. (Wahre Webdesigner machen jetzt rotflol.)
+
+<!-- cspell:ignore rotflol -->
+<!-- grammar-ignore UPPERCASE_SENTENCE_START `a: -->
+<!-- grammar-ignore UPPERCASE_SENTENCE_START in -->

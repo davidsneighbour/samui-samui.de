@@ -1,5 +1,5 @@
 ---
-title: Grad f??llt mir auf …
+title: Grad fällt mir auf …
 date: 2005-09-29T03:14:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
@@ -11,3 +11,6 @@ publisher:
   covermigration: true
 ---
 ... dass die Welt **doch** ganz schön Scheiße ist. Jaja. Hat sie fast geschafft, mich zu blenden. Aber nich mit mir nich. Klar!?
+
+<!-- cspell:ignore nich -->
+<!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN !? -->

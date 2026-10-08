@@ -12,4 +12,6 @@ publisher:
   seo: true
   covermigration: true
 ---
-<span class="thai" xml:lang="th" title="Gutes Herz, vom Geist befallen">Jai Dee Phii Khaw</span> bezeichnet ein Herz, das gut ist, aber von einem Geist befallen ist --- also einen Menschen, der eigentlich gut und gro?zügig ist, dessen Großzügigkeit sich aber leicht von Anderen (Geistern) ausnutzen lässt.
+<span class="thai" xml:lang="th" title="Gutes Herz, vom Geist befallen">Jai Dee Phii Khaw</span> bezeichnet ein Herz, das gut ist, aber von einem Geist befallen ist --- also einen Menschen, der eigentlich gut und großzügig ist, dessen Großzügigkeit sich aber leicht von Anderen (Geistern) ausnutzen lässt.
+
+<!-- cspell:ignore Khaw -->
