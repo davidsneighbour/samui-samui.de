@@ -59,6 +59,13 @@
 
 :root {
   --radius: 0.75rem;
+  /*
+   * Reading column for long-form post text. Panton averages about 7px per
+   * character at 16px, so 34rem gives roughly 75-80 characters per line.
+   * `ch` units are not used: Panton's wide "0" makes 1ch about 10px, which
+   * would overshoot the measure by a third.
+   */
+  --reading-measure: 34rem;
   color-scheme: light;
 
   --background: #f8f3e6;

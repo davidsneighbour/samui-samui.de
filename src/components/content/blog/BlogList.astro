@@ -146,29 +146,31 @@ const showTopPagination = showPagination && pageNumber > 1;
               />
             )}
             <div class="px-4 py-8 sm:px-8">
-              <header class="mb-8 text-center">
-                <BlogPostTitle
-                  title={post.data.title}
-                  href={getPostUrl(post)}
+              <div class="mx-auto max-w-(--reading-measure)">
+                <header class="mb-8 text-center">
+                  <BlogPostTitle
+                    title={post.data.title}
+                    href={getPostUrl(post)}
+                  />
+                  <BlogPostMeta
+                    date={post.data.date}
+                    themen={post.data.themen}
+                    class="mb-4 mt-3"
+                  />
+                  <Separator />
+                </header>
+                <Breadcrumbs
+                  class="mb-4 mt-4 text-left"
+                  items={featuredBreadcrumbs}
                 />
-                <BlogPostMeta
-                  date={post.data.date}
-                  themen={post.data.themen}
-                  class="mb-4 mt-3"
-                />
-                <Separator />
-              </header>
-              <Breadcrumbs
-                class="mb-4 mt-4 text-left"
-                items={featuredBreadcrumbs}
-              />
-              <PostTaxonomyGroups groups={featuredTaxonomies} />
-              {hasVimeo && <VimeoScript />}
-              {hasYoutube && <YoutubeScript />}
-              <div
-                class:list={[proseClasses, 'text-pretty']}
-                set:html={fullPostHtml}
-              ></div>
+                <PostTaxonomyGroups groups={featuredTaxonomies} />
+                {hasVimeo && <VimeoScript />}
+                {hasYoutube && <YoutubeScript />}
+                <div
+                  class:list={[proseClasses, 'text-pretty']}
+                  set:html={fullPostHtml}
+                ></div>
+              </div>
             </div>
             <div class="border-t border-card-foreground/10 px-4 py-8 sm:px-8">
               <Giscus mapping="specific" term={getPostDiscussionTerm(post)} />

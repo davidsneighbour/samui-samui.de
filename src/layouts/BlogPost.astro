@@ -132,58 +132,60 @@ const publishedYear = publishedOn
           />
         )}
         <div class="px-4 py-8 sm:px-8">
-          <div class="text-center">
-            <BlogPostTitle
-              title={title}
-              href={postUrl}
-              level="h1"
+          <div class="mx-auto max-w-(--reading-measure)">
+            <div class="text-center">
+              <BlogPostTitle
+                title={title}
+                href={postUrl}
+                level="h1"
+              />
+            </div>
+            <BlogPostMeta
+              date={publishedOn}
+              updatedDate={updatedOn}
+              themen={themen}
+              extended
+              class="mb-4 mt-3"
             />
-          </div>
-          <BlogPostMeta
-            date={publishedOn}
-            updatedDate={updatedOn}
-            themen={themen}
-            extended
-            class="mb-4 mt-3"
-          />
-          <Separator />
-          {publishedYear && postUrl && (
-            <Breadcrumbs
-              class="mb-4 mt-4 text-left"
-              items={[
-                { href: '/', label: 'Startseite' },
-                {
-                  href: `/archiv/${publishedYear}/`,
-                  label: String(publishedYear),
-                },
-                { href: postUrl, label: title },
-              ]}
-            />
-          )}
-          <PostTaxonomyGroups groups={taxonomies} />
-          {publishedOn && (
-            <span
-              class="sr-only"
-              data-pagefind-filter={`Year:${getPostDateParts(publishedOn).year}`}
-              data-pagefind-meta={`date:${formatDate(publishedOn)}`}
-            />
-          )}
-          {postThemen.length > 0 && (
-            <span
-              class="sr-only"
-              data-pagefind-meta={`themen:${postThemen.map(humanize).join(', ')}`}
-            />
-          )}
-          {postThemen.map((thema) => (
-            <span
-              class="sr-only"
-              data-pagefind-filter={`Thema:${humanize(thema)}`}
-            />
-          ))}
-          {hasVimeo && <VimeoScript />}
-          {hasYoutube && <YoutubeScript />}
-          <div class={proseClasses}>
-            <slot />
+            <Separator />
+            {publishedYear && postUrl && (
+              <Breadcrumbs
+                class="mb-4 mt-4 text-left"
+                items={[
+                  { href: '/', label: 'Startseite' },
+                  {
+                    href: `/archiv/${publishedYear}/`,
+                    label: String(publishedYear),
+                  },
+                  { href: postUrl, label: title },
+                ]}
+              />
+            )}
+            <PostTaxonomyGroups groups={taxonomies} />
+            {publishedOn && (
+              <span
+                class="sr-only"
+                data-pagefind-filter={`Year:${getPostDateParts(publishedOn).year}`}
+                data-pagefind-meta={`date:${formatDate(publishedOn)}`}
+              />
+            )}
+            {postThemen.length > 0 && (
+              <span
+                class="sr-only"
+                data-pagefind-meta={`themen:${postThemen.map(humanize).join(', ')}`}
+              />
+            )}
+            {postThemen.map((thema) => (
+              <span
+                class="sr-only"
+                data-pagefind-filter={`Thema:${humanize(thema)}`}
+              />
+            ))}
+            {hasVimeo && <VimeoScript />}
+            {hasYoutube && <YoutubeScript />}
+            <div class={proseClasses}>
+              <slot />
+            </div>
           </div>
         </div>
         {(newerPost || olderPost) && (
