@@ -48,6 +48,38 @@ typography:
     fontFamily: Panton
     fontWeight: 400
     fontSize: 14px
+  label-xs:
+    fontFamily: Panton
+    fontWeight: 400
+    fontSize: 12px
+  body-sm:
+    fontFamily: Panton
+    fontWeight: 400
+    fontSize: 14px
+  heading-sm:
+    fontFamily: Panton
+    fontWeight: 700
+    fontSize: 18px
+  heading-md:
+    fontFamily: Panton
+    fontWeight: 700
+    fontSize: 20px
+  heading-lg:
+    fontFamily: Panton
+    fontWeight: 700
+    fontSize: 24px
+  post-title-mobile:
+    fontFamily: Panton
+    fontWeight: 700
+    fontSize: 28px
+  heading-xl:
+    fontFamily: Panton
+    fontWeight: 700
+    fontSize: 30px
+  heading-2xl:
+    fontFamily: Panton
+    fontWeight: 700
+    fontSize: 36px
 rounded:
   sm: 8px
   md: 12px
@@ -266,6 +298,25 @@ results) for a fuller search surface without introducing new visual tokens.
 
 ## Typography
 
+### Type scale
+
+The live site uses Tailwind's default size steps plus one arbitrary step for post titles. These are the sizes in use; do not add a step between them.
+
+| Token | Size | Tailwind | Used for |
+| --- | --- | --- | --- |
+| `label-xs` | 12px | `text-xs` | Tag badges (uppercase), figure captions, post-navigation labels, archive group labels, life-stat figures, month-dot tooltip. The smallest size on the site. |
+| `body-sm` / `nav-link` | 14px | `text-sm` | Navigation, metadata, dates, breadcrumbs, footnotes, form help text. The most common UI size. |
+| `body-md` | 16px | `text-base` | Body copy and prose. |
+| `heading-sm` | 18px | `text-lg` | Section headings on archive and index pages. |
+| `heading-md` | 20px | `text-xl` | Life-timeline description title from `sm` up. |
+| `heading-lg` | 24px | `text-2xl` | Compact post titles in lists, taxonomy page titles, prose `h2`. |
+| `post-title-mobile` | 28px | `text-[1.75rem]` | Default post title below `sm`. |
+| `heading-xl` | 30px | `text-3xl` | Page titles, default post title from `sm`. |
+| `heading-2xl` | 36px | `text-4xl` | Page titles and default post title from `md`. |
+| `brand-masthead` | 40px | — | Masthead reference size (the live masthead is outlined SVG). |
+
+12px is acceptable for short labels but not for running text. Uppercase 12px tag badges are the least legible text on the site; do not use 12px for sentences.
+
 Font family is **Panton** everywhere (`--font-sans`), self-hosted as
 woff2/woff under `public/assets/webfonts/`, loaded via `@font-face` in
 `theme.css`. Weights actually registered: 400 (regular + italic), 600
@@ -347,12 +398,13 @@ but only these faces are wired into CSS, deliberately, to avoid unused
 <!-- markdownlint-disable-next-line title-case-style -->
 ## Elevation & depth
 
-There is no elevation system. **No `box-shadow` is used anywhere in the
-codebase.** Depth/separation is communicated entirely through flat color
-contrast (`card` surface against `background`) and thin 1px borders
-(`border` token), never shadows. Do not introduce `shadow-*` utilities
-without a specific reason — it would be a new, unprecedented pattern for
-this design, not a use of an existing-but-undocumented one.
+There is no elevation system. Site surfaces never use drop shadows: depth and separation come from flat colour contrast (`card` against `background`) and thin 1px `border` lines. Three kinds of `box-shadow` are live, and none of them is elevation:
+
+* **Focus rings.** Tailwind `ring-*` utilities (inputs, pagination, buttons) draw focus indicators with `box-shadow`. These are allowed and expected.
+* **Pagefind overlays.** The search dropdown and modal use the `--pf-shadow-sm`/`-md`/`-lg` and `--pf-scroll-shadow` values in `theme.css`, tinted with `card-foreground` (light) or `background` (dark). They separate a floating overlay from the page below it, where a border alone is not enough. Keep them limited to Pagefind.
+* **YouTube title legibility.** The lite-YouTube embed gives its title a small `text-shadow` so white text stays readable on any poster frame.
+
+Do not add `shadow-*` utilities to cards, buttons, or other page surfaces.
 
 ## Shapes
 
@@ -498,8 +550,9 @@ Generated Markdown footnotes use a separate "Fußnoten" section with 32px of spa
 * **Don't** replace the dark masthead tagline value (`#e2e2b6`) with the
   `muted` token — they're visually close but not equal, and `#e2e2b6`
   is the one that matches the live site.
-* **Don't** add `box-shadow` / elevation utilities; this design is
-  intentionally flat.
+* **Don't** add `box-shadow` / elevation utilities to page surfaces; this
+  design is intentionally flat. Focus rings and the Pagefind overlay
+  shadows are the documented exceptions (see Elevation & depth).
 * **Don't** use `primary` as a text colour on `card`. Dark `primary`
   (`#ec7263`) was chosen for the maroon page background; on the cream dark
   card it is 2.48:1 and fails WCAG AA even for large text. Use `link` for
