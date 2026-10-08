@@ -250,7 +250,7 @@ custom properties onto the existing Samui tokens:
 | --- | --- |
 | Text | `card-foreground` and `muted-foreground` |
 | Surface | `card`; header search scopes the compact input to `accent` |
-| Borders and focus | `border` and `ring` |
+| Borders and focus | `border`; focus is a static, complete 2px `ring` outline with a 2px offset, replacing Pagefind's own focus styles |
 | Hover and skeleton fills | `accent`, `muted`, and `card` |
 | Highlight mark | `primary` |
 | Typography | `--font-sans` / Panton |
