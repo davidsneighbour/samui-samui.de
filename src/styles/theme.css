@@ -662,6 +662,49 @@ html {
 }
 
 /*
+ * Post prose reading column. Every direct child of `.prose-reading` stays
+ * within `--reading-measure`; embedded media marked `prose-wide` at build
+ * time (src/scripts/rehype/wide-media.ts: figures, iframes, tables, video
+ * embeds, legacy media wrappers, image-only paragraphs) uses the full card
+ * width instead. Unlayered so the typography plugin cannot reset it.
+ */
+.prose-reading > * {
+  max-width: var(--reading-measure);
+  margin-inline: auto;
+}
+
+/* Wide media may use the full card width. */
+.prose-reading > .prose-wide {
+  max-width: 100%;
+}
+
+/* Image blocks shrink to the image and centre on the column axis, so a small
+   image lines up with the text column and a large one grows up to the full
+   card width. Video embeds, iframes, tables, and legacy image canvases keep
+   their own width rules (often 100%). */
+.prose-reading
+> .prose-wide:is(p, figure, .flickr, .media):not(
+  :has(
+    dnb-youtube,
+    dnb-vimeo,
+    iframe,
+    video,
+    object,
+    embed,
+    .flex-video,
+    .legacy-image-frame
+  )
+) {
+  width: fit-content;
+}
+
+/* Inline-level embeds need block display for `margin-inline: auto` to
+   centre them. */
+.prose-reading > :is(iframe, video).prose-wide {
+  display: block;
+}
+
+/*
  * Hyphenation. `hyphenate-limit-lines` only works in Safari Technology
  * Preview, so Chromium and Firefox hyphenated many lines in a row on narrow
  * screens. `hyphenate-limit-chars` (Chromium 109+, Firefox 137+) does the

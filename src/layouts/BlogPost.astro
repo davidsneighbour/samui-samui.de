@@ -183,9 +183,9 @@ const publishedYear = publishedOn
             ))}
             {hasVimeo && <VimeoScript />}
             {hasYoutube && <YoutubeScript />}
-            <div class={proseClasses}>
-              <slot />
-            </div>
+          </div>
+          <div class:list={[proseClasses, 'prose-reading']}>
+            <slot />
           </div>
         </div>
         {(newerPost || olderPost) && (

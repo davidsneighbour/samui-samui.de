@@ -15,6 +15,7 @@ import { rehypeDnbNotice } from './src/scripts/rehype/notices.ts';
 import { rehypeDnbPerson } from './src/scripts/rehype/person-link.ts';
 import { rehypeSiteAge } from './src/scripts/rehype/site-age.ts';
 import { rehypeVideoPosters } from './src/scripts/rehype/video-posters.ts';
+import { rehypeWideMedia } from './src/scripts/rehype/wide-media.ts';
 import { remarkDnbTypography } from './src/scripts/remark/typography.ts';
 import { getNoindexTaxonomyPaths } from './src/utils/taxonomies/noindex.ts';
 
@@ -104,6 +105,7 @@ export default defineConfig({
         rehypeDnbPerson,
         rehypeSiteAge,
         rehypeVideoPosters,
+        rehypeWideMedia, // Last: marks embedded media that may leave the reading column.
       ],
       remarkPlugins: [remarkDnbTypography],
     }),
