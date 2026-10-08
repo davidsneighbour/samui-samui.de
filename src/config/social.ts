@@ -36,6 +36,20 @@ export const SOCIAL_NETWORKS = [
     name: 'Threads',
     tooltip: 'Folge mir auf Threads',
   },
+  {
+    href: 'https://www.facebook.com/samui.samui',
+    icon: 'simple-icons:facebook',
+    id: 'facebook',
+    name: 'Facebook',
+    tooltip: 'Folge mir auf Facebook',
+  },
+  {
+    href: 'https://www.instagram.com/samuisamui_de',
+    icon: 'simple-icons:instagram',
+    id: 'instagram',
+    name: 'Instagram',
+    tooltip: 'Folge mir auf Instagram',
+  },
 ] as const satisfies readonly SocialNetwork[];
 
 export type SocialNetworkId = (typeof SOCIAL_NETWORKS)[number]['id'];
