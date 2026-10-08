@@ -46,7 +46,7 @@ export function DescriptionPanel({
             </p>
           )}
           {journeyStatus && (
-            <p className="mt-2 text-xs font-medium text-primary">
+            <p className="mt-2 text-xs font-medium text-link">
               {journeyStatus}
             </p>
           )}

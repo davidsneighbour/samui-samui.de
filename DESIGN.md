@@ -392,7 +392,9 @@ Generated Markdown footnotes use a separate "Fußnoten" section with 32px of spa
 * **BlogPostTitle** (`src/components/BlogPostTitle.astro`) — shared post
   title component for list cards and single-post pages. It always renders
   uppercase at weight 700 (global heading rule), supports `h1`/`h2`, and offers default
-  (`text-3xl sm:text-4xl`) and compact (`text-2xl`) sizes.
+  (`text-3xl sm:text-4xl`) and compact (`text-2xl`) sizes. Linked titles
+  use `link` colour and show a 2px underline on hover and on keyboard
+  focus within the card; the colour does not change.
 * **BlogPostMeta** (`src/components/BlogPostMeta.astro`) — shared metadata
   row beneath post titles. It owns published/updated dates and optional tag
   badges. The published date appears inline with a `CalendarDays` icon; when an
@@ -480,6 +482,12 @@ Generated Markdown footnotes use a separate "Fußnoten" section with 32px of spa
   is the one that matches the live site.
 * **Don't** add `box-shadow` / elevation utilities; this design is
   intentionally flat.
+* **Don't** use `primary` as a text colour on `card`. Dark `primary`
+  (`#ec7263`) was chosen for the maroon page background; on the cream dark
+  card it is 2.48:1 and fails WCAG AA even for large text. Use `link` for
+  accent text on cards, or `card-foreground` on a `primary`-tinted fill.
+  `primary` remains valid as a fill (buttons, active pagination, month
+  dots) and as text on `background`.
 * **Don't** add Tailwind font-weight utilities to headings — the unlayered
   global rule renders every `h1`–`h6` at 700 and silently overrides them
   (see Typography).
