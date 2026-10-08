@@ -13,12 +13,15 @@ Eben im 7eleven, ich packte Würstchen auf die Theke und zwischen mir und der Ka
 
 Sie: You want me hot?
 
-Ich überlegte kurz, eine verdammt sophistisch ausgeklügelte Antwort zu geben um wenigstens _einen_ Abend in der Woche etwas Freude zu haben, unterlies dies aber aufgrund der zu erwartenden Ironieresistenz der noch jungen frischen 7elevenerin, grinste traurig und meinte nur:
+Ich überlegte kurz, eine verdammt sophistisch ausgeklügelte Antwort zu geben, um wenigstens _einen_ Abend in der Woche etwas Freude zu haben, unterließ dies aber aufgrund der zu erwartenden Ironieresistenz der noch jungen frischen 7elevenerin, grinste traurig und meinte nur:
 
 Ich: No, thanks.
 
-Hinter der Theke standen 5 Thais rum, die alle unterschiedlich auf unser Gespräch reagierten. Die einen pulten zwischen den Zähnen rum, die anderen grinsten verlegen. Nur eine begann quietschend zu erklären, dass Farangs hin und wieder des Wortwitzes fröhnen und ihre Frage durchaus unterschiedlich verstanden werden kann.
+Hinter der Theke standen 5 Thais rum, die alle unterschiedlich auf unser Gespräch reagierten. Die einen pulten zwischen den Zähnen rum, die anderen grinsten verlegen. Nur eine begann quietschend zu erklären, dass Farangs hin und wieder des Wortwitzes frönen und ihre Frage durchaus unterschiedlich verstanden werden kann.
 
 Beim Hinausgehen kicherten alle dann.
 
-Nun bin ich am ?berlegen, wer hier peinlicher berührt sein sollte...
+Nun bin ich am Überlegen, wer hier peinlicher berührt sein sollte …
+
+<!-- cspell:ignore elevenerin -->
+<!-- grammar-ignore RAN_RUM_RAUF_REIN_RAUS_RUNTER rum -->
