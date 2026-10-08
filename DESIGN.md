@@ -376,6 +376,7 @@ Generated Markdown footnotes use a separate "Fußnoten" section with 32px of spa
   `default` / `secondary` / `outline` / `ghost` / `link`, sizes
   `default` / `sm` / `lg`. See the `components.button-*` tokens above for
   the concrete color/radius/padding mapping per variant and size.
+* **Body links** (`proseClasses` in `src/utils/prose.ts`, and the author bio in `BlogPost.astro`) — `link` colour with a permanent 1px underline in `link` at 40% opacity, offset 2px. On hover the underline turns full `link` colour over 150ms. The underline is required, not decoration: `link` against the prose body text is below 3:1 in both modes, so colour alone does not identify a link (WCAG 1.4.1). Footnote return links keep their own icon-button treatment without an underline.
 * **Badge** (`src/components/ui/badge.astro`) — shadcn-style `cva`
   component for compact labels and tag links. Tags use the `muted`
   variant, matching the author-bio surface color so the badges stay quieter
