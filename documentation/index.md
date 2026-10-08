@@ -54,5 +54,6 @@
 * [Documentation server](documentation-server.md) explains the local Markdown preview server that can run beside the Astro dev server.
 * [Link checking](link-checking.md) documents the Lychee wrapper for content Markdown and MDX links.
 * [Local development](local-development.md) records local dev-server behavior such as Vite watcher exclusions.
+* [Posthaste](posthaste.md) documents repository-local social publishing defaults, credential storage, publishing history, and confirmation rules.
 * [Quality gates](quality-gates.md) explains the repository's npm quality-gate script naming model.
 * [Repo-local skills](repo-local-skills.md) documents pattern-based registration for `.agents/skills/ss-*` assistant skills.

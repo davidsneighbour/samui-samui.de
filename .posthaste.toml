@@ -1,0 +1,8 @@
+version = 1
+
+[posting]
+default_networks = ["mastodon", "bluesky"]
+
+[paths]
+dotenv = ".posthaste/.env"
+posted_log = ".posthaste/posted.jsonl"
