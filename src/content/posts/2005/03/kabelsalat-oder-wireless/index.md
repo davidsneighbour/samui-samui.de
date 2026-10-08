@@ -21,15 +21,19 @@ Jedenfalls hat vorhin das werte Dell-Kabel (ich berichtete&trade;) überaus laut
   3. Dell Deutschland liefert nur nach Deutschland
   4. Dell Thailand hat keine Inspirons, damit auch kein Stromkabel für meinen Rechner
   5. Dell Malaysia hat zwar das Stromkabel, liefert aber nur nach Malaysia
-  6. Anderswo (also au?erhalb von Dell-Webseiten) gibts keine Dell-Kabel
+  6. Anderswo (also außerhalb von Dell-Webseiten) gibts keine Dell-Kabel
   7. Mein altes Dell-Kabel ist "Made in Thailand" (der pure Hohn)
 
-Was lernen wir daraus? Nichts. Au?er dass es nun sehr lange dauern kann, bis ich wieder Strom im Notebook habe.
+Was lernen wir daraus? Nichts. Außer dass es nun sehr lange dauern kann, bis ich wieder Strom im Notebook habe.
 
 Ich bin noch überaus geschockt. Für mich ist mein kleiner 12-Pfund-Laptop lebenswichtig. Ich schreib meine Einträge darauf. Ich programmiere darauf. Ich kuck Filme darauf. Ich telefoniere damit (der Arbeitsplatzrechner mag das Micro noch nicht). Das ist alles eine Katastrophe.
 
-Klar, ich hab auf Arbeit einen Rechner stehen, aber da will ich nicht unbedingt meine Ergüsse drauf speichern. Au?erdem: Wer will schon gerne von Arbeit aus Privatkram schreiben oder im Büro Filme sehen. Und ist der Vorteil einer tragbaren Kiste nicht, dass man sie überallhin tragen und einschalten kann?
+Klar, ich hab auf Arbeit einen Rechner stehen, aber da will ich nicht unbedingt meine Ergüsse drauf speichern. Außerdem: Wer will schon gerne von Arbeit aus Privatkram schreiben oder im Büro Filme sehen. Und ist der Vorteil einer tragbaren Kiste nicht, dass man sie überallhin tragen und einschalten kann?
 
 Jedenfalls habe ich mich schon mal nach Büchern umgesehen. Es sieht so aus, als ob ich jetzt viel Zeit zum Lesen haben werde. Und Malzeug hab ich versorgt. Und einen Whiskey.
 
-Alles sehr nervig. Ich bin überaus deprimiert. ?beraus.
+Alles sehr nervig. Ich bin überaus deprimiert. Überaus.
+
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E schreib -->
+<!-- grammar-ignore GERMAN_WORD_REPEAT_BEGINNING_RULE Ich -->
+<!-- grammar-ignore AUF_ARBEIT auf Arbeit -->

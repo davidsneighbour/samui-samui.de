@@ -1,5 +1,5 @@
 ---
-title: Ban Nathon, zwischen den Stra?en
+title: Ban Nathon, zwischen den Straßen
 date: 2005-03-19T05:28:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:

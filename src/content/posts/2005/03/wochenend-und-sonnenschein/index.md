@@ -14,12 +14,17 @@ Nein, liebe Leute, _so_ gehts nun wirklich nicht. Es ist hier dunkel wie kurz vo
 
 Soviel zum Thema Planung.
 
-Muss ich halt irgend ne tolle Blogsuchmaschine entwickeln. Wobei Blogs. Naja. Absteigender Ast und so.
+Muss ich halt irgend ne tolle Blogsuchmaschine entwickeln. Wobei Blogs. Na ja. Absteigender Ast und so.
 
-PS: Stimmt. Man schreibt nicht "dunkel wie". Richtig muss es hei?en "dunkel als wie da wo". Ich bitte vielmals um Entschuldigung.
+PS: Stimmt. Man schreibt nicht "dunkel wie". Richtig muss es heißen "dunkel als wie da wo". Ich bitte vielmals um Entschuldigung.
 
-PPS: Es regnet jetzt seit über einer Stunde. Inzwischen bin ich mir nicht mehr so sicher, ob es "nur ein kleines Unwetter" ist, weil man die Spitze des Berges gegenüber nicht mehr sehen kann. Es hat sich zu einem richtigen Gewitter ausgewaschen. Die Stra?e ist ein Fluss. Regen und Luft sind kalt. Es ist dunkel wie kurz _nach_ dem Sonnenuntergang. Es donnert (was anders klingt als in Deutschland) und blitzt. Nur der Strom, der ist noch da. Und, was ich nun gar nicht erwartet hätte, die Fenster hier sind dicht.
+PPS: Es regnet jetzt seit über einer Stunde. Inzwischen bin ich mir nicht mehr so sicher, ob es "nur ein kleines Unwetter" ist, weil man die Spitze des Berges gegenüber nicht mehr sehen kann. Es hat sich zu einem richtigen Gewitter ausgewaschen. Die Straße ist ein Fluss. Regen und Luft sind kalt. Es ist dunkel wie kurz _nach_ dem Sonnenuntergang. Es donnert (was anders klingt als in Deutschland) und blitzt. Nur der Strom, der ist noch da. Und, was ich nun gar nicht erwartet hätte, die Fenster hier sind dicht.
 
-PPPS: Man kann nun gar keinen Berg mehr sehen. Die Palmenspitzen auf der gegenüberliegenden Stra?enseite sind in den Wolken verschwunden. Koh Samui ist eingehüllt in eine graue Masse. Ist dies das Ende? Wird die Sintflut uns alle verschlingen? Bestimmt nicht, denn Rolands Gärtner Nummer zwei (Roland ist der Cheffe von IT-Zentrum und hat drei Gärtner) klaubt schon runtergefallene Blätter aus den Regenrinnen. Wie auch immer. Das ist hier so wie anderswo. Hat man was vor am Wochenende, regnet es.
+PPPS: Man kann nun gar keinen Berg mehr sehen. Die Palmenspitzen auf der gegenüberliegenden Straßenseite sind in den Wolken verschwunden. Koh Samui ist eingehüllt in eine graue Masse. Ist dies das Ende? Wird die Sintflut uns alle verschlingen? Bestimmt nicht, denn Rolands Gärtner Nummer zwei (Roland ist der Cheffe von IT-Zentrum und hat drei Gärtner) klaubt schon runtergefallene Blätter aus den Regenrinnen. Wie auch immer. Das ist hier so wie anderswo. Hat man was vor am Wochenende, regnet es.
 
 PPPPS: Es ist jetzt halb eins und es regnet immer noch. Mich würde dann schon mal interessieren, wer mir das Märchen vom Regen erzählt hat, der hier zwar stark aber nur 10 Minuten fallen soll. Und derjenige, der die Story von "die Regenzeit ist vorbei" gebracht hat, kann gleich mitkommen.
+
+<!-- cspell:ignore PPPS PPPPS Cheffe -->
+<!-- grammar-ignore N_NETTER_TYP ne -->
+<!-- grammar-ignore FRAGEZEICHEN_STATT_PUNKT . -->
+<!-- grammar-ignore DE_REPEATEDWORDS_NUN nun -->
