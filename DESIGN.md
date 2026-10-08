@@ -418,7 +418,14 @@ Generated Markdown footnotes use a separate "Fußnoten" section with 32px of spa
 * **Card** — not a dedicated component file; the pattern (`bg-card`,
   `text-card-foreground`, `rounded-(--radius)`, `px-4 py-8 sm:px-8`) is
   repeated inline in `BlogList.astro`, `PageLayout.astro`, and
-  `BlogPost.astro`. A shared `Card.astro` would be a reasonable future
+  `BlogPost.astro`. Page-level cards carry `border border-border
+  dark:border-transparent`: in light mode `card` (#fffaf0) against
+  `background` (#f8f3e6) is only 1.06:1, so the 1px border is what gives
+  the content column its edge; in dark mode the card already stands out
+  at 15:1 and the border stays invisible, as before. Blog-list summary
+  cards darken the border on hover/focus in light mode
+  (`muted-foreground/40`) and keep the earlier `border/60` hover outline
+  in dark mode. A shared `Card.astro` would be a reasonable future
   extraction but does not exist yet — don't assume one when reading
   those files.
 * **HeaderLink** (`src/components/HeaderLink.astro`) — nav links with a

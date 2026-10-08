@@ -134,7 +134,7 @@ const showTopPagination = showPagination && pageNumber > 1;
     ({ cover, fullPostHtml, hasVimeo, hasYoutube, post, summary }, index) => (
       <li>
         {shouldFeaturePost(index) ? (
-          <article class="overflow-hidden rounded-(--radius) bg-card text-card-foreground">
+          <article class="overflow-hidden rounded-(--radius) border border-border dark:border-transparent bg-card text-card-foreground">
             {cover && (
               <PostCover
                 cover={cover}
@@ -177,7 +177,7 @@ const showTopPagination = showPagination && pageNumber > 1;
             </div>
           </article>
         ) : (
-          <article class="group rounded-(--radius) border border-transparent bg-card px-4 py-6 text-card-foreground transition-colors duration-200 hover:border-border/60 focus-within:border-border/60 sm:px-6">
+          <article class="group rounded-(--radius) border border-border bg-card px-4 py-6 text-card-foreground transition-colors duration-200 hover:border-muted-foreground/40 focus-within:border-muted-foreground/40 dark:border-transparent dark:hover:border-border/60 dark:focus-within:border-border/60 sm:px-6">
             <header class="mb-4">
               <BlogPostTitle
                 title={post.data.title}
