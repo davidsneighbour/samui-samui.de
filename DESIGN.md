@@ -360,7 +360,7 @@ sharp (0px) corners.
 Motion is reserved for feedback and state changes; reading surfaces stay static. There are no motion tokens in `theme.css`; these values are the documented conventions. The global reduced-motion rule in `theme.css` shortens every transition and animation to 0.01ms, so components do not need their own reduced-motion branch unless they run bespoke JavaScript motion.
 
 * **Hover and colour changes** — 150ms `ease-out` on colour, background, and border properties.
-* **Press feedback** — `active:scale-[0.97]` with a 150ms transform transition on buttons and button-like controls (`buttonVariants`, footnote return links). Compact icon buttons (ThemeToggle, sound toggle, tooltip triggers) use `0.96`.
+* **Press feedback** — `active:scale-[0.97]` with a 150ms transform transition on buttons and button-like controls (`buttonVariants`, pagination controls, footnote return links). Compact icon buttons (ThemeToggle, sound toggle, tooltip triggers) use `0.96`.
 * **Entrance curve** — `cubic-bezier(0.2, 0, 0, 1)` for elements that enter (footer sound icon swap at 180ms, contact form status).
 * **Contact form status** — enters over 200ms from `opacity: 0` and a 4px downward offset via `@starting-style`. It has no exit animation.
 * **Busy spinner** — while a request runs, the contact form's submit icon becomes Lucide `loader-circle` spinning at 700ms `linear` per turn (faster than Tailwind's 1s `animate-spin`, because a faster spin makes the same wait feel shorter). The disabled button keeps full opacity while busy, so it reads as working, not unavailable.
