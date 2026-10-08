@@ -86,6 +86,22 @@ describe('German grammar match filtering', () => {
     );
   });
 
+  it('drops matches listed as a per-post exception', () => {
+    const post =
+      'Ich bastel was.\n\n<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E bastel -->\n';
+    expect(isRelevantMatch(match(4, 6, 'ERSTE_PERSON_SIN_OHNE_E'), post)).toBe(
+      false,
+    );
+    // The same text under another rule, or without the comment, stays.
+    expect(isRelevantMatch(match(4, 6, 'DE_CASE'), post)).toBe(true);
+    expect(
+      isRelevantMatch(
+        match(4, 6, 'ERSTE_PERSON_SIN_OHNE_E'),
+        'Ich bastel was.',
+      ),
+    ).toBe(true);
+  });
+
   it('keeps old-spelling matches only for pre-reform ß', () => {
     expect(isRelevantMatch(match(10, 3, 'OLD_SPELLING_RULE'), text)).toBe(true);
     expect(isRelevantMatch(match(18, 5, 'OLD_SPELLING_RULE'), text)).toBe(

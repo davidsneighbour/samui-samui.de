@@ -130,6 +130,18 @@ LanguageTool is the grammar layer only. Rules that conflict with the other layer
 | Category `EMPFOHLENE_RECHTSCHREIBUNG` (for example `F_ANSTATT_PH`, `Z_ANSTATT_T`) | disabled | Recommends `Grafik`, `Potenzial`, and `Fantasie`, which contradicts the house spelling. |
 | `OLD_SPELLING_RULE` | kept only when the match contains `ß` | Its ß/ss findings (`daß` → `dass`) agree with the house policy. Its loanword findings (`Photo` → `Foto`) do not. |
 | `IGNORED_TEXTS` (for example `Kung Fu` in the film title "Kung Fu Hustle") | match dropped when its exact text is listed | Proper names keep their official spelling. This is the grammar-layer equivalent of `TokenIgnores` in `.vale.ini`. |
+| Per-post `grammar-ignore` comment | match dropped when its rule ID and exact text are listed in the same post | Intentional informal style in one post. See below. |
+
+### Per-post exceptions for informal style
+
+Some rules flag the blog's informal voice rather than errors, for example `ERSTE_PERSON_SIN_OHNE_E` (`bastel` → `bastele`), `RAN_RUM_RAUF_REIN_RAUS_RUNTER_NEU` (`rumgespielt` → `herumgespielt`), `DE_REPEATEDWORDS_NUN`, `GERMAN_WORD_REPEAT_BEGINNING_RULE`, `DOPPELTES_AUSRUFEZEICHEN` (`!!`), and `AUF_ARBEIT`. These rules stay active, so new text is still checked. When a flagged passage is intentional, keep it and add an exception to the post, one comment per passage, on its own line at the end of the post (like `cspell:ignore`):
+
+```markdown
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E bastel -->
+<!-- grammar-ignore RAN_RUM_RAUF_REIN_RAUS_RUNTER_NEU rumgespielt -->
+```
+
+The comment takes the rule ID and the exact text that LanguageTool reports. It drops only matches with that rule ID and that text in that post. Use it only for intentional style. Fix real errors (commas, agreement, case, separated verb prefixes) instead.
 
 These rule IDs were found by running LanguageTool 6.8 on sample sentences in the house style, not guessed. To disable another rule after reviewing its findings across the archive, add its ID to `DISABLED_RULES` in `src/scripts/lint-grammar.ts` and record the reason in the table above. Typography rules (`AUSLASSUNGSPUNKTE_LEERZEICHEN`, `EINHEIT_LEERZEICHEN`) are currently kept, because they give valid German typography advice.
 

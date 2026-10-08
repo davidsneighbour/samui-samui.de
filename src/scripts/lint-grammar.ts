@@ -70,6 +70,24 @@ export const DISABLED_CATEGORIES = ['EMPFOHLENE_RECHTSCHREIBUNG'];
  */
 export const IGNORED_TEXTS = ['Kung Fu'];
 
+/**
+ * Per-post exceptions for intentional informal style, for example
+ * `<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E bastel -->`. A match is dropped
+ * only when both its rule ID and its exact text are listed in the same post,
+ * like a file-level `cspell:ignore` comment. HTML comments are markup, so the
+ * comment itself is never checked.
+ */
+const LOCAL_IGNORE = /<!--\s*grammar-ignore\s+([A-Z0-9_]+)\s+(.+?)\s*-->/g;
+
+export function localIgnores(source: string): Set<string> {
+  return new Set(
+    Array.from(
+      source.matchAll(LOCAL_IGNORE),
+      ([, ruleId, text]) => `${ruleId} ${text}`,
+    ),
+  );
+}
+
 /** Mdast nodes whose content is not the author's checkable prose. */
 const SKIPPED_NODES = new Set([
   'blockquote',
@@ -203,19 +221,14 @@ export function toAnnotation(source: string): AnnotationPart[] {
 export function isRelevantMatch(
   match: LanguageToolMatch,
   source: string,
+  ignores: Set<string> = localIgnores(source),
 ): boolean {
+  const text = source.slice(match.offset, match.offset + match.length);
   if (DISABLED_RULES.includes(match.rule.id)) return false;
   if (DISABLED_CATEGORIES.includes(match.rule.category.id)) return false;
-  if (
-    IGNORED_TEXTS.includes(
-      source.slice(match.offset, match.offset + match.length),
-    )
-  )
-    return false;
-  if (match.rule.id === 'OLD_SPELLING_RULE')
-    return source
-      .slice(match.offset, match.offset + match.length)
-      .includes('ß');
+  if (IGNORED_TEXTS.includes(text)) return false;
+  if (ignores.has(`${match.rule.id} ${text}`)) return false;
+  if (match.rule.id === 'OLD_SPELLING_RULE') return text.includes('ß');
   return true;
 }
 
@@ -227,8 +240,9 @@ export function toFindings(
   const lineStarts = [0];
   for (let index = 0; index < source.length; index++)
     if (source[index] === '\n') lineStarts.push(index + 1);
+  const ignores = localIgnores(source);
   return matches
-    .filter((match) => isRelevantMatch(match, source))
+    .filter((match) => isRelevantMatch(match, source, ignores))
     .map((match) => {
       let line = lineStarts.length;
       while ((lineStarts[line - 1] ?? 0) > match.offset) line--;
