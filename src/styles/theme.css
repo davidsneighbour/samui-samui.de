@@ -675,11 +675,18 @@ h6 {
   --tw-prose-td-borders: var(--color-border);
 }
 
-/* hyphenation */
+/*
+ * Hyphenation. `hyphenate-limit-lines` only works in Safari Technology
+ * Preview, so Chromium and Firefox hyphenated many lines in a row on narrow
+ * screens. `hyphenate-limit-chars` (Chromium 109+, Firefox 137+) does the
+ * limiting instead: only words of 10+ characters break, with at least 4
+ * characters on each side. Long German compounds still break; short words
+ * stay whole. `hyphenate-limit-lines` stays for browsers that add it.
+ */
 p {
   hyphens: auto;
-  hyphenate-limit-chars: auto 3;
-  hyphenate-limit-lines: 4;
+  hyphenate-limit-chars: 10 4 4;
+  hyphenate-limit-lines: 2;
 }
 
 /* Generated Markdown footnotes form a separate editorial section. */

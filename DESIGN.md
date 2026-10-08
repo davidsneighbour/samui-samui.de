@@ -309,6 +309,11 @@ but only these faces are wired into CSS, deliberately, to avoid unused
   An unlayered `.prose` rule in `theme.css` maps the typography plugin's
   `--tw-prose-*` variables to these tokens, replacing the cool
   `prose-neutral` greys.
+  Paragraphs hyphenate automatically (`lang="de"`), limited by
+  `hyphenate-limit-chars: 10 4 4`: only words of 10 or more characters
+  break, with at least 4 characters on each side. Browsers do not yet
+  support `hyphenate-limit-lines`, so the character limit is what keeps
+  narrow screens from stacking long runs of hyphenated lines.
   Prose list items deliberately use half of the
   `@tailwindcss/typography` default vertical item rhythm through
   `src/utils/prose.ts`: direct `<li>` spacing is `0.25em` above and
