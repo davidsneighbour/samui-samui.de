@@ -26,7 +26,19 @@ Properties:
 
 `src` intentionally does not accept paths. Put cover images in the post bundle so Astro can optimize them.
 
-On single post pages, image covers sit flush against the post header area: the image itself renders full-width, and the surrounding article's overflow clipping provides the visible rounded top corners. There is no separate cover-frame background behind the image. The bottom edge remains square so captions and post content connect cleanly below the media. Blog list preview covers keep their fully rounded image treatment.
+On single post pages, image covers sit flush against the post header area: the image itself renders full-width, and the cover's own clip provides the visible rounded top corners. There is no separate cover-frame background behind the image. The bottom edge remains square so captions and post content connect cleanly below the media. Blog list preview covers keep their fully rounded image treatment.
+
+### Cover card corners
+
+The single post card and the featured post card on the home page use the `cover-card` class from `src/styles/theme.css`. It applies to image and video covers alike.
+
+The card itself does not clip its children with `overflow: hidden`. That approach left a hard, stepped media edge under the anti-aliased curve of the 1px border, so the top corners looked pixelated and thinner than the straight edges, most visibly with dark video posters. Instead:
+
+* The card has no border width of its own. Its classes only set the border colour (`border-border dark:border-transparent`).
+* A `::after` overlay paints the 1px border in that colour on top of the card, including on top of the cover.
+* The cover figure (the card's first child) clips itself with `clip-path` just inside that line, at the border's inner radius (`var(--radius) - 1px`).
+
+One painted line avoids the doubled edge that appears when a real border and an overlay copy snap to different device pixels. Do not add `overflow-hidden` or a `border` width back to these cards.
 
 ## Video covers
 

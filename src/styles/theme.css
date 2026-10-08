@@ -358,6 +358,38 @@ html {
 }
 
 /*
+ * Cards whose cover media runs to the card's top edge (single post page,
+ * featured post on the home page). Clipping the media with the card's own
+ * `overflow: hidden` leaves a hard, stepped edge under the 1px border's
+ * anti-aliased curve, so the top corners look jagged and thinner than the
+ * straight edges. Instead, the card has no border of its own: it only sets
+ * the border colour (`border-border dark:border-transparent`), and a 1px
+ * overlay paints that border on top of the cover, which clips itself just
+ * inside the line. A single painted line avoids a doubled edge where a real
+ * border and an overlay snap to different device pixels. See
+ * documentation/components/post-covers.md.
+ */
+.cover-card {
+  position: relative;
+}
+
+.cover-card > figure:first-child {
+  clip-path: inset(
+    1px 1px 0 round calc(var(--radius) - 1px) calc(var(--radius) - 1px) 0 0
+  );
+}
+
+.cover-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid;
+  border-color: inherit;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+/*
  * Legacy-image presentation (src/utils/legacy-images/) -- the canvas a small
  * historical scan is displayed on, either backed by a blurred derivative of
  * itself ("legacy" mode) or a plain muted surface ("thumbnail" mode). See

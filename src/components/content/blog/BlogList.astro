@@ -134,7 +134,7 @@ const showTopPagination = showPagination && pageNumber > 1;
     ({ cover, fullPostHtml, hasVimeo, hasYoutube, post, summary }, index) => (
       <li>
         {shouldFeaturePost(index) ? (
-          <article class="overflow-hidden rounded-(--radius) border border-border dark:border-transparent bg-card text-card-foreground">
+          <article class="cover-card rounded-(--radius) border-border dark:border-transparent bg-card text-card-foreground">
             {cover && (
               <PostCover
                 cover={cover}
