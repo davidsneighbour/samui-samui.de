@@ -15,6 +15,8 @@ No credential file, publishing history, or social account is created by the init
 
 ## Configuration and publishing
 
+Reusable bio and introduction text lives in [Social profile copy](content/social-profiles.md).
+
 Consuming skill defaults are overridden by global `~/.config/posthaste/config.toml`, then project `.posthaste.toml`, and finally explicit request values. Runtime helpers also support documented environment and command-line overrides. Other global settings may still be inherited; the project configuration overrides default networks and storage paths.
 
 Use `/posthaste-config info` to inspect effective settings and provenance, or `/posthaste-config check` to validate configuration. Use `/posthaste-prepare-link` with a site URL to prepare a post. Publishing, credential writes, automated login, and final publish controls require explicit user confirmation under the Posthaste skill rules.
