@@ -1,5 +1,5 @@
 ---
-title: SkypeIn f??r Patrick
+title: SkypeIn für Patrick
 date: 2005-11-16T09:17:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
@@ -21,3 +21,5 @@ Wenn ich nicht online bin (was aufgrund wieder vermehrt auftretender Stromausfä
 Schöne neue Onlinewelt.
 
  [1]: http://skype.com/
+
+<!-- grammar-ignore DE_CASE Leider -->

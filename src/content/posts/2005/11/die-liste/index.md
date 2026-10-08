@@ -14,7 +14,7 @@ publisher:
 * <del>Möllemann (FDP)</del> (Sonderprämie wegen Originalität)
 * <del>Schaaaaaaaaaarpiiiiiiing (SPD)</del> (in den Adel geschickt)
 * <del>Schröder (SPD)</del> (Schmollmodus)
-* <del>M??ntefering (SPD)</del> (Schmollmodus)
+* <del>Müntefering (SPD)</del> (Schmollmodus)
 * <del>Stoiber (CSU)</del> (muss regelmäßig seine Unwichtigkeit spüren)
 * <del>Wieczorek-Zeul (SPD)</del>
 * Nahles (SPD) (Meuchelmördervorwürfe bis sie in Schmollmodus geht)
@@ -22,3 +22,5 @@ publisher:
 * Lafontaine (LINKS) (für Fallschirmspringen interessieren)
 
 Wir kriegen euch alle. Auch wenn wir manchmal (siehe Lafontaine) kläglich versagen. Und dann kriegt ihr Kohl wieder. Habt ihr gar nicht anders verdient.
+
+<!-- cspell:ignore Schaaaaaaaaaarpiiiiiiing Meuchelmördervorwürfe -->

@@ -1,5 +1,5 @@
 ---
-title: Schwarze M??nche
+title: Schwarze Mönche
 date: 2005-11-14T09:16:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
@@ -18,10 +18,15 @@ Neulich sah ich in den Nachrichten (Channel 3 --- immer gut informiert) einen sc
 
 **Ich:** No. On channel 3 in the news right now there was a black robed monk.
 
-**Sie:** Ahaa... the monk has singer.
+**Sie:** Ahaa … the monk has singer.
 
 **Ich:** ? (_man beachte bitte die überaus kreative Nutzung aller 160 Zeichen dieser SMS_)
 
-**Sie:** Ahaa... the monk has singer before and he say with peple will be to got monk don't singer anymore :| but now some peple useful with him. he don't like and he said be will lave from monk now :)
+**Sie:** Ahaa … the monk has singer before and he say with peple will be to got monk don't singer anymore :| but now some peple useful with him. he don't like and he said be will lave from monk now :)
 
 Alles klar? Gut. Ich habe dann davon abgesehen noch zu fragen, warum Mönche wohl grüne Kutten tragen, denn da stand noch ein Grüner rum.
+
+<!-- cspell:ignore Ahaa peple -->
+<!-- grammar-ignore LEERZEICHEN_VOR_AUSRUFEZEICHEN_ETC anymore : -->
+<!-- grammar-ignore UPPERCASE_SENTENCE_START he -->
+<!-- grammar-ignore RAN_RUM_RAUF_REIN_RAUS_RUNTER rum -->

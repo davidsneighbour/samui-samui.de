@@ -1,5 +1,5 @@
 ---
-title: Die n??chste Welle kommt bestimmt…
+title: Die nächste Welle kommt bestimmt…
 date: 2005-11-28T12:18:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
@@ -10,4 +10,6 @@ publisher:
   seo: true
   covermigration: true
 ---
-... heute abend. Wie man am lamaiischen Himmel sehen kann. Auf Statements zu den Themen des Tages darf man also getrost warten. Auf einige länger. Auf andere kürzer. Auf manche lange.
+... heute Abend. Wie man am lamaiischen Himmel sehen kann. Auf Statements zu den Themen des Tages darf man also getrost warten. Auf einige länger. Auf andere kürzer. Auf manche lange.
+
+<!-- grammar-ignore GERMAN_WORD_REPEAT_BEGINNING_RULE Auf -->

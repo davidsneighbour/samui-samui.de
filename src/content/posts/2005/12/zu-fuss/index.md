@@ -1,5 +1,5 @@
 ---
-title: Zu Fu??
+title: Zu Fuß
 date: 2005-12-27T08:26:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
@@ -14,6 +14,6 @@ Patrick Kollitsch
 
 47/15 Moo 4, Ban Maenam
 
-Ko Samui, Surrathani 84330
+Ko Samui, Surat Thani 84330
 
 Thailand
