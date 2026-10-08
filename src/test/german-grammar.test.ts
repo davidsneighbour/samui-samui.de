@@ -77,6 +77,15 @@ describe('German grammar match filtering', () => {
     ).toBe(false);
   });
 
+  it('drops matches on ignored proper names', () => {
+    expect(
+      isRelevantMatch(match(1, 7, 'DE_COMPOUNDS'), '"Kung Fu Hustle"'),
+    ).toBe(false);
+    expect(isRelevantMatch(match(0, 12, 'DE_COMPOUNDS'), 'Original Ton')).toBe(
+      true,
+    );
+  });
+
   it('keeps old-spelling matches only for pre-reform ß', () => {
     expect(isRelevantMatch(match(10, 3, 'OLD_SPELLING_RULE'), text)).toBe(true);
     expect(isRelevantMatch(match(18, 5, 'OLD_SPELLING_RULE'), text)).toBe(

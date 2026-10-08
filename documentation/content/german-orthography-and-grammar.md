@@ -129,6 +129,7 @@ LanguageTool is the grammar layer only. Rules that conflict with the other layer
 | `GERMAN_SPELLER_RULE` | disabled | CSpell owns spelling. |
 | Category `EMPFOHLENE_RECHTSCHREIBUNG` (for example `F_ANSTATT_PH`, `Z_ANSTATT_T`) | disabled | Recommends `Grafik`, `Potenzial`, and `Fantasie`, which contradicts the house spelling. |
 | `OLD_SPELLING_RULE` | kept only when the match contains `ß` | Its ß/ss findings (`daß` → `dass`) agree with the house policy. Its loanword findings (`Photo` → `Foto`) do not. |
+| `IGNORED_TEXTS` (for example `Kung Fu` in the film title "Kung Fu Hustle") | match dropped when its exact text is listed | Proper names keep their official spelling. This is the grammar-layer equivalent of `TokenIgnores` in `.vale.ini`. |
 
 These rule IDs were found by running LanguageTool 6.8 on sample sentences in the house style, not guessed. To disable another rule after reviewing its findings across the archive, add its ID to `DISABLED_RULES` in `src/scripts/lint-grammar.ts` and record the reason in the table above. Typography rules (`AUSLASSUNGSPUNKTE_LEERZEICHEN`, `EINHEIT_LEERZEICHEN`) are currently kept, because they give valid German typography advice.
 

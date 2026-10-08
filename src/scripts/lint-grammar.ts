@@ -63,6 +63,13 @@ export const DISABLED_RULES = ['GERMAN_SPELLER_RULE'];
  */
 export const DISABLED_CATEGORIES = ['EMPFOHLENE_RECHTSCHREIBUNG'];
 
+/**
+ * Proper names (film titles, brands) whose official spelling LanguageTool
+ * flags. A match is dropped when its exact text is listed here, like
+ * `TokenIgnores` in `.vale.ini`.
+ */
+export const IGNORED_TEXTS = ['Kung Fu'];
+
 /** Mdast nodes whose content is not the author's checkable prose. */
 const SKIPPED_NODES = new Set([
   'blockquote',
@@ -199,6 +206,12 @@ export function isRelevantMatch(
 ): boolean {
   if (DISABLED_RULES.includes(match.rule.id)) return false;
   if (DISABLED_CATEGORIES.includes(match.rule.category.id)) return false;
+  if (
+    IGNORED_TEXTS.includes(
+      source.slice(match.offset, match.offset + match.length),
+    )
+  )
+    return false;
   if (match.rule.id === 'OLD_SPELLING_RULE')
     return source
       .slice(match.offset, match.offset + match.length)
