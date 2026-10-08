@@ -6,12 +6,12 @@ export interface TypographyReplacement {
   to: string;
 }
 
-const DASH_REPLACEMENTS: TypographyReplacement[] = [
+export const DASH_REPLACEMENTS: TypographyReplacement[] = [
   { from: '---', to: '\u2014' },
   { from: '--', to: '\u2013' },
 ];
 
-function applyReplacements(
+export function applyReplacements(
   value: string,
   replacements: TypographyReplacement[],
 ): string {

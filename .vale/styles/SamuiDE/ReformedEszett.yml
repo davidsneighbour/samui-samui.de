@@ -1,0 +1,35 @@
+# The archive uses reformed ß/ss spelling (dass 1,965 vs. daß 2; muss 426
+# vs. muß 0). This rule catches frequent pre-reform ß forms. It is a curated
+# word list, not a generic ß → ss rule, because ß after a long vowel or a
+# diphthong stays correct (Straße, weiß, Fuß). `npm run lint:grammar` covers
+# further pre-reform forms through LanguageTool.
+extends: substitution
+message: "Reformed spelling: use '%s' instead of '%s'."
+level: warning
+ignorecase: false
+swap:
+  '([Dd])aß': $1ass
+  '([Mm])uß': $1uss
+  '([Mm])ußt(\p{Ll}*)': $1usst$2
+  '([Ww])ußt(\p{Ll}*)': $1usst$2
+  'gewußt': gewusst
+  '([Ll])äßt': $1ässt
+  '([Ll])aß': $1ass
+  '([Bb])ißchen': $1isschen
+  '([Mm])iß(\p{Ll}+)': $1iss$2
+  '([Ff])luß(\p{Ll}*)': $1luss$2
+  '([Ss])chluß(\p{Ll}*)': $1chluss$2
+  '([Ss])chloß(\p{Ll}*)': $1chloss$2
+  '([Kk])uß': $1uss
+  '([Bb])iß': $1iss
+  '([Ff])aß': $1ass
+  '([Ss])treß(\p{Ll}*)': $1tress$2
+  '([Pp])rozeß(\p{Ll}*)': $1rozess$2
+  '([Hh])aß': $1ass
+  '([Hh])äßlich(\p{Ll}*)': $1ässlich$2
+  '([Nn])aß': $1ass
+  '([Pp])aß': $1ass
+  '([Pp])aßt': $1asst
+  '([Gg])enuß': $1enuss
+  '([Kk])ompromiß': $1ompromiss
+  'Rußland': Russland

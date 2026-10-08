@@ -1,14 +1,39 @@
 {
-  "dictionaries": ["samuisamui-de"],
+  "dictionaries": ["samuisamui-de", "samuisamui-de-traditional"],
   "dictionaryDefinitions": [
     {
       "addWords": true,
       "name": "samuisamui-de",
       "path": "./samuisamui-de.dict.txt"
+    },
+    {
+      "addWords": false,
+      "description": "Traditional loanword spellings that the house style prefers; see documentation/content/german-orthography-and-grammar.md.",
+      "name": "samuisamui-de-traditional",
+      "path": "./samuisamui-de-traditional.dict.txt"
     }
   ],
   "files": ["src/content/**/*.{md,mdx}"],
   "ignorePaths": [],
+  "ignoreRegExpList": ["frontmatter-key", "frontmatter-slug", "html-tag"],
+  "import": ["@cspell/dict-de-de/cspell-ext.json"],
   "language": "de",
+  "patterns": [
+    {
+      "description": "Lowercase YAML keys in content frontmatter are structural, not prose.",
+      "name": "frontmatter-key",
+      "pattern": "/^\\s*[a-z][\\w-]*:(?=\\s|$)/gm"
+    },
+    {
+      "description": "Lowercase list items such as taxonomy IDs are slugs, not prose.",
+      "name": "frontmatter-slug",
+      "pattern": "/^\\s*-\\s+[a-z0-9][a-z0-9-]*$/gm"
+    },
+    {
+      "description": "Inline HTML tags and their attributes are markup, not prose.",
+      "name": "html-tag",
+      "pattern": "/<[^>\\n]+>/g"
+    }
+  ],
   "version": "0.2"
 }

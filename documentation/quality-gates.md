@@ -20,7 +20,7 @@ Use `lint` for static analysis and prose/code conventions, not for exact contrac
 
 Mutating commands must be named explicitly. `format` writes canonical formatting, `lint:*:fix` applies safe lint fixes, and `*:write` or `*:update` commands may write generated output, dependency updates, caches, or policy files. Do not hide mutating commands under `check`, `lint`, `validate`, `test`, or `audit`.
 
-`lint:spell` remains intentionally separate from `check` because the inherited content archive produces a large number of known spelling hits that are not part of the routine quality gate.
+`lint:spell`, `lint:orthography`, and `lint:grammar` remain intentionally separate from `check` because the inherited content archive still produces a large baseline of known findings that are not part of the routine quality gate. `lint:spell` runs CSpell, `lint:orthography` runs Vale with the house spelling rules, and `lint:grammar` sends prose to a local LanguageTool server started with `npm run languagetool:start`. See [German orthography and grammar](content/german-orthography-and-grammar.md).
 
 `lint:links` is also intentionally separate from `check` during the archive refactor. It runs Lychee against `src/content` only, can be narrowed with `npm run lint:links -- src/content/path`, and is wired into lint-staged for staged content Markdown/MDX files so touched posts do not add new broken links.
 

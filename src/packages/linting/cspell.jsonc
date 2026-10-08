@@ -4,9 +4,11 @@
       "./src/config/cspell/cspell.en.jsonc",
       "./src/config/cspell/cspell.de.jsonc"
     ],
+    "language": "en,de",
     "version": "0.2"
   },
   "devDependencies": {
+    "@cspell/dict-de-de": "4.1.3",
     "cspell": "10.3.6"
   },
   "scripts": {

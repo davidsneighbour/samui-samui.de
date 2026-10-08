@@ -1,0 +1,8 @@
+# Archive imports replaced ß with '?' in some posts (for example "Stra?e",
+# "gro?e"). A question mark between two letters is almost always this damage.
+extends: existence
+message: "Broken character: '%s' probably needs 'ß' instead of '?'."
+level: warning
+nonword: true
+tokens:
+  - '\b\p{L}+\?\p{Ll}+'

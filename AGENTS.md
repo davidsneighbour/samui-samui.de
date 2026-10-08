@@ -250,10 +250,15 @@ with the installed `@biomejs/biome` version, or `biome check` hard-fails on
 version mismatch (run `biome migrate --write` after bumping Biome). Markdownlint
 is intentionally scoped away from `src/content/**` via the local
 `.markdownlint-cli2.jsonc`'s `ignores` — the 20-year blog archive predates (and
-isn't held to) the doc-oriented ruleset. `lint:spell` (cspell) is a separate,
-non-blocking script — it is not wired into `check`, pre-commit, or pre-push,
-because content has ~191k "unknown word" hits and isn't in scope to fix as part
-of routine work.
+isn't held to) the doc-oriented ruleset. `lint:spell` (cspell),
+`lint:orthography` (Vale house spelling), and `lint:grammar` (LanguageTool,
+needs `npm run languagetool:start`) are separate, non-blocking scripts — they
+are not wired into `check`, pre-commit, or pre-push, because the archive still
+has a large untriaged baseline (~8.5k cspell hits). The house orthography is
+reformed ß/ss (`dass`) with traditional loanword spellings (`Photo`,
+`Graphik`, `selbständig`); agents MUST NOT "correct" those loanwords to modern
+variants. See
+[`documentation/content/german-orthography-and-grammar.md`](documentation/content/german-orthography-and-grammar.md).
 
 `simple-git-hooks` installs a `pre-commit` hook (`lint-staged`: Biome + markdownlint
 against staged files only) and a `pre-push` hook (`npm run check`, full-repo) via the

@@ -1,0 +1,32 @@
+# Traditional spelling for Greek and Latin loanwords.
+# The archive prefers these forms (for example Photo 53 vs. Foto 9,
+# Graphik 2 vs. Grafik 0, selbständig 5 vs. selbstständig 0).
+# Keys must keep the case of the first letter; Vale prefers the longest match,
+# so Fotograf* wins over Foto*.
+extends: substitution
+message: "House spelling: use '%s' instead of '%s'."
+level: warning
+ignorecase: false
+swap:
+  'Foto(\p{Ll}*)': Photo$1
+  'foto(\p{Ll}*)': photo$1
+  'Fotograf(\p{Ll}*)': Photograph$1
+  'fotograf(\p{Ll}*)': photograph$1
+  'Grafik(\p{Ll}*)': Graphik$1
+  'grafisch(\p{Ll}*)': graphisch$1
+  '(Bio|bio|Geo|geo|Ortho|ortho|Typo|typo|Choreo|choreo|Karto|karto|Topo|topo)graf(\p{Ll}*)': $1graph$2
+  'Delfin(\p{Ll}*)': Delphin$1
+  'Fantasie(\p{Ll}*)': Phantasie$1
+  'fantasie(\p{Ll}*)': phantasie$1
+  'Fantastisch(\p{Ll}*)': Phantastisch$1
+  'fantastisch(\p{Ll}*)': phantastisch$1
+  'Megafon(\p{Ll}*)': Megaphon$1
+  'Saxofon(\p{Ll}*)': Saxophon$1
+  'Xylofon(\p{Ll}*)': Xylophon$1
+  'Potenzial(\p{Ll}*)': Potential$1
+  'potenziell(\p{Ll}*)': potentiell$1
+  'essenziell(\p{Ll}*)': essentiell$1
+  'existenziell(\p{Ll}*)': existentiell$1
+  'substanziell(\p{Ll}*)': substantiell$1
+  '([Ss])elbstständig(\p{Ll}*)': $1elbständig$2
+  'Stängel(\p{Ll}*)': Stengel$1

@@ -1,0 +1,12 @@
+# Optional strict profile: traditional forms the archive does not use
+# consistently (for example Telefon 25 vs. Telephon 4). Hidden by the default
+# MinAlertLevel; show with `npm run lint:orthography -- --minAlertLevel=suggestion`.
+extends: substitution
+message: "Strict house spelling: consider '%s' instead of '%s'."
+level: suggestion
+ignorecase: false
+swap:
+  'Telefon(\p{Ll}*)': Telephon$1
+  'telefon(\p{Ll}*)': telephon$1
+  'Mikrofon(\p{Ll}*)': Mikrophon$1
+  '([Pp])latzier(\p{Ll}*)': $1lazier$2
