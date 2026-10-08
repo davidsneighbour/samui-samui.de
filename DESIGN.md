@@ -355,6 +355,17 @@ codebase's `button.astro` follows directly (it's a shadcn-style
 `cva` button). Avatars use `rounded-full`. Nothing in the design uses
 sharp (0px) corners.
 
+## Motion
+
+Motion is reserved for feedback and state changes; reading surfaces stay static. There are no motion tokens in `theme.css`; these values are the documented conventions. The global reduced-motion rule in `theme.css` shortens every transition and animation to 0.01ms, so components do not need their own reduced-motion branch unless they run bespoke JavaScript motion.
+
+* **Hover and colour changes** — 150ms `ease-out` on colour, background, and border properties.
+* **Press feedback** — `active:scale-[0.97]` with a 150ms transform transition on buttons and button-like controls (`buttonVariants`, footnote return links). Compact icon buttons (ThemeToggle, sound toggle, tooltip triggers) use `0.96`.
+* **Entrance curve** — `cubic-bezier(0.2, 0, 0, 1)` for elements that enter (footer sound icon swap at 180ms, contact form status).
+* **Contact form status** — enters over 200ms from `opacity: 0` and a 4px downward offset via `@starting-style`. It has no exit animation.
+
+Do not stagger list items, reveal blog cards on scroll, or animate the height of disclosures; these surfaces are used often and motion would slow every visit.
+
 ## Components
 
 ### Post footnotes

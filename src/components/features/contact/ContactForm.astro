@@ -178,6 +178,19 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
     border-radius: calc(var(--radius) - 4px);
     background: var(--color-muted);
     color: var(--color-card-foreground);
+    /* Enter-only motion: the status appears where the visitor is not
+       looking (below the button), so a short rise makes the result noticed.
+       Hiding stays instant because it only happens on resubmit. */
+    transition:
+      opacity 200ms cubic-bezier(0.2, 0, 0, 1),
+      translate 200ms cubic-bezier(0.2, 0, 0, 1);
+  }
+
+  @starting-style {
+    [data-form-status] {
+      opacity: 0;
+      translate: 0 4px;
+    }
   }
 
   [data-form-status].success {
