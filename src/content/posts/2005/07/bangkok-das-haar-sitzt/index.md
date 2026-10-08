@@ -12,4 +12,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Bangkok Airport. Wir fliegen nach Chiang Mai, waren noch nicht in Laos, das ist morgen angesagt. Lamyai fliegt zum erstem Mal. Das wird ein Spa?!! Ich muss im Training bleiben. Ist ja nur eine Stunde. Bangkok nervt immer noch. Später mehr. Eigentlich wollte ich auch offline bleiben, aber wir haben noch ein bisschen Zeit. Achso. Die gro?e 30. Hat sich aber nichts geändert dadurch. Höchstens vielleicht, dass ich wieder einen Tag älter geworden bin. Irgendwie ist das fortschreitend. So. Flugzeug ruft. Kein Internet die nächsten Tage. Versprochen.
+Bangkok Airport. Wir fliegen nach Chiang Mai, waren noch nicht in Laos, das ist morgen angesagt. Lamyai fliegt zum ersten Mal. Das wird ein Spaß!! Ich muss im Training bleiben. Ist ja nur eine Stunde. Bangkok nervt immer noch. Später mehr. Eigentlich wollte ich auch offline bleiben, aber wir haben noch ein bisschen Zeit. Ach so. Die große 30. Hat sich aber nichts geändert dadurch. Höchstens vielleicht, dass ich wieder einen Tag älter geworden bin. Irgendwie ist das fortschreitend. So. Flugzeug ruft. Kein Internet die nächsten Tage. Versprochen.
+
+<!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN !! -->
+<!-- grammar-ignore MEIN_INTERNET Kein Internet -->
