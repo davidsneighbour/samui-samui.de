@@ -318,6 +318,8 @@ but only these faces are wired into CSS, deliberately, to avoid unused
   default link to avoid layout shift and is signaled by the `primary`-colored
   bottom border, not a color change.
 
+* **`sticky-navigation`** — the shared main navigation is a sibling of the scrolling masthead, with `position: sticky`, a zero top offset, and stacking level 40. Its full-width wrapper uses the existing opaque `background` colour and `border-foreground/10` bottom border; the inner navigation retains its current spacing, responsive grid, and `max-w-5xl` width. Content scrolls underneath it. Footer visibility releases the bar back into document flow without animation or a placeholder change; keyboard focus within the bar keeps it sticky until focus leaves. The measured bar height supplies root scroll padding for anchor/focus clearance and adapts to mobile wrapping and viewport changes. Search dropdowns and existing overlays retain their own layers. See [Header navigation](documentation/components/header-navigation.md).
+
 ## Layout
 
 * Content max-width: `max-w-4xl`/`max-w-5xl` (Tailwind defaults, 56rem /

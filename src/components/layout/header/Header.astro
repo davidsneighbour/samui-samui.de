@@ -24,7 +24,7 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
   Zum Inhalt springen
 </a>
 <ConstructionBanner />
-<header class="border-b border-foreground/10 bg-background">
+<header class="bg-background">
   <div class="masthead">
     <a
       href="/"
@@ -119,7 +119,13 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
       </a>
     </div>
   </div>
+</header>
+<div
+  class="header-navigation border-b border-foreground/10 bg-background"
+  data-header-navigation
+>
   <nav
+    aria-label="Hauptnavigation"
     class="header-nav mx-auto grid max-w-5xl grid-cols-[auto_auto] items-center gap-x-4 gap-y-3 border-t border-foreground/10 px-4 py-3 md:grid-cols-[auto_minmax(12rem,1fr)_auto]"
   >
     <div
@@ -182,17 +188,34 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
       <ThemeToggle />
     </div>
   </nav>
-</header>
+</div>
 <PagefindComponentUi />
 
 <script>
   import { getInstanceManager } from '@pagefind/component-ui';
   import { trackPagefindSearch } from '@scripts/analytics/track-pagefind-search';
+  import { installStickyNavigation } from '@scripts/header-navigation';
+
+  installStickyNavigation();
 
   trackPagefindSearch(getInstanceManager().getInstance('default'));
 </script>
 
 <style>
+  .header-navigation {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+  }
+
+  .header-navigation[data-footer-visible]:not(:focus-within) {
+    position: relative;
+  }
+
+  :global(html) {
+    scroll-padding-top: var(--header-navigation-height, 0px);
+  }
+
   /* One continuous photograph clipped through the island and two-line Panton title.
      The punctuation holes reveal the active page background. */
   .masthead {

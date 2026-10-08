@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD013 -->
 # Masthead
 
-`src/components/layout/header/Header.astro` owns the site masthead, including the title, tagline, header search control, navigation, and all masthead-specific CSS.
+`src/components/layout/header/Header.astro` owns the site masthead, including the title, tagline, header search control, navigation, and all masthead-specific CSS. The navigation is a sibling of the masthead header so it can remain sticky independently; see [Header navigation](header-navigation.md).
 
 The home link contains real, server-rendered HTML text from `setup.title` in `src/data/setup.json`. The existing `sr-only` utility visually hides this exact text equivalent of the artwork while retaining it in the HTML and accessibility tree. The link derives its accessible name from this text; it does not rely on an `aria-label` alone. Visible lettering uses outlined Panton Heavy from the selected logo kit; changing the site name requires regenerating those outlines, as well as updating `setup.title`.
 
