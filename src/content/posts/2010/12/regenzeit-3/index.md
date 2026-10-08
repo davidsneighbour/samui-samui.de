@@ -18,7 +18,7 @@ Die Mülleimermethode habe ich vor drei Jahren erfunden. Man stelle einen Eimer 
 
 An normalen Regenzeittesttagen regnet es nur 1/5 Eimer am Tag. Mal so als Vergleich zu 24 Eimern in den vergangenen 48 Stunden.
 
-In den Bergen zwischen meinem kleinen Haus und Nathon hat heute ein Landrutsch die Stra?e grö?tenteils unpassierbar gemacht (was der The Nation [eine Meldung][1] wert war. Als vergangene Woche ein Kieslaster quer auf der Stra?e und sein Inhalt den Berg hinab herum lag, hat das niemanden interessiert, die Stra?e aber auch unpassierbar gemacht --- und ich hatte mal wieder (wegen der Regenzeit) keine Kamera dabei).
+In den Bergen zwischen meinem kleinen Haus und Nathon hat heute ein Landrutsch die Straße größtenteils unpassierbar gemacht (was der The Nation [eine Meldung][1] wert war. Als vergangene Woche ein Kieslaster quer auf der Straße und sein Inhalt den Berg hinab herum lag, hat das niemanden interessiert, die Straße aber auch unpassierbar gemacht --- und ich hatte mal wieder (wegen der Regenzeit) keine Kamera dabei).
 
 Man denkt, dass nach Donnerstag wieder die richtige 1/5-Eimer-Regenzeit (eine Stunde Regen, 10 Stunden Sonne, 13 Stunden Dunkelheit und Freude) eintreffen wird. Wir werden ja sehen.
 

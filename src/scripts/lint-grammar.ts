@@ -77,7 +77,7 @@ export const IGNORED_TEXTS = ['Kung Fu'];
  * like a file-level `cspell:ignore` comment. HTML comments are markup, so the
  * comment itself is never checked.
  */
-const LOCAL_IGNORE = /<!--\s*grammar-ignore\s+([A-Z0-9_]+)\s+(.+?)\s*-->/g;
+const LOCAL_IGNORE = /<!--\s*grammar-ignore\s+([A-Z0-9_-]+)\s+(.+?)\s*-->/g;
 
 export function localIgnores(source: string): Set<string> {
   return new Set(

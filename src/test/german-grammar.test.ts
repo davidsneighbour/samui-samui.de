@@ -100,6 +100,13 @@ describe('German grammar match filtering', () => {
         'Ich bastel was.',
       ),
     ).toBe(true);
+    // Some rule IDs contain a hyphen.
+    expect(
+      isRelevantMatch(
+        match(9, 15, 'KLEINE_-CHEN'),
+        'Ein paar kleine Lämpchen.\n<!-- grammar-ignore KLEINE_-CHEN kleine Lämpchen -->',
+      ),
+    ).toBe(false);
   });
 
   it('keeps old-spelling matches only for pre-reform ß', () => {
