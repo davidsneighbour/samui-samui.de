@@ -16,8 +16,10 @@ Das hat dann auch mich etwas verwundert. Gegen Mitternacht heute war plötzlich 
 
 Ich war am Morgen aus purer Langeweile dann mit der Allwetterjacke am Strand und habe ein paar Filmchen gedreht. Montur, Wetter und Wellen erinnerten mich an Lübeck.
 
-Der Khlong vor dem Haus ist brechend voll. In Bestzeiten ist das Wasser rund 10cm pro 30 Minuten gestiegen. Nun hat die Macht der Fluten den Müll den die werten Nachbarn in den Graben warfen endlich durch das Nadelöhr an der Stra?e gezwängt und das Wasser kann frei abflie?en. Was nicht heisst, dass es weniger wird, es steigt nur langsamer.
+Der Khlong vor dem Haus ist brechend voll. In Bestzeiten ist das Wasser rund 10 cm pro 30 Minuten gestiegen. Nun hat die Macht der Fluten den Müll, den die werten Nachbarn in den Graben warfen, endlich durch das Nadelöhr an der Straße gezwängt und das Wasser kann frei abfließen. Was nicht heisst, dass es weniger wird, es steigt nur langsamer.
 
 Im Süden Thailands stehen Songkhla und Hat Yai unter Wasser. Interessanterweise waren die Behörden völlig unvorbereitet. Man lernt hier nie dazu.
 
 Ich hoffe mal, dass der Strom nicht gerade abends wieder ausfällt. Im Dunkeln sitzen ist relativ langweilig.
+
+<!-- grammar-ignore DE_CASE Hat -->

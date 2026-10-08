@@ -10,8 +10,8 @@ publisher:
   seo: true
   covermigration: true
 ---
-Heute ist ein gro?artiger Tag für mich, denn ich habe nach fünfundeinhalb Jahren in Thailand festgestellt, dass die Zweierpackung Chang-Beer (zwei Flaschen und eine nette Pappumhüllung mit glücklichen Menschen) einen praktischen Aufrei?verschluss auf der Rückseite hat.
+Heute ist ein großartiger Tag für mich, denn ich habe nach fünfundeinhalb Jahren in Thailand festgestellt, dass die Zweierpackung Chang-Beer (zwei Flaschen und eine nette Pappumhüllung mit glücklichen Menschen) einen praktischen Aufreißverschluss auf der Rückseite hat.
 
-Ich habe tatsächlich die vergangenen Jahre damit verbracht, irgendwie mit zittrigen Fingern um die Flaschenhälse herum die Pappe auf- und abzurei?en. Das ging hin und wieder mit Schnittwunden einher. Was man nicht alles für das abendliche Bier tut.
+Ich habe tatsächlich die vergangenen Jahre damit verbracht, irgendwie mit zittrigen Fingern um die Flaschenhälse herum die Pappe auf- und abzureißen. Das ging hin und wieder mit Schnittwunden einher. Was man nicht alles für das abendliche Bier tut.
 
-Hab mir gleich noch einen Zweierpack zur Verifizierung geholt...
+Hab mir gleich noch einen Zweierpack zur Verifizierung geholt …

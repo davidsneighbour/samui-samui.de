@@ -1,7 +1,9 @@
 Abhisit
 Adulyadej
+angetuckelt
 ankucken
 Asalha
+Aufreißverschluss
 Bhumibol
 Boonyaratglin
 Boonyaratkalin
@@ -15,9 +17,12 @@ Chiang
 Chuang
 Donsak
 DTAC
+eingeschäumt
 Farang
 Farangs
 flickr
+fünfundeinhalb
+Gameshows
 gehts
 gibts
 gings
@@ -28,6 +33,7 @@ Jetpack
 Jetpacks
 Khanong
 Khaosod
+Khlong
 Khong
 Khun
 Kollitsch
@@ -68,7 +74,11 @@ Pokki
 Pokkis
 Prayuth
 Rachegeist
+Ratsch
 Rayong
+Ringroad
+Ritsch
+rumgespielt
 Samak
 Samaks
 Samui
@@ -83,10 +93,12 @@ solls
 Somchai
 Somkid
 Sondhi
+Songkhla
 Sonthi
 Soosi
 Soosie
 Soosies
+strombasiert
 Suan
 Surakiart
 Surayud
@@ -97,6 +109,7 @@ Taling
 Tesko
 Textpattern
 Thaibaht
+Thaibegleitung
 Thaifrau
 Thaifrauen
 Thaksin
@@ -105,6 +118,7 @@ Thammarat
 Thanathorn
 Thani
 Thanon
+Thoot
 Tinsulanonda
 Vajiralongkorn
 Vejjajiva

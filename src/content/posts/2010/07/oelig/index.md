@@ -10,14 +10,16 @@ publisher:
   seo: true
   covermigration: true
 ---
-Wer was auf sich hält geht heute nach Nathon, unserer kleinen Inselhauptstadt, und demonstriert lautstark (Demokratie funktioniert in Thailand nur laut und bombastisch) gegen die geplante ?lplattform hier im Golf von Thailand.
+Wer was auf sich hält, geht heute nach Nathon, unserer kleinen Inselhauptstadt, und demonstriert lautstark (Demokratie funktioniert in Thailand nur laut und bombastisch) gegen die geplante Ölplattform hier im Golf von Thailand.
 
-Seit einigen Jahren schon plant man, ?l zu fördern und wie das so ist mit auslaufenden Ressourcen – es gibt Gegner. Damals waren die Gegner noch Gegner, weil man (entgegen der etablierten Dritte-Welt-Regel beim Raubbau an der Natur jedem Anwohner eine Glasperle zu schenken) niemanden an den Gewinnen beteiligen will.
+Seit einigen Jahren schon plant man, Öl zu fördern und wie das so ist mit auslaufenden Ressourcen – es gibt Gegner. Damals waren die Gegner noch Gegner, weil man (entgegen der etablierten Dritte-Welt-Regel beim Raubbau an der Natur jedem Anwohner eine Glasperle zu schenken) niemanden an den Gewinnen beteiligen will.
 
 Heute nun hat man ja glücklicherweise die aktuellen Ereignisse im Golf von Mexiko – das kann nicht gut für den Tourismus sein.
 
 Und so demonstriert man. Lautstark. Mit Fernsehkameras an jeder Ecke.
 
-Was dann dazu führte, dass ich morgens um Neun einen Anruf bekam, ich solle doch mal nach Nathon fahren und vor den Kameras ein bisschen "overacting“ veranstalten, damit man heute Abend ein Gesprächsthema habe.
+Was dann dazu führte, dass ich morgens um neun einen Anruf bekam, ich solle doch mal nach Nathon fahren und vor den Kameras ein bisschen "overacting" veranstalten, damit man heute Abend ein Gesprächsthema habe.
 
 Ich bastel mir jetzt ein Plakat mit einem ölverschmierten Pandabär. Das zieht immer.
+
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E bastel -->
