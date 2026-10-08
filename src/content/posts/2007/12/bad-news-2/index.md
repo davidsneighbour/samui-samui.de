@@ -9,6 +9,6 @@ publisher:
   seo: true
   covermigration: true
 ---
-Schlechte Neuigkeiten für meine Heavy-Metal-Freunde: Vorhin ist mir mein Kurzhaarschneider wieder in die Hände gefallen. Irgendwie ist das ein ziemlich glänzendes Teil. Und mit Strom betrieben und dem richtigen Aufsatz lassen sich alle (in Buchstaben AH-<span class="caps">ELL</span>---<span class="caps">ELL</span>-EH) Haare auf 3mm trimmen.
+Schlechte Neuigkeiten für meine Heavy-Metal-Freunde: Vorhin ist mir mein Kurzhaarschneider wieder in die Hände gefallen. Irgendwie ist das ein ziemlich glänzendes Teil. Und mit Strom betrieben und dem richtigen Aufsatz lassen sich alle (in Buchstaben AH-<span class="caps">ELL</span>---<span class="caps">ELL</span>-EH) Haare auf 3 mm trimmen.
 
-Bin am ?berlegen, ob ich morgen das Teil mal ohne Aufsatz probiere... 1mm pro Woche? Im Mai sollten das dann wieder so 2cm sein.
+Bin am Überlegen, ob ich morgen das Teil mal ohne Aufsatz probiere … 1 mm pro Woche? Im Mai sollten das dann wieder so 2 cm sein.
