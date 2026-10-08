@@ -2,6 +2,7 @@
 import Analytics from '@components/features/analytics/Analytics.astro';
 import WeatherWidget from '@components/features/weather/WeatherWidget.astro';
 import Tooltip from '@components/ui/tooltip.astro';
+import { SOCIAL_NETWORKS } from '@config/social';
 import { Copyright, Landmark, Scale, Volume2, VolumeX } from '@lucide/astro';
 import { Icon } from 'astro-icon/components';
 
@@ -23,28 +24,9 @@ const today = new Date();
     aria-label="Soziale Netzwerke"
     class="mb-4 flex items-center justify-center gap-2"
   >
-    {[
-      {
-        href: 'https://mastodon.social/@samuisamui',
-        icon: 'simple-icons:mastodon',
-        name: 'Mastodon',
-        tooltip: 'Folge mir auf Mastodon',
-      },
-      {
-        href: 'https://bsky.app/profile/samui-samui.de',
-        icon: 'simple-icons:bluesky',
-        name: 'Bluesky',
-        tooltip: 'Folge mir auf Bluesky',
-      },
-      {
-        href: 'https://www.reddit.com/r/samuisamui/',
-        icon: 'simple-icons:reddit',
-        name: 'Reddit',
-        tooltip: 'Tausch dich auf Reddit aus',
-      },
-    ].map(({ name, icon, href, tooltip }) => (
+    {SOCIAL_NETWORKS.map(({ id, icon, href, tooltip }) => (
       <Tooltip
-        id={`footer-social-${name.toLowerCase()}`}
+        id={`footer-social-${id}`}
         content={tooltip}
         triggerClass="before:pointer-events-none"
         interactive
@@ -56,7 +38,7 @@ const today = new Date();
           target="_blank"
           rel="me noopener noreferrer"
           aria-label={`${tooltip} (öffnet in neuem Tab)`}
-          aria-describedby={`footer-social-${name.toLowerCase()}`}
+          aria-describedby={`footer-social-${id}`}
           class="inline-flex size-11 items-center justify-center rounded-(--radius) text-foreground hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
         >
           <Icon name={icon} class="size-5" aria-hidden="true" />
