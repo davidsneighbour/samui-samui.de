@@ -11,8 +11,11 @@ publisher:
   seo: true
   covermigration: true
 ---
-Ich fass es nicht. Auf UBC (ach nein, wir hei?en True visions now) kommt "Goodbye Lenin". Auf Deutsch. Gewohnt bin ich auf dem Moviekanal nur Japanisch, Englisch, Französisch und Spanisch. Das ist das erste Mal, dass ein deutscher Film kommt (den ich dazu auch noch nicht mal gesehen habe).
+Ich fass es nicht. Auf UBC (ach nein, wir heißen True visions now) kommt "Goodbye Lenin". Auf Deutsch. Gewohnt bin ich auf dem Moviekanal nur Japanisch, Englisch, Französisch und Spanisch. Das ist das erste Mal, dass ein deutscher Film kommt (den ich dazu auch noch nicht mal gesehen habe).
 
 Gleich mal kucken.
 
-Nichtsdestostrotz sprechen die so ein komisches überdeutliches Deutsch mit allen Wortendungen und so bemühten Dialekten. Ich glaub ich schalt auf die Thaisynchronisation um.
+Nichtsdestotrotz sprechen die so ein komisches überdeutliches Deutsch mit allen Wortendungen und so bemühten Dialekten. Ich glaub, ich schalt auf die Thaisynchronisation um.
+
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E fass -->
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E glaub -->

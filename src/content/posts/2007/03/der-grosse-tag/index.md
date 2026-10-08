@@ -1,5 +1,5 @@
 ---
-title: Der gro?e Tag
+title: Der große Tag
 date: 2007-03-01T05:32:56+07:00
 publisher:
   description: true
@@ -23,4 +23,9 @@ Ich warte also gespannt.
 
 [Update 16:35] Jetzt sind es drei Monteure und der Pickup ist um einen Meter nach vorne gefahren.
 
-[Update 16:55] Ich sitze im Internetcaffee... Alles klar. Sie haben nicht genug Kabel. Anscheinend wissen Sie auch erst seit eben, wohin sie Kabel legen sollen. Ich lächelte und fuhr von dannen.
+[Update 16:55] Ich sitze im Internetcafé … Alles klar. Sie haben nicht genug Kabel. Anscheinend wissen Sie auch erst seit eben, wohin sie Kabel legen sollen. Ich lächelte und fuhr von dannen.
+
+<!-- cspell:ignore Internetz -->
+<!-- grammar-ignore DE_AGREEMENT das abgeschälte Baumstämme -->
+<!-- grammar-ignore DASSELBE_DAS_GLEICHE gleichen -->
+<!-- grammar-ignore ALLE Alles -->

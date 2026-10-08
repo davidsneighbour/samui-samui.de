@@ -1,5 +1,5 @@
 ---
-title: ?sterreich
+title: Österreich
 date: 2007-03-15T04:43:37+07:00
 publisher:
   description: true
@@ -52,3 +52,7 @@ Telefon: 0512-580461
 Fax: 0512-577250
 
  [1]: http://www.thaiconsulate-salzburg.at/
+
+<!-- grammar-ignore DE_CASE Thailändische -->
+<!-- grammar-ignore DE_CASE Thailändisches -->
+<!-- grammar-ignore EMAIL Email -->
