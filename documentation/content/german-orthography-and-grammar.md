@@ -133,6 +133,8 @@ LanguageTool is the grammar layer only. Rules that conflict with the other layer
 
 These rule IDs were found by running LanguageTool 6.8 on sample sentences in the house style, not guessed. To disable another rule after reviewing its findings across the archive, add its ID to `DISABLED_RULES` in `src/scripts/lint-grammar.ts` and record the reason in the table above. Typography rules (`AUSLASSUNGSPUNKTE_LEERZEICHEN`, `EINHEIT_LEERZEICHEN`) are currently kept, because they give valid German typography advice.
 
+When fixing `AUSLASSUNGSPUNKTE_LEERZEICHEN`, use LanguageTool's own suggestion: a no-break space (U+00A0) followed by the ellipsis character (`…`, U+2026), for example `und und und …`. The no-break space keeps the ellipsis on the same line as the word before it. Typography shortcuts such as `---` are expanded at build time, but `...` is not, so the ellipsis is written as the real character.
+
 LanguageTool also has limits. For example, it did not report the agreement error in "Der Mann gehen nach Hause". A clean result does not prove that a text is grammatical.
 
 ## Regression tests

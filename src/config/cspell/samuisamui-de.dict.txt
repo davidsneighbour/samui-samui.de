@@ -24,6 +24,9 @@ gings
 giscus
 habs
 Isaan
+Jetpack
+Jetpacks
+Khanong
 Khaosod
 Khong
 Khun
@@ -64,6 +67,7 @@ Pojaman
 Pokki
 Pokkis
 Prayuth
+Rachegeist
 Rayong
 Samak
 Samaks
@@ -92,6 +96,7 @@ Suvarnabhumi
 Taling
 Tesko
 Textpattern
+Thaibaht
 Thaifrau
 Thaifrauen
 Thaksin
