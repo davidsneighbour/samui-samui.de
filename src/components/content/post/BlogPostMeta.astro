@@ -37,9 +37,9 @@ const updatedDateLabel = updatedDate
     )}
   >
     {hasDates && (
-      <div class="flex flex-wrap items-center gap-x-2 gap-y-1 leading-none">
+      <div class="flex flex-wrap items-center gap-x-2 gap-y-1 leading-none sm:shrink-0">
         {date && (
-          <span class="inline-flex items-center gap-2 leading-none [&_svg]:block [&_time]:leading-none">
+          <span class="inline-flex items-center gap-2 whitespace-nowrap leading-none [&_svg]:block [&_time]:leading-none">
             <CalendarDays class="size-4 shrink-0" aria-hidden="true" />
             <FormattedDate
               date={date}

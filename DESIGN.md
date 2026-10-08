@@ -306,8 +306,8 @@ The live site uses Tailwind's default size steps plus one arbitrary step for pos
 
 | Token | Size | Tailwind | Used for |
 | --- | --- | --- | --- |
-| `label-xs` | 12px | `text-xs` | Tag badges (uppercase), figure captions, post-navigation labels, archive group labels, life-stat figures, month-dot tooltip. The smallest size on the site. |
-| `body-sm` / `nav-link` | 14px | `text-sm` | Navigation, metadata, dates, breadcrumbs, footnotes, form help text. The most common UI size. |
+| `label-xs` | 12px | `text-xs` | Figure captions, post-navigation labels, archive group labels, life-stat figures, month-dot tooltip. The smallest size on the site. |
+| `body-sm` / `nav-link` | 14px | `text-sm` | Tag badges (uppercase), navigation, metadata, dates, breadcrumbs, footnotes, form help text. The most common UI size. |
 | `body-md` | 16px | `text-base` | Body copy and prose. |
 | `heading-sm` | 18px | `text-lg` | Section headings on archive and index pages. |
 | `heading-md` | 20px | `text-xl` | Life-timeline description title from `sm` up. |
@@ -317,7 +317,7 @@ The live site uses Tailwind's default size steps plus one arbitrary step for pos
 | `heading-2xl` | 36px | `text-4xl` | Page titles and default post title from `md`. |
 | `brand-masthead` | 40px | — | Masthead reference size (the live masthead is outlined SVG). |
 
-12px is acceptable for short labels but not for running text. Uppercase 12px tag badges are the least legible text on the site; do not use 12px for sentences.
+12px is acceptable for short labels but not for running text; do not use it for sentences. Badges are 14px with a 24px minimum height (`min-h-6`) so their uppercase labels stay legible and each badge link meets the 24px target size (WCAG 2.5.8) without relying on the spacing exception.
 
 Font family is **Panton** everywhere (`--font-sans`), self-hosted as
 woff2/woff under `public/assets/webfonts/`, loaded via `@font-face` in
@@ -455,8 +455,9 @@ Generated Markdown footnotes use a separate "Fußnoten" section with 32px of spa
   component for compact labels and tag links. Tags use the `muted`
   variant, matching the author-bio surface color so the badges stay quieter
   on the cream card surface, with uppercase labels supplied by
-  `TagBadges.astro`; `outline`, `ghost`, and `link` variants reuse
-  existing `border`, `accent`, and `link` tokens.
+  `ThemaBadges.astro`; `outline`, `ghost`, and `link` variants reuse
+  existing `border`, `accent`, and `link` tokens. All variants use 14px
+  text with a 24px minimum height (`min-h-6`).
 * **Tooltip** (`src/components/ui/tooltip.astro`) — reusable hover/focus
   disclosure for compact help text. Tooltip content is fixed-positioned so it
   is not clipped by card overflow, opens below the trigger, centers to the
@@ -477,7 +478,8 @@ Generated Markdown footnotes use a separate "Fußnoten" section with 32px of spa
   line is a centered flex row so both icons and date text share the same visual
   middle. The row stacks left-aligned date and tags on small screens, then
   places dates on the left and tag badges on the right from the `sm` breakpoint
-  upward.
+  upward. The date never wraps; when space is short, the badges wrap onto
+  further right-aligned lines instead.
 * **Card** — not a dedicated component file; the pattern (`bg-card`,
   `text-card-foreground`, `rounded-(--radius)`, `px-4 py-8 sm:px-8`) is
   repeated inline in `BlogList.astro`, `PageLayout.astro`, and
