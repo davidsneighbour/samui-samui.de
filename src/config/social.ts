@@ -29,6 +29,13 @@ export const SOCIAL_NETWORKS = [
     name: 'Reddit',
     tooltip: 'Tausch dich auf Reddit aus',
   },
+  {
+    href: 'https://www.threads.com/@samuisamui_de',
+    icon: 'simple-icons:threads',
+    id: 'threads',
+    name: 'Threads',
+    tooltip: 'Folge mir auf Threads',
+  },
 ] as const satisfies readonly SocialNetwork[];
 
 export type SocialNetworkId = (typeof SOCIAL_NETWORKS)[number]['id'];
