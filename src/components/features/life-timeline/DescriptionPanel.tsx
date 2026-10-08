@@ -32,9 +32,7 @@ export function DescriptionPanel({
           />
         )}
         <div className="min-w-0 flex-1">
-          {title && (
-            <h2 className="m-0 text-lg sm:text-xl">{title}</h2>
-          )}
+          {title && <h2 className="m-0 text-lg sm:text-xl">{title}</h2>}
           {description && (
             <p className="mt-1.5 text-sm leading-relaxed text-card-foreground/90">
               {description}
