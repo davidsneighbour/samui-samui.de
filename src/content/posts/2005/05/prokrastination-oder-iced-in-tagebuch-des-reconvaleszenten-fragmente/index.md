@@ -10,7 +10,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Moag. Ich nahm mir kurzentschlossen aus verschiedenen Gründen drei Werktage frei. Eigentlich wollte ich hier einen langen inneren Monolog zu den gro?en Themen des Alltags bringen. Der bzw. das hat mich aber derartig gelangweilt, dass ich ihn auf einige kurze Ausschnitte gekürzt habe.
+Moag. Ich nahm mir kurzentschlossen aus verschiedenen Gründen drei Werktage frei. Eigentlich wollte ich hier einen langen inneren Monolog zu den großen Themen des Alltags bringen. Der bzw. das hat mich aber derartig gelangweilt, dass ich ihn auf einige kurze Ausschnitte gekürzt habe.
 
 Ausschnitt 1: Farbspiele
 
@@ -18,23 +18,23 @@ Ausschnitt 1: Farbspiele
 
 > **das Ich**: Mir ist laaaaangwaaaailig!
 
-> **das ?ber-Ich**: Sammel doch alle Grün-Farbtöne, die du kennst. Angeblich sollen Frauen ja mehr Grüntöne kennen als Männer.
+> **das über-Ich**: Sammel doch alle Grün-Farbtöne, die du kennst. Angeblich sollen Frauen ja mehr Grüntöne kennen als Männer.
 
 > **das Ich**: Stimmt. Hmm. Hellgrün. Dunkelgrün. Jadegrün. Dingsbumsgrün.
 
-> **das ?ber-Ich**: Dingsbumsgrün?
+> **das über-Ich**: Dingsbumsgrün?
 
 > **das Ich**: Ja. Hatten wir früher immer im Bad. So komisches Dingsbumsgrün. Hmm. Lindgrün? Ich glaub es war Lindgrün. Muss ich jetzt eigentlich jede abstrakte Assoziation vor dir rechtfertigen?
 
-> **?ber-Ich**: Ja.
+> **über-Ich**: Ja.
 
 > **das Ich**: Dann sag ich keine Grüntöne mehr an.
 
-> **das ?ber-Ich**: Gott bist du dünnhäutig!
+> **das über-Ich**: Gott bist du dünnhäutig!
 
 > **das Ich**: Da fehlt ein Komma hinter dem Gott!
 
-> **das ?ber-Ich**: Quatsch! Ich meinte...
+> **das über-Ich**: Quatsch! Ich meinte...
 
 > **das Ich**: Klappe.
 
@@ -42,11 +42,11 @@ Ausschnitt 1: Farbspiele
 
 > **das Ich**: Patina.
 
-> **das ?ber-Ich**: Was?
+> **das über-Ich**: Was?
 
 > **das Ich**: Patina. Wenn Kupfer oxydiert wird es grün und das nennt man (hoffentlich) Patina. Das ist ein Grünton.
 
-> **das ?ber-Ich**: Das zählt nicht, du wolltest keine Grüntöne mehr ansagen.
+> **das über-Ich**: Das zählt nicht, du wolltest keine Grüntöne mehr ansagen.
 
 > **das Ich**: Klappe.
 
@@ -62,33 +62,33 @@ Ausschnitt 2: Schrank aufräumen
 
 > Es ist 14 Uhr. Verwundert über eine derart lange Aufenthaltsdauer im Schlafgemach beginnt das Ich den Schrank aus und wieder einzuräumen und der Himmel zu regnen (eine Story für sich).
 
-> **das ?ber-Ich**: Ja super, was soll das nun wieder?
+> **das über-Ich**: Ja super, was soll das nun wieder?
 
-> **das Ich**: Hier muss mal Ordnung rein. Man wei? ja gar nicht mehr, was alles in diesem Schrank versteckt ist, so chaotisch wie das alles zusammengestopft ist.
+> **das Ich**: Hier muss mal Ordnung rein. Man weiß ja gar nicht mehr, was alles in diesem Schrank versteckt ist, so chaotisch wie das alles zusammengestopft ist.
 
-> **das ?ber-Ich**: Weichei.
+> **das über-Ich**: Weichei.
 
 > **das Ich**: Schnauze.
 
-> **das ?ber-Ich**: Weichei.
+> **das über-Ich**: Weichei.
 
 > **das Ich**: Lieber weiche Eier als gar keine. (innerlich: Strike!! (Lautschrift: Stöööraiikk!!)
 
 > Betretene Stille. Das Ich räumt den Schrank auf.
 
-> **das ?ber-Ich**: Du. Das war aber jetzt verletzend!
+> **das über-Ich**: Du. Das war aber jetzt verletzend!
 
 > **das Ich**: Ach ne? Echt. Hätte ich das gewusst, ich hätte es nicht gesagt.
 
-> **das ?ber-Ich**: Wirklich?
+> **das über-Ich**: Wirklich?
 
 > **das Ich**: Nein.
 
-> **das ?ber-Ich**: Nein im Sinne von du hättest es nicht gesagt oder Nein im Sinne von du hast das gar nicht so gemeint.
+> **das über-Ich**: Nein im Sinne von du hättest es nicht gesagt oder Nein im Sinne von du hast das gar nicht so gemeint.
 
 > **das Ich**: Ja.
 
-> **das ?ber-Ich**: ähm, ...
+> **das über-Ich**: ähm, ...
 
 > **das Ich**: Klappe.
 
@@ -96,21 +96,21 @@ Ausschnitt 3: Traumschaum
 
 > Es klingelt. Ich stehe auf, gehe an die Tür. Vor der Tür steht der Gerichtsvollzieher und begrüsst mich freundlich.
 
-> **das ?ber-Ich**: Du wolltest doch die Türe nicht mehr aufmachen, wenn es klingelt.
+> **das über-Ich**: Du wolltest doch die Türe nicht mehr aufmachen, wenn es klingelt.
 
 > **das Ich**: Stimmt. Vergessen. Mist.
 
-> Die Vögel umkreisen den Gerichtsvollzieher der sich bückt und mit seinen grünen Fingern an deren Enden Noppen seinen Halt an der Wand gewährleisten aus seiner Aktentasche ein Räucherst&aumlbchen hervorzieht, es anzündet und in unseren Hausaltar steckt.
+> Die Vögel umkreisen den Gerichtsvollzieher der sich bückt und mit seinen grünen Fingern an deren Enden Noppen seinen Halt an der Wand gewährleisten aus seiner Aktentasche ein Räucherstäbchen hervorzieht, es anzündet und in unseren Hausaltar steckt.
 
-> **das ?ber-Ich**: ?hm. Moment. Wir haben doch gar keinen Hausaltar.
+> **das über-Ich**: Ähm. Moment. Wir haben doch gar keinen Hausaltar.
 
 > **das Ich**: Stimmt. Seltsam.
 
-> **das ?ber-Ich**: Ein Traum.
+> **das über-Ich**: Ein Traum.
 
 > **das Ich**: Ah!! Das würde einiges erklären.
 
-> **das ?ber-Ich**: Ja.
+> **das über-Ich**: Ja.
 
 > **das Ich**: Ja.
 
@@ -120,8 +120,11 @@ Ausschnitt 4: KungFu
 
 > Er bringt seine Wäsche zur Wäscherei, kauft Milch und (Trink)Joghurt und sieht sich 'Kung Fu Hustle' zum vermutlich zehnten Mal an.
 
-> **das ?ber-Ich**: Ich versteh wirklich nicht, warum du dir diesen Film ständig ansiehst. Du verstehst kein Chinesisch und KungFu-Filme magst du schon gar nicht.
+> **das über-Ich**: Ich versteh wirklich nicht, warum du dir diesen Film ständig ansiehst. Du verstehst kein Chinesisch und KungFu-Filme magst du schon gar nicht.
 
 > **das Ich**: Moschi moschi!
 
 So ging das die ganze Zeit weiter. Nach den drei freien Tagen kam ein Wochenende. Nichts wirklich Interessantes. Wir haben also nichts verpasst und gehen weiter im Protokoll.
+
+<!-- cspell:ignore Reconvaleszenten Moag laaaaangwaaaailig Dingsbumsgrün Stöööraiikk Moschi moschi -->
+<!-- cspell:ignore Räucherstäbchen -->
