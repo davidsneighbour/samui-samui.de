@@ -1,5 +1,87 @@
 # Changelog
 
+## [2.19.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.18.0...v2.19.0) (2026-10-08)
+
+### Content
+
+* **fix:** restore broken ß in 2006 posts ([4a0fa77](https://github.com/davidsneighbour/samui-samui.de/commit/4a0fa77507b1b29cc6006591d226b4bc413d1189)), references [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706) [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in 2008 posts ([e2def57](https://github.com/davidsneighbour/samui-samui.de/commit/e2def570b973b0761bf07a13f313d999b65d40af)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in 2009 posts ([d7fb45a](https://github.com/davidsneighbour/samui-samui.de/commit/d7fb45aa04e8f438d8636f3ad5ad2318d2e512f6)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in 2010 posts ([d5824f7](https://github.com/davidsneighbour/samui-samui.de/commit/d5824f71306cf4f19d8e2e105f22b02d77eb9117)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in 2011 posts ([79441c2](https://github.com/davidsneighbour/samui-samui.de/commit/79441c227072994ec3a3f79a46dfd11ae5fa07df)), references [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706) [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in 2012 posts ([d8e52de](https://github.com/davidsneighbour/samui-samui.de/commit/d8e52dea0d898a03e3a4b5e1dd3bb0299f2d9128)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in April 2005 posts ([4b409e6](https://github.com/davidsneighbour/samui-samui.de/commit/4b409e63b1675b3c6c3db17ba5b48969b904b2ad)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in April to June 2007 posts ([6950bef](https://github.com/davidsneighbour/samui-samui.de/commit/6950befb97844bf03c1e2f49b2f3e205ec11a93d)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in August 2005 posts ([692cce1](https://github.com/davidsneighbour/samui-samui.de/commit/692cce120c80fef457273b21825c7729eede7589)), references [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706) [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in January and February 2005 posts ([fde44be](https://github.com/davidsneighbour/samui-samui.de/commit/fde44be7e75f74990e2b948e0ed52d3afa5cbdd6)), references [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706) [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in January to March 2007 posts ([cb42dad](https://github.com/davidsneighbour/samui-samui.de/commit/cb42dad404c748397d78ce647755520265e2c625)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in July to October 2007 posts ([1bc12b9](https://github.com/davidsneighbour/samui-samui.de/commit/1bc12b95835e761826b85a79b48c1a7e3cda97c1)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in June and July 2005 posts ([4657468](https://github.com/davidsneighbour/samui-samui.de/commit/4657468f4c46ffdc1a9a5bf8b847214a43cca4eb)), references [#215](https://github.com/davidsneighbour/samui-samui.de/issues/215) [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in March 2005 posts ([030ecf0](https://github.com/davidsneighbour/samui-samui.de/commit/030ecf077a2e3fa5c7fca71c3840283952d1e98e)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in May 2005 posts ([d4ba9d4](https://github.com/davidsneighbour/samui-samui.de/commit/d4ba9d40acab811f4793bf8ee6714e5ff385c0e5)), references [#8216](https://github.com/davidsneighbour/samui-samui.de/issues/8216) [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in November and December 2005 posts ([b2e008a](https://github.com/davidsneighbour/samui-samui.de/commit/b2e008a16bc17a1df083d52f49d422ae406e4e86)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in November and December 2007 posts ([3304b77](https://github.com/davidsneighbour/samui-samui.de/commit/3304b7704a4c84968de806bc15d6c0b76f22db23)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore broken ß in September and October 2005 posts ([2885923](https://github.com/davidsneighbour/samui-samui.de/commit/288592358eb12f64aea14b3cc25c97703f4b342d)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** restore the Lost in Thailand trailer as a YouTube cover ([11bb354](https://github.com/davidsneighbour/samui-samui.de/commit/11bb354098cddb7245d04898f7ca4d9421944e27)), references [#1778](https://github.com/davidsneighbour/samui-samui.de/issues/1778)
+* social media header image ([946c806](https://github.com/davidsneighbour/samui-samui.de/commit/946c806eafd8cf923227fb200523880a9315fc42))
+* **social:** record Threads introduction ([71874d9](https://github.com/davidsneighbour/samui-samui.de/commit/71874d9a5f340e4b4f2d58a164aca6430f33ae28)), closes [#1765](https://github.com/davidsneighbour/samui-samui.de/issues/1765)
+
+### Feat
+
+* **a11y:** use a two-tone focus indicator everywhere ([d5ce3b3](https://github.com/davidsneighbour/samui-samui.de/commit/d5ce3b32643f92a02a79913b33eda20433ccad7e)), references [#1777](https://github.com/davidsneighbour/samui-samui.de/issues/1777)
+* **contact:** ease the form status message in ([edd5c22](https://github.com/davidsneighbour/samui-samui.de/commit/edd5c2280e323c75ab408df78af552310c0b85f0)), references [#1775](https://github.com/davidsneighbour/samui-samui.de/issues/1775)
+* **contact:** show a busy spinner while the form sends ([1368ec8](https://github.com/davidsneighbour/samui-samui.de/commit/1368ec8e54303ee1c65c9222807986d4e4ce2206)), references [#1775](https://github.com/davidsneighbour/samui-samui.de/issues/1775)
+* **grammar:** allow per-post exceptions for intentional informal style ([f12367a](https://github.com/davidsneighbour/samui-samui.de/commit/f12367a5c4a2020e82def0124171075579b73d8e)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **linting:** add German orthography and grammar checks for content ([aa8e819](https://github.com/davidsneighbour/samui-samui.de/commit/aa8e8199d27ba795cf56e07de7b0fb3c17f4b615)), closes [#1773](https://github.com/davidsneighbour/samui-samui.de/issues/1773), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **linting:** enforce German language checks on staged content ([9ebc923](https://github.com/davidsneighbour/samui-samui.de/commit/9ebc9236f264387d33bcd8f56215193bcd575dd9)), references [#1773](https://github.com/davidsneighbour/samui-samui.de/issues/1773) [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **maps:** grow map popups out of their marker ([3ee5af4](https://github.com/davidsneighbour/samui-samui.de/commit/3ee5af403921ad3c11f5ca2a82e207a039c3541d)), closes [#1775](https://github.com/davidsneighbour/samui-samui.de/issues/1775)
+* **navigation:** keep the bar sticky until the footer appears ([4cf5b4e](https://github.com/davidsneighbour/samui-samui.de/commit/4cf5b4e617ebed614069921d9115f3b74f16fef1)), closes [#1772](https://github.com/davidsneighbour/samui-samui.de/issues/1772)
+* **pagination:** add press feedback to pagination controls ([bedff00](https://github.com/davidsneighbour/samui-samui.de/commit/bedff008d1d03b2723dc8bf22e3f1b7e279611e7)), references [#1775](https://github.com/davidsneighbour/samui-samui.de/issues/1775)
+* **prose:** let embedded media use the full card width ([b3c3d7e](https://github.com/davidsneighbour/samui-samui.de/commit/b3c3d7ecf4229dc4eb81e57c3ee51d1630920ffa)), references [#1777](https://github.com/davidsneighbour/samui-samui.de/issues/1777)
+* **social:** add Facebook and Instagram profiles ([435572d](https://github.com/davidsneighbour/samui-samui.de/commit/435572d1a1a817ede64afee91ac003c9c37cbf1a)), closes [#1769](https://github.com/davidsneighbour/samui-samui.de/issues/1769)
+* **social:** add Threads footer profile ([d0af70d](https://github.com/davidsneighbour/samui-samui.de/commit/d0af70d8bde305adbd776598881910e6442c944e)), closes [#1767](https://github.com/davidsneighbour/samui-samui.de/issues/1767)
+
+### Fix
+
+* **a11y:** enlarge tag badges to 14px with a 24px minimum height ([2e85b0d](https://github.com/davidsneighbour/samui-samui.de/commit/2e85b0dada66f8ccaff0e07657736982d4c20108)), references [#1777](https://github.com/davidsneighbour/samui-samui.de/issues/1777)
+* **a11y:** name each "Weiterlesen" link after its post ([8d6c909](https://github.com/davidsneighbour/samui-samui.de/commit/8d6c909744d35cdc0c06680b4a7abd5dc76fb0ee)), references [#1776](https://github.com/davidsneighbour/samui-samui.de/issues/1776)
+* **a11y:** stop using dark-mode coral as text on the cream card ([8ad6f21](https://github.com/davidsneighbour/samui-samui.de/commit/8ad6f21fa4afe2d3c4cd0b4717b68563307007a6)), references [#ec7263](https://github.com/davidsneighbour/samui-samui.de/issues/ec7263) [#f1ecd8](https://github.com/davidsneighbour/samui-samui.de/issues/f1ecd8) [#1776](https://github.com/davidsneighbour/samui-samui.de/issues/1776)
+* **a11y:** underline links in prose ([244f3f8](https://github.com/davidsneighbour/samui-samui.de/commit/244f3f8cd430c98b0e64cd7d1c7982255c5401b0)), references [#1776](https://github.com/davidsneighbour/samui-samui.de/issues/1776)
+* **a11y:** use a static focus outline on the search inputs ([28494f2](https://github.com/davidsneighbour/samui-samui.de/commit/28494f2ab701ae9b35212277a9a6a8109b084d5f)), references [#1776](https://github.com/davidsneighbour/samui-samui.de/issues/1776)
+* **brand:** replace untraceable coastline with documented OSM geometry ([d28b877](https://github.com/davidsneighbour/samui-samui.de/commit/d28b877bac40f0eda858fb291ad11f13a27f7ebd)), closes [#1749](https://github.com/davidsneighbour/samui-samui.de/issues/1749)
+* **footer:** centre sound toggle beside copyright ([ec02171](https://github.com/davidsneighbour/samui-samui.de/commit/ec021719286fd3156d562da0be0ac5c99fe36eb6)), closes [#1770](https://github.com/davidsneighbour/samui-samui.de/issues/1770)
+* **grammar:** accept hyphenated rule IDs in per-post exceptions ([c2f668e](https://github.com/davidsneighbour/samui-samui.de/commit/c2f668e2a6e6df5d2a935fc80fd154f55977ec96)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **grammar:** ignore surrounding spaces in per-post exceptions ([597b3e9](https://github.com/davidsneighbour/samui-samui.de/commit/597b3e9e865e9688e788674fe7720c9b43fae4b9)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **iumas:** use one lane palette for both themes ([4444527](https://github.com/davidsneighbour/samui-samui.de/commit/44445277fa93a7926776285160f0f510028303b2)), references [#1776](https://github.com/davidsneighbour/samui-samui.de/issues/1776)
+* **masthead:** expose the site name as HTML link text ([38efdcd](https://github.com/davidsneighbour/samui-samui.de/commit/38efdcd500fa26d74ada36c7ea1f99176b67262c)), closes [#1771](https://github.com/davidsneighbour/samui-samui.de/issues/1771)
+* **readability:** limit hyphenation to long words ([3ce9a70](https://github.com/davidsneighbour/samui-samui.de/commit/3ce9a70bea0e15fb2edc22a37ba6b95ff347d594)), references [#1776](https://github.com/davidsneighbour/samui-samui.de/issues/1776)
+* **readability:** limit post text to a reading column ([330da2b](https://github.com/davidsneighbour/samui-samui.de/commit/330da2b4a1877c6c9d838ab80d6efe7ecc383ce9)), references [#1776](https://github.com/davidsneighbour/samui-samui.de/issues/1776)
+* **readability:** raise the month-dot tooltip to the 12px ramp step ([05a30b4](https://github.com/davidsneighbour/samui-samui.de/commit/05a30b48d98decda76395cb08c1b569c45e9a425)), references [#1776](https://github.com/davidsneighbour/samui-samui.de/issues/1776)
+* **theme:** draw cover card borders above the cover media ([e404d7f](https://github.com/davidsneighbour/samui-samui.de/commit/e404d7f8ba5ba389e68bc36ed44ab2166e50272e)), references [#1779](https://github.com/davidsneighbour/samui-samui.de/issues/1779)
+* **theme:** give light-mode cards a visible edge ([dcf66ec](https://github.com/davidsneighbour/samui-samui.de/commit/dcf66ec8d890b781d8ef83893635c892c05c359b)), references [#fffaf0](https://github.com/davidsneighbour/samui-samui.de/issues/fffaf0) [#f8f3e6](https://github.com/davidsneighbour/samui-samui.de/issues/f8f3e6) [#1776](https://github.com/davidsneighbour/samui-samui.de/issues/1776)
+* **theme:** header width restricted to 1200px ([b5fcd0f](https://github.com/davidsneighbour/samui-samui.de/commit/b5fcd0f6736507649410f1963f5bed7df9cc2bc9))
+* **theme:** map prose text colours to the warm card tokens ([eb8dfb9](https://github.com/davidsneighbour/samui-samui.de/commit/eb8dfb9d0474f9d5beb68d2c34d9037be89a6715)), references [#1776](https://github.com/davidsneighbour/samui-samui.de/issues/1776)
+* **typography:** drop dead heading weight utilities, document 700 ([6db17e8](https://github.com/davidsneighbour/samui-samui.de/commit/6db17e8d665c9635265a2f62c2d98ef01cca6852)), references [#1776](https://github.com/davidsneighbour/samui-samui.de/issues/1776)
+
+### Refactor
+
+* **typography:** move the heading weight rule into the base layer ([c67d4f7](https://github.com/davidsneighbour/samui-samui.de/commit/c67d4f7b3c39beb1dace2fb0eed583b8f261f70e)), references [#1777](https://github.com/davidsneighbour/samui-samui.de/issues/1777)
+
+### Docs
+
+* **design:** document the live type scale and shadow usage ([d2d6053](https://github.com/davidsneighbour/samui-samui.de/commit/d2d6053f5961352c454b7c893e70fb849a1dcab0)), references [#1776](https://github.com/davidsneighbour/samui-samui.de/issues/1776)
+* **orthography:** record the state of the broken ß repair ([a92e8ec](https://github.com/davidsneighbour/samui-samui.de/commit/a92e8ec7fb183b6513976aad34c54b44d31c10c2)), references [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780) [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781) [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706) [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **posthaste:** record Threads authorisation ([9f40600](https://github.com/davidsneighbour/samui-samui.de/commit/9f406008ec5f976fd24c732011fb8c5a63eff40a)), closes [#1763](https://github.com/davidsneighbour/samui-samui.de/issues/1763)
+* **social:** define Meta publishing setup ([5733287](https://github.com/davidsneighbour/samui-samui.de/commit/5733287cc4f33487a4249b53c54fe2103668b45f)), references [#1768](https://github.com/davidsneighbour/samui-samui.de/issues/1768)
+
+### Style
+
+* **timeline:** apply Biome formatting to the description title ([b6d66f0](https://github.com/davidsneighbour/samui-samui.de/commit/b6d66f0d30411902eac6dedf90c5aa0303c0abe2)), references [#1776](https://github.com/davidsneighbour/samui-samui.de/issues/1776)
+
+### Build
+
+* **fix:** set local host to only 192.169.1.201 ([19a4ee8](https://github.com/davidsneighbour/samui-samui.de/commit/19a4ee8e8070272d3373d37259356c56ada39aa1))
+
 ## [2.18.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.17.0...v2.18.0) (2026-10-08)
 
 ### Content
