@@ -351,8 +351,10 @@ html {
   gap: 0.5rem;
 }
 
-/* Headings render at regular weight per the old site's identity; the brand
-   title in Header.astro opts into --font-weight-900 (Panton Heavy) directly. */
+/* Every heading renders at 700 (Panton extra-bold). This rule is deliberately
+   unlayered: it overrides Tailwind's layered weight utilities on headings, so
+   `font-*` classes on an h1-h6 have no effect. See DESIGN.md "heading". The
+   masthead artwork in Header.astro is outlined SVG and does not use it. */
 h1,
 h2,
 h3,

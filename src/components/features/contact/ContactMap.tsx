@@ -37,7 +37,7 @@ export default function ContactMap({ point }: Props) {
         <div>
           <h2
             id="contact-map-title"
-            className="m-0 text-2xl font-normal text-card-foreground"
+            className="m-0 text-2xl text-card-foreground"
           >
             Karte
           </h2>
