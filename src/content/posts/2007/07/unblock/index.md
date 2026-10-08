@@ -1,5 +1,5 @@
 ---
-title: (Un)?Block
+title: (Un)Block
 date: 2007-07-29T23:12:05+07:00
 publisher:
   description: true

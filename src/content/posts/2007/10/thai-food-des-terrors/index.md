@@ -9,12 +9,14 @@ publisher:
   seo: true
   covermigration: true
 ---
-In London hat ein Thairestaurant neulich eine Anti-Terror-Gro?aktion ausgelöst. Der Grund? Man kochte [eine scharfe So?e][1]:
+In London hat ein Thairestaurant neulich eine Anti-Terror-Großaktion ausgelöst. Der Grund? Man kochte [eine scharfe Soße][1]:
 
 > Baffled chef Chalemchai Tangjariyapoon, who had been cooking a spicy dip, was amazed to find himself at the centre of the terror scare.
 >
 > "We only cook it once a year &#8212; it's a spicy dip with extra hot chillies that are deliberately burned," he said.
 
-Ich frag mich gerade was sie bei getrockneten Tintenfisch oder fermentierter Fischsuppe machen würden.
+Ich frag mich gerade, was sie bei getrocknetem Tintenfisch oder fermentierter Fischsuppe machen würden.
 
  [1]: http://www.schneier.com/blog/archives/2007/10/latest_terroris.html
+
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E frag -->

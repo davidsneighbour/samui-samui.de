@@ -36,7 +36,7 @@ Die fünf Farben versinnbildlichen verschiedene buddhistische Konzepte:
 
   <tr style="vertical-align:middle;background-color:#fff;color:#000;">
     <td>
-      Wei? symbolisiert die Reinheit des Dharma (der Lehre) und vollkommende Befreiung jenseits von Zeit- und Raumgebundenheit. (Purity of Dharma --- it leads to liberation, outside of time or space)
+      Weiß symbolisiert die Reinheit des Dharma (der Lehre) und vollkommene Befreiung jenseits von Zeit- und Raumgebundenheit. (Purity of Dharma --- it leads to liberation, outside of time or space)
     </td>
   </tr>
 

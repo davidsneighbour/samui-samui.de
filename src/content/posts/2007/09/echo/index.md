@@ -9,6 +9,6 @@ publisher:
   seo: true
   covermigration: true
 ---
-Heute vor einem Jahr wurde geputscht. In Bangkok. Geändert hat sich au?er einem verjagten Profigolferpräsidenten, ein paar aufgelösten Parteien und teurerem Benzin nicht viel. Trotzdem geht es voran.
+Heute vor einem Jahr wurde geputscht. In Bangkok. Geändert hat sich außer einem verjagten Profigolferpräsidenten, ein paar aufgelösten Parteien und teurerem Benzin nicht viel. Trotzdem geht es voran.
 
 Wir werden ja sehen.

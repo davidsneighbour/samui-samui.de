@@ -19,6 +19,10 @@ Seit zwei Monaten nun fährt er häufiger am Haus vorbei und beobachtet mich lac
 
 Seit gut sechs Wochen kenne ich ihn dann wenigstens vokal. Seine Stimme und die seiner Freundin/Frau (Thai) schallen gut zweimal die Woche abends durch den Dschungel (sein Haus steht 100 Meter entfernt). Sie unterhalten sich über interessante Themen wie "Fuck _me_??? No! Fuck you!" und "I kill you bitch!". Die Hausherren sprechen inzwischen nicht mehr so häufig über ihren neuen Mieter.
 
-Gestern mittag nun stand seine Freundin vor dem Haus. Mit Baby. Und lud mich ein zum Dinner. Das will er schon lange mal mit mir machen. Irgendwie haben alle Farangs so ein dringendes Bedürfnis auf soziale Kontakte mit anderen Farangs. Ich könnte ganz gut ohne alles farangische leben.
+Gestern Mittag nun stand seine Freundin vor dem Haus. Mit Baby. Und lud mich ein zum Dinner. Das will er schon lange mal mit mir machen. Irgendwie haben alle Farangs so ein dringendes Bedürfnis auf soziale Kontakte mit anderen Farangs. Ich könnte ganz gut ohne alles farangische leben.
 
-Egal. Sonntag abend darf ich mit ihm speisen. Sie (die Frau/Freundin) meinte schon, es gäbe Farang-Food, er mag kein Thaifood. Ein weiteres Merkmal von dauerhaft in Thailand lebenden Farangs. Wenn man mich nun fragen würde, _was_ denn nun genau einen Farang der ausschlie?lich mit Farangs socialised und kein Thaifood isst in Thailand macht --- was sollte ich denn darauf antworten?
+Egal. Sonntagabend darf ich mit ihm speisen. Sie (die Frau/Freundin) meinte schon, es gäbe Farang-Food, er mag kein Thaifood. Ein weiteres Merkmal von dauerhaft in Thailand lebenden Farangs. Wenn man mich nun fragen würde, _was_ denn nun genau einen Farang, der ausschließlich mit Farangs socialised und kein Thaifood isst, in Thailand macht --- was sollte ich denn darauf antworten?
+
+<!-- cspell:ignore socialised -->
+<!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN ??? -->
+<!-- grammar-ignore DE_REPEATEDWORDS_NUN nun -->
