@@ -15,6 +15,8 @@ No credential file, publishing history, or social account is created by the init
 
 ## Configuration and publishing
 
+Threads OAuth was completed on 8 October 2026 for [@samuisamui_de](https://www.threads.com/@samuisamui_de). The user token and account identity were verified through the Threads `/me` API, and credentials are stored only in `.posthaste/.env` with mode `0600`. The token expires on 7 December 2026 at approximately 12:07 Bangkok time. Refresh it before expiry using the Posthaste Threads token helper with `--dotenv .posthaste/.env --write-env --refresh-existing`, after explicit approval for the credential write. The helper rounded the numeric account ID during initial authorisation; the saved `THREADS_USER_ID` was corrected to the exact string returned by `/me`. Check this ID after future authorisations until the helper is fixed. No Threads post was published during authorisation.
+
 Reusable bio and introduction text lives in [Social profile copy](content/social-profiles.md).
 
 The Mastodon account is [@samuisamui@mastodon.social](https://mastodon.social/@samuisamui). Account verification through `/api/v1/accounts/verify_credentials` succeeded on 8 October 2026. This verifies the token's account identity; posting permissions are not verified by this read-only request. The introductory post text lives in `.posthaste/drafts/hello-mastodon.txt` and was [published to Mastodon](https://mastodon.social/@samuisamui/117402633120757059) on 8 October 2026 after explicit confirmation. Its publishing record is retained in `.posthaste/posted.jsonl`. The draft contains only post text and is the source of truth for later review and confirmed publishing.
