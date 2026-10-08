@@ -15,6 +15,8 @@ No credential file, publishing history, or social account is created by the init
 
 ## Configuration and publishing
 
+Facebook and Instagram setup is tracked separately in [Facebook and Instagram publishing](meta-publishing.md). The installed coordinator does not yet support these networks; connected profiles alone do not enable publishing.
+
 Threads OAuth was completed on 8 October 2026 for [@samuisamui_de](https://www.threads.com/@samuisamui_de). The user token and account identity were verified through the Threads `/me` API, and credentials are stored only in `.posthaste/.env` with mode `0600`. The token expires on 7 December 2026 at approximately 12:07 Bangkok time. Refresh it before expiry using the Posthaste Threads token helper with `--dotenv .posthaste/.env --write-env --refresh-existing`, after explicit approval for the credential write. The helper rounded the numeric account ID during initial authorisation; the saved `THREADS_USER_ID` was corrected to the exact string returned by `/me`. Check this ID after future authorisations until the helper is fixed. No Threads post was published during authorisation. The [Threads introduction](https://www.threads.com/@samuisamui_de/post/DeOJvminz3w) was subsequently published after explicit instruction, and its account, text, and permalink were verified through the Threads API. Its source is `.posthaste/drafts/hello-threads.txt`, and its publication is retained in `.posthaste/posted.jsonl`. The helper initially returned a URL containing the numeric post ID; the publishing record was corrected to the API-provided permalink.
 
 Reusable bio and introduction text lives in [Social profile copy](content/social-profiles.md).
