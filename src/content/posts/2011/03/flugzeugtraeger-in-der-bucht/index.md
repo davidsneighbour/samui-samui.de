@@ -24,10 +24,12 @@ Und auch die Deutsche Botschaft schreibt schon einen Rundbrief wegen des Wetters
 
 Tatsächlich soll der Flugzeugträger der thailändischen Marine auf dem Weg sein oder bereits vor Koh Tao liegen um Touristen vor verlängertem (verwässertem) Urlaub zu retten.
 
-Der Wetterbericht klang gestern noch so, als ob es heute nur noch teilweise regnen sollte --- das sieht dann heute schon etwas anders aus. Auf der Stra?e fahren Bagger und Schaufelgeräte herum und schütten mit Sand von der Bergseite der Ringroad die Einfahrten auf der Meeresseite der Ringroad zu.
+Der Wetterbericht klang gestern noch so, als ob es heute nur noch teilweise regnen sollte --- das sieht dann heute schon etwas anders aus. Auf der Straße fahren Bagger und Schaufelgeräte herum und schütten mit Sand von der Bergseite der Ringroad die Einfahrten auf der Meeresseite der Ringroad zu.
 
 Mein Bach vorm Haus hat sich tief in den Boden gefressen --- ein bisschen froh bin ich schon über die Lage meines Hauses, andere Stellen auf der Insel stehen bis zum Hals unter Wasser.
 
-Gestern "durfte" ich ein Resort um die Ecke, für das ich die Website machen durfte besuchen --- die Fluten haben einen gro?en Teil des Resorts einfach weg geschwemmt und es wird wohl schlie?en müssen.
+Gestern "durfte" ich ein Resort um die Ecke, für das ich die Website machen durfte besuchen --- die Fluten haben einen großen Teil des Resorts einfach weggeschwemmt und es wird wohl schließen müssen.
 
-Das ist die schwerste Regenperiode meiner sieben Jahre auf der Insel (mal ganz abgesehen davon, dass das Wetter hier normalerweise um diese Jahreszeit trocken, hei?, schwül und durch Wassernotstand geprägt ist.
+Das ist die schwerste Regenperiode meiner sieben Jahre auf der Insel (mal ganz abgesehen davon, dass das Wetter hier normalerweise um diese Jahreszeit trocken, heiß, schwül und durch Wassernotstand geprägt ist).
+
+<!-- cspell:ignore Kontaktaufname -->

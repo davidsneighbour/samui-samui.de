@@ -16,6 +16,6 @@ Bangkok Airways hat den ganzen Tag gearbeitet und doch mehr als nur die zwei ang
 
 (via Facebook)
 
-Ausserdem fliegt seit ein paar Stunden regelmä?ig ein Hubschrauber übers Haus --- entweder suchen sie jemanden oder auch sie fliegen Touristen aus.
+Ausserdem fliegt seit ein paar Stunden regelmäßig ein Hubschrauber übers Haus --- entweder suchen sie jemanden oder auch sie fliegen Touristen aus.
 
 Ich überlege, ob ich nachher mal versuche, einen der in der Nähe liegenden 7elevens anzuschwimmen. Die Regale werden zwar leer sein, aber Bier haben sie immer ;)
