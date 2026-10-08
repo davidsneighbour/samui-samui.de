@@ -14,6 +14,8 @@ Was macht man weit weg von der Heimat (oje, über diese Definition reden wir sp�
 
 ![](/wp-content/old-images/32.jpg)
 
-Mit Kaffee! Ich zog also gestern (zugegebenerma?en überhastet, denn eigentlich wollte ich die gro?e Doku fotographieren, verga? aber den Photoapparat) gemütlich tuckernd nach Teskoland und kaufte was mein Herz begehrte. Kaffee, Sahne, einen optimierten Becher und einen Wasserkocher. Was braucht man mehr. Heute morgen dann erwachte ich und weihte eilig alles ein. Bis auf die Sahne, die dummerweise gesüsst ist (kein Vergleich zu "unserer" sü?en Sahne), war es ein voller Erfolg. Meine gute Laune lässt sich heute durch nichts trüben.
+Mit Kaffee! Ich zog also gestern (zugegebenermaßen überhastet, denn eigentlich wollte ich die große Doku photographieren, vergaß aber den Photoapparat) gemütlich tuckernd nach Teskoland und kaufte, was mein Herz begehrte. Kaffee, Sahne, einen optimierten Becher und einen Wasserkocher. Was braucht man mehr. Heute Morgen dann erwachte ich und weihte eilig alles ein. Bis auf die Sahne, die dummerweise gesüsst ist (kein Vergleich zu "unserer" süßen Sahne), war es ein voller Erfolg. Meine gute Laune lässt sich heute durch nichts trüben.
 
 PS: Man beachte das überaus gelungene Marken-Logo der Milch ;)
+
+<!-- grammar-ignore FRAGEZEICHEN_STATT_PUNKT . -->

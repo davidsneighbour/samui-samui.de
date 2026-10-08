@@ -12,6 +12,8 @@ publisher:
   seo: true
   covermigration: true
 ---
-Interessanterweise habe ich heute nacht das erste Mal in Thailand geträumt bzw. für mich selbst merkbar geträumt. Wahrscheinlich gibt/gab es noch zu viel zu verarbeiten, so dass das System blockierte. War interessant. Es ging um ein Vegetarier-Theaterstück in Zinnowitz, Schnute war in Lübeck und ich hab mal wieder den Ausgang nicht gefunden. Klingt eigentlich normal für meine Träume, wenn man au?er Acht lässt, dass keine thailändischen Komponenten vorkommen.
+Interessanterweise habe ich heute Nacht das erste Mal in Thailand geträumt bzw. für mich selbst merkbar geträumt. Wahrscheinlich gibt/gab es noch zu viel zu verarbeiten, so dass das System blockierte. War interessant. Es ging um ein Vegetarier-Theaterstück in Zinnowitz, Schnute war in Lübeck und ich hab mal wieder den Ausgang nicht gefunden. Klingt eigentlich normal für meine Träume, wenn man außer Acht lässt, dass keine thailändischen Komponenten vorkommen.
 
 Lasst es uns auswerten ;) Mir fehlen Klopse! Aber ich glaube nicht, dass ich hier welche essen würde. Ich hab schon Hunde mit nur drei Beinen gesehen. Und Schnute könnte ruhig hier sein.
+
+<!-- grammar-ignore DE_CASE Mir -->

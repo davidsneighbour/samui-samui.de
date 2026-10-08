@@ -12,4 +12,4 @@ publisher:
 ---
 ![](/wp-content/old-images/50.jpg)
 
-Ein Relaunch steht an, was hei?t, dass ich mich thailändisch verhalte und Samstags arbeite ;) deshalb heute nur ein Bildchen.
+Ein Relaunch steht an, was heißt, dass ich mich thailändisch verhalte und samstags arbeite ;) deshalb heute nur ein Bildchen.

@@ -12,7 +12,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Beide Bilder stammen von der gleichen Stra?e und die Ansichten sind auf gleicher Höhe. Im Gebäude des ersten Bildes arbeite ich. In der Hütte des zweiten Bildes esse ich.
+Beide Bilder stammen von der gleichen Straße und die Ansichten sind auf gleicher Höhe. Im Gebäude des ersten Bildes arbeite ich. In der Hütte des zweiten Bildes esse ich.
 
 ![](/wp-content/old-images/29.jpg)
 

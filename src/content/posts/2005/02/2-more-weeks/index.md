@@ -12,14 +12,16 @@ publisher:
   seo: true
   covermigration: true
 ---
-Hab heute "die Hütte" für weitere 2 Wochen gemietet. (_?ber-Ich_: Du wirst darin verotten!). Naja. Jedenfalls kam Mr. Wit freudestrahlend in seinem Pickup angefahren (hab ihn angerufen und klar gemacht, dass ich bleibe) und begrü?te mich mit "Morgen". Mir blieb das säuberlich vorformulierte und hundertmal geübte Sawadiikrapp im Halse stecken und ich murmelte ein "Hallo".
+Hab heute "die Hütte" für weitere 2 Wochen gemietet. (_Über-Ich_: Du wirst darin verrotten!). Na ja. Jedenfalls kam Mr. Wit freudestrahlend in seinem Pickup angefahren (hab ihn angerufen und klargemacht, dass ich bleibe) und begrüßte mich mit "Morgen". Mir blieb das säuberlich vorformulierte und hundertmal geübte Sawadiikrapp im Halse stecken und ich murmelte ein "Hallo".
 
 Super.
 
-"Morgen". Wie sagte Neung neulich? Es gibt Leute in Thailand, die sagen einfach Sawadiikapp, aber das ist falsch. Es hei?t Sawadiikrapp. Mr. Wit! Es hei?t "guten Morgen" wenn schon und nicht nur "Morgen". Ich nehme mal an, du hast das von diesem Sextouristen aus dem ersten Haus. Naja.
+"Morgen". Wie sagte Neung neulich? Es gibt Leute in Thailand, die sagen einfach Sawadiikapp, aber das ist falsch. Es heißt Sawadiikrapp. Mr. Wit! Es heißt "guten Morgen", wenn schon und nicht nur "Morgen". Ich nehme mal an, du hast das von diesem Sextouristen aus dem ersten Haus. Na ja.
 
-Ach naja.
+Ach na ja.
 
 Wie auch immer.
 
 Nochmal 2 Wochen.
+
+<!-- cspell:ignore Sawadiikrapp Sawadiikapp -->
