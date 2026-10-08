@@ -46,71 +46,73 @@ const today = new Date();
       </Tooltip>
     ))}
   </nav>
-  <Tooltip
-    id="sound-toggle-tooltip"
-    content="Klangeffekte deaktivieren"
-    class="mb-4"
-    interactive
-    placement="top"
-  >
-    <button
-      slot="trigger"
-      type="button"
-      class="sound-toggle inline-flex size-11 shrink-0 items-center justify-center overflow-hidden rounded-(--radius) text-foreground/75 transition-[background-color,color,scale] duration-150 ease-out hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background active:scale-[0.96]"
-      data-sound-toggle
-      aria-label="Klangeffekte deaktivieren"
-      aria-pressed="true"
-      aria-describedby="sound-toggle-tooltip"
+  <div class="flex items-center justify-center gap-1.5">
+    <Tooltip
+      id="sound-toggle-tooltip"
+      content="Klangeffekte deaktivieren"
+      class="shrink-0"
+      interactive
+      placement="top"
     >
-      <span
-        class="sound-toggle__icon sound-toggle__icon--on absolute inset-0 inline-flex items-center justify-center"
-        aria-hidden="true"
+      <button
+        slot="trigger"
+        type="button"
+        class="sound-toggle inline-flex size-11 shrink-0 items-center justify-center overflow-hidden rounded-(--radius) text-foreground/75 transition-[background-color,color,scale] duration-150 ease-out hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background active:scale-[0.96]"
+        data-sound-toggle
+        aria-label="Klangeffekte deaktivieren"
+        aria-pressed="true"
+        aria-describedby="sound-toggle-tooltip"
       >
-        <Volume2 class="size-5" />
-      </span>
-      <span
-        class="sound-toggle__icon sound-toggle__icon--off inline-flex items-center justify-center"
-        aria-hidden="true"
-      >
-        <VolumeX class="size-5" />
-      </span>
-    </button>
-  </Tooltip>
-  <p class="m-0 inline-flex flex-wrap items-center justify-center gap-1.5">
-    <Copyright
-      aria-hidden="true"
-      class="size-4 shrink-0"
-    />
-    <span class="sr-only">Copyright</span>
-    <span>
-      <span class="copyright-years">
-        2005 bis {today.getFullYear()}
-        <svg
-          class="copyright-arrow"
-          viewBox="0 0 160 24"
-          preserveAspectRatio="none"
+        <span
+          class="sound-toggle__icon sound-toggle__icon--on absolute inset-0 inline-flex items-center justify-center"
           aria-hidden="true"
         >
-          <path
-            pathLength="1"
-            class="stroke-1"
-            d="M8,6 C34,19 66,20 92,11 C112,4 128,3 148,9"
-          />
-          <path
-            pathLength="1"
-            class="stroke-2"
-            d="M148,9 L135,2"
-          />
-          <path
-            pathLength="1"
-            class="stroke-3"
-            d="M148,9 L139,17"
-          />
-        </svg>
+          <Volume2 class="size-5" />
+        </span>
+        <span
+          class="sound-toggle__icon sound-toggle__icon--off inline-flex items-center justify-center"
+          aria-hidden="true"
+        >
+          <VolumeX class="size-5" />
+        </span>
+      </button>
+    </Tooltip>
+    <p class="m-0 inline-flex flex-wrap items-center justify-center gap-1.5">
+      <Copyright
+        aria-hidden="true"
+        class="size-4 shrink-0"
+      />
+      <span class="sr-only">Copyright</span>
+      <span>
+        <span class="copyright-years">
+          2005 bis {today.getFullYear()}
+          <svg
+            class="copyright-arrow"
+            viewBox="0 0 160 24"
+            preserveAspectRatio="none"
+            aria-hidden="true"
+          >
+            <path
+              pathLength="1"
+              class="stroke-1"
+              d="M8,6 C34,19 66,20 92,11 C112,4 128,3 148,9"
+            />
+            <path
+              pathLength="1"
+              class="stroke-2"
+              d="M148,9 L135,2"
+            />
+            <path
+              pathLength="1"
+              class="stroke-3"
+              d="M148,9 L139,17"
+            />
+          </svg>
+        </span>
+        Patrick Kollitsch. Alle Rechte vorbehalten.
       </span>
-      Patrick Kollitsch. Alle Rechte vorbehalten.
-    </span>
-  </p>
+    </p>
+  </div>
   <nav
     aria-label="Archiv"
     class="mt-6 flex flex-wrap items-center justify-center gap-x-4 gap-y-1"
