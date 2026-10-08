@@ -224,7 +224,7 @@ count in text (in the year row and, expanded, in each month row), so
 the dots themselves are decorative (`aria-hidden="true"`) rather than
 the sole carrier of the information. Hovering a dot also reveals its
 month abbreviation via a plain CSS `attr()` tooltip (`.month-dot` in
-`theme.css`) — a supplementary mouse affordance, not a second carrier,
+`theme.css`, 12px, the smallest step of the type ramp) — a supplementary mouse affordance, not a second carrier,
 so the dots stay non-focusable rather than gaining 252 new tab stops.
 
 Thresholds are computed per year, not against the whole archive: for
