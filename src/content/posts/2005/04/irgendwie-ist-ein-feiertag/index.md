@@ -10,6 +10,8 @@ publisher:
   seo: true
   covermigration: true
 ---
-Irgendwie ist heute ein Feiertag. Wir wollten grade Mittag essen gehen, aber irgendwie sind auf 100 Meter alle Restaurants geschlossen. Ohne Vorwarnung. (Weiter sind wir nicht gekommen, weil es dazu noch ziemlich warm ist. Da bewegt man sich nicht allzugerne.) Als ich heute morgen aus Ban Nathon zurück kam, lief ein seltsamer Mönch durch Lamais Stra?en und alle Leute versuchten irgendwie ihm Schatten mit ihren Schirmen zu spenden. Der war wohl ziemlich wichtig.
+Irgendwie ist heute ein Feiertag. Wir wollten grade Mittag essen gehen, aber irgendwie sind auf 100 Meter alle Restaurants geschlossen. Ohne Vorwarnung. (Weiter sind wir nicht gekommen, weil es dazu noch ziemlich warm ist. Da bewegt man sich nicht allzu gerne.) Als ich heute Morgen aus Ban Nathon zurückkam, lief ein seltsamer Mönch durch Lamais Straßen und alle Leute versuchten irgendwie ihm Schatten mit ihren Schirmen zu spenden. Der war wohl ziemlich wichtig.
 
 Wie gesagt. Unerhört. Ein Feiertag. Und unsereins muss unter dem Joch der Arbeit hier, rum, arbeiten.
+
+<!-- grammar-ignore RAN_RUM_RAUF_REIN_RAUS_RUNTER rum -->

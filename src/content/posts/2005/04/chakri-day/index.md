@@ -10,8 +10,11 @@ publisher:
   seo: true
   covermigration: true
 ---
-Jawohl! Es ist April. Mit 4 Feiertagen der arbeitstechnisch ertragreichste Monat unseres kleinen Unternehmens. Morgen nun ist der erste Feiertag: Der Chakri Tag (Chakri Day). An diesem Tag pflegt der gewönliche Thailänder der Chakri-Dynastie zu huldigen, die hier gerade seit 1782 (ratet an welchem Tag? Ja! Dem 6. April!) an der Macht ist. König Bhumibol Aulyadej der Gro?e ist übrigens der neunte König der Chakri-Dynastie.
+Jawohl! Es ist April. Mit 4 Feiertagen der arbeitstechnisch ertragreichste Monat unseres kleinen Unternehmens. Morgen nun ist der erste Feiertag: Der Chakri Tag (Chakri Day). An diesem Tag pflegt der gewöhnliche Thailänder der Chakri-Dynastie zu huldigen, die hier gerade seit 1782 (ratet an welchem Tag? Ja! Dem 6. April!) an der Macht ist. König Bhumibol Adulyadej der Große ist übrigens der neunte König der Chakri-Dynastie.
 
 Man feiert und schmaust und feiert. Gearbeitet wird nicht. Also noch weniger als sonst.
 
-Und König Bhumipol der Gro?e ist der Monarch mit der weltweit längsten Regierungszeit bisher. Da kann nicht mal Fürst Reinier von Monacco mithalten und der scheint ja nun sicher nicht länger als Bhumibol zu leben.
+Und König Bhumibol der Große ist der Monarch mit der weltweit längsten Regierungszeit bisher. Da kann nicht mal Fürst Rainier von Monaco mithalten und der scheint ja nun sicher nicht länger als Bhumibol zu leben.
+
+<!-- grammar-ignore DE_CASE Der -->
+<!-- grammar-ignore DE_REPEATEDWORDS_NUN nun -->
