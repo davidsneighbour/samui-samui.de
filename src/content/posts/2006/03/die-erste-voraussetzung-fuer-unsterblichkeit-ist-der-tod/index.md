@@ -10,6 +10,6 @@ publisher:
   seo: true
   covermigration: true
 ---
-Interessanterweise sterben neuerdings immer die Leute von denen ich denke, dass sie bereits tot sind. Diesmal [Stanis?aw Lem][1].
+Interessanterweise sterben neuerdings immer die Leute, von denen ich denke, dass sie bereits tot sind. Diesmal [Stanisław Lem][1].
 
  [1]: http://de.wikipedia.org/wiki/Stanislav_Lem

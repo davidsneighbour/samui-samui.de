@@ -10,4 +10,4 @@ publisher:
   seo: true
   covermigration: true
 ---
-Am Montag ist ein buddhistischer Feiertag, der Makha Bucha Day. Vermutlich versuche ich in verschiedenen Wats ein paar Bilder zu schie?en und den Mönchen zu zu hören.
+Am Montag ist ein buddhistischer Feiertag, der Makha Bucha Day. Vermutlich versuche ich in verschiedenen Wats ein paar Bilder zu schießen und den Mönchen zuzuhören.

@@ -15,11 +15,11 @@ Die Jahreszeiten nahmen alles, für die sie gekommen waren
 
 Jetzt tanzt der Winter hier
 
-Es scheint, als ob alles pa?t, denkst du nicht auch so?
+Es scheint, als ob alles passt, denkst du nicht auch so?
 
-Den Boden angemalt in wei?
+Den Boden angemalt in Weiß
 
-und in grau
+und in Grau
 
 Er ist so ruhig, dass ich es hören kann
 
@@ -45,25 +45,25 @@ Und frage mich bitte nicht, warum ich hier bin
 
 Etwas tief in mir brachte mich drauf
 
-Das es notwendig ist, sich zu erinnern
+Dass es notwendig ist, sich zu erinnern
 
 Wir waren einmal jung und mit Flügeln gesegnet
 
 Keine Höhen konnte uns abhalten, alles zu erreichen
 
-Keine heilige Plätze, in die wir nicht plötzlich emporstiegen
+Keine heiligen Plätze, in die wir nicht plötzlich emporstiegen
 
-Immer noch grö?ere Dinge brannten in uns
+Immer noch größere Dinge brannten in uns
 
 Ich bedauere nicht die Möglichkeiten, die ich getroffen habe
 
-Ich wei?, dass du dasselbe fühlst
+Ich weiß, dass du dasselbe fühlst
 
-Mein Geliebte du wei?t doch
+Mein Geliebte du weißt doch
 
 Wie oft ich in die Wolken starrte
 
-Ich dachte ich sehe dich da oben
+Ich dachte, ich sehe dich da oben
 
 Dies sind Gefühle, die nicht so leicht vorbeigehen
 
@@ -109,4 +109,8 @@ Kein Gefühl**
 
 Die Ewigkeit wartet
 
-PS: Eigentlich wollte ich ja übers Wetter schreiben aber das ist derzeit so uninteressant heiss und alles andere wird bereits per Instant Messaging und Privatmail behandelt. Also hier nur (wieder?) VNV Nation. Ok, auf deutsch hattense wir noch nicht. Die Sprache des Fussballs (glaubt man den Thais).
+PS: Eigentlich wollte ich ja übers Wetter schreiben aber das ist derzeit so uninteressant heiss und alles andere wird bereits per Instant Messaging und Privatmail behandelt. Also hier nur (wieder?) VNV Nation. Ok, auf Deutsch hattense wir noch nicht. Die Sprache des Fussballs (glaubt man den Thais).
+
+<!-- cspell:ignore hattense -->
+<!-- grammar-ignore DE_DU_UPPER_LOWER Dich -->
+<!-- grammar-ignore DRAUF drauf -->

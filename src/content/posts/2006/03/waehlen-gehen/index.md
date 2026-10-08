@@ -1,5 +1,5 @@
 ---
-title: W??hlen gehen
+title: Wählen gehen
 date: 2006-03-20T07:54:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:

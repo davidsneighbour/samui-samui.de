@@ -1,11 +1,13 @@
 Abhisit
 Adulyadej
+Adulyadejs
 Aircondition
 angetuckelt
 ankucken
 anzuschwimmen
 Asalha
 Aufreißverschluss
+Bangkokzeit
 Bhumibol
 Boonyaratglin
 Boonyaratkalin
@@ -29,6 +31,7 @@ Dolbyklang
 Donsak
 drauflosschneiden
 DTAC
+Dtoh
 Dumnern
 eingeschäumt
 Farang
@@ -37,6 +40,7 @@ Fehlgeleitetheit
 fertilisierendes
 flickr
 Franchisenehmer
+Fuzzies
 fünfundeinhalb
 Gameshows
 Gassigang
@@ -55,6 +59,7 @@ Heuschnupfengeruch
 Huad
 Hundespa
 Isaan
+Jaja
 Jeen
 Jetpack
 Jetpacks
@@ -73,10 +78,12 @@ Krathong
 Krung
 Krungthep
 kuck
+kucke
 kucken
 kuckt
 kuckte
 Kunp
+Ladybars
 Ladyboy
 Ladyboys
 Laem
@@ -90,8 +97,10 @@ machtmissbrauchenden
 Maenam
 Maha
 Mahanakhon
+Mainroad
 Majesté
 Makha
+Mayagüez
 MCOT
 Menist
 Metropolenhopping
@@ -102,6 +111,7 @@ Nahtod
 Nakhon
 Narathiwat
 Nathon
+Neonfarben
 Neung
 Ngam
 Ngan
@@ -141,10 +151,12 @@ runtergestolpert
 Samak
 Samaks
 Samui
+samuianische
 Samuis
 Sanook
 Sawadee
 Schnute
+sextechnisch
 sextouristenfreundlich
 Shih
 Shinawatra
@@ -155,6 +167,7 @@ Somchai
 Somkid
 Sondhi
 Songkhla
+sonnenuntergangstechnisch
 Sonthi
 Soosi
 Soosie
@@ -163,8 +176,10 @@ Soundcloud
 Soundway
 Spiegeleien
 Spirelli
+Stanisław
 strombasiert
 Suan
+Summchen
 Surakiart
 Surayud
 Surayudh
@@ -177,6 +192,7 @@ Thaibaht
 Thaibegleitung
 Thaifrau
 Thaifrauen
+Thaifussball
 thailandtypisch
 thailandweit
 Thaistyle
@@ -195,13 +211,16 @@ Tung
 ungetoastetes
 Unnormales
 unoffizieller
+urlaubende
 Uthai
 Vajiralongkorn
 Vejjajiva
+Verbrauchtheitsgrad
 versiffte
 videographierten
 Visarun
 Visaruns
+vorbeischleppt
 Wahlkampfticker
 Wats
 weiblicherseits
