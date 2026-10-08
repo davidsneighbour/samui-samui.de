@@ -9,6 +9,8 @@ publisher:
   seo: true
   covermigration: true
 ---
-Morgen soll die gro?e und definitiv letzte Demonstration der <span class="caps">PAD</span> (Peoples Alliance for (???) Democracy) in Bangkok statt finden. Die Regierung hat die Demonstranten schon gewarnt, nichts "Kriminelles" zu veranstalten. Interessanterweise wird relativ zeitgleich mit dem glorreichen Triumpfzug der Medaillisten Thailands bei der Olympiade demonstriert. Einmal Gold im Gewichtheben, einmal Gold im Boxen, einmal Silber im Boxen, einmal Silber im Taek Won Do.
+Morgen soll die große und definitiv letzte Demonstration der <span class="caps">PAD</span> (Peoples Alliance for (???) Democracy) in Bangkok stattfinden. Die Regierung hat die Demonstranten schon gewarnt, nichts "Kriminelles" zu veranstalten. Interessanterweise wird relativ zeitgleich mit dem glorreichen Triumphzug der Medaillisten Thailands bei der Olympiade demonstriert. Einmal Gold im Gewichtheben, einmal Gold im Boxen, einmal Silber im Boxen, einmal Silber im Taekwondo.
 
 Als Bangkoker hat mal also genügend Freizeitangebote morgen.
+
+<!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN ??? -->
