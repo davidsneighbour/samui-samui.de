@@ -304,6 +304,11 @@ but only these faces are wired into CSS, deliberately, to avoid unused
   rendered by `BlogPostTitle.astro`. Size and case separate it from
   article content headings, not weight.
 * **`body-md`** — base body copy. 16px / 1.5 line-height, weight 400.
+  Inside `prose`, body text uses `card-foreground`; list markers and
+  captions use `muted-foreground`; rules and table borders use `border`.
+  An unlayered `.prose` rule in `theme.css` maps the typography plugin's
+  `--tw-prose-*` variables to these tokens, replacing the cool
+  `prose-neutral` greys.
   Prose list items deliberately use half of the
   `@tailwindcss/typography` default vertical item rhythm through
   `src/utils/prose.ts`: direct `<li>` spacing is `0.25em` above and
