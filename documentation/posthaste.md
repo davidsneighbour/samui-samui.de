@@ -17,6 +17,8 @@ No credential file, publishing history, or social account is created by the init
 
 Reusable bio and introduction text lives in [Social profile copy](content/social-profiles.md).
 
+The Mastodon account is [@samuisamui@mastodon.social](https://mastodon.social/@samuisamui). Account verification through `/api/v1/accounts/verify_credentials` succeeded on 8 October 2026. This verifies the token's account identity; posting permissions are not verified by this read-only request. The introductory post draft lives in `.posthaste/drafts/hello-mastodon.txt` and has not been published. The draft contains only post text and is the source of truth for later review and confirmed publishing.
+
 Consuming skill defaults are overridden by global `~/.config/posthaste/config.toml`, then project `.posthaste.toml`, and finally explicit request values. Runtime helpers also support documented environment and command-line overrides. Other global settings may still be inherited; the project configuration overrides default networks and storage paths.
 
 Use `/posthaste-config info` to inspect effective settings and provenance, or `/posthaste-config check` to validate configuration. Use `/posthaste-prepare-link` with a site URL to prepare a post. Publishing, credential writes, automated login, and final publish controls require explicit user confirmation under the Posthaste skill rules.
