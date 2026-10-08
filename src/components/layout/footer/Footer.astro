@@ -3,6 +3,7 @@ import Analytics from '@components/features/analytics/Analytics.astro';
 import WeatherWidget from '@components/features/weather/WeatherWidget.astro';
 import Tooltip from '@components/ui/tooltip.astro';
 import { Copyright, Landmark, Scale, Volume2, VolumeX } from '@lucide/astro';
+import { Icon } from 'astro-icon/components';
 
 interface Props {
   // Opt out of the weather widget for pages that intentionally render no
@@ -18,6 +19,34 @@ const today = new Date();
 {!hideWeather && <WeatherWidget />}
 
 <footer class="bg-background px-4 py-10 text-center text-sm text-foreground/70">
+  <nav
+    aria-label="Soziale Netzwerke"
+    class="mb-4 flex items-center justify-center gap-2"
+  >
+    {[
+      {
+        href: 'https://mastodon.social/@samuisamui',
+        icon: 'simple-icons:mastodon',
+        name: 'Mastodon',
+      },
+      {
+        href: 'https://bsky.app/profile/samui-samui.de',
+        icon: 'simple-icons:bluesky',
+        name: 'Bluesky',
+      },
+    ].map(({ name, icon, href }) => (
+      <a
+        href={href}
+        target="_blank"
+        rel="me noopener noreferrer"
+        aria-label={`Samui? Samui! auf ${name} (öffnet in neuem Tab)`}
+        title={`${name} (öffnet in neuem Tab)`}
+        class="inline-flex size-11 items-center justify-center rounded-(--radius) text-foreground hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+      >
+        <Icon name={icon} class="size-5" aria-hidden="true" />
+      </a>
+    ))}
+  </nav>
   <Tooltip
     id="sound-toggle-tooltip"
     content="Klangeffekte deaktivieren"
