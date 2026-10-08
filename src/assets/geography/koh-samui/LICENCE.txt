@@ -1,0 +1,15 @@
+Koh Samui coastline data
+© OpenStreetMap contributors
+https://www.openstreetmap.org/copyright
+
+The source OSM data and geographic database derivatives are available under
+Open Database License (ODbL) 1.0:
+https://opendatacommons.org/licenses/odbl/1-0/
+
+Original API responses were retrieved on 2026-10-08. Source URLs, object
+versions, and checksums are recorded in provenance.json. This notice is not
+a replacement for the licence text linked above.
+
+See documentation/components/logo-coastline.md for projection, regeneration,
+public attribution, and reuse notes. Independent logo lettering is not part
+of this geographic database.

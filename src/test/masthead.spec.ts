@@ -108,7 +108,7 @@ for (const width of widths) {
     if (!island || !question || !answer)
       throw new Error('Expected three clipping shapes.');
     expect(island.right).toBeLessThan(question.left);
-    expect(question.left - island.right).toBeCloseTo(25.76, 2);
+    expect(question.left - island.right).toBeCloseTo(25.98, 2);
     expect(question.bottom).toBeLessThan(answer.top);
     expect(metrics.dots[0]).toBeCloseTo(metrics.dots[1] ?? 0, 2);
     expect((question.top + answer.bottom) / 2).toBeCloseTo(

@@ -8,6 +8,7 @@
 * [Giscus comments](components/giscus-comments.md) documents the lazy giscus widget, custom theme URLs, and local-development theme limitations.
 * [Footer](components/footer.md) documents the shared footer's social profile links, icons, and accessibility.
 * [Legacy image presentation](components/legacy-images.md) explains the automatic small-image rendering system for archive images and cover previews.
+* [Logo coastline](components/logo-coastline.md) records the OSM snapshot, geographic masters, projection, regeneration, licence, and attribution requirements.
 * [Logo kit](components/logo-kit.md) documents the approved island-and-punctuation identity, exports, favicon options, usage rules, and regeneration.
 * [Masthead](components/masthead.md) documents the responsive site title, header-owned CSS, and dev-only masthead preview route.
 * [Editorial notices](components/notices.md) documents the `Notice.astro` and `<dnb-notice>` rendering pipeline.

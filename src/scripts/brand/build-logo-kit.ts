@@ -15,7 +15,7 @@ type Point = readonly [number, number];
 const source = readFileSync('src/assets/koh-samui-outline-main.svg', 'utf8');
 const sourcePath = /<path\s+d="([^"]+)"/.exec(source)?.[1];
 if (!sourcePath)
-  throw new Error('The supplied island SVG must contain a path.');
+  throw new Error('The documented island SVG must contain a path.');
 const pairs = [...sourcePath.matchAll(/(?:M|L)\s*([\d.]+)\s+([\d.]+)/g)];
 const points: Point[] = pairs.map((pair) => [Number(pair[1]), Number(pair[2])]);
 if (points.length < 3)
@@ -61,7 +61,26 @@ function simplify(input: readonly Point[], tolerance: number): Point[] {
 function island(tolerance: number): string {
   const first = points[0];
   if (!first) throw new Error('Empty coastline.');
-  const contour = simplify([...points, first], tolerance).slice(0, -1);
+  // Keep extrema as anchors so all responsive cuts share the same bounds.
+  const anchors = [
+    ...new Set([
+      0,
+      ...[0, 1].flatMap((axis) => {
+        const values = points.map((point) => point[axis] ?? 0);
+        return [
+          values.indexOf(Math.min(...values)),
+          values.indexOf(Math.max(...values)),
+        ];
+      }),
+    ]),
+  ].sort((a, b) => a - b);
+  const closed = [...points, first];
+  const contour = anchors.flatMap((start, index) =>
+    simplify(
+      closed.slice(start, (anchors[index + 1] ?? points.length) + 1),
+      tolerance,
+    ).slice(0, -1),
+  );
   return (
     contour
       .map(
@@ -92,6 +111,24 @@ function punctuation(): string {
 const words = word('samui? samui!');
 const shape = island(7);
 const faviconShape = island(16);
+const detailedShape = island(0);
+// Refresh only the coastline; preserve the approved outlined Panton holes.
+for (const file of ['symbol-normal.svg', 'symbol-reversed.svg']) {
+  const path = join(destination, 'selected', file);
+  const master = readFileSync(path, 'utf8');
+  const updated = master.replace(/( d=")[^Z]+Z/, `$1${shape}`);
+  if (updated === master && !master.includes(shape))
+    throw new Error(`Cannot replace selected coastline: ${file}`);
+  writeFileSync(
+    path,
+    updated
+      .replace(/<metadata>[\s\S]*?<\/metadata>/g, '')
+      .replace(
+        '</title>',
+        '</title><metadata>Coastline: © OpenStreetMap contributors; https://www.openstreetmap.org/copyright; ODbL 1.0; snapshot 2026-10-08.</metadata>',
+      ),
+  );
+}
 function symbol(fill: string, reversed = false): string {
   const file = reversed ? 'symbol-reversed.svg' : 'symbol-normal.svg';
   const source = readFileSync(join(destination, 'selected', file), 'utf8');
@@ -100,7 +137,12 @@ function symbol(fill: string, reversed = false): string {
   return `<path fill="${fill}" fill-rule="evenodd" d="${path}"/>`;
 }
 function svg(body: string, width = 256, height = 256): string {
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" role="img"><title>Samui? Samui! — island voice</title>${body}</svg>\n`;
+  const attribution = [shape, faviconShape, detailedShape].some((path) =>
+    body.includes(path),
+  )
+    ? '<metadata>Coastline: © OpenStreetMap contributors; https://www.openstreetmap.org/copyright; ODbL 1.0; snapshot 2026-10-08. See documentation/components/logo-coastline.md for source and reuse.</metadata>'
+    : '';
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" role="img"><title>Samui? Samui! — island voice</title>${attribution}${body}</svg>\n`;
 }
 function save(file: string, content: string): void {
   const path = join(destination, file);
@@ -138,7 +180,7 @@ for (const [name, fill] of Object.entries(variants)) {
     svg(`<g transform="translate(12 18)" fill="${fill}">${words}</g>`, 592, 88),
   );
 }
-// The large masthead retains the supplied coastline detail and selected holes.
+// The large masthead retains the documented coastline detail and selected holes.
 const selectedReversed = readFileSync(
   join(destination, 'selected/symbol-reversed.svg'),
   'utf8',
@@ -149,7 +191,7 @@ if (!selectedHoles) throw new Error('Missing selected punctuation holes.');
 save(
   'svg/symbol-detail-white.svg',
   svg(
-    `<path fill="#ffffff" fill-rule="evenodd" d="${island(0)} ${selectedHoles}"/>`,
+    `<path fill="#ffffff" fill-rule="evenodd" d="${detailedShape} ${selectedHoles}"/>`,
   ),
 );
 save('svg/symbol-colour.svg', svg(symbol(colour.coral, true)));

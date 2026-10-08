@@ -1,0 +1,44 @@
+{
+  "attribution": "© OpenStreetMap contributors",
+  "coordinateOrder": "longitude, latitude",
+  "copyright": "https://www.openstreetmap.org/copyright",
+  "licence": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "projection": {
+    "canvas": [413, 431],
+    "centralMeridian": 100,
+    "centre": [206, 215],
+    "maximumBounds": [19, 19, 393, 411],
+    "name": "local equirectangular",
+    "northUp": true,
+    "rounding": "4 decimal SVG units; GeoJSON retains source coordinates",
+    "standardParallel": 9.5,
+    "uniformScale": 2119.686589197179
+  },
+  "retrieved": "2026-10-08",
+  "seedWay": "476906866",
+  "sources": [
+    {
+      "file": "source/way-1156240705.osm",
+      "sha256": "3ca9670adda43e9c23b327352e62974b77ced1b7fba42a622c92acbc32aaa432",
+      "url": "https://api.openstreetmap.org/api/0.6/way/1156240705/full"
+    },
+    {
+      "file": "source/way-476906866.osm",
+      "sha256": "78e889a74be58f4a106234ccd59dc557885a2ae0be1be679707ef79c21f59010",
+      "url": "https://api.openstreetmap.org/api/0.6/way/476906866/full"
+    }
+  ],
+  "vertices": 2133,
+  "ways": [
+    {
+      "id": "1156240705",
+      "timestamp": "2025-05-06T19:18:05Z",
+      "version": "10"
+    },
+    {
+      "id": "476906866",
+      "timestamp": "2026-08-30T18:37:00Z",
+      "version": "9"
+    }
+  ]
+}
