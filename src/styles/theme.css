@@ -314,17 +314,21 @@ html {
   gap: 0.5rem;
 }
 
-/* Every heading renders at 700 (Panton extra-bold). This rule is deliberately
-   unlayered: it overrides Tailwind's layered weight utilities on headings, so
-   `font-*` classes on an h1-h6 have no effect. See DESIGN.md "heading". The
-   masthead artwork in Header.astro is outlined SVG and does not use it. */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
+/* Every heading renders at 700 (Panton extra-bold). The rule sits in the base
+   layer, so Tailwind weight utilities on a heading override it as usual.
+   Prose headings get their weight from `prose-headings:font-bold` in
+   src/utils/prose.ts, because the typography plugin's own heading weights
+   (h1 800, h3/h4 600) live in the utilities layer and would otherwise win
+   over this rule. See DESIGN.md "heading". */
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+  }
 }
 
 /*

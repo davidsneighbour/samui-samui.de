@@ -346,7 +346,7 @@ but only these faces are wired into CSS, deliberately, to avoid unused
   the property.
 
 * **`brand-masthead`** — the site name in `src/components/layout/header/Header.astro`. The selected island sits on the left of two left-aligned lines, `Samui?` and `Samui!`, using outlined Panton Heavy (900) artwork. One SVG image of `header-201906.jpg` spans all three shapes, clipped by a combined vector path; the photograph is never repeated between elements. The island’s even-odd `?!` holes reveal the active page background. The composition uses a 900 × 300 viewBox: the 256-unit symbol is translated by (0, 3) and scaled by 1.2; the normalised 48-unit cap-height first line is scaled by 1.92645 at (294.30657, 45.46975), while the second is scaled by 2 at (294.24, 171.46975). This preserves the visible left edge and aligns the punctuation-dot centres vertically. These direct path positions centre the title against the detailed coastline. The simplified coastline preserves all four extrema, so its bounds match the detailed coastline and no mobile-only vertical word translation is needed. The responsive artwork width is `min(calc(100vw - 32px), 1600px)`, limited to the viewport minus the existing 32px large spacing token. The photograph uses `xMidYMid slice`, covering the combined canvas once. The home link has a `ring` focus outline, a 4px offset, and the existing medium radius. This deliberately extends the inherited photo-cut masthead without introducing another colour or font.
-* **`heading`** — every `h1`–`h6` renders at weight **700** (Panton extra-bold). The rule lives unlayered in `theme.css`, so it overrides every Tailwind weight utility on a heading (Tailwind v4 utilities sit in `@layer utilities`, and unlayered CSS always wins over layered CSS). `font-normal`, `font-medium`, `font-[600]`, and `prose-headings:font-*` on a heading have no effect; do not add them. A heading that really needs a different weight needs an unlayered selector of its own, like the footnote heading below. The rule stays unlayered on purpose: moving it into `@layer base` would let the typography plugin's `prose` `h1` weight (800, a face Panton does not register here) and third-party component CSS change the live rendering. Sizes themselves
+* **`heading`** — every `h1`–`h6` renders at weight **700** (Panton extra-bold). The global rule sits in `@layer base` in `theme.css`, so a Tailwind weight utility on a heading overrides it normally. Inside `prose`, `prose-headings:font-bold` in `src/utils/prose.ts` sets the same 700 explicitly; without it the typography plugin would render prose `h1` at 800 (a face not registered here) and `h3`/`h4` at 600. The footnote heading keeps its own unlayered 400 rule. Sizes themselves
   come from the `@tailwindcss/typography` plugin's defaults (`prose`
   classes in `src/utils/prose.ts`), not custom-set — don't add
   per-heading `fontSize` overrides here without checking that file.
@@ -559,9 +559,10 @@ Generated Markdown footnotes use a separate "Fußnoten" section with 32px of spa
   accent text on cards, or `card-foreground` on a `primary`-tinted fill.
   `primary` remains valid as a fill (buttons, active pagination, month
   dots) and as text on `background`.
-* **Don't** add Tailwind font-weight utilities to headings — the unlayered
-  global rule renders every `h1`–`h6` at 700 and silently overrides them
-  (see Typography).
+* **Don't** change a heading's weight without a reason recorded here —
+  700 is the site-wide heading weight. Weight utilities on headings work
+  (the global rule is in `@layer base`), so a deliberate exception is a
+  class, not a new unlayered rule.
 
 ## Island logo kit
 
