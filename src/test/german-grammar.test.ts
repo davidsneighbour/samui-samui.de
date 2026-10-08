@@ -100,6 +100,13 @@ describe('German grammar match filtering', () => {
         'Ich bastel was.',
       ),
     ).toBe(true);
+    // Matches that start with a space are compared without it.
+    expect(
+      isRelevantMatch(
+        match(19, 5, 'SUBJUNKTION_KOMMA'),
+        'Sicher --- sagte er wenn.\n<!-- grammar-ignore SUBJUNKTION_KOMMA wenn -->',
+      ),
+    ).toBe(false);
     // Some rule IDs contain a hyphen.
     expect(
       isRelevantMatch(

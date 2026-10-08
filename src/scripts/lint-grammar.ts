@@ -73,9 +73,9 @@ export const IGNORED_TEXTS = ['Kung Fu'];
 /**
  * Per-post exceptions for intentional informal style, for example
  * `<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E bastel -->`. A match is dropped
- * only when both its rule ID and its exact text are listed in the same post,
- * like a file-level `cspell:ignore` comment. HTML comments are markup, so the
- * comment itself is never checked.
+ * only when both its rule ID and its exact text (without surrounding spaces)
+ * are listed in the same post, like a file-level `cspell:ignore` comment. HTML
+ * comments are markup, so the comment itself is never checked.
  */
 const LOCAL_IGNORE = /<!--\s*grammar-ignore\s+([A-Z0-9_-]+)\s+(.+?)\s*-->/g;
 
@@ -227,7 +227,7 @@ export function isRelevantMatch(
   if (DISABLED_RULES.includes(match.rule.id)) return false;
   if (DISABLED_CATEGORIES.includes(match.rule.category.id)) return false;
   if (IGNORED_TEXTS.includes(text)) return false;
-  if (ignores.has(`${match.rule.id} ${text}`)) return false;
+  if (ignores.has(`${match.rule.id} ${text.trim()}`)) return false;
   if (match.rule.id === 'OLD_SPELLING_RULE') return text.includes('ß');
   return true;
 }

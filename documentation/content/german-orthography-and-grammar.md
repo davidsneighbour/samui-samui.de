@@ -141,7 +141,7 @@ Some rules flag the blog's informal voice rather than errors, for example `ERSTE
 <!-- grammar-ignore RAN_RUM_RAUF_REIN_RAUS_RUNTER_NEU rumgespielt -->
 ```
 
-The comment takes the rule ID and the exact text that LanguageTool reports. It drops only matches with that rule ID and that text in that post. Use it only for intentional style. Fix real errors (commas, agreement, case, separated verb prefixes) instead.
+The comment takes the rule ID and the exact text that LanguageTool reports, without leading or trailing spaces. It drops only matches with that rule ID and that text in that post. Use it only for intentional style. Fix real errors (commas, agreement, case, separated verb prefixes) instead.
 
 These rule IDs were found by running LanguageTool 6.8 on sample sentences in the house style, not guessed. To disable another rule after reviewing its findings across the archive, add its ID to `DISABLED_RULES` in `src/scripts/lint-grammar.ts` and record the reason in the table above. Typography rules (`AUSLASSUNGSPUNKTE_LEERZEICHEN`, `EINHEIT_LEERZEICHEN`) are currently kept, because they give valid German typography advice.
 
