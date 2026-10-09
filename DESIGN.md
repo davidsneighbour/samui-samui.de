@@ -527,9 +527,10 @@ Generated Markdown footnotes use a separate "Fußnoten" section with 32px of spa
 * **Masthead** (`src/components/Header.astro`) — see Typography and
   Layout above; the site's one genuinely bespoke, non-utility-driven
   component.
-* **ConstructionBanner** (`src/components/ConstructionBanner.astro`) —
-  intentionally *not* on the theme palette: black/`#ffd400` (yellow)
-  hazard-stripe styling, inverted in dark-mode media query. This is a
+* **ConstructionBanner** (`src/components/layout/header/ConstructionBanner.astro`) —
+  intentionally *not* on the theme palette: always `#ffd400` (yellow)
+  background with black text and hazard stripes, in both themes and
+  regardless of the OS colour-scheme preference. This is a
   deliberate visual break from the rest of the site (an "under
   construction" notice should look like one), not an oversight.
 * **Notice** (`src/components/Notice.astro`, plus the `<dnb-notice>`
