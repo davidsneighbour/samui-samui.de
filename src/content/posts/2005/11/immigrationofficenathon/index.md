@@ -11,8 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="455" src="//static.flickr.com/33/66447260_d94e8e2552.jpg" alt="Immigration Office Nathon" />][1]
+![Immigration Office Nathon](./immigration-office-nathon-66447260.jpg)
 
-Man möge das Wetter beachten, bei dem man hier vor die Tür geschickt wird. Mit _Hunden_ macht man das nicht...
-
- [1]: http://www.flickr.com/photos/schreibblogade/66447260/ "Immigration Office Nathon"
+Man möge das Wetter beachten, bei dem man hier vor die Tür geschickt wird. Mit _Hunden_ macht man das nicht …

@@ -12,10 +12,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/412795414/"><img src="//farm1.static.flickr.com/152/412795414_7d8ba2c8a6.jpg" class="flickr-photo" alt="" /></a></p>
+![Headhunter](./headhunter-412795414.jpg)
 
-  <p>
-    Headhunter
-  </p>
-</div>
+Headhunter
