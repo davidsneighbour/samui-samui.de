@@ -27,8 +27,10 @@ Trailing-slash behaviour is unchanged and verified on Apache 2.4: `/kontakt` →
 ## State before the cutover (2026-10-09)
 
 * Nameservers: Cloudflare (`dante.ns.cloudflare.com`, `simone.ns.cloudflare.com`).
-* `samui-samui.de` A records: `75.2.60.5`, `99.83.231.61` (Netlify load balancers), **DNS only** (no `cf-ray` header; `server: Netlify`).
+* `samui-samui.de`: CNAME `apex-loadbalancer.netlify.com` (flattened at the apex by Cloudflare, so it resolves to `75.2.60.5` and `99.83.231.61`), **DNS only** (checked through the Cloudflare API; no `cf-ray` header, `server: Netlify`).
 * `www.samui-samui.de` CNAME `samui-samui-de.netlify.app`, DNS only. Netlify redirects www to the apex.
+* Zone `e1305aff1713d1c3acb9d97852ee4565`, Free plan. SSL/TLS mode **Full** (not strict), **Always Use HTTPS** off, no Cache Rules, no Worker routes.
+* Records that must stay untouched: MX (Google Workspace), `send.samui-samui.de` (Resend/Amazon SES), the proxied `links.samui-samui.de` CNAME (Resend link tracking), and the TXT records (SPF, DKIM, DMARC, site verifications). The Cache Rules match only the host `samui-samui.de`, so they do not affect `links.samui-samui.de`.
 * Netlify sent `cache-control: public,max-age=0,must-revalidate` for HTML and assets.
 * Response times measured from the maintainer's machine: `/` 0.34–0.35 s TTFB, `/2005/01/connectivity/` 0.57–0.69 s, `/archiv/themen/politik/` 0.38–1.22 s (Netlify edge misses included).
 
@@ -36,7 +38,7 @@ Trailing-slash behaviour is unchanged and verified on Apache 2.4: `/kontakt` →
 
 * `samui-samui.de` A record → the DreamHost web IP of the site, `173.236.199.86` (answer of `ns1.dreamhost.com` for `samui-samui.de` and `www` on 2026-10-09; check it again before the switch). This is not the SSH server's IP (`173.236.193.42`). **Proxied** (orange cloud). Cache Rules, the Worker route, and the redirect rule only apply to proxied traffic.
 * `www.samui-samui.de` → proxied (A record to the same IP, or CNAME to `samui-samui.de`). The Cloudflare redirect rule answers it, so it never reaches DreamHost.
-* No AAAA record unless DreamHost provides IPv6 for the site. Remove the Netlify A records.
+* No AAAA record unless DreamHost provides IPv6 for the site. The Netlify apex CNAME is replaced, not kept beside the A record.
 * SSL/TLS mode **Full (strict)**: Cloudflare connects to DreamHost over HTTPS and validates the certificate. Never use Flexible: it would send all traffic from Cloudflare to the origin over plain HTTP.
 * **Always Use HTTPS** on (SSL/TLS → Edge Certificates).
 
@@ -68,7 +70,7 @@ Every step before 7 can be done and verified while Netlify still serves producti
    * Worker: `npm run deploy:worker`. The route exists from now on, but it only applies to proxied traffic.
    * Rules: `npm run cache:rules`, then `npm run cache:rules:update`.
    * SSL/TLS mode **Full (strict)**, **Always Use HTTPS** on.
-7. **DNS switch** (Cloudflare → DNS): set the apex A record to the DreamHost IP, **Proxied**; delete the second Netlify A record; set `www` to proxied. Proxied records use a short TTL, so the switch takes effect within minutes.
+7. **DNS switch** (Cloudflare → DNS): delete the apex CNAME `apex-loadbalancer.netlify.com` and create an A record `samui-samui.de` → `173.236.199.86`, **Proxied**; change `www` to CNAME `samui-samui.de`, **Proxied**. Proxied records use a short TTL, so the switch takes effect within minutes.
 8. **Verify production:** `npm run test:smoke`, then a contact-form test submission on `/kontakt/`, then the measurements below.
 9. **Purge after the switch:** `npm run cache:purge -- --all-html` (removes anything cached during the switch).
 10. **Privacy policy.** Update `src/pages/kleingedrucktes/datenschutzerklaerung.mdx`, which still names Netlify as host and as the weather-function platform, to DreamHost (hosting) and Cloudflare (CDN, Workers, Turnstile). This is legal text and must be reviewed by the site owner. Deploy.
@@ -98,7 +100,7 @@ Expected: HTML `cf-cache-status: HIT` after the first request; `Cache-Tag` and `
 ## Rollback
 
 * **Before the DNS switch:** nothing to roll back; Netlify serves production.
-* **After the DNS switch:** set the apex A records back to `75.2.60.5` and `99.83.231.61` and `www` back to CNAME `samui-samui-de.netlify.app`, all **DNS only**. Netlify still has the last deploy, and `netlify.toml` still rewrites `/api/contact` and `/api/weather` to the Netlify Functions, so the current form keeps working there. The Worker route goes idle as soon as the records are not proxied.
+* **After the DNS switch:** replace the apex A record with the CNAME `apex-loadbalancer.netlify.com` again and set `www` back to CNAME `samui-samui-de.netlify.app`, both **DNS only**. Netlify still has the last deploy, and `netlify.toml` still rewrites `/api/contact` and `/api/weather` to the Netlify Functions, so the current form keeps working there. The Worker route goes idle as soon as the records are not proxied.
 * **A bad deploy after the move:** `npm run deploy:site:rollback` ([deployment](deployment.md#rollback)), `npx wrangler rollback` for the Worker.
 
 ## Netlify clean-up

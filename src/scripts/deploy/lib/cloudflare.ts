@@ -43,7 +43,11 @@ export class CloudflareClient {
     const payload = (await response.json()) as ApiEnvelope<T>;
     if (!response.ok || !payload.success) {
       const errors = payload.errors
-        ?.map((error) => `${error.code}: ${error.message}`)
+        ?.map((error) =>
+          error.code === undefined
+            ? error.message
+            : `${error.code}: ${error.message}`,
+        )
         .join('; ');
       throw new Error(
         `Cloudflare API ${method} ${pathname} failed (HTTP ${response.status}): ${errors || 'unknown error'}`,
