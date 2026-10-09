@@ -9,7 +9,6 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 Irgendwie fing es am Mittwochabend an zu regnen und hörte nicht wirklich auf. Das ist relativ normal, auch wenn die wahren Kenner der Inselszene meinten, es würde nur 5 Minuten regnen und dann … na ja … das ist eine ganz andere Geschichte. Jedenfalls hörte es nicht auf zu regnen. Also fuhr ich am Donnerstag durch die Fluten in Maenam und Bophut auf Arbeit in der Hoffnung auf abendliche Wetterbesserung. Die blieb aus und so schwamm ich abends wieder zurück in meine geliebte Hütte.
 
@@ -23,7 +22,7 @@ Es regnete.
 
 Auf der Ringroad angekommen ergoss sich ein steter kleiner Strom Wassers durch Maenam. Der Verkehr ging nur in Schritttempo vorwärts und die Kinder spielten in den Pfützen am Rande der größeren Überschwemmungen.
 
-Nach Maenam kam dann eine große Pfütze, aber <txp:gho_permalink id="517">das kannte ich ja schon aus den Wochen vorher</txp:gho_permalink>. Diesmal war die Pfütze tiefer. Seit Montag wurde auch an der Straße gebaut und so drängten sich wieder einmal die Mopeds auf dem Fußweg und die Autos auf dem Platz, den die halbseitig gesperrte Straße bot.
+Nach Maenam kam dann eine große Pfütze, aber das kannte ich ja schon aus den Wochen vorher. Diesmal war die Pfütze tiefer. Seit Montag wurde auch an der Straße gebaut und so drängten sich wieder einmal die Mopeds auf dem Fußweg und die Autos auf dem Platz, den die halbseitig gesperrte Straße bot.
 
 Es regnete ein bisschen stärker. Ich fuhr ein wenig schneller. Das Wasser wurde ein wenig höher und ich dankte mir selbst für den Supereinfall, trockene Klamotten mitzunehmen. Die meisten Mopeds gaben nun auf, das Wasser war auch wirklich ein wenig hoch, aber wer den Dschungelumweg schafft, kommt auch durch diesen See. Dachte ich. Bis mein Moped dann plötzlich in der Straße verschwand und mich verwirrt und vermutlich leicht dämlich blickend stehen ließ.
 

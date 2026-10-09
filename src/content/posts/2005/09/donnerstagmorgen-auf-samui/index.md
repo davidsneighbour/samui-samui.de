@@ -9,12 +9,11 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 Heute morgen war ungewöhnlich viel Verkehr in Lamai. Mir war nach dem "langen Arbeitsweg", der ungefähr 10 Minuten länger dauert und mich durch einige Bereiche der Ortschaft führt, die mir morgens halb Acht besser gefallen als zu anderen Tageszeiten.
 
 Nach einigen Minuten im immer dichter werdenden Verkehr kam ich an einigen Schuhen auf der Straße vorbei. Schwarz. Eher grau. Staubig. Zerrissen. Dann holperte ich über den Bremsgriff eines Mopeds. Einige Meter weiter lag dann das zugehörige Moped auf der Straße. Noch einige Meter weiter lag ein weiteres Moped auf der Straße. 30 Meter weiter sah man dann auch die Besitzerin der Schuhe unter einem Pickup eingeklemmt. Sie lebte noch, was ich meine an der Feuchte ihrer Augen sowie der Tatsache dass sich einige Thais um sie bemühten festmachen zu können.
 
-<txp:gho_permalink id="218">Ansonsten standen die üblichen geschockten Thais geschockt in der Gegend rum</txp:gho_permalink>.
+Ansonsten standen die üblichen geschockten Thais geschockt in der Gegend rum.
 
 Es beruhigt ungemein, dass es hier sowas wie Halskrausen zu geben scheint. Und ich werde für einige Tage den Mopedhelm tragen. Wenn ich Moped fahre.

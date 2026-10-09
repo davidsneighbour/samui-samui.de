@@ -21,8 +21,10 @@ Die Karaoke-Bar auf meiner aktuellen Zufahrtsstraße hat sogar so was wie einen 
 
 Unterschiede zwischen den Sexarbeitern für Farangs und Thais gibts auch: erstere tragen lieber Schwarz und haben dunklere Haut, die Frauen für die Thais streben immer noch nach weißer Haut und tragen Kleidung, die ich auf den Straßenstrichen polnischer Grenzorte vermute. Leder in Weiß oder Neonfarben, Stiefel bis zum Knie und einen Gürtel als Rock.
 
-Wird Zeit, dass ich mir ein neues Haus suche<txp:gho_footnote>Was eine Art Ankündigung ist...</txp:gho_footnote>. Mal im Süd-Westen der Insel suchen. Dann habe ich aber auch alle Gegenden hier schon durch.
+Wird Zeit, dass ich mir ein neues Haus suche[^legacy-note-1]. Mal im Süd-Westen der Insel suchen. Dann habe ich aber auch alle Gegenden hier schon durch.
 
 <!-- cspell:ignore karaokisieren -->
 <!-- grammar-ignore WAGE_VAGE wage -->
 <!-- grammar-ignore LEERZEICHEN_HINTER_DOPPELPUNKT :gho -->
+
+[^legacy-note-1]: Was eine Art Ankündigung ist...

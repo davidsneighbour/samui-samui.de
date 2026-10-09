@@ -9,7 +9,6 @@ publisher:
   seo: true
   covermigration: true
   flickr: true
-  textpattern: true
 ---
 ![360°](./360-215649892.jpg)
 
@@ -23,7 +22,7 @@ Wir fuhren also Freitag kurz vor Sonnenuntergang zur Hausbesichtigung und fanden
 
 Jedenfalls bin ich dann vor zwei Wochen umgezogen und habs bisher keinen Tag bereut. Ich bin in einer kleinen Thaicommunity gelandet und der einzige Farang hier. Das hat ein wenig Exotenstatus, aber ich glaube, die Aufregung hat sich inzwischen gelegt. Ich habe jede Menge Leute kennen gelernt und bin zum Englischlehrer aufgestiegen. Jeden Abend kommt Khun Dthoh vorbei und lernt einen neuen Satz. Khun Dthoh wohnt um die Ecke. Der Mann ist fast einen eigenen Eintrag wert. Mal sehen. Die Kinder von den Hausbesitzern kommen auch gerne vorbei, weil mein Fernseher immer läuft und ihre Hunde nicht so wuschelig sind. Wenn ich dann mal irgendwas auf Thai sage, brabbeln sie mich zu, als ob ich _alles_ verstehen würde. Wenn am Haus irgendwas nicht funktioniert, kommt ein ziemlich kleiner Thai und kriecht unters Dach oder in irgendwelche Ecken um es zu richten.
 
-Ständig kommt jemand vorbei um zu quatschen (ein Umstand der mir als notorischen Einsiedler am Anfang sehr zu schaffen gemacht hat) oder frisch geerntete Früchte oder Gemüse zu bringen. Mein Haus ist ein Traum und die Hunde fühlen sich wohl, <txp:gho_permalink id="838">wenn sie nicht gerade von Killerbestien zerfleischt werden</txp:gho_permalink>.
+Ständig kommt jemand vorbei um zu quatschen (ein Umstand der mir als notorischen Einsiedler am Anfang sehr zu schaffen gemacht hat) oder frisch geerntete Früchte oder Gemüse zu bringen. Mein Haus ist ein Traum und die Hunde fühlen sich wohl, wenn sie nicht gerade von Killerbestien zerfleischt werden.
 
 Ich kenne jede Menge neuer Leute, deren Namen ich alle noch lernen muss, Khun Chang, Khun Ooy, Khun Lek, Khun Aum und das hässliche kleine haarlose Baby. Da bin ich ja schon froh, dass die Kinder der Hausbesitzerin schwarz und weiß heißen. Sii Damn und Sii Khauw. Ist leicht zu merken und wenn man sie beide vor sich stehen hat auch verständlich.
 

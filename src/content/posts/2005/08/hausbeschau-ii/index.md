@@ -9,15 +9,14 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
-Neues Haus, alte Kamera aber wieder funktionierend. Also neue Hausbeschau. Unsereins bezog ja Mitte des Monats für die letzten Baht die das Singaporegebeutelte Budget hergab <txp:gho_permalink id="310">eine nette kleine Hütte</txp:gho_permalink> im Dschungel von Lamai. Nachfolgend nun eine bebilderte Reise durch mein Reich. Das _\*Haus am Berg\*_
+Neues Haus, alte Kamera aber wieder funktionierend. Also neue Hausbeschau. Unsereins bezog ja Mitte des Monats für die letzten Baht die das Singaporegebeutelte Budget hergab eine nette kleine Hütte im Dschungel von Lamai. Nachfolgend nun eine bebilderte Reise durch mein Reich. Das _\*Haus am Berg\*_
 
 ![](/wp-content/old-images/140.jpg)
 
 ![](/wp-content/old-images/141.jpg)
 
-Wir betreten das ehrwürdige Gemäuer durch die hölzerne Vordertür und sehen uns dem Medienzimmer gegenüber. Die thailändische Standardcouch fehlt ebensowenig wie das in allen Häusern vorhandene Glascouchtischmodell (identisch mit dem im alten Haus --- <txp:gho_permalink id="12">man vergleiche bitte</txp:gho_permalink>). Auf dem Tisch sehen wir ein Buch mit einem pinken Elefanten sowie verschiedene Drogenbestecks. Einige neckisch verteilte Sessel vervollständigen das noch recht karge Ambiente und geben zwischen durch einen Holzmarionettenelefanten namens Kah (Hubert Kah) bewachten Fernseher und Couch den Weg in die Partyhalle frei.
+Wir betreten das ehrwürdige Gemäuer durch die hölzerne Vordertür und sehen uns dem Medienzimmer gegenüber. Die thailändische Standardcouch fehlt ebensowenig wie das in allen Häusern vorhandene Glascouchtischmodell (identisch mit dem im alten Haus --- man vergleiche bitte). Auf dem Tisch sehen wir ein Buch mit einem pinken Elefanten sowie verschiedene Drogenbestecks. Einige neckisch verteilte Sessel vervollständigen das noch recht karge Ambiente und geben zwischen durch einen Holzmarionettenelefanten namens Kah (Hubert Kah) bewachten Fernseher und Couch den Weg in die Partyhalle frei.
 
 ![](/wp-content/old-images/138.jpg)
 

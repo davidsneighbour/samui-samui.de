@@ -8,8 +8,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
-Zum "<txp:gho_permalink id="882">Protector</txp:gho_permalink>" gibts sogar [eine süße multimediale Website][1].
+Zum "Protector" gibts sogar [eine süße multimediale Website][1].
 
  [1]: http://www.theprotectormovie.com/

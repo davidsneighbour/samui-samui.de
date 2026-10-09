@@ -8,9 +8,8 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
-So. Ich glaube ich habe mich so langsam mit <txp:gho_permalink id="856">meinem neuen Behindertengefährt</txp:gho_permalink> abgefunden. Meine Füße zucken nicht mehr unkontrolliert, wenn es Gänge zu schalten gibt (weil es keine Gänge zu schalten gibt) und auch die Sache mit den Bremsen wird langsam klar. Vorne links ist Vollbremsung und vorne rechts Abbremsen. Einziges Manko ist, dass kein Körbchen am Moped ist, denn Pokki mag die Stellfläche nicht allzusehr.
+So. Ich glaube ich habe mich so langsam mit meinem neuen Behindertengefährt abgefunden. Meine Füße zucken nicht mehr unkontrolliert, wenn es Gänge zu schalten gibt (weil es keine Gänge zu schalten gibt) und auch die Sache mit den Bremsen wird langsam klar. Vorne links ist Vollbremsung und vorne rechts Abbremsen. Einziges Manko ist, dass kein Körbchen am Moped ist, denn Pokki mag die Stellfläche nicht allzusehr.
 
 Es hat wohl ziemlich viel PS denn beim Testfahren heute war ich plötzlich weit über 80 km/h. Und morgen teste ich mal die Berge zwischen Ban Thai und Nathon.
 

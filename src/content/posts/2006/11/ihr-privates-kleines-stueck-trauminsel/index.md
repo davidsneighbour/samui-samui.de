@@ -9,7 +9,6 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 Kommse rein, kommse her, hier gibts noch was für den Euro!!!
 
@@ -23,7 +22,7 @@ Wenn ich 18 Millionen Baht hätte, würde ich die Buden abreißen und meine eige
 
 Jedenfalls: Das ist ein ernsthaftes Angebot. 18 Millionen Baht. 1 Rai. Auf Ko Samui. Ich geh ehrlich gesagt davon aus, dass sich niemand interessiert. Aber falls doch, melden.
 
-Zum Rai und Landbesitz für Farangs in Thailand habe ich bereits einen Eintrag in den Tiefen dieser Seiten verborgen: <txp:gho_permalink id="691">Landkauf und -besitz für Ausländer</txp:gho_permalink>.
+Zum Rai und Landbesitz für Farangs in Thailand habe ich bereits einen Eintrag in den Tiefen dieser Seiten verborgen: Landkauf und -besitz für Ausländer.
 
 PS: Das eigentlich Lustige ist, wie sie (die Mutter des Manns meiner Hausbesitzerin) es mir mitteilte. Ich war gerade damit beschäftigt, mich mit Khun Dtoh, meinem regelmässig vorbeikommenden Thai-Freund zu unterhalten und ihm einen Satz auf Englisch beizubringen. Wir haben so eine Art Abkommen: Er lernt mir Thai und ich lerne ihm Englisch. Er kommt dann immer und will sich vorbereitete Sätze beibringen lassen.
 

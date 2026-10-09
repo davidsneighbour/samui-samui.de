@@ -9,17 +9,16 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 **Sagen Sie möglichst neutral "So, ab heute trennen sich unsere Wege"**
 
 Ich bin jetzt seit acht Wochen "arbeitslos". Das klingt irgendwie kürzer als es sich manchmal anfühlt. Andererseits ist es eine ausreichend lange Zeit, um endlich mal auf die Reihe zu bekommen, wie es weitergehen soll. _"Ich habe da verschiedene Ansätze" sprach der Autor entspannt gelassen und lehnte sich zurück_.
 
-<txp:gho_permalink id="546">Ich wurde schon im Dezember vergangenen Jahres auf unschöne Art und Weise darauf aufmerksam gemacht</txp:gho_permalink>, dass mein Arbeitsplatz beim Ex-Arbeitgeber nicht von Dauer sein würde und durchaus launenabhängig sowie interpretationsbedürftig war und fing bereits da an, zu überlegen, wie es im vergleichbaren Falle weiter gehen würde. Die Zeit mit den Praktikant(inn)en war nochmal ganz schön (bis auf die letzten beiden Tage, nicht wahr?), dann gings mit Hochgeschwindigkeit bergab. Der erwähnte vergleichbare Fall trat dann (mit identisch schematischem und verbalem ("So, ab heute trennen sich unsere Wege") Vorgehen) am 1. Juni ein.
+Ich wurde schon im Dezember vergangenen Jahres auf unschöne Art und Weise darauf aufmerksam gemacht, dass mein Arbeitsplatz beim Ex-Arbeitgeber nicht von Dauer sein würde und durchaus launenabhängig sowie interpretationsbedürftig war und fing bereits da an, zu überlegen, wie es im vergleichbaren Falle weiter gehen würde. Die Zeit mit den Praktikant(inn)en war nochmal ganz schön (bis auf die letzten beiden Tage, nicht wahr?), dann gings mit Hochgeschwindigkeit bergab. Der erwähnte vergleichbare Fall trat dann (mit identisch schematischem und verbalem ("So, ab heute trennen sich unsere Wege") Vorgehen) am 1. Juni ein.
 
 Ich war weder verwundert noch geschockt noch sonderlich überrascht und hatte bereits genug angespart um in kein Loch zu fallen. Ein bisschen musste ich mir das Grinsen verkneifen, aber das muss(te) ich mir eigentlich immer. Ich genoss zwei Wochen des gepflegten Alkoholismusses (das lässt das Gesicht so unschön aufschwellen, ein Grund mehr fürs Abgewöhnen) und begann dann die Situation zu sondieren.
 
-Die Leute mit denen ich mich diesbezüglich unterhalten habe waren zum größten Teil interessanterweise erleichtert für mich, vor allem wenn sie die Berichte des vorangegangenen anderthalben Jahres mit verfolgt hatten. Meine Eltern waren (und sind) natürlich äußerst besorgt --- das finde ich aber normal in einer Generation die durch die Wende sowohl in existentielle als auch familiäre Krisen geschleudert wurde<txp:gho_footnote>Mir fällt gerade auf, dass man das missverstehen könnte, also mal klarer, deutlicher: Ich kenne niemanden, der nach der Wende nicht arbeitslos wurde und komplett neu anfangen musste und selbst heute noch irgendwie sich abmühen muss, um "durchzukommen".</txp:gho_footnote>. Lustig fand ich die häufiger auftretende Frage, ob ich denn nun nach Island auswandern würde, wie ich es immer geplant hatte. Ich kann euch beruhigen, das habe ich immer erst mit dem Alter von 50 geplant und es irgendwie in den letzten zwei Jahren mehr und mehr ausgeblendet und gerade jetzt vergessen. Irgendwie bin ich hier hängen geblieben und kann mir (derzeit) nicht vorstellen, "weg"<txp:gho_footnote>aus Asien</txp:gho_footnote> zu gehen.
+Die Leute mit denen ich mich diesbezüglich unterhalten habe waren zum größten Teil interessanterweise erleichtert für mich, vor allem wenn sie die Berichte des vorangegangenen anderthalben Jahres mit verfolgt hatten. Meine Eltern waren (und sind) natürlich äußerst besorgt --- das finde ich aber normal in einer Generation die durch die Wende sowohl in existentielle als auch familiäre Krisen geschleudert wurde[^legacy-note-1]. Lustig fand ich die häufiger auftretende Frage, ob ich denn nun nach Island auswandern würde, wie ich es immer geplant hatte. Ich kann euch beruhigen, das habe ich immer erst mit dem Alter von 50 geplant und es irgendwie in den letzten zwei Jahren mehr und mehr ausgeblendet und gerade jetzt vergessen. Irgendwie bin ich hier hängen geblieben und kann mir (derzeit) nicht vorstellen, "weg"[^legacy-note-2] zu gehen.
 
 Nun aber zur eigentlichen Frage: Wie geht es weiter? Grundsätzlich gibt es da zwei Möglichkeiten.
 
@@ -50,3 +49,7 @@ Es sieht also nicht gut aus, was eine Gründung im Lande betrifft. Nichtsdestotr
 Ich werde sehen wie meine verschiedenen kleinen Bestrebungen voran gehen. Solange das Geld noch nicht alle ist brauche ich nicht panisch zu werden. Eine Anstellung wäre fein. Ich würde dafür sogar samt Hunden und Freundin nach Bangkok oder Hong Kong auswandern. Es deutet aber schon irgendwie auf Selbständigkeit hin. Leider. Sage ich heute. In ein paar Jahren sag ich vielleicht Zum Glück. Oder gar nichts mehr.
 
 In den nächsten Tagen werde ich mal einige "Geschäftsideen" vorstellen, die ich in den vergangenen Wochen aufgestellt und wieder verworfen habe. Jetzt Thai sein wäre gut...
+
+[^legacy-note-1]: Mir fällt gerade auf, dass man das missverstehen könnte, also mal klarer, deutlicher: Ich kenne niemanden, der nach der Wende nicht arbeitslos wurde und komplett neu anfangen musste und selbst heute noch irgendwie sich abmühen muss, um "durchzukommen".
+
+[^legacy-note-2]: aus Asien

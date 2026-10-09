@@ -11,9 +11,8 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
-Heute meinte die Frau des Englischlehrers (<txp:gho_permalink id="319">häh? wie? was? Englischlehrer?</txp:gho_permalink>) beim wöchentlichen Plausch zu mir "<span class="thai" xml:lang="th">May Mii Bumbui Kaaaaaaaaah</span>" (viele Frauen sprechen das Kah ziemlich niedlich langgezogen aus) gefolgt von einem schnellen und unverständlichen Redeschwall den der Englischlehrer in etwa mit ich war mal dicker und habe nun sichtbar abgenommen und sehe richtig handsome aus übersetzte.
+Heute meinte die Frau des Englischlehrers (häh? wie? was? Englischlehrer?) beim wöchentlichen Plausch zu mir "<span class="thai" xml:lang="th">May Mii Bumbui Kaaaaaaaaah</span>" (viele Frauen sprechen das Kah ziemlich niedlich langgezogen aus) gefolgt von einem schnellen und unverständlichen Redeschwall den der Englischlehrer in etwa mit ich war mal dicker und habe nun sichtbar abgenommen und sehe richtig handsome aus übersetzte.
 
 Hmm. Nett. Ich persönlich finde mich ja immer noch recht platzeinnehmend, aber wenn ältere Frauen mir erklären dem wäre nicht so ist das eine Einsicht und Information die mir ich dankend als Fakt aneigne. Es ist auch schon längere Zeit kein Stuhl unter mir zusammengebrochen.
 

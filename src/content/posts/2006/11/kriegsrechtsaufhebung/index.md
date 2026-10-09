@@ -9,11 +9,10 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 Der Verteidigungsminister General Boonrawd Somtas hat vergangene Woche bestätigt, dass im Dezember das [Kriegsrecht aufgehoben][1] werden soll. Oder auch nicht. Mal sehen.
 
-In mindestens sieben Provinzen soll es weiter bestehen bleiben. Drei der Provinzen sind die Unruheprovinzen Yala, Narathiwat und Pattani im Süden, wo auch schon vor dem Putsch das Kriegsrecht bestand. Die vier anderen Provinzen sind Chiang Mai und Chiang Rai sowie Buri Ram und Surin, wo politische Aktivisten Gruppen um ehemalige Minister und sehr gute Freunde Thaksins gebildet haben (sollen). Diese Gruppen waren auch nach dem Putsch weiterhin aktiv und es wird ihnen nachgesagt, sie hätten auch jetzt noch gute Kontakte zu Thaksin (<txp:gho_permalink id="1019">der in Hong Kong verweilt</txp:gho_permalink>).
+In mindestens sieben Provinzen soll es weiter bestehen bleiben. Drei der Provinzen sind die Unruheprovinzen Yala, Narathiwat und Pattani im Süden, wo auch schon vor dem Putsch das Kriegsrecht bestand. Die vier anderen Provinzen sind Chiang Mai und Chiang Rai sowie Buri Ram und Surin, wo politische Aktivisten Gruppen um ehemalige Minister und sehr gute Freunde Thaksins gebildet haben (sollen). Diese Gruppen waren auch nach dem Putsch weiterhin aktiv und es wird ihnen nachgesagt, sie hätten auch jetzt noch gute Kontakte zu Thaksin (der in Hong Kong verweilt).
 
 Das genaue Datum ist wie die Zahl der Provinzen, in denen das Kriegsrecht aufrecht erhalten bleibt noch recht diffus. Boonrawd sagte, dass auch noch weitere Provinzen im Süden in Frage kommen (was ziemlich konvenient ist, denn vor dem Putsch hätte man keine weiteren Provinzen wegen der Unruhen im Süden unter Kriegsrecht stellen können).
 

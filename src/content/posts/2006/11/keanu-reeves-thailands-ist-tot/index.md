@@ -9,7 +9,6 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 ![](/wp-content/old-images/215.jpg)
 
@@ -19,6 +18,6 @@ Er hat in einigen Thaisoaps mitgewirkt (Apichart, nicht Keanu) und ist auch mir 
 
 Wie man im Bild oben sieht ist die ?hnlichkeit wirklich frappierend. Ich hätte ihn glatt mit Keanu angesprochen, wenn er im Tesko an mir vorbeigelaufen wäre und gefragt, warum er diesen Matrix-Quatsch mitgemacht hat.
 
-PS: Einen direkten Vergleich des thailändischen Hagrids mit dem Original gibt es übrigens in <txp:gho_permalink id="135">diesem uralten Eintrag</txp:gho_permalink>. Inzwischen sagte Fu mir nach, ich sähe aus wie Harry Potter. Man hat hier nicht viele Vergleichsmöglichkeiten scheint mir. Jedenfalls nenne ich sie seither Dobby.
+PS: Einen direkten Vergleich des thailändischen Hagrids mit dem Original gibt es übrigens in diesem uralten Eintrag. Inzwischen sagte Fu mir nach, ich sähe aus wie Harry Potter. Man hat hier nicht viele Vergleichsmöglichkeiten scheint mir. Jedenfalls nenne ich sie seither Dobby.
 
  [1]: http://www.nationmultimedia.com/2006/11/17/national/national_30019210.php

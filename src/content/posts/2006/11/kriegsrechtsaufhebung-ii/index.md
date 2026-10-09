@@ -18,7 +18,7 @@ Für die Provinzen Chiang Mai, Kamphaeng Phet, Buri Ram and Khon Kaen wird ein [
 
 Auf der Karte sieht es dann folgendermassen aus:
 
-<txp:artikelmap w="520" h="400"/>
+_Die ursprüngliche Karte ist nicht mehr verfügbar._
 
 **Legende:** (rot) Kriegsrecht (gelb) [teilweises Kriegsrecht][1] (grün) "Normalität"
 

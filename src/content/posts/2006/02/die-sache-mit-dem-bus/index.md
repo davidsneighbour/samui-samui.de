@@ -9,8 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 ![](/wp-content/old-images/205.jpg)
 
-Der Bus <txp:gho_permalink id="645">fährt übrigens in Thailand nach rechts</txp:gho_permalink>. Wir haben hier Linksverkehr und die Türen sind auf der Straßenrandseite. In Europa würde er dann nach links fahren. Ist doch klar, oder seht ihr hier irgendwo Türen am Bus?
+Der Bus fährt übrigens in Thailand nach rechts. Wir haben hier Linksverkehr und die Türen sind auf der Straßenrandseite. In Europa würde er dann nach links fahren. Ist doch klar, oder seht ihr hier irgendwo Türen am Bus?

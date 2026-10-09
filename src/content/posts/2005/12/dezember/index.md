@@ -9,13 +9,12 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 So. Also.
 
-<txp:gho_motivator />
+_Das frühere dynamische Widget ist nicht mehr verfügbar._
 
-Eigentlich müsste ich ja <txp:gho_permalink id="454">laut Vereinbarung</txp:gho_permalink> diesen Monat nicht bloggen. Mal sehen.
+Eigentlich müsste ich ja laut Vereinbarung diesen Monat nicht bloggen. Mal sehen.
 
 Es gibt eh nicht viel zu berichten. Seit gestern regnet es wieder. Die Straßen, soweit sie von Wasserströmen befreit waren, Bophut war die ganze Woche ein See, sind wieder überflutet und zwischen Chaweng und Lamai ist ein Stück Abhang runtergekommen.
 

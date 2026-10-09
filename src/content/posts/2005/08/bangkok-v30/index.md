@@ -11,7 +11,6 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 **oder Über Wuschel und Japan, ziemlich große Hitze, blauen Heftchen makabren Inhaltes, fiebernde System Analysten die keine sind und warum Thaifrauen recht häufig recht niedlich aussehen.**
 
@@ -43,7 +42,7 @@ Und weil es immer Leute gibt, die genau wissen wollen, was ich denn nun so mache
 
 Sollten besonders wohl informierte Kreise sich nun wundern, warum ich plötzlich statt eines Senior Development Engineers die Degradierung zum Systemanalysten ertragen darf --- das weiss allein das Schicksal und das ist uns immer einen Schritt voraus.
 
-Sie wollen wissen, wie Bangkok 0.9beta, 1.0 und 2.0 war? <txp:gho_permalink id="5">Bangkok 0.9beta</txp:gho_permalink> bestand aus dem Verlassen eines Jumbos, dem Durchschreiten eines 3km Tunnels zwischen dem International und dem Domestic-Airport und dem Besteigen eines Kleinflugzeuges. Bangkok 1.0 (Codename Krungthep Mahanakhon) war eine <txp:gho_permalink id="242">ziemlich</txp:gho_permalink> <txp:gho_permalink id="243">wilde</txp:gho_permalink> <txp:gho_permalink id="245">Roadstory</txp:gho_permalink>. Bangkok 2.0 war ein Rohrkrepierer. Bangkok 4 wird dann bestimmt ein ziemlich heißes Ereignis. Sicher. Sehr sicher. Im September ist es immer heiß. Eigentlich ohne ziemlich (Bangkok 4). Wie auch immer. Ich fahre bald wieder nach Bangkok. Aus verschiedenen Gründen.
+Sie wollen wissen, wie Bangkok 0.9beta, 1.0 und 2.0 war? Bangkok 0.9beta bestand aus dem Verlassen eines Jumbos, dem Durchschreiten eines 3km Tunnels zwischen dem International und dem Domestic-Airport und dem Besteigen eines Kleinflugzeuges. Bangkok 1.0 (Codename Krungthep Mahanakhon) war eine ziemlich wilde Roadstory. Bangkok 2.0 war ein Rohrkrepierer. Bangkok 4 wird dann bestimmt ein ziemlich heißes Ereignis. Sicher. Sehr sicher. Im September ist es immer heiß. Eigentlich ohne ziemlich (Bangkok 4). Wie auch immer. Ich fahre bald wieder nach Bangkok. Aus verschiedenen Gründen.
 
 PS: Der anonyme Chef, der meinte "diesmal wird es klappen, bis Ende August wird das" wischte sich heute den Schweiß von der Stirn und meinte erleichtert, er wäre froh, dass seine genaue Vorhersage eingehalten wurde. Ich auch. Hat man doch gleich viel mehr Vertrauen in Vorhersagen wie "heut wirds bestimmt nicht regnen" und "wir stellen ganz bestimmt eine sexy Masseuse ein".
 

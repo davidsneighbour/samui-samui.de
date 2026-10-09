@@ -9,9 +9,8 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
-Also ich kann <txp:gho_permalink id="531">im Rauch</txp:gho_permalink> durchaus was erkennen.
+Also ich kann im Rauch durchaus was erkennen.
 
 ![](/wp-content/old-images/198.jpg)
 

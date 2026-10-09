@@ -10,7 +10,7 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<txp:thumbnail class="flickr" id="266" wraptag="div" link="1" />
+<img src="/wp-content/old-images/266.jpg" alt="Einladung zum Jazzabend im Karma Samui am 18. Juni 2009" loading="lazy" />
 
 Im [Karma Ressort][1] hier auf Koh Samui kann man am Donnerstagabend um 19 Uhr ein Jazzkonzert mit Magnum und Al Lewis genießen. Dazu ein guter Wein und ein "jazziges" Menü …
 

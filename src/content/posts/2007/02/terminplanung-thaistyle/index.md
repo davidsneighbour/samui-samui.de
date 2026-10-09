@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Ende Dezember 2006 (vergangenes Jahr quasi<txp:gho_footnote>Mit Grüßen</txp:gho_footnote>):
+Ende Dezember 2006 (vergangenes Jahr quasi[^legacy-note-1]):
 
 Ich: I need an online-connection in my house next year. Is this possible?
 
@@ -70,3 +70,5 @@ Er: Internet will come Thursday.
 ...
 
 Hätte ich ein Geisterhaus, ich würde glatt ein paar Räucherstäbchen anzünden. In 48 Stunden wissen wir mehr.
+
+[^legacy-note-1]: Mit Grüßen

@@ -10,7 +10,7 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<txp:thumbnail class="flickr" id="263" wraptag="div" />
+<img src="/wp-content/old-images/263.png" alt="Twitter-Nachricht von smartbrain über das Fernsehprogramm von NBT" loading="lazy" />
 
 Und Twitter (für die vielen älteren unter meinen Lesern, das ist der <span class="caps">SMS</span>-Dienst des Internets) ist mal wieder vorne dabei …
 

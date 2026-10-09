@@ -9,7 +9,6 @@ publisher:
   seo: true
   covermigration: true
   flickr: true
-  textpattern: true
 ---
 ![Ghost](./ghost-2437116396.jpg)
 

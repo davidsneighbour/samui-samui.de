@@ -9,15 +9,14 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
-Ich habe ja nun (wer drei Praktikantinnen um sich hat die deutsche Texte nach Englisch und Thai übersetzen dürfen weiss, dass dieses "ja nun" eine ziemlich schwachsinnige deutsche Wortkonstruktion ist --- ich nutz das trotzdem --- Stillosigkeit als Stil) ein Notebook bestellt und das freundlich <txp:gho_permalink id="658">als neues Familienmitglied gemeldet</txp:gho_permalink>. Ich dachte (die Verwendung des Präteritums deutet darauf hin, dass immer alles anders kommt als man es sich vorstellt, aber das wird man auch noch an der Länge des Eintrages sehen), dass das eine kurze einfache Sache wird --- aus Erfahrung, ich bestellte bei "unserem" Firmenlieferanten J.R. nach Katalog. Ein [Acer TravelMate 3212][1]. Katalogbestellungen machen keine Probleme. Denkt man.
+Ich habe ja nun (wer drei Praktikantinnen um sich hat die deutsche Texte nach Englisch und Thai übersetzen dürfen weiss, dass dieses "ja nun" eine ziemlich schwachsinnige deutsche Wortkonstruktion ist --- ich nutz das trotzdem --- Stillosigkeit als Stil) ein Notebook bestellt und das freundlich als neues Familienmitglied gemeldet. Ich dachte (die Verwendung des Präteritums deutet darauf hin, dass immer alles anders kommt als man es sich vorstellt, aber das wird man auch noch an der Länge des Eintrages sehen), dass das eine kurze einfache Sache wird --- aus Erfahrung, ich bestellte bei "unserem" Firmenlieferanten J.R. nach Katalog. Ein [Acer TravelMate 3212][1]. Katalogbestellungen machen keine Probleme. Denkt man.
 
 Das war vor exakt 2 Wochen.
 
 Am Samstag vor zwei Wochen habe ich dann 6000 Baht angezahlt. Nicht bei J.R. sondern bei einem seiner Mitarbeiter, der kam.
 
-Dann verging eine gemütliche Woche mit Netzwerkspielereien und Computerinstallationen. Ich dachte mir so, naja, das Ding kommt spätestens Freitag und dann gibts ein ekstatisches Wochenende mit zelebrierter Familienzusammenführung. Ich lebe ja schließlich seit Mai 2005 <txp:gho_permalink id="237">mehr oder weniger freiwillig</txp:gho_permalink> ohne Computer im heimatlichen Hüttchen (ja, das geht, selbst wenn man Geek ist).
+Dann verging eine gemütliche Woche mit Netzwerkspielereien und Computerinstallationen. Ich dachte mir so, naja, das Ding kommt spätestens Freitag und dann gibts ein ekstatisches Wochenende mit zelebrierter Familienzusammenführung. Ich lebe ja schließlich seit Mai 2005 mehr oder weniger freiwillig ohne Computer im heimatlichen Hüttchen (ja, das geht, selbst wenn man Geek ist).
 
 Am Freitag kam nichts. Naja, dachte ich mir, kommt er halt nächste Woche und du kuckst dir am Wochenende eben den Herrn der Ringe in der Special Extended Version an. Die Zeit kriegst du schon irgendwie rum. Tatsächlich brachte ich die Zeit irgendwie herum. Das ist aber eine ganz andere Geschichte. Jedenfalls kam der Montag und kein Computer und ich dachte mir (ich denke eine Menge wenn der Tag lang ist), man könnte ja noch ein bisschen warten. Schließlich ist es ein Notebook, das ist nicht so normal in Thailand und überhaupt: "In Thailand dauert alles etwas länger".
 

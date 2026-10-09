@@ -40,6 +40,7 @@
 * [Source citations](content/source-citations.md) defines named Markdown footnote citations for sourced posts.
 * [Social profile copy](content/social-profiles.md) contains reusable German bio and introduction text for the site's social accounts.
 * [Content taxonomies](content/taxonomies.md) explains the `personen`, `orte`, `ereignisse`, and `themen` taxonomy model.
+* [Textpattern tag migration](content/textpattern-tags.md) records the sorted legacy-tag inventory, replacement rules, and unresolved historical IDs.
 * [Video thumbnail cache](content/video-thumbnail-cache.md) documents the locally cached YouTube/Vimeo poster images, the fetch/verify script, and its lint-staged and GitHub Actions wiring.
 
 ## Features

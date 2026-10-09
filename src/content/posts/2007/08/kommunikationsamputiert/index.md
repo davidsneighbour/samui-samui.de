@@ -15,4 +15,6 @@ Ich bin etwas negativ erregt.
 
 Nichtsdestotrotz: Mobilfunk ist ja Kommunikation 1.0 --- Skype oder {fügen Sie hier einen datenschutzrechtlich unbedenklicheren und sowieso freicodigen und weil unter Linux laufend nicht bösen Skype-Klon ein} sind besser.
 
-Ich werde jedenfalls den Rest des Tages Geld zusammen kratzen und mal sehen, ob es dafuer was mit Kamera, <span class="caps">GPS</span>, Mini-SD-Card und parallel verwendbaren Schriften<txp:gho_footnote>Nokia hat mit TH und EN parallel so seine Probleme</txp:gho_footnote> zu kaufen gibt.
+Ich werde jedenfalls den Rest des Tages Geld zusammen kratzen und mal sehen, ob es dafuer was mit Kamera, <span class="caps">GPS</span>, Mini-SD-Card und parallel verwendbaren Schriften[^legacy-note-1] zu kaufen gibt.
+
+[^legacy-note-1]: Nokia hat mit TH und EN parallel so seine Probleme

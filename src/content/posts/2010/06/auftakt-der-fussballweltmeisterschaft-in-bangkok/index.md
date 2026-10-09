@@ -11,7 +11,7 @@ publisher:
   covermigration: true
 ---
 <div class="media image">
-  <txp:thumbnail id="278" /></p>
+  <img src="/wp-content/old-images/278.jpg" alt="Fußballspieler kämpfen auf einem Rasenplatz um den Ball" loading="lazy" /></p>
 
   <p>
     A prison guard, background center, and other inmates watch a soccer match between South Africa, white jersey, and Mexico, black jersey, in the Prison World Cup 2010 Behind Bars to celebrate the <span class="caps">FIFA</span> World Cup 2010 soccer tournament in South Africa at Klong Prem prison in Bangkok, Thailand Thursday, June 10, 2010. The World Cup in South Africa is scheduled to kick off on Friday June 11, 2010.

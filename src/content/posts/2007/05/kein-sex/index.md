@@ -15,7 +15,7 @@ Erstens gibts ne neue Ärztin, die total süß ist und mich ein wenig durcheinan
 
 Zweitens und viel wichtiger: Soosie ist noch nicht geschlechtsreif. Das klingt seltsam, ist es auch. Ich habe überall gelesen, dass Shih-Tzu-Ladies mit 9 Monaten "bereit" sind und alle Hunde der Umgebung sind sehr interessiert an ihr. Soosie ist nun schon 12 Monate alt.
 
-Neulich hockten die Thaimänner der Umgebung, ich und Soosie im Kies und alle überprüften Soosies Hinterteil. Die meinten, Soosie wäre so weit und wir sollten jetzt endlich Nachwuchs produzieren<txp:gho_footnote>Da sind Thais sehr unemotionell, ein Shih-Tzu-Baby bringt auf Samui derzeit 7500 THB, was umgerechnet 170 Euro sind und mehr als zwei Drittel meiner Monatsmiete. Schwangere Shih-Tzu-Damen werden regelmäßig gestohlen.</txp:gho_footnote>
+Neulich hockten die Thaimänner der Umgebung, ich und Soosie im Kies und alle überprüften Soosies Hinterteil. Die meinten, Soosie wäre so weit und wir sollten jetzt endlich Nachwuchs produzieren[^legacy-note-1]
 
 Ich rezitierte die lange vorbereitete Zeile: "No <span class="caps">SEX</span> in my house" (eine durchaus wahre Aussage) und alle lachten. Mein Hausherr aber war der Meinung, Soosie wäre schon aktiv gewesen.
 
@@ -23,3 +23,5 @@ So. Nun habe ich also einen Spätzünder im Hause. Pokki weiß allerdings auch n
 
 <!-- grammar-ignore N_NETTER_TYP ne -->
 <!-- grammar-ignore LEERZEICHEN_HINTER_DOPPELPUNKT :gho -->
+
+[^legacy-note-1]: Da sind Thais sehr unemotionell, ein Shih-Tzu-Baby bringt auf Samui derzeit 7500 THB, was umgerechnet 170 Euro sind und mehr als zwei Drittel meiner Monatsmiete. Schwangere Shih-Tzu-Damen werden regelmäßig gestohlen.

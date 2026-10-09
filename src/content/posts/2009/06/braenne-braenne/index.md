@@ -11,7 +11,7 @@ publisher:
   flickr: true
 ---
 <div class="flickr">
-  <txp:thumbnail id="269" link="y" /></p>
+  <img src="/wp-content/old-images/269.jpg" alt="Mann neben einem großen Feuer vor einem Gebäude" loading="lazy" /></p>
 
   <p>
     Thai officials stand beside a burning container of seized drugs in Thailand's restive southern province of Narathiwat on June 26, 2009. June 26 marks the UN's International Day Against Drug Abuse and Illicit Trafficking. <a href="http://www.daylife.com/photo/001RgT8gvI95Q?q=thailand"><span class="caps">MADAREE</span> <span class="caps">TOHLALA</span>/AFP/Getty Images</a>

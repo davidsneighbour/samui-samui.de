@@ -10,7 +10,7 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<txp:thumbnail class="flickr" id="273" wraptag="div" />
+<img src="/wp-content/old-images/273.jpg" alt="Elephant im Weihnachtskostüm vor einer Gruppe Schulkinder" loading="lazy" />
 
 Thailands Elephanten (oder genauer genommen der Asiatische Elephant) sind ja vom Aussterben bedroht. Und so wundert man sich seltener, wenn sie versuchen, sich an befreundete Spezies anzunähern. Sei es als Panda oder wie oben zu sehen als Weihnachtsmann. So richtig mit grauer Elephantenhaut bekommt man die Dickhäuter nur noch in der Dschungeltour zu sehen.
 

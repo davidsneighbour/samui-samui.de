@@ -13,4 +13,6 @@ Ich habe neuerdings immer so seltsame arthrithisch-rheumatische Anfälle in mein
 
 Ich frage mich jetzt, ob das normal ist, wenn man alt wird. Denn falls ja, ist das eine sehr sehr nervige Angelegenheit. Ich schiebs immer noch auf meinen niedrigen Couchtisch, an dem ich arbeite, wenn das Notebook nicht auf dem Scho? vor sich hin wärmt.
 
-Ich sehe schon, wird Zeit, dass ich mal wieder an einem Arbeitstisch in normaler Höhe (REFA-normiert) arbeite<txp:gho_footnote>Was eine Art Ankündigung ist...</txp:gho_footnote>.
+Ich sehe schon, wird Zeit, dass ich mal wieder an einem Arbeitstisch in normaler Höhe (REFA-normiert) arbeite[^legacy-note-1].
+
+[^legacy-note-1]: Was eine Art Ankündigung ist...

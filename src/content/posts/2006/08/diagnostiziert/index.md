@@ -8,9 +8,8 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
-Da hab ich den gestrigen Tag nun die ganze Zeit darauf gewartet, <txp:gho_permalink id="850">Thaksins Diagnose</txp:gho_permalink> zu hören --- nichts. Vermutlich war sie so niederschmetternd dass sie eine Geheimstufe bekommen hat.
+Da hab ich den gestrigen Tag nun die ganze Zeit darauf gewartet, Thaksins Diagnose zu hören --- nichts. Vermutlich war sie so niederschmetternd dass sie eine Geheimstufe bekommen hat.
 
 Dafür hat man heute mit großem Brimborium einen Lieutnant festgenommen, der einen [Wagen mit explosivem Material in der Nähe von Thaksins Villa][1] gefahren hat. Am Anfang hieß es eine Autobombe wurde entschärft --- das relativierte sich aber im Verlauf des Tages und nun war es nur noch Sprengstoff.
 

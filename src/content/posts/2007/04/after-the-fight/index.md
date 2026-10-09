@@ -9,7 +9,6 @@ publisher:
   seo: true
   covermigration: true
   flickr: true
-  textpattern: true
 ---
 ![After the fight](./after-the-fight-445956648.jpg)
 

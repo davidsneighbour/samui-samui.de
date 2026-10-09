@@ -10,7 +10,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-In der vergangenen Stunde hat es drei Eimer geregnet (<a href="1931">mehr zum Eimerma?</txp:permink>) und mein Khlong vor dem Haus ist voller als "damals" im November. Ein bisschen muss ich schmunzeln --- habe mir bei einer dummen Reiseseite vor ein paar Tagen blöde Kommentare einfangen dürfen, als ich auf die Frage zum aktuellen Wetter auf Samui die [Unwetterwarnung][1] postete --- die Expaten unter den Forennutzern wussten genau Bescheid, dass das Wetter wunderbar ist und die Sonne scheint und die Regenzeit vorbei ist.
+In der vergangenen Stunde hat es drei Eimer geregnet (mehr zum Eimerma?) und mein Khlong vor dem Haus ist voller als "damals" im November. Ein bisschen muss ich schmunzeln --- habe mir bei einer dummen Reiseseite vor ein paar Tagen blöde Kommentare einfangen dürfen, als ich auf die Frage zum aktuellen Wetter auf Samui die [Unwetterwarnung][1] postete --- die Expaten unter den Forennutzern wussten genau Bescheid, dass das Wetter wunderbar ist und die Sonne scheint und die Regenzeit vorbei ist.
 
 Warum die Leute auch in einem Forum nach dem Wetter fragen anstatt bei Google einfach mal "weather samui" einzutippen, verstehe ich nicht, schlie?lich laden sie auch Facebook über das Suchfeld.
 

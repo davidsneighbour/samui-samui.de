@@ -9,8 +9,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 ![](/wp-content/old-images/148.jpg)
 
-<txp:gho_permalink id="345">Sonntagmorgen sah es noch so aus</txp:gho_permalink>.
+Sonntagmorgen sah es noch so aus.

@@ -8,11 +8,10 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 Youtube.com wird immer noch auf den thailändischen Internetleitungen geblockt. Jetzt merkt man beim morgendlichen Feedreader-Abgrasen, wieviele Blogs ihre "Inhalte" über Youtube beziehen. Inzwischen werden auch [immer mehr Informationen][1] zu den Vorgängen hinter den Kulissen bekannt.
 
-Der 44 Sekunden lange Clip, der Thailands Internet-Zensur-Behörde <span class="caps">ICT</span> Youtube.com blocken ließ, soll inzwischen vom Benutzer, der ihn dort hochgeladen hat, gelöscht worden sein. Seine IP ist in den <span class="caps">USA</span> registriert. Trotzdem wird der Block<txp:footnote>der Block, das Blog, damit das endlich mal klar ist</txp:footnote> weiter aufrecht erhalten, weil wohl noch zwei Standbilder auf der Website kursieren sollen.
+Der 44 Sekunden lange Clip, der Thailands Internet-Zensur-Behörde <span class="caps">ICT</span> Youtube.com blocken ließ, soll inzwischen vom Benutzer, der ihn dort hochgeladen hat, gelöscht worden sein. Seine IP ist in den <span class="caps">USA</span> registriert. Trotzdem wird der Block[^legacy-note-1] weiter aufrecht erhalten, weil wohl noch zwei Standbilder auf der Website kursieren sollen.
 
 Im Film sollen nackte Frauenfüße auf dem Bild des Königs zu sehen und Bilder des Monarchen mit Comic-Augen versehen worden sein. Jeder der sich mit dem Status der Königsfamilie beschäftigt hat, kann klar erkennen, dass es beleidigend gemeint ist. Die Füße gelten hier als tiefstes, niederwertigstes Körperteil. Man zeigt nicht mit Füßen auf Personen, im Tempel werden die Füße immer weg von Statuen und Mönchen gehalten, wenn man sitzt oder kniet. Man steigt auch nicht über Personen weg, wenn es mal eng ist.
 
@@ -28,3 +27,5 @@ Update: Inzwischen ist der Useraccount [auch gelöscht][2] worden. Das Video wur
 
  [1]: http://edition.cnn.com/2007/WORLD/asiapcf/04/05/thailand.youtube.reut/index.html?eref=edition_asia
  [2]: http://www.bangkokpost.com/breaking_news/breakingnews.php?id=117895
+
+[^legacy-note-1]: der Block, das Blog, damit das endlich mal klar ist

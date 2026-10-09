@@ -42,7 +42,7 @@ interface Filters {
   thema?: string;
 }
 
-const textpatternTagPattern = /<txp:(?:gho_permalink|permlink|footnote)\b/i;
+const textpatternTagPattern = /<\/?txp:/i;
 
 interface ParsedFrontmatter {
   raw: string;

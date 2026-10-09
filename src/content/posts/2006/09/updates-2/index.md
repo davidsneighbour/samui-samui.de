@@ -8,7 +8,6 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 Die Ereignisse der vergangenen Stunden:
 
@@ -22,6 +21,6 @@ Die Ereignisse der vergangenen Stunden:
 * [Thaksin meldet sich auf der Abreise nach London][1] mit folgenden denkwürdigen Sätzen: "I didn't expect that this will happen. I came here as prime minister but left as an unemployed man. That's fine that no one gives me job. I volunteered to work but the didn't want to give me job, so it's fine." Seine Frau bleibt vorerst in Singapore. Von seinem Sohn, der verhaftet worden sein soll, hört man nichts Neues, seine Töchter, die sich in Bangkok aufgehalten haben sollen, sind "verschollen".
 * Der König bestätigt Sonthi als Vorsitzenden des <span class="caps">ARC</span>.
 * Das Fernsehprogramm auf den Thaikanälen wird weiterhin regelmäßig für Mitteilungen des <span class="caps">ARC</span> unterbrochen.
-* Das <span class="caps">ARC</span> unterstützt <txp:gho_permalink id="802">Surakiarts Kandidatur für den Posten als UNO-Generalsekretär</txp:gho_permalink>.
+* Das <span class="caps">ARC</span> unterstützt Surakiarts Kandidatur für den Posten als UNO-Generalsekretär.
 
  [1]: http://www.nationmultimedia.com/breakingnews/read.php?newsid=30014163

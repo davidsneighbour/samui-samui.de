@@ -18,7 +18,7 @@ publisher:
   </p>
 </div>
 
-Suvarnabhumi, der relativ neue Flughafen Bangkok<txp:gho_footnote>relativ neu, weil er eigentlich schon über 50 Jahre alt ist, wenn man den ersten Spatenstich mit zählt</txp:gho_footnote>, zeigt leider schon wieder Ermüdungserscheinungen. Risse auf Landebahnen und Zulieferbrücken.
+Suvarnabhumi, der relativ neue Flughafen Bangkok[^legacy-note-1], zeigt leider schon wieder Ermüdungserscheinungen. Risse auf Landebahnen und Zulieferbrücken.
 
 Das ist für viele eine neue dramatische Entwicklung.
 
@@ -42,3 +42,5 @@ Will man also zukünftig nach Samui, so wird man in Suvarnabhumi landen, eine ne
 <!-- grammar-ignore DE_REPEATEDWORDS_NUN nun -->
 <!-- cspell:ignore resurrektet -->
 <!-- cspell:ignore Tangierung -->
+
+[^legacy-note-1]: relativ neu, weil er eigentlich schon über 50 Jahre alt ist, wenn man den ersten Spatenstich mit zählt

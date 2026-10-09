@@ -17,7 +17,7 @@ Nun also Beckham. Dummerweise zeigen die Photos, die diese Woche von seinem ange
 
 Hat er nun vor der Phototapete gepost und sich stattdessen eine schöne Woche im heimischen Schlosse gemacht?
 
-Eine kurze Rundfrage bei den Conciergen der etwas teureren Ressorts und Hotels an der Nordküste ergab, dass kein Beckham dort abgestiegen ist, also reden sich die Leute nun auch hier fusselig. Denn wenn jemand mit viel Geld auf Samui nicht in einer der Bonzenanlagen absteigt, dann --- genau --- kauft er ein Haus<txp:gho_footnote>Manch einer wundert sich jetzt, wo man hier noch Häuser bauen könnte, aber keine Sorge, da fällt man einfach noch ein paar Palmen...</txp:gho_footnote>.
+Eine kurze Rundfrage bei den Conciergen der etwas teureren Ressorts und Hotels an der Nordküste ergab, dass kein Beckham dort abgestiegen ist, also reden sich die Leute nun auch hier fusselig. Denn wenn jemand mit viel Geld auf Samui nicht in einer der Bonzenanlagen absteigt, dann --- genau --- kauft er ein Haus[^legacy-note-1].
 
 Ich lehne mich entspannt zurück und stelle nur fest, dass sich ein weiteres Puzzleteil in meiner Thaksino-Weltherrschafts-Theorie einfügt. Warum? Ist doch klar. [Ein britischer Fussballer][1] auf der gleichen Insel, auf der [ein ehemaliger englischer Nationaltrainer][2] sein Haus hat, der demnächst, bestandenen Moraltest Thaksins vorausgesetzt (muahahahahahahahah), Trainer von Manchester City wird und ein nicht unbedeutendes Kontingent an finanziellen Mitteln zur Verfügung hat, um die Mannschaft zum Meister zu machen und Thaksins Kindheitstraum zu verwirklichen? Ist doch offensichtlich ;)
 
@@ -27,3 +27,5 @@ Ich lehne mich entspannt zurück und stelle nur fest, dass sich ein weiteres Puz
 <!-- cspell:ignore gepost muahahahahahahahah Thaksino -->
 <!-- grammar-ignore DE_REPEATEDWORDS_NUN nun -->
 <!-- grammar-ignore LEERZEICHEN_HINTER_DOPPELPUNKT :gho -->
+
+[^legacy-note-1]: Manch einer wundert sich jetzt, wo man hier noch Häuser bauen könnte, aber keine Sorge, da fällt man einfach noch ein paar Palmen...

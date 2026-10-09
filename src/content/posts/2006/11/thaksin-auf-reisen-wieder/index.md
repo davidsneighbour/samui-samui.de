@@ -9,9 +9,8 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
-Thaksin reist mal wieder. <txp:gho_permalink id="1007">Nachdem er in China gesichtet wurde</txp:gho_permalink>, sah man ihn vergangene Woche beim Händchenhalten und Shopping mit seiner Frau in Hong Kong und nun macht er [Urlaub auf Bali][1]. Hat ganz den Anschein, als ob er in London nicht so gerne gesehen wird wie er es gerne haben würde.
+Thaksin reist mal wieder. Nachdem er in China gesichtet wurde, sah man ihn vergangene Woche beim Händchenhalten und Shopping mit seiner Frau in Hong Kong und nun macht er [Urlaub auf Bali][1]. Hat ganz den Anschein, als ob er in London nicht so gerne gesehen wird wie er es gerne haben würde.
 
 Vielleicht spekuliert er ja auch auf eine baldige Heimkehr ins Königreich. Man munkelt seit Tagen, dass das Kriegsrecht bald [aufgehoben werden soll][2].
 

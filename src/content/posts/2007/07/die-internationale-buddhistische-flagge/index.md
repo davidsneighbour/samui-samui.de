@@ -42,7 +42,7 @@ Die fünf Farben versinnbildlichen verschiedene buddhistische Konzepte:
 
   <tr style="vertical-align:middle;background-color:#f60;color:#000;">
     <td>
-      Orange symbolisiert die Weisheit der Buddhalehre (The Buddha's Teaching --- wisdom)<txp:gho_footnote>die fünfte Farbe ist je nach Land unterschiedlich, bspw. in Kambodscha pink und in Tibet orangebraun</txp:gho_footnote>
+      Orange symbolisiert die Weisheit der Buddhalehre (The Buddha's Teaching --- wisdom)[^legacy-note-1]
     </td>
   </tr>
 </table>
@@ -50,3 +50,5 @@ Die fünf Farben versinnbildlichen verschiedene buddhistische Konzepte:
 Der sechste Streifen wird immer mit den 5 Farben dargestellt, soll aber eine Mischfarbe aus allen 5 Farben sein, was die Einheit der Buddhisten verdeutlichen soll.
 
  [1]: http://de.wikipedia.org/wiki/Internationale_Buddhistische_Flagge
+
+[^legacy-note-1]: die fünfte Farbe ist je nach Land unterschiedlich, bspw. in Kambodscha pink und in Tibet orangebraun

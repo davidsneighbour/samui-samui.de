@@ -8,15 +8,14 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 So, seit heute muss man eine 8 zwischen die Null und die Mobilvorwahl bei Mobilnummern setzen. Ich habe (denke ich) die ganzen Nummern bei mir getauscht.
 
 Ich mag da gar nicht viel drumrum schreiben, die Archive geben genug Informationen her:
 
-* <txp:gho_permalink id="743">Warum wieso weshalb?</txp:gho_permalink>
-* <txp:gho_permalink id="823">Nummernspiele</txp:gho_permalink>
-* <txp:gho_permalink id="844">Das kleine Programm für echte Cellulars</txp:gho_permalink>
+* Warum wieso weshalb?
+* Nummernspiele
+* Das kleine Programm für echte Cellulars
 
 Sorgen braucht sich niemand zu machen, denn man kann bis zum 1. Dezember noch mit der alten Nummer telefonieren. Beim Testen fiel mir dann auch noch auf, dass ich immer noch die alte Nummer als Rufnummer übertrage. So richtig gewechselt haben sie das also noch nicht.
 

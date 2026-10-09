@@ -10,11 +10,10 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 (Feedback ist ein nettes denglisches Wort für Rückmeldungen)
 
-Ich bin immer noch am Hadern (<txp:gho_permalink id="985">wie eben</txp:gho_permalink>) über das lange überfällige Re-Design dieser regelmässigen Onlinepublikation. Es stehen ein paar Erweiterungen an, ein neues Design, ein paar integrierte Muff-3.0-Tools...
+Ich bin immer noch am Hadern (wie eben) über das lange überfällige Re-Design dieser regelmässigen Onlinepublikation. Es stehen ein paar Erweiterungen an, ein neues Design, ein paar integrierte Muff-3.0-Tools...
 
 650 Tage sind genug für "das hier".
 

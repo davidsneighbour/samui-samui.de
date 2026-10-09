@@ -13,10 +13,10 @@ publisher:
 Was ich vermisse:
 
 * Klopse (Mammastyle)
-* Sauerbraten (Mammastyle)<txp:gho_footnote>Obwohl ich in Maenam einen Noodle-Shop kenne, dessen Nudelsuppe wie der Sauerbraten schmeckt...</txp:gho_footnote>
+* Sauerbraten (Mammastyle)[^legacy-note-1]
 * Köstritzer Schwarzbier
 * Jever (Lime, normal, Schwarz)
-* Glennmorangie im Portweinfass gereift<txp:gho_footnote>Ich bin mir fast definitiv sicher, dass man den auf Suvarnabhumi bekommt (dem neuen Flughafen in Krungthep, der wohl auf der nächsten Tourismus-BKK-Abhakliste steht).</txp:gho_footnote>
+* Glennmorangie im Portweinfass gereift[^legacy-note-2]
 * Straßenbahnfahren
 * gehaltvolle Gespräche in irischen Pubs
 * die Personen mit denen man selbige halten kann
@@ -26,3 +26,7 @@ Was ich nicht vermisse:
 * alles andere, vor allem die unbedingte Kompliziertheit des Lebens.
 
 (Sie lasen einen halbfertigen Eintrag der so seit 2 Monaten im Entwurfsordner lag und sich zwischen "raus und blamieren" und "Mülltonne" zu entscheiden hatte. Man sollte es doch den Einträgen nicht überlassen ...)
+
+[^legacy-note-1]: Obwohl ich in Maenam einen Noodle-Shop kenne, dessen Nudelsuppe wie der Sauerbraten schmeckt...
+
+[^legacy-note-2]: Ich bin mir fast definitiv sicher, dass man den auf Suvarnabhumi bekommt (dem neuen Flughafen in Krungthep, der wohl auf der nächsten Tourismus-BKK-Abhakliste steht).

@@ -8,7 +8,6 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 Samui wurde heute zum [Katastrophengebiet][1] ausgerufen. Es regenete gut zwei Tage lang und die Stra?en sind überflutet. Auf dem Weg zum nächtlichen Bierkauf (1km zum 7eleven) gibt es drei ?berschwemmungsstellen und die Stra?e hat jeden Tag mehr Schlaglöcher und Risse.
 
@@ -20,6 +19,6 @@ Mein Klong vorm Haus ist so voll wie nie zuvor. Die Hunde schnüffeln nur kurz a
 
 > Surat Thani provincial office sent 170 soldiers to the island to assist locals and tourists.
 
-Ja klar, sag ich mal. Wenn das Wasser in Chaweng einen halben Meter hoch steht, kommt das Militär immer gleich, um die armen Touristen zu retten. Dass da was von _Locals_ steht ist eher eine Beschönigung. Alles was nicht in Chaweng- und Lamai-Nähe liegt ist seit Wochen überschwemmt und niemand kommt. Wie</a> <a href="547">vor</a> <txp:permlink id="544">zwei Jahren</a> <txp:permlink id="540">schon.
+Ja klar, sag ich mal. Wenn das Wasser in Chaweng einen halben Meter hoch steht, kommt das Militär immer gleich, um die armen Touristen zu retten. Dass da was von _Locals_ steht ist eher eine Beschönigung. Alles was nicht in Chaweng- und Lamai-Nähe liegt ist seit Wochen überschwemmt und niemand kommt. Wie vor zwei Jahren schon.
 
  [1]: http://www.bangkokpost.com/topstories/topstories.php?id=123406

@@ -38,13 +38,13 @@ Mir fällt grad ein, dass ich sogar mal einen Weihnachtssong für den Chor gesch
 
 Ich glaube nächstes Jahr schreib ich ein Weihnachtsbuch.
 
-<txp:file\_download\_link id="5">Oiche Chiuin, Enya (walisisch, oder? 3:45min, 3.44MB)</txp:file\_download\_link>
+Oiche Chiuin, Enya (walisisch, oder? 3:45min, 3.44MB) (die ursprüngliche Download-Datei ist nicht mehr verfügbar)
 
 **Der Grinch**
 
 Maybe Christmas doesn't come from the store. Maybe christmas perhaps means a little bit more.
 
-<txp:file\_download\_link id="4">Wie der Grinch Weihnachten stahl (Boris Karloff, englisch, 21:39min, 29.7MB)</txp:file\_download\_link>
+Wie der Grinch Weihnachten stahl (Boris Karloff, englisch, 21:39min, 29.7MB) (die ursprüngliche Download-Datei ist nicht mehr verfügbar)
 
 **Zusammenfassung**
 

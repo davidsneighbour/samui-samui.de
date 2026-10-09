@@ -28,10 +28,6 @@ npm run publisher -- set textpattern true --textpattern-tags
 npm run publisher -- list --textpattern-tags
 ```
 
-The `--textpattern-tags` filter scans the full post file, including legacy frontmatter fields, and matches these inline tag openings with or without attributes:
+The `--textpattern-tags` filter scans the full post file, including legacy frontmatter fields, and matches all opening and closing Textpattern tags. This includes escaped plugin names, unknown plugin names, and malformed closing tags.
 
-* `<txp:gho_permalink>`
-* `<txp:permlink>`
-* `<txp:footnote>`
-
-Do not automatically convert these posts from the marker alone. `gho_permalink` and `permlink` values need manual research because the original Textpattern IDs are no longer sufficient source data. `footnote` tags may be converted to Markdown footnotes only after the affected post is reviewed.
+The archive migration removed the remaining tags using the owner-approved fallback rules in [Textpattern tag migration](textpattern-tags.md). That document retains the sorted original inventory and unresolved IDs. Do not infer recovered links or media from the absence of tags. The filter remains available to detect regressions or newly imported content.

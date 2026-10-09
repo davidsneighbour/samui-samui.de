@@ -9,9 +9,8 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
-Neulich (schur, kram, blätter --- ah, <txp:gho_permalink id="469">hier</txp:gho_permalink>) meinte ich einen tollen Thaispruch loswerden zu müssen und wurde mitten im Schreiben, ehm, zu einem, ehm, dringenden und unerwarteten, ehm, Patientenbesuch gerufen. Genau. Patientenbesuch. Das wars.
+Neulich (schur, kram, blätter --- ah, hier) meinte ich einen tollen Thaispruch loswerden zu müssen und wurde mitten im Schreiben, ehm, zu einem, ehm, dringenden und unerwarteten, ehm, Patientenbesuch gerufen. Genau. Patientenbesuch. Das wars.
 
 Erklärt habe ich aber noch nicht, warum man immer das Rote kaufen soll und da erste Anfrager schon vor Mangelinformation platzen werde ich des Rätsels Auflösung nun preisgeben.
 

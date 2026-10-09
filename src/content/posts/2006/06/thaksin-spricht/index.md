@@ -10,11 +10,10 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 Ich sehe mir gerade im Staatsfernsehen eine Rede vom care takenden Premierminister Thaksin Shinawatra an. Das ist ein bisschen gespenstisch, weil niemand klatscht. Die Kameras fangen die Zuhörer immer in dem Augenblick ein, wenn sie den Mund aufreißen um ausführlich zu gähnen. Das kann ganz lustig rüber kommen, wenn sie in ebendiesem Augenblick bemerken, _dass_ sie im Fokus sind und sich entscheiden entweder in ihren Aktenkoffern zu kramen oder so zu tun als ob sie eigentlich zwischen den Zähnen kramen wollten.
 
-Das Redethema scheint querbeet zu sein. Ich hörte vorhin sowas wie eine Rechtfertigung, dass im Süden ein Malay-Dialekt keine zweite Verwaltungssprache werden soll ("das ist kein Individualismus, das ist Nationalismus"), dann sprach er über Kasachstan (da war er wohl vor einigen Tagen um sich bei Putin einzuschleimen und der iranische Präsident war <txp:gho_permalink id="668">auch wieder dabei</txp:gho_permalink>). Außerdem ist der [Export in den Iran um 16% gestiegen][1], was größtenteils an Reishamsterkäufen Irans in der Region liegt. Dann hatte er auch kurz über Futtaball und Tschörramanieh gesprochen, das aber wohl nur um auf das Problem der Wettsüchtigen hinzuweisen.
+Das Redethema scheint querbeet zu sein. Ich hörte vorhin sowas wie eine Rechtfertigung, dass im Süden ein Malay-Dialekt keine zweite Verwaltungssprache werden soll ("das ist kein Individualismus, das ist Nationalismus"), dann sprach er über Kasachstan (da war er wohl vor einigen Tagen um sich bei Putin einzuschleimen und der iranische Präsident war auch wieder dabei). Außerdem ist der [Export in den Iran um 16% gestiegen][1], was größtenteils an Reishamsterkäufen Irans in der Region liegt. Dann hatte er auch kurz über Futtaball und Tschörramanieh gesprochen, das aber wohl nur um auf das Problem der Wettsüchtigen hinzuweisen.
 
 Derweil hat Thaksin sich [in Kenia für den Bau eines Hotels beworben][2]. Altersvorsorge?
 

@@ -9,4 +9,6 @@ publisher:
   seo: true
   covermigration: true
 ---
-Ich lese den Spiegel nur noch über Handy. Mit Opera Mini.<txp:gho_footnote>Und im Thailotto hab ich nicht mal annähernd gewonnen. Keine einzige Zahl gleich.</txp:gho_footnote>
+Ich lese den Spiegel nur noch über Handy. Mit Opera Mini.[^legacy-note-1]
+
+[^legacy-note-1]: Und im Thailotto hab ich nicht mal annähernd gewonnen. Keine einzige Zahl gleich.

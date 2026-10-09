@@ -12,13 +12,12 @@ publisher:
   seo: true
   covermigration: true
   flickr: true
-  textpattern: true
 ---
 ![Fresh and clean.](./fresh-and-clean-105678055.jpg)
 
 Fresh and clean.
 
-Heute war mein kleiner Hund im Hunde-Hospital. Dort hat der Doc ihn geduscht und geschrubbt und gleich mal gecheckt, was denn nun mit der Haut ist. <txp:gho_permalink id="653">Wie wir bereits angenommen haben</txp:gho_permalink> verträgt er kein Hühnchen. Na ja, Shih-Tzus sollen wohl generell Hühnerfleisch mit Hautproblemen beantworten und Pokki ist dazu noch allergisch dagegen.
+Heute war mein kleiner Hund im Hunde-Hospital. Dort hat der Doc ihn geduscht und geschrubbt und gleich mal gecheckt, was denn nun mit der Haut ist. Wie wir bereits angenommen haben verträgt er kein Hühnchen. Na ja, Shih-Tzus sollen wohl generell Hühnerfleisch mit Hautproblemen beantworten und Pokki ist dazu noch allergisch dagegen.
 
 Gut zu wissen. Schade nur, dass so ziemlich alles, was er gerne frisst, mit Hühnchen versetzt ist.
 

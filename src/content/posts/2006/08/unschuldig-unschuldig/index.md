@@ -8,9 +8,8 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
-Mister John Karr hat die kleine JonBenet Ramsey nicht umgebracht. Er hat es zwar behauptet aber irgendwie bin ich froh, <txp:gho_permalink id="841">damals schon mutmaßlich geschrieben zu haben</txp:gho_permalink>, denn bereits nach einigen Stunden meldeten sich die ersten Stimmen, dass er ein ziemlich seltsam aufmerksamkeitsbedürftiger Zeitgenosse sei. Er hat mit einem Kriminalistikprofessor Briefwechsel geführt woraufhin dieser die Briefe ans FBI weiter gegeben hat, weil er (Karr) mehr und mehr Behauptungen und Lügengerüste aufbaute.
+Mister John Karr hat die kleine JonBenet Ramsey nicht umgebracht. Er hat es zwar behauptet aber irgendwie bin ich froh, damals schon mutmaßlich geschrieben zu haben, denn bereits nach einigen Stunden meldeten sich die ersten Stimmen, dass er ein ziemlich seltsam aufmerksamkeitsbedürftiger Zeitgenosse sei. Er hat mit einem Kriminalistikprofessor Briefwechsel geführt woraufhin dieser die Briefe ans FBI weiter gegeben hat, weil er (Karr) mehr und mehr Behauptungen und Lügengerüste aufbaute.
 
 Er wurde hier mit viel Tammtamm verhaftet, durfte eine Live-Pressekonferenz geben, seine "Abreise" (ohne Handschellen, Businessclass und Champagner) wurde live übertragen, seine Ankunft in den USA in allen News diskutiert.
 

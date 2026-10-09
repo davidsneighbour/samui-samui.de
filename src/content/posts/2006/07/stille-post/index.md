@@ -9,7 +9,6 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
 In den News machen derzeit zwei Briefe die Runde. Einmal ein Schreiben vom Care takenden Premierminister Thaksin Shinawatra an Bush und einmal dessen Antwort darauf.
 
@@ -71,9 +70,9 @@ George W. Bush
 
 Ziemlich nichts sagend und, ehem, diplomatisch.
 
-Nun geht es natürlich heiß her in der Öffentlichkeit, denn einerseits hat Thaksin wieder ein mal von seinen Gegnern geredet ohne sie zu benennen (zuletzt bei der <txp:gho_permalink id="779">Rede neulich</txp:gho_permalink> in der er sagte "ein Mann mit Charisma außerhalb der Konstitution" arbeite im Hintergrund gegen ihn. Für diese Behauptung hat er bereits eine Klage wegen Majestätsbeleidigung am Hals). Andererseits ist das wieder ein Beispiel dafür, wie er die Mittel die ihm als Premier zur Verfügung stehen nutzt um das Ausland zu desinformieren.
+Nun geht es natürlich heiß her in der Öffentlichkeit, denn einerseits hat Thaksin wieder ein mal von seinen Gegnern geredet ohne sie zu benennen (zuletzt bei der Rede neulich in der er sagte "ein Mann mit Charisma außerhalb der Konstitution" arbeite im Hintergrund gegen ihn. Für diese Behauptung hat er bereits eine Klage wegen Majestätsbeleidigung am Hals). Andererseits ist das wieder ein Beispiel dafür, wie er die Mittel die ihm als Premier zur Verfügung stehen nutzt um das Ausland zu desinformieren.
 
-Die meisten Medien _im_ Lande gehen davon aus, dass im Oktober keine Wahlen stattfinden werden da Thaksin das zu verhindern weiß (auch in seiner Rede: "Ob die Wahlen überhaupt stattfinden steht noch gar nicht fest."). Die PAD<txp:gho_footnote>Peoples Alliance for Democracy</txp:gho_footnote> hat innerhalb von drei Tagen beschlossen, dass sie ihre Demonstrationen gegen Thaksin wieder aufnimmt (Montag), nicht vor Regierungsgebäuden demonstrieren will, um gewaltsame Unruhen zu verhindern (Dienstag) und lieber doch nicht demonstriert (Mittwoch), weil sie die Situation nicht in den Griff bekommen können.
+Die meisten Medien _im_ Lande gehen davon aus, dass im Oktober keine Wahlen stattfinden werden da Thaksin das zu verhindern weiß (auch in seiner Rede: "Ob die Wahlen überhaupt stattfinden steht noch gar nicht fest."). Die PAD[^legacy-note-1] hat innerhalb von drei Tagen beschlossen, dass sie ihre Demonstrationen gegen Thaksin wieder aufnimmt (Montag), nicht vor Regierungsgebäuden demonstrieren will, um gewaltsame Unruhen zu verhindern (Dienstag) und lieber doch nicht demonstriert (Mittwoch), weil sie die Situation nicht in den Griff bekommen können.
 
 Einige thailändische Analysten verkünden schon, dass es Aufstände geben wird (seit 1933 gab es Änderungen in der Staatspolitik immer im Zusammenhang mit Unruhen und Militäreingriffen. [Allerdings hat Thaksin alle wichtigen Militärposten mit seinen Freunden besetzt][1]. Wie das ausgehen wird, kann man sich also schon denken.
 
@@ -86,3 +85,5 @@ Allerdings hat das alles nichts zu sagen. Demonstriert werden soll am Freitag un
 Das Interessante an der Situation für mich ist, dass man das Ganze immer noch als Demokratie bezeichnet.
 
  [1]: http://www.nationmultimedia.com/2006/07/07/headlines/headlines_30008212.php
+
+[^legacy-note-1]: Peoples Alliance for Democracy

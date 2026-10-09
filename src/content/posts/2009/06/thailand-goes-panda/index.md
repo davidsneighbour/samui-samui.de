@@ -18,7 +18,7 @@ Thailand ist ganz verrückt nach dem Pandababy. Das merkt man an den täglichen 
 Wie ver-rückt verrückt man nach den Pandas ist, kann man an den folgenden Pandaphotos sehen.
 
 <div class="flickr">
-  <txp:thumbnail id="268" link="y" /></p>
+  <img src="/wp-content/old-images/268.jpg" alt="Drei Elephanten mit schwarz-weißer Bemalung wie Pandabären" loading="lazy" /></p>
 
   <p>
     Elephants painted as pandas are seen at the Royal Elephant Kraal in Ayutthaya province, 80 km (50 miles) north of Bangkok, June 26, 2009. Five of the elephants were led on a walkabout to send a message to the Thai public not to ignore its elephants, the symbolic animal of Thailand. <a href="http://www.daylife.com/photo/0dQebPMbAugP7?q=thailand+panda+elephant"><span class="caps">REUTERS</span>/Sukree Sukplang</a> (<span class="caps">THAILAND</span> <span class="caps">ANIMALS</span> <span class="caps">SOCIETY</span> <span class="caps">IMAGES</span> OF <span class="caps">THE</span> <span class="caps">DAY</span>)
@@ -26,7 +26,7 @@ Wie ver-rückt verrückt man nach den Pandas ist, kann man an den folgenden Pand
 </div>
 
 <div class="flickr">
-  <txp:thumbnail id="267" link="y" /></p>
+  <img src="/wp-content/old-images/267.jpg" alt="Schwarz-weiß bemalter Elephant sitzt vor einer Gruppe Schulkinder" loading="lazy" /></p>
 
   <p>
     Schoolchildren watch an elephant painted as a panda perform in a school in Ayutthaya province, 80 km (50 miles) north of Bangkok June 26, 2009. Five such elephants were led on a walkabout to send a message to the Thai public not to ignore its elephants, the symbolic animal of Thailand. <a href="http://www.daylife.com/photo/0dQebPMbAugP7?q=thailand+panda+elephant"><span class="caps">REUTERS</span>/Sukree Sukplang</a> (<span class="caps">THAILAND</span> <span class="caps">ANIMALS</span> <span class="caps">SOCIETY</span> <span class="caps">IMAGES</span> OF <span class="caps">THE</span> <span class="caps">DAY</span>)

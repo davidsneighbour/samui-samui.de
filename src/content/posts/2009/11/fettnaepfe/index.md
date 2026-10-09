@@ -8,9 +8,8 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
-?ber den unter deutschen Expats hei?beliebten Newsletter der Deutschen Botschaft zu Bangkok habe ich bereits</a> <a href="1163">einige</a> <txp:permlink id="1125">Male berichtet.
+?ber den unter deutschen Expats hei?beliebten Newsletter der Deutschen Botschaft zu Bangkok habe ich bereits einige Male berichtet.
 
 Heute nun haben sie den Bock abgeschossen. Im Adressfeld "meiner" Newsletteremail habe ich 150 Emailadressen und Namen im Klartext vorgefunden. Sehr professionell.
 
@@ -18,4 +17,4 @@ Nun weiss ich wenigstens, dass im 150er-Interessenten-Pack (<span class="caps">J
 
 Ich mag gar nicht wissen, welche anderen meiner Daten diese Botschaft der Welt frei verfügbar macht.
 
-<txp:file\_download\_link id="23"Im Newsletter selbst</txp:file\_download\_link> findet sich unter dem sinnigen Titel "...die Anekdote aus der täglichen Konsulararbeit" ein seltsamer Mailverkehr des ehemaligen Botschafters mit irgendeinem Ingenieur in dem beide über nicht näher erkennbare Vorgänge räsonieren --- ohne auch nur zu erklären, worum es da wohl ginge. Aber bis dahin wird wohl eh keiner mehr gelesen haben.
+Im Newsletter selbst (die ursprüngliche Download-Datei ist nicht mehr verfügbar) findet sich unter dem sinnigen Titel "...die Anekdote aus der täglichen Konsulararbeit" ein seltsamer Mailverkehr des ehemaligen Botschafters mit irgendeinem Ingenieur in dem beide über nicht näher erkennbare Vorgänge räsonieren --- ohne auch nur zu erklären, worum es da wohl ginge. Aber bis dahin wird wohl eh keiner mehr gelesen haben.

@@ -8,9 +8,8 @@ publisher:
   tags: true
   seo: true
   covermigration: true
-  textpattern: true
 ---
-(Hier mal ein Beispiel für einen Eintrag den ich <txp:gho_permalink id="872">in meinem deutschsprachigen Technoblog</txp:gho_permalink> schreiben würde, hehe...)
+(Hier mal ein Beispiel für einen Eintrag den ich in meinem deutschsprachigen Technoblog schreiben würde, hehe...)
 
 Der Spiegel hat ein neues Layout. Also Online. Keine Tabellen mehr und irgendwie sieht das ganze farblich leichter aus. Kann allerdings auch daran liegen, dass es gerade keine aggressivfarbene Hintergrund-Werbung gibt.
 
