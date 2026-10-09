@@ -24,7 +24,7 @@ Only the homepage lead article renders the full post body and comments. Compact 
 
 ## Excerpt width on cards without a cover
 
-A compact card without a cover has no media column, so its excerpt would span the full card width (about 848px), which gives lines that are too long to read well. The excerpt column of these cards carries `max-w-(--reading-measure)`, the same 34rem measure as the post reading column (see [Prose reading column](prose-reading-column.md)). The column is centred in the card with `mx-auto`; the text inside it stays left-aligned, because centred running text is harder to read. Cards with a cover do not get this limit: their excerpt column is at most two-thirds of the row and is already close to the measure.
+A compact card without a cover has no media column, so its excerpt would span the full card width (about 848px), which gives lines that are too long to read well. The excerpt column of these cards carries `max-w-(--reading-measure)`, the same measure as the post reading column (see [Prose reading column](prose-reading-column.md)). The column is centred in the card with `mx-auto`; the text inside it stays left-aligned, because centred running text is harder to read. Cards with a cover do not get this limit: their excerpt column is at most two-thirds of the row and is already close to the measure.
 
 ## "Weiterlesen" button
 
