@@ -58,6 +58,18 @@
   --color-ring-contrast: var(--ring-contrast);
 }
 
+/*
+ * Registered as a <length> so `65ch` is computed once on :root (Panton,
+ * 16px) and inherited as a fixed px value. Unregistered, every element would
+ * resolve `ch` against its own font size, and larger headings would get a
+ * wider column than the paragraphs.
+ */
+@property --reading-measure {
+  syntax: "<length>";
+  inherits: true;
+  initial-value: 544px;
+}
+
 :root {
   --radius: 0.75rem;
   /*
