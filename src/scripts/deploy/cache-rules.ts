@@ -96,8 +96,14 @@ function comparable(rule: Rule) {
   });
 }
 
-async function main() {
-  const apply = hasFlag(process.argv.slice(2), '--apply');
+// Compares PHASE_RULES with the zone and, with `apply`, writes every phase
+// that differs. Phases that already match are never written, so running it
+// on every deploy is safe. Returns the number of phases that differed.
+export async function syncCacheRules({
+  apply,
+}: {
+  apply: boolean;
+}): Promise<number> {
   const client = new CloudflareClient();
   const zone = await client.zoneId();
   let changes = 0;
@@ -169,9 +175,17 @@ async function main() {
     }
   }
 
+  return changes;
+}
+
+async function main() {
+  const apply = hasFlag(process.argv.slice(2), '--apply');
+  const changes = await syncCacheRules({ apply });
   if (changes > 0 && !apply) {
     console.log('\nRun `npm run cache:rules:update` to apply.');
   }
 }
 
-main().catch(exitWithError);
+if (import.meta.main) {
+  main().catch(exitWithError);
+}

@@ -1,21 +1,24 @@
-// npm run deploy        -- full production deployment
-// npm run deploy:site   -- same, without the Worker step
+// npm run deploy        -- production deployment: site and Worker
+// npm run deploy:full   -- same, plus the Cloudflare cache and redirect rules
+// npm run deploy:site   -- site only, without the Worker step
 //
 //   1. quality checks (npm run check)       --skip-checks
 //   2. optional release (release-it)        --release
 //   3. Astro build (npm run build)          --skip-build
 //   4. validate dist/
 //   5. upload dist/ to DreamHost (rsync)    --skip-site, --dry-run, --adopt-docroot
-//   6. deploy the /api/* Worker if changed  --skip-worker, --force-worker
-//   7. purge the Cloudflare cache           --purge=auto|html|urls|everything|none
-//   8. smoke tests                          --no-smoke
-//   9. warm a few high-value pages          --no-warm
-//  10. report
+//   6. sync Cloudflare cache/redirect rules  --rules (off by default)
+//   7. deploy the /api/* Worker if changed  --skip-worker, --force-worker
+//   8. purge the Cloudflare cache           --purge=auto|html|urls|everything|none
+//   9. smoke tests                          --no-smoke
+//  10. warm a few high-value pages          --no-warm
+//  11. report
 //
 // Builds exactly once, locally or in CI, and ships that dist/. DreamHost
 // never builds anything. Architecture and reasoning:
 // documentation/hosting/architecture.md and documentation/hosting/deployment.md.
 
+import { syncCacheRules } from './cache-rules.ts';
 import { HIGH_VALUE_PATHS, warm } from './cache-warm.ts';
 import { CloudflareClient } from './lib/cloudflare.ts';
 import {
@@ -227,6 +230,7 @@ async function main() {
   const dryRun = hasFlag(argv, '--dry-run');
   const skipSite = hasFlag(argv, '--skip-site');
   const skipWorker = hasFlag(argv, '--skip-worker');
+  const syncRules = hasFlag(argv, '--rules');
   const purgeMode = (flagValue(argv, '--purge') ??
     env('DEPLOY_PURGE_MODE') ??
     'auto') as PurgeMode;
@@ -242,9 +246,22 @@ async function main() {
   if (!skipSite) {
     dreamhostConfig();
   }
-  if (!dryRun && (purgeMode !== 'none' || !skipWorker)) {
+  if (!dryRun && (purgeMode !== 'none' || !skipWorker || syncRules)) {
     cloudflareConfig();
   }
+
+  // Idempotent: only phases that differ from PHASE_RULES are written, and a
+  // dry run only shows the difference. Runs after the publish confirmation,
+  // because it changes the live zone.
+  const rules = async () => {
+    if (!syncRules) return;
+    heading('Cloudflare rules');
+    const changed = await syncCacheRules({ apply: !dryRun });
+    report['cloudflare rules'] =
+      changed === 0
+        ? 'up to date'
+        : `${changed} phase(s) ${dryRun ? 'differ (dry run)' : 'updated'}`;
+  };
 
   if (!hasFlag(argv, '--skip-checks')) {
     heading('Quality checks');
@@ -279,6 +296,8 @@ async function main() {
         );
       }
     }
+
+    await rules();
 
     const changes = await deploySite(argv, dryRun, stats.files, report);
     const plan = planPurge(changes, {
@@ -329,7 +348,11 @@ async function main() {
       const { failures } = await warm([...new Set(urls)]);
       report['warmed'] = `${urls.length} URL(s), ${failures.length} failure(s)`;
     }
-  } else if (!skipWorker) {
+  } else {
+    await rules();
+  }
+
+  if (skipSite && !skipWorker) {
     heading('Worker');
     const worker = await deployWorker({
       dryRun,

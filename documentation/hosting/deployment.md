@@ -7,7 +7,8 @@ How samui-samui.de is built and published to DreamHost, Cloudflare, and the API 
 | Command | What it does |
 | --- | --- |
 | `npm run deploy` | Full deploy: checks, build, validate `dist/`, upload to DreamHost, Worker (only if changed), cache purge, smoke tests, warming, report. |
-| `npm run deploy:site` | Same without the Worker step. |
+| `npm run deploy:full` | Everything `deploy` does, plus syncing the Cloudflare Cache Rules and the www redirect (`deploy --rules`). The rules step runs after the publish confirmation and writes only rule phases that differ from `src/scripts/deploy/cache-rules.ts`; with `--dry-run` it only shows the difference. Needs the rule permissions on the token (see [Cloudflare API token](#cloudflare-api-token)). |
+| `npm run deploy:site` | Same as `deploy` without the Worker step. |
 | `npm run deploy:worker` | Deploys only the `/api/*` Worker, and only if its bundle or `wrangler.jsonc` changed (`--force` to deploy anyway). |
 | `npm run deploy:releases` | Lists release directories on DreamHost (date, commit, live, rollback target) and deletes all non-live or selected ones ([managing releases](#managing-releases)). |
 | `npm run deploy:site:rollback` | Switches the live site back to the previous release and purges `html` + `static` (`--list`, `--to=<release>`, `--no-purge`). |
@@ -18,7 +19,7 @@ How samui-samui.de is built and published to DreamHost, Cloudflare, and the API 
 | `npm run cache:rules` / `cache:rules:update` | Shows or applies the Cloudflare Cache Rules and the www redirect. |
 | `npm run dev:worker` | Runs the Worker locally with `wrangler dev` (reads secrets from `.env`; the contact form then sends real email). |
 
-Useful `deploy` flags: `--dry-run` (rsync dry run, nothing activated, purged, or deployed), `--yes` (no confirmation prompt; required in CI), `--skip-checks`, `--skip-build` (deploy the existing `dist/`), `--skip-worker`, `--force-worker`, `--purge=auto|html|urls|everything|none`, `--no-smoke`, `--no-warm`, `--release` (run `npm run release` first when there are commits after the latest tag), and `--adopt-docroot` (first deployment only).
+Useful `deploy` flags: `--dry-run` (rsync dry run, nothing activated, purged, or deployed), `--yes` (no confirmation prompt; required in CI), `--skip-checks`, `--skip-build` (deploy the existing `dist/`), `--skip-worker`, `--force-worker`, `--rules` (also sync the Cloudflare rules; what `deploy:full` adds), `--purge=auto|html|urls|everything|none`, `--no-smoke`, `--no-warm`, `--release` (run `npm run release` first when there are commits after the latest tag), and `--adopt-docroot` (first deployment only).
 
 ## Pipeline
 
@@ -116,7 +117,7 @@ Create one custom token (**My Profile → API Tokens → Create Token → Custom
 * Account → Account Rulesets → Edit
 * Account → Account Filter Lists → Edit
 
-The Workers permissions are a minimal subset of Cloudflare's **Edit Cloudflare Workers** token template. This subset is not yet verified against a real `wrangler deploy`. If Wrangler reports a missing permission, add **Account → Account Settings → Read** and **User → Memberships → Read** from that template. The Cache Rules and Single Redirect permissions are only needed for `npm run cache:rules:update`. You can keep them in a separate token that you use only when you change rules. For the MCP server, see [Cloudflare MCP](cloudflare-mcp.md).
+The Workers permissions are a minimal subset of Cloudflare's **Edit Cloudflare Workers** token template. This subset is not yet verified against a real `wrangler deploy`. If Wrangler reports a missing permission, add **Account → Account Settings → Read** and **User → Memberships → Read** from that template. The Cache Rules and Single Redirect permissions are only needed for `npm run cache:rules:update` and `npm run deploy:full`. You can keep them in a separate token that you use only when you change rules; then use `npm run deploy` for normal deploys. For the MCP server, see [Cloudflare MCP](cloudflare-mcp.md).
 
 ## Where deploys run
 

@@ -11,6 +11,7 @@
     "cache:status": "node ./src/scripts/deploy/cache-status.ts",
     "cache:warm": "node ./src/scripts/deploy/cache-warm.ts",
     "deploy": "node ./src/scripts/deploy/deploy.ts",
+    "deploy:full": "node ./src/scripts/deploy/deploy.ts --rules",
     "deploy:releases": "node ./src/scripts/deploy/releases.ts",
     "deploy:site": "node ./src/scripts/deploy/deploy.ts --skip-worker",
     "deploy:site:rollback": "node ./src/scripts/deploy/rollback.ts",

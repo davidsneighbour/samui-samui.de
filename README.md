@@ -116,7 +116,7 @@ When a feature changes, update the matching documentation file in the same chang
 
 Production runs on three layers: DreamHost serves the static `dist/` output, Cloudflare caches pages and assets in front of it, and the Cloudflare Worker `samui-samui-api` answers `/api/*`. [Hosting architecture](documentation/hosting/architecture.md) explains why.
 
-`npm run deploy` runs checks, builds once, uploads the build to DreamHost as an atomic release (rsync over SSH), deploys the Worker only when its code changed, purges exactly the changed pages from the Cloudflare cache (or every page after a global template change), and runs smoke tests. `npm run deploy:site` skips the Worker, and `npm run deploy:worker` deploys only the Worker. Configuration and secrets live in a git-ignored `.env` (see `.env.example`) and in Worker secrets. They are never committed.
+`npm run deploy` runs checks, builds once, uploads the build to DreamHost as an atomic release (rsync over SSH), deploys the Worker only when its code changed, purges exactly the changed pages from the Cloudflare cache (or every page after a global template change), and runs smoke tests. `npm run deploy:full` also syncs the Cloudflare cache and redirect rules, `npm run deploy:site` skips the Worker, and `npm run deploy:worker` deploys only the Worker. Configuration and secrets live in a git-ignored `.env` (see `.env.example`) and in Worker secrets. They are never committed.
 
 Production moved from Netlify to this setup on 9 October 2026; [Migration from Netlify](documentation/hosting/migration.md) records the cutover and the rollback path.
 
@@ -142,7 +142,7 @@ Production moved from Netlify to this setup on 9 October 2026; [Migration from N
 * `npm run publisher -- <command>` manages internal archive-maintenance metadata.
 * `npm run covers -- <command>` audits or migrates post cover metadata.
 * `npm run compile:package` regenerates `package.json` from package fragments and refreshes install state.
-* `npm run deploy` runs the full DreamHost + Cloudflare deployment; `deploy:site` and `deploy:worker` deploy one part.
+* `npm run deploy` runs the full DreamHost + Cloudflare deployment; `deploy:full` adds the Cloudflare rules, and `deploy:site` and `deploy:worker` deploy one part.
 * `npm run cache:status -- <url>` shows how Cloudflare served a URL; `cache:purge` and `cache:warm` invalidate or warm pages manually.
 * `npm run test:smoke` checks the live site's pages, redirects, assets, and API routes.
 
