@@ -34,6 +34,7 @@
 * [People taxonomy migration](content/people-taxonomy-migration.md) records the migration from free-form `leute` values to canonical people IDs.
 * [Post cover migration plan](content/post-cover-migration-plan.md) tracks the archive cover-media migration decisions and audit procedure.
 * [Post metadata](content/post-metadata.md) documents Bangkok-time post dates and the shared metadata row.
+* [Post relevance](content/post-relevance.md) defines the optional editorial relevance field and frontmatter completion setup.
 * [Post paths](content/post-paths.md) explains post bundle storage paths and permalink resolution.
 * [Publisher frontmatter](content/publisher-frontmatter.md) documents repo-internal archive-maintenance metadata.
 * [Source citations](content/source-citations.md) defines named Markdown footnote citations for sourced posts.

@@ -120,6 +120,9 @@ const posts = defineCollection({
       orte: z.array(reference('orte')).default([]),
       personen: z.array(reference('personen')).default([]),
       publisher: publisherFrontmatter,
+      relevance: z
+        .enum(['enduring', 'contextual', 'moment', 'ephemeral'])
+        .optional(),
       resources: z
         .array(
           z.object({

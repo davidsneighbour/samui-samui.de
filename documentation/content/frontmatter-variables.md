@@ -50,6 +50,7 @@ Post entries live in `src/content/posts/**/index.md`. The post schema is loose s
 | `publisher.status` | Optional string. | Free-form internal work-queue label. | [Publisher frontmatter](publisher-frontmatter.md) |
 | `publisher.covermigration` | Optional boolean. | Internal marker for posts needing cover migration review. | [Post covers](../components/post-covers.md), [Post cover migration plan](post-cover-migration-plan.md), [Publisher frontmatter](publisher-frontmatter.md) |
 | `publisher.textpattern` | Optional boolean. | Internal marker for legacy Textpattern tags found by publisher tooling. | [Publisher frontmatter](publisher-frontmatter.md) |
+| `relevance` | Optional enum. | `enduring`, `contextual`, `moment`, or `ephemeral`; absent means unclassified. | [Post relevance](post-relevance.md) |
 | `resources` | Optional array. | Legacy Hugo-style resource metadata retained during cover migration. | [Post covers](../components/post-covers.md), [Post cover migration plan](post-cover-migration-plan.md) |
 | `resources.name` | Optional string. | Legacy resource name. | [Post cover migration plan](post-cover-migration-plan.md) |
 | `resources.src` | Required string within a resource. | Legacy resource source path. | [Post cover migration plan](post-cover-migration-plan.md) |
