@@ -66,8 +66,7 @@ Every step before 7 can be done and verified while Netlify still serves producti
 
    Expect `200` with `Cloudflare-CDN-Cache-Control` and `Cache-Tag: html`, then `301` to `https://samui-samui.de/kontakt/`, then `301` to `/archiv/themen/`.
 6. **Cloudflare preparation:**
-   * Worker secrets: `npx wrangler secret put RESEND_API_KEY` (and `TURNSTILE_SECRET`, `CONTACT_EMAIL_FROM`, `CONTACT_EMAIL_TO`, optionally `CONTACT_EMAIL_BCC`), using the values that are now in the Netlify environment.
-   * Worker: `npm run deploy:worker`. The route exists from now on, but it only applies to proxied traffic.
+   * Worker (first time): Wrangler 4 refuses to create a Worker whose required secrets are missing, and `wrangler secret put` needs an existing Worker. Deploy once with all secrets in a temporary file (`chmod 600`, JSON or `NAME=value` lines; delete it afterwards): `npx wrangler deploy --secrets-file <file>`. Later secret changes use `npx wrangler secret put <NAME>`, and later deploys use `npm run deploy:worker`. The route exists from then on, but it only applies to proxied traffic. Done on 2026-10-09.
    * Rules: `npm run cache:rules`, then `npm run cache:rules:update`.
    * SSL/TLS mode **Full (strict)**, **Always Use HTTPS** on.
 7. **DNS switch** (Cloudflare → DNS): delete the apex CNAME `apex-loadbalancer.netlify.com` and create an A record `samui-samui.de` → `173.236.199.86`, **Proxied**; change `www` to CNAME `samui-samui.de`, **Proxied**. Proxied records use a short TTL, so the switch takes effect within minutes.

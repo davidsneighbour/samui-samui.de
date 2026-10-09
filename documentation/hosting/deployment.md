@@ -96,6 +96,7 @@ Local values live in a git-ignored `.env` in the project root (template: [`.env.
 Create one custom token (**My Profile → API Tokens → Create Token → Custom token**) restricted to the account and to the zone `samui-samui.de`:
 
 * Zone → Cache Purge → Purge
+* Zone → SSL and Certificates → Edit (only to create the Origin CA certificate)
 * Zone → Cache Rules → Edit
 * Zone → Single Redirect → Edit
 * Zone → Workers Routes → Edit
