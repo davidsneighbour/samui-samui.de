@@ -1,5 +1,76 @@
 # Changelog
 
+## [3.0.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.19.0...v3.0.0) (2026-10-09)
+
+### ⚠ BREAKING CHANGES
+
+* **hosting:** `npm run deploy:netlify` and
+  `npm run deploy:netlify:production` are removed, and the repository can
+  no longer deploy to Netlify. Use `npm run deploy`.
+
+### Content
+
+* **fix:** load the last archive images from this site ([318b705](https://github.com/davidsneighbour/samui-samui.de/commit/318b7056e1ae3ace79a2d1e90d114c1034db95ff)), closes [#1790](https://github.com/davidsneighbour/samui-samui.de/issues/1790) [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **fix:** remove the dead Google map from the Samui-Penang post ([bc7b5a6](https://github.com/davidsneighbour/samui-samui.de/commit/bc7b5a664eaacaba0f161bd0b189f8a65b6134b4)), references [#1785](https://github.com/davidsneighbour/samui-samui.de/issues/1785) [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780)
+* **fix:** restore Flickr photos in 2005 posts ([af72222](https://github.com/davidsneighbour/samui-samui.de/commit/af722224c3066a8270bd93c6b701dc5f07d04786)), references [#1790](https://github.com/davidsneighbour/samui-samui.de/issues/1790) [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780)
+* **fix:** restore Flickr photos in 2007 posts ([16c5d2b](https://github.com/davidsneighbour/samui-samui.de/commit/16c5d2b88d6cabc875f292fcf2eb74da018e27f7)), references [#1790](https://github.com/davidsneighbour/samui-samui.de/issues/1790) [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780) [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706)
+* **fix:** restore Flickr photos in 2008 posts ([8c6a216](https://github.com/davidsneighbour/samui-samui.de/commit/8c6a21694c00a6cd739be8d492ee37721413bc90)), references [#1790](https://github.com/davidsneighbour/samui-samui.de/issues/1790) [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780)
+* **fix:** restore Flickr photos in 2009 to 2011 posts ([d580782](https://github.com/davidsneighbour/samui-samui.de/commit/d58078278d7fea4e152e38fa1212d73011dd78dc)), references [#1790](https://github.com/davidsneighbour/samui-samui.de/issues/1790) [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780) [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781)
+* **fix:** restore Flickr photos in 2012 and 2013 posts ([e4d9d67](https://github.com/davidsneighbour/samui-samui.de/commit/e4d9d67ce080f9654c325e315b76bf180aef027e)), references [#1790](https://github.com/davidsneighbour/samui-samui.de/issues/1790) [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780)
+* **fix:** restore Flickr photos in January to June 2006 posts ([f65ab70](https://github.com/davidsneighbour/samui-samui.de/commit/f65ab705ff3e4a8bd3987a854dad026e5a957665)), references [#1790](https://github.com/davidsneighbour/samui-samui.de/issues/1790) [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780) [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706)
+* **fix:** restore Flickr photos in July to December 2006 posts ([03ba1d8](https://github.com/davidsneighbour/samui-samui.de/commit/03ba1d8b44c8eac51b7d1db084f83261d859098e)), references [#1790](https://github.com/davidsneighbour/samui-samui.de/issues/1790) [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780) [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706)
+* **fix:** restore three Flickr photos from the local backup ([1f147f1](https://github.com/davidsneighbour/samui-samui.de/commit/1f147f1fa4e4bf8cd61ac28a64038c8fb185ce55)), references [#1790](https://github.com/davidsneighbour/samui-samui.de/issues/1790) [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780)
+* **privacy:** describe DreamHost and Cloudflare hosting ([14da114](https://github.com/davidsneighbour/samui-samui.de/commit/14da1141f49e1adb473c234480de591df793b230)), closes [#1785](https://github.com/davidsneighbour/samui-samui.de/issues/1785)
+* **privacy:** state that only named third parties are loaded ([fee764b](https://github.com/davidsneighbour/samui-samui.de/commit/fee764b7a0aff1a4db7929785b13fefe031a139e)), references [#1790](https://github.com/davidsneighbour/samui-samui.de/issues/1790) [#1785](https://github.com/davidsneighbour/samui-samui.de/issues/1785)
+
+### Feat
+
+* **content:** add optional post relevance classification ([f8bfb74](https://github.com/davidsneighbour/samui-samui.de/commit/f8bfb742c00297bdb60300bcf639e951a647631a)), closes [#1798](https://github.com/davidsneighbour/samui-samui.de/issues/1798)
+* **deploy:** add deploy:full to also sync the Cloudflare rules ([cc1d675](https://github.com/davidsneighbour/samui-samui.de/commit/cc1d675bd05eba73f628fba8cb4a9a7ab99c6365)), closes [#1791](https://github.com/davidsneighbour/samui-samui.de/issues/1791)
+* **deploy:** manage DreamHost releases and fix hard-linked uploads ([03c054b](https://github.com/davidsneighbour/samui-samui.de/commit/03c054b91a03eff07be3c01e2e2b3c0e4080ef57)), references [#1783](https://github.com/davidsneighbour/samui-samui.de/issues/1783)
+* **hosting:** move to DreamHost origin behind Cloudflare cache and Worker ([7e67f91](https://github.com/davidsneighbour/samui-samui.de/commit/7e67f914b12cde8a3ac1bb12aa5d3857b3299fd9)), references [#1783](https://github.com/davidsneighbour/samui-samui.de/issues/1783)
+* **maps:** generate local static article maps ([b3bb890](https://github.com/davidsneighbour/samui-samui.de/commit/b3bb89038a646ab7ae9e512532d35e77380013b5)), closes [#1797](https://github.com/davidsneighbour/samui-samui.de/issues/1797)
+* **ui:** let the masthead respond to hover and keyboard focus ([cc90753](https://github.com/davidsneighbour/samui-samui.de/commit/cc90753ac15e5ebb0dd8aa085266dd5841f59ee2)), closes [#1795](https://github.com/davidsneighbour/samui-samui.de/issues/1795)
+
+### Instructions
+
+* describe DreamHost + Cloudflare hosting rules for agents ([9125202](https://github.com/davidsneighbour/samui-samui.de/commit/9125202d7c793dfb33de5d70db13b4ab602cd5dd)), references [#1783](https://github.com/davidsneighbour/samui-samui.de/issues/1783)
+
+### Fix
+
+* **blog-list:** centre the excerpt column on cards without a cover ([7856c33](https://github.com/davidsneighbour/samui-samui.de/commit/7856c33aa08371f509f24273423f2f9ffd5df205)), references [#1792](https://github.com/davidsneighbour/samui-samui.de/issues/1792)
+* **blog-list:** limit excerpt width on cards without a cover ([f154089](https://github.com/davidsneighbour/samui-samui.de/commit/f154089b76fc2ecb52dd6edacc08b40a9bb92392)), closes [#1792](https://github.com/davidsneighbour/samui-samui.de/issues/1792)
+* **contact:** keep visitor data out of the email claim and Worker logs ([72dd754](https://github.com/davidsneighbour/samui-samui.de/commit/72dd754e867abb8a0ecd325be886fc728876eaf0)), references [#1785](https://github.com/davidsneighbour/samui-samui.de/issues/1785)
+* **contact:** stop the success message from looking like an error ([3c67b7e](https://github.com/davidsneighbour/samui-samui.de/commit/3c67b7e6eefb035804b027415a19e53ffddb8fb0)), closes [#1786](https://github.com/davidsneighbour/samui-samui.de/issues/1786)
+* **deploy:** keep DreamHost's .dh-diag symlink in the web directory ([a236e80](https://github.com/davidsneighbour/samui-samui.de/commit/a236e80e7caf53b0ff396a6924df5667b8c4f1b1)), references [#1783](https://github.com/davidsneighbour/samui-samui.de/issues/1783)
+* **deps:** override patched katex and postcss-selector-parser ([721ae06](https://github.com/davidsneighbour/samui-samui.de/commit/721ae06022d6a50d992600affafe537479a64f7c)), closes [#1745](https://github.com/davidsneighbour/samui-samui.de/issues/1745) [#1746](https://github.com/davidsneighbour/samui-samui.de/issues/1746), references [#1743](https://github.com/davidsneighbour/samui-samui.de/issues/1743) [#1744](https://github.com/davidsneighbour/samui-samui.de/issues/1744) [#1742](https://github.com/davidsneighbour/samui-samui.de/issues/1742)
+* **embeds:** never contact YouTube or Vimeo before a click ([74bdf4b](https://github.com/davidsneighbour/samui-samui.de/commit/74bdf4b1e963d926754798e76dca7e80a3c44c10)), closes [#1789](https://github.com/davidsneighbour/samui-samui.de/issues/1789)
+* **footer:** move OpenStreetMap coastline credit to the Impressum ([cb9c734](https://github.com/davidsneighbour/samui-samui.de/commit/cb9c734f7bc7418ca331a4a937d4341076f7e5de)), closes [#1788](https://github.com/davidsneighbour/samui-samui.de/issues/1788)
+* **origin:** override DreamHost's server-wide Expires and Vary headers ([1f0089b](https://github.com/davidsneighbour/samui-samui.de/commit/1f0089b39ffd8c27b28f5dc7c047bbd65f32d976)), references [#1783](https://github.com/davidsneighbour/samui-samui.de/issues/1783)
+* **theme:** keep prose headings inside the reading column ([f5a2b7b](https://github.com/davidsneighbour/samui-samui.de/commit/f5a2b7bb7d21c05ad4d8654ae39788d4a71428bf)), references [#1792](https://github.com/davidsneighbour/samui-samui.de/issues/1792)
+* **theme:** set the reading measure to 65ch ([5af725d](https://github.com/davidsneighbour/samui-samui.de/commit/5af725dc2c134d6c6868bc49b98ebb2eff279bda)), references [#1792](https://github.com/davidsneighbour/samui-samui.de/issues/1792)
+* **tooltip:** derive default ids from content instead of randomUUID ([3e5f3e5](https://github.com/davidsneighbour/samui-samui.de/commit/3e5f3e58d9900cf04ea0f67ce0ef535974a3b020)), references [#1783](https://github.com/davidsneighbour/samui-samui.de/issues/1783)
+* **ui:** align masthead width docs and test with the 1200px cap ([90943fd](https://github.com/davidsneighbour/samui-samui.de/commit/90943fd52b28051421f435e171980ebde746e2c5)), closes [#1796](https://github.com/davidsneighbour/samui-samui.de/issues/1796)
+* **ui:** keep the construction banner yellow in every colour scheme ([cb47c51](https://github.com/davidsneighbour/samui-samui.de/commit/cb47c5109696b7464de28c7f72707ff83126c6e8)), closes [#1794](https://github.com/davidsneighbour/samui-samui.de/issues/1794)
+* **worker:** stop storing per-request invocation logs ([2b56c08](https://github.com/davidsneighbour/samui-samui.de/commit/2b56c087af90953b0593351dea6fbe52e3ce81f4)), references [#1785](https://github.com/davidsneighbour/samui-samui.de/issues/1785)
+
+### Docs
+
+* **content:** document the Flickr photo restoration ([8b5d90e](https://github.com/davidsneighbour/samui-samui.de/commit/8b5d90e3c3ff4861fe1b160e598d93c824ca38ca)), references [#1790](https://github.com/davidsneighbour/samui-samui.de/issues/1790) [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780)
+* **hosting:** document first Worker deploy and certificate permission ([add6324](https://github.com/davidsneighbour/samui-samui.de/commit/add632405b989e93adf9c667293d38dbca923498)), references [#1783](https://github.com/davidsneighbour/samui-samui.de/issues/1783)
+* **hosting:** record the DNS cutover and measured cache behaviour ([ded384e](https://github.com/davidsneighbour/samui-samui.de/commit/ded384ebb8b43b94419db3fb02dfe476c2e74f59)), references [#1783](https://github.com/davidsneighbour/samui-samui.de/issues/1783)
+* **hosting:** record the real Cloudflare zone state for the cutover ([0eb1327](https://github.com/davidsneighbour/samui-samui.de/commit/0eb1327be82208d9abf9b954b1577f5a2363ad2c)), references [#1783](https://github.com/davidsneighbour/samui-samui.de/issues/1783)
+
+### Build
+
+* **deps:** update dependencies ([515afcb](https://github.com/davidsneighbour/samui-samui.de/commit/515afcbce02c92ddd9113fc0e2f9782bb0730805))
+
+### Chore
+
+* **deploy:** remove the GitHub Actions deploy and record origin exposure ([8ade582](https://github.com/davidsneighbour/samui-samui.de/commit/8ade5829e39bb0b3ee699ab42daf7fb2203eb838)), references [#1783](https://github.com/davidsneighbour/samui-samui.de/issues/1783)
+* **deps:** update actions/setup-node action to v7.1.0 ([#1782](https://github.com/davidsneighbour/samui-samui.de/issues/1782)) ([6ec3f3b](https://github.com/davidsneighbour/samui-samui.de/commit/6ec3f3b2f6548dc4c2bfde13f7ce5e67229cbfba))
+* **hosting:** remove Netlify configuration after the cutover ([17cb2a2](https://github.com/davidsneighbour/samui-samui.de/commit/17cb2a2a4e9a1435873dce95a04a7880e3c67a92)), references [#1784](https://github.com/davidsneighbour/samui-samui.de/issues/1784) [#1744](https://github.com/davidsneighbour/samui-samui.de/issues/1744)
+
 ## [2.19.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.18.0...v2.19.0) (2026-10-08)
 
 ### Content
