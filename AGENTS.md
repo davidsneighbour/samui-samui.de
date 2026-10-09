@@ -17,6 +17,7 @@ origin behind the Cloudflare cache, with a Cloudflare Worker for `/api/*`
 * Live site is the reference for expected behavior — when a change's effect is
   unclear from reading code alone, agents SHOULD compare local output against the
   live site rather than guessing.
+* Node.js **26** is the required runtime major. Keep `.nvmrc`, the generated `package.json` engine (`^26.0.0`), lockfile metadata, and CI aligned. This is a fixed project requirement, not a temporary LTS-policy exception; do not select a different major without an explicit decision. Runtime engine edits belong in `src/packages/build/package.jsonc`.
 * Styling uses Tailwind CSS v4 (`@tailwindcss/vite`) — no Bootstrap/SCSS.
 * Astro is pinned to the **7.1.x** line. Do not bump to a newer Astro major
   without checking that integrations such as `@astrojs/mdx`, `@astrojs/react`,

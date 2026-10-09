@@ -36,6 +36,8 @@ npm run check
 
 ## Getting started
 
+Node.js 26 is required. Use the version pinned in `.nvmrc` and its bundled npm. The generated package engine accepts Node 26 releases and excludes other majors; see [Local development](documentation/local-development.md) for the runtime policy.
+
 1. Install the project dependencies:
 
    ```bash
