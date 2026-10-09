@@ -3,7 +3,7 @@
   // Cloudflare cutover is verified (see documentation/hosting/migration.md).
   // Remove this fragment together with netlify.toml and src/netlify/.
   "devDependencies": {
-    "netlify-cli": "27.11.2"
+    "netlify-cli": "27.12.0"
   },
   "scripts": {
     "deploy:netlify": "node ./src/scripts/deploy/netlify.ts",

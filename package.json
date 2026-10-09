@@ -238,11 +238,15 @@
   },
   "overrides": {
     "@opentelemetry/api": "1.8.0",
+    "@tailwindcss/typography": {
+      "postcss-selector-parser": "7.1.6"
+    },
     "esbuild": "0.28.1",
     "get-uri": {
       "basic-ftp": "^6.2.1"
     },
     "js-yaml": "5.4.3",
+    "katex": "0.18.2",
     "markdownlint-rule-title-case-style": {
       "markdownlint": "^0.41.1"
     },
