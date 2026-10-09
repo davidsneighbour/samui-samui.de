@@ -134,7 +134,7 @@ for (const width of widths) {
     ).toBeCloseTo(metrics.canvasCentre, 2);
     expect(metrics.visibleCentre).toBeCloseTo(metrics.dividerCentre, 2);
     expect(metrics.documentWidth).toBeLessThanOrEqual(metrics.viewport + 1);
-    expect(metrics.artworkWidth).toBeCloseTo(Math.min(width - 32, 1600), 0);
+    expect(metrics.artworkWidth).toBeCloseTo(Math.min(width - 32, 1200), 0);
   });
 }
 
