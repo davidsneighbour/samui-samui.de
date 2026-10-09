@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/340316549/"><img src="//farm1.static.flickr.com/147/340316549_7fe85fc4eb.jpg" class="flickr-photo" alt="" /></a></p>
+![New Year 2550 (2007)](./new-year-2550-2007-340316549.jpg)
 
-  <p>
-    New Year 2550 (2007)
-  </p>
-</div>
+New Year 2550 (2007)
 
-_Schräg aus dem Schlafzimmerfenster gelehnt photographiert. die 3/4 rechts und unten sind voller Sträucher und Palmen ;)_
+_Schräg aus dem Schlafzimmerfenster gelehnt photographiert. Die 3/4 rechts und unten sind voller Sträucher und Palmen ;)_

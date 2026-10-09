@@ -10,10 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/1376930435/" title="At the ferrryport of Lomprayah II"><img src="//farm2.static.flickr.com/1170/1376930435_d10ef4bd42.jpg" alt="At the ferrryport of Lomprayah II" /></a></p>
+![At the ferryport of Lomprayah II](./at-the-ferryport-of-lomprayah-ii-1376930435.jpg)
 
-  <p>
-    At the ferrryport of Lomprayah II
-  </p>
-</div>
+At the ferryport of Lomprayah II
+
+<!-- cspell:ignore ferryport -->

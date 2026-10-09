@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/1183786792/" title="Sunset at Bang Por"><img src="//farm2.static.flickr.com/1064/1183786792_b8dc6ee18a.jpg" alt="Sunset at Bang Por" /></a></p>
+![Sunset at Bang Por](./sunset-at-bang-por-1183786792.jpg)
 
-  <p>
-    Sunset at Bang Por
-  </p>
-</div>
+Sunset at Bang Por

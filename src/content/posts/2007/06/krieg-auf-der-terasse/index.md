@@ -1,5 +1,5 @@
 ---
-title: Krieg auf der Terasse…
+title: Krieg auf der Terrasse…
 date: 2007-06-07T07:43:15+07:00
 publisher:
   description: true
@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/534660409/" title="Photo Sharing"><img src="//farm2.static.flickr.com/1342/534660409_e737967e09.jpg" width="500" height="375" alt="War!" /></a></p>
+![War!](./war-534660409.jpg)
 
-  <p>
-    Krieg!
-  </p>
-</div>
+Krieg!
 
 Sieht schlimmer aus als es ist. Pokki (der fettere im Bild) verliert meistens. Ich vermute aus brüderlicher Freundlichkeit.

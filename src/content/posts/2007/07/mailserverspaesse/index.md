@@ -1,5 +1,5 @@
 ---
-title: Mailserverspä?e
+title: Mailserverspäße
 date: 2007-07-03T03:43:48+07:00
 publisher:
   description: true
@@ -10,12 +10,13 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/703624929/" title="Photo Sharing"><img src="//farm2.static.flickr.com/1089/703624929_39b0a8ed3b.jpg" width="500" height="375" alt="Dem Inschinör is nix zu schwör!" /></a></p>
+![Dem Inschinör is nix zu schwör!](./dem-inschinr-is-nix-zu-schwr-703624929.jpg)
 
-  <p>
-    Dem Inschinör is nix zu schwör!
-  </p>
-</div>
+Dem Inschinör is nix zu schwör!
 
-Ich weiß. Ist ein Insider...
+Ich weiß. Ist ein Insider …
+
+<!-- grammar-ignore NIX nix -->
+<!-- grammar-ignore ZU_KOENNE_SPELLING_RULE schwör -->
+<!-- cspell:ignore Inschinör -->
+<!-- cspell:ignore schwör -->

@@ -10,10 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/371653209/"><img src="//farm1.static.flickr.com/175/371653209_0a02f7d536.jpg" class="flickr-photo" alt="" /></a></p>
+![At the Rayong Aquarium](./at-the-rayong-aquarium-371653209.jpg)
 
-  <p>
-    At the Rayong Aquarium
-  </p>
-</div>
+At the Rayong Aquarium
+
+<!-- cspell:ignore Aquariumsbesuch -->

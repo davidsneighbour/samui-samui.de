@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2114350563/" title="Sunset"><img src="//farm3.static.flickr.com/2048/2114350563_276dbe2ca5.jpg" alt="Sunset" /></a></p>
+![Sunset](./sunset-2114350563.jpg)
 
-  <p>
-    Sunset
-  </p>
-</div>
+Sunset
 
 Vom gleichen Strand wie der Fischer.

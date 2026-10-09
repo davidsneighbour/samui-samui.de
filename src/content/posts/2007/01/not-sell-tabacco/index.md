@@ -10,10 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/370523896/"><img src="//farm1.static.flickr.com/146/370523896_51f4467eb4.jpg" class="flickr-photo" alt="" /></a></p>
+![Thenglish Tesco-Style](./thenglish-tesco-style-370523896.jpg)
 
-  <p>
-    Thenglish Tesco-Style
-  </p>
-</div>
+Thenglish Tesco-Style
+
+<!-- cspell:ignore Tabacco -->

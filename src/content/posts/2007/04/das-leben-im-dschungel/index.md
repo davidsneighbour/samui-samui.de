@@ -10,13 +10,9 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/458501795/"><img src="//farm1.static.flickr.com/242/458501795_dba049f3bf.jpg" class="flickr-photo" alt="" /></a></p>
+![Technical Problems](./technical-problems-458501795.jpg)
 
-  <p>
-    Technical Problems
-  </p>
-</div>
+Technical Problems
 
 Das Leben im Dschungel bringt manchmal weniger nette Überraschungen mit sich. Wie beispielsweise das Ameisennest in der Tripod-Tasche. Jetzt gibt es viele ersoffene Ameisen, hunderte heimatlose Ameisen und eine vernichtete zukünftige Generation.
 

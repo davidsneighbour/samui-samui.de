@@ -12,12 +12,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/1290560859/" title="Sunrise"><img src="//farm2.static.flickr.com/1372/1290560859_bd0b211913.jpg" alt="Sunrise" /></a></p>
+![Sunrise](./sunrise-1290560859.jpg)
 
-  <p>
-    Sunrise
-  </p>
-</div>
+Sunrise
 
-Eine der Ansichten aus meinem Schlafzimmerfenster die mir fehlen werden. Das neue Haus wird nicht so günstig stehen...
+Eine der Ansichten aus meinem Schlafzimmerfenster, die mir fehlen werden. Das neue Haus wird nicht so günstig stehen …

@@ -12,12 +12,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/1932598384/" title="Wednesday morning"><img src="//farm3.static.flickr.com/2121/1932598384_047165581f.jpg" alt="Wednesday morning" /></a></p>
+![Wednesday morning](./wednesday-morning-1932598384.jpg)
 
-  <p>
-    Wednesday morning
-  </p>
-</div>
+Wednesday morning
 
 Siehe auch hier.

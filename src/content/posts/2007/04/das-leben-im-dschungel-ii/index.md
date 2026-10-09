@@ -10,15 +10,11 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/472174655/"><img src="//farm1.static.flickr.com/167/472174655_1ec22b87ab.jpg" class="flickr-photo" alt="" /></a></p>
+![Ants. Again.](./ants-again-472174655.jpg)
 
-  <p>
-    Ants. Again.
-  </p>
-</div>
+Ants. Again.
 
-Das Leben im Dschungel bringt manchmal weniger nette ?berraschungen mit sich. Wie beispielsweise das Ameisennest im Scanner.
+Das Leben im Dschungel bringt manchmal weniger nette Überraschungen mit sich. Wie beispielsweise das Ameisennest im Scanner.
 
 Hab ihn kurz in die Sonne gestellt und die Ameisen zum Verlassen aufgefordert. Einige sind schnell verschwunden, der Großteil ist aber erstickt oder verbrannt oder was auch immer. Das ist mir aber inzwischen egal. Ameisen müssen nicht in meinem Haus leben.
 

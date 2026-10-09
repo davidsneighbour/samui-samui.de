@@ -10,12 +10,11 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2097785882/" title="Its this time again"><img src="//farm3.static.flickr.com/2008/2097785882_d6f5cbcbd6.jpg" alt="Its this time again" /></a></p>
+![Its this time again](./its-this-time-again-2097785882.jpg)
 
-  <p>
-    Its this time again
-  </p>
-</div>
+Its this time again
 
 Wenn der Geruch den Knuddelfaktor überwiegt, ist mal wieder Zeit, für eine kombinierte Schaum-Seifen-Kur. Pokki hat es über sich ergehen lassen. Relativ gelassen, muss ich sagen. Ich bin da mehr Widerstand gewohnt. Vielleicht war auch er vom Geruch angespornt.
+
+<!-- cspell:ignore Nasszellenkur -->
+<!-- cspell:ignore Knuddelfaktor -->

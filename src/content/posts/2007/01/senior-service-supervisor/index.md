@@ -10,14 +10,13 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/343704098/"><img src="//farm1.static.flickr.com/140/343704098_1ac0b9e2ca.jpg" class="flickr-photo" alt="" /></a></p>
+![Senior Service Supervisor](./senior-service-supervisor-343704098.jpg)
 
-  <p>
-    Senior Service Supervisor
-  </p>
-</div>
+Senior Service Supervisor
 
 Ich habe schon einen Benutzer unter einem Exchange-Server eingerichtet, Rechte für einen Ordner vergeben, jede Menge Kram gebackuppt und einen Barcodefont installiert. Alles ein click-and-point-Spiel. Für _Den Kunden_&trade; aber sieht es so aus, als ob ich ein Halbgott mit goldenen Notebooktasten bin.
 
-Jaja... Windows...
+Jaja … Windows …
+
+<!-- grammar-ignore DE_CASE Den -->
+<!-- cspell:ignore gebackuppt -->

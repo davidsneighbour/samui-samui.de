@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2027686221/" title="Me now"><img src="//farm3.static.flickr.com/2218/2027686221_2d1a16bc4d.jpg" alt="Me now" /></a></p>
+![Me now](./me-now-2027686221.jpg)
 
-  <p>
-    Me now
-  </p>
-</div>
+Me now
 
-Finden Sie bitte den Regenbogen im Hintergrund...
+Finden Sie bitte den Regenbogen im Hintergrund …

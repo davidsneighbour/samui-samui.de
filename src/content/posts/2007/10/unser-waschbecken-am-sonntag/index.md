@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/1568197910/" title="Sunday morning"><img src="//farm3.static.flickr.com/2002/1568197910_8a91c6c34e.jpg" alt="Sunday morning" /></a></p>
+![Sunday morning](./sunday-morning-1568197910.jpg)
 
-  <p>
-    Sunday morning
-  </p>
-</div>
+Sunday morning

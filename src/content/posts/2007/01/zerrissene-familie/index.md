@@ -10,14 +10,12 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/351098569/"><img src="//farm1.static.flickr.com/126/351098569_8a40d42073.jpg" class="flickr-photo" alt="" /></a></p>
+![Pokki after shower. Soosie before shower.](./pokki-after-shower-soosie-before-shower-351098569.jpg)
 
-  <p>
-    Pokki after shower. Soosie before shower.
-  </p>
-</div>
+Pokki after shower. Soosie before shower.
 
-Ich vermisse meine Hunde. Und sie vermissen mich. Und Fu vermisst mich auch, aber nur, weil sie auf die Hunde aufpassen muss und endlich mal merkt, dass das mehr Arbeit ist als nur einen Hund auf dem Arm zu tragen und von allen bequatscht zu werden, was das doch für ein sü?er kleiner Kerl ist.
+Ich vermisse meine Hunde. Und sie vermissen mich. Und Fu vermisst mich auch, aber nur, weil sie auf die Hunde aufpassen muss und endlich mal merkt, dass das mehr Arbeit ist als nur einen Hund auf dem Arm zu tragen und von allen bequatscht zu werden, was das doch für ein süßer kleiner Kerl ist.
 
-Pokki hat gerade eine Dusche über sich ergehen lassen. Und wenn man genauer sucht (Klick aufs Bild lädt flickr und dann ist ein Kasten drum), dann sieht man auch Soosie, die schon genau wei?, dass sie bald geduscht wird.
+Pokki hat gerade eine Dusche über sich ergehen lassen. Und wenn man genauer sucht (Klick aufs Bild lädt flickr und dann ist ein Kasten drum), dann sieht man auch Soosie, die schon genau weiß, dass sie bald geduscht wird.
+
+<!-- grammar-ignore DE_AGREEMENT ein süßer kleiner Kerl -->

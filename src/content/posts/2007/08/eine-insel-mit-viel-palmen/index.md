@@ -10,12 +10,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/1015172219/" title="Rainseason"><img src="//farm2.static.flickr.com/1378/1015172219_fdeb5825e0.jpg" alt="Rainseason" /></a></p>
+![Rainseason](./rainseason-1015172219.jpg)
 
-  <p>
-    Rainseason
-  </p>
-</div>
+Rainseason
 
-Ich frag mich ja ziemlich regelmäßig, was die Leute so toll an Samui finden...
+Ich frag mich ja ziemlich regelmäßig, was die Leute so toll an Samui finden …
+
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E frag -->

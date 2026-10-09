@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/64107958/" title="Big wishes"><img src="//farm1.static.flickr.com/29/64107958_6667706e48.jpg" alt="Big wishes" /></a></p>
+![Big wishes](./big-wishes-64107958.jpg)
 
-  <p>
-    Big wishes
-  </p>
-</div>
+Big wishes

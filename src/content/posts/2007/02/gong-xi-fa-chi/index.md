@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/393997409/"><img src="//farm1.static.flickr.com/172/393997409_1a7d9b5be1.jpg" class="flickr-photo" alt="" /></a></p>
+![Gong Xi Fa Cai](./gong-xi-fa-cai-393997409.jpg)
 
-  <p>
-    Gong Xi Fa Chi
-  </p>
-</div>
+Gong Xi Fa Chi
 
-Das Jahr des goldenen Schweins beginnt. Kann gar nicht besser gehen...
+Das Jahr des goldenen Schweins beginnt. Kann gar nicht besser gehen …

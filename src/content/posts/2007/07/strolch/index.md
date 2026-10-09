@@ -10,14 +10,12 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/893896543/" title="How to make the perfect braid - Part 2"><img src="//farm2.static.flickr.com/1206/893896543_5c2bf68126.jpg" alt="How to make the perfect braid" /></a></p>
+![How to make the perfect braid](./how-to-make-the-perfect-braid-part-2-893896543.jpg)
 
-  <p>
-    How to make the perfect braid --- Part 2
-  </p>
-</div>
+How to make the perfect braid --- Part 2
 
-Soosie erklärt auf [Shih-Tzu-Phrenia.org][1] wie man Zöpfe macht ohne Haare zu haben.
+Soosie erklärt auf [Shih-Tzu-Phrenia.org][1] wie man Zöpfe macht, ohne Haare zu haben.
 
- [1]: http://shih-tzu-phrenia.org/blog/40/how-to-make-the-perfect-braid-for-a-shih-tzu
+ [1]: https://web.archive.org/web/20071016182537/http://shih-tzu-phrenia.org/blog/40/how-to-make-the-perfect-braid-for-a-shih-tzu
+
+<!-- cspell:ignore Phrenia -->

@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/485157137/"><img src="//farm1.static.flickr.com/215/485157137_58fe7dc8ef.jpg" class="flickr-photo" alt="" /></a></p>
+![Coronation](./coronation-485157137.jpg)
 
-  <p>
-    Coronation
-  </p>
-</div>
+Coronation

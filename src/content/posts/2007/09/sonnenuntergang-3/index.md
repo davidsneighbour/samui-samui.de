@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/1360792657/" title="Sunset"><img src="//farm2.static.flickr.com/1067/1360792657_91f1017e35.jpg" alt="Sunset" /></a></p>
+![Sunset](./sunset-1360792657.jpg)
 
-  <p>
-    Sunset
-  </p>
-</div>
+Sunset
 
-Ich glaube die Farben würden mir fehlen... irgendwann...
+Ich glaube, die Farben würden mir fehlen … irgendwann …

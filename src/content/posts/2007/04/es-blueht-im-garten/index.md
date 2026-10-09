@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/444461496/"><img src="//farm1.static.flickr.com/217/444461496_7df22155df.jpg" class="flickr-photo" alt="" /></a></p>
+![Orchid](./orchid-444461496.jpg)
 
-  <p>
-    Orchid
-  </p>
-</div>
+Orchid

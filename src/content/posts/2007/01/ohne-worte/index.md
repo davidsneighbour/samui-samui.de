@@ -10,12 +10,11 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/346120531/"><img src="//farm1.static.flickr.com/164/346120531_41c3e0bb03.jpg" class="flickr-photo" alt="" /></a></p>
+![Tourist](./tourist-346120531.jpg)
 
-  <p>
-    Tourist
-  </p>
-</div>
+Tourist
 
-_(Dieses Bild habe ich aufgenommen im September. Es gibt es noch mehr lustige Photos in dieser Art, die ich bei fehlenden Themen posten werde. Hin Da Hin Yai ist immer ein springender Quell an Motiven... )_
+_(Dieses Bild habe ich aufgenommen im September. Es gibt es noch mehr lustige Photos in dieser Art, die ich bei fehlenden Themen posten werde. Hin Da Hin Yai ist immer ein springender Quell an Motiven …)_
+
+<!-- grammar-ignore DE_CASE Da -->
+<!-- grammar-ignore DE_CASE Hin -->

@@ -10,14 +10,12 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/1310925549/" title="The new house"><img src="//farm2.static.flickr.com/1198/1310925549_afe89a87b0.jpg" alt="The new house" /></a></p>
+![The new house](./the-new-house-1310925549.jpg)
 
-  <p>
-    The new house
-  </p>
-</div>
+The new house
 
 Unser neues Haus. [Soosie schnüffelt immer noch rum][1]. Pokki posiert schon wieder. Im Hintergrund das Haus der Hausbesitzer, dahinter die Ringroad.
 
- [1]: http://shih-tzu-phrenia.org/blog/44/the-new-house
+ [1]: https://web.archive.org/web/20071019052418/http://shih-tzu-phrenia.org/blog/44/the-new-house
+
+<!-- grammar-ignore RAN_RUM_RAUF_REIN_RAUS_RUNTER rum -->

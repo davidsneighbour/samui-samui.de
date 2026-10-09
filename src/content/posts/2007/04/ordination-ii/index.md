@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/446323547/"><img src="//farm1.static.flickr.com/204/446323547_8eb40aeb15.jpg" class="flickr-photo" alt="" /></a></p>
+![Ordination](./ordination-446323547.jpg)
 
-  <p>
-    IMG_5699
-  </p>
-</div>
+IMG_5699

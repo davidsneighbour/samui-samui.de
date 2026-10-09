@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2115117642/" title="Models"><img src="//farm3.static.flickr.com/2040/2115117642_216bd15463.jpg" alt="Models" /></a></p>
+![Models](./models-2115117642.jpg)
 
-  <p>
-    Models
-  </p>
-</div>
+Models
 
 Beide Hunde gebürstet und (relativ) sauber. Selten.

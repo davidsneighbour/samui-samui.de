@@ -10,15 +10,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/1831309034/" title="Rainbow"><img src="//farm3.static.flickr.com/2128/1831309034_6f1c7d3e39.jpg" alt="Rainbow" /></a></p>
+![Rainbow](./rainbow-1831309034.jpg)
 
-  <p>
-    Rainbow
-  </p>
-</div>
+Rainbow
 
-Ok. Jetzt mal bitte viel Phantasie: Da war ein Regenbogen genau in der Mitte des Bildes. Zwischen den Palmen und Bäumen. Ein Viertelkreis-Regenbogen. Direkt auf der Wolke. [Hier][1] sieht man es bestimmt und wenn man es [hier][2] nicht sieht, dann weiss ich auch nicht mehr... Doofe Kamera :(
+Ok. Jetzt mal bitte viel Phantasie: Da war ein Regenbogen genau in der Mitte des Bildes. Zwischen den Palmen und Bäumen. Ein Viertelkreis-Regenbogen. Direkt auf der Wolke. Hier sieht man es bestimmt und wenn man es hier nicht sieht, dann weiß ich auch nicht mehr … Doofe Kamera :(
 
- [1]: http://flickr.com/photos/schreibblogade/1830448683/
- [2]: http://flickr.com/photos/schreibblogade/1831295202/
+<!-- grammar-ignore DE_CASE Doofe -->

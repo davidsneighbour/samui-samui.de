@@ -10,14 +10,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2114332449/" title="Safe!"><img src="//farm3.static.flickr.com/2032/2114332449_3e3f772140.jpg" alt="Safe!" /></a></p>
+![Safe!](./safe-2114332449.jpg)
 
-  <p>
-    Safe!
-  </p>
-</div>
+Safe!
 
-Gut zu wissen, dass die Bankautomaten (oder in diesem Fall [Kontobuchdrucker][1]) der Thaibanken unter Windows XP laufen und nicht unter Windows Vista ;)
+Gut zu wissen, dass die Bankautomaten (oder in diesem Fall Kontobuchdrucker) der Thaibanken unter Windows XP laufen und nicht unter Windows Vista ;)
 
- [1]: http://flickr.com/photos/schreibblogade/2114329861/
+<!-- cspell:ignore Thaibanken -->

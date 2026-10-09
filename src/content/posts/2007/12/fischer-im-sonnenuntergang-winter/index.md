@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2115126000/" title="Fisher"><img src="//farm3.static.flickr.com/2102/2115126000_1fc5182b47.jpg" alt="Fisher" /></a></p>
+![Fisher](./fisher-2115126000.jpg)
 
-  <p>
-    Fisher
-  </p>
-</div>
+Fisher

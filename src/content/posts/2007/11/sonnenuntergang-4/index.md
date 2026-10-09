@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2027657093/" title="Sunset"><img src="//farm3.static.flickr.com/2216/2027657093_1eac5a20b9.jpg" alt="Sunset" /></a></p>
+![Sunset](./sunset-2027657093.jpg)
 
-  <p>
-    Sunset
-  </p>
-</div>
+Sunset

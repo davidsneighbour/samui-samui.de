@@ -12,12 +12,14 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/466893698/"><img src="//farm1.static.flickr.com/217/466893698_bdbbd24ce4.jpg" class="flickr-photo" alt="" /></a></p>
+![Turtles](./turtles-466893698.jpg)
 
-  <p>
-    Turtles
-  </p>
-</div>
+Turtles
 
 Hier vertreten durch die Glubschäugige Hundehaus-Schildkröte, Cryptodira Testudinoidae Geoemydidae Plastica, die so nur noch in begrenzten Lebensräumen auf Samui im Dschungeldickicht von Ban Thai zu finden ist.
+
+<!-- cspell:ignore Cryptodira -->
+<!-- cspell:ignore Geoemydidae -->
+<!-- cspell:ignore Testudinoidae -->
+<!-- cspell:ignore Plastica -->
+<!-- cspell:ignore Glubschäugige -->

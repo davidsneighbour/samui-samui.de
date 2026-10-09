@@ -10,12 +10,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/1582169247/" title="Me now"><img src="//farm3.static.flickr.com/2025/1582169247_a4d7106ff0.jpg" alt="Me now" /></a></p>
+![Me now](./me-now-1582169247.jpg)
 
-  <p>
-    Me now
-  </p>
-</div>
+Me now
 
 Für die Locken-Fetischisten gibts den alten Stand in 1000 Tage Samui.
+
+<!-- grammar-ignore NACH_7_TAGE Tage -->

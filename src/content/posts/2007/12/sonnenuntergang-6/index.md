@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2123147260/" title="Sunset"><img src="//farm3.static.flickr.com/2282/2123147260_71f2403738.jpg" alt="Sunset" /></a></p>
+![Sunset](./sunset-2123147260.jpg)
 
-  <p>
-    Sunset
-  </p>
-</div>
+Sunset
 
 Schon wieder. Irgendwie geht die Sonne hier jeden Tag unter. Jeden Tag farbenfroher. Angenehm.

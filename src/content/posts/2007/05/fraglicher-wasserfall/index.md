@@ -12,13 +12,9 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/494661031/"><img src="//farm1.static.flickr.com/201/494661031_28c8343e26.jpg" class="flickr-photo" alt="" /></a></p>
+![Uncle Nims Magic Garden, Ko Samui](./uncle-nims-magic-garden-ko-samui-494661031.jpg)
 
-  <p>
-    Uncle Nims Magic Garden, Ko Samui
-  </p>
-</div>
+Uncle Nims Magic Garden, Ko Samui
 
 Fraglicher Wasserfall. Man beachte die reißenden Strudel und die nicht enden wollende Tiefe. Mehr [Bilder aus Onkel Nims Magic Garden][1] von vor dem Sturz gibts bei flickr.com. Und morgen fahren wir wieder hin. Lange Nase zeigen und die andere Wasserfallseite ablichten.
 

@@ -12,10 +12,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/422279224/"><img src="//farm1.static.flickr.com/160/422279224_9fd75a4167.jpg" class="flickr-photo" alt="" /></a></p>
+![Late night](./late-night-422279224.jpg)
 
-  <p>
-    Late night
-  </p>
-</div>
+Late night

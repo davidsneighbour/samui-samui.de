@@ -1,5 +1,5 @@
 ---
-title: Für die Fandungsphotos
+title: Für die Fahndungsphotos
 date: 2007-01-13T05:04:22+07:00
 publisher:
   description: true
@@ -10,12 +10,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/355450013/"><img src="//farm1.static.flickr.com/133/355450013_4a5a147071.jpg" class="flickr-photo" alt="" /></a></p>
+![Me. Now.](./me-now-355450013.jpg)
 
-  <p>
-    Me. Now.
-  </p>
-</div>
+Me. Now.
 
-Nur für den Fall, dass ich abhanden komme... Hier ein nettes Bildchen von "Ich" für die Plakate und Milchtüten...
+Nur für den Fall, dass ich abhandenkomme … Hier ein nettes Bildchen von "Ich" für die Plakate und Milchtüten …
+
+<!-- grammar-ignore DE_CASE Hier -->

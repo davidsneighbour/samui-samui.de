@@ -10,12 +10,12 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/346108297/"><img src="//farm1.static.flickr.com/164/346108297_059f2cd6c1.jpg" class="flickr-photo" alt="" /></a></p>
+![Tourists](./tourists-346108297.jpg)
 
-  <p>
-    Tourists
-  </p>
-</div>
+Tourists
 
-Hin Da Hin Yai auf Ko Samui. Immer wieder eine Freude, da hin zu gehen...
+Hin Da Hin Yai auf Ko Samui. Immer wieder eine Freude, dahin zu gehen …
+
+<!-- grammar-ignore DE_CASE Da -->
+<!-- grammar-ignore DE_CASE Hin -->
+<!-- grammar-ignore COMPOUND_INFINITIV_RULE dahin zu gehen -->

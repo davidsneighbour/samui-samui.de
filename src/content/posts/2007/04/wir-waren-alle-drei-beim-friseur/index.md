@@ -10,10 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/464935328/"><img src="//farm1.static.flickr.com/229/464935328_5459ca1db2.jpg" class="flickr-photo" alt="" /></a></p>
+![Wir waren alle drei beim Friseur](./flickr-464935328.jpg)
 
-  <p>
-    ???ี?ร?า??ั??ม
-  </p>
-</div>
+ไปที่ร้านตัดผม
+
+<!-- cspell:ignore ไปที่ร้านตัดผม -->

@@ -10,13 +10,9 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/775874158/" title="Malaysia"><img src="//farm2.static.flickr.com/1014/775874158_5e29362c5b.jpg" alt="Malaysia" /></a></p>
+![Malaysia](./malaysia-775874158.jpg)
 
-  <p>
-    Malaysia
-  </p>
-</div>
+Malaysia
 
 Drüben ist Malaysia, ich stehe direkt auf der Grenze.
 

@@ -10,14 +10,12 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/384215411/"><img src="//farm1.static.flickr.com/163/384215411_a53d8839cd.jpg" class="flickr-photo" alt="" /></a></p>
+![Soosie like fish!](./soosie-like-fish-384215411.jpg)
 
-  <p>
-    Soosie like fish!
-  </p>
-</div>
+Soosie like fish!
 
 Als ich vergangene Woche wieder nach Hause kam, war erstens der Garten voller Orchideen gepflanzt und zweitens stand ein kleines Kanu im Garten, voller Wasser und Fische.
 
-Pokki trinkt die Brühe und Soosie hat ihren ersten Kontakt mit lebenden Fischen... Viel Spass.
+Pokki trinkt die Brühe und Soosie hat ihren ersten Kontakt mit lebenden Fischen … Viel Spass.
+
+<!-- grammar-ignore DE_CASE Viel -->

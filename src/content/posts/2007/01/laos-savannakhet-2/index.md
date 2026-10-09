@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/370586330/"><img src="//farm1.static.flickr.com/129/370586330_4222992940.jpg" class="flickr-photo" alt="" /></a></p>
+![Street](./street-370586330.jpg)
 
-  <p>
-    Street
-  </p>
-</div>
+Street

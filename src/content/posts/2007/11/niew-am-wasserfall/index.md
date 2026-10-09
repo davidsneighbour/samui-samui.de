@@ -10,12 +10,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/1830326029/" title="Neil at the water"><img src="//farm3.static.flickr.com/2172/1830326029_a6b3f99393.jpg" alt="Neil at the water" /></a></p>
+![Neil at the water](./neil-at-the-water-1830326029.jpg)
 
-  <p>
-    Neil at the water
-  </p>
-</div>
+Neil at the water
 
-Wasserfälle haben eine magische Wirkung auf Thais...
+Wasserfälle haben eine magische Wirkung auf Thais …
+
+<!-- cspell:ignore Niew -->

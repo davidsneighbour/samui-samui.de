@@ -10,14 +10,12 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/353305725/"><img src="//farm1.static.flickr.com/143/353305725_3371a711dd.jpg" class="flickr-photo" alt="" /></a></p>
+![Green](./green-353305725.jpg)
 
-  <p>
-    Green
-  </p>
-</div>
+Green
 
-Sagte ich schon, dass ich mein Haus mag? Außen hat es ein leichtes Gelb und innen ein leichtes Grün. Optimale Farben. Nicht so lieblos dahingeklatschtes BraunGelb und Pinke Gardinen wie im "alten" Haus. Eigentlich habe ich gar keine Gardinen...
+Sagte ich schon, dass ich mein Haus mag? Außen hat es ein leichtes Gelb und innen ein leichtes Grün. Optimale Farben. Nicht so lieblos dahingeklatschtes BraunGelb und Pinke Gardinen wie im "alten" Haus. Eigentlich habe ich gar keine Gardinen …
 
-Wird Zeit, dass ich wieder heim komme...
+Wird Zeit, dass ich wieder heim komme …
+
+<!-- cspell:ignore dahingeklatschtes -->

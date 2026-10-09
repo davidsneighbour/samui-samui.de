@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/485120044/"><img src="//farm1.static.flickr.com/206/485120044_f727e4fe65.jpg" class="flickr-photo" alt="" /></a></p>
+![After the rain...](./after-the-rain-485120044.jpg)
 
-  <p>
-    After the rain...
-  </p>
-</div>
+After the rain …

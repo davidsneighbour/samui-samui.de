@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/1089961905/" title="Queens Birthday"><img src="//farm2.static.flickr.com/1295/1089961905_e60f6433dc.jpg" alt="Queens Birthday" /></a></p>
+![Queens Birthday](./queens-birthday-1089961905.jpg)
 
-  <p>
-    Queens Birthday
-  </p>
-</div>
+Queens Birthday
 
 Heute hat Königin Sirikit Geburtstag, weshalb seit Tagen wieder ihre Standbilder die Straßenränder säumen. Sie wird nun 75 Jahre alt. Über ihre Verdienste habe ich vor zwei Jahren schonmal geschrieben.

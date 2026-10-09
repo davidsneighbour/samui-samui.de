@@ -10,18 +10,14 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/1669206201/" title="Belgian Drug Gang nabbed at Samui"><img src="//farm3.static.flickr.com/2404/1669206201_b700c7c747.jpg" alt="Belgian Drug Gang nabbed at Samui" /></a></p>
+![Belgian Drug Gang nabbed at Samui](./belgian-drug-gang-nabbed-at-samui-1669206201.jpg)
 
-  <p>
-    Belgian Drug Gang nabbed at Samui
-  </p>
-</div>
+Belgian Drug Gang nabbed at Samui
 
 Jaja die Belgier!
 
-Vergangenen Donnerstag wurden auf der Insel (Samui? Ja, Samui!) vier Belgier [festgenommen][1], die zur meistgesuchtesten Bande Belgiens gehörten. Sie wurden (natürlich) vor den Kameras aller Kanäle vorgeführt und waren Tagesgespräch in den einschlägigen Ladybars.
+Vergangenen Donnerstag wurden auf der Insel (Samui? Ja, Samui!) vier Belgier [festgenommen][1], die zur meistgesuchten Bande Belgiens gehörten. Sie wurden (natürlich) vor den Kameras aller Kanäle vorgeführt und waren Tagesgespräch in den einschlägigen Ladybars.
 
-Als Samui das letzte Mal im Fernsehen war, ging es um unseren kleinen Grundstücks-Skandal. Man tut was man kann...
+Als Samui das letzte Mal im Fernsehen war, ging es um unseren kleinen Grundstücks-Skandal. Man tut, was man kann …
 
  [1]: http://kurl.de/opeyal

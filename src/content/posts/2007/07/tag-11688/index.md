@@ -10,14 +10,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/728104776/" title="Photo Sharing"><img src="//farm2.static.flickr.com/1396/728104776_30f514da94.jpg" width="500" height="375" alt="Me now." /></a></p>
+![Me now.](./me-now-728104776.jpg)
 
-  <p>
-    Tag 11688
-  </p>
-</div>
+Tag 11688
 
-Es gibt ja nicht viele Photos, auf denen ich mich mag, aber dieses hier ist mal eines. Man müsste dem Photographen noch das Ding mit dem Focus nahe bringen...
+Es gibt ja nicht viele Photos, auf denen ich mich mag, aber dieses hier ist mal eines. Man müsste dem Photographen noch das Ding mit dem Focus nahebringen …
 
-PS: Verdammt viele Farangs im MK...
+PS: Verdammt viele Farangs im MK …
