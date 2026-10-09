@@ -219,6 +219,15 @@ async function verifyTurnstile(
   return { ok: true };
 }
 
+async function resendErrorName(response: Response): Promise<string> {
+  try {
+    const body: { name?: unknown } = await response.json();
+    return typeof body.name === 'string' ? body.name : 'unknown';
+  } catch {
+    return 'unknown';
+  }
+}
+
 export interface ContactDependencies {
   env: ContactEnv;
   fetcher: typeof fetch;
@@ -321,10 +330,13 @@ export async function handleContact(
   });
 
   if (!resendResponse.ok) {
+    // Log only the status and Resend's error name: the error message can
+    // quote form fields such as the visitor's email address, and the
+    // privacy policy promises that Worker logs hold no visitor data.
     console.error(
       'Resend contact form delivery failed.',
       resendResponse.status,
-      await resendResponse.text(),
+      await resendErrorName(resendResponse),
     );
     return respond(request, 502, 'error', MESSAGES.error);
   }

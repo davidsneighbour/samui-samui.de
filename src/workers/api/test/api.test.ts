@@ -219,6 +219,43 @@ describe('POST /api/contact', () => {
     expect(resend['to']).toEqual(['owner@example.org']);
     expect(resend['reply_to']).toBe('visitor@example.org');
     expect(resend['subject']).toBe('Samui? Samui!: Visitor');
+    // The privacy policy says the email does not contain the visitor IP.
+    expect(calls[1]?.body).not.toContain('203.0.113.7');
+  });
+
+  it('logs only the Resend status and error name when delivery fails', async () => {
+    const errorLog = vi
+      .spyOn(console, 'error')
+      .mockImplementation(() => undefined);
+    const fetcher = vi.fn(async (input: RequestInfo | URL) => {
+      if (String(input).includes('turnstile')) {
+        return Response.json({ success: true });
+      }
+      return Response.json(
+        {
+          message: 'Invalid `reply_to` field: visitor@example.org',
+          name: 'validation_error',
+          statusCode: 422,
+        },
+        { status: 422 },
+      );
+    });
+
+    const response = await handleContact(post(valid), {
+      env,
+      fetcher: fetcher as unknown as typeof fetch,
+    });
+
+    expect(response.status).toBe(502);
+    expect(errorLog).toHaveBeenCalledWith(
+      'Resend contact form delivery failed.',
+      422,
+      'validation_error',
+    );
+    expect(JSON.stringify(errorLog.mock.calls)).not.toContain(
+      'visitor@example.org',
+    );
+    errorLog.mockRestore();
   });
 
   it('fails closed when secrets are missing', async () => {
