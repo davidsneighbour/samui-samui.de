@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/253368374/" title="Gone"><img src="//static.flickr.com/80/253368374_5908468d7c.jpg" alt="Gone" /></a></p>
+![Gone](./gone-253368374.jpg)
 
-  <p>
-    Gone
-  </p>
-</div>
+Gone
 
-Fortsetzung folgt...
+Fortsetzung folgt …

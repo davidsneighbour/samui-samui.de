@@ -11,14 +11,14 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/304961268/" title="ameisen (ants)"><img src="//static.flickr.com/119/304961268_6255c63cc8.jpg" alt="ameisen (ants)" /></a></p>
+![ameisen (ants)](./ameisen-ants-304961268.jpg)
 
-  <p>
-    ameisen (ants)
-  </p>
-</div>
+ameisen (ants)
 
 Diesmal zwei Ameisen die eine Biene abschleppen. Hehehehe.
 
-PS: Jaja, ich weiss...
+PS: Jaja, ich weiß …
+
+<!-- cspell:ignore ameisen -->
+<!-- cspell:ignore Hehehehe -->
+<!-- grammar-ignore UPPERCASE_SENTENCE_START ameisen -->

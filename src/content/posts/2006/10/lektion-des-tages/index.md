@@ -11,14 +11,13 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/276020469/" title="20061022(003)"><img src="//static.flickr.com/119/276020469_08f254d49b.jpg" alt="20061022(003)" /></a></p>
+![20061022(003)](./20061022003-276020469.jpg)
 
-  <p>
-    Smile!
-  </p>
-</div>
+Smile!
 
 Wenn ich im Wat Napralarn bin, sind die Batterien des Photoapparates grundsätzlich leer. Das war heute so und jedes Mal, wenn ich da war bisher. Dann muss immer das Wackelhandy herhalten.
 
 Morgen geh ich hin _mit_ Ersatzbatterien.
+
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E geh -->
+<!-- cspell:ignore Wackelhandy -->

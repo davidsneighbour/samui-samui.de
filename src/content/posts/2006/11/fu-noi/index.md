@@ -11,16 +11,18 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/304971824/" title="Fu"><img src="//static.flickr.com/104/304971824_9eb5ce7f16.jpg" alt="Fu" /></a></p>
+![Fu](./fu-304971824.jpg)
 
-  <p>
-    Fu
-  </p>
-</div>
+Fu
 
 <span class="thai">?ั?หวั?ว???อ?ะ?ิ?ึ??ั? ??�????ี??ั??ิ?ึ???อ</p>
 
 <p>
   �?ลหวั??ห???ออยา�?อยู? �?ั??ั??ุ�?? วั?????�?ั?</span>
 </p>
+
+<!-- cspell:ignore ลหวั -->
+<!-- cspell:ignore ออยา -->
+<!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN ??? -->
+<!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN ?? -->
+<!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN ???? -->

@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/205618131/" title="Myanmar"><img src="//static.flickr.com/29/205618131_29fc3909c1.jpg" alt="Myanmar" /></a></p>
+![Myanmar](./myanmar-205618131.jpg)
 
-  <p>
-    Myanmar
-  </p>
-</div>
+Myanmar

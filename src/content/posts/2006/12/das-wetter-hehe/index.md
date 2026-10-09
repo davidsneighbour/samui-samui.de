@@ -10,14 +10,12 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/316215899/" title="wetter"><img src="//static.flickr.com/118/316215899_5addd9cda3.jpg" alt="wetter" /></a></p>
+![wetter](./wetter-316215899.jpg)
 
-  <p>
-    wetter
-  </p>
-</div>
+wetter
 
 [Auf den Party- und Tauchinseln der Umgebung sitzen bis zu 5000 Touristen fest][1]. Allerdings ist von "Unwetter" nichts zu spüren hier. Es regnete seit gestern Morgen runde 24 Stunden. Das wars dann aber auch schon.
 
- [1]: http://www.nationmultimedia.com/2006/12/07/headlines/headlines_30020929.php
+ [1]: https://web.archive.org/web/20061209050624/http://nationmultimedia.com/2006/12/07/headlines/headlines_30020929.php
+
+<!-- grammar-ignore WETTER_SUBST wetter -->

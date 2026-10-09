@@ -11,12 +11,11 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/304263627/" title="ameise (ant)"><img src="//static.flickr.com/119/304263627_83f8e5050d.jpg" alt="ameise (ant)" /></a></p>
+![ameise (ant)](./ameise-ant-304263627.jpg)
 
-  <p>
-    ameise (ant)
-  </p>
-</div>
+ameise (ant)
 
-Eine kleine Ameise. In einer, ehm, Blüte. oder so. Phantasiemodus ausgeschaltet.
+Eine kleine Ameise. In einer, ehm, Blüte. Oder so. Phantasiemodus ausgeschaltet.
+
+<!-- grammar-ignore UPPERCASE_SENTENCE_START ameise -->
+<!-- cspell:ignore ameise -->

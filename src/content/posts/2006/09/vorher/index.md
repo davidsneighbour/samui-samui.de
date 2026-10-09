@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/253154196/" title="Before"><img src="//static.flickr.com/84/253154196_f95878562c.jpg" alt="Before" /></a></p>
+![Before](./before-253154196.jpg)
 
-  <p>
-    Before
-  </p>
-</div>
+Before
 
-Fortsetzung folgt...
+Fortsetzung folgt …

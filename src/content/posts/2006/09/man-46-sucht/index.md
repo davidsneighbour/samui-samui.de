@@ -10,13 +10,9 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/253344142/" title="Searching"><img src="//static.flickr.com/113/253344142_5dc3e235a3.jpg" alt="Searching" /></a></p>
+![Searching](./searching-253344142.jpg)
 
-  <p>
-    Searching
-  </p>
-</div>
+Searching
 
 Eine Anzeige am schwarzen Brett von Tesco Lotus in Chaweng. Ein Mann im Alter von 46 Jahren sucht nach einer Frau, die mit ihm ihre Zeit verbringen will. Sie sollte zwischen 18 und 29 Jahren alt sein und erhält pro Monat 8000 bis 10000 Baht. Mehr mag ich nicht schreiben.
 

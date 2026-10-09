@@ -11,12 +11,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/299297141/" title="Pokki, 1st birthday"><img src="//static.flickr.com/101/299297141_5b522cc442.jpg" alt="Pokki, 1st birthday" /></a></p>
+![Pokki, 1st birthday](./pokki-1st-birthday-299297141.jpg)
 
-  <p>
-    Pokki, 1st birthday
-  </p>
-</div>
+Pokki, 1st birthday
 
-Pokki ist diese Woche ein Jahr alt geworden. Er hat schon jede Menge Fell angelegt (nur noch 2 cm vom Boden entfernt, wenn es schön gekämmt wird), was ihn nicht hindert, in Pfützen und frisch geschnittenem Gras zu spielen. In seinem ersten Jahr hat er jede Menge erlebt, wurde einmal gebissen und hat auch sonst jede Menge Unfug getrieben. Mal sehen, was das zweite Jahr so her gibt.
+Pokki ist diese Woche ein Jahr alt geworden. Er hat schon jede Menge Fell angelegt (nur noch 2 cm vom Boden entfernt, wenn es schön gekämmt wird), was ihn nicht hindert, in Pfützen und frisch geschnittenem Gras zu spielen. In seinem ersten Jahr hat er jede Menge erlebt, wurde einmal gebissen und hat auch sonst jede Menge Unfug getrieben. Mal sehen, was das zweite Jahr so hergibt.

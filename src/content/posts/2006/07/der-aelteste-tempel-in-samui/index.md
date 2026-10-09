@@ -11,12 +11,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/197154956/" title="The hidden chinese shrine in Nathon"><img src="//static.flickr.com/62/197154956_498d1462e9.jpg" alt="The hidden chinese shrine in Nathon" /></a></p>
+![The hidden chinese shrine in Nathon](./the-hidden-chinese-shrine-in-nathon-197154956.jpg)
 
-  <p>
-    The hidden chinese shrine in Nathon
-  </p>
-</div>
+The hidden chinese shrine in Nathon
 
-Damit hab ich 30 der 31 Tempel auf Samui gefunden. Wenn ich alle gefunden habe gehe ich weg hier. Das ist ein Versprechen.
+Damit hab ich 30 der 31 Tempel auf Samui gefunden. Wenn ich alle gefunden habe, gehe ich weg hier. Das ist ein Versprechen.
+
+<!-- cspell:ignore chinese -->

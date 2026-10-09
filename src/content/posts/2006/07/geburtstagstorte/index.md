@@ -11,10 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/182415591/" title="After the meal"><img src="//static.flickr.com/65/182415591_3e2e78bfe6.jpg" alt="After the meal" /></a></p>
+![After the meal](./after-the-meal-182415591.jpg)
 
-  <p>
-    After the meal
-  </p>
-</div>
+After the meal

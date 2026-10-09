@@ -11,21 +11,17 @@ publisher:
   flickr: true
   textpattern: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/215649892/" title="360°"><img src="//static.flickr.com/58/215649892_307c8e0952.jpg" alt="360°" /></a></p>
+![360°](./360-215649892.jpg)
 
-  <p>
-    360°
-  </p>
-</div>
+360°
 
 Hab ich eigentlich schon mal erzählt, dass wir umgezogen sind? Nein? Gut. Also hier ist sie, die Story von wo wie wir umgezogen sind.
 
-Am Freitag vor drei Wochen klingelte mein kleines Mobiltelefon. Das tut es relativ selten also nahm ich mal ab, um zu hören, was es denn zu hören gäbe. Eine weibliche Thaistimme brabbelte auf mich ein und ich verstand so etwas wie "baan khun mod leau" was "Dein Haus ist fertig" bedeuten dürfte. Ich war mir nicht bewusst unter die Häuslebauer gegangen zu sein also murmelte ich etwas wie "bo don yen wuan nii" zurück und hoffte, dass es als "ich ruf heute abend wieder an" verstanden würde. Abends liess ich das Ganze dann Fu klären und es stellte sich heraus, dass tatsächlich "mein" Haus fertig gestellt wurde. Vor rund einem Jahr war ich auf der Suche nach netten Häusern und anderen Wohngelegenheiten in der Gegend (bevor ich mich auf die andere Seite der Insel konzentriert habe) und war auch hier einmal vorbei gekommen. Es wurde gerade ein sehr sehr schönes Holzhaus im Thaistyle fertiggestellt und ich fragte natürlich, ob ein armer Farang das mieten dürfte. Das ging aber nicht, weil es das Haus einer jungen Familie war. Ich habe denen dann meine Nummer gegeben, weil sie meinten, sie würden eventuell noch ein Haus bauen.
+Am Freitag vor drei Wochen klingelte mein kleines Mobiltelefon. Das tut es relativ selten also nahm ich mal ab, um zu hören, was es denn zu hören gäbe. Eine weibliche Thaistimme brabbelte auf mich ein und ich verstand so etwas wie "baan khun mod leau" was "Dein Haus ist fertig" bedeuten dürfte. Ich war mir nicht bewusst unter die Häuslebauer gegangen zu sein also murmelte ich etwas wie "bo don yen wuan nii" zurück und hoffte, dass es als "ich ruf heute Abend wieder an" verstanden würde. Abends liess ich das Ganze dann Fu klären und es stellte sich heraus, dass tatsächlich "mein" Haus fertig gestellt wurde. Vor rund einem Jahr war ich auf der Suche nach netten Häusern und anderen Wohngelegenheiten in der Gegend (bevor ich mich auf die andere Seite der Insel konzentriert habe) und war auch hier einmal vorbeigekommen. Es wurde gerade ein sehr, sehr schönes Holzhaus im Thaistyle fertiggestellt und ich fragte natürlich, ob ein armer Farang das mieten dürfte. Das ging aber nicht, weil es das Haus einer jungen Familie war. Ich habe denen dann meine Nummer gegeben, weil sie meinten, sie würden eventuell noch ein Haus bauen.
 
-Wir fuhren also Freitag kurz vor Sonnenuntergang zur Hausbesichtigung und fanden ein wunderschön geschnittenes Haus mitten im Dschungel vor. Etwas 2km von meinem "alten" Haus auf der Ringroad entfernt. Die Sonne ging unter und ich sagte, ich nehms. Sonntag kamen wir nochmal und schauten das Ganze im Tageslicht an und es gefiel mir noch viel mehr. der Mann der Hausbesitzerin muss wohl Gärtner sein, denn rings um das Haus sind verschiedene Palmen gepflanzt und jede Menge Orchideenpflanzen in alten Baumstämmen versteckt. Selbst jetzt kommt er noch alle paar Tage vorbei mit neuen Pflanzen. Das wird ein netter Garten.
+Wir fuhren also Freitag kurz vor Sonnenuntergang zur Hausbesichtigung und fanden ein wunderschön geschnittenes Haus mitten im Dschungel vor. Etwa 2 km von meinem "alten" Haus auf der Ringroad entfernt. Die Sonne ging unter und ich sagte, ich nehms. Sonntag kamen wir nochmal und schauten das Ganze im Tageslicht an und es gefiel mir noch viel mehr. Der Mann der Hausbesitzerin muss wohl Gärtner sein, denn rings um das Haus sind verschiedene Palmen gepflanzt und jede Menge Orchideenpflanzen in alten Baumstämmen versteckt. Selbst jetzt kommt er noch alle paar Tage vorbei mit neuen Pflanzen. Das wird ein netter Garten.
 
-Jedenfalls bin ich dann vor zwei Wochen umgezogen und habs bisher keinen Tag bereut. Ich bin in einer kleinen Thaicommunity gelandet und der einzige Farang hier. Das hat ein wenig Exotenstatus, aber ich glaube die Aufregung hat sich inzwischen gelegt. Ich habe jede Menge Leute kennen gelernt und bin zum Englischlehrer aufgestiegen. Jeden Abend kommt Khun Dthoh vorbei und lernt einen neuen Satz. Khun Dthoh wohnt um die Ecke. Der Mann ist fast einen eigenen Eintrag wert. Mal sehen. Die Kinder von den Hausbesitzern kommen auch gerne vorbei, weil mein Fernseher immer läuft und ihre Hunde nicht so wuschelig sind. Wenn ich dann mal irgendwas auf Thai sage brabbeln sie mich zu als ob ich _alles_ verstehen würde. Wenn am Haus irgendwas nicht funktioniert kommt ein ziemlich kleiner Thai und kriecht unters Dach oder in irgendwelche Ecken um es zu richten.
+Jedenfalls bin ich dann vor zwei Wochen umgezogen und habs bisher keinen Tag bereut. Ich bin in einer kleinen Thaicommunity gelandet und der einzige Farang hier. Das hat ein wenig Exotenstatus, aber ich glaube, die Aufregung hat sich inzwischen gelegt. Ich habe jede Menge Leute kennen gelernt und bin zum Englischlehrer aufgestiegen. Jeden Abend kommt Khun Dthoh vorbei und lernt einen neuen Satz. Khun Dthoh wohnt um die Ecke. Der Mann ist fast einen eigenen Eintrag wert. Mal sehen. Die Kinder von den Hausbesitzern kommen auch gerne vorbei, weil mein Fernseher immer läuft und ihre Hunde nicht so wuschelig sind. Wenn ich dann mal irgendwas auf Thai sage, brabbeln sie mich zu, als ob ich _alles_ verstehen würde. Wenn am Haus irgendwas nicht funktioniert, kommt ein ziemlich kleiner Thai und kriecht unters Dach oder in irgendwelche Ecken um es zu richten.
 
 Ständig kommt jemand vorbei um zu quatschen (ein Umstand der mir als notorischen Einsiedler am Anfang sehr zu schaffen gemacht hat) oder frisch geerntete Früchte oder Gemüse zu bringen. Mein Haus ist ein Traum und die Hunde fühlen sich wohl, <txp:gho_permalink id="838">wenn sie nicht gerade von Killerbestien zerfleischt werden</txp:gho_permalink>.
 
@@ -35,8 +31,26 @@ Die Vermieter sind ziemlich jung für meine bisherigen Vermietererfahrungen, hab
 
 Die Gegend ist sehr leise und grün. Jede Menge Palmen, direkt am Berg, Natur pur. Am Abend des ersten Tages im neuen Haus standen plötzlich 9 (Neun) Thaihunde vor der Tür. Da war mir als Hundehasser dann schon mulmig zu Mute. Aber das war wohl eine einmalige Begrüßungsaktion der Hunde der Gegend für Soosie und Pokki. Man sieht sonst nicht mehr als drei Hunde gleichzeitig. Trotzdem bellt sich Pokki heiser.
 
-Und die 2 Kilometer Abstand zum alten Haus haben sich auf 500 Meter relativiert wenn man direkt durch den Dschungel fährt. Ist ja doch eine kleine Insel und die Ringroad fährt nur einen großen Bogen von Ban Maenam nach Ban Thai.
+Und die 2 Kilometer Abstand zum alten Haus haben sich auf 500 Meter relativiert, wenn man direkt durch den Dschungel fährt. Ist ja doch eine kleine Insel und die Ringroad fährt nur einen großen Bogen von Ban Maenam nach Ban Thai.
 
-Als ich vom Haus am Berg nach Maenam gezogen bin, musste ich dreimal mit dem Moped hin und her fahren um all meinen Kram ins Haus zu bringen. Diesmal kam ein Pickup der mehr als gefüllt nur einmal fahren musste. Ich hab ne Menge Kram angesammelt.
+Als ich vom Haus am Berg nach Maenam gezogen bin, musste ich dreimal mit dem Moped hin und her fahren, um all meinen Kram ins Haus zu bringen. Diesmal kam ein Pickup der mehr als gefüllt nur einmal fahren musste. Ich hab ne Menge Kram angesammelt.
 
-Naja...
+Na ja …
+
+<!-- cspell:ignore Dthoh -->
+<!-- cspell:ignore Thaistimme -->
+<!-- cspell:ignore Thaicommunity -->
+<!-- cspell:ignore Thaihunde -->
+<!-- cspell:ignore Killerbestien -->
+<!-- cspell:ignore Vermietererfahrungen -->
+<!-- cspell:ignore phrüüh -->
+<!-- cspell:ignore leau -->
+<!-- cspell:ignore nehms -->
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E ruf -->
+<!-- grammar-ignore SUBJUNKTION_KOMMA_2 Wenn -->
+<!-- grammar-ignore FRAGEZEICHEN_STATT_PUNKT . -->
+<!-- grammar-ignore DE_AGREEMENT die 2 Kilometer -->
+<!-- cspell:ignore baan -->
+<!-- cspell:ignore khun -->
+<!-- cspell:ignore wuan -->
+<!-- cspell:ignore bpen -->
