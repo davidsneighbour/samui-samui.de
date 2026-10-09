@@ -212,7 +212,7 @@ test('only the answer exclamation grows on hover and keyboard focus', async ({
   await page.locator('.masthead__link').hover();
   await expect
     .poll(async () => (await dimensions()).height / before.height)
-    .toBeCloseTo(1.06, 2);
+    .toBeCloseTo(1.12, 2);
   const after = await dimensions();
   expect(after.x).toBeCloseTo(before.x, 1);
   expect(after.y).toBeCloseTo(before.y, 1);
@@ -224,7 +224,7 @@ test('only the answer exclamation grows on hover and keyboard focus', async ({
   await page.locator('.masthead__link').focus();
   await expect
     .poll(async () => (await dimensions()).height / before.height)
-    .toBeCloseTo(1.06, 2);
+    .toBeCloseTo(1.12, 2);
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await expect
     .poll(async () => (await dimensions()).height / before.height)
