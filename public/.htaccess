@@ -43,7 +43,24 @@ AddType image/avif .avif
   RewriteRule ^ereignisse/(.+)$ /archiv/ereignisse/$1 [R=301,L]
 </IfModule>
 
+# DreamHost enables mod_expires server-wide (HTML 10 minutes, assets 30
+# days). Its extra Cache-Control and Expires headers would contradict the
+# policy below and let browsers keep HTML after a deploy.
+<IfModule mod_expires.c>
+  ExpiresActive Off
+</IfModule>
+
 <IfModule mod_headers.c>
+  # Remove anything the server configuration added outside this file, and
+  # DreamHost's "Vary: User-Agent" (every user agent would be a separate
+  # cache variant in browsers and intermediate caches).
+  Header unset Expires
+  Header unset Cache-Control
+  Header edit Vary "(^|,)\s*User-Agent\s*(,|$)" "$1$2"
+  Header edit Vary "^,+|,+$" ""
+  Header edit Vary ",,+" ","
+  Header unset Vary "expr=resp('Vary') == ''"
+
   # Security headers, formerly [[headers]] for "/*" in netlify.toml. The CSP
   # resource audit behind this policy (issues #709, #722, #1227): Matomo
   # (analytics.dnbhub.xyz), Giscus (giscus.app), YouTube/Vimeo embeds,
