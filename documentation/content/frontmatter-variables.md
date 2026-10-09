@@ -30,8 +30,6 @@ Post entries live in `src/content/posts/**/index.md`. The post schema is loose s
 | `cover.params` | Optional string. | Extra YouTube player URL parameters. | [Post covers](../components/post-covers.md), [YouTube embed](../components/youtube.md) |
 | `cover.startAt` | Optional string. | Vimeo start offset. | [Post covers](../components/post-covers.md), [Vimeo embed](../components/vimeo.md) |
 | `cover.hash` | Optional string. | Vimeo unlisted-video hash. | [Post covers](../components/post-covers.md), [Vimeo embed](../components/vimeo.md) |
-| `cover.autoload` | Optional boolean. | Video-cover facade loads the iframe when it scrolls into view. | [Post covers](../components/post-covers.md) |
-| `cover.autoplay` | Optional boolean. | Autoplays a video cover when used together with `autoload`. | [Post covers](../components/post-covers.md) |
 | `curation` | Optional object. | Public editorial curation metadata. | [Curation frontmatter](curation-frontmatter.md) |
 | `curation.anniversary` | Optional object. | Date-based curation branch. | [Curation frontmatter](curation-frontmatter.md) |
 | `curation.anniversary.status` | Required when `curation.anniversary` exists. | `include`, `exclude`, or `review`. | [Curation frontmatter](curation-frontmatter.md) |

@@ -69,12 +69,10 @@ Properties:
 | `params` | no | Extra YouTube player URL params, for example `start=30`. |
 | `startAt` | no | Vimeo start offset, for example `1m30s`. |
 | `hash` | no | Vimeo unlisted-video hash. |
-| `autoload` | no | Boolean. Loads the iframe when the facade scrolls into view. |
-| `autoplay` | no | Boolean. Autoplays when used together with `autoload`. |
 
 Remove the matching in-body `<dnb-youtube>` or `<dnb-vimeo>` embed once it has been promoted to `cover`, unless the same video is intentionally discussed again inside the article.
 
-Video covers show a locally cached, git-committed poster image rather than ever contacting YouTube/Vimeo to render one — see [`video-thumbnail-cache.md`](../content/video-thumbnail-cache.md). Run `npm run thumbnails:fetch` after adding a new video cover so the poster is committed alongside the post.
+Video covers show a locally cached, git-committed poster image rather than ever contacting YouTube/Vimeo to render one — see [`video-thumbnail-cache.md`](../content/video-thumbnail-cache.md). Run `npm run thumbnails:fetch` after adding a new video cover so the poster is committed alongside the post. The former `autoload` and `autoplay` cover fields were removed, because loading a player without a click contacts the provider ([#1789](https://github.com/davidsneighbour/samui-samui.de/issues/1789)).
 
 ## Migration helpers
 

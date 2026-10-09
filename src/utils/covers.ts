@@ -31,8 +31,6 @@ export interface ResolvedPostImageCover extends ResolvedPostCoverBase {
 }
 
 export interface ResolvedPostVideoCover extends ResolvedPostCoverBase {
-  autoplay?: boolean | undefined;
-  autoload?: boolean | undefined;
   hash?: string | undefined;
   params?: string | undefined;
   /** Locally cached thumbnail (see src/utils/video-thumbnails.ts). Undefined when the maintenance script hasn't been run for this video id yet. */
@@ -146,8 +144,6 @@ export async function getPostCover(
     const caption = trimmed(cover.caption) ?? trimmed(cover.title);
 
     return {
-      autoload: cover.autoload,
-      autoplay: cover.autoplay,
       caption,
       hash: trimmed(cover.hash),
       params: trimmed(cover.params),

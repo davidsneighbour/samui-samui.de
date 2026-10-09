@@ -6,13 +6,17 @@
 // wrapper and from `<dnb-youtube>` tags dropped directly into blog post
 // markdown (blog posts are plain .md, not .mdx, so they cannot import
 // Youtube.astro).
+//
+// Privacy contract: nothing here may contact YouTube or Google before the
+// visitor clicks. The poster is a local file (slot="poster", see
+// documentation/content/video-thumbnail-cache.md); without one, the element
+// shows a neutral black placeholder. No preconnect, no live thumbnail, no
+// load on scroll. See AGENTS.md and the privacy policy.
 ---
 
 <script>
   if (!customElements.get('dnb-youtube')) {
     class DnbYoutube extends HTMLElement {
-      static #preconnected = false;
-
       #iframeLoaded = false;
       #frame!: HTMLDivElement;
       #titleOverlay!: HTMLDivElement;
@@ -38,14 +42,6 @@
 
       get videoPlay(): string {
         return this.getAttribute('videoplay') ?? 'Play';
-      }
-
-      get autoLoad(): boolean {
-        return this.hasAttribute('autoload');
-      }
-
-      get autoPlay(): boolean {
-        return this.hasAttribute('autoplay');
       }
 
       #setupDom(): void {
@@ -155,24 +151,13 @@
 
       // A 1x1 transparent GIF so the poster `<img>` always has a valid `src`
       // — an absent/empty src renders as a "broken image" glyph in some
-      // browsers. `:host`'s black background shows through until the real
-      // YouTube thumbnail (set synchronously below, no network round trip
-      // needed to know its URL) replaces it.
+      // browsers. Without a local poster, `:host`'s black background shows
+      // through as the neutral placeholder.
       static readonly #transparentPixel =
         'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
 
       connectedCallback(): void {
-        this.addEventListener('pointerover', DnbYoutube.#warmConnections, {
-          once: true,
-        });
-        this.addEventListener('focusin', DnbYoutube.#warmConnections, {
-          once: true,
-        });
-        this.addEventListener('click', () => this.#addIframe(true));
-
-        if (this.autoLoad) {
-          this.#initIntersectionObserver();
-        }
+        this.addEventListener('click', () => this.#addIframe());
       }
 
       attributeChangedCallback(
@@ -191,15 +176,6 @@
         }
       }
 
-      // A `slot="poster"` light-DOM child (projected by Youtube.astro when
-      // PostCover.astro has a build-time-resolved thumbnail, #1670) means
-      // the real poster is already showing, so the live `i.ytimg.com`
-      // request below -- the fallback for raw `<dnb-youtube>` markup
-      // dropped directly into post bodies -- can be skipped entirely.
-      get #hasPoster(): boolean {
-        return this.querySelector('[slot="poster"]') !== null;
-      }
-
       #setupPlaceholder(): void {
         if (!this.videoId) return;
 
@@ -207,71 +183,21 @@
         this.#playButton.setAttribute('aria-label', label);
         this.setAttribute('title', label);
         this.#titleOverlay.textContent = this.getAttribute('videotitle') ?? '';
-
-        if (this.#hasPoster) return;
-
-        DnbYoutube.#addPrefetch('preconnect', 'https://i.ytimg.com');
-
-        this.#img.setAttribute('aria-label', label);
         this.#img.setAttribute('alt', label);
-
-        // YouTube's thumbnail lives at a predictable URL, so — unlike Vimeo,
-        // which needs an oEmbed round trip first — the poster can be set
-        // synchronously instead of waiting on a fetch.
-        this.#img.src = `https://i.ytimg.com/vi/${this.videoId}/hqdefault.jpg`;
-        this.#upgradePosterImage();
       }
 
-      // Deferred (YouTube's own recommendation) attempt at a higher-res
-      // poster. YouTube returns a 200 with a 120x90 placeholder image
-      // instead of a real 404 when a video has no maxresdefault thumbnail
-      // on the legacy jpg endpoint, but the vi_webp endpoint used here can
-      // genuinely 404 instead -- hence both checks below. A `fetch` HEAD
-      // request would avoid the resulting console noise, but i.ytimg.com
-      // sends no CORS headers, so `fetch` fails for every video, not just
-      // the ones without a maxres poster; a plain image-load probe is the
-      // only client-side option that actually works cross-origin here, and
-      // the browser will log the failed subresource load itself on a
-      // genuine 404 regardless of the onerror handler below.
-      #upgradePosterImage(): void {
-        const videoId = this.videoId;
-        setTimeout(() => {
-          if (this.videoId !== videoId) return;
-
-          const webpUrl = `https://i.ytimg.com/vi_webp/${videoId}/maxresdefault.webp`;
-          const probe = new Image();
-          probe.referrerPolicy = 'origin';
-          probe.src = webpUrl;
-          probe.onload = () => {
-            const noBetterPoster =
-              probe.naturalHeight === 90 && probe.naturalWidth === 120;
-            if (noBetterPoster || this.videoId !== videoId) return;
-            this.#img.src = webpUrl;
-          };
-          probe.onerror = () => {
-            // No maxresdefault poster for this video -- keep hqdefault.jpg.
-          };
-        }, 100);
-      }
-
-      #getParams(autoplay: boolean): URLSearchParams {
+      #getParams(): URLSearchParams {
         const params = new URLSearchParams(this.getAttribute('params') ?? '');
-        if (autoplay) {
-          params.set('autoplay', '1');
-        }
+        // The iframe only ever loads after a click, so start playback at once.
+        params.set('autoplay', '1');
         params.set('playsinline', '1');
         return params;
       }
 
-      // `autoplay` only takes effect when triggered by the click handler, or
-      // when explicitly requested via the `autoplay` attribute together with
-      // `autoload` — a silent, unrequested autoplay from merely scrolling an
-      // embed into view is the kind of thing browsers block (or annoy
-      // visitors with) without an explicit opt-in.
-      #addIframe(autoplay: boolean): void {
+      #addIframe(): void {
         if (this.#iframeLoaded) return;
 
-        const params = this.#getParams(autoplay);
+        const params = this.#getParams();
 
         const iframe = document.createElement('iframe');
         iframe.setAttribute(
@@ -290,46 +216,6 @@
         this.#frame.classList.add('dnb-youtube-activated');
         this.#iframeLoaded = true;
         iframe.focus();
-      }
-
-      #initIntersectionObserver(): void {
-        if (!('IntersectionObserver' in window)) return;
-
-        const observer = new IntersectionObserver(
-          (entries, obs) => {
-            for (const entry of entries) {
-              if (entry.isIntersecting && !this.#iframeLoaded) {
-                DnbYoutube.#warmConnections();
-                this.#addIframe(this.autoPlay);
-                obs.unobserve(this);
-              }
-            }
-          },
-          { root: null, rootMargin: '0px', threshold: 0 },
-        );
-        observer.observe(this);
-      }
-
-      static #addPrefetch(kind: string, url: string): void {
-        const link = document.createElement('link');
-        link.rel = kind;
-        link.href = url;
-        document.head.append(link);
-      }
-
-      static #warmConnections(): void {
-        if (DnbYoutube.#preconnected) return;
-        DnbYoutube.#addPrefetch(
-          'preconnect',
-          'https://www.youtube-nocookie.com',
-        );
-        DnbYoutube.#addPrefetch('preconnect', 'https://www.google.com');
-        DnbYoutube.#addPrefetch(
-          'preconnect',
-          'https://googleads.g.doubleclick.net',
-        );
-        DnbYoutube.#addPrefetch('preconnect', 'https://static.doubleclick.net');
-        DnbYoutube.#preconnected = true;
       }
     }
 

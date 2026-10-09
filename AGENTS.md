@@ -490,6 +490,12 @@ Cloudflare cache, and runs smoke tests
   `netlify-cli`, or Netlify Functions back; the contact-form helpers that the
   old Netlify Function shared live under `src/workers/api/`.
 
+### Video embeds and other third-party content
+
+The YouTube and Vimeo embeds (`src/components/content/embeds/`) are click-to-connect. Before the visitor clicks, they MUST NOT contact YouTube, Google, or Vimeo in any way: no live thumbnail or oEmbed request, no `<link rel="preconnect">`/`dns-prefetch`/`prefetch` hints (not on hover, focus, scroll, or page load), and no loading the player when it scrolls into view. Posters come only from the local thumbnail cache ([`documentation/content/video-thumbnail-cache.md`](documentation/content/video-thumbnail-cache.md)); a video without a cached poster shows the neutral placeholder. Upstream lite-youtube-embed and lite-vimeo do these things as speed optimisations; do not port them back. The privacy policy relies on this behaviour ([#1789](https://github.com/davidsneighbour/samui-samui.de/issues/1789)).
+
+The same applies to the whole site: a page view MUST NOT load images, scripts, fonts, or frames from third-party hosts unless the privacy policy (`src/pages/kleingedrucktes/datenschutzerklaerung.mdx`) names that host. Store such files locally instead. If a change adds a new third-party request, update the privacy policy in the same change set.
+
 ### Analytics
 
 `Analytics.astro` (Matomo) is rendered from `Footer.astro`, intentionally last in

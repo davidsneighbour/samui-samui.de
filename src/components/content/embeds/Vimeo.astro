@@ -1,9 +1,8 @@
 ---
 // Astro wrapper around the `dnb-vimeo` web component (see VimeoScript.astro),
 // a TypeScript port of https://github.com/slightlyoff/lite-vimeo — a
-// click-to-load Vimeo facade that only fetches the oEmbed thumbnail up
-// front and defers the real iframe until the user interacts (or, with
-// `autoload`, until it scrolls into view).
+// click-to-load Vimeo facade that shows a locally cached poster (or a
+// neutral placeholder) and loads the real iframe only after a click.
 import VimeoScript from '@components/content/embeds/VimeoScript.astro';
 
 type Props = {
@@ -17,10 +16,6 @@ type Props = {
   startAt?: string | undefined;
   /** Unlisted-video access hash (the `h` query param on vimeo.com/<id>/<hash>). */
   hash?: string | undefined;
-  /** Load the iframe automatically once the element scrolls into view. */
-  autoload?: boolean | undefined;
-  /** Autoplay once loaded (only takes effect together with `autoload`). */
-  autoplay?: boolean | undefined;
   class?: string;
 };
 
@@ -30,8 +25,6 @@ const {
   playLabel,
   startAt,
   hash,
-  autoload = false,
-  autoplay = false,
   class: className,
 } = Astro.props;
 ---
@@ -43,8 +36,6 @@ const {
   videoplay={playLabel}
   start={startAt}
   videohash={hash}
-  autoload={autoload ? '' : undefined}
-  autoplay={autoplay ? '' : undefined}
   class={className}
 >
   <slot name="poster" />

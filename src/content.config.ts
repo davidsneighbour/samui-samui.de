@@ -83,8 +83,6 @@ const bundledCoverImageFrontmatter = z.object({
 });
 
 const bundledCoverVideoFrontmatter = z.object({
-  autoload: z.boolean().optional(),
-  autoplay: z.boolean().optional(),
   caption: z.string().optional(),
   hash: z.string().optional(),
   params: z.string().optional(),

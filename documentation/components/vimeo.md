@@ -1,6 +1,6 @@
 # Vimeo embed
 
-A lazy-loading Vimeo embed ported from [slightlyoff/lite-vimeo](https://github.com/slightlyoff/lite-vimeo) ([`lite-vimeo.ts`](https://github.com/slightlyoff/lite-vimeo/blob/master/lite-vimeo.ts)). Instead of loading the full Vimeo player iframe up front, it fetches only the lightweight oEmbed thumbnail on render and defers the actual player iframe until the visitor clicks (or, with `autoload`, until the element scrolls into view).
+A lazy-loading Vimeo embed ported from [slightlyoff/lite-vimeo](https://github.com/slightlyoff/lite-vimeo) ([`lite-vimeo.ts`](https://github.com/slightlyoff/lite-vimeo/blob/master/lite-vimeo.ts)). Instead of loading the full Vimeo player iframe up front, it shows a locally cached poster and loads the actual player iframe only after the visitor clicks.
 
 It ships as two things that share one implementation:
 
@@ -26,12 +26,10 @@ Only `videoid` is required; every other prop is optional.
 | Prop | Type | Default | Description |
 | ----------- | --------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `videoid` | `string` | — (required) | Vimeo video id, e.g. `522265992` for `https://vimeo.com/522265992`. |
-| `title` | `string` | `'Video'` | Accessible title used for the play button's `aria-label`, the host element's `title`, and the iframe's `title`. If omitted, the component falls back to the title returned by Vimeo's oEmbed API. |
+| `title` | `string` | `'Video'` | Accessible title used for the play button's `aria-label`, the host element's `title`, and the iframe's `title`. There is no oEmbed lookup, so without `title` the label is the literal `'Video'`. |
 | `playLabel` | `string` | `'Play'` | Prefixed to the title, e.g. `"Play: Thailand vermisst dich"`. |
 | `startAt` | `string` | `'0s'` | Start offset passed as the player's `#t=` fragment, e.g. `'1m30s'`. |
 | `hash` | `string` | — | Unlisted-video access hash — the `h` query param Vimeo requires for unlisted videos (the `<hash>` in `vimeo.com/<id>/<hash>`). |
-| `autoload` | `boolean` | `false` | Load the iframe automatically once the element scrolls into view, via `IntersectionObserver`, instead of waiting for a click. |
-| `autoplay` | `boolean` | `false` | Autoplay once loaded. Only takes effect together with `autoload` — a click-triggered load never autoplays, since the click itself is the play action. |
 | `class` | `string` | — | Forwarded to the underlying `<dnb-vimeo>` element. |
 
 ## `<dnb-vimeo>` (web component / raw markdown)
@@ -49,19 +47,15 @@ This is the tag to use directly inside post content (`src/content/posts/**/index
 | `videoplay` | `playLabel` | `'Play'` | Label prefix (see above). |
 | `start` | `startAt` | `'0s'` | Start offset (see above). |
 | `videohash` | `hash` | — | Unlisted-video hash (see above). |
-| `autoload` | `autoload` | absent | Boolean attribute — presence enables it, e.g. `autoload=""` or bare `autoload`. |
-| `autoplay` | `autoplay` | absent | Boolean attribute, same convention as `autoload`. |
 
 ## Behaviour and features
 
-* **Local poster thumbnails.** Both the `<Vimeo />` cover path and raw `<dnb-vimeo>` markdown embeds show a poster from a locally cached, git-committed file (`src/assets/images/video-thumbnails/vimeo/<id>.jpg`) rather than ever contacting Vimeo's oEmbed API/CDN to show one — see [`video-thumbnail-cache.md`](../content/video-thumbnail-cache.md). Only a video whose thumbnail hasn't been downloaded yet falls back to the live oEmbed fetch described below.
-* **Click-to-load facade.** When no locally cached poster is available, the element fetches only `https://vimeo.com/api/oembed.json` for the video's thumbnail and title on connect — the real `player.vimeo.com` iframe is not created until the user clicks the element (or `autoload` triggers it). This is the entire point of porting lite-vimeo: a page with several embeds doesn't pay for several Vimeo players until the visitor actually asks for one.
+* **Local poster thumbnails.** Both the `<Vimeo />` cover path and raw `<dnb-vimeo>` markdown embeds show a poster from a locally cached, git-committed file (`src/assets/images/video-thumbnails/vimeo/<id>.jpg`) rather than ever contacting Vimeo's oEmbed API/CDN to show one — see [`video-thumbnail-cache.md`](../content/video-thumbnail-cache.md). A video without a cached thumbnail shows the neutral black placeholder with the play button; there is no live poster fallback.
+* **Click-to-load only.** The real `player.vimeo.com` iframe is created only when the visitor clicks the element. Before that click the component makes no request and opens no connection to Vimeo: no oEmbed lookup, no `i.vimeocdn.com` thumbnail, no `preconnect` hints on hover, and no loading on scroll ([#1789](https://github.com/davidsneighbour/samui-samui.de/issues/1789)). Upstream lite-vimeo does all of these as speed optimisations; this port removes them on purpose, because the privacy policy promises click-to-connect. Do not add them back (see `AGENTS.md`).
 * **Play-button interaction.** The custom play button transitions only the properties that change (`background-color` and `opacity`), gates the hover color to hover-capable pointer devices, and disables that transition for `prefers-reduced-motion: reduce`.
 * **Shadow DOM.** Markup and styles (the placeholder frame, the play button, the injected iframe) live in a shadow root, so the component is self-contained and doesn't depend on — or leak into — the host page's CSS.
-* **Placeholder image.** The `<img>` starts with a 1×1 transparent GIF `src` (not an absent/empty one) so it never renders a browser's "broken image" glyph while the oEmbed thumbnail request is in flight; the shadow host's black background and the play button carry the loading look until the real poster (`i.vimeocdn.com`) loads.
-* **Accessible labelling.** Once the oEmbed response resolves, the play button's `aria-label`, the host's `title`, and the placeholder image's `alt`/`aria-label` are all set to `"<playLabel>: <title>"`. If `title` / `videotitle` wasn't supplied, the oEmbed response's own title is used before falling back to the literal string `'Video'`.
-* **Connection warm-up.** On the first `pointerover` (hover/touch) and again right before the iframe is created, the component adds `<link rel="preconnect">` hints for `f.vimeocdn.com`, `player.vimeo.com`, and `i.vimeocdn.com`, so the actual embed request that follows starts warm.
-* **`autoload` + `IntersectionObserver`.** With `autoload` set, an `IntersectionObserver` loads the iframe the first time the element enters the viewport, instead of waiting for a click. Combine with `autoplay` to autoplay once it scrolls into view.
+* **Placeholder image.** The `<img>` starts with a 1×1 transparent GIF `src` (not an absent/empty one) so it never renders a browser's "broken image" glyph; without a local poster, the shadow host's black background and the play button are the neutral placeholder.
+* **Accessible labelling.** The play button's `aria-label`, the host's `title`, and the placeholder image's `alt` are set to `"<playLabel>: <title>"` on connect, with `'Video'` as the title when `title` / `videotitle` is missing.
 * **Privacy.** The generated iframe URL always sets `dnt=1` (Vimeo's do-not-track player param), matching this repo's privacy posture (see [`src/pages/kleingedrucktes/datenschutzerklaerung.mdx`](../../src/pages/kleingedrucktes/datenschutzerklaerung.mdx), "Einsatz von Vimeo-Komponenten").
 * **`allow` list includes `fullscreen`.** The upstream lite-vimeo reference omits `fullscreen` from the iframe's `allow` attribute while still setting the legacy `allowfullscreen` boolean attribute — modern browsers give the `allow` list precedence, so that combination silently breaks fullscreen. This port's `allow` list includes `fullscreen` explicitly.
 

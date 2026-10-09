@@ -37,16 +37,9 @@ has been run and its output committed.
   videoid="...">` dropped directly into a post's Markdown body) — the
   `rehypeVideoPosters` plugin (`src/scripts/rehype/video-posters.ts`,
   registered in `astro.config.ts`) injects a plain `<img slot="poster">`
-  referencing the same cached file's built asset URL. Both
-  `YoutubeScript.astro`/`VimeoScript.astro`'s custom elements already skip
-  their client-side live-fetch fallback whenever a `[slot="poster"]` child
-  is present.
+  referencing the same cached file's built asset URL.
 
-If a video id has no cached thumbnail yet, the corresponding component (or
-plugin) leaves it untouched, and the custom element falls back to its
-previous live-fetch-on-connect behaviour for that one video — safe and
-non-breaking, but not privacy-preserving until the thumbnail exists. New
-posts should always run the fetch script (see below) before publishing.
+If a video id has no cached thumbnail, the custom element shows a neutral black placeholder with the title and play button. It never fetches a poster from YouTube or Vimeo; the live-fetch fallback was removed in [#1789](https://github.com/davidsneighbour/samui-samui.de/issues/1789). A deleted video (the thumbnail URL returns 404) therefore keeps the placeholder for good. New posts should always run the fetch script (see below) before publishing, so the poster exists.
 
 ## Maintenance script
 
