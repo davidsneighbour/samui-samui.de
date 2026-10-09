@@ -1,6 +1,6 @@
 ---
 title: Datenschutzerklärung
-lastmod: 2026-08-29T00:00:00+07:00
+lastmod: 2026-10-09T19:00:00+07:00
 ---
 
 import PageLayout from '@layouts/PageLayout.astro';
@@ -47,9 +47,11 @@ Wir selbst setzen auf dieser Seite keine Cookies ein. Folgende Einstellungen und
 
 Einzelne von uns eingebundene Drittanbieter-Dienste (z.B. Cloudflare Turnstile, giscus, YouTube, Vimeo) können im Rahmen ihrer jeweiligen Funktion eigene Cookies setzen oder — wie giscus nach einer Anmeldung — Daten im lokalen Speicher Ihres Browsers ablegen. Nähere Informationen hierzu finden Sie in den jeweiligen Abschnitten dieser Datenschutzerklärung.
 
-## Hosting und Serverdaten
+## Hosting, Auslieferung und Serverdaten
 
-Diese Website wird bei Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, USA, gehostet und über deren weltweites Edge-/CDN-Netzwerk ausgeliefert. Aus technischen Gründen werden dabei u.a. folgende Daten erfasst (sogenannte Server-Logfiles):
+Diese Website besteht aus fertig erzeugten, statischen Seiten. Sie liegen beim Hosting-Anbieter DreamHost, LLC, PMB #327, 417 Associated Road, Brea, CA 92821, USA, und werden über das Netzwerk von Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, USA, ausgeliefert. Jede Anfrage an diese Website läuft zuerst über einen Server von Cloudflare (sogenannter Reverse Proxy). Cloudflare beantwortet die meisten Anfragen aus seinem Zwischenspeicher (Cache) und leitet nur Anfragen nach Inhalten, die dort noch nicht vorliegen, an den Server von DreamHost weiter.
+
+Aus technischen Gründen werden dabei u.a. folgende Daten verarbeitet (sogenannte Server-Logfiles):
 
 *   Browsertyp und -version
 *   verwendetes Betriebssystem
@@ -58,7 +60,11 @@ Diese Website wird bei Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, U
 *   Datum und Uhrzeit Ihres Zugriffs
 *   Ihre IP-Adresse
 
-Diese Daten fallen technisch bedingt bei jedem Website-Aufruf an. Wir selbst werten sie nicht individuell aus und gleichen sie nicht mit anderen Datenquellen ab; sie dienen der technischen Auslieferung und Absicherung der Website. Weitere Informationen bietet die Datenschutzerklärung von Netlify: [netlify.com/privacy](https://www.netlify.com/privacy/).
+Cloudflare verarbeitet diese Daten bei jeder Anfrage, um die Website auszuliefern und sie vor Angriffen und missbräuchlichen Zugriffen zu schützen. Leitet Cloudflare eine Anfrage an DreamHost weiter, übermittelt Cloudflare dabei auch Ihre IP-Adresse; DreamHost kann diese Daten in eigenen Server-Logfiles erfassen.
+
+Das Kontaktformular und die Wetteranzeige nutzen zusätzlich serverseitige Funktionen (Cloudflare Workers), die direkt bei Cloudflare ausgeführt werden, nicht bei DreamHost. Zu jedem Aufruf dieser Funktionen speichert Cloudflare in unserem Konto ein technisches Protokoll, das u.a. die aufgerufene Adresse, Datum und Uhrzeit sowie die von Ihrem Browser übermittelten Anfrage-Header (z.B. die Browserkennung) enthält. Diese Protokolle werden nach höchstens sieben Tagen automatisch gelöscht; wir nutzen sie ausschließlich zur Fehlersuche.
+
+Diese Daten fallen technisch bedingt bei jedem Website-Aufruf an. Wir selbst werten sie nicht individuell aus und gleichen sie nicht mit anderen Datenquellen ab; sie dienen der technischen Auslieferung und Absicherung der Website. Weitere Informationen bieten die Datenschutzerklärungen von DreamHost ([dreamhost.com/legal/privacy-policy](https://www.dreamhost.com/legal/privacy-policy/)) und Cloudflare ([cloudflare.com/privacypolicy](https://www.cloudflare.com/privacypolicy/)).
 
 ## Einsatz von Matomo
 
@@ -72,7 +78,7 @@ Sie können der Erfassung durch Matomo jederzeit über den folgenden Schalter wi
 
 ## Kontaktformular
 
-Über das Kontaktformular auf dieser Website können Sie uns eine Nachricht senden. Ihre Eingaben (Name, E-Mail-Adresse, Nachricht) werden dabei an eine serverseitige Funktion auf unserer Hosting-Plattform Netlify übermittelt, dort verarbeitet und per E-Mail an uns weitergeleitet. Vor der Verarbeitung wird die Eingabe mit Cloudflare Turnstile auf automatisierten Missbrauch geprüft (siehe unten); der eigentliche Versand der E-Mail erfolgt technisch über den Dienst Resend (siehe unten).
+Über das Kontaktformular auf dieser Website können Sie uns eine Nachricht senden. Ihre Eingaben (Name, E-Mail-Adresse, Nachricht) werden dabei an eine serverseitige Funktion bei Cloudflare (Cloudflare Worker, siehe Abschnitt „Hosting, Auslieferung und Serverdaten“) übermittelt, dort verarbeitet und per E-Mail an uns weitergeleitet. Vor der Verarbeitung wird die Eingabe mit Cloudflare Turnstile auf automatisierten Missbrauch geprüft (siehe unten); der eigentliche Versand der E-Mail erfolgt technisch über den Dienst Resend (siehe unten).
 
 In der E-Mail, die wir dadurch erhalten, werden zusätzlich zu Ihren Formularangaben die Absender-IP-Adresse, der User-Agent Ihres Browsers, die Adresse der aufgerufenen Seite sowie Datum und Uhrzeit der Übermittlung vermerkt. Ihre Angaben werden ausschließlich zur Bearbeitung Ihrer Anfrage verwendet. Eine Weitergabe an Dritte über die hier genannten technischen Dienstleister hinaus erfolgt nicht; ein Abgleich mit Daten aus anderen Komponenten dieser Website findet nicht statt.
 
@@ -133,7 +139,7 @@ Weitere Informationen zum Datenschutz bei Vimeo finden Sie unter [vimeo.com/priv
 
 ## Wetterdaten
 
-Zur Anzeige der Wetterlage auf Koh Samui ruft eine serverseitige Funktion auf unserer Hosting-Plattform Netlify Wetterdaten für einen fest vorgegebenen Standort von Open-Meteo ab. Der Standort der Besucherinnen und Besucher wird dabei weder abgefragt noch übertragen, und Ihr Browser verbindet sich zu keinem Zeitpunkt direkt mit Open-Meteo. Die Wetterdaten werden serverseitig zwischengespeichert; bei der Abfrage werden keinerlei besucherbezogene Daten (z.B. IP-Adresse oder User-Agent) protokolliert. Zusätzlich speichert Ihr Browser die zuletzt abgerufenen Wetterdaten für Koh Samui im lokalen Speicher (Local Storage) Ihres Geräts zwischen, damit die Wetteranzeige beim erneuten Besuch schneller erscheint; dabei handelt es sich ausschließlich um die Wetterdaten des fest vorgegebenen Standorts, nicht um Standort- oder sonstige Daten zu Ihnen.
+Zur Anzeige der Wetterlage auf Koh Samui ruft eine serverseitige Funktion bei Cloudflare (Cloudflare Worker, siehe Abschnitt „Hosting, Auslieferung und Serverdaten“) Wetterdaten für einen fest vorgegebenen Standort von Open-Meteo ab. Der Standort der Besucherinnen und Besucher wird dabei weder abgefragt noch übertragen, und Ihr Browser verbindet sich zu keinem Zeitpunkt direkt mit Open-Meteo. Die Wetterdaten werden bei Cloudflare zwischengespeichert, und an Open-Meteo werden keinerlei besucherbezogene Daten (z.B. IP-Adresse oder User-Agent) weitergegeben. Die Funktion selbst protokolliert keine Daten zu Ihnen; für den Aufruf gilt lediglich das technische Protokoll von Cloudflare, das im Abschnitt „Hosting, Auslieferung und Serverdaten“ beschrieben ist. Zusätzlich speichert Ihr Browser die zuletzt abgerufenen Wetterdaten für Koh Samui im lokalen Speicher (Local Storage) Ihres Geräts zwischen, damit die Wetteranzeige beim erneuten Besuch schneller erscheint; dabei handelt es sich ausschließlich um die Wetterdaten des fest vorgegebenen Standorts, nicht um Standort- oder sonstige Daten zu Ihnen.
 
 ## Einsatz von OpenFreeMap-Karten
 
@@ -145,7 +151,7 @@ Es wird keine Verbindung zu Google Maps oder Mapbox aufgebaut, und für diese Ka
 
 Für die Verarbeitung personenbezogener Daten durch uns gilt in erster Linie thailändisches Recht (siehe oben). Unabhängig davon räumen wir Ihnen freiwillig die aus der DSGVO bekannten Betroffenenrechte ein: Sie können sich jederzeit unentgeltlich an uns wenden, um Auskunft über die zu Ihrer Person gespeicherten Daten zu erhalten sowie deren Berichtigung, Löschung oder die Einschränkung der Verarbeitung zu verlangen oder eine erteilte Einwilligung zu widerrufen, soweit dem keine gesetzliche Aufbewahrungspflicht entgegensteht.
 
-Da wir nicht in der Europäischen Union oder dem Europäischen Wirtschaftsraum niedergelassen sind, besteht formal kein Recht auf Beschwerde bei einer dortigen Datenschutz-Aufsichtsbehörde gegen uns selbst. Bei Anliegen zur Verarbeitung Ihrer Daten durch einen der oben genannten Drittanbieter (z.B. Netlify, Matomo, Cloudflare, Resend, giscus/GitHub, YouTube/Google, Vimeo oder OpenFreeMap) wenden Sie sich bitte direkt an den jeweiligen Anbieter; für Anliegen zu unserer eigenen Verarbeitung erreichen Sie uns über die [Kontakt][1]-Angaben.
+Da wir nicht in der Europäischen Union oder dem Europäischen Wirtschaftsraum niedergelassen sind, besteht formal kein Recht auf Beschwerde bei einer dortigen Datenschutz-Aufsichtsbehörde gegen uns selbst. Bei Anliegen zur Verarbeitung Ihrer Daten durch einen der oben genannten Drittanbieter (z.B. DreamHost, Cloudflare, Matomo, Resend, giscus/GitHub, YouTube/Google, Vimeo oder OpenFreeMap) wenden Sie sich bitte direkt an den jeweiligen Anbieter; für Anliegen zu unserer eigenen Verarbeitung erreichen Sie uns über die [Kontakt][1]-Angaben.
 
  [1]: /kontakt/
 
