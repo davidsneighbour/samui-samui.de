@@ -12,12 +12,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2182530265/" title="Oops! We did it again..."><img src="//farm3.static.flickr.com/2298/2182530265_f8f13087ed.jpg" alt="Oops! We did it again..." /></a></p>
+![Oops! We did it again...](./oops-we-did-it-again-2182530265.jpg)
 
-  <p>
-    Oops! We did it again...
-  </p>
-</div>
+Oops! We did it again …
 
-Ich hoffe nur, dass sie so unfruchtbar bleiben wie beim letzten mal :( sonst gibts viel Arbeit...
+Ich hoffe nur, dass sie so unfruchtbar bleiben wie beim letzten Mal :( sonst gibts viel Arbeit …
+
+<!-- grammar-ignore COMMA_PARENTHESIS_WHITESPACE (  -->

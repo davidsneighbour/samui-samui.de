@@ -10,16 +10,15 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2264688511/" title="Happy Valentinsday"><img src="//farm3.static.flickr.com/2322/2264688511_5aa17f81f4.jpg" alt="Happy Valentinsday" /></a></p>
+![Happy Valentinsday](./happy-valentinsday-2264688511.jpg)
 
-  <p>
-    Happy Valentinsday
-  </p>
-</div>
+Happy Valentinsday
 
-Als ich heute ein kleines rotes Kästchen öffnete und einen silbernen Elephanten-Schlüsselanhänger mit 43 kleinen und 2 gro?en Saphiren vorfand (es lebe die Numerologie), überlegte ich kurz, ob ich jemals in meinem doch nun schon recht lang währenden Leben ein Valentintagsgeschenk erhalten hätte. Erinnern konnte ich mich nicht.
+Als ich heute ein kleines rotes Kästchen öffnete und einen silbernen Elefanten-Schlüsselanhänger mit 43 kleinen und 2 großen Saphiren vorfand (es lebe die Numerologie), überlegte ich kurz, ob ich jemals in meinem doch nun schon recht lang währenden Leben ein Valentinstagsgeschenk erhalten hätte. Erinnern konnte ich mich nicht.
 
-Ich steh auf Elephanten.
+Ich steh auf Elefanten.
 
 Happy Valentinsday!
+
+<!-- cspell:ignore Valentinsday -->
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E steh -->

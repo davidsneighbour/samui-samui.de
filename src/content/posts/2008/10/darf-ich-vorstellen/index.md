@@ -10,12 +10,12 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2933942726/" title="Welcome"><img src="//farm4.static.flickr.com/3183/2933942726_4f863620a6.jpg" alt="Welcome" /></a></p>
+![Welcome](./welcome-2933942726.jpg)
 
-  <p>
-    Welcome
-  </p>
-</div>
+Welcome
 
-Von links nach rechts: Boo neung (spricht man wie Bööh Nüng aus), Boo song und Nike. Und eine erschöpfte Soosie. Mehr später...
+Von links nach rechts: Boo neung (spricht man wie Bööh Nüng aus), Boo song und Nike. Und eine erschöpfte Soosie. Mehr später …
+
+<!-- cspell:ignore Bööh -->
+<!-- cspell:ignore neung -->
+<!-- cspell:ignore Nüng -->

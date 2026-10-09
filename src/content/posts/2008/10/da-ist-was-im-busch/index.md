@@ -10,12 +10,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2930667198/" title="Something happens"><img src="//farm4.static.flickr.com/3052/2930667198_79bf59a7e2.jpg" alt="Something happens" /></a></p>
+![Something happens](./something-happens-2930667198.jpg)
 
-  <p>
-    Something happens
-  </p>
-</div>
+Something happens
 
 (Aktueller Stand: Zweiwas. Internet ist nicht so die Welt heute.)
+
+<!-- cspell:ignore Zweiwas -->

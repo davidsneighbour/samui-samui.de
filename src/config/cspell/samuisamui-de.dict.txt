@@ -14,6 +14,7 @@ angekuckt
 angequatscht
 angetuckelt
 angewuselt
+Angthon
 ankucken
 anräuchern
 Anstellschlange
@@ -133,6 +134,7 @@ Dassler
 Dauerdemonstrierer
 Dekohärenz
 Deprokrastination
+Desktophintergründe
 Deutschsprachlers
 Diew
 Diplomstrippenleger
@@ -178,6 +180,7 @@ Farangkategorie
 Farangs
 Farangwatch
 fass
+Feedreader
 Fehlgeleitetheit
 Feintuning
 Fendrich
@@ -203,14 +206,18 @@ Fuzzies
 fünftreichster
 fünfundeinhalb
 Gameshows
+Ganzkörper
 Gassigang
 Gautamas
+Gebärdensprachen
 gefiept
 Gefluche
 Gefussel
 gegeltes
+Gehoppel
 gehostet
 gehts
+Geknuddel
 Gelbhemden
 Gelbpressenhintergrund
 geldgefüllten
@@ -278,6 +285,8 @@ Huad
 Huathanon
 Humormuskeln
 Hundertbahtschein
+Hundesitter
+Hundesitters
 Hundespa
 Hundewohlfühlecke
 Häkelgardinen
@@ -290,6 +299,7 @@ Ironieresistenz
 Isaan
 Isaanbesuch
 Isaanmädchen
+Isaans
 Jaja
 jaja
 Jako
@@ -307,9 +317,11 @@ Katoey
 Katzenfauchen
 Kawumm
 Keira
+Khaen
 Khanong
 Khaosod
 Khlong
+Khon
 Khong
 Khun
 Khwan
@@ -402,6 +414,7 @@ Metropolenhopping
 miefige
 Mitfarang
 mitgewaschen
+mitzusuchen
 mobiltelefonischen
 monatigen
 Monsune
@@ -420,6 +433,7 @@ Moviekanal
 Movieshopping
 mueang
 Murphys
+Musikerhalle
 Naak
 Nachbarschaftspudel
 nachrichten
@@ -485,6 +499,7 @@ Ploppen
 Pojaman
 Pokki
 Pokkis
+Politikernamen
 Poolhaus
 Pooltable
 Pooltisch
@@ -492,6 +507,7 @@ Popcornmaschine
 Popcornschachtel
 popelnder
 Popvideo
+Pornlada
 Portraitbilder
 Postingfrequenz
 Postwählerische
@@ -499,6 +515,8 @@ PPPPS
 PPPS
 Pracharakpattana
 Prayuth
+Premierministerkandidat
+Premierministerposten
 prinzipientreu
 Prioritätsdruck
 Pritschentaxi
@@ -506,6 +524,7 @@ Profigolferpräsidenten
 Profigolferverbandes
 pulten
 Pumpgun
+Puschel
 Putschgerüchteküche
 Puzzleteil
 pöttelte
@@ -629,7 +648,9 @@ Sextouristenbeobachtungsblog
 sextouristenfreundlich
 Sextouristinnen
 Shih
+Shihtzu
 Shinawatra
+Shinawatras
 Shoppen
 shoppen
 Shoppingmeile
@@ -639,6 +660,7 @@ Silom
 sinds
 Singapores
 Singapurer
+Singha
 Singlemannes
 Sirikit
 Sirikits
@@ -805,6 +827,7 @@ Urwaldmoped
 Uthai
 Vajiralongkorn
 Valentinesday
+Valentinstagsgeschenk
 Vejjajiva
 Verabschiedungstresen
 Verandastufen
@@ -842,11 +865,14 @@ wenns
 Wieczorek
 wiederangesprungenen
 wirds
+Wiriya
 witzigerweise
 wochenendlichen
 wohlansehnliche
 wohlrasiert
 Wolfman
+Wongsawat
+Wuschel
 Wörterbuchkramen
 Xing
 Yakuza

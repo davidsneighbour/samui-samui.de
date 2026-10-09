@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2625389646/" title="Holiday Outtakes XIV: Racoon"><img src="//farm4.static.flickr.com/3203/2625389646_3eb56c32df.jpg" alt="Holiday Outtakes XIV: Racoon" /></a></p>
+![Holiday Outtakes XIV: Racoon](./holiday-outtakes-xiv-racoon-2625389646.jpg)
 
-  <p>
-    Holiday Outtakes <span class="caps">XIV</span>: Racoon
-  </p>
-</div>
+Holiday Outtakes XIV: Racoon
 
 Wir Kenner nennen es auch gerne Waschbär

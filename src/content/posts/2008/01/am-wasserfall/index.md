@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2194558119/" title="At the waterfall"><img src="//farm3.static.flickr.com/2138/2194558119_34ef5b7f41.jpg" alt="At the waterfall" /></a></p>
+![At the waterfall](./at-the-waterfall-2194558119.jpg)
 
-  <p>
-    At the waterfall
-  </p>
-</div>
+At the waterfall
 
 Es soll ja Leute geben, die den Wasserfall übersehen. Allerdings ist das Wort für Wasserfall und Stromschnelle im Thai anscheinend das Gleiche ;)

@@ -12,12 +12,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2343935794/" title="Pornlada"><img src="//farm3.static.flickr.com/2032/2343935794_19d9de49cb.jpg" alt="Pornlada" /></a></p>
+![Pornlada](./pornlada-2343935794.jpg)
 
-  <p>
-    Pornlada
-  </p>
-</div>
+Pornlada
 
-Aus der Kategorie Abiturientenwitze... hehehe... der kleine Pornlada, gleich neben der Immigration.
+Aus der Kategorie Abiturientenwitze … hehehe … der kleine Pornlada, gleich neben der Immigration.

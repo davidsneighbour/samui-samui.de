@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2624570151/" title="Holiday Outtakes XVI: Bohemian"><img src="//farm4.static.flickr.com/3151/2624570151_409bc269a7.jpg" alt="Holiday Outtakes XVI: Bohemian" /></a></p>
+![Holiday Outtakes XVI: Bohemian](./holiday-outtakes-xvi-bohemian-2624570151.jpg)
 
-  <p>
-    Holiday Outtakes <span class="caps">XVI</span>: Bohemian
-  </p>
-</div>
+Holiday Outtakes XVI: Bohemian

@@ -10,10 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2163501466/" title="growing again"><img src="//farm3.static.flickr.com/2281/2163501466_bc2c0075b6.jpg" alt="growing again" /></a></p>
+![growing again](./growing-again-2163501466.jpg)
 
-  <p>
-    growing again
-  </p>
-</div>
+growing again
+
+<!-- grammar-ignore UPPERCASE_SENTENCE_START growing -->

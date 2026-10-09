@@ -186,7 +186,7 @@ async function routeRemaps(): Promise<string[]> {
       String.raw`feiertage/?(?:[#?].*)?`,
       `${rootFileUrl}src/content/feiertage/`,
     ],
-    [String.raw`(wp-content|assets)/(.+)`, `${rootFileUrl}public/$1/$2`],
+    [String.raw`(wp-content|assets|images)/(.+)`, `${rootFileUrl}public/$1/$2`],
   ];
 
   return [

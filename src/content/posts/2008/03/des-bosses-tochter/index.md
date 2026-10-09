@@ -10,12 +10,11 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2343934224/" title="what??"><img src="//farm3.static.flickr.com/2084/2343934224_15a4087ae1.jpg" alt="what??" /></a></p>
+![what??](./what-2343934224.jpg)
 
-  <p>
-    what??
-  </p>
-</div>
+what??
 
-...an einem ihrer freundlicheren Tage...
+… an einem ihrer freundlicheren Tage …
+
+<!-- grammar-ignore UPPERCASE_SENTENCE_START what -->
+<!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN ?? -->

@@ -10,12 +10,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3094810371/" title="Ooops!"><img src="//farm4.static.flickr.com/3208/3094810371_7e577f1c8d.jpg" alt="Ooops!" /></a></p>
+![Ooops!](./ooops-3094810371.jpg)
 
-  <p>
-    Ooops!
-  </p>
-</div>
+Ooops!
 
-Die Regenzeit fordert ihren Zoll...
+Die Regenzeit fordert ihren Zoll …
+
+<!-- cspell:ignore Ooops -->

@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2187297580/" title="Like I always use to say..."><img src="//farm3.static.flickr.com/2392/2187297580_bc7653d047.jpg" alt="Like I always use to say..." /></a></p>
+![Like I always use to say...](./like-i-always-use-to-say-2187297580.jpg)
 
-  <p>
-    Like I always use to say...
-  </p>
-</div>
+Like I always use to say …

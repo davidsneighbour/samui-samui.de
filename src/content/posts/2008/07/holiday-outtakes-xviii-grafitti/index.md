@@ -1,5 +1,5 @@
 ---
-title: 'Holiday Outtakes XVIII: Grafitti'
+title: 'Holiday Outtakes XVIII: Graffiti'
 date: 2008-07-02T10:43:25+07:00
 publisher:
   description: true
@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2630958429/" title="Holiday Outtakes XVIII: Grafitti"><img src="//farm4.static.flickr.com/3103/2630958429_7b5f3d8791.jpg" alt="Holiday Outtakes XVIII: Grafitti" /></a></p>
+![Holiday Outtakes XVIII: Graffiti](./holiday-outtakes-xviii-grafitti-2630958429.jpg)
 
-  <p>
-    Holiday Outtakes <span class="caps">XVIII</span>: Grafitti
-  </p>
-</div>
+Holiday Outtakes XVIII: Graffiti

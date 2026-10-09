@@ -12,12 +12,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2450453665/" title="Lots of water"><img src="//farm3.static.flickr.com/2214/2450453665_f8748f4eef.jpg" alt="Lots of water" /></a></p>
+![Lots of water](./lots-of-water-2450453665.jpg)
 
-  <p>
-    Lots of water
-  </p>
-</div>
+Lots of water
 
-Eigentlich nimmt das Wetter im April Anlauf zur Trockenzeit, der Mai ist der Hitzemonat. In Khon Khaen im Norden Thailands hat man bereits den Wassernotstand ausgerufen --- kein Wasser mehr... Auf Samui war der vergangene Wochenanfang der heißeste dieses Jahres. Dann kam der Regen ;)
+Eigentlich nimmt das Wetter im April Anlauf zur Trockenzeit, der Mai ist der Hitzemonat. In Khon Khaen im Norden Thailands hat man bereits den Wassernotstand ausgerufen --- kein Wasser mehr … Auf Samui war der vergangene Wochenanfang der heißeste dieses Jahres. Dann kam der Regen ;)
+
+<!-- grammar-ignore DE_CASE Auf -->

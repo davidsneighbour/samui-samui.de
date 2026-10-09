@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2576705723/" title="What? What happen!"><img src="//farm4.static.flickr.com/3064/2576705723_42ab7d68c7.jpg" alt="What? What happen!" /></a></p>
+![What? What happen!](./what-what-happen-2576705723.jpg)
 
-  <p>
-    What? What happen!
-  </p>
-</div>
+What? What happen!

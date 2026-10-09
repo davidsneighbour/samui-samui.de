@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2630951325/" title="Holiday Outtakes XVII: Nepomuk"><img src="//farm4.static.flickr.com/3064/2630951325_b1110d52c8.jpg" alt="Holiday Outtakes XVII: Nepomuk" /></a></p>
+![Holiday Outtakes XVII: Nepomuk](./holiday-outtakes-xvii-nepomuk-2630951325.jpg)
 
-  <p>
-    Holiday Outtakes <span class="caps">XVII</span>: Nepomuk
-  </p>
-</div>
+Holiday Outtakes XVII: Nepomuk

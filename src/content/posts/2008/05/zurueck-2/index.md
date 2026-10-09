@@ -10,19 +10,15 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2533405695/" title="Back home"><img src="//farm3.static.flickr.com/2273/2533405695_bdf853e038.jpg" alt="Back home" /></a></p>
+![Back home](./back-home-2533405695.jpg)
 
-  <p>
-    Back home
-  </p>
-</div>
+Back home
 
 Zuhause ist man da, wo man Miete zahlt und das bin ich seit gut einer Woche wieder. Der Urlaub hatte sich zu einer Bildungsreise ausgewachsen und ich musste noch ein paar Tage Erholung einlegen.
 
-Ausführliche Urlaubsberichte werden folgen, zuerst wollen 12.000 (ja, keine Null zuviel) Photos gesichtet werden. Keine Sorge, nur 1/12tel davon ist von mir.
+Ausführliche Urlaubsberichte werden folgen, zuerst wollen 12.000 (ja, keine Null zu viel) Photos gesichtet werden. Keine Sorge, nur 1/12tel davon ist von mir.
 
-Alle fünf meiner regelmä?igen Leser haben in den vergangenen Wochen gefragt, warum ich mein "Blog" nicht auch im Urlaub weiter schreibe... dann wärs ja kein Urlaub gewesen... nich wahr...
+Alle fünf meiner regelmäßigen Leser haben in den vergangenen Wochen gefragt, warum ich mein "Blog" nicht auch im Urlaub weiter schreibe … dann wärs ja kein Urlaub gewesen … nich wahr …
 
 Hier noch schnell ein paar hastig nach der Rückkehr angefertigte Notizen (ehe ich mich für etwas Erholung entschied):
 
@@ -37,7 +33,7 @@ Hier noch schnell ein paar hastig nach der Rückkehr angefertigte Notizen (ehe i
 
 **Thailand**
 
-* Hat keine Rapsfelder. Damit könnte man den König _so schön_ ehren. Aber da denkt wieder niemand dran. Ich bin noch am ?berlegen, ob das eine Marktlücke ist. Falls ja, wo kann man denn Samen beziehen?
+* Hat keine Rapsfelder. Damit könnte man den König _so schön_ ehren. Aber da denkt wieder niemand dran. Ich bin noch am Überlegen, ob das eine Marktlücke ist. Falls ja, wo kann man denn Samen beziehen?
 
 **Und dann**
 
@@ -46,4 +42,10 @@ Hier noch schnell ein paar hastig nach der Rückkehr angefertigte Notizen (ehe i
 **Als ich wieder heim kam**
 
 * Hab ich meine beiden Wuschel ganz fest geknuddelt und ihnen versprochen, sie nie wieder so lange alleine zu lassen. Genauso wie damals nach dem Januar 2007.
-* Habe ich im Feedreader 15000 Einträge als gelesen markiert und immer noch rund 10000 zu lesende Einträge (inzwischen gelesen). Nein, ich bin nicht süchtig. Hab mal gelesen, dass man eine Sucht dadurch definieren kann, wenn der Süchtige nicht in der Lage ist, vom Suchtgegenstand mehr als 2 Wochen Abstand zu nehmen. Ich war gute drei Wochen offline...
+* Habe ich im Feedreader 15000 Einträge als gelesen markiert und immer noch rund 10000 zu lesende Einträge (inzwischen gelesen). Nein, ich bin nicht süchtig. Hab mal gelesen, dass man eine Sucht dadurch definieren kann, wenn der Süchtige nicht in der Lage ist, vom Suchtgegenstand mehr als 2 Wochen Abstand zu nehmen. Ich war gute drei Wochen offline …
+
+<!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN ?? -->
+<!-- cspell:ignore nich -->
+<!-- cspell:ignore wärs -->
+<!-- cspell:ignore Jawollja -->
+<!-- cspell:ignore Verbalfetischisten -->

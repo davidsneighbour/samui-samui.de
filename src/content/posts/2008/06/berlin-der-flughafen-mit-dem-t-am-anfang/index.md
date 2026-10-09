@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2584194961/" title="Holiday Outtakes VI: Landed. Berlin"><img src="//farm3.static.flickr.com/2270/2584194961_e9f3cf8854.jpg" alt="Holiday Outtakes VI: Landed. Berlin" /></a></p>
+![Holiday Outtakes VI: Landed. Berlin](./holiday-outtakes-vi-landed-berlin-2584194961.jpg)
 
-  <p>
-    Holiday Outtakes VI: Landed. Berlin
-  </p>
-</div>
+Holiday Outtakes VI: Landed. Berlin
 
-Es war kalt. Es war Mai. Und es war der Flughafen mit dem T im Namen. In Berlin...
+Es war kalt. Es war Mai. Und es war der Flughafen mit dem T im Namen. In Berlin …

@@ -11,12 +11,10 @@ publisher:
   flickr: true
   textpattern: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2437116396/" title="Ghost"><img src="//farm4.static.flickr.com/3066/2437116396_794b85d710.jpg" alt="Ghost" /></a></p>
+![Ghost](./ghost-2437116396.jpg)
 
-  <p>
-    Ghost
-  </p>
-</div>
+Ghost
 
-Was <txp:permlink="1564">Thaiforscher können</a>, kann ich schon lange. Dieser Geselle hier schwirrt seit gestern Abend in meiner kleinen Behausung herum. So lange Fühler wie der hat... das hat bestimmt noch niemand entdeckt... 5cm lang ist er...
+Was Thaiforscher können, kann ich schon lange. Dieser Geselle hier schwirrt seit gestern Abend in meiner kleinen Behausung herum. So lange Fühler wie der hat … das hat bestimmt noch niemand entdeckt … 5 cm lang ist er …
+
+<!-- cspell:ignore Thaiforscher -->

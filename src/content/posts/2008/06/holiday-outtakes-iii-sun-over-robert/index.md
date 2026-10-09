@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2570227801/" title="Holiday Outtakes III: Sun over Robert"><img src="//farm4.static.flickr.com/3262/2570227801_f0dfd2ea07.jpg" alt="Holiday Outtakes III: Sun over Robert" /></a></p>
+![Holiday Outtakes III: Sun over Robert](./holiday-outtakes-iii-sun-over-robert-2570227801.jpg)
 
-  <p>
-    Holiday Outtakes <span class="caps">III</span>: Sun over Robert
-  </p>
-</div>
+Holiday Outtakes III: Sun over Robert
 
 Gleich neben Robert Schumanns denkender Statue in den Himmel gesehen.

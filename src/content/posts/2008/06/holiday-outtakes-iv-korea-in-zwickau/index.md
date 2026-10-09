@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2570223195/" title="Holiday Outtakes IV: Korea in Zwickau"><img src="//farm4.static.flickr.com/3094/2570223195_1b2f3d638b.jpg" alt="Holiday Outtakes IV: Korea in Zwickau" /></a></p>
+![Holiday Outtakes IV: Korea in Zwickau](./holiday-outtakes-iv-korea-in-zwickau-2570223195.jpg)
 
-  <p>
-    Holiday Outtakes IV: Korea in Zwickau
-  </p>
-</div>
+Holiday Outtakes IV: Korea in Zwickau

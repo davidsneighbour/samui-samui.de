@@ -10,12 +10,11 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2570233913/" title="Holiday Outtakes II: Appletrees"><img src="//farm4.static.flickr.com/3152/2570233913_88bd123ded.jpg" alt="Holiday Outtakes II: Appletrees" /></a></p>
+![Holiday Outtakes II: Appletrees](./holiday-outtakes-ii-appletrees-2570233913.jpg)
 
-  <p>
-    Holiday Outtakes II: Appletrees
-  </p>
-</div>
+Holiday Outtakes II: Appletrees
 
-Marienthal in Zwickau. Am Ende einer Stra?enbahnstrecke. Blauer Himmel, ein paar Wökchen, ein paar Apfelbäme. Reicht aus...
+Marienthal in Zwickau. Am Ende einer Straßenbahnstrecke. Blauer Himmel, ein paar Wökchen, ein paar Apfelbäume. Reicht aus …
+
+<!-- cspell:ignore Appletrees -->
+<!-- cspell:ignore Wökchen -->

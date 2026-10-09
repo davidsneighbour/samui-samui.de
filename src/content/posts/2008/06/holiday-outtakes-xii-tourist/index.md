@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2616039398/" title="Holiday Outtakes XII: Tourist"><img src="//farm4.static.flickr.com/3235/2616039398_7360c87555.jpg" alt="Holiday Outtakes XII: Tourist" /></a></p>
+![Holiday Outtakes XII: Tourist](./holiday-outtakes-xii-tourist-2616039398.jpg)
 
-  <p>
-    Holiday Outtakes <span class="caps">XII</span>: Tourist
-  </p>
-</div>
+Holiday Outtakes XII: Tourist

@@ -10,12 +10,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2612953255/" title="Holiday Outtakes XI: Buchenwald"><img src="//farm4.static.flickr.com/3061/2612953255_59ab9082fe.jpg" alt="Holiday Outtakes XI: Buchenwald" /></a></p>
+![Holiday Outtakes XI: Buchenwald](./holiday-outtakes-xi-buchenwald-2612953255.jpg)
 
-  <p>
-    Holiday Outtakes XI: Buchenwald
-  </p>
-</div>
+Holiday Outtakes XI: Buchenwald
 
 Idyllisch. Trügte.
+
+<!-- cspell:ignore Trügte -->

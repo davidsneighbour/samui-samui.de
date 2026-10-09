@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2624568163/" title="Holiday Outtakes XV: Them"><img src="//farm4.static.flickr.com/3023/2624568163_ccb417099a.jpg" alt="Holiday Outtakes XV: Them" /></a></p>
+![Holiday Outtakes XV: Them](./holiday-outtakes-xv-them-2624568163.jpg)
 
-  <p>
-    Holiday Outtakes XV: Them
-  </p>
-</div>
+Holiday Outtakes XV: Them

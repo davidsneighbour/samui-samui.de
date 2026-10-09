@@ -10,16 +10,14 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2577535784/" title="Weekend. Again."><img src="//farm4.static.flickr.com/3021/2577535784_9da224a900.jpg" alt="Weekend. Again." /></a></p>
+![Weekend. Again.](./weekend-again-2577535784.jpg)
 
-  <p>
-    Weekend. Again.
-  </p>
-</div>
+Weekend. Again.
 
 Es ist Wochenende und es regnet. Warum auch nicht. Wozu braucht man Sonne an den freien Tagen.
 
 5 Minuten nach diesem Photo stand die Veranda unter Wasser, weil sich der Wind nicht entscheiden konnte, aus welcher Richtung er blasen sollte. Habs mir ein Stück lang angesehen, die Tür zugemacht und liege nun im herrlich akklimatisierten Bettchen und kucke Fernsehen.
 
 What a day off.
+
+<!-- grammar-ignore FRAGEZEICHEN_STATT_PUNKT . -->

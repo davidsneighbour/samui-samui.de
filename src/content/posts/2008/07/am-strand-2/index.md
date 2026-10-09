@@ -10,13 +10,9 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2675644617/" title="Beach"><img src="//farm4.static.flickr.com/3207/2675644617_39b6aaa0b8.jpg" alt="Beach" /></a></p>
+![Beach](./beach-2675644617.jpg)
 
-  <p>
-    Beach
-  </p>
-</div>
+Beach
 
 Heute begann ich den Tag einmal mit einem Freund aus Bangkok und einem neuen Freund aus Malaysia am Strand von Maenam. Und mir fiel auf, dass ich da noch nie war. Einmal unter irgendeiner Palme beim Picknick, aber das gilt ja nicht ;)
 

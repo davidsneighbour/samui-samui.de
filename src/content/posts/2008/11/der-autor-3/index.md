@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3046223412/" title="Me now."><img src="//farm4.static.flickr.com/3044/3046223412_1feac8351e.jpg" alt="Me now." /></a></p>
+![Me now.](./me-now-3046223412.jpg)
 
-  <p>
-    Me now.
-  </p>
-</div>
+Me now.
 
 ... in gewohnt entspannter Pose.

@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2933951168/" title="Nike"><img src="//farm4.static.flickr.com/3004/2933951168_28ff815d09.jpg" alt="Nike" /></a></p>
+![Nike](./nike-2933951168.jpg)
 
-  <p>
-    Nike
-  </p>
-</div>
+Nike
 
 Nike kam gegen 9:15 und hatte ihren Namen aus offensichtlichen Gründen sofort bekommen. Und: Sie ist die größte von den Dreien.

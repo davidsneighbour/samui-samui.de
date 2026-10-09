@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2301636555/" title="Dahinter steckt immer ein kluger Kopf"><img src="//farm4.static.flickr.com/3108/2301636555_65d507ac6e.jpg" alt="Dahinter steckt immer ein kluger Kopf" /></a></p>
+![Dahinter steckt immer ein kluger Kopf](./dahinter-steckt-immer-ein-kluger-kopf-2301636555.jpg)
 
-  <p>
-    Dahinter steckt immer ein kluger Kopf
-  </p>
-</div>
+Dahinter steckt immer ein kluger Kopf

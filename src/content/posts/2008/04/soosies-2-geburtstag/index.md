@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2453898481/" title="Soosie"><img src="//farm4.static.flickr.com/3020/2453898481_ebb54eb8f1.jpg" alt="Soosie" /></a></p>
+![Soosie](./soosie-2nd-birthday-2453898481.jpg)
 
-  <p>
-    Soosie
-  </p>
-</div>
+Soosie
 
 Fast hätte ich das im ganzen Reisevorbereitungsrummel vergessen: Soosie wird heute 2 Jahre alt. Dafür gibts heute mindestens eine Doppelration Kekse und jede Menge Geknuddel.

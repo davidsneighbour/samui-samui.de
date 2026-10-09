@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2611155166/" title="Holiday Outtakes VII: Angel"><img src="//farm4.static.flickr.com/3286/2611155166_000e0d094a.jpg" alt="Holiday Outtakes VII: Angel" /></a></p>
+![Holiday Outtakes VII: Angel](./holiday-outtakes-vii-angel-2611155166.jpg)
 
-  <p>
-    Holiday Outtakes <span class="caps">VII</span>: Angel
-  </p>
-</div>
+Holiday Outtakes VII: Angel
 
 Ein Engel über den Bauten von Dresden.

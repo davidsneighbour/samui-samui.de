@@ -10,12 +10,11 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2904227422/" title="me now"><img src="//farm4.static.flickr.com/3231/2904227422_df113d8d98.jpg" alt="me now" /></a></p>
+![me now](./me-now-2904227422.jpg)
 
-  <p>
-    me now
-  </p>
-</div>
+me now
 
-... in entspannter Pose... Im Spiegel ein erster photographischer Eindruck vom neuen Hause.
+... in entspannter Pose … Im Spiegel ein erster photographischer Eindruck vom neuen Hause.
+
+<!-- grammar-ignore UPPERCASE_SENTENCE_START me -->
+<!-- grammar-ignore DE_CASE Im -->

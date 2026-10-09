@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3066029636/" title="First time outside"><img src="//farm4.static.flickr.com/3033/3066029636_fa7f027ab3.jpg" alt="First time outside" /></a></p>
+![First time outside](./first-time-outside-3066029636.jpg)
 
-  <p>
-    First time outside
-  </p>
-</div>
+First time outside
 
 Der erste Ausflug in den Garten.

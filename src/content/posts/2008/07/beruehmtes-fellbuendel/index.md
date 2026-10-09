@@ -10,14 +10,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/2674983976/" title="Famous furry Dog"><img src="//farm4.static.flickr.com/3211/2674983976_60c6295d22.jpg" alt="Famous furry Dog" /></a></p>
+![Famous furry Dog](./famous-furry-dog-2674983976.png)
 
-  <p>
-    Famous furry Dog
-  </p>
-</div>
+Famous furry Dog
 
-Pokki hat es in und auf die Startseite eines [San Franziskanischen Hunde-Newsletters][1] gebracht... etwas ungünstig ist nur der Zeitpunkt ;)
+Pokki hat es in und auf die Startseite eines [San Franziskanischen Hunde-Newsletters][1] gebracht … etwas ungünstig ist nur der Zeitpunkt ;)
 
  [1]: http://www.woofreport.com/
