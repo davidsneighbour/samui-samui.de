@@ -139,6 +139,8 @@
     "lint:staged": "lint-staged",
     "lint:umlauts": "node src/scripts/normalize-german-characters.ts --check",
     "lint:umlauts:fix": "node src/scripts/normalize-german-characters.ts --write",
+    "maps": "node src/scripts/maps/maps.ts",
+    "maps:data:update": "node src/scripts/maps/update-data.ts",
     "postinstall": "biome migrate --write",
     "prepare": "simple-git-hooks",
     "preview": "astro preview",

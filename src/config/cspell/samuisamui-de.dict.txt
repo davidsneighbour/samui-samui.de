@@ -420,6 +420,7 @@ Lomprayah
 loszubeißen
 Lovesongs
 Luang
+Luxuritäten
 Lèse
 Maak
 maak
@@ -673,10 +674,12 @@ Sala
 Samak
 Samaks
 Samui
+samui
 Samuianer
 samuianische
 Samuianischen
 samuianischen
+Samuiaufenthaltes
 Samuifarang
 Samuikabel
 Samuis
@@ -918,6 +921,7 @@ Verbrauchtheitsgrad
 Verhandlungsskills
 verschwurbelte
 versiffte
+verwohntes
 videographierten
 villeneigenen
 Visabestimmungen

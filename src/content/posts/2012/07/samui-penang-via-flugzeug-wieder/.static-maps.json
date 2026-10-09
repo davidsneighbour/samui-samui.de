@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "map-route.webp": {
+      "configSha256": "e0317d37f786015c26f7d42f44221974103031b5e93d82f62dfe2af3df93755a",
+      "datasetSha256": "e1f124f0017f4f27685b7fb96052bfc2c8d85caa18a142847e2b5eb9699305cf",
+      "encoder": "sharp 0.35.5, vips 8.18.7, webp 1.6.0",
+      "fingerprint": "9219b1b85deb0db3a4e21562c891a016c92199eea7dd48623113e5041f904ddf",
+      "height": 1000,
+      "rendererHash": "1fc1b3a3df299c8fb771875525e4d55d1babeafa8fb6de13494976683ec94cbf",
+      "sha256": "99d4375d51837dd511b587a175f4af5dcfa6f874670e53b683c5523839118194",
+      "styleVersion": 1,
+      "width": 1200
+    }
+  },
+  "version": 1
+}

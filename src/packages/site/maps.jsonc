@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "maplibre-gl": "6.13.0"
+  },
+  "scripts": {
+    "maps": "node src/scripts/maps/maps.ts",
+    "maps:data:update": "node src/scripts/maps/update-data.ts"
   }
 }

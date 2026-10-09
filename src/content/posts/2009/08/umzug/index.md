@@ -9,14 +9,29 @@ publisher:
   seo: true
   covermigration: true
   flickr: true
+maps:
+  - id: house
+    image: map-house.webp
+    alt: Karte des damaligen Hauses im Nordwesten von Koh Samui
+    caption: Haus Nummer 9
+    size:
+      width: 1200
+      height: 600
+    bounds:
+      topLeft:
+        latitude: 9.61125
+        longitude: 99.88564
+      bottomRight:
+        latitude: 9.52660
+        longitude: 100.05730
+    points:
+      - id: house
+        title: Haus Nummer 9
+        coordinates:
+          latitude: 9.578069
+          longitude: 99.957905
 ---
-<div class="flickr">
-  <img src="hhttps://maps.google.com/maps/api/staticmap?center=9.568928,99.971466&zoom=12&markers=size:mid|color:black|label:9|9.578069,99.957905&maptype=terrain&size=500x250&sensor=false&key=ABQIAAAASuHARQQNNX8KK-0ymandDxSjADMV0drtg-ByyFGVO9sMP8ePKBReA_poc489U2QRp4uFvHVAplw57w" style="width:500px;height:250px;" alt="Map unseres neuen Hauses" /></p>
-
-  <p>
-    Haus Nummer 9
-  </p>
-</div>
+<dnb-map id="house"></dnb-map>
 
 Am Sonntag sind wir übrigens mal wieder umgezogen. Haus Nummer Neun unseres kleinen Samuiaufenthaltes ist Haus Nummer Sieben, den älteren unter meinen Lesern auch als "Haus am Klong" bekannt.
 

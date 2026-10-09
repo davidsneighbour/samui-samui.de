@@ -43,6 +43,8 @@
 
 ## Features
 
+* [Static article maps](features/static-maps.md) documents frontmatter, offline OSM data, generation, automatic attribution, verification, and the legacy migration inventory.
+
 * [Ahrefs audit sample](features/ahrefs-audit-sample.md) documents the generated custom URL-list sample used for Ahrefs Site Audit crawls.
 * [Blog archive](features/archiv.md) documents the chronological archive, topic index, indexing choices, and archive data model.
 * [Contact form](features/contact-form.md) documents contact-form rendering, the `/api/contact` Worker endpoint, its secrets, and Turnstile disclaimer styling.

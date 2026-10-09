@@ -1,6 +1,7 @@
 import { defineCollection, reference } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
+import { staticMapsSchema } from './utils/static-maps/schema';
 
 function taxonomyEntryId(entry: string): string {
   return entry
@@ -114,6 +115,7 @@ const posts = defineCollection({
       // Post-level override for the legacy-image presentation system (see
       // src/utils/legacy-images/); defaults to automatic classification.
       legacyImages: legacyImageOverride.default('auto'),
+      maps: staticMapsSchema.optional(),
       options: postOptionsFrontmatter,
       orte: z.array(reference('orte')).default([]),
       personen: z.array(reference('personen')).default([]),

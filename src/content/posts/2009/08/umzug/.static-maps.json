@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "map-house.webp": {
+      "configSha256": "d5370e2e4c8f1cc6c272a9a6fdb2036e271a885432fee7f4df7edf7633296475",
+      "datasetSha256": "e1f124f0017f4f27685b7fb96052bfc2c8d85caa18a142847e2b5eb9699305cf",
+      "encoder": "sharp 0.35.5, vips 8.18.7, webp 1.6.0",
+      "fingerprint": "8e5f7be067b843b61a33d79fdf46c0bf4a5d3d977db0c244ce5fdaa84187b661",
+      "height": 600,
+      "rendererHash": "1fc1b3a3df299c8fb771875525e4d55d1babeafa8fb6de13494976683ec94cbf",
+      "sha256": "cdf91053c8188f9a65eaa14df447b721db777a1b9c4e973a59c373eb3a2c7d4b",
+      "styleVersion": 1,
+      "width": 1200
+    }
+  },
+  "version": 1
+}

@@ -41,6 +41,7 @@ Post entries live in `src/content/posts/**/index.md`. The post schema is loose s
 | `featured_image` | Optional string. | Legacy absolute public image path retained for migrated posts. | [Legacy image presentation](../components/legacy-images.md) |
 | `lastmod` | Optional date. | Last-modified timestamp, interpreted in Thailand time. | [Post metadata](post-metadata.md) |
 | `legacyImages` | Enum, default `auto`. | Post-level legacy image presentation override: `auto`, `always`, or `never`. | [Legacy image presentation](../components/legacy-images.md) |
+| `maps` | Optional array of bundle-local static-map definitions. | Explicit map IDs, image filenames, required alt text, bounds, points, optional routes, captions, labels, marker types, and size (default 1200 × 630). Placement uses `<dnb-map id="…"></dnb-map>`. | [Static article maps](../features/static-maps.md) |
 | `options` | Object, default `{ featured: true }`. | Post display options. | [Blog list previews](../components/blog-list-previews.md) |
 | `options.featured` | Boolean, default `true`. | Set to `false` to opt a post out of the homepage lead-article slot. | [Blog list previews](../components/blog-list-previews.md) |
 | `orte` | Array of place references, default `[]`. | Registered place ids associated with the post. | [Content taxonomies](taxonomies.md) |
