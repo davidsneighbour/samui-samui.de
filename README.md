@@ -118,7 +118,7 @@ Production runs on three layers: DreamHost serves the static `dist/` output, Clo
 
 `npm run deploy` runs checks, builds once, uploads the build to DreamHost as an atomic release (rsync over SSH), deploys the Worker only when its code changed, purges exactly the changed pages from the Cloudflare cache (or every page after a global template change), and runs smoke tests. `npm run deploy:site` skips the Worker, and `npm run deploy:worker` deploys only the Worker. Configuration and secrets live in a git-ignored `.env` (see `.env.example`) and in Worker secrets. They are never committed.
 
-Production still runs on Netlify until the DNS cutover in [Migration from Netlify](documentation/hosting/migration.md) is complete. Until then, `npm run deploy:netlify` and `npm run deploy:netlify:production` keep the old Netlify workflow.
+Production moved from Netlify to this setup on 9 October 2026; [Migration from Netlify](documentation/hosting/migration.md) records the cutover and the rollback path.
 
 ---
 

@@ -11,7 +11,7 @@ a documented reason, MAY is optional.
 This repository is an Astro static site (`output: 'static'`) at
 [https://samui-samui.de](https://samui-samui.de), served from a DreamHost static
 origin behind the Cloudflare cache, with a Cloudflare Worker for `/api/*`
-(production moves from Netlify to this setup with the cutover in
+(production moved from Netlify to this setup on 2026-10-09; see
 [`documentation/hosting/migration.md`](documentation/hosting/migration.md)).
 
 * Live site is the reference for expected behavior — when a change's effect is
@@ -486,8 +486,9 @@ Cloudflare cache, and runs smoke tests
 * Cloudflare Cache Rules and the www redirect are code in
   `src/scripts/deploy/cache-rules.ts`; change them there, not only in the
   dashboard.
-* `netlify.toml`, `src/netlify/`, and `npm run deploy:netlify*` exist only until
-  the cutover is complete; do not extend them.
+* Netlify is no longer part of the stack. Do not add `netlify.toml`,
+  `netlify-cli`, or Netlify Functions back; the contact-form helpers that the
+  old Netlify Function shared live under `src/workers/api/`.
 
 ### Analytics
 

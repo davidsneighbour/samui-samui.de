@@ -2,12 +2,8 @@
 // honeypot, local spam heuristics, and Cloudflare Turnstile. See
 // documentation/features/contact-form.md.
 //
-// Ported from the Netlify Function (src/netlify/functions/contact.mjs). The
-// spam heuristics and the React Email template are still imported from
-// src/netlify/ so both runtimes share one copy until Netlify is removed
-// (https://github.com/davidsneighbour/samui-samui.de/issues/1783).
-import { renderContactEmail } from '../../netlify/functions/lib/email.mjs';
-import { isLikelySpam } from '../../netlify/functions/lib/spam.mjs';
+import { renderContactEmail } from './lib/email.mjs';
+import { isLikelySpam } from './lib/spam.mjs';
 
 // Keep in sync with Astro.site in astro.config.ts.
 export const SITE_URL = 'https://samui-samui.de';

@@ -111,18 +111,24 @@ Expected: HTML `cf-cache-status: HIT` after the first request; `Cache-Tag` and `
 ## Rollback
 
 * **Before the DNS switch:** nothing to roll back; Netlify serves production.
-* **After the DNS switch:** replace the apex A record with the CNAME `apex-loadbalancer.netlify.com` again and set `www` back to CNAME `samui-samui-de.netlify.app`, both **DNS only**. Netlify still has the last deploy, and `netlify.toml` still rewrites `/api/contact` and `/api/weather` to the Netlify Functions, so the current form keeps working there. The Worker route goes idle as soon as the records are not proxied.
+* **After the DNS switch:** replace the apex A record with the CNAME `apex-loadbalancer.netlify.com` again and set `www` back to CNAME `samui-samui-de.netlify.app`, both **DNS only**. Netlify still has the last deploy, including its `netlify.toml` rewrites of `/api/contact` and `/api/weather` to the Netlify Functions, so the form keeps working there. The repository no longer contains these files (see [Netlify clean-up](#netlify-clean-up)), so this path only restores the last Netlify deploy; it cannot deploy new changes to Netlify. It stops working when the Netlify site is deleted. The Worker route goes idle as soon as the records are not proxied.
 * **A bad deploy after the move:** `npm run deploy:site:rollback` ([deployment](deployment.md#rollback)), `npx wrangler rollback` for the Worker.
 
 ## Netlify clean-up
 
-Only after production has run on DreamHost + Cloudflare without problems. Each item has a replacement listed in the [component map](#component-map):
+Done in the repository on 2026-10-09 ([#1784](https://github.com/davidsneighbour/samui-samui.de/issues/1784)), after the cutover and a passing smoke test:
 
-* delete `netlify.toml`, `.netlify/state.json`, and the `.netlify` lines in `.gitignore`;
-* move `src/netlify/functions/lib/spam.mjs`, `src/netlify/functions/lib/email.mjs`, and `src/netlify/emails/contact-notification.tsx` under `src/workers/api/`, then delete `src/netlify/`;
-* delete `src/packages/site/netlify.jsonc` (`netlify-cli`, `deploy:netlify*`) and `src/scripts/deploy/netlify.ts`, then run `npm run compile:package`;
-* remove the Netlify mentions in `README.md`, `AGENTS.md`, and `SECURITY.md` if present;
-* delete or archive the Netlify site in the Netlify dashboard (its environment variables contain the old secrets).
+* deleted `netlify.toml`, `.netlify/state.json`, and the `.netlify` lines in `.gitignore`;
+* moved `spam.mjs` and `email.mjs` to `src/workers/api/lib/` and `contact-notification.tsx` to `src/workers/api/emails/`, then deleted `src/netlify/`;
+* deleted `src/packages/site/netlify.jsonc` (`netlify-cli`, `deploy:netlify*`) and `src/scripts/deploy/netlify.ts`, and regenerated `package.json` (this also removed `node-forge`, see [dependency security](../dependency-security.md));
+* removed the transitional Netlify notes in `README.md`, `AGENTS.md`, and the feature and deployment documentation.
+
+Still to do by hand:
+
+* delete the unused GitHub Actions secret `NETLIFY_BUILD_HOOK` (`gh secret delete NETLIFY_BUILD_HOOK`);
+* once production has run on DreamHost + Cloudflare without problems for some time, delete or archive the Netlify site in the Netlify dashboard.
+
+The Netlify site's environment variables contain the old secrets. Deleting it removes the DNS rollback path described in [Rollback](#rollback).
 
 ## Open items
 

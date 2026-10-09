@@ -17,7 +17,6 @@ How samui-samui.de is built and published to DreamHost, Cloudflare, and the API 
 | `npm run cache:warm` | Warms high-value pages (`--url`, `--from-file`, `--sitemap`). |
 | `npm run cache:rules` / `cache:rules:update` | Shows or applies the Cloudflare Cache Rules and the www redirect. |
 | `npm run dev:worker` | Runs the Worker locally with `wrangler dev` (reads secrets from `.env`; the contact form then sends real email). |
-| `npm run deploy:netlify[:production]` | Legacy Netlify deploy, kept only until the cutover is complete ([migration](migration.md)). |
 
 Useful `deploy` flags: `--dry-run` (rsync dry run, nothing activated, purged, or deployed), `--yes` (no confirmation prompt; required in CI), `--skip-checks`, `--skip-build` (deploy the existing `dist/`), `--skip-worker`, `--force-worker`, `--purge=auto|html|urls|everything|none`, `--no-smoke`, `--no-warm`, `--release` (run `npm run release` first when there are commits after the latest tag), and `--adopt-docroot` (first deployment only).
 

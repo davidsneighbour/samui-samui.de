@@ -42,9 +42,12 @@ The same update also aligned the fragments with the manifest. Earlier direct man
 | Package | Advisory and issue | Current limit |
 | --- | --- | --- |
 | `braces` 3.0.3 | [GHSA-vfj7-8cjw-p6xm](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm), [tracking issue](https://github.com/davidsneighbour/samui-samui.de/issues/1743) | No patched release. `micromatch` and wireit's older `chokidar` still depend on this line. |
-| `node-forge` 1.4.0 | [GHSA-86w9-cpqp-85rv](https://github.com/advisories/GHSA-86w9-cpqp-85rv), [tracking issue](https://github.com/davidsneighbour/samui-samui.de/issues/1744) | No patched release; retained through `netlify-cli` → `@netlify/images` → `ipx` → `listhen`. It leaves the tree when `netlify-cli` is removed in the [Netlify clean-up](https://github.com/davidsneighbour/samui-samui.de/issues/1784). |
 
-Both still had no patched release on 9 October 2026 (checked against the GitHub advisory API and the npm registry). These findings remain unresolved. An issue records the follow-up; it does not mean the risk is accepted or mitigated. Fixed local lockfile findings can remain open on GitHub until the committed lockfile reaches the default branch and GitHub refreshes its dependency graph. Do not dismiss those alerts to make the dashboard appear clean.
+It still had no patched release on 9 October 2026 (checked against the GitHub advisory API and the npm registry). This finding remains unresolved. An issue records the follow-up; it does not mean the risk is accepted or mitigated. Fixed local lockfile findings can remain open on GitHub until the committed lockfile reaches the default branch and GitHub refreshes its dependency graph. Do not dismiss those alerts to make the dashboard appear clean.
+
+## Resolved by removal
+
+`node-forge` 1.4.0 ([GHSA-86w9-cpqp-85rv](https://github.com/advisories/GHSA-86w9-cpqp-85rv), [tracking issue](https://github.com/davidsneighbour/samui-samui.de/issues/1744)) had no patched release. It came only through `netlify-cli` → `@netlify/images` → `ipx` → `listhen`, and it left the tree when the [Netlify clean-up](https://github.com/davidsneighbour/samui-samui.de/issues/1784) removed `netlify-cli` (`npm ls node-forge` is empty since 9 October 2026).
 
 ## Validation
 
