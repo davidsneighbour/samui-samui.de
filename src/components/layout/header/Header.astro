@@ -52,6 +52,7 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
               d={detailPath}
             />
             <path
+              id="masthead-word-question"
               class="masthead__word masthead__word--question"
               transform="translate(294.30657 45.46975) scale(1.92645)"
               d={wordmark['samui?']}
@@ -63,12 +64,23 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
             />
           </clipPath>
         </defs>
-        <image
-          href="/assets/header/header-201906.jpg"
-          width="900"
-          height="300"
-          preserveAspectRatio="xMidYMid slice"
-          clip-path="url(#masthead-photo-cutout)"
+        <g clip-path="url(#masthead-photo-cutout)">
+          <image
+            class="masthead__photo"
+            href="/assets/header/header-201906.jpg"
+            width="900"
+            height="300"
+            preserveAspectRatio="xMidYMid slice"
+          />
+          <rect
+            class="masthead__dusk"
+            width="900"
+            height="300"
+          />
+        </g>
+        <use
+          class="masthead__question-veil"
+          href="#masthead-word-question"
         />
       </svg>
     </a>
@@ -255,6 +267,64 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
 
   .masthead__island--detail {
     display: none;
+  }
+
+  /* Hover/focus response: the photo drifts behind the fixed cut-outs like a
+     view through a window, a coral tint warms it towards dusk, and a veil in
+     the page background colour quietens "Samui?" so "Samui!" answers it.
+     Only transform and opacity change, because Safari ignores CSS filter on
+     SVG child elements. The clip sits on the parent group: a clip-path on the
+     transformed image would move with it. The 4% scale leaves 18 × 6 units of
+     overscan, which covers the translate, so no canvas edge ever shows
+     through a letter. */
+  .masthead__photo,
+  .masthead__dusk,
+  .masthead__question-veil {
+    transition:
+      transform 700ms cubic-bezier(0.2, 0, 0, 1),
+      opacity 700ms cubic-bezier(0.2, 0, 0, 1);
+  }
+
+  .masthead__photo {
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+
+  .masthead__dusk {
+    fill: var(--color-primary);
+    mix-blend-mode: multiply;
+    opacity: 0;
+  }
+
+  .masthead__question-veil {
+    fill: var(--color-background);
+    opacity: 0;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .masthead__link:hover .masthead__photo {
+      transform: translate(-8px, -3px) scale(1.04);
+    }
+
+    .masthead__link:hover .masthead__dusk {
+      opacity: 0.55;
+    }
+
+    .masthead__link:hover .masthead__question-veil {
+      opacity: 0.35;
+    }
+  }
+
+  .masthead__link:focus-visible .masthead__photo {
+    transform: translate(-8px, -3px) scale(1.04);
+  }
+
+  .masthead__link:focus-visible .masthead__dusk {
+    opacity: 0.55;
+  }
+
+  .masthead__link:focus-visible .masthead__question-veil {
+    opacity: 0.35;
   }
 
   @media (min-width: 768px) {

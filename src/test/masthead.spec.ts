@@ -22,7 +22,7 @@ for (const width of widths) {
       'href',
       '/assets/header/header-201906.jpg',
     );
-    await expect(artwork.locator('image')).toHaveAttribute(
+    await expect(artwork.locator('g:has(> image)')).toHaveAttribute(
       'clip-path',
       'url(#masthead-photo-cutout)',
     );
