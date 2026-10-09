@@ -12,4 +12,4 @@ Public social destinations are defined in `src/config/social.ts`. Import `SOCIAL
 
 The sound toggle and copyright text share a centred flex row. The toggle wrapper cannot shrink, and the copyright text can wrap on narrow screens. Both remain vertically centred without a separate bottom margin on the toggle.
 
-The footer includes a visible German coastline credit linked to OpenStreetMap copyright information. It identifies the island contour only, rather than attributing the independent lettering or website content to OSM. See [Logo coastline](logo-coastline.md) for the source snapshot and reuse requirements.
+The footer does not repeat the OpenStreetMap coastline credit on every page. The credit lives in the `Kartendaten` section of the Impressum, which the footer links from every page. See [Logo coastline](logo-coastline.md) for the source snapshot, the attribution placement, and reuse requirements.
