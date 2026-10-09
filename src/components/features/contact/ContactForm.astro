@@ -5,6 +5,8 @@ import Input from '@components/ui/input.astro';
 import Label from '@components/ui/label.astro';
 import Textarea from '@components/ui/textarea.astro';
 import {
+  CircleAlert,
+  CircleCheck,
   LoaderCircle,
   MailQuestionMark,
   MessageSquareWarning,
@@ -156,6 +158,14 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
     data-form-status
     hidden
   >
+    <CircleCheck
+      aria-hidden="true"
+      class="form-status-icon form-status-icon--success"
+    />
+    <CircleAlert
+      aria-hidden="true"
+      class="form-status-icon form-status-icon--error"
+    />
     <span data-form-status-text></span>
   </p>
 </form>
@@ -177,6 +187,9 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
   }
 
   [data-form-status] {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
     margin-block-start: 1rem;
     padding: 0.5em 1em;
     border: 1px solid var(--color-border);
@@ -226,12 +239,35 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
     }
   }
 
-  [data-form-status].success {
-    border-color: var(--color-primary);
+  /* Hidden attribute must still win over the flex display above. */
+  [data-form-status][hidden] {
+    display: none;
+  }
+
+  /* Same split as the Notice variants (documentation/components/notices.md):
+     success stays on the plain border token like `note`, error gets the
+     `primary` accent like `warning`. The icon carries the difference as
+     well, so the result is not told by colour alone. */
+  .form-status-icon {
+    display: none;
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-block-start: 0.125rem;
+  }
+
+  [data-form-status].success .form-status-icon--success {
+    display: block;
+    color: var(--color-muted-foreground);
   }
 
   [data-form-status].error {
-    border-left-color: var(--color-link);
+    border-color: color-mix(in oklab, var(--color-primary) 40%, transparent);
+  }
+
+  [data-form-status].error .form-status-icon--error {
+    display: block;
+    color: var(--color-link);
   }
 </style>
 

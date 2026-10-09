@@ -540,6 +540,13 @@ Generated Markdown footnotes use a separate "Fußnoten" section with 32px of spa
   semantic red/yellow/blue palette; `legal`/`warning` variants get
   `border-primary/40` as their only colour differentiator, everything else
   stays on the plain `border` token. `not-prose`, no `box-shadow`.
+* **Contact form status** (`src/components/features/contact/ContactForm.astro`)
+  — follows the Notice split instead of a success/error palette: success
+  keeps the plain `border` token with a Lucide `circle-check` icon in
+  `muted-foreground`; error gets `border-primary/40` with a `circle-alert`
+  icon in `link`. The icon tells the two apart as well, so the result is
+  not shown by colour alone. Both sit on the `muted` surface. No success
+  (green) token exists, and none is added for this.
 
 <!-- markdownlint-disable-next-line title-case-style -->
 ## Do's and don'ts
