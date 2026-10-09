@@ -22,6 +22,10 @@ Previews come from Astro's rendered post HTML (`post.rendered.html`), not from r
 
 Only the homepage lead article renders the full post body and comments. Compact list cards keep the shorter one-block preview length. If rendered post HTML is unavailable, the helper falls back to escaped `summary` frontmatter, then escaped `description` frontmatter.
 
+## Excerpt width on cards without a cover
+
+A compact card without a cover has no media column, so its excerpt would span the full card width (about 848px), which gives lines that are too long to read well. The excerpt column of these cards carries `max-w-(--reading-measure)`, the same 34rem measure as the post reading column (see [Prose reading column](prose-reading-column.md)). The column stays left-aligned so that it starts at the same edge as the title and metadata. Cards with a cover do not get this limit: their excerpt column is at most two-thirds of the row and is already close to the measure.
+
 ## "Weiterlesen" button
 
 Each compact card ends with a "Weiterlesen" button. Its accessible name also includes the post title through a visually hidden suffix (`Weiterlesen<span class="sr-only">: {title}</span>`), so a list of links read out by a screen reader is not a row of identical "Weiterlesen" entries (WCAG 2.4.4). The visible label stays first in the accessible name, so voice-control users can still say "Weiterlesen" (WCAG 2.5.3). Keep the span on the same line as the label: a line break adds a space before the colon.

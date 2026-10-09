@@ -211,7 +211,10 @@ const showTopPagination = showPagination && pageNumber > 1;
                 />
               )}
               <div
-                class="min-w-0 flex-1"
+                class:list={[
+                  'min-w-0 flex-1',
+                  !cover && 'max-w-(--reading-measure)',
+                ]}
                 data-balanced-media-content={cover ? '' : undefined}
               >
                 <div
