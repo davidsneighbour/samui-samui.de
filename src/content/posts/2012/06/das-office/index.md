@@ -11,13 +11,9 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media photo image">
-  <a href="http://www.flickr.com/photos/schreibblogade/7356466416/" title="The Office"><img src="//farm8.staticflickr.com/7219/7356466416_a39ea04ba2_z.jpg" width="620" alt="The Office" /></a></p>
+![The Office](./the-office-7356466416.jpg)
 
-  <p>
-    The Office
-  </p>
-</div>
+The Office
 
 Auf Wunsch einer Einzelnen hier eine Detailansicht meines Urlaubs-Traum-Insel-Freelancer-Offices.
 
@@ -25,6 +21,4 @@ Links der zweite Monitor fürs Notebook (das in der Mitte steht), rechts der Mon
 
 Das sieht teurer aus als es ist, das wahre Kapital sitzt meist auf dem Holzstuhl davor.
 
-([Auf Flickr gibts noch ein paar Notes direkt auf dem Bild][1])
-
- [1]: http://www.flickr.com/photos/schreibblogade/7356466416/
+<!-- grammar-ignore MEINES_NICHT_GENITIV Urlaubs-Traum-Insel-Freelancer-Offices -->

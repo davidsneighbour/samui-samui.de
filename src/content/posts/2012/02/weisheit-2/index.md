@@ -11,10 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media photo image">
-  <a href="http://www.flickr.com/photos/schreibblogade/6771452919/" title="Wisdom by Patrick Kollitsch, on Flickr"><img src="//farm8.staticflickr.com/7146/6771452919_d6bae93a31_z.jpg" width="640" height="480" alt="Wisdom" /></a></p>
+![Wisdom](./wisdom-6771452919.jpg)
 
-  <p>
-    Wisdom
-  </p>
-</div>
+Wisdom

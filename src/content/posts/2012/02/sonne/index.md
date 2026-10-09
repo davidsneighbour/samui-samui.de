@@ -11,10 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media photo image">
-  <a href="http://www.flickr.com/photos/schreibblogade/6771359565/" title="Palms and sun by Patrick Kollitsch, on Flickr"><img src="//farm8.staticflickr.com/7150/6771359565_3b324ae549_z.jpg" width="640" height="480" alt="Palms and sun" /></a></p>
+![Palms and sun](./palms-and-sun-6771359565.jpg)
 
-  <p>
-    Palms and sun
-  </p>
-</div>
+Palms and sun

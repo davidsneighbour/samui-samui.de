@@ -14,10 +14,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a title="New Neighbour by Patrick Kollitsch, on Flickr" href="http://www.flickr.com/photos/schreibblogade/8506448640/"><img alt="New Neighbour" src="//farm9.staticflickr.com/8366/8506448640_5cc574824e_z.jpg" width="640" height="480" /></a><span>New Neighbour</span>
-</div>
+![New Neighbour](./new-neighbour-8506448640.jpg)
+
+New Neighbour
 
 Auflösung zum [Suchbild][1] von gestern.
 
- [1]: https://samui-samui.de/weblog/2013/02/suchbild "Suchbild"
+ [1]: /2013/02/suchbild/ "Suchbild"

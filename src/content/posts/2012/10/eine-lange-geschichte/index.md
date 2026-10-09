@@ -19,8 +19,9 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media photo image flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/8134878035/" title="A long story by Patrick Kollitsch, on Flickr"><img src="//farm9.staticflickr.com/8331/8134878035_cf4d457399_z.jpg" width="640" height="480" alt="A long story" /><span>A long story</a></a></div>
+![A long story](./a-long-story-8134878035.jpg)
+
+A long story
 
   <p>
     Das S ist mal wieder eine Geschichte für sich ;)

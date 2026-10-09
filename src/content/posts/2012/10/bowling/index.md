@@ -21,6 +21,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media photo image flickr">
-  <a title="Bowling by Patrick Kollitsch, on Flickr" href="http://www.flickr.com/photos/schreibblogade/8122348752/"><img src="//farm9.staticflickr.com/8476/8122348752_ccae98caae_z.jpg" alt="Bowling" width="640" height="480" /><span>Bowling</span></a>
-</div>
+![Bowling](./bowling-8122348752.jpg)
+
+Bowling

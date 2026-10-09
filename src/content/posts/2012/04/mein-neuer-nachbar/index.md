@@ -13,20 +13,17 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media photo image">
-  <a href="http://www.flickr.com/photos/schreibblogade/6947282596/" title="My new neighbour by Patrick Kollitsch, on Flickr"><img src="//farm6.staticflickr.com/5464/6947282596_a78ed07b58_z.jpg" alt="My new neighbour" /></a></p>
+![My new neighbour](./my-new-neighbour-6947282596.jpg)
 
-  <p>
-    My new neighbour
-  </p>
-</div>
+My new neighbour
 
-In einem Baum direkt neben meinem Haus hat sich der obige Nachbar eingemistet. Grün, [sehr lang][1], schlangig.
+In einem Baum direkt neben meinem Haus hat sich der obige Nachbar eingemistet. Grün, sehr lang, schlangig.
 
-Hab das kurz bei meiner Hausbesitzerin angesprochen, die plötzlich sehr geschäftig nach dem Gemahl suchte --- meine letzten Schlangenmeldungen wurden noch sehr entspannt abgenickt. Wie auch immer, nach einigem Hin und Her bekam ich folgendes zu hören:
+Hab das kurz bei meiner Hausbesitzerin angesprochen, die plötzlich sehr geschäftig nach dem Gemahl suchte --- meine letzten Schlangenmeldungen wurden noch sehr entspannt abgenickt. Wie auch immer, nach einigem Hin und Her bekam ich Folgendes zu hören:
 
 > Green Snake --- your friend, brown or black snake bad, red snake --- very bad --- you scream!
 
 Ok. Will do.
 
- [1]: http://www.flickr.com/photos/schreibblogade/6947282554
+<!-- grammar-ignore GESCHAEFTIG_GESCHAEFTLICH geschäftig -->
+<!-- cspell:ignore schlangig -->

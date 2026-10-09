@@ -12,6 +12,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/8753800394/" title="At the beach by Patrick Kollitsch, on Flickr"><img src="//farm8.staticflickr.com/7434/8753800394_9eb95b1f1a_z.jpg" width="640" height="480" alt="At the beach" /></a><span>At the beach</span>
-</div>
+![At the beach](./at-the-beach-8753800394.jpg)
+
+At the beach

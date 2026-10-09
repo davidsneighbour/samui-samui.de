@@ -15,8 +15,11 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media photo image flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/8124820647/" title="Clean by Patrick Kollitsch, on Flickr"><img src="//farm9.staticflickr.com/8195/8124820647_0217b34618_z.jpg" width="640" height="480" alt="Clean" /><span>Clean</span></a>
-</div>
+![Clean](./clean-8124820647.jpg)
 
-5 Minuten lang sauber, bezopft und zufrieden mit sich und der Welt. 5 Minuten bis man wieder im Dreck rumschnüffeln kann und all die Arbeit zunichte machen kann. Unbezahlbar.
+Clean
+
+5 Minuten lang sauber, bezopft und zufrieden mit sich und der Welt. 5 Minuten bis man wieder im Dreck rumschnüffeln kann und all die Arbeit zunichtemachen kann. Unbezahlbar.
+
+<!-- grammar-ignore RAN_RUM_RAUF_REIN_RAUS_RUNTER_NEU rumschnüffeln -->
+<!-- cspell:ignore rumschnüffeln -->
