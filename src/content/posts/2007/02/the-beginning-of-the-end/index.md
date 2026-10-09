@@ -9,8 +9,10 @@ publisher:
   seo: true
   covermigration: true
 ---
-<img src="//die.schreibbloga.de/images/222.jpg" width="520" />
+<img src="/wp-content/old-images/222.jpg" width="520" alt="Ein Mann mit verschränkten Armen in einem Tonstudio voller Synthesizer" />
 
 Jaja. [Jahr Null][1]. Kommt gleich nach Neunundneunzig.
 
- [1]: http://yearzero.nin.com/
+ [1]: https://web.archive.org/web/20070219121741/http://yearzero.nin.com/
+
+<!-- grammar-ignore KARDINALZAHLEN Neunundneunzig -->
