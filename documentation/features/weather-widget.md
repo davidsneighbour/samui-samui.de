@@ -284,7 +284,7 @@ This fixed-offset approach only works because Asia/Bangkok never observes DST. A
 
 ## Privacy
 
-No browser geolocation is ever requested, no visitor location is derived or transmitted, and the browser never connects to Open-Meteo directly -- only to this site's own `/api/weather`. No cookies and no tracking are added. Server-side logging in `weather.ts` never includes an IP address, user agent, or any other visitor data, and nothing about the visitor is sent to Open-Meteo. Cloudflare Workers Logs (`observability` in `wrangler.jsonc`) still records an invocation log with request metadata and headers for every `/api/*` call, kept for at most seven days; the privacy policy discloses this in its hosting section.
+No browser geolocation is ever requested, no visitor location is derived or transmitted, and the browser never connects to Open-Meteo directly -- only to this site's own `/api/weather`. No cookies and no tracking are added. Server-side logging in `weather.ts` never includes an IP address, user agent, or any other visitor data, and nothing about the visitor is sent to Open-Meteo. Workers Logs stores only these console messages: invocation logs (request metadata and headers per call) are turned off with `observability.logs.invocation_logs: false` in `wrangler.jsonc`, and the privacy policy relies on that.
 
 Documented in [`src/pages/kleingedrucktes/datenschutzerklaerung.mdx`](../../src/pages/kleingedrucktes/datenschutzerklaerung.mdx) under "Wetterdaten".
 

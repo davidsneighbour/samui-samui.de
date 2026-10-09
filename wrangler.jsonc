@@ -13,8 +13,14 @@
   "compatibility_flags": ["nodejs_compat"],
   "main": "src/workers/api/index.ts",
   "name": "samui-samui-api",
+  // Keep the Worker's own console messages (no visitor data) in Workers Logs,
+  // but do not store an invocation log with request headers for every call.
+  // The privacy policy relies on this; see documentation/hosting/architecture.md.
   "observability": {
-    "enabled": true
+    "enabled": true,
+    "logs": {
+      "invocation_logs": false
+    }
   },
   // No *.workers.dev or preview hostnames: the Worker is only reachable
   // through the route below, so it always shares the site's origin and the
