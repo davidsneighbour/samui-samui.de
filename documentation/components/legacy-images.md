@@ -93,7 +93,7 @@ Defined on the `posts` collection schema in `src/content.config.ts`. `always` fo
 
 ## Remote and unknown-dimension images
 
-Remote sources (`http(s)://`, protocol-relative `//`) are never fetched at build time -- this system doesn't download or mirror remote assets. They always render exactly as before (`standard`), even under an `always` override, since the decorative background can't be generated without local file access. The vast majority of this site's pre-2015 inline images are Flickr/off-site embeds and fall into this category.
+Remote sources (`http(s)://`, protocol-relative `//`) are never fetched at build time -- this system doesn't download or mirror remote assets. They always render exactly as before (`standard`), even under an `always` override, since the decorative background can't be generated without local file access. Since the [Flickr photo restoration](../content/flickr-photo-restoration.md), the former Flickr embeds are local bundled images, so only a few off-site embeds remain in this category.
 
 Local images (root-relative `/wp-content/...`, `/images/...` paths served from `public/`, or Markdown-relative `./file.jpg` paths bundled next to a post) are read with `sharp` at build time. If the file can't be read -- missing on disk, corrupt, unsupported format -- classification silently falls back to `standard` rather than guessing a frame size or breaking the build.
 

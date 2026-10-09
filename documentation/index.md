@@ -25,6 +25,7 @@
 
 * [Content schema](content/content-schema.md) records current Astro content schema import and loose-schema conventions.
 * [Curation frontmatter](content/curation-frontmatter.md) defines the public editorial `curation` frontmatter contract.
+* [Flickr photo restoration](content/flickr-photo-restoration.md) records how the archive photos of the deleted Flickr account were restored from the Flickr data export into the post bundles.
 * [Frontmatter variables](content/frontmatter-variables.md) indexes all supported content frontmatter properties and links to their focused documentation.
 * [German citation dates](content/german-citation-dates.md) documents the staged citation date check and its explicit archive audit.
 * [German orthography and grammar](content/german-orthography-and-grammar.md) documents the house spelling policy, the CSpell, Vale, and LanguageTool checks, their baselines, and the triage rules.
