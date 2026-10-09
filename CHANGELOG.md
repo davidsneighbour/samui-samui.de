@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.1.0](https://github.com/davidsneighbour/samui-samui.de/compare/v3.0.0...v3.1.0) (2026-10-09)
+
+### Feat
+
+* **masthead:** emphasise the answer exclamation ([3c7ca7d](https://github.com/davidsneighbour/samui-samui.de/commit/3c7ca7d5b3e4a158f121403e56a3e43a6439a22e)), closes [#1799](https://github.com/davidsneighbour/samui-samui.de/issues/1799)
+
+### Fix
+
+* **masthead:** double the exclamation enlargement ([cd6f013](https://github.com/davidsneighbour/samui-samui.de/commit/cd6f0139fee98f5d9f4bb72f7b1cd7162bce783f)), references [#1799](https://github.com/davidsneighbour/samui-samui.de/issues/1799)
+
 ## [3.0.0](https://github.com/davidsneighbour/samui-samui.de/compare/v2.19.0...v3.0.0) (2026-10-09)
 
 ### ⚠ BREAKING CHANGES
