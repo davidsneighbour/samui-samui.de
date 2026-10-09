@@ -50,6 +50,8 @@ Each deploy uploads into a new release directory with `rsync --checksum --link-d
 
 Why atomic instead of rsync directly into the web directory: direct `rsync --delete` changes the live directory file by file for the length of the transfer (up to minutes for a template change), deletes old fingerprinted assets that cached HTML still references, and has no rollback. Hard-linked releases remove all three problems at almost no cost. `DREAMHOST_DEPLOY_STRATEGY=direct` is kept as a fallback if DreamHost ever refuses a symlinked web directory. The release mechanics (adopt, hard links, switch, prune, rollback) were tested end-to-end against a Debian container with sshd, rsync 3.5, and Apache 2.4 (`SymLinksIfOwnerMatch`), not yet against DreamHost itself.
 
+DreamHost places a root-owned symlink `.dh-diag -> /dh/web/diag` (its PHP diagnostics) in the web directory. Atomic deploys recreate it in every new release, and direct deploys protect it from `--delete` (`PRESERVED_HOST_ENTRIES` in `src/scripts/deploy/lib/dreamhost.ts`).
+
 Safety rules in the code: `DREAMHOST_PATH` must look like `/home/<user>/<site>/<web-dir>` (absolute, at least four levels, only `[A-Za-z0-9._/-]`, inside the configured user's home); release names must match `YYYYMMDDTHHMMSSZ-<sha>`; only directories with such names are ever removed.
 
 ### First deployment

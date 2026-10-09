@@ -34,7 +34,7 @@ Trailing-slash behaviour is unchanged and verified on Apache 2.4: `/kontakt` →
 
 ## Target
 
-* `samui-samui.de` A record → the DreamHost IP of the site (shown in the DreamHost panel's DNS settings for the domain; menu names in the panel change over time. The SSH server `iad1-shared-e1-08.dreamhost.com` resolves to `173.236.193.42`, but the web IP of the site can differ). **Proxied** (orange cloud). Cache Rules, the Worker route, and the redirect rule only apply to proxied traffic.
+* `samui-samui.de` A record → the DreamHost web IP of the site, `173.236.199.86` (answer of `ns1.dreamhost.com` for `samui-samui.de` and `www` on 2026-10-09; check it again before the switch). This is not the SSH server's IP (`173.236.193.42`). **Proxied** (orange cloud). Cache Rules, the Worker route, and the redirect rule only apply to proxied traffic.
 * `www.samui-samui.de` → proxied (A record to the same IP, or CNAME to `samui-samui.de`). The Cloudflare redirect rule answers it, so it never reaches DreamHost.
 * No AAAA record unless DreamHost provides IPv6 for the site. Remove the Netlify A records.
 * SSL/TLS mode **Full (strict)**: Cloudflare connects to DreamHost over HTTPS and validates the certificate. Never use Flexible: it would send all traffic from Cloudflare to the origin over plain HTTP.
@@ -49,7 +49,7 @@ Full (strict) needs a certificate on DreamHost that is valid for `samui-samui.de
 
 Every step before 7 can be done and verified while Netlify still serves production. No downtime is expected.
 
-1. **DreamHost site.** In the DreamHost panel, make sure `samui-samui.de` is hosted with web directory `/home/samuisamui/samui-samui.de/public`, HTTPS enabled, and no PHP-specific redirects. Add the deploy public key to `~/.ssh/authorized_keys` of `samuisamui` (currently the key in `~/.ssh/id_ed25519` is **rejected**; see [Open items](#open-items)).
+1. **DreamHost site.** In the DreamHost panel, make sure `samui-samui.de` is hosted with web directory `/home/samuisamui/samui-samui.de/public`, HTTPS enabled, and no PHP-specific redirects. SSH access with the local `samuisamui` alias works (checked 2026-10-09).
 2. **Origin certificate.** Install the Cloudflare Origin CA certificate as described above.
 3. **Local configuration.** Fill in `.env` from `.env.example` (DreamHost values, Cloudflare token, account ID, zone ID, Turnstile site key).
 4. **First deploy to the origin** (not live yet): `npm run deploy:site -- --adopt-docroot --purge=none --no-smoke --no-warm`.
@@ -113,6 +113,6 @@ Only after production has run on DreamHost + Cloudflare without problems. Each i
 
 ## Open items
 
-* **SSH access.** On 2026-10-09, DreamHost rejected the key `~/.ssh/id_ed25519` (`SHA256:3E4KMB2y…`) for `samuisamui@iad1-shared-e1-08.dreamhost.com` (`Permission denied (publickey)`). Add the public key in the DreamHost panel or to `~/.ssh/authorized_keys`, or set up a separate deploy key.
 * **Cloudflare token.** None exists yet for this project. Create it as described in [deployment](deployment.md#cloudflare-api-token).
-* **Not verified on DreamHost itself:** symlinked web directory, `mod_headers` expression support (verified on Apache 2.4.69), rsync availability, and disk quota for releases.
+* **Checked on DreamHost (2026-10-09, read-only):** the server runs Apache; `rsync` 3.2.7, GNU `find` 4.9, and GNU `mv` 9.4 (`mv -T`) are installed. The web directory `public/` contains only DreamHost's placeholders: two empty favicons and a root-owned symlink `.dh-diag -> /dh/web/diag` (DreamHost's PHP diagnostics). The deploy scripts keep `.dh-diag` in both strategies. HTTPS on the origin currently serves DreamHost's default `sni.dreamhost.com` certificate, so **Full (strict) fails until the Origin CA certificate is installed**.
+* **Still not verified on DreamHost:** whether Apache serves a symlinked web directory (the first `--adopt-docroot` deploy shows this; use `DREAMHOST_DEPLOY_STRATEGY=direct` if it does not), the Apache version and `mod_headers` expression support (verified on Apache 2.4.69 locally), and the disk quota for releases.

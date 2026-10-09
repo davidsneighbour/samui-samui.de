@@ -148,8 +148,15 @@ export interface UploadResult {
   transferred: number;
 }
 
+// Entries DreamHost places in the web directory itself. `.dh-diag` is a
+// root-owned symlink to DreamHost's PHP diagnostics (/dh/web/diag), used by
+// their panel and support. It is not part of dist/, so deploys must keep it
+// instead of deleting it (direct) or leaving it behind (atomic).
+export const PRESERVED_HOST_ENTRIES = ['.dh-diag'];
+
 function rsyncArgs(config: DreamhostConfig, dryRun: boolean): string[] {
   return [
+    ...PRESERVED_HOST_ENTRIES.map((entry) => `--filter=P /${entry}`),
     '--archive',
     '--compress',
     // Astro rewrites every file's mtime on each build; compare content, not
@@ -199,6 +206,10 @@ export async function uploadRelease(
     },
   );
 
+  if (!dryRun && previous) {
+    await carryOverHostEntries(config, previous, release);
+  }
+
   const previousFiles = previous
     ? await listRemoteFiles(config, `${config.releasesDir}/${previous}`)
     : [];
@@ -213,6 +224,23 @@ export async function uploadRelease(
     },
     transferred: changed.length,
   };
+}
+
+/** Recreates DreamHost's own symlinks (PRESERVED_HOST_ENTRIES) in a new release. */
+async function carryOverHostEntries(
+  config: DreamhostConfig,
+  previous: string,
+  release: string,
+): Promise<void> {
+  const from = `${config.releasesDir}/${previous}`;
+  const to = `${config.releasesDir}/${release}`;
+  await ssh(
+    config,
+    PRESERVED_HOST_ENTRIES.map(
+      (entry) =>
+        `if [ -L '${from}/${entry}' ] && [ ! -e '${to}/${entry}' ]; then ln -s "$(readlink '${from}/${entry}')" '${to}/${entry}'; fi`,
+    ).join('\n'),
+  );
 }
 
 export async function verifyRelease(
