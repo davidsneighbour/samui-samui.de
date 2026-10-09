@@ -39,9 +39,24 @@ for (const width of widths) {
     const metrics = await artwork.evaluate((node) => {
       const paths = [
         ...node.querySelectorAll<SVGPathElement>('clipPath path'),
-      ].filter((path) => getComputedStyle(path).display !== 'none');
+      ].filter(
+        (path) =>
+          getComputedStyle(path).display !== 'none' &&
+          !path.classList.contains('masthead__exclamation'),
+      );
       const boxes = paths.map((path) => {
         const box = path.getBBox();
+        if (path.classList.contains('masthead__word--answer')) {
+          const punctuation = node
+            .querySelector<SVGPathElement>('.masthead__exclamation')!
+            .getBBox();
+          box.width =
+            Math.max(box.x + box.width, punctuation.x + punctuation.width) -
+            box.x;
+          box.height =
+            Math.max(box.y + box.height, punctuation.y + punctuation.height) -
+            box.y;
+        }
         const screenMatrix = path.getScreenCTM();
         const rootMatrix = (node as SVGSVGElement).getScreenCTM();
         const matrix =
@@ -62,7 +77,13 @@ for (const width of widths) {
         };
       });
       const dots = paths.slice(1).map((path) => {
-        const contours = (path.getAttribute('d') ?? '')
+        const contours = (
+          path.classList.contains('masthead__word--answer')
+            ? (node
+                .querySelector('.masthead__exclamation')!
+                .getAttribute('d') ?? '')
+            : (path.getAttribute('d') ?? '')
+        )
           .split(/(?=M)/)
           .slice(-2);
         const probe = document.createElementNS(
@@ -161,4 +182,51 @@ test('the site name exists as link text in the initial HTML without JavaScript',
   } finally {
     await context.close();
   }
+});
+
+test('only the answer exclamation grows on hover and keyboard focus', async ({
+  page,
+}) => {
+  await page.goto('/tests/masthead-frame');
+  const punctuation = page.locator('.masthead__exclamation');
+  const dimensions = () =>
+    punctuation.evaluate((element) => {
+      const path = element as SVGPathElement;
+      const box = path.getBBox();
+      const matrix = path.getScreenCTM()!;
+      const centre = new DOMPoint(
+        box.x + box.width / 2,
+        box.y + box.height / 2,
+      ).matrixTransform(matrix);
+      return {
+        height: box.height * matrix.d,
+        width: box.width * matrix.a,
+        x: centre.x,
+        y: centre.y,
+      };
+    });
+  const before = await dimensions();
+  const letters = await page
+    .locator('.masthead__word--answer')
+    .getAttribute('transform');
+  await page.locator('.masthead__link').hover();
+  await expect
+    .poll(async () => (await dimensions()).height / before.height)
+    .toBeCloseTo(1.06, 2);
+  const after = await dimensions();
+  expect(after.x).toBeCloseTo(before.x, 1);
+  expect(after.y).toBeCloseTo(before.y, 1);
+  await expect(page.locator('.masthead__word--answer')).toHaveAttribute(
+    'transform',
+    letters!,
+  );
+  await page.mouse.move(0, 0);
+  await page.locator('.masthead__link').focus();
+  await expect
+    .poll(async () => (await dimensions()).height / before.height)
+    .toBeCloseTo(1.06, 2);
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await expect
+    .poll(async () => (await dimensions()).height / before.height)
+    .toBeCloseTo(1, 2);
 });

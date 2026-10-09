@@ -9,6 +9,10 @@ import ThemeToggle from '@components/layout/header/ThemeToggle.astro';
 import setup from '@data/setup.json';
 import { AtSign, Birdhouse, CircleQuestionMark, Landmark } from '@lucide/astro';
 
+const answerContours = wordmark['samui!'].split(/(?=M)/);
+const answerLetters = answerContours.slice(0, -2).join('');
+const answerExclamation = answerContours.slice(-2).join('');
+
 const navLinkClass =
   'px-1.5 py-1 text-foreground/85 hover:text-primary sm:px-2';
 const symbolPath = / d="([^"]+)"/.exec(symbolSvg)?.[1];
@@ -60,7 +64,12 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
             <path
               class="masthead__word masthead__word--answer"
               transform="translate(294.24 171.46975) scale(2)"
-              d={wordmark['samui!']}
+              d={answerLetters}
+            />
+            <path
+              class="masthead__exclamation"
+              transform="translate(294.24 171.46975) scale(2)"
+              d={answerExclamation}
             />
           </clipPath>
         </defs>
@@ -285,6 +294,18 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
       opacity 700ms cubic-bezier(0.2, 0, 0, 1);
   }
 
+  .masthead__exclamation {
+    /* Keep the positioned glyph centre fixed while scaling its outline. */
+    transform: translate(737.13293px, 219.08187px) scale(2)
+      translate(-221.44646px, -23.80606px);
+    transition: transform 700ms cubic-bezier(0.2, 0, 0, 1);
+  }
+
+  .masthead__link:focus-visible .masthead__exclamation {
+    transform: translate(737.13293px, 219.08187px) scale(2.12)
+      translate(-221.44646px, -23.80606px);
+  }
+
   .masthead__photo {
     transform-box: fill-box;
     transform-origin: center;
@@ -302,6 +323,11 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
   }
 
   @media (hover: hover) and (pointer: fine) {
+    .masthead__link:hover .masthead__exclamation {
+      transform: translate(737.13293px, 219.08187px) scale(2.12)
+        translate(-221.44646px, -23.80606px);
+    }
+
     .masthead__link:hover .masthead__photo {
       transform: translate(-8px, -3px) scale(1.04);
     }
@@ -325,6 +351,14 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
 
   .masthead__link:focus-visible .masthead__question-veil {
     opacity: 0.35;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .masthead__link:focus-visible .masthead__exclamation,
+    .masthead__link:hover .masthead__exclamation {
+      transform: translate(737.13293px, 219.08187px) scale(2)
+        translate(-221.44646px, -23.80606px);
+    }
   }
 
   @media (min-width: 768px) {
