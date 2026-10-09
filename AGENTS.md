@@ -8,8 +8,11 @@ a documented reason, MAY is optional.
 
 ## Current phase
 
-This repository is an Astro static site (`output: 'static'`), deployed to Netlify
-at [https://samui-samui.de](https://samui-samui.de).
+This repository is an Astro static site (`output: 'static'`) at
+[https://samui-samui.de](https://samui-samui.de), served from a DreamHost static
+origin behind the Cloudflare cache, with a Cloudflare Worker for `/api/*`
+(production moves from Netlify to this setup with the cutover in
+[`documentation/hosting/migration.md`](documentation/hosting/migration.md)).
 
 * Live site is the reference for expected behavior — when a change's effect is
   unclear from reading code alone, agents SHOULD compare local output against the
@@ -454,12 +457,37 @@ for the full schema and architecture. Agents editing or extending it MUST:
 * Keep all visitor-facing text (titles, descriptions, control labels, error
   messages) in German, matching the rest of the site's content language.
 
-### Deployment
+### Hosting and deployment
 
-Netlify, configured via `netlify.toml`: build command, functions directory
-(`src/netlify/functions/contact.mjs` for the contact form), security headers, and a
-resource-audited Content-Security-Policy covering Matomo, Giscus, YouTube/Vimeo
-embeds, Cloudflare Turnstile, and Pagefind's WASM search index.
+Read [`documentation/hosting/architecture.md`](documentation/hosting/architecture.md)
+before changing anything about hosting, caching, headers, redirects, or the API.
+In short: DreamHost serves the static `dist/` (no code runs there), Cloudflare
+caches HTML and assets in front of it, and the Worker `samui-samui-api`
+(`wrangler.jsonc`, `src/workers/api/`) answers `/api/*` (contact form via
+Turnstile + Resend, weather proxy). `npm run deploy` builds once, uploads an
+atomic release with rsync, deploys the Worker only when it changed, purges the
+Cloudflare cache, and runs smoke tests
+([`documentation/hosting/deployment.md`](documentation/hosting/deployment.md)).
+
+* Security headers (the resource-audited Content-Security-Policy covering Matomo,
+  Giscus, YouTube/Vimeo embeds, Cloudflare Turnstile, Pagefind's WASM index, and
+  OpenFreeMap), historical 301 redirects, and all cache lifetimes live in
+  `public/.htaccess`. Historical redirects MUST NOT be removed without review;
+  this is a twenty-year-old URL structure.
+* HTML MUST build deterministically: do not emit random ids, build timestamps,
+  or other per-build values into pages. Selective cache purging compares file
+  checksums between releases, and one random id in a shared component turns
+  every deploy into a full purge
+  ([`documentation/hosting/caching.md`](documentation/hosting/caching.md#deterministic-builds)).
+* New dynamic endpoints belong in the Worker under `/api/*`, not in a separate
+  service and not as server-side rendering. Secrets are Worker secrets
+  (`npx wrangler secret put`) or entries in the git-ignored `.env`; never commit
+  them.
+* Cloudflare Cache Rules and the www redirect are code in
+  `src/scripts/deploy/cache-rules.ts`; change them there, not only in the
+  dashboard.
+* `netlify.toml`, `src/netlify/`, and `npm run deploy:netlify*` exist only until
+  the cutover is complete; do not extend them.
 
 ### Analytics
 
