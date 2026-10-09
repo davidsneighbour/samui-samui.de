@@ -34,6 +34,21 @@ export function isReleaseName(name: string): boolean {
   return RELEASE_PATTERN.test(name);
 }
 
+/** Upload time encoded in a release name (UTC), or null for unexpected names. */
+export function releaseDate(name: string): Date | null {
+  const match = /^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z/.exec(name);
+  if (!match || !isReleaseName(name)) {
+    return null;
+  }
+  const [, year, month, day, hour, minute, second] = match;
+  return new Date(`${year}-${month}-${day}T${hour}:${minute}:${second}Z`);
+}
+
+/** Git commit encoded in a release name ("0000000" for an adopted web directory). */
+export function releaseCommit(name: string): string | null {
+  return /^\d{8}T\d{6}Z-([0-9a-f]{7,40})/.exec(name)?.[1] ?? null;
+}
+
 export function releaseName(
   date: Date,
   gitSha: string,
@@ -158,6 +173,14 @@ function rsyncArgs(config: DreamhostConfig, dryRun: boolean): string[] {
   return [
     ...PRESERVED_HOST_ENTRIES.map((entry) => `--filter=P /${entry}`),
     '--archive',
+    // Do not keep build mtimes. Astro gives every file a new mtime on each
+    // build, and --link-dest only hard-links files whose preserved
+    // attributes (including mtime) match, so keeping times made every
+    // release a full 600 MB copy. Unchanged files now keep the previous
+    // release's mtime (stable Last-Modified/ETag); changed files get the
+    // upload time.
+    '--no-times',
+    '--omit-dir-times',
     '--compress',
     // Astro rewrites every file's mtime on each build; compare content, not
     // timestamps, so unchanged files are recognised (and hard-linked).
@@ -300,6 +323,18 @@ export async function removeRelease(
     throw new Error(`Refusing to remove unexpected release name "${release}".`);
   }
   await ssh(config, `rm -rf -- '${config.releasesDir}/${release}'`);
+}
+
+/** Disk use of the whole releases directory (hard links counted once). */
+export async function releasesDiskUsage(
+  config: DreamhostConfig,
+): Promise<string> {
+  const output = await ssh(
+    config,
+    `du -sh '${config.releasesDir}' 2>/dev/null | cut -f1`,
+    true,
+  );
+  return output.trim() || 'unknown';
 }
 
 /** Keeps the newest `keepReleases` releases plus the live one. */

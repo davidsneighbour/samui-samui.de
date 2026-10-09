@@ -1,11 +1,17 @@
 import { describe, expect, it } from 'vitest';
 import { validateDocroot } from '../scripts/deploy/lib/config.ts';
-import { isReleaseName, releaseName } from '../scripts/deploy/lib/dreamhost.ts';
+import {
+  isReleaseName,
+  releaseCommit,
+  releaseDate,
+  releaseName,
+} from '../scripts/deploy/lib/dreamhost.ts';
 import {
   fileToUrlPath,
   isImmutableAsset,
   planPurge,
 } from '../scripts/deploy/lib/purge-plan.ts';
+import { parseSelection } from '../scripts/deploy/lib/release-selection.ts';
 
 const SITE = 'https://samui-samui.de';
 
@@ -156,5 +162,48 @@ describe('planPurge', () => {
       planPurge({ added: [], changed: [], deleted: [] }, { siteUrl: SITE })
         .mode,
     ).toBe('none');
+  });
+});
+
+describe('release metadata', () => {
+  it('reads the upload time and commit from a release name', () => {
+    expect(releaseDate('20261009T095741Z-1f0089b')?.toISOString()).toBe(
+      '2026-10-09T09:57:41.000Z',
+    );
+    expect(releaseCommit('20261009T095741Z-1f0089b-dirty')).toBe('1f0089b');
+    expect(releaseDate('not-a-release')).toBeNull();
+  });
+});
+
+describe('parseSelection', () => {
+  // Five releases, number 1 is live.
+  it('selects every release except the live one for "a"', () => {
+    expect(parseSelection('a', 5, 1)).toEqual({
+      indexes: [2, 3, 4, 5],
+      kind: 'indexes',
+    });
+  });
+
+  it('accepts lists and ranges', () => {
+    expect(parseSelection('2, 4 3-5', 5, 1)).toEqual({
+      indexes: [2, 3, 4, 5],
+      kind: 'indexes',
+    });
+  });
+
+  it('never selects the live release', () => {
+    expect(parseSelection('1-3', 5, 1).kind).toBe('invalid');
+    expect(parseSelection('1', 5, 1).kind).toBe('invalid');
+  });
+
+  it('rejects numbers outside the list and nonsense', () => {
+    expect(parseSelection('6', 5, 1).kind).toBe('invalid');
+    expect(parseSelection('x', 5, 1).kind).toBe('invalid');
+    expect(parseSelection('4-2', 5, 1).kind).toBe('invalid');
+  });
+
+  it('treats Enter and "q" as no selection', () => {
+    expect(parseSelection('', 5, 1)).toEqual({ kind: 'none' });
+    expect(parseSelection('q', 5, 1)).toEqual({ kind: 'none' });
   });
 });

@@ -9,6 +9,7 @@ How samui-samui.de is built and published to DreamHost, Cloudflare, and the API 
 | `npm run deploy` | Full deploy: checks, build, validate `dist/`, upload to DreamHost, Worker (only if changed), cache purge, smoke tests, warming, report. |
 | `npm run deploy:site` | Same without the Worker step. |
 | `npm run deploy:worker` | Deploys only the `/api/*` Worker, and only if its bundle or `wrangler.jsonc` changed (`--force` to deploy anyway). |
+| `npm run deploy:releases` | Lists release directories on DreamHost (date, commit, live, rollback target) and deletes all non-live or selected ones ([managing releases](#managing-releases)). |
 | `npm run deploy:site:rollback` | Switches the live site back to the previous release and purges `html` + `static` (`--list`, `--to=<release>`, `--no-purge`). |
 | `npm run test:smoke` | Smoke tests against the live site (`--base-url=…`, `--no-cloudflare`, `--no-worker`). |
 | `npm run cache:purge` | Manual purge, see [caching](caching.md#manual-invalidation). |
@@ -53,6 +54,19 @@ Why atomic instead of rsync directly into the web directory: direct `rsync --del
 DreamHost places a root-owned symlink `.dh-diag -> /dh/web/diag` (its PHP diagnostics) in the web directory. Atomic deploys recreate it in every new release, and direct deploys protect it from `--delete` (`PRESERVED_HOST_ENTRIES` in `src/scripts/deploy/lib/dreamhost.ts`).
 
 Safety rules in the code: `DREAMHOST_PATH` must look like `/home/<user>/<site>/<web-dir>` (absolute, at least four levels, only `[A-Za-z0-9._/-]`, inside the configured user's home); release names must match `YYYYMMDDTHHMMSSZ-<sha>`; only directories with such names are ever removed.
+
+Uploads use `--checksum` and `--no-times`: rsync decides by content, and unchanged files keep their previous modification time. File times must not be preserved. `--link-dest` only hard-links a file when all preserved attributes match, and every Astro build gives every file a new modification time, so preserving times turned each release into a full copy (about 600 MB each on DreamHost before this was fixed on 2026-10-09).
+
+### Managing releases
+
+```bash
+npm run deploy:releases                                   # list, then choose interactively
+npm run deploy:releases -- --list                         # list only
+npm run deploy:releases -- --delete-inactive --yes        # delete everything except the live release
+npm run deploy:releases -- --delete=20261009T092222Z-a236e80 --yes
+```
+
+The list shows each release newest first, with the upload time (local time zone), the git commit, and markers for the **LIVE** release, the **rollback target** (the release `deploy:site:rollback` would switch to), the adopted original web directory, and builds with uncommitted changes. It also shows the disk use of the whole releases directory, with hard links counted once. In the interactive prompt, answer `a` for every release except the live one, numbers or ranges such as `2,4` or `3-5`, or press Enter to delete nothing. The live release can never be deleted. Deleting the rollback target prints a warning, because rollback then has no previous release. Deploys already prune automatically to the newest `DREAMHOST_KEEP_RELEASES`; this command is for cleaning up by hand.
 
 ### First deployment
 

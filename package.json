@@ -113,6 +113,7 @@
     "deploy": "node ./src/scripts/deploy/deploy.ts",
     "deploy:netlify": "node ./src/scripts/deploy/netlify.ts",
     "deploy:netlify:production": "node ./src/scripts/deploy/netlify.ts --production",
+    "deploy:releases": "node ./src/scripts/deploy/releases.ts",
     "deploy:site": "node ./src/scripts/deploy/deploy.ts --skip-worker",
     "deploy:site:rollback": "node ./src/scripts/deploy/rollback.ts",
     "deploy:worker": "node ./src/scripts/deploy/worker.ts",
