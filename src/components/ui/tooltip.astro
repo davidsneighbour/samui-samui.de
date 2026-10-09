@@ -1,6 +1,7 @@
 ---
 import { cn } from '@utils/cn';
 import { TOOLTIP_CONTROLLER_SCRIPT } from '@utils/tooltip/controller';
+import { stableTooltipId } from '@utils/tooltip/stable-id';
 
 interface Props {
   content: string;
@@ -17,9 +18,14 @@ interface Props {
   placement?: 'top' | 'bottom' | undefined;
 }
 
+// The default id is derived from the tooltip text (not random) so an
+// unchanged page builds to identical HTML. Deploys compare checksums to
+// decide which pages to purge from the Cloudflare cache; a random id would
+// make every page with a tooltip look changed on every build
+// (documentation/hosting/caching.md#deterministic-builds).
 const {
   content,
-  id = `tooltip-${crypto.randomUUID()}`,
+  id = stableTooltipId(Astro.locals, `${content}|${Astro.props.label ?? ''}`),
   label = content,
   class: className,
   triggerClass,
