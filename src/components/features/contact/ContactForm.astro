@@ -15,7 +15,7 @@ import { cn } from '@utils/cn';
 
 // Read at build/render time only; the site key is meant to be public and is
 // rendered into the cf-turnstile widget below. The secret never leaves the
-// Netlify Function (see src/netlify/functions/contact.mjs).
+// Cloudflare Worker that handles /api/contact (see src/workers/api/contact.ts).
 const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
 ---
 
@@ -35,7 +35,7 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
 
 <form
   method="POST"
-  action="/.netlify/functions/contact"
+  action="/api/contact"
   data-contact-form
 >
   <p hidden>

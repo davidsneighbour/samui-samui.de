@@ -1,6 +1,6 @@
 // Central configuration for the compact Koh Samui weather widget (see
 // documentation/features/weather-widget.md). Every tunable constant used by
-// the Netlify proxy, the summary generator, and the client controller lives
+// the API proxy, the summary generator, and the client controller lives
 // here so a later provider swap or a bigger weather page can reuse the exact
 // same numbers instead of redefining them.
 
@@ -31,15 +31,16 @@ export const WEATHER_LOCATION: WeatherLocation = {
 // instead.
 export const WEATHER_LOCATION_UTC_OFFSET = '+07:00';
 
-// Same-origin route the browser is allowed to call. The Netlify redirect in
-// netlify.toml rewrites this to the actual function at
-// /.netlify/functions/weather so the browser never talks to Open-Meteo or
-// exposes the function's implementation path.
+// Same-origin route the browser is allowed to call. The Cloudflare Worker
+// route samui-samui.de/api/* (wrangler.jsonc, src/workers/api/weather.ts)
+// answers it, so the browser never talks to Open-Meteo directly.
 export const WEATHER_ENDPOINT_PATH = '/api/weather';
 
-// Upper bound on how often the Netlify function is allowed to refresh from
-// Open-Meteo for this location -- enforced via shared CDN cache headers, not
-// a module-level in-memory cache (see src/netlify/functions/weather.ts).
+// Upper bound on how often the Worker is allowed to refresh from Open-Meteo
+// for this location (per Cloudflare data centre) -- enforced via the Workers
+// Cache API, not a module-level in-memory cache (see
+// src/workers/api/weather.ts). The stale value is the fallback window used
+// when Open-Meteo is unavailable.
 export const WEATHER_CDN_CACHE_SECONDS = 2 * 60 * 60;
 export const WEATHER_CDN_STALE_WHILE_REVALIDATE_SECONDS = 24 * 60 * 60;
 export const OPEN_METEO_REQUEST_TIMEOUT_MILLISECONDS = 8000;
@@ -57,7 +58,7 @@ export const WEATHER_FORECAST_RULES = {
 
 export type WeatherForecastRules = typeof WEATHER_FORECAST_RULES;
 
-// Second cache layer in the browser, on top of the Netlify shared CDN cache.
+// Second cache layer in the browser, on top of the Worker's shared cache.
 // Keyed by schema version + location id so a future location or response
 // shape change can't be misread as a still-fresh entry for the old shape.
 export const WEATHER_BROWSER_CACHE_SCHEMA_VERSION = 1;

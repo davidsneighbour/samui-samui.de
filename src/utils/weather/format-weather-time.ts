@@ -9,7 +9,7 @@
 // with no UTC offset suffix. Handing that straight to `new Date(...)` is a
 // bug: per the ECMA-262 Date Time String Format, an offset-less date-time
 // string is parsed as local time *in the runtime executing the code* --
-// which on a Netlify function is UTC, and in a visitor's browser is
+// which on the Cloudflare Worker is UTC, and in a visitor's browser is
 // whatever timezone they're in. Either way it is very unlikely to be
 // Bangkok, so every weather timestamp must go through
 // `parseWeatherTimestamp` below instead of a bare `new Date(string)`.

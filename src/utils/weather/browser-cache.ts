@@ -1,5 +1,5 @@
-// Second cache layer, in the visitor's browser, on top of the Netlify
-// shared CDN cache -- see documentation/features/weather-widget.md#browser-cache
+// Second cache layer, in the visitor's browser, on top of the Worker's
+// shared Cache API copy -- see documentation/features/weather-widget.md#browser-cache
 // for the freshness policy this implements. `localStorage` access is always
 // wrapped: private browsing, quota limits, or a locked-down browser profile
 // can all make it throw or be unavailable, and the widget must keep working

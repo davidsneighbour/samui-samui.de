@@ -1,0 +1,21 @@
+{
+  // Cloudflare Worker for /api/* and the DreamHost + Cloudflare deployment
+  // tooling. See documentation/hosting/architecture.md.
+  "devDependencies": {
+    "wrangler": "4.149.0"
+  },
+  "scripts": {
+    "cache:purge": "node ./src/scripts/deploy/cache-purge.ts",
+    "cache:rules": "node ./src/scripts/deploy/cache-rules.ts",
+    "cache:rules:update": "node ./src/scripts/deploy/cache-rules.ts --apply",
+    "cache:status": "node ./src/scripts/deploy/cache-status.ts",
+    "cache:warm": "node ./src/scripts/deploy/cache-warm.ts",
+    "deploy": "node ./src/scripts/deploy/deploy.ts",
+    "deploy:site": "node ./src/scripts/deploy/deploy.ts --skip-worker",
+    "deploy:site:rollback": "node ./src/scripts/deploy/rollback.ts",
+    "deploy:worker": "node ./src/scripts/deploy/worker.ts",
+    "dev:worker": "wrangler dev",
+    "test:smoke": "node ./src/scripts/deploy/smoke.ts",
+    "validate:worker": "wrangler types src/workers/api/worker-configuration.d.ts --check && tsc --project src/workers/api/tsconfig.json"
+  }
+}

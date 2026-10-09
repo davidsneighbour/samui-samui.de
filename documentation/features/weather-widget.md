@@ -13,21 +13,22 @@ Wetterdaten: Open-Meteo · zusammengefasst · Lizenz CC BY 4.0
 ## Architecture
 
 ```text
-Browser                Netlify edge/CDN         Netlify Function          Open-Meteo
---------                -----------------         ----------------          ----------
+Browser                Cloudflare edge           API Worker                Open-Meteo
+--------               ---------------           ----------                ----------
 <dnb-weather-widget>
   IntersectionObserver
   localStorage cache
         |
         | fetch /api/weather
         v
-                        rewrite (netlify.toml)
-                        /api/weather ->
-                        /.netlify/functions/weather
+                       Worker route
+                       samui-samui.de/api/*
+                       (never reaches DreamHost)
                                 |
-                                | cache miss/expired
                                 v
                                                   weather.ts
+                                                  - Cache API "fresh" (2h) hit?
+                                                    -> return it
                                                   - builds Open-Meteo URL
                                                   - AbortController timeout
                                                   - validates HTTP status
@@ -37,15 +38,15 @@ Browser                Netlify edge/CDN         Netlify Function          Open-M
                                                           v
                                                                             Open-Meteo
                                                                             forecast API
-                                <-------------------------------------------
-                        <-- Netlify-CDN-Cache-Control:
-                            s-maxage=7200 (2h)
-        <-- WeatherSnapshot JSON
+                                                  <-------------------------
+                                                  stores "fresh" (2h) and
+                                                  "stale" (24h) copies
+        <-- WeatherSnapshot JSON (Cache-Control: public, max-age=0, must-revalidate)
 ```
 
 Four separate layers, matching `src/utils/weather/` and `src/components/features/weather/`:
 
-1. **Provider integration** -- `src/netlify/functions/weather.ts` builds the Open-Meteo request URL and fetches it. Provider-specific knowledge stops here.
+1. **Provider integration** -- `src/workers/api/weather.ts` builds the Open-Meteo request URL and fetches it. Provider-specific knowledge stops here.
 2. **Internal model** -- `src/utils/weather/types.ts` (`WeatherSnapshot`, `WeatherForecastHour`) and `src/utils/weather/normalise-open-meteo.ts` (raw response -> internal model, with validation). Everything downstream only ever sees this shape.
 3. **Interpretation** -- `src/utils/weather/summarise-weather.ts` (German summary) and `src/utils/weather/weather-codes.ts` (WMO code -> category / label / icon).
 4. **Presentation** -- `src/components/features/weather/WeatherWidget.astro` (markup, server-rendered but inert) and `src/components/features/weather/WeatherWidgetClient.ts` (lazy-load lifecycle, fetch, cache, DOM updates).
@@ -56,7 +57,7 @@ A provider swap should only ever touch layer 1 (and, if the new provider uses a 
 
 Open-Meteo was chosen as the initial provider because it needs no API key or account for non-commercial use, has a generous free tier for a single low -traffic location refreshed at most every two hours, and returns the WMO weather-interpretation-code table this widget's summary rules are built around. Its licence (CC BY 4.0) requires visible attribution, which the widget provides (see "Attribution and licence" below).
 
-**Constraint:** the free Open-Meteo endpoint has no account-based usage dashboard for this website and is rate-limited through Open-Meteo's own infrastructure, not an API key issued to this site. There is nothing to monitor on Open-Meteo's side; the only thing bounding upstream call volume is *our* architecture -- specifically the Netlify shared CDN cache described below, which caps requests to roughly one per two hours regardless of how much visitor traffic the site gets. If that cache is ever removed or misconfigured, upstream call volume would scale with visitor traffic instead of staying flat.
+**Constraint:** the free Open-Meteo endpoint has no account-based usage dashboard for this website and is rate-limited through Open-Meteo's own infrastructure, not an API key issued to this site. There is nothing to monitor on Open-Meteo's side; the only thing bounding upstream call volume is *our* architecture -- specifically the Worker's Cache API copy described below, which caps requests to roughly one per two hours per Cloudflare data centre that serves visitors, regardless of how much visitor traffic the site gets. If that cache is ever removed or misconfigured, upstream call volume would scale with visitor traffic instead of staying flat.
 
 ## Fixed location
 
@@ -88,7 +89,7 @@ Requested via `GET https://api.open-meteo.com/v1/forecast`:
 | `forecast_days` | `2` |
 | `cell_selection` | `land` |
 
-Built in `src/netlify/functions/weather.ts`'s `buildUpstreamUrl()`.
+Built in `src/workers/api/weather.ts`'s `buildUpstreamUrl()`.
 
 ## Raw provider format
 
@@ -199,31 +200,35 @@ export const WEATHER_FORECAST_RULES = {
 
 All five numbers above are the single place to retune sensitivity; see `src/test/weather-summarise.test.ts` for the boundary behaviour at 39/40/59/60%.
 
-## Netlify proxy architecture
+<!-- markdownlint-disable-next-line dnb-title-case-style -->
+## API Worker architecture
 
-The browser only ever calls the same-origin `/api/weather`. `netlify.toml` rewrites that (status `200`, not a redirect) to `/.netlify/functions/weather`, so the browser never sees the function's implementation path and never connects to Open-Meteo directly.
+The browser only ever calls the same-origin `/api/weather`. The Cloudflare Worker route `samui-samui.de/api/*` (configured in `wrangler.jsonc`) sends that request to the `samui-samui-api` Worker, so the browser never connects to Open-Meteo directly and the request never reaches the static DreamHost origin. See [Hosting architecture](../hosting/architecture.md) for how the Worker fits next to the cached static site.
 
-`src/netlify/functions/weather.ts`:
+`src/workers/api/weather.ts`:
 
 * builds the upstream URL and fetches it with an `AbortController` timeout (`OPEN_METEO_REQUEST_TIMEOUT_MILLISECONDS`, 8s);
 * returns a stable `{ error: { code, message } }` JSON body with an appropriate status for every failure mode (network/timeout -> 504, HTTP 429 -> 429, other non-2xx -> 502, invalid JSON -> 502, failed validation -> 502) -- the visitor-facing `message` is always the same generic German sentence; no stack trace or upstream body ever reaches the browser;
-* logs a concise, non-personal diagnostic (`console.error`/`console.warn`) distinguishing upstream failures from validation failures -- no IP address, user agent, or other visitor data is logged, since none is collected for this endpoint in the first place;
-* on success, returns the `WeatherSnapshot` JSON with the cache headers described next.
+* logs a concise, non-personal diagnostic (`console.error`/`console.warn`, visible in Workers Logs) distinguishing upstream failures from validation failures -- no IP address, user agent, or other visitor data is logged;
+* on success, returns the `WeatherSnapshot` JSON with the cache behaviour described next.
 
-Relative imports (`../../config/weather`, `../../utils/weather/...`) are used deliberately instead of the `@config`/`@utils` tsconfig path aliases -- this file is bundled standalone by Netlify's function bundler, separately from the Astro/Vite build that resolves those aliases for the rest of the app, and a two-directory relative import removes any doubt about whether that bundling step also honours `tsconfig.json` `paths`.
+The Worker imports `src/config/weather.ts` and `src/utils/weather/normalise-open-meteo.ts` with relative paths; Wrangler bundles them into the Worker. The Worker has its own `src/workers/api/tsconfig.json` because it runs on workerd, not in a browser.
 
-## Server/CDN cache behaviour
+## Server cache behaviour
 
-```text
-Cache-Control: public, max-age=0, must-revalidate
-Netlify-CDN-Cache-Control: public, s-maxage=7200, stale-while-revalidate=86400
-```
+A Worker on a route runs *before* the Cloudflare zone cache, so the zone Cache Rules never cache `/api/*`. The Worker caches explicitly with the Workers Cache API (`caches.default`), which stores entries in the Cloudflare data centre that served the request:
 
-* `Netlify-CDN-Cache-Control` is the real cache: Netlify's shared edge/CDN reads it (and strips it before the response reaches the browser), caching the response for `s-maxage=7200` seconds (2h) with an additional 24h `stale-while-revalidate` window. This is what actually bounds Open-Meteo calls to roughly once per two hours for this location, **regardless of how many function instances Netlify runs concurrently or how much visitor traffic hits `/api/weather`** -- a module-level variable inside `weather.ts` would only be a per-instance cache and is explicitly not relied on here.
-* `Cache-Control` (the plain header, seen by the browser) intentionally does *not* tell the browser's own HTTP cache to hold onto the response -- freshness on the client is owned entirely by the localStorage layer below instead, so every revalidation request cheaply hits the CDN cache rather than living in two independent caches with two independent expiry clocks.
-* Error responses always get `Cache-Control: no-store` so a transient Open-Meteo outage can't pin every visitor to a cached failure for two hours.
+| Cache API entry | Lifetime | Used when |
+| --- | --- | --- |
+| `fresh` | `WEATHER_CDN_CACHE_SECONDS` (2h) | Always first. A hit returns without contacting Open-Meteo (`X-Weather-Cache: HIT`). |
+| `stale` | `WEATHER_CDN_STALE_WHILE_REVALIDATE_SECONDS` (24h) | Only when the fresh copy has expired *and* Open-Meteo fails (`X-Weather-Cache: STALE`). |
 
-Verify against a real deploy preview (`curl -I` the `/api/weather` URL) before assuming a given Netlify plan/runtime honours `Netlify-CDN-Cache-Control` exactly as documented here.
+* A miss fetches Open-Meteo synchronously and stores both copies after the response is sent (`ctx.waitUntil`). The first visitor per data centre per two hours waits for Open-Meteo; everyone else gets the cached copy.
+* The Cache API is per data centre, not global. Open-Meteo calls therefore scale with the number of Cloudflare locations that serve visitors (a handful for this site), not with visitor traffic.
+* `Cache-Control` sent to the browser stays `public, max-age=0, must-revalidate` -- freshness on the client is owned by the localStorage layer below, so the browser does not hold a second independent HTTP-cache copy.
+* Error responses always get `Cache-Control: no-store` and are never stored, so a transient Open-Meteo outage cannot pin visitors to a cached failure.
+
+Check the live behaviour with `npm run cache:status -- https://samui-samui.de/api/weather` and look at `X-Weather-Cache`.
 
 ## Browser cache behaviour
 
@@ -269,11 +274,11 @@ Three distinct timestamps, never conflated:
 
 * **Wetterstand** -- `current.observedAt`, the provider's current-reading time, formatted with `formatWeatherClockTime()`.
 * **Ortszeit** -- live Koh Samui clock via `formatKohSamuiTime(new Date(), timezone)`, refreshed once a minute while the widget is visible.
-* **generatedAt** -- when the Netlify function built the snapshot; kept on the model for diagnostics/caching only, never shown to visitors.
+* **generatedAt** -- when the API Worker built the snapshot; kept on the model for diagnostics/caching only, never shown to visitors.
 
 All formatting goes through `Intl.DateTimeFormat` with an explicit `timeZone`, exactly like `src/utils/dates.ts`'s existing pattern for post dates -- never the visitor's own local timezone.
 
-**Parsing pitfall this widget specifically guards against:** Open-Meteo returns `current.time`/`hourly.time` as **local wall-clock strings with no UTC offset** (e.g. `"2026-07-25T17:45"`) when a `timezone` param is requested. Handing that straight to `new Date(string)` is a latent bug -- per the ECMA-262 Date Time String Format, an offset-less date-time string is parsed as local time *in the runtime executing the code*, which is UTC on the Netlify function and whatever zone the visitor's browser is in on the client, essentially never actually Bangkok. `parseWeatherTimestamp()` (`src/utils/weather/format-weather-time.ts`) fixes this by appending the fixed `WEATHER_LOCATION_UTC_OFFSET` (`+07:00`) before parsing whenever the string doesn't already carry an offset. Every weather timestamp (current and hourly, on both the summary generator and the formatters) goes through this function rather than a bare `new Date(...)`. See `src/test/weather-time.test.ts`'s "is unaffected by the runtime not being in Bangkok time" case.
+**Parsing pitfall this widget specifically guards against:** Open-Meteo returns `current.time`/`hourly.time` as **local wall-clock strings with no UTC offset** (e.g. `"2026-07-25T17:45"`) when a `timezone` param is requested. Handing that straight to `new Date(string)` is a latent bug -- per the ECMA-262 Date Time String Format, an offset-less date-time string is parsed as local time *in the runtime executing the code*, which is UTC on the Cloudflare Worker and whatever zone the visitor's browser is in on the client, essentially never actually Bangkok. `parseWeatherTimestamp()` (`src/utils/weather/format-weather-time.ts`) fixes this by appending the fixed `WEATHER_LOCATION_UTC_OFFSET` (`+07:00`) before parsing whenever the string doesn't already carry an offset. Every weather timestamp (current and hourly, on both the summary generator and the formatters) goes through this function rather than a bare `new Date(...)`. See `src/test/weather-time.test.ts`'s "is unaffected by the runtime not being in Bangkok time" case.
 
 This fixed-offset approach only works because Asia/Bangkok never observes DST. A future location in a DST-observing timezone would need real timezone-database math (e.g. resolving the correct offset per date) instead of a single constant.
 
@@ -347,8 +352,8 @@ Manual verification checklist:
 
 ## Troubleshooting
 
-* **Widget never appears**: check the Network tab for a `/api/weather` request. No request at all usually means the widget never crossed the `rootMargin: 400px` trigger (try scrolling further) or `hideWeather` is set on the page's layout (see "Placement" below). A request that fails with 502/504 means Open-Meteo itself is unreachable or returned something unexpected -- check the Netlify function logs for the specific `[weather]`-prefixed diagnostic.
-* **Stale data never refreshes**: confirm the CDN cache headers on a real deploy preview (`curl -I https://<preview>/api/weather`) -- if `Netlify-CDN-Cache-Control` isn't being honoured as expected on the current plan, every request re-fetches from Open-Meteo without a hard failure, which is safe but defeats the caching intent.
+* **Widget never appears**: check the Network tab for a `/api/weather` request. No request at all usually means the widget never crossed the `rootMargin: 400px` trigger (try scrolling further) or `hideWeather` is set on the page's layout (see "Placement" below). A request that fails with 502/504 means Open-Meteo itself is unreachable or returned something unexpected -- check the Workers Logs of `samui-samui-api` (Cloudflare dashboard, or `npx wrangler tail`) for the specific `[weather]`-prefixed diagnostic.
+* **Stale data never refreshes**: repeat `npm run cache:status -- https://samui-samui.de/api/weather` -- `X-Weather-Cache` should be `HIT` within two hours of a `MISS`. Constant `MISS` means the Cache API writes are failing; every request then re-fetches from Open-Meteo, which is safe but defeats the caching intent.
 * **Wrong-looking times**: confirm `WEATHER_LOCATION_UTC_OFFSET` is still correct (only fails if Bangkok ever adopted DST, which it hasn't) and that the timestamp went through `parseWeatherTimestamp()`/`readLocalHour()` rather than a bare `new Date(string)`.
 * **Icon looks wrong for the described condition**: check `getWeatherCodeDefinition()` in `weather-codes.ts` for that specific WMO code -- especially codes in the 71-86 snow range, which intentionally fall back to the plain cloud icon.
 
@@ -370,7 +375,7 @@ The architecture is deliberately layered so a future `/wetter/` page (or similar
 * **Same provider adapter and endpoint** -- `/api/weather` already returns the full `WeatherSnapshot`, including all 48 hours of `hourly` data (only the compact widget's `summariseWeather()` call limits itself to the next `lookAheadHours`). A bigger page can call the exact same endpoint.
 * **Same normalised model and code table** -- `WeatherSnapshot`, `WeatherForecastHour`, and `weather-codes.ts` are provider-independent by design; nothing about them is compact-widget-shaped.
 * **Same formatting utilities** -- `format-weather-time.ts` and `WeatherIcon.astro` are already standalone, reusable pieces.
-* **Same cache and attribution** -- the CDN cache, browser cache, and attribution copy/links are not duplicated per surface.
+* **Same cache and attribution** -- the Worker cache, browser cache, and attribution copy/links are not duplicated per surface.
 
 Documented but **not implemented** extension points for that later page: a full 24-hour forecast strip, a multi-day forecast, a temperature graph, a precipitation graph, humidity, wind, sunrise/sunset, multiple Koh Samui locations (the `WeatherLocation`/`id` shape already supports more than one; see `src/config/maps.ts`'s `MapPoint` for the sibling pattern this could follow), and marine conditions.
 
@@ -388,5 +393,5 @@ To replace Open-Meteo with a different provider:
 
 * No automated test exercises the `<dnb-weather-widget>` custom element's actual DOM behaviour (see "Testing instructions").
 * The fixed `+07:00` offset assumption only holds because Asia/Bangkok has no DST; a second location in a DST zone needs real timezone math.
-* The Netlify shared CDN cache's exact behaviour depends on the hosting plan/runtime; this document states the intended headers, not a guarantee every Netlify tier honours them identically.
+* The Worker cache is per Cloudflare data centre and does not serve stale data *while* revalidating (only when Open-Meteo fails), so the first visitor after expiry in each data centre waits for Open-Meteo.
 * The German summary is a small rule-based system, not a full meteorological narrative -- it deliberately covers only the documented scenarios above.

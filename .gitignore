@@ -224,3 +224,7 @@ test-results/
 .codex/
 .github/hooks/
 .github/skills/
+
+# Wrangler local state and dry-run bundles; local Worker secrets
+.wrangler/
+.dev.vars*

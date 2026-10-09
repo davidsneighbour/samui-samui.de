@@ -14,6 +14,14 @@ from = "/api/weather"
 to = "/.netlify/functions/weather"
 status = 200
 
+# Transitional (https://github.com/davidsneighbour/samui-samui.de/issues/1783):
+# the contact form now posts to /api/contact, which the Cloudflare Worker
+# serves after the DreamHost cutover. Until then Netlify keeps answering it.
+[[redirects]]
+from = "/api/contact"
+to = "/.netlify/functions/contact"
+status = 200
+
 [[redirects]]
 from = "/taglines/"
 to = "/iumas/"

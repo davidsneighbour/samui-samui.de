@@ -16,6 +16,8 @@
     "src/pages/suche.mdx",
     "scratch/**",
     "public/**",
+    // Wrangler's local state and dry-run bundles (git-ignored).
+    ".wrangler/**",
     // AI agent/skill tooling directories: installed by editor/CLI tooling,
     // not source code authored in this repo.
     ".agents/**",

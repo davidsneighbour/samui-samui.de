@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "cloudflare-samui": {
+      "headersHelper": "node ./src/scripts/mcp/cloudflare-auth-headers.ts",
+      "type": "http",
+      "url": "https://mcp.cloudflare.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+// Cloudflare Worker for samui-samui.de/api/* -- the only dynamic part of the
+// site. Everything else is static Astro output served from DreamHost through
+// the Cloudflare cache; see documentation/hosting/architecture.md.
+//
+// This file is the source of truth for the Worker's name, routes, runtime
+// version, and non-secret settings. Secret values are never committed: set
+// them with `npx wrangler secret put <NAME>` (see the "secrets" list below).
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // Pin the runtime behaviour. Bump deliberately and re-run the smoke tests.
+  "compatibility_date": "2026-10-01",
+  // React Email's renderer and React itself read process.env.NODE_ENV.
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "src/workers/api/index.ts",
+  "name": "samui-samui-api",
+  "observability": {
+    "enabled": true
+  },
+  // No *.workers.dev or preview hostnames: the Worker is only reachable
+  // through the route below, so it always shares the site's origin and the
+  // contact form needs no CORS.
+  "preview_urls": false,
+  // Route, not custom domain: the Worker handles /api/* only. All other
+  // paths fall through to the proxied DreamHost origin and the Cache Rules.
+  "routes": [
+    {
+      "pattern": "samui-samui.de/api/*",
+      "zone_name": "samui-samui.de"
+    }
+  ],
+  "secrets": {
+    // CONTACT_EMAIL_BCC is optional (comma-separated) and therefore not
+    // listed here.
+    "required": [
+      "CONTACT_EMAIL_FROM",
+      "CONTACT_EMAIL_TO",
+      "RESEND_API_KEY",
+      "TURNSTILE_SECRET"
+    ]
+  },
+  "vars": {
+    "CONTACT_EMAIL_SUBJECT_PREFIX": "Samui? Samui!",
+    "CONTACT_EMAIL_TIMEZONE": "Asia/Bangkok",
+    // Overwritten on every deploy by src/scripts/deploy/worker.ts with the
+    // hash of the bundled Worker source, so a deploy can skip the Worker
+    // when nothing in it changed. Exposed at /api/version.
+    "WORKER_SOURCE_HASH": "local"
+  },
+  "workers_dev": false
+}

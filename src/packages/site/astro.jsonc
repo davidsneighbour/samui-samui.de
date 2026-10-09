@@ -23,7 +23,7 @@
     "dev:verbose": "DEBUG_FRONTMATTER=true ASTRO_SITE_SCRIPT=dev:site:verbose node src/scripts/dev.ts",
     "preview": "astro preview",
     "upgrade": "npx @astrojs/upgrade",
-    "validate": "npm run validate:content && npm run validate:taxonomies",
+    "validate": "npm run validate:content && npm run validate:taxonomies && npm run validate:worker",
     "validate:content": "astro check",
     "validate:taxonomies": "node src/scripts/validate-taxonomies.ts"
   }

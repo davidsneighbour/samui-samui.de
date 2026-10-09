@@ -4,6 +4,6 @@ import { getViteConfig } from 'astro/config';
 // can import via the same `@utils/*` etc. aliases as the rest of the app.
 export default getViteConfig({
   test: {
-    include: ['src/test/**/*.test.ts'],
+    include: ['src/test/**/*.test.ts', 'src/workers/**/*.test.ts'],
   },
 });

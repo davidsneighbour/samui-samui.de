@@ -2,7 +2,11 @@
 
 The contact page renders editorial copy in the normal prose wrapper, but `src/components/features/contact/ContactForm.astro` sits outside that wrapper so form controls and helper text can keep their compact spacing.
 
-The form posts to the Netlify Function in `src/netlify/functions/contact.mjs`. Function helpers live beside it in `src/netlify/functions/lib/`, and the React Email notification template lives in `src/netlify/emails/contact-notification.tsx` so the whole contact-delivery surface stays under the Netlify source tree.
+The form posts to `/api/contact`, which the Cloudflare Worker `samui-samui-api` handles (`src/workers/api/contact.ts`, route and settings in `wrangler.jsonc`; see [Hosting architecture](../hosting/architecture.md)). The Worker checks the honeypot field, the same-origin `Origin` header, field presence and length limits, the local spam heuristics, and the Cloudflare Turnstile token (with the visitor IP from `CF-Connecting-IP`), and then sends the React Email notification through the Resend API with `fetch()`. Responses are JSON for the enhanced form (`Accept: application/json`) and a minimal HTML page when the browser submits natively; both carry meaningful status codes (`400` invalid or suspicious, `403` foreign origin, `405` wrong method, `413` oversized body, `500` missing secrets, `502` Resend failure).
+
+The spam heuristics (`src/netlify/functions/lib/spam.mjs`), the renderer (`src/netlify/functions/lib/email.mjs`), and the React Email template (`src/netlify/emails/contact-notification.tsx`) are still shared with the legacy Netlify Function `src/netlify/functions/contact.mjs`, which keeps serving production until the DreamHost + Cloudflare cutover. When Netlify is removed, these files move under `src/workers/api/`.
+
+Secrets are Worker secrets, never committed: `RESEND_API_KEY`, `TURNSTILE_SECRET`, `CONTACT_EMAIL_FROM`, `CONTACT_EMAIL_TO`, and the optional comma-separated `CONTACT_EMAIL_BCC`. `CONTACT_EMAIL_SUBJECT_PREFIX` and `CONTACT_EMAIL_TIMEZONE` are plain variables in `wrangler.jsonc`. The public `TURNSTILE_SITE_KEY` is read at build time, so it must be present in the build environment (local `.env` or the CI secret). See [Deployment](../hosting/deployment.md#secrets-and-configuration).
 
 Links inside the form therefore do not receive `prose-a:text-link` automatically. Any form-local legal or helper copy with anchors must style those anchors with the global `link` token so the contact page keeps the same reddish link treatment as the surrounding Markdown.
 

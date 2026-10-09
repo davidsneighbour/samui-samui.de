@@ -1,9 +1,9 @@
 <!-- markdownlint-disable-next-line dnb-title-case-style -->
 # samui-samui.de
 
-Website source and long-running content archive for [samui-samui.de](https://samui-samui.de), Patrick Kollitsch's German-language site about life on Koh Samui and Thailand. The project is built as a static Astro site, with small focused tools for archive maintenance, content validation, search indexing, and Netlify deployment, so old posts can keep working while the site can still be changed with confidence.
+Website source and long-running content archive for [samui-samui.de](https://samui-samui.de), Patrick Kollitsch's German-language site about life on Koh Samui and Thailand. The project is built as a static Astro site, with small focused tools for archive maintenance, content validation, search indexing, and deployment, so old posts can keep working while the site can still be changed with confidence.
 
-* **Static by default.** Astro builds the public site to `dist/`, and Netlify serves it with checked-in headers, redirects, and one contact-form function.
+* **Static by default.** Astro builds the public site to `dist/`. DreamHost serves it as a plain static origin behind the Cloudflare cache, and a small Cloudflare Worker handles `/api/*` (contact form, weather).
 * **Archive-aware.** Posts live in `src/content/posts/**/index.md`, with separate collections for people, places, events, and topics.
 * **Strict where it matters.** `npm run check` combines Biome formatting, Biome linting, markdownlint, content validation, taxonomy validation, and Vitest.
 * **Documented operations.** Feature and process notes live under [`documentation/`](documentation/index.md), rather than being hidden in scripts.
@@ -105,7 +105,8 @@ Main sections:
 * [`documentation/components/`](documentation/components/) documents reusable rendering surfaces such as post covers, notices, embeds, tooltips, comments, and the masthead.
 * [`documentation/content/`](documentation/content/) documents editorial contracts, frontmatter, post paths, citations, dates, and taxonomies.
 * [`documentation/features/`](documentation/features/) documents user-facing features such as search, archive browsing, maps, the contact form, and the weather widget.
-* Root files in [`documentation/`](documentation/) document repository processes such as deployment, link checking, local development, and quality gates.
+* [`documentation/hosting/`](documentation/hosting/) documents the hosting architecture, caching, deployment, and the migration from Netlify.
+* Root files in [`documentation/`](documentation/) document repository processes such as link checking, local development, and quality gates.
 
 When a feature changes, update the matching documentation file in the same change set.
 
@@ -113,13 +114,11 @@ When a feature changes, update the matching documentation file in the same chang
 
 ## Deployment
 
-Production is hosted on Netlify at [samui-samui.de](https://samui-samui.de). The checked-in [`netlify.toml`](netlify.toml) defines the build command, publish directory, functions directory, and security headers.
+Production runs on three layers: DreamHost serves the static `dist/` output, Cloudflare caches pages and assets in front of it, and the Cloudflare Worker `samui-samui-api` answers `/api/*`. [Hosting architecture](documentation/hosting/architecture.md) explains why.
 
-`npm run deploy` creates a Netlify deploy preview. It shows the current Netlify account, optionally runs `netlify switch`, runs checks, builds, and then runs `netlify deploy --open`.
+`npm run deploy` runs checks, builds once, uploads the build to DreamHost as an atomic release (rsync over SSH), deploys the Worker only when its code changed, purges exactly the changed pages from the Cloudflare cache (or every page after a global template change), and runs smoke tests. `npm run deploy:site` skips the Worker, and `npm run deploy:worker` deploys only the Worker. Configuration and secrets live in a git-ignored `.env` (see `.env.example`) and in Worker secrets. They are never committed.
 
-Use `npm run deploy:production` only when a live release is intentional. It prints production warnings, shows the current Netlify account, optionally runs `netlify switch`, runs checks, releases when local commits exist after the latest local tag, builds, and then requires confirmation because Netlify currently charges 15 credits for each production deploy.
-
-The contact form needs Resend and Cloudflare Turnstile environment variables. Keep secrets out of committed files.
+Production still runs on Netlify until the DNS cutover in [Migration from Netlify](documentation/hosting/migration.md) is complete. Until then, `npm run deploy:netlify` and `npm run deploy:netlify:production` keep the old Netlify workflow.
 
 ---
 
@@ -143,7 +142,8 @@ The contact form needs Resend and Cloudflare Turnstile environment variables. Ke
 * `npm run publisher -- <command>` manages internal archive-maintenance metadata.
 * `npm run covers -- <command>` audits or migrates post cover metadata.
 * `npm run compile:package` regenerates `package.json` from package fragments and refreshes install state.
-* `npm run deploy` runs the guarded Netlify deploy-preview sequence.
-* `npm run deploy:production` runs the guarded production Netlify deployment sequence.
+* `npm run deploy` runs the full DreamHost + Cloudflare deployment; `deploy:site` and `deploy:worker` deploy one part.
+* `npm run cache:status -- <url>` shows how Cloudflare served a URL; `cache:purge` and `cache:warm` invalidate or warm pages manually.
+* `npm run test:smoke` checks the live site's pages, redirects, assets, and API routes.
 
-See [Quality gates](documentation/quality-gates.md), [Link checking](documentation/link-checking.md), and [Deployment](documentation/deployment.md) for the longer explanations.
+See [Quality gates](documentation/quality-gates.md), [Link checking](documentation/link-checking.md), and [Deployment](documentation/hosting/deployment.md) for the longer explanations.

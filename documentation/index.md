@@ -44,19 +44,26 @@
 
 * [Ahrefs audit sample](features/ahrefs-audit-sample.md) documents the generated custom URL-list sample used for Ahrefs Site Audit crawls.
 * [Blog archive](features/archiv.md) documents the chronological archive, topic index, indexing choices, and archive data model.
-* [Contact form](features/contact-form.md) documents contact-form rendering and Turnstile disclaimer styling.
+* [Contact form](features/contact-form.md) documents contact-form rendering, the `/api/contact` Worker endpoint, its secrets, and Turnstile disclaimer styling.
 * [IUMAS](features/iumas.md) documents the four-lane title/subtitle/logo/image history graph at `/iumas/` (formerly `/taglines/`).
 * [Interactive maps](features/maps.md) records the MapLibre/OpenFreeMap map stack and data contracts.
 * [Life timeline map](features/life-timeline.md) documents the experimental `/timeline/` animated life-timeline map, its sparse-year data schema, and the 2005 plane-journey animation.
 * [Life timeline authoring guide](features/life-timeline-authoring.md) is a copy-paste-driven guide to registering places and authoring real timeline entries (simple years, periods, multi-location years, journeys, the finale).
 * [Search](features/search.md) documents Pagefind search UI placement and index caching.
 * [Sound effects](features/sound-effects.md) documents optional Cuelume interaction sounds, persistence, and fallback behavior.
-* [Weather widget](features/weather-widget.md) documents the compact, lazy-loaded Koh Samui weather note, its Netlify/Open-Meteo proxy, and caching layers.
+* [Weather widget](features/weather-widget.md) documents the compact, lazy-loaded Koh Samui weather note, its Worker/Open-Meteo proxy, and caching layers.
+
+## Hosting
+
+* [Hosting architecture](hosting/architecture.md) explains where each request runs (DreamHost origin, Cloudflare cache, `/api/*` Worker), why Netlify was replaced, and the development-phase versus steady-state policy.
+* [Caching and invalidation](hosting/caching.md) records the edge and browser cache policy and TTL reasoning, the Cloudflare Cache Rules, broad versus selective purging, deterministic builds, cache warming, and cache-status inspection.
+* [Deployment](hosting/deployment.md) documents the deploy commands and pipeline, atomic DreamHost releases, rollback, secrets and the Cloudflare token, GitHub Actions, and the smoke tests.
+* [Migration from Netlify](hosting/migration.md) is the cutover runbook: component map, DNS and TLS steps, verification and measurements, rollback, and the Netlify clean-up checklist.
+* [Cloudflare MCP server](hosting/cloudflare-mcp.md) documents the project-scoped Cloudflare MCP server and its file-based token authentication.
 
 ## Repository
 
 * [Dependency security](dependency-security.md) records safe remediation, package-fragment ownership, and unresolved advisory tracking.
-* [Deployment](deployment.md) documents the preview-first `npm run deploy` pipeline, the explicit `npm run deploy:production` command, the Netlify account prompt, the release step, build, and production deploy credit warning.
 * [Documentation server](documentation-server.md) explains the local Markdown preview server that can run beside the Astro dev server.
 * [Link checking](link-checking.md) documents the Lychee wrapper for content Markdown and MDX links.
 * [Local development](local-development.md) records local dev-server behavior such as Vite watcher exclusions.

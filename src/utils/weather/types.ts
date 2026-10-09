@@ -1,4 +1,4 @@
-// Provider-independent weather model. Everything downstream of the Netlify
+// Provider-independent weather model. Everything downstream of the API
 // proxy (summary generation, the Astro presentation component, the client
 // controller, and any future larger weather page) reads this shape only --
 // never the raw Open-Meteo response. See
@@ -36,7 +36,7 @@ export interface WeatherSnapshot {
   location: WeatherLocation;
   current: WeatherCurrentConditions;
   hourly: WeatherForecastHour[];
-  /** When the Netlify function produced this snapshot -- diagnostics/caching only, not shown as "Wetterstand". */
+  /** When the API Worker produced this snapshot -- diagnostics/caching only, not shown as "Wetterstand". */
   generatedAt: string;
   provider: {
     id: 'open-meteo';

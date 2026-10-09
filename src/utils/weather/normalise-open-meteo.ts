@@ -6,7 +6,7 @@
 //
 // Validation rule of thumb: a required field that is missing or malformed
 // invalidates the whole response (throws WeatherValidationError, which the
-// Netlify function turns into a generic 5xx). An optional field that is
+// API Worker turns into a generic 5xx). An optional field that is
 // merely *absent* becomes `null`; an optional field that is *present but the
 // wrong type/non-finite* also invalidates the response, since a
 // present-but-corrupt value is a stronger signal of a broken/malicious

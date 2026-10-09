@@ -1,9 +1,12 @@
 {
+  // Transitional: Netlify keeps serving production until the DreamHost +
+  // Cloudflare cutover is verified (see documentation/hosting/migration.md).
+  // Remove this fragment together with netlify.toml and src/netlify/.
   "devDependencies": {
     "netlify-cli": "27.11.2"
   },
   "scripts": {
-    "deploy": "node ./src/scripts/deploy.ts",
-    "deploy:production": "node ./src/scripts/deploy.ts --production"
+    "deploy:netlify": "node ./src/scripts/deploy/netlify.ts",
+    "deploy:netlify:production": "node ./src/scripts/deploy/netlify.ts --production"
   }
 }

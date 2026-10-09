@@ -355,14 +355,14 @@ describe('setup.json / iumas.json sync', () => {
 });
 
 describe('/taglines/ redirect', () => {
-  it('permanently redirects /taglines/ to /iumas/ in netlify.toml', () => {
-    const netlifyToml = fs.readFileSync(
-      path.resolve(import.meta.dirname, '../../netlify.toml'),
+  it('permanently redirects /taglines/ to /iumas/ at the DreamHost origin', () => {
+    const htaccess = fs.readFileSync(
+      path.resolve(import.meta.dirname, '../../public/.htaccess'),
       'utf8',
     );
 
-    expect(netlifyToml).toMatch(
-      /from\s*=\s*"\/taglines\/"\s*\n\s*to\s*=\s*"\/iumas\/"\s*\n\s*status\s*=\s*301/,
+    expect(htaccess).toMatch(
+      /^\s*RewriteRule \^taglines\/\?\$ \/iumas\/ \[R=301,L\]$/m,
     );
   });
 });
