@@ -1,5 +1,5 @@
 ---
-title: B??roschlaf
+title: Büroschlaf
 date: 2006-02-10T08:12:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
@@ -11,7 +11,5 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[![sleep][1]][2]
+![sleep](./sleep-97826899.jpg)
 
- [1]: //static.flickr.com/28/97826899_3a58c817cd.jpg
- [2]: http://www.flickr.com/photos/schreibblogade/97826899/ "sleep"

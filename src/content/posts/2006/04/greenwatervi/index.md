@@ -13,12 +13,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/134035885/" title="Green Water VI"><img src="//static.flickr.com/50/134035885_d5f2d49991.jpg" alt="Green Water VI" /></a></p>
+![Green Water VI](./green-water-vi-134035885.jpg)
 
-  <p>
-    Green Water VI
-  </p>
-</div>
+Green Water VI
 
 Hat mal wieder geregnet.

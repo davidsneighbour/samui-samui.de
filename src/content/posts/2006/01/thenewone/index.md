@@ -10,6 +10,5 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="455" src="//static.flickr.com/38/87218812_015029a5d0.jpg" alt="The new one" />][1]
+![The new one](./the-new-one-87218812.jpg)
 
- [1]: http://www.flickr.com/photos/schreibblogade/87218812/ "The new one"

@@ -11,12 +11,11 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/105533029/" title="My workplace"><img src="//static.flickr.com/53/105533029_7b46221ba8.jpg" alt="My workplace" /></a></p>
+![My workplace](./my-workplace-105533029.jpg)
 
-  <p>
-    My workplace
-  </p>
-</div>
+My workplace
 
 Man beachte das WirelessLAN-Kabel. Ich finde ja, am Aufbau sollte man mal wieder rumoptimieren.
+
+<!-- grammar-ignore RAN_RUM_RAUF_REIN_RAUS_RUNTER_NEU rumoptimieren -->
+<!-- cspell:ignore rumoptimieren -->

@@ -11,7 +11,5 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[![working. again.][1]][2]
+![working. again.](./working-again-104073257.jpg)
 
- [1]: //static.flickr.com/40/104073257_e861f0623c.jpg
- [2]: http://www.flickr.com/photos/schreibblogade/104073257/ "working. again."

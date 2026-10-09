@@ -10,6 +10,5 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="455" src="//static.flickr.com/39/87218846_df18be7770.jpg" alt="The old one" />][1]
+![The old one](./the-old-one-87218846.jpg)
 
- [1]: http://www.flickr.com/photos/schreibblogade/87218846/ "The old one"

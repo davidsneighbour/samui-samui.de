@@ -1,5 +1,5 @@
 ---
-title: H??nde
+title: Hände
 date: 2006-02-01T08:25:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
@@ -11,10 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/93507666/" title="hands"><img src="//static.flickr.com/18/93507666_91f8b2307e.jpg" alt="hands" /></a></p>
+![hands](./hands-93507666.jpg)
 
-  <p>
-    Hands
-  </p>
-</div>
+Hands

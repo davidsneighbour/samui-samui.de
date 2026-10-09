@@ -11,12 +11,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/119680788/" title="Me. Now."><img src="//static.flickr.com/36/119680788_864c27fb64.jpg" alt="Me. Now." /></a></p>
+![Me. Now.](./me-now-119680788.jpg)
 
-  <p>
-    Me. Now.
-  </p>
-</div>
+Me. Now.
 
 Stellen Sie sich hier einen langen Text zu interessanten Themen vor.

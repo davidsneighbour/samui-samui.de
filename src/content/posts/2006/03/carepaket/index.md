@@ -11,10 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/113156662/" title="Care-Packet"><img src="//static.flickr.com/46/113156662_29acf28bcb.jpg" alt="Care-Packet" /></a></p>
+![Care-Packet](./care-packet-113156662.jpg)
 
-  <p>
-    Care-Packet
-  </p>
-</div>
+Care-Packet

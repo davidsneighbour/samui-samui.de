@@ -1,5 +1,5 @@
 ---
-title: Verrückt ist mehr Spa? als besorgt sein
+title: Verrückt ist mehr Spaß als besorgt sein
 date: 2006-05-09T07:19:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
@@ -11,10 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/143255075/" title="Like I always use to say..."><img src="//static.flickr.com/53/143255075_0fbb3445d7.jpg" alt="Like I always use to say..." /></a></p>
+![Like I always use to say...](./like-i-always-use-to-say-143255075.jpg)
 
-  <p>
-    Like I always use to say...
-  </p>
-</div>
+Like I always use to say …

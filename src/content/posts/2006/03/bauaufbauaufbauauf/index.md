@@ -11,12 +11,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/109986930/" title="The buddhist version of &quot;x has been here&quot;"><img src="//static.flickr.com/45/109986930_97944ce26f.jpg" alt="The buddhist version of &quot;x has been here&quot;" /></a></p>
+![The buddhist version of "x has been here"](./the-buddhist-version-of-x-has-been-here-109986930.jpg)
 
-  <p>
-    The buddhist version of "x has been here"
-  </p>
-</div>
+The buddhist version of "x has been here"
 
-In diesem Fall bauen wir den Wat Phra Yai auf. Mal sehen wo sie die Steine einsetzen.
+In diesem Fall bauen wir den Wat Phra Yai auf. Mal sehen, wo sie die Steine einsetzen.
+
+<!-- cspell:ignore buddhist -->

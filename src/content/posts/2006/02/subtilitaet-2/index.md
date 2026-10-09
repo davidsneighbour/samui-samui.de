@@ -1,5 +1,5 @@
 ---
-title: Subtilit??t
+title: Subtilität
 date: 2006-02-03T03:19:00+07:00
 themen:
   - pokki
@@ -13,9 +13,9 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[![hrmpf!][1]][2]
+![hrmpf!](./hrmpf-94746617.jpg)
 
 Die Subtilität hat Pokki von _mir_ geerbt. Gestern machte er 30 Minuten nach dem offiziellen vertraglichen Outdoor-Häufchen (das auch erfolgte) ein weiteres Häufchen in des Cheffes Büro der sich sehr darüber freute, dass Pokki keine Angst vor Hierarchien hat.
 
- [1]: //static.flickr.com/22/94746617_fcf2bb615e.jpg
- [2]: http://www.flickr.com/photos/schreibblogade/94746617/ "hrmpf!"
+<!-- cspell:ignore Cheffes -->
+<!-- cspell:ignore hrmpf -->

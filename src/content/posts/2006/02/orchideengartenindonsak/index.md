@@ -11,16 +11,11 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/93506575/" title="Orchid Garden in Donsak"><img src="//static.flickr.com/26/93506575_eb4b13b03d.jpg" alt="Orchid Garden in Donsak" /></a></p>
+![Orchid Garden in Donsak](./orchid-garden-in-donsak-93506575.jpg)
 
-  <p>
-    Orchid Garden in Donsak
-  </p>
-</div>
+Orchid Garden in Donsak
 
-Eigentlich ist der Orchid Garden nicht in Donsak aber wo ist er dann wenn er irgendwo im Nirgendwo versteckt ist? Wenn man aus Donsak heraus nach Surrat Thani fährt (50km gerade aus, geil) findet man auf der rechten Seite ein relativ unscheinbares Schild, folgt einer Strasse und ist da. Ruhe. Keine Touristen. Thai-Food. Blumenkram. Ganz nett. Und wer jede Menge Bilder von Blumen sehen will, sollte sich [die ganze Photoserie vom Orchideengarten][1] ansehen.
+Eigentlich ist der Orchid Garden nicht in Donsak, aber wo ist er dann, wenn er irgendwo im Nirgendwo versteckt ist? Wenn man aus Donsak heraus nach Surat Thani fährt (50 km geradeaus, geil), findet man auf der rechten Seite ein relativ unscheinbares Schild, folgt einer Strasse und ist da. Ruhe. Keine Touristen. Thai-Food. Blumenkram. Ganz nett. Und wer jede Menge Bilder von Blumen sehen will, sollte sich die ganze Photoserie vom Orchideengarten ansehen.
 
 PS: Tipp an meine Mama. Ankucken.
 
- [1]: http://flickr.com/photos/schreibblogade/sets/72057594056787914/

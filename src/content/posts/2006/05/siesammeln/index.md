@@ -11,12 +11,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/140133617/" title="Sunset at Baan Thong Pun"><img src="//static.flickr.com/50/140133617_caf627a818.jpg" alt="Sunset at Baan Thong Pun" /></a></p>
+![Sunset at Baan Thong Pun](./sunset-at-baan-thong-pun-140133617.jpg)
 
-  <p>
-    Sunset at Baan Thong Pun
-  </p>
-</div>
+Sunset at Baan Thong Pun
 
 Fragt mich aber nicht, was.

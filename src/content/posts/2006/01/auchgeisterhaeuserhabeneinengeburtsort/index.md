@@ -1,5 +1,5 @@
 ---
-title: Auch Geisterh??user haben einen Geburtsort
+title: Auch Geisterhäuser haben einen Geburtsort
 date: 2006-01-31T10:31:00+07:00
 publisher:
   description: true
@@ -10,6 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="455" src="//static.flickr.com/39/93507867_12c8aeb2f4.jpg" alt="birthplace of the ghosthouses" />][1]
+![birthplace of the ghosthouses](./birthplace-of-the-ghosthouses-93507867.jpg)
 
- [1]: http://www.flickr.com/photos/schreibblogade/93507867/ "birthplace of the ghosthouses"
+<!-- cspell:ignore ghosthouses -->

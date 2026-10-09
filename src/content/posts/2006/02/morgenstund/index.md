@@ -11,14 +11,14 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/100602946/" title="Morning in Ban Maenam (near my house)"><img src="//static.flickr.com/29/100602946_dd771900a8.jpg" alt="Morning in Ban Maenam (near my house)" /></a></p>
+![Morning in Ban Maenam (near my house)](./morning-in-ban-maenam-near-my-house-100602946.jpg)
 
-  <p>
-    Morning in Ban Maenam (near my house)
-  </p>
-</div>
+Morning in Ban Maenam (near my house)
 
 Heute bin ich mal "etwas früher" auf Arbeit gefahren, weil ich eine bestimmte Sonnenaufgangsthese überprüfen wollte.
 
-Hat alles geklappt (berichte später) bis auf die Tatsache, dass mein Vorderreifen wieder keine Luft hat. Das ist das 5. Mal in drei Monaten. Ab wievielen Malen darf ich mich beschweren?
+Hat alles geklappt (berichte später) bis auf die Tatsache, dass mein Vorderreifen wieder keine Luft hat. Das ist das 5. Mal in drei Monaten. Ab wie vielen Malen darf ich mich beschweren?
+
+<!-- grammar-ignore AUF_ARBEIT auf Arbeit -->
+<!-- cspell:ignore Morgenstund -->
+<!-- cspell:ignore Sonnenaufgangsthese -->

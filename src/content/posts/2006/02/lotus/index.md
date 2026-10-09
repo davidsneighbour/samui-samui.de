@@ -11,7 +11,5 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[![lotus (detail)][1]][2]
+![lotus (detail)](./lotus-detail-99604025.jpg)
 
- [1]: //static.flickr.com/41/99604025_b7f232fa1d.jpg
- [2]: http://www.flickr.com/photos/schreibblogade/99604025/ "lotus (detail)"

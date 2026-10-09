@@ -11,10 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/102383182/" title="Orion"><img src="//static.flickr.com/41/102383182_049d4d13c8.jpg" alt="Orion" /></a></p>
+![Orion](./orion-102383182.jpg)
 
-  <p>
-    Orion
-  </p>
-</div>
+Orion

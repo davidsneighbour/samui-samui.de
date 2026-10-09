@@ -10,15 +10,14 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/92869519/" title="2006-01-30 152"><img src="//static.flickr.com/19/92869519_cbbad1410e.jpg" alt="Happy New Year!" /></a></p>
+![Happy New Year!](./happy-new-year-92869519.jpg)
 
-  <p>
-    Happy New Year!
-  </p>
-</div>
+Happy New Year!
 
 2006 ist das [Jahr des Hundes][1] (???) und wohlvorbereitet gehen wir hinein. Dieses Jahr [spielt ein wenig Feuer mit][2]. Feuerhund (??????) also. Na denn.
 
  [1]: http://de.wikipedia.org/wiki/Jahr_des_Hundes
  [2]: http://de.wikipedia.org/wiki/Chinesischer_Kalender
+
+<!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN ??? -->
+<!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN ?????? -->

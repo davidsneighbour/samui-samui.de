@@ -13,10 +13,7 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[![Wat Laem Suan Naram][1]][2]
+![Wat Laem Suan Naram](./wat-laem-suan-naram-93498626.jpg)
 
-Der mit Abstand schönste Tempel auf der Insel (ganz in der Nähe vom Touristentempel). [Das ganze Photoset vom Wat Laem Suan Naram in Baan Plai Laem][3] ist das farbenfrohste bisher.
+Der mit Abstand schönste Tempel auf der Insel (ganz in der Nähe vom Touristentempel). Das ganze Photoset vom Wat Laem Suan Naram in Baan Plai Laem ist das farbenfrohste bisher.
 
- [1]: //static.flickr.com/33/93498626_507e3a3c2d.jpg
- [2]: http://www.flickr.com/photos/schreibblogade/93498626/ "Wat Laem Suan Naram"
- [3]: http://flickr.com/photos/schreibblogade/sets/72057594056779869/

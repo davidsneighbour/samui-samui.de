@@ -11,10 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/134081726/" title="Tourists (our interns)"><img src="//static.flickr.com/44/134081726_3ce03c25da.jpg" alt="Tourists (our interns)" /></a></p>
+![Tourists (our interns)](./tourists-our-interns-134081726.jpg)
 
-  <p>
-    Tourists (our interns)
-  </p>
-</div>
+Tourists (our interns)

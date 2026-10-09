@@ -11,12 +11,13 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/122355961/" title="Me. Now."><img src="//static.flickr.com/42/122355961_7ad467330e.jpg" alt="Me. Now." /></a></p>
+![Me. Now.](./me-now-122355961.jpg)
 
-  <p>
-    Me. Now.
-  </p>
-</div>
+Me. Now.
 
-Der "Warte doch mit dem Abdrücken bis das Teil Biepbiep gemacht hat und wackel nicht so rum und überhaupt du hast ja keine Ahnung das wird wieder verschwendeter Speicherplatz ein Glück dass der nichts kostet warum geb ich dir auch die Kamera in die Hand"-Blick.
+Der "Warte doch mit dem Abdrücken bis das Teil Biepbiep gemacht hat und wackel nicht so rum und überhaupt du hast ja keine Ahnung das wird wieder verschwendeter Speicherplatz ein Glück, dass der nichts kostet warum geb ich dir auch die Kamera in die Hand"-Blick.
+
+<!-- grammar-ignore RAN_RUM_RAUF_REIN_RAUS_RUNTER rum -->
+<!-- grammar-ignore COMMA_IN_FRONT_RELATIVE_CLAUSE Glück dass -->
+<!-- grammar-ignore INDIREKTE_FRAGE warum -->
+<!-- cspell:ignore Biepbiep -->

@@ -11,10 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/134073860/" title="Wat Laem Suan Waram"><img src="//static.flickr.com/47/134073860_63bd7c484f.jpg" alt="Wat Laem Suan Waram" /></a></p>
+![Wat Laem Suan Waram](./wat-laem-suan-waram-134073860.jpg)
 
-  <p>
-    Wat Laem Suan Waram
-  </p>
-</div>
+Wat Laem Suan Waram

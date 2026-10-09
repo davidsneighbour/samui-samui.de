@@ -14,16 +14,12 @@ publisher:
   flickr: true
   textpattern: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/105678055/" title="Fresh and clean."><img src="//static.flickr.com/47/105678055_c324fc3243.jpg" alt="Fresh and clean." /></a></p>
+![Fresh and clean.](./fresh-and-clean-105678055.jpg)
 
-  <p>
-    Fresh and clean.
-  </p>
-</div>
+Fresh and clean.
 
-Heute war mein kleiner Hund im Hunde-Hospital. Dort hat der Doc ihn geduscht und geschrubbt und gleich mal gecheckt, was denn nun mit der Haut ist. <txp:gho_permalink id="653">Wie wir bereits angenommen haben</txp:gho_permalink> verträgt er kein Hühnchen. Naja, Shih-Tzus sollen wohl generell Hühnerfleisch mit Hautproblemen beantworten und Pokki ist dazu noch allergisch dagegen.
+Heute war mein kleiner Hund im Hunde-Hospital. Dort hat der Doc ihn geduscht und geschrubbt und gleich mal gecheckt, was denn nun mit der Haut ist. <txp:gho_permalink id="653">Wie wir bereits angenommen haben</txp:gho_permalink> verträgt er kein Hühnchen. Na ja, Shih-Tzus sollen wohl generell Hühnerfleisch mit Hautproblemen beantworten und Pokki ist dazu noch allergisch dagegen.
 
-Gut zu wissen. Schade nur, dass so ziemlich alles was er gerne frisst mit Hühnchen versetzt ist.
+Gut zu wissen. Schade nur, dass so ziemlich alles, was er gerne frisst, mit Hühnchen versetzt ist.
 
 Wuschelig ist er wieder und er riecht gut. Nicht so pink wie beim letzten Mal. Und ich habe endlich mal wieder ein Schwanzwedeln abbekommen. Nicht so freudig wie der Chef morgens (ich hab ihn ja auch im Krankenhaus alleine gelassen) aber man gibt sich ja mit wenig zufrieden.

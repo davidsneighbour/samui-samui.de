@@ -11,24 +11,18 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/110280107/" title="Chinese Shrine in Nathon"><img src="//static.flickr.com/44/110280107_1046efaa98.jpg" alt="Chinese Shrine in Nathon" /></a></p>
+![Chinese Shrine in Nathon](./chinese-shrine-in-nathon-110280107.jpg)
 
-  <p>
-    Chinese Shrine in Nathon
-  </p>
-</div>
+Chinese Shrine in Nathon
 
 In Nathon verbirgt sich hinter der Siam City Bank (ja, man verwendet hier Banken, Hotels und Ressorts als Landmarken) ein kleiner sehr bunter schöner chinesischer Schrein, den ich am Sonntag dann endlich auch entdeckt habe (er kam mir öfters in Lonely Planets als Nebensatz unter die Augen, aber ihn zu finden ist dann doch komplizierter, zumal er auf den Karten nicht verzeichnet ist). Er hat es jedenfalls auf meine "Muss man auf Samui gesehen haben"-Liste geschafft.
 
 Der Tempel ist wenn ich den gebrochenen Erläuterungen des im Schrein schlafenden Mannes Glauben schenken darf mit 144 Jahren der älteste auf der Insel. Die ersten Siedler (die auch blieben) kamen vor 150 Jahren von der chinesischen Insel Hainan.
 
-Im Norden von Nathon befindet sich der [Wat Sietavib][1], ein weiterer chinesisch buddhistischer Tempel.
+Im Norden von Nathon befindet sich der Wat Sietavib, ein weiterer chinesisch buddhistischer Tempel.
 
-[Alle Bilder von chinesischen Schrein gibts wie immer im Flickr-Set][2].
 
 <div class="flickrbadge clearfix">
 </div>
 
- [1]: http://flickr.com/photos/schreibblogade/sets/72057594059904367/
- [2]: http://www.flickr.com/photos/schreibblogade/sets/72057594078726683/
+<!-- grammar-ignore KOMMA_ZWISCHEN_HAUPT_UND_NEBENSATZ_2 ist wenn -->

@@ -11,12 +11,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/109087679/" title="palms"><img src="//static.flickr.com/37/109087679_59d434cba2.jpg" alt="palms" /></a></p>
+![palms](./palms-109087679.jpg)
 
-  <p>
-    palms
-  </p>
-</div>
+palms
 
-Seht ihr, kein Hundeeintrag (wenngleich das Foto auch auf dem Sandplatz gemacht wurde, auf dem wir immer Gassi gehen wenn Pokki im Büro arbeiten muss).
+Seht ihr, kein Hundeeintrag (wenngleich das Photo auch auf dem Sandplatz gemacht wurde, auf dem wir immer Gassi gehen, wenn Pokki im Büro arbeiten muss).
+
+<!-- grammar-ignore UPPERCASE_SENTENCE_START palms -->

@@ -11,7 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[![thanglish a la carte][1]][2]
+![thanglish a la carte](./thanglish-a-la-carte-94746674.jpg)
 
- [1]: //static.flickr.com/34/94746674_769c64a36f.jpg
- [2]: http://www.flickr.com/photos/schreibblogade/94746674/ "thanglish a la carte"
+<!-- cspell:ignore thanglish -->

@@ -12,6 +12,5 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="455" src="//static.flickr.com/42/81945557_4d636d91d9.jpg" alt="Diva" />][1]
+![Diva](./diva-81945557.jpg)
 
- [1]: http://www.flickr.com/photos/schreibblogade/81945557/ "Diva"

@@ -11,10 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/143261137/" title="clouds"><img src="//static.flickr.com/56/143261137_ffb389bb68.jpg" alt="clouds" /></a></p>
+![clouds](./clouds-143261137.jpg)
 
-  <p>
-    clouds
-  </p>
-</div>
+clouds

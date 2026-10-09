@@ -11,10 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/100981806/" title="The flying dog"><img src="//static.flickr.com/41/100981806_f95b950b3d.jpg" alt="The flying dog" /></a></p>
+![The flying dog](./the-flying-dog-100981806.jpg)
 
-  <p>
-    The flying dog
-  </p>
-</div>
+The flying dog

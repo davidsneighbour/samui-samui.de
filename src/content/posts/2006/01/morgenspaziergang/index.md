@@ -12,7 +12,7 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="455" src="//static.flickr.com/43/85036979_46311e8d84.jpg" alt="Morningwalk at the &quot;Graveyard of the Ghosthouses&quot;" />][1]
+![Morningwalk at the "Graveyard of the Ghosthouses"](./morningwalk-at-the-graveyard-of-the-ghosthouses-85036979.jpg)
 
 Morgens gehen wir (Pokki und ich) immer zum Friedhof der Geisterhäuser spazieren. Er liegt auf dem Weg ins Büro und Pokki mag es, wenn er vor der harten Arbeit als zwischen meinen Füßen schlafendes Firmenmaskottchen noch ein wenig Auslauf bekommt und ein paar Frauen "abgreifen" kann.
 
@@ -22,4 +22,7 @@ PS: Im Hintergrund mein Moped. Das ist eine _eigene Geschichte_&trade;. Denn es 
 
 PPS: Es könnte sein, dass das Moped einem meiner Leser bekannt vorkommen könnte. Dem ist so.
 
- [1]: <http://www.flickr.com/photos/schreibblogade/85036979/> "Morningwalk at the "Graveyard of the Ghosthouses""
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E lass -->
+<!-- grammar-ignore RAN_RUM_RAUF_REIN_RAUS_RUNTER_NEU rumlaufen -->
+<!-- cspell:ignore rumschnippseln -->
+<!-- cspell:ignore Morningwalk -->

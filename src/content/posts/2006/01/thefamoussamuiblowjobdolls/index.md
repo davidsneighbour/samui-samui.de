@@ -12,6 +12,5 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="455" src="//static.flickr.com/36/87213453_ec9c8e122b.jpg" alt="The famous Samui-Blowjob-Dolls" />][1]
+![The famous Samui-Blowjob-Dolls](./the-famous-samui-blowjob-dolls-87213453.jpg)
 
- [1]: http://www.flickr.com/photos/schreibblogade/87213453/ "The famous Samui-Blowjob-Dolls"

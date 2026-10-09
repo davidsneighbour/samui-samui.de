@@ -10,12 +10,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/166259827/" title="proof: there is a rabbit in the moon, no man"><img src="//static.flickr.com/66/166259827_f2d6b489ee.jpg" alt="proof: there is a rabbit in the moon, no man" /></a></p>
+![proof: there is a rabbit in the moon, no man](./proof-there-is-a-rabbit-in-the-moon-no-man-166259827.jpg)
 
-  <p>
-    proof: there is a rabbit in the moon, no man
-  </p>
-</div>
+proof: there is a rabbit in the moon, no man
 
-Hier ist der Beweis dafür, dass sich kein Mann im Mond befindet sondern nur ein ordinärer kleiner Hase. Sagen die Thais und die haben recht, in Thailand. Was soll der Mann im Mond auch dort anstellen?
+Hier ist der Beweis dafür, dass sich kein Mann im Mond befindet, sondern nur ein ordinärer kleiner Hase. Sagen die Thais und die haben recht, in Thailand. Was soll der Mann im Mond auch dort anstellen?
+
+<!-- grammar-ignore UPPERCASE_SENTENCE_START proof -->

@@ -13,8 +13,9 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="455" src="//static.flickr.com/39/82442903_dff2581f52.jpg" alt="pokkis favourite sleeping-place" />][1]
+![pokkis favourite sleeping-place](./pokkis-favourite-sleeping-place-82442903.jpg)
 
 (Eigentlich könnte er auch gerne Nachts schlafen.)
 
- [1]: http://www.flickr.com/photos/schreibblogade/82442903/ "pokkis favourite sleeping-place"
+<!-- cspell:ignore pokkis -->
+<!-- cspell:ignore favourite -->
