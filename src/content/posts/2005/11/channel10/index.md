@@ -11,8 +11,7 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="420" src="//static.flickr.com/34/65425211_76b8733ba6.jpg" alt="Channel 10" />][1]
+![Channel 10](./channel-10-65425211.jpg)
 
 ... nutzt Microsoft-Produkte.
 
- [1]: http://www.flickr.com/photos/schreibblogade/65425211/ "Channel 10"

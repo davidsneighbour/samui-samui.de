@@ -11,8 +11,7 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="420" src="//static.flickr.com/28/63742445_3128663f9b.jpg" alt="Nearly full moon" />][1]
+![Nearly full moon](./nearly-full-moon-63742445.jpg)
 
 Aber nur fast. _Heute_ ist Vollmond. Und Loi Kratong.
 
- [1]: http://www.flickr.com/photos/schreibblogade/63742445/ "Nearly full moon"

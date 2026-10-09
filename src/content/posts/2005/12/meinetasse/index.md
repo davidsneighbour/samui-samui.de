@@ -11,8 +11,7 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="455" src="//static.flickr.com/9/69628749_37b0701a46.jpg" alt="Winnie" />][1]
+![Winnie](./winnie-69628749.jpg)
 
 Ein Schelm wer da an Leute denkt.
 
- [1]: http://www.flickr.com/photos/schreibblogade/69628749/ "Winnie"

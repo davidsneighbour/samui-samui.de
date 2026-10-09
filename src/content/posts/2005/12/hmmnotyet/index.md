@@ -11,6 +11,5 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="455" src="//static.flickr.com/34/73673902_9cc7fea1fe.jpg" alt="Hmm. Not yet." />][1]
+![Hmm. Not yet.](./hmm-not-yet-73673902.jpg)
 
- [1]: http://www.flickr.com/photos/schreibblogade/73673902/ "Hmm. Not yet."

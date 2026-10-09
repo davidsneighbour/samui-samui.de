@@ -11,8 +11,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="455" src="//static.flickr.com/41/77420342_b5d45a6c32.jpg" alt="i made myself a present" />][1]
+![i made myself a present](./i-made-myself-a-present-77420342.jpg)
 
 Dass ich Weihnachten nicht feiere heisst nicht, dass ich mir nichts schenken kann. Ich schenk mir zur Zeit regelmässig was, aber sowas Grosses schon lange nicht mehr.
 
- [1]: http://www.flickr.com/photos/schreibblogade/77420342/ "i made myself a present"
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E schenk -->

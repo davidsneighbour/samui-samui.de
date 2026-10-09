@@ -11,8 +11,7 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="455" src="//static.flickr.com/29/68119089_39efb01f17.jpg" alt="End of time" />][1]
+![End of time](./end-of-time-68119089.jpg)
 
 War das nicht irgendwie schon im Jahr 2000?
 
- [1]: http://www.flickr.com/photos/schreibblogade/68119089/ "End of time"

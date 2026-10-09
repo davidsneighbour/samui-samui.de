@@ -11,7 +11,7 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="455" src="//static.flickr.com/42/79628578_8368acd571.jpg" alt="Hin Da Hin Yai, New Years Eve Morning." />][1]
+![Hin Da Hin Yai, New Years Eve Morning.](./hin-da-hin-yai-new-years-eve-morning-79628578.jpg)
 
 Nu isses also vorbei. Das alte Jahr. Das neue wird kommen (führt kein Weg dran vorbei und schon Nostradamus, die Zeugen Jehovas und alle Jahr 2000ler haben es nicht geschafft, daran was zu ändern) und alles wird schöner, besser, größer und überhaupt. Wir nehmen uns eine Menge Gutes vor und halten uns mindestens eine Woche daran. Meine Vorsätze sind "kein Alkohol und kein Säugetierfleisch in 2006" und "mehr Slow Motion" (das erklär ich mal später).
 
@@ -21,5 +21,10 @@ Was macht ihr mit eurer [Extra-Sekunde][2]? Ich denke, ich werde stumpf in der G
 
 PS: Ich vermisse meinen Dezemberlohn.
 
- [1]: http://www.flickr.com/photos/schreibblogade/79628578/ "Hin Da Hin Yai, New Years Eve Morning."
- [2]: http://www.netzeitung.de/wissenschaft/374596.html
+ [2]: https://web.archive.org/web/20051230070058/http://www.netzeitung.de/wissenschaft/374596.html
+
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E erklär -->
+<!-- grammar-ignore DE_DU_UPPER_LOWER eurer -->
+<!-- cspell:ignore isses -->
+<!-- cspell:ignore Säugetierfleisch -->
+<!-- cspell:ignore Zelebrationsform -->

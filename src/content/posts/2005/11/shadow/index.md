@@ -11,6 +11,5 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="420" src="//static.flickr.com/28/63041193_6a54ea65b3.jpg" alt="Shadow" />][1]
+![Shadow](./the-shadows-are-just-as-important-as-the-light-63041193.jpg)
 
- [1]: http://www.flickr.com/photos/schreibblogade/63041193/ "Shadow"

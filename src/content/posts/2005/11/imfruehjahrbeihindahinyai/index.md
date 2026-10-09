@@ -1,5 +1,5 @@
 ---
-title: Im Fr??hjahr bei Hin Da Hin Yai
+title: Im Frühjahr bei Hin Da Hin Yai
 date: 2005-11-18T11:57:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
@@ -11,8 +11,7 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="420" src="//static.flickr.com/33/64447100_b4da095005.jpg" alt="Hin Da Hin Yai" />][1]
+![Hin Da Hin Yai](./hin-da-hin-yai-64447100.jpg)
 
 Klick das Bild. Kann benotet werden.
 
- [1]: http://www.flickr.com/photos/schreibblogade/64447100/ "Hin Da Hin Yai"

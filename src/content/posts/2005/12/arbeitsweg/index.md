@@ -11,8 +11,7 @@ publisher:
   covermigration: true
   flickr: true
 ---
-[<img width="455" src="//static.flickr.com/36/73990583_dcc4419214.jpg" alt="On the way in the office." />][1]
+![On the way in the office.](./on-the-way-in-the-office-73990583.jpg)
 
 Hab ich eigentlich schonmal erzählt, dass mein Arbeitsweg seit ich ins neue Haus gezogen bin direkt am Meer vorbeiführt? Welcher Bürojob bietet das schon? ;) Ich kann mir gut vorstellen, dass es Leute gibt, denen das gefällt.
 
- [1]: http://www.flickr.com/photos/schreibblogade/73990583/ "On the way in the office."

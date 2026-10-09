@@ -519,6 +519,7 @@ Palmenblätter
 Palmenspitzen
 Pampe
 panikerregenden
+Partyfläche
 Partyhalle
 Patronenplätze
 Pattama
@@ -678,6 +679,7 @@ Samuikabel
 Samuis
 Samuistyle
 Sanook
+Sanuk
 Sathorn
 Saufkumpanen
 Savannakhet
@@ -925,6 +927,7 @@ Vollständigkeitsfanatiker
 vorbeischleppt
 vorbeisieht
 vorbeispaziert
+wachzubleiben
 Wahlkampfticker
 waie
 waien
