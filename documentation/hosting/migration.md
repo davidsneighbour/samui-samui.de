@@ -15,7 +15,7 @@ Runbook for moving production from Netlify to the DreamHost origin behind Cloudf
 | Astro `redirects` (`src/data/redirects.json`, meta-refresh pages) | Unchanged; they are files in `dist/` |
 | `/api/weather` → `/.netlify/functions/weather` | Worker route `samui-samui.de/api/*` → `src/workers/api/weather.ts` |
 | `/.netlify/functions/contact` | Worker `POST /api/contact` (`src/workers/api/contact.ts`); form action changed to `/api/contact` |
-| Netlify environment variables | Worker secrets; `TURNSTILE_SITE_KEY` in `.env` / GitHub secret |
+| Netlify environment variables | Worker secrets; `TURNSTILE_SITE_KEY` in `.env` |
 | `Netlify-CDN-Cache-Control` for weather | Workers Cache API in the Worker |
 | www → apex redirect | Cloudflare Single Redirect `samui_www_to_apex` |
 | `netlify deploy` (`npm run deploy[:production]`) | `npm run deploy`, `deploy:site`, `deploy:worker`; legacy commands renamed `deploy:netlify[:production]` |

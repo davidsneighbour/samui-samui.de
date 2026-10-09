@@ -88,20 +88,18 @@ Rollback switches the symlink and purges the `html` and `static` tags. Fingerpri
 
 ## Secrets and configuration
 
-Local values live in a git-ignored `.env` in the project root (template: [`.env.example`](../../.env.example)); the deploy scripts load it automatically. CI sets the same names as GitHub secrets. Nothing secret or machine-specific is committed.
+Local values live in a git-ignored `.env` in the project root (template: [`.env.example`](../../.env.example)); the deploy scripts load it automatically. Nothing secret or machine-specific is committed.
 
 | Name | Where | Purpose |
 | --- | --- | --- |
-| `DREAMHOST_HOST` | `.env` / GitHub secret | Server name or SSH config alias (locally `samuisamui`). |
-| `DREAMHOST_USER` | `.env` / GitHub secret | SSH user (empty when the alias sets it). |
-| `DREAMHOST_PATH` | `.env` / GitHub secret | Web directory, `/home/samuisamui/samui-samui.de/public`. |
-| `DREAMHOST_SSH_KEY` | GitHub secret | Private key of a deploy-only key pair whose public key is in DreamHost's `~/.ssh/authorized_keys`. |
-| `DREAMHOST_KNOWN_HOSTS` | GitHub secret | Output of `ssh-keyscan iad1-shared-e1-08.dreamhost.com`, verified once by hand; pins the host key. |
+| `DREAMHOST_HOST` | `.env` | Server name or SSH config alias (locally `samuisamui`). |
+| `DREAMHOST_USER` | `.env` | SSH user (empty when the alias sets it). |
+| `DREAMHOST_PATH` | `.env` | Web directory, `/home/samuisamui/samui-samui.de/public`. |
 | `DREAMHOST_DEPLOY_STRATEGY`, `DREAMHOST_KEEP_RELEASES`, `DREAMHOST_SSH_CONFIG` | `.env` (optional) | Strategy, retention, alternative ssh_config. |
-| `CLOUDFLARE_API_TOKEN` | `.env` / GitHub secret | Deploy token, see below. |
-| `CLOUDFLARE_ACCOUNT_ID` | `.env` / GitHub secret | Account for `wrangler deploy`. |
-| `CLOUDFLARE_ZONE_ID` | `.env` / GitHub secret (optional) | Skips the zone lookup (then Zone:Read is not needed). |
-| `TURNSTILE_SITE_KEY` | `.env` / GitHub secret | Public site key, rendered into the contact form at build time. |
+| `CLOUDFLARE_API_TOKEN` | `.env` | Deploy token, see below. |
+| `CLOUDFLARE_ACCOUNT_ID` | `.env` | Account for `wrangler deploy`. |
+| `CLOUDFLARE_ZONE_ID` | `.env` (optional) | Skips the zone lookup (then Zone:Read is not needed). |
+| `TURNSTILE_SITE_KEY` | `.env` | Public site key, rendered into the contact form at build time. |
 | `DEPLOY_PURGE_MODE`, `CACHE_PURGE_HTML_URL_LIMIT` | `.env` (optional) | Invalidation defaults. |
 | `RESEND_API_KEY`, `TURNSTILE_SECRET`, `CONTACT_EMAIL_FROM`, `CONTACT_EMAIL_TO`, `CONTACT_EMAIL_BCC` | Worker secrets | Set once with `npx wrangler secret put <NAME>`; `wrangler.jsonc` lists the required ones. |
 
@@ -119,12 +117,11 @@ Create one custom token (**My Profile → API Tokens → Create Token → Custom
 * Account → Account Rulesets → Edit
 * Account → Account Filter Lists → Edit
 
-The Workers permissions are a minimal subset of Cloudflare's **Edit Cloudflare Workers** token template. This subset is not yet verified against a real `wrangler deploy`. If Wrangler reports a missing permission, add **Account → Account Settings → Read** and **User → Memberships → Read** from that template. The Cache Rules and Single Redirect permissions are only needed for `npm run cache:rules:update`. You can leave them out of the CI token and use a separate local token when you change rules. For the MCP server, see [Cloudflare MCP](cloudflare-mcp.md).
+The Workers permissions are a minimal subset of Cloudflare's **Edit Cloudflare Workers** token template. This subset is not yet verified against a real `wrangler deploy`. If Wrangler reports a missing permission, add **Account → Account Settings → Read** and **User → Memberships → Read** from that template. The Cache Rules and Single Redirect permissions are only needed for `npm run cache:rules:update`. You can keep them in a separate token that you use only when you change rules. For the MCP server, see [Cloudflare MCP](cloudflare-mcp.md).
 
-<!-- markdownlint-disable-next-line dnb-title-case-style -->
-## GitHub Actions
+## Where deploys run
 
-[`.github/workflows/deploy.yml`](../../.github/workflows/deploy.yml) runs `npm run deploy -- --yes` on manual dispatch only (inputs: purge mode, deploy Worker). It installs with `npm ci` on the Node version from `.nvmrc`, builds once, and ships that `dist/`. It uses the `production` environment, so its secrets can be limited to that environment and protected with a required reviewer. Deploys stay manual on purpose ([#1708](https://github.com/davidsneighbour/samui-samui.de/issues/1708)). Local `npm run deploy` stays fully supported and uses the same code.
+Deploys run from the maintainer's terminal only. There is no CI deployment: the GitHub Actions workflow drafted during the migration was removed on 2026-10-09, because a second deploy path would need its own SSH key and Cloudflare token for no practical gain. Builds happen exactly once, locally, and DreamHost never builds.
 
 ## Smoke tests
 

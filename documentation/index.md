@@ -57,7 +57,7 @@
 
 * [Hosting architecture](hosting/architecture.md) explains where each request runs (DreamHost origin, Cloudflare cache, `/api/*` Worker), why Netlify was replaced, and the development-phase versus steady-state policy.
 * [Caching and invalidation](hosting/caching.md) records the edge and browser cache policy and TTL reasoning, the Cloudflare Cache Rules, broad versus selective purging, deterministic builds, cache warming, and cache-status inspection.
-* [Deployment](hosting/deployment.md) documents the deploy commands and pipeline, atomic DreamHost releases, release management, rollback, secrets and the Cloudflare token, GitHub Actions, and the smoke tests.
+* [Deployment](hosting/deployment.md) documents the deploy commands and pipeline, atomic DreamHost releases, release management, rollback, secrets and the Cloudflare token, where deploys run, and the smoke tests.
 * [Migration from Netlify](hosting/migration.md) is the cutover runbook: component map, DNS and TLS steps, verification and measurements, rollback, and the Netlify clean-up checklist.
 * [Cloudflare MCP server](hosting/cloudflare-mcp.md) documents the project-scoped Cloudflare MCP server and its file-based token authentication.
 
