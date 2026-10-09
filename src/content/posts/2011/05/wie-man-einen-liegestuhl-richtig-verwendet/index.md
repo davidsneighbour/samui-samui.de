@@ -11,12 +11,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="image media">
-  <a href="http://www.flickr.com/photos/schreibblogade/5682725231/" title="The right way to use deck chairs by Patrick Kollitsch, on Flickr"><img src="//farm6.static.flickr.com/5143/5682725231_00eb55e765_z.jpg" width="640" height="480" alt="The right way to use deck chairs" /></a></p>
+![The right way to use deck chairs](./the-right-way-to-use-deck-chairs-5682725231.jpg)
 
-  <p>
-    The right way to use deck chairs
-  </p>
-</div>
+The right way to use deck chairs
 
 Hier zeigt uns Soosie (die am Sonntag 5 Jahre alt geworden ist) wie man einen Liegestuhl richtig verwendet.

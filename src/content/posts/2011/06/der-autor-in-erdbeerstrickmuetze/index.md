@@ -11,10 +11,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/5804406197/" title="me and my new programming tool by Patrick Kollitsch, on Flickr"><img src="//farm6.static.flickr.com/5230/5804406197_7251054209_z.jpg" width="640" height="480" alt="me and my new programming tool" /></a></p>
+![me and my new programming tool](./me-and-my-new-programming-tool-5804406197.jpg)
 
-  <p>
-    me and my new programming tool
-  </p>
-</div>
+me and my new programming tool
+
+<!-- grammar-ignore UPPERCASE_SENTENCE_START me -->

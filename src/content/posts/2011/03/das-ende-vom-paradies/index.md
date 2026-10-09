@@ -11,20 +11,9 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/5576157255/" title="The end of the paradise"><img src="//farm6.static.flickr.com/5065/5576157255_158e511032_z.jpg" width="640" height="480" alt="The end of the paradise" /></p>
+![The end of the paradise](./the-end-of-the-paradise-5576157255.jpg)
 
-  <p>
-    The end of the paradise
-  </p>
+The end of the paradise
 
-  <p>
-    </a></div>
+Das kleine Samui-Paradies-Resort hat Montagnacht ziemlich viel Wasser abbekommen. Das Restaurant ist jetzt unterhöhlt und ob der Pool noch steht (dahinter geht es gut zwei Meter in die Tiefe und der Sand, den man hier auf dem Photo links sehen kann, gehört eigentlich <em>unter</em> den Pool) werde ich morgen sehen. Ich muss sowieso mal eine Inselrundfahrt machen, wir haben da eine neue Touristenattraktion in den Bergen zwischen Lamai und Chaweng --- da kam ein großer Felsbrocken den Hang herunter und blockiert nun 2/3 der Strasse.
 
-    <p>
-      Das kleine <a href="http://samui-paradies-resort.com/">Samui-Paradies-Resort</a> hat Montag Nacht ziemlich viel Wasser abbekommen. Das Restaurant ist jetzt unterhöhlt und ob der Pool noch steht (dahinter geht es gut zwei Meter in die Tiefe und der Sand, den man <a href="http://www.flickr.com/photos/schreibblogade/5576743774/in/photostream/">hier auf dem Photo links sehen kann</a> gehört eigentlich <em>unter</em> den Pool) werde ich morgen sehen. Ich muss sowieso mal eine Inselrundfahrt machen, wir haben da eine neue Touristenattraktion in den Bergen zwischen Lamai und Chaweng --- da kam ein großer Felsbrocken den Hang herunter und blockiert nun 2/3 der Strasse.
-    </p>
-
-    <p>
-      Mehr Photos in <a href="http://www.flickr.com/photos/schreibblogade/sets/72157626398055630/with/5576743774/">The end of the paradise</a>.
-    </p>

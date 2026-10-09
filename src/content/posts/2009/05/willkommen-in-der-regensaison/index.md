@@ -10,10 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3551249566/" title="Rainseason"><img src="//farm3.static.flickr.com/2472/3551249566_3dd2bf709c.jpg" alt="Rainseason" /></a></p>
+![Rainseason](./rainseason-3551249566.jpg)
 
-  <p>
-    Rainseason
-  </p>
-</div>
+Rainseason
+
+<!-- cspell:ignore Rainseason -->

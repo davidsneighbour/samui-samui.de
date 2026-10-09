@@ -11,20 +11,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/5423849913/" title="We are not alone"><img src="//farm6.static.flickr.com/5100/5423849913_91958379d0_z.jpg" alt="We are not alone" /></p>
+![We are not alone](./we-are-not-alone-5423849913.jpg)
 
-  <p>
-    We are not alone
-  </p>
+We are not alone
 
-  <p>
-    </a></div>
+Gestern fiel mal wieder in der Gegend der Strom aus. Der ganzen Sache vorausgegangen war eine ziemlich laute Explosion in Maenam. Ich war also vorgewarnt und entschloss mich, mal zu sehen, was die Kamera denn in Hinsicht auf das Photographieren von Sternen hergibt. Ich denke, da kann ich noch viel lernen, trotzdem gefällt mir das Bild oben ganz gut.
 
-    <p>
-      Gestern fiel mal wieder in der Gegend der Strom aus. Der ganzen Sache vorausgegangen war eine ziemlich laute Explosion in Maenam. Ich war also vorgewarnt und entschloss mich, mal zu sehen, was die Kamera denn in Hinsicht auf das Photographieren von Sternen hergibt. Ich denke, da kann ich noch viel lernen, trotzdem gefällt mir das Bild oben ganz gut.
-    </p>
-
-    <p>
-      Ohne Stromausfall sieht man meist nur ein paar Sterne, weil die Insel dann doch recht stark den Nachthimmel erhellt. Absoute Dunkelheit ist eine schöne Sache.
-    </p>
+Ohne Stromausfall sieht man meist nur ein paar Sterne, weil die Insel dann doch recht stark den Nachthimmel erhellt. Absolute Dunkelheit ist eine schöne Sache.

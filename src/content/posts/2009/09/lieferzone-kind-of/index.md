@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3888420725/" title="Thank you for that go along"><img src="//farm3.static.flickr.com/2469/3888420725_e999e33d1c.jpg" alt="Thank you for that go along" /></a></p>
+![Thank you for that go along](./thank-you-for-that-go-along-3888420725.jpg)
 
-  <p>
-    Thank you for that go along
-  </p>
-</div>
+Thank you for that go along

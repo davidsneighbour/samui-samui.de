@@ -11,16 +11,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/5262915425/" title="Samui-Samui als Google Chrome Application"><img src="//farm6.static.flickr.com/5163/5262915425_5fa11715c9_z.jpg" alt="Samui-Samui als Google Chrome Application" /></p>
+![Samui-Samui als Google Chrome Application](./my-own-little-google-chrome-application-5262915425.png)
 
-  <p>
-    Samui-Samui als Google Chrome Application
-  </p>
+Samui-Samui als Google Chrome Application
 
-  <p>
-    </a></div>
-
-    <p>
-      Legt sich eine eigene Google Chrome Application zu. Siehe <a href="https://chrome.google.com/webstore/detail/iiphnipanbfhcgecccjjcfohmefcoffg">hier</a>.
-    </p>
+Legt sich eine eigene Google Chrome Application zu. Siehe <a href="https://chrome.google.com/webstore/detail/iiphnipanbfhcgecccjjcfohmefcoffg">hier</a>.

@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3236592170/" title="Cornered"><img src="//farm4.static.flickr.com/3503/3236592170_30da7055d2.jpg" alt="Cornered" /></a></p>
+![Cornered](./cornered-3236592170.jpg)
 
-  <p>
-    Cornered
-  </p>
-</div>
+Cornered

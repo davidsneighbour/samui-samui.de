@@ -11,16 +11,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/4513675671/" title="Germanytrip 2010: Türkeil"><img src="//farm3.static.flickr.com/2303/4513675671_445e0cd4d5.jpg" alt="Germanytrip 2010: Türkeil" /></p>
+![Germanytrip 2010: Türkeil](./germanytrip-2010-tr-keil-4513675671.jpg)
 
-  <p>
-    Germanytrip 2010: Türkeil
-  </p>
+Germanytrip 2010: Türkeil
 
-  <p>
-    </a></div>
+Neulich war ich mal wieder in Deutschland. Der große Tatsachenbericht folgt demnächst.
 
-    <p>
-      Neulich war ich mal wieder in Deutschland. Der große Tatsachenbericht folgt demnächst. Bis dahin kann der geneigte Leser <a href="http://www.flickr.com/photos/schreibblogade/sets/72157623712921723/">Photos bei Flickr.com betrachten</a>.
-    </p>
+<!-- cspell:ignore Germanytrip -->

@@ -11,12 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/4671928386/" title="Ban Taling Ngaam"><img src="//farm5.static.flickr.com/4026/4671928386_283481a59a.jpg" alt="Ban Taling Ngaam" /></p>
+![Ban Taling Ngaam](./ban-taling-ngaam-4671928386.jpg)
 
-  <p>
-    Ban Taling Ngaam
-  </p>
-
-  <p>
-    </a></div>
+Ban Taling Ngaam

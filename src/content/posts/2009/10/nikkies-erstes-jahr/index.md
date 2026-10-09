@@ -10,18 +10,16 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3066048768/" title="Nikki (7 Weeks old)"><img src="//farm4.static.flickr.com/3243/3066048768_ff8b8d6979.jpg" alt="Nikki (7 Weeks old)" /></a></p>
+![Nikki (7 Weeks old)](./nikki-7-weeks-old-3066048768.jpg)
 
-  <p>
-    Nikki (7 Weeks old)
-  </p>
-</div>
+Nikki (7 Weeks old)
 
-Heute wurde Nikkie 1 Jahr alt. Vor genau einem Jahr (auf diesem Photo liegt sie ganz rechts als schwarz geschecktes kleines Etwas an der mütterlichen Nahrungsversorgung) kamen an einem recht aufregenden Samstag Morgen drei kleine Shih-Tzus zur Welt. Seither bezeichne ich mich gerne als Züchter.
+Heute wurde Nikkie 1 Jahr alt. Vor genau einem Jahr (auf diesem Photo liegt sie ganz rechts als schwarz geschecktes kleines Etwas an der mütterlichen Nahrungsversorgung) kamen an einem recht aufregenden Samstagmorgen drei kleine Shih-Tzus zur Welt. Seither bezeichne ich mich gerne als Züchter.
 
-Aus Nike (wir Kenner sprechen das gerne wie Nai-Kiiiih aus) wurde Nikkie. Ein kleines Fellbündel. Es waren 12 recht interessante Monate, in denen Nikkie erst sü?, dann aufsässig, dann nervig und dann ein Familienmitglied wurde. Die Chance sie wegzugeben und nicht zu lieben habe ich schon lange verspielt.
+Aus Nike (wir Kenner sprechen das gerne wie Nai-Kiiiih aus) wurde Nikkie. Ein kleines Fellbündel. Es waren 12 recht interessante Monate, in denen Nikkie erst süß, dann aufsässig, dann nervig und dann ein Familienmitglied wurde. Die Chance sie wegzugeben und nicht zu lieben habe ich schon lange verspielt.
 
-(Neue) Photos gibt es leider nicht, weil es heute unmittelbar nach dem Hundeduschbad zu regnen begann und alle drei Viecher die Gelegenheit nutzten, mich um vier vergeudete Arbeitsstunden trauern zu lassen. Dafür mehr [bei Flickr.com][1].
+(Neue) Photos gibt es leider nicht, weil es heute unmittelbar nach dem Hundeduschbad zu regnen begann und alle drei Viecher die Gelegenheit nutzten, mich um vier vergeudete Arbeitsstunden trauern zu lassen.
 
- [1]: http://www.flickr.com/photos/schreibblogade/
+
+<!-- cspell:ignore Kiiiih -->
+<!-- grammar-ignore DE_CASE Etwas -->

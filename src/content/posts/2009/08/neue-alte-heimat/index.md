@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3856571378/" title="New old home"><img src="//farm4.static.flickr.com/3548/3856571378_55a283695a.jpg" alt="New old home" /></a></p>
+![New old home](./new-old-home-3856571378.jpg)
 
-  <p>
-    New old home
-  </p>
-</div>
+New old home

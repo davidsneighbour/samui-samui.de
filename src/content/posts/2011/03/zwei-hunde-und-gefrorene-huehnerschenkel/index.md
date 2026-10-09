@@ -13,16 +13,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/5529269128/" title="Sick Soosie, frozen chicken and attention needing Pokki"><img src="//farm6.static.flickr.com/5099/5546480784_a9183997c5_z.jpg" width="640" height="480" alt="Sick Soosie, frozen chicken and attention needing Pokki" /></p>
+![Sick Soosie, frozen chicken and attention needing Pokki](./sick-soosie-frozen-chicken-and-attention-needing-pokki-5546480784.jpg)
 
-  <p>
-    Sick Soosie, frozen chicken and attention needing Pokki
-  </p>
+Sick Soosie, frozen chicken and attention needing Pokki
 
-  <p>
-    </a></div>
+Wir waren heute wieder beim Tierarzt. Soosie geht es besser, gefressen hat sie trotzdem seit Mittwoch fast nichts --- mehr schreib ich, wenn die ganze Sache ausgestanden ist.
 
-    <p>
-      Wir waren heute wieder beim Tierarzt. Soosie geht es besser, gefressen hat sie trotzdem seit Mittwoch fast nichts --- mehr schreib ich, wenn die ganze Sache ausgestanden ist.
-    </p>
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E schreib -->

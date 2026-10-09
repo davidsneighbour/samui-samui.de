@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3424067780/" title="Samui? Samui! (Design study)"><img src="//farm4.static.flickr.com/3641/3424067780_e243282284.jpg" alt="Samui? Samui! (Design study)" /></a></p>
+![Samui? Samui! (Design study)](./samui-samui-design-study-3424067780.jpg)
 
-  <p>
-    Samui? Samui! (Design study)
-  </p>
-</div>
+Samui? Samui! (Design study)
 
-Damit mir niemand nachsagen kann, ich hätte nicht am neuen Websitedesing gearbeitet.
+Damit mir niemand nachsagen kann, ich hätte nicht am neuen Websitedesign gearbeitet.

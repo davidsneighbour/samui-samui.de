@@ -11,12 +11,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/4808629515/" title="you know it's rain season, when..."><img src="//farm5.static.flickr.com/4075/4808629515_ea5cb6a710.jpg" alt="you know it's rain season, when..." /></p>
+![you know it's rain season, when...](./you-know-its-rain-season-when-4808629515.jpg)
 
-  <p>
-    you know it's rain season, when...
-  </p>
+you know it's rain season, when …
 
-  <p>
-    </a></div>
+<!-- grammar-ignore UPPERCASE_SENTENCE_START you -->

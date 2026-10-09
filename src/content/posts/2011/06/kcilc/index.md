@@ -11,10 +11,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/5804958122/" title="click! by Patrick Kollitsch, on Flickr"><img src="//farm4.static.flickr.com/3046/5804958122_e4bef8cd51_z.jpg" width="640" height="480" alt="click!" /></a></p>
+![click!](./click-5804958122.jpg)
 
-  <p>
-    Click!
-  </p>
-</div>
+Click!
+
+<!-- cspell:ignore kcil -->

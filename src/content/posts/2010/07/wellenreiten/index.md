@@ -11,20 +11,13 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/4763589169/" title="Dirty5"><img src="//farm5.static.flickr.com/4078/4763589169_0b94332b37.jpg" alt="Dirty5" /></p>
+![Dirty5](./dirty5-4763589169.jpg)
 
-  <p>
-    Dirty5
-  </p>
+Dirty5
 
-  <p>
-    </a></div>
+Der Begriff Wellenreiten ist falsch gewählt, finde ich. Eine Welle ist ja nie zu verschiedenen Zeitpunkten an der gleichen Stelle wellig oben.
 
-    <p>
-      Der Begriff Wellenreiten ist falsch gewählt, finde ich. Eine Welle ist ja nie zu verschiedenen Zeitpunkten an der gleichen Stelle wellig oben.
-    </p>
+PS: Hab einige Leute heute mit der Drohung verunsichert, die zweite Hälfte auch noch durchzuziehen. Runterzu geht es immer schneller als raufzu. Aber das nur am Rande …
 
-    <p>
-      PS: Hab einige Leute heute mit der Drohung verunsichert, die zweite Hälfte auch noch durch zu ziehen. Runterzu geht es immer schneller als raufzu. Aber das nur am Rande...
-    </p>
+<!-- cspell:ignore Runterzu -->
+<!-- cspell:ignore raufzu -->

@@ -11,12 +11,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/6191521381/" title="At the beach by Patrick Kollitsch, on Flickr"><img src="//farm7.static.flickr.com/6171/6191521381_57fa4f5439_z.jpg" width="640" height="480" alt="At the beach" /></a></p>
+![At the beach](./at-the-beach-6191521381.jpg)
 
-  <p>
-    At the beach
-  </p>
-</div>
+At the beach
 
 ... was den echten Urlauber ja nicht wirklich stört. Sorry, bin heute in Marketinggelaberlaune.
+
+<!-- cspell:ignore Marketinggelaberlaune -->

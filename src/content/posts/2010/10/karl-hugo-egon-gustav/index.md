@@ -13,16 +13,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/5123827876/" title="Hugo Egon"><img src="//farm5.static.flickr.com/4032/5123827876_9102d4fbae_z_d.jpg" alt="Hugo Egon" /></p>
+![Hugo Egon](./hugo-egon-5123827876.jpg)
 
-  <p>
-    Hugo Egon
-  </p>
+Hugo Egon
 
-  <p>
-    </a></div>
-
-    <p>
-      Mein neuer Untermieter. Nachts macht er Krach, Tagsüber schläft er. Ein echter Geek.
-    </p>
+Mein neuer Untermieter. Nachts macht er Krach, tagsüber schläft er. Ein echter Geek.

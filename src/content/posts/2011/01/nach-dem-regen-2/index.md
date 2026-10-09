@@ -11,4 +11,4 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<txp:imagebox link="<http://www.flickr.com/photos/schreibblogade/5366756554/>" image="<http://farm6.static.flickr.com/5087/5366756554\_77e1cf8073\_z.jpg>" title="Lilawadee after rain" />
+![Lilawadee after rain](./lilawadee-after-rain-5366756554.jpg)

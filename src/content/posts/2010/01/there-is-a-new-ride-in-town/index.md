@@ -11,24 +11,15 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/4310873587/" title="The new ride"><img src="//farm5.static.flickr.com/4060/4310873587_90d1724e1a.jpg" alt="The new ride" /></p>
+![The new ride](./the-new-ride-4310873587.jpg)
 
-  <p>
-    The new ride
-  </p>
+The new ride
 
-  <p>
-    </a></div>
+Seit 10 Tagen steht auf dem Hof ein neues Moped. Mit jungfräulichen 11 gefahrenen Kilometern darf ich mich nun stolzer Mieter eines orange-schwarzen Zweirades nennen.
 
-    <p>
-      Seit 10 Tagen steht auf dem Hof ein neues Moped. Mit jungfräulichen 11 gefahrenen Kilometern darf ich mich nun stolzer Mieter eines orange-schwarzen Zweirades nennen.
-    </p>
+Interessanterweise kam es erstens unerwartet und zweitens genau an dem Tag, an dem ich nach mehr als drei Jahren fest vorhatte, die alte rote Kiste mal zu waschen. Egal. Möge es in Ruhe verdrecken, ich fahre nun orange-schwarz.
 
-    <p>
-      Interessanterweise kam es erstens unerwartet und zweitens genau an dem Tag, an dem ich nach mehr als drei Jahren fest vor hatte, die alte rote Kiste mal zu waschen. Egal. Möge es in Ruhe verdrecken, ich fahre nun orange-schwarz.
-    </p>
+Warum ich die Farbe sehr passend finde, erzähl ich später einmal.
 
-    <p>
-      Warum ich die Farbe sehr passend finde, erzähl ich später einmal.
-    </p>
+<!-- grammar-ignore DE_REPEATEDWORDS_NUN nun -->
+<!-- grammar-ignore ERSTE_PERSON_SIN_OHNE_E erzähl -->

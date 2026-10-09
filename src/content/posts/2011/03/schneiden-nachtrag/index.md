@@ -11,16 +11,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/5529269128/" title="Pokki clean and short by Patrick Kollitsch, on Flickr"><img src="//farm6.static.flickr.com/5178/5529269128_80978b56cf_z.jpg" width="640" height="480" alt="Pokki clean and short" /></p>
+![Pokki clean and short](./pokki-clean-and-short-5529269128.jpg)
 
-  <p>
-    Pokki clean and short
-  </p>
+Pokki clean and short
 
-  <p>
-    </a></div>
+Mehr Photos wie immer bei Flickr. Unter anderem die Haarklammern Soosies, die genau 5 Minuten in den Haaren blieben. Arme Hello Kitty Kitty.
 
-    <p>
-      Mehr Photos wie immer <a href="http://www.flickr.com/photos/schreibblogade">bei Flickr</a>. Unter anderem <a href="http://www.flickr.com/photos/schreibblogade/5528682313/">die Haarklammern Soosies</a>, die genau 5 Minuten in den Haaren blieben. Arme Hello Kitty Kitty.
-    </p>
+<!-- grammar-ignore GERMAN_WORD_REPEAT_RULE Kitty Kitty -->

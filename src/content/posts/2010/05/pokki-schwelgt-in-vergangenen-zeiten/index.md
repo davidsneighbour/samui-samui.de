@@ -11,12 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/4574739193/" title="Pokki enjoys..."><img src="//farm4.static.flickr.com/3314/4574739193_4488bcb29c.jpg" alt="Pokki enjoys..." /></p>
+![Pokki enjoys...](./pokki-enjoys-4574739193.jpg)
 
-  <p>
-    Pokki enjoys...
-  </p>
-
-  <p>
-    </a></div>
+Pokki enjoys …

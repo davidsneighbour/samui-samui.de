@@ -11,10 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/6246115555/" title="Sunset by Patrick Kollitsch, on Flickr"><img src="//farm7.static.flickr.com/6224/6246115555_d9995cc2f0_z.jpg" width="640" height="480" alt="Sunset" /></a></p>
+![Sunset](./sunset-6246115555.jpg)
 
-  <p>
-    Sunset
-  </p>
-</div>
+Sunset

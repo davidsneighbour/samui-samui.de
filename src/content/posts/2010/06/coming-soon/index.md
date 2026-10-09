@@ -11,16 +11,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/4678464125/" title="Samui? Samui!"><img src="//farm2.static.flickr.com/1295/4678464125_049920c665.jpg" alt="Samui? Samui!" /></p>
+![Samui? Samui!](./samui-samui-4678464125.png)
 
-  <p>
-    Samui? Samui!
-  </p>
+Samui? Samui!
 
-  <p>
-    </a></div>
+... im Sinne von lieber jetzt gleich aber wahrscheinlich eher übernächstes Wochenende … Der Grund für rund zwei Jahre eingeschränktes Bloggen ;)
 
-    <p>
-      ... im Sinne von lieber jetzt gleich aber wahrscheinlich eher übernächstes Wochenende... Der Grund für rund zwei Jahre eingeschränktes Bloggen ;)
-    </p>
+<!-- grammar-ignore DE_CASE Der -->

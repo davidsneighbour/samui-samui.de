@@ -10,12 +10,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3066048768/" title="Nikki (7 Weeks old)"><img src="//farm4.static.flickr.com/3243/3066048768_ff8b8d6979.jpg" alt="Nikki (7 Weeks old)" /></a></p>
+![Nikki (7 Weeks old)](./nikki-7-weeks-old-3066048768.jpg)
 
-  <p>
-    Nikki (7 Weeks old)
-  </p>
-</div>
+Nikki (7 Weeks old)
 
 Das ist Nikki, Nummer drei ;)

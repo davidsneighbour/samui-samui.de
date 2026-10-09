@@ -11,16 +11,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/4671923072/" title="Me now"><img src="//farm5.static.flickr.com/4055/4671923072_a5874ab858.jpg" alt="Me now" /></p>
+![Me now](./me-now-4671923072.jpg)
 
-  <p>
-    Me now
-  </p>
+Me now
 
-  <p>
-    </a></div>
-
-    <p>
-      ... und ich sehe hier ziemlich schlank aus ;)
-    </p>
+... und ich sehe hier ziemlich schlank aus ;)

@@ -11,10 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/5679722303/" title="Whats that? by Patrick Kollitsch, on Flickr"><img src="//farm6.static.flickr.com/5227/5679722303_1b6656872f_z.jpg" width="640" height="480" alt="Whats that?" /></a></p>
+![Whats that?](./whats-that-5679722303.jpg)
 
-  <p>
-    Was mag das wohl sein?
-  </p>
-</div>
+Was mag das wohl sein?

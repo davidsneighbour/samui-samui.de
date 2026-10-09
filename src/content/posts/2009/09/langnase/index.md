@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3950706521/" title="Cut"><img src="//farm4.static.flickr.com/3463/3950706521_1650412914.jpg" alt="Cut" /></a></p>
+![Cut](./cut-3950706521.jpg)
 
-  <p>
-    Cut
-  </p>
-</div>
+Cut

@@ -10,10 +10,9 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3979022899/" title="highspeed internet"><img src="//farm4.static.flickr.com/3512/3979022899_971ff9a7ed.jpg" alt="highspeed internet" /></a></p>
+![highspeed internet](./highspeed-internet-3979022899.jpg)
 
-  <p>
-    highspeed internet
-  </p>
-</div>
+highspeed internet
+
+<!-- grammar-ignore UPPERCASE_SENTENCE_START highspeed -->
+<!-- cspell:ignore highspeed -->

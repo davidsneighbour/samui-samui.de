@@ -11,12 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/4574668721/" title="Strange"><img src="//farm5.static.flickr.com/4019/4574668721_62df95ffa7.jpg" alt="Strange" /></p>
+![Strange](./strange-4574668721.jpg)
 
-  <p>
-    Strange
-  </p>
-
-  <p>
-    </a></div>
+Strange

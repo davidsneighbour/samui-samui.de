@@ -11,16 +11,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/5578594276/" title="Good Morning Samui"><img src="//farm6.static.flickr.com/5012/5578594276_9ee61df8a5_z.jpg" width="640" height="480" alt="Good Morning Samui" /></p>
+![Good Morning Samui](./good-morning-samui-5578594276.jpg)
 
-  <p>
-    Good Morning Samui
-  </p>
+Good Morning Samui
 
-  <p>
-    </a></div>
-
-    <p>
-      Blauer Himmel, Sonne und Hitze --- als ob nichts gewesen wäre.
-    </p>
+Blauer Himmel, Sonne und Hitze --- als ob nichts gewesen wäre.

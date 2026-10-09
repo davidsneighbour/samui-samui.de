@@ -11,12 +11,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/4763632349/" title="Dirty5 (years ago)"><img src="//farm5.static.flickr.com/4118/4763632349_ee1cc2e2e5.jpg" alt="Dirty5 (years ago)" /></p>
+![Dirty5 (years ago)](./dirty5-years-ago-4763632349.jpg)
 
-  <p>
-    Dirty5 (years ago)
-  </p>
-
-  <p>
-    </a></div>
+Dirty5 (years ago)

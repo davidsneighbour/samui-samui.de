@@ -11,14 +11,12 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/6191520661/" title="Holidays? by Patrick Kollitsch, on Flickr"><img src="//farm7.static.flickr.com/6160/6191520661_f99a086bb8_z.jpg" width="640" height="480" alt="Holidays?" /></a></p>
+![Holidays?](./holidays-6191520661.jpg)
 
-  <p>
-    Holidays?
-  </p>
-</div>
+Holidays?
 
 Hütte am Meer: 6000THB im Monat (ca. 150 Euro)
 
 Das Versprechen "Ich komme dich wirklich mal auf Samui besuchen" bereits 2 Wochen nach Verkündigung wahr gemacht zu haben: Unbezahlbar.
+
+<!-- grammar-ignore DE_CASE Unbezahlbar -->

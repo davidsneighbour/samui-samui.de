@@ -11,16 +11,8 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="media image">
-  <a href="http://www.flickr.com/photos/schreibblogade/5424783104/" title="13000 days"><img src="//farm6.static.flickr.com/5218/5424783104_f2651c342c_z.jpg" alt="13000 days" /></p>
+![13000 days](./13000-days-5424783104.jpg)
 
-  <p>
-    13000 days
-  </p>
+13000 days
 
-  <p>
-    </a></div>
-
-    <p>
-      ... gefühlt sinds nur 12.500 ;) ...
-    </p>
+... gefühlt sinds nur 12.500 ;) ...

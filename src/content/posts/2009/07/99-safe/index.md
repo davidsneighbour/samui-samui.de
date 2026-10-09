@@ -10,10 +10,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3752237106/" title="99% safe"><img src="//farm4.static.flickr.com/3473/3752237106_2d6b2ac9db.jpg" alt="99% safe" /></a></p>
+![99% safe](./99-safe-3752237106.jpg)
 
-  <p>
-    99% safe
-  </p>
-</div>
+99 % safe

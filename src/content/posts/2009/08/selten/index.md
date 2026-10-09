@@ -10,12 +10,10 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-  <a href="http://www.flickr.com/photos/schreibblogade/3856568848/" title="A rare moment"><img src="//farm4.static.flickr.com/3478/3856568848_54efa57285.jpg" alt="A rare moment" /></a></p>
+![A rare moment](./a-rare-moment-3856568848.jpg)
 
-  <p>
-    A rare moment
-  </p>
-</div>
+A rare moment
 
-Seltenheitswert hat dieses Photo: Alle drei Hunde sind sauber, gekämmt und photogen. 10 Minuten später war es schon wieder zu spät....
+Seltenheitswert hat dieses Photo: Alle drei Hunde sind sauber, gekämmt und photogen. 10 Minuten später war es schon wieder zu spät …
+
+<!-- grammar-ignore DE_SIMPLE_REPLACE_PHOTOGEN photogen -->
