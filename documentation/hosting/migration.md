@@ -77,6 +77,18 @@ Every step before 7 can be done and verified while Netlify still serves producti
 
 ## Verification and measurements
 
+**Cutover done on 2026-10-09** (about 17:00 Bangkok time): apex A `173.236.199.86` and `www` CNAME `samui-samui.de`, both proxied; SSL/TLS Full (strict); Always Use HTTPS on; Origin CA certificate (valid until 2041-10-05) at DreamHost. `npm run test:smoke` passed 49 of 49 checks. Measured from Bangkok (Cloudflare BKK):
+
+| Request | First request after purge (MISS, DreamHost) | Following requests (HIT) |
+| --- | --- | --- |
+| `/` | 641 ms TTFB | 23–25 ms |
+| `/2005/01/connectivity/` | 585 ms | 22–23 ms |
+| `/archiv/themen/politik/` | 662 ms | 21–23 ms |
+| `/assets/BaseHead.C1ksrdDe.css` | — (stayed HIT through the `html` purge) | 18–78 ms |
+| `/api/version`, `/api/weather` (Worker) | — | 18–21 ms |
+
+For comparison, Netlify answered the same pages in 0.34–1.22 s from the same machine. A cache hit is about 15–50 times faster than before; a cold page costs one DreamHost round trip of about 0.6 s.
+
 Run these after step 8 and record the results in [#1783](https://github.com/davidsneighbour/samui-samui.de/issues/1783):
 
 ```bash
