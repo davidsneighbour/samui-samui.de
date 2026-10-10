@@ -53,22 +53,22 @@ const { Content } = await render(event);
       class="py-8"
     >
       <section>
-        <Breadcrumbs
-          class="mx-auto max-w-4xl px-4"
-          items={[
-            { href: '/', label: 'Startseite' },
-            { href: '/archiv/', label: 'Archiv' },
-            { href: '/archiv/ereignisse/', label: 'Ereignisse' },
-            {
-              href: `/archiv/ereignisse/${event.id}/`,
-              label: event.data.title,
-            },
-          ]}
-        />
         <div class="mx-auto mb-8 max-w-4xl px-4">
           <article
             class="rounded-(--radius) border border-border bg-card px-4 py-8 text-card-foreground sm:px-8 dark:border-transparent"
           >
+            <Breadcrumbs
+              class="mb-4"
+              items={[
+                { href: '/', label: 'Startseite' },
+                { href: '/archiv/', label: 'Archiv' },
+                { href: '/archiv/ereignisse/', label: 'Ereignisse' },
+                {
+                  href: `/archiv/ereignisse/${event.id}/`,
+                  label: event.data.title,
+                },
+              ]}
+            />
             <ArchiveNav
               current="ereignisse"
               class="mb-8"

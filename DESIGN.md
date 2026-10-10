@@ -443,9 +443,11 @@ Every keyboard focus uses one two-tone indicator: a 2px `ring-contrast` cream ba
 
 ## Components
 
+In dark mode, page content and wayfinding (including breadcrumbs, archive navigation, titles, and descriptions) must sit inside a content card or another documented content surface. The dark page background is the surrounding canvas, not a reading surface.
+
 ### Event archive and overview
 
-Event detail pages put the archive navigation, title, description, and sourced Markdown overview inside the standard cream card, using `card-foreground` for the introduction and the existing 65ch reading measure for both header and prose. Archive navigation spans the card's full inner width, with 32px below it before the reading column begins. The title uses the existing 24px `heading-lg` size; title-to-description spacing is 16px, and the optional overview follows after 32px. Breadcrumbs remain above the card, with related post cards below.
+Event detail pages put the breadcrumbs, archive navigation, title, description, and sourced Markdown overview inside the standard cream card, using `card-foreground` for the introduction and the existing 65ch reading measure for both header and prose. Archive navigation spans the card's full inner width, with 32px below it before the reading column begins. The title uses the existing 24px `heading-lg` size; title-to-description spacing is 16px, and the optional overview follows after 32px. Breadcrumbs span the card's inner width and have 16px below them before archive navigation. Related post cards follow below the overview card.
 
 The event archive uses a static, single-rail version of the IUMAS timeline pattern. The continuous decorative rail is 2px wide at an 8px inline offset and uses `link` at 40% opacity. Each year group has a 16px circular `link` marker with a 2px `card` border, 32px of inline space for its content, and 32px between groups. Year headings use 24px `heading-lg` with 16px below. Event links use 18px `heading-sm`, weight 700, and the permanent underline and hover treatment of body links; descriptions use the existing 14px `body-sm` size and `muted-foreground`. Events within a year have 16px between them. Native ordered and unordered lists carry the structure; the rail and markers are hidden from assistive technology. The same layout applies at mobile widths and introduces no animation or new colour tokens.
 
