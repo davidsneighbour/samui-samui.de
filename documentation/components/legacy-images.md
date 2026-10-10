@@ -114,3 +114,13 @@ Bundled Markdown-relative images (`![]()` pointing at a file next to `index.md`)
 ## Tests
 
 `src/test/legacy-images-classify.test.ts` covers the pure classification and override-resolution functions. `src/test/legacy-images-rehype.test.ts` runs the rehype plugin against hand-built hast trees (standard/legacy/ thumbnail classification, post-level and per-image overrides, SVG and remote-image fallback, missing-metadata fallback, and the generated markup's accessibility shape).
+
+## Restored archive originals
+
+The October 2026 legacy-image cleanup restored 31 broken body-image references across 25 posts, tracked in [the legacy-markup issue](https://github.com/davidsneighbour/samui-samui.de/issues/1804). Twenty-eight references were recovered from `public/wp-content/old-images/`; three malformed combined-domain URLs were recovered from their intact originals in `public/wp-content/uploads/`. The resolved rows were removed from [the legacy-markup audit](../content/legacy-markup-audit.md).
+
+Original files are stored beside each post’s `index.md` and embedded as relative Markdown images. Numbered `Nt.ext` sources are thumbnails; the restored source is always `N.ext`. Shared originals have a separate byte-identical copy in each post bundle. The 24 recovered old-image originals were moved out of the public archive after copying, and their 21 existing numbered thumbnails were deleted. WordPress upload originals remain in place because existing cover references can still use them. No other archive images or thumbnails were removed.
+
+Astro processes the relative Markdown images and generates its normal responsive derivatives. Old fixed image dimensions, inline float styles, broken full-size image links, and image-only HTML wrappers were removed. Existing alternative text and captions were retained; missing alternative text was added from the recovered image and its article context. Source prose remains unchanged.
+
+The owner’s prose-preservation preference and scoped check exception continue for this legacy-markup cleanup. The scoped content-language check reported 177 spelling findings and 123 grammar findings; Vale reported no findings. Existing spelling, grammar, and historical-link debt is kept separate from image recovery; no dictionaries, hook configuration, or blanket content suppressions were changed. The commit skips that pre-commit hook invocation. The production build and `npm run check` passed, including all 409 tests. All 31 restored body images were verified in the built HTML with Astro-generated `srcset` candidates and existing output files. A browser decoded all 31 restored images successfully.

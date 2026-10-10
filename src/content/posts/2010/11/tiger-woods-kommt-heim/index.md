@@ -10,13 +10,9 @@ publisher:
   seo: true
   covermigration: true
 ---
-<div class="media image">
-  <img src="//samui-samui.de/images/279.jpg"  style="width:620px;" /></p>
+![Abhisit Vejjajiva und Tiger Woods](./279.jpg)
 
-  <p>
-    Thai Prime Minister Abhisit Vejjajiva &#174; and U.S. golfer Tiger Woods smile as they exchange gifts at the Government house in Bangkok November 8, 2010. Woods is in Thailand to play in the "World Golf Salutes King Bhumibol", a one-day skins golf event at the Amata Spring Country Club in Chonburi. (Reuters)
-  </p>
-</div>
+Thai Prime Minister Abhisit Vejjajiva &#174; and U.S. golfer Tiger Woods smile as they exchange gifts at the Government house in Bangkok November 8, 2010. Woods is in Thailand to play in the "World Golf Salutes King Bhumibol", a one-day skins golf event at the Amata Spring Country Club in Chonburi. (Reuters)
 
 Seit ein paar Wochen schon wird es uns verkündet, heute nun ist es soweit: Tiger (Vorsicht, Assoziationsalarm) Woods (hihi) kommt nach Hause. Aber lassen wir [seine Website][1] sprechen:
 
@@ -28,5 +24,5 @@ Das Großereignis wird [von verschiedenen Energiefirmen und dem Energie-Minister
 
 Nun ja. Das letzte Mal war Woods übrigens 2000 in der "alten Heimat". Auch diesmal wird er (natürlich vorsichtig, wir wollen ja nicht die Atmospähre erhitzen) sein Ein-Tages-Tournier spielen und wieder verschwinden. Bis er das nächste Mal gute Publicity braucht.
 
- [1]: http://web.tigerwoods.com/news/article/2010102815875192/news/
- [2]: http://www.amataspring.co.th/news.php?Id=36http://www.amataspring.co.th/news.php?Id=36
+[1]: http://web.tigerwoods.com/news/article/2010102815875192/news/
+[2]: http://www.amataspring.co.th/news.php?Id=36http://www.amataspring.co.th/news.php?Id=36

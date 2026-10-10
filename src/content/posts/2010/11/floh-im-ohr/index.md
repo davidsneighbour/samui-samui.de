@@ -12,13 +12,9 @@ publisher:
   seo: true
   covermigration: true
 ---
-<div class="media image">
-  <img src="//samui-samui.de/images/280.jpg" /></p>
+![Frontline-Werbung in einem Einkaufszentrum](./280.jpg)
 
-  <p>
-    Frontline Ad von 2009, Werbeagentur: Saatchi & Saatchi Jakarta, Indonesien
-  </p>
-</div>
+Frontline Ad von 2009, Werbeagentur: Saatchi & Saatchi Jakarta, Indonesien
 
 Ein nerviges Großereignis mit dem ich mich zur Regenzeit herum schlagen muss ist der alljährliche Zeckenbefall.
 

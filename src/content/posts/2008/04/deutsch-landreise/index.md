@@ -10,4 +10,4 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<img src="//samui-samui.de/images/252t.png" width="540" class="flickr" />
+![Deutsch-thailändische Wortliste](./252.png)

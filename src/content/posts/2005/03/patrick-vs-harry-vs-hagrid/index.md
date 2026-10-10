@@ -62,9 +62,9 @@ Heute werde ich übrigens den ersten Harry zurückgeben und Band 2 bis 5 abholen
 
 PS: Warum ich dies schreibe? Weil am Freitag beim Mittagessen die Mädchen von 5Phase meinten, ich sähe aus wie Hagrid ("not Dumbledore, but the other fat man, the housekeeper"). Was haben wir gelacht. Seh ich nicht. Nicht mal annähernd. Oder?
 
-<img src="/images/82.jpg" style="width:150px;float:left;" />
+![Robbie Coltrane als Hagrid](./82.jpg)
 
-<img src="/images/78.jpg" style="width:150px" />
+![Patrick Kollitsch](./78.jpg)
 
 (Das rechts bin ich). Robbie Coltrane ist übrigens einer meiner Lieblingsschauspieler. "Großartiger Mann! Coltrane! Großartiger Mann!". Ein Link in meiner Filmmatrix zu Johnny Depp. Einer zu Gary Oldman. Tja, und einer zu Harry Potter, aber damit kann ich leben.
 

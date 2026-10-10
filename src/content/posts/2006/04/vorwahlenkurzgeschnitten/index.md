@@ -10,7 +10,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-<img src="/images/208.jpg" style="height:300px; width:192px;float: left;margin-right: 20px;" />Habe ich eigentlich schon erwähnt, dass morgen hier in Thailand Neuwahlen sind? Also nicht planmäßig aber trotzdem irgendwie rechtmäßig? Am vergangenen Wochenende waren bereits einmal Vorwahlen. Da konnte man seine Stimme schonmal abgeben, wenn man morgen auf die eine oder andere Art oder Weise verhindert ist. Die im Voraus abgegebenen Stimmen vom Wochenende überstiegen die der letzten Wahl. Es wählten 681.000 (sagt die Wahlkommission, eigentlich sagte sie einen bis auf den Einer genaue Zahl an). Das deutet dann doch eher auf eine starke Wahlbeteiligung dieses Jahr hin. Meinen kennende Beobachter.
+![Filmplakat von Sin City](./208.jpg)Habe ich eigentlich schon erwähnt, dass morgen hier in Thailand Neuwahlen sind? Also nicht planmäßig aber trotzdem irgendwie rechtmäßig? Am vergangenen Wochenende waren bereits einmal Vorwahlen. Da konnte man seine Stimme schonmal abgeben, wenn man morgen auf die eine oder andere Art oder Weise verhindert ist. Die im Voraus abgegebenen Stimmen vom Wochenende überstiegen die der letzten Wahl. Es wählten 681.000 (sagt die Wahlkommission, eigentlich sagte sie einen bis auf den Einer genaue Zahl an). Das deutet dann doch eher auf eine starke Wahlbeteiligung dieses Jahr hin. Meinen kennende Beobachter.
 
 In der Zwischenzeit ist es (endlich) auch mal zu Ausschreitungen gekommen. Allerdings waren das nicht die Kontra-Thaksin-Demonstranten sondern von Pro-Thaksin-Demonstranten angeheuerte Schläger in Chiang Mai. Thaksin hat "seine Leute" dazu aufgerufen, die politischen Spannungen nicht noch mehr zu steigern, damit die Wahl ordnungsgemäß über die Bühne gehen kann.
 

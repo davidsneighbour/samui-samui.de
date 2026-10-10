@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-<img src="/images/210.jpg" style="height:454px;width:333px" alt="just behind behind" />
+![just behind behind](./210.jpg)
 
 > After a while, His Majesty the King turned to take a critical look at Princess Sirindhorn's busy snapping away. The King said: "Shh ... can you take the pictures somewhere else?" [via [The Nation][1]]
 

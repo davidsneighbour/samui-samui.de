@@ -10,7 +10,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-<img src="/images/105.jpg" style="height:75px;width:75px;float:left;margin-right:10px;" />Nun ist es hoch amtlich.
+![Papst Benedikt XVI.](./105.jpg)Nun ist es hoch amtlich.
 
 > [Homosexualität ist für den Vatikan keine Sünde, homosexuelle Handlungen aber sehr wohl. Ein neues Papier legt nun fest, dass Schwule keine Priester werden dürfen. Eine Ausnahme gibt es nur für ehemalige Schwule. Sie müssen ihre Neigungen aber mindestens drei Jahre lang überwunden haben.][1]
 

@@ -13,7 +13,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-[<img src="/images/87t.jpg" style="width:200px;float:left;margin-right:10px;" />][1]
+![Unterlagen für den Visa-Run](./87.jpg)
 
 Wenn ich Run höre, dann erklingt irgendwo in meinem Hinterkopf immer eine Stelle aus Pink Floyds "The Wall" mit "you better run, run, run, run, run" oder so. Beim Suchen eben fiel mir auf, dass die Stelle aber auch aus meiner eigenen "The Wall"-Version stammen könnte, ich fand sie nämlich nicht. Jedenfalls ist es (Achtung Google-Suchwort) Zeit für einen Visa-Run. Den mache ich morgen. Mit nem Reisebüro von hier. Nach (B(i|u)rma|Myanmar).
 
@@ -24,5 +24,3 @@ Ich werde berichten. Falls nicht, habe ich Bekanntschaft mit thailändischen Zel
 Witzig ist auch, das meine Eltern Burma-TV empfangen (von 16 --- 20 Uhr? War das so?). Schaltet mal ein. Ich wink in jede Kamera, die mir vor die Nase kommt.
 
 Falls die Berichte ausbleiben, denkt an mich. Schnüff.
-
- [1]: /images/87.jpg

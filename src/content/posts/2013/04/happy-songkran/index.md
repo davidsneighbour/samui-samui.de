@@ -11,4 +11,4 @@ publisher:
   seo: true
   covermigration: true
 ---
-<img class="aligncenter size-full wp-image-2364" alt="Songkran Doodle von Google" src="//samui-samui.dehttps://assets.samui-samui.de/2013/04/songkran_festival_2013-1504005-hp.jpg" width="466" height="200" />Nach vielen Wochen Trockenheit regnet es endlich mal wieder richtig ;)
+![Songkran Doodle von Google](./songkran_festival_2013-1504005-hp.jpg)Nach vielen Wochen Trockenheit regnet es endlich mal wieder richtig ;)

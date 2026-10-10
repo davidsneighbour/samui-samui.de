@@ -48,11 +48,11 @@ Hafen? Wasser? Davon hat nun wirklich niemand was gesagt! Leichtes Unbehagen mac
 
 Jedenfalls fuhren wir so mit dem Boot vor uns hin und hielten plötzlich an einer amtlich aussehenden Holzhütte über dem Wasser. Einer der Bootleute stieg aus und nahm eine Tüte mit. Die Tüte kam mir bekannt vor --- eine halbe Stunde zuvor verschwand darin mein Pass. Ich fing wieder an zu grinsen und dachte schon, nun wären wir in Myanmar, aber nichts da. Das Boot fuhr weiter. Ohne meinen Pass. Aber mit mir. Wir fuhren und fuhren und dann waren wir da. In Myanmar. Der Bootslenkmatrose rief irgendwas mit Tschimpschamp Sip. Sip kenn ich, das heißt Zehn. Eine Frau meinte dann auch, wir hätten 10 Minuten Zeit um uns Myanmar anzusehen.
 
-[<img src="/images/90t.jpg" style="width:200px;float:left;margin-right:10px;" />][1] [<img src="/images/91t.jpg" style="width:200px;" />][2]
+![Anlegestelle in Myanmar](./90.jpg) ![Menschen an der Anlegestelle in Myanmar](./91.jpg)
 
 Sobald der Erste den Fuß auf myanmarischen Holzplankenboden setzte kamen aus verschiedenen Ritzen viele Kinder und Jugendliche angerannt, zupften an allen möglichen Zipfeln herum und führen die Gäste herum. Ich stieg als letzter aus (Taktik!) und hoffte, dass niemand für mich übrig bliebe. Dem war nicht so. Kinder gibts in Myanmar viele. Jedenfalls zupfte plötzlich unten jemand rum und meinte "You want by Viagra?" Ich erwiderte freundlich "Ähm, I dont think I will need Viagra!" worauf er mit auf den Bauch klatschte und lachte und rief "Of course not. But you can make big deal in Thailand with Viagra!". Nach einem "I dont think I will buy anything" verschwand er dann aber doch recht schnell.
 
-[<img src="/images/94t.jpg" style="width:200px;float:left;margin-right:10px;" />][3][<img src="/images/92t.jpg" style="width:200px;" />][4]
+![Gebäude am Wasser in Myanmar](./94.jpg)![Blick vom Wasser auf Myanmar](./92.jpg)
 
 Ja. Ich war also in Myanmar. Wo noch kein Mensch zuvor gewesen ist. Ich schaute links die Straße runter, schaute rechts die Straße runter, schaute nach vorne und ging wieder aufs Boot. Wir fuhren zurück, man gab uns unsere Pässe wieder, in denen auf geheimnisvolle Weise plötzlich Ein- und Ausreisestempel von Myanmar waren, packte uns in die Kleinbusse und wir fuhren wieder zur Immigrationsbehörde. Diesmal war Arrival der Schalter unserer Wahl. Wir und unsere Pässe wurden kritisch beäugt und gestempelt und durften dann gehen.
 
@@ -63,8 +63,3 @@ Auf der Rückfahrt durften wir Roland Emmerichs Meisterwerk "Independence Day" g
 Nach vielen Stunden netter Schunkelfahrt kamen wir wieder an der Fähre an. Die fuhr (zum letzten Mal an diesem Tag, gerade noch so geschafft) gen Samui, man verpackte uns wieder in Kleinbusse und warf uns an verschiedenen Stellen der Insel raus, nicht ohne den 3-MonatsVisa noch eine Visitenkarte zu geben :)
 
 So habe ich nun wieder meine Aufenthaltsgenehmigung. Was für ein Spaß. Aber öfter sollte man das nicht machen. Ach und ich war in Myanmar. Wer von euch kann das schon von sich behaupten?
-
- [1]: /images/90.jpg
- [2]: /images/91.jpg
- [3]: /images/94.jpg
- [4]: /images/92.jpg

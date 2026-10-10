@@ -20,7 +20,7 @@ Man schaut einmal links, man schaut einmal rechts und schon sind <del>4 4einhalb
 
 ### Am Anfang war Regen
 
-<img src="/images/57.jpg" style="height:716px;width:120px;float:left;margin-right:10px;margin-bottom:10px;" />Als ich auf Samui landete, regnete es. Nicht "nur mal 5 Minuten" wie alle immer behaupteten, sondern gleich richtig. Meine Sachen waren noch eine Woche lang muffig. Mein Magen versuchte während des Fluges von Bangkok nach Koh Samui die thailändische Variante eines Eiskaffees zu verkraften (äußerst unempfehlenswert). Es war ein Sonntag. Ich war seit 24 Stunden unterwegs, erst von Hamburg nach München, von da nach Bangkok und weiter hierher.
+![Ausschnitt eines Gesichts](./57.jpg)Als ich auf Samui landete, regnete es. Nicht "nur mal 5 Minuten" wie alle immer behaupteten, sondern gleich richtig. Meine Sachen waren noch eine Woche lang muffig. Mein Magen versuchte während des Fluges von Bangkok nach Koh Samui die thailändische Variante eines Eiskaffees zu verkraften (äußerst unempfehlenswert). Es war ein Sonntag. Ich war seit 24 Stunden unterwegs, erst von Hamburg nach München, von da nach Bangkok und weiter hierher.
 
 Durch den Regen merkte man nicht allzusehr, dass es warm war. Wir stiegen in ein Taxi und fuhren zum Haus des Chefs. Heute weiß ich ziemlich sicher, dass ich auf dieser Fahrt meinen "Kulturschock" hatte. "Damals" bin ich von Hoch zu Tief zum nächsten Hoch geschlittert. Gleich nach dem Airport kommt erstmal eine Art Vorort, in dem die Leute in Holzverschlägen mit Wellblech auf dem Dach hausen (heute würde ich sagen, sie leben da). Müll überall auf der Straße. Hunde. Mopeds. Hupen. Regen. Chaos. Jetlag war fast nicht vorhanden, dazu war ich viel zu durcheinander.
 

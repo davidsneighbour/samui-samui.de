@@ -112,9 +112,12 @@ describe('rehypeLegacyImages', () => {
   it('wraps an extremely small source as thumbnail without a blurred background', async () => {
     const tree = imgTree({
       alt: 'tiny',
-      src: '/wp-content/old-images/105.jpg',
+      src: './105.jpg',
     });
-    const node = await run(tree, makeFile());
+    const node = await run(
+      tree,
+      makeFile({ fromDir: path.join(postsDir, '2005/04/josef-und-maria') }),
+    );
 
     expect(node.properties['data-legacy-image-mode']).toBe('thumbnail');
     expect(node.properties.className).toContain(
@@ -139,11 +142,14 @@ describe('rehypeLegacyImages', () => {
   it('applies a post-level "never" override even to a tiny source', async () => {
     const tree = imgTree({
       alt: 'tiny',
-      src: '/wp-content/old-images/105.jpg',
+      src: './105.jpg',
     });
     const node = await run(
       tree,
-      makeFile({ frontmatter: { legacyImages: 'never' } }),
+      makeFile({
+        fromDir: path.join(postsDir, '2005/04/josef-und-maria'),
+        frontmatter: { legacyImages: 'never' },
+      }),
     );
     expect(node.tagName).toBe('img');
   });

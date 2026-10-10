@@ -16,7 +16,7 @@ Ich benutze zur Realisierung meiner Layouts seit einiger Zeit die [Layout-Gala][
 
 Das nachfolgende Schaubildchen zeigt den generellen Aufbau der Seite.
 
-<img src="/images/redesign/layout.gif"  style="width:285px;margin:0 auto;height:341px;" />
+![Schaubild des Seitenaufbaus](./layout.gif)
 
 Da wird sich im Vergleich zur Ur-Version nicht viel ändern. Neu ist der Inhaltsbereich am Fuß der Seite. Durch die Einbindung der Bilder von flickr.com bin ich gezwungen, eine fixe Breite für die Inhaltsspalte zu verwenden. Womit die Sache auch schon auf [Nummer 37 aus der Layoutgala][3] festgelegt ist. Das ist wie bei der Auswahl eines Nummern-Girls.
 
@@ -34,7 +34,7 @@ Damit sieht das Template folgendermaßen aus:
 
 Nebenbemerkung: Es gab ja mal Zeiten, da man für Bildschirmauflösungen um die 800&#215;600 Pixel gepixelt hat. Die Zeit dürfte vorbei sein, wie man an folgendem Diagramm leicht erkennen kann, weshalb ich mit 900 Pixeln Breite arbeite. Damit kann man einerseits größere Schriften benutzen ohne gedrückt auszusehen und andererseits bekommt die Seitenspalte mehr Platz eingeräumt.
 
-<img src="/images/redesign/resolutions.jpg" style="width:500px;height:227px;" />
+![Diagramm der Bildschirmauflösungen](./resolutions.jpg)
 
  [1]: http://blog.html.it/layoutgala/index.html
  [2]: http://blog.html.it/

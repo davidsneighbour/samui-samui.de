@@ -11,7 +11,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-<img src="//samui-samui.de/images/239.jpg" width="200" height="231" style="float:left;margin-right:10px;" />Ich werde das dumpfe Gefühl nicht los, dass die Königliche Thailändische Polizei gerade dabei ist, sich weltweit sehr sehr lächerlich macht.
+![Polizisten mit einer rosa Armbinde](./239.jpg)Ich werde das dumpfe Gefühl nicht los, dass die Königliche Thailändische Polizei gerade dabei ist, sich weltweit sehr sehr lächerlich macht.
 
 Die beste Überschrift zum Thema ist folgende: [Less-than-purr-fect Thai Police To Sport Hello Kitty Armbands As Punishment][1] und sagt eigentlich schon alles. [Schlechte Polizisten müssen ab sofort eine pinke Armbinde mit Hello-Kitty-Katze tragen][2]. 10 Armbinden gibt es in Bangkok und Polizisten, welche die Binde als Disziplinarmaßnahme tragen müssen am ersten Tag im gesamten Revier arbeiten, damit sie von allen Kollegen mit Binde gesehen werden. Mal sehen, ob es ausreicht.
 
