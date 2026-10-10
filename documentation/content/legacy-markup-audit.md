@@ -4,10 +4,6 @@ Verified on 10 October 2026 against all 2,083 Markdown and MDX files under `src/
 
 File links open the source at the recorded line in VS Code. Line numbers describe the audit snapshot and can shift as you edit the articles.
 
-## Broken legacy map navigation
-
-The nine `zurück zur Map` links in [src/content/posts/2006/05/der-tag-der-neun-tempel/index.md:35](../../src/content/posts/2006/05/der-tag-der-neun-tempel/index.md#L35) still use `href="#map"`, but their target no longer exists. The remaining occurrences are on lines 49, 63, 77, 91, 105, 119, 133, and 147. These links require a separate editorial decision; no replacement map or destination has been invented.
-
 ## Broken raw HTML images
 
 The following 28 raw `<img>` references, across 22 posts, point to files absent from both `public/` and `dist/`. No corresponding image-path redirects were found. This verifies missing local resources, not the absence of recoverable copies elsewhere in the repository or an external archive. Several may have recoverable alternatives under `public/wp-content/old-images/`; this audit does not choose replacements without checking their identity.

@@ -309,6 +309,8 @@ The owner explicitly authorised preserving the historical prose and a scoped che
 
 ## Empty container cleanup
 
-On 10 October 2026, the owner removed 25 empty legacy containers. A scan of all Markdown and MDX content verified that no empty legacy `div` containers remain. The resolved inventory section was removed; the nine unresolved map-return links remain recorded in [the legacy markup audit](legacy-markup-audit.md), tracked by [the remaining-markup issue](https://github.com/davidsneighbour/samui-samui.de/issues/1804).
+On 10 October 2026, the owner removed 25 empty legacy containers. A scan of all Markdown and MDX content verified that no empty legacy `div` containers remain. The resolved inventory section was removed. Cleanup is tracked by [the remaining-markup issue](https://github.com/davidsneighbour/samui-samui.de/issues/1804).
 
 The owner explicitly authorised preserving historical prose with a scoped check exception for these 25 container removals. Content-language checks reported 31 spelling findings and 21 grammar findings; Vale reported no findings. The production build and `npm run check` passed, including all 409 tests. This exception applies only to the empty-container cleanup, not future edits. The commit skips its pre-commit hook invocation without changing the hook configuration.
+
+The follow-up temple-post cleanup converts the nine stations into a Markdown list and removes the obsolete map-return links and their HTML wrappers. The concluding reference to the ninth station is plain text. The historical prose and excerpt remain unchanged under the owner-approved prose-preservation exception for this cleanup; a custom map is deferred until the owner reviews the year. The resolved map-navigation entry was removed from the audit.
