@@ -62,13 +62,13 @@ Repeated question marks are not automatically errors. The following inventory li
 | `2005/09/chatten-auf-thai` | Unresolved script (Thai or Chinese); recover the original source. Other rhetorical punctuation in these posts is preserved. |
 | `2005/09/socializing-nach-graumeister-art` | Preserve rhetorical questions, disbelief, or parenthetical doubt. |
 | `2005/11/infiltration` | Unresolved script (Thai or Chinese); recover the original source. Other rhetorical punctuation in these posts is preserved. |
-| `2005/11/longkhong-3` | Unresolved transliteration or title; original spelling cannot be established from context. |
+| `2005/11/longkhong-3` | Repaired to the attested film name `Long Khong`; see the sourced reconstruction batch below. |
 | `2005/11/longkhong-haa` | Unresolved transliteration or title; original spelling cannot be established from context. |
 | `2005/11/you-romantic-man` | Unresolved transliteration or title; original spelling cannot be established from context. |
 | `2005/12/letzte-tage` | Unresolved script (Thai or Chinese); recover the original source. Other rhetorical punctuation in these posts is preserved. |
 | `2006/01/happynewyear` | Unresolved script (Thai or Chinese); recover the original source. Other rhetorical punctuation in these posts is preserved. |
 | `2006/03/das-neue` | Preserve rhetorical questions, disbelief, or parenthetical doubt. |
-| `2006/03/meine-verschwoerungstheorie-des-tages` | Unresolved transliteration or title; original spelling cannot be established from context. |
+| `2006/03/meine-verschwoerungstheorie-des-tages` | Replaced the damaged transliteration with the attested spelling `Mahmoud Ahmadinejad`; see below. |
 | `2006/06/oleeeeh-oleh-oleh-oleeeh-endzeit` | Preserve unanswered match-table placeholders; do not invent historical scores. |
 | `2006/06/oleeeeh-oleh-oleh-oleeeh-runde-2` | Preserve rhetorical questions, disbelief, or parenthetical doubt. |
 | `2006/06/was-die-prinzessin-sah` | Unresolved script (Thai or Chinese); recover the original source. Other rhetorical punctuation in these posts is preserved. |
@@ -83,12 +83,12 @@ Repeated question marks are not automatically errors. The following inventory li
 | `2008/03/des-bosses-tochter` | Preserve rhetorical questions, disbelief, or parenthetical doubt. |
 | `2008/05/zurueck-2` | Preserve rhetorical questions, disbelief, or parenthetical doubt. |
 | `2008/08/endgame` | Preserve rhetorical questions, disbelief, or parenthetical doubt. |
-| `2009/01/auf-ein-neues-2` | Unresolved script (Thai or Chinese); recover the original source. Other rhetorical punctuation in these posts is preserved. |
+| `2009/01/auf-ein-neues-2` | Chinese greeting repaired from linguistic sources and surviving context; see below. |
 | `2009/08/das-ramadan-raetsel` | Preserve rhetorical questions, disbelief, or parenthetical doubt. |
-| `2011/02/das-jahr-der-karotte` | Unresolved script (Thai or Chinese); recover the original source. Other rhetorical punctuation in these posts is preserved. |
+| `2011/02/das-jahr-der-karotte` | Chinese greeting repaired from linguistic sources and surviving context; see below. |
 | `2011/04/songkran-yeah` | Unresolved script (Thai or Chinese); recover the original source. Other rhetorical punctuation in these posts is preserved. |
 
-The Chinese greetings in `2009/01/auf-ein-neues-2` and `2011/02/das-jahr-der-karotte` are included here because the Thai-script issue does not cover Chinese. A familiar greeting or a German gloss does not establish the exact historical wording. Single question marks within damaged Thai text also remain under the Thai-script issue; this run inventory is not a complete script inventory.
+The Chinese greetings in `2009/01/auf-ein-neues-2` and `2011/02/das-jahr-der-karotte` are included here because the Thai-script issue does not cover Chinese. The later sourced reconstruction restores meaningful text without claiming recovery of the exact historical bytes. Single question marks within damaged Thai text also remain under the Thai-script issue; this run inventory is not a complete script inventory.
 
 ## Approved verification exception
 
@@ -99,3 +99,22 @@ For this punctuation batch only, the repository owner explicitly approved runnin
 The production build, including `astro check`, passed. The targeted language checks reported 84 CSpell findings and 47 LanguageTool findings; Vale reported zero errors, warnings, or suggestions. The targeted link scan checked 22 unique URLs: eight succeeded, one timed out, and the remaining 13 failed. These unrelated findings remain unchanged under the approved exception. Documentation lint, whitespace validation, and direct checks of built HTML for the temperature unit, French title, film title, and time range passed.
 
 A Wayback availability request for the current `2006/03/meine-verschwoerungstheorie-des-tages/` URL returned no archived snapshot. This does not establish that older URL forms lack snapshots; the damaged transliteration remains unresolved.
+
+## Sourced reconstruction batch
+
+The second 2026-10-10 batch repairs five damaged spans in four posts. These are editorial reconstructions supported by verified external spellings, surviving characters, and post context. They are not byte-for-byte source recovery. The initial Git import (`ac64504edaa9`) already contains the damaged text; the adjacent `samui-samui.de-content` checkout contains no content files. A Wayback availability request for `2005/11/you-romantic-man/` returned no snapshot; this does not rule out snapshots under other historical URL forms.
+
+| Post bundle | Damaged text | Replacement and evidence |
+| --- | --- | --- |
+| `2005/11/longkhong-3` | `Long Ko??ng` | `Long Khong`, attested in the [contemporary film report](https://screenanarchy.com/2005/12/update-on-the-ronin-teams-art-of-the-devil-2-long-khong-aka-art-of-the-devi.html) and intact neighbouring posts. The original transliteration marks remain unknown. |
+| `2006/03/meine-verschwoerungstheorie-des-tages` | `Mahm??d Ahmad??-Ne????d` | `Mahmoud Ahmadinejad`, the spelling used in the [United Nations' 2006 briefing](https://www.un.org/sg/en/content/highlight/2006-09-05.html). The damaged accented transliteration is replaced, not reconstructed. |
+| `2009/01/auf-ein-neues-2` | `?年快乐 恭???财` | `新年快乐 恭喜发财`, matching the surviving characters and both greetings in the [Open University's Chinese lesson](https://www.open.edu/openlearn/languages/chinese/year-the-rabbit-chinese-new-year). |
+| `2011/02/das-jahr-der-karotte` | `Happy New Year ?? you` and `(?? ist tu` | `Happy New Year 兔 you` and `(兔 ist tu`, matching the post's explicit rabbit gloss and the exact pun discussed in [Language Log on 6 February 2011](https://languagelog.ldc.upenn.edu/nll/?p=2887). |
+
+The edited posts also receive required spelling, capitalisation, comma, and agreement corrections. Proper names, the film title's initial capital, informal `rum`, the stage direction `zwinker`, and deliberate repetition of `nun` use narrow per-post language-check exceptions. Dates, slugs, and taxonomy values are preserved.
+
+Still unresolved under this issue: the title `LongKhong ???` in `longkhong-haa`, and `Cherng ra??k mak maak!` in `you-romantic-man`. The fifth-poster context and `haa` slug do not prove the title's original characters. Repeated rhetorical question marks and unanswered match-table placeholders remain intentional contextual decisions. Damaged Thai passages, including the replacement characters (U+FFFD) in `fu-noi`, remain under [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706). No blanket replacement of question marks is used.
+
+The staged link check found a confirmed HTTP 404 for the old Thai2English dictionary entry and a connection failure for the old Nation horoscope. Wayback availability requests for both exact URLs returned no snapshots. Both visible phrases are preserved, with the original URLs and observed check results in named historical-source footnotes following [Link checking](../link-checking.md). A connection failure is not treated as proof of permanent source loss.
+
+Verification for this second batch: production build (including Astro content/type checks), repository documentation lint (75 files), and whitespace checks passed. All four edited posts pass CSpell, Vale, and LanguageTool with zero findings. The final link check passes all four remaining targets. Direct checks of the four generated HTML pages confirm the repaired UTF-8 text, source-availability notes, and absence of U+FFFD. No hook bypass or earlier verification exception is used, and no deployment is performed.

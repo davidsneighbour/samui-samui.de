@@ -13,6 +13,6 @@ publisher:
 
 Willkommen im Jahr des Büffels. Wir feiern heute das dritte Neujahr des Jahres. Nach dem gregorianischen und dem muslimischen Neujahr gibt es [das Chinesische Neujahr][1] zu feiern. Da viele Thais ihre Wurzeln in China haben, steht das Leben ein wenig still und man feiert.
 
-In diesem Sinne: ?年快乐 恭???财
+In diesem Sinne: 新年快乐 恭喜发财
 
  [1]: http://en.wikipedia.org/wiki/Chinese_New_Year
