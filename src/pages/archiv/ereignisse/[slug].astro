@@ -1,11 +1,12 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import BlogList from '@components/content/blog/BlogList.astro';
 import Footer from '@components/layout/footer/Footer.astro';
 import BaseHead from '@components/layout/head/BaseHead.astro';
 import Header from '@components/layout/header/Header.astro';
 import ArchiveNav from '@components/layout/navigation/ArchiveNav.astro';
 import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
+import { proseClasses } from '@utils/prose';
 import {
   getEntityDescription,
   groupPostsByEntity,
@@ -29,6 +30,7 @@ export async function getStaticPaths() {
 
 const { event, posts } = Astro.props;
 const description = getEntityDescription('ereignisse', event);
+const { Content } = await render(event);
 ---
 
 <!doctype html>
@@ -73,6 +75,15 @@ const description = getEntityDescription('ereignisse', event);
         <p class="mx-auto mb-8 max-w-4xl px-4 text-muted-foreground">
           {description}
         </p>
+        {event.body?.trim() && (
+          <div class="mx-auto mb-8 max-w-4xl px-4">
+            <div class="rounded-(--radius) border border-border bg-card px-4 py-8 text-card-foreground sm:px-8 dark:border-transparent">
+              <div class:list={[proseClasses, 'prose-reading']}>
+                <Content />
+              </div>
+            </div>
+          </div>
+        )}
         <BlogList
           posts={posts}
           pageNumber={1}

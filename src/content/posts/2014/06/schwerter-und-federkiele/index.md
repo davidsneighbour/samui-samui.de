@@ -12,13 +12,15 @@ publisher:
 cover:
   type: youtube
   video: p-JnwTmGLsU
+ereignisse:
+  - militaerputsch-2014
 ---
-Wenn General Prayuth Chanocha nicht gerade demokratisch gewählte und undemokratisch bedemonstrierte Regierungen von ihren den Fortschritt behindernden Positionen wegputscht nimmt er schon gerne mal den Bleistift in die Hand und schreibt gefühlvolle Balladen nieder. So geschehen vor ein paar Tagen, als er ein Lied veröffentlichen lies, das die nationale Einheit herbeibeschwören soll. "Vertraut uns einfach, wir fragen nur nach mehr Zeit" usw...
+Wenn General Prayuth Chanocha nicht gerade demokratisch gewählte und undemokratisch bedemonstrierte Regierungen von ihren den Fortschritt behindernden Positionen wegputscht, nimmt er schon gerne mal den Bleistift in die Hand und schreibt gefühlvolle Balladen nieder. So geschehen vor ein paar Tagen, als er ein Lied veröffentlichen ließ, das die nationale Einheit herbeibeschwören soll. "Vertraut uns einfach, wir fragen nur nach mehr Zeit" usw …
 
-Leider ist das offizielle Video zum Song ganz im Stil der Junta gehalten: Schwarzer Text auf weissem Grund. Die auf Youtube hochgeladene Ballade von der (nach Thailand) zurück kehrenden Glücklichkeit hat an ihrem ersten Tag 200.000 Abspielungen erfahren, in den nachfolgenden 10 Tagen etwa 80.000.
+Leider ist das offizielle Video zum Song ganz im Stil der Junta gehalten: schwarzer Text auf weissem Grund. Die auf Youtube hochgeladene Ballade von der (nach Thailand) zurück kehrenden Glücklichkeit hat an ihrem ersten Tag 200.000 Abspielungen erfahren, in den nachfolgenden 10 Tagen etwa 80.000.
 
-Egal. Ist ein netter Song, gespielt von der Königlichen Thailändischen Armeeband. Ich warte noch auf den Remix.
+Egal. Ist ein netter Song, gespielt von der Königlichen thailändischen Armeeband. Ich warte noch auf den Remix.
 
-[via [Nation Multimedia][1]]
+[via Nation Multimedia[^src-historisch-1]]
 
- [1]: http://www.nationmultimedia.com/politics/Prayuths-ballad-viewed-by-over-200000-times-on-You-30235811.html
+[^src-historisch-1]: Historische Quelle: `http://www.nationmultimedia.com/politics/Prayuths-ballad-viewed-by-over-200000-times-on-You-30235811.html`. Bei der Prüfung der Links am 10. Oktober 2026 nicht erreichbar. Die ursprüngliche Adresse bleibt zur späteren Recherche erhalten.

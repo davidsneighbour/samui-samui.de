@@ -9,6 +9,8 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+ereignisse:
+  - hochwasser-thailand-2011
 ---
 <div class="media movie">
 </div>

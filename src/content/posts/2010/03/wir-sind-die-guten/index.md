@@ -9,6 +9,8 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+ereignisse:
+  - rothemden-proteste-2010
 ---
 In Bangkok demonstrieren ab heute mal wieder die Guten gegen die Bösen. Wenn man das vor zwei Jahren das letzte Mal beobachtet hat, dann sollte man wissen, dass die Guten von damals inzwischen die Bösen sind, weil sie die Regierung bilden dürfen, und die Bösen von damals sind die Guten, die Barrikaden errichten und sich heute Nacht vermutlich Straßenkämpfe liefern werden.
 

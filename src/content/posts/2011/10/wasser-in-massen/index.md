@@ -9,6 +9,8 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+ereignisse:
+  - hochwasser-thailand-2011
 ---
 Seit gut einer Woche wird die Hauptstadt Thailands von den Wassermassen der diesjährigen Monsunsaison bedroht. Ungefähr genau so lange berichten lokale und internationale Medien über die jedes Jahr wieder auftretende Situation.
 
@@ -17,3 +19,5 @@ Dass es seit rund 8 Wochen im Norden regnet und Dörfer und Felder seither unter
 Da müssen erst irgendwelche reichen Leute von knietiefem Wasser bedroht werden, damit sich mal jemand medienwirksam über Holzplanken stöckelnd um die Probleme kümmert.
 
 Auf Samui ist es verdächtig trocken und sonnig --- vermutlich einer der Gründe, warum der Tourismusminister neulich noch gemeint hat, der Tourismus sei nicht von der Flut beeinträchtigt. Anders kann man solche fröhlichen Meldungen nicht erklären, wenn zwei Drittel des Landes überschwemmt sind.
+
+<!-- grammar-ignore UNGEFAEHR_GENAU Ungefähr genau -->

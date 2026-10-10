@@ -9,6 +9,8 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+ereignisse:
+  - rothemden-proteste-2010
 ---
 Ein meiner Meinung nach sehr interessantes und halbwegs stimmiges Interview mit Gerhard Will, dem Thailand Experten der Stiftung Wissenschaft und Politik [zur aktuellen Lage in Bangkok][1] kann man bei Spiegel Online lesen.
 
@@ -16,7 +18,9 @@ Man kann vielleicht noch hinzufügen, dass die im Interview angesprochenen "radi
 
 Jetzt gerade geht die Armee mit Panzerfahrzeugen gegen die noch verbliebenen Rothemden vor. Deren Führer sollen bereits geflüchtet sein.
 
-Die bürgerkriegsähnlichen Unruhen, von denen die "internationale Presse" so empathisch berichtet, beschränken sich mit wenigen Ausnahmen übrigens auf ein paar Quadratkilometer in Bangkok ([wie man auf dieser Google Map sehen kann][2]). Wer auf Subvarnabhumi, dem internationalen Flughafen Bangkoks, nur zwischenlandet um weiter zu reisen, ist sicher.
+Die bürgerkriegsähnlichen Unruhen, von denen die "internationale Presse" so empathisch berichtet, beschränken sich mit wenigen Ausnahmen übrigens auf ein paar Quadratkilometer in Bangkok ([wie man auf dieser Google Maps sehen kann][2]). Wer auf Suvarnabhumi, dem internationalen Flughafen Bangkoks, nur zwischenlandet, um weiterzureisen, ist sicher.
 
  [1]: http://www.spiegel.de/politik/ausland/0,1518,695441,00.html
  [2]: http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=116480606892254086046.0004817fafbb87b0951c0&t=h&z=11
+
+<!-- grammar-ignore DE_CASE Seh -->

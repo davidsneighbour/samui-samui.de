@@ -162,6 +162,12 @@ Topics also use short values in posts. An entry in `src/content/themen/` is opti
 
 Events are reusable named entities. They are useful when multiple posts can refer to the same event. `recurring: true` marks recurring events. `endDate` must not be before `startDate`.
 
+The event folder ID is also the public URL slug: `militaerputsch-2006` becomes `/archiv/ereignisse/militaerputsch-2006/`. Keep year-qualified IDs for distinct historical occurrences, including coups, protests, floods, and bombings. The year distinguishes events and does not need to be repeated in the visible title when the title is already unambiguous. Renaming an established ID changes its URL and requires updating post references and preserving the old URL with a redirect.
+
+Event pages render the entry's description, its optional Markdown overview with source citations, and the posts that explicitly reference its ID. The overview uses the shared card and prose styles. Entries without a Markdown body keep the description and post list without an empty overview card. Historical event dates belong in `startDate` and `endDate`; they are separate from post publication dates. Use checked sources for the overview rather than copying provisional reporting or incorrect dates from old posts.
+
+The initial curated set covers the 2006 and 2014 coups, the 2008 Bangkok airport occupations, the 2009 unrest, the 2010 Red Shirt protests, Bhumibol's death in 2016, Vajiralongkorn's coronation in 2019, the major floods beginning in July 2011, and the 2015 Koh Samui bombing. Initial post references are deliberately limited to the reviewed posts. Further references are added manually during archive review. The March–April 2011 floods in southern Thailand are distinct from the later national flood event; death, succession, and coronation are also distinct events.
+
 Do not create an event for every passing mention in prose.
 
 ## Visibility

@@ -9,10 +9,12 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+ereignisse:
+  - hochwasser-thailand-2011
 ---
 <div class="media movie">
 </div>
 
-Im thailändischen Internet macht gerade dieser Film (und bereits eine Fortsetzung) die Runde, in der die ganze Hochwasserlage einfach und verständlich erklärt wird --- ohne Panikmache. Ein gutes Beispiel, wie Kommunikation heute erfolgen sollte. Wäre ich Prime Ministress, würde ich davon Gebrauch machen...
+Im thailändischen Internet macht gerade dieser Film (und bereits eine Fortsetzung) die Runde, in der die ganze Hochwasserlage einfach und verständlich erklärt wird --- ohne Panikmache. Ein gutes Beispiel, wie Kommunikation heute erfolgen sollte. Wäre ich Prime Ministress, würde ich davon Gebrauch machen …
 
-Thai mit enlischen Untertiteln... Und mit Walen.
+Thai mit englischen Untertiteln. Und mit Walen.

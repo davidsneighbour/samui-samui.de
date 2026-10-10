@@ -8,8 +8,10 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+ereignisse:
+  - unruhen-thailand-2009
 ---
-Songkran ist in Bangkok zu einem [Krieg][1] der [Roten][2] ausgewachsen.
+Songkran ist in Bangkok zu einem Krieg[^src-historisch-1] der Roten[^src-historisch-2] ausgewachsen.
 
 Wenn Abhisit und seine Demokratieplaner gedacht haben, Songkran würde die Lage entspannen, dann war das vermutlich sehr naiv. Thaksin ruft nun nahezu täglich über Videotelephone und andere Kommunikationswege an und ruft zu einem Bürgerkrieg von unten auf. Unten, das ist in Thailand der Isaan und die Ex-Mitglieder von Thai Rak Thai, Thaksins inzwischen aufgelöster Partei.
 
@@ -23,7 +25,8 @@ Thaksin sitzt weiterhin in seinen "unbekannten Ort" und sprüht Benzin ins Feuer
 >
 > "They trapped the people. Many people died. They even took the dead bodies up on the truck and took them away," Thaksin told <span class="caps">CNN</span> from an undisclosed location.
 
-Als ob er live mittendrin wäre... Auf der anderen Seite, besser an einem unbekannten Ort als Opfer von Plan B zu sein.
+Als ob er live mittendrin wäre. Auf der anderen Seite, besser an einem unbekannten Ort, als Opfer von Plan B zu sein.
 
- [1]: http://nationmultimedia.com/2009/04/14/politics/politics_30100484.php
- [2]: http://nationmultimedia.com/2009/04/14/politics/politics_30100480.php
+[^src-historisch-1]: Historische Quelle: `http://nationmultimedia.com/2009/04/14/politics/politics_30100484.php`. Bei der Prüfung der Links am 10. Oktober 2026 nicht erreichbar. Die ursprüngliche Adresse bleibt zur späteren Recherche erhalten.
+
+[^src-historisch-2]: Historische Quelle: `http://nationmultimedia.com/2009/04/14/politics/politics_30100480.php`. Bei der Prüfung der Links am 10. Oktober 2026 nicht erreichbar. Die ursprüngliche Adresse bleibt zur späteren Recherche erhalten.

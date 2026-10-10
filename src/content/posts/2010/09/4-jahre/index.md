@@ -11,5 +11,7 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+ereignisse:
+  - militaerputsch-2006
 ---
 Heute vor vier Jahren verschwand plötzlich das Fernsehprogramm und Thailand hatte mal wieder einen Putsch. Daran erinnern die "Rothemden" heute unter anderem damit, dass Sie den Verkehr in Bangkok wieder einmal zum Erliegen und die Sicherheitskräfte in höchste Bereitschaft bringen.

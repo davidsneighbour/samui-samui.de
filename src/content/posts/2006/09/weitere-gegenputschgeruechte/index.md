@@ -8,6 +8,8 @@ publisher:
   tags: true
   seo: true
   covermigration: true
+ereignisse:
+  - militaerputsch-2006
 ---
 Es gibt immer noch Gerüchte über die Möglichkeit eines Gegenputsches.
 
@@ -15,6 +17,6 @@ Es gibt immer noch Gerüchte über die Möglichkeit eines Gegenputsches.
 >
 > The group included Defense Minister General Thammarak Issarangkura Na Ayutthaya, Air Chief Marshall Kongsak Vantana and Police General Jumpol Manmai, who is the head of the National Intelligence Agency.
 
-[via [The Nation][1]
+[via The Nation[^src-historisch-1]
 
- [1]: http://www.nationmultimedia.com/breakingnews/read.php?newsid=30014240
+[^src-historisch-1]: Historische Quelle: `http://www.nationmultimedia.com/breakingnews/read.php?newsid=30014240`. Bei der Prüfung der Links am 10. Oktober 2026 nicht erreichbar. Die ursprüngliche Adresse bleibt zur späteren Recherche erhalten.

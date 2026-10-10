@@ -9,6 +9,8 @@ publisher:
   seo: true
   covermigration: true
   flickr: true
+ereignisse:
+  - militaerputsch-2006
 ---
 ![The morning after](./the-morning-after-247872022.jpg)
 
