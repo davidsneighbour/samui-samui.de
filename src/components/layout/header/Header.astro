@@ -12,7 +12,7 @@ import {
   Birdhouse,
   CircleQuestionMark,
   Landmark,
-  UserRound,
+  SquareUser,
 } from '@lucide/astro';
 
 const answerContours = wordmark['samui!'].split(/(?=M)/);
@@ -182,7 +182,7 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
         href="/ueber-mich/"
         class={navLinkClass}
       >
-        <UserRound
+        <SquareUser
           aria-hidden="true"
           class="size-4 shrink-0"
         />
