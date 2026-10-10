@@ -49,3 +49,28 @@ aktualisierung-verfuegbar:
   icon: "pencil-line"
   variant: "correction"
   dismissible: true
+
+bevor-wir-uns-streiten:
+  title: "Bevor wir uns streiten …"
+  description: |-
+    Diese Seite und die anderen Seiten im Kleingedruckten gibt es, weil manches davon rechtlich vorgeschrieben und anderes schlicht guter Stil ist. Sie sollen erklären, wie diese Website funktioniert, wer dafür verantwortlich ist und welche Rechte und Pflichten wir beide haben.
+
+    Aber bevor aus irgendeinem Problem eine *rechtliche Angelegenheit* wird: **Schreib mir doch einfach. Freundlich.**
+
+    Vielleicht findest du hier ein altes Foto von dir, das du nicht mehr im Netz sehen möchtest. Vielleicht habe ich vor zwanzig Jahren einen Kommentar von dir zitiert, mit dem du dich heute nicht mehr identifizierst. Vielleicht ist irgendwo dein Name aufgetaucht, eine Quellenangabe stimmt nicht oder ich habe schlicht einen Fehler gemacht.
+
+    Dann sag mir das.
+
+    Ich bin für vernünftige Lösungen ausgesprochen zugänglich. Eine freundliche Nachricht mit „Hey Patrick, könntest du dir das bitte einmal ansehen?“ wird mit ziemlich hoher Wahrscheinlichkeit schneller und angenehmer zum Ziel führen als eine erste Kontaktaufnahme voller Fristen, Paragraphen, Drohungen und Ankündigungen, welche Behörde, welcher Anwalt oder welche Institution demnächst auf mich losgelassen wird.
+
+    Freundlichkeit ist dabei keine juristische Voraussetzung. Sie ist einfach guter Stil.
+
+    Und aus Erfahrung kann ich sagen: Ich bin sehr umgänglich, solange man vernünftig mit mir redet. Wenn ich dagegen das Gefühl bekomme, dass jemand versucht, mich einzuschüchtern oder respektlos zu behandeln, kann ich ausgesprochen hartnäckig werden. Das macht die Sache für niemanden einfacher.
+
+    **Also: Erst miteinander reden. Dann sehen wir weiter.**
+
+    Meine [Kontaktdaten](/kontakt/) findest du hier auf der Website. Schreib mir, erklär mir das Problem, und gib mir eine faire Gelegenheit, es zu verstehen und – wenn es etwas zu lösen gibt – gemeinsam mit dir zu lösen.
+
+    Das hier soll keine rechtlichen Möglichkeiten ausschließen oder irgendjemanden davon abhalten, seine Rechte wahrzunehmen. Es ist lediglich eine Einladung, es zunächst mit der erstaunlich wirksamen Methode eines freundlichen Gesprächs zu versuchen.
+  icon: "messages-square"
+  variant: "note"

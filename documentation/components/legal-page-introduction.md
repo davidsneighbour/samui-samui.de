@@ -1,0 +1,13 @@
+# Kleingedrucktes introduction
+
+All four pages under `src/pages/kleingedrucktes/` use `src/layouts/LegalPageLayout.astro`, a small wrapper around the standard page layout. It places the shared "Bevor wir uns streiten …" introduction after the page title and before the page-specific content. New pages in this section should use the same layout.
+
+The exact shared copy lives in `src/data/notices.yaml` under `bevor-wir-uns-streiten`. It retains the owner-supplied wording, emphasis, and paragraph breaks; "Kontaktdaten" links to `/kontakt/`. The full text is visible until the visitor closes it with the "Einleitung schließen" × button. Dismissal stores `samui-legal-introduction-dismissed=1` in local storage for the current origin and hides the introduction on subsequent visits to every Kleingedrucktes page. Clearing this key restores it. No cookie or network request is involved. Without JavaScript, the full introduction remains visible. If browser storage is unavailable, closing still hides the current panel, but the preference cannot persist.
+
+The existing `Notice.astro` component supplies the static, labelled note, deterministic ID, safe Markdown rendering, and decorative Lucide conversation icon. The page wrapper gives this long introduction the existing 16px body size, 20px bold title, card foreground colour, 16px paragraph gaps, and 32px separation before the page-specific content. It retains the standard muted notice surface, border, and radius. These scoped layout styles do not change other notices. The dismiss button keeps the standard notice treatment, positioned at the top-right to preserve paragraph width on mobile. See [Editorial notices](notices.md) and the Kleingedrucktes introduction pattern in `DESIGN.md`.
+
+The inline persistence script uses `data-astro-rerun` so it reads the saved preference and attaches the current button listener after every Astro view-transition navigation. It hides the complete introduction wrapper, including the 32px gap, without hiding any page-specific content.
+
+The page-specific headings and content remain outside the note. Giscus privacy-section links continue to target the original section heading. The introduction is editorial copy, not a replacement for any page's policy or legal content.
+
+`src/test/legal-introduction.spec.ts` covers all four pages, keyboard dismissal, persistence across routes and reloads, Astro navigation, blocked storage, and the no-JavaScript fallback. The initial implementation passed eight browser tests against production output, the full quality check (451 unit/component tests), the production build, and design lint with only the four documented orphan-token warnings.

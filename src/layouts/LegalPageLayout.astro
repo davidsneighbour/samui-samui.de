@@ -1,0 +1,87 @@
+---
+import Notice from '@components/content/notices/Notice.astro';
+import PageLayout from '@layouts/PageLayout.astro';
+
+interface Props {
+  title: string;
+  description?: string | undefined;
+}
+
+const { title, description } = Astro.props as Props;
+---
+
+<PageLayout
+  title={title}
+  description={description}
+>
+  <div
+    class="legal-introduction mb-8"
+    data-legal-introduction
+  >
+    <Notice
+      slug="bevor-wir-uns-streiten"
+      dismissible
+      dismissLabel="Einleitung schließen"
+    />
+    <script
+      is:inline
+      data-astro-rerun
+    >
+      {
+        const panel = document.querySelector('[data-legal-introduction]');
+        const storageKey = 'samui-legal-introduction-dismissed';
+        if (panel instanceof HTMLElement) {
+          try {
+            panel.hidden = localStorage.getItem(storageKey) === '1';
+          } catch {
+            // Keep the introduction visible when browser storage is unavailable.
+          }
+          panel
+            .querySelector('[data-dnb-notice-dismiss]')
+            ?.addEventListener('click', () => {
+              panel.hidden = true;
+              try {
+                localStorage.setItem(storageKey, '1');
+              } catch {
+                // Closing still works for this page when browser storage is blocked.
+              }
+            });
+        }
+      }
+    </script>
+  </div>
+  <slot />
+</PageLayout>
+
+<style>
+  .legal-introduction :global(.dnb-notice) {
+    position: relative;
+  }
+
+  .legal-introduction :global(.dnb-notice__dismiss) {
+    position: absolute;
+    inset-block-start: calc(var(--spacing) * 3);
+    inset-inline-end: calc(var(--spacing) * 4);
+    margin: 0;
+  }
+
+  .legal-introduction :global(.dnb-notice__body) {
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+  }
+
+  .legal-introduction :global(.dnb-notice__title) {
+    margin-block-end: calc(var(--spacing) * 4);
+    padding-inline-end: calc(var(--spacing) * 8);
+    font-size: var(--text-xl);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .legal-introduction :global(.dnb-notice__description) {
+    color: var(--color-card-foreground);
+  }
+
+  .legal-introduction :global(.dnb-notice__description > p + p) {
+    margin-block-start: calc(var(--spacing) * 4);
+  }
+</style>
