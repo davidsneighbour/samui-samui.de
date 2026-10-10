@@ -2,7 +2,7 @@ import { z } from 'zod';
 
 // Calendar dates have no time or timezone. This also emits format: date
 // in Astro's generated editor schema, rather than format: date-time.
-export const eventDateSchema = z.string().date();
+export const eventDateSchema = z.iso.date();
 
 interface DatedEvent {
   id: string;
