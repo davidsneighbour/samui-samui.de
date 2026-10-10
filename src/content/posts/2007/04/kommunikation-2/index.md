@@ -11,7 +11,7 @@ publisher:
 ---
 Eben. Telefon klingelt, ich kuck aufs Display, ein Name steht drauf, ich heb ab:
 
-Ich: Hi <piep>, how are you?
+Ich: Hi `<piep>`, how are you?
 
 Sie: Hi Pat. I am fine. Why didn't you take my call? I called you two times...
 

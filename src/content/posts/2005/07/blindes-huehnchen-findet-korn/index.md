@@ -20,11 +20,11 @@ Wie auch immer. Für alle Leser, die es nicht ab können, wenn ich hier rumheule
 
 Hmm. So. Noch da? Ok. Also nun die Langversion.
 
-<gebrauchsanweisung>
+`<gebrauchsanweisung>`
 
 Bitte legen Sie nun [Sinead O'Connor][1] mit "Nothing compares 2 U" ein.
 
-</gebrauchsanweisung>
+`</gebrauchsanweisung>`
 
 Nun, was geschah in den letzten Wochen?
 
@@ -60,11 +60,11 @@ Und zum Schluss: Ich bin wieder Single. Habs nicht anders verdient.
 
 Genug Exhibionismus!
 
-<gebrauchsanweisung>
+`<gebrauchsanweisung>`
 
 Sinead aus!
 
-</gebrauchsanweisung>
+`</gebrauchsanweisung>`
 
 Kommen wir also zur eigentlichen Kernkompetenz der [die schreiBBloga.de][2] und den vermutlichen Inhalten der nächsten dreißig Einträge zurück --- das Wetter: Es ist fürchterlich heiß aber immer noch Regenzeit. Es regnet also häufig. Meistens, wenn ich mich außerhalb geschlossener Räume aufhalte. Macht nichts. Wischt die Tränen weg.
 

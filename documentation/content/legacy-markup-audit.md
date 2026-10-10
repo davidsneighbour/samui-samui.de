@@ -4,18 +4,6 @@ Verified on 10 October 2026 against all 2,083 Markdown and MDX files under `src/
 
 File links open the source at the recorded line in VS Code. Line numbers describe the audit snapshot and can shift as you edit the articles.
 
-## Unsupported editorial HTML
-
-These pseudo-elements have no component, transform, custom-element registration, or stylesheet support. Their original presentation cannot be inferred safely.
-
-| Markup | Source | Verified rendered behaviour |
-| --- | --- | --- |
-| `<diabolisches lachen an>…</diabolisches lachen aus>` | [src/content/posts/2006/02/derchef/index.md:16](../../src/content/posts/2006/02/derchef/index.md#L16) | Opening becomes an unknown element; the malformed closing tag appears in visible prose. |
-| `<piep>` | [src/content/posts/2007/04/kommunikation-2/index.md:14](../../src/content/posts/2007/04/kommunikation-2/index.md#L14) | Becomes an unknown element; the literal cue disappears from visible prose. |
-| `<gebrauchsanweisung>` | [src/content/posts/2005/07/blindes-huehnchen-findet-korn/index.md:23](../../src/content/posts/2005/07/blindes-huehnchen-findet-korn/index.md#L23) and [src/content/posts/2005/07/blindes-huehnchen-findet-korn/index.md:63](../../src/content/posts/2005/07/blindes-huehnchen-findet-korn/index.md#L63) | Two unknown elements; inner paragraphs remain visible, with no special component behaviour. |
-
-`<Fügen Sie hier das Crackdown-Subjekt Ihrer Wahl ein>` in [src/content/posts/2006/10/experiment-demokratie/index.md:19](../../src/content/posts/2006/10/experiment-demokratie/index.md#L19) is rendered as visible text, so it is not a broken component. `<big>` is obsolete HTML but still renders; `<caption>` is correctly inside a table. Standard HTML, including `span.caps`, is not automatically broken merely because its historical styling classes have no dedicated rule.
-
 ## Empty legacy containers
 
 There are 24 empty containers: 18 video containers, four Flickr containers, one map container, and one other empty container. Each was checked in the production output; none of these 24 articles contains an active video, iframe, or supported video-player element. Empty wrappers do not by themselves identify the original missing asset or video ID.
