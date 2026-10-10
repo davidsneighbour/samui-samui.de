@@ -14,7 +14,7 @@ Heute erfuhr mein Unterhaupt eine Rasur. Hin und wieder lasse ich die Gesichtsbe
 
 Wohlwollend nach Rasur festgestellt, dass die Pausbäckchen und das Doppelkinn mit dem Bart verschwunden sind. Puh. [Das ging ja nochmal glatt...][2]
 
-Ich finde immer wieder interessant, wie viele Leute doch nach dem ?u?erem gehen. Egal.
+Ich finde immer wieder interessant, wie viele Leute doch nach dem Äußerem gehen. Egal.
 
 Der Langhaarschneider ist übrigens tot. Daher das noch lange Oberhaupthaar.
 

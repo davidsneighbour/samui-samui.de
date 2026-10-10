@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Eben ist der stellvertretende Premierminister und Finanzminister der ?bergangsregierung [Pridiyathorn Devakula zurück getreten][1].
+Eben ist der stellvertretende Premierminister und Finanzminister der Übergangsregierung [Pridiyathorn Devakula zurück getreten][1].
 
 Er hatte ja schon während der Somkid-Geschichte mit Rücktritt gedroht. Als Grund gibt er nun unüberwindbare Differenzen hinsichtlich der Finanzpolitik mit dem Premierminister Surayud an und erwähnt die Somkid-Sache auch noch einmal. Er sagt, dass die Regierung von bestimmten Medien beeinflusst werde und in derem Sinne handelt.
 

@@ -13,6 +13,6 @@ Wenn man so liest, [was die News-Agenturen heute so verbreiten][1], dann mag man
 
 Los gehen soll es mit zwei täglichen Flügen mit Thai Airways vom Internationalen Flughafen Subvarnabhumi in Bangkok nach Samui. Die Preise sollen genau so hoch sein, wie bei Bangkok Airways. Zu hoch, wie viele meinen.
 
-Interessanterweise gabs die Meldung schon vor einem Jahr und aus der damals gro? an die ?ffentlichkeit herangetragenen Flughafenöffnung wurde bisher nichts. Nun also Mitte Februar...
+Interessanterweise gabs die Meldung schon vor einem Jahr und aus der damals groß an die Öffentlichkeit herangetragenen Flughafenöffnung wurde bisher nichts. Nun also Mitte Februar...
 
  [1]: http://enews.mcot.net/view.php?id=2343&t=1

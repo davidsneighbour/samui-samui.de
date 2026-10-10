@@ -9,6 +9,6 @@ publisher:
   seo: true
   covermigration: true
 ---
-[Gary Glitters Welttournee geht weiter][1]. Nach einem kurzen Stop in Hong Kong wurde er heute morgen wieder zurück nach Bangkok geflogen. In Hong Kong ist er wohl unerwünscht. Seine Optionen nun: Gro?britanien oder Vietnam, von wo aus er nach Gro?britanien deportiert werden würde.
+[Gary Glitters Welttournee geht weiter][1]. Nach einem kurzen Stop in Hong Kong wurde er heute morgen wieder zurück nach Bangkok geflogen. In Hong Kong ist er wohl unerwünscht. Seine Optionen nun: Großbritanien oder Vietnam, von wo aus er nach Großbritanien deportiert werden würde.
 
  [1]: http://www.bangkokpost.com/breaking_news/breakingnews.php?id=129835

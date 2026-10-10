@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Nun nennt man den heutigen Tag schon "Schwarzer Dienstag". In rei?erischen Betitulierungen sind sie gut, die Thais.
+Nun nennt man den heutigen Tag schon "Schwarzer Dienstag". In reißerischen Betitulierungen sind sie gut, die Thais.
 
 Jedenfalls hat die Entscheidung der Bank of Thailand von heute Morgen nun schon [800 Milliarden Baht Verlust][1] gebracht (der Börsenindex SET ist um runde 15% gefallen) und die Börsen in der Regionen verzeichnen auch Rückgänge. Für morgen erwartet man weitere Stürze. Ich hingegen erwarte eine erneute überhastete Regulierungsaktion des Finanzministeriums. Wenn man bedenkt dass der Typ (Finanzminister Pridiyathorn Devakula) mal heißer Anwärter auf den Interims-Premier-Posten war... Tststs...
 

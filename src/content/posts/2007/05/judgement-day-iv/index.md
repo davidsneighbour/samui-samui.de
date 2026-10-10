@@ -21,7 +21,7 @@ Update 17:00: Nun sagen sie, dass die Demokratische Partei tatsächlich nicht de
 
 Update 17:45: Die Demokraten sind von allen Vorwürfen frei gesprochen worden und werden nicht aufgelöst. Es ist interessant, wieviel Gerede da drum gemacht wird. Jetzt haben alle Sender ihre greisen Analysten vor der Kamera sitzen die erzählen, dass das ja von vorneherein schon klar war und auch richtig ist und blablabla... Der Demokratenführer gibt auf Channel 11 gerade ein sehr selbstzufriedenes Interview. Ich bin gespannt, wie es <span class="caps">TRT</span> ergehen wird.
 
-Update 17:50: Die Stra?enreporterinnen in Thailand sind allesamt ziemlich niedlich.
+Update 17:50: Die Straßenreporterinnen in Thailand sind allesamt ziemlich niedlich.
 
 Update 22:00: Irgendwie passiert nichts. Seit halb sieben lesen die Thai-Rak-Thai-Leute Anklagen und Anklageerwiderungen vor. Die einen schneller, die anderen langsamer. Alle haben sie aber dicke Papierstapel dabei. Rein rechnerisch dürfte die Entscheidung bald verlesen werden.
 
@@ -39,11 +39,11 @@ Update 23:15: Es hagelt gerade "guiltys" --- <span class="caps">TRT</span> hat d
 
 Update 23:20: Wow. Die haben grade echt gesagt, Thaksin hätte das Parlament vergangenen Frühling aus privaten Gründen (die Steuergeschichte rund um Shin Corp.) aufgelöst und nicht wegen politscher Probleme im Land. Das ist erstaunlicherweise das erste Mal, dass er heute erwähnt wird. Glaube ich.
 
-Update 23:25: **<span class="caps">THAI</span> <span class="caps">RAK</span> <span class="caps">THAI</span> <span class="caps">IST</span> AUFGEL?ST WORDEN!!!**
+Update 23:25: **<span class="caps">THAI</span> <span class="caps">RAK</span> <span class="caps">THAI</span> <span class="caps">IST</span> AUFGELÖST WORDEN!!!**
 
 Update 23:35: I think they will have big problems tonight in Bangkok, sagt Neil, mein Thaiteacher. Sieht so aus.
 
-Update 23:45: Führende Thai-Rak-Thai-Politiker einschlie?lich des Vorsitzenden des thailändischen Golfverbandes Thaksin Shinatwatra dürfen in den nächsten 5 Jahren keine politischen ?mter ausüben. Thai Rak Thai ist Geschichte. Das Spektakel zu Ende. Wir werden sehen, was die Nacht bringt.
+Update 23:45: Führende Thai-Rak-Thai-Politiker einschließlich des Vorsitzenden des thailändischen Golfverbandes Thaksin Shinatwatra dürfen in den nächsten 5 Jahren keine politischen Ämter ausüben. Thai Rak Thai ist Geschichte. Das Spektakel zu Ende. Wir werden sehen, was die Nacht bringt.
 
  [1]: http://www.nationchannel.com/live_pop.php?bitrate=256
  [2]: http://www.nationmultimedia.com/webblog/view_blog.php?uid=286&bid=2755

@@ -10,7 +10,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-In der New York Times findet man einen lesenswerten Artikel zu den Thais und ihrem Hang zum Aberglauben. Wahrsagerei und "Magie" jedweder Färbung sind auch heute noch weit verbreitet und äu?erst lukrativ.
+In der New York Times findet man einen lesenswerten Artikel zu den Thais und ihrem Hang zum Aberglauben. Wahrsagerei und "Magie" jedweder Färbung sind auch heute noch weit verbreitet und äußerst lukrativ.
 
 > In a book published two years ago, a renowned Thai fortune teller recounted his consultation with one of the country??s powerful generals, Sonthi Boonyaratglin.
 >

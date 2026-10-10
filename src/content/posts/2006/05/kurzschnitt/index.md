@@ -14,7 +14,7 @@ Aus der Kategorie "Das gibts nur in unserem Thailand" eine Lektion in Einflussna
 
 Und hier noch [ein Auszug aus Wikipedia][2]:
 
-> Mehr als 94 % der Bevölkerung bekennen sich [zum Theravâda-Buddhismus]. Andere Religionen genie?en staatlichen Schutz: 4 % Moslems (überwiegend Malaien im Süden), 0,6 % Christen und ca. 65.000 Hindus (meist Inder). Nur 0,4 % bezeichnen sich als religionslos.
+> Mehr als 94 % der Bevölkerung bekennen sich [zum Theravâda-Buddhismus]. Andere Religionen genießen staatlichen Schutz: 4 % Moslems (überwiegend Malaien im Süden), 0,6 % Christen und ca. 65.000 Hindus (meist Inder). Nur 0,4 % bezeichnen sich als religionslos.
 
 Die lokalen DVD-Händler werden allerdings recht bald ungeschnittene Versionen anbieten können. Durch Zensur begünstigt man Raubkopien.
 

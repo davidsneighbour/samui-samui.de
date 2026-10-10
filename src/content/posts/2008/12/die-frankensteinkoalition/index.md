@@ -23,7 +23,7 @@ Die <span class="caps">PAD</span> hat im besten Führerenglisch eine [Verlautbar
 
 Morgen übrigens wird es in Bangkok wieder einmal eine Demonstration geben. Diesmal nicht von der <span class="caps">PAD</span>. Man trifft sich am National Stadion um gemeinsam ein Telephonat entgegen zu nehmen: Thaksin ruft mal wieder an. Das war lange geplant und nun will er uns (eventuell) endlich einmal sagen, wer nun eigentlich seine Gegner sind. Bisher hat er ja nur mit Buchstaben um sich geworfen (davon hat das Thailändische Alphabet ein paar mehr).
 
-Für dieses 'gathering of red-shirted people' (ach ja, früher, als es noch eine Regierung gab, war man entweder gegen selbige oder für selbige. Nun ist man rot oder gelb betucht und kann nicht mal sagen, wofür man ist...) werden [3.450 Polizisten][2] auf den Stra?en stehen und für Sicherheit sorgen.
+Für dieses 'gathering of red-shirted people' (ach ja, früher, als es noch eine Regierung gab, war man entweder gegen selbige oder für selbige. Nun ist man rot oder gelb betucht und kann nicht mal sagen, wofür man ist...) werden [3.450 Polizisten][2] auf den Straßen stehen und für Sicherheit sorgen.
 
  [1]: http://www.thailandoutlook.tv/toc/ViewData.aspx?DataID=1011141
  [2]: http://www.nationmultimedia.com/breakingnews/read.php?newsid=30090831

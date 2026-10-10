@@ -15,7 +15,7 @@ publisher:
 
 Heute hat Cambodia Thailand (je nach Interpretation der jeweiligen Medien) mit Krieg gedroht, wenn Thailand nicht seine Truppen innerhalb von 24 Stunden aus dem Grenzbereich nahe des Tempels Preah Vihear zurück zieht.
 
-Im Prinzip geht es um ein gut 150 Hektar gro?es Gebiet auf dem ein Tempel steht. 1907 wurde die Grenze zwischen Cambodia und Thailand von einem französischen Team (die Franzosen wieder?) vermessen und kartographiert. Dabei wurde die Grenze (nach Meinung der Thais) in einem unwichtigen Anhang (nach Meinung der Thais) falsch eingetragen und Preah Vihear landete auf cambodianischer Seite. Aus der Wasserführung eines Grenzflusses jedoch war klar zu erkennen (nach Meinung der Thais), dass der Tempel auf thailändischem Boden steht.
+Im Prinzip geht es um ein gut 150 Hektar großes Gebiet auf dem ein Tempel steht. 1907 wurde die Grenze zwischen Cambodia und Thailand von einem französischen Team (die Franzosen wieder?) vermessen und kartographiert. Dabei wurde die Grenze (nach Meinung der Thais) in einem unwichtigen Anhang (nach Meinung der Thais) falsch eingetragen und Preah Vihear landete auf cambodianischer Seite. Aus der Wasserführung eines Grenzflusses jedoch war klar zu erkennen (nach Meinung der Thais), dass der Tempel auf thailändischem Boden steht.
 
 Nach jahrelangem Streit hat 1962 der internationale Gerichtshof in Den Haag dann entschieden, dass der Tempel zu Cambodia gehört, die Thais waren sehr erzürnt aber relativ machtlos und für eine Weile lang war Ruhe um das Gebiet.
 

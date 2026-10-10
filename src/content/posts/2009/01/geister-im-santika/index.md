@@ -13,7 +13,7 @@ Nur wenige Sekunden des neuen Jahres waren vergangen, da stand ein "Pub" (je nac
 
 Nun [suchen die Schaulustigen nach Geistern][1], die Polizei nach Angehörigen von unidentifizierten Toten, um die 20 Menschen schweben noch in Lebensgefahr.
 
-Zynisch an der ganzen Sache ist, dass die Nacht die Abschiedsparty des Clubs gefeiert wurde, der an einen anderen Ort umziehen wollte. Zynisch auch, dass der Club nur offen war, weil dessen Besitzer eine einstweilige Verfügung erzielten, als 2004 die Polizei die ?ffnung nicht gestatten wollte, weil der Club nicht den Sicherheitsrichtlinien stand hielt.
+Zynisch an der ganzen Sache ist, dass die Nacht die Abschiedsparty des Clubs gefeiert wurde, der an einen anderen Ort umziehen wollte. Zynisch auch, dass der Club nur offen war, weil dessen Besitzer eine einstweilige Verfügung erzielten, als 2004 die Polizei die Öffnung nicht gestatten wollte, weil der Club nicht den Sicherheitsrichtlinien stand hielt.
 
 Glücklicherweise sind nächstes Wochenende Gouverneurswahlen in Bangkok und so reden alle davon, wie sicher man die Clubszene nun machen will. Und Bangkok sauber.
 

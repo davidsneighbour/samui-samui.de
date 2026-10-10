@@ -14,15 +14,15 @@ Soso. Heute waren wir in Ban Nathon auf Betriebsausflug. Um 10 Uhr kam der Krems
 
 Oder nein, fangen wir anders an:
 
-Es standen ein Arztbesuch mit dem Erhalt einer Gesundheitsbescheinigung und einige Passfotos (um genau zu sein 10 kleine und 3 gro?e) für unsere Work-Permits an. (Was? Wir haben immer noch keine Arbeitsgenehmigung?) Jedenfalls waren ein paar Behördengänge zu tun und wir taten sie. Die Gänge.
+Es standen ein Arztbesuch mit dem Erhalt einer Gesundheitsbescheinigung und einige Passfotos (um genau zu sein 10 kleine und 3 große) für unsere Work-Permits an. (Was? Wir haben immer noch keine Arbeitsgenehmigung?) Jedenfalls waren ein paar Behördengänge zu tun und wir taten sie. Die Gänge.
 
-Wir sind natürlich nicht mit dem Kremserwagen gefahren und Bier trinken wir nicht. Weder auf Arbeit noch anderswo. Alkohol ist böse. Wir haben uns brav um neun möglichst nahe an des Chefs Behausung getroffen (nur nicht zuviel Arbeit für einen alten Mann machen) und fuhren sodann auf unseren knatternden Stra?enkreuzern gen Ban Nathon. Das Schlimmste erwartend.
+Wir sind natürlich nicht mit dem Kremserwagen gefahren und Bier trinken wir nicht. Weder auf Arbeit noch anderswo. Alkohol ist böse. Wir haben uns brav um neun möglichst nahe an des Chefs Behausung getroffen (nur nicht zuviel Arbeit für einen alten Mann machen) und fuhren sodann auf unseren knatternden Straßenkreuzern gen Ban Nathon. Das Schlimmste erwartend.
 
 Nun, was mag man erwarten bei einem Gesundheitscheck? Einige Metallteile in verschiedenen Körperöffnungen? Hammerschläge aufs Knie? Laufbandlaufen, stundenlang? Radfahren? Ziehense mal das da aus und bückense sich?
 
-Hmm... Man stelle sich folgendes vor: Wir gehen auf einer Einkaufsstra?e entlang und kommen zu einem Ladengeschäft mit offener Theke zur Stra?e hin. Dahinter sitzt ein ca. 40jähriger Mann, dem wir erklären, dass wir für die Work-Permits eine Gesundheitsbescheinigung benötigen. Er sagt ja, ok, holt einen Stapel Formularkopien hervor, sagt, er braucht einen Pass von uns, wir geben ihn hin, er füllt das Formular aus. Unterschreibt. Stempelt. Tütet ein. 50 THB. Fertig.
+Hmm... Man stelle sich folgendes vor: Wir gehen auf einer Einkaufsstraße entlang und kommen zu einem Ladengeschäft mit offener Theke zur Straße hin. Dahinter sitzt ein ca. 40jähriger Mann, dem wir erklären, dass wir für die Work-Permits eine Gesundheitsbescheinigung benötigen. Er sagt ja, ok, holt einen Stapel Formularkopien hervor, sagt, er braucht einen Pass von uns, wir geben ihn hin, er füllt das Formular aus. Unterschreibt. Stempelt. Tütet ein. 50 THB. Fertig.
 
-Ich bin somit im Besitz der [Beglaubigung, dass ich geistig und körperlich gesund bin][1]. Gut, mir könnte ein Kopf unter der Achsel herauswachsen. Aber meinen Beleg habe ich. Sollte jemand Zweifel hegen --- Bitte! Ich hab es schwarz auf wei?! Mit Stempel! Dr. Surasit hat das gesagt und einem Doktor werdet ihr doch wohl glauben?
+Ich bin somit im Besitz der [Beglaubigung, dass ich geistig und körperlich gesund bin][1]. Gut, mir könnte ein Kopf unter der Achsel herauswachsen. Aber meinen Beleg habe ich. Sollte jemand Zweifel hegen --- Bitte! Ich hab es schwarz auf weiß! Mit Stempel! Dr. Surasit hat das gesagt und einem Doktor werdet ihr doch wohl glauben?
 
 Jedenfalls unterhielt er uns während des Ausfüllens des Formulares mit lustigen Bemerkungen und Fotos aus verschiedenen Photoalben. Das erste Foto war eine Person sitzend quer vor [Hin Yai][2]. So optimal ausgerichtet, dass es aussah als ob, na? genau... jede Menge Familienphotos. Sein Lehrer (eine wichtige Person in seinem Leben). Manchmal fährt er nach Bangkok um dort seinen Klassen zu zeigen, wie man sicher mit Wunden umgeht.
 

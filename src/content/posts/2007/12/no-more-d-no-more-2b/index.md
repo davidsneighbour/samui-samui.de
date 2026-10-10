@@ -9,9 +9,9 @@ publisher:
   seo: true
   covermigration: true
 ---
-Big ist tot. Big ist ein Drittel einer vor gut fünf Jahren noch sehr erfolgreichen thailändischen Boyband namens D2B und hie? eigentlich Parnrawat Kittikorncharoen. Die Boyband hie? D2B weil sie aus Dan, Big und Beam bestand. 2 B's und 1 D.
+Big ist tot. Big ist ein Drittel einer vor gut fünf Jahren noch sehr erfolgreichen thailändischen Boyband namens D2B und hieß eigentlich Parnrawat Kittikorncharoen. Die Boyband hieß D2B weil sie aus Dan, Big und Beam bestand. 2 B's und 1 D.
 
-Big lag seit gut viereinhalb Jahren im Koma, weil er eines Nachts einen Autounfall hatte. Er fuhr mit seinem Auto in einen Kanal an der Stra?enseite, schluckte verschmutztes Wasser und litt seither an einer Bakterieninfektion.
+Big lag seit gut viereinhalb Jahren im Koma, weil er eines Nachts einen Autounfall hatte. Er fuhr mit seinem Auto in einen Kanal an der Straßenseite, schluckte verschmutztes Wasser und litt seither an einer Bakterieninfektion.
 
 D2B war eine der erfolgreichsten Boybands zu der Zeit. Dan und Beam firmierten später unter Dan and Beam weiter (eine meiner ersten hier gekauften CDs war von ihnen) und waren bis vor gut zwei Wochen noch aktiv. Dann verkündeten auch sie ihre Auflösung.
 

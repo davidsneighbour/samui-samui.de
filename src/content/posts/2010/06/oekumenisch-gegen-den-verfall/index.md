@@ -1,5 +1,5 @@
 ---
-title: ?kumenisch gegen den Verfall
+title: Ökumenisch gegen den Verfall
 date: 2010-06-08T08:31:14+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:

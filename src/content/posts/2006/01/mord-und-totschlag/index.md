@@ -25,7 +25,7 @@ Ist also ne Menge los auf Samui.
 
 Interessant ist, dass die Leiche ehemals im New Hut gewohnt hat, meiner dritten Wohnfläche hier auf der Insel. Ich bin da nur zwei Wochen geblieben weil man da wenn man keine laute Musik hörte den Pärchen (professionellen wie auch Amateuren) beim Kopulieren zuhören durfte.
 
-Gestern jedenfalls stand ein Reporterteam wichtig an der Stra?e am New Hut und filmte den Verkehr. Ich setzte Gesicht Nummer 15 ("concerned") auf, Pokki quietschte und wir fuhren vorbei.
+Gestern jedenfalls stand ein Reporterteam wichtig an der Straße am New Hut und filmte den Verkehr. Ich setzte Gesicht Nummer 15 ("concerned") auf, Pokki quietschte und wir fuhren vorbei.
 
 PS: Sollte ich jemals eines Mordes sterben (gut, das ist sicherlich nicht die schönste Art zu verscheiden aber an manchen Orten nicht unbedingt zu vermeiden) bitte ich von Phrasen wie "Wir werden seine Lebensfreude vermissen", "Diese Thailandsache bedeutete ihm immer sehr viel" und "Seine Noten in der Schule waren immer sehr gut. Schade dass er jetzt tot ist" abzusehen. Danke.
 

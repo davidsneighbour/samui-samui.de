@@ -15,7 +15,7 @@ Dabei ist das so einfach. Ich habe noch nie gesehen, dass da jemand aufgehalten 
 
 Auch das mit den Grenzbeamten, die im jeweiligen Nachbarland spazieren gehen kann ich bestätigen. Man sieht immer malayische Beamte (in voller Montur und Bewaffnung) auf der Thaiseite spazieren und mit den (unverhüllten) Frauen schäkern und Thais (mit leerem Pistolenhalfter) in Malaysia.
 
-?berhaupt, die Grenze ist nur eine politische, die Familien in den grenznahen Gebieten sind bereits vermischt.
+Überhaupt, die Grenze ist nur eine politische, die Familien in den grenznahen Gebieten sind bereits vermischt.
 
 Bei der Einreise in Malaysia bekommt man als Deutscher übrigens genauso wie in Thailand ein Visa on Arrival. Das allerdings hat eine Gültigkeit von 90 Tagen (in Thailand sind es nur 30 Tage).
 

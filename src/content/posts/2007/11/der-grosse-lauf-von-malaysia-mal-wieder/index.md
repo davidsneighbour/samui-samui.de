@@ -1,5 +1,5 @@
 ---
-title: Der gro?e Lauf von Malaysia (mal wieder)
+title: Der große Lauf von Malaysia (mal wieder)
 date: 2007-11-27T20:11:55+07:00
 publisher:
   description: true
@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Sodele... Heute geht es dann mal wieder ins schöne Malaysia --- ein Visarun steht an. Ein grö?erer, nach dessen Zieleinlauf ich dann (hoffentlich/vermutlich/eventuell/wenn alles klappt) nur noch aller drei Monate kurz über die Grenze hupfen muss.
+Sodele... Heute geht es dann mal wieder ins schöne Malaysia --- ein Visarun steht an. Ein größerer, nach dessen Zieleinlauf ich dann (hoffentlich/vermutlich/eventuell/wenn alles klappt) nur noch aller drei Monate kurz über die Grenze hupfen muss.
 
 Diesmal habe ich auch sehr viel mehr Papier mit genommen. Gestempelt. Tausendfach unterschrieben. Die Thaibehörden lieben Stempel und Unterschriften.
 

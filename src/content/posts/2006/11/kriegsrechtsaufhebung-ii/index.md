@@ -14,7 +14,7 @@ Wenn der König das entsprechende Gesetz unterzeichnet, dann wird in den nächst
 
 [In den folgenden Provinzen bleibt das Kriegsrecht aktiv][1]: _Kanchanaburi_, Kamphaengphet, Khonkaen, _Chanthaburi_, Chiang Rai, Chiang Mai, Chaiyaphum, _Trat_, _Tak_, Narathiwat, Nakhon Ratchasima, _Nan_, Buri Ram, _Prachub Khiri Khan_, Pattani, _Payao_, _Phitsanulok_, _Phetchaburi_, _Mae Hong Son_, Maha Sarakham, Yala, Ratchaburi, _Roi Et, Ranong_, Loei, Si Sa Ket, _Satun_, _Songkhla_, _Sa Kaew_, Surin, Nongbualamphu, Udorn Thani, _Uttaradit_, Ubon Ratchathani, Amnatcharoen. (In den kursiven Provinzen bleiben nur einige Bereiche unter Kriegsrecht.)
 
-Für die Provinzen Chiang Mai, Kamphaeng Phet, Buri Ram and Khon Kaen wird ein [aktiver Thai-Rak-Thai-Untergrund][2] als Grund angegeben, im Süden gibt es auch weiterhin die Unruhen (man sagt, [muslimische Extremisten hätten ein Kopfgeld auf Surayudh und Sonthi ausgeschrieben][3]) und in den anderen Provinzen geht es grö?tenteils um illegalen Grenzverkehr und den Kampf gegen die Drogen (beispielsweise [in Surin, wo sich die Situation rapide verschlechtert][4]).
+Für die Provinzen Chiang Mai, Kamphaeng Phet, Buri Ram and Khon Kaen wird ein [aktiver Thai-Rak-Thai-Untergrund][2] als Grund angegeben, im Süden gibt es auch weiterhin die Unruhen (man sagt, [muslimische Extremisten hätten ein Kopfgeld auf Surayudh und Sonthi ausgeschrieben][3]) und in den anderen Provinzen geht es größtenteils um illegalen Grenzverkehr und den Kampf gegen die Drogen (beispielsweise [in Surin, wo sich die Situation rapide verschlechtert][4]).
 
 Auf der Karte sieht es dann folgendermassen aus:
 

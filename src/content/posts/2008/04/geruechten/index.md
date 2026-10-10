@@ -25,13 +25,13 @@ Vor ein paar Tagen sagte General Anupong Paojinda, der derzeitige Armeechef das 
 
 Vergangene Woche hat ein bekannter Wahrsager in Chiang Mai (Thaksins Heimat) einen Putsch für Mai voraus gesagt. Der Airforce-Chef war [rein zufällig][1] dabei und Thaksin hat allen geraten, nicht auf Wahrsager zu hören, [bevor er ein Flugzeug nach Cambodia bestieg][2].
 
-Abhisit, Führer der Demokraten und Vorsitzender des "Schattenkabinetts" (so eine Art Gegenregierung der statistischen Wahlverlierer mit "demokratischen" ?quivalenten der jeweiligen Ministeriumsposten, die ihre aktuell regierenden Schatten werfenden Minister "überwachen"), meint, der Premierminister solle nicht ständig von putschen sprechen, wenn er keine Beweise hätte.
+Abhisit, Führer der Demokraten und Vorsitzender des "Schattenkabinetts" (so eine Art Gegenregierung der statistischen Wahlverlierer mit "demokratischen" Äquivalenten der jeweiligen Ministeriumsposten, die ihre aktuell regierenden Schatten werfenden Minister "überwachen"), meint, der Premierminister solle nicht ständig von putschen sprechen, wenn er keine Beweise hätte.
 
 Rund um Prem Tinsulanondas Grundstück (Chef des Königlichen Geheimrates und <span class="caps">NICHT</span> Planer des letzten Putsches) stehen immer noch die Militärs und schützen ihn vor unbekannten Gefahren.
 
 Und Samak, unser Premierminister, selbst? Der war in Vietnam und kam mit einer Darmgrippe zurück.
 
-Ich wäre ja für ein Datum nach dem Mai. Dann ist die gro?e Reisewelle vorbei und das Wetter nicht mehr so hei?.
+Ich wäre ja für ein Datum nach dem Mai. Dann ist die große Reisewelle vorbei und das Wetter nicht mehr so heiß.
 
  [1]: http://www.nationmultimedia.com/breakingnews/read.php?newsid=30070339
  [2]: http://www.nationmultimedia.com/breakingnews/read.php?newsid=30070174

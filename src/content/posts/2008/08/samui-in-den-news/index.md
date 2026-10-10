@@ -21,7 +21,7 @@ Und dann war noch das: Auf Samui wurde <del>mal wieder</del> ein [Kokain-Ring ze
 
 Damit ist unsere Insel wieder so sauber wie sie schon immer war. Bis zum nächsten zerschlagenen Drogenring.
 
-Als ich neulich Freunde aus Bangkok zur Fähre nach Koh Pha Ngaan brachte (man wollte die Auswirkung der Fullmoon Party dort auf Thais untersuchen) rollten mir ständig kleine leere Fläschchen vor die Fü?e. Ein Thai grinste mich dann immer konspirativ an und machte sniffende (Ganzkörper)Bewegungen. Zur Preisangabe kam es dann, als ich mir ein alkoholisches Aufmunterungsmittel beschaffen ging.
+Als ich neulich Freunde aus Bangkok zur Fähre nach Koh Pha Ngaan brachte (man wollte die Auswirkung der Fullmoon Party dort auf Thais untersuchen) rollten mir ständig kleine leere Fläschchen vor die Füße. Ein Thai grinste mich dann immer konspirativ an und machte sniffende (Ganzkörper)Bewegungen. Zur Preisangabe kam es dann, als ich mir ein alkoholisches Aufmunterungsmittel beschaffen ging.
 
 Wie auch immer. Ich glaube natürlich, dass Samui kriminalitäts- und drogenfrei ist.
 

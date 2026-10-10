@@ -157,5 +157,5 @@ Eine der vielen Traditionen zu Songkran ist übrigens der Besuch von neun Tempel
   </p>
 
   <p>
-    PS: Dem ein oder anderen mag auffallen, dass ich die "berühmten raditionellen Wasserschlachten" nicht erwähnt habe. Das liegt daran, dass sie nicht traditionell sind. Man gie?t Wasser über Buddhastatuen oder die Hände der älteren Familienmitglieder.
+    PS: Dem ein oder anderen mag auffallen, dass ich die "berühmten raditionellen Wasserschlachten" nicht erwähnt habe. Das liegt daran, dass sie nicht traditionell sind. Man gießt Wasser über Buddhastatuen oder die Hände der älteren Familienmitglieder.
   </p>

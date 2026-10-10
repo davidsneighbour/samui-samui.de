@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Samui wurde heute zum [Katastrophengebiet][1] ausgerufen. Es regenete gut zwei Tage lang und die Stra?en sind überflutet. Auf dem Weg zum nächtlichen Bierkauf (1km zum 7eleven) gibt es drei ?berschwemmungsstellen und die Stra?e hat jeden Tag mehr Schlaglöcher und Risse.
+Samui wurde heute zum [Katastrophengebiet][1] ausgerufen. Es regenete gut zwei Tage lang und die Straßen sind überflutet. Auf dem Weg zum nächtlichen Bierkauf (1km zum 7eleven) gibt es drei Überschwemmungsstellen und die Straße hat jeden Tag mehr Schlaglöcher und Risse.
 
 Der Flugverkehr wurde teilweise eingestellt (eben gerade kam noch ein Flieger rein, die meisten Flüge für heute wurden aber abgesagt und die Fluggäste nach Surat Thani geschickt). Die Fähren fahren noch, aber nur mit halber Kapazität.
 

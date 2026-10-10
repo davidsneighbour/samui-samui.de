@@ -14,9 +14,9 @@ Gegen Samstag vorvergangener Woche bekamen die Hunde mit, dass da mal wieder was
 
 [Die Häufung der Kisten und Tüten][1] diesmal konnte nur bedeuten, dass es länger dauern würde. Wer würde auch annehmen, dass der Mensch die Hunde mit nimmt? Genau. Niemand.
 
-Jeder Hund bekämpfte die Situation auf seine ganz eigene Art und Weise. Pokkie brachte aller 5 Minuten den Ball, stuppste mich an und wollte den Ball geworfen haben. Menschen die spielen gehen nicht weg. Soosie kam wenn immer ich mal sa? angelaufen, stellte ihre Vorderbeine auf meine Knie, schaute mir ernst in die Augen und schnaubte. Könnte ja sein, dass man mich noch überreden kann. Nikkie schnüffelte an den Tüten herum und suchte, wo die Leckerlies versteckt sind. Tüten enthalten <span class="caps">IMMER</span> Leckerlies!
+Jeder Hund bekämpfte die Situation auf seine ganz eigene Art und Weise. Pokkie brachte aller 5 Minuten den Ball, stuppste mich an und wollte den Ball geworfen haben. Menschen die spielen gehen nicht weg. Soosie kam wenn immer ich mal saß angelaufen, stellte ihre Vorderbeine auf meine Knie, schaute mir ernst in die Augen und schnaubte. Könnte ja sein, dass man mich noch überreden kann. Nikkie schnüffelte an den Tüten herum und suchte, wo die Leckerlies versteckt sind. Tüten enthalten <span class="caps">IMMER</span> Leckerlies!
 
-Sonntag dann kamen ein paar Thais, es wurde viel herum geschoben und nach zwanzig Minuten war das Haus leer. Nur drei einsame Hunde sa?en herum. Ich mag mir gar nicht ausmalen, wie sie sich gegenseitig beschuldigten, der Grund dafür zu sein, dass ich sie verlassen habe.
+Sonntag dann kamen ein paar Thais, es wurde viel herum geschoben und nach zwanzig Minuten war das Haus leer. Nur drei einsame Hunde saßen herum. Ich mag mir gar nicht ausmalen, wie sie sich gegenseitig beschuldigten, der Grund dafür zu sein, dass ich sie verlassen habe.
 
 Nachdem alles im neuen alten Haus eingeräumt war, bin ich dann ins alte alte Haus gefahren und hab die drei abgeholt (oder habe sie abholen wollen. Nikkie wollte nicht aufs Moped und musste noch eine halbe Stunde für eine Extratour warten).
 

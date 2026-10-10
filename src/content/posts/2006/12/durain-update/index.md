@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Also es regnet. Mehr als zuvor aber das kennen wir ja schon. Interessanterweise können sich die Meterologischen ?mter nicht entscheiden, ob der Sturm (so wie es im Augenblick aussieht ist es nur noch ein Stürmchen) nun Durain oder Durian heisst.
+Also es regnet. Mehr als zuvor aber das kennen wir ja schon. Interessanterweise können sich die Meterologischen Ämter nicht entscheiden, ob der Sturm (so wie es im Augenblick aussieht ist es nur noch ein Stürmchen) nun Durain oder Durian heisst.
 
 Es tropft aus dem Dach und die Hunde stinken weil sie ständig feucht werden (ich renne den ganzen Morgen schon mit dem Fön herum) --- dass es unter dem Haus trocken ist, weshalb ich sie genau dahin setze, begreifen sie leider nicht.
 

@@ -15,7 +15,7 @@ Anfang des Jahres trat er auch nachdem er bereits Premierminister war in seiner 
 
 Wird er für schuldig befunden, dann verliert er seinen Posten als Premierminister und das Parlament muss aufgelöst werden. Ich würde mich totlachen, wenn eine Kochsendung etwas zu Stande bringen könnte, was die <span class="caps">PAD</span> mit ihren friedfertigen Protesten nicht geschafft hat.
 
-Sü? finde ich den folgenden Absatz im Artikel von [The Nation][1]:
+Süß finde ich den folgenden Absatz im Artikel von [The Nation][1]:
 
 > He said he had only hosted the show a few times after becoming prime minister and only on a freelance basis. He claimed he had passed the money he earned on to his driver.
 

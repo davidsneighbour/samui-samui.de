@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Heute ist der Tag der "Royal Ploughing Ceremony", eine Zeremonie brahmanischer Herkunft, an dem auf dem königlichen Acker in Bangkok gepflügt und Reis gesät wird. Au?erdem werden den beiden pflügenden heiligen Kühen sieben verschiedene Güter (Reis, Mais, grüne Bohnen, Sesam, Likör(!), Wasser und Gras) vorgesetzt und [die von ihnen gefressene Sorte][1] bestimmt die Ernteergebnisse des Jahres:
+Heute ist der Tag der "Royal Ploughing Ceremony", eine Zeremonie brahmanischer Herkunft, an dem auf dem königlichen Acker in Bangkok gepflügt und Reis gesät wird. Außerdem werden den beiden pflügenden heiligen Kühen sieben verschiedene Güter (Reis, Mais, grüne Bohnen, Sesam, Likör(!), Wasser und Gras) vorgesetzt und [die von ihnen gefressene Sorte][1] bestimmt die Ernteergebnisse des Jahres:
 
 > If the Sacred Cows eat paddy or maize, the prophecy is that the harvests and food produce will be abundant. If they eat green bean or sesame, food produce will be abundant and the food that we eat every day will also be available throughout the country. If they drink water or eat grass, water will be abundant, while harvests, food produce and the food that we eat every day will be rich in supply. If they drink the liquor, transportation will be convenient and commerce with foreign countries will be prosperous.
 

@@ -18,11 +18,11 @@ Nagut. Zwei Filmchen habe ich noch im Originalton ergattern können: "The Ring 2
 
 > **Update** Na, das muss ich doch gleich mal revidieren wie mir mein Gewissen eben mitteilt:
 >
-> [16:41:23] _Gewissen_ "???In good company??? ??? ein Film von dem ich noch nie was geh??rt habe"
+> [16:41:23] _Gewissen_ "???In good company??? ??? ein Film von dem ich noch nie was gehört habe"
 
 > [16:41:32] _Patrick Kollitsch_ jupp
 
-> [16:41:46] _Gewissen_ ich hatte ihn dir gegen??ber mal erw??hnt...
+> [16:41:46] _Gewissen_ ich hatte ihn dir gegenüber mal erwähnt...
 
 > [16:41:52] _Patrick Kollitsch_ hmm
 
@@ -30,7 +30,7 @@ Nagut. Zwei Filmchen habe ich noch im Originalton ergattern können: "The Ring 2
 
 > [16:42:01] _Patrick Kollitsch_ ich kann mich nicht erinnern
 
-> [16:42:07] _Gewissen_ so also h??rst du auf mich
+> [16:42:07] _Gewissen_ so also hörst du auf mich
 
 > [16:42:09] _Patrick Kollitsch_ ich werde das gleich mal aendern
 

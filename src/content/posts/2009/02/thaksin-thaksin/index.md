@@ -19,6 +19,6 @@ Dieses Wochenende allerdings hat er relativ unbeobachtet [folgendes abgesondert]
 
 Er will also zurück. Das wäre dann endlich mal ein Premierminister, mit dem die Hälfte der Thais zufrieden ist.
 
-Dass nun plötzlich jede Menge rotbetuchter Demonstranten mobilisiert werden können und Bangkok wieder bedemonstriert wird, hängt mit derartigen ?usserungen natürlich nicht im Geringsten zusammen.
+Dass nun plötzlich jede Menge rotbetuchter Demonstranten mobilisiert werden können und Bangkok wieder bedemonstriert wird, hängt mit derartigen Äusserungen natürlich nicht im Geringsten zusammen.
 
  [1]: http://www.nationmultimedia.com/breakingnews/30094802/I%27ll-return-to-post-of-prime-minister:-Thaksin

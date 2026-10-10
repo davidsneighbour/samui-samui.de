@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Die [Ergebnisse][1] stehen fest, die Peoples Power Partei ist "der gro?e Gewinner" der Wahlen. <span class="caps">PPP</span> hat 233 Plätze im Parlament abgeräumt und die Demokraten nur 165. Das ist allerdings keine überwältigende Mehrheit, weshalb man nun [auf der Suche nach Koalitionspartnern][2] ist, auf dass die Demokraten mit ihrem angestammten Oppositionsplatz nichts mehr als reine Zahlen in den Abstimmungen seien...
+Die [Ergebnisse][1] stehen fest, die Peoples Power Partei ist "der große Gewinner" der Wahlen. <span class="caps">PPP</span> hat 233 Plätze im Parlament abgeräumt und die Demokraten nur 165. Das ist allerdings keine überwältigende Mehrheit, weshalb man nun [auf der Suche nach Koalitionspartnern][2] ist, auf dass die Demokraten mit ihrem angestammten Oppositionsplatz nichts mehr als reine Zahlen in den Abstimmungen seien...
 
 Das Volk will trotzdem noch Abhisit, den Vorsitzenden der Demokraten, als Premierminister sehen und nicht Samak, den Chef der <span class="caps">PPP</span>. Sagt eine [Umfrage][3]. Leider fragt die Umfrage nicht nach dem "Warum", denn dann müsste man einen photographischen Vergleich der beiden Herren anstellen.
 

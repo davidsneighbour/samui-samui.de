@@ -1,5 +1,5 @@
 ---
-title: Harry. Das gro?e Finale
+title: Harry. Das große Finale
 date: 2007-07-20T10:24:05+07:00
 publisher:
   description: true

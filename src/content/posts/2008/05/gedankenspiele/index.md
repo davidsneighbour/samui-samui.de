@@ -19,7 +19,7 @@ Jedenfalls ging Samak heute morgen plötzlich im Fernsehen vor die Kameras und [
 
 (Ich muss gestehen, dass ich das aus Versehen sogar live gesehen habe, nicht verstand, nicht zu hörte und die ganze Zeit Vergleiche seiner Körpersprache mit Demagogen "jüngerer deutscher Geschichte" gezogen habe, das aber nur am Rande)
 
-Es gab einige Tumulte, die angedrohte Gewalt als auch die Reaktionen oder vorbeugende Ma?nahmen seitens der Demonstranten blieben glücklicherweise erst einmal aus.
+Es gab einige Tumulte, die angedrohte Gewalt als auch die Reaktionen oder vorbeugende Maßnahmen seitens der Demonstranten blieben glücklicherweise erst einmal aus.
 
 Jetzt gegen Abend gibt es interessante Meinungen zu den "Vorfällen", etwa, dass "Anti-<span class="caps">PAD</span>-Kräfte" --- das müssten dann ja wohl Thaksin-Freunde sein --- vor hatten, Granaten in die Demonstration zu feuern und dass Samaks Ansprache heute morgen rein präventiv war. Andere sagen, dass Samak mal wieder irgendwas in den falschen Hals bekommen hat.
 

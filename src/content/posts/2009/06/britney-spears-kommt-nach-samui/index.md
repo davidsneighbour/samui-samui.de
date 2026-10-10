@@ -11,7 +11,7 @@ publisher:
 ---
 [Britney Jean Spears][1] will ein ganzes Ressort hier auf Samui für einen einwöchigen Urlaub mieten. [Sagt man][2].
 
-Für fast 300.000 Dollar will sie im Sila Evason (das eigentlich [Six Senses Hideaway][3] hei?t und mit derartiger Vorankündigung kein Hideaway sein wird) den erfolgreichen Abschluss ihrer Europatournee feiern. Gleich mal die Photo-Möglichkeiten ausloten.
+Für fast 300.000 Dollar will sie im Sila Evason (das eigentlich [Six Senses Hideaway][3] heißt und mit derartiger Vorankündigung kein Hideaway sein wird) den erfolgreichen Abschluss ihrer Europatournee feiern. Gleich mal die Photo-Möglichkeiten ausloten.
 
 Kevin Federline, Ex-Ehemann und angeblich auch Künstler ist ebenfalls eingeladen. Na denn...
 

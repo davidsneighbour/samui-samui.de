@@ -1,5 +1,5 @@
 ---
-title: Thaksin l??st das Parlament auf
+title: Thaksin löst das Parlament auf
 date: 2006-02-25T03:00:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:

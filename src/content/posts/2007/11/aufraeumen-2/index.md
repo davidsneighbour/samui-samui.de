@@ -11,7 +11,7 @@ publisher:
 ---
 In Bangkok wurde heute ein [Brite festgenommen][1], der pornographische Bilder nackter Kinder im Internet vertrieben haben soll. Ob er sie auch missbraucht hat, wird noch ermittelt.
 
-Au?erdem gibt es einen [Haftbefehl für einen weiteren kanadischen Pädophilen][2], Orville Frank Mader.
+Außerdem gibt es einen [Haftbefehl für einen weiteren kanadischen Pädophilen][2], Orville Frank Mader.
 
 Die Medienaufmerksamkeit des Falles Christopher Paul Neil hat sehr positive Auswirkungen auf die Ermittlungstätigkeit der thailändischen Polizei.
 

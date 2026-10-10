@@ -17,7 +17,7 @@ Also Putsch am 2. Juli. Das letzte Mal, als er einen Putsch vorher gesagt hat, h
 
 Wie schön, dass es nicht mehr strafbar ist, über diesen Mann zu lachen.
 
-?brigens will er Ronaldinho [für Manchester City einkaufen][2]...
+Übrigens will er Ronaldinho [für Manchester City einkaufen][2]...
 
  [1]: http://www.telegraph.co.uk/news/newstopics/howaboutthat/2145141/Thaksin-Shinawatra-looks-to-planets-for-end-to-Thailand's-turmoil.html
  [2]: http://sportsillustrated.cnn.com/2008/soccer/06/16/bc.as.spt.soc.mancity.r.ap/

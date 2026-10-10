@@ -10,7 +10,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Heute (am zweiten Samstag im Januar) ist (zumindest in Thailand) der Kindertag. Kinder sind wichtig zum Erhalt der Nation. Deshalb werden in Bangkok die Kinder zu gro?en Armeeshows eingeladen, dürfen (ausserhalb der normalen Nutzungzeiten wie gelbe oder rote Unruhen oder einem Putsch) die Panzer und Maschinerie bestaunen und werden gelobt und gefördert.
+Heute (am zweiten Samstag im Januar) ist (zumindest in Thailand) der Kindertag. Kinder sind wichtig zum Erhalt der Nation. Deshalb werden in Bangkok die Kinder zu großen Armeeshows eingeladen, dürfen (ausserhalb der normalen Nutzungzeiten wie gelbe oder rote Unruhen oder einem Putsch) die Panzer und Maschinerie bestaunen und werden gelobt und gefördert.
 
 [Und von Bierwerbung befreit][1].
 

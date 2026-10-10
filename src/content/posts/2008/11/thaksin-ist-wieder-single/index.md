@@ -11,7 +11,7 @@ publisher:
 ---
 Und trotzdem noch schuldig. Thaksin Shinawatra und seine Frau Pojaman [haben sich in der vergangenen Woche in Hong Kong scheiden lassen][1].
 
-Der ganzen Angelegenheit voraus ging ein Widerruf ihrer Visa für Gro?britanien am letzten Wochenende (sie waren gerade mal wieder in China), woraufhin Thaksin vollkommen ausgetickt ist und nun angedroht hat, öffentlich die Namen seiner Widersacher zu nennen. Buchstaben hatte er schon genannt, nun also die vollen Namen. Viele Thais wollten schon immer mal wissen, wer hier im Lande Thaksin eigentlich nicht mag.
+Der ganzen Angelegenheit voraus ging ein Widerruf ihrer Visa für Großbritanien am letzten Wochenende (sie waren gerade mal wieder in China), woraufhin Thaksin vollkommen ausgetickt ist und nun angedroht hat, öffentlich die Namen seiner Widersacher zu nennen. Buchstaben hatte er schon genannt, nun also die vollen Namen. Viele Thais wollten schon immer mal wissen, wer hier im Lande Thaksin eigentlich nicht mag.
 
 Seine Frau soll, so sagt man, diesen Weg nicht mit gehen wollen und so wurde die Ehe geschieden.
 

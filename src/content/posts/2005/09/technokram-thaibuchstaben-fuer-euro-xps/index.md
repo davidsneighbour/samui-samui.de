@@ -1,5 +1,5 @@
 ---
-title: "Technokram: Thaibuchstaben f??r euro-XPs"
+title: "Technokram: Thaibuchstaben für euro-XPs"
 date: 2005-09-25T05:41:00+07:00
 dsq_thread_id:
   - "3039763961"

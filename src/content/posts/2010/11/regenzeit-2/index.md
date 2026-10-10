@@ -16,7 +16,7 @@ Jetzt gerade kann ich von meiner Terasse aus das Meer hören --- ein seltener Vo
 
 In Thailand ist derzeit Regenzeit. Der Norden steht seit Wochen unter Wasser, die Rede ist von der schlimmsten Flut seit 50 Jahren.
 
-So eine Regenzeit ist gleicherma?en entspannend (man ist auf Terasse und in-House beschränkt und kann dem Regen beim Treiben zu hören) und nervig (die Hunde fangen nach einem Tag an muffiges Fell zu haben und allerlei Getier sucht das trockene Hausinnere). Wäsche waschen (und trocknen) wird zu einem wochen langen Projekt.
+So eine Regenzeit ist gleichermaßen entspannend (man ist auf Terasse und in-House beschränkt und kann dem Regen beim Treiben zu hören) und nervig (die Hunde fangen nach einem Tag an muffiges Fell zu haben und allerlei Getier sucht das trockene Hausinnere). Wäsche waschen (und trocknen) wird zu einem wochen langen Projekt.
 
 Ich entsinne mich schwach, vor ein paar Jahren einmal über eine Woche ans Haus gebunden gewesen zu sein. Irgendwann sind die Tütensuppen und das Trinkwasser aufgebraucht und man muss trotzdem raus. Bin gespannt wie es diesmal verläuft.
 

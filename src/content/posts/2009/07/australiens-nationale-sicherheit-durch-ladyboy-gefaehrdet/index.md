@@ -15,6 +15,6 @@ Das Notebook enthielt "nur" Klassifiziertes niedrigster Klassen und war durch ei
 
 > Asked if <span class="caps">ADF</span> personnel received adequate advice on practising safe sex while visiting Bangkok, the department replied that all personnel were required to read a country brief for the area they were operating in.
 
-?ber den Informationsgehalt des Briefings zu thailändischen Ladyboythemen wurde nichts bekannt.
+Über den Informationsgehalt des Briefings zu thailändischen Ladyboythemen wurde nichts bekannt.
 
  [1]: http://www.theaustralian.news.com.au/story/0,25197,25763444-5013404,00.html

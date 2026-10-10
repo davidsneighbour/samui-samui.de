@@ -9,9 +9,9 @@ publisher:
   seo: true
   covermigration: true
 ---
-Die Tage seit dem Jahreswechsel sind gefüllt mit Bombendrohungen. Nahezu keine Stunde ohne erneuten Bombenalarm. Einkaufszentren, Schulen, Redaktionen... nicht nur in Bangkok. Entweder reagieren Leute verängstigt auf offen stehende öffentliche Telephone oder einsam herumstehende Taschen oder Leute stellen tatsächlich Taschen mit herausstehenden Drähten irgendwo hin oder rufen an, um zu erklären, dass sie Bomben deponiert hätten. Hysterie und Vandalentum halten sich somit die Waage. "Echte" Anschläge au?er den seit zwei Jahren beinahe täglich geschehenden im Süden gab es aber seither nicht. Die Behörden wachsam.
+Die Tage seit dem Jahreswechsel sind gefüllt mit Bombendrohungen. Nahezu keine Stunde ohne erneuten Bombenalarm. Einkaufszentren, Schulen, Redaktionen... nicht nur in Bangkok. Entweder reagieren Leute verängstigt auf offen stehende öffentliche Telephone oder einsam herumstehende Taschen oder Leute stellen tatsächlich Taschen mit herausstehenden Drähten irgendwo hin oder rufen an, um zu erklären, dass sie Bomben deponiert hätten. Hysterie und Vandalentum halten sich somit die Waage. "Echte" Anschläge außer den seit zwei Jahren beinahe täglich geschehenden im Süden gab es aber seither nicht. Die Behörden wachsam.
 
-Das kleine "Gibt es einen erneuten Putsch"-Fiasko von Donnerstag-Abend will das CNS[^legacy-note-1] nun mit [Vorabmeldungen an die ?ffentlichkeit][1] umgehen. Für die kommende Zeit erwarten jedenfalls sowohl die Regierung als auch das CNS weitere Versuche, die ?ffentliche Ordnung zu stören und Chaos zu säen.
+Das kleine "Gibt es einen erneuten Putsch"-Fiasko von Donnerstag-Abend will das CNS[^legacy-note-1] nun mit [Vorabmeldungen an die Öffentlichkeit][1] umgehen. Für die kommende Zeit erwarten jedenfalls sowohl die Regierung als auch das CNS weitere Versuche, die öffentliche Ordnung zu stören und Chaos zu säen.
 
 Nun frage nicht nur ich mich, wer denn nun hinter den Anschlägen steckt.
 

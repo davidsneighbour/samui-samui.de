@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Wie es aussieht, hat Thaksin den Zuschlag bekommen und darf nun endlich einen Fu?ballclub der Premier League sein Eigen nennen. [Manchester City][1]. Jetzt muss er nur noch den Premier-League "Right and Proper Persons Test" bestehen. Hehehe...
+Wie es aussieht, hat Thaksin den Zuschlag bekommen und darf nun endlich einen Fußballclub der Premier League sein Eigen nennen. [Manchester City][1]. Jetzt muss er nur noch den Premier-League "Right and Proper Persons Test" bestehen. Hehehe...
 
 Update: [81,6 Millionen Pfund][2] hat er geboten.
 

@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Für Morgen (Sonntag) war eine Gro?demonstration der rot behemdeten Freunde der thailändischen Demokratie zur Unterstützung des Präsidenten des thailändischen Profigolferverbandes geplant. Die Regierung hat Präventivma?nahmen ergriffen. Heute nun [die folgende Verkündung][1]:
+Für Morgen (Sonntag) war eine Großdemonstration der rot behemdeten Freunde der thailändischen Demokratie zur Unterstützung des Präsidenten des thailändischen Profigolferverbandes geplant. Die Regierung hat Präventivmaßnahmen ergriffen. Heute nun [die folgende Verkündung][1]:
 
 > Red shirted protesters announced Saturday they decided to postpone their mass rally planned for Sunday, citing the government's imposing of internal security laws. Their leaders said they are not allowed to gather under the internal security laws imposed in Dusit district from Saturday to Monday. They said they plan to defer the rally to September 5. They would again postpone their rally if the government enforce the Internal Security Act for their Sept 5 rally.
 

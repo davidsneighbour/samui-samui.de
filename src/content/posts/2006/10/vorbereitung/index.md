@@ -14,6 +14,6 @@ Nahezu der ganze Rest des Landes steht unter Wasser. --- in Samui beginnt die Re
 
 Nachdem man einige Millionen in die Reinigung und Reparatur der Abwasserkanäle gesteckt hat (in den vergangenen Wochen war Bophut und Lamai eine ständige Seitenstreifenbaustelle) denkt man, dass das Wasser diesmal besser abfliessen dürfte als zum Jahreswechsel vergangenen Jahres.
 
-?berschwemmungen kann man dieses Jahr konvenient per Telefon direkt an den Chef schicken: über 077-421-345 (Festnetz) oder 08-19687854 (Mobil).
+Überschwemmungen kann man dieses Jahr konvenient per Telefon direkt an den Chef schicken: über 077-421-345 (Festnetz) oder 08-19687854 (Mobil).
 
  [1]: http://thaisnews.com/news_detail.php?newsid=190992

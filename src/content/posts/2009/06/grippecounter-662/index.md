@@ -11,7 +11,7 @@ publisher:
 ---
 Wir haben inzwischen [662 offiziell bekanntgegebene A(H1N1) Grippefälle im Lande][1]. Keiner davon ist gestorben, 11 Personen wurden in Krankenhäuser eingewiesen und mehr als 500 bereits wieder gesund.
 
-Das sind schon besorgniserregende Zahlen ;) und so schlie?en in der kommenden Woche wieder fast 400 öffentliche Schulen in Bangkok.
+Das sind schon besorgniserregende Zahlen ;) und so schließen in der kommenden Woche wieder fast 400 öffentliche Schulen in Bangkok.
 
 Jedes Jahr erkranken während der Regenzeit ungefähr 900.000 Menschen an den jeweils aktuellen Grippe-Varianten.
 

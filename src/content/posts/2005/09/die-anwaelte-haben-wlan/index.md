@@ -1,5 +1,5 @@
 ---
-title: Die Anw??lte haben WLAN
+title: Die Anwälte haben WLAN
 date: 2005-09-22T13:22:02+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:

@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Herzlich willkommen im Thaikurs der [die schreiBBloga.de][1]. Ich habe mich entschieden, meine ausgeprägte Kompetenz im Bereich der thailändischen Sprache dem geneigten Leser dieser kleinen Publikation zugänglich zu machen. Lernen auch Sie im Vorübergehen quasi essentielle Bestandteile der Kommunikation mit den Thais kennen und seien Sie morgen schon bereit, neue Freundschaften zu schlie?en, Ihren Gefühlen Druck zu verleihen und metaphysische Streitgespräche für sich zu entscheiden!
+Herzlich willkommen im Thaikurs der [die schreiBBloga.de][1]. Ich habe mich entschieden, meine ausgeprägte Kompetenz im Bereich der thailändischen Sprache dem geneigten Leser dieser kleinen Publikation zugänglich zu machen. Lernen auch Sie im Vorübergehen quasi essentielle Bestandteile der Kommunikation mit den Thais kennen und seien Sie morgen schon bereit, neue Freundschaften zu schließen, Ihren Gefühlen Druck zu verleihen und metaphysische Streitgespräche für sich zu entscheiden!
 
 Dieser kostenlose Kurs ermöglicht Ihnen fernab vom Reiseführer-Thai Ihrer jeweilig favorisierten Reihe Gespräche mit den Eingeborenen zu führen und innerhalb wertvoller Sekunden zwischenmenschliche und monetäre Vorteile zu sichern.
 
@@ -31,7 +31,7 @@ Bitte beachten Sie, dass Sie nur als Mann einen Drachen steigen lassen sollten. 
 
 **Fünf gegen Einen**
 
-Oftmals gibt es unfaire Situationen im Leben. Wenn es mal wieder Fünf gegen Einen hei?t, dann können auch Sie nun verlauten lassen, was gerade vor sich geht:
+Oftmals gibt es unfaire Situationen im Leben. Wenn es mal wieder Fünf gegen Einen heißt, dann können auch Sie nun verlauten lassen, was gerade vor sich geht:
 
 <span class="thai">ห?ารุมห?ึ??</span> (sprechen Sie dies wie "haa rumm nünng")
 

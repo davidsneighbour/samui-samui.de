@@ -1,5 +1,5 @@
 ---
-title: ?bergangsverfassung und Premierministerkandidaten
+title: Übergangsverfassung und Premierministerkandidaten
 date: 2006-09-27T15:15:00+07:00
 publisher:
   description: true

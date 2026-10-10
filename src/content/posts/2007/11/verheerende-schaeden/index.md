@@ -23,7 +23,7 @@ Ich kenne ja Leute, die seit zwei Tagen mit dem Taxi auf Arbeit fahren, weil es 
 
 Ich gehe mal davon aus, dass der wahre Grund für den Ausnahmezustand die Tatsache war, dass die lokalen Golfplätze überflutet wurden. Was sollen Touristen (und Staatsangestellte) schon anderes tun, als kleine Plastikbälle durch die Gegend zu schlagen...
 
-Suratthanis Gouvernour Winai Buapradit ist übrigens ein verdammt cleverer Mann: Wenn es aufhört zu regnen, werden die ?berflutungen auch zurück gehen. Sagt er. Das kann ich nur bestätigen. Und wenn die ganze Insel nicht zubetoniert wäre und die Kanalisation mal _vor_ der Regenzeit gereinigt werden würde, dann würde das Wasser nicht den Weg des geringsten Widerstands (die Oberfläche) gehen.
+Suratthanis Gouvernour Winai Buapradit ist übrigens ein verdammt cleverer Mann: Wenn es aufhört zu regnen, werden die Überflutungen auch zurück gehen. Sagt er. Das kann ich nur bestätigen. Und wenn die ganze Insel nicht zubetoniert wäre und die Kanalisation mal _vor_ der Regenzeit gereinigt werden würde, dann würde das Wasser nicht den Weg des geringsten Widerstands (die Oberfläche) gehen.
 
  [1]: http://www.nationmultimedia.com/2007/11/09/headlines/headlines_30055439.php
  [2]: http://www.nationmultimedia.com/2007/11/08/national/national_30055378.php

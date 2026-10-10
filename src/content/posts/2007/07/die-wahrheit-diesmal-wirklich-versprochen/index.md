@@ -15,7 +15,7 @@ Die Bangkok Post titelt dann heute [Govt to launch truethailand.com][2] (wobei G
 
 > The government is expected to launch a new website next month to counter that of former prime minister Thaksin Shinawatra. The website might be called <www.truethailand.com> according to Aran Wonganan, in response to Thaksin's <www.truethaksin.com>, which officially opened Friday. He said the website would explain the government's position, adding that the state previously did not have a site to counter false information from its opponents.
 
-Dummerweise nur, und das zeigt mal wieder wie überlegt und geplant die thailändische ?bergangsregierung auf jegliche Kritik von au?en reagiert, ist [truethailand.com][3] eine italienische Website über Thailand, die [seit 2001][4] das Netz bereichert. Die werden sich bestimmt über den Besucheranstrom freuen.
+Dummerweise nur, und das zeigt mal wieder wie überlegt und geplant die thailändische Übergangsregierung auf jegliche Kritik von außen reagiert, ist [truethailand.com][3] eine italienische Website über Thailand, die [seit 2001][4] das Netz bereichert. Die werden sich bestimmt über den Besucheranstrom freuen.
 
 PS: Nacktbilder von Thaksin sucht man jedoch vergeblich auf der Website.
 

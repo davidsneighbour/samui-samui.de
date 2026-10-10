@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-?ber den unter deutschen Expats hei?beliebten Newsletter der Deutschen Botschaft zu Bangkok habe ich bereits einige Male berichtet.
+Über den unter deutschen Expats heißbeliebten Newsletter der Deutschen Botschaft zu Bangkok habe ich bereits einige Male berichtet.
 
 Heute nun haben sie den Bock abgeschossen. Im Adressfeld "meiner" Newsletteremail habe ich 150 Emailadressen und Namen im Klartext vorgefunden. Sehr professionell.
 

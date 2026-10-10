@@ -24,7 +24,7 @@ Seit ein paar Wochen schon wird es uns verkündet, heute nun ist es soweit: Tige
 >
 > "The Thai people never fail to impress me with their warm and genuine hospitality. This is indeed a good opportunity to give something back to them."
 
-Das Gro?ereignis wird [von verschiedenen Energiefirmen und dem Energie-Ministerium][2] unter dem Slogan "Reduce Global Warming for our King" gesponsort.
+Das Großereignis wird [von verschiedenen Energiefirmen und dem Energie-Ministerium][2] unter dem Slogan "Reduce Global Warming for our King" gesponsort.
 
 Nun ja. Das letzte Mal war Woods übrigens 2000 in der "alten Heimat". Auch diesmal wird er (natürlich vorsichtig, wir wollen ja nicht die Atmospähre erhitzen) sein Ein-Tages-Tournier spielen und wieder verschwinden. Bis er das nächste Mal gute Publicity braucht.
 

@@ -13,7 +13,7 @@ Man will uns gerade bei der The Nation klar machen, dass die Daten von 1000 Stud
 
 Ich grinse und schweige.
 
-Nein, Moment, ich schweige nicht. Die meisten Regierungswebseiten sind auf Mambo oder Joomla oder wie auch immer dieses Miststück eines <span class="caps">CMS</span>ses gerade hei?t eingerichtet und werden softwareseitig nicht upgedated.
+Nein, Moment, ich schweige nicht. Die meisten Regierungswebseiten sind auf Mambo oder Joomla oder wie auch immer dieses Miststück eines <span class="caps">CMS</span>ses gerade heißt eingerichtet und werden softwareseitig nicht upgedated.
 
 Hat mit "denial of service" recht wenig zu tun.
 

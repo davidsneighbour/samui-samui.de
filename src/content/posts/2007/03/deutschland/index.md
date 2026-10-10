@@ -43,13 +43,13 @@ Telefon: 069-69868205, 069-69868209
 
 Fax: 069-69868228
 
-?ffnungszeiten: von 09.00 bis 12.30 Uhr
+Öffnungszeiten: von 09.00 bis 12.30 Uhr
 
 Internet: [Homepage][2]
 
 **Königlich Thailändisches Honorargeneralkonsulat**
 
-Prinzenstra?e 13
+Prinzenstraße 13
 
 80639 München
 

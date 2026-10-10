@@ -11,7 +11,7 @@ publisher:
 ---
 ![](/wp-content/old-images/249.png)
 
-(Der Text drunter sagt soviel wie "Wenn du Thaksin zu Hause begrü?en willst, dann komm am 28. Februar um 9 Uhr zum Subvarnabhumi-Airport.". Auf der Website von [hithaksin.com][1] gibt es noch kleine Flash-Feuerwerke. Flash ist ein beliebtes Propagandamittel im thailändischen Politikweb.)
+(Der Text drunter sagt soviel wie "Wenn du Thaksin zu Hause begrüßen willst, dann komm am 28. Februar um 9 Uhr zum Subvarnabhumi-Airport.". Auf der Website von [hithaksin.com][1] gibt es noch kleine Flash-Feuerwerke. Flash ist ein beliebtes Propagandamittel im thailändischen Politikweb.)
 
 Aber wie bereits geschrieben: Es ist nur ein Gerücht.
 

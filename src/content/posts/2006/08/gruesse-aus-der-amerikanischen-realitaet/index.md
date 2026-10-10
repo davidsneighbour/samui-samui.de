@@ -1,5 +1,5 @@
 ---
-title: Grü?e aus der (amerikanischen) Realität
+title: Grüße aus der (amerikanischen) Realität
 date: 2006-08-21T05:53:00+07:00
 publisher:
   description: true

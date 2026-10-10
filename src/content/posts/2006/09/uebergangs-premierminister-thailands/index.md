@@ -1,5 +1,5 @@
 ---
-title: ?bergangs-Premierminister Thailands
+title: Übergangs-Premierminister Thailands
 date: 2006-09-29T05:15:00+07:00
 publisher:
   description: true

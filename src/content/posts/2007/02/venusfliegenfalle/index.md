@@ -15,7 +15,7 @@ publisher:
 
 Die Herren im Bild oben werden aller zwei Monate lobend in verschiedenen Zeitungen erwähnt. Erst schrieb man, dass sie Vertragsverhandlungen mit Sony aufnehmen wollen, dann schrieb man, dass sie Vertragsverhandlungen aufgenommen haben (mit Sony) und dann hatten sie tatsächlich einen Plattenvertrag (mit Sony) unterschrieben.
 
-Herren? Nun, ja, Herren. In früheren Berichten schrieb man immer, es handele sich um der Welt einzige Ladyboy-Band. In den letzten Berichten hei?t es dann schon, es wäre die erste Transgender-Band der Welt, weshalb ich annehme, dass es sich bei "Venusflytrap" inzwischen um eine gemischtgeschlechtliche Band handelt.
+Herren? Nun, ja, Herren. In früheren Berichten schrieb man immer, es handele sich um der Welt einzige Ladyboy-Band. In den letzten Berichten heißt es dann schon, es wäre die erste Transgender-Band der Welt, weshalb ich annehme, dass es sich bei "Venusflytrap" inzwischen um eine gemischtgeschlechtliche Band handelt.
 
 Im Dezember ist ihr Album raus gekommen. "Visa for love".
 

@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Morgen ist ein gro?er Tag für die thailändische IT-Behörde [<span class="caps">MICT</span>][1] (was soviel wie Ministerium für Informations- und Kommunikationstechnologien hei?t). Das ist das gleiche Ministerium wie jenes, das Youtube verbot und das Nutzen von Technologien, welche der Verschleierung der eigenen IP dienen (Tor, Proxies) unter Haftstrafen stellt.
+Morgen ist ein großer Tag für die thailändische IT-Behörde [<span class="caps">MICT</span>][1] (was soviel wie Ministerium für Informations- und Kommunikationstechnologien heißt). Das ist das gleiche Ministerium wie jenes, das Youtube verbot und das Nutzen von Technologien, welche der Verschleierung der eigenen IP dienen (Tor, Proxies) unter Haftstrafen stellt.
 
 Im neuesten Coup haben sie ein Gesetz heraus gebracht, das in gut 1 Stunde in Kraft tritt und jeden Internet-Service-Anbieter unter Androhung von 500.000 Baht (je nach weltwirschaftlicher Gesamtsituation so um die 10.000 <span class="caps">EUR</span>) Strafe bei Nichteinhaltung dazu verpflichtet, den gesamten Datentransfer auf die Zehntelsekunde genau für 90 Tage zu loggen.
 

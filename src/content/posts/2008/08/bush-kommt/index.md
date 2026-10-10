@@ -13,7 +13,7 @@ Der Sohn des ehemaligen amerikanischen Präsidenten George Bush kommt in den nä
 
 Ein Schelm wer da an Geld und Rohstoffe denkt.
 
-PS: Anschlie?end kuckt er sich Olympia in China an. Und wird dort nichts zum Thema Menschenrechte sagen. Man muss ja Prioritäten setzen.
+PS: Anschließend kuckt er sich Olympia in China an. Und wird dort nichts zum Thema Menschenrechte sagen. Man muss ja Prioritäten setzen.
 
 <span class="caps">PPS</span>: Ein Interview, das Bush mit einem thailändischen Reporter führte gibt es auf [Nation Online][1].
 

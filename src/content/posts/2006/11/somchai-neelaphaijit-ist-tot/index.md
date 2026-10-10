@@ -18,7 +18,7 @@ Kurz nachdem er öffentlich kritisierte, dass seine Mandanten von Polizisten mis
 
 Mit seinem Verschwinden wurde der Konflikt im Süden überregional wahrgenommen und eine internationale Diskussion über die Menschenrechtspraktiken Thailands ausgelöst.
 
-In der Zeit die ich bewusst mit Thailand und seiner Politik, Gesellschaft und Kultur verbracht habe wurde regelmässig aller zwei drei Monate Flüsse und Seen nach seinen ?berresten abgesucht und Untersuchungskommissionen versprochen, die seinen Fall aufklären sollten. Thaksin erklärte sein Verschwinden mit persönlichen und finanziellen Problemen mit Gläubigern. Eine Zeit lang hielt sich die Theorie, dass er von Polizisten misshandelt und getötet worden sein soll.
+In der Zeit die ich bewusst mit Thailand und seiner Politik, Gesellschaft und Kultur verbracht habe wurde regelmässig aller zwei drei Monate Flüsse und Seen nach seinen Überresten abgesucht und Untersuchungskommissionen versprochen, die seinen Fall aufklären sollten. Thaksin erklärte sein Verschwinden mit persönlichen und finanziellen Problemen mit Gläubigern. Eine Zeit lang hielt sich die Theorie, dass er von Polizisten misshandelt und getötet worden sein soll.
 
 Im Januar diesen Jahres teilte Thaksin dann mit, [dass Somchai von Regierungsangehörigen in Ratchaburi ermordet wurde und die Auflösung des Falles innerhalb eines Monats erfolgen sollte][3]. Kurz zuvor wurden Polizisten freigesprochen, die seiner Ermordung verdächtigt wurden.
 

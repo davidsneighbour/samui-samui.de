@@ -22,13 +22,13 @@ Der Doktor, dem das gelang, hat gleich mal eine Pressekonferenz gehalten, denkt 
 
 **Wie man sich einer Taubenplage erwehrt**: In Bangkok gibt es Tauben. Viele. Weil in Bangkok zu viele Tauben herum fliegen und die Sehenswürdigkeiten verdrecken plant man nun, [sie einzufangen und in Ratchaburi wieder frei zu lassen][3]. Bangkok wäre wieder etwas sauberer aus der Luft und Ratchaburi... naja... was interessiert uns die Taubenplage dort.
 
-Das gleiche hat man schonmal mit Stra?enhunden und Udon Thani vorgehabt. Interessanterweise haben die Empfänger sich da auch schon drüber beschwert, aber Hunde sind ja keine Tauben...
+Das gleiche hat man schonmal mit Straßenhunden und Udon Thani vorgehabt. Interessanterweise haben die Empfänger sich da auch schon drüber beschwert, aber Hunde sind ja keine Tauben...
 
-**Wei?e Haut**: Je heller die Haut umso schöner ist man --- zumindest in Asien. Geht man mal die Drogerien und Märkte findet man immer ein zwei Regale voll mit "Whitening"-Produkten. Es gibt nichts, was nicht wei?er machend verkauft werden könnte --- Deosticks, Cremes, Puder et cetera.
+**Weiße Haut**: Je heller die Haut umso schöner ist man --- zumindest in Asien. Geht man mal die Drogerien und Märkte findet man immer ein zwei Regale voll mit "Whitening"-Produkten. Es gibt nichts, was nicht weißer machend verkauft werden könnte --- Deosticks, Cremes, Puder et cetera.
 
 [Einmal im Jahr][4] werden dann die Mittelchen vom Gesundheitsamt verboten und vor den Nebenwirkungen gewarnt. Ein Prozess der Arbeitsplätze schafft und sich selbst ernährt.
 
-Neulich schon wurde vor dem Genuss eines Krebs-Medikaments gewarnt, dessen Nebenwirkung wei?e Flächen auf der Haut sind. Zu dumm nur dass das keine Ganzkörper-Reaktion war.
+Neulich schon wurde vor dem Genuss eines Krebs-Medikaments gewarnt, dessen Nebenwirkung weiße Flächen auf der Haut sind. Zu dumm nur dass das keine Ganzkörper-Reaktion war.
 
  [1]: http://www.nationmultimedia.com/2010/02/04/national/national_30121813.php
  [2]: http://www.nationmultimedia.com/2010/01/30/national/national_30121456.php

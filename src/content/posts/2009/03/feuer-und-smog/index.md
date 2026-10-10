@@ -11,7 +11,7 @@ publisher:
 ---
 ![](/wp-content/old-images/262.jpg)
 
-Beim Earth Observatory kann man [sehr deutliche Bilder vom letzten ?berflug des <span class="caps">NASA</span> Sateliten Aqua über Südostasien][1] sehen. Wie jedes Jahr gibt es Unmengen an Wald- und "natürlich herbeigeführten" Bränden im Norden Thailands, in Myanmar und Laos.
+Beim Earth Observatory kann man [sehr deutliche Bilder vom letzten Überflug des <span class="caps">NASA</span> Sateliten Aqua über Südostasien][1] sehen. Wie jedes Jahr gibt es Unmengen an Wald- und "natürlich herbeigeführten" Bränden im Norden Thailands, in Myanmar und Laos.
 
 Ergebnis ist [eine dichte Smogdecke im Norden][2].
 

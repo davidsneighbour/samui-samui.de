@@ -11,7 +11,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-In Thailand werden häufiger mal Passfälscher festgenommen. Sieht man sich den Ausländermix an, der die Stra?en der einschlägigen Untertauch-(Halb)Inseln und Strände bevölkert, wird der Bedarf deutlich. Passfälscher und Händler gestohlener oder neuer unbedruckter Pässe halten sich dabei die Waage.
+In Thailand werden häufiger mal Passfälscher festgenommen. Sieht man sich den Ausländermix an, der die Straßen der einschlägigen Untertauch-(Halb)Inseln und Strände bevölkert, wird der Bedarf deutlich. Passfälscher und Händler gestohlener oder neuer unbedruckter Pässe halten sich dabei die Waage.
 
 Gestern hat man einen Deutschen und einen Thai [fest genommen][1], die sechs gefälschte Pässe für 78.000 Baht an den Mann bringen wollten. Das sind rund 1700 Euro. Dummerweise war der Mann von einer Spezialeinheit der Immigration und kein Geld wechselte den Besitzer.
 

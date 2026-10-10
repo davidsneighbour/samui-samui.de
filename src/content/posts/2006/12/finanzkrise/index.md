@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Es hat ein wenig den Anschein einer Wirtschaftskrise, was in der Finanzwelt Thailands so abgeht derzeit. Der Wechselkurs zwischen Baht und Dollar stieg zuletzt auf den höchsten Stand seit 9 Jahren und viele verglichen den Höhenflug bereits reisserisch mit eben jener Finanzkrise 1997. Seit Wochen wurde die Bank of Thailand (was man wohl mit der Zentralbank vergleichen kann) aufgefordert Gegenma?nahmen einzuleiten.
+Es hat ein wenig den Anschein einer Wirtschaftskrise, was in der Finanzwelt Thailands so abgeht derzeit. Der Wechselkurs zwischen Baht und Dollar stieg zuletzt auf den höchsten Stand seit 9 Jahren und viele verglichen den Höhenflug bereits reisserisch mit eben jener Finanzkrise 1997. Seit Wochen wurde die Bank of Thailand (was man wohl mit der Zentralbank vergleichen kann) aufgefordert Gegenmaßnahmen einzuleiten.
 
 Das haben sie heute getan. Mit für Laien wie mich erstaunlich drastischen Mitteln:
 

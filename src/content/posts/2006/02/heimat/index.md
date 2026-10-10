@@ -14,7 +14,7 @@ publisher:
 
 
 
-> Heimat ist f??r mich an keinen spezifischen Ort gebunden, es ist ein Gef??hl. Ich f??hle mich dort zu Hause, wo ich gl??cklich bin. Und gl??cklich machen mich bestimmte Menschen. Heute geht es doch nicht mehr darum, wo man sich physisch zu Hause f??hlt, sondern wie man es schafft, sein Leben zu synchronisieren mit den Menschen, die einem wichtig sind.
+> Heimat ist für mich an keinen spezifischen Ort gebunden, es ist ein Gefühl. Ich fühle mich dort zu Hause, wo ich glücklich bin. Und glücklich machen mich bestimmte Menschen. Heute geht es doch nicht mehr darum, wo man sich physisch zu Hause fühlt, sondern wie man es schafft, sein Leben zu synchronisieren mit den Menschen, die einem wichtig sind.
 
 [Salman Rushdi in der Zeit][1] und ich habe dem nichts hinzuzufügen.
 

@@ -10,7 +10,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Die Würfel sind gefallen: [46 Milliarden Baht][1] aus Thaksins eingefrorenen Geldern werden eingezogen, da er sie lt. Urteil unrechtmä?ig beschafft hat, 30 Milliarden bekommt er zurück. Damit hat er ja wieder erstmal ein bisschen Geld in der Kaffeekasse.
+Die Würfel sind gefallen: [46 Milliarden Baht][1] aus Thaksins eingefrorenen Geldern werden eingezogen, da er sie lt. Urteil unrechtmäßig beschafft hat, 30 Milliarden bekommt er zurück. Damit hat er ja wieder erstmal ein bisschen Geld in der Kaffeekasse.
 
 [Er selbst][2] hat sich heute mehrmals via Videoschaltung gemeldet und betont auch nach dem Urteil wieder, dass er das Opfer der Politik ist. Dass er seine Macht als Premierminister missbraucht hat, um Geld zu scheffeln und Firmen ans Ausland zu verkaufen, ist natürlich nebensächlich.
 

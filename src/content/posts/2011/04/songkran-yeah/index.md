@@ -33,5 +33,5 @@ publisher:
     </p>
 
     <p>
-      PS: Der Hovertext bei Google lautet übrigens "รื???ริ?สามั??ี ก?อ???ีย??รายร?วมกั?วั?ส?กรา???", was übersetzt soviel wie "Das Fest der Harmonie. Baut zusammen Sandpagoden an Songkran". Es scheint politisch korrekt zu sein, den Wasser-Aspekt Songkrans nicht zu erwähnen solange noch in 4 Provinzen das Wasser steht und in mehr als 40 Provinzen gro?e Trockenheit herrscht.
+      PS: Der Hovertext bei Google lautet übrigens "รื???ริ?สามั??ี ก?อ???ีย??รายร?วมกั?วั?ส?กรา???", was übersetzt soviel wie "Das Fest der Harmonie. Baut zusammen Sandpagoden an Songkran". Es scheint politisch korrekt zu sein, den Wasser-Aspekt Songkrans nicht zu erwähnen solange noch in 4 Provinzen das Wasser steht und in mehr als 40 Provinzen große Trockenheit herrscht.
     </p>

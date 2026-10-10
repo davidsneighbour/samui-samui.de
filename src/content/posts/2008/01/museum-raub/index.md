@@ -17,7 +17,7 @@ Mal andersrum rauben:
 
 Seit 1992 ist Ban Chiang Weltkulturerbe der <span class="caps">UNESCO</span>.
 
-Anscheinend wurde ein Gro?teil der Fundstücke illegal aus dem Land geschafft und kalifornischen Museen "gestiftet". Herausgekommen ist das Ganze, weil der alte Dieb angeben musste:
+Anscheinend wurde ein Großteil der Fundstücke illegal aus dem Land geschafft und kalifornischen Museen "gestiftet". Herausgekommen ist das Ganze, weil der alte Dieb angeben musste:
 
 > Court documents say a 79-year-old smuggler involved in the scheme boasted to an undercover agent that he had more items from Ban Chiang than Thailand itself did. He said he was being sent the items as they were being dug up, in violation of Thai and international law.
 

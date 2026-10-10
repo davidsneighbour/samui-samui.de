@@ -11,7 +11,7 @@ publisher:
 ---
 Die Regeln sind einfach: Das Parlament besteht aus 480 Mitgliedern. Davon werden 400 Sitze durch Direktmandate aus den Wahlbezirken und die restlichen 80 Sitze anteilig nach den Gesamtstimmzahlen einer zweiten Stimme besetzt.
 
-Bei den bisherigen Wahlen war es dann immer so, dass die Partei mit den meisten Stimmen die Regierung stellt. Das lag grö?tenteils daran, dass die Ergebnisse recht deutlich waren und die "verlierenden" Parteien sich nicht auf Koalitionen einigen konnten.
+Bei den bisherigen Wahlen war es dann immer so, dass die Partei mit den meisten Stimmen die Regierung stellt. Das lag größtenteils daran, dass die Ergebnisse recht deutlich waren und die "verlierenden" Parteien sich nicht auf Koalitionen einigen konnten.
 
 Heute gab es Gerüchte einer Vierer-Koalition gegen die <span class="caps">PPP</span>, die [nach den aktuellen Hochrechnungen][1] vorne liegt.
 

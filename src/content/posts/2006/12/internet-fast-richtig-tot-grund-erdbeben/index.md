@@ -15,7 +15,7 @@ publisher:
 
 Angeblich sollen die Leitungen nur verdünnt worden sein, ich bekomme mit meiner Handy-Modem-Leitung allerdings nur Time-Outs.
 
-Warum bittesehr gibt es in Zeiten da man allen möglichen Kram ins All schie?t immer noch Tiefseeleitungen die wenn sie von Monsterkraken zerfressen werden alles lahm legen? Und warum sind die meisten Seiten, die ich nutze in den USA gehostet? Das muss sich ändern! Und warum ist Google so super cool, super gross und super reich, hat aber nur Server in den USA?
+Warum bittesehr gibt es in Zeiten da man allen möglichen Kram ins All schießt immer noch Tiefseeleitungen die wenn sie von Monsterkraken zerfressen werden alles lahm legen? Und warum sind die meisten Seiten, die ich nutze in den USA gehostet? Das muss sich ändern! Und warum ist Google so super cool, super gross und super reich, hat aber nur Server in den USA?
 
 Ich sehe schon. Wird Zeit, dass ich wieder eine ordentliche Leitung bekomme.[^legacy-note-1]
 

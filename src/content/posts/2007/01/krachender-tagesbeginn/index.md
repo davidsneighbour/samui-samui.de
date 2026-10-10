@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-[In Bangkoks Norden wurden heute Nacht zwei ?bungsgranaten abgefeuert][1]. Man geht von Chaoten aus, allerdings bietet sich genügend Stoff für Verschwörungstheorien, weil eine Granate in die Mauer der Büros der Daily News und eine in den Parkplatz eines naheliegenden Hotels einschlug.
+[In Bangkoks Norden wurden heute Nacht zwei Übungsgranaten abgefeuert][1]. Man geht von Chaoten aus, allerdings bietet sich genügend Stoff für Verschwörungstheorien, weil eine Granate in die Mauer der Büros der Daily News und eine in den Parkplatz eines naheliegenden Hotels einschlug.
 
 In einer Nebennote, unbeachtet, in den News in drei Zeilen abgehandelt: Die Verdächtigen der Bombenanschläge am 1. Januar, die man vor einiger Zeit festnahm, sind [alle mangels Beweisen wieder freigelassen][2] worden. Nur gegen einen wird wegen unlizensierten Waffenbesitzes ermittelt.
 

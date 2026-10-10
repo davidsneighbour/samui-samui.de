@@ -9,7 +9,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Am Wochenende [verkündete][1] Udom Tatiprosongchai, der <span class="caps">CEO</span> von One-Two-Go, einer Flugfirma, die innerhalb Thailands die erste Billig-Fluglinie war, dass die Fluglinie ihre Tätigkeit bis Mitte September einstellen wird. Als Grund gab man die Preissteigerungen bei den ?lpreisen an.
+Am Wochenende [verkündete][1] Udom Tatiprosongchai, der <span class="caps">CEO</span> von One-Two-Go, einer Flugfirma, die innerhalb Thailands die erste Billig-Fluglinie war, dass die Fluglinie ihre Tätigkeit bis Mitte September einstellen wird. Als Grund gab man die Preissteigerungen bei den Ölpreisen an.
 
 So ganz glaubt das hier aber niemand, es gehen dann doch schon [Gerüchte][2] um, dass die Firma ihre Fluglizenz auf Grund des Absturzes in Phuket vergangenes Jahr verloren hat. Seither hört man immer wieder, dass die Piloten länger als erlaubt am Steuer sitzen und dass es erhebliche Sicherheitsmängel an den Flugzeugen gibt.
 

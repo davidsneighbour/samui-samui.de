@@ -13,7 +13,7 @@ Morgen ist "Judgement Day" in Thailand. Es wird vom obersten Gerichtshof entschi
 
 The Nation hat gleich mal wieder [ein Special][1] ins Web gebracht, in welchem [die möglichen Ergebnisse ausgewertet werden][2]. Es wird nicht nur entschieden werden, ob die Parteien aufgelöst werden, sondern auch, ob die bisherigen Parteispitzen ein 5jähriges Verbot von politischer Tätigkeit ausgesprochen bekommen.
 
-Ich denke es wird zu etwas Unruhe kommen, wenn nur eine der beiden gro?en Parteien aufgelöst wird. Ansonsten sind die Vorbereitungen für [die Neugründung der Nachfolgeparteien schon in der Mache][3] und wenn sie nicht aufgelöst werden... auch gut.
+Ich denke es wird zu etwas Unruhe kommen, wenn nur eine der beiden großen Parteien aufgelöst wird. Ansonsten sind die Vorbereitungen für [die Neugründung der Nachfolgeparteien schon in der Mache][3] und wenn sie nicht aufgelöst werden... auch gut.
 
 [Der König hat vergangene Woche eine Rede vor den Richtern des Verfassungsgerichts gehalten][4], in der er sagt, dass die entscheidenden Richter in einer misslichen Lage sind, denn wie auch immer sie entscheiden, eine politische Krise ist vorprogrammiert. Die Rede selbst lässt mal wieder viele Interpretationen zu, unter anderem auch die, dass der König mit den aktuellen Verhältnissen weniger zufrieden ist.
 

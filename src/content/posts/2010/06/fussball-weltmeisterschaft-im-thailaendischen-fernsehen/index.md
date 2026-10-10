@@ -10,7 +10,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Ich entsinne mich, dass ich für die Fussball WM vor vier Jahren mühsam die Fernsehtermine bei den thailändischen Kanälen zusammen gesucht habe. Ganz schön viel Arbeit, wenn man bedenkt, dass ich dieser Sportart absolut nichts abgewinnen kann (au?er vielleicht Würstchen und Bier auf den Tribünen, dazu aber muss man bekannterma?en nicht ins Stadion gehen).
+Ich entsinne mich, dass ich für die Fussball WM vor vier Jahren mühsam die Fernsehtermine bei den thailändischen Kanälen zusammen gesucht habe. Ganz schön viel Arbeit, wenn man bedenkt, dass ich dieser Sportart absolut nichts abgewinnen kann (außer vielleicht Würstchen und Bier auf den Tribünen, dazu aber muss man bekanntermaßen nicht ins Stadion gehen).
 
 Dieses Jahr ist es viel einfacher --- es gibt bereits [eine Liste mit Ausstrahlungsterminen und den Sendern][1] im weiten Internet. Eine der wenigen Webseiten aus Thailand, die ganz bestimmt nicht gesperrt wird.
 

@@ -19,7 +19,7 @@ Falls.
 
 > <span class="caps">HOWEVER</span> --- IT IS <span class="caps">NOT</span> <span class="caps">KNOWN</span> <span class="caps">THAT</span> A <span class="caps">TSUNAMI</span> <span class="caps">WAS</span> <span class="caps">GENERATED</span>. <span class="caps">THIS</span> <span class="caps">WATCH</span> IS <span class="caps">BASED</span> <span class="caps">ONLY</span> ON <span class="caps">THE</span> <span class="caps">EARTHQUAKE</span> <span class="caps">EVALUATION</span>. <span class="caps">AUTHORITIES</span> IN <span class="caps">THE</span> <span class="caps">REGION</span> <span class="caps">SHOULD</span> <span class="caps">TAKE</span> <span class="caps">APPROPRIATE</span> <span class="caps">ACTION</span> IN <span class="caps">RESPONSE</span> TO <span class="caps">THE</span> <span class="caps">POSSIBILITY</span> OF A <span class="caps">WIDESPREAD</span> <span class="caps">DESTRUCTIVE</span> <span class="caps">TSUNAMI</span>.
 
-(man beachte die schreienden Gro?buchstaben)
+(man beachte die schreienden Großbuchstaben)
 
 PS: Indonesien hat den Tsunami [schon abgesagt][2].
 

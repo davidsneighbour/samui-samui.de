@@ -10,7 +10,7 @@ publisher:
   covermigration: true
   flickr: true
 ---
-Die Hunde haben sich heute besprungen. Also bitte ohne jeden Nebengedanken hier, ja?!? Frontal und mit Pfotengeplänkel. Das sah nicht nur sü? aus, ich dachte auch die ganze Zeit, das sollte man jetzt mal photographieren.
+Die Hunde haben sich heute besprungen. Also bitte ohne jeden Nebengedanken hier, ja?!? Frontal und mit Pfotengeplänkel. Das sah nicht nur süß aus, ich dachte auch die ganze Zeit, das sollte man jetzt mal photographieren.
 
 Meine Kamera ist in Surat Thani.
 
@@ -22,7 +22,7 @@ Im 7eleven verkaufen sie jetzt Heineken im 10 Liter Fass.
 
 Meine Kamera ist in Surat Thani.
 
-Die Ferkel vom Nachbarn (eines habe ich Knut getauft) hatten heute ersten Auslauf. Kleine schwarze sü?e Gesellen.
+Die Ferkel vom Nachbarn (eines habe ich Knut getauft) hatten heute ersten Auslauf. Kleine schwarze süße Gesellen.
 
 Meine Kamera ist in Surat Thani.
 
@@ -34,7 +34,7 @@ Soosie hat eine vorbeilaufende Hündin in den Bauch gebissen, weil die nicht mit
 
 Meine Kamera ist in Surat Thani. Das macht in diesem Fall aber nichts, weil ich sowieso damit beschäftigt war, meine Hunde vor eventuellen Kriegsverletzungen zu schützen.
 
-Eine grüne Raupe mit roten und wei?en Streifen hat sich an meiner Tonne verpuppt.
+Eine grüne Raupe mit roten und weißen Streifen hat sich an meiner Tonne verpuppt.
 
 Und meine Kamera ist in Surat Thani.
 

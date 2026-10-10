@@ -182,10 +182,14 @@ The pipeline is based on a research comparison of German proofreading tools. The
 
 Tracked in [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774):
 
-* Fix the remaining broken `ß` characters. On 2026-10-08, 261 posts were repaired and committed (`BrokenEszett` went from 870 to 365 findings in 179 posts). The repair method: each `?` was restored from intact spellings of the same word elsewhere in the archive, checked against the German dictionary, and reviewed in context; word-final cases (`wei?`, `gro?`) were reviewed by hand, because they mix with real question marks. The remaining posts have their repair saved in a local stash and are blocked by dead links, see [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780).
+* The deferred German character repair was completed on 2026-10-10. The remaining stash repairs were restored in 197 posts without overwriting later Flickr restoration or language edits. This includes umlauts, word-final `ß` forms, and two additional cases (`Scho?` → `Schoß`, `Strafstro?` → `Strafstoß`). The repair method uses intact spellings elsewhere in the archive, dictionary checks, and contextual review; real question marks remain unchanged. The archive-wide Vale scan now reports no `BrokenEszett` findings. The other language baselines remain tracked in [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774).
 * Repair the other characters the same import broke (quotes, dashes, apostrophes, transliterated names, Textpattern baht tags), see [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781). Broken Thai script is tracked in [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706).
 * Work through the remaining `npm run check:full` failures, then decide which checks can join `npm run check`.
 
 ## Static-map migration vocabulary
 
 The static-map migration retains the valid historical words `Samuiaufenthaltes`, `verwohntes`, and `Luxuritäten` in the "Umzug" article. The project dictionary includes these words and the structural lowercase `samui` map-point ID, so the staged language checks do not require rewriting correct prose or geographic identifiers.
+
+## One-time deferred character-repair exception
+
+On 2026-10-10, the repository owner explicitly approved committing the deferred character repair without also rewriting unrelated language errors or repairing all dead links in the affected archive posts. This exception applies only to this completion of the `eszett-repair-deferred` stash. The language and link checks were run and their existing failures were recorded; the pre-commit hook is bypassed only for this commit after the character audit, content validation, and production build. The check configuration and normal requirements for later content edits remain unchanged. Historical source recovery stays tracked in [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780); damaged punctuation and names stay tracked in [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781), and damaged Thai text stays tracked in [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706).
