@@ -15,7 +15,7 @@ Na endlich. Ein Mord. Hier auf Samui. Das Jahr begann schon langweilig zu werden
 >
 > The body of Horton, 21, was found drifting in the sea on Monday a few kilometres from the beach where she had spent her New Year holiday. Samui police said she had been hit several times on the head and body with a blunt object before being thrown into the sea to drown.
 >
-> Horton???s death has highlighted once again the safety of foreign tourists in Thailand after the high-profile murder of British backpacker Kirsty Jones in Chiang Mai in August 2000 and the fatal shootings of British holiday-makers Vanessa Arscott, 23, and her boyfriend Adam Lloyd, 25, in Kanchanaburi province in August 2004. [The National][1]
+> Horton’s death has highlighted once again the safety of foreign tourists in Thailand after the high-profile murder of British backpacker Kirsty Jones in Chiang Mai in August 2000 and the fatal shootings of British holiday-makers Vanessa Arscott, 23, and her boyfriend Adam Lloyd, 25, in Kanchanaburi province in August 2004. [The National][1]
 
 Ich habe nur ganz kurz gestutzt, als man meinte schreiben zu müssen, dass das nach 2000 und 2004 schon der dritte Mord (thailandweit) sei, der Aufsehen erregt. Ich wäre um die Sicherheit ausländischer Touristen eher aufgrund der Verkehrslage, HIV- und anderer Viren und seltsamer Currygerichte besorgt, da sterben im Jahr weit mehr als drei Menschen. Allerdings nicht ganz so aufsehenerregend.
 

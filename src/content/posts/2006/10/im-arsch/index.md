@@ -14,7 +14,7 @@ publisher:
 
 Den hier: [Blutegel im Anus][1].
 
-PS: Die letzte Blutegelnachricht gab es in der Nation am 29. Januar 2005: [Leech removed from man??s throat][2]. Interessant wo die Viecher überall so rum kommen.
+PS: Die letzte Blutegelnachricht gab es in der Nation am 29. Januar 2005: [Leech removed from man’s throat][2]. Interessant wo die Viecher überall so rum kommen.
 
  [1]: http://www.nationmultimedia.com/2006/10/08/headlines/headlines_30015676.php
  [2]: http://www.nationmultimedia.com/2005/01/29/national/index.php?news=national_16242031.html

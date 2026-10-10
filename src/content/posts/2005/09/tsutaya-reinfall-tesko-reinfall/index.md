@@ -18,7 +18,7 @@ Nagut. Zwei Filmchen habe ich noch im Originalton ergattern können: "The Ring 2
 
 > **Update** Na, das muss ich doch gleich mal revidieren wie mir mein Gewissen eben mitteilt:
 >
-> [16:41:23] _Gewissen_ "???In good company??? ??? ein Film von dem ich noch nie was gehört habe"
+> [16:41:23] _Gewissen_ "‘In good company’ — ein Film von dem ich noch nie was gehört habe"
 
 > [16:41:32] _Patrick Kollitsch_ jupp
 

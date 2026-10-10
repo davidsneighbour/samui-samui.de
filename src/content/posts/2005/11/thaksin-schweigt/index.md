@@ -12,7 +12,7 @@ publisher:
 ---
 Thaksin (der Ministerpräsident meines derzeitigen Lebensmittelpunktes) [schweigt jetzt gegenüber der Presse][1]. Begründung gewohnt markig und klar:
 
-> ???Thank you for seeing me back. Mercury is not in an auspicious orbit now. Just wait for the star to move across this year,??? Thaksin said smiling as he headed to his waiting private car.
+> “Thank you for seeing me back. Mercury is not in an auspicious orbit now. Just wait for the star to move across this year,” Thaksin said smiling as he headed to his waiting private car.
 
 Das heisst dann, dass wir erst Mitte Januar wieder von ihm hören.
 

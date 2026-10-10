@@ -11,7 +11,7 @@ publisher:
 ---
 Ich hatte es bereits erwähnt, Sondhi --- seines Zeichens Ex-bester Freund von Thaksin Shinawatra --- geht ins Kloster. Gestern (also rein technisch heute) nun [war Ordination][1]. Gegener demonstrierten, um die 100 Polizisten schützten die Szenerie, nun ist er ein buddhistischer Mönch. Man lese den Nachsatz.
 
-> He has been given the ordination name of ??Santa Jitto?, which means ??He, whose mind is at peace.?
+> He has been given the ordination name of “Santa Jitto”, which means “He, whose mind is at peace.”
 
 Soso. Das mag ich fast nicht glauben.
 

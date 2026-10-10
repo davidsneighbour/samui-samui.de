@@ -11,7 +11,7 @@ publisher:
 ---
 Der [Lawblogger verklagt die Postbank][1], weil sie ihm 150 Baht mehr als in Thailand abgehoben in Rechnung stellt --- dabei sollten doch 10 Abhebungen kostenlos sein.
 
-> Von dem Angebot habe ich im April Gebrauch gemacht. Doch bei drei Abhebungen ?? es handelte sich um die ersten im Jahr 2009 ?? an <span class="caps">VISA</span>---<span class="caps">PLUS</span>-Automaten in Thailand tauchten dann Gebühren auf. Jeweils 150 Baht, das sind rund drei Euro. Obwohl ich jeweils nur 20.000 Baht abgehoben habe, wurden mir 20.150 Baht in Rechnung gestellt. Auf den Quittungen, welche die Bankautomaten in Thailand ausspucken, sind die 150 Baht ausdrücklich als ??Fee? (Gebühr) ausgewiesen.
+> Von dem Angebot habe ich im April Gebrauch gemacht. Doch bei drei Abhebungen – es handelte sich um die ersten im Jahr 2009 – an <span class="caps">VISA</span>---<span class="caps">PLUS</span>-Automaten in Thailand tauchten dann Gebühren auf. Jeweils 150 Baht, das sind rund drei Euro. Obwohl ich jeweils nur 20.000 Baht abgehoben habe, wurden mir 20.150 Baht in Rechnung gestellt. Auf den Quittungen, welche die Bankautomaten in Thailand ausspucken, sind die 150 Baht ausdrücklich als „Fee“ (Gebühr) ausgewiesen.
 
 Zu dumm nur, dass die Automaten hier tatsächlich Nutzungsgebühren einziehen --- nicht die Bank in Deutschland.
 

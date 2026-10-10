@@ -15,7 +15,7 @@ publisher:
 
 Ah, gut!
 
-> ... ?? at least not in the December election.
+> ... — at least not in the December election.
 
 Oh. Was denn nun?
 
@@ -23,7 +23,7 @@ Oh. Was denn nun?
 
 Ahso. Und wenn die <span class="caps">PPP</span> gewinnt? Hmm?
 
-> Reacting to reports that the People Power party is currently in the lead, Gen Sonthi reiterated that it was "up to the people to decide who wins?.
+> Reacting to reports that the People Power party is currently in the lead, Gen Sonthi reiterated that it was "up to the people to decide who wins”.
 
 Na dann...
 

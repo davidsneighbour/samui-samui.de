@@ -15,7 +15,7 @@ Thailand vor! Noch ein Thooooooor!
 
 Das Halbfinale der <span class="caps">ASEAN</span> Football Federation (<span class="caps">AFF</span>) steht an. Dinh Hong Vinh (der Coach der Vietnamesen) weiß schon genau, woran es noch hapert:
 
-> Even though we played well in the first half, we lost our shape in the second and that gave Laos acres of space. Obviously we have to work on the team??s tactical discipline over these next two days.
+> Even though we played well in the first half, we lost our shape in the second and that gave Laos acres of space. Obviously we have to work on the team’s tactical discipline over these next two days.
 
 Wir werden ja sehen.
 

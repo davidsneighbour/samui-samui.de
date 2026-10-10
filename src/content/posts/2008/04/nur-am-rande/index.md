@@ -9,4 +9,4 @@ publisher:
   seo: true
   covermigration: true
 ---
-Se vogliamo che tutto rimanga com??è, bisogna che tutto cambi.
+Se vogliamo che tutto rimanga com’è, bisogna che tutto cambi.

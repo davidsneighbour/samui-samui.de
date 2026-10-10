@@ -26,6 +26,7 @@
 
 ## Content
 
+* [Archive character repair](content/archive-character-repair.md) records targeted punctuation repairs, contextual decisions, unresolved script and names, and the approved verification exception.
 * [Archive media recovery](content/archive-media-recovery.md) lists remaining Flickr photo references, backup matches, and other source-link work needed to close the archive recovery issue.
 
 * [Content schema](content/content-schema.md) records current Astro content schema import and loose-schema conventions.

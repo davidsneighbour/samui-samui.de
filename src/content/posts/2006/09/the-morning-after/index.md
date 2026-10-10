@@ -22,7 +22,7 @@ Das Militär in Thailand hat gestern Abend geputscht. Das habe ich schon lange e
 
 Seine Gegner beruhigten sich ein wenig. Die Wahlen wurden durchgeführt (boykottiert von Thaksins Gegnern), Thaksin kam zurück und riss das Ruder wieder an sich, man fing wieder an, gegen Thaksin zu demonstrieren. Dann wurde das 60. Inthronisationsjahr von König Bhumibol gefeiert und alle hatten sich lieb. Es wurden Neuwahlen angesetzt, die Wahlkommission abgesetzt und die Demonstrationen gegen Thaksin wieder aufgenommen. Im Grunde ging es seinen Gegnern die ganze Zeit darum, dass Thaksin sich aus der Politik zurückziehe.
 
-Dann wurde der König operiert und alle hatten sich wieder lieb. Dann schrieb Thaksin einen Brief an verschiedene Staatsführer, dass undemokratische Kräfte gegen ihn operieren würden und er ja nur versucht, die Demokratie im Lande aufrechtzuerhalten. Zuletzt verging kein Tag, ohne dass ihn nicht jemand zum Rücktritt aufgerufen hat. Vergangene Woche dann verließ er Thailand für eine kleine Weltrundreise. Gestern wollte er eine Kabinettssitzung per Webcam halten (sehr progressiv) ?? [die Armeeführung "verpasste" die Sitzung][1].
+Dann wurde der König operiert und alle hatten sich wieder lieb. Dann schrieb Thaksin einen Brief an verschiedene Staatsführer, dass undemokratische Kräfte gegen ihn operieren würden und er ja nur versucht, die Demokratie im Lande aufrechtzuerhalten. Zuletzt verging kein Tag, ohne dass ihn nicht jemand zum Rücktritt aufgerufen hat. Vergangene Woche dann verließ er Thailand für eine kleine Weltrundreise. Gestern wollte er eine Kabinettssitzung per Webcam halten (sehr progressiv) --- [die Armeeführung "verpasste" die Sitzung][1].
 
 Gegen Abend dann lag was in der Luft. Ich war gegen 21 Uhr abends mit dem Moped unterwegs und mit mir jede Menge Thais. Das ist ungewöhnlich für einen Dienstagabend. Der 7eleven war so voll wie nie zuvor, an beiden Kassen mindestens 10 Thais (und ich). Zuhause wieder angekommen dauerte es nur eine halbe Stunde bis ich eine <span class="caps">SMS</span> von meiner Quelle bekam: "Tomorrow will be happen something with <span class="caps">THAKSIN</span> and his government. This night we will see." Eine halbe Stunde später: "Now every channel of Thailand stop everything. They have just musik for the king."
 
@@ -72,7 +72,6 @@ Update um 9:21 Uhr: Es geht los!
 <!-- cspell:ignore Thaisender -->
 <!-- cspell:ignore Thaikanälen -->
 <!-- cspell:ignore Thaksingegnern -->
-<!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN ?? -->
 <!-- grammar-ignore DE_CASE Administrativen -->
 <!-- grammar-ignore SUBJUNKTION_KOMMA_2 Dass -->
 <!-- cspell:ignore สนธิ -->

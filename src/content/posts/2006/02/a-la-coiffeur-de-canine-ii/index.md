@@ -1,5 +1,5 @@
 ---
-title: ?? la coiffeur de canine II
+title: À la coiffeur de canine II
 date: 2006-02-21T02:43:00+07:00
 themen:
   - pokki

@@ -1,5 +1,5 @@
 ---
-title: ?? la coiffeur de canine
+title: À la coiffeur de canine
 date: 2006-02-20T05:15:00+07:00
 dsq_thread_id:
   - "2921166924"
