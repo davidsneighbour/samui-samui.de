@@ -25,6 +25,8 @@
 
 ## Content
 
+* [Archive media recovery](content/archive-media-recovery.md) lists remaining Flickr photo references, backup matches, and other source-link work needed to close the archive recovery issue.
+
 * [Content schema](content/content-schema.md) records current Astro content schema import and loose-schema conventions.
 * [Curation frontmatter](content/curation-frontmatter.md) defines the public editorial `curation` frontmatter contract.
 * [Flickr photo restoration](content/flickr-photo-restoration.md) records how the archive photos of the deleted Flickr account were restored from the Flickr data export into the post bundles.
