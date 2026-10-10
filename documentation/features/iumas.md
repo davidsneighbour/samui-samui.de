@@ -57,6 +57,10 @@ Several events may share one date — e.g. a redesign that changes the title, lo
 
 Append an object to `src/data/iumas.json` with the appropriate `type`. Leave `from: null` and `precision: "unknown"` for anything without a confirmed date; prefer a `source` (a Git commit reference is strongest) whenever one exists.
 
+### Git source provenance
+
+Every currently recorded subtitle has a full Git commit reference and a German source note. References identify the commit introducing the wording into the website configuration where verified; otherwise, they identify its first recorded configuration snapshot or its addition to the history archive. Archive-addition commits do not establish the original publication date. The screenshot-derived Thai subtitle retains its screenshot note, and its Git source identifies the later archive import; translations were added afterwards. Existing dates and unknown date precision remain unchanged.
+
 ### Adding an image entry
 
 Set `value` to the asset path (as referenced elsewhere in the site, e.g. `/assets/header/...`) and always include a meaningful `alt`. Missing image files don't break the build or the page — the timeline renders a plain `<img>`, not an `astro:assets`-processed image, since header photos currently live in `public/` rather than under `src/`.

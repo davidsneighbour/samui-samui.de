@@ -3,6 +3,11 @@
     "from": null,
     "note": "Auf einem alten Screenshot gefunden.",
     "precision": "unknown",
+    "source": {
+      "note": "Aus einem Screenshot in die Historie übernommen; spätere Übersetzungen ergänzt. Der ursprüngliche Einsatzzeitpunkt ist unbekannt.",
+      "reference": "5b665eab03c9eeb366349ed19b8dea070a16b478",
+      "type": "git"
+    },
     "type": "subtitle",
     "value": "การก้าวช้าไม่ได้ทำให้คุณไปไม่ถึงจุดหมาย\\\n*Taking it slow doesn't mean you won't reach your destination.*\\\n*Langsam anzugehen bedeutet nicht, dass man sein Ziel nicht erreicht.*"
   },
@@ -10,7 +15,8 @@
     "from": null,
     "precision": "unknown",
     "source": {
-      "reference": "1fe5fbf6d67c15d96af210b05161ad8ff1be5e73",
+      "note": "In der ersten Git-Version der Website-Konfiguration enthalten; der ursprüngliche Einsatzzeitpunkt ist unbekannt.",
+      "reference": "ac64504edaa999146302ede12ff0aac78d0231bf",
       "type": "git"
     },
     "type": "subtitle",
@@ -20,6 +26,7 @@
     "from": "2019-07-04",
     "precision": "day",
     "source": {
+      "note": "In der Website-Konfiguration als neuer Untertitel eingeführt.",
       "reference": "1fe5fbf6d67c15d96af210b05161ad8ff1be5e73",
       "type": "git"
     },
@@ -29,12 +36,22 @@
   {
     "from": "2026-08-29",
     "precision": "day",
+    "source": {
+      "note": "In die Untertitel-Historie aufgenommen. Das angegebene Startdatum liegt vor diesem Commit.",
+      "reference": "de594dec19bb7cb8d78e02fdfb597ade230ff228",
+      "type": "git"
+    },
     "type": "subtitle",
     "value": "Notizen. Unsortiert."
   },
   {
     "from": "2026-09-06",
     "precision": "day",
+    "source": {
+      "note": "In der Website-Konfiguration und der Untertitel-Historie eingeführt.",
+      "reference": "5b594c7251a71c26f7cf7bd10532c740701f8a18",
+      "type": "git"
+    },
     "type": "subtitle",
     "value": "Notizen. (Pedantisch) Unsortiert."
   },
@@ -60,6 +77,11 @@
   {
     "from": "2026-10-10",
     "precision": "day",
+    "source": {
+      "note": "In der Website-Konfiguration und der Untertitel-Historie eingeführt.",
+      "reference": "85391f1d4aaf2c48ecfb057ef3a8ccc58677ecb3",
+      "type": "git"
+    },
     "type": "subtitle",
     "value": "Mehr über Samui, als vernünftigerweise nötig wäre."
   }
