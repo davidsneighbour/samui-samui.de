@@ -16,3 +16,11 @@ it('renders a complete original amount without JavaScript in both directions', a
   });
   expect(eur).toContain('25 €');
 });
+
+it('preserves fractional source amounts rather than applying reference rounding', async () => {
+  const container = await AstroContainer.create();
+  const html = await container.renderToString(Currency, {
+    props: { amount: 25.75, currency: 'THB' },
+  });
+  expect(html).toContain('25,75\u00a0฿');
+});

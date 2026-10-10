@@ -23,10 +23,14 @@ export function convertCurrency(
   return result;
 }
 
-export function formatCurrency(amount: number, currency: Currency): string {
+export function formatCurrency(
+  amount: number,
+  currency: Currency,
+  maximumFractionDigits = 20,
+): string {
   validateAmount(amount, currency);
   const number = new Intl.NumberFormat('de-DE', {
-    maximumFractionDigits: currency === 'EUR' ? 2 : 0,
+    maximumFractionDigits,
     minimumFractionDigits: currency === 'EUR' ? 2 : 0,
   }).format(amount);
   return `${number}\u00a0${currency === 'EUR' ? '€' : '฿'}`;
@@ -37,5 +41,5 @@ export function formatConversion(
   currency: Currency,
   rate: number,
 ): string {
-  return `ca. ${formatCurrency(convertCurrency(amount, currency, rate), currency === 'THB' ? 'EUR' : 'THB')}`;
+  return `ca. ${formatCurrency(convertCurrency(amount, currency, rate), currency === 'THB' ? 'EUR' : 'THB', currency === 'THB' ? 2 : 0)}`;
 }

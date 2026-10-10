@@ -39,12 +39,18 @@ export const TOOLTIP_CONTROLLER_SCRIPT = `(() => {
         Math.max(triggerCenter - contentRect.width / 2, margin),
         Math.max(margin, maxLeft),
       );
-      const placement =
-        tooltip.dataset.tooltipPlacement === 'top' ? 'top' : 'bottom';
-      const top =
-        placement === 'top'
-          ? Math.max(margin, triggerRect.top - contentRect.height - gap)
-          : triggerRect.bottom + gap;
+      const preferred =
+        tooltip.dataset.tooltipPlacement === 'bottom' ? 'bottom' : 'top';
+      const fitsAbove = triggerRect.top - contentRect.height - gap >= margin;
+      const fitsBelow = triggerRect.bottom + gap + contentRect.height <= window.innerHeight - margin;
+      const placement = preferred === 'top'
+        ? (fitsAbove || !fitsBelow ? 'top' : 'bottom')
+        : (fitsBelow || !fitsAbove ? 'bottom' : 'top');
+      tooltip.dataset.tooltipResolvedPlacement = placement;
+      const idealTop = placement === 'top'
+        ? triggerRect.top - contentRect.height - gap
+        : triggerRect.bottom + gap;
+      const top = Math.max(margin, Math.min(idealTop, window.innerHeight - contentRect.height - margin));
       const arrowLeft = Math.min(
         Math.max(triggerCenter - left, 12),
         contentRect.width - 12,

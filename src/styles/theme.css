@@ -668,11 +668,11 @@ html {
   transform: translateX(-50%) rotate(45deg);
 }
 
-.tooltip[data-tooltip-placement="top"] .tooltip__content {
+.tooltip[data-tooltip-resolved-placement="top"] .tooltip__content {
   transform: translateY(0.25rem);
 }
 
-.tooltip[data-tooltip-placement="top"] .tooltip__content::before {
+.tooltip[data-tooltip-resolved-placement="top"] .tooltip__content::before {
   top: auto;
   bottom: -0.25rem;
   border-top: none;

@@ -617,3 +617,7 @@ At the source image size, coastlines use a 1px stroke, routes a 3px stroke, and 
 ## Currency hints
 
 Explicit currency amounts retain their surrounding prose colour and typography. Once a usable reference rate is available, their shared tooltip trigger gains a dotted underline with a 0.2em underline offset and a help cursor. This inline hint uses the existing tooltip surface and focus ring, with no new colour, spacing, radius, or font token. Before enhancement, the amount is plain readable text.
+
+## Content tooltip placement
+
+Tooltips in content MUST prefer the space above their trigger. When there is insufficient space above and sufficient space below, the shared controller MUST open below instead. It clamps the surface within the viewport when neither side fits. Top placement is the shared component default; a deliberate bottom preference may be specified for other surfaces. The arrow follows the resolved placement, including fallback. Currency hints follow this rule.

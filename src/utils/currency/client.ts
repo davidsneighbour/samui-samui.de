@@ -34,6 +34,7 @@ function enhance(element: HTMLElement, rate: CurrencyRate) {
       trigger.addEventListener('click', () => trigger.focus());
       element.classList.add('tooltip', 'inline-flex');
       element.dataset['tooltip'] = '';
+      element.dataset['tooltipPlacement'] = 'top';
       element.append(trigger, content);
     }
     content.textContent = label;

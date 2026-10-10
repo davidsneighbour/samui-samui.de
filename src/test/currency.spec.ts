@@ -28,6 +28,7 @@ for (const [path, original, converted] of paths) {
     await expect(amount.locator('[data-tooltip-trigger]')).toHaveText(original);
     const trigger = amount.locator('[data-tooltip-trigger]');
     await expect(trigger).toHaveCSS('text-decoration-style', 'dotted');
+    await trigger.scrollIntoViewIfNeeded();
     await trigger.focus();
     await expect(amount).toHaveAttribute('data-tooltip-state', 'open');
     await expect(amount.locator('[role=tooltip]')).toHaveText(converted);
@@ -158,4 +159,35 @@ test('no amounts means no exchange-rate request', async ({ page }) => {
   await page.goto('/2005/11/channel10/');
   await expect(page.locator('dnb-currency')).toHaveCount(0);
   expect(requests).toBe(0);
+});
+
+test('content tooltips prefer top and fall back below at the viewport edge', async ({
+  page,
+}) => {
+  await page.route('https://api.frankfurter.dev/**', (route) =>
+    route.fulfill({
+      json: { base: 'EUR', date: '2026-10-09', quote: 'THB', rate: 40 },
+    }),
+  );
+  await page.goto(paths[0][0]);
+  const amount = page.locator('dnb-currency');
+  await expect(amount).toHaveAttribute('data-currency-ready', '');
+  await amount.evaluate((node) => {
+    node.style.position = 'fixed';
+    node.style.top = '200px';
+    node.style.left = '100px';
+  });
+  await amount.locator('[data-tooltip-trigger]').focus();
+  await expect(amount).toHaveAttribute(
+    'data-tooltip-resolved-placement',
+    'top',
+  );
+  await amount.evaluate((node) => {
+    node.style.top = '0px';
+    window.dispatchEvent(new Event('resize'));
+  });
+  await expect(amount).toHaveAttribute(
+    'data-tooltip-resolved-placement',
+    'bottom',
+  );
 });

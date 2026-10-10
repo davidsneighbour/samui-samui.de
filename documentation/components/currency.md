@@ -11,11 +11,11 @@ Plain Markdown supports explicit inline markup, with a machine-readable decimal 
 <dnb-currency amount="25" currency="EUR">25 €</dnb-currency>
 ```
 
-Astro and MDX can import `src/components/content/currency/Currency.astro` and use `<Currency amount={1000} currency="THB" />`. An optional slot preserves custom display wording. Only finite amounts and THB/EUR are supported. Arbitrary prose is never scanned for amounts. Plain-Markdown authors must supply a complete original label; it remains visible without JavaScript. Invalid runtime attributes remain plain text.
+Astro and MDX can import `src/components/content/currency/Currency.astro` and use `<Currency amount={1000} currency="THB" />`. An optional slot preserves custom display wording. Default source formatting preserves decimal places; reference-only rounding never changes the original amount. Only finite amounts and THB/EUR are supported. Arbitrary prose is never scanned for amounts. Plain-Markdown authors must supply a complete original label; it remains visible without JavaScript. Invalid runtime attributes remain plain text.
 
 ## Behaviour
 
-The shared footer loads the browser module, which detects explicit elements on initial load and after each Astro navigation. Pages without elements make no exchange-rate request. Converted hints use German number formatting, `ca.`, two decimal places for EUR, and whole Baht for THB. The original amount remains primary. A usable rate enables the dotted underline, focusable trigger, and shared tooltip controller, including hover, focus, tap-to-focus, and Escape dismissal. Touch users can dismiss by tapping elsewhere.
+The shared footer loads the browser module, which detects explicit elements on initial load and after each Astro navigation. Pages without elements make no exchange-rate request. Converted hints use German number formatting, `ca.`, two decimal places for EUR, and whole Baht for THB. The original amount remains primary. A usable rate enables the dotted underline, focusable trigger, and shared tooltip controller (above the amount where space permits, otherwise below), including hover, focus, tap-to-focus, and Escape dismissal. Touch users can dismiss by tapping elsewhere.
 
 `src/utils/currency/conversion.ts` owns pure arithmetic and formatting. `rate.ts` owns response validation, optional Local Storage, expiry, and a shared in-flight request. `client.ts` creates the shared tooltip markup only after a usable conversion exists. No hard-coded fallback rate exists.
 
