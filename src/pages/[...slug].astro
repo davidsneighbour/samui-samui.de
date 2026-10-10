@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import BlogPost from '@layouts/BlogPost.astro';
 import { getPostCover } from '@utils/covers';
 import { getPostUrl } from '@utils/posts';
+import { getPostReadingTime } from '@utils/reading-time';
 import { resolvePostTaxonomyGroups } from '@utils/taxonomies/entities';
 
 export async function getStaticPaths() {
@@ -61,6 +62,7 @@ const hasYoutube = post.body?.includes('dnb-youtube') ?? false;
 
 <BlogPost
   title={post.data.title}
+  readingTime={getPostReadingTime(post)}
   description={post.data.description}
   cover={cover}
   date={post.data.date}

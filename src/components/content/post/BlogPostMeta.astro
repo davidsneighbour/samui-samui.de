@@ -2,11 +2,13 @@
 import FormattedDate from '@components/content/date/FormattedDate.astro';
 import ThemaBadges from '@components/content/taxonomy/ThemaBadges.astro';
 import Tooltip from '@components/ui/tooltip.astro';
-import { CalendarCheck, CalendarDays } from '@lucide/astro';
+import { CalendarCheck, CalendarDays, Clock } from '@lucide/astro';
 import { cn } from '@utils/cn';
 import { formatDate } from '@utils/dates';
+import type { PostReadingTime } from '@utils/reading-time';
 
 interface Props {
+  readingTime?: PostReadingTime | undefined;
   date?: Date | undefined;
   updatedDate?: Date | undefined;
   themen?: string[] | undefined;
@@ -15,6 +17,7 @@ interface Props {
 }
 
 const {
+  readingTime,
   date,
   updatedDate,
   themen,
@@ -22,8 +25,8 @@ const {
   class: className,
 } = Astro.props as Props;
 const hasThemen = themen && themen.length > 0;
-const hasDates = date || updatedDate;
-const hasMeta = date || updatedDate || hasThemen;
+const hasDates = date || updatedDate || readingTime;
+const hasMeta = hasDates || hasThemen;
 const updatedDateLabel = updatedDate
   ? `Aktualisiert am ${formatDate(updatedDate, { extended })}`
   : undefined;
@@ -37,7 +40,7 @@ const updatedDateLabel = updatedDate
     )}
   >
     {hasDates && (
-      <div class="flex flex-wrap items-center gap-x-2 gap-y-1 leading-none sm:shrink-0">
+      <div class="flex flex-wrap items-center gap-x-2 gap-y-1 leading-none min-w-0">
         {date && (
           <span class="inline-flex items-center gap-2 whitespace-nowrap leading-none [&_svg]:block [&_time]:leading-none">
             <CalendarDays class="size-4 shrink-0" aria-hidden="true" />
@@ -46,6 +49,15 @@ const updatedDateLabel = updatedDate
               extended={extended}
               class="text-box-balanced"
             />
+          </span>
+        )}
+        {readingTime && (
+          <span class="inline-flex items-center gap-2 whitespace-nowrap leading-none">
+            <Clock class="size-4 shrink-0" aria-hidden="true" />
+            {readingTime.minutes > 0
+              ? `ca. ${readingTime.minutes} Min. Lesezeit`
+              : 'Keine Lesezeit'}
+            {readingTime.hasVideo && ' + Video'}
           </span>
         )}
         {updatedDateLabel && (

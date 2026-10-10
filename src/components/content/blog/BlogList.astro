@@ -17,6 +17,7 @@ import { getPostDateParts } from '@utils/dates';
 import { getPostPreviewHtml } from '@utils/post-preview';
 import { getPostUrl as getCanonicalPostUrl } from '@utils/posts';
 import { proseClasses } from '@utils/prose';
+import { getPostReadingTime } from '@utils/reading-time';
 import { resolvePostTaxonomyGroups } from '@utils/taxonomies/entities';
 
 interface Props {
@@ -154,6 +155,7 @@ const showTopPagination = showPagination && pageNumber > 1;
                   />
                   <BlogPostMeta
                     date={post.data.date}
+                    readingTime={getPostReadingTime(post)}
                     themen={post.data.themen}
                     class="mb-4 mt-3"
                   />
@@ -186,6 +188,7 @@ const showTopPagination = showPagination && pageNumber > 1;
               />
               <BlogPostMeta
                 date={post.data.date}
+                readingTime={getPostReadingTime(post)}
                 themen={post.data.themen}
                 class="mt-2"
               />

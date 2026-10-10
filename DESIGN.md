@@ -472,7 +472,7 @@ Generated Markdown footnotes use a separate "Fußnoten" section with 32px of spa
   use `link` colour and show a 2px underline on hover and on keyboard
   focus within the card; the colour does not change.
 * **BlogPostMeta** (`src/components/BlogPostMeta.astro`) — shared metadata
-  row beneath post titles. It owns published/updated dates and optional tag
+  row beneath post titles. It includes a clock with estimated full-post reading time after the published date, plus `+ Video` when applicable, using the existing metadata typography, icon size, colour, and spacing. Metadata groups can wrap on narrow screens. It owns published/updated dates and optional tag
   badges. The published date appears inline with a `CalendarDays` icon; when an
   updated date exists, a `CalendarCheck` icon follows it and reveals the
   "Aktualisiert" timestamp via the shared `Tooltip` component. The date

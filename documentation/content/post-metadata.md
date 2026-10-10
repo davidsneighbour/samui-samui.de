@@ -25,3 +25,11 @@ The tooltip text keeps the German wording `Aktualisiert am` followed by the same
 Single post pages render a breadcrumb below the visible metadata row and above the taxonomy list. The trail uses `Startseite`, the Bangkok calendar year linked to `/archiv/YYYY/`, and the current post title as the active page item.
 
 `src/components/content/post/PostTaxonomyGroups.astro` renders the taxonomy groups below the breadcrumb as compact flex rows. Each row keeps the German taxonomy label and its linked values on the same line where space allows, with values wrapping within the row on narrow screens. The rows are ordered `Orte`, `Ereignisse`, `Feiertage`, and `Personen`, and empty groups are hidden. `Themen` are not shown in this block because the metadata line already renders them.
+
+## Reading time
+
+Post pages, featured posts, and list cards show a clock and `ca. X Min. Lesezeit` after the publication date. List estimates refer to the full post, not the excerpt. The metadata can wrap between date, reading time, and update indicator on narrow screens; each individual label stays together.
+
+`src/utils/reading-time.ts` counts words in the full rendered article HTML at build time, divides by an editorial estimate of 200 words per minute, and rounds upwards. Headings, quotations, lists, captions, and citations count as text. Markup, attributes, image alt text, scripts, styles, code, and video-player fallback text do not. Empty or media-only posts show `Keine Lesezeit`; missing rendered content omits the indicator rather than inventing an estimate. This adds no browser script or external request.
+
+YouTube, Vimeo, native video, known video-provider iframes, and video covers add `+ Video`. Video watching is separate from reading: the indicator does not assume that visitors watch every embed. Video durations are not currently stored, so no numerical watching estimate is shown. A future duration contract should use verified local metadata, cover all included videos, and account for duplicate embeds and start offsets before showing a total such as `+ 12 Min. Video`. No provider is contacted to calculate this indicator.
