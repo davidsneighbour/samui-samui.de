@@ -3,6 +3,7 @@ import {
   convertCurrency,
   formatConversion,
   formatCurrency,
+  formatRateDate,
 } from '../utils/currency/conversion';
 import {
   type CurrencyRate,
@@ -154,4 +155,13 @@ describe('currency cache', () => {
     expect(service.lookup().rate?.rate).toBe(40);
     expect(fetcher).toHaveBeenCalledTimes(1);
   });
+});
+
+it('labels the actual reference date rather than the fetch date or today', () => {
+  expect(formatRateDate('2026-10-09')).toBe(
+    'EZB-Referenzkurs vom 9. Oktober 2026',
+  );
+  expect(formatRateDate('2005-01-20')).toBe(
+    'EZB-Referenzkurs vom 20. Januar 2005',
+  );
 });

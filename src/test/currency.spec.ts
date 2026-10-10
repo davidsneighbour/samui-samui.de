@@ -31,7 +31,12 @@ for (const [path, original, converted] of paths) {
     await trigger.scrollIntoViewIfNeeded();
     await trigger.focus();
     await expect(amount).toHaveAttribute('data-tooltip-state', 'open');
-    await expect(amount.locator('[role=tooltip]')).toHaveText(converted);
+    await expect(amount.locator('[data-currency-conversion]')).toHaveText(
+      converted,
+    );
+    await expect(amount.locator('[data-currency-rate-date]')).toHaveText(
+      'EZB-Referenzkurs vom 9. Oktober 2026',
+    );
     await page.keyboard.press('Escape');
     await expect(amount).not.toHaveAttribute('data-tooltip-state', 'open');
     await trigger.hover();
@@ -97,9 +102,9 @@ test('deduplicates many amounts, converts EUR, and survives client navigation', 
       window as unknown as { currencyNavigationMarker: boolean }
     ).currencyNavigationMarker = true;
   });
-  await expect(page.locator('dnb-currency [role=tooltip]').last()).toHaveText(
-    'ca. 1.000\u00a0฿',
-  );
+  await expect(
+    page.locator('dnb-currency [data-currency-conversion]').last(),
+  ).toHaveText('ca. 1.000\u00a0฿');
   await page.getByRole('link', { name: 'Currency navigation test' }).click();
   await expect(page).toHaveURL(/helmpflicht/);
   await expect(page.locator('dnb-currency')).toHaveAttribute(
@@ -126,7 +131,7 @@ for (const age of [25, 169]) {
             fetchedAt: new Date(Date.now() - age * 3600000).toISOString(),
             provider: 'ECB',
             rate: 40,
-            rateDate: '2026-10-09',
+            rateDate: '2026-10-02',
             source: 'frankfurter',
             version: 1,
           }),
@@ -138,12 +143,15 @@ for (const age of [25, 169]) {
       route.abort(),
     );
     await page.goto(paths[0][0]);
-    if (age < 168)
+    if (age < 168) {
       await expect(page.locator('dnb-currency')).toHaveAttribute(
         'data-currency-ready',
         '',
       );
-    else {
+      await expect(page.locator('[data-currency-rate-date]')).toHaveText(
+        'EZB-Referenzkurs vom 2. Oktober 2026',
+      );
+    } else {
       await expect(page.locator('dnb-currency')).toHaveText('160 THB');
       await expect(page.locator('dnb-currency [tabindex]')).toHaveCount(0);
     }

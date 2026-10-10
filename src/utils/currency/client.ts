@@ -1,4 +1,4 @@
-import { formatConversion, validateAmount } from './conversion';
+import { formatConversion, formatRateDate, validateAmount } from './conversion';
 import { type CurrencyRate, createRateService } from './rate';
 
 const service = createRateService({
@@ -37,7 +37,15 @@ function enhance(element: HTMLElement, rate: CurrencyRate) {
       element.dataset['tooltipPlacement'] = 'top';
       element.append(trigger, content);
     }
-    content.textContent = label;
+    const conversion = document.createElement('span');
+    conversion.className = 'block';
+    conversion.dataset['currencyConversion'] = '';
+    conversion.textContent = label;
+    const date = document.createElement('span');
+    date.className = 'block';
+    date.dataset['currencyRateDate'] = '';
+    date.textContent = formatRateDate(rate.rateDate);
+    content.replaceChildren(conversion, date);
     element.dataset['currencyReady'] = '';
   } catch {
     /* Invalid input leaves the original amount readable. */
