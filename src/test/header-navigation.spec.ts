@@ -184,3 +184,90 @@ test('short pages release immediately and resizing updates anchor clearance', as
     })
     .toBeLessThan(1);
 });
+
+for (const width of [375, 1200]) {
+  test(`hover indicator follows links and returns home at ${width}px`, async ({
+    page,
+  }) => {
+    await page.setViewportSize({ height: 720, width });
+    await page.goto('/');
+    const nav = page.locator('[data-header-navigation]');
+    const indicator = nav.locator('[data-navigation-indicator]');
+    const home = nav.getByRole('link', { name: 'Startseite' });
+    for (const name of ['Archiv', 'Über Patrick', 'Kontakt', 'Startseite']) {
+      const link = nav.getByRole('link', { exact: true, name });
+      await link.hover();
+      await expect
+        .poll(async () => {
+          const line = await indicator.boundingBox();
+          const target = await link.boundingBox();
+          if (!line || !target) return 100;
+          return (
+            Math.abs(line.x - target.x) +
+            Math.abs(line.width - target.width) +
+            Math.abs(line.y - (target.y + target.height - 4))
+          );
+        })
+        .toBeLessThan(1);
+      await expect
+        .poll(() =>
+          link
+            .locator('svg')
+            .evaluate((node) => getComputedStyle(node).transform),
+        )
+        .toBe('matrix(1.15, 0, 0, 1.15, 0, 0)');
+      await expect(home).toHaveAttribute('aria-current', 'page');
+    }
+    await page.mouse.move(0, 0);
+    await expect
+      .poll(async () => {
+        const line = await indicator.boundingBox();
+        const target = await home.boundingBox();
+        return line && target
+          ? Math.abs(line.x - target.x) +
+              Math.abs(line.y - (target.y + target.height - 2))
+          : 100;
+      })
+      .toBeLessThan(1);
+    const archive = nav.getByRole('link', { exact: true, name: 'Archiv' });
+    await archive.focus();
+    await expect
+      .poll(() =>
+        indicator.evaluate((node) => getComputedStyle(node).transitionDuration),
+      )
+      .toBe('0s');
+    await archive.click();
+    await expect(page).toHaveURL(/\/archiv\/$/);
+    await page.mouse.move(0, 0);
+    await expect(nav.locator('[data-navigation-links]')).toHaveAttribute(
+      'data-indicator-ready',
+    );
+    await expect(
+      nav.getByRole('link', { exact: true, name: 'Archiv' }),
+    ).toHaveAttribute('aria-current', 'page');
+  });
+}
+
+test('reduced motion removes navigation scaling, lift, and travel animation', async ({
+  page,
+}) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.goto('/');
+  const nav = page.locator('[data-header-navigation]');
+  const archive = nav.getByRole('link', { exact: true, name: 'Archiv' });
+  await archive.hover();
+  expect(
+    await archive
+      .locator('svg')
+      .evaluate((node) => getComputedStyle(node).transform),
+  ).toBe('none');
+  const indicator = nav.locator('[data-navigation-indicator]');
+  expect(
+    await indicator.evaluate((node) =>
+      parseFloat(getComputedStyle(node).transitionDuration),
+    ),
+  ).toBeLessThanOrEqual(0.00001);
+  const line = await indicator.boundingBox();
+  const target = await archive.boundingBox();
+  expect(line?.y).toBeCloseTo((target?.y ?? 0) + (target?.height ?? 0) - 2, 0);
+});

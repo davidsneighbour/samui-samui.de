@@ -423,6 +423,7 @@ sharp (0px) corners.
 Motion is reserved for feedback and state changes; reading surfaces stay static. There are no motion tokens in `theme.css`; these values are the documented conventions. The global reduced-motion rule in `theme.css` shortens every transition and animation to 0.01ms, so components do not need their own reduced-motion branch unless they run bespoke JavaScript motion.
 
 * **Hover and colour changes** — 150ms `ease-out` on colour, background, and border properties.
+* **Navigation hover** — one shared 2px `primary` underline follows the hovered text link over 200ms with the entrance curve and lifts 2px while hovering, then returns to the current page when the pointer leaves the navigation. Hovered link icons scale to 1.15 over 150ms `ease-out` on fine hover pointers. Keyboard focus moves the indicator immediately. Reduced motion removes icon scaling, underline lift, and travel animation. Link hit areas and `aria-current` stay unchanged; without JavaScript, the existing active and hover borders remain.
 * **Press feedback** — `active:scale-[0.97]` with a 150ms transform transition on buttons and button-like controls (`buttonVariants`, pagination controls, footnote return links). Compact icon buttons (ThemeToggle, sound toggle, tooltip triggers) use `0.96`.
 * **Entrance curve** — `cubic-bezier(0.2, 0, 0, 1)` for elements that enter (footer sound icon swap at 180ms, contact form status).
 * **Contact form status** — enters over 200ms from `opacity: 0` and a 4px downward offset via `@starting-style`. It has no exit animation.

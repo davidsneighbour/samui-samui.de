@@ -25,3 +25,9 @@ The browser tests in `src/test/header-navigation.spec.ts` cover mobile and deskt
 ```bash
 node node_modules/@playwright/test/cli.js test src/test/header-navigation.spec.ts src/test/masthead.spec.ts
 ```
+
+## Hover indicator
+
+The text-link group uses one decorative, 2px primary-colour underline. It moves to the hovered link, lifts 2px, and returns to the current page when the pointer leaves the navigation. Each hovered link icon enlarges to 115% without changing the link hit area. These effects apply only to fine hover pointers; search and the theme control retain their existing treatments.
+
+Keyboard focus moves the underline immediately and retains the normal focus ring. Reduced motion removes travel animation, upward movement, and icon enlargement. Pages without an active navigation link hide the underline after hover or focus ends. ResizeObserver remeasures the group and links for wrapping, viewport changes, and font loading. Setup and cleanup share the sticky navigation lifecycle across Astro page swaps. Without JavaScript, the original active and hover borders remain available.

@@ -32,13 +32,29 @@ const isActive =
       border-color 0.2s ease,
       color 0.2s ease;
   }
+  a :global(svg) {
+    transition: transform 150ms ease-out;
+  }
+  :global([data-indicator-ready]) a.active,
+  :global([data-indicator-ready]) a:hover {
+    border-bottom-color: transparent;
+  }
   a.active {
     border-bottom-color: var(--color-primary);
   }
 
   @media (hover: hover) and (pointer: fine) {
+    a:hover :global(svg) {
+      transform: scale(1.15);
+    }
     a:hover {
       border-bottom-color: var(--color-primary);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    a:hover :global(svg) {
+      transform: none;
     }
   }
 </style>
