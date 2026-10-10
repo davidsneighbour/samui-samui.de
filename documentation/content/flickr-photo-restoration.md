@@ -10,7 +10,7 @@ The Flickr data export is a local backup (not in the repository). It holds one f
 
 * 419 of 423 embedded photo IDs were found in the backup and restored.
 * Three embedded photos belong to other Flickr users (`silpakhon`, `mrpokx5`, `cospho`). Their photo pages are still live, so the posts now link to the photo page instead of embedding the image.
-* One own photo ("The Boss", `99923689`, post `2006/02/derchef`) is not in the backup. Its embed was removed.
+* One own photo ("The Boss", `99923689`, post `2006/02/derchef`) had no exact filename or metadata match in the scanned backup. Its embed was removed; manual recovery or an explicit removal decision is tracked in [#1807](https://github.com/davidsneighbour/samui-samui.de/issues/1807).
 
 After the restoration no built page loads an image from a Flickr host. Check with:
 
@@ -45,3 +45,7 @@ The pre-commit hook checks links and language in every staged post, so the resto
 * Repairs of characters that the archive import had broken into question marks, where the correct text was certain (for example the Thai caption of `2007/04/wir-waren-alle-drei-beim-friseur` from the Flickr metadata).
 
 The Creative Commons badge of the wallpaper posts is stored in `public/images/creative-commons/`, and the two images of the former domain `die.schreibbloga.de` load from `public/wp-content/old-images/`.
+
+## Remaining recovery tracking
+
+The archive decision issue is closed. The owner’s manual Flickr recovery is tracked in [#1806](https://github.com/davidsneighbour/samui-samui.de/issues/1806), "Der Chef" in [#1807](https://github.com/davidsneighbour/samui-samui.de/issues/1807), and the remaining Lychee findings, third-party links, and historical-source decisions in [#1808](https://github.com/davidsneighbour/samui-samui.de/issues/1808). Transferring the work does not mean that these references have been repaired.

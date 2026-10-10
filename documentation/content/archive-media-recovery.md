@@ -1,6 +1,6 @@
 # Archive media recovery checklist
 
-This is the remaining-work inventory for [the archive media and dead-link issue](https://github.com/davidsneighbour/samui-samui.de/issues/1780), checked on 10 October 2026. It separates missing pictures, surviving Flickr links, and other link failures so the issue can be closed against concrete acceptance criteria. The 28 recoverable photo references were restored on 10 October 2026 after the initial inventory; the remaining entries below describe open closure work.
+This is the remaining-work inventory for [the archive media and dead-link issue](https://github.com/davidsneighbour/samui-samui.de/issues/1780), checked on 10 October 2026. The parent issue is closed after its remaining work was transferred to focused follow-up issues. The 28 recoverable photo references were restored on 10 October 2026 after the initial inventory; the remaining entries below are tracked by the follow-up issues.
 
 ## Completed work
 
@@ -10,13 +10,14 @@ This is the remaining-work inventory for [the archive media and dead-link issue]
 
 ## Closure checklist
 
-* [x] Restore all 28 recoverable photo references in 22 posts. They are local Markdown images at the original reference positions, with the inline text linking to each image’s deterministic figure anchor.
-* [ ] Resolve the remaining links to the deleted account, albums, tags, and searches. Match exported albums and tags where possible; otherwise preserve a historical source trail using [Link checking](../link-checking.md).
-* [ ] Recheck third-party Flickr links separately. They are outbound links, do not belong to the owner’s backup, and do not trigger image requests on page load.
-* [ ] Confirm the recorded removal of the own photo `99923689` in "Der Chef". This backup contains no matching image or metadata. Do not invent a replacement.
-* [ ] Resolve or document the current non-Flickr link-check failures in the appendix. A 403, 429, timeout, or TLS error proves that this check failed, not that the source is permanently lost.
-* [ ] Decide whether to continue recovery of the historical source footnotes listed below or accept their documented unavailable status as final for this issue.
-* [ ] Run the scoped link and language checks for changed posts, the production build, and a built-page external-image check. Update the restoration document and issue summary, then close the issue.
+* [x] Restore all 28 recoverable photo references in 22 posts, with local images and deterministic figure anchors.
+* [x] Transfer remaining own Flickr account, album, tag, search, and photo references to [#1806](https://github.com/davidsneighbour/samui-samui.de/issues/1806) for the owner’s manual recovery. That issue includes every source location and checkboxes.
+* [x] Transfer the third-party Flickr reference review to [#1808](https://github.com/davidsneighbour/samui-samui.de/issues/1808). The four distinct destinations returned HTTP 200 on 10 October 2026.
+* [x] Transfer manual recovery or an explicit removal decision for "Der Chef", photo `99923689`, to [#1807](https://github.com/davidsneighbour/samui-samui.de/issues/1807).
+* [x] Transfer the remaining 1,035 recorded link failures across 588 posts and the 15 historical-source decisions to [#1808](https://github.com/davidsneighbour/samui-samui.de/issues/1808). Its comments contain the full per-post Lychee checklist.
+* [x] Complete the scoped content checks, production build, and built-page local-image verification for the 28-photo restoration. Update documentation and close the parent. Each follow-up owns validation of its later changes.
+
+Checking a transfer item records that the work has its own issue; it does not claim that the outstanding recovery is finished.
 
 ## Restored photo references
 
