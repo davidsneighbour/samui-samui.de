@@ -10,8 +10,6 @@ publisher:
   seo: true
   covermigration: true
 ---
-<div class="media video">
-</div>
 
 Im thailändischen Fernsehen wird viel zensiert --- Zigaretten, "anstössige" Szenen, Waffen, Mord und Totschlag und so weiter werden ausgepixelt --- aber trotzdem gezeigt. Was genau gepixelt wird, bestimmen Leute, welche die Sendungen weder schauen noch verstehen. Als Zuschauer denkt man sich einfach seinen Teil dazu, ist aber eher genervt (hin und wieder ist es schon etwas schwer, ob da eine Zigarette oder eine Rasierklinge gepixelt wurde, was zu Missverständnissen zum Inhalt führen wird ;).
 

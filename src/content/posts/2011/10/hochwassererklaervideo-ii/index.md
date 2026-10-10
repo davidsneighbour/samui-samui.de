@@ -12,7 +12,5 @@ publisher:
 ereignisse:
   - hochwasser-thailand-2011
 ---
-<div class="media movie">
-</div>
 
 Teil II der Hochwassererklärvideos.

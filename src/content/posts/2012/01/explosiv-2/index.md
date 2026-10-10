@@ -10,8 +10,6 @@ publisher:
   seo: true
   covermigration: true
 ---
-<div class="media video">
-</div>
 
 Gestern abend wurden die Feierlichkeiten zum Chinesischen Neujahr (Willkommen im Jahr des Drachens!) in Suphan Buri von einem [Feuerwerks-Unglück][1] überschattet: Teile einer Rakete explodierten zu früh und fielen in ein Zelt, das ungenutzte Raketen enthielt. Die resultierende Explosion hat bisher 4 Menschenleben gekostet, fast 90 Zuschauer verletzt und mehr als 100 Wohnung/Häuser in Brand gesteckt.
 

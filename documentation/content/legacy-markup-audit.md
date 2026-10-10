@@ -4,38 +4,9 @@ Verified on 10 October 2026 against all 2,083 Markdown and MDX files under `src/
 
 File links open the source at the recorded line in VS Code. Line numbers describe the audit snapshot and can shift as you edit the articles.
 
-## Empty legacy containers
+## Broken legacy map navigation
 
-There are 24 empty containers: 18 video containers, four Flickr containers, one map container, and one other empty container. Each was checked in the production output; none of these 24 articles contains an active video, iframe, or supported video-player element. Empty wrappers do not by themselves identify the original missing asset or video ID.
-
-| Source | Empty markup |
-| --- | --- |
-| [src/content/posts/2006/03/chinesischerschreininnathon/index.md:25](../../src/content/posts/2006/03/chinesischerschreininnathon/index.md#L25) | `<div class="flickrbadge clearfix"> </div>` |
-| [src/content/posts/2006/05/der-tag-der-neun-tempel/index.md:19](../../src/content/posts/2006/05/der-tag-der-neun-tempel/index.md#L19) | `<div id="map" style="height:550px;width:508px;margin:5px 0;border:1px solid #000;"> </div>` |
-| [src/content/posts/2006/05/raucherbildchen/index.md:16](../../src/content/posts/2006/05/raucherbildchen/index.md#L16) | `<div class="clearfix" style="width:500px;margin:0 auto;"> </div>` |
-| [src/content/posts/2006/11/flickrset-rainseason/index.md:14](../../src/content/posts/2006/11/flickrset-rainseason/index.md#L14) | `<div class="flickr2 clearfix"> </div>` |
-| [src/content/posts/2009/06/best-foreign-husband-competition/index.md:15](../../src/content/posts/2009/06/best-foreign-husband-competition/index.md#L15) | `<div class="flickr"> </div>` |
-| [src/content/posts/2009/06/mee-and-my-father/index.md:15](../../src/content/posts/2009/06/mee-and-my-father/index.md#L15) | `<div class="flickr"> </div>` |
-| [src/content/posts/2010/11/vorgestern-am-strand/index.md:13](../../src/content/posts/2010/11/vorgestern-am-strand/index.md#L13) | `<div class="media video"> </div>` |
-| [src/content/posts/2011/03/babies-in-tueten-iii-the-movie/index.md:17](../../src/content/posts/2011/03/babies-in-tueten-iii-the-movie/index.md#L17) | `<div class="media video"> </div>` |
-| [src/content/posts/2011/04/censorsht/index.md:13](../../src/content/posts/2011/04/censorsht/index.md#L13) | `<div class="media video"> </div>` |
-| [src/content/posts/2011/04/der-perfekte-eistee/index.md:15](../../src/content/posts/2011/04/der-perfekte-eistee/index.md#L15) | `<div class="media video"> </div>` |
-| [src/content/posts/2011/04/heimvideo-dogporno/index.md:15](../../src/content/posts/2011/04/heimvideo-dogporno/index.md#L15) | `<div class="media video"> </div>` |
-| [src/content/posts/2011/05/neulich-in-hat-yai/index.md:13](../../src/content/posts/2011/05/neulich-in-hat-yai/index.md#L13) | `<div class="media video"> </div>` |
-| [src/content/posts/2011/05/und-jetzt-werbung/index.md:13](../../src/content/posts/2011/05/und-jetzt-werbung/index.md#L13) | `<div class="media video"> </div>` |
-| [src/content/posts/2011/10/bangkok-unter-wasser-1942/index.md:13](../../src/content/posts/2011/10/bangkok-unter-wasser-1942/index.md#L13) | `<div class="media movie"> </div>` |
-| [src/content/posts/2011/10/hochwasser-parking-lot/index.md:15](../../src/content/posts/2011/10/hochwasser-parking-lot/index.md#L15) | `<div class="media movie"> </div>` |
-| [src/content/posts/2011/10/hochwassererklaervideo-ii/index.md:15](../../src/content/posts/2011/10/hochwassererklaervideo-ii/index.md#L15) | `<div class="media movie"> </div>` |
-| [src/content/posts/2011/10/hochwassererklaervideo-iii/index.md:17](../../src/content/posts/2011/10/hochwassererklaervideo-iii/index.md#L17) | `<div class="media movie"> </div>` |
-| [src/content/posts/2011/10/hochwassererklaervideo/index.md:15](../../src/content/posts/2011/10/hochwassererklaervideo/index.md#L15) | `<div class="media movie"> </div>` |
-| [src/content/posts/2012/01/explosiv-2/index.md:13](../../src/content/posts/2012/01/explosiv-2/index.md#L13) | `<div class="media video"> </div>` |
-| [src/content/posts/2012/01/rangordnung/index.md:13](../../src/content/posts/2012/01/rangordnung/index.md#L13) | `<div class="media video"> </div>` |
-| [src/content/posts/2012/02/demnaechst-im-kino-mae-naak-3d/index.md:13](../../src/content/posts/2012/02/demnaechst-im-kino-mae-naak-3d/index.md#L13) | `<div class="media video"> </div>` |
-| [src/content/posts/2012/03/immigration-the-movie/index.md:15](../../src/content/posts/2012/03/immigration-the-movie/index.md#L15) | `<div class="media video"> </div>` |
-| [src/content/posts/2012/06/rauchende-kinder/index.md:13](../../src/content/posts/2012/06/rauchende-kinder/index.md#L13) | `<div class="media video"> </div>` |
-| [src/content/posts/2012/11/alle-jahre-wieder/index.md:21](../../src/content/posts/2012/11/alle-jahre-wieder/index.md#L21) | `<div class="media video"> </div>` |
-
-The map in `der-tag-der-neun-tempel` also retains links to `#map`, but the target is only an empty fixed-size box. The `flickrset-rainseason` article has no content beyond its empty wrapper. Video wrappers and Flickr wrappers must be researched or given explicit historical availability notes; no source URL or ID can be recovered from the empty HTML alone.
+The nine `zurück zur Map` links in [src/content/posts/2006/05/der-tag-der-neun-tempel/index.md:35](../../src/content/posts/2006/05/der-tag-der-neun-tempel/index.md#L35) still use `href="#map"`, but their target no longer exists. The remaining occurrences are on lines 49, 63, 77, 91, 105, 119, 133, and 147. These links require a separate editorial decision; no replacement map or destination has been invented.
 
 ## Broken raw HTML images
 

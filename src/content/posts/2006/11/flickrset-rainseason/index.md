@@ -11,5 +11,3 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr2 clearfix">
-</div>

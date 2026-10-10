@@ -10,8 +10,6 @@ publisher:
   seo: true
   covermigration: true
 ---
-<div class="media video">
-</div>
 
 Das Wetter war am Dienstag so Lübeck-like, dass ich meine Kamera in eine Plastiktüte gepackt habe, mich in meine Allwetter-Regenjacke und mal eben über die Straße an den Strand spaziert bin.
 

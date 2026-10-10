@@ -21,8 +21,4 @@ Der Tempel ist wenn ich den gebrochenen Erläuterungen des im Schrein schlafende
 
 Im Norden von Nathon befindet sich der Wat Sietavib, ein weiterer chinesisch buddhistischer Tempel.
 
-
-<div class="flickrbadge clearfix">
-</div>
-
 <!-- grammar-ignore KOMMA_ZWISCHEN_HAUPT_UND_NEBENSATZ_2 ist wenn -->

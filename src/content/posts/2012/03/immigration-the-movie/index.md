@@ -12,7 +12,5 @@ publisher:
   seo: true
   covermigration: true
 ---
-<div class="media video">
-</div>
 
 Ein kleiner dramatischer Überblick über des Farangs liebste Thai-Behörde. Der Soundtrack zum Film ist im örtlichen Handel erhältlich.

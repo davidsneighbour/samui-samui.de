@@ -10,8 +10,6 @@ publisher:
   seo: true
   covermigration: true
 ---
-<div class="media video">
-</div>
 
 Thais lieben Geistergeschichten und Mae Naak Phra Khanong ist eine der bekanntesten Geistergeschichte in Thailand.
 

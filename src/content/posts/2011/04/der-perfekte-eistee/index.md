@@ -12,7 +12,5 @@ publisher:
   seo: true
   covermigration: true
 ---
-<div class="media video">
-</div>
 
 Hier mal ein kleines Video zur Zubereitung des perfekten Eis-Tees.

@@ -12,8 +12,6 @@ publisher:
   seo: true
   covermigration: true
 ---
-<div class="flex-video">
-</div>
 
 So, hier mal ein Pandavideo (nicht aus Chiang Mai, die Internet-Nomaden werden das schon kennen), damit man sich ungefähr vorstellen kann, wie so ein Tag zwischen Panda-Mama und Panda-Baby aussieht. Bambus fressen, rumsitzen oder -liegen.
 

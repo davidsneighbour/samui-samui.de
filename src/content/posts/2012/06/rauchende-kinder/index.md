@@ -10,7 +10,5 @@ publisher:
   seo: true
   covermigration: true
 ---
-<div class="media video">
-</div>
 
 Sehr clever. Und anscheinend wirksam.

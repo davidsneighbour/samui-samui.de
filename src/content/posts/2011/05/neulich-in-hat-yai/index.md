@@ -10,8 +10,6 @@ publisher:
   seo: true
   covermigration: true
 ---
-<div class="media video">
-</div>
 
 (Salem "Till the world ends" --- nach ca. 40 Sekunden ist das Video "safe for work")
 

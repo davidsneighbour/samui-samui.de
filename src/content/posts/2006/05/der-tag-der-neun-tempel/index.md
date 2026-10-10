@@ -16,9 +16,6 @@ Neulich war Songkran, das buddhistische Neujahrsfest. Bis vor einigen Jahren war
 
 Eine der vielen Traditionen zu Songkran ist übrigens der Besuch von neun Tempeln, was wir dann auch gemacht haben. Man bringt den Mönchen verschiedene Dinge fürs tägliche Leben (das kann ein Eimer voller Lebensmittel sein oder auch nur ein bisschen Medizin) und tut damit Gutes (tham bon) fürs nächste Leben. </div>
 
-<div id="map" style="height:550px;width:508px;margin:5px 0;border:1px solid #000;">
-</div>
-
 <div class="text">
   <p>
     Unsere einzelnen Stationen:

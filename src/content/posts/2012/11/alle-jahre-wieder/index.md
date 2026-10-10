@@ -18,7 +18,5 @@ publisher:
   seo: true
   covermigration: true
 ---
-<div class="media video">
-</div>
 
 Aus aktuellem Anlass mal wieder ein altes Video: Alle Jahre (oder 6 Monate) wieder haben wir Situationen wie die oben im Video im Hause zu ertragen. Soosie geht dabei ziemlich forsch vor und erinnert den ball-losen Pokki an ebendieses Manko. Das geht die ganze Nacht und den ganzen Tag so. Sag ich nur mal, für den Fall, dass sie plötzlich verschwindet ;)

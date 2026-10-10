@@ -10,5 +10,3 @@ publisher:
   seo: true
   covermigration: true
 ---
-<div class="media movie">
-</div>

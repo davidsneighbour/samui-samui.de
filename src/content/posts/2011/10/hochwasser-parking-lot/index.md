@@ -12,7 +12,5 @@ publisher:
 ereignisse:
   - hochwasser-thailand-2011
 ---
-<div class="media movie">
-</div>
 
 In Bangkok darf man jetzt auf den Hochstraßen parken. Was manch einer mit "Post-Apocalyptic Highway Parking, Thailand" umschreiben mag. Siehe Video. Besser als die Karossen nach den Fluten aus dem Schlamm heben allemal …

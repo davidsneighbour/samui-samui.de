@@ -10,8 +10,6 @@ publisher:
   seo: true
   covermigration: true
 ---
-<div class="media video">
-</div>
 
 In Thailand ist, wie man im Video sehen kann, die Rangordnung sehr wichtig. Da kommt ein "ranghöherer" Offizier durch die Personenkontrolle im Subvarnabhumi Flughafen in Bangkok und schlägt dem jügeren und rangniedrigeren Kontrolleur mal so eben auf die Ohren um nicht kontrolliert zu werden.
 

@@ -12,7 +12,5 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-</div>
 
 Die andere Seite der Thai-Farang-Beziehungen.

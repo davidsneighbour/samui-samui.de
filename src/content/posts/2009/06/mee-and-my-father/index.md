@@ -12,8 +12,6 @@ publisher:
   covermigration: true
   flickr: true
 ---
-<div class="flickr">
-</div>
 
 Eine halbstündige Dokumentation über den Vater des Filmemachers, der im Alter von 60 Jahren eine 27 jährige Thailänderin heiratet. Lorne Kramer, sein Sohn, reist nach Thailand und versucht zu ergründen, wie genau diese Beziehung funktionieren soll.
 
