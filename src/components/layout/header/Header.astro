@@ -100,39 +100,56 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
       </svg>
     </a>
     <div class="masthead__tagline-wrap">
-      <div
+      <svg
         class="masthead__divider"
         aria-hidden="true"
+        focusable="false"
       >
+        <defs>
+          <path
+            id="masthead-ornament-path"
+            d="M48 10 H29 C23.5 10 23.5 3.5 17 3.5 C11.5 3.5 9.5 7.2 13 8.5 C14.8 9.2 16.1 7.8 14.7 7.1 M25 6.8 C22.7 4.5 19.4 4.8 18.4 6.9"
+            vector-effect="non-scaling-stroke"
+          />
+        </defs>
+        <line
+          x1="0"
+          y1="50%"
+          x2="100%"
+          y2="50%"
+        />
         <svg
-          width="0"
-          height="0"
-          style="position: absolute;"
+          class="masthead__divider-ornament"
+          width="100%"
+          height="100%"
+          viewBox="0 0 48 20"
+          preserveAspectRatio="xMinYMid meet"
         >
-          <defs>
-            <path
-              id="masthead-ornament-path"
-              d="M48 10 H29 C23.5 10 23.5 3.5 17 3.5 C11.5 3.5 9.5 7.2 13 8.5 C14.8 9.2 16.1 7.8 14.7 7.1 M25 6.8 C22.7 4.5 19.4 4.8 18.4 6.9"
-              vector-effect="non-scaling-stroke"
-            ></path>
-          </defs>
+          <rect
+            class="masthead__divider-clearance"
+            width="48"
+            height="20"
+          />
+          <use href="#masthead-ornament-path" />
         </svg>
         <svg
           class="masthead__divider-ornament"
+          width="100%"
+          height="100%"
           viewBox="0 0 48 20"
-          focusable="false"
+          preserveAspectRatio="xMaxYMid meet"
         >
-          <use href="#masthead-ornament-path"></use>
+          <rect
+            class="masthead__divider-clearance"
+            width="48"
+            height="20"
+          />
+          <use
+            href="#masthead-ornament-path"
+            transform="translate(48 0) scale(-1 1)"
+          />
         </svg>
-        <span class="masthead__divider-line"></span>
-        <svg
-          class="masthead__divider-ornament masthead__divider-ornament--right"
-          viewBox="0 0 48 20"
-          focusable="false"
-        >
-          <use href="#masthead-ornament-path"></use>
-        </svg>
-      </div>
+      </svg>
       <span class="masthead__tagline">{setup.siteDescription}</span>
       <a
         href="/iumas/"
@@ -398,46 +415,26 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
      as a shared <path>, referenced by both ornaments via <use> — the right
      side is the same drawing mirrored with scaleX(-1), not a second path. */
   .masthead__divider {
-    display: flex;
-    align-items: center;
+    --ornament-width: clamp(3rem, 14vw, 9rem);
+    display: block;
     width: 100%;
+    height: calc(var(--ornament-width) * 20 / 48);
     color: var(--color-primary);
-  }
-
-  /* Ornaments claim most of the divider's width (it is already capped to
-     the widest of the wordmark/tagline via the grid above), the center
-     line just fills whatever they leave — flex-basis 0 plus a heavier
-     grow factor is what makes the flourish, not the line, the dominant
-     shape. aspect-ratio keeps the artwork undistorted as it scales. */
-  .masthead__divider-ornament {
-    flex: 5 1 0%;
-    /* clamp() with a vw component (not a % of the flex container) so the
-       browser has a definite intrinsic size to fall back to — a percentage
-       max-width here is indefinite during grid's max-content measurement of
-       .masthead and made the SVG balloon to its 300px UA-default size. */
-    max-width: clamp(3rem, 14vw, 9rem);
-    height: auto;
-    aspect-ratio: 48 / 20;
     fill: none;
     stroke: currentColor;
-    /* The ornament scales well past its 48x20 viewBox, which would scale
-       stroke-width right along with it; vector-effect="non-scaling-stroke"
-       on the path (below) keeps the stroke a constant 1.5px so it stays
-       identical to .masthead__divider-line's thickness at every size. */
     stroke-width: 1.5;
     stroke-linecap: round;
     stroke-linejoin: round;
   }
 
-  .masthead__divider-ornament--right {
-    transform: scaleX(-1);
+  .masthead__divider-ornament {
+    overflow: visible;
   }
 
-  .masthead__divider-line {
-    flex: 1 1 0%;
-    min-width: 0.5rem;
-    height: 1.5px;
-    background-color: currentColor;
+  /* Hide the continuous line beneath the curls using the header surface. */
+  .masthead__divider-clearance {
+    fill: var(--color-background);
+    stroke: none;
   }
 
   .masthead__tagline {

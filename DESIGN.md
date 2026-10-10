@@ -606,6 +606,8 @@ The masthead uses the full documented OSM coastline at viewport widths of 768px 
 
 The visible island-to-wordmark gap is approximately 25.98 viewBox units with the documented OSM contour. The word positions and single continuous photo crop retain the approved composition. The 1200px maximum width limits enlargement of the source photograph.
 
+The decorative divider is one SVG containing a continuous horizontal line and two mirrored flourishes. All strokes use the same primary colour and 1.5px thickness. Nested ornament viewports retain the existing 48 × 20 proportions and clamp(3rem, 14vw, 9rem) width. Background-coloured rectangles hide the continuous line beneath the curls; the ornament strokes draw over them. This removes the CSS/SVG rendering boundary and keeps the line continuous through responsive desktop sizing. No JavaScript or external assets are required.
+
 The masthead has no outer top padding, and the divider/tagline wrapper has no top margin or top padding at any viewport width. The SVG canvas provides the vertical clear space around the artwork. Horizontal padding and the wrapper’s bottom padding remain unchanged, preserving the SVG canvas, island proportions, word positions, and photograph crop.
 
 The masthead viewBox starts at x = -43.23906 while retaining its 900 × 300 size. This balances the empty horizontal margins around the visible island-and-title block, aligning its centre with the decorative divider and tagline without resizing the artwork, changing the internal gaps, or moving the image relative to its clipping shapes.
