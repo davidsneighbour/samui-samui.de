@@ -50,6 +50,7 @@
 
 * [Ahrefs audit sample](features/ahrefs-audit-sample.md) documents the generated custom URL-list sample used for Ahrefs Site Audit crawls.
 * [Blog archive](features/archiv.md) documents the chronological archive, topic index, indexing choices, and archive data model.
+* [About the author](features/about-author.md) documents the unlinked author-page draft, its indexing controls, and the later editorial launch checklist.
 * [Contact form](features/contact-form.md) documents contact-form rendering, the `/api/contact` Worker endpoint, its secrets, and Turnstile disclaimer styling.
 * [IUMAS](features/iumas.md) documents the four-lane title/subtitle/logo/image history graph at `/iumas/` (formerly `/taglines/`).
 * [Interactive maps](features/maps.md) records the MapLibre/OpenFreeMap map stack and data contracts.
