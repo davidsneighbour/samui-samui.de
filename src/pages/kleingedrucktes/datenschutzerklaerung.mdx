@@ -43,9 +43,24 @@ Wir selbst setzen auf dieser Seite keine Cookies ein. Folgende Einstellungen und
 *   Ihre Einstellung für das helle/dunkle Farbschema
 *   die Ausblendung des Umbau-Hinweisbanners
 *   Ihre Einstellung für Klangeffekte (ein-/ausgeschaltet)
+*   der zwischengespeicherte EUR/THB-Referenzkurs (siehe Abschnitt „Währungsumrechnung“)
 *   der zwischengespeicherte Wetterstand für Koh Samui (siehe Abschnitt „Wetterdaten")
 
 Einzelne von uns eingebundene Drittanbieter-Dienste (z.B. Cloudflare Turnstile, giscus, YouTube, Vimeo) können im Rahmen ihrer jeweiligen Funktion eigene Cookies setzen oder — wie giscus nach einer Anmeldung — Daten im lokalen Speicher Ihres Browsers ablegen. Nähere Informationen hierzu finden Sie in den jeweiligen Abschnitten dieser Datenschutzerklärung.
+
+## Währungsumrechnung
+
+Auf Seiten mit ausdrücklich markierten Währungsbeträgen kann Ihr Browser den EUR/THB-Referenzkurs der Europäischen Zentralbank über den externen Dienst Frankfurter unter `api.frankfurter.dev` abrufen. Dabei wird Ihre IP-Adresse technisch an diesen Dienst übermittelt. Die Anfrage dient ausschließlich dazu, ungefähre Umrechnungen zwischen Baht und Euro anzuzeigen; sie enthält keine einzelnen Beträge, Besucherkennungen oder Informationen über Ihren Seitenverlauf. Wir übertragen dabei weder Cookies noch den Referrer dieser Seite. Weitere Informationen zum Dienst finden Sie unter [frankfurter.dev](https://frankfurter.dev/).
+
+Der Kurs wird im Local Storage Ihres Browsers gespeichert, um wiederholte externe Anfragen zu vermeiden:
+
+| Schlüssel | Zweck | Inhalt | Nutzungsdauer |
+| --- | --- | --- | --- |
+| `samui-samui:currency:eur-thb:v1` | Zwischenspeicherung des EUR/THB-Referenzkurses | Kurs, Kursdatum, Abrufzeitpunkt, Quelle und Schemaversion | 24 Stunden regulär, höchstens 7 Tage als Fehler-Fallback |
+
+Nach 24 Stunden versuchen wir, den Kurs zu erneuern. Schlägt dies fehl, verwenden wir einen vorhandenen Kurs höchstens sieben Tage ab dem Abrufzeitpunkt. Ältere Daten werden beim nächsten Zugriff verworfen; ohne erneuten Besuch kann der Eintrag bis zur Löschung des Browserspeichers auf Ihrem Gerät verbleiben. Gespeichert werden keine Besucherkennungen, einzelnen Umrechnungsbeträge, Seitenverläufe, Analysedaten oder Profildaten. Ohne verfügbaren Kurs bleibt der ursprüngliche Betrag sichtbar.
+
+Die mit „ca.“ gekennzeichneten Umrechnungen dienen der Orientierung. Tatsächliche Bank-, Karten-, Automaten-, Bargeld- oder Wechselstubenkurse können durch Gebühren und Kursaufschläge abweichen.
 
 ## Hosting, Auslieferung und Serverdaten
 

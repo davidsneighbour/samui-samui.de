@@ -834,3 +834,11 @@ p {
 .prose [id^="user-content-fn"] {
   scroll-margin-top: 2rem;
 }
+
+/* Supplementary currency hints reuse the shared tooltip surface. */
+dnb-currency[data-currency-ready] [data-tooltip-trigger] {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.2em;
+  cursor: help;
+}
