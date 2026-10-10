@@ -65,9 +65,7 @@ export default defineConfig({
       filter: (page) => {
         const pathname = new URL(page).pathname;
         return (
-          !pathname.startsWith('/seite/') &&
-          pathname !== '/ueber-mich/' &&
-          !noindexTaxonomyPaths.has(pathname)
+          !pathname.startsWith('/seite/') && !noindexTaxonomyPaths.has(pathname)
         );
       },
       namespaces: { image: false, news: false, video: false, xhtml: false },

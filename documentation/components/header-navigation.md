@@ -1,6 +1,6 @@
 # Header navigation
 
-`src/components/layout/header/Header.astro` renders the main navigation in a full-width wrapper immediately after the masthead header. The navigation includes the home, archive, and contact links, Pagefind search, and the theme control. Its accessible landmark name is `Hauptnavigation`.
+`src/components/layout/header/Header.astro` renders the main navigation in a full-width wrapper immediately after the masthead header. The navigation includes the home, archive, author (`Über Patrick`), and contact links, Pagefind search, and the theme control. Its accessible landmark name is `Hauptnavigation`. `HeaderLink.astro` normalises trailing slashes when comparing paths so canonical directory URLs receive the active underline and `aria-current="page"`.
 
 ## Scrolling behaviour
 

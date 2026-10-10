@@ -7,7 +7,13 @@ import ConstructionBanner from '@components/layout/header/ConstructionBanner.ast
 import HeaderLink from '@components/layout/header/HeaderLink.astro';
 import ThemeToggle from '@components/layout/header/ThemeToggle.astro';
 import setup from '@data/setup.json';
-import { AtSign, Birdhouse, CircleQuestionMark, Landmark } from '@lucide/astro';
+import {
+  AtSign,
+  Birdhouse,
+  CircleQuestionMark,
+  Landmark,
+  UserRound,
+} from '@lucide/astro';
 
 const answerContours = wordmark['samui!'].split(/(?=M)/);
 const answerLetters = answerContours.slice(0, -2).join('');
@@ -171,6 +177,16 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
           class="size-4 shrink-0"
         />
         <span>Archiv</span>
+      </HeaderLink>
+      <HeaderLink
+        href="/ueber-mich/"
+        class={navLinkClass}
+      >
+        <UserRound
+          aria-hidden="true"
+          class="size-4 shrink-0"
+        />
+        <span>Über Patrick</span>
       </HeaderLink>
       <HeaderLink
         href="/kontakt/"
