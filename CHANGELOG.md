@@ -1,5 +1,75 @@
 # Changelog
 
+## [3.2.0](https://github.com/davidsneighbour/samui-samui.de/compare/v3.1.0...v3.2.0) (2026-10-10)
+
+### Content
+
+* add about me page ([5ae4b59](https://github.com/davidsneighbour/samui-samui.de/commit/5ae4b5930aec5159119ca44826d1e9942b274b3a)), closes [#1682](https://github.com/davidsneighbour/samui-samui.de/issues/1682)
+* **events:** add sourced archive overviews ([529be47](https://github.com/davidsneighbour/samui-samui.de/commit/529be479dbe40ca5d337bca39ce0522a138ed07e)), closes [#1800](https://github.com/davidsneighbour/samui-samui.de/issues/1800)
+* **fix:** finish deferred German character repairs ([2f97990](https://github.com/davidsneighbour/samui-samui.de/commit/2f97990833c691d579ae46d442f4df7709223309)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774) [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780)
+* **fix:** replace remaining Textpattern tags ([2322fb5](https://github.com/davidsneighbour/samui-samui.de/commit/2322fb531a7ab49d1c8c9819ef4393567a1f88d7)), references [#1234](https://github.com/davidsneighbour/samui-samui.de/issues/1234)
+* **fix:** restore backed-up archive photo references ([6a916b5](https://github.com/davidsneighbour/samui-samui.de/commit/6a916b587650bee1694f0192911d283e6b1d7ab2)), closes [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780)
+* **fix:** restore damaged archive punctuation ([4e298e0](https://github.com/davidsneighbour/samui-samui.de/commit/4e298e0ccedae33446f430a1f28b5355aad06fe9)), references [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781)
+* **fix:** restore damaged names and Chinese greetings ([b94eacc](https://github.com/davidsneighbour/samui-samui.de/commit/b94eacc1d70c94356bb582cbeb21ce0ad64f4321)), references [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781)
+* **fix:** update author footer ([5f2e55d](https://github.com/davidsneighbour/samui-samui.de/commit/5f2e55d4720b63e590eb91babd859cbba287cfa4))
+* **fix:** update small print wording ([fef8f30](https://github.com/davidsneighbour/samui-samui.de/commit/fef8f30f828189d177821d60c35da376c4708a7c))
+* **iumas:** cite Git sources for subtitles ([cdbdc48](https://github.com/davidsneighbour/samui-samui.de/commit/cdbdc482f94727f7d8ce2db6e03160ccd084ce43)), closes [#1816](https://github.com/davidsneighbour/samui-samui.de/issues/1816)
+* **site:** record the new tagline in IUMAS ([85391f1](https://github.com/davidsneighbour/samui-samui.de/commit/85391f1d4aaf2c48ecfb057ef3a8ccc58677ecb3)), closes [#1815](https://github.com/davidsneighbour/samui-samui.de/issues/1815)
+
+### Feat
+
+* **about:** create an unlinked author page draft ([700299e](https://github.com/davidsneighbour/samui-samui.de/commit/700299ebea82a7c3ef4aa3b7850c3bf7ea63869e)), references [#1682](https://github.com/davidsneighbour/samui-samui.de/issues/1682)
+* **about:** float the portrait on large screens ([8e37b55](https://github.com/davidsneighbour/samui-samui.de/commit/8e37b55028919ab28a99817584c59e3ed854a990)), references [#1682](https://github.com/davidsneighbour/samui-samui.de/issues/1682)
+* **about:** launch the author page in navigation ([e248ac6](https://github.com/davidsneighbour/samui-samui.de/commit/e248ac6cd27a220d20cf27855322dd0a9f48fa23)), references [#1682](https://github.com/davidsneighbour/samui-samui.de/issues/1682)
+* **content:** add a dismissible Kleingedrucktes introduction ([2914066](https://github.com/davidsneighbour/samui-samui.de/commit/2914066927184dbb9fc8e9bfafd5bbcfd5a8c39f)), closes [#1821](https://github.com/davidsneighbour/samui-samui.de/issues/1821)
+* **currency:** add shared reference-rate hints ([fd8fc75](https://github.com/davidsneighbour/samui-samui.de/commit/fd8fc756952cf3cb8fe7a0030bb5e9d73822870a)), references [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781)
+* **currency:** preserve historical exchange-rate context ([f6989ac](https://github.com/davidsneighbour/samui-samui.de/commit/f6989acadd4b8e4257391834f6463284af4568e6)), closes [#1809](https://github.com/davidsneighbour/samui-samui.de/issues/1809) [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781)
+* **events:** add a chronological archive timeline ([3ac9b5b](https://github.com/davidsneighbour/samui-samui.de/commit/3ac9b5be3f3938bdfa8d297fc2e61a6fdcaa71bf)), closes [#1801](https://github.com/davidsneighbour/samui-samui.de/issues/1801)
+* **masthead:** fade the question mark into the hover exclamation ([2dc776b](https://github.com/davidsneighbour/samui-samui.de/commit/2dc776b7aeab91ad04881a8ed3518fe8b5f7499c)), closes [#1818](https://github.com/davidsneighbour/samui-samui.de/issues/1818)
+* **masthead:** prototype a full-height hover exclamation ([c5adeb7](https://github.com/davidsneighbour/samui-samui.de/commit/c5adeb7520b9af654422cc1b912d9c15ab953935)), closes [#1817](https://github.com/davidsneighbour/samui-samui.de/issues/1817)
+* **navigation:** animate the shared hover underline ([6251183](https://github.com/davidsneighbour/samui-samui.de/commit/625118308741a223484c366d0ce575823155f6a2)), closes [#1814](https://github.com/davidsneighbour/samui-samui.de/issues/1814)
+* **posts:** add context to related links ([24eeea5](https://github.com/davidsneighbour/samui-samui.de/commit/24eeea50ba1f363f72f3c2201005d62641e21726)), references [#1684](https://github.com/davidsneighbour/samui-samui.de/issues/1684)
+* **posts:** add taxonomy-based related links ([9be2e26](https://github.com/davidsneighbour/samui-samui.de/commit/9be2e269557da5cbeb0d85340539d5c4ed0f001e)), closes [#1684](https://github.com/davidsneighbour/samui-samui.de/issues/1684)
+* **posts:** show estimated reading time ([86f63ad](https://github.com/davidsneighbour/samui-samui.de/commit/86f63adbfff279e9df33f8debdf250b893718c8a)), references [#1687](https://github.com/davidsneighbour/samui-samui.de/issues/1687)
+
+### Fix
+
+* change icon for about me section ([a8376d5](https://github.com/davidsneighbour/samui-samui.de/commit/a8376d5bb1a90b7568bf1e25a3721bd938e2c8a8))
+* **content:** finish legacy markup cleanup and retire audit ([2bca31a](https://github.com/davidsneighbour/samui-samui.de/commit/2bca31aa841dfae2d3e97d921f25548927c1880f)), closes [#1804](https://github.com/davidsneighbour/samui-samui.de/issues/1804) [#1793](https://github.com/davidsneighbour/samui-samui.de/issues/1793) [#1234](https://github.com/davidsneighbour/samui-samui.de/issues/1234) [#1805](https://github.com/davidsneighbour/samui-samui.de/issues/1805)
+* **content:** link directly to Giscus privacy details ([4370ece](https://github.com/davidsneighbour/samui-samui.de/commit/4370ece9d79b327f50a62f9ce548743d1db41a96)), closes [#1820](https://github.com/davidsneighbour/samui-samui.de/issues/1820)
+* **content:** present temple stops as a Markdown list ([ed226b4](https://github.com/davidsneighbour/samui-samui.de/commit/ed226b42926da12d4a66e7231e4bfb844e5c3957)), references [#1804](https://github.com/davidsneighbour/samui-samui.de/issues/1804)
+* **content:** remove empty legacy embed containers ([6a9f624](https://github.com/davidsneighbour/samui-samui.de/commit/6a9f624cfdcfa0db16e0757707ab13133005d132)), references [#1804](https://github.com/davidsneighbour/samui-samui.de/issues/1804)
+* **content:** render editorial angle brackets literally ([d31bdf4](https://github.com/davidsneighbour/samui-samui.de/commit/d31bdf4b372e574d2d817df5178e4aa1aa145217)), references [#1804](https://github.com/davidsneighbour/samui-samui.de/issues/1804)
+* **content:** resolve remaining legacy media audit entries ([822b97c](https://github.com/davidsneighbour/samui-samui.de/commit/822b97c175e169f802dc21185cc76fb68d2b53a6)), references [#1804](https://github.com/davidsneighbour/samui-samui.de/issues/1804) [#1805](https://github.com/davidsneighbour/samui-samui.de/issues/1805)
+* **content:** restore legacy images from archived originals ([0caefb3](https://github.com/davidsneighbour/samui-samui.de/commit/0caefb3846a0886ef56639cf46f3964249280b09)), references [#1804](https://github.com/davidsneighbour/samui-samui.de/issues/1804) [#1793](https://github.com/davidsneighbour/samui-samui.de/issues/1793)
+* **currency:** preserve ignored text boundaries ([828f4a8](https://github.com/davidsneighbour/samui-samui.de/commit/828f4a85625143cd676f0547a9e76cab45838c1c)), closes [#1822](https://github.com/davidsneighbour/samui-samui.de/issues/1822)
+* **currency:** retain the normal text cursor ([18e19dd](https://github.com/davidsneighbour/samui-samui.de/commit/18e19dd772e398b1b269539cd51d3cb26bae2c46)), references [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781)
+* **currency:** show the reference-rate date ([ab6c441](https://github.com/davidsneighbour/samui-samui.de/commit/ab6c4416e9e181be8bdd1e58a6618257332c5857)), references [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781)
+* **events:** keep breadcrumbs inside the overview card ([959e2d5](https://github.com/davidsneighbour/samui-samui.de/commit/959e2d5cd6f6829c06c1cbe067e4dbe5275db8d5)), closes [#1803](https://github.com/davidsneighbour/samui-samui.de/issues/1803)
+* **events:** place archive navigation inside the card ([ae7c667](https://github.com/davidsneighbour/samui-samui.de/commit/ae7c667df963fb8029276a9c083855b665bbeda7)), closes [#1802](https://github.com/davidsneighbour/samui-samui.de/issues/1802)
+* **header:** reduce outer masthead spacing ([75a707d](https://github.com/davidsneighbour/samui-samui.de/commit/75a707d55659cc39a522f4a243a220dcb6dc6266)), closes [#1811](https://github.com/davidsneighbour/samui-samui.de/issues/1811)
+* **header:** remove outer vertical gaps ([4be90f0](https://github.com/davidsneighbour/samui-samui.de/commit/4be90f041f35d76b76189f00384c81018b1144f5)), closes [#1812](https://github.com/davidsneighbour/samui-samui.de/issues/1812)
+* **header:** render divider entirely in SVG ([d22d818](https://github.com/davidsneighbour/samui-samui.de/commit/d22d818481a2cd54cea3f181271737934fd0cf99)), closes [#1813](https://github.com/davidsneighbour/samui-samui.de/issues/1813)
+* **masthead:** match hover punctuation to the letter gap ([3885e8a](https://github.com/davidsneighbour/samui-samui.de/commit/3885e8a0feebe930962cdee0fdcb865687118515)), closes [#1819](https://github.com/davidsneighbour/samui-samui.de/issues/1819)
+* **media:** replace direct SoundCloud playback with click-to-connect YouTube ([c4b1014](https://github.com/davidsneighbour/samui-samui.de/commit/c4b1014a1ff2a201eb3b57d32370a7587c7ec999)), closes [#1805](https://github.com/davidsneighbour/samui-samui.de/issues/1805)
+* **taxonomies:** use supported ISO date schema ([9a37dcb](https://github.com/davidsneighbour/samui-samui.de/commit/9a37dcbd794dab040c54bebe1c7a892557887b80)), closes [#1810](https://github.com/davidsneighbour/samui-samui.de/issues/1810)
+* **tooltips:** prefer space above content hints ([258e39d](https://github.com/davidsneighbour/samui-samui.de/commit/258e39db8ba6ff583c19e80baf9614107c115762)), references [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781)
+
+### Refactor
+
+* **about:** move biography prose to MDX ([e066c0b](https://github.com/davidsneighbour/samui-samui.de/commit/e066c0bad7147a5a8aacdaf49bcec44ce2c008d4)), references [#1682](https://github.com/davidsneighbour/samui-samui.de/issues/1682)
+
+### Docs
+
+* **content:** inventory broken legacy archive markup ([d8603d0](https://github.com/davidsneighbour/samui-samui.de/commit/d8603d0d040c41d9bd2725247af34f68e3feb4ee)), references [#1804](https://github.com/davidsneighbour/samui-samui.de/issues/1804)
+* **content:** inventory remaining archive media recovery work ([bc1c8bf](https://github.com/davidsneighbour/samui-samui.de/commit/bc1c8bfc44a5ed9c4cdb24293e58355ab3cf6ae3)), references [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780)
+* **content:** link audit entries to source lines ([3b17496](https://github.com/davidsneighbour/samui-samui.de/commit/3b1749676e8b0db2cd2f8fe15fca57e9adf9fbbd)), references [#1804](https://github.com/davidsneighbour/samui-samui.de/issues/1804)
+* **content:** remove resolved shortcode audit entries ([d831fe1](https://github.com/davidsneighbour/samui-samui.de/commit/d831fe19eaf09d9abd02b0934c373ff1e615a6e3)), references [#1804](https://github.com/davidsneighbour/samui-samui.de/issues/1804)
+* **content:** track remaining archive recovery in focused issues ([860eeb7](https://github.com/davidsneighbour/samui-samui.de/commit/860eeb73eac5ce0b881508bbeac9e8b70ab0db50)), closes [#1780](https://github.com/davidsneighbour/samui-samui.de/issues/1780) [#1806](https://github.com/davidsneighbour/samui-samui.de/issues/1806) [#1807](https://github.com/davidsneighbour/samui-samui.de/issues/1807) [#1808](https://github.com/davidsneighbour/samui-samui.de/issues/1808)
+* **hosting:** explain htaccess behind Cloudflare ([7ab6fd0](https://github.com/davidsneighbour/samui-samui.de/commit/7ab6fd08f1bd5189f30cef987d36fa0be87013fa)), references [#1783](https://github.com/davidsneighbour/samui-samui.de/issues/1783)
+* **maps:** retire the completed static map plan ([540fa9d](https://github.com/davidsneighbour/samui-samui.de/commit/540fa9d5613cecbfadb2a8b9a4c28c26d02a8a40)), references [#1797](https://github.com/davidsneighbour/samui-samui.de/issues/1797)
+* **node:** require Node 26 as project policy ([0a5d7e2](https://github.com/davidsneighbour/samui-samui.de/commit/0a5d7e248830c7c3006c388b1264711a54a2fce2)), closes [#1741](https://github.com/davidsneighbour/samui-samui.de/issues/1741)
+
 ## [3.1.0](https://github.com/davidsneighbour/samui-samui.de/compare/v3.0.0...v3.1.0) (2026-10-09)
 
 ### Feat
