@@ -606,6 +606,8 @@ The masthead uses the full documented OSM coastline at viewport widths of 768px 
 
 The visible island-to-wordmark gap is approximately 25.98 viewBox units with the documented OSM contour. The word positions and single continuous photo crop retain the approved composition. The 1200px maximum width limits enlargement of the source photograph.
 
+The masthead uses 12px top padding and an 8px gap between the artwork canvas and the divider/tagline wrapper at every viewport width. This reduces the outer vertical space while preserving the SVG canvas, island proportions, word positions, and photograph crop.
+
 The masthead viewBox starts at x = -43.23906 while retaining its 900 × 300 size. This balances the empty horizontal margins around the visible island-and-title block, aligning its centre with the decorative divider and tagline without resizing the artwork, changing the internal gaps, or moving the image relative to its clipping shapes.
 
 ## Static editorial maps
