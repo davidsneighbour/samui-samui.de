@@ -97,12 +97,12 @@ Event entries live in `src/content/ereignisse/**/_index.md`.
 | ----------- | ----------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
 | `aliases` | Array of strings, default `[]`. | Alternative names or spellings. | [Content taxonomies](taxonomies.md) |
 | `draft` | Boolean, default `false`. | Draft-state marker for event entries. | [Content schema](content-schema.md), [Content taxonomies](taxonomies.md) |
-| `endDate` | Optional date. | Event end date; must not be before `startDate`. | [Content taxonomies](taxonomies.md) |
+| `endDate` | Optional `YYYY-MM-DD` string. | Valid calendar end date without time or timezone; must not be before `startDate`. | [Content taxonomies](taxonomies.md) |
 | `noindex` | Boolean, default `false`. | Search-engine indexing override for event pages. | [Content schema](content-schema.md) |
 | `orte` | Array of place references, default `[]`. | Registered places associated with the event. | [Content taxonomies](taxonomies.md) |
 | `personen` | Array of people references, default `[]`. | Registered people associated with the event. | [Content taxonomies](taxonomies.md) |
 | `recurring` | Boolean, default `false`. | Marks recurring events. | [Content taxonomies](taxonomies.md) |
-| `startDate` | Optional date. | Event start date. | [Content taxonomies](taxonomies.md) |
+| `startDate` | Optional `YYYY-MM-DD` string. | Valid calendar start date without time or timezone; determines the archive year and chronological order. | [Content taxonomies](taxonomies.md) |
 | `type` | Optional enum. | Event type such as `wahl`, `militaerputsch`, `festival`, or `sonstiges`. | [Content taxonomies](taxonomies.md) |
 
 ## Topics

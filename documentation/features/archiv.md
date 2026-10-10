@@ -62,6 +62,10 @@ There is no `draft`/`publish` boolean in the `posts` schema. Draft state is hand
 
 **Gap years:** `/archiv/` lists every year in the continuous range from the oldest to the newest post, not just years that have posts — a year with zero posts (e.g. 2023) still appears in the UI, shown unlinked (muted year number, "Keine Beiträge", twelve hollow activity dots, no month disclosure), so the archive reads as an unbroken timeline. It never gets a `/archiv/[year]/` route — there's nothing to build a page for.
 
+## Event timeline
+
+`/archiv/ereignisse/` groups non-draft events by their date-only `startDate` year, newest first, on a static single-rail timeline adapted from IUMAS. Each year appears once, with links and available descriptions beneath it. Events within a year are ordered by descending start date, then German title order and ID. Undated events appear last under "Ohne Datum"; unlike the chronological post archive, this timeline does not fill gaps with empty years. See [Content taxonomies](../content/taxonomies.md) for the date contract and manual post references. Event detail pages show their title, description, and sourced overview together in one card, followed by the related posts.
+
 ## Indexing strategy
 
 Indexable (included in the sitemap, get canonical + meta description):

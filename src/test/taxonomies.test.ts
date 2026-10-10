@@ -257,6 +257,21 @@ describe('taxonomies', () => {
     );
   });
 
+  it.each(['startDate', 'endDate'])(
+    'reports invalid calendar dates in %s',
+    (field) => {
+      const root = makeFixture();
+      writeFixture(
+        root,
+        'src/content/ereignisse/test/_index.md',
+        `---\ntitle: Test\n${field}: 2023-02-29\n---\n`,
+      );
+      expect(validateTaxonomyIntegrity(root)).toEqual(
+        expect.arrayContaining([expect.objectContaining({ field })]),
+      );
+    },
+  );
+
   it('allows a free-form topic without a collection entry', () => {
     const groups = groupPostsByThema([post({ themen: ['politik'] })], []);
 

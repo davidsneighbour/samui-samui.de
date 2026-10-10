@@ -2,6 +2,7 @@ import { defineCollection, reference } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 import { staticMapsSchema } from './utils/static-maps/schema';
+import { eventDateSchema } from './utils/taxonomies/event-dates';
 
 function taxonomyEntryId(entry: string): string {
   return entry
@@ -205,20 +206,16 @@ const ereignisse = defineCollection({
     .extend({
       aliases: z.array(z.string()).default([]),
       draft: z.boolean().default(false),
-      endDate: z.coerce.date().optional(),
+      endDate: eventDateSchema.optional(),
       noindex: z.boolean().default(false),
       orte: z.array(reference('orte')).default([]),
       personen: z.array(reference('personen')).default([]),
       recurring: z.boolean().default(false),
-      startDate: z.coerce.date().optional(),
+      startDate: eventDateSchema.optional(),
       type: ereignisType.optional(),
     })
     .superRefine((data, context) => {
-      if (
-        data.startDate &&
-        data.endDate &&
-        data.endDate.valueOf() < data.startDate.valueOf()
-      ) {
+      if (data.startDate && data.endDate && data.endDate < data.startDate) {
         context.addIssue({
           code: 'custom',
           message:

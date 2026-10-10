@@ -443,6 +443,12 @@ Every keyboard focus uses one two-tone indicator: a 2px `ring-contrast` cream ba
 
 ## Components
 
+### Event archive and overview
+
+Event detail pages put the title, description, and sourced Markdown overview inside the standard cream card, using `card-foreground` for the introduction and the existing 65ch reading measure for both header and prose. The title uses the existing 24px `heading-lg` size; title-to-description spacing is 16px, and the optional overview follows after 32px. Breadcrumbs and archive navigation remain above the card, with related post cards below.
+
+The event archive uses a static, single-rail version of the IUMAS timeline pattern. The continuous decorative rail is 2px wide at an 8px inline offset and uses `link` at 40% opacity. Each year group has a 16px circular `link` marker with a 2px `card` border, 32px of inline space for its content, and 32px between groups. Year headings use 24px `heading-lg` with 16px below. Event links use 18px `heading-sm`, weight 700, and the permanent underline and hover treatment of body links; descriptions use the existing 14px `body-sm` size and `muted-foreground`. Events within a year have 16px between them. Native ordered and unordered lists carry the structure; the rail and markers are hidden from assistive technology. The same layout applies at mobile widths and introduces no animation or new colour tokens.
+
 ### Post footnotes
 
 Generated Markdown footnotes use a separate "Fußnoten" section with 32px of space above it. The regular-weight, 16px heading has a decorative 32px by 1px line on its left in the `link` colour, separated by an 8px gap, and 16px of space below. Footnote copy uses the existing 14px navigation size at a 1.5 line height, with `muted-foreground` text, `link` links, and numbered list markers. Return links use the installed Lucide `corner-left-up` SVG at 16px in a 24px inline target, with a German accessible label. They reuse the button's ghost treatment: no resting fill or border, an `accent` hover/focus fill with `accent-foreground` text, the small 8px radius, 150ms colour/background/transform transitions, and a 0.97 active scale. The global reduced-motion rule disables prolonged transitions. Reference and return links use the two-tone focus indicator. This pattern uses the existing card surface, colour tokens, and spacing scale, without a new panel or shadow.

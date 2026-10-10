@@ -3,14 +3,11 @@ import { getCollection } from 'astro:content';
 import ArchiveNav from '@components/layout/navigation/ArchiveNav.astro';
 import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import PageLayout from '@layouts/PageLayout.astro';
-import {
-  isPublicEntity,
-  sortEntitiesByTitle,
-} from '@utils/taxonomies/entities';
+import { isPublicEntity } from '@utils/taxonomies/entities';
+import { groupEventsByYear } from '@utils/taxonomies/event-dates';
 
-const events = sortEntitiesByTitle(
-  (await getCollection('ereignisse')).filter(isPublicEntity),
-);
+const events = (await getCollection('ereignisse')).filter(isPublicEntity);
+const timeline = groupEventsByYear(events);
 ---
 
 <PageLayout
@@ -30,18 +27,42 @@ const events = sortEntitiesByTitle(
     class="mb-8"
   />
   {events.length > 0 ? (
-    <ul class="columns-1 gap-8 sm:columns-2">
-      {events.map((event) => (
-        <li class="mb-2 break-inside-avoid">
-          <a
-            href={`/archiv/ereignisse/${event.id}/`}
-            class="text-link hover:underline"
-          >
-            {event.data.title}
-          </a>
-        </li>
-      ))}
-    </ul>
+    <div class="relative">
+      <div
+        class="absolute inset-y-0 start-2 w-0.5 bg-link/40"
+        aria-hidden="true"
+      />
+      <ol class="space-y-8">
+        {timeline.map((group) => (
+          <li class="relative ps-8">
+            <span
+              class="absolute start-0 top-2 size-4 rounded-full border-2 border-card bg-link"
+              aria-hidden="true"
+            />
+            <h2 class="mb-4 text-2xl text-card-foreground">
+              {group.year ?? 'Ohne Datum'}
+            </h2>
+            <ul class="space-y-4">
+              {group.events.map((event) => (
+                <li>
+                  <a
+                    href={`/archiv/ereignisse/${event.id}/`}
+                    class="text-lg font-bold text-link underline decoration-link/40 decoration-1 underline-offset-2 transition-colors duration-150 hover:decoration-link"
+                  >
+                    {event.data.title}
+                  </a>
+                  {event.data.description && (
+                    <p class="mt-1 text-sm text-muted-foreground">
+                      {event.data.description}
+                    </p>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ol>
+    </div>
   ) : (
     <p class="text-muted-foreground">
       Ereignisse werden während der redaktionellen Durchsicht ergänzt.

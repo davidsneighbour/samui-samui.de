@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { globSync } from 'glob';
+import { eventDateSchema } from './event-dates.ts';
 import { readYamlFrontmatter } from './frontmatter.ts';
 import { taxonomyEntryId } from './ids.ts';
 
@@ -11,6 +12,7 @@ export type ValidationField =
   | 'feiertage'
   | 'parent'
   | 'aliases'
+  | 'startDate'
   | 'endDate';
 
 export interface TaxonomyValidationIssue {
@@ -112,13 +114,6 @@ function validateReferenceList(options: {
   }
 }
 
-function parseDate(value: unknown): Date | undefined {
-  if (value instanceof Date) return value;
-  if (typeof value !== 'string' && typeof value !== 'number') return undefined;
-  const date = new Date(value);
-  return Number.isNaN(date.valueOf()) ? undefined : date;
-}
-
 function validateAliasConflicts(
   issues: TaxonomyValidationIssue[],
   collection: keyof LoadedCollections,
@@ -206,9 +201,21 @@ export function validateTaxonomyIntegrity(
       references: referenceList(event.data, 'personen'),
     });
 
-    const startDate = parseDate(event.data['startDate']);
-    const endDate = parseDate(event.data['endDate']);
-    if (startDate && endDate && endDate.valueOf() < startDate.valueOf()) {
+    for (const field of ['startDate', 'endDate'] as const) {
+      const value = event.data[field];
+      if (value !== undefined && !eventDateSchema.safeParse(value).success) {
+        issues.push({
+          field,
+          file: event.file,
+          message:
+            'Ein gültiges Kalenderdatum im Format YYYY-MM-DD ist erforderlich.',
+          reference: String(value),
+        });
+      }
+    }
+    const startDate = eventDateSchema.safeParse(event.data['startDate']);
+    const endDate = eventDateSchema.safeParse(event.data['endDate']);
+    if (startDate.success && endDate.success && endDate.data < startDate.data) {
       issues.push({
         field: 'endDate',
         file: event.file,

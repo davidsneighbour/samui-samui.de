@@ -69,21 +69,23 @@ const { Content } = await render(event);
           current="ereignisse"
           class="mx-auto mb-6 max-w-4xl px-4"
         />
-        <h1 class="mx-auto mb-4 max-w-4xl px-4 text-2xl text-foreground">
-          {event.data.title}
-        </h1>
-        <p class="mx-auto mb-8 max-w-4xl px-4 text-muted-foreground">
-          {description}
-        </p>
-        {event.body?.trim() && (
-          <div class="mx-auto mb-8 max-w-4xl px-4">
-            <div class="rounded-(--radius) border border-border bg-card px-4 py-8 text-card-foreground sm:px-8 dark:border-transparent">
-              <div class:list={[proseClasses, 'prose-reading']}>
+        <div class="mx-auto mb-8 max-w-4xl px-4">
+          <article
+            class="rounded-(--radius) border border-border bg-card px-4 py-8 text-card-foreground sm:px-8 dark:border-transparent"
+          >
+            <header class="mx-auto max-w-(--reading-measure)">
+              <h1 class="mb-4 text-2xl text-card-foreground">
+                {event.data.title}
+              </h1>
+              <p class="text-card-foreground">{description}</p>
+            </header>
+            {event.body?.trim() && (
+              <div class:list={[proseClasses, 'prose-reading', 'mt-8']}>
                 <Content />
               </div>
-            </div>
-          </div>
-        )}
+            )}
+          </article>
+        </div>
         <BlogList
           posts={posts}
           pageNumber={1}

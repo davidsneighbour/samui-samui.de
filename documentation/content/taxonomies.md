@@ -99,7 +99,7 @@ Fuller event entry:
 title: Military coup in Thailand 2006
 description: Military coup against the government of Thaksin Shinawatra.
 type: militaerputsch
-startDate: 2006-09-19
+startDate: "2006-09-19"
 orte:
   - thailand
   - bangkok
@@ -164,7 +164,11 @@ Events are reusable named entities. They are useful when multiple posts can refe
 
 The event folder ID is also the public URL slug: `militaerputsch-2006` becomes `/archiv/ereignisse/militaerputsch-2006/`. Keep year-qualified IDs for distinct historical occurrences, including coups, protests, floods, and bombings. The year distinguishes events and does not need to be repeated in the visible title when the title is already unambiguous. Renaming an established ID changes its URL and requires updating post references and preserving the old URL with a redirect.
 
-Event pages render the entry's description, its optional Markdown overview with source citations, and the posts that explicitly reference its ID. The overview uses the shared card and prose styles. Entries without a Markdown body keep the description and post list without an empty overview card. Historical event dates belong in `startDate` and `endDate`; they are separate from post publication dates. Use checked sources for the overview rather than copying provisional reporting or incorrect dates from old posts.
+Event detail pages place the title, description, and optional Markdown overview with source citations inside one card. The header and overview share the prose reading measure. Entries without a Markdown body still show the title and description in that card. Posts that explicitly reference the event ID follow below it. Use checked sources for the overview rather than copying provisional reporting or incorrect dates from old posts.
+
+`startDate` and `endDate` are optional calendar-date strings in exactly `YYYY-MM-DD` format, without a time or timezone. Quote both values in YAML (for example, `startDate: "2006-09-19"`) so Astro's YAML parser keeps them as strings rather than converting them into `Date` objects. Both fields reject timestamps, incomplete or unpadded dates, and impossible calendar dates. `endDate` must not precede `startDate`. Astro's generated editor schema uses `format: date`, so the editor does not require RFC3339 datetimes. These event dates are separate from the publication and update timestamps used by posts.
+
+The event archive groups public entries by the year of `startDate`, newest year first, with one continuous decorative timeline rail and one year marker per group. Events within each year appear newest date first; matching dates use German title order, then the canonical ID for a stable tie-break. Entries without `startDate` appear in a final "Ohne Datum" group, sorted by title. The archive does not infer dates from slugs, titles, `endDate`, or post publication dates. The list remains static and uses native event links, with descriptions when supplied.
 
 The initial curated set covers the 2006 and 2014 coups, the 2008 Bangkok airport occupations, the 2009 unrest, the 2010 Red Shirt protests, Bhumibol's death in 2016, Vajiralongkorn's coronation in 2019, the major floods beginning in July 2011, and the 2015 Koh Samui bombing. Initial post references are deliberately limited to the reviewed posts. Further references are added manually during archive review. The March–April 2011 floods in southern Thailand are distinct from the later national flood event; death, succession, and coronation are also distinct events.
 
