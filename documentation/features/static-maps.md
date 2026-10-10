@@ -1,6 +1,6 @@
 # Static article maps
 
-Static maps are generated editorial illustrations from local OpenStreetMap-derived geography. The browser receives an ordinary Astro-optimised bundled image, with German HTML attribution. No mapping library, tile request, geocoding service, or map-provider connection is used when viewing these maps. Normal builds do not regenerate images, load geographic data, or require the renderer's fonts. This implementation follows `scratch/static-map.plan.md`, tracked in [#1797](https://github.com/davidsneighbour/samui-samui.de/issues/1797).
+Static maps are generated editorial illustrations from local OpenStreetMap-derived geography. The browser receives an ordinary Astro-optimised bundled image, with German HTML attribution. No mapping library, tile request, geocoding service, or map-provider connection is used when viewing these maps. Normal builds do not regenerate images, load geographic data, or require the renderer's fonts. The implementation is tracked in [#1797](https://github.com/davidsneighbour/samui-samui.de/issues/1797).
 
 ## Add and place a map
 
