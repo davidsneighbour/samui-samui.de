@@ -113,6 +113,28 @@ describe('historical contract', () => {
     expect(hasCurrencyComponent('`<Currency amount={25} />`')).toBe(false);
     expect(hasCurrencyComponent('100 ฿')).toBe(false);
   });
+  it('does not assemble markup across ignored regions', () => {
+    for (const ignored of [
+      '<!-- example -->',
+      '`example`',
+      '\n```html\nexample\n```\n',
+    ]) {
+      expect(
+        hasCurrencyComponent(`<dnb-${ignored}currency amount="100">`),
+      ).toBe(false);
+      expect(hasCurrencyComponent(`<Curr${ignored}ency amount={100} />`)).toBe(
+        false,
+      );
+    }
+    expect(
+      hasCurrencyComponent(
+        '<!<!-- example -->-- <dnb-currency amount="100"> -->',
+      ),
+    ).toBe(true);
+    expect(
+      hasCurrencyComponent('<!-- example -->\n<Currency amount={100} />'),
+    ).toBe(true);
+  });
 });
 
 describe('historical lookup', () => {

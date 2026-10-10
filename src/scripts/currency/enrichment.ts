@@ -10,10 +10,12 @@ import { calendarDate } from '../../utils/currency/historical-schema.ts';
 import { RATE_URL } from '../../utils/currency/rate.ts';
 
 export function hasCurrencyComponent(body: string): boolean {
+  // Keep ignored regions as whitespace so their neighbours cannot form markup.
+  const mask = (text: string): string => text.replace(/[^\r\n]/g, ' ');
   const prose = body
-    .replace(/<!--[\s\S]*?-->/g, '')
-    .replace(/^(```|~~~)[\s\S]*?^\1[^\n]*$/gm, '')
-    .replace(/`[^`\n]*`/g, '');
+    .replace(/<!--[\s\S]*?-->/g, mask)
+    .replace(/^(```|~~~)[\s\S]*?^\1[^\n]*$/gm, mask)
+    .replace(/`[^`\n]*`/g, mask);
   return (
     /<dnb-currency\b[^>]*\bamount\s*=/i.test(prose) ||
     /<Currency\b[^>]*\bamount\s*=/m.test(prose)
