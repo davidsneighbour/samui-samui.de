@@ -840,5 +840,4 @@ dnb-currency[data-currency-ready] [data-tooltip-trigger] {
   text-decoration-line: underline;
   text-decoration-style: dotted;
   text-underline-offset: 0.2em;
-  cursor: help;
 }

@@ -616,7 +616,7 @@ At the source image size, coastlines use a 1px stroke, routes a 3px stroke, and 
 
 ## Currency hints
 
-Explicit currency amounts retain their surrounding prose colour and typography. Once a usable reference rate is available, their shared tooltip trigger gains a dotted underline with a 0.2em underline offset and a help cursor. This inline hint uses the existing tooltip surface and focus ring, with no new colour, spacing, radius, or font token. Before enhancement, the amount is plain readable text. Currency tooltip content has two lines at the existing shared tooltip typography: the approximate converted amount, followed by `EZB-Referenzkurs vom …` with the actual API/cache reference date. Use the reference date rather than an assumed "today" or the fetch date, including stale-cache fallback.
+Explicit currency amounts retain their surrounding prose colour and typography. Once a usable reference rate is available, their shared tooltip trigger gains a dotted underline with a 0.2em underline offset, retaining the normal browser cursor. This inline hint uses the existing tooltip surface and focus ring, with no new colour, spacing, radius, or font token. Before enhancement, the amount is plain readable text. Currency tooltip content has two lines at the existing shared tooltip typography: the approximate converted amount, followed by `EZB-Referenzkurs vom …` with the actual API/cache reference date. Use the reference date rather than an assumed "today" or the fetch date, including stale-cache fallback.
 
 ## Content tooltip placement
 
