@@ -249,7 +249,33 @@ test('the prototype exclamation spans both lines on hover and keyboard focus', a
         .evaluate((node) => getComputedStyle(node).opacity),
     )
     .toBe('0');
+  const letterGap = await page
+    .locator('.masthead__word--answer')
+    .evaluate((element) => {
+      const path = element as SVGPathElement;
+      const contours = path.getAttribute('d')!.split(/(?=M)/);
+      const probe = document.createElementNS(
+        'http://www.w3.org/2000/svg',
+        'path',
+      );
+      probe.style.visibility = 'hidden';
+      path.ownerSVGElement!.append(probe);
+      probe.setAttribute('d', contours.at(-2)!);
+      const u = probe.getBBox();
+      probe.setAttribute('d', contours.at(-1)!);
+      const i = probe.getBBox();
+      probe.remove();
+      const matrix = path.getScreenCTM()!;
+      return {
+        gap: (i.x - u.x - u.width) * matrix.a,
+        right: (i.x + i.width) * matrix.a + matrix.e,
+      };
+    });
   const after = await dimensions();
+  expect(after.x - after.width / 2 - letterGap.right).toBeCloseTo(
+    letterGap.gap,
+    2,
+  );
   expect(after.y - after.height / 2).toBeCloseTo(top, 1);
   expect(after.y + after.height / 2).toBeCloseTo(bottom, 1);
   expect(after.x - after.width / 2).toBeGreaterThan(
