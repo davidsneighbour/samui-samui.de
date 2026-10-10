@@ -184,7 +184,7 @@ test('the site name exists as link text in the initial HTML without JavaScript',
   }
 });
 
-test('only the answer exclamation grows on hover and keyboard focus', async ({
+test('the prototype exclamation spans both lines on hover and keyboard focus', async ({
   page,
 }) => {
   await page.goto('/tests/masthead-frame');
@@ -206,16 +206,39 @@ test('only the answer exclamation grows on hover and keyboard focus', async ({
       };
     });
   const before = await dimensions();
+  const wordBounds = await page
+    .locator('.masthead__word')
+    .evaluateAll((elements) =>
+      elements.map((element) => {
+        const path = element as SVGPathElement;
+        const box = path.getBBox();
+        const matrix = path.getScreenCTM()!;
+        return {
+          bottom: (box.y + box.height) * matrix.d + matrix.f,
+          right: (box.x + box.width) * matrix.a + matrix.e,
+          top: box.y * matrix.d + matrix.f,
+        };
+      }),
+    );
+  const top = Math.min(...wordBounds.map((bounds) => bounds.top));
+  const bottom = Math.max(...wordBounds.map((bounds) => bounds.bottom));
   const letters = await page
     .locator('.masthead__word--answer')
     .getAttribute('transform');
   await page.locator('.masthead__link').hover();
   await expect
     .poll(async () => (await dimensions()).height / before.height)
-    .toBeCloseTo(1.12, 2);
+    .toBeCloseTo(4.56773 / 2, 2);
   const after = await dimensions();
-  expect(after.x).toBeCloseTo(before.x, 1);
-  expect(after.y).toBeCloseTo(before.y, 1);
+  expect(after.y - after.height / 2).toBeCloseTo(top, 1);
+  expect(after.y + after.height / 2).toBeCloseTo(bottom, 1);
+  expect(after.x - after.width / 2).toBeGreaterThan(
+    Math.max(...wordBounds.map((bounds) => bounds.right)),
+  );
+  expect(after.width / before.width).toBeCloseTo(
+    after.height / before.height,
+    2,
+  );
   await expect(page.locator('.masthead__word--answer')).toHaveAttribute(
     'transform',
     letters!,
@@ -224,7 +247,7 @@ test('only the answer exclamation grows on hover and keyboard focus', async ({
   await page.locator('.masthead__link').focus();
   await expect
     .poll(async () => (await dimensions()).height / before.height)
-    .toBeCloseTo(1.12, 2);
+    .toBeCloseTo(4.56773 / 2, 2);
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await expect
     .poll(async () => (await dimensions()).height / before.height)

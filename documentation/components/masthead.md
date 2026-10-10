@@ -21,11 +21,13 @@ The masthead has no outer top padding, and the divider/tagline wrapper has no to
 
 ## Hover and focus response
 
-When a visitor hovers the home link with a fine pointer, or focuses it with the keyboard, three layers change together over 700ms with the entrance curve:
+When a visitor hovers the home link with a fine pointer, or focuses it with the keyboard, four layers change together over 700ms with the entrance curve:
 
 * **Window drift** — the photograph scales to 1.04 and moves by (-8, -3) viewBox units. The island and words stay still, so the picture seems to move behind cut-out windows. The 4% scale gives 18 × 6 units of overscan, which covers the movement, so no canvas edge appears inside a shape.
 * **Dusk** — a `primary`-coloured rectangle with `mix-blend-mode: multiply` fades from 0 to 0.55 opacity and deepens the photograph.
 * **Question and answer** — a `<use>` copy of the `Samui?` path (`#masthead-word-question`), filled with the page `background` colour, fades from 0 to 0.35 opacity. The question line recedes and `Samui!` stays bright.
+
+* **Full-height exclamation prototype** — the final `!` grows proportionally from SVG scale 2 to 4.56773 and moves from centre (737.13293, 219.08187) to (817, 156.6) viewBox units. Its top and bottom align with the combined visible word bounds. Moving right prevents overlap with the question mark. The words and island stay fixed, and the mark returns on hover/focus exit. Reduced motion keeps its resting shape and position. This is an experimental visual treatment for review.
 
 The `clip-path` sits on a `<g>` that wraps the photograph and the dusk rectangle, not on the `<image>`. A `clip-path` on a transformed element moves with that element, which would shift the cut-out shapes together with the photograph. The effect uses only `transform` and `opacity`; Safari does not support CSS `filter` on SVG child elements. Touch devices get no hover state. The global reduced-motion rule in `theme.css` makes the change instant.
 

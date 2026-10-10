@@ -334,14 +334,14 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
   }
 
   .masthead__exclamation {
-    /* Keep the positioned glyph centre fixed while scaling its outline. */
+    /* Resting position; the prototype grows into the right-hand clear space. */
     transform: translate(737.13293px, 219.08187px) scale(2)
       translate(-221.44646px, -23.80606px);
     transition: transform 700ms cubic-bezier(0.2, 0, 0, 1);
   }
 
   .masthead__link:focus-visible .masthead__exclamation {
-    transform: translate(737.13293px, 219.08187px) scale(2.24)
+    transform: translate(817px, 156.6px) scale(4.56773)
       translate(-221.44646px, -23.80606px);
   }
 
@@ -363,7 +363,7 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
 
   @media (hover: hover) and (pointer: fine) {
     .masthead__link:hover .masthead__exclamation {
-      transform: translate(737.13293px, 219.08187px) scale(2.24)
+      transform: translate(817px, 156.6px) scale(4.56773)
         translate(-221.44646px, -23.80606px);
     }
 
