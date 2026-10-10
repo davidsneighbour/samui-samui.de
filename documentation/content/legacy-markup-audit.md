@@ -4,21 +4,6 @@ Verified on 10 October 2026 against all 2,083 Markdown and MDX files under `src/
 
 File links open the source at the recorded line in VS Code. Line numbers describe the audit snapshot and can shift as you edit the articles.
 
-## Textpattern and legacy shortcodes
-
-No active opening, closing, escaped, or malformed `<txp:…>` tags remain. `npm run publisher -- list --textpattern-tags` reports zero posts. The apparent `<txp -->` occurrence in [src/content/posts/2006/09/die-tesko-these/index.md:16](../../src/content/posts/2006/09/die-tesko-these/index.md#L16) is inside a grammar-ignore HTML comment and is not rendered.
-
-The broader audit finds these unsupported square-bracket wrappers. Browser checks confirm they appear literally in the rendered article instead of making links or components. Their origin is legacy markup; the current repository does not establish which old plugin produced each form.
-
-| Form | Source | Result |
-| --- | --- | --- |
-| `[intro]…[/intro]` | [src/content/posts/2006/01/darfichvorstellenpokki/index.md:17](../../src/content/posts/2006/01/darfichvorstellenpokki/index.md#L17) | Wrapper text is visible. |
-| `[outro]…[/outro]` | [src/content/posts/2006/01/darfichvorstellenpokki/index.md:31](../../src/content/posts/2006/01/darfichvorstellenpokki/index.md#L31) | Wrapper text is visible. |
-| `[permalink id="1762"]…[/permalink]` | [src/content/posts/2009/07/panda/index.md:20](../../src/content/posts/2009/07/panda/index.md#L20) | Link is not resolved. |
-| Escaped/mixed `[permalink]` wrappers for IDs `1104`, `1193`, and `1196` | [src/content/posts/2013/09/lin-ping-geht/index.md:19](../../src/content/posts/2013/09/lin-ping-geht/index.md#L19) | Three links are not resolved. |
-
-Do not invent destinations from numeric IDs. The earlier migration contract is in [Textpattern tag migration](textpattern-tags.md), tracked by [the legacy-tag research issue](https://github.com/davidsneighbour/samui-samui.de/issues/1234).
-
 ## Unsupported editorial HTML
 
 These pseudo-elements have no component, transform, custom-element registration, or stylesheet support. Their original presentation cannot be inferred safely.
@@ -33,7 +18,7 @@ These pseudo-elements have no component, transform, custom-element registration,
 
 ## Empty legacy containers
 
-There are 25 empty containers: 19 video containers, four Flickr containers, one map container, and one other empty container. Each was checked in the production output; none of these 25 articles contains an active video, iframe, or supported video-player element. Empty wrappers do not by themselves identify the original missing asset or video ID.
+There are 24 empty containers: 18 video containers, four Flickr containers, one map container, and one other empty container. Each was checked in the production output; none of these 24 articles contains an active video, iframe, or supported video-player element. Empty wrappers do not by themselves identify the original missing asset or video ID.
 
 | Source | Empty markup |
 | --- | --- |
@@ -43,7 +28,6 @@ There are 25 empty containers: 19 video containers, four Flickr containers, one 
 | [src/content/posts/2006/11/flickrset-rainseason/index.md:14](../../src/content/posts/2006/11/flickrset-rainseason/index.md#L14) | `<div class="flickr2 clearfix"> </div>` |
 | [src/content/posts/2009/06/best-foreign-husband-competition/index.md:15](../../src/content/posts/2009/06/best-foreign-husband-competition/index.md#L15) | `<div class="flickr"> </div>` |
 | [src/content/posts/2009/06/mee-and-my-father/index.md:15](../../src/content/posts/2009/06/mee-and-my-father/index.md#L15) | `<div class="flickr"> </div>` |
-| [src/content/posts/2009/07/panda/index.md:15](../../src/content/posts/2009/07/panda/index.md#L15) | `<div class="flex-video"> </div>` |
 | [src/content/posts/2010/11/vorgestern-am-strand/index.md:13](../../src/content/posts/2010/11/vorgestern-am-strand/index.md#L13) | `<div class="media video"> </div>` |
 | [src/content/posts/2011/03/babies-in-tueten-iii-the-movie/index.md:17](../../src/content/posts/2011/03/babies-in-tueten-iii-the-movie/index.md#L17) | `<div class="media video"> </div>` |
 | [src/content/posts/2011/04/censorsht/index.md:13](../../src/content/posts/2011/04/censorsht/index.md#L13) | `<div class="media video"> </div>` |
