@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD013 -->
 # Documentation index
 
 ## Components
@@ -54,6 +55,7 @@
 * [Interactive maps](features/maps.md) records the MapLibre/OpenFreeMap map stack and data contracts.
 * [Life timeline map](features/life-timeline.md) documents the experimental `/timeline/` animated life-timeline map, its sparse-year data schema, and the 2005 plane-journey animation.
 * [Life timeline authoring guide](features/life-timeline-authoring.md) is a copy-paste-driven guide to registering places and authoring real timeline entries (simple years, periods, multi-location years, journeys, the finale).
+* [Related posts](features/related-posts.md) documents taxonomy scoring, deterministic selection, and single-post discovery links.
 * [Search](features/search.md) documents Pagefind search UI placement and index caching.
 * [Sound effects](features/sound-effects.md) documents optional Cuelume interaction sounds, persistence, and fallback behavior.
 * [Weather widget](features/weather-widget.md) documents the compact, lazy-loaded Koh Samui weather note, its Worker/Open-Meteo proxy, and caching layers.

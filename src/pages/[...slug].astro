@@ -4,12 +4,14 @@ import BlogPost from '@layouts/BlogPost.astro';
 import { getPostCover } from '@utils/covers';
 import { getPostUrl } from '@utils/posts';
 import { getPostReadingTime } from '@utils/reading-time';
+import { createRelatedPostLookup } from '@utils/related-posts';
 import { resolvePostTaxonomyGroups } from '@utils/taxonomies/entities';
 
 export async function getStaticPaths() {
   const posts = (await getCollection('posts')).sort(
     (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
   );
+  const relatedPostsFor = createRelatedPostLookup(posts);
   return posts.map((post, index) => {
     const url = getPostUrl(post);
     const newerPost = posts[index - 1];
@@ -31,12 +33,16 @@ export async function getStaticPaths() {
             }
           : undefined,
         post,
+        relatedPosts: relatedPostsFor(post).map((related) => ({
+          href: getPostUrl(related),
+          title: related.data.title,
+        })),
       },
     };
   });
 }
 
-const { newerPost, olderPost, post } = Astro.props;
+const { newerPost, olderPost, relatedPosts, post } = Astro.props;
 const postUrl = getPostUrl(post);
 const { Content } = await render(post);
 const cover = await getPostCover(post);
@@ -71,6 +77,7 @@ const hasYoutube = post.body?.includes('dnb-youtube') ?? false;
   postUrl={postUrl}
   newerPost={newerPost}
   olderPost={olderPost}
+  relatedPosts={relatedPosts}
   taxonomies={taxonomies}
   themen={post.data.themen}
   hasVimeo={hasVimeo}

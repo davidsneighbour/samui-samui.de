@@ -45,6 +45,7 @@ type Props = {
   postUrl?: string | undefined;
   newerPost?: PostNavigationItem | undefined;
   olderPost?: PostNavigationItem | undefined;
+  relatedPosts?: PostNavigationItem[] | undefined;
   taxonomies?: PostTaxonomyGroup[] | undefined;
   themen?: string[] | undefined;
   hasVimeo?: boolean | undefined;
@@ -70,6 +71,7 @@ const {
   postUrl,
   newerPost,
   olderPost,
+  relatedPosts = [],
   taxonomies = [],
   themen,
   hasVimeo = false,
@@ -192,6 +194,27 @@ const publishedYear = publishedOn
             <slot />
           </div>
         </div>
+        {relatedPosts.length > 0 && (
+          <nav
+            aria-label="Verwandte Beiträge"
+            data-pagefind-ignore
+            class="border-t border-card-foreground/10 px-4 py-8 sm:px-8"
+          >
+            <h2 class="mb-4 text-xl">Verwandte Beiträge</h2>
+            <ul class="grid gap-4 sm:grid-cols-2">
+              {relatedPosts.map((related) => (
+                <li class="min-w-0">
+                  <a
+                    href={related.href}
+                    class="block break-words rounded-[calc(var(--radius)-4px)] text-link hover:underline focus-visible:focus-ring"
+                  >
+                    {related.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        )}
         {(newerPost || olderPost) && (
           <div class="border-t border-card-foreground/10 px-4 py-6 sm:px-8">
             <nav
