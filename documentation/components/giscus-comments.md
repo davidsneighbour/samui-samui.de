@@ -10,3 +10,5 @@ The comment form uses custom giscus themes from:
 These URLs intentionally point at the live site even during local development. When giscus runs inside its `https://giscus.app` iframe, browsers can block stylesheet requests to private-network dev origins such as `https://192.168.1.201:4321` under Private Network Access rules. Using the live theme files avoids that local-only failure. The trade-off is that local edits to the giscus theme CSS are not visible in the iframe until the stylesheet has been deployed.
 
 Production must allow `https://giscus.app` to fetch these custom theme files. The origin configuration in `public/.htaccess` therefore sends `Access-Control-Allow-Origin: https://giscus.app` on `/assets/styles/giscus-samui-*.css` and the webfont assets used by those stylesheets.
+
+The Impressum comment disclosure links directly to `/kleingedrucktes/datenschutzerklaerung/#kommentarfunktion-giscus`, the generated heading ID for the privacy policy section "Kommentarfunktion (giscus)". Its general privacy link continues to point to the policy page without a fragment. Keep the section link aligned if that heading changes.
