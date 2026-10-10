@@ -11,7 +11,8 @@ describe('Textpattern archive migration', () => {
     const remaining: string[] = [];
     for (const file of files) {
       const source = await fs.readFile(file, 'utf8');
-      if (/<\/?txp:/i.test(source)) remaining.push(file);
+      if (/<\/?txp:|\[\/?(?:permalink|intro|outro)\b/i.test(source))
+        remaining.push(file);
     }
     expect(remaining).toEqual([]);
   });

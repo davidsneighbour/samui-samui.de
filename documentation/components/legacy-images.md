@@ -117,7 +117,7 @@ Bundled Markdown-relative images (`![]()` pointing at a file next to `index.md`)
 
 ## Restored archive originals
 
-The October 2026 legacy-image cleanup restored 31 broken body-image references across 25 posts, tracked in [the legacy-markup issue](https://github.com/davidsneighbour/samui-samui.de/issues/1804). Twenty-eight references were recovered from `public/wp-content/old-images/`; three malformed combined-domain URLs were recovered from their intact originals in `public/wp-content/uploads/`. The resolved rows were removed from [the legacy-markup audit](../content/legacy-markup-audit.md).
+The October 2026 legacy-image cleanup restored 31 broken body-image references across 25 posts, tracked in [the legacy-markup issue](https://github.com/davidsneighbour/samui-samui.de/issues/1804). Twenty-eight references were recovered from `public/wp-content/old-images/`; three malformed combined-domain URLs were recovered from their intact originals in `public/wp-content/uploads/`. The completed audit was retired after every listed image reference was restored.
 
 Original files are stored beside each post’s `index.md` and embedded as relative Markdown images. Numbered `Nt.ext` sources are thumbnails; the restored source is always `N.ext`. Shared originals have a separate byte-identical copy in each post bundle. The 24 recovered old-image originals were moved out of the public archive after copying, and their 21 existing numbered thumbnails were deleted. WordPress upload originals remain in place because existing cover references can still use them. No other archive images or thumbnails were removed.
 

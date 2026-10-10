@@ -131,3 +131,12 @@ Sitewide snippets live in `src/content/sitewide/**/index.md` and are consumed by
 | `image` | Optional optimized image. | Bundle-local image used by the consuming template. | [Content schema](content-schema.md) |
 | `imagetitle` | Optional string. | Image title or alt/caption source used by the consuming template. | [Content schema](content-schema.md) |
 | `lastmod` | Optional date. | Last-modified timestamp for the snippet. | [Content schema](content-schema.md), [Post metadata](post-metadata.md) |
+
+## Relevance values
+
+| Value | Meaning | Example |
+| --- | --- | --- |
+| `enduring` | Worth reading years later; part of the site's lasting body of work | guides, observations about Samui/Thailand, substantial essays, historical material |
+| `contextual` | Valuable primarily in its historical/time context | elections, construction projects, contemporary island events, changing regulations |
+| `moment` | A snapshot of life; interesting mainly because it happened | trip reports, daily observations, photos, short anecdotes |
+| `ephemeral` | Spur-of-the-moment material with little lasting importance | complaints, quick notices, "today sucked" posts |

@@ -14,7 +14,7 @@ Research player requests, cookies, storage, analytics, and account behaviour. Th
 
 ## Related archive cleanup
 
-The Reuters image in `src/content/posts/2013/08/angeblich-nur-50-000-liter/index.md` was copied byte-for-byte from its full-size WordPress upload into the post bundle and converted to a Markdown image, preserving its alternative text and Reuters credit. The original upload remains available. The owner removed the Facebook publishing metadata in `src/content/posts/2012/07/somchai-somsak-und-somporn/index.md`; its avatar reference occurred inside that metadata, not in the article body. These resolved entries were removed from [the legacy-markup audit](../content/legacy-markup-audit.md).
+The Reuters image in `src/content/posts/2013/08/angeblich-nur-50-000-liter/index.md` was copied byte-for-byte from its full-size WordPress upload into the post bundle and converted to a Markdown image, preserving its alternative text and Reuters credit. The original upload remains available. The owner removed the Facebook publishing metadata in `src/content/posts/2012/07/somchai-somsak-und-somporn/index.md`; its avatar reference occurred inside that metadata, not in the article body. The completed markup audit was retired; the SoundCloud privacy decision remains in its separate review issue.
 
 Historical prose is preserved under the owner-approved scoped archive-cleanup exception. Content-language findings remain editorial debt; no blanket suppressions or hook configuration changes are introduced. The cleanup commit skips its pre-commit hook invocation after separate validation.
 

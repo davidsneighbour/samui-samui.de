@@ -15,4 +15,4 @@ publisher:
 
 So, hier mal ein Pandavideo (nicht aus Chiang Mai, die Internet-Nomaden werden das schon kennen), damit man sich ungefähr vorstellen kann, wie so ein Tag zwischen Panda-Mama und Panda-Baby aussieht. Bambus fressen, rumsitzen oder -liegen.
 
-Ich habe inzwischen ein paar der Panda-[permalink id="1762"]Benamungskarten[/permalink] sichern können. Mal sehen ob wir die Namensgebung positiv beeinflussen können.
+Ich habe inzwischen ein paar der Panda-Benamungskarten sichern können. Mal sehen ob wir die Namensgebung positiv beeinflussen können.

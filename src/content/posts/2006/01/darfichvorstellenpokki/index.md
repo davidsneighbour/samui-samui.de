@@ -12,9 +12,9 @@ publisher:
   covermigration: true
   flickr: true
 ---
-![2006-01-04 001](./may-i-introduce-pokki-81806916.jpg)
+![2006-01-04 001](may-i-introduce-pokki-81806916.jpg)
 
-[intro] Was wäre die schreiBBloga.de im [Jahr des Hundes][2] (ab 29. Januar) ohne einen Hund? Richtig. Ein Hahn.[/intro]
+Was wäre die schreiBBloga.de im [Jahr des Hundes][2] (ab 29. Januar) ohne einen Hund? Richtig. Ein Hahn.
 
 Darf ich vorstellen: Pokki!
 
@@ -28,10 +28,10 @@ Pokki hat es in den zwei Tagen, die er schon mit mir verweilt, unter anderem ges
 
 Ich bilde mir ein, dass er eine Bereicherung für mein Leben ist. Ob das stimmt, wird sich zeigen. Geschlafen hab ich die vergangenen 48 Stunden nur 6 Stunden. Aus Sorge. Das ist wie mit einem Baby. Macht es ein komisches Geräusch muss man kucken, was los ist. Pokki _besteht_ aus komischen Geräuschen.
 
-[outro]Buddha besaß auch einen Shih-Tzu. Das nur am Rande.[/outro]
+Buddha besaß auch einen Shih-Tzu. Das nur am Rande.
 
- [2]: http://de.wikipedia.org/wiki/Jahr_des_Hundes
- [3]: http://de.wikipedia.org/wiki/Shih-Tzu
+[2]: http://de.wikipedia.org/wiki/Jahr_des_Hundes
+[3]: http://de.wikipedia.org/wiki/Shih-Tzu
 
 <!-- grammar-ignore COMPOUND_INFINITIV_RULE liegen zu lassen -->
 <!-- cspell:ignore guddiguddi -->
