@@ -10,6 +10,8 @@ The page is directly accessible but has `noindex,follow` through the layout's ex
 
 ## Editorial development and launch
 
+The local author portrait uses Astro's `Image` component. It occupies the full prose width below Tailwind's `lg` breakpoint (1024px); on larger screens it occupies half the prose width and floats right, with the existing 32px spacing token separating it from the text. The prose wrapper establishes a flow root so the image remains inside the content card even when the biography is short.
+
 Review the early archive before writing the arrival story, then develop the professional context, site history, and subjects covered by the blog. Verify factual claims against source material and select appropriate local photographs. Keep the full page thematic and the life timeline chronological. A timeline teaser must eventually use the canonical timeline data and must not embed the map application.
 
 When a useful biography is ready and approved for launch, remove `noindex`, remove the sitemap exclusion, remove the Pagefind exclusion, and replace the draft note. Add the article-author link and `Mehr über Patrick →`, then decide navigation placement. Verify the built robots metadata, sitemap, search results, mobile and desktop presentation, and structured metadata before treating the page as published. Until then, the later milestones remain open under the existing issue.

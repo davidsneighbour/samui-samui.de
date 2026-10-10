@@ -3,6 +3,8 @@ title: Wer schreibt hier eigentlich?
 description: Patrick Kollitsch, Koh Samui, Samui? Samui! und der ganze Rest.
 ---
 
+import { Image } from 'astro:assets';
+import portrait from '../content/sitewide/authorfooter/patrick-kollitsch.jpg';
 import PageLayout from '@layouts/PageLayout.astro';
 import { getPostDateParts } from '@utils/dates';
 import { AUTHOR_SAMUI_MOVE_DATE } from '@utils/life-stats';
@@ -11,7 +13,9 @@ import { proseClasses } from '@utils/prose';
 export const samuiSinceYear = getPostDateParts(AUTHOR_SAMUI_MOVE_DATE).year;
 
 <PageLayout title={frontmatter.title} description={frontmatter.description} noindex>
-<div class={proseClasses} data-pagefind-ignore="all">
+<div class={`${proseClasses} flow-root`} data-pagefind-ignore="all">
+
+<Image src={portrait} alt="Der Autor in seiner natürlichen Umgebung" class="mt-0 mb-4 w-full lg:float-right lg:ml-8 lg:w-1/2" />
 
 Ich bin Patrick Kollitsch und lebe seit {samuiSinceYear} auf Koh Samui. Hier auf Samui? Samui! schreibe ich über das alltägliche Leben in Thailand, seine Höhen und Tiefen, und andere Dinge, die mich interessieren.
 
