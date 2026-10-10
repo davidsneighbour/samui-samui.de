@@ -31,6 +31,7 @@
 * [German citation dates](content/german-citation-dates.md) documents the staged citation date check and its explicit archive audit.
 * [German orthography and grammar](content/german-orthography-and-grammar.md) documents the house spelling policy, the CSpell, Vale, and LanguageTool checks, their baselines, and the triage rules.
 * [German umlaut normalisation](content/german-umlaut-normalisation.md) documents the narrow HTML entity replacement script, its npm commands, and pre-commit behaviour.
+* [Legacy markup audit](content/legacy-markup-audit.md) inventories unsupported archive wrappers, empty embeds, missing raw HTML images, and the blocked SoundCloud player.
 * [Markdown typography](content/markdown-typography.md) explains the remark typography transform used for post prose.
 * [People taxonomy migration](content/people-taxonomy-migration.md) records the migration from free-form `leute` values to canonical people IDs.
 * [Post cover migration plan](content/post-cover-migration-plan.md) tracks the archive cover-media migration decisions and audit procedure.
