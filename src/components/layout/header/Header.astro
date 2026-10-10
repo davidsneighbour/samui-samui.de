@@ -15,6 +15,10 @@ import {
   SquareUser,
 } from '@lucide/astro';
 
+const questionContours = wordmark['samui?'].split(/(?=M)/);
+const questionLetters = questionContours.slice(0, -2).join('');
+const questionMark = questionContours.slice(-2).join('');
+
 const answerContours = wordmark['samui!'].split(/(?=M)/);
 const answerLetters = answerContours.slice(0, -2).join('');
 const answerExclamation = answerContours.slice(-2).join('');
@@ -48,24 +52,38 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
         focusable="false"
       >
         <defs>
-          <clipPath id="masthead-photo-cutout">
+          <mask
+            id="masthead-photo-cutout"
+            maskUnits="userSpaceOnUse"
+            x="-43.23906"
+            y="0"
+            width="900"
+            height="300"
+            style="mask-type: alpha"
+            fill="white"
+          >
             <path
               class="masthead__island masthead__island--simple"
               transform="translate(0 3) scale(1.2)"
-              clip-rule="evenodd"
+              fill-rule="evenodd"
               d={symbolPath}
             />
             <path
               class="masthead__island masthead__island--detail"
               transform="translate(0 3) scale(1.2)"
-              clip-rule="evenodd"
+              fill-rule="evenodd"
               d={detailPath}
             />
             <path
               id="masthead-word-question"
               class="masthead__word masthead__word--question"
               transform="translate(294.30657 45.46975) scale(1.92645)"
-              d={wordmark['samui?']}
+              d={questionLetters}
+            />
+            <path
+              class="masthead__question-mark"
+              transform="translate(294.30657 45.46975) scale(1.92645)"
+              d={questionMark}
             />
             <path
               class="masthead__word masthead__word--answer"
@@ -77,9 +95,9 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
               transform="translate(294.24 171.46975) scale(2)"
               d={answerExclamation}
             />
-          </clipPath>
+          </mask>
         </defs>
-        <g clip-path="url(#masthead-photo-cutout)">
+        <g mask="url(#masthead-photo-cutout)">
           <image
             class="masthead__photo"
             href="/assets/header/header-201906.jpg"
@@ -333,15 +351,23 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
       opacity 700ms cubic-bezier(0.2, 0, 0, 1);
   }
 
+  .masthead__question-mark {
+    opacity: 1;
+    transition: opacity 700ms cubic-bezier(0.2, 0, 0, 1);
+  }
+  .masthead__link:focus-visible .masthead__question-mark {
+    opacity: 0;
+  }
+
   .masthead__exclamation {
-    /* Resting position; the prototype grows into the right-hand clear space. */
+    /* Grow into the fading question mark’s space without moving the letters. */
     transform: translate(737.13293px, 219.08187px) scale(2)
       translate(-221.44646px, -23.80606px);
     transition: transform 700ms cubic-bezier(0.2, 0, 0, 1);
   }
 
   .masthead__link:focus-visible .masthead__exclamation {
-    transform: translate(817px, 156.6px) scale(4.56773)
+    transform: translate(752px, 156.6px) scale(4.56773)
       translate(-221.44646px, -23.80606px);
   }
 
@@ -362,8 +388,11 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
   }
 
   @media (hover: hover) and (pointer: fine) {
+    .masthead__link:hover .masthead__question-mark {
+      opacity: 0;
+    }
     .masthead__link:hover .masthead__exclamation {
-      transform: translate(817px, 156.6px) scale(4.56773)
+      transform: translate(752px, 156.6px) scale(4.56773)
         translate(-221.44646px, -23.80606px);
     }
 
@@ -393,6 +422,10 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
   }
 
   @media (prefers-reduced-motion: reduce) {
+    .masthead__link:focus-visible .masthead__question-mark,
+    .masthead__link:hover .masthead__question-mark {
+      opacity: 1;
+    }
     .masthead__link:focus-visible .masthead__exclamation,
     .masthead__link:hover .masthead__exclamation {
       transform: translate(737.13293px, 219.08187px) scale(2)

@@ -17,13 +17,13 @@ for (const width of widths) {
     const artwork = page.locator('.masthead__artwork');
     await expect(artwork).toHaveAttribute('aria-hidden', 'true');
     await expect(artwork.locator('image')).toHaveCount(1);
-    await expect(artwork.locator('clipPath > .masthead__word')).toHaveCount(2);
+    await expect(artwork.locator('mask > .masthead__word')).toHaveCount(2);
     await expect(artwork.locator('image')).toHaveAttribute(
       'href',
       '/assets/header/header-201906.jpg',
     );
     await expect(artwork.locator('g:has(> image)')).toHaveAttribute(
-      'clip-path',
+      'mask',
       'url(#masthead-photo-cutout)',
     );
     await expect(
@@ -32,30 +32,41 @@ for (const width of widths) {
           ? '.masthead__island--detail'
           : '.masthead__island--simple',
       ),
-    ).toHaveAttribute('clip-rule', 'evenodd');
+    ).toHaveAttribute('fill-rule', 'evenodd');
     await expect(page.locator('.masthead__link')).toHaveAccessibleName(
       'Samui? Samui!',
     );
     const metrics = await artwork.evaluate((node) => {
       const paths = [
-        ...node.querySelectorAll<SVGPathElement>('clipPath path'),
+        ...node.querySelectorAll<SVGPathElement>('mask path'),
       ].filter(
         (path) =>
           getComputedStyle(path).display !== 'none' &&
-          !path.classList.contains('masthead__exclamation'),
+          !path.classList.contains('masthead__exclamation') &&
+          !path.classList.contains('masthead__question-mark'),
       );
       const boxes = paths.map((path) => {
         const box = path.getBBox();
-        if (path.classList.contains('masthead__word--answer')) {
+        if (path.classList.contains('masthead__word')) {
           const punctuation = node
-            .querySelector<SVGPathElement>('.masthead__exclamation')!
+            .querySelector<SVGPathElement>(
+              path.classList.contains('masthead__word--answer')
+                ? '.masthead__exclamation'
+                : '.masthead__question-mark',
+            )!
             .getBBox();
-          box.width =
-            Math.max(box.x + box.width, punctuation.x + punctuation.width) -
-            box.x;
-          box.height =
-            Math.max(box.y + box.height, punctuation.y + punctuation.height) -
-            box.y;
+          const right = Math.max(
+            box.x + box.width,
+            punctuation.x + punctuation.width,
+          );
+          const bottom = Math.max(
+            box.y + box.height,
+            punctuation.y + punctuation.height,
+          );
+          box.x = Math.min(box.x, punctuation.x);
+          box.y = Math.min(box.y, punctuation.y);
+          box.width = right - box.x;
+          box.height = bottom - box.y;
         }
         const screenMatrix = path.getScreenCTM();
         const rootMatrix = (node as SVGSVGElement).getScreenCTM();
@@ -82,7 +93,9 @@ for (const width of widths) {
             ? (node
                 .querySelector('.masthead__exclamation')!
                 .getAttribute('d') ?? '')
-            : (path.getAttribute('d') ?? '')
+            : (node
+                .querySelector('.masthead__question-mark')!
+                .getAttribute('d') ?? '')
         )
           .split(/(?=M)/)
           .slice(-2);
@@ -207,7 +220,7 @@ test('the prototype exclamation spans both lines on hover and keyboard focus', a
     });
   const before = await dimensions();
   const wordBounds = await page
-    .locator('.masthead__word')
+    .locator('.masthead__word, .masthead__question-mark')
     .evaluateAll((elements) =>
       elements.map((element) => {
         const path = element as SVGPathElement;
@@ -229,11 +242,23 @@ test('the prototype exclamation spans both lines on hover and keyboard focus', a
   await expect
     .poll(async () => (await dimensions()).height / before.height)
     .toBeCloseTo(4.56773 / 2, 2);
+  await expect
+    .poll(() =>
+      page
+        .locator('.masthead__question-mark')
+        .evaluate((node) => getComputedStyle(node).opacity),
+    )
+    .toBe('0');
   const after = await dimensions();
   expect(after.y - after.height / 2).toBeCloseTo(top, 1);
   expect(after.y + after.height / 2).toBeCloseTo(bottom, 1);
   expect(after.x - after.width / 2).toBeGreaterThan(
-    Math.max(...wordBounds.map((bounds) => bounds.right)),
+    Math.max(
+      ...wordBounds
+        .slice(0, 1)
+        .concat(wordBounds.slice(2))
+        .map((bounds) => bounds.right),
+    ),
   );
   expect(after.width / before.width).toBeCloseTo(
     after.height / before.height,
@@ -244,12 +269,36 @@ test('the prototype exclamation spans both lines on hover and keyboard focus', a
     letters!,
   );
   await page.mouse.move(0, 0);
+  await expect
+    .poll(() =>
+      page
+        .locator('.masthead__question-mark')
+        .evaluate((node) => getComputedStyle(node).opacity),
+    )
+    .toBe('1');
+  await expect
+    .poll(async () => (await dimensions()).height / before.height)
+    .toBeCloseTo(1, 2);
   await page.locator('.masthead__link').focus();
   await expect
     .poll(async () => (await dimensions()).height / before.height)
     .toBeCloseTo(4.56773 / 2, 2);
+  await expect
+    .poll(() =>
+      page
+        .locator('.masthead__question-mark')
+        .evaluate((node) => getComputedStyle(node).opacity),
+    )
+    .toBe('0');
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await expect
     .poll(async () => (await dimensions()).height / before.height)
     .toBeCloseTo(1, 2);
+  await expect
+    .poll(() =>
+      page
+        .locator('.masthead__question-mark')
+        .evaluate((node) => getComputedStyle(node).opacity),
+    )
+    .toBe('1');
 });
