@@ -1,0 +1,29 @@
+---
+title: Wer schreibt hier eigentlich?
+description: Patrick Kollitsch, Koh Samui, Samui? Samui! und der ganze Rest.
+---
+
+import PageLayout from '@layouts/PageLayout.astro';
+import { getPostDateParts } from '@utils/dates';
+import { AUTHOR_SAMUI_MOVE_DATE } from '@utils/life-stats';
+import { proseClasses } from '@utils/prose';
+
+export const samuiSinceYear = getPostDateParts(AUTHOR_SAMUI_MOVE_DATE).year;
+
+<PageLayout title={frontmatter.title} description={frontmatter.description} noindex>
+<div class={proseClasses} data-pagefind-ignore="all">
+
+Ich bin Patrick Kollitsch und lebe seit {samuiSinceYear} auf Koh Samui. Hier auf Samui? Samui! schreibe ich über das alltägliche Leben in Thailand, seine Höhen und Tiefen, und andere Dinge, die mich interessieren.
+
+Diese Seite entsteht gerade. Hier soll nach und nach mehr darüber stehen, wer hinter Samui? Samui! steckt.
+
+{/* TODO(about): Wie ich hier gelandet bin — review the early archive before drafting the arrival story. */}
+{/* TODO(about): Warum Koh Samui? — gather personal context and selected island posts. */}
+{/* TODO(about): Was ich eigentlich mache — expand the verified author-footer context. */}
+{/* TODO(about): Samui? Samui! — verify the site's history and curate archive/IUMAS links. */}
+{/* TODO(about): Worüber ich hier schreibe — select meaningful existing archive destinations. */}
+{/* TODO(about): Und sonst? — add only personal details approved for publication. */}
+{/* TODO(about): Add a timeline teaser only when the canonical dataset is ready. */}
+
+</div>
+</PageLayout>

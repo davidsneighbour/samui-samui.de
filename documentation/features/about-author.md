@@ -4,7 +4,7 @@ The author page at `/ueber-mich/` provides a place to develop Patrick's longer b
 
 ## Draft implementation
 
-`src/pages/ueber-mich.astro` uses `PageLayout` for the normal header, footer, heading, and content card, and the shared card-aware prose classes. The introduction uses the existing author-footer information. The year on Samui comes from `AUTHOR_SAMUI_MOVE_DATE` in `src/utils/life-stats.ts`, interpreted through the Bangkok date helper. The compact article biography remains separately authored in `src/content/sitewide/authorfooter/index.mdx`; there is no new author schema or duplicated chronology dataset.
+`src/pages/ueber-mich.mdx` follows the existing standalone MDX page convention, with title and description in frontmatter, Markdown prose, and non-rendered MDX editorial comments. It uses `PageLayout` for the normal header, footer, heading, and content card, and the shared card-aware prose classes. The introduction uses the existing author-footer information. The year on Samui comes from `AUTHOR_SAMUI_MOVE_DATE` in `src/utils/life-stats.ts`, interpreted through the Bangkok date helper. The compact article biography remains separately authored in `src/content/sitewide/authorfooter/index.mdx`; there is no new author schema or duplicated chronology dataset.
 
 The page is directly accessible but has `noindex,follow` through the layout's existing `noindex` prop. The sitemap filter in `astro.config.ts` excludes `/ueber-mich/`, and `data-pagefind-ignore="all"` excludes the draft prose from local search. No navigation or article-author links promote the draft. A short German note explains that the page is still being written. Source comments reserve future sections without rendering empty headings or placeholder copy.
 

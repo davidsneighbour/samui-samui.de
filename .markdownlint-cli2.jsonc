@@ -3,7 +3,7 @@
   // with legacy raw-HTML embeds the shared doc-oriented ruleset (MD033
   // allowlist, title-case-style, etc.) was never meant to police. Keep linting
   // scoped to engineering documentation. src/pages/kleingedrucktes/**,
-  // src/pages/kontakt.mdx, and src/pages/suche.mdx are the same kind of
+  // src/pages/kontakt.mdx, src/pages/suche.mdx, and src/pages/ueber-mich.mdx are the same kind of
   // long-form/legacy prose, just living as MDX pages (with a JSX
   // PageLayout/div wrapper) instead of content-collection entries.
   "ignores": [
@@ -14,6 +14,7 @@
     "src/pages/kleingedrucktes/**",
     "src/pages/kontakt.mdx",
     "src/pages/suche.mdx",
+    "src/pages/ueber-mich.mdx",
     "scratch/**",
     "public/**",
     // Wrangler's local state and dry-run bundles (git-ignored).
