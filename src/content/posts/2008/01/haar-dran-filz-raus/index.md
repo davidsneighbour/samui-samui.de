@@ -18,7 +18,13 @@ Yeah! Heute Morgen im Hundehaarshop haben wir gut 20 Minuten diskutiert, was den
 
 Nach langer Zeit (8 Stunden später) durfte ich eben einen absolut filzfreien kleinen Shihtzu in Empfang nehmen. Tja. Was Chemie so alles vermag.
 
-Soosie hat ihren Pokki auch sehr vermisst (als ich alleine zurückkam, rannte sie gut eine Stunde lang hin und her und suchte Pokki überall und kuckte mich verständnislos an) und war sehrsehr froh, ihn endlich wieder zu sehen --- ich wurde glatt ignoriert.
+Soosie hat ihren Pokki auch sehr vermisst (als ich alleine zurückkam, rannte sie gut eine Stunde lang hin und her und suchte Pokki überall und kuckte mich verständnislos an) und war sehrsehr froh, [ihn endlich wieder zu sehen](#photo-2170971493) --- ich wurde glatt ignoriert.
+
+<figure id="photo-2170971493">
+
+![Coming home](./coming-home-2170971493.jpg)
+
+</figure>
 
 Obiges Bild übrigens zeigt Pokki 5 Minuten nach Ankunft zu Hause. Er liebt es, das Wasser vom Boden des Napfes zu trinken. Sehr unphotogen und irgendwie schade um die vielen Baht …
 

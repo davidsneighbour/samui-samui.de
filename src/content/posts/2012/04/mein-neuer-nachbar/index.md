@@ -17,7 +17,13 @@ publisher:
 
 My new neighbour
 
-In einem Baum direkt neben meinem Haus hat sich der obige Nachbar eingemistet. Grün, sehr lang, schlangig.
+In einem Baum direkt neben meinem Haus hat sich der obige Nachbar eingemistet. Grün, [sehr lang](#photo-6947282554), schlangig.
+
+<figure id="photo-6947282554">
+
+![My new neighbour](./my-new-neighbour-6947282554.jpg)
+
+</figure>
 
 Hab das kurz bei meiner Hausbesitzerin angesprochen, die plötzlich sehr geschäftig nach dem Gemahl suchte --- meine letzten Schlangenmeldungen wurden noch sehr entspannt abgenickt. Wie auch immer, nach einigem Hin und Her bekam ich Folgendes zu hören:
 

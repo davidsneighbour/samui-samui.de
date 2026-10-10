@@ -15,6 +15,12 @@ publisher:
 
 The Caterpillar
 
-Giftig laut Thaiquellen. Was uns nicht hindert, Photos zu schießen.
+Giftig laut Thaiquellen. Was uns nicht hindert, [Photos](#photo-5623761661) zu schießen.
+
+<figure id="photo-5623761661">
+
+![The caterpillar](./the-caterpillar-5623761661.jpg)
+
+</figure>
 
 <!-- cspell:ignore Thaiquellen -->

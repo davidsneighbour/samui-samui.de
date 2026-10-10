@@ -14,7 +14,7 @@ Die Hunde haben sich heute besprungen. Also bitte ohne jeden Nebengedanken hier,
 
 Meine Kamera ist in Surat Thani.
 
-Im Garten blüht eine Orchideenpflanze. Sie hat bläuliche ganz ganz kleine Blüten, kleiner als ein kleiner Fingernagel. Winzig quasi.
+Im Garten blüht eine Orchideenpflanze. Sie hat bläuliche ganz, ganz kleine Blüten, kleiner als ein kleiner Fingernagel. Winzig quasi.
 
 Meine Kamera ist in Surat Thani.
 
@@ -28,6 +28,12 @@ Meine Kamera ist in Surat Thani.
 
 Im abgebrannten Gebüsch hinterm Haus blühen die Passionsblumen, oder was [das][1] ist (bin halt kein Botaniker).
 
+<figure id="photo-428032150">
+
+![Behind the house](./behind-the-house-428032150.jpg)
+
+</figure>
+
 Meine Kamera ist in Surat Thani.
 
 Soosie hat eine vorbeilaufende Hündin in den Bauch gebissen, weil die nicht mit ihr spielen wollte.
@@ -38,6 +44,10 @@ Eine grüne Raupe mit roten und weißen Streifen hat sich an meiner Tonne verpup
 
 Und meine Kamera ist in Surat Thani.
 
-Da macht man sich schon Gedanken, ob das ein guter Tausch war. Bin gespannt, was ich am Montag für Bilder drauf finde. Die (hoffentlich) zukünftige Verwandschaft bekommt den Kopf geschoren.
+Da macht man sich schon Gedanken, ob das ein guter Tausch war. Bin gespannt, was ich am Montag für Bilder drauf finde. Die (hoffentlich) zukünftige Verwandtschaft bekommt den Kopf geschoren.
 
- [1]: http://flickr.com/photos/85376146@N00/428032150
+ [1]: #photo-428032150
+
+<!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN ?!? -->
+
+<!-- grammar-ignore DE_VERBAGREEMENT bin -->

@@ -14,6 +14,14 @@ publisher:
 
 Waterfall at Wat Hin Lad
 
-Es lebe die Regenzeit. Die sonst eher trägen Wasserfälle der Insel sind tatsächlich mal reißend. Am Sonntag hatten wir ein Picknick am Wasserfall …
+Es lebe die Regenzeit. Die sonst eher trägen Wasserfälle der Insel sind tatsächlich mal reißend. Am Sonntag hatten wir [ein Picknick](#photo-1830277067) am Wasserfall …
+
+<figure id="photo-1830277067">
+
+![Piqnik at Hin Lad (wat and waterfall)](./piqnik-at-hin-lad-wat-and-waterfall-1830277067.jpg)
+
+</figure>
 
 <!-- grammar-ignore DE_CASE Hin -->
+
+<!-- cspell:ignore Piqnik -->

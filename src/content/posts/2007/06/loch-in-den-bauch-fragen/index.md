@@ -14,5 +14,11 @@ publisher:
 
 Lord Buddha.
 
-So ganz ist er noch nicht fertig. Hat noch ein Loch im Bauch. Farbenfroher als vorher ist er aber allemal. Soweit ich das verstanden habe, ist das eine Darstellung des Buddhas den wir als nächste Inkarnation erwarten. Hoffnungsvolle Zeiten für alle Adipösen.
+So ganz ist er noch nicht fertig. Hat noch ein Loch im Bauch. Farbenfroher als [vorher](#photo-409720931) ist er aber allemal. Soweit ich das verstanden habe, ist das eine Darstellung des Buddhas den wir als nächste Inkarnation erwarten. Hoffnungsvolle Zeiten für alle Adipösen.
+
+<figure id="photo-409720931">
+
+![Wat Plai Laem](./wat-plai-laem-409720931.jpg)
+
+</figure>
 

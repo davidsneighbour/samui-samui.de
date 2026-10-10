@@ -27,7 +27,13 @@ Ich war hocherfreut, konnte ich doch wieder eine Testreihe meiner Jahre alten Th
 
 Inzwischen sitzen all die glücklichen Kreuzfahrer im Käptns-Dinner und lösen wieder ihre persönlichen Konflikte und Liebschaften bis ihre Reise dann ein geplant fröhliches Ende in Singapore nimmt, wohin man, soweit ich das dem Internet entnehmen kann von China aus reiste.
 
-PS: In Großansicht sieht das Schiffchen übrigens so aus.
+PS: In Großansicht sieht das Schiffchen übrigens [so](#photo-5092893967) aus.
+
+<figure id="photo-5092893967">
+
+!["Diamond Princess" visits Koh Samui](./diamond-princess-visits-koh-samui-5092893967.jpg)
+
+</figure>
 
 <!-- cspell:ignore Genausoeindinglagvorunsererküstevoranker -->
 <!-- cspell:ignore Käptns -->

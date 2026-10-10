@@ -15,6 +15,14 @@ publisher:
 
 Pokki clean and short
 
-Mehr Photos wie immer bei Flickr. Unter anderem die Haarklammern Soosies, die genau 5 Minuten in den Haaren blieben. Arme Hello Kitty Kitty.
+Mehr Photos wie immer bei Flickr. Unter anderem [die Haarklammern Soosies](#photo-5528682313), die genau 5 Minuten in den Haaren blieben. Arme Hello Kitty Kitty.
+
+<figure id="photo-5528682313">
+
+![Soosies Hairclips](./soosies-hairclips-5528682313.jpg)
+
+</figure>
 
 <!-- grammar-ignore GERMAN_WORD_REPEAT_RULE Kitty Kitty -->
+
+<!-- cspell:ignore Hairclips -->

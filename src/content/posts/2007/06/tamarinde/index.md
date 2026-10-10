@@ -16,7 +16,13 @@ Gesund!
 
 In meinem Garten steht ein großer [Tamarindenbaum][1]. Da hängen Tamarinden dran. Manchmal landen die im Pad Thai, meistens aber in kleinen Süßigkeiten. Viel Zucker und Tamarinden. Lecker.
 
-Interessant sind aber auch die Blätter. Die wurden mir neulich vom Hausherren mit einem aufmunternden "Gin! Aroy!" vor die Nase gehalten. Da er bei solchen Aktionen meist im Rudel auftaucht, starrten mich vier Thaigesichter erwartungsvoll an und ich stopfte mir die Blätter einfach in den Mund. Lecker. Sehr sauer und saftig. Man sollte natürlich nur die jungen grünen Blätter essen.
+Interessant sind aber auch [die Blätter](#photo-563085948). Die wurden mir neulich vom Hausherren mit einem aufmunternden "Gin! Aroy!" vor die Nase gehalten. Da er bei solchen Aktionen meist im Rudel auftaucht, starrten mich vier Thaigesichter erwartungsvoll an und ich stopfte mir die Blätter einfach in den Mund. Lecker. Sehr sauer und saftig. Man sollte natürlich nur die jungen grünen Blätter essen.
+
+<figure id="photo-563085948">
+
+![Tamarind-Leaves](./tamarind-leaves-563085948.jpg)
+
+</figure>
 
 Seither beiss ich immer mal in den Tamarindenbaum, wenn die Hunde Gassi gehen …
 

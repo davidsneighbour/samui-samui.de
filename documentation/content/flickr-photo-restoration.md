@@ -33,7 +33,7 @@ Text links to the deleted account, photo pages, sets, and tags are dead. Followi
 * When the linked photo is now embedded in another post, the link points to that post.
 * Otherwise the link is removed and its text kept. Sentences that only pointed to Flickr (for example "Mehr Photos bei Flickr") are removed.
 
-The follow-up inventory on 10 October 2026 found 28 photo references in 22 posts whose images are present in the backup but are not bundled anywhere. They were not restored as images. The exact posts, IDs, and backup filenames are listed in [Archive media recovery](archive-media-recovery.md), along with remaining Flickr links and other source-link work.
+The follow-up inventory on 10 October 2026 found 28 photo references in 22 posts whose images are present in the backup but are not bundled anywhere. All 28 references were then restored as local images at their original paragraph positions, with the inline text linking to deterministic `#photo-<id>` figure anchors. The six images in `regen-4` retain their original reference order. This adds 28 images to the earlier 419-photo restoration, for 447 restored photo IDs in total. The exact posts, IDs, backup filenames, and bundled images are listed in [Archive media recovery](archive-media-recovery.md), along with the remaining Flickr links and source-link work.
 
 ## Related fixes in the same posts
 

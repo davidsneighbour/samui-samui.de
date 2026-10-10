@@ -11,10 +11,20 @@ publisher:
   covermigration: true
   flickr: true
 ---
-Eigentlich wollte ich einen längeren Eintrag dazu schreiben wie es ist als Nichtraucher im Dunkeln Geräte zum Erzeugen von Licht zu finden aber irgendwie wird das ja langweilig, sich die ganze Zeit zu beschweren. Drum sei nur kurz auf [dieses Schreiben][1] verwiesen und der Hinweis gegeben, dass Kerzenlicht ja doch ganz romantisch ist. Und die Thais haben auch viel mehr Spaß im Dunkeln. Ich glaube nur nicht, dass die in diesen stürmischen Tagen rechtzeitig mit dem Kabellegen fertigwerden.
+Eigentlich wollte ich einen längeren Eintrag dazu schreiben, wie es ist als Nichtraucher im Dunkeln Geräte zum Erzeugen von Licht zu finden aber irgendwie wird das ja langweilig, sich die ganze Zeit zu beschweren. Drum sei nur kurz auf [dieses Schreiben][1] verwiesen und der Hinweis gegeben, dass Kerzenlicht ja doch ganz romantisch ist. Und die Thais haben auch viel mehr Spaß im Dunkeln. Ich glaube nur nicht, dass die in diesen stürmischen Tagen rechtzeitig mit dem Kabellegen fertigwerden.
+
+<figure id="photo-76192345">
+
+![Lets get new cables!](./lets-get-new-cables-76192345.jpg)
+
+</figure>
 
 PS: Man glaubt gar nicht, zu was man alles Strom braucht: Kaffee, Film, Lesen (im Dunkeln), Duschen (sic! Durchlauferhitzer), Bezahlen, Kochen, Eiscreme kalt halten, Bier kalt halten ...
 
 PPS: Die _ganze_ Insel hat dann übrigens keinen Strom. Aber gesagt wird einem (mir) das nur auf Arbeit.
 
- [1]: http://www.flickr.com/photos/schreibblogade/76192345/
+ [1]: #photo-76192345
+
+<!-- grammar-ignore PRP_WAS_WO zu was -->
+
+<!-- grammar-ignore AUF_ARBEIT auf Arbeit -->

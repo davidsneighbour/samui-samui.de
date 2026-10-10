@@ -15,7 +15,13 @@ publisher:
 
 Homebuilding Thaistyle
 
-Gerade saß ich im Cafe und genoss eine Latte als beim Hausbau gegenüber der Beton-Truck kam. Ein Kranwagen mit Betonbehälter war schon da, die Säulen sollten aus dem dritten Stockwerk heraus gegossen werden.
+Gerade saß ich im Cafe und genoss eine Latte als beim Hausbau gegenüber der Beton-Truck kam. Ein Kranwagen mit Betonbehälter war schon da, [die Säulen sollten aus dem dritten Stockwerk heraus gegossen werden](#photo-198667945).
+
+<figure id="photo-198667945">
+
+![Homebuilding Thaistyle](./homebuilding-thaistyle-198667945.jpg)
+
+</figure>
 
 Der Fahrer (so um die 35 Jahre alt) stieg erst mal aus und schob mein Moped beiseite. Dann wendete er umständlich und fuhr mit Vollgas an die im Photo dargestellte Stelle heran.
 

@@ -14,6 +14,12 @@ publisher:
 
 Safe!
 
-Gut zu wissen, dass die Bankautomaten (oder in diesem Fall Kontobuchdrucker) der Thaibanken unter Windows XP laufen und nicht unter Windows Vista ;)
+Gut zu wissen, dass die Bankautomaten (oder in diesem Fall [Kontobuchdrucker](#photo-2114329861)) der Thaibanken unter Windows XP laufen und nicht unter Windows Vista ;)
+
+<figure id="photo-2114329861">
+
+![Safe!](./safe-2114329861.jpg)
+
+</figure>
 
 <!-- cspell:ignore Thaibanken -->
