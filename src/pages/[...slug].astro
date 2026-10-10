@@ -34,6 +34,8 @@ export async function getStaticPaths() {
           : undefined,
         post,
         relatedPosts: relatedPostsFor(post).map((related) => ({
+          date: related.data.date,
+          description: related.data.description,
           href: getPostUrl(related),
           title: related.data.title,
         })),

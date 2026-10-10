@@ -45,11 +45,16 @@ type Props = {
   postUrl?: string | undefined;
   newerPost?: PostNavigationItem | undefined;
   olderPost?: PostNavigationItem | undefined;
-  relatedPosts?: PostNavigationItem[] | undefined;
+  relatedPosts?: RelatedPostItem[] | undefined;
   taxonomies?: PostTaxonomyGroup[] | undefined;
   themen?: string[] | undefined;
   hasVimeo?: boolean | undefined;
   hasYoutube?: boolean | undefined;
+};
+
+type RelatedPostItem = PostNavigationItem & {
+  date: Date;
+  description?: string | undefined;
 };
 
 type PostNavigationItem = {
@@ -204,12 +209,23 @@ const publishedYear = publishedOn
             <ul class="grid gap-4 sm:grid-cols-2">
               {relatedPosts.map((related) => (
                 <li class="min-w-0">
+                  <time
+                    datetime={related.date.toISOString()}
+                    class="mb-1 block text-xs text-muted-foreground"
+                  >
+                    {formatDate(related.date)}
+                  </time>
                   <a
                     href={related.href}
                     class="block break-words rounded-[calc(var(--radius)-4px)] text-link hover:underline focus-visible:focus-ring"
                   >
                     {related.title}
                   </a>
+                  {related.description?.trim() && (
+                    <p class="mt-2 line-clamp-2 text-sm text-muted-foreground">
+                      {related.description}
+                    </p>
+                  )}
                 </li>
               ))}
             </ul>

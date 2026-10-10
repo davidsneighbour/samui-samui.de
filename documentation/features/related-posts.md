@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD013 -->
 # Related posts
 
-Individual blog posts show up to four links under "Verwandte Beiträge", between the article body and chronological navigation. The section is omitted when no other post shares a taxonomy value. It uses existing card, link, heading, spacing, radius, and focus tokens, stacks on small screens, and uses two columns from the `sm` breakpoint. It requires no browser JavaScript and is excluded from Pagefind text indexing.
+Individual blog posts show up to four links under "Verwandte Beiträge", between the article body and chronological navigation. The section is omitted when no other post shares a taxonomy value. It uses existing card, link, heading, spacing, radius, and focus tokens, stacks on small screens, and uses two columns from the `sm` breakpoint. Each link includes its publication date, formatted in German using Thailand time, and the existing plain-text `description` when present. Descriptions use the existing small body text and muted text tokens and are visually clamped to two lines; the full text remains available to assistive technology. Missing or blank descriptions produce no excerpt. It requires no browser JavaScript and is excluded from Pagefind text indexing.
 
 `src/utils/related-posts.ts` builds an inverted taxonomy index once during route generation. Each distinct shared canonical value contributes four points for `ereignisse`, three for `personen`, two for `orte`, or one for `themen`. Scores add across values and taxonomies. This favours specific event connections over a single broad topic match. References may be strings or Astro reference objects; identical IDs in different taxonomies remain distinct. Holidays are outside this discovery model.
 
