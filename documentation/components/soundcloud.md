@@ -1,23 +1,11 @@
-# SoundCloud audio embed
+# SoundCloud replacement
 
-The archive post `src/content/posts/2018/02/in-der-mitte-des-lebens/index.md` currently contains a direct SoundCloud iframe for track `36535141`. The owner authorised restoring its CSP permission as an interim archive repair, pending [the privacy and media-component review](https://github.com/davidsneighbour/samui-samui.de/issues/1805).
+The owner decided in [the media review](https://github.com/davidsneighbour/samui-samui.de/issues/1805) to replace the direct SoundCloud player in `src/content/posts/2018/02/in-der-mitte-des-lebens/index.md` with [the YouTube video supplied in the issue comment](https://github.com/davidsneighbour/samui-samui.de/issues/1805#issuecomment-6097082209). The selected video is `d8TgCmngOqY`, "The Sun’s Gone Dim and the Sky’s Turned Black", by Jóhann Jóhannsson. YouTube’s oEmbed response confirms the title and the artist’s Topic channel; the owner supplied and approved this replacement.
 
-## Current behaviour
+The post uses the existing [`dnb-youtube` component](youtube.md), with an accessible title, a German play label, and a [locally cached poster](../content/video-thumbnail-cache.md). The player connects to `www.youtube-nocookie.com` only after activation. No new component or provider permission is required.
 
-The iframe loads `https://w.soundcloud.com/player/` when the article renders. It is not click-to-connect. Its playback and privacy suitability have not been established by adding a CSP permission. The provider's [privacy policy](https://soundcloud.com/pages/privacy) and [cookie policy](https://soundcloud.com/pages/cookies) are the starting points for the review.
+No SoundCloud embeds remain. `public/.htaccess` no longer permits `w.soundcloud.com` in `frame-src`, and the privacy policy no longer describes a SoundCloud integration. Historical outbound SoundCloud links in other posts remain ordinary links.
 
-`public/.htaccess` permits exactly `https://w.soundcloud.com` in `frame-src`. No SoundCloud host was added to the parent page's `script-src`, `connect-src`, or other directives. The embedded document controls its own subresource requests; the parent page's permission is not a list of every host the player might contact. The privacy policy at `src/pages/kleingedrucktes/datenschutzerklaerung.mdx` discloses this direct-load integration and includes a source comment linking the pending review.
+## Verification
 
-## Required decision
-
-Research player requests, cookies, storage, analytics, and account behaviour. Then retain SoundCloud only through a coordinated shared media component with the site's required privacy behaviour, replace it with a video of the same recording through the existing click-to-connect integration, or remove it. Keep the component, CSP, and privacy policy aligned with the selected behaviour. Remove the SoundCloud permission and disclosure if the site no longer embeds SoundCloud.
-
-## Related archive cleanup
-
-The Reuters image in `src/content/posts/2013/08/angeblich-nur-50-000-liter/index.md` was copied byte-for-byte from its full-size WordPress upload into the post bundle and converted to a Markdown image, preserving its alternative text and Reuters credit. The original upload remains available. The owner removed the Facebook publishing metadata in `src/content/posts/2012/07/somchai-somsak-und-somporn/index.md`; its avatar reference occurred inside that metadata, not in the article body. The completed markup audit was retired; the SoundCloud privacy decision remains in its separate review issue.
-
-Historical prose is preserved under the owner-approved scoped archive-cleanup exception. Content-language findings remain editorial debt; no blanket suppressions or hook configuration changes are introduced. The cleanup commit skips its pre-commit hook invocation after separate validation.
-
-## Validation
-
-The production build and standard quality gate passed, including all 409 tests. A browser check applying the exact configured CSP allowed the SoundCloud iframe with a stubbed provider response; real playback and provider privacy behaviour remain unverified. The bundled Reuters image decoded successfully, generated Astro `srcset` derivatives, and retained its visible credit. Its bundled source matches the original upload bytes. The Facebook post contains no Facebook reference after the owner’s metadata removal. Scoped content checks reported 13 spelling findings, zero grammar findings, and zero Vale findings in the two edited archive posts; the existing prose remains unchanged.
+The production build and standard quality gate passed, including 410 tests. A Chromium check against the built article applied the exact CSP from `public/.htaccess`: the poster loaded from a local generated asset, no SoundCloud or YouTube requests occurred on load, hover, or focus, and activation created the selected `youtube-nocookie.com` iframe. The same checks passed after client-side navigation in a fresh browser context. The checks establish component loading and network timing; they do not establish complete playback or provider privacy suitability after activation. Production deployment remains separate.

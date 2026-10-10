@@ -72,3 +72,5 @@ disk.
   `npm run thumbnails:verify` weekly and files/comments on a tracking issue
   when a referenced video is no longer live/reachable — mirroring
   `kollitsch.dev`'s equivalent YouTube-only workflow.
+
+The Markdown poster plugin accepts both resolved image metadata and source-path imports from Astro’s configuration loader. It registers source paths with Astro’s local image pipeline so the built poster has a real local asset URL, rather than an empty image element. This was verified while replacing SoundCloud in [the media review](https://github.com/davidsneighbour/samui-samui.de/issues/1805).

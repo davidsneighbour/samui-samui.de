@@ -6,6 +6,7 @@ import rehypeRaw from 'rehype-raw';
 import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
 import { unified } from 'unified';
+import { VFile } from 'vfile';
 import { describe, expect, it } from 'vitest';
 
 // Mirrors astro.config.ts's `markdown.rehypePlugins` ordering: rehypeRaw
@@ -42,6 +43,20 @@ function fakeThumbnail(overrides: Partial<ImageMetadata> = {}): ImageMetadata {
 }
 
 describe('rehypeVideoPosters', () => {
+  it('registers source-path imports for Astro image processing', async () => {
+    const src = '/src/assets/images/video-thumbnails/youtube/d8TgCmngOqY.jpg';
+    const processor = buildProcessor(() => src);
+    const file = new VFile();
+    const tree = await processor.run(
+      processor.parse('<dnb-youtube videoid="d8TgCmngOqY"></dnb-youtube>'),
+      file,
+    );
+
+    expect(file.data).toMatchObject({ astro: { localImagePaths: [src] } });
+    expect(toHtml(tree as Root)).toContain(`src="${src}"`);
+    expect(toHtml(tree as Root)).toContain('slot="poster"');
+  });
+
   it('injects a poster img for a dnb-youtube element with a known thumbnail', async () => {
     const html = await render(
       '<dnb-youtube videoid="dQw4w9WgXcQ"></dnb-youtube>',

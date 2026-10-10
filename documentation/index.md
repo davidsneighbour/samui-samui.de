@@ -17,7 +17,7 @@
 * [Person taxonomy link](components/person-link.md) documents the `<PersonLink>`/`<dnb-person>` link from post prose to a `personen` entity page.
 * [Post covers](components/post-covers.md) describes optional image, YouTube, and Vimeo cover media rendered by post and list views.
 * [Prose reading column](components/prose-reading-column.md) documents the post text measure and the build-time marking that lets embedded media use the full card width.
-* [SoundCloud embed](components/soundcloud.md) records the interim CSP permission, direct-load privacy disclosure, and pending media-component decision.
+* [SoundCloud replacement](components/soundcloud.md) records the approved YouTube replacement and removal of the SoundCloud CSP permission and privacy disclosure.
 * [Theme toggle](components/theme-toggle.md) documents the masthead light/dark theme button and its Morphicons icon morph.
 * [Tooltips](components/tooltips.md) documents the shared tooltip primitive.
 * [Vimeo embed](components/vimeo.md) documents the lazy Vimeo Astro wrapper and raw Markdown custom element.

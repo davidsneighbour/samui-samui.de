@@ -1,6 +1,7 @@
 import type { ImageMetadata } from 'astro';
 import type { Element, ElementContent, Root } from 'hast';
 import { visitParents } from 'unist-util-visit-parents';
+import type { VFile } from 'vfile';
 // Relative import only: astro.config.ts loads this module directly, before
 // Vite's `@utils/*` path aliases are registered (see rehype/legacy-images.ts).
 import {
@@ -16,7 +17,7 @@ const ELEMENT_NAMES = {
 type ThumbnailResolver = (
   provider: VideoThumbnailProvider,
   videoId: string,
-) => ImageMetadata | undefined;
+) => ImageMetadata | string | undefined;
 
 interface Target {
   node: Element;
@@ -50,13 +51,8 @@ function hasPosterChild(node: Element): boolean {
  * single source of truth (see
  * documentation/content/video-thumbnail-cache.md).
  *
- * `YoutubeScript.astro`/`VimeoScript.astro`'s `dnb-youtube`/`dnb-vimeo`
- * custom elements already skip their client-side live-fetch fallback
- * whenever a `[slot="poster"]` light-DOM child is present (added for the
- * cover case) — this plugin just gives raw markdown embeds that same
- * child. An element is left untouched when no local thumbnail has been
- * downloaded yet for its video id, so it keeps today's documented
- * live-fetch-on-connect behaviour until the maintenance script has run.
+ * The custom elements use the injected local poster. When no thumbnail
+ * exists, they show a neutral placeholder without contacting the provider.
  *
  * Must run after `rehypeRaw` (see astro.config.ts), same requirement as
  * `rehypeDnbNotice`/`rehypeDnbPerson`.
@@ -68,7 +64,7 @@ function hasPosterChild(node: Element): boolean {
 export function rehypeVideoPosters(
   resolveThumbnail: ThumbnailResolver = resolveLocalThumbnail,
 ) {
-  return (tree: Root) => {
+  return (tree: Root, file: VFile) => {
     const targets: Target[] = [];
     visitParents(tree, 'element', (node) => {
       const provider =
@@ -84,15 +80,29 @@ export function rehypeVideoPosters(
 
       const thumbnail = resolveThumbnail(provider, videoId);
       if (!thumbnail) continue;
+      // Config-loaded asset imports are source paths before Astro's image
+      // pipeline runs. Register them so Astro emits a local build asset.
+      const src = typeof thumbnail === 'string' ? thumbnail : thumbnail.src;
+      if (typeof thumbnail === 'string') {
+        const data = file.data as {
+          astro?: { localImagePaths?: string[] };
+        };
+        data.astro ??= {};
+        data.astro.localImagePaths ??= [];
+        if (!data.astro.localImagePaths.includes(src)) {
+          data.astro.localImagePaths.push(src);
+        }
+      }
 
       const poster: Element = {
         children: [],
         properties: {
           alt: '',
-          height: thumbnail.height,
+          ...(typeof thumbnail === 'string'
+            ? {}
+            : { height: thumbnail.height, width: thumbnail.width }),
           slot: 'poster',
-          src: thumbnail.src,
-          width: thumbnail.width,
+          src,
         },
         tagName: 'img',
         type: 'element',
