@@ -66,7 +66,7 @@ AddType image/avif .avif
   # (analytics.dnbhub.xyz), Giscus (giscus.app), YouTube/Vimeo embeds,
   # Cloudflare Turnstile (challenges.cloudflare.com), Pagefind's WASM index
   # ('wasm-unsafe-eval'), and MapLibre/OpenFreeMap (tiles.openfreemap.org).
-  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://challenges.cloudflare.com https://giscus.app https://analytics.dnbhub.xyz; style-src 'self' 'unsafe-inline' https://giscus.app; img-src 'self' data: blob: https:; font-src 'self'; frame-src https://www.youtube-nocookie.com https://player.vimeo.com https://giscus.app https://challenges.cloudflare.com; connect-src 'self' https://analytics.dnbhub.xyz https://tiles.openfreemap.org; worker-src 'self'; child-src blob:; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://challenges.cloudflare.com https://giscus.app https://analytics.dnbhub.xyz; style-src 'self' 'unsafe-inline' https://giscus.app; img-src 'self' data: blob: https:; font-src 'self'; frame-src https://w.soundcloud.com https://www.youtube-nocookie.com https://player.vimeo.com https://giscus.app https://challenges.cloudflare.com; connect-src 'self' https://analytics.dnbhub.xyz https://tiles.openfreemap.org; worker-src 'self'; child-src blob:; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
   Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set X-Content-Type-Options "nosniff"

@@ -1,6 +1,6 @@
 ---
 title: Datenschutzerklärung
-lastmod: 2026-10-09T20:07:29+07:00
+lastmod: 2026-10-10T18:17:07+07:00
 ---
 
 import PageLayout from '@layouts/PageLayout.astro';
@@ -45,7 +45,7 @@ Wir selbst setzen auf dieser Seite keine Cookies ein. Folgende Einstellungen und
 *   Ihre Einstellung für Klangeffekte (ein-/ausgeschaltet)
 *   der zwischengespeicherte Wetterstand für Koh Samui (siehe Abschnitt „Wetterdaten")
 
-Einzelne von uns eingebundene Drittanbieter-Dienste (z.B. Cloudflare Turnstile, giscus, YouTube, Vimeo) können im Rahmen ihrer jeweiligen Funktion eigene Cookies setzen oder — wie giscus nach einer Anmeldung — Daten im lokalen Speicher Ihres Browsers ablegen. Nähere Informationen hierzu finden Sie in den jeweiligen Abschnitten dieser Datenschutzerklärung.
+Einzelne von uns eingebundene Drittanbieter-Dienste (z.B. Cloudflare Turnstile, giscus, YouTube, Vimeo, SoundCloud) können im Rahmen ihrer jeweiligen Funktion eigene Cookies setzen oder — wie giscus nach einer Anmeldung — Daten im lokalen Speicher Ihres Browsers ablegen. Nähere Informationen hierzu finden Sie in den jeweiligen Abschnitten dieser Datenschutzerklärung.
 
 ## Hosting, Auslieferung und Serverdaten
 
@@ -141,6 +141,12 @@ Weitere Informationen zum Datenschutz bei Vimeo finden Sie unter [vimeo.com/priv
 
 Zur Anzeige der Wetterlage auf Koh Samui ruft eine serverseitige Funktion bei Cloudflare (Cloudflare Worker, siehe Abschnitt „Hosting, Auslieferung und Serverdaten“) Wetterdaten für einen fest vorgegebenen Standort von Open-Meteo ab. Der Standort der Besucherinnen und Besucher wird dabei weder abgefragt noch übertragen, und Ihr Browser verbindet sich zu keinem Zeitpunkt direkt mit Open-Meteo. Die Wetterdaten werden bei Cloudflare zwischengespeichert, und an Open-Meteo werden keinerlei besucherbezogene Daten (z.B. IP-Adresse oder User-Agent) weitergegeben. Bei der Abfrage werden keine Daten zu Ihnen protokolliert. Zusätzlich speichert Ihr Browser die zuletzt abgerufenen Wetterdaten für Koh Samui im lokalen Speicher (Local Storage) Ihres Geräts zwischen, damit die Wetteranzeige beim erneuten Besuch schneller erscheint; dabei handelt es sich ausschließlich um die Wetterdaten des fest vorgegebenen Standorts, nicht um Standort- oder sonstige Daten zu Ihnen.
 
+## Einsatz von SoundCloud
+
+Im Beitrag „In der Mitte des Lebens“ ist derzeit ein Audioplayer von SoundCloud über `w.soundcloud.com` eingebunden. Der Player wird beim Aufruf des Beitrags geladen, ohne dass Sie ihn zuvor aktivieren müssen. Dabei stellt Ihr Browser eine Verbindung zu SoundCloud her und übermittelt technische Verbindungsdaten, darunter Ihre IP-Adresse und Browserinformationen. SoundCloud kann außerdem Informationen über die besuchte Seite und die Nutzung des Players verarbeiten sowie Cookies und ähnliche Technologien einsetzen. Weitere Informationen finden Sie in der [Datenschutzerklärung von SoundCloud](https://soundcloud.com/pages/privacy) und der [Cookie-Richtlinie von SoundCloud](https://soundcloud.com/pages/cookies).
+
+{/* Review the direct SoundCloud embed, provider requests, and cookies before retaining it. Decide on a click-to-connect media component, a video of the same recording, or removal: https://github.com/davidsneighbour/samui-samui.de/issues/1805 */}
+
 ## Einsatz von OpenFreeMap-Karten
 
 Auf einzelnen Seiten (z.B. der Kontaktseite) kann eine interaktive Karte angezeigt werden. Die Karte wird erst geladen, wenn der jeweilige Kartenbereich im Browser sichtbar wird. Als Darstellungsbibliothek verwenden wir MapLibre GL JS, eine quelloffene Kartenbibliothek. Die Kartenstile, Vektorkacheln, Schrift- und Symbolressourcen werden dabei über OpenFreeMap (`tiles.openfreemap.org`) geladen.
@@ -151,7 +157,7 @@ Es wird keine Verbindung zu Google Maps oder Mapbox aufgebaut, und für diese Ka
 
 Für die Verarbeitung personenbezogener Daten durch uns gilt in erster Linie thailändisches Recht (siehe oben). Unabhängig davon räumen wir Ihnen freiwillig die aus der DSGVO bekannten Betroffenenrechte ein: Sie können sich jederzeit unentgeltlich an uns wenden, um Auskunft über die zu Ihrer Person gespeicherten Daten zu erhalten sowie deren Berichtigung, Löschung oder die Einschränkung der Verarbeitung zu verlangen oder eine erteilte Einwilligung zu widerrufen, soweit dem keine gesetzliche Aufbewahrungspflicht entgegensteht.
 
-Da wir nicht in der Europäischen Union oder dem Europäischen Wirtschaftsraum niedergelassen sind, besteht formal kein Recht auf Beschwerde bei einer dortigen Datenschutz-Aufsichtsbehörde gegen uns selbst. Bei Anliegen zur Verarbeitung Ihrer Daten durch einen der oben genannten Drittanbieter (z.B. DreamHost, Cloudflare, Matomo, Resend, giscus/GitHub, YouTube/Google, Vimeo oder OpenFreeMap) wenden Sie sich bitte direkt an den jeweiligen Anbieter; für Anliegen zu unserer eigenen Verarbeitung erreichen Sie uns über die [Kontakt][1]-Angaben.
+Da wir nicht in der Europäischen Union oder dem Europäischen Wirtschaftsraum niedergelassen sind, besteht formal kein Recht auf Beschwerde bei einer dortigen Datenschutz-Aufsichtsbehörde gegen uns selbst. Bei Anliegen zur Verarbeitung Ihrer Daten durch einen der oben genannten Drittanbieter (z.B. DreamHost, Cloudflare, Matomo, Resend, giscus/GitHub, YouTube/Google, Vimeo, SoundCloud oder OpenFreeMap) wenden Sie sich bitte direkt an den jeweiligen Anbieter; für Anliegen zu unserer eigenen Verarbeitung erreichen Sie uns über die [Kontakt][1]-Angaben.
 
  [1]: /kontakt/
 
