@@ -54,8 +54,8 @@ describe('currency conversion', () => {
     expect(convertCurrency(25.5, 'EUR', 40)).toBe(1020);
     expect(convertCurrency(0, 'THB', 40)).toBe(0);
     expect(convertCurrency(-10, 'EUR', 40)).toBe(-400);
-    expect(formatConversion(1000, 'THB', 37.574)).toBe('ca. 26,61\u00a0€');
-    expect(formatConversion(25, 'EUR', 37.574)).toBe('ca. 939\u00a0฿');
+    expect(formatConversion(1000, 'THB', 37.574)).toBe('≈ 26,61\u00a0€');
+    expect(formatConversion(25, 'EUR', 37.574)).toBe('≈ 939\u00a0฿');
     expect(formatCurrency(1000, 'EUR')).toBe('1.000,00\u00a0€');
   });
   it.each([0, -1, NaN, Infinity])('rejects rate %s', (rate) => {

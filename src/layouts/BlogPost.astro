@@ -16,6 +16,10 @@ import Header from '@components/layout/header/Header.astro';
 import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import Separator from '@components/ui/separator.astro';
 import type { ResolvedPostCover } from '@utils/covers';
+import {
+  type HistoricalCurrency,
+  serialiseHistoricalCurrency,
+} from '@utils/currency/historical';
 import { formatDate, getPostDateParts } from '@utils/dates';
 import { proseClasses } from '@utils/prose';
 import type { PostReadingTime } from '@utils/reading-time';
@@ -33,6 +37,7 @@ const AuthorBio = authorFooter
 
 type Props = {
   title: string;
+  currency?: HistoricalCurrency | undefined;
   readingTime?: PostReadingTime | undefined;
   description?: string | undefined;
   pubDate?: Date | undefined;
@@ -64,6 +69,7 @@ type PostNavigationItem = {
 
 const {
   title,
+  currency,
   readingTime,
   description,
   pubDate,
@@ -130,6 +136,10 @@ const publishedYear = publishedOn
       class="mx-auto max-w-4xl px-4 py-8"
     >
       <article
+        data-currency-history={serialiseHistoricalCurrency(
+          currency,
+          publishedOn,
+        )}
         class="cover-card rounded-(--radius) border-border dark:border-transparent bg-card text-card-foreground"
       >
         {postCover && (

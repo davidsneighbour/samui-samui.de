@@ -33,4 +33,8 @@ The issue stays open for unrelated archive damage. Browser regression checks and
 
 ## Historical rates
 
-Frankfurter supports an explicit `date` parameter for historical ECB reference rates, for example `/v2/rate/eur/thb?providers=ecb&date=2005-01-20`. The API returned the reference date `2005-01-20` and rate `49.862` when checked on 10 October 2026. A future historical mode should use the actual transaction date where known (otherwise a clearly labelled publication-date assumption), retain the response date when the requested day has no rate, and cache each date/pair independently. This retrieves historical observations rather than simulating them. Historical FX conversion does not measure inflation or present-day purchasing power. Historical mode is not implemented by the current shared recent-rate service.
+Historical posts may explicitly opt into stored frontmatter rates, with an optional then-versus-now comparison. See [Historical currency](../content/historical-currency.md) for the schema, atomic audit/enrichment commands, stale-date detection, metadata transport, offline behaviour, and initial archive migration. Current hints retain their dated reference value. Historical rates are resolved only by maintenance scripts, never by the browser; this compares nominal exchange-rate equivalents without inflation or purchasing-power modelling.
+
+Approximate conversions use `≈`. Comparison columns show only their actual reference dates, with one centred `EZB-Referenzkurs` footer in the existing `muted-foreground` colour and `mt-1` spacing. Native popovers use visible overflow so the shared arrow does not create a browser scrollbar. The source is readable without a second interaction.
+
+Each comparison column places its label and value on the same line (`Damals ≈ …`, `Heute ≈ …`), with its reference date directly below.

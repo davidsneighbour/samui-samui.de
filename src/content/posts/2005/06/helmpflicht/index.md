@@ -2,6 +2,19 @@
 title: Helmpflicht
 date: 2005-06-26T13:44:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
+currency:
+  compareCurrent: true
+  mode: historical
+  schema: 1
+  dateBasis: publication
+  requestedDate: 2005-06-26
+  resolvedFor: 2005-06-26
+  rate: 49.595
+  rateDate: 2005-06-24
+  base: EUR
+  provider: ECB
+  quote: THB
+  source: frankfurter
 publisher:
   description: true
   summary: true

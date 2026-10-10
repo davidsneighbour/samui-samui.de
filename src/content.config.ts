@@ -1,6 +1,7 @@
 import { defineCollection, reference } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
+import { historicalCurrencySchema } from './utils/currency/historical-schema';
 import { staticMapsSchema } from './utils/static-maps/schema';
 import { eventDateSchema } from './utils/taxonomies/event-dates';
 
@@ -107,6 +108,7 @@ const posts = defineCollection({
     .extend({
       cover: bundledCoverFrontmatter,
       curation: curationFrontmatter,
+      currency: historicalCurrencySchema.optional(),
       date: z.coerce.date(),
       dsq_thread_id: z.array(z.union([z.string(), z.number()])).optional(),
       ereignisse: z.array(reference('ereignisse')).default([]),

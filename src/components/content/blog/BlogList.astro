@@ -13,6 +13,7 @@ import Button from '@components/ui/button.astro';
 import Pagination from '@components/ui/pagination.astro';
 import Separator from '@components/ui/separator.astro';
 import { getPostCover } from '@utils/covers';
+import { serialiseHistoricalCurrency } from '@utils/currency/historical';
 import { getPostDateParts } from '@utils/dates';
 import { getPostPreviewHtml } from '@utils/post-preview';
 import { getPostUrl as getCanonicalPostUrl } from '@utils/posts';
@@ -135,7 +136,13 @@ const showTopPagination = showPagination && pageNumber > 1;
     ({ cover, fullPostHtml, hasVimeo, hasYoutube, post, summary }, index) => (
       <li>
         {shouldFeaturePost(index) ? (
-          <article class="cover-card rounded-(--radius) border-border dark:border-transparent bg-card text-card-foreground">
+          <article
+            data-currency-history={serialiseHistoricalCurrency(
+              post.data.currency,
+              post.data.date,
+            )}
+            class="cover-card rounded-(--radius) border-border dark:border-transparent bg-card text-card-foreground"
+          >
             {cover && (
               <PostCover
                 cover={cover}
@@ -179,7 +186,13 @@ const showTopPagination = showPagination && pageNumber > 1;
             </div>
           </article>
         ) : (
-          <article class="group rounded-(--radius) border border-border bg-card px-4 py-6 text-card-foreground transition-colors duration-200 hover:border-muted-foreground/40 focus-within:border-muted-foreground/40 dark:border-transparent dark:hover:border-border/60 dark:focus-within:border-border/60 sm:px-6">
+          <article
+            data-currency-history={serialiseHistoricalCurrency(
+              post.data.currency,
+              post.data.date,
+            )}
+            class="group rounded-(--radius) border border-border bg-card px-4 py-6 text-card-foreground transition-colors duration-200 hover:border-muted-foreground/40 focus-within:border-muted-foreground/40 dark:border-transparent dark:hover:border-border/60 dark:focus-within:border-border/60 sm:px-6"
+          >
             <header class="mb-4">
               <BlogPostTitle
                 title={post.data.title}

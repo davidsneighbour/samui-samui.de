@@ -841,3 +841,11 @@ dnb-currency[data-currency-ready] [data-tooltip-trigger] {
   text-decoration-style: dotted;
   text-underline-offset: 0.2em;
 }
+
+/* Native comparison popovers retain shared fixed tooltip positioning. */
+.currency-comparison[popover] {
+  overflow: visible;
+  margin: 0;
+  right: auto;
+  bottom: auto;
+}

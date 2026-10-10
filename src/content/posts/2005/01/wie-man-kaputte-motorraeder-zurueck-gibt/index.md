@@ -4,6 +4,19 @@ date: 2005-01-21T09:05:00+07:00
 dsq_thread_id:
   - "6412166557"
 lastmod: 2023-09-10T19:14:12+07:00
+currency:
+  compareCurrent: true
+  mode: historical
+  schema: 1
+  dateBasis: publication
+  requestedDate: 2005-01-21
+  resolvedFor: 2005-01-21
+  rate: 50.116
+  rateDate: 2005-01-21
+  base: EUR
+  provider: ECB
+  quote: THB
+  source: frankfurter
 publisher:
   description: true
   summary: true

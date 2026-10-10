@@ -34,6 +34,19 @@ Post entries live in `src/content/posts/**/index.md`. The post schema is loose s
 | `curation.anniversary` | Optional object. | Date-based curation branch. | [Curation frontmatter](curation-frontmatter.md) |
 | `curation.anniversary.status` | Required when `curation.anniversary` exists. | `include`, `exclude`, or `review`. | [Curation frontmatter](curation-frontmatter.md) |
 | `curation.anniversary.note` | Optional string. | Short editorial note explaining the anniversary decision. | [Curation frontmatter](curation-frontmatter.md) |
+| `currency` | Optional strict object. | Explicit historical currency configuration; omitted for current hints. | [Historical currency](historical-currency.md) |
+| `currency.mode` | Required literal `historical`. | Opt in; scripts never assign this automatically. | [Historical currency](historical-currency.md) |
+| `currency.compareCurrent` | Optional boolean, default `false`. | Add the browser-cached current comparison. | [Historical currency](historical-currency.md) |
+| `currency.schema` | Optional literal `1`. | Generated metadata version. | [Historical currency](historical-currency.md) |
+| `currency.requestedDate` | Optional ISO calendar date. | Defaults to the publication day in Bangkok. | [Historical currency](historical-currency.md) |
+| `currency.rateDate` | Optional ISO calendar date. | Actual reference day, on or before requestedDate. | [Historical currency](historical-currency.md) |
+| `currency.resolvedFor` | Optional ISO calendar date. | Generated requested day used to detect edited overrides. | [Historical currency](historical-currency.md) |
+| `currency.dateBasis` | Optional enum: `publication`, `override`. | Generated date provenance; detects publication-date changes. | [Historical currency](historical-currency.md) |
+| `currency.base` | Optional literal `EUR`. | Historical source currency. | [Historical currency](historical-currency.md) |
+| `currency.quote` | Optional literal `THB`. | Historical target currency. | [Historical currency](historical-currency.md) |
+| `currency.rate` | Optional finite positive number. | Immutable THB per EUR after enrichment. | [Historical currency](historical-currency.md) |
+| `currency.provider` | Optional literal `ECB`. | Historical provider. | [Historical currency](historical-currency.md) |
+| `currency.source` | Optional literal `frankfurter`. | Historical API source. | [Historical currency](historical-currency.md) |
 | `date` | Required date. | Publication timestamp, interpreted in Thailand time. | [Post metadata](post-metadata.md), [Post paths](post-paths.md) |
 | `dsq_thread_id` | Optional array. | Legacy Disqus thread ids retained from migration data. | [Content schema](content-schema.md) |
 | `ereignisse` | Array of event references, default `[]`. | Registered event ids associated with the post. | [Content taxonomies](taxonomies.md) |

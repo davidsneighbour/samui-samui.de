@@ -109,6 +109,8 @@
     "compile:package:install": "wireit",
     "compile:package:update": "wireit",
     "covers": "node src/scripts/post-covers.ts",
+    "currency:archive": "node src/scripts/currency/enrich-archive.ts",
+    "currency:enrich": "node src/scripts/currency/enrich.ts",
     "deploy": "node ./src/scripts/deploy/deploy.ts",
     "deploy:full": "node ./src/scripts/deploy/deploy.ts --rules",
     "deploy:releases": "node ./src/scripts/deploy/releases.ts",

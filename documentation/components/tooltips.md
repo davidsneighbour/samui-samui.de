@@ -21,3 +21,7 @@ Example:
 ## Content placement rule
 
 Content tooltips must prefer the top, as required by DESIGN.md. The component defaults to `placement="top"`; raw shared-tooltip markup should set `data-tooltip-placement="top"` or omit the preference. The shared controller resolves available viewport space before each opening and on scroll or resize, falls back to the other side when needed, and updates `data-tooltip-resolved-placement` so the arrow follows the actual placement. Explicit bottom placement remains available for surfaces outside content.
+
+## Read-only comparison popovers
+
+Historical currency comparison panels reuse the shared controller and accessible tooltip role. When a content element carries `popover="manual"`, the controller opens it before measuring, closes it on dismissal, and clears open hints before Astro swaps the page. Browsers without the native API use the existing fixed tooltip behaviour. The comparison contains read-only information, with no dialog semantics or extra tab stops. See [Historical currency](../content/historical-currency.md).

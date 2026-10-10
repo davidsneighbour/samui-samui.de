@@ -5,15 +5,22 @@ import {
   validateAmount,
 } from '@utils/currency/conversion';
 
+import {
+  type HistoricalCurrency,
+  serialiseHistoricalCurrency,
+} from '@utils/currency/historical';
+
 interface Props {
   amount: number;
   currency: Currency;
+  historical?: HistoricalCurrency;
 }
-const { amount, currency } = Astro.props;
+const { amount, currency, historical } = Astro.props;
 validateAmount(amount, currency);
 ---
 
 <dnb-currency
+  data-currency-history={serialiseHistoricalCurrency(historical)}
   amount={amount}
   currency={currency}
   ><slot>{formatCurrency(amount, currency)}</slot></dnb-currency

@@ -65,6 +65,7 @@ export const TOOLTIP_CONTROLLER_SCRIPT = `(() => {
       const parts = getParts(tooltip);
       if (!parts) return;
 
+      if (typeof parts.content.showPopover === 'function' && parts.content.hasAttribute('popover') && !parts.content.matches(':popover-open')) parts.content.showPopover();
       positionTooltip(tooltip);
       tooltip.dataset.tooltipState = 'open';
       parts.content.setAttribute('aria-hidden', 'false');
@@ -75,6 +76,7 @@ export const TOOLTIP_CONTROLLER_SCRIPT = `(() => {
       const parts = getParts(tooltip);
       if (!parts) return;
 
+      if (typeof parts.content.hidePopover === 'function' && parts.content.matches(':popover-open')) parts.content.hidePopover();
       delete tooltip.dataset.tooltipState;
       parts.content.setAttribute('aria-hidden', 'true');
       openTooltips.delete(tooltip);
@@ -128,6 +130,7 @@ export const TOOLTIP_CONTROLLER_SCRIPT = `(() => {
       });
     });
 
+    document.addEventListener('astro:before-swap', () => openTooltips.forEach(hideTooltip));
     window.addEventListener('resize', syncOpenTooltips);
     window.addEventListener('scroll', syncOpenTooltips, true);
   })();`;

@@ -2,6 +2,19 @@
 title: In the laundry Pt.II
 date: 2005-01-20T01:53:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
+currency:
+  compareCurrent: true
+  mode: historical
+  schema: 1
+  dateBasis: publication
+  requestedDate: 2005-01-20
+  resolvedFor: 2005-01-20
+  rate: 49.862
+  rateDate: 2005-01-20
+  base: EUR
+  provider: ECB
+  quote: THB
+  source: frankfurter
 publisher:
   description: true
   summary: true

@@ -43,7 +43,7 @@ export function formatConversion(
   currency: Currency,
   rate: number,
 ): string {
-  return `ca. ${formatCurrency(convertCurrency(amount, currency, rate), currency === 'THB' ? 'EUR' : 'THB', currency === 'THB' ? 2 : 0)}`;
+  return `≈ ${formatCurrency(convertCurrency(amount, currency, rate), currency === 'THB' ? 'EUR' : 'THB', currency === 'THB' ? 2 : 0)}`;
 }
 
 export function formatRateDate(rateDate: string): string {

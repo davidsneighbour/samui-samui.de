@@ -621,3 +621,11 @@ Explicit currency amounts retain their surrounding prose colour and typography. 
 ## Content tooltip placement
 
 Tooltips in content MUST prefer the space above their trigger. When there is insufficient space above and sufficient space below, the shared controller MUST open below instead. It clamps the surface within the viewport when neither side fits. Top placement is the shared component default; a deliberate bottom preference may be specified for other surfaces. The arrow follows the resolved placement, including fallback. Currency hints follow this rule.
+
+## Historical currency comparison
+
+Historical-only hints retain the existing two-line tooltip, with `damals ≈ …` as the primary conversion. Explicit comparison mode uses a read-only popover with the shared tooltip surface, colours, 12px typography, small radius, padding, arrow, focus ring, and top-placement rule. The stored value appears under "Damals" immediately; "Heute" appears only when a usable current reference rate exists. Each side shows its actual ECB reference date. Two columns use the existing 16px spacing token (`gap-4`), with one column while only the historical rate is available. The shared 18rem/viewport width cap still applies, and dates wrap within their column. Native popover positioning resets only browser margin and opposite insets; it introduces no new palette, shadow, radius, or spacing token. The standard browser cursor remains unchanged.
+
+Approximate conversions use `≈`. Comparison columns show only their actual reference dates, with one centred `EZB-Referenzkurs` footer in the existing `muted-foreground` colour and `mt-1` spacing. Native popovers use visible overflow so the shared arrow does not create a browser scrollbar. The source is readable without a second interaction.
+
+Each comparison column places its label and value on the same line (`Damals ≈ …`, `Heute ≈ …`), with its reference date directly below.

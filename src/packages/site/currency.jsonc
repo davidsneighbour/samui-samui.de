@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "currency:archive": "node src/scripts/currency/enrich-archive.ts",
+    "currency:enrich": "node src/scripts/currency/enrich.ts"
+  }
+}

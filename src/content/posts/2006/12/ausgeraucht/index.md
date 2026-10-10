@@ -1,6 +1,19 @@
 ---
 title: Ausgeraucht
 date: 2006-12-31T09:05:13+07:00
+currency:
+  compareCurrent: true
+  mode: historical
+  schema: 1
+  dateBasis: publication
+  requestedDate: 2006-12-31
+  resolvedFor: 2006-12-31
+  rate: 46.77
+  rateDate: 2006-12-29
+  base: EUR
+  provider: ECB
+  quote: THB
+  source: frankfurter
 publisher:
   description: true
   summary: true
