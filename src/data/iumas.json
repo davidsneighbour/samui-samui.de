@@ -56,5 +56,11 @@
     },
     "type": "image",
     "value": "/assets/header/header-201906.jpg"
+  },
+  {
+    "from": "2026-10-10",
+    "precision": "day",
+    "type": "subtitle",
+    "value": "Mehr über Samui, als vernünftigerweise nötig wäre."
   }
 ]

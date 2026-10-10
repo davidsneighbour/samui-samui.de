@@ -8,7 +8,7 @@ Canonical route: [`/iumas/`](../../src/pages/iumas/index.astro). Legacy route `/
 
 `src/data/setup.json` is the source of truth for what the live site currently shows (`title`, `siteDescription` — the latter doubles as the masthead tagline and the meta/OG/Twitter description). `src/components/layout/header/Header.astro` reads `setup.json` directly and never depends on `iumas.json`.
 
-`src/data/iumas.json` is a historical log, not a live data source. **Whenever `setup.json`'s `title` or `siteDescription` changes, append a matching dated entry to `iumas.json` in the same change** (`type: "title"` or `type: "subtitle"`, `from` set to that day). Nothing enforces this automatically — do it by hand, in the same commit, every time.
+`src/data/iumas.json` is a historical log, not a live data source. **Whenever `setup.json`'s `title` or `siteDescription` changes, append a matching dated entry to `iumas.json` in the same change** (`type: "title"` or `type: "subtitle"`, `from` set to that day). Add the history entry by hand in the same commit; the sync test in `src/test/iumas.test.ts` checks that the newest subtitle matches `setup.siteDescription`. The subtitle recorded for 10 October 2026 is "Mehr über Samui, als vernünftigerweise nötig wäre.".
 
 ## Four tracked dimensions
 
