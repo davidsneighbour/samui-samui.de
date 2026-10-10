@@ -41,6 +41,23 @@ DreamHost never executes code for visitors. It serves files from the `dist/` dir
 
 **Worker (Cloudflare Workers).** A small program that answers `/api/*` itself. It runs in front of the cache for its route, so the zone cache never stores API responses. It handles the contact form (Turnstile + Resend) and the weather proxy (Open-Meteo, cached per data centre with the Workers Cache API).
 
+### How `.htaccess` works behind the proxy
+
+`public/.htaccess` is copied into the build output and deployed as `.htaccess` in the DreamHost site root. Apache reads and applies that file when a request reaches the origin. Cloudflare does not read the file or execute its Apache directives; it receives the resulting HTTP response, including its status, body, and headers.
+
+On a cache miss, Cloudflare requests the resource from DreamHost, where Apache applies `.htaccess`. Cloudflare forwards the response and stores it when the cache policy permits. On a fresh cache hit, Cloudflare returns the stored response without contacting DreamHost, so Apache does not apply the rules again for that request.
+
+| Origin setting | Effect through Cloudflare |
+| --- | --- |
+| Apache redirect rules | Apache produces a redirect status and `Location` header. Cloudflare forwards the redirect and may cache it. |
+| Security headers, including Content-Security-Policy | Apache adds response headers that Cloudflare passes to the browser, including when serving a cached response. |
+| `Cache-Control` | Sets the browser cache policy and can also guide Cloudflare caching. |
+| `Cloudflare-CDN-Cache-Control` | Sets Cloudflare's cache policy independently of the browser policy. Cloudflare consumes this header and does not forward it to the browser. |
+
+The Cloudflare-specific header is therefore an instruction for Cloudflare, but Apache first emits it as part of an HTTP response. See Cloudflare's [CDN-Cache-Control documentation](https://developers.cloudflare.com/cache/concepts/cdn-cache-control/). The site's Cache Rules make static responses, including HTML, eligible for caching and respect the origin's cache lifetimes; their definitions live in `src/scripts/deploy/cache-rules.ts`.
+
+Changing `.htaccess` does not update responses already stored at the edge. The deployment tooling therefore purges the `html` and `static` cache tags when the file changes; see [Cache invalidation](caching.md#cache-invalidation). Fingerprinted assets have a separate cache policy and are not included in that purge. Responses generated directly by Cloudflare, such as the `www` redirect and the `/api/*` Worker responses, use their own configuration rather than Apache's `.htaccess`.
+
 <!-- markdownlint-disable-next-line dnb-title-case-style -->
 ## Why Netlify was replaced
 
