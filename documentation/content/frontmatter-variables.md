@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD013 -->
 # Frontmatter variables
 
 This is the index of frontmatter properties accepted by the Astro content schema in `src/content.config.ts`. Keep the detailed rules in the focused documentation files linked from the "Documentation" column; this page is a stub-level map so agents and editors can find the right contract quickly.
@@ -11,7 +12,7 @@ These fields come from the shared base frontmatter schema and can appear on cont
 | Property | Collections | Shape | Documentation |
 | ------------- | ------------------------------------------------------------------ | ---------------- | ----------------------------------- |
 | `title` | posts, people, places, events, topics, holidays, sitewide snippets | Required string. | [Content schema](content-schema.md) |
-| `description` | posts, people, places, events, topics, holidays, sitewide snippets | Optional string. | [Content schema](content-schema.md) |
+| `description` | posts, people, places, events, topics, holidays, sitewide snippets | Optional string. Post metadata uses non-blank description before summary and body text. | [Content schema](content-schema.md), [Post meta descriptions](post-meta-descriptions.md) |
 
 ## Posts
 
@@ -68,7 +69,7 @@ Post entries live in `src/content/posts/**/index.md`. The post schema is loose s
 | `resources.name` | Optional string. | Legacy resource name. | [Post cover migration plan](post-cover-migration-plan.md) |
 | `resources.src` | Required string within a resource. | Legacy resource source path. | [Post cover migration plan](post-cover-migration-plan.md) |
 | `resources.title` | Optional string. | Legacy resource title or caption. | [Post cover migration plan](post-cover-migration-plan.md) |
-| `summary` | Optional string. | Fallback preview text when rendered post HTML is unavailable. | [Blog list previews](../components/blog-list-previews.md) |
+| `summary` | Optional string. | Fallback preview text when rendered post HTML is unavailable, and post metadata when description is blank. | [Blog list previews](../components/blog-list-previews.md), [Post meta descriptions](post-meta-descriptions.md) |
 | `themen` | Array of strings, default `[]`. | Open topic ids associated with the post. | [Content taxonomies](taxonomies.md) |
 | `url` | Optional string. | Explicit legacy permalink; otherwise the URL is derived from date and folder slug. | [Post paths](post-paths.md) |
 | `video` | Optional string. | Legacy post-level video field retained from migration data. | [Content schema](content-schema.md), [Post covers](../components/post-covers.md) |

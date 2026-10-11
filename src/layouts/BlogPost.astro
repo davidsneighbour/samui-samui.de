@@ -15,6 +15,7 @@ import BaseHead from '@components/layout/head/BaseHead.astro';
 import Header from '@components/layout/header/Header.astro';
 import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import Separator from '@components/ui/separator.astro';
+import setup from '@data/setup.json';
 import type { ResolvedPostCover } from '@utils/covers';
 import {
   type HistoricalCurrency,
@@ -88,7 +89,7 @@ const {
   hasVimeo = false,
   hasYoutube = false,
 } = Astro.props as Props;
-const metaDescription = description ?? title;
+const metaDescription = description?.trim() || setup.siteDescription;
 const publishedOn = date ?? pubDate;
 const updatedOn = lastmod ?? updatedDate;
 const hero = featured_image ?? heroImage;

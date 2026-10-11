@@ -27,6 +27,7 @@
 
 ## Content
 
+* [Post meta descriptions](content/post-meta-descriptions.md) documents editorial description precedence and the plain-text content fallback for post metadata.
 * [Archive character repair](content/archive-character-repair.md) records targeted punctuation repairs, contextual decisions, unresolved script and names, and the approved verification exception.
 * [Archive media recovery](content/archive-media-recovery.md) lists remaining Flickr photo references, backup matches, and other source-link work needed to close the archive recovery issue.
 
