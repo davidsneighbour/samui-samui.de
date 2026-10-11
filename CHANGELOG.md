@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.2.1](https://github.com/davidsneighbour/samui-samui.de/compare/v3.2.0...v3.2.1) (2026-10-11)
+
+### Fix
+
+* **a11y:** give the homepage masthead heading semantics ([3d67a2f](https://github.com/davidsneighbour/samui-samui.de/commit/3d67a2f11a240d67f0520da6db6b65b2bf8814ac)), closes [#1823](https://github.com/davidsneighbour/samui-samui.de/issues/1823)
+* **seo:** mark shortened meta excerpts with an ellipsis ([359b3f7](https://github.com/davidsneighbour/samui-samui.de/commit/359b3f716c7265312c885efe66b31743f1d098f4)), references [#1824](https://github.com/davidsneighbour/samui-samui.de/issues/1824)
+* **seo:** use editorial text for post meta descriptions ([40152ff](https://github.com/davidsneighbour/samui-samui.de/commit/40152ffa95a6e66e0901f1807de8d6ba821d2cae)), closes [#1824](https://github.com/davidsneighbour/samui-samui.de/issues/1824)
+
 ## [3.2.0](https://github.com/davidsneighbour/samui-samui.de/compare/v3.1.0...v3.2.0) (2026-10-10)
 
 ### Content
