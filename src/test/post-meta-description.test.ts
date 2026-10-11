@@ -44,20 +44,26 @@ describe('post meta descriptions', () => {
   it('caps body excerpts at 160 characters without splitting words', () => {
     const text = `${'a '.repeat(78)}longword trailing`;
     const result = getPostMetaDescription(post(`<p>${text}</p>`));
-    expect(result).toBe('a '.repeat(78).trim());
+    expect(result).toBe(`${'a '.repeat(78).trim()}…`);
     expect(Array.from(result).length).toBeLessThanOrEqual(160);
   });
 
   it('retains a complete word ending at the limit', () => {
-    expect(getPostMetaDescription(post(`<p>${'a'.repeat(160)} next</p>`))).toBe(
-      'a'.repeat(160),
+    expect(getPostMetaDescription(post(`<p>${'a'.repeat(159)} next</p>`))).toBe(
+      `${'a'.repeat(159)}…`,
     );
   });
 
   it('handles short bodies, unbroken text, and Unicode characters', () => {
     expect(getPostMetaDescription(post('<p>Short.</p>'))).toBe('Short.');
     expect(getPostMetaDescription(post(`<p>${'🌴'.repeat(170)}</p>`))).toBe(
-      '🌴'.repeat(160),
+      `${'🌴'.repeat(159)}…`,
+    );
+  });
+
+  it('leaves content of exactly 160 characters complete without an ellipsis', () => {
+    expect(getPostMetaDescription(post(`<p>${'a'.repeat(160)}</p>`))).toBe(
+      'a'.repeat(160),
     );
   });
 

@@ -67,10 +67,11 @@ export function getPostMetaDescription(post: CollectionEntry<'posts'>): string {
   const text = normaliseWhitespace(parts.join(''));
   const characters = Array.from(text);
   if (characters.length <= POST_META_DESCRIPTION_LENGTH) return text;
-  const excerpt = characters.slice(0, POST_META_DESCRIPTION_LENGTH).join('');
-  if (/\s/u.test(characters[POST_META_DESCRIPTION_LENGTH] ?? '')) {
-    return excerpt.trimEnd();
+  const limit = POST_META_DESCRIPTION_LENGTH - 1;
+  const excerpt = characters.slice(0, limit).join('');
+  if (/\s/u.test(characters[limit] ?? '')) {
+    return `${excerpt.trimEnd()}…`;
   }
   const boundary = excerpt.lastIndexOf(' ');
-  return boundary > 0 ? excerpt.slice(0, boundary) : excerpt;
+  return `${boundary > 0 ? excerpt.slice(0, boundary) : excerpt}…`;
 }
