@@ -7,6 +7,8 @@ The home link contains real, server-rendered HTML text from `setup.title` in `sr
 
 The tagline shown under the title uses `setup.siteDescription` from the same file — `setup.json` is the source of truth for both, and `src/data/iumas.json` is a historical archive only (see [`documentation/features/iumas.md`](../features/iumas.md)). Changing the visible tagline means editing `setup.json`, not `iumas.json`; append a matching dated entry to `iumas.json` in the same change so the `/iumas/` history stays complete.
 
+On the homepage only, `Header` receives `homepage` and renders the masthead wrapper as one `h1` containing the existing title text and description. Other routes retain a `div` wrapper. The existing `font-normal` utility preserves the masthead’s inherited weight against the global heading rule; artwork, tagline styling, spacing, and design tokens stay unchanged. The tagline wrapper uses a `span` so the heading contains valid phrasing content.
+
 ## Photo-cut logo and responsive title
 
 The selected revision A island symbol sits on the left, and `Samui?` and `Samui!` remain on two left-aligned lines on the right at every viewport width. One SVG `<image>` draws `/assets/header/header-201906.jpg` over the complete composition. A combined alpha `<mask>` contains the island, both outlined words, and their separate punctuation, so the photograph continues across all three shapes without repetition. `preserveAspectRatio="xMidYMid slice"` covers the full canvas. The island uses `fill-rule="evenodd"`, preserving transparent `?!` holes that reveal the active header background in both themes.

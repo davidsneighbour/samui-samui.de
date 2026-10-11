@@ -328,3 +328,74 @@ test('the prototype exclamation spans both lines on hover and keyboard focus', a
     )
     .toBe('1');
 });
+
+test('only the homepage uses the unchanged masthead as its main heading', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await expect(page.locator('h1.masthead')).toHaveCount(1);
+  const heading = page.locator('h1.masthead');
+  await expect(heading.locator('.masthead__link')).toHaveText('Samui? Samui!');
+  await expect(heading.locator('.masthead__tagline')).not.toBeEmpty();
+
+  for (const width of [375, 1200]) {
+    await page.setViewportSize({ height: 900, width });
+    await page.evaluate(() => document.fonts.ready);
+    const metrics = await heading.evaluate((node) => {
+      const measure = () =>
+        [
+          node,
+          ...node.querySelectorAll(
+            '.masthead__link, .masthead__tagline-wrap, .masthead__tagline',
+          ),
+        ].map((element) => {
+          const { x, y, width, height } = element.getBoundingClientRect();
+          const style = getComputedStyle(element);
+          return {
+            colour: style.color,
+            height,
+            size: style.fontSize,
+            weight: style.fontWeight,
+            width,
+            x,
+            y,
+          };
+        });
+      const headingMetrics = measure();
+      // Simulate the previous div wrapper, including its inherited font weight.
+      node.style.fontWeight = 'inherit';
+      const wrapper = document.createElement('div');
+      for (const attribute of node.attributes)
+        wrapper.setAttribute(attribute.name, attribute.value);
+      wrapper.append(...node.childNodes);
+      node.replaceWith(wrapper);
+      const divMetrics = [
+        wrapper,
+        ...wrapper.querySelectorAll(
+          '.masthead__link, .masthead__tagline-wrap, .masthead__tagline',
+        ),
+      ].map((element) => {
+        const { x, y, width, height } = element.getBoundingClientRect();
+        const style = getComputedStyle(element);
+        return {
+          colour: style.color,
+          height,
+          size: style.fontSize,
+          weight: style.fontWeight,
+          width,
+          x,
+          y,
+        };
+      });
+      node.append(...wrapper.childNodes);
+      node.style.removeProperty('font-weight');
+      wrapper.replaceWith(node);
+      return { divMetrics, headingMetrics };
+    });
+    expect(metrics.headingMetrics).toEqual(metrics.divMetrics);
+  }
+
+  await page.goto('/archiv/');
+  await expect(page.locator('h1.masthead')).toHaveCount(0);
+  await expect(page.locator('div.masthead')).toHaveCount(1);
+});

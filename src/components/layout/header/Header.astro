@@ -15,6 +15,13 @@ import {
   SquareUser,
 } from '@lucide/astro';
 
+interface Props {
+  homepage?: boolean;
+}
+
+const { homepage = false } = Astro.props;
+const MastheadTag = homepage ? 'h1' : 'div';
+
 const questionContours = wordmark['samui?'].split(/(?=M)/);
 const questionLetters = questionContours.slice(0, -2).join('');
 const questionMark = questionContours.slice(-2).join('');
@@ -39,7 +46,7 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
 </a>
 <ConstructionBanner />
 <header class="bg-background">
-  <div class="masthead">
+  <MastheadTag class:list={['masthead', { 'font-normal': homepage }]}>
     <a
       href="/"
       class="masthead__link"
@@ -117,7 +124,7 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
         />
       </svg>
     </a>
-    <div class="masthead__tagline-wrap">
+    <span class="masthead__tagline-wrap">
       <svg
         class="masthead__divider"
         aria-hidden="true"
@@ -179,8 +186,8 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
           class="size-4"
         />
       </a>
-    </div>
-  </div>
+    </span>
+  </MastheadTag>
 </header>
 <div
   class="header-navigation border-b border-foreground/10 bg-background"
