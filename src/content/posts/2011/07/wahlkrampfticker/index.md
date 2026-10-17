@@ -10,7 +10,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Thailand hat gewählt --- erwartungsgemä?. Wie schön, dass die neue Regierung "reconciliation", also Versöhnung, will --- dumm nur, dass da der Name Shinawatra mit drinnen hängt und die Versöhnung einen Preis hat.
+Thailand hat gewählt --- erwartungsgemäß. Wie schön, dass die neue Regierung "reconciliation", also Versöhnung, will --- dumm nur, dass da der Name Shinawatra mit drinnen hängt und die Versöhnung einen Preis hat.
 
 Wie auch immer, die Pheua Thai Partei hat (den ersten Statistiken zufolge) "erdrutschartig" gewonnen. Nun gehts also bergauf und die internationalen Medien berichten schon freudig, dass Thailand seinen ersten weiblichen Ministerpräsidenten gewählt hat. Also sozusagen die prime ministress. Das Beste an der ganzen Sache ist, dass er (der neue weibliche Ministerpräsident) genauso heißt, wie einer der vorhergehenden Ministerpräsidenten (drei, vier oder fünf Ministerpräsidenten zuvor, fünf Jahre zuvor), was die ganze Briefkopfdrucksachenerstellung extrem vereinfacht.
 

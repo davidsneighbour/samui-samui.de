@@ -18,4 +18,4 @@ Gestern abend nun ging ich mal die Treppe runter und war wie erwähnt leicht ers
 
 Da sitzen dann die Thais (und gestern ein Farang), geniessen Gantschah und Beer Chang, quatschen, sehen den Sternen beim Verglühen zu und hören Musik.
 
-Cherng ra??k mak maak!
+Cherng rak mak maak!
