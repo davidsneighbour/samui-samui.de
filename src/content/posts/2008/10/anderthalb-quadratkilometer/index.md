@@ -11,7 +11,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-?und ein angedrohter Krieg.
+...und ein angedrohter Krieg.
 
 Heute hat Cambodia Thailand (je nach Interpretation der jeweiligen Medien) mit Krieg gedroht, wenn Thailand nicht seine Truppen innerhalb von 24 Stunden aus dem Grenzbereich nahe des Tempels Preah Vihear zurück zieht.
 
