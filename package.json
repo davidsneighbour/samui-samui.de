@@ -53,7 +53,7 @@
     "@types/hast": "3.0.5",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
-    "@vvago/vale": "3.24.0",
+    "@vvago/vale": "3.25.1",
     "astro": "7.3.8",
     "astro-icon": "1.2.0",
     "bootstrap-icons": "1.13.2",
