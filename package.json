@@ -11,7 +11,7 @@
     "web": "https://davids-neighbour.com"
   },
   "dependencies": {
-    "@astrojs/react": "7.0.1",
+    "@astrojs/react": "7.1.1",
     "@dnbhq/tsconfig": "0.1.6",
     "@fontsource-variable/anuphan": "5.3.0",
     "@pagefind/component-ui": "1.5.2",
