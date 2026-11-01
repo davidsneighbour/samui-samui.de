@@ -22,7 +22,7 @@
     "cuelume": "file:src/vendor/cuelume",
     "lucide": "1.54.0",
     "lucide-react": "1.54.0",
-    "maplibre-gl": "6.13.0",
+    "maplibre-gl": "6.16.0",
     "morphicons": "1.7.1",
     "pagefind": "1.5.2",
     "react": "19.3.0",
