@@ -43,7 +43,7 @@
     "@dnbhq/markdownlint-config": "2.0.0",
     "@dnbhq/release-config": "2.0.0",
     "@iconify-json/bi": "1.2.7",
-    "@iconify-json/simple-icons": "1.2.99",
+    "@iconify-json/simple-icons": "1.2.100",
     "@lucide/astro": "1.54.0",
     "@playwright/mcp": "0.0.83",
     "@playwright/test": "1.64.0",
