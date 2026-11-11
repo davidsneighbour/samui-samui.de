@@ -33,3 +33,7 @@ Mutating commands must be named explicitly. `format` writes canonical formatting
 `lint:german-dates` checks date spelling in Markdown footnote prose. Lint-staged runs it on edited content, while the explicit whole-content audit stays separate from `check` during the archive cleanup. It reports suggested German spellings without changing dates. See [German citation dates](content/german-citation-dates.md) for its scope and exclusions.
 
 `src/assets/brand/` is excluded from commit and push file checks because it contains brand artwork, presentation pages, and generated exports. Its local lint-staged configuration assigns no tasks, while Biome, markdownlint, and TypeScript exclude the directory from repository scans. The default umlaut, taxonomy, and test scopes already sit outside this directory. Assets remain tracked in Git, and checks still run for other staged files and for application code that imports brand assets.
+
+## Parallel static rendering
+
+`astro.config.ts` enables Astro's experimental `parallelPrerender` flag so static pages can render across multiple CPU cores. With `true`, Astro selects the worker count automatically. Each worker uses additional memory, and workers do not share module-level caches. Keep page props serialisable and verify configuration or dependency changes with `npm run build`. See [Astro's parallel prerendering reference](https://docs.astro.build/en/reference/experimental-flags/parallel-prerender/).

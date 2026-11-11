@@ -45,6 +45,7 @@ export default defineConfig({
     chromeDevtoolsWorkspace: true,
     clientPrerender: true,
     contentIntellisense: true,
+    parallelPrerender: true,
   },
 
   image: {
