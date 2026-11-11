@@ -3,7 +3,6 @@ title: "Extra-Feiertag am 16. Dezember: Abschied von Königin Sirikit"
 description: "Thailand erklärt den 16. Dezember 2026 zum zusätzlichen Behördenfeiertag. Anlass ist die königliche Einäscherung der verstorbenen Königinmutter Sirikit."
 summary: "Am 16. Dezember 2026 findet die königliche Einäscherung von Königinmutter Sirikit statt. Dafür hat das Kabinett einen zusätzlichen Behördenfeiertag beschlossen."
 date: 2026-11-12T04:14:33+07:00
-draft: true
 cover:
   type: image
   src: "Apolant-Sirikit-1960.jpg"
@@ -22,7 +21,7 @@ themen:
 
 <!-- cspell:words thaipbsworld sirikit Sirikit Sanam Zeremonienplatz Merumas Apolant -->
 
-Thailand bekommt einen zusätzlichen Feiertag: **Mittwoch, der 16. Dezember 2026**, wird wegen der königlichen Einäscherung von Königinmutter Sirikit zum besonderen Behördenfeiertag. Das Kabinett hat dies am 10. November beschlossen, berichtet Thai PBS World.[^src-thaipbsworld-20261110-feiertag-sirikit]
+Thailand bekommt einen zusätzlichen Feiertag in 2026: **Mittwoch, der 16. Dezember 2026**, wird wegen der königlichen Einäscherung von Königinmutter Sirikit zum besonderen Behördenfeiertag. Das Kabinett hat dies am 10. November beschlossen, berichtet Thai PBS World.[^src-thaipbsworld-20261110-feiertag-sirikit]
 
 ## Ein Tag des Abschieds
 
