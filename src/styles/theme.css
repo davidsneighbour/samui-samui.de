@@ -727,18 +727,18 @@ html {
    card width. Video embeds, iframes, tables, and legacy image canvases keep
    their own width rules (often 100%). */
 .prose-reading
-> .prose-wide:is(p, figure, .flickr, .media):not(
-  :has(
-    dnb-youtube,
-    dnb-vimeo,
-    iframe,
-    video,
-    object,
-    embed,
-    .flex-video,
-    .legacy-image-frame
-  )
-) {
+  > .prose-wide:is(p, figure, .flickr, .media):not(
+    :has(
+      dnb-youtube,
+      dnb-vimeo,
+      iframe,
+      video,
+      object,
+      embed,
+      .flex-video,
+      .legacy-image-frame
+    )
+  ) {
   width: fit-content;
 }
 

@@ -52,3 +52,11 @@ It still had no patched release on 9 October 2026 (checked against the GitHub ad
 ## Validation
 
 The production build, strict validation, and all 267 tests passed with the updated dependencies. The full `npm run check` stops at existing formatting failures in 26 Astro files; a separate lint run also identifies three existing heading failures. The owner accepted this known failure for the security commit. [The quality-gate follow-up](https://github.com/davidsneighbour/samui-samui.de/issues/1747) tracks correcting these files.
+
+## November 2026 dependency alignment
+
+The November update uses Astro 7.4.11, Wrangler 4.160.1, and Biome 2.6.6. The package fragments carry the same dependency versions as the generated manifest, including dependencies defined in more than one fragment. `biome.jsonc` uses the matching 2.6.6 schema. Node remains on major 26, and TypeScript remains on the supported 6.x line.
+
+Biome's scope excludes Markdown, MDX, and YAML files to retain the existing tool split after the upgrade adds support for those formats. Markdown remains checked by markdownlint; YAML includes deliberately invalid parser fixtures and is not reformatted as part of dependency maintenance.
+
+The notice override test uses the canonical `triangle-exclamation-point` icon name from Lucide 1.72.0's node registry; `triangle-alert` remains an SVG alias but is not a node-registry key in that release.

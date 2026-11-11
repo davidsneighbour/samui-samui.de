@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@vvago/vale": "3.24.0"
+    "@vvago/vale": "3.25.1"
   },
   "lint-staged": {
     "src/content/**/*.md": ["node src/scripts/lint-content-language.ts"]

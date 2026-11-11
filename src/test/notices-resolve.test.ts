@@ -58,10 +58,10 @@ describe('resolveNotice', () => {
 
   it('overrides only the icon', () => {
     const resolved = resolveNotice(
-      { icon: 'triangle-alert', slug: 'beispiel-hinweis' },
+      { icon: 'triangle-exclamation-point', slug: 'beispiel-hinweis' },
       fixtureRegistry,
     );
-    expect(resolved.icon).toBe('triangle-alert');
+    expect(resolved.icon).toBe('triangle-exclamation-point');
   });
 
   it('overrides only the variant', () => {
