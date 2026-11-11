@@ -174,6 +174,8 @@ The event archive groups public entries by the year of `startDate`, newest year 
 
 The initial curated set covers the 2006 and 2014 coups, the 2008 Bangkok airport occupations, the 2009 unrest, the 2010 Red Shirt protests, Bhumibol's death in 2016, Vajiralongkorn's coronation in 2019, the major floods beginning in July 2011, and the 2015 Koh Samui bombing. Initial post references are deliberately limited to the reviewed posts. Further references are added manually during archive review. The March–April 2011 floods in southern Thailand are distinct from the later national flood event; death, succession, and coronation are also distinct events.
 
+The entry `koenigin-sirikit` identifies Queen Sirikit, the Queen Mother. The event `tod-sirikit-2025` records her death on 24 October 2025; its date does not represent the later royal cremation. Posts may reference that death event when they explain the mourning and cremation context.
+
 Do not create an event for every passing mention in prose.
 
 ## Visibility

@@ -4,8 +4,15 @@ description: "Thailand erklärt den 16. Dezember 2026 zum zusätzlichen Behörde
 summary: "Am 16. Dezember 2026 findet die königliche Einäscherung von Königinmutter Sirikit statt. Dafür hat das Kabinett einen zusätzlichen Behördenfeiertag beschlossen."
 date: 2026-11-12T04:14:33+07:00
 draft: true
+personen:
+  - koenigin-sirikit
+ereignisse:
+  - tod-sirikit-2025
 themen:
   - feiertage
+  - monarchie
+  - trauer
+  - traditionen
 ---
 
 <!-- cspell:words thaipbsworld sirikit Sirikit Sanam Zeremonienplatz Merumas -->
