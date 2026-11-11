@@ -4,6 +4,11 @@ description: "Thailand erklärt den 16. Dezember 2026 zum zusätzlichen Behörde
 summary: "Am 16. Dezember 2026 findet die königliche Einäscherung von Königinmutter Sirikit statt. Dafür hat das Kabinett einen zusätzlichen Behördenfeiertag beschlossen."
 date: 2026-11-12T04:14:33+07:00
 draft: true
+cover:
+  type: image
+  src: "Apolant-Sirikit-1960.jpg"
+  alt: "Königin Sirikit steht 1960 neben einem Auto vor dem Sanatorium Apolant in Bad Kissingen."
+  caption: "Königin Sirikit im Sommer 1960 vor dem Sanatorium Apolant in Bad Kissingen. Photo: unbekannt / Stadtarchiv Bad Kissingen, via Wikimedia Commons."
 personen:
   - koenigin-sirikit
 ereignisse:
@@ -15,7 +20,7 @@ themen:
   - traditionen
 ---
 
-<!-- cspell:words thaipbsworld sirikit Sirikit Sanam Zeremonienplatz Merumas -->
+<!-- cspell:words thaipbsworld sirikit Sirikit Sanam Zeremonienplatz Merumas Apolant -->
 
 Thailand bekommt einen zusätzlichen Feiertag: **Mittwoch, der 16. Dezember 2026**, wird wegen der königlichen Einäscherung von Königinmutter Sirikit zum besonderen Behördenfeiertag. Das Kabinett hat dies am 10. November beschlossen, berichtet Thai PBS World.[^src-thaipbsworld-20261110-feiertag-sirikit]
 
@@ -30,6 +35,10 @@ Sie starb bereits am **24. Oktober 2025 um 21:21 Uhr**, im Alter von 93 Jahren, 
 ## Was bedeutet der zusätzliche Feiertag?
 
 Die Meldung spricht ausdrücklich von einem besonderen Feiertag für die staatliche Verwaltung. Daraus folgt kein allgemeiner arbeitsfreier Tag für sämtliche privaten Unternehmen oder Banken. Wer für den 16. Dezember einen Behördengang plant, sollte die Öffnung der zuständigen Stelle vorher prüfen.[^src-thaipbsworld-20261110-feiertag-sirikit]
+
+Die historische Aufnahme stammt aus dem Stadtarchiv Bad Kissingen und ist über Wikimedia Commons verfügbar.[^src-commons-sirikit-photo]
+
+[^src-commons-sirikit-photo]: Wikimedia Commons: [„Apolant-Sirikit-1960.jpg“](https://commons.wikimedia.org/wiki/File:Apolant-Sirikit-1960.jpg), Aufnahme von 1960, Photograph unbekannt, Quelle: Stadtarchiv Bad Kissingen; dort als gemeinfrei gekennzeichnet (abgerufen am 12. November 2026).
 
 [^src-thaipbsworld-20261110-feiertag-sirikit]: Thai PBS World: [„Cabinet declares December 16 a public holiday for Royal Cremation of the late Queen Mother“](https://www.thaipbsworld.com/around-thailand/572510), 10. November 2026 (Englisch; abgerufen am 12. November 2026).
 [^src-prd-20251025-biographie-sirikit]: Government Public Relations Department: [„Biography of Her Majesty Queen Sirikit The Queen Mother“](https://thailand.prd.go.th/en/content/category/detail/id/44/iid/434454), 25. Oktober 2025 (offizielle Biographie, Englisch; abgerufen am 12. November 2026).
