@@ -26,7 +26,8 @@
     "sharp": "0.35.5",
     "smol-toml": "1.9.0",
     "tar": "7.5.22",
-    "toml": "4.2.0"
+    "toml": "4.2.0",
+    "markdown-it": "15.0.3"
   },
   "scripts": {
     "compile:fixpack": "wireit",

@@ -41,7 +41,7 @@ The same update also aligned the fragments with the manifest. Earlier direct man
 
 | Package | Advisory and issue | Current limit |
 | --- | --- | --- |
-| `braces` 3.0.3 | [GHSA-vfj7-8cjw-p6xm](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm), [tracking issue](https://github.com/davidsneighbour/samui-samui.de/issues/1743) | No patched release. `micromatch` and wireit's older `chokidar` still depend on this line. |
+| `deepmerge` 4.3.1 | [GHSA-gcqx-w48m-w2h4](https://github.com/advisories/GHSA-gcqx-w48m-w2h4), [tracking issue](https://github.com/davidsneighbour/samui-samui.de/issues/1856) | No patched release. The nested `@react-email/render` 2.0.6 dependency in `@react-email/components` 1.0.12 still uses `html-to-text` 9.0.5 and this vulnerable version. |
 
 It still had no patched release on 9 October 2026 (checked against the GitHub advisory API and the npm registry). This finding remains unresolved. An issue records the follow-up; it does not mean the risk is accepted or mitigated. Fixed local lockfile findings can remain open on GitHub until the committed lockfile reaches the default branch and GitHub refreshes its dependency graph. Do not dismiss those alerts to make the dashboard appear clean.
 
@@ -60,3 +60,11 @@ The November update uses Astro 7.4.11, Wrangler 4.160.1, and Biome 2.6.6. The pa
 Biome's scope excludes Markdown, MDX, and YAML files to retain the existing tool split after the upgrade adds support for those formats. Markdown remains checked by markdownlint; YAML includes deliberately invalid parser fixtures and is not reformatted as part of dependency maintenance.
 
 The notice override test uses the canonical `triangle-exclamation-point` icon name from Lucide 1.72.0's node registry; `triangle-alert` remains an SVG alias but is not a node-registry key in that release.
+
+## November security follow-up
+
+A source-fragment override pins `markdown-it` to 15.0.3 across the linting toolchain. This replaces `markdownlint-cli2` 0.23.3's exact 15.0.1 pin and addresses [GHSA-r7fv-28h4-cvq7](https://github.com/advisories/GHSA-r7fv-28h4-cvq7), [GHSA-vfgh-jcmw-g37q](https://github.com/advisories/GHSA-vfgh-jcmw-g37q), and [GHSA-gfr2-rv44-r23c](https://github.com/advisories/GHSA-gfr2-rv44-r23c). The other installed linting consumers already use 15.0.3. The override and generated lockfile must remain aligned; verify with `npm ls markdown-it --all` and `npm audit`.
+
+The local audit on 12 November 2026 reports four low-severity affected packages in the single remaining deepmerge advisory chain, with no high or critical findings. The direct renderer version does not replace the components package's exact nested renderer dependency. Keep that chain unchanged until a compatible upstream fix is available.
+
+Biome remains at 2.6.6 because the 2.6.7 wrapper was published without an available matching Linux binary at the time of verification; see [the blocked update](https://github.com/davidsneighbour/samui-samui.de/issues/1857). TypeScript 7 remains excluded by the project's TypeScript 6 policy and the installed Astro check peer range.
