@@ -281,7 +281,9 @@ variants. See
 
 `simple-git-hooks` installs a `pre-commit` hook (`lint-staged` against staged files
 only: Biome + markdownlint, plus link, citation-date, spelling, orthography, and
-grammar checks for staged content) and a `commit-msg` hook (new posts need
+grammar checks for staged content, then a repo-wide `npm run format:check` so
+script-written files such as `src/data/video-media.json` cannot reach a deploy
+unformatted) and a `commit-msg` hook (new posts need
 `content(new):`) via the
 `prepare` script, which `npm install` runs automatically. There is
 intentionally no `pre-push` hook: lint findings must not block pushes. Run

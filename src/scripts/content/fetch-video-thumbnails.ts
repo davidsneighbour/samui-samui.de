@@ -30,6 +30,7 @@
  * .github/workflows/check-video-thumbnails.yml), not every commit.
  */
 
+import { execFileSync } from 'node:child_process';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -240,6 +241,14 @@ async function saveHistory() {
   await fs.writeFile(
     historyPath,
     `${JSON.stringify(Object.fromEntries(Object.entries(history).sort(([a], [b]) => a.localeCompare(b))), null, 2)}\n`,
+  );
+  // JSON.stringify layout differs from Biome's (short arrays stay on one line
+  // in Biome). This file is re-staged by lint-staged after the Biome step, so
+  // format it here; otherwise `npm run check` and the deploy fail.
+  execFileSync(
+    path.join(PROJECT_ROOT, 'node_modules/.bin/biome'),
+    ['format', '--write', historyPath],
+    { stdio: 'ignore' },
   );
 }
 

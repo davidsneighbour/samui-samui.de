@@ -46,6 +46,6 @@
   },
   "simple-git-hooks": {
     "commit-msg": "node src/scripts/lint-commit-type.ts \"$1\"",
-    "pre-commit": "npx lint-staged && npm run validate:content"
+    "pre-commit": "npx lint-staged && npm run format:check && npm run validate:content"
   }
 }

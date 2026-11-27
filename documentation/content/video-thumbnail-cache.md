@@ -66,7 +66,7 @@ disk.
 
 * **`lint-staged`** (`package.json`) runs the fetch script whenever staged
   content under `src/content/**/*.{md,mdx}` changes, then stages
-  `src/assets/images/video-thumbnails/` and `src/data/video-media.json`. Successful downloads preserve the local poster and historical metadata. Failed downloads retain existing files and are reported without blocking unrelated archive edits.
+  `src/assets/images/video-thumbnails/` and `src/data/video-media.json`. Successful downloads preserve the local poster and historical metadata. Failed downloads retain existing files and are reported without blocking unrelated archive edits. The script formats `src/data/video-media.json` with Biome after each write, because lint-staged re-stages the file after its own Biome step.
 * **`.github/workflows/check-video-thumbnails.yml`** runs
   `npm run thumbnails:verify` weekly and files/comments on a tracking issue
   for persistent confirmed unavailable observations. Metadata is retained in repository history; no post is automatically classified. See [Digital relics](digital-relics.md).
