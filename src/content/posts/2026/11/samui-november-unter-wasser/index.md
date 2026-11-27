@@ -3,7 +3,6 @@ title: "Samui im November: Drei Regenwarnungen in drei Wochen"
 description: "Überflutete Straßen, geschlossene Schleuse am Chaweng-Kanal und die nächste Warnung bis zum 30. November: Der Golf von Thailand hat Regenzeit."
 summary: "Am 12. November standen Straßen auf Samui unter Wasser. Seitdem folgten zwei weitere Warnungen für den Süden, die letzte gilt bis zum 30. November."
 date: 2026-11-27T21:45:29+07:00
-draft: true
 orte:
   - thailand
 themen:

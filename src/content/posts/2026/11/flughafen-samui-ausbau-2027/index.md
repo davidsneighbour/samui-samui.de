@@ -3,7 +3,6 @@ title: "Flughafen Samui: Sechs Millionen Passagiere ab 2030"
 description: "Bangkok Airways will den Flughafen Samui für rund drei Milliarden Baht ausbauen und seine Kapazität auf sechs Millionen Passagiere im Jahr verdoppeln."
 summary: "Elf statt sieben Gates, 40 Check-in-Schalter, doppelte Kapazität: Bangkok Airways baut ab Anfang 2027 den Flughafen Samui aus. Fertig sein soll alles 2030."
 date: 2026-11-27T21:45:29+07:00
-draft: true
 orte:
   - thailand
 themen:
