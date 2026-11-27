@@ -60,6 +60,7 @@ Ignore patterns in `cspell.de.jsonc`:
 * `frontmatter-key`: lowercase YAML keys such as `lastmod:` or `covermigration:`.
 * `frontmatter-slug`: lowercase list items such as taxonomy IDs (`- thaksin-shinawatra`).
 * `html-tag`: inline HTML tags and their attributes, including legacy `<txp:…>` tags.
+* `thai-script`: runs of Thai script (U+0E00–U+0E7F). No installed dictionary covers Thai, so Thai words do not need `cspell:ignore` comments.
 
 ### Triage rule for unknown words
 

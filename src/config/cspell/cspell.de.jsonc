@@ -15,7 +15,12 @@
   ],
   "files": ["src/content/**/*.{md,mdx}"],
   "ignorePaths": [],
-  "ignoreRegExpList": ["frontmatter-key", "frontmatter-slug", "html-tag"],
+  "ignoreRegExpList": [
+    "frontmatter-key",
+    "frontmatter-slug",
+    "html-tag",
+    "thai-script"
+  ],
   "import": ["@cspell/dict-de-de/cspell-ext.json"],
   "language": "de",
   "patterns": [
@@ -33,6 +38,11 @@
       "description": "Inline HTML tags and their attributes are markup, not prose.",
       "name": "html-tag",
       "pattern": "/<[^>\\n]+>/g"
+    },
+    {
+      "description": "Thai script cannot be checked by the German or English dictionaries.",
+      "name": "thai-script",
+      "pattern": "/[\\u0E00-\\u0E7F]+/gu"
     }
   ],
   "version": "0.2"
