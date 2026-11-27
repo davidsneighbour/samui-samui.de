@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.3.1](https://github.com/davidsneighbour/samui-samui.de/compare/v3.3.0...v3.3.1) (2026-11-27)
+
+### Content
+
+* draft posts on Samui floods and airport expansion ([b0c98b7](https://github.com/davidsneighbour/samui-samui.de/commit/b0c98b7af530ac167d97f545eb2625760d119a87)), references [#1874](https://github.com/davidsneighbour/samui-samui.de/issues/1874)
+* publish Samui flood and airport posts ([74b5674](https://github.com/davidsneighbour/samui-samui.de/commit/74b567419eccb2c2418b4221b687ca98ab20c79a)), references [#1874](https://github.com/davidsneighbour/samui-samui.de/issues/1874)
+
+### Fix
+
+* **check:** unblock deploy quality gate ([28e714a](https://github.com/davidsneighbour/samui-samui.de/commit/28e714ae262c7e4062647b576aab7a265fa75e63)), closes [#1873](https://github.com/davidsneighbour/samui-samui.de/issues/1873)
+
 ## [3.3.0](https://github.com/davidsneighbour/samui-samui.de/compare/v3.2.1...v3.3.0) (2026-11-27)
 
 ### Content
