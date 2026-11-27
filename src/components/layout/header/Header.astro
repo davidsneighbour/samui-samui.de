@@ -265,7 +265,6 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
           base-url="/"
         ></pagefind-config>
         <pagefind-searchbox
-          class="min-w-0 flex-1"
           placeholder="Finden"
           max-results="6"
           hide-shortcut
@@ -563,6 +562,13 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
     color: var(--color-card-foreground);
     font-family: var(--font-sans);
     text-transform: none;
+  }
+
+  /* Pagefind replaces the host element's class attribute when it renders,
+     so utility classes on <pagefind-searchbox> are lost. Size it here. */
+  .header-search pagefind-searchbox {
+    flex: 1 1 0%;
+    min-width: 0;
   }
 </style>
 
