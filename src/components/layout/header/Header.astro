@@ -12,6 +12,7 @@ import {
   AtSign,
   Birdhouse,
   CircleQuestionMark,
+  Cog,
   Landmark,
   SquareUser,
 } from '@lucide/astro';
@@ -269,8 +270,17 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
           max-results="6"
           hide-shortcut
         ></pagefind-searchbox>
-        <details class="shrink-0 text-sm text-foreground">
-          <summary class="cursor-pointer">Optionen</summary>
+        <details class="search-options shrink-0 text-sm text-foreground">
+          <summary
+            class="inline-flex size-11 cursor-pointer list-none items-center justify-center rounded-(--radius) text-foreground/85 transition-[background-color,color,scale] duration-150 ease-out hover:bg-accent hover:text-accent-foreground focus-visible:focus-ring active:scale-[0.96] [&::-webkit-details-marker]:hidden"
+            aria-label="Suchoptionen"
+            title="Suchoptionen"
+          >
+            <Cog
+              class="size-5"
+              aria-hidden="true"
+            />
+          </summary>
           <div
             class="absolute right-0 top-full z-50 w-64 rounded-(--radius) border border-border bg-card p-4 text-card-foreground"
           >
