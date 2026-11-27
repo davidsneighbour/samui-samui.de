@@ -106,3 +106,67 @@ describe('rehypeVideoPosters', () => {
     expect(html).not.toContain('/assets/fake-thumbnail.jpg');
   });
 });
+
+describe('relic video preservation', () => {
+  it('suppresses confirmed missing players on relics while preserving available players and source text', async () => {
+    const source =
+      '<dnb-youtube videoid="missing"><img slot="poster" src="/historical.jpg"></dnb-youtube><dnb-vimeo videoid="123"></dnb-vimeo>';
+    const tree = {
+      children: [
+        {
+          children: [
+            {
+              children: [],
+              properties: { slot: 'poster', src: '/historical.jpg' },
+              tagName: 'img',
+              type: 'element',
+            },
+          ],
+          properties: { videoid: 'missing' },
+          tagName: 'dnb-youtube',
+          type: 'element',
+        },
+        {
+          children: [],
+          properties: { videoid: '123' },
+          tagName: 'dnb-vimeo',
+          type: 'element',
+        },
+      ],
+      type: 'root',
+    } as Root;
+    const media = {
+      'vimeo:123': {
+        availability: 'available',
+        consecutiveFailures: 0,
+        files: [],
+        id: '123',
+        lastChecked: '2026-11-27',
+        provider: 'vimeo',
+        url: 'https://vimeo.com/123',
+      },
+      'youtube:missing': {
+        availability: 'unavailable',
+        consecutiveFailures: 2,
+        files: [],
+        id: 'missing',
+        lastChecked: '2026-11-27',
+        provider: 'youtube',
+        url: 'https://www.youtube.com/watch?v=missing',
+      },
+    } as const;
+    const file = new VFile({
+      data: { astro: { frontmatter: { relic: { status: 'relic' } } } },
+      value: source,
+    });
+    rehypeVideoPosters(() => undefined, JSON.parse(JSON.stringify(media)))(
+      tree,
+      file,
+    );
+    const html = toHtml(tree);
+    expect(html).not.toContain('dnb-youtube');
+    expect(html).toContain('nicht mehr verfügbar');
+    expect(html).toContain('dnb-vimeo');
+    expect(String(file)).toBe(source);
+  });
+});

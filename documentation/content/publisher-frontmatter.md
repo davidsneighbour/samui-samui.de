@@ -31,3 +31,7 @@ npm run publisher -- list --textpattern-tags
 The `--textpattern-tags` filter scans the full post file, including legacy frontmatter fields, and matches all opening and closing Textpattern tags. This includes escaped plugin names, unknown plugin names, and malformed closing tags.
 
 The archive migration removed the remaining tags using the owner-approved fallback rules in [Textpattern tag migration](textpattern-tags.md). That document retains the sorted original inventory and unresolved IDs. Do not infer recovered links or media from the absence of tags. The filter remains available to detect regressions or newly imported content.
+
+## Digital relic lifecycle
+
+The optional `relic` frontmatter property records an editorial review: `status: not-relic` or `status: relic`, a required `reviewed` calendar date, and an optional non-empty `note`. The `relic` state also requires one enumerated `reason`. Absence means unreviewed. See [Digital relics](digital-relics.md) for the full schema, publisher review and restoration commands, preserved media metadata, weekly checks, and candidate reports.

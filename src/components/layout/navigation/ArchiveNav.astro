@@ -9,6 +9,7 @@
 // "static bg-muted info panel" pattern) so it reads as a distinct surface
 // against the surrounding `bg-card` page body, not another paragraph.
 type ArchiveSection =
+  | 'relikte'
   | 'chronologisch'
   | 'themen'
   | 'personen'
@@ -31,6 +32,7 @@ const {
 } = Astro.props as Props;
 
 const items: { key: ArchiveSection; href: string; label: string }[] = [
+  { href: '/archiv/relikte/', key: 'relikte', label: 'Relikte' },
   { href: chronologicalHref, key: 'chronologisch', label: 'Chronologisch' },
   { href: '/archiv/themen/', key: 'themen', label: 'Themen' },
   { href: '/archiv/personen/', key: 'personen', label: 'Personen' },

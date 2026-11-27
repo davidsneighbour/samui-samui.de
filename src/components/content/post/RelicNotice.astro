@@ -1,0 +1,33 @@
+---
+import { formatDate } from '@utils/dates';
+import type { RelicReview } from '@utils/relic';
+import RelicIndicator from './RelicIndicator.astro';
+
+interface Props {
+  review: RelicReview;
+}
+const { review } = Astro.props;
+---
+
+<aside
+  aria-label="Digitales Relikt"
+  class="my-8 rounded-(--radius) border border-border bg-muted p-4 text-card-foreground"
+  data-pagefind-ignore
+>
+  <RelicIndicator />
+  <p class="mt-4">
+    Dieser Beitrag stammt aus den Tiefen des Blogarchivs. Sein ursprünglicher
+    Inhalt ist ganz oder teilweise verloren gegangen. Was davon übrig ist,
+    bleibt als kleines Stück Internetgeschichte erhalten.
+  </p>
+  <p class="mt-4">Das Internet vergisst angeblich nichts. Angeblich.</p>
+  {review.note && <p class="mt-4">{review.note}</p>}
+  <p class="mt-4 text-sm text-muted-foreground">
+    Als Relikt geprüft am {formatDate(review.reviewed)}.
+  </p>
+  <a
+    class="mt-4 inline-block text-link hover:underline"
+    href="/digitale-archaeologie/"
+    >Mehr über digitale Archäologie</a
+  >
+</aside>

@@ -21,7 +21,7 @@
  *   node src/scripts/content/fetch-video-thumbnails.ts <videoId>      → fetch (or refresh) a single video id, skipping the project scan (provider is auto-detected: numeric ids are Vimeo, 11-character ids are YouTube)
  *   node src/scripts/content/fetch-video-thumbnails.ts --force        → re-fetch all
  *   node src/scripts/content/fetch-video-thumbnails.ts <videoId> --force → re-fetch just that one id
- *   node src/scripts/content/fetch-video-thumbnails.ts --verify       → check every known id is still live/reachable (no download); exits 1 if any are dead
+ *   node src/scripts/content/fetch-video-thumbnails.ts --verify       → check every known id is still live/reachable (no download); exits 1 for persistent review candidates
  *
  * --verify exists because a video can go dead *after* its thumbnail was
  * already downloaded successfully -- the normal (non-verify) run only ever
@@ -34,7 +34,16 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { glob } from 'glob';
-import { parse as parseYaml } from 'yaml';
+import {
+  availabilityFromStatus,
+  type MediaCache,
+  type MediaHistory,
+  updateMediaHistory,
+} from '../../utils/media-history.ts';
+import {
+  detectVideoProvider,
+  getVideoReferences,
+} from '../../utils/video-references.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -48,8 +57,6 @@ const OUTPUT_ROOT = path.join(
 
 type Provider = 'vimeo' | 'youtube';
 
-const YOUTUBE_ID_RE = /^[A-Za-z0-9_-]{11}$/;
-const VIMEO_ID_RE = /^\d+$/;
 // Real YouTube 404 responses for missing thumbnail sizes return a tiny
 // 120x90 grey placeholder image instead of an HTTP error.
 const PLACEHOLDER_MAX_BYTES = 2000;
@@ -64,15 +71,9 @@ const explicitId = cliArgs.find(
   (arg) => !arg.startsWith('--') && !arg.includes('/') && !arg.includes('\\'),
 );
 
-function detectProvider(id: string): Provider | null {
-  if (YOUTUBE_ID_RE.test(id)) return 'youtube';
-  if (VIMEO_ID_RE.test(id)) return 'vimeo';
-  return null;
-}
-
 let explicitProvider: Provider | null = null;
 if (explicitId) {
-  explicitProvider = detectProvider(explicitId);
+  explicitProvider = detectVideoProvider(explicitId);
   if (!explicitProvider) {
     console.error(
       `"${explicitId}" is not a valid YouTube (11-character) or Vimeo (numeric) video id.`,
@@ -82,67 +83,25 @@ if (explicitId) {
 }
 
 const logPath = (filePath: string) =>
-  path.relative(process.cwd(), filePath).replace(/\\/g, '/');
+  path.relative(PROJECT_ROOT, filePath).replace(/\\/g, '/');
 
-interface VideoRef {
-  id: string;
-  provider: Provider;
-}
+const referenceUrls = new Map<string, string>();
 
-/**
- * Maps each referenced (provider, id) pair to the project-relative file(s)
- * it was found in, so a dead-video report can point straight at the content
- * that needs fixing.
- */
+/** Collect current references; historical metadata remains in the cache. */
 async function collectVideoRefs(): Promise<Map<string, Set<string>>> {
   const refsToFiles = new Map<string, Set<string>>();
-
-  const record = (ref: VideoRef, file: string) => {
-    const key = `${ref.provider}:${ref.id}`;
-    const existing = refsToFiles.get(key) ?? new Set<string>();
-    existing.add(logPath(file));
-    refsToFiles.set(key, existing);
-  };
-
   const files = await glob('**/*.md', { absolute: true, cwd: POSTS_ROOT });
-
-  const youtubeTagPattern =
-    /<dnb-youtube\b[^>]*\bvideoid=["']([A-Za-z0-9_-]{11})["']/g;
-  const vimeoTagPattern = /<dnb-vimeo\b[^>]*\bvideoid=["'](\d+)["']/g;
-
   for (const file of files) {
     const content = await fs.readFile(file, 'utf8');
-
-    const frontmatterMatch = /^---\n([\s\S]*?)\n---/.exec(content);
-    if (frontmatterMatch?.[1]) {
-      try {
-        const frontmatter = parseYaml(frontmatterMatch[1]) as {
-          cover?: { type?: string; video?: string | number };
-        };
-        const cover = frontmatter.cover;
-        if (
-          (cover?.type === 'youtube' || cover?.type === 'vimeo') &&
-          cover.video !== undefined
-        ) {
-          const id = String(cover.video).trim();
-          if (id) record({ id, provider: cover.type }, file);
-        }
-      } catch {
-        // Malformed frontmatter is validated elsewhere (astro check); skip.
-      }
-    }
-
-    for (const match of content.matchAll(youtubeTagPattern)) {
-      const id = match[1];
-      if (id && YOUTUBE_ID_RE.test(id))
-        record({ id, provider: 'youtube' }, file);
-    }
-    for (const match of content.matchAll(vimeoTagPattern)) {
-      const id = match[1];
-      if (id && VIMEO_ID_RE.test(id)) record({ id, provider: 'vimeo' }, file);
+    for (const ref of getVideoReferences(content)) {
+      const key = `${ref.provider}:${ref.id}`;
+      const references = refsToFiles.get(key) ?? new Set<string>();
+      references.add(logPath(file));
+      refsToFiles.set(key, references);
+      if (!referenceUrls.has(key) || ref.url.split('/').length > 4)
+        referenceUrls.set(key, ref.url);
     }
   }
-
   return refsToFiles;
 }
 
@@ -152,29 +111,6 @@ async function collectVideoRefs(): Promise<Map<string, Set<string>>> {
 // CWE-912) mitigation for the same download-and-save pattern.
 function isJpeg(buffer: Buffer): boolean {
   return buffer[0] === 0xff && buffer[1] === 0xd8 && buffer[2] === 0xff;
-}
-
-/**
- * Checks whether a YouTube video still exists. `hqdefault.jpg` is available
- * for essentially every real video regardless of source resolution, and —
- * unlike the youtube.com watch page, which returns HTTP 200 with a
- * client-rendered "video unavailable" message — genuinely returns a real
- * 404 once a video has been deleted or made private.
- */
-async function isYoutubeVideoLive(videoId: string): Promise<boolean> {
-  const response = await fetch(
-    `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`,
-    { method: 'HEAD' },
-  );
-  return response.ok;
-}
-
-async function isVimeoVideoLive(videoId: string): Promise<boolean> {
-  const apiUrl = `https://vimeo.com/api/oembed.json?url=${encodeURIComponent(
-    `https://vimeo.com/${videoId}`,
-  )}`;
-  const response = await fetch(apiUrl);
-  return response.ok;
 }
 
 async function fetchYoutubeThumbnail(videoId: string): Promise<Buffer> {
@@ -206,7 +142,7 @@ async function fetchYoutubeThumbnail(videoId: string): Promise<Buffer> {
 
 async function fetchVimeoThumbnail(videoId: string): Promise<Buffer> {
   const apiUrl = `https://vimeo.com/api/oembed.json?url=${encodeURIComponent(
-    `https://vimeo.com/${videoId}`,
+    referenceUrls.get(`vimeo:${videoId}`) ?? `https://vimeo.com/${videoId}`,
   )}`;
   const response = await fetch(apiUrl);
   if (!response.ok) {
@@ -243,39 +179,87 @@ async function fetchVimeoThumbnail(videoId: string): Promise<Buffer> {
   return buffer;
 }
 
-async function runVerify(refsToFiles: Map<string, Set<string>>) {
-  const keys = [...refsToFiles.keys()].sort();
-  console.log(
-    `Verifying ${keys.length} unique video reference(s) are still live/reachable…`,
-  );
+const historyPath = path.join(PROJECT_ROOT, 'src/data/video-media.json');
+let history: MediaCache = JSON.parse(await fs.readFile(historyPath, 'utf8'));
 
-  const dead: string[] = [];
-  for (const key of keys) {
-    const [provider, id] = key.split(':') as [Provider, string];
-    const live =
-      provider === 'youtube'
-        ? await isYoutubeVideoLive(id)
-        : await isVimeoVideoLive(id);
-    console.log(
-      `${live ? '✔' : '✘'} ${provider}:${id}${live ? '' : ' — no longer available'}`,
+async function checkMedia(key: string, files: Set<string>) {
+  const [provider, id] = key.split(':') as ['youtube' | 'vimeo', string];
+  const url =
+    referenceUrls.get(key) ??
+    history[key]?.url ??
+    (provider === 'youtube'
+      ? `https://www.youtube.com/watch?v=${id}`
+      : `https://vimeo.com/${id}`);
+  const endpoint =
+    provider === 'youtube'
+      ? 'https://www.youtube.com/oembed'
+      : 'https://vimeo.com/api/oembed.json';
+  const observation: MediaHistory = {
+    availability: 'unknown',
+    consecutiveFailures: 0,
+    files: [...files],
+    id,
+    lastChecked: new Date().toISOString(),
+    provider,
+    url,
+  };
+  try {
+    const response = await fetch(
+      `${endpoint}?url=${encodeURIComponent(url)}&format=json`,
+      { signal: AbortSignal.timeout(15000) },
     );
-    if (!live) dead.push(key);
+    observation.availability = availabilityFromStatus(response.status);
+    if (response.ok) {
+      const data = (await response.json()) as Record<string, unknown>;
+      for (const [field, remote] of [
+        ['title', 'title'],
+        ['description', 'description'],
+        ['author', 'author_name'],
+        ['published', 'upload_date'],
+      ] as const) {
+        if (typeof data[remote] === 'string') observation[field] = data[remote];
+      }
+    }
+  } catch {
+    // Network failures, timeouts, and invalid API responses are inconclusive.
+    observation.availability = 'unknown';
   }
+  const thumbnail = path.join(OUTPUT_ROOT, provider, `${id}.jpg`);
+  if (
+    await fs
+      .access(thumbnail)
+      .then(() => true)
+      .catch(() => false)
+  )
+    observation.thumbnail = path.relative(PROJECT_ROOT, thumbnail);
+  history[key] = updateMediaHistory(history[key], observation);
+  return history[key];
+}
 
-  if (dead.length === 0) {
-    console.log(`\nAll ${keys.length} video(s) are still live.`);
-    return;
-  }
-
-  console.log(
-    `\n${dead.length} of ${keys.length} video(s) are no longer available:\n`,
+async function saveHistory() {
+  await fs.writeFile(
+    historyPath,
+    `${JSON.stringify(Object.fromEntries(Object.entries(history).sort(([a], [b]) => a.localeCompare(b))), null, 2)}\n`,
   );
-  for (const key of dead) {
-    const files = [...(refsToFiles.get(key) ?? [])].sort();
-    console.log(`- ${key}`);
+}
+
+async function runVerify(refsToFiles: Map<string, Set<string>>) {
+  let candidates = 0;
+  for (const [key, files] of [...refsToFiles.entries()].sort()) {
+    const entry = await checkMedia(key, files);
+    const candidate =
+      entry.availability === 'unavailable' && entry.consecutiveFailures >= 2;
+    if (candidate) candidates++;
+    console.log(
+      `${key}: ${entry.availability}; consecutive failures: ${entry.consecutiveFailures}${candidate ? ' — editorial review candidate' : ''}`,
+    );
     for (const file of files) console.log(`    ${file}`);
   }
-  process.exit(1);
+  await saveHistory();
+  console.log(
+    'Automated observations only. No editorial classification or source deletion performed.',
+  );
+  if (candidates > 0) process.exitCode = 1;
 }
 
 async function main() {
@@ -315,6 +299,7 @@ async function main() {
       }
     }
 
+    await checkMedia(key, refsToFiles.get(key) ?? new Set());
     try {
       const buffer =
         provider === 'youtube'
@@ -325,6 +310,8 @@ async function main() {
       console.log(
         `✔ fetched: ${logPath(destPath)} (${buffer.byteLength} bytes)`,
       );
+      const entry = history[key];
+      if (entry) entry.thumbnail = path.relative(PROJECT_ROOT, destPath);
       fetched++;
     } catch (error) {
       console.error(`✘ failed: ${key} — ${(error as Error).message}`);
@@ -332,6 +319,7 @@ async function main() {
     }
   }
 
+  await saveHistory();
   console.log(
     `\nDone. Fetched ${fetched}, skipped ${skipped} (already present), failed ${failed}.`,
   );

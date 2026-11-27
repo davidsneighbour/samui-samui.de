@@ -2,6 +2,8 @@ import type { ImageMetadata } from 'astro';
 import type { Element, ElementContent, Root } from 'hast';
 import { visitParents } from 'unist-util-visit-parents';
 import type { VFile } from 'vfile';
+import mediaCache from '../../data/video-media.json';
+import type { MediaCache } from '../../utils/media-history';
 // Relative import only: astro.config.ts loads this module directly, before
 // Vite's `@utils/*` path aliases are registered (see rehype/legacy-images.ts).
 import {
@@ -63,6 +65,7 @@ function hasPosterChild(node: Element): boolean {
  */
 export function rehypeVideoPosters(
   resolveThumbnail: ThumbnailResolver = resolveLocalThumbnail,
+  history: MediaCache = mediaCache as MediaCache,
 ) {
   return (tree: Root, file: VFile) => {
     const targets: Target[] = [];
@@ -70,14 +73,34 @@ export function rehypeVideoPosters(
       const provider =
         ELEMENT_NAMES[node.tagName as keyof typeof ELEMENT_NAMES];
       if (!provider) return;
-      if (hasPosterChild(node)) return;
       targets.push({ node, provider });
     });
 
     for (const { node, provider } of targets) {
       const videoId = readAttr(node.properties, 'videoid');
       if (!videoId) continue;
+      const review = (
+        file.data as {
+          astro?: { frontmatter?: { relic?: { status?: string } } };
+        }
+      ).astro?.frontmatter?.relic;
+      if (
+        review?.status === 'relic' &&
+        history[`${provider}:${videoId}`]?.availability === 'unavailable'
+      ) {
+        node.tagName = 'p';
+        node.properties = {};
+        node.children = [
+          {
+            type: 'text',
+            value:
+              'Das ursprünglich eingebundene Video ist nicht mehr verfügbar.',
+          },
+        ];
+        continue;
+      }
 
+      if (hasPosterChild(node)) continue;
       const thumbnail = resolveThumbnail(provider, videoId);
       if (!thumbnail) continue;
       // Config-loaded asset imports are source paths before Astro's image

@@ -224,7 +224,7 @@
       "node src/scripts/lint-links.ts --staged",
       "node src/scripts/lint-german-dates.ts",
       "node src/scripts/content/fetch-video-thumbnails.ts",
-      "git add src/assets/images/video-thumbnails"
+      "git add src/assets/images/video-thumbnails src/data/video-media.json"
     ],
     "*.{js,cjs,mjs,ts,astro}": [
       "node src/scripts/normalize-german-characters.ts --write",

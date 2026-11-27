@@ -6,6 +6,7 @@
   import { trackPagefindSearch } from '@scripts/analytics/track-pagefind-search';
 
   const instance = getInstanceManager().getInstance('search-page');
+  instance.searchFilters['relic'] = ['false'];
   trackPagefindSearch(instance);
 
   const triggerQuerySearch = () => {

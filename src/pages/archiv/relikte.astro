@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+import RelicIndicator from '@components/content/post/RelicIndicator.astro';
+import ArchiveNav from '@components/layout/navigation/ArchiveNav.astro';
+import PageLayout from '@layouts/PageLayout.astro';
+import { formatDate } from '@utils/dates';
+import { getPostUrl } from '@utils/posts';
+import { isRelic } from '@utils/relic';
+
+const posts = (await getCollection('posts'))
+  .filter(isRelic)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<PageLayout
+  title="Digitale Relikte"
+  description="Erhaltene Spuren aus dem Blogarchiv"
+  noindex
+>
+  <ArchiveNav
+    current="relikte"
+    class="mb-8"
+  />
+  {posts.length === 0 && (
+    <p>Noch keine Beiträge als digitale Relikte eingeordnet.</p>
+  )}
+  <ul class="space-y-4">
+    {posts.map((post) => (
+      <li>
+        <a href={getPostUrl(post)} class="text-link hover:underline">
+          {post.data.title}
+        </a>{' '}
+        ·{' '}
+        <time datetime={post.data.date.toISOString()}>
+          {formatDate(post.data.date)}
+        </time>{' '}
+        <RelicIndicator />
+      </li>
+    ))}
+  </ul>
+</PageLayout>

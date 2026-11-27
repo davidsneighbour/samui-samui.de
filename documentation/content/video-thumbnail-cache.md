@@ -52,7 +52,7 @@ already cached:
 npm run thumbnails:fetch              # fetch missing thumbnails for every id found in the project
 node src/scripts/content/fetch-video-thumbnails.ts <videoId>          # fetch/refresh a single id (provider auto-detected: numeric = Vimeo, 11-character = YouTube)
 node src/scripts/content/fetch-video-thumbnails.ts --force            # re-fetch all
-npm run thumbnails:verify             # check every known id is still live/reachable, no download; exits 1 if any are dead
+npm run thumbnails:verify             # check every known id is still live/reachable, no download; exits 1 for persistent review candidates
 ```
 
 YouTube downloads try `maxresdefault.jpg` → `sddefault.jpg` →
@@ -66,11 +66,13 @@ disk.
 
 * **`lint-staged`** (`package.json`) runs the fetch script whenever staged
   content under `src/content/**/*.{md,mdx}` changes, then stages
-  `src/assets/images/video-thumbnails/` — a new or edited post with a video
-  never gets committed without its poster.
+  `src/assets/images/video-thumbnails/` and `src/data/video-media.json`. Successful downloads preserve the local poster and historical metadata. Failed downloads retain existing files and are reported without blocking unrelated archive edits.
 * **`.github/workflows/check-video-thumbnails.yml`** runs
   `npm run thumbnails:verify` weekly and files/comments on a tracking issue
-  when a referenced video is no longer live/reachable — mirroring
-  `kollitsch.dev`'s equivalent YouTube-only workflow.
+  for persistent confirmed unavailable observations. Metadata is retained in repository history; no post is automatically classified. See [Digital relics](digital-relics.md).
 
 The Markdown poster plugin accepts both resolved image metadata and source-path imports from Astro’s configuration loader. It registers source paths with Astro’s local image pipeline so the built poster has a real local asset URL, rather than an empty image element. This was verified while replacing SoundCloud in [the media review](https://github.com/davidsneighbour/samui-samui.de/issues/1805).
+
+## Digital relic lifecycle
+
+The optional `relic` frontmatter property records an editorial review: `status: not-relic` or `status: relic`, a required `reviewed` calendar date, and an optional non-empty `note`. The `relic` state also requires one enumerated `reason`. Absence means unreviewed. See [Digital relics](digital-relics.md) for the full schema, publisher review and restoration commands, preserved media metadata, weekly checks, and candidate reports.

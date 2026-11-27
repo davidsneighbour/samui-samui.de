@@ -7,6 +7,7 @@ import BlogPostMeta from '@components/content/post/BlogPostMeta.astro';
 import BlogPostTitle from '@components/content/post/BlogPostTitle.astro';
 import PostCover from '@components/content/post/PostCover.astro';
 import PostTaxonomyGroups from '@components/content/post/PostTaxonomyGroups.astro';
+import RelicIndicator from '@components/content/post/RelicIndicator.astro';
 import Giscus from '@components/features/comments/Giscus.astro';
 import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import Button from '@components/ui/button.astro';
@@ -19,6 +20,7 @@ import { getPostPreviewHtml } from '@utils/post-preview';
 import { getPostUrl as getCanonicalPostUrl } from '@utils/posts';
 import { proseClasses } from '@utils/prose';
 import { getPostReadingTime } from '@utils/reading-time';
+import { isRelic } from '@utils/relic';
 import { resolvePostTaxonomyGroups } from '@utils/taxonomies/entities';
 
 interface Props {
@@ -99,7 +101,7 @@ const listedPosts = await Promise.all(
     const featured = shouldFeaturePost(index);
 
     return {
-      cover: await getPostCover(post),
+      cover: isRelic(post) ? undefined : await getPostCover(post),
       fullPostHtml: featured
         ? (post.rendered?.html ?? getPostPreviewHtml(post, 5).join('\n'))
         : undefined,
@@ -194,6 +196,7 @@ const showTopPagination = showPagination && pageNumber > 1;
             class="group rounded-(--radius) border border-border bg-card px-4 py-6 text-card-foreground transition-colors duration-200 hover:border-muted-foreground/40 focus-within:border-muted-foreground/40 dark:border-transparent dark:hover:border-border/60 dark:focus-within:border-border/60 sm:px-6"
           >
             <header class="mb-4">
+              {isRelic(post) && <RelicIndicator />}
               <BlogPostTitle
                 title={post.data.title}
                 href={getPostUrl(post)}

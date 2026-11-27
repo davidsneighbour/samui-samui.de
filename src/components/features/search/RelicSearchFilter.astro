@@ -1,0 +1,112 @@
+---
+import RelicIndicator from '@components/content/post/RelicIndicator.astro';
+
+interface Props {
+  instance?: string;
+}
+const { instance = 'default' } = Astro.props;
+---
+
+<relic-search-filter data-instance={instance}>
+  <label class="mt-2 flex items-center gap-2 text-sm">
+    <input type="checkbox"> Auch digitale Relikte durchsuchen
+  </label>
+  <template><RelicIndicator /></template>
+</relic-search-filter>
+<script>
+  import type { Instance, PagefindResultData } from '@pagefind/component-ui';
+  import { getInstanceManager } from '@pagefind/component-ui';
+
+  class RelicSearchFilter extends HTMLElement {
+    instance: Instance | null = null;
+    disconnectedCallback() {
+      this.instance?.unregisterComponent(this);
+    }
+    connectedCallback() {
+      const instance = getInstanceManager().getInstance(
+        this.dataset['instance'] ?? 'default',
+      );
+      this.instance = instance;
+      const input = this.querySelector('input');
+      if (!input) return;
+      // Set synchronously, before the query-string bridge or any typed query.
+      instance.searchFilters['relic'] = ['false'];
+      instance.on(
+        'search',
+        (_term, filters) => {
+          (filters as Instance['searchFilters'])['relic'] = input.checked
+            ? []
+            : ['false'];
+        },
+        this,
+      );
+      input.addEventListener('change', () =>
+        instance.triggerFilter('relic', input.checked ? [] : ['false']),
+      );
+      const surface = this.parentElement?.querySelector(
+        'pagefind-results, pagefind-searchbox',
+      );
+      if (!surface) return;
+      const setup = () => {
+        if (!this.isConnected) return;
+        const target = surface as HTMLElement & {
+          resultTemplate: (result: PagefindResultData) => Element;
+        };
+        target.resultTemplate = (result) => {
+          const dropdown = surface.localName === 'pagefind-searchbox';
+          const item = document.createElement(dropdown ? 'div' : 'li');
+          item.className = dropdown ? 'pf-searchbox-group' : 'pf-result';
+          if (dropdown) {
+            item.setAttribute('role', 'group');
+            item.setAttribute('aria-label', result.meta['title'] ?? result.url);
+          }
+          const link = document.createElement('a');
+          link.href = result.url;
+          link.textContent = result.meta['title'] ?? result.url;
+          link.className = dropdown ? 'pf-searchbox-result' : 'pf-result-link';
+          if (dropdown) {
+            link.id = instance.generateId('relic-search-result');
+            link.setAttribute('role', 'option');
+            link.setAttribute('aria-selected', 'false');
+          }
+          item.append(link);
+          if (result.meta['relic'] === 'true') {
+            const indicator =
+              this.querySelector('template')?.content.cloneNode(true);
+            if (indicator) (dropdown ? link : item).append(indicator);
+          }
+          const excerpt = document.createElement('p');
+          // Extract text only; the Pagefind excerpt includes trusted highlight markup.
+          const parsed = new DOMParser().parseFromString(
+            result.excerpt,
+            'text/html',
+          );
+          excerpt.textContent = parsed.body.textContent;
+          excerpt.className = dropdown
+            ? 'pf-searchbox-result-excerpt'
+            : 'pf-result-excerpt';
+          if (dropdown) link.append(excerpt);
+          else item.append(excerpt);
+          for (const sub of instance.getDisplaySubResults(result, 3)) {
+            const section = document.createElement('a');
+            section.href = sub.url;
+            section.textContent = sub.title;
+            section.className = dropdown
+              ? 'pf-searchbox-result pf-searchbox-subresult'
+              : 'pf-heading-link';
+            if (dropdown) {
+              section.id = instance.generateId('relic-search-section');
+              section.setAttribute('role', 'option');
+              section.setAttribute('aria-selected', 'false');
+            }
+            item.append(section);
+          }
+          return item;
+        };
+      };
+      void customElements.whenDefined(surface.localName).then(setup);
+    }
+  }
+  if (!customElements.get('relic-search-filter'))
+    customElements.define('relic-search-filter', RelicSearchFilter);
+</script>

@@ -10,9 +10,9 @@ The website uses [Pagefind](https://pagefind.app/) for static search. The search
 
 ## Index cache
 
-The Astro Pagefind hook in `src/scripts/integrations/pagefind.ts` no longer rebuilds the index on every build. It calculates a hash over `src/content/**`, the Pagefind version, and the Pagefind index configuration.
+The Astro Pagefind hook in `src/scripts/integrations/pagefind.ts` no longer rebuilds the index on every build. It calculates a hash over `src/content/**`, `src/layouts/**`, `src/components/**`, `src/pages/**`, `src/data/video-media.json`, the Pagefind version, and the Pagefind index configuration.
 
-When the hash matches the local manifest at `node_modules/.astro/pagefind/manifest.json` and the cached bundle exists, the bundle is copied to `dist/pagefind/`. When the manifest is missing, the bundle is missing, the Pagefind version changes, the index configuration changes, or `src/content/**` changes, Pagefind runs again and the cache is refreshed.
+When the hash matches the local manifest at `node_modules/.astro/pagefind/manifest.json` and the cached bundle exists, the bundle is copied to `dist/pagefind/`. When the manifest is missing, the bundle is missing, the Pagefind version changes, the index configuration changes, or any hashed input changes, Pagefind runs again and the cache is refreshed.
 
 Manual controls:
 
@@ -22,8 +22,12 @@ npm run build:nocache  # forces a fresh Pagefind index
 npm run clean:pagefind # removes the cache and current dist/pagefind bundle
 ```
 
-Use `npm run build:nocache` after layout changes, metadata-markup changes, Pagefind filter-attribute changes, or other non-content search-signal changes. The automatic cache key is intentionally limited to `src/content/**` as its primary change indicator.
+Layout, metadata markup, filter attributes, and media-history changes now invalidate the index automatically. Use `npm run build:nocache` to diagnose changes to other search inputs.
 
 ## Development dependency scan
 
 Avoid literal opening script tags in frontmatter comments in `PagefindComponentUi.astro`. The development dependency scanner can treat them as real client script blocks, extract comment prose as JavaScript, and report an unterminated string before the Pagefind import. Describe client scripts in plain words instead. This does not change the browser script or the frontmatter stylesheet import.
+
+## Digital relics
+
+All three interfaces use `RelicSearchFilter.astro` and default to excluding `relic:true` pages. The checkbox opts into relic results without clearing year or topic filters. The shared indicator labels opted-in results. The control sits above compact fields so their results panels cannot cover it. See [Digital relics](../content/digital-relics.md) for the editorial contract.

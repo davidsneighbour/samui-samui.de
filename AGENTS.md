@@ -505,3 +505,7 @@ site exists for technical reasons only, not marketing, so losing a "track" when 
 visitor leaves before the script loads is an accepted tradeoff in exchange for not
 blocking page rendering or interaction. Do not move the analytics include earlier
 in the document to "fix" this without discussing the tradeoff first.
+
+## Content preservation and permanent deletion
+
+Agents MUST follow [Content preservation](documentation/content/content-preservation.md). Published posts MUST NOT be permanently deleted, removed from routing, or emptied without two separate, explicit owner approvals: first for the identified proposal (title, permalink, source file, and why restoration or relic classification is unsuitable), then for the final scope after that first approval. The initial deletion request, general implementation approval, silence, automated checks, and relic status count as neither approval. Before both approvals, agents MUST preserve the content. This applies to bulk operations, migrations, automation, and clean-up. Automated checks MUST NOT classify posts as relics. Existing post classifications require editorial approval.

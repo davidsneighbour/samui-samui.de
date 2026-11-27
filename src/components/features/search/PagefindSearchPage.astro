@@ -1,5 +1,6 @@
 ---
 import PagefindSearchPageQuery from '@components/features/search/PagefindSearchPageQuery.astro';
+import RelicSearchFilter from '@components/features/search/RelicSearchFilter.astro';
 ---
 
 <section class="pagefind-search-page">
@@ -28,6 +29,7 @@ import PagefindSearchPageQuery from '@components/features/search/PagefindSearchP
       sort="alphabetical"
     ></pagefind-filter-dropdown>
   </div>
+  <RelicSearchFilter instance="search-page" />
   <pagefind-summary
     instance="search-page"
     default-message="Suchbegriff eingeben."

@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import FormattedDate from '@components/content/date/FormattedDate.astro';
 import SiteAge from '@components/content/date/SiteAge.astro';
+import RelicSearchFilter from '@components/features/search/RelicSearchFilter.astro';
 import ArchiveNav from '@components/layout/navigation/ArchiveNav.astro';
 import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import Accordion from '@components/ui/accordion.astro';
@@ -230,6 +231,7 @@ const curatedThemen = themaGroups.slice(0, 12);
         bundle-path="/pagefind/"
         base-url="/"
       ></pagefind-config>
+      <RelicSearchFilter instance="archive" />
       <pagefind-searchbox
         instance="archive"
         placeholder="Archiv durchsuchen"

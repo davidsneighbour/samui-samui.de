@@ -1,11 +1,14 @@
 ---
 import { getCollection, render } from 'astro:content';
+import mediaCache from '@data/video-media.json';
 import BlogPost from '@layouts/BlogPost.astro';
 import { getPostCover } from '@utils/covers';
+import type { MediaCache } from '@utils/media-history';
 import { getPostMetaDescription } from '@utils/post-meta-description';
 import { getPostUrl } from '@utils/posts';
 import { getPostReadingTime } from '@utils/reading-time';
 import { createRelatedPostLookup } from '@utils/related-posts';
+import { isPromotable, isRelic } from '@utils/relic';
 import { resolvePostTaxonomyGroups } from '@utils/taxonomies/entities';
 
 export async function getStaticPaths() {
@@ -15,8 +18,8 @@ export async function getStaticPaths() {
   const relatedPostsFor = createRelatedPostLookup(posts);
   return posts.map((post, index) => {
     const url = getPostUrl(post);
-    const newerPost = posts[index - 1];
-    const olderPost = posts[index + 1];
+    const newerPost = posts.slice(0, index).reverse().find(isPromotable);
+    const olderPost = posts.slice(index + 1).find(isPromotable);
 
     return {
       params: { slug: url.replace(/^\/|\/$/g, '') },
@@ -48,7 +51,15 @@ export async function getStaticPaths() {
 const { newerPost, olderPost, relatedPosts, post } = Astro.props;
 const postUrl = getPostUrl(post);
 const { Content } = await render(post);
-const cover = await getPostCover(post);
+const resolvedCover = await getPostCover(post);
+const videoCover = post.data.cover;
+const missingCover =
+  isRelic(post) &&
+  videoCover &&
+  videoCover.type !== 'image' &&
+  (mediaCache as MediaCache)[`${videoCover.type}:${videoCover.video}`]
+    ?.availability === 'unavailable';
+const cover = missingCover ? undefined : resolvedCover;
 const [personen, orte, ereignisse, feiertage] = await Promise.all([
   getCollection('personen'),
   getCollection('orte'),
@@ -71,6 +82,7 @@ const hasYoutube = post.body?.includes('dnb-youtube') ?? false;
 
 <BlogPost
   title={post.data.title}
+  relic={post.data.relic}
   readingTime={getPostReadingTime(post)}
   description={getPostMetaDescription(post)}
   cover={cover}

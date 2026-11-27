@@ -28,6 +28,9 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { glob } from 'glob';
 import { isMap, parseDocument } from 'yaml';
+import { type MediaCache, mediaCandidate } from '../utils/media-history.ts';
+import { relicReviewSchema } from '../utils/relic.ts';
+import { getVideoReferences } from '../utils/video-references.ts';
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(scriptDir, '../..');
@@ -268,7 +271,113 @@ async function runList(filters: Filters) {
   console.log(`\n${matched} post(s) matched.`);
 }
 
+async function runRelic(argv: string[]) {
+  const [operation, ...args] = argv;
+  const allowedOptions = ['path', 'status', 'reviewed', 'reason', 'note'];
+  for (const arg of args) {
+    if (
+      arg !== '--dry-run' &&
+      !allowedOptions.some((key) => arg.startsWith(`--${key}=`))
+    )
+      throw new Error(`Unknown relic option: ${arg}`);
+  }
+  const options = Object.fromEntries(
+    args
+      .filter((arg) => arg.startsWith('--') && arg.includes('='))
+      .map((arg) => {
+        const index = arg.indexOf('=');
+        return [arg.slice(2, index), arg.slice(index + 1)];
+      }),
+  );
+  const dryRun = args.includes('--dry-run');
+  if (
+    operation === 'list' &&
+    options['status'] &&
+    ![
+      'unreviewed',
+      'not-relic',
+      'relic',
+      'candidate',
+      'restoration-candidate',
+    ].includes(options['status'])
+  )
+    throw new Error('Unknown relic list status.');
+  if (options['path']?.split(/[\\/]/).includes('..'))
+    throw new Error('Post paths must stay inside the post archive.');
+  if (!['list', 'review', 'restore'].includes(operation ?? ''))
+    throw new Error(
+      'Usage: publisher relic list|review|restore --path=<post folder> --status=... --reviewed=YYYY-MM-DD [--reason=...] [--note=...] [--dry-run]',
+    );
+  const files = await findCandidateFiles({
+    all: false,
+    textpatternTags: false,
+    ...(options['path'] ? { path: options['path'] } : {}),
+  });
+  const cache = JSON.parse(
+    fs.readFileSync(
+      path.join(projectRoot, 'src/data/video-media.json'),
+      'utf8',
+    ),
+  ) as MediaCache;
+  if (
+    operation !== 'list' &&
+    (!options['path'] ||
+      files.length !== 1 ||
+      /[*?{}\[\]]/.test(options['path']))
+  )
+    throw new Error(
+      'Editorial writes require one exact --path matching one post.',
+    );
+  for (const file of files) {
+    const loaded = loadFrontmatter(file);
+    if (!loaded) continue;
+    const review = loaded.data['relic'] as { status?: string } | undefined;
+    const relative = path.relative(projectRoot, file).replace(/\\/g, '/');
+    const currentKeys = new Set(
+      getVideoReferences(loaded.parsed.raw).map(
+        (ref) => `${ref.provider}:${ref.id}`,
+      ),
+    );
+    const currentMedia = Object.fromEntries(
+      Object.entries(cache).filter(([key]) => currentKeys.has(key)),
+    );
+    const candidate = mediaCandidate([relative], review?.status, currentMedia);
+    const status = review?.status ?? 'unreviewed';
+    if (operation === 'list') {
+      const requested = options['status'];
+      if (!requested || requested === status || requested === candidate)
+        console.log(`${relative}\t${status}\t${candidate ?? ''}`);
+      continue;
+    }
+    if (
+      !options['reviewed'] ||
+      !/^\d{4}-\d{2}-\d{2}$/.test(options['reviewed'])
+    )
+      throw new Error(
+        'Supply the explicit editorial --reviewed=YYYY-MM-DD date.',
+      );
+    if (operation === 'restore' && review?.status !== 'relic')
+      throw new Error('Only a classified relic can be restored.');
+    const next = {
+      reviewed: options['reviewed'],
+      status: operation === 'restore' ? 'not-relic' : options['status'],
+      ...(options['reason'] ? { reason: options['reason'] } : {}),
+      ...(options['note'] ? { note: options['note'] } : {}),
+    };
+    relicReviewSchema.parse(next);
+    loaded.doc.set('relic', next);
+    if (!dryRun) writeFrontmatter(file, loaded.parsed, loaded.doc);
+    console.log(
+      `${dryRun ? '[dry-run] ' : ''}${relative}\t${JSON.stringify(next)}`,
+    );
+  }
+}
+
 async function main() {
+  if (process.argv[2] === 'relic') {
+    await runRelic(process.argv.slice(3));
+    return;
+  }
   const { command, positional, filters, dryRun } = parseArgs(
     process.argv.slice(2),
   );
@@ -305,4 +414,7 @@ async function main() {
   }
 }
 
-main();
+main().catch((error) => {
+  console.error((error as Error).message);
+  process.exitCode = 1;
+});

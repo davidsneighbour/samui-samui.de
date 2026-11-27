@@ -1,0 +1,85 @@
+# Digital relics
+
+Digital relics preserve posts whose essential content or context has been lost. Old age, low relevance, or one broken link alone does not establish this status. Published URLs, original publication dates, source text, and media identifiers remain unchanged. Existing posts are not classified by this implementation.
+
+## Editorial states
+
+`relic` is an optional strict discriminated union, separate from `publisher`, `relevance`, and anniversary curation. Absence means **unreviewed**, not an editorial decision. Unreviewed posts behave as regular posts publicly.
+
+```yaml
+relic:
+  status: not-relic
+  reviewed: 2026-11-27
+```
+
+```yaml
+relic:
+  status: relic
+  reviewed: 2026-11-27
+  reason: missing-media
+  note: Das ursprünglich eingebundene Video ist nicht mehr verfügbar.
+```
+
+Both states require a valid calendar review date (`YYYY-MM-DD`). Both allow an optional non-empty `note`. Only `relic` accepts and requires `reason`:
+
+| Reason | Meaning |
+| --- | --- |
+| `missing-media` | Essential video, audio, or image is missing. |
+| `missing-source` | An essential external source has disappeared. |
+| `lost-content` | Content was lost through migration or technical failure. |
+| `obsolete-context` | The original context cannot be reconstructed. |
+| `other` | Another editorial reason; explain it in the note. |
+
+Restoration sets `status: not-relic` with a new review date. Do not remove the block, as that would discard the distinction between reviewed and unreviewed.
+
+## Public presentation
+
+`RelicNotice.astro` contains the German explanation and review date; `RelicIndicator.astro` contains the compact German label and the Lucide `mound-shovel` icon. They use existing muted-panel design tokens. The notice sits before the surviving article body and is ignored by Pagefind. Notes are escaped as text.
+
+Relics remain at their original URLs and in chronological and topic/entity archives, with a visible label. `/archiv/relikte/` lists all relics. `/digitale-archaeologie/` is a normal, initially empty MDX page reserved for the future explanation.
+
+Relics are excluded from the homepage, homepage pagination, related recommendations, previous/next promotion links, RSS, and the sitemap. They receive `noindex,follow`. The relic collection and empty explanation page also receive `noindex` and are excluded from the sitemap. These signals request exclusion from external search engines; they do not prevent direct access or guarantee when a crawler will remove an old result.
+
+Every indexed page carries the derived `relic:true` or `relic:false` Pagefind filter and metadata, independently of whether it has an editorial review. All three search surfaces (header, archive, and dedicated search page) default to `relic:false`. Selecting "Auch digitale Relikte durchsuchen" removes this restriction while preserving other filters. The checkbox remains selected while that interface remains open; a fresh interface starts unchecked. Opted-in results display the shared relic indicator.
+
+Only videos confirmed unavailable in the local media history are suppressed on classified relics. Source identifiers remain in the Markdown. Surviving media remains available, and inconclusive checks do not hide players. Cached thumbnails are retained.
+
+## Publisher commands
+
+Use the existing publisher command. Listing never modifies posts:
+
+```bash
+npm run publisher -- relic list --status=unreviewed
+npm run publisher -- relic list --status=not-relic
+npm run publisher -- relic list --status=relic
+npm run publisher -- relic list --status=candidate
+npm run publisher -- relic list --status=restoration-candidate
+```
+
+Review and restoration require one exact post folder and an explicit review date. Obtain editorial approval before changing an existing post's classification. Start with `--dry-run` to review the exact result:
+
+```bash
+npm run publisher -- relic review --path=2005/example --status=relic --reviewed=2026-11-27 --reason=missing-media --note="Das Video fehlt." --dry-run
+npm run publisher -- relic review --path=2005/example --status=not-relic --reviewed=2026-11-27 --dry-run
+npm run publisher -- relic restore --path=2005/example --reviewed=2026-11-27 --dry-run
+```
+
+Remove `--dry-run` only when the editorial decision is approved. Review writes preserve the YAML document and original body. There is no bulk classification or deletion command.
+
+## Media history and weekly review
+
+The existing thumbnail ingestion and verification script maintains `src/data/video-media.json`, keyed by `provider:id`. The shared reference parser retains unlisted Vimeo URL hashes. The cache stores provider, identifier, original URL, last known title, description, author, publication date (where the provider supplies it), local thumbnail path, first successful check, last check, last availability, availability state, consecutive failures, and referencing source files. Empty or absent provider fields never replace useful historical values. Thumbnails are never deleted on failure.
+
+New thumbnail ingestion also retrieves oEmbed metadata. `npm run thumbnails:verify` checks all referenced media with a timeout and records observations without editing posts. Successful responses mean available; HTTP 404/410 means unavailable; 401/403 means restricted. Rate limits, other API errors, invalid responses, and network errors mean unknown. Unknown or restricted observations break the consecutive-failure sequence.
+
+Two consecutive confirmed unavailable observations produce a review candidate. Candidate reports use the post's current media references; references retained only in historical metadata cannot create a new candidate. A reviewed `not-relic` post can become a candidate again. A relic whose referenced videos are all available becomes a restoration candidate. Neither report establishes editorial status or proves the entire article has lost or recovered its value. Non-video losses still require manual review.
+
+The existing Monday workflow runs at 06:00 UTC (13:00 Thailand time). It retains the metadata in repository history, publishes the report and metadata as an artefact, and reports persistent failures through the existing issue workflow. It never changes post frontmatter or deletes sources. A workflow run on another branch cannot publish observations to the default branch. Concurrent metadata changes cause a conflict instead of silently overwriting new history. A repository with restricted workflow write permissions must grant the workflow its declared `contents: write` permission for history persistence.
+
+Before local editorial review, obtain the latest retained metadata from the repository or workflow artefact. Do not run repeated checks solely to manufacture a failure threshold. Review the actual sources, surviving text, and historical metadata before deciding.
+
+## Recovery and deletion
+
+Attempt recovery using the last known title, author, media identifier, original URL, preserved thumbnail, repository history (`git log --follow -- <file>`), and archived copies of external pages. Record what can and cannot be recovered. Preserve attribution, avoid inventing missing facts, and confirm reuse rights before importing external copies.
+
+Permanent deletion is governed by [Content preservation](content-preservation.md). Relic classification is reversible and never authorises deletion.

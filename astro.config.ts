@@ -19,6 +19,7 @@ import { rehypeVideoPosters } from './src/scripts/rehype/video-posters.ts';
 import { rehypeWideMedia } from './src/scripts/rehype/wide-media.ts';
 import { remarkStaticMaps } from './src/scripts/remark/static-maps';
 import { remarkDnbTypography } from './src/scripts/remark/typography.ts';
+import { getRelicPaths } from './src/utils/relic-paths.ts';
 import { getNoindexTaxonomyPaths } from './src/utils/taxonomies/noindex.ts';
 
 // `astro dev` only -- `server: { host: true }` (below) makes the dev server
@@ -27,6 +28,7 @@ import { getNoindexTaxonomyPaths } from './src/utils/taxonomies/noindex.ts';
 // testing from a phone needs real HTTPS. `astro build`/`astro preview` are
 // unaffected: they're plain `vite`/`vite preview` commands, not `dev`.
 const isDevServer = process.argv.includes('dev');
+const relicPaths = getRelicPaths();
 const noindexTaxonomyPaths = getNoindexTaxonomyPaths();
 
 // https://astro.build/config
@@ -66,7 +68,9 @@ export default defineConfig({
       filter: (page) => {
         const pathname = new URL(page).pathname;
         return (
-          !pathname.startsWith('/seite/') && !noindexTaxonomyPaths.has(pathname)
+          !relicPaths.has(pathname) &&
+          !pathname.startsWith('/seite/') &&
+          !noindexTaxonomyPaths.has(pathname)
         );
       },
       namespaces: { image: false, news: false, video: false, xhtml: false },

@@ -10,7 +10,7 @@ import type { AstroIntegration } from 'astro';
 import { close, createIndex, type PagefindServiceConfig } from 'pagefind';
 import sirv from 'sirv';
 
-const cacheVersion = 1;
+const cacheVersion = 2;
 const defaultCacheDirectory = path.join('node_modules', '.astro', 'pagefind');
 const defaultContentDirectory = 'src/content';
 const forceRebuildEnvironmentVariable = 'PAGEFIND_FORCE_REBUILD';
@@ -208,6 +208,18 @@ async function createCacheFingerprint({
     contentDirectory,
     hash,
   );
+  for (const relative of [
+    'src/data/video-media.json',
+    'src/layouts',
+    'src/components',
+    'src/pages',
+  ]) {
+    const absolute = path.join(rootDir, relative);
+    if (!(await exists(absolute))) continue;
+    if ((await fs.stat(absolute)).isDirectory())
+      await hashDirectory(absolute, relative, hash);
+    else hash.update(await fs.readFile(absolute));
+  }
   return hash.digest('hex');
 }
 

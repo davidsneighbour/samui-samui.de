@@ -89,3 +89,8 @@
 * [Facebook and Instagram publishing](meta-publishing.md) records account requirements, application permissions, integration status, and media requirements.
 * [Quality gates](quality-gates.md) explains the repository's npm quality-gate script naming model.
 * [Repo-local skills](repo-local-skills.md) documents pattern-based registration for `.agents/skills/ss-*` assistant skills.
+
+## Digital relic editorial lifecycle
+
+* [Digital relics](content/digital-relics.md) documents editorial states, components, search, publisher commands, media history, and weekly review.
+* [Content preservation](content/content-preservation.md) defines the mandatory two-stage owner approval for permanent post deletion.

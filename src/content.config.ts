@@ -2,6 +2,7 @@ import { defineCollection, reference } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 import { historicalCurrencySchema } from './utils/currency/historical-schema';
+import { relicReviewSchema } from './utils/relic';
 import { staticMapsSchema } from './utils/static-maps/schema';
 import { eventDateSchema } from './utils/taxonomies/event-dates';
 
@@ -126,6 +127,7 @@ const posts = defineCollection({
       relevance: z
         .enum(['enduring', 'contextual', 'moment', 'ephemeral'])
         .optional(),
+      relic: relicReviewSchema.optional(),
       resources: z
         .array(
           z.object({

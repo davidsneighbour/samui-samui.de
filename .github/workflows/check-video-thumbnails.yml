@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write
   issues: write
 
 concurrency:
@@ -41,11 +41,47 @@ jobs:
           echo "exit_code=$?" >> "$GITHUB_OUTPUT"
           cat verify-output.txt
 
+      - name: Report editorial and restoration candidates
+        run: |
+          npm run publisher -- relic list --status=candidate >> verify-output.txt
+          npm run publisher -- relic list --status=restoration-candidate >> verify-output.txt
+          cat verify-output.txt >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Retain media metadata in repository history
+        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          if git diff --quiet -- src/data/video-media.json; then exit 0; fi
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import { execFileSync } from 'node:child_process';
+          const file = 'src/data/video-media.json';
+          const sha = execFileSync('git', ['rev-parse', `HEAD:${file}`], { encoding: 'utf8' }).trim();
+          fs.writeFileSync('media-history-update.json', JSON.stringify({
+            message: 'chore(content): retain weekly media observations\n\nPreserve historical evidence for editorial review without classifying posts.\n\nSee #1868',
+            content: fs.readFileSync(file).toString('base64'),
+            sha,
+            branch: process.env.DEFAULT_BRANCH,
+          }));
+          NODE
+          gh api --method PUT "repos/$GITHUB_REPOSITORY/contents/src/data/video-media.json" --input media-history-update.json > /dev/null
+
+      - name: Preserve observations for editorial review
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: video-media-review
+          path: |
+            src/data/video-media.json
+            verify-output.txt
+
       - name: Build issue body
         if: steps.verify.outputs.exit_code != '0'
         run: |
-          echo "Weekly automated check found YouTube/Vimeo video(s) referenced" > issue-body.md
-          echo "in the site that are no longer live/reachable (verified via" >> issue-body.md
+          echo "Weekly automated check found persistent media failures requiring editorial review, referenced" > issue-body.md
+          echo "in the site. These are candidates, not editorial classifications (checked via" >> issue-body.md
           echo '`npm run thumbnails:verify`).' >> issue-body.md
           echo >> issue-body.md
           echo '```' >> issue-body.md

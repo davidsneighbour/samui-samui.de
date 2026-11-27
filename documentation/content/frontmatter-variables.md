@@ -154,3 +154,7 @@ Sitewide snippets live in `src/content/sitewide/**/index.md` and are consumed by
 | `contextual` | Valuable primarily in its historical/time context | elections, construction projects, contemporary island events, changing regulations |
 | `moment` | A snapshot of life; interesting mainly because it happened | trip reports, daily observations, photos, short anecdotes |
 | `ephemeral` | Spur-of-the-moment material with little lasting importance | complaints, quick notices, "today sucked" posts |
+
+## Digital relic lifecycle
+
+The optional `relic` frontmatter property records an editorial review: `status: not-relic` or `status: relic`, a required `reviewed` calendar date, and an optional non-empty `note`. The `relic` state also requires one enumerated `reason`. Absence means unreviewed. See [Digital relics](digital-relics.md) for the full schema, publisher review and restoration commands, preserved media metadata, weekly checks, and candidate reports.

@@ -3,6 +3,7 @@ import wordmark from '@assets/brand/samui/panton-wordmark.json';
 import symbolSvg from '@assets/brand/samui/selected/symbol-reversed.svg?raw';
 import detailSvg from '@assets/brand/samui/svg/symbol-detail-white.svg?raw';
 import PagefindComponentUi from '@components/features/search/PagefindComponentUi.astro';
+import RelicSearchFilter from '@components/features/search/RelicSearchFilter.astro';
 import ConstructionBanner from '@components/layout/header/ConstructionBanner.astro';
 import HeaderLink from '@components/layout/header/HeaderLink.astro';
 import ThemeToggle from '@components/layout/header/ThemeToggle.astro';
@@ -262,6 +263,7 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
           bundle-path="/pagefind/"
           base-url="/"
         ></pagefind-config>
+        <RelicSearchFilter />
         <pagefind-searchbox
           placeholder="Finden"
           max-results="6"

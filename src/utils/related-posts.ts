@@ -1,4 +1,5 @@
 import type { CollectionEntry } from 'astro:content';
+import { isPromotable } from './relic';
 import { getReferenceId } from './taxonomies/entities';
 
 type Post = CollectionEntry<'posts'>;
@@ -17,7 +18,7 @@ function keys(post: Post): Map<string, number> {
 /** Build once per route generation; only score candidates sharing a taxonomy. */
 export function createRelatedPostLookup(posts: Post[]): (post: Post) => Post[] {
   const index = new Map<string, Set<Post>>();
-  for (const post of posts) {
+  for (const post of posts.filter(isPromotable)) {
     for (const key of keys(post).keys()) {
       const bucket = index.get(key) ?? new Set<Post>();
       bucket.add(post);

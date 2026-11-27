@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import RelicIndicator from '@components/content/post/RelicIndicator.astro';
 import ArchiveNav from '@components/layout/navigation/ArchiveNav.astro';
 import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import PageLayout from '@layouts/PageLayout.astro';
@@ -9,6 +10,7 @@ import {
   getPostDateParts,
 } from '@utils/dates';
 import { getPostUrl } from '@utils/posts';
+import { isRelic } from '@utils/relic';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -164,6 +166,7 @@ const dayMonth = (date: Date) => {
             <a href={getPostUrl(post)} class="text-link hover:underline">
               {post.data.title}
             </a>
+            {isRelic(post) && <RelicIndicator />}
           </li>
         ))}
       </ul>
