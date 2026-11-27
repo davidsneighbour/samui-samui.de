@@ -1,5 +1,67 @@
 # Changelog
 
+## [3.3.0](https://github.com/davidsneighbour/samui-samui.de/compare/v3.2.1...v3.3.0) (2026-11-27)
+
+### Content
+
+* add the historical Sirikit article photo ([7f46c0c](https://github.com/davidsneighbour/samui-samui.de/commit/7f46c0cd2f8a24126b246114533cb5f209446f2d)), references [#1853](https://github.com/davidsneighbour/samui-samui.de/issues/1853)
+* change site subtitle to focus on life on Koh Samui ([042e84a](https://github.com/davidsneighbour/samui-samui.de/commit/042e84a098229b043ad4b768269b9f80513316ca))
+* explain the extra holiday for Sirikit ([aaa39ad](https://github.com/davidsneighbour/samui-samui.de/commit/aaa39ad51965feb90ca35304a84e94ee8e8fa009)), references [#1853](https://github.com/davidsneighbour/samui-samui.de/issues/1853)
+* **fix:** drop the unrecoverable Thai sign text from Ausgeraucht ([09d993e](https://github.com/davidsneighbour/samui-samui.de/commit/09d993e3dda8eca2f1444eca0f072ee3fdffa655)), references [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706)
+* **fix:** repair remaining damaged word endings ([ff683c2](https://github.com/davidsneighbour/samui-samui.de/commit/ff683c2ba372cb627ddb666a3125ac40b9266334)), references [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774) [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781)
+* **fix:** resolve reviewed encoding damage ([5899243](https://github.com/davidsneighbour/samui-samui.de/commit/5899243d7cc40fd562aa4ded3e9ca96289082bf1)), references [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781)
+* **fix:** restore corrupted Thai text in ten archive posts ([4f9fb49](https://github.com/davidsneighbour/samui-samui.de/commit/4f9fb4930ddb0c04c2a7b37a8c191de73d746a20)), references [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706)
+* link Sirikit and her death in the archive ([7658b31](https://github.com/davidsneighbour/samui-samui.de/commit/7658b313dda1b0c0b2aad8b79b2cff84ccd97a54)), references [#1853](https://github.com/davidsneighbour/samui-samui.de/issues/1853)
+* mark the Sirikit holiday post ready ([2b7afc1](https://github.com/davidsneighbour/samui-samui.de/commit/2b7afc122116c4f3d83228a619c6825a3115840e)), references [#1853](https://github.com/davidsneighbour/samui-samui.de/issues/1853)
+* **relics:** explain gaps in the blog archive ([7de69a6](https://github.com/davidsneighbour/samui-samui.de/commit/7de69a62a2ad521479ac92eb6d25f85d1050190b)), references [#1868](https://github.com/davidsneighbour/samui-samui.de/issues/1868)
+
+### Feat
+
+* **content:** preserve digital relics ([71e26ca](https://github.com/davidsneighbour/samui-samui.de/commit/71e26cabb287dae937e21e7acae0702337e3e432)), closes [#1868](https://github.com/davidsneighbour/samui-samui.de/issues/1868)
+* **content:** preserve partial relics and mark lost passages ([1d781e9](https://github.com/davidsneighbour/samui-samui.de/commit/1d781e98967d1afce26e38f1d354bb489c3a6c6b)), closes [#1867](https://github.com/davidsneighbour/samui-samui.de/issues/1867) [#1868](https://github.com/davidsneighbour/samui-samui.de/issues/1868)
+* **footer:** show the release version with a link to GitHub ([0f12f11](https://github.com/davidsneighbour/samui-samui.de/commit/0f12f11580878440a942848b649dfefc70a16c13)), closes [#1863](https://github.com/davidsneighbour/samui-samui.de/issues/1863)
+* **privacy:** add component notices and complete the Matomo disclosure ([88d6e51](https://github.com/davidsneighbour/samui-samui.de/commit/88d6e51c88f3a16d9d9c6f0c86ccebeff2375a07)), closes [#1862](https://github.com/davidsneighbour/samui-samui.de/issues/1862)
+
+### Instructions
+
+* **content:** integrate relic assessment into post reviews ([af2a541](https://github.com/davidsneighbour/samui-samui.de/commit/af2a5412c4e1a5f98cd9ac33ec79ac716139b229)), references [#1867](https://github.com/davidsneighbour/samui-samui.de/issues/1867)
+* pin Astro to major version 7 instead of the 7.1.x line ([07e58ef](https://github.com/davidsneighbour/samui-samui.de/commit/07e58ef264fd85c37304775d898d50c91b7caec4)), references [#1825](https://github.com/davidsneighbour/samui-samui.de/issues/1825)
+
+### Fix
+
+* add semicolon to inline style ([2be536e](https://github.com/davidsneighbour/samui-samui.de/commit/2be536e55774b55b0f7607ea8f48b6c4b09becab))
+* **content:** place relic notices below surviving post media ([e55d32a](https://github.com/davidsneighbour/samui-samui.de/commit/e55d32ad8180ffd4103369f38921f3427a3671f6)), references [#1867](https://github.com/davidsneighbour/samui-samui.de/issues/1867)
+* **search:** let the header search field fill its row ([15aba37](https://github.com/davidsneighbour/samui-samui.de/commit/15aba37aa10c776f84efa5f403427441bf6c5249)), references [#1868](https://github.com/davidsneighbour/samui-samui.de/issues/1868)
+
+### Perf
+
+* **build:** enable parallel static prerendering ([bd9c42b](https://github.com/davidsneighbour/samui-samui.de/commit/bd9c42b0c550fca9ebaef46dc6d3345cb41e3909)), references [#1854](https://github.com/davidsneighbour/samui-samui.de/issues/1854)
+
+### Docs
+
+* **about:** move the remaining About page rules into the documentation ([c549eb6](https://github.com/davidsneighbour/samui-samui.de/commit/c549eb613a94ef48e3a157e679867ccc0b5d791b)), references [#1865](https://github.com/davidsneighbour/samui-samui.de/issues/1865) [#1866](https://github.com/davidsneighbour/samui-samui.de/issues/1866)
+* record the last Hugo commit before the Astro migration ([e7e1a09](https://github.com/davidsneighbour/samui-samui.de/commit/e7e1a09ab80a6cab69ad8e9a5e90b2dea758976f)), closes [#1860](https://github.com/davidsneighbour/samui-samui.de/issues/1860)
+* **typography:** document the Anuphan Thai fallback ([696b6b0](https://github.com/davidsneighbour/samui-samui.de/commit/696b6b0d493b44ea2f53cf17fe909da5a0843ccb)), closes [#1864](https://github.com/davidsneighbour/samui-samui.de/issues/1864)
+
+### Style
+
+* **content:** distinguish relic notices with a muted coral border ([c7f11dc](https://github.com/davidsneighbour/samui-samui.de/commit/c7f11dc69281c58fda8b1b9797032ca5b501a35c)), references [#1867](https://github.com/davidsneighbour/samui-samui.de/issues/1867)
+* **search:** replace header search options text with a cog icon button ([a7430c5](https://github.com/davidsneighbour/samui-samui.de/commit/a7430c5a901233b9232f2826e8aa3e7fe61f170a)), references [#1868](https://github.com/davidsneighbour/samui-samui.de/issues/1868)
+
+### Build
+
+* **deps:** patch markdown-it in the linting toolchain ([f7f3f24](https://github.com/davidsneighbour/samui-samui.de/commit/f7f3f2496df79149a28aa8bc219c3cc413ece345)), references [#1855](https://github.com/davidsneighbour/samui-samui.de/issues/1855) [#1856](https://github.com/davidsneighbour/samui-samui.de/issues/1856) [#1857](https://github.com/davidsneighbour/samui-samui.de/issues/1857)
+* **deps:** update dependencies ([a4baa2e](https://github.com/davidsneighbour/samui-samui.de/commit/a4baa2ebb42d2edbf675f3b0cea07f9bb1159d82))
+* **vscode:** update workspace configuration ([ffb8d6d](https://github.com/davidsneighbour/samui-samui.de/commit/ffb8d6dd819f0cd8baf2170361ca9d851b3b84f3))
+
+### Chore
+
+* **deps:** align the November dependency updates ([02d2763](https://github.com/davidsneighbour/samui-samui.de/commit/02d2763c266337b55ec6ee9b3f9e72f08c1c8062)), references [#1825](https://github.com/davidsneighbour/samui-samui.de/issues/1825)
+* **deps:** update Wrangler, Astro, morphicons, and other dependencies ([b9a8ff2](https://github.com/davidsneighbour/samui-samui.de/commit/b9a8ff23ededabcac4de078674a5b1928e644efe)), closes [#1825](https://github.com/davidsneighbour/samui-samui.de/issues/1825)
+* **hooks:** remove pre-push quality checks ([2b49038](https://github.com/davidsneighbour/samui-samui.de/commit/2b49038fd050c4c36be2ae879cfec1920a55a0a9)), closes [#1871](https://github.com/davidsneighbour/samui-samui.de/issues/1871)
+* **lint:** ignore generated Wrangler output and the global Vale config ([16db975](https://github.com/davidsneighbour/samui-samui.de/commit/16db975f7c9a41850eba90524b1a9fd141d571cc)), closes [#1859](https://github.com/davidsneighbour/samui-samui.de/issues/1859)
+* **package:** sync fragments and fail on package.json drift ([08c9dd6](https://github.com/davidsneighbour/samui-samui.de/commit/08c9dd6097dcba5acde15dede651c57e00ac49a4)), closes [#1872](https://github.com/davidsneighbour/samui-samui.de/issues/1872)
+
 ## [3.2.1](https://github.com/davidsneighbour/samui-samui.de/compare/v3.2.0...v3.2.1) (2026-10-11)
 
 ### Fix
