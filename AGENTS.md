@@ -161,6 +161,10 @@ rules live in
   `refactor`, and `chore`. Examples:
   `content(fix): mark Textpattern review queue` and
   `instructions: require conventional commit messages`.
+* A commit that adds a new post MUST use `content(new): <summary>`. Only
+  `feat` and `content(new)` bump the minor version (see `.release-it.ts`);
+  a bare `content:` or any other `content(...)` scope is a patch release, so a
+  new post committed as `content:` silently ships as a patch.
 * Every open point of work — bug, follow-up, decision, question — MUST be tracked as
   a GitHub issue. Ideas that are not yet actionable MAY live in `TODO.md` instead
   (see below) until they are refined enough to become an issue.
