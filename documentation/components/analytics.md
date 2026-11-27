@@ -11,3 +11,7 @@
 * [HTTP Tracking API reference](https://developer.matomo.org/api-reference/tracking-api) — the server-side tracking endpoint (`matomo.php`), used by the `<noscript>` pixel fallback in `Analytics.astro`.
 
 Consult the JS API reference before adding new `_paq.push([...])` calls anywhere in the site (for example, `trackSiteSearch` on `/suche/`); consult the HTTP Tracking API reference only when touching the `<noscript>` fallback or any other direct `matomo.php` request.
+
+## Server-side settings
+
+The Matomo instance anonymises IP addresses by two bytes (for example `192.168.xxx.xxx`) immediately when a request arrives, so full IP addresses are never stored. Collected data is kept for one year. The privacy policy states both values; update it when either setting changes.

@@ -67,3 +67,7 @@ This is the tag to use directly inside post content (`src/content/posts/**/index
 * Ported from [slightlyoff/lite-vimeo](https://github.com/slightlyoff/lite-vimeo), specifically [`lite-vimeo.ts`](https://github.com/slightlyoff/lite-vimeo/blob/master/lite-vimeo.ts).
 * Demonstrated in [`src/content/posts/2021/03/thailand-vermisst-dich/index.md`](../../src/content/posts/2021/03/thailand-vermisst-dich/index.md).
 * See also [`youtube.md`](youtube.md) for the sibling component this one shares its shape with.
+
+## Privacy note on the placeholder
+
+The placeholder shows the same kind of note as the YouTube embed, with a link to the Vimeo section of the privacy policy. A click on the link does not load the player.

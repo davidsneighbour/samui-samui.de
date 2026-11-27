@@ -118,6 +118,31 @@
                       #frame.dnb-vimeo-activated .dnb-vimeo-playbtn {
                         display: none;
                       }
+                      .dnb-vimeo-privacy {
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        z-index: 2;
+                        margin: 0;
+                        padding: 24px 16px 10px;
+                        background-image: linear-gradient(0deg, rgb(0 0 0 / 72%) 0%, rgb(0 0 0 / 0%) 100%);
+                        color: hsl(0deg 0% 93.33%);
+                        font: 12px/1.4 system-ui, sans-serif;
+                        text-shadow: 0 0 2px rgb(0 0 0 / 50%);
+                      }
+                      .dnb-vimeo-privacy a {
+                        color: inherit;
+                        text-decoration: underline;
+                        text-underline-offset: 2px;
+                      }
+                      .dnb-vimeo-privacy a:focus-visible {
+                        outline: 2px solid currentColor;
+                        outline-offset: 2px;
+                      }
+                      #frame.dnb-vimeo-activated .dnb-vimeo-privacy {
+                        display: none;
+                      }
                     </style>
                     <div id="frame">
                       <slot name="poster">
@@ -129,6 +154,10 @@
                         />
                       </slot>
                       <button class="dnb-vimeo-playbtn" type="button"></button>
+                      <p class="dnb-vimeo-privacy">
+                        Erst beim Abspielen wird eine Verbindung zu Vimeo hergestellt.
+                        <a href="/kleingedrucktes/datenschutzerklaerung/#einsatz-von-vimeo-komponenten">Datenschutz</a>
+                      </p>
                     </div>
                   `;
 
@@ -146,7 +175,12 @@
         'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
 
       connectedCallback(): void {
-        this.addEventListener('click', () => this.#addIframe());
+        this.addEventListener('click', (event) => {
+          // The privacy link opens the policy; it must not load the player.
+          const path = event.composedPath();
+          if (path.some((node) => node instanceof HTMLAnchorElement)) return;
+          this.#addIframe();
+        });
       }
 
       attributeChangedCallback(

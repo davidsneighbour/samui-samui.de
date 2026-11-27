@@ -6,7 +6,7 @@ lastmod: 2026-07-20T00:00:00+07:00
 import PageLayout from '@layouts/LegalPageLayout.astro';
 import { proseClasses } from '@utils/prose';
 
-<PageLayout title={frontmatter.title} description={frontmatter.description ?? frontmatter.title}>
+<PageLayout title={frontmatter.title} description={frontmatter.description ?? frontmatter.title} lastmod={frontmatter.lastmod}>
 <div class={proseClasses}>
 
 Hier stehen die rechtlichen und organisatorischen Rahmenbedingungen von **_Samui? Samui!_**:

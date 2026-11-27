@@ -32,6 +32,23 @@ interface Props {
 const { mapping = 'pathname', term } = Astro.props as Props;
 ---
 
+<p class="mb-4 text-sm text-muted-foreground">
+  Die Kommentare laufen über giscus und GitHub Discussions. Sobald dieser
+  Bereich sichtbar wird, stellt Ihr Browser eine Verbindung zu giscus.app her.
+  Kommentare sind öffentlich und erfordern ein GitHub-Konto.
+  <a
+    class="text-link underline underline-offset-2"
+    href="/kleingedrucktes/datenschutzerklaerung/#kommentarfunktion-giscus"
+    >Datenschutz</a
+  >
+  ·
+  <a
+    class="text-link underline underline-offset-2"
+    href="/kleingedrucktes/kommentarrichtlinien/"
+    >Kommentarrichtlinien</a
+  >
+</p>
+
 <dnb-giscus
   data-repo={repo}
   data-repo-id={repoId}

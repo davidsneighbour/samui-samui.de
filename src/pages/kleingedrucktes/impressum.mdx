@@ -7,7 +7,7 @@ import PageLayout from '@layouts/LegalPageLayout.astro';
 import Person from '@components/content/person/Person.astro';
 import { proseClasses } from '@utils/prose';
 
-<PageLayout title={frontmatter.title} description={frontmatter.description ?? frontmatter.title}>
+<PageLayout title={frontmatter.title} description={frontmatter.description ?? frontmatter.title} lastmod={frontmatter.lastmod}>
 <div class={proseClasses}>
 
 ## Anbieter

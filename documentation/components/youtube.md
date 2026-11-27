@@ -68,3 +68,7 @@ This is the tag to use directly inside post content (`src/content/posts/**/index
 * Ported from [paulirish/lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed), specifically [`lite-yt-embed.js`](https://github.com/paulirish/lite-youtube-embed/blob/master/src/lite-yt-embed.js) and [`lite-yt-embed.css`](https://github.com/paulirish/lite-youtube-embed/blob/master/src/lite-yt-embed.css).
 * Demonstrated in [`src/content/posts/2024/the-white-lotus-trailer/index.md`](../../src/content/posts/2024/the-white-lotus-trailer/index.md).
 * See also [`vimeo.md`](vimeo.md) for the sibling component this one mirrors.
+
+## Privacy note on the placeholder
+
+The placeholder shows a short German note at the bottom: the connection to YouTube starts only on play, with a link to the YouTube section of the privacy policy. The note lives in the shadow DOM, so it also appears for raw `<dnb-youtube>` tags in posts. A click on the link opens the policy and does not load the player. The note is hidden once the player loads.

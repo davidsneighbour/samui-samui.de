@@ -12,3 +12,7 @@ These URLs intentionally point at the live site even during local development. W
 Production must allow `https://giscus.app` to fetch these custom theme files. The origin configuration in `public/.htaccess` therefore sends `Access-Control-Allow-Origin: https://giscus.app` on `/assets/styles/giscus-samui-*.css` and the webfont assets used by those stylesheets.
 
 The Impressum comment disclosure links directly to `/kleingedrucktes/datenschutzerklaerung/#kommentarfunktion-giscus`, the generated heading ID for the privacy policy section "Kommentarfunktion (giscus)". Its general privacy link continues to point to the policy page without a fragment. Keep the section link aligned if that heading changes.
+
+## Privacy note
+
+`Giscus.astro` renders a short German note above the widget. It says that comments run through giscus and GitHub Discussions, that the browser connects to giscus.app when the section becomes visible, and that comments are public and need a GitHub account. It links to the comment section of the privacy policy and to the comment guidelines.

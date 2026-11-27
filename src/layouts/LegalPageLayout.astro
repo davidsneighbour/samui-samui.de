@@ -1,13 +1,18 @@
 ---
 import Notice from '@components/content/notices/Notice.astro';
 import PageLayout from '@layouts/PageLayout.astro';
+import { formatDate } from '@utils/dates';
 
 interface Props {
   title: string;
   description?: string | undefined;
+  /** Frontmatter `lastmod` of the legal page, shown as „Stand“. */
+  lastmod?: Date | string | undefined;
 }
 
-const { title, description } = Astro.props as Props;
+const { title, description, lastmod } = Astro.props as Props;
+const updated = lastmod ? new Date(lastmod) : undefined;
+const hasUpdated = updated !== undefined && !Number.isNaN(updated.getTime());
 ---
 
 <PageLayout
@@ -51,6 +56,11 @@ const { title, description } = Astro.props as Props;
     </script>
   </div>
   <slot />
+  {hasUpdated && (
+    <p class="mt-8 text-sm text-muted-foreground">
+      Stand: <time datetime={updated.toISOString()}>{formatDate(updated)}</time>
+    </p>
+  )}
 </PageLayout>
 
 <style>

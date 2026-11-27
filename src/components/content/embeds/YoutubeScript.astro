@@ -123,6 +123,31 @@
                           transition: none;
                         }
                       }
+                      .dnb-youtube-privacy {
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        z-index: 2;
+                        margin: 0;
+                        padding: 24px 16px 10px;
+                        background-image: linear-gradient(0deg, rgb(0 0 0 / 72%) 0%, rgb(0 0 0 / 0%) 100%);
+                        color: hsl(0deg 0% 93.33%);
+                        font: 12px/1.4 system-ui, sans-serif;
+                        text-shadow: 0 0 2px rgb(0 0 0 / 50%);
+                      }
+                      .dnb-youtube-privacy a {
+                        color: inherit;
+                        text-decoration: underline;
+                        text-underline-offset: 2px;
+                      }
+                      .dnb-youtube-privacy a:focus-visible {
+                        outline: 2px solid currentColor;
+                        outline-offset: 2px;
+                      }
+                      #frame.dnb-youtube-activated .dnb-youtube-privacy {
+                        display: none;
+                      }
                     </style>
                     <div id="frame">
                       <slot name="poster">
@@ -137,6 +162,10 @@
                       </slot>
                       <div class="dnb-youtube-title"></div>
                       <button class="dnb-youtube-playbtn" type="button"></button>
+                      <p class="dnb-youtube-privacy">
+                        Erst beim Abspielen wird eine Verbindung zu YouTube (Google) hergestellt.
+                        <a href="/kleingedrucktes/datenschutzerklaerung/#einsatz-von-youtube-komponenten">Datenschutz</a>
+                      </p>
                     </div>
                   `;
 
@@ -157,7 +186,12 @@
         'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
 
       connectedCallback(): void {
-        this.addEventListener('click', () => this.#addIframe());
+        this.addEventListener('click', (event) => {
+          // The privacy link opens the policy; it must not load the player.
+          const path = event.composedPath();
+          if (path.some((node) => node instanceof HTMLAnchorElement)) return;
+          this.#addIframe();
+        });
       }
 
       attributeChangedCallback(

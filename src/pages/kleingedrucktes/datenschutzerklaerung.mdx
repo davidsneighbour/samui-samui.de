@@ -1,6 +1,6 @@
 ---
 title: Datenschutzerklärung
-lastmod: 2026-10-10T18:17:07+07:00
+lastmod: 2026-11-27T18:00:00+07:00
 ---
 
 import PageLayout from '@layouts/LegalPageLayout.astro';
@@ -8,7 +8,7 @@ import Person from '@components/content/person/Person.astro';
 import MatomoOptOut from '@components/features/analytics/MatomoOptOut.astro';
 import { proseClasses } from '@utils/prose';
 
-<PageLayout title={frontmatter.title} description={frontmatter.description ?? frontmatter.title}>
+<PageLayout title={frontmatter.title} description={frontmatter.description ?? frontmatter.title} lastmod={frontmatter.lastmod}>
 <div class={proseClasses}>
 
 Die Nutzung dieser Website ist ohne Angabe personenbezogener Daten möglich. Für einzelne Funktionen unserer Seite können sich davon abweichende Regelungen ergeben; sie werden in diesem Fall in den folgenden Abschnitten gesondert erläutert.
@@ -46,6 +46,8 @@ Wir selbst setzen auf dieser Seite keine Cookies ein. Folgende Einstellungen und
 *   Ihre Einstellung für Klangeffekte (ein-/ausgeschaltet)
 *   der zwischengespeicherte EUR/THB-Referenzkurs (siehe Abschnitt „Währungsumrechnung“)
 *   der zwischengespeicherte Wetterstand für Koh Samui (siehe Abschnitt „Wetterdaten")
+
+Eine Ausnahme gibt es: Wenn Sie der Erfassung durch Matomo widersprechen, setzt Matomo das Cookie `mtm_consent_removed`. Es enthält nur Ihren Widerspruch, keine Besucherkennung, und sorgt dafür, dass Ihr Besuch auch künftig nicht erfasst wird (siehe Abschnitt „Einsatz von Matomo“). Ohne Widerspruch wird dieses Cookie nicht gesetzt.
 
 Einzelne von uns eingebundene Drittanbieter-Dienste (z.B. Cloudflare Turnstile, giscus, YouTube, Vimeo) können im Rahmen ihrer jeweiligen Funktion eigene Cookies setzen oder — wie giscus nach einer Anmeldung — Daten im lokalen Speicher Ihres Browsers ablegen. Nähere Informationen hierzu finden Sie in den jeweiligen Abschnitten dieser Datenschutzerklärung.
 
@@ -90,7 +92,9 @@ Wir nutzen auf unserer Seite den Webanalysedienst Matomo, eine selbst betriebene
 
 Matomo ist bei uns so konfiguriert, dass es keine Cookies setzt und die "Do Not Track"-Einstellung Ihres Browsers respektiert. Erfasst werden unter anderem aufgerufene Seiten, Referrer-URL, Browsertyp und Ihre IP-Adresse zum Zeitpunkt des Zugriffs, ausschließlich zu dem Zweck, die Nutzung unserer Seite statistisch auszuwerten und unser Angebot zu verbessern. Nutzen Sie die interne Suche auf unserer Seite, wird zusätzlich Ihr eingegebener Suchbegriff samt Anzahl der gefundenen Treffer an Matomo übermittelt.
 
-Sie können der Erfassung durch Matomo jederzeit über den folgenden Schalter widersprechen. Ihre Wahl wird dazu von Matomo selbst in Ihrem Browser hinterlegt, damit sie auch bei künftigen Besuchen erhalten bleibt.
+Ihre IP-Adresse wird sofort beim Eingang der Anfrage um zwei Bytes gekürzt (z.B. wird `192.168.1.10` zu `192.168.0.0`). Die vollständige IP-Adresse wird nicht gespeichert; Matomo verarbeitet und speichert nur die gekürzte Adresse. Die erhobenen Daten werden nach einem Jahr gelöscht.
+
+Sie können der Erfassung durch Matomo jederzeit über den folgenden Schalter widersprechen. Matomo speichert Ihren Widerspruch im Cookie `mtm_consent_removed` in Ihrem Browser, damit er auch bei künftigen Besuchen gilt. Löschen Sie dieses Cookie, gilt der Widerspruch nicht mehr.
 
 <MatomoOptOut />
 
