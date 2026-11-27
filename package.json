@@ -262,8 +262,7 @@
     "markdown-it": "15.0.3"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged && npm run validate:content",
-    "pre-push": "npm run check"
+    "pre-commit": "npx lint-staged && npm run validate:content"
   },
   "type": "module"
 }

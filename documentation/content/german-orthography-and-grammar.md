@@ -14,7 +14,7 @@ The design follows a layered approach: a dictionary decides what is *allowed*, e
 
 * **Pre-commit (staged content):** every staged `src/content/**/*.md` file goes through all three layers. Content that is edited or added must pass at once: when a post is touched, its existing findings are fixed in the same commit. `src/scripts/lint-content-language.ts` runs CSpell, Vale, and the grammar check one after the other and fails at the end, so all findings in a post show in one run (lint-staged would otherwise stop the other tasks after the first failure). The grammar check starts LanguageTool in Docker when it is not running, which adds about 10 seconds to the first commit; the container then keeps running until `npm run languagetool:stop`.
 * **`npm run check:full`:** runs `check` and every archive-wide check (`lint:spell`, `lint:orthography`, `lint:grammar`, `lint:german-dates`, `lint:links`). It does not stop at a failure and prints a summary, so the archive baseline can be fixed step by step. A full run takes about seven minutes, mostly for the link check.
-* **`npm run check` and pre-push:** not included, because the untriaged archive baseline would block every push. See [Quality gates](../quality-gates.md).
+* **`npm run check`:** not included, because the untriaged archive baseline would make it fail. See [Quality gates](../quality-gates.md).
 
 MDX content is not part of the pre-commit language check (Vale does not lint MDX here; see below).
 

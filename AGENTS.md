@@ -257,7 +257,7 @@ is intentionally scoped away from `src/content/**` via the local
 `.markdownlint-cli2.jsonc`'s `ignores` — the 20-year blog archive predates (and
 isn't held to) the doc-oriented ruleset. `lint:spell` (cspell),
 `lint:orthography` (Vale house spelling), and `lint:grammar` (LanguageTool in
-Docker, started automatically) are not part of `check` or pre-push, because the
+Docker, started automatically) are not part of `check`, because the
 archive still has a large untriaged baseline (~8.5k cspell hits). They DO run
 in pre-commit on staged `src/content/**/*.md`: when an agent edits a post, it
 MUST fix that post's spelling, orthography, and grammar findings in the same
@@ -270,8 +270,10 @@ variants. See
 
 `simple-git-hooks` installs a `pre-commit` hook (`lint-staged` against staged files
 only: Biome + markdownlint, plus link, citation-date, spelling, orthography, and
-grammar checks for staged content) and a `pre-push` hook (`npm run check`, full-repo) via the
-`prepare` script, which `npm install` runs automatically.
+grammar checks for staged content) via the
+`prepare` script, which `npm install` runs automatically. There is
+intentionally no `pre-push` hook: lint findings must not block pushes. Run
+`npm run check` manually before a deploy.
 
 **ESLint and Prettier are explicitly not part of this toolchain — Biome fully
 replaces both.** If an agent encounters either one anywhere in this
