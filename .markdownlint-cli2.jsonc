@@ -20,6 +20,8 @@
     "public/**",
     // Wrangler's local state and dry-run bundles (git-ignored).
     ".wrangler/**",
+    // Playwright reports and test results (git-ignored).
+    ".playwright/**",
     // AI agent/skill tooling directories: installed by editor/CLI tooling,
     // not source code authored in this repo.
     ".agents/**",
