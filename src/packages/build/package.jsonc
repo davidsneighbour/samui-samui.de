@@ -17,6 +17,7 @@
     },
     "js-yaml": "5.4.3",
     "katex": "0.18.2",
+    "markdown-it": "15.0.3",
     "markdownlint-rule-title-case-style": {
       "markdownlint": "^0.41.1"
     },
@@ -26,8 +27,7 @@
     "sharp": "0.35.5",
     "smol-toml": "1.9.0",
     "tar": "7.5.22",
-    "toml": "4.2.0",
-    "markdown-it": "15.0.3"
+    "toml": "4.2.0"
   },
   "scripts": {
     "compile:fixpack": "wireit",

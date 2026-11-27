@@ -92,7 +92,7 @@ npm run lint:orthography -- --minAlertLevel=suggestion
 Check one post or folder:
 
 ```bash
-npx vale src/content/posts/2026
+npx vale --no-global src/content/posts/2026
 ```
 
 Rule-writing notes:
@@ -102,6 +102,7 @@ Rule-writing notes:
 * Never add generic character rules such as `ss → ß` or `f → ph`. Both directions depend on the word, so each entry must be lexical.
 * Vale does not match inside longer compounds (`Müllfoto` is not reported). Add a compound explicitly if it matters.
 * Proper names that contain a modern spelling go into `TokenIgnores` in `.vale.ini` (for example `Fantastischen Vier`). For a one-off exception, wrap the passage in `<!-- vale off -->` and `<!-- vale on -->`.
+* Every Vale call in this repository uses `--no-global`. Without it, Vale merges a global `~/.config/vale/.vale.ini` into the project configuration, so personal styles (and their missing dictionaries) break the project checks and tests.
 * MDX is not linted, because Vale needs the external `mdx2vast` parser for it and the archive has only one MDX file.
 
 ## Grammar layer

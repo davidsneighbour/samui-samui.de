@@ -17,7 +17,7 @@ const checks: [string, string[]][] = [
     'node_modules/.bin/cspell',
     ['--no-progress', '--no-summary', '--no-must-find-files'],
   ],
-  ['node_modules/.bin/vale', []],
+  ['node_modules/.bin/vale', ['--no-global']],
   [process.execPath, ['src/scripts/lint-grammar.ts']],
 ];
 

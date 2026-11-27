@@ -223,3 +223,6 @@ test-results/
 # Wrangler local state and dry-run bundles; local Worker secrets
 .wrangler/
 .dev.vars*
+
+# Wrangler default type output (the tracked copy lives in src/workers/api/)
+/worker-configuration.d.ts

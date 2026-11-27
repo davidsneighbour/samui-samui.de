@@ -10,6 +10,6 @@
     "languagetool:start": "docker run --detach --rm --name samui-languagetool --publish 127.0.0.1:8010:8010 erikvl87/languagetool:6.8",
     "languagetool:stop": "docker stop samui-languagetool",
     "lint:grammar": "node src/scripts/lint-grammar.ts",
-    "lint:orthography": "vale src/content"
+    "lint:orthography": "vale --no-global src/content"
   }
 }

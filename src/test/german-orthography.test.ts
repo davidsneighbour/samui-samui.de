@@ -15,7 +15,7 @@ function lint(markdown: string, ...args: string[]): ValeAlert[] {
   // Vale exits with 1 when it reports errors, so read stdout either way.
   const { status, stdout, stderr } = spawnSync(
     vale,
-    ['--ext=.md', '--output=JSON', ...args],
+    ['--no-global', '--ext=.md', '--output=JSON', ...args],
     { encoding: 'utf8', input: markdown },
   );
   if (status !== 0 && status !== 1) throw new Error(`Vale failed: ${stderr}`);
