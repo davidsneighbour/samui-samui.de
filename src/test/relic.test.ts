@@ -15,7 +15,13 @@ import {
   updateMediaHistory,
 } from '../utils/media-history';
 import { createRelatedPostLookup } from '../utils/related-posts';
-import { isRelic, relicReviewSchema } from '../utils/relic';
+import {
+  isAnniversaryEligible,
+  isCompleteRelic,
+  isRelic,
+  relicReviewSchema,
+  relicSearchValue,
+} from '../utils/relic';
 import { getRelicPaths } from '../utils/relic-paths';
 import { getVideoReferences } from '../utils/video-references';
 
@@ -104,12 +110,40 @@ describe('digital relic editorial lifecycle', () => {
       {},
       { reviewed: '2026-11-27', status: 'relic' },
       { ...review, reason: 'old' },
+      { ...review, extent: 'some' },
+      { extent: 'partial', reviewed: '2026-11-27', status: 'not-relic' },
       { ...review, reviewed: '2026-02-31' },
       { ...review, reviewed: null },
       { ...review, note: ' ' },
       { reason: 'other', reviewed: '2026-11-27', status: 'not-relic' },
     ])
       expect(relicReviewSchema.safeParse(invalid).success).toBe(false);
+  });
+  it('keeps partial relics discoverable without granting anniversary eligibility', () => {
+    const partial = relicReviewSchema.parse({ ...review, extent: 'partial' });
+    expect(relicSearchValue(partial)).toBe('false');
+    expect(relicSearchValue(review)).toBe('true');
+    expect(relicSearchValue()).toBe('false');
+    expect(isCompleteRelic(partial)).toBe(false);
+    expect(isCompleteRelic(review)).toBe(true);
+    for (const relic of [undefined, partial, review]) {
+      for (const status of ['include', 'exclude', 'review']) {
+        expect(
+          isAnniversaryEligible({
+            data: { curation: { anniversary: { status } }, relic },
+          }),
+        ).toBe(status === 'include' && relic !== review);
+      }
+      expect(isAnniversaryEligible({ data: { relic } })).toBe(false);
+    }
+  });
+  it('renders distinct partial and complete notices', async () => {
+    const container = await AstroContainer.create();
+    const html = await container.renderToString(RelicNotice, {
+      props: { review: { ...review, extent: 'partial' } },
+    });
+    expect(html).toContain('Teile dieses Beitrags');
+    expect(html).not.toContain('Der wesentliche Inhalt');
   });
   it('excludes relics from promotion while retaining the input archive', () => {
     const posts = [post('relic', true), post('regular')];
@@ -143,6 +177,12 @@ describe('digital relic editorial lifecycle', () => {
       ),
     );
     expect(getRelicPaths(root).has('/original-url/')).toBe(true);
+    const complete = fs.readFileSync(file, 'utf8');
+    fs.writeFileSync(
+      file,
+      complete.replace('status: relic', 'status: relic\n  extent: partial'),
+    );
+    expect(getRelicPaths(root).has('/original-url/')).toBe(false);
     fs.writeFileSync(
       file,
       original
@@ -174,12 +214,14 @@ describe('digital relic editorial lifecycle', () => {
       '--status=relic',
       '--reviewed=2026-11-27',
       '--reason=missing-media',
+      '--extent=partial',
     ];
     expect(publisher(root, 'review', ...args, '--dry-run').status).toBe(0);
     expect(fs.readFileSync(file, 'utf8')).toBe(original);
     expect(publisher(root, 'review', ...args).status).toBe(0);
     const edited = fs.readFileSync(file, 'utf8');
     expect(edited).toContain('# Preserve this comment');
+    expect(edited).toContain('extent: partial');
     expect(edited.endsWith('---\nSurviving body.\n')).toBe(true);
     expect(publisher(root, 'list', '--status=relic').stdout).toContain(
       '2005/example/index.md',

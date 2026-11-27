@@ -16,9 +16,9 @@ const { review } = Astro.props;
 >
   <RelicIndicator />
   <p class="mt-4">
-    Dieser Beitrag stammt aus den Tiefen des Blogarchivs. Sein ursprünglicher
-    Inhalt ist ganz oder teilweise verloren gegangen. Was davon übrig ist,
-    bleibt als kleines Stück Internetgeschichte erhalten.
+    {review.status === 'relic' && review.extent === 'partial'
+      ? 'Teile dieses Beitrags sind im Laufe der Jahre verloren gegangen. Die erhaltenen Inhalte bleiben als Teil des Blogarchivs zugänglich.'
+      : 'Der wesentliche Inhalt dieses Beitrags ist nicht mehr verfügbar. Der Eintrag bleibt als Spur seiner ursprünglichen Veröffentlichung erhalten.'}
   </p>
   <p class="mt-4">Das Internet vergisst angeblich nichts. Angeblich.</p>
   {review.note && <p class="mt-4">{review.note}</p>}

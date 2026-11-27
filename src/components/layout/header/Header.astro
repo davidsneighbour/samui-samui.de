@@ -256,19 +256,27 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
         aria-hidden="true"
       ></div>
       <div
-        class="header-search min-w-0 flex-1"
+        class="header-search relative flex min-w-0 flex-1 items-center gap-2"
         data-pagefind-ignore="all"
       >
         <pagefind-config
           bundle-path="/pagefind/"
           base-url="/"
         ></pagefind-config>
-        <RelicSearchFilter />
         <pagefind-searchbox
+          class="min-w-0 flex-1"
           placeholder="Finden"
           max-results="6"
           hide-shortcut
         ></pagefind-searchbox>
+        <details class="shrink-0 text-sm text-foreground">
+          <summary class="cursor-pointer">Optionen</summary>
+          <div
+            class="absolute right-0 top-full z-50 w-64 rounded-(--radius) border border-border bg-card p-4 text-card-foreground"
+          >
+            <RelicSearchFilter />
+          </div>
+        </details>
       </div>
     </div>
     <div class="order-2 justify-self-end md:order-3">

@@ -10,6 +10,7 @@ interface Props {
   image?: ImageMetadata | undefined;
   noindex?: boolean | undefined;
   relic?: boolean | undefined;
+  relicFilter?: 'false' | 'true' | undefined;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -20,6 +21,7 @@ const {
   image = FallbackImage,
   noindex = false,
   relic = false,
+  relicFilter = String(relic),
 } = Astro.props;
 ---
 
@@ -27,7 +29,7 @@ const {
 <meta
   name="relic"
   content={String(relic)}
-  data-pagefind-filter={`relic:${relic}`}
+  data-pagefind-filter={`relic:${relicFilter}`}
   data-pagefind-meta={`relic:${relic}`}
 >
 <meta

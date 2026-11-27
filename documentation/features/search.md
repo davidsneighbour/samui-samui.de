@@ -30,4 +30,4 @@ Avoid literal opening script tags in frontmatter comments in `PagefindComponentU
 
 ## Digital relics
 
-All three interfaces use `RelicSearchFilter.astro` and default to excluding `relic:true` pages. The checkbox opts into relic results without clearing year or topic filters. The shared indicator labels opted-in results. The control sits above compact fields so their results panels cannot cover it. See [Digital relics](../content/digital-relics.md) for the editorial contract.
+All three interfaces use `RelicSearchFilter.astro` and default to excluding complete `relic:true` pages while including `relic:false` regular and partial posts. The checkbox opts into complete relic results without clearing year or topic filters. The shared indicator labels opted-in results. In the header, the control sits inside the keyboard-accessible "Optionen" disclosure beside the field. Other interfaces show the control above their results. See [Digital relics](../content/digital-relics.md) for the editorial contract.

@@ -158,3 +158,7 @@ Sitewide snippets live in `src/content/sitewide/**/index.md` and are consumed by
 ## Digital relic lifecycle
 
 The optional `relic` frontmatter property records an editorial review: `status: not-relic` or `status: relic`, a required `reviewed` calendar date, and an optional non-empty `note`. The `relic` state also requires one enumerated `reason`. Absence means unreviewed. See [Digital relics](digital-relics.md) for the full schema, publisher review and restoration commands, preserved media metadata, weekly checks, and candidate reports.
+
+### Relic extent
+
+`relic.extent` is optional and accepts `partial` or `complete` only when `relic.status` is `relic`. Missing extent retains complete-relic exclusions. Partial relics remain searchable by default and externally indexable; anniversary eligibility still needs a manual include. See [Digital relics](digital-relics.md).

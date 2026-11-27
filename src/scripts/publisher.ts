@@ -273,7 +273,14 @@ async function runList(filters: Filters) {
 
 async function runRelic(argv: string[]) {
   const [operation, ...args] = argv;
-  const allowedOptions = ['path', 'status', 'reviewed', 'reason', 'note'];
+  const allowedOptions = [
+    'path',
+    'status',
+    'reviewed',
+    'reason',
+    'extent',
+    'note',
+  ];
   for (const arg of args) {
     if (
       arg !== '--dry-run' &&
@@ -306,7 +313,7 @@ async function runRelic(argv: string[]) {
     throw new Error('Post paths must stay inside the post archive.');
   if (!['list', 'review', 'restore'].includes(operation ?? ''))
     throw new Error(
-      'Usage: publisher relic list|review|restore --path=<post folder> --status=... --reviewed=YYYY-MM-DD [--reason=...] [--note=...] [--dry-run]',
+      'Usage: publisher relic list|review|restore --path=<post folder> --status=... --reviewed=YYYY-MM-DD [--reason=...] [--extent=partial|complete] [--note=...] [--dry-run]',
     );
   const files = await findCandidateFiles({
     all: false,
@@ -361,6 +368,7 @@ async function runRelic(argv: string[]) {
     const next = {
       reviewed: options['reviewed'],
       status: operation === 'restore' ? 'not-relic' : options['status'],
+      ...(options['extent'] ? { extent: options['extent'] } : {}),
       ...(options['reason'] ? { reason: options['reason'] } : {}),
       ...(options['note'] ? { note: options['note'] } : {}),
     };

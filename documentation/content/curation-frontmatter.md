@@ -48,3 +48,5 @@ curation:
 ```
 
 The example above is illustrative only. `series` is not part of the schema yet. When it becomes real, define its fields and rules here in the same change that updates the content schema.
+
+Complete relics are ineligible for anniversary surfaces, including legacy relics without `extent`. Partial relics still require an explicit manual `include`. Use `isAnniversaryEligible` from `src/utils/relic.ts`; changing relic status never grants or clears a curation decision.

@@ -1,0 +1,12 @@
+---
+import { buildLostContent, type LostContentType } from '@utils/lost-content';
+import { toHtml } from 'hast-util-to-html';
+
+interface Props {
+  type?: LostContentType;
+  language?: string;
+}
+const { type = 'unknown', language } = Astro.props;
+---
+
+<Fragment set:html={toHtml(buildLostContent(type, language))} />

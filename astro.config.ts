@@ -11,6 +11,7 @@ import redirects from './src/data/redirects.json';
 import pagefind from './src/scripts/integrations/pagefind.ts';
 import { rehypeFootnotes } from './src/scripts/rehype/footnotes.ts';
 import { rehypeLegacyImages } from './src/scripts/rehype/legacy-images.ts';
+import { rehypeLostContent } from './src/scripts/rehype/lost-content.ts';
 import { rehypeDnbNotice } from './src/scripts/rehype/notices.ts';
 import { rehypeDnbPerson } from './src/scripts/rehype/person-link.ts';
 import { rehypeSiteAge } from './src/scripts/rehype/site-age.ts';
@@ -110,6 +111,7 @@ export default defineConfig({
         rehypeStaticMaps,
         rehypeLegacyImages,
         rehypeDnbNotice,
+        rehypeLostContent,
         rehypeDnbPerson,
         rehypeSiteAge,
         rehypeVideoPosters,

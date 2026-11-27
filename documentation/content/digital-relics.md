@@ -1,6 +1,6 @@
 # Digital relics
 
-Digital relics preserve posts whose essential content or context has been lost. Old age, low relevance, or one broken link alone does not establish this status. Published URLs, original publication dates, source text, and media identifiers remain unchanged. Existing posts are not classified by this implementation.
+Digital relics preserve posts whose essential content or context has been lost. Old age, low relevance, or one broken link alone does not establish this status. Published URLs, original publication dates, source text, and media identifiers remain unchanged. Fu Noi is the first reviewed partial relic.
 
 ## Editorial states
 
@@ -15,10 +15,13 @@ relic:
 ```yaml
 relic:
   status: relic
+  extent: partial
   reviewed: 2026-11-27
   reason: missing-media
   note: Das ursprünglich eingebundene Video ist nicht mehr verfügbar.
 ```
+
+`extent` accepts `partial` (some content survives and retains value) or `complete` (the essential content is lost), only on `status: relic`. Omitted extent retains the complete-relic behaviour for compatibility. Use an explicit extent for new reviews.
 
 Both states require a valid calendar review date (`YYYY-MM-DD`). Both allow an optional non-empty `note`. Only `relic` accepts and requires `reason`:
 
@@ -38,9 +41,9 @@ Restoration sets `status: not-relic` with a new review date. Do not remove the b
 
 Relics remain at their original URLs and in chronological and topic/entity archives, with a visible label. `/archiv/relikte/` lists all relics. `/digitale-archaeologie/` is a normal, initially empty MDX page reserved for the future explanation.
 
-Relics are excluded from the homepage, homepage pagination, related recommendations, previous/next promotion links, RSS, and the sitemap. They receive `noindex,follow`. The relic collection and empty explanation page also receive `noindex` and are excluded from the sitemap. These signals request exclusion from external search engines; they do not prevent direct access or guarantee when a crawler will remove an old result.
+Complete relics (including legacy entries without extent) are excluded from the homepage, homepage pagination, related recommendations, previous/next promotion links, RSS, and the sitemap. They receive `noindex,follow`. The relic collection and empty explanation page also receive `noindex` and are excluded from the sitemap. These signals request exclusion from external search engines; they do not prevent direct access or guarantee when a crawler will remove an old result.
 
-Every indexed page carries the derived `relic:true` or `relic:false` Pagefind filter and metadata, independently of whether it has an editorial review. All three search surfaces (header, archive, and dedicated search page) default to `relic:false`. Selecting "Auch digitale Relikte durchsuchen" removes this restriction while preserving other filters. The checkbox remains selected while that interface remains open; a fresh interface starts unchecked. Opted-in results display the shared relic indicator.
+Every indexed page carries a derived Pagefind filter: `relic:false` for regular posts and partial relics, and `relic:true` for complete relics. The filter means exclusion from default search, not editorial classification. The separate `relic` metadata remains a boolean for result labels. All three search surfaces (header, archive, and dedicated search page) default to the regular and partial values. Selecting "Auch vollständige digitale Relikte durchsuchen" removes this restriction while preserving other filters. The header places this checkbox in a native "Optionen" disclosure beside the field, so it does not enlarge the navigation row. The checkbox remains selected while that interface remains open; a fresh interface starts unchecked. Both partial and complete relic results display the shared relic indicator.
 
 Only videos confirmed unavailable in the local media history are suppressed on classified relics. Source identifiers remain in the Markdown. Surviving media remains available, and inconclusive checks do not hide players. Cached thumbnails are retained.
 
@@ -59,7 +62,7 @@ npm run publisher -- relic list --status=restoration-candidate
 Review and restoration require one exact post folder and an explicit review date. Obtain editorial approval before changing an existing post's classification. Start with `--dry-run` to review the exact result:
 
 ```bash
-npm run publisher -- relic review --path=2005/example --status=relic --reviewed=2026-11-27 --reason=missing-media --note="Das Video fehlt." --dry-run
+npm run publisher -- relic review --path=2005/example --status=relic --reviewed=2026-11-27 --reason=missing-media --extent=complete --note="Das Video fehlt." --dry-run
 npm run publisher -- relic review --path=2005/example --status=not-relic --reviewed=2026-11-27 --dry-run
 npm run publisher -- relic restore --path=2005/example --reviewed=2026-11-27 --dry-run
 ```
@@ -83,3 +86,11 @@ Before local editorial review, obtain the latest retained metadata from the repo
 Attempt recovery using the last known title, author, media identifier, original URL, preserved thumbnail, repository history (`git log --follow -- <file>`), and archived copies of external pages. Record what can and cannot be recovered. Preserve attribution, avoid inventing missing facts, and confirm reuse rights before importing external copies.
 
 Permanent deletion is governed by [Content preservation](content-preservation.md). Relic classification is reversible and never authorises deletion.
+
+## Partial loss and anniversary curation
+
+Partial relics retain external indexing, sitemap inclusion, and default internal search visibility. Both extents remain in chronological, taxonomy, and relic archives and show a relic notice. Homepage, RSS, related-post, and previous/next promotion exclusions remain unchanged for both extents. Surviving covers remain visible on partial relics.
+
+Anniversary eligibility remains a separate manual decision: only `curation.anniversary.status: include` permits selection, and complete relics remain ineligible even with an include. The shared `isAnniversaryEligible` utility implements this rule for future anniversary surfaces. Classification and publisher commands do not write or clear curation. Fu Noi has no automatic anniversary approval.
+
+Use [Lost content](../components/lost-content.md) to mark individual missing passages. Preserve corrupted originals in a non-rendered source comment or another durable source record. Do not invent missing words or claim a cause of corruption without evidence. Fu Noi retains its original damaged block in a source comment, its photograph, title, publication date, and permalink.

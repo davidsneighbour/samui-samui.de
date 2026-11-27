@@ -3,6 +3,7 @@ import path from 'node:path';
 import { globSync } from 'glob';
 import { parse } from 'yaml';
 import { getPostDateParts } from './dates.ts';
+import { isCompleteRelic } from './relic.ts';
 
 export function getRelicPaths(root = process.cwd()): Set<string> {
   const paths = new Set(['/archiv/relikte/', '/digitale-archaeologie/']);
@@ -10,12 +11,12 @@ export function getRelicPaths(root = process.cwd()): Set<string> {
   for (const file of globSync('**/index.md', { cwd: base })) {
     const source = fs.readFileSync(path.join(base, file), 'utf8');
     const data = parse(/^---\n([\s\S]*?)\n---/.exec(source)?.[1] ?? '') as {
-      relic?: { status?: string };
+      relic?: { status?: string; extent?: string };
       date: string;
       url?: string;
       slug?: string;
     };
-    if (data?.relic?.status !== 'relic') continue;
+    if (!isCompleteRelic(data?.relic)) continue;
     const { year, monthPadded } = getPostDateParts(new Date(data.date));
     const url =
       data.url?.trim() ||

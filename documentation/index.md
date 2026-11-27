@@ -94,3 +94,5 @@
 
 * [Digital relics](content/digital-relics.md) documents editorial states, components, search, publisher commands, media history, and weekly review.
 * [Content preservation](content/content-preservation.md) defines the mandatory two-stage owner approval for permanent post deletion.
+
+* [Lost content](components/lost-content.md) documents inline German gap annotations and source preservation.
