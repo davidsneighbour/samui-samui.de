@@ -4,11 +4,11 @@
   },
   "devDependencies": {
     "@astrojs/check": "0.9.12",
-    "@astrojs/markdown-remark": "7.3.8",
-    "@astrojs/mdx": "8.1.5",
+    "@astrojs/markdown-remark": "7.3.10",
+    "@astrojs/mdx": "8.1.6",
     "@astrojs/rss": "4.0.19",
-    "@astrojs/sitemap": "3.7.4",
-    "astro": "7.4.11",
+    "@astrojs/sitemap": "3.7.6",
+    "astro": "7.4.13",
     "sharp": "0.35.5",
     "typescript": "6.0.3"
   },
@@ -23,7 +23,7 @@
     "dev:verbose": "DEBUG_FRONTMATTER=true ASTRO_SITE_SCRIPT=dev:site:verbose node src/scripts/dev.ts",
     "preview": "astro preview",
     "upgrade": "npx @astrojs/upgrade",
-    "validate": "npm run validate:content && npm run validate:taxonomies && npm run validate:worker",
+    "validate": "npm run validate:package && npm run validate:content && npm run validate:taxonomies && npm run validate:worker",
     "validate:content": "astro check",
     "validate:taxonomies": "node src/scripts/validate-taxonomies.ts"
   }

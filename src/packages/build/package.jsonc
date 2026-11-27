@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "fixpack": "4.0.0",
-    "vite": "8.3.8"
+    "vite": "8.4.0"
   },
   "engines": {
     "node": "^26.0.0"
@@ -29,11 +29,17 @@
     "tar": "7.5.22",
     "toml": "4.2.0"
   },
+  "lint-staged": {
+    "{package.json,src/packages/**/*.jsonc}": [
+      "node src/packages/generate-package.ts --check"
+    ]
+  },
   "scripts": {
     "compile:fixpack": "wireit",
     "compile:package": "wireit",
     "compile:package:install": "wireit",
-    "compile:package:update": "wireit"
+    "compile:package:update": "wireit",
+    "validate:package": "node src/packages/generate-package.ts --check"
   },
   "wireit": {
     "compile:fixpack": {
@@ -41,12 +47,18 @@
     },
     "compile:package": {
       "command": "npm run compile:package:install",
-      "dependencies": ["compile:package:run"],
-      "files": ["./src/packages/**/*.jsonc"]
+      "dependencies": [
+        "compile:package:run"
+      ],
+      "files": [
+        "./src/packages/**/*.jsonc"
+      ]
     },
     "compile:package:install": {
       "command": "npm install",
-      "dependencies": ["compile:fixpack"]
+      "dependencies": [
+        "compile:fixpack"
+      ]
     },
     "compile:package:run": {
       "command": "node ./src/packages/generate-package.ts"

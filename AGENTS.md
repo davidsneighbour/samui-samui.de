@@ -231,7 +231,13 @@ add a dependency or script, add or edit the relevant fragment under
 `package.json` directly, it will be overwritten. Fragment processing order isn't
 strictly alphabetical (glob-determined) — if two fragments define the same
 `scripts`/`devDependencies` key, whichever is processed later silently wins, so
-check for key collisions across fragments before adding one. Quality-gate names
+check for key collisions across fragments before adding one.
+`npm run validate:package` (part of `validate`, and run by lint-staged when
+`package.json` or a fragment is staged) fails when `package.json` differs from
+what the fragments generate, for example after a direct `npm install pkg@x` or a
+Dependabot bump. Fix drift with `npm run compile:package:update` (copies
+versions from `package.json` into the fragments) or by editing the fragments and
+running `npm run compile:package`. Quality-gate names
 follow `documentation/quality-gates.md`: `check` is the non-mutating umbrella,
 `lint` is static analysis, `validate` is strict contracts, `test` is behavioural
 correctness, and mutating commands use explicit names such as `format`,

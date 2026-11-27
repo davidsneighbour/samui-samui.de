@@ -4,7 +4,7 @@ Review both `npm audit --json` and GitHub Dependabot alerts. The two sources can
 
 ## Package sources
 
-The root manifest is generated from `src/packages/**/*.jsonc`. Dependency versions and overrides belong in those fragments. Keep every fragment defining the same dependency aligned, including duplicate React and type dependencies. Before regeneration, compare the fragments with the current manifest so an earlier direct manifest update is not silently undone. Run `npm run compile:package` after editing the fragments.
+The root manifest is generated from `src/packages/**/*.jsonc`. Dependency versions and overrides belong in those fragments. Keep every fragment defining the same dependency aligned, including duplicate React and type dependencies. Before regeneration, compare the fragments with the current manifest so an earlier direct manifest update is not silently undone. Run `npm run compile:package` after editing the fragments. `npm run validate:package` fails when the manifest and the fragments differ; it runs in `npm run validate` and in pre-commit when `package.json` or a fragment is staged. After a direct manifest update, run `npm run compile:package:update` to copy the versions into the fragments.
 
 Use compatible patch and minor upgrades first. Inspect `npm audit fix --dry-run` before applying fixes. Do not treat `npm audit fix --force` as a safe remediation: it can suggest obsolete parent releases or incompatible major-version changes.
 

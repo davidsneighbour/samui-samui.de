@@ -34,11 +34,13 @@ type Options = {
   pkgPath: string;
   verbose: boolean;
   dryRun: boolean;
+  check: boolean;
 };
 
 function parseArgs(): Options {
   const args = process.argv.slice(2);
   const opts = {
+    check: false,
     dryRun: false,
     pkgPath: path.resolve(projectRoot, 'package.json'),
     verbose: false,
@@ -57,6 +59,9 @@ function parseArgs(): Options {
         break;
       case '--verbose':
         opts.verbose = true;
+        break;
+      case '--check':
+        opts.check = true;
         break;
       case '--dry-run':
         opts.dryRun = true;
@@ -77,11 +82,30 @@ function parseArgs(): Options {
         break;
       }
       default:
+        // lint-staged appends the staged file names; --check reads every
+        // fragment anyway, so those paths are ignored.
+        if (opts.check && a !== undefined && !a.startsWith('--')) break;
         console.error(`✖ Unknown argument: ${a}`);
         process.exit(1);
     }
   }
   return opts;
+}
+
+/**
+ * List the dotted paths where two JSON values differ. Object key order is
+ * ignored, because fixpack sorts package.json after generation.
+ */
+function diffPaths(a: unknown, b: unknown, prefix = ''): string[] {
+  const isObj = (v: unknown): v is Record<string, unknown> =>
+    typeof v === 'object' && v !== null && !Array.isArray(v);
+  if (isObj(a) && isObj(b)) {
+    const keys = new Set([...Object.keys(a), ...Object.keys(b)]);
+    return [...keys].flatMap((k) =>
+      diffPaths(a[k], b[k], prefix ? `${prefix}.${k}` : k),
+    );
+  }
+  return JSON.stringify(a) === JSON.stringify(b) ? [] : [prefix || '(root)'];
 }
 
 /**
@@ -144,7 +168,7 @@ function filterPackageJson(
 }
 
 async function main() {
-  const { pkgPath, verbose, dryRun } = parseArgs();
+  const { pkgPath, verbose, dryRun, check } = parseArgs();
 
   // discover all JSON files
   const configPaths = glob.sync('src/packages/**/*.jsonc', {
@@ -206,6 +230,22 @@ async function main() {
     delete filteredPkg['notes'];
     if (verbose)
       console.error('> Removed "notes" from package.json structure.');
+  }
+
+  if (check) {
+    const drift = diffPaths(filteredPkg, pkg);
+    if (drift.length > 0) {
+      console.error(
+        '✖ package.json does not match src/packages/**/*.jsonc. Differing keys:',
+      );
+      for (const key of drift) console.error(`  - ${key}`);
+      console.error(
+        'Edit the fragments and run `npm run compile:package`, or run `npm run compile:package:update` to copy versions from package.json into the fragments.',
+      );
+      process.exit(1);
+    }
+    if (verbose) console.error('✔ package.json matches the fragments.');
+    return;
   }
 
   // write back (or dry-run)

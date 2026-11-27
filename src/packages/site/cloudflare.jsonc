@@ -1,8 +1,6 @@
 {
-  // Cloudflare Worker for /api/* and the DreamHost + Cloudflare deployment
-  // tooling. See documentation/hosting/architecture.md.
   "devDependencies": {
-    "wrangler": "4.160.1"
+    "wrangler": "4.168.0"
   },
   "scripts": {
     "cache:purge": "node ./src/scripts/deploy/cache-purge.ts",

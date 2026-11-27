@@ -160,8 +160,9 @@
     "thumbnails:fetch": "node src/scripts/content/fetch-video-thumbnails.ts",
     "thumbnails:verify": "node src/scripts/content/fetch-video-thumbnails.ts --verify",
     "upgrade": "npx @astrojs/upgrade",
-    "validate": "npm run validate:content && npm run validate:taxonomies && npm run validate:worker",
+    "validate": "npm run validate:package && npm run validate:content && npm run validate:taxonomies && npm run validate:worker",
     "validate:content": "astro check",
+    "validate:package": "node src/packages/generate-package.ts --check",
     "validate:taxonomies": "node src/scripts/validate-taxonomies.ts",
     "validate:worker": "wrangler types src/workers/api/worker-configuration.d.ts --check && tsc --project src/workers/api/tsconfig.json"
   },
@@ -236,6 +237,9 @@
     ],
     "**/!(package|package-lock).json": [
       "biome check --write --no-errors-on-unmatched"
+    ],
+    "{package.json,src/packages/**/*.jsonc}": [
+      "node src/packages/generate-package.ts --check"
     ]
   },
   "overrides": {
@@ -249,6 +253,7 @@
     },
     "js-yaml": "5.4.3",
     "katex": "0.18.2",
+    "markdown-it": "15.0.3",
     "markdownlint-rule-title-case-style": {
       "markdownlint": "^0.41.1"
     },
@@ -258,8 +263,7 @@
     "sharp": "0.35.5",
     "smol-toml": "1.9.0",
     "tar": "7.5.22",
-    "toml": "4.2.0",
-    "markdown-it": "15.0.3"
+    "toml": "4.2.0"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged && npm run validate:content"
