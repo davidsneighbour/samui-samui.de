@@ -84,5 +84,15 @@
     },
     "type": "subtitle",
     "value": "Mehr über Samui, als vernünftigerweise nötig wäre."
+  },
+  {
+    "from": "2026-11-27",
+    "precision": "day",
+    "source": {
+      "note": "Untertitel in der Website-Konfiguration geändert.",
+      "type": "other"
+    },
+    "type": "subtitle",
+    "value": "Mehr über mein Leben auf Koh Samui, als vernünftigerweise nötig wäre."
   }
 ]
