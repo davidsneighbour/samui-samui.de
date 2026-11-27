@@ -181,19 +181,14 @@ const publishedYear = publishedOn
               extended
               class="mb-4 mt-3"
             />
-            {relic?.status === 'relic' && (
-              <>
-                <RelicNotice review={relic} />
-                {postCover && (
-                  <PostCover
-                    cover={postCover}
-                    eager
-                    figureClass="m-0 w-full"
-                    imageClass="block h-auto w-full"
-                    captionClass="px-4 pt-2 text-center text-xs text-muted-foreground sm:px-8"
-                  />
-                )}
-              </>
+            {postCover && isCompleteRelic(relic) && (
+              <PostCover
+                cover={postCover}
+                eager
+                figureClass="m-0 w-full"
+                imageClass="block h-auto w-full"
+                captionClass="px-4 pt-2 text-center text-xs text-muted-foreground sm:px-8"
+              />
             )}
             <Separator />
             {publishedYear && postUrl && (
@@ -235,6 +230,11 @@ const publishedYear = publishedOn
           <div class:list={[proseClasses, 'prose-reading']}>
             <slot />
           </div>
+          {relic?.status === 'relic' && (
+            <div class="mx-auto max-w-(--reading-measure)">
+              <RelicNotice review={relic} />
+            </div>
+          )}
         </div>
         {relatedPosts.length > 0 && (
           <nav

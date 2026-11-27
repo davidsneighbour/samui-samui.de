@@ -89,7 +89,7 @@ Permanent deletion is governed by [Content preservation](content-preservation.md
 
 ## Partial loss and anniversary curation
 
-Partial relics retain external indexing, sitemap inclusion, and default internal search visibility. Both extents remain in chronological, taxonomy, and relic archives and show a relic notice. Homepage, RSS, related-post, and previous/next promotion exclusions remain unchanged for both extents. Surviving covers remain visible on partial relics.
+Partial relics retain external indexing, sitemap inclusion, and default internal search visibility. Both extents remain in chronological, taxonomy, and relic archives and show a relic notice below the post content, after surviving images and other media. Homepage, RSS, related-post, and previous/next promotion exclusions remain unchanged for both extents. Surviving covers remain visible on partial relics.
 
 Anniversary eligibility remains a separate manual decision: only `curation.anniversary.status: include` permits selection, and complete relics remain ineligible even with an include. The shared `isAnniversaryEligible` utility implements this rule for future anniversary surfaces. Classification and publisher commands do not write or clear curation. Fu Noi has no automatic anniversary approval.
 
