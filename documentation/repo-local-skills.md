@@ -15,3 +15,5 @@ entrypoint = "SKILL.md"
 Do not maintain a manual list of individual `ss-*` folders in `.agents/config.toml`. Adding `.agents/skills/ss-example/SKILL.md` should be enough for the skill to be found.
 
 Each skill folder must keep its `SKILL.md` frontmatter `name` equal to the folder name. Prompt helpers inside the folder should invoke that same `ss-*` name so copied assistant prompts and the repository config agree.
+
+`ss-review` includes assessment of suspected digital relics and implementation of explicitly approved classifications. See [Digital relics](content/digital-relics.md#requesting-a-review) for request wording and the distinction between investigation and an editorial decision.

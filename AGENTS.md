@@ -506,6 +506,10 @@ visitor leaves before the script loads is an accepted tradeoff in exchange for n
 blocking page rendering or interaction. Do not move the analytics include earlier
 in the document to "fix" this without discussing the tradeoff first.
 
+## Digital relic review
+
+For suspected digital relics, follow the [relic assessment section of `ss-review`](.agents/skills/ss-review/SKILL.md#suspected-digital-relics) and the [digital relic lifecycle](documentation/content/digital-relics.md). Tentative wording such as "this might be a relic" requests assessment only. An explicit instruction to mark a post as a partial or complete relic approves that classification; do not request the same approval again. Preserve the source and surviving content, use the shared missing-content renderer, and keep anniversary curation a separate manual decision.
+
 ## Content preservation and permanent deletion
 
 Agents MUST follow [Content preservation](documentation/content/content-preservation.md). Published posts MUST NOT be permanently deleted, removed from routing, or emptied without two separate, explicit owner approvals: first for the identified proposal (title, permalink, source file, and why restoration or relic classification is unsuitable), then for the final scope after that first approval. The initial deletion request, general implementation approval, silence, automated checks, and relic status count as neither approval. Before both approvals, agents MUST preserve the content. This applies to bulk operations, migrations, automation, and clean-up. Automated checks MUST NOT classify posts as relics. Existing post classifications require editorial approval.

@@ -37,7 +37,7 @@ Restoration sets `status: not-relic` with a new review date. Do not remove the b
 
 ## Public presentation
 
-`RelicNotice.astro` contains the German explanation and review date; `RelicIndicator.astro` contains the compact German label and the Lucide `mound-shovel` icon. They use existing muted-panel design tokens. The notice sits before the surviving article body and is ignored by Pagefind. Notes are escaped as text.
+`RelicNotice.astro` contains the German explanation and review date; `RelicIndicator.astro` contains the compact German label and the Lucide `mound-shovel` icon. They use existing muted-panel design tokens. The notice sits below the surviving article body and media and is ignored by Pagefind. Notes are escaped as text.
 
 Relics remain at their original URLs and in chronological and topic/entity archives, with a visible label. `/archiv/relikte/` lists all relics. `/digitale-archaeologie/` is a normal, initially empty MDX page reserved for the future explanation.
 
@@ -94,3 +94,13 @@ Partial relics retain external indexing, sitemap inclusion, and default internal
 Anniversary eligibility remains a separate manual decision: only `curation.anniversary.status: include` permits selection, and complete relics remain ineligible even with an include. The shared `isAnniversaryEligible` utility implements this rule for future anniversary surfaces. Classification and publisher commands do not write or clear curation. Fu Noi has no automatic anniversary approval.
 
 Use [Lost content](../components/lost-content.md) to mark individual missing passages. Preserve corrupted originals in a non-rendered source comment or another durable source record. Do not invent missing words or claim a cause of corruption without evidence. Fu Noi retains its original damaged block in a source comment, its photograph, title, publication date, and permalink.
+
+## Requesting a review
+
+The existing `ss-review` skill handles relic assessment as part of a single-post review. Its [suspected relic guidance](../../.agents/skills/ss-review/SKILL.md#suspected-digital-relics) distinguishes investigation from an approved classification. No separate relic skill is required.
+
+For investigation, say: "Review [URL] as a possible digital relic. Check what survives and whether missing material can be recovered. Recommend partial, complete, or not a relic, with evidence. Review only; do not change the post." A tentative statement such as "this might be a relic" also requests assessment, not a classification change. A general request to rework a post does not itself approve relic classification.
+
+For an editorial decision already made, say: "Mark [URL] as a partial digital relic. Preserve the surviving photograph and damaged source, mark the missing text with LostContent, and add the review metadata and German explanation. Keep the title, publication date, permalink, and anniversary curation unchanged." This explicitly authorises that classification and the requested changes, without another confirmation for the same decision. A materially different classification still needs an editorial decision.
+
+The reviewer reports the recovery checks, confirmed losses, surviving value, uncertainty, proposed reason and extent, and exact changes. If recovery remains uncertain, the existing review state stays unchanged. Neither phrasing authorises permanent deletion, publication, or deployment.
