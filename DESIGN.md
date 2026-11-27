@@ -335,10 +335,13 @@ but only these faces are wired into CSS, deliberately, to avoid unused
   imported in `theme.css`). No markup or JS is needed per Thai fragment
   — the browser resolves per-character. The package's variable-font CSS
   ships one `@font-face` per Unicode subset (thai, vietnamese,
-  latin-ext, latin), each scoped with its own `unicode-range`; because
-  Panton already serves every Latin glyph, only the `thai` subset file
-  is ever fetched in practice — the other three subsets stay registered
-  but unrequested. Anuphan's variable weight axis covers 100–700, which
+  latin-ext, latin), each scoped with its own `unicode-range`. Panton
+  covers Basic Latin and Latin-1 and most of Latin Extended-A, so in
+  practice the browser fetches only the `thai` file. It fetches the
+  `latin-ext` or `vietnamese` file only for a character that Panton
+  lacks (for example a combining mark or a Vietnamese letter); that
+  character then renders in Anuphan. See
+  [Thai typography](documentation/components/thai-typography.md). Anuphan's variable weight axis covers 100–700, which
   is enough to sit alongside Panton's 400–900 without a mismatch at the
   weights actually used in content (400/700). Anuphan reads visibly
   heavier than Panton at the same numeric weight, so `body` in

@@ -258,9 +258,10 @@ body {
   /*
    * Anuphan (the Thai fallback in --font-sans) renders visibly heavier than
    * Panton at the same numeric font-weight -- Thai text at "regular" (400)
-   * reads as bold next to Latin regular. Pin its variable "wght" axis two
-   * steps below whatever weight is requested so Thai glyphs sit visually
-   * level with the surrounding Latin type. Panton ships as static per-weight
+   * reads as bold next to Latin regular. Pin its variable "wght" axis to a
+   * fixed 300 for every requested weight, so Thai glyphs sit visually level
+   * with the surrounding Latin type (also in bold text and headings). See
+   * documentation/components/thai-typography.md. Panton ships as static per-weight
    * files (not a variable font), so this has no effect on it.
    */
   font-variation-settings: "wght" 300;
