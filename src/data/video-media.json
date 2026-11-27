@@ -1,48 +1,56 @@
 {
   "youtube:_BM3zCMRPcw": {
     "availability": "unavailable",
-    "consecutiveFailures": 1,
-    "files": ["src/content/posts/2020/12/in-diesem-sinne/index.md"],
+    "consecutiveFailures": 3,
+    "files": [
+      "src/content/posts/2020/12/in-diesem-sinne/index.md"
+    ],
     "id": "_BM3zCMRPcw",
-    "lastChecked": "2026-11-27T13:33:50.145Z",
+    "lastChecked": "2026-11-27T14:46:33.983Z",
     "provider": "youtube",
     "url": "https://www.youtube.com/watch?v=_BM3zCMRPcw"
   },
+  "youtube:081NOLjBD3k": {
+    "availability": "unavailable",
+    "consecutiveFailures": 3,
+    "files": [
+      "src/content/posts/2017/01/kinder-und-lehrertag/index.md"
+    ],
+    "id": "081NOLjBD3k",
+    "lastChecked": "2026-11-27T14:46:31.847Z",
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=081NOLjBD3k"
+  },
   "youtube:3lOhzMGfnOo": {
     "availability": "unavailable",
-    "consecutiveFailures": 1,
-    "files": ["src/content/posts/2017/01/die-sache-mit-dem-krokodil/index.md"],
+    "consecutiveFailures": 3,
+    "files": [
+      "src/content/posts/2017/01/die-sache-mit-dem-krokodil/index.md"
+    ],
     "id": "3lOhzMGfnOo",
-    "lastChecked": "2026-11-27T13:33:49.033Z",
+    "lastChecked": "2026-11-27T14:46:33.321Z",
     "provider": "youtube",
     "url": "https://www.youtube.com/watch?v=3lOhzMGfnOo"
   },
   "youtube:5v9dniq2N60": {
     "availability": "unavailable",
-    "consecutiveFailures": 1,
-    "files": ["src/content/posts/2016/05/berg-unter-feuer/index.md"],
+    "consecutiveFailures": 3,
+    "files": [
+      "src/content/posts/2016/05/berg-unter-feuer/index.md"
+    ],
     "id": "5v9dniq2N60",
-    "lastChecked": "2026-11-27T13:33:49.313Z",
+    "lastChecked": "2026-11-27T14:46:33.552Z",
     "provider": "youtube",
     "url": "https://www.youtube.com/watch?v=5v9dniq2N60"
   },
-  "youtube:081NOLjBD3k": {
-    "availability": "unavailable",
-    "consecutiveFailures": 1,
-    "files": ["src/content/posts/2017/01/kinder-und-lehrertag/index.md"],
-    "id": "081NOLjBD3k",
-    "lastChecked": "2026-11-27T13:33:47.228Z",
-    "provider": "youtube",
-    "url": "https://www.youtube.com/watch?v=081NOLjBD3k"
-  },
   "youtube:OHviopSflwc": {
     "availability": "unavailable",
-    "consecutiveFailures": 1,
+    "consecutiveFailures": 3,
     "files": [
       "src/content/posts/2014/06/tausende-enten-auf-der-strasse/index.md"
     ],
     "id": "OHviopSflwc",
-    "lastChecked": "2026-11-27T13:33:49.729Z",
+    "lastChecked": "2026-11-27T14:46:33.790Z",
     "provider": "youtube",
     "url": "https://www.youtube.com/watch?v=OHviopSflwc"
   }
