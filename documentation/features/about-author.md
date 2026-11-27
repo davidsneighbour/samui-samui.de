@@ -14,4 +14,13 @@ The page is linked from the shared main navigation and the article author block.
 
 ## Later editorial development
 
-The useful biography is approved for navigation and indexing. Further archive research, photographs, site-history material, and personal details can be added incrementally. Keep the full page thematic and the life timeline chronological. A future timeline teaser must use the canonical timeline dataset and must not embed the map application. The broader editorial work remains open under the existing issue.
+The useful biography is approved for navigation and indexing. Further work is tracked in [#1865](https://github.com/davidsneighbour/samui-samui.de/issues/1865) (site history, archive and IUMAS links, images, "Und sonst?", structured data) and [#1866](https://github.com/davidsneighbour/samui-samui.de/issues/1866) (life-timeline teaser and static map, blocked by #1865).
+
+Rules for that work:
+
+* The page is thematic and narrative, not a CV. The chronology belongs to `/timeline/`; the About page does not repeat it year by year.
+* A timeline teaser derives its data from `src/data/life-timeline.json` and `src/data/map-points.json`. There is no second chronology dataset. Do not embed `/timeline/` (no iframe, no full player) and do not load MapLibre on the About page.
+* The timeline intentionally starts in 1974, one year before the birth year 1975 (`AUTHOR_BIRTH_DATE` in `src/utils/life-stats.ts`), so that it opens with a moment "before" the author.
+* The article author block stays short and is authored separately in `src/content/sitewide/authorfooter/`.
+* Do not render unfinished sections as placeholder content.
+* Tone: first person, dry humour, specific rather than generic, personal rather than promotional. Avoid "passionate about", "my journey", "digital nomad", and paradise clichés that are not deliberately undercut. The footer line "Dipl. Ing. (FH), soviel Zeit muss sein" is the tonal benchmark.
