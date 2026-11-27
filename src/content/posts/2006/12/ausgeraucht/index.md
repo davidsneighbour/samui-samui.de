@@ -22,7 +22,7 @@ publisher:
   seo: true
   covermigration: true
 ---
-Man wird in nächster Zeit häufiger Schilder in Thailand sehen, die eine durchgestrichene Zigarette zeigen und die folgenden Worte: "<span class="thai">??ร???สู??ุหรี? ??ื?อ???วย?า??????าร?ระ?ำ??อ?ห?าม??ย??หมาย</span>" (Bitte nicht rauchen, da es gegen das Gesetz ist). Sind sie nicht höflich, die Thais?
+Man wird in nächster Zeit häufiger Schilder in Thailand sehen, die eine durchgestrichene Zigarette zeigen und die folgenden Worte: "Bitte nicht rauchen, da es gegen das Gesetz ist". Sind sie nicht höflich, die Thais?
 
 Vergangene Woche hat das Gesundheitsministerium mal wieder einen Rausch neue Gesetze und Verordnungen zu erlassen gehabt und unter anderem Anti-Alkohol-Kampagnen angekündigt (dazu später mal mehr) und eben dieses Rauchverbot an öffentlichen Plätzen erlassen.
 
@@ -32,7 +32,6 @@ Es gibt sogar eine Telefonnummer (02-590-3342) unter der man Raucher denunzieren
 
 <!-- The damaged Thai quotation remains unresolved in https://github.com/davidsneighbour/samui-samui.de/issues/1781; punctuation findings in that fragment are import damage. -->
 
-<!-- cspell:ignore หมาย -->
 <!-- grammar-ignore DOPPELPERFEKT erlassen gehabt -->
 <!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN ?? -->
 <!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN ??? -->
