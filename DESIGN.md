@@ -641,3 +641,7 @@ Each comparison column places its label and value on the same line (`Damals ≈ 
 ### Kleingedrucktes introduction
 
 All Kleingedrucktes pages place a shared, initially visible editorial note after the page title and before the page-specific content. The existing Notice component supplies the muted surface, standard border and radius, decorative conversation icon, and labelled static aside. For this long introduction only, the body uses the existing 16px body-md size and card-foreground colour, the title uses the existing bold 20px heading-md size, and paragraph gaps are 16px. A 32px gap separates the panel from the page-specific content. No new colour, radius, spacing, or typography token is introduced, and other notices keep their compact presentation. The standard notice × button sits at the top-right with 12px top and 16px right insets; 32px of title padding reserves its space while long paragraphs retain their reading width. It closes the introduction; a local-storage preference applies the dismissal across this section and removes the panel gap. The page-specific content stays visible. See [Kleingedrucktes introduction](documentation/components/legal-page-introduction.md).
+
+## Digital relic notice
+
+The digital relic notice uses the existing muted surface, card foreground, and radius, with a 1px `primary` border at 60% opacity (`border border-primary/60`). The subdued coral border separates the editorial note from the article without introducing a warning colour or a new token. The notice follows the post content and surviving media.
