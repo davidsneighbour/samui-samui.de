@@ -164,7 +164,8 @@ rules live in
 * A commit that adds a new post MUST use `content(new): <summary>`. Only
   `feat` and `content(new)` bump the minor version (see `.release-it.ts`);
   a bare `content:` or any other `content(...)` scope is a patch release, so a
-  new post committed as `content:` silently ships as a patch.
+  new post committed as `content:` silently ships as a patch. The `commit-msg`
+  hook (`src/scripts/lint-commit-type.ts`) rejects such commits.
 * Every open point of work — bug, follow-up, decision, question — MUST be tracked as
   a GitHub issue. Ideas that are not yet actionable MAY live in `TODO.md` instead
   (see below) until they are refined enough to become an issue.
@@ -280,7 +281,8 @@ variants. See
 
 `simple-git-hooks` installs a `pre-commit` hook (`lint-staged` against staged files
 only: Biome + markdownlint, plus link, citation-date, spelling, orthography, and
-grammar checks for staged content) via the
+grammar checks for staged content) and a `commit-msg` hook (new posts need
+`content(new):`) via the
 `prepare` script, which `npm install` runs automatically. There is
 intentionally no `pre-push` hook: lint findings must not block pushes. Run
 `npm run check` manually before a deploy.

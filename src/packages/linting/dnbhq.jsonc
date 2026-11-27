@@ -45,6 +45,7 @@
     "release:patch": "release-it --config .release-it.ts --ci --increment=patch"
   },
   "simple-git-hooks": {
+    "commit-msg": "node src/scripts/lint-commit-type.ts \"$1\"",
     "pre-commit": "npx lint-staged && npm run validate:content"
   }
 }
