@@ -1,7 +1,23 @@
 ---
 title: Digitale Archäologie
+description: Warum auch die Lücken zum Blogarchiv gehören und was von digitalen Relikten bleibt.
 ---
 
 import PageLayout from '@layouts/PageLayout.astro';
+import { proseClasses } from '@utils/prose';
 
-<PageLayout frontmatter={frontmatter} noindex />
+<PageLayout frontmatter={frontmatter} noindex>
+<div class={proseClasses} data-pagefind-body>
+
+Nicht alles überlebt das Internet. Seit 2005 sammeln sich hier Geschichten, Gedanken, Fundstücke und gelegentlich Dinge an, von denen heute niemand mehr so genau weiß, was sie eigentlich waren. Videos verschwinden, Websites werden abgeschaltet, Dateien gehen verloren.
+
+Übrig bleiben digitale Relikte: Beiträge, deren ursprünglicher Inhalt oder Zusammenhang sich nicht mehr vollständig rekonstruieren lässt. Manchmal fehlt nur ein Teil, während ein Text oder ein Photo noch etwas erzählt. Manchmal ist das Wesentliche verloren, und es bleibt kaum mehr als die Spur eines Fundstücks. Ein alter Beitrag oder ein einzelner kaputter Link macht deshalb noch kein Relikt.
+
+Statt diese Beiträge stillschweigend zu löschen, bewahre ich auf, was noch da ist. Sie behalten ihre Adresse und ihren Platz im Archiv. Ein Hinweis am Beitrag erklärt, was fehlt. Auch die Löcher in einem Archiv gehören zu seiner Geschichte.
+
+Im [Relikte-Archiv](/archiv/relikte/) findest du beide Arten. Teilweise erhaltene Relikte erscheinen auch in der normalen Suche. Für vollständige Relikte, deren wesentlicher Inhalt fehlt, gibt es dort die Option „Auch vollständige digitale Relikte durchsuchen“.
+
+Solltest du eines dieser Fundstücke wiedererkennen oder wissen, was hier einmal zu sehen war, freue ich mich über einen [Hinweis](/kontakt/).
+
+</div>
+</PageLayout>

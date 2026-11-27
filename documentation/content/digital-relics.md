@@ -2,6 +2,8 @@
 
 Digital relics preserve posts whose essential content or context has been lost. Old age, low relevance, or one broken link alone does not establish this status. Published URLs, original publication dates, source text, and media identifiers remain unchanged. Fu Noi is the first reviewed partial relic.
 
+The German explanation at `/digitale-archaeologie/` describes partial and complete loss in the blog's personal voice, links to both kinds in `/archiv/relikte/`, explains the search opt-in, and invites recovery hints through `/kontakt/`.
+
 ## Editorial states
 
 `relic` is an optional strict discriminated union, separate from `publisher`, `relevance`, and anniversary curation. Absence means **unreviewed**, not an editorial decision. Unreviewed posts behave as regular posts publicly.
