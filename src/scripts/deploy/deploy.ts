@@ -18,6 +18,8 @@
 // never builds anything. Architecture and reasoning:
 // documentation/hosting/architecture.md and documentation/hosting/deployment.md.
 
+import fs from 'node:fs';
+import path from 'node:path';
 import { syncCacheRules } from './cache-rules.ts';
 import { HIGH_VALUE_PATHS, warm } from './cache-warm.ts';
 import { CloudflareClient } from './lib/cloudflare.ts';
@@ -76,6 +78,14 @@ async function gitInfo(): Promise<{ sha: string; dirty: boolean }> {
     await run('git', ['status', '--porcelain'], { capture: true })
   ).stdout.trim();
   return { dirty: status.length > 0, sha };
+}
+
+/** Read the version from package.json at this moment (after any release). */
+function packageVersion(): string {
+  const manifest = JSON.parse(
+    fs.readFileSync(path.resolve('package.json'), 'utf8'),
+  ) as { version: string };
+  return manifest.version;
 }
 
 async function hasChangesSinceLatestTag(): Promise<boolean> {
@@ -268,6 +278,14 @@ async function main() {
     await run('npm', ['run', 'check']);
   }
 
+  // A release changes the version that the footer shows. The build must come
+  // after it, so a release with a reused dist/ is never allowed.
+  if (hasFlag(argv, '--release') && hasFlag(argv, '--skip-build')) {
+    throw new Error(
+      '--release and --skip-build cannot be combined: the build must include the new version.',
+    );
+  }
+
   if (hasFlag(argv, '--release') && !dryRun) {
     heading('Release');
     if (await hasChangesSinceLatestTag()) {
@@ -283,7 +301,7 @@ async function main() {
       await run('npm', ['run', 'build']);
     }
     heading('Validate dist/');
-    const stats = validateDist(DIST_DIR);
+    const stats = validateDist(DIST_DIR, packageVersion());
     report['generated files'] =
       `${stats.files.length} (${stats.htmlFiles} HTML)`;
     report['generated size'] = formatBytes(stats.totalBytes);

@@ -13,3 +13,7 @@ Public social destinations are defined in `src/config/social.ts`. Import `SOCIAL
 The sound toggle and copyright text share a centred flex row. The toggle wrapper cannot shrink, and the copyright text can wrap on narrow screens. Both remain vertically centred without a separate bottom margin on the toggle.
 
 The footer does not repeat the OpenStreetMap coastline credit on every page. The credit lives in the `Kartendaten` section of the Impressum, which the footer links from every page. See [Logo coastline](logo-coastline.md) for the source snapshot, the attribution placement, and reuse requirements.
+
+## Version marker
+
+The footer shows `Version x.y.z` and links to the matching GitHub release (`/releases/tag/vx.y.z`). The value comes from `package.json` at build time. release-it bumps that version when a release is made, so the footer shows the last released version. The `<p>` carries `data-site-version`, which the deploy check reads (see [Deployment](../hosting/deployment.md#version-check)).

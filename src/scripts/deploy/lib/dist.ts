@@ -41,7 +41,17 @@ export function listFiles(root: string): string[] {
   return files.sort();
 }
 
-export function validateDist(distDir: string): DistStats {
+/**
+ * Validate a finished build before upload.
+ *
+ * `expectedVersion` is the `package.json` version at deploy time. The footer
+ * of every page carries `data-site-version`; a mismatch means dist/ was built
+ * before a release (or by another checkout) and would ship a wrong version.
+ */
+export function validateDist(
+  distDir: string,
+  expectedVersion?: string,
+): DistStats {
   if (!fs.existsSync(distDir) || !fs.statSync(distDir).isDirectory()) {
     throw new Error(
       `Build directory ${distDir} does not exist. Run the build first.`,
@@ -70,6 +80,15 @@ export function validateDist(distDir: string): DistStats {
     throw new Error(
       'dist/index.html has no canonical link to https://samui-samui.de/ -- was it built with the production site URL?',
     );
+  }
+
+  if (expectedVersion !== undefined) {
+    const built = /data-site-version="([^"]+)"/.exec(index)?.[1];
+    if (built !== expectedVersion) {
+      throw new Error(
+        `dist/index.html was built for version ${built ?? '(none)'}, but package.json is at ${expectedVersion}. Build again after the release.`,
+      );
+    }
   }
 
   const totalBytes = files.reduce(

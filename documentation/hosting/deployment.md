@@ -135,3 +135,11 @@ Deploys run from the maintainer's terminal only. There is no CI deployment: the 
 * `/api/version` is answered by the Worker (JSON `worker: samui-samui-api`), `/api/weather` returns JSON, and `GET /api/contact` returns 405 with `Allow: POST`. This proves `/api/*` does not reach DreamHost.
 
 To check an origin directly, for example a local Apache serving `dist/`: `npm run test:smoke -- --base-url=http://127.0.0.1:8090 --no-worker`.
+
+## Version check
+
+The footer shows the release version from `package.json` (see [Footer](../components/footer.md#version-marker)). To make sure the live site never shows a different version:
+
+* `npm run deploy -- --release` runs release-it before the build, so the build contains the new version.
+* `--release` together with `--skip-build` is refused, because a reused `dist/` would still show the old version.
+* Before upload, the dist check compares `data-site-version` in `dist/index.html` with the current `package.json` version and stops the deploy when they differ.
