@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.4.0](https://github.com/davidsneighbour/samui-samui.de/compare/v3.3.1...v3.4.0) (2026-11-27)
+
+### Instructions
+
+* require content(new) for new posts ([38ef43f](https://github.com/davidsneighbour/samui-samui.de/commit/38ef43f71aab9d0db447c483159d6031a21fef2e)), closes [#1875](https://github.com/davidsneighbour/samui-samui.de/issues/1875)
+
+### Chore
+
+* **hooks:** reject new posts committed without content(new) ([0423215](https://github.com/davidsneighbour/samui-samui.de/commit/04232159666eb2ccbc94afa590a8cc7f8e3f7cff)), closes [#1876](https://github.com/davidsneighbour/samui-samui.de/issues/1876)
+
 ## [3.3.1](https://github.com/davidsneighbour/samui-samui.de/compare/v3.3.0...v3.3.1) (2026-11-27)
 
 ### Content
