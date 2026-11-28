@@ -16,6 +16,12 @@ New writing and useful local information are the main editorial priorities. Old 
 
 The skill's `detect-csp` command returned `shape: null` and no signals during setup, so `cspChecked` is true. This is the detector's result, not a claim that production has no CSP: production headers remain in `public/.htaccess`. Init made no CSP changes. Recheck development CSP if the live picker is blocked in a future session.
 
+## Design hooks
+
+Design hooks are enabled through `impeccable hooks on`, which records `hook.enabled: true` in `.impeccable/config.json` and install consent in the ignored `.impeccable/config.local.json`. The command verified existing Claude and Codex hook manifests; the status output labels the Codex integration `.agents`. The Codex manifest at `.codex/hooks.json` contains the post-edit check and the final deep pass.
+
+Codex must load the hook settings, and the user must approve them through `/hooks` on first use. Restart or reload the session after settings change. Verified manifest wiring does not prove that the current session has executed a hook. Run `impeccable hooks status` to inspect configuration; use `impeccable hooks off` to disable automatic reminders.
+
 ## Version control
 
 Keep PRODUCT.md, DESIGN.md, `.impeccable/config.json`, `.impeccable/surfaces/`, `.impeccable/design.json`, `.impeccable/live/config.json`, and `.impeccable/critique/ignore.md` in version control when present. Do not ignore `.impeccable/` as a whole. The runtime directories ignore themselves; `.impeccable/config.local.json` is a developer-local override and stays ignored.
