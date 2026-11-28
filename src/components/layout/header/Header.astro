@@ -302,6 +302,18 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
 
   installStickyNavigation();
 
+  // Close the search options popup on a click outside it. The listener sits
+  // on document and looks the popup up per click, so it keeps working after
+  // view-transition navigations swap the header.
+  document.addEventListener('click', (event) => {
+    const options = document.querySelector<HTMLDetailsElement>(
+      'details.search-options[open]',
+    );
+    if (options && !options.contains(event.target as Node)) {
+      options.open = false;
+    }
+  });
+
   trackPagefindSearch(getInstanceManager().getInstance('default'));
 </script>
 

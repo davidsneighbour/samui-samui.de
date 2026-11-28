@@ -189,3 +189,25 @@ test('header option label links "digitale Relikte" and stays on one line', async
   await header.locator('summary').click();
   await expect(checkbox).not.toBeChecked();
 });
+
+test('a click outside the header search options closes them', async ({
+  page,
+}) => {
+  await page.setViewportSize({ height: 800, width: 1280 });
+  await page.goto('/suche/');
+  // Run twice: the second time after a view-transition navigation.
+  for (const link of [null, 'Kontakt']) {
+    if (link) {
+      await page.getByRole('link', { exact: true, name: link }).first().click();
+      await expect(page).toHaveURL(/\/kontakt\/$/);
+    }
+    const options = page.locator('.header-search details.search-options');
+    await options.locator('summary').click();
+    await expect(options).toHaveAttribute('open', '');
+    // A click inside the popup keeps it open.
+    await options.locator('relic-search-filter label').click();
+    await expect(options).toHaveAttribute('open', '');
+    await page.locator('main').click({ position: { x: 5, y: 5 } });
+    await expect(options).not.toHaveAttribute('open');
+  }
+});
