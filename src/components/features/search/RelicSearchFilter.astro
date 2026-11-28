@@ -8,17 +8,23 @@ const { instance = 'default' } = Astro.props;
 ---
 
 <relic-search-filter data-instance={instance}>
+  <!--
+    A link inside a label is valid HTML: <a> is phrasing content and not a
+    labelable element. Clicking the link follows it and does not toggle the
+    checkbox, because label activation skips interactive descendants.
+  -->
   <label class="mt-2 flex items-center gap-2 text-sm">
-    <input type="checkbox"> Auch vollständige digitale Relikte durchsuchen
+    <input type="checkbox">
+    <span>
+      Auch
+      <a
+        href="/digitale-archaeologie/"
+        class="text-link underline focus-ring"
+        >digitale Relikte</a
+      >
+      durchsuchen
+    </span>
   </label>
-  <p class="mt-2 text-sm">
-    <a
-      href="/digitale-archaeologie/"
-      class="text-link underline focus-ring"
-    >
-      Mehr über digitale Relikte
-    </a>
-  </p>
   <template><RelicIndicator /></template>
 </relic-search-filter>
 <script>

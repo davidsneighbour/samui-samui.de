@@ -158,3 +158,34 @@ test('header options stay collapsed and the field stays in one row after navigat
     await page.keyboard.press('Enter');
   }
 });
+
+test('header option label links "digitale Relikte" and stays on one line', async ({
+  page,
+}) => {
+  await page.setViewportSize({ height: 800, width: 1280 });
+  await page.goto('/suche/');
+  const header = page.locator('.header-search');
+  await header.locator('summary').click();
+  const checkbox = header.getByRole('checkbox', {
+    name: 'Auch digitale Relikte durchsuchen',
+  });
+  await expect(checkbox).toBeVisible();
+  const label = header.locator('relic-search-filter label');
+  const link = label.getByRole('link', {
+    exact: true,
+    name: 'digitale Relikte',
+  });
+  await expect(link).toHaveAttribute('href', '/digitale-archaeologie/');
+  // One line: the label is no higher than the 1lh text line plus a little.
+  const lineHeight = await label.evaluate((element) =>
+    Number.parseFloat(getComputedStyle(element).lineHeight),
+  );
+  const box = await label.boundingBox();
+  expect(box!.height).toBeLessThan(lineHeight * 1.5);
+  // The link inside the label navigates and does not toggle the checkbox.
+  await link.click();
+  await expect(page).toHaveURL(/\/digitale-archaeologie\/$/);
+  await page.goBack();
+  await header.locator('summary').click();
+  await expect(checkbox).not.toBeChecked();
+});
