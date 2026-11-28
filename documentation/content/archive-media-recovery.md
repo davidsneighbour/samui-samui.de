@@ -63,7 +63,7 @@ These four unique original embed IDs account for five posts. None has a matching
 | Post | Photo ID | Current disposition |
 | --- | --- | --- |
 | [2005/10/samuiaufflickr](../../src/content/posts/2005/10/samuiaufflickr/index.md) | `51178687` | Third-party photo; replaced with an outbound photo-page link. |
-| [2006/02/derchef](../../src/content/posts/2006/02/derchef/index.md) | `99923689` | Own photo; removed. No matching image or metadata in backup. |
+| [2006/02/derchef](../../src/content/posts/2006/02/derchef/index.md) | `99923689` | Own photo; removed. No matching image or metadata in backup. Owner confirmed it is not recoverable (2026-11-28); post is a partial relic, and the dead link to the subject's blog is unlinked ([#1807](https://github.com/davidsneighbour/samui-samui.de/issues/1807)). |
 | [2006/07/und-wieder-samui](../../src/content/posts/2006/07/und-wieder-samui/index.md) | `51178687` | Third-party photo; replaced with an outbound photo-page link. |
 | [2008/08/david-beckhams-house](../../src/content/posts/2008/08/david-beckhams-house/index.md) | `2747197090` | Third-party photo; replaced with an outbound photo-page link. |
 | [2011/04/lin-ping-bleibt](../../src/content/posts/2011/04/lin-ping-bleibt/index.md) | `3948848287` | Third-party photo; replaced with an outbound photo-page link. |
