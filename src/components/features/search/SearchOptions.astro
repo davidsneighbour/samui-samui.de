@@ -10,13 +10,20 @@ import { Cog } from '@lucide/astro';
 
 interface Props {
   instance?: string;
+  /**
+   * Text colour of the button for the surface it sits on: the header sits on
+   * the dark page background (`foreground`), /archiv/ on a light card
+   * (`card-foreground`).
+   */
+  surface?: 'page' | 'card';
 }
-const { instance = 'default' } = Astro.props;
+const { instance = 'default', surface = 'page' } = Astro.props;
+const color = surface === 'card' ? 'text-card-foreground' : 'text-foreground';
 ---
 
-<details class="search-options shrink-0 text-sm text-foreground">
+<details class:list={['search-options shrink-0 text-sm', color]}>
   <summary
-    class="inline-flex size-11 cursor-pointer list-none items-center justify-center rounded-(--radius) text-foreground/85 transition-[background-color,color,scale] duration-150 ease-out hover:bg-accent hover:text-accent-foreground focus-visible:focus-ring active:scale-[0.96] [&::-webkit-details-marker]:hidden"
+    class="inline-flex size-11 cursor-pointer list-none items-center justify-center rounded-(--radius) text-current/85 transition-[background-color,color,scale] duration-150 ease-out hover:bg-accent hover:text-accent-foreground focus-visible:focus-ring active:scale-[0.96] [&::-webkit-details-marker]:hidden"
     aria-label="Suchoptionen"
     title="Suchoptionen"
   >
