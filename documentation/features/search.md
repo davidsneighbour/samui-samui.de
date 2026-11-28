@@ -12,6 +12,12 @@ The website uses [Pagefind](https://pagefind.app/) for static search. The search
 
 Pagefind indexes every built page. Site chrome (header, navigation, footer, notices) is excluded with `data-pagefind-ignore` in the shared layout. Do not use `data-pagefind-body`: as soon as one page carries it, Pagefind indexes only the pages that carry it. From October to November 2026, `/ueber-mich/` and `/digitale-archaeologie/` used it, and the live index held only those two pages. `src/test/pagefind-body.test.ts` fails if the attribute returns.
 
+## Text colour and spellcheck
+
+Pagefind resets its custom elements with `all: initial` and `color: CanvasText`. Because `all: initial` also resets `color-scheme`, CanvasText follows the visitor's operating system, so result titles turned white on the light search surfaces for visitors with a dark OS ([#1885](https://github.com/davidsneighbour/samui-samui.de/issues/1885)). `src/styles/theme.css` sets these elements to `--color-card-foreground`.
+
+The header, `/suche/`, and `/archiv/` search containers set `spellcheck="false"`. The attribute is inherited by Pagefind's input, so the browser spellchecker and grammar extensions such as Harper (which skips text inputs whose effective `spellcheck` is false) do not underline search queries.
+
 ## Index cache
 
 The Astro Pagefind hook in `src/scripts/integrations/pagefind.ts` no longer rebuilds the index on every build. It calculates a hash over `src/content/**`, `src/layouts/**`, `src/components/**`, `src/pages/**`, `src/data/video-media.json`, the Pagefind version, and the Pagefind index configuration.
