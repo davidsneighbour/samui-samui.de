@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "wrangler": "4.168.0"
+    "wrangler": "4.169.0"
   },
   "scripts": {
     "cache:purge": "node ./src/scripts/deploy/cache-purge.ts",

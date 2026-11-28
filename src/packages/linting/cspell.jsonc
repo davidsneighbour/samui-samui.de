@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@cspell/dict-de-de": "4.1.4",
-    "cspell": "10.5.2"
+    "cspell": "10.6.0"
   },
   "scripts": {
     "lint:spell": "cspell 'src/{*,.*}/**/*.{md,mdx}'"

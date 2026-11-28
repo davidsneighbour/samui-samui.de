@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "maplibre-gl": "6.19.0"
+    "maplibre-gl": "6.20.0"
   },
   "scripts": {
     "maps": "node src/scripts/maps/maps.ts",
