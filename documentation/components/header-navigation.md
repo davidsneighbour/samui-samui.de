@@ -10,7 +10,19 @@ The title and tagline scroll normally. The navigation uses CSS sticky positionin
 
 If keyboard focus is inside the navigation when the footer becomes visible, the bar stays sticky until focus leaves. This keeps a focused link, search field, or theme control visible. There is no scroll animation, so reduced-motion users receive the same behaviour without additional motion.
 
-A ResizeObserver measures the actual navigation height, including the two-row mobile layout. The root's `--header-navigation-height` supplies `scroll-padding-top` so native anchor navigation and scrolling focused elements can leave room for the sticky bar. This is a measured dimension, not a fixed design token. The inset becomes zero when the bar releases at the footer. Existing footnote scroll margins remain additional clearance.
+A ResizeObserver measures the actual navigation height, including an open phone panel's effect on the bar (none, see below). The root's `--header-navigation-height` supplies `scroll-padding-top` so native anchor navigation and scrolling focused elements can leave room for the sticky bar. This is a measured dimension, not a fixed design token. The inset becomes zero when the bar releases at the footer. Existing footnote scroll margins remain additional clearance.
+
+## Phone layout
+
+Below 768px, the sticky bar is one 58px row: a menu button on the left, then a search button and the theme switch on the right. Before, the links, search field, and theme switch wrapped into three rows and covered too much of a small screen. The masthead above still scrolls away normally.
+
+The menu button (Lucide `menu`, `x` while open) opens the four links as a vertical list. The search button (Lucide `search`, `x` while open) opens the Pagefind search row and moves focus into its field. Only one panel is open at a time. Both buttons have `aria-expanded`, `aria-controls`, and a German label that names the action (`Menü öffnen` / `Menü schließen`, `Suche öffnen` / `Suche schließen`). Escape closes the open panel and returns focus to its button. They use the same 44px button style as the theme switch.
+
+The panels are absolutely positioned under the bar and cover the content. If they grew the sticky bar in the page flow, browser scroll anchoring would move the page by hundreds of pixels when a panel opens or closes. The bar's measured height, and with it `--header-navigation-height`, stays at the one-row value.
+
+In the open menu, the moving underline is hidden, because a vertical list has no shared baseline. The current page is marked with `primary` text instead.
+
+The script adds `data-compact` to the navigation and shows the two buttons. Without JavaScript, the buttons stay `hidden` and the full wrapped navigation stays visible. Panels are closed again on each Astro page swap.
 
 ## Lifecycle and fallback
 
@@ -20,7 +32,7 @@ Without JavaScript, the navigation remains CSS-sticky, but footer release and me
 
 ## Verification
 
-The browser tests in `src/test/header-navigation.spec.ts` cover mobile and desktop sticking, the masthead scrolling away, content passing underneath, footer release and restoration, keyboard focus, anchor clearance, and Astro navigation. Existing masthead tests continue to check the artwork and responsive layout.
+The browser tests in `src/test/header-navigation.spec.ts` cover mobile and desktop sticking, the phone bar toggles, panels and no-JavaScript fallback, the masthead scrolling away, content passing underneath, footer release and restoration, keyboard focus, anchor clearance, and Astro navigation. Existing masthead tests continue to check the artwork and responsive layout.
 
 ```bash
 node node_modules/@playwright/test/cli.js test src/test/header-navigation.spec.ts src/test/masthead.spec.ts

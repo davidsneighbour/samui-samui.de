@@ -13,7 +13,10 @@ import {
   Birdhouse,
   CircleQuestionMark,
   Landmark,
+  Menu,
+  Search,
   SquareUser,
+  X,
 } from '@lucide/astro';
 
 interface Props {
@@ -31,6 +34,8 @@ const answerContours = wordmark['samui!'].split(/(?=M)/);
 const answerLetters = answerContours.slice(0, -2).join('');
 const answerExclamation = answerContours.slice(-2).join('');
 
+const toolButtonClass =
+  'header-tool relative size-11 shrink-0 items-center justify-center rounded-(--radius) text-foreground/85 transition-[background-color,color,scale] duration-150 ease-out hover:bg-accent hover:text-accent-foreground focus-visible:focus-ring active:scale-[0.96]';
 const navLinkClass =
   'px-1.5 py-1 text-foreground/85 hover:text-primary sm:px-2';
 const symbolPath = / d="([^"]+)"/.exec(symbolSvg)?.[1];
@@ -198,7 +203,44 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
     aria-label="Hauptnavigation"
     class="header-nav mx-auto grid max-w-5xl grid-cols-[auto_auto] items-center gap-x-4 gap-y-3 border-t border-foreground/10 px-4 py-3 md:grid-cols-[auto_minmax(12rem,1fr)_auto]"
   >
+    <button
+      type="button"
+      class={`${toolButtonClass} header-tool--menu`}
+      aria-controls="header-links"
+      aria-expanded="false"
+      aria-label="Menü öffnen"
+      data-menu-toggle
+      hidden
+    >
+      <Menu
+        aria-hidden="true"
+        class="header-tool__open size-5"
+      />
+      <X
+        aria-hidden="true"
+        class="header-tool__close size-5"
+      />
+    </button>
+    <button
+      type="button"
+      class={`${toolButtonClass} header-tool--search`}
+      aria-controls="header-search-row"
+      aria-expanded="false"
+      aria-label="Suche öffnen"
+      data-search-toggle
+      hidden
+    >
+      <Search
+        aria-hidden="true"
+        class="header-tool__open size-5"
+      />
+      <X
+        aria-hidden="true"
+        class="header-tool__close size-5"
+      />
+    </button>
     <div
+      id="header-links"
       class="header-links order-1 flex flex-wrap items-center justify-center gap-x-0.5 text-sm"
       data-navigation-links
     >
@@ -249,7 +291,8 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
       ></span>
     </div>
     <div
-      class="order-3 col-span-2 flex min-w-0 items-center gap-3 md:order-2 md:col-span-1"
+      id="header-search-row"
+      class="header-search-row order-3 col-span-2 flex min-w-0 items-center gap-3 md:order-2 md:col-span-1"
     >
       <div
         class="hidden h-5 w-px shrink-0 bg-foreground/15 md:block"
@@ -273,7 +316,7 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
         <SearchOptions />
       </div>
     </div>
-    <div class="order-2 justify-self-end md:order-3">
+    <div class="header-theme order-2 justify-self-end md:order-3">
       <ThemeToggle />
     </div>
   </nav>
@@ -561,6 +604,89 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
   .header-links {
     position: relative;
   }
+
+  .header-tool__close,
+  .header-tool[aria-expanded="true"] .header-tool__open {
+    display: none;
+  }
+  .header-tool[aria-expanded="true"] .header-tool__close {
+    display: block;
+  }
+
+  /* Compact phone bar, only once the script has wired the toggles
+     (data-compact). Without JavaScript the full wrapped navigation stays. */
+  @media (max-width: 767.98px) {
+    .header-nav[data-compact] {
+      grid-template-columns: auto minmax(0, 1fr) auto auto;
+      column-gap: 0.25rem;
+      row-gap: 0;
+      padding-block: 0.375rem;
+    }
+    .header-nav[data-compact] .header-tool {
+      display: inline-flex;
+    }
+    .header-nav[data-compact] .header-tool--menu {
+      grid-column: 1;
+      grid-row: 1;
+    }
+    .header-nav[data-compact] .header-tool--search {
+      grid-column: 3;
+      grid-row: 1;
+    }
+    .header-nav[data-compact] .header-theme {
+      grid-column: 4;
+      grid-row: 1;
+    }
+    /* Panels open over the content: growing the in-flow sticky bar would
+       make scroll anchoring jump the page. */
+    .header-nav[data-compact] {
+      position: relative;
+    }
+    .header-nav[data-compact] .header-links,
+    .header-nav[data-compact] .header-search-row {
+      display: none;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      left: 0;
+      padding-inline: 1rem;
+      border-bottom: 1px solid
+        color-mix(in oklab, var(--color-foreground) 10%, transparent);
+      background: var(--color-background);
+    }
+    .header-nav[data-compact][data-menu-open] .header-links {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      padding-block: 0.5rem;
+      font-size: 1rem;
+    }
+    .header-nav[data-compact][data-menu-open] .header-links :global(a) {
+      padding-inline: 0.5rem;
+      border-bottom-color: transparent;
+    }
+    /* A vertical list has no shared baseline for the moving underline;
+       the current page is marked by colour instead. */
+    .header-nav[data-compact] .navigation-indicator {
+      display: none;
+    }
+    .header-nav[data-compact][data-menu-open]
+      .header-links
+      :global(a[aria-current="page"]) {
+      color: var(--color-primary);
+    }
+    .header-nav[data-compact][data-search-open] .header-search-row {
+      display: flex;
+      padding-block: 0.5rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .header-tool {
+      display: none;
+    }
+  }
+
   .navigation-indicator {
     position: absolute;
     top: 0;

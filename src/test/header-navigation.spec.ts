@@ -171,7 +171,7 @@ test('short pages release immediately and resizing updates anchor clearance', as
   await page.setViewportSize({ height: 720, width: 375 });
   await expect
     .poll(async () => (await navigation.boundingBox())?.height ?? 0)
-    .toBeGreaterThan(desktop.height);
+    .toBeLessThan(desktop.height);
   await expect
     .poll(async () => {
       const height = (await navigation.boundingBox())?.height ?? 0;
@@ -185,7 +185,8 @@ test('short pages release immediately and resizing updates anchor clearance', as
     .toBeLessThan(1);
 });
 
-for (const width of [375, 1200]) {
+// Phones get the compact bar, which hides the moving underline.
+for (const width of [1200]) {
   test(`hover indicator follows links and returns home at ${width}px`, async ({
     page,
   }) => {
@@ -270,4 +271,57 @@ test('reduced motion removes navigation scaling, lift, and travel animation', as
   const line = await indicator.boundingBox();
   const target = await archive.boundingBox();
   expect(line?.y).toBeCloseTo((target?.y ?? 0) + (target?.height ?? 0) - 2, 0);
+});
+
+test('phone bar folds links and search behind toggles', async ({ page }) => {
+  await page.setViewportSize({ height: 720, width: 375 });
+  await page.goto('/archiv/');
+  const nav = page.locator('[data-header-navigation]');
+  const menu = nav.locator('[data-menu-toggle]');
+  const search = nav.locator('[data-search-toggle]');
+  const links = nav.locator('#header-links');
+  const searchRow = nav.locator('#header-search-row');
+  await expect(links).toBeHidden();
+  await expect(searchRow).toBeHidden();
+  const closed = await nav.boundingBox();
+  expect(closed?.height ?? 100).toBeLessThan(60);
+
+  await page.evaluate(() => scrollTo(0, 900));
+  const scrolled = await page.evaluate(() => scrollY);
+  // A direct click: Playwright's click scrolls the target into view first.
+  await menu.evaluate((node: HTMLElement) => node.click());
+  await expect(menu).toHaveAttribute('aria-expanded', 'true');
+  await expect(links).toBeVisible();
+  await expect(
+    links.getByRole('link', { exact: true, name: 'Archiv' }),
+  ).toHaveAttribute('aria-current', 'page');
+  // The panel overlays content, so the bar keeps its height and the page stays put.
+  expect((await nav.boundingBox())?.height).toBeCloseTo(closed?.height ?? 0, 0);
+  expect(await page.evaluate(() => scrollY)).toBe(scrolled);
+
+  await search.click();
+  await expect(menu).toHaveAttribute('aria-expanded', 'false');
+  await expect(links).toBeHidden();
+  await expect(searchRow).toBeVisible();
+  await expect(searchRow.locator('input').first()).toBeFocused();
+  await page.keyboard.press('Escape');
+  await expect(searchRow).toBeHidden();
+  await expect(search).toBeFocused();
+  await expect(search).toHaveAttribute('aria-label', 'Suche öffnen');
+});
+
+test('phone bar keeps the full navigation without JavaScript', async ({
+  browser,
+}) => {
+  const context = await browser.newContext({
+    javaScriptEnabled: false,
+    viewport: { height: 720, width: 375 },
+  });
+  const page = await context.newPage();
+  await page.goto('/archiv/');
+  const nav = page.locator('[data-header-navigation]');
+  await expect(nav.locator('#header-links')).toBeVisible();
+  await expect(nav.locator('[data-menu-toggle]')).toBeHidden();
+  await expect(nav.locator('[data-search-toggle]')).toBeHidden();
+  await context.close();
 });

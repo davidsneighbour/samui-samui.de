@@ -10,6 +10,7 @@ export function installStickyNavigation(): void {
     );
     if (!navigation) return;
     const cleanupIndicator = installNavigationIndicator(navigation);
+    const cleanupCompact = installCompactNavigation(navigation);
     const footer = document.querySelector<HTMLElement>('body > footer');
     const root = document.documentElement;
     let footerVisible = false;
@@ -50,6 +51,7 @@ export function installStickyNavigation(): void {
     cleanup = (): void => {
       active = false;
       cleanupIndicator();
+      cleanupCompact();
       footerObserver.disconnect();
       sizeObserver.disconnect();
       navigation.removeEventListener('focusin', updateFocus);
@@ -141,5 +143,73 @@ function installNavigationIndicator(navigation: HTMLElement): () => void {
     group.removeEventListener('focusout', focus);
     hoverPointer.removeEventListener('change', leave);
     reducedMotion.removeEventListener('change', resize);
+  };
+}
+
+/** On phones, fold links and search behind two toggles so the sticky bar stays one row. */
+function installCompactNavigation(navigation: HTMLElement): () => void {
+  const nav = navigation.querySelector<HTMLElement>('.header-nav');
+  const menuButton =
+    nav?.querySelector<HTMLButtonElement>('[data-menu-toggle]');
+  const searchButton = nav?.querySelector<HTMLButtonElement>(
+    '[data-search-toggle]',
+  );
+  if (!nav || !menuButton || !searchButton)
+    return () => {
+      /* No compact controls to clean up. */
+    };
+  const panels = [
+    {
+      attribute: 'data-menu-open',
+      button: menuButton,
+      closed: 'Menü öffnen',
+      open: 'Menü schließen',
+    },
+    {
+      attribute: 'data-search-open',
+      button: searchButton,
+      closed: 'Suche öffnen',
+      open: 'Suche schließen',
+    },
+  ] as const;
+  type Panel = (typeof panels)[number];
+
+  function set(panel: Panel, open: boolean): void {
+    nav?.toggleAttribute(panel.attribute, open);
+    panel.button.setAttribute('aria-expanded', String(open));
+    panel.button.setAttribute('aria-label', open ? panel.open : panel.closed);
+  }
+  function toggle(panel: Panel): void {
+    const open = !nav?.hasAttribute(panel.attribute);
+    for (const other of panels) set(other, other === panel && open);
+    if (open && panel.button === searchButton) {
+      // Pagefind renders its input asynchronously inside the searchbox.
+      requestAnimationFrame(() =>
+        nav?.querySelector<HTMLInputElement>('.header-search input')?.focus(),
+      );
+    }
+  }
+  const handlers = panels.map((panel) => {
+    const handler = (): void => toggle(panel);
+    panel.button.addEventListener('click', handler);
+    return { handler, panel };
+  });
+  function keydown(event: KeyboardEvent): void {
+    if (event.key !== 'Escape') return;
+    const panel = panels.find((item) => nav?.hasAttribute(item.attribute));
+    if (!panel) return;
+    set(panel, false);
+    panel.button.focus();
+  }
+  nav.addEventListener('keydown', keydown);
+  for (const panel of panels) panel.button.hidden = false;
+  nav.setAttribute('data-compact', '');
+
+  return () => {
+    for (const { handler, panel } of handlers) {
+      panel.button.removeEventListener('click', handler);
+      set(panel, false);
+    }
+    nav.removeEventListener('keydown', keydown);
   };
 }

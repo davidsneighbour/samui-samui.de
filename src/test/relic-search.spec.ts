@@ -153,6 +153,9 @@ test('header options stay collapsed and the field stays in one row after navigat
   for (const width of [1280, 390]) {
     await page.setViewportSize({ height: 800, width });
     const header = page.locator('.header-search');
+    // Phones fold the search field behind the bar's search toggle.
+    const toggle = page.locator('[data-search-toggle]');
+    if (await toggle.isVisible()) await toggle.click();
     await expect(header.locator('input[type="checkbox"]')).toBeHidden();
     const field = await header.locator('pagefind-searchbox').boundingBox();
     const options = await header.locator('summary').boundingBox();
