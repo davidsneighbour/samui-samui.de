@@ -30,6 +30,7 @@ const { instance = 'default' } = Astro.props;
 <script>
   import type { Instance, PagefindResultData } from '@pagefind/component-ui';
   import { getInstanceManager } from '@pagefind/component-ui';
+  import { searchResultCrumb } from '@utils/search-result-crumb';
 
   class RelicSearchFilter extends HTMLElement {
     instance: Instance | null = null;
@@ -76,8 +77,37 @@ const { instance = 'default' } = Astro.props;
           }
           const link = document.createElement('a');
           link.href = result.url;
-          link.textContent = result.meta['title'] ?? result.url;
+          const title = result.meta['title'] ?? result.url;
           link.className = dropdown ? 'pf-searchbox-result' : 'pf-result-link';
+          // The dropdown row: title (with relic label) and, for posts, the
+          // date on the right; below it a short location label such as
+          // "Blog › 2006 › Februar", so readers can tell posts from pages.
+          // Child elements carry no pf- class, because Pagefind resets
+          // those with `all: revert`.
+          let titleTarget: HTMLElement = link;
+          if (dropdown) {
+            const head = document.createElement('span');
+            head.className = 'flex items-baseline justify-between gap-3';
+            const titleText = document.createElement('span');
+            titleText.className = 'min-w-0';
+            titleText.textContent = title;
+            head.append(titleText);
+            const date = result.meta['date'];
+            if (date) {
+              const dateText = document.createElement('span');
+              dateText.className =
+                'shrink-0 text-xs text-muted-foreground tabular-nums';
+              dateText.textContent = date;
+              head.append(dateText);
+            }
+            const crumb = document.createElement('span');
+            crumb.className = 'block text-xs text-muted-foreground';
+            crumb.textContent = searchResultCrumb(result.url).join(' › ');
+            link.append(head, crumb);
+            titleTarget = titleText;
+          } else {
+            link.textContent = title;
+          }
           if (dropdown) {
             link.id = instance.generateId('relic-search-result');
             link.setAttribute('role', 'option');
@@ -87,7 +117,10 @@ const { instance = 'default' } = Astro.props;
           if (result.meta['relic'] === 'true') {
             const indicator =
               this.querySelector('template')?.content.cloneNode(true);
-            if (indicator) (dropdown ? link : item).append(indicator);
+            if (indicator) {
+              if (dropdown) titleTarget.append(' ', indicator);
+              else item.append(indicator);
+            }
           }
           const excerpt = document.createElement('p');
           // Extract text only; the Pagefind excerpt includes trusted highlight markup.

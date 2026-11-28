@@ -12,9 +12,15 @@ The website uses [Pagefind](https://pagefind.app/) for static search. The search
 
 Pagefind indexes every built page. Site chrome (header, navigation, footer, notices) is excluded with `data-pagefind-ignore` in the shared layout. Do not use `data-pagefind-body`: as soon as one page carries it, Pagefind indexes only the pages that carry it. From October to November 2026, `/ueber-mich/` and `/digitale-archaeologie/` used it, and the live index held only those two pages. `src/test/pagefind-body.test.ts` fails if the attribute returns.
 
+## Header dropdown results
+
+The header dropdown result template lives in `RelicSearchFilter.astro`. Each result shows the title (with the relic label where it applies), the post date on the right (from the `date` Pagefind meta, so only posts show one), and a short location label below it, built by `src/utils/search-result-crumb.ts` from the URL: `Blog › 2006 › Februar` for posts, `Archiv › Themen` for archive pages, `Über mich` and similar for standalone pages, and `Seite` for anything unmapped. Add new top-level sections to that file's `SECTIONS` map. The `/suche/` result list does not use these extras.
+
 ## Text colour and spellcheck
 
 Pagefind resets its custom elements with `all: initial` and `color: CanvasText`. Because `all: initial` also resets `color-scheme`, CanvasText follows the visitor's operating system, so result titles turned white on the light search surfaces for visitors with a dark OS ([#1885](https://github.com/davidsneighbour/samui-samui.de/issues/1885)). `src/styles/theme.css` sets these elements to `--color-card-foreground`.
+
+Pagefind's stylesheet also sets its `--pf-*` defaults on `:root` and loads after the site theme. The site's mappings therefore live in `:root:root` and `:root:root.dark` blocks in `theme.css`, so they win; before that, for example, the selected dropdown result had Pagefind's blue `#0969da` outline instead of the site ring colour ([#1886](https://github.com/davidsneighbour/samui-samui.de/issues/1886)).
 
 The header, `/suche/`, and `/archiv/` search containers set `spellcheck="false"`. The attribute is inherited by Pagefind's input, so the browser spellchecker and grammar extensions such as Harper (which skips text inputs whose effective `spellcheck` is false) do not underline search queries.
 
