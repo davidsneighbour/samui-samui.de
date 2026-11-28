@@ -6,6 +6,8 @@ MapLibre is the renderer. OpenFreeMap supplies the initial hosted style document
 
 The mapcn-style primitive lives at `src/components/ui/map.tsx`. It exposes `MapCanvas`, `MapMarker`, `MarkerContent`, `MarkerPopup`, and `MapControls` wrappers for MapLibre. The contact-page implementation lives at `src/components/features/contact/ContactMap.tsx` and is hydrated from `/kontakt/` with `client:visible`, so it is displayed inline below the contact form rather than opened from a button.
 
+When the map island unmounts (for example on a view-transition navigation away from `/kontakt/`), `MapCanvas` calls `map.remove()`, which already removes every control. `MapControls` therefore removes its control only while `map.hasControl(control)` is true; a second `removeControl` throws inside MapLibre. `src/test/map-navigation.spec.ts` checks that leaving `/kontakt/` logs no such error ([#1870](https://github.com/davidsneighbour/samui-samui.de/issues/1870)).
+
 Import MapLibre through a namespace import (`import * as MapLibreGL from 'maplibre-gl'`) plus type-only named imports. MapLibre 6 no longer exposes the old default export shape used by earlier versions. The component also imports `maplibre-gl/dist/maplibre-gl-worker.mjs?url` and passes it to `MapLibreGL.setWorkerUrl()` so Vite serves a real module-worker asset instead of relying on MapLibre's default `import.meta.url` worker lookup inside an optimized dependency.
 
 Map coordinates in data files are stored as named `latitude` and `longitude` fields, but MapLibre calls must always receive coordinates in `[longitude, latitude]` order.

@@ -426,7 +426,11 @@ export function MapControls({
     });
     map.addControl(control, position);
     return () => {
-      map.removeControl(control);
+      // When the whole map unmounts, MapCanvas's cleanup (`map.remove()`)
+      // already removed every control. Removing it again throws inside
+      // MapLibre's control `onRemove`, so only remove a control that is
+      // still attached (for example after a prop change).
+      if (map.hasControl(control)) map.removeControl(control);
     };
   }, [map, position, showCompass, showZoom]);
 
