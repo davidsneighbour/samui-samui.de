@@ -101,5 +101,8 @@
   },
   "peacock.color": "#e2e2b6",
   "markdown.extension.print.theme": "dark",
-  "markdown.validate.enabled": false
+  "markdown.validate.enabled": false,
+  "vale.valeCLI.config": "${workspaceFolder}/.vale.ini",
+  "vale.valeCLI.noGlobal": true,
+  "vale.valeCLI.path": "${workspaceFolder}/node_modules/.bin/vale"
 }

@@ -105,6 +105,8 @@ Rule-writing notes:
 * Vale does not match inside longer compounds (`Müllfoto` is not reported). Add a compound explicitly if it matters.
 * Proper names that contain a modern spelling go into `TokenIgnores` in `.vale.ini` (for example `Fantastischen Vier`). For a one-off exception, wrap the passage in `<!-- vale off -->` and `<!-- vale on -->`.
 * Every Vale call in this repository uses `--no-global`. Without it, Vale merges a global `~/.config/vale/.vale.ini` into the project configuration, so personal styles (and their missing dictionaries) break the project checks and tests.
+* In VS Code, `.vscode/settings.json` makes the Vale extension (`chrischinchilla.vale-vscode`) work the same way: `vale.valeCLI.config` points at the project `.vale.ini`, `vale.valeCLI.noGlobal` is `true`, and `vale.valeCLI.path` uses the repository's Vale binary. These workspace settings replace a user-level `vale.valeCLI.config`. Without them, the editor uses the English global styles and marks ordinary German words such as `ein` or `Reisepass` as spelling errors.
+* The `SamuiDE` style applies only to Markdown below `src/content`, where all content is German. The section glob is `**/src/content/**/*.md`, so it also matches the absolute paths that editors pass to Vale. Markdown in `documentation/` and other English files get no Vale style from this project.
 * MDX is not linted, because Vale needs the external `mdx2vast` parser for it and the archive has only one MDX file.
 
 ## Grammar layer
