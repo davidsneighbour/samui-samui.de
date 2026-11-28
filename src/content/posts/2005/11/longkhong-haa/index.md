@@ -1,5 +1,5 @@
 ---
-title: LongKhong ???
+title: LongKhong ๕
 date: 2005-11-17T07:13:00+07:00
 lastmod: 2023-09-10T19:14:12+07:00
 publisher:
@@ -12,8 +12,13 @@ publisher:
 ---
 ![](/wp-content/old-images/191.jpg)
 
-Long Khong (mein neuer Lieblingsfilm der demnächst rauskommt) hat sogar eine Handlung: Es geht um sechs Teenager, die nach dem Schulabschluss wieder zusammen kommen und ihre alte Lehrerin besuchen wollen. Auf diesem Besuch (Achtung, jetzt kommts, absolut neu und in keinem anderen Film vorkommend) enthüllen sie ein grausames Geheimnis. **schauder**
+Long Khong (mein neuer Lieblingsfilm, der demnächst rauskommt) hat sogar eine Handlung: Es geht um sechs Teenager, die nach dem Schulabschluss wieder zusammen kommen und ihre alte Lehrerin besuchen wollen. Auf diesem Besuch (Achtung, jetzt kommts, absolut neu und in keinem anderen Film vorkommend) enthüllen sie ein grausames Geheimnis. **schauder**
 
 Trifft sich irgendwie, dass ich demnächst mal wieder nach Bangkok wollte, da findet sich bestimmt was in den VCDheken.
 
-Das war übrigens das fünfte und letzte Plakat zum Film. Jetzt hab ich nur noch Photos. Mal sehen ob ich die online stelle oder gleich ne Fansite aufmache.
+Das war übrigens das fünfte und letzte Plakat zum Film. Jetzt hab ich nur noch Photos. Mal sehen, ob ich die online stelle oder gleich ne Fansite aufmache.
+
+<!-- cspell:ignore kommts schauder Dheken Fansite -->
+<!-- grammar-ignore RAN_RUM_RAUF_REIN_RAUS_RUNTER_NEU rauskommt -->
+<!-- grammar-ignore ICH_LIEBS kommts -->
+<!-- grammar-ignore UPPERCASE_SENTENCE_START schauder -->

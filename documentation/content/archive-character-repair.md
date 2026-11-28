@@ -63,10 +63,10 @@ Repeated question marks are not automatically errors. The following inventory li
 | `2005/09/socializing-nach-graumeister-art` | Preserve rhetorical questions, disbelief, or parenthetical doubt. |
 | `2005/11/infiltration` | Unresolved script (Thai or Chinese); recover the original source. Other rhetorical punctuation in these posts is preserved. |
 | `2005/11/longkhong-3` | Repaired to the attested film name `Long Khong`; see the sourced reconstruction batch below. |
-| `2005/11/longkhong-haa` | Unresolved transliteration or title; original spelling cannot be established from context. |
+| `2005/11/longkhong-haa` | Resolved: owner confirmed the title `LongKhong ๕` (Thai numeral 5, read "haa"). |
 | `2005/11/you-romantic-man` | Resolved in `ff683c2ba372`: `Cherng ra??k` became `Cherng rak`. |
 | `2005/12/letzte-tage` | Unresolved script (Thai or Chinese); recover the original source. Other rhetorical punctuation in these posts is preserved. |
-| `2006/01/happynewyear` | Unresolved script (Thai or Chinese); recover the original source. Other rhetorical punctuation in these posts is preserved. |
+| `2006/01/happynewyear` | Resolved: owner confirmed the Chinese lunar-calendar characters `狗` (dog) and `火狗` (fire dog). |
 | `2006/03/das-neue` | Preserve rhetorical questions, disbelief, or parenthetical doubt. |
 | `2006/03/meine-verschwoerungstheorie-des-tages` | Replaced the damaged transliteration with the attested spelling `Mahmoud Ahmadinejad`; see below. |
 | `2006/06/oleeeeh-oleh-oleh-oleeeh-endzeit` | Preserve unanswered match-table placeholders; do not invent historical scores. |
@@ -113,7 +113,7 @@ The second 2026-10-10 batch repairs five damaged spans in four posts. These are 
 
 The edited posts also receive required spelling, capitalisation, comma, and agreement corrections. Proper names, the film title's initial capital, informal `rum`, the stage direction `zwinker`, and deliberate repetition of `nun` use narrow per-post language-check exceptions. Dates, slugs, and taxonomy values are preserved.
 
-Still unresolved under this issue: the title `LongKhong ???` in `longkhong-haa`, and the Chinese characters `(???)` and `Feuerhund (??????)` in `2006/01/happynewyear`. `Cherng ra??k mak maak!` in `you-romantic-man` became `Cherng rak mak maak!` in `ff683c2ba372`. The fifth-poster context and `haa` slug do not prove the title's original characters. Repeated rhetorical question marks and unanswered match-table placeholders remain intentional contextual decisions. Damaged Thai passages, including the replacement characters (U+FFFD) in `fu-noi`, remain under [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706). No blanket replacement of question marks is used.
+On 2026-11-28 the owner confirmed the last two cases: the title `LongKhong ๕` in `longkhong-haa`, and `(狗)` and `Feuerhund (火狗)` in `2006/01/happynewyear`. Nothing is unresolved under this issue. `Cherng ra??k mak maak!` in `you-romantic-man` became `Cherng rak mak maak!` in `ff683c2ba372`. The fifth-poster context and `haa` slug do not prove the title's original characters. Repeated rhetorical question marks and unanswered match-table placeholders remain intentional contextual decisions. Damaged Thai passages, including the replacement characters (U+FFFD) in `fu-noi`, remain under [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706). No blanket replacement of question marks is used.
 
 The staged link check found a confirmed HTTP 404 for the old Thai2English dictionary entry and a connection failure for the old Nation horoscope. Wayback availability requests for both exact URLs returned no snapshots. Both visible phrases are preserved, with the original URLs and observed check results in named historical-source footnotes following [Link checking](../link-checking.md). A connection failure is not treated as proof of permanent source loss.
 

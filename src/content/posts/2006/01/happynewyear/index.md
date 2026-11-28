@@ -14,10 +14,8 @@ publisher:
 
 Happy New Year!
 
-2006 ist das [Jahr des Hundes][1] (???) und wohlvorbereitet gehen wir hinein. Dieses Jahr [spielt ein wenig Feuer mit][2]. Feuerhund (??????) also. Na denn.
+2006 ist das [Jahr des Hundes][1] (狗) und wohlvorbereitet gehen wir hinein. Dieses Jahr [spielt ein wenig Feuer mit][2]. Feuerhund (火狗) also. Na denn.
 
  [1]: http://de.wikipedia.org/wiki/Jahr_des_Hundes
  [2]: http://de.wikipedia.org/wiki/Chinesischer_Kalender
 
-<!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN ??? -->
-<!-- grammar-ignore DOPPELTES_AUSRUFEZEICHEN ?????? -->
