@@ -10,7 +10,7 @@ The local author portrait uses Astro's `Image` component. It occupies the full p
 
 ## Discovery and indexing
 
-The page is linked from the shared main navigation and the article author block. It uses the standard canonical metadata and has no `noindex` directive or sitemap exclusion. Its prose carries `data-pagefind-body` so local search indexes the biography rather than the shared navigation and footer. Rebuild the search index with `npm run build:nocache` when changing these indexing attributes: the automatic Pagefind cache primarily tracks `src/content/**`, and this standalone page lives under `src/pages/`.
+The page is linked from the shared main navigation and the article author block. It uses the standard canonical metadata and has no `noindex` directive or sitemap exclusion. Like every page, it is indexed whole; the shared layout keeps the navigation and footer out of the index with `data-pagefind-ignore`. It must not use `data-pagefind-body`: once any page carries that attribute, Pagefind indexes only such pages, and in 2026 this removed the whole archive from the search (see [Search](search.md#indexing-scope)). Rebuild the search index with `npm run build:nocache` when changing these indexing attributes: the automatic Pagefind cache primarily tracks `src/content/**`, and this standalone page lives under `src/pages/`.
 
 ## Later editorial development
 

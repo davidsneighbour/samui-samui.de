@@ -8,6 +8,10 @@ The website uses [Pagefind](https://pagefind.app/) for static search. The search
 * `src/pages/archiv/index.astro` also uses a compact `<pagefind-searchbox>` on the archive page.
 * `src/styles/theme.css` maps Pagefind `--pf-*` variables onto the existing color, font, radius, and focus values from `DESIGN.md`. Do not invent Pagefind-only colors there.
 
+## Indexing scope
+
+Pagefind indexes every built page. Site chrome (header, navigation, footer, notices) is excluded with `data-pagefind-ignore` in the shared layout. Do not use `data-pagefind-body`: as soon as one page carries it, Pagefind indexes only the pages that carry it. From October to November 2026, `/ueber-mich/` and `/digitale-archaeologie/` used it, and the live index held only those two pages. `src/test/pagefind-body.test.ts` fails if the attribute returns.
+
 ## Index cache
 
 The Astro Pagefind hook in `src/scripts/integrations/pagefind.ts` no longer rebuilds the index on every build. It calculates a hash over `src/content/**`, `src/layouts/**`, `src/components/**`, `src/pages/**`, `src/data/video-media.json`, the Pagefind version, and the Pagefind index configuration.
