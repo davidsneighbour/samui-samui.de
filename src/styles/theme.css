@@ -118,7 +118,15 @@
   --iumas-logo: #3f6b52;
   --iumas-subtitle: #5a3d8f;
   --iumas-image: #2f6f8f;
+}
 
+/*
+ * Pagefind component UI tokens. @pagefind/component-ui sets its defaults on
+ * :root and loads after this file, so a plain :root here would lose (for
+ * example its blue #0969da focus outline replaced the site ring). The
+ * doubled :root raises specificity so these mappings win. See #1886.
+ */
+:root:root {
   --pf-text: var(--color-card-foreground);
   --pf-text-secondary: var(--color-muted-foreground);
   --pf-text-muted: var(--color-muted-foreground);
@@ -183,7 +191,15 @@
   --ring-contrast: #f1ecd8;
 
   --masthead-tagline: #e2e2b6;
+}
 
+/*
+ * Pagefind component UI tokens. @pagefind/component-ui sets its defaults on
+ * :root and loads after this file, so a plain :root here would lose (for
+ * example its blue #0969da focus outline replaced the site ring). The
+ * doubled :root raises specificity so these mappings win. See #1886.
+ */
+:root:root.dark {
   --pf-scroll-shadow: rgb(41 14 28 / 0.18);
   --pf-shadow-sm: 0 2px 8px rgb(41 14 28 / 0.12);
   --pf-shadow-md: 0 8px 18px rgb(41 14 28 / 0.16);
