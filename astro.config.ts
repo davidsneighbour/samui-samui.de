@@ -77,23 +77,11 @@ export default defineConfig({
       namespaces: { image: false, news: false, video: false, xhtml: false },
       xslURL: '/feeds/sitemap.xsl',
     }),
-    icon({
-      iconDir: 'src/assets/icons',
-      svgoOptions: {
-        multipass: true,
-        plugins: [
-          {
-            name: 'preset-default',
-            params: {
-              overrides: {
-                removeComments: { preservePatterns: false },
-                removeDoctype: true,
-              },
-            },
-          },
-        ],
-      },
-    }),
+    // Icons come from the installed Iconify sets (@iconify-json/*). astro-icon
+    // cannot switch off its local SVG folder and warns (and skips writing the
+    // icon-name types) when the folder is missing, so src/assets/icons exists
+    // with only a .gitkeep.
+    icon({ iconDir: 'src/assets/icons' }),
     pagefind({ indexConfig: { keepIndexUrl: true } }),
     react(),
   ],
