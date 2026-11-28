@@ -1,5 +1,59 @@
 # Changelog
 
+## [3.5.0](https://github.com/davidsneighbour/samui-samui.de/compare/v3.4.0...v3.5.0) (2026-11-28)
+
+### Content
+
+* **fix:** mark Der Chef as a partial relic ([4b26708](https://github.com/davidsneighbour/samui-samui.de/commit/4b26708c30f77d5a7d361392f9ae8170c1798352)), closes [#1807](https://github.com/davidsneighbour/samui-samui.de/issues/1807)
+* **fix:** restore the last characters broken by the archive import ([638a244](https://github.com/davidsneighbour/samui-samui.de/commit/638a244f1e622d7db3aa08de597d1d76484e93a8)), closes [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781)
+* **fix:** use German dates in passport-index citations ([e66d684](https://github.com/davidsneighbour/samui-samui.de/commit/e66d68414dc3a7315450945380e40b50d23731fa)), closes [#1739](https://github.com/davidsneighbour/samui-samui.de/issues/1739)
+
+### Feat
+
+* **contact:** highlight field icons in coral while the field has focus ([775d7de](https://github.com/davidsneighbour/samui-samui.de/commit/775d7dea064c0388f0a00bdd7cba98ee398bc245)), closes [#1889](https://github.com/davidsneighbour/samui-samui.de/issues/1889)
+* **header:** fold the phone navigation into one sticky row ([eb8485c](https://github.com/davidsneighbour/samui-samui.de/commit/eb8485c5b521796cb199ccbef5ffa68908adecba)), closes [#1890](https://github.com/davidsneighbour/samui-samui.de/issues/1890)
+* **lint:** add check:language for single posts ([6e60c89](https://github.com/davidsneighbour/samui-samui.de/commit/6e60c89b9c84278c7a3ff5c4570fedc71efa83fb)), closes [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774)
+* **search:** close the search options popup on an outside click ([fee100b](https://github.com/davidsneighbour/samui-samui.de/commit/fee100b31f5829aafd75cfae5137dc6a74e9d715)), closes [#1881](https://github.com/davidsneighbour/samui-samui.de/issues/1881)
+* **search:** link digitale Relikte inside the relic option label ([7fc199b](https://github.com/davidsneighbour/samui-samui.de/commit/7fc199b3cf47f6d294faffb59e0dfaa61548a1f0)), closes [#1880](https://github.com/davidsneighbour/samui-samui.de/issues/1880)
+* **search:** show date and location label in header results ([c52b681](https://github.com/davidsneighbour/samui-samui.de/commit/c52b6819e324c359e2a891837eb4cca00c8d3866)), closes [#1887](https://github.com/davidsneighbour/samui-samui.de/issues/1887)
+* **search:** use the options popup in the archive search ([2b17124](https://github.com/davidsneighbour/samui-samui.de/commit/2b1712485355a23bf0cc2037f6792fc04bd0a39f)), closes [#1888](https://github.com/davidsneighbour/samui-samui.de/issues/1888)
+
+### Fix
+
+* **icons:** keep an empty local icon folder for astro-icon ([bd81719](https://github.com/davidsneighbour/samui-samui.de/commit/bd817193e8529b2b2c3f63db0934a583ccc1deb1)), closes [#1882](https://github.com/davidsneighbour/samui-samui.de/issues/1882)
+* **map:** skip removing controls that the map already removed ([c4faa28](https://github.com/davidsneighbour/samui-samui.de/commit/c4faa28a913229953a51a7f76c5302e8ea6fedd2)), closes [#1870](https://github.com/davidsneighbour/samui-samui.de/issues/1870)
+* **search:** index the whole site again ([6e3cc42](https://github.com/davidsneighbour/samui-samui.de/commit/6e3cc428e64c0c55cffbe43111660c226b5180a1)), closes [#1884](https://github.com/davidsneighbour/samui-samui.de/issues/1884)
+* **search:** keep result titles dark and switch off spellcheck ([b63a2aa](https://github.com/davidsneighbour/samui-samui.de/commit/b63a2aa4123b0f3d89d253dc5de1b72e419882da)), closes [#1885](https://github.com/davidsneighbour/samui-samui.de/issues/1885)
+* **search:** let the site's Pagefind tokens win over Pagefind defaults ([7cec267](https://github.com/davidsneighbour/samui-samui.de/commit/7cec267acc4a41eb4fd845ef05e12acdabc55b2e)), closes [#1886](https://github.com/davidsneighbour/samui-samui.de/issues/1886), references [#0969da](https://github.com/davidsneighbour/samui-samui.de/issues/0969da)
+* **search:** make the archive options icon visible ([78e8987](https://github.com/davidsneighbour/samui-samui.de/commit/78e8987f1333e273adff71193ddd420976fbf1bd)), closes [#1888](https://github.com/davidsneighbour/samui-samui.de/issues/1888)
+* **thumbnails:** format video-media.json on write ([f506ee2](https://github.com/davidsneighbour/samui-samui.de/commit/f506ee2503f58a3c97a19124eec3d9cab1a0de56)), closes [#1877](https://github.com/davidsneighbour/samui-samui.de/issues/1877)
+* use davidsneighbour.dev as the DNB domain ([fb05474](https://github.com/davidsneighbour/samui-samui.de/commit/fb054740e5fe7564db5f3e098525e50efba7daac)), closes [#1869](https://github.com/davidsneighbour/samui-samui.de/issues/1869)
+* **vale:** use the German project config in VS Code ([bcecc4b](https://github.com/davidsneighbour/samui-samui.de/commit/bcecc4bf5948f2a846838573c2214d4f9b32b04d)), closes [#1878](https://github.com/davidsneighbour/samui-samui.de/issues/1878)
+
+### Refactor
+
+* **icons:** replace astro-icon with simple-icons ([3d9a41f](https://github.com/davidsneighbour/samui-samui.de/commit/3d9a41f4638821e1afe6ca95e8cb1c90405bdd5b)), closes [#1883](https://github.com/davidsneighbour/samui-samui.de/issues/1883)
+
+### Docs
+
+* capture product context for design work ([1d06359](https://github.com/davidsneighbour/samui-samui.de/commit/1d063592807a5a5ce000948c92f4102af718b8c5)), references [#1891](https://github.com/davidsneighbour/samui-samui.de/issues/1891)
+* **content:** record the resolved you-romantic-man repair ([a23ab9d](https://github.com/davidsneighbour/samui-samui.de/commit/a23ab9d34ae5dba48138bf8b046428d63dfb42c1)), references [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781) [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781)
+* **search:** record Pagefind text colour and spellcheck setup ([234740b](https://github.com/davidsneighbour/samui-samui.de/commit/234740be3bbe350a0a2063827a8df9dbada005aa)), references [#1885](https://github.com/davidsneighbour/samui-samui.de/issues/1885)
+
+### Test
+
+* **search:** measure the header row against its tallest item ([8844d64](https://github.com/davidsneighbour/samui-samui.de/commit/8844d6430803d607d5278aab34240b4beafd09d7)), closes [#1879](https://github.com/davidsneighbour/samui-samui.de/issues/1879)
+* **vale:** lint orthography samples as src/content files ([10580a7](https://github.com/davidsneighbour/samui-samui.de/commit/10580a7545aa5757b1c38255f6f6b19464fc6d43)), references [#1878](https://github.com/davidsneighbour/samui-samui.de/issues/1878)
+
+### Build
+
+* **deps:** update dependencies ([54346fc](https://github.com/davidsneighbour/samui-samui.de/commit/54346fc636a452d52a149af4b8a82fa87cd4b8af))
+
+### Chore
+
+* **impeccable:** enable design hooks ([5855fac](https://github.com/davidsneighbour/samui-samui.de/commit/5855facf17caa6b44d0901b2300e475ef32d7035)), references [#1891](https://github.com/davidsneighbour/samui-samui.de/issues/1891)
+* **worker:** regenerate Worker types for Wrangler 4.169 ([e069b2b](https://github.com/davidsneighbour/samui-samui.de/commit/e069b2b164601aae37a9996ac2431c76c9421ec8)), references [#1883](https://github.com/davidsneighbour/samui-samui.de/issues/1883)
+
 ## [3.4.0](https://github.com/davidsneighbour/samui-samui.de/compare/v3.3.1...v3.4.0) (2026-11-27)
 
 ### Instructions
