@@ -372,6 +372,13 @@ html {
   --pf-searchbox-max-width: none;
 }
 
+/* Pagefind replaces the host element's class attribute when it renders, so
+   size the archive search field here; the options button sits to its right. */
+.pagefind-archive-search pagefind-searchbox {
+  flex: 1 1 0%;
+  min-width: 0;
+}
+
 .pagefind-search-page {
   display: grid;
   gap: 1rem;

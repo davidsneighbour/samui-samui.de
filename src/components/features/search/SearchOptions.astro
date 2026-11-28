@@ -1,0 +1,46 @@
+---
+/**
+ * Cog button with a popup for search options, placed to the right of a
+ * Pagefind search field (header and /archiv/). The popup holds the relic
+ * filter for the given Pagefind instance. The surrounding container must
+ * carry `data-search-root`, so the filter finds its search field.
+ */
+import RelicSearchFilter from '@components/features/search/RelicSearchFilter.astro';
+import { Cog } from '@lucide/astro';
+
+interface Props {
+  instance?: string;
+}
+const { instance = 'default' } = Astro.props;
+---
+
+<details class="search-options shrink-0 text-sm text-foreground">
+  <summary
+    class="inline-flex size-11 cursor-pointer list-none items-center justify-center rounded-(--radius) text-foreground/85 transition-[background-color,color,scale] duration-150 ease-out hover:bg-accent hover:text-accent-foreground focus-visible:focus-ring active:scale-[0.96] [&::-webkit-details-marker]:hidden"
+    aria-label="Suchoptionen"
+    title="Suchoptionen"
+  >
+    <Cog
+      class="size-5"
+      aria-hidden="true"
+    />
+  </summary>
+  <div
+    class="absolute right-0 top-full z-50 w-max max-w-[calc(100vw-2rem)] rounded-(--radius) border border-border bg-card p-4 text-card-foreground"
+  >
+    <RelicSearchFilter instance={instance} />
+  </div>
+</details>
+
+<script>
+  // Close an open search options popup on a click outside it. The listener
+  // sits on document and looks the popups up per click, so it keeps working
+  // after view-transition navigations swap the page.
+  document.addEventListener('click', (event) => {
+    for (const options of document.querySelectorAll<HTMLDetailsElement>(
+      'details.search-options[open]',
+    )) {
+      if (!options.contains(event.target as Node)) options.open = false;
+    }
+  });
+</script>

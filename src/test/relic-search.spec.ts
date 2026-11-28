@@ -104,8 +104,14 @@ for (const [url, instance] of [
     await expect(
       surface.getByRole('option', { name: /Partial fixture/ }),
     ).toBeVisible();
-    if (instance === 'default')
-      await page.locator('.header-search summary').click();
+    // Both the header and /archiv/ keep the option in a popup.
+    await page
+      .locator(
+        instance === 'default'
+          ? '.header-search summary'
+          : '.pagefind-archive-search summary',
+      )
+      .click();
     await page
       .locator(`relic-search-filter[data-instance="${instance}"] input`)
       .check();
@@ -210,4 +216,25 @@ test('a click outside the header search options closes them', async ({
     await page.locator('main').click({ position: { x: 5, y: 5 } });
     await expect(options).not.toHaveAttribute('open');
   }
+});
+
+test('archive search has the options button right of the field and a popup', async ({
+  page,
+}) => {
+  await page.setViewportSize({ height: 900, width: 1280 });
+  await page.goto('/archiv/');
+  const root = page.locator('.pagefind-archive-search');
+  const field = await root.locator('pagefind-searchbox').boundingBox();
+  const button = root.locator('summary');
+  await expect(button).toHaveAccessibleName('Suchoptionen');
+  const cog = await button.boundingBox();
+  expect(cog!.x).toBeGreaterThanOrEqual(field!.x + field!.width);
+  const checkbox = root.getByRole('checkbox', {
+    name: 'Auch digitale Relikte durchsuchen',
+  });
+  await expect(checkbox).toBeHidden();
+  await button.click();
+  await expect(checkbox).toBeVisible();
+  await page.locator('h2').first().click();
+  await expect(checkbox).toBeHidden();
 });

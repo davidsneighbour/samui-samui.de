@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import FormattedDate from '@components/content/date/FormattedDate.astro';
 import SiteAge from '@components/content/date/SiteAge.astro';
-import RelicSearchFilter from '@components/features/search/RelicSearchFilter.astro';
+import SearchOptions from '@components/features/search/SearchOptions.astro';
 import ArchiveNav from '@components/layout/navigation/ArchiveNav.astro';
 import Breadcrumbs from '@components/layout/navigation/Breadcrumbs.astro';
 import Accordion from '@components/ui/accordion.astro';
@@ -226,21 +226,22 @@ const curatedThemen = themaGroups.slice(0, 12);
       dem Inselleben.
     </p>
     <div
-      class="pagefind-archive-search"
+      class="pagefind-archive-search relative flex items-center gap-2"
       spellcheck="false"
+      data-search-root
     >
       <pagefind-config
         instance="archive"
         bundle-path="/pagefind/"
         base-url="/"
       ></pagefind-config>
-      <RelicSearchFilter instance="archive" />
       <pagefind-searchbox
         instance="archive"
         placeholder="Archiv durchsuchen"
         max-results="8"
         hide-shortcut
       ></pagefind-searchbox>
+      <SearchOptions instance="archive" />
     </div>
   </section>
 

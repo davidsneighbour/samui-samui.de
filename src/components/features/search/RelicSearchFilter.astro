@@ -19,7 +19,7 @@ const { instance = 'default' } = Astro.props;
       Auch
       <a
         href="/digitale-archaeologie/"
-        class="text-link underline focus-ring"
+        class="text-link underline focus-visible:focus-ring"
         >digitale Relikte</a
       >
       durchsuchen
@@ -59,7 +59,7 @@ const { instance = 'default' } = Astro.props;
         instance.triggerFilter('relic', input.checked ? [] : ['false']),
       );
       const surface = (
-        this.closest('.header-search') ?? this.parentElement
+        this.closest('[data-search-root]') ?? this.parentElement
       )?.querySelector('pagefind-results, pagefind-searchbox');
       if (!surface) return;
       const setup = () => {

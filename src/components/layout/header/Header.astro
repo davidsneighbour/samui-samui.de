@@ -3,7 +3,7 @@ import wordmark from '@assets/brand/samui/panton-wordmark.json';
 import symbolSvg from '@assets/brand/samui/selected/symbol-reversed.svg?raw';
 import detailSvg from '@assets/brand/samui/svg/symbol-detail-white.svg?raw';
 import PagefindComponentUi from '@components/features/search/PagefindComponentUi.astro';
-import RelicSearchFilter from '@components/features/search/RelicSearchFilter.astro';
+import SearchOptions from '@components/features/search/SearchOptions.astro';
 import ConstructionBanner from '@components/layout/header/ConstructionBanner.astro';
 import HeaderLink from '@components/layout/header/HeaderLink.astro';
 import ThemeToggle from '@components/layout/header/ThemeToggle.astro';
@@ -12,7 +12,6 @@ import {
   AtSign,
   Birdhouse,
   CircleQuestionMark,
-  Cog,
   Landmark,
   SquareUser,
 } from '@lucide/astro';
@@ -259,6 +258,7 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
       <div
         class="header-search relative flex min-w-0 flex-1 items-center gap-2"
         spellcheck="false"
+        data-search-root
         data-pagefind-ignore="all"
       >
         <pagefind-config
@@ -270,23 +270,7 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
           max-results="6"
           hide-shortcut
         ></pagefind-searchbox>
-        <details class="search-options shrink-0 text-sm text-foreground">
-          <summary
-            class="inline-flex size-11 cursor-pointer list-none items-center justify-center rounded-(--radius) text-foreground/85 transition-[background-color,color,scale] duration-150 ease-out hover:bg-accent hover:text-accent-foreground focus-visible:focus-ring active:scale-[0.96] [&::-webkit-details-marker]:hidden"
-            aria-label="Suchoptionen"
-            title="Suchoptionen"
-          >
-            <Cog
-              class="size-5"
-              aria-hidden="true"
-            />
-          </summary>
-          <div
-            class="absolute right-0 top-full z-50 w-max max-w-[calc(100vw-2rem)] rounded-(--radius) border border-border bg-card p-4 text-card-foreground"
-          >
-            <RelicSearchFilter />
-          </div>
-        </details>
+        <SearchOptions />
       </div>
     </div>
     <div class="order-2 justify-self-end md:order-3">
@@ -302,18 +286,6 @@ if (!symbolPath) throw new Error('The selected island symbol needs a path.');
   import { installStickyNavigation } from '@scripts/header-navigation';
 
   installStickyNavigation();
-
-  // Close the search options popup on a click outside it. The listener sits
-  // on document and looks the popup up per click, so it keeps working after
-  // view-transition navigations swap the header.
-  document.addEventListener('click', (event) => {
-    const options = document.querySelector<HTMLDetailsElement>(
-      'details.search-options[open]',
-    );
-    if (options && !options.contains(event.target as Node)) {
-      options.open = false;
-    }
-  });
 
   trackPagefindSearch(getInstanceManager().getInstance('default'));
 </script>
