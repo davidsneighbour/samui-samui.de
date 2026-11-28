@@ -46,10 +46,10 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
   <div class="mt-4 grid gap-4 sm:grid-cols-2">
     <div class="grid gap-2">
       <Label for="contact-name">Name</Label>
-      <div class="relative">
+      <div class="group relative">
         <UserPen
           aria-hidden="true"
-          class="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground"
+          class="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground transition-colors duration-150 ease-out group-focus-within:text-ring"
         />
         <Input
           id="contact-name"
@@ -67,10 +67,10 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
     </div>
     <div class="grid gap-2">
       <Label for="contact-email">Email</Label>
-      <div class="relative">
+      <div class="group relative">
         <MailQuestionMark
           aria-hidden="true"
-          class="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground"
+          class="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground transition-colors duration-150 ease-out group-focus-within:text-ring"
         />
         <Input
           id="contact-email"
@@ -90,10 +90,10 @@ const turnstileSiteKey = import.meta.env['TURNSTILE_SITE_KEY'];
   </div>
   <div class="mt-4 grid gap-2">
     <Label for="contact-message">Nachricht</Label>
-    <div class="relative">
+    <div class="group relative">
       <MessageSquareWarning
         aria-hidden="true"
-        class="pointer-events-none absolute top-3 left-3 size-4 text-muted-foreground"
+        class="pointer-events-none absolute top-3 left-3 size-4 text-muted-foreground transition-colors duration-150 ease-out group-focus-within:text-ring"
       />
       <Textarea
         id="contact-message"

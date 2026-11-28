@@ -19,3 +19,7 @@ Submit feedback uses the existing `muted`, `border`, `muted-foreground`, `primar
 While the request runs, the form carries `aria-busy="true"`. The submit button is disabled but stays at full opacity, and its Send icon is replaced by a Lucide `loader-circle` that spins at 700ms per turn. Without this, only the loading sound showed that sending was in progress, and visitors with sound off saw a dimmed button that looked unavailable. Under reduced motion, the global rule in `theme.css` leaves a static loader icon.
 
 Cloudflare Turnstile legal copy is shown only when `TURNSTILE_SITE_KEY` is set. Its privacy-policy and terms links are colored with `var(--color-link)` and underlined in the component stylesheet because the disclaimer is not prose content.
+
+## Field icons
+
+Each field (name, email, and message) has a decorative Lucide icon inside it, on the left side. The icon is `muted-foreground` at rest. When the field has focus, it changes to the `ring` coral (`group-focus-within:text-ring`) over 150ms, so it matches the field's focus border. The form uses `ring` and not `primary` because `primary` (`#ec7263`) is not contrast-safe on `card` in dark mode (see `DESIGN.md`). The icons are `aria-hidden`. The colour change only repeats the focus state that the focus ring already shows.
