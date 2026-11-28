@@ -101,6 +101,7 @@
     "cache:warm": "node ./src/scripts/deploy/cache-warm.ts",
     "check": "npm run format:check && npm run lint && npm run validate && npm run test",
     "check:full": "node src/scripts/check-full.ts",
+    "check:language": "node src/scripts/lint-content-language.ts",
     "clean": "wireit",
     "clean:full": "wireit",
     "clean:pagefind": "rm -rf node_modules/.astro/pagefind dist/pagefind",

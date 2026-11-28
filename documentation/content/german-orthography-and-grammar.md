@@ -13,6 +13,7 @@ The design follows a layered approach: a dictionary decides what is *allowed*, e
 ## When the checks run
 
 * **Pre-commit (staged content):** every staged `src/content/**/*.md` file goes through all three layers. Content that is edited or added must pass at once: when a post is touched, its existing findings are fixed in the same commit. `src/scripts/lint-content-language.ts` runs CSpell, Vale, and the grammar check one after the other and fails at the end, so all findings in a post show in one run (lint-staged would otherwise stop the other tasks after the first failure). The grammar check starts LanguageTool in Docker when it is not running, which adds about 10 seconds to the first commit; the container then keeps running until `npm run languagetool:stop`.
+* **`npm run check:language -- <files...>`:** runs the same three checks as the pre-commit hook on the given Markdown files, for example `npm run check:language -- src/content/posts/2026/example/index.md`. Use it to check a post before you stage it.
 * **`npm run check:full`:** runs `check` and every archive-wide check (`lint:spell`, `lint:orthography`, `lint:grammar`, `lint:german-dates`, `lint:links`). It does not stop at a failure and prints a summary, so the archive baseline can be fixed step by step. A full run takes about seven minutes, mostly for the link check.
 * **`npm run check`:** not included, because the untriaged archive baseline would make it fail. See [Quality gates](../quality-gates.md).
 
@@ -182,11 +183,11 @@ The pipeline is based on a research comparison of German proofreading tools. The
 
 ## Next steps
 
-Tracked in [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774):
+The broken `ß` repair from [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774) is complete: on 2026-10-10 the archive-wide Vale scan reported no `BrokenEszett` findings, and on 2026-11-28 it still reported none. The method used intact spellings elsewhere in the archive, dictionary checks, and contextual review; real question marks remain unchanged.
 
-* The deferred German character repair was completed on 2026-10-10. The remaining stash repairs were restored in 197 posts without overwriting later Flickr restoration or language edits. This includes umlauts, word-final `ß` forms, and two additional cases (`Scho?` → `Schoß`, `Strafstro?` → `Strafstoß`). The repair method uses intact spellings elsewhere in the archive, dictionary checks, and contextual review; real question marks remain unchanged. The archive-wide Vale scan now reports no `BrokenEszett` findings. The other language baselines remain tracked in [#1774](https://github.com/davidsneighbour/samui-samui.de/issues/1774).
+* The remaining CSpell and LanguageTool findings in the archive are not tracked as an issue. New and edited posts must pass the pre-commit checks, so the baseline only gets smaller. Improve older posts as you edit them.
 * Repair the other characters the same import broke (quotes, dashes, apostrophes, transliterated names, Textpattern baht tags), see [#1781](https://github.com/davidsneighbour/samui-samui.de/issues/1781). Broken Thai script is tracked in [#1706](https://github.com/davidsneighbour/samui-samui.de/issues/1706).
-* Work through the remaining `npm run check:full` failures, then decide which checks can join `npm run check`.
+* When `npm run check:full` reports few enough findings, decide which language checks can join `npm run check`.
 
 ## Static-map migration vocabulary
 

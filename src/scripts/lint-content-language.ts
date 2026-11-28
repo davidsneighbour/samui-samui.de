@@ -6,11 +6,19 @@
  * lint-staged would otherwise stop the remaining tasks after the first
  * failure. See documentation/content/german-orthography-and-grammar.md.
  *
- * Usage: node src/scripts/lint-content-language.ts <files...>
+ * Usage:
+ *   node src/scripts/lint-content-language.ts <files...>
+ *   npm run check:language -- <files...>
  */
 import { spawnSync } from 'node:child_process';
 
-const files = process.argv.slice(2).filter((file) => file.endsWith('.md'));
+const args = process.argv.slice(2);
+if (!args.length) {
+  console.error('Usage: npm run check:language -- <files...>');
+  process.exit(1);
+}
+
+const files = args.filter((file) => file.endsWith('.md'));
 
 const checks: [string, string[]][] = [
   [
