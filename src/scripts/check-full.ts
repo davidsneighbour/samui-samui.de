@@ -14,7 +14,6 @@ export const FULL_CHECKS = [
   'lint:spell',
   'lint:orthography',
   'lint:grammar',
-  'lint:german-dates',
   'lint:links',
 ];
 

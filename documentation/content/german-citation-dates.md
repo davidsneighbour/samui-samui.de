@@ -6,7 +6,7 @@ Dates in German post citations use a day followed by a full German month name: `
 
 `npm run lint:german-dates -- src/content/posts/2026/example/index.md` checks one post without changing it. With no paths, `npm run lint:german-dates` audits all content Markdown and MDX. Findings include the source file, line, column, original date, and a suggested German spelling. Findings cause a non-zero exit status; corrections remain editorial decisions.
 
-The pre-commit lint-staged content task runs this check on edited Markdown and MDX. The whole-content audit remains separate from `npm run check`, because inherited citations still contain English dates. [The archive follow-up](https://github.com/davidsneighbour/samui-samui.de/issues/1739) records the current findings and the gate's scope.
+The pre-commit lint-staged content task runs this check on edited Markdown and MDX. `npm run lint` (and so `npm run check`) also runs the whole-content audit. The last inherited English dates were normalised in [#1739](https://github.com/davidsneighbour/samui-samui.de/issues/1739), so any new finding fails the gate.
 
 The detector checks text in Markdown footnote definitions. It recognises English month names, month-first dates such as `Sep 23`, abbreviated months such as `23. Sept.`, missing day punctuation such as `17 August 2026`, and lower-case month names. It leaves linked source titles, link destinations, code, HTML, blockquotes, frontmatter, and prose outside footnotes unchanged. Original foreign-language article titles should remain linked and unchanged.
 

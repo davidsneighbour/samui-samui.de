@@ -74,5 +74,7 @@ Für thailändische Reisende ist die Situation eine andere. Rang 62 bedeutet nic
 
 Ein Reisepass ist eben nicht nur ein Identitätsdokument. Er ist auch ein stilles Privileg oder eine zusätzliche Hürde, die man erst bemerkt, wenn man gemeinsam dieselbe Reise plant.
 
-[^src-henley-20260817-passport-ranking]: Henley & Partners: ["Global Passport Ranking"](https://www.henleyglobal.com/passport-index/ranking), laufende Rangliste (accessed 17 August 2026).
-[^src-bangkokpost-20260725-thailand-passport-ranking]: Bangkok Post, gespiegelt bei The Phuket News: ["Thailand passport ranking slides"](https://www.thephuketnews.com/thailand-passport-ranking-slides-101077.php), 25 July 2026 (accessed 17 August 2026).
+[^src-henley-20260817-passport-ranking]: Henley & Partners: ["Global Passport Ranking"](https://www.henleyglobal.com/passport-index/ranking), laufende Rangliste (abgerufen am 17. August 2026).
+[^src-bangkokpost-20260725-thailand-passport-ranking]: Bangkok Post, gespiegelt bei The Phuket News: ["Thailand passport ranking slides"](https://www.thephuketnews.com/thailand-passport-ranking-slides-101077.php), 25. Juli 2026 (abgerufen am 17. August 2026).
+
+<!-- cspell:ignore Andrej andrej Lisakov lisakov unsplash henley Leste Visumsbeantragung Visumantrag reisefreundlichsten -->

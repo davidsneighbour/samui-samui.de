@@ -11,7 +11,7 @@ Use named Markdown footnotes, not numeric footnotes:
 ```markdown
 The new ferry service is expected to start in August.[^src-bangkokpost-20260720-samui-ferry]
 
-[^src-bangkokpost-20260720-samui-ferry]: Bangkok Post: ["New ferry route for Samui"](https://example.com/new-ferry-route), 20 July 2026 (accessed 22 July 2026).
+[^src-bangkokpost-20260720-samui-ferry]: Bangkok Post: ["New ferry route for Samui"](https://example.com/new-ferry-route), 20. Juli 2026 (abgerufen am 22. Juli 2026).
 ```
 
 Do not use `[^1]`, `[^2]`, and similar numeric identifiers for source citations. Numeric identifiers are easy to collide with existing footnotes when text is copied between posts or assembled from research notes.
@@ -62,7 +62,7 @@ The footnote text should be compact. Put interpretation in the post prose, not i
 Link the source item title in the footnote by default:
 
 ```markdown
-[^src-tatnews-20260714-samui-award]: TAT Newsroom: ["Ko Samui receives island award"](https://example.com/samui-award), 14 July 2026 (accessed 22 July 2026).
+[^src-tatnews-20260714-samui-award]: TAT Newsroom: ["Ko Samui receives island award"](https://example.com/samui-award), 14. Juli 2026 (abgerufen am 22. Juli 2026).
 ```
 
 Use a raw URL only when the title is unavailable, unstable, or the exact URL is itself editorially relevant. Do not put both a linked title and the same raw URL in the same citation unless there is a specific reason.

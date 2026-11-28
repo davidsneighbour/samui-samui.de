@@ -128,7 +128,7 @@
     "format:check": "biome format .",
     "languagetool:start": "docker run --detach --rm --name samui-languagetool --publish 127.0.0.1:8010:8010 erikvl87/languagetool:6.8",
     "languagetool:stop": "docker stop samui-languagetool",
-    "lint": "npm run lint:code && npm run lint:markdown && npm run lint:umlauts",
+    "lint": "npm run lint:code && npm run lint:markdown && npm run lint:umlauts && npm run lint:german-dates",
     "lint:code": "biome lint .",
     "lint:code:fix": "biome lint --write .",
     "lint:fix": "npm run lint:code:fix && npm run lint:markdown:fix && npm run lint:umlauts:fix",

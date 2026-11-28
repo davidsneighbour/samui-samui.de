@@ -20,7 +20,7 @@ Use `lint` for static analysis and prose/code conventions, not for exact contrac
 
 Mutating commands must be named explicitly. `format` writes canonical formatting, `lint:*:fix` applies safe lint fixes, and `*:write` or `*:update` commands may write generated output, dependency updates, caches, or policy files. Do not hide mutating commands under `check`, `lint`, `validate`, `test`, or `audit`.
 
-`check:full` runs `check` plus every archive-wide check that is not part of it: `lint:spell`, `lint:orthography`, `lint:grammar`, `lint:german-dates`, and `lint:links`. It runs all of them even when one fails and ends with a pass/fail summary, so the archive baseline can be fixed step by step. It is not used by any git hook.
+`check:full` runs `check` plus every archive-wide check that is not part of it: `lint:spell`, `lint:orthography`, `lint:grammar`, and `lint:links`. It runs all of them even when one fails and ends with a pass/fail summary, so the archive baseline can be fixed step by step. It is not used by any git hook.
 
 `lint:spell`, `lint:orthography`, and `lint:grammar` remain separate from `check` because the inherited content archive still produces a large baseline of known findings. They run on staged content Markdown in the pre-commit hook instead (through `src/scripts/lint-content-language.ts`), so edited and new content must pass them at once. `lint:spell` runs CSpell, `lint:orthography` runs Vale with the house spelling rules, and `lint:grammar` sends prose to a local LanguageTool server, which it starts in Docker when needed. See [German orthography and grammar](content/german-orthography-and-grammar.md).
 
@@ -30,7 +30,7 @@ Mutating commands must be named explicitly. `format` writes canonical formatting
 
 `npm run build` uses Astro's normal logging level after validation. Use `npm run build:verbose` when a build needs Astro's verbose diagnostic output.
 
-`lint:german-dates` checks date spelling in Markdown footnote prose. Lint-staged runs it on edited content, while the explicit whole-content audit stays separate from `check` during the archive cleanup. It reports suggested German spellings without changing dates. See [German citation dates](content/german-citation-dates.md) for its scope and exclusions.
+`lint:german-dates` checks date spelling in Markdown footnote prose. Lint-staged runs it on edited content, and `lint` runs the whole-content audit, because the archive has no remaining findings since 2026-11-28. It reports suggested German spellings without changing dates. See [German citation dates](content/german-citation-dates.md) for its scope and exclusions.
 
 `src/assets/brand/` is excluded from commit and push file checks because it contains brand artwork, presentation pages, and generated exports. Its local lint-staged configuration assigns no tasks, while Biome, markdownlint, and TypeScript exclude the directory from repository scans. The default umlaut, taxonomy, and test scopes already sit outside this directory. Assets remain tracked in Git, and checks still run for other staged files and for application code that imports brand assets.
 

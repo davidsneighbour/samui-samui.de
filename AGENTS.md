@@ -218,7 +218,7 @@ npm run preview              # astro preview
 npm run validate             # strict project/content/type contracts
 npm run validate:content     # astro check on its own
 npm run check                # non-mutating quality gate: format:check + lint + validate + test
-npm run check:full           # check + all archive-wide checks (spelling, orthography, grammar, dates, links), with a summary
+npm run check:full           # check + all archive-wide checks (spelling, orthography, grammar, links), with a summary
 npm run check:language -- <files>  # spelling, orthography, and grammar for the given posts
 npm run lint:fix              # apply safe autofixes: Biome + markdownlint
 npm run compile:package        # regenerate package.json from src/packages/**/*.jsonc fragments, then npm install
