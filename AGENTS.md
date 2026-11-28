@@ -310,7 +310,7 @@ entries and `unwantedRecommendations` in `.vscode/extensions.json`).
 ### Astro foundation
 
 Static output (`output: 'static'`) via `astro.config.ts`. Integrations: `@astrojs/mdx`,
-`@astrojs/sitemap`, `@astrojs/rss`, `astro-icon`, a hand-rolled `pagefind` build
+`@astrojs/sitemap`, `@astrojs/rss`, a hand-rolled `pagefind` build
 integration (`src/scripts/integrations/pagefind.ts`), and `@tailwindcss/vite` for
 styling. Path aliases (`@assets`, `@components`, `@config`, `@content`, `@data`,
 `@layouts`, `@packages`, `@pages`, `@scripts`, `@styles`, `@test`, `@utils`, `@/*`)

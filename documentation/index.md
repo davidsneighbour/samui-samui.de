@@ -7,6 +7,7 @@
 * [Blog list previews](components/blog-list-previews.md) documents rendered HTML excerpts and featured-card behavior in `BlogList.astro`.
 * [Component structure](components/structure.md) defines the topic-based `src/components/` folder layout.
 * [Currency amounts](components/currency.md) documents explicit THB/EUR authoring, shared reference-rate caching, privacy, and legacy migration.
+* [Icons](components/icons.md) lists the icon packages (Lucide, simple-icons), where each is used, and why they are not merged.
 * [Giscus comments](components/giscus-comments.md) documents the lazy giscus widget, custom theme URLs, and local-development theme limitations.
 * [Footer](components/footer.md) documents the shared footer's social profile links, icons, and accessibility.
 * [Header navigation](components/header-navigation.md) documents sticky positioning, footer release, keyboard focus, anchor clearance, and view-transition cleanup.

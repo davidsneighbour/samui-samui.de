@@ -3,7 +3,8 @@ title: Kontakt
 lastmod: 2024-03-09T11:46:04+07:00
 ---
 
-import { Icon } from 'astro-icon/components';
+import BrandIcon from '@components/ui/BrandIcon.astro';
+import { siDropbox } from 'simple-icons';
 import ContactForm from '@components/features/contact/ContactForm.astro';
 import ContactMap from '@components/features/contact/ContactMap';
 import { getMapPointBySlug } from '@data/map-points';
@@ -25,7 +26,7 @@ Die Emails aus diesem Kontaktformular landen direkt in meiner Mailbox. Im Prinzi
 
 Schroffe oder beleidigende Nachrichten werden wohlwollend unbeantwortet gelassen und zur späteren kommentierenden bloß-stellenden Publikation gesammelt. Es gelten dabei sinngemäß dieselben Regeln wie in den [Kommentarrichtlinien][5].
 
-Wenn du mir Dateien schicken willst, nutze dieses <a href="https://www.dropbox.com/request/wqjpzsh4rrrajc4lvvfk" class="inline-flex items-baseline gap-1"><Icon name="simple-icons:dropbox" aria-hidden="true" class="size-4 shrink-0" /> Dropbox-Formular</a>.
+Wenn du mir Dateien schicken willst, nutze dieses <a href="https://www.dropbox.com/request/wqjpzsh4rrrajc4lvvfk" class="inline-flex items-baseline gap-1"><BrandIcon icon={siDropbox} class="size-4 shrink-0" /> Dropbox-Formular</a>.
 
 [1]: /kleingedrucktes/datenschutzerklaerung/
 

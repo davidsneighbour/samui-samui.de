@@ -4,7 +4,6 @@ import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'astro/config';
-import icon from 'astro-icon';
 import rehypeRaw from 'rehype-raw';
 import mkcert from 'vite-plugin-mkcert';
 import redirects from './src/data/redirects.json';
@@ -77,11 +76,6 @@ export default defineConfig({
       namespaces: { image: false, news: false, video: false, xhtml: false },
       xslURL: '/feeds/sitemap.xsl',
     }),
-    // Icons come from the installed Iconify sets (@iconify-json/*). astro-icon
-    // cannot switch off its local SVG folder and warns (and skips writing the
-    // icon-name types) when the folder is missing, so src/assets/icons exists
-    // with only a .gitkeep.
-    icon({ iconDir: 'src/assets/icons' }),
     pagefind({ indexConfig: { keepIndexUrl: true } }),
     react(),
   ],

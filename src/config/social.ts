@@ -1,51 +1,61 @@
+import type { SimpleIcon } from 'simple-icons';
+import {
+  siBluesky,
+  siFacebook,
+  siInstagram,
+  siMastodon,
+  siReddit,
+  siThreads,
+} from 'simple-icons';
+
 /** Public site destinations, independent of Posthaste publishing credentials. */
 export interface SocialNetwork {
   readonly id: string;
   readonly name: string;
   readonly href: `https://${string}`;
-  readonly icon: `simple-icons:${string}`;
+  readonly icon: SimpleIcon;
   readonly tooltip: string;
 }
 
 export const SOCIAL_NETWORKS = [
   {
     href: 'https://mastodon.social/@samuisamui',
-    icon: 'simple-icons:mastodon',
+    icon: siMastodon,
     id: 'mastodon',
     name: 'Mastodon',
     tooltip: 'Folge mir auf Mastodon',
   },
   {
     href: 'https://bsky.app/profile/samui-samui.de',
-    icon: 'simple-icons:bluesky',
+    icon: siBluesky,
     id: 'bluesky',
     name: 'Bluesky',
     tooltip: 'Folge mir auf Bluesky',
   },
   {
     href: 'https://www.reddit.com/r/samuisamui/',
-    icon: 'simple-icons:reddit',
+    icon: siReddit,
     id: 'reddit',
     name: 'Reddit',
     tooltip: 'Tausch dich auf Reddit aus',
   },
   {
     href: 'https://www.threads.com/@samuisamui_de',
-    icon: 'simple-icons:threads',
+    icon: siThreads,
     id: 'threads',
     name: 'Threads',
     tooltip: 'Folge mir auf Threads',
   },
   {
     href: 'https://www.facebook.com/samui.samui',
-    icon: 'simple-icons:facebook',
+    icon: siFacebook,
     id: 'facebook',
     name: 'Facebook',
     tooltip: 'Folge mir auf Facebook',
   },
   {
     href: 'https://www.instagram.com/samuisamui_de',
-    icon: 'simple-icons:instagram',
+    icon: siInstagram,
     id: 'instagram',
     name: 'Instagram',
     tooltip: 'Folge mir auf Instagram',

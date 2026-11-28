@@ -1,10 +1,10 @@
 ---
 import Analytics from '@components/features/analytics/Analytics.astro';
 import WeatherWidget from '@components/features/weather/WeatherWidget.astro';
+import BrandIcon from '@components/ui/BrandIcon.astro';
 import Tooltip from '@components/ui/tooltip.astro';
 import { SOCIAL_NETWORKS } from '@config/social';
 import { Copyright, Landmark, Scale, Volume2, VolumeX } from '@lucide/astro';
-import { Icon } from 'astro-icon/components';
 import { version } from '../../../../package.json';
 
 interface Props {
@@ -45,7 +45,7 @@ const releaseUrl = `https://github.com/davidsneighbour/samui-samui.de/releases/t
           aria-describedby={`footer-social-${id}`}
           class="inline-flex size-11 items-center justify-center rounded-(--radius) text-foreground hover:bg-accent hover:text-accent-foreground focus-visible:focus-ring"
         >
-          <Icon name={icon} class="size-5" aria-hidden="true" />
+          <BrandIcon icon={icon} class="size-5" />
         </a>
       </Tooltip>
     ))}
