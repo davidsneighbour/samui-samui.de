@@ -301,6 +301,20 @@ html {
   @apply scrollbar-thin scrollbar-thumb-muted scrollbar-track-background hover:scrollbar-thumb-primary;
 }
 
+/*
+ * Pagefind resets its custom elements with `all: initial` and then sets
+ * `color: CanvasText`. `all: initial` also resets `color-scheme` to `normal`,
+ * so CanvasText follows the operating system: with a dark OS, result titles
+ * (which inherit this colour) turned white on the light search surfaces. Use
+ * the site's card text colour instead (the value `--pf-text` maps to above;
+ * `--pf-text` itself is not used here, because Pagefind's stylesheet also sets
+ * it on :root and loads later). `:root` raises specificity above Pagefind's
+ * plain element selectors.
+ */
+:root :is(pagefind-results, pagefind-searchbox, pagefind-summary) {
+  color: var(--color-card-foreground);
+}
+
 .pagefind-archive-search,
 .pagefind-search-page {
   /* Pagefind's own default (--pf-background: var(--color-card)) reads as
