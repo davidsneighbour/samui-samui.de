@@ -155,9 +155,14 @@ test('header options stay collapsed and the field stays in one row after navigat
     const header = page.locator('.header-search');
     await expect(header.locator('input[type="checkbox"]')).toBeHidden();
     const field = await header.locator('pagefind-searchbox').boundingBox();
+    const options = await header.locator('summary').boundingBox();
     const bounds = await header.boundingBox();
     expect(field).not.toBeNull();
-    expect(bounds!.height).toBeLessThanOrEqual(field!.height + 2);
+    expect(options).not.toBeNull();
+    // One row is as tall as its tallest item: the 44px options button
+    // (size-11) is taller than the 40px field (#1879).
+    const rowHeight = Math.max(field!.height, options!.height);
+    expect(bounds!.height).toBeLessThanOrEqual(rowHeight + 2);
     await header.locator('summary').focus();
     await page.keyboard.press('Enter');
     await expect(header.locator('input[type="checkbox"]')).toBeVisible();
