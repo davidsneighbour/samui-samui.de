@@ -8,7 +8,7 @@
   "author": {
     "email": "davidsneighbourdev+gh@gmail.com",
     "name": "Patrick Kollitsch",
-    "web": "https://davids-neighbour.com"
+    "web": "https://davidsneighbour.dev"
   },
   "dependencies": {
     "@astrojs/react": "7.1.9",

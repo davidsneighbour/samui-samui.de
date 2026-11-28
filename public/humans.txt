@@ -1,6 +1,6 @@
 /* TEAM */
 Developer: Patrick Kollitsch
-Site: https://davids-neighbour.com
+Site: https://davidsneighbour.dev
 Twitter: https://twitter.com/davidsneighbour
 Location: Koh Samui, Thailand
 
