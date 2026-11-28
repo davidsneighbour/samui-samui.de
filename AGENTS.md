@@ -97,6 +97,8 @@ origin behind the Cloudflare cache, with a Cloudflare Worker for `/api/*`
 
 ## Repo-local assistant skills
 
+Read [PRODUCT.md](PRODUCT.md) for confirmed product context. The comp-first preference in `.impeccable/config.json` applies to Codex landing-page and showcase work only. Other tools MUST NOT treat that value as an owner-approved workflow preference for their environment; ask if a workflow choice is needed. App screens and documents remain code-first. See [Impeccable workflow](documentation/impeccable.md).
+
 * Samui-specific assistant skills live in `.agents/skills/` and use the `ss-*` prefix.
   Every direct child folder matching `.agents/skills/ss-*/SKILL.md` MUST be treated as
   available to assistant conversations in this repository.

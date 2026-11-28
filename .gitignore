@@ -220,6 +220,9 @@ test-results/
 .github/hooks/
 .github/skills/
 
+# Developer-local Impeccable overrides; shared context remains tracked.
+/.impeccable/config.local.json
+
 # Wrangler local state and dry-run bundles; local Worker secrets
 .wrangler/
 .dev.vars*

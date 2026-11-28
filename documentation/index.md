@@ -81,6 +81,7 @@
 
 ## Repository
 
+* [Impeccable workflow](impeccable.md) documents product-context ownership, the Codex comp-first preference, live-mode configuration, and tracked design artifacts.
 * [Dependency security](dependency-security.md) records safe remediation, package-fragment ownership, and unresolved advisory tracking.
 * [Hugo legacy version](hugo-legacy.md) records the last Hugo commit before the Astro migration, which the deleted `legacy/hugo` branch pointed to.
 * [Documentation server](documentation-server.md) explains the local Markdown preview server that can run beside the Astro dev server.
