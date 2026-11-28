@@ -1,8 +1,18 @@
 import { spawnSync } from 'node:child_process';
+import { mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import path from 'node:path';
-import { describe, expect, it } from 'vitest';
+import { afterAll, describe, expect, it } from 'vitest';
 
 const vale = path.resolve('node_modules/.bin/vale');
+const config = path.resolve('.vale.ini');
+
+// .vale.ini applies SamuiDE only below src/content, so the sample goes into a
+// src/content folder in a temporary directory.
+const tempRoot = mkdtempSync(path.join(tmpdir(), 'samui-vale-'));
+const contentDir = path.join(tempRoot, 'src', 'content');
+mkdirSync(contentDir, { recursive: true });
+afterAll(() => rmSync(tempRoot, { force: true, recursive: true }));
 
 interface ValeAlert {
   Check: string;
@@ -12,15 +22,17 @@ interface ValeAlert {
 
 /** Lint Markdown through the repository's .vale.ini and SamuiDE style. */
 function lint(markdown: string, ...args: string[]): ValeAlert[] {
+  const file = path.join(contentDir, 'sample.md');
+  writeFileSync(file, markdown);
   // Vale exits with 1 when it reports errors, so read stdout either way.
   const { status, stdout, stderr } = spawnSync(
     vale,
-    ['--no-global', '--ext=.md', '--output=JSON', ...args],
-    { encoding: 'utf8', input: markdown },
+    ['--no-global', `--config=${config}`, '--output=JSON', ...args, file],
+    { encoding: 'utf8' },
   );
   if (status !== 0 && status !== 1) throw new Error(`Vale failed: ${stderr}`);
   const result = JSON.parse(stdout) as Record<string, ValeAlert[]>;
-  return result['stdin.md'] ?? [];
+  return Object.values(result)[0] ?? [];
 }
 
 const suggestions = (alerts: ValeAlert[]) =>
